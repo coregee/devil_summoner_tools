@@ -1,0 +1,25 @@
+{
+  "file": "FNT12X12.FON",
+  "sha256": "c8318e97906f902c0b3471d6b0277e3a0c05a100cdd206d33333d9117fb8836e",
+  "description": "FNT12X12.FON bitmap OCR, cross-checked against BTL_MES.MD8 message context",
+  "format": {
+    "width": 12,
+    "height": 12,
+    "bpp": 1,
+    "row_stride": 2,
+    "glyph_stride": 32
+  },
+  "atlas": {
+    "columns": 16,
+    "scale": 4,
+    "groups": {
+      "kanji": [
+        {
+          "start": 0,
+          "characters": "会心必殺反射吸収防御壁無効果回避範囲外量不足復活攻撃力命中魔出現解除弾切失敗続消滅持正気奪威法呪殺物理所"
+        }
+      ]
+    }
+  },
+  "repack": {}
+}

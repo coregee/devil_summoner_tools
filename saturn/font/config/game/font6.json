@@ -1,0 +1,34 @@
+{
+  "file": "FONT6.FON",
+  "sha256": "8a3469ff3ef89587c16c944df26d951948ad0771c5d487ca8897ba0e8bf81be5",
+  "description": "Used for party panel HP/MP text. No need to swap out.",
+  "format": {
+    "width": 6,
+    "height": 8,
+    "bpp": 4,
+    "row_stride": 3,
+    "glyph_stride": 24
+  },
+  "atlas": {
+    "columns": 14,
+    "scale": 8,
+    "groups": {
+      "numbers": [
+        {
+          "replace": false,
+          "start": 1,
+          "characters": "0123456789"
+        }
+      ],
+      "characters": [
+        {
+          "replace": false,
+          "11": ".",
+          "12": "H",
+          "13": "M"
+        }
+      ]
+    }
+  },
+  "repack": {}
+}

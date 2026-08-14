@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "steps": [
+    {
+      "id": "restore_discs",
+      "description": "Restore both extracted disc mirrors before applying generated replacements.",
+      "type": "python",
+      "script": "rom/extract.py",
+      "arguments": ["all", "--overwrite"],
+      "check_arguments": null
+    },
+    {
+      "id": "repack_fonts",
+      "description": "Rebuild every configured Saturn font and its derived metrics.",
+      "type": "python",
+      "script": "font/repack.py",
+      "arguments": ["all"],
+      "check_arguments": ["all", "--check"]
+    },
+    {
+      "id": "install_fonts",
+      "description": "Install generated fonts at their exact game and compendium targets.",
+      "type": "copy",
+      "files": [
+        {
+          "source": "font/generated/game/FNT12X12.FON",
+          "destination": "rom/extracted/game/FNT12X12.FON"
+        },
+        {
+          "source": "font/generated/game/FNT8X12.FON",
+          "destination": "rom/extracted/game/FNT8X12.FON"
+        },
+        {
+          "source": "font/generated/game/FONT12.FON",
+          "destination": "rom/extracted/game/FONT12.FON"
+        },
+        {
+          "source": "font/generated/game/FONT16.FON",
+          "destination": "rom/extracted/game/FONT16.FON"
+        },
+        {
+          "source": "font/generated/game/FONT6.FON",
+          "destination": "rom/extracted/game/FONT6.FON"
+        },
+        {
+          "source": "font/generated/game/FONT8.FON",
+          "destination": "rom/extracted/game/FONT8.FON"
+        },
+        {
+          "source": "font/generated/game/ICON.FON",
+          "destination": "rom/extracted/game/ICON.FON"
+        },
+        {
+          "source": "font/generated/game/KANJI.FON",
+          "destination": "rom/extracted/game/KANJI.FON"
+        },
+        {
+          "source": "font/generated/game/KANJI.FON",
+          "destination": "rom/extracted/game/MMP/KANJI.FON"
+        },
+        {
+          "source": "font/generated/compendium/FONT16.FON",
+          "destination": "rom/extracted/compendium/FONT16.FON"
+        }
+      ]
+    },
+    {
+      "id": "repack_visuals",
+      "description": "Apply every changed visual asset to its extracted disc mirror.",
+      "type": "python",
+      "script": "visual/repack.py",
+      "arguments": ["all"],
+      "check_arguments": ["all", "--check"]
+    },
+    {
+      "id": "build_discs",
+      "description": "Build and verify both patched BIN/CUE sets.",
+      "type": "python",
+      "script": "rom/repack.py",
+      "arguments": ["all", "--overwrite"],
+      "check_arguments": ["all", "--check"]
+    }
+  ],
+  "profiles": {
+    "default": {
+      "description": "Build the complete translation currently available in this project.",
+      "steps": [
+        "restore_discs",
+        "repack_fonts",
+        "install_fonts",
+        "repack_visuals",
+        "build_discs"
+      ],
+      "outputs": ["game", "compendium"]
+    }
+  }
+}

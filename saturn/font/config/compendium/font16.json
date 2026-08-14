@@ -1,0 +1,18 @@
+{
+  "file": "FONT16.FON",
+  "sha256": "1f2ae8b3cb64830e097075bde124d0958d0bfe42002c63c83e08b4aa173c391e",
+  "description": "Akuma Zensho 16x16 font. Identity-only until its independent replacement map and renderer contract are established.",
+  "format": {
+    "width": 16,
+    "height": 16,
+    "bpp": 1,
+    "row_stride": 2,
+    "glyph_stride": 32
+  },
+  "atlas": {
+    "columns": 48,
+    "scale": 2,
+    "groups": {}
+  },
+  "repack": {}
+}

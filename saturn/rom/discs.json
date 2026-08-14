@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "discs": {
+    "game": {
+      "title": "Shin Megami Tensei: Devil Summoner (Japan) (Rev B)",
+      "cue": "Shin Megami Tensei - Devil Summoner (Japan) (Rev B).cue",
+      "tracks": [
+        {
+          "number": 1,
+          "file": "Shin Megami Tensei - Devil Summoner (Japan) (Rev B) (Track 1).bin",
+          "file_type": "BINARY",
+          "mode": "MODE1/2352",
+          "indexes": {"1": 0},
+          "size": 430467744,
+          "sha256": "9fb801057082ff482343a45667120ac2af5374ecdf848b22ec3d082922662b6f"
+        },
+        {
+          "number": 2,
+          "file": "Shin Megami Tensei - Devil Summoner (Japan) (Rev B) (Track 2).bin",
+          "file_type": "BINARY",
+          "mode": "AUDIO",
+          "indexes": {"0": 0, "1": 150},
+          "size": 18926544,
+          "sha256": "3775364bd418c7b9179c5fd19fd34ae81cf659230acd7add8932044a67d30b3a"
+        }
+      ]
+    },
+    "compendium": {
+      "title": "Shin Megami Tensei: Devil Summoner - Akuma Zensho (Japan)",
+      "cue": "Shin Megami Tensei - Devil Summoner - Akuma Zensho (Japan).cue",
+      "tracks": [
+        {
+          "number": 1,
+          "file": "Shin Megami Tensei - Devil Summoner - Akuma Zensho (Japan) (Track 1).bin",
+          "file_type": "BINARY",
+          "mode": "MODE1/2352",
+          "indexes": {"1": 0},
+          "size": 209753712,
+          "sha256": "d9b2b0c74eda78c54682cea28d50307dec969201a3631cf9f53df9ee48a1fb85"
+        },
+        {
+          "number": 2,
+          "file": "Shin Megami Tensei - Devil Summoner - Akuma Zensho (Japan) (Track 2).bin",
+          "file_type": "BINARY",
+          "mode": "AUDIO",
+          "indexes": {"0": 0, "1": 150},
+          "size": 84998928,
+          "sha256": "a3980d56387ef59c3de37850269d4bd1cd0a1ed970a140ae9aadadfc34c7be9e"
+        },
+        {
+          "number": 3,
+          "file": "Shin Megami Tensei - Devil Summoner - Akuma Zensho (Japan) (Track 3).bin",
+          "file_type": "BINARY",
+          "mode": "AUDIO",
+          "indexes": {"0": 0, "1": 149},
+          "size": 18924192,
+          "sha256": "c5721256415a9c6faf619c6a4b705c02dabfc18cd705ee7997defcdd35ae9cf0"
+        }
+      ]
+    }
+  }
+}
+

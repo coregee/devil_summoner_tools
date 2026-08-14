@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "views": [
+    {
+      "path": "TEX3D/ARCA_CHR/075_076.png",
+      "layout": "horizontal",
+      "targets": ["TEX3D/ARCA_CHR/075.png", "TEX3D/ARCA_CHR/076.png"]
+    },
+    {
+      "path": "TEX3D/CHI_CHR/049_050.png",
+      "layout": "horizontal",
+      "targets": ["TEX3D/CHI_CHR/049.png", "TEX3D/CHI_CHR/050.png"]
+    },
+    {
+      "path": "TEX3D/HDAI_CHR/037_038.png",
+      "layout": "horizontal",
+      "targets": ["TEX3D/HDAI_CHR/037.png", "TEX3D/HDAI_CHR/038.png"]
+    },
+    {
+      "path": "TEX3D/HHAK_CHR/032_033.png",
+      "layout": "horizontal",
+      "targets": ["TEX3D/HHAK_CHR/032.png", "TEX3D/HHAK_CHR/033.png"]
+    },
+    {
+      "path": "TEX3D/IDAI_CHR/039_040.png",
+      "layout": "horizontal",
+      "targets": ["TEX3D/IDAI_CHR/039.png", "TEX3D/IDAI_CHR/040.png"]
+    },
+    {
+      "path": "TEX3D/IDEN_CHR/043_044.png",
+      "layout": "horizontal",
+      "targets": ["TEX3D/IDEN_CHR/043.png", "TEX3D/IDEN_CHR/044.png"]
+    },
+    {
+      "path": "TEX3D/ITV_CHR/045_046.png",
+      "layout": "horizontal",
+      "targets": ["TEX3D/ITV_CHR/045.png", "TEX3D/ITV_CHR/046.png"]
+    },
+    {
+      "path": "TEX3D/SHI_CHR/063_064.png",
+      "layout": "horizontal",
+      "targets": ["TEX3D/SHI_CHR/063.png", "TEX3D/SHI_CHR/064.png"]
+    },
+    {
+      "path": "TEX3D/CYU_CHR/031.png",
+      "layout": "identity",
+      "targets": ["TEX3D/CYU_CHR/031.png", "TEX3D/ICYU_CHR/031.png"]
+    },
+    {
+      "path": "TEX3D/CYU_CHR/041.png",
+      "layout": "identity",
+      "targets": ["TEX3D/CYU_CHR/041.png", "TEX3D/ICYU_CHR/041.png"]
+    },
+    {
+      "path": "SAVE_LOAD/storage/internal_selected.png",
+      "layout": "identity",
+      "targets": ["SAVE/storage/internal_selected.png", "LOAD/storage/internal_selected.png"]
+    },
+    {
+      "path": "SAVE_LOAD/storage/internal_idle.png",
+      "layout": "identity",
+      "targets": ["SAVE/storage/internal_idle.png", "LOAD/storage/internal_idle.png"]
+    },
+    {
+      "path": "SAVE_LOAD/storage/cartridge_selected.png",
+      "layout": "identity",
+      "targets": ["SAVE/storage/cartridge_selected.png", "LOAD/storage/cartridge_selected.png"]
+    },
+    {
+      "path": "SAVE_LOAD/storage/cartridge_idle.png",
+      "layout": "identity",
+      "targets": ["SAVE/storage/cartridge_idle.png", "LOAD/storage/cartridge_idle.png"]
+    }
+  ]
+}

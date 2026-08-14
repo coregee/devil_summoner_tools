@@ -1,0 +1,76 @@
+# Saturn visuals
+
+This package owns the editable raster assets on both Saturn discs.
+
+```text
+extracted/game/          generated game-disc PNGs
+extracted/compendium/    generated compendium-disc PNGs
+modified/game/           tracked game manifest and sparse edited PNGs
+modified/compendium/     tracked compendium manifest and sparse edited PNGs
+util/                    discovery, codecs, and exceptional view definitions
+extract.py               extract and validate either or both working sets
+repack.py                patch changed images into the selected disc mirrors
+```
+
+`extracted/` is ignored because it can be recreated from the original discs.
+Each tracked `modified/<disc>/manifest.json` records the decoded pixel hashes;
+the remaining files under `modified/` are only the PNGs intentionally changed.
+
+## Extract
+
+From the project root:
+
+```powershell
+python -B saturn/visual/extract.py
+python -B saturn/visual/extract.py game --check
+python -B saturn/visual/extract.py compendium --check
+```
+
+The optional positional selector is `game`, `compendium`, or `all`; it defaults
+to `all`. Extraction never creates, replaces, or removes modified PNGs. Use
+`--overwrite` only after restoring the selected `rom/extracted/<disc>` mirror
+from its original disc. It replaces that disc's extracted baseline and
+manifest while preserving every existing modified PNG.
+
+The game catalog contains 2,365 logical images. It discovers the standalone
+rasters plus every model-described TEX3D and MMP texture.
+
+The initial compendium catalog deliberately contains only the 295 structures
+whose complete pixel spans are known:
+
+- 292 `DVL_*.DAT` profile images: 512x480 RGB555 pixels at offset zero; and
+- `NOAREA.CHR`, `NOSAVE.CHR`, and `TI.CHR`: 512x384 RGB555 screens.
+
+The 0x1dc-byte non-image tail of every profile file is left untouched. The
+`DVLDATA/*.CHR`, `A_TITLE.BIN`, `A_DIC.BIN`, and `ATL_LOGO.BIN` formats are not
+yet sufficiently classified and are intentionally excluded. The CPK files
+belong to the FMV workflow. The seven `OMAKE/*.BMP` files are already ordinary
+bonus-disc images and have not been shown to be runtime patch targets.
+
+## Repack
+
+```powershell
+python -B saturn/visual/repack.py --list
+python -B saturn/visual/repack.py game
+python -B saturn/visual/repack.py compendium --check
+```
+
+An absent modified PNG means that its original image is preserved. The manifest
+compares decoded pixels rather than PNG file bytes, so metadata or compression
+changes do not trigger a rebuild. Repacking starts with each current ROM file
+and changes only image records whose modified PNG differs from its baseline.
+Unrelated binary changes in the same file, including compendium profile text,
+are preserved. Run `saturn/rom/repack.py` for each disc afterward.
+
+The exceptional game layouts are declared in `util/special_views.json`:
+
+- eight two-texture images are stitched horizontally for editing and split at
+  their original widths during repacking;
+- identical SAVE/LOAD and CYU/ICYU images share one editable PNG; and
+- the three indexed `TITLE.BIN` overlays retain their individual runtime RGB555
+  palettes. Changed overlays are quantized back into those palette budgets,
+  including transparent and opaque black handling.
+
+Structural and byte-for-byte checks do not establish in-game presentation.
+Changed title, save/load, TEX3D, profile, and compendium warning screens still
+need emulator or hardware review after building the relevant disc.

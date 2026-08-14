@@ -1,0 +1,18 @@
+{
+  "file": "ICON.FON",
+  "sha256": "dcaa049c66913242108d1579c6a943c78f40c92c4fd71accd97c1797a2424b86",
+  "description": "Unmapped",
+  "format": {
+    "width": 12,
+    "height": 12,
+    "bpp": 4,
+    "row_stride": 6,
+    "glyph_stride": 72
+  },
+  "atlas": {
+    "columns": 7,
+    "scale": 6,
+    "groups": {}
+  },
+  "repack": {}
+}

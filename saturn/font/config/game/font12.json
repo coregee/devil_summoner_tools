@@ -1,0 +1,233 @@
+{
+  "file": "FONT12.FON",
+  "sha256": "8f83b04b83499226d5d82c78b0d556e9a625e1b9eccd21a1a3f76ff4a65fc8cb",
+  "description": "Dialogue single-byte character map recovered from FONT12.FON and corpus context",
+  "format": {
+    "width": 12,
+    "height": 12,
+    "bpp": 1,
+    "row_stride": 2,
+    "glyph_stride": 32
+  },
+  "atlas": {
+    "columns": 24,
+    "scale": 3,
+    "groups": {
+      "numbers": [
+        {
+          "replace": true,
+          "start": 1,
+          "characters": "0123456789"
+        }
+      ],
+      "letters": [
+        {
+          "replace": true,
+          "start": 11,
+          "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        {
+          "replace": true,
+          "start": 37,
+          "characters": "abcdefghijklmnopqrstuvwxyz"
+        }
+      ],
+      "kana": [
+        {
+          "start": 63,
+          "characters": "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん"
+        },
+        {
+          "start": 109,
+          "characters": "ぁぃぅぇぉっゃゅょ"
+        },
+        {
+          "start": 118,
+          "characters": "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン"
+        },
+        {
+          "start": 164,
+          "characters": "ァィゥェォッャュョ"
+        },
+        {
+          "start": 205,
+          "characters": "がぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽ"
+        },
+        {
+          "start": 230,
+          "characters": "ヴガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポ"
+        }
+      ],
+      "kanji": [
+        {
+          "start": 296,
+          "characters": "魔神女秘破壊地母鬼邪死幻妖精夜王"
+        },
+        {
+          "start": 312,
+          "characters": "大天使堕龍霊鳥凶獣聖珍御魂幽悪屍樹虫外道英雄造何"
+        },
+        {
+          "start": 336,
+          "characters": "合体目最後足本剣出名称記号始見方種類知誰身検索前"
+        },
+        {
+          "start": 360,
+          "characters": "法則可能通常表一覧示並変更族結果不具現元同力組存"
+        },
+        {
+          "start": 384,
+          "characters": "在色青白赤黄性十字内害左右上下選択以省略物仲順高"
+        },
+        {
+          "start": 408,
+          "characters": "低五音終了晶誕生位人間飛別化時間機"
+        }
+      ],
+      "symbols": [
+        {
+          "replace": true,
+          "0": " ",
+          "173": {
+            "ー": "-"
+          },
+          "174": {
+            "・": ""
+          },
+          "175": {
+            "：": ":"
+          },
+          "176": {
+            "．": "."
+          },
+          "177": {
+            "‘": "'"
+          },
+          "178": {
+            "’": "'"
+          },
+          "179": {
+            "！": "!"
+          },
+          "180": {
+            "？": "?"
+          },
+          "181": {
+            "。": ""
+          },
+          "182": {
+            "＿": "_"
+          },
+          "183": {
+            "＆": "&"
+          },
+          "184": {
+            "♂": null
+          },
+          "185": {
+            "♀": null
+          },
+          "186": {
+            "＃": "#"
+          },
+          "187": {
+            "{white_square}": null
+          },
+          "188": {
+            "↑": null
+          },
+          "189": {
+            "→": null
+          },
+          "190": {
+            "↓": null
+          },
+          "191": {
+            "←": null
+          },
+          "192": {
+            "{white_square}": null
+          },
+          "193": {
+            "♄": null
+          },
+          "194": {
+            "○": null
+          },
+          "195": {
+            "◎": null
+          },
+          "196": {
+            "◇": null
+          },
+          "197": {
+            "＞": ">"
+          },
+          "198": {
+            "／": "/"
+          },
+          "199": {
+            "、": ""
+          },
+          "200": {
+            "～": "~"
+          },
+          "201": {
+            "＜": "<"
+          },
+          "202": {
+            "（": "("
+          },
+          "203": {
+            "）": ")"
+          },
+          "204": {
+            "，": ","
+          },
+          "256": {
+            "…": "..."
+          },
+          "257": {
+            "“": "\""
+          },
+          "258": {
+            "”": "\""
+          },
+          "263": {
+            "＝": "="
+          },
+          "264": {
+            "％": "%"
+          },
+          "280": {
+            "{level_label}": "Lv"
+          }
+        }
+      ]
+    }
+  },
+  "repack": {
+    "source": "ark-pixel/ark-pixel-12px-proportional-latin.otf",
+    "source_sha256": "ba0bbfc888f51ddde1b75944c26457bc26d666ab4fa1c73da726bbbec6497bf5",
+    "render": {
+      "size": 11,
+      "placement": "origin",
+      "anchor": "la",
+      "offset_x": 0,
+      "offset_y": -1,
+      "stroke_width": 0,
+      "antialias": false,
+      "glyph_offsets": [
+        {
+          "characters": "acegmnopqrsuvwxyz",
+          "offset_y": -1
+        }
+      ]
+    },
+    "metrics": {
+      "code_limit": 256,
+      "measurement": "ink",
+      "space_advance": 3
+    }
+  }
+}

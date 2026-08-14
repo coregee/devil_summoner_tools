@@ -1,0 +1,19 @@
+{
+  "file": "KANJI.FON",
+  "targets": ["KANJI.FON", "MMP/KANJI.FON"],
+  "sha256": "0bdfd6640b7ea3e792de2575cafcfae29aa86af12f0925f458b88ad533744dd7",
+  "description": "Unmapped",
+  "format": {
+    "width": 16,
+    "height": 16,
+    "bpp": 1,
+    "row_stride": 2,
+    "glyph_stride": 32
+  },
+  "atlas": {
+    "columns": 64,
+    "scale": 1,
+    "groups": {}
+  },
+  "repack": {}
+}

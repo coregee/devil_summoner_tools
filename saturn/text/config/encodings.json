@@ -1,0 +1,311 @@
+{
+  "version": 1,
+  "alphabets": {
+    "game_fnt8x12": "game/fnt8x12",
+    "game_fnt12x12": "game/fnt12x12",
+    "game_font8": "game/font8",
+    "game_font12": "game/font12",
+    "game_font16": "game/font16",
+    "game_config_actions": {
+      "glyphs": {
+        "0x0001": "オ",
+        "0x0002": "ー",
+        "0x0003": "ト",
+        "0x0004": "マ",
+        "0x0005": "ッ",
+        "0x0006": "プ",
+        "0x0007": "デ",
+        "0x0008": "ビ",
+        "0x0009": "ル",
+        "0x000a": "ア",
+        "0x000b": "ナ",
+        "0x000c": "ラ",
+        "0x000d": "イ",
+        "0x000e": "ズ",
+        "0x000f": "リ",
+        "0x0010": "カ",
+        "0x0011": "バ",
+        "0x0012": "コ",
+        "0x0013": "ン",
+        "0x0014": "ド",
+        "0x0015": "キ",
+        "0x0016": "ャ",
+        "0x0018": "セ",
+        "0x0019": "決",
+        "0x001a": "定",
+        "0x001b": "ヘ",
+        "0x001c": "表",
+        "0x001d": "示",
+        "0x001e": "ジ"
+      }
+    },
+    "compendium_font16": "compendium/font16"
+  },
+  "control_vocabularies": {
+    "none": {},
+    "event": {
+      "0x8001": "n",
+      "0x8003": "WAIT",
+      "0x8004": "NL",
+      "0x8006": "first_name",
+      "0x8007": "last_name",
+      "0x8017": "drink_name",
+      "0x8018": "item_name",
+      "0x8019": "demon_name",
+      "0x801b": "ward",
+      "0x801c": "city",
+      "0x801f": "race",
+      "0x8022": "event_id",
+      "0x8023": "codename"
+    },
+    "combat": {
+      "0x8001": "n",
+      "0x8003": "WAIT",
+      "0x8004": "BEAT",
+      "0x8010": "demon_name",
+      "0x8012": "race",
+      "0x8013": "requested_item",
+      "0x8014": "offered_item",
+      "0x8015": "codename",
+      "0x8016": "kyouji_name",
+      "0x8017": "rei_name"
+    },
+    "battle_smallfont": {
+      "0xa5": "NUM"
+    }
+  },
+  "source_encodings": {
+    "ascii": {
+      "codec": "ascii",
+      "zero": "glyph",
+      "glyph_banks": [],
+      "control_vocabulary": "none",
+      "control_ranges": [
+        ["0x00", "0x1f"],
+        ["0x7f", "0x7f"]
+      ]
+    },
+    "game_battle_smallfont": {
+      "codec": "glyph_u8",
+      "zero": "glyph",
+      "glyph_banks": [
+        {
+          "alphabet": "game_fnt8x12",
+          "start": "0x00",
+          "end": "0x47",
+          "glyph_start": "0x00"
+        },
+        {
+          "alphabet": "game_fnt12x12",
+          "start": "0x48",
+          "end": "0x7f",
+          "glyph_start": "0x00"
+        }
+      ],
+      "control_vocabulary": "battle_smallfont",
+      "control_ranges": [
+        ["0x80", "0xff"]
+      ]
+    },
+    "game_config_action_u16_skip": {
+      "codec": "glyph_u16be",
+      "zero": "skip",
+      "glyph_banks": [
+        {
+          "alphabet": "game_config_actions",
+          "start": "0x0000",
+          "end": "0x001e",
+          "glyph_start": "0x0000"
+        }
+      ],
+      "control_vocabulary": "none",
+      "control_ranges": []
+    },
+    "game_font8_plain_glyph": {
+      "codec": "glyph_u8",
+      "zero": "glyph",
+      "glyph_banks": [
+        {
+          "alphabet": "game_font8",
+          "start": "0x00",
+          "end": "0xff",
+          "glyph_start": "0x00"
+        }
+      ],
+      "control_vocabulary": "none",
+      "control_ranges": []
+    },
+    "game_font12_event_space": {
+      "codec": "glyph_u16be",
+      "zero": "space",
+      "glyph_banks": [
+        {
+          "alphabet": "game_font12",
+          "start": "0x0000",
+          "end": "0x7fff",
+          "glyph_start": "0x0000"
+        }
+      ],
+      "control_vocabulary": "event",
+      "control_ranges": [
+        ["0x8000", "0xffff"]
+      ]
+    },
+    "game_font16_plain_glyph": {
+      "codec": "glyph_u16be",
+      "zero": "glyph",
+      "glyph_banks": [
+        {
+          "alphabet": "game_font16",
+          "start": "0x0000",
+          "end": "0x7fff",
+          "glyph_start": "0x0000"
+        }
+      ],
+      "control_vocabulary": "none",
+      "control_ranges": [
+        ["0x8000", "0xffff"]
+      ]
+    },
+    "game_font16_plain_skip": {
+      "codec": "glyph_u16be",
+      "zero": "skip",
+      "glyph_banks": [
+        {
+          "alphabet": "game_font16",
+          "start": "0x0000",
+          "end": "0x7fff",
+          "glyph_start": "0x0000"
+        }
+      ],
+      "control_vocabulary": "none",
+      "control_ranges": [
+        ["0x8000", "0xffff"]
+      ]
+    },
+    "game_font16_plain_separator_space": {
+      "codec": "glyph_u16be",
+      "zero": "separator_space",
+      "glyph_banks": [
+        {
+          "alphabet": "game_font16",
+          "start": "0x0000",
+          "end": "0x7fff",
+          "glyph_start": "0x0000"
+        }
+      ],
+      "control_vocabulary": "none",
+      "control_ranges": [
+        ["0x8000", "0xffff"]
+      ]
+    },
+    "game_font16_plain_separator_newline": {
+      "codec": "glyph_u16be",
+      "zero": "separator_newline",
+      "glyph_banks": [
+        {
+          "alphabet": "game_font16",
+          "start": "0x0000",
+          "end": "0x7fff",
+          "glyph_start": "0x0000"
+        }
+      ],
+      "control_vocabulary": "none",
+      "control_ranges": [
+        ["0x8000", "0xffff"]
+      ]
+    },
+    "game_font12_16_event_skip": {
+      "codec": "glyph_u16be",
+      "zero": "skip",
+      "glyph_banks": [
+        {
+          "alphabet": "game_font12",
+          "start": "0x0000",
+          "end": "0x00ff",
+          "glyph_start": "0x0000"
+        },
+        {
+          "alphabet": "game_font16",
+          "start": "0x0100",
+          "end": "0x7fff",
+          "glyph_start": "0x0100"
+        }
+      ],
+      "control_vocabulary": "event",
+      "control_ranges": [
+        ["0x8000", "0xffff"]
+      ]
+    },
+    "game_font12_16_combat_skip": {
+      "codec": "glyph_u16be",
+      "zero": "skip",
+      "glyph_banks": [
+        {
+          "alphabet": "game_font12",
+          "start": "0x0000",
+          "end": "0x00ff",
+          "glyph_start": "0x0000"
+        },
+        {
+          "alphabet": "game_font16",
+          "start": "0x0100",
+          "end": "0x7fff",
+          "glyph_start": "0x0100"
+        }
+      ],
+      "control_vocabulary": "combat",
+      "control_ranges": [
+        ["0x8000", "0xffff"]
+      ]
+    },
+    "game_font16_event_space": {
+      "codec": "glyph_u16be",
+      "zero": "space",
+      "glyph_banks": [
+        {
+          "alphabet": "game_font16",
+          "start": "0x0000",
+          "end": "0x7fff",
+          "glyph_start": "0x0000"
+        }
+      ],
+      "control_vocabulary": "event",
+      "control_ranges": [
+        ["0x8000", "0xffff"]
+      ]
+    },
+    "game_font16_combat_skip": {
+      "codec": "glyph_u16be",
+      "zero": "skip",
+      "glyph_banks": [
+        {
+          "alphabet": "game_font16",
+          "start": "0x0000",
+          "end": "0x7fff",
+          "glyph_start": "0x0000"
+        }
+      ],
+      "control_vocabulary": "combat",
+      "control_ranges": [
+        ["0x8000", "0xffff"]
+      ]
+    },
+    "compendium_font16_plain_glyph": {
+      "codec": "glyph_u16be",
+      "zero": "glyph",
+      "glyph_banks": [
+        {
+          "alphabet": "compendium_font16",
+          "start": "0x0000",
+          "end": "0x7fff",
+          "glyph_start": "0x0000"
+        }
+      ],
+      "control_vocabulary": "none",
+      "control_ranges": [
+        ["0x8000", "0xffff"]
+      ]
+    }
+  }
+}

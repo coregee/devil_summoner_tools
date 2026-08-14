@@ -1,0 +1,341 @@
+{
+  "file": "FONT8.FON",
+  "sha256": "f2f04e98a9eb0d3ff9180d746280f6cbcd6b364e58ccb91721e36f6f6dc2ee5c",
+  "description": "Stock Latin cells remain untouched for original English menu labels. Translated names use narrow Galmuri7 glyphs mapped over hiragana cells 63-117 and 205-229; katakana remains intact for Japanese fallbacks. EVENT's shop summary originally used cells 211-212 as compound Inv. tiles, so itemname_runtime reconstructs that label while retaining y/z in those cells. The bar screen also used cells 218-229 as compound REVIEW/STATUS tiles; status_ui rewrites those two static labels to canonical stock Latin codes while retaining the punctuation in those cells.",
+  "format": {
+    "width": 8,
+    "height": 8,
+    "bpp": 1,
+    "row_stride": 1,
+    "glyph_stride": 8
+  },
+  "atlas": {
+    "columns": 16,
+    "scale": 4,
+    "groups": {
+      "numbers": [
+        {
+          "start": 1,
+          "characters": "0123456789"
+        }
+      ],
+      "letters": [
+        {
+          "start": 11,
+          "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        {
+          "start": 37,
+          "characters": "abcdefghijklmnopqrstuvwxyz"
+        }
+      ],
+      "symbols": [
+        {
+          "0": " ",
+          "173": "ー",
+          "174": "‐",
+          "175": "：",
+          "176": "．",
+          "177": "＿",
+          "178": "’",
+          "179": "！",
+          "180": "？",
+          "181": "【",
+          "182": "】",
+          "183": "＆",
+          "184": "♂",
+          "185": "♀",
+          "186": "＃",
+          "197": "＞",
+          "198": "／",
+          "201": "＜",
+          "202": "（",
+          "203": "）",
+          "204": "・"
+        }
+      ],
+      "narrow_english": [
+        {
+          "replace": true,
+          "63": {
+            "あ": " "
+          },
+          "64": {
+            "い": "0"
+          },
+          "65": {
+            "う": "1"
+          },
+          "66": {
+            "え": "2"
+          },
+          "67": {
+            "お": "3"
+          },
+          "68": {
+            "か": "4"
+          },
+          "69": {
+            "き": "5"
+          },
+          "70": {
+            "く": "6"
+          },
+          "71": {
+            "け": "7"
+          },
+          "72": {
+            "こ": "8"
+          },
+          "73": {
+            "さ": "9"
+          },
+          "74": {
+            "し": "A"
+          },
+          "75": {
+            "す": "B"
+          },
+          "76": {
+            "せ": "C"
+          },
+          "77": {
+            "そ": "D"
+          },
+          "78": {
+            "た": "E"
+          },
+          "79": {
+            "ち": "F"
+          },
+          "80": {
+            "つ": "G"
+          },
+          "81": {
+            "て": "H"
+          },
+          "82": {
+            "と": "I"
+          },
+          "83": {
+            "な": "J"
+          },
+          "84": {
+            "に": "K"
+          },
+          "85": {
+            "ぬ": "L"
+          },
+          "86": {
+            "ね": "M"
+          },
+          "87": {
+            "の": "N"
+          },
+          "88": {
+            "は": "O"
+          },
+          "89": {
+            "ひ": "P"
+          },
+          "90": {
+            "ふ": "Q"
+          },
+          "91": {
+            "へ": "R"
+          },
+          "92": {
+            "ほ": "S"
+          },
+          "93": {
+            "ま": "T"
+          },
+          "94": {
+            "み": "U"
+          },
+          "95": {
+            "む": "V"
+          },
+          "96": {
+            "め": "W"
+          },
+          "97": {
+            "も": "X"
+          },
+          "98": {
+            "や": "Y"
+          },
+          "99": {
+            "ゆ": "Z"
+          },
+          "100": {
+            "よ": "a"
+          },
+          "101": {
+            "ら": "b"
+          },
+          "102": {
+            "り": "c"
+          },
+          "103": {
+            "る": "d"
+          },
+          "104": {
+            "れ": "e"
+          },
+          "105": {
+            "ろ": "f"
+          },
+          "106": {
+            "わ": "g"
+          },
+          "107": {
+            "を": "h"
+          },
+          "108": {
+            "ん": "i"
+          },
+          "109": {
+            "ぁ": "j"
+          },
+          "110": {
+            "ぃ": "k"
+          },
+          "111": {
+            "ぅ": "l"
+          },
+          "112": {
+            "ぇ": "m"
+          },
+          "113": {
+            "ぉ": "n"
+          },
+          "114": {
+            "っ": "o"
+          },
+          "115": {
+            "ゃ": "p"
+          },
+          "116": {
+            "ゅ": "q"
+          },
+          "117": {
+            "ょ": "r"
+          },
+          "205": {
+            "が": "s"
+          },
+          "206": {
+            "ぎ": "t"
+          },
+          "207": {
+            "ぐ": "u"
+          },
+          "208": {
+            "げ": "v"
+          },
+          "209": {
+            "ご": "w"
+          },
+          "210": {
+            "ざ": "x"
+          },
+          "211": {
+            "じ": "y"
+          },
+          "212": {
+            "ず": "z"
+          },
+          "213": {
+            "ぜ": "-"
+          },
+          "214": {
+            "ぞ": ":"
+          },
+          "215": {
+            "だ": "."
+          },
+          "216": {
+            "ぢ": "_"
+          },
+          "217": {
+            "づ": "'"
+          },
+          "218": {
+            "で": "!"
+          },
+          "219": {
+            "ど": "?"
+          },
+          "220": {
+            "ば": "["
+          },
+          "221": {
+            "び": "]"
+          },
+          "222": {
+            "ぶ": "&"
+          },
+          "223": {
+            "べ": "#"
+          },
+          "224": {
+            "ぼ": ">"
+          },
+          "225": {
+            "ぱ": "/"
+          },
+          "226": {
+            "ぴ": "<"
+          },
+          "227": {
+            "ぷ": "("
+          },
+          "228": {
+            "ぺ": ")"
+          },
+          "229": {
+            "ぽ": ","
+          }
+        }
+      ],
+      "kana": [
+        {
+          "start": 118,
+          "characters": "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン"
+        },
+        {
+          "start": 164,
+          "characters": "ァィゥェォッャュョ"
+        },
+        {
+          "start": 230,
+          "characters": "ヴガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポ"
+        }
+      ]
+    }
+  },
+  "repack": {
+    "source": "galmuri/Galmuri7.ttf",
+    "source_sha256": "3882bd35066c26b0392cd4963ff9b3c151041dec34adc9d5633d137d1d9b9855",
+    "render": {
+      "size": 7,
+      "placement": "origin",
+      "anchor": "la",
+      "offset_x": 0,
+      "offset_y": 0,
+      "stroke_width": 0,
+      "antialias": true,
+      "glyph_offsets": [
+        {
+          "characters": "gjpqy,",
+          "offset_y": -1
+        }
+      ]
+    },
+    "metrics": {
+      "code_limit": 256,
+      "measurement": "ink"
+    }
+  }
+}
