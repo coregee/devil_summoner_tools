@@ -1,0 +1,3486 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "dialogue_0000": {
+      "text": {
+        "reference": "{OP:8025}ただいまメッセージさくせいちゅう{n}{OP:8022}COMINGSOON{OP:8020}",
+        "translation": "{OP:8025}Message currently under construction. {OP:8022}COMING SOON{OP:8020}"
+      }
+    },
+    "dialogue_0001": {
+      "text": {
+        "reference": "MAKING{OP:8025}NOW{OP:8020}",
+        "translation": "MAKING {OP:8025}NOW{OP:8020}"
+      }
+    },
+    "dialogue_0002": {
+      "text": {
+        "reference": "なかまにいるんだ～ぜ～！{n}（かり）",
+        "translation": "I'll join you, man! (Temp.)"
+      }
+    },
+    "dialogue_0003": {
+      "text": {
+        "reference": "オイラまんげつのよるはハイなんだ{n}（かり）",
+        "translation": "Full moons get me so high! (Temp.)"
+      }
+    },
+    "dialogue_0004": {
+      "text": {
+        "reference": "このまえはありがとうなかまになるぜ～{n}（かり）",
+        "translation": "Thanks for before. I'll join you, man! (Temp.)"
+      }
+    },
+    "dialogue_0005": {
+      "text": {
+        "reference": "このまえはよくもやっつけてやるぜ～{n}（かり）",
+        "translation": "You'll pay for what you did before! (Temp.)"
+      }
+    },
+    "dialogue_0006": {
+      "text": {
+        "reference": "このまえはありがとうれいをするぜ～{n}（かり）",
+        "translation": "Thanks for before. I'll repay you, man! (Temp.)"
+      }
+    },
+    "dialogue_0007": {
+      "text": {
+        "reference": "わりこみかいしなんかいうんだ～ぜ～{n}（かり）",
+        "translation": "This is where I interrupt, man! (Temp.)"
+      }
+    },
+    "dialogue_0008": {
+      "text": {
+        "reference": "さいごのひとりになっちまったんだぜ～{n}（かり）",
+        "translation": "I'm the last one left, man! (Temp.)"
+      }
+    },
+    "dialogue_0009": {
+      "text": {
+        "reference": "ほほえむ",
+        "translation": "Smile."
+      }
+    },
+    "dialogue_0010": {
+      "text": {
+        "reference": "あいさつする",
+        "translation": "Greet her."
+      }
+    },
+    "dialogue_0011": {
+      "text": {
+        "reference": "冷静をよそおう",
+        "translation": "Act composed."
+      }
+    },
+    "dialogue_0012": {
+      "text": {
+        "reference": "無視する",
+        "translation": "Ignore her."
+      }
+    },
+    "dialogue_0013": {
+      "text": {
+        "reference": "最高だ",
+        "translation": "Great."
+      }
+    },
+    "dialogue_0014": {
+      "text": {
+        "reference": "まあまあだ",
+        "translation": "Not bad."
+      }
+    },
+    "dialogue_0015": {
+      "text": {
+        "reference": "いまいちだ",
+        "translation": "Could be better."
+      }
+    },
+    "dialogue_0016": {
+      "text": {
+        "reference": "最低だ",
+        "translation": "Terrible."
+      }
+    },
+    "dialogue_0017": {
+      "text": {
+        "reference": "まあな",
+        "translation": "I suppose."
+      }
+    },
+    "dialogue_0018": {
+      "text": {
+        "reference": "どうかな",
+        "translation": "I'm not sure."
+      }
+    },
+    "dialogue_0019": {
+      "text": {
+        "reference": "そうかな",
+        "translation": "You think so?"
+      }
+    },
+    "dialogue_0020": {
+      "text": {
+        "reference": "ありがとう",
+        "translation": "Thank you."
+      }
+    },
+    "dialogue_0021": {
+      "text": {
+        "reference": "そんなことない",
+        "translation": "Not at all."
+      }
+    },
+    "dialogue_0022": {
+      "text": {
+        "reference": "分かった",
+        "translation": "All right."
+      }
+    },
+    "dialogue_0023": {
+      "text": {
+        "reference": "いやだ",
+        "translation": "No."
+      }
+    },
+    "dialogue_0024": {
+      "text": {
+        "reference": "よろこんで",
+        "translation": "Gladly."
+      }
+    },
+    "dialogue_0025": {
+      "text": {
+        "reference": "ほんとう？",
+        "translation": "Really?"
+      }
+    },
+    "dialogue_0026": {
+      "text": {
+        "reference": "だめだ",
+        "translation": "No."
+      }
+    },
+    "dialogue_0027": {
+      "text": {
+        "reference": "OK",
+        "translation": "OK."
+      }
+    },
+    "dialogue_0028": {
+      "text": {
+        "reference": "そんな暇はない",
+        "translation": "I don't have time for that."
+      }
+    },
+    "dialogue_0029": {
+      "text": {
+        "reference": "それで？",
+        "translation": "And?"
+      }
+    },
+    "dialogue_0030": {
+      "text": {
+        "reference": "そうなのか",
+        "translation": "Is that so?"
+      }
+    },
+    "dialogue_0031": {
+      "text": {
+        "reference": "いいだろう",
+        "translation": "All right."
+      }
+    },
+    "dialogue_0032": {
+      "text": {
+        "reference": "そうだな",
+        "translation": "That's right."
+      }
+    },
+    "dialogue_0033": {
+      "text": {
+        "reference": "そうかな？",
+        "translation": "You think so?"
+      }
+    },
+    "dialogue_0034": {
+      "text": {
+        "reference": "関係ないだろう",
+        "translation": "That's none of your business."
+      }
+    },
+    "dialogue_0035": {
+      "text": {
+        "reference": "もちろんだ",
+        "translation": "Of course."
+      }
+    },
+    "dialogue_0036": {
+      "text": {
+        "reference": "仕方がない",
+        "translation": "I have no choice."
+      }
+    },
+    "dialogue_0037": {
+      "text": {
+        "reference": "そんな訳がない",
+        "translation": "No chance."
+      }
+    },
+    "dialogue_0038": {
+      "text": {
+        "reference": "どうでもいい",
+        "translation": "I don't care."
+      }
+    },
+    "dialogue_0039": {
+      "text": {
+        "reference": "悪魔とデートしろ",
+        "translation": "Go on a date with a demon."
+      }
+    },
+    "dialogue_0040": {
+      "text": {
+        "reference": "仕方ないな",
+        "translation": "Fine."
+      }
+    },
+    "dialogue_0041": {
+      "text": {
+        "reference": "それほどでもない",
+        "translation": "Not really."
+      }
+    },
+    "dialogue_0042": {
+      "text": {
+        "reference": "もっと強くなりたい",
+        "translation": "I want to become stronger."
+      }
+    },
+    "dialogue_0043": {
+      "text": {
+        "reference": "そうでもない",
+        "translation": "Not particularly."
+      }
+    },
+    "dialogue_0044": {
+      "text": {
+        "reference": "ただの悪魔",
+        "translation": "Just another demon."
+      }
+    },
+    "dialogue_0045": {
+      "text": {
+        "reference": "美しい",
+        "translation": "Beautiful."
+      }
+    },
+    "dialogue_0046": {
+      "text": {
+        "reference": "好きだ",
+        "translation": "I like you."
+      }
+    },
+    "dialogue_0047": {
+      "text": {
+        "reference": "装備してない",
+        "translation": "I'm not wearing any."
+      }
+    },
+    "dialogue_0048": {
+      "text": {
+        "reference": "逃げる",
+        "translation": "Run."
+      }
+    },
+    "dialogue_0049": {
+      "text": {
+        "reference": "とどまる",
+        "translation": "Stay."
+      }
+    },
+    "dialogue_0050": {
+      "text": {
+        "reference": "お願いします",
+        "translation": "Please."
+      }
+    },
+    "dialogue_0051": {
+      "text": {
+        "reference": "やめてくれ",
+        "translation": "Stop it."
+      }
+    },
+    "dialogue_0052": {
+      "text": {
+        "reference": "試してみるか",
+        "translation": "Want to try?"
+      }
+    },
+    "dialogue_0053": {
+      "text": {
+        "reference": "こちらこそたのむ",
+        "translation": "Likewise."
+      }
+    },
+    "dialogue_0054": {
+      "text": {
+        "reference": "遠慮しておく",
+        "translation": "No, thank you."
+      }
+    },
+    "dialogue_0055": {
+      "text": {
+        "reference": "別に…",
+        "translation": "Nothing..."
+      }
+    },
+    "dialogue_0056": {
+      "text": {
+        "reference": "仲魔になれ",
+        "translation": "Join me."
+      }
+    },
+    "dialogue_0057": {
+      "text": {
+        "reference": "ここから消えろ",
+        "translation": "Get out of here."
+      }
+    },
+    "dialogue_0058": {
+      "text": {
+        "reference": "たのむ",
+        "translation": "Please."
+      }
+    },
+    "dialogue_0059": {
+      "text": {
+        "reference": "結構だ",
+        "translation": "No, thanks."
+      }
+    },
+    "dialogue_0060": {
+      "text": {
+        "reference": "絶対にいやだ",
+        "translation": "Absolutely not."
+      }
+    },
+    "dialogue_0061": {
+      "text": {
+        "reference": "そうだな…",
+        "translation": "Let's see..."
+      }
+    },
+    "dialogue_0062": {
+      "text": {
+        "reference": "守ってやる",
+        "translation": "I'll protect you."
+      }
+    },
+    "dialogue_0063": {
+      "text": {
+        "reference": "欲しいものを言え",
+        "translation": "Tell me what you want."
+      }
+    },
+    "dialogue_0064": {
+      "text": {
+        "reference": "おまえもな",
+        "translation": "Same to you."
+      }
+    },
+    "dialogue_0065": {
+      "text": {
+        "reference": "放っておいてくれ",
+        "translation": "Leave me alone."
+      }
+    },
+    "dialogue_0066": {
+      "text": {
+        "reference": "それなら助けてくれ",
+        "translation": "Then help me."
+      }
+    },
+    "dialogue_0067": {
+      "text": {
+        "reference": "そんなことはない",
+        "translation": "That's not true."
+      }
+    },
+    "dialogue_0068": {
+      "text": {
+        "reference": "生まれつきだ",
+        "translation": "I was born this way."
+      }
+    },
+    "dialogue_0069": {
+      "text": {
+        "reference": "悪いのか",
+        "translation": "Is that a problem?"
+      }
+    },
+    "dialogue_0070": {
+      "text": {
+        "reference": "やめて下さい",
+        "translation": "Please stop."
+      }
+    },
+    "dialogue_0071": {
+      "text": {
+        "reference": "待ってくれ",
+        "translation": "Wait."
+      }
+    },
+    "dialogue_0072": {
+      "text": {
+        "reference": "できるのか？",
+        "translation": "Can you?"
+      }
+    },
+    "dialogue_0073": {
+      "text": {
+        "reference": "その前に俺がやる",
+        "translation": "I'll get you first."
+      }
+    },
+    "dialogue_0074": {
+      "text": {
+        "reference": "それはできない",
+        "translation": "I can't do that."
+      }
+    },
+    "dialogue_0075": {
+      "text": {
+        "reference": "ごめんなさい",
+        "translation": "I'm sorry."
+      }
+    },
+    "dialogue_0076": {
+      "text": {
+        "reference": "あなたのような人に{n}会いたかったのよ",
+        "translation": "I've been hoping to meet someone like you."
+      }
+    },
+    "dialogue_0077": {
+      "text": {
+        "reference": "ごきげんいかが…",
+        "translation": "How are you...?"
+      }
+    },
+    "dialogue_0078": {
+      "text": {
+        "reference": "ステキな笑顔ね{n}戦っている人には見えないわ{WAIT}{n}突然でおどろくでしょうけど",
+        "translation": "What a lovely smile. You hardly look like someone in battle.{WAIT} This may come as a surprise, but...",
+        "note": "The Japanese ends on けど ('but'), deliberately leaving the introduction open for the branch-dependent proposition that follows."
+      }
+    },
+    "dialogue_0079": {
+      "text": {
+        "reference": "フフフ{WAIT}{n}かわいいとこあるのね…",
+        "translation": "Hee hee...{WAIT} You do have a cute side..."
+      }
+    },
+    "dialogue_0080": {
+      "text": {
+        "reference": "ごきげんみたいね{WAIT}{n}そう{BEAT}{n}それはよかった…",
+        "translation": "You seem cheerful.{WAIT} I see...{BEAT} That's wonderful..."
+      }
+    },
+    "dialogue_0081": {
+      "text": {
+        "reference": "よかった{n}返事してくれて…{WAIT}{n}いきなりだけどよく聞いてね",
+        "translation": "I'm glad you answered...{WAIT} This is rather sudden, but listen carefully."
+      }
+    },
+    "dialogue_0082": {
+      "text": {
+        "reference": "なんだ普通の答えなのね…{n}もっと楽しみにしてたのに",
+        "translation": "Oh, such an ordinary answer... I'd hoped for something more entertaining."
+      }
+    },
+    "dialogue_0083": {
+      "text": {
+        "reference": "フフフ{WAIT}{n}ムリしちゃって…",
+        "translation": "Hee hee...{WAIT} Trying so hard to look tough..."
+      }
+    },
+    "dialogue_0084": {
+      "text": {
+        "reference": "どうしてだまっているの…{n}もっとお話しましょうよ",
+        "translation": "Why so quiet...? Come, talk to me."
+      }
+    },
+    "dialogue_0085": {
+      "text": {
+        "reference": "クールなひとなのね…",
+        "translation": "My, aren't you cool..."
+      }
+    },
+    "dialogue_0086": {
+      "text": {
+        "reference": "そんな冷たい態度とらないで…{n}イジワルな人ね…{WAIT}{n}でも",
+        "translation": "Don't be so cold... What a cruel man...{WAIT} But...",
+        "note": "The Japanese deliberately ends on でも ('but'), handing the unfinished thought to the next branch-dependent negotiation line."
+      }
+    },
+    "dialogue_0087": {
+      "text": {
+        "reference": "どうして無視するのよ{n}あなたのこと気になっていたのに…",
+        "translation": "Why are you ignoring me? You had caught my eye..."
+      }
+    },
+    "dialogue_0088": {
+      "text": {
+        "reference": "今日はお天気も良くって{n}いい一日だったわね",
+        "translation": "The weather was lovely today. Such a pleasant day."
+      }
+    },
+    "dialogue_0089": {
+      "text": {
+        "reference": "あなたの気分はどう？",
+        "translation": "And how are you feeling?"
+      }
+    },
+    "dialogue_0090": {
+      "text": {
+        "reference": "そう{BEAT}よかったわね{WAIT}{n}あなたには{n}はっきり言うわ",
+        "translation": "I see...{BEAT} That's good.{WAIT} I'll be frank with you."
+      }
+    },
+    "dialogue_0091": {
+      "text": {
+        "reference": "そう{BEAT}それじゃあ{n}私とお話しましょう",
+        "translation": "I see...{BEAT} Then come talk with me."
+      }
+    },
+    "dialogue_0092": {
+      "text": {
+        "reference": "そうなの{n}それじゃあすこしはかまってくれる？{n}あなたとっても優しそう…",
+        "translation": "Is that so? Then will you spare me a little attention? You seem so kind..."
+      }
+    },
+    "dialogue_0093": {
+      "text": {
+        "reference": "それは残念ね…{WAIT}{n}こんなにお天気がいいのに…",
+        "translation": "What a shame...{WAIT} Especially on such a beautiful day..."
+      }
+    },
+    "dialogue_0094": {
+      "text": {
+        "reference": "じゃあ私が{n}気分をまぎらわせてあげる{OP:8026}『{OP:8020}",
+        "translation": "Then let me take your mind off it. {OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0095": {
+      "text": {
+        "reference": "どうしてそんなに強がりを言うの{n}良くないならはっきり言えばいいのに…{WAIT}{n}でも",
+        "translation": "Why pretend you're fine? If you aren't, you should simply say so...{WAIT} But...",
+        "note": "The Japanese deliberately ends on でも ('but'); the thought continues through whichever negotiation follow-up the branch selects."
+      }
+    },
+    "dialogue_0096": {
+      "text": {
+        "reference": "お気の毒ね…{n}それでそんなに無口になっているのね…",
+        "translation": "You poor thing... So that's why you've gone so quiet..."
+      }
+    },
+    "dialogue_0097": {
+      "text": {
+        "reference": "じゃあかまってもらえないのね{n}残念だわ…",
+        "translation": "So you won't give me any attention? How disappointing..."
+      }
+    },
+    "dialogue_0098": {
+      "text": {
+        "reference": "あら…{n}あなた人間ね…",
+        "translation": "Oh... You're human..."
+      }
+    },
+    "dialogue_0099": {
+      "text": {
+        "reference": "どう元気？",
+        "translation": "How are you?"
+      }
+    },
+    "dialogue_0100": {
+      "text": {
+        "reference": "よかった…元気そうで{WAIT}{n}その笑顔…",
+        "translation": "Good... You seem well.{WAIT} That smile..."
+      }
+    },
+    "dialogue_0101": {
+      "text": {
+        "reference": "そう{BEAT}それはよかった…{n}あまりおしゃべりな人じゃないのね",
+        "translation": "I see...{BEAT} That's good. You aren't much of a talker, are you?"
+      }
+    },
+    "dialogue_0102": {
+      "text": {
+        "reference": "フフフ{WAIT}{n}そう{BEAT}それはよかったわね",
+        "translation": "Hee hee...{WAIT} I see...{BEAT} That's good."
+      }
+    },
+    "dialogue_0103": {
+      "text": {
+        "reference": "フフフ{WAIT}{n}あいさつしてくれる元気はあるのね",
+        "translation": "Hee hee...{WAIT} At least you're lively enough to say hello."
+      }
+    },
+    "dialogue_0104": {
+      "text": {
+        "reference": "なにをそんなにかしこまっているの？{WAIT}{n}変な人…",
+        "translation": "Why so formal?{WAIT} What a strange man..."
+      }
+    },
+    "dialogue_0105": {
+      "text": {
+        "reference": "そんなにかたくならなくってもいいのよ{WAIT}{n}私普通のオンナよ",
+        "translation": "You don't have to be so stiff.{WAIT} I'm just an ordinary woman."
+      }
+    },
+    "dialogue_0106": {
+      "text": {
+        "reference": "なにかたくなってるの…",
+        "translation": "Why are you so tense...?"
+      }
+    },
+    "dialogue_0107": {
+      "text": {
+        "reference": "すこしはかまってくれてもいいじゃない",
+        "translation": "You could at least give me a little attention."
+      }
+    },
+    "dialogue_0108": {
+      "text": {
+        "reference": "そんな目で見ないで…",
+        "translation": "Don't look at me that way..."
+      }
+    },
+    "dialogue_0109": {
+      "text": {
+        "reference": "今日はいいお天気だったけど{n}なんか気分はイマイチね…",
+        "translation": "The weather was lovely today, but my mood has been rather foul..."
+      }
+    },
+    "dialogue_0110": {
+      "text": {
+        "reference": "あなたはどう？",
+        "translation": "And you?"
+      }
+    },
+    "dialogue_0111": {
+      "text": {
+        "reference": "そう{BEAT}よかったわね…{n}あなたとっても明るいのね…",
+        "translation": "I see...{BEAT} That's good. You're such a cheerful man..."
+      }
+    },
+    "dialogue_0112": {
+      "text": {
+        "reference": "そうなの…{WAIT}{n}私はこんなふうなのに…",
+        "translation": "Is that so...?{WAIT} Even though I'm feeling like this..."
+      }
+    },
+    "dialogue_0113": {
+      "text": {
+        "reference": "私よりはすこしマシみたいね…{WAIT}{n}それはよかった…",
+        "translation": "You seem a little better off than I am...{WAIT} I'm glad..."
+      }
+    },
+    "dialogue_0114": {
+      "text": {
+        "reference": "そうやっていられるのなら{n}いいじゃない…",
+        "translation": "If you can carry on that way, good for you..."
+      }
+    },
+    "dialogue_0115": {
+      "text": {
+        "reference": "いいわね…{n}私のことも元気づけて欲しいわ",
+        "translation": "How nice... I wish you would cheer me up, too."
+      }
+    },
+    "dialogue_0116": {
+      "text": {
+        "reference": "そう{BEAT}私とおんなじね…",
+        "translation": "I see...{BEAT} You're just like me..."
+      }
+    },
+    "dialogue_0117": {
+      "text": {
+        "reference": "そうやって合わせてくれなくっても{n}いいのよ",
+        "translation": "You needn't pretend to agree with me."
+      }
+    },
+    "dialogue_0118": {
+      "text": {
+        "reference": "ウソ{WAIT}そんなことないんでしょ{WAIT}{n}私には分かるのよ",
+        "translation": "Liar.{WAIT} That isn't true, is it?{WAIT} I can tell."
+      }
+    },
+    "dialogue_0119": {
+      "text": {
+        "reference": "そうなの…{BEAT}{n}あなたもいろいろあるみたいね{WAIT}{n}でもうかない顔しちゃダメ…",
+        "translation": "I see...{BEAT} You have your troubles, too.{WAIT} But don't look so glum..."
+      }
+    },
+    "dialogue_0120": {
+      "text": {
+        "reference": "そんなことないんじゃない？{n}そうは見えないわよ",
+        "translation": "Are you sure? You don't look it."
+      }
+    },
+    "dialogue_0121": {
+      "text": {
+        "reference": "なんだ{n}人間のオトコかあ…{WAIT}{n}まぁいいわ",
+        "translation": "Oh, just a human man...{WAIT} Well, never mind."
+      }
+    },
+    "dialogue_0122": {
+      "text": {
+        "reference": "こんにちは",
+        "translation": "Hello."
+      }
+    },
+    "dialogue_0123": {
+      "text": {
+        "reference": "そういう顔に弱いのよね…",
+        "translation": "I have a weakness for a face like yours..."
+      }
+    },
+    "dialogue_0124": {
+      "text": {
+        "reference": "フフフ{WAIT}{n}あんまりいいオトコじゃないのね…{WAIT}{n}ウソよそんな顔しないで",
+        "translation": "Hee hee...{WAIT} You aren't terribly handsome, are you?{WAIT} I'm joking. Don't look like that."
+      }
+    },
+    "dialogue_0125": {
+      "text": {
+        "reference": "なにニヤニヤしてるのよ{n}変な人ね…",
+        "translation": "Why are you grinning? What a strange man..."
+      }
+    },
+    "dialogue_0126": {
+      "text": {
+        "reference": "そう…{WAIT}それくらいのことは{n}してくれるのね",
+        "translation": "I see...{WAIT} So you can at least do that much for me."
+      }
+    },
+    "dialogue_0127": {
+      "text": {
+        "reference": "そう…{WAIT}それくらいのことしか{n}言ってくれないのね…{WAIT}{n}やっぱり聞いていたとおりの人なのね…",
+        "translation": "I see...{WAIT} So that's all you'll say to me...{WAIT} You're exactly the man I heard about..."
+      }
+    },
+    "dialogue_0128": {
+      "text": {
+        "reference": "それだけ？{n}なんだつまんない…",
+        "translation": "Is that all? How dull..."
+      }
+    },
+    "dialogue_0129": {
+      "text": {
+        "reference": "フフフ{WAIT}{n}緊張しているのね",
+        "translation": "Hee hee...{WAIT} You're nervous."
+      }
+    },
+    "dialogue_0130": {
+      "text": {
+        "reference": "そんなふうにカッコつけてもムダよ",
+        "translation": "There's no use trying to act cool."
+      }
+    },
+    "dialogue_0131": {
+      "text": {
+        "reference": "ひどいわ…{WAIT}{n}私のことムシするなんて…{n}それならここで死ねばいいんだわ！",
+        "translation": "How awful...{WAIT} Ignoring me like that... Then you can die right here!"
+      }
+    },
+    "dialogue_0132": {
+      "text": {
+        "reference": "許せない…{n}せっかく話しかけてあげたのに…",
+        "translation": "Unforgivable... After I went to the trouble of speaking to you..."
+      }
+    },
+    "dialogue_0133": {
+      "text": {
+        "reference": "こんなにいい天気だと{n}なんか逆にイヤになってくるわね",
+        "translation": "Weather this pleasant almost makes me feel worse."
+      }
+    },
+    "dialogue_0134": {
+      "text": {
+        "reference": "あなたの方はどうなの？",
+        "translation": "What about you?"
+      }
+    },
+    "dialogue_0135": {
+      "text": {
+        "reference": "あら？{BEAT}そうなの…{WAIT}{n}そんなふうに言われると{n}ちょっと興味出てくるわね…",
+        "translation": "Oh?{BEAT} Is that so...?{WAIT} When you put it that way, you pique my interest..."
+      }
+    },
+    "dialogue_0136": {
+      "text": {
+        "reference": "私の気分は最悪なのに{n}それはないんじゃない",
+        "translation": "I'm in a terrible mood. Must you be so cheerful?"
+      }
+    },
+    "dialogue_0137": {
+      "text": {
+        "reference": "そうなの？{n}でもまだあなたの方がまだマシね",
+        "translation": "Is that so? You still seem better off than I am."
+      }
+    },
+    "dialogue_0138": {
+      "text": {
+        "reference": "それは残念ね{n}なんとかしてくれるって{n}すこし期待してたのに…",
+        "translation": "What a shame. I'd hoped you might do something about it..."
+      }
+    },
+    "dialogue_0139": {
+      "text": {
+        "reference": "あなたもそうなのね…{WAIT}{n}分かるわその気持ち…",
+        "translation": "You're feeling the same way...?{WAIT} I understand..."
+      }
+    },
+    "dialogue_0140": {
+      "text": {
+        "reference": "仕方のない人…{BEAT}私に合わせたりして…{BEAT}{n}そんなことでどうするの！{WAIT}{n}あなたって分からない人ね",
+        "translation": "What a hopeless man...{BEAT} Pretending to agree with me...{BEAT} What good will that do?{WAIT} I simply don't understand you."
+      }
+    },
+    "dialogue_0141": {
+      "text": {
+        "reference": "あなたも私とおんなじなのね{n}でも気をとりなおして…",
+        "translation": "You're just like me. But try to pull yourself together..."
+      }
+    },
+    "dialogue_0142": {
+      "text": {
+        "reference": "バカね{n}「最低だ」なんて言ってるだけじゃ{n}あなたの状況は変わらないわよ",
+        "translation": "Fool. Merely saying \"It's terrible\" won't change your circumstances."
+      }
+    },
+    "dialogue_0143": {
+      "text": {
+        "reference": "そこがあなたの{n}いいところなのかしら？",
+        "translation": "Perhaps that's part of your charm?"
+      }
+    },
+    "dialogue_0144": {
+      "text": {
+        "reference": "ステキな人ね…",
+        "translation": "What a wonderful man..."
+      }
+    },
+    "dialogue_0145": {
+      "text": {
+        "reference": "ますます気に入ったわ…",
+        "translation": "Now I like you even more..."
+      }
+    },
+    "dialogue_0146": {
+      "text": {
+        "reference": "私あなたのこと気に入ったわ…{WAIT}{n}でもね",
+        "translation": "I've taken quite a liking to you...{WAIT} But...",
+        "note": "The Japanese ends on でもね ('but, you see'), deliberately passing the thought into the next branch-dependent negotiation line."
+      }
+    },
+    "dialogue_0147": {
+      "text": {
+        "reference": "フフフ{WAIT}{n}調子に乗りやすいのね…",
+        "translation": "Hee hee...{WAIT} You do get carried away easily..."
+      }
+    },
+    "dialogue_0148": {
+      "text": {
+        "reference": "そんな照れなくってもいいのよ{n}フフフフフ",
+        "translation": "You needn't be so embarrassed. Hee hee hee..."
+      }
+    },
+    "dialogue_0149": {
+      "text": {
+        "reference": "フフフ{WAIT}{n}言ってみただけよ",
+        "translation": "Hee hee...{WAIT} I only said it to see your reaction."
+      }
+    },
+    "dialogue_0150": {
+      "text": {
+        "reference": "そうよ{n}自分じゃ意識してないのね",
+        "translation": "It's true. You simply aren't aware of it."
+      }
+    },
+    "dialogue_0151": {
+      "text": {
+        "reference": "いいえどういたしまして{n}あなたの態度は変わらないのね…",
+        "translation": "Why, you're welcome. Your manner hasn't changed at all..."
+      }
+    },
+    "dialogue_0152": {
+      "text": {
+        "reference": "素直に答えてくれるのね…{WAIT}{n}とっても楽しかったわ{n}またお話しましょうね",
+        "translation": "You answer so honestly...{WAIT} I had a wonderful time. Let's talk again."
+      }
+    },
+    "dialogue_0153": {
+      "text": {
+        "reference": "それにとっても強そう…{WAIT}{n}悪魔を倒してるんでしょう？",
+        "translation": "And you look so strong...{WAIT} You defeat demons, don't you?"
+      }
+    },
+    "dialogue_0154": {
+      "text": {
+        "reference": "ずいぶんたのもしいのね…",
+        "translation": "How dependable..."
+      }
+    },
+    "dialogue_0155": {
+      "text": {
+        "reference": "ステキ・{BEAT}・{BEAT}・{BEAT}",
+        "translation": "Wonderful...{BEAT}.{BEAT}.{BEAT}"
+      }
+    },
+    "dialogue_0156": {
+      "text": {
+        "reference": "フフフ{WAIT}{n}そんなことないって顔にかいてあるわよ",
+        "translation": "Hee hee...{WAIT} Your face says otherwise."
+      }
+    },
+    "dialogue_0157": {
+      "text": {
+        "reference": "そんなにテレなくっても{n}かまわないのに…",
+        "translation": "There's no need to be so bashful..."
+      }
+    },
+    "dialogue_0158": {
+      "text": {
+        "reference": "フフフ{WAIT}{n}あなたまたけんそんなんかして…",
+        "translation": "Hee hee...{WAIT} There you go being modest again..."
+      }
+    },
+    "dialogue_0159": {
+      "text": {
+        "reference": "あなたのそういうところ{n}特に好きよ…{WAIT}{n}でもね",
+        "translation": "That's what I especially like about you...{WAIT} But...",
+        "note": "The Japanese ends on でもね ('but, you see'); the statement is completed by the ensuing branch-specific negotiation line."
+      }
+    },
+    "dialogue_0160": {
+      "text": {
+        "reference": "あら{BEAT}そうなの{WAIT}{n}それ本当？",
+        "translation": "Oh...{BEAT} Is that so?{WAIT} Is that really true?"
+      }
+    },
+    "dialogue_0161": {
+      "text": {
+        "reference": "人間のオトコのこと{n}私すごく興味あるの…{WAIT}{n}いいでしょ",
+        "translation": "Human men fascinate me...{WAIT} Surely you don't mind?"
+      }
+    },
+    "dialogue_0162": {
+      "text": {
+        "reference": "もっと人間のこと話して…",
+        "translation": "Tell me more about humans..."
+      }
+    },
+    "dialogue_0163": {
+      "text": {
+        "reference": "話してくれるのねうれしいわ…{WAIT}{n}あなたと会えてよかった…{WAIT}{n}でもね",
+        "translation": "I'm glad you'll talk to me...{WAIT} I'm so pleased we met...{WAIT} But...",
+        "note": "The Japanese ends on でもね ('but, you see'), with the next selected negotiation record supplying the turn in thought."
+      }
+    },
+    "dialogue_0164": {
+      "text": {
+        "reference": "どうしたの？{n}そんな言い方して…{WAIT}{n}私と話してもつまらないのね…",
+        "translation": "What's wrong? Why say it that way...?{WAIT} I suppose talking to me bores you..."
+      }
+    },
+    "dialogue_0165": {
+      "text": {
+        "reference": "そんなつめたいこと言わないでよ{n}あなたも素直になってちょうだい…",
+        "translation": "Don't be so cold. Please, be honest with me..."
+      }
+    },
+    "dialogue_0166": {
+      "text": {
+        "reference": "そう…{BEAT}そうなの{WAIT}{n}それでも私{n}あなたのことキライになれない…",
+        "translation": "I see...{BEAT} Is that so?{WAIT} Even so, I can't bring myself to hate you..."
+      }
+    },
+    "dialogue_0167": {
+      "text": {
+        "reference": "なによその態度{n}私が悪魔だからなの？",
+        "translation": "What's that attitude? Is it because I'm a demon?"
+      }
+    },
+    "dialogue_0168": {
+      "text": {
+        "reference": "うれしいけど…{n}ちょっとうまくいきすぎね{n}あなたってなにかヘンだわ！",
+        "translation": "I'm pleased, but... This is going far too smoothly. There's something strange about you!"
+      }
+    },
+    "dialogue_0169": {
+      "text": {
+        "reference": "うれしい…{BEAT}{n}そんなふうに言ってくれて…",
+        "translation": "I'm so happy...{BEAT} Hearing you say that..."
+      }
+    },
+    "dialogue_0170": {
+      "text": {
+        "reference": "なんかあなたのこと{n}すごく興味が出てきたわ",
+        "translation": "You've truly caught my interest."
+      }
+    },
+    "dialogue_0171": {
+      "text": {
+        "reference": "ねぇ{BEAT}あなたのこともっと知りたい…",
+        "translation": "Tell me...{BEAT} I want to know more about you..."
+      }
+    },
+    "dialogue_0172": {
+      "text": {
+        "reference": "もちろんよ{WAIT}{n}私のこと疑っているのね…",
+        "translation": "Of course.{WAIT} You doubt me, don't you...?"
+      }
+    },
+    "dialogue_0173": {
+      "text": {
+        "reference": "そうに決まってるじゃない{WAIT}{n}どうして分かってくれないの…",
+        "translation": "Of course it is.{WAIT} Why won't you understand...?"
+      }
+    },
+    "dialogue_0174": {
+      "text": {
+        "reference": "ありがとう{WAIT}{n}あなたならそう言ってくれると{n}思ってたわ…",
+        "translation": "Thank you.{WAIT} I knew you would say that..."
+      }
+    },
+    "dialogue_0175": {
+      "text": {
+        "reference": "ありがとう{WAIT}{n}それなら私のお願い聞いて",
+        "translation": "Thank you.{WAIT} Then hear my request."
+      }
+    },
+    "dialogue_0176": {
+      "text": {
+        "reference": "そんなふうに言われると{n}ますます興味が出てきちゃう…",
+        "translation": "That only makes me more interested in you..."
+      }
+    },
+    "dialogue_0177": {
+      "text": {
+        "reference": "そう{BEAT}それならいいの…{WAIT}{n}ここでお別れね…{n}さようなら",
+        "translation": "I see...{BEAT} Then that's enough.{WAIT} This is goodbye... Farewell."
+      }
+    },
+    "dialogue_0178": {
+      "text": {
+        "reference": "あれ…{BEAT}{n}どこにいったのかしら？{WAIT}{n}私コンタクト落としたみたい…",
+        "translation": "Oh...?{BEAT} Where did it go?{WAIT} I think I dropped a contact lens..."
+      }
+    },
+    "dialogue_0179": {
+      "text": {
+        "reference": "一緒に探してくれない？",
+        "translation": "Will you help me look?"
+      }
+    },
+    "dialogue_0180": {
+      "text": {
+        "reference": "ありがとうじゃあお願いね{WAIT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{BEAT}あっ{BEAT}あった！{WAIT}{n}なにかお礼がしたいんだけど…",
+        "translation": "Thank you. Please, then.{WAIT}.{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT} Ah{BEAT} there it is!{WAIT} I'd like to reward you somehow..."
+      }
+    },
+    "dialogue_0181": {
+      "text": {
+        "reference": "ありがとうじゃあお願いね{WAIT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{BEAT}ないわ{BEAT}どこにも…{WAIT}{n}困っちゃうわね",
+        "translation": "Thank you. Please, then.{WAIT}.{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT} It's gone{BEAT} nowhere to be found...{WAIT} What a problem."
+      }
+    },
+    "dialogue_0182": {
+      "text": {
+        "reference": "じゃあお願い{WAIT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{BEAT}動かないで！そう…{BEAT}そのまま{WAIT}{n}あったわ！{WAIT}よかった…",
+        "translation": "Please, then.{WAIT}.{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT} Don't move! Yes...{BEAT} Stay just like that.{WAIT} Found it!{WAIT} Thank goodness..."
+      }
+    },
+    "dialogue_0183": {
+      "text": {
+        "reference": "なにそのイヤそうな顔…",
+        "translation": "What's that reluctant look for...?"
+      }
+    },
+    "dialogue_0184": {
+      "text": {
+        "reference": "なによ！その言い方{WAIT}{n}…無理にはたのまないわ{WAIT}{n}いいのよ一人で探すから…",
+        "translation": "What a way to say it!{WAIT} I won't force you.{WAIT} Fine, I'll look alone..."
+      }
+    },
+    "dialogue_0185": {
+      "text": {
+        "reference": "そう…{WAIT}やっぱりつめたいのね…{WAIT}{n}それでもいいわ",
+        "translation": "I see...{WAIT} You really are cold...{WAIT} Very well."
+      }
+    },
+    "dialogue_0186": {
+      "text": {
+        "reference": "そう{BEAT}それならいいのよ{n}自分で探すから…{WAIT}{n}踏まないうちにどこかへ行きなさい！",
+        "translation": "I see...{BEAT} That's fine. I'll look for it myself...{WAIT} Leave before you step on it!"
+      }
+    },
+    "dialogue_0187": {
+      "text": {
+        "reference": "そう…{BEAT}もういいわ{WAIT}{n}あなたなんかにたのむんじゃなかった…",
+        "translation": "I see...{BEAT} Never mind.{WAIT} I shouldn't have asked you..."
+      }
+    },
+    "dialogue_0188": {
+      "text": {
+        "reference": "冗談じゃない！{WAIT}なによ大声で{WAIT}{n}ならさっさと帰ってよ！",
+        "translation": "Don't be absurd!{WAIT} There's no need to shout.{WAIT} Then hurry up and leave!"
+      }
+    },
+    "dialogue_0189": {
+      "text": {
+        "reference": "私ちょっと困ってるの…{WAIT}{n}実はねさっきまで一緒にいた{n}友達がいなくなっちゃって…",
+        "translation": "I'm in a little trouble...{WAIT} You see, the friend who was with me just disappeared..."
+      }
+    },
+    "dialogue_0190": {
+      "text": {
+        "reference": "それで友達を探しているの…",
+        "translation": "So I'm looking for my friend..."
+      }
+    },
+    "dialogue_0191": {
+      "text": {
+        "reference": "なによその言い方{WAIT}{n}もしかして私のことイヤなの？",
+        "translation": "What a way to put it.{WAIT} Could it be that you dislike me?"
+      }
+    },
+    "dialogue_0192": {
+      "text": {
+        "reference": "あら探してくれるの？{BEAT}{n}あなたが？{BEAT}ほんとに？{BEAT}{n}そんな訳ないわよね…",
+        "translation": "You'll look for her?{BEAT} You will?{BEAT} Truly?{BEAT} No, that couldn't be..."
+      }
+    },
+    "dialogue_0193": {
+      "text": {
+        "reference": "あなたの答えがどうであれ{n}私は協力するつもりよ",
+        "translation": "Whatever your answer, I intend to cooperate."
+      }
+    },
+    "dialogue_0194": {
+      "text": {
+        "reference": "私にはとっても大切な友達なの{WAIT}{n}あなたには大事な人はいないの？{BEAT}{n}ほんとに分かってないんだから…",
+        "translation": "She's very dear to me.{WAIT} Don't you have someone precious to you?{BEAT} You really don't understand..."
+      }
+    },
+    "dialogue_0195": {
+      "text": {
+        "reference": "冷たい言い方するのね{BEAT}{n}私にとって大切な友達なのに…",
+        "translation": "How coldly you say that...{BEAT} She's a dear friend of mine..."
+      }
+    },
+    "dialogue_0196": {
+      "text": {
+        "reference": "まるで他人事って感じの返事ね…",
+        "translation": "You sound as though this has nothing to do with you..."
+      }
+    },
+    "dialogue_0197": {
+      "text": {
+        "reference": "あなたは関心なさそうね…{WAIT}{n}そうよね…{BEAT}関係ないよね…",
+        "translation": "You don't seem interested...{WAIT} Of course...{BEAT} It has nothing to do with you..."
+      }
+    },
+    "dialogue_0198": {
+      "text": {
+        "reference": "もっとリラックスしてちょうだい{n}そうねぇ…{BEAT}じゃあ",
+        "translation": "Try to relax. Let's see...{BEAT} Then...",
+        "note": "The Japanese ends on じゃあ ('then...'), introducing the branch-dependent request that follows."
+      }
+    },
+    "dialogue_0199": {
+      "text": {
+        "reference": "剣なんかはずしてよ…",
+        "translation": "Take off that sword..."
+      }
+    },
+    "dialogue_0200": {
+      "text": {
+        "reference": "フフフ{WAIT}{n}そう{BEAT}それでいいのよ{n}カンタンでしょ？",
+        "translation": "Hee hee...{WAIT} Yes...{BEAT} That's it. Simple, isn't it?"
+      }
+    },
+    "dialogue_0201": {
+      "text": {
+        "reference": "フフフ{WAIT}おバカさんね{n}いつも素直なのが{n}いいって訳じゃないのよ",
+        "translation": "Hee hee...{WAIT} What a fool. Honesty isn't always the best policy."
+      }
+    },
+    "dialogue_0202": {
+      "text": {
+        "reference": "おりこうさんね{WAIT}{n}ちゃんと言うことをきくのね…",
+        "translation": "What a good boy.{WAIT} You do as you're told..."
+      }
+    },
+    "dialogue_0203": {
+      "text": {
+        "reference": "そう{BEAT}それでいいのよ{WAIT}{n}あなたほんとうにいい子ね",
+        "translation": "Yes...{BEAT} That's it.{WAIT} You really are a good boy."
+      }
+    },
+    "dialogue_0204": {
+      "text": {
+        "reference": "仕方ないわね{n}言うことをきかないいけない人…{WAIT}{n}でもまぁいいわ…",
+        "translation": "I suppose I have no choice. You truly can't follow directions...{WAIT} Still, very well..."
+      }
+    },
+    "dialogue_0205": {
+      "text": {
+        "reference": "まぁ{BEAT}私に対して{n}そんな態度をとるわけ？",
+        "translation": "My...{BEAT} Is that how you intend to treat me?"
+      }
+    },
+    "dialogue_0206": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}そこまで私に逆らった人は{n}いなかったわ…",
+        "translation": ".{BEAT}.{BEAT}.{BEAT}.{BEAT}.{WAIT} No one has ever defied me this far..."
+      }
+    },
+    "dialogue_0207": {
+      "text": {
+        "reference": "いいわあなたについていってあ{BEAT}げ{BEAT}る{WAIT}{n}あなたなら私のこと{n}なんとかできるかもしれないわね",
+        "translation": "Fine. I'll come with y{BEAT}o{BEAT}u.{WAIT} Perhaps you can do something with me after all.",
+        "note": "Fragment context: message 247 page 0 continues on page 1 (dialogue_0208) with the demon's inserted race and name."
+      }
+    },
+    "dialogue_0208": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "私の名前は{race}{demon_name}…{n}よろしくね…",
+        "translation": "My name is {race} {demon_name}... A pleasure...",
+        "note": "Fragment context: message 247 page 1 completes page 0 (dialogue_0207)."
+      }
+    },
+    "dialogue_0209": {
+      "text": {
+        "reference": "そう{BEAT}そういうつもりなの{WAIT}{n}別にいいのよそれならそれで",
+        "translation": "I see...{BEAT} So that's your intention.{WAIT} If that's how you want it, I don't mind."
+      }
+    },
+    "dialogue_0210": {
+      "text": {
+        "reference": "そんなことじゃ{n}せっかくの二人の時間が{n}だいなしになっちゃうじゃない…",
+        "translation": "At this rate, our precious time together will be ruined..."
+      }
+    },
+    "dialogue_0211": {
+      "text": {
+        "reference": "それに銃なんかいらないでしょ…",
+        "translation": "Besides, you won't need a gun..."
+      }
+    },
+    "dialogue_0212": {
+      "text": {
+        "reference": "それでいいのよ…{BEAT}男らしいわ{WAIT}{n}私が見込んだオトコだけのことは{n}あるわね",
+        "translation": "That's better...{BEAT} Very manly.{WAIT} I chose you well."
+      }
+    },
+    "dialogue_0213": {
+      "text": {
+        "reference": "口だけじゃダメ！{n}男なら行動しなくちゃ！！{WAIT}{n}そんな気ないくせに…",
+        "translation": "Words aren't enough! A man must act!{WAIT} Not that you truly intend to..."
+      }
+    },
+    "dialogue_0214": {
+      "text": {
+        "reference": "銃をはずすのは{n}カンベンしてあげるけど…{WAIT}{n}あなたほんとうにそう思ってるの？",
+        "translation": "I'll forgive you for keeping the gun on...{WAIT} But do you truly mean that?"
+      }
+    },
+    "dialogue_0215": {
+      "text": {
+        "reference": "フフフ{n}はずしちゃったわね…{WAIT}{n}これでかわいがってあげられるのね！",
+        "translation": "Hee hee... You took it off.{WAIT} Now I can lavish my affection on you!"
+      }
+    },
+    "dialogue_0216": {
+      "text": {
+        "reference": "そうよ{BEAT}分からないの？{WAIT}{n}私の言うことがきけないのね…{WAIT}{n}やっぱりそういうことなのね",
+        "translation": "Yes...{BEAT} Don't you understand?{WAIT} You simply can't obey me...{WAIT} I knew it."
+      }
+    },
+    "dialogue_0217": {
+      "text": {
+        "reference": "いいからおとなしく言うとおりにして！{WAIT}{n}心配しなくてもいいのよ…{WAIT}{n}そう{BEAT}それでいいわ",
+        "translation": "Be quiet and do as I say!{WAIT} There's nothing to worry about...{WAIT} Yes...{BEAT} That's right."
+      }
+    },
+    "dialogue_0218": {
+      "text": {
+        "reference": "私の言うことがきけないの…{WAIT}{n}そう{BEAT}分かったわ{n}じゃあここで死ぬのね！",
+        "translation": "You can't obey me...?{WAIT} I see...{BEAT} Then you'll die here!"
+      }
+    },
+    "dialogue_0219": {
+      "text": {
+        "reference": "あなたは悪魔にもホンネで{n}話してくれるのね…",
+        "translation": "You speak honestly, even to a demon..."
+      }
+    },
+    "dialogue_0220": {
+      "text": {
+        "reference": "いいえ関係あるの{WAIT}{n}私のためにはずしてもらうわ{n}あなたに撃たれたくないもの…",
+        "translation": "No, it does concern me.{WAIT} You'll remove it for my sake. I don't care to be shot..."
+      }
+    },
+    "dialogue_0221": {
+      "text": {
+        "reference": "あなたのこと{n}ひどい人だってみんな言ってるわ{WAIT}{n}悪魔を殺すんですってね",
+        "translation": "Everyone says you're a cruel man.{WAIT} They say you kill demons."
+      }
+    },
+    "dialogue_0222": {
+      "text": {
+        "reference": "そんなこと…{BEAT}平気なの？",
+        "translation": "And that...{BEAT} doesn't bother you?"
+      }
+    },
+    "dialogue_0223": {
+      "text": {
+        "reference": "恐いわ…{WAIT}{n}そう言い切るなんて…",
+        "translation": "How frightening...{WAIT} To say it with such certainty..."
+      }
+    },
+    "dialogue_0224": {
+      "text": {
+        "reference": "そうなの…{WAIT}{n}私も悪魔よ{n}私のこともそうするつもりなの？",
+        "translation": "Is that so...?{WAIT} I'm a demon, too. Do you intend to do the same to me?"
+      }
+    },
+    "dialogue_0225": {
+      "text": {
+        "reference": "そうよね…{WAIT}{n}あなたにとってはそれくらいのこと{n}大した問題じゃないのよね…",
+        "translation": "Of course...{WAIT} To you, such a thing is no great concern..."
+      }
+    },
+    "dialogue_0226": {
+      "text": {
+        "reference": "じゃあ私があなたのことを{n}殺すのも仕方がないことなのね…",
+        "translation": "Then I suppose I can't help killing you, either..."
+      }
+    },
+    "dialogue_0227": {
+      "text": {
+        "reference": "よかった…{BEAT}{n}あなたが私の思ってたとおりの人で{WAIT}{n}そんなはずないって信じてる…",
+        "translation": "Thank goodness...{BEAT} You're just the man I believed you were.{WAIT} I knew it couldn't be true..."
+      }
+    },
+    "dialogue_0228": {
+      "text": {
+        "reference": "そんな言葉だけじゃ信じられないわ",
+        "translation": "Words alone aren't enough to convince me."
+      }
+    },
+    "dialogue_0229": {
+      "text": {
+        "reference": "ウソ！{WAIT}信じられない…",
+        "translation": "Liar!{WAIT} I don't believe you..."
+      }
+    },
+    "dialogue_0230": {
+      "text": {
+        "reference": "自分よりも弱いものたちを{n}つぎつぎと倒してゆく…",
+        "translation": "One after another, you cut down those weaker than yourself...",
+        "note": "Continues into message 270, which completes the accusation by asking whether the player enjoys doing so."
+      }
+    },
+    "dialogue_0231": {
+      "text": {
+        "reference": "そんなことが楽しいの？",
+        "translation": "Do you enjoy that?",
+        "note": "Completes message 269's description: the demon asks whether defeating weaker beings one after another is enjoyable."
+      }
+    },
+    "dialogue_0232": {
+      "text": {
+        "reference": "分かったわ{WAIT}{n}ウソは言ってないようだから{n}信じてあげるわ…",
+        "translation": "All right.{WAIT} You don't seem to be lying, so I'll believe you..."
+      }
+    },
+    "dialogue_0233": {
+      "text": {
+        "reference": "いいわ{BEAT}信じてあげる",
+        "translation": "Very well...{BEAT} I'll believe you."
+      }
+    },
+    "dialogue_0234": {
+      "text": {
+        "reference": "言葉ではなんとでも言えるわ…{n}あなたの誠意が見たいの…",
+        "translation": "Words can say anything... I want proof of your sincerity."
+      }
+    },
+    "dialogue_0235": {
+      "text": {
+        "reference": "なによその言い方！{n}もっと考えてから言いなさいよ！",
+        "translation": "What a way to put it! Think before you speak!"
+      }
+    },
+    "dialogue_0236": {
+      "text": {
+        "reference": "そう{BEAT}残念ね…{WAIT}{n}考え直してくれると思ったのに…",
+        "translation": "I see...{BEAT} What a shame...{WAIT} I'd hoped you might reconsider..."
+      }
+    },
+    "dialogue_0237": {
+      "text": {
+        "reference": "あなたの本心は分かっているわ{n}そんなこと言ってもムダよ",
+        "translation": "I know how you truly feel. There's no use saying otherwise."
+      }
+    },
+    "dialogue_0238": {
+      "text": {
+        "reference": "ほんとうにあきれた人ね…",
+        "translation": "You truly are unbelievable..."
+      }
+    },
+    "dialogue_0239": {
+      "text": {
+        "reference": "普段どおりのあなたが見てみたい…{WAIT}{n}ねぇいいでしょ",
+        "translation": "I want to see the man you are in private...{WAIT} Won't you?"
+      }
+    },
+    "dialogue_0240": {
+      "text": {
+        "reference": "たまにはデートしてくれない？",
+        "translation": "Will you take me on a date sometime?"
+      }
+    },
+    "dialogue_0241": {
+      "text": {
+        "reference": "ほんと？{BEAT}うれしい！{n}きっとね約束よ！！",
+        "translation": "Really?{BEAT} I'm so happy! It's a promise!"
+      }
+    },
+    "dialogue_0242": {
+      "text": {
+        "reference": "ほんとにいいの？{BEAT}{n}だったらうれしいんだけど…",
+        "translation": "Do you truly mean it?{BEAT} I'd be delighted..."
+      }
+    },
+    "dialogue_0243": {
+      "text": {
+        "reference": "なによ{BEAT}その言い方{WAIT}{n}それなら条件があるわ",
+        "translation": "What a way to say it...{BEAT}{WAIT} Then I have one condition."
+      }
+    },
+    "dialogue_0244": {
+      "text": {
+        "reference": "なによ{BEAT}その言い方{WAIT}{n}そんなにエラそうにするのなら{n}こちらからお断りよ！！",
+        "translation": "What a way to say it...{BEAT}{WAIT} If you're going to be so arrogant, then I refuse!"
+      }
+    },
+    "dialogue_0245": {
+      "text": {
+        "reference": "分かった…{WAIT}{n}あなたがそういうのなら{n}私は従うわ…",
+        "translation": "I understand...{WAIT} If that's what you want, I'll obey..."
+      }
+    },
+    "dialogue_0246": {
+      "text": {
+        "reference": "そうします！{WAIT}{n}もう話しかけないで！！",
+        "translation": "Fine!{WAIT} Never speak to me again!"
+      }
+    },
+    "dialogue_0247": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "そう{BEAT}それは残念ね…{WAIT}{n}あなたのこと気に入ってるのに…{n}{offered_item}をあげる…",
+        "translation": "I see...{BEAT} What a shame...{WAIT} I rather like you... Take {offered_item}..."
+      }
+    },
+    "dialogue_0248": {
+      "text": {
+        "reference": "私だと思って大事にして…",
+        "translation": "Treasure it as though it were me..."
+      }
+    },
+    "dialogue_0249": {
+      "text": {
+        "reference": "そう{BEAT}じゃあ仕方ないわね…{WAIT}{n}あきらめるわ…",
+        "translation": "I see...{BEAT} Then I suppose I have no choice...{WAIT} I'll give up..."
+      }
+    },
+    "dialogue_0250": {
+      "text": {
+        "reference": "そんなにカッコつけなくっても{n}いいのよ…{WAIT}{n}普段のあなたでいてくれるなら",
+        "translation": "You needn't put on such airs...{WAIT} Just be yourself."
+      }
+    },
+    "dialogue_0251": {
+      "text": {
+        "reference": "今夜あたりどう？",
+        "translation": "How does tonight sound?"
+      }
+    },
+    "dialogue_0252": {
+      "text": {
+        "reference": "ほんとに？{n}じゃあ今夜ね{WAIT}{n}楽しみにしてるわ…",
+        "translation": "Truly? Then tonight it is.{WAIT} I'll look forward to it..."
+      }
+    },
+    "dialogue_0253": {
+      "text": {
+        "reference": "うれしいわ{n}じゃあこっちに来て…{WAIT}{n}そう…{BEAT}恐がらなくていいのよ…",
+        "translation": "I'm so happy. Then come closer...{WAIT} Yes...{BEAT} There's no need to be afraid..."
+      }
+    },
+    "dialogue_0254": {
+      "text": {
+        "reference": "フフフフフ{WAIT}{n}あなたは私のもの…{n}もう離さないわ…",
+        "translation": "Hee hee hee hee...{WAIT} You're mine now... I'll never let you go..."
+      }
+    },
+    "dialogue_0255": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "とにかくいいのね…{n}{offered_item}渡しておくわ{WAIT}{n}約束のしるしよ…",
+        "translation": "So we're agreed... Take {offered_item}.{WAIT} It's a token of our promise..."
+      }
+    },
+    "dialogue_0256": {
+      "text": {
+        "reference": "なによその言い方{WAIT}{n}それならもういいわ！",
+        "translation": "What a way to put it.{WAIT} Then forget it!"
+      }
+    },
+    "dialogue_0257": {
+      "text": {
+        "reference": "そうなのじゃあ{n}また今度にしましょうか…",
+        "translation": "Is that so? Then perhaps another time..."
+      }
+    },
+    "dialogue_0258": {
+      "text": {
+        "reference": "それくらいのこと{n}してくれてもいいんじゃない？{WAIT}{n}ひどい人…",
+        "translation": "You could at least do that much for me.{WAIT} What a cruel man..."
+      }
+    },
+    "dialogue_0259": {
+      "text": {
+        "reference": "きっと自分に自信があるからなのね…",
+        "translation": "You must be very sure of yourself..."
+      }
+    },
+    "dialogue_0260": {
+      "text": {
+        "reference": "あなた強いんでしょうね…",
+        "translation": "You're strong, aren't you...?"
+      }
+    },
+    "dialogue_0261": {
+      "text": {
+        "reference": "ますます気に入ったわ…{n}私のこと好きにして…",
+        "translation": "Now I like you even more... Do whatever you wish with me...",
+        "note": "Fragment context: message 300 page 0 continues on page 1 (dialogue_0262) with the demon's inserted race and name."
+      }
+    },
+    "dialogue_0262": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "私の名前は{race}{demon_name}…{n}絶対に放さないでね…",
+        "translation": "My name is {race} {demon_name}... Never let me go...",
+        "note": "Fragment context: this shared page 1 completes recruitment messages 300, 308, 365, 529, 531, and 533; their page-0 dialogue_0261, dialogue_0271, dialogue_0328, dialogue_0485, dialogue_0487, and 489."
+      }
+    },
+    "dialogue_0263": {
+      "text": {
+        "reference": "またそんなこと言って…{BEAT}{n}私の前では素直になって！",
+        "translation": "There you go again...{BEAT} Be honest with me!"
+      }
+    },
+    "dialogue_0264": {
+      "text": {
+        "reference": "じゃあ私のこと守ってね{WAIT}{n}ずっとそばにいるから…",
+        "translation": "Then protect me.{WAIT} I'll always be by your side...",
+        "note": "Fragment context: message 302 page 0 continues on page 1 (dialogue_0265) with the demon's inserted race and name."
+      }
+    },
+    "dialogue_0265": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "私の名前は{race}{demon_name}…{n}絶対に放さないでね…",
+        "translation": "My name is {race} {demon_name}... Never let me go...",
+        "note": "Fragment context: this shared page 1 completes recruitment messages 302, 377, 518, 520, and 522; their page-0 dialogue_0264, dialogue_0340, and shared dialogue_0478."
+      }
+    },
+    "dialogue_0266": {
+      "text": {
+        "reference": "じゃあ試してみてもいいわね{WAIT}{n}私が相手をしてあげる！！",
+        "translation": "Then let's put it to the test.{WAIT} I'll be your opponent!"
+      }
+    },
+    "dialogue_0267": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "あなたの願いかなえてあげたい…{WAIT}{n}{offered_item}を持っていって{n}きっと役に立つわ",
+        "translation": "I want to grant your wish...{WAIT} Take {offered_item}. I'm certain it will help."
+      }
+    },
+    "dialogue_0268": {
+      "text": {
+        "reference": "そうなの…{BEAT}{n}それなら興味はないわ…",
+        "translation": "Is that so...?{BEAT} Then I've lost interest..."
+      }
+    },
+    "dialogue_0269": {
+      "text": {
+        "reference": "あなたの心は分かっているわ{n}私なんかと話してくれるなんて",
+        "translation": "I understand your heart. You would even speak with someone like me..."
+      }
+    },
+    "dialogue_0270": {
+      "text": {
+        "reference": "ほんとに優しいのね…",
+        "translation": "You truly are kind..."
+      }
+    },
+    "dialogue_0271": {
+      "text": {
+        "reference": "そうよ…{BEAT}{n}あなたに私のすべてを任せるわ…",
+        "translation": "That's right...{BEAT} I'll entrust everything to you...",
+        "note": "Fragment context: message 308 page 0 continues on page 1 (dialogue_0262) with the demon's inserted race and name."
+      }
+    },
+    "dialogue_0272": {
+      "text": {
+        "reference": "そうよ気づいてないの？{WAIT}{n}フフフ{BEAT}{n}あなたらしいわね…",
+        "translation": "Yes. Haven't you noticed?{WAIT} Hee hee...{BEAT} How very like you..."
+      }
+    },
+    "dialogue_0273": {
+      "text": {
+        "reference": "あなたのそういう素直なところが{n}大好きよ！！",
+        "translation": "I adore that honesty of yours!"
+      }
+    },
+    "dialogue_0274": {
+      "text": {
+        "reference": "フフフ{WAIT}{n}おだてに乗りやすいなんて単純ね",
+        "translation": "Hee hee...{WAIT} How simple you are, falling for flattery."
+      }
+    },
+    "dialogue_0275": {
+      "text": {
+        "reference": "ねぇあなたに{n}確かめておきたいことがあるの…",
+        "translation": "There's something I want to ask you..."
+      }
+    },
+    "dialogue_0276": {
+      "text": {
+        "reference": "私のことどう思う？",
+        "translation": "What do you think of me?"
+      }
+    },
+    "dialogue_0277": {
+      "text": {
+        "reference": "そう…{BEAT}じゃあいいわ…{BEAT}{n}ビジネスライクにいきましょう{WAIT}{n}私にも条件があるの",
+        "translation": "I see...{BEAT} Very well, then...{BEAT} Let's keep this strictly business.{WAIT} I have conditions, too."
+      }
+    },
+    "dialogue_0278": {
+      "text": {
+        "reference": "そうよね…{BEAT}{n}あなたにとって私なんて…",
+        "translation": "Of course...{BEAT} To you, I'm nothing..."
+      }
+    },
+    "dialogue_0279": {
+      "text": {
+        "reference": "ふん！{WAIT}{n}そんなふうに思ってたのね…{BEAT}{n}がっかりしたわ",
+        "translation": "Hmph!{WAIT} So that's what you thought of me...{BEAT} I'm disappointed."
+      }
+    },
+    "dialogue_0280": {
+      "text": {
+        "reference": "そう言われると私弱いのよね…{WAIT}{n}でもすぐに従うって訳じゃないのよ",
+        "translation": "I'm weak to words like those...{WAIT} But that doesn't mean I'll obey you at once."
+      }
+    },
+    "dialogue_0281": {
+      "text": {
+        "reference": "ありがとう{BEAT}{n}その言葉とってもうれしい…",
+        "translation": "Thank you...{BEAT} Those words make me so happy..."
+      }
+    },
+    "dialogue_0282": {
+      "text": {
+        "reference": "だったら私の言うこときいて…{WAIT}{n}こっちに来て…{BEAT}私の目を見て…{BEAT}{n}そう…",
+        "translation": "Then do as I say...{WAIT} Come closer...{BEAT} Look into my eyes...{BEAT} Yes..."
+      }
+    },
+    "dialogue_0283": {
+      "text": {
+        "reference": "フフフ{BEAT}これで私のもの…",
+        "translation": "Hee hee...{BEAT} Now you're mine..."
+      }
+    },
+    "dialogue_0284": {
+      "text": {
+        "reference": "どう？ドキドキしたでしょ？",
+        "translation": "Well? Made your heart race, didn't I?"
+      }
+    },
+    "dialogue_0285": {
+      "text": {
+        "reference": "ねぇ聞いて！{n}あなたのお手伝いがしたいの…",
+        "translation": "Listen! I want to help you..."
+      }
+    },
+    "dialogue_0286": {
+      "text": {
+        "reference": "彼女にしてくれてもいいでしょ？",
+        "translation": "Why not make me your girl?"
+      }
+    },
+    "dialogue_0287": {
+      "text": {
+        "reference": "いいの？{BEAT}うれしい…{WAIT}{n}もうあなたから離れない…",
+        "translation": "You mean it?{BEAT} I'm so happy...{WAIT} I'll never leave you...",
+        "note": "Fragment context: message 325 page 0 continues on page 1 (dialogue_0288) with the demon's inserted race and name."
+      }
+    },
+    "dialogue_0288": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "私の名前は{race}{demon_name}…{n}あなたの好きにして…",
+        "translation": "My name is {race} {demon_name}... Do whatever you wish with me...",
+        "note": "Fragment context: message 325 page 1 completes page 0 (dialogue_0287)."
+      }
+    },
+    "dialogue_0289": {
+      "text": {
+        "reference": "ありがとう{WAIT}{n}ずっとあなたのこと想ってるわ…",
+        "translation": "Thank you.{WAIT} I'll always be thinking of you..."
+      }
+    },
+    "dialogue_0290": {
+      "text": {
+        "reference": "そう{BEAT}残念ね…{n}それなら仕方ないわ…{n}さようなら…",
+        "translation": "I see...{BEAT} What a shame... Then I suppose it can't be helped... Farewell..."
+      }
+    },
+    "dialogue_0291": {
+      "text": {
+        "reference": "分かったわ{n}悪魔は相手にできないってことね{n}そんな人だとは思わなかったわ…",
+        "translation": "I understand. You won't associate with demons. I never thought you were that sort of man..."
+      }
+    },
+    "dialogue_0292": {
+      "text": {
+        "reference": "そう{BEAT}分かったわ{WAIT}{n}毒を飲んで死んでやる！！",
+        "translation": "I see...{BEAT} I understand.{WAIT} I'll drink poison and die!"
+      }
+    },
+    "dialogue_0293": {
+      "text": {
+        "reference": "そうよく分かったわ…{WAIT}{n}後悔してもしらないから！！",
+        "translation": "Now I understand perfectly...{WAIT} Don't blame me when you regret this!"
+      }
+    },
+    "dialogue_0294": {
+      "text": {
+        "reference": "私…{BEAT}{n}あなたのこと知りたいのよ…",
+        "translation": "I...{BEAT} I want to know more about you..."
+      }
+    },
+    "dialogue_0295": {
+      "text": {
+        "reference": "防具なんて邪魔なだけでしょ…",
+        "translation": "That armor only gets in the way..."
+      }
+    },
+    "dialogue_0296": {
+      "text": {
+        "reference": "フフフ{WAIT}{n}はずしてくれるのね…{WAIT}{n}それでいいのよ…",
+        "translation": "Hee hee...{WAIT} You'll take it off...?{WAIT} That's right..."
+      }
+    },
+    "dialogue_0297": {
+      "text": {
+        "reference": "フフフ{WAIT}{n}はずしてくれたのね…{WAIT}{n}私は何もしない…{BEAT}好きにして…",
+        "translation": "Hee hee...{WAIT} You took it off...{WAIT} I won't do a thing...{BEAT} Do whatever you like..."
+      }
+    },
+    "dialogue_0298": {
+      "text": {
+        "reference": "そう思うんなら{n}とらなくってもいいわ{WAIT}{n}でも私との話もここまでよ",
+        "translation": "If you feel that way, you needn't remove it.{WAIT} But our conversation ends here."
+      }
+    },
+    "dialogue_0299": {
+      "text": {
+        "reference": "そうよいいからとりなさい！{WAIT}{n}フフフ{BEAT}{n}これで私とおんなじね",
+        "translation": "Yes, now take it off!{WAIT} Hee hee...{BEAT} Now we match."
+      }
+    },
+    "dialogue_0300": {
+      "text": {
+        "reference": "ウソつき！{n}ほんとにひどい人！！",
+        "translation": "Liar! You really are awful!"
+      }
+    },
+    "dialogue_0301": {
+      "text": {
+        "reference": "あきれた…{BEAT}ほんとに装備してないのね…{WAIT}{n}ちょうどいいわここで死になさい！",
+        "translation": "Unbelievable...{BEAT} You truly aren't wearing any armor...{WAIT} Perfect. Die right here!"
+      }
+    },
+    "dialogue_0302": {
+      "text": {
+        "reference": "あなたの好きにさせてあ{BEAT}げ{BEAT}る{WAIT}{n}もし望むなら",
+        "translation": "I'll let you do whatever you w{BEAT}a{BEAT}nt...{WAIT} If you wish..."
+      }
+    },
+    "dialogue_0303": {
+      "text": {
+        "reference": "逃げてもいいのよ…",
+        "translation": "You may run away..."
+      }
+    },
+    "dialogue_0304": {
+      "text": {
+        "reference": "さよなら…",
+        "translation": "Farewell..."
+      }
+    },
+    "dialogue_0305": {
+      "text": {
+        "reference": "逃がしてあげるはずないじゃない{BEAT}{n}残念でした",
+        "translation": "As if I would let you escape...{BEAT} Too bad."
+      }
+    },
+    "dialogue_0306": {
+      "text": {
+        "reference": "いじめてあ{BEAT}げ{BEAT}る{BEAT}{OP:8026}『{OP:8020}",
+        "translation": "I'll t{BEAT}o{BEAT}rment you...{BEAT}{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0307": {
+      "text": {
+        "reference": "そう…{BEAT}ありがとう…",
+        "translation": "I see...{BEAT} Thank you..."
+      }
+    },
+    "dialogue_0308": {
+      "text": {
+        "reference": "あなたのことひどい人だと思ってるわ…{WAIT}{n}違うって言うのなら",
+        "translation": "I think you're a cruel man...{WAIT} If you say I'm wrong...",
+        "note": "Continues into message 346: if the player denies being cruel, she proposes letting her strike him so he can experience the receiving end."
+      }
+    },
+    "dialogue_0309": {
+      "text": {
+        "reference": "たまにはやられてみない？",
+        "translation": "Why not see how it feels to be on the receiving end?",
+        "note": "Completes message 345's conditional challenge: this is her proposed test of the player's claim that he is not cruel."
+      }
+    },
+    "dialogue_0310": {
+      "text": {
+        "reference": "あら！？{BEAT}{n}そんなにひどい人じゃないみたいね{n}今の一言で分かったわ",
+        "translation": "Oh!?{BEAT} Perhaps you aren't so cruel after all. That answer told me everything."
+      }
+    },
+    "dialogue_0311": {
+      "text": {
+        "reference": "いいのねいくわよ！{WAIT}{n}えいっ！{WAIT}{n}ピシッ！",
+        "translation": "You're sure? Here I go!{WAIT} Take that!{WAIT} Smack!"
+      }
+    },
+    "dialogue_0312": {
+      "text": {
+        "reference": "これでカンベンしてあげる！",
+        "translation": "We'll call that enough!"
+      }
+    },
+    "dialogue_0313": {
+      "text": {
+        "reference": "いいのね？{BEAT}{n}じゃあいくわよ！{WAIT}{n}…{BEAT}やっぱり私にはできないわ…",
+        "translation": "You're sure?{BEAT} Here I go!{WAIT}.{BEAT} No... I can't do it..."
+      }
+    },
+    "dialogue_0314": {
+      "text": {
+        "reference": "いいのね？{BEAT}{n}じゃあいくわよ！",
+        "translation": "You're sure?{BEAT} Here I go!"
+      }
+    },
+    "dialogue_0315": {
+      "text": {
+        "reference": "もっと男らしくしなさい！{WAIT}{n}がっかりさせないでよ！！",
+        "translation": "Be more of a man!{WAIT} Don't disappoint me!"
+      }
+    },
+    "dialogue_0316": {
+      "text": {
+        "reference": "そんなこと言ってもムダよ…{WAIT}{n}もう決めているの{BEAT}{n}あなたのこと殺すって！",
+        "translation": "There's no use saying that...{WAIT} I've already decided...{BEAT} I'm going to kill you!"
+      }
+    },
+    "dialogue_0317": {
+      "text": {
+        "reference": "そこまで言うのなら{n}考えてあげてもいいわ",
+        "translation": "If you feel that strongly, I might reconsider."
+      }
+    },
+    "dialogue_0318": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}いいわ…許してあげる！",
+        "translation": ".{BEAT}.{BEAT}.{BEAT}.{BEAT}.{WAIT} Fine... I forgive you!"
+      }
+    },
+    "dialogue_0319": {
+      "text": {
+        "reference": "いいかげんにしなさい！{WAIT}{n}そういうところがいけないのよ！！{WAIT}{n}私が直してあげるわ！！",
+        "translation": "Enough!{WAIT} This is precisely what's wrong with you!{WAIT} I'll fix it myself!"
+      }
+    },
+    "dialogue_0320": {
+      "text": {
+        "reference": "あなたのこといろいろ聞いているわ…{BEAT}{n}おもしろ半分に悪魔たちを{n}つかまえるんですって！？",
+        "translation": "I've heard all about you...{BEAT} They say you capture demons purely for amusement!"
+      }
+    },
+    "dialogue_0321": {
+      "text": {
+        "reference": "別の楽しみかたもあるでしょう…",
+        "translation": "There are other ways to amuse yourself..."
+      }
+    },
+    "dialogue_0322": {
+      "text": {
+        "reference": "分かってるなら{n}なぜあなたは自分を変えてくれないの？",
+        "translation": "If you know that, why won't you change?"
+      }
+    },
+    "dialogue_0323": {
+      "text": {
+        "reference": "分かっていてやっているのね…{n}いいわみんなにかわって{n}私がオシオキしてあげる！",
+        "translation": "So you know, yet do it anyway... Fine. On behalf of them all, I'll punish you!"
+      }
+    },
+    "dialogue_0324": {
+      "text": {
+        "reference": "試すって…別の楽しみを？{n}うーん{BEAT}そうね…{BEAT}{n}試してみようかしら…",
+        "translation": "Try it...? Another sort of pleasure? Hmm...{BEAT} Perhaps...{BEAT} Maybe I will..."
+      }
+    },
+    "dialogue_0325": {
+      "text": {
+        "reference": "やめてよね！{n}そうやってごまかすのは{WAIT}{n}絶対にイヤよ！！",
+        "translation": "Stop that! I absolutely refuse to let you evade the question!{WAIT}"
+      }
+    },
+    "dialogue_0326": {
+      "text": {
+        "reference": "私…{WAIT}{n}決めたわ！！",
+        "translation": "I...{WAIT} I've decided!"
+      }
+    },
+    "dialogue_0327": {
+      "text": {
+        "reference": "あなたのそばにいさせてちょうだい！",
+        "translation": "Let me remain by your side!"
+      }
+    },
+    "dialogue_0328": {
+      "text": {
+        "reference": "うれしい！{BEAT}{n}約束するずっとそばにいるって！",
+        "translation": "I'm so happy!{BEAT} I promise I'll always be by your side!",
+        "note": "Fragment context: message 365 page 0 continues on page 1 (dialogue_0262) with the demon's inserted race and name."
+      }
+    },
+    "dialogue_0329": {
+      "text": {
+        "reference": "そうねぇ…{BEAT}{n}やっぱりいざとなると迷うわね…{n}どうしようかなあ…",
+        "translation": "Let's see...{BEAT} Now that the moment has come, I hesitate... What shall I do...?"
+      }
+    },
+    "dialogue_0330": {
+      "text": {
+        "reference": "よかったそう言ってくれて…{WAIT}{n}でもね「タダ」って訳にもいかないのよ",
+        "translation": "I'm glad you said that...{WAIT} But I can't simply join you for nothing."
+      }
+    },
+    "dialogue_0331": {
+      "text": {
+        "reference": "本当に私の気持ち分かっているの？{BEAT}{n}そんな言い方じゃね…{WAIT}{n}やっぱりあなたのこと信じられない！",
+        "translation": "Do you truly understand how I feel?{BEAT} Not with an answer like that...{WAIT} I still can't trust you!"
+      }
+    },
+    "dialogue_0332": {
+      "text": {
+        "reference": "そんなこと言わないで！{WAIT}{n}…って言ってもムダなのかしら…？{BEAT}{n}きっとそうよね…",
+        "translation": "Don't say that!{WAIT} Though perhaps there's no use asking you...?{BEAT} Of course there isn't..."
+      }
+    },
+    "dialogue_0333": {
+      "text": {
+        "reference": "そう…{BEAT}仕方ない…{BEAT}{n}あきらめるわ{WAIT}{n}さよなら楽しかった…",
+        "translation": "I see...{BEAT} It can't be helped...{BEAT} I'll give up.{WAIT} Goodbye. I had fun..."
+      }
+    },
+    "dialogue_0334": {
+      "text": {
+        "reference": "そう分かったわ{BEAT}{n}ムリにとは言わないわ…{WAIT}{n}いろいろありがとう{BEAT}さよなら！",
+        "translation": "I understand...{BEAT} I won't force you...{WAIT} Thank you for everything.{BEAT} Farewell!"
+      }
+    },
+    "dialogue_0335": {
+      "text": {
+        "reference": "そう…{BEAT}そうやって平気でキズつけるのね…{WAIT}{n}分かったわ！{BEAT}{BEAT}{n}さよなら！",
+        "translation": "I see...{BEAT} You hurt others without a care...{WAIT} I understand!{BEAT}{BEAT} Farewell!"
+      }
+    },
+    "dialogue_0336": {
+      "text": {
+        "reference": "私あなたのために何かしたい…",
+        "translation": "I want to do something for you..."
+      }
+    },
+    "dialogue_0337": {
+      "text": {
+        "reference": "私にできることがあれば言って！",
+        "translation": "Tell me if there's anything I can do!"
+      }
+    },
+    "dialogue_0338": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "そう{BEAT}欲のない人ね{n}{offered_item}をあげる！{n}がんばってね！",
+        "translation": "I see...{BEAT} How selfless. Take {offered_item}! Good luck!"
+      }
+    },
+    "dialogue_0339": {
+      "text": {
+        "reference": "そうそれならいいの…{BEAT}{n}がんばってね…",
+        "translation": "Then that's all right...{BEAT} Good luck..."
+      }
+    },
+    "dialogue_0340": {
+      "text": {
+        "reference": "…いいわ分かった{WAIT}{n}私のこと大切にして…",
+        "translation": "Very well... I understand.{WAIT} Please take good care of me...",
+        "note": "Fragment context: message 377 page 0 continues on page 1 (dialogue_0265) with the demon's inserted race and name."
+      }
+    },
+    "dialogue_0341": {
+      "text": {
+        "reference": "ダメ{WAIT}それだけはダメ{WAIT}{n}私にはできない…",
+        "translation": "No.{WAIT} Anything but that.{WAIT} I can't do it..."
+      }
+    },
+    "dialogue_0342": {
+      "text": {
+        "reference": "あなたがそう言うなら私は従うわ…{WAIT}{n}さよなら楽しかった…",
+        "translation": "If that's what you want, I'll obey...{WAIT} Goodbye. I had fun..."
+      }
+    },
+    "dialogue_0343": {
+      "text": {
+        "reference": "それだけはイヤよ！！{WAIT}{n}あなたから離れたくないの…",
+        "translation": "Anything but that!{WAIT} I don't want to leave you..."
+      }
+    },
+    "dialogue_0344": {
+      "text": {
+        "reference": "あなたが頭をさげるのなら",
+        "translation": "If you bow your head...",
+        "note": "Continues into message 382: bowing is the condition under which she may agree to help."
+      }
+    },
+    "dialogue_0345": {
+      "text": {
+        "reference": "助けてあげてもいいわよ",
+        "translation": "I might help you.",
+        "note": "Completes message 381: she may help if the player first bows his head."
+      }
+    },
+    "dialogue_0346": {
+      "text": {
+        "reference": "どうしようかな…{BEAT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・",
+        "translation": "What shall I do...?{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT}"
+      }
+    },
+    "dialogue_0347": {
+      "text": {
+        "reference": "どうしようかな…{BEAT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{n}やっぱりやめた！{WAIT}ごめんなさい！！",
+        "translation": "What shall I do...?{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT} No, I've changed my mind!{WAIT} I'm sorry!"
+      }
+    },
+    "dialogue_0348": {
+      "text": {
+        "reference": "仕方ないわね{n}じゃあ…",
+        "translation": "I suppose I have no choice. Then...",
+        "note": "The Japanese ends on じゃあ ('then...'), introducing the branch-dependent action or demand that follows."
+      }
+    },
+    "dialogue_0349": {
+      "text": {
+        "reference": "そんな態度でいいの？{WAIT}{n}そう…{BEAT}{n}ふ～ん…",
+        "translation": "Is that any way to ask?{WAIT} I see...{BEAT} Hmm..."
+      }
+    },
+    "dialogue_0350": {
+      "text": {
+        "reference": "そう…{BEAT}{n}そうなの{BEAT}{BEAT}{n}なら無理にとは言わないわ",
+        "translation": "I see...{BEAT} Is that so...?{BEAT}{BEAT} Then I won't force you."
+      }
+    },
+    "dialogue_0351": {
+      "text": {
+        "reference": "そう…{BEAT}{n}まあせいぜいがんばってちょうだい{WAIT}{n}じゃあね！",
+        "translation": "I see...{BEAT} Well, do your best.{WAIT} Goodbye!"
+      }
+    },
+    "dialogue_0352": {
+      "text": {
+        "reference": "そう{BEAT}分かったわ{n}さよなら！",
+        "translation": "I see...{BEAT} I understand. Farewell!"
+      }
+    },
+    "dialogue_0353": {
+      "text": {
+        "reference": "そう…{BEAT}{n}あなたの気持ちよ～{BEAT}く分かりました！{WAIT}{n}じゃあね！ほんとひとの気も知らないで",
+        "translation": "I see...{BEAT} I understand your feelings perfectly...{BEAT}{WAIT} Goodbye! Honestly, you never consider anyone else's feelings."
+      }
+    },
+    "dialogue_0354": {
+      "text": {
+        "reference": "ねえ…{BEAT}{n}あなた私のこと大切にしてくれると{n}思うけど…",
+        "translation": "Tell me...{BEAT} I think you'll cherish me, but...",
+        "note": "Continues into message 392, where she asks for concrete reassurance that the player will do something for her."
+      }
+    },
+    "dialogue_0355": {
+      "text": {
+        "reference": "私のために何かしてくれるわよね？",
+        "translation": "You'll do something for me, won't you?",
+        "note": "Completes message 391's hesitant claim that the player will cherish her by asking him to promise action."
+      }
+    },
+    "dialogue_0356": {
+      "text": {
+        "reference": "そうやって考え込まないと{n}答えられないのね…",
+        "translation": "You have to think that hard before answering...?"
+      }
+    },
+    "dialogue_0357": {
+      "text": {
+        "reference": "ウソでもいいから{n}もっとマシなこと言ってよ！{WAIT}{n}私のことちっとも分かってないっ！",
+        "translation": "I don't care if it's a lie—say something better!{WAIT} You don't understand me at all!"
+      }
+    },
+    "dialogue_0358": {
+      "text": {
+        "reference": "それほんとう？{WAIT}{n}なら証明して！！",
+        "translation": "Is that true?{WAIT} Then prove it!"
+      }
+    },
+    "dialogue_0359": {
+      "text": {
+        "reference": "ウソでしょ？{BEAT}{n}信じられないわ！",
+        "translation": "You're lying, aren't you?{BEAT} I don't believe you!"
+      }
+    },
+    "dialogue_0360": {
+      "text": {
+        "reference": "いいの？{BEAT}やったあ！",
+        "translation": "Really?{BEAT} Yes!"
+      }
+    },
+    "dialogue_0361": {
+      "text": {
+        "reference": "言ってもどうせくれないんでしょ{WAIT}{n}それじゃあねぇ…",
+        "translation": "Even if I tell you, you won't give it to me.{WAIT} So goodbye..."
+      }
+    },
+    "dialogue_0362": {
+      "text": {
+        "reference": "もういいわ{n}よく分かったわ！",
+        "translation": "Enough. Now I understand!"
+      }
+    },
+    "dialogue_0363": {
+      "text": {
+        "reference": "とにかく気をつけることね！",
+        "translation": "Whatever you do, be careful!"
+      }
+    },
+    "dialogue_0364": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "くれぐれも無理をしないことね…{BEAT}{n}{offered_item}でも持って行って！",
+        "translation": "Above all, don't push yourself too hard...{BEAT} Take {offered_item} with you!"
+      }
+    },
+    "dialogue_0365": {
+      "text": {
+        "reference": "仲魔にも注意するのよ！{WAIT}{n}いい？{BEAT}これは忠告よ！！",
+        "translation": "Watch your allies, too!{WAIT} Understand?{BEAT} This is a warning!"
+      }
+    },
+    "dialogue_0366": {
+      "text": {
+        "reference": "ありがと{BEAT}{n}でも心配はいらないわ！{WAIT}{n}じゃあねさよなら！",
+        "translation": "Thank you...{BEAT} But there's no need to worry!{WAIT} Goodbye!"
+      }
+    },
+    "dialogue_0367": {
+      "text": {
+        "reference": "なによその言い方！{n}ひとがせっかく忠告してるっていうのに",
+        "translation": "What a way to respond! I went to the trouble of warning you."
+      }
+    },
+    "dialogue_0368": {
+      "text": {
+        "reference": "そう分かったわ！{WAIT}{n}仲魔にまで放っておかれないように{n}気をつけることね！",
+        "translation": "I understand!{WAIT} Take care that even your allies don't abandon you!"
+      }
+    },
+    "dialogue_0369": {
+      "text": {
+        "reference": "何よそれ？{BEAT}{n}私が直してあげなきゃダメみたいね{WAIT}{n}いいわかかってらっしゃい！！",
+        "translation": "What's that supposed to mean?{BEAT} It seems I'll have to fix you myself.{WAIT} Fine, come at me!"
+      }
+    },
+    "dialogue_0370": {
+      "text": {
+        "reference": "あなたのこと分かったような気がする…{WAIT}{n}私の言うことよく聞いて",
+        "translation": "I think I understand you now...{WAIT} Listen carefully."
+      }
+    },
+    "dialogue_0371": {
+      "text": {
+        "reference": "今のままのあなただとかなり危険よ！",
+        "translation": "The way you are now, you're in grave danger!"
+      }
+    },
+    "dialogue_0372": {
+      "text": {
+        "reference": "じゃあねぇ…",
+        "translation": "Well, then..."
+      }
+    },
+    "dialogue_0373": {
+      "text": {
+        "reference": "そうねぇ…{WAIT}{n}それはできないわ！{BEAT}ごめんなさい！",
+        "translation": "Let's see...{WAIT} No, I can't do that!{BEAT} I'm sorry!"
+      }
+    },
+    "dialogue_0374": {
+      "text": {
+        "reference": "さすがに自分のことは分かるのね{BEAT}{n}いいわ助けてあげる{WAIT}{n}ただし条件次第よ！",
+        "translation": "At least you understand yourself...{BEAT} Fine, I'll help you.{WAIT} But it depends on the terms!"
+      }
+    },
+    "dialogue_0375": {
+      "text": {
+        "reference": "分かってるのなら{n}自分の力で何とかしなきゃ{BEAT}…ねっ！",
+        "translation": "If you understand, you must do something about it yourself...{BEAT} Right?"
+      }
+    },
+    "dialogue_0376": {
+      "text": {
+        "reference": "そうよ！{BEAT}{n}自分の状態に気をつけて…！",
+        "translation": "Exactly!{BEAT} Pay attention to your condition...!"
+      }
+    },
+    "dialogue_0377": {
+      "text": {
+        "reference": "分かってないのね…{BEAT}{n}この場所は悪魔のものなのよ！{n}その意味をよく考えて！",
+        "translation": "You don't understand...{BEAT} This place belongs to demons! Think carefully about what that means!"
+      }
+    },
+    "dialogue_0378": {
+      "text": {
+        "reference": "そう言っていられるのも{n}今のうちだけ…{WAIT}{n}あなたにもすぐ分かる…",
+        "translation": "You can only talk that way for now...{WAIT} You'll understand soon enough..."
+      }
+    },
+    "dialogue_0379": {
+      "text": {
+        "reference": "そうやって強がっていればいいじゃない{WAIT}{n}好きにすれば！",
+        "translation": "Go on pretending you're strong.{WAIT} Do as you please!"
+      }
+    },
+    "dialogue_0380": {
+      "text": {
+        "reference": "あなたって人は{n}ずっとそんな調子なの？",
+        "translation": "Are you always like this?"
+      }
+    },
+    "dialogue_0381": {
+      "text": {
+        "reference": "あなたってほんと調子いいんだから…",
+        "translation": "You truly do say whatever suits you..."
+      }
+    },
+    "dialogue_0382": {
+      "text": {
+        "reference": "そうなの？{n}そうは見えないけど…{WAIT}{n}あなたって見た目と中身全然違うのね",
+        "translation": "Really? You don't look it...{WAIT} Your appearance and your character are entirely different."
+      }
+    },
+    "dialogue_0383": {
+      "text": {
+        "reference": "ウソ？{n}あなたどこか変よ{WAIT}{n}うまく言えないけど…",
+        "translation": "You're lying. There's something strange about you.{WAIT} I can't quite put it into words..."
+      }
+    },
+    "dialogue_0384": {
+      "text": {
+        "reference": "フフフ{BEAT}いいわ気に入ったわ！！{WAIT}{n}条件次第だけどイイコトしてあげる！",
+        "translation": "Hee hee...{BEAT} Fine, I like you!{WAIT} Depending on the terms, I'll do something nice for you!"
+      }
+    },
+    "dialogue_0385": {
+      "text": {
+        "reference": "もう！{BEAT}{n}自分のことも分かってないんだから…{WAIT}{n}もっとしっかりしてよね！",
+        "translation": "Honestly...{BEAT} You don't even understand yourself...{WAIT} Get a firmer grip on yourself!"
+      }
+    },
+    "dialogue_0386": {
+      "text": {
+        "reference": "フフフ{BEAT}{n}よく分かってるんじゃない{WAIT}{n}あなたのこと気に入ったわ！",
+        "translation": "Hee hee...{BEAT} You understand yourself quite well.{WAIT} I've taken a liking to you!"
+      }
+    },
+    "dialogue_0387": {
+      "text": {
+        "reference": "自分で分かってるのにその調子なの？{WAIT}{n}私が直してあげるしかないわね{WAIT}{n}痛いけどガマンしてね！",
+        "translation": "You know what you're like, yet still act this way?{WAIT} I suppose I'll have to fix you.{WAIT} This will hurt, so bear it!"
+      }
+    },
+    "dialogue_0388": {
+      "text": {
+        "reference": "なによそれ！{BEAT}{n}その言い方！！{WAIT}{n}開き直らないでよね{BEAT}まったく！！",
+        "translation": "What was that!?{BEAT} That tone!{WAIT} Don't get defiant with me...{BEAT} Honestly!"
+      }
+    },
+    "dialogue_0389": {
+      "text": {
+        "reference": "ええ悪いわ！{BEAT}{n}そういう男って許せないのよね！{WAIT}{n}私がこらしめてやるっ！！",
+        "translation": "Yes, it is a problem!{BEAT} I can't stand men like you!{WAIT} I'll teach you a lesson!"
+      }
+    },
+    "dialogue_0390": {
+      "text": {
+        "reference": "もういい！{BEAT}{n}あなたなんか",
+        "translation": "Enough!{BEAT} The likes of you...",
+        "note": "Continues into message 428: 'The likes of you... I'll kill with my own hands!'"
+      }
+    },
+    "dialogue_0391": {
+      "text": {
+        "reference": "私の手で殺してやる！！",
+        "translation": "I'll kill you with my own hands!",
+        "note": "Completes message 427's object: she vows to kill 'the likes of you' herself."
+      }
+    },
+    "dialogue_0392": {
+      "text": {
+        "reference": "そこまで言うのなら考えてあげる！{BEAT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}いいわ許してあげる{BEAT}今度だけはね…",
+        "translation": "If you feel that strongly, I'll reconsider!{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT}.{WAIT} Fine, I forgive you...{BEAT} Just this once."
+      }
+    },
+    "dialogue_0393": {
+      "text": {
+        "reference": "今さら遅いのよね{n}覚悟しなさい！！",
+        "translation": "It's too late now. Prepare yourself!"
+      }
+    },
+    "dialogue_0394": {
+      "text": {
+        "reference": "いいわよ待つぐらいわね！{WAIT}{n}でもあなたどうせ死ぬのよ…{BEAT}{n}フフフフフ…",
+        "translation": "Fine, I'll wait!{WAIT} But you're going to die anyway...{BEAT} Hee hee hee..."
+      }
+    },
+    "dialogue_0395": {
+      "text": {
+        "reference": "待てないわ！{BEAT}{n}いいからもうあきらめなさい！",
+        "translation": "I won't wait!{BEAT} Give up already!"
+      }
+    },
+    "dialogue_0396": {
+      "text": {
+        "reference": "うっ…{BEAT}私にはできない…{WAIT}{n}さよなら{n}もう私の前に現れないで！",
+        "translation": "I...{BEAT} I can't do it...{WAIT} Goodbye. Never appear before me again!"
+      }
+    },
+    "dialogue_0397": {
+      "text": {
+        "reference": "できるわよ！{BEAT}{n}私もう決めたんだから…{WAIT}{n}えーい！！",
+        "translation": "Of course I can!{BEAT} I've made up my mind...{WAIT} Take this!"
+      }
+    },
+    "dialogue_0398": {
+      "text": {
+        "reference": "いいわよ！{BEAT}{n}やってみなさいよ！{BEAT}ほらっ！！",
+        "translation": "Fine!{BEAT} Try it!{BEAT} Come on!"
+      }
+    },
+    "dialogue_0399": {
+      "text": {
+        "reference": "残念でした！{BEAT}気づいてなかったの？{BEAT}{n}あなたはもうそんなことできる{n}状態じゃないのよ！{BEAT}{BEAT}フフフ",
+        "translation": "Too bad!{BEAT} Hadn't you noticed?{BEAT} You're in no condition to do that now!{BEAT}{BEAT} Hee hee..."
+      }
+    },
+    "dialogue_0400": {
+      "text": {
+        "reference": "ほんとあなたって最低ね！",
+        "translation": "You truly are the worst!"
+      }
+    },
+    "dialogue_0401": {
+      "text": {
+        "reference": "いいからどいてちょうだい！",
+        "translation": "Just get out of my way!"
+      }
+    },
+    "dialogue_0402": {
+      "text": {
+        "reference": "あら？{BEAT}やけに素直ね…{BEAT}{n}少し見直したわ{WAIT}{n}もうすこしいてあげる…",
+        "translation": "Oh?{BEAT} You're remarkably obedient...{BEAT} Perhaps I misjudged you.{WAIT} I'll stay a little longer..."
+      }
+    },
+    "dialogue_0403": {
+      "text": {
+        "reference": "そうそれでいいのよ！{n}今度はもっとよく考えて話すことね！",
+        "translation": "That's right! Next time, think more carefully before you speak!"
+      }
+    },
+    "dialogue_0404": {
+      "text": {
+        "reference": "…………{n}まぁいいわ{WAIT}{n}さよならもう顔も見たくないわ！",
+        "translation": "........ Very well.{WAIT} Goodbye. I never want to see your face again!"
+      }
+    },
+    "dialogue_0405": {
+      "text": {
+        "reference": "なによ！その言い方は！{WAIT}{n}せっかく許してあげようと思ったのに…",
+        "translation": "What a way to speak!{WAIT} I was about to forgive you..."
+      }
+    },
+    "dialogue_0406": {
+      "text": {
+        "reference": "やっぱりあなたを倒してから{n}行くことにするわ！{BEAT}{n}いいわね！",
+        "translation": "I've decided I'll defeat you before I leave!{BEAT} Understood?"
+      }
+    },
+    "dialogue_0407": {
+      "text": {
+        "reference": "そうそれなら仕方ないわ{WAIT}{n}倒してでも私行くから！{BEAT}{n}覚悟しなさい！",
+        "translation": "Then I have no choice.{WAIT} I'll leave even if I must defeat you!{BEAT} Prepare yourself!"
+      }
+    },
+    "dialogue_0408": {
+      "text": {
+        "reference": "そう{BEAT}それなら{n}ここで死になさい！",
+        "translation": "I see...{BEAT} Then die here!"
+      }
+    },
+    "dialogue_0409": {
+      "text": {
+        "reference": "えっ？{BEAT}今なんて言ったの？{BEAT}{n}やっぱり私のこと想っていてくれたのね{WAIT}{n}あなたのこと見直したわ",
+        "translation": "What?{BEAT} What did you just say?{BEAT} So you were thinking of me after all...{WAIT} Perhaps I misjudged you."
+      }
+    },
+    "dialogue_0410": {
+      "text": {
+        "reference": "あなたが決めることじゃないのよ！{BEAT}{n}私もう決めたの！{BEAT}{n}もうあなたの顔なんて見たくない…",
+        "translation": "That isn't your decision!{BEAT} I've made up my mind!{BEAT} I never want to see your face again..."
+      }
+    },
+    "dialogue_0411": {
+      "text": {
+        "reference": "もう一度だけチャンスをあげるわ",
+        "translation": "I'll give you one last chance."
+      }
+    },
+    "dialogue_0412": {
+      "text": {
+        "reference": "あやまるなら今のうちよ！",
+        "translation": "If you're going to apologize, do it now!"
+      }
+    },
+    "dialogue_0413": {
+      "text": {
+        "reference": "それでいいのよ{n}それで…{WAIT}{n}いいわ許してあげる！",
+        "translation": "That's right. Just like that...{WAIT} Fine, I forgive you!"
+      }
+    },
+    "dialogue_0414": {
+      "text": {
+        "reference": "そんなあやまり方じゃダメ！{n}態度で示してもらうわ{n}じっとしてなさい！{BEAT}行くわよ！それっ！",
+        "translation": "That apology isn't good enough! You'll show me through action. Hold still!{BEAT} Here I go! Take that!"
+      }
+    },
+    "dialogue_0415": {
+      "text": {
+        "reference": "ほんとうに分かっているの？{n}信じていいのね…",
+        "translation": "Do you truly understand? I can trust you, can't I...?"
+      }
+    },
+    "dialogue_0416": {
+      "text": {
+        "reference": "ほんとう？{n}口だけでしょどうせ！",
+        "translation": "Really? They're only words, aren't they?"
+      }
+    },
+    "dialogue_0417": {
+      "text": {
+        "reference": "やってみなさいよ！{WAIT}{n}私をおこらせて命を失ってもいいの？{WAIT}{n}…ふん！{BEAT}もういいわさよなら…",
+        "translation": "Go on, then!{WAIT} Are you willing to lose your life by angering me?{WAIT} Hmph...{BEAT} Never mind. Goodbye..."
+      }
+    },
+    "dialogue_0418": {
+      "text": {
+        "reference": "できないならムリにとは言わないわ！{WAIT}{n}ただ死んでもらうだけのことだから…{WAIT}{n}いくわよ！",
+        "translation": "If you can't, I won't force you!{WAIT} You'll simply have to die...{WAIT} Here I come!"
+      }
+    },
+    "dialogue_0419": {
+      "text": {
+        "reference": "いや？{BEAT}なに言ってるの？{BEAT}{n}自分の状況が分かってるの？{BEAT}{n}…ほんとにあきれた人ね！",
+        "translation": "No?{BEAT} What are you talking about?{BEAT} Do you understand your situation?{BEAT} You truly are unbelievable!"
+      }
+    },
+    "dialogue_0420": {
+      "text": {
+        "reference": "イヤならいいのよ！{BEAT}{n}おとなしく死ねばいいんだから…{WAIT}{n}そろそろ行くわよ！！",
+        "translation": "If you refuse, fine!{BEAT} You can simply die without a fuss...{WAIT} Here I come!"
+      }
+    },
+    "dialogue_0421": {
+      "text": {
+        "reference": "{OP:8025}こうしょうすたーと{OP:8020}",
+        "translation": "{OP:8025}NEGOTIATION START{OP:8020}"
+      }
+    },
+    "dialogue_0422": {
+      "text": {
+        "reference": "そうね…",
+        "translation": "Let's see..."
+      }
+    },
+    "dialogue_0423": {
+      "placeholders": {
+        "requested_item": "item_name"
+      },
+      "text": {
+        "reference": "{requested_item}ちょうだい…",
+        "translation": "Give me {requested_item}..."
+      }
+    },
+    "dialogue_0424": {
+      "text": {
+        "reference": "なんだ…持ってないじゃない{n}仕方ないわね…{n}じゃあねぇ…",
+        "translation": "Oh... You don't have it. Then it can't be helped... Goodbye..."
+      }
+    },
+    "dialogue_0425": {
+      "text": {
+        "reference": "また今度にしましょうか",
+        "translation": "Perhaps another time."
+      }
+    },
+    "dialogue_0426": {
+      "text": {
+        "reference": "せっかくだけどそれぐらいじゃね…{WAIT}{n}どうしようかな…",
+        "translation": "I appreciate it, but that isn't quite enough...{WAIT} What shall I do...?"
+      }
+    },
+    "dialogue_0427": {
+      "text": {
+        "reference": "仕方ないわね…{n}それじゃあ…",
+        "translation": "I suppose I have no choice... Then...",
+        "note": "The Japanese ends on それじゃあ ('then...'), handing off to the branch-dependent negotiation result that follows."
+      }
+    },
+    "dialogue_0428": {
+      "text": {
+        "reference": "もういいわ{n}ほんとがっかりしたわ…",
+        "translation": "Enough. I'm truly disappointed..."
+      }
+    },
+    "dialogue_0429": {
+      "text": {
+        "reference": "とにかく何かちょうだい…",
+        "translation": "Just give me something..."
+      }
+    },
+    "dialogue_0430": {
+      "text": {
+        "reference": "……………{WAIT}{n}なに黙ってるの？{WAIT}{n}なんだなにも持ってないじゃない",
+        "translation": ".........{WAIT} Why are you silent?{WAIT} Oh, you have nothing."
+      }
+    },
+    "dialogue_0431": {
+      "text": {
+        "reference": "それじゃあねぇ…",
+        "translation": "Well then...",
+        "note": "Fragment context: message 468 page 0 begins the request completed on page 1 (dialogue_0432): \"Well then... give me something else.\""
+      }
+    },
+    "dialogue_0432": {
+      "text": {
+        "reference": "ほかにもなにかちょうだい",
+        "translation": "Give me something else.",
+        "note": "Fragment context: message 468 page 1 completes \"Well then...\" on page 0 (dialogue_0431)."
+      }
+    },
+    "dialogue_0433": {
+      "text": {
+        "reference": "……もういいわ{n}あなたに期待した私が馬鹿だったわ…",
+        "translation": "...Never mind. I was a fool to expect anything from you..."
+      }
+    },
+    "dialogue_0434": {
+      "text": {
+        "reference": "馬鹿にしないでよ！{n}ほんとあなたって許せない…{WAIT}{n}私の手で倒してあげるわ！",
+        "translation": "Don't mock me! I simply can't forgive you...{WAIT} I'll defeat you myself!"
+      }
+    },
+    "dialogue_0435": {
+      "text": {
+        "reference": "これならいいわ{n}いっしょに行きましょ！",
+        "translation": "This will do. Let's go together!"
+      }
+    },
+    "dialogue_0436": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "私の名前は{race}{demon_name}…{n}あなたの好きにしていいのよ…",
+        "translation": "My name is {race} {demon_name}... Do whatever you wish with me...",
+        "note": "Fragment context: this shared page 1 completes recruitment messages 540, 542, 561, and 563; their page-0 dialogue_0494, dialogue_0515, and 517."
+      }
+    },
+    "dialogue_0437": {
+      "text": {
+        "reference": "ありがとう{n}また会えるのを楽しみにしてるわ{WAIT}{n}じゃあね…",
+        "translation": "Thank you. I look forward to seeing you again.{WAIT} Goodbye..."
+      }
+    },
+    "dialogue_0438": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "なかなか楽しかったわ{n}お礼に{offered_item}をあげる{n}私だと思って大事にしてね{OP:8026}『{OP:8020}",
+        "translation": "That was rather fun. As thanks, take {offered_item}. Treasure it as though it were me. {OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0439": {
+      "text": {
+        "reference": "どうもありがとう{n}じゃあね…",
+        "translation": "Thank you very much. Goodbye..."
+      }
+    },
+    "dialogue_0440": {
+      "text": {
+        "reference": "フフフおバカさんね{n}こうなる運命だったのにね…",
+        "translation": "Hee hee... What a fool. This was always our fate..."
+      }
+    },
+    "dialogue_0441": {
+      "text": {
+        "reference": "これ以上{n}あなたとお話しすることはないわ…{WAIT}{n}さよなら",
+        "translation": "I have nothing more to discuss with you...{WAIT} Farewell."
+      }
+    },
+    "dialogue_0442": {
+      "text": {
+        "reference": "かかってきなさいよ！{WAIT}{n}まああなたにそんな勇気があるとは{n}思えないけど",
+        "translation": "Come at me!{WAIT} Though I doubt you possess the courage."
+      }
+    },
+    "dialogue_0443": {
+      "text": {
+        "reference": "ひどい人{n}もう許せない{WAIT}死んでもらうわ！",
+        "translation": "You cruel man... I can't forgive you.{WAIT} You'll die!"
+      }
+    },
+    "dialogue_0444": {
+      "text": {
+        "reference": "こんど会ったときは{n}今みたいにはいかないわよ！",
+        "translation": "The next time we meet, things won't go as they did today!"
+      }
+    },
+    "dialogue_0445": {
+      "text": {
+        "reference": "渡す",
+        "translation": "Hand it over."
+      }
+    },
+    "dialogue_0446": {
+      "text": {
+        "reference": "ことわる",
+        "translation": "Refuse."
+      }
+    },
+    "dialogue_0447": {
+      "text": {
+        "reference": "いっしょに連れてって！{n}いやだって言ってもついて行くから！",
+        "translation": "Take me with you! I'll follow even if you refuse!"
+      }
+    },
+    "dialogue_0448": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}あげる！{n}私の気持ちよ！",
+        "translation": "Take {offered_item}! It's a token of my feelings!"
+      }
+    },
+    "dialogue_0449": {
+      "text": {
+        "reference": "ごめんなさい{n}許して…{BEAT}ねっ{OP:8026}『{OP:8020}",
+        "translation": "I'm sorry. Please forgive me...{BEAT} All right? {OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0450": {
+      "text": {
+        "reference": "私のこと必要ないようね…{n}また会える日を楽しみにしてるわ{OP:8026}『{OP:8020}",
+        "translation": "It seems you don't need me... I'll look forward to the day we meet again. {OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0451": {
+      "text": {
+        "reference": "仲魔にいれて{BEAT}ねっ{OP:8026}『{OP:8020}",
+        "translation": "Let me join y{BEAT}ou. {OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0452": {
+      "text": {
+        "reference": "…なんてね{n}あれ本気にした？",
+        "translation": "...Just kidding. Did you think I was serious?"
+      }
+    },
+    "dialogue_0453": {
+      "text": {
+        "reference": "また会える日を楽しみにしてるわ{OP:8026}『{OP:8020}",
+        "translation": "I'll look forward to the day we meet again. {OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0454": {
+      "text": {
+        "reference": "あなたにかかっているのよ！",
+        "translation": "It's all up to you!"
+      }
+    },
+    "dialogue_0455": {
+      "text": {
+        "reference": "ん…{BEAT}なんだ{n}もう持てないみたいね{n}残念だったわね…",
+        "translation": "Hmm...{BEAT} It seems you can't carry any more. What a shame..."
+      }
+    },
+    "dialogue_0456": {
+      "text": {
+        "reference": "ん…{BEAT}もしかしていらなかった？{n}残念ね…",
+        "translation": "Hmm...{BEAT} Perhaps you didn't need it? What a shame..."
+      }
+    },
+    "dialogue_0457": {
+      "text": {
+        "reference": "あれ？装備してないんじゃない{n}それじゃ仕方ないわね…",
+        "translation": "Oh? You aren't wearing any. Then it can't be helped..."
+      }
+    },
+    "dialogue_0458": {
+      "text": {
+        "reference": "「そうかな」じゃないわよ！{n}でも…{BEAT}あれ？装備してないんじゃない{n}それじゃ仕方ないわね…",
+        "translation": "Don't give me \"You think so?\" But...{BEAT} Oh? You aren't wearing any. Then it can't be helped..."
+      }
+    },
+    "dialogue_0459": {
+      "text": {
+        "reference": "ひどいわ…{BEAT}{n}私のことも殺すつもりなの？",
+        "translation": "How cruel...{BEAT} Do you intend to kill me, too?"
+      }
+    },
+    "dialogue_0460": {
+      "text": {
+        "reference": "でももういい…{BEAT}あなたの自由にして…",
+        "translation": "But never mind...{BEAT} Do as you wish..."
+      }
+    },
+    "dialogue_0461": {
+      "text": {
+        "reference": "命を助ける",
+        "translation": "Spare its life."
+      }
+    },
+    "dialogue_0462": {
+      "text": {
+        "reference": "命をうばう",
+        "translation": "Take its life."
+      }
+    },
+    "dialogue_0463": {
+      "text": {
+        "reference": "ありがとう…{n}あなたにお礼がしたいの…",
+        "translation": "Thank you... I want to repay you..."
+      }
+    },
+    "dialogue_0464": {
+      "text": {
+        "reference": "ありがとう…{n}お礼にあなたのお話聞くわ…",
+        "translation": "Thank you... In return, I'll hear you out..."
+      }
+    },
+    "dialogue_0465": {
+      "text": {
+        "reference": "あなたってどんなときでも人がいいのね{WAIT}{n}でも知ってる？{BEAT}{n}それが不幸をまねくときもあるのよ！",
+        "translation": "You're kind at the strangest times.{WAIT} But did you know?{BEAT} Kindness can sometimes invite misfortune!"
+      }
+    },
+    "dialogue_0466": {
+      "text": {
+        "reference": "そっ…{BEAT}そんな！{BEAT}ひどい人ね！！{BEAT}{n}ねえ…{BEAT}考え直して{BEAT}お願い…{n}あなたの話に応じるわ…",
+        "translation": "Th-that's...{BEAT} No!{BEAT} You cruel man!{BEAT} Please...{BEAT} Reconsider...{BEAT} I beg you. I'll hear you out..."
+      }
+    },
+    "dialogue_0467": {
+      "text": {
+        "reference": "…{BEAT}もういい分かったわ！{BEAT}{n}あなたって最低！！{BEAT}{n}私戦うわ！！かかってきなさいよ！！",
+        "translation": "...{BEAT} Fine, I understand!{BEAT} You're the worst!{BEAT} I'll fight! Come at me!"
+      }
+    },
+    "dialogue_0468": {
+      "text": {
+        "reference": "そう…{BEAT}分かったわ…{WAIT}{n}あなたに命をうばわれるくらいなら{n}あなたを殺して私も死んでやる！！",
+        "translation": "I see...{BEAT} I understand...{WAIT} If you're going to take my life, I'll kill you and then myself!"
+      }
+    },
+    "dialogue_0469": {
+      "text": {
+        "reference": "あらあなただったの…{BEAT}{n}元気なさそうね…{BEAT}{n}これで元気を出して…",
+        "translation": "Oh, it's you...{BEAT} You don't look well...{BEAT} Let this cheer you up..."
+      }
+    },
+    "dialogue_0470": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "あらあなただったの…{BEAT}{n}{offered_item}あげる{n}持っていって！！",
+        "translation": "Oh, it's you...{BEAT} Take {offered_item}! Go on!"
+      }
+    },
+    "dialogue_0471": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "あらあなただったの…{BEAT}{n}{offered_item}あげる{n}あなたに使って欲しいの…",
+        "translation": "Oh, it's you...{BEAT} Take {offered_item}. I want you to use it..."
+      }
+    },
+    "dialogue_0472": {
+      "text": {
+        "reference": "あらあなただったの…{BEAT}{n}どう？私の仲魔は元気？",
+        "translation": "Oh, it's you...{BEAT} Tell me, is my friend doing well?"
+      }
+    },
+    "dialogue_0473": {
+      "text": {
+        "reference": "ほんとにキレイな月ね…{n}こんな夜は",
+        "translation": "The moon is truly beautiful... On a night like this...",
+        "note": "Continues into message 514: on such a moonlit night, she says anything might happen."
+      }
+    },
+    "dialogue_0474": {
+      "text": {
+        "reference": "何が起こってもおかしくないわね…",
+        "translation": "Anything might happen...",
+        "note": "Completes message 513's setup: anything might happen on a night with such a beautiful moon."
+      }
+    },
+    "dialogue_0475": {
+      "text": {
+        "reference": "いつ起こるのだ",
+        "translation": "When will it happen?"
+      }
+    },
+    "dialogue_0476": {
+      "text": {
+        "reference": "どこで起こるのだ",
+        "translation": "Where will it happen?"
+      }
+    },
+    "dialogue_0477": {
+      "text": {
+        "reference": "何が起こるのだ",
+        "translation": "What will happen?"
+      }
+    },
+    "dialogue_0478": {
+      "text": {
+        "reference": "私には分からない…{n}でも確かめてみたいわ{WAIT}{n}ねえ！{BEAT}私を連れてって！いいでしょ！",
+        "translation": "I don't know... But I want to find out.{WAIT} Please!{BEAT} Take me with you!",
+        "note": "Fragment context: this shared page 0 begins recruitment messages 518, 520, and 522; page 1 (dialogue_0265) supplies the demon's inserted race and name."
+      }
+    },
+    "dialogue_0479": {
+      "text": {
+        "reference": "フフフ…分からないの…{WAIT}{n}でも{BEAT}すぐに分かるわよ{n}だってあなたが死ぬのは今すぐだもの",
+        "translation": "Hee hee... I don't know...{WAIT} But...{BEAT} you'll know soon. Because you're going to die right now."
+      }
+    },
+    "dialogue_0480": {
+      "text": {
+        "reference": "フフフ…分からないの…{WAIT}{n}あなたが死ぬのよここでね！",
+        "translation": "Hee hee... I don't know...{WAIT} You're the one who will die, right here!"
+      }
+    },
+    "dialogue_0481": {
+      "text": {
+        "reference": "フフフ…分からないの…{WAIT}{n}それはね…{BEAT}{n}あなたの死よ！！",
+        "translation": "Hee hee... I don't know...{WAIT} It will be...{BEAT} your death!"
+      }
+    },
+    "dialogue_0482": {
+      "text": {
+        "reference": "ああ…{BEAT}{n}やっと会えたのね…",
+        "translation": "Ah...{BEAT} At last, we meet..."
+      }
+    },
+    "dialogue_0483": {
+      "text": {
+        "reference": "こんなステキな出会いを想像していたの…",
+        "translation": "I always imagined such a wonderful meeting..."
+      }
+    },
+    "dialogue_0484": {
+      "text": {
+        "reference": "どこがだ",
+        "translation": "What part of this is wonderful?"
+      }
+    },
+    "dialogue_0485": {
+      "text": {
+        "reference": "そうよ…{n}あなたをずっと待っていたの…{n}私を連れて行って{BEAT}お願い！！",
+        "translation": "Yes... I've waited for you all this time... Take me with you...{BEAT} Please!",
+        "note": "Fragment context: message 529 page 0 continues on page 1 (dialogue_0262) with the demon's inserted race and name."
+      }
+    },
+    "dialogue_0486": {
+      "text": {
+        "reference": "あら…{BEAT}あなたは違ったのね…{BEAT}{n}残念だわ…{WAIT}{n}じゃあ死ぬしかないわね…{BEAT}フフフ…",
+        "translation": "Oh...{BEAT} You weren't the one after all...{BEAT} What a shame...{WAIT} Then I suppose you'll have to die...{BEAT} Hee hee..."
+      }
+    },
+    "dialogue_0487": {
+      "text": {
+        "reference": "あなたがどう思っていようと{n}私はいいの！{n}ずっとそばにいさせて！",
+        "translation": "I don't care what you think! Let me stay by your side forever!",
+        "note": "Fragment context: message 531 page 0 continues on page 1 (dialogue_0262) with the demon's inserted race and name."
+      }
+    },
+    "dialogue_0488": {
+      "text": {
+        "reference": "あら…{BEAT}あなたはそう思ってないのね…{BEAT}{n}残念だわ…{WAIT}{n}じゃあ死ぬしかないわね…{BEAT}フフフ…",
+        "translation": "Oh...{BEAT} So you don't feel the same...{BEAT} What a shame...{WAIT} Then I suppose you'll have to die...{BEAT} Hee hee..."
+      }
+    },
+    "dialogue_0489": {
+      "text": {
+        "reference": "そんなことない！{n}一緒にいればあなたにも分かる…{n}もうあなたから離れない…",
+        "translation": "That isn't true! If we stay together, you'll understand... I'll never leave you...",
+        "note": "Fragment context: message 533 page 0 continues on page 1 (dialogue_0262) with the demon's inserted race and name."
+      }
+    },
+    "dialogue_0490": {
+      "text": {
+        "reference": "あなたは私の思い込みだって言うの？{WAIT}{n}フフフ…{BEAT}{n}あなたには死んでもらうわ！{BEAT}フフフ…",
+        "translation": "You think I'm imagining it?{WAIT} Hee hee...{BEAT} Then you'll have to die!{BEAT} Hee hee..."
+      }
+    },
+    "dialogue_0491": {
+      "text": {
+        "reference": "フフフ…{n}今夜の月はほんとにキレイね…",
+        "translation": "Hee hee... The moon is truly beautiful tonight..."
+      }
+    },
+    "dialogue_0492": {
+      "text": {
+        "reference": "どうデートしない？",
+        "translation": "Would you like to go on a date?"
+      }
+    },
+    "dialogue_0493": {
+      "text": {
+        "reference": "それはちょっと…",
+        "translation": "That's a little..."
+      }
+    },
+    "dialogue_0494": {
+      "text": {
+        "reference": "ありがとう…{n}じゃあはやく行きましょ！",
+        "translation": "Thank you... Then let's be on our way!",
+        "note": "Fragment context: this shared page 0 begins recruitment messages 540 and 542; page 1 (dialogue_0495) supplies the demon's inserted race and name."
+      }
+    },
+    "dialogue_0495": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "私の名前は{race}{demon_name}…{n}あなたの好きにして…",
+        "translation": "My name is {race} {demon_name}... Do whatever you wish with me...",
+        "note": "Fragment context: message 551 page 1 completes page 0 (dialogue_0504)."
+      }
+    },
+    "dialogue_0496": {
+      "text": {
+        "reference": "なによ！そんな言い方じゃイヤ！！{BEAT}{n}ゲンメツしたわ！！{n}死神とでもデートすれば！！",
+        "translation": "What!? Not if you ask like that!{BEAT} I'm thoroughly disillusioned! Go date the Grim Reaper!"
+      }
+    },
+    "dialogue_0497": {
+      "text": {
+        "reference": "なによ！その言い方！！{BEAT}{n}エラそうに…{n}地獄におちなさい！あなたなんかキライ！",
+        "translation": "What's with that tone!?{BEAT} So arrogant... Go to hell! I hate you!"
+      }
+    },
+    "dialogue_0498": {
+      "text": {
+        "reference": "どうして…{BEAT}{n}とにかく行くわよ！！{n}はやくしなさい！",
+        "translation": "Why...?{BEAT} Never mind, we're going! Hurry up!",
+        "note": "Fragment context: message 544 page 0 continues on page 1 (dialogue_0499) with the demon's inserted race and name."
+      }
+    },
+    "dialogue_0499": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "私の名前は{race}{demon_name}…{n}あなたの好きにしていいのよ！",
+        "translation": "My name is {race} {demon_name}... Do whatever you wish with me!",
+        "note": "Fragment context: message 544 page 1 completes page 0 (dialogue_0498)."
+      }
+    },
+    "dialogue_0500": {
+      "text": {
+        "reference": "なによ！ヒドイ…{BEAT}{n}私が悪魔なのがいけないの？{WAIT}{n}信じられない{BEAT}殺してやる！！",
+        "translation": "What!? How cruel...{BEAT} Is being a demon such a crime?{WAIT} I can't believe this...{BEAT} I'll kill you!"
+      }
+    },
+    "dialogue_0501": {
+      "text": {
+        "reference": "アタシいつもよりキレイでしょ？",
+        "translation": "I look especially beautiful today, don't I?"
+      }
+    },
+    "dialogue_0502": {
+      "text": {
+        "reference": "いつもと変わらない",
+        "translation": "You look the same as always."
+      }
+    },
+    "dialogue_0503": {
+      "text": {
+        "reference": "おまえに関心はない",
+        "translation": "I'm not interested in you."
+      }
+    },
+    "dialogue_0504": {
+      "text": {
+        "reference": "「まあな」か…{WAIT}{n}フフフ…{BEAT}まあいいわ{n}あなたと行ってあげる…",
+        "translation": "\"I suppose,\" is it...?{WAIT} Hee hee...{BEAT} Very well. I'll go with you...",
+        "note": "Fragment context: message 551 page 0 continues on page 1 (dialogue_0505) with the demon's inserted race and name."
+      }
+    },
+    "dialogue_0505": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "私の名前は{race}{demon_name}…{n}あなたの好きにしていいのよ…",
+        "translation": "My name is {race} {demon_name}... Do whatever you wish with me...",
+        "note": "Fragment context: message 551 page 1 completes page 0 (dialogue_0504)."
+      }
+    },
+    "dialogue_0506": {
+      "text": {
+        "reference": "なによその言い方！{BEAT}{n}私のこと分かってくれない人は{n}ここで死ぬのよ！",
+        "translation": "What a way to speak!{BEAT} Anyone who fails to appreciate me will die right here!"
+      }
+    },
+    "dialogue_0507": {
+      "text": {
+        "reference": "えっ？{BEAT}{n}いつも変わらずキレイですって！{WAIT}{n}うれしいわ{BEAT}私のこと連れて行って！",
+        "translation": "What?{BEAT} I'm as beautiful as ever?{WAIT} That makes me so happy...{BEAT} Take me with you!",
+        "note": "Fragment context: message 553 page 0 continues on page 1 (dialogue_0508) with the demon's inserted race and name."
+      }
+    },
+    "dialogue_0508": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "私の名前は{race}{demon_name}…{n}あなたの好きにしていいのよ",
+        "translation": "My name is {race} {demon_name}... Do whatever you wish with me.",
+        "note": "Fragment context: message 553 page 1 completes page 0 (dialogue_0507)."
+      }
+    },
+    "dialogue_0509": {
+      "text": {
+        "reference": "お願いそんなこと言わないで！{BEAT}{n}私のこと連れて行って！",
+        "translation": "Please, don't say that!{BEAT} Take me with you!",
+        "note": "Fragment context: message 555 page 0 continues on page 1 (dialogue_0510) with the demon's inserted race and name."
+      }
+    },
+    "dialogue_0510": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "私の名前は{race}{demon_name}…{n}絶対に離れないから…",
+        "translation": "My name is {race} {demon_name}... I'll never leave you...",
+        "note": "Fragment context: message 555 page 1 completes page 0 (dialogue_0509)."
+      }
+    },
+    "dialogue_0511": {
+      "text": {
+        "reference": "なによその言い方！{BEAT}{n}悪魔だからってきらってるのね…{BEAT}{n}ひどい人！{BEAT}死ねばいいんだわ！",
+        "translation": "What a way to speak!{BEAT} You hate me merely because I'm a demon...{BEAT} You cruel man!{BEAT} You should die!"
+      }
+    },
+    "dialogue_0512": {
+      "text": {
+        "reference": "あなたは以前会った人ね…",
+        "translation": "We've met before..."
+      }
+    },
+    "dialogue_0513": {
+      "text": {
+        "reference": "私を探してくれていたの？",
+        "translation": "Were you searching for me?"
+      }
+    },
+    "dialogue_0514": {
+      "text": {
+        "reference": "そうだ",
+        "translation": "That's right."
+      }
+    },
+    "dialogue_0515": {
+      "text": {
+        "reference": "いいわ…{BEAT}{n}私あなたと一緒に行く！{BEAT}{n}大切にしてね…",
+        "translation": "Very well...{BEAT} I'll go with you!{BEAT} Take good care of me...",
+        "note": "Fragment context: message 561 page 0 continues on page 1 (dialogue_0495) with the demon's inserted race and name."
+      }
+    },
+    "dialogue_0516": {
+      "text": {
+        "reference": "そううれしいわ…{n}どうもありがとう{WAIT}{n}じゃあね{BEAT}また会いましょうね！",
+        "translation": "I'm so glad... Thank you very much.{WAIT} Goodbye...{BEAT} We'll meet again!"
+      }
+    },
+    "dialogue_0517": {
+      "text": {
+        "reference": "そうなの…{BEAT}でもいいわ…{BEAT}{n}私あなたと一緒に行く！{BEAT}{n}もう決めたの！！",
+        "translation": "Is that so...?{BEAT} Never mind...{BEAT} I'll go with you!{BEAT} I've decided!",
+        "note": "Fragment context: message 563 page 0 continues on page 1 (dialogue_0495) with the demon's inserted race and name."
+      }
+    },
+    "dialogue_0518": {
+      "text": {
+        "reference": "そうなの…{BEAT}{n}なんだ…{BEAT}期待したのに…{BEAT}{n}残念ね…",
+        "translation": "Is that so...?{BEAT} Oh...{BEAT} I'd gotten my hopes up...{BEAT} What a shame..."
+      }
+    },
+    "dialogue_0519": {
+      "text": {
+        "reference": "あなたは以前会った人ね…{BEAT}{n}元気でがんばってね！",
+        "translation": "We've met before...{BEAT} Stay well and keep doing your best!"
+      }
+    },
+    "dialogue_0520": {
+      "text": {
+        "reference": "あれ…{BEAT}あなたは！{n}またヒドイことをしてるのね…",
+        "translation": "Oh...{BEAT} It's you! You're doing something cruel again..."
+      }
+    },
+    "dialogue_0521": {
+      "text": {
+        "reference": "許せない！私がオシオキしてあげるわ！",
+        "translation": "Unforgivable! I'll punish you myself!"
+      }
+    },
+    "dialogue_0522": {
+      "text": {
+        "reference": "あやまる",
+        "translation": "Apologize."
+      }
+    },
+    "dialogue_0523": {
+      "text": {
+        "reference": "命乞いする",
+        "translation": "Beg for mercy."
+      }
+    },
+    "dialogue_0524": {
+      "text": {
+        "reference": "フフッ…{BEAT}情けない人ね…{BEAT}{n}こんなくだらない人{n}かまっていられないわ！",
+        "translation": "Hee hee...{BEAT} How pathetic...{BEAT} I have no time for such a worthless man!"
+      }
+    },
+    "dialogue_0525": {
+      "text": {
+        "reference": "ぜったいに許せない！{BEAT}{n}じっとしてなさいいくわよ！",
+        "translation": "I will never forgive you!{BEAT} Hold still. Here I come!"
+      }
+    },
+    "dialogue_0526": {
+      "text": {
+        "reference": "仕方ないわね…{WAIT}{n}いいわどこへでも行きなさい{n}さあはやく！！",
+        "translation": "I suppose I have no choice...{WAIT} Fine, go wherever you like. Now hurry!"
+      }
+    },
+    "dialogue_0527": {
+      "text": {
+        "reference": "フフフ…{BEAT}そんなことしてもムダよ！{WAIT}{n}あなたはこうなるのよ…{BEAT}フフフ…",
+        "translation": "Hee hee...{BEAT} That won't help you!{WAIT} This is what will happen to you...{BEAT} Hee hee..."
+      }
+    },
+    "dialogue_0528": {
+      "text": {
+        "reference": "あらあなたは…{BEAT}{n}うれしい！{BEAT}約束覚えてくれていたのね{WAIT}{n}あなたのこと忘れられなかったのよ…",
+        "translation": "Oh, it's you...{BEAT} I'm so happy!{BEAT} You remembered our promise.{WAIT} I couldn't forget you..."
+      }
+    },
+    "dialogue_0529": {
+      "text": {
+        "reference": "何かお礼がしたいんだけど…",
+        "translation": "I'd like to repay you somehow..."
+      }
+    },
+    "dialogue_0530": {
+      "text": {
+        "reference": "なにもいらない",
+        "translation": "I don't need anything."
+      }
+    },
+    "dialogue_0531": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "それはできないわ…{BEAT}{n}かわりって訳じゃないけど{n}{offered_item}をあげる！",
+        "translation": "I can't do that...{BEAT} This isn't exactly a substitute, but take {offered_item}!"
+      }
+    },
+    "dialogue_0532": {
+      "text": {
+        "reference": "ごめんなさい{n}それだけはできないの…",
+        "translation": "I'm sorry. I simply can't do that..."
+      }
+    },
+    "dialogue_0533": {
+      "text": {
+        "reference": "なんだほんとにそれでいいの？{WAIT}{n}それなら回復してあげる{n}これでいいでしょ！",
+        "translation": "Oh, is that truly enough?{WAIT} Then I'll heal you. There, satisfied?"
+      }
+    },
+    "dialogue_0534": {
+      "text": {
+        "reference": "そうなの…{n}それは残念ね…{WAIT}{n}せっかくまた会ったのに…",
+        "translation": "Is that so...? What a shame...{WAIT} After we finally met again..."
+      }
+    },
+    "dialogue_0535": {
+      "text": {
+        "reference": "それはできないの{BEAT}{n}ごめんなさい",
+        "translation": "I can't do that...{BEAT} I'm sorry."
+      }
+    },
+    "dialogue_0536": {
+      "text": {
+        "reference": "あら…{BEAT}もう持てないみたい…{BEAT}{n}残念だったわね…",
+        "translation": "Oh...{BEAT} It seems you can't carry any more...{BEAT} What a shame..."
+      }
+    },
+    "dialogue_0537": {
+      "text": {
+        "reference": "待って{BEAT}{n}私とお話しましょ…",
+        "translation": "Wait...{BEAT} Come talk to me..."
+      }
+    },
+    "dialogue_0538": {
+      "text": {
+        "reference": "何をしてるの{BEAT}{n}あなたの目当てはこっちよ！",
+        "translation": "What are you doing?{BEAT} I'm the one you want!"
+      }
+    },
+    "dialogue_0539": {
+      "text": {
+        "reference": "待って{BEAT}{n}私はここよ",
+        "translation": "Wait...{BEAT} I'm right here."
+      }
+    },
+    "dialogue_0540": {
+      "text": {
+        "reference": "何してるの{BEAT}{n}あれ…私に気付いてなかったのね…",
+        "translation": "What are you doing?{BEAT} Oh... You hadn't noticed me..."
+      }
+    },
+    "dialogue_0541": {
+      "text": {
+        "reference": "気をもたせておいて悪いんだけど…{n}実は私仲魔になれないの…",
+        "translation": "I'm sorry for leading you on... The truth is, I can't join you..."
+      }
+    },
+    "dialogue_0542": {
+      "text": {
+        "reference": "…ごめんなさい{BEAT}{n}いろいろしてもらって悪いんだけど",
+        "translation": "...I'm sorry...{BEAT} After all you've done for me, I hate to say this, but...",
+        "note": "Continues into message 589 page 1: she cannot join because one of the player's current allies seems to dislike her."
+      }
+    },
+    "dialogue_0543": {
+      "text": {
+        "reference": "あなたの仲魔{n}私のことなんだかきらってるみたい…",
+        "translation": "One of your allies seems to dislike me...",
+        "note": "Completes message 589 page 0: despite the player's efforts, hostility from an existing ally prevents her from joining."
+      }
+    },
+    "dialogue_0544": {
+      "text": {
+        "reference": "…ごめんなさい{BEAT}{n}いろいろしてもらって悪いんだけど…",
+        "translation": "...I'm sorry...{BEAT} After all you've done for me, I hate to say this, but...",
+        "note": "Continues into message 590 page 1: she concludes that she and the player are not suited to one another."
+      }
+    },
+    "dialogue_0545": {
+      "text": {
+        "reference": "やっぱりあなたって{n}私とはつりあわないみたいね…",
+        "translation": "It seems you and I simply aren't suited to one another...",
+        "note": "Completes message 590 page 0: this incompatibility is why she must refuse after the player's efforts."
+      }
+    },
+    "dialogue_0546": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "せっかくだけど失礼するわ{WAIT}{n}かわりって訳じゃないけど{n}{offered_item}持っていって！",
+        "translation": "I appreciate the thought, but I must leave.{WAIT} This isn't exactly a substitute, but take {offered_item}!"
+      }
+    },
+    "dialogue_0547": {
+      "text": {
+        "reference": "せっかくだけど失礼するわ{WAIT}{n}じゃあね…",
+        "translation": "I appreciate the thought, but I must leave.{WAIT} Goodbye..."
+      }
+    },
+    "dialogue_0548": {
+      "text": {
+        "reference": "そんなのイヤ！{n}絶対にイヤ！！",
+        "translation": "No! Absolutely not!"
+      }
+    },
+    "dialogue_0549": {
+      "text": {
+        "reference": "待って{BEAT}私はここよ！{WAIT}{n}…なんだ{n}もう私の友達が一緒にいるのね…",
+        "translation": "Wait{BEAT} I'm right here!{WAIT} ...Oh. One of my friends is already with you..."
+      }
+    },
+    "condition_charmed": {
+      "text": {
+        "reference": "アタシは あなたのもの…好きにして『",
+        "translation": "I'm yours... Do whatever you like...『",
+        "reviewed": true
+      }
+    },
+    "condition_happy": {
+      "text": {
+        "reference": "アタシ幸せよ もう どうでもいい…",
+        "translation": "I'm happy... I don't care anymore...",
+        "reviewed": true
+      }
+    },
+    "condition_confused": {
+      "text": {
+        "reference": "あなただれなの？ あれ？ アタシはだれ？",
+        "translation": "Who are you...? Wait... Who am I?",
+        "reviewed": true
+      }
+    },
+    "condition_enraged": {
+      "text": {
+        "reference": "あなたって ヒドイ人… ほんと最低ね…",
+        "translation": "You're awful... Truly the worst...",
+        "reviewed": true
+      }
+    },
+    "condition_talk_blocked": {
+      "text": {
+        "reference": "待って 今は あなたと話したくない…",
+        "translation": "Wait. I don't want to talk right now...",
+        "reviewed": true
+      }
+    },
+    "condition_ally_veto": {
+      "text": {
+        "reference": "だめよ！！ あんなヒドイ人 相手にしちゃ",
+        "translation": "No! Don't waste time on that brute!",
+        "reviewed": true
+      }
+    },
+    "condition_full_moon": {
+      "text": {
+        "reference": "ねえ… アタシ いつもよりキレイでしょ…",
+        "translation": "Say... Don't I look prettier than usual?",
+        "reviewed": true
+      }
+    }
+  }
+}

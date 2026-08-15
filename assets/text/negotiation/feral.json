@@ -1,0 +1,4074 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "dialogue_0000": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマキョウダイイルノカ{n}{WAIT}ダイジニシテクレ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU HAVE MY KIN WITH YOU?{WAIT} TAKE GOOD CARE OF THEM."
+      }
+    },
+    "dialogue_0001": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマキョウダイイルノカ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU HAVE MY KIN WITH YOU?"
+      }
+    },
+    "dialogue_0002": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "オレサマ{offered_item}ヤロウ{n}{WAIT}キョウダイダイジニシテクレ",
+        "translation": "I GIVE YOU {offered_item}.{WAIT} TAKE GOOD CARE OF MY KIN."
+      }
+    },
+    "dialogue_0003": {
+      "text": {
+        "reference": "ナラバ{n}{WAIT}オレサママジナイカケテヤロウ",
+        "translation": "THEN{WAIT} I CAST A CHARM ON YOU."
+      }
+    },
+    "dialogue_0004": {
+      "text": {
+        "reference": "アオォォォ・・・{n}{BEAT}アオアオォォォ・・・！{n}{BEAT}オアオアオォォォ・・・！！",
+        "translation": "AWOOOO...{BEAT} AWO-AWOOOO...!{BEAT} AWO-AWOOOO...!!"
+      }
+    },
+    "dialogue_0005": {
+      "text": {
+        "reference": "オマエコレデゲンキ{n}{WAIT}キョウダイダイジニシテクレ",
+        "translation": "YOU FEEL BETTER NOW.{WAIT} TAKE GOOD CARE OF MY KIN."
+      }
+    },
+    "dialogue_0006": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエマダタタカッテルノカ{n}{WAIT}オレサマオマエコウウンイノル",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU STILL FIGHTING?{WAIT} I WISH YOU LUCK."
+      }
+    },
+    "dialogue_0007": {
+      "text": {
+        "reference": "サラバキョウダイ",
+        "translation": "FAREWELL, KIN."
+      }
+    },
+    "dialogue_0008": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエカ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU AGAIN?"
+      }
+    },
+    "dialogue_0009": {
+      "text": {
+        "reference": "オマエマダ{n}オレサマチカラカシテ欲シイカ？",
+        "translation": "YOU STILL WANT MY HELP?"
+      }
+    },
+    "dialogue_0010": {
+      "text": {
+        "reference": "ナカマナッテ欲シイカ？",
+        "translation": "YOU WANT ME AS ALLY?"
+      }
+    },
+    "dialogue_0011": {
+      "text": {
+        "reference": "なって欲しい",
+        "translation": "I do."
+      }
+    },
+    "dialogue_0012": {
+      "text": {
+        "reference": "別に",
+        "translation": "Not really"
+      }
+    },
+    "dialogue_0013": {
+      "text": {
+        "reference": "ヨシッ！{n}決マッタ！！",
+        "translation": "GOOD! IT IS DECIDED!!"
+      }
+    },
+    "dialogue_0014": {
+      "text": {
+        "reference": "ヨシッ！",
+        "translation": "GOOD!"
+      }
+    },
+    "dialogue_0015": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}ソウカ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I SEE."
+      }
+    },
+    "dialogue_0016": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "ナラバ{n}オレサマ{offered_item}ヤロウ{n}{WAIT}コレオレサマカワリ",
+        "translation": "THEN I GIVE YOU {offered_item}.{WAIT} THIS TAKES MY PLACE."
+      }
+    },
+    "dialogue_0017": {
+      "text": {
+        "reference": "オマエダイジニ使エ",
+        "translation": "USE IT WELL."
+      }
+    },
+    "dialogue_0018": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}ソウカ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I SEE."
+      }
+    },
+    "dialogue_0019": {
+      "text": {
+        "reference": "サラバダさまなー",
+        "translation": "FAREWELL, SUMMONER."
+      }
+    },
+    "dialogue_0020": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエコノ前ノニンゲン",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU ARE HUMAN FROM BEFORE!"
+      }
+    },
+    "dialogue_0021": {
+      "text": {
+        "reference": "オレサマオマエマルカジリ！！",
+        "translation": "I EAT YOU WHOLE!!"
+      }
+    },
+    "dialogue_0022": {
+      "text": {
+        "reference": "望むところだ",
+        "translation": "Bring it on."
+      }
+    },
+    "dialogue_0023": {
+      "text": {
+        "reference": "人違いだ",
+        "translation": "You have wrong human."
+      }
+    },
+    "dialogue_0024": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマケモノオウサマ{n}{WAIT}オレサマココロ広イ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I AM KING OF BEASTS!{WAIT} I HAVE GENEROUS HEART."
+      }
+    },
+    "dialogue_0025": {
+      "text": {
+        "reference": "オレサマオマエ水流ス{n}オマエアリガタク思エ！",
+        "translation": "I LET THIS SLIDE. YOU BE GRATEFUL!"
+      }
+    },
+    "dialogue_0026": {
+      "text": {
+        "reference": "グオォォォ！！",
+        "translation": "GOOOOOO!!"
+      }
+    },
+    "dialogue_0027": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}ソウカスマン{n}ニオイ似テイタカラ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} SORRY. SMELL WAS SIMILAR."
+      }
+    },
+    "dialogue_0028": {
+      "text": {
+        "reference": "オレサマハナニブッタ？{n}{WAIT}オレサマカナシイ",
+        "translation": "MY NOSE GONE DULL?{WAIT} I AM SAD."
+      }
+    },
+    "dialogue_0029": {
+      "text": {
+        "reference": "オマエウソツキ{n}{WAIT}ソノニオイオレサマワスレナイ！！",
+        "translation": "YOU LIAR!{WAIT} I NEVER FORGET THAT SMELL!!"
+      }
+    },
+    "dialogue_0030": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエコノ前ノニンゲン{n}{WAIT}オレサマオマエヤクソク守ロウ！",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU ARE HUMAN FROM BEFORE.{WAIT} I KEEP PROMISE TO YOU!"
+      }
+    },
+    "dialogue_0031": {
+      "text": {
+        "reference": "オマエナニシテ欲シイ？",
+        "translation": "WHAT YOU WANT ME TO DO?"
+      }
+    },
+    "dialogue_0032": {
+      "text": {
+        "reference": "仲魔になれ",
+        "translation": "Join me."
+      }
+    },
+    "dialogue_0033": {
+      "text": {
+        "reference": "なんかくれ",
+        "translation": "Give me something."
+      }
+    },
+    "dialogue_0034": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマノゾムトコロダ！",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I WANT THAT!"
+      }
+    },
+    "dialogue_0035": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマソレムツカシイ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} THAT HARD FOR ME."
+      }
+    },
+    "dialogue_0036": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "カワリニオレサマ{n}{offered_item}ヤロウ！{n}{WAIT}オマエダイジニ使エ！！",
+        "translation": "INSTEAD, I GIVE YOU {offered_item}!{WAIT} USE IT WELL!!"
+      }
+    },
+    "dialogue_0037": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエオレサマムシスルナ！",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} DO NOT IGNORE ME!"
+      }
+    },
+    "dialogue_0038": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマモ話マゼテクレ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} LET ME TALK TOO."
+      }
+    },
+    "dialogue_0039": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエオレサマワスレテルゾ！",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU FORGOT ME!"
+      }
+    },
+    "dialogue_0040": {
+      "text": {
+        "reference": "オレサマゴキゲンナナメ！",
+        "translation": "I AM IN FOUL MOOD!"
+      }
+    },
+    "dialogue_0041": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマタイクツ{n}{WAIT}オレサマオマエ話スル",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I AM BORED.{WAIT} I TALK WITH YOU."
+      }
+    },
+    "dialogue_0042": {
+      "text": {
+        "reference": "マ・{BEAT}マテニンゲン{n}{WAIT}オレサマ{BEAT}死ニタクナイ・・・",
+        "translation": "W-{BEAT}WAIT, HUMAN!{WAIT} I{BEAT} DO NOT WANT TO DIE...",
+        "note": "Fragment context: message 541 continues on page 1 (dialogue_0644): the demon begs to be spared for its kin and offers an item."
+      }
+    },
+    "dialogue_0043": {
+      "text": {
+        "reference": "オマエオレサマナカマシタクナイカ？",
+        "translation": "YOU NOT WANT ME AS ALLY?"
+      }
+    },
+    "dialogue_0044": {
+      "text": {
+        "reference": "したい",
+        "translation": "I do."
+      }
+    },
+    "dialogue_0045": {
+      "text": {
+        "reference": "したくない",
+        "translation": "I do not."
+      }
+    },
+    "dialogue_0046": {
+      "text": {
+        "reference": "オマエ話ワカルヤツ",
+        "translation": "YOU UNDERSTAND WHAT I SAY."
+      }
+    },
+    "dialogue_0047": {
+      "text": {
+        "reference": "オレサマナニカモラウ{n}{WAIT}オレサマオマエナカマ",
+        "translation": "I TAKE SOMETHING FROM YOU.{WAIT} THEN I BECOME YOUR ALLY."
+      }
+    },
+    "dialogue_0048": {
+      "text": {
+        "reference": "オマエ甘イヤツ{n}{WAIT}オレサマオマエマルカジリ！！",
+        "translation": "YOU SOFT FOOL!{WAIT} I EAT YOU WHOLE!!"
+      }
+    },
+    "dialogue_0049": {
+      "text": {
+        "reference": "マアソウ言ウナ",
+        "translation": "WELL, DON'T SAY THAT."
+      }
+    },
+    "dialogue_0050": {
+      "text": {
+        "reference": "オレサマツヨイ{n}オレサマアタマイイ{n}{WAIT}オマエソンシナイ",
+        "translation": "I AM STRONG. I AM SMART.{WAIT} YOU LOSE NOTHING."
+      }
+    },
+    "dialogue_0051": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{WAIT}オレサマヤケッパチ！！",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{WAIT} I AM DESPERATE!!"
+      }
+    },
+    "dialogue_0052": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{WAIT}オレサマオマエミチヅレ！！",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{WAIT} I TAKE YOU WITH ME!!"
+      }
+    },
+    "dialogue_0053": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエソレタクサン持ッテル{n}{WAIT}オレサマ気カワッタ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU HAVE MUCH OF THAT.{WAIT} I CHANGE MY MIND."
+      }
+    },
+    "dialogue_0054": {
+      "text": {
+        "reference": "サラバさまなー{n}マタコンドダ！！",
+        "translation": "FAREWELL, SUMMONER. UNTIL NEXT TIME!!"
+      }
+    },
+    "dialogue_0055": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエ持ッテナイ！{n}オマエウソツキ！！",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU DO NOT HAVE IT! YOU LIAR!!"
+      }
+    },
+    "dialogue_0056": {
+      "text": {
+        "reference": "オレサマウソツキキライ！",
+        "translation": "I HATE LIARS!"
+      }
+    },
+    "dialogue_0057": {
+      "text": {
+        "reference": "オレサマウソツキ喰ッテヤル！！",
+        "translation": "I EAT LIARS!!"
+      }
+    },
+    "dialogue_0058": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "ナンダさまなーカ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマ{demon_name}{n}{WAIT}オマエトモダチ",
+        "translation": "AH, SUMMONER...{BEAT}.{BEAT}.{BEAT}.{BEAT} I AM {demon_name}.{WAIT} YOUR FRIEND."
+      }
+    },
+    "dialogue_0059": {
+      "text": {
+        "reference": "ナニカ用カ？",
+        "translation": "WHAT YOU WANT?"
+      }
+    },
+    "dialogue_0060": {
+      "text": {
+        "reference": "話がある",
+        "translation": "Let's talk."
+      }
+    },
+    "dialogue_0061": {
+      "text": {
+        "reference": "去れ",
+        "translation": "Leave."
+      }
+    },
+    "dialogue_0062": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}イイダロウ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} FINE."
+      }
+    },
+    "dialogue_0063": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}ソレムツカシイ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} THAT DIFFICULT."
+      }
+    },
+    "dialogue_0064": {
+      "text": {
+        "reference": "オマエシツモンコタエル{n}{WAIT}オレサマソレカラ決メル",
+        "translation": "YOU ANSWER QUESTION.{WAIT} THEN I DECIDE."
+      }
+    },
+    "dialogue_0065": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "オレサマダイジナモノヤロウ{n}{WAIT}{offered_item}ヤロウ",
+        "translation": "I GIVE YOU SOMETHING PRECIOUS.{WAIT} I GIVE {offered_item}."
+      }
+    },
+    "dialogue_0066": {
+      "text": {
+        "reference": "オマエ話キカセル{n}{WAIT}オレサマソレカラ決メル",
+        "translation": "YOU TELL YOUR STORY.{WAIT} THEN I DECIDE."
+      }
+    },
+    "dialogue_0067": {
+      "text": {
+        "reference": "ソレヨリ{n}オレサマオマエ話アル",
+        "translation": "NEVER MIND THAT. I HAVE SOMETHING TO TELL YOU."
+      }
+    },
+    "dialogue_0068": {
+      "text": {
+        "reference": "キイテクレ",
+        "translation": "PLEASE LISTEN."
+      }
+    },
+    "dialogue_0069": {
+      "text": {
+        "reference": "ソレヨリ{n}オレサマオマエキキタイコトアル",
+        "translation": "NEVER MIND THAT. I HAVE SOMETHING TO ASK YOU."
+      }
+    },
+    "dialogue_0070": {
+      "text": {
+        "reference": "ツマラヌニンゲンノ{n}ツマラヌ話{n}{WAIT}ハラノタシニモナラナイ！",
+        "translation": "BORING HUMAN, BORING TALK.{WAIT} IT DOES NOT EVEN FILL MY BELLY!"
+      }
+    },
+    "dialogue_0071": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}ソウ言ウナキョウダイ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} DO NOT SAY THAT, KIN."
+      }
+    },
+    "dialogue_0072": {
+      "text": {
+        "reference": "オレサマチカラカシテヤル{n}{WAIT}オマエエンリョイラナイ",
+        "translation": "I LEND YOU STRENGTH.{WAIT} DO NOT HOLD BACK."
+      }
+    },
+    "dialogue_0073": {
+      "text": {
+        "reference": "ナラバオレサマノナワバリ{n}通ルガイイ",
+        "translation": "THEN YOU MAY PASS THROUGH MY TERRITORY."
+      }
+    },
+    "dialogue_0074": {
+      "text": {
+        "reference": "マテマテ{n}オレサマオマエマルカジリシナイ",
+        "translation": "WAIT, WAIT. I NOT EAT YOU WHOLE."
+      }
+    },
+    "dialogue_0075": {
+      "text": {
+        "reference": "オレサマキキタイコトアルダケ",
+        "translation": "I JUST HAVE SOMETHING TO ASK YOU."
+      }
+    },
+    "dialogue_0076": {
+      "text": {
+        "reference": "ココオレサマノナワバリ{n}{WAIT}ニンゲン何シニ来タカ",
+        "translation": "THIS IS MY TERRITORY.{WAIT} WHY HUMAN COME HERE?"
+      }
+    },
+    "dialogue_0077": {
+      "text": {
+        "reference": "言ウノダ",
+        "translation": "TELL ME."
+      }
+    },
+    "dialogue_0078": {
+      "text": {
+        "reference": "迷っている",
+        "translation": "I'm lost"
+      }
+    },
+    "dialogue_0079": {
+      "text": {
+        "reference": "仲魔探し",
+        "translation": "Looking for allies."
+      }
+    },
+    "dialogue_0080": {
+      "text": {
+        "reference": "鍛練",
+        "translation": "Training"
+      }
+    },
+    "dialogue_0081": {
+      "text": {
+        "reference": "悪魔退治",
+        "translation": "Hunting demons."
+      }
+    },
+    "dialogue_0082": {
+      "text": {
+        "reference": "よけいなお世話",
+        "translation": "None of your business."
+      }
+    },
+    "dialogue_0083": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエタヨリナイ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU LOOK UNRELIABLE."
+      }
+    },
+    "dialogue_0084": {
+      "text": {
+        "reference": "オレサマオマエ守ル",
+        "translation": "I PROTECT YOU."
+      }
+    },
+    "dialogue_0085": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}ソレデ{n}{WAIT}オマエオレサマコエカケタ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} SO...{WAIT} THAT WHY YOU CALL ME?"
+      }
+    },
+    "dialogue_0086": {
+      "text": {
+        "reference": "オレサマドウシヨウ・・・",
+        "translation": "WHAT SHOULD I DO..."
+      }
+    },
+    "dialogue_0087": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}キタエテイルノカ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU ARE TRAINING?"
+      }
+    },
+    "dialogue_0088": {
+      "text": {
+        "reference": "オレサマチカラカシテモイイゾ",
+        "translation": "I CAN LEND YOU STRENGTH."
+      }
+    },
+    "dialogue_0089": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}スマン",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} SORRY."
+      }
+    },
+    "dialogue_0090": {
+      "text": {
+        "reference": "オレサマ{OP:8025}たんれん{OP:8020}イミ{n}ワカラナイ・・・",
+        "translation": "I NOT UNDERSTAND WHAT {OP:8025}TRAINING{OP:8020} MEANS..."
+      }
+    },
+    "dialogue_0091": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}アクマ殺シテドウスル",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} WHY KILL DEMONS?"
+      }
+    },
+    "dialogue_0092": {
+      "text": {
+        "reference": "殺シアイ何モウマナイノニ・・・",
+        "translation": "KILLING EACH OTHER CREATES NOTHING..."
+      }
+    },
+    "dialogue_0093": {
+      "text": {
+        "reference": "オマエアクマ殺ス{n}{WAIT}オレサマアクマ{BEAT}・{BEAT}・{BEAT}・",
+        "translation": "YOU KILL DEMONS.{WAIT} I AM DEMON{BEAT}.{BEAT}.{BEAT}."
+      }
+    },
+    "dialogue_0094": {
+      "text": {
+        "reference": "オレサマ逃ゲル{n}{WAIT}オレサマアタマイイ",
+        "translation": "I RUN AWAY.{WAIT} I AM SMART."
+      }
+    },
+    "dialogue_0095": {
+      "text": {
+        "reference": "マアソウ言ウナ",
+        "translation": "WELL, DO NOT SAY THAT."
+      }
+    },
+    "dialogue_0096": {
+      "text": {
+        "reference": "トコロデ",
+        "translation": "BY THE WAY..."
+      }
+    },
+    "dialogue_0097": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}ナンダト！？",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} WHAT!?"
+      }
+    },
+    "dialogue_0098": {
+      "text": {
+        "reference": "次会ッタ時オマエメイニチ{n}{WAIT}オマエオボエトケ！",
+        "translation": "NEXT TIME WE MEET IS YOUR DEATH DAY.{WAIT} REMEMBER THAT!"
+      }
+    },
+    "dialogue_0099": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "オマエニンゲン{n}{WAIT}オレサマ{demon_name}",
+        "translation": "YOU ARE HUMAN.{WAIT} I AM {demon_name}."
+      }
+    },
+    "dialogue_0100": {
+      "text": {
+        "reference": "オマエナンノ用ダ？",
+        "translation": "WHAT YOU WANT?"
+      }
+    },
+    "dialogue_0101": {
+      "text": {
+        "reference": "オマエナニカミツグ{n}{WAIT}オレサマオマエナカマ",
+        "translation": "YOU GIVE ME SOMETHING.{WAIT} I BECOME YOUR ALLY."
+      }
+    },
+    "dialogue_0102": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "オレサマ{offered_item}ヤロウ{n}{WAIT}ダイジニツカエ",
+        "translation": "I GIVE YOU {offered_item}.{WAIT} USE IT WELL."
+      }
+    },
+    "dialogue_0103": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}マダハヤイ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} TOO SOON."
+      }
+    },
+    "dialogue_0104": {
+      "text": {
+        "reference": "オレサマキキタイコトアル",
+        "translation": "I HAVE SOMETHING TO ASK YOU."
+      }
+    },
+    "dialogue_0105": {
+      "text": {
+        "reference": "ツマラヌニンゲンノ{n}ツマラヌ話キキタクナイ",
+        "translation": "I NOT WANT BORING HUMAN'S BORING TALK."
+      }
+    },
+    "dialogue_0106": {
+      "text": {
+        "reference": "ソレヨリ",
+        "translation": "MORE IMPORTANTLY..."
+      }
+    },
+    "dialogue_0107": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}."
+      }
+    },
+    "dialogue_0108": {
+      "text": {
+        "reference": "ナンダト！！",
+        "translation": "WHAT YOU SAY!!"
+      }
+    },
+    "dialogue_0109": {
+      "text": {
+        "reference": "オマエオレサマばかニシタ{n}{WAIT}オマエ悪イヤツ！",
+        "translation": "YOU MOCKED ME!{WAIT} YOU ARE BAD ONE!"
+      }
+    },
+    "dialogue_0110": {
+      "text": {
+        "reference": "ココオレサマノナワバリ{n}{WAIT}ニンゲンナニシテイル！",
+        "translation": "THIS IS MY TERRITORY!{WAIT} WHAT HUMAN DOING HERE?!"
+      }
+    },
+    "dialogue_0111": {
+      "text": {
+        "reference": "コタエロ！",
+        "translation": "ANSWER!"
+      }
+    },
+    "dialogue_0112": {
+      "text": {
+        "reference": "ナカマナッテヤッテモイイゾ",
+        "translation": "MAYBE I BECOME YOUR ALLY."
+      }
+    },
+    "dialogue_0113": {
+      "text": {
+        "reference": "チョウドイイ{n}オレサマタイクツ",
+        "translation": "GOOD TIMING. I AM BORED."
+      }
+    },
+    "dialogue_0114": {
+      "text": {
+        "reference": "オマエオモシロイコトスルノダ{n}{WAIT}オレサマナカマナッテヤル",
+        "translation": "YOU DO SOMETHING INTERESTING.{WAIT} I BECOME YOUR ALLY."
+      }
+    },
+    "dialogue_0115": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}ソレデ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} AND?"
+      }
+    },
+    "dialogue_0116": {
+      "text": {
+        "reference": "オマエオレサマコエカケタ{n}{WAIT}オレサママヨッテル",
+        "translation": "YOU CALL ME.{WAIT} I NOT KNOW WHAT TO DO."
+      }
+    },
+    "dialogue_0117": {
+      "text": {
+        "reference": "オレサマイヤダ！{n}{WAIT}ホカノモノタノムイイ",
+        "translation": "I NOT WANT TO!{WAIT} ASK SOMEONE ELSE."
+      }
+    },
+    "dialogue_0118": {
+      "text": {
+        "reference": "ムツカシイコトバ{n}ツカイヤガッテ",
+        "translation": "YOU USE BIG WORDS..."
+      }
+    },
+    "dialogue_0119": {
+      "text": {
+        "reference": "オマエオレサマばかニシタナ！！",
+        "translation": "YOU MOCKED ME!!"
+      }
+    },
+    "dialogue_0120": {
+      "text": {
+        "reference": "アクマ殺シテマルカジリカ？{n}{WAIT}オレサマウラヤマシイ・・・",
+        "translation": "YOU KILL DEMONS AND EAT THEM WHOLE?{WAIT} I AM JEALOUS..."
+      }
+    },
+    "dialogue_0121": {
+      "text": {
+        "reference": "オレサマ逃ゲル！{n}{WAIT}オレサマアタマイイ",
+        "translation": "I RUN AWAY!{WAIT} I AM SMART."
+      }
+    },
+    "dialogue_0122": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマゴキゲンナナメ！",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I AM IN FOUL MOOD!"
+      }
+    },
+    "dialogue_0123": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエオレサマ怒ラセタ！！",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU MAKE ME ANGRY!!"
+      }
+    },
+    "dialogue_0124": {
+      "text": {
+        "reference": "ナンダニンゲン",
+        "translation": "WHAT, HUMAN?"
+      }
+    },
+    "dialogue_0125": {
+      "text": {
+        "reference": "オレサマゴキゲンナナメ{n}{WAIT}オレサマハラペコ",
+        "translation": "I AM IN FOUL MOOD.{WAIT} I AM HUNGRY."
+      }
+    },
+    "dialogue_0126": {
+      "text": {
+        "reference": "オマエハヤク用言エ！！",
+        "translation": "SAY WHAT YOU WANT, QUICK!!"
+      }
+    },
+    "dialogue_0127": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマキョウミナイ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I NOT INTERESTED."
+      }
+    },
+    "dialogue_0128": {
+      "text": {
+        "reference": "オマエミツグナラ{n}{WAIT}オレサマ話キイテヤル",
+        "translation": "IF YOU MAKE OFFERING,{WAIT} I HEAR YOU OUT."
+      }
+    },
+    "dialogue_0129": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマキキタイコトアル{n}{WAIT}オマエコタエシダイダ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I ASK YOU SOMETHING.{WAIT} ANSWER DECIDES WHAT HAPPENS."
+      }
+    },
+    "dialogue_0130": {
+      "text": {
+        "reference": "ナンダオマエ！{n}{WAIT}ダレニクチキイテイル！！",
+        "translation": "WHAT YOU WANT!{WAIT} WHO YOU THINK YOU TALKING TO!!"
+      }
+    },
+    "dialogue_0131": {
+      "text": {
+        "reference": "オレサマ話シタクナイ",
+        "translation": "I NOT WANT TALK TO YOU."
+      }
+    },
+    "dialogue_0132": {
+      "text": {
+        "reference": "オマエセッカチ{n}{WAIT}オレサママダ話アル",
+        "translation": "YOU IMPATIENT.{WAIT} I STILL HAVE SOMETHING TO SAY."
+      }
+    },
+    "dialogue_0133": {
+      "text": {
+        "reference": "ソノ前ニ・・・",
+        "translation": "BEFORE THAT...",
+        "note": "Fragment context: message 126 page 1 delays the answer with \"Before that...\"; the following negotiation branch supplies the demon's demand."
+      }
+    },
+    "dialogue_0134": {
+      "text": {
+        "reference": "オマエオレサマコケニシタ！{n}{WAIT}オマエ悪イヤツ！！",
+        "translation": "YOU MAKE FOOL OF ME!{WAIT} YOU BAD ONE!!"
+      }
+    },
+    "dialogue_0135": {
+      "text": {
+        "reference": "ココオレサマノナワバリ{n}{WAIT}ニンゲンイルトコロチガウ",
+        "translation": "THIS IS MY TERRITORY.{WAIT} HUMANS NOT BELONG HERE."
+      }
+    },
+    "dialogue_0136": {
+      "text": {
+        "reference": "ナニシテイル！",
+        "translation": "WHAT YOU DOING HERE!"
+      }
+    },
+    "dialogue_0137": {
+      "text": {
+        "reference": "ジブンノニオイ{n}タドレバイイ",
+        "translation": "FOLLOW YOUR OWN SCENT."
+      }
+    },
+    "dialogue_0138": {
+      "text": {
+        "reference": "デグチ行ケルゾ",
+        "translation": "IT LEAD YOU TO EXIT."
+      }
+    },
+    "dialogue_0139": {
+      "text": {
+        "reference": "ヨソモノウロウロスルカラダ！{n}{WAIT}オマエメザワリ！！",
+        "translation": "OUTSIDER PROWLING AROUND!{WAIT} YOU EYESORE!!"
+      }
+    },
+    "dialogue_0140": {
+      "text": {
+        "reference": "ソレハゴクロウ{n}{WAIT}オレサマジャマシテシマッタ",
+        "translation": "THAT HARD WORK.{WAIT} I GOT IN YOUR WAY."
+      }
+    },
+    "dialogue_0141": {
+      "text": {
+        "reference": "サラバニンゲン",
+        "translation": "FAREWELL, HUMAN."
+      }
+    },
+    "dialogue_0142": {
+      "text": {
+        "reference": "ソレアクマ殺スコト{n}{WAIT}ソウダロウ！？",
+        "translation": "THAT MEANS KILLING DEMONS.{WAIT} RIGHT?!"
+      }
+    },
+    "dialogue_0143": {
+      "text": {
+        "reference": "マアイイ",
+        "translation": "FINE."
+      }
+    },
+    "dialogue_0144": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}ニンゲンメ！！",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} WRETCHED HUMAN!!"
+      }
+    },
+    "dialogue_0145": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}アクマ殺シテマルカジリカ？",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU KILL DEMONS AND DEVOUR THEM WHOLE?"
+      }
+    },
+    "dialogue_0146": {
+      "text": {
+        "reference": "オレサマニモヨコセ！！",
+        "translation": "GIVE IT TO ME TOO!!"
+      }
+    },
+    "dialogue_0147": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}マアソウ言ウナ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} WELL, DO NOT SAY THAT."
+      }
+    },
+    "dialogue_0148": {
+      "text": {
+        "reference": "オレサマサミシイ・・・",
+        "translation": "I AM LONELY..."
+      }
+    },
+    "dialogue_0149": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエオレサマトテモ怒ラセタ！！",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU MAKE ME VERY ANGRY!!"
+      }
+    },
+    "dialogue_0150": {
+      "text": {
+        "reference": "オレサマ悪イヤツ{n}サイショオマエ喰オウト思ッタ{n}{WAIT}オマエココロヒライテクレタノニ・・・",
+        "translation": "I AM BAD ONE. I MEANT TO EAT YOU.{WAIT} BUT YOU OPENED HEART TO ME..."
+      }
+    },
+    "dialogue_0151": {
+      "text": {
+        "reference": "オマエオレサマユルスカ？",
+        "translation": "WILL YOU FORGIVE ME?"
+      }
+    },
+    "dialogue_0152": {
+      "text": {
+        "reference": "気にするな",
+        "translation": "Do not worry about it."
+      }
+    },
+    "dialogue_0153": {
+      "text": {
+        "reference": "許さん",
+        "translation": "Never!"
+      }
+    },
+    "dialogue_0154": {
+      "text": {
+        "reference": "オマエイイヤツ{n}{WAIT}オレサマ悪イヤツ",
+        "translation": "YOU ARE GOOD ONE.{WAIT} I AM BAD ONE."
+      }
+    },
+    "dialogue_0155": {
+      "text": {
+        "reference": "オレサマオマエシタガウ",
+        "translation": "I FOLLOW YOU."
+      }
+    },
+    "dialogue_0156": {
+      "text": {
+        "reference": "オマエイイヤツ",
+        "translation": "YOU ARE GOOD ONE."
+      }
+    },
+    "dialogue_0157": {
+      "text": {
+        "reference": "オレサマオマエキニイッタ！",
+        "translation": "I LIKE YOU!"
+      }
+    },
+    "dialogue_0158": {
+      "text": {
+        "reference": "オレサマ怒ラレタ{n}{WAIT}オレサマカナシイ・・・",
+        "translation": "YOU SCOLD ME.{WAIT} I AM SAD..."
+      }
+    },
+    "dialogue_0159": {
+      "text": {
+        "reference": "オマエ悪イヤツ{n}オレサマ悪イヤツ{n}{WAIT}オマエオレサマ同ジニオイスル！",
+        "translation": "YOU ARE BAD ONE. I AM BAD ONE.{WAIT} YOU SMELL SAME AS ME!"
+      }
+    },
+    "dialogue_0160": {
+      "text": {
+        "reference": "オレサマオマエケライシテヤル！{n}{WAIT}オマエミツグノダ！！",
+        "translation": "I MAKE YOU MY SERVANT!{WAIT} YOU MAKE OFFERINGS TO ME!!"
+      }
+    },
+    "dialogue_0161": {
+      "text": {
+        "reference": "オマエオレサマ話シカケタ",
+        "translation": "YOU CALLED TO ME."
+      }
+    },
+    "dialogue_0162": {
+      "text": {
+        "reference": "オマエアクマコワクナイノカ？",
+        "translation": "YOU NOT FEAR DEMONS?"
+      }
+    },
+    "dialogue_0163": {
+      "text": {
+        "reference": "こわい",
+        "translation": "I am scared."
+      }
+    },
+    "dialogue_0164": {
+      "text": {
+        "reference": "こわくない",
+        "translation": "I'm not scared"
+      }
+    },
+    "dialogue_0165": {
+      "text": {
+        "reference": "アクマツヨイコワイ{n}オレサマツヨイコワイ！{n}{WAIT}オマエウソツカナイ",
+        "translation": "DEMONS STRONG AND SCARY. I STRONG AND SCARY!{WAIT} YOU NOT LIE."
+      }
+    },
+    "dialogue_0166": {
+      "text": {
+        "reference": "オレサマオマエキニイッタ！",
+        "translation": "I LIKE YOU!"
+      }
+    },
+    "dialogue_0167": {
+      "text": {
+        "reference": "オマエオクビョウ",
+        "translation": "YOU COWARD!"
+      }
+    },
+    "dialogue_0168": {
+      "text": {
+        "reference": "オクビョウ死ヌヤセイノオキテ！",
+        "translation": "COWARDS DIE. LAW OF WILD!"
+      }
+    },
+    "dialogue_0169": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエユウキアル",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU BRAVE."
+      }
+    },
+    "dialogue_0170": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "オレサマオマエキニイッタ{n}{WAIT}オレサマ{offered_item}ヤロウ",
+        "translation": "I LIKE YOU.{WAIT} I GIVE YOU {offered_item}."
+      }
+    },
+    "dialogue_0171": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエユウキアル{n}オマエスゴイニンゲン",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU BRAVE. YOU GREAT HUMAN."
+      }
+    },
+    "dialogue_0172": {
+      "text": {
+        "reference": "オマエワカッテナイ！",
+        "translation": "YOU DON'T UNDERSTAND!"
+      }
+    },
+    "dialogue_0173": {
+      "text": {
+        "reference": "アクマツヨイコワイ！{n}オレサマツヨイコワイ！！",
+        "translation": "DEMONS STRONG AND SCARY! I STRONG AND SCARY!!"
+      }
+    },
+    "dialogue_0174": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "オレサマ{demon_name}{n}{WAIT}オマエさまなー",
+        "translation": "I AM {demon_name}.{WAIT} YOU ARE SUMMONER."
+      }
+    },
+    "dialogue_0175": {
+      "text": {
+        "reference": "さまなーナニスルニンゲンダ？",
+        "translation": "SUMMONER, WHAT KIND OF HUMAN ARE YOU?"
+      }
+    },
+    "dialogue_0176": {
+      "text": {
+        "reference": "悪魔召喚師",
+        "translation": "Devil Summoner"
+      }
+    },
+    "dialogue_0177": {
+      "text": {
+        "reference": "探偵",
+        "translation": "Detective"
+      }
+    },
+    "dialogue_0178": {
+      "text": {
+        "reference": "悪魔退治屋",
+        "translation": "Demon Slayer"
+      }
+    },
+    "dialogue_0179": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエソレデナカマ集メテル",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} SO YOU GATHER ALLIES."
+      }
+    },
+    "dialogue_0180": {
+      "text": {
+        "reference": "オレサマトテモキョウミアル{n}{WAIT}オレサマチカラカシテモイイ",
+        "translation": "I VERY INTERESTED.{WAIT} MAYBE I LEND YOU STRENGTH."
+      }
+    },
+    "dialogue_0181": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエソレデナカマ集メテル",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} SO YOU GATHER ALLIES."
+      }
+    },
+    "dialogue_0182": {
+      "text": {
+        "reference": "オレサマトテモキョウミアル",
+        "translation": "I AM VERY INTERESTED."
+      }
+    },
+    "dialogue_0183": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}アクマドレイアツカイカ！",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU TREAT DEMONS LIKE SLAVES?!"
+      }
+    },
+    "dialogue_0184": {
+      "text": {
+        "reference": "さまなー悪イヤツ！{n}{WAIT}オマエ悪イヤツ！！",
+        "translation": "SUMMONER, YOU BAD ONE!{WAIT} VERY BAD ONE!!"
+      }
+    },
+    "dialogue_0185": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "オレサマ{demon_name}{n}{WAIT}オマエ{BEAT}・{BEAT}・{BEAT}・{BEAT}{OP:8025}たんてい{OP:8020}？",
+        "translation": "I AM {demon_name}.{WAIT} YOU ARE...{BEAT}.{BEAT}.{BEAT}.{BEAT}{OP:8025}DETECTIVE{OP:8020}?"
+      }
+    },
+    "dialogue_0186": {
+      "text": {
+        "reference": "オレサマ{OP:8025}たんてい{OP:8020}知ラナイ・・・",
+        "translation": "I DO NOT KNOW WHAT {OP:8025}DETECTIVE{OP:8020} MEANS..."
+      }
+    },
+    "dialogue_0187": {
+      "text": {
+        "reference": "オマエウソツキ{n}{OP:8025}たんてい{OP:8020}アクマ欲シガラナイ",
+        "translation": "YOU LIAR! {OP:8025}DETECTIVES{OP:8020} NOT WANT DEMONS."
+      }
+    },
+    "dialogue_0188": {
+      "text": {
+        "reference": "オマエ悪イヤツ！",
+        "translation": "YOU BAD GUY!"
+      }
+    },
+    "dialogue_0189": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマタイジサレタクナイ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I DO NOT WANT TO BE EXTERMINATED."
+      }
+    },
+    "dialogue_0190": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "オレサマ{offered_item}ヤル{n}{WAIT}オマエオレサマ見逃ス",
+        "translation": "I GIVE YOU {offered_item}.{WAIT} YOU LET ME GO."
+      }
+    },
+    "dialogue_0191": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマタイジサレナイ！",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I WILL NOT BE EXTERMINATED!"
+      }
+    },
+    "dialogue_0192": {
+      "text": {
+        "reference": "オマエタイジサレル！！",
+        "translation": "YOU BE EXTERMINATED!!"
+      }
+    },
+    "dialogue_0193": {
+      "text": {
+        "reference": "オマエアクマ殺ス",
+        "translation": "YOU KILL DEMONS."
+      }
+    },
+    "dialogue_0194": {
+      "text": {
+        "reference": "オマエ悪イコトシテル思ワナイノカ？",
+        "translation": "DON'T YOU THINK YOU'RE DOING SOMETHING WRONG?"
+      }
+    },
+    "dialogue_0195": {
+      "text": {
+        "reference": "思う",
+        "translation": "I think so."
+      }
+    },
+    "dialogue_0196": {
+      "text": {
+        "reference": "思わない",
+        "translation": "I don't think so"
+      }
+    },
+    "dialogue_0197": {
+      "text": {
+        "reference": "オマエ悪イヤツ{n}{WAIT}ダケドオマエワカルヤツ",
+        "translation": "YOU ARE BAD ONE.{WAIT} BUT YOU UNDERSTAND."
+      }
+    },
+    "dialogue_0198": {
+      "text": {
+        "reference": "オマエカンガエロ{n}{WAIT}ニンゲンアクマナゼ殺シアウ・・・",
+        "translation": "THINK.{WAIT} WHY HUMANS AND DEMONS KILL EACH OTHER..."
+      }
+    },
+    "dialogue_0199": {
+      "text": {
+        "reference": "オマエ悪イヤツ{n}{WAIT}ダケドオマエココロモッテル",
+        "translation": "YOU ARE BAD ONE.{WAIT} BUT YOU HAVE HEART."
+      }
+    },
+    "dialogue_0200": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "オレサマ{offered_item}ヤロウ{n}{WAIT}オマエダイジニ使エ",
+        "translation": "I GIVE YOU {offered_item}.{WAIT} USE IT WELL."
+      }
+    },
+    "dialogue_0201": {
+      "text": {
+        "reference": "オマエ悪イヤツ！{n}{WAIT}オレサマトテモ怒ッテル！！",
+        "translation": "YOU BAD ONE!{WAIT} I VERY ANGRY!!"
+      }
+    },
+    "dialogue_0202": {
+      "text": {
+        "reference": "オレサマトテモハラヘッタ！！",
+        "translation": "I VERY HUNGRY!!"
+      }
+    },
+    "dialogue_0203": {
+      "text": {
+        "reference": "ニンゲン自然壊ス{n}ニンゲンオカマイナシ壊ス！{n}{WAIT}ナゼダ？",
+        "translation": "HUMANS DESTROY NATURE. HUMANS DESTROY WITHOUT CARE!{WAIT} WHY?"
+      }
+    },
+    "dialogue_0204": {
+      "text": {
+        "reference": "ナゼ壊スノダ？",
+        "translation": "WHY DESTROY IT?"
+      }
+    },
+    "dialogue_0205": {
+      "text": {
+        "reference": "生きるため",
+        "translation": "To live"
+      }
+    },
+    "dialogue_0206": {
+      "text": {
+        "reference": "ごらくのため",
+        "translation": "To have fun"
+      }
+    },
+    "dialogue_0207": {
+      "text": {
+        "reference": "便利になるから",
+        "translation": "Because it will be convenient"
+      }
+    },
+    "dialogue_0208": {
+      "text": {
+        "reference": "わからない",
+        "translation": "I don't understand"
+      }
+    },
+    "dialogue_0209": {
+      "text": {
+        "reference": "ニンゲン何カンガエテル！？{n}{WAIT}壊ス自分ノクビシメル",
+        "translation": "WHAT HUMANS THINKING!?{WAIT} DESTROYING IT ONLY TIGHTENS NOOSE AROUND OWN NECK.",
+        "note": "Fragment context: message 188 page 0 continues through pages 1-2 (dialogue_0210-dialogue_0211), ending with the demon's offer to lend its strength."
+      }
+    },
+    "dialogue_0210": {
+      "text": {
+        "reference": "ソレワカッテルハズ{n}{WAIT}オマエワカッテルハズ・・・",
+        "translation": "YOU SHOULD KNOW THAT.{WAIT} YOU SHOULD KNOW...",
+        "note": "Fragment context: message 188 page 1 links page 0 (dialogue_0209) to the conditional offer on page 2 (dialogue_0211)."
+      }
+    },
+    "dialogue_0211": {
+      "text": {
+        "reference": "オマエナラ・・・{n}{WAIT}オレサマチカラカシテモイイ",
+        "translation": "IF IT IS YOU...{WAIT} I CAN LEND YOU STRENGTH.",
+        "note": "Fragment context: message 188 page 2 completes pages 0-1 (dialogue_0209-dialogue_0210): because the hero understands, the demon may lend its strength."
+      }
+    },
+    "dialogue_0212": {
+      "text": {
+        "reference": "ニンゲンアタマ悪イ！{n}{WAIT}壊ス自分ノクビシメル{n}ソレワカッテナイ！",
+        "translation": "HUMANS STUPID!{WAIT} DESTROYING IT TIGHTENS THEIR OWN NOOSE. THEY NOT UNDERSTAND!"
+      }
+    },
+    "dialogue_0213": {
+      "text": {
+        "reference": "オレサマトテモカナシイ・・・",
+        "translation": "I FEEL SO SAD..."
+      }
+    },
+    "dialogue_0214": {
+      "text": {
+        "reference": "ニンゲンタノシミノタメ{n}{BEAT}タクサン{BEAT}タクサン{BEAT}イキモノ殺ス！",
+        "translation": "FOR FUN, HUMANS{BEAT} KILL MANY,{BEAT} MANY{BEAT} CREATURES!"
+      }
+    },
+    "dialogue_0215": {
+      "text": {
+        "reference": "ニンゲンナニサマノツモリダ！",
+        "translation": "WHO HUMANS THINK THEY ARE!?"
+      }
+    },
+    "dialogue_0216": {
+      "text": {
+        "reference": "オレサマイキルタメ{n}オマエ殺ス！！",
+        "translation": "I WILL KILL YOU SO THAT I CAN LIVE!!"
+      }
+    },
+    "dialogue_0217": {
+      "text": {
+        "reference": "ニンゲンアタマ悪イ{n}{WAIT}オマエアタマ悪イ！",
+        "translation": "HUMANS STUPID.{WAIT} YOU ARE STUPID!"
+      }
+    },
+    "dialogue_0218": {
+      "text": {
+        "reference": "ニンゲン見セカケダマサレル{n}{WAIT}オマエシンジツ見テイナイ",
+        "translation": "HUMANS FOOLED BY APPEARANCES.{WAIT} YOU DO NOT SEE TRUTH."
+      }
+    },
+    "dialogue_0219": {
+      "text": {
+        "reference": "オレサマカナシイイ・・・",
+        "translation": "I AM VERY SAD..."
+      }
+    },
+    "dialogue_0220": {
+      "text": {
+        "reference": "ニンゲンアタマ悪イ",
+        "translation": "HUMANS STUPID."
+      }
+    },
+    "dialogue_0221": {
+      "text": {
+        "reference": "自分デツクッタモノニ{n}フリマワサレル",
+        "translation": "HUMANS RULED BY THINGS THEY MADE THEMSELVES."
+      }
+    },
+    "dialogue_0222": {
+      "text": {
+        "reference": "ソレベンリナノカ・・・？",
+        "translation": "THAT CONVENIENT...?"
+      }
+    },
+    "dialogue_0223": {
+      "text": {
+        "reference": "オマエナゼワカラナイ{n}{WAIT}メヲヒラケ{n}{WAIT}ミミヲカタムケロ！",
+        "translation": "WHY YOU NOT UNDERSTAND?{WAIT} OPEN EYES.{WAIT} LISTEN CLOSELY!"
+      }
+    },
+    "dialogue_0224": {
+      "text": {
+        "reference": "ニンゲンアタマ悪イ{n}自分ツクッタモノワカラナイ",
+        "translation": "HUMANS STUPID. THEY DO NOT UNDERSTAND WHAT THEY MADE."
+      }
+    },
+    "dialogue_0225": {
+      "text": {
+        "reference": "オレサマワカル{n}{WAIT}ニンゲン悪イヤツ！！",
+        "translation": "I UNDERSTAND.{WAIT} HUMANS ARE BAD ONES!!"
+      }
+    },
+    "dialogue_0226": {
+      "text": {
+        "reference": "コノ街カイハツススム",
+        "translation": "THIS CITY KEEPS BEING DEVELOPED."
+      }
+    },
+    "dialogue_0227": {
+      "text": {
+        "reference": "オマエドウ思ウ？",
+        "translation": "WHAT DO YOU THINK?"
+      }
+    },
+    "dialogue_0228": {
+      "text": {
+        "reference": "いいことだ",
+        "translation": "Good"
+      }
+    },
+    "dialogue_0229": {
+      "text": {
+        "reference": "好ましくない",
+        "translation": "Not good"
+      }
+    },
+    "dialogue_0230": {
+      "text": {
+        "reference": "どうでもいい",
+        "translation": "I don't care"
+      }
+    },
+    "dialogue_0231": {
+      "text": {
+        "reference": "カワイソウニ・・・{n}{WAIT}オマエナニモ知ラナイ",
+        "translation": "PITIFUL...{WAIT} YOU KNOW NOTHING."
+      }
+    },
+    "dialogue_0232": {
+      "text": {
+        "reference": "オマエワカッテナイ{n}{WAIT}ニンゲンワカッテナイ・・・",
+        "translation": "YOU DO NOT UNDERSTAND.{WAIT} HUMANS DO NOT UNDERSTAND..."
+      }
+    },
+    "dialogue_0233": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}カワイソウニ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} POOR THING."
+      }
+    },
+    "dialogue_0234": {
+      "text": {
+        "reference": "オソロシイコトオキル前{n}{WAIT}オレサマオマエ喰ッテヤル！！",
+        "translation": "BEFORE SOMETHING TERRIBLE HAPPENS,{WAIT} I EAT YOU!!"
+      }
+    },
+    "dialogue_0235": {
+      "text": {
+        "reference": "ソウダロウソウダロウ{n}{WAIT}オレサマオマエキニイッタ！",
+        "translation": "YES, YES.{WAIT} I LIKE YOU!"
+      }
+    },
+    "dialogue_0236": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}知ッタヨウナクチヲ・・・",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU TALK AS IF YOU KNOW..."
+      }
+    },
+    "dialogue_0237": {
+      "text": {
+        "reference": "マアイイ",
+        "translation": "FINE."
+      }
+    },
+    "dialogue_0238": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエコマカイコト気ニシナイ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU DO NOT WORRY OVER DETAILS."
+      }
+    },
+    "dialogue_0239": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエコマカイコト気ニシナイ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU DO NOT WORRY OVER DETAILS."
+      }
+    },
+    "dialogue_0240": {
+      "text": {
+        "reference": "オレサマオマエキニイッタ",
+        "translation": "I LIKE YOU."
+      }
+    },
+    "dialogue_0241": {
+      "text": {
+        "reference": "ニンゲン9時カラ5時マデ{n}アクセクハタラク{n}{WAIT}ニンゲンナニガタノシイ？",
+        "translation": "HUMANS TOIL FROM NINE TO FIVE.{WAIT} WHAT IS FUN ABOUT THAT?"
+      }
+    },
+    "dialogue_0242": {
+      "text": {
+        "reference": "オマエギモン思ワナイカ？",
+        "translation": "YOU NOT WONDER WHY?"
+      }
+    },
+    "dialogue_0243": {
+      "text": {
+        "reference": "ソウダ！{n}ニンゲンマチガッテル{n}{WAIT}オマエヨク気ヅイタ",
+        "translation": "YES! HUMANS ARE WRONG.{WAIT} GOOD THAT YOU NOTICE."
+      }
+    },
+    "dialogue_0244": {
+      "text": {
+        "reference": "交渉スルイミアルナ・・・",
+        "translation": "MAYBE TALKING WITH YOU WORTH IT..."
+      }
+    },
+    "dialogue_0245": {
+      "text": {
+        "reference": "ソウダ！{n}ニンゲンマチガッテル！",
+        "translation": "YES! HUMANS ARE WRONG!"
+      }
+    },
+    "dialogue_0246": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}言イキッタナ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU SAY THAT WITH CONFIDENCE."
+      }
+    },
+    "dialogue_0247": {
+      "text": {
+        "reference": "自分ニホコリ持ツ{n}イイコトダ",
+        "translation": "TAKING PRIDE IN YOURSELF IS GOOD."
+      }
+    },
+    "dialogue_0248": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}."
+      }
+    },
+    "dialogue_0249": {
+      "text": {
+        "reference": "オマエ自分ウマレタコト{n}ドンナイミアルノカ{n}{WAIT}ワカルノカ・・・？",
+        "translation": "YOUR BIRTH HAS MEANING.{WAIT} YOU KNOW WHAT IT IS...?"
+      }
+    },
+    "dialogue_0250": {
+      "text": {
+        "reference": "オマエ好キナタベモノナンダ？",
+        "translation": "WHAT'S YOUR FAVORITE FOOD?"
+      }
+    },
+    "dialogue_0251": {
+      "text": {
+        "reference": "むすめ",
+        "translation": "Girls"
+      }
+    },
+    "dialogue_0252": {
+      "text": {
+        "reference": "肉",
+        "translation": "Meat"
+      }
+    },
+    "dialogue_0253": {
+      "text": {
+        "reference": "やさい",
+        "translation": "Vegetables"
+      }
+    },
+    "dialogue_0254": {
+      "text": {
+        "reference": "コメ",
+        "translation": "Rice"
+      }
+    },
+    "dialogue_0255": {
+      "text": {
+        "reference": "悪魔",
+        "translation": "Demons"
+      }
+    },
+    "dialogue_0256": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエアレ好キカ！？",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU LIKE THAT!?"
+      }
+    },
+    "dialogue_0257": {
+      "text": {
+        "reference": "アレニク{OP:8026}ぴちぴち{OP:8020}ヤワラカイ！{n}{WAIT}オマエオレサマシュミニテル",
+        "translation": "THAT MEAT IS {OP:8026}FRESH{OP:8020} AND TENDER!{WAIT} YOU SHARE MY TASTES!"
+      }
+    },
+    "dialogue_0258": {
+      "text": {
+        "reference": "オレサマオマエキニイッタ！{n}{WAIT}オレサマオマエケライシテヤル！",
+        "translation": "I LIKE YOU!{WAIT} I MAKE YOU MY SERVANT!"
+      }
+    },
+    "dialogue_0259": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}トモグイカ！",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} CANNIBALISM!?"
+      }
+    },
+    "dialogue_0260": {
+      "text": {
+        "reference": "オマエトテモ悪イヤツ！{n}{WAIT}オレサマオマエマルカジリ！",
+        "translation": "YOU VERY BAD ONE!{WAIT} I EAT YOU WHOLE!"
+      }
+    },
+    "dialogue_0261": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{BEAT}ニク",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} MEAT..."
+      }
+    },
+    "dialogue_0262": {
+      "text": {
+        "reference": "オレサマシバラクニク喰ッテナイ{n}{WAIT}思イダサセヤガッテ！！",
+        "translation": "I HAVE NOT EATEN MEAT IN LONG TIME.{WAIT} NOW YOU REMIND ME!!"
+      }
+    },
+    "dialogue_0263": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{BEAT}ニク{n}{WAIT}オレサマシバラクニク喰ッテナイ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} MEAT...{WAIT} I NOT EATEN MEAT FOR LONG TIME."
+      }
+    },
+    "dialogue_0264": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}ニク",
+        "translation": "...{BEAT}.{BEAT}.{BEAT} MEAT..."
+      }
+    },
+    "dialogue_0265": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}{OP:8024}ハッパ{OP:8020}ガ好キカ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU LIKE {OP:8024}LEAVES{OP:8020}?"
+      }
+    },
+    "dialogue_0266": {
+      "text": {
+        "reference": "オマエソノワリニチカラツヨソウ",
+        "translation": "EVEN SO, YOU LOOK STRONG."
+      }
+    },
+    "dialogue_0267": {
+      "text": {
+        "reference": "オレサマチカラ足スト{n}オマエモットツヨクナル！",
+        "translation": "WITH MY STRENGTH, YOU GET EVEN STRONGER!"
+      }
+    },
+    "dialogue_0268": {
+      "text": {
+        "reference": "オマエダカラヒンジャク",
+        "translation": "THAT WHY YOU SO WEAK."
+      }
+    },
+    "dialogue_0269": {
+      "text": {
+        "reference": "コメ喰ワナイトチカラデナイ",
+        "translation": "WITHOUT RICE, STRENGTH DOES NOT COME."
+      }
+    },
+    "dialogue_0270": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "オレサマ{offered_item}ヤロウ{n}{WAIT}コメカエ{n}{WAIT}チカラツケロ",
+        "translation": "I GIVE YOU {offered_item}.{WAIT} TRADE IT FOR RICE.{WAIT} BUILD STRENGTH."
+      }
+    },
+    "dialogue_0271": {
+      "text": {
+        "reference": "オマエ{OP:8023}BAR{OP:8020}行ッタカ？",
+        "translation": "YOU BEEN TO {OP:8023}BAR{OP:8020}?"
+      }
+    },
+    "dialogue_0272": {
+      "text": {
+        "reference": "コメヨリチカラツクノミモノ{n}タクサンアルラシイゾ",
+        "translation": "THEY SAY MANY DRINKS GIVE MORE STRENGTH THAN RICE."
+      }
+    },
+    "dialogue_0273": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサママズイ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I NOT TASTE GOOD."
+      }
+    },
+    "dialogue_0274": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "オレサマカワリニ{n}{offered_item}ヤロウ",
+        "translation": "INSTEAD, I GIVE YOU {offered_item}."
+      }
+    },
+    "dialogue_0275": {
+      "text": {
+        "reference": "オレサマトテモマズイ・・・{n}{WAIT}コレホントウ",
+        "translation": "I TASTE VERY BAD...{WAIT} THIS IS TRUE."
+      }
+    },
+    "dialogue_0276": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}ジャクニクキョウショク！",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} SURVIVAL OF THE FITTEST!"
+      }
+    },
+    "dialogue_0277": {
+      "text": {
+        "reference": "オマエオレサマ死ンダホウ{n}喰ワレル！",
+        "translation": "WHICHEVER OF US DIES GETS EATEN!"
+      }
+    },
+    "dialogue_0278": {
+      "text": {
+        "reference": "オマエトビドウグアル{n}オレサマトテモ気ニナル{n}{WAIT}オレサマオマエ話デキナイ",
+        "translation": "YOU HAVE RANGED WEAPON. IT BOTHER ME.{WAIT} I CANNOT TALK TO YOU."
+      }
+    },
+    "dialogue_0279": {
+      "text": {
+        "reference": "オマエトビドウグ外セ！",
+        "translation": "PUT AWAY YOUR RANGED WEAPON!"
+      }
+    },
+    "dialogue_0280": {
+      "text": {
+        "reference": "外す",
+        "translation": "Put it away"
+      }
+    },
+    "dialogue_0281": {
+      "text": {
+        "reference": "外さない",
+        "translation": "I will not"
+      }
+    },
+    "dialogue_0282": {
+      "text": {
+        "reference": "オマエイイヤツ{n}{WAIT}オレサマオマエ話デキル",
+        "translation": "YOU ARE GOOD ONE.{WAIT} I CAN TALK WITH YOU."
+      }
+    },
+    "dialogue_0283": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}マダダ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} NOT YET."
+      }
+    },
+    "dialogue_0284": {
+      "text": {
+        "reference": "オマエイイヤツ{n}{WAIT}オレサマ悪イヤツ！",
+        "translation": "YOU ARE GOOD ONE.{WAIT} I AM BAD ONE!"
+      }
+    },
+    "dialogue_0285": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマばかナヤツ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I AM FOOL."
+      }
+    },
+    "dialogue_0286": {
+      "text": {
+        "reference": "オレサマキラワレテイタトハ・・・",
+        "translation": "I DID NOT KNOW YOU HATED ME..."
+      }
+    },
+    "dialogue_0287": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエオレサマトテモ怒ラセタ！",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU MAKE ME VERY ANGRY!"
+      }
+    },
+    "dialogue_0288": {
+      "text": {
+        "reference": "オマエジャマモノ！{n}オレサマ通レナイ！！",
+        "translation": "YOU BLOCK WAY! I CANNOT PASS!!"
+      }
+    },
+    "dialogue_0289": {
+      "text": {
+        "reference": "オマエミチアケロ！",
+        "translation": "GET OUT OF THE WAY!"
+      }
+    },
+    "dialogue_0290": {
+      "text": {
+        "reference": "どく",
+        "translation": "Move aside"
+      }
+    },
+    "dialogue_0291": {
+      "text": {
+        "reference": "どかない",
+        "translation": "I will not move"
+      }
+    },
+    "dialogue_0292": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエオレサマノ前現ワレルナ！！",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} NEVER APPEAR BEFORE ME AGAIN!!"
+      }
+    },
+    "dialogue_0293": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマ悪イヤツ！",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I AM BAD ONE!"
+      }
+    },
+    "dialogue_0294": {
+      "text": {
+        "reference": "オマエマルカジリ！！",
+        "translation": "EAT YOU WHOLE!!"
+      }
+    },
+    "dialogue_0295": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマオマエ喰ウ！",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I EAT YOU!"
+      }
+    },
+    "dialogue_0296": {
+      "text": {
+        "reference": "マルカジリダ・・・",
+        "translation": "EAT YOU WHOLE..."
+      }
+    },
+    "dialogue_0297": {
+      "text": {
+        "reference": "オレサマトテモツヨイ！{n}{WAIT}オレサマトテモアタマイイ！{n}{WAIT}オレサマオマエナカマニスル",
+        "translation": "I AM VERY STRONG!{WAIT} I AM VERY SMART!{WAIT} I MAKE YOU MY ALLY."
+      }
+    },
+    "dialogue_0298": {
+      "text": {
+        "reference": "ドウダ！？",
+        "translation": "WELL?!"
+      }
+    },
+    "dialogue_0299": {
+      "text": {
+        "reference": "ナカマになる",
+        "translation": "Become allies"
+      }
+    },
+    "dialogue_0300": {
+      "text": {
+        "reference": "やめておく",
+        "translation": "Forget it"
+      }
+    },
+    "dialogue_0301": {
+      "text": {
+        "reference": "オレサマイイヤツ{n}{WAIT}オマエトモダチ",
+        "translation": "I AM GOOD ONE.{WAIT} I AM YOUR FRIEND."
+      }
+    },
+    "dialogue_0302": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマトテモキズツイタ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I VERY HURT."
+      }
+    },
+    "dialogue_0303": {
+      "text": {
+        "reference": "オレサマヒトリボッチ・・・",
+        "translation": "I ALL ALONE..."
+      }
+    },
+    "dialogue_0304": {
+      "text": {
+        "reference": "オボエテロ！！",
+        "translation": "REMEMBER THIS!!"
+      }
+    },
+    "dialogue_0305": {
+      "text": {
+        "reference": "オレサマオマエ好キダ{n}{WAIT}オマエオレサマドウ思ウ？",
+        "translation": "I LIKE YOU.{WAIT} WHAT YOU THINK OF ME?"
+      }
+    },
+    "dialogue_0306": {
+      "text": {
+        "reference": "好キカ？",
+        "translation": "YOU LIKE ME?"
+      }
+    },
+    "dialogue_0307": {
+      "text": {
+        "reference": "好き",
+        "translation": "I like you"
+      }
+    },
+    "dialogue_0308": {
+      "text": {
+        "reference": "きらい",
+        "translation": "I hate you"
+      }
+    },
+    "dialogue_0309": {
+      "text": {
+        "reference": "オマエイイヤツ！{n}{WAIT}オマエトモダチ",
+        "translation": "YOU ARE GOOD ONE!{WAIT} YOU ARE MY FRIEND."
+      }
+    },
+    "dialogue_0310": {
+      "text": {
+        "reference": "オレサマオマエナカマ！",
+        "translation": "I AM YOUR ALLY!"
+      }
+    },
+    "dialogue_0311": {
+      "text": {
+        "reference": "オマエイイヤツ！{n}{WAIT}オマエトモダチ！！",
+        "translation": "YOU ARE GOOD ONE!{WAIT} YOU ARE MY FRIEND!!"
+      }
+    },
+    "dialogue_0312": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "デハオレサマノカワリ{n}{offered_item}ヤロウ{n}{WAIT}オマエダイジニツカエ",
+        "translation": "TAKE {offered_item} IN MY PLACE.{WAIT} USE IT WELL."
+      }
+    },
+    "dialogue_0313": {
+      "text": {
+        "reference": "オマエオレサマキズツケタ・・・",
+        "translation": "YOU HURT ME..."
+      }
+    },
+    "dialogue_0314": {
+      "text": {
+        "reference": "マアソウ言ウナ{n}オレサマカナシイ",
+        "translation": "DO NOT SAY THAT. I AM SAD."
+      }
+    },
+    "dialogue_0315": {
+      "text": {
+        "reference": "オレサマカナシイ{n}{WAIT}トテモカナシイ・・・",
+        "translation": "I AM SAD.{WAIT} VERY SAD..."
+      }
+    },
+    "dialogue_0316": {
+      "text": {
+        "reference": "オレサマオマエ話キク{n}{WAIT}オレサマヨロコブ",
+        "translation": "I LISTEN TO YOUR STORY.{WAIT} THAT MAKES ME HAPPY."
+      }
+    },
+    "dialogue_0317": {
+      "text": {
+        "reference": "オマエナニカ話セ",
+        "translation": "TELL ME SOMETHING."
+      }
+    },
+    "dialogue_0318": {
+      "text": {
+        "reference": "怪談",
+        "translation": "A ghost story"
+      }
+    },
+    "dialogue_0319": {
+      "text": {
+        "reference": "人生とは",
+        "translation": "The meaning of life"
+      }
+    },
+    "dialogue_0320": {
+      "text": {
+        "reference": "苦労話",
+        "translation": "A tale of hardship"
+      }
+    },
+    "dialogue_0321": {
+      "text": {
+        "reference": "ゲームの話",
+        "translation": "Games"
+      }
+    },
+    "dialogue_0322": {
+      "text": {
+        "reference": "のらペットの話",
+        "translation": "Stray pets"
+      }
+    },
+    "dialogue_0323": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}クワバラ{BEAT}クワバラ",
+        "translation": "...{BEAT}.{BEAT}.{BEAT} HEAVEN PROTECT ME...{BEAT} HEAVEN PROTECT ME..."
+      }
+    },
+    "dialogue_0324": {
+      "text": {
+        "reference": "オ・{BEAT}オレサマヒトリナリタクナイ！{n}{WAIT}オ・{BEAT}オマエナ・{BEAT}ナカマシテクレ！！",
+        "translation": "I-{BEAT}I NOT WANT BE ALONE!{WAIT} Y-{BEAT}YOU B-{BEAT}BE MY ALLY!!"
+      }
+    },
+    "dialogue_0325": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}オマエオモシロイ！",
+        "translation": "...{BEAT}.{BEAT}.{BEAT} YOU INTERESTING!"
+      }
+    },
+    "dialogue_0326": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "オレサマヨロコンダ{n}{WAIT}オレサマ{offered_item}ヤロウ",
+        "translation": "I AM PLEASED.{WAIT} I GIVE YOU {offered_item}."
+      }
+    },
+    "dialogue_0327": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエアタマイイ{n}{WAIT}オレサマアタマヨクナッタ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU ARE SMART.{WAIT} YOU MAKE ME SMARTER."
+      }
+    },
+    "dialogue_0328": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "オレサマ{offered_item}ヤロウ{n}{WAIT}オマエトッテオケ",
+        "translation": "I GIVE YOU {offered_item}.{WAIT} KEEP IT."
+      }
+    },
+    "dialogue_0329": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}Zzzz{BEAT}・・{BEAT}z・",
+        "translation": "...{BEAT}.{BEAT}.{BEAT} ZZZZ...{BEAT}..{BEAT}Z."
+      }
+    },
+    "dialogue_0330": {
+      "text": {
+        "reference": "・・・クゥゥ{n}{WAIT}オマエワカイノニ・・・",
+        "translation": "...SNIFF.{WAIT} YOU SO YOUNG, YET...",
+        "note": "Fragment context: message 281 continues into message 282 (dialogue_0331): \"Though you are young... I see you in new light.\""
+      }
+    },
+    "dialogue_0331": {
+      "text": {
+        "reference": "オレサマオマエ見ナオシタ",
+        "translation": "I SEE YOU IN NEW LIGHT.",
+        "note": "Fragment context: message 282 completes message 281 (dialogue_0330): \"Though you are young... I see you in new light.\""
+      }
+    },
+    "dialogue_0332": {
+      "text": {
+        "reference": "・・・クゥゥ{n}{WAIT}オレサマナケル",
+        "translation": "...SNIFF.{WAIT} THAT BRING ME TO TEARS."
+      }
+    },
+    "dialogue_0333": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "オマエ{offered_item}トッテオケ{n}{WAIT}クビワデモカエ",
+        "translation": "TAKE {offered_item}.{WAIT} BUY A COLLAR WITH IT."
+      }
+    },
+    "dialogue_0334": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}ヌウ",
+        "translation": "...{BEAT}.{BEAT}.{BEAT} NGH..."
+      }
+    },
+    "dialogue_0335": {
+      "text": {
+        "reference": "オレサマソレヤリタイ{n}{WAIT}オレサマソレヤリニ行ク！",
+        "translation": "I WANT TO DO THAT.{WAIT} I GO DO IT NOW!"
+      }
+    },
+    "dialogue_0336": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}ツマラン！{n}{WAIT}オレサマタイクツ",
+        "translation": ".{BEAT}.{BEAT}.{BEAT} BORING!{WAIT} I AM BORED."
+      }
+    },
+    "dialogue_0337": {
+      "text": {
+        "reference": "・・ヌ・・・・ヌウ{n}{WAIT}オレサマヒトゴトジャナイ",
+        "translation": "...NGH... NGH.{WAIT} THIS IS NOT SOMEONE ELSE'S PROBLEM."
+      }
+    },
+    "dialogue_0338": {
+      "text": {
+        "reference": "オレサマオマエナカマナル",
+        "translation": "I BECOME YOUR ALLY."
+      }
+    },
+    "dialogue_0339": {
+      "text": {
+        "reference": "・・ヌ・・・・ヌウ{n}{WAIT}オマエオレサマ{OP:8025}ぺっと{OP:8020}言ッタナ！",
+        "translation": "...NGH... NGH.{WAIT} YOU CALLED ME {OP:8025}PET{OP:8020}!"
+      }
+    },
+    "dialogue_0340": {
+      "text": {
+        "reference": "オレサマトテモ怒ッテル！！",
+        "translation": "I VERY ANGRY!!"
+      }
+    },
+    "dialogue_0341": {
+      "text": {
+        "reference": "オマエオレサマヨロコバセル",
+        "translation": "YOU MAKE ME HAPPY."
+      }
+    },
+    "dialogue_0342": {
+      "text": {
+        "reference": "オマエナニカヤレ",
+        "translation": "DO SOMETHING."
+      }
+    },
+    "dialogue_0343": {
+      "text": {
+        "reference": "おどる",
+        "translation": "Dance"
+      }
+    },
+    "dialogue_0344": {
+      "text": {
+        "reference": "うたう",
+        "translation": "Sing"
+      }
+    },
+    "dialogue_0345": {
+      "text": {
+        "reference": "手品をする",
+        "translation": "Do a magic trick"
+      }
+    },
+    "dialogue_0346": {
+      "text": {
+        "reference": "・・・ヌウ{n}{WAIT}オマエ人生ナメテル！",
+        "translation": "...NGH.{WAIT} YOU TAKE LIFE TOO LIGHTLY!"
+      }
+    },
+    "dialogue_0347": {
+      "text": {
+        "reference": "オマエオモシロイヤツ！！",
+        "translation": "YOU FUNNY ONE!!"
+      }
+    },
+    "dialogue_0348": {
+      "text": {
+        "reference": "・・・？{n}{WAIT}オマエナゼ{OP:8025}ケイレン{OP:8020}シテル",
+        "translation": "...?{WAIT} WHY ARE YOU {OP:8025}CONVULSING{OP:8020}?"
+      }
+    },
+    "dialogue_0349": {
+      "text": {
+        "reference": "オマエ悪イモノ喰ッタカ？{n}{WAIT}オマエヤスムイイ",
+        "translation": "YOU EAT SOMETHING BAD?{WAIT} YOU SHOULD REST."
+      }
+    },
+    "dialogue_0350": {
+      "text": {
+        "reference": "死ヌガイイ！！",
+        "translation": "THEN DIE!!"
+      }
+    },
+    "dialogue_0351": {
+      "text": {
+        "reference": "・・・ヌウ{n}{WAIT}オマエイイコエシテル",
+        "translation": "...NGH.{WAIT} YOU HAVE GOOD VOICE."
+      }
+    },
+    "dialogue_0352": {
+      "text": {
+        "reference": "オレサマヨロコンダ{n}{WAIT}オレサマオマエケライシテヤル",
+        "translation": "I AM PLEASED.{WAIT} I MAKE YOU MY SERVANT."
+      }
+    },
+    "dialogue_0353": {
+      "text": {
+        "reference": "・・・！？{n}{WAIT}？？？？？",
+        "translation": "...!?{WAIT}?????"
+      }
+    },
+    "dialogue_0354": {
+      "text": {
+        "reference": "オ・オマエスゴイナ！{n}オレサマオマエ見ナオシタ！！",
+        "translation": "Y-YOU ARE AMAZING! I SEE YOU IN NEW LIGHT!!"
+      }
+    },
+    "dialogue_0355": {
+      "text": {
+        "reference": "オレサマチカラカシテモイイ",
+        "translation": "I CAN LEND YOU STRENGTH."
+      }
+    },
+    "dialogue_0356": {
+      "text": {
+        "reference": "ニンゲン！イマ何シタ！！",
+        "translation": "HUMAN! WHAT YOU JUST DO!!"
+      }
+    },
+    "dialogue_0357": {
+      "text": {
+        "reference": "オマエコノ街好キカ？",
+        "translation": "DO YOU LIKE THIS TOWN?"
+      }
+    },
+    "dialogue_0358": {
+      "text": {
+        "reference": "ナラバタチアガレ！{n}{WAIT}オレサマチカラカシテモイイゾ",
+        "translation": "THEN RISE UP!{WAIT} I CAN LEND YOU STRENGTH."
+      }
+    },
+    "dialogue_0359": {
+      "text": {
+        "reference": "ソウカ{n}{WAIT}ナラバ目ノオクヤキツケテオケ！",
+        "translation": "I SEE.{WAIT} THEN BURN THIS SIGHT INTO YOUR EYES!"
+      }
+    },
+    "dialogue_0360": {
+      "text": {
+        "reference": "街・フウケイ・ミドリ・ヒトゴミ・・・{n}イマノウチニ・・・",
+        "translation": "CITY, SCENERY, GREENERY, CROWDS... LOOK WHILE YOU STILL CAN..."
+      }
+    },
+    "dialogue_0361": {
+      "text": {
+        "reference": "ナラバ何モ言ウマイ・・・",
+        "translation": "THEN I SAY NO MORE..."
+      }
+    },
+    "dialogue_0362": {
+      "text": {
+        "reference": "ナラバ{n}オマエ好キニスルガイイ",
+        "translation": "THEN DO WHATEVER YOU LIKE."
+      }
+    },
+    "dialogue_0363": {
+      "text": {
+        "reference": "ソウカ{n}{WAIT}オマエコノ街ドウナッテモイイカ",
+        "translation": "I SEE.{WAIT} YOU NOT CARE WHAT HAPPENS TO THIS TOWN."
+      }
+    },
+    "dialogue_0364": {
+      "text": {
+        "reference": "ククク・・・",
+        "translation": "HEH HEH HEH..."
+      }
+    },
+    "dialogue_0365": {
+      "text": {
+        "reference": "アクマ合体サセテ{n}オマエナントモ思ワナイノカ？",
+        "translation": "YOU FEEL NOTHING WHEN YOU FUSE DEMONS?"
+      }
+    },
+    "dialogue_0366": {
+      "text": {
+        "reference": "ドウナノダ？",
+        "translation": "WELL?"
+      }
+    },
+    "dialogue_0367": {
+      "text": {
+        "reference": "なんとも思わない",
+        "translation": "I feel nothing"
+      }
+    },
+    "dialogue_0368": {
+      "text": {
+        "reference": "気がとがめる",
+        "translation": "I feel guilty."
+      }
+    },
+    "dialogue_0369": {
+      "text": {
+        "reference": "オマエシンヨウデキナイ",
+        "translation": "I CANNOT TRUST YOU."
+      }
+    },
+    "dialogue_0370": {
+      "text": {
+        "reference": "アクマニモココロアルノダゾ{n}{WAIT}オレサマカナシイ・・・",
+        "translation": "DEMONS HAVE HEARTS TOO.{WAIT} I AM SAD..."
+      }
+    },
+    "dialogue_0371": {
+      "text": {
+        "reference": "オマエ悪イヤツ{n}{WAIT}オレサマイイヤツ",
+        "translation": "YOU ARE BAD ONE.{WAIT} I AM GOOD ONE."
+      }
+    },
+    "dialogue_0372": {
+      "text": {
+        "reference": "イイヤツ悪イヤツタオス！！",
+        "translation": "GOOD ONE DEFEATS BAD ONE!!"
+      }
+    },
+    "dialogue_0373": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマオマエシンジヨウ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I TRUST YOU."
+      }
+    },
+    "dialogue_0374": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}ニンゲンシンヨウデキナイ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} HUMANS CANNOT BE TRUSTED."
+      }
+    },
+    "dialogue_0375": {
+      "text": {
+        "reference": "オマエシンヨウデキナイ",
+        "translation": "I CANNOT TRUST YOU."
+      }
+    },
+    "dialogue_0376": {
+      "text": {
+        "reference": "オマエブキ持ッテル{n}オレサマトテモ気ニナル{n}{WAIT}オレサマオマエ話デキナイ",
+        "translation": "YOU CARRY WEAPON. IT BOTHER ME.{WAIT} I CANNOT TALK TO YOU."
+      }
+    },
+    "dialogue_0377": {
+      "text": {
+        "reference": "オマエSWORD外セ！",
+        "translation": "REMOVE YOUR SWORD!"
+      }
+    },
+    "dialogue_0378": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}イイダロウ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} FINE."
+      }
+    },
+    "dialogue_0379": {
+      "text": {
+        "reference": "オマエばかナヤツ{n}{WAIT}オレサマオマエキニイッテタノニ・・・",
+        "translation": "YOU ARE FOOL.{WAIT} I HAD LIKED YOU..."
+      }
+    },
+    "dialogue_0380": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエガンコナヤツ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU STUBBORN ONE."
+      }
+    },
+    "dialogue_0381": {
+      "text": {
+        "reference": "マアイイダロウ",
+        "translation": "FINE, I SUPPOSE."
+      }
+    },
+    "dialogue_0382": {
+      "text": {
+        "reference": "ニンゲンまなー知ラナイ！",
+        "translation": "HUMANS NOT KNOW MANNERS!"
+      }
+    },
+    "dialogue_0383": {
+      "text": {
+        "reference": "オマエオレサマ怒ラセタ！！",
+        "translation": "YOU MAKE ME ANGRY!!"
+      }
+    },
+    "dialogue_0384": {
+      "placeholders": {
+        "requested_item": "item_name"
+      },
+      "text": {
+        "reference": "オマエ{requested_item}ヨコセ{n}{WAIT}オレサマキエテヤッテモイイゾ",
+        "translation": "GIVE ME {requested_item}.{WAIT} THEN MAYBE I GO AWAY."
+      }
+    },
+    "dialogue_0385": {
+      "text": {
+        "reference": "ヨコスノダ！！",
+        "translation": "GIVE IT!!"
+      }
+    },
+    "dialogue_0386": {
+      "text": {
+        "reference": "差し出す",
+        "translation": "Hand it over"
+      }
+    },
+    "dialogue_0387": {
+      "text": {
+        "reference": "攻撃",
+        "translation": "Attack"
+      }
+    },
+    "dialogue_0388": {
+      "text": {
+        "reference": "オレサママンゾク",
+        "translation": "I AM SATISFIED."
+      }
+    },
+    "dialogue_0389": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマカンガエカワッタ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I CHANGED MIND."
+      }
+    },
+    "dialogue_0390": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエイイヤツ{n}オレサマトテモ悪イヤツ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU ARE GOOD ONE. I AM VERY BAD ONE."
+      }
+    },
+    "dialogue_0391": {
+      "text": {
+        "reference": "オマエ殺セバ・・・{n}{WAIT}モットタクサンオレサマノモノ！！",
+        "translation": "IF I KILL YOU...{WAIT} ALL YOUR THINGS BECOME MINE!!"
+      }
+    },
+    "dialogue_0392": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}イ・イイダロウ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} F-FINE."
+      }
+    },
+    "dialogue_0393": {
+      "text": {
+        "reference": "コ・コンカイダケユルシテヤ・ヤル{n}{WAIT}オマエトテモ{OP:8025}らっきー{OP:8020}",
+        "translation": "I-I FORGIVE YOU JUST THIS ONCE.{WAIT} YOU VERY {OP:8025}LUCKY{OP:8020}."
+      }
+    },
+    "dialogue_0394": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエアタマカタイ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU ARE STUBBORN."
+      }
+    },
+    "dialogue_0395": {
+      "text": {
+        "reference": "オレサマツマラナイアラソイ{n}好キジャナイノニ・・・",
+        "translation": "I DO NOT LIKE POINTLESS CONFLICT..."
+      }
+    },
+    "dialogue_0396": {
+      "text": {
+        "reference": "マ・マテ！{n}{WAIT}ハヤマルナ！",
+        "translation": "W-WAIT!{WAIT} DO NOT BE RASH!"
+      }
+    },
+    "dialogue_0397": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "オレサマ{offered_item}ヤル{n}{WAIT}オマエヨロコブ・・・{n}{WAIT}コレホントウ",
+        "translation": "I GIVE YOU {offered_item}.{WAIT} YOU WILL BE PLEASED...{WAIT} THIS IS TRUE."
+      }
+    },
+    "dialogue_0398": {
+      "text": {
+        "reference": "イ・イイダロウ",
+        "translation": "F-FINE."
+      }
+    },
+    "dialogue_0399": {
+      "text": {
+        "reference": "コ・コンカイダケミノガシテヤ・ヤル{n}オマエトテモ{OP:8025}らっきー{OP:8020}",
+        "translation": "I-I SPARE YOU THIS ONCE. YOU ARE VERY {OP:8025}LUCKY{OP:8020}."
+      }
+    },
+    "dialogue_0400": {
+      "text": {
+        "reference": "ヌ！{n}{BEAT}オマエナンノツモリダ！！{n}{BEAT}ヤメロッ！！",
+        "translation": "NGH!{BEAT} WHAT YOU THINK YOU DOING!!{BEAT} STOP!!"
+      }
+    },
+    "dialogue_0401": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}オマエオレサマ怒ラセタ！{n}{WAIT}オレサマトテモゴキゲンナナメ！",
+        "translation": "...{BEAT}.{BEAT}.{BEAT} YOU MAKE ME ANGRY!{WAIT} I AM IN VERY FOUL MOOD!"
+      }
+    },
+    "dialogue_0402": {
+      "text": {
+        "reference": "オマエドウシテクレル！！",
+        "translation": "HOW YOU MAKE THIS UP TO ME!!"
+      }
+    },
+    "dialogue_0403": {
+      "text": {
+        "reference": "なだめる",
+        "translation": "Soothe"
+      }
+    },
+    "dialogue_0404": {
+      "text": {
+        "reference": "いかく",
+        "translation": "Threaten"
+      }
+    },
+    "dialogue_0405": {
+      "text": {
+        "reference": "ほっとく",
+        "translation": "Ignore"
+      }
+    },
+    "dialogue_0406": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマ悪カッタ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I WAS WRONG."
+      }
+    },
+    "dialogue_0407": {
+      "text": {
+        "reference": "オレサマ話シテヤル",
+        "translation": "I TALK WITH YOU."
+      }
+    },
+    "dialogue_0408": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマトテモ怒ッテル！{n}{WAIT}オレサマトテモハラヘッテル！！",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I VERY ANGRY!{WAIT} I VERY HUNGRY!!"
+      }
+    },
+    "dialogue_0409": {
+      "text": {
+        "reference": "オマエマルカジリ！！",
+        "translation": "I EAT YOU WHOLE!!"
+      }
+    },
+    "dialogue_0410": {
+      "text": {
+        "reference": "喰ッテヤル！！",
+        "translation": "I EAT YOU!!"
+      }
+    },
+    "dialogue_0411": {
+      "text": {
+        "reference": "グオォォォォ・・・{n}{WAIT}・{BEAT}・{BEAT}・{BEAT}オマエハンノウシテクレ",
+        "translation": "GRRRRR...{WAIT}...{BEAT}.{BEAT}.{BEAT} SAY SOMETHING."
+      }
+    },
+    "dialogue_0412": {
+      "text": {
+        "reference": "オレサマゲンナリ・・",
+        "translation": "I FEEL DRAINED..."
+      }
+    },
+    "dialogue_0413": {
+      "text": {
+        "reference": "グオォォォォ・・・！！",
+        "translation": "GROOOOO...!!"
+      }
+    },
+    "dialogue_0414": {
+      "text": {
+        "reference": "オマエソノ{OP:8025}こんぴゅーた{OP:8020}ノナカ{n}アクマトジコメルノカ！",
+        "translation": "YOU TRAP DEMONS INSIDE THAT {OP:8025}COMPUTER{OP:8020}!?"
+      }
+    },
+    "dialogue_0415": {
+      "text": {
+        "reference": "オマエアクマノタチバナラドウ思ウ？",
+        "translation": "HOW WOULD YOU FEEL IN DEMON'S PLACE?"
+      }
+    },
+    "dialogue_0416": {
+      "text": {
+        "reference": "嫌だと思う",
+        "translation": "I would hate it"
+      }
+    },
+    "dialogue_0417": {
+      "text": {
+        "reference": "かまわない",
+        "translation": "I don't care"
+      }
+    },
+    "dialogue_0418": {
+      "text": {
+        "reference": "ナラバアクマカイホウシロ！",
+        "translation": "THEN RELEASE DEMONS!"
+      }
+    },
+    "dialogue_0419": {
+      "text": {
+        "reference": "トジコメル{WAIT}クライ{WAIT}セマイ{n}{WAIT}トテモヨクナイ",
+        "translation": "TRAPPED.{WAIT} DARK.{WAIT} CRAMPED.{WAIT} VERY BAD."
+      }
+    },
+    "dialogue_0420": {
+      "text": {
+        "reference": "ナラバナゼヤメヌ！",
+        "translation": "THEN WHY DON'T YOU STOP!"
+      }
+    },
+    "dialogue_0421": {
+      "text": {
+        "reference": "オマエ悪イヤツ{n}{WAIT}オレサマ悪イヤツコラシメル！",
+        "translation": "YOU ARE BAD ONE.{WAIT} I PUNISH BAD ONES!"
+      }
+    },
+    "dialogue_0422": {
+      "text": {
+        "reference": "ソウカ・・・",
+        "translation": "I SEE..."
+      }
+    },
+    "dialogue_0423": {
+      "text": {
+        "reference": "ナラバ・・・",
+        "translation": "THEN...",
+        "note": "Fragment context: message 361 page 0 continues on page 1 (dialogue_0424): \"Then... I trap you inside my belly!\""
+      }
+    },
+    "dialogue_0424": {
+      "text": {
+        "reference": "オレサマオマエハラノナカ{n}トジコメル！！",
+        "translation": "I TRAP YOU INSIDE MY BELLY!!",
+        "note": "Fragment context: message 361 page 1 completes page 0 (dialogue_0423): \"Then... I trap you inside my belly!\""
+      }
+    },
+    "dialogue_0425": {
+      "text": {
+        "reference": "オマエコノオク行クノダナ・・・{n}{WAIT}コノオク{BEAT}トテモ{BEAT}トテモ{BEAT}オソロシイ",
+        "translation": "YOU GO FARTHER IN...?{WAIT} BEYOND HERE IS{BEAT} VERY,{BEAT} VERY{BEAT} FRIGHTENING."
+      }
+    },
+    "dialogue_0426": {
+      "text": {
+        "reference": "オマエ気ヲツケロ！",
+        "translation": "YOU SHOULD BE CAREFUL!"
+      }
+    },
+    "dialogue_0427": {
+      "text": {
+        "reference": "礼を言う",
+        "translation": "Give thanks"
+      }
+    },
+    "dialogue_0428": {
+      "text": {
+        "reference": "援助を求める",
+        "translation": "Ask for help"
+      }
+    },
+    "dialogue_0429": {
+      "text": {
+        "reference": "去る",
+        "translation": "Leave"
+      }
+    },
+    "dialogue_0430": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエシダイデ{n}オレサマオトモスルゾ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} MAYBE I GO WITH YOU. IT DEPEND ON YOU."
+      }
+    },
+    "dialogue_0431": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエイイヤツキニイッタ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU ARE GOOD ONE. I LIKE YOU."
+      }
+    },
+    "dialogue_0432": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "オレサマ{offered_item}ヤロウ！{n}{WAIT}オマエイキテカエレ・・・",
+        "translation": "I GIVE YOU {offered_item}!{WAIT} MAKE IT HOME ALIVE..."
+      }
+    },
+    "dialogue_0433": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマテレル・・・",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I FEEL SHY..."
+      }
+    },
+    "dialogue_0434": {
+      "text": {
+        "reference": "サラバ！{n}マタアオウニンゲン！",
+        "translation": "FAREWELL! LET US MEET AGAIN, HUMAN!"
+      }
+    },
+    "dialogue_0435": {
+      "text": {
+        "reference": "オレサマテレル・・・",
+        "translation": "I FEEL SHY..."
+      }
+    },
+    "dialogue_0436": {
+      "text": {
+        "reference": "オマエオレサマヒツヨウ！{n}オレサマガンバル！！",
+        "translation": "YOU NEED ME! I DO MY BEST!!"
+      }
+    },
+    "dialogue_0437": {
+      "text": {
+        "reference": "オマエシダイデ{n}オレサマオトモシヨウ",
+        "translation": "MAYBE I GO WITH YOU. IT DEPEND ON YOU."
+      }
+    },
+    "dialogue_0438": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "オマエイイヤツ{n}オレサマ{offered_item}ヤロウ！",
+        "translation": "YOU ARE GOOD ONE. I GIVE YOU {offered_item}!"
+      }
+    },
+    "dialogue_0439": {
+      "text": {
+        "reference": "マタアオウニンゲン！",
+        "translation": "LET US MEET AGAIN, HUMAN!"
+      }
+    },
+    "dialogue_0440": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "マテニンゲン！{n}{WAIT}オレサマ{offered_item}ヤロウ！！",
+        "translation": "WAIT, HUMAN!{WAIT} I GIVE YOU {offered_item}!!"
+      }
+    },
+    "dialogue_0441": {
+      "text": {
+        "reference": "コレオレサマトッテオキ！",
+        "translation": "THIS IS MY PRIZED POSSESSION!"
+      }
+    },
+    "dialogue_0442": {
+      "text": {
+        "reference": "サラバ！{n}マタアオウニンゲン！！",
+        "translation": "FAREWELL! LET US MEET AGAIN, HUMAN!!"
+      }
+    },
+    "dialogue_0443": {
+      "text": {
+        "reference": "オレサマツヨイアタマイイ{n}{WAIT}オマエシダイデナカマナル",
+        "translation": "I AM STRONG AND SMART.{WAIT} MAYBE I BECOME ALLY. IT DEPEND ON YOU."
+      }
+    },
+    "dialogue_0444": {
+      "text": {
+        "reference": "ドウダ？",
+        "translation": "WELL?"
+      }
+    },
+    "dialogue_0445": {
+      "text": {
+        "reference": "交渉する",
+        "translation": "Negotiate"
+      }
+    },
+    "dialogue_0446": {
+      "text": {
+        "reference": "ことわる",
+        "translation": "Refuse."
+      }
+    },
+    "dialogue_0447": {
+      "text": {
+        "reference": "ヨシッ！！",
+        "translation": "GOOD!!"
+      }
+    },
+    "dialogue_0448": {
+      "text": {
+        "reference": "ソウカ・・・オレサマカナシイ・・・",
+        "translation": "I SEE... I AM SAD..."
+      }
+    },
+    "dialogue_0449": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}オレサマキモチ{n}{WAIT}オマエトッテオケ",
+        "translation": "{offered_item} SHOWS MY FEELINGS.{WAIT} KEEP IT."
+      }
+    },
+    "dialogue_0450": {
+      "text": {
+        "reference": "ソウカ・・・オレサマカナシイ・・・",
+        "translation": "I SEE... I AM SAD..."
+      }
+    },
+    "dialogue_0451": {
+      "text": {
+        "reference": "サラバニンゲン{n}マタアオウ！",
+        "translation": "FAREWELL, HUMAN. LET US MEET AGAIN!"
+      }
+    },
+    "dialogue_0452": {
+      "text": {
+        "reference": "オレサマオマエキニイッタ{n}{WAIT}オレサマモットヨク話キキタイ",
+        "translation": "I LIKE YOU.{WAIT} I WANT HEAR MORE FROM YOU."
+      }
+    },
+    "dialogue_0453": {
+      "text": {
+        "reference": "オマエモットコッチコイ",
+        "translation": "YOU COME CLOSER."
+      }
+    },
+    "dialogue_0454": {
+      "text": {
+        "reference": "近づく",
+        "translation": "Come closer"
+      }
+    },
+    "dialogue_0455": {
+      "text": {
+        "reference": "近づかない",
+        "translation": "Do not move closer"
+      }
+    },
+    "dialogue_0456": {
+      "text": {
+        "reference": "オマエイイヤツ{n}{WAIT}オマエユウキアル",
+        "translation": "YOU ARE GOOD ONE.{WAIT} YOU ARE BRAVE."
+      }
+    },
+    "dialogue_0457": {
+      "text": {
+        "reference": "オレサマユウキアルヤツ好キ{n}{WAIT}オレサマチカラカシテモイイゾ",
+        "translation": "I LIKE BRAVE ONES.{WAIT} I CAN LEND YOU STRENGTH."
+      }
+    },
+    "dialogue_0458": {
+      "text": {
+        "reference": "オマエユウキアル{n}{WAIT}オレサマユウキアルヤツ好キ",
+        "translation": "YOU ARE BRAVE.{WAIT} I LIKE BRAVE ONES."
+      }
+    },
+    "dialogue_0459": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "オレサマ{offered_item}ヤロウ！",
+        "translation": "I GIVE YOU {offered_item}!"
+      }
+    },
+    "dialogue_0460": {
+      "text": {
+        "reference": "オマエアタマ悪イ",
+        "translation": "YOU ARE STUPID."
+      }
+    },
+    "dialogue_0461": {
+      "text": {
+        "reference": "マアイイ{n}オレサマ話キイテヤル",
+        "translation": "FINE. I HEAR YOU OUT."
+      }
+    },
+    "dialogue_0462": {
+      "text": {
+        "reference": "オマエオレサマキライ{n}{WAIT}オレサマカナシイ・・・",
+        "translation": "YOU HATE ME.{WAIT} I AM SAD..."
+      }
+    },
+    "dialogue_0463": {
+      "text": {
+        "reference": "オマエオレサマキライ{n}{WAIT}オレサマオマエキライ！！",
+        "translation": "YOU HATE ME.{WAIT} THEN I HATE YOU!!"
+      }
+    },
+    "dialogue_0464": {
+      "text": {
+        "reference": "本題ハイロウ",
+        "translation": "NOW TO MAIN POINT."
+      }
+    },
+    "dialogue_0465": {
+      "text": {
+        "reference": "オマエマズトビドウグ外セ",
+        "translation": "FIRST PUT AWAY RANGED WEAPON."
+      }
+    },
+    "dialogue_0466": {
+      "text": {
+        "reference": "オマエオレサマコワイカ？",
+        "translation": "ARE YOU SCARED OF ME?"
+      }
+    },
+    "dialogue_0467": {
+      "text": {
+        "reference": "ヨウナイナラカエルゾ・・・",
+        "translation": "IF YOU NEED NOTHING, I LEAVE..."
+      }
+    },
+    "dialogue_0468": {
+      "text": {
+        "reference": "オマエオレサマコワイカ？",
+        "translation": "ARE YOU SCARED OF ME?"
+      }
+    },
+    "dialogue_0469": {
+      "text": {
+        "reference": "オマエヨワムシ{n}{WAIT}オレサマヨワムシマルカジリ！！",
+        "translation": "YOU COWARD!{WAIT} I DEVOUR COWARDS WHOLE!!"
+      }
+    },
+    "dialogue_0470": {
+      "text": {
+        "reference": "オレサマオマエナニカヤロウ！",
+        "translation": "I GIVE YOU SOMETHING!"
+      }
+    },
+    "dialogue_0471": {
+      "text": {
+        "reference": "オマエナニノゾミ？",
+        "translation": "WHAT YOU DESIRE?"
+      }
+    },
+    "dialogue_0472": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "{demon_name}",
+        "translation": "{demon_name}"
+      }
+    },
+    "dialogue_0473": {
+      "text": {
+        "reference": "アイテム",
+        "translation": "Item"
+      }
+    },
+    "dialogue_0474": {
+      "text": {
+        "reference": "金",
+        "translation": "Money"
+      }
+    },
+    "dialogue_0475": {
+      "text": {
+        "reference": "マグネタイト",
+        "translation": "Magnetite"
+      }
+    },
+    "dialogue_0476": {
+      "text": {
+        "reference": "おまえの命",
+        "translation": "Your life"
+      }
+    },
+    "dialogue_0477": {
+      "text": {
+        "reference": "オレサマテレル・・・",
+        "translation": "I FEEL SHY..."
+      }
+    },
+    "dialogue_0478": {
+      "text": {
+        "reference": "イイダロウ{n}{WAIT}オレサマオマエナカマ",
+        "translation": "VERY WELL.{WAIT} I BECOME YOUR ALLY."
+      }
+    },
+    "dialogue_0479": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマモノジャナイ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} THAT IS NOT MINE."
+      }
+    },
+    "dialogue_0480": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "オレサマアタエラレナイ{n}{WAIT}カワリニ{offered_item}ヤロウ！",
+        "translation": "I CANNOT GIVE THAT.{WAIT} I GIVE YOU {offered_item} INSTEAD!"
+      }
+    },
+    "dialogue_0481": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "ヨシッ！{n}オレサマ{offered_item}ヤロウ！",
+        "translation": "OKAY! I GIVE YOU {offered_item}!"
+      }
+    },
+    "dialogue_0482": {
+      "text": {
+        "reference": "オマエダイジニツカエ",
+        "translation": "USE IT WELL."
+      }
+    },
+    "dialogue_0483": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマ{OP:8023}あいてむ{OP:8020}モッテナイ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I HAVE NO {OP:8023}ITEM{OP:8020}."
+      }
+    },
+    "dialogue_0484": {
+      "text": {
+        "reference": "オレサマカワリニマジナイカケル",
+        "translation": "I CAST CHARM ON YOU INSTEAD."
+      }
+    },
+    "dialogue_0485": {
+      "text": {
+        "reference": "アオォォォ！{BEAT}アオアオォォォ！！{n}{BEAT}アアオアオアオォォォ・・・！！",
+        "translation": "AWOOOO!{BEAT} AWO-AWOOOO!!{BEAT} AWO-AWOO-AWOOOO...!!"
+      }
+    },
+    "dialogue_0486": {
+      "text": {
+        "reference": "オマエコレデゲンキ{n}{WAIT}サスガオレサマ！！",
+        "translation": "YOU ARE WELL NOW.{WAIT} AS EXPECTED OF ME!!"
+      }
+    },
+    "dialogue_0487": {
+      "text": {
+        "reference": "オマエダイジニトットケ",
+        "translation": "TREASURE IT."
+      }
+    },
+    "dialogue_0488": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマカネモッテナイ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I HAVE NO MONEY."
+      }
+    },
+    "dialogue_0489": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・オレサマハラペコ{n}{BEAT}{OP:8023}マグネタイト{OP:8020}モッテナイ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}. I AM STARVING.{BEAT} I HAVE NO {OP:8023}MAGNETITE{OP:8020}."
+      }
+    },
+    "dialogue_0490": {
+      "text": {
+        "reference": "スマンニンゲン・・・{n}{WAIT}デモオレサマヤクソクワスレナイ",
+        "translation": "SORRY, HUMAN...{WAIT} BUT I DO NOT FORGET PROMISE."
+      }
+    },
+    "dialogue_0491": {
+      "text": {
+        "reference": "オレサマイツカウメアワセシヨウ！",
+        "translation": "SOMEDAY I MAKE IT UP TO YOU!"
+      }
+    },
+    "dialogue_0492": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマソレカンベン",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} ANYTHING BUT THAT."
+      }
+    },
+    "dialogue_0493": {
+      "text": {
+        "reference": "カワリニオレサマナカマナル{n}{WAIT}オマエヨロコブ",
+        "translation": "INSTEAD, I BECOME YOUR ALLY.{WAIT} YOU BE PLEASED."
+      }
+    },
+    "dialogue_0494": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマツヨイ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I AM STRONG."
+      }
+    },
+    "dialogue_0495": {
+      "text": {
+        "reference": "オレサマオマエマルカジリ",
+        "translation": "I EAT YOU WHOLE."
+      }
+    },
+    "dialogue_0496": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・ヌッ！？マテニンゲン！{n}ナニカニオイスル{n}{WAIT}ココナニカウマッテル！",
+        "translation": ".{BEAT}.{BEAT}. NGH!? WAIT, HUMAN! I SMELL SOMETHING.{WAIT} SOMETHING BURIED HERE!"
+      }
+    },
+    "dialogue_0497": {
+      "text": {
+        "reference": "オマエココ探シテミロ！",
+        "translation": "SEARCH HERE!"
+      }
+    },
+    "dialogue_0498": {
+      "text": {
+        "reference": "探す",
+        "translation": "Search"
+      }
+    },
+    "dialogue_0499": {
+      "text": {
+        "reference": "探さない",
+        "translation": "Do not search"
+      }
+    },
+    "dialogue_0500": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{BEAT}ヲヲッ！",
+        "translation": "...{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT} OOH!"
+      }
+    },
+    "dialogue_0501": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}カッ！！",
+        "translation": "IS IT {offered_item}?!"
+      }
+    },
+    "dialogue_0502": {
+      "text": {
+        "reference": "オレサマオマエソレヤロウ{n}{WAIT}オマエダイジニトットケ",
+        "translation": "I GIVE THAT TO YOU.{WAIT} TREASURE IT!"
+      }
+    },
+    "dialogue_0503": {
+      "text": {
+        "reference": "ソレオレサマ見ツケタ！{n}{WAIT}オレサマノモノ！！",
+        "translation": "I FOUND IT!{WAIT} IT BELONGS TO ME!!"
+      }
+    },
+    "dialogue_0504": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{BEAT}ナラバオレサマ探ス",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} THEN I SEARCH."
+      }
+    },
+    "dialogue_0505": {
+      "text": {
+        "reference": "ナニガデルカナ{WAIT}ナニガデルカナ",
+        "translation": "WHAT COMES OUT?{WAIT} WHAT COMES OUT?"
+      }
+    },
+    "dialogue_0506": {
+      "text": {
+        "reference": "不意討ち",
+        "translation": "Surprise attack"
+      }
+    },
+    "dialogue_0507": {
+      "text": {
+        "reference": "見守る",
+        "translation": "Watch"
+      }
+    },
+    "dialogue_0508": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{BEAT}ヲヲッ！{n}オレサマ{offered_item}見ツケタ！",
+        "translation": "...{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT} OOH! I FOUND {offered_item}!"
+      }
+    },
+    "dialogue_0509": {
+      "text": {
+        "reference": "サスガオレサマ！",
+        "translation": "AS EXPECTED OF ME!"
+      }
+    },
+    "dialogue_0510": {
+      "text": {
+        "reference": "オレサマオマエコレヤル！！{n}{WAIT}オマエトッテオケ",
+        "translation": "I GIVE THIS TO YOU!!{WAIT} KEEP IT."
+      }
+    },
+    "dialogue_0511": {
+      "text": {
+        "reference": "{BEAT}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{BEAT}ヲヲッ！{n}{WAIT}{OP:8023}マセキ{OP:8020}！",
+        "translation": "OOH...{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT}!{WAIT} A {OP:8023}LIFE STONE{OP:8020}!"
+      }
+    },
+    "dialogue_0512": {
+      "text": {
+        "reference": "サスガオレサマ！{n}{WAIT}オマエニハヤラン！！",
+        "translation": "AS EXPECTED OF ME!{WAIT} I WILL NOT GIVE IT TO YOU!!"
+      }
+    },
+    "dialogue_0513": {
+      "text": {
+        "reference": "オレサマハダカ{n}{WAIT}ナノニ・・・オマエヨロイツケテル",
+        "translation": "I AM NAKED.{WAIT} BUT... YOU WEAR ARMOR."
+      }
+    },
+    "dialogue_0514": {
+      "text": {
+        "reference": "ハダカトハダカツキアイデキナイ",
+        "translation": "CANNOT HAVE NAKED-TO-NAKED FRIENDSHIP WITH ARMORED ONE."
+      }
+    },
+    "dialogue_0515": {
+      "text": {
+        "reference": "ハラ見セアオウニンゲン！",
+        "translation": "LET US SHOW EACH OTHER OUR BELLIES, HUMAN!"
+      }
+    },
+    "dialogue_0516": {
+      "text": {
+        "reference": "アーマーを外す",
+        "translation": "Remove the armor"
+      }
+    },
+    "dialogue_0517": {
+      "text": {
+        "reference": "オマエユウキアル{n}{WAIT}オレサマオマエミトメヨウ！",
+        "translation": "YOU ARE BRAVE.{WAIT} I ACKNOWLEDGE YOU!"
+      }
+    },
+    "dialogue_0518": {
+      "text": {
+        "reference": "オマエユウキアル{n}オレサマオマエキニイッタ",
+        "translation": "YOU ARE BRAVE. I LIKE YOU."
+      }
+    },
+    "dialogue_0519": {
+      "text": {
+        "reference": "オマエウマソウ",
+        "translation": "YOU LOOK DELICIOUS."
+      }
+    },
+    "dialogue_0520": {
+      "text": {
+        "reference": "オレサマハラペコ{n}{WAIT}オマエマルカジリ！！",
+        "translation": "I AM HUNGRY.{WAIT} I EAT YOU WHOLE!!"
+      }
+    },
+    "dialogue_0521": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}ニンゲンハラワカラン",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I DO NOT UNDERSTAND WHAT IS INSIDE HUMANS."
+      }
+    },
+    "dialogue_0522": {
+      "text": {
+        "reference": "オレサマナヤム・・・",
+        "translation": "I PONDER..."
+      }
+    },
+    "dialogue_0523": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}ニンゲンハラワカラン",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I DO NOT UNDERSTAND WHAT IS INSIDE HUMANS."
+      }
+    },
+    "dialogue_0524": {
+      "text": {
+        "reference": "！！{n}{WAIT}オレサマイイコト思イツイタ！",
+        "translation": "!!{WAIT} I THINK OF GOOD IDEA!"
+      }
+    },
+    "dialogue_0525": {
+      "text": {
+        "reference": "オマエ喰エバニンゲンハラワカル",
+        "translation": "IF I EAT YOU, I UNDERSTAND WHAT IS INSIDE HUMANS."
+      }
+    },
+    "dialogue_0526": {
+      "text": {
+        "reference": "オレサマハラペコ{BEAT}モウゲンカイ！",
+        "translation": "I AM HUNGRY.{BEAT} AT MY LIMIT!"
+      }
+    },
+    "dialogue_0527": {
+      "text": {
+        "reference": "平然と見守る",
+        "translation": "Watch calmly"
+      }
+    },
+    "dialogue_0528": {
+      "text": {
+        "reference": "身構える",
+        "translation": "Brace yourself"
+      }
+    },
+    "dialogue_0529": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエユウキアルナ{n}{WAIT}オレサマチカラカシテモイイゾ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU ARE BRAVE.{WAIT} I CAN LEND YOU STRENGTH."
+      }
+    },
+    "dialogue_0530": {
+      "text": {
+        "reference": "ニンゲンマルカジリ！！",
+        "translation": "EAT HUMAN WHOLE!!"
+      }
+    },
+    "dialogue_0531": {
+      "text": {
+        "reference": "コンカイダケ見逃シテヤル",
+        "translation": "I SPARE YOU THIS ONCE."
+      }
+    },
+    "dialogue_0532": {
+      "text": {
+        "reference": "オマエ{OP:8025}らっきー{n}{WAIT}{OP:8020}オマエハヤクイエカエレ！",
+        "translation": "YOU {OP:8025}LUCKY{WAIT}{OP:8020}! GO HOME QUICK!"
+      }
+    },
+    "dialogue_0533": {
+      "text": {
+        "reference": "オマエオレサマコワイカ！",
+        "translation": "YOU AFRAID OF ME!?"
+      }
+    },
+    "dialogue_0534": {
+      "text": {
+        "reference": "ホントウニコワイノ{BEAT}コレカラダ！！",
+        "translation": "REAL TERROR{BEAT} BEGINS NOW!!"
+      }
+    },
+    "dialogue_0535": {
+      "text": {
+        "reference": "オマエオレサマミツゲ！{n}{WAIT}オレサマオマエケライシテヤル！！",
+        "translation": "YOU MAKE OFFERING TO ME!{WAIT} THEN I MAKE YOU SERVANT!!"
+      }
+    },
+    "dialogue_0536": {
+      "text": {
+        "reference": "オマエツマラナイ！{n}{WAIT}オレサマタイクツ！！",
+        "translation": "YOU ARE BORING!{WAIT} I AM BORED!!"
+      }
+    },
+    "dialogue_0537": {
+      "text": {
+        "reference": "マルカジリィ！！",
+        "translation": "EAT YOU WHOLE!!"
+      }
+    },
+    "dialogue_0538": {
+      "text": {
+        "reference": "オレサマタイクツ！{n}オマエ芸スルノダ！！",
+        "translation": "I AM BORED! PERFORM TRICK FOR ME!!"
+      }
+    },
+    "dialogue_0539": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}オマワリッ！！",
+        "translation": "...{BEAT}.{BEAT}.{BEAT} SPIN AROUND!!"
+      }
+    },
+    "dialogue_0540": {
+      "text": {
+        "reference": "まわる",
+        "translation": "Spin around"
+      }
+    },
+    "dialogue_0541": {
+      "text": {
+        "reference": "怒る",
+        "translation": "Get angry"
+      }
+    },
+    "dialogue_0542": {
+      "text": {
+        "reference": "！！{BEAT}ナント{BEAT}・{BEAT}・{BEAT}・{n}{WAIT}オマエホコリ持ッテナイノカ？",
+        "translation": "!!{BEAT} WHAT...{BEAT}.{BEAT}.{BEAT}.{WAIT} YOU HAVE NO PRIDE?"
+      }
+    },
+    "dialogue_0543": {
+      "text": {
+        "reference": "モシヤオマエトテモスゴイヤツ？",
+        "translation": "ARE YOU REALLY THAT AMAZING?"
+      }
+    },
+    "dialogue_0544": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマオマエツイテ行ク",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I FOLLOW YOU."
+      }
+    },
+    "dialogue_0545": {
+      "text": {
+        "reference": "オレサマアキレタ{n}{WAIT}モウ話スコトナイ",
+        "translation": "I AM FED UP.{WAIT} NOTHING MORE TO SAY."
+      }
+    },
+    "dialogue_0546": {
+      "text": {
+        "reference": "！！{BEAT}グフフフ・・・",
+        "translation": "!!{BEAT} GUH-HUH-HUH..."
+      }
+    },
+    "dialogue_0547": {
+      "text": {
+        "reference": "オマエオモシロイヤツ{n}{WAIT}オレサマチカラカシテモイイ",
+        "translation": "YOU ARE AMUSING.{WAIT} I CAN LEND YOU STRENGTH."
+      }
+    },
+    "dialogue_0548": {
+      "text": {
+        "reference": "オマエオモシロイヤツ{n}{WAIT}オレサマモット話キキタイ",
+        "translation": "YOU ARE AMUSING.{WAIT} I WANT HEAR MORE."
+      }
+    },
+    "dialogue_0549": {
+      "text": {
+        "reference": "ジョウダンダ{n}オマエ怒ルナ{n}{WAIT}アタマ血ノボルヨクナイ",
+        "translation": "IT WAS JOKE. DO NOT GET ANGRY.{WAIT} BLOOD RUSHING TO HEAD IS BAD."
+      }
+    },
+    "dialogue_0550": {
+      "text": {
+        "reference": "オレサマチカラカシテヤルカラ",
+        "translation": "I LEND YOU STRENGTH."
+      }
+    },
+    "dialogue_0551": {
+      "text": {
+        "reference": "ジョウダンジョウダン{n}ブキオロセ",
+        "translation": "JOKE, JOKE. LOWER WEAPON."
+      }
+    },
+    "dialogue_0552": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "オレサマ{offered_item}ヤルカラ{n}{WAIT}オマエユルセ",
+        "translation": "I GIVE YOU {offered_item}.{WAIT} FORGIVE ME."
+      }
+    },
+    "dialogue_0553": {
+      "placeholders": {
+        "requested_item": "item_name"
+      },
+      "text": {
+        "reference": "オレサマ{requested_item}欲シイ",
+        "translation": "I WANT {requested_item}."
+      }
+    },
+    "dialogue_0554": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエウソツキ{n}{WAIT}オマエ持ッテナイ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU LIAR!{WAIT} YOU DO NOT HAVE IT."
+      }
+    },
+    "dialogue_0555": {
+      "text": {
+        "reference": "オレサマゴキゲンナナメ！{n}{WAIT}オレサマ帰ル！！",
+        "translation": "I AM IN FOUL MOOD!{WAIT} I GO HOME!!"
+      }
+    },
+    "dialogue_0556": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマモット欲シイ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I WANT MORE."
+      }
+    },
+    "dialogue_0557": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}ダ・ダッタラ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} TH-THEN..."
+      }
+    },
+    "dialogue_0558": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエフザケルナ！",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} DO NOT MESS WITH ME!"
+      }
+    },
+    "dialogue_0559": {
+      "text": {
+        "reference": "オレサマ怒ッタ！！",
+        "translation": "I AM ANGRY!!"
+      }
+    },
+    "dialogue_0560": {
+      "text": {
+        "reference": "オマエナンカクレ",
+        "translation": "GIVE ME SOMETHING."
+      }
+    },
+    "dialogue_0561": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オ{BEAT}・{BEAT}オマエナニモ持ッテナイ{BEAT}ノカ？",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} Y-{BEAT}.{BEAT}YOU HAVE NOTHING{BEAT}?"
+      }
+    },
+    "dialogue_0562": {
+      "text": {
+        "reference": "オレサママダモラウ",
+        "translation": "I TAKE MORE."
+      }
+    },
+    "dialogue_0563": {
+      "text": {
+        "reference": "オマエ使エナイヤツ！！{n}{WAIT}オマエ期待ウラギッタ",
+        "translation": "YOU USELESS!!{WAIT} YOU DISAPPOINT ME."
+      }
+    },
+    "dialogue_0564": {
+      "text": {
+        "reference": "オマエばかニスルナ！{n}{WAIT}オレサマ怒ッタ！",
+        "translation": "DO NOT MOCK ME!{WAIT} I AM ANGRY!"
+      }
+    },
+    "dialogue_0565": {
+      "text": {
+        "reference": "グオォォォォ！！",
+        "translation": "GOOOOOO!!"
+      }
+    },
+    "dialogue_0566": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "オレサマ{race}ツヨイ！{n}オレサマ{demon_name}アタマイイ！{n}{WAIT}オマエヨロシクタノムゾ！！",
+        "translation": "I AM {race}! STRONG! I AM {demon_name}! SMART!{WAIT} YOU TAKE CARE OF ME!!"
+      }
+    },
+    "dialogue_0567": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}？",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT}?"
+      }
+    },
+    "dialogue_0568": {
+      "text": {
+        "reference": "オマエナカマオオスギ{n}{WAIT}オマエマタコエカケロ",
+        "translation": "YOU HAVE TOO MANY ALLIES.{WAIT} CALL ME AGAIN."
+      }
+    },
+    "dialogue_0569": {
+      "text": {
+        "reference": "サラバダキョウダイ",
+        "translation": "FAREWELL, KIN."
+      }
+    },
+    "dialogue_0570": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサママンゾク",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I AM SATISFIED."
+      }
+    },
+    "dialogue_0571": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "オレサマ{offered_item}ヤロウ！{n}{WAIT}ダイジニ使エ！！",
+        "translation": "I GIVE YOU {offered_item}!{WAIT} USE IT WELL!!"
+      }
+    },
+    "dialogue_0572": {
+      "text": {
+        "reference": "オマエイイヤツ{n}{WAIT}オレサママタモライニ来ル",
+        "translation": "YOU ARE GOOD ONE.{WAIT} I COME GET MORE LATER."
+      }
+    },
+    "dialogue_0573": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエマダ持ッテルナ！？",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU STILL HAVE IT!?"
+      }
+    },
+    "dialogue_0574": {
+      "text": {
+        "reference": "オマエ倒スミンナオレサマノモノ{n}{WAIT}ヨコセ！！",
+        "translation": "ALL THINGS YOU DEFEAT BELONG TO ME.{WAIT} HAND THEM OVER!!"
+      }
+    },
+    "dialogue_0575": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマアキタ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I AM BORED."
+      }
+    },
+    "dialogue_0576": {
+      "text": {
+        "reference": "サラバニンゲン",
+        "translation": "FAREWELL, HUMAN."
+      }
+    },
+    "dialogue_0577": {
+      "text": {
+        "reference": "グオォォォォ！！",
+        "translation": "GOOOOOOOO!!"
+      }
+    },
+    "dialogue_0578": {
+      "text": {
+        "reference": "オレサマゴキゲンナナメ",
+        "translation": "I AM IN FOUL MOOD!"
+      }
+    },
+    "dialogue_0579": {
+      "text": {
+        "reference": "オマエオレサマノ前{n}ニドト現ワレルナ！！",
+        "translation": "NEVER APPEAR BEFORE ME AGAIN!!"
+      }
+    },
+    "dialogue_0580": {
+      "text": {
+        "reference": "渡す",
+        "translation": "Hand it over."
+      }
+    },
+    "dialogue_0581": {
+      "text": {
+        "reference": "イチ{BEAT}・{BEAT}ニ{BEAT}・{BEAT}タクサン{BEAT}・・・{n}{BEAT}オマエナカマオオスギ{n}{WAIT}オマエマタコエカケロ",
+        "translation": "ONE{BEAT}.{BEAT} TWO{BEAT}.{BEAT} MANY{BEAT}...{BEAT} YOU HAVE TOO MANY ALLIES.{WAIT} CALL ME AGAIN."
+      }
+    },
+    "dialogue_0582": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマナカマヤメテオク",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I WILL NOT JOIN YOU."
+      }
+    },
+    "dialogue_0583": {
+      "text": {
+        "reference": "オレサマムシバ痛ム{n}オレサマイヤナヨカンスル{n}{WAIT}オマエセイリテキニイヤ",
+        "translation": "MY BAD TOOTH HURTS. I HAVE BAD FEELING.{WAIT} SOMETHING ABOUT YOU REPULSES ME."
+      }
+    },
+    "dialogue_0584": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "カワリニ{offered_item}ヤル{n}{WAIT}サラバダさまなー",
+        "translation": "INSTEAD, I GIVE YOU {offered_item}.{WAIT} FAREWELL, SUMMONER."
+      }
+    },
+    "dialogue_0585": {
+      "text": {
+        "reference": "オマエオレサマフコウニスル{n}{WAIT}オソロシイヤツ{BEAT}・{BEAT}・{BEAT}・",
+        "translation": "YOU BRING ME MISFORTUNE.{WAIT} YOU ARE FRIGHTENING{BEAT}.{BEAT}.{BEAT}."
+      }
+    },
+    "dialogue_0586": {
+      "text": {
+        "reference": "アオォォォ！{n}{BEAT}アオアオォォォ・・・！！",
+        "translation": "AWOOOO!{BEAT} AWO-AWOOOO...!!"
+      }
+    },
+    "dialogue_0587": {
+      "text": {
+        "reference": "ニンゲンナゼココニイル{n}ココオレサマナワバリ",
+        "translation": "HUMAN, WHY YOU HERE? THIS IS MY TERRITORY."
+      }
+    },
+    "dialogue_0588": {
+      "text": {
+        "reference": "オマエオレサマチカラカリニ来タカ？",
+        "translation": "YOU COME TO BORROW MY STRENGTH?"
+      }
+    },
+    "dialogue_0589": {
+      "text": {
+        "reference": "そうだ",
+        "translation": "That's right."
+      }
+    },
+    "dialogue_0590": {
+      "text": {
+        "reference": "違う",
+        "translation": "No."
+      }
+    },
+    "dialogue_0591": {
+      "text": {
+        "reference": "アオォォォ！",
+        "translation": "AWOOOO!"
+      }
+    },
+    "dialogue_0592": {
+      "text": {
+        "reference": "今日オレサマゴキゲン{n}マンゲツオレサマオオヨロコビ",
+        "translation": "I AM IN GOOD MOOD TODAY. FULL MOON MAKES ME REJOICE."
+      }
+    },
+    "dialogue_0593": {
+      "text": {
+        "reference": "アオォォォ！",
+        "translation": "AOOOOO!"
+      }
+    },
+    "dialogue_0594": {
+      "text": {
+        "reference": "今日オレサマゴキゲン{n}マンゲツオレサマオオヨロコビ",
+        "translation": "I AM IN GOOD MOOD TODAY. FULL MOON MAKES ME REJOICE."
+      }
+    },
+    "dialogue_0595": {
+      "text": {
+        "reference": "オマエ血マツリ！{n}{WAIT}アオアオォォォ！！",
+        "translation": "I MAKE BLOOD SACRIFICE OF YOU!{WAIT} AWO-AWOOOO!!"
+      }
+    },
+    "dialogue_0596": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "オレサマ{offered_item}ヤロウ{n}オマエダイジニツカエ",
+        "translation": "I GIVE YOU {offered_item}. USE IT WELL."
+      }
+    },
+    "dialogue_0597": {
+      "text": {
+        "reference": "今日オレサマゴキゲン{n}マンゲツオレサマオオヨロコビ{n}マンプクオレサマダイマンゾク",
+        "translation": "I AM IN GOOD MOOD TODAY. FULL MOON MAKES ME REJOICE. FULL BELLY MAKES ME SATISFIED."
+      }
+    },
+    "dialogue_0598": {
+      "text": {
+        "reference": "オマエ{OP:8025}らっきー{OP:8020}{n}{WAIT}オマエイノチビロイ",
+        "translation": "YOU ARE {OP:8025}LUCKY{OP:8020}.{WAIT} YOUR LIFE IS SPARED."
+      }
+    },
+    "dialogue_0599": {
+      "text": {
+        "reference": "血ガサワグ！{n}{BEAT}ヤセイノ血ガ！！",
+        "translation": "MY BLOOD STIRS!{BEAT} MY WILD BLOOD!!"
+      }
+    },
+    "dialogue_0600": {
+      "text": {
+        "reference": "オマエイッショニアバレヨウ！",
+        "translation": "LET US RAMPAGE TOGETHER!"
+      }
+    },
+    "dialogue_0601": {
+      "text": {
+        "reference": "いいだろう",
+        "translation": "Fine"
+      }
+    },
+    "dialogue_0602": {
+      "text": {
+        "reference": "アオォォォ・・・！！",
+        "translation": "AWOOOO...!!"
+      }
+    },
+    "dialogue_0603": {
+      "text": {
+        "reference": "オマエエンリョイラナイ！",
+        "translation": "YOU NEED NOT HOLD BACK!"
+      }
+    },
+    "dialogue_0604": {
+      "text": {
+        "reference": "オマエエンリョスルナ{n}{WAIT}サア{BEAT}イッショニ{BEAT}・{BEAT}・{BEAT}・",
+        "translation": "DO NOT HOLD BACK.{WAIT} COME!{BEAT} TOGETHER{BEAT}.{BEAT}.{BEAT}."
+      }
+    },
+    "dialogue_0605": {
+      "text": {
+        "reference": "アオォォォ！{n}{BEAT}アオアオォォォ・・・！！",
+        "translation": "AWOOOO!{BEAT} AWO-AWOOOO...!!"
+      }
+    },
+    "dialogue_0606": {
+      "text": {
+        "reference": "オマエナワバリアラシニ来タカ！？",
+        "translation": "YOU COME TO RAVAGE MY TERRITORY!?"
+      }
+    },
+    "dialogue_0607": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエツヨソウ{n}{BEAT}シカタナイ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU LOOK STRONG.{BEAT} I HAVE NO CHOICE."
+      }
+    },
+    "dialogue_0608": {
+      "text": {
+        "reference": "オレサマココ出テク{n}{WAIT}オレサマミジメ",
+        "translation": "I LEAVE THIS PLACE.{WAIT} I AM HUMILIATED."
+      }
+    },
+    "dialogue_0609": {
+      "text": {
+        "reference": "オマエココ守レ",
+        "translation": "YOU PROTECT THIS PLACE."
+      }
+    },
+    "dialogue_0610": {
+      "text": {
+        "reference": "オレサマナワバリダイジ！{n}オレサマニンゲンユルサナイ！！",
+        "translation": "MY TERRITORY IS PRECIOUS! I DO NOT FORGIVE HUMANS!!"
+      }
+    },
+    "dialogue_0611": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "オレサマ{offered_item}ヤル{n}{WAIT}オマエハヤクナワバリ出テケ！！",
+        "translation": "I GIVE YOU {offered_item}.{WAIT} LEAVE MY TERRITORY QUICKLY!!"
+      }
+    },
+    "dialogue_0612": {
+      "text": {
+        "reference": "ナラバ{n}{WAIT}オマエハヤクナワバリ通レ！！",
+        "translation": "THEN{WAIT} CROSS MY TERRITORY QUICKLY!!"
+      }
+    },
+    "dialogue_0613": {
+      "text": {
+        "reference": "オレサマナワバリ通サナイ！",
+        "translation": "I WILL NOT LET YOU PASS MY TERRITORY!"
+      }
+    },
+    "dialogue_0614": {
+      "text": {
+        "reference": "オレサマハラペコ！",
+        "translation": "I AM HUNGRY!"
+      }
+    },
+    "dialogue_0615": {
+      "text": {
+        "reference": "オマエオレサマハラノナカ{n}オトナシクマルカジリサレル！",
+        "translation": "YOU GO QUIETLY INTO MY BELLY. GET EATEN WHOLE!"
+      }
+    },
+    "dialogue_0616": {
+      "text": {
+        "reference": "オマエワカッタカ！？",
+        "translation": "YOU GOT IT!?"
+      }
+    },
+    "dialogue_0617": {
+      "text": {
+        "reference": "わかった",
+        "translation": "I understand"
+      }
+    },
+    "dialogue_0618": {
+      "text": {
+        "reference": "日本語を話せ",
+        "translation": "Speak Japanese"
+      }
+    },
+    "dialogue_0619": {
+      "text": {
+        "reference": "誰に言ってるんだ",
+        "translation": "Who are you talking to?"
+      }
+    },
+    "dialogue_0620": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエニオウゾ！{n}{WAIT}オマエフロハイッテナイナ！？",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU STINK!{WAIT} YOU HAVE NOT BATHED!?"
+      }
+    },
+    "dialogue_0621": {
+      "text": {
+        "reference": "オレサマキレイズキ{n}オマエカラダアラッテ来イ！！",
+        "translation": "I LIKE CLEANLINESS. GO WASH YOUR BODY!!"
+      }
+    },
+    "dialogue_0622": {
+      "text": {
+        "reference": "オレサマソレカラマルカジリ！",
+        "translation": "THEN I EAT YOU WHOLE!"
+      }
+    },
+    "dialogue_0623": {
+      "text": {
+        "reference": "アオォォォ・・・！！",
+        "translation": "AWOOOO...!!"
+      }
+    },
+    "dialogue_0624": {
+      "text": {
+        "reference": "オレサマばかニシタナ！",
+        "translation": "YOU MOCKED ME!"
+      }
+    },
+    "dialogue_0625": {
+      "text": {
+        "reference": "オレサマオマエノウミソ喰ウ{n}{WAIT}オレサマアタマヨクスル！",
+        "translation": "I EAT YOUR BRAINS.{WAIT} THEN I BECOME SMARTER!"
+      }
+    },
+    "dialogue_0626": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエニ言ワレタクナイ！",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I DO NOT WANT TO HEAR THAT FROM YOU!"
+      }
+    },
+    "dialogue_0627": {
+      "text": {
+        "reference": "オレサマ{BEAT}オマエ{BEAT}ドングリ{BEAT}セイクラベ！",
+        "translation": "ME{BEAT} AND YOU{BEAT} SAME-SIZED ACORNS{BEAT}!"
+      }
+    },
+    "dialogue_0628": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}スマナイニンゲン",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} SORRY, HUMAN."
+      }
+    },
+    "dialogue_0629": {
+      "text": {
+        "reference": "オレサマモウ{n}ニンゲンマルカジリシナイ{n}{WAIT}オレサマオマエオトモスル",
+        "translation": "I NO LONGER EAT HUMANS WHOLE.{WAIT} I GO WITH YOU."
+      }
+    },
+    "dialogue_0630": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}スマナイニンゲン",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} SORRY, HUMAN."
+      }
+    },
+    "dialogue_0631": {
+      "text": {
+        "reference": "オレサマモウ{n}ニンゲンマルカジリシナイ",
+        "translation": "I NO LONGER EAT HUMANS WHOLE."
+      }
+    },
+    "dialogue_0632": {
+      "text": {
+        "reference": "オマエガサイゴ！！",
+        "translation": "YOU'RE THE LAST ONE!!"
+      }
+    },
+    "dialogue_0633": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマナカマヤメテオコウ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I WILL NOT JOIN YOU."
+      }
+    },
+    "dialogue_0634": {
+      "text": {
+        "reference": "オマエイヤナナカマツレテル{n}{WAIT}オレサマイヤナヨカンスル",
+        "translation": "YOU TRAVEL WITH ALLY I HATE.{WAIT} I HAVE BAD FEELING."
+      }
+    },
+    "dialogue_0635": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}ヤル{n}{WAIT}ユルセさまなー",
+        "translation": "I GIVE YOU {offered_item}.{WAIT} FORGIVE ME, SUMMONER."
+      }
+    },
+    "dialogue_0636": {
+      "text": {
+        "reference": "サラバダさまなー",
+        "translation": "FAREWELL, SUMMONER."
+      }
+    },
+    "dialogue_0637": {
+      "text": {
+        "reference": "オマエヨワスギ{n}オマエタヨリナラナイ",
+        "translation": "YOU ARE TOO WEAK. I CANNOT RELY ON YOU."
+      }
+    },
+    "dialogue_0638": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}ヤル{n}{WAIT}ツヨクナレさまなー",
+        "translation": "I GIVE YOU {offered_item}.{WAIT} GROW STRONG, SUMMONER."
+      }
+    },
+    "dialogue_0639": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマナカマヤメテオコウ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I WILL NOT JOIN YOU."
+      }
+    },
+    "dialogue_0640": {
+      "text": {
+        "reference": "オマエヨワスギ{n}オマエタヨリナラナイ",
+        "translation": "YOU ARE TOO WEAK. I CANNOT RELY ON YOU."
+      }
+    },
+    "dialogue_0641": {
+      "text": {
+        "reference": "オマエツヨクナレ{BEAT}・{BEAT}・{BEAT}・",
+        "translation": "GROW STRONGER{BEAT}.{BEAT}.{BEAT}."
+      }
+    },
+    "dialogue_0642": {
+      "text": {
+        "reference": "アオォォォ！アオアオォォォォ！！",
+        "translation": "AWOOOO! AWO-AWOOOOOO!!"
+      }
+    },
+    "dialogue_0643": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "{demon_name}ノニオイスル{n}オレサマキョウダイニオイスル",
+        "translation": "I SMELL {demon_name}. I SMELL MY KIN."
+      }
+    },
+    "dialogue_0644": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "キョウダイニメンジテニガシテクレ{n}{offered_item}ヤルカラ・・・",
+        "translation": "FOR MY KIN'S SAKE, LET ME GO. I GIVE YOU {offered_item}...",
+        "note": "Fragment context: message 541 page 1 completes page 0 (dialogue_0042): the demon begs for its life and offers an item."
+      }
+    },
+    "dialogue_0645": {
+      "text": {
+        "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オレサマ{OP:8023}あいてむ{OP:8020}モッテナイ",
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} I HAVE NO {OP:8023}ITEM{OP:8020}."
+      }
+    },
+    "dialogue_0646": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "オレサマカワリニコレヤロウ{n}{offered_item}ヤロウ！{n}{WAIT}オマエダイジニツカエ",
+        "translation": "I GIVE THIS INSTEAD: {offered_item}!{WAIT} USE IT WELL."
+      }
+    },
+    "condition_charmed": {
+      "text": {
+        "reference": "クーン クーン{maru_symbol}",
+        "translation": "WHIMPER... WHIMPER{maru_symbol}",
+        "reviewed": true
+      }
+    },
+    "condition_happy": {
+      "text": {
+        "reference": "ヌウ・・・オレサマ ウキウキ{maru_symbol}",
+        "translation": "NGH... I AM GIDDY{maru_symbol}",
+        "reviewed": true
+      }
+    },
+    "condition_confused": {
+      "text": {
+        "reference": "ヌウ・・・喰イモノ ニオイ・・・ドコダ",
+        "translation": "NGH... FOOD SMELL... WHERE IS IT?",
+        "reviewed": true
+      }
+    },
+    "condition_enraged": {
+      "text": {
+        "reference": "グオォォォォ！！",
+        "translation": "GOOOOOO!!",
+        "reviewed": true
+      }
+    },
+    "condition_talk_blocked": {
+      "text": {
+        "reference": "オレサマ オマエ マルカジリ！！",
+        "translation": "I EAT YOU WHOLE!!",
+        "reviewed": true
+      }
+    },
+    "condition_ally_veto": {
+      "text": {
+        "reference": "ヌウ・・・オレサマ ハラペコ",
+        "translation": "NGH... I AM HUNGRY.",
+        "reviewed": true
+      }
+    },
+    "condition_full_moon": {
+      "text": {
+        "reference": "アオォォォ！ アオアオォォォォ！！",
+        "translation": "AWOOOO! AWO-AWOOOOOO!!",
+        "reviewed": true
+      }
+    }
+  }
+}

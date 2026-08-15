@@ -1,0 +1,2532 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "dialogue_0000": {
+      "text": {
+        "reference": "グゲグゲグゲゲェ{n}{WAIT}おでノながまダイジニ{BEAT}ジジジジ{BEAT}ジデグレェ",
+        "translation": "Guh-guh-guh-gehh...{WAIT} Take good care{BEAT} care of my fr-fr-fr{BEAT}friend..."
+      }
+    },
+    "dialogue_0001": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "グゲグゲグゲゲェ{n}{offered_item}ヤロウ{BEAT}ヤロウヤロウ",
+        "translation": "Guh-guh-guh-gehh... I give you {offered_item}{BEAT} give-give...",
+        "note": "Opening fragment for messages 1-2; page 1 (dialogue_0002) completes the gift by asking the player to care for the demon's ally."
+      }
+    },
+    "dialogue_0002": {
+      "text": {
+        "reference": "おでノながまダイジニ{BEAT}ジジジジ{BEAT}ジデグレェ",
+        "translation": "Take good care of my fr{BEAT} fr-fr-fr{BEAT}friend...",
+        "note": "Closing fragment for messages 1-2; page 0 (dialogue_0001) gives the offered item before this request."
+      }
+    },
+    "dialogue_0003": {
+      "text": {
+        "reference": "グゲグゲグゲゲェ{n}愛愛愛{BEAT}愛用ジデル傷薬ヲヤロウ{BEAT}ヤロウゥ",
+        "translation": "Love, love, love{BEAT} I'll give you my favorite medicine{BEAT} m-medicine..."
+      }
+    },
+    "dialogue_0004": {
+      "text": {
+        "reference": "おでガァヌッデヤル{BEAT}ルルルゥ{n}{WAIT}エンリョォズルズルズル{BEAT}ズルナァ",
+        "translation": "I'll rub it on you{BEAT} rub-rub...{WAIT} Don't hold{BEAT} hold back..."
+      }
+    },
+    "dialogue_0005": {
+      "text": {
+        "reference": "ゾゾゾゾ{BEAT}ゾノガワリィ{n}おでノながまダイジニジジジジ{BEAT}ジデグレェ",
+        "translation": "In-in-in{BEAT} in return, take good care of my fr-fr-fr{BEAT}friend..."
+      }
+    },
+    "dialogue_0006": {
+      "text": {
+        "reference": "グゲグゲグゲゲェ{n}{WAIT}ゲ元元元{BEAT}元気ガァ？{n}{WAIT}おでバ元気{BEAT}気気気気ガァ",
+        "translation": "Guh-guh-guh-gehh...{WAIT} Are you w-w-w{BEAT}well?{WAIT} I'm well{BEAT} well-well-well..."
+      }
+    },
+    "dialogue_0007": {
+      "text": {
+        "reference": "グゲグゲグゲゲェ",
+        "translation": "Guh-guh-guh-gehh..."
+      }
+    },
+    "dialogue_0008": {
+      "text": {
+        "reference": "グゲグゲグゲゲェ{n}{WAIT}来デヤッダゾ{BEAT}ゾゾゾォ",
+        "translation": "Guh-guh-guh-gehh...{WAIT} I c-came{BEAT} came to see you..."
+      }
+    },
+    "dialogue_0009": {
+      "text": {
+        "reference": "マダマダ{BEAT}マダながまニナッデ欲ジイガ{BEAT}ガァ",
+        "translation": "D-do you still{BEAT} still want me as your a-ally{BEAT} ally...?"
+      }
+    },
+    "dialogue_0010": {
+      "text": {
+        "reference": "なって欲しい",
+        "translation": "I want you to."
+      }
+    },
+    "dialogue_0011": {
+      "text": {
+        "reference": "断る",
+        "translation": "Refuse."
+      }
+    },
+    "dialogue_0012": {
+      "text": {
+        "reference": "ヨジヨジィ{n}{WAIT}ゾッヂニ行ッデヤロウヤロウ{BEAT}ヤロウ",
+        "translation": "All r-right...{WAIT} I'll go with you{BEAT} with you, with you..."
+      }
+    },
+    "dialogue_0013": {
+      "text": {
+        "reference": "ヨジヨジィ{n}ゾレジャ{BEAT}ジャジャアァ",
+        "translation": "All r-right... See{BEAT} see you..."
+      }
+    },
+    "dialogue_0014": {
+      "text": {
+        "reference": "おでおでおで{BEAT}おでガァ{n}ミニミニミニ{BEAT}ミニグイガラガァ！？",
+        "translation": "Am-am-am{BEAT} am I u-u-u{BEAT}ugly?!"
+      }
+    },
+    "dialogue_0015": {
+      "text": {
+        "reference": "アアアアアァ！！",
+        "translation": "Aaaaaaagh!!"
+      }
+    },
+    "dialogue_0016": {
+      "text": {
+        "reference": "おでおでおで{BEAT}おでガァ{n}ミニミニミニ{BEAT}ミニグイガラガァ！",
+        "translation": "Am-am-am{BEAT} am I u-u-u{BEAT}ugly?!"
+      }
+    },
+    "dialogue_0017": {
+      "text": {
+        "reference": "おばええええぇ{n}見ヅゲ{BEAT}ヅゲヅゲヅゲダゾォ",
+        "translation": "Y-y-you... I f-found{BEAT} found-found you..."
+      }
+    },
+    "dialogue_0018": {
+      "text": {
+        "reference": "ウラミ{BEAT}ミミミバラザデオグベギガァ",
+        "translation": "This grudge{BEAT} gr-gr-grudge cannot go unavenged...!"
+      }
+    },
+    "dialogue_0019": {
+      "text": {
+        "reference": "返り討ちにしてやる",
+        "translation": "I'll turn the tables on you."
+      }
+    },
+    "dialogue_0020": {
+      "text": {
+        "reference": "なんの話だ？",
+        "translation": "What are you talking about?"
+      }
+    },
+    "dialogue_0021": {
+      "text": {
+        "reference": "グゲェ{n}でびるざばなぁ{BEAT}ざばなぁオオ{BEAT}オゾルベジィ",
+        "translation": "Guhh... Devil Sum{BEAT} Summoners are s-sc{BEAT}scary..."
+      }
+    },
+    "dialogue_0022": {
+      "text": {
+        "reference": "オオオオ{BEAT}オボエデロ{BEAT}デロデロデロォ！",
+        "translation": "Ooooh{BEAT} you'll r-remember{BEAT} remember this!"
+      }
+    },
+    "dialogue_0023": {
+      "text": {
+        "reference": "ウガアアアア{BEAT}アァ！！",
+        "translation": "Gwaaaaa{BEAT}aagh!!"
+      }
+    },
+    "dialogue_0024": {
+      "text": {
+        "reference": "ウ？{n}{WAIT}ナ{BEAT}ナ{BEAT}ナンノ話ダッダッゲェ？",
+        "translation": "Huh?{WAIT} Wh{BEAT} wh-what{BEAT} were we talking about...?"
+      }
+    },
+    "dialogue_0025": {
+      "text": {
+        "reference": "アアアアアアァ！{n}オボオボオボ{BEAT}オボエデネェ！！",
+        "translation": "Aaaaaagh! I d-d-don't{BEAT} don't remember!!"
+      }
+    },
+    "dialogue_0026": {
+      "text": {
+        "reference": "ヂギジョォヂギジョ{BEAT}ジョォ！！",
+        "translation": "D-d-damn{BEAT} damn it!!"
+      }
+    },
+    "dialogue_0027": {
+      "text": {
+        "reference": "ジジジジ{BEAT}ジラバッグレルガァ！{n}{WAIT}許ザザ{BEAT}ザザザネェ！！",
+        "translation": "D-d-don't{BEAT} don't stand me up!{WAIT} I won't f-f{BEAT}forgive you!!"
+      }
+    },
+    "dialogue_0028": {
+      "text": {
+        "reference": "おばええええぇ",
+        "translation": "Y-y-you..."
+      }
+    },
+    "dialogue_0029": {
+      "text": {
+        "reference": "おばえニヤルモノ取ッデ来ダ{BEAT}ダダダゾォ",
+        "translation": "I brought s-something for you{BEAT} for you..."
+      }
+    },
+    "dialogue_0030": {
+      "text": {
+        "reference": "ありがとう",
+        "translation": "Thanks."
+      }
+    },
+    "dialogue_0031": {
+      "text": {
+        "reference": "いらない",
+        "translation": "I don't want it."
+      }
+    },
+    "dialogue_0032": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}ガアアアアァ{n}ヨロヨロ{BEAT}ヨロゴベェ！",
+        "translation": "It's {offered_item}! Be h-h{BEAT}happy!"
+      }
+    },
+    "dialogue_0033": {
+      "text": {
+        "reference": "人ノ好好好好{BEAT}好意バァ{n}素直ニ受ゲロゲロォ",
+        "translation": "When someone shows you k-k-k-kind{BEAT}kindness, just accept it..."
+      }
+    },
+    "dialogue_0034": {
+      "text": {
+        "reference": "ミニミニミニ{BEAT}ミニグイ奴ノォ{n}オグリモノ{BEAT}モノモノバァ{n}受ゲラレ{BEAT}ラレラレネエノガァ！！",
+        "translation": "You c-can't{BEAT} can't accept a g-gift{BEAT} gift-gift from someone u-u-ugly{BEAT} ugly like me?!"
+      }
+    },
+    "dialogue_0035": {
+      "text": {
+        "reference": "オオオオオォ{n}おでノ{BEAT}ダダ{BEAT}魂ノ叫ビヲ{BEAT}ギギギ{BEAT}聞イデグレェ",
+        "translation": "Ooooooh... Listen{BEAT} l-listen to the c-c{BEAT} cry{BEAT} cry of my s-s-s{BEAT}soul..."
+      }
+    },
+    "dialogue_0036": {
+      "text": {
+        "reference": "グゲグゲグゲゲェ",
+        "translation": "Guh-guh-guh-gehh...",
+        "note": "Fragment context: among this shared record's locations, message 334 continues to the recruitment introduction in dialogue_0335, while message 335 continues to the deferred-recruitment farewell in dialogue_0336."
+      }
+    },
+    "dialogue_0037": {
+      "text": {
+        "reference": "おばえ{BEAT}ええええぇ！{n}無無無無{BEAT}無視ズルナ{BEAT}ナァ！！",
+        "translation": "Y-y-you{BEAT} you! D-d-d-don't{BEAT} don't ignore{BEAT} ignore me!!"
+      }
+    },
+    "dialogue_0038": {
+      "text": {
+        "reference": "アアアアアァ{n}痛痛痛痛{BEAT}痛エヨォ{n}壊レル{BEAT}レルルルルゥ",
+        "translation": "Aaaaaagh! It h-h-h{BEAT}hurts! I'm breaking{BEAT} breaking apart..."
+      }
+    },
+    "dialogue_0039": {
+      "text": {
+        "reference": "アアアアアァ{n}{WAIT}ゲゲゲゲ{BEAT}消ザナイデグレェ",
+        "translation": "Aaaaaagh!{WAIT} D-d-d-don't{BEAT} don't erase me..."
+      }
+    },
+    "dialogue_0040": {
+      "text": {
+        "reference": "助ゲデ{BEAT}ゲデゲデゲデグレェ",
+        "translation": "H-help{BEAT} help-help-help me..."
+      }
+    },
+    "dialogue_0041": {
+      "text": {
+        "reference": "攻撃をやめる",
+        "translation": "Stop attacking."
+      }
+    },
+    "dialogue_0042": {
+      "text": {
+        "reference": "問答無用",
+        "translation": "No discussion."
+      }
+    },
+    "dialogue_0043": {
+      "text": {
+        "reference": "グゲェ{n}アアアア{BEAT}アリガダヤァ",
+        "translation": "Guhh... Th-th-thank{BEAT} thank the gods...",
+        "note": "Fragment context: message 39 page 0 continues through pages 1-2 (dialogue_0046-dialogue_0047), where the demon explains how it will give thanks."
+      }
+    },
+    "dialogue_0044": {
+      "text": {
+        "reference": "オ礼ガ{BEAT}ガガガガジダイィ{n}{WAIT}おばえド契約{BEAT}約約約約ジヨウゥ",
+        "translation": "I w-w-w-want{BEAT} want to thank you...{WAIT} I'll form a con{BEAT} contract-contract-contract with you..."
+      }
+    },
+    "dialogue_0045": {
+      "text": {
+        "reference": "グゲェ{n}アアアア{BEAT}アリガダヤァ",
+        "translation": "Guhh... Th-th-thank{BEAT} thank the gods..."
+      }
+    },
+    "dialogue_0046": {
+      "text": {
+        "reference": "オ礼ガ{BEAT}ガガガガジダイィ",
+        "translation": "I w-w-w-want{BEAT} want to thank you...",
+        "note": "Fragment context: message 39 page 1 links the thanks on page 0 (dialogue_0045) to the promised errand on page 2 (dialogue_0047)."
+      }
+    },
+    "dialogue_0047": {
+      "text": {
+        "reference": "ナニガ取ッデ来ル{BEAT}ルルルガラ{n}ゴノ辺ニイデグレ{BEAT}グレグレグレェ",
+        "translation": "I'll go fetch s-something{BEAT} something... Wait around here{BEAT} here-here-here...",
+        "note": "Fragment context: message 39 page 2 completes the promise introduced across pages 0-1 (dialogue_0045-dialogue_0046)."
+      }
+    },
+    "dialogue_0048": {
+      "text": {
+        "reference": "オ礼ガ{BEAT}ガガガガジダイィ{n}{WAIT}おばえニアノ世世世{BEAT}世ヲォ{n}見ゼデヤロ{BEAT}ヤロヤロヤロウゥ！！",
+        "translation": "I w-w-w-want{BEAT} want to thank you...{WAIT} I'll sh-sh-sh{BEAT} show{BEAT} show-show-show you the other world!!"
+      }
+    },
+    "dialogue_0049": {
+      "text": {
+        "reference": "おばええええぇ{n}ゾウ悲悲悲{BEAT}悲悲ジイゴド言ウナァ",
+        "translation": "Y-y-you... Don't say s-s-s{BEAT}such a sad thing..."
+      }
+    },
+    "dialogue_0050": {
+      "text": {
+        "reference": "ゴゴゴ{BEAT}ゴンナおでデモォ{n}おばえノ役ニィ立デ{BEAT}立デ立デルゾォ{n}契約{BEAT}約約約約ズルガァ",
+        "translation": "E-e-e{BEAT} even I can be u-use{BEAT} useful to you... Let us form a con{BEAT} contract-contract-contract..."
+      }
+    },
+    "dialogue_0051": {
+      "text": {
+        "reference": "エエエエエェ{n}おばえダグザン{BEAT}ダグザンダグザン{BEAT}ンン{n}{BEAT}持ッデルジャネエエエエエガァ",
+        "translation": "H-heyyyy... You've got l-lots{BEAT} lots and lots{BEAT} lots{BEAT} already..."
+      }
+    },
+    "dialogue_0052": {
+      "text": {
+        "reference": "ゾレ以上バイライライラ{BEAT}イラネエダロォ{n}おで持ッデ帰{BEAT}ルルルルルゥ",
+        "translation": "You don't n-need{BEAT} need any more... I'll take it h-home{BEAT} home-home-home..."
+      }
+    },
+    "dialogue_0053": {
+      "text": {
+        "reference": "アアアアアァ{n}持持持{BEAT}持ッデネエジャネエガァ",
+        "translation": "Aaaaaagh! You d-d-don't{BEAT} don't have it!"
+      }
+    },
+    "dialogue_0054": {
+      "text": {
+        "reference": "ガガガガ{BEAT}確認ジドゲェ",
+        "translation": "Ch-ch-ch-check{BEAT} check again..."
+      }
+    },
+    "dialogue_0055": {
+      "text": {
+        "reference": "ウゾヲヅグヤツ{BEAT}ヤツヤツヤツバァ{n}ジゴグニオオオオ{BEAT}落ヂロォ",
+        "translation": "L-l-liars{BEAT} liars-liars-liars can g-go{BEAT} go to hell!"
+      }
+    },
+    "dialogue_0056": {
+      "text": {
+        "reference": "でででで{BEAT}でびるざばなぁ{n}オオオオ{BEAT}オゾロジヤァ",
+        "translation": "Dev-Dev-Devil{BEAT} Devil Summoners are s-sc{BEAT}scary..."
+      }
+    },
+    "dialogue_0057": {
+      "text": {
+        "reference": "何ガ{BEAT}用ガ用ガァ{BEAT}用ナノガァ？",
+        "translation": "What{BEAT} what-what do you{BEAT} you want?"
+      }
+    },
+    "dialogue_0058": {
+      "text": {
+        "reference": "仲魔になれ",
+        "translation": "Join me."
+      }
+    },
+    "dialogue_0059": {
+      "text": {
+        "reference": "なんかくれ",
+        "translation": "Give me something."
+      }
+    },
+    "dialogue_0060": {
+      "text": {
+        "reference": "話がある",
+        "translation": "Let's talk."
+      }
+    },
+    "dialogue_0061": {
+      "text": {
+        "reference": "消えてくれ",
+        "translation": "Get lost."
+      }
+    },
+    "dialogue_0062": {
+      "text": {
+        "reference": "ボボボボ{BEAT}欲ジイィ",
+        "translation": "I-I-I{BEAT} I want it..."
+      }
+    },
+    "dialogue_0063": {
+      "text": {
+        "reference": "ググググ{BEAT}苦ジイィ{n}おでノ話ヲ{BEAT}話ヲォ{n}ギギギギ{BEAT}聞イデグレェ",
+        "translation": "I-it{BEAT} it hurts... Listen to my s-story{BEAT} story... P-please{BEAT} please hear me..."
+      }
+    },
+    "dialogue_0064": {
+      "text": {
+        "reference": "ギョギョギョギョ{BEAT}今日バァ{n}ギゲギゲ{BEAT}機嫌ガイイ{BEAT}イイィ",
+        "translation": "Gyo-gyo-gyo-gyo{BEAT} I'm in a g-g{BEAT} good mood{BEAT} mood today..."
+      }
+    },
+    "dialogue_0065": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "おおおお{BEAT}おばえニィ{n}{offered_item}ヤロウ{BEAT}ヤロウ",
+        "translation": "I-I-I'll{BEAT} I'll give you {offered_item}{BEAT} give it to you..."
+      }
+    },
+    "dialogue_0066": {
+      "text": {
+        "reference": "アアアアアァ{n}話ガ話ガ{BEAT}ガガガガァ",
+        "translation": "Aaaaaagh! A t-talk{BEAT} talk...?"
+      }
+    },
+    "dialogue_0067": {
+      "text": {
+        "reference": "おおおお{BEAT}おでモォ{n}話ガ話ガ{BEAT}ガガガガァ{n}ジジジジ{BEAT}ジダイィ",
+        "translation": "I-I-I{BEAT} I also w-want{BEAT} want to t-t-t{BEAT}talk..."
+      }
+    },
+    "dialogue_0068": {
+      "text": {
+        "reference": "アアアアアァ{n}人人人人{BEAT}人間ガ{BEAT}ガァ{n}寄ッデ{BEAT}寄ッデ来ルゥ",
+        "translation": "Aaaaaagh! A h-h-h-human{BEAT} human is c-c{BEAT} coming{BEAT} coming closer!"
+      }
+    },
+    "dialogue_0069": {
+      "text": {
+        "reference": "何ジニ来来来来{BEAT}来ルゥ？",
+        "translation": "Wh-wh-wh-why{BEAT} why did you come?"
+      }
+    },
+    "dialogue_0070": {
+      "text": {
+        "reference": "仲魔探し",
+        "translation": "Looking for allies."
+      }
+    },
+    "dialogue_0071": {
+      "text": {
+        "reference": "鍛練",
+        "translation": "Training."
+      }
+    },
+    "dialogue_0072": {
+      "text": {
+        "reference": "悪魔退治",
+        "translation": "Hunting demons."
+      }
+    },
+    "dialogue_0073": {
+      "text": {
+        "reference": "よけいなお世話",
+        "translation": "None of your business."
+      }
+    },
+    "dialogue_0074": {
+      "text": {
+        "reference": "なななな{BEAT}ながまダドォ？{n}ナリデェ{BEAT}ナリデェヨォ{n}なななな{BEAT}ながまぁ",
+        "translation": "A-a-a{BEAT} an ally? I w-want{BEAT} want to be... your a-a-a{BEAT}ally..."
+      }
+    },
+    "dialogue_0075": {
+      "text": {
+        "reference": "鍛練ヲ{BEAT}鍛練ヲォ{n}オオオオ{BEAT}オゾロジヤァ{n}ダダダ{BEAT}倒ザ{BEAT}倒ザレルゥ",
+        "translation": "T-training{BEAT} training...? H-h-h{BEAT}how scary... I'll g-g-get{BEAT} get beaten{BEAT} beaten up..."
+      }
+    },
+    "dialogue_0076": {
+      "text": {
+        "reference": "ああああ{BEAT}あぐまヲォ{n}殺ズ{BEAT}殺ズ殺ズノガァ？{n}あぐまバァヅヅ{BEAT}強エゾォ",
+        "translation": "Y-you're{BEAT} you're killing d-demons{BEAT} killing them? D-demons are v-v-very{BEAT}very strong..."
+      }
+    },
+    "dialogue_0077": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "オオオオ{BEAT}オゾロジヤァ{n}{offered_item}ヤルガラ{BEAT}ヤルガラァ{n}ニニニニ{BEAT}逃ガジデグレェ",
+        "translation": "Ooooh{BEAT} how scary... I'll give you {offered_item}{BEAT} give it to you... So l-l-let{BEAT} let me go..."
+      }
+    },
+    "dialogue_0078": {
+      "text": {
+        "reference": "オオオオ{BEAT}オゾロジヤァ{n}痛ェ{BEAT}痛ェダ{BEAT}ダロウナァ{n}ヅライ{BEAT}ヅライダダダ{BEAT}ダロウナァ",
+        "translation": "Ooooh{BEAT} how scary... That must h-hurt{BEAT} hurt{BEAT} so much... It must be h-hard{BEAT} hard, hard{BEAT} on you..."
+      }
+    },
+    "dialogue_0079": {
+      "text": {
+        "reference": "ナナナナ{BEAT}何言ウガァ{n}おでバガ{BEAT}バガバガバガニジダガァ",
+        "translation": "Wh-wh-what{BEAT} what did you say?! You m-made{BEAT} made-made-made a fool of me!"
+      }
+    },
+    "dialogue_0080": {
+      "text": {
+        "reference": "ナナナナ{BEAT}何言ウガァ{n}おでバガ{BEAT}バガバガバガニジダガァ{n}許ザ{BEAT}ザザネェ",
+        "translation": "Wh-wh-what{BEAT} what did you say?! You m-made{BEAT} made-made-made a fool of me! I won't f-f{BEAT}forgive you!"
+      }
+    },
+    "dialogue_0081": {
+      "text": {
+        "reference": "ナナナナ{BEAT}ナンダァ人間{BEAT}間間間間",
+        "translation": "Wh-wh-wh-what{BEAT} what is it, h-human{BEAT} human-human-human?"
+      }
+    },
+    "dialogue_0082": {
+      "text": {
+        "reference": "ミミミミ{BEAT}ミヅゲェ",
+        "translation": "F-f-f-found{BEAT} found you..."
+      }
+    },
+    "dialogue_0083": {
+      "text": {
+        "reference": "グゲグゲゲェ{n}{WAIT}タダ{BEAT}タダタダジャ{BEAT}ダメダメダァ",
+        "translation": "Guh-guh-gehh...{WAIT} You c-can't{BEAT} can't pass for f-free{BEAT} free-free..."
+      }
+    },
+    "dialogue_0084": {
+      "text": {
+        "reference": "タダ{BEAT}タダタダジャ{BEAT}ダメダメダァ",
+        "translation": "You c-can't{BEAT} can't pass for f-free{BEAT} free-free..."
+      }
+    },
+    "dialogue_0085": {
+      "text": {
+        "reference": "おおおお{BEAT}おばえニィ{n}グレデヤルモノ{BEAT}モノモノモノバァ{n}ナナナナ{BEAT}ナイィ",
+        "translation": "I-I-I{BEAT} I don't h-have{BEAT} have-have-have a-anything{BEAT} anything to give you..."
+      }
+    },
+    "dialogue_0086": {
+      "text": {
+        "reference": "おおおお{BEAT}おでモォ{n}話ガ{BEAT}話ガァ{n}ジジジジ{BEAT}ジダイィ",
+        "translation": "I-I-I{BEAT} I also h-have{BEAT} have something I w-w-w{BEAT}want to say..."
+      }
+    },
+    "dialogue_0087": {
+      "text": {
+        "reference": "グゲグゲゲェ{n}{WAIT}ダダダダ{BEAT}助ゲデグレェ",
+        "translation": "Guh-guh-gehh...{WAIT} H-h-h-help{BEAT} help me..."
+      }
+    },
+    "dialogue_0088": {
+      "text": {
+        "reference": "オオオオ{BEAT}オゾロジヤァ{n}消エ{BEAT}消エダグナナ{BEAT}ナイィ",
+        "translation": "Ooooh{BEAT} how scary... I d-d-don't{BEAT} don't want to d-disappear{BEAT} disappear..."
+      }
+    },
+    "dialogue_0089": {
+      "text": {
+        "reference": "ググググ{BEAT}苦ジイィ{n}おばえニ分ガルノガ{BEAT}ノガァ？{n}ゴノ痛痛痛痛{BEAT}痛ザガァ",
+        "translation": "I-it{BEAT} it hurts... Do you u-understand{BEAT} understand this p-p-p-pain{BEAT} pain of mine?"
+      }
+    },
+    "dialogue_0090": {
+      "text": {
+        "reference": "おばえぇ何者{BEAT}者者ダダアァ",
+        "translation": "Wh-who are you{BEAT} you-you...?"
+      }
+    },
+    "dialogue_0091": {
+      "text": {
+        "reference": "何ジデ{BEAT}何ジデイイ{BEAT}イルゥ",
+        "translation": "Wh-what{BEAT} what are you d-doing{BEAT} doing here?"
+      }
+    },
+    "dialogue_0092": {
+      "text": {
+        "reference": "おでモながま{BEAT}ながまヲォ{n}ザザザザ{BEAT}探ジデルンガァ",
+        "translation": "I'm looking for a fr-friend{BEAT} friend too... S-s-s-searching{BEAT} searching..."
+      }
+    },
+    "dialogue_0093": {
+      "text": {
+        "reference": "ダダダダ{BEAT}鍛練ガァ{n}あぐま殺ズ殺ズ{BEAT}殺ズノガァ？{n}倒ズノガ{BEAT}ガァ？",
+        "translation": "T-t-t{BEAT} training...? K-k-killing{BEAT} killing demons? B-beating them{BEAT} beating them...?"
+      }
+    },
+    "dialogue_0094": {
+      "text": {
+        "reference": "ああああ{BEAT}あぐまヲォ{n}殺ズ殺ズ{BEAT}殺ズノガァ？{n}あぐまバァヅヅ{BEAT}強エゾォ",
+        "translation": "Y-you're{BEAT} you're killing d-demons{BEAT} killing them? D-demons are v-v-very{BEAT}very strong..."
+      }
+    },
+    "dialogue_0095": {
+      "text": {
+        "reference": "おでヲ助ゲ{BEAT}助ゲ助ゲ助ゲデグレェ{n}ダダダダ{BEAT}ダノムゥ",
+        "translation": "H-help me{BEAT} help-help-help me... P-p-p-please{BEAT} please..."
+      }
+    },
+    "dialogue_0096": {
+      "text": {
+        "reference": "グゲグゲゲェ",
+        "translation": "Guh-guh-gehh..."
+      }
+    },
+    "dialogue_0097": {
+      "text": {
+        "reference": "ナナナナ{BEAT}何言ウガァ{n}{WAIT}グゲグゲゲェ",
+        "translation": "Wh-wh-what{BEAT} what are you saying?{WAIT} Guh-guh-gehh..."
+      }
+    },
+    "dialogue_0098": {
+      "text": {
+        "reference": "ナナナナ{BEAT}何言ウガァ{n}おでバガ{BEAT}バガバガニズルナァ",
+        "translation": "Wh-wh-what{BEAT} what are you saying?! Don't m-make{BEAT} make-make a fool of me!"
+      }
+    },
+    "dialogue_0099": {
+      "text": {
+        "reference": "何ガ用ガ{BEAT}用ガァ？{n}ググググ{BEAT}苦ジイィ",
+        "translation": "Wh-what do you w-want{BEAT} want? I-it{BEAT} it hurts..."
+      }
+    },
+    "dialogue_0100": {
+      "text": {
+        "reference": "ハハハハ{BEAT}早グ言エェ",
+        "translation": "H-h-h-hurry{BEAT} hurry up and say it..."
+      }
+    },
+    "dialogue_0101": {
+      "text": {
+        "reference": "ヨゴヨゴ{BEAT}ヨゴゼェ",
+        "translation": "G-g-give{BEAT} give it to me..."
+      }
+    },
+    "dialogue_0102": {
+      "text": {
+        "reference": "おでモながま{BEAT}ながまガ欲ジイィ{n}ググググ{BEAT}苦ジミヲォ{n}分ゲデ{BEAT}分ゲ分ゲデ{BEAT}ヤルゥ",
+        "translation": "I want an a-ally{BEAT} ally too... I'll sh-share{BEAT} share my s-suffering{BEAT} suffering with{BEAT} with you..."
+      }
+    },
+    "dialogue_0103": {
+      "text": {
+        "reference": "ゴノググググ{BEAT}苦ジミヲォ{n}グレデヤロウ{BEAT}ヤロウガァ",
+        "translation": "I'll g-give{BEAT} give you this s-suffering{BEAT} suffering of mine..."
+      }
+    },
+    "dialogue_0104": {
+      "text": {
+        "reference": "ゴノググググ{BEAT}苦ジミヲォ{n}グレデヤル{BEAT}ヤルヤルヤルゥ",
+        "translation": "I'll g-give{BEAT} give you this s-suffering{BEAT} suffering-suffering-suffering..."
+      }
+    },
+    "dialogue_0105": {
+      "text": {
+        "reference": "イヤ{BEAT}イヤイヤダァ{n}消エダグ{BEAT}ダグダグナイィ",
+        "translation": "N-no{BEAT} no-no... I d-don't want{BEAT} want-want to disappear..."
+      }
+    },
+    "dialogue_0106": {
+      "text": {
+        "reference": "おばえ何者{BEAT}者者者ダァ",
+        "translation": "Wh-who are you{BEAT} you-you-you...?"
+      }
+    },
+    "dialogue_0107": {
+      "text": {
+        "reference": "おでモながま{BEAT}ながまガ欲ジイィ{n}痛痛{BEAT}痛グネェガラァ{n}おばえモゴッヂノゼゼゼ{BEAT}世界ヘ来イィ",
+        "translation": "I want an a-ally{BEAT} ally too... It doesn't h-hurt{BEAT} hurt here... You should c-come to this w-w-w{BEAT}world too..."
+      }
+    },
+    "dialogue_0108": {
+      "text": {
+        "reference": "ああああ{BEAT}あぐまヲォ{n}殺ズ殺ズ{BEAT}殺ズノガァ{n}あぐまバァヅヅ{BEAT}強エゾォ",
+        "translation": "Y-you're{BEAT} you're killing d-demons{BEAT} killing them? D-demons are v-v-very{BEAT}very strong..."
+      }
+    },
+    "dialogue_0109": {
+      "text": {
+        "reference": "おでヲ助ゲ{BEAT}助ゲ助ゲデグレェ{n}オオオオ{BEAT}オネゲエダァ",
+        "translation": "H-help me{BEAT} help-help me... I b-b-b-beg{BEAT} beg you..."
+      }
+    },
+    "dialogue_0110": {
+      "text": {
+        "reference": "ナナナナ{BEAT}何言ウガァ",
+        "translation": "Wh-wh-what{BEAT} what did you say?"
+      }
+    },
+    "dialogue_0111": {
+      "text": {
+        "reference": "グヂゴダエズル{BEAT}ズルズルナァ",
+        "translation": "D-d-don't{BEAT} don't talk back..."
+      }
+    },
+    "dialogue_0112": {
+      "text": {
+        "reference": "グガアアアアァ{n}痛痛痛痛{BEAT}痛ェヨォ",
+        "translation": "Gwaaaaaagh! It h-h-h-hurts{BEAT} hurts..."
+      }
+    },
+    "dialogue_0113": {
+      "text": {
+        "reference": "おばえニゴノ痛痛痛痛{BEAT}痛ザ分ガルガァ",
+        "translation": "Can you understand this p-p-p-pain{BEAT} pain of mine?"
+      }
+    },
+    "dialogue_0114": {
+      "text": {
+        "reference": "わかる",
+        "translation": "I understand."
+      }
+    },
+    "dialogue_0115": {
+      "text": {
+        "reference": "わからない",
+        "translation": "I don't understand."
+      }
+    },
+    "dialogue_0116": {
+      "text": {
+        "reference": "わかりたくない",
+        "translation": "I don't want to understand."
+      }
+    },
+    "dialogue_0117": {
+      "text": {
+        "reference": "アアアアアァ{n}分ガッデグレ{BEAT}グレグレルノガァ",
+        "translation": "Aaaaaagh! Y-you understand{BEAT} understand-understand me...?"
+      }
+    },
+    "dialogue_0118": {
+      "text": {
+        "reference": "ジャジャジャ{BEAT}ジャアァ{n}おばえモながまニジデヤル{BEAT}ヤルヤルゥ",
+        "translation": "Th-th-then{BEAT} then I'll make you an ally{BEAT} ally-ally..."
+      }
+    },
+    "dialogue_0119": {
+      "text": {
+        "reference": "アアアアアァ{n}分分分{BEAT}分ガッデグレェ",
+        "translation": "Aaaaaagh! U-u-understand{BEAT} understand-understand me..."
+      }
+    },
+    "dialogue_0120": {
+      "text": {
+        "reference": "おおおお{BEAT}おばえモォ{n}同ジ痛痛痛痛{BEAT}痛ミィ{n}味ワウガイイ{BEAT}イイイィ",
+        "translation": "Y-y-you{BEAT} you can t-taste{BEAT} taste the s-same pain{BEAT} pain as me..."
+      }
+    },
+    "dialogue_0121": {
+      "text": {
+        "reference": "ゾゾゾゾ{BEAT}ゾレデモォ{n}でびるさばなぁ{BEAT}ざばなぁガァ",
+        "translation": "E-e-even{BEAT} even so, you're a Devil Sum{BEAT} Summoner...",
+        "note": "Fragment context: message 140 page 0 continues on page 1 (dialogue_0122), asking the Summoner to understand demons and accept the speaker as an ally."
+      }
+    },
+    "dialogue_0122": {
+      "text": {
+        "reference": "あぐまノ気持ヂ{BEAT}ヂヂヂ分ガッデグレェ{n}ながま{BEAT}がまがまナッデグレェ",
+        "translation": "U-understand a demon's f-feelings{BEAT} feelings... Become my a-ally{BEAT} ally-ally...",
+        "note": "Fragment context: message 140 page 1 completes the address begun on page 0 (dialogue_0121)."
+      }
+    },
+    "dialogue_0123": {
+      "text": {
+        "reference": "あぐまノ気持ヂ{BEAT}ヂヂヂ分ガレゼデヤルゥ",
+        "translation": "I'll m-make you understand a demon's f-feelings{BEAT} feelings..."
+      }
+    },
+    "dialogue_0124": {
+      "text": {
+        "reference": "おばえ{BEAT}ええええぇ{n}あぐま見デドドドド{BEAT}ドウ思ウゥ",
+        "translation": "Y-y-you{BEAT} you... What do you th-th-th-think{BEAT} think of demons?"
+      }
+    },
+    "dialogue_0125": {
+      "text": {
+        "reference": "あぐま美美美{BEAT}美ジイダロガァ",
+        "translation": "D-demons are b-b-beau{BEAT}beautiful, aren't they?"
+      }
+    },
+    "dialogue_0126": {
+      "text": {
+        "reference": "美しい",
+        "translation": "They're beautiful."
+      }
+    },
+    "dialogue_0127": {
+      "text": {
+        "reference": "種類による",
+        "translation": "It depends on the demon."
+      }
+    },
+    "dialogue_0128": {
+      "text": {
+        "reference": "グゲグゲグゲゲェ{n}{WAIT}ジョジョジョ{BEAT}正直ナ奴ガァ{n}気ニ入ッ{BEAT}ッッッダァ",
+        "translation": "Guh-guh-guh-gehh...{WAIT} An h-h-h-honest{BEAT} honest one, huh? I l-like{BEAT} like-like-like you..."
+      }
+    },
+    "dialogue_0129": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}ヤロウ{BEAT}ヤロウゥ{n}ジジ{BEAT}ジマッドゲェ",
+        "translation": "I'll give you {offered_item}{BEAT} give it to you... Take g-g{BEAT}good care of it..."
+      }
+    },
+    "dialogue_0130": {
+      "text": {
+        "reference": "アアアアアァ{n}美美美{BEAT}美ジイィ",
+        "translation": "Aaaaaagh! B-b-b{BEAT}beautiful..."
+      }
+    },
+    "dialogue_0131": {
+      "text": {
+        "reference": "グゲグゲグゲゲェ{n}{WAIT}ジョジョジョ{BEAT}正直ナ奴ガァ",
+        "translation": "Guh-guh-guh-gehh...{WAIT} An h-h-h-honest{BEAT} honest one, huh..."
+      }
+    },
+    "dialogue_0132": {
+      "text": {
+        "reference": "おおおお{BEAT}おでノゴドヲォ{n}ミニミニミニ{BEAT}ミニグイド言ウノガァ",
+        "translation": "Y-y-you{BEAT} you called me u-u-u{BEAT}ugly...?"
+      }
+    },
+    "dialogue_0133": {
+      "text": {
+        "reference": "ググググ{BEAT}苦ジイィ{n}助ゲデ{BEAT}ゲデゲデグレェ",
+        "translation": "I-it{BEAT} it hurts... H-help{BEAT} help-help me..."
+      }
+    },
+    "dialogue_0134": {
+      "text": {
+        "reference": "助助{BEAT}助ゲデグレェ",
+        "translation": "H-help{BEAT} help me..."
+      }
+    },
+    "dialogue_0135": {
+      "text": {
+        "reference": "苦痛を終わらせる",
+        "translation": "End its suffering."
+      }
+    },
+    "dialogue_0136": {
+      "text": {
+        "reference": "後ずさる",
+        "translation": "Back away."
+      }
+    },
+    "dialogue_0137": {
+      "text": {
+        "reference": "見守る",
+        "translation": "Watch."
+      }
+    },
+    "dialogue_0138": {
+      "text": {
+        "reference": "早グ{BEAT}グググゥ",
+        "translation": "H-hurry{BEAT} hurry..."
+      }
+    },
+    "dialogue_0139": {
+      "text": {
+        "reference": "逃ゲ{BEAT}逃ゲナイデグレェ{n}アアアアアァ",
+        "translation": "D-don't run{BEAT} run away... Aaaaaagh!"
+      }
+    },
+    "dialogue_0140": {
+      "text": {
+        "reference": "逃ゲ{BEAT}逃ゲナイデグレェ",
+        "translation": "D-don't run{BEAT} run away..."
+      }
+    },
+    "dialogue_0141": {
+      "text": {
+        "reference": "アアアアアァ",
+        "translation": "Aaaaaagh!"
+      }
+    },
+    "dialogue_0142": {
+      "text": {
+        "reference": "グゲグゲグゲゲェ{n}{WAIT}止止止{BEAT}止マッダァ{n}苦ジイ{BEAT}苦ジイノ止マッダァ",
+        "translation": "Guh-guh-guh-gehh...{WAIT} It st-st-stopped{BEAT} stopped... The s-suffering{BEAT} suffering stopped...",
+        "note": "Fragment context: message 160 page 0 continues through pages 1-2 (dialogue_0143-dialogue_0144), explaining why the demon may join."
+      }
+    },
+    "dialogue_0143": {
+      "text": {
+        "reference": "おばえガアダダ{BEAT}ダダダガグゥ{n}見デイデグレダ{BEAT}ダダダダガラダァ",
+        "translation": "B-b-because{BEAT} because you kept w-watching{BEAT} watching over me...",
+        "note": "Fragment context: message 160 page 1 supplies the reason linking the relief on page 0 (dialogue_0142) to the recruitment offer on page 2 (dialogue_0144)."
+      }
+    },
+    "dialogue_0144": {
+      "text": {
+        "reference": "ながま{BEAT}がまがまナッデヤッデモイイゾォ",
+        "translation": "I m-might become your a-ally{BEAT} ally-ally after all...",
+        "note": "Fragment context: message 160 page 2 completes pages 0-1 (dialogue_0142-dialogue_0143)."
+      }
+    },
+    "dialogue_0145": {
+      "text": {
+        "reference": "あぐま倒ジデヘェヘェヘェ{BEAT}平気ナノガァ",
+        "translation": "Does b-beating demons{BEAT} beating them not bother you...?"
+      }
+    },
+    "dialogue_0146": {
+      "text": {
+        "reference": "平気",
+        "translation": "It doesn't bother me."
+      }
+    },
+    "dialogue_0147": {
+      "text": {
+        "reference": "気がとがめる",
+        "translation": "I feel guilty."
+      }
+    },
+    "dialogue_0148": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "でびるさばなぁ{BEAT}ざばなぁ{n}オオオオ{BEAT}オゾロジヤァ{n}{offered_item}ヤロウ{BEAT}ヤロウ",
+        "translation": "Devil Sum{BEAT} Summoners are o-o-o{BEAT}oh so scary... I'll give you {offered_item}{BEAT} give it to you..."
+      }
+    },
+    "dialogue_0149": {
+      "text": {
+        "reference": "オオオオオォ{n}アアアアアァ",
+        "translation": "Ooooooh... Aaaaaagh!"
+      }
+    },
+    "dialogue_0150": {
+      "text": {
+        "reference": "ゾゾゾゾ{BEAT}ゾウガァ{n}{WAIT}グゲグゲグゲゲェ",
+        "translation": "I-I-is{BEAT} is that so...?{WAIT} Guh-guh-guh-gehh..."
+      }
+    },
+    "dialogue_0151": {
+      "text": {
+        "reference": "ウウウウ{BEAT}ウゾヲヅグナァ{n}おでだぢノ痛痛痛{BEAT}痛ミヲォ{n}分ガラゼデヤル{BEAT}ヤルヤルゥ",
+        "translation": "D-d-d-don't{BEAT} don't lie... I'll m-make you feel{BEAT} feel our p-pain{BEAT} pain-our-pain..."
+      }
+    },
+    "dialogue_0152": {
+      "text": {
+        "reference": "グゴブガガェ{n}ンゾベギミバ{maru_symbol}ジォ",
+        "translation": "Gugobugagae... Nzobegimiva'jo."
+      }
+    },
+    "dialogue_0153": {
+      "text": {
+        "reference": "ゲゴロギビゲバンォ？",
+        "translation": "Gegorogi bigebango?"
+      }
+    },
+    "dialogue_0154": {
+      "text": {
+        "reference": "はい",
+        "translation": "Yes."
+      }
+    },
+    "dialogue_0155": {
+      "text": {
+        "reference": "いいえ",
+        "translation": "No."
+      }
+    },
+    "dialogue_0156": {
+      "text": {
+        "reference": "？？",
+        "translation": "Huh?"
+      }
+    },
+    "dialogue_0157": {
+      "text": {
+        "reference": "ゾゾゾゾ{BEAT}ゾウガァ{n}おばえナガナガ{BEAT}ナガナガ見ドゴロアルガァ{n}気ニ入ッ{BEAT}ッッダァ",
+        "translation": "I-I-is{BEAT} is that so...? You have q-quite{BEAT} quite some promise... I l-like{BEAT} like-like you..."
+      }
+    },
+    "dialogue_0158": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}ヤロウ{BEAT}ヤロウ{n}{WAIT}グゲグゲゲェ",
+        "translation": "I'll give you {offered_item}{BEAT} give it to you...{WAIT} Guh-guh-gehh..."
+      }
+    },
+    "dialogue_0159": {
+      "text": {
+        "reference": "ゾゾゾゾ{BEAT}ゾウガァ{n}おばえナガナガ{BEAT}ナガナガ見ドゴロアルガァ{n}気ニ入ッ{BEAT}ッッダァ",
+        "translation": "I-I-is{BEAT} is that so...? You have q-quite{BEAT} quite some promise... I l-like{BEAT} like-like you..."
+      }
+    },
+    "dialogue_0160": {
+      "text": {
+        "reference": "アアアアアァ{n}オオオオオォ{n}ナンナンナン{BEAT}ナンデェゴドダァ",
+        "translation": "Aaaaaagh! Ooooooh... Wh-wh-wh-what{BEAT} what does this mean...?"
+      }
+    },
+    "dialogue_0161": {
+      "text": {
+        "reference": "オゾロジヤ{BEAT}ヤヤヤァ",
+        "translation": "How s-s-scary{BEAT} scary-scary..."
+      }
+    },
+    "dialogue_0162": {
+      "text": {
+        "reference": "ゾゾゾゾ{BEAT}ゾウガァ{n}おばえガ言ウナラ{BEAT}言ウナラァ{n}ジガダナイ{BEAT}イイイイィ",
+        "translation": "I-I-is{BEAT} is that so...? If you i-insist{BEAT} insist... I s-s-suppose{BEAT} suppose I must...",
+        "note": "Fragment context: this shared page 0 begins messages 177-178; page 1 (dialogue_0163) completes the thought with the decision to become an ally."
+      }
+    },
+    "dialogue_0163": {
+      "text": {
+        "reference": "ながまニナッデヤロウ{BEAT}ヤロウゥ",
+        "translation": "I'll become your a-ally{BEAT} ally...",
+        "note": "Fragment context: this shared page 1 completes \"I suppose I must...\" on page 0 (dialogue_0162) for messages 177-178."
+      }
+    },
+    "dialogue_0164": {
+      "text": {
+        "reference": "グゲグゲグゲゲェ{n}{WAIT}オボジロイ奴{BEAT}奴奴奴ガァ",
+        "translation": "Guh-guh-guh-gehh...{WAIT} What an i-i-interesting one{BEAT} one-one-one..."
+      }
+    },
+    "dialogue_0165": {
+      "text": {
+        "reference": "オオオオオォ{n}アアアアアァ{n}オボオボ{BEAT}オボエデロォ",
+        "translation": "Ooooooh... Aaaaaagh! R-r-remember{BEAT} remember this..."
+      }
+    },
+    "dialogue_0166": {
+      "text": {
+        "reference": "分ガラナイ{BEAT}分ガラナイダドォ？",
+        "translation": "You d-don't understand{BEAT} don't understand...?"
+      }
+    },
+    "dialogue_0167": {
+      "text": {
+        "reference": "グゲグゲグゲゲェ{n}{WAIT}ジガダ{BEAT}ジガダナイィ",
+        "translation": "Guh-guh-guh-gehh...{WAIT} I c-can't{BEAT} can't help it..."
+      }
+    },
+    "dialogue_0168": {
+      "text": {
+        "reference": "アアアアアァ{n}エエエエエェ{n}バガバガバガ{BEAT}バガニジダナァ",
+        "translation": "Aaaaaagh! Heeeeey! You m-m-made{BEAT} made-made a fool of me..."
+      }
+    },
+    "dialogue_0169": {
+      "text": {
+        "reference": "ギョンゴレベニェ{n}ベニベベニベェ",
+        "translation": "Gyongolebenye... Benibebenibee."
+      }
+    },
+    "dialogue_0170": {
+      "text": {
+        "reference": "何ガヤッデグレ{BEAT}ヤッデグレェ",
+        "translation": "D-do something for me{BEAT} do it for me..."
+      }
+    },
+    "dialogue_0171": {
+      "text": {
+        "reference": "苦ジミヲ忘レザゼデ{BEAT}ザゼデグレェ",
+        "translation": "M-make me forget{BEAT} forget my suffering..."
+      }
+    },
+    "dialogue_0172": {
+      "text": {
+        "reference": "うたう",
+        "translation": "Sing."
+      }
+    },
+    "dialogue_0173": {
+      "text": {
+        "reference": "早口ことば",
+        "translation": "Recite a tongue twister."
+      }
+    },
+    "dialogue_0174": {
+      "text": {
+        "reference": "アアアアアァ{n}美美美{BEAT}美ジイィ{n}今ノおでニピッダピッダ{BEAT}ピッダリダ{BEAT}ダァ",
+        "translation": "Aaaaaagh! B-b-b{BEAT}beautiful... That was p-perfect{BEAT} perfect-perfect{BEAT} perfect for me...",
+        "note": "Fragment context: message 190 page 0 continues through pages 1-3 (dialogue_0177-dialogue_0179), where the demon asks the hero to hear its song, sings, and reacts."
+      }
+    },
+    "dialogue_0175": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "オレイ{BEAT}オレイニィ{n}{offered_item}ヤロウヤロウゥ",
+        "translation": "As th-thanks{BEAT} thanks, I'll give you {offered_item}..."
+      }
+    },
+    "dialogue_0176": {
+      "text": {
+        "reference": "アアアアアァ{n}美美美{BEAT}美ジイィ{n}今ノおでニピッダピッダ{BEAT}ピッダリダ{BEAT}ダァ",
+        "translation": "Aaaaaagh! B-b-b{BEAT}beautiful... That was p-perfect{BEAT} perfect-perfect{BEAT} perfect for me..."
+      }
+    },
+    "dialogue_0177": {
+      "text": {
+        "reference": "ジャジャ{BEAT}ジャア今度バァ{n}おでノウダヲ聞イデグレェ{n}{WAIT}聞グノガァ",
+        "translation": "Th-th-then{BEAT} then, next time... Listen to my song...{WAIT} Will you listen?",
+        "note": "Fragment context: message 190 page 1 links the praise on page 0 (dialogue_0176) to the song on page 2 (dialogue_0178)."
+      }
+    },
+    "dialogue_0178": {
+      "text": {
+        "reference": "{OP:8025}グゲグゲグゲゲェ{n}{WAIT}ボゲボゲゲエエエェ{OP:8020}",
+        "translation": "{OP:8025}Guh-guh-guh-gehh...{WAIT} Boge-bogehhh...{OP:8020}",
+        "note": "Fragment context: message 190 page 2 is the song requested on page 1 (dialogue_0177); page 3 (dialogue_0179) reacts to it."
+      }
+    },
+    "dialogue_0179": {
+      "text": {
+        "reference": "グゲ？{n}{WAIT}ナンガァゾンナニ{BEAT}ニィ緊張ズルナヨ{BEAT}ヨォ",
+        "translation": "Guh?{WAIT} Why are you s-so{BEAT} so nervous{BEAT} nervous...?",
+        "note": "Fragment context: message 190 page 3 closes the song sequence across pages 0-2 (dialogue_0176-dialogue_0178)."
+      }
+    },
+    "dialogue_0180": {
+      "text": {
+        "reference": "ガガグギ{BEAT}ガガゴゲェ{n}{BEAT}ガガガガゴォ{n}{WAIT}グゲグゲゲェ",
+        "translation": "Ga-ga-gugi{BEAT} ga-ga-gogeh...{BEAT} Ga-ga-ga-gagoh...{WAIT} Guh-guh-gehh..."
+      }
+    },
+    "dialogue_0181": {
+      "text": {
+        "reference": "おでウマイ{BEAT}ウマイガァ？",
+        "translation": "Was I g-good{BEAT} good...?"
+      }
+    },
+    "dialogue_0182": {
+      "text": {
+        "reference": "ゴガギノギャグガァ{n}{BEAT}ヨグガギ喰ウ{BEAT}ギャグガァ{n}アアアアアァ",
+        "translation": "Gogagi no gag gag gah...{BEAT} Yogu gagi gagger{BEAT} gag gag gah... Aaaaaagh!"
+      }
+    },
+    "dialogue_0183": {
+      "text": {
+        "reference": "言エネエェ言エエエ{BEAT}エネエエエェ",
+        "translation": "I c-can't say it{BEAT} can't-c-can't say it..."
+      }
+    },
+    "dialogue_0184": {
+      "text": {
+        "reference": "早早早{BEAT}早グヤッデグレェ",
+        "translation": "H-h-hurry{BEAT} hurry up and do it..."
+      }
+    },
+    "dialogue_0185": {
+      "text": {
+        "reference": "アアアアアァ{n}ゾウヂャネエ{BEAT}ネエェ",
+        "translation": "Aaaaaagh! That's n-not it{BEAT} not it..."
+      }
+    },
+    "dialogue_0186": {
+      "text": {
+        "reference": "おばえモおでノながまニ{BEAT}ながまニナレェ",
+        "translation": "You become my a-ally{BEAT} ally too..."
+      }
+    },
+    "dialogue_0187": {
+      "text": {
+        "reference": "なる",
+        "translation": "Accept."
+      }
+    },
+    "dialogue_0188": {
+      "text": {
+        "reference": "ならない",
+        "translation": "Refuse."
+      }
+    },
+    "dialogue_0189": {
+      "text": {
+        "reference": "グゲグゲグゲゲェ{n}{WAIT}ながまニ{BEAT}ながまニ入デデデデデ{BEAT}ヤルゥ",
+        "translation": "Guh-guh-guh-gehh...{WAIT} I'll let you j-join{BEAT} join my a-a-a-allies{BEAT} allies..."
+      }
+    },
+    "dialogue_0190": {
+      "text": {
+        "reference": "グゲグゲグゲゲェ{n}{WAIT}ミヅゲ{BEAT}ミヅゲェ",
+        "translation": "Guh-guh-guh-gehh...{WAIT} F-found you{BEAT} found you..."
+      }
+    },
+    "dialogue_0191": {
+      "text": {
+        "reference": "ナンダド{BEAT}ナンダドォ{n}ゾレジャ{BEAT}ジャジャジャアァ",
+        "translation": "Wh-what{BEAT} what did you say...? Then g-goodbye{BEAT} bye-bye..."
+      }
+    },
+    "dialogue_0192": {
+      "text": {
+        "reference": "イーガラながまニナナナナ{BEAT}ナレェ",
+        "translation": "J-just become my a-a-a-ally{BEAT} ally..."
+      }
+    },
+    "dialogue_0193": {
+      "text": {
+        "reference": "おばえノガガガ{BEAT}体ァ{n}ヨゴゼェ",
+        "translation": "G-g-give me{BEAT} me your body..."
+      }
+    },
+    "dialogue_0194": {
+      "text": {
+        "reference": "おでノ体ドォ交換ジヨウゥ",
+        "translation": "Let's trade bodies..."
+      }
+    },
+    "dialogue_0195": {
+      "text": {
+        "reference": "交換してもいい",
+        "translation": "Agree to the exchange."
+      }
+    },
+    "dialogue_0196": {
+      "text": {
+        "reference": "嫌だ",
+        "translation": "Refuse."
+      }
+    },
+    "dialogue_0197": {
+      "text": {
+        "reference": "アアアア{BEAT}アリガデェ{n}マズバ{BEAT}マズバおばえヲォ{n}ゾノ体ガラ追イ{BEAT}追イ追イ出ズガァ",
+        "translation": "Aaaaaagh{BEAT} thank you... F-first{BEAT} first I'll d-drive{BEAT} drive-drive you out of that body..."
+      }
+    },
+    "dialogue_0198": {
+      "text": {
+        "reference": "ナンダドォ",
+        "translation": "What...?"
+      }
+    },
+    "dialogue_0199": {
+      "text": {
+        "reference": "ウバッデヤル{BEAT}ヤルヤルゥ",
+        "translation": "I'll t-take it{BEAT} take-take it..."
+      }
+    },
+    "dialogue_0200": {
+      "text": {
+        "reference": "ゴッヂニ来イ{BEAT}来イ来イィ",
+        "translation": "C-come here{BEAT} come-come..."
+      }
+    },
+    "dialogue_0201": {
+      "text": {
+        "reference": "近づく",
+        "translation": "Approach."
+      }
+    },
+    "dialogue_0202": {
+      "text": {
+        "reference": "近づかない",
+        "translation": "Stay back."
+      }
+    },
+    "dialogue_0203": {
+      "text": {
+        "reference": "イイ根性ジデル{BEAT}ジデルナおばえぇ{n}早死ニ{BEAT}死ニズルゾォ",
+        "translation": "You've got g-good nerve{BEAT} good nerve... You'll d-die young{BEAT} die young..."
+      }
+    },
+    "dialogue_0204": {
+      "text": {
+        "reference": "おでガ{BEAT}ガガァオゾロジイガァ{n}オゾロジイノガ{BEAT}ガガァ",
+        "translation": "Am I{BEAT} am I scary...? Are you scared of me{BEAT} of me...?"
+      }
+    },
+    "dialogue_0205": {
+      "text": {
+        "reference": "おでガ{BEAT}ガガァオゾロジイガァ{n}オゾロジイノバゴレガラダ{BEAT}ダダァ",
+        "translation": "Am I{BEAT} am I scary...? The scary part is coming n-now{BEAT} now..."
+      }
+    },
+    "dialogue_0206": {
+      "text": {
+        "reference": "おばえジャマママママ{BEAT}ダァ",
+        "translation": "Y-you're in my w-w-w-w-way{BEAT} way..."
+      }
+    },
+    "dialogue_0207": {
+      "text": {
+        "reference": "ザッザド消エロ消エロォ",
+        "translation": "Hurry up and disappear..."
+      }
+    },
+    "dialogue_0208": {
+      "text": {
+        "reference": "立ち去る",
+        "translation": "Leave."
+      }
+    },
+    "dialogue_0209": {
+      "text": {
+        "reference": "去らない",
+        "translation": "Stay."
+      }
+    },
+    "dialogue_0210": {
+      "text": {
+        "reference": "オオオオオォ？",
+        "translation": "Ooooooh?"
+      }
+    },
+    "dialogue_0211": {
+      "text": {
+        "reference": "おばえナガナガ{BEAT}ナガナガイイ奴ガァ{n}バナバナ{BEAT}話ノ分ガル男ガァ",
+        "translation": "Y-you're q-quite{BEAT} quite a good one... A m-man{BEAT} man who listens to reason..."
+      }
+    },
+    "dialogue_0212": {
+      "text": {
+        "reference": "ヂョッド待待待{BEAT}待デェ",
+        "translation": "W-w-wait{BEAT} wait!"
+      }
+    },
+    "dialogue_0213": {
+      "text": {
+        "reference": "グゲグゲゲェ{n}{WAIT}イイ気味味味味味ダ{BEAT}ダァ",
+        "translation": "Guh-guh-gehh...{WAIT} S-s-serves you right{BEAT} right..."
+      }
+    },
+    "dialogue_0214": {
+      "text": {
+        "reference": "ナナナナ{BEAT}何ガ用ナノガァ？",
+        "translation": "Wh-wh-wh-what{BEAT} what do you want?"
+      }
+    },
+    "dialogue_0215": {
+      "text": {
+        "reference": "ながま{BEAT}がまがまニィジデグレルノガ{BEAT}ガァ？",
+        "translation": "Will you m-make me{BEAT} make me your a-a-ally{BEAT} ally...?"
+      }
+    },
+    "dialogue_0216": {
+      "text": {
+        "reference": "グガガガガガァ{n}口惜ジヤ{BEAT}口惜ジヤァ",
+        "translation": "Gwaaaaaagh! H-how mortifying{BEAT} mortifying..."
+      }
+    },
+    "dialogue_0217": {
+      "text": {
+        "reference": "おでバ救救{BEAT}救ワレナイノガァ？{n}ダダダダ{BEAT}誰モおでヲォ{n}ゴノ苦ジミガラ{BEAT}ラララァ",
+        "translation": "Can I n-never be saved{BEAT} saved...? W-w-will{BEAT} will no one free me from this s-suffering{BEAT} suffering...?"
+      }
+    },
+    "dialogue_0218": {
+      "text": {
+        "reference": "救救{BEAT}救ッデグレナイノガァ？",
+        "translation": "W-won't you save{BEAT} save me...?"
+      }
+    },
+    "dialogue_0219": {
+      "text": {
+        "reference": "そうだ",
+        "translation": "That's right."
+      }
+    },
+    "dialogue_0220": {
+      "text": {
+        "reference": "そんなことはない",
+        "translation": "That's not true."
+      }
+    },
+    "dialogue_0221": {
+      "text": {
+        "reference": "アアアアアァ{n}痛痛痛ェ",
+        "translation": "Aaaaaagh! It hurts..."
+      }
+    },
+    "dialogue_0222": {
+      "text": {
+        "reference": "アアアアアァ{n}おばえニモ味味味{BEAT}味アワゼデヤルゥ",
+        "translation": "Aaaaaagh! I'll m-make you taste{BEAT} taste it too..."
+      }
+    },
+    "dialogue_0223": {
+      "text": {
+        "reference": "おばえガ救ッデ{BEAT}救ッデグレルノガァ？",
+        "translation": "Will you s-save me{BEAT} save me...?"
+      }
+    },
+    "dialogue_0224": {
+      "text": {
+        "reference": "ウロヅギ回ッデ{BEAT}回ッデイレバァ{n}助ゲデグレル奴ニ{BEAT}奴ニ出会エルガァ？",
+        "translation": "If I keep w-wandering{BEAT} wandering, will I meet s-someone{BEAT} someone who will save me...?"
+      }
+    },
+    "dialogue_0225": {
+      "text": {
+        "reference": "分ガッダ{BEAT}ダダダァ",
+        "translation": "I u-understand{BEAT} understand..."
+      }
+    },
+    "dialogue_0226": {
+      "text": {
+        "reference": "ゾウガァ{n}おばえジョジョ{BEAT}正直ナ奴ガァ",
+        "translation": "I see... You're an h-h-honest{BEAT} honest one..."
+      }
+    },
+    "dialogue_0227": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}ヤロウ{BEAT}ヤロウ",
+        "translation": "I'll give you {offered_item}{BEAT} give it to you..."
+      }
+    },
+    "dialogue_0228": {
+      "text": {
+        "reference": "ゾウガァ{n}おでバ永遠ニ{BEAT}永遠ニィ{n}ゴンナズズズズ{BEAT}姿デェ",
+        "translation": "I see... Am I to remain like th-th-this{BEAT} this forever{BEAT} forever...",
+        "note": "Continues into message 235 page 1: page 0 asks whether it must remain in this form forever, and page 1 answers that it hates the idea."
+      }
+    },
+    "dialogue_0229": {
+      "text": {
+        "reference": "イヤ{BEAT}ヤヤヤヤガァ",
+        "translation": "I h-hate{BEAT} hate-hate-hate it...",
+        "note": "Completes message 235 page 0: it hates the prospect of remaining in its present form forever."
+      }
+    },
+    "dialogue_0230": {
+      "text": {
+        "reference": "おでバ美美美{BEAT}美ジイガァ{n}{WAIT}ゾノ女女{BEAT}女ド比ベデェ",
+        "translation": "Am I b-b-beau{BEAT}beautiful...{WAIT} Compared with th-that woman{BEAT} that woman...?"
+      }
+    },
+    "dialogue_0231": {
+      "text": {
+        "reference": "ドッヂガ美{BEAT}美美ジイガァ",
+        "translation": "Which of us is more b-beau{BEAT}beautiful?"
+      }
+    },
+    "dialogue_0232": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "{demon_name}",
+        "translation": "{demon_name}"
+      }
+    },
+    "dialogue_0233": {
+      "placeholders": {
+        "rei_name": "character_name"
+      },
+      "text": {
+        "reference": "{rei_name}",
+        "translation": "{rei_name}"
+      }
+    },
+    "dialogue_0234": {
+      "text": {
+        "reference": "ノーコメント",
+        "translation": "No comment."
+      }
+    },
+    "dialogue_0235": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "グゲグゲグゲゲェ{n}{WAIT}ゾウダロ{BEAT}ゾウダロォ{n}{offered_item}ヤロウ{BEAT}ヤロウ",
+        "translation": "Guh-guh-guh-gehh...{WAIT} That's r-right{BEAT} that's right... I'll give you {offered_item}{BEAT} give it to you..."
+      }
+    },
+    "dialogue_0236": {
+      "placeholders": {
+        "rei_name": "character_name"
+      },
+      "text": {
+        "reference": "{rei_name}：なによ、そんなもの！{n}こうしてやる！！",
+        "translation": "{rei_name}: What good is that thing?! Here, take this!!"
+      }
+    },
+    "dialogue_0237": {
+      "text": {
+        "reference": "{OP:8025}バキャッ！！{OP:8020}",
+        "translation": "{OP:8025}CRUNCH!!{OP:8020}"
+      }
+    },
+    "dialogue_0238": {
+      "text": {
+        "reference": "アアアアアァ{n}{BEAT}ナンデェゴドヲォゴノ{BEAT}女女女女ァ",
+        "translation": "Aaaaaagh!{BEAT} Wh-what have you done{BEAT} done, woman?!"
+      }
+    },
+    "dialogue_0239": {
+      "text": {
+        "reference": "おばえええええぇ{n}目ガ{BEAT}目ガ目ガァ{n}笑ッデルガ{BEAT}ガガガァ",
+        "translation": "Y-y-you... Your e-eyes{BEAT} eyes are l-laughing{BEAT} laughing at me..."
+      }
+    },
+    "dialogue_0240": {
+      "text": {
+        "reference": "オオオオオォ",
+        "translation": "Ooooooh..."
+      }
+    },
+    "dialogue_0241": {
+      "placeholders": {
+        "rei_name": "character_name"
+      },
+      "text": {
+        "reference": "{rei_name}：叫んだって、{n}きれいになれないよ。",
+        "translation": "{rei_name}: Screaming won't make you beautiful."
+      }
+    },
+    "dialogue_0242": {
+      "text": {
+        "reference": "アアアアアァ{n}ジャジャ{BEAT}ジャアァ{n}ドウズレバ美美{BEAT}美ジグナレルンガァ",
+        "translation": "Aaaaaagh! Th-th-then{BEAT} then... How can I become b-beau{BEAT}beautiful...?"
+      }
+    },
+    "dialogue_0243": {
+      "text": {
+        "reference": "グゾォオボエ{BEAT}オボエデロォ",
+        "translation": "D-d-damn you... R-remember{BEAT} remember this..."
+      }
+    },
+    "dialogue_0244": {
+      "text": {
+        "reference": "オオオオオォ{n}ゾンナ女ニニ{BEAT}ニィ{n}負ゲル{BEAT}負ゲルワゲガナイィ",
+        "translation": "Ooooooh... I c-can't lose{BEAT} lose to a woman like that{BEAT} lose to her..."
+      }
+    },
+    "dialogue_0245": {
+      "text": {
+        "reference": "アアアアアァ{n}おばえガイヂバン美{BEAT}美美美ジイドォ{n}言ウノガ{BEAT}ノガガァ？",
+        "translation": "Aaaaaagh! Are you s-s-saying I'm the most beau{BEAT}beautiful{BEAT} beautiful of all...?"
+      }
+    },
+    "dialogue_0246": {
+      "text": {
+        "reference": "ドウゼおでおで{BEAT}おでガァ{n}ミニミニ{BEAT}ミニグイッデ言イダインダロォ{n}ヂグジョ{BEAT}ジョジョォ",
+        "translation": "You just want to s-say{BEAT} say I'm u-u{BEAT}ugly anyway... D-d-damn{BEAT} damn you..."
+      }
+    },
+    "dialogue_0247": {
+      "text": {
+        "reference": "おでヲながまニ{BEAT}ながまニジダイノガァ？",
+        "translation": "You want to m-make me your a-ally{BEAT} ally...?"
+      }
+    },
+    "dialogue_0248": {
+      "text": {
+        "reference": "違う",
+        "translation": "No."
+      }
+    },
+    "dialogue_0249": {
+      "text": {
+        "reference": "かなり違う",
+        "translation": "Not even close."
+      }
+    },
+    "dialogue_0250": {
+      "text": {
+        "reference": "嫌ヨ嫌ヨモ好ギ{BEAT}好ギ好ギノウヂガァ？",
+        "translation": "D-does 'no' mean y-yes{BEAT} yes-yes deep down...?"
+      }
+    },
+    "dialogue_0251": {
+      "text": {
+        "reference": "ンンンンンァ{n}おでガミニミニ{BEAT}ミニグイガラガァ{n}許{BEAT}許許ザネェ",
+        "translation": "Nnnnnngh... Is it because I'm u-u{BEAT}ugly...? I won't f-forgive{BEAT} forgive-forgive you..."
+      }
+    },
+    "dialogue_0252": {
+      "text": {
+        "reference": "グゲグゲグゲゲェ{n}{WAIT}美{BEAT}美美ジイモノガラァ{n}目ヲゾラゾラ{BEAT}ゾラズナァ",
+        "translation": "Guh-guh-guh-gehh...{WAIT} D-don't look away{BEAT} look away from something b-beau{BEAT}beautiful..."
+      }
+    },
+    "dialogue_0253": {
+      "text": {
+        "reference": "ナゼ{BEAT}ナナゼナゼバッギリ言ウゥ{n}おでゾンナニミニミニ{BEAT}ミニグイガァ？{n}許ザザザ{BEAT}ザザネエェ",
+        "translation": "Wh-why{BEAT} why say it so bluntly...? Am I r-really that u-u{BEAT}ugly? I won't f-f-forgive{BEAT} forgive you..."
+      }
+    },
+    "dialogue_0254": {
+      "text": {
+        "reference": "グゲグゲグゲゲェ{n}{WAIT}嫌ガレバ嫌嫌{BEAT}嫌ガルボドォ{n}おでモエデグル{BEAT}ルルルゥ",
+        "translation": "Guh-guh-guh-gehh...{WAIT} The more you h-h-hate{BEAT} hate me, the more f-fired up{BEAT} fired up I get..."
+      }
+    },
+    "dialogue_0255": {
+      "text": {
+        "reference": "おでヲ連連連{BEAT}連レデッデグレェ{n}悪イゴド少ジモヤラ{BEAT}ヤラヤラネエガラァ",
+        "translation": "T-t-take me{BEAT} take me with you... I won't do a s-single bad thing{BEAT} thing-thing, I promise..."
+      }
+    },
+    "dialogue_0256": {
+      "text": {
+        "reference": "連レ{BEAT}連レ出ジデグレェ",
+        "translation": "T-take me out{BEAT} take me away..."
+      }
+    },
+    "dialogue_0257": {
+      "text": {
+        "reference": "連れて行く",
+        "translation": "Take it along."
+      }
+    },
+    "dialogue_0258": {
+      "text": {
+        "reference": "グゲグゲグゲゲェ{n}{WAIT}マズバおばえノ目目{BEAT}目ザワリナながまヲォ{n}殺ズ{BEAT}殺ズ殺ズノダァ",
+        "translation": "Guh-guh-guh-gehh...{WAIT} F-first, your a-ally g-gets{BEAT} gets in my way... K-kill{BEAT} kill-kill them..."
+      }
+    },
+    "dialogue_0259": {
+      "text": {
+        "reference": "グゲグゲグゲゲェ{n}{WAIT}ジャアおばえノ体ヲ{BEAT}体ヲォ{n}借リルゾゾォ",
+        "translation": "Guh-guh-guh-gehh...{WAIT} Then I'll b-borrow your body{BEAT} your body..."
+      }
+    },
+    "dialogue_0260": {
+      "text": {
+        "reference": "痛痛{BEAT}痛グネエガラ動動{BEAT}動グナヨォ",
+        "translation": "It won't h-hurt{BEAT} hurt, so d-don't move{BEAT} don't move..."
+      }
+    },
+    "dialogue_0261": {
+      "text": {
+        "reference": "オオオオオァ{n}痛{BEAT}痛痛エヨォ苦ジ{BEAT}ジジイヨォ{n}おでヲフビンニ思ワ{BEAT}思ワネエノガァ",
+        "translation": "Oooooagh! It h-h-hurts{BEAT} hurts! I-it{BEAT} it hurts... Don't you f-feel sorry{BEAT} sorry for me?"
+      }
+    },
+    "dialogue_0262": {
+      "text": {
+        "reference": "オオオオオォ{n}痛{BEAT}痛痛エヨォ苦ジ{BEAT}ジジイヨォ{n}おでヲフビンニ思ワ{BEAT}思ワネエノガァ",
+        "translation": "Ooooooh! It h-h-hurts{BEAT} hurts! I-it{BEAT} it hurts... Don't you f-feel sorry{BEAT} sorry for me?"
+      }
+    },
+    "dialogue_0263": {
+      "text": {
+        "reference": "置イデゲ{BEAT}エエエエェ",
+        "translation": "L-leave it{BEAT} leave it here..."
+      }
+    },
+    "dialogue_0264": {
+      "placeholders": {
+        "requested_item": "item_name"
+      },
+      "text": {
+        "reference": "{requested_item}置イデゲ{BEAT}デゲデゲェ",
+        "translation": "Leave {requested_item} here{BEAT} here-here..."
+      }
+    },
+    "dialogue_0265": {
+      "text": {
+        "reference": "要求をのむ",
+        "translation": "Meet its demand."
+      }
+    },
+    "dialogue_0266": {
+      "text": {
+        "reference": "無視する",
+        "translation": "Ignore it."
+      }
+    },
+    "dialogue_0267": {
+      "text": {
+        "reference": "マダマダマダマ{BEAT}ダダァ",
+        "translation": "N-not yet{BEAT} not-not yet..."
+      }
+    },
+    "dialogue_0268": {
+      "text": {
+        "reference": "マダマダマダマ{BEAT}ダダァ{n}おばえノイイイイ{BEAT}命置イデゲデゲェ",
+        "translation": "N-not yet{BEAT} not-not yet... Leave your l-life{BEAT} life here..."
+      }
+    },
+    "dialogue_0269": {
+      "text": {
+        "reference": "おばえええええぇ{n}ビビ{BEAT}人ノ話ヲ聞ゲ聞ゲ{BEAT}聞ゲェ",
+        "translation": "Y-y-you... L-l-listen{BEAT} listen when s-someone speaks{BEAT} speaks..."
+      }
+    },
+    "dialogue_0270": {
+      "text": {
+        "reference": "ジャジャ{BEAT}ジャアァ{n}おばえノイイイイ{BEAT}命置イデゲデゲェ",
+        "translation": "Th-th-then{BEAT} then... Leave your l-life{BEAT} life here..."
+      }
+    },
+    "dialogue_0271": {
+      "text": {
+        "reference": "美ジ{BEAT}美ジイネエヂャンドォ{n}ガガガガ{BEAT}合体合体{BEAT}ザゼデグレェ",
+        "translation": "I want to be a b-beau{BEAT}beautiful lady... L-l-let me f-fuse{BEAT} fuse{BEAT} fuse with one..."
+      }
+    },
+    "dialogue_0272": {
+      "text": {
+        "reference": "ガガガガ{BEAT}合体合体{BEAT}ザゼデグレルガァ？",
+        "translation": "Will you l-l-let me f-fuse{BEAT} fuse{BEAT} fuse with one...?"
+      }
+    },
+    "dialogue_0273": {
+      "text": {
+        "reference": "約束する",
+        "translation": "Promise."
+      }
+    },
+    "dialogue_0274": {
+      "text": {
+        "reference": "却下",
+        "translation": "Refuse."
+      }
+    },
+    "dialogue_0275": {
+      "text": {
+        "reference": "グゲグゲグゲゲェ{n}{WAIT}ボボボボ{BEAT}本当ガァ{n}早グ美ジグナリ{BEAT}ナリナリナリデェ",
+        "translation": "Guh-guh-guh-gehh...{WAIT} I-is that t-true{BEAT} true...? Hurry and make me b-beau{BEAT}beautiful-beautiful-beautiful..."
+      }
+    },
+    "dialogue_0276": {
+      "text": {
+        "reference": "グゲグゲグゲゲェ{n}{WAIT}オオオオオゥ{n}合体{BEAT}合体合体ガァ",
+        "translation": "Guh-guh-guh-gehh...{WAIT} Ooooooh... F-fusion{BEAT} fusion-fusion...?"
+      }
+    },
+    "dialogue_0277": {
+      "text": {
+        "reference": "おでガミニミニ{BEAT}ミニグイガラガァ{n}ナッドグイガネエ{BEAT}イガネエェ",
+        "translation": "Is it because I'm u-u{BEAT}ugly...? I c-can't accept that{BEAT} can't accept it..."
+      }
+    },
+    "dialogue_0278": {
+      "text": {
+        "reference": "おでガミニミニ{BEAT}ミニグイガラガァ{n}ユユユユ{BEAT}許ザネ{BEAT}ネネェ",
+        "translation": "Is it because I'm u-u{BEAT}ugly...? I w-w-won't{BEAT} forgive{BEAT} forgive-forgive you..."
+      }
+    },
+    "dialogue_0279": {
+      "text": {
+        "reference": "おでノ魂ノザザザザ{BEAT}叫ビヲォ{n}聞イデグレ{BEAT}グレグレェ",
+        "translation": "Listen to the c-c-c-cry{BEAT} cry of my soul{BEAT} listen-listen..."
+      }
+    },
+    "dialogue_0280": {
+      "text": {
+        "reference": "行グゼ{BEAT}ゼゼゼゼェ",
+        "translation": "H-here I go{BEAT} go-go-go..."
+      }
+    },
+    "dialogue_0281": {
+      "text": {
+        "reference": "聞いてやる",
+        "translation": "Listen."
+      }
+    },
+    "dialogue_0282": {
+      "text": {
+        "reference": "黙らせる",
+        "translation": "Silence it."
+      }
+    },
+    "dialogue_0283": {
+      "text": {
+        "reference": "始末する",
+        "translation": "Finish it off."
+      }
+    },
+    "dialogue_0284": {
+      "text": {
+        "reference": "好ギ{BEAT}ダダダァ{n}ダダダダ大好ギダァ{n}{WAIT}おでヲながま{BEAT}ながまニジデグレェ",
+        "translation": "I l-love{BEAT} love-love you... I r-r-really love you...{WAIT} Make me your a-ally{BEAT} ally..."
+      }
+    },
+    "dialogue_0285": {
+      "text": {
+        "reference": "連レ出ジデグレ{BEAT}グレグレェ",
+        "translation": "T-take me away{BEAT} take-take me..."
+      }
+    },
+    "dialogue_0286": {
+      "text": {
+        "reference": "←→→{BEAT}P{GLYPH:010c}KェPPPィKェ{n}PPPィ{BEAT}→Kェェェ{n}{WAIT}↑↑↓↓←→←→{BEAT}イイイィ{BEAT}エエエエェ",
+        "translation": "Left, right, right{BEAT} P K... P-P-P... K... P-P-P{BEAT} Right, K...{WAIT} Up, up, down, down, left, right, left, right{BEAT} A-A-A{BEAT} B-B-B..."
+      }
+    },
+    "dialogue_0287": {
+      "text": {
+        "reference": "好ギ{BEAT}ダダダァ{n}ダダダダ大好ギダァ{n}{WAIT}おでノながま{BEAT}ながまニナッデグレェ",
+        "translation": "I l-love{BEAT} love-love you... I r-r-really love you...{WAIT} Become my a-ally{BEAT} ally..."
+      }
+    },
+    "dialogue_0288": {
+      "text": {
+        "reference": "ウウウウウゥ{n}聞ギダグナイノガ{BEAT}ナイノガァ{n}ジガダナ{BEAT}ナナナナイィ",
+        "translation": "Uuuugh... You d-don't want to listen{BEAT} don't want to...? It c-can't be helped{BEAT} can't be helped..."
+      }
+    },
+    "dialogue_0289": {
+      "text": {
+        "reference": "←←Gィィ",
+        "translation": "Left, left, G..."
+      }
+    },
+    "dialogue_0290": {
+      "text": {
+        "reference": "アアアアアァ{n}ダメダメダメダァ",
+        "translation": "Aaaaaagh! N-no, no, no..."
+      }
+    },
+    "dialogue_0291": {
+      "text": {
+        "reference": "アアアアアァ{n}オダオダオダ{BEAT}オ助ゲェ",
+        "translation": "Aaaaaagh! H-h-h-help{BEAT} help me..."
+      }
+    },
+    "dialogue_0292": {
+      "text": {
+        "reference": "ゾゴノオオオ{BEAT}女置イデゲ{BEAT}デゲデゲェ",
+        "translation": "L-leave that w-woman{BEAT} woman here{BEAT} here-here..."
+      }
+    },
+    "dialogue_0293": {
+      "text": {
+        "reference": "置いてく",
+        "translation": "Leave her."
+      }
+    },
+    "dialogue_0294": {
+      "text": {
+        "reference": "とんでもない",
+        "translation": "Absolutely not."
+      }
+    },
+    "dialogue_0295": {
+      "placeholders": {
+        "rei_name": "character_name"
+      },
+      "text": {
+        "reference": "{rei_name}：ちょ、ちょっと！{n}置いてくって、どういうことよ！！",
+        "translation": "{rei_name}: W-wait! What do you mean, leave me?!"
+      }
+    },
+    "dialogue_0296": {
+      "text": {
+        "reference": "好ギ{BEAT}ダダダァ{n}ダダダダ大好ギダァ",
+        "translation": "I l-love{BEAT} love-love you... I r-r-really love you..."
+      }
+    },
+    "dialogue_0297": {
+      "placeholders": {
+        "rei_name": "character_name"
+      },
+      "text": {
+        "reference": "{rei_name}：やめてー！",
+        "translation": "{rei_name}: Stop it!"
+      }
+    },
+    "dialogue_0298": {
+      "text": {
+        "reference": "女バ女バモラッダゾォ",
+        "translation": "The woman is mine now..."
+      }
+    },
+    "dialogue_0299": {
+      "text": {
+        "reference": "女ァ{BEAT}おでノ子子子子{BEAT}子ヲ産ンデグレェ",
+        "translation": "W-woman{BEAT} woman, b-bear my c-c-c-children{BEAT} children..."
+      }
+    },
+    "dialogue_0300": {
+      "placeholders": {
+        "rei_name": "character_name"
+      },
+      "text": {
+        "reference": "{rei_name}：ちょっと。{n}2人とも、なに勝手なこと言ってんのよ！{n}{BEAT}あっ！",
+        "translation": "{rei_name}: Hey! Both of you, stop deciding this without me!{BEAT} Ah!"
+      }
+    },
+    "dialogue_0301": {
+      "text": {
+        "reference": "本当に置いてかないでよ。{n}{BEAT}ちょっとー！！",
+        "translation": "Seriously, don't leave me behind!{BEAT} Heeey!!"
+      }
+    },
+    "dialogue_0302": {
+      "text": {
+        "reference": "アアアアアァ{n}おでガミニミニ{BEAT}ミニグイガラガァ？{n}ゾウナノ{BEAT}ナノナノガァ？",
+        "translation": "Aaaaaagh! Is it because I'm u-u{BEAT}ugly...? I-is that it{BEAT} it-it...?"
+      }
+    },
+    "dialogue_0303": {
+      "placeholders": {
+        "rei_name": "character_name"
+      },
+      "text": {
+        "reference": "{rei_name}：分かってるじゃない。",
+        "translation": "{rei_name}: At least you know it."
+      }
+    },
+    "dialogue_0304": {
+      "text": {
+        "reference": "オアオアアァ",
+        "translation": "Oaaaaagh..."
+      }
+    },
+    "dialogue_0305": {
+      "text": {
+        "reference": "SSSS{BEAT}SWORDヲ外ゼェ{n}話バゾレガラ{BEAT}ゾレガラダァ",
+        "translation": "R-r-r-remove{BEAT} remove your SWORD... Then we can t-talk{BEAT} talk..."
+      }
+    },
+    "dialogue_0306": {
+      "text": {
+        "reference": "外ズズズ{BEAT}ズノダァ",
+        "translation": "R-r-remove{BEAT} remove it..."
+      }
+    },
+    "dialogue_0307": {
+      "text": {
+        "reference": "外す",
+        "translation": "Remove it."
+      }
+    },
+    "dialogue_0308": {
+      "text": {
+        "reference": "外さない",
+        "translation": "Keep it."
+      }
+    },
+    "dialogue_0309": {
+      "text": {
+        "reference": "イイ{BEAT}イイイイダロウゥ",
+        "translation": "G-good{BEAT} good-good-good..."
+      }
+    },
+    "dialogue_0310": {
+      "text": {
+        "reference": "イイ{BEAT}イイイイダロウゥ{n}モウオゾロジイモノ{BEAT}モノモノバナイィ",
+        "translation": "G-good{BEAT} good-good-good... Nothing s-scary{BEAT} scary-scary remains..."
+      }
+    },
+    "dialogue_0311": {
+      "text": {
+        "reference": "アアアアアァ{n}オゾロジヤ{BEAT}ヤヤヤァ{n}SSSS{BEAT}SWORDオゾロジヤァ",
+        "translation": "Aaaaaagh! How s-s-scary{BEAT} scary-scary... S-S-S{BEAT}SWORDs are scary..."
+      }
+    },
+    "dialogue_0312": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}ヤル{BEAT}ヤルヤルガラァ{n}逃{BEAT}逃ガジデグレレェ",
+        "translation": "I'll give you {offered_item}{BEAT} give-give it to you... So l-let me escape{BEAT} let me go..."
+      }
+    },
+    "dialogue_0313": {
+      "text": {
+        "reference": "アアアアアァ{n}おばえガ憎イイイ{BEAT}イィ",
+        "translation": "Aaaaaagh! I h-h-hate you{BEAT} hate you..."
+      }
+    },
+    "dialogue_0314": {
+      "text": {
+        "reference": "おばえガガ{BEAT}ガガガァ",
+        "translation": "Y-you{BEAT} you-you-you..."
+      }
+    },
+    "dialogue_0315": {
+      "text": {
+        "reference": "おばえガ憎イイイ{BEAT}イィ",
+        "translation": "I h-h-hate you{BEAT} hate you..."
+      }
+    },
+    "dialogue_0316": {
+      "text": {
+        "reference": "あやまる",
+        "translation": "Apologize."
+      }
+    },
+    "dialogue_0317": {
+      "text": {
+        "reference": "理由を聞く",
+        "translation": "Ask why."
+      }
+    },
+    "dialogue_0318": {
+      "text": {
+        "reference": "ガンを飛ばす",
+        "translation": "Glare at it."
+      }
+    },
+    "dialogue_0319": {
+      "text": {
+        "reference": "グゲグゲグゲゲェ{n}{WAIT}オバエゲッゴウイ{BEAT}イイイイ奴ガァ{n}おでガ守ッデヤロウガ{BEAT}ヤロウガァ",
+        "translation": "Guh-guh-guh-gehh...{WAIT} You're a p-pretty good{BEAT} good-good one... I'll protect you{BEAT} protect you..."
+      }
+    },
+    "dialogue_0320": {
+      "text": {
+        "reference": "アアアアアァ{n}アヤマッ{BEAT}ッッデモおばえガ頭下ゲ{BEAT}ゲデモォ{n}おでノダダダダ{BEAT}魂バ救ワレネェ",
+        "translation": "Aaaaaagh! Even if you a-apologize{BEAT} apologize, even if you b-bow your head{BEAT} bow... My s-s-s-soul{BEAT} soul won't be saved..."
+      }
+    },
+    "dialogue_0321": {
+      "text": {
+        "reference": "おばえノダダダダ{BEAT}魂ィ{n}美ジ{BEAT}美ジイガラダ{BEAT}ダァ{n}アアアアアァ",
+        "translation": "Because your s-s-s-soul{BEAT} soul is b-beau{BEAT}beautiful{BEAT} beautiful... Aaaaaagh!"
+      }
+    },
+    "dialogue_0322": {
+      "text": {
+        "reference": "おばえニ分分{BEAT}分ガッデ{n}ダマルガガガ{BEAT}ガァ",
+        "translation": "Y-you understand{BEAT} understand... So I'll sh-shut up{BEAT} shut up..."
+      }
+    },
+    "dialogue_0323": {
+      "text": {
+        "reference": "ざざざざ{BEAT}ざばなぁメェ{n}オゾロジオゾロジ{BEAT}オゾロジヤァ{n}次バ{BEAT}ババダダジャオガ{BEAT}オガネェ",
+        "translation": "D-d-d-damn{BEAT} Summoner... S-s-scary{BEAT} scary, so scary... N-next time{BEAT} next time I won't h-hold back{BEAT} hold back..."
+      }
+    },
+    "dialogue_0324": {
+      "text": {
+        "reference": "憎イイイイィ{n}魂ヨゴゼゼゼゼェ",
+        "translation": "I h-hate you... Give me your soul..."
+      }
+    },
+    "dialogue_0325": {
+      "text": {
+        "reference": "ググゲグゲェ",
+        "translation": "Guh-guh-gehh..."
+      }
+    },
+    "dialogue_0326": {
+      "placeholders": {
+        "requested_item": "item_name"
+      },
+      "text": {
+        "reference": "{requested_item}ヨヨヨ{BEAT}ヨゴゼェ",
+        "translation": "G-g-give me{BEAT} give me {requested_item}..."
+      }
+    },
+    "dialogue_0327": {
+      "text": {
+        "reference": "オアアアアァ{n}持ッデナナナ{BEAT}ナイノガァ",
+        "translation": "Oaaaaagh... Y-you don't have it{BEAT} don't have it...?"
+      }
+    },
+    "dialogue_0328": {
+      "text": {
+        "reference": "おでヲバガバガバガ{BEAT}バガニズルナァ{n}帰ルゥ帰ルノノノノノ{BEAT}ダァ",
+        "translation": "D-don't make a f-f-fool{BEAT} fool of me... I'm g-going home{BEAT} going-going home..."
+      }
+    },
+    "dialogue_0329": {
+      "text": {
+        "reference": "マダ{BEAT}マダマダマダマダ欲ジイィ",
+        "translation": "I w-want more{BEAT} more-more-more-more..."
+      }
+    },
+    "dialogue_0330": {
+      "text": {
+        "reference": "ゾゾゾゾ{BEAT}ゾレジャ{BEAT}ジャアァ",
+        "translation": "Th-th-th{BEAT} then g-goodbye{BEAT} goodbye..."
+      }
+    },
+    "dialogue_0331": {
+      "text": {
+        "reference": "何ガァヨゴヨゴ{BEAT}ヨゴゼェ",
+        "translation": "G-g-give me something{BEAT} give it..."
+      }
+    },
+    "dialogue_0332": {
+      "text": {
+        "reference": "オアアアアァ？{n}何モナイジャ{BEAT}ジャジャネエガァ",
+        "translation": "Oaaaaagh? Y-you have n-nothing{BEAT} nothing at all!"
+      }
+    },
+    "dialogue_0333": {
+      "text": {
+        "reference": "アアアアアァ{n}モウイイ{BEAT}イイイイィ",
+        "translation": "Aaaaaagh! That's e-enough{BEAT} enough-enough..."
+      }
+    },
+    "dialogue_0334": {
+      "text": {
+        "reference": "おでヲバガバガバガ{BEAT}バガニズルナァ{n}オオオオオォ",
+        "translation": "D-don't make a f-f-fool{BEAT} fool of me... Ooooooh..."
+      }
+    },
+    "dialogue_0335": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "おでバ{race}ノノノノノォ{n}{demon_name}ダダダダダァ{n}ヂガラニナッデヤルヤル{BEAT}ヤルゥ",
+        "translation": "I am {demon_name} of the {race} clan. I'll lend you my s-strength{BEAT} strength...",
+        "note": "Fragment context: message 334 page 1 completes its shared page-0 lead-in (dialogue_0036); this record also owns standalone message 346."
+      }
+    },
+    "dialogue_0336": {
+      "text": {
+        "reference": "マダ今度ニズルガァ{BEAT}ガァガァ{n}ながまバゾノ時{BEAT}時時時ダ{BEAT}ダァ{n}ジャジャジャ{BEAT}ジャアナァ",
+        "translation": "We'll do it n-next time{BEAT} next-next... I'll become your a-ally then{BEAT} then-then{BEAT} then... G-g-goodbye{BEAT} goodbye...",
+        "note": "Fragment context: message 335 page 1 completes its shared page-0 lead-in (dialogue_0036)."
+      }
+    },
+    "dialogue_0337": {
+      "text": {
+        "reference": "ググゲグゲェ{n}{WAIT}ゴレデ満{BEAT}満満満満足ガァ",
+        "translation": "Guh-guh-gehh...{WAIT} Are you s-s-s-satisfied{BEAT} satisfied now...?"
+      }
+    },
+    "dialogue_0338": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "ガワリニ{BEAT}ニニニィ{n}{offered_item}ヤロウ{BEAT}ヤロウゥ",
+        "translation": "In r-return{BEAT} return-return... I'll give you {offered_item}{BEAT} give it to you..."
+      }
+    },
+    "dialogue_0339": {
+      "text": {
+        "reference": "満足足足{BEAT}足ガァ",
+        "translation": "Are you s-s-s-satisfied{BEAT} satisfied...?"
+      }
+    },
+    "dialogue_0340": {
+      "text": {
+        "reference": "マダマダマダマダ{BEAT}ガグジデルダロウゥ{n}{WAIT}見ゼデミミミミ{BEAT}ミロォ",
+        "translation": "You're still h-hiding something{BEAT} hiding it, aren't you...?{WAIT} Sh-show me{BEAT} show me..."
+      }
+    },
+    "dialogue_0341": {
+      "text": {
+        "reference": "アアアアアァ{n}苦{BEAT}苦苦苦ジイヨオォ{n}痛痛痛{BEAT}痛エヨオォ",
+        "translation": "Aaaaaagh! I-it{BEAT} it-it-it hurts... It h-h-hurts{BEAT} hurts..."
+      }
+    },
+    "dialogue_0342": {
+      "text": {
+        "reference": "交渉ドコロ{BEAT}ドコロジャネエェ",
+        "translation": "I c-can't negotiate{BEAT} can't negotiate like this..."
+      }
+    },
+    "dialogue_0343": {
+      "text": {
+        "reference": "オアアアアァ",
+        "translation": "Oaaaaagh..."
+      }
+    },
+    "dialogue_0344": {
+      "text": {
+        "reference": "オアアアアァ{n}ウエエエエエエェ",
+        "translation": "Oaaaaagh! Uweeeeegh..."
+      }
+    },
+    "dialogue_0345": {
+      "text": {
+        "reference": "おばえガ憎イ{BEAT}イイィ{n}おでノ前ニ出デ出デ出デ{BEAT}出デグルナァ{n}壊壊壊ズゾ{BEAT}ゾォ",
+        "translation": "I h-hate you{BEAT} hate you... N-never appear before me{BEAT} before me again... I'll b-b-break you{BEAT} break you..."
+      }
+    },
+    "dialogue_0346": {
+      "text": {
+        "reference": "渡す",
+        "translation": "Hand it over."
+      }
+    },
+    "dialogue_0347": {
+      "text": {
+        "reference": "ことわる",
+        "translation": "Refuse."
+      }
+    },
+    "dialogue_0348": {
+      "text": {
+        "reference": "マダ今度ニズルガァ{BEAT}ガァガァ{n}ながまバゾノ時{BEAT}時時時ダ{BEAT}ダァ",
+        "translation": "We'll do it n-next time{BEAT} next-next... I'll become your a-ally then{BEAT} then-then{BEAT} then..."
+      }
+    },
+    "dialogue_0349": {
+      "text": {
+        "reference": "ジャジャジャ{BEAT}ジャアナァ",
+        "translation": "G-g-goodbye{BEAT} goodbye..."
+      }
+    },
+    "dialogue_0350": {
+      "text": {
+        "reference": "ア{n}アア{n}{WAIT}アアアアアアアアアアアエアエアアアァ",
+        "translation": "Ah... Aah...{WAIT} Aaaaaaaaaaagh..."
+      }
+    },
+    "dialogue_0351": {
+      "text": {
+        "reference": "光光光{BEAT}光光ガァ！{n}{WAIT}苦{BEAT}苦苦苦ジイイイイイィ",
+        "translation": "L-l-l-light{BEAT} light!{WAIT} It h-hurts{BEAT} hurts-hurts-hurts..."
+      }
+    },
+    "dialogue_0352": {
+      "text": {
+        "reference": "ながま{BEAT}がまがまぁナリデェノニィ{n}おばえノゾバニ{BEAT}ニニニィ{n}行ゲ行ゲ{BEAT}行ゲネェ",
+        "translation": "I w-wanted to become your a-ally{BEAT} ally-ally... But I c-can't go{BEAT} go to your side{BEAT} go-go...",
+        "note": "Continues through message 347 pages 3-4: unable to join the party, it leaves an item in its place and asks the player to cherish it as a keepsake."
+      }
+    },
+    "dialogue_0353": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "ガワリニ{BEAT}ニニニニィ{n}{offered_item}置イデグ{BEAT}デグゥ",
+        "translation": "In my p-place{BEAT} place-place-place... I'll leave you {offered_item}{BEAT} leave it...",
+        "note": "Continues message 347 page 2 and leads into page 4: the item is left in place of the demon that cannot join."
+      }
+    },
+    "dialogue_0354": {
+      "text": {
+        "reference": "おでダド思ッデ大{BEAT}大切大切ニジデグレェ",
+        "translation": "Think of it as m-me and take g-good{BEAT} good care of it...",
+        "note": "Completes message 347 pages 2-3: the demon asks the player to cherish the item left in its stead."
+      }
+    },
+    "dialogue_0355": {
+      "text": {
+        "reference": "おでニ何{BEAT}何何何ヲジダァ{n}オゾロ{BEAT}オゾロジヤァ",
+        "translation": "Wh-what{BEAT} what did you do to me...? H-how t-terrifying{BEAT} terrifying..."
+      }
+    },
+    "dialogue_0356": {
+      "text": {
+        "reference": "グゲェ",
+        "translation": "Guhh..."
+      }
+    },
+    "dialogue_0357": {
+      "text": {
+        "reference": "丸丸丸丸丸丸丸丸丸丸{BEAT}丸ゥ{n}イイイイイイイイイイ{BEAT}イィ{n}月月月月月月月月月月{BEAT}月ィ",
+        "translation": "ROUND ROUND ROUND ROUND ROUND{BEAT} ROUND...{n}FULL FULL FULL FULL FULL{BEAT} FULL...{n}MOON MOON MOON MOON MOON{BEAT} MOON...",
+        "note": "The authored line breaks are semantic: each of the six columns reads ROUND / FULL / MOON vertically. The follow-up choices are adapted to four, five, and six so the original third-choice answer remains correct within the FONT16 width."
+      }
+    },
+    "dialogue_0358": {
+      "text": {
+        "reference": "ドド{BEAT}ドウダァ縦ニモ読メダ{BEAT}ダダダロウゥ",
+        "translation": "H-how{BEAT} how's that...? You could read it d-downward too{BEAT} downward, right...?"
+      }
+    },
+    "dialogue_0359": {
+      "text": {
+        "reference": "読めた",
+        "translation": "I read it."
+      }
+    },
+    "dialogue_0360": {
+      "text": {
+        "reference": "なんのことだ",
+        "translation": "What are you talking about?"
+      }
+    },
+    "dialogue_0361": {
+      "text": {
+        "reference": "ヨヨヨヨ{BEAT}ヨグ読メダナアァ{n}ボウビ{BEAT}ビビビビダアァ",
+        "translation": "Y-you read it well{BEAT} read it well... Here's your r-reward{BEAT} reward-reward-reward..."
+      }
+    },
+    "dialogue_0362": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}グレデヤル{BEAT}ルルゥ",
+        "translation": "I'll give you {offered_item}{BEAT} give it to you..."
+      }
+    },
+    "dialogue_0363": {
+      "text": {
+        "reference": "デデデデ{BEAT}デモォ{n}横横{BEAT}横ニバァ読メネェ{n}{WAIT}グゲェ",
+        "translation": "B-b-b-but{BEAT} but... You can't read it s-sideways{BEAT} sideways...{WAIT} Guhh..."
+      }
+    },
+    "dialogue_0364": {
+      "text": {
+        "reference": "以以以以{BEAT}以上ゥ",
+        "translation": "Th-th-th-that's all{BEAT} all..."
+      }
+    },
+    "dialogue_0365": {
+      "text": {
+        "reference": "ジョウガネ{BEAT}ネネネェ",
+        "translation": "C-can't be helped{BEAT} helped-helped..."
+      }
+    },
+    "dialogue_0366": {
+      "text": {
+        "reference": "ザイジョガラヤッデ{BEAT}ヤッデヤルガァ",
+        "translation": "I'll s-start over from the beginning{BEAT} start over..."
+      }
+    },
+    "dialogue_0367": {
+      "text": {
+        "reference": "おばえええええぇ！",
+        "translation": "Y-y-you!"
+      }
+    },
+    "dialogue_0368": {
+      "text": {
+        "reference": "人ノ話バァ耳ノアナ{BEAT}アナアナアナァ{n}ガッボジッデヨグ聞イドゲ{BEAT}ゲゲゲェ",
+        "translation": "When someone talks, o-open your ears{BEAT} ears-ears wide and l-listen carefully{BEAT} listen-listen..."
+      }
+    },
+    "dialogue_0369": {
+      "text": {
+        "reference": "体ヲ張ッダ{BEAT}ダダァ{n}笑笑笑笑{BEAT}笑イヲォ！！",
+        "translation": "A f-full-body{BEAT} full-body c-comedy{BEAT} comedy routine!!"
+      }
+    },
+    "dialogue_0370": {
+      "text": {
+        "reference": "ザザ{BEAT}ザデェ",
+        "translation": "W-well{BEAT} well then..."
+      }
+    },
+    "dialogue_0371": {
+      "text": {
+        "reference": "おでバァ何回{BEAT}回回回{OP:8022}月{OP:8020}ド言ッダガナァ？",
+        "translation": "H-how many times{BEAT} times did I say {OP:8022}MOON{OP:8020}?"
+      }
+    },
+    "dialogue_0372": {
+      "text": {
+        "reference": "7回",
+        "translation": "Four times.",
+        "note": "Localized count choice for the six-column ROUND / FULL / MOON grid in dialogue_0357; the original correct branch remains the third choice."
+      }
+    },
+    "dialogue_0373": {
+      "text": {
+        "reference": "9回",
+        "translation": "Five times.",
+        "note": "Localized count choice for the six-column ROUND / FULL / MOON grid in dialogue_0357; the original correct branch remains the third choice."
+      }
+    },
+    "dialogue_0374": {
+      "text": {
+        "reference": "11回",
+        "translation": "Six times.",
+        "note": "Localized correct answer for the six-column ROUND / FULL / MOON grid in dialogue_0357; this preserves the original third-choice branch."
+      }
+    },
+    "dialogue_0375": {
+      "text": {
+        "reference": "グゲェ{n}{WAIT}話ニナラナラ{BEAT}ナラネエガァ",
+        "translation": "Guhh...{WAIT} I c-can't talk to you{BEAT} can't talk..."
+      }
+    },
+    "dialogue_0376": {
+      "text": {
+        "reference": "ヲヲヲヲヲォ{n}{WAIT}ズゲエナァおばええええぇ",
+        "translation": "Ooooooh!{WAIT} You're a-amazing..."
+      }
+    },
+    "dialogue_0377": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "ジョウギン{offered_item}{n}グレデヤロ{BEAT}ロロロウゥ",
+        "translation": "As a p-prize, I'll give you {offered_item}{BEAT} give-give-give it to you..."
+      }
+    },
+    "dialogue_0378": {
+      "text": {
+        "reference": "ザラバ{BEAT}バァ",
+        "translation": "F-farewell{BEAT} farewell..."
+      }
+    },
+    "dialogue_0379": {
+      "text": {
+        "reference": "おでガながま{BEAT}ながまニィ{n}ナッデヤロウ{BEAT}ヤロウゥ",
+        "translation": "I'll become your a-ally{BEAT} ally... I'll j-join you{BEAT} join you..."
+      }
+    },
+    "dialogue_0380": {
+      "text": {
+        "reference": "ザザザザ{BEAT}最近{n}おでノマネヲジデル{n}奴奴奴{BEAT}奴ガイルッデ聞イダガァ",
+        "translation": "I-I-I-I heard{BEAT} heard someone has been i-imitating me lately... S-s-s-someone{BEAT} someone..."
+      }
+    },
+    "dialogue_0381": {
+      "text": {
+        "reference": "おばえガ{BEAT}ガガガァ！？",
+        "translation": "Is it y-you{BEAT} you-you-you?!"
+      }
+    },
+    "dialogue_0382": {
+      "text": {
+        "reference": "おばえええええぇ！{n}{WAIT}おでノファン{BEAT}ファンファンガァ？",
+        "translation": "Y-y-you!{WAIT} Are you my f-fan{BEAT} fan-fan...?"
+      }
+    },
+    "dialogue_0383": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}グレデヤル{BEAT}ヤルヤルゥ",
+        "translation": "I'll give you {offered_item}{BEAT} give-give it to you..."
+      }
+    },
+    "dialogue_0384": {
+      "text": {
+        "reference": "ゴレガラモおでノドゴヘェ{n}ヂョグヂョグ遊ビニ{BEAT}ビニビニ来イィ",
+        "translation": "Keep v-visiting me... Come p-play{BEAT} play-play often..."
+      }
+    },
+    "dialogue_0385": {
+      "text": {
+        "reference": "ながま{BEAT}ながまナッデヤルゥ",
+        "translation": "I'll become your a-ally{BEAT} ally..."
+      }
+    },
+    "dialogue_0386": {
+      "text": {
+        "reference": "おでドォ合体{BEAT}合体合体ジヨオォ！！",
+        "translation": "F-fuse with me{BEAT} fuse-fuse with me!!"
+      }
+    },
+    "dialogue_0387": {
+      "text": {
+        "reference": "おばえジャ{BEAT}ジャジャジャアァネエノガァ{n}{WAIT}ヅバラネ{BEAT}ラネラネェ",
+        "translation": "You're n-not the one{BEAT} not-not-not the one...?{WAIT} How b-boring{BEAT} boring-boring..."
+      }
+    },
+    "dialogue_0388": {
+      "text": {
+        "reference": "ドゴ{BEAT}ドゴドゴダアァ{n}{WAIT}ドゴニイル{BEAT}イルルゥ",
+        "translation": "W-where{BEAT} where-where is it...?{WAIT} Where is it{BEAT} is it...?"
+      }
+    },
+    "dialogue_0389": {
+      "text": {
+        "reference": "おばえええええぇ！！",
+        "translation": "Y-y-you!!"
+      }
+    },
+    "dialogue_0390": {
+      "text": {
+        "reference": "おでノファン{BEAT}ファンファンジャ{n}ネエノガ{BEAT}ガガガァ！{n}{WAIT}許ザザネネェ！！",
+        "translation": "You're n-not my fan{BEAT} not-not a fan{BEAT} fan...?{WAIT} I won't f-forgive you!!"
+      }
+    },
+    "dialogue_0391": {
+      "text": {
+        "reference": "グゲェ丸イ月月月美美美美ジイィ",
+        "translation": "Guhh... The round, round moon is b-b-beau-beau-beautiful..."
+      }
+    },
+    "dialogue_0392": {
+      "text": {
+        "reference": "アアアアアァ{n}{WAIT}ゲゲゲゲ{BEAT}消ザナイデグレェ",
+        "translation": "Aaaaaah...{WAIT} D-d-d-don't{BEAT} erase meee!"
+      }
+    },
+    "dialogue_0393": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "助ゲデ{BEAT}ゲデゲデゲデグレェ{n}{offered_item}置イデグガラ{BEAT}ラララァ",
+        "translation": "H-help{BEAT} help-help-help meee! I'll leave {offered_item},{BEAT} s-sooo..."
+      }
+    },
+    "condition_charmed": {
+      "text": {
+        "reference": "好ギガァ！ 大大大大好ギガァ！！",
+        "translation": "L-love ya! I l-love ya so much!!",
+        "reviewed": true
+      }
+    },
+    "condition_happy": {
+      "text": {
+        "reference": "おでバァ 宇宙イヂィ 美美美美ジイィ",
+        "translation": "I'm m-most beautiful in all space!",
+        "reviewed": true
+      }
+    },
+    "condition_confused": {
+      "text": {
+        "reference": "ゴンゲ{maru_symbol}レゲレレレヂベ♂ンバェェ！！",
+        "translation": "Grrngh{maru_symbol} Blehlehleh... Bwaaagh!!",
+        "reviewed": true
+      }
+    },
+    "condition_enraged": {
+      "text": {
+        "reference": "おばえぇぇぇぇ 許許許許ザネエェ！！",
+        "translation": "Y-youuuu... I won't forgive you!!",
+        "reviewed": true
+      }
+    },
+    "condition_talk_blocked": {
+      "text": {
+        "reference": "おでヲォ バガバガバガバガニズルナァ！",
+        "translation": "D-don't make a f-f-f-fool of me!",
+        "reviewed": true
+      }
+    },
+    "condition_ally_veto": {
+      "text": {
+        "reference": "おばえモォ 手手手手手伝エェ",
+        "translation": "Y-you too... h-h-h-help meee!",
+        "reviewed": true
+      }
+    },
+    "condition_full_moon": {
+      "text": {
+        "reference": "グゲェ 丸イ月月月 美美美美ジイィ",
+        "translation": "Guh... R-round moon... s-so p-prettyyy...",
+        "reviewed": true
+      }
+    }
+  }
+}

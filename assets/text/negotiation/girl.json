@@ -1,0 +1,4404 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "dialogue_0000": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "あら。{n}{WAIT}{demon_name}の友達、いるのねー。{n}よろしくオネガイよ{OP:8026}『{OP:8020}",
+        "translation": "Oh!{WAIT} You've got a friend who's {demon_name}. Be nice to them, okay?{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0001": {
+      "text": {
+        "reference": "ダイジにしてくんないと、{n}{BEAT}ショーチしないんだから{OP:8026}『{OP:8020}",
+        "translation": "You'd better treat my friend right,{BEAT} or you're gonna regret it!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0002": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}、{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}『{OP:8020}{n}{WAIT}友達ダイジにしてくんないと、{n}{BEAT}ショーチしないんだから{OP:8026}『{OP:8020}",
+        "translation": "Here,{BEAT} take{BEAT} {offered_item}!{BEAT}{BEAT}{OP:8026}『{OP:8020}{WAIT} You'd better treat my friend right,{BEAT} or you're gonna regret it!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0003": {
+      "text": {
+        "reference": "はい、{BEAT}{OP:8023}ほうぎょく{OP:8020}、{BEAT}使ったげる。{n}{BEAT}ムリしちゃダメだからね！",
+        "translation": "Here!{BEAT} I'll use this {OP:8023}Bead{OP:8020} on you.{BEAT} Don't{BEAT} push yourself, okay?"
+      }
+    },
+    "dialogue_0004": {
+      "text": {
+        "reference": "友達ダイジにしてくんないと、{n}{BEAT}ショーチしないんだから{OP:8026}『{OP:8020}",
+        "translation": "You'd better treat my friend right,{BEAT} or you're gonna regret it!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0005": {
+      "text": {
+        "reference": "あ。{n}{WAIT}見ーつけた。",
+        "translation": "Oh!{WAIT} Found you."
+      }
+    },
+    "dialogue_0006": {
+      "text": {
+        "reference": "誰か、クビにしてくれたー？{n}{WAIT}ウソー、{BEAT}まだなワケー！？",
+        "translation": "Did you kick somebody out for me?{WAIT} No way—{BEAT}you still haven't!?"
+      }
+    },
+    "dialogue_0007": {
+      "text": {
+        "reference": "もー、待てないってカンジー。",
+        "translation": "Ugh, I am so done waiting."
+      }
+    },
+    "dialogue_0008": {
+      "text": {
+        "reference": "誰か、クビにしてくれたー？",
+        "translation": "Did you kick somebody out for me?"
+      }
+    },
+    "dialogue_0009": {
+      "text": {
+        "reference": "アタシ、ナカマになっていーの？",
+        "translation": "I can join you now?"
+      }
+    },
+    "dialogue_0010": {
+      "text": {
+        "reference": "もちろん",
+        "translation": "Of course."
+      }
+    },
+    "dialogue_0011": {
+      "text": {
+        "reference": "だめだ",
+        "translation": "No."
+      }
+    },
+    "dialogue_0012": {
+      "text": {
+        "reference": "もー、じらさないで{OP:8026}『{OP:8020}",
+        "translation": "Quit teasing me!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0013": {
+      "text": {
+        "reference": "待たせたオワビは、してもらうワヨ{OP:8026}『{OP:8020}",
+        "translation": "You owe me for making me wait!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0014": {
+      "text": {
+        "reference": "ナニよー！{n}他にオンナができたのねー！！",
+        "translation": "What!? You've found another woman!"
+      }
+    },
+    "dialogue_0015": {
+      "text": {
+        "reference": "だれがアンタなんか！{n}{WAIT}こっちから、オコトワリよっ！！",
+        "translation": "Like I'd want you anyway!{WAIT} I reject you!"
+      }
+    },
+    "dialogue_0016": {
+      "text": {
+        "reference": "ナニよー！{n}他にオンナができたのねー！！",
+        "translation": "What!? You've found another woman!"
+      }
+    },
+    "dialogue_0017": {
+      "text": {
+        "reference": "刺してやる。",
+        "translation": "I'll stab you."
+      }
+    },
+    "dialogue_0018": {
+      "text": {
+        "reference": "見つけたわよ。",
+        "translation": "Found you."
+      }
+    },
+    "dialogue_0019": {
+      "text": {
+        "reference": "返り討ちにしてやる",
+        "translation": "I'll turn the tables on you."
+      }
+    },
+    "dialogue_0020": {
+      "text": {
+        "reference": "人違いだ",
+        "translation": "You've got the wrong person."
+      }
+    },
+    "dialogue_0021": {
+      "text": {
+        "reference": "やってみなさいよー！！",
+        "translation": "Go ahead and try!!"
+      }
+    },
+    "dialogue_0022": {
+      "text": {
+        "reference": "え。{n}{WAIT}あ、{BEAT}ごめーん。",
+        "translation": "Huh?{WAIT} Oh,{BEAT} sorry!"
+      }
+    },
+    "dialogue_0023": {
+      "text": {
+        "reference": "キミによく似たヤツでー、{n}スゲー{BEAT}ムカつくのが、いるのよー。{n}{WAIT}見つけたら、教えてー。",
+        "translation": "There's somebody who looks just like you and seriously{BEAT} pisses me off.{WAIT} Tell me if you find him."
+      }
+    },
+    "dialogue_0024": {
+      "text": {
+        "reference": "キミによく似たヤツでー、{n}スゲー{BEAT}ムカつくのが、いるのよー。{n}{WAIT}ソックリだからー、{BEAT}キミでいーや。",
+        "translation": "There's somebody who looks just like you and seriously{BEAT} pisses me off.{WAIT} But you're{BEAT} close enough, so you'll do."
+      }
+    },
+    "dialogue_0025": {
+      "text": {
+        "reference": "おまたせー{OP:8026}『{OP:8020}",
+        "translation": "Sorry to keep you waiting!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0026": {
+      "text": {
+        "reference": "どう、この服。{n}オキニイリなの。",
+        "translation": "What do you think of this outfit? It's my favorite."
+      }
+    },
+    "dialogue_0027": {
+      "text": {
+        "reference": "カワイーイ？",
+        "translation": "Cute, right?"
+      }
+    },
+    "dialogue_0028": {
+      "text": {
+        "reference": "かわいい",
+        "translation": "Cute."
+      }
+    },
+    "dialogue_0029": {
+      "text": {
+        "reference": "趣味じゃない",
+        "translation": "Not my style."
+      }
+    },
+    "dialogue_0030": {
+      "text": {
+        "reference": "ウレシー{OP:8026}『{OP:8020}{n}{WAIT}シアワセー{OP:8026}『{OP:8020}",
+        "translation": "Yay!{OP:8026}『{OP:8020}{WAIT} I'm so happy!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0031": {
+      "text": {
+        "reference": "気に入ってくれた？{n}ウレシー{OP:8026}『{OP:8020}",
+        "translation": "You like it? Yay!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0032": {
+      "text": {
+        "reference": "でも。{n}{WAIT}コトバだけじゃ、愛情が伝わってこないの。",
+        "translation": "But...{WAIT} words alone don't show me any love."
+      }
+    },
+    "dialogue_0033": {
+      "text": {
+        "reference": "おせじの1つも、言えないワケー？{n}ま、{BEAT}いーわ。",
+        "translation": "You can't even manage one little compliment? Fine,{BEAT} whatever."
+      }
+    },
+    "dialogue_0034": {
+      "text": {
+        "reference": "そのぶん、高くつくワヨ！",
+        "translation": "But now it's gonna cost you extra!"
+      }
+    },
+    "dialogue_0035": {
+      "text": {
+        "reference": "おせじの1つも、言えないワケー？{n}{WAIT}サイテー！",
+        "translation": "You can't even manage one little compliment?{WAIT} You are the worst!"
+      }
+    },
+    "dialogue_0036": {
+      "text": {
+        "reference": "やっぱりあの時、刺しとくべきだったわ！！",
+        "translation": "I should've stabbed you back then!"
+      }
+    },
+    "dialogue_0037": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "ねー、ちょっとー！{n}{demon_name}も、いるのよー。{n}{WAIT}アタシとは、話ができないってワケー！？",
+        "translation": "Hey, wait! {demon_name} is here too.{WAIT} You can't talk to me or something!?"
+      }
+    },
+    "dialogue_0038": {
+      "text": {
+        "reference": "つきあいなさいよー！",
+        "translation": "Pay attention to me!"
+      }
+    },
+    "dialogue_0039": {
+      "text": {
+        "reference": "ごめん。{n}ちょっと、いーい？",
+        "translation": "Sorry. Got a minute?"
+      }
+    },
+    "dialogue_0040": {
+      "text": {
+        "reference": "あーあ。{n}シラケちゃう。",
+        "translation": "Ugh. What a buzzkill."
+      }
+    },
+    "dialogue_0041": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "{demon_name}とも、話してよー。",
+        "translation": "Talk to {demon_name} too!"
+      }
+    },
+    "dialogue_0042": {
+      "text": {
+        "reference": "ずるーい！{n}{WAIT}そっちばっか、楽しそーでさー。",
+        "translation": "No fair!{WAIT} You're having all the fun over there."
+      }
+    },
+    "dialogue_0043": {
+      "text": {
+        "reference": "キャーーーーッ！！{n}{WAIT}ゴメンなさい、{BEAT}ゴメンなさい…{n}{BEAT}ユルして{OP:8026}『{OP:8020}",
+        "translation": "Aaaaaah!{WAIT} I'm sorry,{BEAT} I'm sorry...{BEAT} Forgive me!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0044": {
+      "text": {
+        "reference": "あんなコトも、{BEAT}こんなコトも、{n}{BEAT}してアゲルから…",
+        "translation": "I'll do{BEAT} this and{BEAT} that for you..."
+      }
+    },
+    "dialogue_0045": {
+      "text": {
+        "reference": "ね{OP:8026}『{OP:8020}{BEAT}ね{OP:8026}『{OP:8020}",
+        "translation": "Please!{OP:8026}『{OP:8020}{BEAT} Please!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0046": {
+      "text": {
+        "reference": "許す",
+        "translation": "Forgive her"
+      }
+    },
+    "dialogue_0047": {
+      "text": {
+        "reference": "許さん",
+        "translation": "Refuse"
+      }
+    },
+    "dialogue_0048": {
+      "text": {
+        "reference": "でも。{n}{WAIT}タダってワケにはいかないの。",
+        "translation": "But...{WAIT} it won't be free."
+      }
+    },
+    "dialogue_0049": {
+      "text": {
+        "reference": "それが、世の中ってモンよ。",
+        "translation": "That's how the world works."
+      }
+    },
+    "dialogue_0050": {
+      "text": {
+        "reference": "でも。{n}{WAIT}お洋服、汚れちゃったしー。",
+        "translation": "But...{WAIT} my clothes got dirty."
+      }
+    },
+    "dialogue_0051": {
+      "text": {
+        "reference": "着がえてくるね{OP:8026}『{OP:8020}{n}{WAIT}それまでブラブラしてて、{BEAT}ダーリン{OP:8026}『{OP:8020}",
+        "translation": "I'm gonna change!{OP:8026}『{OP:8020}{WAIT} Wander around till I get back,{BEAT} darling!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0052": {
+      "text": {
+        "reference": "スキありーッ！",
+        "translation": "Gotcha!"
+      }
+    },
+    "dialogue_0053": {
+      "text": {
+        "reference": "オボエてらっしゃーい！！",
+        "translation": "You'll pay for this!"
+      }
+    },
+    "dialogue_0054": {
+      "text": {
+        "reference": "そんなコト言っちゃって。{n}{WAIT}いいの？{BEAT}コーカイするわよ。",
+        "translation": "Keep talking like that.{WAIT} You sure?{BEAT} You'll regret it."
+      }
+    },
+    "dialogue_0055": {
+      "text": {
+        "reference": "ナカマになったげても、いーのよ{OP:8026}『{OP:8020}{n}{WAIT}もちろん、{n}タダってワケにはいかないケド。",
+        "translation": "I could join you, you know!{OP:8026}『{OP:8020}{WAIT} Not for free, obviously."
+      }
+    },
+    "dialogue_0056": {
+      "text": {
+        "reference": "まだまだ、これからが花なのよ。{n}それなのに…",
+        "translation": "I'm still young, with my whole life ahead of me. And yet...",
+        "note": "Message 42/43 page 0 continues on page 1: she cannot stand being defeated in a place like this."
+      }
+    },
+    "dialogue_0057": {
+      "text": {
+        "reference": "こんなトコで倒されちゃ、{n}タマんないわよ！！",
+        "translation": "I can't stand being defeated in a place like this!",
+        "note": "Completes message 42/43 page 0: “I'm still young, with my whole life ahead of me. And yet... / I can't stand being defeated in a place like this!”"
+      }
+    },
+    "dialogue_0058": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}を、手に入れた。",
+        "translation": "You got {offered_item}."
+      }
+    },
+    "dialogue_0059": {
+      "text": {
+        "reference": "あら。{n}もう、ケッコー持ってるじゃん。{n}{WAIT}やっぱ、やーめた！",
+        "translation": "Oh. You're already carrying plenty.{WAIT} Never mind!"
+      }
+    },
+    "dialogue_0060": {
+      "text": {
+        "reference": "んじゃねー、サマナーちゃん{OP:8026}『{OP:8020}",
+        "translation": "See you, Summoner-boy!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0061": {
+      "text": {
+        "reference": "なによー、持ってないじゃん！{n}{WAIT}ウソつきー！！",
+        "translation": "What!? You don't even have it!{WAIT} Liar!"
+      }
+    },
+    "dialogue_0062": {
+      "text": {
+        "reference": "刺すわよ！",
+        "translation": "I'll stab you!"
+      }
+    },
+    "dialogue_0063": {
+      "text": {
+        "reference": "アンタと同じ空気吸ってると思うと、{n}ムカついてきたわ！{n}{WAIT}マジで！！",
+        "translation": "Just knowing we're breathing the same air is pissing me off!{WAIT} Seriously!"
+      }
+    },
+    "dialogue_0064": {
+      "text": {
+        "reference": "めずらしートコで、{n}めずらしーヒトに会うじゃなーい。",
+        "translation": "Meeting a rare guy in a rare place, huh?"
+      }
+    },
+    "dialogue_0065": {
+      "text": {
+        "reference": "なに？",
+        "translation": "What?"
+      }
+    },
+    "dialogue_0066": {
+      "text": {
+        "reference": "仲魔になれ",
+        "translation": "Join me."
+      }
+    },
+    "dialogue_0067": {
+      "text": {
+        "reference": "なんかくれ",
+        "translation": "Give me something."
+      }
+    },
+    "dialogue_0068": {
+      "text": {
+        "reference": "話がある",
+        "translation": "Let's talk."
+      }
+    },
+    "dialogue_0069": {
+      "text": {
+        "reference": "去れ",
+        "translation": "Leave."
+      }
+    },
+    "dialogue_0070": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "え。{n}{demon_name}をー！？{n}{WAIT}んー…",
+        "translation": "What? You want {demon_name}!?{WAIT} Hmm..."
+      }
+    },
+    "dialogue_0071": {
+      "text": {
+        "reference": "んー…{n}{WAIT}ちょっとカンガエさしてー。{n}{WAIT}いきなり、そんなコト言われてもさー。",
+        "translation": "Hmm...{WAIT} Let me think.{WAIT} You can't just spring that on me."
+      }
+    },
+    "dialogue_0072": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "え。{n}{WAIT}{demon_name}がー？キミにー？？{n}ったく、モー{OP:8026}『{OP:8020}",
+        "translation": "What?{WAIT} {demon_name} has to give something to you!? Ugh, seriously!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0073": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "必要なモノくらい、自分で買えないワケ？{n}{WAIT}{offered_item}でいーい？{n}…って、{BEAT}モンクは言わせないわよっ！",
+        "translation": "Can't you buy what you need yourself?{WAIT} Is {offered_item} okay? ...And no complaining!{BEAT}"
+      }
+    },
+    "dialogue_0074": {
+      "text": {
+        "reference": "んじゃねー、ビンボーさん{OP:8026}『{OP:8020}",
+        "translation": "See you, broke boy!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0075": {
+      "text": {
+        "reference": "え。{n}{WAIT}キミ、他人にモノたかるクセさー。{n}直したほーがいーよ！",
+        "translation": "What?{WAIT} You know, you should quit mooching off people."
+      }
+    },
+    "dialogue_0076": {
+      "text": {
+        "reference": "ったく。{n}このビンボーオトコは…",
+        "translation": "Seriously. What a broke loser..."
+      }
+    },
+    "dialogue_0077": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "{demon_name}もさー。{n}キミに話があんの。{n}{WAIT}ちょーどいーわ。",
+        "translation": "{demon_name} wanted to talk to you too.{WAIT} Perfect timing."
+      }
+    },
+    "dialogue_0078": {
+      "text": {
+        "reference": "ちょーどいーわ。{n}{WAIT}キミに聞きたいコト、あったのよー。{n}{BEAT}ちょっと、いーい？",
+        "translation": "Perfect timing.{WAIT} I wanted to ask you something.{BEAT} Got a minute?"
+      }
+    },
+    "dialogue_0079": {
+      "text": {
+        "reference": "まーた、{BEAT}つまんないコト聞くんでしょ。{n}{WAIT}キミの話ってー、{n}{BEAT}長いだけでー、つまん{BEAT}なー{BEAT}い{BEAT}のよー！",
+        "translation": "You're gonna ask something boring again, aren't you?{WAIT} Your stories are just long and{BEAT} bor{BEAT}ing{BEAT},{BEAT} boring!{BEAT}"
+      }
+    },
+    "dialogue_0080": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "まーた、そんなコト言っちゃってー{OP:8026}『{OP:8020}{n}{WAIT}{demon_name}が欲しいんでしょー。{n}{BEAT}ホントはー{OP:8026}『{OP:8020}",
+        "translation": "There you go again!{OP:8026}『{OP:8020}{WAIT} You want {demon_name}, don't you?{BEAT} Admit it!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0081": {
+      "text": {
+        "reference": "そーならそーと、早く言えばいーじゃん。{n}{WAIT}ま、{BEAT}とーぜん、{BEAT}もらうモンはもらうケドー。",
+        "translation": "Then say so sooner.{WAIT} Obviously,{BEAT} I'm still getting{BEAT} something out of it."
+      }
+    },
+    "dialogue_0082": {
+      "text": {
+        "reference": "はあぁーーーーーーん？{n}{BEAT}キミー、ここドコだと思ってるワケー！？{n}{WAIT}異界よ、{OP:8026}{BEAT}イ{BEAT}カ{BEAT}イ{OP:8020}！",
+        "translation": "Huuuuuh?{BEAT} Where do you think you are!?{WAIT} This is the {OP:8026}{BEAT}Ex{BEAT}pan{BEAT}se{OP:8020}!"
+      }
+    },
+    "dialogue_0083": {
+      "text": {
+        "reference": "アクマさんの、おうちなのよ、{BEAT}ワカルー？{n}{WAIT}ヒトんち、勝手にあがりこんどいて、{n}そりゃないでしょー。",
+        "translation": "It's a demon's home,{BEAT} get it?{WAIT} You barge into somebody's house and act like that?"
+      }
+    },
+    "dialogue_0084": {
+      "text": {
+        "reference": "う。{n}そーいうコト、言っちゃうワケー？{n}おんなのコにー？",
+        "translation": "Ugh. You really say that to a girl?"
+      }
+    },
+    "dialogue_0085": {
+      "text": {
+        "reference": "まー、ちょっとくらい、いーじゃん！{n}つきあいなさいよ。",
+        "translation": "Come on, just for a bit! Pay attention to me."
+      }
+    },
+    "dialogue_0086": {
+      "text": {
+        "reference": "どーしたの？{n}なんかあったの？{n}{WAIT}サマナーが、こんなトコで。",
+        "translation": "What's wrong? Something happen?{WAIT} A Summoner, all the way out here..."
+      }
+    },
+    "dialogue_0087": {
+      "text": {
+        "reference": "いったい、ナニしてるワケー？",
+        "translation": "What are you even doing?"
+      }
+    },
+    "dialogue_0088": {
+      "text": {
+        "reference": "MAP作り",
+        "translation": "Making a map"
+      }
+    },
+    "dialogue_0089": {
+      "text": {
+        "reference": "仲魔探し",
+        "translation": "Looking for allies."
+      }
+    },
+    "dialogue_0090": {
+      "text": {
+        "reference": "鍛練",
+        "translation": "Training"
+      }
+    },
+    "dialogue_0091": {
+      "text": {
+        "reference": "悪魔退治",
+        "translation": "Hunting demons."
+      }
+    },
+    "dialogue_0092": {
+      "text": {
+        "reference": "ブラブラしてるだけ",
+        "translation": "Just wandering around."
+      }
+    },
+    "dialogue_0093": {
+      "text": {
+        "reference": "え。{n}マジー？{n}ここの地図、作ってんのー？",
+        "translation": "What? Seriously? You're mapping this place?"
+      }
+    },
+    "dialogue_0094": {
+      "text": {
+        "reference": "手伝ったげよっかなー…",
+        "translation": "Maybe I should help..."
+      }
+    },
+    "dialogue_0095": {
+      "text": {
+        "reference": "え。{n}マジー？",
+        "translation": "What? Seriously?"
+      }
+    },
+    "dialogue_0096": {
+      "text": {
+        "reference": "ここの地図なんか作って、どーすんの？{n}売れないわよ、そんなの。",
+        "translation": "What're you gonna do with a map of this place? Nobody would buy it."
+      }
+    },
+    "dialogue_0097": {
+      "text": {
+        "reference": "あ、そーそー。{n}{WAIT}話、かわるケドさー。",
+        "translation": "Oh, right.{WAIT} Changing the subject..."
+      }
+    },
+    "dialogue_0098": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "まー{OP:8026}『{OP:8020}{n}それって…{n}{WAIT}{demon_name}が欲しいってコトー？",
+        "translation": "Oh!{OP:8026}『{OP:8020} Does that mean...{WAIT} you want {demon_name}?"
+      }
+    },
+    "dialogue_0099": {
+      "text": {
+        "reference": "んー…{n}{WAIT}いーわよ{OP:8026}『{OP:8020}ユルしちゃう{OP:8026}『{OP:8020}",
+        "translation": "Hmm...{WAIT} Okay!{OP:8026}『{OP:8020} I'll allow it!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0100": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "ま{OP:8026}『{OP:8020}{n}それって…{n}{WAIT}{demon_name}が欲しいってコトー？",
+        "translation": "Oh!{OP:8026}『{OP:8020} Does that mean...{WAIT} you want {demon_name}?"
+      }
+    },
+    "dialogue_0101": {
+      "text": {
+        "reference": "んー…{n}{WAIT}それはそれでー、カンガエとくとしてー。",
+        "translation": "Hmm...{WAIT} I'll think about that."
+      }
+    },
+    "dialogue_0102": {
+      "text": {
+        "reference": "へー。{n}イマドキ、感心じゃん。",
+        "translation": "Huh. Hard to find dedication like that these days."
+      }
+    },
+    "dialogue_0103": {
+      "text": {
+        "reference": "手伝ったげよっか？",
+        "translation": "Want me to help?"
+      }
+    },
+    "dialogue_0104": {
+      "text": {
+        "reference": "へー。{n}そりゃー、タイヘンだー。{n}{WAIT}で…",
+        "translation": "Wow. Sounds rough.{WAIT} So...",
+        "note": "Fragment context: message 77 page 0 sets up the question on page 1 (dialogue_0105); page 2 (dialogue_0106) dismisses the exchange."
+      }
+    },
+    "dialogue_0105": {
+      "text": {
+        "reference": "{OP:8026}タンレン{OP:8020}て、{BEAT}だれ？{n}{WAIT}チューゴクの、エラいおぼーさん？",
+        "translation": "This {OP:8026}Training{OP:8020} guy—{BEAT}who is he?{WAIT} Some famous Chinese monk?",
+        "note": "Fragment context: message 77 page 1 completes \"So...\" on page 0 (dialogue_0104), before page 2 dismisses the subject."
+      }
+    },
+    "dialogue_0106": {
+      "text": {
+        "reference": "ま、いいやー。",
+        "translation": "Eh, whatever.",
+        "note": "Fragment context: message 77 page 2 closes the question begun across pages 0-1 (dialogue_0104-dialogue_0105)."
+      }
+    },
+    "dialogue_0107": {
+      "text": {
+        "reference": "げ。{n}{WAIT}その{OP:8026}モミアゲ{OP:8020}で、そーいうコト言われると…{n}{BEAT}なーんか、セットクリョクあるなー。",
+        "translation": "Ugh.{WAIT} Hearing that from a guy with those {OP:8026}sideburns{OP:8020}...{BEAT} It sounds kinda convincing."
+      }
+    },
+    "dialogue_0108": {
+      "text": {
+        "reference": "げ。{n}{WAIT}その{OP:8026}モミアゲ{OP:8020}といい、白いスーツといい…{n}{BEAT}ヤバいヒトかなー、なんて思ったケドー。",
+        "translation": "Ugh.{WAIT} Those {OP:8026}sideburns{OP:8020}, that white suit...{BEAT} I wondered if you were dangerous."
+      }
+    },
+    "dialogue_0109": {
+      "text": {
+        "reference": "ヤッパ、{OP:8026}せなかに絵がある系{OP:8020}なんだー。",
+        "translation": "So you're the {OP:8026}big tattoo on the back{OP:8020} type after all."
+      }
+    },
+    "dialogue_0110": {
+      "text": {
+        "reference": "そーゆートシゴロだもんねー。{n}わかるわー。",
+        "translation": "You're at that age, huh? I get it."
+      }
+    },
+    "dialogue_0111": {
+      "text": {
+        "reference": "ねー。",
+        "translation": "Right?"
+      }
+    },
+    "dialogue_0112": {
+      "text": {
+        "reference": "キミも、年金はらうトシゴロなんだしー。{n}チョットはオチツキなさいよー！",
+        "translation": "You're old enough to pay into a pension. Settle down a little!"
+      }
+    },
+    "dialogue_0113": {
+      "text": {
+        "reference": "いーい！？{n}{WAIT}今度またブラブラしてたら、{n}ショーチしないわよ！",
+        "translation": "Got it?{WAIT} If I catch you wandering around again, you'll be sorry!"
+      }
+    },
+    "dialogue_0114": {
+      "text": {
+        "reference": "アクマに話しかけるなんて、{n}イカレたニンゲンだわね。",
+        "translation": "A human who talks to demons? You're nuts."
+      }
+    },
+    "dialogue_0115": {
+      "text": {
+        "reference": "{BEAT}なんか用なんでしょー？",
+        "translation": "{BEAT}You wanted something, right?"
+      }
+    },
+    "dialogue_0116": {
+      "text": {
+        "reference": "マジー？{n}ナカマー？？{n}{WAIT}話しかけるだけでもヘンなのに…",
+        "translation": "Seriously? You want me to join you?{WAIT} Talking to me was weird enough..."
+      }
+    },
+    "dialogue_0117": {
+      "text": {
+        "reference": "キミー、いちど医者行ったほーがいーわよ。",
+        "translation": "You should seriously see a doctor."
+      }
+    },
+    "dialogue_0118": {
+      "text": {
+        "reference": "ま、タイクツしてたトコだしー。{n}話だけは、聞いたげるわ。",
+        "translation": "Well, I was bored. I'll at least hear you out."
+      }
+    },
+    "dialogue_0119": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "どーしてこの{demon_name}が、{n}キミの言ーなりになんなきゃ、{n}いけないワケー？",
+        "translation": "Why does {demon_name} have to do whatever you say?"
+      }
+    },
+    "dialogue_0120": {
+      "text": {
+        "reference": "ナットク、いかないなー。",
+        "translation": "That makes no sense."
+      }
+    },
+    "dialogue_0121": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "え。{n}{WAIT}{demon_name}が？キミにー！？{n}{WAIT}ったく、モー！",
+        "translation": "What?{WAIT} {demon_name} has to give something to you!?{WAIT} Ugh, seriously!"
+      }
+    },
+    "dialogue_0122": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "ほらっ、{offered_item}。{n}あんまし、たかっちゃダメよー。{n}{WAIT}クセになるから{OP:8026}『{OP:8020}",
+        "translation": "Here, {offered_item}. Don't mooch too much.{WAIT} It becomes a habit!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0123": {
+      "text": {
+        "reference": "え。{n}ちょっと待ってよ！{n}{WAIT}なんで、ミツがなきゃなんないワケー？",
+        "translation": "What? Wait!{WAIT} Why do I have to be a tribute?"
+      }
+    },
+    "dialogue_0124": {
+      "text": {
+        "reference": "ま、いーわ。{n}キミ、おもしろそーだしー。",
+        "translation": "Fine. You look entertaining."
+      }
+    },
+    "dialogue_0125": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "それよかさー。{n}{WAIT}{demon_name}の話、聞いてよー。",
+        "translation": "Anyway...{WAIT} Listen to {demon_name} for a minute."
+      }
+    },
+    "dialogue_0126": {
+      "text": {
+        "reference": "ハナシー！？{n}{WAIT}あんまし、なれなれしくしないでー！！{n}見えすいてんのよー、コンタンは！",
+        "translation": "Talk!?{WAIT} Don't get so familiar! I can see exactly what you're after!"
+      }
+    },
+    "dialogue_0127": {
+      "text": {
+        "reference": "ま、いーわ。",
+        "translation": "Eh, whatever."
+      }
+    },
+    "dialogue_0128": {
+      "text": {
+        "reference": "タイド、でかいわねー！{n}あんまし、なれなれしくしないでよ！！",
+        "translation": "You've got a lot of nerve! Don't get so familiar!"
+      }
+    },
+    "dialogue_0129": {
+      "text": {
+        "reference": "？{n}{WAIT}キミー、マジでイカレてんじゃないのー！？",
+        "translation": "Huh?{WAIT} Are you seriously crazy!?"
+      }
+    },
+    "dialogue_0130": {
+      "text": {
+        "reference": "話しかけたと思ったら、今度は{n}「去れ」！？{n}{WAIT}いーわよ、サルわよ！！",
+        "translation": "First you talk to me, then tell me to leave!?{WAIT} Fine, I'm going!"
+      }
+    },
+    "dialogue_0131": {
+      "text": {
+        "reference": "話しかけたと思ったら、今度は{n}「去れ」！？{n}{WAIT}ナニサマなのよ！！",
+        "translation": "First you talk to me, then tell me to leave!?{WAIT} Who do you think you are!?"
+      }
+    },
+    "dialogue_0132": {
+      "text": {
+        "reference": "イソガシそーねー。",
+        "translation": "You look busy."
+      }
+    },
+    "dialogue_0133": {
+      "text": {
+        "reference": "いったい、ナニやってるワケ？",
+        "translation": "What are you even doing?"
+      }
+    },
+    "dialogue_0134": {
+      "text": {
+        "reference": "へー。{n}楽しそーじゃん。",
+        "translation": "Huh. Sounds fun."
+      }
+    },
+    "dialogue_0135": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "{demon_name}、ヒマしてんの。{n}{WAIT}キミしだいだけどー、{n}手伝ったげてもいーのよ。",
+        "translation": "{demon_name} is bored.{WAIT} Depending on your answer, maybe I'll help."
+      }
+    },
+    "dialogue_0136": {
+      "text": {
+        "reference": "へー。{n}地図作って、どーすんのよー。",
+        "translation": "Huh. What're you gonna do with a map?"
+      }
+    },
+    "dialogue_0137": {
+      "text": {
+        "reference": "まー、いっけどねー。{n}そーゆーの、キョーミないしー。",
+        "translation": "Whatever. I don't care about that stuff."
+      }
+    },
+    "dialogue_0138": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "え。{n}それって…{n}{WAIT}{demon_name}が欲しいってコト？",
+        "translation": "What? Does that mean...{WAIT} you want {demon_name}?"
+      }
+    },
+    "dialogue_0139": {
+      "text": {
+        "reference": "もーちょっと、キミのこと、{n}知りたいんだケドー。",
+        "translation": "I wanna know a little more about you first."
+      }
+    },
+    "dialogue_0140": {
+      "text": {
+        "reference": "へー。{n}そいつは、タイヘンだー。{n}{BEAT}いいコが見っかると、いーねー。",
+        "translation": "Wow, sounds tough.{BEAT} Hope you find a nice one."
+      }
+    },
+    "dialogue_0141": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "んじゃ、{demon_name}はこれで。{n}{WAIT}これからカレシとランデブーだからー。",
+        "translation": "Well, {demon_name} has to go.{WAIT} I'm meeting my boyfriend now."
+      }
+    },
+    "dialogue_0142": {
+      "text": {
+        "reference": "え。{n}ここでキタエてるってーことはー…{n}{WAIT}アクマ、{BEAT}殺しまくりー{BEAT}ってワケー！？",
+        "translation": "What? Training here means...{WAIT} you're killing{BEAT} tons of demons!?{BEAT}"
+      }
+    },
+    "dialogue_0143": {
+      "text": {
+        "reference": "ムカつくー！{n}{WAIT}サイテー！！",
+        "translation": "That pisses me off!{WAIT} You're the worst!"
+      }
+    },
+    "dialogue_0144": {
+      "text": {
+        "reference": "タンメン？",
+        "translation": "Tan-men noodles?"
+      }
+    },
+    "dialogue_0145": {
+      "text": {
+        "reference": "こないだ、{n}「{OP:8026}いちごタンメ～ン{OP:8020}{maru_symbol}」{n}って、大さわぎしてる子がいたケド……",
+        "translation": "The other day, some kid was shouting about {OP:8026}strawberry tan-men{OP:8020}..."
+      }
+    },
+    "dialogue_0146": {
+      "text": {
+        "reference": "さては。{n}{BEAT}キミでしょ、コドモにヘンなモノ教えたの！",
+        "translation": "Wait.{BEAT} You're the one who taught that kid weird food!"
+      }
+    },
+    "dialogue_0147": {
+      "text": {
+        "reference": "そんなモノ食べて、{n}{WAIT}クセになったらどーすんのよ！",
+        "translation": "What if they get hooked on that stuff?{WAIT}"
+      }
+    },
+    "dialogue_0148": {
+      "text": {
+        "reference": "へー。{n}{WAIT}キミに殺されちゃう、{n}オマヌなアクマが、いるワケー？",
+        "translation": "Huh.{WAIT} So there are demons dumb enough to get killed by you?"
+      }
+    },
+    "dialogue_0149": {
+      "text": {
+        "reference": "キャハハハハ。{n}カオ見てみたーい！",
+        "translation": "Ah-ha-ha-ha! I wanna see their faces!"
+      }
+    },
+    "dialogue_0150": {
+      "text": {
+        "reference": "げ。{n}{WAIT}ア・アンタ、{BEAT}ウワサの{BEAT}{OP:8025}デビルバスター{OP:8020}！？{n}{WAIT}マジー！？",
+        "translation": "Ugh.{WAIT} A-are you{BEAT} the rumored{BEAT} {OP:8025}Devil Buster{OP:8020}!?{WAIT} Seriously!?"
+      }
+    },
+    "dialogue_0151": {
+      "text": {
+        "reference": "{OP:8025}デビルバスターバスターズ{OP:8020}に、{n}言ーつけてやるー！！",
+        "translation": "I'm telling the {OP:8025}Devil Buster Busters{OP:8020} on you!"
+      }
+    },
+    "dialogue_0152": {
+      "text": {
+        "reference": "いートシこいてー…{n}{WAIT}オヤが見たら、泣くかもよー",
+        "translation": "At your age...{WAIT} Your parents would cry if they saw you."
+      }
+    },
+    "dialogue_0153": {
+      "text": {
+        "reference": "いートシこいてー…{n}{WAIT}そろそろヨメサンもらって、{n}おちついたらー？",
+        "translation": "At your age...{WAIT} Why not get married and settle down?"
+      }
+    },
+    "dialogue_0154": {
+      "text": {
+        "reference": "なによー。{n}今、いそがしーんだからー！{n}{WAIT}用あんならさー、早くすませてよねー。",
+        "translation": "What? I'm busy!{WAIT} If you need something, hurry up."
+      }
+    },
+    "dialogue_0155": {
+      "text": {
+        "reference": "なーに！？",
+        "translation": "Whaaat!?"
+      }
+    },
+    "dialogue_0156": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "な？{n}ナカマ？{WAIT}{demon_name}がー？",
+        "translation": "J-join you?{WAIT} {demon_name}?"
+      }
+    },
+    "dialogue_0157": {
+      "text": {
+        "reference": "んー…{n}欲しいモノ、あるんだけどなー。",
+        "translation": "Hmm... There is something I want."
+      }
+    },
+    "dialogue_0158": {
+      "text": {
+        "reference": "は？{n}{WAIT}ごめーん、{WAIT}聞こえなかったわー。",
+        "translation": "Huh?{WAIT} Sorry,{WAIT} I didn't hear you."
+      }
+    },
+    "dialogue_0159": {
+      "text": {
+        "reference": "あ、そーそー。{n}{WAIT}ぜんぜん話かわるけどさー。",
+        "translation": "Oh, right.{WAIT} Totally changing the subject..."
+      }
+    },
+    "dialogue_0160": {
+      "text": {
+        "reference": "は？{n}{BEAT}却下よ、{BEAT}キ{BEAT}ャ{BEAT}ッ{BEAT}カ{BEAT}！",
+        "translation": "Huh?{BEAT} Rejected.{BEAT} Re{BEAT}jec{BEAT}ted!{BEAT}{BEAT}"
+      }
+    },
+    "dialogue_0161": {
+      "text": {
+        "reference": "アンタになんて、{n}ビタイチモン、くれてやんなーい！",
+        "translation": "I'm not giving you a single cent!"
+      }
+    },
+    "dialogue_0162": {
+      "text": {
+        "reference": "ところで…{WAIT}ビタ・イチモンって、だれなの？{n}{BEAT}ま、いーか。そんなこと。",
+        "translation": "Speaking of...{WAIT} Who is this \"Single Cent\" guy?{BEAT} Eh, who cares?"
+      }
+    },
+    "dialogue_0163": {
+      "text": {
+        "reference": "別に、いーけどー。",
+        "translation": "Sure, whatever."
+      }
+    },
+    "dialogue_0164": {
+      "text": {
+        "reference": "すればー。{n}{WAIT}ひとりでー。{n}{WAIT}あー、なんかおもしろいコト、ないワケー？",
+        "translation": "Go ahead.{WAIT} Alone.{WAIT} Ugh, isn't there anything fun to do?"
+      }
+    },
+    "dialogue_0165": {
+      "text": {
+        "reference": "るっさいわねー！{n}{WAIT}そんなふーに言わなくたって、{n}いーじゃん！！",
+        "translation": "Shut up!{WAIT} You didn't have to say it like that!"
+      }
+    },
+    "dialogue_0166": {
+      "text": {
+        "reference": "なんかー…{n}{WAIT}アンタのカオ見てると、{n}リフジンにムカついてきたわー…",
+        "translation": "Something about your face...{WAIT} It's making me irrationally angry..."
+      }
+    },
+    "dialogue_0167": {
+      "text": {
+        "reference": "…{BEAT}…{BEAT}リ{BEAT}フジン…？{n}{WAIT}だれの奥さんだろ…{n}{WAIT}ま、いーか。",
+        "translation": "...{BEAT}.{BEAT} Ir{BEAT}rational...?{WAIT} Whose wife is Mrs. Rational?{WAIT} Eh, whatever."
+      }
+    },
+    "dialogue_0168": {
+      "text": {
+        "reference": "ここは、キミみたいな{n}ボクチャンがいる場所とチガウのよー。",
+        "translation": "This isn't a place for a little boy like you."
+      }
+    },
+    "dialogue_0169": {
+      "text": {
+        "reference": "こんなアブないトコで、ナニしてるワケー？",
+        "translation": "What're you doing somewhere this dangerous?"
+      }
+    },
+    "dialogue_0170": {
+      "text": {
+        "reference": "あー。{n}ヤッパ、まだオコチャマなのねー。",
+        "translation": "Oh. So you really are still a little kid."
+      }
+    },
+    "dialogue_0171": {
+      "text": {
+        "reference": "いーでちゅかー。{n}{WAIT}ここは{BEAT}コワい{BEAT}コワい{BEAT}でちゅよー。{n}{BEAT}キャハハハハ。",
+        "translation": "Listen, sweetie.{WAIT} This place is{BEAT} sca{BEAT}ry,{BEAT} scary!{BEAT} Ah-ha-ha-ha!"
+      }
+    },
+    "dialogue_0172": {
+      "text": {
+        "reference": "じゃ、{n}いーコト、教えてアゲよっかー！",
+        "translation": "Then wanna hear something useful?"
+      }
+    },
+    "dialogue_0173": {
+      "text": {
+        "reference": "北向いてー、{BEAT}おハシ持つ手の方がー、{n}{BEAT}…{BEAT}…{BEAT}あれ！？{n}{WAIT}右{BEAT}…{BEAT}だっけ{BEAT}？",
+        "translation": "Face north,{BEAT} then the hand you hold chopsticks with is...{BEAT}.{BEAT}.{BEAT} Wait!?{WAIT} The right{BEAT}.{BEAT} hand?{BEAT}"
+      }
+    },
+    "dialogue_0174": {
+      "text": {
+        "reference": "あーーーー！{n}もーーーー！{n}{WAIT}ムカつくーー！！",
+        "translation": "Aaaah! Ugh!{WAIT} This is so annoying!"
+      }
+    },
+    "dialogue_0175": {
+      "text": {
+        "reference": "んー…{n}見たカンジ、あんましオカネ、{n}持ってそーもないしなー…",
+        "translation": "Hmm... You don't look like you've got much money..."
+      }
+    },
+    "dialogue_0176": {
+      "text": {
+        "reference": "カオもコワいしー。",
+        "translation": "And your face is scary."
+      }
+    },
+    "dialogue_0177": {
+      "text": {
+        "reference": "ねー。{n}ぜんぜん、話かわるケドさー。",
+        "translation": "Hey, totally changing the subject..."
+      }
+    },
+    "dialogue_0178": {
+      "text": {
+        "reference": "へー。{n}それって、けっこームズかしくないー？{n}{WAIT}いーコト、教えてアゲよっかー。",
+        "translation": "Huh. Isn't that pretty difficult?{WAIT} Wanna hear something useful?"
+      }
+    },
+    "dialogue_0179": {
+      "text": {
+        "reference": "いーい、アセっちゃダメなのよー。{n}1回でナカマになってくれる、{n}なんて思ったら、オーマチガーイ！",
+        "translation": "Listen, don't rush it. Thinking a demon will join you on the first try is a huge mistake!"
+      }
+    },
+    "dialogue_0180": {
+      "text": {
+        "reference": "話してるうちに、{n}だんだん親しくなってけば、いーのよ。{n}ワカッター？",
+        "translation": "Just keep talking, and you'll gradually get closer. Got it?"
+      }
+    },
+    "dialogue_0181": {
+      "text": {
+        "reference": "え。{n}ここでキタエてるってーことはー…{n}{WAIT}アクマ、殺しまくりってワケー！？",
+        "translation": "What? Training here means...{WAIT} you're slaughtering demons!?"
+      }
+    },
+    "dialogue_0182": {
+      "text": {
+        "reference": "アンタ、{BEAT}サイテー！！",
+        "translation": "You are{BEAT} the worst!"
+      }
+    },
+    "dialogue_0183": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "へー、そー。{n}{WAIT}キミに殺されちゃうほど、{n}{demon_name}は、アマくないワヨー！！",
+        "translation": "Oh, really?{WAIT} {demon_name} isn't weak enough to be killed by you!"
+      }
+    },
+    "dialogue_0184": {
+      "text": {
+        "reference": "ウソつきー！！",
+        "translation": "Liar!"
+      }
+    },
+    "dialogue_0185": {
+      "text": {
+        "reference": "ウソつきー！{n}{WAIT}好きで異界なんかウロつかないワヨ、{n}ニンゲンはー！！",
+        "translation": "Liar!{WAIT} Humans don't wander the Expanse for fun!"
+      }
+    },
+    "dialogue_0186": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "{demon_name}を、{n}殺しに来たんでしょー！？",
+        "translation": "You came to kill {demon_name}, didn't you!?"
+      }
+    },
+    "dialogue_0187": {
+      "text": {
+        "reference": "気が合いそーじゃん、アタシたち！",
+        "translation": "Seems like we really click!"
+      }
+    },
+    "dialogue_0188": {
+      "text": {
+        "reference": "もしかして…",
+        "translation": "Could it mean..."
+      }
+    },
+    "dialogue_0189": {
+      "text": {
+        "reference": "愛しあってる",
+        "translation": "We're in love."
+      }
+    },
+    "dialogue_0190": {
+      "text": {
+        "reference": "嫌いあってる",
+        "translation": "We hate each other."
+      }
+    },
+    "dialogue_0191": {
+      "text": {
+        "reference": "ま{OP:8026}『{OP:8020}{n}豪速球なヒト{OP:8026}『{OP:8020}",
+        "translation": "Wow!{OP:8026}『{OP:8020} Talk about a fastball!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0192": {
+      "text": {
+        "reference": "サイテー{BEAT}…{BEAT}…",
+        "translation": "You're the worst...{BEAT}.{BEAT}"
+      }
+    },
+    "dialogue_0193": {
+      "text": {
+        "reference": "ヒドイ…{n}{BEAT}キミのこと、{BEAT}好きだったのに…{n}{WAIT}刺してやる…",
+        "translation": "That's horrible...{BEAT} I liked you...{BEAT}{WAIT} I'll stab you..."
+      }
+    },
+    "dialogue_0194": {
+      "text": {
+        "reference": "アクマのこと、どー思ってるー？",
+        "translation": "What do you think of demons?"
+      }
+    },
+    "dialogue_0195": {
+      "text": {
+        "reference": "やっぱ、{BEAT}キラ{BEAT}…{BEAT}イ？",
+        "translation": "Do you{BEAT} ha{BEAT}.{BEAT}te us?"
+      }
+    },
+    "dialogue_0196": {
+      "text": {
+        "reference": "そんなことはない",
+        "translation": "That's not true."
+      }
+    },
+    "dialogue_0197": {
+      "text": {
+        "reference": "嫌い",
+        "translation": "I hate them."
+      }
+    },
+    "dialogue_0198": {
+      "text": {
+        "reference": "よかった…{n}{WAIT}ちょっと、アンシン。",
+        "translation": "Thank goodness...{WAIT} That's a relief."
+      }
+    },
+    "dialogue_0199": {
+      "text": {
+        "reference": "ウソつきー！{n}{WAIT}じゃーどーして、{n}武器持ってウロついてんのよー！！",
+        "translation": "Liar!{WAIT} Then why're you wandering around with weapons!?"
+      }
+    },
+    "dialogue_0200": {
+      "text": {
+        "reference": "あ。{n}ハッキリ言ってくれるじゃん！",
+        "translation": "Oh! You really say it straight!"
+      }
+    },
+    "dialogue_0201": {
+      "text": {
+        "reference": "スパッてモノが言えるヒトって、{n}最近いないしー。{n}{BEAT}キモチいーわー！",
+        "translation": "Nobody speaks that bluntly anymore.{BEAT} It's refreshing!"
+      }
+    },
+    "dialogue_0202": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}『{OP:8020}{n}{demon_name}のキモチよ{OP:8026}『{OP:8020}",
+        "translation": "{offered_item}!{BEAT} For{BEAT} you!{BEAT}{BEAT}{OP:8026}『{OP:8020} It's how {demon_name} feels!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0203": {
+      "text": {
+        "reference": "あ。{n}ハッキリ言ってくれるじゃん！",
+        "translation": "Oh! You really say it straight!"
+      }
+    },
+    "dialogue_0204": {
+      "text": {
+        "reference": "キミさー、ここドコだと思ってるワケー！？{n}{WAIT}異界よ、{OP:8026}{BEAT}イ{BEAT}カ{BEAT}イ{OP:8020}！",
+        "translation": "Where do you think you are!?{WAIT} This is the {OP:8026}{BEAT}Ex{BEAT}pan{BEAT}se{OP:8020}!"
+      }
+    },
+    "dialogue_0205": {
+      "text": {
+        "reference": "アクマさんの、おうちなのよ、{BEAT}ワカルー？{n}{WAIT}ちょっとは、自分の立場カンガエたらー？",
+        "translation": "It's a demon's home,{BEAT} get it?{WAIT} Maybe think about your position!"
+      }
+    },
+    "dialogue_0206": {
+      "text": {
+        "reference": "キミ、デビルサマナーでしょ？{n}{BEAT}で。",
+        "translation": "You're a Devil Summoner, right?{BEAT} So..."
+      }
+    },
+    "dialogue_0207": {
+      "text": {
+        "reference": "それって、どーゆーシゴトなワケー？",
+        "translation": "What kind of job is that?"
+      }
+    },
+    "dialogue_0208": {
+      "text": {
+        "reference": "悪魔召喚師",
+        "translation": "A Devil Summoner."
+      }
+    },
+    "dialogue_0209": {
+      "text": {
+        "reference": "探偵",
+        "translation": "A detective"
+      }
+    },
+    "dialogue_0210": {
+      "text": {
+        "reference": "悪魔退治屋",
+        "translation": "A demon hunter"
+      }
+    },
+    "dialogue_0211": {
+      "text": {
+        "reference": "へー。{n}なんかー、オモシロそーじゃん。{n}{WAIT}参加してあげても、いーわよ{OP:8026}『{OP:8020}",
+        "translation": "Huh. Sounds kinda fun.{WAIT} Maybe I'll join in!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0212": {
+      "text": {
+        "reference": "その{BEAT}まんまじゃーん！{n}{WAIT}だれが、和訳しろなんて言ったのよー！{n}ったく…",
+        "translation": "That's literally the same thing!{BEAT}{WAIT} Who asked for a translation? Seriously..."
+      }
+    },
+    "dialogue_0213": {
+      "text": {
+        "reference": "コキ使うワケー？{BEAT}アクマをー？{n}{BEAT}そんで、いらなくなったら{BEAT}ガッタイ…？{n}{WAIT}いー商売してんじゃん。",
+        "translation": "You work demons{BEAT} to death?{BEAT} Then fuse them{BEAT} when you're done?{WAIT} Nice business."
+      }
+    },
+    "dialogue_0214": {
+      "text": {
+        "reference": "アンタと同じ空気吸ってると思うと、{n}ムカついてきたわ！{WAIT}マジで。",
+        "translation": "Just knowing we're breathing the same air is pissing me off!{WAIT} Seriously."
+      }
+    },
+    "dialogue_0215": {
+      "text": {
+        "reference": "あ。{n}わかった。{n}{OP:8026}ウワキ{OP:8020}のチョーサに来たんでしょー{OP:8026}『{OP:8020}",
+        "translation": "Oh, I get it. You're investigating {OP:8026}cheating{OP:8020}, aren't you?{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0216": {
+      "text": {
+        "reference": "キャー、それってミリョクー！！",
+        "translation": "Wow, how glamorous!"
+      }
+    },
+    "dialogue_0217": {
+      "text": {
+        "reference": "タンテイ？{n}んー…{n}アヤシーなー。",
+        "translation": "A detective? Hmm... Suspicious."
+      }
+    },
+    "dialogue_0218": {
+      "text": {
+        "reference": "なんで、探偵が武器持ってるワケー！？",
+        "translation": "Why does a detective carry weapons!?"
+      }
+    },
+    "dialogue_0219": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "マジー！？{n}{WAIT}{offered_item}アゲルからさー。{n}{WAIT}見逃して{OP:8026}『{OP:8020}{BEAT}ね{OP:8026}『{OP:8020}{BEAT}ね{OP:8026}『{OP:8020}",
+        "translation": "Seriously!?{WAIT} I'll give you {offered_item}.{WAIT} Let me go!{OP:8026}『{OP:8020}{BEAT} Please!{OP:8026}『{OP:8020}{BEAT} Please!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0220": {
+      "text": {
+        "reference": "じゃ、そーゆーことで…",
+        "translation": "Okay, then..."
+      }
+    },
+    "dialogue_0221": {
+      "text": {
+        "reference": "ヤれるモンなら、ヤってみなさいよー！！",
+        "translation": "If you can do it, try!"
+      }
+    },
+    "dialogue_0222": {
+      "text": {
+        "reference": "キミさー。",
+        "translation": "Hey..."
+      }
+    },
+    "dialogue_0223": {
+      "text": {
+        "reference": "アクマ殺しといて、ヘーキなワケー？",
+        "translation": "You feel nothing after killing demons?"
+      }
+    },
+    "dialogue_0224": {
+      "text": {
+        "reference": "良心がとがめる",
+        "translation": "I feel guilty."
+      }
+    },
+    "dialogue_0225": {
+      "text": {
+        "reference": "平気",
+        "translation": "It doesn't bother me."
+      }
+    },
+    "dialogue_0226": {
+      "text": {
+        "reference": "だったらー、どーして殺すワケー！？{n}{WAIT}ま。{n}キミも、ナヤんでるのよね…",
+        "translation": "Then why kill them!?{WAIT} Well... I guess it bothers you too."
+      }
+    },
+    "dialogue_0227": {
+      "text": {
+        "reference": "両親はカンケーないの！！{n}{WAIT}パパやママに聞かないと、{n}なーんにも決められないワケー？",
+        "translation": "Your parents have nothing to do with it!{WAIT} Can't you decide anything without asking Mommy and Daddy?"
+      }
+    },
+    "dialogue_0228": {
+      "text": {
+        "reference": "最近のオトコは…{n}ったく…",
+        "translation": "Men these days... Seriously..."
+      }
+    },
+    "dialogue_0229": {
+      "text": {
+        "reference": "アンタと同じ空気吸ってると思うと、{n}死にたくなってくるわ…{BEAT}マジで。",
+        "translation": "Just knowing we're breathing the same air makes me wanna die...{BEAT} Seriously."
+      }
+    },
+    "dialogue_0230": {
+      "text": {
+        "reference": "ま、いーわ。",
+        "translation": "Eh, whatever."
+      }
+    },
+    "dialogue_0231": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "{demon_name}、最近カンガエてんのよ。{n}たまにはアカデミックにー、みたいな。{n}{WAIT}核兵器って、あるじゃん。",
+        "translation": "{demon_name} has been thinking lately. Trying to be academic for once.{WAIT} You know nuclear weapons?"
+      }
+    },
+    "dialogue_0232": {
+      "text": {
+        "reference": "あれって…{n}{WAIT}当たったら、痛ソーだよねー。",
+        "translation": "Those things...{WAIT} They look like they'd really hurt if they hit you."
+      }
+    },
+    "dialogue_0233": {
+      "text": {
+        "reference": "キミ、核兵器どー思う？",
+        "translation": "So, what do you think of nukes?"
+      }
+    },
+    "dialogue_0234": {
+      "text": {
+        "reference": "許されない",
+        "translation": "They're unforgivable."
+      }
+    },
+    "dialogue_0235": {
+      "text": {
+        "reference": "持つだけならいい",
+        "translation": "Owning them is fine."
+      }
+    },
+    "dialogue_0236": {
+      "text": {
+        "reference": "すばらしい",
+        "translation": "They're wonderful."
+      }
+    },
+    "dialogue_0237": {
+      "text": {
+        "reference": "痛そう",
+        "translation": "They look painful."
+      }
+    },
+    "dialogue_0238": {
+      "text": {
+        "reference": "気が合うじゃん！{n}{WAIT}キミしだいだけどー、{n}ついてったげても、いーわよ。",
+        "translation": "We think alike!{WAIT} Depending on what you say next, maybe I'll join you."
+      }
+    },
+    "dialogue_0239": {
+      "text": {
+        "reference": "そーよ！{n}ニンゲンって、許されないのよー！{n}{WAIT}いっつも、ジブンカッテでゴーマンで！！",
+        "translation": "Exactly! Humans are unforgivable!{WAIT} Always selfish and arrogant!"
+      }
+    },
+    "dialogue_0240": {
+      "text": {
+        "reference": "他のイキモノのこと、{n}ぜーんぜん、カンガエてないんだから！",
+        "translation": "You don't think about other living things at all!"
+      }
+    },
+    "dialogue_0241": {
+      "text": {
+        "reference": "どーしてー！？{n}持ってたら、使いたくなっちゃうじゃん！{n}{WAIT}アブナイよ、やっぱ。",
+        "translation": "Why!? If you own one, you'll wanna use it!{WAIT} It's still dangerous."
+      }
+    },
+    "dialogue_0242": {
+      "text": {
+        "reference": "どーしてー！？{n}持ってたら、使いたくなっちゃうじゃん！{n}{WAIT}特に…",
+        "translation": "Why!? If you own one, you'll wanna use it!{WAIT} Especially...",
+        "note": "Fragment context: message 190 page 0 continues on page 1 (dialogue_0243): the hero especially looks likely to use it."
+      }
+    },
+    "dialogue_0243": {
+      "text": {
+        "reference": "キミなんか、使いそーなカオしてるしー。{n}{WAIT}こんなアブナそーなヤツのナカマなんて…{n}{BEAT}死んだって、なんないわよー！",
+        "translation": "You look like you'd use one.{WAIT} Join a dangerous guy like you? I'd rather{BEAT} die!",
+        "note": "Fragment context: message 190 page 1 completes \"Especially...\" on page 0 (dialogue_0242)."
+      }
+    },
+    "dialogue_0244": {
+      "text": {
+        "reference": "そりゃー…{n}{WAIT}お湯もわかせるだろーしー、{n}{WAIT}そしたらー、{BEAT}ラーメンも作れるケドー…",
+        "translation": "Well...{WAIT} It could boil water.{WAIT} Then you could{BEAT} make ramen..."
+      }
+    },
+    "dialogue_0245": {
+      "text": {
+        "reference": "そんなに、いーモンかなー。",
+        "translation": "But is that really so great?"
+      }
+    },
+    "dialogue_0246": {
+      "text": {
+        "reference": "サイテー！{n}{WAIT}キミみたいのがいると、{n}メーワクなのよー！！",
+        "translation": "You're the worst!{WAIT} People like you cause nothing but trouble!"
+      }
+    },
+    "dialogue_0247": {
+      "text": {
+        "reference": "でしょでしょー！{n}{WAIT}あんなモン作るニンゲンの、{n}気がシレないわー！！",
+        "translation": "Right, right!{WAIT} I can't understand humans who build those things!"
+      }
+    },
+    "dialogue_0248": {
+      "text": {
+        "reference": "でしょでしょー！{n}{WAIT}やっぱー、イタイのは、イヤだよねー。",
+        "translation": "Right, right!{WAIT} Pain is bad, obviously."
+      }
+    },
+    "dialogue_0249": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "もしさー、世界がホロビてさー。{n}{WAIT}{demon_name}とキミ、{n}{BEAT}2人だけが残ったとしたら…",
+        "translation": "Say the world ended.{WAIT} Only you and {demon_name} survived...{BEAT}"
+      }
+    },
+    "dialogue_0250": {
+      "text": {
+        "reference": "どーするー？",
+        "translation": "What would you do?"
+      }
+    },
+    "dialogue_0251": {
+      "text": {
+        "reference": "愛に生きる",
+        "translation": "Live for love"
+      }
+    },
+    "dialogue_0252": {
+      "text": {
+        "reference": "戦う",
+        "translation": "Fight"
+      }
+    },
+    "dialogue_0253": {
+      "text": {
+        "reference": "仲魔にする",
+        "translation": "Make you my ally"
+      }
+    },
+    "dialogue_0254": {
+      "text": {
+        "reference": "まー{OP:8026}『{OP:8020}{n}{WAIT}信じて…{BEAT}信じていーのね{OP:8026}『{OP:8020}",
+        "translation": "Oh my!{OP:8026}『{OP:8020}{WAIT} I can trust you...{BEAT} right?{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0255": {
+      "text": {
+        "reference": "よくも、シャーシャーと。{n}だれにでも、そんなコト言ってんでしょー！{n}{WAIT}オンナの敵ー！！",
+        "translation": "You say that so shamelessly. Bet you tell every girl the same thing!{WAIT} Enemy of women!"
+      }
+    },
+    "dialogue_0256": {
+      "text": {
+        "reference": "う。{n}{WAIT}わかりやすいコタエね。",
+        "translation": "Ugh.{WAIT} At least that's easy to understand."
+      }
+    },
+    "dialogue_0257": {
+      "text": {
+        "reference": "いーコンジョーしてるわー。",
+        "translation": "You've got some nerve."
+      }
+    },
+    "dialogue_0258": {
+      "text": {
+        "reference": "う。{n}{WAIT}わかりやすいコタエ、どーもありがとー。{n}よーく、わかったわー。",
+        "translation": "Ugh.{WAIT} Thanks for the very clear answer. Now I understand you perfectly."
+      }
+    },
+    "dialogue_0259": {
+      "text": {
+        "reference": "しょせん、アクマとニンゲン{BEAT}ってワケー？{n}{WAIT}ココロのせまいオトコねー。",
+        "translation": "So demons and humans can never understand each other?{BEAT}{WAIT} What a narrow-minded man."
+      }
+    },
+    "dialogue_0260": {
+      "text": {
+        "reference": "しょせん、アクマとニンゲン{BEAT}ってワケー？",
+        "translation": "So demons and humans can never understand each other?{BEAT}"
+      }
+    },
+    "dialogue_0261": {
+      "text": {
+        "reference": "あ、そー。{n}時間のムダだったみたい。{n}{WAIT}んじゃね！",
+        "translation": "Oh, fine. This was a waste of time.{WAIT} Bye!"
+      }
+    },
+    "dialogue_0262": {
+      "text": {
+        "reference": "キミー、有名人ー？",
+        "translation": "Are you famous?"
+      }
+    },
+    "dialogue_0263": {
+      "text": {
+        "reference": "そうだ",
+        "translation": "That's right."
+      }
+    },
+    "dialogue_0264": {
+      "text": {
+        "reference": "違う",
+        "translation": "No."
+      }
+    },
+    "dialogue_0265": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "マジー！？{n}{WAIT}いっしょについてったらー、{n}{demon_name}も有名になれるかなー。",
+        "translation": "Seriously!?{WAIT} If I went with you, maybe {demon_name} would get famous too."
+      }
+    },
+    "dialogue_0266": {
+      "text": {
+        "reference": "アタシをナンパしに来たの？",
+        "translation": "Did you come to pick me up?"
+      }
+    },
+    "dialogue_0267": {
+      "text": {
+        "reference": "やっぱりー！！",
+        "translation": "I knew it!"
+      }
+    },
+    "dialogue_0268": {
+      "text": {
+        "reference": "じゃー、キミが最近ウワサの…{n}{WAIT}アクマ殺しってワケー！？",
+        "translation": "Then...{WAIT} you're the demon killer everyone's talking about!?"
+      }
+    },
+    "dialogue_0269": {
+      "text": {
+        "reference": "なーんだー。{n}ドキドキして、ソンしちゃった。",
+        "translation": "Oh, never mind. I got excited for nothing."
+      }
+    },
+    "dialogue_0270": {
+      "text": {
+        "reference": "あ、そー。{n}じゃー、用ナシね。",
+        "translation": "Oh. Then I don't need you."
+      }
+    },
+    "dialogue_0271": {
+      "text": {
+        "reference": "キミ、血液型はー？",
+        "translation": "What's your blood type?"
+      }
+    },
+    "dialogue_0272": {
+      "text": {
+        "reference": "AB型",
+        "translation": "Type AB."
+      }
+    },
+    "dialogue_0273": {
+      "text": {
+        "reference": "O型",
+        "translation": "Type O."
+      }
+    },
+    "dialogue_0274": {
+      "text": {
+        "reference": "B型",
+        "translation": "Type B."
+      }
+    },
+    "dialogue_0275": {
+      "text": {
+        "reference": "A型",
+        "translation": "Type A."
+      }
+    },
+    "dialogue_0276": {
+      "text": {
+        "reference": "えー！{n}ウッソー！！",
+        "translation": "What!? No way!"
+      }
+    },
+    "dialogue_0277": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "それって、{demon_name}と{n}相性バッチリじゃーん{maru_symbol}",
+        "translation": "That makes you a perfect match for {demon_name}!"
+      }
+    },
+    "dialogue_0278": {
+      "text": {
+        "reference": "キミしだいだけどー、{n}ついてったげても、いーのよ。",
+        "translation": "Depending on what you say, maybe I'll come with you."
+      }
+    },
+    "dialogue_0279": {
+      "text": {
+        "reference": "えー！{n}ウッソー！！",
+        "translation": "What!? No way!"
+      }
+    },
+    "dialogue_0280": {
+      "text": {
+        "reference": "じゃー、いくら血ー流してもー、{n}{WAIT}輸血されまくりで、オッケーじゃーん！！",
+        "translation": "Then no matter how much blood you lose,{WAIT} you can just keep getting transfusions!"
+      }
+    },
+    "dialogue_0281": {
+      "text": {
+        "reference": "O型のオトコって…{n}{WAIT}あんまし、いー思い出ないのよねー。",
+        "translation": "Men with type O blood...{WAIT} I don't have good memories of them."
+      }
+    },
+    "dialogue_0282": {
+      "text": {
+        "reference": "イーカゲンで、アキっぽいオトコって、{n}サイテー！！",
+        "translation": "Flighty men who can't commit are the worst!"
+      }
+    },
+    "dialogue_0283": {
+      "text": {
+        "reference": "オンナの敵よー！！",
+        "translation": "Enemy of women!"
+      }
+    },
+    "dialogue_0284": {
+      "text": {
+        "reference": "シンケーシツなオトコって、{n}疲れるのよねー。",
+        "translation": "Neurotic men are exhausting."
+      }
+    },
+    "dialogue_0285": {
+      "text": {
+        "reference": "ちょっとさー！{n}{WAIT}その銃、さっきから気になるのよ！！",
+        "translation": "Hey!{WAIT} That gun's been bothering me this whole time!"
+      }
+    },
+    "dialogue_0286": {
+      "text": {
+        "reference": "外してくんなーい？",
+        "translation": "Would you take it off?"
+      }
+    },
+    "dialogue_0287": {
+      "text": {
+        "reference": "外す",
+        "translation": "Remove it"
+      }
+    },
+    "dialogue_0288": {
+      "text": {
+        "reference": "外さない",
+        "translation": "Keep it on"
+      }
+    },
+    "dialogue_0289": {
+      "text": {
+        "reference": "いーわー。{n}{WAIT}じゃ、本題に入りましょー{OP:8026}『{OP:8020}",
+        "translation": "Good.{WAIT} Now let's get to the point!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0290": {
+      "text": {
+        "reference": "いーわー。{n}いーわよー{OP:8026}『{OP:8020}",
+        "translation": "Perfect. Just perfect!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0291": {
+      "text": {
+        "reference": "あ、そー。{n}{WAIT}そーゆータイド、とっちゃうワケー。",
+        "translation": "Oh, really?{WAIT} That's the attitude you're taking."
+      }
+    },
+    "dialogue_0292": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "あ、そー。{n}{WAIT}{demon_name}と話す気、{n}ないってワケー。",
+        "translation": "Oh, really?{WAIT} So you don't want to talk to {demon_name}."
+      }
+    },
+    "dialogue_0293": {
+      "text": {
+        "reference": "ま、いーわ。{n}じゃ、そーゆーことで。",
+        "translation": "Fine. Then we're done."
+      }
+    },
+    "dialogue_0294": {
+      "text": {
+        "reference": "あ、そー。{n}そーゆータイド、とっちゃうワケー。{n}{WAIT}かかってきなさいよー！！",
+        "translation": "Oh, really? That's the attitude you're taking.{WAIT} Come at me!"
+      }
+    },
+    "dialogue_0295": {
+      "text": {
+        "reference": "アンタと同じ空気吸ってると思うと、{n}ムカついてきた！！{n}{WAIT}マジでー！",
+        "translation": "Just knowing we're breathing the same air is pissing me off!{WAIT} Seriously!"
+      }
+    },
+    "dialogue_0296": {
+      "text": {
+        "reference": "帰ってくんなーい？",
+        "translation": "Would you go home?"
+      }
+    },
+    "dialogue_0297": {
+      "text": {
+        "reference": "立ち去る",
+        "translation": "Leave"
+      }
+    },
+    "dialogue_0298": {
+      "text": {
+        "reference": "無視する",
+        "translation": "Ignore her"
+      }
+    },
+    "dialogue_0299": {
+      "text": {
+        "reference": "じゃ、そーゆーことで。{n}おつかれー。",
+        "translation": "Fine, then. Bye."
+      }
+    },
+    "dialogue_0300": {
+      "text": {
+        "reference": "もー2度と現われないで！！{n}マジ、ムカつくから！",
+        "translation": "Never show your face again! You seriously piss me off!"
+      }
+    },
+    "dialogue_0301": {
+      "text": {
+        "reference": "次に生まれる時は、{n}ちゃーんと、モミアゲ切っとくのよー！！",
+        "translation": "In your next life, trim those sideburns properly!"
+      }
+    },
+    "dialogue_0302": {
+      "text": {
+        "reference": "ま、いーわ。{n}言うだけ言ったら、{n}ちょっとスッキリしたしー。",
+        "translation": "Whatever. Saying my piece made me feel a little better."
+      }
+    },
+    "dialogue_0303": {
+      "text": {
+        "reference": "そのタイドが、気に喰わないのよー！",
+        "translation": "I hate that attitude!"
+      }
+    },
+    "dialogue_0304": {
+      "text": {
+        "reference": "ねー、聞いてー。",
+        "translation": "Hey, listen."
+      }
+    },
+    "dialogue_0305": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "もしもさー、{demon_name}がさー。{n}{WAIT}ナカマにして{OP:8026}『{OP:8020}{n}ってオネガイしたら…",
+        "translation": "Say {demon_name} asked,{WAIT} \"Make me your ally!\"{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0306": {
+      "text": {
+        "reference": "キミ、どーする？",
+        "translation": "What would you do?"
+      }
+    },
+    "dialogue_0307": {
+      "text": {
+        "reference": "お断りだ",
+        "translation": "Absolutely not."
+      }
+    },
+    "dialogue_0308": {
+      "text": {
+        "reference": "どうしようかな",
+        "translation": "I'd think about it."
+      }
+    },
+    "dialogue_0309": {
+      "text": {
+        "reference": "マジー！？{n}{WAIT}ウレシー{OP:8026}『『{OP:8020}",
+        "translation": "Seriously!?{WAIT} Yay!{OP:8026}『『{OP:8020}"
+      }
+    },
+    "dialogue_0310": {
+      "text": {
+        "reference": "マジー！？{n}じゃー、カンガエとくわ{OP:8026}『{OP:8020}{n}{WAIT}そのうち、{BEAT}ね。",
+        "translation": "Seriously!? Then I'll think about it!{OP:8026}『{OP:8020}{WAIT} Someday,{BEAT} maybe."
+      }
+    },
+    "dialogue_0311": {
+      "text": {
+        "reference": "サイテー！{n}信じらんなーい！！{n}{WAIT}もっと、言い方ってもんがあるでしょー！？",
+        "translation": "You're the worst! Unbelievable!{WAIT} You could at least say it nicely!"
+      }
+    },
+    "dialogue_0312": {
+      "text": {
+        "reference": "サイテー！{n}信じらんなーい！！",
+        "translation": "You're the worst! Unbelievable!"
+      }
+    },
+    "dialogue_0313": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "この{demon_name}ちゃんを、{n}よくもコケにしてくれたわねー！{n}{WAIT}オボエてらっしゃーい！！",
+        "translation": "How dare you make a fool of little {demon_name}!{WAIT} You'll pay for this!"
+      }
+    },
+    "dialogue_0314": {
+      "text": {
+        "reference": "じらさないで{OP:8026}『{OP:8020}{n}{WAIT}もー{OP:8026}『{OP:8020}",
+        "translation": "Quit teasing me!{OP:8026}『{OP:8020}{WAIT} Come on!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0315": {
+      "text": {
+        "reference": "んー…{n}{WAIT}じゃー、よくカンガエといてねー{OP:8026}『{OP:8020}",
+        "translation": "Hmm...{WAIT} Think it over carefully, okay?{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0316": {
+      "text": {
+        "reference": "サヨナラー。",
+        "translation": "Bye!"
+      }
+    },
+    "dialogue_0317": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "{demon_name}のコト、好き？",
+        "translation": "Do you like {demon_name}?"
+      }
+    },
+    "dialogue_0318": {
+      "text": {
+        "reference": "好き",
+        "translation": "I like you."
+      }
+    },
+    "dialogue_0319": {
+      "text": {
+        "reference": "きらい",
+        "translation": "I hate you."
+      }
+    },
+    "dialogue_0320": {
+      "text": {
+        "reference": "どうでもいい",
+        "translation": "I don't care."
+      }
+    },
+    "dialogue_0321": {
+      "text": {
+        "reference": "マジー！？{n}うれしー{OP:8026}『{OP:8020}",
+        "translation": "Seriously!? Yay!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0322": {
+      "text": {
+        "reference": "そーゆー時って、ウソでもいーから、{n}{WAIT}{OP:8026}スキ『{OP:8020}{BEAT}って言っとくもんよ！",
+        "translation": "At times like this, you lie and say...{WAIT}{OP:8026}I love you{OP:8020}!{BEAT}"
+      }
+    },
+    "dialogue_0323": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "ムカつくー！{n}{demon_name}、帰るー！！",
+        "translation": "I'm so mad! {demon_name} is going home!"
+      }
+    },
+    "dialogue_0324": {
+      "text": {
+        "reference": "そーゆー時って、ウソでもいーから、{n}{WAIT}{OP:8026}スキ『{OP:8020}{BEAT}って言って欲しいモンなのよ！",
+        "translation": "At times like this, even if it's a lie, a girl wants to hear...{WAIT}{OP:8026}I love you{OP:8020}!{BEAT}"
+      }
+    },
+    "dialogue_0325": {
+      "text": {
+        "reference": "もー、なんにもワカっちゃいない…",
+        "translation": "You don't understand anything..."
+      }
+    },
+    "dialogue_0326": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "そーゆータイド、とるワケー？{n}{demon_name}に、きらわれたいのー！？",
+        "translation": "That's the attitude you're taking? You want {demon_name} to hate you!?"
+      }
+    },
+    "dialogue_0327": {
+      "text": {
+        "reference": "そーゆータイド、とるワケー？{n}ロクな死に方しないわよ、アンタ！",
+        "translation": "That's the attitude you're taking? You'll die horribly!"
+      }
+    },
+    "dialogue_0328": {
+      "text": {
+        "reference": "オボエてらっしゃい！！",
+        "translation": "You'll pay for this!"
+      }
+    },
+    "dialogue_0329": {
+      "text": {
+        "reference": "…{BEAT}…{BEAT}ねー。{n}{BEAT}ちょっとー。",
+        "translation": "...{BEAT}.{BEAT} Hey...{BEAT} Listen."
+      }
+    },
+    "dialogue_0330": {
+      "text": {
+        "reference": "ダマってないで、なんか話してよー。",
+        "translation": "Don't just stand there. Say something."
+      }
+    },
+    "dialogue_0331": {
+      "text": {
+        "reference": "愛を語る",
+        "translation": "Talk about love"
+      }
+    },
+    "dialogue_0332": {
+      "text": {
+        "reference": "人生を語る",
+        "translation": "Talk about life"
+      }
+    },
+    "dialogue_0333": {
+      "text": {
+        "reference": "料理を語る",
+        "translation": "Talk about cooking"
+      }
+    },
+    "dialogue_0334": {
+      "text": {
+        "reference": "まんだんをする",
+        "translation": "Tell some jokes"
+      }
+    },
+    "dialogue_0335": {
+      "text": {
+        "reference": "政治を語る",
+        "translation": "Talk politics"
+      }
+    },
+    "dialogue_0336": {
+      "text": {
+        "reference": "あ…{n}{WAIT}え…{OP:8026}『{OP:8020}{n}{WAIT}あ、{BEAT}そんな{BEAT}…{BEAT}…{BEAT}{OP:8026}『{OP:8020}",
+        "translation": "Ah...{WAIT} Um...{OP:8026}『{OP:8020}{WAIT} Oh,{BEAT} you can't{BEAT}.{BEAT}.{BEAT}{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0337": {
+      "text": {
+        "reference": "そんなコト言ってくれんの、キミだけ{OP:8026}『{OP:8020}{n}{WAIT}シアワセにしてくれる？{n}{WAIT}してくれなきゃ、刺しちゃうワヨ{OP:8026}『{OP:8020}",
+        "translation": "You're the only one who says things like that!{OP:8026}『{OP:8020}{WAIT} Will you make me happy?{WAIT} If not, I'll stab you!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0338": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "そんなコト言ってくれんの、キミだけよ{OP:8026}『{OP:8020}{n}{WAIT}{offered_item}、アゲちゃう{OP:8026}『{OP:8020}",
+        "translation": "You're the only one who says things like that!{OP:8026}『{OP:8020}{WAIT} I'll give you {offered_item}!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0339": {
+      "text": {
+        "reference": "へー。{n}ためになったカモ。{n}{WAIT}キミの話、オモシロイわー{maru_symbol}",
+        "translation": "Huh. Maybe I learned something.{WAIT} Your stories are interesting!"
+      }
+    },
+    "dialogue_0340": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}、{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}『{OP:8020}",
+        "translation": "Here,{BEAT} take{BEAT} {offered_item}!{BEAT}{BEAT}{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0341": {
+      "text": {
+        "reference": "また、聞かしてねー。",
+        "translation": "Tell me more sometime."
+      }
+    },
+    "dialogue_0342": {
+      "text": {
+        "reference": "…{BEAT}…{BEAT}…{BEAT}すやすや{BEAT}……{BEAT}ぐぅ{BEAT}…",
+        "translation": "...{BEAT}.{BEAT}.{BEAT} Snore...{BEAT}.{BEAT} Zzz...{BEAT}"
+      }
+    },
+    "dialogue_0343": {
+      "text": {
+        "reference": "へー！{n}{WAIT}{OP:8024}ケータイ固形食料{OP:8020}と{OP:8025}カレー{OP:8020}で、{n}{OP:8026}まずいナラヅケ{OP:8020}の味ー！？",
+        "translation": "Wow!{WAIT} {OP:8024}Portable rations{OP:8020} and {OP:8025}curry{OP:8020} taste like {OP:8026}awful pickles{OP:8020}!?"
+      }
+    },
+    "dialogue_0344": {
+      "text": {
+        "reference": "今度、ためしてみよー{maru_symbol}",
+        "translation": "I'll try that sometime!"
+      }
+    },
+    "dialogue_0345": {
+      "text": {
+        "reference": "あ、そーそー。{n}{WAIT}ぜんぜん話かわるケドー。",
+        "translation": "Oh, right.{WAIT} Totally changing the subject..."
+      }
+    },
+    "dialogue_0346": {
+      "text": {
+        "reference": "うんちくタレるオトコって、{n}吐き気がすんのよー！！",
+        "translation": "Men who lecture all day make me sick!"
+      }
+    },
+    "dialogue_0347": {
+      "text": {
+        "reference": "ぜーん{BEAT}ぜん{BEAT}ツマンナイ！{n}{WAIT}んじゃね！サヨナラ！！",
+        "translation": "To{BEAT}tal{BEAT}ly boring!{WAIT} Bye!"
+      }
+    },
+    "dialogue_0348": {
+      "text": {
+        "reference": "…{BEAT}…{BEAT}キャハハハハ！！{n}{BEAT}グーよ、グー。{n}サイコー{maru_symbol}",
+        "translation": "...{BEAT}.{BEAT} Ah-ha-ha-ha!{BEAT} Good, really good. Amazing!"
+      }
+    },
+    "dialogue_0349": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}、{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}『{OP:8020}",
+        "translation": "Here,{BEAT} take{BEAT} {offered_item}!{BEAT}{BEAT}{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0350": {
+      "text": {
+        "reference": "また聞かしてねー。",
+        "translation": "Tell me more sometime."
+      }
+    },
+    "dialogue_0351": {
+      "text": {
+        "reference": "…{BEAT}…{BEAT}死ぬがいーわ！！",
+        "translation": "...{BEAT}.{BEAT} Drop dead!"
+      }
+    },
+    "dialogue_0352": {
+      "text": {
+        "reference": "へー。{n}わかったよーな、気がするー。{n}{WAIT}なんかー、{BEAT}アタマ良くなったよーなー。",
+        "translation": "Huh. I think I kinda get it.{WAIT} I feel{BEAT} smarter now."
+      }
+    },
+    "dialogue_0353": {
+      "text": {
+        "reference": "でも、ケッコー疲れたわー。{n}帰って、おフロ入って寝よ。",
+        "translation": "But that was exhausting. I'm going home for a bath and bed."
+      }
+    },
+    "dialogue_0354": {
+      "text": {
+        "reference": "？？{n}{WAIT}わっかんなーい！！",
+        "translation": "What?{WAIT} I don't get it!"
+      }
+    },
+    "dialogue_0355": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "どーせー。{n}{demon_name}はアタマ悪いしー。{n}{WAIT}ムカつくー！！",
+        "translation": "Whatever. {demon_name} is stupid anyway.{WAIT} This sucks!"
+      }
+    },
+    "dialogue_0356": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "…{BEAT}…{BEAT}ねー。{n}{BEAT}{demon_name}のためにさー。",
+        "translation": "...{BEAT}.{BEAT} Hey.{BEAT} For {demon_name}..."
+      }
+    },
+    "dialogue_0357": {
+      "text": {
+        "reference": "なんか歌ってー{OP:8026}『{OP:8020}",
+        "translation": "Sing something!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0358": {
+      "text": {
+        "reference": "バラード",
+        "translation": "A ballad"
+      }
+    },
+    "dialogue_0359": {
+      "text": {
+        "reference": "演歌",
+        "translation": "Enka"
+      }
+    },
+    "dialogue_0360": {
+      "text": {
+        "reference": "和歌",
+        "translation": "A waka poem"
+      }
+    },
+    "dialogue_0361": {
+      "text": {
+        "reference": "ラジヲ体操第2",
+        "translation": "Radio Calisthenics No. 2"
+      }
+    },
+    "dialogue_0362": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "…{BEAT}…{BEAT}そんなにも。{n}{BEAT}そんなにも、{BEAT}{demon_name}のこと{BEAT}…{n}{WAIT}いーわ{OP:8026}『{OP:8020}",
+        "translation": "...{BEAT}.{BEAT} You feel that strongly...{BEAT} that strongly about {demon_name}...{BEAT}.{BEAT}{WAIT} Fine!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0363": {
+      "text": {
+        "reference": "…{BEAT}…{BEAT}かゆー。{n}{BEAT}かゆ、{BEAT}かゆ、{BEAT}かゆ、{BEAT}かゆいー！{n}{BEAT}体がー、{BEAT}あー、{BEAT}かー{BEAT}ゆー{BEAT}いー！！",
+        "translation": "...{BEAT}.{BEAT} Itchy.{BEAT} Itchy,{BEAT} itchy,{BEAT} itchy,{BEAT} so itchy!{BEAT} My body—{BEAT} ah,{BEAT} so{BEAT} it{BEAT}chy!"
+      }
+    },
+    "dialogue_0364": {
+      "text": {
+        "reference": "やめてー！{n}{WAIT}ナカマになったげるからさー！！",
+        "translation": "Stop!{WAIT} I'll join you, okay!?"
+      }
+    },
+    "dialogue_0365": {
+      "text": {
+        "reference": "フー…",
+        "translation": "Phew..."
+      }
+    },
+    "dialogue_0366": {
+      "text": {
+        "reference": "んー…{n}タマシイ、入ってるってカンジー。{n}{WAIT}いろいろ、苦労してんのねー。",
+        "translation": "Hmm... I can feel your soul in it.{WAIT} You've been through a lot."
+      }
+    },
+    "dialogue_0367": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}、{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}『{OP:8020}{n}{WAIT}強く生きんのよー！",
+        "translation": "Here,{BEAT} take{BEAT} {offered_item}!{BEAT}{BEAT}{OP:8026}『{OP:8020}{WAIT} Stay strong!"
+      }
+    },
+    "dialogue_0368": {
+      "text": {
+        "reference": "んー…{n}まだまだってカンジー。",
+        "translation": "Hmm... You've still got a long way to go."
+      }
+    },
+    "dialogue_0369": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "いーい？{n}お客サマはカミサマなのよ！{n}でね、{WAIT}{demon_name}はお客サマなの。",
+        "translation": "Listen. The customer is always right! And{WAIT} {demon_name} is the customer."
+      }
+    },
+    "dialogue_0370": {
+      "text": {
+        "reference": "つまり、アタシはカミサマなのよ！！{n}{WAIT}さー、カミサマにミツいでチョーダイ！！",
+        "translation": "Which means I'm always right!{WAIT} Now pay tribute to your goddess!"
+      }
+    },
+    "dialogue_0371": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "あー。{n}{demon_name}、それ知ってるー。",
+        "translation": "Oh! {demon_name} knows that one!",
+        "note": "Fragment context: message 295 page 0 continues through pages 1-2 (dialogue_0372-dialogue_0373), where the remembered proposal poem prompts an excited reaction."
+      }
+    },
+    "dialogue_0372": {
+      "text": {
+        "reference": "昔のエライヒトが、{n}プロポーズに使った歌でしょー。{n}{WAIT}ってコトはー{BEAT}…{BEAT}…",
+        "translation": "A famous man long ago used that poem to propose, right?{WAIT} Which means...{BEAT}.{BEAT}",
+        "note": "Fragment context: message 295 page 1 links the remembered poem on page 0 (dialogue_0371) to the reaction on page 2 (dialogue_0373)."
+      }
+    },
+    "dialogue_0373": {
+      "text": {
+        "reference": "まー{OP:8026}『{OP:8020}{n}どーしましょ{OP:8026}『{OP:8020}",
+        "translation": "Oh my!{OP:8026}『{OP:8020} What should I do?{OP:8026}『{OP:8020}",
+        "note": "Fragment context: message 295 page 2 completes \"Which means...\" on page 1 (dialogue_0372)."
+      }
+    },
+    "dialogue_0374": {
+      "text": {
+        "reference": "？",
+        "translation": "Huh?"
+      }
+    },
+    "dialogue_0375": {
+      "text": {
+        "reference": "ナニソレー？{n}{WAIT}カルタでも始める気？",
+        "translation": "What was that?{WAIT} Are you starting a poetry-card game?"
+      }
+    },
+    "dialogue_0376": {
+      "text": {
+        "reference": "……！！{n}{WAIT}なぜラジヲたいそー{BEAT}…{BEAT}…{BEAT}…{WAIT}第2！？",
+        "translation": "......!{WAIT} Why Radio Calisthenics{BEAT}.{BEAT}.{BEAT}.{WAIT} No. 2!?"
+      }
+    },
+    "dialogue_0377": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "タダ者じゃないってカンジ！{n}{demon_name}も、いっしょに行くー！！",
+        "translation": "You're no ordinary guy! {demon_name} is coming with you!"
+      }
+    },
+    "dialogue_0378": {
+      "text": {
+        "reference": "タダ者じゃないってカンジ！",
+        "translation": "You're no ordinary guy!"
+      }
+    },
+    "dialogue_0379": {
+      "text": {
+        "reference": "あー。{n}都会って、どーして{n}こーゴミゴミしてるかなー！！",
+        "translation": "Ugh. Why are cities always so crowded and filthy!?"
+      }
+    },
+    "dialogue_0380": {
+      "text": {
+        "reference": "ウサギ小屋みたいなトコ、住んでさー。{n}バッカじゃないのー、みんなー。",
+        "translation": "Everybody lives in little rabbit hutches. What a bunch of idiots."
+      }
+    },
+    "dialogue_0381": {
+      "text": {
+        "reference": "キミ、どーしてこんなマチ住んでんの？",
+        "translation": "Why do you live in a city like this?"
+      }
+    },
+    "dialogue_0382": {
+      "text": {
+        "reference": "この街が好きだから",
+        "translation": "I love this city."
+      }
+    },
+    "dialogue_0383": {
+      "text": {
+        "reference": "都会は便利だから",
+        "translation": "The city is convenient."
+      }
+    },
+    "dialogue_0384": {
+      "text": {
+        "reference": "よけいなお世話だ",
+        "translation": "None of your business."
+      }
+    },
+    "dialogue_0385": {
+      "text": {
+        "reference": "そー、スキなんだー。",
+        "translation": "Oh, you love it."
+      }
+    },
+    "dialogue_0386": {
+      "text": {
+        "reference": "それじゃー、{n}{WAIT}マチが壊れちゃったら、カナシーよね。{n}{BEAT}…{BEAT}…{BEAT}そっかー。",
+        "translation": "Then...{WAIT} you'd be sad if the city were destroyed.{BEAT}.{BEAT}.{BEAT} I see."
+      }
+    },
+    "dialogue_0387": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "{demon_name}でよけりゃ、チカラになるよ。",
+        "translation": "If {demon_name} is good enough, I'll help."
+      }
+    },
+    "dialogue_0388": {
+      "text": {
+        "reference": "それじゃー、このマチが壊れちゃっても…{n}スキなまんまで、いられるかしらー{maru_symbol}",
+        "translation": "So if this city were destroyed... would you still love it?"
+      }
+    },
+    "dialogue_0389": {
+      "text": {
+        "reference": "キャハハハハ！",
+        "translation": "Ah-ha-ha-ha!"
+      }
+    },
+    "dialogue_0390": {
+      "text": {
+        "reference": "でもさー。{n}ベンリなのは、いーんだけどさー。",
+        "translation": "Convenience is nice, sure."
+      }
+    },
+    "dialogue_0391": {
+      "text": {
+        "reference": "かわりに、なくしてるモノも、{n}多いんじゃー、ないのかなー。{n}{WAIT}ま、いーけど。",
+        "translation": "But don't you lose a lot in exchange?{WAIT} Whatever."
+      }
+    },
+    "dialogue_0392": {
+      "text": {
+        "reference": "でもさー。{n}そのベンリなモノに{n}フリ回されちゃってるみたいなトコ、ない？",
+        "translation": "Doesn't it ever feel like all that convenience is controlling you?"
+      }
+    },
+    "dialogue_0393": {
+      "text": {
+        "reference": "ま、いーけどさー。{n}{WAIT}んじゃねー{OP:8026}『{OP:8020}",
+        "translation": "Whatever.{WAIT} Bye!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0394": {
+      "text": {
+        "reference": "じゃー、このマチどーなってもいーんだー。{n}へー。{n}{WAIT}ま、いーけど。",
+        "translation": "So you don't care what happens to this city. Huh.{WAIT} Whatever."
+      }
+    },
+    "dialogue_0395": {
+      "text": {
+        "reference": "キミ、アクマガッタイ、どー思う？{n}アクマにだって、ココロはあんのよ！",
+        "translation": "What do you think about demon fusion? Demons have hearts too!"
+      }
+    },
+    "dialogue_0396": {
+      "text": {
+        "reference": "ちょっとは気がとがめたりしないワケー？",
+        "translation": "Don't you feel even a little guilty?"
+      }
+    },
+    "dialogue_0397": {
+      "text": {
+        "reference": "なんとも思わない",
+        "translation": "I feel nothing."
+      }
+    },
+    "dialogue_0398": {
+      "text": {
+        "reference": "気がとがめる",
+        "translation": "I feel guilty."
+      }
+    },
+    "dialogue_0399": {
+      "text": {
+        "reference": "ひっどーい！{n}サイテー！！",
+        "translation": "How horrible! You're the worst!"
+      }
+    },
+    "dialogue_0400": {
+      "text": {
+        "reference": "サイテー！{n}{BEAT}アクマのよーなヤツね、アンタ！！",
+        "translation": "The worst!{BEAT} You're more demonic than any demon!"
+      }
+    },
+    "dialogue_0401": {
+      "text": {
+        "reference": "んー…{n}{WAIT}いーわ。{n}信じたげる。",
+        "translation": "Hmm...{WAIT} Fine. I'll believe you."
+      }
+    },
+    "dialogue_0402": {
+      "text": {
+        "reference": "んー…{n}{BEAT}んー…{n}{BEAT}んー…",
+        "translation": "Hmm...{BEAT} Hmm...{BEAT} Hmm..."
+      }
+    },
+    "dialogue_0403": {
+      "text": {
+        "reference": "本心、見えないなー。{n}{WAIT}日頃のオコナイが、オコナイだけにー。",
+        "translation": "I can't see your true feelings.{WAIT} Your everyday behavior doesn't inspire confidence."
+      }
+    },
+    "dialogue_0404": {
+      "text": {
+        "reference": "{OP:8023}BAR{OP:8020}には行ってみたー？",
+        "translation": "Have you tried the {OP:8023}bar{OP:8020}?"
+      }
+    },
+    "dialogue_0405": {
+      "text": {
+        "reference": "行った",
+        "translation": "I have."
+      }
+    },
+    "dialogue_0406": {
+      "text": {
+        "reference": "行ってない",
+        "translation": "I haven't."
+      }
+    },
+    "dialogue_0407": {
+      "text": {
+        "reference": "{OP:8025}ナチュラルハイ{OP:8020}、もー飲んだー？{n}あのショウチュウ、いーわよー。",
+        "translation": "Tried {OP:8025}Natural High{OP:8020} yet? That shochu is great."
+      }
+    },
+    "dialogue_0408": {
+      "text": {
+        "reference": "目の前がねー、{BEAT}ぶわー{BEAT}ってハジケルのー{maru_symbol}{n}{WAIT}ぶわー{BEAT}って。",
+        "translation": "Everything in front of you{BEAT} explodes{BEAT} into color!{WAIT} Just{BEAT} whoosh!"
+      }
+    },
+    "dialogue_0409": {
+      "text": {
+        "reference": "…{BEAT}…{BEAT}なんかアタシ、{n}{BEAT}アタマ悪そーな話してるわね。{n}{WAIT}本題に入りましょーか。",
+        "translation": "...{BEAT}.{BEAT} Wow, I sound{BEAT} really stupid.{WAIT} Let's get to the point."
+      }
+    },
+    "dialogue_0410": {
+      "text": {
+        "reference": "{OP:8025}ガムシロップ{OP:8020}、いーわよー、あまくてー{OP:8026}『{OP:8020}{n}あれって、だれでもカンタンに作れるのー。",
+        "translation": "{OP:8025}Gum Syrup{OP:8020} is great—so sweet!{OP:8026}『{OP:8020} Anyone can make it easily."
+      }
+    },
+    "dialogue_0411": {
+      "text": {
+        "reference": "でも、あんまし飲むと、ふとりそーで…",
+        "translation": "But drink too much and you'll probably get fat..."
+      }
+    },
+    "dialogue_0412": {
+      "text": {
+        "reference": "{OP:8023}ノーザンエチル{OP:8020}って、知ってるー？{n}あれって、めちゃくちゃキッツイわよねー。{n}いかにも、カラダに悪そうな名前だしー。",
+        "translation": "Know {OP:8023}North Ethyl{OP:8020}? That stuff is insanely strong. Even the name sounds unhealthy."
+      }
+    },
+    "dialogue_0413": {
+      "text": {
+        "reference": "でも、すっごくチカラ出るのよ。",
+        "translation": "But it makes you incredibly powerful."
+      }
+    },
+    "dialogue_0414": {
+      "text": {
+        "reference": "えー、行ったことないのー？{n}いっぺん、行ってみー。{n}楽しーから。",
+        "translation": "What, you've never been? Try it sometime. It's fun."
+      }
+    },
+    "dialogue_0415": {
+      "text": {
+        "reference": "あ、それと。{n}{WAIT}{OP:8025}メグスリビア{OP:8020}、おんなのコに飲ませて、{n}ヘンなコトしちゃダメよ{OP:8026}『{OP:8020}",
+        "translation": "Oh, and one more thing.{WAIT} Don't give {OP:8025}Megu Beer{OP:8020} to girls and do anything creepy!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0416": {
+      "text": {
+        "reference": "いっぺん、行ってみー。{n}楽しーお酒、けっこーあるからー。",
+        "translation": "Try it sometime. They've got lots of fun drinks."
+      }
+    },
+    "dialogue_0417": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "{demon_name}ね、欲しいモノがあるの{OP:8026}『{OP:8020}",
+        "translation": "There's something {demon_name} wants!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0418": {
+      "placeholders": {
+        "requested_item": "item_name"
+      },
+      "text": {
+        "reference": "{requested_item}ちょーだーい{OP:8026}『{OP:8020}",
+        "translation": "Give me {requested_item}!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0419": {
+      "text": {
+        "reference": "渡す",
+        "translation": "Hand it over."
+      }
+    },
+    "dialogue_0420": {
+      "text": {
+        "reference": "渡さない",
+        "translation": "Refuse"
+      }
+    },
+    "dialogue_0421": {
+      "text": {
+        "reference": "まー{OP:8026}『{OP:8020}{n}ステキー。",
+        "translation": "Oh my!{OP:8026}『{OP:8020} Wonderful."
+      }
+    },
+    "dialogue_0422": {
+      "text": {
+        "reference": "ウットリー。",
+        "translation": "I'm swooning."
+      }
+    },
+    "dialogue_0423": {
+      "text": {
+        "reference": "まー{OP:8026}『{OP:8020}{n}ステキー。",
+        "translation": "Oh my!{OP:8026}『{OP:8020} Wonderful."
+      }
+    },
+    "dialogue_0424": {
+      "text": {
+        "reference": "ウットリー。{n}{WAIT}…{BEAT}…{BEAT}まだ、{BEAT}持ってんじゃないのー？",
+        "translation": "I'm swooning.{WAIT}.{BEAT}.{BEAT} You still{BEAT} have more, don't you?"
+      }
+    },
+    "dialogue_0425": {
+      "text": {
+        "reference": "ないのー？{n}んー…{n}{WAIT}ま、いーわ。",
+        "translation": "You don't have it? Hmm...{WAIT} Fine."
+      }
+    },
+    "dialogue_0426": {
+      "text": {
+        "reference": "じゃー、他のをちょーだい{OP:8026}『{OP:8020}",
+        "translation": "Then give me something else!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0427": {
+      "text": {
+        "reference": "ないのー？{n}んー…{n}{WAIT}じゃー、{BEAT}キミをちょーだーい{OP:8026}『{OP:8020}",
+        "translation": "You don't have it? Hmm...{WAIT} Then{BEAT} give me yourself!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0428": {
+      "text": {
+        "reference": "そー言えば…{n}{WAIT}キミ、礼儀を知らないオトコねー！",
+        "translation": "Come to think of it...{WAIT} You have no manners!"
+      }
+    },
+    "dialogue_0429": {
+      "text": {
+        "reference": "SWORDくらい、外しなさいよー！",
+        "translation": "At least unequip your sword!"
+      }
+    },
+    "dialogue_0430": {
+      "text": {
+        "reference": "いーわー。{n}じゃ、本題に入りましょー{OP:8026}『{OP:8020}",
+        "translation": "Good. Now let's get to the point!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0431": {
+      "text": {
+        "reference": "いーわー。{n}そのチョーシよー{OP:8026}『{OP:8020}",
+        "translation": "Good. That's more like it!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0432": {
+      "text": {
+        "reference": "いーわー。{n}たーっぷり、カワイがったげる{OP:8026}『{OP:8020}",
+        "translation": "Good. I'm gonna show you lots of love!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0433": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "あ、そー。{n}{demon_name}と話す気、{n}ぜーんぜんないってワケー。",
+        "translation": "Oh, really? So you have no interest at all in talking to {demon_name}."
+      }
+    },
+    "dialogue_0434": {
+      "text": {
+        "reference": "ま、いーわ。{n}じゃ、そーゆーことで。",
+        "translation": "Fine. Then we're done."
+      }
+    },
+    "dialogue_0435": {
+      "text": {
+        "reference": "あ、そー。{n}そーゆータイド、とっちゃうワケー。",
+        "translation": "Oh, really? That's the attitude you're taking."
+      }
+    },
+    "dialogue_0436": {
+      "text": {
+        "reference": "かかってきなさいよー！！",
+        "translation": "Come at me!"
+      }
+    },
+    "dialogue_0437": {
+      "text": {
+        "reference": "あ、そー。{n}そーゆータイド、とっちゃうワケー{BEAT}…{BEAT}…",
+        "translation": "Oh, really? That's the attitude you're taking...{BEAT}.{BEAT}"
+      }
+    },
+    "dialogue_0438": {
+      "text": {
+        "reference": "今日のところは、これでユルしたげるわ。{n}オボエてらっしゃーい！！",
+        "translation": "I'll let you off for today. You'll pay next time!"
+      }
+    },
+    "dialogue_0439": {
+      "text": {
+        "reference": "刺してやる…",
+        "translation": "I'll stab you..."
+      }
+    },
+    "dialogue_0440": {
+      "text": {
+        "reference": "なだめる",
+        "translation": "Calm her"
+      }
+    },
+    "dialogue_0441": {
+      "text": {
+        "reference": "逃げる",
+        "translation": "Run away"
+      }
+    },
+    "dialogue_0442": {
+      "text": {
+        "reference": "…{BEAT}わかったわよ。{n}{WAIT}話だけは、聞いたげようじゃない！",
+        "translation": "...{BEAT} Fine.{WAIT} I'll at least hear you out!"
+      }
+    },
+    "dialogue_0443": {
+      "text": {
+        "reference": "…{BEAT}ホンキで怒らせる気ー！！",
+        "translation": "...{BEAT} You really wanna make me mad!?"
+      }
+    },
+    "dialogue_0444": {
+      "text": {
+        "reference": "キーーーッ！{n}待ちなさいよー！！",
+        "translation": "Eeeeeek! Wait!"
+      }
+    },
+    "dialogue_0445": {
+      "text": {
+        "reference": "キャハハハハ！！{n}カワイがったげるわー{OP:8026}『{OP:8020}",
+        "translation": "Ah-ha-ha-ha! I'm gonna play with you!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0446": {
+      "text": {
+        "reference": "この先に行くワケー？{n}{WAIT}やめなよー。{n}死んじゃうカモよ！",
+        "translation": "You're going farther in?{WAIT} Don't. You might die!"
+      }
+    },
+    "dialogue_0447": {
+      "text": {
+        "reference": "帰って、TV見てたほーが、楽しいってー！",
+        "translation": "Going home and watching TV would be more fun!"
+      }
+    },
+    "dialogue_0448": {
+      "text": {
+        "reference": "助力を求める",
+        "translation": "Ask for help"
+      }
+    },
+    "dialogue_0449": {
+      "text": {
+        "reference": "助言を求める",
+        "translation": "Ask for advice"
+      }
+    },
+    "dialogue_0450": {
+      "text": {
+        "reference": "去る",
+        "translation": "Leave"
+      }
+    },
+    "dialogue_0451": {
+      "text": {
+        "reference": "んー…{n}しょーがないなー。{n}{WAIT}こんなアタシでも、いないよりマシかー。",
+        "translation": "Hmm... Guess I have no choice.{WAIT} Even I'm better than nobody."
+      }
+    },
+    "dialogue_0452": {
+      "text": {
+        "reference": "んー…{n}キミしだいカナー。{n}{WAIT}たくさん、ハズんでくれたらね{OP:8026}『{OP:8020}",
+        "translation": "Hmm... Depends on you.{WAIT} If you make it worth my while!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0453": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "んー…{n}じゃー、{offered_item}。{n}なんかのタシにしてー。",
+        "translation": "Hmm... Here, {offered_item}. Put it toward something."
+      }
+    },
+    "dialogue_0454": {
+      "text": {
+        "reference": "んじゃ、そーゆーコトで。",
+        "translation": "Okay, then."
+      }
+    },
+    "dialogue_0455": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "んー…{n}{WAIT}この{demon_name}をさー。{n}ナカマにすると、いーかもよ{OP:8026}『{OP:8020}",
+        "translation": "Hmm...{WAIT} You should make {demon_name} your ally. It might help!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0456": {
+      "text": {
+        "reference": "ワカルー？",
+        "translation": "Get it?"
+      }
+    },
+    "dialogue_0457": {
+      "text": {
+        "reference": "んー…{n}こまめに回復しろってことカナー？{n}{WAIT}こーんなふーにネ{OP:8026}『{OP:8020}",
+        "translation": "Hmm... Maybe heal often?{WAIT} Like this!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0458": {
+      "text": {
+        "reference": "ほら。{n}{BEAT}ゲンキにやんのよー{OP:8026}『{OP:8020}",
+        "translation": "There!{BEAT} Stay healthy!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0459": {
+      "text": {
+        "reference": "んー…{n}{WAIT}早く、カタギな商売につきなさい！{n}{BEAT}ってコトかなー？",
+        "translation": "Hmm...{WAIT} Get an honest job soon!{BEAT} Maybe that's it?"
+      }
+    },
+    "dialogue_0460": {
+      "text": {
+        "reference": "もちろん。{n}{WAIT}生きて帰れたらの話だけどー。",
+        "translation": "Of course...{WAIT} assuming you make it home alive."
+      }
+    },
+    "dialogue_0461": {
+      "text": {
+        "reference": "んじゃねー{OP:8026}『{OP:8020}",
+        "translation": "Bye!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0462": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "まってー！{n}{WAIT}{offered_item}、{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}『{OP:8020}{n}{BEAT}ほんのキモチよ。",
+        "translation": "Wait!{WAIT} Here,{BEAT} take{BEAT} {offered_item}!{BEAT}{BEAT}{OP:8026}『{OP:8020}{BEAT} Just a little gift."
+      }
+    },
+    "dialogue_0463": {
+      "text": {
+        "reference": "ムリしないのよー！",
+        "translation": "Don't push yourself!"
+      }
+    },
+    "dialogue_0464": {
+      "text": {
+        "reference": "キミ。{n}さいしょに思ったホド、{n}悪いヒトじゃなさそーだしー。",
+        "translation": "You don't seem as bad as I first thought."
+      }
+    },
+    "dialogue_0465": {
+      "text": {
+        "reference": "スカウトされても、{BEAT}いっかなー、{BEAT}なんてー。",
+        "translation": "Maybe I'd let you scout me...{BEAT} Maybe.{BEAT}"
+      }
+    },
+    "dialogue_0466": {
+      "text": {
+        "reference": "交渉してみる",
+        "translation": "Negotiate"
+      }
+    },
+    "dialogue_0467": {
+      "text": {
+        "reference": "ことわる",
+        "translation": "Refuse."
+      }
+    },
+    "dialogue_0468": {
+      "text": {
+        "reference": "話、ハヤいじゃん！",
+        "translation": "Straight to business!"
+      }
+    },
+    "dialogue_0469": {
+      "text": {
+        "reference": "そー…",
+        "translation": "I see..."
+      }
+    },
+    "dialogue_0470": {
+      "text": {
+        "reference": "キタイはしてなかったケドさー。{n}{BEAT}そースッパリ言われると…{n}{BEAT}チョッピリさみしーなー。",
+        "translation": "I didn't expect much, but...{BEAT} hearing it so bluntly...{BEAT} kinda hurts."
+      }
+    },
+    "dialogue_0471": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "はい、{offered_item}。{n}せめて、これくらいしてアゲたいの。",
+        "translation": "Here, {offered_item}. At least let me do this much."
+      }
+    },
+    "dialogue_0472": {
+      "text": {
+        "reference": "…{BEAT}…{BEAT}サヨナラ！",
+        "translation": "...{BEAT}.{BEAT} Goodbye!"
+      }
+    },
+    "dialogue_0473": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "そー…{n}{WAIT}{demon_name}なんて、{n}{WAIT}必要ない、{BEAT}か…",
+        "translation": "I see...{WAIT} So you don't{WAIT} need {demon_name}.{BEAT}"
+      }
+    },
+    "dialogue_0474": {
+      "text": {
+        "reference": "スキよ{OP:8026}『{OP:8020}{n}アタシを見て…",
+        "translation": "I like you!{OP:8026}『{OP:8020} Look at me..."
+      }
+    },
+    "dialogue_0475": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "{demon_name}の目、もっとよく見て{OP:8026}『{OP:8020}",
+        "translation": "Look deeper into {demon_name}'s eyes!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0476": {
+      "text": {
+        "reference": "目を見る",
+        "translation": "Look into her eyes"
+      }
+    },
+    "dialogue_0477": {
+      "text": {
+        "reference": "目をそらす",
+        "translation": "Look away"
+      }
+    },
+    "dialogue_0478": {
+      "text": {
+        "reference": "…{BEAT}あ。{n}{WAIT}あぁ{BEAT}…、{BEAT}ヘンになりそ。",
+        "translation": "...{BEAT} Ah.{WAIT} Ahh{BEAT}.{BEAT} I feel strange."
+      }
+    },
+    "dialogue_0479": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "…{BEAT}キャハハハハ。{n}かかったわねー！{n}{WAIT}もーキミは、{demon_name}の{BEAT}ト{BEAT}リ{BEAT}コ{OP:8026}『{OP:8020}",
+        "translation": "...{BEAT} Ah-ha-ha-ha! You fell for it!{WAIT} Now you're {demon_name}'s{BEAT} cap{BEAT}tive!{BEAT}{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0480": {
+      "text": {
+        "reference": "サイテー！{n}もー、ムードブチ壊しー！！{n}{WAIT}ま、{BEAT}いーわ。",
+        "translation": "You're the worst! You ruined the mood!{WAIT} Fine,{BEAT} whatever."
+      }
+    },
+    "dialogue_0481": {
+      "text": {
+        "reference": "その分、高くつくわよ！",
+        "translation": "But it'll cost you extra!"
+      }
+    },
+    "dialogue_0482": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "サイテー！{n}もー、ムードブチ壊しー！{n}{WAIT}{demon_name}、帰るー！！",
+        "translation": "You're the worst! You ruined the mood!{WAIT} {demon_name} is going home!"
+      }
+    },
+    "dialogue_0483": {
+      "text": {
+        "reference": "サイテー！{n}もー、ムードブチ壊しー！{n}{WAIT}ムカつくのよ、アンター！！",
+        "translation": "You're the worst! You ruined the mood!{WAIT} You really piss me off!"
+      }
+    },
+    "dialogue_0484": {
+      "text": {
+        "reference": "そろそろ、交渉に入ろっか。",
+        "translation": "Let's start negotiating."
+      }
+    },
+    "dialogue_0485": {
+      "text": {
+        "reference": "まずキミ、GUN外してくんなーい？",
+        "translation": "First, would you unequip your gun?"
+      }
+    },
+    "dialogue_0486": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "キャハハハハ！{n}{demon_name}が、コワイってワケー？{n}{WAIT}カーワイー{OP:8026}『{OP:8020}",
+        "translation": "Ah-ha-ha-ha! Is {demon_name} scary?{WAIT} So cute!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0487": {
+      "text": {
+        "reference": "キミしだいだけどー、{n}手伝ってもいーわよ{OP:8026}『{OP:8020}",
+        "translation": "Depending on your answer, maybe I'll help!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0488": {
+      "text": {
+        "reference": "あ、そー。{n}用はナイってワケ？{n}{WAIT}じゃ、帰るわ。",
+        "translation": "Oh, really? You don't need me?{WAIT} Then I'm going home."
+      }
+    },
+    "dialogue_0489": {
+      "text": {
+        "reference": "おつかれー。",
+        "translation": "Bye."
+      }
+    },
+    "dialogue_0490": {
+      "text": {
+        "reference": "タベちゃいたい{OP:8026}『『{OP:8020}",
+        "translation": "I could just eat you up!{OP:8026}『『{OP:8020}"
+      }
+    },
+    "dialogue_0491": {
+      "text": {
+        "reference": "あら？{n}気づかなかったケド。{n}{WAIT}かわいい子ね。",
+        "translation": "Oh? I hadn't noticed.{WAIT} What a cute child."
+      }
+    },
+    "dialogue_0492": {
+      "text": {
+        "reference": "ほら、{BEAT}キミの左肩んとこにいる子よ。",
+        "translation": "Look,{BEAT} right there on your left shoulder."
+      }
+    },
+    "dialogue_0493": {
+      "text": {
+        "reference": "こんにちわー{maru_symbol}",
+        "translation": "Hellooo!"
+      }
+    },
+    "dialogue_0494": {
+      "text": {
+        "reference": "うろたえる",
+        "translation": "Panic"
+      }
+    },
+    "dialogue_0495": {
+      "text": {
+        "reference": "そんなはずはない",
+        "translation": "That's impossible."
+      }
+    },
+    "dialogue_0496": {
+      "text": {
+        "reference": "子供を探す",
+        "translation": "Look for the child"
+      }
+    },
+    "dialogue_0497": {
+      "text": {
+        "reference": "キャハハハ。{n}なにアセッてんのよ。{n}{WAIT}カーワイー{OP:8026}『{OP:8020}",
+        "translation": "Ah-ha-ha! Why're you panicking?{WAIT} So cute!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0498": {
+      "text": {
+        "reference": "黙っといてアゲよっか？",
+        "translation": "Want me to keep quiet?"
+      }
+    },
+    "dialogue_0499": {
+      "text": {
+        "reference": "キャハハハ。{n}なに、ムキになってんのー。{n}{WAIT}ジョーダンよ、ジョーダン{maru_symbol}",
+        "translation": "Ah-ha-ha! Why so serious?{WAIT} I'm kidding!"
+      }
+    },
+    "dialogue_0500": {
+      "text": {
+        "reference": "なに、ムキになってんのー。{n}{WAIT}カーワイー{OP:8026}『{OP:8020}",
+        "translation": "Why so serious?{WAIT} So cute!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0501": {
+      "text": {
+        "reference": "いっしょにいてあげたくなっちゃう{OP:8026}『{OP:8020}",
+        "translation": "Makes me wanna stay with you!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0502": {
+      "text": {
+        "reference": "ウッソー！{n}{WAIT}だって、目元なんてキミにそっくりよ。",
+        "translation": "No way!{WAIT} Her eyes look just like yours."
+      }
+    },
+    "dialogue_0503": {
+      "text": {
+        "reference": "じゃーねー、おじょうちゃん{maru_symbol}",
+        "translation": "Bye, little girl!"
+      }
+    },
+    "dialogue_0504": {
+      "text": {
+        "reference": "なにキョロキョロしてんのよ。{n}{WAIT}あ、{BEAT}さては。",
+        "translation": "Why're you looking around?{WAIT} Oh,{BEAT} I get it."
+      }
+    },
+    "dialogue_0505": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "ごめーん。{n}{offered_item}、カンパしたげるわ。",
+        "translation": "Sorry. I'll donate {offered_item}."
+      }
+    },
+    "dialogue_0506": {
+      "text": {
+        "reference": "なに？{n}見えないって？{n}{WAIT}目元なんてキミにそっくりよ。",
+        "translation": "What? You can't see her?{WAIT} Her eyes look just like yours."
+      }
+    },
+    "dialogue_0507": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "これ…、{BEAT}受け取ってもらえる…？{n}{WAIT}{offered_item}。",
+        "translation": "Will you...{BEAT} accept this?{WAIT} {offered_item}."
+      }
+    },
+    "dialogue_0508": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "{demon_name}の{BEAT}キ{BEAT}モ{BEAT}チ{BEAT}{OP:8026}『{OP:8020}",
+        "translation": "{demon_name}'s{BEAT} feel{BEAT}ings!{BEAT}{BEAT}{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0509": {
+      "text": {
+        "reference": "受け取る",
+        "translation": "Accept it"
+      }
+    },
+    "dialogue_0510": {
+      "text": {
+        "reference": "たまには、ミツがれるのもいーでしょ？",
+        "translation": "Let somebody give to you for once."
+      }
+    },
+    "dialogue_0511": {
+      "text": {
+        "reference": "じゃ、せーぜーガンバってねー{OP:8026}『{OP:8020}{n}また、声かけてー{OP:8026}『{OP:8020}",
+        "translation": "Do your best!{OP:8026}『{OP:8020} Talk to me again sometime!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0512": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "手切れ金よ！{n}{WAIT}もー2度と、{n}{demon_name}につきまとわないで！！",
+        "translation": "It's breakup money!{WAIT} Never follow {demon_name} again!"
+      }
+    },
+    "dialogue_0513": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "オカネより、{demon_name}がいーってワケー？{n}{WAIT}まー{OP:8026}『{OP:8020}{n}豪速球なヒト{OP:8026}『『{OP:8020}",
+        "translation": "You want {demon_name} more than money?{WAIT} Oh my!{OP:8026}『{OP:8020} Talk about a fastball!{OP:8026}『『{OP:8020}"
+      }
+    },
+    "dialogue_0514": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "{demon_name}のキモチが、{n}受け取れないってワケー！？{n}{WAIT}なによー、そのタイドー！！",
+        "translation": "You can't accept {demon_name}'s feelings!?{WAIT} What's with that attitude!?"
+      }
+    },
+    "dialogue_0515": {
+      "text": {
+        "reference": "ありのままのキミが、{BEAT}見{BEAT}た{BEAT}い{BEAT}ナー{BEAT}{OP:8026}『{OP:8020}{n}{WAIT}服、{BEAT}脱いでよ……{OP:8026}『{OP:8020}",
+        "translation": "I wanna{BEAT} see{BEAT} the{BEAT} real{BEAT} you!{BEAT}{OP:8026}『{OP:8020}{WAIT} Take{BEAT} off your clothes...{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0516": {
+      "text": {
+        "reference": "このイミ、わかるでしょ{OP:8026}『『{OP:8020}",
+        "translation": "You know what I mean!{OP:8026}『『{OP:8020}"
+      }
+    },
+    "dialogue_0517": {
+      "text": {
+        "reference": "脱ぐ",
+        "translation": "Undress"
+      }
+    },
+    "dialogue_0518": {
+      "text": {
+        "reference": "脱がない",
+        "translation": "Refuse"
+      }
+    },
+    "dialogue_0519": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "まー、スッゴーイ{OP:8026}『{OP:8020}{n}{WAIT}いーわ。{n}{demon_name}は、キミのモノよ{OP:8026}『{OP:8020}",
+        "translation": "Oh my, amazing!{OP:8026}『{OP:8020}{WAIT} Fine. {demon_name} belongs to you!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0520": {
+      "text": {
+        "reference": "まー、スッゴーイ{OP:8026}『{OP:8020}{n}まだよ、アセッちゃダーメー{OP:8026}『{OP:8020}",
+        "translation": "Oh my, amazing!{OP:8026}『{OP:8020} Not yet. Don't rush!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0521": {
+      "text": {
+        "reference": "まー、スッゴーイ{OP:8026}『{OP:8020}{n}{WAIT}じゃ、ハジメましょーか{OP:8026}『『{OP:8020}",
+        "translation": "Oh my, amazing!{OP:8026}『{OP:8020}{WAIT} Then let's begin!{OP:8026}『『{OP:8020}"
+      }
+    },
+    "dialogue_0522": {
+      "text": {
+        "reference": "もー！{n}ドンカーン！{n}トリケラトプ男ー！！",
+        "translation": "Ugh! So dense! You triceratops-brain!"
+      }
+    },
+    "dialogue_0523": {
+      "text": {
+        "reference": "とぷおのバカー！{n}知らないっ！！",
+        "translation": "Stupid tops-brain! Forget you!"
+      }
+    },
+    "dialogue_0524": {
+      "text": {
+        "reference": "あ、そー。{n}そーゆータイド、とっちゃうワケー？",
+        "translation": "Oh, really? That's the attitude you're taking?"
+      }
+    },
+    "dialogue_0525": {
+      "text": {
+        "reference": "いーわよ、キミがその気なら…！！",
+        "translation": "Fine, if that's what you want...!"
+      }
+    },
+    "dialogue_0526": {
+      "text": {
+        "reference": "キミ、よく見るとさー。{n}ケッコー、カッコイーじゃん{OP:8026}『{OP:8020}",
+        "translation": "Looking closer, you're pretty handsome!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0527": {
+      "text": {
+        "reference": "こっち来て、もっとよくカオ見してよー{OP:8026}『{OP:8020}",
+        "translation": "Come closer and let me see your face!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0528": {
+      "text": {
+        "reference": "近づく",
+        "translation": "Move closer"
+      }
+    },
+    "dialogue_0529": {
+      "text": {
+        "reference": "その手は喰わない",
+        "translation": "I'm not falling for that."
+      }
+    },
+    "dialogue_0530": {
+      "text": {
+        "reference": "へー。{n}ユーキもあるじゃん{maru_symbol}{n}{WAIT}カーッコイー{OP:8026}『{OP:8020}",
+        "translation": "Huh. You've got courage too!{WAIT} So cool!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0531": {
+      "text": {
+        "reference": "アタシ、ナンパされちゃおっかナー{maru_symbol}",
+        "translation": "Maybe I'll let you pick me up!"
+      }
+    },
+    "dialogue_0532": {
+      "text": {
+        "reference": "へー。{n}ユーキもあるじゃん{maru_symbol}{n}{WAIT}殺すには、オシイわー。",
+        "translation": "Huh. You've got courage too!{WAIT} It'd be a shame to kill you."
+      }
+    },
+    "dialogue_0533": {
+      "text": {
+        "reference": "へー。{n}ユーキもあるじゃん{maru_symbol}{n}{WAIT}殺すには、オシかったかもー。",
+        "translation": "Huh. You've got courage too!{WAIT} Maybe it was a shame to kill you."
+      }
+    },
+    "dialogue_0534": {
+      "text": {
+        "reference": "なによー、コンジョーなしー！{n}{WAIT}カッコだけじゃ、{n}おんなのコはついて来ないわよー！",
+        "translation": "What, no guts?{WAIT} Looks alone won't make girls follow you!"
+      }
+    },
+    "dialogue_0535": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "{demon_name}がコワイってワケー？{n}キャハハハハ！{n}カーワイー！！",
+        "translation": "Is {demon_name} scary? Ah-ha-ha-ha! So cute!"
+      }
+    },
+    "dialogue_0536": {
+      "text": {
+        "reference": "タベちゃいたい{OP:8026}『{OP:8020}",
+        "translation": "I could just eat you up!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0537": {
+      "text": {
+        "reference": "このオンナ、だれー？",
+        "translation": "Who's this woman?"
+      }
+    },
+    "dialogue_0538": {
+      "text": {
+        "reference": "キミのカノジョー？",
+        "translation": "Is she your girlfriend?"
+      }
+    },
+    "dialogue_0539": {
+      "text": {
+        "reference": "誤解だ",
+        "translation": "It's a misunderstanding."
+      }
+    },
+    "dialogue_0540": {
+      "text": {
+        "reference": "誰がこんな女",
+        "translation": "Who'd want a woman like this?"
+      }
+    },
+    "dialogue_0541": {
+      "placeholders": {
+        "rei_name": "character_name"
+      },
+      "text": {
+        "reference": "{rei_name}：ちょ、{BEAT}ちょっと！{n}{BEAT}いつから、そうなったのよ！{n}{WAIT}勘違いしないで！！",
+        "translation": "{rei_name}: W-wait!{BEAT}{BEAT} Since when was that true?{WAIT} Don't get the wrong idea!"
+      }
+    },
+    "dialogue_0542": {
+      "text": {
+        "reference": "あーはいはい。{n}ゴチソーさま。",
+        "translation": "Yeah, yeah. Get a room."
+      }
+    },
+    "dialogue_0543": {
+      "text": {
+        "reference": "アタシが入って、{n}サンカクカンケーってのも、タノシそーね{OP:8026}『{OP:8020}{n}キャハハ。",
+        "translation": "Maybe I'll join you and make it a love triangle!{OP:8026}『{OP:8020} Ah-ha-ha!"
+      }
+    },
+    "dialogue_0544": {
+      "text": {
+        "reference": "{OP:8025}ビターーーーン！！{OP:8020}",
+        "translation": "{OP:8025}SMACK!{OP:8020}"
+      }
+    },
+    "dialogue_0545": {
+      "text": {
+        "reference": "キャハハハ。{n}ビンタくらってやんのー。{n}{WAIT}しっかり、シリにひかれてるわね。",
+        "translation": "Ah-ha-ha! She slapped you!{WAIT} She's really got you whipped."
+      }
+    },
+    "dialogue_0546": {
+      "text": {
+        "reference": "そんなヘナヘナオトコ、{n}頼りなくってついて行けないってカンジー。{n}{WAIT}んじゃ、{BEAT}一生そーやってなさい。",
+        "translation": "I can't follow such a spineless man.{WAIT} Stay that way forever.{BEAT}"
+      }
+    },
+    "dialogue_0547": {
+      "text": {
+        "reference": "マジー？{n}なーんだ、カンガエすぎかー。",
+        "translation": "Seriously? Oh, I overthought it."
+      }
+    },
+    "dialogue_0548": {
+      "text": {
+        "reference": "じゃ、いーわ。{n}おシゴトの話、しましょっか。",
+        "translation": "Fine. Let's talk business."
+      }
+    },
+    "dialogue_0549": {
+      "text": {
+        "reference": "ウソつきー！{BEAT}オンナの敵ー！！{n}{WAIT}カノジョの前で、{n}別のオンナ、ナンパするなんて…",
+        "translation": "Liar!{BEAT} Enemy of women!{WAIT} Picking up another girl right in front of your girlfriend..."
+      }
+    },
+    "dialogue_0550": {
+      "placeholders": {
+        "rei_name": "character_name"
+      },
+      "text": {
+        "reference": "{rei_name}：ちょっと待ちなさいよ。{n}{WAIT}あたしのこと、そういう目で見てたわけ？{n}{WAIT}いくらあんたでも、{BEAT}許さないわよ！",
+        "translation": "{rei_name}: Wait a minute.{WAIT} Is that how you've been looking at me?{WAIT} Even for you,{BEAT} that's unforgivable!"
+      }
+    },
+    "dialogue_0551": {
+      "text": {
+        "reference": "なーに、イチャイチャやってんのよー！{n}{WAIT}ムカつくわねー！！",
+        "translation": "Quit flirting right in front of me!{WAIT} You're pissing me off!"
+      }
+    },
+    "dialogue_0552": {
+      "text": {
+        "reference": "キャハハハ。{n}ナカマ割れー！？{n}{WAIT}手伝ったげよーねー{maru_symbol}",
+        "translation": "Ah-ha-ha! A lovers' quarrel?{WAIT} I'll help!"
+      }
+    },
+    "dialogue_0553": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "あのさー。{n}{WAIT}{demon_name}とキミってー、{n}どっか似てんのよねー。",
+        "translation": "You know...{WAIT} You and {demon_name} are kinda alike."
+      }
+    },
+    "dialogue_0554": {
+      "text": {
+        "reference": "なんかー、他人とは思えないワケよー。",
+        "translation": "Somehow, you don't feel like a stranger."
+      }
+    },
+    "dialogue_0555": {
+      "text": {
+        "reference": "ドコが似てんのカナー？",
+        "translation": "What do we have in common?"
+      }
+    },
+    "dialogue_0556": {
+      "text": {
+        "reference": "アニメ好き",
+        "translation": "Love of anime"
+      }
+    },
+    "dialogue_0557": {
+      "text": {
+        "reference": "ロンリーなハート",
+        "translation": "Lonely hearts"
+      }
+    },
+    "dialogue_0558": {
+      "text": {
+        "reference": "社会への不満",
+        "translation": "Resentment toward society"
+      }
+    },
+    "dialogue_0559": {
+      "text": {
+        "reference": "満たされない愛情",
+        "translation": "Unfulfilled love."
+      }
+    },
+    "dialogue_0560": {
+      "text": {
+        "reference": "ビームが出せない目",
+        "translation": "Eyes that can't shoot beams"
+      }
+    },
+    "dialogue_0561": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "し、{BEAT}しまった！！{n}{WAIT}ど、{BEAT}どーしてキミが知ってんのよ！？{n}{WAIT}{offered_item}アゲルからさー。",
+        "translation": "D-{BEAT}damn!{WAIT} H-{BEAT}how did you know!?{WAIT} I'll give you {offered_item}."
+      }
+    },
+    "dialogue_0562": {
+      "text": {
+        "reference": "だれにも言わないでー{OP:8026}『{OP:8020}{n}オネガーイ！！",
+        "translation": "Don't tell anyone!{OP:8026}『{OP:8020} Please!"
+      }
+    },
+    "dialogue_0563": {
+      "text": {
+        "reference": "な、なんのことよー！{n}{WAIT}バ、{BEAT}バカなこと、言わないでー！{n}{WAIT}あ。",
+        "translation": "W-what're you talking about?{WAIT} D-{BEAT}don't say stupid things!{WAIT} Oh!"
+      }
+    },
+    "dialogue_0564": {
+      "text": {
+        "reference": "急用が…",
+        "translation": "I just remembered something urgent..."
+      }
+    },
+    "dialogue_0565": {
+      "text": {
+        "reference": "し、{BEAT}しまった！！{n}{WAIT}カレシも知らないヒミツを…{n}{WAIT}生きて帰れると、{BEAT}思ってるワケー？",
+        "translation": "D-{BEAT}damn!{WAIT} A secret even my boyfriend doesn't know...{WAIT} You think you'll leave alive?{BEAT}"
+      }
+    },
+    "dialogue_0566": {
+      "text": {
+        "reference": "そー。{n}{WAIT}ロンリーハートはブロークン。{n}愛を探すさアイニージュー、{BEAT}ってカンジ？",
+        "translation": "Yeah.{WAIT} My lonely heart is broken. Searching for love, I need you—{BEAT} kinda thing?"
+      }
+    },
+    "dialogue_0567": {
+      "text": {
+        "reference": "そー。{n}{WAIT}ロンリーハートはブロークン。{n}キミを待ってるホーミータイ、{BEAT}ってカンジ？",
+        "translation": "Yeah.{WAIT} My lonely heart is broken. Waiting for you, hold me tight—{BEAT} kinda thing?"
+      }
+    },
+    "dialogue_0568": {
+      "text": {
+        "reference": "…{BEAT}…{BEAT}で？",
+        "translation": "...{BEAT}.{BEAT} So?"
+      }
+    },
+    "dialogue_0569": {
+      "text": {
+        "reference": "…{BEAT}…{BEAT}刺すわよ。",
+        "translation": "...{BEAT}.{BEAT} I'll stab you."
+      }
+    },
+    "dialogue_0570": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "キミも不満があるワケー？{n}{demon_name}もさー…",
+        "translation": "You're unhappy too? {demon_name} has...",
+        "note": "Fragment context: this shared page 0 begins messages 459-460; their page-1 alternatives (dialogue_0571-dialogue_0572) complete \"{demon_name} has...\""
+      }
+    },
+    "dialogue_0571": {
+      "text": {
+        "reference": "刺してやりたいヤツ、死ぬほどいるワケー{maru_symbol}{n}{WAIT}2人で、ナニもかも壊してやろーよ！！",
+        "translation": "more people than I can count that I wanna stab!{WAIT} Let's destroy everything together!",
+        "note": "Fragment context: message 459 page 1 completes \"{demon_name} has...\" on page 0 (dialogue_0570)."
+      }
+    },
+    "dialogue_0572": {
+      "text": {
+        "reference": "刺してやりたいヤツ、死ぬほどいるワケー{maru_symbol}{n}{WAIT}アンタとか、{WAIT}アンタとか、{n}{WAIT}アンタとかー！！",
+        "translation": "more people than I can count that I wanna stab!{WAIT} You,{WAIT} you,{WAIT} and you!",
+        "note": "Fragment context: message 460 page 1 completes \"{demon_name} has...\" on page 0 (dialogue_0570)."
+      }
+    },
+    "dialogue_0573": {
+      "text": {
+        "reference": "かわいそーに…{WAIT}アタマでも打ったの？",
+        "translation": "You poor thing...{WAIT} Did you hit your head?"
+      }
+    },
+    "dialogue_0574": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "ここに{offered_item}だけあるから。{n}これ持って、ビョウイン行っといで。{n}{WAIT}おだいじにー。",
+        "translation": "I've only got {offered_item}. Take it and go to a hospital.{WAIT} Get well soon."
+      }
+    },
+    "dialogue_0575": {
+      "text": {
+        "reference": "はーん？{n}{WAIT}ごめーん、聞こえなかったー。{n}{BEAT}…{BEAT}あ、{BEAT}そーだ。",
+        "translation": "Huuuh?{WAIT} Sorry, didn't hear you.{BEAT}.{BEAT} Oh,{BEAT} right."
+      }
+    },
+    "dialogue_0576": {
+      "text": {
+        "reference": "カレシと待ち合わせしてたんだっけ。{n}{WAIT}じゃ、そーゆーことで。",
+        "translation": "I was supposed to meet my boyfriend.{WAIT} So, bye."
+      }
+    },
+    "dialogue_0577": {
+      "text": {
+        "reference": "しまった！{n}そんなトコにも、共通点が…",
+        "translation": "Damn! Something else we have in common..."
+      }
+    },
+    "dialogue_0578": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "…って、{BEAT}そんなコトどーでもいーのよ！{n}{WAIT}もーいー！{n}{demon_name}、帰るー！！",
+        "translation": "...But{BEAT} who cares!?{WAIT} Forget it! {demon_name} is going home!"
+      }
+    },
+    "dialogue_0579": {
+      "text": {
+        "reference": "フザケないでよー！{n}どーして、そーやってチャカすワケー！？{n}{WAIT}刺すわよ…",
+        "translation": "Don't mess with me! Why do you always make jokes!?{WAIT} I'll stab you..."
+      }
+    },
+    "dialogue_0580": {
+      "text": {
+        "reference": "刺すわよ…",
+        "translation": "I'll stab you..."
+      }
+    },
+    "dialogue_0581": {
+      "text": {
+        "reference": "んー…{n}どーしょっかなー{OP:8026}『{OP:8020}{n}{BEAT}とりあえずー。",
+        "translation": "Hmm... What should I do?{OP:8026}『{OP:8020}{BEAT} For now..."
+      }
+    },
+    "dialogue_0582": {
+      "placeholders": {
+        "requested_item": "item_name"
+      },
+      "text": {
+        "reference": "{requested_item}、ちょーだい{OP:8026}『{OP:8020}",
+        "translation": "Give me {requested_item}!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0583": {
+      "text": {
+        "reference": "なによー！！{n}持ってないじゃんかー！{n}{WAIT}この、ビンボーオヤヂー！！",
+        "translation": "What!? You don't have it!{WAIT} You broke old man!"
+      }
+    },
+    "dialogue_0584": {
+      "text": {
+        "reference": "話になんないって、カンジー。{n}帰るわ。",
+        "translation": "This conversation is pointless. I'm going home."
+      }
+    },
+    "dialogue_0585": {
+      "text": {
+        "reference": "んー…{n}{BEAT}つー{BEAT}ぎー{BEAT}はー{BEAT}{OP:8026}『{OP:8020}",
+        "translation": "Hmm...{BEAT} Next{BEAT} up{BEAT} is!{BEAT}{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0586": {
+      "text": {
+        "reference": "んー…{n}じゃーあー{OP:8026}『{OP:8020}",
+        "translation": "Hmm... Then!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0587": {
+      "text": {
+        "reference": "ナメんなってカンジ！{n}{WAIT}刺すわよ。",
+        "translation": "Don't underestimate me!{WAIT} I'll stab you."
+      }
+    },
+    "dialogue_0588": {
+      "text": {
+        "reference": "キミの誠意は、どれくらいなの？",
+        "translation": "How sincere are you?"
+      }
+    },
+    "dialogue_0589": {
+      "text": {
+        "reference": "なによー！！{n}なーんにも、持ってないワケー！？",
+        "translation": "What!? You don't have anything at all!?"
+      }
+    },
+    "dialogue_0590": {
+      "text": {
+        "reference": "サイテー。{n}このビンボーオヤヂー、使えなーい！！",
+        "translation": "The worst. This broke old man is useless!"
+      }
+    },
+    "dialogue_0591": {
+      "text": {
+        "reference": "んー…",
+        "translation": "Hmm..."
+      }
+    },
+    "dialogue_0592": {
+      "text": {
+        "reference": "誠意が見えない、ってカンジー。",
+        "translation": "I'm not seeing any sincerity."
+      }
+    },
+    "dialogue_0593": {
+      "text": {
+        "reference": "あーあ。{n}期待したアタシが、バカだったわ。",
+        "translation": "Ugh. I was stupid to expect anything."
+      }
+    },
+    "dialogue_0594": {
+      "text": {
+        "reference": "アンタと同じ空気吸ってると思うと、{n}ムカつくのよ！！{n}刺してやる…",
+        "translation": "Just knowing we're breathing the same air pisses me off! I'll stab you..."
+      }
+    },
+    "dialogue_0595": {
+      "text": {
+        "reference": "ま。{n}このへんで、ユルしてやっか。",
+        "translation": "Fine. I'll let you off here.",
+        "note": "Fragment context: message 478 page 0 continues on page 1 (dialogue_0596) with the demon's inserted race and name."
+      }
+    },
+    "dialogue_0596": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "アタシー、{n}{race}、{demon_name}。{n}{BEAT}よろしくね、サマナーさん{OP:8026}『{OP:8020}",
+        "translation": "I'm {race} {demon_name}.{BEAT} Nice to meet you, Summoner!{OP:8026}『{OP:8020}",
+        "note": "Fragment context: message 478 page 1 completes page 0 (dialogue_0595); this record also owns the standalone message 490."
+      }
+    },
+    "dialogue_0597": {
+      "text": {
+        "reference": "ねー。{n}{WAIT}アタシの入るスキマ、ないみたーい。",
+        "translation": "Hey.{WAIT} Looks like there's no room for me."
+      }
+    },
+    "dialogue_0598": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "{demon_name}のかわりにさー。{n}だれかクビにしてー{OP:8026}『{OP:8020}{n}それまで、ヒマつぶしてるわー。{n}んじゃねー{OP:8026}『{OP:8020}",
+        "translation": "Kick somebody out for {demon_name}!{OP:8026}『{OP:8020} I'll kill time until then. Bye!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0599": {
+      "text": {
+        "reference": "ま。{n}このへんで、ユルしてやっか。{n}{WAIT}じゃー、これとコーカンね{OP:8026}『{OP:8020}",
+        "translation": "Fine. I'll let you off here.{WAIT} Trade me for this!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0600": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "ほら、{offered_item}。{n}アタシだと思って、大切にシテ{OP:8026}『{OP:8020}",
+        "translation": "Here, {offered_item}. Treasure it like it's me!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0601": {
+      "text": {
+        "reference": "ま。{n}このへんで、ユルしてやっか。{n}{WAIT}じゃ、そーゆーことで。",
+        "translation": "Fine. I'll let you off here.{WAIT} Bye."
+      }
+    },
+    "dialogue_0602": {
+      "text": {
+        "reference": "んー。{n}{WAIT}コマメにカツアゲんの、めんどいなー。",
+        "translation": "Hmm.{WAIT} Shaking you down bit by bit is a pain."
+      }
+    },
+    "dialogue_0603": {
+      "text": {
+        "reference": "まとめて、もらったげるわ{OP:8026}『{OP:8020}",
+        "translation": "I'll just take it all at once!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0604": {
+      "text": {
+        "reference": "これ以上話してても、イミないみたい。{n}帰るわ。{WAIT}おつかれー。",
+        "translation": "Talking any longer seems pointless. I'm going home.{WAIT} Bye."
+      }
+    },
+    "dialogue_0605": {
+      "text": {
+        "reference": "アンタと同じ空気吸ってると思うと、{n}ムカつくのよ！！",
+        "translation": "Just knowing we're breathing the same air pisses me off!"
+      }
+    },
+    "dialogue_0606": {
+      "text": {
+        "reference": "今度現われたら…、{WAIT}刺すわよ。",
+        "translation": "Show up again and...{WAIT} I'll stab you."
+      }
+    },
+    "dialogue_0607": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "{demon_name}のかわりにさー。{n}だれか、{BEAT}クビにしてー{OP:8026}『{OP:8020}{n}それまで、ヒマつぶしてるわー。",
+        "translation": "Kick somebody{BEAT} out for {demon_name}!{OP:8026}『{OP:8020} I'll kill time until then."
+      }
+    },
+    "dialogue_0608": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "あ、{BEAT}やっぱー。{n}{WAIT}{demon_name}、{n}ナカマになるの、やめとくわ…",
+        "translation": "Actually,{BEAT} never mind.{WAIT} {demon_name} isn't joining you...",
+        "note": "Fragment context: this shared page 0 begins refusal messages 491, 492, and 547-550; later pages supply the reason and, in some alternatives, a parting gift or apology."
+      }
+    },
+    "dialogue_0609": {
+      "text": {
+        "reference": "生理的にダメなのよ、{n}{BEAT}ニンゲンのオトコって。",
+        "translation": "Human men just gross me out{BEAT} on a physical level.",
+        "note": "Fragment context: message 491 page 1 gives the reason for the refusal on page 0 (dialogue_0608), before the gift and apology on pages 2-3."
+      }
+    },
+    "dialogue_0610": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "かわりにさー、これ{BEAT}受け取って{OP:8026}『{OP:8020}{n}{WAIT}{offered_item}なんだケド。{n}{demon_name}の、ダイジなモノなの{OP:8026}『{OP:8020}",
+        "translation": "Take this{BEAT} instead!{OP:8026}『{OP:8020}{WAIT} It's {offered_item}, something precious to {demon_name}!{OP:8026}『{OP:8020}",
+        "note": "Fragment context: this shared gift page continues refusal messages 491, 547, and 549 after page 0 (dialogue_0608); message 491 then closes with dialogue_0611."
+      }
+    },
+    "dialogue_0611": {
+      "text": {
+        "reference": "ゴメンねー。",
+        "translation": "Sorry.",
+        "note": "Fragment context: message 491 page 3 closes the refusal and gift sequence begun on page 0 (dialogue_0608) and continued in dialogue_0609-dialogue_0610."
+      }
+    },
+    "dialogue_0612": {
+      "text": {
+        "reference": "生理的にダメなのよ、{n}{BEAT}ニンゲンのオトコって。{n}{WAIT}ゴメンね、{BEAT}あきらめて{OP:8026}『{OP:8020}",
+        "translation": "Human men just gross me out{BEAT} on a physical level.{WAIT} Sorry,{BEAT} give up on me!{OP:8026}『{OP:8020}",
+        "note": "Fragment context: message 492 page 1 completes the refusal begun on page 0 (dialogue_0608)."
+      }
+    },
+    "dialogue_0613": {
+      "text": {
+        "reference": "キモチイー夜ねー。{n}{WAIT}あー、{BEAT}もー、{BEAT}生きてるってシアワセー{maru_symbol}",
+        "translation": "What a lovely night.{WAIT} Ah,{BEAT} wow,{BEAT} being alive is wonderful!"
+      }
+    },
+    "dialogue_0614": {
+      "text": {
+        "reference": "今なら{BEAT}ト{BEAT}ク{BEAT}ベ{BEAT}ツ{BEAT}に、",
+        "translation": "Right now, I'll{BEAT} make{BEAT} a{BEAT} spe{BEAT}cial{BEAT} exception and...",
+        "note": "Message 494 is completed by message 495: “I'll make a special exception and... / do anything you ask!”"
+      }
+    },
+    "dialogue_0615": {
+      "text": {
+        "reference": "なんでもゆーこと聞いてアゲちゃう{OP:8026}『{OP:8020}",
+        "translation": "do anything you ask!{OP:8026}『{OP:8020}",
+        "note": "Message 494 leads into message 495: “I'll make a special exception and... / do anything you ask!”"
+      }
+    },
+    "dialogue_0616": {
+      "text": {
+        "reference": "消えてくれ",
+        "translation": "Disappear."
+      }
+    },
+    "dialogue_0617": {
+      "text": {
+        "reference": "なーんだ、{BEAT}そんなコトか。",
+        "translation": "Oh,{BEAT} that's all?"
+      }
+    },
+    "dialogue_0618": {
+      "text": {
+        "reference": "ヘー。{n}{WAIT}そーなんだー。{n}{WAIT}スゴイじゃーん。",
+        "translation": "Huh.{WAIT} I see.{WAIT} Amazing."
+      }
+    },
+    "dialogue_0619": {
+      "text": {
+        "reference": "はい。{n}いちおー、聞くだけ聞いてアゲたわよ。{n}{WAIT}アイヅチつきで。",
+        "translation": "There. I listened to you.{WAIT} Even nodded along."
+      }
+    },
+    "dialogue_0620": {
+      "text": {
+        "reference": "じゃー、{BEAT}アタシを{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}『{OP:8020}",
+        "translation": "Then{BEAT} I'll{BEAT} give{BEAT} you{BEAT} me!{BEAT}{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0621": {
+      "text": {
+        "reference": "なーんて。",
+        "translation": "Just kidding."
+      }
+    },
+    "dialogue_0622": {
+      "text": {
+        "reference": "ナニ言わせんのよ。{n}カオが、火ー吹いちゃうじゃない！",
+        "translation": "Look what you made me say! My face is burning!"
+      }
+    },
+    "dialogue_0623": {
+      "text": {
+        "reference": "ヒドイ{BEAT}…{BEAT}…{n}{WAIT}ヒドスギル{BEAT}…{BEAT}…",
+        "translation": "That's horrible{BEAT}.{BEAT}.{WAIT} Too horrible{BEAT}.{BEAT}"
+      }
+    },
+    "dialogue_0624": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "せめて、{BEAT}これだけでも受け取って。{n}{offered_item}よ。",
+        "translation": "At least{BEAT} take this. It's {offered_item}."
+      }
+    },
+    "dialogue_0625": {
+      "text": {
+        "reference": "これ、{BEAT}アタシだと思って、そばに置いて{BEAT}ね。",
+        "translation": "Keep it beside you{BEAT} and think of it as me.{BEAT}"
+      }
+    },
+    "dialogue_0626": {
+      "text": {
+        "reference": "月に1度は、ゴキゲンナナメなのよ！{n}{WAIT}話しかけないでチョーダイ！！{n}それとも{BEAT}ナニ？",
+        "translation": "Once a month I'm in a bad mood!{WAIT} Don't talk to me! Or{BEAT} what?"
+      }
+    },
+    "dialogue_0627": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "{demon_name}に、頼みがあるってワケ？",
+        "translation": "You need a favor from {demon_name}?"
+      }
+    },
+    "dialogue_0628": {
+      "text": {
+        "reference": "頼みはない",
+        "translation": "I need nothing."
+      }
+    },
+    "dialogue_0629": {
+      "text": {
+        "reference": "ま、いーわ。キミ、おもしろそーだしー。",
+        "translation": "Fine. You look entertaining."
+      }
+    },
+    "dialogue_0630": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}でいーい？{n}…って、{BEAT}モンクは言わせないわよっ！{n}{WAIT}んじゃねー、ビンボーさん{OP:8026}『{OP:8020}",
+        "translation": "Is {offered_item} okay? ...And no complaining!{BEAT}{WAIT} See you, broke boy!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0631": {
+      "text": {
+        "reference": "ったく。{n}ビンボーオトコは、オンナの敵よー！！",
+        "translation": "Seriously. Broke men are the enemy of women!"
+      }
+    },
+    "dialogue_0632": {
+      "text": {
+        "reference": "モチロンよっ！！",
+        "translation": "Of course!"
+      }
+    },
+    "dialogue_0633": {
+      "text": {
+        "reference": "その前に、やり残したコトがあるの。",
+        "translation": "But first, I have unfinished business."
+      }
+    },
+    "dialogue_0634": {
+      "text": {
+        "reference": "あ、{BEAT}そ。{n}{WAIT}んじゃね。",
+        "translation": "Oh,{BEAT} okay.{WAIT} Bye."
+      }
+    },
+    "dialogue_0635": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "じゃー。{n}{demon_name}のオネガイ、{BEAT}聞{BEAT}い{BEAT}て{OP:8026}『{OP:8020}",
+        "translation": "Then hear{BEAT} {demon_name}'s{BEAT} re{BEAT}quest!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0636": {
+      "text": {
+        "reference": "アタシ、血が見たい気分でさー。{n}{WAIT}ワカルでしょ？",
+        "translation": "I'm in the mood to see blood.{WAIT} You get it, right?"
+      }
+    },
+    "dialogue_0637": {
+      "text": {
+        "reference": "キャーーーーーーーッ！！{n}{BEAT}出たーーーーーっ！！{n}{WAIT}…{BEAT}…{BEAT}なによ、{BEAT}ニンゲンじゃない。",
+        "translation": "Aaaaaah!{BEAT} A monster!{WAIT}.{BEAT}.{BEAT} What,{BEAT} it's just a human."
+      }
+    },
+    "dialogue_0638": {
+      "text": {
+        "reference": "びっくりさせないでよ。{n}{WAIT}ったくどーして、そーゆーヒドイ顔面で、{n}人前に出ようとか思えるワケー？",
+        "translation": "Don't scare me.{WAIT} Why would you show that horrible face in public?"
+      }
+    },
+    "dialogue_0639": {
+      "text": {
+        "reference": "ショックで死んじゃったら、",
+        "translation": "If I died from the shock...",
+        "note": "Message 521 page 2 is completed by message 522: “If I died from the shock... / how would you take responsibility?”"
+      }
+    },
+    "dialogue_0640": {
+      "text": {
+        "reference": "どー、セキニン取ってくれんのよー！！",
+        "translation": "how would you take responsibility!?",
+        "note": "Completes message 521 page 2: “If I died from the shock... / how would you take responsibility?”"
+      }
+    },
+    "dialogue_0641": {
+      "text": {
+        "reference": "出家する",
+        "translation": "Become a monk"
+      }
+    },
+    "dialogue_0642": {
+      "text": {
+        "reference": "遺族に金を送る",
+        "translation": "Send money to my family"
+      }
+    },
+    "dialogue_0643": {
+      "text": {
+        "reference": "そう言われても",
+        "translation": "What do you expect me to say?"
+      }
+    },
+    "dialogue_0644": {
+      "text": {
+        "reference": "失礼な！！",
+        "translation": "How rude!"
+      }
+    },
+    "dialogue_0645": {
+      "text": {
+        "reference": "それって、スキンヘッドにするってコト？{n}{WAIT}クールじゃん。{n}{WAIT}あ、{BEAT}すずしそう{BEAT}ってイミじゃないわよ。",
+        "translation": "You mean shave your head?{WAIT} Cool.{WAIT} Oh,{BEAT} I don't mean temperature-wise.{BEAT}"
+      }
+    },
+    "dialogue_0646": {
+      "text": {
+        "reference": "あの世に行ってまで、{n}アンタの声なんか聞きたくないわよ！",
+        "translation": "Even in the afterlife, I wouldn't wanna hear your voice!"
+      }
+    },
+    "dialogue_0647": {
+      "text": {
+        "reference": "浮ばれないアタシに、{n}追い打ちかけよーっての？{n}{WAIT}もう2度と、この世に現れないよーに？",
+        "translation": "You wanna kick me while my spirit can't rest?{WAIT} Make sure I never appear in this world again?"
+      }
+    },
+    "dialogue_0648": {
+      "text": {
+        "reference": "サイテー！！",
+        "translation": "You're the worst!"
+      }
+    },
+    "dialogue_0649": {
+      "text": {
+        "reference": "死んでからオカネもらったって、{n}使えっこないじゃんか！{n}{WAIT}それくらいのコトも、わかんないワケ？",
+        "translation": "Money's useless after I'm dead!{WAIT} You can't even understand that?"
+      }
+    },
+    "dialogue_0650": {
+      "text": {
+        "reference": "死ぬ前に、なんかもらったげるわ。",
+        "translation": "I'll take something before I die."
+      }
+    },
+    "dialogue_0651": {
+      "text": {
+        "reference": "なんでもオカネで解決しよーっての？{n}そのコンジョー、叩き直してやりたいわ！{n}{WAIT}刺すわよ。",
+        "translation": "You think money solves everything? I wanna beat that attitude out of you!{WAIT} I'll stab you."
+      }
+    },
+    "dialogue_0652": {
+      "text": {
+        "reference": "まー、{BEAT}カオは生まれつきだしー。{n}キミのセキニンじゃないわね。",
+        "translation": "Well,{BEAT} you were born with that face. It's not your fault."
+      }
+    },
+    "dialogue_0653": {
+      "text": {
+        "reference": "それじゃー、帰ったら両親に言っといて。{n}{WAIT}刺すって。",
+        "translation": "Then tell your parents when you get home:{WAIT} I'm gonna stab them."
+      }
+    },
+    "dialogue_0654": {
+      "text": {
+        "reference": "セキニン取ってよー！{n}{WAIT}刺すわよ！！",
+        "translation": "Take responsibility!{WAIT} I'll stab you!"
+      }
+    },
+    "dialogue_0655": {
+      "text": {
+        "reference": "キャーーーーーーーッ！！{n}{WAIT}ごめーん。{n}怒ったー？",
+        "translation": "Aaaaaah!{WAIT} Sorry. Are you mad?"
+      }
+    },
+    "dialogue_0656": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "マジんなるコト、ないじゃん。{n}{WAIT}{offered_item}アゲルから、{n}{BEAT}ユルして、{BEAT}オネガーイ{OP:8026}『{OP:8020}",
+        "translation": "Don't take it so seriously.{WAIT} I'll give you {offered_item},{BEAT} so forgive me,{BEAT} please!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0657": {
+      "text": {
+        "reference": "キャーーーーーーーッ！！",
+        "translation": "Aaaaaah!"
+      }
+    },
+    "dialogue_0658": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "どーして、{demon_name}と同じ空気、{n}吸ってんのよー！{n}{WAIT}シゲンのムダよ！！",
+        "translation": "Why are you breathing the same air as {demon_name}?{WAIT} What a waste of resources!"
+      }
+    },
+    "dialogue_0659": {
+      "text": {
+        "reference": "サンケツで倒れたら、どーしてくれんの！？",
+        "translation": "What if I collapse from lack of oxygen!?"
+      }
+    },
+    "dialogue_0660": {
+      "text": {
+        "reference": "あやまる",
+        "translation": "Apologize."
+      }
+    },
+    "dialogue_0661": {
+      "text": {
+        "reference": "誰に言ってるんだ",
+        "translation": "Who do you think you're talking to?"
+      }
+    },
+    "dialogue_0662": {
+      "text": {
+        "reference": "やっと、自分の罪に気づいたのね。{n}いー心がけだわ。",
+        "translation": "You finally recognize your crime. Good."
+      }
+    },
+    "dialogue_0663": {
+      "text": {
+        "reference": "このさい、{n}{WAIT}アクマタイジごっこも、やめちゃいなさい！",
+        "translation": "While you're at it,{WAIT} quit playing demon hunter!"
+      }
+    },
+    "dialogue_0664": {
+      "text": {
+        "reference": "あやまって済むなら、{n}ケーサツはいらないのよ！！",
+        "translation": "If apologies fixed everything, we wouldn't need police!"
+      }
+    },
+    "dialogue_0665": {
+      "text": {
+        "reference": "セキニン取ってよー！",
+        "translation": "Take responsibility!"
+      }
+    },
+    "dialogue_0666": {
+      "text": {
+        "reference": "アンタよ{BEAT}アンタ！{n}{BEAT}アンタなのよー！！",
+        "translation": "You!{BEAT} You!{BEAT} I'm talking to you!"
+      }
+    },
+    "dialogue_0667": {
+      "text": {
+        "reference": "キミのナカマの中に、{n}ムカつくヤツがいるのよ。{n}{WAIT}ホントだったら、刺してやりたいトコだわ。",
+        "translation": "One of your demons really pisses me off.{WAIT} Normally, I'd stab them.",
+        "note": "Fragment context: this shared page 1 gives the reason for refusal messages 547-548 after page 0 (dialogue_0608); message 548 continues to an apology on dialogue_0668."
+      }
+    },
+    "dialogue_0668": {
+      "text": {
+        "reference": "ジブンカッテで、ゴメンね。{n}アタシのコトは、あきらめて{OP:8026}『{OP:8020}",
+        "translation": "Sorry for being selfish. Give up on me!{OP:8026}『{OP:8020}",
+        "note": "Fragment context: message 548 page 2 closes the refusal begun on page 0 (dialogue_0608) and explained on page 1 (dialogue_0667)."
+      }
+    },
+    "dialogue_0669": {
+      "text": {
+        "reference": "だってー…{n}{BEAT}キミ、頼りなさそーなんだもん。",
+        "translation": "Because...{BEAT} you don't look dependable.",
+        "note": "Fragment context: message 549 page 1 gives the reason for the refusal on page 0 (dialogue_0608); page 3 (dialogue_0670) tells the hero to return when tougher."
+      }
+    },
+    "dialogue_0670": {
+      "text": {
+        "reference": "もっとタクマシくなってから、誘って{OP:8026}『{OP:8020}",
+        "translation": "Ask me again when you're tougher!{OP:8026}『{OP:8020}",
+        "note": "Fragment context: message 549 page 3 closes the refusal begun on page 0 (dialogue_0608) and explained on page 1 (dialogue_0669)."
+      }
+    },
+    "dialogue_0671": {
+      "text": {
+        "reference": "だってー…{n}{BEAT}キミ、頼りなさそーなんだもん。{n}{WAIT}もっとタクマシくなってから、誘って{OP:8026}『{OP:8020}",
+        "translation": "Because...{BEAT} you don't look dependable.{WAIT} Ask me again when you're tougher!{OP:8026}『{OP:8020}",
+        "note": "Fragment context: message 550 page 1 completes the refusal begun on page 0 (dialogue_0608)."
+      }
+    },
+    "dialogue_0672": {
+      "text": {
+        "reference": "月に1度はゴキゲンナナメよ！",
+        "translation": "Once a month, I'm in a terrible mood!"
+      }
+    },
+    "dialogue_0673": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "ねー。{n}{demon_name}とも、話してよ。",
+        "translation": "Hey. Talk to {demon_name} too."
+      }
+    },
+    "dialogue_0674": {
+      "text": {
+        "reference": "キャーーーーッ！！{n}{WAIT}ゴメンなさい、{BEAT}ゴメンなさい…{n}{BEAT}ユルして{OP:8026}『{OP:8020}",
+        "translation": "Aaaaaah!{WAIT} I'm sorry,{BEAT} I'm sorry...{BEAT} Forgive me!{OP:8026}『{OP:8020}"
+      }
+    },
+    "dialogue_0675": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}、アゲルから…{n}{WAIT}ね{OP:8026}『{OP:8020}{BEAT}ね{OP:8026}『{OP:8020}",
+        "translation": "I'll give you {offered_item}...{WAIT} Please!{OP:8026}『{OP:8020}{BEAT} Please!{OP:8026}『{OP:8020}"
+      }
+    },
+    "condition_charmed": {
+      "text": {
+        "reference": "アタシだけを 見つめて『",
+        "translation": "Look only at me!『",
+        "reviewed": true
+      }
+    },
+    "condition_happy": {
+      "text": {
+        "reference": "キャハハハ……なんかー まわってるしー",
+        "translation": "Ahaha... Like, everything is spinning!",
+        "reviewed": true
+      }
+    },
+    "condition_confused": {
+      "text": {
+        "reference": "アンタ 左肩んとこの子供ダレ？",
+        "translation": "Who's that kid on your left shoulder?",
+        "reviewed": true
+      }
+    },
+    "condition_enraged": {
+      "text": {
+        "reference": "グッチャグチャに 引き裂いてやるから！",
+        "translation": "I'll tear you to pieces!",
+        "reviewed": true
+      }
+    },
+    "condition_talk_blocked": {
+      "text": {
+        "reference": "刺してやる ホンキよ",
+        "translation": "I'll stab you. I mean it!",
+        "reviewed": true
+      }
+    },
+    "condition_ally_veto": {
+      "text": {
+        "reference": "刺してやろうよ こんなの",
+        "translation": "Let's stab this creep!",
+        "reviewed": true
+      }
+    },
+    "condition_full_moon": {
+      "text": {
+        "reference": "月に1度は ゴキゲンナナメよ！",
+        "translation": "Once a month, I'm in a terrible mood!",
+        "reviewed": true
+      }
+    }
+  }
+}

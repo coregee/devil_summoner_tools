@@ -182,9 +182,10 @@ explicit font, row count, and width measured in either glyph cells or pixels.
 fields and partially specified widths so an unknown value cannot silently
 become a guessed constraint.
 
-The English event window is the documented 300-pixel, three-row patch surface.
-The battle console is fixed at 16 cells by three rows in both languages. Other
-English limits remain unknown until their translated renderers are measured.
+The English event and battle-negotiation windows are separate consumers with
+the documented 300-pixel, three-row patch geometry. The battle console is fixed
+at 16 cells by three rows in both languages. Other English limits remain
+unknown until their translated renderers are measured.
 
 ## Implementation plan
 
@@ -196,7 +197,8 @@ English limits remain unknown until their translated renderers are measured.
    `A_DIC.BIN` table, while keeping other mixed sections evidence-only.
 4. **In progress:** establish the shared human authoring view and import only
    translations and useful notes from the mature corpus. Item, equipment,
-   field-message, demon-name, and Compendium-profile slices are complete.
+   field-message, demon-name, Compendium-profile, and all 15 negotiation-style
+   slices are complete.
 5. Produce complete encoding coverage and capacity reports for both discs.
 6. Finalize output encodings and deterministic full-corpus dictionary groups.
 7. Implement one atomic text repack; partial dictionary builds remain

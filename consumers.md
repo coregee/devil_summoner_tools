@@ -302,6 +302,11 @@ The skill window also includes non-skill options, like ATTACK, MAGIC, EXTRA, GUA
 
 Talking to demons uses a very similar window to the standard event window. However, some additional actions can occur here.
 
+The stock Japanese dialogue area is three rows of 20 FONT16 glyph cells. The
+translated renderer has three rows and a 300-pixel usable width. This is a
+separate `battle.negotiation_dialogue` consumer even though its measured
+geometry matches the event window.
+
 Demons can request items, which are highlighted in blue text.
 
 Demons can also ask for the player to provision an item, money, or magnetite. The former opens an item window similar to the one specified directly above. The latter two provide an inline money selector, where the player moves left and right to select the highlighted digit, and up/down to decrement/increment it. Pressing A confirms the amount to provision.

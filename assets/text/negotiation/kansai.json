@@ -1,0 +1,3405 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "dialogue_0000": {
+      "text": {
+        "reference": "{OP:8025}ただいまメッセージさくせいちゅう{n}{OP:8022}COMINGSOON{OP:8020}",
+        "translation": "{OP:8025}MESSAGE UNDER CONSTRUCTION{OP:8022}COMING SOON{OP:8020}"
+      }
+    },
+    "dialogue_0001": {
+      "text": {
+        "reference": "MAKING{OP:8025}NOW{OP:8020}",
+        "translation": "MAKING {OP:8025}NOW{OP:8020}"
+      }
+    },
+    "dialogue_0002": {
+      "text": {
+        "reference": "なかまにいるんだ～ぜ～！{n}（かり）",
+        "translation": "I'll join ya, y'hear! (Temporary)"
+      }
+    },
+    "dialogue_0003": {
+      "text": {
+        "reference": "オイラまんげつのよるはハイなんだ{n}（かり）",
+        "translation": "Full moons get me all fired up! (Temporary)"
+      }
+    },
+    "dialogue_0004": {
+      "text": {
+        "reference": "このまえはありがとうなかまになるぜ～{n}（かり）",
+        "translation": "Thanks for last time! I'll join ya! (Temporary)"
+      }
+    },
+    "dialogue_0005": {
+      "text": {
+        "reference": "このまえはよくもやっつけてやるぜ～{n}（かり）",
+        "translation": "You'll pay for last time! I'll get ya! (Temporary)"
+      }
+    },
+    "dialogue_0006": {
+      "text": {
+        "reference": "このまえはありがとうれいをするぜ～{n}（かり）",
+        "translation": "Thanks for last time! I'll repay ya! (Temporary)"
+      }
+    },
+    "dialogue_0007": {
+      "text": {
+        "reference": "わりこみかいしなんかいうんだ～ぜ～{n}（かり）",
+        "translation": "Somethin' about an interrupt starting! (Temporary)"
+      }
+    },
+    "dialogue_0008": {
+      "text": {
+        "reference": "さいごのひとりになっちまったんだぜ～{n}（かり）",
+        "translation": "I'm the last one left! (Temporary)"
+      }
+    },
+    "dialogue_0009": {
+      "placeholders": {
+        "kyouji_name": "character_name"
+      },
+      "text": {
+        "reference": "{kyouji_name}",
+        "translation": "{kyouji_name}"
+      }
+    },
+    "dialogue_0010": {
+      "placeholders": {
+        "codename": "player_codename"
+      },
+      "text": {
+        "reference": "{codename}",
+        "translation": "{codename}"
+      }
+    },
+    "dialogue_0011": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "{demon_name}",
+        "translation": "{demon_name}"
+      }
+    },
+    "dialogue_0012": {
+      "text": {
+        "reference": "…………",
+        "translation": "........"
+      }
+    },
+    "dialogue_0013": {
+      "text": {
+        "reference": "愛想がいいな",
+        "translation": "You're friendly."
+      }
+    },
+    "dialogue_0014": {
+      "text": {
+        "reference": "気味が悪いな",
+        "translation": "You're creepy."
+      }
+    },
+    "dialogue_0015": {
+      "text": {
+        "reference": "何だおまえは",
+        "translation": "What are you?"
+      }
+    },
+    "dialogue_0016": {
+      "text": {
+        "reference": "はあ…？",
+        "translation": "Huh...?"
+      }
+    },
+    "dialogue_0017": {
+      "text": {
+        "reference": "よろこんで",
+        "translation": "Gladly."
+      }
+    },
+    "dialogue_0018": {
+      "text": {
+        "reference": "分かった",
+        "translation": "All right."
+      }
+    },
+    "dialogue_0019": {
+      "text": {
+        "reference": "そんなに飲めない",
+        "translation": "I can't drink that much."
+      }
+    },
+    "dialogue_0020": {
+      "text": {
+        "reference": "酒は飲めない",
+        "translation": "I don't drink."
+      }
+    },
+    "dialogue_0021": {
+      "text": {
+        "reference": "仕方ないな",
+        "translation": "Oh, all right."
+      }
+    },
+    "dialogue_0022": {
+      "text": {
+        "reference": "はやく見せて",
+        "translation": "Hurry and show me."
+      }
+    },
+    "dialogue_0023": {
+      "text": {
+        "reference": "そうだな",
+        "translation": "I suppose."
+      }
+    },
+    "dialogue_0024": {
+      "text": {
+        "reference": "それは違う",
+        "translation": "That's wrong."
+      }
+    },
+    "dialogue_0025": {
+      "text": {
+        "reference": "お好み焼きがウマイ",
+        "translation": "Okonomiyaki is best."
+      }
+    },
+    "dialogue_0026": {
+      "text": {
+        "reference": "そうだ",
+        "translation": "That's right."
+      }
+    },
+    "dialogue_0027": {
+      "text": {
+        "reference": "そんなことはない",
+        "translation": "That's not true."
+      }
+    },
+    "dialogue_0028": {
+      "text": {
+        "reference": "ラーメンが好きだ",
+        "translation": "I like ramen."
+      }
+    },
+    "dialogue_0029": {
+      "text": {
+        "reference": "くどい",
+        "translation": "Enough already."
+      }
+    },
+    "dialogue_0030": {
+      "text": {
+        "reference": "セコい",
+        "translation": "You're cheap."
+      }
+    },
+    "dialogue_0031": {
+      "text": {
+        "reference": "調子乗り",
+        "translation": "You're a show-off."
+      }
+    },
+    "dialogue_0032": {
+      "text": {
+        "reference": "どこが",
+        "translation": "What part?"
+      }
+    },
+    "dialogue_0033": {
+      "text": {
+        "reference": "欲しいのか？",
+        "translation": "You want it?"
+      }
+    },
+    "dialogue_0034": {
+      "text": {
+        "reference": "おまえには必要ない",
+        "translation": "You don't need it."
+      }
+    },
+    "dialogue_0035": {
+      "text": {
+        "reference": "さあな",
+        "translation": "Who knows?"
+      }
+    },
+    "dialogue_0036": {
+      "text": {
+        "reference": "おまえに会うため",
+        "translation": "To see you."
+      }
+    },
+    "dialogue_0037": {
+      "text": {
+        "reference": "なんとなく",
+        "translation": "No particular reason."
+      }
+    },
+    "dialogue_0038": {
+      "text": {
+        "reference": "なぜだ",
+        "translation": "Why?"
+      }
+    },
+    "dialogue_0039": {
+      "text": {
+        "reference": "俺も気に入らない",
+        "translation": "I don't like it either."
+      }
+    },
+    "dialogue_0040": {
+      "text": {
+        "reference": "そうなのか",
+        "translation": "Really?"
+      }
+    },
+    "dialogue_0041": {
+      "text": {
+        "reference": "そんなことない",
+        "translation": "Not at all."
+      }
+    },
+    "dialogue_0042": {
+      "text": {
+        "reference": "残念だったな",
+        "translation": "Too bad."
+      }
+    },
+    "dialogue_0043": {
+      "text": {
+        "reference": "おしいな",
+        "translation": "So close."
+      }
+    },
+    "dialogue_0044": {
+      "text": {
+        "reference": "それは無理だ",
+        "translation": "Impossible."
+      }
+    },
+    "dialogue_0045": {
+      "text": {
+        "reference": "惜しいな",
+        "translation": "What a shame."
+      }
+    },
+    "dialogue_0046": {
+      "text": {
+        "reference": "分かりました",
+        "translation": "Understood."
+      }
+    },
+    "dialogue_0047": {
+      "text": {
+        "reference": "はあ…そうですか",
+        "translation": "Oh... I see."
+      }
+    },
+    "dialogue_0048": {
+      "text": {
+        "reference": "難しいな",
+        "translation": "That's difficult."
+      }
+    },
+    "dialogue_0049": {
+      "text": {
+        "reference": "もちろん大阪だ",
+        "translation": "Osaka, of course."
+      }
+    },
+    "dialogue_0050": {
+      "text": {
+        "reference": "実は違う",
+        "translation": "Actually, no."
+      }
+    },
+    "dialogue_0051": {
+      "text": {
+        "reference": "その通り",
+        "translation": "Exactly."
+      }
+    },
+    "dialogue_0052": {
+      "text": {
+        "reference": "違う",
+        "translation": "No."
+      }
+    },
+    "dialogue_0053": {
+      "text": {
+        "reference": "ばれたか",
+        "translation": "You caught me."
+      }
+    },
+    "dialogue_0054": {
+      "text": {
+        "reference": "芸人になりたい",
+        "translation": "I want to be a comedian."
+      }
+    },
+    "dialogue_0055": {
+      "text": {
+        "reference": "人違いだ",
+        "translation": "Wrong person."
+      }
+    },
+    "dialogue_0056": {
+      "text": {
+        "reference": "ただの探偵だ",
+        "translation": "I'm just a detective."
+      }
+    },
+    "dialogue_0057": {
+      "text": {
+        "reference": "貸すだけなら",
+        "translation": "If I'm only lending it..."
+      }
+    },
+    "dialogue_0058": {
+      "text": {
+        "reference": "いやだ",
+        "translation": "No."
+      }
+    },
+    "dialogue_0059": {
+      "text": {
+        "reference": "いいのか",
+        "translation": "Is that okay?"
+      }
+    },
+    "dialogue_0060": {
+      "text": {
+        "reference": "遠慮しておく",
+        "translation": "I'll pass."
+      }
+    },
+    "dialogue_0061": {
+      "text": {
+        "reference": "貸すと言わずよこせ",
+        "translation": "Don't lend it. Give it here."
+      }
+    },
+    "dialogue_0062": {
+      "text": {
+        "reference": "こちらこそたのむ",
+        "translation": "Likewise."
+      }
+    },
+    "dialogue_0063": {
+      "text": {
+        "reference": "別に…",
+        "translation": "Not really..."
+      }
+    },
+    "dialogue_0064": {
+      "text": {
+        "reference": "仲魔になれ",
+        "translation": "Join me."
+      }
+    },
+    "dialogue_0065": {
+      "text": {
+        "reference": "ここから消えろ",
+        "translation": "Get out."
+      }
+    },
+    "dialogue_0066": {
+      "text": {
+        "reference": "お願いします",
+        "translation": "Please."
+      }
+    },
+    "dialogue_0067": {
+      "text": {
+        "reference": "たのむ",
+        "translation": "I'm begging you."
+      }
+    },
+    "dialogue_0068": {
+      "text": {
+        "reference": "結構だ",
+        "translation": "No, thank you."
+      }
+    },
+    "dialogue_0069": {
+      "text": {
+        "reference": "絶対にいやだ",
+        "translation": "Absolutely not."
+      }
+    },
+    "dialogue_0070": {
+      "text": {
+        "reference": "そうだな…",
+        "translation": "Let's see..."
+      }
+    },
+    "dialogue_0071": {
+      "text": {
+        "reference": "欲しいものを言え",
+        "translation": "Tell me what you want."
+      }
+    },
+    "dialogue_0072": {
+      "text": {
+        "reference": "放っておいてくれ",
+        "translation": "Leave me alone."
+      }
+    },
+    "dialogue_0073": {
+      "text": {
+        "reference": "それなら助けてくれ",
+        "translation": "Then help me."
+      }
+    },
+    "dialogue_0074": {
+      "text": {
+        "reference": "そうかな",
+        "translation": "Really?"
+      }
+    },
+    "dialogue_0075": {
+      "text": {
+        "reference": "なります",
+        "translation": "I will."
+      }
+    },
+    "dialogue_0076": {
+      "text": {
+        "reference": "だめだ",
+        "translation": "No."
+      }
+    },
+    "dialogue_0077": {
+      "text": {
+        "reference": "やめろ",
+        "translation": "Stop."
+      }
+    },
+    "dialogue_0078": {
+      "text": {
+        "reference": "待ってくれ",
+        "translation": "Wait."
+      }
+    },
+    "dialogue_0079": {
+      "text": {
+        "reference": "何をするつもりだ",
+        "translation": "What are you planning?"
+      }
+    },
+    "dialogue_0080": {
+      "text": {
+        "reference": "その前に俺がやる",
+        "translation": "I'll get you first."
+      }
+    },
+    "dialogue_0081": {
+      "text": {
+        "reference": "仕方がない",
+        "translation": "It can't be helped."
+      }
+    },
+    "dialogue_0082": {
+      "text": {
+        "reference": "それはできない",
+        "translation": "I can't do that."
+      }
+    },
+    "dialogue_0083": {
+      "text": {
+        "reference": "ごめんなさい",
+        "translation": "I'm sorry."
+      }
+    },
+    "dialogue_0084": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "どうも～{BEAT}こんにちわ～{BEAT}{n}{demon_name}で～{BEAT}す",
+        "translation": "Hellooo!{BEAT} How're ya?{BEAT} I'm{BEAT} {demon_name}!"
+      }
+    },
+    "dialogue_0085": {
+      "text": {
+        "reference": "こらこらおまえも名前言わんかい！",
+        "translation": "Hey! You gotta give your name too!"
+      }
+    },
+    "dialogue_0086": {
+      "placeholders": {
+        "kyouji_name": "character_name"
+      },
+      "text": {
+        "reference": "{kyouji_name}さんかいな～{BEAT}{n}そうかそうか",
+        "translation": "So you're {kyouji_name}?{BEAT} I see, I see."
+      }
+    },
+    "dialogue_0087": {
+      "placeholders": {
+        "kyouji_name": "character_name"
+      },
+      "text": {
+        "reference": "{kyouji_name}言うんか～{BEAT}{n}かあ～{BEAT}っこええなあ～",
+        "translation": "You're called {kyouji_name}?{BEAT} Man,{BEAT} that's cool!"
+      }
+    },
+    "dialogue_0088": {
+      "placeholders": {
+        "codename": "player_codename"
+      },
+      "text": {
+        "reference": "{codename}さんねえ…？{n}あ～{BEAT}そ～{BEAT}ですかあふ～{BEAT}ん{n}まあ名前なんかどうでもええ",
+        "translation": "{codename}, huh? Oh,{BEAT} really?{BEAT} Hmmm.{BEAT} Names don't matter anyway."
+      }
+    },
+    "dialogue_0089": {
+      "placeholders": {
+        "codename": "player_codename"
+      },
+      "text": {
+        "reference": "{codename}やて～{WAIT}{n}こないだ病院でウワサになってた{n}やつとおんなじ名前や～",
+        "translation": "{codename}!?{WAIT} Same name as that guy folks at the hospital were talkin' about!"
+      }
+    },
+    "dialogue_0090": {
+      "text": {
+        "reference": "おいおい{n}それはわいの名前やろ！{BEAT}{n}まあええ精一杯のボケ見せてもろたし",
+        "translation": "Hey, that's my name!{BEAT} Well, at least ya tried your best gag."
+      }
+    },
+    "dialogue_0091": {
+      "text": {
+        "reference": "なんやそれ？{BEAT}{n}ボケたつもりか？{WAIT}{n}めっちゃさぶいなあ",
+        "translation": "What was that?{BEAT} Was that supposed to be a joke?{WAIT} Ice cold!"
+      }
+    },
+    "dialogue_0092": {
+      "text": {
+        "reference": "なんや{n}聞えてんのか？{WAIT}{n}お～いおまえ",
+        "translation": "Can ya hear me?{WAIT} Hey, you!"
+      }
+    },
+    "dialogue_0093": {
+      "text": {
+        "reference": "なんやわれ！{n}ひとが聞いてんのに何だまってんねん！",
+        "translation": "Hey! Why're ya quiet when I'm askin' ya!?"
+      }
+    },
+    "dialogue_0094": {
+      "text": {
+        "reference": "いやあ{BEAT}お客さん",
+        "translation": "Well,{BEAT} hello, customer!"
+      }
+    },
+    "dialogue_0095": {
+      "text": {
+        "reference": "よういらっしゃいましたなあ",
+        "translation": "Welcome, welcome!"
+      }
+    },
+    "dialogue_0096": {
+      "text": {
+        "reference": "いやあ～{BEAT}{n}それがわいのとりえやからなあ～",
+        "translation": "Being friendly's my best feature!{BEAT}"
+      }
+    },
+    "dialogue_0097": {
+      "text": {
+        "reference": "そうかなあ{n}こんなもんやろふつう",
+        "translation": "Really? Seems normal to me."
+      }
+    },
+    "dialogue_0098": {
+      "text": {
+        "reference": "それは考えすぎや{n}そんなことあらへんがな{WAIT}{n}それよりもやな～",
+        "translation": "You're overthinking it. That's not true.{WAIT} Anyway..."
+      }
+    },
+    "dialogue_0099": {
+      "text": {
+        "reference": "なんや{n}感じ悪いやっちゃなあ",
+        "translation": "What? You sure are unpleasant."
+      }
+    },
+    "dialogue_0100": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "わいのことか{BEAT}{n}{demon_name}っちゅ～悪魔や！{WAIT}{n}それよりお客さん",
+        "translation": "Me?{BEAT} I'm the demon {demon_name}!{WAIT} Anyway, pal..."
+      }
+    },
+    "dialogue_0101": {
+      "text": {
+        "reference": "「なんだ」言われてもなあ{BEAT}{n}ふつうの悪魔やからなあ～",
+        "translation": "What do ya mean, what?{BEAT} I'm a normal demon."
+      }
+    },
+    "dialogue_0102": {
+      "text": {
+        "reference": "もっと元気ださなあかん{n}そんなんでどうするんや{WAIT}{n}よっしゃ！",
+        "translation": "Show some spirit! What'll ya do like that?{WAIT} All right!"
+      }
+    },
+    "dialogue_0103": {
+      "text": {
+        "reference": "なんやその気ィのない返事は{BEAT}{n}もっとシャキっとせえ！{n}シャキっと！",
+        "translation": "What a lifeless answer!{BEAT} Stand up straight! Straight!"
+      }
+    },
+    "dialogue_0104": {
+      "text": {
+        "reference": "おまえ…{BEAT}{n}いきなりやけど{n}相方にならへんか？",
+        "translation": "Sudden question,{BEAT} but wanna be my comedy partner?"
+      }
+    },
+    "dialogue_0105": {
+      "text": {
+        "reference": "ええから名前は？",
+        "translation": "Fine, what's your name?"
+      }
+    },
+    "dialogue_0106": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "kyouji_name": "character_name"
+      },
+      "text": {
+        "reference": "そうやなあ…{BEAT}コンビ名は{n}{kyouji_name}＆{demon_name}で{n}どないや！",
+        "translation": "Let's see...{BEAT} How about {kyouji_name} & {demon_name}?"
+      }
+    },
+    "dialogue_0107": {
+      "placeholders": {
+        "kyouji_name": "character_name"
+      },
+      "text": {
+        "reference": "{kyouji_name}かあ…{BEAT}{n}なんや変わりばえせ～{BEAT}へん名前やな～{BEAT}{n}なんか芸名つけなあかんなあ",
+        "translation": "{kyouji_name}, huh?{BEAT} That's a plain old name.{BEAT} You need a stage name!{BEAT}"
+      }
+    },
+    "dialogue_0108": {
+      "placeholders": {
+        "codename": "player_codename"
+      },
+      "text": {
+        "reference": "{codename}！{n}どっかで聞いたことあるなあ…{BEAT}{n}まあ気のせいやろうけどな！{WAIT}それより",
+        "translation": "{codename}! I've heard that somewhere...{BEAT} Probably imagining it!{WAIT} Anyway..."
+      }
+    },
+    "dialogue_0109": {
+      "text": {
+        "reference": "あかんわ…{BEAT}{n}芸向きの名前してへん",
+        "translation": "No good...{BEAT} Your name ain't fit for show business."
+      }
+    },
+    "dialogue_0110": {
+      "text": {
+        "reference": "そらわいの名前やゆうねん{WAIT}{n}しょ～もないやっちゃなあ",
+        "translation": "That's my name!{WAIT} What a lousy joke."
+      }
+    },
+    "dialogue_0111": {
+      "text": {
+        "reference": "なに今の？{BEAT}{n}もしかして笑うトコやったんか？",
+        "translation": "What was that?{BEAT} Was I supposed to laugh?"
+      }
+    },
+    "dialogue_0112": {
+      "text": {
+        "reference": "何や～起きてるか～{WAIT}{n}お～い{WAIT}{n}ええからわいの話聞いてくれ～",
+        "translation": "Hey, awake?{WAIT} Listen!{WAIT} Just hear me out!"
+      }
+    },
+    "dialogue_0113": {
+      "text": {
+        "reference": "なに緊張してんねん{n}そんなことで舞台たてるんか～？",
+        "translation": "Why're ya nervous? Can ya take the stage like that?"
+      }
+    },
+    "dialogue_0114": {
+      "text": {
+        "reference": "おっ！{BEAT}{n}久しぶりの人間やんけ",
+        "translation": "Oh!{BEAT} A human! Been a while."
+      }
+    },
+    "dialogue_0115": {
+      "text": {
+        "reference": "よう来たよう来た！",
+        "translation": "Welcome, welcome!"
+      }
+    },
+    "dialogue_0116": {
+      "text": {
+        "reference": "おまえがテンション低いだけや",
+        "translation": "You're just low-energy."
+      }
+    },
+    "dialogue_0117": {
+      "text": {
+        "reference": "そんなことないで{n}ふつうのやつはこんなもんや！",
+        "translation": "No way! Normal folks are like this."
+      }
+    },
+    "dialogue_0118": {
+      "text": {
+        "reference": "そうかなあ？きにしてまうなあ{BEAT}{n}そんなふうに言わんといてたのむわ！{WAIT}{n}なんかおもろい話するから…",
+        "translation": "Really? Now I'm worried.{BEAT} Don't say that!{WAIT} I'll tell ya something funny..."
+      }
+    },
+    "dialogue_0119": {
+      "text": {
+        "reference": "なんでや！{BEAT}{n}わいメチャええやつやんか！",
+        "translation": "Why!?{BEAT} I'm a great guy!"
+      }
+    },
+    "dialogue_0120": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "わいは{demon_name}や～{n}もしかして知ってたあ？",
+        "translation": "I'm {demon_name}! Did ya know?"
+      }
+    },
+    "dialogue_0121": {
+      "text": {
+        "reference": "おまえこそなんや！",
+        "translation": "What are you!?"
+      }
+    },
+    "dialogue_0122": {
+      "text": {
+        "reference": "おいおいたのむで～！{BEAT}{n}そんな情けない声出すなよ～{WAIT}{n}よっしゃわいが元気出る話したる！",
+        "translation": "Come on!{BEAT} Don't sound so pathetic.{WAIT} I'll tell ya something cheerful!"
+      }
+    },
+    "dialogue_0123": {
+      "text": {
+        "reference": "「はあ」やあらへんで！{n}もっと元気だしていこ！",
+        "translation": "Don't just sigh! Show some spirit!"
+      }
+    },
+    "dialogue_0124": {
+      "text": {
+        "reference": "景気の悪そ～な顔して…{BEAT}{n}もっとシャキっとせんかい{n}シャキっと！",
+        "translation": "What a gloomy face...{BEAT} Stand up straight! Straight!"
+      }
+    },
+    "dialogue_0125": {
+      "text": {
+        "reference": "おまえなんちゅう名前や？",
+        "translation": "What's your name?"
+      }
+    },
+    "dialogue_0126": {
+      "placeholders": {
+        "kyouji_name": "character_name"
+      },
+      "text": {
+        "reference": "{kyouji_name}ねぇ…{BEAT}{n}はいはい{BEAT}そ～ですかあ",
+        "translation": "{kyouji_name}, huh?{BEAT} Yeah, yeah.{BEAT} Sure."
+      }
+    },
+    "dialogue_0127": {
+      "text": {
+        "reference": "おまえか{BEAT}{n}あっちこちで調子に乗って{n}ブイブイいわしてんのは",
+        "translation": "So you're the one{BEAT} making a splash all over town?"
+      }
+    },
+    "dialogue_0128": {
+      "text": {
+        "reference": "ふ～{BEAT}ん{BEAT}あっそ～{BEAT}ですかあ～{WAIT}{n}まあそれはそれとして",
+        "translation": "Hmmm,{BEAT} oh,{BEAT} really?{BEAT}{WAIT} Anyway..."
+      }
+    },
+    "dialogue_0129": {
+      "text": {
+        "reference": "な～{BEAT}んや{BEAT}ありふれた名前やなあ",
+        "translation": "What{BEAT} a{BEAT} common name."
+      }
+    },
+    "dialogue_0130": {
+      "text": {
+        "reference": "わいの名前言うて{n}どないするんじゃ{WAIT}{n}まあ知ってくれてんのはうれしいけど…",
+        "translation": "Why do ya need my name?{WAIT} Though I'm glad ya know me..."
+      }
+    },
+    "dialogue_0131": {
+      "text": {
+        "reference": "おっとそうや忘れるとこやった{n}前から誰かに聞きたいと{n}思てたことがあるんや",
+        "translation": "Oh, right! I nearly forgot. There's something I've wanted to ask."
+      }
+    },
+    "dialogue_0132": {
+      "text": {
+        "reference": "どない言うてええか分からへんわ～{BEAT}{n}わけ分からへん！{WAIT}{n}さてはわいのことキライなんやろ？",
+        "translation": "I don't know how to put it!{BEAT} Makes no sense!{WAIT} You hate me, don't ya?"
+      }
+    },
+    "dialogue_0133": {
+      "text": {
+        "reference": "おまえなんでだまってんねん！{n}自分の名前忘れたんと違うやろ？",
+        "translation": "Why're ya silent? You didn't forget your own name!"
+      }
+    },
+    "dialogue_0134": {
+      "text": {
+        "reference": "だまってたら分からへんやんけ！{n}ほんま感じ悪いやっちゃなあ",
+        "translation": "I can't know if ya stay quiet! You're really unpleasant."
+      }
+    },
+    "dialogue_0135": {
+      "text": {
+        "reference": "せっかく気楽うに{n}ぶらぶらしてたのに～",
+        "translation": "I was happily wandering around..."
+      }
+    },
+    "dialogue_0136": {
+      "text": {
+        "reference": "まあええわ{BEAT}せっかく来たんやからな！",
+        "translation": "Oh, well.{BEAT} Since you're here!"
+      }
+    },
+    "dialogue_0137": {
+      "text": {
+        "reference": "別にィそんなこともないけどな",
+        "translation": "Not particularly."
+      }
+    },
+    "dialogue_0138": {
+      "text": {
+        "reference": "おまえにまであいそよう{n}するつもりはないんやけどな！",
+        "translation": "I don't gotta be friendly to you!"
+      }
+    },
+    "dialogue_0139": {
+      "text": {
+        "reference": "えらい失礼なやっちゃなあ{BEAT}{n}いきなりそれかい！{WAIT}{n}よう見たら",
+        "translation": "How rude!{BEAT} That's your opener?{WAIT} Looking closer..."
+      }
+    },
+    "dialogue_0140": {
+      "text": {
+        "reference": "誰に言うてんねん誰に！",
+        "translation": "Who're ya talking to!?"
+      }
+    },
+    "dialogue_0141": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "よう聞いてくれた{n}{demon_name}いうんや知ってるやろ？{BEAT}{n}なんせわいメジャーやからなあ",
+        "translation": "Glad ya asked! I'm {demon_name}. Ya know me,{BEAT} right? I'm famous!"
+      }
+    },
+    "dialogue_0142": {
+      "text": {
+        "reference": "わいのことはええから{n}おまえのこと言えよ！",
+        "translation": "Enough about me. Tell me about you!"
+      }
+    },
+    "dialogue_0143": {
+      "text": {
+        "reference": "そんな情けない声出してるから{n}あかんのや！",
+        "translation": "That pathetic voice is your problem!"
+      }
+    },
+    "dialogue_0144": {
+      "text": {
+        "reference": "「はあ」ちゃうで{n}もっとしっかりせんかい！{WAIT}{n}おまえいつもそんなんか？",
+        "translation": "Don't just sigh! Pull yourself together!{WAIT} Are ya always like this?"
+      }
+    },
+    "dialogue_0145": {
+      "text": {
+        "reference": "せっかくやから{n}酒盛りでもしょうか{n}わいのおごりや",
+        "translation": "Since we're here, let's drink. My treat!"
+      }
+    },
+    "dialogue_0146": {
+      "text": {
+        "reference": "ええから{BEAT}ええから{BEAT}どんどん飲んでや",
+        "translation": "Go on,{BEAT} go on!{BEAT} Drink up!"
+      }
+    },
+    "dialogue_0147": {
+      "text": {
+        "reference": "おお！{BEAT}その調子や！{n}ええからどんどんいってくれ！",
+        "translation": "Yeah!{BEAT} That's it! Keep drinking!"
+      }
+    },
+    "dialogue_0148": {
+      "text": {
+        "reference": "アホやな～{BEAT}調子に乗って{WAIT}{n}後できっちり払うてもらうで～{WAIT}{n}…まあそれはええとして",
+        "translation": "Idiot!{BEAT} Getting carried away.{WAIT} You'll pay me later.{WAIT} Anyway..."
+      }
+    },
+    "dialogue_0149": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}あ～あ{BEAT}タダやと思てそんなムチャして",
+        "translation": ".{BEAT}.{BEAT}.{BEAT}.{BEAT}.{WAIT} Sheesh!{BEAT} Drinking crazy because ya thought it was free."
+      }
+    },
+    "dialogue_0150": {
+      "text": {
+        "reference": "あ～あ{BEAT}{n}寝てもうたんかカゼひいても知らんで～",
+        "translation": "Aw,{BEAT} ya fell asleep? Don't blame me if ya catch cold!"
+      }
+    },
+    "dialogue_0151": {
+      "text": {
+        "reference": "そうやそれでええんや{n}どうやうまいやろ？なっ！",
+        "translation": "Yeah, that's it. Tasty, right?"
+      }
+    },
+    "dialogue_0152": {
+      "text": {
+        "reference": "せっかくなんやから{n}もうちょっとよろこんでくれよ！",
+        "translation": "Come on, enjoy it more!"
+      }
+    },
+    "dialogue_0153": {
+      "text": {
+        "reference": "カタいやっちゃなあ{BEAT}{n}こんなときぐらいええやんか",
+        "translation": "So uptight!{BEAT} Loosen up for once."
+      }
+    },
+    "dialogue_0154": {
+      "text": {
+        "reference": "あかんなあ～{BEAT}{n}おまえほんまあかんわ～",
+        "translation": "No good!{BEAT} You're hopeless!"
+      }
+    },
+    "dialogue_0155": {
+      "text": {
+        "reference": "そうか…{BEAT}{n}そらしゃあないなあ…",
+        "translation": "I see...{BEAT} Can't be helped..."
+      }
+    },
+    "dialogue_0156": {
+      "text": {
+        "reference": "なんやわれ！{WAIT}{n}わいの酒飲まれへんのか！",
+        "translation": "Hey!{WAIT} Ya won't drink my booze!?"
+      }
+    },
+    "dialogue_0157": {
+      "text": {
+        "reference": "せっかくやからゆっくりしていって！{WAIT}{n}なに？{WAIT}いそがしい？{n}そんなこと言わんと",
+        "translation": "Stay a while!{WAIT} What?{WAIT} Busy? Come on..."
+      }
+    },
+    "dialogue_0158": {
+      "text": {
+        "reference": "ええからわいのネタ見ていって！",
+        "translation": "At least watch my routine!"
+      }
+    },
+    "dialogue_0159": {
+      "text": {
+        "reference": "ええかあ？{BEAT}いくで～！{WAIT}{n}お題は「あくま」",
+        "translation": "Ready?{BEAT} Here goes!{WAIT} Theme: \"Akuma.\""
+      }
+    },
+    "dialogue_0160": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "{OP:8022}あ～{OP:8020}{WAIT}あなたといっしょにィ～{WAIT}{n}{OP:8022}く～{OP:8020}{WAIT}くるしいときも～{WAIT}{n}{OP:8022}ま～{OP:8020}{WAIT}ま…{BEAT}まけるな{demon_name}！",
+        "translation": "{OP:8022}A{OP:8020}{WAIT}lways together with you!{WAIT}{OP:8022}Ku{OP:8020}{WAIT} Through painful times too!{WAIT}{OP:8022}Ma{OP:8020}{WAIT} Man...{BEAT} Don't lose, {demon_name}!"
+      }
+    },
+    "dialogue_0161": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}どうやハイレベルやろ！",
+        "translation": ".{BEAT}.{BEAT}.{BEAT}.{BEAT}.{WAIT} Pretty advanced, right?"
+      }
+    },
+    "dialogue_0162": {
+      "text": {
+        "reference": "ええかあ？{BEAT}いくで～！{WAIT}{n}お題は「でびる」",
+        "translation": "Ready?{BEAT} Here goes!{WAIT} Theme: \"Devil.\""
+      }
+    },
+    "dialogue_0163": {
+      "text": {
+        "reference": "{OP:8022}で～{OP:8020}{WAIT}デリケートで～{WAIT}{n}{OP:8022}び～{OP:8020}{WAIT}びっ{BEAT}貧乏で～{WAIT}{n}{OP:8022}る～{OP:8020}{WAIT}る？{BEAT}る…{BEAT}る…{BEAT}ルルルのル～",
+        "translation": "{OP:8022}De{OP:8020}{WAIT} Delicate!{WAIT}{OP:8022}Vi{OP:8020}{WAIT} V-very{BEAT} poor!{WAIT}{OP:8022}L{OP:8020}{WAIT} L?{BEAT} L...{BEAT} L...{BEAT} La-la-la!"
+      }
+    },
+    "dialogue_0164": {
+      "text": {
+        "reference": "わけ分からへん{BEAT}{n}どないする？",
+        "translation": "Makes no sense,{BEAT} huh? What'll ya do?"
+      }
+    },
+    "dialogue_0165": {
+      "text": {
+        "reference": "分かったやて～{WAIT}{n}そんなエラそうに言うんやったら{n}ネタなんかやらへんで～",
+        "translation": "You understand?{WAIT} If you're gonna act superior, I won't perform!"
+      }
+    },
+    "dialogue_0166": {
+      "text": {
+        "reference": "いややったら別にええんや別に…",
+        "translation": "If ya don't want it, fine..."
+      }
+    },
+    "dialogue_0167": {
+      "text": {
+        "reference": "そんな態度のやつに誰が見せるか！{WAIT}{n}もうちょっと見込みあると思たのにな…",
+        "translation": "Who'd show a guy with that attitude!?{WAIT} Thought ya had more promise..."
+      }
+    },
+    "dialogue_0168": {
+      "text": {
+        "reference": "そこまで言うんか{WAIT}{n}しゃあないなあやりますか",
+        "translation": "You're going that far?{WAIT} Fine, I'll do it."
+      }
+    },
+    "dialogue_0169": {
+      "text": {
+        "reference": "一気にいくからよう見とけよ！{WAIT}{n}妙技「花咲きあくま～」！！{BEAT}{n}おりゃ！",
+        "translation": "Watch close!{WAIT} Secret art: \"Blooming Demon\"!!{BEAT} Hah!"
+      }
+    },
+    "dialogue_0170": {
+      "text": {
+        "reference": "まあ悪い気はせんけど{n}今回はやっぱりやめとくわ！",
+        "translation": "I don't mind hearing that, but I'll pass this time."
+      }
+    },
+    "dialogue_0171": {
+      "text": {
+        "reference": "やっぱりあかんあかん{WAIT}{n}おまえに見せんのもったいない{BEAT}{n}減ってまうわ！",
+        "translation": "No, no!{WAIT} Too good to show you!{BEAT} It'll wear out!"
+      }
+    },
+    "dialogue_0172": {
+      "text": {
+        "reference": "何から話しょ～かなあ…{BEAT}{n}そや！{BEAT}食いもんの話しょ～か{WAIT}{n}知ってるて思うけど…",
+        "translation": "What should I talk about...?{BEAT} Food!{BEAT}{WAIT} You know this, but..."
+      }
+    },
+    "dialogue_0173": {
+      "text": {
+        "reference": "タイ焼きよりタコ焼きの方がうまいで！",
+        "translation": "Takoyaki is better than taiyaki!"
+      }
+    },
+    "dialogue_0174": {
+      "text": {
+        "reference": "なっ{BEAT}そうやろ{BEAT}{n}おまえもそう思うやろ",
+        "translation": "Right?{BEAT} Right?{BEAT} You agree."
+      }
+    },
+    "dialogue_0175": {
+      "text": {
+        "reference": "そう言うてくれるのはうれしいけど{n}ほんまに味分かって言うてんのか？",
+        "translation": "Glad ya agree, but can ya really taste the difference?"
+      }
+    },
+    "dialogue_0176": {
+      "text": {
+        "reference": "そうかあ{n}タコ焼きの方が上やと思うけどなあ～",
+        "translation": "Really? Takoyaki is better."
+      }
+    },
+    "dialogue_0177": {
+      "text": {
+        "reference": "おまえには分からんだけや{n}ほんまもんのタコ焼き食うたこと{n}ないんやろ",
+        "translation": "Ya just don't understand. Never had real takoyaki, right?"
+      }
+    },
+    "dialogue_0178": {
+      "text": {
+        "reference": "まあ確かにお好みもうまいけどな",
+        "translation": "Okonomiyaki is good too."
+      }
+    },
+    "dialogue_0179": {
+      "text": {
+        "reference": "せやけどわいはタコ焼きの方が{n}好きやねんもん{n}おまえほんまにわかってるかあ？",
+        "translation": "But I like takoyaki better. Do ya really understand?"
+      }
+    },
+    "dialogue_0180": {
+      "text": {
+        "reference": "何から話しょ～かなあ…{BEAT}{n}そや食いもんの話しよ{WAIT}{n}おまえそば好きそうな顔してるけど",
+        "translation": "What should I talk about...?{BEAT} Food!{WAIT} Ya look like a soba guy."
+      }
+    },
+    "dialogue_0181": {
+      "text": {
+        "reference": "うどんよりそばの方がええんか？",
+        "translation": "Ya prefer soba to udon?"
+      }
+    },
+    "dialogue_0182": {
+      "text": {
+        "reference": "おまえ全然分かってへんなあ{WAIT}{n}かわいそうなやっちゃなあ～",
+        "translation": "Ya understand nothing!{WAIT} Poor guy."
+      }
+    },
+    "dialogue_0183": {
+      "text": {
+        "reference": "そうかあ？{BEAT}{n}あんなもんのどこがええんじゃ！",
+        "translation": "Really?{BEAT} What's good about that!?"
+      }
+    },
+    "dialogue_0184": {
+      "text": {
+        "reference": "そうやろ～{BEAT}{n}おまえもそう思うやろ",
+        "translation": "Right?{BEAT} You agree."
+      }
+    },
+    "dialogue_0185": {
+      "text": {
+        "reference": "ほんまにそう思てるんやな{WAIT}{n}てきと～に合わせてるだけ{n}ちゃうやろな",
+        "translation": "Ya truly mean that?{WAIT} You're not just agreeing, right?"
+      }
+    },
+    "dialogue_0186": {
+      "text": {
+        "reference": "まあラーメンもなかなかやけど{n}やっぱりうどんの方がええ思うけどな",
+        "translation": "Ramen is decent, but udon is better."
+      }
+    },
+    "dialogue_0187": {
+      "text": {
+        "reference": "そうか{BEAT}そらしゃあないな{WAIT}{n}やっぱり感性が違うんかなあ～",
+        "translation": "I see.{BEAT} Can't be helped.{WAIT} Different sensibilities, maybe."
+      }
+    },
+    "dialogue_0188": {
+      "text": {
+        "reference": "突然でびっくりするかもしれへんけど",
+        "translation": "This may surprise ya, but...",
+        "note": "Message 215 is completed by message 216: \"This may surprise you, but... / what do you think of me?\""
+      }
+    },
+    "dialogue_0189": {
+      "text": {
+        "reference": "わいのことどない思う？",
+        "translation": "what do ya think of me?",
+        "note": "Message 216 completes message 215: \"This may surprise you, but... / what do you think of me?\""
+      }
+    },
+    "dialogue_0190": {
+      "text": {
+        "reference": "そら偏見や！{BEAT}{n}そんなことないって！！{WAIT}{n}どうもさっきからおっかしいなあ…",
+        "translation": "That's prejudice!{BEAT} Not true!!{WAIT} Something's been weird..."
+      }
+    },
+    "dialogue_0191": {
+      "text": {
+        "reference": "ああそのとおりや！{BEAT}{n}なんやそれがどないしたんや！",
+        "translation": "Exactly!{BEAT} So what about it!?"
+      }
+    },
+    "dialogue_0192": {
+      "text": {
+        "reference": "おまえほっといたら{n}むちゃくちゃ言うなあ～{n}このへんでシメとかなあかんなあ～",
+        "translation": "Leave ya alone and ya say anything! Time to shut ya up."
+      }
+    },
+    "dialogue_0193": {
+      "text": {
+        "reference": "あ～{BEAT}はいはい{BEAT}{n}池のなかで泳いでて手ェたたくと{n}頭だしよる…",
+        "translation": "Oh,{BEAT} yeah, yeah.{BEAT} The thing swimming in a pond that raises its head when ya clap..."
+      }
+    },
+    "dialogue_0194": {
+      "text": {
+        "reference": "あ～{BEAT}はいはい{BEAT}{n}木ィの格子に紙を貼るときに使うやつ…",
+        "translation": "Oh,{BEAT} yeah, yeah.{BEAT} The stuff used to paste paper on wooden lattices..."
+      }
+    },
+    "dialogue_0195": {
+      "text": {
+        "reference": "突然こんなこと聞いて悪いんやけど",
+        "translation": "Sorry to ask suddenly, but...",
+        "note": "Message 226 is completed by message 227: \"Sorry to ask suddenly, but... / my style is the best, right?\""
+      }
+    },
+    "dialogue_0196": {
+      "text": {
+        "reference": "わいのセンス最高やろ？",
+        "translation": "My style is the best, right?",
+        "note": "Message 227 completes message 226: \"Sorry to ask suddenly, but... / my style is the best, right?\""
+      }
+    },
+    "dialogue_0197": {
+      "text": {
+        "reference": "「どこが」ってなあ…{BEAT}{n}見てたら分かると思うけどなあ",
+        "translation": "\"What part?\"{BEAT} You can see it!"
+      }
+    },
+    "dialogue_0198": {
+      "text": {
+        "reference": "このあふれる知性といい{n}思慮深いまなざしといい{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・",
+        "translation": "This overflowing intellect, this thoughtful gaze...{BEAT}.{BEAT}.{BEAT}.{BEAT}"
+      }
+    },
+    "dialogue_0199": {
+      "text": {
+        "reference": "あ～{BEAT}あしゃあないなあ…{WAIT}{n}やっぱりおまえにはわからんねんな{n}この高尚なセンスが！",
+        "translation": "Oh,{BEAT} forget it...{WAIT} You can't grasp my refined taste!"
+      }
+    },
+    "dialogue_0200": {
+      "text": {
+        "reference": "ちゃあんと分かってるんやんけ{WAIT}{n}よしよし{BEAT}それでええんや！",
+        "translation": "So ya do understand!{WAIT} Good!{BEAT} That's right!"
+      }
+    },
+    "dialogue_0201": {
+      "text": {
+        "reference": "おまえ全然感情込もってへんやんけ！{n}ごっつう感じ悪いなあ～",
+        "translation": "There's no feeling in that! You sound awful!"
+      }
+    },
+    "dialogue_0202": {
+      "text": {
+        "reference": "そんな～{WAIT}{n}だまらんでもええやろ{BEAT}{n}たんなるボケやボケ",
+        "translation": "Come on!{WAIT} Don't go silent.{BEAT} It was just a joke!"
+      }
+    },
+    "dialogue_0203": {
+      "text": {
+        "reference": "おまえええ加減にしとけよ！{n}だまるな言うてるやろ！",
+        "translation": "Enough! I told ya not to stay silent!"
+      }
+    },
+    "dialogue_0204": {
+      "text": {
+        "reference": "それはそうと{n}さっきからピッコピッコしてるやつ",
+        "translation": "Anyway, that beeping thing..."
+      }
+    },
+    "dialogue_0205": {
+      "text": {
+        "reference": "なんやそのキカイは？",
+        "translation": "What's that machine?"
+      }
+    },
+    "dialogue_0206": {
+      "text": {
+        "reference": "タダでもらえるんやったらもらうで～{WAIT}{n}…なんやタダちゃうんか{BEAT}{n}それやったらそんなもんいらん！",
+        "translation": "If it's free, I'll take it!{WAIT} What, not free?{BEAT} Then I don't want it!"
+      }
+    },
+    "dialogue_0207": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}なんやその目ェ{BEAT}{n}なんでそんな目ェで見るんや！",
+        "translation": ".{BEAT}.{BEAT}.{BEAT}.{BEAT}.{WAIT} What's that look?{BEAT} Why're ya looking at me like that!?"
+      }
+    },
+    "dialogue_0208": {
+      "text": {
+        "reference": "そんなもんいるか！{n}なんやって聞いただけや！！{WAIT}{n}おまえ失礼なやっちゃなあ",
+        "translation": "I don't want it! I only asked what it was!{WAIT} You're rude."
+      }
+    },
+    "dialogue_0209": {
+      "text": {
+        "reference": "はいはい{BEAT}分かりました{WAIT}{n}ケチくさいやっちゃなあ～",
+        "translation": "Yeah, yeah,{BEAT} I understand.{WAIT} Cheapskate!"
+      }
+    },
+    "dialogue_0210": {
+      "text": {
+        "reference": "それはわいが決めることや{n}ええからよこさんかい！",
+        "translation": "I decide that! Hand it over!"
+      }
+    },
+    "dialogue_0211": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}な～{BEAT}んやオモチャか～{BEAT}{n}こんなゼニにならんもんはいらん！",
+        "translation": ".{BEAT}.{BEAT}.{BEAT}.{BEAT}.{WAIT} What,{BEAT} a toy?{BEAT} I don't want worthless junk!"
+      }
+    },
+    "dialogue_0212": {
+      "text": {
+        "reference": "それはそうと{n}おまえみたいなやつが",
+        "translation": "Anyway, a guy like you...",
+        "note": "Message 243 is completed by message 244: \"Anyway, a guy like you... / why are you here?\""
+      }
+    },
+    "dialogue_0213": {
+      "text": {
+        "reference": "なんでこんなトコおんねん？",
+        "translation": "why're ya here?",
+        "note": "Message 244 completes message 243: \"Anyway, a guy like you... / why are you here?\""
+      }
+    },
+    "dialogue_0214": {
+      "text": {
+        "reference": "そんなんでええんか？{BEAT}{n}ほんまええかげんなやっちゃな～{WAIT}{n}そういうやつはイヤなんや！",
+        "translation": "Is that enough?{BEAT} You're careless.{WAIT} I hate guys like that!"
+      }
+    },
+    "dialogue_0215": {
+      "text": {
+        "reference": "カッコつけんなよ！{n}よ～{BEAT}するに迷子になっただけやろ！",
+        "translation": "Quit acting cool! You're just lost,{BEAT} right?"
+      }
+    },
+    "dialogue_0216": {
+      "text": {
+        "reference": "けっこううれしいこと{n}言うてくれるやないか{WAIT}{n}そうかそうか{BEAT}よう分かった",
+        "translation": "That's nice to hear.{WAIT} I see,{BEAT} I understand."
+      }
+    },
+    "dialogue_0217": {
+      "text": {
+        "reference": "ほんまかあ～{WAIT}{n}な～{BEAT}んかおまえの言うこと{n}信用できへんなあ～",
+        "translation": "Really?{WAIT} Something ya say seems hard to trust.{BEAT}"
+      }
+    },
+    "dialogue_0218": {
+      "text": {
+        "reference": "そうかあ？{n}ほんまは迷とるだけちゃうんか！{n}ええカッコしいやなあ～",
+        "translation": "Really? You're only lost! Such a poser."
+      }
+    },
+    "dialogue_0219": {
+      "text": {
+        "reference": "ええなあヒマ人は{WAIT}{n}ああうらやまし～{BEAT}{n}な～{BEAT}んかハラ立つし！",
+        "translation": "Must be nice being idle.{WAIT} I'm jealous.{BEAT} Now I'm mad!{BEAT}"
+      }
+    },
+    "dialogue_0220": {
+      "text": {
+        "reference": "おまえの顔つき…",
+        "translation": "Your face...",
+        "note": "Message 251 is completed by message 252: \"Your face... / somehow, I don't like it.\""
+      }
+    },
+    "dialogue_0221": {
+      "text": {
+        "reference": "な～{BEAT}んか気に入らんなあ…",
+        "translation": "somehow,{BEAT} I don't like it.",
+        "note": "Message 252 completes message 251: \"Your face... / somehow, I don't like it.\""
+      }
+    },
+    "dialogue_0222": {
+      "text": {
+        "reference": "なんで分からへんねん{n}そ～{BEAT}と～{BEAT}ぼけ～{BEAT}っとしたやつやなあ",
+        "translation": "How don't ya understand? You're{BEAT} such{BEAT} an airhead.{BEAT}"
+      }
+    },
+    "dialogue_0223": {
+      "text": {
+        "reference": "そんなもんおまえのせいに{n}決まってるやんけ！{WAIT}{n}分からんのかボケ！！",
+        "translation": "Obviously it's your fault!{WAIT} Don't ya get it, idiot!?"
+      }
+    },
+    "dialogue_0224": {
+      "text": {
+        "reference": "なんや自分のこと{n}分かってるんやないか",
+        "translation": "So ya do understand yourself."
+      }
+    },
+    "dialogue_0225": {
+      "text": {
+        "reference": "おまえのことなんか誰も聞いてるか！",
+        "translation": "Who asked about you!?"
+      }
+    },
+    "dialogue_0226": {
+      "text": {
+        "reference": "たのむからもうちょっと{n}マシな返事してくれよ{BEAT}なっ！",
+        "translation": "Please give a better answer,{BEAT} okay?"
+      }
+    },
+    "dialogue_0227": {
+      "text": {
+        "reference": "そうや！{n}それもこれもおまえのせいや！{WAIT}{n}カクゴせえよいてもうたるからな！",
+        "translation": "Right! It's all your fault!{WAIT} Prepare yourself!"
+      }
+    },
+    "dialogue_0228": {
+      "text": {
+        "reference": "おまえの目ェ{n}な～{BEAT}んかいや～{BEAT}な感じするなあ～",
+        "translation": "Your eyes give me a{BEAT} bad{BEAT} feeling."
+      }
+    },
+    "dialogue_0229": {
+      "text": {
+        "reference": "わいのこと見下してるやろ！",
+        "translation": "You're looking down on me!"
+      }
+    },
+    "dialogue_0230": {
+      "text": {
+        "reference": "そこまではっきり言うかあ～{BEAT}ふつう…",
+        "translation": "Ya really say it that plainly?{BEAT}"
+      }
+    },
+    "dialogue_0231": {
+      "text": {
+        "reference": "そうか…{BEAT}{n}もうええわ！よ～{BEAT}{BEAT}分かったわ！！",
+        "translation": "I see...{BEAT} Fine! I{BEAT} understand!!{BEAT}"
+      }
+    },
+    "dialogue_0232": {
+      "text": {
+        "reference": "ほんまかあ？{n}そやったらええんやけど…",
+        "translation": "Really? If so, fine..."
+      }
+    },
+    "dialogue_0233": {
+      "text": {
+        "reference": "そう言うたかてなあ～{BEAT}{n}すぐには信用できへんなあ～",
+        "translation": "Even if ya say that,{BEAT} I can't trust ya immediately."
+      }
+    },
+    "dialogue_0234": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}なんでだまるんや～",
+        "translation": ".{BEAT}.{BEAT}.{BEAT}.{BEAT}.{WAIT} Why're ya silent?"
+      }
+    },
+    "dialogue_0235": {
+      "text": {
+        "reference": "ウケる思たのに…",
+        "translation": "Thought it'd get a laugh..."
+      }
+    },
+    "dialogue_0236": {
+      "text": {
+        "reference": "そうかなあ～？{BEAT}{n}けっこう地元ではウケてたのになあ",
+        "translation": "Really?{BEAT} It killed back home."
+      }
+    },
+    "dialogue_0237": {
+      "text": {
+        "reference": "なにィ～{BEAT}{n}おまえ芸人ナメんなよ～！！",
+        "translation": "What!?{BEAT} Don't mock comedians!!"
+      }
+    },
+    "dialogue_0238": {
+      "text": {
+        "reference": "ほんまや！{n}ああええ相方に恵まれてたらなあ",
+        "translation": "That's true! If only I had a good partner."
+      }
+    },
+    "dialogue_0239": {
+      "text": {
+        "reference": "なぐさめてくれんでもかまへん{n}どうせわいはイマイチなんや！！",
+        "translation": "Don't comfort me. I'm mediocre anyway!"
+      }
+    },
+    "dialogue_0240": {
+      "text": {
+        "reference": "ほんまにそう思てくれるんやな！{WAIT}{n}マジで言うてくれるんやな！",
+        "translation": "Ya truly mean it?{WAIT} Seriously?"
+      }
+    },
+    "dialogue_0241": {
+      "text": {
+        "reference": "い～{BEAT}{BEAT}やわいはまだまだや{WAIT}{n}はよ帰ってネタの練習しょう！",
+        "translation": "N{BEAT}{BEAT}o, I have a long way to go.{WAIT} Gotta practice!"
+      }
+    },
+    "dialogue_0242": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}めっちゃさぶいやん{WAIT}{n}なんでひいてまうんや～",
+        "translation": ".{BEAT}.{BEAT}.{BEAT}.{BEAT}.{WAIT} That was ice cold!{WAIT} Why'd ya recoil?"
+      }
+    },
+    "dialogue_0243": {
+      "text": {
+        "reference": "もっと笑ろてくれよ！",
+        "translation": "Laugh more!"
+      }
+    },
+    "dialogue_0244": {
+      "text": {
+        "reference": "なんでや！{BEAT}{n}おもろいやろ？{BEAT}なっ！{WAIT}{n}おもろい言うてくれ～！！！",
+        "translation": "Why!?{BEAT} It's funny, right?{BEAT}{WAIT} Say it's funny!!"
+      }
+    },
+    "dialogue_0245": {
+      "text": {
+        "reference": "おまえいつもそんなす～{BEAT}の言い方{n}すんのか？{WAIT}友達なくすで～",
+        "translation": "Do ya always talk that co{BEAT}ld?{WAIT} You'll lose friends."
+      }
+    },
+    "dialogue_0246": {
+      "text": {
+        "reference": "惜しいかあ～{BEAT}{n}まあそんなもんかわいの実力は…",
+        "translation": "Close, huh?{BEAT} Guess that's my ability..."
+      }
+    },
+    "dialogue_0247": {
+      "text": {
+        "reference": "もうええ分かった{n}おまえにはどうせ分からんのや！",
+        "translation": "Enough. Ya won't understand!"
+      }
+    },
+    "dialogue_0248": {
+      "text": {
+        "reference": "ひとがボケまくってるんやから{n}ここでおまえが",
+        "translation": "While I'm throwing out gags...",
+        "note": "Message 279 is completed by message 280: \"While I'm throwing out gags... / you should fire off one more!\""
+      }
+    },
+    "dialogue_0249": {
+      "text": {
+        "reference": "もう一発ボケかまさんかい！",
+        "translation": "ya should fire off one more!",
+        "note": "Message 280 completes message 279: \"While I'm throwing out gags... / you should fire off one more!\""
+      }
+    },
+    "dialogue_0250": {
+      "text": {
+        "reference": "よっしゃ{BEAT}分かればええんや！",
+        "translation": "All right,{BEAT} as long as ya understand!"
+      }
+    },
+    "dialogue_0251": {
+      "text": {
+        "reference": "ほんまに分かってるんやろなあ？{BEAT}{n}こうゆうのはセンスなんやでセンス！",
+        "translation": "Ya really understand?{BEAT} Comedy is instinct!"
+      }
+    },
+    "dialogue_0252": {
+      "text": {
+        "reference": "そうや！{n}そんなんあたりまえのことやで！",
+        "translation": "Right! That's obvious!"
+      }
+    },
+    "dialogue_0253": {
+      "text": {
+        "reference": "そんなんでどうするんや！",
+        "translation": "What'll ya do like that!?"
+      }
+    },
+    "dialogue_0254": {
+      "text": {
+        "reference": "まあ{BEAT}しゃあないなあ初心者やから…{WAIT}{n}安心せえわいがしっかり仕込んだる",
+        "translation": "Well,{BEAT} you're a beginner...{WAIT} Don't worry, I'll train ya."
+      }
+    },
+    "dialogue_0255": {
+      "text": {
+        "reference": "これくらいで弱音はいてて{n}どないするんや！",
+        "translation": "Showing weakness already? What'll ya do?"
+      }
+    },
+    "dialogue_0256": {
+      "text": {
+        "reference": "ひとがすべっとるんやから{n}ここは一発",
+        "translation": "When somebody bombs, this is where...",
+        "note": "Message 287 is completed by message 288: \"When somebody bombs, this is where... / you gotta make the comeback!\""
+      }
+    },
+    "dialogue_0257": {
+      "text": {
+        "reference": "ツッコまんとあかんやろ～！",
+        "translation": "ya gotta make the comeback!",
+        "note": "Message 288 completes message 287: \"When somebody bombs, this is where... / you gotta make the comeback!\""
+      }
+    },
+    "dialogue_0258": {
+      "text": {
+        "reference": "あれ～？{BEAT}おまえもしかして{n}関西人ちゃうんとちゃうか",
+        "translation": "Huh?{BEAT} Maybe you're not from Kansai?"
+      }
+    },
+    "dialogue_0259": {
+      "text": {
+        "reference": "おまえどこの出身なんや？",
+        "translation": "Where're ya from?"
+      }
+    },
+    "dialogue_0260": {
+      "text": {
+        "reference": "ふ～{BEAT}ん{BEAT}そう…{BEAT}そうなん…{WAIT}{n}そうですかあ～",
+        "translation": "Hmmm,{BEAT} I see...{BEAT} Really...{BEAT}{WAIT} Is that so."
+      }
+    },
+    "dialogue_0261": {
+      "text": {
+        "reference": "ウソ言うなよ！{n}そんなんバレバレやん",
+        "translation": "Don't lie! It's obvious."
+      }
+    },
+    "dialogue_0262": {
+      "text": {
+        "reference": "まあ分かってたけどな{n}別にかまへん気にすんな",
+        "translation": "I knew. Never mind."
+      }
+    },
+    "dialogue_0263": {
+      "text": {
+        "reference": "やっぱりちゃうんか…{WAIT}{n}今一つ信用できへんと思たら{BEAT}そうか…",
+        "translation": "So you're not...{WAIT} I wondered why I couldn't trust ya.{BEAT}"
+      }
+    },
+    "dialogue_0264": {
+      "text": {
+        "reference": "あれ～？{BEAT}どうもおっかしいなあ～{WAIT}{n}はっは～{BEAT}わかったで～",
+        "translation": "Huh?{BEAT} Something's strange.{WAIT} Ha!{BEAT} I got it!"
+      }
+    },
+    "dialogue_0265": {
+      "text": {
+        "reference": "おまえ東京モンやろ？",
+        "translation": "You're from Tokyo, right?"
+      }
+    },
+    "dialogue_0266": {
+      "text": {
+        "reference": "そうかあ…{BEAT}{n}残念やけど東京モンとは{n}コンビ組まれへんわ",
+        "translation": "I see...{BEAT} Can't partner with a Tokyo guy."
+      }
+    },
+    "dialogue_0267": {
+      "text": {
+        "reference": "やっぱりそうか…{BEAT}{n}しゃあないここらでキュっといっとこか{n}東京モンは敵やからなあ～！！",
+        "translation": "I knew it.{BEAT} Fine, let's settle this. Tokyo guys are enemies!"
+      }
+    },
+    "dialogue_0268": {
+      "text": {
+        "reference": "ほんまやな？{n}ダマしてたらしょ～{BEAT}ちせ～{BEAT}へんで",
+        "translation": "You mean it? If you're lying, I{BEAT} won't{BEAT} forgive ya."
+      }
+    },
+    "dialogue_0269": {
+      "text": {
+        "reference": "それやったらなんでそんな{n}カッコつけるんや",
+        "translation": "Then why're ya such a poser?"
+      }
+    },
+    "dialogue_0270": {
+      "text": {
+        "reference": "ウソ言うなよ！{n}わいのことダマそうとしてもあかん！",
+        "translation": "Don't lie! Ya can't fool me!"
+      }
+    },
+    "dialogue_0271": {
+      "text": {
+        "reference": "はっはあ～{BEAT}{n}わかったでぇ～",
+        "translation": "Ha!{BEAT} I got it!"
+      }
+    },
+    "dialogue_0272": {
+      "text": {
+        "reference": "おまえほんまは芸人ちゃうんやろ？",
+        "translation": "You're not really a comedian, right?"
+      }
+    },
+    "dialogue_0273": {
+      "text": {
+        "reference": "なんやそうやったんか…{n}もっとはよ言えよ！",
+        "translation": "So that's it... Tell me sooner!"
+      }
+    },
+    "dialogue_0274": {
+      "text": {
+        "reference": "バレるもなにもないで！{WAIT}{n}ほんまはわいにはうすうす{n}分かってたんや！",
+        "translation": "Caught? There's nothing to catch!{WAIT} I knew all along!"
+      }
+    },
+    "dialogue_0275": {
+      "text": {
+        "reference": "そうかあ？{BEAT}{n}おまえ全然あかんやん",
+        "translation": "Really?{BEAT} You're totally hopeless."
+      }
+    },
+    "dialogue_0276": {
+      "text": {
+        "reference": "そうかあ？{BEAT}信じられへんなあ{WAIT}{n}おまえにはちょっと苦しいもんなあ～",
+        "translation": "Really?{BEAT} Hard to believe.{WAIT} Comedy's tough for ya."
+      }
+    },
+    "dialogue_0277": {
+      "text": {
+        "reference": "そうか！よう言うた！{WAIT}{n}わいが鍛えたる！！",
+        "translation": "That's it! Well said!{WAIT} I'll train ya!"
+      }
+    },
+    "dialogue_0278": {
+      "text": {
+        "reference": "ムリやムリや！！{BEAT}やめとき{WAIT}{n}悪いこと言わんから…",
+        "translation": "Impossible!{BEAT} Quit now.{WAIT} Trust me..."
+      }
+    },
+    "dialogue_0279": {
+      "text": {
+        "reference": "はっはあ～{BEAT}{n}やっとわかったでえ～{WAIT}{n}おまえ",
+        "translation": "Ha!{BEAT} I finally got it!{WAIT} You're..."
+      }
+    },
+    "dialogue_0280": {
+      "text": {
+        "reference": "ほんまは「さまなあ」ちゃうんか？",
+        "translation": "really a Summoner, right?"
+      }
+    },
+    "dialogue_0281": {
+      "text": {
+        "reference": "やっぱりそうか！{n}いやあボクお会いしたかったんですよ～",
+        "translation": "I knew it! I've wanted to meet you!"
+      }
+    },
+    "dialogue_0282": {
+      "text": {
+        "reference": "やっぱりそうか！{n}おかしい思てたんや…{WAIT}{n}よくもダマしてくれたなあ～{WAIT}いくで！",
+        "translation": "I knew it! Something was odd.{WAIT} How dare ya fool me!{WAIT} Here I come!"
+      }
+    },
+    "dialogue_0283": {
+      "text": {
+        "reference": "こらえらいすんません{BEAT}{n}許したってやたのむわ",
+        "translation": "I'm terribly sorry.{BEAT} Please forgive me!"
+      }
+    },
+    "dialogue_0284": {
+      "text": {
+        "reference": "そうかあ？{BEAT}{n}ほんまにそうかあ？{WAIT}{n}そうかなあ…",
+        "translation": "Really?{BEAT} Truly?{WAIT} Is that so..."
+      }
+    },
+    "dialogue_0285": {
+      "text": {
+        "reference": "おまえウソつくなよ～{BEAT}{n}ほんまは始めっから分かってたんや！{WAIT}{n}ほな死んでもらおかあ～{BEAT}いくで！",
+        "translation": "Don't lie!{BEAT} I knew from the start!{WAIT} Now die!{BEAT}"
+      }
+    },
+    "dialogue_0286": {
+      "text": {
+        "reference": "なんやそんなも～{BEAT}からん仕事してる{n}やつかあ～{WAIT}{n}すまんすまんわいの人違いや",
+        "translation": "Oh, ya do that unprofit{BEAT}able work?{WAIT} Sorry, wrong guy."
+      }
+    },
+    "dialogue_0287": {
+      "text": {
+        "reference": "「只野探偵」{WAIT}…ああ「タダの探偵」かあ～{WAIT}{n}…自分で言うててめちゃさぶいわ！！",
+        "translation": "\"Just A. Detective\"?{WAIT} Oh--you're just a detective!{WAIT} ...Even I got chills from that one!"
+      }
+    },
+    "dialogue_0288": {
+      "text": {
+        "reference": "ほんまに気分悪いなあ～{WAIT}{n}悪いと思てるんやったら",
+        "translation": "I feel awful.{WAIT} If you're sorry..."
+      }
+    },
+    "dialogue_0289": {
+      "text": {
+        "reference": "ええから金くれよ！",
+        "translation": "give me money!"
+      }
+    },
+    "dialogue_0290": {
+      "text": {
+        "reference": "おっ{BEAT}ええとこあるやんけ！",
+        "translation": "Oh,{BEAT} ya have a good side!"
+      }
+    },
+    "dialogue_0291": {
+      "text": {
+        "reference": "ほんまにええんか？{BEAT}{n}なんか悪いなあ…{WAIT}{n}金以外でもええけどどうしょうかな～",
+        "translation": "Really?{BEAT} I feel bad...{WAIT} Anything but money too..."
+      }
+    },
+    "dialogue_0292": {
+      "text": {
+        "reference": "そっ{BEAT}そうかあ～貸してくれんのか{n}いつ返せるかわからんで～{WAIT}{n}金以外でもええけどどうしょうかな～",
+        "translation": "Y-you'll lend it?{BEAT} Dunno when I'll repay.{WAIT} Anything but money too..."
+      }
+    },
+    "dialogue_0293": {
+      "text": {
+        "reference": "バァ～{BEAT}{BEAT}ンと出さんかいバァ～{BEAT}{BEAT}ンと！{BEAT}{n}ほんまビンボくさいやっちゃな～！{WAIT}{n}…もうええ他のヤツにたかるわ！",
+        "translation": "Put down a{BEAT}{BEAT} big{BEAT}{BEAT} amount!{BEAT} You're dirt poor!{WAIT} Forget it, I'll mooch elsewhere!"
+      }
+    },
+    "dialogue_0294": {
+      "text": {
+        "reference": "そんなにイヤなんかい！{WAIT}{n}まあまあそ～言わんとたのむわ！",
+        "translation": "You hate it that much?{WAIT} Come on, please!"
+      }
+    },
+    "dialogue_0295": {
+      "text": {
+        "reference": "いややて？{BEAT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}誰にぬかしとるんじゃ～！！",
+        "translation": "No?{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT}{WAIT} Who're ya talking to!?"
+      }
+    },
+    "dialogue_0296": {
+      "text": {
+        "reference": "おまえボコボコにすんぞ！{WAIT}{n}おりゃあ～！！！",
+        "translation": "I'll pound ya!{WAIT} Hyaa!!"
+      }
+    },
+    "dialogue_0297": {
+      "text": {
+        "reference": "どうも気に入らんなあ～{WAIT}{n}せやけど商売のことは別や！",
+        "translation": "I don't like ya.{WAIT} But business is business!"
+      }
+    },
+    "dialogue_0298": {
+      "text": {
+        "reference": "なんぼでも金貸すで！",
+        "translation": "I'll lend any amount!"
+      }
+    },
+    "dialogue_0299": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "ええよ『{n}わいもたまにはええことせんとな！{WAIT}{n}{offered_item}でどうや！",
+        "translation": "Sure! I should do good sometimes.{WAIT} How's {offered_item}?"
+      }
+    },
+    "dialogue_0300": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "ええことはええけど…{n}ムチャなことはできへんで！{BEAT}{BEAT}{n}そやなあ～{BEAT}{offered_item}でどうや！",
+        "translation": "Fine, but no unreasonable amount!{BEAT}{BEAT} How's{BEAT} {offered_item}?"
+      }
+    },
+    "dialogue_0301": {
+      "text": {
+        "reference": "ほなわいは帰るで！{n}忘れんとちゃんと返してくれよ！",
+        "translation": "I'm going home. Repay me!"
+      }
+    },
+    "dialogue_0302": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "なに遠慮してるんや{BEAT}{n}ひとの好意は素直に受けるもんやろ？{WAIT}{n}そやなあ～{BEAT}{offered_item}でどうや！",
+        "translation": "Why hold back?{BEAT} Accept goodwill honestly.{WAIT} How's{BEAT} {offered_item}?"
+      }
+    },
+    "dialogue_0303": {
+      "text": {
+        "reference": "そうか{BEAT}それやったらええんやけどなあ～{n}もったいないなあ…{n}年利43％の超低金利やのに",
+        "translation": "I see.{BEAT} Fine. What a waste... 43% annual interest is super low!"
+      }
+    },
+    "dialogue_0304": {
+      "text": {
+        "reference": "わいの好意は受けられへんてことか…{WAIT}{n}ええやろ！{n}よ～分かったわ！！",
+        "translation": "You reject my goodwill?{WAIT} Fine! I understand!"
+      }
+    },
+    "dialogue_0305": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "わっ{BEAT}分かりました{WAIT}そやから{n}そんな大きい声出さんといて下さいよ{BEAT}{n}{offered_item}でどうですかあ～",
+        "translation": "O-{BEAT}kay!{WAIT} Don't shout!{BEAT} How's {offered_item}?"
+      }
+    },
+    "dialogue_0306": {
+      "text": {
+        "reference": "なんでわいがおまえに{n}金まき上げられなあかんねん！{WAIT}{n}ええかげんにせえよ！",
+        "translation": "Why should I let you shake me down!?{WAIT} Enough!"
+      }
+    },
+    "dialogue_0307": {
+      "text": {
+        "reference": "まあおまえ{n}なかなかええヤツやんけ！{WAIT}{n}決めたで！！",
+        "translation": "You're a decent guy!{WAIT} Decided!"
+      }
+    },
+    "dialogue_0308": {
+      "text": {
+        "reference": "わいがなんとかしたろ！！",
+        "translation": "I'll do something about it!"
+      }
+    },
+    "dialogue_0309": {
+      "text": {
+        "reference": "そう言うてくれるんか！！{BEAT}{n}おまえほんまええヤツやな～{WAIT}{n}よっしゃついていくで～！！",
+        "translation": "You'll say that!?{BEAT} You're great!{WAIT} I'm coming!"
+      }
+    },
+    "dialogue_0310": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "わいは{race}{demon_name}や～！！{n}ここはひとつ頼むで～！！",
+        "translation": "I'm {race} {demon_name}! Count on me!"
+      }
+    },
+    "dialogue_0311": {
+      "text": {
+        "reference": "すまんな～{BEAT}{n}やっぱりわいやめとくわ！！{n}悪う思わんといてや！！",
+        "translation": "Sorry!{BEAT} I changed my mind. Don't hold it against me!"
+      }
+    },
+    "dialogue_0312": {
+      "text": {
+        "reference": "なんやその言い方は！！{WAIT}{n}でもまあええ{BEAT}{n}わいが欲しいのはゼニやカネ出せ～！！",
+        "translation": "What's that tone!?{WAIT} Fine.{BEAT} I want cash. Pay up!"
+      }
+    },
+    "dialogue_0313": {
+      "text": {
+        "reference": "ほんまおまえ分かっとんのか？{BEAT}{n}何やその言い方{n}信じられへんな～！",
+        "translation": "Do ya understand?{BEAT} What's that tone? I can't trust ya!"
+      }
+    },
+    "dialogue_0314": {
+      "text": {
+        "reference": "まだそんなこと言うてんのか{WAIT}{n}ええからカネや！！{BEAT}{n}カネ出せ！！",
+        "translation": "Still saying that?{WAIT} Cash!{BEAT} Pay up!"
+      }
+    },
+    "dialogue_0315": {
+      "text": {
+        "reference": "そうかあ…{BEAT}しゃあないなあ…{BEAT}{n}もうええ{BEAT}ムリにとは言わん！{BEAT}{n}ほなさいなら！",
+        "translation": "I see...{BEAT} Can't be helped...{BEAT} Fine,{BEAT} I won't force ya!{BEAT} Bye!"
+      }
+    },
+    "dialogue_0316": {
+      "text": {
+        "reference": "そんなこと言わんといてや！！{BEAT}{n}たのむわ！！{WAIT}{n}ちょっとゼニくれるだけでええんや！！",
+        "translation": "Don't say that!{BEAT} Please!{WAIT} Just a little cash!"
+      }
+    },
+    "dialogue_0317": {
+      "text": {
+        "reference": "そうかあ～{BEAT}{n}それやったら別にええんや！{WAIT}{n}ほなさいなら！",
+        "translation": "I see.{BEAT} Then fine.{WAIT} Bye!"
+      }
+    },
+    "dialogue_0318": {
+      "text": {
+        "reference": "よっしゃ！！{BEAT}{n}何でも言うてくれ！！",
+        "translation": "All right!{BEAT} Ask anything!"
+      }
+    },
+    "dialogue_0319": {
+      "text": {
+        "reference": "なんか役に立つことあったらな！！",
+        "translation": "If there's something useful!"
+      }
+    },
+    "dialogue_0320": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "そうかあ～{BEAT}{n}めずらしいやっちゃなあ～！{n}{offered_item}やるわ～持っていき～",
+        "translation": "I see.{BEAT} You're unusual! Here, take {offered_item}."
+      }
+    },
+    "dialogue_0321": {
+      "text": {
+        "reference": "そうそれやったらええんや！！{BEAT}{n}まあがんばってや～",
+        "translation": "Right!{BEAT} Good luck!"
+      }
+    },
+    "dialogue_0322": {
+      "text": {
+        "reference": "よっしゃ！！わかったで～{WAIT}{n}わいにまかせとき～！！",
+        "translation": "All right, got it!{WAIT} Leave it to me!"
+      }
+    },
+    "dialogue_0323": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "わいは{race}{demon_name}や～！！{n}なんでも言うてや～",
+        "translation": "I'm {race} {demon_name}! Ask anything!"
+      }
+    },
+    "dialogue_0324": {
+      "text": {
+        "reference": "あかん！{BEAT}{n}それだけはまけといて！{WAIT}{n}そらあかんできへんわ！！",
+        "translation": "No!{BEAT} Anything but that!{WAIT} Can't do it!"
+      }
+    },
+    "dialogue_0325": {
+      "text": {
+        "reference": "アホ！！{WAIT}{n}むちゃ言うな！！{n}ゼニかせがんと帰れるか～！！",
+        "translation": "Idiot!{WAIT} Don't be absurd! I need money before I go!"
+      }
+    },
+    "dialogue_0326": {
+      "text": {
+        "reference": "そう言うんやったらしゃあないなあ…{WAIT}{n}ほなさいなら！！",
+        "translation": "If ya say so, fine...{WAIT} Bye!"
+      }
+    },
+    "dialogue_0327": {
+      "text": {
+        "reference": "おまえが頭をさげるっちゅうんやったら{n}どうせ退屈してたとこやし",
+        "translation": "If you're bowing your head, and since I'm bored...",
+        "note": "Message 362 is completed by message 363: \"If you're bowing your head, and since I'm bored... / I'll play with ya!\""
+      }
+    },
+    "dialogue_0328": {
+      "text": {
+        "reference": "わい遊んだってもええで！！",
+        "translation": "I'll play with ya!",
+        "note": "Message 363 completes message 362: \"If you're bowing your head, and since I'm bored... / I'll play with ya!\""
+      }
+    },
+    "dialogue_0329": {
+      "text": {
+        "reference": "どうしょうかなあ～{BEAT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・",
+        "translation": "What should I do?{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT}"
+      }
+    },
+    "dialogue_0330": {
+      "text": {
+        "reference": "どうしょうかなあ～{BEAT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{n}やっぱりやめとくわ！！{WAIT}すまんな！",
+        "translation": "What should I do?{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT} Nope!{WAIT} Sorry!"
+      }
+    },
+    "dialogue_0331": {
+      "text": {
+        "reference": "しゃあないなあ…{BEAT}{n}そこまで言うんやったら{n}考えたろか～",
+        "translation": "Oh, all right.{BEAT} If ya insist, I'll consider it."
+      }
+    },
+    "dialogue_0332": {
+      "text": {
+        "reference": "われそんな態度とるんかい！！{BEAT}{n}そういうときは「お願いします」やろ！！{n}わいを誰や思とるんじゃ！！",
+        "translation": "That attitude!?{BEAT} Say \"please\"! Who d'ya think I am!?"
+      }
+    },
+    "dialogue_0333": {
+      "text": {
+        "reference": "そう…{BEAT}{n}そうなんかあ～{BEAT}{BEAT}{n}それやったらムリにとは言わん",
+        "translation": "I see...{BEAT} Really...?{BEAT}{BEAT} Then I won't force ya."
+      }
+    },
+    "dialogue_0334": {
+      "text": {
+        "reference": "そうかあ～{BEAT}{n}まあせいぜい努力せえよ！{WAIT}{n}おまえにはそれがよう似合とる！",
+        "translation": "I see.{BEAT} Try your best!{WAIT} It suits ya!"
+      }
+    },
+    "dialogue_0335": {
+      "text": {
+        "reference": "そうか{BEAT}分かったわ！！{n}もうええわい帰るわ！！{n}さいなら！！",
+        "translation": "I see.{BEAT} Got it! I'm going home! Bye!"
+      }
+    },
+    "dialogue_0336": {
+      "text": {
+        "reference": "そうか！{BEAT}よ～{BEAT}う分かったで！！{WAIT}{n}帰る前にいっちょいっとこかあ！！",
+        "translation": "I see!{BEAT} I understand!{BEAT}{WAIT} Before I go, let's do this!"
+      }
+    },
+    "dialogue_0337": {
+      "text": {
+        "reference": "おまえ…{BEAT}ここまできたら{n}分かってるとは思うけど",
+        "translation": "By now,{BEAT} I think ya understand...",
+        "note": "Message 372 is completed by message 373: \"By now, I think you understand... / you're gonna pay up, right?\""
+      }
+    },
+    "dialogue_0338": {
+      "text": {
+        "reference": "出すもん出すんやろなあ～？",
+        "translation": "you're gonna pay up, right?",
+        "note": "Message 373 completes message 372: \"By now, I think you understand... / you're gonna pay up, right?\""
+      }
+    },
+    "dialogue_0339": {
+      "text": {
+        "reference": "何を考えてるんや？{WAIT}{n}カンタンなことやないか？{BEAT}{n}さっさとださんかい！！",
+        "translation": "What're ya thinking?{WAIT} It's simple!{BEAT} Pay already!"
+      }
+    },
+    "dialogue_0340": {
+      "text": {
+        "reference": "あれ？{BEAT}どうしたん？{BEAT}{n}商売の話やないか{BEAT}{n}あったりまえのことやろ！！",
+        "translation": "Huh?{BEAT} What's wrong?{BEAT} This is business!{BEAT} It's obvious!"
+      }
+    },
+    "dialogue_0341": {
+      "text": {
+        "reference": "それほんまか？{BEAT}{n}本気で言うとるんか？{WAIT}{n}まさかな～",
+        "translation": "Seriously?{BEAT} Ya mean it?{WAIT} Surely not..."
+      }
+    },
+    "dialogue_0342": {
+      "text": {
+        "reference": "ウソやろ？{WAIT}{n}なに！！{BEAT}本気で言うてんのか！{n}いてまうぞコラ！！",
+        "translation": "You're lying!{WAIT} What!?{BEAT} You're serious? I'll get ya!"
+      }
+    },
+    "dialogue_0343": {
+      "text": {
+        "reference": "えっほんまに？{BEAT}{n}ええんやなあ～！！",
+        "translation": "Really?{BEAT} Fine, then!"
+      }
+    },
+    "dialogue_0344": {
+      "text": {
+        "reference": "やっぱりいらんいらん！！{BEAT}{n}おまえからセコいもんもろても{n}しゃあないし",
+        "translation": "I don't want it!{BEAT} Your cheap junk ain't worth it."
+      }
+    },
+    "dialogue_0345": {
+      "text": {
+        "reference": "とにかくこんな街捨ててしまえよ！{n}悪いこと言わん",
+        "translation": "Forget this town! Trust me."
+      }
+    },
+    "dialogue_0346": {
+      "text": {
+        "reference": "「大阪」いこうや！！",
+        "translation": "Let's go to Osaka!!"
+      }
+    },
+    "dialogue_0347": {
+      "text": {
+        "reference": "おっしゃ！！{BEAT}{n}物分かりええやっちゃなあ～{WAIT}{n}よしわいがつれったる！！",
+        "translation": "All right!{BEAT} Smart guy!{WAIT} I'll guide ya!"
+      }
+    },
+    "dialogue_0348": {
+      "text": {
+        "reference": "やっぱりやめとき{WAIT}{n}おまえあかんわ！！{n}ノリについていかれへん",
+        "translation": "Never mind!{WAIT} You can't keep up!"
+      }
+    },
+    "dialogue_0349": {
+      "text": {
+        "reference": "まあええやろ{WAIT}{n}ほんでなに出す？{BEAT}{n}何て案内料や！！",
+        "translation": "Fine.{WAIT} What'll ya pay?{BEAT} Guide fee!"
+      }
+    },
+    "dialogue_0350": {
+      "text": {
+        "reference": "なんやて？{BEAT}{n}素直に「行きたい」言わんかい！！{n}ムリすんなよ～！！",
+        "translation": "What!?{BEAT} Just say ya wanna go! Don't force yourself!"
+      }
+    },
+    "dialogue_0351": {
+      "text": {
+        "reference": "なに言うてるんや{BEAT}{n}ムリせんでええんやって{n}安うしとくから…",
+        "translation": "What're ya saying?{BEAT} Don't force it. I'll make it cheap..."
+      }
+    },
+    "dialogue_0352": {
+      "text": {
+        "reference": "そうかよう分かったわ！{WAIT}{n}おまえなんか来んでええ！！",
+        "translation": "I understand!{WAIT} Don't come!"
+      }
+    },
+    "dialogue_0353": {
+      "text": {
+        "reference": "おまえ{BEAT}{n}聞かしてくれよ！{n}こんな危ない街のどこがええんや？",
+        "translation": "Tell me!{BEAT} What's good about this dangerous town?"
+      }
+    },
+    "dialogue_0354": {
+      "text": {
+        "reference": "この街めっちゃ危ないやん",
+        "translation": "This town's dangerous."
+      }
+    },
+    "dialogue_0355": {
+      "text": {
+        "reference": "よっしゃ！{BEAT}{n}その言葉待ってたんや！",
+        "translation": "Yes!{BEAT} I waited for those words!"
+      }
+    },
+    "dialogue_0356": {
+      "text": {
+        "reference": "そらあかん！{BEAT}{n}そればっかりはでけへんわ！{n}おれただの芸人やもん…",
+        "translation": "No!{BEAT} I can't do that! I'm just a comedian..."
+      }
+    },
+    "dialogue_0357": {
+      "text": {
+        "reference": "さすがに分かるみたいやな{BEAT}{n}ええわ助けたろ{WAIT}{n}せやけど条件があるんや！",
+        "translation": "So ya understand.{BEAT} Fine, I'll help.{WAIT} But one condition!"
+      }
+    },
+    "dialogue_0358": {
+      "text": {
+        "reference": "分かってんねやったら{n}自分の力で何とかせんかい！{BEAT}{n}このボケ！！",
+        "translation": "If ya understand, handle it yourself!{BEAT} Idiot!"
+      }
+    },
+    "dialogue_0359": {
+      "text": {
+        "reference": "おまえもしかしたら大物！？{WAIT}{n}なんも考えてへんねんなあ～{n}よっしゃ気に入ったで！",
+        "translation": "Maybe you're a big shot!?{WAIT} You think nothing! I like ya!"
+      }
+    },
+    "dialogue_0360": {
+      "text": {
+        "reference": "そんなことも分からんのかこのハゲ！！{BEAT}{n}ほんまあかんやっちゃなあ～",
+        "translation": "Ya don't know that, baldy!?{BEAT} Hopeless!"
+      }
+    },
+    "dialogue_0361": {
+      "text": {
+        "reference": "そうかあ～{BEAT}{n}まあおまえのことやし…{n}それやったらええんやけどな",
+        "translation": "I see.{BEAT} Well, it's you... Fine."
+      }
+    },
+    "dialogue_0362": {
+      "text": {
+        "reference": "そう言うていられんのも{n}今のうちだけや！{WAIT}{n}いまに分かるようになるで～",
+        "translation": "Ya can only say that for now!{WAIT} You'll understand soon."
+      }
+    },
+    "dialogue_0363": {
+      "text": {
+        "reference": "おまえって{BEAT}{n}ほんま情けないやっちゃなあ",
+        "translation": "You're{BEAT} really pathetic."
+      }
+    },
+    "dialogue_0364": {
+      "text": {
+        "reference": "よっしゃ弟子にしたる！！",
+        "translation": "All right, you're my apprentice!"
+      }
+    },
+    "dialogue_0365": {
+      "text": {
+        "reference": "ええ心がけや！{WAIT}{n}よっしゃ！！{BEAT}ビシビシ行くで～{n}おい行くで！！{BEAT}はよついて来い！",
+        "translation": "Good attitude!{WAIT} All right!{BEAT} I'll train ya hard! Follow me!{BEAT}"
+      }
+    },
+    "dialogue_0366": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "わいは{race}{demon_name}や～！！{n}センセって呼ぶんやで～",
+        "translation": "I'm {race} {demon_name}! Call me teacher!"
+      }
+    },
+    "dialogue_0367": {
+      "text": {
+        "reference": "ええんやな！{BEAT}{n}後悔しても知らんで！！{n}なんせわいの授業料は高いからなあ～",
+        "translation": "Fine!{BEAT} Don't regret it. My tuition is expensive!"
+      }
+    },
+    "dialogue_0368": {
+      "text": {
+        "reference": "「そうだな」やて～{n}ほうそんなお～へ～な態度とるんか～！{n}やっぱりやめや！やめや！！",
+        "translation": "\"I suppose\"? What an arrogant attitude! Forget it!"
+      }
+    },
+    "dialogue_0369": {
+      "text": {
+        "reference": "そんな態度のヤツに誰が教えるか！！{WAIT}{n}根性たたき直したる！！{BEAT}{n}いくで～！！",
+        "translation": "Who'd teach that attitude!?{WAIT} I'll beat some spirit into ya!{BEAT}"
+      }
+    },
+    "dialogue_0370": {
+      "text": {
+        "reference": "そうかあ～{BEAT}あかんか～{BEAT}{n}ええアイデアやと思たんやけどなあ～",
+        "translation": "I see.{BEAT} No good?{BEAT} Thought it was a great idea."
+      }
+    },
+    "dialogue_0371": {
+      "text": {
+        "reference": "なにがあかんのや？{WAIT}{n}ようはやる気や！{BEAT}！{n}この根性なしが！",
+        "translation": "What's wrong?{WAIT} It's motivation!{BEAT} Coward!"
+      }
+    },
+    "dialogue_0372": {
+      "text": {
+        "reference": "いやなんかい！{BEAT}{n}なんでそんなこと言うんや？{BEAT}{n}ぜんぜん分からへんわ！！",
+        "translation": "You don't want to!?{BEAT} Why say that?{BEAT} I don't understand!"
+      }
+    },
+    "dialogue_0373": {
+      "text": {
+        "reference": "いややったらええ！{BEAT}{n}ちょっとは見込みあると思たのに…{WAIT}{n}もうええ{BEAT}死ねや～！！",
+        "translation": "Fine!{BEAT} Thought ya had promise...{WAIT} Now die!{BEAT}"
+      }
+    },
+    "dialogue_0374": {
+      "text": {
+        "reference": "もうええわ！{WAIT}{n}おまえなんか",
+        "translation": "Enough!{WAIT} You...",
+        "note": "Message 408 is completed by message 409: \"Enough! You... / I'll beat ya with these hands!\""
+      }
+    },
+    "dialogue_0375": {
+      "text": {
+        "reference": "わいのこの手ェでしばいたる！！",
+        "translation": "I'll beat ya with these hands!",
+        "note": "Message 409 completes message 408: \"Enough! You... / I'll beat ya with these hands!\""
+      }
+    },
+    "dialogue_0376": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}な{BEAT}なんや{BEAT}{BEAT}お{BEAT}おじけづいたんか？{BEAT}{n}まあわいかてボーリョクはきらいや",
+        "translation": ".{BEAT}.{BEAT}.{BEAT}.{BEAT}.{WAIT} W-{BEAT}what?{BEAT}{BEAT} Sc{BEAT}ared?{BEAT} I hate violence too."
+      }
+    },
+    "dialogue_0377": {
+      "text": {
+        "reference": "今日のところはまけといたるわ！",
+        "translation": "I'll let ya off today!"
+      }
+    },
+    "dialogue_0378": {
+      "text": {
+        "reference": "今さら遅いっちゅ～んじゃ{WAIT}{n}覚悟せえ！！{BEAT}{n}いてもうたるからな～！！",
+        "translation": "Too late!{WAIT} Prepare yourself!{BEAT} I'll get ya!"
+      }
+    },
+    "dialogue_0379": {
+      "text": {
+        "reference": "ええんや待つぐらいわな…{WAIT}{n}せやけどおまえどうせ死ぬんやで！！{BEAT}{n}あ～あ{BEAT}かわいそうなやっちゃなあ～",
+        "translation": "Fine, I'll wait.{WAIT} But you're dying anyway!{BEAT} Poor guy.{BEAT}"
+      }
+    },
+    "dialogue_0380": {
+      "text": {
+        "reference": "待てるかボケ！{BEAT}{n}ええからもうあきらめるんや！{WAIT}{n}いくで～！！",
+        "translation": "Wait? No!{BEAT} Give up!{WAIT} Here I come!"
+      }
+    },
+    "dialogue_0381": {
+      "text": {
+        "reference": "なんややめて欲しいんか？{WAIT}{n}ほなカネ出せ{BEAT}ゼニやゼニ！！",
+        "translation": "Ya want me to stop?{WAIT} Then pay!{BEAT} Cash!"
+      }
+    },
+    "dialogue_0382": {
+      "text": {
+        "reference": "カンタンなこっちゃ{WAIT}{n}おまえ殺すだけやがな～！{BEAT}{n}あかんあかん{BEAT}もう決めたんや！",
+        "translation": "Simple.{WAIT} I just kill ya!{BEAT} Decided!{BEAT}"
+      }
+    },
+    "dialogue_0383": {
+      "text": {
+        "reference": "ええで！{BEAT}{n}やってみ！{BEAT}ほらっはよう！！",
+        "translation": "Sure!{BEAT} Try it!{BEAT} Hurry!"
+      }
+    },
+    "dialogue_0384": {
+      "text": {
+        "reference": "あ～あ残念やなあ…{BEAT}{n}気ィついてへんねんやろけど{n}どうせ負けるんやで～{BEAT}いくで～！",
+        "translation": "Too bad...{BEAT} Ya haven't noticed, but you'll lose.{BEAT} Here I come!"
+      }
+    },
+    "dialogue_0385": {
+      "text": {
+        "reference": "ほんまおまえ最低なやっちゃなあ～",
+        "translation": "You're the worst!"
+      }
+    },
+    "dialogue_0386": {
+      "text": {
+        "reference": "もう行く！ええからどけ～！",
+        "translation": "I'm leaving! Move!"
+      }
+    },
+    "dialogue_0387": {
+      "text": {
+        "reference": "あれ？{BEAT}な～{BEAT}んやえらい素直やな～{BEAT}{n}そうかほな元気でな！！{n}さいなら！！",
+        "translation": "Huh?{BEAT} You're awfully obedient.{BEAT} Fine, stay well!{BEAT} Bye!"
+      }
+    },
+    "dialogue_0388": {
+      "text": {
+        "reference": "そうそれでええ！{n}もっとはようその足～らん頭で{n}よう考えるんやで～！",
+        "translation": "Right! Think faster with that empty head!"
+      }
+    },
+    "dialogue_0389": {
+      "text": {
+        "reference": "なんやて～！その言い方！{WAIT}{n}なんとかならへんのか～！！{BEAT}{n}さいごまでお～へ～なやっちゃ！",
+        "translation": "What a tone!{WAIT} Can't ya fix it!?{BEAT} Arrogant to the end!"
+      }
+    },
+    "dialogue_0390": {
+      "text": {
+        "reference": "やっぱりや～めた！{n}おまえ倒してから行くことにするわ！{WAIT}{n}ええないくで～！",
+        "translation": "Changed my mind! I'll beat ya before I go!{WAIT} Here I come!"
+      }
+    },
+    "dialogue_0391": {
+      "text": {
+        "reference": "おまえがどうするかなんか聞いてへん！{n}倒して進むことにしょうかあ～！{BEAT}{n}いくで～！{BEAT}覚悟せえよ～！",
+        "translation": "Didn't ask what ya want! I'll beat ya and move on!{BEAT} Prepare!{BEAT}"
+      }
+    },
+    "dialogue_0392": {
+      "text": {
+        "reference": "そうかあ…{BEAT}そう言われてもなあ{n}ほな軽うやっつけとこか！{WAIT}{n}遠慮はせえへん{BEAT}ここで死ねや！",
+        "translation": "I see...{BEAT} Fine. I'll beat ya lightly!{WAIT} No mercy.{BEAT} Die!"
+      }
+    },
+    "dialogue_0393": {
+      "text": {
+        "reference": "えっ？{BEAT}今なんて言うた？{BEAT}{n}やっぱりわいに仕込んで欲し～んか{WAIT}{n}しゃあない",
+        "translation": "Huh?{BEAT} What'd ya say?{BEAT} Ya want my training?{WAIT} Fine."
+      }
+    },
+    "dialogue_0394": {
+      "text": {
+        "reference": "おまえが決めることやないやろ！{BEAT}{n}わいはもう決めたんや！{BEAT}{n}もうおまえなんか知らん！",
+        "translation": "Not your decision!{BEAT} I decided!{BEAT} Forget ya!"
+      }
+    },
+    "dialogue_0395": {
+      "text": {
+        "reference": "よっしゃ！{BEAT}{n}もう一度だけチャンスやろ！",
+        "translation": "All right!{BEAT} One more chance!"
+      }
+    },
+    "dialogue_0396": {
+      "text": {
+        "reference": "あやまるなら今のうちやで～！",
+        "translation": "Apologize now!"
+      }
+    },
+    "dialogue_0397": {
+      "text": {
+        "reference": "それでええんやそれで…{WAIT}{n}おまえのこと許したっる{n}まあ元気でやれよ！！",
+        "translation": "That's it...{WAIT} I forgive ya. Stay well!"
+      }
+    },
+    "dialogue_0398": {
+      "text": {
+        "reference": "わいを誰や思っとるんじゃ！！{BEAT}{n}そんなもんですむか！！",
+        "translation": "Who d'ya think I am!?{BEAT} That's not enough!"
+      }
+    },
+    "dialogue_0399": {
+      "text": {
+        "reference": "おまえはよ死ね{BEAT}{n}めんどくさい{n}わいがいてもうたる！",
+        "translation": "Hurry and die!{BEAT} You're a pain. I'll kill ya!"
+      }
+    },
+    "dialogue_0400": {
+      "text": {
+        "reference": "ほんまに分かってんのか？{n}まあええ{BEAT}信用しといたる",
+        "translation": "Do ya understand? Fine,{BEAT} I'll trust ya."
+      }
+    },
+    "dialogue_0401": {
+      "text": {
+        "reference": "ほんまかあ～言うてるだけちゃうんか！{n}どうせこの場だけとちゃうんか！{BEAT}{n}ぜ～{BEAT}ったいそうやろ！",
+        "translation": "Really? You're just saying that! You only mean it for now!{BEAT} I{BEAT} know I'm right!"
+      }
+    },
+    "dialogue_0402": {
+      "text": {
+        "reference": "ええからやってみ！{n}ええんか？わいをおこらせても…{WAIT}{n}もう行ってまうで{BEAT}しらんで",
+        "translation": "Then do it! Make me mad and I'm leaving.{WAIT} Don't blame me!{BEAT}"
+      }
+    },
+    "dialogue_0403": {
+      "text": {
+        "reference": "まあムリにとは言わんけどな{WAIT}{n}ただ死んでもらうだけのことや！！{WAIT}{n}いくで遠慮はせ～へんで～！",
+        "translation": "I won't force ya.{WAIT} You'll merely die!{WAIT} No mercy!"
+      }
+    },
+    "dialogue_0404": {
+      "text": {
+        "reference": "いや？{BEAT}いややて？{WAIT}{n}な～{BEAT}んか勘違いしてんのとちゃうか？{BEAT}{n}しゃあないな～{BEAT}やってまうかあ～！",
+        "translation": "No?{BEAT} You said no?{WAIT} You're confused.{BEAT} Fine,{BEAT} I'll do it!{BEAT}"
+      }
+    },
+    "dialogue_0405": {
+      "text": {
+        "reference": "イヤやったらええんや！{BEAT}{n}はよ死ね！{WAIT}{n}えっ{BEAT}ムリ？いやあわいが殺したるで！",
+        "translation": "If ya don't want to, fine!{BEAT} Die!{WAIT} What,{BEAT} impossible? I'll kill ya!"
+      }
+    },
+    "dialogue_0406": {
+      "text": {
+        "reference": "{OP:8025}こうしょうすたーと{OP:8020}",
+        "translation": "{OP:8025}NEGOTIATION START{OP:8020}"
+      }
+    },
+    "dialogue_0407": {
+      "text": {
+        "reference": "そやな～",
+        "translation": "Let's see..."
+      }
+    },
+    "dialogue_0408": {
+      "placeholders": {
+        "requested_item": "item_name"
+      },
+      "text": {
+        "reference": "{requested_item}でももらおかあ～",
+        "translation": "I'll take {requested_item}."
+      }
+    },
+    "dialogue_0409": {
+      "text": {
+        "reference": "なんや持ってへんのかあ～{n}しゃあないな～{n}ほな",
+        "translation": "What, ya don't have it? Fine. Then..."
+      }
+    },
+    "dialogue_0410": {
+      "text": {
+        "reference": "また今度にしょうかあ～",
+        "translation": "Maybe next time."
+      }
+    },
+    "dialogue_0411": {
+      "text": {
+        "reference": "そんなぐらいちゅうわけにもなあ～{WAIT}{n}どうしよ～かな～",
+        "translation": "That alone won't do.{WAIT} What should I do?"
+      }
+    },
+    "dialogue_0412": {
+      "text": {
+        "reference": "しゃあないな～{n}ほな",
+        "translation": "Oh, all right. Then..."
+      }
+    },
+    "dialogue_0413": {
+      "text": {
+        "reference": "もうええわ{n}ほんましょうもないやっちゃ！",
+        "translation": "Forget it. You're pathetic!"
+      }
+    },
+    "dialogue_0414": {
+      "text": {
+        "reference": "よっしゃとにかくなんぼでもええで～",
+        "translation": "Anything's fine!"
+      }
+    },
+    "dialogue_0415": {
+      "text": {
+        "reference": "……………{WAIT}{n}なんや黙ってると思たら{n}ゼニ持ってへんのか",
+        "translation": ".........{WAIT} Why so quiet? Ya got no cash?"
+      }
+    },
+    "dialogue_0416": {
+      "text": {
+        "reference": "まだまだやで～！！",
+        "translation": "Not enough!!"
+      }
+    },
+    "dialogue_0417": {
+      "text": {
+        "reference": "もっとぎょうさんもらおか～！！",
+        "translation": "Gimme much more!!"
+      }
+    },
+    "dialogue_0418": {
+      "text": {
+        "reference": "……もうええ{n}期待したわいが間違いやったんや",
+        "translation": "...Forget it. Expecting anything was my mistake."
+      }
+    },
+    "dialogue_0419": {
+      "text": {
+        "reference": "アホかわれ！{n}何考えてんねん！{n}もう許さへんいてまうで～！！",
+        "translation": "Idiot! What're ya thinking!? I'll never forgive ya!"
+      }
+    },
+    "dialogue_0420": {
+      "text": {
+        "reference": "まあこんなもんかな～{n}しゃあないいっしょに行ったるか～！",
+        "translation": "This'll do. Fine, I'll come!"
+      }
+    },
+    "dialogue_0421": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "わいは{race}{demon_name}や！{n}悪いようにはせ～へん{n}ドーンとまかせといてや～！！",
+        "translation": "I'm {race} {demon_name}! I won't do you wrong. Leave it all to me!!"
+      }
+    },
+    "dialogue_0422": {
+      "text": {
+        "reference": "えらいおおきにありがと～！{n}ほなそういうことで！{WAIT}{n}またな～",
+        "translation": "Thanks a lot!{WAIT} See ya!"
+      }
+    },
+    "dialogue_0423": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "なかなかおもろかったで{n}{offered_item}やるさかい{n}大事にせえよ！",
+        "translation": "That was funny. Here, take {offered_item}. Keep it safe!"
+      }
+    },
+    "dialogue_0424": {
+      "text": {
+        "reference": "おおきにありがとう！{WAIT}{n}ちゅうわけでさいなら！！",
+        "translation": "Thanks!{WAIT} Bye!"
+      }
+    },
+    "dialogue_0425": {
+      "text": {
+        "reference": "アホ！！{n}こうなるんや～！！{WAIT}{n}おりゃあ！",
+        "translation": "Idiot! This happens now!{WAIT} Hah!"
+      }
+    },
+    "dialogue_0426": {
+      "text": {
+        "reference": "これ以上{n}な～んか言うてもしゃあないし{WAIT}{n}わい帰るわ！{BEAT}さいなら～",
+        "translation": "Nothing more to say.{WAIT} I'm going home!{BEAT} Bye!"
+      }
+    },
+    "dialogue_0427": {
+      "text": {
+        "reference": "かかってこいや～！{WAIT}{n}まあおまえに言うてもあかんやろけどな",
+        "translation": "Come at me!{WAIT} Though you're hopeless."
+      }
+    },
+    "dialogue_0428": {
+      "text": {
+        "reference": "そらひどいんちゃうか～{n}われええかげんにせえよ！！{WAIT}{n}おこったで～{BEAT}死んでもらおか～！",
+        "translation": "That's too much! Enough!{WAIT} Now I'm mad!{BEAT} Die!"
+      }
+    },
+    "dialogue_0429": {
+      "text": {
+        "reference": "われ覚えとけよ！！{n}こんどは今日みたいには{n}いかんからな～{BEAT}コラ！！",
+        "translation": "Remember this! Next time won't be like today!{BEAT}"
+      }
+    },
+    "dialogue_0430": {
+      "text": {
+        "reference": "渡す",
+        "translation": "Hand it over."
+      }
+    },
+    "dialogue_0431": {
+      "text": {
+        "reference": "ことわる",
+        "translation": "Refuse."
+      }
+    },
+    "dialogue_0432": {
+      "text": {
+        "reference": "ん…{BEAT}なんや{n}持たれへんやん{n}残念やったなあ～",
+        "translation": "Hmm...{BEAT} Can't carry it. Too bad!"
+      }
+    },
+    "dialogue_0433": {
+      "text": {
+        "reference": "ん…{BEAT}いらんのか{n}そうか{BEAT}そらしゃあないなあ",
+        "translation": "Hmm...{BEAT} Don't want it? I see.{BEAT} Can't be helped."
+      }
+    },
+    "dialogue_0434": {
+      "text": {
+        "reference": "装備してへんくせにとる言うなよな{n}ほんましゃあないやっちゃなあ～",
+        "translation": "Don't say you'll take it when it's not equipped!"
+      }
+    },
+    "dialogue_0435": {
+      "text": {
+        "reference": "なんや～{BEAT}{n}なにするんや～{BEAT}{n}で{BEAT}でもわいだけは助けてくれるやろ",
+        "translation": "What?{BEAT} What're ya doing?{BEAT} B{BEAT}ut you'll spare me, right?"
+      }
+    },
+    "dialogue_0436": {
+      "text": {
+        "reference": "カンベンしてくれよたのむわ～",
+        "translation": "Please spare me!"
+      }
+    },
+    "dialogue_0437": {
+      "text": {
+        "reference": "命を助ける",
+        "translation": "Spare its life."
+      }
+    },
+    "dialogue_0438": {
+      "text": {
+        "reference": "命をうばう",
+        "translation": "Take its life."
+      }
+    },
+    "dialogue_0439": {
+      "text": {
+        "reference": "いや～{BEAT}すまんな～{BEAT}{n}ほなちょっとでええから{n}ついでにもらうもんもろとこか～",
+        "translation": "Ah,{BEAT} thanks.{BEAT} Then I'll take a little something too."
+      }
+    },
+    "dialogue_0440": {
+      "text": {
+        "reference": "ほんまにええんか？{BEAT}{n}いや～{BEAT}すまんな～{BEAT}{n}ほなついでにもらうもんもろとこか～",
+        "translation": "Really?{BEAT} Ah,{BEAT} thanks.{BEAT} Then I'll take something too."
+      }
+    },
+    "dialogue_0441": {
+      "text": {
+        "reference": "おまえほんまにアホやなあ～{n}あかんあかん{BEAT}{n}ここで死んだほうがええで～！！",
+        "translation": "You're truly stupid! No good.{BEAT} Better die here!"
+      }
+    },
+    "dialogue_0442": {
+      "text": {
+        "reference": "なっ{BEAT}なにも命まで欲しがらんでも…{WAIT}{n}話し合お{BEAT}なっ{BEAT}ええやろ{n}考え直して～な",
+        "translation": "Y-{BEAT}you don't need my life...{WAIT} Let's talk,{BEAT} okay?{BEAT} Reconsider!"
+      }
+    },
+    "dialogue_0443": {
+      "text": {
+        "reference": "あっそう！{BEAT}{n}分かったもうたのまんわ！{BEAT}{n}わいも男や！！{BEAT}かかってこいや！！",
+        "translation": "Fine!{BEAT} I won't beg!{BEAT} I'm a man!{BEAT} Come on!"
+      }
+    },
+    "dialogue_0444": {
+      "text": {
+        "reference": "え？{BEAT}今なんて言うた？{BEAT}{n}えっ？{BEAT}あかんの～？{BEAT}{n}そやったらしゃあない{BEAT}いくで～！！",
+        "translation": "Huh?{BEAT} What'd ya say?{BEAT} No?{BEAT} Fine, then.{BEAT} Here I come!{BEAT}"
+      }
+    },
+    "dialogue_0445": {
+      "text": {
+        "reference": "おっおまえか…{BEAT}{n}わいの連れのことたのむで～{WAIT}{n}よっしゃ！わいが元気にしたる！！",
+        "translation": "Oh, you...{BEAT} Take care of my pals.{WAIT} I'll heal ya!"
+      }
+    },
+    "dialogue_0446": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "おっおまえか…{BEAT}{n}元気にしてるかあ～！！{n}よっしゃ！{BEAT}{offered_item}持って行き～",
+        "translation": "Oh, you...{BEAT} Doing well? All right!{BEAT} Take {offered_item}."
+      }
+    },
+    "dialogue_0447": {
+      "text": {
+        "reference": "おっおまえか…{BEAT}{n}なんやわいの連れも一緒かあ～！！{BEAT}{n}まあ気ィ付けてな～",
+        "translation": "Oh, you...{BEAT} My pal's with ya!{BEAT} Be careful!"
+      }
+    },
+    "dialogue_0448": {
+      "text": {
+        "reference": "いや～しかし{n}見れば見るほどええ月や！！",
+        "translation": "The more I look, the better the moon!"
+      }
+    },
+    "dialogue_0449": {
+      "text": {
+        "reference": "でもこわいなあ{BEAT}な～{BEAT}んか出そうや",
+        "translation": "But scary...{BEAT} Something{BEAT} might appear."
+      }
+    },
+    "dialogue_0450": {
+      "text": {
+        "reference": "何か見たのか",
+        "translation": "See something?"
+      }
+    },
+    "dialogue_0451": {
+      "text": {
+        "reference": "何がでると言うのだ",
+        "translation": "What will appear?"
+      }
+    },
+    "dialogue_0452": {
+      "text": {
+        "reference": "そっ{BEAT}そやな{WAIT}だ{BEAT}だ{BEAT}大丈夫やな{WAIT}{n}でもこわい～{n}一緒に行ってくれ～！！",
+        "translation": "R-{BEAT}right.{WAIT} I-it's{BEAT} fine.{BEAT}{WAIT} But scary! Come with me!"
+      }
+    },
+    "dialogue_0453": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "わいは{race}{demon_name}や！{n}よろしゅう頼むわ…",
+        "translation": "I'm {race} {demon_name}. Please look after me..."
+      }
+    },
+    "dialogue_0454": {
+      "text": {
+        "reference": "そうか{WAIT}ははあ～{BEAT}分かったで～{BEAT}{n}おまえがおかしなヤツ出す気やな～{n}そんなことできんようにいっとこか！！",
+        "translation": "I see.{WAIT} Ha!{BEAT} I got it!{BEAT} You're planning to summon something weird! I'll stop ya!"
+      }
+    },
+    "dialogue_0455": {
+      "text": {
+        "reference": "見た訳やないけど…{WAIT}{n}こわいもんはこわいんじゃ！！{BEAT}{n}なあたのむわ一緒に行こ{BEAT}なっ",
+        "translation": "Didn't see anything...{WAIT} Scary is scary!{BEAT} Come on, go together.{BEAT}"
+      }
+    },
+    "dialogue_0456": {
+      "text": {
+        "reference": "まだ分からんのか{BEAT}{n}なにが起こるかわからんのやで！{WAIT}{n}おまえみたいなアホはここで死ね！",
+        "translation": "Still don't understand?{BEAT} Anything could happen!{WAIT} Idiots like ya should die here!"
+      }
+    },
+    "dialogue_0457": {
+      "text": {
+        "reference": "そんなもん分からんけど…{BEAT}{n}気になるやん！！{WAIT}{n}なあ一緒に見に行こ{BEAT}なっ！！",
+        "translation": "Dunno what, but...{BEAT} I'm curious!{WAIT} Let's see together.{BEAT}"
+      }
+    },
+    "dialogue_0458": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "わいは{race}{demon_name}や！{n}よろしゅう頼むで～",
+        "translation": "I'm {race} {demon_name}. Nice to meet ya!"
+      }
+    },
+    "dialogue_0459": {
+      "text": {
+        "reference": "…あかん{BEAT}はよイケニエださんと！{BEAT}{n}そや{BEAT}おまえでええわ！！{n}すまん{BEAT}死んでくれ！！",
+        "translation": "No!{BEAT} Need a sacrifice!{BEAT} You!{BEAT} Sorry,{BEAT} die!"
+      }
+    },
+    "dialogue_0460": {
+      "text": {
+        "reference": "こんなときはついマンザイしたなるなあ～",
+        "translation": "Times like this make me wanna do comedy."
+      }
+    },
+    "dialogue_0461": {
+      "text": {
+        "reference": "なにをする気だ",
+        "translation": "What are you planning?"
+      }
+    },
+    "dialogue_0462": {
+      "text": {
+        "reference": "おちつけ",
+        "translation": "Calm down."
+      }
+    },
+    "dialogue_0463": {
+      "text": {
+        "reference": "やってみろ",
+        "translation": "Try it."
+      }
+    },
+    "dialogue_0464": {
+      "text": {
+        "reference": "そ～言われてもわいのセ～カクやから{BEAT}{n}もしかしておまえが直してくれるんか？{WAIT}{n}よっしゃ一緒に行くで～！！",
+        "translation": "Can't help my personality.{BEAT} Maybe you'll fix me?{WAIT} Great, let's go!"
+      }
+    },
+    "dialogue_0465": {
+      "text": {
+        "reference": "そらないやろ！！{BEAT}{n}そんなにわいの相方すんのイヤなんかい！{BEAT}{n}もうええ{BEAT}それやったら死ね！！",
+        "translation": "No way!{BEAT} Ya hate partnering with me!?{BEAT} Fine,{BEAT} die!"
+      }
+    },
+    "dialogue_0466": {
+      "text": {
+        "reference": "そ～言われてもムリなんや{BEAT}{n}おまえ直してくれるんか？{WAIT}{n}それやったら一緒に行くで～！！",
+        "translation": "Can't help it.{BEAT} You'll fix me?{WAIT} Then let's go!"
+      }
+    },
+    "dialogue_0467": {
+      "text": {
+        "reference": "そらムリや！！{n}アカン{BEAT}ガマンしてたらイライラしてきた{WAIT}{n}コラわれ！！{BEAT}いてまうぞ！！",
+        "translation": "Impossible! Hold it in and I get angry.{BEAT}{WAIT} I'll get ya!{BEAT}"
+      }
+    },
+    "dialogue_0468": {
+      "text": {
+        "reference": "いやあ～{BEAT}やっぱりええわ{BEAT}{n}せやけどおまえええやっちゃなあ～{WAIT}{n}よっしゃ{BEAT}気に入ったで！{BEAT}一緒に行こか！",
+        "translation": "Actually,{BEAT} fine.{BEAT} You're decent.{WAIT} I like ya!{BEAT} Let's go!{BEAT}"
+      }
+    },
+    "dialogue_0469": {
+      "text": {
+        "reference": "ええんか？いくで！！{WAIT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{BEAT}{n}なんや？{BEAT}気に入らんのか{BEAT}もうええわ！",
+        "translation": "Okay? Here goes!{WAIT}.{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT} What?{BEAT} Don't like me?{BEAT} Forget it!"
+      }
+    },
+    "dialogue_0470": {
+      "text": {
+        "reference": "どや！一杯いこか",
+        "translation": "How about a drink?"
+      }
+    },
+    "dialogue_0471": {
+      "text": {
+        "reference": "いいだろう",
+        "translation": "Very well."
+      }
+    },
+    "dialogue_0472": {
+      "text": {
+        "reference": "酒はちょっと…",
+        "translation": "Alcohol is a bit..."
+      }
+    },
+    "dialogue_0473": {
+      "text": {
+        "reference": "よっしゃええ飲みっぷりや{WAIT}{n}おまえと一緒に行くで～！！",
+        "translation": "Great drinking!{WAIT} I'm coming with ya!"
+      }
+    },
+    "dialogue_0474": {
+      "text": {
+        "reference": "よっしゃよっしゃ{WAIT}{n}ええぞどんどん飲め飲め～！！{WAIT}{n}あらなんや～寝てしもたんかあ～",
+        "translation": "Great!{WAIT} Drink up!{WAIT} Oh, asleep?"
+      }
+    },
+    "dialogue_0475": {
+      "text": {
+        "reference": "よっしゃよっしゃ{WAIT}{n}ええぞどんどん飲め飲め～！！",
+        "translation": "Great!{WAIT} Drink up!"
+      }
+    },
+    "dialogue_0476": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "よっしゃ気に入った！！{WAIT}{n}わいは{race}{demon_name}や！{n}よろしゅう頼むで～",
+        "translation": "I like ya!{WAIT} I'm {race} {demon_name}. Nice to meet ya!"
+      }
+    },
+    "dialogue_0477": {
+      "text": {
+        "reference": "よっしゃよっしゃ{WAIT}{n}ええぞどんどん飲め飲め～！！{WAIT}{n}…と油断させといて{BEAT}おりゃあ死ねや～",
+        "translation": "Great!{WAIT} Drink up!{WAIT} And while your guard's down,{BEAT} die!"
+      }
+    },
+    "dialogue_0478": {
+      "text": {
+        "reference": "アホやなあ～{BEAT}{n}ぜんぜん分かってへん！{WAIT}{n}わいが教えたるええからついて来い",
+        "translation": "Idiot!{BEAT} Ya understand nothing!{WAIT} I'll teach ya. Follow!"
+      }
+    },
+    "dialogue_0479": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "わいは{race}{demon_name}や！{n}いろいろ教えたる",
+        "translation": "I'm {race} {demon_name}! I'll teach ya!"
+      }
+    },
+    "dialogue_0480": {
+      "text": {
+        "reference": "アホやなあ～{BEAT}{n}ぜんぜん分かってへん！{WAIT}{n}ええからここで死ねやあ～！！",
+        "translation": "Idiot!{BEAT} Ya understand nothing!{WAIT} Die here!"
+      }
+    },
+    "dialogue_0481": {
+      "text": {
+        "reference": "いや～しかしな～{n}ここでわいに会えるなんて{n}いや～ほんまラッキーやなあ～",
+        "translation": "What luck, meeting me here!"
+      }
+    },
+    "dialogue_0482": {
+      "text": {
+        "reference": "おまえそう思うやろ？",
+        "translation": "You agree, right?"
+      }
+    },
+    "dialogue_0483": {
+      "text": {
+        "reference": "まあな",
+        "translation": "I suppose."
+      }
+    },
+    "dialogue_0484": {
+      "text": {
+        "reference": "そうかな？",
+        "translation": "Really?"
+      }
+    },
+    "dialogue_0485": {
+      "text": {
+        "reference": "おまえに関心はない",
+        "translation": "I don't care about you."
+      }
+    },
+    "dialogue_0486": {
+      "text": {
+        "reference": "「まあな」かあ…{WAIT}{n}な～{BEAT}んかひょうしぬけするなあ…{BEAT}{n}まあええ{BEAT}ほな行こか！",
+        "translation": "\"I suppose\"?{WAIT} What a{BEAT} letdown.{BEAT} Fine,{BEAT} let's go!"
+      }
+    },
+    "dialogue_0487": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "わいは{race}{demon_name}や！{n}まあそのうち{n}わいが偉大やてわかるって！",
+        "translation": "I'm {race} {demon_name}! You'll learn my greatness!"
+      }
+    },
+    "dialogue_0488": {
+      "text": {
+        "reference": "なんだその言い方！！{WAIT}{n}せっかくひとがええ気分でおんのに…{BEAT}{n}おまえあかんわ{BEAT}はよ死んでしまえ！！",
+        "translation": "What's that tone!?{WAIT} I was feeling good.{BEAT} You're hopeless.{BEAT} Die!"
+      }
+    },
+    "dialogue_0489": {
+      "text": {
+        "reference": "なんで分からんのや！！{BEAT}{n}おまえめっちゃラッキーやんけ！{n}分かったらついて来い！！",
+        "translation": "Why don't ya understand!?{BEAT} You're super lucky! Follow me!"
+      }
+    },
+    "dialogue_0490": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "わいは{race}{demon_name}や！{n}まあそのうち{n}わいが偉大やてわかるって！",
+        "translation": "I'm {race} {demon_name}! You'll learn my greatness!"
+      }
+    },
+    "dialogue_0491": {
+      "text": {
+        "reference": "なんや～分からんのか…{BEAT}{n}分からんのやったら{n}とりあえず死んどくか{BEAT}なっ！",
+        "translation": "Don't get it?{BEAT} Then die for now,{BEAT} okay?"
+      }
+    },
+    "dialogue_0492": {
+      "text": {
+        "reference": "まあまあそう言わんと{BEAT}{n}とっておきのネタ見せたるから{n}一緒に行こ！！",
+        "translation": "Come on!{BEAT} I'll show my best material. Let's go!"
+      }
+    },
+    "dialogue_0493": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "わいは{race}{demon_name}や！{n}まあそのうち{n}わいの芸風最高やてわかるって！",
+        "translation": "I'm {race} {demon_name}! You'll learn my style is best!"
+      }
+    },
+    "dialogue_0494": {
+      "text": {
+        "reference": "あっ{BEAT}そうですかあ～{BEAT}{n}せっかくおまえに{n}とっておきのネタ見せたろ思たのに…",
+        "translation": "Oh,{BEAT} really?{BEAT} I wanted to show ya my best material..."
+      }
+    },
+    "dialogue_0495": {
+      "text": {
+        "reference": "なんや～{BEAT}おまえかあ～{BEAT}{n}ほんまにまた会うとは思てなかったで",
+        "translation": "Oh,{BEAT} it's you!{BEAT} Didn't expect to meet again."
+      }
+    },
+    "dialogue_0496": {
+      "text": {
+        "reference": "ん？{BEAT}なんや助けて欲しいんか？",
+        "translation": "Huh?{BEAT} Need help?"
+      }
+    },
+    "dialogue_0497": {
+      "text": {
+        "reference": "ふ～ん{BEAT}まあええやろ{n}しゃあないなあ～",
+        "translation": "Hmmm,{BEAT} fine. Can't be helped."
+      }
+    },
+    "dialogue_0498": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "わいは{race}{demon_name}や！{n}しゃあない{n}わいが面倒見たろ",
+        "translation": "I'm {race} {demon_name}! I'll take care of ya."
+      }
+    },
+    "dialogue_0499": {
+      "text": {
+        "reference": "あかんあかん！！{BEAT}{n}自分の力で何とかせえ",
+        "translation": "No!{BEAT} Handle it yourself."
+      }
+    },
+    "dialogue_0500": {
+      "text": {
+        "reference": "なにもそんなふうに言わんでええやろ{BEAT}{n}わいの口が悪いのは生まれつきや！！{WAIT}{n}ちゃ～{BEAT}んと助けたるって{BEAT}なっ！",
+        "translation": "Don't say it like that!{BEAT} I was born foul-mouthed!{WAIT} I'll{BEAT} help properly,{BEAT} okay?"
+      }
+    },
+    "dialogue_0501": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "わいは{race}{demon_name}や！{n}まあそのうち{n}わいの偉大さが分かるって！",
+        "translation": "I'm {race} {demon_name}! You'll learn my greatness!"
+      }
+    },
+    "dialogue_0502": {
+      "text": {
+        "reference": "それやったらええんや{n}わいもメンドウにならんですむ{n}ほなさいなら{BEAT}またな！",
+        "translation": "Then fine. Saves me trouble. Bye!{BEAT}"
+      }
+    },
+    "dialogue_0503": {
+      "text": {
+        "reference": "おう{BEAT}おまえかあ～{BEAT}{n}誰かと思たで～{BEAT}{n}まあ元気でがんばってくれよ！",
+        "translation": "Oh,{BEAT} it's you!{BEAT} Thought it was someone else.{BEAT} Stay well!"
+      }
+    },
+    "dialogue_0504": {
+      "text": {
+        "reference": "おまえかあ～！！{BEAT}{n}こないだはようやってくれたな！！",
+        "translation": "You!!{BEAT} You got me good last time!"
+      }
+    },
+    "dialogue_0505": {
+      "text": {
+        "reference": "今日こそしばいたるからな覚悟せえ！！",
+        "translation": "Today I'll beat ya! Prepare!"
+      }
+    },
+    "dialogue_0506": {
+      "text": {
+        "reference": "あやまる",
+        "translation": "Apologize."
+      }
+    },
+    "dialogue_0507": {
+      "text": {
+        "reference": "芸をする",
+        "translation": "Perform."
+      }
+    },
+    "dialogue_0508": {
+      "text": {
+        "reference": "ほんま情けないやっちゃなあ～！！{BEAT}{n}もうええわ{BEAT}{n}かもてられへんわ！！",
+        "translation": "How pathetic!{BEAT} Enough!{BEAT} I can't watch!"
+      }
+    },
+    "dialogue_0509": {
+      "text": {
+        "reference": "あかん！！{BEAT}{n}誰が許すか！！{WAIT}{n}いくで～！！",
+        "translation": "No!{BEAT} Who'd forgive ya!?{WAIT} Here I come!"
+      }
+    },
+    "dialogue_0510": {
+      "text": {
+        "reference": "ふう{BEAT}あいかわらずさぶいなあ～{WAIT}{n}もうええ{BEAT}やる気なくなった{n}ええからどっか行け！！",
+        "translation": "Whew,{BEAT} still ice cold.{WAIT} Forget it,{BEAT} lost my will. Go away!"
+      }
+    },
+    "dialogue_0511": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}そんなんでどないせえ言うんや！！{BEAT}{n}もうええはよ死ね！！",
+        "translation": ".{BEAT}.{BEAT}.{BEAT}.{BEAT}.{WAIT} What am I meant to do with that!?{BEAT} Just die!"
+      }
+    },
+    "dialogue_0512": {
+      "text": {
+        "reference": "おおこないだはどうも…",
+        "translation": "Hey, thanks for last time..."
+      }
+    },
+    "dialogue_0513": {
+      "text": {
+        "reference": "なんかお礼したいんやけど…",
+        "translation": "I wanna repay ya..."
+      }
+    },
+    "dialogue_0514": {
+      "text": {
+        "reference": "何かくれ",
+        "translation": "Give me something."
+      }
+    },
+    "dialogue_0515": {
+      "text": {
+        "reference": "なにもいらない",
+        "translation": "I don't need anything."
+      }
+    },
+    "dialogue_0516": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "よっしゃええで！！{BEAT}{n}{offered_item}でどうや！！{n}ケチのわいがやるんや{BEAT}大事にしてや！",
+        "translation": "All right!{BEAT} How's {offered_item}? A cheapskate's giving it,{BEAT} so treasure it!"
+      }
+    },
+    "dialogue_0517": {
+      "text": {
+        "reference": "そう言われてもなあ…{BEAT}{n}あかんあかん！！{n}わいがケチやておまえ知ってるやろ！",
+        "translation": "Even so...{BEAT} No! Ya know I'm cheap!"
+      }
+    },
+    "dialogue_0518": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "なんやいらんのかあ…{WAIT}{n}まあそう言うな{offered_item}やる{n}ええから持って行き～！！",
+        "translation": "Don't want it?{WAIT} Come on, take {offered_item}!"
+      }
+    },
+    "dialogue_0519": {
+      "text": {
+        "reference": "そっ{BEAT}そうか…{BEAT}そら残念やなあ～{WAIT}{n}ふう助かった…{BEAT}高いもんねだられたら{n}どうしょうかと思たで！",
+        "translation": "I-{BEAT}see...{BEAT} Too bad.{WAIT} Whew, saved!{BEAT} Feared an expensive request!"
+      }
+    },
+    "dialogue_0520": {
+      "text": {
+        "reference": "あかんあかん！！{BEAT}{n}そらぜ～{BEAT}ったいあかん！！",
+        "translation": "No!{BEAT} Absolutely{BEAT} not!"
+      }
+    },
+    "dialogue_0521": {
+      "text": {
+        "reference": "なんや{BEAT}もう持たれへんやん{BEAT}{n}そうかあ～{n}いや～残念{n}ほんまに残念や～！！",
+        "translation": "What?{BEAT} Can't carry more?{BEAT} I see. Such a shame!"
+      }
+    },
+    "dialogue_0522": {
+      "text": {
+        "reference": "待てコラ{BEAT}{n}わいをムシすんな～",
+        "translation": "Hey!{BEAT} Don't ignore me!"
+      }
+    },
+    "dialogue_0523": {
+      "text": {
+        "reference": "なにキョロキョロしてるんや{BEAT}{n}わいはここやここや！",
+        "translation": "Why look around?{BEAT} I'm here!"
+      }
+    },
+    "dialogue_0524": {
+      "text": {
+        "reference": "待て{BEAT}{n}わいはここや",
+        "translation": "Wait!{BEAT} I'm here!"
+      }
+    },
+    "dialogue_0525": {
+      "text": {
+        "reference": "何してるんや{BEAT}{n}もしかしてわいに気ィ付いてへんのか",
+        "translation": "What're ya doing?{BEAT} Didn't notice me?"
+      }
+    },
+    "dialogue_0526": {
+      "text": {
+        "reference": "ここまできといて悪いんやけど{n}ほんまはわい仲魔になられへんねん",
+        "translation": "Sorry after all this, but I can't join ya."
+      }
+    },
+    "dialogue_0527": {
+      "text": {
+        "reference": "ここまできといて悪いんやけど{n}わいと合わんヤツ仲魔におるやろ？",
+        "translation": "Sorry after all this, but one ally doesn't get along with me."
+      }
+    },
+    "dialogue_0528": {
+      "text": {
+        "reference": "ここまできといて悪いんやけど{n}おまえわいのラベル{WAIT}{n}…いやレベルについて来られへんやろ？",
+        "translation": "Sorry after all this, but ya can't keep up with my label...{WAIT} level."
+      }
+    },
+    "dialogue_0529": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "せっかくやったんやけど失礼するわ{WAIT}{n}{offered_item}おいていくさかい{n}持っていって！",
+        "translation": "Sorry, I gotta go.{WAIT} I'll leave {offered_item}. Take it!"
+      }
+    },
+    "dialogue_0530": {
+      "text": {
+        "reference": "せっかくやけど失礼するわ{WAIT}{n}ほなさいなら！",
+        "translation": "Sorry, I gotta go.{WAIT} Bye!"
+      }
+    },
+    "dialogue_0531": {
+      "text": {
+        "reference": "おっええんか！{BEAT}{n}おまえほんまええヤツやな～{BEAT}{n}ほなさいなら～",
+        "translation": "Oh, fine!{BEAT} You're really decent.{BEAT} Bye!"
+      }
+    },
+    "dialogue_0532": {
+      "text": {
+        "reference": "こら待て～{WAIT}{n}…やっぱりええわ！{n}わいの連れもう仲魔におるやんけ…",
+        "translation": "Hey, wait up!{WAIT} ...Nah, forget it! One of my pals is already with ya..."
+      }
+    },
+    "condition_charmed": {
+      "text": {
+        "reference": "いや あんた もう最高やな よっ 大将！",
+        "translation": "You're the best, boss!",
+        "reviewed": true
+      }
+    },
+    "condition_happy": {
+      "text": {
+        "reference": "いやあ もうかって ウハウハやな～！",
+        "translation": "Ahh, makin' money feels great!",
+        "reviewed": true
+      }
+    },
+    "condition_confused": {
+      "text": {
+        "reference": "はよ 金出さんかい！！ まだか ボケが～",
+        "translation": "Cash, now! Hurry it up, ya fool!",
+        "reviewed": true
+      }
+    },
+    "condition_enraged": {
+      "text": {
+        "reference": "まだ 用あんのか？ あかん あかん！",
+        "translation": "Still need somethin'? Nah, no way!",
+        "reviewed": true
+      }
+    },
+    "condition_talk_blocked": {
+      "text": {
+        "reference": "なんや 考え 改めるまで 話さへんで～",
+        "translation": "I won't talk till ya change your mind.",
+        "reviewed": true
+      }
+    },
+    "condition_ally_veto": {
+      "text": {
+        "reference": "あいつ あかん！ ほっとけ！ ほっとけ！",
+        "translation": "He's no good! Leave him! Leave him!",
+        "reviewed": true
+      }
+    },
+    "condition_full_moon": {
+      "text": {
+        "reference": "ええ 月夜や！！ 一杯やりたいなあ～！！",
+        "translation": "Nice moon tonight! Time for a drink!!",
+        "reviewed": true
+      }
+    }
+  }
+}

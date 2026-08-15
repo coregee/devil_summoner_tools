@@ -57,7 +57,7 @@ assets/text/
   characters.json
   locations.json
   terminology/
-  negotiation/
+  negotiation/<speaking-style>.json
   battle/
   field/
   fusion/
@@ -80,6 +80,18 @@ Each text field keeps the readable `reference` beside its editable
 `translation`. Optional state is omitted when it carries no information:
 `reviewed` defaults to `false`, while notes, variants, placeholders, and status
 appear only where they are needed.
+
+Negotiation is divided by speaking personality. File-local `dialogue_NNNN`
+keys identify shared authored lines, not a Saturn or PSP message/page address;
+the platform binding owns every occurrence. Personality-specific condition
+reactions use descriptive keys such as `condition_charmed` in the same file.
+Branch labels are added only when call-site evidence proves them, rather than
+being guessed from the wording.
+
+The current speaking-style files are `archaic`, `beast`, `boy`, `cynical`,
+`feral`, `girl`, `highborn_lady`, `kansai`, `lady`, `little_girl`, `manic`,
+`nobleman`, `old_man`, `slime`, and `young_man`. Original bank names remain in
+platform bindings rather than leaking into the authoring layout.
 
 ## Identity and sharing
 
@@ -195,8 +207,11 @@ layer is introduced. The first vertical slice joins equipment and items to
 their names, descriptions, console forms, and complete field-message templates.
 The demon catalogue now joins game and Akuma Zensho names with all Compendium
 profile fields, while retaining PSP-only entities and PSP reference revisions
-for later platform bindings. Negotiation/facility fan-out and general dialogue
-follow once call-site evidence supports useful scene grouping.
+for later platform bindings. All 15 negotiation styles are now represented by
+8,523 shared authored fields, including their condition reactions; Saturn fans
+them across 10,009 explicitly bound physical occurrences. PSP reuses the same
+authored fields rather than carrying duplicate translations. Facilities and
+general dialogue follow using the same evidence-first rule.
 
 After bindings cover the authored corpus, translations in the generated
 physical catalogue will be removed or generated from these assets. There must

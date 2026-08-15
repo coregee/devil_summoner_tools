@@ -29,6 +29,26 @@ class SurfaceCatalogTests(unittest.TestCase):
             ("font16", 3, "pixels", 300),
         )
 
+        negotiation = self.catalog.surface("battle.negotiation_dialogue")
+        self.assertEqual(
+            (
+                negotiation.ja.font,
+                negotiation.ja.rows,
+                negotiation.ja.width.unit,
+                negotiation.ja.width.value,
+            ),
+            ("font16", 3, "glyph_cells", 20),
+        )
+        self.assertEqual(
+            (
+                negotiation.en.font,
+                negotiation.en.rows,
+                negotiation.en.width.unit,
+                negotiation.en.width.value,
+            ),
+            ("font16", 3, "pixels", 300),
+        )
+
         console = self.catalog.surface("battle.console")
         for layout in (console.ja, console.en):
             self.assertEqual(

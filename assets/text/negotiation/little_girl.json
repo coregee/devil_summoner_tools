@@ -1,0 +1,3962 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "dialogue_0000": {
+      "text": {
+        "reference": "こんにちわぁおじちゃん{n}{WAIT}あたしのお友達に{n}へんなコトしちゃいやよぉ{maru_symbol}",
+        "translation": "Hi, mister!{WAIT}\nDon't do anything weird to my friends, okay?",
+        "reviewed": true
+      }
+    },
+    "dialogue_0001": {
+      "text": {
+        "reference": "ばいばぁ～い{maru_symbol}",
+        "translation": "Bye-bye!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0002": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "あ{BEAT}それからね{BEAT}それからね{n}{BEAT}{offered_item}あげるぅ{maru_symbol}{n}{WAIT}ばいばぁ～い{maru_symbol}",
+        "translation": "Oh,{BEAT} and one more thing,{BEAT} one more thing!{BEAT}\nHere, take {offered_item}!{WAIT}\nBye-bye!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0003": {
+      "text": {
+        "reference": "あ{BEAT}それからね{BEAT}それからね{n}{BEAT}{OP:8023}ほうぎょく{OP:8020}使ってあげるぅ{maru_symbol}",
+        "translation": "Oh,{BEAT} and one more thing,{BEAT} one more thing!{BEAT}\nI'll use this {OP:8023}Bead{OP:8020} on you!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0004": {
+      "text": {
+        "reference": "まったねぇ～{n}{WAIT}ばいばぁ～い{maru_symbol}",
+        "translation": "See you!{WAIT}\nBye-bye!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0005": {
+      "text": {
+        "reference": "どぉ？げんきぃ？{n}むりしちゃだめだよぉ",
+        "translation": "How are you?\nDon't push yourself too hard.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0006": {
+      "text": {
+        "reference": "あたしこれから{OP:8024}じゅく{OP:8020}なの{n}{WAIT}ばいばいおじちゃん{maru_symbol}",
+        "translation": "I'm off to {OP:8024}cram school{OP:8020}.{WAIT}\nBye-bye, mister!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0007": {
+      "text": {
+        "reference": "ねぇねぇねぇってば{n}{WAIT}あたしもぱそこんの中{n}入れるよぉになったぁ？",
+        "translation": "Hey, hey, listen!{WAIT}\nCan I go inside your computer now too?",
+        "reviewed": true
+      }
+    },
+    "dialogue_0008": {
+      "text": {
+        "reference": "ねぇってばぁ{maru_symbol}",
+        "translation": "Hey, listen to me!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0009": {
+      "text": {
+        "reference": "もちろん",
+        "translation": "Of course.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0010": {
+      "text": {
+        "reference": "入る場所はない",
+        "translation": "There's no room.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0011": {
+      "text": {
+        "reference": "やったぁ～{maru_symbol}{n}{WAIT}これでおともだちにもじまんできるぅ{maru_symbol}",
+        "translation": "Yay!{WAIT} Now I can brag to my friends!"
+      }
+    },
+    "dialogue_0012": {
+      "text": {
+        "reference": "えぇ～{n}そぉなのぉ～",
+        "translation": "What? Really?"
+      }
+    },
+    "dialogue_0013": {
+      "text": {
+        "reference": "ちぇ～っ{n}つまんなぁ～い{n}{WAIT}あたしかえるぅ～",
+        "translation": "Aww, that's boring!{WAIT}\nI'm going home!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0014": {
+      "text": {
+        "reference": "えぇ～{n}じゃぁさじゃぁさ{n}{WAIT}ぱそこんあたしにちょぉだ～い{maru_symbol}",
+        "translation": "Ehh? Then, then...{WAIT}\nGive me your computer!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0015": {
+      "text": {
+        "reference": "あぁ～！{n}{WAIT}こないだのあぶないおじちゃんだぁ～！！",
+        "translation": "Oh!{WAIT} It's that dangerous mister from before!!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0016": {
+      "text": {
+        "reference": "死刑ぇ～！！",
+        "translation": "Death penalty!!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0017": {
+      "text": {
+        "reference": "死ぬのはおまえだ",
+        "translation": "You're the one who's going to die.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0018": {
+      "text": {
+        "reference": "人違いだ",
+        "translation": "You've got the wrong person.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0019": {
+      "text": {
+        "reference": "いやあぁぁぁ！{n}ごめんなさぁ～い！！",
+        "translation": "Nooo! I'm sorry!!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0020": {
+      "text": {
+        "reference": "おそわないでぇ～！！",
+        "translation": "Don't attack me!!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0021": {
+      "text": {
+        "reference": "ちがうもんっ！{n}{WAIT}おじちゃんだもんっ！！",
+        "translation": "No!{WAIT} It was you, mister!!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0022": {
+      "text": {
+        "reference": "あれぇ？{n}{BEAT}そぉだっけぇ？{n}{BEAT}あたしまちがっちゃった？",
+        "translation": "Huh?{BEAT} Is that so?{BEAT}\nDid I make a mistake?",
+        "reviewed": true
+      }
+    },
+    "dialogue_0023": {
+      "text": {
+        "reference": "いやあぁぁぁ！{n}{WAIT}はずかしぃ～{maru_symbol}",
+        "translation": "Nooo!{WAIT} How embarrassing!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0024": {
+      "text": {
+        "reference": "ちがわないもんっ！{n}{WAIT}おじちゃんだもんっ！！",
+        "translation": "I'm not wrong!{WAIT} It was you, mister!!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0025": {
+      "text": {
+        "reference": "じゃぁ～ん{maru_symbol}{n}{WAIT}逃がしてくれたおれいに来たよぉ～",
+        "translation": "Ta-da!{WAIT} I came to thank you for letting me go!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0026": {
+      "text": {
+        "reference": "おじちゃんなに欲しい～？",
+        "translation": "What do you want, mister?",
+        "reviewed": true
+      }
+    },
+    "dialogue_0027": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "{demon_name}",
+        "translation": "{demon_name}",
+        "reviewed": true
+      }
+    },
+    "dialogue_0028": {
+      "text": {
+        "reference": "他の物",
+        "translation": "Something else.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0029": {
+      "text": {
+        "reference": "えぇ～！？{n}それってば{BEAT}それってば{n}{WAIT}あたしのことぉ～？",
+        "translation": "What!? But that's...{BEAT} You mean...{WAIT} me?",
+        "reviewed": true
+      }
+    },
+    "dialogue_0030": {
+      "text": {
+        "reference": "そぉかぁ{n}{WAIT}じゃぁそ～しよぉ{maru_symbol}",
+        "translation": "Oh, okay.{WAIT} Let's do that!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0031": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "じゃぁね{n}んっとね{BEAT}んっとね{n}{WAIT}{offered_item}あげるぅ～{maru_symbol}",
+        "translation": "Then... Um,{BEAT} um...{WAIT}\nHere, take {offered_item}!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0032": {
+      "text": {
+        "reference": "ばいばいおじちゃ～ん{n}{BEAT}またあそんでねぇ～",
+        "translation": "Bye-bye!{BEAT} Play with me again!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0033": {
+      "text": {
+        "reference": "あっそび～ましょっ{maru_symbol}",
+        "translation": "Come out and play!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0034": {
+      "text": {
+        "reference": "ねぇねぇねぇってば{n}{WAIT}あたしも{BEAT}あたしもぉ{n}{BEAT}あたしもお話したいよぉ{maru_symbol}",
+        "translation": "Hey, hey, listen!{WAIT}\nI want...{BEAT} I want...{BEAT} I want to talk too!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0035": {
+      "text": {
+        "reference": "やっ{BEAT}ほ～{maru_symbol}",
+        "translation": "Yoo-{BEAT}hoo!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0036": {
+      "text": {
+        "reference": "ねぇねぇねぇってば{n}{WAIT}聞いて聞いてぇ～{maru_symbol}",
+        "translation": "Hey, hey, listen!{WAIT}\nListen to me!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0037": {
+      "text": {
+        "reference": "うぅ{BEAT}・{BEAT}・{BEAT}・{BEAT}うぇ～ん{n}{WAIT}こわいよぉ～",
+        "translation": "Uu...{BEAT}.{BEAT}.{BEAT}.{BEAT} Waaaah!{WAIT} I'm scared!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0038": {
+      "text": {
+        "reference": "殺さないでぇ～",
+        "translation": "Don't kill me!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0039": {
+      "text": {
+        "reference": "助けてよぉ～{BEAT}おじちゃ～ん",
+        "translation": "Help me,{BEAT} mister!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0040": {
+      "text": {
+        "reference": "いいだろう",
+        "translation": "All right.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0041": {
+      "text": {
+        "reference": "断る",
+        "translation": "I refuse.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0042": {
+      "text": {
+        "reference": "ほんとぉ？{n}{WAIT}わぁ～い{BEAT}わぁ～い{maru_symbol}{n}{BEAT}おじちゃんだいすきぃ{maru_symbol}",
+        "translation": "Really?{WAIT} Yay!{BEAT} Yay!{BEAT}\nI love you, mister!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0043": {
+      "text": {
+        "reference": "なかまになったげるぅ{maru_symbol}",
+        "translation": "I'll join you!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0044": {
+      "text": {
+        "reference": "ほんとぉ？{n}{WAIT}甘いなぁ～おじちゃんは",
+        "translation": "Really?{WAIT} You're such a softy, mister.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0045": {
+      "text": {
+        "reference": "うぇ～ん{n}{WAIT}あたしまだコドモなのよぉ",
+        "translation": "Waaaah!{WAIT} I'm still just a child!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0046": {
+      "text": {
+        "reference": "おじちゃんとちがって、{n}未来があるのにぃ～！！",
+        "translation": "Unlike you, mister, I still have a future!!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0047": {
+      "text": {
+        "reference": "なかまにでもなんでもなるからさぁ{n}{WAIT}ちょっぴりおまけしたげるよぉ{maru_symbol}",
+        "translation": "Since we're going to be buddies and all,{WAIT}\nI'll throw in something extra for you!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0048": {
+      "text": {
+        "reference": "あたしはね",
+        "translation": "You know, I...",
+        "reviewed": true,
+        "note": "Message 42 page 0 is completed by page 1: \"You know, I... / unlike you, I still have a future!\""
+      }
+    },
+    "dialogue_0049": {
+      "text": {
+        "reference": "おじちゃんとちがって、{n}未来があるのよぉ～！！",
+        "translation": "Unlike you, mister, I still have a future!!",
+        "reviewed": true,
+        "note": "Message 42 page 1 completes page 0: \"You know, I... / unlike you, I still have a future!\""
+      }
+    },
+    "dialogue_0050": {
+      "text": {
+        "reference": "ゆにせふに言いつけてやるぅ～！！",
+        "translation": "I'll tell UNICEF on you!!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0051": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}を、手に入れた。",
+        "translation": "Obtained {offered_item}.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0052": {
+      "text": {
+        "reference": "なぁ～んだぁ{n}たくさん持ってるんだぁ{maru_symbol}{n}{WAIT}じゃぁもういらないね",
+        "translation": "What? You have lots already!{WAIT}\nThen you don't need this.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0053": {
+      "text": {
+        "reference": "持って帰っちゃお～っと{n}ばいばぁ～い{maru_symbol}",
+        "translation": "I'll take it home. Bye-bye!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0054": {
+      "text": {
+        "reference": "あぁ～！{BEAT}ないない{BEAT}持ってない～{n}{WAIT}おじちゃんうそつきぃ～",
+        "translation": "Oh!{BEAT} You don't have it!{BEAT} You don't!{WAIT}\nYou're a liar, mister!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0055": {
+      "text": {
+        "reference": "おじちゃんのばかぁ～！{n}{WAIT}ゼッコウしてやるぅ～！",
+        "translation": "Mister, you idiot!{WAIT} We're through!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0056": {
+      "text": {
+        "reference": "うそつきはじごくに落ちろぉ～！！",
+        "translation": "Liars can go to hell!!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0057": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "こんにちわぁ{n}あたし{demon_name}",
+        "translation": "Hi! I'm {demon_name}.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0058": {
+      "text": {
+        "reference": "なにかご用なのぉ？",
+        "translation": "Did you need something?",
+        "reviewed": true
+      }
+    },
+    "dialogue_0059": {
+      "text": {
+        "reference": "仲魔になれ",
+        "translation": "Join me.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0060": {
+      "text": {
+        "reference": "なんかくれ",
+        "translation": "Give me something.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0061": {
+      "text": {
+        "reference": "話がある",
+        "translation": "Let's talk.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0062": {
+      "text": {
+        "reference": "去れ",
+        "translation": "Go away.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0063": {
+      "text": {
+        "reference": "あたしがいないとさびしいのぉ～？{n}いいよぉ",
+        "translation": "Would you be lonely without me? Fine!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0064": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "でもねでもね{n}{WAIT}{demon_name}のおねがい{n}聞いてくれたら・・・ね{maru_symbol}",
+        "translation": "But you know...{WAIT}\nOnly if you listen to {demon_name}'s request.\nOkay?",
+        "reviewed": true
+      }
+    },
+    "dialogue_0065": {
+      "text": {
+        "reference": "う～ん・・・でもなぁ～{n}{WAIT}もうちょびっとおはなししてから{n}決めさせてよぉ{maru_symbol}",
+        "translation": "Hmm...{WAIT}\nLet me talk with you a little more before I decide!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0066": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "う～ん{n}じゃ～ね{BEAT}んっとね{BEAT}んっとね{n}{offered_item}でい～い？",
+        "translation": "Hmm... Let's see,{BEAT} um,{BEAT} um...\nIs {offered_item} okay?",
+        "reviewed": true
+      }
+    },
+    "dialogue_0067": {
+      "text": {
+        "reference": "たのしいおはなし{n}聞かせてくれたら・・・ね{maru_symbol}",
+        "translation": "Only if you tell me a fun story!"
+      }
+    },
+    "dialogue_0068": {
+      "text": {
+        "reference": "わぁ～い{maru_symbol}{n}おはなしおはなしぃ～",
+        "translation": "Yay! Tell me a story!"
+      }
+    },
+    "dialogue_0069": {
+      "text": {
+        "reference": "うん{maru_symbol}{n}あたしねあたしね{n}おじちゃんに聞きたいことがあるのぉ",
+        "translation": "Okay! Mister, I have something I want to ask you."
+      }
+    },
+    "dialogue_0070": {
+      "text": {
+        "reference": "えぇ～・・・{n}おじちゃんのおはなしでしょぉ～",
+        "translation": "What? But it's your story, mister..."
+      }
+    },
+    "dialogue_0071": {
+      "text": {
+        "reference": "いやぁ～{n}{WAIT}つまんなさそぉ～{n}{WAIT}ばいばぁ～い",
+        "translation": "No!{WAIT} That sounds boring!{WAIT}\nBye-bye!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0072": {
+      "text": {
+        "reference": "うぅ～ひっどぉ～い！",
+        "translation": "That's so mean!"
+      }
+    },
+    "dialogue_0073": {
+      "text": {
+        "reference": "あたしがコドモだから{n}キョォミがないのぉ？",
+        "translation": "You don't care because I'm a child?"
+      }
+    },
+    "dialogue_0074": {
+      "text": {
+        "reference": "あたしだって{BEAT}あたしだって{n}{BEAT}役に立つんだからぁ",
+        "translation": "I can be useful too!{BEAT} I can!{BEAT}"
+      }
+    },
+    "dialogue_0075": {
+      "text": {
+        "reference": "うぅ・・・{BEAT}せっかく{n}{WAIT}せっかくお友だちになれると思ったのにぃ{n}にんげんのお友だち欲しかったのにぃ",
+        "translation": "Ugh...{BEAT} I thought we could be friends.{WAIT}\nI wanted a human friend...",
+        "reviewed": true
+      }
+    },
+    "dialogue_0076": {
+      "text": {
+        "reference": "むっかぁ～！{n}どぉしてぇ？",
+        "translation": "That makes me mad! Why?"
+      }
+    },
+    "dialogue_0077": {
+      "text": {
+        "reference": "あたしなぁんにも{n}悪いことしてないのにぃ～{WAIT}まだ",
+        "translation": "I haven't done anything bad!{WAIT}\nNot yet.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0078": {
+      "text": {
+        "reference": "こんにちわぁ{n}{BEAT}ねぇねぇおじちゃん",
+        "translation": "Hi!{BEAT} Hey, mister.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0079": {
+      "text": {
+        "reference": "なにしに来たのぉ？",
+        "translation": "What did you come here for?",
+        "reviewed": true
+      }
+    },
+    "dialogue_0080": {
+      "text": {
+        "reference": "君に会うため",
+        "translation": "I wanted to see you.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0081": {
+      "text": {
+        "reference": "仕事をしに",
+        "translation": "For work.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0082": {
+      "text": {
+        "reference": "自己鍛練のため",
+        "translation": "To train myself.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0083": {
+      "text": {
+        "reference": "悪魔退治のため",
+        "translation": "To hunt demons.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0084": {
+      "text": {
+        "reference": "道に迷ってるだけ",
+        "translation": "I'm just lost.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0085": {
+      "text": {
+        "reference": "えぇ～？あたしにぃ～？{n}あたしってもてるんだぁ{n}{WAIT}おじちゃんはなにをみついでくれるのぉ？",
+        "translation": "What? To see me? I'm popular!{WAIT}\nSo what did you bring me, mister?",
+        "reviewed": true
+      }
+    },
+    "dialogue_0086": {
+      "text": {
+        "reference": "えぇ～？あたしにぃ～？{n}あたしってもてるんだぁ",
+        "translation": "What? To see me? I'm popular!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0087": {
+      "text": {
+        "reference": "ふぅ～ん{n}お仕事中なんだぁ",
+        "translation": "Hmmm. So you're working.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0088": {
+      "text": {
+        "reference": "ふぅ～ん{n}お仕事のじゃましちゃ悪いよねぇ{n}{WAIT}ばいばぁ～い今度あそんでねぇ",
+        "translation": "I shouldn't interrupt your work.{WAIT}\nBye! Play with me next time!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0089": {
+      "text": {
+        "reference": "{OP:8026}いちごタンメン～{OP:8020}！？{n}{WAIT}おいしそぉ～{maru_symbol}{n}たべにつれてってくれるのぉ～！？",
+        "translation": "{OP:8026}Strawberry noodles{OP:8020}!?{WAIT} Sounds delicious!\nWill you take me to eat some!?",
+        "reviewed": true
+      }
+    },
+    "dialogue_0090": {
+      "text": {
+        "reference": "なるなるなかまになるぅ～{maru_symbol}",
+        "translation": "Yes! I'll join you!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0091": {
+      "text": {
+        "reference": "ふぅ～ん{n}えらいねぇおじちゃん{n}{WAIT}それにくらべてあたしったら・・・",
+        "translation": "Wow, how admirable, mister.{WAIT}\nAnd here I am...",
+        "reviewed": true
+      }
+    },
+    "dialogue_0092": {
+      "text": {
+        "reference": "こんなところであそんでる場合じゃ{n}ないよねぇ{n}{WAIT}見ならわなきゃぁ",
+        "translation": "This isn't the time to play.{WAIT}\nI should follow your example!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0093": {
+      "text": {
+        "reference": "まぁ{BEAT}こわい{BEAT}こわい{maru_symbol}{n}{BEAT}そんなことわすれて{n}あたしとあそびましょ{maru_symbol}",
+        "translation": "Oh,{BEAT} scary,{BEAT} scary!{BEAT}\nForget that and play with me!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0094": {
+      "text": {
+        "reference": "えぇ～こわい～{n}じゃあさ{BEAT}じゃあさ{BEAT}もしかしてさ",
+        "translation": "What? That's so scary!\nThen...{BEAT} then...{BEAT} does that mean...",
+        "reviewed": true,
+        "note": "Fragment context: message 79 page 0 sets up the question completed on page 1 (dialogue_0095): whether the demon will be killed too."
+      }
+    },
+    "dialogue_0095": {
+      "text": {
+        "reference": "あたしも殺されちゃうんだぁ{BEAT}・{BEAT}・{BEAT}・{n}{WAIT}いやあぁぁぁぁ～！！",
+        "translation": "You'll kill me too?{BEAT}.{BEAT}.{BEAT}.{WAIT} Noooo!!",
+        "note": "Fragment context: message 79 page 1 completes \"does that mean...\" on page 0 (dialogue_0094)."
+      }
+    },
+    "dialogue_0096": {
+      "text": {
+        "reference": "えぇ～！！{n}じつはね{WAIT}あたしもまいごなのぉ～{maru_symbol}{n}{WAIT}気があうねぇ",
+        "translation": "What!?{WAIT} Actually, I'm lost too!{WAIT}\nWe have a lot in common.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0097": {
+      "text": {
+        "reference": "まいごどぉしたすけあおうよぉ{maru_symbol}",
+        "translation": "Lost people should help each other!"
+      }
+    },
+    "dialogue_0098": {
+      "text": {
+        "reference": "ふぅ～ん{n}オートマップ使ってるぅ？{n}あれね{BEAT}あれね{BEAT}べんりなんだってぇ",
+        "translation": "Hmmm. Are you using Auto Map?\nThat thing's{BEAT} supposed to be{BEAT} handy.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0099": {
+      "text": {
+        "reference": "なぁになぁに？",
+        "translation": "What is it?",
+        "reviewed": true
+      }
+    },
+    "dialogue_0100": {
+      "text": {
+        "reference": "あたしになにかご用なんでしょぉ～？",
+        "translation": "You need something from me, right?",
+        "reviewed": true
+      }
+    },
+    "dialogue_0101": {
+      "text": {
+        "reference": "うぅ～ん・・・{BEAT}じゃあね{BEAT}じゃあね{n}{BEAT}あたしのおねがい聞いてくれたら{n}い～よぉ{maru_symbol}",
+        "translation": "Hmm...{BEAT} Let's see,{BEAT} let's see...{BEAT}\nGrant my request and I'll join you!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0102": {
+      "text": {
+        "reference": "うぅ～ん・・・{n}{WAIT}おじちゃんのことまだよく知らないしなぁ{n}もっとおはなししてから・・・ね{maru_symbol}",
+        "translation": "Hmm...{WAIT} I don't know you very well yet, mister.\nLet's talk more first!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0103": {
+      "text": {
+        "reference": "知らないおじちゃんについてっちゃ{n}だめなんだよぉ",
+        "translation": "You're not supposed to talk to strangers.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0104": {
+      "text": {
+        "reference": "うふふ・・・{BEAT}またねぇおじちゃん{maru_symbol}",
+        "translation": "Hee hee...{BEAT} See you, mister!"
+      }
+    },
+    "dialogue_0105": {
+      "text": {
+        "reference": "えぇ～？{n}じゃあね{BEAT}んっとね{BEAT}んっとね",
+        "translation": "What? Then...{BEAT} um...{BEAT} um...",
+        "note": "Fragment context: this shared page 0 begins messages 91 and 508; page 1 (dialogue_0106) supplies the selected Bead action."
+      }
+    },
+    "dialogue_0106": {
+      "text": {
+        "reference": "{BEAT}はい{OP:8023}ほうぎょく{OP:8020}{maru_symbol}{n}{OP:8020}使ったげるね{maru_symbol}",
+        "translation": "{BEAT}Here! I'll use this {OP:8023}Bead{OP:8020}{OP:8020} on you!",
+        "note": "Fragment context: this shared page 1 completes \"Then... um...\" on page 0 (dialogue_0105) for messages 91 and 508."
+      }
+    },
+    "dialogue_0107": {
+      "text": {
+        "reference": "元気でねぇ～{BEAT}ばいばぁい",
+        "translation": "Take care!{BEAT} Bye-bye!"
+      }
+    },
+    "dialogue_0108": {
+      "text": {
+        "reference": "うぅ～ん・・・{n}{WAIT}もうちょっと考えさしてぇ{maru_symbol}",
+        "translation": "Hmm...{WAIT} Let me think a little longer!"
+      }
+    },
+    "dialogue_0109": {
+      "text": {
+        "reference": "うん{maru_symbol}{n}{WAIT}あたしね{n}おじちゃんに聞きたいことがあるのぉ",
+        "translation": "Okay...{WAIT} Mister, I have something I want to ask you."
+      }
+    },
+    "dialogue_0110": {
+      "text": {
+        "reference": "うん・・・{n}い～けどぉ・・・",
+        "translation": "Okay... I guess..."
+      }
+    },
+    "dialogue_0111": {
+      "text": {
+        "reference": "うぅ・・・{BEAT}せっかく・・・{n}{BEAT}せっかくお友だちになれると思ったのにぃ{n}ひっどぉ～い",
+        "translation": "Ugh...{BEAT} I thought we could be friends...{BEAT}\nThat's so mean!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0112": {
+      "text": {
+        "reference": "いやっ！！{n}まだ帰りたくなぁ～い！",
+        "translation": "No! I don't want to go home yet!"
+      }
+    },
+    "dialogue_0113": {
+      "text": {
+        "reference": "ねぇねぇ{n}どしてこんなところ",
+        "translation": "Hey, why are you...",
+        "note": "Message 98 is completed by message 99: \"Why are you... / wandering around here?\""
+      }
+    },
+    "dialogue_0114": {
+      "text": {
+        "reference": "うろうろしてんのぉ？",
+        "translation": "wandering around here?",
+        "note": "Message 99 completes message 98: \"Why are you... / wandering around here?\""
+      }
+    },
+    "dialogue_0115": {
+      "text": {
+        "reference": "えぇ～？あたしにぃ～？{n}うそでもうれしぃ～{maru_symbol}",
+        "translation": "What? To see me?\nEven if it's a lie, I'm happy!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0116": {
+      "text": {
+        "reference": "ふぅ～ん{n}オトナはいっつもいそがしいのねぇ～{n}つまんないなぁ",
+        "translation": "Hmmm. Grown-ups are always busy.\nHow boring.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0117": {
+      "text": {
+        "reference": "ふぅ～ん{n}オトナはいっつもいそがしいのねぇ～{n}たまにはやすんだらぁ？",
+        "translation": "Hmmm. Grown-ups are always busy.\nWhy not take a break?",
+        "reviewed": true
+      }
+    },
+    "dialogue_0118": {
+      "text": {
+        "reference": "そぉだ！！{n}{WAIT}やすましてあげるぅ{maru_symbol}",
+        "translation": "I know!{WAIT} I'll give you a rest!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0119": {
+      "text": {
+        "reference": "{OP:8026}いちごタンメン～{OP:8020}！？{n}{WAIT}おいしそぉ～{maru_symbol}{n}そんなのがここにあるんだぁ",
+        "translation": "{OP:8026}Strawberry noodles{OP:8020}!?{WAIT} Sounds delicious!\nThey have that here?",
+        "reviewed": true
+      }
+    },
+    "dialogue_0120": {
+      "text": {
+        "reference": "探してみるねぇ",
+        "translation": "I'll look for them!"
+      }
+    },
+    "dialogue_0121": {
+      "text": {
+        "reference": "そんなこと言ったってだまされないからぁ{n}{WAIT}それってあくまを殺すことでしょぉ！！",
+        "translation": "You can't fool me with that!{WAIT}\nThat means killing demons!!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0122": {
+      "text": {
+        "reference": "ほんとぉ～？{n}じゃあさじゃあさ{n}{WAIT}あたしも{BEAT}殺されちゃうんだぁ・・・",
+        "translation": "Really? Then...{WAIT} you'll{BEAT} kill me too..."
+      }
+    },
+    "dialogue_0123": {
+      "text": {
+        "reference": "ふぅ～ん{n}{WAIT}そりゃあタイヘンだぁ～{maru_symbol}",
+        "translation": "Hmmm.{WAIT} That sounds serious!"
+      }
+    },
+    "dialogue_0124": {
+      "text": {
+        "reference": "ふぅ～ん{n}{WAIT}右のかべに手をついて歩くと{n}いいってよぉ",
+        "translation": "Hmmm.{WAIT} Keep your hand on the right wall while you walk."
+      }
+    },
+    "dialogue_0125": {
+      "text": {
+        "reference": "ふぅ～ん{n}{WAIT}左のかべに手をついて歩くと{n}いいってよぉ",
+        "translation": "Hmmm.{WAIT} Keep your hand on the left wall while you walk."
+      }
+    },
+    "dialogue_0126": {
+      "text": {
+        "reference": "なぁに？{n}今いそいでるのぉ",
+        "translation": "What? Are you in a hurry?"
+      }
+    },
+    "dialogue_0127": {
+      "text": {
+        "reference": "はやくぅ",
+        "translation": "Hurry up!"
+      }
+    },
+    "dialogue_0128": {
+      "text": {
+        "reference": "うぅ～ん・・・{n}{WAIT}ご用があるからなぁ",
+        "translation": "Hmm...{WAIT} I have something to do."
+      }
+    },
+    "dialogue_0129": {
+      "text": {
+        "reference": "でもい～やぁおねがい聞いてくれたら{n}おじちゃんについてくぅ",
+        "translation": "But fine. Grant my request and I'll follow you, mister!"
+      }
+    },
+    "dialogue_0130": {
+      "text": {
+        "reference": "うぅ～ん・・・{n}{WAIT}おじちゃんのことよく知らないからなぁ{n}{WAIT}やめとくぅ",
+        "translation": "Hmm...{WAIT} I don't know you well, mister.{WAIT} I'll pass."
+      }
+    },
+    "dialogue_0131": {
+      "text": {
+        "reference": "いやあぁぁぁぁ！{n}へんなおじちゃんがぁぁぁ！！",
+        "translation": "Noooo! It's the weird mister!!"
+      }
+    },
+    "dialogue_0132": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "えぇ～？{n}じゃあね{BEAT}んっとね{BEAT}んっとね{n}{BEAT}{offered_item}あげよぉ",
+        "translation": "What? Then...{BEAT} um...{BEAT} um...{BEAT}\nHere, take {offered_item}!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0133": {
+      "text": {
+        "reference": "買い食いしちゃだめよぉ",
+        "translation": "Don't spend it all on snacks!"
+      }
+    },
+    "dialogue_0134": {
+      "text": {
+        "reference": "おじちゃん好みじゃないから{n}{WAIT}い{BEAT}やあぁぁぁぁ！",
+        "translation": "You're not my type, mister.{WAIT} N{BEAT}ooooo!"
+      }
+    },
+    "dialogue_0135": {
+      "text": {
+        "reference": "いそいでるんだってばぁ{n}{WAIT}ちょっとだけよぉ",
+        "translation": "I said I'm in a hurry!{WAIT} Just for a minute."
+      }
+    },
+    "dialogue_0136": {
+      "text": {
+        "reference": "はなすことなんてないよぉ～だ",
+        "translation": "I have nothing to say!"
+      }
+    },
+    "dialogue_0137": {
+      "text": {
+        "reference": "おんなのこをそんなふうにあつかってると{n}いつか刺されちゃうわよぉ{maru_symbol}",
+        "translation": "Treat girls that way and someone will stab you someday!"
+      }
+    },
+    "dialogue_0138": {
+      "text": {
+        "reference": "むっかぁ～！{n}おじちゃんなんか{WAIT}死んじゃえ！！",
+        "translation": "That makes me mad!{WAIT}\nDrop dead, mister!!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0139": {
+      "text": {
+        "reference": "えぇ～？{n}なぁんかうそくさぁ～い{maru_symbol}{n}でもい～や",
+        "translation": "What? That sounds like a lie! But fine."
+      }
+    },
+    "dialogue_0140": {
+      "text": {
+        "reference": "えぇ～？{n}{WAIT}おんなのこならだれにだって{n}おんなじこと言ってるんでしょぉ～",
+        "translation": "What?{WAIT} You say that to every girl, don't you?"
+      }
+    },
+    "dialogue_0141": {
+      "text": {
+        "reference": "ふぅ～ん{n}{WAIT}もうかってそぉだねぇ～{maru_symbol}",
+        "translation": "Hmmm.{WAIT} Business must be good!"
+      }
+    },
+    "dialogue_0142": {
+      "text": {
+        "reference": "ふぅ～ん{n}こんなところでぇ？",
+        "translation": "Hmmm. In a place like this?"
+      }
+    },
+    "dialogue_0143": {
+      "text": {
+        "reference": "それってばヤのつくお仕事ぉ？",
+        "translation": "Is it one of those yakuza jobs?"
+      }
+    },
+    "dialogue_0144": {
+      "text": {
+        "reference": "{OP:8026}いちごタンメン～{OP:8020}！？{n}{WAIT}うげろぉ～",
+        "translation": "{OP:8026}Strawberry noodles{OP:8020}!?{WAIT} Blech!"
+      }
+    },
+    "dialogue_0145": {
+      "text": {
+        "reference": "そんなの見つけなくてい～よぉ",
+        "translation": "You don't need to find those!"
+      }
+    },
+    "dialogue_0146": {
+      "text": {
+        "reference": "むつかしいこと言ってもだまされないっ！{n}それってばあくまを殺すことでしょぉ！！",
+        "translation": "Big words won't fool me!\nThat means killing demons!!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0147": {
+      "text": {
+        "reference": "ふぅ～ん{n}じゃあさじゃあさ{n}{WAIT}あたしも殺されちゃうんだ・・・",
+        "translation": "Hmmm. Then...{WAIT} you'll kill me too..."
+      }
+    },
+    "dialogue_0148": {
+      "text": {
+        "reference": "いやあぁぁぁぁ！！",
+        "translation": "Noooo!!"
+      }
+    },
+    "dialogue_0149": {
+      "text": {
+        "reference": "たたた助けてぇ～！！{n}{WAIT}命だけはぁ・・・",
+        "translation": "H-help me!{WAIT} Spare my life...",
+        "note": "Fragment context: message 147 page 0 continues the plea on page 1 (dialogue_0150)."
+      }
+    },
+    "dialogue_0150": {
+      "text": {
+        "reference": "ほんと・・・{WAIT}おねがい・・・",
+        "translation": "Really...{WAIT} Please...",
+        "note": "Fragment context: message 147 page 1 completes the plea begun on page 0 (dialogue_0149)."
+      }
+    },
+    "dialogue_0151": {
+      "text": {
+        "reference": "攻撃する",
+        "translation": "Attack."
+      }
+    },
+    "dialogue_0152": {
+      "text": {
+        "reference": "逃がす",
+        "translation": "Let them go.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0153": {
+      "text": {
+        "reference": "いやあぁぁぁぁ！！",
+        "translation": "Noooo!!"
+      }
+    },
+    "dialogue_0154": {
+      "text": {
+        "reference": "ふうぅぅぅぅ{n}{WAIT}ありがとぉ{n}このおれいはいつかするねぇ",
+        "translation": "Whew!{WAIT} Thank you. I'll repay you someday!"
+      }
+    },
+    "dialogue_0155": {
+      "text": {
+        "reference": "すめばみやこって言うし{n}{WAIT}おじちゃんも{OP:8024}はいかい{OP:8020}すればぁ？",
+        "translation": "They say home is where you make it.{WAIT}\nWhy don't you {OP:8024}wander around{OP:8020} too, mister?",
+        "reviewed": true
+      }
+    },
+    "dialogue_0156": {
+      "text": {
+        "reference": "ふぅ～んまよってるんだぁ{n}いいこと聞いちゃったぁ",
+        "translation": "Hmmm. You're lost. Good to know!"
+      }
+    },
+    "dialogue_0157": {
+      "text": {
+        "reference": "そぉだねぇねぇ",
+        "translation": "Oh, right! Hey...",
+        "note": "Fragment context: message 154 page 0 calls for attention before the relationship question on page 1 (dialogue_0158)."
+      }
+    },
+    "dialogue_0158": {
+      "text": {
+        "reference": "そこのおばちゃんは{n}おじちゃんとどぉいうカンケイなのぉ？",
+        "translation": "What kind of relationship do you have with that lady, mister?",
+        "note": "Fragment context: message 154 page 1 supplies the question introduced by \"Hey...\" on page 0 (dialogue_0157)."
+      }
+    },
+    "dialogue_0159": {
+      "text": {
+        "reference": "ねぇねぇ",
+        "translation": "Hey, hey!"
+      }
+    },
+    "dialogue_0160": {
+      "text": {
+        "reference": "仕事のパートナー",
+        "translation": "My work partner."
+      }
+    },
+    "dialogue_0161": {
+      "text": {
+        "reference": "彼女",
+        "translation": "My girlfriend."
+      }
+    },
+    "dialogue_0162": {
+      "text": {
+        "reference": "ヒ・ミ・ツ",
+        "translation": "S-e-c-r-e-t."
+      }
+    },
+    "dialogue_0163": {
+      "text": {
+        "reference": "なぁ～んだぁ{n}上司とOLかぁ",
+        "translation": "Oh, so you're a boss and an office lady!"
+      }
+    },
+    "dialogue_0164": {
+      "text": {
+        "reference": "同僚の目をぬすんで2人っきりで{n}お昼のアバンチュ～ルぅ？{n}{WAIT}ごはんの後にバトミントンしちゃったり？",
+        "translation": "Sneaking away from your coworkers for a lunchtime romance?{WAIT} A little badminton after lunch?"
+      }
+    },
+    "dialogue_0165": {
+      "text": {
+        "reference": "ふぅ～ん{n}真昼のアバンチュ～ルなんだぁ{n}いいなぁオトナはぁ～",
+        "translation": "Hmmm. A midday romance!\nGrown-ups have all the fun.",
+        "reviewed": true
+      }
+    },
+    "dialogue_0166": {
+      "text": {
+        "reference": "わぁ{WAIT}アイビキしてるんでしょぉ{n}い～なぁアイビキ{BEAT}い～なぁ{n}{WAIT}あたしもまぜてぇ",
+        "translation": "Wow,{WAIT} you're on a date!\nLucky!{BEAT} Let me join you!{WAIT}",
+        "reviewed": true
+      }
+    },
+    "dialogue_0167": {
+      "placeholders": {
+        "rei_name": "character_name"
+      },
+      "text": {
+        "reference": "{rei_name}：ちょ、ちょっと！{n}いつから、そうなったのよぉ！",
+        "translation": "{rei_name}: H-hey! How did you reach that conclusion!?"
+      }
+    },
+    "dialogue_0168": {
+      "text": {
+        "reference": "あたし、おじゃましちゃったぁ？{n}ごめんねぇいいのよアイビキ続けてぇ",
+        "translation": "Am I interrupting? Sorry!\nKeep enjoying your date!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0169": {
+      "placeholders": {
+        "rei_name": "character_name"
+      },
+      "text": {
+        "reference": "{rei_name}：だから、違うって……",
+        "translation": "{rei_name}: I told you, that's not it..."
+      }
+    },
+    "dialogue_0170": {
+      "text": {
+        "reference": "ごちそぉさまぁ{maru_symbol}",
+        "translation": "Thanks for the show!"
+      }
+    },
+    "dialogue_0171": {
+      "text": {
+        "reference": "えぇ～{n}ずるいずるい～",
+        "translation": "What? No fair!"
+      }
+    },
+    "dialogue_0172": {
+      "text": {
+        "reference": "ねぇねぇねぇってば",
+        "translation": "Hey, hey, listen!"
+      }
+    },
+    "dialogue_0173": {
+      "text": {
+        "reference": "おじちゃんはあくまのコト好きぃ？",
+        "translation": "Do you like demons, mister?"
+      }
+    },
+    "dialogue_0174": {
+      "text": {
+        "reference": "好き",
+        "translation": "I like them."
+      }
+    },
+    "dialogue_0175": {
+      "text": {
+        "reference": "嫌い",
+        "translation": "I hate them."
+      }
+    },
+    "dialogue_0176": {
+      "text": {
+        "reference": "どちらでもない",
+        "translation": "Neither."
+      }
+    },
+    "dialogue_0177": {
+      "text": {
+        "reference": "ほんとぉ？{n}{WAIT}みんなから嫌われてるわけじゃ{n}ないんだぁ",
+        "translation": "Really?{WAIT} So not everyone hates us."
+      }
+    },
+    "dialogue_0178": {
+      "text": {
+        "reference": "じゃあさ{BEAT}じゃあさ",
+        "translation": "Then,{BEAT} then..."
+      }
+    },
+    "dialogue_0179": {
+      "text": {
+        "reference": "ふぅ～ん{n}そぉいう変ったひともいるんだぁ{n}{WAIT}おもしろいねぇおじちゃん",
+        "translation": "Hmmm. So strange people like you exist.{WAIT}\nYou're funny, mister!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0180": {
+      "text": {
+        "reference": "きらいなのに{n}あくまといっしょに戦ってるのぉ？{n}{WAIT}ヘンなのぉ～",
+        "translation": "You hate demons, but fight beside them?{WAIT} That's weird!"
+      }
+    },
+    "dialogue_0181": {
+      "text": {
+        "reference": "そっかぁ{n}あたしたちのコト{n}それっくらいにしか思ってくれないんだぁ",
+        "translation": "I see. That's all we mean to you..."
+      }
+    },
+    "dialogue_0182": {
+      "text": {
+        "reference": "あくまなんて、商売道具だもんねぇ・・・",
+        "translation": "Demons are just tools of the trade..."
+      }
+    },
+    "dialogue_0183": {
+      "text": {
+        "reference": "なんかたのしいおはなししてよぉ",
+        "translation": "Tell me a fun story!"
+      }
+    },
+    "dialogue_0184": {
+      "text": {
+        "reference": "青春とは",
+        "translation": "What youth means."
+      }
+    },
+    "dialogue_0185": {
+      "text": {
+        "reference": "苦労話",
+        "translation": "A tale of hardship."
+      }
+    },
+    "dialogue_0186": {
+      "text": {
+        "reference": "下ネタ",
+        "translation": "A dirty joke."
+      }
+    },
+    "dialogue_0187": {
+      "text": {
+        "reference": "ふぅ～ん{n}おじちゃんにもそぉいう時代が{n}あったんだぁ",
+        "translation": "Hmmm. So you were young once too, mister."
+      }
+    },
+    "dialogue_0188": {
+      "text": {
+        "reference": "よぉし！{n}{WAIT}あの夕日に向かって走るんだぁ～！！",
+        "translation": "All right!{WAIT} Let's run toward that sunset!!"
+      }
+    },
+    "dialogue_0189": {
+      "text": {
+        "reference": "まぁたまにはそぉいうコトもあるわよ{n}人生山あり谷ありなんだからぁ",
+        "translation": "Well, those things happen. Life has its ups and downs."
+      }
+    },
+    "dialogue_0190": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "おこづかいあげるからしっかりやるのよぉ{n}{WAIT}{offered_item}でい～い？",
+        "translation": "Here's some pocket money. Keep trying! Is {offered_item} okay?{WAIT}"
+      }
+    },
+    "dialogue_0191": {
+      "text": {
+        "reference": "ふぅ～ん{n}{WAIT}おとしよりの話はためになるねぇ{BEAT}・{BEAT}・{BEAT}・{BEAT}{n}・{BEAT}・{BEAT}・{BEAT}zzz{BEAT}・・{BEAT}zz",
+        "translation": "Hmmm.{WAIT} Old people's stories are educational.{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT} zzz{BEAT}...{BEAT}zz"
+      }
+    },
+    "dialogue_0192": {
+      "text": {
+        "reference": "？{n}{WAIT}ねぇねぇ♂♂♂って{BEAT}なぁにぃ？{n}ねぇってばぁ♂♂♂って{BEAT}すごいぃ？",
+        "translation": "What?{WAIT} Hey, what does male-male-male mean?{BEAT} Is it something amazing?{BEAT}"
+      }
+    },
+    "dialogue_0193": {
+      "text": {
+        "reference": "ふぅ～ん{n}そぉいうしくみなんだぁ",
+        "translation": "Hmmm. So that's how it works."
+      }
+    },
+    "dialogue_0194": {
+      "text": {
+        "reference": "ものしりだねぇおじちゃん",
+        "translation": "You know a lot, mister!"
+      }
+    },
+    "dialogue_0195": {
+      "text": {
+        "reference": "なんかやってぇ",
+        "translation": "Do something fun!"
+      }
+    },
+    "dialogue_0196": {
+      "text": {
+        "reference": "おどり",
+        "translation": "Dance."
+      }
+    },
+    "dialogue_0197": {
+      "text": {
+        "reference": "うた",
+        "translation": "Sing."
+      }
+    },
+    "dialogue_0198": {
+      "text": {
+        "reference": "瞬間芸",
+        "translation": "A quick gag."
+      }
+    },
+    "dialogue_0199": {
+      "text": {
+        "reference": "あははははぁ{n}ばかみたぁ～い{maru_symbol}",
+        "translation": "Ahahaha! You look ridiculous!"
+      }
+    },
+    "dialogue_0200": {
+      "text": {
+        "reference": "あたしもおどるぅ～{maru_symbol}",
+        "translation": "I'll dance too!"
+      }
+    },
+    "dialogue_0201": {
+      "text": {
+        "reference": "いぇ～い{BEAT}しぇげなべいべぇ～{maru_symbol}",
+        "translation": "Yeah!{BEAT} Shake it, baby!"
+      }
+    },
+    "dialogue_0202": {
+      "text": {
+        "reference": "おどり続ける",
+        "translation": "Keep dancing."
+      }
+    },
+    "dialogue_0203": {
+      "text": {
+        "reference": "攻撃",
+        "translation": "Attack."
+      }
+    },
+    "dialogue_0204": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "わぁい{n}おひねりおひねり{n}{offered_item}あげるぅ{maru_symbol}",
+        "translation": "Yay! A tip! Here, take {offered_item}!"
+      }
+    },
+    "dialogue_0205": {
+      "text": {
+        "reference": "おじちゃんまたおどってねぇ",
+        "translation": "Dance for me again, mister!"
+      }
+    },
+    "dialogue_0206": {
+      "text": {
+        "reference": "おじちゃんじょうずだねぇ{n}ぶいぶいいわしてんでしょぉ",
+        "translation": "You're good, mister! You must have been very popular with the ladies."
+      }
+    },
+    "dialogue_0207": {
+      "text": {
+        "reference": "おじちゃんといるとたいくつしないねぇ{n}{WAIT}ついてっちゃおっかなぁ{maru_symbol}",
+        "translation": "I'm never bored with you, mister.{WAIT} Maybe I'll tag along!"
+      }
+    },
+    "dialogue_0208": {
+      "text": {
+        "reference": "へたくそぉ～{n}{WAIT}あたしかえるぅ！",
+        "translation": "You're terrible!{WAIT} I'm going home!"
+      }
+    },
+    "dialogue_0209": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}zzz{BEAT}・・{BEAT}zz",
+        "translation": ".{BEAT}.{BEAT}.{BEAT} zzz{BEAT}...{BEAT}zz"
+      }
+    },
+    "dialogue_0210": {
+      "text": {
+        "reference": "うわわわっ{n}{WAIT}ひゃあぁぁぁ！{BEAT}やめてぇ～！！{n}{WAIT}なかまにでもなんでもなるよぉ～",
+        "translation": "Whoa!{WAIT} Noooo!{BEAT} Stop!!{WAIT} I'll join you, anything!"
+      }
+    },
+    "dialogue_0211": {
+      "text": {
+        "reference": "うわぁ～{maru_symbol}{n}おじちゃんカ～ッコイ～{n}見なおしちゃったぁ",
+        "translation": "Wow! You're so cool, mister! I see you differently now."
+      }
+    },
+    "dialogue_0212": {
+      "text": {
+        "reference": "！！{n}{WAIT}・{BEAT}・{BEAT}・{BEAT}・・・{BEAT}あははははは",
+        "translation": "!!{WAIT}.{BEAT}.{BEAT}.{BEAT}...{BEAT} Ahahahaha!"
+      }
+    },
+    "dialogue_0213": {
+      "text": {
+        "reference": "げいにんさんになったほうが{n}いいんじゃない{BEAT}おじちゃん{maru_symbol}{n}{WAIT}サマナーよりよっぽどにあってるよぉ",
+        "translation": "Maybe you should become a comedian,{BEAT} mister!{WAIT} It suits you much better than being a Summoner."
+      }
+    },
+    "dialogue_0214": {
+      "text": {
+        "reference": "！！{n}{WAIT}・{BEAT}・{BEAT}・{BEAT}・・・{BEAT}！？",
+        "translation": "!!{WAIT}.{BEAT}.{BEAT}.{BEAT}...{BEAT}!?"
+      }
+    },
+    "dialogue_0215": {
+      "text": {
+        "reference": "！！{n}{WAIT}・{BEAT}・{BEAT}・{BEAT}・・・{BEAT}つまんなぁ～い！{n}{BEAT}死刑ぇ～！！",
+        "translation": "!!{WAIT}.{BEAT}.{BEAT}.{BEAT}...{BEAT} Boring!{BEAT} Death penalty!!"
+      }
+    },
+    "dialogue_0216": {
+      "text": {
+        "reference": "ゲ～ムはいちにちいちじかんよぉ",
+        "translation": "Only one hour of games a day!"
+      }
+    },
+    "dialogue_0217": {
+      "text": {
+        "reference": "守ってるぅ？",
+        "translation": "Do you follow that rule?"
+      }
+    },
+    "dialogue_0218": {
+      "text": {
+        "reference": "ぼちぼち",
+        "translation": "More or less."
+      }
+    },
+    "dialogue_0219": {
+      "text": {
+        "reference": "よけいなお世話",
+        "translation": "None of your business."
+      }
+    },
+    "dialogue_0220": {
+      "text": {
+        "reference": "えっ{BEAT}ら～い！！{n}いい子いい子",
+        "translation": "How{BEAT} admirable! Good boy!"
+      }
+    },
+    "dialogue_0221": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "ごほうびあげよぉ{n}{offered_item}でい～い？",
+        "translation": "I'll give you a reward. Is {offered_item} okay?"
+      }
+    },
+    "dialogue_0222": {
+      "text": {
+        "reference": "えっ{BEAT}ら～い！！",
+        "translation": "How{BEAT} admirable!"
+      }
+    },
+    "dialogue_0223": {
+      "text": {
+        "reference": "ゲ～ムばっかしやってるとぉ{n}あたまよわよわになっちゃうからねぇ{n}{WAIT}こわいねぇ～",
+        "translation": "Too many games make your brain weak.{WAIT} Scary!"
+      }
+    },
+    "dialogue_0224": {
+      "text": {
+        "reference": "ってことはぁ{BEAT}あんまし守ってないなぁ？{n}{WAIT}うふふしょうじきねぇ{n}ニンゲンすなおがいちばん",
+        "translation": "So you don't really follow it,{BEAT} do you?{WAIT} Hee hee, how honest!"
+      }
+    },
+    "dialogue_0225": {
+      "text": {
+        "reference": "ってことはぁ{BEAT}あんまし守ってないなぁ？{n}{WAIT}いっけないんだぁ",
+        "translation": "So you don't really follow it,{BEAT} do you?{WAIT} That's naughty!"
+      }
+    },
+    "dialogue_0226": {
+      "text": {
+        "reference": "ゲ～ムばっかしやってるとぉ{n}人生ふみ外しちゃうよぉ！",
+        "translation": "Too many games can ruin your life!"
+      }
+    },
+    "dialogue_0227": {
+      "text": {
+        "reference": "なによぉ！{n}おじちゃんのカラダのコト{n}しんぱいしてあげたのにぃ～！",
+        "translation": "What!? I was worried about your health, mister!"
+      }
+    },
+    "dialogue_0228": {
+      "text": {
+        "reference": "えぇ～！？{WAIT}守ってないなんてぇ～！{n}{WAIT}ゲ～ムばっかしやってるとぉ{n}人生ふみ外しちゃうよぉ！",
+        "translation": "What!?{WAIT} You don't follow it!?{WAIT} Too many games can ruin your life!"
+      }
+    },
+    "dialogue_0229": {
+      "text": {
+        "reference": "えぇ？{n}もぉふみ外してるのぉ？{n}{WAIT}ならいいやぁ",
+        "translation": "Huh? You've already ruined it?{WAIT} Then never mind."
+      }
+    },
+    "dialogue_0230": {
+      "text": {
+        "reference": "ばいばぁい外道のおじちゃん{maru_symbol}",
+        "translation": "Bye-bye, you wicked mister!"
+      }
+    },
+    "dialogue_0231": {
+      "text": {
+        "reference": "ねぇねぇ{n}なぞなぞしよぉ～",
+        "translation": "Hey, let's do a riddle!"
+      }
+    },
+    "dialogue_0232": {
+      "text": {
+        "reference": "{OP:8025}てぶくろ{OP:8020}のはんたいなぁ～んだ？",
+        "translation": "What d'you get if you flip {OP:8025}te-bu-ku-ro{OP:8020} around?"
+      }
+    },
+    "dialogue_0233": {
+      "text": {
+        "reference": "ろくぶて",
+        "translation": "Roku-bute--\"six smacks.\""
+      }
+    },
+    "dialogue_0234": {
+      "text": {
+        "reference": "ろぶくて",
+        "translation": "Ro-bu-ku-te."
+      }
+    },
+    "dialogue_0235": {
+      "text": {
+        "reference": "6回なぐる",
+        "translation": "Smack her six times."
+      }
+    },
+    "dialogue_0236": {
+      "text": {
+        "reference": "あはははぁ～おやくそくぅ～",
+        "translation": "Ahahaha! The classic answer!"
+      }
+    },
+    "dialogue_0237": {
+      "text": {
+        "reference": "{OP:8025}ぐぼぉっ！{BEAT}ばごぉっ！{BEAT}めしゃぁっ！{n}{BEAT}ぐべきぃっ！{BEAT}ばべごぉっ！！{n}{WAIT}{OP:8022}ずばしゃぁっ！！！{OP:8020}",
+        "translation": "{OP:8025}Wham!{BEAT} Pow!{BEAT} Smash!{BEAT} Crunch!{BEAT} Kaboom!{WAIT}{OP:8022}Kersplat!!{OP:8020}"
+      }
+    },
+    "dialogue_0238": {
+      "text": {
+        "reference": "おじちゃんとあそぶのたぁのし～い{maru_symbol}{n}{WAIT}なかまになったげよぉかなぁ",
+        "translation": "Playing with you is so much fun, mister!{WAIT} Maybe I'll join you."
+      }
+    },
+    "dialogue_0239": {
+      "text": {
+        "reference": "わぁい{maru_symbol}{n}たのし～ねぇおじちゃん{maru_symbol}{maru_symbol}",
+        "translation": "Yay! This is fun, mister!"
+      }
+    },
+    "dialogue_0240": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "たのしかったぁ{n}{WAIT}はい{offered_item}{n}あそんでくれたからあげるぅ",
+        "translation": "That was fun!{WAIT} Here, take {offered_item} for playing with me."
+      }
+    },
+    "dialogue_0241": {
+      "text": {
+        "reference": "あったりぃ～！",
+        "translation": "Correct!"
+      }
+    },
+    "dialogue_0242": {
+      "text": {
+        "reference": "{OP:8025}ばごぉっ！{BEAT}ぐぼぉっ！{BEAT}めぎゃぁっ！{n}{BEAT}ぐべぎぃっ！{BEAT}ばべごぉっ！！{n}{WAIT}{OP:8022}ぐばぎゃぁっ！！！{OP:8020}",
+        "translation": "{OP:8025}Wham!{BEAT} Pow!{BEAT} Smash!{BEAT} Crunch!{BEAT} Kaboom!{WAIT}{OP:8022}Kersplat!!{OP:8020}"
+      }
+    },
+    "dialogue_0243": {
+      "text": {
+        "reference": "わぁいわぁ～い{maru_symbol}{n}{WAIT}・{BEAT}・{BEAT}・{BEAT}えぇ？{BEAT}ちがうってぇ？",
+        "translation": "Yay!{WAIT}.{BEAT}.{BEAT}.{BEAT} Huh?{BEAT} I'm wrong?"
+      }
+    },
+    "dialogue_0244": {
+      "text": {
+        "reference": "ごめんなさぁい{n}{WAIT}おわびに{OP:8023}ほうぎょく{OP:8020}使ったげるぅ",
+        "translation": "Sorry!{WAIT} I'll use this {OP:8023}Bead{OP:8020} to make up for it!"
+      }
+    },
+    "dialogue_0245": {
+      "text": {
+        "reference": "ばいばぁ～い{BEAT}また遊んでねぇ～{maru_symbol}",
+        "translation": "Bye-bye!{BEAT} Play with me again!"
+      }
+    },
+    "dialogue_0246": {
+      "text": {
+        "reference": "ぶっぶぅ～{n}はっずれぇ～！",
+        "translation": "Bzzz! Wrong!"
+      }
+    },
+    "dialogue_0247": {
+      "text": {
+        "reference": "{OP:8025}ばきっ！{BEAT}べきっ！{BEAT}めきっ！{BEAT}ぐべきっ！{n}{BEAT}ぐぼぉっ！！{BEAT}めしゃぁっ！！！{OP:8020}",
+        "translation": "{OP:8025}Wham!{BEAT} Pow!{BEAT} Smack!{BEAT} Crunch!{BEAT} Kaboom!{BEAT} Smash!!{OP:8020}"
+      }
+    },
+    "dialogue_0248": {
+      "text": {
+        "reference": "あくまを殺してへーきなのぉ？",
+        "translation": "Doesn't killing demons bother you?"
+      }
+    },
+    "dialogue_0249": {
+      "text": {
+        "reference": "平気",
+        "translation": "It doesn't."
+      }
+    },
+    "dialogue_0250": {
+      "text": {
+        "reference": "平気じゃない",
+        "translation": "It does."
+      }
+    },
+    "dialogue_0251": {
+      "text": {
+        "reference": "う・{BEAT}うそぉ{BEAT}こわぁ～い{n}{WAIT}ねぇねぇあたしは殺さないよねぇ",
+        "translation": "Y-{BEAT}you're kidding!{BEAT} Scary!{WAIT} You won't kill me, right?"
+      }
+    },
+    "dialogue_0252": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}あげるからぁ{n}ぶたないでぇ",
+        "translation": "I'll give you {offered_item}, so don't hit me!"
+      }
+    },
+    "dialogue_0253": {
+      "text": {
+        "reference": "ふぅ～ん{n}あぶないおじちゃんだったんだぁ",
+        "translation": "Hmmm. So you're a dangerous mister."
+      }
+    },
+    "dialogue_0254": {
+      "text": {
+        "reference": "あたしもねあたしもね{n}{WAIT}ニンゲン殺しても{BEAT}へーきなのぉ{maru_symbol}{n}{WAIT}死んじゃえ～{maru_symbol}",
+        "translation": "Me too, me too!{WAIT} Killing humans doesn't{BEAT} bother me!{WAIT} Drop dead!"
+      }
+    },
+    "dialogue_0255": {
+      "text": {
+        "reference": "そりゃぁそぉよねぇ{n}ひとごろしとおんなじだもんねぇ",
+        "translation": "Of course it does. It's the same as murder."
+      }
+    },
+    "dialogue_0256": {
+      "text": {
+        "reference": "ふぅ～ん{BEAT}・{BEAT}・{BEAT}・{n}{WAIT}なぁ～んかうそくさいなぁ",
+        "translation": "Hmmm...{BEAT}.{BEAT}.{BEAT}.{WAIT} That sounds like a lie."
+      }
+    },
+    "dialogue_0257": {
+      "text": {
+        "reference": "ねぇねぇねぇってば{n}{WAIT}死ぬってさぁ",
+        "translation": "Hey, hey, listen!{WAIT} What does it mean...",
+        "note": "Message 238 is completed by message 239: \"What does it mean... / to die?\""
+      }
+    },
+    "dialogue_0258": {
+      "text": {
+        "reference": "どぉいうことぉ？",
+        "translation": "to die?",
+        "note": "Message 239 completes message 238: \"What does it mean... / to die?\""
+      }
+    },
+    "dialogue_0259": {
+      "text": {
+        "reference": "恐い事",
+        "translation": "Something scary."
+      }
+    },
+    "dialogue_0260": {
+      "text": {
+        "reference": "わからない",
+        "translation": "I don't know."
+      }
+    },
+    "dialogue_0261": {
+      "text": {
+        "reference": "楽しい事",
+        "translation": "Something fun."
+      }
+    },
+    "dialogue_0262": {
+      "text": {
+        "reference": "教えてやろう！",
+        "translation": "I'll teach you!"
+      }
+    },
+    "dialogue_0263": {
+      "text": {
+        "reference": "そぉよねぇ～{n}この辺こわいことだらけだからぁ",
+        "translation": "Right. This place is full of scary things."
+      }
+    },
+    "dialogue_0264": {
+      "text": {
+        "reference": "ちょっとだけど回復さしたげるね{maru_symbol}",
+        "translation": "I'll heal you a little!"
+      }
+    },
+    "dialogue_0265": {
+      "text": {
+        "reference": "気をつけるんだよぉ{maru_symbol}",
+        "translation": "Be careful!"
+      }
+    },
+    "dialogue_0266": {
+      "text": {
+        "reference": "えぇ～！？{n}なっとくいかないなぁ{n}{WAIT}あくまは殺すくせにぃ～！",
+        "translation": "What!? That makes no sense!{WAIT} You kill demons!"
+      }
+    },
+    "dialogue_0267": {
+      "text": {
+        "reference": "そんなことないよぉ{n}{WAIT}あっ{BEAT}という間だよぉ",
+        "translation": "It's not like that.{WAIT} It's over in{BEAT} an instant."
+      }
+    },
+    "dialogue_0268": {
+      "text": {
+        "reference": "ほらぁ{maru_symbol}",
+        "translation": "See?"
+      }
+    },
+    "dialogue_0269": {
+      "text": {
+        "reference": "そっかぁ・・・{n}{WAIT}こわいんなら{n}いっしょにいてあげてもいいよぉ",
+        "translation": "I see...{WAIT} If you're scared, I could stay with you."
+      }
+    },
+    "dialogue_0270": {
+      "text": {
+        "reference": "そっかぁ・・・{n}あたしもよく知らないんだぁ{n}{WAIT}じゃあさじゃあさ{WAIT}死んでみてぇ{maru_symbol}",
+        "translation": "I see... I don't know either.{WAIT} Then,{WAIT} try dying!"
+      }
+    },
+    "dialogue_0271": {
+      "text": {
+        "reference": "ふぅ～ん{n}死んだらたたって出てよぉ{n}{WAIT}それでねそれでね",
+        "translation": "Hmmm. When you die, come back as a ghost.{WAIT} Then...",
+        "note": "Fragment context: this shared page 0 begins messages 250-251; page 1 (dialogue_0272) completes the request to describe death."
+      }
+    },
+    "dialogue_0272": {
+      "text": {
+        "reference": "あたしに死んだときのこと{n}話して聞かせてぇ{maru_symbol}",
+        "translation": "tell me what dying was like!",
+        "note": "Fragment context: this shared page 1 completes \"Then...\" on page 0 (dialogue_0271) for messages 250-251."
+      }
+    },
+    "dialogue_0273": {
+      "text": {
+        "reference": "わぁいわぁい{n}教えて教えてぇ～{BEAT}・{BEAT}・{BEAT}・{BEAT}",
+        "translation": "Yay! Tell me!{BEAT}.{BEAT}.{BEAT}.{BEAT}"
+      }
+    },
+    "dialogue_0274": {
+      "text": {
+        "reference": "剣がむかつくひとに{n}ずぶ{BEAT}ずぶぅ{BEAT}って刺さってくの見てると",
+        "translation": "When you watch your sword go stab,{BEAT} stab{BEAT} into someone you hate..."
+      }
+    },
+    "dialogue_0275": {
+      "text": {
+        "reference": "ぞくぞくとかしちゃう？",
+        "translation": "does it give you a thrill?"
+      }
+    },
+    "dialogue_0276": {
+      "text": {
+        "reference": "する",
+        "translation": "It does."
+      }
+    },
+    "dialogue_0277": {
+      "text": {
+        "reference": "しない",
+        "translation": "It doesn't."
+      }
+    },
+    "dialogue_0278": {
+      "text": {
+        "reference": "いやあぁぁぁぁ～！{n}{WAIT}そぉいうの聞いてるとくびがぞわぞわぁ～{n}{WAIT}もっとぉ～{maru_symbol}",
+        "translation": "Noooo!{WAIT} Just hearing that sends shivers down my neck!{WAIT} More!"
+      }
+    },
+    "dialogue_0279": {
+      "text": {
+        "reference": "いやあぁぁぁぁ～！{n}{WAIT}そぉいうの聞いてるとくびがぞわぞわぁ～",
+        "translation": "Noooo!{WAIT} Just hearing that sends shivers down my neck!"
+      }
+    },
+    "dialogue_0280": {
+      "text": {
+        "reference": "そっかぁしないんだぁ{n}あたしもっとあぶないおじちゃんだと{n}思ってたぁ",
+        "translation": "I see. I thought you were a more dangerous mister."
+      }
+    },
+    "dialogue_0281": {
+      "text": {
+        "reference": "えぇ～しないのぉ～{n}へんなのぉ",
+        "translation": "What? It doesn't? Weird!"
+      }
+    },
+    "dialogue_0282": {
+      "text": {
+        "reference": "おじちゃんのもみあげ{n}なんかこわ～い",
+        "translation": "Your sideburns are kind of scary, mister."
+      }
+    },
+    "dialogue_0283": {
+      "text": {
+        "reference": "どうにかならないのぉ？",
+        "translation": "Can't you do something about them?"
+      }
+    },
+    "dialogue_0284": {
+      "text": {
+        "reference": "なだめる",
+        "translation": "Calm her down."
+      }
+    },
+    "dialogue_0285": {
+      "text": {
+        "reference": "おこる",
+        "translation": "Get angry."
+      }
+    },
+    "dialogue_0286": {
+      "text": {
+        "reference": "ごめんなさぁい{n}もみあげと話してるわけじゃないもんね{n}{WAIT}カッコウとナカミは別だもんね",
+        "translation": "Sorry! I'm not talking to your sideburns.{WAIT} Looks and personality are different."
+      }
+    },
+    "dialogue_0287": {
+      "text": {
+        "reference": "おねがい聞いてくれたら{n}ついてったげるよぉ{maru_symbol}",
+        "translation": "Grant my request and I'll come with you!"
+      }
+    },
+    "dialogue_0288": {
+      "text": {
+        "reference": "ごめんなさぁい{n}もみあげと話してるわけじゃないもんね",
+        "translation": "Sorry! I'm not talking to your sideburns."
+      }
+    },
+    "dialogue_0289": {
+      "text": {
+        "reference": "カッコウとナカミは別だもんね",
+        "translation": "Looks and personality are different."
+      }
+    },
+    "dialogue_0290": {
+      "text": {
+        "reference": "なによぉ{n}注意してあげただけじゃなぁ～い{n}{WAIT}むっかぁ～！！",
+        "translation": "What!? I was only warning you!{WAIT} Now I'm mad!"
+      }
+    },
+    "dialogue_0291": {
+      "text": {
+        "reference": "ごめんなさぁい傷ついたぁ？{n}{WAIT}もみあげだって{n}いっしょうけんめい生きてるのに",
+        "translation": "Sorry! Did that hurt?{WAIT} Your sideburns are doing their best to live too."
+      }
+    },
+    "dialogue_0292": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "おわびに{offered_item}{n}{WAIT}気にしないでねぇ",
+        "translation": "Here, take {offered_item} as an apology.{WAIT} Don't worry about it!"
+      }
+    },
+    "dialogue_0293": {
+      "text": {
+        "reference": "ごめんなさぁい{n}にあってるよぉそれ{n}{WAIT}ほんと",
+        "translation": "Sorry! They suit you.{WAIT} Really!"
+      }
+    },
+    "dialogue_0294": {
+      "text": {
+        "reference": "なによぉ！{n}かみのけさかだてたってこわくないもん",
+        "translation": "What!? Spiking your hair doesn't scare me!"
+      }
+    },
+    "dialogue_0295": {
+      "text": {
+        "reference": "ひゃあぁぁぁぁ{n}{WAIT}ごめんなさぁい{n}{WAIT}にあってるよぉそれ",
+        "translation": "Noooo!{WAIT} Sorry!{WAIT} It really suits you!"
+      }
+    },
+    "dialogue_0296": {
+      "text": {
+        "reference": "こんどなにかあげるから{n}許してよぉ{maru_symbol}",
+        "translation": "I'll give you something next time. Forgive me!"
+      }
+    },
+    "dialogue_0297": {
+      "text": {
+        "reference": "サマナーのお仕事っておっかない？",
+        "translation": "Is a Summoner's job scary?"
+      }
+    },
+    "dialogue_0298": {
+      "text": {
+        "reference": "恐くない",
+        "translation": "Not scary."
+      }
+    },
+    "dialogue_0299": {
+      "text": {
+        "reference": "多少は恐い",
+        "translation": "A little scary."
+      }
+    },
+    "dialogue_0300": {
+      "text": {
+        "reference": "本気で恐い",
+        "translation": "Terrifying."
+      }
+    },
+    "dialogue_0301": {
+      "text": {
+        "reference": "ほんとぉ？{n}{WAIT}じゃあさじゃあさ{n}あたしついて行ってもいいかなぁ{maru_symbol}",
+        "translation": "Really?{WAIT} Then can I come with you?"
+      }
+    },
+    "dialogue_0302": {
+      "text": {
+        "reference": "ほんとぉ？",
+        "translation": "Really?"
+      }
+    },
+    "dialogue_0303": {
+      "text": {
+        "reference": "そっかぁ{n}{WAIT}まぁちょっとくらいだったら{n}こわくってもいいかなぁ",
+        "translation": "I see.{WAIT} A little fear might be okay."
+      }
+    },
+    "dialogue_0304": {
+      "text": {
+        "reference": "えぇ～やっぱりおっかないんだぁ{n}おじちゃんについて行こうと思ったけどぉ{n}{WAIT}やっぱりや～めたっと",
+        "translation": "What? So it is scary! I thought I'd follow you, mister, but...{WAIT} Never mind!"
+      }
+    },
+    "dialogue_0305": {
+      "text": {
+        "reference": "ばいばぁい気をつけてねぇ",
+        "translation": "Bye-bye. Be careful!"
+      }
+    },
+    "dialogue_0306": {
+      "text": {
+        "reference": "おじちゃんがあくまと戦うから{n}おっかない思いするんだよぉ{n}{WAIT}もっとなかよくできないのかなぁ",
+        "translation": "It's scary because you fight demons, mister.{WAIT} Can't you get along better?"
+      }
+    },
+    "dialogue_0307": {
+      "text": {
+        "reference": "おじちゃんがあくまと戦うから{n}おっかない思いするんだよぉ",
+        "translation": "It's scary because you fight demons, mister."
+      }
+    },
+    "dialogue_0308": {
+      "text": {
+        "reference": "おじちゃんひどぉい{n}あったまきちゃうっ！",
+        "translation": "You're so mean, mister! Now I'm mad!"
+      }
+    },
+    "dialogue_0309": {
+      "text": {
+        "reference": "あたしあくまだし・・・{n}まだコドモだし・・・",
+        "translation": "I'm a demon... and still a child...",
+        "note": "Message 285 page 0 leads into page 1: \"I'm a demon and still a child... / even so, will you treat me like a human girl?\""
+      }
+    },
+    "dialogue_0310": {
+      "text": {
+        "reference": "それでも{BEAT}にんげんのおんなの子と・・・",
+        "translation": "Even so,{BEAT} will you treat me like a human girl...?",
+        "note": "Message 285 page 1 completes page 0: \"I'm a demon and still a child... / even so, will you treat me like a human girl?\""
+      }
+    },
+    "dialogue_0311": {
+      "text": {
+        "reference": "同じに扱ってくれるぅ？",
+        "translation": "Will you treat me the same?"
+      }
+    },
+    "dialogue_0312": {
+      "text": {
+        "reference": "約束する",
+        "translation": "I promise."
+      }
+    },
+    "dialogue_0313": {
+      "text": {
+        "reference": "前向きに善処する",
+        "translation": "I'll make every positive effort."
+      }
+    },
+    "dialogue_0314": {
+      "text": {
+        "reference": "人間と悪魔は違う",
+        "translation": "Humans and demons are different."
+      }
+    },
+    "dialogue_0315": {
+      "text": {
+        "reference": "ほんとぉ？{n}やくそくよぉ",
+        "translation": "Really? Promise!"
+      }
+    },
+    "dialogue_0316": {
+      "text": {
+        "reference": "へんなオトコのひとと合体させたりしたら{n}怒っちゃうんだからぁ{maru_symbol}",
+        "translation": "I'll be mad if you fuse me with some weird man!"
+      }
+    },
+    "dialogue_0317": {
+      "text": {
+        "reference": "ほんとかなぁ{n}{WAIT}そんなコト言っといてぇ",
+        "translation": "Really?{WAIT} You say that now...",
+        "note": "Fragment context: message 291 page 0 continues on page 1 (dialogue_0318), which supplies the demon's suspicion about fusion."
+      }
+    },
+    "dialogue_0318": {
+      "text": {
+        "reference": "ばっちいオトコのひとと合体させたり{n}するんでしょぉ",
+        "translation": "but you'll fuse me with some filthy man, won't you?",
+        "note": "Fragment context: message 291 page 1 completes \"You say that now...\" on page 0 (dialogue_0317)."
+      }
+    },
+    "dialogue_0319": {
+      "text": {
+        "reference": "おじちゃん{OP:8025}せいじかぁ～{OP:8020}？{n}{OP:8025}まえむきにぜんしょ{OP:8020}って{n}いみわかんなぁい{maru_symbol}",
+        "translation": "Are you a {OP:8025}politician{OP:8020}, mister? I don't understand {OP:8025}every positive effort{OP:8020}!"
+      }
+    },
+    "dialogue_0320": {
+      "text": {
+        "reference": "コドモだからってばかにしないでよぉ{n}{WAIT}{OP:8025}まえむきにぜんしょ{OP:8020}って{n}やくそくできないっていみでしょぉ？",
+        "translation": "Don't treat me like a child!{WAIT} {OP:8025}Every positive effort{OP:8020} means you can't promise, right?"
+      }
+    },
+    "dialogue_0321": {
+      "text": {
+        "reference": "そぉ{WAIT}そぉなんだぁ・・・",
+        "translation": "Oh...{WAIT} I see..."
+      }
+    },
+    "dialogue_0322": {
+      "text": {
+        "reference": "おじちゃんってぇ{n}{WAIT}心のせまいひとなんだねぇ{n}ちょっとみそこなったぁ",
+        "translation": "You're narrow-minded, mister.{WAIT} I'm disappointed."
+      }
+    },
+    "dialogue_0323": {
+      "text": {
+        "reference": "おじちゃんってぇ{n}{WAIT}心のせまいひとなんだねぇ",
+        "translation": "You're{WAIT} narrow-minded, mister."
+      }
+    },
+    "dialogue_0324": {
+      "text": {
+        "reference": "あたしみそこなったぁ！{n}ゼッコウよもう！",
+        "translation": "I'm disappointed! We're through!"
+      }
+    },
+    "dialogue_0325": {
+      "text": {
+        "reference": "サマナ～のお仕事ってどんなのぉ？",
+        "translation": "What kind of work does a summoner do?"
+      }
+    },
+    "dialogue_0326": {
+      "text": {
+        "reference": "悪魔召喚師",
+        "translation": "A Devil Summoner."
+      }
+    },
+    "dialogue_0327": {
+      "text": {
+        "reference": "探偵",
+        "translation": "A detective."
+      }
+    },
+    "dialogue_0328": {
+      "text": {
+        "reference": "街の大掃除屋",
+        "translation": "The city's exterminator."
+      }
+    },
+    "dialogue_0329": {
+      "text": {
+        "reference": "よくわからない",
+        "translation": "I don't know."
+      }
+    },
+    "dialogue_0330": {
+      "text": {
+        "reference": "あくまを出したりひっこめたりするのぉ？{n}てじなみたいにぃ？{n}{WAIT}たのしそぉ{maru_symbol}",
+        "translation": "You make demons appear and disappear? Like magic?{WAIT} Sounds fun!"
+      }
+    },
+    "dialogue_0331": {
+      "text": {
+        "reference": "あたしもまぜてぇ～{maru_symbol}",
+        "translation": "Let me join in!"
+      }
+    },
+    "dialogue_0332": {
+      "text": {
+        "reference": "ふぅ～ん{n}それであくまをあつめてるんだぁ{n}{WAIT}おもしろそぉ～",
+        "translation": "Hmmm. So that's why you collect demons.{WAIT} Sounds fun!"
+      }
+    },
+    "dialogue_0333": {
+      "text": {
+        "reference": "ふぅ～ん{n}あくまを出したりひっこめたりするんだぁ{n}サマナァ～って",
+        "translation": "Hmmm. So a summoner makes demons appear and disappear."
+      }
+    },
+    "dialogue_0334": {
+      "text": {
+        "reference": "どぉもあやしいおじちゃんだと思ったら{n}たんていさんだったんだぁ",
+        "translation": "I thought you were a suspicious mister. So you're a detective!"
+      }
+    },
+    "dialogue_0335": {
+      "text": {
+        "reference": "うそつきぃ～{n}{WAIT}どぉしてたんていさんが{n}あくまつれてるのよぉ～！",
+        "translation": "Liar!{WAIT} Why would a detective have demons!?"
+      }
+    },
+    "dialogue_0336": {
+      "text": {
+        "reference": "ふぅ～ん{n}それでこんなトコそうじしてんだぁ{n}{WAIT}しっかりはたらいてねぇ{maru_symbol}",
+        "translation": "Hmmm. So you're cleaning a place like this.{WAIT} Work hard!"
+      }
+    },
+    "dialogue_0337": {
+      "text": {
+        "reference": "ばいばぁい",
+        "translation": "Bye-bye!"
+      }
+    },
+    "dialogue_0338": {
+      "text": {
+        "reference": "それってあくまをたいじするってことぉ？{n}{WAIT}そんなのにんげんだけのつごうじゃない{n}おかしいよぉ",
+        "translation": "That means exterminating demons, right?{WAIT} That's only convenient for humans. It's wrong!"
+      }
+    },
+    "dialogue_0339": {
+      "text": {
+        "reference": "あったまきちゃう！",
+        "translation": "Now I'm mad!"
+      }
+    },
+    "dialogue_0340": {
+      "text": {
+        "reference": "ふぅ～ん{n}わかんないんだぁ{n}{WAIT}おぉらかなひとだねぇ",
+        "translation": "Hmmm. You don't know?{WAIT} How broad-minded."
+      }
+    },
+    "dialogue_0341": {
+      "text": {
+        "reference": "おぉらかと書いてばかと読むぅ～{n}{WAIT}やぁ～い{n}おぉらかおぉらかぁ～",
+        "translation": "Write \"broad-minded,\" read it \"idiot.\"{WAIT} Ha-ha! Broad-minded!"
+      }
+    },
+    "dialogue_0342": {
+      "text": {
+        "reference": "かわいそぉ～{n}お仕事ないからぷらぷらしてんでしょぉ{n}{WAIT}おねえちゃんがおこづかいあげよぉ",
+        "translation": "Poor thing. You're loafing because you have no job.{WAIT} Big sister will give you pocket money."
+      }
+    },
+    "dialogue_0343": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}でい～い？{n}{WAIT}早くお仕事見つけてねぇ～{maru_symbol}",
+        "translation": "Is {offered_item} okay?{WAIT} Find work soon!"
+      }
+    },
+    "dialogue_0344": {
+      "text": {
+        "reference": "ねぇねぇ{n}ラッシュアワ～ってあるでしょぉ",
+        "translation": "Hey, you know rush hour?"
+      }
+    },
+    "dialogue_0345": {
+      "text": {
+        "reference": "あめの日も{BEAT}かぜの日も・・・{n}{WAIT}ぎゅうぎゅうの乗り物で{n}運ばれてさぁ{maru_symbol}",
+        "translation": "Rain{BEAT} or shine...{WAIT} packed into a vehicle and carried away!"
+      }
+    },
+    "dialogue_0346": {
+      "text": {
+        "reference": "まいにちたのし～い？",
+        "translation": "Is it fun every day?"
+      }
+    },
+    "dialogue_0347": {
+      "text": {
+        "reference": "楽しい",
+        "translation": "It's fun."
+      }
+    },
+    "dialogue_0348": {
+      "text": {
+        "reference": "ほっといてくれ",
+        "translation": "Leave me alone."
+      }
+    },
+    "dialogue_0349": {
+      "text": {
+        "reference": "えぇ？ほんとぉ～？{n}じゃああたしも乗ってみよっかなぁ{n}{WAIT}いっしょに行くぅ？",
+        "translation": "Really? Then maybe I'll ride too.{WAIT} Want to go together?"
+      }
+    },
+    "dialogue_0350": {
+      "text": {
+        "reference": "えぇ～！？{n}あんなのどこがたのしいのぉ？{n}{WAIT}あ、わかったぁ",
+        "translation": "What!? What's fun about that?{WAIT} Oh, I know!"
+      }
+    },
+    "dialogue_0351": {
+      "text": {
+        "reference": "おじちゃん{OP:8026}ちかん{OP:8020}するんでしょぉ！{n}えっちそぉなカオしてるもん{n}{WAIT}あっち行けぇ！",
+        "translation": "Mister, you {OP:8026}grope women{OP:8020}, don't you!? You look lecherous!{WAIT} Get away!"
+      }
+    },
+    "dialogue_0352": {
+      "text": {
+        "reference": "へんなのぉ",
+        "translation": "Weird!"
+      }
+    },
+    "dialogue_0353": {
+      "text": {
+        "reference": "いやだったら乗らなきゃい～のにぃ",
+        "translation": "If you hate it, why ride?"
+      }
+    },
+    "dialogue_0354": {
+      "text": {
+        "reference": "へんなのぉ",
+        "translation": "Weird!"
+      }
+    },
+    "dialogue_0355": {
+      "text": {
+        "reference": "いやだったら乗らなきゃい～のにぃ{n}{WAIT}ばっかみた～い{maru_symbol}",
+        "translation": "If you hate it, why ride?{WAIT} You look ridiculous!"
+      }
+    },
+    "dialogue_0356": {
+      "text": {
+        "reference": "ねぇねぇ{n}おじちゃんは小ちゃい頃",
+        "translation": "Hey, mister, when you were little...",
+        "note": "Message 319 is completed by message 320: \"When you were little... / were you a bully?\""
+      }
+    },
+    "dialogue_0357": {
+      "text": {
+        "reference": "いじめっ子だったぁ？",
+        "translation": "were you a bully?",
+        "note": "Message 320 completes message 319: \"When you were little... / were you a bully?\""
+      }
+    },
+    "dialogue_0358": {
+      "text": {
+        "reference": "その通り",
+        "translation": "Exactly."
+      }
+    },
+    "dialogue_0359": {
+      "text": {
+        "reference": "違う",
+        "translation": "No."
+      }
+    },
+    "dialogue_0360": {
+      "text": {
+        "reference": "いじめられてた",
+        "translation": "I was bullied."
+      }
+    },
+    "dialogue_0361": {
+      "text": {
+        "reference": "やっぱりぃ！！{n}{WAIT}だからこんなトコまで{n}あくまをいじめに来るのねぇ！",
+        "translation": "I knew it!{WAIT} That's why you came here to bully demons!"
+      }
+    },
+    "dialogue_0362": {
+      "text": {
+        "reference": "助けてぇ～{maru_symbol}",
+        "translation": "Help!"
+      }
+    },
+    "dialogue_0363": {
+      "text": {
+        "reference": "むっかぁ～！！",
+        "translation": "Now I'm mad!"
+      }
+    },
+    "dialogue_0364": {
+      "text": {
+        "reference": "じゃあさじゃあさ{n}いつからさ",
+        "translation": "Then when...",
+        "note": "Message 326 page 0 leads into page 1: \"Then when... / did you become the kind of boy who wanders around armed?\""
+      }
+    },
+    "dialogue_0365": {
+      "text": {
+        "reference": "武器持ってこんなトコうろうろする子に{n}なっちゃったのぉ？{n}{WAIT}親泣かしちゃだめよぉ{maru_symbol}",
+        "translation": "did you become the kind of boy who wanders around armed?{WAIT} Don't make your parents cry!",
+        "note": "Message 326 page 1 completes page 0: \"Then when... / did you become the kind of boy who wanders around armed?\""
+      }
+    },
+    "dialogue_0366": {
+      "text": {
+        "reference": "うそだぁ～",
+        "translation": "Liar!"
+      }
+    },
+    "dialogue_0367": {
+      "text": {
+        "reference": "じゃあさじゃあさ{n}どぉしてわざわざ異界まで{n}あくまをいじめに来るのぉ？",
+        "translation": "Then why come all the way here to bully demons?"
+      }
+    },
+    "dialogue_0368": {
+      "text": {
+        "reference": "かわいそぉに{n}おともだちいなかったんだぁ",
+        "translation": "Poor thing. You had no friends."
+      }
+    },
+    "dialogue_0369": {
+      "text": {
+        "reference": "なんかくれたら{n}{WAIT}あたしがなってあげてもいいよぉ",
+        "translation": "Give me something,{WAIT} and maybe I'll be your friend."
+      }
+    },
+    "dialogue_0370": {
+      "text": {
+        "reference": "だからって{n}オトナになってからあくまいじめるコト{n}ないでしょぉ～！？",
+        "translation": "That's no reason to bully demons when you're grown up!"
+      }
+    },
+    "dialogue_0371": {
+      "text": {
+        "reference": "ねぇねぇ{n}もっとよくおカオが見たいなぁ",
+        "translation": "Hey, I want a better look at your face."
+      }
+    },
+    "dialogue_0372": {
+      "text": {
+        "reference": "こっちにおいでよぉ",
+        "translation": "Come closer."
+      }
+    },
+    "dialogue_0373": {
+      "text": {
+        "reference": "近づく",
+        "translation": "Move closer."
+      }
+    },
+    "dialogue_0374": {
+      "text": {
+        "reference": "近づかない",
+        "translation": "Don't move closer."
+      }
+    },
+    "dialogue_0375": {
+      "text": {
+        "reference": "うふふふ・・・{n}{WAIT}おじちゃんよく見るとカッコイ～ねぇ",
+        "translation": "Hee hee...{WAIT} You're handsome up close, mister."
+      }
+    },
+    "dialogue_0376": {
+      "text": {
+        "reference": "うふふふ・・・{n}{WAIT}おじちゃんあまいなぁ～",
+        "translation": "Hee hee...{WAIT} You're so gullible, mister!"
+      }
+    },
+    "dialogue_0377": {
+      "text": {
+        "reference": "え～{BEAT}えぇ～{BEAT}えぇぇ～{n}{BEAT}つまんないのぉ～！{n}{WAIT}あたしかえるぅ～！",
+        "translation": "What?{BEAT} What?{BEAT} Whaaat?{BEAT} Boring!{WAIT} I'm going home!"
+      }
+    },
+    "dialogue_0378": {
+      "text": {
+        "reference": "う～げっそりぃ～{n}ノリがわるいなぁおじちゃんはぁ",
+        "translation": "Ugh, what a letdown! You're no fun, mister."
+      }
+    },
+    "dialogue_0379": {
+      "text": {
+        "reference": "あぁ～！{n}あたしのこときらいなんでしょぉ！{n}{WAIT}おじちゃんなんか{BEAT}ゼッコウよぉ！！",
+        "translation": "Oh! You hate me, don't you!?{WAIT} Mister...{BEAT} we're through!!"
+      }
+    },
+    "dialogue_0380": {
+      "text": {
+        "reference": "おうちのひと心配してるんじゃなぁい？",
+        "translation": "Isn't your family worried?"
+      }
+    },
+    "dialogue_0381": {
+      "text": {
+        "reference": "そう思う",
+        "translation": "I think so."
+      }
+    },
+    "dialogue_0382": {
+      "text": {
+        "reference": "心配してないと思う",
+        "translation": "I don't think so."
+      }
+    },
+    "dialogue_0383": {
+      "text": {
+        "reference": "家族はいない",
+        "translation": "I have no family."
+      }
+    },
+    "dialogue_0384": {
+      "text": {
+        "reference": "たまには、カオ見せにかえんなよぉ{n}よろこぶよぉ",
+        "translation": "Go show them your face sometimes. They'll be happy."
+      }
+    },
+    "dialogue_0385": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}あげるね{maru_symbol}{n}異界のおみやげぇ{n}{WAIT}おかあさんによろしくぅ",
+        "translation": "Here, take {offered_item}. A souvenir from the other world!{WAIT} Say hi to your mother."
+      }
+    },
+    "dialogue_0386": {
+      "text": {
+        "reference": "そぉよぉ{n}そろそろごはんのじかんよぉ",
+        "translation": "That's right. It's almost dinnertime."
+      }
+    },
+    "dialogue_0387": {
+      "text": {
+        "reference": "早くかえんないとおこられちゃうよぉ{n}{WAIT}ばいばぁい",
+        "translation": "You'll be scolded if you don't hurry home.{WAIT} Bye!"
+      }
+    },
+    "dialogue_0388": {
+      "text": {
+        "reference": "ふぅ～ん{n}おじちゃんが死んでもぉ{n}だぁれも心配しないんだぁ{maru_symbol}",
+        "translation": "Hmmm. Nobody would worry if you died, mister."
+      }
+    },
+    "dialogue_0389": {
+      "text": {
+        "reference": "あ・・・{BEAT}ごめんなさぁい{n}傷つけちゃったぁ？",
+        "translation": "Oh...{BEAT} Sorry. Did that hurt?"
+      }
+    },
+    "dialogue_0390": {
+      "text": {
+        "reference": "さびしいんだったらぁ{n}おともだちになったげてもいいよぉ{maru_symbol}",
+        "translation": "If you're lonely, I could be your friend!"
+      }
+    },
+    "dialogue_0391": {
+      "text": {
+        "reference": "あ・・・{BEAT}ごめんなさぁい{n}知らなかったからぁ",
+        "translation": "Oh...{BEAT} Sorry. I didn't know."
+      }
+    },
+    "dialogue_0392": {
+      "text": {
+        "reference": "ペット飼うんだったらなにがい～い？",
+        "translation": "What pet would you want?"
+      }
+    },
+    "dialogue_0393": {
+      "text": {
+        "reference": "シーモンキー",
+        "translation": "Sea-Monkeys."
+      }
+    },
+    "dialogue_0394": {
+      "text": {
+        "reference": "いぬ",
+        "translation": "A dog."
+      }
+    },
+    "dialogue_0395": {
+      "text": {
+        "reference": "ねこ",
+        "translation": "A cat."
+      }
+    },
+    "dialogue_0396": {
+      "text": {
+        "reference": "とかげ",
+        "translation": "A lizard."
+      }
+    },
+    "dialogue_0397": {
+      "text": {
+        "reference": "あ～それ知ってるぅ～{n}{WAIT}大きくなるとおサルになるってゆう{n}ビセイブツでしょお",
+        "translation": "Oh, I know those!{WAIT} Microorganisms that grow into monkeys, right?"
+      }
+    },
+    "dialogue_0398": {
+      "text": {
+        "reference": "すてきぃ～{maru_symbol}{n}わくわくしちゃう{maru_symbol}{n}{WAIT}おじちゃんいかすぅ～",
+        "translation": "Wonderful! So exciting!{WAIT} You're so cool, mister!"
+      }
+    },
+    "dialogue_0399": {
+      "text": {
+        "reference": "おねがい聞いてくれたら{n}ついてっちゃおっかなぁ{maru_symbol}",
+        "translation": "Grant my request and maybe I'll come with you!"
+      }
+    },
+    "dialogue_0400": {
+      "text": {
+        "reference": "なぁにシ～モンキ～ってぇ？{n}うみのおサル？",
+        "translation": "What's a Sea-Monkey? A monkey from the sea?"
+      }
+    },
+    "dialogue_0401": {
+      "text": {
+        "reference": "？？{n}お手とかお回りする？",
+        "translation": "What? Does it shake hands and roll over?"
+      }
+    },
+    "dialogue_0402": {
+      "text": {
+        "reference": "いぬはい～よねぇ{n}かわい～し{n}なんでも言うコト聞くしぃ～",
+        "translation": "Dogs are great. Cute, and they obey everything!"
+      }
+    },
+    "dialogue_0403": {
+      "text": {
+        "reference": "おじちゃんとは大ちが～い{maru_symbol}",
+        "translation": "Nothing like you, mister!"
+      }
+    },
+    "dialogue_0404": {
+      "text": {
+        "reference": "いぬはい～よねぇ{n}かわい～し{n}なんでも言うコト聞くしぃ～",
+        "translation": "Dogs are great. Cute, and they obey everything!"
+      }
+    },
+    "dialogue_0405": {
+      "text": {
+        "reference": "それに・・・{BEAT}おいし～しぃ{maru_symbol}{n}{WAIT}おじちゃんはおいし～い？",
+        "translation": "And...{BEAT} delicious!{WAIT} Are you delicious, mister?"
+      }
+    },
+    "dialogue_0406": {
+      "text": {
+        "reference": "ねこはいいよねぇ{n}つめが長くてぇ{n}きばがとがっててぇ",
+        "translation": "Cats are great. Long claws and sharp fangs."
+      }
+    },
+    "dialogue_0407": {
+      "text": {
+        "reference": "あたしにもあ～んなつめがあればなぁ{n}{WAIT}おじちゃんなんかイチコロなのにぃ",
+        "translation": "If I had claws like that,{WAIT} I'd finish you in one swipe, mister!"
+      }
+    },
+    "dialogue_0408": {
+      "text": {
+        "reference": "えぇ～？ねこぉ～？{n}{WAIT}あんなの{BEAT}おいしくないよぉ{n}おじちゃんしゅみわるぅ～い",
+        "translation": "What? A cat?{WAIT} They don't{BEAT} taste good! You have terrible taste, mister."
+      }
+    },
+    "dialogue_0409": {
+      "text": {
+        "reference": "ひゃあぁとかげぇ～？{n}{WAIT}かぁ～わい～い",
+        "translation": "Wow, a lizard?{WAIT} So cute!"
+      }
+    },
+    "dialogue_0410": {
+      "text": {
+        "reference": "あのどこ見てるかわかんない目が{n}い～よねぇ{n}{WAIT}なんども生えてくるしっぽもステキィ{maru_symbol}",
+        "translation": "Those unfocused eyes are great.{WAIT} And tails that grow back are wonderful!"
+      }
+    },
+    "dialogue_0411": {
+      "text": {
+        "reference": "おじちゃんいかすぅ～{n}{WAIT}おねがい聞いてくれたら{n}ついてっちゃおっかなぁ{maru_symbol}",
+        "translation": "You're so cool, mister!{WAIT} Grant my request and maybe I'll come!"
+      }
+    },
+    "dialogue_0412": {
+      "text": {
+        "reference": "ひゃあぁとかげぇ～？{n}{WAIT}あんまりおいしそぉじゃないよ～{n}お肉がなくって",
+        "translation": "A lizard?{WAIT} It doesn't look tasty. There's no meat."
+      }
+    },
+    "dialogue_0413": {
+      "text": {
+        "reference": "・・・おじちゃんもあんまし肉ないねぇ{n}{WAIT}少しふとったほうがいいよぉ{n}うふふ・・・",
+        "translation": "...You don't have much meat either, mister.{WAIT} You should gain weight. Hee hee..."
+      }
+    },
+    "dialogue_0414": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "そぉそぉ{n}{demon_name}ってかわい～よねぇ{maru_symbol}{n}{BEAT}・{BEAT}・{BEAT}・{BEAT}え？",
+        "translation": "Right! {demon_name} is so cute!{BEAT}.{BEAT}.{BEAT}.{BEAT} Huh?"
+      }
+    },
+    "dialogue_0415": {
+      "text": {
+        "reference": "それってばあたしのコトぉ～？{n}ひっどぉ～い{n}{WAIT}あたしペットじゃないもん！",
+        "translation": "Are you talking about me? That's mean!{WAIT} I'm not a pet!"
+      }
+    },
+    "dialogue_0416": {
+      "text": {
+        "reference": "おじちゃんがあたしのペットなのぉ～！！",
+        "translation": "You're my pet, mister!!"
+      }
+    },
+    "dialogue_0417": {
+      "text": {
+        "reference": "おじちゃんのSWORDは{n}あくまを切るためにあるんでしょぉ",
+        "translation": "Your SWORD is for cutting demons, right, mister?"
+      }
+    },
+    "dialogue_0418": {
+      "text": {
+        "reference": "はずしてよぉ{maru_symbol}",
+        "translation": "Take it off!"
+      }
+    },
+    "dialogue_0419": {
+      "text": {
+        "reference": "外す",
+        "translation": "Remove it."
+      }
+    },
+    "dialogue_0420": {
+      "text": {
+        "reference": "外さない",
+        "translation": "Don't remove it."
+      }
+    },
+    "dialogue_0421": {
+      "text": {
+        "reference": "わぁい{maru_symbol}{n}おじちゃん好きよぉ",
+        "translation": "Yay! I like you, mister!"
+      }
+    },
+    "dialogue_0422": {
+      "text": {
+        "reference": "あたしを切るのぉ？{n}{WAIT}サクッ{BEAT}て{maru_symbol}{n}{WAIT}そうなのぉ？",
+        "translation": "Are you going to cut me?{WAIT} Slice!{BEAT}{WAIT} Is that it?"
+      }
+    },
+    "dialogue_0423": {
+      "text": {
+        "reference": "ずばぁって{BEAT}どばぁって{BEAT}めっしゃぁってぇ{n}{WAIT}そうなのぉ？",
+        "translation": "Slash,{BEAT} splatter,{BEAT} crunch!{WAIT} Is that it?"
+      }
+    },
+    "dialogue_0424": {
+      "text": {
+        "reference": "あたしを切るのぉ？{n}{WAIT}さくっ{BEAT}て{maru_symbol}{n}{WAIT}そうなのぉ？",
+        "translation": "Are you going to cut me?{WAIT} Slice!{BEAT}{WAIT} Is that it?"
+      }
+    },
+    "dialogue_0425": {
+      "text": {
+        "reference": "ずばぁって{BEAT}どばぁって{BEAT}めっしゃぁってぇ{n}{WAIT}いやあぁぁぁぁ",
+        "translation": "Slash,{BEAT} splatter,{BEAT} crunch!{WAIT} Noooo!"
+      }
+    },
+    "dialogue_0426": {
+      "text": {
+        "reference": "ねぇねぇおじちゃん",
+        "translation": "Hey, mister."
+      }
+    },
+    "dialogue_0427": {
+      "text": {
+        "reference": "おじちゃんはよわいものいじめ好き？",
+        "translation": "Do you like bullying the weak, mister?"
+      }
+    },
+    "dialogue_0428": {
+      "text": {
+        "reference": "許せない",
+        "translation": "I can't forgive it."
+      }
+    },
+    "dialogue_0429": {
+      "text": {
+        "reference": "いつからそんな{n}ゆがんだ子になっちゃったのぉ？",
+        "translation": "When did you become such a twisted child?"
+      }
+    },
+    "dialogue_0430": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "こわぁい・・・{n}{offered_item}あげるから{n}{WAIT}スカ～トめくんないで{BEAT}ね{maru_symbol}",
+        "translation": "Scary... I'll give you {offered_item},{WAIT} so don't flip my skirt,{BEAT} okay?"
+      }
+    },
+    "dialogue_0431": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "わるいコトしないあくまは{n}殺さないでね{n}{WAIT}{offered_item}あげるから",
+        "translation": "Don't kill demons who haven't done anything bad.{WAIT} I'll give you {offered_item}."
+      }
+    },
+    "dialogue_0432": {
+      "text": {
+        "reference": "やくそくよぉ",
+        "translation": "Promise!"
+      }
+    },
+    "dialogue_0433": {
+      "text": {
+        "reference": "オトナはいっつも口だけなのよぉ",
+        "translation": "Grown-ups are all talk."
+      }
+    },
+    "dialogue_0434": {
+      "text": {
+        "reference": "そのカオの下に{n}あくまをいじめるカオがあるの{BEAT}{n}あたし知ってんだからぁ",
+        "translation": "I know there's a face that bullies demons underneath yours!{BEAT}"
+      }
+    },
+    "dialogue_0435": {
+      "text": {
+        "reference": "ほんとぉ？{n}{WAIT}なかまになったげよぉかなぁ",
+        "translation": "Really?{WAIT} Maybe I'll join you."
+      }
+    },
+    "dialogue_0436": {
+      "text": {
+        "reference": "でもね{BEAT}でもね{n}{BEAT}うそついてたらしょぉちしないわよ{maru_symbol}",
+        "translation": "But,{BEAT} but...{BEAT} if you're lying, you'll be sorry!"
+      }
+    },
+    "dialogue_0437": {
+      "text": {
+        "reference": "このへんにはさぁ{n}おじちゃんのコトよく思ってないあくまが{n}けっこぉいるのよぉ",
+        "translation": "Lots of demons around here don't like you, mister."
+      }
+    },
+    "dialogue_0438": {
+      "text": {
+        "reference": "あぶないよぉ",
+        "translation": "It's dangerous!"
+      }
+    },
+    "dialogue_0439": {
+      "text": {
+        "reference": "助力を求める",
+        "translation": "Ask for help."
+      }
+    },
+    "dialogue_0440": {
+      "text": {
+        "reference": "助言を求める",
+        "translation": "Ask for advice."
+      }
+    },
+    "dialogue_0441": {
+      "text": {
+        "reference": "去る",
+        "translation": "Leave."
+      }
+    },
+    "dialogue_0442": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "役に立つかなぁ{n}{WAIT}はい{offered_item}{n}{WAIT}がんばってねおじちゃん",
+        "translation": "Will this help?{WAIT} Here, take {offered_item}.{WAIT} Good luck, mister!"
+      }
+    },
+    "dialogue_0443": {
+      "text": {
+        "reference": "あたしをつれて行くのがい～よぉ",
+        "translation": "You should take me with you."
+      }
+    },
+    "dialogue_0444": {
+      "text": {
+        "reference": "あんまりあくまを殺さないでね{n}{WAIT}嫌われるよぉ",
+        "translation": "Don't kill too many demons.{WAIT} They'll hate you."
+      }
+    },
+    "dialogue_0445": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "まってぇ～{maru_symbol}{n}{offered_item}あげるぅ{n}{WAIT}あたしいまひつよぉないからぁ",
+        "translation": "Wait! Here, take {offered_item}.{WAIT} I don't need it now."
+      }
+    },
+    "dialogue_0446": {
+      "text": {
+        "reference": "ばいばぁい{n}またねぇ～",
+        "translation": "Bye-bye! See you!"
+      }
+    },
+    "dialogue_0447": {
+      "text": {
+        "reference": "あたしがいっしょに行っても",
+        "translation": "If I came with you...",
+        "note": "Message 395 is completed by message 396: \"If I came with you... / would I be in the way?\""
+      }
+    },
+    "dialogue_0448": {
+      "text": {
+        "reference": "じゃまじゃなぁい？",
+        "translation": "I'd be in the way?",
+        "note": "Message 396 completes message 395: \"If I came with you... / would I be in the way?\""
+      }
+    },
+    "dialogue_0449": {
+      "text": {
+        "reference": "邪魔じゃない",
+        "translation": "You wouldn't."
+      }
+    },
+    "dialogue_0450": {
+      "text": {
+        "reference": "邪魔",
+        "translation": "You would."
+      }
+    },
+    "dialogue_0451": {
+      "text": {
+        "reference": "じゃあさじゃあさ{n}なかまに入れて{maru_symbol}",
+        "translation": "Then let me join you!"
+      }
+    },
+    "dialogue_0452": {
+      "text": {
+        "reference": "そぉかぁ・・・{n}{WAIT}あたしがコドモだからぁ？",
+        "translation": "I see...{WAIT} Because I'm a child?"
+      }
+    },
+    "dialogue_0453": {
+      "text": {
+        "reference": "あたしだって役に立つんだけどなぁ",
+        "translation": "I can still be useful."
+      }
+    },
+    "dialogue_0454": {
+      "text": {
+        "reference": "ショックゥ～{n}おじちゃんって敵作るのうまいでしょぉ",
+        "translation": "What a shock! You're good at making enemies, aren't you, mister?"
+      }
+    },
+    "dialogue_0455": {
+      "text": {
+        "reference": "こんどあったら{n}おじちゃんなんてイチコロで{n}倒しちゃうんだからぁ",
+        "translation": "Next time, I'll beat you in one blow, mister!"
+      }
+    },
+    "dialogue_0456": {
+      "text": {
+        "reference": "ねぇねぇ{n}おじちゃんお金持ちなんでしょぉ？{n}なにかちょぉだい{maru_symbol}",
+        "translation": "Hey, mister, you're rich, right? Give me something!"
+      }
+    },
+    "dialogue_0457": {
+      "placeholders": {
+        "requested_item": "item_name"
+      },
+      "text": {
+        "reference": "{requested_item}でい～やぁ{maru_symbol}",
+        "translation": "{requested_item} will do!"
+      }
+    },
+    "dialogue_0458": {
+      "text": {
+        "reference": "渡す",
+        "translation": "Hand it over."
+      }
+    },
+    "dialogue_0459": {
+      "text": {
+        "reference": "渡さない",
+        "translation": "Don't hand it over."
+      }
+    },
+    "dialogue_0460": {
+      "text": {
+        "reference": "怒る",
+        "translation": "Get angry."
+      }
+    },
+    "dialogue_0461": {
+      "text": {
+        "reference": "わぁ～い{n}おじちゃんふとっぱらぁ",
+        "translation": "Yay! You're so generous, mister!"
+      }
+    },
+    "dialogue_0462": {
+      "text": {
+        "reference": "もっと{BEAT}もっとぉ{maru_symbol}",
+        "translation": "More!{BEAT} More!"
+      }
+    },
+    "dialogue_0463": {
+      "text": {
+        "reference": "ちぇ～っけちぃ～！！",
+        "translation": "Darn, cheapskate!"
+      }
+    },
+    "dialogue_0464": {
+      "text": {
+        "reference": "ちぇ～っけちぃ～！！{n}{WAIT}しょぉがないなぁ{n}じぶんでかせいじゃお{maru_symbol}",
+        "translation": "Darn, cheapskate!{WAIT} Fine. I'll earn it myself!"
+      }
+    },
+    "dialogue_0465": {
+      "text": {
+        "reference": "・・・ごめんなさぁい{n}もうしませぇん{maru_symbol}",
+        "translation": "...Sorry. I won't do it again!"
+      }
+    },
+    "dialogue_0466": {
+      "text": {
+        "reference": "なによぉ{n}おじちゃんだってときどき{n}なんかくれって言うじゃなぁ～い！",
+        "translation": "What!? You ask me for things sometimes too, mister!"
+      }
+    },
+    "dialogue_0467": {
+      "text": {
+        "reference": "まねしただけなのにぃ{n}{WAIT}あったまきちゃう！",
+        "translation": "I was just copying you!{WAIT} Now I'm mad!"
+      }
+    },
+    "dialogue_0468": {
+      "text": {
+        "reference": "あはははは{maru_symbol}",
+        "translation": "Ahahaha!"
+      }
+    },
+    "dialogue_0469": {
+      "text": {
+        "reference": "あたしをつかまえてごらんなさぁ～い{maru_symbol}",
+        "translation": "Try to catch me!"
+      }
+    },
+    "dialogue_0470": {
+      "text": {
+        "reference": "捕まえる",
+        "translation": "Catch her."
+      }
+    },
+    "dialogue_0471": {
+      "text": {
+        "reference": "無視",
+        "translation": "Ignore her."
+      }
+    },
+    "dialogue_0472": {
+      "text": {
+        "reference": "あ～{BEAT}だめだめおじちゃん{n}{WAIT}ふつうはここで",
+        "translation": "No,{BEAT} no, mister!{WAIT} Normally, this is where...",
+        "note": "Fragment context: message 417 page 0 introduces example lines supplied on pages 1-2 (dialogue_0473-dialogue_0474)."
+      }
+    },
+    "dialogue_0473": {
+      "text": {
+        "reference": "ほ～らつかまえたぞぉこいつぅ{n}{WAIT}とか",
+        "translation": "you say, \"Got you, you little rascal!\"{WAIT}",
+        "note": "Fragment context: message 417 page 1 gives the first example introduced on page 0 (dialogue_0472); page 2 (dialogue_0474) gives the second."
+      }
+    },
+    "dialogue_0474": {
+      "text": {
+        "reference": "もぉはなさない{BEAT}ぞ{n}{WAIT}とか言うのよぉ{n}{WAIT}わかってないなぁもぉ",
+        "translation": "or \"I won't let you go!\"{BEAT}{WAIT} You say it like that.{WAIT} You really don't understand!",
+        "note": "Fragment context: message 417 page 2 completes the examples introduced across pages 0-1 (dialogue_0472-dialogue_0473)."
+      }
+    },
+    "dialogue_0475": {
+      "text": {
+        "reference": "うふふ{maru_symbol}{n}{WAIT}あははははは{maru_symbol}",
+        "translation": "Hee hee!{WAIT} Ahahahaha!"
+      }
+    },
+    "dialogue_0476": {
+      "text": {
+        "reference": "おじちゃんおさけ飲まない？",
+        "translation": "Want to drink with me, mister?"
+      }
+    },
+    "dialogue_0477": {
+      "text": {
+        "reference": "あたし持ってんだけどぉ{n}{WAIT}飲みくらべしよぉよ",
+        "translation": "I brought some.{WAIT} Let's see who can drink more!"
+      }
+    },
+    "dialogue_0478": {
+      "text": {
+        "reference": "先につぶれたほうが負けよ{BEAT}い～い？",
+        "translation": "First one to pass out loses.{BEAT} Okay?"
+      }
+    },
+    "dialogue_0479": {
+      "text": {
+        "reference": "OK",
+        "translation": "OK."
+      }
+    },
+    "dialogue_0480": {
+      "text": {
+        "reference": "酒はちょっと・・・",
+        "translation": "Alcohol is a bit..."
+      }
+    },
+    "dialogue_0481": {
+      "text": {
+        "reference": "3{BEAT}2{BEAT}1{BEAT}はじめぇ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}zzz{BEAT}・・・{BEAT}zz・・",
+        "translation": "Three,{BEAT} two,{BEAT} one,{BEAT} go!{BEAT}.{BEAT}.{BEAT}.{BEAT} zzz{BEAT}...{BEAT}zz"
+      }
+    },
+    "dialogue_0482": {
+      "text": {
+        "reference": "3{BEAT}2{BEAT}1{BEAT}はじめぇ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}ありょ？{n}{WAIT}もう寝ちゃったのぉ？",
+        "translation": "Three,{BEAT} two,{BEAT} one,{BEAT} go!{BEAT}.{BEAT}.{BEAT}.{BEAT} Huh?{WAIT} Already asleep?"
+      }
+    },
+    "dialogue_0483": {
+      "text": {
+        "reference": "よわよわぁ{n}{WAIT}じゃあねじゃあね{n}{BEAT}おじちゃんばつげ～むぅ{maru_symbol}",
+        "translation": "Weakling!{WAIT} Then,{BEAT} mister gets a penalty!"
+      }
+    },
+    "dialogue_0484": {
+      "text": {
+        "reference": "のりがわるいなぁおとしよりはぁ{n}{WAIT}つまんなぁい",
+        "translation": "Old people are no fun.{WAIT} Boring!"
+      }
+    },
+    "dialogue_0485": {
+      "text": {
+        "reference": "あたしのおさけが{n}飲めないってぇのぉ！？{n}{WAIT}うい{maru_symbol}",
+        "translation": "You won't drink my liquor!?{WAIT} Hic!"
+      }
+    },
+    "dialogue_0486": {
+      "text": {
+        "reference": "ねぇねぇ{n}それぱそこんでしょぉ？",
+        "translation": "Hey, that's a computer, right?"
+      }
+    },
+    "dialogue_0487": {
+      "text": {
+        "reference": "使い方教えてぇ{maru_symbol}",
+        "translation": "Teach me how to use it!"
+      }
+    },
+    "dialogue_0488": {
+      "text": {
+        "reference": "教える",
+        "translation": "Teach her."
+      }
+    },
+    "dialogue_0489": {
+      "text": {
+        "reference": "教えない",
+        "translation": "Don't teach her."
+      }
+    },
+    "dialogue_0490": {
+      "text": {
+        "reference": "わぁもっと知りたぁい{maru_symbol}{n}{WAIT}なかまになればこの中に入れるんでしょぉ",
+        "translation": "Wow, I want to know more!{WAIT} If I join you, I can go inside it, right?"
+      }
+    },
+    "dialogue_0491": {
+      "text": {
+        "reference": "入れてぇ{maru_symbol}",
+        "translation": "Let me in!"
+      }
+    },
+    "dialogue_0492": {
+      "text": {
+        "reference": "？{n}よくわかんないよぉ",
+        "translation": "What? I don't understand."
+      }
+    },
+    "dialogue_0493": {
+      "text": {
+        "reference": "ここを押すとぉ{n}{WAIT}あっグベブ♂←のピー…＃ご＿{n}0～□めレ珍な{BEAT}・{BEAT}・{BEAT}・なさぁい",
+        "translation": "Just push here and...{WAIT}\nAaH-Geb-bu♂←Pii...##!_ 0~□...{BEAT}.{BEAT}.{BEAT}\nsOrRY!"
+      }
+    },
+    "dialogue_0494": {
+      "text": {
+        "reference": "ふぅ～{n}{WAIT}壊したかと思っちゃったぁ",
+        "translation": "Whew!{WAIT} I thought I broke it."
+      }
+    },
+    "dialogue_0495": {
+      "text": {
+        "reference": "ちぇっ{n}{WAIT}でもなかまになれば{n}中に入れるんだよねぇ{maru_symbol}",
+        "translation": "Darn.{WAIT} But if I join, I can go inside, right?"
+      }
+    },
+    "dialogue_0496": {
+      "text": {
+        "reference": "どぉしよっかなぁ",
+        "translation": "What should I do?"
+      }
+    },
+    "dialogue_0497": {
+      "text": {
+        "reference": "ずっる～い！{n}{WAIT}オトナはそぉやって{n}おもしろいものひとりじめするんだもん",
+        "translation": "No fair!{WAIT} Grown-ups keep all the fun things to themselves!"
+      }
+    },
+    "dialogue_0498": {
+      "text": {
+        "reference": "かしてよぉ！{n}{WAIT}ちょっとでい～からぁ！",
+        "translation": "Let me borrow it!{WAIT} Just for a little while!"
+      }
+    },
+    "dialogue_0499": {
+      "text": {
+        "reference": "そのおようふくいいなぁ",
+        "translation": "Those clothes are nice."
+      }
+    },
+    "dialogue_0500": {
+      "text": {
+        "reference": "それ脱いであたしに見してぇ{maru_symbol}",
+        "translation": "Take them off and show me!"
+      }
+    },
+    "dialogue_0501": {
+      "text": {
+        "reference": "ARMORを外す",
+        "translation": "Remove ARMOR."
+      }
+    },
+    "dialogue_0502": {
+      "text": {
+        "reference": "わぁ～い",
+        "translation": "Yay!"
+      }
+    },
+    "dialogue_0503": {
+      "text": {
+        "reference": "ふぅ～ん{n}いいセンスしてるねぇおじちゃん",
+        "translation": "Hmmm. You have good taste, mister."
+      }
+    },
+    "dialogue_0504": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "おれいに{n}はい{offered_item}{n}{WAIT}ばいばぁい",
+        "translation": "Here, take {offered_item} as thanks.{WAIT} Bye!"
+      }
+    },
+    "dialogue_0505": {
+      "text": {
+        "reference": "わぁ～い{n}ひっかかったぁ～{n}{WAIT}ばっかがぬぐぅ～{maru_symbol}",
+        "translation": "Yay, you fell for it!{WAIT} Only an idiot strips!"
+      }
+    },
+    "dialogue_0506": {
+      "text": {
+        "reference": "ちぇっ{n}おじちゃんあたしがこわいんでしょぉ{n}オトナのくせにぃ",
+        "translation": "Darn. You're scared of me, aren't you, mister? Even though you're grown!"
+      }
+    },
+    "dialogue_0507": {
+      "text": {
+        "reference": "よわむしぃ～{n}きらぁ～い",
+        "translation": "Coward! I hate you!"
+      }
+    },
+    "dialogue_0508": {
+      "text": {
+        "reference": "ちぇっ{n}ひっかかんなかったかぁ{n}{WAIT}ざ～んねん{maru_symbol}",
+        "translation": "Darn, you didn't fall for it.{WAIT} Too bad!"
+      }
+    },
+    "dialogue_0509": {
+      "text": {
+        "reference": "ねぇねぇ{n}2人だけでねナイショのお話があるのぉ",
+        "translation": "Hey, I have a secret just for us."
+      }
+    },
+    "dialogue_0510": {
+      "text": {
+        "reference": "ちょっとこっち来てぇ{maru_symbol}",
+        "translation": "Come a little closer!"
+      }
+    },
+    "dialogue_0511": {
+      "text": {
+        "reference": "その手は喰わない",
+        "translation": "I won't fall for that."
+      }
+    },
+    "dialogue_0512": {
+      "text": {
+        "reference": "いまならお安くしとくわよぉ",
+        "translation": "I'll give you a bargain."
+      }
+    },
+    "dialogue_0513": {
+      "text": {
+        "reference": "死んでほしいのぉ{maru_symbol}",
+        "translation": "I want you to die!"
+      }
+    },
+    "dialogue_0514": {
+      "text": {
+        "reference": "ちぇ～っ{n}のりがわるいなぁおとしよりはぁ{n}{WAIT}つまんなぁ～い！",
+        "translation": "Darn. Old people are no fun.{WAIT} Boring!"
+      }
+    },
+    "dialogue_0515": {
+      "text": {
+        "reference": "なぁ～んだ{n}{WAIT}せぇ～っかく{n}なかまになったげよぉと思ったのにぃ",
+        "translation": "What?{WAIT} I was going to join you!"
+      }
+    },
+    "dialogue_0516": {
+      "text": {
+        "reference": "ざんねんねぇおじちゃん{n}ばいばぁい",
+        "translation": "Too bad, mister. Bye-bye!"
+      }
+    },
+    "dialogue_0517": {
+      "text": {
+        "reference": "ねぇねぇ{n}死体ごっこしよぉよぉ{maru_symbol}{n}{WAIT}おじちゃん死体の役ぅ～",
+        "translation": "Hey, let's play corpse!{WAIT} Mister, you be the corpse."
+      }
+    },
+    "dialogue_0518": {
+      "text": {
+        "reference": "そこに寝てぇ～{maru_symbol}",
+        "translation": "Lie down!"
+      }
+    },
+    "dialogue_0519": {
+      "text": {
+        "reference": "寝る",
+        "translation": "Lie down."
+      }
+    },
+    "dialogue_0520": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}おじちゃん{n}死んだふりじょぉずぅ～{maru_symbol}{n}よくやるのぉ？このあそびぃ",
+        "translation": ".{BEAT}.{BEAT}.{BEAT} Mister, you're good at playing dead! Do you play this often?"
+      }
+    },
+    "dialogue_0521": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}あげるね{n}{WAIT}またあそんでねぇ{maru_symbol}",
+        "translation": "Here, take {offered_item}.{WAIT} Play with me again!"
+      }
+    },
+    "dialogue_0522": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}つまんなぁ～い{n}{WAIT}おじちゃん動かないんだもぉ～ん！",
+        "translation": ".{BEAT}.{BEAT}.{BEAT} Boring!{WAIT} You won't move, mister!"
+      }
+    },
+    "dialogue_0523": {
+      "text": {
+        "reference": "かえるぅ",
+        "translation": "I'm going home."
+      }
+    },
+    "dialogue_0524": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}おじちゃん{n}死んだふりじょぉずぅ～{maru_symbol}{n}{WAIT}いっつもあくま殺してるからでしょぉ！？",
+        "translation": ".{BEAT}.{BEAT}.{BEAT} Mister, you're good at playing dead!{WAIT} Because you always kill demons, right!?"
+      }
+    },
+    "dialogue_0525": {
+      "text": {
+        "reference": "うふふ・・・{n}おじちゃんこわがってるぅ{n}{WAIT}ただのおあそびなのにぃ",
+        "translation": "Hee hee... You're scared, mister.{WAIT} It's only a game!"
+      }
+    },
+    "dialogue_0526": {
+      "text": {
+        "reference": "じゃあい～よぉ～だ{n}{WAIT}おじちゃんなんかゼッコウよぉ！{n}こんどあったら死体にしてやるぅ！！",
+        "translation": "Fine!{WAIT} We're through, mister! Next time I'll make you a real corpse!!"
+      }
+    },
+    "dialogue_0527": {
+      "text": {
+        "reference": "うふふ・・・{n}おじちゃんこわがってるぅ{n}{WAIT}死体ごっこはねぇ",
+        "translation": "Hee hee... You're scared, mister.{WAIT} You know, corpse play...",
+        "note": "Fragment context: message 463 page 0 begins the explanation completed on page 1 (dialogue_0528)."
+      }
+    },
+    "dialogue_0528": {
+      "text": {
+        "reference": "こぉいうやりかたもあるんだよぉ{maru_symbol}",
+        "translation": "can be played like this too!",
+        "note": "Fragment context: message 463 page 1 completes \"corpse play...\" on page 0 (dialogue_0527)."
+      }
+    },
+    "dialogue_0529": {
+      "text": {
+        "reference": "ねぇねぇ{n}つかれたぁ",
+        "translation": "Hey, I'm tired."
+      }
+    },
+    "dialogue_0530": {
+      "text": {
+        "reference": "おぶってぇ～{maru_symbol}",
+        "translation": "Carry me on your back!"
+      }
+    },
+    "dialogue_0531": {
+      "text": {
+        "reference": "おぶる",
+        "translation": "Carry her."
+      }
+    },
+    "dialogue_0532": {
+      "text": {
+        "reference": "却下",
+        "translation": "Refuse."
+      }
+    },
+    "dialogue_0533": {
+      "text": {
+        "reference": "わぁ～い{maru_symbol}{n}らくちんらくちん",
+        "translation": "Yay! So easy!"
+      }
+    },
+    "dialogue_0534": {
+      "text": {
+        "reference": "おうちにかえるの{n}めんどうになってきちゃったなぁ{n}{WAIT}おじちゃんについてっちゃお～かなぁ",
+        "translation": "Going home feels like too much work.{WAIT} Maybe I'll come with you, mister."
+      }
+    },
+    "dialogue_0535": {
+      "text": {
+        "reference": "おじちゃんのせなかおっきいねぇ{BEAT}・{BEAT}・{BEAT}・{BEAT}{n}・・・{BEAT}zzz{BEAT}・・{BEAT}zz{BEAT}・・",
+        "translation": "Your back is so big, mister...{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT} zzz{BEAT}...{BEAT}zz{BEAT}..."
+      }
+    },
+    "dialogue_0536": {
+      "text": {
+        "reference": "おじちゃんのせなかおっきいねぇ{BEAT}・{BEAT}・{BEAT}・{BEAT}{n}ぜぇ～んぶ血でまっ赤になったら{n}きれいかなぁ？",
+        "translation": "Your back is so big, mister...{BEAT}.{BEAT}.{BEAT}.{BEAT} Would it look pretty covered in red blood?"
+      }
+    },
+    "dialogue_0537": {
+      "text": {
+        "reference": "おぶっておぶってぇ{n}{BEAT}おぶってくれなきゃいやあぁぁぁ！！{n}{WAIT}うぅ・・・",
+        "translation": "Carry me!{BEAT} If you don't, I'll scream!!{WAIT} Ugh..."
+      }
+    },
+    "dialogue_0538": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}ごめんなさぁい",
+        "translation": ".{BEAT}.{BEAT}.{BEAT} Sorry!"
+      }
+    },
+    "dialogue_0539": {
+      "text": {
+        "reference": "おぶっておぶってぇ{n}{BEAT}おぶってくれなきゃいやあぁぁぁ！！",
+        "translation": "Carry me!{BEAT} If you don't, I'll scream!!"
+      }
+    },
+    "dialogue_0540": {
+      "text": {
+        "reference": "ねぇねぇねぇってば{n}なんかくれるんでしょぉ？{n}{WAIT}んとねんとね",
+        "translation": "Hey, hey! You're giving me something, right?{WAIT} Um, um..."
+      }
+    },
+    "dialogue_0541": {
+      "placeholders": {
+        "requested_item": "item_name"
+      },
+      "text": {
+        "reference": "{BEAT}{requested_item}ほし～い{maru_symbol}",
+        "translation": "{BEAT}I want {requested_item}!"
+      }
+    },
+    "dialogue_0542": {
+      "text": {
+        "reference": "うぅ～{n}持ってないのぉ～？",
+        "translation": "You don't have it?"
+      }
+    },
+    "dialogue_0543": {
+      "text": {
+        "reference": "あたしかえるぅ",
+        "translation": "I'm going home."
+      }
+    },
+    "dialogue_0544": {
+      "text": {
+        "reference": "んとねじゃあね",
+        "translation": "Um... Then..."
+      }
+    },
+    "dialogue_0545": {
+      "text": {
+        "reference": "じゃあねじゃあね",
+        "translation": "Then, then..."
+      }
+    },
+    "dialogue_0546": {
+      "text": {
+        "reference": "コドモだと思ってぇ{n}ばかにしてるでしょぉ！",
+        "translation": "You think I'm a child, so you're making fun of me!"
+      }
+    },
+    "dialogue_0547": {
+      "text": {
+        "reference": "なにかちょ～だい{maru_symbol}",
+        "translation": "Give me something!"
+      }
+    },
+    "dialogue_0548": {
+      "text": {
+        "reference": "うぅ～{n}なぁんにも持ってないのぉ～？",
+        "translation": "You don't have anything?"
+      }
+    },
+    "dialogue_0549": {
+      "text": {
+        "reference": "もっともっとぉ～{maru_symbol}",
+        "translation": "More! More!"
+      }
+    },
+    "dialogue_0550": {
+      "text": {
+        "reference": "もぉいやぁ",
+        "translation": "I don't want it!"
+      }
+    },
+    "dialogue_0551": {
+      "text": {
+        "reference": "うれし～い{maru_symbol}",
+        "translation": "I'm so happy!",
+        "note": "Fragment context: message 485 page 0 continues through pages 1-2 (dialogue_0552-dialogue_0553), ending with the demon's inserted race and name."
+      }
+    },
+    "dialogue_0552": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "あたしねあたしね{n}{race}のね{n}{demon_name}っていうの",
+        "translation": "You know, I'm {demon_name} of {race}.",
+        "note": "Fragment context: this shared introduction is message 485 page 1 and message 497 page 0; dialogue_0553 completes both messages."
+      }
+    },
+    "dialogue_0553": {
+      "text": {
+        "reference": "おじちゃんなかよくしてね{maru_symbol}",
+        "translation": "Let's get along, mister!",
+        "note": "Fragment context: this shared closing is message 485 page 2 and message 497 page 1; it completes the introduction in dialogue_0552."
+      }
+    },
+    "dialogue_0554": {
+      "text": {
+        "reference": "あぁ～{n}ぱそこんの中たくさんいるよぉ{n}あたし入れなぁ～い",
+        "translation": "Oh, the computer is full. I can't get in!"
+      }
+    },
+    "dialogue_0555": {
+      "text": {
+        "reference": "またねぇおじちゃ～ん",
+        "translation": "See you!"
+      }
+    },
+    "dialogue_0556": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "うれし～い{maru_symbol}{n}じゃあね{BEAT}じゃあね{n}{WAIT}{offered_item}ととっかえよ{maru_symbol}",
+        "translation": "I'm so happy! Then...{BEAT} then...{WAIT} I'll trade it for {offered_item}!"
+      }
+    },
+    "dialogue_0557": {
+      "text": {
+        "reference": "うれし～い{maru_symbol}",
+        "translation": "I'm so happy!"
+      }
+    },
+    "dialogue_0558": {
+      "text": {
+        "reference": "ありがとぉおじちゃん{maru_symbol}{n}{WAIT}ばいばぁい",
+        "translation": "Thank you, mister!{WAIT} Bye-bye!"
+      }
+    },
+    "dialogue_0559": {
+      "text": {
+        "reference": "じゃあね{BEAT}じゃあね{n}{BEAT}んっとね",
+        "translation": "Then...{BEAT} then...{BEAT} um...",
+        "note": "Fragment context: message 489 page 0 delays the demand supplied on page 1 (dialogue_0560): the hero's life."
+      }
+    },
+    "dialogue_0560": {
+      "text": {
+        "reference": "おじちゃんの命ちょ～だい{maru_symbol}",
+        "translation": "Give me your life, mister!",
+        "note": "Fragment context: message 489 page 1 supplies the demand introduced on page 0 (dialogue_0559)."
+      }
+    },
+    "dialogue_0561": {
+      "text": {
+        "reference": "おじちゃんけちくさぁ～い{n}{WAIT}あたしかえろっかなぁ～",
+        "translation": "You're so stingy, mister!{WAIT} Maybe I'll go home."
+      }
+    },
+    "dialogue_0562": {
+      "text": {
+        "reference": "むっかぁ～っ！！",
+        "translation": "Now I'm mad!!"
+      }
+    },
+    "dialogue_0563": {
+      "text": {
+        "reference": "むっかぁ～っ！！{n}おじちゃんなんかゼッコウよぉ！{n}{WAIT}こんどあったら殺してやるぅ！！",
+        "translation": "Now I'm mad! We're through, mister!{WAIT} Next time I'll kill you!!"
+      }
+    },
+    "dialogue_0564": {
+      "text": {
+        "reference": "ことわる",
+        "translation": "Refuse."
+      }
+    },
+    "dialogue_0565": {
+      "text": {
+        "reference": "う～ん・・・{n}やめとこっかなぁ～なかまになるの",
+        "translation": "Hmm... Maybe I won't join you.",
+        "note": "Fragment context: message 498 page 0 continues through pages 1-2 (dialogue_0566-dialogue_0567), giving the reason for refusing and an item instead."
+      }
+    },
+    "dialogue_0566": {
+      "text": {
+        "reference": "にんげんとは{n}なかよくしちゃいけないって{n}おかあさんに言われてるしなぁ",
+        "translation": "My mother says I'm not supposed to be friends with humans.",
+        "note": "Fragment context: this shared reason is message 498 page 1 and message 499 page 1; dialogue_0565 and dialogue_0568 contain their refusal lead-ins."
+      }
+    },
+    "dialogue_0567": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "あっそぉだ{n}{WAIT}かわりに{offered_item}あげるね{n}あたしいまひつようないからぁ",
+        "translation": "Oh, right!{WAIT} Here, take {offered_item} instead. I don't need it now.",
+        "note": "Fragment context: this shared item page closes refusal messages 498 and 533; their earlier dialogue_0565-dialogue_0566 and dialogue_0568, dialogue_0603."
+      }
+    },
+    "dialogue_0568": {
+      "text": {
+        "reference": "やめとこっかなぁ～{n}なかまになるの・・・",
+        "translation": "Maybe I won't join you...",
+        "note": "Fragment context: this shared refusal lead-in begins messages 499, 533, and 534; later pages supply the reason and outcome."
+      }
+    },
+    "dialogue_0569": {
+      "text": {
+        "reference": "うん{BEAT}きめたぁ{maru_symbol}{n}{WAIT}あたしかえるぅ～",
+        "translation": "Okay,{BEAT} I've decided!{WAIT} I'm going home!",
+        "note": "Fragment context: this shared closing completes refusal messages 499 and 534 and also closes message 536."
+      }
+    },
+    "dialogue_0570": {
+      "text": {
+        "reference": "うふふ{n}こんばんわ～{maru_symbol}{n}{WAIT}いいお月さまだねぇ",
+        "translation": "Hee hee. Good evening!{WAIT} Beautiful moon, isn't it?"
+      }
+    },
+    "dialogue_0571": {
+      "text": {
+        "reference": "あたしにご用ぅ？",
+        "translation": "Did you need me?"
+      }
+    },
+    "dialogue_0572": {
+      "text": {
+        "reference": "立ち去れ",
+        "translation": "Leave."
+      }
+    },
+    "dialogue_0573": {
+      "text": {
+        "reference": "おセンチな夜だもんねぇ{n}おじちゃんさみしがり屋さんだからぁ",
+        "translation": "It's a sentimental night. You're lonely, aren't you, mister?"
+      }
+    },
+    "dialogue_0574": {
+      "text": {
+        "reference": "いいよぉ",
+        "translation": "Okay!"
+      }
+    },
+    "dialogue_0575": {
+      "text": {
+        "reference": "出会ったのがあたしでよかったね{n}おじちゃん",
+        "translation": "You're lucky you met me, mister."
+      }
+    },
+    "dialogue_0576": {
+      "text": {
+        "reference": "まんげつの時はあぶないんだよぉ{n}{WAIT}みんなこ～ふんしてるからぁ",
+        "translation": "Full moons are dangerous.{WAIT} Everyone gets excited!"
+      }
+    },
+    "dialogue_0577": {
+      "text": {
+        "reference": "おじちゃんはこ～ふんしてないのぉ？",
+        "translation": "Aren't you excited, mister?"
+      }
+    },
+    "dialogue_0578": {
+      "text": {
+        "reference": "してる",
+        "translation": "I am."
+      }
+    },
+    "dialogue_0579": {
+      "text": {
+        "reference": "してない",
+        "translation": "I'm not."
+      }
+    },
+    "dialogue_0580": {
+      "text": {
+        "reference": "ふぅ～ん{n}そういうとしごろなのねぇおじちゃん",
+        "translation": "Hmmm. You're at that age, mister."
+      }
+    },
+    "dialogue_0581": {
+      "text": {
+        "reference": "若いからって{n}あんまりむりしちゃだめよぉ",
+        "translation": "Don't overdo it just because you're young."
+      }
+    },
+    "dialogue_0582": {
+      "text": {
+        "reference": "はい{BEAT}{OP:8023}ほうぎょくぅ{OP:8020}{n}{WAIT}使ったげるねぇ",
+        "translation": "Here!{BEAT} I'll use this {OP:8023}Bead{OP:8020} on you.{WAIT}"
+      }
+    },
+    "dialogue_0583": {
+      "text": {
+        "reference": "いやあぁぁぁ！{n}{WAIT}けだものぉ～！！",
+        "translation": "Noooo!{WAIT} You animal!!"
+      }
+    },
+    "dialogue_0584": {
+      "text": {
+        "reference": "よかったぁ～{maru_symbol}{n}やっとまともなひととお話できたよぉ",
+        "translation": "Thank goodness! I finally found someone normal."
+      }
+    },
+    "dialogue_0585": {
+      "text": {
+        "reference": "あたしねあたしね{n}{WAIT}まいごになっちゃったのぉ{n}{WAIT}なかまにしてぇ～{maru_symbol}",
+        "translation": "You know...{WAIT} I got lost.{WAIT} Let me join you!"
+      }
+    },
+    "dialogue_0586": {
+      "text": {
+        "reference": "うそつきぃ～！{n}{WAIT}おじちゃん目がぎらぎらしてるぅ～！！",
+        "translation": "Liar!{WAIT} Your eyes are gleaming, mister!"
+      }
+    },
+    "dialogue_0587": {
+      "text": {
+        "reference": "こわぁ～い",
+        "translation": "Scary!"
+      }
+    },
+    "dialogue_0588": {
+      "text": {
+        "reference": "おいしそぉなお月さまねぇ{n}うふふふ",
+        "translation": "The moon looks delicious. Hee hee."
+      }
+    },
+    "dialogue_0589": {
+      "text": {
+        "reference": "あ～{n}{WAIT}よく見たらおじちゃんもおいしそぉ{maru_symbol}",
+        "translation": "Oh!{WAIT} You look delicious too, mister!"
+      }
+    },
+    "dialogue_0590": {
+      "text": {
+        "reference": "たべちゃおっかなぁ～{maru_symbol}",
+        "translation": "Maybe I'll eat you!"
+      }
+    },
+    "dialogue_0591": {
+      "text": {
+        "reference": "めしあがれ",
+        "translation": "Help yourself."
+      }
+    },
+    "dialogue_0592": {
+      "text": {
+        "reference": "やめてくれ",
+        "translation": "Please don't."
+      }
+    },
+    "dialogue_0593": {
+      "text": {
+        "reference": "まずいぞ",
+        "translation": "I taste bad."
+      }
+    },
+    "dialogue_0594": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "おじちゃんおいくら？{n}{offered_item}でい～い？{n}{WAIT}はい{BEAT}わたしとくね",
+        "translation": "How much are you, mister? Is {offered_item} enough?{WAIT} Here,{BEAT} I'll pay."
+      }
+    },
+    "dialogue_0595": {
+      "text": {
+        "reference": "いった{BEAT}だっき{BEAT}まぁ～す{maru_symbol}",
+        "translation": "Bon{BEAT} appe{BEAT}tit!"
+      }
+    },
+    "dialogue_0596": {
+      "text": {
+        "reference": "わぁ～い{maru_symbol}{n}{WAIT}いった{BEAT}だっき{BEAT}まぁ～す{maru_symbol}",
+        "translation": "Yay!{WAIT} Bon{BEAT} appe{BEAT}tit!"
+      }
+    },
+    "dialogue_0597": {
+      "text": {
+        "reference": "ちぇ～っ{n}{WAIT}おじちゃんの{BEAT}けちぃ～！",
+        "translation": "Darn!{WAIT} You're{BEAT} so stingy, mister!"
+      }
+    },
+    "dialogue_0598": {
+      "text": {
+        "reference": "おじちゃん死刑ぇ～！！",
+        "translation": "Death penalty for you, mister!!"
+      }
+    },
+    "dialogue_0599": {
+      "text": {
+        "reference": "そぉなのぉ～？{n}{WAIT}じぶんで言ってるからまちがいないかぁ",
+        "translation": "Really?{WAIT} If you say so, it must be true."
+      }
+    },
+    "dialogue_0600": {
+      "text": {
+        "reference": "ちぇ～っ{n}つまんなぁ～い{n}{WAIT}かえるぅ～",
+        "translation": "Darn, how boring!{WAIT} I'm going home!"
+      }
+    },
+    "dialogue_0601": {
+      "text": {
+        "reference": "うそぉ～！？{n}{WAIT}あとでこっそり{BEAT}たべる気でしょぉ～！！",
+        "translation": "Liar!{WAIT} You're planning to eat me secretly later!{BEAT}"
+      }
+    },
+    "dialogue_0602": {
+      "text": {
+        "reference": "ずるぅ～い！！",
+        "translation": "No fair!"
+      }
+    },
+    "dialogue_0603": {
+      "text": {
+        "reference": "おじちゃん{n}こわいあくまつれてるし・・・{n}{WAIT}あたしいじめられるのいやだもん",
+        "translation": "You have a scary demon with you, mister...{WAIT} I don't want to be bullied.",
+        "note": "Fragment context: this shared reason continues refusal messages 533-534 after page 0 (dialogue_0568); their outcomes are dialogue_0567 and dialogue_0569."
+      }
+    },
+    "dialogue_0604": {
+      "text": {
+        "reference": "やめとこっかなぁ～{n}なかまになるの・・・{n}{WAIT}おじちゃんたよりなさそ～だもん",
+        "translation": "Maybe I won't join...{WAIT} You don't look dependable, mister."
+      }
+    },
+    "dialogue_0605": {
+      "text": {
+        "reference": "もっともっとつよいおじちゃんなら{n}ついてってもい～んだけどなぁ",
+        "translation": "I'd come with you if you were a much stronger mister."
+      }
+    },
+    "dialogue_0606": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "あっそぉだ{n}{WAIT}{offered_item}あげるね{n}あたしいまひつようないからぁ",
+        "translation": "Oh, right!{WAIT} Here, take {offered_item}. I don't need it now."
+      }
+    },
+    "dialogue_0607": {
+      "text": {
+        "reference": "おいしそぉ～な月だねぇうふふふ",
+        "translation": "The moon looks delicious. Hee hee."
+      }
+    },
+    "dialogue_0608": {
+      "text": {
+        "reference": "うぅ{BEAT}・{BEAT}・{BEAT}・{BEAT}うぇ～ん{n}{WAIT}こわいよぉ～",
+        "translation": "Uu{BEAT}.{BEAT}.{BEAT}.{BEAT} Waaaah!{WAIT} I'm scared!"
+      }
+    },
+    "dialogue_0609": {
+      "text": {
+        "reference": "おかあさぁ～ん・・・",
+        "translation": "Mooommy..."
+      }
+    },
+    "condition_charmed": {
+      "text": {
+        "reference": "おじちゃん 捨てないで～",
+        "translation": "Don't leave me, miiister!",
+        "reviewed": true
+      }
+    },
+    "condition_happy": {
+      "text": {
+        "reference": "あははは なんかぁ 笑いがとまらなぁい{maru_symbol}",
+        "translation": "Ahahaha! I can't stop laughing{maru_symbol}",
+        "reviewed": true
+      }
+    },
+    "condition_confused": {
+      "text": {
+        "reference": "あははは おじちゃん へんなかお～{maru_symbol}",
+        "translation": "Ahaha! Mister, your face looks funny{maru_symbol}",
+        "reviewed": true
+      }
+    },
+    "condition_enraged": {
+      "text": {
+        "reference": "おじちゃん 死刑ぇ～{maru_symbol}",
+        "translation": "Death penalty for you, mister!{maru_symbol}",
+        "reviewed": true
+      }
+    },
+    "condition_talk_blocked": {
+      "text": {
+        "reference": "おじちゃんの ばかぁ～！！",
+        "translation": "Mister, you idiot!!",
+        "reviewed": true
+      }
+    },
+    "condition_ally_veto": {
+      "text": {
+        "reference": "早く 血ぃ出そぉ 出そぉ～{maru_symbol}",
+        "translation": "Make him bleed! Make him bleed~{maru_symbol}",
+        "reviewed": true
+      }
+    },
+    "condition_full_moon": {
+      "text": {
+        "reference": "おいしそぉ～な月だねぇ うふふふ",
+        "translation": "The moon looks sooo tasty~ Hee hee!",
+        "reviewed": true
+      }
+    }
+  }
+}

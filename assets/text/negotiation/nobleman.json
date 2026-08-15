@@ -1,0 +1,4031 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "dialogue_0000": {
+      "text": {
+        "reference": "一族の者を、よしなに願いますよ。{n}{WAIT}それでは、ご武運を。",
+        "translation": "Please treat my kin well.{WAIT} May fortune favor you."
+      }
+    },
+    "dialogue_0001": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "一族の者を、よしなに願いますよ。{n}{WAIT}これは、私からの気持ちです。{n}ほんの、{offered_item}ですけれど。",
+        "translation": "Please treat my kin well.{WAIT} This is a token of my regard. Only {offered_item}, I'm afraid."
+      }
+    },
+    "dialogue_0002": {
+      "text": {
+        "reference": "少ないですが、貴方には十分でしょう。{n}{WAIT}それでは、ご武運を。",
+        "translation": "It is little, but more than enough for you.{WAIT} May fortune favor you."
+      }
+    },
+    "dialogue_0003": {
+      "text": {
+        "reference": "一族の者を、よしなに願いますよ。",
+        "translation": "Please treat my kin well."
+      }
+    },
+    "dialogue_0004": {
+      "text": {
+        "reference": "我が一族秘伝の傷薬を、{n}使って差し上げましょう。",
+        "translation": "Allow me to apply my clan's secret medicine."
+      }
+    },
+    "dialogue_0005": {
+      "text": {
+        "reference": "なに、ほんの気持ちですよ。{n}{WAIT}それでは、ご武運を。",
+        "translation": "Think nothing of it.{WAIT} May fortune favor you."
+      }
+    },
+    "dialogue_0006": {
+      "text": {
+        "reference": "ほほう。{n}貴方でしたか。",
+        "translation": "Ah. So it is you."
+      }
+    },
+    "dialogue_0007": {
+      "text": {
+        "reference": "いつもいつも、働いてばかりで。{n}まったく、感心しますね。",
+        "translation": "Forever working. Your diligence is admirable."
+      }
+    },
+    "dialogue_0008": {
+      "text": {
+        "reference": "今日は所用がありますので、{n}失礼させて頂きますよ。{n}{WAIT}それでは、ごきげんよう。",
+        "translation": "I have business today, so I shall excuse myself.{WAIT} Farewell."
+      }
+    },
+    "dialogue_0009": {
+      "text": {
+        "reference": "どうです？",
+        "translation": "Well?"
+      }
+    },
+    "dialogue_0010": {
+      "text": {
+        "reference": "私を仲魔にする気は、変わっていませんか？",
+        "translation": "Do you still intend to make me your ally?"
+      }
+    },
+    "dialogue_0011": {
+      "text": {
+        "reference": "もちろん",
+        "translation": "Of course."
+      }
+    },
+    "dialogue_0012": {
+      "text": {
+        "reference": "その気はなくなった",
+        "translation": "Not anymore."
+      }
+    },
+    "dialogue_0013": {
+      "text": {
+        "reference": "それでは約束通り、{n}仲魔になって差し上げましょう。",
+        "translation": "Then, as promised, I shall join you."
+      }
+    },
+    "dialogue_0014": {
+      "text": {
+        "reference": "それでは、{n}改めて契約とまいりましょう。",
+        "translation": "Then let us formally seal our contract."
+      }
+    },
+    "dialogue_0015": {
+      "text": {
+        "reference": "そうですか。{n}{WAIT}残念ですが、仕方がない。",
+        "translation": "I see.{WAIT} Regrettable, but unavoidable."
+      }
+    },
+    "dialogue_0016": {
+      "text": {
+        "reference": "それでは、ご武運を。",
+        "translation": "May fortune favor you."
+      }
+    },
+    "dialogue_0017": {
+      "text": {
+        "reference": "そうですか。{n}{WAIT}せっかくの好意を、無駄にするとは。",
+        "translation": "I see.{WAIT} What a waste of my goodwill."
+      }
+    },
+    "dialogue_0018": {
+      "text": {
+        "reference": "残念ですが、仕方がない。",
+        "translation": "Regrettable, but unavoidable."
+      }
+    },
+    "dialogue_0019": {
+      "text": {
+        "reference": "ほほう。{n}{WAIT}二度と現れるなと、{n}言っておいたはずですが。",
+        "translation": "Ah.{WAIT} I believe I told you never to appear again."
+      }
+    },
+    "dialogue_0020": {
+      "text": {
+        "reference": "言葉も解さないとは。{n}人の子の無教養さには、あきれ果てます。{n}{WAIT}目障りですね。",
+        "translation": "You cannot even understand words. Human ignorance appalls me.{WAIT} What an eyesore."
+      }
+    },
+    "dialogue_0021": {
+      "text": {
+        "reference": "私が、引導を渡して差し上げましょう。",
+        "translation": "Allow me to deliver your final rites."
+      }
+    },
+    "dialogue_0022": {
+      "text": {
+        "reference": "死ぬのはお前だ",
+        "translation": "You are the one who will die."
+      }
+    },
+    "dialogue_0023": {
+      "text": {
+        "reference": "人違いだ",
+        "translation": "You have the wrong man."
+      }
+    },
+    "dialogue_0024": {
+      "text": {
+        "reference": "じょ、{BEAT}冗談ですよ。",
+        "translation": "I-it was{BEAT} a joke."
+      }
+    },
+    "dialogue_0025": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "今日は仲直りの印にと、{n}{offered_item}をお持ちしたのです。{n}{WAIT}どうか、受け取って頂きたい。",
+        "translation": "I brought {offered_item} as a token of reconciliation.{WAIT} Please accept it."
+      }
+    },
+    "dialogue_0026": {
+      "text": {
+        "reference": "ほほう。{n}威勢が良い。",
+        "translation": "Ah. Such spirit!"
+      }
+    },
+    "dialogue_0027": {
+      "text": {
+        "reference": "その空元気、どこまでもちますかな？",
+        "translation": "How long will that false bravado last?"
+      }
+    },
+    "dialogue_0028": {
+      "text": {
+        "reference": "はっ、これはとんだ失礼を。{n}知り合いの男に似ていたもので、{BEAT}つい。",
+        "translation": "Ah, forgive me. You resembled a man I know,{BEAT} and I acted rashly."
+      }
+    },
+    "dialogue_0029": {
+      "text": {
+        "reference": "ご迷惑を、おかけしました。",
+        "translation": "My apologies."
+      }
+    },
+    "dialogue_0030": {
+      "text": {
+        "reference": "とぼけても、無駄です。{n}{WAIT}その間抜け顔は、一度見たら忘れませんよ。",
+        "translation": "Feigning ignorance is useless.{WAIT} I never forget a face that foolish."
+      }
+    },
+    "dialogue_0031": {
+      "text": {
+        "reference": "約束通り、戻って参りましたよ。",
+        "translation": "As promised, I have returned."
+      }
+    },
+    "dialogue_0032": {
+      "text": {
+        "reference": "さっそく、話の続きを致しましょう。",
+        "translation": "Let us resume our discussion."
+      }
+    },
+    "dialogue_0033": {
+      "text": {
+        "reference": "いいだろう",
+        "translation": "Very well."
+      }
+    },
+    "dialogue_0034": {
+      "text": {
+        "reference": "その気はない",
+        "translation": "I have no intention."
+      }
+    },
+    "dialogue_0035": {
+      "text": {
+        "reference": "とは言え、一度は命を助けられた身。{n}{WAIT}もう頂くものはありません。",
+        "translation": "Even so, you once spared my life.{WAIT} I require nothing else."
+      }
+    },
+    "dialogue_0036": {
+      "text": {
+        "reference": "そうは言っても、一度は命を助けられた身。{n}{WAIT}受けた恩義を返さずして、{n}何が騎士道でしょう。",
+        "translation": "Even so, you once spared my life.{WAIT} What is chivalry if one leaves a debt unpaid?"
+      }
+    },
+    "dialogue_0037": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}を、受け取って下さい。{n}{WAIT}押しつけがましいかもしれませんが、{n}こうでもしなければ、気が済まないのです。",
+        "translation": "Please accept {offered_item}.{WAIT} It may seem presumptuous, but otherwise I cannot rest."
+      }
+    },
+    "dialogue_0038": {
+      "text": {
+        "reference": "人の子よ。",
+        "translation": "Human."
+      }
+    },
+    "dialogue_0039": {
+      "text": {
+        "reference": "私がここにいるのを、{n}お忘れではありませんか。",
+        "translation": "Have you forgotten I am here?"
+      }
+    },
+    "dialogue_0040": {
+      "text": {
+        "reference": "人が貴重な時間を割いているというのに。{n}私は、貴方達ほど暇ではないのですよ。",
+        "translation": "I have set aside precious time. I am not as idle as you."
+      }
+    },
+    "dialogue_0041": {
+      "text": {
+        "reference": "人の子よ。",
+        "translation": "Human."
+      }
+    },
+    "dialogue_0042": {
+      "text": {
+        "reference": "こんな者と話していても、{n}らちがあきません。{n}{WAIT}時間の無駄です。",
+        "translation": "Talking with this one gets us nowhere.{WAIT} It is a waste of time."
+      }
+    },
+    "dialogue_0043": {
+      "text": {
+        "reference": "人が貴重な時間を割いているというのに。{n}{WAIT}よた話をするのは、やめて頂きたい。",
+        "translation": "I have set aside precious time.{WAIT} Spare me your nonsense."
+      }
+    },
+    "dialogue_0044": {
+      "text": {
+        "reference": "待たれよ、サマナー殿。",
+        "translation": "Wait, Summoner."
+      }
+    },
+    "dialogue_0045": {
+      "text": {
+        "reference": "誤解は、お互いを真に理解しようとすれば、{n}未然に防げるもの。{n}{WAIT}私達の場合とて、遅すぎはしますまい。",
+        "translation": "Misunderstandings can be prevented when both sides seek true understanding.{WAIT} It is not too late for us."
+      }
+    },
+    "dialogue_0046": {
+      "text": {
+        "reference": "私を仲魔に引き入れる気は、ありませんか。",
+        "translation": "Would you care to recruit me?"
+      }
+    },
+    "dialogue_0047": {
+      "text": {
+        "reference": "ある",
+        "translation": "Yes."
+      }
+    },
+    "dialogue_0048": {
+      "text": {
+        "reference": "ない",
+        "translation": "No."
+      }
+    },
+    "dialogue_0049": {
+      "text": {
+        "reference": "貴方がゼントルマンで良かった。{n}{WAIT}では、契約とまいりましょう。",
+        "translation": "I am glad you are a gentleman.{WAIT} Let us form our contract."
+      }
+    },
+    "dialogue_0050": {
+      "text": {
+        "reference": "貴方がゼントルマンで良かった。{n}{WAIT}一族の者に別れを告げて参りますゆえ、{n}契約は、またの機会と言う事で。",
+        "translation": "I am glad you are a gentleman.{WAIT} I must bid my kin farewell, so our contract must wait."
+      }
+    },
+    "dialogue_0051": {
+      "text": {
+        "reference": "ご安心下さい。{n}逃げる訳では、ありませんよ。",
+        "translation": "Do not worry. I am not fleeing."
+      }
+    },
+    "dialogue_0052": {
+      "text": {
+        "reference": "己の甘さ、その体で思い知るが良い！！",
+        "translation": "Learn the price of your naivete with your own body!!"
+      }
+    },
+    "dialogue_0053": {
+      "text": {
+        "reference": "話し合いで解決するものならば、{n}わざわざ命を捨てるのは、ばからしい事。",
+        "translation": "If words can resolve this, throwing away one's life is foolish."
+      }
+    },
+    "dialogue_0054": {
+      "text": {
+        "reference": "私を殺すより活用した方が、{n}有益ではありませんかな？",
+        "translation": "Would it not profit you more to employ me than kill me?"
+      }
+    },
+    "dialogue_0055": {
+      "text": {
+        "reference": "ならば、いたしかたない。",
+        "translation": "Then there is no choice."
+      }
+    },
+    "dialogue_0056": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "我こそは{race}の一族、{n}{demon_name}！！",
+        "translation": "I am {demon_name} of the {race} clan!!"
+      }
+    },
+    "dialogue_0057": {
+      "text": {
+        "reference": "あの世への手土産に、{n}そなたの首を所望いたす！！",
+        "translation": "I demand your head as a gift for the afterlife!!"
+      }
+    },
+    "dialogue_0058": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}を、手に入れた。",
+        "translation": "Obtained {offered_item}."
+      }
+    },
+    "dialogue_0059": {
+      "text": {
+        "reference": "おや。{n}私が差し上げるまでも、ないようですね。",
+        "translation": "Oh. It seems I need not give you mine."
+      }
+    },
+    "dialogue_0060": {
+      "text": {
+        "reference": "それだけ持っていれば、{n}貴方には十分でしょう。",
+        "translation": "With that much, you have more than enough."
+      }
+    },
+    "dialogue_0061": {
+      "text": {
+        "reference": "それでは、ごきげんよう。",
+        "translation": "Farewell."
+      }
+    },
+    "dialogue_0062": {
+      "text": {
+        "reference": "持ってもいない物を、{n}人に渡す事はできませんよ。{n}私をばかにしているのですか。",
+        "translation": "One cannot give what one does not possess. Are you mocking me?"
+      }
+    },
+    "dialogue_0063": {
+      "text": {
+        "reference": "それとも、正直者には見えるとでも。{n}{WAIT}失敬な人だ。",
+        "translation": "Or did you think only honest men could see it?{WAIT} How insulting."
+      }
+    },
+    "dialogue_0064": {
+      "text": {
+        "reference": "それとも、正直者には見えるとでも。{n}それは、私に対する挑戦ですか。",
+        "translation": "Or did you think only honest men could see it? Is that a challenge?"
+      }
+    },
+    "dialogue_0065": {
+      "text": {
+        "reference": "ようこそ、我らが魔の領域へ。",
+        "translation": "Welcome to our demonic realm."
+      }
+    },
+    "dialogue_0066": {
+      "text": {
+        "reference": "ご用向きは、何でしょうかな。",
+        "translation": "What business have you?"
+      }
+    },
+    "dialogue_0067": {
+      "text": {
+        "reference": "仲魔になれ",
+        "translation": "Join me."
+      }
+    },
+    "dialogue_0068": {
+      "text": {
+        "reference": "なんかくれ",
+        "translation": "Give me something."
+      }
+    },
+    "dialogue_0069": {
+      "text": {
+        "reference": "話がある",
+        "translation": "Let's talk."
+      }
+    },
+    "dialogue_0070": {
+      "text": {
+        "reference": "去れ",
+        "translation": "Leave."
+      }
+    },
+    "dialogue_0071": {
+      "text": {
+        "reference": "ほほう。{n}いきなり本題ですか。{n}わずらわしい世間話は、お嫌いと見える。",
+        "translation": "Ah. Straight to business? You dislike tiresome small talk."
+      }
+    },
+    "dialogue_0072": {
+      "text": {
+        "reference": "まあ、それもいいでしょう。",
+        "translation": "Very well."
+      }
+    },
+    "dialogue_0073": {
+      "text": {
+        "reference": "気の早いお方だ。",
+        "translation": "You are impatient."
+      }
+    },
+    "dialogue_0074": {
+      "text": {
+        "reference": "そうあせられても、{n}{BEAT}私にだって、都合というものがあるのです。",
+        "translation": "However much you rush me,{BEAT} I have my own circumstances."
+      }
+    },
+    "dialogue_0075": {
+      "text": {
+        "reference": "胸が痛みますね。{n}我が友が物乞いに落ちぶれるのを、{n}目の当たりにするのは。",
+        "translation": "It pains me to see my friend reduced to begging."
+      }
+    },
+    "dialogue_0076": {
+      "text": {
+        "reference": "今の言葉、{n}聞かなかった事にして差し上げましょう。",
+        "translation": "I shall pretend I did not hear that."
+      }
+    },
+    "dialogue_0077": {
+      "text": {
+        "reference": "あぁ、{BEAT}なんという事です。{n}{WAIT}物乞いに身を落とされるとは。",
+        "translation": "Ah,{BEAT} how tragic.{WAIT} Reduced to begging."
+      }
+    },
+    "dialogue_0078": {
+      "text": {
+        "reference": "今の言葉、{n}聞かなかった事にして差し上げましょう。",
+        "translation": "I shall pretend I did not hear that."
+      }
+    },
+    "dialogue_0079": {
+      "text": {
+        "reference": "いいでしょう。{n}会話は、人生をうるおす美酒となるもの。{n}{WAIT}心地良い酔いを、与えてくれます。",
+        "translation": "Very well. Conversation is wine that enriches life.{WAIT} It grants a pleasant intoxication."
+      }
+    },
+    "dialogue_0080": {
+      "text": {
+        "reference": "いいでしょう。{n}二・三、こちらから質問しても{n}よろしいですかな。",
+        "translation": "Very well. May I ask you two or three questions?"
+      }
+    },
+    "dialogue_0081": {
+      "text": {
+        "reference": "これは心外なお言葉。",
+        "translation": "What an outrageous remark."
+      }
+    },
+    "dialogue_0082": {
+      "text": {
+        "reference": "いいでしょう。{n}{WAIT}ここは貴方の意をくんで、引き下がります。",
+        "translation": "Very well.{WAIT} I shall respect your wish and withdraw."
+      }
+    },
+    "dialogue_0083": {
+      "text": {
+        "reference": "良き友をなくすのは、{n}いつでも心の痛む事ですが。{n}{WAIT}私の名を汚した以上、仕方ありますまい。",
+        "translation": "Losing a good friend always pains me.{WAIT} But you have sullied my name."
+      }
+    },
+    "dialogue_0084": {
+      "text": {
+        "reference": "いざ、{BEAT}剣を抜かれい。",
+        "translation": "Now,{BEAT} draw your sword."
+      }
+    },
+    "dialogue_0085": {
+      "text": {
+        "reference": "珍しい客人ですね。",
+        "translation": "A rare visitor."
+      }
+    },
+    "dialogue_0086": {
+      "text": {
+        "reference": "本日は、何をしに参られたのですか。",
+        "translation": "What brings you here today?"
+      }
+    },
+    "dialogue_0087": {
+      "text": {
+        "reference": "仕事",
+        "translation": "Work."
+      }
+    },
+    "dialogue_0088": {
+      "text": {
+        "reference": "仲魔探し",
+        "translation": "Looking for allies."
+      }
+    },
+    "dialogue_0089": {
+      "text": {
+        "reference": "鍛練",
+        "translation": "Training."
+      }
+    },
+    "dialogue_0090": {
+      "text": {
+        "reference": "悪魔退治",
+        "translation": "Hunting demons."
+      }
+    },
+    "dialogue_0091": {
+      "text": {
+        "reference": "よけいなお世話だ",
+        "translation": "None of your concern."
+      }
+    },
+    "dialogue_0092": {
+      "text": {
+        "reference": "ほほう、{BEAT}こんな所で。{n}{WAIT}因果な商売ですね。",
+        "translation": "Ah,{BEAT} working here?{WAIT} What a thankless trade."
+      }
+    },
+    "dialogue_0093": {
+      "text": {
+        "reference": "もう少しまともな考えがあれば、{n}静かで平和な暮らしが送れたものを。",
+        "translation": "With better judgment, you might have lived quietly and peacefully."
+      }
+    },
+    "dialogue_0094": {
+      "text": {
+        "reference": "私に目を付けましたか。{n}{WAIT}さすが{BEAT}としか、言い様がありません。{n}いいでしょう。",
+        "translation": "You have chosen me.{WAIT} I can only praise your discernment.{BEAT} Very well."
+      }
+    },
+    "dialogue_0095": {
+      "text": {
+        "reference": "私に目を付けましたか。{n}{WAIT}さすが{BEAT}としか、言い様がありません。",
+        "translation": "You have chosen me.{WAIT} I can only praise your discernment.{BEAT}"
+      }
+    },
+    "dialogue_0096": {
+      "text": {
+        "reference": "人を見る目だけは、あるようですね。",
+        "translation": "At least you can judge character."
+      }
+    },
+    "dialogue_0097": {
+      "text": {
+        "reference": "他人の家へ上がり込んで、{n}{WAIT}「鍛練だ」{BEAT}と言っては、家人に斬りつける。",
+        "translation": "You enter another's home,{WAIT} call it {BEAT}training, and slash at its residents."
+      }
+    },
+    "dialogue_0098": {
+      "text": {
+        "reference": "そんな人間が許せますか、貴方は。",
+        "translation": "Could you forgive such a human?"
+      }
+    },
+    "dialogue_0099": {
+      "text": {
+        "reference": "そんな者の言葉は、信用できませんね。",
+        "translation": "I cannot trust the words of such a person."
+      }
+    },
+    "dialogue_0100": {
+      "text": {
+        "reference": "貴方一人の力で、どうなると言うのです。{n}{WAIT}仕方がない。{n}私が力を貸すしか、ないようですね。",
+        "translation": "What can you accomplish alone?{WAIT} It seems I must lend my strength."
+      }
+    },
+    "dialogue_0101": {
+      "text": {
+        "reference": "倒して、その後はどうするのです。{n}{WAIT}次の魔がやって来るだけ、{BEAT}と言うのに。",
+        "translation": "What comes after you defeat them?{WAIT} Another demon merely follows.{BEAT}"
+      }
+    },
+    "dialogue_0102": {
+      "text": {
+        "reference": "こんなばかげた繰り返しは、{n}早く終わりにしたい。{n}{WAIT}そう思いませんか。",
+        "translation": "I want this foolish cycle ended quickly.{WAIT} Do you not?"
+      }
+    },
+    "dialogue_0103": {
+      "text": {
+        "reference": "せっかくのお言葉ですが、{n}世話を焼かせて頂きますよ。",
+        "translation": "I appreciate the sentiment, but I shall meddle anyway."
+      }
+    },
+    "dialogue_0104": {
+      "text": {
+        "reference": "…{BEAT}…{BEAT}…{BEAT}…。{n}{WAIT}分かりの悪い御仁ですね。",
+        "translation": ".{BEAT}.{BEAT}.{BEAT}.{WAIT} You are slow to understand."
+      }
+    },
+    "dialogue_0105": {
+      "text": {
+        "reference": "仲魔になって差し上げても良い{BEAT}と、{n}申しているのです。{n}{WAIT}むろん、すべき事はして頂きますが。",
+        "translation": "I am saying I might join you.{BEAT}{WAIT} Naturally, you must fulfill your obligations."
+      }
+    },
+    "dialogue_0106": {
+      "text": {
+        "reference": "これは心外。",
+        "translation": "How unexpected."
+      }
+    },
+    "dialogue_0107": {
+      "text": {
+        "reference": "遠路はるばるお越し頂いた訳ですから、{n}私としましても、{n}心よりもてなしを致したいだけなのですが。",
+        "translation": "You came so far. I merely wish to offer heartfelt hospitality."
+      }
+    },
+    "dialogue_0108": {
+      "text": {
+        "reference": "私の心、{BEAT}受けて頂けるでしょうね。",
+        "translation": "You will accept my goodwill,{BEAT} yes?"
+      }
+    },
+    "dialogue_0109": {
+      "text": {
+        "reference": "困った客人ですね。",
+        "translation": "What a troublesome guest."
+      }
+    },
+    "dialogue_0110": {
+      "text": {
+        "reference": "よその方に、勝手に歩かれては迷惑です。{n}{WAIT}ここは、観光地ではありませんので。",
+        "translation": "It is inconvenient to have outsiders roam freely.{WAIT} This is no tourist site."
+      }
+    },
+    "dialogue_0111": {
+      "text": {
+        "reference": "ほほう。{n}いきなり本題とは。{n}{WAIT}時には、会話を楽しむ余裕も必要ですよ。",
+        "translation": "Ah. Straight to business.{WAIT} One sometimes needs leisure for conversation."
+      }
+    },
+    "dialogue_0112": {
+      "text": {
+        "reference": "は、{BEAT}これは失礼を。{n}{WAIT}貴方にこんな話をしても、{n}「馬の耳になんとやら」{BEAT}でしたね。",
+        "translation": "F-{BEAT}orgive me.{WAIT} Speaking to you is like casting pearls before swine.{BEAT}"
+      }
+    },
+    "dialogue_0113": {
+      "text": {
+        "reference": "まあ、落ち着いて。",
+        "translation": "Calm yourself."
+      }
+    },
+    "dialogue_0114": {
+      "text": {
+        "reference": "そう、いきなり来られたのでは、{n}考える余裕もないでしょう。",
+        "translation": "A sudden proposal leaves no time to think."
+      }
+    },
+    "dialogue_0115": {
+      "text": {
+        "reference": "お互いに、{n}人生の転機となりかねない取り引きです。{n}{WAIT}じっくり、参ろうではありませんか。",
+        "translation": "This bargain may change both our lives.{WAIT} Let us proceed carefully."
+      }
+    },
+    "dialogue_0116": {
+      "text": {
+        "reference": "は{BEAT}は{BEAT}は{BEAT}は。{n}{BEAT}これは愉快。{n}{WAIT}デビルサマナーとは、物乞いの事でしたか。",
+        "translation": "Ha{BEAT} ha{BEAT} ha{BEAT} ha!{BEAT} How amusing.{WAIT} A Devil Summoner is a beggar?"
+      }
+    },
+    "dialogue_0117": {
+      "text": {
+        "reference": "ほほう。{n}何をおっしゃるかと思えば。",
+        "translation": "Ah. And what will you say?"
+      }
+    },
+    "dialogue_0118": {
+      "text": {
+        "reference": "その口は、物欲を語る事以外に、{n}使い道がないのですか。{n}{WAIT}あさましい。",
+        "translation": "Is your mouth useful only for voicing greed?{WAIT} How base."
+      }
+    },
+    "dialogue_0119": {
+      "text": {
+        "reference": "いいでしょう。{n}二・三、こちらから質問させて頂きますよ。{n}{WAIT}よろしいですね。",
+        "translation": "Very well. I shall ask two or three questions.{WAIT} You agree."
+      }
+    },
+    "dialogue_0120": {
+      "text": {
+        "reference": "果して、身のある話ができるかどうか。{n}{WAIT}物欲に用いる以外の口を、{n}貴方が持っていれば良いのですが。",
+        "translation": "Can you hold a worthwhile conversation?{WAIT} I hope your mouth serves some purpose beyond greed."
+      }
+    },
+    "dialogue_0121": {
+      "text": {
+        "reference": "引き止めなくても、よろしいのですかな。{n}困るのは、貴方のほうではありませんか。",
+        "translation": "Need I not stop you? Are you not the one who will suffer?"
+      }
+    },
+    "dialogue_0122": {
+      "text": {
+        "reference": "まあ{BEAT}私は最初から、{n}相手をする気など、なかったのですが。",
+        "translation": "Though{BEAT} I never intended to entertain you."
+      }
+    },
+    "dialogue_0123": {
+      "text": {
+        "reference": "次回お会いする時までに、{n}ご家族への別れのあいさつを{n}済ませておいて下さいよ。",
+        "translation": "Before next we meet, bid your family farewell."
+      }
+    },
+    "dialogue_0124": {
+      "text": {
+        "reference": "永遠の別れとなりますから。",
+        "translation": "It will be an eternal parting."
+      }
+    },
+    "dialogue_0125": {
+      "text": {
+        "reference": "ここは貴方の様に、{n}非力な者の来る場所ではありませんよ。",
+        "translation": "This is no place for one as weak as you."
+      }
+    },
+    "dialogue_0126": {
+      "text": {
+        "reference": "いったい、何をしているのです。",
+        "translation": "What are you doing?"
+      }
+    },
+    "dialogue_0127": {
+      "text": {
+        "reference": "私達の領域で、{n}勝手に商売をされては困りますね。",
+        "translation": "You may not conduct business in our domain."
+      }
+    },
+    "dialogue_0128": {
+      "text": {
+        "reference": "早々に、お立ち退き願いたい。",
+        "translation": "Leave at once."
+      }
+    },
+    "dialogue_0129": {
+      "text": {
+        "reference": "身分の違う恋というのは、{n}聞いた事がありますが。{n}{WAIT}身分違いの主従関係とは。",
+        "translation": "I have heard of love across social ranks.{WAIT} But a master and servant of different ranks?"
+      }
+    },
+    "dialogue_0130": {
+      "text": {
+        "reference": "まあ、それもまた一興。",
+        "translation": "Well, that too may amuse."
+      }
+    },
+    "dialogue_0131": {
+      "text": {
+        "reference": "ナンセンスです。",
+        "translation": "Nonsense."
+      }
+    },
+    "dialogue_0132": {
+      "text": {
+        "reference": "そんなもの。",
+        "translation": "Such a thing...",
+        "note": "Opening fragment; message 104 page 1 (dialogue_0133) completes: Such a thing... need not be done here."
+      }
+    },
+    "dialogue_0133": {
+      "text": {
+        "reference": "わざわざここでやらなくても、{n}よろしいでしょう。",
+        "translation": "need not be done here.",
+        "note": "Closing fragment; message 104 page 0 (dialogue_0132) supplies: Such a thing..."
+      }
+    },
+    "dialogue_0134": {
+      "text": {
+        "reference": "そうですか。{n}{WAIT}では私も、{n}{BEAT}貴方相手に鍛練とやらをしてみますか。",
+        "translation": "I see.{WAIT} Then perhaps I shall {BEAT}train against you."
+      }
+    },
+    "dialogue_0135": {
+      "text": {
+        "reference": "倒して、その後はどうするのです。{n}{WAIT}その向こうに、何か目的はあるのですか。",
+        "translation": "What comes after victory?{WAIT} Is there any purpose beyond it?"
+      }
+    },
+    "dialogue_0136": {
+      "text": {
+        "reference": "倒して、その後はどうするのです。{n}{WAIT}おやめなさい。",
+        "translation": "What comes after victory?{WAIT} Stop this."
+      }
+    },
+    "dialogue_0137": {
+      "text": {
+        "reference": "むなしさをいくら積み重ねたところで、{n}魂が次なるステージに昇る事は、{n}{BEAT}ありません。",
+        "translation": "No mountain of emptiness will raise your soul to the next stage.{BEAT}"
+      }
+    },
+    "dialogue_0138": {
+      "text": {
+        "reference": "よけいな事をするから、{n}{BEAT}「お世話」{BEAT}と言うのです。{n}{WAIT}まったく、言葉の使い方一つ知らないとは。",
+        "translation": "Because it is needless,{BEAT} it is called {BEAT}meddling.{WAIT} You cannot even use words properly."
+      }
+    },
+    "dialogue_0139": {
+      "text": {
+        "reference": "今の言葉、{BEAT}{n}そっくり貴方にお返ししましょう。",
+        "translation": "I return those words{BEAT} to you."
+      }
+    },
+    "dialogue_0140": {
+      "text": {
+        "reference": "私達の日常に首を突っ込む貴方こそ、{n}「よけいなお世話」なのですよ。",
+        "translation": "You intrude on our lives. You are the meddler."
+      }
+    },
+    "dialogue_0141": {
+      "text": {
+        "reference": "ようこそ、招かれざる侵入者殿。",
+        "translation": "Welcome, uninvited intruder."
+      }
+    },
+    "dialogue_0142": {
+      "text": {
+        "reference": "気の早い御仁だ。{n}会話の楽しみ方を、知らぬとみえる。{n}{WAIT}風情のない。",
+        "translation": "You are impatient and know nothing of conversation.{WAIT} How graceless."
+      }
+    },
+    "dialogue_0143": {
+      "text": {
+        "reference": "たわむれを。",
+        "translation": "A jest."
+      }
+    },
+    "dialogue_0144": {
+      "text": {
+        "reference": "己の力量が分かっていれば、{n}{BEAT}その様な事、口が裂けても言えないはず。",
+        "translation": "If you knew your ability,{BEAT} you could never utter such words."
+      }
+    },
+    "dialogue_0145": {
+      "text": {
+        "reference": "物乞いになってまで生きようとするとは。{n}まったく、涙を誘いますね。",
+        "translation": "To cling to life as a beggar is truly moving."
+      }
+    },
+    "dialogue_0146": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "ここに、{offered_item}ほどあります。{n}{WAIT}少ないですが、貴方には十分でしょう。{n}{WAIT}新しい靴でも、買って下さい。",
+        "translation": "Here is {offered_item}.{WAIT} It is little, but enough for you.{WAIT} Buy new shoes."
+      }
+    },
+    "dialogue_0147": {
+      "text": {
+        "reference": "下せんな口からは、{n}意地汚い言葉しか生まれないのですか。",
+        "translation": "Can that vulgar mouth produce only sordid words?"
+      }
+    },
+    "dialogue_0148": {
+      "text": {
+        "reference": "やはり、{BEAT}貴方とは話すべきでなかった。",
+        "translation": "Indeed,{BEAT} I should not have spoken with you."
+      }
+    },
+    "dialogue_0149": {
+      "text": {
+        "reference": "果して、身のある話ができるかどうか。",
+        "translation": "Can we truly have a worthwhile discussion?"
+      }
+    },
+    "dialogue_0150": {
+      "text": {
+        "reference": "物欲に用いる以外の口を、{n}貴方が持っていれば良いのですが。",
+        "translation": "I hope your mouth serves some purpose beyond greed."
+      }
+    },
+    "dialogue_0151": {
+      "text": {
+        "reference": "もちろんです。{n}これ以上、貴重な時間を費やすなど、{n}ばかばかしいにも程がある。",
+        "translation": "Of course. Wasting more precious time would be absurd."
+      }
+    },
+    "dialogue_0152": {
+      "text": {
+        "reference": "貴重な時間を割いたからには、{n}ただという訳には、いきませんよ。",
+        "translation": "I have spent precious time. This will not be free."
+      }
+    },
+    "dialogue_0153": {
+      "text": {
+        "reference": "多少の犠牲は、覚悟して頂かないと。",
+        "translation": "You must accept some sacrifice."
+      }
+    },
+    "dialogue_0154": {
+      "text": {
+        "reference": "感謝なさい。今日の私は機嫌が良い。",
+        "translation": "Be grateful. I am in good humor today."
+      }
+    },
+    "dialogue_0155": {
+      "text": {
+        "reference": "本来ならば貴方の様な、{n}ちっぽけな虫けらと話す口など、{n}持ち合わせていないのですが。",
+        "translation": "Normally I have no mouth for speaking to an insect like you."
+      }
+    },
+    "dialogue_0156": {
+      "text": {
+        "reference": "ここで何をしているのです、{BEAT}虫けら殿。",
+        "translation": "What are you doing here,{BEAT} insect?"
+      }
+    },
+    "dialogue_0157": {
+      "text": {
+        "reference": "そのいで立ちを見れば、{n}どの様な職業かは、見当がつきます。",
+        "translation": "Your attire makes your occupation obvious."
+      }
+    },
+    "dialogue_0158": {
+      "text": {
+        "reference": "そのいで立ちを見れば、{n}どの様な職業かは、見当がつきます。{n}{WAIT}かわいそうですが。",
+        "translation": "Your attire makes your occupation obvious.{WAIT} Pitiable."
+      }
+    },
+    "dialogue_0159": {
+      "text": {
+        "reference": "私に出会ったのを不運と思って、{n}あきらめて下さい。",
+        "translation": "Consider meeting me your misfortune, and surrender."
+      }
+    },
+    "dialogue_0160": {
+      "text": {
+        "reference": "貴方が仲魔を大切に扱うとは、思えません。",
+        "translation": "I cannot imagine you treating allies with care."
+      }
+    },
+    "dialogue_0161": {
+      "text": {
+        "reference": "私に声をかけるなど、{n}見当違いもいいところです。",
+        "translation": "Calling to me is profoundly misguided."
+      }
+    },
+    "dialogue_0162": {
+      "text": {
+        "reference": "私に声をかけるなど、{n}見当違いもはなはだしい。",
+        "translation": "Calling to me is an astonishing error."
+      }
+    },
+    "dialogue_0163": {
+      "text": {
+        "reference": "そうですか。{n}{WAIT}私には、悪魔を殺しているだけに{n}見えるのですが。",
+        "translation": "I see.{WAIT} It appears to me that you merely kill demons."
+      }
+    },
+    "dialogue_0164": {
+      "text": {
+        "reference": "そうですか。{n}{WAIT}では。",
+        "translation": "I see.{WAIT} Then...",
+        "note": "Opening fragment; message 135 page 1 (dialogue_0165) completes: Then... perhaps I shall train against you."
+      }
+    },
+    "dialogue_0165": {
+      "text": {
+        "reference": "私も貴方相手に、{n}鍛練とやらをしてみますか。",
+        "translation": "perhaps I shall train against you.",
+        "note": "Closing fragment; message 135 page 0 (dialogue_0164) supplies: I see. Then..."
+      }
+    },
+    "dialogue_0166": {
+      "text": {
+        "reference": "ばかげている。{n}{WAIT}私達を殺しても、{n}根本的な解決にはならないと言うのに。",
+        "translation": "Absurd.{WAIT} Killing us resolves nothing fundamental."
+      }
+    },
+    "dialogue_0167": {
+      "text": {
+        "reference": "倒すべきは、{BEAT}貴方がた人間の心に巣喰う{n}{WAIT}魔、{BEAT}なのですよ。",
+        "translation": "The enemy to defeat{BEAT} is the demon{WAIT} nesting in human hearts.{BEAT}"
+      }
+    },
+    "dialogue_0168": {
+      "text": {
+        "reference": "倒すべきは、{BEAT}貴方がた虫けらの心に巣喰う{n}{WAIT}魔、{BEAT}なのですよ。",
+        "translation": "The enemy to defeat{BEAT} is the demon{WAIT} nesting in insects' hearts.{BEAT}"
+      }
+    },
+    "dialogue_0169": {
+      "text": {
+        "reference": "微力ながら、{n}そのお手伝いをさせて頂きましょう。",
+        "translation": "Humble though my strength is, I shall assist."
+      }
+    },
+    "dialogue_0170": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "私は{race}、{demon_name}{n}と申す者。",
+        "translation": "I am {demon_name} of {race}."
+      }
+    },
+    "dialogue_0171": {
+      "text": {
+        "reference": "どうか、貴方の名をお聞かせ願いたい。",
+        "translation": "Please tell me your name."
+      }
+    },
+    "dialogue_0172": {
+      "text": {
+        "reference": "名乗る",
+        "translation": "Give your name."
+      }
+    },
+    "dialogue_0173": {
+      "text": {
+        "reference": "名乗らない",
+        "translation": "Refuse."
+      }
+    },
+    "dialogue_0174": {
+      "text": {
+        "reference": "ほほう。{n}では貴方が、噂の悪魔召喚師殿でしたか。",
+        "translation": "Ah. So you are the rumored Devil Summoner."
+      }
+    },
+    "dialogue_0175": {
+      "text": {
+        "reference": "そのただならぬ気配。{n}私も、薄々感づいてはいたのですが。",
+        "translation": "I had sensed your extraordinary presence."
+      }
+    },
+    "dialogue_0176": {
+      "text": {
+        "reference": "どうです。{n}私を仲魔に加えてみては。{n}{WAIT}損のない取り引きだと思いますが、{BEAT}お互い。",
+        "translation": "Why not add me to your ranks?{WAIT} A profitable bargain for us both.{BEAT}"
+      }
+    },
+    "dialogue_0177": {
+      "text": {
+        "reference": "ほほう。{n}では貴方が、噂の悪魔召喚師殿でしたか。",
+        "translation": "Ah. So you are the rumored Devil Summoner."
+      }
+    },
+    "dialogue_0178": {
+      "text": {
+        "reference": "どれ程の腕前か、ぜひこの目で確かめたい。{n}手加減は抜きですよ。",
+        "translation": "I must witness your skill. Do not hold back."
+      }
+    },
+    "dialogue_0179": {
+      "text": {
+        "reference": "いざ。",
+        "translation": "Come."
+      }
+    },
+    "dialogue_0180": {
+      "text": {
+        "reference": "ほほう。{n}まあ、良しとしましょう。{n}{WAIT}だいたいの見当は、ついています。",
+        "translation": "Ah. Very well.{WAIT} I have largely guessed."
+      }
+    },
+    "dialogue_0181": {
+      "text": {
+        "reference": "これは、いささか心外ですね。{n}{WAIT}ゼントルマンとしての教育が、{n}行き届いていないとみえる。",
+        "translation": "This is rather offensive.{WAIT} Your education as a gentleman is lacking."
+      }
+    },
+    "dialogue_0182": {
+      "text": {
+        "reference": "ご両親のお顔を、ぜひ拝見したいものです。",
+        "translation": "I would dearly like to meet your parents."
+      }
+    },
+    "dialogue_0183": {
+      "text": {
+        "reference": "ほほう。{n}名乗る名前もないとみえる。",
+        "translation": "Ah. You have no name worth giving."
+      }
+    },
+    "dialogue_0184": {
+      "text": {
+        "reference": "その様な{OP:8024}馬の骨{OP:8020}を斬ったとあらば、{n}それこそ、我が一族の名折れ。",
+        "translation": "Slaying such an {OP:8024}unknown cur{OP:8020} would disgrace my clan."
+      }
+    },
+    "dialogue_0185": {
+      "text": {
+        "reference": "それではごきげんよう、{WAIT}{OP:8024}馬の骨{OP:8020}殿。",
+        "translation": "Farewell,{WAIT} {OP:8024}unknown cur{OP:8020}."
+      }
+    },
+    "dialogue_0186": {
+      "text": {
+        "reference": "貴方にとって、{n}悪魔の存在とは何なのですか。",
+        "translation": "What are demons to you?"
+      }
+    },
+    "dialogue_0187": {
+      "text": {
+        "reference": "ぜひ、お聞かせ願いたい。",
+        "translation": "I would hear your answer."
+      }
+    },
+    "dialogue_0188": {
+      "text": {
+        "reference": "共に戦う仲間",
+        "translation": "Comrades in battle."
+      }
+    },
+    "dialogue_0189": {
+      "text": {
+        "reference": "召使い",
+        "translation": "Servants."
+      }
+    },
+    "dialogue_0190": {
+      "text": {
+        "reference": "目的のための手段",
+        "translation": "Means to an end."
+      }
+    },
+    "dialogue_0191": {
+      "text": {
+        "reference": "仲間、{BEAT}ですか。{n}{WAIT}美しい言葉ですね。",
+        "translation": "Comrades,{BEAT} you say?{WAIT} A beautiful word."
+      }
+    },
+    "dialogue_0192": {
+      "text": {
+        "reference": "金では買えぬ何かを求め、{n}明日をも知れぬ暮らしを続ける男。{n}私以外にようやく見つけました。",
+        "translation": "A man seeking what money cannot buy while living without certainty of tomorrow. At last, another like me."
+      }
+    },
+    "dialogue_0193": {
+      "text": {
+        "reference": "よろしいでしょう。{n}私が力を貸して差し上げます。",
+        "translation": "Very well. I shall lend my strength."
+      }
+    },
+    "dialogue_0194": {
+      "text": {
+        "reference": "共に助け合おう、{BEAT}と言うのですか。{n}{WAIT}美しいですね。",
+        "translation": "You propose mutual aid?{BEAT}{WAIT} Beautiful."
+      }
+    },
+    "dialogue_0195": {
+      "text": {
+        "reference": "さすが、{BEAT}ぬるま湯に首までつかりきった、{n}人の子の言う事は違う。",
+        "translation": "Words befitting a human steeped to the neck in comfort.{BEAT}"
+      }
+    },
+    "dialogue_0196": {
+      "text": {
+        "reference": "結局最後に頼れるのは、己の力だけ。{n}違いますかな、{BEAT}ぬるま湯の君。",
+        "translation": "In the end, only one's own strength can be trusted. Is that not so,{BEAT} Prince Comfort?"
+      }
+    },
+    "dialogue_0197": {
+      "text": {
+        "reference": "そうです。{n}尊きお方に仕える事こそ、我が喜び。{n}{WAIT}おっと。",
+        "translation": "Indeed. Serving the noble is my joy.{WAIT} Ah."
+      }
+    },
+    "dialogue_0198": {
+      "text": {
+        "reference": "誤解なさらないで下さい。{n}{WAIT}貴方の事を言っている訳ではありません。",
+        "translation": "Do not misunderstand.{WAIT} I did not mean you."
+      }
+    },
+    "dialogue_0199": {
+      "text": {
+        "reference": "しょせんは、己の手足に過ぎぬ。{n}そう、おっしゃいますか。{n}{WAIT}氷の様な御仁ですね。",
+        "translation": "They are merely your limbs?{WAIT} How cold."
+      }
+    },
+    "dialogue_0200": {
+      "text": {
+        "reference": "まさに、{BEAT}「悪魔のごとき」{BEAT}という{n}形容詞がぴったりだ。",
+        "translation": "The phrase{BEAT} \"demonic\"{BEAT} suits you perfectly."
+      }
+    },
+    "dialogue_0201": {
+      "text": {
+        "reference": "実に合理的な考えですね。{n}気に入りました。{n}{WAIT}なる程。",
+        "translation": "A most rational view. I like it.{WAIT} I see."
+      }
+    },
+    "dialogue_0202": {
+      "text": {
+        "reference": "友情などという絵空事を唱える愚か者には、{n}命のやり取りなど、できますまい。{n}{WAIT}仲魔になる事、考えてもよさそうですね。",
+        "translation": "Fools preaching friendship cannot stake their lives.{WAIT} Perhaps I could join you."
+      }
+    },
+    "dialogue_0203": {
+      "text": {
+        "reference": "しょせんは、道具に過ぎぬ。{n}そう、おっしゃいますか。",
+        "translation": "They are merely tools?"
+      }
+    },
+    "dialogue_0204": {
+      "text": {
+        "reference": "「悪魔」{BEAT}という言葉は、{n}貴方にこそふさわしい。",
+        "translation": "The word demon{BEAT} suits you better."
+      }
+    },
+    "dialogue_0205": {
+      "text": {
+        "reference": "人の子は何故、{n}馬小屋のごとき狭く小さな家に、{n}好んで住むのですか。",
+        "translation": "Why do humans choose to live in cramped homes like stables?"
+      }
+    },
+    "dialogue_0206": {
+      "text": {
+        "reference": "特にこの街の様な、都市の人間です。",
+        "translation": "Especially city-dwellers."
+      }
+    },
+    "dialogue_0207": {
+      "text": {
+        "reference": "貴方ほどの方ならば、{n}一国一城の主になれようものを。",
+        "translation": "One of your caliber could rule a realm."
+      }
+    },
+    "dialogue_0208": {
+      "text": {
+        "reference": "貴方は、今の暮らしに満足なのですか。",
+        "translation": "Are you satisfied with your life?"
+      }
+    },
+    "dialogue_0209": {
+      "text": {
+        "reference": "満足している",
+        "translation": "I am satisfied."
+      }
+    },
+    "dialogue_0210": {
+      "text": {
+        "reference": "不満だ",
+        "translation": "I am dissatisfied."
+      }
+    },
+    "dialogue_0211": {
+      "text": {
+        "reference": "住まいの大小など、たいした事ではないと{n}おおせですか。{n}もっと、大きな問題があると。",
+        "translation": "The size of one's home is unimportant, you say? There are greater matters?"
+      }
+    },
+    "dialogue_0212": {
+      "text": {
+        "reference": "感服の至りです。{n}{WAIT}私の力、ぜひお役立て頂きたい。",
+        "translation": "I am deeply impressed.{WAIT} Please put my strength to use."
+      }
+    },
+    "dialogue_0213": {
+      "text": {
+        "reference": "これは心外。{n}{WAIT}野心なき者に、成功は訪れません。",
+        "translation": "How disappointing.{WAIT} Success never visits one without ambition."
+      }
+    },
+    "dialogue_0214": {
+      "text": {
+        "reference": "こんな小者に、{n}希望を見い出そうとしていたとは。{n}{WAIT}私も、焼きが回りましたか。",
+        "translation": "To think I sought hope in such a small man.{WAIT} I must be losing my edge."
+      }
+    },
+    "dialogue_0215": {
+      "text": {
+        "reference": "私が力を貸せば、{n}貴方を一国一城の主に仕立て上げるなど、{n}たやすい事。",
+        "translation": "With my aid, making you lord of a realm would be easy."
+      }
+    },
+    "dialogue_0216": {
+      "text": {
+        "reference": "それを考えれば、{n}今ここで払う代価など、安い物ですよ。",
+        "translation": "Compared with that, today's price is trivial."
+      }
+    },
+    "dialogue_0217": {
+      "text": {
+        "reference": "そうです。{n}その内なる炎で、{n}全てを焼いておしまいなさい。",
+        "translation": "Yes. Burn everything with that inner flame."
+      }
+    },
+    "dialogue_0218": {
+      "text": {
+        "reference": "街の急速な発展は、{n}時に、社会のひずみを引き起こしますね。",
+        "translation": "A city's rapid growth can warp society."
+      }
+    },
+    "dialogue_0219": {
+      "text": {
+        "reference": "そう、{BEAT}犯罪や貧困のような。",
+        "translation": "Such as{BEAT} crime and poverty."
+      }
+    },
+    "dialogue_0220": {
+      "text": {
+        "reference": "社会の底辺に住まう者達を見て、",
+        "translation": "When you see those at society's bottom...",
+        "note": "Message 169 page 2 is completed by message 170: \"When you see those at society's bottom... / what do you feel?\""
+      }
+    },
+    "dialogue_0221": {
+      "text": {
+        "reference": "貴方は、何を感じますか。",
+        "translation": "what do you feel?",
+        "note": "Message 170 completes message 169 page 2: \"When you see those at society's bottom... / what do you feel?\""
+      }
+    },
+    "dialogue_0222": {
+      "text": {
+        "reference": "同情",
+        "translation": "Sympathy."
+      }
+    },
+    "dialogue_0223": {
+      "text": {
+        "reference": "怒り",
+        "translation": "Anger."
+      }
+    },
+    "dialogue_0224": {
+      "text": {
+        "reference": "別に何も",
+        "translation": "Nothing."
+      }
+    },
+    "dialogue_0225": {
+      "text": {
+        "reference": "貴方が同情するのは、同じ種族である{n}人間にだけではありませんか。",
+        "translation": "Do you sympathize only with fellow humans?"
+      }
+    },
+    "dialogue_0226": {
+      "text": {
+        "reference": "自然とて、開発の進む街から見れば{n}弱者なのですよ。{n}{WAIT}私達魔界の者とて、同じです。",
+        "translation": "Nature is weak before development.{WAIT} So are we of the demon world."
+      }
+    },
+    "dialogue_0227": {
+      "text": {
+        "reference": "それを、分かって頂けないとは。",
+        "translation": "You fail to understand that."
+      }
+    },
+    "dialogue_0228": {
+      "text": {
+        "reference": "ほほう。{n}{WAIT}社会を構成する歯車の一つである貴方が、{n}社会に怒りを持つとは。",
+        "translation": "Ah.{WAIT} You are one cog in society, yet you rage against it."
+      }
+    },
+    "dialogue_0229": {
+      "text": {
+        "reference": "それともそれは、{n}{BEAT}歯車になってしまった自分に対する怒り、{n}ですかね。",
+        "translation": "Or is it anger{BEAT} at yourself for becoming a cog?"
+      }
+    },
+    "dialogue_0230": {
+      "text": {
+        "reference": "自分の身に火の粉が降りかかるまでは、{n}高みの見物ですか。",
+        "translation": "You watch safely until sparks reach you?"
+      }
+    },
+    "dialogue_0231": {
+      "text": {
+        "reference": "そのような心根の方には、{n}私の力、お貸しできません。",
+        "translation": "I cannot lend strength to one with such a heart."
+      }
+    },
+    "dialogue_0232": {
+      "text": {
+        "reference": "自分の身に火の粉が降りかかるまでは、{n}高みの見物ですか。",
+        "translation": "You watch safely until sparks reach you?"
+      }
+    },
+    "dialogue_0233": {
+      "text": {
+        "reference": "貴方も、しょせんは人の子ですね。{n}{WAIT}幻滅しましたよ。",
+        "translation": "You are human after all.{WAIT} I am disappointed."
+      }
+    },
+    "dialogue_0234": {
+      "text": {
+        "reference": "人の子は働き者ですね、感心します。{n}働いて働いて{BEAT}働いて、{n}{BEAT}いったい何の得になるのです。",
+        "translation": "Humans work tirelessly. Work,{BEAT} work,{BEAT} work. What does it gain you?"
+      }
+    },
+    "dialogue_0235": {
+      "text": {
+        "reference": "死んでしまえば、何も残らないのに。",
+        "translation": "Nothing remains when you die."
+      }
+    },
+    "dialogue_0236": {
+      "text": {
+        "reference": "虚しい限りではありませんか。",
+        "translation": "Is it not utterly empty?"
+      }
+    },
+    "dialogue_0237": {
+      "text": {
+        "reference": "確かに虚しい",
+        "translation": "It is empty."
+      }
+    },
+    "dialogue_0238": {
+      "text": {
+        "reference": "生きて行くためだ",
+        "translation": "I must work to live."
+      }
+    },
+    "dialogue_0239": {
+      "text": {
+        "reference": "そうです。{n}{WAIT}働く者から、頂けば良いのです。",
+        "translation": "Indeed.{WAIT} One should take from those who work."
+      }
+    },
+    "dialogue_0240": {
+      "text": {
+        "reference": "微力ながら、{n}お手伝いをして差し上げましょう。",
+        "translation": "Humble though my strength is, I shall assist."
+      }
+    },
+    "dialogue_0241": {
+      "text": {
+        "reference": "やっと気が付きましたか。{n}安心なさい。",
+        "translation": "At last you see. Rest assured."
+      }
+    },
+    "dialogue_0242": {
+      "text": {
+        "reference": "貴方のつまらない人生に、{n}私が終止符を打って差し上げましょう。",
+        "translation": "I shall end your dreary life."
+      }
+    },
+    "dialogue_0243": {
+      "text": {
+        "reference": "最近の若者にしては、{n}立派な心構えですね。{n}感心します。",
+        "translation": "An admirable attitude for today's youth. I am impressed."
+      }
+    },
+    "dialogue_0244": {
+      "text": {
+        "reference": "働いた者から、少し頂けば良いのですよ。",
+        "translation": "Simply take a little from those who work."
+      }
+    },
+    "dialogue_0245": {
+      "text": {
+        "reference": "真っ暗で、出口の分からない迷宮に、{n}ただ一人、放り込まれたとしましょう。",
+        "translation": "Suppose you were cast alone into a dark labyrinth with no known exit."
+      }
+    },
+    "dialogue_0246": {
+      "text": {
+        "reference": "その時、貴方ならどうしますか。",
+        "translation": "What would you do?"
+      }
+    },
+    "dialogue_0247": {
+      "text": {
+        "reference": "出口を探し回る",
+        "translation": "Search for the exit."
+      }
+    },
+    "dialogue_0248": {
+      "text": {
+        "reference": "あきらめる",
+        "translation": "Give up."
+      }
+    },
+    "dialogue_0249": {
+      "text": {
+        "reference": "助けを求めて叫ぶ",
+        "translation": "Cry for help."
+      }
+    },
+    "dialogue_0250": {
+      "text": {
+        "reference": "やみくもに、{BEAT}ですか。{n}{WAIT}まあ、行動力だけはある様ですが。",
+        "translation": "Rush blindly,{BEAT} you say?{WAIT} At least you possess initiative."
+      }
+    },
+    "dialogue_0251": {
+      "text": {
+        "reference": "そこに私の知恵が加われば、{n}恐いものはなくなりますよ。",
+        "translation": "Add my wisdom and nothing could frighten us."
+      }
+    },
+    "dialogue_0252": {
+      "text": {
+        "reference": "やみくもに、{BEAT}ですか。{n}{WAIT}まあ、何もしないよりは、{n}幾分ましですが。",
+        "translation": "Rush blindly,{BEAT} you say?{WAIT} Better than doing nothing."
+      }
+    },
+    "dialogue_0253": {
+      "text": {
+        "reference": "それでは私を仲間にすることも、{n}あきらめるといいでしょう。",
+        "translation": "Then you should also abandon recruiting me."
+      }
+    },
+    "dialogue_0254": {
+      "text": {
+        "reference": "貴方は、共に危険を分かち合うべき{n}人間ではありません。",
+        "translation": "You are not one with whom I should share danger."
+      }
+    },
+    "dialogue_0255": {
+      "text": {
+        "reference": "私とした事が。{n}{WAIT}見当違いだったようですね。",
+        "translation": "How careless of me.{WAIT} It seems I was mistaken."
+      }
+    },
+    "dialogue_0256": {
+      "text": {
+        "reference": "生きるためには何でもする、{n}そう言われるのですね。",
+        "translation": "You would do anything to live?"
+      }
+    },
+    "dialogue_0257": {
+      "text": {
+        "reference": "そんな事をしたら、{n}どんな魔物を呼んでしまうか、{n}分かりませんよ。",
+        "translation": "Who knows what monster such cries may summon?"
+      }
+    },
+    "dialogue_0258": {
+      "text": {
+        "reference": "こんな風にね。",
+        "translation": "Like this."
+      }
+    },
+    "dialogue_0259": {
+      "text": {
+        "reference": "この辺りでは、見かけない顔ですが。",
+        "translation": "I have not seen your face here."
+      }
+    },
+    "dialogue_0260": {
+      "text": {
+        "reference": "名はなんと申すのです。",
+        "translation": "What is your name?"
+      }
+    },
+    "dialogue_0261": {
+      "text": {
+        "reference": "お前から名乗れ",
+        "translation": "You first."
+      }
+    },
+    "dialogue_0262": {
+      "text": {
+        "reference": "そのただならぬ気配。{n}私も、薄々感づいてはいたのですが。",
+        "translation": "I had sensed your extraordinary presence."
+      }
+    },
+    "dialogue_0263": {
+      "text": {
+        "reference": "どうです。{n}私を仲魔に加えてみては。",
+        "translation": "Why not add me to your ranks?"
+      }
+    },
+    "dialogue_0264": {
+      "text": {
+        "reference": "どれ程の腕前か、ぜひこの目で確かめたい。{n}手加減は抜きですよ。{n}{WAIT}いざ。",
+        "translation": "I must witness your skill. Do not hold back.{WAIT} Come."
+      }
+    },
+    "dialogue_0265": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "これはこれは、とんだ失礼を。{n}私は{race}、{demon_name}{n}と申す者。",
+        "translation": "Forgive my rudeness. I am {demon_name} of {race}."
+      }
+    },
+    "dialogue_0266": {
+      "text": {
+        "reference": "して、貴方は…{BEAT}…{BEAT}…{BEAT}…{BEAT}{n}なんと！{n}{WAIT}数々の無礼な振る舞い、お許し頂きたい。",
+        "translation": "And you are...{BEAT}.{BEAT}.{BEAT}.{BEAT} What!?{WAIT} Forgive my many discourtesies."
+      }
+    },
+    "dialogue_0267": {
+      "text": {
+        "reference": "残念ながら、貴方がお聞きになられても、{n}分かりはしますまい。{n}{WAIT}教養のない、貴方には。",
+        "translation": "Even if I told you, you would not understand.{WAIT} You lack education."
+      }
+    },
+    "dialogue_0268": {
+      "text": {
+        "reference": "この私と、契約したいのですか。",
+        "translation": "You wish to contract with me?"
+      }
+    },
+    "dialogue_0269": {
+      "text": {
+        "reference": "そうだ",
+        "translation": "That's right."
+      }
+    },
+    "dialogue_0270": {
+      "text": {
+        "reference": "違う",
+        "translation": "No."
+      }
+    },
+    "dialogue_0271": {
+      "text": {
+        "reference": "よろしい。",
+        "translation": "Very well."
+      }
+    },
+    "dialogue_0272": {
+      "text": {
+        "reference": "では。",
+        "translation": "Then..."
+      }
+    },
+    "dialogue_0273": {
+      "text": {
+        "reference": "まったく。",
+        "translation": "Truly..."
+      }
+    },
+    "dialogue_0274": {
+      "text": {
+        "reference": "「身の程知らず」{BEAT}とは、{n}{BEAT}貴方のためにある様な言葉ですね。",
+        "translation": "“Knows not his place”{BEAT}...{BEAT} a phrase coined for you."
+      }
+    },
+    "dialogue_0275": {
+      "text": {
+        "reference": "そうですか。{n}ならば、貴方に用はありません。",
+        "translation": "I see. Then I have no use for you."
+      }
+    },
+    "dialogue_0276": {
+      "text": {
+        "reference": "そうですか。{n}ならば、貴方には消えて頂きましょう。",
+        "translation": "I see. Then you must disappear."
+      }
+    },
+    "dialogue_0277": {
+      "text": {
+        "reference": "話し合いの前に、{n}武器を置くのが礼儀でしょう。",
+        "translation": "Courtesy demands setting down weapons before talks."
+      }
+    },
+    "dialogue_0278": {
+      "text": {
+        "reference": "銃を外して頂けますね。",
+        "translation": "You will remove your gun."
+      }
+    },
+    "dialogue_0279": {
+      "text": {
+        "reference": "外す",
+        "translation": "Remove it."
+      }
+    },
+    "dialogue_0280": {
+      "text": {
+        "reference": "外さない",
+        "translation": "Do not remove it."
+      }
+    },
+    "dialogue_0281": {
+      "text": {
+        "reference": "いいでしょう。",
+        "translation": "Very well."
+      }
+    },
+    "dialogue_0282": {
+      "text": {
+        "reference": "悪く思わないで下さいね。{n}貴方に生きていられると、迷惑なのです。",
+        "translation": "Do not hold it against me. Your continued life inconveniences me."
+      }
+    },
+    "dialogue_0283": {
+      "text": {
+        "reference": "そうですか。{n}まあ、私を恐ろしいと思う気持ちは、{n}分からなくもありません。",
+        "translation": "I see. I can understand your fear of me."
+      }
+    },
+    "dialogue_0284": {
+      "text": {
+        "reference": "そうですか。",
+        "translation": "I see."
+      }
+    },
+    "dialogue_0285": {
+      "text": {
+        "reference": "貴方と遊んでいる時間は、ないのです。",
+        "translation": "I have no time to play with you."
+      }
+    },
+    "dialogue_0286": {
+      "text": {
+        "reference": "そこをどいて頂けますね。",
+        "translation": "You will stand aside."
+      }
+    },
+    "dialogue_0287": {
+      "text": {
+        "reference": "道を開ける",
+        "translation": "Clear the way."
+      }
+    },
+    "dialogue_0288": {
+      "text": {
+        "reference": "どかない",
+        "translation": "Do not move."
+      }
+    },
+    "dialogue_0289": {
+      "text": {
+        "reference": "攻撃",
+        "translation": "Attack."
+      }
+    },
+    "dialogue_0290": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "なかなか物分かりの良い御仁だ。{n}{offered_item}を、差し上げましょう。{n}{WAIT}つまらない物ですが、貴方には十分です。",
+        "translation": "You understand well. Here, take {offered_item}.{WAIT} It is trifling, but enough for you."
+      }
+    },
+    "dialogue_0291": {
+      "text": {
+        "reference": "なかなか物分かりの良い御仁だ。{n}{WAIT}己の身分を、わきまえていらっしゃる。",
+        "translation": "You understand well.{WAIT} You know your station."
+      }
+    },
+    "dialogue_0292": {
+      "text": {
+        "reference": "もう二度と、{n}その汚らわしい顔を、見せないで下さい。",
+        "translation": "Never show me that filthy face again."
+      }
+    },
+    "dialogue_0293": {
+      "text": {
+        "reference": "まだ話は終わっていない。{n}そう、{BEAT}おっしゃるのですか。",
+        "translation": "The discussion is not over,{BEAT} you say?"
+      }
+    },
+    "dialogue_0294": {
+      "text": {
+        "reference": "貴方は、自分の身分をわきまえていない。{n}本来なら、剣のサビにするのも{n}嫌なのですが。",
+        "translation": "You do not know your place. Ordinarily I would refuse even to rust my blade on you."
+      }
+    },
+    "dialogue_0295": {
+      "text": {
+        "reference": "ひきょうな。",
+        "translation": "Coward."
+      }
+    },
+    "dialogue_0296": {
+      "text": {
+        "reference": "私の力を、あてにしているのですか。",
+        "translation": "You depend on my strength?"
+      }
+    },
+    "dialogue_0297": {
+      "text": {
+        "reference": "やはりそうでしたか。{n}{WAIT}いいでしょう。",
+        "translation": "As I thought.{WAIT} Very well."
+      }
+    },
+    "dialogue_0298": {
+      "text": {
+        "reference": "やはりそうでしたか。{n}まあ、悪くない話ですね。{n}{WAIT}考えてみましょう。",
+        "translation": "As I thought. Not a bad proposition.{WAIT} I shall consider it."
+      }
+    },
+    "dialogue_0299": {
+      "text": {
+        "reference": "そうでしたか。",
+        "translation": "I see."
+      }
+    },
+    "dialogue_0300": {
+      "text": {
+        "reference": "私としては、{n}力を貸して差し上げても良かったのですが。",
+        "translation": "I would have lent you my strength."
+      }
+    },
+    "dialogue_0301": {
+      "text": {
+        "reference": "そうでしたか。",
+        "translation": "I see."
+      }
+    },
+    "dialogue_0302": {
+      "text": {
+        "reference": "それでは、{n}気持ちだけでも受け取って下さいますか。",
+        "translation": "Then will you at least accept my regard?"
+      }
+    },
+    "dialogue_0303": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}です。{n}{WAIT}ささやかですが、貴方には十分でしょう。",
+        "translation": "Here is {offered_item}.{WAIT} It is modest, but enough for you."
+      }
+    },
+    "dialogue_0304": {
+      "text": {
+        "reference": "そうでしたか。{n}それでは、私はこの辺で。{n}{WAIT}ご武運を。",
+        "translation": "I see. I shall leave now.{WAIT} May fortune favor you."
+      }
+    },
+    "dialogue_0305": {
+      "text": {
+        "reference": "話し合いに、SWORDは必要ないはず。",
+        "translation": "A SWORD is unnecessary for negotiation."
+      }
+    },
+    "dialogue_0306": {
+      "text": {
+        "reference": "私としても、{n}貴方に傷を負わせるつもりはありません。{n}紳士的に、事を進めましょう。",
+        "translation": "I do not intend to harm you. Let us proceed as gentlemen."
+      }
+    },
+    "dialogue_0307": {
+      "text": {
+        "reference": "お互いに武器を置く。{WAIT}よろしいですか。",
+        "translation": "We both set down our weapons.{WAIT} Agreed?"
+      }
+    },
+    "dialogue_0308": {
+      "text": {
+        "reference": "断る",
+        "translation": "Refuse."
+      }
+    },
+    "dialogue_0309": {
+      "text": {
+        "reference": "油断させて攻撃",
+        "translation": "Attack when his guard is down."
+      }
+    },
+    "dialogue_0310": {
+      "text": {
+        "reference": "貴方の気持ちは、分かりました。",
+        "translation": "I understand your feelings."
+      }
+    },
+    "dialogue_0311": {
+      "text": {
+        "reference": "いいでしょう。{n}仲魔になって差し上げます。",
+        "translation": "Very well. I shall join you."
+      }
+    },
+    "dialogue_0312": {
+      "text": {
+        "reference": "こんな事は、したくなかったのですが。",
+        "translation": "I did not wish to do this."
+      }
+    },
+    "dialogue_0313": {
+      "text": {
+        "reference": "悪く思わないで下さい。{n}貴方に生きていられては、迷惑なのです。",
+        "translation": "Do not hold it against me. Your continued life inconveniences me."
+      }
+    },
+    "dialogue_0314": {
+      "text": {
+        "reference": "私を、お疑いですか。{n}貴方に信用して頂けないとは。",
+        "translation": "You doubt me? How painful to be mistrusted."
+      }
+    },
+    "dialogue_0315": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "ここに、{offered_item}だけあります。{n}これで私の気持ち、理解して頂けますね。",
+        "translation": "Here is {offered_item}. Now you understand my sincerity."
+      }
+    },
+    "dialogue_0316": {
+      "text": {
+        "reference": "まあ確かに、{n}{BEAT}見ず知らずの他人を信じろと言うのは、{n}無理な相談でしたね。",
+        "translation": "Admittedly,{BEAT} asking one to trust a stranger was unreasonable."
+      }
+    },
+    "dialogue_0317": {
+      "text": {
+        "reference": "特に、こんな場所では。",
+        "translation": "Especially here."
+      }
+    },
+    "dialogue_0318": {
+      "text": {
+        "reference": "貴方がその気なら、仕方がありませんね。",
+        "translation": "If that is your wish, so be it."
+      }
+    },
+    "dialogue_0319": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "私は{race}、{demon_name}。{n}我が名誉に賭けて、貴方を討ち取ります。",
+        "translation": "I am {demon_name} of {race}. On my honor, I shall defeat you."
+      }
+    },
+    "dialogue_0320": {
+      "text": {
+        "reference": "人の子め！",
+        "translation": "Wretched human!"
+      }
+    },
+    "dialogue_0321": {
+      "text": {
+        "reference": "おろかな。{n}{WAIT}人の子の考えなど、全てお見通しです。",
+        "translation": "Fool.{WAIT} I see through every human scheme."
+      }
+    },
+    "dialogue_0322": {
+      "text": {
+        "reference": "私を裏切った罪、その体でつぐなうが良い！",
+        "translation": "Atone with your body for betraying me!"
+      }
+    },
+    "dialogue_0323": {
+      "text": {
+        "reference": "うるおいのない生活は、{n}人の心を暗く沈ませるものですね。",
+        "translation": "A barren life darkens the human heart."
+      }
+    },
+    "dialogue_0324": {
+      "text": {
+        "reference": "日々の生活に張りを持たせる意味でも、",
+        "translation": "To bring purpose to daily life...",
+        "note": "Message 262 page 1 is completed by message 263: \"To bring purpose to daily life... / do you have a hobby?\""
+      }
+    },
+    "dialogue_0325": {
+      "text": {
+        "reference": "貴方は何か、趣味を持っておられますか。",
+        "translation": "do you have a hobby?",
+        "note": "Message 263 completes message 262 page 1: \"To bring purpose to daily life... / do you have a hobby?\""
+      }
+    },
+    "dialogue_0326": {
+      "text": {
+        "reference": "お茶を少々",
+        "translation": "A little tea."
+      }
+    },
+    "dialogue_0327": {
+      "text": {
+        "reference": "剣術を少々",
+        "translation": "A little swordsmanship."
+      }
+    },
+    "dialogue_0328": {
+      "text": {
+        "reference": "ゲームを少々",
+        "translation": "A few games."
+      }
+    },
+    "dialogue_0329": {
+      "text": {
+        "reference": "趣味はない",
+        "translation": "No hobby."
+      }
+    },
+    "dialogue_0330": {
+      "text": {
+        "reference": "ほほう。{n}顔に似合わず、風流な趣味をお持ちだ。{n}{WAIT}いや、これは失言。",
+        "translation": "Ah. An elegant hobby, despite your face.{WAIT} Forgive that slip."
+      }
+    },
+    "dialogue_0331": {
+      "text": {
+        "reference": "貴方とは、話が合いそうですね。{n}{WAIT}仲魔になる事、考えてもよさそうです。",
+        "translation": "We may converse well.{WAIT} Perhaps I could join you."
+      }
+    },
+    "dialogue_0332": {
+      "text": {
+        "reference": "ほほう。{n}顔に似合わず、風流な趣味をお持ちだ。",
+        "translation": "Ah. An elegant hobby, despite your face."
+      }
+    },
+    "dialogue_0333": {
+      "text": {
+        "reference": "ほほう。{n}趣味と実益を兼ねていらっしゃるのですか。",
+        "translation": "Ah. You combine pleasure and practicality?"
+      }
+    },
+    "dialogue_0334": {
+      "text": {
+        "reference": "ほほう。{n}趣味と実益を兼ねていらっしゃるのですか。{n}{WAIT}それとも。",
+        "translation": "Ah. You combine pleasure and practicality?{WAIT} Or...",
+        "note": "Opening fragment; message 271 page 1 (dialogue_0335) completes the alternative: Or... is cutting demons your hobby?"
+      }
+    },
+    "dialogue_0335": {
+      "text": {
+        "reference": "悪魔を斬るのが、趣味とでも。",
+        "translation": "is cutting demons your hobby?",
+        "note": "Closing fragment; message 271 page 0 (dialogue_0334) supplies the lead-in ending: Or..."
+      }
+    },
+    "dialogue_0336": {
+      "text": {
+        "reference": "ほほう。{n}ゲームとは。{n}{WAIT}実は、ここだけの話。",
+        "translation": "Ah. Games.{WAIT} Between us..."
+      }
+    },
+    "dialogue_0337": {
+      "text": {
+        "reference": "私も少々たしなむのです。{n}貴方とは、気が合いそうですね。{n}{WAIT}仲魔になって差し上げても、よさそうです。",
+        "translation": "I dabble myself. We may get along.{WAIT} Perhaps I could join you."
+      }
+    },
+    "dialogue_0338": {
+      "text": {
+        "reference": "ほほう。{n}恐ろしい人の子にも、{n}その様な側面があったとは。",
+        "translation": "Ah. Even a terrifying human has such a side."
+      }
+    },
+    "dialogue_0339": {
+      "text": {
+        "reference": "人は、見かけによらぬものですね。",
+        "translation": "Appearances deceive."
+      }
+    },
+    "dialogue_0340": {
+      "text": {
+        "reference": "つまらない人ですね。{n}何が楽しくて、生きているのです。",
+        "translation": "How dull. What makes your life worth living?"
+      }
+    },
+    "dialogue_0341": {
+      "text": {
+        "reference": "ほほう。{n}趣味が持てぬ程、{n}悪魔殺しで忙しいのですか。",
+        "translation": "Ah. Too busy killing demons for hobbies?"
+      }
+    },
+    "dialogue_0342": {
+      "text": {
+        "reference": "では私が、暇を作って差し上げましょう。{n}{WAIT}あの世で、五目並べでもしていなさい。",
+        "translation": "Then I shall make you free time.{WAIT} Play Go-moku in the afterlife."
+      }
+    },
+    "dialogue_0343": {
+      "text": {
+        "reference": "何か、私をうならせる様な",
+        "translation": "Could you show me something...",
+        "note": "Message 276 is completed by message 277: \"Could you show me something... / a feat that will impress me?\""
+      }
+    },
+    "dialogue_0344": {
+      "text": {
+        "reference": "技を見せては頂けませんか。",
+        "translation": "a feat that will impress me?",
+        "note": "Message 277 completes message 276: \"Could you show me something... / a feat that will impress me?\""
+      }
+    },
+    "dialogue_0345": {
+      "text": {
+        "reference": "1人バックドロップ",
+        "translation": "Solo backdrop."
+      }
+    },
+    "dialogue_0346": {
+      "text": {
+        "reference": "剣舞",
+        "translation": "Sword dance."
+      }
+    },
+    "dialogue_0347": {
+      "text": {
+        "reference": "詩吟",
+        "translation": "Recite poetry."
+      }
+    },
+    "dialogue_0348": {
+      "text": {
+        "reference": "岩石割り",
+        "translation": "Break a rock."
+      }
+    },
+    "dialogue_0349": {
+      "text": {
+        "reference": "ヒンドゥスクワット",
+        "translation": "Hindu squats."
+      }
+    },
+    "dialogue_0350": {
+      "text": {
+        "reference": "なんとシンプル{BEAT}かつ{BEAT}大胆。",
+        "translation": "So simple{BEAT} yet{BEAT} bold!"
+      }
+    },
+    "dialogue_0351": {
+      "text": {
+        "reference": "感服致しました。",
+        "translation": "I am impressed."
+      }
+    },
+    "dialogue_0352": {
+      "text": {
+        "reference": "なんとまあ、{BEAT}思い切った芸なのでしょう。{n}{WAIT}ですが。",
+        "translation": "What a{BEAT} daring performance.{WAIT} However...",
+        "note": "Opening fragment; message 284 page 1 (dialogue_0353) completes: However... what possible use is it?"
+      }
+    },
+    "dialogue_0353": {
+      "text": {
+        "reference": "いったい何の役に立つのです。",
+        "translation": "what possible use is it?",
+        "note": "Closing fragment; message 284 page 0 (dialogue_0352) supplies the lead-in ending: However..."
+      }
+    },
+    "dialogue_0354": {
+      "text": {
+        "reference": "ほほう。{n}これはお見事。",
+        "translation": "Ah. Splendid."
+      }
+    },
+    "dialogue_0355": {
+      "text": {
+        "reference": "貴方は優れた剣士であると同時に、{n}すばらしい文化人でもあるようだ。{n}{WAIT}感服致しました。",
+        "translation": "You are both an excellent swordsman and a cultured man.{WAIT} I am impressed."
+      }
+    },
+    "dialogue_0356": {
+      "text": {
+        "reference": "さすがは、私の主君となるお方。{n}{WAIT}この意味は、お分かりですね。",
+        "translation": "Worthy of becoming my lord.{WAIT} You understand my meaning."
+      }
+    },
+    "dialogue_0357": {
+      "text": {
+        "reference": "ほほう。{n}鋭い振りですね。{n}{WAIT}殺気をはらんでいる。",
+        "translation": "Ah. A sharp swing.{WAIT} It carries bloodlust."
+      }
+    },
+    "dialogue_0358": {
+      "text": {
+        "reference": "その剣で、どれだけの悪魔が斬られた事か。",
+        "translation": "How many demons has that blade slain?"
+      }
+    },
+    "dialogue_0359": {
+      "text": {
+        "reference": "仲魔になる事、考えてもよさそうですね。",
+        "translation": "Perhaps I could join you."
+      }
+    },
+    "dialogue_0360": {
+      "text": {
+        "reference": "う、{BEAT}これは。{n}{WAIT}貴方のお手並みの程は、分かりました。{n}{WAIT}分かりましたので、{BEAT}う。",
+        "translation": "Ugh,{BEAT} this...{WAIT} I understand your skill.{WAIT} I understand,{BEAT} so..."
+      }
+    },
+    "dialogue_0361": {
+      "text": {
+        "reference": "その、{BEAT}しばし休まれてはいかがですか。{n}{WAIT}あ、あまり張り叫んでばかりいると、{n}のどにも、{BEAT}う、{BEAT}悪いですよ。",
+        "translation": "Perhaps{BEAT} you should rest.{WAIT} Too much shouting is{BEAT} b-{BEAT}ad for your throat."
+      }
+    },
+    "dialogue_0362": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "あぁ。{n}{WAIT}{offered_item}を差し上げます。{n}ど、どうか、ごようしゃを。",
+        "translation": "Ah.{WAIT} Here, take {offered_item}. P-please spare me."
+      }
+    },
+    "dialogue_0363": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}ほほう。{n}{WAIT}お見事。{n}感服致しました。",
+        "translation": ".{BEAT}.{BEAT}.{BEAT} Ah.{WAIT} Splendid. I am impressed."
+      }
+    },
+    "dialogue_0364": {
+      "text": {
+        "reference": "条件しだいでは、助力をおしみませんよ。",
+        "translation": "Under the right terms, I would gladly assist."
+      }
+    },
+    "dialogue_0365": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}どうされました。{n}{WAIT}うずくまって。",
+        "translation": ".{BEAT}.{BEAT}.{BEAT} What happened?{WAIT} Why are you crouching?"
+      }
+    },
+    "dialogue_0366": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "ここに、{offered_item}だけあります。{n}これで、ばんそうこうでも買われると良い。{n}{WAIT}お大事になされよ。",
+        "translation": "Here is {offered_item}. Buy bandages.{WAIT} Take care."
+      }
+    },
+    "dialogue_0367": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}ほほう。{n}{WAIT}見事な足腰ですな、{WAIT}まったく。",
+        "translation": ".{BEAT}.{BEAT}.{BEAT}{WAIT} Remarkable legs,{WAIT} indeed."
+      }
+    },
+    "dialogue_0368": {
+      "text": {
+        "reference": "はぁ……{n}{WAIT}貴方に期待した私が、あさはかでした。",
+        "translation": "Sigh...{WAIT} I was foolish to expect more."
+      }
+    },
+    "dialogue_0369": {
+      "text": {
+        "reference": "・{BEAT}・{BEAT}・{BEAT}準備体操は、終わりましたか。",
+        "translation": ".{BEAT}.{BEAT}.{BEAT} Have you finished warming up?"
+      }
+    },
+    "dialogue_0370": {
+      "text": {
+        "reference": "それでは、参られよ。{n}いざ。",
+        "translation": "Then come. Let us begin."
+      }
+    },
+    "dialogue_0371": {
+      "text": {
+        "reference": "先程から気になっていたのですが。",
+        "translation": "Something has concerned me."
+      }
+    },
+    "dialogue_0372": {
+      "text": {
+        "reference": "そちらの貴婦人は、貴方の恋人なのですか。",
+        "translation": "Is that lady your lover?"
+      }
+    },
+    "dialogue_0373": {
+      "text": {
+        "reference": "誰がこんな女",
+        "translation": "Who would want this woman?"
+      }
+    },
+    "dialogue_0374": {
+      "placeholders": {
+        "rei_name": "character_name"
+      },
+      "text": {
+        "reference": "{rei_name}：ちょ、{BEAT}ちょっと！{n}{BEAT}いつから、そうなったのよ！{n}{WAIT}勘違いしないで！！",
+        "translation": "{rei_name}: H-{BEAT}ey!{BEAT} Since when!?{WAIT} Do not misunderstand!"
+      }
+    },
+    "dialogue_0375": {
+      "text": {
+        "reference": "おやおや。{n}仲のおよろしい事で。{n}{WAIT}私は邪魔者ですかな。",
+        "translation": "What a close pair.{WAIT} Am I intruding?"
+      }
+    },
+    "dialogue_0376": {
+      "text": {
+        "reference": "{OP:8025}ビターーーーン！！{OP:8020}",
+        "translation": "{OP:8025}SMAAACK!!{OP:8020}"
+      }
+    },
+    "dialogue_0377": {
+      "text": {
+        "reference": "仲のおよろしい事で。{n}{WAIT}おやおや。{n}殿方が、うずくまっておいでですよ。",
+        "translation": "What a close pair.{WAIT} Oh. The gentleman is crouching."
+      }
+    },
+    "dialogue_0378": {
+      "text": {
+        "reference": "そうですか。{n}{WAIT}この様に美しい方がおられるのなら、{n}ぜひお仲魔に加えて頂きたい。",
+        "translation": "I see.{WAIT} If such a beauty accompanies you, please add me too."
+      }
+    },
+    "dialogue_0379": {
+      "text": {
+        "reference": "そうですか。{n}それでは、この方は頂いて行きますよ。",
+        "translation": "I see. Then I shall take this lady."
+      }
+    },
+    "dialogue_0380": {
+      "placeholders": {
+        "rei_name": "character_name"
+      },
+      "text": {
+        "reference": "{rei_name}：じょうだんじゃないよ！{n}{WAIT}誰が、こんな奴と。{n}ふざけないで！",
+        "translation": "{rei_name}: Absolutely not!{WAIT} Who would go with him? Don't be absurd!"
+      }
+    },
+    "dialogue_0381": {
+      "text": {
+        "reference": "何と言う、はしたない言葉。{n}{WAIT}黙ってたたずんでいれば、美しいものを。",
+        "translation": "What vulgar language.{WAIT} She would be beautiful if she stood silently."
+      }
+    },
+    "dialogue_0382": {
+      "placeholders": {
+        "rei_name": "character_name"
+      },
+      "text": {
+        "reference": "{rei_name}：言ったわね！",
+        "translation": "{rei_name}: You said it!"
+      }
+    },
+    "dialogue_0383": {
+      "placeholders": {
+        "rei_name": "character_name"
+      },
+      "text": {
+        "reference": "{rei_name}：ちょっと待ちなさいよ。{n}{WAIT}あたしのこと、そういう目で見てたわけ？{n}{WAIT}いくらあんたでも、{BEAT}許さないわよ！",
+        "translation": "{rei_name}: Wait!{WAIT} So that is how you see me?{WAIT} Even from you,{BEAT} I won't forgive it!"
+      }
+    },
+    "dialogue_0384": {
+      "text": {
+        "reference": "仲のよろしい事だ。{n}私は、邪魔者の様ですね。",
+        "translation": "Such closeness. I appear to intrude."
+      }
+    },
+    "dialogue_0385": {
+      "text": {
+        "reference": "敵前で仲間割れとは、おろかな。",
+        "translation": "Quarreling before the enemy? Foolish."
+      }
+    },
+    "dialogue_0386": {
+      "text": {
+        "reference": "貴方は剣と銃、どちらがお好みですか。",
+        "translation": "Which do you prefer, swords or guns?"
+      }
+    },
+    "dialogue_0387": {
+      "text": {
+        "reference": "剣",
+        "translation": "Swords."
+      }
+    },
+    "dialogue_0388": {
+      "text": {
+        "reference": "銃",
+        "translation": "Guns."
+      }
+    },
+    "dialogue_0389": {
+      "text": {
+        "reference": "そうでしょう、そうでしょう。",
+        "translation": "Naturally."
+      }
+    },
+    "dialogue_0390": {
+      "text": {
+        "reference": "剣が敵の肉体に沈む時の、{n}あの感触は、何物にも代え難い。",
+        "translation": "Nothing compares with the sensation of a sword sinking into flesh."
+      }
+    },
+    "dialogue_0391": {
+      "text": {
+        "reference": "貴方とは、気が合いそうです。{n}{WAIT}仲魔になる事、考えてもよさそうですね。",
+        "translation": "We may get along.{WAIT} Perhaps I could join you."
+      }
+    },
+    "dialogue_0392": {
+      "text": {
+        "reference": "ほほう。{n}{WAIT}それでは、{n}{OP:8023}ようおうはけん{OP:8020}をご存じですか。",
+        "translation": "Ah.{WAIT} Do you know the {OP:8023}Emperor Blade{OP:8020}?"
+      }
+    },
+    "dialogue_0393": {
+      "text": {
+        "reference": "そのやいばの前では、{n}いかなる守りも役に立たないと、{n}伝えられております。",
+        "translation": "Legend says no defense avails before its blade."
+      }
+    },
+    "dialogue_0394": {
+      "text": {
+        "reference": "やはり武人として生まれたからには、{n}一度は名剣を手にしてみたいものです。",
+        "translation": "A warrior should wield a famed sword at least once."
+      }
+    },
+    "dialogue_0395": {
+      "text": {
+        "reference": "そうですか。{n}それでは、我が剣を受けるがよろしい。",
+        "translation": "I see. Then receive my blade."
+      }
+    },
+    "dialogue_0396": {
+      "text": {
+        "reference": "そうですか。{n}{WAIT}あいにく銃には興味がないのですが。",
+        "translation": "I see.{WAIT} Unfortunately, guns do not interest me."
+      }
+    },
+    "dialogue_0397": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "ここに、{offered_item}だけあります。{n}新しい銃を買う時の、たしにして下さい。{n}{WAIT}それでは、{BEAT}ご武運を。",
+        "translation": "Here is {offered_item}. Put it toward a new gun.{WAIT} May fortune favor you.{BEAT}"
+      }
+    },
+    "dialogue_0398": {
+      "text": {
+        "reference": "そうですか。{n}{WAIT}私は、あまり好きになれません。",
+        "translation": "I see.{WAIT} I do not care for them."
+      }
+    },
+    "dialogue_0399": {
+      "text": {
+        "reference": "確かに、実用的ではありますが。{n}この手で敵を倒したという実感がないので。{n}{WAIT}時代に沿わない美意識ですがね。",
+        "translation": "They are practical, but deny the feeling of defeating an enemy by hand.{WAIT} An outdated aesthetic."
+      }
+    },
+    "dialogue_0400": {
+      "text": {
+        "reference": "最近では人の子も、{n}なかなかの料理通になったと聞きます。",
+        "translation": "I hear humans have become culinary connoisseurs."
+      }
+    },
+    "dialogue_0401": {
+      "text": {
+        "reference": "貴方は、どの様な料理がお好みですか。",
+        "translation": "What cuisine do you prefer?"
+      }
+    },
+    "dialogue_0402": {
+      "text": {
+        "reference": "ステーキ",
+        "translation": "Steak."
+      }
+    },
+    "dialogue_0403": {
+      "text": {
+        "reference": "魚料理",
+        "translation": "Fish."
+      }
+    },
+    "dialogue_0404": {
+      "text": {
+        "reference": "ラーメン",
+        "translation": "Ramen."
+      }
+    },
+    "dialogue_0405": {
+      "text": {
+        "reference": "携帯固形食料",
+        "translation": "Field rations."
+      }
+    },
+    "dialogue_0406": {
+      "text": {
+        "reference": "その様な犬のえさ、{n}私は食べる口を持っていません。",
+        "translation": "I have no mouth for such dog food."
+      }
+    },
+    "dialogue_0407": {
+      "text": {
+        "reference": "だいたい肉ばかり食べるから、{n}その様に血の気が多くなるのです。",
+        "translation": "Eating only meat makes you bloodthirsty."
+      }
+    },
+    "dialogue_0408": {
+      "text": {
+        "reference": "少しはつつしんだ方が、良いのでは。",
+        "translation": "You should practice moderation."
+      }
+    },
+    "dialogue_0409": {
+      "text": {
+        "reference": "その様な犬のえさ、{n}私は食べる口を持っていません。",
+        "translation": "I have no mouth for such dog food."
+      }
+    },
+    "dialogue_0410": {
+      "text": {
+        "reference": "まったく。{n}{WAIT}肉ばかり食べるから、凶暴になるのです。",
+        "translation": "Truly.{WAIT} Meat makes one savage."
+      }
+    },
+    "dialogue_0411": {
+      "text": {
+        "reference": "ほほう、好みが合いますね。{n}フカヒレやキャビアは、絶品ですからね。",
+        "translation": "Ah, our tastes agree. Shark fin and caviar are exquisite."
+      }
+    },
+    "dialogue_0412": {
+      "text": {
+        "reference": "至福の時とは、{n}ああいう物を食す時間を指すのでしょう。",
+        "translation": "True bliss is the hour spent eating such fare."
+      }
+    },
+    "dialogue_0413": {
+      "text": {
+        "reference": "ほほう、好みが合いますね。",
+        "translation": "Ah, our tastes agree."
+      }
+    },
+    "dialogue_0414": {
+      "text": {
+        "reference": "おおかた貴方の場合は、{n}シラスやニボシでしょうけれど。",
+        "translation": "Though yours is likely whitebait or dried sardines."
+      }
+    },
+    "dialogue_0415": {
+      "text": {
+        "reference": "お、{BEAT}これは失言を。",
+        "translation": "Ah,{BEAT} forgive that slip."
+      }
+    },
+    "dialogue_0416": {
+      "text": {
+        "reference": "ほほう、好みが合いますね。{n}{WAIT}十年に一度くらいは、{n}庶民の味も食しておきませぬと。",
+        "translation": "Ah, our tastes agree.{WAIT} One should sample common fare once a decade."
+      }
+    },
+    "dialogue_0417": {
+      "text": {
+        "reference": "何事も、勉強ですから。",
+        "translation": "Everything is education."
+      }
+    },
+    "dialogue_0418": {
+      "text": {
+        "reference": "ほほう。{n}{WAIT}風のうわさでは聞き及んでいますが、{n}いかんせん庶民の料理。",
+        "translation": "Ah.{WAIT} I have heard rumors, but it is commoners' food."
+      }
+    },
+    "dialogue_0419": {
+      "text": {
+        "reference": "私の手元には、届きません。{n}{WAIT}さぞかし、美味なのでしょうね。",
+        "translation": "It never reaches my table.{WAIT} It must be delicious."
+      }
+    },
+    "dialogue_0420": {
+      "text": {
+        "reference": "いい機会です。{n}これから食して来ましょう。",
+        "translation": "A fine opportunity. I shall go eat it now."
+      }
+    },
+    "dialogue_0421": {
+      "text": {
+        "reference": "ほほう。{n}これは変った趣味をお持ちだ。{n}貴方とは、気が合いそうです。",
+        "translation": "Ah. An unusual preference. We may get along."
+      }
+    },
+    "dialogue_0422": {
+      "text": {
+        "reference": "ふうむ。{n}{WAIT}あれはあれで、趣深いのですが。",
+        "translation": "Hmm.{WAIT} It has its own charm."
+      }
+    },
+    "dialogue_0423": {
+      "text": {
+        "reference": "これ以上貴方と話していても、{n}身のある会話はできそうにないですね。",
+        "translation": "Further talk will produce nothing worthwhile."
+      }
+    },
+    "dialogue_0424": {
+      "text": {
+        "reference": "別れを言う",
+        "translation": "Bid farewell."
+      }
+    },
+    "dialogue_0425": {
+      "text": {
+        "reference": "引き止める",
+        "translation": "Stop him."
+      }
+    },
+    "dialogue_0426": {
+      "text": {
+        "reference": "ご武運を。",
+        "translation": "May fortune favor you."
+      }
+    },
+    "dialogue_0427": {
+      "text": {
+        "reference": "もう二度と。{n}{WAIT}私の前に現われないで下さい。",
+        "translation": "Never again.{WAIT} Do not appear before me."
+      }
+    },
+    "dialogue_0428": {
+      "text": {
+        "reference": "しつこい人ですね。{n}{WAIT}分かりました。{n}貴方の熱意には、負けましたよ。",
+        "translation": "You are persistent.{WAIT} Very well. Your passion wins."
+      }
+    },
+    "dialogue_0429": {
+      "text": {
+        "reference": "なんですか。{n}これ以上、何の話があると言うのです。{n}{WAIT}さては、物乞いですか。",
+        "translation": "What more can there be to discuss?{WAIT} Are you begging?"
+      }
+    },
+    "dialogue_0430": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "ここに、{offered_item}だけあります。{n}少ないですが、貴方には十分でしょう。",
+        "translation": "Here is {offered_item}. It is little, but enough for you."
+      }
+    },
+    "dialogue_0431": {
+      "text": {
+        "reference": "しつこい人ですね。{n}{WAIT}いいでしょう。{n}剣をお取りなさい。",
+        "translation": "You are persistent.{WAIT} Very well. Draw your sword."
+      }
+    },
+    "dialogue_0432": {
+      "text": {
+        "reference": "相手になって差し上げます。",
+        "translation": "I shall face you."
+      }
+    },
+    "dialogue_0433": {
+      "text": {
+        "reference": "その物騒な物を、外しては頂けませんか。",
+        "translation": "Will you remove that dangerous object?"
+      }
+    },
+    "dialogue_0434": {
+      "text": {
+        "reference": "そう、そのSWORDです。",
+        "translation": "Yes, your SWORD."
+      }
+    },
+    "dialogue_0435": {
+      "text": {
+        "reference": "いいでしょう。{n}{WAIT}仲魔になる事、考えてもよさそうですね。",
+        "translation": "Very well.{WAIT} Perhaps I could join you."
+      }
+    },
+    "dialogue_0436": {
+      "text": {
+        "reference": "まあ、私を恐ろしいと思う気持ちは、{n}分からないこともありません。{n}いいでしょう。",
+        "translation": "I understand your fear of me. Very well."
+      }
+    },
+    "dialogue_0437": {
+      "text": {
+        "reference": "この契約書にサインする勇気が、",
+        "translation": "Do you possess the courage...",
+        "note": "Message 344 is completed by message 345: \"Do you possess the courage... / to sign this contract?\""
+      }
+    },
+    "dialogue_0438": {
+      "text": {
+        "reference": "貴方には、ありますかな。",
+        "translation": "to sign this contract?",
+        "note": "Message 345 completes message 344: \"Do you possess the courage... / to sign this contract?\""
+      }
+    },
+    "dialogue_0439": {
+      "text": {
+        "reference": "サインする",
+        "translation": "Sign."
+      }
+    },
+    "dialogue_0440": {
+      "text": {
+        "reference": "やめておく",
+        "translation": "Do not sign."
+      }
+    },
+    "dialogue_0441": {
+      "text": {
+        "reference": "後悔は、{BEAT}しないのですね。{n}{WAIT}いいでしょう。",
+        "translation": "You will not{BEAT} regret this?{WAIT} Very well."
+      }
+    },
+    "dialogue_0442": {
+      "text": {
+        "reference": "後悔は、{BEAT}しないのですね。",
+        "translation": "You will not{BEAT} regret this?"
+      }
+    },
+    "dialogue_0443": {
+      "text": {
+        "reference": "後悔は、{BEAT}しないのですね。{n}{WAIT}では契約通り、{n}貴方の魂を頂きます。",
+        "translation": "You will not{BEAT} regret this?{WAIT} Then by contract, I take your soul."
+      }
+    },
+    "dialogue_0444": {
+      "text": {
+        "reference": "そうですか。{n}では貴方の望みは、何なのです。",
+        "translation": "I see. Then what do you desire?"
+      }
+    },
+    "dialogue_0445": {
+      "text": {
+        "reference": "人の子よ。{n}{WAIT}ここは異界。{n}貴方は、招かれざる訪問者なのですよ。",
+        "translation": "Human.{WAIT} This is another world. You are uninvited."
+      }
+    },
+    "dialogue_0446": {
+      "text": {
+        "reference": "血生臭いあまたの危険が、{n}舌なめずりして待っています。",
+        "translation": "Countless bloodstained dangers await, licking their lips."
+      }
+    },
+    "dialogue_0447": {
+      "text": {
+        "reference": "それでも、探索を続けるのですか。",
+        "translation": "Will you still continue exploring?"
+      }
+    },
+    "dialogue_0448": {
+      "text": {
+        "reference": "その通り",
+        "translation": "Yes."
+      }
+    },
+    "dialogue_0449": {
+      "text": {
+        "reference": "続けたくはないが",
+        "translation": "I do not want to, but..."
+      }
+    },
+    "dialogue_0450": {
+      "text": {
+        "reference": "何が、貴方をそうさせるのです。",
+        "translation": "What drives you?"
+      }
+    },
+    "dialogue_0451": {
+      "text": {
+        "reference": "暗く長い迷宮の向こうに、{n}いったい何があると言うのです。",
+        "translation": "What lies beyond the long dark labyrinth?"
+      }
+    },
+    "dialogue_0452": {
+      "text": {
+        "reference": "何を言っても、無駄の様ですね。{n}{WAIT}よろしい。{n}私が力を貸して差し上げましょう。",
+        "translation": "Words are wasted on you.{WAIT} Very well. I shall lend my strength."
+      }
+    },
+    "dialogue_0453": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "何を言っても、無駄の様ですね。{n}{WAIT}分かりました。{n}{offered_item}を、差し上げましょう。",
+        "translation": "Words are wasted on you.{WAIT} I understand. Take {offered_item}."
+      }
+    },
+    "dialogue_0454": {
+      "text": {
+        "reference": "道中、お役立て下さい。{n}{WAIT}それでは、{BEAT}ご武運を。",
+        "translation": "Use it on your journey.{WAIT} May fortune favor you.{BEAT}"
+      }
+    },
+    "dialogue_0455": {
+      "text": {
+        "reference": "ははは、正直な御仁だ。{n}{WAIT}その素直さ、気に入りました。",
+        "translation": "Ha ha, an honest man.{WAIT} I like your candor."
+      }
+    },
+    "dialogue_0456": {
+      "text": {
+        "reference": "ここで弱音を吐いて、どうするのです。{n}顔を上げなさい。{n}{WAIT}うむ、目は光を失っていない様子。",
+        "translation": "Why show weakness now? Lift your face.{WAIT} Good. Your eyes retain their light."
+      }
+    },
+    "dialogue_0457": {
+      "text": {
+        "reference": "その光で、{n}暗く険しい道のりを照らすのです。",
+        "translation": "Use that light to illuminate the dark road."
+      }
+    },
+    "dialogue_0458": {
+      "text": {
+        "reference": "ご武運を祈っておりますよ。",
+        "translation": "I pray fortune favors you."
+      }
+    },
+    "dialogue_0459": {
+      "text": {
+        "reference": "この先も、道のりは険しそうですね。",
+        "translation": "The road ahead seems harsh."
+      }
+    },
+    "dialogue_0460": {
+      "text": {
+        "reference": "私が力を貸して差し上げても、{n}よろしいのですよ。",
+        "translation": "I may lend you my strength."
+      }
+    },
+    "dialogue_0461": {
+      "text": {
+        "reference": "貴方が、どうしてもと言うのなら。",
+        "translation": "If you insist."
+      }
+    },
+    "dialogue_0462": {
+      "text": {
+        "reference": "どうしても",
+        "translation": "I insist."
+      }
+    },
+    "dialogue_0463": {
+      "text": {
+        "reference": "お断りだ",
+        "translation": "I refuse."
+      }
+    },
+    "dialogue_0464": {
+      "text": {
+        "reference": "あまり、身のある話はできませんでしたが。{n}{WAIT}楽しい一時を過ごさせて頂きました。",
+        "translation": "Our talk lacked substance,{WAIT} but I enjoyed it."
+      }
+    },
+    "dialogue_0465": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "これはただの{offered_item}ですが、{n}受け取ってくれませんか。{n}気持ちです。",
+        "translation": "This is only {offered_item}, but please accept it. It is my regard."
+      }
+    },
+    "dialogue_0466": {
+      "text": {
+        "reference": "どうやら、時間の無駄だった様ですね。{n}ごきげんよう、デビルサマナー殿。",
+        "translation": "It seems this was wasted time. Farewell, Devil Summoner."
+      }
+    },
+    "dialogue_0467": {
+      "text": {
+        "reference": "この先はサマナーとしてではなく、{n}貴方個人の意見としてお聞きしたい。",
+        "translation": "I ask now not as a Summoner, but for your personal view."
+      }
+    },
+    "dialogue_0468": {
+      "text": {
+        "reference": "貴方にとって、悪魔とはどんな存在ですか。",
+        "translation": "What are demons to you?"
+      }
+    },
+    "dialogue_0469": {
+      "text": {
+        "reference": "人間と同じ",
+        "translation": "The same as humans."
+      }
+    },
+    "dialogue_0470": {
+      "text": {
+        "reference": "優れた生き物",
+        "translation": "Superior beings."
+      }
+    },
+    "dialogue_0471": {
+      "text": {
+        "reference": "下僕",
+        "translation": "Servants."
+      }
+    },
+    "dialogue_0472": {
+      "text": {
+        "reference": "勘違いも、いいところだ。",
+        "translation": "Your misconception is astonishing."
+      }
+    },
+    "dialogue_0473": {
+      "text": {
+        "reference": "貴方達の様に下等な生物と一緒にされては、{n}いい迷惑です。{n}{WAIT}少しは、わきまえた方かと思いましたが。",
+        "translation": "Do not compare us with inferior creatures like you.{WAIT} I thought you knew your place."
+      }
+    },
+    "dialogue_0474": {
+      "text": {
+        "reference": "千年早い。",
+        "translation": "A thousand years too soon."
+      }
+    },
+    "dialogue_0475": {
+      "text": {
+        "reference": "剣をお抜きなさい。{n}己の未熟さ、その体で思い知るが良い。",
+        "translation": "Draw your sword. Learn your immaturity with your own body."
+      }
+    },
+    "dialogue_0476": {
+      "text": {
+        "reference": "良く分かっていらっしゃる。{n}気に入りました。{n}{WAIT}仲魔になる事、考えてもよさそうですね。",
+        "translation": "You understand well. I like you.{WAIT} Perhaps I could join you."
+      }
+    },
+    "dialogue_0477": {
+      "text": {
+        "reference": "当たり前です。{n}{WAIT}貴方達と一緒にされては、たまりません。",
+        "translation": "Naturally.{WAIT} Do not compare us with you."
+      }
+    },
+    "dialogue_0478": {
+      "text": {
+        "reference": "それが貴方の本心ですか。{n}{WAIT}貴方とは、相入れませんね。",
+        "translation": "Is that your true feeling?{WAIT} We cannot coexist."
+      }
+    },
+    "dialogue_0479": {
+      "text": {
+        "reference": "私に対する挑戦ですね。{n}いいでしょう。",
+        "translation": "A challenge to me? Very well."
+      }
+    },
+    "dialogue_0480": {
+      "text": {
+        "reference": "いい武器をお持ちだ。{n}まさに、貴方の様な武人にふさわしい。",
+        "translation": "A fine weapon, fitting a warrior like you."
+      }
+    },
+    "dialogue_0481": {
+      "text": {
+        "reference": "そのSWORD、見せて頂けませんか。",
+        "translation": "May I see that SWORD?"
+      }
+    },
+    "dialogue_0482": {
+      "text": {
+        "reference": "渡す",
+        "translation": "Hand it over."
+      }
+    },
+    "dialogue_0483": {
+      "text": {
+        "reference": "見せるだけ",
+        "translation": "Only show it."
+      }
+    },
+    "dialogue_0484": {
+      "text": {
+        "reference": "見せない",
+        "translation": "Do not show it."
+      }
+    },
+    "dialogue_0485": {
+      "text": {
+        "reference": "見事だ。{n}この様な得物を手にできた事、{n}武人としてのほまれです。",
+        "translation": "Splendid. Possessing such a weapon honors any warrior."
+      }
+    },
+    "dialogue_0486": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "これは、お返しします。{n}それから、{offered_item}を。{n}{WAIT}すばらしい物を見せて頂いたお礼ですよ。",
+        "translation": "I return it. And take {offered_item}.{WAIT} My thanks for the sight."
+      }
+    },
+    "dialogue_0487": {
+      "text": {
+        "reference": "敵前で武器を外すとは、おろかな。{n}お命、頂きますよ。",
+        "translation": "Removing a weapon before an enemy is foolish. Your life is mine."
+      }
+    },
+    "dialogue_0488": {
+      "text": {
+        "reference": "見事だ。{n}{WAIT}この様な得物を手にできるとは、{n}貴方は運が良い。",
+        "translation": "Splendid.{WAIT} You are fortunate to possess such a weapon."
+      }
+    },
+    "dialogue_0489": {
+      "text": {
+        "reference": "見事だ。{n}{WAIT}この様な得物、{n}貴方にはもったいない。",
+        "translation": "Splendid.{WAIT} Such a weapon is wasted on you."
+      }
+    },
+    "dialogue_0490": {
+      "text": {
+        "reference": "心の狭い御仁だ。{n}私が奪うとでも、思ったのですか。{n}{WAIT}失望しました。",
+        "translation": "How narrow-minded. Did you think I would steal it?{WAIT} I am disappointed."
+      }
+    },
+    "dialogue_0491": {
+      "text": {
+        "reference": "心の狭い御仁だ。{n}私が奪うとでも、思ったのですか。{n}{WAIT}その通りです。",
+        "translation": "How narrow-minded. Did you think I would steal it?{WAIT} Correct."
+      }
+    },
+    "dialogue_0492": {
+      "text": {
+        "reference": "貴方、何か臭いますね。{n}{WAIT}それに、{BEAT}そのみすぼらしい格好ときたら。{n}見るに耐えかねます。",
+        "translation": "You smell.{WAIT} And those shabby clothes are unbearable.{BEAT}"
+      }
+    },
+    "dialogue_0493": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}を、差し上げましょう。",
+        "translation": "I shall give you {offered_item}."
+      }
+    },
+    "dialogue_0494": {
+      "text": {
+        "reference": "新しい靴でも、お買いなさい。",
+        "translation": "Buy new shoes."
+      }
+    },
+    "dialogue_0495": {
+      "text": {
+        "reference": "受け取る",
+        "translation": "Accept it."
+      }
+    },
+    "dialogue_0496": {
+      "text": {
+        "reference": "投げ返す",
+        "translation": "Throw it back."
+      }
+    },
+    "dialogue_0497": {
+      "text": {
+        "reference": "貴方の仲魔にだけは、{n}なりたくありませんね。",
+        "translation": "I would never join you."
+      }
+    },
+    "dialogue_0498": {
+      "text": {
+        "reference": "その、あさましい心はともかく。{n}{WAIT}身なりだけでも、{n}きちんと整えるがよろしい。",
+        "translation": "Set aside your base heart.{WAIT} At least dress properly."
+      }
+    },
+    "dialogue_0499": {
+      "text": {
+        "reference": "あぁ、{BEAT}そこまで落ちぶれていようとは。{n}{WAIT}貴方には、{n}プライドというものがないのですか。",
+        "translation": "Ah,{BEAT} you have sunk so low.{WAIT} Have you no pride?"
+      }
+    },
+    "dialogue_0500": {
+      "text": {
+        "reference": "あぁ、{BEAT}そこまで落ちぶれていようとは。{n}{WAIT}あの世で、{n}かせいだ金の使い道でも考えていれば良い！",
+        "translation": "Ah,{BEAT} you have sunk so low.{WAIT} Consider how to spend money in the afterlife!"
+      }
+    },
+    "dialogue_0501": {
+      "text": {
+        "reference": "ほほう。{n}少しは、骨があるようですね。",
+        "translation": "Ah. You have some backbone."
+      }
+    },
+    "dialogue_0502": {
+      "text": {
+        "reference": "私が仕えようというお方だ。{n}{WAIT}そうでなくては、困ります。",
+        "translation": "One I serve must possess it.{WAIT} Anything less would trouble me."
+      }
+    },
+    "dialogue_0503": {
+      "text": {
+        "reference": "ほほう。{n}{WAIT}それは、私に対する挑戦ですか。",
+        "translation": "Ah.{WAIT} Is that a challenge?"
+      }
+    },
+    "dialogue_0504": {
+      "text": {
+        "reference": "私に、何を求めるのです。",
+        "translation": "What do you seek from me?"
+      }
+    },
+    "dialogue_0505": {
+      "text": {
+        "reference": "仲魔",
+        "translation": "An ally."
+      }
+    },
+    "dialogue_0506": {
+      "text": {
+        "reference": "金",
+        "translation": "Money."
+      }
+    },
+    "dialogue_0507": {
+      "text": {
+        "reference": "マグネタイト",
+        "translation": "Magnetite."
+      }
+    },
+    "dialogue_0508": {
+      "text": {
+        "reference": "おろかな。{n}{WAIT}死すべき定めの人の子に、{n}この命、預けるわけにはまいりません。",
+        "translation": "Fool.{WAIT} I cannot entrust my life to a mortal human."
+      }
+    },
+    "dialogue_0509": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "やはり、金の事しか頭にない様ですね。{n}{WAIT}いいでしょう。{n}{offered_item}を、差し上げます。",
+        "translation": "Money fills your thoughts.{WAIT} Very well. Take {offered_item}."
+      }
+    },
+    "dialogue_0510": {
+      "text": {
+        "reference": "少ないですが、貴方には十分すぎる。",
+        "translation": "It is little, but far too much for you."
+      }
+    },
+    "dialogue_0511": {
+      "text": {
+        "reference": "やはり、金の事しか頭にない様ですね。{n}{WAIT}汚らわしい。",
+        "translation": "Money fills your thoughts.{WAIT} Disgusting."
+      }
+    },
+    "dialogue_0512": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "いいでしょう。{n}{offered_item}を、差し上げます。",
+        "translation": "Very well. Take {offered_item}."
+      }
+    },
+    "dialogue_0513": {
+      "text": {
+        "reference": "少ないですが、貴方には十分すぎる。",
+        "translation": "It is little, but far too much for you."
+      }
+    },
+    "dialogue_0514": {
+      "text": {
+        "reference": "物欲のかたまりですね、{BEAT}貴方は。",
+        "translation": "You are greed embodied,{BEAT} truly."
+      }
+    },
+    "dialogue_0515": {
+      "text": {
+        "reference": "物欲のかたまりが！{n}{WAIT}汚らわしい！！",
+        "translation": "Greed embodied!{WAIT} Disgusting!!"
+      }
+    },
+    "dialogue_0516": {
+      "text": {
+        "reference": "貴方、ずい分と腕が立ちそうですね。",
+        "translation": "You seem highly skilled."
+      }
+    },
+    "dialogue_0517": {
+      "text": {
+        "reference": "ぜひ、お手合わせを。",
+        "translation": "I insist on a match."
+      }
+    },
+    "dialogue_0518": {
+      "text": {
+        "reference": "受けて立つ",
+        "translation": "Accept."
+      }
+    },
+    "dialogue_0519": {
+      "text": {
+        "reference": "それでは！",
+        "translation": "Then!"
+      }
+    },
+    "dialogue_0520": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "我こそは{race}の一族、{n}{demon_name}と申す者。{n}{WAIT}いざ、{BEAT}お手並み拝見！",
+        "translation": "I am {demon_name} of the {race} clan.{WAIT} Now,{BEAT} show me your skill!"
+      }
+    },
+    "dialogue_0521": {
+      "text": {
+        "reference": "ならば、貴方に用はありません。",
+        "translation": "Then I have no use for you."
+      }
+    },
+    "dialogue_0522": {
+      "text": {
+        "reference": "もう二度と、私の前に現れないで頂きたい。{n}{WAIT}時間を無駄にしたくないので。",
+        "translation": "Never appear before me again.{WAIT} I will not waste my time."
+      }
+    },
+    "dialogue_0523": {
+      "text": {
+        "reference": "その物々しい出で立ちは、{n}見かけ倒しですか。",
+        "translation": "Is that imposing appearance a bluff?"
+      }
+    },
+    "dialogue_0524": {
+      "text": {
+        "reference": "ほほう。{n}後世まで、汚名を残すおつもりですかな。{n}{WAIT}もっとも。",
+        "translation": "Ah. You mean to leave infamy for posterity.{WAIT} Though...",
+        "note": "Opening fragment; message 422 page 1 (dialogue_0525) completes: Though... to a dying man, it hardly matters."
+      }
+    },
+    "dialogue_0525": {
+      "text": {
+        "reference": "死んでゆく貴方にとっては、{n}{BEAT}関係のない事ですが。",
+        "translation": "to a dying man,{BEAT} it hardly matters.",
+        "note": "Closing fragment; message 422 page 0 (dialogue_0524) supplies the lead-in ending: Though..."
+      }
+    },
+    "dialogue_0526": {
+      "text": {
+        "reference": "おやおや。{n}{WAIT}貴方にも、{n}プライドのかけらは残っていましたか。",
+        "translation": "Oh.{WAIT} A shred of pride remains?"
+      }
+    },
+    "dialogue_0527": {
+      "text": {
+        "reference": "最近、ちょろちょろとうるさい虫けらが、{n}この辺りを歩き回っているようで。",
+        "translation": "A noisy little insect has been scurrying around here."
+      }
+    },
+    "dialogue_0528": {
+      "text": {
+        "reference": "退治してやりたかったのですが。{n}なかなか、すばしっこい奴でしてね。{n}{WAIT}しかし、ようやく捕まえましたよ。",
+        "translation": "I wished to exterminate it, but it was nimble.{WAIT} At last, I caught it."
+      }
+    },
+    "dialogue_0529": {
+      "text": {
+        "reference": "さて、{BEAT}そろそろ。{n}{WAIT}おしゃべりも、終わりにしましょう。",
+        "translation": "Now,{BEAT} it is time.{WAIT} Let us end our talk."
+      }
+    },
+    "dialogue_0530": {
+      "text": {
+        "reference": "剣をお抜きなさい。",
+        "translation": "Draw your sword."
+      }
+    },
+    "dialogue_0531": {
+      "text": {
+        "reference": "応じる",
+        "translation": "Respond."
+      }
+    },
+    "dialogue_0532": {
+      "text": {
+        "reference": "命乞いをする",
+        "translation": "Beg for your life."
+      }
+    },
+    "dialogue_0533": {
+      "text": {
+        "reference": "せいぜい、{BEAT}楽しませて下さいよ。",
+        "translation": "At least{BEAT} entertain me."
+      }
+    },
+    "dialogue_0534": {
+      "text": {
+        "reference": "そうですね。{n}{WAIT}虫けらを斬ったとあらば、{n}我が剣が汚れてしまう。",
+        "translation": "True.{WAIT} Cutting an insect would soil my blade."
+      }
+    },
+    "dialogue_0535": {
+      "text": {
+        "reference": "ご忠告、感謝します。",
+        "translation": "Thank you for the counsel."
+      }
+    },
+    "dialogue_0536": {
+      "text": {
+        "reference": "ほほう。{n}{WAIT}この虫けらは、{n}なかなか美しい音をかなでる様だ。",
+        "translation": "Ah.{WAIT} This insect makes a lovely sound."
+      }
+    },
+    "dialogue_0537": {
+      "text": {
+        "reference": "この期に及んで。{n}{WAIT}虫は虫らしく、{n}はいつくばっていれば良いのです。",
+        "translation": "At this stage?{WAIT} Crawl like the insect you are."
+      }
+    },
+    "dialogue_0538": {
+      "text": {
+        "reference": "何を言っても、無駄の様ですね。{n}{WAIT}好きにするがよろしい。",
+        "translation": "Words are wasted on you.{WAIT} Do as you please."
+      }
+    },
+    "dialogue_0539": {
+      "text": {
+        "reference": "なんと！{n}{WAIT}それは一大事。{n}今すぐやめて頂かなくては。",
+        "translation": "What!?{WAIT} A grave matter. You must stop at once."
+      }
+    },
+    "dialogue_0540": {
+      "text": {
+        "reference": "ははは、正直な御仁だ。",
+        "translation": "Ha ha, an honest man."
+      }
+    },
+    "dialogue_0541": {
+      "text": {
+        "reference": "その真っ直ぐさ、{n}死につながらなければ良いが。",
+        "translation": "May such directness not lead to your death."
+      }
+    },
+    "dialogue_0542": {
+      "text": {
+        "reference": "弱音を吐いているようでは、{n}この先長くはありますまい。",
+        "translation": "If you speak weakness, your future is short."
+      }
+    },
+    "dialogue_0543": {
+      "text": {
+        "reference": "いっその事、{n}ここで終わった方が幸せかもしれませんよ。",
+        "translation": "Perhaps happiness lies in ending it here."
+      }
+    },
+    "dialogue_0544": {
+      "text": {
+        "reference": "それでは、契約とまいりましょう。",
+        "translation": "Then let us seal the contract."
+      }
+    },
+    "dialogue_0545": {
+      "placeholders": {
+        "requested_item": "item_name"
+      },
+      "text": {
+        "reference": "{requested_item}を、所望します。",
+        "translation": "I desire {requested_item}."
+      }
+    },
+    "dialogue_0546": {
+      "text": {
+        "reference": "これ以上話していても、{n}得る物はなさそうですね。{n}{WAIT}それでは、私はこの辺で。",
+        "translation": "Further talk offers nothing.{WAIT} I shall depart."
+      }
+    },
+    "dialogue_0547": {
+      "text": {
+        "reference": "ごきげんよう。",
+        "translation": "Farewell."
+      }
+    },
+    "dialogue_0548": {
+      "text": {
+        "reference": "これだけでは、話になりませんな。{n}なにせ、命がかかっていますので。",
+        "translation": "This alone will not suffice. My life is at stake."
+      }
+    },
+    "dialogue_0549": {
+      "text": {
+        "reference": "はて。{n}どうしたものか。",
+        "translation": "Hmm. What shall I do?"
+      }
+    },
+    "dialogue_0550": {
+      "text": {
+        "reference": "もう、結構です。{n}お話になりません。",
+        "translation": "Enough. This is no negotiation."
+      }
+    },
+    "dialogue_0551": {
+      "text": {
+        "reference": "何か頂いておきましょうか。",
+        "translation": "Perhaps I should take something."
+      }
+    },
+    "dialogue_0552": {
+      "text": {
+        "reference": "おやおや。{n}何も持っていないのですか。",
+        "translation": "Oh. You possess nothing?"
+      }
+    },
+    "dialogue_0553": {
+      "text": {
+        "reference": "この程度で、命を預けろ{BEAT}とでも。",
+        "translation": "You expect me to{BEAT} entrust my life for this?"
+      }
+    },
+    "dialogue_0554": {
+      "text": {
+        "reference": "期待した私が、おろかでした。",
+        "translation": "I was foolish to expect anything."
+      }
+    },
+    "dialogue_0555": {
+      "text": {
+        "reference": "それは、私に対する挑戦ですか。",
+        "translation": "Is that a challenge?"
+      }
+    },
+    "dialogue_0556": {
+      "text": {
+        "reference": "この辺で、手を打ちますか。",
+        "translation": "Shall we settle on this?"
+      }
+    },
+    "dialogue_0557": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "私は{race}、{demon_name}。{n}{BEAT}いざ、我が命果つるまで。",
+        "translation": "I am {demon_name} of {race}.{BEAT} Until my life ends."
+      }
+    },
+    "dialogue_0558": {
+      "text": {
+        "reference": "おや。",
+        "translation": "Oh."
+      }
+    },
+    "dialogue_0559": {
+      "text": {
+        "reference": "ご自分の仲魔の数も、{n}管理できないようですね。",
+        "translation": "You cannot even manage your number of allies."
+      }
+    },
+    "dialogue_0560": {
+      "text": {
+        "reference": "もう少し人数を減らしてから、{n}声をかけて下さい。",
+        "translation": "Reduce your company, then speak to me."
+      }
+    },
+    "dialogue_0561": {
+      "text": {
+        "reference": "それまで、しばしのお別れです。",
+        "translation": "Until then, farewell."
+      }
+    },
+    "dialogue_0562": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "いいでしょう。{n}代わりと言ってはなんですが、{n}{offered_item}を、どうぞ。",
+        "translation": "Very well. Take {offered_item} instead."
+      }
+    },
+    "dialogue_0563": {
+      "text": {
+        "reference": "楽しい一時でしたよ。{n}{WAIT}それでは、ごきげんよう。",
+        "translation": "I enjoyed our time.{WAIT} Farewell."
+      }
+    },
+    "dialogue_0564": {
+      "text": {
+        "reference": "もう少し、考える時間を下さい。{n}人生の転機となる、取り引きなので。",
+        "translation": "Give me more time. This bargain may alter my life."
+      }
+    },
+    "dialogue_0565": {
+      "text": {
+        "reference": "帰らせて頂きます。",
+        "translation": "I shall leave."
+      }
+    },
+    "dialogue_0566": {
+      "text": {
+        "reference": "貴方とは、話したくありません。",
+        "translation": "I do not wish to speak with you."
+      }
+    },
+    "dialogue_0567": {
+      "text": {
+        "reference": "ことわる",
+        "translation": "Refuse."
+      }
+    },
+    "dialogue_0568": {
+      "text": {
+        "reference": "おや。{n}{WAIT}ご自分の仲魔の数も、{n}管理できないようですね。",
+        "translation": "Oh.{WAIT} You cannot manage your number of allies."
+      }
+    },
+    "dialogue_0569": {
+      "text": {
+        "reference": "もう少し人数を減らしてから、{n}声をかけて下さい。",
+        "translation": "Reduce your company, then speak to me."
+      }
+    },
+    "dialogue_0570": {
+      "text": {
+        "reference": "それまで、しばしのお別れです。",
+        "translation": "Until then, farewell."
+      }
+    },
+    "dialogue_0571": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "私は{race}、{demon_name}。{n}{BEAT}いざ、共に倒れ逝く{BEAT}その時まで。",
+        "translation": "I am {demon_name} of {race}.{BEAT} Until the hour we fall together.{BEAT}"
+      }
+    },
+    "dialogue_0572": {
+      "text": {
+        "reference": "うむ。{n}{WAIT}人の子に指図されるのは、{n}やはり抵抗がありますね。",
+        "translation": "Hmm.{WAIT} I resist taking orders from a human."
+      }
+    },
+    "dialogue_0573": {
+      "placeholders": {
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "私も、{race}のはしくれ。{n}我が一族の名を汚す事はできません。",
+        "translation": "I too bear the name {race}. I cannot disgrace my clan."
+      }
+    },
+    "dialogue_0574": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "代わりと言ってはなんですが、{n}{offered_item}を、どうぞ。{n}{WAIT}それでは、ご武運を。",
+        "translation": "Take {offered_item} instead.{WAIT} May fortune favor you."
+      }
+    },
+    "dialogue_0575": {
+      "placeholders": {
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "私も、{race}のはしくれ。{n}我が一族の名を汚す事はできません。{n}{WAIT}申し訳ありませんが、そういうことです。",
+        "translation": "I too bear the name {race}. I cannot disgrace my clan.{WAIT} Forgive me."
+      }
+    },
+    "dialogue_0576": {
+      "text": {
+        "reference": "嫌な月だ。{n}{WAIT}胸騒ぎがします。{n}何かが起こりそうな予感が。",
+        "translation": "A hateful moon.{WAIT} I feel foreboding. Something will happen."
+      }
+    },
+    "dialogue_0577": {
+      "text": {
+        "reference": "争い事は、嫌ですね。",
+        "translation": "I detest conflict."
+      }
+    },
+    "dialogue_0578": {
+      "text": {
+        "reference": "まったくその通り",
+        "translation": "Exactly."
+      }
+    },
+    "dialogue_0579": {
+      "text": {
+        "reference": "そうでもない",
+        "translation": "Not necessarily."
+      }
+    },
+    "dialogue_0580": {
+      "text": {
+        "reference": "争い事は好きだ",
+        "translation": "I enjoy conflict."
+      }
+    },
+    "dialogue_0581": {
+      "text": {
+        "reference": "かと言って、黙って見ているだけでは、{n}進歩がありません。",
+        "translation": "Yet silently watching achieves no progress."
+      }
+    },
+    "dialogue_0582": {
+      "text": {
+        "reference": "貴方は、{n}その辺りを心得ていらっしゃる様だ。{n}{WAIT}気が合いそうですね。",
+        "translation": "You understand that.{WAIT} We may get along."
+      }
+    },
+    "dialogue_0583": {
+      "text": {
+        "reference": "やはり、これ以上火種が大きくなる前に、{n}消してしまった方がいいのでしょうか。",
+        "translation": "Perhaps the spark should be extinguished before it grows."
+      }
+    },
+    "dialogue_0584": {
+      "text": {
+        "reference": "貴方といる所を他の者に見られでもしたら、{n}それこそトラブルの元です。",
+        "translation": "Being seen with you would itself invite trouble."
+      }
+    },
+    "dialogue_0585": {
+      "text": {
+        "reference": "この辺で、おいとましましょうか。",
+        "translation": "I shall take my leave."
+      }
+    },
+    "dialogue_0586": {
+      "text": {
+        "reference": "これだから、教養のない人種とは{n}関わり合いたくないのです。",
+        "translation": "This is why I avoid the uneducated."
+      }
+    },
+    "dialogue_0587": {
+      "text": {
+        "reference": "貴方の様な害虫は、{n}大きくなる前につぶす他ないですね。",
+        "translation": "A pest like you must be crushed before it grows."
+      }
+    },
+    "dialogue_0588": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "恐ろしいお方だ。{n}{WAIT}ここに、{n}{offered_item}だけ置いていきます。",
+        "translation": "How frightening.{WAIT} I shall leave {offered_item}."
+      }
+    },
+    "dialogue_0589": {
+      "text": {
+        "reference": "これを持って、早々に立ち去って下さい。",
+        "translation": "Take it and leave at once."
+      }
+    },
+    "dialogue_0590": {
+      "text": {
+        "reference": "今宵あたり、ここで血が流れそうですね。",
+        "translation": "Blood may flow here tonight."
+      }
+    },
+    "dialogue_0591": {
+      "text": {
+        "reference": "言われてみれば",
+        "translation": "Now that you mention it..."
+      }
+    },
+    "dialogue_0592": {
+      "text": {
+        "reference": "気のせいだ",
+        "translation": "It is imagination."
+      }
+    },
+    "dialogue_0593": {
+      "text": {
+        "reference": "やっかい事には、{n}巻き込まれたくないものです。{n}{WAIT}貴方も、早くお帰りなさい。",
+        "translation": "I want no entanglement in trouble.{WAIT} Go home quickly."
+      }
+    },
+    "dialogue_0594": {
+      "text": {
+        "reference": "察しの良いお方だ。",
+        "translation": "How perceptive."
+      }
+    },
+    "dialogue_0595": {
+      "text": {
+        "reference": "満月の夜に出歩くなど、{n}無謀にも程があります。",
+        "translation": "Walking beneath a full moon is the height of folly."
+      }
+    },
+    "dialogue_0596": {
+      "text": {
+        "reference": "私がついて行って差し上げた方が、{n}よろしい様ですね。",
+        "translation": "It seems I should accompany you."
+      }
+    },
+    "dialogue_0597": {
+      "text": {
+        "reference": "気の立った連中が、{n}犠牲者を探して歩き回っているのですよ。",
+        "translation": "Agitated creatures roam seeking victims."
+      }
+    },
+    "dialogue_0598": {
+      "text": {
+        "reference": "満月の夜に出歩くなど、{n}無謀にも程があります。",
+        "translation": "Walking beneath a full moon is the height of folly."
+      }
+    },
+    "dialogue_0599": {
+      "text": {
+        "reference": "気の立った連中が、{n}犠牲者を探して歩き回っているのですよ。",
+        "translation": "Agitated creatures roam seeking victims."
+      }
+    },
+    "dialogue_0600": {
+      "text": {
+        "reference": "いつ襲われても、おかしくないというのに。{n}{WAIT}こんな風にね。",
+        "translation": "You could be attacked at any moment.{WAIT} Like this."
+      }
+    },
+    "dialogue_0601": {
+      "text": {
+        "reference": "血の気を失ったかの様に、おぼろげな月だ。",
+        "translation": "The moon is pale, as though drained of blood."
+      }
+    },
+    "dialogue_0602": {
+      "text": {
+        "reference": "貴方の血で、真っ赤に染め上げたら、{n}夜の闇が、もっと引き立つでしょうに。",
+        "translation": "Dyed red with your blood, it would better grace the darkness."
+      }
+    },
+    "dialogue_0603": {
+      "text": {
+        "reference": "気の利かない人ですね。",
+        "translation": "How obtuse."
+      }
+    },
+    "dialogue_0604": {
+      "text": {
+        "reference": "なるほど",
+        "translation": "I see."
+      }
+    },
+    "dialogue_0605": {
+      "text": {
+        "reference": "じょうだんじゃない",
+        "translation": "Do not be absurd."
+      }
+    },
+    "dialogue_0606": {
+      "text": {
+        "reference": "なるほど、{BEAT}ではありません。{n}{WAIT}まったく、大物なのやら鈍いのやら。{n}{WAIT}どのみち、放ってはおけませんね。",
+        "translation": "Not \"I see.\"{BEAT}{WAIT} Are you bold or simply dull?{WAIT} Either way, I cannot ignore you."
+      }
+    },
+    "dialogue_0607": {
+      "text": {
+        "reference": "仕方がない。{n}{WAIT}仲魔になって差し上げます。",
+        "translation": "It cannot be helped.{WAIT} I shall join you."
+      }
+    },
+    "dialogue_0608": {
+      "text": {
+        "reference": "まったく、今頃気付くとは。{n}{WAIT}では、行きますよ。",
+        "translation": "To notice only now.{WAIT} Let us go."
+      }
+    },
+    "dialogue_0609": {
+      "text": {
+        "reference": "まったく、今頃気付くとは。",
+        "translation": "To notice only now."
+      }
+    },
+    "dialogue_0610": {
+      "text": {
+        "reference": "ははは。{n}むきにならずとも、良いではありませんか。",
+        "translation": "Ha ha. Do not become so angry."
+      }
+    },
+    "dialogue_0611": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "ちょっと、冗談が過ぎましたか。{n}{WAIT}{offered_item}を、置いて行きます。",
+        "translation": "Perhaps my joke went too far.{WAIT} I shall leave {offered_item}."
+      }
+    },
+    "dialogue_0612": {
+      "text": {
+        "reference": "つまらない物ですが、{n}貴方には十分でしょう。{n}{WAIT}どうか、機嫌を直して下さい。",
+        "translation": "It is trifling, but enough for you.{WAIT} Please calm yourself."
+      }
+    },
+    "dialogue_0613": {
+      "text": {
+        "reference": "ははは。{n}むきにならずとも、良いではありませんか。",
+        "translation": "Ha ha. Do not become so angry."
+      }
+    },
+    "dialogue_0614": {
+      "text": {
+        "reference": "一文の値打ちもない貴方に、{n}存在意義を見い出して{n}差し上げたというのに。",
+        "translation": "I granted purpose to one worth not a coin."
+      }
+    },
+    "dialogue_0615": {
+      "text": {
+        "reference": "いえ。{n}{WAIT}冗談で申している訳ではありません。",
+        "translation": "No.{WAIT} I am not joking."
+      }
+    },
+    "dialogue_0616": {
+      "text": {
+        "reference": "ほほう、{BEAT}これは良い所に。",
+        "translation": "Ah,{BEAT} what fortunate timing."
+      }
+    },
+    "dialogue_0617": {
+      "text": {
+        "reference": "貴方とは、いずれ決着をつけねばと{n}思っていましたが。{n}ちょうど良い機会だ。",
+        "translation": "I thought we must settle matters someday. This is ideal."
+      }
+    },
+    "dialogue_0618": {
+      "text": {
+        "reference": "さあ、{BEAT}剣をお取りなさい。",
+        "translation": "Now,{BEAT} take your sword."
+      }
+    },
+    "dialogue_0619": {
+      "text": {
+        "reference": "勝負をつける",
+        "translation": "Settle the score."
+      }
+    },
+    "dialogue_0620": {
+      "text": {
+        "reference": "では、行きますよ。",
+        "translation": "Then let us begin."
+      }
+    },
+    "dialogue_0621": {
+      "text": {
+        "reference": "おや。{n}怖じ気づきましたか。",
+        "translation": "Oh. Have you lost your nerve?"
+      }
+    },
+    "dialogue_0622": {
+      "text": {
+        "reference": "まあ、仕方がないですかね。{n}{WAIT}相手が私だけに。",
+        "translation": "Understandable.{WAIT} Your opponent is me."
+      }
+    },
+    "dialogue_0623": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}を、置いて行きます。{n}これで、まともな装備でも買いなさい。",
+        "translation": "I shall leave {offered_item}. Buy decent equipment."
+      }
+    },
+    "dialogue_0624": {
+      "text": {
+        "reference": "まあ、仕方がないですね。{n}{WAIT}相手が私だけに。{n}{WAIT}は{BEAT}は{BEAT}は{BEAT}は{BEAT}。",
+        "translation": "Understandable.{WAIT} Your opponent is me.{WAIT} Ha{BEAT} ha{BEAT} ha{BEAT} ha!{BEAT}"
+      }
+    },
+    "dialogue_0625": {
+      "text": {
+        "reference": "問{BEAT}答{BEAT}無用！！",
+        "translation": "No{BEAT} more{BEAT} words!!"
+      }
+    },
+    "dialogue_0626": {
+      "text": {
+        "reference": "貴方と行動を共にするのは、{n}確かに魅力的な話ですが。{n}{BEAT}お仲魔が、どうも……",
+        "translation": "Traveling with you is attractive,{BEAT} but your allies..."
+      }
+    },
+    "dialogue_0627": {
+      "text": {
+        "reference": "貴方と行動を共にするのは、{n}確かに魅力的な話ですが。{n}{BEAT}お仲魔が、どうも……",
+        "translation": "Traveling with you is attractive,{BEAT} but your allies..."
+      }
+    },
+    "dialogue_0628": {
+      "text": {
+        "reference": "申し訳ありませんが、そういうことです。",
+        "translation": "Forgive me. That is the situation."
+      }
+    },
+    "dialogue_0629": {
+      "text": {
+        "reference": "貴方と行動を共にするのは、{n}確かに魅力的な話ですが。{n}{WAIT}その程度の実力では、やはり……",
+        "translation": "Traveling with you is attractive,{WAIT} but your strength..."
+      }
+    },
+    "dialogue_0630": {
+      "text": {
+        "reference": "私と同レベルの力を持ってからでも、{n}遅くはないでしょう。",
+        "translation": "Reach my level first. It will not be too late."
+      }
+    },
+    "dialogue_0631": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}を、差し上げます。{n}{WAIT}修行に役立てて下さい。",
+        "translation": "Take {offered_item}.{WAIT} Use it in training."
+      }
+    },
+    "dialogue_0632": {
+      "text": {
+        "reference": "貴方には良き友、{n}そして{BEAT}良きライバルであって欲しいのです。",
+        "translation": "I want you as a good friend{BEAT} and a worthy rival."
+      }
+    },
+    "dialogue_0633": {
+      "text": {
+        "reference": "何かが起こりそうな夜ですね",
+        "translation": "A night when something may happen."
+      }
+    },
+    "dialogue_0634": {
+      "text": {
+        "reference": "少々、よろしいですかな。{n}{WAIT}同族の者が、{n}お世話になっている様子なので。",
+        "translation": "May I have a moment?{WAIT} My kin seem indebted to you."
+      }
+    },
+    "dialogue_0635": {
+      "text": {
+        "reference": "一言あいさつを、{BEAT}と思いまして。",
+        "translation": "I wished to offer a greeting.{BEAT}"
+      }
+    },
+    "dialogue_0636": {
+      "text": {
+        "reference": "待たれよ、サマナー殿。",
+        "translation": "Wait, Summoner."
+      }
+    },
+    "dialogue_0637": {
+      "text": {
+        "reference": "誤解は、お互いを真に理解しようとすれば、{n}未然に防げるもの。{n}{WAIT}私達の場合とて、遅すぎはしますまい。",
+        "translation": "Misunderstandings may be forestalled when both sides seek true understanding.{WAIT} Surely it is not too late for us."
+      }
+    },
+    "dialogue_0638": {
+      "placeholders": {
+        "offered_item": "item_name"
+      },
+      "text": {
+        "reference": "{offered_item}を、差し上げます。{n}{WAIT}これで、和解と致しましょう。",
+        "translation": "I offer you {offered_item}.{WAIT} Let this settle our differences."
+      }
+    },
+    "condition_charmed": {
+      "text": {
+        "reference": "あぁ この胸の高なりはいったい……",
+        "translation": "Ah... Why does my heart pound so...?",
+        "reviewed": true
+      }
+    },
+    "condition_happy": {
+      "text": {
+        "reference": "美しい ここは夢の様に美しい",
+        "translation": "Beautiful... This place is like a dream.",
+        "reviewed": true
+      }
+    },
+    "condition_confused": {
+      "text": {
+        "reference": "おのれ まやかしとはひきょうな！",
+        "translation": "Curse you. Such trickery is cowardly!",
+        "reviewed": true
+      }
+    },
+    "condition_enraged": {
+      "text": {
+        "reference": "そろそろ終わりに致しましょうか",
+        "translation": "Shall we bring this to an end?",
+        "reviewed": true
+      }
+    },
+    "condition_talk_blocked": {
+      "text": {
+        "reference": "さあ 剣をお取りなさい",
+        "translation": "Now, take your sword.",
+        "reviewed": true
+      }
+    },
+    "condition_ally_veto": {
+      "text": {
+        "reference": "この様な外道を のさばらせてはおけません",
+        "translation": "I cannot let such a fiend run free.",
+        "reviewed": true
+      }
+    },
+    "condition_full_moon": {
+      "text": {
+        "reference": "何かが起こりそうな 夜ですね",
+        "translation": "It seems something may happen tonight.",
+        "reviewed": true
+      }
+    }
+  }
+}

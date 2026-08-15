@@ -28,10 +28,14 @@ _AUTHORED_SYMBOLS = frozenset({"mag_symbol", "yen_symbol"})
 _CONTROL_TOKENS = frozenset({"WAIT", "BEAT"})
 _PLACEHOLDER_TYPES = frozenset(
     {
+        "character_name",
+        "demon_name",
+        "demon_race",
         "display_value",
         "formatted_currency_amount",
         "item_name",
         "number",
+        "player_codename",
     }
 )
 _KINDS = frozenset({"entity_catalog", "surface_catalog"})

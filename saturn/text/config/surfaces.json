@@ -505,6 +505,24 @@
         }
       }
     },
+    "battle.negotiation_dialogue": {
+      "ja": {
+        "font": "font16",
+        "rows": 3,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 20
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 3,
+        "width": {
+          "unit": "pixels",
+          "value": 300
+        }
+      }
+    },
     "battle.demon_chat": {
       "ja": {
         "font": "font16",
