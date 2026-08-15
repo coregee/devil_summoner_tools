@@ -1,0 +1,501 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "condition_dead": {
+      "text": {
+        "reference": "DEAD",
+        "translation": "DEAD"
+      }
+    },
+    "condition_undead": {
+      "text": {
+        "reference": "UNDEAD",
+        "translation": "UNDEAD"
+      }
+    },
+    "condition_stone": {
+      "text": {
+        "reference": "STONE",
+        "translation": "STONE"
+      }
+    },
+    "condition_paralyzed": {
+      "text": {
+        "reference": "PALYZE",
+        "translation": "PARALYZE"
+      }
+    },
+    "condition_vamp": {
+      "text": {
+        "reference": "VAMP",
+        "translation": "VAMP"
+      }
+    },
+    "condition_mirror": {
+      "text": {
+        "reference": "MIRROR",
+        "translation": "MIRROR"
+      }
+    },
+    "condition_card": {
+      "text": {
+        "reference": "CARD",
+        "translation": "CARD"
+      }
+    },
+    "condition_charmed": {
+      "text": {
+        "reference": "CHARM",
+        "translation": "CHARM"
+      }
+    },
+    "condition_frozen": {
+      "text": {
+        "reference": "FREEZE",
+        "translation": "FREEZE"
+      }
+    },
+    "condition_shocked": {
+      "text": {
+        "reference": "SHOCK",
+        "translation": "SHOCK"
+      }
+    },
+    "condition_asleep": {
+      "text": {
+        "reference": "SLEEP",
+        "translation": "SLEEP"
+      }
+    },
+    "condition_bound": {
+      "text": {
+        "reference": "BIND",
+        "translation": "BIND"
+      }
+    },
+    "condition_panicked": {
+      "text": {
+        "reference": "PANIC",
+        "translation": "PANIC"
+      }
+    },
+    "condition_happy": {
+      "text": {
+        "reference": "HAPPY",
+        "translation": "HAPPY"
+      }
+    },
+    "condition_poisoned": {
+      "text": {
+        "reference": "POISON",
+        "translation": "POISON"
+      }
+    },
+    "condition_muted": {
+      "text": {
+        "reference": "CLOSE",
+        "translation": "MUTE"
+      }
+    },
+    "resource_hp": {
+      "text": {
+        "reference": "HP",
+        "translation": "HP"
+      }
+    },
+    "resource_mp": {
+      "text": {
+        "reference": "MP",
+        "translation": "MP"
+      }
+    },
+    "resource_hp_and_mp": {
+      "text": {
+        "reference": "HP＆MP",
+        "translation": "HP&MP"
+      }
+    },
+    "resource_max_hp": {
+      "text": {
+        "reference": "MAX＿HP",
+        "translation": "MAX_HP"
+      }
+    },
+    "stat_attack": {
+      "text": {
+        "reference": "攻撃力",
+        "translation": "Atk"
+      }
+    },
+    "stat_defense": {
+      "text": {
+        "reference": "防御力",
+        "translation": "Def"
+      }
+    },
+    "stat_accuracy": {
+      "text": {
+        "reference": "命中力",
+        "translation": "Acc"
+      }
+    },
+    "stat_magic_power": {
+      "text": {
+        "reference": "魔法威力",
+        "translation": "Magic"
+      }
+    },
+    "stat_level": {
+      "text": {
+        "reference": "Level",
+        "translation": "Level"
+      }
+    },
+    "current_status": {
+      "text": {
+        "reference": "Now＿in＿{OP:a3}{OP:a0}",
+        "translation": "Status_{OP:a3}{OP:a0}"
+      }
+    },
+    "command_sword": {
+      "text": {
+        "reference": "SWORD{OP:a0}",
+        "translation": "SWORD{OP:a0}"
+      }
+    },
+    "command_gun": {
+      "text": {
+        "reference": "GUN{OP:a0}",
+        "translation": "GUN{OP:a0}"
+      }
+    },
+    "command_dynamic": {
+      "text": {
+        "reference": "{OP:a2}{OP:a0}",
+        "translation": "{OP:a2}{OP:a0}"
+      }
+    },
+    "command_dynamic_bracketed": {
+      "text": {
+        "reference": "【{OP:a1}】{OP:a0}",
+        "translation": "【{OP:a1}】{OP:a0}"
+      }
+    },
+    "command_comp": {
+      "text": {
+        "reference": "COMP{OP:a0}",
+        "translation": "COMP{OP:a0}"
+      }
+    },
+    "command_guard": {
+      "text": {
+        "reference": "GUARD{OP:a0}",
+        "translation": "GUARD{OP:a0}"
+      }
+    },
+    "command_move": {
+      "text": {
+        "reference": "MOVE{OP:a0}",
+        "translation": "MOVE{OP:a0}"
+      }
+    },
+    "command_return": {
+      "text": {
+        "reference": "RETURN{OP:a0}",
+        "translation": "RETURN{OP:a0}"
+      }
+    },
+    "command_escape": {
+      "text": {
+        "reference": "ESCAPE{OP:a0}",
+        "translation": "ESCAPE{OP:a0}"
+      }
+    },
+    "command_guard_alternate": {
+      "text": {
+        "reference": "GUARD{OP:a0}",
+        "translation": "GUARD{OP:a0}"
+      }
+    },
+    "command_attack": {
+      "text": {
+        "reference": "ATTACK{OP:a0}",
+        "translation": "ATTACK{OP:a0}"
+      }
+    },
+    "command_boycott": {
+      "text": {
+        "reference": "Boycott{OP:a0}",
+        "translation": "Boycott{OP:a0}"
+      }
+    },
+    "command_go": {
+      "text": {
+        "reference": "GO{OP:a0}",
+        "translation": "GO{OP:a0}"
+      }
+    },
+    "command_offense": {
+      "text": {
+        "reference": "OFFENSE{OP:a0}",
+        "translation": "OFFENSE{OP:a0}"
+      }
+    },
+    "command_defense": {
+      "text": {
+        "reference": "DEFENSE{OP:a0}",
+        "translation": "DEFENSE{OP:a0}"
+      }
+    },
+    "command_magic": {
+      "text": {
+        "reference": "＿MAGIC{OP:a0}",
+        "translation": "_MAGIC{OP:a0}"
+      }
+    },
+    "command_extra": {
+      "text": {
+        "reference": "＿EXTRA{OP:a0}",
+        "translation": "_EXTRA{OP:a0}"
+      }
+    },
+    "result_critical": {
+      "text": {
+        "reference": "ー会心ー{OP:a0}",
+        "translation": "ーCRITICALー{OP:a0}"
+      }
+    },
+    "result_fatal": {
+      "text": {
+        "reference": "ー必殺ー{OP:a0}",
+        "translation": "ーFATALー{OP:a0}"
+      }
+    },
+    "result_reflect": {
+      "text": {
+        "reference": "ー反射ー{OP:a0}",
+        "translation": "ーREFLECTー{OP:a0}"
+      }
+    },
+    "result_physical_reflect": {
+      "text": {
+        "reference": "ー物理反射ー{OP:a0}",
+        "translation": "ーPHYS_REFLECTー{OP:a0}"
+      }
+    },
+    "result_magic_reflect": {
+      "text": {
+        "reference": "ー魔法反射ー{OP:a0}",
+        "translation": "ーMAG_REFLECTー{OP:a0}"
+      }
+    },
+    "result_dynamic_reflect": {
+      "text": {
+        "reference": "ー{OP:a2}ー{OP:a0}",
+        "translation": "ー{OP:a2}ー{OP:a0}"
+      }
+    },
+    "result_death_guard": {
+      "text": {
+        "reference": "ー呪殺防御ー{OP:a0}",
+        "translation": "ーDEATH_GUARDー{OP:a0}"
+      }
+    },
+    "result_drain": {
+      "text": {
+        "reference": "吸収{OP:a0}",
+        "translation": "DRAIN{OP:a0}"
+      }
+    },
+    "result_damage": {
+      "text": {
+        "reference": "Damage＿{NUM}{OP:a0}",
+        "translation": "Damage_{NUM}{OP:a0}"
+      },
+      "placeholders": {
+        "NUM": "number"
+      }
+    },
+    "result_no_effect": {
+      "text": {
+        "reference": "無効果{OP:a0}",
+        "translation": "No_Effect{OP:a0}"
+      }
+    },
+    "result_already_active": {
+      "text": {
+        "reference": "効果持続中ー無効ー{OP:a0}",
+        "translation": "Already_Up{OP:a0}"
+      }
+    },
+    "result_dodge": {
+      "text": {
+        "reference": "回避{OP:a0}",
+        "translation": "Dodge{OP:a0}"
+      }
+    },
+    "result_miss": {
+      "text": {
+        "reference": "失敗{OP:a0}",
+        "translation": "Miss{OP:a0}"
+      }
+    },
+    "result_out_of_range": {
+      "text": {
+        "reference": "攻撃範囲外{OP:a0}",
+        "translation": "Outranged{OP:a0}"
+      }
+    },
+    "result_resource_empty": {
+      "text": {
+        "reference": "{OP:a4}＿量無{OP:a0}",
+        "translation": "{OP:a4}_Empty{OP:a0}"
+      }
+    },
+    "result_insufficient_resource": {
+      "text": {
+        "reference": "{OP:a4}＿不足{OP:a0}",
+        "translation": "Insufficient_{OP:a4}{OP:a0}"
+      }
+    },
+    "result_resource_recovery": {
+      "text": {
+        "reference": "{OP:a4}＿回復{OP:a0}",
+        "translation": "{OP:a4}_Recovery{OP:a0}"
+      }
+    },
+    "result_status_recovery": {
+      "text": {
+        "reference": "{OP:a3}＿回復{OP:a0}",
+        "translation": "{OP:a3}_Recovery{OP:a0}"
+      }
+    },
+    "result_calmed_down": {
+      "text": {
+        "reference": "正気奪回{OP:a0}",
+        "translation": "Calmed_Down{OP:a0}"
+      }
+    },
+    "result_revived": {
+      "text": {
+        "reference": "復活{OP:a0}",
+        "translation": "Revived{OP:a0}"
+      }
+    },
+    "result_stat_up": {
+      "text": {
+        "reference": "{OP:a4}＿UP↑{OP:a0}",
+        "translation": "{OP:a4}_UP↑{OP:a0}"
+      }
+    },
+    "result_stat_down": {
+      "text": {
+        "reference": "{OP:a4}＿DOWN↓{OP:a0}",
+        "translation": "{OP:a4}_DOWN↓{OP:a0}"
+      }
+    },
+    "result_barrier_up": {
+      "text": {
+        "reference": "防御壁＿出現{OP:a0}",
+        "translation": "Barrier_Up{OP:a0}"
+      }
+    },
+    "result_repel_up": {
+      "text": {
+        "reference": "反射壁＿出現{OP:a0}",
+        "translation": "Repel_Up{OP:a0}"
+      }
+    },
+    "result_kaja_removed": {
+      "text": {
+        "reference": "Kaja＿解除{OP:a0}",
+        "translation": "Kaja_Off{OP:a0}"
+      }
+    },
+    "result_kunda_removed": {
+      "text": {
+        "reference": "Kunda＿解除{OP:a0}",
+        "translation": "Kunda_Off{OP:a0}"
+      }
+    },
+    "result_protect": {
+      "text": {
+        "reference": "Protect{OP:a0}",
+        "translation": "Protect{OP:a0}"
+      }
+    },
+    "result_a_shikai_removed": {
+      "text": {
+        "reference": "【AーSikai】＿消滅{OP:a0}",
+        "translation": "【A-Shikai】_Off{OP:a0}"
+      }
+    },
+    "result_no_ammo": {
+      "text": {
+        "reference": "ー弾切ー{OP:a0}",
+        "translation": "ーNo_Ammoー{OP:a0}"
+      }
+    },
+    "result_shut_down": {
+      "text": {
+        "reference": "EXTERMINATE{OP:a0}",
+        "translation": "SHUT_DOWN{OP:a0}"
+      }
+    },
+    "result_dynamic_status": {
+      "text": {
+        "reference": "{OP:a3}{OP:a0}",
+        "translation": "{OP:a3}{OP:a0}"
+      }
+    },
+    "command_attack_alternate": {
+      "text": {
+        "reference": "ATTACK{OP:a0}",
+        "translation": "ATTACK{OP:a0}"
+      }
+    },
+    "command_offense_plain": {
+      "text": {
+        "reference": "OFFENSE",
+        "translation": "OFFENSE"
+      }
+    },
+    "command_defense_plain": {
+      "text": {
+        "reference": "DEFENSE",
+        "translation": "DEFENSE"
+      }
+    },
+    "command_magic_plain": {
+      "text": {
+        "reference": "＿MAGIC",
+        "translation": "_MAGIC"
+      }
+    },
+    "command_extra_plain": {
+      "text": {
+        "reference": "＿EXTRA",
+        "translation": "_EXTRA"
+      }
+    },
+    "comp_unit_healed": {
+      "text": {
+        "reference": "COMP＿UNIT＿回復{OP:a0}",
+        "translation": "COMP_Healed{OP:a0}"
+      }
+    },
+    "comp_unit_revived": {
+      "text": {
+        "reference": "COMP＿UNIT＿復活{OP:a0}",
+        "translation": "COMP_Revived{OP:a0}"
+      }
+    },
+    "result_not_possessed": {
+      "text": {
+        "reference": "ー不所持ー{OP:a0}",
+        "translation": "ーNOT_POSSESSEDー{OP:a0}"
+      }
+    }
+  }
+}

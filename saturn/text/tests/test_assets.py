@@ -663,7 +663,7 @@ class AssetSchemaTests(unittest.TestCase):
 
             document["glyph_equivalence"] = {"002A": "a"}
             path.write_text(json.dumps(document), encoding="utf-8")
-            with self.assertRaisesRegex(ValueError, "lowercase four-digit hex"):
+            with self.assertRaisesRegex(ValueError, "lowercase two- or four-digit hex"):
                 load_binding(
                     path,
                     physical_records={"physical.tyr": physical_reference},
@@ -711,6 +711,51 @@ class AssetSchemaTests(unittest.TestCase):
                     "physical.literal": "{{GLYPH:0026}}",
                 },
             )
+
+    def test_one_byte_glyph_equivalence_is_lossless_and_explicit(self) -> None:
+        asset_document = {
+            "version": 1,
+            "kind": "surface_catalog",
+            "entries": {
+                "fatal": {
+                    "text": {
+                        "reference": "必殺",
+                        "translation": "Fatal",
+                    }
+                }
+            },
+        }
+        binding_document = {
+            "version": 1,
+            "asset": "console.json",
+            "records": {"physical.fatal": "fatal.text"},
+            "glyph_equivalence": {"4b": "殺"},
+        }
+        with tempfile.TemporaryDirectory() as raw_directory:
+            root = Path(raw_directory)
+            (root / "console.json").write_text(
+                json.dumps(asset_document), encoding="utf-8"
+            )
+            binding_path = root / "binding.json"
+            binding_path.write_text(
+                json.dumps(binding_document), encoding="utf-8"
+            )
+            load_binding(
+                binding_path,
+                asset_root=root,
+                physical_records={"physical.fatal": "必{GLYPH:4b}"},
+            )
+
+            binding_document["glyph_equivalence"] = {"004b": "殺"}
+            binding_path.write_text(
+                json.dumps(binding_document), encoding="utf-8"
+            )
+            with self.assertRaisesRegex(ValueError, "unused glyph equivalence"):
+                load_binding(
+                    binding_path,
+                    asset_root=root,
+                    physical_records={"physical.fatal": "必殺"},
+                )
 
     def test_boolean_versions_are_rejected(self) -> None:
         document = {

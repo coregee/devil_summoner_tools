@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "charmed": {
+      "text": {
+        "reference": "敵魅了中仮MES会話種族F会話不能",
+        "translation": "The charmed enemy cannot speak.",
+        "reviewed": true
+      }
+    },
+    "happy": {
+      "text": {
+        "reference": "敵幸福中仮MES会話種族F会話不能",
+        "translation": "The happy enemy cannot speak.",
+        "reviewed": true
+      }
+    },
+    "confused": {
+      "text": {
+        "reference": "敵混乱中仮MES会話種族F会話不能",
+        "translation": "The confused enemy cannot speak.",
+        "reviewed": true
+      }
+    },
+    "enraged": {
+      "text": {
+        "reference": "敵怒中仮MES会話種族F会話不能",
+        "translation": "The enemy is too enraged to speak.",
+        "reviewed": true
+      }
+    },
+    "talk_blocked": {
+      "text": {
+        "reference": "敵禁止中仮MES会話種族F会話不能",
+        "translation": "The enemy refuses to speak.",
+        "reviewed": true
+      }
+    },
+    "ally_veto": {
+      "text": {
+        "reference": "敵他禁止中仮MES会話種族F会話不能",
+        "translation": "We should not speak with this one.",
+        "reviewed": true
+      }
+    },
+    "full_moon": {
+      "text": {
+        "reference": "満月中仮MES会話種族F会話不能",
+        "translation": "The full moon leaves me unable to speak.",
+        "reviewed": true
+      }
+    },
+    "comp_signal_happy": {
+      "text": {
+        "reference": "COMP SIGNAL{GLYPH:010d}＞「HAPPY」",
+        "translation": "COMP SIGNAL{GLYPH:010d}> \"HAPPY\"",
+        "reviewed": true
+      }
+    }
+  }
+}

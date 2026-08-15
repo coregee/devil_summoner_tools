@@ -19,6 +19,11 @@ Runtime code may:
 - apply a declared numeric formatter;
 - measure, wrap, encode, and render the result.
 
+Typeface and glyph-set choices are platform consumer metadata, not special
+characters embedded in translations. A plain authored `GO` can therefore use
+the retained Saturn FONT8 capitals on a command surface and the normal English
+alphabet on another surface without duplicating or decorating the text.
+
 Runtime code must not own visible words, punctuation, word order, compact
 labels, or translated phrase fragments. Render-only derivatives such as
 compound glyphs and packed dictionaries are generated from these assets.
@@ -202,6 +207,10 @@ The mature implementations still contain visible wording that must move here;
 none of it is a runtime exemption. The current audit tracks:
 
 - the battle-result empty label;
+- locating the retail render selectors for the authored primary battle labels
+  `FIGHT`, `TALK`, `ESCAPE`, `AUTO`, `PRESET`, and `REPEAT`; the other battle,
+  COMP, shop, bar, and healer commands now have proved Saturn records and all
+  command surfaces select the preserved `stock_latin` face;
 - wiring character full/short name forms from `characters.json` into the
   remaining mature renderers;
 - wiring the mature Saturn status renderer to the complete readout templates,
@@ -217,8 +226,6 @@ none of it is a runtime exemption. The current audit tracks:
   fallback label, and complete detail template now stored in `save_load.json`;
 - the PSP first-VWF welcome line, and wiring the shared profile-entry assets
   while removing its old content-equality locks;
-- config compound glyphs, which must be generated from editable labels rather
-  than maintained as independent phrase fragments;
 - every visible word in title, menu, or other artwork.
 
 This checklist is an audit seed, not proof of completeness. Consumer coverage
@@ -289,8 +296,40 @@ runtime-supplied number or selected value. The seven AUTO commands live in
 editable too. Twenty-four stock ASCII records bind these assets to exact
 `NORMCOM.BIN` offsets, while bitmap-only Japanese labels remain grounded in
 pinned retail regions. The English stays faithful to the mature Saturn output.
+
+The command slice owns all battle, COMP, shop, bar, and healer menu wording as
+ordinary editable fields. Thirty-seven newly catalogued Saturn records bind
+the proved tables, including three byte-identical physical copies of the
+16-entry battle action table. Retail `OFFENCE` and `DEFENCE` remain explicit
+battle-table variants of the shared `OFFENSE` and `DEFENSE` terminology, and
+the bonus compound cells used to draw `REVIVE` and `STATUS` are normalized only
+at their physical bindings. Typeface selection remains platform metadata: each
+of these consumers requests FONT8's preserved `stock_latin` reference set.
 Bitmap generation and phrase compression remain derived rendering work; they
 are not second translation sources.
+
+The Options slice groups the two-page Saturn menu into settings, reusable value
+domains, ordering-popup categories, controller actions, and state-dependent
+footer prompts in `ui/options.json`. All 38 `CFG_SET.BIN` records have one
+explicit binding and retain the mature Saturn English. Renderer-only pieces
+such as `AR`, `ign`, and the old ordering-popup compound syllables are not
+authored fields; a future repacker must derive any packed glyphs from the
+complete editable words. The identical PSP Auto Map and speed values can reuse
+these fields, while its revised battle-message source is an explicit reference
+variant rather than a copied translation.
+
+The battle slice gives the remaining 82 visible small-font console records,
+all 203 visible Demon Chat records, 19 battle-help lines, 24 general command
+help lines, four provisioning choices, and 12 diagnostic strings consumer-owned
+homes. The 105 personality-specific condition reactions remain with their
+negotiation styles; the eight generic fallbacks live in
+`battle/condition_fallbacks.json`. Kyouji and Rei's distinct battle-test forms
+remain on their character entities. Physical blank records stay classified as
+binary evidence and do not become empty editor rows. Retail control operations
+remain lossless tokens until their behavior is proved, while `{NUM}` and
+`{demon_name}` are editable templates with typed runtime values. The mature
+Saturn output is the translation oracle; identical PSP text can bind these same
+fields without being copied.
 
 After bindings cover the authored corpus, translations in the generated
 physical catalogue will be removed or generated from these assets. There must

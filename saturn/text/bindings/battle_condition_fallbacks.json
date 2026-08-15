@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "asset": "battle/condition_fallbacks.json",
+  "records": {
+    "game.combat_condition_messages.o0547f0.text": "charmed.text",
+    "game.combat_condition_messages.o054ab0.text": "happy.text",
+    "game.combat_condition_messages.o054d70.text": "confused.text",
+    "game.combat_condition_messages.o055030.text": "enraged.text",
+    "game.combat_condition_messages.o0552f0.text": "talk_blocked.text",
+    "game.combat_condition_messages.o0555b0.text": "ally_veto.text",
+    "game.combat_condition_messages.o055870.text": "full_moon.text",
+    "game.combat_condition_messages.o05589c.text": "comp_signal_happy.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "battle.negotiation_dialogue"
+    ]
+  }
+}

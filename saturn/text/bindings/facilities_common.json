@@ -12,6 +12,27 @@
     "game.shopsmp.m0601.p00": "exit.text",
     "game.shopsmp.m0649.p00": "leave.text",
     "game.shopsmp.m0779.p00": "exit.text",
-    "game.shopsmp.m0808.p00": "exit.text"
+    "game.shopsmp.m0808.p00": "exit.text",
+    "game.facility_command_labels.standard_commands.r0003": "exit.text",
+    "game.facility_command_labels.o0425fe": "status.text"
+  },
+  "glyph_equivalence": {
+    "e0": "S",
+    "e1": "T",
+    "e2": "A",
+    "e3": "T",
+    "e4": "U",
+    "e5": "S"
+  },
+  "record_surfaces": {
+    "game.facility_command_labels.standard_commands.r0003": [
+      "shop.command",
+      "bar.command",
+      "healer.command"
+    ],
+    "game.facility_command_labels.o0425fe": [
+      "bar.command",
+      "healer.command"
+    ]
   }
 }

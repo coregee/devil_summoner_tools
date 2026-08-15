@@ -47,11 +47,11 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font16",
+        "rows": 4,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 80
         }
       }
     },
@@ -775,6 +775,24 @@
         }
       }
     },
+    "battle.command": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
     "battle.console": {
       "ja": {
         "font": "fnt8x12",
@@ -811,6 +829,42 @@
         }
       }
     },
+    "battle.negotiation_choice": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 10
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 150
+        }
+      }
+    },
+    "battle.debug_text": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
     "battle.demon_chat": {
       "ja": {
         "font": "font16",
@@ -841,6 +895,24 @@
       "en": {
         "font": null,
         "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "comp.command": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
         "width": {
           "unit": null,
           "value": null
@@ -1261,6 +1333,24 @@
         }
       }
     },
+    "shop.command": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
     "shop.item_name": {
       "ja": {
         "font": "font8",
@@ -1334,6 +1424,24 @@
       }
     },
     "shop.info_label": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "bar.command": {
       "ja": {
         "font": "font8",
         "rows": 1,
@@ -1435,6 +1543,24 @@
       "en": {
         "font": null,
         "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "healer.command": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
         "width": {
           "unit": null,
           "value": null
@@ -1906,6 +2032,42 @@
         "width": {
           "unit": "glyph_cells",
           "value": 1
+        }
+      }
+    },
+    "options.controller_action": {
+      "ja": {
+        "font": "font12",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": "font12",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 128
+        }
+      }
+    },
+    "options.footer": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 9
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 144
         }
       }
     }

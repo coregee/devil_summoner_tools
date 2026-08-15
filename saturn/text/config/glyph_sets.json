@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "handlers": {
+    "font8_stock_latin": {
+      "font": "font8",
+      "reference_set": "stock_latin"
+    }
+  },
+  "surface_handlers": {
+    "battle.command": "font8_stock_latin",
+    "comp.command": "font8_stock_latin",
+    "shop.command": "font8_stock_latin",
+    "bar.command": "font8_stock_latin",
+    "healer.command": "font8_stock_latin",
+    "status.auto_command": "font8_stock_latin",
+    "status.auto_setting": "font8_stock_latin"
+  }
+}

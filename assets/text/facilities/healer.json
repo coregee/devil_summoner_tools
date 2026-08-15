@@ -2,6 +2,36 @@
   "version": 1,
   "kind": "surface_catalog",
   "entries": {
+    "command_all": {
+      "text": {
+        "reference": "ALL",
+        "translation": "ALL"
+      }
+    },
+    "command_heal": {
+      "text": {
+        "reference": "HEAL",
+        "translation": "HEAL"
+      }
+    },
+    "command_cure": {
+      "text": {
+        "reference": "CURE",
+        "translation": "CURE"
+      }
+    },
+    "command_curse": {
+      "text": {
+        "reference": "CURSE",
+        "translation": "CURSE"
+      }
+    },
+    "command_revive": {
+      "text": {
+        "reference": "REVIVE",
+        "translation": "REVIVE"
+      }
+    },
     "line_0346": {
       "text": {
         "reference": "呪いを除いた全てを回復します",

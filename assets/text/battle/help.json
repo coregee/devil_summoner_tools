@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "fight": {
+      "text": {
+        "reference": "悪魔との戦闘",
+        "translation": "Fight with a demon."
+      }
+    },
+    "talk": {
+      "text": {
+        "reference": "悪魔との会話",
+        "translation": "Converse with a demon."
+      }
+    },
+    "escape": {
+      "text": {
+        "reference": "戦闘からの離脱を試行",
+        "translation": "Try to leave the battle."
+      }
+    },
+    "auto_settings": {
+      "text": {
+        "reference": "オート戦闘→で設定変更",
+        "translation": "Change auto settings."
+      }
+    },
+    "sword": {
+      "text": {
+        "reference": "武器による直接攻撃",
+        "translation": "Attack with a melee weapon."
+      }
+    },
+    "gun": {
+      "text": {
+        "reference": "銃による直接攻撃",
+        "translation": "Attack with a ranged weapon."
+      }
+    },
+    "summon": {
+      "text": {
+        "reference": "仲魔の呼び出し",
+        "translation": "Summon a demon."
+      }
+    },
+    "magic": {
+      "text": {
+        "reference": "魔法を使用",
+        "translation": "Use magic."
+      }
+    },
+    "item": {
+      "text": {
+        "reference": "アイテムを使用",
+        "translation": "Use an item."
+      }
+    },
+    "move": {
+      "text": {
+        "reference": "隣接するキャラと位置を変更",
+        "translation": "Swap positions with an adjacent ally."
+      }
+    },
+    "guard": {
+      "text": {
+        "reference": "攻撃を防御",
+        "translation": "Defend against an attack."
+      }
+    },
+    "go": {
+      "text": {
+        "reference": "行動を「VICE」で選択",
+        "translation": "Takes action according to personality."
+      }
+    },
+    "offense": {
+      "text": {
+        "reference": "攻撃系の行動を「VICE」で選択",
+        "translation": "Takes offensive actions."
+      }
+    },
+    "defense": {
+      "text": {
+        "reference": "防御系の行動を「VICE」で選択",
+        "translation": "Takes defensive actions."
+      }
+    },
+    "return": {
+      "text": {
+        "reference": "COMP内へ帰還",
+        "translation": "Return to the COMP."
+      }
+    },
+    "attack": {
+      "text": {
+        "reference": "通常の直接攻撃",
+        "translation": "Perform a regular attack."
+      }
+    },
+    "extra": {
+      "text": {
+        "reference": "特殊物理／魔法行動",
+        "translation": "Use a skill."
+      }
+    },
+    "auto_preset": {
+      "text": {
+        "reference": "設定どおりにオート戦闘",
+        "translation": "Use existing auto settings."
+      }
+    },
+    "auto_repeat": {
+      "text": {
+        "reference": "前回ターンでの入力どおりにオート戦闘",
+        "translation": "Repeat the previous turn."
+      }
+    }
+  }
+}

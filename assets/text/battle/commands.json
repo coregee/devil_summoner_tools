@@ -2,6 +2,30 @@
   "version": 1,
   "kind": "entity_catalog",
   "entries": {
+    "fight": {
+      "name": {
+        "reference": "FIGHT",
+        "translation": "FIGHT"
+      }
+    },
+    "talk": {
+      "name": {
+        "reference": "TALK",
+        "translation": "TALK"
+      }
+    },
+    "escape": {
+      "name": {
+        "reference": "ESCAPE",
+        "translation": "ESCAPE"
+      }
+    },
+    "auto": {
+      "name": {
+        "reference": "AUTO",
+        "translation": "AUTO"
+      }
+    },
     "sword": {
       "name": {
         "reference": "SWORD",
@@ -35,13 +59,73 @@
     "offense": {
       "name": {
         "reference": "OFFENSE",
-        "translation": "OFFENSE"
+        "translation": "OFFENSE",
+        "variants": {
+          "battle_table": {
+            "reference": "OFFENCE",
+            "translation": "OFFENCE"
+          }
+        }
       }
     },
     "defense": {
       "name": {
         "reference": "DEFENSE",
-        "translation": "DEFENSE"
+        "translation": "DEFENSE",
+        "variants": {
+          "battle_table": {
+            "reference": "DEFENCE",
+            "translation": "DEFENCE"
+          }
+        }
+      }
+    },
+    "comp": {
+      "name": {
+        "reference": "COMP",
+        "translation": "COMP"
+      }
+    },
+    "magic": {
+      "name": {
+        "reference": "MAGIC",
+        "translation": "MAGIC"
+      }
+    },
+    "item": {
+      "name": {
+        "reference": "ITEM",
+        "translation": "ITEM"
+      }
+    },
+    "move": {
+      "name": {
+        "reference": "MOVE",
+        "translation": "MOVE"
+      }
+    },
+    "return": {
+      "name": {
+        "reference": "RETURN",
+        "translation": "RETURN"
+      }
+    },
+    "extra": {
+      "name": {
+        "reference": "EXTRA",
+        "translation": "EXTRA"
+      }
+    },
+    "preset": {
+      "name": {
+        "reference": "PRESET",
+        "translation": "PRESET"
+      }
+    },
+    "repeat": {
+      "name": {
+        "reference": "REPEAT",
+        "translation": "REPEAT"
       }
     }
   }

@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "kind": "entity_catalog",
+  "entries": {
+    "battle_messages": {
+      "label": {
+        "reference": "バトルメッセージ",
+        "translation": "Battle Messages",
+        "variants": {
+          "psp": {
+            "reference": "戦闘中メッセージ",
+            "note": "The PSP menu revises the Japanese label but keeps the same setting and English wording."
+          }
+        }
+      }
+    },
+    "auto_mapping": {
+      "label": {
+        "reference": "オートマッピング",
+        "translation": "Auto Map"
+      }
+    },
+    "party_panel": {
+      "label": {
+        "reference": "パーティーパネル",
+        "translation": "Party Panel"
+      }
+    },
+    "demon_analyze": {
+      "label": {
+        "reference": "デビルアナライズ",
+        "translation": "Demon Analyze"
+      }
+    },
+    "sound": {
+      "label": {
+        "reference": "サウンド",
+        "translation": "Sound"
+      }
+    },
+    "magic_order": {
+      "label": {
+        "reference": "魔法の表示順序",
+        "translation": "Magic Order"
+      }
+    },
+    "item_order": {
+      "label": {
+        "reference": "ITEM表示順序",
+        "translation": "Item Order"
+      }
+    },
+    "message_speed": {
+      "fast": {
+        "reference": "速い",
+        "translation": "Fast"
+      },
+      "normal": {
+        "reference": "普通",
+        "translation": "Normal"
+      },
+      "slow": {
+        "reference": "遅い",
+        "translation": "Slow"
+      }
+    },
+    "auto_mapping_mode": {
+      "fixed": {
+        "reference": "固定",
+        "translation": "Fixed"
+      },
+      "free": {
+        "reference": "フリー",
+        "translation": "Free"
+      }
+    },
+    "party_panel_mode": {
+      "graph": {
+        "reference": "グラフ",
+        "translation": "Graph"
+      },
+      "maximum": {
+        "reference": "MAX",
+        "translation": "MAX"
+      }
+    },
+    "analyze_display": {
+      "normal": {
+        "reference": "通常表示",
+        "translation": "Normal"
+      },
+      "reverse": {
+        "reference": "逆順表示",
+        "translation": "Reverse"
+      }
+    },
+    "sound_mode": {
+      "stereo": {
+        "reference": "ステレオ",
+        "translation": "Stereo"
+      },
+      "mono": {
+        "reference": "モノラル",
+        "translation": "Mono"
+      }
+    },
+    "controller": {
+      "label": {
+        "reference": "コントロールパッド",
+        "translation": "Controls"
+      },
+      "normal": {
+        "reference": "ノーマル",
+        "translation": "Normal"
+      },
+      "custom": {
+        "reference": "カスタム",
+        "translation": "Custom"
+      }
+    },
+    "magic_sort": {
+      "recovery": {
+        "reference": "回復",
+        "translation": "Recovery"
+      },
+      "special": {
+        "reference": "補助・特殊",
+        "translation": "Special"
+      },
+      "attack": {
+        "reference": "攻撃",
+        "translation": "Attack"
+      },
+      "debuff": {
+        "reference": "攻撃補助",
+        "translation": "Debuff"
+      }
+    },
+    "item_sort": {
+      "consumable": {
+        "reference": "消費タイプ",
+        "translation": "Consumable"
+      },
+      "jewel": {
+        "reference": "宝石",
+        "translation": "Jewel"
+      },
+      "equipment": {
+        "reference": "装備タイプ",
+        "translation": "Equipment"
+      }
+    },
+    "controller_actions": {
+      "full_cancel": {
+        "reference": "ラージキャンセル",
+        "translation": "Full Cancel"
+      },
+      "cancel": {
+        "reference": "キャンセル",
+        "translation": "Cancel"
+      },
+      "confirm": {
+        "reference": "決定",
+        "translation": "Confirm"
+      },
+      "show_help": {
+        "reference": "ヘルプ表示",
+        "translation": "Show Help"
+      },
+      "auto_recover": {
+        "reference": "オートリカバー",
+        "translation": "Auto Recover"
+      },
+      "command": {
+        "reference": "コマンド",
+        "translation": "Command"
+      },
+      "auto_map": {
+        "reference": "オートマップ",
+        "translation": "Auto Map"
+      },
+      "demon_analyze": {
+        "reference": "デビルアナライズ",
+        "translation": "Demon Analyze"
+      }
+    },
+    "controller_footer": {
+      "assign": {
+        "reference": "スタート：設定変更",
+        "translation": "START: Assign"
+      },
+      "finish": {
+        "reference": "スタート：設定終了",
+        "translation": "START: End"
+      }
+    }
+  }
+}

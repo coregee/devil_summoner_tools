@@ -1,0 +1,1824 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "dialogue_0000": {
+      "text": {
+        "reference": "オイ、ショウカンシ、{n}ナニカイッタカ？{demon_name}",
+        "translation": "HEY, SUMMONER...{n}YOU SAY SOMETHING?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0001": {
+      "text": {
+        "reference": "ア～、ダル～。{n}チョット、マッテクレ。{demon_name}",
+        "translation": "UGH... SO TIRED...{n}WAIT A LITTLE.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0002": {
+      "text": {
+        "reference": "なにゆえ、そなたは{n}戦うのじゃ？{demon_name}",
+        "translation": "Why do you fight?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0003": {
+      "text": {
+        "reference": "高みの見物とでも、{n}シャレこもうか。{demon_name}",
+        "translation": "I'll sit back and{n}enjoy the show.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0004": {
+      "text": {
+        "reference": "誰に命令しているのか、{n}わかっていらっしゃる？{demon_name}",
+        "translation": "Do you know who{n}you're ordering around?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0005": {
+      "text": {
+        "reference": "なあ、俺、後で、{n}合体させられんの？{demon_name}",
+        "translation": "Hey, are you going to{n}fuse me later?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0006": {
+      "text": {
+        "reference": "やっだ、もー、足首、{n}いった～い。{demon_name}",
+        "translation": "Oh, come on!{n}My ankles hurt!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0007": {
+      "text": {
+        "reference": "おじさんさー、だれでも{n}殺っちゃうんだね。{demon_name}",
+        "translation": "You'll kill anyone,{n}won't you, pops?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0008": {
+      "text": {
+        "reference": "おじちゃんってさあ、{n}らんぼう・・・だよね。{demon_name}",
+        "translation": "You're pretty violent,{n}aren't you, mister?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0009": {
+      "text": {
+        "reference": "ねえ、口紅はげてないか{n}見てくれない？{demon_name}",
+        "translation": "Hey, has my lipstick{n}come off? Take a look.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0010": {
+      "text": {
+        "reference": "ボイコットは人の名だ。{n}・・・知ってた？{demon_name}",
+        "translation": "Boycott was a man's name.{n}Did you know that?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0011": {
+      "text": {
+        "reference": "そんなことよりなー、{n}若いの、はげんどるか？{demon_name}",
+        "translation": "More importantly, young man...{n}Keeping at it?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0012": {
+      "text": {
+        "reference": "自分が何をしているか、{n}わかっているんですか？{demon_name}",
+        "translation": "Do you understand{n}what you're doing?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0013": {
+      "text": {
+        "reference": "そんなことゆ～ても、{n}やらへんで～。{demon_name}",
+        "translation": "Say what you like.{n}I still won't do it.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0014": {
+      "text": {
+        "reference": "ズズー！ズズー！{demon_name}",
+        "translation": "SLURP! SLURP!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0015": {
+      "text": {
+        "reference": "・・・・・・・・。{demon_name}",
+        "translation": "........{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0016": {
+      "text": {
+        "reference": "イイカラ、ワタシニ{n}マカセロ。{demon_name}",
+        "translation": "ENOUGH.{n}LEAVE TO ME.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0017": {
+      "text": {
+        "reference": "オレサマ、メイレイ、{n}キライ、ダマッテロ。{demon_name}",
+        "translation": "ME HATE ORDERS.{n}YOU SHUT UP.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0018": {
+      "text": {
+        "reference": "我に命令するとは、{n}おろかしい奴よのう。{demon_name}",
+        "translation": "How foolish of you{n}to give me orders.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0019": {
+      "text": {
+        "reference": "こうするのが、最も、{n}合理的な方法なのだ。{demon_name}",
+        "translation": "This is the most{n}rational course of action.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0020": {
+      "text": {
+        "reference": "わたくし、やりたい事を{n}させて頂くわ。{demon_name}",
+        "translation": "I shall do{n}as I please.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0021": {
+      "text": {
+        "reference": "お前なー、命令すんのは{n}召喚だけにしとけよ。{demon_name}",
+        "translation": "The only order you get{n}to give is 'Summon.'{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0022": {
+      "text": {
+        "reference": "あんた、けっこう、{n}口うるさいのね。{demon_name}",
+        "translation": "You're awfully bossy,{n}aren't you?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0023": {
+      "text": {
+        "reference": "ボクねー、おじさん、{n}シンヨーできないなぁ。{demon_name}",
+        "translation": "I don't trust you,{n}mister.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0024": {
+      "text": {
+        "reference": "おじちゃんのいうこと、{n}ときどきわかんなぁい。{demon_name}",
+        "translation": "Sometimes I don't get{n}what you say, mister.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0025": {
+      "text": {
+        "reference": "クリスマスに、一人で{n}いたい、女もいるのよ。{demon_name}",
+        "translation": "Some women want to be{n}alone on Christmas.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0026": {
+      "text": {
+        "reference": "おまえは、オレレレレ、{n}オレじゃねえんだよ。{demon_name}",
+        "translation": "You're... m-me-me-me...{n}You're not me!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0027": {
+      "text": {
+        "reference": "ヒャッヒャッヒャ～、{n}若いもんは、黙っとれ。{demon_name}",
+        "translation": "Heh heh heh!{n}Quiet, youngster.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0028": {
+      "text": {
+        "reference": "違うなぁ、キミには{n}わからないのかなぁ？{demon_name}",
+        "translation": "No, no. Do you truly{n}not understand?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0029": {
+      "text": {
+        "reference": "こんなもんで・・・、{n}ええやろ？{demon_name}",
+        "translation": "This'll do...{n}Right?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0030": {
+      "text": {
+        "reference": "ズル？{demon_name}",
+        "translation": "SLURP?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0031": {
+      "text": {
+        "reference": "・・・・・・・・。{demon_name}",
+        "translation": "........{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0032": {
+      "text": {
+        "reference": "オマエノ命令、{n}ゼッタイ、聞カナイ！{demon_name}",
+        "translation": "YOUR ORDERS...{n}ME NEVER OBEY!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0033": {
+      "text": {
+        "reference": "メイレイ、イヤ！！{n}オマエ、黙ル、イイ！{demon_name}",
+        "translation": "ORDERS, BAD!{n}YOU SHUT UP! GOOD!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0034": {
+      "text": {
+        "reference": "そこまで突っ込んだ{n}命令は聞かん！！{demon_name}",
+        "translation": "I won't take orders{n}that detailed!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0035": {
+      "text": {
+        "reference": "私に指図は必要ない。{n}よって命令は無視する！{demon_name}",
+        "translation": "I need no direction.{n}Your order is ignored!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0036": {
+      "text": {
+        "reference": "そこまでの指図は、{n}聞けないですわ！！{demon_name}",
+        "translation": "I cannot follow an order{n}that presumptuous!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0037": {
+      "text": {
+        "reference": "そこまでいうなら、{n}俺はこうする。{demon_name}",
+        "translation": "If you insist,{n}then I'll do this.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0038": {
+      "text": {
+        "reference": "そんな命令、グッバイ、{n}さよならってカンジー。{demon_name}",
+        "translation": "That order? Goodbye,{n}farewell, see ya!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0039": {
+      "text": {
+        "reference": "あれしろ、これしろ、{n}やだぁー！もー！！{demon_name}",
+        "translation": "Do this, do that...{n}No! Enough already!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0040": {
+      "text": {
+        "reference": "ゴーでいいったら！！{n}ゴーにしてよぉ～！！{demon_name}",
+        "translation": "I said GO!{n}Set me to GO!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0041": {
+      "text": {
+        "reference": "言いなりは絶対にイヤ！{n}かまわないで！！{demon_name}",
+        "translation": "I refuse to obey!{n}Leave me alone!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0042": {
+      "text": {
+        "reference": "やい、召喚師・・・、{n}GOにしとけよ！！{demon_name}",
+        "translation": "Hey, Summoner...{n}Just set me to GO!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0043": {
+      "text": {
+        "reference": "若い者のたわごとなぞ、{n}聞かんのじゃい！！{demon_name}",
+        "translation": "I won't heed a{n}youngster's nonsense!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0044": {
+      "text": {
+        "reference": "信用がないんですね。{n}ご命令は却下します。{demon_name}",
+        "translation": "You show no trust.{n}Your order is denied.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0045": {
+      "text": {
+        "reference": "えらい、召喚師やな。{n}聞かへんで。{demon_name}",
+        "translation": "Some Summoner you are.{n}I'm not listening.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0046": {
+      "text": {
+        "reference": "ズル！ズルル！{demon_name}",
+        "translation": "SLURP! SLURRRP!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0047": {
+      "text": {
+        "reference": "・・・・・・・・。{demon_name}",
+        "translation": "........{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0048": {
+      "text": {
+        "reference": "ワカラヌ奴・・・{n}・・・キカヌ。{demon_name}",
+        "translation": "YOU NEVER LEARN...{n}ME NOT LISTEN.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0049": {
+      "text": {
+        "reference": "コマンドイレスギ！！{n}・・コマンド、ッテ？{demon_name}",
+        "translation": "TOO MANY COMMANDS!{n}...WHAT IS COMMAND?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0050": {
+      "text": {
+        "reference": "いやじゃ！！{n}聞きとうない！！{demon_name}",
+        "translation": "No!{n}I don't want to hear it!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0051": {
+      "text": {
+        "reference": "「GO」を待っている。{demon_name}{n}それまではこうだ！！",
+        "translation": "I'm waiting for GO.{n}Until then, I do this!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0052": {
+      "text": {
+        "reference": "残念でしたわね！{n}全部、あなたのせいよ！{demon_name}",
+        "translation": "Too bad!{n}It's all your fault!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0053": {
+      "text": {
+        "reference": "やるよ、やるよ、{n}でも、こーんなの。{demon_name}",
+        "translation": "Fine, fine, I'll act...{n}But like this.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0054": {
+      "text": {
+        "reference": "ざったいわねー。{n}聞きゃしないわよ！！{demon_name}",
+        "translation": "You're so fussy.{n}I'm not listening!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0055": {
+      "text": {
+        "reference": "子供を責めると、{n}手がつけられんじょー！{demon_name}",
+        "translation": "Pick on a child and{n}I'll throw a tantrum!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0056": {
+      "text": {
+        "reference": "ゴーがいいったら～！！{n}好きにさせてよぅ！！{demon_name}",
+        "translation": "I said GO!{n}Let me do what I want!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0057": {
+      "text": {
+        "reference": "し～た～が～い～{n}ま～せ～ん～。ね？{demon_name}",
+        "translation": "I~ won't~ o~bey~.{n}Okay?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0058": {
+      "text": {
+        "reference": "う、う、うがっー！！{demon_name}",
+        "translation": "U-u-ugahhh!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0059": {
+      "text": {
+        "reference": "召喚師がそれじゃの～、{n}命令なぞ、無視じゃ！！{demon_name}",
+        "translation": "With a Summoner like you,{n}I'll ignore every order!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0060": {
+      "text": {
+        "reference": "あなたは自己チュウ？{n}私は自己チュウです。{demon_name}",
+        "translation": "You're self-centered?{n}So am I.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0061": {
+      "text": {
+        "reference": "そこまで指示しといて、{n}わしは、これやがな。{demon_name}",
+        "translation": "After all those instructions,{n}this is what I'm doing.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0062": {
+      "text": {
+        "reference": "ズズッ！ズズズッ！！{demon_name}",
+        "translation": "SLURP! SLURRRRP!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0063": {
+      "text": {
+        "reference": "・・・・・・・・。{demon_name}",
+        "translation": "........{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0064": {
+      "text": {
+        "reference": "ナニカ変ナ、気分ダナ。{demon_name}",
+        "translation": "SOMETHING FEEL...{n}STRANGE.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0065": {
+      "text": {
+        "reference": "ムラムラムラ。{n}オレッテ・・イッタイ。{demon_name}",
+        "translation": "ME ALL WORKED UP...{n}WHAT HAPPEN TO ME?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0066": {
+      "text": {
+        "reference": "どうしてか、ココロ{n}はりさけそうじゃ！！{demon_name}",
+        "translation": "Why does my heart feel{n}as if it will burst?!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0067": {
+      "text": {
+        "reference": "・・・すまぬ！{demon_name}",
+        "translation": "...Forgive me!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0068": {
+      "text": {
+        "reference": "わたくしときたら、{n}心乱れて・・・。{demon_name}",
+        "translation": "How unlike me...{n}My heart is in turmoil.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0069": {
+      "text": {
+        "reference": "ムラムラすんぜぇ～、{n}ちきしょー！！{demon_name}",
+        "translation": "I'm getting all worked up,{n}damn it!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0070": {
+      "text": {
+        "reference": "ちょっと、やだぁ～、{n}私、変になっちゃった。{demon_name}",
+        "translation": "Oh no...{n}Something's come over me.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0071": {
+      "text": {
+        "reference": "おじさんたち、{n}しんじゃえー！！{demon_name}",
+        "translation": "You old guys{n}can all die!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0072": {
+      "text": {
+        "reference": "おじちゃんたち、{n}しんじゃえー！！{demon_name}",
+        "translation": "You old guys{n}can all die!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0073": {
+      "text": {
+        "reference": "あたしは、夜の蝶。{n}浮気なLady。{demon_name}",
+        "translation": "A butterfly of the night...{n}A fickle lady.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0074": {
+      "text": {
+        "reference": "ハァ、ハァ、ハァ・・。{demon_name}",
+        "translation": "PANT... PANT...{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0075": {
+      "text": {
+        "reference": "ヒャヒッ、ヒャヒ～！！{demon_name}",
+        "translation": "HEE HEE! HYAH-HA-HA!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0076": {
+      "text": {
+        "reference": "キミたちのこと、実は、{n}嫌ってたんだ。{demon_name}",
+        "translation": "Truth be told,{n}I've always hated you.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0077": {
+      "text": {
+        "reference": "たまりまへんわ。{demon_name}",
+        "translation": "I can't take this!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0078": {
+      "text": {
+        "reference": "ピチャピチャピチャ？{demon_name}",
+        "translation": "SPLISH, SPLASH, SPLISH?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0079": {
+      "text": {
+        "reference": "・・・・・・・・。{demon_name}",
+        "translation": "........{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0080": {
+      "text": {
+        "reference": "ハテ、ワタシハ、{n}ナニヲ、シテイルノダ？{demon_name}",
+        "translation": "HMM... WHAT AM I...{n}DOING?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0081": {
+      "text": {
+        "reference": "クルッテール、{n}カンジテール。{demon_name}",
+        "translation": "GOING CRAZY...{n}FEELING CRAZY...{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0082": {
+      "text": {
+        "reference": "我、思う故に我あり。{n}天上天下唯我独尊・・。{demon_name}",
+        "translation": "I think, therefore I am...{n}I alone am honored...{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0083": {
+      "text": {
+        "reference": "私は、何をしてるのだ！{n}・・・わからない！！{demon_name}",
+        "translation": "What am I doing?!{n}...I don't know!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0084": {
+      "text": {
+        "reference": "どうなってますの？{demon_name}",
+        "translation": "What is happening?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0085": {
+      "text": {
+        "reference": "どーなってんだ！{n}わけわかんねえんだよ！{demon_name}",
+        "translation": "What's going on?!{n}I don't understand!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0086": {
+      "text": {
+        "reference": "もう、チンプンカンプン{n}って感じー。{demon_name}",
+        "translation": "Nothing makes{n}any sense!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0087": {
+      "text": {
+        "reference": "何やっていいんだか、{n}全然わかんないも～ん！{demon_name}",
+        "translation": "I have no idea{n}what I'm supposed to do!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0088": {
+      "text": {
+        "reference": "おじちゃん、{n}何をすればいいの？{demon_name}",
+        "translation": "Mister, what am I{n}supposed to do?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0089": {
+      "text": {
+        "reference": "あたし、何やってるの？{n}こんなとこで。{demon_name}",
+        "translation": "What am I doing{n}in a place like this?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0090": {
+      "text": {
+        "reference": "ヌヒャラポーン！{demon_name}",
+        "translation": "NUHYARA-POOON!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0091": {
+      "text": {
+        "reference": "はて、何をしようと、{n}思とったんじゃろうか？{demon_name}",
+        "translation": "Now, what was I{n}about to do?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0092": {
+      "text": {
+        "reference": "・・！？・・あれっ！？{demon_name}",
+        "translation": "...!? Huh?!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0093": {
+      "text": {
+        "reference": "わけわからんて。{demon_name}",
+        "translation": "I don't understand!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0094": {
+      "text": {
+        "reference": "ピチャ、ヌルッ？{n}ズズー！ズズズズー！！{demon_name}",
+        "translation": "SPLISH... SQUELCH?{n}SLURP! SLURRRRP!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0095": {
+      "text": {
+        "reference": "・・・・・・・・。{demon_name}",
+        "translation": "........{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0096": {
+      "text": {
+        "reference": "オオ・・・、{n}ココチヨイゾ。{demon_name}",
+        "translation": "OOH...{n}THIS FEEL GOOD.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0097": {
+      "text": {
+        "reference": "シアワセ、キブン、{n}ユメ、キブン。{demon_name}",
+        "translation": "HAPPY FEELING...{n}DREAM FEELING...{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0098": {
+      "text": {
+        "reference": "・・・至福の極みじゃ。{demon_name}",
+        "translation": "...This is perfect bliss.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0099": {
+      "text": {
+        "reference": "私は今、気分がいい。{demon_name}",
+        "translation": "I feel wonderful.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0100": {
+      "text": {
+        "reference": "私、ハイなテンションで{n}ございますことよ。{demon_name}",
+        "translation": "Why, I am positively{n}giddy!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0101": {
+      "text": {
+        "reference": "むかつくほどに、{n}幸せなんだよ、今の俺。{demon_name}",
+        "translation": "I'm so happy{n}it's sickening.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0102": {
+      "text": {
+        "reference": "気持ちイーっ！{demon_name}",
+        "translation": "This feels great!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0103": {
+      "text": {
+        "reference": "ウキウキ。{n}おじさん、遊ぼうよ！！{demon_name}",
+        "translation": "Whee!{n}Mister, let's play!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0104": {
+      "text": {
+        "reference": "うふふ、見て見てぇ～、{n}チョウチョさん見っけ！{demon_name}",
+        "translation": "Tee hee! Look!{n}I found a butterfly!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0105": {
+      "text": {
+        "reference": "ウフフ・・・。{n}いいわ、とてもいいわ。{demon_name}",
+        "translation": "Ohoho...{n}Lovely. Simply lovely.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0106": {
+      "text": {
+        "reference": "ウォー！ぶっちぎるぜ！{n}ハイブリ、ジャンキー！{demon_name}",
+        "translation": "Whoa! Full throttle!{n}Hyper junkie!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0107": {
+      "text": {
+        "reference": "はァ～、カッポ～レ、{n}カッポ～レ！{demon_name}",
+        "translation": "HAAH, KAPPORE,{n}KAPPORE!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0108": {
+      "text": {
+        "reference": "ムフッ、ムフフフッ。{demon_name}",
+        "translation": "MMM... HEH HEH HEH.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0109": {
+      "text": {
+        "reference": "めっちゃ、ええ感じや。{n}いても～たるわ～。{demon_name}",
+        "translation": "This feels bloody great.{n}I'll knock you flat!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0110": {
+      "text": {
+        "reference": "ピチャチャチャ！{n}ズズー！ズズズズー！！{demon_name}",
+        "translation": "SPLISH-SPLASH-SPLISH!{n}SLURP! SLURRRRP!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0111": {
+      "text": {
+        "reference": "・・・・・・・・。{demon_name}",
+        "translation": "........{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0112": {
+      "text": {
+        "reference": "ホウ、ニゲルノカ・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "OH? YOU RUN AWAY...{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0113": {
+      "text": {
+        "reference": "ニゲル、ナドトハ・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "YOU WOULD... RUN AWAY?{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0114": {
+      "text": {
+        "reference": "逃げるも、また策・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "Flight is also a strategy...{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0115": {
+      "text": {
+        "reference": "・・・もう二度と・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "...Never again...{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0116": {
+      "text": {
+        "reference": "お逃げになるの？・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "Are you leaving...?{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0117": {
+      "text": {
+        "reference": "逃げるが勝ちかい・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "So running wins...{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0118": {
+      "text": {
+        "reference": "ちょっとまってよ・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "Wait...{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0119": {
+      "text": {
+        "reference": "逃さないもんね！・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "I won't let you escape!{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0120": {
+      "text": {
+        "reference": "あー！負けイヌー・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "Ha! What a loser!{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0121": {
+      "text": {
+        "reference": "あら、どちらへ？・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "Oh? Where are you going?{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0122": {
+      "text": {
+        "reference": "ランナウェ～イ！・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "RUN AWAAAY!{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0123": {
+      "text": {
+        "reference": "・・・・待たんか・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "...Wait!{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0124": {
+      "text": {
+        "reference": "・・・・・ふぅん・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "...Hmm.{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0125": {
+      "text": {
+        "reference": "どこいくんやぁ！・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "Where d'you think you're going?!{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0126": {
+      "text": {
+        "reference": "ピチャ、ピチャッ・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "SPLISH, SPLASH...{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0127": {
+      "text": {
+        "reference": "造魔",
+        "translation": "Zoma"
+      }
+    },
+    "dialogue_0128": {
+      "text": {
+        "reference": "・・・・・・・・・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "........{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0129": {
+      "text": {
+        "reference": "待アァテェイィィ・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "WAAAIIIT!{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0130": {
+      "text": {
+        "reference": "逃げるでない・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "Do not flee.{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0131": {
+      "text": {
+        "reference": "ニガサンゾオー・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "NOT LET YOU ESCAPE!{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0132": {
+      "text": {
+        "reference": "逃げるのか・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "You're running away?{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0133": {
+      "text": {
+        "reference": "逃げるのかい・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "You're running away?{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0134": {
+      "text": {
+        "reference": "逃亡するのか・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "You intend to flee?{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0135": {
+      "text": {
+        "reference": "逃げるな・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "Don't run.{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0136": {
+      "text": {
+        "reference": "マテ、逃ゲルノカ・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "WAIT. YOU RUN AWAY?{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0137": {
+      "text": {
+        "reference": "逃げるのカ・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "You are fleeing?{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0138": {
+      "text": {
+        "reference": "君は逃げるのか・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "You would flee?{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0139": {
+      "text": {
+        "reference": "逃げちゃイヤーん・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "Don't run away!{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0140": {
+      "text": {
+        "reference": "逃げるなよぉ・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "Don't you run!{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0141": {
+      "text": {
+        "reference": "逃亡するか・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "Will you flee?{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0142": {
+      "text": {
+        "reference": "逃がすものか・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "I will not let you escape.{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0143": {
+      "text": {
+        "reference": "極道に背を向ける・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "Turning your back on a yakuza...{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0144": {
+      "text": {
+        "reference": "戦わぬというのか・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "You refuse to fight?{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0145": {
+      "text": {
+        "reference": "逃げるのカ・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "You are fleeing?{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0146": {
+      "text": {
+        "reference": "逃げるのカ・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "You are fleeing?{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0147": {
+      "text": {
+        "reference": "逃げるのか・{demon_name}・{demon_name}・{demon_name}",
+        "translation": "You're running away?{demon_name}{demon_name}{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0148": {
+      "text": {
+        "reference": "ソレモヨカロウ。{demon_name}",
+        "translation": "THAT ALSO GOOD.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0149": {
+      "text": {
+        "reference": "オモワナカッタ！！{demon_name}",
+        "translation": "ME NOT EXPECT THAT!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0150": {
+      "text": {
+        "reference": "我、再会を望むなり。{demon_name}",
+        "translation": "I hope we meet again.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0151": {
+      "text": {
+        "reference": "私の前に現れるな！！{demon_name}",
+        "translation": "Never show yourself{n}before me again!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0152": {
+      "text": {
+        "reference": "なら、逃げるがいいわ。{demon_name}",
+        "translation": "Then flee.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0153": {
+      "text": {
+        "reference": "今回は見逃してやるぜ。{demon_name}",
+        "translation": "I'll let you go this time.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0154": {
+      "text": {
+        "reference": "なら、また今度ね・・。{demon_name}",
+        "translation": "Well, until next time...{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0155": {
+      "text": {
+        "reference": "ウシャー！覚えとき！{demon_name}",
+        "translation": "Hah! Remember this!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0156": {
+      "text": {
+        "reference": "行っちゃえ！しっしっ！{demon_name}",
+        "translation": "Go on! Shoo, shoo!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0157": {
+      "text": {
+        "reference": "さみしくなるわね・・。{demon_name}",
+        "translation": "I'll be lonely without you...{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0158": {
+      "text": {
+        "reference": "キャーーー！！{demon_name}",
+        "translation": "EEEEK!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0159": {
+      "text": {
+        "reference": "待てといっとろーが！！{demon_name}",
+        "translation": "I told you to wait!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0160": {
+      "text": {
+        "reference": "やはり、下らん奴だ。{demon_name}",
+        "translation": "As I thought, you're worthless.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0161": {
+      "text": {
+        "reference": "この辺にしといたろか。{demon_name}",
+        "translation": "I'll leave it at that.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0162": {
+      "text": {
+        "reference": "ズズー。{demon_name}",
+        "translation": "SLURP.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0163": {
+      "text": {
+        "reference": "造魔",
+        "translation": "Zoma"
+      }
+    },
+    "dialogue_0164": {
+      "text": {
+        "reference": "ノガサヌ。{demon_name}",
+        "translation": "NOT LET YOU ESCAPE.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0165": {
+      "text": {
+        "reference": "オモウナ！！{demon_name}",
+        "translation": "DO NOT THINK YOU CAN!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0166": {
+      "text": {
+        "reference": "逃さぬも、また策なり。{demon_name}",
+        "translation": "Preventing escape is{n}also a strategy.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0167": {
+      "text": {
+        "reference": "生きては帰しません。{demon_name}",
+        "translation": "You will not leave alive.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0168": {
+      "text": {
+        "reference": "いいから死になさい。{demon_name}",
+        "translation": "Just die already.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0169": {
+      "text": {
+        "reference": "甘いねぇ。{demon_name}",
+        "translation": "How naive.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0170": {
+      "text": {
+        "reference": "勝手すぎない？{demon_name}",
+        "translation": "Isn't that rather selfish?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0171": {
+      "text": {
+        "reference": "どんくさぁ～。{demon_name}",
+        "translation": "How clumsy!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0172": {
+      "text": {
+        "reference": "このイヌっころめ～！！{demon_name}",
+        "translation": "You mangy mutt!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0173": {
+      "text": {
+        "reference": "私、まだ足りないわ！！{demon_name}",
+        "translation": "I haven't had enough!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0174": {
+      "text": {
+        "reference": "まだだ！！{demon_name}",
+        "translation": "Not yet!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0175": {
+      "text": {
+        "reference": "よしよし、いい子じゃ。{demon_name}",
+        "translation": "There, there. Good child.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0176": {
+      "text": {
+        "reference": "それで？{demon_name}",
+        "translation": "And?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0177": {
+      "text": {
+        "reference": "にがさへんで～！！{demon_name}",
+        "translation": "I won't let ya get away!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0178": {
+      "text": {
+        "reference": "ヌ・ヌ・ヌル？{demon_name}",
+        "translation": "S-S-SQUELCH?{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0179": {
+      "text": {
+        "reference": "造魔",
+        "translation": "Zoma"
+      }
+    },
+    "dialogue_0180": {
+      "text": {
+        "reference": "！！！！！{demon_name}",
+        "translation": "!!!!!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0181": {
+      "text": {
+        "reference": "ウワーッハーッハーッ。{demon_name}",
+        "translation": "WAH-HA-HA-HA!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0182": {
+      "text": {
+        "reference": "その力、示してみよ！{demon_name}",
+        "translation": "Show me your power!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0183": {
+      "text": {
+        "reference": "ニゲラレンゾー！{demon_name}",
+        "translation": "YOU CANNOT ESCAPE!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0184": {
+      "text": {
+        "reference": "無駄だ、無駄だ。{demon_name}",
+        "translation": "Futile. Utterly futile.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0185": {
+      "text": {
+        "reference": "無駄なことは、おやめ。{demon_name}",
+        "translation": "Do stop wasting your effort.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0186": {
+      "text": {
+        "reference": "敵前逃亡は銃殺だ！{demon_name}",
+        "translation": "Desertion is punishable{n}by firing squad!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0187": {
+      "text": {
+        "reference": "殺すぞ！{demon_name}",
+        "translation": "I'll kill you!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0188": {
+      "text": {
+        "reference": "オマエヲ殺ス。{demon_name}",
+        "translation": "KILL YOU.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0189": {
+      "text": {
+        "reference": "今度は容赦しませんヨ。{demon_name}",
+        "translation": "Next time, I won't be lenient.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0190": {
+      "text": {
+        "reference": "私のエナジーとなれ。{demon_name}",
+        "translation": "Become my energy.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0191": {
+      "text": {
+        "reference": "わたしの歌を聞いてね。{demon_name}",
+        "translation": "Listen to my song.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0192": {
+      "text": {
+        "reference": "このサウンドを聞けぇ！{demon_name}",
+        "translation": "Listen to this sound!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0193": {
+      "text": {
+        "reference": "逃亡犯は死刑だ。{demon_name}",
+        "translation": "Fugitives are put to death.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0194": {
+      "text": {
+        "reference": "桃園の誓いにかけても！{demon_name}",
+        "translation": "By the Oath of{n}the Peach Garden!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0195": {
+      "text": {
+        "reference": "そうはいかん。{demon_name}",
+        "translation": "I think not.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0196": {
+      "text": {
+        "reference": "逃げられぬぞ。{demon_name}",
+        "translation": "There is no escape.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0197": {
+      "text": {
+        "reference": "やはり中身はニセ者か。{demon_name}",
+        "translation": "So the man inside{n}is an impostor after all.{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0198": {
+      "text": {
+        "reference": "イナルナ姫が復活するゾ{demon_name}",
+        "translation": "Princess Inaruna will rise!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0199": {
+      "text": {
+        "reference": "わらわに血を捧げよ！{demon_name}",
+        "translation": "Offer me your blood!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0200": {
+      "text": {
+        "reference": "わぁ、おとすおちる{n}こわれるうっ！！{demon_name}",
+        "translation": "Whoa! Don't drop it!{n}It'll break!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0201": {
+      "text": {
+        "reference": "こんないいものを{n}なげるなぁっ！！{demon_name}",
+        "translation": "Don't throw something{n}this valuable!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    },
+    "dialogue_0202": {
+      "text": {
+        "reference": "モノの値うちのわからん{n}クズどもめ覚悟しろ！{demon_name}",
+        "translation": "You scum who know no value,{n}prepare yourselves!{demon_name}"
+      },
+      "placeholders": {
+        "demon_name": "demon_name"
+      }
+    }
+  }
+}

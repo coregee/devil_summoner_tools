@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "asset": "ui/command_help.json",
+  "records": {
+    "game.normhelp.o000000.text": "party_setup.text",
+    "game.normhelp.o000054.text": "magic_menu.text",
+    "game.normhelp.o0000a8.text": "items_menu.text",
+    "game.normhelp.o0000fc.text": "equipment_menu.text",
+    "game.normhelp.o000150.text": "status_details.text",
+    "game.normhelp.o0001a4.text": "reposition_source.text",
+    "game.normhelp.o0001f8.text": "reposition_destination.text",
+    "game.normhelp.o00024c.text": "summon_demon_select.text",
+    "game.normhelp.o0002a0.text": "summon_demon_destination.text",
+    "game.normhelp.o0002f4.text": "return_demon.text",
+    "game.normhelp.o000348.text": "remove_demon_warning.text",
+    "game.normhelp.o00039c.text": "formation_error.text",
+    "game.normhelp.o0003f0.text": "magic_caster.text",
+    "game.normhelp.o000444.text": "magic_target.text",
+    "game.normhelp.o000498.text": "item_target.text",
+    "game.normhelp.o0004ec.text": "item_discard.text",
+    "game.normhelp.o000540.text": "equipped_item_warning.text",
+    "game.normhelp.o000594.text": "equipment_member.text",
+    "game.normhelp.o0005e8.text": "equipment_slot.text",
+    "game.normhelp.o00063c.text": "recommended_equipment.text",
+    "game.normhelp.o000690.text": "remove_equipment.text",
+    "game.normhelp.o0006e4.text": "status_member.text",
+    "game.normhelp.o000738.text": "key_items.text",
+    "game.normhelp.o00078c.text": "alignment_error.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "comp.help"
+    ]
+  }
+}

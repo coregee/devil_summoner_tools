@@ -74,6 +74,10 @@ EXPECTED_TEXT = {
 }
 
 EXPECTED_COMMANDS = {
+    "fight": "FIGHT",
+    "talk": "TALK",
+    "escape": "ESCAPE",
+    "auto": "AUTO",
     "sword": "SWORD",
     "attack": "ATTACK",
     "gun": "GUN",
@@ -81,6 +85,14 @@ EXPECTED_COMMANDS = {
     "go": "GO",
     "offense": "OFFENSE",
     "defense": "DEFENSE",
+    "comp": "COMP",
+    "magic": "MAGIC",
+    "item": "ITEM",
+    "move": "MOVE",
+    "return": "RETURN",
+    "extra": "EXTRA",
+    "preset": "PRESET",
+    "repeat": "REPEAT",
 }
 
 
@@ -171,15 +183,20 @@ class StatusAssetTests(unittest.TestCase):
                 ).read_text(encoding="utf-8")
             )
         }
+        status_command_ids = {
+            physical_id
+            for physical_id in self.command_binding.records
+            if physical_id.startswith("game.normcom_status_ascii.")
+        }
         bound_ids = (
             set(self.binding.records)
-            | set(self.command_binding.records)
+            | status_command_ids
             | set(self.alignment_binding.records)
         )
         self.assertEqual(len(corpus_ids), 24)
         self.assertEqual(bound_ids, corpus_ids)
         self.assertEqual(len(self.binding.records), 14)
-        self.assertEqual(len(self.command_binding.records), 7)
+        self.assertEqual(len(status_command_ids), 7)
         self.assertEqual(len(self.alignment_binding.records), 3)
         self.assertEqual(
             {

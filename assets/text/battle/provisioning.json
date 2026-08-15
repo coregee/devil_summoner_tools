@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "cash": {
+      "text": {
+        "reference": "現金",
+        "translation": "Cash"
+      }
+    },
+    "magnetite": {
+      "text": {
+        "reference": "マグネタイト",
+        "translation": "Magnetite"
+      }
+    },
+    "item": {
+      "text": {
+        "reference": "アイテム",
+        "translation": "Item"
+      }
+    },
+    "give_nothing": {
+      "text": {
+        "reference": "何も渡さない",
+        "translation": "Nothing"
+      }
+    }
+  }
+}

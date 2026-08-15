@@ -68,7 +68,7 @@ class CharacterAssetTests(unittest.TestCase):
         )
         self.assertEqual(
             sum(len(entry.fields) for entry in self.catalog.entries.values()),
-            9,
+            11,
         )
         self.assertIn(
             "Live player-name consumers",
@@ -106,8 +106,11 @@ class CharacterAssetTests(unittest.TestCase):
                 "full_name": ("葛葉キョウジ", "Kyouji Kuzunoha"),
                 "given_name": ("キョウジ", "Kyouji"),
                 "family_name": ("葛葉", "Kuzunoha"),
+                "battle_test_name": ("葛葉キョウジ", "Kyouji"),
             },
         )
+        rei = self.catalog.entries["rei_reiho"].fields["battle_test_name"]
+        self.assertEqual((rei.reference, rei.translation), ("レイ", "Rei"))
 
     def test_character_consumers_and_proven_widths_are_explicit(self) -> None:
         self.assertEqual(

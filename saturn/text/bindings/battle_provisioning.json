@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "asset": "battle/provisioning.json",
+  "records": {
+    "game.combat_system.o0528f4": "cash.text",
+    "game.combat_system.o05291c": "magnetite.text",
+    "game.combat_system.o052944": "item.text",
+    "game.combat_system.o05454e": "give_nothing.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "battle.negotiation_choice"
+    ]
+  }
+}

@@ -149,7 +149,7 @@
       "path": "COMBAT.BIN",
       "size": 351064,
       "stock_sha256": "56a5c4b90d32d81c0668d6a0a3885c7784964b4ae5f02f318749403cd9360c56",
-      "owned_sha256": "c387a9bf0709876751f3fde625186fccddfc1c076eed3ea20cca1d5eb0699645"
+      "owned_sha256": "0d0d1f3f2817fbcdf6bd26b9aeaa32f02b8590c912bd0a1c546b99f14219c99f"
     },
     "da_3d_bin": {
       "path": "DA_3D.BIN",
@@ -172,7 +172,7 @@
       "path": "EVENT.BIN",
       "size": 354072,
       "stock_sha256": "73a24f782f6618081028511e9fcc4c845a79a577e1907a6a6affc9e9f1e2ce84",
-      "owned_sha256": "08ef8bb8aeed1352fbb1fef2b4b799036fd8e39974434c28f100674b055f3ddf"
+      "owned_sha256": "48d1fa1ec5c8a7c3578f67728020144e20806661f4e3934a6f92678e6a332593"
     },
     "hosi_bin": {
       "path": "HOSI.BIN",
@@ -212,7 +212,7 @@
       "path": "MAZE.BIN",
       "size": 169264,
       "stock_sha256": "38d8a919d2d17461fc2c2ee8b41093efc893fc72d4e7eb5db243fe84560cc229",
-      "owned_sha256": "958aee162253b1ffb2bd6a192817b8fe78793fb60ee56c9d39751e8a0ef9a39a"
+      "owned_sha256": "170996d0aa6ddb8e9cffe8a00859cbe3b95477921c913101bfe1127a8909e845"
     },
     "msgr_cof": {
       "path": "MSGR.COF",
@@ -230,7 +230,7 @@
       "path": "NORMCOM.BIN",
       "size": 352360,
       "stock_sha256": "983d84ad48c0a497715633c0d2e380743c52e4b1644422ed027ac27e52a2aa9a",
-      "owned_sha256": "7ad9b7de9b6ba73ecba3619097385dc2f2e5a4a22d030f431e7c508e9cb4ce55"
+      "owned_sha256": "b5b4ec13377a5252fa2f7379be20997b5d2940b48d02e977a25eb2cbf4abe8f3"
     },
     "normhelp_dat": {
       "path": "NORMHELP.DAT",
@@ -2419,6 +2419,268 @@
             "name": "auto",
             "framing": {"type": "zero_terminated"},
             "locations": [{"spans": [{"offset": "0x165c4", "units": 6}]}]
+          }
+        ]
+      }
+    },
+    {
+      "id": "battle_command_labels",
+      "corpus": "addressed/battle_command_labels.json",
+      "container": {
+        "type": "addressed",
+        "file": "combat_bin",
+        "default_source_encoding": "game_font8_stock_latin",
+        "tables": [
+          {
+            "name": "item_skill_actions",
+            "count": 4,
+            "framing": {"type": "zero_terminated"},
+            "require_identical_bytes": true,
+            "locations": [
+              {
+                "file": "combat_bin",
+                "base": "0x4f22c",
+                "stride": "0x8",
+                "units": 8
+              }
+            ]
+          }
+        ],
+        "records": [
+          {
+            "name": "sword",
+            "framing": {"type": "zero_terminated"},
+            "require_identical_bytes": true,
+            "locations": [
+              {"spans": [{"file": "combat_bin", "offset": "0x5061d", "units": 6}]},
+              {"spans": [{"file": "maze_bin", "offset": "0x27025", "units": 6}]},
+              {"spans": [{"file": "normcom_bin", "offset": "0x1ea15", "units": 6}]}
+            ]
+          },
+          {
+            "name": "gun",
+            "framing": {"type": "zero_terminated"},
+            "require_identical_bytes": true,
+            "locations": [
+              {"spans": [{"file": "combat_bin", "offset": "0x50626", "units": 4}]},
+              {"spans": [{"file": "maze_bin", "offset": "0x2702e", "units": 4}]},
+              {"spans": [{"file": "normcom_bin", "offset": "0x1ea1e", "units": 4}]}
+            ]
+          },
+          {
+            "name": "comp",
+            "framing": {"type": "zero_terminated"},
+            "require_identical_bytes": true,
+            "locations": [
+              {"spans": [{"file": "combat_bin", "offset": "0x5062d", "units": 5}]},
+              {"spans": [{"file": "maze_bin", "offset": "0x27035", "units": 5}]},
+              {"spans": [{"file": "normcom_bin", "offset": "0x1ea25", "units": 5}]}
+            ]
+          },
+          {
+            "name": "magic",
+            "framing": {"type": "zero_terminated"},
+            "require_identical_bytes": true,
+            "locations": [
+              {"spans": [{"file": "combat_bin", "offset": "0x50635", "units": 6}]},
+              {"spans": [{"file": "maze_bin", "offset": "0x2703d", "units": 6}]},
+              {"spans": [{"file": "normcom_bin", "offset": "0x1ea2d", "units": 6}]}
+            ]
+          },
+          {
+            "name": "item",
+            "framing": {"type": "zero_terminated"},
+            "require_identical_bytes": true,
+            "locations": [
+              {"spans": [{"file": "combat_bin", "offset": "0x5063d", "units": 5}]},
+              {"spans": [{"file": "maze_bin", "offset": "0x27045", "units": 5}]},
+              {"spans": [{"file": "normcom_bin", "offset": "0x1ea35", "units": 5}]}
+            ]
+          },
+          {
+            "name": "move_up",
+            "require_identical_bytes": true,
+            "locations": [
+              {"spans": [{"file": "combat_bin", "offset": "0x50645", "units": 4}]},
+              {"spans": [{"file": "maze_bin", "offset": "0x2704d", "units": 4}]},
+              {"spans": [{"file": "normcom_bin", "offset": "0x1ea3d", "units": 4}]}
+            ]
+          },
+          {
+            "name": "move_down",
+            "require_identical_bytes": true,
+            "locations": [
+              {"spans": [{"file": "combat_bin", "offset": "0x5064d", "units": 4}]},
+              {"spans": [{"file": "maze_bin", "offset": "0x27055", "units": 4}]},
+              {"spans": [{"file": "normcom_bin", "offset": "0x1ea45", "units": 4}]}
+            ]
+          },
+          {
+            "name": "move_left",
+            "require_identical_bytes": true,
+            "locations": [
+              {"spans": [{"file": "combat_bin", "offset": "0x50655", "units": 4}]},
+              {"spans": [{"file": "maze_bin", "offset": "0x2705d", "units": 4}]},
+              {"spans": [{"file": "normcom_bin", "offset": "0x1ea4d", "units": 4}]}
+            ]
+          },
+          {
+            "name": "move_right",
+            "require_identical_bytes": true,
+            "locations": [
+              {"spans": [{"file": "combat_bin", "offset": "0x5065d", "units": 4}]},
+              {"spans": [{"file": "maze_bin", "offset": "0x27065", "units": 4}]},
+              {"spans": [{"file": "normcom_bin", "offset": "0x1ea55", "units": 4}]}
+            ]
+          },
+          {
+            "name": "guard",
+            "framing": {"type": "zero_terminated"},
+            "require_identical_bytes": true,
+            "locations": [
+              {"spans": [{"file": "combat_bin", "offset": "0x50665", "units": 6}]},
+              {"spans": [{"file": "maze_bin", "offset": "0x2706d", "units": 6}]},
+              {"spans": [{"file": "normcom_bin", "offset": "0x1ea5d", "units": 6}]}
+            ]
+          },
+          {
+            "name": "go",
+            "framing": {"type": "zero_terminated"},
+            "require_identical_bytes": true,
+            "locations": [
+              {"spans": [{"file": "combat_bin", "offset": "0x5066e", "units": 3}]},
+              {"spans": [{"file": "maze_bin", "offset": "0x27076", "units": 3}]},
+              {"spans": [{"file": "normcom_bin", "offset": "0x1ea66", "units": 3}]}
+            ]
+          },
+          {
+            "name": "offense",
+            "framing": {"type": "zero_terminated"},
+            "require_identical_bytes": true,
+            "locations": [
+              {"spans": [{"file": "combat_bin", "offset": "0x50674", "units": 8}]},
+              {"spans": [{"file": "maze_bin", "offset": "0x2707c", "units": 8}]},
+              {"spans": [{"file": "normcom_bin", "offset": "0x1ea6c", "units": 8}]}
+            ]
+          },
+          {
+            "name": "defense",
+            "framing": {"type": "zero_terminated"},
+            "require_identical_bytes": true,
+            "locations": [
+              {"spans": [{"file": "combat_bin", "offset": "0x5067c", "units": 8}]},
+              {"spans": [{"file": "maze_bin", "offset": "0x27084", "units": 8}]},
+              {"spans": [{"file": "normcom_bin", "offset": "0x1ea74", "units": 8}]}
+            ]
+          },
+          {
+            "name": "attack",
+            "framing": {"type": "zero_terminated"},
+            "require_identical_bytes": true,
+            "locations": [
+              {"spans": [{"file": "combat_bin", "offset": "0x50685", "units": 7}]},
+              {"spans": [{"file": "maze_bin", "offset": "0x2708d", "units": 7}]},
+              {"spans": [{"file": "normcom_bin", "offset": "0x1ea7d", "units": 7}]}
+            ]
+          },
+          {
+            "name": "extra",
+            "framing": {"type": "zero_terminated"},
+            "require_identical_bytes": true,
+            "locations": [
+              {"spans": [{"file": "combat_bin", "offset": "0x5068d", "units": 6}]},
+              {"spans": [{"file": "maze_bin", "offset": "0x27095", "units": 6}]},
+              {"spans": [{"file": "normcom_bin", "offset": "0x1ea85", "units": 6}]}
+            ]
+          },
+          {
+            "name": "return",
+            "framing": {"type": "zero_terminated"},
+            "require_identical_bytes": true,
+            "locations": [
+              {"spans": [{"file": "combat_bin", "offset": "0x50695", "units": 7}]},
+              {"spans": [{"file": "maze_bin", "offset": "0x2709d", "units": 7}]},
+              {"spans": [{"file": "normcom_bin", "offset": "0x1ea8d", "units": 7}]}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "comp_command_labels",
+      "corpus": "addressed/comp_command_labels.json",
+      "container": {
+        "type": "addressed",
+        "file": "normcom_bin",
+        "default_source_encoding": "game_font8_stock_latin",
+        "tables": [
+          {
+            "name": "top_level",
+            "count": 5,
+            "framing": {"type": "zero_terminated"},
+            "require_identical_bytes": true,
+            "locations": [
+              {
+                "file": "normcom_bin",
+                "base": "0x1e8d0",
+                "stride": "0x8",
+                "units": 8
+              }
+            ]
+          }
+        ],
+        "records": []
+      }
+    },
+    {
+      "id": "facility_command_labels",
+      "corpus": "addressed/facility_command_labels.json",
+      "container": {
+        "type": "addressed",
+        "file": "event_bin",
+        "default_source_encoding": "game_font8_stock_latin",
+        "tables": [
+          {
+            "name": "standard_commands",
+            "count": 8,
+            "framing": {"type": "zero_terminated"},
+            "require_identical_bytes": true,
+            "locations": [
+              {
+                "file": "event_bin",
+                "base": "0x425c8",
+                "stride": "0x6",
+                "units": 6
+              }
+            ]
+          },
+          {
+            "name": "bar_commands",
+            "count": 2,
+            "framing": {"type": "zero_terminated"},
+            "require_identical_bytes": true,
+            "locations": [
+              {
+                "file": "event_bin",
+                "base": "0x42604",
+                "stride": "0x6",
+                "units": 6
+              }
+            ]
+          }
+        ],
+        "records": [
+          {
+            "name": "revive",
+            "locations": [
+              {"spans": [{"offset": "0x425f8", "units": 6}]}
+            ]
+          },
+          {
+            "name": "status",
+            "locations": [
+              {"spans": [{"offset": "0x425fe", "units": 6}]}
+            ]
           }
         ]
       }

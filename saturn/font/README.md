@@ -43,6 +43,14 @@ generated outputs. The game `KANJI.FON` definition has two verified physical
 targets, `KANJI.FON` and `MMP/KANJI.FON`; the parent build installs its one
 generated result at both paths.
 
+A definition may also expose a named `reference_set` for stock cells that must
+remain addressable after repacking. Game `FONT8.FON` publishes cells 0-62 as
+`stock_latin`: the original space, digits, uppercase letters, and lowercase
+letters. Those cells are not replacements and are asserted byte-preserved.
+Generated FONT8 metrics therefore contain both the normal narrow-English map
+and this separately named stock map; consumers must choose the stock map
+explicitly rather than resolving duplicate Latin characters by accident.
+
 Run extraction and `extract.py --check` against mirrors restored from the
 original discs. They deliberately reject generated fonts installed by a build.
 

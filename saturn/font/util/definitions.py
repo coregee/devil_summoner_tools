@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Sequence
@@ -16,6 +17,7 @@ GENERATED_ROOT = FONT_ROOT / "generated"
 ASSET_FONT_ROOT = PROJECT_ROOT / "assets" / "font"
 SOURCE_ROOT = FONT_ROOT.parent / "rom" / "extracted"
 DISC_IDS = ("game", "compendium")
+_REFERENCE_SET_RE = re.compile(r"[a-z][a-z0-9_]*\Z")
 
 
 @dataclass(frozen=True)
@@ -77,6 +79,7 @@ class FontDefinition:
     atlas: AtlasOptions
     glyphs: dict[int, str]
     replacements: dict[int, str]
+    reference_sets: dict[str, dict[str, int]]
     source_font: Path | None
     source_sha256: str | None
     render: RenderOptions | None
@@ -228,6 +231,58 @@ def _atlas_mappings(groups: Any, context: str) -> tuple[dict[int, str], dict[int
     return glyphs, replacements
 
 
+def _reference_sets(
+    value: Any,
+    glyphs: dict[int, str],
+    replacements: dict[int, str],
+    context: str,
+) -> dict[str, dict[str, int]]:
+    if not isinstance(value, dict):
+        raise ValueError(f"{context} must be an object")
+    output: dict[str, dict[str, int]] = {}
+    for name, raw_entries in value.items():
+        if not isinstance(name, str) or _REFERENCE_SET_RE.fullmatch(name) is None:
+            raise ValueError(f"{context} names must be lowercase identifiers")
+        if not isinstance(raw_entries, list) or not raw_entries:
+            raise ValueError(f"{context}.{name} must be a nonempty array")
+        references: dict[str, int] = {}
+        used_codes: set[int] = set()
+        for entry_number, raw_entry in enumerate(raw_entries):
+            entry_context = f"{context}.{name}[{entry_number}]"
+            if not isinstance(raw_entry, dict) or set(raw_entry) != {
+                "start",
+                "characters",
+            }:
+                raise ValueError(
+                    f"{entry_context} needs only start and characters"
+                )
+            start = _index(raw_entry["start"], f"{entry_context}.start")
+            characters = raw_entry["characters"]
+            if not isinstance(characters, str) or not characters:
+                raise ValueError(f"{entry_context}.characters must be nonempty text")
+            for offset, character in enumerate(characters):
+                code = start + offset
+                if character in references:
+                    raise ValueError(
+                        f"{entry_context} repeats reference character {character!r}"
+                    )
+                if code in used_codes:
+                    raise ValueError(f"{entry_context} repeats glyph {code}")
+                if glyphs.get(code) != character:
+                    raise ValueError(
+                        f"{entry_context} expects glyph {code} to be {character!r}"
+                    )
+                if code in replacements:
+                    raise ValueError(
+                        f"{entry_context} selects replaced glyph {code}; reference "
+                        "sets must preserve stock cells"
+                    )
+                references[character] = code
+                used_codes.add(code)
+        output[name] = references
+    return output
+
+
 def load_definition(path: Path, disc: str) -> FontDefinition:
     if disc not in DISC_IDS:
         raise ValueError(f"unsupported disc {disc!r}")
@@ -300,6 +355,12 @@ def load_definition(path: Path, disc: str) -> FontDefinition:
     )
     glyphs, replacements = _atlas_mappings(
         atlas_data.get("groups"), f"{path}.atlas.groups"
+    )
+    reference_sets = _reference_sets(
+        data.get("reference_sets", {}),
+        glyphs,
+        replacements,
+        f"{path}.reference_sets",
     )
 
     source_font = None
@@ -386,6 +447,7 @@ def load_definition(path: Path, disc: str) -> FontDefinition:
         atlas=atlas,
         glyphs=glyphs,
         replacements=replacements,
+        reference_sets=reference_sets,
         source_font=source_font,
         source_sha256=source_digest,
         render=render,

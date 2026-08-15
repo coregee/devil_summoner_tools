@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "comp": {
+      "text": {
+        "reference": "COMP",
+        "translation": "COMP"
+      }
+    },
+    "magic": {
+      "text": {
+        "reference": "MAGIC",
+        "translation": "MAGIC"
+      }
+    },
+    "item": {
+      "text": {
+        "reference": "ITEM",
+        "translation": "ITEM"
+      }
+    },
+    "equip": {
+      "text": {
+        "reference": "EQUIP",
+        "translation": "EQUIP"
+      }
+    },
+    "status": {
+      "text": {
+        "reference": "STATUS",
+        "translation": "STATUS"
+      }
+    }
+  }
+}

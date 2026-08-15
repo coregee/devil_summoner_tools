@@ -2,6 +2,24 @@
   "version": 1,
   "kind": "surface_catalog",
   "entries": {
+    "command_buy": {
+      "text": {
+        "reference": "BUY",
+        "translation": "BUY"
+      }
+    },
+    "command_sell": {
+      "text": {
+        "reference": "SELL",
+        "translation": "SELL"
+      }
+    },
+    "command_equip": {
+      "text": {
+        "reference": "EQUIP",
+        "translation": "EQUIP"
+      }
+    },
     "line_0011": {
       "text": {
         "reference": "攻撃力：",

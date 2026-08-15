@@ -2,6 +2,8 @@
   "version": 1,
   "asset": "facilities/bar.json",
   "records": {
+    "game.facility_command_labels.bar_commands.r0000": "command_order.text",
+    "game.facility_command_labels.bar_commands.r0001": "command_talk.text",
     "game.shopsmp.m0604.p00": "line_0358.text",
     "game.shopsmp.m0605.p00": "line_0359.text",
     "game.shopsmp.m0606.p00": "line_0360.text",
@@ -129,6 +131,12 @@
     ]
   },
   "record_surfaces": {
+    "game.facility_command_labels.bar_commands.r0000": [
+      "bar.command"
+    ],
+    "game.facility_command_labels.bar_commands.r0001": [
+      "bar.command"
+    ],
     "game.event_bar.drinks.r0000": [
       "bar.drink_name"
     ],

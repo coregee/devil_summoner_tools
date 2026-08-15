@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "asset": "characters.json",
+  "records": {
+    "game.combat_debug.o05451c": "kyouji_kuzunoha.battle_test_name",
+    "game.combat_debug.o05452c": "rei_reiho.battle_test_name"
+  },
+  "field_surfaces": {
+    "battle_test_name": [
+      "battle.debug_text"
+    ]
+  }
+}

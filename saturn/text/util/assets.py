@@ -48,7 +48,7 @@ _PLACEHOLDER_TYPES = frozenset(
 )
 _KINDS = frozenset({"entity_catalog", "surface_catalog"})
 _STATUSES = frozenset({"reserve", "unresolved"})
-_GLYPH_CODE_RE = re.compile(r"[0-9a-f]{4}\Z")
+_GLYPH_CODE_RE = re.compile(r"(?:[0-9a-f]{2}|[0-9a-f]{4})\Z")
 
 
 def _reject_duplicate_keys(pairs: list[tuple[str, Any]]) -> dict[str, Any]:
@@ -566,7 +566,8 @@ def load_binding(
     ).items():
         if not isinstance(code, str) or _GLYPH_CODE_RE.fullmatch(code) is None:
             raise ValueError(
-                f"{path}.glyph_equivalence keys must be lowercase four-digit hex"
+                f"{path}.glyph_equivalence keys must be lowercase two- or "
+                "four-digit hex"
             )
         if not isinstance(character, str) or len(character) != 1:
             raise ValueError(
@@ -637,8 +638,12 @@ def load_binding(
     def normalize_glyphs(value: str) -> str:
         tokens = []
         for token in parse_tokens(value):
-            if isinstance(token, Raw) and token.kind == "GLYPH" and token.width == 2:
-                code = f"{token.value:04x}"
+            if (
+                isinstance(token, Raw)
+                and token.kind == "GLYPH"
+                and token.width in {1, 2}
+            ):
+                code = f"{token.value:0{token.width * 2}x}"
                 if code in glyph_equivalence:
                     unused_glyphs.discard(code)
                     tokens.append(Text(glyph_equivalence[code]))

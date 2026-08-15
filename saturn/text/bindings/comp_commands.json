@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "asset": "ui/comp_commands.json",
+  "records": {
+    "game.comp_command_labels.top_level.r0000": "comp.text",
+    "game.comp_command_labels.top_level.r0001": "magic.text",
+    "game.comp_command_labels.top_level.r0002": "item.text",
+    "game.comp_command_labels.top_level.r0003": "equip.text",
+    "game.comp_command_labels.top_level.r0004": "status.text"
+  },
+  "field_surfaces": {
+    "text": ["comp.command"]
+  }
+}

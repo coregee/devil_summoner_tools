@@ -64,6 +64,17 @@ The user can then navigate up/down the list of texts, swap them with the A/B but
 
 These binding texts appear to use FONT12. Examples include ラージキャンセル, 決定, ヘルプ表示.
 
+All 38 retail text records for these two pages are represented by
+`assets/text/ui/options.json` and bind explicitly to `CFG_SET.BIN`. The menu is
+split into five text surfaces: primary labels, setting values, the four-row
+ordering popup, controller actions, and the two footer states. Japanese labels
+retain their nine-cell limit, values four cells, popup rows five cells,
+controller actions eight cells, and footers nine cells. The mature English
+renderer proves 80-pixel popup rows, 128-pixel controller actions, and
+144-pixel footers; translated primary-label and value limits remain unmeasured.
+Any packed or compound glyphs used to meet these limits are generated from the
+complete authored words and are not separately maintained text.
+
 ### Save/Load Screens
 
 #### Load Screen
@@ -290,7 +301,20 @@ This can be the command (i.e., FIGHT - "悪魔との戦闘") or more specific, l
 
 These are displayed in English already, using the game's FONT8 text.
 
+These command labels intentionally use the stock Japanese FONT8 Latin face.
+The translated font must preserve that alphabet as a separately selectable
+glyph set; ordinary mixed-case FONT8 consumers use the replacement English
+face instead.
+
 Options include "FIGHT, TALK, ESCAPE, AUTO, SWORD, GUN, COMP, ITEM, MOVE, GUARD, GO, OFFENSE, DEFENSE, RETURN, PRESET, REPEAT".
+
+The retail battle action table is present as three byte-identical physical
+copies in COMBAT, MAZE, and NORMCOM. Its exact visible spellings are `OFFENCE`
+and `DEFENCE`; these are retained as consumer-specific variants of the shared
+`OFFENSE` and `DEFENSE` terminology. The four item/skill actions and the rest
+of that table are physically catalogued. The render selectors for `FIGHT`,
+`TALK`, `ESCAPE`, `AUTO`, `PRESET`, and `REPEAT` have not yet been proved, so
+their authored fields remain explicit binding debt rather than inferred uses.
 
 #### Item/Skill Windows
 
@@ -349,6 +373,10 @@ Bottom row: "ませき" [number of lifestones obtained] "ほうぎょく" [numbe
 ### COMP Menu
 
 The COMP menu consists of a top 2-row FONT16 Help strip, a block of the 6 active party panels, and another block of the 12 stock demons.
+
+Its top-level FONT8 commands are `COMP`, `MAGIC`, `ITEM`, `EQUIP`, and `STATUS`.
+They use the preserved stock Latin face and are separately editable from equal
+words used by battle or facilities.
 
 There's also a window in the top-left with the submenus listed. This window serves as an effective margin for the Help window when it's visible.
 
@@ -502,6 +530,11 @@ Opens the status view on selection.
 ### Shop
 
 Shops have four top-level options, BUY SELL EQUIP EXIT.
+
+These FONT8 labels, and the corresponding bar and healer labels below, use the
+preserved stock Latin face. `REVIVE` and `STATUS` are stored by the retail game
+as compound FONT8 cells, but are exposed here as normal editable words through
+explicit physical binding maps.
 
 #### BUY/SELL pages
 

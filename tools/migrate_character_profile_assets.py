@@ -140,8 +140,10 @@ def migrate_characters() -> None:
             "full_name": field("葛葉キョウジ", "Kyouji Kuzunoha"),
             "given_name": field("キョウジ", "Kyouji"),
             "family_name": field("葛葉", "Kuzunoha"),
+            "battle_test_name": field("葛葉キョウジ", "Kyouji"),
         }
     )
+    entries["rei_reiho"]["battle_test_name"] = field("レイ", "Rei")
 
     asset = {"version": 1, "kind": "entity_catalog", "entries": entries}
     binding = {

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "asset": "battle/debug.json",
+  "records": {
+    "game.combat_debug.o055a08": "ellipsis_six.text",
+    "game.combat_debug.o055a32": "ellipsis_seven.text",
+    "game.combat_debug.o055a5c": "ellipsis_eight.text",
+    "game.combat_debug.o055a86": "ellipsis_nine.text",
+    "game.combat_debug.o055ab0": "bug.text",
+    "game.combat_debug.o055ab6": "cannot_talk_to_this.text",
+    "game.combat_debug.o055acc": "field_wk.text",
+    "game.combat_debug.o055ad2": "field_no.text",
+    "game.combat_debug.o055af6": "field_bad.text",
+    "game.combat_debug.o055afe": "field_s.text",
+    "game.combat_debug.o055b20": "field_dcode.text",
+    "game.combat_debug.o055b4a": "field_exist.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "battle.debug_text"
+    ]
+  }
+}

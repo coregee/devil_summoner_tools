@@ -258,6 +258,20 @@ def _metrics_json(definition: FontDefinition, advances: dict[int, int]) -> str |
         "glyphs": glyphs,
         "missing_codes": missing,
     }
+    if definition.reference_sets:
+        document["reference_sets"] = {
+            name: [
+                {
+                    "text": character,
+                    "code": code,
+                    "advance": advances[code],
+                }
+                for character, code in sorted(
+                    references.items(), key=lambda item: item[1]
+                )
+            ]
+            for name, references in definition.reference_sets.items()
+        }
     return json.dumps(document, ensure_ascii=False, indent=2) + "\n"
 
 
@@ -318,6 +332,18 @@ def repack_font(source_data: bytes, definition: FontDefinition) -> RepackedFont:
             if end > len(output):
                 raise ValueError(f"{definition.file} advance table is out of range")
             output[start:end] = values
+
+    if definition.metrics is not None:
+        for references in definition.reference_sets.values():
+            for glyph_index in references.values():
+                if glyph_index >= count:
+                    raise ValueError(
+                        f"{definition.file} reference glyph {glyph_index} is out of "
+                        "range"
+                    )
+                advances[glyph_index] = _ink_advance(
+                    output, definition, glyph_index
+                )
 
     return RepackedFont(
         data=bytes(output),

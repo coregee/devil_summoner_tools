@@ -2,6 +2,11 @@
   "version": 1,
   "asset": "facilities/healer.json",
   "records": {
+    "game.facility_command_labels.standard_commands.r0004": "command_all.text",
+    "game.facility_command_labels.standard_commands.r0005": "command_heal.text",
+    "game.facility_command_labels.standard_commands.r0006": "command_cure.text",
+    "game.facility_command_labels.standard_commands.r0007": "command_curse.text",
+    "game.facility_command_labels.o0425f8": "command_revive.text",
     "game.shopsmp.m0590.p00": "line_0346.text",
     "game.shopsmp.m0591.p00": "line_0347.text",
     "game.shopsmp.m0592.p00": "line_0348.text",
@@ -32,7 +37,30 @@
     "game.shopsmp.m0788.p00": "line_0569.text",
     "game.event_healing.o0168f7": "all_members.text"
   },
+  "glyph_equivalence": {
+    "da": "R",
+    "db": "E",
+    "dc": "V",
+    "dd": "I",
+    "de": "V",
+    "df": "E"
+  },
   "record_surfaces": {
+    "game.facility_command_labels.standard_commands.r0004": [
+      "healer.command"
+    ],
+    "game.facility_command_labels.standard_commands.r0005": [
+      "healer.command"
+    ],
+    "game.facility_command_labels.standard_commands.r0006": [
+      "healer.command"
+    ],
+    "game.facility_command_labels.standard_commands.r0007": [
+      "healer.command"
+    ],
+    "game.facility_command_labels.o0425f8": [
+      "healer.command"
+    ],
     "game.event_healing.o0168f7": [
       "healer.member_name"
     ]

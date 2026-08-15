@@ -1,0 +1,98 @@
+[
+  {
+    "id": "game.facility_command_labels.standard_commands.r0000",
+    "source_encoding": "game_font8_stock_latin",
+    "output_encoding": "",
+    "reference": "BUY",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.facility_command_labels.standard_commands.r0001",
+    "source_encoding": "game_font8_stock_latin",
+    "output_encoding": "",
+    "reference": "SELL",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.facility_command_labels.standard_commands.r0002",
+    "source_encoding": "game_font8_stock_latin",
+    "output_encoding": "",
+    "reference": "EQUIP",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.facility_command_labels.standard_commands.r0003",
+    "source_encoding": "game_font8_stock_latin",
+    "output_encoding": "",
+    "reference": "EXIT",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.facility_command_labels.standard_commands.r0004",
+    "source_encoding": "game_font8_stock_latin",
+    "output_encoding": "",
+    "reference": "ALL",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.facility_command_labels.standard_commands.r0005",
+    "source_encoding": "game_font8_stock_latin",
+    "output_encoding": "",
+    "reference": "HEAL",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.facility_command_labels.standard_commands.r0006",
+    "source_encoding": "game_font8_stock_latin",
+    "output_encoding": "",
+    "reference": "CURE",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.facility_command_labels.standard_commands.r0007",
+    "source_encoding": "game_font8_stock_latin",
+    "output_encoding": "",
+    "reference": "CURSE",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.facility_command_labels.bar_commands.r0000",
+    "source_encoding": "game_font8_stock_latin",
+    "output_encoding": "",
+    "reference": "ORDER",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.facility_command_labels.bar_commands.r0001",
+    "source_encoding": "game_font8_stock_latin",
+    "output_encoding": "",
+    "reference": "TALK",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.facility_command_labels.o0425f8",
+    "source_encoding": "game_font8_stock_latin",
+    "output_encoding": "",
+    "reference": "{GLYPH:da}{GLYPH:db}{GLYPH:dc}{GLYPH:dd}{GLYPH:de}{GLYPH:df}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.facility_command_labels.o0425fe",
+    "source_encoding": "game_font8_stock_latin",
+    "output_encoding": "",
+    "reference": "{GLYPH:e0}{GLYPH:e1}{GLYPH:e2}{GLYPH:e3}{GLYPH:e4}{GLYPH:e5}",
+    "translation": "",
+    "note": ""
+  }
+]

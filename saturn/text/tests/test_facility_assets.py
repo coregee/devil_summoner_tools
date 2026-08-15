@@ -93,6 +93,7 @@ class FacilityAssetTests(unittest.TestCase):
                 "game.shopsmp.m0601.p00",
                 "game.shopsmp.m0779.p00",
                 "game.shopsmp.m0808.p00",
+                "game.facility_command_labels.standard_commands.r0003",
             },
         )
         self.assertEqual(

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "asset": "battle/help.json",
+  "records": {
+    "game.btl_help.o000000.text": "fight.text",
+    "game.btl_help.o00002c.text": "talk.text",
+    "game.btl_help.o000058.text": "escape.text",
+    "game.btl_help.o000084.text": "auto_settings.text",
+    "game.btl_help.o0000b0.text": "sword.text",
+    "game.btl_help.o0000dc.text": "gun.text",
+    "game.btl_help.o000108.text": "summon.text",
+    "game.btl_help.o000134.text": "magic.text",
+    "game.btl_help.o000160.text": "item.text",
+    "game.btl_help.o00018c.text": "move.text",
+    "game.btl_help.o0001b8.text": "guard.text",
+    "game.btl_help.o0001e4.text": "go.text",
+    "game.btl_help.o000210.text": "offense.text",
+    "game.btl_help.o00023c.text": "defense.text",
+    "game.btl_help.o000268.text": "return.text",
+    "game.btl_help.o000294.text": "attack.text",
+    "game.btl_help.o0002c0.text": "extra.text",
+    "game.btl_help.o0002ec.text": "auto_preset.text",
+    "game.btl_help.o000318.text": "auto_repeat.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "battle.help"
+    ]
+  }
+}

@@ -16,6 +16,8 @@ translations live under the repository-level `assets/text` tree.
 - `config/encodings.json` defines reusable alphabets, control vocabularies, and
   source encodings.
 - `config/surfaces.json` records measured Japanese and English consumer limits.
+- `config/glyph_sets.json` selects preserved stock glyph sets for consumer
+  surfaces that intentionally retain a retail typeface.
 - `config/sources/<disc>/manifest.json` defines physical files, the four
   container shapes, defaults, and exceptional record-level overrides.
 - `corpus/<disc>/` contains deterministic extracted physical records.
@@ -66,10 +68,10 @@ python saturn/text/extract.py compendium --check
 python -m unittest discover -s saturn/text/tests -v
 ```
 
-The game manifest covers 47 physical files and 56 source groups. Its four
+The game manifest covers 47 physical files and 59 source groups. Its four
 container types are EVE banks, pointer banks, fixed records with subfields, and
-explicit addressed spans. The generated corpus contains 15,728 records: 12,711
-text-bearing EVE pages and 3,017 other records. All 144 dungeon-location rows
+explicit addressed spans. The generated corpus contains 15,765 records: 12,711
+text-bearing EVE pages and 3,054 other records. All 144 dungeon-location rows
 remain distinct instead of collapsing to 24 repeated Japanese strings. Each
 row now verifies that its name bytes agree across the MAZE, AUTOMAP, SAVE, and
 LOAD tables; these four physical copies still produce one catalogue record.
@@ -199,7 +201,11 @@ become a guessed constraint.
 
 The English event and battle-negotiation windows are separate consumers with
 the documented 300-pixel, three-row patch geometry. The battle console is fixed
-at 16 cells by three rows in both languages. Location contracts now distinguish
+at 16 cells by three rows in both languages. Demon Chat is 11 Japanese cells by
+two rows, and battle help is 20 Japanese cells by two rows. The negotiation
+choice field is 10 Japanese cells or 150 translated pixels on one row. Unknown
+translated help and Demon Chat measurements remain explicit `null`s. Location
+contracts now distinguish
 the two-row 64-pixel 3D name, its 64-pixel floor row, the 112-pixel automap text
 after the runtime-owned marker icon, and the 144-pixel save/load label. Other
 English limits remain unknown until their translated renderers are measured.
@@ -220,6 +226,27 @@ the fixed TYPE label remains a four-cell FONT8 consumer. CTRL ranks are three
 FONT8 cells, AUTO command values and party alignments are seven cells, and the
 two alignment axes use editable one-cell labels. Whole dynamic readout widths
 remain explicitly unknown until their render slots are measured.
+Options-menu contracts retain the nine-cell setting-label and four-cell value
+limits while leaving their translated widths unknown. The ordering popup has
+four 80-pixel translated rows, controller actions have one 128-pixel row, and
+the two footer states have one 144-pixel row. These are consumer limits; local
+compound glyphs and action-atlas chunks are derived output artifacts.
+
+Typeface selection is also a consumer contract, not authored punctuation.
+`config/glyph_sets.json` assigns the `font8_stock_latin` handler to the battle,
+COMP, shop, bar, healer, and status command surfaces. That handler selects FONT8's
+named `stock_latin` reference set, preserving the retail appearance of labels
+such as `GO`, `COMP`, `BUY`, and `EQUIP`. Other FONT8 consumers continue to use
+the normal narrow-English mapping. No inline token or capitalization heuristic
+chooses between the two faces.
+
+The physical catalogue includes the 16-entry battle action table at all three
+proved COMBAT, MAZE, and NORMCOM locations, the four item/skill actions, the
+five COMP commands, and twelve shared facility commands. Compound stock cells
+for `REVIVE` and `STATUS` are normalized by explicit binding maps rather than
+being taught to the general source decoder. The primary battle selectors for
+`FIGHT`, `TALK`, `ESCAPE`, `AUTO`, `PRESET`, and `REPEAT` are still unlocated;
+their wording is editable, but they remain recorded consumer-binding debt.
 
 ## Implementation plan
 
@@ -233,12 +260,14 @@ remain explicitly unknown until their render slots are measured.
 4. **In progress:** establish the shared human authoring view and import only
    translations and useful notes from the mature corpus. Item, equipment,
    field-message, location, demon, race, affinity, magic, skill, all 15
-   negotiation-style, facility, SAVE/LOAD, character, profile-entry, and
-   status-consumer slices are complete. SHOPSMP's 763 physical pages bind to 595 shared authored lines
-   without copying exact PSP text; its seven PSP-only tutorial lines remain
-   explicit additions. The six shared character rows likewise need no PSP
-   copies, and all 19 physical profile-entry records retain exact semantic
-   bindings, including the three deliberate same-source forks.
+   negotiation-style, facility, SAVE/LOAD, character, profile-entry, status,
+   battle-consumer, and Options-menu slices are complete. The battle slice binds
+   every visible BTL_MES and BTL_SRF row while retaining their 29 and 160 blank
+   rows as physical evidence. SHOPSMP's 763 physical pages bind to 595 shared
+   authored lines without copying exact PSP text; its seven PSP-only tutorial
+   lines remain explicit additions. The six shared character rows likewise
+   need no PSP copies, and all 19 physical profile-entry records retain exact
+   semantic bindings, including the three deliberate same-source forks.
 5. Produce complete encoding coverage and capacity reports for both discs.
 6. Finalize output encodings and deterministic full-corpus dictionary groups.
 7. Implement one atomic text repack; partial dictionary builds remain

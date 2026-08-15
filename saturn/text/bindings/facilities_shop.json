@@ -208,6 +208,14 @@
     "game.shopsmp.m0763.p00": "line_0540.text",
     "game.shopsmp.m0764.p00": "line_0541.text",
     "game.shopsmp.m0765.p00": "line_0542.text",
-    "game.shopsmp.m0765.p01": "line_0543.text"
+    "game.shopsmp.m0765.p01": "line_0543.text",
+    "game.facility_command_labels.standard_commands.r0000": "command_buy.text",
+    "game.facility_command_labels.standard_commands.r0001": "command_sell.text",
+    "game.facility_command_labels.standard_commands.r0002": "command_equip.text"
+  },
+  "record_surfaces": {
+    "game.facility_command_labels.standard_commands.r0000": ["shop.command"],
+    "game.facility_command_labels.standard_commands.r0001": ["shop.command"],
+    "game.facility_command_labels.standard_commands.r0002": ["shop.command"]
   }
 }

@@ -1,0 +1,66 @@
+from __future__ import annotations
+
+import json
+import sys
+import tempfile
+import unittest
+from pathlib import Path
+
+
+TEXT_ROOT = Path(__file__).resolve().parents[1]
+if str(TEXT_ROOT) not in sys.path:
+    sys.path.insert(0, str(TEXT_ROOT))
+
+from util.assets import BINDING_ROOT, load_asset, load_binding  # noqa: E402
+from util.glyph_sets import CONFIG_PATH, load_glyph_sets  # noqa: E402
+
+
+class OutputGlyphSetTests(unittest.TestCase):
+    def test_stock_font8_is_selected_only_by_named_command_surfaces(self) -> None:
+        catalog = load_glyph_sets()
+        handler = catalog.handlers["font8_stock_latin"]
+        self.assertEqual(
+            (handler.font, handler.reference_set),
+            ("font8", "stock_latin"),
+        )
+        self.assertEqual(
+            set(catalog.surface_handlers),
+            {
+                "battle.command",
+                "comp.command",
+                "shop.command",
+                "bar.command",
+                "healer.command",
+                "status.auto_command",
+                "status.auto_setting",
+            },
+        )
+        self.assertIsNone(catalog.for_surface("event.dialogue"))
+
+    def test_existing_go_field_declares_the_stock_command_surface(self) -> None:
+        commands = load_asset("battle/commands.json")
+        binding = load_binding(BINDING_ROOT / "battle_commands.json")
+        self.assertEqual(commands.field("go.name").translation, "GO")
+        self.assertEqual(
+            binding.record_surfaces["game.battle_command_labels.o05066e"],
+            ("battle.command",),
+        )
+        self.assertEqual(
+            load_glyph_sets().for_surface("battle.command").reference_set,
+            "stock_latin",
+        )
+
+    def test_handler_font_must_match_the_selected_english_surface(self) -> None:
+        document = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+        document["surface_handlers"] = {
+            "event.dialogue": "font8_stock_latin"
+        }
+        with tempfile.TemporaryDirectory() as raw_directory:
+            path = Path(raw_directory) / "glyph_sets.json"
+            path.write_text(json.dumps(document), encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "English surface uses font16"):
+                load_glyph_sets(path)
+
+
+if __name__ == "__main__":
+    unittest.main()

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "ellipsis_six": {
+      "text": {
+        "reference": "…………",
+        "translation": "............",
+        "reviewed": true
+      }
+    },
+    "ellipsis_seven": {
+      "text": {
+        "reference": "……………",
+        "translation": "...............",
+        "reviewed": true
+      }
+    },
+    "ellipsis_eight": {
+      "text": {
+        "reference": "………………",
+        "translation": "..................",
+        "reviewed": true
+      }
+    },
+    "ellipsis_nine": {
+      "text": {
+        "reference": "…………………",
+        "translation": ".....................",
+        "reviewed": true
+      }
+    },
+    "bug": {
+      "text": {
+        "reference": "バグ",
+        "translation": "BUG",
+        "reviewed": true
+      }
+    },
+    "cannot_talk_to_this": {
+      "text": {
+        "reference": "これとは話せないはず",
+        "translation": "Cannot talk to this",
+        "reviewed": true
+      }
+    },
+    "field_wk": {
+      "text": {
+        "reference": "WK",
+        "translation": "WK",
+        "reviewed": true
+      }
+    },
+    "field_no": {
+      "text": {
+        "reference": "NO",
+        "translation": "NO",
+        "reviewed": true
+      }
+    },
+    "field_bad": {
+      "text": {
+        "reference": "BAD",
+        "translation": "BAD",
+        "reviewed": true
+      }
+    },
+    "field_s": {
+      "text": {
+        "reference": "S",
+        "translation": "S",
+        "reviewed": true
+      }
+    },
+    "field_dcode": {
+      "text": {
+        "reference": "DCODE",
+        "translation": "DCODE",
+        "reviewed": true
+      }
+    },
+    "field_exist": {
+      "text": {
+        "reference": "EXIST",
+        "translation": "EXIST",
+        "reviewed": true
+      }
+    }
+  }
+}

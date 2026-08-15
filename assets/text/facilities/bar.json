@@ -2,6 +2,18 @@
   "version": 1,
   "kind": "entity_catalog",
   "entries": {
+    "command_order": {
+      "text": {
+        "reference": "ORDER",
+        "translation": "ORDER"
+      }
+    },
+    "command_talk": {
+      "text": {
+        "reference": "TALK",
+        "translation": "TALK"
+      }
+    },
     "line_0358": {
       "text": {
         "reference": "マスター：申し訳ありません。{n}まだ、準備中なんですよ。",
