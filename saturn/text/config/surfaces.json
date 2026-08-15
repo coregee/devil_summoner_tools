@@ -479,11 +479,11 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font8",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 80
         }
       }
     },
@@ -613,6 +613,24 @@
         }
       }
     },
+    "comp.ability_name": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 80
+        }
+      }
+    },
     "comp.summon_cost": {
       "ja": {
         "font": "font8",
@@ -659,11 +677,29 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font8",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 80
+        }
+      }
+    },
+    "level_up.ability_name": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 128
         }
       }
     },
@@ -776,6 +812,24 @@
       }
     },
     "compendium.profile_name": {
+      "ja": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "compendium.ability_name": {
       "ja": {
         "font": null,
         "rows": null,

@@ -1759,7 +1759,7 @@
       "path": "A_DIC.BIN",
       "size": 472172,
       "stock_sha256": "0edd01f270b6500dc6fafc5e71202c11dcc2cceea605cec9057e4ffb5966314c",
-      "owned_sha256": "d4a84f7ba0ffde7ee403b94571420f8e6f228870842a22cddf1060c148030e20"
+      "owned_sha256": "2323794c3cc62d957bbff301375ad7e7bac42cac20ddc865aa962ace79c686ac"
     }
   },
   "sources": [
@@ -2110,6 +2110,32 @@
           {
             "base": "0x5d9b0",
             "count": 319,
+            "stride": "0x10"
+          }
+        ],
+        "fields": [
+          {
+            "name": "text",
+            "offset": "0x0",
+            "units": 8,
+            "source_encoding": "compendium_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ability_names",
+      "corpus": "fixed/ability_names.json",
+      "container": {
+        "type": "fixed_records",
+        "file": "a_dic",
+        "blocks": [
+          {
+            "base": "0x69be4",
+            "count": 255,
             "stride": "0x10"
           }
         ],

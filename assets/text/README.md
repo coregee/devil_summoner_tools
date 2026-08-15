@@ -93,6 +93,13 @@ The current speaking-style files are `archaic`, `beast`, `boy`, `cynical`,
 `nobleman`, `old_man`, `slime`, and `young_man`. Original bank names remain in
 platform bindings rather than leaking into the authoring layout.
 
+The Saturn `MAGNAME` catalogue is split by its proved category metadata into
+79 magic entries and 176 skill entries. Each entity owns its editable name and
+description, plus a separate battle `console_text` only when a physical console
+record exists. Field-only magic therefore does not acquire an invented console
+form. The bonus-disc ability-name table binds to the same fields, including its
+28 explicit punctuation variants and one proved glyph equivalence.
+
 ## Identity and sharing
 
 An asset is identified by its file-local semantic key and field path. English
@@ -109,6 +116,13 @@ Bindings may explicitly map:
 Sharing is never inferred from matching Japanese text. Repeated text can have
 different context, while physically different Saturn and PSP records can be one
 semantic line. All sharing and forks are explicit.
+
+An unused reserve has no known semantic identity to name. Until a call site or
+another release establishes one, its provisional `reserved_magic_NNN` or
+`reserved_skill_NNN` key retains the catalog game ID and carries
+`status: "reserve"`. This narrow evidence-key exception prevents unrelated PSP
+replacements from being attached to a made-up Saturn entity; active entities
+still never use table coordinates as their identity.
 
 Binary-only blank layout remains visible in the generated physical catalogue,
 but a binding may explicitly normalize a field made entirely of whitespace and
@@ -207,11 +221,18 @@ layer is introduced. The first vertical slice joins equipment and items to
 their names, descriptions, console forms, and complete field-message templates.
 The demon catalogue now joins game and Akuma Zensho names with all Compendium
 profile fields, while retaining PSP-only entities and PSP reference revisions
-for later platform bindings. All 15 negotiation styles are now represented by
-8,523 shared authored fields, including their condition reactions; Saturn fans
-them across 10,009 explicitly bound physical occurrences. PSP reuses the same
-authored fields rather than carrying duplicate translations. Facilities and
-general dialogue follow using the same evidence-first rule.
+for later platform bindings. The magic and skill catalogues add all 255 Saturn
+ability slots, 199 separately authored battle-console forms, and the complete
+Akuma Zensho name table. Of the PSP name/description fields, 298 exact fields
+need no variant, 105 source revisions retain the shared English, and 102
+meaningful revisions remain explicitly untranslated. Two dormant PSP-only
+skills are visible unresolved entries, while its repurposed reserve slots point
+to the established Evil Gaze, Death Ring, and Cauterizing Fist entities. All 15
+negotiation styles are represented by 8,523 shared authored fields, including
+their condition reactions; Saturn fans them across 10,009 explicitly bound
+physical occurrences. PSP reuses the same authored fields rather than carrying
+duplicate translations. Facilities and general dialogue follow using the same
+evidence-first rule.
 
 After bindings cover the authored corpus, translations in the generated
 physical catalogue will be removed or generated from these assets. There must

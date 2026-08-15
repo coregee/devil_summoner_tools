@@ -247,6 +247,9 @@ class CompendiumInventoryTests(unittest.TestCase):
         cls.name_rows = json.loads(
             cls.batch.rendered[PurePosixPath("fixed/demon_names.json")]
         )
+        cls.ability_name_rows = json.loads(
+            cls.batch.rendered[PurePosixPath("fixed/ability_names.json")]
+        )
 
     def test_complete_profile_inventory(self) -> None:
         absent = {
@@ -276,9 +279,9 @@ class CompendiumInventoryTests(unittest.TestCase):
             all(spec.owned_sha256 is not None for spec in self.manifest.files.values())
         )
         self.assertEqual(self.manifest.files["a_dic"].size, 472_172)
-        self.assertEqual(self.batch.source_count, 2)
-        self.assertEqual(self.batch.record_count, 1_195)
-        self.assertEqual(len(self.batch.rendered), 2)
+        self.assertEqual(self.batch.source_count, 3)
+        self.assertEqual(self.batch.record_count, 1_450)
+        self.assertEqual(len(self.batch.rendered), 3)
 
         ids = [row["id"] for row in self.rows]
         self.assertEqual(len(ids), len(set(ids)))
@@ -313,6 +316,23 @@ class CompendiumInventoryTests(unittest.TestCase):
             all(
                 row["source_encoding"] == "compendium_font16_plain_skip"
                 for row in self.name_rows
+            )
+        )
+
+        self.assertEqual(len(self.ability_name_rows), 255)
+        self.assertEqual(
+            self.ability_name_rows[0]["id"],
+            "compendium.ability_names.o069be4.text",
+        )
+        self.assertEqual(self.ability_name_rows[0]["reference"], "アギ")
+        self.assertEqual(
+            self.ability_name_rows[-1]["id"],
+            "compendium.ability_names.o06abc4.text",
+        )
+        self.assertTrue(
+            all(
+                row["source_encoding"] == "compendium_font16_plain_skip"
+                for row in self.ability_name_rows
             )
         )
 

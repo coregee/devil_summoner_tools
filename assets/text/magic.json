@@ -1,0 +1,1531 @@
+{
+  "version": 1,
+  "kind": "entity_catalog",
+  "entries": {
+    "agi": {
+      "name": {
+        "reference": "アギ",
+        "translation": "Agi"
+      },
+      "description": {
+        "reference": "攻撃魔法 前列 威力23{n}敵1体に火炎系ダメージ",
+        "translation": "Offensive magic / Front / Power 23{n}Deals Fire damage to one foe.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 前列 威力49{n}敵1体に火炎系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "AGI",
+        "translation": "Agi"
+      }
+    },
+    "agilao": {
+      "name": {
+        "reference": "アギラオ",
+        "translation": "Agilao"
+      },
+      "description": {
+        "reference": "攻撃魔法 前列 威力50{n}敵1体に複数回の火炎系ダメージ",
+        "translation": "Offensive magic / Front / Power 50{n}Hits one foe repeatedly with Fire.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 前列 威力105{n}敵1～2体に火炎系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "AGIRAO",
+        "translation": "Agilao"
+      }
+    },
+    "maragi": {
+      "name": {
+        "reference": "マハ‐ラギ",
+        "translation": "Maragi",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "マハ・ラギ"
+          },
+          "psp": {
+            "reference": "マハ・ラギ"
+          }
+        }
+      },
+      "description": {
+        "reference": "攻撃魔法 前列 威力27{n}敵1列全体に火炎系ダメージ",
+        "translation": "Offensive magic / Front / Power 27{n}Deals Fire damage to one row.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 前列／後列 威力49{n}敵1列全体に火炎系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "MahaーAGI",
+        "translation": "Maragi"
+      }
+    },
+    "maragion": {
+      "name": {
+        "reference": "マハ‐ラギオン",
+        "translation": "Maragion",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "マハ・ラギオン"
+          },
+          "psp": {
+            "reference": "マハ・ラギオン"
+          }
+        }
+      },
+      "description": {
+        "reference": "攻撃魔法 全体 威力77{n}すべての敵に火炎系ダメージ",
+        "translation": "Offensive magic / All foes / Power 77{n}Deals Fire damage to all foes.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 全体 威力110{n}すべての敵に火炎系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "MahaーAGION",
+        "translation": "Maragion"
+      }
+    },
+    "bufu": {
+      "name": {
+        "reference": "ブフ",
+        "translation": "Bufu"
+      },
+      "description": {
+        "reference": "攻撃魔法 前列 威力23{n}敵1体に氷結系ダメージ",
+        "translation": "Offensive magic / Front / Power 23{n}Deals Ice damage to one foe.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 前列 威力38{n}敵1体に氷結系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "BUFU",
+        "translation": "Bufu"
+      }
+    },
+    "bufula": {
+      "name": {
+        "reference": "ブフーラ",
+        "translation": "Bufula"
+      },
+      "description": {
+        "reference": "攻撃魔法 前列 威力50{n}複数の敵に氷結系ダメージ",
+        "translation": "Offensive magic / Front / Power 50{n}Deals Ice damage to multiple foes.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 前列 威力75{n}敵1～2体に氷結系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "BUFULA",
+        "translation": "Bufula"
+      }
+    },
+    "mabufu": {
+      "name": {
+        "reference": "マハ‐ブフ",
+        "translation": "Mabufu",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "マハ・ブフ"
+          },
+          "psp": {
+            "reference": "マハ・ブフ"
+          }
+        }
+      },
+      "description": {
+        "reference": "攻撃魔法 前列 威力25{n}敵1列全体に氷結系ダメージ",
+        "translation": "Offensive magic / Front / Power 25{n}Deals Ice damage to one row.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 前列／後列 威力38{n}敵1列全体に氷結系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "MahaーBUFU",
+        "translation": "Mabufu"
+      }
+    },
+    "mabufula": {
+      "name": {
+        "reference": "マハ‐ブフーラ",
+        "translation": "Mabufula",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "マハ・ブフーラ"
+          },
+          "psp": {
+            "reference": "マハ・ブフーラ"
+          }
+        }
+      },
+      "description": {
+        "reference": "攻撃魔法 全体 威力85{n}すべての敵に氷結系ダメージ",
+        "translation": "Offensive magic / All foes / Power 85{n}Deals Ice damage to all foes.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 全体 威力90{n}すべての敵に氷結系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "MahaーBUFULA",
+        "translation": "Mabufula"
+      }
+    },
+    "zio": {
+      "name": {
+        "reference": "ジオ",
+        "translation": "Zio"
+      },
+      "description": {
+        "reference": "攻撃魔法 前列／後列 威力28{n}敵1体に電撃系ダメージ",
+        "translation": "Offensive magic / Either row / Power 28{n}Deals Elec damage to one foe.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 前列 威力40{n}敵1体に電撃系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "ZIO",
+        "translation": "Zio"
+      }
+    },
+    "zionga": {
+      "name": {
+        "reference": "ジオンガ",
+        "translation": "Zionga"
+      },
+      "description": {
+        "reference": "攻撃魔法 前列／後列 威力98{n}敵1体に電撃系ダメージ",
+        "translation": "Offensive magic / Either row / Power 98{n}Deals Elec damage to one foe.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 前列 威力80{n}敵1体に電撃系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "ZIONGA",
+        "translation": "Zionga"
+      }
+    },
+    "mazio": {
+      "name": {
+        "reference": "マハ‐ジオ",
+        "translation": "Mazio",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "マハ・ジオ"
+          },
+          "psp": {
+            "reference": "マハ・ジオ"
+          }
+        }
+      },
+      "description": {
+        "reference": "攻撃魔法 前列／後列 威力30{n}敵1列全体に電撃系ダメージ",
+        "translation": "Offensive magic / Either row / Power 30{n}Deals Elec damage to one row.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 前列／後列 威力40{n}敵1列全体に電撃系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "MahaーZIO",
+        "translation": "Mazio"
+      }
+    },
+    "mazionga": {
+      "name": {
+        "reference": "マハ‐ジオンガ",
+        "translation": "Mazionga",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "マハ・ジオンガ"
+          },
+          "psp": {
+            "reference": "マハ・ジオンガ"
+          }
+        }
+      },
+      "description": {
+        "reference": "攻撃魔法 全体 威力86{n}すべての敵に電撃系ダメージ",
+        "translation": "Offensive magic / All foes / Power 86{n}Deals Elec damage to all foes.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 全体 威力80{n}すべての敵に電撃系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "MahaーZIONGA",
+        "translation": "Mazionga"
+      }
+    },
+    "zan": {
+      "name": {
+        "reference": "ザン",
+        "translation": "Zan"
+      },
+      "description": {
+        "reference": "攻撃魔法 前列 威力28{n}敵1体に衝撃系ダメージ",
+        "translation": "Offensive magic / Front / Power 28{n}Deals Force damage to one foe.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 前列 威力43{n}敵1体に衝撃系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "ZAN",
+        "translation": "Zan"
+      }
+    },
+    "zanma": {
+      "name": {
+        "reference": "ザンマ",
+        "translation": "Zanma"
+      },
+      "description": {
+        "reference": "攻撃魔法 前列 威力40{n}複数の敵に衝撃系ダメージ",
+        "translation": "Offensive magic / Front / Power 40{n}Deals Force damage to multiple foes.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 前列 威力91{n}敵1～2体に衝撃系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "ZANMA",
+        "translation": "Zanma"
+      }
+    },
+    "mazan": {
+      "name": {
+        "reference": "マハ‐ザン",
+        "translation": "Mazan",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "マハ・ザン"
+          },
+          "psp": {
+            "reference": "マハ・ザン"
+          }
+        }
+      },
+      "description": {
+        "reference": "攻撃魔法 前列 威力31{n}敵1列全体に衝撃系ダメージ",
+        "translation": "Offensive magic / Front / Power 31{n}Deals Force damage to one row.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 前列／後列 威力43{n}敵1列全体に衝撃系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "MahaーZAN",
+        "translation": "Mazan"
+      }
+    },
+    "mazanma": {
+      "name": {
+        "reference": "マハ‐ザンマ",
+        "translation": "Mazanma",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "マハ・ザンマ"
+          },
+          "psp": {
+            "reference": "マハ・ザンマ"
+          }
+        }
+      },
+      "description": {
+        "reference": "攻撃魔法 全体 威力87{n}すべての敵に衝撃系ダメージ",
+        "translation": "Offensive magic / All foes / Power 87{n}Deals Force damage to all foes.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 全体 威力91{n}すべての敵に衝撃系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "MahaーZANMA",
+        "translation": "Mazanma"
+      }
+    },
+    "psi": {
+      "name": {
+        "reference": "サイ",
+        "translation": "Psi"
+      },
+      "description": {
+        "reference": "攻撃魔法 前列／後列 威力25{n}敵1体に念動系ダメージ",
+        "translation": "Offensive magic / Either row / Power 25{n}Deals Psy damage to one foe.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 前列／後列 威力60{n}敵1体に念動系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "PSY",
+        "translation": "Psi"
+      }
+    },
+    "psio": {
+      "name": {
+        "reference": "サイオ",
+        "translation": "Psio"
+      },
+      "description": {
+        "reference": "攻撃魔法 前列／後列 威力98{n}敵1体に念動系ダメージ",
+        "translation": "Offensive magic / Either row / Power 98{n}Deals Psy damage to one foe.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 前列／後列 威力125{n}敵1体に念動系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "PSYO",
+        "translation": "Psio"
+      }
+    },
+    "mapsi": {
+      "name": {
+        "reference": "マハ‐サイ",
+        "translation": "Mapsi",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "マハ・サイ"
+          },
+          "psp": {
+            "reference": "マハ・サイ"
+          }
+        }
+      },
+      "description": {
+        "reference": "攻撃魔法 前列／後列 威力31{n}敵1列全体に念動系ダメージ",
+        "translation": "Offensive magic / Either row / Power 31{n}Deals Psy damage to one row.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 前列／後列 威力60{n}敵1列全体に念動系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "MahaーPSY",
+        "translation": "Mapsi"
+      }
+    },
+    "mapsio": {
+      "name": {
+        "reference": "マハ‐サイオ",
+        "translation": "Mapsio",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "マハ・サイオ"
+          },
+          "psp": {
+            "reference": "マハ・サイオ"
+          }
+        }
+      },
+      "description": {
+        "reference": "攻撃魔法 全体 威力98{n}すべての敵に念動系ダメージ",
+        "translation": "Offensive magic / All foes / Power 98{n}Deals Psy damage to all foes.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 全体 威力120{n}すべての敵に念動系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "MahaーPSYO",
+        "translation": "Mapsio"
+      }
+    },
+    "hama": {
+      "name": {
+        "reference": "ハマ",
+        "translation": "Hama"
+      },
+      "description": {
+        "reference": "攻撃魔法 前列 威力24{n}敵1体に破魔系ダメージ",
+        "translation": "Offensive magic / Front / Power 24{n}Deals Expel damage to one foe.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 前列／後列 {n}敵1体を破魔殺",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "HAMA",
+        "translation": "Hama"
+      }
+    },
+    "hanma": {
+      "name": {
+        "reference": "ハンマ",
+        "translation": "Hanma"
+      },
+      "description": {
+        "reference": "攻撃魔法 前列 威力20{n}敵1列全体に破魔系ダメージ",
+        "translation": "Offensive magic / Front / Power 20{n}Deals Expel damage to one row.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 前列／後列 敵1列全体を破魔殺",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "HANMA",
+        "translation": "Hanma"
+      }
+    },
+    "hamaon": {
+      "name": {
+        "reference": "ハマオン",
+        "translation": "Hamaon"
+      },
+      "description": {
+        "reference": "攻撃魔法 全体 威力16{n}すべての敵に破魔系ダメージ",
+        "translation": "Offensive magic / All foes / Power 16{n}Deals Expel damage to all foes.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 全体 {n}すべての敵を破魔殺",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "HAMAON",
+        "translation": "Hamaon"
+      }
+    },
+    "mudo": {
+      "name": {
+        "reference": "ムド",
+        "translation": "Mudo"
+      },
+      "description": {
+        "reference": "攻撃魔法 前列／後列{n}敵1体を呪殺",
+        "translation": "Offensive magic / Either row{n}May inflict Death on one foe.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 前列／後列 {n}敵1体を呪殺",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "MUDO",
+        "translation": "Mudo"
+      }
+    },
+    "mudola": {
+      "name": {
+        "reference": "ムドラ",
+        "translation": "Mudola"
+      },
+      "description": {
+        "reference": "攻撃魔法 前列／後列{n}敵1列全体を呪殺",
+        "translation": "Offensive magic / Either row{n}May inflict Death on one row.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 前列／後列 {n}敵1列全体を呪殺",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "MUDORA",
+        "translation": "Mudola"
+      }
+    },
+    "mudoon": {
+      "name": {
+        "reference": "ムドオン",
+        "translation": "Mudoon"
+      },
+      "description": {
+        "reference": "攻撃魔法 全体{n}すべての敵を呪殺",
+        "translation": "Offensive magic / All foes{n}May inflict Death on all foes.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 全体 {n}すべての敵を呪殺",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "MUDOーON",
+        "translation": "Mudoon"
+      }
+    },
+    "megido": {
+      "name": {
+        "reference": "メギド",
+        "translation": "Megido"
+      },
+      "description": {
+        "reference": "攻撃魔法 前列 威力200{n}敵1体に大ダメージ",
+        "translation": "Offensive magic / Front / Power 200{n}Deals heavy Almighty damage to one foe.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 前列／後列 威力180{n}敵1体に大ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "MEGIDO",
+        "translation": "Megido"
+      }
+    },
+    "megidola": {
+      "name": {
+        "reference": "メギドラ",
+        "translation": "Megidola"
+      },
+      "description": {
+        "reference": "攻撃魔法 前列 威力150{n}敵1列全体に大ダメージ",
+        "translation": "Offensive magic / Front / Power 150{n}Deals heavy Almighty damage to one row.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 前列／後列 威力210{n}敵1列全体に大ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "MEGIDORA",
+        "translation": "Megidola"
+      }
+    },
+    "megidolaon": {
+      "name": {
+        "reference": "メギドラオン",
+        "translation": "Megidolaon"
+      },
+      "description": {
+        "reference": "攻撃魔法 全体 威力160{n}すべての敵に大ダメージ",
+        "translation": "Offensive magic / All foes / Power 160{n}Deals heavy Almighty damage.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃魔法 全体 威力210{n}すべての敵に大ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "MEGIDORAON",
+        "translation": "Megidolaon"
+      }
+    },
+    "dormina": {
+      "name": {
+        "reference": "ドルミナー",
+        "translation": "Dormina"
+      },
+      "description": {
+        "reference": "攻撃補助 前列／後列 バッドステータス{n}敵1列全体にSLEEPの効果",
+        "translation": "Ailment magic / Either row{n}Inflicts Sleep on one row."
+      },
+      "console_text": {
+        "reference": "DOLUMINER",
+        "translation": "Dormina"
+      }
+    },
+    "marin_karin": {
+      "name": {
+        "reference": "マリンカリン",
+        "translation": "Marin Karin"
+      },
+      "description": {
+        "reference": "攻撃補助 前列／後列 バッドステータス{n}敵1体にCHARMの効果",
+        "translation": "Ailment magic / Either row{n}Inflicts Charm on one foe."
+      },
+      "console_text": {
+        "reference": "MARINーKARIN",
+        "translation": "Marin_Karin"
+      }
+    },
+    "shibaboo": {
+      "name": {
+        "reference": "シバブー",
+        "translation": "Shibaboo"
+      },
+      "description": {
+        "reference": "攻撃補助 前列／後列 バッドステータス{n}敵1列全体にBINDの効果",
+        "translation": "Ailment magic / Either row{n}Inflicts Bind on one row."
+      },
+      "console_text": {
+        "reference": "SIBABU",
+        "translation": "Shibaboo"
+      }
+    },
+    "shuff": {
+      "name": {
+        "reference": "シャッフ",
+        "translation": "Shuff"
+      },
+      "description": {
+        "reference": "攻撃補助 前列／後列 バッドステータス{n}敵1体にCARDの効果",
+        "translation": "Ailment magic / Either row{n}Inflicts Card on one foe."
+      },
+      "console_text": {
+        "reference": "SHUFF",
+        "translation": "Shuff"
+      }
+    },
+    "shuffle": {
+      "name": {
+        "reference": "シャッフル",
+        "translation": "Shuffle"
+      },
+      "description": {
+        "reference": "攻撃補助 前列／後列 バッドステータス{n}敵1列全体にCARDの効果",
+        "translation": "Ailment magic / Either row{n}Inflicts Card on one row."
+      },
+      "console_text": {
+        "reference": "SHUFFLE",
+        "translation": "Shuffle"
+      }
+    },
+    "shuffler": {
+      "name": {
+        "reference": "シャッフラー",
+        "translation": "Shuffler"
+      },
+      "description": {
+        "reference": "攻撃補助 全体 バッドステータス{n}すべての敵にCARDの効果",
+        "translation": "Ailment magic / All foes{n}Inflicts Card on all foes."
+      },
+      "console_text": {
+        "reference": "SHUFFLER",
+        "translation": "Shuffler"
+      }
+    },
+    "kyou": {
+      "name": {
+        "reference": "キョウ",
+        "translation": "Kyou"
+      },
+      "description": {
+        "reference": "攻撃補助 前列 バッドステータス{n}敵1体にMIRRORの効果",
+        "translation": "Ailment magic / Front{n}Inflicts Mirror on one foe.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃補助 前列／後列 バッドステータス{n}敵1体にMIRRORの効果",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "KYO",
+        "translation": "Kyou"
+      }
+    },
+    "hakyou": {
+      "name": {
+        "reference": "ハ‐キョウ",
+        "translation": "Hakyou",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "ハ・キョウ"
+          },
+          "psp": {
+            "reference": "ハ・キョウ"
+          }
+        }
+      },
+      "description": {
+        "reference": "攻撃補助 前列 バッドステータス{n}敵1列全体にMIRRORの効果",
+        "translation": "Ailment magic / Front{n}Inflicts Mirror on one row.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃補助 前列／後列 バッドステータス{n}敵1列全体にMIRRORの効果",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "HAーKYO",
+        "translation": "Hakyou"
+      }
+    },
+    "shikyou": {
+      "name": {
+        "reference": "シ‐キョウ",
+        "translation": "Shikyou",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "シ・キョウ"
+          },
+          "psp": {
+            "reference": "シ・キョウ"
+          }
+        }
+      },
+      "description": {
+        "reference": "攻撃補助 全体 バッドステータス{n}すべての敵にMIRRORの効果",
+        "translation": "Ailment magic / All foes{n}Inflicts Mirror on all foes."
+      },
+      "console_text": {
+        "reference": "SIーKYO",
+        "translation": "Shikyou"
+      }
+    },
+    "shipani": {
+      "name": {
+        "reference": "シパニ",
+        "translation": "Shipani"
+      },
+      "description": {
+        "reference": "攻撃補助 全体 バッドステータス{n}すべての敵にPANICの効果",
+        "translation": "Ailment magic / All foes{n}Inflicts Panic on all foes."
+      },
+      "console_text": {
+        "reference": "SIPANI",
+        "translation": "Shipani"
+      }
+    },
+    "hapilma": {
+      "name": {
+        "reference": "ハピルマ",
+        "translation": "Hapilma"
+      },
+      "description": {
+        "reference": "攻撃補助 前列 バッドステータス{n}敵1列全体にHAPPYの効果",
+        "translation": "Ailment magic / Front{n}Inflicts Happy on one row.",
+        "variants": {
+          "psp": {
+            "reference": "攻撃補助 前列／後列 バッドステータス{n}敵1列全体にHAPPYの効果",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "HAPIRUMA",
+        "translation": "Hapilma"
+      }
+    },
+    "makafuji": {
+      "name": {
+        "reference": "マカフージ",
+        "translation": "Makafuji"
+      },
+      "description": {
+        "reference": "攻撃補助 前列／後列 バッドステータス{n}敵1体にCLOSEの効果",
+        "translation": "Ailment magic / Either row{n}Inflicts Mute on one foe."
+      },
+      "console_text": {
+        "reference": "MAKAーFUJI",
+        "translation": "Makafuji"
+      }
+    },
+    "tarunda": {
+      "name": {
+        "reference": "タル‐ンダ",
+        "translation": "Tarunda",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "タル・ンダ"
+          },
+          "psp": {
+            "reference": "タル・ンダ"
+          }
+        }
+      },
+      "description": {
+        "reference": "攻撃補助 全体{n}すべての敵の攻撃力ダウン",
+        "translation": "Debuff magic / All foes{n}Lowers Attack."
+      },
+      "console_text": {
+        "reference": "TARUーNda",
+        "translation": "Tarunda"
+      }
+    },
+    "rakunda": {
+      "name": {
+        "reference": "ラク‐ンダ",
+        "translation": "Rakunda",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "ラク・ンダ"
+          },
+          "psp": {
+            "reference": "ラク・ンダ"
+          }
+        }
+      },
+      "description": {
+        "reference": "攻撃補助 全体{n}すべての敵の防御力ダウン",
+        "translation": "Debuff magic / All foes{n}Lowers Defense."
+      },
+      "console_text": {
+        "reference": "RAKUーNda",
+        "translation": "Rakunda"
+      }
+    },
+    "sukunda": {
+      "name": {
+        "reference": "スク‐ンダ",
+        "translation": "Sukunda",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "スク・ンダ"
+          },
+          "psp": {
+            "reference": "スク・ンダ"
+          }
+        }
+      },
+      "description": {
+        "reference": "攻撃補助 全体{n}すべての敵の命中力ダウン",
+        "translation": "Debuff magic / All foes{n}Lowers Accuracy."
+      },
+      "console_text": {
+        "reference": "SUKUーNda",
+        "translation": "Sukunda"
+      }
+    },
+    "dekaja": {
+      "name": {
+        "reference": "デ‐カジャ",
+        "translation": "Dekaja",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "デ・カジャ"
+          },
+          "psp": {
+            "reference": "デ・カジャ"
+          }
+        }
+      },
+      "description": {
+        "reference": "攻撃補助 全体{n}すべての敵の能力値アップを無効化",
+        "translation": "Debuff magic / All foes{n}Removes all stat increases."
+      },
+      "console_text": {
+        "reference": "DEーKaja",
+        "translation": "Dekaja"
+      }
+    },
+    "dia": {
+      "name": {
+        "reference": "ディア",
+        "translation": "Dia"
+      },
+      "description": {
+        "reference": "回復魔法 単体{n}味方1体のHPを少しだけ回復",
+        "translation": "Recovery magic / One ally{n}Restores a small amount of HP."
+      },
+      "console_text": {
+        "reference": "DIA",
+        "translation": "Dia"
+      }
+    },
+    "diarama": {
+      "name": {
+        "reference": "ディアラマ",
+        "translation": "Diarama"
+      },
+      "description": {
+        "reference": "回復魔法 単体{n}味方1体のHPを中程度回復",
+        "translation": "Recovery magic / One ally{n}Restores a moderate amount of HP."
+      },
+      "console_text": {
+        "reference": "DIAーRAMA",
+        "translation": "Diarama"
+      }
+    },
+    "diarahan": {
+      "name": {
+        "reference": "ディアラハン",
+        "translation": "Diarahan"
+      },
+      "description": {
+        "reference": "回復魔法 単体{n}味方1体のHPをMAXまで回復",
+        "translation": "Recovery magic / One ally{n}Fully restores HP."
+      },
+      "console_text": {
+        "reference": "DIAーRAHAN",
+        "translation": "Diarahan"
+      }
+    },
+    "media": {
+      "name": {
+        "reference": "メ‐ディア",
+        "translation": "Media",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "メ・ディア"
+          },
+          "psp": {
+            "reference": "メ・ディア"
+          }
+        }
+      },
+      "description": {
+        "reference": "回復魔法 全体{n}味方全員のHPを少しだけ回復",
+        "translation": "Recovery magic / All allies{n}Restores a small amount of HP."
+      },
+      "console_text": {
+        "reference": "MeーDIA",
+        "translation": "Media"
+      }
+    },
+    "mediarama": {
+      "name": {
+        "reference": "メ‐ディアラマ",
+        "translation": "Mediarama",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "メ・ディアラマ"
+          },
+          "psp": {
+            "reference": "メ・ディアラマ"
+          }
+        }
+      },
+      "description": {
+        "reference": "回復魔法 全体{n}味方全員のHPを中程度回復",
+        "translation": "Recovery magic / All allies{n}Restores a moderate amount of HP."
+      },
+      "console_text": {
+        "reference": "MeーDIARAMA",
+        "translation": "Mediarama"
+      }
+    },
+    "mediarahan": {
+      "name": {
+        "reference": "メ‐ディアラハン",
+        "translation": "Mediarahan",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "メ・ディアラハン"
+          },
+          "psp": {
+            "reference": "メ・ディアラハン"
+          }
+        }
+      },
+      "description": {
+        "reference": "回復魔法 全体{n}味方全員のHPをMAXまで回復",
+        "translation": "Recovery magic / All allies{n}Fully restores HP."
+      },
+      "console_text": {
+        "reference": "MeーDIARAHAN",
+        "translation": "Mediarahan"
+      }
+    },
+    "posumudi": {
+      "name": {
+        "reference": "ポズムディ",
+        "translation": "Posumudi"
+      },
+      "description": {
+        "reference": "回復魔法 単体{n}味方1体の毒の状態を治療",
+        "translation": "Recovery magic / One ally{n}Cures Poison."
+      },
+      "console_text": {
+        "reference": "POSMーDi",
+        "translation": "Posumudi"
+      }
+    },
+    "phasedi": {
+      "name": {
+        "reference": "パァスディ",
+        "translation": "Phasedi"
+      },
+      "description": {
+        "reference": "回復魔法 単体{n}味方1体の混乱・至福・睡眠を治療",
+        "translation": "Recovery magic / One ally{n}Cures Panic, Happy, and Sleep."
+      },
+      "console_text": {
+        "reference": "PHASーDi",
+        "translation": "Phasedi"
+      }
+    },
+    "charmdi": {
+      "name": {
+        "reference": "カルムディ",
+        "translation": "Charmdi"
+      },
+      "description": {
+        "reference": "回復魔法 単体{n}味方1体の魅了を治療",
+        "translation": "Recovery magic / One ally{n}Cures Charm."
+      },
+      "console_text": {
+        "reference": "CARMーDi",
+        "translation": "Charmdi"
+      }
+    },
+    "petradi": {
+      "name": {
+        "reference": "ペトラディ",
+        "translation": "Petradi"
+      },
+      "description": {
+        "reference": "回復魔法 単体{n}味方1体の石化を治療",
+        "translation": "Recovery magic / One ally{n}Cures Stone."
+      },
+      "console_text": {
+        "reference": "PETRAーDi",
+        "translation": "Petradi"
+      }
+    },
+    "mutudi": {
+      "name": {
+        "reference": "クロズディ",
+        "translation": "Mutudi"
+      },
+      "description": {
+        "reference": "回復魔法 単体{n}味方1体の沈黙を治療",
+        "translation": "Recovery magic / One ally{n}Cures Mute."
+      },
+      "console_text": {
+        "reference": "CLOSーDi",
+        "translation": "Mutudi"
+      }
+    },
+    "paraladi": {
+      "name": {
+        "reference": "パララディ",
+        "translation": "Paraladi"
+      },
+      "description": {
+        "reference": "回復魔法 単体{n}味方1体の麻痺を治療",
+        "translation": "Recovery magic / One ally{n}Cures Paralysis."
+      },
+      "console_text": {
+        "reference": "PALYLAーDi",
+        "translation": "Paraladi"
+      }
+    },
+    "metamodi": {
+      "name": {
+        "reference": "メタモディ",
+        "translation": "Metamodi"
+      },
+      "description": {
+        "reference": "回復魔法 単体{n}味方1体の変身を解く",
+        "translation": "Recovery magic / One ally{n}Reverses transformation."
+      },
+      "console_text": {
+        "reference": "METAMOーDi",
+        "translation": "Metamodi"
+      }
+    },
+    "patra": {
+      "name": {
+        "reference": "パトラ",
+        "translation": "Patra"
+      },
+      "description": {
+        "reference": "回復魔法 単体{n}味方1体の混乱・至福・睡眠・呪縛を治療",
+        "translation": "Recovery magic / One ally{n}Cures Panic, Happy, Sleep, and Bind."
+      },
+      "console_text": {
+        "reference": "PATORA",
+        "translation": "Patra"
+      }
+    },
+    "me_patra": {
+      "name": {
+        "reference": "メ‐パトラ",
+        "translation": "Me Patra",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "メ・パトラ"
+          },
+          "psp": {
+            "reference": "メ・パトラ"
+          }
+        }
+      },
+      "description": {
+        "reference": "回復魔法 全体{n}味方全員の混乱・至福・睡眠・呪縛を治療",
+        "translation": "Recovery magic / All allies{n}Cures Panic, Happy, Sleep, and Bind."
+      },
+      "console_text": {
+        "reference": "MeーPATORA",
+        "translation": "Me_Patra"
+      }
+    },
+    "recarm": {
+      "name": {
+        "reference": "リカーム",
+        "translation": "Recarm"
+      },
+      "description": {
+        "reference": "回復魔法 単体{n}味方1体を復活",
+        "translation": "Recovery magic / One ally{n}Revives the target."
+      },
+      "console_text": {
+        "reference": "RECARM",
+        "translation": "Recarm"
+      }
+    },
+    "samarecarm": {
+      "name": {
+        "reference": "サマリカーム",
+        "translation": "Samarecarm"
+      },
+      "description": {
+        "reference": "回復魔法 単体{n}味方1体をHP最大で復活",
+        "translation": "Recovery magic / One ally{n}Revives the target with full HP."
+      },
+      "console_text": {
+        "reference": "SamaーRECARM",
+        "translation": "Samarecarm"
+      }
+    },
+    "recarmdra": {
+      "name": {
+        "reference": "リカーム‐ドラ",
+        "translation": "Recarmdra",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "リカーム・ドラ"
+          },
+          "psp": {
+            "reference": "リカーム・ドラ"
+          }
+        }
+      },
+      "description": {
+        "reference": "回復魔法 全体{n}味方全員のHPを最大回復し術者は死亡",
+        "translation": "Recovery magic / All allies{n}Fully restores HP, but kills the caster.",
+        "variants": {
+          "psp": {
+            "reference": "回復魔法 全体{n}味方全員のHPを最大回復／術者は死亡",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "RECARMーDora",
+        "translation": "Recarmdra"
+      }
+    },
+    "tetraja": {
+      "name": {
+        "reference": "テトラジャ",
+        "translation": "Tetraja"
+      },
+      "description": {
+        "reference": "防御魔法 全体{n}破魔・呪殺・エナジードレインを1回防止",
+        "translation": "Defensive magic / All allies{n}Blocks Expel, Death, or Energy Drain once."
+      },
+      "console_text": {
+        "reference": "TETRAJA",
+        "translation": "Tetraja"
+      }
+    },
+    "tetrakarn": {
+      "name": {
+        "reference": "テトラカーン",
+        "translation": "Tetrakarn"
+      },
+      "description": {
+        "reference": "防御魔法 全体{n}物理攻撃を1ターン防ぎ敵に反射",
+        "translation": "Defensive magic / All allies{n}Reflects physical attacks for one turn."
+      },
+      "console_text": {
+        "reference": "TETRAーKarn",
+        "translation": "Tetrakarn"
+      }
+    },
+    "makarakarn": {
+      "name": {
+        "reference": "マカラカーン",
+        "translation": "Makarakarn"
+      },
+      "description": {
+        "reference": "防御魔法 全体{n}魔法攻撃を1ターン防ぎ敵に反射",
+        "translation": "Defensive magic / All allies{n}Reflects magic attacks for one turn."
+      },
+      "console_text": {
+        "reference": "MAKARAーKarn",
+        "translation": "Makarakarn"
+      }
+    },
+    "tarukaja": {
+      "name": {
+        "reference": "タル‐カジャ",
+        "translation": "Tarukaja",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "タル・カジャ"
+          },
+          "psp": {
+            "reference": "タル・カジャ"
+          }
+        }
+      },
+      "description": {
+        "reference": "補助魔法 全体{n}味方全員の攻撃力アップ",
+        "translation": "Buff magic / All allies{n}Raises Attack."
+      },
+      "console_text": {
+        "reference": "TARUーKaja",
+        "translation": "Tarukaja"
+      }
+    },
+    "rakukaja": {
+      "name": {
+        "reference": "ラク‐カジャ",
+        "translation": "Rakukaja",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "ラク・カジャ"
+          },
+          "psp": {
+            "reference": "ラク・カジャ"
+          }
+        }
+      },
+      "description": {
+        "reference": "補助魔法 全体{n}味方全員の防御力アップ",
+        "translation": "Buff magic / All allies{n}Raises Defense."
+      },
+      "console_text": {
+        "reference": "RAKUーKaja",
+        "translation": "Rakukaja"
+      }
+    },
+    "sukukaja": {
+      "name": {
+        "reference": "スク‐カジャ",
+        "translation": "Sukukaja",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "スク・カジャ"
+          },
+          "psp": {
+            "reference": "スク・カジャ"
+          }
+        }
+      },
+      "description": {
+        "reference": "補助魔法 全体{n}味方全員の命中力アップ",
+        "translation": "Buff magic / All allies{n}Raises Accuracy."
+      },
+      "console_text": {
+        "reference": "SUKUーKaja",
+        "translation": "Sukukaja"
+      }
+    },
+    "makakaja": {
+      "name": {
+        "reference": "マカ‐カジャ",
+        "translation": "Makakaja",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "マカ・カジャ"
+          },
+          "psp": {
+            "reference": "マカ・カジャ"
+          }
+        }
+      },
+      "description": {
+        "reference": "補助魔法 全体{n}味方全員の魔法威力アップ",
+        "translation": "Buff magic / All allies{n}Raises Magic Power."
+      },
+      "console_text": {
+        "reference": "MAKAーKaja",
+        "translation": "Makakaja"
+      }
+    },
+    "dekunda": {
+      "name": {
+        "reference": "デ‐クンダ",
+        "translation": "Dekunda",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "デ・クンダ"
+          },
+          "psp": {
+            "reference": "デ・クンダ"
+          }
+        }
+      },
+      "description": {
+        "reference": "補助魔法 全体{n}味方全員の能力値ダウンを無効化",
+        "translation": "Buff magic / All allies{n}Removes all stat decreases."
+      },
+      "console_text": {
+        "reference": "DEーKunda",
+        "translation": "Dekunda"
+      }
+    },
+    "necroma": {
+      "name": {
+        "reference": "ネクロマ",
+        "translation": "Necroma"
+      },
+      "description": {
+        "reference": "補助魔法 単体{n}死亡した味方1体を戦闘参加",
+        "translation": "Support magic / One ally{n}Lets one dead ally participate in battle."
+      },
+      "console_text": {
+        "reference": "NECROMA",
+        "translation": "Necroma"
+      }
+    },
+    "sabbath": {
+      "name": {
+        "reference": "サバト",
+        "translation": "Sabbath"
+      },
+      "description": {
+        "reference": "特殊魔法 移動時・戦闘時{n}マグネタイトを消費しないで仲魔1体を召喚",
+        "translation": "Field/Battle magic{n}Summons one demon without consuming MAG."
+      },
+      "console_text": {
+        "reference": "SABBATH",
+        "translation": "Sabbath"
+      }
+    },
+    "traesto": {
+      "name": {
+        "reference": "トラエスト",
+        "translation": "Traesto"
+      },
+      "description": {
+        "reference": "特殊魔法 移動時{n}ダンジョンより脱出",
+        "translation": "Field magic{n}Escapes from the dungeon."
+      }
+    },
+    "estoma": {
+      "name": {
+        "reference": "エストマ",
+        "translation": "Estoma"
+      },
+      "description": {
+        "reference": "特殊魔法 移動時{n}月1周の間 低レベル悪魔の出現を抑止",
+        "translation": "Field magic{n}Repels low-level demons for one moon cycle."
+      }
+    },
+    "mapper": {
+      "name": {
+        "reference": "マッパー",
+        "translation": "Mapper"
+      },
+      "description": {
+        "reference": "特殊魔法 移動時{n}パーティー周辺のマップを表示",
+        "translation": "Field magic{n}Displays a map of the surrounding area."
+      }
+    },
+    "liftoma": {
+      "name": {
+        "reference": "リフトマ",
+        "translation": "Liftoma"
+      },
+      "description": {
+        "reference": "特殊魔法 移動時{n}月1周の間 ダメージゾーンを無効化",
+        "translation": "Field magic{n}Negates damage zones for one moon cycle."
+      }
+    },
+    "reserved_magic_078": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 78; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "                    {n}",
+        "translation": "{n}"
+      }
+    },
+    "reserved_magic_079": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 79; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "                    {n}",
+        "translation": "{n}"
+      }
+    }
+  }
+}

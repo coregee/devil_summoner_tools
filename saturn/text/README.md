@@ -88,18 +88,17 @@ or symbol choice to runtime code.
 
 The compendium manifest covers the 292 physical `DVL_*.DAT` profile files as
 one repeated fixed-record source. Each file contributes origin, summary, and
-detail fields from its exact text tail. A second source covers the independently
-rendered 319-name table proved at `A_DIC.BIN` offset `0x5d9b0`. Together they
-produce 1,195 records in two generated catalogues. Tail-only identity checks
-allow future profile-image changes in the DVL files while still failing on any
-changed text byte.
+detail fields from its exact text tail. Two focused `A_DIC.BIN` sources cover
+the independently rendered 319-demon-name table at `0x5d9b0` and the
+255-ability-name table at `0x69be4`. Together they produce 1,450 records in
+three generated catalogues. Tail-only identity checks allow future profile-image
+changes in the DVL files while still failing on any changed text byte.
 
 Other `A_DIC.BIN` sections remain outside the manifest. Read-only discovery
-proves 48 race labels, 255 magic names, 48 race-description layouts, and 11
-fusion-help rows. The description layouts mix labels, prose, and an unexplained
-marker, while adjacent regions are lookup or executable data. Those sections
-will get focused inventories rather than being folded speculatively into the
-profile source.
+proves 48 race labels, 48 race-description layouts, and 11 fusion-help rows.
+The description layouts mix labels, prose, and an unexplained marker, while
+adjacent regions are lookup or executable data. Those sections will get focused
+inventories rather than being folded speculatively into the profile source.
 
 `corpus/<disc>/` is a generated physical catalogue. Its file grouping is not an
 authoring interface. Mature translations are imported only into the shared
@@ -197,8 +196,8 @@ unknown until their translated renderers are measured.
    `A_DIC.BIN` table, while keeping other mixed sections evidence-only.
 4. **In progress:** establish the shared human authoring view and import only
    translations and useful notes from the mature corpus. Item, equipment,
-   field-message, demon-name, Compendium-profile, and all 15 negotiation-style
-   slices are complete.
+   field-message, demon, magic, skill, and all 15 negotiation-style slices are
+   complete.
 5. Produce complete encoding coverage and capacity reports for both discs.
 6. Finalize output encodings and deterministic full-corpus dictionary groups.
 7. Implement one atomic text repack; partial dictionary builds remain

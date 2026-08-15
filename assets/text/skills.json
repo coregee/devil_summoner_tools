@@ -1,0 +1,3278 @@
+{
+  "version": 1,
+  "kind": "entity_catalog",
+  "entries": {
+    "fire_breath": {
+      "name": {
+        "reference": "ファイヤーブレス",
+        "translation": "Fire Breath"
+      },
+      "description": {
+        "reference": "特殊魔法行動 前列 威力37{n}敵1列全体に火炎系ダメージ",
+        "translation": "Special magic / Front / Power 37{n}Deals Fire damage to one row.",
+        "variants": {
+          "psp": {
+            "reference": "特殊魔法行動 前列／後列 威力66{n}敵1列全体に火炎系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "FIREーBREATH",
+        "translation": "Fire_Breath"
+      }
+    },
+    "hellfire": {
+      "name": {
+        "reference": "ごうかしょうかん",
+        "translation": "Hellfire",
+        "variants": {
+          "psp": {
+            "reference": "却火召喚"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体 威力77{n}すべての敵に火炎系ダメージ",
+        "translation": "Special magic / All foes / Power 77{n}Deals Fire damage to all foes.",
+        "variants": {
+          "psp": {
+            "reference": "特殊魔法行動 全体 威力118{n}すべての敵に火炎系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "HELLISHーFLAME",
+        "translation": "Hellfire"
+      }
+    },
+    "blizzard_breath": {
+      "name": {
+        "reference": "ブリザードブレス",
+        "translation": "Blizzard Breath"
+      },
+      "description": {
+        "reference": "特殊魔法行動 前列 威力39{n}敵1列全体に氷結系ダメージ",
+        "translation": "Special magic / Front / Power 39{n}Deals Ice damage to one row.",
+        "variants": {
+          "psp": {
+            "reference": "特殊魔法行動 前列／後列 威力53{n}敵1列全体に氷結系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "BLIZZARDーBREATH",
+        "translation": "Blizzard_Breath"
+      }
+    },
+    "glacial_blast": {
+      "name": {
+        "reference": "ぜったいれいど",
+        "translation": "Glacial Blast",
+        "variants": {
+          "psp": {
+            "reference": "絶対七度"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体 威力77{n}すべての敵に氷結系ダメージ",
+        "translation": "Special magic / All foes / Power 77{n}Deals Ice damage to all foes.",
+        "variants": {
+          "psp": {
+            "reference": "特殊魔法行動 全体 威力99{n}すべての敵に氷結系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "ABSOLUTELYーZERO",
+        "translation": "Glacial_Blast"
+      }
+    },
+    "shock": {
+      "name": {
+        "reference": "ほうでん",
+        "translation": "Shock",
+        "variants": {
+          "psp": {
+            "reference": "放電"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 前列 威力24{n}複数の敵に電撃系ダメージ",
+        "translation": "Special magic / Front / Power 24{n}Deals Elec damage to multiple foes.",
+        "variants": {
+          "psp": {
+            "reference": "特殊魔法行動 前列／後列 威力50{n}複数の敵に電撃系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "SWINGーTHUNDER",
+        "translation": "Shock"
+      }
+    },
+    "thunder_break": {
+      "name": {
+        "reference": "サンダーブレイク",
+        "translation": "Thunder Break"
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体 威力77{n}すべての敵に電撃系ダメージ",
+        "translation": "Special magic / All foes / Power 77{n}Deals Elec damage to all foes.",
+        "variants": {
+          "psp": {
+            "reference": "特殊魔法行動 全体 威力100{n}すべての敵に電撃系ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "THUNDERーBREAK",
+        "translation": "Thunder_Break"
+      }
+    },
+    "brain_burst": {
+      "name": {
+        "reference": "ブレインバースト",
+        "translation": "Brain Burst"
+      },
+      "description": {
+        "reference": "特殊魔法行動 前列 威力43{n}複数の敵に念動系ダメージ／BINDの効果",
+        "translation": "Special magic / Front / Power 43{n}Hits multiple foes with Psy and Bind.",
+        "variants": {
+          "psp": {
+            "reference": "特殊魔法行動 前列 威力59{n}複数の敵に念動系ダメージ／BINDの効果",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "BRAINーBURST",
+        "translation": "Brain_Burst"
+      }
+    },
+    "foul_law": {
+      "name": {
+        "reference": "げどうのほう",
+        "translation": "Foul Law",
+        "variants": {
+          "psp": {
+            "reference": "外道の法"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体 威力120{n}敵1体に大ダメージ",
+        "translation": "Special magic / Power 120{n}Deals heavy Almighty damage to one foe.",
+        "variants": {
+          "psp": {
+            "reference": "特殊魔法行動 前列／後列 威力120{n}敵1体に大ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "OUTSIDER’SーLAW",
+        "translation": "Foul_Law"
+      }
+    },
+    "venom_flash": {
+      "name": {
+        "reference": "どくのひかり",
+        "translation": "Venom Flash",
+        "variants": {
+          "psp": {
+            "reference": "毒の光"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体 威力65{n}すべての敵にダメージ／POISONの効果",
+        "translation": "Special magic / All foes / Power 65{n}Deals damage and inflicts Poison."
+      },
+      "console_text": {
+        "reference": "VENOMーFLASH",
+        "translation": "Venom_Flash"
+      }
+    },
+    "brahmastra": {
+      "name": {
+        "reference": "ブラフマーストラ",
+        "translation": "Brahmastra"
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体 威力180{n}敵すべての敵に大ダメージ",
+        "translation": "Special magic / All foes / Power 180{n}Deals heavy damage to all foes.",
+        "variants": {
+          "psp": {
+            "reference": "特殊魔法行動 全体 威力240{n}敵すべての敵に大ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "BRAHMAーSUTRA",
+        "translation": "Brahmastra"
+      }
+    },
+    "bind_voice": {
+      "name": {
+        "reference": "バインドボイス",
+        "translation": "Bind Voice"
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体 バッドステータス{n}すべての敵にBINDの効果",
+        "translation": "Special magic / All foes{n}Inflicts Bind."
+      },
+      "console_text": {
+        "reference": "BINDーVOICE",
+        "translation": "Bind_Voice"
+      }
+    },
+    "magnetic_storm": {
+      "name": {
+        "reference": "マグネストーム",
+        "translation": "Magnetic Storm"
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体 バッドステータス{n}敵1列全体にBINDの効果",
+        "translation": "Special magic / One row{n}Inflicts Bind."
+      },
+      "console_text": {
+        "reference": "MAGNETICーSTORM",
+        "translation": "Magnetic_Storm"
+      }
+    },
+    "panic_voice": {
+      "name": {
+        "reference": "パニックボイス",
+        "translation": "Panic Voice"
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体 バッドステータス{n}すべての敵にPANICの効果",
+        "translation": "Special magic / All foes{n}Inflicts Panic."
+      },
+      "console_text": {
+        "reference": "PANICーVOICE",
+        "translation": "Panic_Voice"
+      }
+    },
+    "happy_dance": {
+      "name": {
+        "reference": "ハッピーダンス",
+        "translation": "Happy Dance"
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体 バッドステータス{n}すべての敵にHAPPYの効果",
+        "translation": "Special magic / All foes{n}Inflicts Happy."
+      },
+      "console_text": {
+        "reference": "HAPPYーDANCE",
+        "translation": "Happy_Dance"
+      }
+    },
+    "buddha_s_laugh": {
+      "name": {
+        "reference": "やくしぶっしょう",
+        "translation": "Buddha's Laugh",
+        "variants": {
+          "psp": {
+            "reference": "薬師仏笑"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体 バッドステータス{n}すべての敵にCLOSEの効果",
+        "translation": "Special magic / All foes{n}Inflicts Mute."
+      },
+      "console_text": {
+        "reference": "LAUGHINGーYAKUSI",
+        "translation": "Buddha's_Laugh"
+      }
+    },
+    "venom_breath": {
+      "name": {
+        "reference": "ベノンブレス",
+        "translation": "Venom Breath"
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体 バッドステータス{n}すべての敵にPOISONの効果",
+        "translation": "Special magic / All foes{n}Inflicts Poison."
+      },
+      "console_text": {
+        "reference": "VENOMーBREATH",
+        "translation": "Venom_Breath"
+      }
+    },
+    "insanity_eyes": {
+      "name": {
+        "reference": "インサニティアイ",
+        "translation": "Insanity Eyes"
+      },
+      "description": {
+        "reference": "特殊魔法行動 前列 バッドステータス{n}複数の敵にCHARMの効果",
+        "translation": "Special magic / Front{n}Inflicts Charm on multiple foes.",
+        "variants": {
+          "psp": {
+            "reference": "特殊魔法行動 前列 バッドステータス{n}1～3体の敵にCHARMの効果",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "INSANITYーEYE",
+        "translation": "Insanity_Eyes"
+      }
+    },
+    "sexy_dance": {
+      "name": {
+        "reference": "セクシーダンス",
+        "translation": "Sexy Dance"
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体 バッドステータス{n}すべての敵にCHARMの効果",
+        "translation": "Special magic / All foes{n}Inflicts Charm."
+      },
+      "console_text": {
+        "reference": "SEXYーDANCE",
+        "translation": "Sexy_Dance"
+      }
+    },
+    "lullaby": {
+      "name": {
+        "reference": "こもりうた",
+        "translation": "Lullaby",
+        "variants": {
+          "psp": {
+            "reference": "子守{GLYPH:05fb}"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体 バッドステータス{n}すべての敵にSLEEPの効果",
+        "translation": "Special magic / All foes{n}Inflicts Sleep."
+      },
+      "console_text": {
+        "reference": "CRADLEーSONG",
+        "translation": "Lullaby"
+      }
+    },
+    "paralyzing_glare": {
+      "name": {
+        "reference": "まひにらみ",
+        "translation": "Paralyzing Glare",
+        "variants": {
+          "psp": {
+            "reference": "麻{GLYPH:05fc}にらみ"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体 バッドステータス{n}敵1体にPALYSEの効果",
+        "translation": "Special magic / One foe{n}Inflicts Paralyze."
+      },
+      "console_text": {
+        "reference": "PALYZEーEYE",
+        "translation": "Paralyzing_Glare"
+      }
+    },
+    "arachno_wire": {
+      "name": {
+        "reference": "アラクノワイヤー",
+        "translation": "Arachno Wire"
+      },
+      "description": {
+        "reference": "特殊魔法行動 前列 バッドステータス{n}複数の敵にPALYZEの効果",
+        "translation": "Special magic / Front{n}Inflicts Paralyze on multiple foes.",
+        "variants": {
+          "psp": {
+            "reference": "特殊魔法行動 全体 バッドステータス{n}敵1～3体にPALYZEの効果",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "ARACHNOーWIRE",
+        "translation": "Arachno_Wire"
+      }
+    },
+    "petrifying_glare": {
+      "name": {
+        "reference": "せきかにらみ",
+        "translation": "Petrifying Glare",
+        "variants": {
+          "psp": {
+            "reference": "石化にらみ"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体 バッドステータス{n}敵1体にSTONEの効果",
+        "translation": "Special magic / One foe{n}Inflicts Stone."
+      },
+      "console_text": {
+        "reference": "PETRAーEYE",
+        "translation": "Petrifying_Glare"
+      }
+    },
+    "nurse": {
+      "name": {
+        "reference": "かいほう",
+        "translation": "Nurse",
+        "variants": {
+          "psp": {
+            "reference": "介抱"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 単体{n}味方1体のHPを少しだけ回復",
+        "translation": "Special magic / One ally{n}Restores a small amount of HP."
+      },
+      "console_text": {
+        "reference": "NURSE",
+        "translation": "Nurse"
+      }
+    },
+    "saint_s_song": {
+      "name": {
+        "reference": "せいじゃのうた",
+        "translation": "Saint's Song",
+        "variants": {
+          "psp": {
+            "reference": "聖者の歌"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体{n}味方全員のHPを少しだけ回復",
+        "translation": "Special magic / All allies{n}Restores a small amount of HP."
+      },
+      "console_text": {
+        "reference": "SAINTーSONG",
+        "translation": "Saint's_Song"
+      }
+    },
+    "warm_embrace": {
+      "name": {
+        "reference": "あついほうよう",
+        "translation": "Warm Embrace",
+        "variants": {
+          "psp": {
+            "reference": "熱い抱{GLYPH:05fe}"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体{n}味方全員のHPを中程度回復",
+        "translation": "Special magic / All allies{n}Restores a moderate amount of HP."
+      },
+      "console_text": {
+        "reference": "HOLDーINーMYーARMS",
+        "translation": "Warm_Embrace"
+      }
+    },
+    "barrier": {
+      "name": {
+        "reference": "けっかい",
+        "translation": "Barrier",
+        "variants": {
+          "psp": {
+            "reference": "結界"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体{n}破魔・呪殺・エナジードレインを1回防止",
+        "translation": "Special magic / All allies{n}Blocks Expel, Death, or Energy Drain once."
+      },
+      "console_text": {
+        "reference": "UNTOUCHEDーZONE",
+        "translation": "Barrier"
+      }
+    },
+    "earth_wall": {
+      "name": {
+        "reference": "だいちのかべ",
+        "translation": "Earth Wall",
+        "variants": {
+          "psp": {
+            "reference": "大地の壁"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体{n}物理攻撃を1ターン防ぎ敵に反射",
+        "translation": "Special magic / All allies{n}Reflects physical attacks for one turn."
+      },
+      "console_text": {
+        "reference": "GAEAーWALL",
+        "translation": "Earth_Wall"
+      }
+    },
+    "penta_wall": {
+      "name": {
+        "reference": "ペンタウォール",
+        "translation": "Penta Wall"
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体{n}魔法攻撃を1ターン防ぎ敵に反射",
+        "translation": "Special magic / All allies{n}Reflects magic attacks for one turn."
+      },
+      "console_text": {
+        "reference": "PENTAーWALL",
+        "translation": "Penta_Wall"
+      }
+    },
+    "life_drain": {
+      "name": {
+        "reference": "きゅうけつ",
+        "translation": "Life Drain",
+        "variants": {
+          "psp": {
+            "reference": "吸血"
+          }
+        }
+      },
+      "description": {
+        "reference": "敵のみ",
+        "translation": "Enemy-only skill."
+      },
+      "console_text": {
+        "reference": "BLOODーSUCKER",
+        "translation": "Life_Drain"
+      }
+    },
+    "mirror_prison": {
+      "name": {
+        "reference": "ミラープリズン",
+        "translation": "Mirror Prison"
+      },
+      "description": {
+        "reference": "ボスのみ",
+        "translation": "Boss-only skill."
+      },
+      "console_text": {
+        "reference": "MIRRORーPRISON",
+        "translation": "Mirror_Prison"
+      }
+    },
+    "photon_shot": {
+      "name": {
+        "reference": "フォトンショット",
+        "translation": "Photon Shot"
+      },
+      "description": {
+        "reference": "ボスのみ",
+        "translation": "Boss-only skill."
+      },
+      "console_text": {
+        "reference": "PHOTO’NーSHOT",
+        "translation": "Photon_Shot"
+      }
+    },
+    "fiore_splendido": {
+      "name": {
+        "reference": "げほうげんかじん",
+        "translation": "Fiore Splendido",
+        "variants": {
+          "psp": {
+            "reference": "外法幻花陣"
+          }
+        }
+      },
+      "description": {
+        "reference": "ボスのみ",
+        "translation": "Boss-only skill."
+      },
+      "console_text": {
+        "reference": "FIOREーSPLENDIDO",
+        "translation": "Fiore_Splendido"
+      }
+    },
+    "evil_gaze": {
+      "name": {
+        "reference": "イーヴィルアイ",
+        "translation": "Evil Gaze"
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体{n}敵1体を呪殺",
+        "translation": "Special magic / One foe{n}May inflict Death."
+      },
+      "console_text": {
+        "reference": "EVILーEYE",
+        "translation": "Evil_Gaze"
+      }
+    },
+    "death_ring": {
+      "name": {
+        "reference": "デスリング",
+        "translation": "Death Ring"
+      },
+      "description": {
+        "reference": "ボスのみ",
+        "translation": "Boss-only skill."
+      },
+      "console_text": {
+        "reference": "DEATHーRING",
+        "translation": "Death_Ring"
+      }
+    },
+    "demons_lure_a": {
+      "status": "unresolved",
+      "note": "This is one of two text-identical Demon's Lure records. Their semantic relationship is not inferred without call-site evidence.",
+      "name": {
+        "reference": "あくまのゆうわく",
+        "translation": "Demon's Lure",
+        "variants": {
+          "psp": {
+            "reference": "悪魔の誘惑"
+          }
+        }
+      },
+      "description": {
+        "reference": "敵のみ",
+        "translation": "Enemy-only skill."
+      },
+      "console_text": {
+        "reference": "DEMON’SーLURE",
+        "translation": "Demon's_Lure"
+      }
+    },
+    "spite_shout": {
+      "name": {
+        "reference": "うらみのどうこく",
+        "translation": "Spite Shout",
+        "variants": {
+          "psp": {
+            "reference": "{GLYPH:05ff}みの{GLYPH:0600}{GLYPH:0601}"
+          }
+        }
+      },
+      "description": {
+        "reference": "ボスのみ",
+        "translation": "Boss-only skill."
+      },
+      "console_text": {
+        "reference": "SPITEーSHOUT",
+        "translation": "Spite_Shout"
+      }
+    },
+    "water_wall": {
+      "name": {
+        "reference": "みずのかべ",
+        "translation": "Water Wall",
+        "variants": {
+          "psp": {
+            "reference": "水の壁"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体{n}火炎攻撃を1ターン無効化",
+        "translation": "Special magic / All allies{n}Nullifies Fire attacks for one turn.",
+        "variants": {
+          "psp": {
+            "reference": "特殊魔法行動 全体{n}火炎攻撃を1回無効化",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "AQUAーWALL",
+        "translation": "Water_Wall"
+      }
+    },
+    "flame_wall": {
+      "name": {
+        "reference": "ほのおのかべ",
+        "translation": "Flame Wall",
+        "variants": {
+          "psp": {
+            "reference": "炎の壁"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体{n}氷結攻撃を1ターン無効化",
+        "translation": "Special magic / All allies{n}Nullifies Ice attacks for one turn.",
+        "variants": {
+          "psp": {
+            "reference": "特殊魔法行動 全体{n}氷結攻撃を1回無効化",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "FLAMEーWALL",
+        "translation": "Flame_Wall"
+      }
+    },
+    "psycho_barrier": {
+      "name": {
+        "reference": "サイコバリアー",
+        "translation": "Psycho Barrier"
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体{n}念動攻撃を1ターン無効化",
+        "translation": "Special magic / All allies{n}Nullifies Psy attacks for one turn.",
+        "variants": {
+          "psp": {
+            "reference": "特殊魔法行動 全体{n}念動攻撃を1回無効化",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "PSYCHOーBARRIER",
+        "translation": "Psycho_Barrier"
+      }
+    },
+    "judgment": {
+      "name": {
+        "reference": "ジャッジメント",
+        "translation": "Judgment"
+      },
+      "description": {
+        "reference": "特殊魔法行動 敵・味方全体{n}術者と属性の異なる者すべてにダメージ",
+        "translation": "Special magic / Everyone{n}Damages targets of a different alignment."
+      },
+      "console_text": {
+        "reference": "JUDGMENT",
+        "translation": "Judgment"
+      }
+    },
+    "holy_wrath": {
+      "name": {
+        "reference": "てんばつ",
+        "translation": "Holy Wrath",
+        "variants": {
+          "psp": {
+            "reference": "天罰"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 敵・味方全体{n}術者と属性の異なる者すべてに大ダメージ",
+        "translation": "Special magic / Everyone{n}Heavy damage to targets of a different alignment."
+      },
+      "console_text": {
+        "reference": "JUSTICEーHEAVEN",
+        "translation": "Holy_Wrath"
+      }
+    },
+    "vampire_kiss": {
+      "name": {
+        "reference": "ヴァンパイアキス",
+        "translation": "Vampire Kiss"
+      },
+      "description": {
+        "reference": "敵のみ",
+        "translation": "Enemy-only skill."
+      },
+      "console_text": {
+        "reference": "VAMPIREーKISS",
+        "translation": "Vampire_Kiss"
+      }
+    },
+    "soul_jack": {
+      "name": {
+        "reference": "ソウルジャック",
+        "translation": "Soul Jack"
+      },
+      "description": {
+        "reference": "敵のみ",
+        "translation": "Enemy-only skill."
+      },
+      "console_text": {
+        "reference": "SOULーJACK",
+        "translation": "Soul_Jack"
+      }
+    },
+    "demons_lure_b": {
+      "status": "unresolved",
+      "note": "This is one of two text-identical Demon's Lure records. Their semantic relationship is not inferred without call-site evidence.",
+      "name": {
+        "reference": "あくまのゆうわく",
+        "translation": "Demon's Lure",
+        "variants": {
+          "psp": {
+            "reference": "悪魔の誘惑"
+          }
+        }
+      },
+      "description": {
+        "reference": "敵のみ",
+        "translation": "Enemy-only skill."
+      },
+      "console_text": {
+        "reference": "DEMON’SーLURE",
+        "translation": "Demon's_Lure"
+      }
+    },
+    "volcanicker": {
+      "name": {
+        "reference": "ボルカニッカー",
+        "translation": "Volcanicker"
+      },
+      "description": {
+        "reference": "ボスのみ",
+        "translation": "Boss-only skill."
+      },
+      "console_text": {
+        "reference": "VOLCANICKER",
+        "translation": "Volcanicker"
+      }
+    },
+    "reserved_skill_125": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 125; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "lamentation_roar": {
+      "name": {
+        "reference": "なげきのほうこう",
+        "translation": "Lamentation Roar",
+        "variants": {
+          "psp": {
+            "reference": "嘆きの{GLYPH:0602}{GLYPH:0603}"
+          }
+        }
+      },
+      "description": {
+        "reference": "ボスのみ",
+        "translation": "Boss-only skill."
+      },
+      "console_text": {
+        "reference": "CRYINGーSCREAM",
+        "translation": "Lamentation_Roar"
+      }
+    },
+    "reserved_skill_127": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 127; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "magic_bullet": {
+      "name": {
+        "reference": "まてきだん",
+        "translation": "Magic Bullet",
+        "variants": {
+          "psp": {
+            "reference": "魔{GLYPH:0604}弾"
+          }
+        }
+      },
+      "description": {
+        "reference": "ボスのみ",
+        "translation": "Boss-only skill."
+      },
+      "console_text": {
+        "reference": "MAGICーBULLET",
+        "translation": "Magic_Bullet"
+      }
+    },
+    "reserved_skill_129": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 129; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "angel_s_kiss": {
+      "name": {
+        "reference": "てんしのキス",
+        "translation": "Angel's Kiss",
+        "variants": {
+          "psp": {
+            "reference": "天使のキス"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 単体{n}ロウ・ニュートラルの味方のHPを回復",
+        "translation": "Special magic / One ally{n}Restores HP to a Law or Neutral ally.",
+        "variants": {
+          "psp": {
+            "reference": "特殊魔法行動 全体{n}ロウ・ニュートラルの味方のHPを回復",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "ANGEL’SーKISS",
+        "translation": "Angel's_Kiss"
+      }
+    },
+    "demon_s_kiss": {
+      "name": {
+        "reference": "あくまのキス",
+        "translation": "Demon's Kiss",
+        "variants": {
+          "psp": {
+            "reference": "悪魔のキス"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 単体{n}カオス・ニュートラルの味方のHPを回復",
+        "translation": "Special magic / One ally{n}Restores HP to a Chaos or Neutral ally.",
+        "variants": {
+          "psp": {
+            "reference": "特殊魔法行動 全体{n}カオス・ニュートラルの味方のHPを回復",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "DEMON’SーKISS",
+        "translation": "Demon's_Kiss"
+      }
+    },
+    "maiden_s_prayer": {
+      "name": {
+        "reference": "オトメノイノリ",
+        "translation": "Maiden's Prayer",
+        "variants": {
+          "psp": {
+            "reference": "{GLYPH:0669}女の祈り"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体{n}味方1体をHP1／2で復活",
+        "translation": "Special magic / One ally{n}Revives the target with half HP.",
+        "variants": {
+          "psp": {
+            "reference": "特殊魔法行動 単体{n}味方1体をHP1／2で復活",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "VIRGINーPRAY",
+        "translation": "Maiden's_Prayer"
+      }
+    },
+    "psycho_blast": {
+      "name": {
+        "reference": "サイコブラスト",
+        "translation": "Psycho Blast"
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体{n}すべての敵の命中力・魔法威力ダウン",
+        "translation": "Special magic / All foes{n}Lowers Accuracy and Magic Power."
+      },
+      "console_text": {
+        "reference": "PSYCHOーBRUST",
+        "translation": "Psycho_Blast"
+      }
+    },
+    "lucky_step": {
+      "name": {
+        "reference": "ラッキーステップ",
+        "translation": "Lucky Step"
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体{n}味方全員の命中力アップ",
+        "translation": "Special magic / All allies{n}Raises Accuracy."
+      },
+      "console_text": {
+        "reference": "LUCKYーSTEP",
+        "translation": "Lucky_Step"
+      }
+    },
+    "vacuum_wave": {
+      "name": {
+        "reference": "しんくうは",
+        "translation": "Vacuum Wave",
+        "variants": {
+          "psp": {
+            "reference": "真空破"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体{n}味方全体の命中力・攻撃力アップ",
+        "translation": "Special magic / All allies{n}Raises Accuracy and Attack."
+      },
+      "console_text": {
+        "reference": "SONICーBOOM",
+        "translation": "Vacuum_Wave"
+      }
+    },
+    "taunt": {
+      "name": {
+        "reference": "ちょうはつ",
+        "translation": "Taunt",
+        "variants": {
+          "psp": {
+            "reference": "挑発"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体{n}敵全体の攻撃力アップ・防御力ダウン",
+        "translation": "Special magic / All foes{n}Raises Attack but lowers Defense."
+      },
+      "console_text": {
+        "reference": "HEYーHEYーHEY",
+        "translation": "Taunt"
+      }
+    },
+    "intimidate": {
+      "name": {
+        "reference": "いかく",
+        "translation": "Intimidate",
+        "variants": {
+          "psp": {
+            "reference": "威{GLYPH:0605}"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体{n}敵全体の防御力アップ・攻撃力ダウン",
+        "translation": "Special magic / All foes{n}Raises Defense but lowers Attack."
+      },
+      "console_text": {
+        "reference": "ORAーORAーORA",
+        "translation": "Intimidate"
+      }
+    },
+    "rousing_song": {
+      "name": {
+        "reference": "たかぶりのうた",
+        "translation": "Rousing Song",
+        "variants": {
+          "psp": {
+            "reference": "{GLYPH:0606}ぶりの歌"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体{n}味方全体の攻撃力・魔法威力アップ",
+        "translation": "Special magic / All allies{n}Raises Attack and Magic Power."
+      },
+      "console_text": {
+        "reference": "ACTIVEーSONG",
+        "translation": "Rousing_Song"
+      }
+    },
+    "die_hard": {
+      "name": {
+        "reference": "ダイ‐ハード",
+        "translation": "Die Hard",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "ダイ・ハード"
+          },
+          "psp": {
+            "reference": "ダイ・ハード"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊魔法行動 全体{n}味方全体の防御力・命中力アップ",
+        "translation": "Special magic / All allies{n}Raises Defense and Accuracy."
+      },
+      "console_text": {
+        "reference": "DIEーHARD",
+        "translation": "Die_Hard"
+      }
+    },
+    "vice_gospel": {
+      "name": {
+        "reference": "バイス‐ゴスペル",
+        "translation": "Vice Gospel",
+        "variants": {
+          "akuma_zensho": {
+            "reference": "バイス・ゴスペル"
+          },
+          "psp": {
+            "reference": "バイス・ゴスペル"
+          }
+        }
+      },
+      "description": {
+        "reference": "ボスのみ",
+        "translation": "Boss-only skill."
+      },
+      "console_text": {
+        "reference": "VICEーGOSPEL",
+        "translation": "Vice_Gospel"
+      }
+    },
+    "reserved_skill_141": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 141; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "eight_shooting_stars": {
+      "status": "unresolved",
+      "note": "This is one of two text-identical Demon's Lure records. Their semantic relationship is not inferred without call-site evidence.",
+      "name": {
+        "reference": "しちせいこうてん",
+        "translation": "8 Shooting Stars",
+        "variants": {
+          "psp": {
+            "reference": "{GLYPH:0637}星降天"
+          }
+        }
+      },
+      "description": {
+        "reference": "ボスのみ",
+        "translation": "Boss-only skill."
+      },
+      "console_text": {
+        "reference": "SHOOTINGー8STARS",
+        "translation": "8_Shooting_Stars"
+      }
+    },
+    "six_shining_stars": {
+      "status": "unresolved",
+      "note": "This is one of two text-identical Demon's Lure records. Their semantic relationship is not inferred without call-site evidence.",
+      "name": {
+        "reference": "ろくせいきこう",
+        "translation": "6 Shining Stars",
+        "variants": {
+          "psp": {
+            "reference": "六星輝{GLYPH:0607}"
+          }
+        }
+      },
+      "description": {
+        "reference": "ボスのみ",
+        "translation": "Boss-only skill."
+      },
+      "console_text": {
+        "reference": "BRIGHTENー7STARS",
+        "translation": "6_Shining_Stars"
+      }
+    },
+    "reserved_skill_144": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 144; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_145": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 145; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_146": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 146; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_147": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 147; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_148": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 148; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_149": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 149; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_150": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 150; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_151": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 151; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_152": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 152; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_153": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 153; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_154": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 154; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_155": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 155; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_156": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 156; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_157": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 157; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_158": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 158; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_159": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 159; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "arm_chopper": {
+      "name": {
+        "reference": "りょううでおとし",
+        "translation": "Arm Chopper",
+        "variants": {
+          "psp": {
+            "reference": "両腕落とし"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力12 0～2回攻撃{n}PALYZEの効果",
+        "translation": "Physical skill / Power 12 / 0-2 hits{n}May inflict Paralyze.",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力14 1～2回攻撃{n}PALYZEの効果",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "CUTTINGーEDGE",
+        "translation": "Arm_Chopper"
+      }
+    },
+    "spin_slash": {
+      "name": {
+        "reference": "かいてんぎり",
+        "translation": "Spin Slash",
+        "variants": {
+          "psp": {
+            "reference": "回転斬り"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力14 4～6回攻撃",
+        "translation": "Physical skill / Power 14 / 4-6 hits",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力17 4～6回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "DEADLYーGOーROUND",
+        "translation": "Spin_Slash"
+      }
+    },
+    "skull_crack": {
+      "name": {
+        "reference": "スカルクラック",
+        "translation": "Skull Crack"
+      },
+      "description": {
+        "reference": "特殊物理行動 威力100 0～1回攻撃",
+        "translation": "Physical skill / Power 100 / 0-1 hits",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力120 0～1回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "SKULLーCLACK",
+        "translation": "Skull_Crack"
+      }
+    },
+    "deathbound": {
+      "name": {
+        "reference": "デスバウンド",
+        "translation": "Deathbound"
+      },
+      "description": {
+        "reference": "特殊物理行動 威力24 0～7回攻撃",
+        "translation": "Physical skill / Power 24 / 0-7 hits",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力30 2～7回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "DEATHーBOUND",
+        "translation": "Deathbound"
+      }
+    },
+    "blight": {
+      "name": {
+        "reference": "ベノンザッパー",
+        "translation": "Blight"
+      },
+      "description": {
+        "reference": "特殊物理行動 威力15 2～4回攻撃{n}POISONの効果",
+        "translation": "Physical skill / Power 15 / 2-4 hits{n}May inflict Poison.",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力18 2～4回攻撃{n}POISONの効果",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "VENOMーZAPPER",
+        "translation": "Blight"
+      }
+    },
+    "giant_slice": {
+      "name": {
+        "reference": "だいせつだん",
+        "translation": "Giant Slice",
+        "variants": {
+          "psp": {
+            "reference": "大切断"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力80",
+        "translation": "Physical skill / Power 80",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力96 1回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "SCHNEIDENーAXT",
+        "translation": "Giant_Slice"
+      }
+    },
+    "mach_thrust": {
+      "name": {
+        "reference": "マッハづき",
+        "translation": "Mach Thrust",
+        "variants": {
+          "psp": {
+            "reference": "マッハ突き"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力12 0～7回攻撃",
+        "translation": "Physical skill / Power 12 / 0-7 hits",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力15 2～7回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "MACHーSTRIKE",
+        "translation": "Mach_Thrust"
+      }
+    },
+    "skewer": {
+      "name": {
+        "reference": "くしざし",
+        "translation": "Skewer",
+        "variants": {
+          "psp": {
+            "reference": "{GLYPH:0608}刺し"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力30 前列／後列攻撃",
+        "translation": "Physical skill / Power 30 / Either row",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力36 前列／後列攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "BARBECUE",
+        "translation": "Skewer"
+      }
+    },
+    "atom_slicer": {
+      "name": {
+        "reference": "こっぱみじんぎり",
+        "translation": "Atom Slicer",
+        "variants": {
+          "psp": {
+            "reference": "木っ端みじん斬り"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力22 0～7回攻撃",
+        "translation": "Physical skill / Power 22 / 0-7 hits",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力26 2～7回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "MINCEーMASTER",
+        "translation": "Atom_Slicer"
+      }
+    },
+    "mist_slash": {
+      "name": {
+        "reference": "かすみぎり",
+        "translation": "Mist Slash",
+        "variants": {
+          "psp": {
+            "reference": "{GLYPH:0609}斬り"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力44 前列全体攻撃",
+        "translation": "Physical skill / Power 44 / Front row",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力53 前列全体攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "MISTYーBLADE",
+        "translation": "Mist_Slash"
+      }
+    },
+    "lightning_slash": {
+      "name": {
+        "reference": "いなづまぎり",
+        "translation": "Lightning Slash",
+        "variants": {
+          "psp": {
+            "reference": "{GLYPH:060a}妻斬り"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力120 0～1回攻撃{n}SHOCKの効果",
+        "translation": "Physical skill / Power 120 / 0-1 hits{n}May inflict Shock.",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力120 1回攻撃{n}SHOCKの効果",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "LIGHTNINGーBLADE",
+        "translation": "Lightning_Slash"
+      }
+    },
+    "lightning_speed": {
+      "name": {
+        "reference": "しっぷうじんらい",
+        "translation": "Lightning Speed",
+        "variants": {
+          "psp": {
+            "reference": "{GLYPH:060b}風{GLYPH:060c}{GLYPH:060d}"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力20 0～1回攻撃{n}BINDの効果",
+        "translation": "Physical skill / Power 20 / 0-1 hits{n}May inflict Bind.",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力24 1回攻撃{n}BINDの効果",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "QUICKーMURDER",
+        "translation": "Lightning_Speed"
+      }
+    },
+    "mass_genocide": {
+      "name": {
+        "reference": "100にんぎり",
+        "translation": "Mass Genocide",
+        "variants": {
+          "psp": {
+            "reference": "百人斬り"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力32 全体攻撃",
+        "translation": "Physical skill / Power 32 / All foes",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力37 全体攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "MASSーGENOCIDE",
+        "translation": "Mass_Genocide"
+      }
+    },
+    "empty_wave": {
+      "name": {
+        "reference": "きょくうざんぱ",
+        "translation": "Empty Wave",
+        "variants": {
+          "psp": {
+            "reference": "虚空斬破"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力54 前列／後列攻撃",
+        "translation": "Physical skill / Power 54 / Either row",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力65 前列／後列攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "PHANTOMーEDGE",
+        "translation": "Empty_Wave"
+      }
+    },
+    "jumping_knee": {
+      "name": {
+        "reference": "ジャンピングニー",
+        "translation": "Jumping Knee"
+      },
+      "description": {
+        "reference": "特殊物理行動 威力10 0～1回攻撃",
+        "translation": "Physical skill / Power 10 / 0-1 hits",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力12 1回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "JAMPINGーKNEE",
+        "translation": "Jumping_Knee"
+      }
+    },
+    "vulcan_kick": {
+      "name": {
+        "reference": "バルカンキック",
+        "translation": "Vulcan Kick"
+      },
+      "description": {
+        "reference": "特殊物理行動 威力3 2～7回攻撃",
+        "translation": "Physical skill / Power 3 / 2-7 hits",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力4 0～7回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "VULCANーKICK",
+        "translation": "Vulcan_Kick"
+      }
+    },
+    "stun_crash": {
+      "name": {
+        "reference": "スタンクラッシュ",
+        "translation": "Stun Crash"
+      },
+      "description": {
+        "reference": "特殊物理行動 威力8 全体攻撃{n}SHOCKの効果",
+        "translation": "Physical skill / Power 8 / All foes{n}May inflict Shock.",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力10 全体攻撃{n}SHOCKの効果",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "STUNーCRASH",
+        "translation": "Stun_Crash"
+      }
+    },
+    "flying_knee": {
+      "name": {
+        "reference": "とびひざげり",
+        "translation": "Flying Knee",
+        "variants": {
+          "psp": {
+            "reference": "飛び{GLYPH:060e}{GLYPH:060f}り"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力10",
+        "translation": "Physical skill / Power 10",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力12 1回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "FLYINGーKNEE",
+        "translation": "Flying_Knee"
+      }
+    },
+    "meteor_fist": {
+      "name": {
+        "reference": "メテオフィスト",
+        "translation": "Meteor Fist"
+      },
+      "description": {
+        "reference": "特殊物理行動 威力7 3～6回攻撃",
+        "translation": "Physical skill / Power 7 / 3-6 hits",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力8 3～6回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "METEORーFIST",
+        "translation": "Meteor_Fist"
+      }
+    },
+    "wolfpack_fist": {
+      "name": {
+        "reference": "ぐんろうけん",
+        "translation": "Wolfpack Fist",
+        "variants": {
+          "psp": {
+            "reference": "{GLYPH:0610}{GLYPH:0611}拳"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力12 前列全体攻撃",
+        "translation": "Physical skill / Power 12 / Front row",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力14 前列全体攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "WOLFーCLAW",
+        "translation": "Wolfpack_Fist"
+      }
+    },
+    "hell_thrust": {
+      "name": {
+        "reference": "じごくづき",
+        "translation": "Hell Thrust",
+        "variants": {
+          "psp": {
+            "reference": "地獄突き"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力10 0～1回攻撃{n}CLOSEの効果",
+        "translation": "Physical skill / Power 10 / 0-1 hits{n}May inflict Mute.",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力12 0～1回攻撃{n}CLOSEの効果",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "MORTALーBLOW",
+        "translation": "Hell_Thrust"
+      }
+    },
+    "cause_n_effect": {
+      "name": {
+        "reference": "コーズニフェクト",
+        "translation": "Cause 'n' Effect"
+      },
+      "description": {
+        "reference": "特殊物理行動 威力50",
+        "translation": "Physical skill / Power 50",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力60 1回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "INNGA",
+        "translation": "Cause_'n'_Effect"
+      }
+    },
+    "screw_slap": {
+      "name": {
+        "reference": "スクリュスラップ",
+        "translation": "Screw Slap"
+      },
+      "description": {
+        "reference": "特殊物理行動 威力25 0～7回攻撃",
+        "translation": "Physical skill / Power 25 / 0-7 hits",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力30 2～7回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "RASEN",
+        "translation": "Screw_Slap"
+      }
+    },
+    "tear_apart": {
+      "name": {
+        "reference": "ひきさき",
+        "translation": "Tear Apart",
+        "variants": {
+          "psp": {
+            "reference": "引き裂き"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力10 1～2回攻撃",
+        "translation": "Physical skill / Power 10 / 1-2 hits",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力12 1～2回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "SCATTER",
+        "translation": "Tear_Apart"
+      }
+    },
+    "venom_claw": {
+      "name": {
+        "reference": "どくひっかき",
+        "translation": "Venom Claw",
+        "variants": {
+          "psp": {
+            "reference": "毒引っかき"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力10 2回攻撃{n}POISONの効果",
+        "translation": "Physical skill / Power 10 / 2 hits{n}May inflict Poison.",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力12 2回攻撃{n}POISONの効果",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "VENOMーCLAW",
+        "translation": "Venom_Claw"
+      }
+    },
+    "stun_claw": {
+      "name": {
+        "reference": "まひひっかき",
+        "translation": "Stun Claw",
+        "variants": {
+          "psp": {
+            "reference": "麻{GLYPH:05fc}引っかき"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力5 0～2回攻撃{n}PALYZEの効果",
+        "translation": "Physical skill / Power 5 / 0-2 hits{n}May inflict Paralyze.",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力6 1～2回攻撃{n}PALYZEの効果",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "PALYZEーCLAW",
+        "translation": "Stun_Claw"
+      }
+    },
+    "wing_flap": {
+      "name": {
+        "reference": "はばたき",
+        "translation": "Wing Flap",
+        "variants": {
+          "psp": {
+            "reference": "羽ばたき"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力6 全体攻撃",
+        "translation": "Physical skill / Power 6 / All foes",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力7 全体攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "FLAPーWINGS",
+        "translation": "Wing_Flap"
+      }
+    },
+    "venom_needle": {
+      "name": {
+        "reference": "ベノンニードル",
+        "translation": "Venom Needle"
+      },
+      "description": {
+        "reference": "特殊物理行動 威力9 前列全体攻撃{n}POISONの効果",
+        "translation": "Physical skill / Power 9 / Front row{n}May inflict Poison.",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力11 前列全体攻撃{n}POISONの効果",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "VENOMーNEEDLE",
+        "translation": "Venom_Needle"
+      }
+    },
+    "paralyze_needle": {
+      "name": {
+        "reference": "パララニードル",
+        "translation": "Paralyze Needle"
+      },
+      "description": {
+        "reference": "特殊物理行動 威力4 前列全体攻撃{n}PALYZEの効果",
+        "translation": "Physical skill / Power 4 / Front row{n}May inflict Paralyze.",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力11 前列全体攻撃{n}PALYZEの効果",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "PALYZEーNEEDLE",
+        "translation": "Paralyze_Needle"
+      }
+    },
+    "mince_needle": {
+      "name": {
+        "reference": "ミンチニードル",
+        "translation": "Mince Needle"
+      },
+      "description": {
+        "reference": "特殊物理行動 威力20 前列全体攻撃",
+        "translation": "Physical skill / Power 20 / Front row",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力24 前列全体攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "MINCEーNEEDLE",
+        "translation": "Mince_Needle"
+      }
+    },
+    "aim": {
+      "name": {
+        "reference": "ねらいうち",
+        "translation": "Aim",
+        "variants": {
+          "psp": {
+            "reference": "{GLYPH:0612}い撃ち"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力20",
+        "translation": "Physical skill / Power 20",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力25 1回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "SNIPE",
+        "translation": "Aim"
+      }
+    },
+    "random_fire": {
+      "name": {
+        "reference": "みだれうち",
+        "translation": "Random Fire",
+        "variants": {
+          "psp": {
+            "reference": "乱れ撃ち"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力16 前列／後列に攻撃",
+        "translation": "Physical skill / Power 16 / Either row",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力19 前列／後列に攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "HAPPYーTRIGGER",
+        "translation": "Random_Fire"
+      }
+    },
+    "lucky_trigger": {
+      "name": {
+        "reference": "かずうちゃあたる",
+        "translation": "Lucky Trigger",
+        "variants": {
+          "psp": {
+            "reference": "数撃ちゃ当たる"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力22 0～7回攻撃",
+        "translation": "Physical skill / Power 22 / 0-7 hits",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力26 0～7回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "LUCKYーTRIGGER",
+        "translation": "Lucky_Trigger"
+      }
+    },
+    "peck": {
+      "name": {
+        "reference": "ついばみ",
+        "translation": "Peck"
+      },
+      "description": {
+        "reference": "特殊物理行動 威力10",
+        "translation": "Physical skill / Power 10",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力12 1回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "PICKING",
+        "translation": "Peck"
+      }
+    },
+    "bird_gimlet": {
+      "name": {
+        "reference": "バードギムレット",
+        "translation": "Bird Gimlet"
+      },
+      "description": {
+        "reference": "殊物理行動 威力15",
+        "translation": "Physical skill / Power 15",
+        "variants": {
+          "psp": {
+            "reference": "殊物理行動 威力18 1回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "BIRDーGIMLET",
+        "translation": "Bird_Gimlet"
+      }
+    },
+    "bite_off": {
+      "name": {
+        "reference": "かみちぎり",
+        "translation": "Bite Off",
+        "variants": {
+          "psp": {
+            "reference": "{GLYPH:0613}みちぎり"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力5 2～4回攻撃",
+        "translation": "Physical skill / Power 5 / 2-4 hits",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力6 2～4回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "CHEWING",
+        "translation": "Bite_Off"
+      }
+    },
+    "spiral_bite": {
+      "name": {
+        "reference": "スパイラルバイト",
+        "translation": "Spiral Bite"
+      },
+      "description": {
+        "reference": "特殊物理行動 威力15",
+        "translation": "Physical skill / Power 15",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力18 1回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "SPIRALーBITE",
+        "translation": "Spiral_Bite"
+      }
+    },
+    "tackle": {
+      "name": {
+        "reference": "たいあたり",
+        "translation": "Tackle",
+        "variants": {
+          "psp": {
+            "reference": "体当たり"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力20 2～3回攻撃",
+        "translation": "Physical skill / Power 20 / 2-3 hits",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力24 2～3回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "TACKLE",
+        "translation": "Tackle"
+      }
+    },
+    "lariat": {
+      "name": {
+        "reference": "ラリアット",
+        "translation": "Lariat"
+      },
+      "description": {
+        "reference": "特殊物理行動 威力40 0～1回攻撃",
+        "translation": "Physical skill / Power 40 / 0-1 hits",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力48 0～1回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "LARIAT",
+        "translation": "Lariat"
+      }
+    },
+    "guillotine_heel": {
+      "name": {
+        "reference": "ギロチンヒール",
+        "translation": "Guillotine Heel"
+      },
+      "description": {
+        "reference": "特殊物理行動 威力20",
+        "translation": "Physical skill / Power 20",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力24 1回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "GUILLOTINEーHEEL",
+        "translation": "Guillotine_Heel"
+      }
+    },
+    "venom_bite": {
+      "name": {
+        "reference": "どくかみつき",
+        "translation": "Venom Bite",
+        "variants": {
+          "psp": {
+            "reference": "毒{GLYPH:0613}みつき"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力15{n}POISONの効果",
+        "translation": "Physical skill / Power 15{n}May inflict Poison.",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力18 1回攻撃{n}POISONの効果",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "VENOMーBITE",
+        "translation": "Venom_Bite"
+      }
+    },
+    "charm_bite": {
+      "name": {
+        "reference": "みわくかみつき",
+        "translation": "Charm Bite",
+        "variants": {
+          "psp": {
+            "reference": "魅惑{GLYPH:0613}みつき"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力10 0～1回攻撃{n}CHARMの効果",
+        "translation": "Physical skill / Power 10 / 0-1 hits{n}May inflict Charm.",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力12 1回攻撃{n}CHARMの効果",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "CHARMーBITE",
+        "translation": "Charm_Bite"
+      }
+    },
+    "stone_bite": {
+      "name": {
+        "reference": "せきかかみつき",
+        "translation": "Stone Bite",
+        "variants": {
+          "psp": {
+            "reference": "石化{GLYPH:0613}みつき"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力16 0～1回攻撃{n}STONEの効果",
+        "translation": "Physical skill / Power 16 / 0-1 hits{n}May inflict Stone.",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力19 1回攻撃{n}STONEの効果",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "PETRAーBITE",
+        "translation": "Stone_Bite"
+      }
+    },
+    "ether_mace": {
+      "name": {
+        "reference": "エーテルメイス",
+        "translation": "Ether Mace"
+      },
+      "description": {
+        "reference": "特殊物理行動 威力20 全体攻撃{n}PALYZEの効果",
+        "translation": "Physical skill / Power 20 / All foes{n}May inflict Paralyze.",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力24 全体攻撃{n}PALYZEの効果",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "ETHERーMACE",
+        "translation": "Ether_Mace"
+      }
+    },
+    "flare_rush": {
+      "name": {
+        "reference": "フレアーラッシュ",
+        "translation": "Flare Rush"
+      },
+      "description": {
+        "reference": "特殊物理行動 威力16 0～7回攻撃",
+        "translation": "Physical skill / Power 16 / 0-7 hits",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力19 0～7回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "FLAREーRUSH",
+        "translation": "Flare_Rush"
+      }
+    },
+    "rumble_rush": {
+      "name": {
+        "reference": "ランブルラッシュ",
+        "translation": "Rumble Rush"
+      },
+      "description": {
+        "reference": "特殊物理行動 威力12 全体攻撃",
+        "translation": "Physical skill / Power 12 / All foes",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力14 全体攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "RUMBLEーRUSH",
+        "translation": "Rumble_Rush"
+      }
+    },
+    "chi_blast": {
+      "name": {
+        "reference": "ちまつり",
+        "translation": "Chi Blast",
+        "variants": {
+          "psp": {
+            "reference": "血祭り"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力15 0～7回攻撃",
+        "translation": "Physical skill / Power 15 / 0-7 hits",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力18 0～7回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "BLOODYーFESTA",
+        "translation": "Chi_Blast"
+      }
+    },
+    "cauterizing_fist": {
+      "name": {
+        "reference": "しょうしゃくけん",
+        "translation": "Cauterizing Fist",
+        "variants": {
+          "psp": {
+            "reference": "焼{GLYPH:066a}拳"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力20 全体攻撃",
+        "translation": "Physical skill / Power 20 / All foes",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力40 全体攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "FIREーFISTーAMEN",
+        "translation": "Cauterizing_Fist"
+      }
+    },
+    "horse_leg_kick": {
+      "name": {
+        "reference": "ばきゃくげり",
+        "translation": "Horse-Leg Kick",
+        "variants": {
+          "psp": {
+            "reference": "馬{GLYPH:0614}{GLYPH:060f}り"
+          }
+        }
+      },
+      "description": {
+        "reference": "敵のみ",
+        "translation": "Enemy-only skill."
+      },
+      "console_text": {
+        "reference": "HORSEーSHOE",
+        "translation": "Horse-Leg_Kick"
+      }
+    },
+    "bamboo_slice": {
+      "name": {
+        "reference": "からたけわり",
+        "translation": "Bamboo Slice",
+        "variants": {
+          "psp": {
+            "reference": "{GLYPH:0615}竹割り"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力50",
+        "translation": "Physical skill / Power 50",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力60 1回攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "KARATAKE",
+        "translation": "Bamboo_Slice"
+      }
+    },
+    "critical_slash": {
+      "name": {
+        "reference": "1とうりょうだん",
+        "translation": "Critical Slash",
+        "variants": {
+          "psp": {
+            "reference": "一刀両断"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力38 前列全体攻撃",
+        "translation": "Physical skill / Power 38 / Front row",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力45 前列全体攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "CRITICALーSLASH",
+        "translation": "Critical_Slash"
+      }
+    },
+    "strangle_drop": {
+      "name": {
+        "reference": "しめおとし",
+        "translation": "Strangle Drop",
+        "variants": {
+          "psp": {
+            "reference": "{GLYPH:0616}め落とし"
+          }
+        }
+      },
+      "description": {
+        "reference": "敵のみ",
+        "translation": "Enemy-only skill."
+      },
+      "console_text": {
+        "reference": "CHINーLOCK",
+        "translation": "Strangle_Drop"
+      }
+    },
+    "killing_step": {
+      "name": {
+        "reference": "キリングステップ",
+        "translation": "Killing Step"
+      },
+      "description": {
+        "reference": "敵のみ",
+        "translation": "Enemy-only skill."
+      },
+      "console_text": {
+        "reference": "KILLINGーSTEP",
+        "translation": "Killing_Step"
+      }
+    },
+    "hassou_tobi": {
+      "name": {
+        "reference": "はっそうとび",
+        "translation": "Hassou Tobi",
+        "variants": {
+          "psp": {
+            "reference": "{GLYPH:0638}{GLYPH:0617}飛び"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力80 全体攻撃",
+        "translation": "Physical skill / Power 80 / All foes",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力42 全体攻撃",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "HASSOーBEAT",
+        "translation": "Hassou_Tobi"
+      }
+    },
+    "eat_whole": {
+      "name": {
+        "reference": "まるかじり",
+        "translation": "Eat Whole",
+        "variants": {
+          "psp": {
+            "reference": "丸かじり"
+          }
+        }
+      },
+      "description": {
+        "reference": "敵のみ",
+        "translation": "Enemy-only skill."
+      },
+      "console_text": {
+        "reference": "AMAZINGーGNAW",
+        "translation": "Eat_Whole"
+      }
+    },
+    "swallow": {
+      "name": {
+        "reference": "まるのみ",
+        "translation": "Swallow",
+        "variants": {
+          "psp": {
+            "reference": "丸飲み"
+          }
+        }
+      },
+      "description": {
+        "reference": "敵のみ",
+        "translation": "Enemy-only skill."
+      },
+      "console_text": {
+        "reference": "FANATICーEATER",
+        "translation": "Swallow"
+      }
+    },
+    "diablo_de_corps": {
+      "name": {
+        "reference": "にくたいのあくま",
+        "translation": "Diablo de Corps",
+        "variants": {
+          "psp": {
+            "reference": "肉体の悪魔"
+          }
+        }
+      },
+      "description": {
+        "reference": "ボスのみ",
+        "translation": "Boss-only skill."
+      },
+      "console_text": {
+        "reference": "DIABLEーDEーCORPS",
+        "translation": "Diablo_de_Corps"
+      }
+    },
+    "arm_swing": {
+      "name": {
+        "reference": "かいなのひとふり",
+        "translation": "Arm Swing",
+        "variants": {
+          "psp": {
+            "reference": "腕の一振り"
+          }
+        }
+      },
+      "description": {
+        "reference": "ボスのみ",
+        "translation": "Boss-only skill."
+      },
+      "console_text": {
+        "reference": "MASHーFLESH",
+        "translation": "Arm_Swing"
+      }
+    },
+    "meat_bullet": {
+      "name": {
+        "reference": "にくだん",
+        "translation": "Meat Bullet",
+        "variants": {
+          "psp": {
+            "reference": "肉弾"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力98{n}術者の命とひきかえに敵1体へ大ダメージ",
+        "translation": "Physical skill / Power 98{n}Kills the caster to heavily damage one foe.",
+        "variants": {
+          "psp": {
+            "reference": "特殊物理行動 威力99 1回攻撃{n}術者の命とひきかえに敵1体へ大ダメージ",
+            "translation": "",
+            "note": "The PSP source changes this field's meaning or parameters; its translation remains explicit review work."
+          }
+        }
+      },
+      "console_text": {
+        "reference": "KAMIKAZE",
+        "translation": "Meat_Bullet"
+      }
+    },
+    "cherry_blossom": {
+      "name": {
+        "reference": "さんげ",
+        "translation": "Cherry Blossom",
+        "variants": {
+          "psp": {
+            "reference": "散華"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 威力150 全体攻撃{n}術者の命とひきかえに敵全体へ大ダメージ",
+        "translation": "Physical skill / Power 150 / All foes{n}Kills caster to deal heavy damage."
+      },
+      "console_text": {
+        "reference": "CHERRYーBLOSSOM",
+        "translation": "Cherry_Blossom"
+      }
+    },
+    "tatami_shield": {
+      "name": {
+        "reference": "たたみがえし",
+        "translation": "Tatami Shield",
+        "variants": {
+          "psp": {
+            "reference": "{GLYPH:0619}返し"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 全体{n}物理攻撃を1ターン防ぐ",
+        "translation": "Physical skill / All allies{n}Blocks physical attacks for one turn."
+      },
+      "console_text": {
+        "reference": "TATAMIーSHIELD",
+        "translation": "Tatami_Shield"
+      }
+    },
+    "frilly_wall": {
+      "name": {
+        "reference": "フリフリウォール",
+        "translation": "Frilly Wall"
+      },
+      "description": {
+        "reference": "特殊物理行動 全体{n}魔法攻撃を1ターン防ぎ敵に反射",
+        "translation": "Physical skill / All allies{n}Reflects magic attacks for one turn."
+      },
+      "console_text": {
+        "reference": "FURIーFURIーWALL",
+        "translation": "Frilly_Wall"
+      }
+    },
+    "reserved_skill_222": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 222; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "escape": {
+      "name": {
+        "reference": "にげる",
+        "translation": "Escape",
+        "variants": {
+          "psp": {
+            "reference": "逃げる"
+          }
+        }
+      },
+      "description": {
+        "reference": "敵のみ",
+        "translation": "Enemy-only skill."
+      },
+      "console_text": {
+        "reference": "RUNーAWAY",
+        "translation": "Escape"
+      }
+    },
+    "genocide_fist": {
+      "name": {
+        "reference": "ぜつめつはけん",
+        "translation": "Genocide Fist",
+        "variants": {
+          "psp": {
+            "reference": "絶滅{GLYPH:061a}拳"
+          }
+        }
+      },
+      "description": {
+        "reference": "ボスのみ",
+        "translation": "Boss-only skill."
+      },
+      "console_text": {
+        "reference": "GENOCIDEーFIST",
+        "translation": "Genocide_Fist"
+      }
+    },
+    "reserved_skill_225": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 225; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "heartless_dance": {
+      "name": {
+        "reference": "むじょうのまい",
+        "translation": "Heartless Dance",
+        "variants": {
+          "psp": {
+            "reference": "無情の舞"
+          }
+        }
+      },
+      "description": {
+        "reference": "ボスのみ",
+        "translation": "Boss-only skill."
+      },
+      "console_text": {
+        "reference": "MISSーCOLDーHEART",
+        "translation": "Cold_Mistress"
+      }
+    },
+    "rest": {
+      "name": {
+        "reference": "やすむ",
+        "translation": "Rest",
+        "variants": {
+          "psp": {
+            "reference": "休む"
+          }
+        }
+      },
+      "description": {
+        "reference": "特殊物理行動 術者{n}使用HPの3倍を回復",
+        "translation": "Physical skill / Self{n}Restores HP equal to three times the cost."
+      },
+      "console_text": {
+        "reference": "REST",
+        "translation": "Rest"
+      }
+    },
+    "reserved_skill_228": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 228; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_229": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 229; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_230": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 230; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_231": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 231; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_232": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 232; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_233": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 233; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_234": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 234; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_235": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 235; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_236": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 236; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_237": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 237; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_238": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 238; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_239": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 239; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_240": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 240; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_241": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 241; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_242": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 242; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_243": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 243; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_244": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 244; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_245": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 245; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_246": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 246; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_247": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 247; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_248": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 248; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_249": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 249; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_250": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 250; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_251": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 251; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_252": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 252; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_253": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 253; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_254": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 254; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "reserved_skill_255": {
+      "status": "reserve",
+      "note": "Unused Saturn MAGNAME game ID 255; retained as a distinct slot because other releases may repurpose table positions.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "ミテイ",
+        "translation": "Unimplemented."
+      }
+    },
+    "jigoku_nagashi": {
+      "status": "unresolved",
+      "note": "Dormant PSP-only skill name with no proven Saturn semantic donor; the English name remains untranslated and visible for review.",
+      "name": {
+        "reference": "地獄流し",
+        "translation": ""
+      }
+    },
+    "kyuuchaku": {
+      "status": "unresolved",
+      "note": "Dormant PSP-only skill name with no proven Saturn semantic donor; the English name remains untranslated and visible for review.",
+      "name": {
+        "reference": "吸着",
+        "translation": ""
+      }
+    }
+  }
+}

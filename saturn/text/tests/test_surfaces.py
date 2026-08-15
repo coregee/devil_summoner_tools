@@ -92,6 +92,53 @@ class SurfaceCatalogTests(unittest.TestCase):
                     (*values[:2], "glyph_cells", values[2]),
                 )
 
+    def test_ability_name_geometries_cover_each_consumer(self) -> None:
+        for name in (
+            "battle.skill_name",
+            "comp.ability_name",
+            "status.skill_name",
+        ):
+            with self.subTest(surface=name):
+                surface = self.catalog.surface(name)
+                self.assertEqual(
+                    (
+                        surface.ja.font,
+                        surface.ja.rows,
+                        surface.ja.width.unit,
+                        surface.ja.width.value,
+                    ),
+                    ("font8", 1, "glyph_cells", 8),
+                )
+                self.assertEqual(
+                    (
+                        surface.en.font,
+                        surface.en.rows,
+                        surface.en.width.unit,
+                        surface.en.width.value,
+                    ),
+                    ("font8", 1, "pixels", 80),
+                )
+
+        level_up = self.catalog.surface("level_up.ability_name")
+        self.assertEqual(
+            (
+                level_up.ja.font,
+                level_up.ja.rows,
+                level_up.ja.width.unit,
+                level_up.ja.width.value,
+            ),
+            ("font16", 1, "glyph_cells", 8),
+        )
+        self.assertEqual(
+            (
+                level_up.en.font,
+                level_up.en.rows,
+                level_up.en.width.unit,
+                level_up.en.width.value,
+            ),
+            ("font16", 1, "pixels", 128),
+        )
+
     def test_unmeasured_limits_remain_explicitly_unknown(self) -> None:
         demon_chat_en = self.catalog.surface("battle.demon_chat").en
         self.assertIsNone(demon_chat_en.font)
@@ -123,6 +170,7 @@ class SurfaceCatalogTests(unittest.TestCase):
                 self.assertFalse(surface.en.width.known)
 
         for name in (
+            "compendium.ability_name",
             "compendium.profile_name",
             "compendium.origin",
             "compendium.summary",
