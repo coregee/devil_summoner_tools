@@ -30,9 +30,9 @@ class GameInventoryTests(unittest.TestCase):
         cls.batch = extract.build_batch("game")
 
     def test_complete_inventory_snapshot(self) -> None:
-        self.assertEqual(self.batch.source_count, 51)
-        self.assertEqual(self.batch.record_count, 15_613)
-        self.assertEqual(len(self.batch.rendered), 51)
+        self.assertEqual(self.batch.source_count, 55)
+        self.assertEqual(self.batch.record_count, 15_704)
+        self.assertEqual(len(self.batch.rendered), 55)
         self.assertEqual(
             {path.as_posix() for path in self.batch.composed_files},
             {"LOAD.BIN", "SAVE.BIN"},
@@ -48,7 +48,7 @@ class GameInventoryTests(unittest.TestCase):
         self.assertEqual(
             sum("/eve/" in f"/{path.as_posix()}" for path in self.batch.rendered), 21
         )
-        self.assertEqual(sum(row_id.startswith("game.") for row_id in ids), 15_613)
+        self.assertEqual(sum(row_id.startswith("game.") for row_id in ids), 15_704)
 
         eve_rows = [
             row
@@ -57,10 +57,26 @@ class GameInventoryTests(unittest.TestCase):
             for row in json.loads(rendered)
         ]
         self.assertEqual(len(eve_rows), 12_711)
-        self.assertEqual(len(rows) - len(eve_rows), 2_902)
+        self.assertEqual(len(rows) - len(eve_rows), 2_993)
         self.assertGreater(sum("{GLYPH:" in row["reference"] for row in rows), 0)
         self.assertGreater(sum("{OP:" in row["reference"] for row in rows), 0)
         self.assertFalse(any("{OP:8002}" in row["reference"] for row in rows))
+
+        leading_item_messages = {
+            row["id"]: row["reference"]
+            for row in eve_rows
+            if row["id"] in {
+                "game.evfile_1.m0064.p00",
+                "game.evfile_2.m0072.p00",
+            }
+        }
+        self.assertEqual(
+            leading_item_messages,
+            {
+                "game.evfile_1.m0064.p00": "{item_name}を手に入れた。",
+                "game.evfile_2.m0072.p00": "{item_name}を手に入れた。",
+            },
+        )
 
     def test_known_exceptions_and_non_deduplication(self) -> None:
         shops = {
@@ -122,6 +138,98 @@ class GameInventoryTests(unittest.TestCase):
             },
         )
 
+    def test_recovered_consumer_text_is_explicitly_grounded(self) -> None:
+        affinities = json.loads(
+            self.batch.rendered[
+                PurePosixPath("addressed/combat_analysis_affinities.json")
+            ]
+        )
+        results = json.loads(
+            self.batch.rendered[
+                PurePosixPath("addressed/combat_result_labels.json")
+            ]
+        )
+        event_bar = json.loads(
+            self.batch.rendered[PurePosixPath("addressed/event_bar.json")]
+        )
+        healing = json.loads(
+            self.batch.rendered[PurePosixPath("addressed/event_healing.json")]
+        )
+
+        self.assertEqual(len(affinities), 66)
+        self.assertEqual(len(results), 2)
+        self.assertEqual(len(event_bar), 22)
+        self.assertEqual(len(healing), 1)
+        self.assertEqual(affinities[0]["reference"], "ミラー")
+        self.assertEqual(affinities[-1]["reference"], "破・呪無効")
+        self.assertEqual(len({row["id"] for row in affinities}), 66)
+        self.assertEqual(len({row["reference"] for row in affinities}), 41)
+        self.assertEqual(affinities[2]["reference"], affinities[63]["reference"])
+        self.assertNotEqual(affinities[2]["id"], affinities[63]["id"])
+        self.assertEqual(
+            {row["reference"] for row in results},
+            {"ませき", "ほうぎょく"},
+        )
+        self.assertEqual(event_bar[0]["reference"], "かちわりロック")
+        self.assertEqual(event_bar[-1]["reference"], "すみの オンナ")
+        self.assertEqual(healing[0]["reference"], "メンバーすべて")
+        self.assertEqual(
+            healing[0]["source_encoding"],
+            "game_font16_index_u8",
+        )
+
+        manifest = load_manifest(manifest_path("game"))
+        sources = {source.name: source.container for source in manifest.sources}
+        compact_source = sources["combat_analysis_affinities"]
+        self.assertEqual(compact_source["records"], [])
+        self.assertEqual(
+            compact_source["tables"],
+            [
+                {
+                    "name": "affinities",
+                    "count": 66,
+                    "framing": {"type": "none"},
+                    "require_identical_bytes": False,
+                    "locations": [
+                        {"base": "0x50f5e", "stride": "0xa", "units": 5}
+                    ],
+                }
+            ],
+        )
+
+        result_records = sources["combat_result_labels"]["records"]
+        result_fields = {}
+        for record in result_records:
+            span = record["locations"][0]["spans"][0]
+            result_fields[int(span["offset"], 16)] = span["units"]
+        self.assertEqual(result_fields, {0x53B8C: 16, 0x53CE0: 16})
+        bar_tables = {
+            table["name"]: table for table in sources["event_bar"]["tables"]
+        }
+        self.assertEqual(
+            (
+                bar_tables["drinks"]["count"],
+                bar_tables["drinks"]["locations"][0],
+            ),
+            (16, {"base": "0x47404", "stride": "0x10", "units": 8}),
+        )
+        self.assertEqual(
+            (
+                bar_tables["talk_labels"]["count"],
+                bar_tables["talk_labels"]["locations"][0],
+            ),
+            (6, {"base": "0x475a0", "stride": "0xc", "units": 8}),
+        )
+
+        healing_spans = sources["event_healing"]["records"][0]["locations"][0][
+            "spans"
+        ]
+        self.assertEqual(
+            [int(span["offset"], 16) for span in healing_spans],
+            [0x168F7, 0x168F9, 0x168FB, 0x168FD, 0x168BB, 0x168FF, 0x168DB],
+        )
+        self.assertTrue(all(span["units"] == 1 for span in healing_spans))
+
     def test_checked_corpus_is_current(self) -> None:
         extract.publish_batch(
             self.batch,
@@ -136,6 +244,9 @@ class CompendiumInventoryTests(unittest.TestCase):
         cls.manifest = load_manifest(manifest_path("compendium"))
         cls.batch = extract.build_batch("compendium")
         cls.rows = json.loads(cls.batch.rendered[PurePosixPath("profiles.json")])
+        cls.name_rows = json.loads(
+            cls.batch.rendered[PurePosixPath("fixed/demon_names.json")]
+        )
 
     def test_complete_profile_inventory(self) -> None:
         absent = {
@@ -154,16 +265,20 @@ class CompendiumInventoryTests(unittest.TestCase):
         expected_files = tuple(
             f"dvl_{value:03x}" for value in range(1, 0x130) if value not in absent
         )
-        self.assertEqual(tuple(self.manifest.files), expected_files)
+        self.assertEqual(tuple(self.manifest.files), (*expected_files, "a_dic"))
         self.assertTrue(
-            all(spec.size == 0x781DC for spec in self.manifest.files.values())
+            all(
+                self.manifest.files[file_id].size == 0x781DC
+                for file_id in expected_files
+            )
         )
         self.assertTrue(
             all(spec.owned_sha256 is not None for spec in self.manifest.files.values())
         )
-        self.assertEqual(self.batch.source_count, 1)
-        self.assertEqual(self.batch.record_count, 876)
-        self.assertEqual(len(self.batch.rendered), 1)
+        self.assertEqual(self.manifest.files["a_dic"].size, 472_172)
+        self.assertEqual(self.batch.source_count, 2)
+        self.assertEqual(self.batch.record_count, 1_195)
+        self.assertEqual(len(self.batch.rendered), 2)
 
         ids = [row["id"] for row in self.rows]
         self.assertEqual(len(ids), len(set(ids)))
@@ -183,6 +298,23 @@ class CompendiumInventoryTests(unittest.TestCase):
             "compendium.profiles.dvl_12f.o07808e.detail",
         )
         self.assertIn("compendium.profiles.dvl_112.o078000.origin", ids)
+
+        self.assertEqual(len(self.name_rows), 319)
+        self.assertEqual(
+            self.name_rows[0]["id"],
+            "compendium.demon_names.o05d9b0.text",
+        )
+        self.assertEqual(self.name_rows[0]["reference"], "ヴィシュヌ")
+        self.assertEqual(
+            self.name_rows[-1]["id"],
+            "compendium.demon_names.o05ed90.text",
+        )
+        self.assertTrue(
+            all(
+                row["source_encoding"] == "compendium_font16_plain_skip"
+                for row in self.name_rows
+            )
+        )
 
     def test_profile_font_mapping_is_complete_and_lossless(self) -> None:
         catalog = load_config()
@@ -207,7 +339,9 @@ class CompendiumInventoryTests(unittest.TestCase):
             "detail": hashlib.sha256(),
         }
         root = extract.ROM_ROOT / "extracted" / "compendium"
-        for spec in self.manifest.files.values():
+        for file_id, spec in self.manifest.files.items():
+            if not file_id.startswith("dvl_"):
+                continue
             data = root.joinpath(*spec.path.parts).read_bytes()
             tails.update(data[0x78000:0x781DC])
             fields["origin"].update(data[0x78000:0x7801E])

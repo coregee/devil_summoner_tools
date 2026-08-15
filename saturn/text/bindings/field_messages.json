@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "asset": "field/messages.json",
+  "records": {
+    "game.maze_messages.o0250e4": "talk_prompt.text",
+    "game.maze_messages.o025124": "operation_disabled.text",
+    "game.maze_messages.o025150": "nothing_notable.text",
+    "game.maze_messages.o02516c": "nothing_found.text",
+    "game.maze_messages.o025188": "inventory_full.text",
+    "game.maze_messages.o0251a4": "already_searched.text",
+    "game.maze_messages.o0251d0": "value_obtained.text",
+    "game.maze_messages.o0251dc": "currency_obtained.text",
+    "game.maze_messages.o0251e8": "item_full.text",
+    "game.maze_messages.o0251f4": "item_found.text",
+    "game.maze_messages.o025234": "enemy_surprise.text",
+    "game.maze_messages.o025250": "enemy_behind.text",
+    "game.maze_messages.o02526c": "preemptive_chance.text",
+    "game.maze_messages.o0252b4": "auto_recover_on.text",
+    "game.maze_messages.o0252d0": "no_effect.text"
+  },
+  "composition": {
+    "game.maze_messages.o0251d0": {
+      "source_role": "suffix",
+      "supplies": [
+        "value"
+      ]
+    },
+    "game.maze_messages.o0251dc": {
+      "source_role": "suffix",
+      "supplies": [
+        "currency_symbol",
+        "currency_amount"
+      ]
+    },
+    "game.maze_messages.o0251e8": {
+      "source_role": "suffix",
+      "supplies": [
+        "item"
+      ]
+    },
+    "game.maze_messages.o0251f4": {
+      "source_role": "suffix",
+      "supplies": [
+        "item"
+      ]
+    }
+  },
+  "field_surfaces": {
+    "text": [
+      "map_3d.field_message"
+    ]
+  },
+  "unresolved": {
+    "game.maze_messages.o0251d0": "This suffix lives inside the native composition buffer and has no direct pointer reference. Preserve it as a generic acquired value until its call site is proven."
+  }
+}

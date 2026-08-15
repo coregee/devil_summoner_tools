@@ -167,6 +167,20 @@
         ["0x8000", "0xffff"]
       ]
     },
+    "game_font16_index_u8": {
+      "codec": "glyph_u8",
+      "zero": "glyph",
+      "glyph_banks": [
+        {
+          "alphabet": "game_font16",
+          "start": "0x00",
+          "end": "0xff",
+          "glyph_start": "0x0000"
+        }
+      ],
+      "control_vocabulary": "none",
+      "control_ranges": []
+    },
     "game_font16_plain_skip": {
       "codec": "glyph_u16be",
       "zero": "skip",

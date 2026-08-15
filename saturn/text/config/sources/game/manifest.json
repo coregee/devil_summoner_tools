@@ -149,7 +149,7 @@
       "path": "COMBAT.BIN",
       "size": 351064,
       "stock_sha256": "56a5c4b90d32d81c0668d6a0a3885c7784964b4ae5f02f318749403cd9360c56",
-      "owned_sha256": "aad8e963bed2074597643f5c0cbf3c18b43b9178d9d4a9574ebb7cc0417b0001"
+      "owned_sha256": "c387a9bf0709876751f3fde625186fccddfc1c076eed3ea20cca1d5eb0699645"
     },
     "da_3d_bin": {
       "path": "DA_3D.BIN",
@@ -172,7 +172,7 @@
       "path": "EVENT.BIN",
       "size": 354072,
       "stock_sha256": "73a24f782f6618081028511e9fcc4c845a79a577e1907a6a6affc9e9f1e2ce84",
-      "owned_sha256": "f2a0410a4496bb64077d5aa7aaff8ad7da908cfff4039a3e5b8f945bd8b2d866"
+      "owned_sha256": "08ef8bb8aeed1352fbb1fef2b4b799036fd8e39974434c28f100674b055f3ddf"
     },
     "hosi_bin": {
       "path": "HOSI.BIN",
@@ -4178,6 +4178,102 @@
                     "offset": "0x1e77c",
                     "units": 2
                   }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "combat_analysis_affinities",
+      "corpus": "addressed/combat_analysis_affinities.json",
+      "container": {
+        "type": "addressed",
+        "file": "combat_bin",
+        "default_source_encoding": "game_font16_plain_skip",
+        "tables": [
+          {
+            "name": "affinities",
+            "count": 66,
+            "framing": {"type": "none"},
+            "require_identical_bytes": false,
+            "locations": [{"base": "0x50f5e", "stride": "0xa", "units": 5}]
+          }
+        ],
+        "records": []
+      }
+    },
+    {
+      "id": "combat_result_labels",
+      "corpus": "addressed/combat_result_labels.json",
+      "container": {
+        "type": "addressed",
+        "file": "combat_bin",
+        "default_source_encoding": "game_font8_plain_glyph",
+        "tables": [],
+        "records": [
+          {
+            "name": "beads",
+            "framing": {"type": "zero_padded"},
+            "locations": [{"spans": [{"offset": "0x53b8c", "units": 16}]}]
+          },
+          {
+            "name": "life_stones",
+            "framing": {"type": "zero_padded"},
+            "locations": [{"spans": [{"offset": "0x53ce0", "units": 16}]}]
+          }
+        ]
+      }
+    },
+    {
+      "id": "event_bar",
+      "corpus": "addressed/event_bar.json",
+      "container": {
+        "type": "addressed",
+        "file": "event_bin",
+        "default_source_encoding": "game_font8_plain_glyph",
+        "tables": [
+          {
+            "name": "drinks",
+            "count": 16,
+            "framing": {"type": "zero_padded"},
+            "require_identical_bytes": false,
+            "locations": [{"base": "0x47404", "stride": "0x10", "units": 8}]
+          },
+          {
+            "name": "talk_labels",
+            "count": 6,
+            "framing": {"type": "zero_padded"},
+            "require_identical_bytes": false,
+            "locations": [{"base": "0x475a0", "stride": "0xc", "units": 8}]
+          }
+        ],
+        "records": []
+      }
+    },
+    {
+      "id": "event_healing",
+      "corpus": "addressed/event_healing.json",
+      "container": {
+        "type": "addressed",
+        "file": "event_bin",
+        "default_source_encoding": "game_font16_index_u8",
+        "tables": [],
+        "records": [
+          {
+            "name": "all_members",
+            "join": "none",
+            "locations": [
+              {
+                "spans": [
+                  {"offset": "0x168f7", "units": 1},
+                  {"offset": "0x168f9", "units": 1},
+                  {"offset": "0x168fb", "units": 1},
+                  {"offset": "0x168fd", "units": 1},
+                  {"offset": "0x168bb", "units": 1},
+                  {"offset": "0x168ff", "units": 1},
+                  {"offset": "0x168db", "units": 1}
                 ]
               }
             ]

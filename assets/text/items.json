@@ -1,0 +1,919 @@
+{
+  "version": 1,
+  "kind": "entity_catalog",
+  "entries": {
+    "dragon_atm": {
+      "name": {
+        "reference": "ドラゴンATM",
+        "translation": "Dragon ATM"
+      },
+      "description": {
+        "reference": "攻撃アイテム 全体 威力77{n}すべての敵に火炎系ダメージ",
+        "translation": "Attack item: All foes Atk 77{n}Deals fire damage to all foes"
+      },
+      "console_text": {
+        "reference": "DragonーATM",
+        "translation": "Dragon_ATM"
+      }
+    },
+    "stinger": {
+      "name": {
+        "reference": "スティンガー",
+        "translation": "Stinger"
+      },
+      "description": {
+        "reference": "攻撃アイテム 全体 威力86{n}すべての敵に電撃系ダメージ",
+        "translation": "Attack item: All foes Atk 86{n}Deals shock damage to all foes"
+      },
+      "console_text": {
+        "reference": "Stinger",
+        "translation": "Stinger"
+      }
+    },
+    "pz_faust": {
+      "name": {
+        "reference": "PZファウスト",
+        "translation": "PZ Faust"
+      },
+      "description": {
+        "reference": "攻撃アイテム 前列 威力200{n}敵1体に大ダメージ",
+        "translation": "Attack item: Front row Atk 200{n}Deals heavy damage to one foe"
+      },
+      "console_text": {
+        "reference": "PZーFaust",
+        "translation": "PZ_Faust"
+      }
+    },
+    "dragon_horn": {
+      "name": {
+        "reference": "りゅうかく",
+        "translation": "Dragon Horn"
+      },
+      "description": {
+        "reference": "攻撃アイテム 前列 威力150{n}敵1列全体に大ダメージ",
+        "translation": "Attack item: Front row Atk 150{n}Deals heavy damage to one enemy row"
+      },
+      "console_text": {
+        "reference": "Ryukaku",
+        "translation": "Dragon_Horn"
+      }
+    },
+    "gjallarhorn": {
+      "name": {
+        "reference": "ギャッラルホルン",
+        "translation": "Gjallarhorn"
+      },
+      "description": {
+        "reference": "攻撃アイテム 全体 威力160{n}すべての敵に大ダメージ",
+        "translation": "Attack item: All foes Atk 160{n}Deals heavy damage to all foes"
+      },
+      "console_text": {
+        "reference": "GーHorn",
+        "translation": "Gjallerhorn"
+      }
+    },
+    "fatal_needle": {
+      "name": {
+        "reference": "てんけつしん",
+        "translation": "Fatal Needle"
+      },
+      "description": {
+        "reference": "攻撃アイテム 前列／後列{n}敵1体を呪殺",
+        "translation": "Attack item: Either row{n}Kills one foe with a curse"
+      },
+      "console_text": {
+        "reference": "Tenketusin",
+        "translation": "Fatal_Needle"
+      }
+    },
+    "medicine": {
+      "name": {
+        "reference": "きずぐすり",
+        "translation": "Medicine"
+      },
+      "description": {
+        "reference": "回復アイテム 単体{n}味方1体のHPを少しだけ回復",
+        "translation": "Recovery item: One ally{n}Restores a small amount of HP"
+      },
+      "console_text": {
+        "reference": "Potion",
+        "translation": "Medicine"
+      }
+    },
+    "coalescing_ward": {
+      "name": {
+        "reference": "きんぎょうふ",
+        "translation": "Coalescing Ward"
+      },
+      "description": {
+        "reference": "防御アイテム 全体{n}物理攻撃を1ターン防ぎ敵に反射",
+        "translation": "Defense item: All allies{n}Reflects physical attacks for one turn"
+      },
+      "console_text": {
+        "reference": "AーKingyo",
+        "translation": "Coalescing_Ward"
+      }
+    },
+    "revival_bead": {
+      "name": {
+        "reference": "げほうかくせいふ",
+        "translation": "Revival Bead"
+      },
+      "description": {
+        "reference": "回復アイテム 単体{n}味方1体を復活",
+        "translation": "Recovery item: One ally{n}Revives one ally with 1/4 HP"
+      },
+      "console_text": {
+        "reference": "AーKakusei",
+        "translation": "Revival_Bead"
+      }
+    },
+    "dis_stone": {
+      "name": {
+        "reference": "ディストーン",
+        "translation": "Dis-Stone"
+      },
+      "description": {
+        "reference": "回復アイテム 単体{n}味方1体の石化を治療",
+        "translation": "Recovery item: One ally{n}Cures Stone"
+      },
+      "console_text": {
+        "reference": "DisーSTONE",
+        "translation": "Dis_Stone"
+      }
+    },
+    "dis_paralyze": {
+      "name": {
+        "reference": "ディスパライズ",
+        "translation": "Dis-Paralyze"
+      },
+      "description": {
+        "reference": "回復アイテム 単体{n}味方1体の麻痺を治療",
+        "translation": "Recovery item: One ally{n}Cures Paralysis"
+      },
+      "console_text": {
+        "reference": "DisーPALYZE",
+        "translation": "Dis_Paralyze"
+      }
+    },
+    "dis_poison": {
+      "name": {
+        "reference": "ディスポイズン",
+        "translation": "Dis-Poison"
+      },
+      "description": {
+        "reference": "回復アイテム 単体{n}味方1体の毒の状態を治療",
+        "translation": "Recovery item: One ally{n}Cures Poison"
+      },
+      "console_text": {
+        "reference": "DisーPOISON",
+        "translation": "Dis_Poison"
+      }
+    },
+    "dis_charm": {
+      "name": {
+        "reference": "ディスチャーム",
+        "translation": "Dis-Charm"
+      },
+      "description": {
+        "reference": "回復アイテム 単体{n}味方1体の魅了を治療",
+        "translation": "Recovery item: One ally{n}Cures Charm"
+      },
+      "console_text": {
+        "reference": "DisーCHARM",
+        "translation": "Dis_Charm"
+      }
+    },
+    "zen_talisman": {
+      "name": {
+        "reference": "ちんしんふ",
+        "translation": "Zen Talisman"
+      },
+      "description": {
+        "reference": "回復アイテム 単体{n}味方1体の混乱・至福・睡眠・呪縛を治療",
+        "translation": "Recovery item: One ally{n}Cures Panic, Happy, Sleep, and Bind"
+      },
+      "console_text": {
+        "reference": "AーChinsin",
+        "translation": "Zen_Talisman"
+      }
+    },
+    "divine_compass": {
+      "name": {
+        "reference": "とんこうらばん",
+        "translation": "Divine Compass"
+      },
+      "description": {
+        "reference": "特殊アイテム 移動時{n}パーティー周辺のマップを表示",
+        "translation": "Special item: Field{n}Displays a map of the surrounding area"
+      },
+      "console_text": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "repulse_water": {
+      "name": {
+        "reference": "ふえんじ",
+        "translation": "Repulse Water"
+      },
+      "description": {
+        "reference": "特殊アイテム 移動時{n}月1周の間 低レベル悪魔の出現を抑止",
+        "translation": "Special item: Field{n}Repels low-level demons for one moon cycle"
+      },
+      "console_text": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "final_guard": {
+      "name": {
+        "reference": "ファイナルガード",
+        "translation": "Final Guard"
+      },
+      "description": {
+        "reference": "防御アイテム 全体{n}破魔・呪殺・エナジードレインを1回防止",
+        "translation": "Defense item: All allies{n}Blocks Expel, Death, or Energy Drain once"
+      },
+      "console_text": {
+        "reference": "FinalーGuard",
+        "translation": "Final_Guard"
+      }
+    },
+    "mystical_ward": {
+      "name": {
+        "reference": "ちんかいふ",
+        "translation": "Mystical Ward"
+      },
+      "description": {
+        "reference": "防御アイテム 全体{n}魔法攻撃を1ターン防ぎ敵に反射",
+        "translation": "Defense item: All allies{n}Reflects magic attacks for one turn"
+      },
+      "console_text": {
+        "reference": "AーChinkai",
+        "translation": "Mystical_Ward"
+      }
+    },
+    "unused_reserve": {
+      "status": "reserve",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "",
+        "translation": ""
+      },
+      "console_text": {
+        "reference": "",
+        "translation": ""
+      },
+      "note": "Unused reserve slots share this authored form; every physical occurrence remains explicit in platform bindings."
+    },
+    "picture": {
+      "name": {
+        "reference": "うつくしいえ",
+        "translation": "Picture"
+      },
+      "description": {
+        "reference": "その大胆な色使いに 見た者は皆 息を飲む",
+        "translation": "Its daring colors leave all who see it breathless"
+      },
+      "console_text": {
+        "reference": "Picture",
+        "translation": "Picture"
+      }
+    },
+    "statue": {
+      "name": {
+        "reference": "こうかなぞう",
+        "translation": "Statue"
+      },
+      "description": {
+        "reference": "作り手の愛が伝わる 美しいブロンズ像",
+        "translation": "A beautiful bronze statue filled with its maker's love"
+      },
+      "console_text": {
+        "reference": "Statue",
+        "translation": "Statue"
+      }
+    },
+    "odd_pot": {
+      "name": {
+        "reference": "めずらしいつぼ",
+        "translation": "Odd Pot"
+      },
+      "description": {
+        "reference": "テーマは「くしゃみ」{n}質素な中にも 光るものがある",
+        "translation": "Theme: A Sneeze{n}Simple, yet possessing a certain brilliance"
+      },
+      "console_text": {
+        "reference": "Pot",
+        "translation": "Odd_Pot"
+      }
+    },
+    "bead": {
+      "name": {
+        "reference": "ほうぎょく",
+        "translation": "Bead"
+      },
+      "description": {
+        "reference": "回復アイテム 単体{n}味方1体のHPを完全回復",
+        "translation": "Recovery item: One ally{n}Fully restores HP"
+      },
+      "console_text": {
+        "reference": "Orb",
+        "translation": "Bead"
+      }
+    },
+    "life_stone": {
+      "name": {
+        "reference": "ませき",
+        "translation": "Life Stone"
+      },
+      "description": {
+        "reference": "回復アイテム 単体{n}味方1体をMAX・HPの1／4回復",
+        "translation": "Recovery item: One ally{n}Restores 1/4 of max HP"
+      },
+      "console_text": {
+        "reference": "ManaーStone",
+        "translation": "Life_Stone"
+      }
+    },
+    "chakra_drop": {
+      "name": {
+        "reference": "チャクラドロップ",
+        "translation": "Chakra Drop"
+      },
+      "description": {
+        "reference": "回復アイテム 単体{n}味方1体のMPを5回復",
+        "translation": "Recovery item: One ally{n}Restores 5 MP"
+      },
+      "console_text": {
+        "reference": "CakraーDrop",
+        "translation": "Chakra_Drop"
+      }
+    },
+    "chakra_chip": {
+      "name": {
+        "reference": "チャクラチップ",
+        "translation": "Chakra Chip"
+      },
+      "description": {
+        "reference": "回復アイテム 単体{n}味方1体のMPを10回復",
+        "translation": "Recovery item: One ally{n}Restores 10 MP"
+      },
+      "console_text": {
+        "reference": "CakraーChip",
+        "translation": "Chakra_Chip"
+      }
+    },
+    "chakra_pot": {
+      "name": {
+        "reference": "チャクラポット",
+        "translation": "Chakra Pot"
+      },
+      "description": {
+        "reference": "回復アイテム 単体{n}味方1体のMPを20回復",
+        "translation": "Recovery item: One ally{n}Restores 20 MP"
+      },
+      "console_text": {
+        "reference": "CakraーPot",
+        "translation": "Chakra_Pot"
+      }
+    },
+    "soma": {
+      "name": {
+        "reference": "ソーマ",
+        "translation": "Soma"
+      },
+      "description": {
+        "reference": "回復アイテム 単体{n}味方1体を完全回復",
+        "translation": "Recovery item: One ally{n}Fully restores HP and ailments"
+      },
+      "console_text": {
+        "reference": "Soma",
+        "translation": "Soma"
+      }
+    },
+    "balm_of_life": {
+      "name": {
+        "reference": "はんごんこう",
+        "translation": "Balm of Life"
+      },
+      "description": {
+        "reference": "回復アイテム 単体{n}味方1体をHP最大で復活",
+        "translation": "Recovery item: One ally{n}Revives with full HP"
+      },
+      "console_text": {
+        "reference": "HangonーKo",
+        "translation": "Balm_of_Life"
+      }
+    },
+    "golden_pill": {
+      "name": {
+        "reference": "きんたん",
+        "translation": "Golden Pill"
+      },
+      "description": {
+        "reference": "回復アイテム 単体{n}味方1体をHP1／8で復活",
+        "translation": "Recovery item: One ally{n}Revives with 1/8 HP"
+      },
+      "console_text": {
+        "reference": "Kinーtan",
+        "translation": "Golden_Pill"
+      }
+    },
+    "summoners_high": {
+      "name": {
+        "reference": "サマナーズ‐ハイ",
+        "translation": "Summoner's High"
+      },
+      "description": {
+        "reference": "回復アイテム 単体{n}MAX．HPを一時的に増加",
+        "translation": "Recovery item: One ally{n}Temporarily raises max HP"
+      },
+      "console_text": {
+        "reference": "SーHigh",
+        "translation": "Summoner's_High"
+      }
+    },
+    "st_incense": {
+      "name": {
+        "reference": "ちからのこう",
+        "translation": "St Incense"
+      },
+      "description": {
+        "reference": "通常アイテム 単体{n}人間の「力」を1アップしHP完全回復",
+        "translation": "Normal item: One human{n}Raises St by 1 and fully restores HP"
+      },
+      "console_text": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "in_incense": {
+      "name": {
+        "reference": "ちえのこう",
+        "translation": "In Incense"
+      },
+      "description": {
+        "reference": "通常アイテム 単体{n}人間の「知恵」を1アップしHP完全回復",
+        "translation": "Normal item: One human{n}Raises In by 1 and fully restores HP"
+      },
+      "console_text": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "ma_incense": {
+      "name": {
+        "reference": "まりょくのこう",
+        "translation": "Ma Incense"
+      },
+      "description": {
+        "reference": "通常アイテム 単体{n}人間の「魔力」を1アップしHP完全回復",
+        "translation": "Normal item: One human{n}Raises Ma by 1 and fully restores HP"
+      },
+      "console_text": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "vi_incense": {
+      "name": {
+        "reference": "たいりょくのこう",
+        "translation": "Vi Incense"
+      },
+      "description": {
+        "reference": "通常アイテム 単体{n}人間の「体力」を1アップしHP完全回復",
+        "translation": "Normal item: One human{n}Raises Vi by 1 and fully restores HP"
+      },
+      "console_text": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "ag_incense": {
+      "name": {
+        "reference": "はやさのこう",
+        "translation": "Ag Incense"
+      },
+      "description": {
+        "reference": "通常アイテム 単体{n}人間の「速さ」を1アップしHP完全回復",
+        "translation": "Normal item: One human{n}Raises Ag by 1 and fully restores HP"
+      },
+      "console_text": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "lu_incense": {
+      "name": {
+        "reference": "うんのこう",
+        "translation": "Lu Incense"
+      },
+      "description": {
+        "reference": "通常アイテム 単体{n}人間の「運」を1アップしHP完全回復",
+        "translation": "Normal item: One human{n}Raises Lu by 1 and fully restores HP"
+      },
+      "console_text": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "core_shield": {
+      "name": {
+        "reference": "コアシールド",
+        "translation": "Core Shield"
+      },
+      "description": {
+        "reference": "特殊アイテム 移動時{n}月1周の間 ダメージゾーンを無効化",
+        "translation": "Special item: Field{n}Negates damage zones for one moon cycle"
+      },
+      "console_text": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "cursed_talisman": {
+      "name": {
+        "reference": "きんじゅふ",
+        "translation": "Cursed Talisman"
+      },
+      "description": {
+        "reference": "攻撃アイテム 全体 バッドステータス{n}すべての敵にBINDの効果",
+        "translation": "Attack item: All foes{n}Inflicts Bind on all foes"
+      },
+      "console_text": {
+        "reference": "AーKinju",
+        "translation": "Cursed_Talisman"
+      }
+    },
+    "gleipnir": {
+      "name": {
+        "reference": "グレイプニル",
+        "translation": "Gleipnir"
+      },
+      "description": {
+        "reference": "攻撃アイテム 単体 バッドステータス{n}敵1体にPALYZEの効果",
+        "translation": "Attack item: One foe{n}Inflicts Paralyze on one foe"
+      },
+      "console_text": {
+        "reference": "Gleipnir",
+        "translation": "Gleipnir"
+      }
+    },
+    "unresolved_a_shikai": {
+      "status": "unresolved",
+      "note": "The linked console text says AーSikai while the entity name is リザーブ; semantic ownership remains unresolved.",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "",
+        "translation": ""
+      },
+      "console_text": {
+        "reference": "AーSikai",
+        "translation": "A_Shikai"
+      }
+    },
+    "stun_grenade": {
+      "name": {
+        "reference": "スタングレネード",
+        "translation": "Stun Grenade"
+      },
+      "description": {
+        "reference": "特殊アイテム 戦闘時{n}戦闘から離脱",
+        "translation": "Special item: Battle{n}Escapes from battle"
+      },
+      "console_text": {
+        "reference": "StunーGrenade",
+        "translation": "Stun_Grenade"
+      }
+    },
+    "back_upper": {
+      "name": {
+        "reference": "バックアッパー",
+        "translation": "Back-Upper"
+      },
+      "description": {
+        "reference": "特殊アイテム 移動時{n}1回だけ「行動の記録」ができる",
+        "translation": "Special item: Field{n}Allows one save anywhere"
+      },
+      "console_text": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "garnet": {
+      "name": {
+        "reference": "ガーネット",
+        "translation": "Garnet"
+      },
+      "description": {
+        "reference": "肉体と精神に働きかける{n}深い血の色をした宝石",
+        "translation": "A blood-red gem that acts upon body and mind"
+      },
+      "console_text": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "amethyst": {
+      "name": {
+        "reference": "アメジスト",
+        "translation": "Amethyst"
+      },
+      "description": {
+        "reference": "至福の愛をあらわす{n}むらさき色のクリスタル",
+        "translation": "A violet crystal symbolizing blissful love"
+      }
+    },
+    "aquamarine": {
+      "name": {
+        "reference": "アクアマリン",
+        "translation": "Aquamarine"
+      },
+      "description": {
+        "reference": "マリンブルーに輝く{n}平和とやさしさの女神",
+        "translation": "A marine-blue goddess of peace and kindness"
+      }
+    },
+    "diamond": {
+      "name": {
+        "reference": "ダイヤモンド",
+        "translation": "Diamond"
+      },
+      "description": {
+        "reference": "魔をはらい邪を屈する{n}宝石の王",
+        "translation": "The king of gems, said to dispel evil"
+      }
+    },
+    "emerald": {
+      "name": {
+        "reference": "エメラルド",
+        "translation": "Emerald"
+      },
+      "description": {
+        "reference": "古来より魔除として用いられた{n}あざやかな緑の石",
+        "translation": "A vivid green stone long used as a ward against evil"
+      }
+    },
+    "pearl": {
+      "name": {
+        "reference": "パール",
+        "translation": "Pearl"
+      },
+      "description": {
+        "reference": "慈愛の心を育む{n}母なる海の贈り物",
+        "translation": "A gift from the mother sea that nurtures compassion"
+      }
+    },
+    "ruby": {
+      "name": {
+        "reference": "ルビー",
+        "translation": "Ruby"
+      },
+      "description": {
+        "reference": "鮮やかに燃え立つ{n}勇気と力のシンボル",
+        "translation": "A fiery symbol of courage and strength"
+      }
+    },
+    "onyx": {
+      "name": {
+        "reference": "オニキス",
+        "translation": "Onyx"
+      },
+      "description": {
+        "reference": "繊細な表情を見せる{n}情熱と神秘のメノウ",
+        "translation": "A delicately patterned agate of passion and mystery"
+      }
+    },
+    "sapphire": {
+      "name": {
+        "reference": "サファイア",
+        "translation": "Sapphire"
+      },
+      "description": {
+        "reference": "青く澄んだ輝きで{n}危険を遠ざける神秘の石",
+        "translation": "A clear blue mystic stone that wards off danger"
+      }
+    },
+    "opal": {
+      "name": {
+        "reference": "オパール",
+        "translation": "Opal"
+      },
+      "description": {
+        "reference": "苦悩を消し去る{n}希望の象徴",
+        "translation": "A symbol of hope that banishes anguish"
+      }
+    },
+    "topaz": {
+      "name": {
+        "reference": "トパーズ",
+        "translation": "Topaz"
+      },
+      "description": {
+        "reference": "黄金色に輝く{n}知性の具現",
+        "translation": "A golden embodiment of intellect"
+      }
+    },
+    "turquoise": {
+      "name": {
+        "reference": "ターコイズ",
+        "translation": "Turquoise"
+      },
+      "description": {
+        "reference": "生命力あふれる{n}戦士の守護石",
+        "translation": "A warrior's guardian stone, brimming with vitality"
+      }
+    },
+    "blank": {
+      "name": {
+        "reference": "ブランク",
+        "translation": "Blank"
+      },
+      "description": {
+        "reference": "このりょういきは ほんらい ひょうじ  {n}されません おかしいですね",
+        "translation": "This area should not normally be displayed.{n}How strange."
+      }
+    },
+    "reserved_diagnostic": {
+      "status": "reserve",
+      "name": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "description": {
+        "reference": "このりょういきは ほんらい ひょうじ  {n}されません おかしいですね",
+        "translation": "This area should not normally be displayed.{n}How strange."
+      },
+      "note": "Reserved diagnostic slots share this authored form; every physical occurrence remains explicit in platform bindings."
+    },
+    "mysterious_doll": {
+      "name": {
+        "reference": "なぞのにんぎょう",
+        "translation": "Mysterious Doll"
+      },
+      "description": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "dolly_kadmon": {
+      "name": {
+        "reference": "ドリーカドモン",
+        "translation": "Dolly Kadmon"
+      },
+      "description": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "petranon": {
+      "name": {
+        "reference": "ペトラノン",
+        "translation": "Petranon"
+      },
+      "description": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "shuffler_tome": {
+      "name": {
+        "reference": "シャッフラのしょ",
+        "translation": "Shuffler Tome"
+      },
+      "description": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "fake_id_card": {
+      "name": {
+        "reference": "ぎぞうIDカード",
+        "translation": "Fake ID Card"
+      },
+      "description": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "capitol_key": {
+      "name": {
+        "reference": "ぎじどうのかぎ",
+        "translation": "Capitol Key"
+      },
+      "description": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "professors_note": {
+      "name": {
+        "reference": "きょうじゅのメモ",
+        "translation": "Professor's Note"
+      },
+      "description": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "hee_ho_doll": {
+      "name": {
+        "reference": "ヒーホにんぎょう",
+        "translation": "Hee-Ho Doll"
+      },
+      "description": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "event_08": {
+      "name": {
+        "reference": "イベント08",
+        "translation": "Event 08"
+      },
+      "description": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "event_09": {
+      "name": {
+        "reference": "イベント09",
+        "translation": "Event 09"
+      },
+      "description": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "event_0a": {
+      "name": {
+        "reference": "イベント0A",
+        "translation": "Event 0A"
+      },
+      "description": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "event_0b": {
+      "name": {
+        "reference": "イベント0B",
+        "translation": "Event 0B"
+      },
+      "description": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "event_0c": {
+      "name": {
+        "reference": "イベント0C",
+        "translation": "Event 0C"
+      },
+      "description": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "event_0d": {
+      "name": {
+        "reference": "イベント0D",
+        "translation": "Event 0D"
+      },
+      "description": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "event_0e": {
+      "name": {
+        "reference": "イベント0E",
+        "translation": "Event 0E"
+      },
+      "description": {
+        "reference": "",
+        "translation": ""
+      }
+    },
+    "event_0f": {
+      "name": {
+        "reference": "イベント0F",
+        "translation": "Event 0F"
+      },
+      "description": {
+        "reference": "",
+        "translation": ""
+      }
+    }
+  }
+}
+

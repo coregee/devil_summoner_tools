@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "talk_prompt": {
+      "text": {
+        "reference": "＞誰かいる。話しかけますか？",
+        "translation": "> Someone is here. Talk to them?"
+      }
+    },
+    "operation_disabled": {
+      "text": {
+        "reference": "操作不能です",
+        "translation": "It's inoperable."
+      }
+    },
+    "nothing_notable": {
+      "text": {
+        "reference": "めぼしい物は無かった",
+        "translation": "There's nothing of note."
+      }
+    },
+    "nothing_found": {
+      "text": {
+        "reference": "何も見つからなかった",
+        "translation": "There's nothing here."
+      }
+    },
+    "inventory_full": {
+      "text": {
+        "reference": "アイテムがいっぱいだ",
+        "translation": "Your inventory is full."
+      }
+    },
+    "already_searched": {
+      "text": {
+        "reference": "すでにしらべている",
+        "translation": "You've already checked here."
+      }
+    },
+    "value_obtained": {
+      "status": "unresolved",
+      "note": "The leading value is assembled in the native message buffer; its semantic domain still needs call-site proof.",
+      "placeholders": {
+        "value": "display_value"
+      },
+      "text": {
+        "reference": "{value}を手に入れた",
+        "translation": "Obtained {value}."
+      }
+    },
+    "currency_obtained": {
+      "placeholders": {
+        "currency_symbol": "currency_symbol",
+        "currency_amount": "formatted_currency_amount"
+      },
+      "text": {
+        "reference": "{currency_symbol}{currency_amount}を手に入れた",
+        "translation": "Obtained {currency_symbol}{currency_amount}."
+      }
+    },
+    "item_full": {
+      "placeholders": {
+        "item": "item_name"
+      },
+      "text": {
+        "reference": "{item}はいっぱいだ",
+        "translation": "Cannot hold more {item}."
+      }
+    },
+    "item_found": {
+      "placeholders": {
+        "item": "item_name"
+      },
+      "text": {
+        "reference": "{item}を見つけた",
+        "translation": "Found {item}."
+      }
+    },
+    "enemy_surprise": {
+      "text": {
+        "reference": "悪魔に不意をつかれた",
+        "translation": "The enemy took you by surprise!"
+      }
+    },
+    "enemy_behind": {
+      "text": {
+        "reference": "悪魔に後ろをとられた",
+        "translation": "The enemy attacked from behind!"
+      }
+    },
+    "preemptive_chance": {
+      "text": {
+        "reference": "先制攻撃のチャンス",
+        "translation": "You caught the enemy off-guard!"
+      }
+    },
+    "auto_recover_on": {
+      "text": {
+        "reference": "オートリカバーON",
+        "translation": "Auto Recovering..."
+      }
+    },
+    "no_effect": {
+      "text": {
+        "reference": "効果がなかった",
+        "translation": "It had no effect."
+      }
+    }
+  }
+}
+

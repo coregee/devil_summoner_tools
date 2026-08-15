@@ -1,0 +1,2089 @@
+{
+  "version": 1,
+  "kind": "entity_catalog",
+  "entries": {
+    "athame_knife": {
+      "name": {
+        "reference": "アセイミーナイフ",
+        "translation": "Athame Knife"
+      },
+      "description": {
+        "reference": "攻撃力7 命中5 1～2回 ♂♀",
+        "translation": "Atk 7 Acc 5 Hits 1-2 ♂♀"
+      }
+    },
+    "randall_knife": {
+      "name": {
+        "reference": "ランドールナイフ",
+        "translation": "Randall Knife"
+      },
+      "description": {
+        "reference": "攻撃力18 命中7 ♂♀",
+        "translation": "Atk 18 Acc 7 ♂♀"
+      }
+    },
+    "jambiya": {
+      "name": {
+        "reference": "ジャンビーヤ",
+        "translation": "Jambiya"
+      },
+      "description": {
+        "reference": "攻撃力10 命中8 2～3回 ♀",
+        "translation": "Atk 10 Acc 8 Hits 2-3 ♀"
+      }
+    },
+    "tessen": {
+      "name": {
+        "reference": "てっせん",
+        "translation": "Tessen"
+      },
+      "description": {
+        "reference": "攻撃力30 命中9 0～1回 ♂♀",
+        "translation": "Atk 30 Acc 9 Hits 0-1 ♂♀"
+      }
+    },
+    "katar": {
+      "name": {
+        "reference": "カタール",
+        "translation": "Katar"
+      },
+      "description": {
+        "reference": "攻撃力20 命中10 1～2回 ♂♀",
+        "translation": "Atk 20 Acc 10 Hits 1-2 ♂♀"
+      }
+    },
+    "palm_thunder": {
+      "name": {
+        "reference": "しょうしんらい",
+        "translation": "Palm Thunder"
+      },
+      "description": {
+        "reference": "攻撃力13 命中15 2回 ♂♀",
+        "translation": "Atk 13 Acc 15 Hits 2 ♂♀"
+      }
+    },
+    "custom_jutte": {
+      "name": {
+        "reference": "かわりじゅって",
+        "translation": "Custom Jutte"
+      },
+      "description": {
+        "reference": "攻撃力18 命中7 2～3回 ♂♀",
+        "translation": "Atk 18 Acc 7 Hits 2-3 ♂♀"
+      }
+    },
+    "kabutowari": {
+      "name": {
+        "reference": "かぶとわり",
+        "translation": "Kabutowari"
+      },
+      "description": {
+        "reference": "攻撃力30 命中6 0～1回 ♂",
+        "translation": "Atk 30 Acc 6 Hits 0-1 ♂"
+      }
+    },
+    "demon_lotus": {
+      "name": {
+        "reference": "れんちがん",
+        "translation": "Demon Lotus"
+      },
+      "description": {
+        "reference": "攻撃力22 命中32 0～2回 ♀{n}POISONの効果",
+        "translation": "Atk 22 Acc 32 Hits 0-2 ♀{n}Inflicts Poison"
+      }
+    },
+    "twin_demon_blades": {
+      "name": {
+        "reference": "れんそうきけん",
+        "translation": "Twin Demon Blades"
+      },
+      "description": {
+        "reference": "攻撃力32 命中10 0～1回 ♂",
+        "translation": "Atk 32 Acc 10 Hits 0-1 ♂"
+      }
+    },
+    "lu_ban_ruler": {
+      "name": {
+        "reference": "ろはんじゃく",
+        "translation": "Lu Ban Ruler"
+      },
+      "description": {
+        "reference": "攻撃力28 命中20 0～2回 ♂♀{n}BINDの効果",
+        "translation": "Atk 28 Acc 20 Hits 0-2 ♂♀{n}Inflicts Bind"
+      }
+    },
+    "kotetsu_blade": {
+      "name": {
+        "reference": "コテツブレード",
+        "translation": "Kotetsu Blade"
+      },
+      "description": {
+        "reference": "攻撃力45 命中35 1～2回 ♂♀",
+        "translation": "Atk 45 Acc 35 Hits 1-2 ♂♀"
+      }
+    },
+    "masamune_blade": {
+      "name": {
+        "reference": "マサムネブレード",
+        "translation": "Masamune Blade"
+      },
+      "description": {
+        "reference": "攻撃力70 命中28 0～2回 ♂♀",
+        "translation": "Atk 70 Acc 28 Hits 0-2 ♂♀"
+      }
+    },
+    "yasutsuna_blade": {
+      "name": {
+        "reference": "ヤスツナブレード",
+        "translation": "Yasutsuna Blade"
+      },
+      "description": {
+        "reference": "攻撃力160 命中20 0～1回 ♂♀",
+        "translation": "Atk 160 Acc 20 Hits 0-1 ♂♀"
+      }
+    },
+    "titanium_shotel": {
+      "name": {
+        "reference": "チタンショテル",
+        "translation": "Titanium Shotel"
+      },
+      "description": {
+        "reference": "攻撃力33 命中45 2～4回 ♀",
+        "translation": "Atk 33 Acc 45 Hits 2-4 ♀"
+      }
+    },
+    "cossack_knife": {
+      "name": {
+        "reference": "カザックナイフ",
+        "translation": "Cossack Knife"
+      },
+      "description": {
+        "reference": "攻撃力115 命中15 0～1回 ♂",
+        "translation": "Atk 115 Acc 15 Hits 0-1 ♂"
+      }
+    },
+    "yaksha_nunchaku": {
+      "name": {
+        "reference": "ヤシャぬんちゃく",
+        "translation": "Yaksha Nunchaku"
+      },
+      "description": {
+        "reference": "攻撃力28 命中19 3～5回 ♂♀",
+        "translation": "Atk 28 Acc 19 Hits 3-5 ♂♀"
+      }
+    },
+    "heavy_zaghnal": {
+      "name": {
+        "reference": "ヘヴィザグナル",
+        "translation": "Heavy Zaghnal"
+      },
+      "description": {
+        "reference": "攻撃力120 命中21 0～1回 ♂",
+        "translation": "Atk 120 Acc 21 Hits 0-1 ♂"
+      }
+    },
+    "iron_flute": {
+      "name": {
+        "reference": "きしんのてってき",
+        "translation": "Iron Flute"
+      },
+      "description": {
+        "reference": "攻撃力34 命中8 3～5回 ♀",
+        "translation": "Atk 34 Acc 8 Hits 3-5 ♀"
+      }
+    },
+    "vajra_sword": {
+      "name": {
+        "reference": "さんこえけん",
+        "translation": "Vajra Sword"
+      },
+      "description": {
+        "reference": "攻撃力64 命中27 1～3回 ♂♀",
+        "translation": "Atk 64 Acc 27 Hits 1-3 ♂♀"
+      }
+    },
+    "oni_cleaver": {
+      "name": {
+        "reference": "おにぼうちょう",
+        "translation": "Oni Cleaver"
+      },
+      "description": {
+        "reference": "攻撃力74 命中67 2回 ♂",
+        "translation": "Atk 74 Acc 67 Hits 2 ♂"
+      }
+    },
+    "chain_buster": {
+      "name": {
+        "reference": "チェインバスター",
+        "translation": "Chain Buster"
+      },
+      "description": {
+        "reference": "攻撃力62 命中22 0～2回 ♂{n}PANICの効果",
+        "translation": "Atk 62 Acc 22 Hits 0-2 ♂{n}Inflicts Panic"
+      }
+    },
+    "rabidori_horns": {
+      "name": {
+        "reference": "ラビドリホーンズ",
+        "translation": "Rabidori Horns"
+      },
+      "description": {
+        "reference": "攻撃力35 命中70 前列全体 ♀",
+        "translation": "Atk 35 Acc 70 Target: Front row ♀"
+      }
+    },
+    "peachwood_sword": {
+      "name": {
+        "reference": "もものぼっけん",
+        "translation": "Peachwood Sword"
+      },
+      "description": {
+        "reference": "攻撃力90 命中19 0～1回 ♂♀{n}SHOCKの効果",
+        "translation": "Atk 90 Acc 19 Hits 0-1 ♂♀{n}Inflicts Shock"
+      }
+    },
+    "nine_dragon_sword": {
+      "name": {
+        "reference": "くりゅうはけん",
+        "translation": "Nine Dragon Sword"
+      },
+      "description": {
+        "reference": "攻撃力96 命中20 2回 ♂♀",
+        "translation": "Atk 96 Acc 20 Hits 2 ♂♀"
+      }
+    },
+    "kaiser_sword": {
+      "name": {
+        "reference": "カイザーソード",
+        "translation": "Kaiser Sword"
+      },
+      "description": {
+        "reference": "攻撃力90 命中90 前列全体 ♂♀",
+        "translation": "Atk 90 Acc 90 Target: Front row ♂♀"
+      }
+    },
+    "tianpeng_rake": {
+      "name": {
+        "reference": "てんほうていは",
+        "translation": "Tianpeng Rake"
+      },
+      "description": {
+        "reference": "攻撃力115 命中53 2回 ♂",
+        "translation": "Atk 115 Acc 53 Hits 2 ♂"
+      }
+    },
+    "vajra_mace": {
+      "name": {
+        "reference": "ヴァジュラメイス",
+        "translation": "Vajra Mace"
+      },
+      "description": {
+        "reference": "攻撃力76 命中39 2～4回 ♂",
+        "translation": "Atk 76 Acc 39 Hits 2-4 ♂"
+      }
+    },
+    "orichalcum_pata": {
+      "name": {
+        "reference": "オリハルコンパタ",
+        "translation": "Orichalcum Pata"
+      },
+      "description": {
+        "reference": "攻撃力66 命中70 3～5回 ♂♀",
+        "translation": "Atk 66 Acc 70 Hits 3-5 ♂♀"
+      }
+    },
+    "death_scythe": {
+      "name": {
+        "reference": "デスサイズ",
+        "translation": "Death Scythe"
+      },
+      "description": {
+        "reference": "攻撃力60 命中8 0～2回 ♂♀{n}CLOSEの効果",
+        "translation": "Atk 60 Acc 8 Hits 0-2 ♂♀{n}Inflicts Mute"
+      }
+    },
+    "excess_sword": {
+      "name": {
+        "reference": "エクスゼスソード",
+        "translation": "Excess Sword"
+      },
+      "description": {
+        "reference": "攻撃力113 命中12 1～3回 ♂♀{n}BINDの効果",
+        "translation": "Atk 113 Acc 12 Hits 1-3 ♂♀{n}Inflicts Bind"
+      }
+    },
+    "gallian_sword": {
+      "name": {
+        "reference": "ガリアン‐ソード",
+        "translation": "Gallian Sword"
+      },
+      "description": {
+        "reference": "攻撃力117 命中40 前列全体 ♂♀",
+        "translation": "Atk 117 Acc 40 Target: Front row ♂♀"
+      }
+    },
+    "plasner_sword": {
+      "name": {
+        "reference": "プラズナーソード",
+        "translation": "Plasner Sword"
+      },
+      "description": {
+        "reference": "攻撃力74 命中60 3～5回 ♂♀",
+        "translation": "Atk 74 Acc 60 Hits 3-5 ♂♀"
+      }
+    },
+    "onimaru_tachi": {
+      "name": {
+        "reference": "おにまるのたち",
+        "translation": "Onimaru Tachi"
+      },
+      "description": {
+        "reference": "攻撃力158 命中51 2～3回 ♂",
+        "translation": "Atk 158 Acc 51 Hits 2-3 ♂"
+      }
+    },
+    "sword_tomahawk": {
+      "name": {
+        "reference": "ソードトマホーク",
+        "translation": "Sword Tomahawk"
+      },
+      "description": {
+        "reference": "攻撃力161 命中45 2回 ♂♀",
+        "translation": "Atk 161 Acc 45 Hits 2 ♂♀"
+      }
+    },
+    "zanbatou": {
+      "name": {
+        "reference": "ざんばとう",
+        "translation": "Zanbatou"
+      },
+      "description": {
+        "reference": "攻撃力132 命中40 前列全体 ♂",
+        "translation": "Atk 132 Acc 40 Target: Front row ♂"
+      }
+    },
+    "maluzium_axe": {
+      "name": {
+        "reference": "マルジアムアクス",
+        "translation": "Maluzium Axe"
+      },
+      "description": {
+        "reference": "攻撃力170 命中10 2回 ♂",
+        "translation": "Atk 170 Acc 10 Hits 2 ♂"
+      }
+    },
+    "dragon_fang": {
+      "name": {
+        "reference": "りゅうがとう",
+        "translation": "Dragon Fang"
+      },
+      "description": {
+        "reference": "攻撃力170 命中20 0～1回 ♂{n}SHOCKの効果",
+        "translation": "Atk 170 Acc 20 Hits 0-1 ♂{n}Inflicts Shock"
+      }
+    },
+    "pixie_knife": {
+      "name": {
+        "reference": "ピクシーナイフ",
+        "translation": "Pixie Knife"
+      },
+      "description": {
+        "reference": "攻撃力30 命中25 0～7回 ♀{n}妖精ピクシーの親愛がこもる",
+        "translation": "Atk 30 Acc 25 Hits 0-7 ♀{n}Filled with Pixie's affection"
+      }
+    },
+    "shadowjack": {
+      "name": {
+        "reference": "シャドゥジャック",
+        "translation": "Shadowjack"
+      },
+      "description": {
+        "reference": "攻撃力46 命中40 3～5回 ♂{n}魔獣ヘアリージャックの忠魂が主人を守る",
+        "translation": "Atk 46 Acc 40 Hits 3-5 ♂{n}Hairy Jack's loyal spirit protects its master"
+      }
+    },
+    "raven_wolf_spear": {
+      "name": {
+        "reference": "がろうせん",
+        "translation": "Raven Wolf Spear"
+      },
+      "description": {
+        "reference": "攻撃力37 命中15 ♂♀{n}後列から攻撃可能",
+        "translation": "Atk 37 Acc 15 ♂♀{n}Usable from back row"
+      }
+    },
+    "vajra_staff": {
+      "name": {
+        "reference": "こんごうじょう",
+        "translation": "Vajra Staff"
+      },
+      "description": {
+        "reference": "攻撃力128 命中30 0～1回 ♂{n}後列から攻撃可能",
+        "translation": "Atk 128 Acc 30 Hits 0-1 ♂{n}Usable from back row"
+      }
+    },
+    "eight_foot_naginata": {
+      "name": {
+        "reference": "やそくちょうとう",
+        "translation": "8-Foot Naginata"
+      },
+      "description": {
+        "reference": "攻撃力34 命中60 0～7回 ♀{n}後列から攻撃可能",
+        "translation": "Atk 34 Acc 60 Hits 0-7 ♀{n}Usable from back row"
+      }
+    },
+    "tri_lance": {
+      "name": {
+        "reference": "トライランス",
+        "translation": "Tri-Lance"
+      },
+      "description": {
+        "reference": "攻撃力38 命中50 0～2回 ♂{n}SHOCKの効果／後列から攻撃可能",
+        "translation": "Atk 38 Acc 50 Hits 0-2 ♂{n}Inflicts Shock / Usable from back row"
+      }
+    },
+    "twin_rhythm_spear": {
+      "name": {
+        "reference": "そうりつそうそう",
+        "translation": "Twin Rhythm Spear"
+      },
+      "description": {
+        "reference": "攻撃力166 命中8 0～2回 ♀{n}後列から攻撃可能",
+        "translation": "Atk 166 Acc 8 Hits 0-2 ♀{n}Usable from back row"
+      }
+    },
+    "heat_glaive": {
+      "name": {
+        "reference": "ヒートグレイプ",
+        "translation": "Heat Glaive"
+      },
+      "description": {
+        "reference": "攻撃力193 命中50 ♂♀{n}後列から攻撃可能",
+        "translation": "Atk 193 Acc 50 ♂♀{n}Usable from back row"
+      }
+    },
+    "takuhi_staff": {
+      "name": {
+        "reference": "タクヒのつえ",
+        "translation": "Takuhi Staff"
+      },
+      "description": {
+        "reference": "攻撃力42 命中12 2～3回 ♀{n}妖鳥タクヒの魂が宿る／後列から攻撃可能",
+        "translation": "Atk 42 Acc 12 Hits 2-3 ♀{n}Avian Takuhi spirit / Back row"
+      }
+    },
+    "gae_bolg": {
+      "name": {
+        "reference": "ゲイボルグ",
+        "translation": "Gae Bolg"
+      },
+      "description": {
+        "reference": "攻撃力60 命中32 3～5回 ♂♀{n}後列から攻撃可能",
+        "translation": "Atk 60 Acc 32 Hits 3-5 ♂♀{n}Usable from back row"
+      }
+    },
+    "demonbane_staff": {
+      "name": {
+        "reference": "こうまじょう",
+        "translation": "Demonbane Staff"
+      },
+      "description": {
+        "reference": "攻撃力42 命中32 2～3回 ♂♀{n}CLOSEの効果／後列から攻撃可能",
+        "translation": "Atk 42 Acc 32 Hits 2-3 ♂♀{n}Inflicts Mute / Usable from back row"
+      }
+    },
+    "dubthachs_spear": {
+      "name": {
+        "reference": "ズフタフのやり",
+        "translation": "Dubthach's Spear"
+      },
+      "description": {
+        "reference": "攻撃力32 命中32 2回 ♂♀{n}BINDの効果／後列から攻撃可能",
+        "translation": "Atk 32 Acc 32 Hits 2 ♂♀{n}Inflicts Bind / Usable from back row"
+      }
+    },
+    "berserk_pile": {
+      "name": {
+        "reference": "ベルセルクパイル",
+        "translation": "Berserk Pile"
+      },
+      "description": {
+        "reference": "攻撃力26 命中24 2回 ♂{n}妖鬼ベルセルクの化身／後列から攻撃可能",
+        "translation": "Atk 26 Acc 24 Hits 2 ♂{n}Avatar of Brute Berserker / Usable from back row"
+      }
+    },
+    "fire_tipped_spear": {
+      "name": {
+        "reference": "かせんそう",
+        "translation": "Fire-Tipped Spear"
+      },
+      "description": {
+        "reference": "攻撃力116 命中33 0～7回 ♂♀{n}後列から攻撃可能",
+        "translation": "Atk 116 Acc 33 Hits 0-7 ♂♀{n}Usable from back row"
+      }
+    },
+    "roses_rod": {
+      "name": {
+        "reference": "ローゼスロッド",
+        "translation": "Roses Rod"
+      },
+      "description": {
+        "reference": "攻撃力10 命中8 前列全体 ♀",
+        "translation": "Atk 10 Acc 8 Target: Front row ♀"
+      }
+    },
+    "ritual_cord": {
+      "name": {
+        "reference": "ふあっそお",
+        "translation": "Ritual Cord"
+      },
+      "description": {
+        "reference": "攻撃力12 命中11 前列全体 ♀",
+        "translation": "Atk 12 Acc 11 Target: Front row ♀"
+      }
+    },
+    "dragonhead_flail": {
+      "name": {
+        "reference": "りゅうづしょぼう",
+        "translation": "Dragonhead Flail"
+      },
+      "description": {
+        "reference": "攻撃力21 命中27 前列全体 ♀",
+        "translation": "Atk 21 Acc 27 Target: Front row ♀"
+      }
+    },
+    "nine_chain_whip": {
+      "name": {
+        "reference": "きゅうせつべん",
+        "translation": "Nine-Chain Whip"
+      },
+      "description": {
+        "reference": "攻撃力16 命中18 前列全体 ♀{n}BINDの効果",
+        "translation": "Atk 16 Acc 18 Target: Front row ♀{n}Inflicts Bind"
+      }
+    },
+    "heat_whip": {
+      "name": {
+        "reference": "ヒートウィップ",
+        "translation": "Heat Whip"
+      },
+      "description": {
+        "reference": "攻撃力18 命中53 前列全体 ♀{n}SHOCKの効果",
+        "translation": "Atk 18 Acc 53 Target: Front row ♀{n}Inflicts Shock"
+      }
+    },
+    "sacred_lasso": {
+      "name": {
+        "reference": "けんさく",
+        "translation": "Sacred Lasso"
+      },
+      "description": {
+        "reference": "攻撃力104 命中8 前列全体 ♀",
+        "translation": "Atk 104 Acc 8 Target: Front row ♀"
+      }
+    },
+    "beam_whip": {
+      "name": {
+        "reference": "ビームウィップ",
+        "translation": "Beam Whip"
+      },
+      "description": {
+        "reference": "攻撃力160 命中45 前列全体 ♀",
+        "translation": "Atk 160 Acc 45 Target: Front row ♀"
+      }
+    },
+    "orochi_whip": {
+      "name": {
+        "reference": "ヤマタのじゃべん",
+        "translation": "Orochi Whip"
+      },
+      "description": {
+        "reference": "攻撃力64 命中54 敵全体 ♀{n}龍王ヤマタノオロチの怒りが敵を打ち払う",
+        "translation": "Atk 64 Acc 54 Target: All foes ♀{n}Yamata-no-Orochi's wrath strikes all foes"
+      }
+    },
+    "chakram": {
+      "name": {
+        "reference": "チャクラム",
+        "translation": "Chakram"
+      },
+      "description": {
+        "reference": "攻撃力24 命中10 前列／後列 ♀{n}後列から攻撃可能",
+        "translation": "Atk 24 Acc 10 Target: Either row ♀{n}Usable from back row"
+      }
+    },
+    "iron_duck_blades": {
+      "name": {
+        "reference": "てつえんおう",
+        "translation": "Iron Duck Blades"
+      },
+      "description": {
+        "reference": "攻撃力64 命中41 前列／後列 ♀{n}後列から攻撃可能",
+        "translation": "Atk 64 Acc 41 Target: Either row ♀{n}Usable from back row"
+      }
+    },
+    "beam_wheel": {
+      "name": {
+        "reference": "ビームホイール",
+        "translation": "Beam Wheel"
+      },
+      "description": {
+        "reference": "攻撃力76 命中51 前列／後列 ♀{n}後列から攻撃可能",
+        "translation": "Atk 76 Acc 51 Target: Either row ♀{n}Usable from back row"
+      }
+    },
+    "dharmachakra": {
+      "name": {
+        "reference": "ビガラのほうりん",
+        "translation": "Dharmachakra"
+      },
+      "description": {
+        "reference": "攻撃力32 命中24 前列／後列 ♀{n}BINDの効果／後列から攻撃可能",
+        "translation": "Atk 32 Acc 24 Target: Either row ♀{n}Inflicts Bind / Usable from back row"
+      }
+    },
+    "unsigned_katana": {
+      "name": {
+        "reference": "むめいのかたな",
+        "translation": "Unsigned Katana"
+      },
+      "description": {
+        "reference": "攻撃力10 命中5 0～1回 ♂♀",
+        "translation": "Atk 10 Acc 5 Hits 0-1 ♂♀"
+      }
+    },
+    "seven_star_sword": {
+      "name": {
+        "reference": "しちせいけん",
+        "translation": "Seven Star Sword"
+      },
+      "description": {
+        "reference": "攻撃力24 命中12 ♂♀",
+        "translation": "Atk 24 Acc 12 ♂♀"
+      }
+    },
+    "kurikara_kodachi": {
+      "name": {
+        "reference": "くりからのこだち",
+        "translation": "Kurikara Kodachi"
+      },
+      "description": {
+        "reference": "攻撃力20 命中45 2～3回 ♂♀",
+        "translation": "Atk 20 Acc 45 Hits 2-3 ♂♀"
+      }
+    },
+    "snake_fang": {
+      "name": {
+        "reference": "じゃがとう",
+        "translation": "Snake Fang"
+      },
+      "description": {
+        "reference": "攻撃力15 命中28 1～2回 ♂♀{n}POISONの効果",
+        "translation": "Atk 15 Acc 28 Hits 1-2 ♂♀{n}Inflicts Poison"
+      }
+    },
+    "headhunt_mandau": {
+      "name": {
+        "reference": "くびかりマンダウ",
+        "translation": "Headhunt Mandau"
+      },
+      "description": {
+        "reference": "攻撃力22 命中70 ♂♀{n}CLOSEの効果",
+        "translation": "Atk 22 Acc 70 ♂♀{n}Inflicts Mute"
+      }
+    },
+    "yamikaze_kunai": {
+      "name": {
+        "reference": "ヤミカゼのくない",
+        "translation": "Yamikaze Kunai"
+      },
+      "description": {
+        "reference": "攻撃力20 命中87 敵全体 ♂",
+        "translation": "Atk 20 Acc 87 Target: All foes ♂"
+      }
+    },
+    "spirit_sword": {
+      "name": {
+        "reference": "れんきのけん",
+        "translation": "Spirit Sword"
+      },
+      "description": {
+        "reference": "攻撃力101 命中40 ♂♀",
+        "translation": "Atk 101 Acc 40 ♂♀"
+      }
+    },
+    "murasamemaru": {
+      "name": {
+        "reference": "むらさめまる",
+        "translation": "Murasamemaru"
+      },
+      "description": {
+        "reference": "攻撃力98 命中50 0～1回 ♂♀{n}FREEZEの効果",
+        "translation": "Atk 98 Acc 50 Hits 0-1 ♂♀{n}Inflicts Freeze"
+      }
+    },
+    "nihil_sword": {
+      "name": {
+        "reference": "ようとうニヒル",
+        "translation": "Nihil Sword"
+      },
+      "description": {
+        "reference": "攻撃力12 命中32 0～7回 ♂{n}BINDの効果",
+        "translation": "Atk 12 Acc 32 Hits 0-7 ♂{n}Inflicts Bind"
+      }
+    },
+    "black_flame_sword": {
+      "name": {
+        "reference": "こくえんけん",
+        "translation": "Black Flame Sword"
+      },
+      "description": {
+        "reference": "攻撃力60 命中12 2～4回 ♂♀",
+        "translation": "Atk 60 Acc 12 Hits 2-4 ♂♀"
+      }
+    },
+    "keshou_oujin": {
+      "name": {
+        "reference": "けしょうおうじん",
+        "translation": "Keshou-oujin"
+      },
+      "description": {
+        "reference": "攻撃力111 命中65 ♂",
+        "translation": "Atk 111 Acc 65 ♂"
+      }
+    },
+    "zankan_sword": {
+      "name": {
+        "reference": "ざんかんけん",
+        "translation": "Zankan Sword"
+      },
+      "description": {
+        "reference": "攻撃力64 命中24 2回 ♂♀{n}BINDの効果",
+        "translation": "Atk 64 Acc 24 Hits 2 ♂♀{n}Inflicts Bind"
+      }
+    },
+    "five_fire_fan": {
+      "name": {
+        "reference": "ごかしんえんせん",
+        "translation": "Five-Fire Fan"
+      },
+      "description": {
+        "reference": "攻撃力34 命中65 2～4回 ♂♀{n}SHOCKの効果",
+        "translation": "Atk 34 Acc 65 Hits 2-4 ♂♀{n}Inflicts Shock"
+      }
+    },
+    "gang_lie_dao": {
+      "name": {
+        "reference": "ごうれつとう",
+        "translation": "Gang Lie Dao"
+      },
+      "description": {
+        "reference": "攻撃力201 命中70 1～3回 ♂",
+        "translation": "Atk 201 Acc 70 Hits 1-3 ♂"
+      }
+    },
+    "kusanagi_sword": {
+      "name": {
+        "reference": "くさなぎのつるぎ",
+        "translation": "Kusanagi Sword"
+      },
+      "description": {
+        "reference": "攻撃力180 命中58 1～3回 ♂",
+        "translation": "Atk 180 Acc 58 Hits 1-3 ♂"
+      }
+    },
+    "sirius_sword": {
+      "name": {
+        "reference": "きこうせいけん",
+        "translation": "Sirius Sword"
+      },
+      "description": {
+        "reference": "攻撃力175 命中75 1～3回 ♂♀{n}BINDの効果",
+        "translation": "Atk 175 Acc 75 Hits 1-3 ♂♀{n}Inflicts Bind"
+      }
+    },
+    "ruyi_bang": {
+      "name": {
+        "reference": "にょいぼう",
+        "translation": "Ruyi Bang"
+      },
+      "description": {
+        "reference": "攻撃力130 命中80 敵全体 ♂♀",
+        "translation": "Atk 130 Acc 80 Target: All foes ♂♀"
+      }
+    },
+    "mjolnir": {
+      "name": {
+        "reference": "トールハンマー",
+        "translation": "Mjolnir"
+      },
+      "description": {
+        "reference": "攻撃力150 命中68 敵全体 ♂",
+        "translation": "Atk 150 Acc 68 Target: All foes ♂"
+      }
+    },
+    "silver_moonlight": {
+      "name": {
+        "reference": "むひょうつきかげ",
+        "translation": "Silver Moonlight"
+      },
+      "description": {
+        "reference": "攻撃力170 命中90 0～7回 ♂♀",
+        "translation": "Atk 170 Acc 90 Hits 0-7 ♂♀"
+      }
+    },
+    "emperor_blade": {
+      "name": {
+        "reference": "ようおうはけん",
+        "translation": "Emperor Blade"
+      },
+      "description": {
+        "reference": "攻撃力255 命中12 2～7回 ♂♀{n}PALYZEの効果",
+        "translation": "Atk 255 Acc 12 Hits 2-7 ♂♀{n}Inflicts Paralyze"
+      }
+    },
+    "tokarev": {
+      "name": {
+        "reference": "トカレフ",
+        "translation": "Tokarev"
+      },
+      "description": {
+        "reference": "攻撃力24 命中8 0～1回 ♂♀{n}後列から攻撃可能",
+        "translation": "Atk 24 Acc 8 Hits 0-1 ♂♀{n}Usable from back row"
+      }
+    },
+    "lady_smith": {
+      "name": {
+        "reference": "レディ‐スミス",
+        "translation": "Lady Smith"
+      },
+      "description": {
+        "reference": "攻撃力20 命中15 ♀{n}後列から攻撃可能",
+        "translation": "Atk 20 Acc 15 ♀{n}Usable from back row"
+      }
+    },
+    "desert_eagle": {
+      "name": {
+        "reference": "デザートイーグル",
+        "translation": "Desert Eagle"
+      },
+      "description": {
+        "reference": "攻撃力30 命中12 ♂{n}後列から攻撃可能",
+        "translation": "Atk 30 Acc 12 ♂{n}Usable from back row"
+      }
+    },
+    "astra_m902": {
+      "name": {
+        "reference": "アストラM902",
+        "translation": "Astra M902"
+      },
+      "description": {
+        "reference": "攻撃力30 命中23 2～3回 ♂♀{n}後列から攻撃可能",
+        "translation": "Atk 30 Acc 23 Hits 2-3 ♂♀{n}Usable from back row"
+      }
+    },
+    "nambu_type_100": {
+      "name": {
+        "reference": "ナンブ100しき",
+        "translation": "Nambu Type 100"
+      },
+      "description": {
+        "reference": "攻撃力62 命中30 0～7回 ♂♀{n}後列から攻撃可能",
+        "translation": "Atk 62 Acc 30 Hits 0-7 ♂♀{n}Usable from back row"
+      }
+    },
+    "buster_shot": {
+      "name": {
+        "reference": "バスターショット",
+        "translation": "Buster Shot"
+      },
+      "description": {
+        "reference": "攻撃力140 命中27 前列全体 ♂{n}後列から攻撃可能",
+        "translation": "Atk 140 Acc 27 Target: Front row ♂{n}Usable from back row"
+      }
+    },
+    "colt_thunderer": {
+      "name": {
+        "reference": "サンダラーコルト",
+        "translation": "Colt Thunderer"
+      },
+      "description": {
+        "reference": "攻撃力66 命中50 敵全体 ♂{n}後列から攻撃可能",
+        "translation": "Atk 66 Acc 50 Target: All foes ♂{n}Usable from back row"
+      }
+    },
+    "bulldog": {
+      "name": {
+        "reference": "ブルドッグ",
+        "translation": "Bulldog"
+      },
+      "description": {
+        "reference": "攻撃力40 命中40 2～4回 ♂♀",
+        "translation": "Atk 40 Acc 40 Hits 2-4 ♂♀"
+      }
+    },
+    "spas_12": {
+      "name": {
+        "reference": "SPAS12",
+        "translation": "SPAS-12"
+      },
+      "description": {
+        "reference": "攻撃力50 命中42 3～5回 ♂",
+        "translation": "Atk 50 Acc 42 Hits 3-5 ♂"
+      }
+    },
+    "spas_15": {
+      "name": {
+        "reference": "SPAS15",
+        "translation": "SPAS-15"
+      },
+      "description": {
+        "reference": "攻撃力55 命中38 3～6回 ♂",
+        "translation": "Atk 55 Acc 38 Hits 3-6 ♂"
+      }
+    },
+    "knuckle_blaster": {
+      "name": {
+        "reference": "ナックルブラスタ",
+        "translation": "Knuckle Blaster"
+      },
+      "description": {
+        "reference": "攻撃力60 命中50 4～6回 ♂",
+        "translation": "Atk 60 Acc 50 Hits 4-6 ♂"
+      }
+    },
+    "scorpion": {
+      "name": {
+        "reference": "スコーピオン",
+        "translation": "Scorpion"
+      },
+      "description": {
+        "reference": "攻撃力46 命中23 前列全体 ♀",
+        "translation": "Atk 46 Acc 23 Target: Front row ♀"
+      }
+    },
+    "steyr_tmp": {
+      "name": {
+        "reference": "ステアーTMP",
+        "translation": "Steyr TMP"
+      },
+      "description": {
+        "reference": "攻撃力58 命中34 前列全体 ♂♀",
+        "translation": "Atk 58 Acc 34 Target: Front row ♂♀"
+      }
+    },
+    "luger_mp9": {
+      "name": {
+        "reference": "ルガーMP9",
+        "translation": "Luger MP9"
+      },
+      "description": {
+        "reference": "攻撃力80 命中41 前列全体 ♂♀",
+        "translation": "Atk 80 Acc 41 Target: Front row ♂♀"
+      }
+    },
+    "ingram_m10": {
+      "name": {
+        "reference": "イングラムM10",
+        "translation": "Ingram M10"
+      },
+      "description": {
+        "reference": "攻撃力104 命中50 前列全体 ♂",
+        "translation": "Atk 104 Acc 50 Target: Front row ♂"
+      }
+    },
+    "zillonium_gun": {
+      "name": {
+        "reference": "ジリオニウムガン",
+        "translation": "Zillonium Gun"
+      },
+      "description": {
+        "reference": "攻撃力112 命中43 前列全体 ♂♀",
+        "translation": "Atk 112 Acc 43 Target: Front row ♂♀"
+      }
+    },
+    "dragunov": {
+      "name": {
+        "reference": "ドラグノフ",
+        "translation": "Dragunov"
+      },
+      "description": {
+        "reference": "攻撃力65 命中66 ♂♀{n}後列から攻撃可能",
+        "translation": "Atk 65 Acc 66 ♂♀{n}Usable from back row"
+      }
+    },
+    "tankgewehr": {
+      "name": {
+        "reference": "タンクゲベール",
+        "translation": "Tankgewehr"
+      },
+      "description": {
+        "reference": "攻撃力200 命中52 0～1回 ♂{n}後列から攻撃可能",
+        "translation": "Atk 200 Acc 52 Hits 0-1 ♂{n}Usable from back row"
+      }
+    },
+    "barrett_m90": {
+      "name": {
+        "reference": "バレットM90",
+        "translation": "Barrett M90"
+      },
+      "description": {
+        "reference": "攻撃力135 命中50 0～1回 ♂{n}後列から攻撃可能",
+        "translation": "Atk 135 Acc 50 Hits 0-1 ♂{n}Usable from back row"
+      }
+    },
+    "solothurn_s18": {
+      "name": {
+        "reference": "ソロサーンS18",
+        "translation": "Solothurn S18"
+      },
+      "description": {
+        "reference": "攻撃力174 命中60 0～1回 ♂{n}後列から攻撃可能",
+        "translation": "Atk 174 Acc 60 Hits 0-1 ♂{n}Usable from back row"
+      }
+    },
+    "cat_punch": {
+      "name": {
+        "reference": "ネコパンチバズ",
+        "translation": "Cat Punch"
+      },
+      "description": {
+        "reference": "攻撃力240 命中28 0～1回 ♂♀{n}魔獣ネコマタ愛の結晶／後列から攻撃可能",
+        "translation": "Atk 240 Acc 28 Hits 0-1 ♂♀{n}Nekomata's love crystal / Back row"
+      }
+    },
+    "insanity_h": {
+      "name": {
+        "reference": "インサニティ‐H",
+        "translation": "Insanity H"
+      },
+      "description": {
+        "reference": "攻撃力144 命中35 0～7回 ♂{n}後列から攻撃可能",
+        "translation": "Atk 144 Acc 35 Hits 0-7 ♂{n}Usable from back row"
+      }
+    },
+    "m16_a2": {
+      "name": {
+        "reference": "M16A2",
+        "translation": "M16-A2"
+      },
+      "description": {
+        "reference": "攻撃力48 命中30 前列全体 ♂♀{n}後列から攻撃可能",
+        "translation": "Atk 48 Acc 30 Target: Front row ♂♀{n}Usable from back row"
+      }
+    },
+    "ak_47": {
+      "name": {
+        "reference": "AK47",
+        "translation": "AK-47"
+      },
+      "description": {
+        "reference": "攻撃力80 命中27 前列全体 ♂♀{n}後列から攻撃可能",
+        "translation": "Atk 80 Acc 27 Target: Front row ♂♀{n}Usable from back row"
+      }
+    },
+    "m249_minimi": {
+      "name": {
+        "reference": "M249ミニミ",
+        "translation": "M249 Minimi"
+      },
+      "description": {
+        "reference": "攻撃力40 命中39 敵全体 ♂♀{n}後列から攻撃可能",
+        "translation": "Atk 40 Acc 39 Target: All foes ♂♀{n}Usable from back row"
+      }
+    },
+    "m134_vulcan": {
+      "name": {
+        "reference": "M134バルカン",
+        "translation": "M134 Vulcan"
+      },
+      "description": {
+        "reference": "攻撃力50 命中48 敵全体 ♂{n}後列から攻撃可能",
+        "translation": "Atk 50 Acc 48 Target: All foes ♂{n}Usable from back row"
+      }
+    },
+    "cloud_buster": {
+      "name": {
+        "reference": "クラウドバスター",
+        "translation": "Cloud Buster"
+      },
+      "description": {
+        "reference": "攻撃力90 命中62 前列全体 ♂♀{n}後列から攻撃可能",
+        "translation": "Atk 90 Acc 62 Target: Front row ♂♀{n}Usable from back row"
+      }
+    },
+    "burst_riser": {
+      "name": {
+        "reference": "バーストライザー",
+        "translation": "Burst Riser"
+      },
+      "description": {
+        "reference": "攻撃力110 命中50 敵全体 ♂{n}後列から攻撃可能",
+        "translation": "Atk 110 Acc 50 Target: All foes ♂{n}Usable from back row"
+      }
+    },
+    "normal_rounds": {
+      "name": {
+        "reference": "つうじょうだん",
+        "translation": "Normal Rounds"
+      },
+      "description": {
+        "reference": "攻撃力1",
+        "translation": "Atk 1"
+      }
+    },
+    "burst_rounds": {
+      "name": {
+        "reference": "さくれつだん",
+        "translation": "Burst Rounds"
+      },
+      "description": {
+        "reference": "攻撃力2 命中5",
+        "translation": "Atk 2 Acc 5"
+      }
+    },
+    "venom_shot": {
+      "name": {
+        "reference": "ベノンショット",
+        "translation": "Venom Shot"
+      },
+      "description": {
+        "reference": "攻撃力4{n}POISONの効果",
+        "translation": "Atk 4{n}Inflicts Poison"
+      }
+    },
+    "shot_shell": {
+      "name": {
+        "reference": "ショットシェル",
+        "translation": "Shot Shell"
+      },
+      "description": {
+        "reference": "攻撃力5",
+        "translation": "Atk 5"
+      }
+    },
+    "randy_shot": {
+      "name": {
+        "reference": "ランディショット",
+        "translation": "Randy Shot"
+      },
+      "description": {
+        "reference": "攻撃力1{n}CHARMの効果",
+        "translation": "Atk 1{n}Inflicts Charm"
+      }
+    },
+    "stun_shot": {
+      "name": {
+        "reference": "スタンショット",
+        "translation": "Stun Shot"
+      },
+      "description": {
+        "reference": "攻撃力2{n}SHOCKの効果",
+        "translation": "Atk 2{n}Inflicts Shock"
+      }
+    },
+    "tranquilizer_rds": {
+      "name": {
+        "reference": "ますいだん",
+        "translation": "Tranquilizer Rds"
+      },
+      "description": {
+        "reference": "攻撃力2{n}SLEEPの効果",
+        "translation": "Atk 2{n}Inflicts Sleep"
+      }
+    },
+    "armor_piercing_rds": {
+      "name": {
+        "reference": "てっこうだん",
+        "translation": "Armor-Piercing Rds"
+      },
+      "description": {
+        "reference": "攻撃力10",
+        "translation": "Atk 10"
+      }
+    },
+    "dispel_shot": {
+      "name": {
+        "reference": "デスペルショット",
+        "translation": "Dispel Shot"
+      },
+      "description": {
+        "reference": "攻撃力3{n}CLOSEの効果",
+        "translation": "Atk 3{n}Inflicts Mute"
+      }
+    },
+    "slug_shot": {
+      "name": {
+        "reference": "スラッグショット",
+        "translation": "Slug Shot"
+      },
+      "description": {
+        "reference": "攻撃力14",
+        "translation": "Atk 14"
+      }
+    },
+    "raijin_cartridges": {
+      "name": {
+        "reference": "ライジングカート",
+        "translation": "Raijin Cartridges"
+      },
+      "description": {
+        "reference": "攻撃力4{n}SHOCKの効果",
+        "translation": "Atk 4{n}Inflicts Shock"
+      }
+    },
+    "medusa_cartridges": {
+      "name": {
+        "reference": "メデューサカート",
+        "translation": "Medusa Cartridges"
+      },
+      "description": {
+        "reference": "攻撃力2{n}STONEの効果",
+        "translation": "Atk 2{n}Inflicts Stone"
+      }
+    },
+    "bomber_bullets": {
+      "name": {
+        "reference": "ボンバーブリッド",
+        "translation": "Bomber Bullets"
+      },
+      "description": {
+        "reference": "攻撃力16 命中8",
+        "translation": "Atk 16 Acc 8"
+      }
+    },
+    "vajra_rounds": {
+      "name": {
+        "reference": "こんごうだん",
+        "translation": "Vajra Rounds"
+      },
+      "description": {
+        "reference": "攻撃力5{n}BINDの効果",
+        "translation": "Atk 5{n}Inflicts Bind"
+      }
+    },
+    "plasma_cartridges": {
+      "name": {
+        "reference": "プラズマカート",
+        "translation": "Plasma Cartridges"
+      },
+      "description": {
+        "reference": "攻撃力6{n}SHOCKの効果",
+        "translation": "Atk 6{n}Inflicts Shock"
+      }
+    },
+    "mercury_bombs": {
+      "name": {
+        "reference": "マーキュリーボム",
+        "translation": "Mercury Bombs"
+      },
+      "description": {
+        "reference": "攻撃力24 命中12",
+        "translation": "Atk 24 Acc 12"
+      }
+    },
+    "sa_chain": {
+      "name": {
+        "reference": "S’Aチェーン",
+        "translation": "S'A Chain"
+      },
+      "description": {
+        "reference": "防御力7 回避2 ♂",
+        "translation": "Def 7 Eva 2 ♂"
+      }
+    },
+    "sixes_choker": {
+      "name": {
+        "reference": "6’sチョーカー",
+        "translation": "6's Choker"
+      },
+      "description": {
+        "reference": "防御力9 回避1 ♀",
+        "translation": "Def 9 Eva 1 ♀"
+      }
+    },
+    "hard_ten_gallon": {
+      "name": {
+        "reference": "ハードテンガロン",
+        "translation": "Hard Ten-Gallon"
+      },
+      "description": {
+        "reference": "防御力12 回避2 ♂{n}物理攻撃に対する耐性",
+        "translation": "Def 12 Eva 2 ♂{n}Resists physical attacks"
+      }
+    },
+    "chain_beret": {
+      "name": {
+        "reference": "チェインベレー",
+        "translation": "Chain Beret"
+      },
+      "description": {
+        "reference": "防御力9 回避6 ♀{n}物理攻撃に対する耐性",
+        "translation": "Def 9 Eva 6 ♀{n}Resists physical attacks"
+      }
+    },
+    "plate_bandana": {
+      "name": {
+        "reference": "プレートバンダナ",
+        "translation": "Plate Bandana"
+      },
+      "description": {
+        "reference": "防御力14 回避6 ♂♀{n}銃弾に対する耐性",
+        "translation": "Def 14 Eva 6 ♂♀{n}Resists gunfire"
+      }
+    },
+    "fritz_helm": {
+      "name": {
+        "reference": "フリッツヘルム",
+        "translation": "Fritz Helm"
+      },
+      "description": {
+        "reference": "防御力16 回避4 ♂♀",
+        "translation": "Def 16 Eva 4 ♂♀"
+      }
+    },
+    "jyushichuu": {
+      "name": {
+        "reference": "じゅしちゅう",
+        "translation": "Jyushichuu"
+      },
+      "description": {
+        "reference": "防御力20 回避6 ♂♀{n}火炎に対する耐性",
+        "translation": "Def 20 Eva 6 ♂♀{n}Resists fire"
+      }
+    },
+    "star_helm": {
+      "name": {
+        "reference": "スターヘルム",
+        "translation": "Star Helm"
+      },
+      "description": {
+        "reference": "防御力21 回避4 ♂♀{n}衝撃に対する耐性",
+        "translation": "Def 21 Eva 4 ♂♀{n}Resists force"
+      }
+    },
+    "cone_hat": {
+      "name": {
+        "reference": "コーンハット",
+        "translation": "Cone Hat"
+      },
+      "description": {
+        "reference": "防御力22 回避6 ♀{n}念動に対する耐性",
+        "translation": "Def 22 Eva 6 ♀{n}Resists psychokinesis"
+      }
+    },
+    "ichijikin": {
+      "name": {
+        "reference": "いちじきん",
+        "translation": "Ichijikin"
+      },
+      "description": {
+        "reference": "防御力27 回避4 ♂♀{n}精神攻撃に対する耐性",
+        "translation": "Def 27 Eva 4 ♂♀{n}Resists mind attacks"
+      }
+    },
+    "dolphin_helm": {
+      "name": {
+        "reference": "ドルフィンヘルム",
+        "translation": "Dolphin Helm"
+      },
+      "description": {
+        "reference": "防御力31 回避8 ♂♀{n}精神攻撃に対する耐性",
+        "translation": "Def 31 Eva 8 ♂♀{n}Resists mind attacks"
+      }
+    },
+    "a_max_helm": {
+      "name": {
+        "reference": "Aマックスヘルム",
+        "translation": "A Max Helm"
+      },
+      "description": {
+        "reference": "防御力46 回避8 ♂{n}すべての攻撃に対する耐性",
+        "translation": "Def 46 Eva 8 ♂{n}Resists all attacks"
+      }
+    },
+    "yasaka_magatama": {
+      "name": {
+        "reference": "やさかのまがたま",
+        "translation": "Yasaka Magatama"
+      },
+      "description": {
+        "reference": "防御力52 回避4 ♂{n}火炎・氷結に対する耐性",
+        "translation": "Def 52 Eva 4 ♂{n}Resists fire and ice"
+      }
+    },
+    "calamity_helm": {
+      "name": {
+        "reference": "カラミティヘルム",
+        "translation": "Calamity Helm"
+      },
+      "description": {
+        "reference": "防御力50 回避16 ♀{n}すべての攻撃に対する耐性",
+        "translation": "Def 50 Eva 16 ♀{n}Resists all attacks"
+      }
+    },
+    "korin_helm": {
+      "name": {
+        "reference": "こうりんのかぶと",
+        "translation": "Korin Helm"
+      },
+      "description": {
+        "reference": "防御力57 回避12 ♂{n}神聖防具",
+        "translation": "Def 57 Eva 12 ♂{n}Divine armor"
+      }
+    },
+    "red_flame_helmet": {
+      "name": {
+        "reference": "ほむらのはつむり",
+        "translation": "Red Flame Helmet"
+      },
+      "description": {
+        "reference": "防御力18 回避6 ♂♀{n}火炎に対する耐性",
+        "translation": "Def 18 Eva 6 ♂♀{n}Resists fire"
+      }
+    },
+    "soukikan": {
+      "name": {
+        "reference": "そうきかん",
+        "translation": "Soukikan"
+      },
+      "description": {
+        "reference": "防御力62 回避12 ♂♀{n}魔性防具",
+        "translation": "Def 62 Eva 12 ♂♀{n}Demonic armor"
+      }
+    },
+    "yaksa_mask": {
+      "name": {
+        "reference": "ヤクシャのかめん",
+        "translation": "Yaksa Mask"
+      },
+      "description": {
+        "reference": "防御力52 回避16 ♂{n}妖鬼ヤクシャが身を変じたもの",
+        "translation": "Def 52 Eva 16 ♂{n}Transformed from Brute Yaksa"
+      }
+    },
+    "shikome_magatama": {
+      "name": {
+        "reference": "シコメのまがたま",
+        "translation": "Shikome Magatama"
+      },
+      "description": {
+        "reference": "防御力14 回避6 ♀{n}鬼女ヨモツシコメの精魂がこもる",
+        "translation": "Def 14 Eva 6 ♀{n}Filled with Femme Yomotsu-Shikome's spirit"
+      }
+    },
+    "frost_hood": {
+      "name": {
+        "reference": "フロストずきん",
+        "translation": "Frost Hood"
+      },
+      "description": {
+        "reference": "防御力16 回避2 ♂♀{n}妖精ジャックフロスト 魂の結晶",
+        "translation": "Def 16 Eva 2 ♂♀{n}A crystal of Fairy Jack Frost's soul"
+      }
+    },
+    "lantern_hat": {
+      "name": {
+        "reference": "ランタンハット",
+        "translation": "Lantern Hat"
+      },
+      "description": {
+        "reference": "防御力18 回避6 ♂♀{n}妖精ジャックランタン 友情の魔晶変化",
+        "translation": "Def 18 Eva 6 ♂♀{n}Mystic Change from Jack-o'-Lantern's friendship"
+      }
+    },
+    "garuche_suit": {
+      "name": {
+        "reference": "ガルチェのスーツ",
+        "translation": "Garuche Suit"
+      },
+      "description": {
+        "reference": "防御力11 回避1 ♂",
+        "translation": "Def 11 Eva 1 ♂"
+      }
+    },
+    "saniesu_suit": {
+      "name": {
+        "reference": "サニエスのスーツ",
+        "translation": "Saniesu Suit"
+      },
+      "description": {
+        "reference": "防御力10 回避3 ♀",
+        "translation": "Def 10 Eva 3 ♀"
+      }
+    },
+    "coat_jacket": {
+      "name": {
+        "reference": "コートジャケット",
+        "translation": "Coat Jacket"
+      },
+      "description": {
+        "reference": "防御力14 回避4 ♂{n}衝撃に対する耐性",
+        "translation": "Def 14 Eva 4 ♂{n}Resists force"
+      }
+    },
+    "titanium_corset": {
+      "name": {
+        "reference": "チタンコルセット",
+        "translation": "Titanium Corset"
+      },
+      "description": {
+        "reference": "防御力18 回避6 ♀{n}衝撃に対する耐性",
+        "translation": "Def 18 Eva 6 ♀{n}Resists force"
+      }
+    },
+    "kevlar_vest": {
+      "name": {
+        "reference": "ケブラーベスト",
+        "translation": "Kevlar Vest"
+      },
+      "description": {
+        "reference": "防御力19 回避8 ♂♀{n}刃物に対する耐性",
+        "translation": "Def 19 Eva 8 ♂♀{n}Resists blades"
+      }
+    },
+    "spectra_coat": {
+      "name": {
+        "reference": "スペクトラコート",
+        "translation": "Spectra Coat"
+      },
+      "description": {
+        "reference": "防御力33 回避2 ♂♀{n}銃弾に対する耐性",
+        "translation": "Def 33 Eva 2 ♂♀{n}Resists gunfire"
+      }
+    },
+    "jyushikou": {
+      "name": {
+        "reference": "じゅしこう",
+        "translation": "Jyushikou"
+      },
+      "description": {
+        "reference": "防御力33 回避8 ♂♀{n}火炎に対する耐性",
+        "translation": "Def 33 Eva 8 ♂♀{n}Resists fire"
+      }
+    },
+    "silver_mail": {
+      "name": {
+        "reference": "シルバーメイル",
+        "translation": "Silver Mail"
+      },
+      "description": {
+        "reference": "防御力46 回避1 ♂♀{n}電撃・衝撃に対する耐性",
+        "translation": "Def 46 Eva 1 ♂♀{n}Resists shock and force"
+      }
+    },
+    "spirit_robe": {
+      "name": {
+        "reference": "スピリットローブ",
+        "translation": "Spirit Robe"
+      },
+      "description": {
+        "reference": "防御力42 回避12 ♀{n}火炎・氷結に対する耐性",
+        "translation": "Def 42 Eva 12 ♀{n}Resists fire and ice"
+      }
+    },
+    "hakutou_kaisei": {
+      "name": {
+        "reference": "はくとうかいせい",
+        "translation": "Hakutou Kaisei"
+      },
+      "description": {
+        "reference": "防御力57 回避8 ♂♀{n}刃物に対する耐性",
+        "translation": "Def 57 Eva 8 ♂♀{n}Resists blades"
+      }
+    },
+    "tetrajammer": {
+      "name": {
+        "reference": "テトラジャマー",
+        "translation": "Tetrajammer"
+      },
+      "description": {
+        "reference": "防御力60 回避10 ♂♀{n}精神攻撃に対する耐性",
+        "translation": "Def 60 Eva 10 ♂♀{n}Resists mind attacks"
+      }
+    },
+    "a_max_suit": {
+      "name": {
+        "reference": "Aマックススーツ",
+        "translation": "A Max Suit"
+      },
+      "description": {
+        "reference": "防御力78 回避14 ♂{n}すべての攻撃に対する耐性",
+        "translation": "Def 78 Eva 14 ♂{n}Resists all attacks"
+      }
+    },
+    "swan_clothes": {
+      "name": {
+        "reference": "しらとりのころも",
+        "translation": "Swan Clothes"
+      },
+      "description": {
+        "reference": "防御力80 回避16 ♂{n}すべての攻撃に対する耐性",
+        "translation": "Def 80 Eva 16 ♂{n}Resists all attacks"
+      }
+    },
+    "calamity_suit": {
+      "name": {
+        "reference": "カラミティスーツ",
+        "translation": "Calamity Suit"
+      },
+      "description": {
+        "reference": "防御力93 回避19 ♀{n}すべての攻撃に対する耐性",
+        "translation": "Def 93 Eva 19 ♀{n}Resists all attacks"
+      }
+    },
+    "lion_armor": {
+      "name": {
+        "reference": "からじしのよろい",
+        "translation": "Lion Armor"
+      },
+      "description": {
+        "reference": "防御力99 回避15 ♂{n}神聖防具",
+        "translation": "Def 99 Eva 15 ♂{n}Divine armor"
+      }
+    },
+    "megingjord": {
+      "name": {
+        "reference": "メギンギョルズ",
+        "translation": "Megingjord"
+      },
+      "description": {
+        "reference": "防御力98 回避25 ♂{n}物理攻撃に対する耐性",
+        "translation": "Def 98 Eva 25 ♂{n}Resists physical attacks"
+      }
+    },
+    "white_flame_armor": {
+      "name": {
+        "reference": "びゃくえんがい",
+        "translation": "White Flame Armor"
+      },
+      "description": {
+        "reference": "防御力40 回避4 ♂♀{n}火炎攻撃を吸収",
+        "translation": "Def 40 Eva 4 ♂♀{n}Absorbs fire attacks"
+      }
+    },
+    "hades_armor": {
+      "name": {
+        "reference": "よみのがいこう",
+        "translation": "Hades Armor"
+      },
+      "description": {
+        "reference": "防御力88 回避8 ♂♀{n}魔性防具",
+        "translation": "Def 88 Eva 8 ♂♀{n}Demonic armor"
+      }
+    },
+    "spriggan_vest": {
+      "name": {
+        "reference": "スプリガンベスト",
+        "translation": "Spriggan Vest"
+      },
+      "description": {
+        "reference": "防御力60 回避2 ♂{n}妖精スプリガンの霊魂が宿る",
+        "translation": "Def 60 Eva 2 ♂{n}Imbued with Fairy Spriggan's spirit"
+      }
+    },
+    "blizzard_robe": {
+      "name": {
+        "reference": "ブリザードローブ",
+        "translation": "Blizzard Robe"
+      },
+      "description": {
+        "reference": "防御力45 回避8 ♀{n}鬼女ユキジョロウの情愛がこもる",
+        "translation": "Def 45 Eva 8 ♀{n}Filled with Femme Yuki-Jorou's affection"
+      }
+    },
+    "shoukigairin": {
+      "name": {
+        "reference": "しょうきがいりん",
+        "translation": "Shoukigairin"
+      },
+      "description": {
+        "reference": "防御力4 回避1 ♂",
+        "translation": "Def 4 Eva 1 ♂"
+      }
+    },
+    "coma_rings": {
+      "name": {
+        "reference": "こうまのゆびわ",
+        "translation": "Coma Rings"
+      },
+      "description": {
+        "reference": "防御力4 回避2 ♀",
+        "translation": "Def 4 Eva 2 ♀"
+      }
+    },
+    "rivet_knuckle": {
+      "name": {
+        "reference": "リベットナックル",
+        "translation": "Rivet Knuckle"
+      },
+      "description": {
+        "reference": "防御力5 回避1 ♂",
+        "translation": "Def 5 Eva 1 ♂"
+      }
+    },
+    "kaiser_ring": {
+      "name": {
+        "reference": "カイザーリング",
+        "translation": "Kaiser Ring"
+      },
+      "description": {
+        "reference": "防御力5 回避2 ♀",
+        "translation": "Def 5 Eva 2 ♀"
+      }
+    },
+    "damascus_glove": {
+      "name": {
+        "reference": "ダマスカスグラブ",
+        "translation": "Damascus Glove"
+      },
+      "description": {
+        "reference": "防御力5 回避4 ♂♀",
+        "translation": "Def 5 Eva 4 ♂♀"
+      }
+    },
+    "muscle_arm": {
+      "name": {
+        "reference": "マッスルアーム",
+        "translation": "Muscle Arm"
+      },
+      "description": {
+        "reference": "防御力10 回避2 ♂♀",
+        "translation": "Def 10 Eva 2 ♂♀"
+      }
+    },
+    "jushijun": {
+      "name": {
+        "reference": "じゅしじゅん",
+        "translation": "Jushijun"
+      },
+      "description": {
+        "reference": "防御力10 回避4 ♂♀{n}火炎に対する耐性",
+        "translation": "Def 10 Eva 4 ♂♀{n}Resists fire"
+      }
+    },
+    "tri_shield": {
+      "name": {
+        "reference": "トライシールド",
+        "translation": "Tri Shield"
+      },
+      "description": {
+        "reference": "防御力14 回避2 ♂♀{n}物理攻撃に対する耐性",
+        "translation": "Def 14 Eva 2 ♂♀{n}Resists physical attacks"
+      }
+    },
+    "penta_glove": {
+      "name": {
+        "reference": "ペンタグラブ",
+        "translation": "Penta-Glove"
+      },
+      "description": {
+        "reference": "防御力12 回避8 ♀{n}念動に対する耐性",
+        "translation": "Def 12 Eva 8 ♀{n}Resists psychokinesis"
+      }
+    },
+    "peachwood_kote": {
+      "name": {
+        "reference": "もものきごて",
+        "translation": "Peachwood Kote"
+      },
+      "description": {
+        "reference": "防御力18 回避4 ♂♀{n}電撃・衝撃に対する耐性",
+        "translation": "Def 18 Eva 4 ♂♀{n}Resists shock and force"
+      }
+    },
+    "jamming_arm": {
+      "name": {
+        "reference": "ジャミングアーム",
+        "translation": "Jamming Arm"
+      },
+      "description": {
+        "reference": "防御力19 回避8 ♂♀{n}精神攻撃に対する耐性",
+        "translation": "Def 19 Eva 8 ♂♀{n}Resists mind attacks"
+      }
+    },
+    "a_max_arm": {
+      "name": {
+        "reference": "Aマックスアーム",
+        "translation": "A Max Arm"
+      },
+      "description": {
+        "reference": "防御力24 回避10 ♂{n}すべての攻撃に対する耐性",
+        "translation": "Def 24 Eva 10 ♂{n}Resists all attacks"
+      }
+    },
+    "yata_mirror": {
+      "name": {
+        "reference": "やたのかがみ",
+        "translation": "Yata Mirror"
+      },
+      "description": {
+        "reference": "防御力21 回避18 ♂{n}火炎・氷結に対する耐性",
+        "translation": "Def 21 Eva 18 ♂{n}Resists fire and ice"
+      }
+    },
+    "calamity_claw": {
+      "name": {
+        "reference": "カラミティクロウ",
+        "translation": "Calamity Claw"
+      },
+      "description": {
+        "reference": "防御力20 回避20 ♀{n}電撃攻撃を吸収",
+        "translation": "Def 20 Eva 20 ♀{n}Absorbs shock attacks"
+      }
+    },
+    "flame_kote": {
+      "name": {
+        "reference": "れっかのこて",
+        "translation": "Flame Kote"
+      },
+      "description": {
+        "reference": "防御力24 回避17 ♂{n}火炎攻撃を吸収",
+        "translation": "Def 24 Eva 17 ♂{n}Absorbs fire attacks"
+      }
+    },
+    "rising_glove": {
+      "name": {
+        "reference": "ライジンググラブ",
+        "translation": "Rising Glove"
+      },
+      "description": {
+        "reference": "防御力27 回避15 ♂{n}物理攻撃に対する耐性",
+        "translation": "Def 27 Eva 15 ♂{n}Resists physical attacks"
+      }
+    },
+    "blue_flame_kote": {
+      "name": {
+        "reference": "せいえんのこて",
+        "translation": "Blue Flame Kote"
+      },
+      "description": {
+        "reference": "防御力10 回避4 ♂♀{n}火炎攻撃を吸収",
+        "translation": "Def 10 Eva 4 ♂♀{n}Absorbs fire attacks"
+      }
+    },
+    "bakugairin": {
+      "name": {
+        "reference": "ばくがいりん",
+        "translation": "Bakugairin"
+      },
+      "description": {
+        "reference": "防御力36 回避5 ♂♀{n}物理攻撃に対する耐性",
+        "translation": "Def 36 Eva 5 ♂♀{n}Resists physical attacks"
+      }
+    },
+    "kwancha_guard": {
+      "name": {
+        "reference": "カワンチャガード",
+        "translation": "Kwancha Guard"
+      },
+      "description": {
+        "reference": "防御力21 回避4 ♂{n}地霊カワンチャが持ち主を守護する",
+        "translation": "Def 21 Eva 4 ♂{n}Jirae Kwancha protects its owner"
+      }
+    },
+    "ganesha_ring": {
+      "name": {
+        "reference": "ガネーシャリング",
+        "translation": "Ganesha Ring"
+      },
+      "description": {
+        "reference": "防御力45 回避1 ♀{n}妖魔ガネーシャが持ち主を精神攻撃から守る",
+        "translation": "Def 45 Eva 1 ♀{n}Yoma Ganesha guards its owner from mind attacks"
+      }
+    },
+    "side_gore_boots": {
+      "name": {
+        "reference": "サイドゴアブーツ",
+        "translation": "Side-Gore Boots"
+      },
+      "description": {
+        "reference": "防御力4 回避1 ♂",
+        "translation": "Def 4 Eva 1 ♂"
+      }
+    },
+    "sierra_duck_boots": {
+      "name": {
+        "reference": "シェラガモブーツ",
+        "translation": "Sierra Duck Boots"
+      },
+      "description": {
+        "reference": "防御力5 回避2 ♀",
+        "translation": "Def 5 Eva 2 ♀"
+      }
+    },
+    "bat_wings": {
+      "name": {
+        "reference": "バットウィングス",
+        "translation": "Bat Wings"
+      },
+      "description": {
+        "reference": "防御力6 回避2 ♂",
+        "translation": "Def 6 Eva 2 ♂"
+      }
+    },
+    "full_metal_heels": {
+      "name": {
+        "reference": "フルメタルヒール",
+        "translation": "Full Metal Heels"
+      },
+      "description": {
+        "reference": "防御力7 回避1 ♀",
+        "translation": "Def 7 Eva 1 ♀"
+      }
+    },
+    "jackboots": {
+      "name": {
+        "reference": "ジャックブーツ",
+        "translation": "Jackboots"
+      },
+      "description": {
+        "reference": "防御力8 回避1 ♂♀",
+        "translation": "Def 8 Eva 1 ♂♀"
+      }
+    },
+    "kevlar_chaps": {
+      "name": {
+        "reference": "ケブラーチャプス",
+        "translation": "Kevlar Chaps"
+      },
+      "description": {
+        "reference": "防御力6 回避8 ♂♀",
+        "translation": "Def 6 Eva 8 ♂♀"
+      }
+    },
+    "jushichoutai": {
+      "name": {
+        "reference": "じゅしちょうたい",
+        "translation": "Jushichoutai"
+      },
+      "description": {
+        "reference": "防御力6 回避10 ♂♀",
+        "translation": "Def 6 Eva 10 ♂♀"
+      }
+    },
+    "gaia_guard": {
+      "name": {
+        "reference": "ガイアガード",
+        "translation": "Gaia Guard"
+      },
+      "description": {
+        "reference": "防御力14 回避1 ♂♀",
+        "translation": "Def 14 Eva 1 ♂♀"
+      }
+    },
+    "witch_pumps": {
+      "name": {
+        "reference": "ウィッチパンプス",
+        "translation": "Witch Pumps"
+      },
+      "description": {
+        "reference": "防御力12 回避12 ♀",
+        "translation": "Def 12 Eva 12 ♀"
+      }
+    },
+    "peach_clogs": {
+      "name": {
+        "reference": "もものきぐつ",
+        "translation": "Peach Clogs"
+      },
+      "description": {
+        "reference": "防御力14 回避10 ♂♀",
+        "translation": "Def 14 Eva 10 ♂♀"
+      }
+    },
+    "regga_slam": {
+      "name": {
+        "reference": "レッガースラム",
+        "translation": "Regga Slam"
+      },
+      "description": {
+        "reference": "防御力15 回避15 ♂♀",
+        "translation": "Def 15 Eva 15 ♂♀"
+      }
+    },
+    "a_max_leg": {
+      "name": {
+        "reference": "Aマックスレッグ",
+        "translation": "A-Max Leg"
+      },
+      "description": {
+        "reference": "防御力17 回避18 ♂{n}すべての攻撃に対する耐性",
+        "translation": "Def 17 Eva 18 ♂{n}Resists all attacks"
+      }
+    },
+    "susano_o_gusoku": {
+      "name": {
+        "reference": "すさのおのぐそく",
+        "translation": "Susano-o Gusoku"
+      },
+      "description": {
+        "reference": "防御力22 回避14 ♂",
+        "translation": "Def 22 Eva 14 ♂"
+      }
+    },
+    "calamity_boots": {
+      "name": {
+        "reference": "カラミティブーツ",
+        "translation": "Calamity Boots"
+      },
+      "description": {
+        "reference": "防御力28 回避18 ♀",
+        "translation": "Def 28 Eva 18 ♀"
+      }
+    },
+    "kongou_gusoku": {
+      "name": {
+        "reference": "こんごうのぐそく",
+        "translation": "Kongou Gusoku"
+      },
+      "description": {
+        "reference": "防御力20 回避16 ♂",
+        "translation": "Def 20 Eva 16 ♂"
+      }
+    },
+    "yellowflame_armor": {
+      "name": {
+        "reference": "おうえんのぐそく",
+        "translation": "Yellowflame Armor"
+      },
+      "description": {
+        "reference": "防御力7 回避4 ♂♀{n}火炎に対する耐性",
+        "translation": "Def 7 Eva 4 ♂♀{n}Resists fire"
+      }
+    },
+    "saida_gusoku": {
+      "name": {
+        "reference": "せいだのぐそく",
+        "translation": "Saida Gusoku"
+      },
+      "description": {
+        "reference": "防御力20 回避14 ♂♀{n}すべての攻撃に対する耐性",
+        "translation": "Def 20 Eva 14 ♂♀{n}Resists all attacks"
+      }
+    },
+    "tengu_geta": {
+      "name": {
+        "reference": "テングのゲタ",
+        "translation": "Tengu Geta"
+      },
+      "description": {
+        "reference": "防御力11 回避18 ♂{n}妖魔テングが化けたもの",
+        "translation": "Def 11 Eva 18 ♂{n}Transformed from Yoma Tengu"
+      }
+    },
+    "leo_heel": {
+      "name": {
+        "reference": "リーオヒール",
+        "translation": "Leo Heel"
+      },
+      "description": {
+        "reference": "防御力17 回避14 ♀{n}魔獣ドゥンの闘気が宿る／神聖防具",
+        "translation": "Def 17 Eva 14 ♀{n}Imbued with Beast Gdon's fighting spirit / Divine armor"
+      }
+    }
+  }
+}
+
+
+

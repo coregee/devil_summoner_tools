@@ -1,0 +1,530 @@
+[
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0000",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "ミラー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0001",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "カード",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0002",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "物理に強い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0003",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "魔法に強い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0004",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "全攻撃に強",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0005",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "火炎を反射",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0006",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "火炎無効",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0007",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "氷結反射",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0008",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "火炎に弱い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0009",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "氷結無効",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0010",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "電撃反射",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0011",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "電撃無効",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0012",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "衝撃反射",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0013",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "呪殺反射",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0014",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "念動吸収",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0015",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "特技反射",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0016",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "呪殺に強い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0017",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "破魔反射",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0018",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "突撃に弱い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0019",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "衝撃に強い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0020",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "電撃に強い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0021",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "念動反射",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0022",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "技に弱い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0023",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "魔法に強い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0024",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "火炎吸収",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0025",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "電撃吸収",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0026",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "ガンに弱い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0027",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "火炎に弱い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0028",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "火炎に弱い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0029",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "火炎に弱い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0030",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "火炎に強い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0031",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "衝撃に強い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0032",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "火炎に弱い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0033",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "物理に弱い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0034",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "念動に強い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0035",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "呪殺に弱い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0036",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "電撃に弱い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0037",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "火炎吸収",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0038",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "氷結反射",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0039",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "衝撃反射",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0040",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "電撃吸収",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0041",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "物理に弱い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0042",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "火炎に強い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0043",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "魔法反射",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0044",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "物理に弱い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0045",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "ガンに弱い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0046",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "呪殺反射",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0047",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "氷結に弱い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0048",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "衝撃に強い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0049",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "氷結吸収",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0050",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "電撃吸収",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0051",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "電撃に強い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0052",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "火炎吸収",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0053",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "電撃に弱い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0054",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "呪殺吸収",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0055",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "剣技に弱い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0056",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "衝撃に強い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0057",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "破魔に弱い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0058",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "破魔に弱い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0059",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "氷結に弱い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0060",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "火炎に弱い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0061",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "物理反射",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0062",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "破魔無効",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0063",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "物理に強い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0064",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "呪殺無効",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.combat_analysis_affinities.affinities.r0065",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "破・呪無効",
+    "translation": "",
+    "note": ""
+  }
+]

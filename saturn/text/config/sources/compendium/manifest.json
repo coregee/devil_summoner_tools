@@ -1754,6 +1754,12 @@
       "size": 491996,
       "stock_sha256": "2fdd8cbfc97c1c8d30c69d2d73b0633e618bf2ed7ed61d16a66e67f20bbd5ae9",
       "owned_sha256": "b6a91a849f355b41e47864b351860c90243897d25e389db78c711dff4082a999"
+    },
+    "a_dic": {
+      "path": "A_DIC.BIN",
+      "size": 472172,
+      "stock_sha256": "0edd01f270b6500dc6fafc5e71202c11dcc2cceea605cec9057e4ffb5966314c",
+      "owned_sha256": "d4a84f7ba0ffde7ee403b94571420f8e6f228870842a22cddf1060c148030e20"
     }
   },
   "sources": [
@@ -2086,6 +2092,32 @@
             "name": "detail",
             "offset": "0x8e",
             "units": 167,
+            "source_encoding": "compendium_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "demon_names",
+      "corpus": "fixed/demon_names.json",
+      "container": {
+        "type": "fixed_records",
+        "file": "a_dic",
+        "blocks": [
+          {
+            "base": "0x5d9b0",
+            "count": 319,
+            "stride": "0x10"
+          }
+        ],
+        "fields": [
+          {
+            "name": "text",
+            "offset": "0x0",
+            "units": 8,
             "source_encoding": "compendium_font16_plain_skip",
             "framing": {
               "type": "none"

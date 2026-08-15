@@ -8,13 +8,21 @@ Hopefully, by referencing this, we'll be able to rewrite the Saturn codebase to 
 
 These text surfaces are externally-viewed only. The game may duplicate surfaces that appear similar/identical from the user's point of view for architectural/efficiency reasons.
 
+Every player-visible string, label, fragment, and complete dynamic template must
+be represented by an editable authored asset under `assets/text`, including
+stock-English text and text rendered from code or images. Runtime code may
+select an asset, substitute typed values, format numbers, measure it, and render
+it; runtime code must not own player-visible wording or punctuation. References
+below to text not needing a hook mean only that no special renderer change is
+currently required.
+
 ## Saturn Consumers
 
 ### Title Screen
 
 The game has the logos for "真・女神転生" and "デビルサマナー" scale down onto the title screen.
 
-There is also the logo "悪魔召喚師" (literally Devil Summoner, in Japanese). This logo doesn't need to be translated into English.
+There is also the logo "悪魔召喚師" (literally Devil Summoner, in Japanese). The current English policy may leave this logo untranslated, but its text and visual binding must still be surfaced for potential editing.
 
 The title screen itself is another image, displayed after a white flash transition. These three logos are pre-baked into it.
 
@@ -232,7 +240,7 @@ Pressing Y (default) on the 3D Map displays "オートリカバーON" in the gre
 Along with having the existing "Someone is here, will you talk?" message prompts that appear on the 2D Map, there are other field messages that can appear, i.e., when discovering a treasure chest.
 
 {item}を手に入れた
-{item}が見つけた
+{item}を見つけた
 etc.
 
 Some may also appear briefly before an encounter transition, warning of an ambush or advantage.
@@ -244,7 +252,7 @@ Some may also appear briefly before an encounter transition, warning of an ambus
 
 The party panels are a set of six rectangular panels located near the bottom of the screen.
 Each panel consists of two rows. The top is a FONT8 consumer, 8 glyphs (though space for ~12); it's the demon/player/unit's name (left-justified) or "EMPTY" (centered) when no unit is present.
-The bottom row uses FONT6, and consists of the HP/ MP values. It doesn't need to be hooked.
+The bottom row uses FONT6 and consists of the HP/MP labels and dynamic values. It may not require a special renderer hook, but its visible labels/templates must still be asset-owned.
 
 #### Analyze
 
@@ -421,6 +429,14 @@ And below these, a 2 row, 8 glyph window for affinity text.
 This uses the FONT12 path.
 
 
+### Level Up
+
+When a demon learns a new magic or skill, the level-up screen displays a fixed
+FONT16 learned-magic label and the corresponding magic/skill name through
+separate text draws. The exact combined geometry still needs to be measured.
+Both parts, and their composed presentation, are text consumers.
+
+
 ### Fusion
 Most fusion consumers are FONT12.
 
@@ -554,7 +570,7 @@ Like the fusion status list window, but FONT8.
 
 ### MAG Exchange
 
-Top-level options are displayed in an event text window, and likely do not need to be hooked.
+Top-level options are displayed in an event text window and may not require a special renderer hook. They must still be represented by editable assets.
 
 When converting mag, two additional FONT8 help windows appear.
 {yen symbol} {current yen}

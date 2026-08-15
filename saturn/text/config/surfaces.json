@@ -1,0 +1,977 @@
+{
+  "version": 1,
+  "surfaces": {
+    "options.primary_label": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 9
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "options.value": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 4
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "options.ordering_popup": {
+      "ja": {
+        "font": "font16",
+        "rows": 4,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 5
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "event.dialogue": {
+      "ja": {
+        "font": "font16",
+        "rows": 3,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 20
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 3,
+        "width": {
+          "unit": "pixels",
+          "value": 300
+        }
+      }
+    },
+    "profile.first_name": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 3
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "profile.last_name": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 3
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "profile.codename": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "profile.city": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 3
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "profile.ward": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 3
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "profile.occupation": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 3
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "map_2d.world_city_label": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 6
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "map_2d.world_region_label": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 4
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "map_2d.area_label": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "map_3d.location": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 4
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "map_3d.floor": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 4
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "map_3d.moon_phase": {
+      "ja": {
+        "font": "font8",
+        "rows": 2,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 4
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "map_3d.analyze_race": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 5
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "map_3d.analyze_demon_name": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "map_3d.field_message": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 14
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 224
+        }
+      }
+    },
+    "automap.entry": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "automap.marker_popup": {
+      "ja": {
+        "font": "font16",
+        "rows": 3,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 6
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "battle.party_demon_name": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "battle.analyze_demon_name": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "battle.analyze_affinity": {
+      "ja": {
+        "font": "font12",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 5
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "battle.help": {
+      "ja": {
+        "font": "font16",
+        "rows": 2,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 20
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "battle.item_name": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "battle.skill_name": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "battle.console": {
+      "ja": {
+        "font": "fnt8x12",
+        "rows": 3,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 16
+        }
+      },
+      "en": {
+        "font": "fnt8x12",
+        "rows": 3,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 16
+        }
+      }
+    },
+    "battle.demon_chat": {
+      "ja": {
+        "font": "font16",
+        "rows": 2,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 11
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "battle.result_name": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "comp.party_demon_name": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "comp.stock_demon_name": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "comp.help": {
+      "ja": {
+        "font": "font16",
+        "rows": 2,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "comp.summon_cost": {
+      "ja": {
+        "font": "font8",
+        "rows": 4,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "status.demon_name": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "status.skill_name": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "status.affinity": {
+      "ja": {
+        "font": "font12",
+        "rows": 2,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "fusion.help": {
+      "ja": {
+        "font": "font12",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "fusion.chart_race": {
+      "ja": {
+        "font": "font12",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 2
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "fusion.table_race": {
+      "ja": {
+        "font": "font12",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 2
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "fusion.table_demon_name": {
+      "ja": {
+        "font": "font12",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "fusion.status_name": {
+      "ja": {
+        "font": "font12",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "compendium.profile_name": {
+      "ja": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "compendium.origin": {
+      "ja": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "compendium.summary": {
+      "ja": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "compendium.detail": {
+      "ja": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "shop.item_name": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "shop.parent_help": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 20
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "shop.item_help": {
+      "ja": {
+        "font": "font16",
+        "rows": 2,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "bar.drink_name": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "bar.patron_name": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "bar.status_name": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "healer.member_name": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "healer.status_name": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": null,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    }
+  }
+}

@@ -7,16 +7,20 @@ encodings never name a game file.
 
 Repacking will make the same separation in the other direction: each record
 will name an output encoding, while containers remain responsible for pointers,
-terminators, padding, capacities, and file layout. A blank translation retains
-the original record.
+terminators, padding, capacities, and file layout. During migration, a blank
+physical translation retains the original record; canonical authored
+translations live under the repository-level `assets/text` tree.
 
 ## Layout
 
 - `config/encodings.json` defines reusable alphabets, control vocabularies, and
   source encodings.
+- `config/surfaces.json` records measured Japanese and English consumer limits.
 - `config/sources/<disc>/manifest.json` defines physical files, the four
   container shapes, defaults, and exceptional record-level overrides.
-- `corpus/<disc>/` contains deterministic extracted translation records.
+- `corpus/<disc>/` contains deterministic extracted physical records.
+- `bindings/` joins Saturn physical records to shared authored asset fields.
+- `../../assets/text/` is the human-facing, cross-platform authoring layer.
 - `util/` contains strict configuration, token, codec, and container helpers.
 - `generated/` is ignored and will contain dictionaries, coverage reports,
   capacity reports, and engine-facing payloads.
@@ -39,6 +43,16 @@ The corpus record contract will stay small:
 Records are not deduplicated by content. Physical copies and the three deliberate
 `NAME.BIN` translation forks are declared explicitly in the source manifest.
 
+The generated corpus is binary evidence, not the translation editor. Assets
+are organised around entities and player-facing surfaces: the initial slice
+groups all 287 ITEMNAME rows into 208 equipment entities and 79 item slots. The
+item slots become 73 authored entries because the proven unused-reserve forms
+are explicitly shared. Each name and description stays with its entity, all 48
+physical battle-console forms bind to their item fields, and the MAZE field
+suffixes become complete typed templates. Saturn bindings retain exact physical
+grounding without putting file offsets or table indices into semantic asset
+identities.
+
 ## Extraction
 
 ```powershell
@@ -49,11 +63,19 @@ python saturn/text/extract.py compendium --check
 python -m unittest discover -s saturn/text/tests -v
 ```
 
-The game manifest covers 47 physical files and 51 source groups. Its four
+The game manifest covers 47 physical files and 55 source groups. Its four
 container types are EVE banks, pointer banks, fixed records with subfields, and
-explicit addressed spans. The generated corpus contains 15,613 records: 12,711
-text-bearing EVE pages and 2,902 other records. All 144 physical dungeon-location
+explicit addressed spans. The generated corpus contains 15,704 records: 12,711
+text-bearing EVE pages and 2,993 other records. All 144 physical dungeon-location
 rows remain distinct instead of collapsing to 24 repeated Japanese strings.
+
+The consumer audit added four physically grounded groups that the earlier
+source registry omitted: all 66 independently indexed Combat Analyze affinity
+slots, two padded combat-result labels, 16 EVENT drink names, six Talk-role
+labels, and one healing all-members label. Equal compact-affinity values remain
+distinct physical records, just like repeated dungeon-location rows; semantic
+assets may explicitly share them later. The healing label is assembled from the
+seven FONT16 glyph-index bytes consumed by its code-immediate renderer.
 
 The compendium manifest covers the 292 physical `DVL_*.DAT` profile files as
 one repeated fixed-record source. Each file contributes origin, summary, and
@@ -69,10 +91,10 @@ labels, prose, and an unexplained marker, while adjacent regions are lookup or
 executable data. Those sections will get a focused inventory rather than being
 folded speculatively into the profile source.
 
-`corpus/<disc>/` is currently a generated physical catalogue. Its file grouping
-is not promised as the eventual authoring interface. A human-oriented authored
-view must be settled before mature translations are imported; stable physical
-IDs allow that view to be reorganized without weakening binary grounding.
+`corpus/<disc>/` is a generated physical catalogue. Its file grouping is not an
+authoring interface. Mature translations are imported only into the shared
+authored assets after a semantic binding is proved; stable physical IDs allow
+that view to evolve without weakening binary grounding.
 
 The extraction manifest records only data that extraction consumes. Runtime
 reader selection and output-side packing rules will be introduced with repacking,
@@ -113,8 +135,9 @@ leading and trailing zeroes and collapse each internal run to one space or
 newline.
 
 Only formats demonstrated by the discs are configured. The current inventory
-uses big-endian 16-bit glyph words, 8-bit glyph codes, and printable ASCII; no
-Saturn source has established a Shift-JIS encoding.
+uses big-endian 16-bit glyph words, 8-bit glyph codes (including FONT16 indices
+stored as one-byte code operands), and printable ASCII; no Saturn source has
+established a Shift-JIS encoding.
 
 The compendium font remains independent from the game font. Its mapping now
 covers all 1,703 nonzero glyph codes demonstrated by the 292 profile tails.
@@ -140,6 +163,19 @@ mapped:
 Raw 8-bit values use two hexadecimal digits. Unknown controls are never dropped,
 and duplicate atlas values remain raw so their numeric identity is not lost.
 
+## Consumer limits
+
+`config/surfaces.json` is a platform display contract, not an authored-text or
+binary-storage catalog. Each surface has separate `ja` and `en` layouts with an
+explicit font, row count, and width measured in either glyph cells or pixels.
+`null` means that a limit has not been established; the loader rejects omitted
+fields and partially specified widths so an unknown value cannot silently
+become a guessed constraint.
+
+The English event window is the documented 300-pixel, three-row patch surface.
+The battle console is fixed at 16 cells by three rows in both languages. Other
+English limits remain unknown until their translated renderers are measured.
+
 ## Implementation plan
 
 1. **Complete:** implement strict configuration loading, lossless token syntax,
@@ -148,8 +184,9 @@ and duplicate atlas values remain raw so their numeric identity is not lost.
    physical-ID contract and no content deduplication.
 3. **Complete:** add all 292 compendium profiles and begin evidence-only
    discovery of the mixed `A_DIC.BIN` sections.
-4. Settle the human authoring view, then import only translations and useful
-   notes from the mature corpus.
+4. **In progress:** establish the shared human authoring view and import only
+   translations and useful notes from the mature corpus. The item, equipment,
+   and field-message vertical slice is complete.
 5. Produce complete encoding coverage and capacity reports for both discs.
 6. Finalize output encodings and deterministic full-corpus dictionary groups.
 7. Implement one atomic text repack; partial dictionary builds remain
