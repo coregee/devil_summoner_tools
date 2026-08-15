@@ -29,6 +29,9 @@ _CONTROL_TOKENS = frozenset({"WAIT", "BEAT"})
 _PLACEHOLDER_TYPES = frozenset(
     {
         "character_name",
+        "alignment_label",
+        "battle_command",
+        "control_rank",
         "demon_name",
         "demon_race",
         "difficulty_label",
@@ -38,6 +41,7 @@ _PLACEHOLDER_TYPES = frozenset(
         "item_name",
         "location_name",
         "number",
+        "personality_label",
         "player_codename",
         "player_name",
     }
@@ -479,8 +483,10 @@ def load_binding(
     ) -> Composition:
         value = _object(raw_composition, context)
         _fields(value, {"source_role", "supplies"}, context)
-        if value["source_role"] != "suffix":
-            raise ValueError(f"{path}: only proven suffix composition is supported")
+        if value["source_role"] not in {"prefix", "suffix"}:
+            raise ValueError(
+                f"{path}: composition source role must be 'prefix' or 'suffix'"
+            )
         if not isinstance(value["supplies"], list) or not value["supplies"]:
             raise ValueError(f"{context}.supplies must be a list")
         supplies = tuple(
@@ -496,7 +502,7 @@ def load_binding(
             raise ValueError(
                 f"{path}: composition supplies do not match asset placeholders"
             )
-        return Composition("suffix", supplies)
+        return Composition(value["source_role"], supplies)
 
     composition: dict[str, Composition] = {}
     for physical_id, raw_composition in _object(
@@ -656,9 +662,15 @@ def load_binding(
             if not visible_source:
                 normalized_reference = ""
         if physical_id in composition:
-            if not normalized_reference or not reference.endswith(normalized_reference):
+            source_role = composition[physical_id].source_role
+            matches = (
+                reference.startswith(normalized_reference)
+                if source_role == "prefix"
+                else reference.endswith(normalized_reference)
+            )
+            if not normalized_reference or not matches:
                 raise ValueError(
-                    f"{path}: composed record {physical_id!r} is not a suffix of "
+                    f"{path}: composed record {physical_id!r} is not a {source_role} of "
                     f"{asset_ref!r}"
                 )
         elif normalized_reference != reference:
@@ -671,11 +683,15 @@ def load_binding(
                 use.asset_ref
             ).resolve(use.variant)
             if use.composition is not None:
-                if not normalized_reference or not use_reference.endswith(
-                    normalized_reference
-                ):
+                source_role = use.composition.source_role
+                matches = (
+                    use_reference.startswith(normalized_reference)
+                    if source_role == "prefix"
+                    else use_reference.endswith(normalized_reference)
+                )
+                if not normalized_reference or not matches:
                     raise ValueError(
-                        f"{path}: additional use {physical_id!r} is not a suffix "
+                        f"{path}: additional use {physical_id!r} is not a {source_role} "
                         f"of {use.asset_ref!r}"
                     )
             elif normalized_reference != use_reference:

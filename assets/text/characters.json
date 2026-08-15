@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "kind": "entity_catalog",
+  "entries": {
+    "hajime_tanigawa": {
+      "name": {
+        "reference": "たにがわ ハジメ",
+        "translation": "Hajime Tanigawa"
+      },
+      "note": "Stock initial CHARNAME row. Live player-name consumers use the current profile value rather than treating this row as immutable."
+    },
+    "rei_reiho": {
+      "name": {
+        "reference": "レイ‐レイホゥ",
+        "translation": "Rei Reiho"
+      }
+    },
+    "kyouji_kuzunoha": {
+      "name": {
+        "reference": "キョウジ",
+        "translation": "Kyouji"
+      },
+      "full_name": {
+        "reference": "葛葉キョウジ",
+        "translation": "Kyouji Kuzunoha"
+      },
+      "given_name": {
+        "reference": "キョウジ",
+        "translation": "Kyouji"
+      },
+      "family_name": {
+        "reference": "葛葉",
+        "translation": "Kuzunoha"
+      }
+    },
+    "taro_tanigawa": {
+      "name": {
+        "reference": "たにがわたろう",
+        "translation": "Taro Tanigawa"
+      }
+    },
+    "jiro_tanigawa": {
+      "name": {
+        "reference": "たにがわじろう",
+        "translation": "Jiro Tanigawa"
+      }
+    },
+    "saburo_tanigawa": {
+      "name": {
+        "reference": "たにがわさぶろう",
+        "translation": "Saburo Tanigawa"
+      }
+    }
+  }
+}

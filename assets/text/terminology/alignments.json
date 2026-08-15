@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "kind": "entity_catalog",
+  "entries": {
+    "law": {
+      "party_label": {
+        "reference": "LAW",
+        "translation": "LAW"
+      },
+      "axis_label": {
+        "reference": "L",
+        "translation": "L"
+      }
+    },
+    "neutral": {
+      "party_label": {
+        "reference": "NEUTRAL",
+        "translation": "NEUTRAL"
+      },
+      "axis_label": {
+        "reference": "N",
+        "translation": "N"
+      }
+    },
+    "chaos": {
+      "party_label": {
+        "reference": "CHAOS",
+        "translation": "CHAOS"
+      },
+      "axis_label": {
+        "reference": "C",
+        "translation": "C"
+      }
+    },
+    "light": {
+      "axis_label": {
+        "reference": "L",
+        "translation": "L"
+      }
+    },
+    "dark": {
+      "axis_label": {
+        "reference": "D",
+        "translation": "D"
+      }
+    }
+  }
+}

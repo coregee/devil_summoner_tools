@@ -83,11 +83,11 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font16",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "glyph_cells",
+          "value": 8
         }
       }
     },
@@ -101,11 +101,11 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font16",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "glyph_cells",
+          "value": 8
         }
       }
     },
@@ -119,11 +119,11 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font16",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "glyph_cells",
+          "value": 8
         }
       }
     },
@@ -137,11 +137,11 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font16",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "glyph_cells",
+          "value": 8
         }
       }
     },
@@ -155,11 +155,11 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font16",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "glyph_cells",
+          "value": 8
         }
       }
     },
@@ -173,11 +173,263 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 208
+        }
+      }
+    },
+    "name_entry.prompt": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
         "width": {
           "unit": null,
           "value": null
+        }
+      }
+    },
+    "name_entry.confirm_prompt": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 10
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "name_entry.confirm_choice": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 3
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 3
+        }
+      }
+    },
+    "name_entry.summary_label": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 104
+        }
+      }
+    },
+    "name_entry.tab_label": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 4
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 96
+        }
+      }
+    },
+    "name_entry.occupation_choice": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 3
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 128
+        }
+      }
+    },
+    "name_entry.grid_row": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 13
+        }
+      }
+    },
+    "name_entry.grid_action": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 1
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 1
+        }
+      }
+    },
+    "name_entry.default_value": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 3
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      }
+    },
+    "party.character_name": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 80
+        }
+      }
+    },
+    "status.character_name": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "level_up.character_name": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "fusion.table_character_name": {
+      "ja": {
+        "font": "font12",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": "font12",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "shop.character_name": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 72
         }
       }
     },
@@ -1366,6 +1618,294 @@
         "width": {
           "unit": "pixels",
           "value": 104
+        }
+      }
+    },
+    "status.base_stat_label": {
+      "ja": {
+        "font": null,
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 1
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 12
+        }
+      }
+    },
+    "status.derived_stat_label": {
+      "ja": {
+        "font": "font12",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 4
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 46
+        }
+      }
+    },
+    "status.generic_combat_stat_label": {
+      "ja": {
+        "font": "font12",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 3
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 46
+        }
+      }
+    },
+    "status.loyalty_label": {
+      "ja": {
+        "font": "font12",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 3
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 38
+        }
+      }
+    },
+    "status.personality_type_label": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 4
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 4
+        }
+      }
+    },
+    "status.personality_value": {
+      "ja": {
+        "font": "font12",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 2
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 38
+        }
+      }
+    },
+    "status.numeric_readout": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "status.auto_setting": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "status.party_alignment": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "status.control": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "status.loyalty_row": {
+      "ja": {
+        "font": null,
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "status.personality_row": {
+      "ja": {
+        "font": null,
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "status.control_rank": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 3
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 3
+        }
+      }
+    },
+    "status.auto_command": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 7
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 7
+        }
+      }
+    },
+    "status.party_alignment_value": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 7
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 7
+        }
+      }
+    },
+    "status.alignment_axis_label": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 1
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 1
         }
       }
     }

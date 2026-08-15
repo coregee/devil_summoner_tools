@@ -144,6 +144,9 @@ placeholders in language-appropriate order. A platform binding explains how
 the game supplies those values. For example, a Saturn source may contain only
 `を手に入れた`, while the authored field is the complete
 `{item}を手に入れた` / `Obtained {item}.` template.
+The same rule applies to stored prefixes: retail `CTRL` grounds the complete
+`CTRL {rank}` template. Prefix and suffix composition are declared explicitly;
+an ungrounded middle fragment is not accepted.
 
 Visible symbols and punctuation are authored too. The currency message, for
 example, has explicit yen and magnetite forms using `{yen_symbol}` and
@@ -199,8 +202,11 @@ The mature implementations still contain visible wording that must move here;
 none of it is a runtime exemption. The current audit tracks:
 
 - the battle-result empty label;
-- character full/short name forms used directly by renderers;
-- status headings and personality terms;
+- wiring character full/short name forms from `characters.json` into the
+  remaining mature renderers;
+- wiring the mature Saturn status renderer to the complete readout templates,
+  headings, command/alignment domains, and personality terms now owned by the
+  shared assets;
 - wiring the mature Saturn fusion and Analyze renderers to the authored race
   labels and heading template stored here;
 - wiring the mature Saturn location renderers to the authored floor/location
@@ -209,7 +215,8 @@ none of it is a runtime exemption. The current audit tracks:
   `Found` and `Obtained` call paths despite the retail call sites using both;
 - wiring the PSP save renderer to the titles, difficulty labels, prompts,
   fallback label, and complete detail template now stored in `save_load.json`;
-- the PSP first-VWF welcome line and content-locked name-entry labels/grids;
+- the PSP first-VWF welcome line, and wiring the shared profile-entry assets
+  while removing its old content-equality locks;
 - config compound glyphs, which must be generated from editable labels rather
   than maintained as independent phrase fragments;
 - every visible word in title, menu, or other artwork.
@@ -259,6 +266,31 @@ non-location Saturn SAVE/LOAD text, stock-English and raster labels, and the
 previously code-owned PSP savedata wording and full detail template. The seven
 genuinely PSP-only Gouma-den tutorial lines are additions; inherited PSP text
 continues to reuse the Saturn-authored fields.
+
+The character and profile-entry slice gives all six `CHARNAME` identities one
+shared home in `characters.json`; the PSP table has the same six semantic rows
+and therefore needs no copied text. Kyouji's short, full, given, and family
+forms are independently editable, replacing the mature battle renderer's
+embedded `Kyouji`/`Kuzunoha` wording. `ui/profile_entry.json` owns all 19
+physical `NAME.BIN` strings plus the six English input-grid rows, the Hirasaki
+and Asahi defaults, and the visible END command glyph. The physically shared
+first/last, city/ward, and occupation prompt/summary sources deliberately bind
+to separate fields, so a translator can change their English roles
+independently. Runtime code may lay out these fields but does not own their
+content or require two independently authored fields to remain equal.
+
+The status slice gives the six base-stat abbreviations, eight derived-stat
+headings, generic Attack and Accuracy labels, all ten personality values, and
+the complete Loyalty, TYPE, LV, HP, MP, EXP, NEXT, CP, AUTO, P.A., and CTRL
+templates one editable home in `ui/status.json`. Typed placeholders cover every
+runtime-supplied number or selected value. The seven AUTO commands live in
+`battle/commands.json`; party and alignment-axis terminology lives in
+`terminology/alignments.json`; all four CTRL ranks and the retail fallback are
+editable too. Twenty-four stock ASCII records bind these assets to exact
+`NORMCOM.BIN` offsets, while bitmap-only Japanese labels remain grounded in
+pinned retail regions. The English stays faithful to the mature Saturn output.
+Bitmap generation and phrase compression remain derived rendering work; they
+are not second translation sources.
 
 After bindings cover the authored corpus, translations in the generated
 physical catalogue will be removed or generated from these assets. There must

@@ -477,6 +477,76 @@ class AssetSchemaTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "placeholder type must be"):
             validate_asset_document(document)
 
+    def test_physical_prefix_can_ground_a_complete_template(self) -> None:
+        asset_document = {
+            "version": 1,
+            "kind": "surface_catalog",
+            "entries": {
+                "control": {
+                    "placeholders": {"rank": "control_rank"},
+                    "text": {
+                        "reference": "CTRL {rank}",
+                        "translation": "CTRL {rank}",
+                    },
+                }
+            },
+        }
+        binding_document = {
+            "version": 1,
+            "asset": "status.json",
+            "records": {"physical.ctrl": "control.text"},
+            "composition": {
+                "physical.ctrl": {
+                    "source_role": "prefix",
+                    "supplies": ["rank"],
+                }
+            },
+        }
+        with tempfile.TemporaryDirectory() as raw_directory:
+            root = Path(raw_directory)
+            (root / "status.json").write_text(
+                json.dumps(asset_document), encoding="utf-8"
+            )
+            binding_path = root / "binding.json"
+            binding_path.write_text(
+                json.dumps(binding_document), encoding="utf-8"
+            )
+            binding = load_binding(
+                binding_path,
+                asset_root=root,
+                physical_records={"physical.ctrl": "CTRL"},
+            )
+            self.assertEqual(
+                binding.composition["physical.ctrl"].source_role,
+                "prefix",
+            )
+
+            binding_document["composition"]["physical.ctrl"][
+                "source_role"
+            ] = "middle"
+            binding_path.write_text(
+                json.dumps(binding_document), encoding="utf-8"
+            )
+            with self.assertRaisesRegex(ValueError, "source role"):
+                load_binding(
+                    binding_path,
+                    asset_root=root,
+                    physical_records={"physical.ctrl": "CTRL"},
+                )
+
+            binding_document["composition"]["physical.ctrl"][
+                "source_role"
+            ] = "prefix"
+            binding_path.write_text(
+                json.dumps(binding_document), encoding="utf-8"
+            )
+            with self.assertRaisesRegex(ValueError, "not a prefix"):
+                load_binding(
+                    binding_path,
+                    asset_root=root,
+                    physical_records={"physical.ctrl": "TR"},
+                )
+
     def test_nl_is_layout_only(self) -> None:
         document = {
             "version": 1,

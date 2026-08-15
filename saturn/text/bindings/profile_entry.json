@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "asset": "ui/profile_entry.json",
+  "records": {
+    "game.name_static.o020b78.prompt_first": "prompt_first.text",
+    "game.name_static.o020b78.prompt_last": "prompt_last.text",
+    "game.name_static.o020ba0": "prompt_codename.text",
+    "game.name_static.o020bc8.prompt_city": "prompt_city.text",
+    "game.name_static.o020bc8.prompt_ward": "prompt_ward.text",
+    "game.name_static.o020c18": "prompt_confirm.text",
+    "game.name_static.o020c30": "label_yes.text",
+    "game.name_static.o020c38": "label_no.text",
+    "game.name_static.o020cb8.prompt_occupation": "prompt_occupation.text",
+    "game.name_static.o020cb8.label_occupation": "label_occupation.text",
+    "game.name_static.o020c40": "tab_upper.text",
+    "game.name_static.o020c68": "tab_lower.text",
+    "game.name_static.o020dd0": "tab_symbol.text",
+    "game.name_static.o020ce0": "occupation_employee.text",
+    "game.name_static.o020d08": "occupation_student.text",
+    "game.name_static.o020d30": "occupation_official.text",
+    "game.name_static.o020d58": "occupation_part_time.text",
+    "game.name_static.o020d80": "occupation_business.text",
+    "game.name_static.o020da8": "occupation_jobless.text"
+  },
+  "record_surfaces": {
+    "game.name_static.o020b78.prompt_first": [
+      "name_entry.prompt"
+    ],
+    "game.name_static.o020b78.prompt_last": [
+      "name_entry.prompt"
+    ],
+    "game.name_static.o020ba0": [
+      "name_entry.prompt"
+    ],
+    "game.name_static.o020bc8.prompt_city": [
+      "name_entry.prompt"
+    ],
+    "game.name_static.o020bc8.prompt_ward": [
+      "name_entry.prompt"
+    ],
+    "game.name_static.o020cb8.prompt_occupation": [
+      "name_entry.prompt"
+    ],
+    "game.name_static.o020c18": [
+      "name_entry.confirm_prompt"
+    ],
+    "game.name_static.o020c30": [
+      "name_entry.confirm_choice"
+    ],
+    "game.name_static.o020c38": [
+      "name_entry.confirm_choice"
+    ],
+    "game.name_static.o020cb8.label_occupation": [
+      "name_entry.summary_label"
+    ],
+    "game.name_static.o020c40": [
+      "name_entry.tab_label"
+    ],
+    "game.name_static.o020c68": [
+      "name_entry.tab_label"
+    ],
+    "game.name_static.o020dd0": [
+      "name_entry.tab_label"
+    ],
+    "game.name_static.o020ce0": [
+      "name_entry.occupation_choice"
+    ],
+    "game.name_static.o020d08": [
+      "name_entry.occupation_choice"
+    ],
+    "game.name_static.o020d30": [
+      "name_entry.occupation_choice"
+    ],
+    "game.name_static.o020d58": [
+      "name_entry.occupation_choice"
+    ],
+    "game.name_static.o020d80": [
+      "name_entry.occupation_choice"
+    ],
+    "game.name_static.o020da8": [
+      "name_entry.occupation_choice"
+    ]
+  }
+}

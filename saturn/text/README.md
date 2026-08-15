@@ -66,10 +66,10 @@ python saturn/text/extract.py compendium --check
 python -m unittest discover -s saturn/text/tests -v
 ```
 
-The game manifest covers 47 physical files and 55 source groups. Its four
+The game manifest covers 47 physical files and 56 source groups. Its four
 container types are EVE banks, pointer banks, fixed records with subfields, and
-explicit addressed spans. The generated corpus contains 15,704 records: 12,711
-text-bearing EVE pages and 2,993 other records. All 144 dungeon-location rows
+explicit addressed spans. The generated corpus contains 15,728 records: 12,711
+text-bearing EVE pages and 3,017 other records. All 144 dungeon-location rows
 remain distinct instead of collapsing to 24 repeated Japanese strings. Each
 row now verifies that its name bytes agree across the MAZE, AUTOMAP, SAVE, and
 LOAD tables; these four physical copies still produce one catalogue record.
@@ -86,6 +86,13 @@ Equal compact-affinity values remain distinct physical records, just like
 repeated dungeon-location rows; semantic assets may explicitly share them
 later. The healing label is assembled from the seven FONT16 glyph-index bytes
 consumed by its code-immediate renderer.
+
+The status audit adds 24 independently addressed stock-ASCII records from
+`NORMCOM.BIN`: nine readout prefixes, all four control ranks plus the retail
+fallback, three party-alignment values, and seven AUTO command values. Their
+semantic bindings retain complete editable templates such as `HP
+{current_hp}/{maximum_hp}` and `CTRL {rank}` rather than leaving punctuation or
+word order in renderer code.
 
 The MAZE suffix at `0x251dc` has three proved consumers: successful item
 acquisition, yen acquisition, and magnetite acquisition. The two currency paths
@@ -199,6 +206,20 @@ English limits remain unknown until their translated renderers are measured.
 Facility contracts additionally distinguish the eight-cell bar and healer
 lists, two-row drink help, the shop's 16-pixel `Inv.` label, and known SAVE/LOAD
 row or raster geometry. Unmeasured facility widths remain explicit `null`s.
+Profile-entry contracts retain the stock three/three/eight/three/three input
+limits and the English patch's eight-character first, last, codename, city,
+and ward fields. They also record the 13-cell English grid rows, 96-pixel tab
+bands, 128-pixel occupation columns, and 208-pixel confirmation value area.
+Character names have separate consumer contracts: the shared party-panel pool
+is limited to 80 pixels and the shop information field to 72 pixels, while
+unmeasured status and level-up widths remain explicit `null`s.
+Status vocabulary has separate contracts for the 12-pixel compressed parameter
+nodes, 46-pixel derived and combat-stat rows, and 38-pixel Loyalty/personality
+rows. The stock Japanese labels retain their distinct one-to-four-cell limits;
+the fixed TYPE label remains a four-cell FONT8 consumer. CTRL ranks are three
+FONT8 cells, AUTO command values and party alignments are seven cells, and the
+two alignment axes use editable one-cell labels. Whole dynamic readout widths
+remain explicitly unknown until their render slots are measured.
 
 ## Implementation plan
 
@@ -212,9 +233,12 @@ row or raster geometry. Unmeasured facility widths remain explicit `null`s.
 4. **In progress:** establish the shared human authoring view and import only
    translations and useful notes from the mature corpus. Item, equipment,
    field-message, location, demon, race, affinity, magic, skill, all 15
-   negotiation-style, facility, and SAVE/LOAD slices are complete. SHOPSMP's
-   763 physical pages bind to 595 shared authored lines without copying exact
-   PSP text; its seven PSP-only tutorial lines remain explicit additions.
+   negotiation-style, facility, SAVE/LOAD, character, profile-entry, and
+   status-consumer slices are complete. SHOPSMP's 763 physical pages bind to 595 shared authored lines
+   without copying exact PSP text; its seven PSP-only tutorial lines remain
+   explicit additions. The six shared character rows likewise need no PSP
+   copies, and all 19 physical profile-entry records retain exact semantic
+   bindings, including the three deliberate same-source forks.
 5. Produce complete encoding coverage and capacity reports for both discs.
 6. Finalize output encodings and deterministic full-corpus dictionary groups.
 7. Implement one atomic text repack; partial dictionary builds remain

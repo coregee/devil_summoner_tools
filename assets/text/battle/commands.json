@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "kind": "entity_catalog",
+  "entries": {
+    "sword": {
+      "name": {
+        "reference": "SWORD",
+        "translation": "SWORD"
+      }
+    },
+    "attack": {
+      "name": {
+        "reference": "ATTACK",
+        "translation": "ATTACK"
+      }
+    },
+    "gun": {
+      "name": {
+        "reference": "GUN",
+        "translation": "GUN"
+      }
+    },
+    "guard": {
+      "name": {
+        "reference": "GUARD",
+        "translation": "GUARD"
+      }
+    },
+    "go": {
+      "name": {
+        "reference": "GO",
+        "translation": "GO"
+      }
+    },
+    "offense": {
+      "name": {
+        "reference": "OFFENSE",
+        "translation": "OFFENSE"
+      }
+    },
+    "defense": {
+      "name": {
+        "reference": "DEFENSE",
+        "translation": "DEFENSE"
+      }
+    }
+  }
+}

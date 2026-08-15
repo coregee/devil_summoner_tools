@@ -230,7 +230,7 @@
       "path": "NORMCOM.BIN",
       "size": 352360,
       "stock_sha256": "983d84ad48c0a497715633c0d2e380743c52e4b1644422ed027ac27e52a2aa9a",
-      "owned_sha256": "c055e60ca90d4a8faa3cbbe03284db1060ff757e36226d30a6caf35a2eff445b"
+      "owned_sha256": "7ad9b7de9b6ba73ecba3619097385dc2f2e5a4a22d030f431e7c508e9cb4ce55"
     },
     "normhelp_dat": {
       "path": "NORMHELP.DAT",
@@ -2289,6 +2289,138 @@
           }
         ],
         "records": []
+      }
+    },
+    {
+      "id": "normcom_status_ascii",
+      "corpus": "addressed/normcom_status_ascii.json",
+      "container": {
+        "type": "addressed",
+        "file": "normcom_bin",
+        "default_source_encoding": "ascii",
+        "tables": [],
+        "records": [
+          {
+            "name": "experience",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x132dc", "units": 4}]}]
+          },
+          {
+            "name": "level",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x135b0", "units": 4}]}]
+          },
+          {
+            "name": "personality_type",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x13de8", "units": 8}]}]
+          },
+          {
+            "name": "hit_points",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x14298", "units": 4}]}]
+          },
+          {
+            "name": "magic_points",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x142a4", "units": 4}]}]
+          },
+          {
+            "name": "control_first",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x15da0", "units": 4}]}]
+          },
+          {
+            "name": "control_second",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x15da4", "units": 4}]}]
+          },
+          {
+            "name": "control_third",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x15da8", "units": 4}]}]
+          },
+          {
+            "name": "control_fourth",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x15dac", "units": 4}]}]
+          },
+          {
+            "name": "control_error",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x15db0", "units": 4}]}]
+          },
+          {
+            "name": "control",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x15de4", "units": 6}]}]
+          },
+          {
+            "name": "next_experience",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x15fc4", "units": 8}]}]
+          },
+          {
+            "name": "summon_cost",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x15fcc", "units": 4}]}]
+          },
+          {
+            "name": "alignment_law",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x16574", "units": 4}]}]
+          },
+          {
+            "name": "alignment_neutral",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x16578", "units": 8}]}]
+          },
+          {
+            "name": "alignment_chaos",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x16580", "units": 8}]}]
+          },
+          {
+            "name": "command_sword",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x16594", "units": 8}]}]
+          },
+          {
+            "name": "command_attack",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x1659c", "units": 8}]}]
+          },
+          {
+            "name": "command_gun",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x165a4", "units": 4}]}]
+          },
+          {
+            "name": "command_guard",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x165a8", "units": 8}]}]
+          },
+          {
+            "name": "command_go",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x165b0", "units": 4}]}]
+          },
+          {
+            "name": "command_offense",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x165b4", "units": 8}]}]
+          },
+          {
+            "name": "command_defense",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x165bc", "units": 8}]}]
+          },
+          {
+            "name": "auto",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0x165c4", "units": 6}]}]
+          }
+        ]
       }
     },
     {

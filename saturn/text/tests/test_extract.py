@@ -30,9 +30,9 @@ class GameInventoryTests(unittest.TestCase):
         cls.batch = extract.build_batch("game")
 
     def test_complete_inventory_snapshot(self) -> None:
-        self.assertEqual(self.batch.source_count, 55)
-        self.assertEqual(self.batch.record_count, 15_704)
-        self.assertEqual(len(self.batch.rendered), 55)
+        self.assertEqual(self.batch.source_count, 56)
+        self.assertEqual(self.batch.record_count, 15_728)
+        self.assertEqual(len(self.batch.rendered), 56)
         self.assertEqual(
             {path.as_posix() for path in self.batch.composed_files},
             {"LOAD.BIN", "SAVE.BIN"},
@@ -48,7 +48,7 @@ class GameInventoryTests(unittest.TestCase):
         self.assertEqual(
             sum("/eve/" in f"/{path.as_posix()}" for path in self.batch.rendered), 21
         )
-        self.assertEqual(sum(row_id.startswith("game.") for row_id in ids), 15_704)
+        self.assertEqual(sum(row_id.startswith("game.") for row_id in ids), 15_728)
 
         eve_rows = [
             row
@@ -57,7 +57,7 @@ class GameInventoryTests(unittest.TestCase):
             for row in json.loads(rendered)
         ]
         self.assertEqual(len(eve_rows), 12_711)
-        self.assertEqual(len(rows) - len(eve_rows), 2_993)
+        self.assertEqual(len(rows) - len(eve_rows), 3_017)
         self.assertGreater(sum("{GLYPH:" in row["reference"] for row in rows), 0)
         self.assertGreater(sum("{OP:" in row["reference"] for row in rows), 0)
         self.assertFalse(any("{OP:8002}" in row["reference"] for row in rows))
@@ -163,11 +163,17 @@ class GameInventoryTests(unittest.TestCase):
         healing = json.loads(
             self.batch.rendered[PurePosixPath("addressed/event_healing.json")]
         )
+        status_ascii = json.loads(
+            self.batch.rendered[
+                PurePosixPath("addressed/normcom_status_ascii.json")
+            ]
+        )
 
         self.assertEqual(len(affinities), 66)
         self.assertEqual(len(results), 2)
         self.assertEqual(len(event_bar), 22)
         self.assertEqual(len(healing), 1)
+        self.assertEqual(len(status_ascii), 24)
         self.assertEqual(affinities[0]["reference"], "ミラー")
         self.assertEqual(affinities[-1]["reference"], "破・呪無効")
         self.assertEqual(len({row["id"] for row in affinities}), 66)
@@ -184,6 +190,38 @@ class GameInventoryTests(unittest.TestCase):
         self.assertEqual(
             healing[0]["source_encoding"],
             "game_font16_index_u8",
+        )
+        self.assertEqual(
+            [row["reference"] for row in status_ascii],
+            [
+                "EXP",
+                "LV",
+                "TYPE",
+                "HP",
+                "MP",
+                "1ST",
+                "2ND",
+                "3RD",
+                "4TH",
+                "ERR",
+                "CTRL",
+                "NEXT",
+                "CP",
+                "LAW",
+                "NEUTRAL",
+                "CHAOS",
+                "SWORD",
+                "ATTACK",
+                "GUN",
+                "GUARD",
+                "GO",
+                "OFFENSE",
+                "DEFENSE",
+                "AUTO",
+            ],
+        )
+        self.assertTrue(
+            all(row["source_encoding"] == "ascii" for row in status_ascii)
         )
 
         manifest = load_manifest(manifest_path("game"))
@@ -237,6 +275,40 @@ class GameInventoryTests(unittest.TestCase):
             [0x168F7, 0x168F9, 0x168FB, 0x168FD, 0x168BB, 0x168FF, 0x168DB],
         )
         self.assertTrue(all(span["units"] == 1 for span in healing_spans))
+
+        status_fields = {}
+        for record in sources["normcom_status_ascii"]["records"]:
+            span = record["locations"][0]["spans"][0]
+            status_fields[int(span["offset"], 16)] = span["units"]
+        self.assertEqual(
+            status_fields,
+            {
+                0x132DC: 4,
+                0x135B0: 4,
+                0x13DE8: 8,
+                0x14298: 4,
+                0x142A4: 4,
+                0x15DA0: 4,
+                0x15DA4: 4,
+                0x15DA8: 4,
+                0x15DAC: 4,
+                0x15DB0: 4,
+                0x15DE4: 6,
+                0x15FC4: 8,
+                0x15FCC: 4,
+                0x16574: 4,
+                0x16578: 8,
+                0x16580: 8,
+                0x16594: 8,
+                0x1659C: 8,
+                0x165A4: 4,
+                0x165A8: 8,
+                0x165B0: 4,
+                0x165B4: 8,
+                0x165BC: 8,
+                0x165C4: 6,
+            },
+        )
 
     def test_checked_corpus_is_current(self) -> None:
         extract.publish_batch(

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "asset": "battle/commands.json",
+  "records": {
+    "game.normcom_status_ascii.o016594": "sword.name",
+    "game.normcom_status_ascii.o01659c": "attack.name",
+    "game.normcom_status_ascii.o0165a4": "gun.name",
+    "game.normcom_status_ascii.o0165a8": "guard.name",
+    "game.normcom_status_ascii.o0165b0": "go.name",
+    "game.normcom_status_ascii.o0165b4": "offense.name",
+    "game.normcom_status_ascii.o0165bc": "defense.name"
+  },
+  "field_surfaces": {
+    "name": ["status.auto_command"]
+  }
+}

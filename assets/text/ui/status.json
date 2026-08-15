@@ -1,0 +1,295 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "strength": {
+      "text": {
+        "reference": "力",
+        "translation": "St"
+      }
+    },
+    "intelligence": {
+      "text": {
+        "reference": "知",
+        "translation": "In"
+      }
+    },
+    "magic": {
+      "text": {
+        "reference": "魔",
+        "translation": "Ma"
+      }
+    },
+    "vitality": {
+      "text": {
+        "reference": "耐",
+        "translation": "Vi"
+      }
+    },
+    "agility": {
+      "text": {
+        "reference": "速",
+        "translation": "Ag"
+      }
+    },
+    "luck": {
+      "text": {
+        "reference": "運",
+        "translation": "Lu"
+      }
+    },
+    "sword_attack": {
+      "text": {
+        "reference": "剣攻撃力",
+        "translation": "Swd Atk"
+      }
+    },
+    "sword_accuracy": {
+      "text": {
+        "reference": "剣命中力",
+        "translation": "Swd Acc"
+      }
+    },
+    "gun_attack": {
+      "text": {
+        "reference": "銃攻撃力",
+        "translation": "Gun Atk"
+      }
+    },
+    "gun_accuracy": {
+      "text": {
+        "reference": "銃命中力",
+        "translation": "Gun Acc"
+      }
+    },
+    "defense": {
+      "text": {
+        "reference": "防衛力",
+        "translation": "Def"
+      }
+    },
+    "evasion": {
+      "text": {
+        "reference": "回避力",
+        "translation": "Eva"
+      }
+    },
+    "magic_power": {
+      "text": {
+        "reference": "魔法威力",
+        "translation": "Mag Pwr"
+      }
+    },
+    "magic_defense": {
+      "text": {
+        "reference": "魔法防衛",
+        "translation": "Mag Efc"
+      }
+    },
+    "attack": {
+      "text": {
+        "reference": "攻撃力",
+        "translation": "Attack"
+      }
+    },
+    "accuracy": {
+      "text": {
+        "reference": "命中力",
+        "translation": "Accuracy"
+      }
+    },
+    "loyalty": {
+      "placeholders": {
+        "loyalty": "number"
+      },
+      "text": {
+        "reference": "忠誠度 {loyalty}",
+        "translation": "Loyalty {loyalty}"
+      }
+    },
+    "personality_type": {
+      "placeholders": {
+        "personality": "personality_label"
+      },
+      "text": {
+        "reference": "TYPE {personality}",
+        "translation": "TYPE {personality}",
+        "note": "The Saturn status screen composes this fixed Latin prefix with the selected localized personality value."
+      }
+    },
+    "personality_sturdy": {
+      "text": {
+        "reference": "剛健",
+        "translation": "Sturdy"
+      }
+    },
+    "personality_fierce": {
+      "text": {
+        "reference": "凶暴",
+        "translation": "Fierce"
+      }
+    },
+    "personality_impatient": {
+      "text": {
+        "reference": "短気",
+        "translation": "Impatient"
+      }
+    },
+    "personality_sly": {
+      "text": {
+        "reference": "狡猾",
+        "translation": "Sly"
+      }
+    },
+    "personality_prideful": {
+      "text": {
+        "reference": "高慢",
+        "translation": "Prideful"
+      }
+    },
+    "personality_gentle": {
+      "text": {
+        "reference": "温順",
+        "translation": "Gentle"
+      }
+    },
+    "personality_cowardly": {
+      "text": {
+        "reference": "臆病",
+        "translation": "Cowardly"
+      }
+    },
+    "personality_calm": {
+      "text": {
+        "reference": "冷静",
+        "translation": "Calm"
+      }
+    },
+    "personality_cautious": {
+      "text": {
+        "reference": "慎重",
+        "translation": "Cautious"
+      }
+    },
+    "personality_impartial": {
+      "text": {
+        "reference": "虚心",
+        "translation": "Impartial"
+      }
+    },
+    "level": {
+      "placeholders": {
+        "level": "number"
+      },
+      "text": {
+        "reference": "LV {level}",
+        "translation": "LV {level}"
+      }
+    },
+    "hit_points": {
+      "placeholders": {
+        "current_hp": "number",
+        "maximum_hp": "number"
+      },
+      "text": {
+        "reference": "HP {current_hp}/{maximum_hp}",
+        "translation": "HP {current_hp}/{maximum_hp}"
+      }
+    },
+    "magic_points": {
+      "placeholders": {
+        "current_mp": "number",
+        "maximum_mp": "number"
+      },
+      "text": {
+        "reference": "MP {current_mp}/{maximum_mp}",
+        "translation": "MP {current_mp}/{maximum_mp}"
+      }
+    },
+    "experience": {
+      "placeholders": {
+        "experience": "number"
+      },
+      "text": {
+        "reference": "EXP {experience}",
+        "translation": "EXP {experience}"
+      }
+    },
+    "next_experience": {
+      "placeholders": {
+        "experience_to_next": "number"
+      },
+      "text": {
+        "reference": "NEXT {experience_to_next}",
+        "translation": "NEXT {experience_to_next}"
+      }
+    },
+    "summon_cost": {
+      "placeholders": {
+        "summon_cost": "number"
+      },
+      "text": {
+        "reference": "CP {summon_cost}",
+        "translation": "CP {summon_cost}"
+      }
+    },
+    "auto_setting": {
+      "placeholders": {
+        "command": "battle_command"
+      },
+      "text": {
+        "reference": "AUTO {command}",
+        "translation": "AUTO {command}"
+      }
+    },
+    "party_alignment": {
+      "placeholders": {
+        "alignment": "alignment_label"
+      },
+      "text": {
+        "reference": "P.A. {alignment}",
+        "translation": "P.A. {alignment}"
+      }
+    },
+    "control": {
+      "placeholders": {
+        "rank": "control_rank"
+      },
+      "text": {
+        "reference": "CTRL {rank}",
+        "translation": "CTRL {rank}"
+      }
+    },
+    "control_first": {
+      "text": {
+        "reference": "1ST",
+        "translation": "1ST"
+      }
+    },
+    "control_second": {
+      "text": {
+        "reference": "2ND",
+        "translation": "2ND"
+      }
+    },
+    "control_third": {
+      "text": {
+        "reference": "3RD",
+        "translation": "3RD"
+      }
+    },
+    "control_fourth": {
+      "text": {
+        "reference": "4TH",
+        "translation": "4TH"
+      }
+    },
+    "control_error": {
+      "text": {
+        "reference": "ERR",
+        "translation": "ERR",
+        "note": "Fallback label selected when the control-order value is outside the four valid ranks."
+      }
+    }
+  }
+}

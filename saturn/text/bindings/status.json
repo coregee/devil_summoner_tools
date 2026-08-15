@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "asset": "ui/status.json",
+  "records": {
+    "game.normcom_status_ascii.o0132dc": "experience.text",
+    "game.normcom_status_ascii.o0135b0": "level.text",
+    "game.normcom_status_ascii.o013de8": "personality_type.text",
+    "game.normcom_status_ascii.o014298": "hit_points.text",
+    "game.normcom_status_ascii.o0142a4": "magic_points.text",
+    "game.normcom_status_ascii.o015da0": "control_first.text",
+    "game.normcom_status_ascii.o015da4": "control_second.text",
+    "game.normcom_status_ascii.o015da8": "control_third.text",
+    "game.normcom_status_ascii.o015dac": "control_fourth.text",
+    "game.normcom_status_ascii.o015db0": "control_error.text",
+    "game.normcom_status_ascii.o015de4": "control.text",
+    "game.normcom_status_ascii.o015fc4": "next_experience.text",
+    "game.normcom_status_ascii.o015fcc": "summon_cost.text",
+    "game.normcom_status_ascii.o0165c4": "auto_setting.text"
+  },
+  "composition": {
+    "game.normcom_status_ascii.o0132dc": {
+      "source_role": "prefix",
+      "supplies": ["experience"]
+    },
+    "game.normcom_status_ascii.o0135b0": {
+      "source_role": "prefix",
+      "supplies": ["level"]
+    },
+    "game.normcom_status_ascii.o013de8": {
+      "source_role": "prefix",
+      "supplies": ["personality"]
+    },
+    "game.normcom_status_ascii.o014298": {
+      "source_role": "prefix",
+      "supplies": ["current_hp", "maximum_hp"]
+    },
+    "game.normcom_status_ascii.o0142a4": {
+      "source_role": "prefix",
+      "supplies": ["current_mp", "maximum_mp"]
+    },
+    "game.normcom_status_ascii.o015de4": {
+      "source_role": "prefix",
+      "supplies": ["rank"]
+    },
+    "game.normcom_status_ascii.o015fc4": {
+      "source_role": "prefix",
+      "supplies": ["experience_to_next"]
+    },
+    "game.normcom_status_ascii.o015fcc": {
+      "source_role": "prefix",
+      "supplies": ["summon_cost"]
+    },
+    "game.normcom_status_ascii.o0165c4": {
+      "source_role": "prefix",
+      "supplies": ["command"]
+    }
+  },
+  "record_surfaces": {
+    "game.normcom_status_ascii.o0132dc": ["status.numeric_readout"],
+    "game.normcom_status_ascii.o0135b0": ["status.numeric_readout"],
+    "game.normcom_status_ascii.o013de8": ["status.personality_row"],
+    "game.normcom_status_ascii.o014298": ["status.numeric_readout"],
+    "game.normcom_status_ascii.o0142a4": ["status.numeric_readout"],
+    "game.normcom_status_ascii.o015da0": ["status.control_rank"],
+    "game.normcom_status_ascii.o015da4": ["status.control_rank"],
+    "game.normcom_status_ascii.o015da8": ["status.control_rank"],
+    "game.normcom_status_ascii.o015dac": ["status.control_rank"],
+    "game.normcom_status_ascii.o015db0": ["status.control_rank"],
+    "game.normcom_status_ascii.o015de4": ["status.control"],
+    "game.normcom_status_ascii.o015fc4": ["status.numeric_readout"],
+    "game.normcom_status_ascii.o015fcc": ["status.numeric_readout"],
+    "game.normcom_status_ascii.o0165c4": ["status.auto_setting"]
+  }
+}

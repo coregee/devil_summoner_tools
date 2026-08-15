@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "asset": "characters.json",
+  "records": {
+    "game.charname.o000000.text": "hajime_tanigawa.name",
+    "game.charname.o000008.text": "rei_reiho.name",
+    "game.charname.o000010.text": "kyouji_kuzunoha.name",
+    "game.charname.o000018.text": "taro_tanigawa.name",
+    "game.charname.o000020.text": "jiro_tanigawa.name",
+    "game.charname.o000028.text": "saburo_tanigawa.name"
+  },
+  "field_surfaces": {
+    "name": [
+      "event.dialogue",
+      "party.character_name",
+      "status.character_name",
+      "level_up.character_name",
+      "fusion.table_character_name",
+      "shop.character_name",
+      "bar.status_name",
+      "healer.member_name",
+      "battle.result_name"
+    ]
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "prompt_first": {
+      "text": {
+        "reference": "あなたの氏名は？",
+        "translation": "First name?"
+      }
+    },
+    "prompt_last": {
+      "text": {
+        "reference": "あなたの氏名は？",
+        "translation": "Last name?"
+      }
+    },
+    "prompt_codename": {
+      "text": {
+        "reference": "コードネームは？",
+        "translation": "Codename?"
+      }
+    },
+    "prompt_city": {
+      "text": {
+        "reference": "あなたの住所は？",
+        "translation": "City?"
+      }
+    },
+    "prompt_ward": {
+      "text": {
+        "reference": "あなたの住所は？",
+        "translation": "Ward?"
+      }
+    },
+    "prompt_confirm": {
+      "text": {
+        "reference": "これでいいですか？",
+        "translation": "All OK?"
+      }
+    },
+    "label_yes": {
+      "text": {
+        "reference": "YES",
+        "translation": "YES"
+      }
+    },
+    "label_no": {
+      "text": {
+        "reference": "NO",
+        "translation": "NO"
+      }
+    },
+    "prompt_occupation": {
+      "text": {
+        "reference": "あなたの職業は？",
+        "translation": "Occupation"
+      }
+    },
+    "label_occupation": {
+      "text": {
+        "reference": "あなたの職業は？",
+        "translation": "Occupation"
+      }
+    },
+    "tab_upper": {
+      "text": {
+        "reference": "漢字",
+        "translation": "UPPER"
+      }
+    },
+    "tab_lower": {
+      "text": {
+        "reference": "ひらがな",
+        "translation": "lower"
+      }
+    },
+    "tab_symbol": {
+      "text": {
+        "reference": "英字数字",
+        "translation": "SYMBOL"
+      }
+    },
+    "occupation_employee": {
+      "text": {
+        "reference": "会社員",
+        "translation": "Employee"
+      }
+    },
+    "occupation_student": {
+      "text": {
+        "reference": "学生",
+        "translation": "Student"
+      }
+    },
+    "occupation_official": {
+      "text": {
+        "reference": "公務員",
+        "translation": "Civil Servant"
+      }
+    },
+    "occupation_part_time": {
+      "text": {
+        "reference": "バイト",
+        "translation": "Part-time"
+      }
+    },
+    "occupation_business": {
+      "text": {
+        "reference": "自営業",
+        "translation": "Self-employed"
+      }
+    },
+    "occupation_jobless": {
+      "text": {
+        "reference": "無職",
+        "translation": "Unemployed"
+      }
+    },
+    "grid_upper_row_1": {
+      "text": {
+        "reference": "ABCDEFGHIJKLM",
+        "translation": "ABCDEFGHIJKLM",
+        "note": "English replacement input-grid content."
+      }
+    },
+    "grid_upper_row_2": {
+      "text": {
+        "reference": "NOPQRSTUVWXYZ",
+        "translation": "NOPQRSTUVWXYZ",
+        "note": "English replacement input-grid content."
+      }
+    },
+    "grid_lower_row_1": {
+      "text": {
+        "reference": "abcdefghijklm",
+        "translation": "abcdefghijklm",
+        "note": "English replacement input-grid content."
+      }
+    },
+    "grid_lower_row_2": {
+      "text": {
+        "reference": "nopqrstuvwxyz",
+        "translation": "nopqrstuvwxyz",
+        "note": "English replacement input-grid content."
+      }
+    },
+    "grid_symbol_row_1": {
+      "text": {
+        "reference": "0123456789.,'",
+        "translation": "0123456789.,'",
+        "note": "English replacement input-grid content."
+      }
+    },
+    "grid_symbol_row_2": {
+      "text": {
+        "reference": "-!?/&: ",
+        "translation": "-!?/&: ",
+        "note": "The final space is a selectable blank input cell."
+      }
+    },
+    "default_city": {
+      "text": {
+        "reference": "平崎",
+        "translation": "Hirasaki",
+        "note": "Initial city value."
+      }
+    },
+    "default_ward": {
+      "text": {
+        "reference": "朝日",
+        "translation": "Asahi",
+        "note": "Initial ward value."
+      }
+    },
+    "grid_end": {
+      "text": {
+        "reference": "END",
+        "translation": "END",
+        "note": "Visible command glyph used to accept the current input field."
+      }
+    }
+  }
+}

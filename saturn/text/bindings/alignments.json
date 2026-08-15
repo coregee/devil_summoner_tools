@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "asset": "terminology/alignments.json",
+  "records": {
+    "game.normcom_status_ascii.o016574": "law.party_label",
+    "game.normcom_status_ascii.o016578": "neutral.party_label",
+    "game.normcom_status_ascii.o016580": "chaos.party_label"
+  },
+  "field_surfaces": {
+    "party_label": ["status.party_alignment_value"]
+  }
+}
