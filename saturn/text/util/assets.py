@@ -12,7 +12,7 @@ from types import MappingProxyType
 from typing import Any
 
 from .surfaces import load_surfaces
-from .tokens import Named, Raw, parse_tokens, valid_name
+from .tokens import Named, Raw, Text, format_tokens, parse_tokens, valid_name
 
 TEXT_ROOT = Path(__file__).resolve().parent.parent
 PROJECT_ROOT = TEXT_ROOT.parents[1]
@@ -23,11 +23,11 @@ CORPUS_ROOT = TEXT_ROOT / "corpus"
 _IDENTIFIER_RE = re.compile(r"[a-z][a-z0-9_]*\Z")
 _ASSET_REF_RE = re.compile(r"([a-z][a-z0-9_]*)\.([a-z][a-z0-9_]*)\Z")
 _LAYOUT_TOKENS = frozenset({"n", "NL"})
-_PRESENTATION_GLYPHS = frozenset({"maru_symbol"})
+_SOURCE_ONLY_GLYPHS = frozenset({"maru_symbol"})
+_AUTHORED_SYMBOLS = frozenset({"mag_symbol", "yen_symbol"})
 _CONTROL_TOKENS = frozenset({"WAIT", "BEAT"})
 _PLACEHOLDER_TYPES = frozenset(
     {
-        "currency_symbol",
         "display_value",
         "formatted_currency_amount",
         "item_name",
@@ -100,7 +100,7 @@ def _functional_tokens(value: str) -> Counter[tuple[str, str, int]]:
         ("named", token.name, 0)
         for token in parse_tokens(value)
         if isinstance(token, Named)
-        and token.name not in _LAYOUT_TOKENS | _PRESENTATION_GLYPHS
+        and token.name not in _LAYOUT_TOKENS | _SOURCE_ONLY_GLYPHS
     ) + Counter(
         ("op", f"{token.value:x}", token.width)
         for token in parse_tokens(value)
@@ -114,7 +114,12 @@ def _placeholder_tokens(value: str) -> Counter[str]:
         for token in parse_tokens(value)
         if isinstance(token, Named)
         and token.name
-        not in _LAYOUT_TOKENS | _PRESENTATION_GLYPHS | _CONTROL_TOKENS
+        not in (
+            _LAYOUT_TOKENS
+            | _SOURCE_ONLY_GLYPHS
+            | _AUTHORED_SYMBOLS
+            | _CONTROL_TOKENS
+        )
     )
 
 
@@ -181,11 +186,19 @@ class Composition:
 
 
 @dataclass(frozen=True, slots=True)
+class AdditionalUse:
+    asset_ref: str
+    variant: str | None
+    composition: Composition | None
+
+
+@dataclass(frozen=True, slots=True)
 class AssetBinding:
     asset: PurePosixPath
     records: Mapping[str, str]
     variants: Mapping[str, str]
     composition: Mapping[str, Composition]
+    additional_uses: Mapping[str, tuple[AdditionalUse, ...]]
     reference_normalization: str | None
     glyph_equivalence: Mapping[str, str]
     field_surfaces: Mapping[str, tuple[str, ...]]
@@ -417,6 +430,7 @@ def load_binding(
         optional={
             "variants",
             "composition",
+            "additional_uses",
             "reference_normalization",
             "glyph_equivalence",
             "field_surfaces",
@@ -450,27 +464,23 @@ def load_binding(
         catalog.field(records[physical_id]).resolve(variant_name)
         variants[physical_id] = variant_name
 
-    composition: dict[str, Composition] = {}
-    for physical_id, raw_composition in _object(
-        document.get("composition", {}), f"{path}.composition"
-    ).items():
-        if physical_id not in records:
-            raise ValueError(f"{path}: composition describes an unbound record")
-        value = _object(raw_composition, f"{path}.composition.{physical_id}")
-        _fields(value, {"source_role", "supplies"}, f"{path}.composition.{physical_id}")
+    def load_composition(
+        raw_composition: Any,
+        context: str,
+        asset_ref: str,
+    ) -> Composition:
+        value = _object(raw_composition, context)
+        _fields(value, {"source_role", "supplies"}, context)
         if value["source_role"] != "suffix":
             raise ValueError(f"{path}: only proven suffix composition is supported")
         if not isinstance(value["supplies"], list) or not value["supplies"]:
-            raise ValueError(
-                f"{path}.composition.{physical_id}.supplies must be a list"
-            )
+            raise ValueError(f"{context}.supplies must be a list")
         supplies = tuple(
-            _identifier(item, f"{path}.composition.{physical_id}.supplies")
+            _identifier(item, f"{context}.supplies")
             for item in value["supplies"]
         )
         if len(supplies) != len(set(supplies)):
             raise ValueError(f"{path}: composition supplies duplicate placeholders")
-        asset_ref = records[physical_id]
         match = _ASSET_REF_RE.fullmatch(asset_ref)
         assert match is not None
         entry = catalog.entries[match.group(1)]
@@ -478,7 +488,59 @@ def load_binding(
             raise ValueError(
                 f"{path}: composition supplies do not match asset placeholders"
             )
-        composition[physical_id] = Composition("suffix", supplies)
+        return Composition("suffix", supplies)
+
+    composition: dict[str, Composition] = {}
+    for physical_id, raw_composition in _object(
+        document.get("composition", {}), f"{path}.composition"
+    ).items():
+        if physical_id not in records:
+            raise ValueError(f"{path}: composition describes an unbound record")
+        composition[physical_id] = load_composition(
+            raw_composition,
+            f"{path}.composition.{physical_id}",
+            records[physical_id],
+        )
+
+    additional_uses: dict[str, tuple[AdditionalUse, ...]] = {}
+    for physical_id, raw_uses in _object(
+        document.get("additional_uses", {}), f"{path}.additional_uses"
+    ).items():
+        if physical_id not in records:
+            raise ValueError(f"{path}: additional use describes an unbound record")
+        if not isinstance(raw_uses, list) or not raw_uses:
+            raise ValueError(f"{path}.additional_uses.{physical_id} must be a list")
+        uses: list[AdditionalUse] = []
+        selectors: set[tuple[str, str | None]] = set()
+        for index, raw_use in enumerate(raw_uses):
+            context = f"{path}.additional_uses.{physical_id}[{index}]"
+            use = _object(raw_use, context)
+            _fields(use, {"asset"}, context, optional={"variant", "composition"})
+            asset_ref = use["asset"]
+            if not isinstance(asset_ref, str):
+                raise ValueError(f"{context}.asset must be an asset reference")
+            field = catalog.field(asset_ref)
+            variant = use.get("variant")
+            if variant is not None:
+                variant = _identifier(variant, f"{context}.variant")
+                field.resolve(variant)
+            selector = (asset_ref, variant)
+            if selector == (records[physical_id], variants.get(physical_id)):
+                raise ValueError(f"{context} duplicates the primary record use")
+            if selector in selectors:
+                raise ValueError(f"{context} duplicates another additional use")
+            selectors.add(selector)
+            use_composition = (
+                load_composition(
+                    use["composition"],
+                    f"{context}.composition",
+                    asset_ref,
+                )
+                if "composition" in use
+                else None
+            )
+            uses.append(AdditionalUse(asset_ref, variant, use_composition))
+        additional_uses[physical_id] = tuple(uses)
 
     reference_normalization = document.get("reference_normalization")
     if reference_normalization not in {None, "layout_blank"}:
@@ -501,6 +563,10 @@ def load_binding(
     field_surfaces: dict[str, tuple[str, ...]] = {}
     bound_fields = {
         asset_ref.rsplit(".", 1)[1] for asset_ref in records.values()
+    } | {
+        use.asset_ref.rsplit(".", 1)[1]
+        for uses in additional_uses.values()
+        for use in uses
     }
     surface_catalog = load_surfaces()
     for field_name, raw_surfaces in _object(
@@ -553,6 +619,19 @@ def load_binding(
         else physical_records
     )
     unused_glyphs = set(glyph_equivalence)
+
+    def normalize_glyphs(value: str) -> str:
+        tokens = []
+        for token in parse_tokens(value):
+            if isinstance(token, Raw) and token.kind == "GLYPH" and token.width == 2:
+                code = f"{token.value:04x}"
+                if code in glyph_equivalence:
+                    unused_glyphs.discard(code)
+                    tokens.append(Text(glyph_equivalence[code]))
+                    continue
+            tokens.append(token)
+        return format_tokens(tokens)
+
     for physical_id, asset_ref in records.items():
         try:
             physical_reference = physical[physical_id]
@@ -563,18 +642,13 @@ def load_binding(
         reference, _translation, _reviewed = catalog.field(asset_ref).resolve(
             variants.get(physical_id)
         )
-        normalized_reference = physical_reference
-        for code, character in glyph_equivalence.items():
-            token = f"{{GLYPH:{code}}}"
-            if token in normalized_reference:
-                unused_glyphs.discard(code)
-                normalized_reference = normalized_reference.replace(token, character)
+        normalized_reference = normalize_glyphs(physical_reference)
         if reference_normalization == "layout_blank":
             visible_source = physical_reference.replace("{n}", "").strip()
             if not visible_source:
                 normalized_reference = ""
         if physical_id in composition:
-            if not physical_reference or not reference.endswith(physical_reference):
+            if not normalized_reference or not reference.endswith(normalized_reference):
                 raise ValueError(
                     f"{path}: composed record {physical_id!r} is not a suffix of "
                     f"{asset_ref!r}"
@@ -583,6 +657,24 @@ def load_binding(
             raise ValueError(
                 f"{path}: {physical_id!r} reference does not match {asset_ref!r}"
             )
+
+        for use in additional_uses.get(physical_id, ()):
+            use_reference, _translation, _reviewed = catalog.field(
+                use.asset_ref
+            ).resolve(use.variant)
+            if use.composition is not None:
+                if not normalized_reference or not use_reference.endswith(
+                    normalized_reference
+                ):
+                    raise ValueError(
+                        f"{path}: additional use {physical_id!r} is not a suffix "
+                        f"of {use.asset_ref!r}"
+                    )
+            elif normalized_reference != use_reference:
+                raise ValueError(
+                    f"{path}: additional use {physical_id!r} does not match "
+                    f"{use.asset_ref!r}"
+                )
 
     if unused_glyphs:
         raise ValueError(
@@ -594,6 +686,7 @@ def load_binding(
         MappingProxyType(records),
         MappingProxyType(variants),
         MappingProxyType(composition),
+        MappingProxyType(additional_uses),
         reference_normalization,
         MappingProxyType(glyph_equivalence),
         MappingProxyType(field_surfaces),

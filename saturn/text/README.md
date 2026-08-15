@@ -69,27 +69,37 @@ explicit addressed spans. The generated corpus contains 15,704 records: 12,711
 text-bearing EVE pages and 2,993 other records. All 144 physical dungeon-location
 rows remain distinct instead of collapsing to 24 repeated Japanese strings.
 
-The consumer audit added four physically grounded groups that the earlier
-source registry omitted: all 66 independently indexed Combat Analyze affinity
-slots, two padded combat-result labels, 16 EVENT drink names, six Talk-role
-labels, and one healing all-members label. Equal compact-affinity values remain
-distinct physical records, just like repeated dungeon-location rows; semantic
-assets may explicitly share them later. The healing label is assembled from the
-seven FONT16 glyph-index bytes consumed by its code-immediate renderer.
+The consumer audit added four physically grounded source groups containing five
+record families that the earlier registry omitted: all 66 independently
+indexed Combat Analyze affinity slots, two padded combat-result labels, 16
+EVENT drink names and six Talk-role labels from one EVENT bar group, and one
+healing all-members label.
+Equal compact-affinity values remain distinct physical records, just like
+repeated dungeon-location rows; semantic assets may explicitly share them
+later. The healing label is assembled from the seven FONT16 glyph-index bytes
+consumed by its code-immediate renderer.
+
+The MAZE suffix at `0x251dc` has three proved consumers: successful item
+acquisition, yen acquisition, and magnetite acquisition. The two currency paths
+prefix source glyph `0x00c0` (yen) or `0x00c1` (magnetite), then the formatted
+amount, before appending the shared suffix. Its authored binding therefore fans
+out to separate item, yen, and magnetite templates instead of assigning prose
+or symbol choice to runtime code.
 
 The compendium manifest covers the 292 physical `DVL_*.DAT` profile files as
 one repeated fixed-record source. Each file contributes origin, summary, and
-detail fields from its exact text tail, producing 876 records in one generated
-catalogue. Tail-only identity checks allow future profile-image changes in the
-same files while still failing on any changed text byte.
+detail fields from its exact text tail. A second source covers the independently
+rendered 319-name table proved at `A_DIC.BIN` offset `0x5d9b0`. Together they
+produce 1,195 records in two generated catalogues. Tail-only identity checks
+allow future profile-image changes in the DVL files while still failing on any
+changed text byte.
 
-`A_DIC.BIN` remains outside the manifest. Read-only discovery proves five fixed
-sections containing 319 demon names, 48 race labels, 255 magic names, 48
-race-description layouts, and 11 fusion-help rows. Of those 681 physical rows,
-574 substantially duplicate game catalogues; the description layouts also mix
-labels, prose, and an unexplained marker, while adjacent regions are lookup or
-executable data. Those sections will get a focused inventory rather than being
-folded speculatively into the profile source.
+Other `A_DIC.BIN` sections remain outside the manifest. Read-only discovery
+proves 48 race labels, 255 magic names, 48 race-description layouts, and 11
+fusion-help rows. The description layouts mix labels, prose, and an unexplained
+marker, while adjacent regions are lookup or executable data. Those sections
+will get focused inventories rather than being folded speculatively into the
+profile source.
 
 `corpus/<disc>/` is a generated physical catalogue. Its file grouping is not an
 authoring interface. Mature translations are imported only into the shared
@@ -182,11 +192,11 @@ English limits remain unknown until their translated renderers are measured.
    and reusable source decoders.
 2. **Complete:** extract the complete game-disc text inventory with a new
    physical-ID contract and no content deduplication.
-3. **Complete:** add all 292 compendium profiles and begin evidence-only
-   discovery of the mixed `A_DIC.BIN` sections.
+3. **Complete:** add all 292 compendium profiles and the proved 319-name
+   `A_DIC.BIN` table, while keeping other mixed sections evidence-only.
 4. **In progress:** establish the shared human authoring view and import only
-   translations and useful notes from the mature corpus. The item, equipment,
-   and field-message vertical slice is complete.
+   translations and useful notes from the mature corpus. Item, equipment,
+   field-message, demon-name, and Compendium-profile slices are complete.
 5. Produce complete encoding coverage and capacity reports for both discs.
 6. Finalize output encodings and deterministic full-corpus dictionary groups.
 7. Implement one atomic text repack; partial dictionary builds remain
@@ -203,4 +213,5 @@ generated output.
 The new package intentionally does not inherit the mature format-class tree,
 global semantic registry, per-page hash manifests, automatic Japanese-text
 deduplication, migration wrappers, capability graph, browser editor, or mature
-test hierarchy. The focused local tests cover the new extraction contract only.
+test hierarchy. Focused local tests cover extraction, authored assets and
+bindings, and surface contracts.

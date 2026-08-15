@@ -28,7 +28,6 @@
     "game.maze_messages.o0251dc": {
       "source_role": "suffix",
       "supplies": [
-        "currency_symbol",
         "currency_amount"
       ]
     },
@@ -44,6 +43,29 @@
         "item"
       ]
     }
+  },
+  "additional_uses": {
+    "game.maze_messages.o0251dc": [
+      {
+        "asset": "item_obtained.text",
+        "composition": {
+          "source_role": "suffix",
+          "supplies": [
+            "item"
+          ]
+        }
+      },
+      {
+        "asset": "currency_obtained.text",
+        "variant": "magnetite",
+        "composition": {
+          "source_role": "suffix",
+          "supplies": [
+            "currency_amount"
+          ]
+        }
+      }
+    ]
   },
   "field_surfaces": {
     "text": [

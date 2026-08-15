@@ -51,15 +51,30 @@
     },
     "currency_obtained": {
       "placeholders": {
-        "currency_symbol": "currency_symbol",
         "currency_amount": "formatted_currency_amount"
       },
       "text": {
-        "reference": "{currency_symbol}{currency_amount}を手に入れた",
-        "translation": "Obtained {currency_symbol}{currency_amount}."
+        "reference": "{yen_symbol}{currency_amount}を手に入れた",
+        "translation": "Obtained {yen_symbol}{currency_amount}.",
+        "variants": {
+          "magnetite": {
+            "reference": "{mag_symbol}{currency_amount}を手に入れた",
+            "translation": "Obtained {mag_symbol}{currency_amount}."
+          }
+        }
+      }
+    },
+    "item_obtained": {
+      "placeholders": {
+        "item": "item_name"
+      },
+      "text": {
+        "reference": "{item}を手に入れた",
+        "translation": "Obtained {item}."
       }
     },
     "item_full": {
+      "note": "Deliberately avoids the literal '{item} is full' construction, which reads unnaturally for item names such as Medicine.",
       "placeholders": {
         "item": "item_name"
       },
@@ -109,4 +124,3 @@
     }
   }
 }
-

@@ -85,6 +85,36 @@ class SurfaceCatalogTests(unittest.TestCase):
         self.assertIsNone(fusion_help_ja.width.unit)
         self.assertIsNone(fusion_help_ja.width.value)
 
+    def test_demon_surface_slots_are_recorded_without_guessed_limits(self) -> None:
+        known_font_rows = {
+            "battle.party_demon_name": ("font8", 1),
+            "battle.analyze_demon_name": ("font8", 1),
+            "comp.party_demon_name": ("font8", 1),
+            "comp.stock_demon_name": ("font8", 1),
+            "status.demon_name": ("font16", 1),
+        }
+        for name, expected in known_font_rows.items():
+            with self.subTest(surface=name):
+                surface = self.catalog.surface(name)
+                self.assertEqual((surface.ja.font, surface.ja.rows), expected)
+                self.assertFalse(surface.ja.width.known)
+                self.assertIsNone(surface.en.font)
+                self.assertIsNone(surface.en.rows)
+                self.assertFalse(surface.en.width.known)
+
+        for name in (
+            "compendium.profile_name",
+            "compendium.origin",
+            "compendium.summary",
+            "compendium.detail",
+        ):
+            with self.subTest(surface=name):
+                surface = self.catalog.surface(name)
+                for layout in (surface.ja, surface.en):
+                    self.assertIsNone(layout.font)
+                    self.assertIsNone(layout.rows)
+                    self.assertFalse(layout.width.known)
+
     def test_catalog_is_strict(self) -> None:
         unknown = {
             "font": None,

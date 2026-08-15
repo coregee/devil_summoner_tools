@@ -241,7 +241,15 @@ Along with having the existing "Someone is here, will you talk?" message prompts
 
 {item}を手に入れた
 {item}を見つけた
+{yen_symbol}{currency_amount}を手に入れた
+{mag_symbol}{currency_amount}を手に入れた
 etc.
+
+The yen and magnetite paths use distinct leading symbol glyphs before the
+formatted amount. Both currency paths and the successful item-acquisition path
+reuse the same stored `を手に入れた` suffix, but they are separate
+human-facing templates. The runtime selects the authored use and supplies the
+typed item or amount; it must not own the symbol or surrounding wording.
 
 Some may also appear briefly before an encounter transition, warning of an ambush or advantage.
 

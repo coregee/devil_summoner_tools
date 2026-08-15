@@ -73,6 +73,8 @@ different wording. Consumers must not silently truncate or derive these forms.
 System console fragments that do not belong to an entity remain with the
 console surface. Complete field messages such as `Obtained {item}.` remain with
 the field-message surface even when the original binary stores only a suffix.
+If one physical suffix is consumed by several runtime paths, the binding lists
+every semantic use; it does not force those messages into one authored string.
 
 Each text field keeps the readable `reference` beside its editable
 `translation`. Optional state is omitted when it carries no information:
@@ -104,6 +106,10 @@ editor without weakening source verification.
 A field uses one shared translation unless a real semantic or presentation
 difference requires a named variant. Platform differences in fonts, encodings,
 storage, and rendering do not by themselves create translation variants.
+Platform revisions of the reference text may select a reference-only variant
+while retaining the shared translation. Those variants remain visible review
+work when the revision changes meaning. Equivalent duplicate source glyphs are
+normalized only by an explicit binding rule, never inside the physical corpus.
 
 ## Templates and substitutions
 
@@ -112,6 +118,11 @@ placeholders in language-appropriate order. A platform binding explains how
 the game supplies those values. For example, a Saturn source may contain only
 `を手に入れた`, while the authored field is the complete
 `{item}を手に入れた` / `Obtained {item}.` template.
+
+Visible symbols and punctuation are authored too. The currency message, for
+example, has explicit yen and magnetite forms using `{yen_symbol}` and
+`{mag_symbol}` before `{currency_amount}`. Runtime supplies only the formatted
+amount; it does not choose or insert an unrecorded currency label.
 
 Reference and translation placeholder names and multiplicities must agree,
 including in every declared variant. When a placeholder has a bounded domain,
@@ -165,6 +176,8 @@ none of it is a runtime exemption. The current audit tracks:
 - character full/short name forms used directly by renderers;
 - status headings, personality terms, and fusion full/compact race labels;
 - Saturn dungeon/floor and Analyze-heading templates;
+- the mature Saturn MAZE hook, which currently collapses the distinct item
+  `Found` and `Obtained` call paths despite the retail call sites using both;
 - PSP save titles, difficulty labels, prompts, fallback labels, and detail
   templates;
 - the PSP first-VWF welcome line and content-locked name-entry labels/grids;
@@ -180,9 +193,10 @@ must eventually prove that every item in `consumers.md` has asset ownership.
 The physical Saturn corpus remains the extraction oracle while this authored
 layer is introduced. The first vertical slice joins equipment and items to
 their names, descriptions, console forms, and complete field-message templates.
-It is followed by demons and Compendium fields, then negotiation/facility
-fan-out and general dialogue once call-site evidence supports useful scene
-grouping.
+The demon catalogue now joins game and Akuma Zensho names with all Compendium
+profile fields, while retaining PSP-only entities and PSP reference revisions
+for later platform bindings. Negotiation/facility fan-out and general dialogue
+follow once call-site evidence supports useful scene grouping.
 
 After bindings cover the authored corpus, translations in the generated
 physical catalogue will be removed or generated from these assets. There must

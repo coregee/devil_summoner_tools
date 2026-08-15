@@ -34,7 +34,7 @@ class AuthoredAssetInventoryTests(unittest.TestCase):
     def test_entity_inventory_is_complete_and_semantic(self) -> None:
         self.assertEqual(len(self.equipment.entries), 208)
         self.assertEqual(len(self.items.entries), 73)
-        self.assertEqual(len(self.messages.entries), 15)
+        self.assertEqual(len(self.messages.entries), 16)
 
         for catalog in (self.equipment, self.items, self.messages):
             for key in catalog.entries:
@@ -201,18 +201,22 @@ class FieldTemplateTests(unittest.TestCase):
         obtained = self.messages.entries["currency_obtained"]
         self.assertEqual(
             dict(obtained.placeholders),
-            {
-                "currency_symbol": "currency_symbol",
-                "currency_amount": "formatted_currency_amount",
-            },
+            {"currency_amount": "formatted_currency_amount"},
         )
         self.assertEqual(
             obtained.fields["text"].reference,
-            "{currency_symbol}{currency_amount}を手に入れた",
+            "{yen_symbol}{currency_amount}を手に入れた",
         )
         self.assertEqual(
             obtained.fields["text"].translation,
-            "Obtained {currency_symbol}{currency_amount}.",
+            "Obtained {yen_symbol}{currency_amount}.",
+        )
+        self.assertEqual(
+            obtained.fields["text"].resolve("magnetite")[:2],
+            (
+                "{mag_symbol}{currency_amount}を手に入れた",
+                "Obtained {mag_symbol}{currency_amount}.",
+            ),
         )
 
         self.assertEqual(
@@ -220,8 +224,12 @@ class FieldTemplateTests(unittest.TestCase):
             "Found {item}.",
         )
         self.assertEqual(
+            self.messages.entries["item_obtained"].fields["text"].translation,
+            "Obtained {item}.",
+        )
+        self.assertEqual(
             self.messages.entries["item_full"].fields["text"].translation,
-            "{item} is full.",
+            "Cannot hold more {item}.",
         )
 
     def test_identical_suffixes_keep_separately_proven_domains(self) -> None:
@@ -242,7 +250,19 @@ class FieldTemplateTests(unittest.TestCase):
         )
         self.assertEqual(
             self.binding.composition["game.maze_messages.o0251dc"].supplies,
-            ("currency_symbol", "currency_amount"),
+            ("currency_amount",),
+        )
+        item_use = self.binding.additional_uses[
+            "game.maze_messages.o0251dc"
+        ]
+        self.assertEqual(len(item_use), 2)
+        self.assertEqual(item_use[0].asset_ref, "item_obtained.text")
+        self.assertIsNone(item_use[0].variant)
+        self.assertEqual(item_use[0].composition.supplies, ("item",))
+        self.assertEqual(item_use[1].asset_ref, "currency_obtained.text")
+        self.assertEqual(item_use[1].variant, "magnetite")
+        self.assertEqual(
+            item_use[1].composition.supplies, ("currency_amount",)
         )
         self.assertEqual(
             self.binding.field_surfaces,
@@ -394,6 +414,36 @@ class AssetSchemaTests(unittest.TestCase):
         }
         validate_asset_document(document)
 
+    def test_authored_currency_symbol_identity_is_required(self) -> None:
+        document = {
+            "version": 1,
+            "kind": "surface_catalog",
+            "entries": {
+                "money": {
+                    "placeholders": {
+                        "currency_amount": "formatted_currency_amount"
+                    },
+                    "text": {
+                        "reference": "{yen_symbol}{currency_amount}",
+                        "translation": "{yen_symbol}{currency_amount}",
+                    },
+                }
+            },
+        }
+        validate_asset_document(document)
+
+        document["entries"]["money"]["text"]["translation"] = (
+            "{currency_amount}"
+        )
+        with self.assertRaisesRegex(ValueError, "functional tokens differ"):
+            validate_asset_document(document)
+
+        document["entries"]["money"]["text"]["translation"] = (
+            "{mag_symbol}{currency_amount}"
+        )
+        with self.assertRaisesRegex(ValueError, "functional tokens differ"):
+            validate_asset_document(document)
+
     def test_uppercase_named_placeholder_can_be_declared(self) -> None:
         document = {
             "version": 1,
@@ -463,6 +513,134 @@ class AssetSchemaTests(unittest.TestCase):
             path.write_text(json.dumps(document), encoding="utf-8")
             with self.assertRaisesRegex(ValueError, "unknown text surface"):
                 load_binding(path, physical_records={})
+
+    def test_additional_use_fields_can_declare_surfaces(self) -> None:
+        asset_document = {
+            "version": 1,
+            "kind": "entity_catalog",
+            "entries": {
+                "thing": {
+                    "name": {"reference": "同", "translation": "Same"},
+                    "description": {
+                        "reference": "同",
+                        "translation": "Same",
+                    },
+                }
+            },
+        }
+        binding_document = {
+            "version": 1,
+            "asset": "thing.json",
+            "records": {"physical.same": "thing.name"},
+            "additional_uses": {
+                "physical.same": [{"asset": "thing.description"}]
+            },
+            "field_surfaces": {
+                "description": ["battle.result_name"]
+            },
+        }
+        with tempfile.TemporaryDirectory() as raw_directory:
+            root = Path(raw_directory)
+            (root / "thing.json").write_text(
+                json.dumps(asset_document), encoding="utf-8"
+            )
+            binding_path = root / "binding.json"
+            binding_path.write_text(
+                json.dumps(binding_document), encoding="utf-8"
+            )
+            binding = load_binding(
+                binding_path,
+                asset_root=root,
+                physical_records={"physical.same": "同"},
+            )
+        self.assertEqual(
+            binding.field_surfaces,
+            {"description": ("battle.result_name",)},
+        )
+
+    def test_glyph_equivalence_is_explicit_and_must_be_used(self) -> None:
+        reference = load_asset("demons.json").field(
+            "tyr.compendium_detail"
+        ).reference
+        physical_reference = reference.replace(
+            "Tuesday", "Tu{GLYPH:0026}sd{GLYPH:0029}y"
+        )
+        self.assertNotEqual(physical_reference, reference)
+        document = {
+            "version": 1,
+            "asset": "demons.json",
+            "records": {"physical.tyr": "tyr.compendium_detail"},
+            "glyph_equivalence": {"0026": "e", "0029": "a"},
+        }
+        with tempfile.TemporaryDirectory() as raw_directory:
+            path = Path(raw_directory) / "binding.json"
+            path.write_text(json.dumps(document), encoding="utf-8")
+            binding = load_binding(
+                path,
+                physical_records={"physical.tyr": physical_reference},
+            )
+            self.assertEqual(
+                dict(binding.glyph_equivalence), {"0026": "e", "0029": "a"}
+            )
+
+            document["glyph_equivalence"]["002d"] = "e"
+            path.write_text(json.dumps(document), encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "unused glyph equivalence"):
+                load_binding(
+                    path,
+                    physical_records={"physical.tyr": physical_reference},
+                )
+
+            document["glyph_equivalence"] = {"002A": "a"}
+            path.write_text(json.dumps(document), encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "lowercase four-digit hex"):
+                load_binding(
+                    path,
+                    physical_records={"physical.tyr": physical_reference},
+                )
+
+    def test_glyph_equivalence_does_not_rewrite_literal_token_text(self) -> None:
+        asset_document = {
+            "version": 1,
+            "kind": "surface_catalog",
+            "entries": {
+                "glyph": {
+                    "text": {"reference": "e", "translation": "e"}
+                },
+                "literal": {
+                    "text": {
+                        "reference": "{{GLYPH:0026}}",
+                        "translation": "{{GLYPH:0026}}",
+                    }
+                },
+            },
+        }
+        binding_document = {
+            "version": 1,
+            "asset": "literal.json",
+            "records": {
+                "physical.glyph": "glyph.text",
+                "physical.literal": "literal.text",
+            },
+            "glyph_equivalence": {"0026": "e"},
+        }
+        with tempfile.TemporaryDirectory() as raw_directory:
+            root = Path(raw_directory)
+            (root / "literal.json").write_text(
+                json.dumps(asset_document), encoding="utf-8"
+            )
+            binding_path = root / "binding.json"
+            binding_path.write_text(
+                json.dumps(binding_document), encoding="utf-8"
+            )
+            load_binding(
+                binding_path,
+                asset_root=root,
+                physical_records={
+                    "physical.glyph": "{GLYPH:0026}",
+                    "physical.literal": "{{GLYPH:0026}}",
+                },
+            )
 
     def test_boolean_versions_are_rejected(self) -> None:
         document = {
