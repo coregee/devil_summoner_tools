@@ -1,0 +1,586 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "line_0011": {
+      "text": {
+        "reference": "攻撃力：",
+        "translation": "Attack:"
+      }
+    },
+    "line_0012": {
+      "text": {
+        "reference": "命中：",
+        "translation": "Accuracy:"
+      }
+    },
+    "line_0013": {
+      "text": {
+        "reference": "防御力：",
+        "translation": "Defense:"
+      }
+    },
+    "line_0014": {
+      "text": {
+        "reference": "回避：",
+        "translation": "Evasion:"
+      }
+    },
+    "line_0015": {
+      "text": {
+        "reference": "追加効果：",
+        "translation": "Added Effect:"
+      }
+    },
+    "line_0016": {
+      "text": {
+        "reference": "装備時ステータス",
+        "translation": "Equipped Status"
+      }
+    },
+    "line_0017": {
+      "text": {
+        "reference": "性別：",
+        "translation": "Gender:"
+      }
+    },
+    "line_0018": {
+      "text": {
+        "reference": "アビリティUP",
+        "translation": "Ability Up"
+      }
+    },
+    "line_0019": {
+      "text": {
+        "reference": "力：",
+        "translation": "Strength:"
+      }
+    },
+    "line_0020": {
+      "text": {
+        "reference": "知：",
+        "translation": "Intelligence:"
+      }
+    },
+    "line_0021": {
+      "text": {
+        "reference": "魔：",
+        "translation": "Magic:"
+      }
+    },
+    "line_0022": {
+      "text": {
+        "reference": "耐：",
+        "translation": "Vitality:"
+      }
+    },
+    "line_0023": {
+      "text": {
+        "reference": "速：",
+        "translation": "Agility:"
+      }
+    },
+    "line_0024": {
+      "text": {
+        "reference": "運：",
+        "translation": "Luck:"
+      }
+    },
+    "line_0025": {
+      "text": {
+        "reference": "DEAD",
+        "translation": "DEAD"
+      }
+    },
+    "line_0026": {
+      "text": {
+        "reference": "UNDEAD",
+        "translation": "UNDEAD"
+      }
+    },
+    "line_0027": {
+      "text": {
+        "reference": "STONE",
+        "translation": "STONE"
+      }
+    },
+    "line_0028": {
+      "text": {
+        "reference": "PALYZE",
+        "translation": "PALYZE"
+      }
+    },
+    "line_0029": {
+      "text": {
+        "reference": "VAMP",
+        "translation": "VAMP"
+      }
+    },
+    "line_0030": {
+      "text": {
+        "reference": "MIRROR",
+        "translation": "MIRROR"
+      }
+    },
+    "line_0031": {
+      "text": {
+        "reference": "CARD",
+        "translation": "CARD"
+      }
+    },
+    "line_0032": {
+      "text": {
+        "reference": "CHARM",
+        "translation": "CHARM"
+      }
+    },
+    "line_0033": {
+      "text": {
+        "reference": "FREEZE",
+        "translation": "FREEZE"
+      }
+    },
+    "line_0034": {
+      "text": {
+        "reference": "SHOCK",
+        "translation": "SHOCK"
+      }
+    },
+    "line_0035": {
+      "text": {
+        "reference": "SLEEP",
+        "translation": "SLEEP"
+      }
+    },
+    "line_0036": {
+      "text": {
+        "reference": "BIND",
+        "translation": "BIND"
+      }
+    },
+    "line_0037": {
+      "text": {
+        "reference": "PANIC",
+        "translation": "PANIC"
+      }
+    },
+    "line_0038": {
+      "text": {
+        "reference": "HAPPY",
+        "translation": "HAPPY"
+      }
+    },
+    "line_0039": {
+      "text": {
+        "reference": "POISON",
+        "translation": "POISON"
+      }
+    },
+    "line_0040": {
+      "text": {
+        "reference": "CLOSE",
+        "translation": "MUTE"
+      }
+    },
+    "line_0041": {
+      "text": {
+        "reference": "CURSE",
+        "translation": "CURSE"
+      }
+    },
+    "line_0042": {
+      "text": {
+        "reference": "GOOD",
+        "translation": "GOOD"
+      }
+    },
+    "line_0043": {
+      "text": {
+        "reference": "{GLYPH:010d}{GLYPH:010d}{GLYPH:010d}{GLYPH:010d}{GLYPH:010d}{GLYPH:010d}",
+        "translation": "------"
+      }
+    },
+    "line_0044": {
+      "text": {
+        "reference": "男用",
+        "translation": "Male Only"
+      }
+    },
+    "line_0045": {
+      "text": {
+        "reference": "女用",
+        "translation": "Female Only"
+      }
+    },
+    "line_0046": {
+      "text": {
+        "reference": "男女両用",
+        "translation": "Unisex"
+      }
+    },
+    "line_0047": {
+      "text": {
+        "reference": "武器：",
+        "translation": "Weapon:"
+      }
+    },
+    "line_0048": {
+      "text": {
+        "reference": "防具：",
+        "translation": "Armor:"
+      }
+    },
+    "line_0338": {
+      "text": {
+        "reference": "・・・・・・・・",
+        "translation": "........"
+      }
+    },
+    "line_0339": {
+      "text": {
+        "reference": "なにかのアイテムです",
+        "translation": "Some kind of item."
+      }
+    },
+    "line_0340": {
+      "text": {
+        "reference": "とてもきちょうなアイテムです",
+        "translation": "A very valuable item."
+      }
+    },
+    "line_0341": {
+      "text": {
+        "reference": "とてもすてきなアイテムです",
+        "translation": "A very fine item."
+      }
+    },
+    "line_0342": {
+      "text": {
+        "reference": "あんまりよくないアイテムです",
+        "translation": "Not a very good item."
+      }
+    },
+    "line_0343": {
+      "text": {
+        "reference": "やたらといいものです",
+        "translation": "An exceptionally good item."
+      }
+    },
+    "line_0344": {
+      "text": {
+        "reference": "さいきょうのぶきです",
+        "translation": "The ultimate weapon."
+      }
+    },
+    "line_0345": {
+      "text": {
+        "reference": "たいしたものです",
+        "translation": "Impressive."
+      }
+    },
+    "line_0482": {
+      "placeholders": {
+        "item_name": "item_name"
+      },
+      "text": {
+        "reference": "これが、{item_name}だ。{n}持ってゆくがよい",
+        "translation": "This is {item_name}.{n}Take it with you."
+      }
+    },
+    "line_0483": {
+      "text": {
+        "reference": "＜注意！＞{n}現在装備中のアイテムの売却を入力",
+        "translation": "<WARNING!>{n}You selected an equipped item for sale."
+      }
+    },
+    "line_0484": {
+      "text": {
+        "reference": "＜個数未入力＞{n}←→で購入数を指定後、決定キーを入力",
+        "translation": "<NO QUANTITY>{n}Use Left/Right to choose an amount, then confirm."
+      }
+    },
+    "line_0485": {
+      "text": {
+        "reference": "＜対象未入力＞{n}←→で対象指定後、決定キーを入力",
+        "translation": "<NO TARGET>{n}Use Left/Right to choose a target, then confirm."
+      }
+    },
+    "line_0490": {
+      "text": {
+        "reference": "←→で購入数を指定後、決定キーを入力",
+        "translation": "Use Left/Right to choose an amount, then confirm."
+      }
+    },
+    "line_0500": {
+      "text": {
+        "reference": "商品を購入",
+        "translation": "Buy goods"
+      }
+    },
+    "line_0501": {
+      "text": {
+        "reference": "商品を売却",
+        "translation": "Sell goods"
+      }
+    },
+    "line_0502": {
+      "text": {
+        "reference": "新規装備／装備の変更",
+        "translation": "Equip or change equipment"
+      }
+    },
+    "line_0503": {
+      "text": {
+        "reference": "最高の攻撃力・防御力のアイテムを装備",
+        "translation": "Equip items with the highest Attack and Defense"
+      }
+    },
+    "line_0504": {
+      "text": {
+        "reference": "決定後部位を選択",
+        "translation": "Choose a body slot after confirming"
+      }
+    },
+    "line_0505": {
+      "text": {
+        "reference": "丸瀬：おまえ、葛葉か？{WAIT}{n}いっ生きていたのか…",
+        "translation": "Maruse: Are you Kuzunoha?{WAIT}{n}Y-You're alive..."
+      }
+    },
+    "line_0506": {
+      "text": {
+        "reference": "おまえに言うまでもないことだが、{n}ウチは、他じゃお目にかかれないものまで{n}扱っている。",
+        "translation": "You know this already, but{n}we carry things you won't find{n}anywhere else."
+      }
+    },
+    "line_0507": {
+      "text": {
+        "reference": "まあ、じっくり選んでいってくれ。",
+        "translation": "Take your time and choose carefully."
+      }
+    },
+    "line_0508": {
+      "text": {
+        "reference": "丸瀬：なんだ、葛葉か…。",
+        "translation": "Maruse: Oh, it's just you, Kuzunoha..."
+      }
+    },
+    "line_0509": {
+      "text": {
+        "reference": "丸瀬：じゃあ、またな。{n}なんか、めずらしい物が{n}手に入ったら、出しておくよ。",
+        "translation": "Maruse: See you around.{n}If I get anything unusual,{n}I'll put it out for you."
+      }
+    },
+    "line_0510": {
+      "text": {
+        "reference": "丸瀬：じゃあ、またな。{n}気をつけてな…。",
+        "translation": "Maruse: See you around.{n}Take care out there..."
+      }
+    },
+    "line_0511": {
+      "text": {
+        "reference": "丸瀬：いらっしゃいませ。{n}ウチは、数多くの物件を扱っております。",
+        "translation": "Maruse: Welcome.{n}We handle a wide range of properties."
+      }
+    },
+    "line_0512": {
+      "text": {
+        "reference": "新居をお求めの際には、{n}ぜひ我が丸瀬不動産へ。{WAIT}{n}…お待ちしてますよ。",
+        "translation": "If you're looking for a new home,{n}come to Maruse Real Estate.{WAIT}{n}...We'll be waiting."
+      }
+    },
+    "line_0513": {
+      "text": {
+        "reference": "グーフィー：いや～、{n}葛葉さんやおまへんかあ～。{n}なんや、生きてたんか～。",
+        "translation": "Goofy: Well, well,{n}if it isn't Mr. Kuzunoha!{n}So you're still alive!"
+      }
+    },
+    "line_0514": {
+      "text": {
+        "reference": "あんたは、最高のお得意様やからなあ～。{n}ところで、今日は何をお求めで。{WAIT}{n}まとめてドーンと買うて行ってや～！！",
+        "translation": "You're my very best customer, you know.{n}So, what'll it be today?{WAIT}{n}Buy a whole heap while you're here!!"
+      }
+    },
+    "line_0515": {
+      "text": {
+        "reference": "グーフィー：いや～、{n}これはこれは葛葉さん。",
+        "translation": "Goofy: Well, well,{n}Mr. Kuzunoha himself."
+      }
+    },
+    "line_0516": {
+      "text": {
+        "reference": "ウチの商品は、最高でっしゃろ？{n}ところで、今日は何をお求めで。",
+        "translation": "Our goods are the best, aren't they?{n}So, what'll it be today?"
+      }
+    },
+    "line_0517": {
+      "text": {
+        "reference": "グーフィー：おおきに。{WAIT}{n}たまに品ぞろえ変えるから、{n}ちょくちょく寄ってや～。",
+        "translation": "Goofy: Much obliged.{WAIT}{n}I change the stock now and then,{n}so come by often!"
+      }
+    },
+    "line_0518": {
+      "text": {
+        "reference": "グーフィー：おおきに。{n}また、どうぞ～。",
+        "translation": "Goofy: Much obliged.{n}Come again!"
+      }
+    },
+    "line_0519": {
+      "text": {
+        "reference": "店主：いや～、{n}よういらっしゃいましたなあ～！！{WAIT}{n}ところで、何をお求めで。",
+        "translation": "Shopkeeper: Well now,{n}welcome, welcome!!{WAIT}{n}So, what are you after?"
+      }
+    },
+    "line_0520": {
+      "text": {
+        "reference": "なに？違うんかあ？{n}それやったら、帰ってもらおか～！！",
+        "translation": "What? You're not him?{n}Then you'd better get out!!"
+      }
+    },
+    "line_0521": {
+      "text": {
+        "reference": "大佐：おお、ミスタ・キョウジ・クズノハ。{n}よく来たな。",
+        "translation": "Colonel: Ah, Mr. Kyouji Kuzunoha.{n}Good of you to come."
+      }
+    },
+    "line_0522": {
+      "text": {
+        "reference": "これは秘密の取り引きだ。手早く済ませよう{n}欲しいものを言ってくれ。",
+        "translation": "This is a secret deal. Let's make it quick.{n}Tell me what you want."
+      }
+    },
+    "line_0523": {
+      "text": {
+        "reference": "大佐：グッドラック。{n}ミスタ・キョウジ・クズノハ。",
+        "translation": "Colonel: Good luck,{n}Mr. Kyouji Kuzunoha."
+      }
+    },
+    "line_0524": {
+      "text": {
+        "reference": "大佐：なんだ、貴様は！！{n}ここは貴様のような者が、{n}のこのこと、立ち入る場所ではない！！",
+        "translation": "Colonel: Who the hell are you?!{n}This is no place for someone like you{n}to wander into!!"
+      }
+    },
+    "line_0525": {
+      "text": {
+        "reference": "さあ、早く出て行け！！",
+        "translation": "Now get out!!"
+      }
+    },
+    "line_0526": {
+      "text": {
+        "reference": "店主：いらっしゃい。{WAIT}{n}…あんた、葛葉なのか？{n}ひっ、なにもワシのところに出なくても…。",
+        "translation": "Shopkeeper: Welcome.{WAIT}{n}...Are you Kuzunoha?{n}Y-You didn't have to haunt my shop..."
+      }
+    },
+    "line_0527": {
+      "text": {
+        "reference": "ヴィクトルの所とか、{n}占いババアの所とか、{n}いろいろ、あるだろうが…。",
+        "translation": "You could've gone to Victor's place,{n}or that old fortune-teller's,{n}or plenty of other places..."
+      }
+    },
+    "line_0528": {
+      "text": {
+        "reference": "とにかく、成仏してくれよ！{WAIT}{n}…えっ、生きてる？{n}そうか、そうなのか…。",
+        "translation": "Please, just pass on!{WAIT}{n}...What, you're alive?{n}Oh. Is that right..."
+      }
+    },
+    "line_0529": {
+      "text": {
+        "reference": "…で、何を買ってくれるんだ？",
+        "translation": "...So, what are you buying?"
+      }
+    },
+    "line_0530": {
+      "text": {
+        "reference": "店主：いらっしゃい。{n}…今のご時勢、あんたぐらいだ。{n}うちの物を買ってくれるのは。",
+        "translation": "Shopkeeper: Welcome.{n}These days, you're about the only one{n}who still buys my wares."
+      }
+    },
+    "line_0531": {
+      "text": {
+        "reference": "今日は、何を持って行ってくれるんだ？",
+        "translation": "So, what will you take today?"
+      }
+    },
+    "line_0532": {
+      "text": {
+        "reference": "店主：うちの物の価値が分かるのは、{n}あんただけだ。{n}また、頼むよ。",
+        "translation": "Shopkeeper: You're the only one{n}who knows what my wares are worth.{n}I'm counting on you."
+      }
+    },
+    "line_0533": {
+      "text": {
+        "reference": "店主：また、持って行ってくれ。{n}頼んだよ。",
+        "translation": "Shopkeeper: Take something again soon.{n}I'm counting on you."
+      }
+    },
+    "line_0534": {
+      "text": {
+        "reference": "店主：いらっしゃい。{WAIT}{n}…なんか用かい？",
+        "translation": "Shopkeeper: Welcome.{WAIT}{n}...Need something?"
+      }
+    },
+    "line_0535": {
+      "text": {
+        "reference": "ここは、あんたみたいに若い人が{n}来るとこじゃないよ。{n}さあ、帰った、帰った。",
+        "translation": "This is no place for someone as young as you.{n}You should not be coming here.{n}Now go on, get out of here."
+      }
+    },
+    "line_0536": {
+      "text": {
+        "reference": "女主人：あら、いらっしゃい。{n}あたしゃ、アンタが死ぬ訳ないって{n}思ってたんだよ。",
+        "translation": "Proprietress: Oh, welcome.{n}I knew there was no way{n}you could have died."
+      }
+    },
+    "line_0537": {
+      "text": {
+        "reference": "また、いつものように買っておくれ。",
+        "translation": "Buy something, just like old times."
+      }
+    },
+    "line_0538": {
+      "text": {
+        "reference": "女主人：あら、いらっしゃい。",
+        "translation": "Proprietress: Oh, welcome."
+      }
+    },
+    "line_0539": {
+      "text": {
+        "reference": "いつも、すまないねぇ。",
+        "translation": "I always appreciate your business."
+      }
+    },
+    "line_0540": {
+      "text": {
+        "reference": "女主人：はい、ありがとうね。",
+        "translation": "Proprietress: Thank you."
+      }
+    },
+    "line_0541": {
+      "text": {
+        "reference": "女主人：いらっしゃいませ。{n}何を、お探し？",
+        "translation": "Proprietress: Welcome.{n}What are you looking for?"
+      }
+    },
+    "line_0542": {
+      "text": {
+        "reference": "あっ、そういうこと…{n}ムフフ…{n}若いって、いいわね。",
+        "translation": "Oh, so that's what you're after...{n}Heh heh heh...{n}Youth is a wonderful thing."
+      }
+    },
+    "line_0543": {
+      "text": {
+        "reference": "あら、何もいらないの？{n}そう…。",
+        "translation": "Oh, you don't need anything?{n}I see..."
+      }
+    },
+    "inventory_label": {
+      "text": {
+        "reference": "Inv.",
+        "translation": "Inv.",
+        "note": "Stock two-tile shop label reconstructed by the Saturn English renderer; it is authored here rather than in code."
+      }
+    }
+  }
+}

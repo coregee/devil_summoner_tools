@@ -44,14 +44,17 @@ Records are not deduplicated by content. Physical copies and the three deliberat
 `NAME.BIN` translation forks are declared explicitly in the source manifest.
 
 The generated corpus is binary evidence, not the translation editor. Assets
-are organised around entities and player-facing surfaces: the initial slice
-groups all 287 ITEMNAME rows into 208 equipment entities and 79 item slots. The
-item slots become 73 authored entries because the proven unused-reserve forms
-are explicitly shared. Each name and description stays with its entity, all 48
-physical battle-console forms bind to their item fields, and the MAZE field
-suffixes become complete typed templates. Saturn bindings retain exact physical
-grounding without putting file offsets or table indices into semantic asset
-identities.
+are organised around entities and player-facing surfaces. Item and equipment
+names, descriptions, and console forms stay with their entities; MAZE suffixes
+become complete typed field-message templates. The location slice similarly
+reduces 144 physical records to 24 explicitly bound places, while retaining
+three separately editable automap forms and complete floor/location templates.
+Seven additional save-screen places and the shared Mount Kasagi identity cover
+the eight special SAVE labels without duplicating them as save prose. The mixed
+SHOPSMP bank is partitioned by consumer: facilities, demon joining, debug UI,
+and the race catalogue own their lines independently of the parent file. Saturn
+bindings retain exact physical grounding without putting file offsets or table
+indices into semantic asset identities.
 
 ## Extraction
 
@@ -66,8 +69,13 @@ python -m unittest discover -s saturn/text/tests -v
 The game manifest covers 47 physical files and 55 source groups. Its four
 container types are EVE banks, pointer banks, fixed records with subfields, and
 explicit addressed spans. The generated corpus contains 15,704 records: 12,711
-text-bearing EVE pages and 2,993 other records. All 144 physical dungeon-location
-rows remain distinct instead of collapsing to 24 repeated Japanese strings.
+text-bearing EVE pages and 2,993 other records. All 144 dungeon-location rows
+remain distinct instead of collapsing to 24 repeated Japanese strings. Each
+row now verifies that its name bytes agree across the MAZE, AUTOMAP, SAVE, and
+LOAD tables; these four physical copies still produce one catalogue record.
+The additional landing and KAI map-data copies are output mirrors of the same
+semantic places, not new authored strings, and will target these assets when the
+engine repack is introduced.
 
 The consumer audit added four physically grounded source groups containing five
 record families that the earlier registry omitted: all 66 independently
@@ -88,17 +96,18 @@ or symbol choice to runtime code.
 
 The compendium manifest covers the 292 physical `DVL_*.DAT` profile files as
 one repeated fixed-record source. Each file contributes origin, summary, and
-detail fields from its exact text tail. Two focused `A_DIC.BIN` sources cover
-the independently rendered 319-demon-name table at `0x5d9b0` and the
-255-ability-name table at `0x69be4`. Together they produce 1,450 records in
-three generated catalogues. Tail-only identity checks allow future profile-image
-changes in the DVL files while still failing on any changed text byte.
+detail fields from its exact text tail. Three focused `A_DIC.BIN` sources cover
+the independently rendered 319-demon-name table at `0x5d9b0`, the
+255-ability-name table at `0x69be4`, and the 48 proved race-label records at
+`0x5eda0`. Together they produce 1,498 records in four generated catalogues.
+Tail-only identity checks allow future profile-image changes in the DVL files
+while still failing on any changed text byte.
 
 Other `A_DIC.BIN` sections remain outside the manifest. Read-only discovery
-proves 48 race labels, 48 race-description layouts, and 11 fusion-help rows.
-The description layouts mix labels, prose, and an unexplained marker, while
-adjacent regions are lookup or executable data. Those sections will get focused
-inventories rather than being folded speculatively into the profile source.
+proves 48 race-description layouts and 11 fusion-help rows. The description
+layouts mix labels, prose, and an unexplained marker, while adjacent regions are
+lookup or executable data. Those sections will get focused inventories rather
+than being folded speculatively into the profile source.
 
 `corpus/<disc>/` is a generated physical catalogue. Its file grouping is not an
 authoring interface. Mature translations are imported only into the shared
@@ -183,8 +192,13 @@ become a guessed constraint.
 
 The English event and battle-negotiation windows are separate consumers with
 the documented 300-pixel, three-row patch geometry. The battle console is fixed
-at 16 cells by three rows in both languages. Other English limits remain
-unknown until their translated renderers are measured.
+at 16 cells by three rows in both languages. Location contracts now distinguish
+the two-row 64-pixel 3D name, its 64-pixel floor row, the 112-pixel automap text
+after the runtime-owned marker icon, and the 144-pixel save/load label. Other
+English limits remain unknown until their translated renderers are measured.
+Facility contracts additionally distinguish the eight-cell bar and healer
+lists, two-row drink help, the shop's 16-pixel `Inv.` label, and known SAVE/LOAD
+row or raster geometry. Unmeasured facility widths remain explicit `null`s.
 
 ## Implementation plan
 
@@ -192,12 +206,15 @@ unknown until their translated renderers are measured.
    and reusable source decoders.
 2. **Complete:** extract the complete game-disc text inventory with a new
    physical-ID contract and no content deduplication.
-3. **Complete:** add all 292 compendium profiles and the proved 319-name
-   `A_DIC.BIN` table, while keeping other mixed sections evidence-only.
+3. **Complete:** add all 292 compendium profiles and the proved demon-name,
+   ability-name, and race-label `A_DIC.BIN` tables, while keeping other mixed
+   sections evidence-only.
 4. **In progress:** establish the shared human authoring view and import only
    translations and useful notes from the mature corpus. Item, equipment,
-   field-message, demon, magic, skill, and all 15 negotiation-style slices are
-   complete.
+   field-message, location, demon, race, affinity, magic, skill, all 15
+   negotiation-style, facility, and SAVE/LOAD slices are complete. SHOPSMP's
+   763 physical pages bind to 595 shared authored lines without copying exact
+   PSP text; its seven PSP-only tutorial lines remain explicit additions.
 5. Produce complete encoding coverage and capacity reports for both discs.
 6. Finalize output encodings and deterministic full-corpus dictionary groups.
 7. Implement one atomic text repack; partial dictionary builds remain

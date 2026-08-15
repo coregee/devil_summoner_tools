@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "race_heading": {
+      "placeholders": {
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "{race}:",
+        "translation": "{race}:"
+      }
+    }
+  }
+}

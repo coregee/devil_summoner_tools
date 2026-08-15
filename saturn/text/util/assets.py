@@ -31,11 +31,15 @@ _PLACEHOLDER_TYPES = frozenset(
         "character_name",
         "demon_name",
         "demon_race",
+        "difficulty_label",
         "display_value",
+        "drink_name",
         "formatted_currency_amount",
         "item_name",
+        "location_name",
         "number",
         "player_codename",
+        "player_name",
     }
 )
 _KINDS = frozenset({"entity_catalog", "surface_catalog"})

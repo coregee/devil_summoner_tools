@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "asset": "save_load.json",
+  "records": {
+    "game.save_static.o050760": "empty.text",
+    "game.save_static.o0508a4": "prompt_overwrite.text",
+    "game.save_static.o0508c6": "prompt_quit_game.text",
+    "game.save_static.o050658": "save_write_failure.text",
+    "game.save_static.o05076a": "save_capacity_error.text",
+    "game.save_static.o0508dc": "save_capacity_failure.text",
+    "game.load_static.o00b020": "start_without_save_warning.text",
+    "game.load_static.o00b0c0": "insufficient_free_space_instructions.text",
+    "game.load_static.o00b1be": "save_capacity_error.text",
+    "game.load_static.o00b1fe": "load_failure.text",
+    "game.load_capacity.o00b1ae": "capacity_number.text"
+  },
+  "record_surfaces": {
+    "game.save_static.o050760": [
+      "save_load.slot_state"
+    ],
+    "game.save_static.o0508a4": [
+      "save_load.prompt"
+    ],
+    "game.save_static.o0508c6": [
+      "save_load.prompt"
+    ],
+    "game.save_static.o050658": [
+      "save_load.message"
+    ],
+    "game.save_static.o05076a": [
+      "save_load.message"
+    ],
+    "game.save_static.o0508dc": [
+      "save_load.message"
+    ],
+    "game.load_static.o00b020": [
+      "save_load.message"
+    ],
+    "game.load_static.o00b0c0": [
+      "save_load.message"
+    ],
+    "game.load_static.o00b1be": [
+      "save_load.message"
+    ],
+    "game.load_static.o00b1fe": [
+      "save_load.message"
+    ],
+    "game.load_capacity.o00b1ae": [
+      "save_load.capacity"
+    ]
+  }
+}

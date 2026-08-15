@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "line_0356": {
+      "text": {
+        "reference": "MAG→金の交換",
+        "translation": "MAG to Cash"
+      }
+    },
+    "line_0357": {
+      "text": {
+        "reference": "金→MAGの交換",
+        "translation": "Cash to MAG"
+      }
+    },
+    "line_0486": {
+      "text": {
+        "reference": "{n}↑↓で交換数量を指定後、決定して下さい。",
+        "translation": "{n}Use Up/Down to choose the exchange amount, then confirm."
+      }
+    },
+    "line_0487": {
+      "text": {
+        "reference": "{n}そんなに交換しても持てないようですね…。",
+        "translation": "{n}You cannot carry that much after the exchange..."
+      }
+    },
+    "line_0488": {
+      "text": {
+        "reference": "{n}交換できるだけのMAGがないようですね。",
+        "translation": "{n}You do not have enough MAG for that exchange."
+      }
+    },
+    "line_0489": {
+      "text": {
+        "reference": "{n}交換できるだけのお金がないようですね。",
+        "translation": "{n}You do not have enough money for that exchange."
+      }
+    },
+    "line_0544": {
+      "text": {
+        "reference": "男：ようこそ、生体エナジー協会へ。",
+        "translation": "Man: Welcome to the Bioenergy Association."
+      }
+    },
+    "line_0545": {
+      "text": {
+        "reference": "おや、あなたは…{WAIT}{n}いいでしょう。",
+        "translation": "Oh, you are...{WAIT}{n}Very well."
+      }
+    },
+    "line_0546": {
+      "text": {
+        "reference": "ご用件を、うかがいましょう。",
+        "translation": "What can we do for you?"
+      }
+    },
+    "line_0547": {
+      "text": {
+        "reference": "男：くれぐれも、お気をつけて。{n}マグネタイトがなくなると、{n}悪魔は生きてゆけないのですから…。",
+        "translation": "Man: Please take great care.{n}Without Magnetite,{n}demons cannot survive..."
+      }
+    },
+    "line_0548": {
+      "text": {
+        "reference": "男：ようこそ、生体エナジー協会へ。",
+        "translation": "Man: Welcome to the Bioenergy Association."
+      }
+    },
+    "line_0549": {
+      "text": {
+        "reference": "また、お会いできて光栄です…。",
+        "translation": "It is an honor to see you again..."
+      }
+    },
+    "line_0550": {
+      "text": {
+        "reference": "ご用件を、うかがいましょうか。",
+        "translation": "What can we do for you today?"
+      }
+    },
+    "line_0551": {
+      "text": {
+        "reference": "男：また、お立ち寄り下さい。{n}お会いできる日を楽しみにしています…。",
+        "translation": "Man: Please stop by again.{n}I look forward to the day we meet again..."
+      }
+    },
+    "line_0552": {
+      "text": {
+        "reference": "男：ようこそ、生体エナジー協会へ。{WAIT}{n}わたくしどもの活動に、興味を持った方の{n}入会を、お待ちしているのですよ…。",
+        "translation": "Man: Welcome to the Bioenergy Association.{WAIT}{n}We are always eager to welcome those interested{n}in joining our activities..."
+      }
+    },
+    "line_0553": {
+      "text": {
+        "reference": "あなたも、入会希望の方ですか？{n}フフフフフ…。",
+        "translation": "Are you here to join us as well?{n}Heh heh heh heh..."
+      }
+    },
+    "line_0554": {
+      "text": {
+        "reference": "おや、金が足りないようですね…。",
+        "translation": "Oh, it seems you do not have enough money..."
+      }
+    },
+    "line_0555": {
+      "text": {
+        "reference": "おや、MAGが足りないようですね…。",
+        "translation": "Oh, it seems you do not have enough MAG..."
+      }
+    },
+    "line_0556": {
+      "text": {
+        "reference": "これ以上、金は持てないようですね…。",
+        "translation": "It seems you cannot carry any more money..."
+      }
+    },
+    "line_0557": {
+      "text": {
+        "reference": "これ以上、MAGは持てないようですね…。",
+        "translation": "It seems you cannot carry any more MAG..."
+      }
+    }
+  }
+}

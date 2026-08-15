@@ -1,0 +1,694 @@
+{
+  "version": 1,
+  "kind": "entity_catalog",
+  "entries": {
+    "line_0358": {
+      "text": {
+        "reference": "マスター：申し訳ありません。{n}まだ、準備中なんですよ。",
+        "translation": "Master: I am sorry.{n}We are still preparing to open."
+      }
+    },
+    "line_0359": {
+      "text": {
+        "reference": "いらっしゃいませ。",
+        "translation": "Welcome."
+      }
+    },
+    "line_0360": {
+      "text": {
+        "reference": "時間を気にすることなく、{n}どうぞ、ごゆっくり。",
+        "translation": "Please relax,{n}without worrying about the time."
+      }
+    },
+    "line_0361": {
+      "text": {
+        "reference": "ここは誰もが無邪気に話が出来る、{n}罪を背負うことのない場所ですから。",
+        "translation": "Everyone can speak freely here{n}without incurring any sin."
+      }
+    },
+    "line_0362": {
+      "text": {
+        "reference": "なんなんだ、あのバカデッカイ市庁舎は。{n}ゼイ金払ってる俺らの身にもなれってんだ。{n}そうだろう？",
+        "translation": "What is with that gigantic city hall?{n}Try thinking of us taxpayers for once.{n}Am I right?"
+      }
+    },
+    "line_0363": {
+      "text": {
+        "reference": "バーに入ったら、とりあえずは{n}オーダーするのが礼儀ってものよ。{n}私のおすすめはクールスライダーかな。",
+        "translation": "When you enter a bar, ordering something{n}is only polite. I recommend{n}the Cool Slider."
+      }
+    },
+    "line_0364": {
+      "text": {
+        "reference": "モーロックのコンサート楽しみだわ。{n}彼らは私の青春だったのよ。",
+        "translation": "I cannot wait for Morlock's concert.{n}They were the music of my youth."
+      }
+    },
+    "line_0365": {
+      "text": {
+        "reference": "おひさしぶりです。{n}時間を気にすることなく、{n}どうぞ、ごゆっくり。",
+        "translation": "It has been a while.{n}Please relax,{n}without worrying about the time."
+      }
+    },
+    "line_0366": {
+      "text": {
+        "reference": "新市庁舎って、まじでデカイ。{n}建物に、あれほど金かける必要あるのか？{n}ゼイ金払ってる俺らの身にもなれってんだ。",
+        "translation": "The new city hall is seriously huge.{n}Did they need to spend that much on it?{n}Try thinking of us taxpayers for once."
+      }
+    },
+    "line_0367": {
+      "text": {
+        "reference": "とは言うものの、もし自分が新市庁舎で{n}働いてたら、そんな不満もなくて、{n}すげえ鼻高々になってるんだろうな………",
+        "translation": "Then again, if I worked in the new city hall,{n}I would probably have no complaints{n}and be terribly proud of it..."
+      }
+    },
+    "line_0368": {
+      "text": {
+        "reference": "俺ってイヤ。",
+        "translation": "I hate that about myself."
+      }
+    },
+    "line_0369": {
+      "placeholders": {
+        "ward": "location_name"
+      },
+      "text": {
+        "reference": "カーサ乾に引っ越そうかしら。{n}環境いいんでしょ、{ward}区って。",
+        "translation": "Maybe I should move to Casa Inui.{n}I hear {ward} is a nice area."
+      }
+    },
+    "line_0370": {
+      "text": {
+        "reference": "今、無理して雲雀ヶ丘に部屋を借りて{n}いるんだけど、さらに値上がったのよ。{n}天堂家もあるし、なんとなくね……",
+        "translation": "I am stretching myself to rent in Hibarigaoka,{n}but the rent just went up again. And with the{n}Tendou family there, it has a certain appeal..."
+      }
+    },
+    "line_0371": {
+      "text": {
+        "reference": "日本古代文明論という学説は、かなり{n}危険なんですよ。内容を御存知ですか？",
+        "translation": "'Theories on Ancient Japanese Civilization'{n}is a dangerous doctrine. Do you know its claims?"
+      }
+    },
+    "line_0372": {
+      "text": {
+        "reference": "世間では異端扱いされていますが、{n}一度、書いた本人の吾妻教授から話を{n}聞いてみれば、その怖さがわかりますよ。",
+        "translation": "The world treats it as heresy,{n}but hear Professor Azuma explain it himself,{n}and you will understand why it is frightening."
+      }
+    },
+    "line_0373": {
+      "placeholders": {
+        "ward": "location_name"
+      },
+      "text": {
+        "reference": "{ward}区で家が爆発したそうですね。{n}やっぱり原因はガスでしょうか？",
+        "translation": "I heard a house exploded in {ward}.{n}Do you think it was a gas leak?"
+      }
+    },
+    "line_0374": {
+      "text": {
+        "reference": "季節がら、私たちも{n}気をつけないと、いけませんね。",
+        "translation": "Given the season, we should{n}be careful too."
+      }
+    },
+    "line_0375": {
+      "text": {
+        "reference": "あら、やっぱり生きてたのね。{n}死を偽装してまで、探偵さんが{n}追ってる事件て何かしら？",
+        "translation": "Oh, so you really are alive.{n}What case are you chasing that made you{n}fake your own death, Detective?"
+      }
+    },
+    "line_0376": {
+      "text": {
+        "reference": "例えば、大学の化物騒ぎ………",
+        "translation": "For example, that monster incident at the university..."
+      }
+    },
+    "line_0377": {
+      "text": {
+        "reference": "クス…、どうやら図星みたいね。{n}大丈夫よ、邪魔はしませんから。{n}それじゃ、がんばってね、探偵さん。",
+        "translation": "Heh... It seems I hit the mark.{n}Do not worry, I will not interfere.{n}Good luck, Detective."
+      }
+    },
+    "line_0378": {
+      "text": {
+        "reference": "大学のあたりが騒がしいようですが、{n}何か事件でも、あったのでしょうか？",
+        "translation": "Things seem noisy around the university.{n}Did something happen there?"
+      }
+    },
+    "line_0379": {
+      "text": {
+        "reference": "あら探偵さん、あなたも探し人？{n}吾妻教授ならシドという神父さんも{n}探していましたわよ。",
+        "translation": "Oh, Detective. Looking for someone too?{n}A priest named Sid was also{n}searching for Professor Azuma."
+      }
+    },
+    "line_0380": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "神父さんは、教授は{city}市の外に{n}いると、考えていたようでしたが{n}私はまだ大学の近辺にいると思います。",
+        "translation": "The priest seemed to think Professor Azuma was outside {city},{n}but I think he is still{n}near the university."
+      }
+    },
+    "line_0381": {
+      "text": {
+        "reference": "なんとかの元は暗しって言いますでしょ。{n}真実って、わりと単純だったりするのよね。",
+        "translation": "What is it they say? It is darkest under the lamp.{n}The truth can be surprisingly simple."
+      }
+    },
+    "line_0382": {
+      "text": {
+        "reference": "私も雲雀ヶ丘あたりに、{n}店をかまえてみたいものです。",
+        "translation": "I would love to open a shop{n}somewhere around Hibarigaoka."
+      }
+    },
+    "line_0383": {
+      "text": {
+        "reference": "でもそれって、遠い遠い{n}夢物語なのでしょうねぇ。ふう……{n}最近の土地の値上りには参りますよ。",
+        "translation": "But that must be a distant dream.{n}Sigh...{n}Land prices lately are unbearable."
+      }
+    },
+    "line_0384": {
+      "text": {
+        "reference": "カーサ乾に引っ越すのやめたわ。{n}私、幽霊とかの話、苦手なのよね。",
+        "translation": "I gave up on moving to Casa Inui.{n}I cannot stand stories about ghosts."
+      }
+    },
+    "line_0385": {
+      "text": {
+        "reference": "アパートでもいいから、心から休める{n}部屋が欲しいのよ。緑も欲しいから、{n}最近は笠置山のアパートを下見してるの。",
+        "translation": "Even an apartment would do, if I could truly relax.{n}I want greenery too, so lately I have been looking{n}at apartments on Mount Kasagi."
+      }
+    },
+    "line_0386": {
+      "text": {
+        "reference": "銃犯罪の裏には一部の{n}米軍兵士が、からんでいるらしい。{n}ネタの出どころは不明だがね。",
+        "translation": "Some US soldiers are apparently involved{n}in gun crime. I cannot vouch for the source."
+      }
+    },
+    "line_0387": {
+      "text": {
+        "reference": "近頃、治安が悪くなりましたね。{n}だからといって警察の方々に{n}文句を言って、どうにかなるとは……",
+        "translation": "Public safety has gotten worse lately.{n}But complaining to the police{n}hardly seems likely to help..."
+      }
+    },
+    "line_0388": {
+      "text": {
+        "reference": "警部さんは熱心な方なんですが、{n}あの人だけでは、どうにもこうにも……{n}ふう、困ったものです。",
+        "translation": "The inspector is dedicated,{n}but he cannot solve everything alone...{n}Sigh. What a mess."
+      }
+    },
+    "line_0389": {
+      "text": {
+        "reference": "かさぎ荘には何かがいるわね。{n}占い師なら、妖気があふれていて{n}危険だ、とでも言うのかしら？",
+        "translation": "Something is in Kasagi Manor.{n}A fortune-teller might call it a dangerous place{n}overflowing with demonic energy."
+      }
+    },
+    "line_0390": {
+      "text": {
+        "reference": "ともかく、あなたの出番なんでしょ？{n}ねぇ、探偵さん。",
+        "translation": "Anyway, this is where you come in, right?{n}Detective?"
+      }
+    },
+    "line_0391": {
+      "text": {
+        "reference": "アメリカではミサイルが誤って{n}発射されそうになったらしいですね。{n}近頃の米軍は何を考えているのやら……",
+        "translation": "I hear a missile was nearly launched{n}by mistake in America.{n}What is the US military thinking these days...?"
+      }
+    },
+    "line_0392": {
+      "text": {
+        "reference": "秦野家って旧家なんでしょう。{n}由緒ある家系って、うらやましいわ………",
+        "translation": "The Hatano family has a long lineage, right?{n}I envy people from such a distinguished family..."
+      }
+    },
+    "line_0393": {
+      "text": {
+        "reference": "べ、別にお金が欲しいんじゃないのよ。{n}なんか、お嬢様っていうだけで、{n}ロマンス感じちゃうのよ、ワタシ。",
+        "translation": "I-I am not after their money.{n}There is just something romantic{n}about being a young lady of a grand family."
+      }
+    },
+    "line_0394": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "{city}市長と天堂組の親分の間には、{n}交友関係があるらしい。{n}これは確かな情報ではないがね。",
+        "translation": "I hear the mayor of {city} is acquainted{n}with the boss of the Tendou Yakuza.{n}The information is not confirmed."
+      }
+    },
+    "line_0395": {
+      "text": {
+        "reference": "だが、市長は市議会員の操り人形だし、{n}なんらかの裏組織があることは、{n}十分、考えられることだな。",
+        "translation": "But the mayor is a city councillor's puppet,{n}so it is entirely plausible that{n}some organization is working behind the scenes."
+      }
+    },
+    "line_0396": {
+      "text": {
+        "reference": "市議会で決まった再開発計画は、{n}残念ながら進んでいるみたいですね。",
+        "translation": "Sadly, the redevelopment plan approved{n}by the city council seems to be moving ahead."
+      }
+    },
+    "line_0397": {
+      "text": {
+        "reference": "古いものには、古いなりの{n}価値があるということが、{n}議員さんには、わからないんでしょうか。",
+        "translation": "Do the council members not understand{n}that old things have{n}their own value?"
+      }
+    },
+    "line_0398": {
+      "text": {
+        "reference": "氷川神社の様子がおかしいわね。{n}あのスサノオを弱らせるほどの、{n}大きな力が働いているとしたら………",
+        "translation": "Something is wrong at Hikawa Shrine.{n}If a force powerful enough to weaken{n}even Susano-o is at work..."
+      }
+    },
+    "line_0399": {
+      "text": {
+        "reference": "今回の1件、かなり、やっかいな相手が{n}バックにいるのは間違いない。{n}そうでしょう、探偵さん？",
+        "translation": "There is no doubt that someone formidable{n}is behind this whole affair.{n}Would you not agree, Detective?"
+      }
+    },
+    "line_0400": {
+      "text": {
+        "reference": "再開発計画で空き地のままになっている、{n}笠置山の更地に幽霊が出たそうですよ。",
+        "translation": "They say a ghost appeared on the vacant lot{n}at Mount Kasagi, left empty by redevelopment."
+      }
+    },
+    "line_0401": {
+      "text": {
+        "reference": "かなりの人が見たそうですから、{n}あながち嘘だとは言えませんね。",
+        "translation": "So many people saw it that{n}we can't simply dismiss it as a lie."
+      }
+    },
+    "line_0402": {
+      "text": {
+        "reference": "あの新市庁舎を建てるとき、{n}かなりの裏金が動いたんだろうな。{n}まったく、ふざけた話だぜ。",
+        "translation": "A lot of money must've changed hands under the table{n}when they built New City Hall.{n}What a rotten business."
+      }
+    },
+    "line_0403": {
+      "text": {
+        "reference": "米軍から横流しされた武器が、{n}そろそろ市場に出回るころだな。",
+        "translation": "Weapons siphoned off from the US military{n}should be hitting the market about now."
+      }
+    },
+    "line_0404": {
+      "text": {
+        "reference": "バンソーコーの親父は、{n}うまいこと、やったのだろうか。",
+        "translation": "I wonder if that old guy with the Band-Aid{n}managed to pull it off."
+      }
+    },
+    "line_0405": {
+      "text": {
+        "reference": "氷川神社のお祭り、中止なのかしら？",
+        "translation": "Is the Hikawa Shrine festival canceled?"
+      }
+    },
+    "line_0406": {
+      "text": {
+        "reference": "何かトラブルがあったみたいなのよね。{n}楽しみにしていたのに残念だわ。",
+        "translation": "It sounds like there was some trouble.{n}What a shame. I was looking forward to it."
+      }
+    },
+    "line_0407": {
+      "text": {
+        "reference": "今度は警察署で騒動ですか………",
+        "translation": "Now there's trouble at the police station..."
+      }
+    },
+    "line_0408": {
+      "text": {
+        "reference": "最近、街全体に落ち着きがないように{n}思えてしまって……私も歳ですかね。",
+        "translation": "The whole city has felt restless lately...{n}Or maybe I'm just getting old."
+      }
+    },
+    "line_0409": {
+      "text": {
+        "reference": "よく、天堂家と警察の関わりが{n}噂されてたけど、どうやら{n}現実のものに、なってしまったようね。",
+        "translation": "People always whispered about ties between{n}the Tendou family and the police, but it seems{n}those rumors have become reality."
+      }
+    },
+    "line_0410": {
+      "text": {
+        "reference": "今、警察署に行けば、{n}裏の顔が見られるんでしょう？{n}ねぇ、探偵さん。",
+        "translation": "If you go to the police station now,{n}you'll see its hidden face, won't you?{n}Right, Mr. Detective?"
+      }
+    },
+    "line_0411": {
+      "text": {
+        "reference": "嫌な世の中ですね。{n}警察がダメなら、他に誰を信じれば{n}いいんでしょうか。",
+        "translation": "What an awful world.{n}If we can't trust the police,{n}who can we trust?"
+      }
+    },
+    "line_0412": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "まったく、警察の署長が天堂家と{n}つながっていたなんて世も末だぜ。{n}{city}市って、なんだかダークな所だな。",
+        "translation": "The police chief was tied to the Tendou family.{n}The world's really gone to hell.{n}{city} City sure is a dark place."
+      }
+    },
+    "line_0413": {
+      "text": {
+        "reference": "季節はずれの、おばけブームも{n}ようやく、おさまったみたいで{n}本当にほっとしたわ。",
+        "translation": "That out-of-season ghost craze{n}has finally died down.{n}What a relief."
+      }
+    },
+    "line_0414": {
+      "text": {
+        "reference": "嘘だとわかっていても怖いんですもの。{n}でも、ミキヤがTVに映ったのは、{n}本当に彼の幽霊かもしれないわね。",
+        "translation": "Even knowing it's fake doesn't make it less scary.{n}But Mikiya appearing on TV...{n}That may really have been his ghost."
+      }
+    },
+    "line_0415": {
+      "text": {
+        "reference": "たまには中華街に行ってみようかしら。{n}でもここみたいな、いいバーがないのよね。",
+        "translation": "Maybe I'll visit Chinatown for a change.{n}But they don't have a nice bar like this one."
+      }
+    },
+    "line_0416": {
+      "text": {
+        "reference": "ここしばらくの騒ぎで、{n}外出をひかえる人も、いるみたいですね。",
+        "translation": "All this recent trouble has made some people{n}afraid to go out, it seems."
+      }
+    },
+    "line_0417": {
+      "text": {
+        "reference": "ついに影の組織の中心部が動き始めたか。{n}最後の決戦は近い、そんな感じだな。",
+        "translation": "The shadow organization's inner circle is on the move.{n}Feels like the final battle is close."
+      }
+    },
+    "line_0418": {
+      "text": {
+        "reference": "よし、次の特集は決まった。{n}議員にピッタリ張りついて、{n}今度こそ特ダネをものにするぞ。",
+        "translation": "All right, my next feature is decided.{n}I'll stick to that councilman like glue{n}and finally land the scoop."
+      }
+    },
+    "line_0419": {
+      "text": {
+        "reference": "新市庁舎に不穏な動きがあるわ。{n}今までとは違う、恐ろしい何かがいるわね。",
+        "translation": "Something ominous is stirring at New City Hall.{n}Something terrible, unlike anything before."
+      }
+    },
+    "line_0420": {
+      "text": {
+        "reference": "今回も、あなたの出番なんでしょ？{n}ねぇ、探偵さん。",
+        "translation": "This is your cue again, isn't it?{n}Right, Mr. Detective?"
+      }
+    },
+    "line_0421": {
+      "placeholders": {
+        "drink_name": "drink_name"
+      },
+      "text": {
+        "reference": "＞{OP:8016}は{drink_name}を{n}飲んだ",
+        "translation": "> {OP:8016} drank {drink_name}"
+      }
+    },
+    "line_0422": {
+      "text": {
+        "reference": "＞お金が足りません",
+        "translation": "> Not enough money."
+      }
+    },
+    "line_0423": {
+      "text": {
+        "reference": "＞お酒を飲める状態ではありません",
+        "translation": "> You cannot drink right now."
+      }
+    },
+    "line_0424": {
+      "text": {
+        "reference": "飲み物をを注文",
+        "translation": "Order a drink"
+      }
+    },
+    "line_0425": {
+      "text": {
+        "reference": "周囲の人々と会話",
+        "translation": "Talk to the patrons"
+      }
+    },
+    "line_0426": {
+      "text": {
+        "reference": "STATUS表示",
+        "translation": "View STATUS"
+      }
+    },
+    "line_0427": {
+      "text": {
+        "reference": "マスター：何か用かい？",
+        "translation": "Master: Need something?"
+      }
+    },
+    "line_0428": {
+      "text": {
+        "reference": "OL：最近、怪しい人を見かけるのよ",
+        "translation": "Office Lady: I've seen someone suspicious lately."
+      }
+    },
+    "line_0429": {
+      "text": {
+        "reference": "若い女：何かおごってくださらなぁい",
+        "translation": "Young Woman: Won't you buy me a drink?"
+      }
+    },
+    "line_0430": {
+      "text": {
+        "reference": "いらっしゃいませ{WAIT}{n}どうぞこちらへ",
+        "translation": "Welcome.{WAIT}{n}Right this way."
+      }
+    },
+    "line_0431": {
+      "text": {
+        "reference": "何にいたしますか？",
+        "translation": "What will you have?"
+      }
+    },
+    "line_0432": {
+      "text": {
+        "reference": "またいらしてください",
+        "translation": "Please come again."
+      }
+    },
+    "line_0433": {
+      "text": {
+        "reference": "＞何を飲みますか？",
+        "translation": "> What will you drink?"
+      }
+    },
+    "line_0434": {
+      "text": {
+        "reference": "＞帰ることにした",
+        "translation": "> You decide to leave."
+      }
+    },
+    "line_0498": {
+      "text": {
+        "reference": "ドリンクを注文",
+        "translation": "Order a drink"
+      }
+    },
+    "line_0499": {
+      "text": {
+        "reference": "周囲の人々との会話",
+        "translation": "Talk to the patrons"
+      }
+    },
+    "crushed_ice": {
+      "name": {
+        "reference": "かちわりロック",
+        "translation": "Crushed Ice"
+      },
+      "description": {
+        "reference": "六甲のわき水でつくった氷と{n}ウイスキーが織りなす絶妙のハーモニー",
+        "translation": "Ice made with Mount Rokko spring water{n}and whisky in exquisite harmony"
+      }
+    },
+    "spark_mixer": {
+      "name": {
+        "reference": "スパークミクサー",
+        "translation": "Spark Mixer"
+      },
+      "description": {
+        "reference": "オクラホマからやってきた{n}陽気なアメリカンワイン",
+        "translation": "A cheerful American wine{n}all the way from Oklahoma"
+      }
+    },
+    "cool_slider": {
+      "name": {
+        "reference": "クールスライダー",
+        "translation": "Cool Slider"
+      },
+      "description": {
+        "reference": "湘南の風は僕らの子守歌{n}期間限定のさわやかな奴",
+        "translation": "The Shonan breeze is our lullaby{n}A refreshing seasonal special"
+      }
+    },
+    "karuko_wine": {
+      "name": {
+        "reference": "かるこざかワイン",
+        "translation": "Karuko Wine"
+      },
+      "description": {
+        "reference": "くつろぎのひとときを{n}オシャレに演出してはいかが？",
+        "translation": "Why not add a touch of style{n}to a moment of relaxation?"
+      }
+    },
+    "gin_bingara": {
+      "name": {
+        "reference": "ジン＆ビンガラ",
+        "translation": "Gin-Bingara"
+      },
+      "description": {
+        "reference": "疲れた精神をリフレッシュさせる{n}常習性のあるカクテル",
+        "translation": "An addictive cocktail{n}that refreshes a weary mind"
+      }
+    },
+    "natural_high": {
+      "name": {
+        "reference": "ナチュラルハイ",
+        "translation": "Natural High"
+      },
+      "description": {
+        "reference": "飲めばたちまち不思議な色彩に包まれる{n}危険な香りが魅力のしょうちゅう割り",
+        "translation": "A dangerously alluring shochu cocktail{n}that bathes you in strange colors"
+      }
+    },
+    "adrenal_pop": {
+      "name": {
+        "reference": "アドレナルソーダ",
+        "translation": "Adrenal Pop"
+      },
+      "description": {
+        "reference": "体内のアドレナリンの働きを増幅させる{n}真っ赤なアルコール飲料",
+        "translation": "A bright red alcoholic drink{n}that amplifies your adrenaline"
+      }
+    },
+    "megu_beer": {
+      "name": {
+        "reference": "メグスリビア",
+        "translation": "Megu Beer"
+      },
+      "description": {
+        "reference": "飲んだ者に安眠を約束する{n}ふしぎなビール",
+        "translation": "A mysterious beer{n}that promises its drinker a sound sleep"
+      }
+    },
+    "north_ethyl": {
+      "name": {
+        "reference": "ノーザンエチル",
+        "translation": "North Ethyl"
+      },
+      "description": {
+        "reference": "工業用としても使える便利なお酒{n}極寒の地方で愛飲される",
+        "translation": "A versatile liquor also used in industry,{n}beloved in the coldest regions"
+      }
+    },
+    "gum_syrup": {
+      "name": {
+        "reference": "ガムシロップ",
+        "translation": "Gum Syrup"
+      },
+      "description": {
+        "reference": "少々ねばり気のある甘いドリンク{n}コーヒーと混ぜてもおいしい",
+        "translation": "A thick, sweet drink{n}also delicious mixed with coffee"
+      }
+    },
+    "bio_liqueur": {
+      "name": {
+        "reference": "バイオリキュール",
+        "translation": "Bio Liqueur"
+      },
+      "description": {
+        "reference": "エメラルドグリーンの輝きが{n}グラスの中でかすかにうごめく",
+        "translation": "An emerald-green glow{n}writhes faintly within the glass"
+      }
+    },
+    "metamol_mix": {
+      "name": {
+        "reference": "メタモルトニック",
+        "translation": "Metamol Mix"
+      },
+      "description": {
+        "reference": "第3の目を覚醒させる{n}チベット生まれの秘酒",
+        "translation": "A secret Tibetan liquor{n}that awakens the third eye"
+      }
+    },
+    "ogre_juice": {
+      "name": {
+        "reference": "オーガスクイーズ",
+        "translation": "Ogre Juice"
+      },
+      "description": {
+        "reference": "鬼肉エキス入り{n}滋養強壮・病中病後の体力回復に",
+        "translation": "Contains ogre-meat extract{n}Restores strength during and after illness"
+      }
+    },
+    "neko_sake": {
+      "name": {
+        "reference": "せいしゅねこまた",
+        "translation": "Neko Sake"
+      },
+      "description": {
+        "reference": "ひだの山奥で年に1本だけ作られる{n}こだわりの逸品",
+        "translation": "Only one bottle is made each year{n}deep in the Hida mountains"
+      }
+    },
+    "mach_citron": {
+      "name": {
+        "reference": "マッハシトロン",
+        "translation": "Mach Citron"
+      },
+      "description": {
+        "reference": "世界のトップアスリートが絶賛{n}ひとくち飲むだけで風になれる",
+        "translation": "Acclaimed by the world's top athletes{n}One sip and you can become the wind"
+      }
+    },
+    "demon_water": {
+      "name": {
+        "reference": "デモンズミネラル",
+        "translation": "Demon Water"
+      },
+      "description": {
+        "reference": "悪魔の好む鉱物を{n}特別のリキュールに溶かした秘薬",
+        "translation": "A secret elixir made by dissolving a mineral{n}favored by demons in a special liqueur"
+      }
+    },
+    "master": {
+      "name": {
+        "reference": "マスター",
+        "translation": "Master"
+      }
+    },
+    "young_man": {
+      "name": {
+        "reference": "わかい おとこ",
+        "translation": "Young Man"
+      }
+    },
+    "white_lady": {
+      "name": {
+        "reference": "ホワイトレディ",
+        "translation": "White Lady"
+      }
+    },
+    "pair_in_back": {
+      "name": {
+        "reference": "おくの フタり",
+        "translation": "Pair in Back"
+      }
+    },
+    "young_lady": {
+      "name": {
+        "reference": "わかい おんな",
+        "translation": "Young Lady"
+      }
+    },
+    "corner_lady": {
+      "name": {
+        "reference": "すみの オンナ",
+        "translation": "Corner Lady"
+      }
+    }
+  }
+}

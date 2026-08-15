@@ -115,10 +115,18 @@ class GameInventoryTests(unittest.TestCase):
         )
 
         dungeon = json.loads(
-            self.batch.rendered[PurePosixPath("fixed/dungeon_locations.json")]
+            self.batch.rendered[PurePosixPath("addressed/dungeon_locations.json")]
         )
         self.assertEqual(len(dungeon), 144)
         self.assertEqual(len({row["id"] for row in dungeon}), 144)
+        self.assertEqual(
+            dungeon[0]["id"],
+            "game.dungeon_locations.locations.r0000",
+        )
+        self.assertEqual(
+            dungeon[-1]["id"],
+            "game.dungeon_locations.locations.r0143",
+        )
         self.assertLess(len({row["reference"] for row in dungeon}), 144)
 
         name_rows = json.loads(
@@ -250,6 +258,9 @@ class CompendiumInventoryTests(unittest.TestCase):
         cls.ability_name_rows = json.loads(
             cls.batch.rendered[PurePosixPath("fixed/ability_names.json")]
         )
+        cls.race_rows = json.loads(
+            cls.batch.rendered[PurePosixPath("addressed/race_names.json")]
+        )
 
     def test_complete_profile_inventory(self) -> None:
         absent = {
@@ -279,9 +290,9 @@ class CompendiumInventoryTests(unittest.TestCase):
             all(spec.owned_sha256 is not None for spec in self.manifest.files.values())
         )
         self.assertEqual(self.manifest.files["a_dic"].size, 472_172)
-        self.assertEqual(self.batch.source_count, 3)
-        self.assertEqual(self.batch.record_count, 1_450)
-        self.assertEqual(len(self.batch.rendered), 3)
+        self.assertEqual(self.batch.source_count, 4)
+        self.assertEqual(self.batch.record_count, 1_498)
+        self.assertEqual(len(self.batch.rendered), 4)
 
         ids = [row["id"] for row in self.rows]
         self.assertEqual(len(ids), len(set(ids)))
@@ -334,6 +345,21 @@ class CompendiumInventoryTests(unittest.TestCase):
                 row["source_encoding"] == "compendium_font16_plain_skip"
                 for row in self.ability_name_rows
             )
+        )
+
+        self.assertEqual(len(self.race_rows), 48)
+        self.assertEqual(
+            self.race_rows[0]["id"],
+            "compendium.race_names.standard.r0000",
+        )
+        self.assertEqual(self.race_rows[0]["reference"], "魔神")
+        self.assertEqual(
+            self.race_rows[-1]["id"],
+            "compendium.race_names.supplement.r0004",
+        )
+        self.assertEqual(
+            self.race_rows[-1]["reference"],
+            "{GLYPH:00b4}{GLYPH:00b4}{GLYPH:00b4}",
         )
 
     def test_profile_font_mapping_is_complete_and_lossless(self) -> None:

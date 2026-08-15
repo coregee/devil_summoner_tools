@@ -1,0 +1,1494 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "line_0001": {
+      "text": {
+        "reference": "ヴィクトル：悪魔が集いし業魔殿にようこそ",
+        "translation": "Victor: Welcome to the Gouma-den, where demons gather."
+      }
+    },
+    "line_0002": {
+      "text": {
+        "reference": "ヴィクトル：どんな用かな？",
+        "translation": "Victor: What do you need?"
+      }
+    },
+    "line_0003": {
+      "text": {
+        "reference": "ヴィクトル：仲魔を集めてまた来るがよい",
+        "translation": "Victor: Gather more demons and return."
+      }
+    },
+    "line_0004": {
+      "text": {
+        "reference": "ヴィクトル：今は話すことはない",
+        "translation": "Victor: There is nothing to discuss now."
+      }
+    },
+    "line_0005": {
+      "text": {
+        "reference": "合体",
+        "translation": "Fusion"
+      }
+    },
+    "line_0007": {
+      "text": {
+        "reference": "話をする",
+        "translation": "Talk"
+      }
+    },
+    "line_0008": {
+      "text": {
+        "reference": "ヴィクトル：これでよいか？",
+        "translation": "Victor: Is this acceptable?"
+      }
+    },
+    "line_0009": {
+      "text": {
+        "reference": "YES",
+        "translation": "YES"
+      }
+    },
+    "line_0010": {
+      "text": {
+        "reference": "NO",
+        "translation": "NO"
+      }
+    },
+    "line_0064": {
+      "text": {
+        "reference": "2身合体",
+        "translation": "Dyad Fusion"
+      }
+    },
+    "line_0065": {
+      "text": {
+        "reference": "3身合体",
+        "translation": "Triad Fusion"
+      }
+    },
+    "line_0066": {
+      "text": {
+        "reference": "剣・剣合体",
+        "translation": "Fuse Swords"
+      }
+    },
+    "line_0067": {
+      "text": {
+        "reference": "剣・悪魔合体",
+        "translation": "Sword - Demon"
+      }
+    },
+    "line_0068": {
+      "text": {
+        "reference": "剣・悪魔{GLYPH:010e}2合体",
+        "translation": "Sword - 2x Demon"
+      }
+    },
+    "line_0069": {
+      "text": {
+        "reference": "造魔をつくる",
+        "translation": "Create Zoma"
+      }
+    },
+    "line_0070": {
+      "text": {
+        "reference": "魔晶変{GLYPH:01aa}",
+        "translation": "Mystic Change"
+      }
+    },
+    "line_0071": {
+      "text": {
+        "reference": "合体記号の見方",
+        "translation": "Symbol Guide"
+      }
+    },
+    "line_0072": {
+      "text": {
+        "reference": "合体検索",
+        "translation": "Search"
+      }
+    },
+    "line_0073": {
+      "text": {
+        "reference": "ステータスをみる",
+        "translation": "View Status"
+      }
+    },
+    "line_0074": {
+      "text": {
+        "reference": "前へもどる",
+        "translation": "Go Back"
+      }
+    },
+    "line_0075": {
+      "text": {
+        "reference": "火妖{GLYPH:010e}1",
+        "translation": "Fire Demon 1"
+      }
+    },
+    "line_0076": {
+      "text": {
+        "reference": "火妖{GLYPH:010e}2",
+        "translation": "Fire Demon 2"
+      }
+    },
+    "line_0077": {
+      "text": {
+        "reference": "合体法則",
+        "translation": "Fusion Rules"
+      }
+    },
+    "line_0078": {
+      "text": {
+        "reference": "合体可能な悪魔",
+        "translation": "Fusible Demons"
+      }
+    },
+    "line_0079": {
+      "text": {
+        "reference": "通常の2身合体表",
+        "translation": "Dyad Race Chart"
+      }
+    },
+    "line_0080": {
+      "text": {
+        "reference": "通常の3身合体表",
+        "translation": "Triad Race Chart"
+      }
+    },
+    "line_0081": {
+      "text": {
+        "reference": "ダーク2身合体表",
+        "translation": "Dark Dyad Chart"
+      }
+    },
+    "line_0082": {
+      "text": {
+        "reference": "ダーク3身合体表",
+        "translation": "Dark Triad Chart"
+      }
+    },
+    "line_0083": {
+      "text": {
+        "reference": "表の見方",
+        "translation": "Chart Guide"
+      }
+    },
+    "line_0084": {
+      "text": {
+        "reference": "一覧表示",
+        "translation": "View List"
+      }
+    },
+    "line_0085": {
+      "text": {
+        "reference": "並び方の変更",
+        "translation": "Sort Order"
+      }
+    },
+    "line_0086": {
+      "text": {
+        "reference": "種族順",
+        "translation": "By Race"
+      }
+    },
+    "line_0087": {
+      "text": {
+        "reference": "LAW黄性順",
+        "translation": "LAW Aligned"
+      }
+    },
+    "line_0088": {
+      "text": {
+        "reference": "CHAOS黄性順",
+        "translation": "CHAOS Aligned"
+      }
+    },
+    "line_0089": {
+      "text": {
+        "reference": "高レベル順",
+        "translation": "Level: High"
+      }
+    },
+    "line_0090": {
+      "text": {
+        "reference": "低レベル順",
+        "translation": "Level: Low"
+      }
+    },
+    "line_0091": {
+      "text": {
+        "reference": "五十音順",
+        "translation": "Alphabetical"
+      }
+    },
+    "line_0092": {
+      "text": {
+        "reference": "終了",
+        "translation": "End"
+      }
+    },
+    "line_0093": {
+      "text": {
+        "reference": "詳細場",
+        "translation": "Details"
+      }
+    },
+    "line_0095": {
+      "text": {
+        "reference": "詳細離",
+        "translation": "Details"
+      }
+    },
+    "line_0096": {
+      "text": {
+        "reference": "合体不能",
+        "translation": "Cannot fuse"
+      }
+    },
+    "line_0097": {
+      "text": {
+        "reference": "並び方",
+        "translation": "Sort Order"
+      }
+    },
+    "line_0098": {
+      "text": {
+        "reference": "合体の種類",
+        "translation": "Fusion Type"
+      }
+    },
+    "line_0099": {
+      "text": {
+        "reference": "合体後の悪魔",
+        "translation": "Result Demon"
+      }
+    },
+    "line_0100": {
+      "text": {
+        "reference": "＃",
+        "translation": "#"
+      }
+    },
+    "line_0101": {
+      "text": {
+        "reference": "名称",
+        "translation": "Name"
+      }
+    },
+    "line_0102": {
+      "text": {
+        "reference": "種族",
+        "translation": "Race"
+      }
+    },
+    "line_0103": {
+      "text": {
+        "reference": "結果",
+        "translation": "Result"
+      }
+    },
+    "line_0104": {
+      "text": {
+        "reference": "ヴィクトル：1体目はどの悪魔だ？",
+        "translation": "Victor: Which demon will be first?"
+      }
+    },
+    "line_0105": {
+      "text": {
+        "reference": "ヴィクトル：2体目はどいつだ？",
+        "translation": "Victor: Which demon will be second?"
+      }
+    },
+    "line_0106": {
+      "text": {
+        "reference": "ヴィクトル：最後の3体目は？",
+        "translation": "Victor: And the third demon?"
+      }
+    },
+    "line_0107": {
+      "text": {
+        "reference": "ヴィクトル：1本目の剣はどれだ？",
+        "translation": "Victor: Choose the first sword."
+      }
+    },
+    "line_0108": {
+      "text": {
+        "reference": "ヴィクトル：2本目は？",
+        "translation": "Victor: And the second sword?"
+      }
+    },
+    "line_0109": {
+      "text": {
+        "reference": "ヴィクトル：剣はどれだ？",
+        "translation": "Victor: Which sword?"
+      }
+    },
+    "line_0110": {
+      "text": {
+        "reference": "ヴィクトル：悪魔はどいつだ？",
+        "translation": "Victor: Which demon?"
+      }
+    },
+    "line_0111": {
+      "text": {
+        "reference": "ヴィクトル：悪魔のほうの1体目は？",
+        "translation": "Victor: Which demon will be first?"
+      }
+    },
+    "line_0112": {
+      "text": {
+        "reference": "ヴィクトル：悪魔の2体目はどいつだ？",
+        "translation": "Victor: Which demon will be second?"
+      }
+    },
+    "line_0113": {
+      "text": {
+        "reference": "ヴィクトル：ドリー・カドモンを出すのだ",
+        "translation": "Victor: Bring forth Dolly Kadmon."
+      }
+    },
+    "line_0114": {
+      "text": {
+        "reference": "ヴィクトル：どの悪魔の変{GLYPH:01aa}をするんだ？",
+        "translation": "Victor: Which demon will undergo Mystic Change?"
+      }
+    },
+    "line_0115": {
+      "text": {
+        "reference": "ヴィクトル：合体でできる悪魔は・・・",
+        "translation": "Victor: The resulting demon is..."
+      }
+    },
+    "line_0116": {
+      "text": {
+        "reference": "ヴィクトル：合体させていいのか？",
+        "translation": "Victor: Shall I fuse them?"
+      }
+    },
+    "line_0117": {
+      "text": {
+        "reference": "ヴィクトル：オマエのレベルでは合体できぬ",
+        "translation": "Victor: Your level is too low."
+      }
+    },
+    "line_0118": {
+      "text": {
+        "reference": "ヴィクトル：この合体に使える悪魔が足りぬ",
+        "translation": "Victor: You lack the demons needed for this fusion."
+      }
+    },
+    "line_0119": {
+      "text": {
+        "reference": "ヴィクトル：この合体に使える剣が足りぬ",
+        "translation": "Victor: You do not have enough swords for this fusion."
+      }
+    },
+    "line_0120": {
+      "text": {
+        "reference": "ヴィクトル：造魔の名称は何にするんだ？",
+        "translation": "Victor: What will you name the Zoma?"
+      }
+    },
+    "line_0121": {
+      "text": {
+        "reference": "ヴィクトル：どの悪魔を変{GLYPH:01aa}をするんだ？",
+        "translation": "Victor: Which demon will undergo Mystic Change?"
+      }
+    },
+    "line_0122": {
+      "text": {
+        "reference": "ヴィクトル：変{GLYPH:01aa}を始めていいか？",
+        "translation": "Victor: Shall I begin Mystic Change?"
+      }
+    },
+    "line_0123": {
+      "text": {
+        "reference": "ヴィクトル：これが合体記号の見方だ",
+        "translation": "Victor: This is how to read the fusion symbols."
+      }
+    },
+    "line_0124": {
+      "text": {
+        "reference": "ヴィクトル：これが合体表の見方だ",
+        "translation": "Victor: This is how to read the fusion chart."
+      }
+    },
+    "line_0125": {
+      "text": {
+        "reference": "ヴィクトル：合体の種類はどれだ？",
+        "translation": "Victor: Which fusion type?"
+      }
+    },
+    "line_0126": {
+      "text": {
+        "reference": "ヴィクトル：どの悪魔の造り方が知りたい？",
+        "translation": "Victor: Which demon's recipe do you want?"
+      }
+    },
+    "line_0127": {
+      "text": {
+        "reference": "ヴィクトル：この合体で造れる悪魔は・・・",
+        "translation": "Victor: This fusion can create..."
+      }
+    },
+    "line_0128": {
+      "text": {
+        "reference": "ヴィクトル：この合体で造れる悪魔はないぞ",
+        "translation": "Victor: This fusion cannot create any demons."
+      }
+    },
+    "line_0129": {
+      "text": {
+        "reference": "ヴィクトル：誰のステータスをみる？",
+        "translation": "Victor: Whose status will you view?"
+      }
+    },
+    "line_0130": {
+      "text": {
+        "reference": "ヴィクトル：何をするんだ？",
+        "translation": "Victor: What will you do?"
+      }
+    },
+    "line_0131": {
+      "text": {
+        "reference": "ヴィクトル：どの並び方にするんだ？",
+        "translation": "Victor: How should I sort them?"
+      }
+    },
+    "line_0132": {
+      "text": {
+        "reference": "ヴィクトル：これが造り方だ",
+        "translation": "Victor: This is the recipe."
+      }
+    },
+    "line_0133": {
+      "text": {
+        "reference": "ドリー・カドモン",
+        "translation": "Dolly Kadmon"
+      }
+    },
+    "line_0134": {
+      "text": {
+        "reference": "{GLYPH:010a} ……具本合体法則で悪魔が出現",
+        "translation": "{GLYPH:010a}: Basic fusion result"
+      }
+    },
+    "line_0135": {
+      "text": {
+        "reference": "{GLYPH:010b} ……精霊が出現",
+        "translation": "{GLYPH:010b}: Element appears"
+      }
+    },
+    "line_0136": {
+      "text": {
+        "reference": "b ……御魂が出現",
+        "translation": "M: Mitama appears"
+      }
+    },
+    "line_0137": {
+      "text": {
+        "reference": "1 ……元の悪魔が同種族で1ランクアップ",
+        "translation": "1: Same race up one"
+      }
+    },
+    "line_0138": {
+      "text": {
+        "reference": "2 ……元の悪魔が同種族で2ランクアップ",
+        "translation": "2: Same race up two"
+      }
+    },
+    "line_0139": {
+      "text": {
+        "reference": "{GLYPH:010e} ……元の悪魔が同種族で1ランクダウン",
+        "translation": "{GLYPH:010e}: Same race down one"
+      }
+    },
+    "line_0140": {
+      "text": {
+        "reference": "P ……元の悪魔の能力がアップ",
+        "translation": "P: Ability boost"
+      }
+    },
+    "line_0141": {
+      "text": {
+        "reference": "D ……ダークサイドの悪魔が出現",
+        "translation": "D: Dark demon"
+      }
+    },
+    "line_0142": {
+      "text": {
+        "reference": "・ ……合体不能",
+        "translation": "{GLYPH:00ae}: Cannot fuse"
+      }
+    },
+    "line_0143": {
+      "text": {
+        "reference": "{GLYPH:010d} ……組合せが存在しない",
+        "translation": "{GLYPH:010d}: No combination"
+      }
+    },
+    "line_0144": {
+      "text": {
+        "reference": "青色……LAW黄性の悪魔が出現",
+        "translation": "Blue: LAW demon"
+      }
+    },
+    "line_0145": {
+      "text": {
+        "reference": "赤色……CHAOS黄性の悪魔が出現",
+        "translation": "Red: CHAOS demon"
+      }
+    },
+    "line_0146": {
+      "text": {
+        "reference": "白色……NEUTRAL黄性の悪魔が出現",
+        "translation": "White: NEUTRAL demon"
+      }
+    },
+    "line_0147": {
+      "text": {
+        "reference": "2身・3身合体とも方{GLYPH:01ad}ボタンで上下左右に",
+        "translation": "Use D-pad to scroll"
+      }
+    },
+    "line_0148": {
+      "text": {
+        "reference": "スクロールさせることができます",
+        "translation": "the fusion chart."
+      }
+    },
+    "line_0149": {
+      "text": {
+        "reference": "さらに3身合体のときはL・Rボタンで",
+        "translation": "In Triad Fusion, L/R"
+      }
+    },
+    "line_0150": {
+      "text": {
+        "reference": "1体目の選択を変更できます",
+        "translation": "change the first demon."
+      }
+    },
+    "line_0151": {
+      "text": {
+        "reference": "AボタンかBボタンで前にもどります",
+        "translation": "A or B goes back."
+      }
+    },
+    "line_0152": {
+      "text": {
+        "reference": "以下の4つの種族名については省略物であ",
+        "translation": "The chart uses these"
+      }
+    },
+    "line_0153": {
+      "text": {
+        "reference": "らわされます",
+        "translation": "four race names:"
+      }
+    },
+    "line_0154": {
+      "text": {
+        "reference": "  破壊神→破壊    地母神→地母",
+        "translation": "Fury      Lady"
+      }
+    },
+    "line_0155": {
+      "text": {
+        "reference": "  大天使→大天    堕天使→堕天",
+        "translation": "Herald    Fallen"
+      }
+    },
+    "line_0199": {
+      "text": {
+        "reference": "剣",
+        "translation": "Sword"
+      }
+    },
+    "line_0200": {
+      "text": {
+        "reference": "神族",
+        "translation": "Deity"
+      }
+    },
+    "line_0201": {
+      "text": {
+        "reference": "鬼神族",
+        "translation": "Kishin"
+      }
+    },
+    "line_0202": {
+      "text": {
+        "reference": "魔族",
+        "translation": "Demon"
+      }
+    },
+    "line_0203": {
+      "text": {
+        "reference": "機天",
+        "translation": "Celest."
+      }
+    },
+    "line_0204": {
+      "text": {
+        "reference": "龍族",
+        "translation": "Dragon"
+      }
+    },
+    "line_0205": {
+      "text": {
+        "reference": "鳥族",
+        "translation": "Bird"
+      }
+    },
+    "line_0206": {
+      "text": {
+        "reference": "獣族",
+        "translation": "Beast"
+      }
+    },
+    "line_0207": {
+      "text": {
+        "reference": "鬼族",
+        "translation": "Oni"
+      }
+    },
+    "line_0208": {
+      "text": {
+        "reference": "邪霊",
+        "translation": "Undead"
+      }
+    },
+    "line_0209": {
+      "text": {
+        "reference": "樹霊",
+        "translation": "Tree"
+      }
+    },
+    "line_0210": {
+      "text": {
+        "reference": "虫族",
+        "translation": "Vermin"
+      }
+    },
+    "line_0216": {
+      "text": {
+        "reference": "{GLYPH:0117}{GLYPH:0117}",
+        "translation": "--"
+      }
+    },
+    "line_0217": {
+      "text": {
+        "reference": "{GLYPH:0115}{GLYPH:0116}",
+        "translation": "><"
+      }
+    },
+    "line_0218": {
+      "text": {
+        "reference": "{GLYPH:01a9}表",
+        "translation": "Stats"
+      }
+    },
+    "line_0219": {
+      "text": {
+        "reference": "ER",
+        "translation": "ER"
+      }
+    },
+    "line_0220": {
+      "text": {
+        "reference": "業魔殿の主人：業魔殿へようこそ……。{n}……葛葉か？{n}葛葉に似ているが、おぬしは誰だ？",
+        "translation": "Gouma-den Master: Welcome to the Gouma-den...{n}...Kuzunoha?{n}You look like Kuzunoha, but who are you?"
+      }
+    },
+    "line_0221": {
+      "text": {
+        "reference": "用無き者は、お引き取り願おう。",
+        "translation": "If you have no business here, I ask that you leave."
+      }
+    },
+    "line_0222": {
+      "text": {
+        "reference": "ヴィクトル：おぬしが誰であろうと、{n}悪魔合体をしようという者なら、{n}業魔殿は、いつでも歓迎しよう。",
+        "translation": "Victor: Whoever you may be,{n}if you seek to fuse demons,{n}the Gouma-den will always welcome you."
+      }
+    },
+    "line_0223": {
+      "text": {
+        "reference": "本物の葛葉から話はきいている。{n}やつの魂は、どこか結界の中にいるらしい。",
+        "translation": "I have heard from the real Kuzunoha.{n}It seems his soul is trapped somewhere inside a barrier."
+      }
+    },
+    "line_0224": {
+      "text": {
+        "reference": "ハンディ・コンピュータをやろう。{n}やつが使っていたのと、同じ物だ。",
+        "translation": "Take this handheld computer.{n}It is the same kind he used."
+      }
+    },
+    "line_0225": {
+      "text": {
+        "reference": "これを使って、仲魔をたくさん連れて来い。{n}悪魔に会ったら、「TALK」で話せ。{n}あとは、おぬしの工夫しだいだ。",
+        "translation": "Use it to bring many demons with you.{n}When you meet a demon, choose \"TALK\" to speak.{n}The rest is up to your ingenuity."
+      }
+    },
+    "line_0226": {
+      "text": {
+        "reference": "＞ハンディ・コンピュータを手に入れた。",
+        "translation": "> Obtained the handheld computer."
+      }
+    },
+    "line_0227": {
+      "text": {
+        "reference": "ヴィクトル：……さて、葛葉から{n}頼まれたのはここまでだが、実は{n}私からも、おぬしに頼みがあるのだ。",
+        "translation": "Victor: ...Now, Kuzunoha asked me{n}to do only that much, but in fact,{n}I have a request of my own."
+      }
+    },
+    "line_0228": {
+      "text": {
+        "reference": "これは本物の葛葉から聞いていたことだが、{n}やつは「人造の悪魔」というものについて{n}なにか情報を得ていたらしい。",
+        "translation": "This is something I heard from the real Kuzunoha:{n}he had apparently found information about{n}an \"artificial demon\"."
+      }
+    },
+    "line_0229": {
+      "text": {
+        "reference": "合体を生業とする私としても、大いに{n}興味のあることだ。助力は惜しまぬ{n}つもりであった。",
+        "translation": "As one who makes his living through fusion,{n}I was greatly interested. I had intended{n}to spare no effort in helping him."
+      }
+    },
+    "line_0230": {
+      "text": {
+        "reference": "だが、本物の葛葉はいなくなった。{n}そして、葛葉の体をもった、おぬしが{n}現れた。",
+        "translation": "But the real Kuzunoha is gone.{n}And now you, bearing Kuzunoha's body,{n}have appeared."
+      }
+    },
+    "line_0231": {
+      "text": {
+        "reference": "もはや、葛葉と同じ道を歩まざるを得ぬ{n}おぬしだ。何かつかんだなら、私にも{n}知らせてくれ。",
+        "translation": "You can no longer avoid walking Kuzunoha's path.{n}If you uncover anything,{n}let me know as well."
+      }
+    },
+    "line_0232": {
+      "text": {
+        "reference": "……では、行かれよ。{n}悪魔を仲魔にしたなら、また来るがよい。",
+        "translation": "...Now go.{n}Return once you have recruited demons."
+      }
+    },
+    "line_0233": {
+      "text": {
+        "reference": "ヴィクトル：業魔殿へようこそ……。",
+        "translation": "Victor: Welcome to the Gouma-den..."
+      }
+    },
+    "line_0235": {
+      "text": {
+        "reference": "合体をする",
+        "translation": "Demon Fusion"
+      }
+    },
+    "line_0236": {
+      "text": {
+        "reference": "ヴィクトル：そんな、一度に話すことは{n}ないぞ。",
+        "translation": "Victor: I cannot tell you everything{n}all at once."
+      }
+    },
+    "line_0237": {
+      "text": {
+        "reference": "ヴィクトル：おおっ、ついに手に入れた{n}ようだな。",
+        "translation": "Victor: Oh! It seems you have finally{n}obtained it."
+      }
+    },
+    "line_0238": {
+      "text": {
+        "reference": "造魔の中にあったという、これこそまさに{n}原初の人型たる「ドリー・カドモン」、{n}生命の息吹を吹き込まれし土塊。",
+        "translation": "This was found inside the Zoma, you say?{n}It is Dolly Kadmon, the primordial human form,{n}clay imbued with the breath of life."
+      }
+    },
+    "line_0239": {
+      "text": {
+        "reference": "私の悪魔合体の技術をもってすれば、{n}ここに再び、息吹かせることも{n}できるであろう。",
+        "translation": "With my demon-fusion expertise,{n}I should be able to breathe life{n}into it once more."
+      }
+    },
+    "line_0240": {
+      "text": {
+        "reference": "しかし、神の禁忌に背く{n}このような品を造ったのは、{n}一体、何者であろうか………。",
+        "translation": "But who could have made such a thing{n}in defiance of God's taboo...?"
+      }
+    },
+    "line_0241": {
+      "text": {
+        "reference": "…それとだ、おぬしの悪魔の中に、{n}その姿を変えることを望んでいる{n}ものがいる．",
+        "translation": "...One more thing. Among your demons,{n}there is one that wishes{n}to change its form."
+      }
+    },
+    "line_0242": {
+      "text": {
+        "reference": "今ならば、忠誠を尽くした悪魔に{n}行えるという秘儀、「魔晶変化」が{n}できるであろう。",
+        "translation": "Now we should be able to perform the secret rite{n}called \"Mystic Change\" on demons that have shown{n}utmost loyalty."
+      }
+    },
+    "line_0243": {
+      "text": {
+        "reference": "ヴィクトル：……おぬしの悪魔の中に、{n}その姿を変えることを望んでいる{n}ものがいる．",
+        "translation": "Victor: ...Among your demons,{n}there is one that wishes{n}to change its form."
+      }
+    },
+    "line_0244": {
+      "text": {
+        "reference": "ヴィクトル：魔法についてだが、{n}同じ魔法でも、その威力は、術者の{n}レベルや魔力値などで違ってくるのだ。",
+        "translation": "Victor: About magic:{n}even the same spell's power varies with{n}the caster's level, Magic, and other factors."
+      }
+    },
+    "line_0245": {
+      "text": {
+        "reference": "同じアギでも、術者が違えば、威力が{n}変わってくる。気をつけられよ。",
+        "translation": "Even the same Agi differs in power{n}depending on who casts it. Keep that in mind."
+      }
+    },
+    "line_0246": {
+      "text": {
+        "reference": "ヴィクトル：アビリティの魔力が影響{n}するのは、魔法を使ったときばかりでは{n}ない。受ける時にも影響するのだ。",
+        "translation": "Victor: Your Magic stat affects more than{n}the spells you cast. It also determines{n}how magic affects you."
+      }
+    },
+    "line_0247": {
+      "text": {
+        "reference": "物理攻撃をうけるのに比べ、{n}魔法攻撃でのダメージが大きいようなら、{n}何らかの手を講じられよ。",
+        "translation": "If magical attacks hurt you more{n}than physical ones, you should{n}take some countermeasure."
+      }
+    },
+    "line_0248": {
+      "text": {
+        "reference": "魔力が全て……などとは言わぬが、{n}あまり、ないがしろにせぬ方が{n}よいだろう。",
+        "translation": "I would not say Magic is everything,{n}but you would be wise not to{n}neglect it."
+      }
+    },
+    "line_0249": {
+      "text": {
+        "reference": "ヴィクトル：悪魔たちは、その性格に{n}よって、どのような攻撃を行うかの{n}傾向をもっているようだ。",
+        "translation": "Victor: A demon's personality seems to{n}shape the kinds of attacks{n}it tends to use."
+      }
+    },
+    "line_0250": {
+      "text": {
+        "reference": "悪魔の性格を、見極めることができるか{n}どうかこそ、悪魔召喚師としての{n}真の実力なのだ。",
+        "translation": "Your true skill as a Devil Summoner lies in{n}how well you can judge each demon's personality."
+      }
+    },
+    "line_0251": {
+      "text": {
+        "reference": "ヴィクトル：悪魔たちに、どのような{n}命令が下せるかは、おぬしと悪魔の{n}信頼関係、「忠誠度」で決まる。",
+        "translation": "Victor: The orders you can give a demon{n}depend on your bond of trust with it:{n}its \"Loyalty\"."
+      }
+    },
+    "line_0252": {
+      "text": {
+        "reference": "それが上がれば、より細かな命令が{n}下せる。もっとも、必ず従うわけでは{n}ないようだが。",
+        "translation": "As it rises, you can give finer commands.{n}Even then, it seems they will not{n}always obey."
+      }
+    },
+    "line_0253": {
+      "text": {
+        "reference": "どのようにすれば「忠誠度」が上がるかは、{n}悪魔によって、多少異なるようだ。",
+        "translation": "How to raise Loyalty{n}differs somewhat from demon to demon."
+      }
+    },
+    "line_0254": {
+      "text": {
+        "reference": "おぬしの強さを見抜くものもいれば、{n}共に戦うことにより心ひらくもの、{n}はたまた、物につられるものもいる。",
+        "translation": "Some recognize your strength,{n}some open up by fighting beside you,{n}and some are swayed by gifts."
+      }
+    },
+    "line_0255": {
+      "text": {
+        "reference": "まあ、いろいろと試してみることだ。",
+        "translation": "Well, try various things for yourself."
+      }
+    },
+    "line_0256": {
+      "text": {
+        "reference": "ヴィクトル：同種族合体は、悪魔合体の{n}1つの基本だ。同じ種族の悪魔を{n}合体させれば、精霊がつくれる。",
+        "translation": "Victor: Same-race fusion is one of{n}the basics. Fuse demons of the same race{n}to create an Element."
+      }
+    },
+    "line_0257": {
+      "text": {
+        "reference": "だが、そんなに簡単ではない。{n}2身ではダメで、3身でないと{n}精霊ができない種族もある。",
+        "translation": "But it is not always so simple.{n}For some races, dyad fusion will not work.{n}Only triad fusion creates an Element."
+      }
+    },
+    "line_0258": {
+      "text": {
+        "reference": "使い勝手のあるヤツらであるから、{n}多少苦労しても、損はないだろう。",
+        "translation": "Elements are useful allies,{n}so they are worth the effort."
+      }
+    },
+    "line_0259": {
+      "text": {
+        "reference": "ヴィクトル：精霊を合体に使えば、悪魔を{n}同種族内で、ランクアップさせることが{n}可能だ。",
+        "translation": "Victor: Fuse an Element with a demon{n}to raise that demon's rank{n}within its own race."
+      }
+    },
+    "line_0260": {
+      "text": {
+        "reference": "必ずしも、ランクがアップするわけでは{n}ないが、どの精霊を使えば、ランクアップ{n}するかは、種族に対して決まっている。",
+        "translation": "It will not always rank up,{n}but each race determines which Element{n}will cause that increase."
+      }
+    },
+    "line_0261": {
+      "text": {
+        "reference": "精霊2体との合体でないと、ランクアップ{n}できない悪魔もいるから、気をつけるん{n}だな。",
+        "translation": "Some demons need two Elements{n}to rank up, so keep that{n}in mind."
+      }
+    },
+    "line_0262": {
+      "text": {
+        "reference": "ヴィクトル：悪魔たちの中には、月齢に{n}よって、強さの変わるものたちがいる。",
+        "translation": "Victor: Some demons' strength{n}changes with the phase of the moon."
+      }
+    },
+    "line_0263": {
+      "text": {
+        "reference": "前に戦ったときに、大したことがなかった{n}からといって、甘く見ていると、痛い目を{n}みることがあるから、気をつけろ。",
+        "translation": "Do not underestimate one because{n}it was weak the last time you fought.{n}You may regret it."
+      }
+    },
+    "line_0264": {
+      "text": {
+        "reference": "ヴィクトル：私の悪魔合体も、残念だが{n}いつでも上手くいくわけではない、{n}たまには、事故が起こってしまう。",
+        "translation": "Victor: Regrettably, even my demon fusion{n}does not always succeed.{n}Sometimes an accident occurs."
+      }
+    },
+    "line_0265": {
+      "text": {
+        "reference": "そうすると、予定と違う悪魔が出来て{n}しまう……、どんなヤツが出てくるかは{n}全くわからぬ。",
+        "translation": "Then a different demon may emerge{n}than the one intended... There is no telling{n}what it will be."
+      }
+    },
+    "line_0266": {
+      "text": {
+        "reference": "まあ、いいところで事故が起きても{n}私をうらまないでくれ。",
+        "translation": "So if an accident happens at the worst{n}possible moment, try not to resent me."
+      }
+    },
+    "line_0267": {
+      "text": {
+        "reference": "ヴィクトル：悪魔だけではなく、ある種の{n}剣についてもまた、合体させることが{n}可能なのだ。",
+        "translation": "Victor: Demons are not the only things{n}that can be fused. Certain swords{n}can be fused as well."
+      }
+    },
+    "line_0268": {
+      "text": {
+        "reference": "剣と剣、または剣と悪魔を合体させる{n}ことで、新たな剣を造りだすことが{n}できる。",
+        "translation": "By fusing sword with sword,{n}or sword with demon,{n}you can create a new sword."
+      }
+    },
+    "line_0269": {
+      "text": {
+        "reference": "うまくやれば、次々に強くしていくことも{n}できる。その辺は、おぬしの腕次第だ。",
+        "translation": "Done well, you can strengthen it again and again.{n}The rest depends on your skill."
+      }
+    },
+    "line_0270": {
+      "text": {
+        "reference": "ヴィクトル：ダークの悪魔を造るのも{n}1つの道ではあるが、あまり、おすすめは{n}できないな。",
+        "translation": "Victor: Creating Dark demons{n}is one possible path, but I cannot{n}recommend it."
+      }
+    },
+    "line_0271": {
+      "text": {
+        "reference": "ダークの悪魔をつくる組合せは、ライトの{n}それと比べ、数が少ない。つまり、道自体が{n}せまいのだ。",
+        "translation": "There are fewer combinations for Dark demons{n}than for Light ones. In other words,{n}the path itself is narrow."
+      }
+    },
+    "line_0272": {
+      "text": {
+        "reference": "それに、ライトの悪魔と合体させることも{n}できん。それでもかまわない、というので{n}あれば、私も何も言わんがな。",
+        "translation": "Nor can they be fused with Light demons.{n}If you still accept that,{n}I will say no more."
+      }
+    },
+    "line_0273": {
+      "text": {
+        "reference": "ヴィクトル：精霊のみで、2身あるいは{n}3身の合体を行うと、御魂という、特殊な{n}悪魔が造れる。",
+        "translation": "Victor: Fuse only Elements in{n}a dyad or triad fusion, and you can create{n}a special demon called a Mitama."
+      }
+    },
+    "line_0274": {
+      "text": {
+        "reference": "この御魂を使うと、悪魔の種類はそのままで{n}能力だけをアップする合体が、可能だ。",
+        "translation": "Using a Mitama can raise a demon's abilities{n}without changing which demon it is."
+      }
+    },
+    "line_0275": {
+      "text": {
+        "reference": "強くするのに、限界が無いわけではないが、{n}気に入った悪魔に、この合体をさせれば{n}おぬしの助けになるのは、間違いない。",
+        "translation": "There are limits to that growth,{n}but use it on a favorite demon and{n}it will surely aid you."
+      }
+    },
+    "line_0276": {
+      "text": {
+        "reference": "ヴィクトル：合体前の悪魔が持っていた{n}魔法は、無くなるばかりではない。{n}受け継がれることもある。",
+        "translation": "Victor: A demon's magic before fusion{n}does not simply vanish.{n}Some spells can be inherited."
+      }
+    },
+    "line_0277": {
+      "text": {
+        "reference": "どうも合体前の悪魔と持っている魔法の{n}種類が似ていれば、そのまま継承されやすい{n}ようだ。",
+        "translation": "Spells seem easier to inherit when the demons{n}being fused know similar kinds of magic."
+      }
+    },
+    "line_0278": {
+      "text": {
+        "reference": "持っている魔法の種類が、似てなかった{n}場合でも、回復魔法や防御魔法であれば{n}継承されるようだ。",
+        "translation": "Even when their magic differs,{n}healing and defensive spells{n}can apparently still be inherited."
+      }
+    },
+    "line_0279": {
+      "text": {
+        "reference": "ヴィクトル：いくつかの悪魔が持つ、{n}恐ろしい攻撃に、おぬしのレベルを下げる{n}ものがある。",
+        "translation": "Victor: Some demons possess{n}a fearsome attack that lowers{n}your level."
+      }
+    },
+    "line_0280": {
+      "text": {
+        "reference": "そういう悪魔に出会ったら、テトラジャや{n}アイテムを使って、ガードすることだ。",
+        "translation": "When facing one, guard yourself{n}with Tetraja or an item."
+      }
+    },
+    "line_0281": {
+      "text": {
+        "reference": "ヴィクトル：実は、造魔についてだが、{n}おぬしも気付いておるかも知れぬが、{n}その力には、月が関係してるみたいなのだ。",
+        "translation": "Victor: About Zoma...{n}you may already have noticed that{n}its power seems tied to the moon."
+      }
+    },
+    "line_0282": {
+      "text": {
+        "reference": "少しでも、月が光を持っているときは{n}いいが、新月になると、ほとんど力を{n}出せなくなるようだ。",
+        "translation": "It is fine while the moon holds any light,{n}but under a new moon it can scarcely{n}use its power."
+      }
+    },
+    "line_0283": {
+      "text": {
+        "reference": "大事なところで、ひどいことにならない{n}よう、用心して、歩くことだ。",
+        "translation": "Stay alert, lest it fail you{n}when you need it most."
+      }
+    },
+    "line_0284": {
+      "text": {
+        "reference": "ヴィクトル：「人造の悪魔」の手掛かりは{n}その後つかめぬか？{n}うーむ………。",
+        "translation": "Victor: Have you found any clues{n}about the \"artificial demon\" since then?{n}Hmm..."
+      }
+    },
+    "line_0285": {
+      "text": {
+        "reference": "ヴィクトル：どうやら、種族の近い悪魔、{n}あるいは同じ種族の悪魔を合体させると{n}事故が起こりやすいようなのだ。",
+        "translation": "Victor: It seems fusion accidents occur{n}more readily between demons of similar{n}or identical races."
+      }
+    },
+    "line_0286": {
+      "text": {
+        "reference": "これからは、精霊を造るときなんか注意した{n}ほうが、いいかも知れない。……注意した{n}からといって、どうにもならんが。",
+        "translation": "You may want to be careful when creating{n}Elements from now on... though being careful{n}will not change anything."
+      }
+    },
+    "line_0287": {
+      "text": {
+        "reference": "ヴィクトル：これは、昔の研究によるもの{n}だが、悪魔合体、剣合体だけでなく、{n}まだ悪魔に違う力があるらしい。",
+        "translation": "Victor: Old research suggests demons possess{n}another power beyond demon and sword fusion."
+      }
+    },
+    "line_0288": {
+      "text": {
+        "reference": "それによると、悪魔が単独で、その主人の{n}ために、モノに姿を変える秘儀が、ある{n}というのだ。",
+        "translation": "It describes a secret rite in which a demon{n}transforms itself into an object{n}for its master's sake."
+      }
+    },
+    "line_0289": {
+      "text": {
+        "reference": "その姿を、モノに変えることにより、永遠に{n}仕えようとする……、悪魔の、未だ{n}定かでないところかも知れぬ。",
+        "translation": "By changing into an object, it seeks{n}to serve forever... Perhaps this is one{n}of the demons' remaining mysteries."
+      }
+    },
+    "line_0290": {
+      "text": {
+        "reference": "ヴィクトル：これは、合体師としての{n}カンだが……、おそらく造魔には、まだ{n}別の合体能力が、あると思われるのだ。",
+        "translation": "Victor: This is only a fusion master's{n}intuition, but I believe Zoma has{n}another fusion ability yet."
+      }
+    },
+    "line_0291": {
+      "text": {
+        "reference": "これだけのタマが、新月のときは{n}ポンコツ同然、なんてことでは、まさか{n}終わらないだろう。",
+        "translation": "Something this promising cannot simply{n}become scrap under a new moon.{n}Surely that cannot be all."
+      }
+    },
+    "line_0292": {
+      "text": {
+        "reference": "もっとも、オレの願望がそうだ、という{n}だけのことなのかも知れんがな。{n}ハッハッハ………。",
+        "translation": "Then again, perhaps that is only{n}what I want to believe.{n}Hahaha..."
+      }
+    },
+    "line_0293": {
+      "text": {
+        "reference": "ヴィクトル：実は、長いこと研究していた{n}ダーク悪魔の合体表が、そろそろ{n}完成しそうなのだ。",
+        "translation": "Victor: The Dark demon fusion chart{n}I have studied for so long is nearly{n}complete."
+      }
+    },
+    "line_0294": {
+      "text": {
+        "reference": "これが、おぬしの悪魔の合体に有用か{n}どうかは、少し疑問だが、まあ、素直に{n}よろこんでくれ。",
+        "translation": "I doubt it will be useful{n}for your own fusions, but at least{n}be happy for me."
+      }
+    },
+    "line_0295": {
+      "text": {
+        "reference": "ヴィクトル：おぬしが連れている死神……、{n}確かに、レベルの割に強いと思うが、{n}いいことばかりでも、無いみたいだぞ。",
+        "translation": "Victor: That Reaper you have with you...{n}It is certainly strong for its level,{n}but that is not entirely good."
+      }
+    },
+    "line_0296": {
+      "text": {
+        "reference": "マグネタイトの消費も大きいし……、{n}何よりおぬしを、戦闘から逃げにくくする{n}力を持っているようだ。",
+        "translation": "It consumes a great deal of Magnetite...{n}and above all, it seems to hinder{n}your escape from battle."
+      }
+    },
+    "line_0297": {
+      "text": {
+        "reference": "せいぜい、上手に付き合うんだな。",
+        "translation": "Learn to handle it wisely."
+      }
+    },
+    "line_0298": {
+      "text": {
+        "reference": "ヴィクトル：今のおぬしの力では、{n}悪魔と戦うのは苦しいだろう。{n}充分に備えるのだ。",
+        "translation": "Victor: At your present strength,{n}fighting demons will be difficult.{n}Prepare yourself well."
+      }
+    },
+    "line_0299": {
+      "text": {
+        "reference": "おぬしに死なれたのでは、私の研究も{n}進まないからな。",
+        "translation": "If you die, my research{n}will make no progress either."
+      }
+    },
+    "line_0300": {
+      "text": {
+        "reference": "ヴィクトル：これは、おぬしには話して{n}おかねばなるまい。近ごろ、地下水道にも{n}悪魔が出るらしいのだ。",
+        "translation": "Victor: I must tell you this.{n}Lately, demons have apparently begun{n}appearing in the sewers."
+      }
+    },
+    "line_0301": {
+      "text": {
+        "reference": "最近、悪魔たちの動きが大きくなってきた{n}ことと関係があるのだろうが、はっきり{n}した原因はわからぬ。",
+        "translation": "It may relate to the recent surge{n}in demon activity, but the exact{n}cause is unknown."
+      }
+    },
+    "line_0302": {
+      "text": {
+        "reference": "まあ、おぬしにとっては、いい鍛練の{n}場所になるかも知れぬがな。",
+        "translation": "Still, it may be a good place{n}for you to train."
+      }
+    },
+    "line_0303": {
+      "text": {
+        "reference": "ヴィクトル：大学の、吾妻とかいう{n}教授には、私にも少し気になることが{n}あるのだ。",
+        "translation": "Victor: There is something about{n}a university professor named Azuma{n}that concerns even me."
+      }
+    },
+    "line_0304": {
+      "text": {
+        "reference": "この教授の書いた本の噂、私の耳にも{n}届いている。古代日本に、魔術文明が{n}存在した、とかいう論文だったと思うが。",
+        "translation": "I have heard rumors of his book.{n}It argued that a magical civilization{n}existed in ancient Japan, I believe."
+      }
+    },
+    "line_0305": {
+      "text": {
+        "reference": "だが、私にしてみれば、そんなに{n}大騒ぎするほどのものでは無かったと{n}記憶している。",
+        "translation": "But as I recall, it was nothing{n}worth such an uproar,{n}at least from my perspective."
+      }
+    },
+    "line_0306": {
+      "text": {
+        "reference": "ヴィクトル：吾妻教授をめぐっては、{n}ただならぬ事態に、なっているようだな。",
+        "translation": "Victor: It seems matters involving{n}Professor Azuma have grown serious."
+      }
+    },
+    "line_0307": {
+      "text": {
+        "reference": "おぬしが会った、シドとかいう神父、{n}この世界に通じている私でも、そいつの{n}話は、聞いたことがない。",
+        "translation": "That priest named Sid whom you met...{n}Even with my knowledge of this world,{n}I have never heard of him."
+      }
+    },
+    "line_0308": {
+      "text": {
+        "reference": "いずれにせよ、本物の葛葉をやったらしい{n}その神父、ただものではあるまい。{n}おぬしも、せいぜい気をつけられよ。",
+        "translation": "In any case, that priest apparently defeated{n}the real Kuzunoha. He is no ordinary man.{n}You would do well to beware."
+      }
+    },
+    "line_0309": {
+      "text": {
+        "reference": "それにしても、教授は何処にいるやら。{n}はたまた、生きているやら、死んでいる{n}やら……。",
+        "translation": "Still, where could the professor be?{n}And is he alive,{n}or dead...?"
+      }
+    },
+    "line_0310": {
+      "text": {
+        "reference": "ヴィクトル：おぬしがどうかは知らぬが、{n}本物の葛葉は、いろんな所から情報を{n}集めていたようだ。",
+        "translation": "Victor: I know not how you do things,{n}but the real Kuzunoha gathered information{n}from many places."
+      }
+    },
+    "line_0311": {
+      "text": {
+        "reference": "この一連の悪魔の動きを、どう見るかが{n}解決の糸口かもな。",
+        "translation": "How you interpret this wave of demon activity{n}may be the key to solving it."
+      }
+    },
+    "line_0312": {
+      "text": {
+        "reference": "ヴィクトル：レイ・レイホゥが{n}いないようだが……。",
+        "translation": "Victor: Rei Reiho{n}does not seem to be with you..."
+      }
+    },
+    "line_0313": {
+      "text": {
+        "reference": "まあ、おぬしらの問題か。{n}私には関係あるまい。",
+        "translation": "Well, that is your concern.{n}It has nothing to do with me."
+      }
+    },
+    "line_0314": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "ヴィクトル：最近の{city}の開発は、{n}確かに、急ぎ過ぎているような感さえ{n}するな。",
+        "translation": "Victor: The recent development of {city}{n}does seem to be moving{n}far too quickly."
+      }
+    },
+    "line_0315": {
+      "text": {
+        "reference": "それも、行われているのは、霊性の{n}高い場所が目立つようだ。",
+        "translation": "Notably, much of it is taking place{n}at sites of great spiritual power."
+      }
+    },
+    "line_0316": {
+      "text": {
+        "reference": "何か大きな流れが……、この街には{n}あるのかも知れぬ。",
+        "translation": "Some vast current may be{n}moving through this city."
+      }
+    },
+    "line_0317": {
+      "text": {
+        "reference": "ヴィクトル：この界隈にも、おぬし{n}もうかなり、慣れてきたようだな。",
+        "translation": "Victor: You seem to have grown{n}quite accustomed to this area."
+      }
+    },
+    "line_0318": {
+      "text": {
+        "reference": "まあ、本物の葛葉も、いろんな所に{n}世話になっていたし、良い客であった{n}みたいだがな。",
+        "translation": "The real Kuzunoha also relied on{n}many people here, and seems to have been{n}a valued customer."
+      }
+    },
+    "line_0319": {
+      "text": {
+        "reference": "ヴィクトル：おぬしも随分と、サマナー{n}稼業が、板についてきたようだな。",
+        "translation": "Victor: You are finally looking{n}at home in the summoning trade."
+      }
+    },
+    "line_0320": {
+      "text": {
+        "reference": "それでもまだ、本物には及ばない{n}ようだがな。",
+        "translation": "You still do not measure up{n}to the real one, however."
+      }
+    },
+    "line_0321": {
+      "text": {
+        "reference": "まあ、マリーが面倒な仕事を{n}持ってきても、やってみるものだ。",
+        "translation": "Still, when Marie brings you{n}a troublesome job, give it a try."
+      }
+    },
+    "line_0322": {
+      "text": {
+        "reference": "ヴィクトル：最近出没する悪魔たちには{n}吸血鬼系のものが、どうやら多いようだ。",
+        "translation": "Victor: Many demons seen lately{n}appear to be vampiric."
+      }
+    },
+    "line_0323": {
+      "text": {
+        "reference": "やつらは、おぬしたちを「VAMP」に{n}したり、レベルを下げる攻撃を仕掛けて{n}くるから、注意するのだ。",
+        "translation": "They can inflict \"VAMP\" on you{n}or use attacks that lower your level,{n}so be careful."
+      }
+    },
+    "line_0324": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "ヴィクトル：どうやら「組織」の連中は、{n}この{city}の中枢にまで、食い込んで{n}いるらしいな。",
+        "translation": "Victor: It seems the \"Organization\"{n}has infiltrated {city} all the way{n}to its very heart."
+      }
+    },
+    "line_0325": {
+      "text": {
+        "reference": "おぬしの力が、どこまで通じるか、{n}もはや、挑むしかなかろう。",
+        "translation": "There is nothing left but to see{n}how far your power can take you."
+      }
+    },
+    "line_0326": {
+      "text": {
+        "reference": "ヴィクトル：擬似アストラル界は、異界の{n}中の異界、形無きものが形をつくる、{n}我らの預かり知らぬ世界。",
+        "translation": "Victor: The Pseudo-Astral Plane is an Otherworld{n}within an Otherworld, where the formless takes form,{n}a world beyond our ken."
+      }
+    },
+    "line_0327": {
+      "text": {
+        "reference": "故無き悪魔も出るかも知れぬ。{n}おぬしの力を信じるのみであろう。",
+        "translation": "Demons may appear without rhyme or reason.{n}All you can do is trust your own strength."
+      }
+    },
+    "line_0328": {
+      "text": {
+        "reference": "ヴィクトル：始めも無く、終わりも無い、{n}それが無間地獄…。",
+        "translation": "Victor: Without beginning, without end...{n}Such is the Avici Hell."
+      }
+    },
+    "line_0329": {
+      "text": {
+        "reference": "ヴィクトル：どうやら、おぬしも本物の{n}デビル・サマナーらしくなってきた{n}ようだな。",
+        "translation": "Victor: It seems you are finally{n}becoming a true{n}Devil Summoner."
+      }
+    },
+    "line_0330": {
+      "text": {
+        "reference": "いよいよ大詰めだ。強い悪魔をたくさん{n}連れてこい。私の合体で、さらに強い{n}悪魔にするのだ。",
+        "translation": "The end draws near. Bring me{n}many strong demons. My fusion will make them{n}stronger still."
+      }
+    },
+    "line_0331": {
+      "placeholders": {
+        "city": "location_name",
+        "first_name": "player_name",
+        "last_name": "player_name",
+        "ward": "location_name"
+      },
+      "text": {
+        "reference": "私は{city}市{ward}区に住む{n}姓は{last_name}名は{first_name}です",
+        "translation": "I live in {ward}, {city} City.{n}My name is {first_name} {last_name}."
+      }
+    },
+    "line_0332": {
+      "text": {
+        "reference": "名前をつけてやるがよい",
+        "translation": "Give it a name."
+      }
+    },
+    "line_0333": {
+      "text": {
+        "reference": "男：誰だ？",
+        "translation": "Man: Who are you?"
+      }
+    },
+    "line_0334": {
+      "text": {
+        "reference": "ここは、おまえの来る所ではない。{n}だまって、立ち去るがよい。",
+        "translation": "You have no business here.{n}Leave quietly."
+      }
+    },
+    "line_0335": {
+      "text": {
+        "reference": "ヴィクトル：いかん、私ともあろう者が{n}事故を起こしてしまった。{n}すまぬ………。",
+        "translation": "Victor: Unthinkable. Even I have caused{n}a fusion accident.{n}Forgive me..."
+      }
+    },
+    "line_0336": {
+      "text": {
+        "reference": "ヴィクトル：アイテムがいっぱいだな。",
+        "translation": "Victor: Your inventory is full."
+      }
+    },
+    "line_0337": {
+      "text": {
+        "reference": "デビルサマナー",
+        "translation": "Devil Summoner"
+      }
+    },
+    "psp_tutorial_0000": {
+      "text": {
+        "reference": "……そうだな、先に見せておこうか。{n}付いてくるがいい。",
+        "translation": "...Yes, perhaps I should show you first.{n}Follow me."
+      }
+    },
+    "psp_tutorial_0001": {
+      "text": {
+        "reference": "ここが我が合体場。{n}悪魔らを合体させ、新たな悪魔を作り出す{n}儀式の場だ。",
+        "translation": "This is my fusion chamber.{n}Here I perform the ritual of fusing demons{n}to create new ones."
+      }
+    },
+    "psp_tutorial_0002": {
+      "text": {
+        "reference": "どの悪魔を合体させるかを選ぶのは{n}おぬしだ。強い悪魔を作るがいい。{n}私はそれに従おう。",
+        "translation": "You shall choose which demons to fuse.{n}Create a powerful demon.{n}I shall honor your choice."
+      }
+    },
+    "psp_tutorial_0003": {
+      "text": {
+        "reference": "そして、もう1つ。{n}ここで、おぬしは「悪魔全書」を使う{n}ことができる。",
+        "translation": "There is one more thing.{n}Here, you may use the Demon Compendium."
+      }
+    },
+    "psp_tutorial_0004": {
+      "text": {
+        "reference": "これは、仲魔にしたことのある悪魔を{n}MAGを対価に再度、仲魔にすると{n}いう術だ。",
+        "translation": "It lets you summon any demon{n}you have recruited before,{n}in exchange for MAG."
+      }
+    },
+    "psp_tutorial_0005": {
+      "text": {
+        "reference": "「登録」を使えば、強くした悪魔データで{n}上書きができ、「閲覧」では悪魔らの{n}説明が得られ、購入ができる。",
+        "translation": "\"Register\" overwrites a record with a strengthened{n}demon's data. \"View\" lets you read descriptions and{n}purchase demons."
+      }
+    },
+    "psp_tutorial_0006": {
+      "text": {
+        "reference": "葛葉が残した悪魔らの情報をいくつか{n}転載しておこう。良ければ使うがいい。",
+        "translation": "I shall transfer some of the demon records{n}left behind by Kuzunoha.{n}Use them if you wish."
+      }
+    },
+    "confirm_prompt": {
+      "text": {
+        "reference": "合体させてよいか？",
+        "translation": "Shall I fuse them?"
+      }
+    },
+    "level_too_low": {
+      "text": {
+        "reference": "残念だが、おまえのレベルでは合体できない",
+        "translation": "I'm afraid your level is too low."
+      }
+    },
+    "duplicate_demon": {
+      "text": {
+        "reference": "同じ仲魔がいるようだな",
+        "translation": "You already have this demon."
+      }
+    },
+    "begin_fusion": {
+      "text": {
+        "reference": "では合体させるぞ",
+        "translation": "Then let us begin."
+      }
+    },
+    "label_yes": {
+      "text": {
+        "reference": "YES",
+        "translation": "Yes"
+      }
+    },
+    "label_no": {
+      "text": {
+        "reference": "NO",
+        "translation": "No"
+      }
+    }
+  }
+}

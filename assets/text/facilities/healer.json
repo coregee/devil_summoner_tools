@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "line_0346": {
+      "text": {
+        "reference": "呪いを除いた全てを回復します",
+        "translation": "Restores everything except curses."
+      }
+    },
+    "line_0347": {
+      "text": {
+        "reference": "HP・MPを回復します",
+        "translation": "Restores HP and MP."
+      }
+    },
+    "line_0348": {
+      "text": {
+        "reference": "バッドステータスを回復します",
+        "translation": "Cures status ailments."
+      }
+    },
+    "line_0349": {
+      "text": {
+        "reference": "呪いを解きます。呪い装備品は捨てられます",
+        "translation": "Lifts curses. Cursed equipment can then be discarded."
+      }
+    },
+    "line_0350": {
+      "text": {
+        "reference": "蘇生します",
+        "translation": "Revives."
+      }
+    },
+    "line_0351": {
+      "text": {
+        "reference": "ステータスを表示します",
+        "translation": "Displays status."
+      }
+    },
+    "line_0353": {
+      "text": {
+        "reference": "用があるなら奥にきな",
+        "translation": "If you've got business, come on back."
+      }
+    },
+    "line_0354": {
+      "text": {
+        "reference": "また来るがよい・・・",
+        "translation": "Come again..."
+      }
+    },
+    "line_0355": {
+      "text": {
+        "reference": "＞不思議な力があふれている・・・",
+        "translation": "> A mysterious power wells up..."
+      }
+    },
+    "line_0491": {
+      "text": {
+        "reference": "「呪い」以外をすべて回復",
+        "translation": "Restore everything except CURSE"
+      }
+    },
+    "line_0492": {
+      "text": {
+        "reference": "HP＆MPを回復",
+        "translation": "Restore HP and MP"
+      }
+    },
+    "line_0493": {
+      "text": {
+        "reference": "バッドステータスを治療",
+        "translation": "Cure status ailments"
+      }
+    },
+    "line_0494": {
+      "text": {
+        "reference": "「呪い」の状態を治療",
+        "translation": "Cure CURSE"
+      }
+    },
+    "line_0495": {
+      "text": {
+        "reference": "「DEAD」のメンバーを復活",
+        "translation": "Revive a DEAD ally"
+      }
+    },
+    "line_0496": {
+      "text": {
+        "reference": "メンバーの詳細ステータスを表示",
+        "translation": "View a member's detailed status"
+      }
+    },
+    "line_0497": {
+      "text": {
+        "reference": "この場を離れ外へ",
+        "translation": "Leave this place"
+      }
+    },
+    "line_0558": {
+      "text": {
+        "reference": "三平：おまえ、キョウジかっ！{n}…生きていやがったのか、この野郎！！",
+        "translation": "Sanpei: Kyouji, is that you?!{n}...You were alive, you bastard!!"
+      }
+    },
+    "line_0559": {
+      "text": {
+        "reference": "とにかく、奥へ来いよ！{n}どうせ、いつものヤツだろう？",
+        "translation": "Come on through to the back!{n}You're here for the usual, right?"
+      }
+    },
+    "line_0560": {
+      "text": {
+        "reference": "はやく、見せてみろよ！",
+        "translation": "Hurry up and let me take a look!"
+      }
+    },
+    "line_0561": {
+      "text": {
+        "reference": "三平：なんだ、キョウジか。",
+        "translation": "Sanpei: Oh, it's you, Kyouji."
+      }
+    },
+    "line_0562": {
+      "text": {
+        "reference": "ほら、早く来いよ！！",
+        "translation": "Come on, hurry up!!"
+      }
+    },
+    "line_0563": {
+      "text": {
+        "reference": "今日はどうしたんだ？",
+        "translation": "What brings you in today?"
+      }
+    },
+    "line_0564": {
+      "text": {
+        "reference": "三平：キョウジ！{n}おまえが死んだと聞かされて{n}俺は本当に驚いた。",
+        "translation": "Sanpei: Kyouji!{n}When I heard you were dead,{n}I was really shocked."
+      }
+    },
+    "line_0565": {
+      "text": {
+        "reference": "なにせ、ヤバい仕事をやっつけられるのは{n}おまえだけだからな。",
+        "translation": "After all, you're the only one{n}who can handle the dangerous jobs."
+      }
+    },
+    "line_0566": {
+      "text": {
+        "reference": "そうそう、最近、市立病院の友人に頼まれて{n}原因不明の病気ってヤツにかかった青年を{n}診にいったんだが、",
+        "translation": "Oh, right. A friend at the city hospital{n}recently asked me to examine a young man{n}with some strange, unexplained illness,"
+      }
+    },
+    "line_0567": {
+      "text": {
+        "reference": "結局、俺にも分からずじまいだった…。{WAIT}{n}キョウジ、おまえが追っかけてる仕事と{n}何か関係あるのか？",
+        "translation": "but even I couldn't figure it out...{WAIT}{n}Kyouji, could it have anything to do with{n}the case you're working on?"
+      }
+    },
+    "line_0568": {
+      "text": {
+        "reference": "とにかくだ、いいかキョウジ！{n}傷を負ったら、無理をしないで{n}俺のところへ戻って来い。分かったな！",
+        "translation": "Anyway, listen, Kyouji!{n}If you get hurt, don't push yourself.{n}Come straight back here. Got it?!"
+      }
+    },
+    "line_0569": {
+      "text": {
+        "reference": "三平：キョウジ、あまり無理をするなよ！{n}いいか、これは友人としての忠告だからな！",
+        "translation": "Sanpei: Kyouji, don't push yourself too hard!{n}I'm telling you this as a friend!"
+      }
+    },
+    "all_members": {
+      "text": {
+        "reference": "メンバーすべて",
+        "translation": "All Members",
+        "note": "The retail code spells the physical label メンバーすべて; the mature semantic corpus normalized it to メンバー全員."
+      }
+    }
+  }
+}

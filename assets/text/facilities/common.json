@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "exit": {
+      "text": {
+        "reference": "EXIT",
+        "translation": "EXIT"
+      }
+    },
+    "partner": {
+      "text": {
+        "reference": "パートナー",
+        "translation": "Partner"
+      }
+    },
+    "what_do_you_want": {
+      "text": {
+        "reference": "何の用だ？",
+        "translation": "What do you want?"
+      }
+    },
+    "leave": {
+      "text": {
+        "reference": "ここから出ます",
+        "translation": "Leave this place."
+      }
+    }
+  }
+}

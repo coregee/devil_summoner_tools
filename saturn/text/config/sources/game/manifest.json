@@ -112,7 +112,7 @@
       "path": "AUTOMAPC.BIN",
       "size": 243240,
       "stock_sha256": "093b6e57f5c91d4c0b6b3cac428a4e5e15d51d29a6e2f2a5a93c9cc0af329593",
-      "owned_sha256": "837db8ec0bc8b8207d7cd54f3b1467d0cdc220716216d35512717e28b027fbaf"
+      "owned_sha256": "99ef03ec2aa8537678c65ce577ed1f2d302ea2e2d7e6371d1a0662b210ad913e"
     },
     "btl_help_dat": {
       "path": "BTL_HELP.DAT",
@@ -195,7 +195,7 @@
       "path": "LOAD.BIN",
       "size": 338552,
       "stock_sha256": "100740f4671c2b4f150cfba0b539e75ee122415ec5c1dc9aeeb2f21663a1b446",
-      "owned_sha256": "66db5d0b22918bd803697b23f4c51c51cbe82cef6a1db73e79fc111aa1a0e92c"
+      "owned_sha256": "744200ade01d69f43d7a5d0131dd9080299a44aafd196a3ef143d75542abe40a"
     },
     "magname_dat": {
       "path": "MAGNAME.DAT",
@@ -241,7 +241,7 @@
       "path": "SAVE.BIN",
       "size": 334736,
       "stock_sha256": "49ce5a24f811a70b94e9ab1af327fff2e1150eb455fc1d690adc78961a68f744",
-      "owned_sha256": "ad746247c3e1ec47934f76096291f2da91003794957820c5d80be8132ba79a43"
+      "owned_sha256": "ec665cecf9efd03afd97d54646e5dc97cb56512341cba2559054afadd95d0bc5"
     },
     "sndtest_bin": {
       "path": "SNDTEST.BIN",
@@ -2941,28 +2941,48 @@
     },
     {
       "id": "dungeon_locations",
-      "corpus": "fixed/dungeon_locations.json",
+      "corpus": "addressed/dungeon_locations.json",
       "container": {
-        "type": "fixed_records",
+        "type": "addressed",
         "file": "maze_bin",
-        "blocks": [
+        "default_source_encoding": "game_font16_plain_skip",
+        "tables": [
           {
-            "base": "0x2532c",
+            "name": "locations",
             "count": 144,
-            "stride": "0x20"
-          }
-        ],
-        "fields": [
-          {
-            "name": "text",
-            "offset": "0x2",
-            "units": 5,
-            "source_encoding": "game_font16_plain_skip",
             "framing": {
               "type": "none"
-            }
+            },
+            "require_identical_bytes": true,
+            "locations": [
+              {
+                "file": "maze_bin",
+                "base": "0x2532e",
+                "stride": "0x20",
+                "units": 5
+              },
+              {
+                "file": "automapc_bin",
+                "base": "0x3a41a",
+                "stride": "0x20",
+                "units": 5
+              },
+              {
+                "file": "save_bin",
+                "base": "0x5092a",
+                "stride": "0x20",
+                "units": 5
+              },
+              {
+                "file": "load_bin",
+                "base": "0x51812",
+                "stride": "0x20",
+                "units": 5
+              }
+            ]
           }
-        ]
+        ],
+        "records": []
       }
     },
     {

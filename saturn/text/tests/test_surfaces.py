@@ -76,6 +76,46 @@ class SurfaceCatalogTests(unittest.TestCase):
             ("font16", 1, "pixels", 224),
         )
 
+        expected_locations = {
+            "map_3d.location": (
+                ("font16", 1, "glyph_cells", 4),
+                ("font16", 2, "pixels", 64),
+            ),
+            "map_3d.floor": (
+                ("font16", 1, "glyph_cells", 4),
+                ("font16", 1, "pixels", 64),
+            ),
+            "automap.entry": (
+                ("font16", 1, "glyph_cells", 7),
+                ("font16", 1, "pixels", 112),
+            ),
+            "save_load.dungeon_location": (
+                ("font16", 1, "glyph_cells", 7),
+                ("font16", 1, "pixels", 144),
+            ),
+        }
+        for name, (expected_ja, expected_en) in expected_locations.items():
+            with self.subTest(surface=name):
+                surface = self.catalog.surface(name)
+                self.assertEqual(
+                    (
+                        surface.ja.font,
+                        surface.ja.rows,
+                        surface.ja.width.unit,
+                        surface.ja.width.value,
+                    ),
+                    expected_ja,
+                )
+                self.assertEqual(
+                    (
+                        surface.en.font,
+                        surface.en.rows,
+                        surface.en.width.unit,
+                        surface.en.width.value,
+                    ),
+                    expected_en,
+                )
+
     def test_documented_fixed_width_japanese_geometries(self) -> None:
         expected = {
             "battle.help": ("font16", 2, 20),
@@ -139,6 +179,55 @@ class SurfaceCatalogTests(unittest.TestCase):
             ("font16", 1, "pixels", 128),
         )
 
+    def test_race_and_affinity_geometries_cover_each_consumer(self) -> None:
+        expected = {
+            "battle.analyze_race_heading": (
+                ("font8", 1, "glyph_cells", 5),
+                ("font8", 1, "glyph_cells", 8),
+            ),
+            "battle.analyze_affinity": (
+                ("font12", 1, "glyph_cells", 5),
+                ("font8", 1, "pixels", 112),
+            ),
+            "status.affinity": (
+                ("font12", 2, "glyph_cells", 8),
+                ("font8", 2, "pixels", 128),
+            ),
+            "fusion.preview_race": (
+                ("font12", 1, "glyph_cells", 2),
+                ("font12", 1, "pixels", 24),
+            ),
+            "fusion.chart_race": (
+                ("font12", 1, "glyph_cells", 2),
+                ("font8", 1, "pixels", 26),
+            ),
+            "fusion.table_race": (
+                ("font12", 1, "glyph_cells", 2),
+                ("font8", 1, "pixels", 40),
+            ),
+        }
+        for name, (expected_ja, expected_en) in expected.items():
+            with self.subTest(surface=name):
+                surface = self.catalog.surface(name)
+                self.assertEqual(
+                    (
+                        surface.ja.font,
+                        surface.ja.rows,
+                        surface.ja.width.unit,
+                        surface.ja.width.value,
+                    ),
+                    expected_ja,
+                )
+                self.assertEqual(
+                    (
+                        surface.en.font,
+                        surface.en.rows,
+                        surface.en.width.unit,
+                        surface.en.width.value,
+                    ),
+                    expected_en,
+                )
+
     def test_unmeasured_limits_remain_explicitly_unknown(self) -> None:
         demon_chat_en = self.catalog.surface("battle.demon_chat").en
         self.assertIsNone(demon_chat_en.font)
@@ -155,7 +244,6 @@ class SurfaceCatalogTests(unittest.TestCase):
     def test_demon_surface_slots_are_recorded_without_guessed_limits(self) -> None:
         known_font_rows = {
             "battle.party_demon_name": ("font8", 1),
-            "battle.analyze_demon_name": ("font8", 1),
             "comp.party_demon_name": ("font8", 1),
             "comp.stock_demon_name": ("font8", 1),
             "status.demon_name": ("font16", 1),
@@ -169,9 +257,21 @@ class SurfaceCatalogTests(unittest.TestCase):
                 self.assertIsNone(surface.en.rows)
                 self.assertFalse(surface.en.width.known)
 
+        battle_analyze = self.catalog.surface("battle.analyze_demon_name")
+        self.assertEqual(
+            (
+                battle_analyze.en.font,
+                battle_analyze.en.rows,
+                battle_analyze.en.width.unit,
+                battle_analyze.en.width.value,
+            ),
+            ("font8", 1, "pixels", 112),
+        )
+
         for name in (
             "compendium.ability_name",
             "compendium.profile_name",
+            "compendium.race",
             "compendium.origin",
             "compendium.summary",
             "compendium.detail",

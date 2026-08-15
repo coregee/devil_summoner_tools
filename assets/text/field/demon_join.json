@@ -1,0 +1,304 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "line_0451": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "ワレハ{race}{demon_name}{n}コンゴトモヨロシク",
+        "translation": "I AM {race} {demon_name}.{n}I LOOK FORWARD TO WORKING WITH YOU."
+      }
+    },
+    "line_0452": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "オレサマハ{race}{demon_name}{n}コノオレノチカラミセテヤロウ",
+        "translation": "I AM {race} {demon_name}!{n}BEHOLD MY POWER!"
+      }
+    },
+    "line_0453": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "我は{demon_name}{race}なり{n}そなたに加勢して進ぜよう",
+        "translation": "I am {demon_name} of the {race}.{n}I shall lend thee my aid."
+      }
+    },
+    "line_0454": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "私は{race}{demon_name}{n}貴方を主とし力戦すること{n}この名に掛けて誓いましょう",
+        "translation": "I am {race} {demon_name}.{n}I swear upon my name to take you as my master{n}and fight with all my strength."
+      }
+    },
+    "line_0455": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "わたくしは{race}{demon_name}{n}貴方の命運のため御助力いたしましょう",
+        "translation": "I am {race} {demon_name}.{n}I shall aid you in shaping your destiny."
+      }
+    },
+    "line_0456": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "俺は{race}{demon_name}だ{n}ま今後ともよろしく頼むぜ",
+        "translation": "I'm {race} {demon_name}.{n}Good to be working with you."
+      }
+    },
+    "line_0457": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "first_name": "player_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "{demon_name}は{race}なの{n}{first_name}さんよろしくネ",
+        "translation": "I'm {demon_name}, a {race}.{n}Nice to meet you, {first_name}!"
+      }
+    },
+    "line_0458": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "ボク{race}{demon_name}！{n}今後ともよろしくー！",
+        "translation": "I'm {race} {demon_name}!{n}Let's be friends!"
+      }
+    },
+    "line_0459": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "あたし{race}{demon_name}！{n}女の子なんだからやさしくしてね",
+        "translation": "I'm {race} {demon_name}!{n}I'm a girl, so be nice to me, okay?"
+      }
+    },
+    "line_0460": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "アタシは{race}{demon_name}{n}どーぞ今後ともよろしく",
+        "translation": "I'm {race} {demon_name}.{n}Do take good care of me."
+      }
+    },
+    "line_0461": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "オレは{race}{demon_name}だ！{n}オレは{race}{demon_name}だ！{n}オレが{race}{demon_name}だ！！",
+        "translation": "I'm {race} {demon_name}!{n}I'm {race} {demon_name}!{n}I'M {race} {demon_name}!!"
+      }
+    },
+    "line_0462": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "わしは{race}{demon_name}{n}お若いのよろしくな",
+        "translation": "I am {race} {demon_name}.{n}I'm counting on you, youngster."
+      }
+    },
+    "line_0463": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "俺は{race}{demon_name}{n}あんまりムチャさせんなよ",
+        "translation": "I'm {race} {demon_name}.{n}Don't push me too hard."
+      }
+    },
+    "line_0464": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "わいが{race}{demon_name}や！{n}文句あんのかおんどれ！！",
+        "translation": "I'm {race} {demon_name}!{n}You got a problem with that, punk?!"
+      }
+    },
+    "line_0465": {
+      "text": {
+        "reference": "ズル・・・・・・ズル・・・・・・・・{n}ズズ・・・ズズー・・・・・",
+        "translation": "Slrrp...... Slrrp........{n}Sluurp... Sluuurp....."
+      }
+    },
+    "line_0466": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "ワタシハ{race}{demon_name}{n}アナタノ命令ニシタガイマス",
+        "translation": "I AM {race} {demon_name}.{n}I WILL OBEY YOUR ORDERS."
+      }
+    },
+    "line_0467": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "われは{demon_name}{n}幸なる力にてそなたを助けん",
+        "translation": "I am {demon_name}.{n}My blessed power shall aid thee."
+      }
+    },
+    "line_0468": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "われは{demon_name}{n}奇なる力にてそなたを助けん",
+        "translation": "I am {demon_name}.{n}My wondrous power shall aid thee."
+      }
+    },
+    "line_0469": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "われは{demon_name}{n}荒ぶる力にてそなたを助けん",
+        "translation": "I am {demon_name}.{n}My raging power shall aid thee."
+      }
+    },
+    "line_0470": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "われは{demon_name}{n}和なる力にてそなたを助けん",
+        "translation": "I am {demon_name}.{n}My harmonious power shall aid thee."
+      }
+    },
+    "line_0471": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "私は{race}{demon_name}{n}いつでもあなたと共にあり{n}全ての邪悪を滅しましょう",
+        "translation": "I am {race} {demon_name}.{n}I shall stand beside you always{n}and destroy all evil."
+      }
+    },
+    "line_0472": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "我は{race}{demon_name}{n}ここに誓いを立て貴殿を我が主君とし{n}身命掛けて御守り致しましょう",
+        "translation": "I am {race} {demon_name}.{n}I swear to take you as my liege{n}and guard you with my life."
+      }
+    },
+    "line_0473": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "我は{race}{demon_name}{n}我が降魔の力そなたに御貸しいたそう",
+        "translation": "I am {race} {demon_name}.{n}I shall lend you my demon-quelling power."
+      }
+    },
+    "line_0474": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "{demon_name}見参！！",
+        "translation": "{demon_name} has arrived!!"
+      }
+    },
+    "line_0475": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "わたしは{race}{demon_name}{n}わが自由もわが平等もわが博愛も{n}あなたのお手に預けましょう",
+        "translation": "I am {race} {demon_name}.{n}My liberty, equality, and fraternity{n}are now entrusted to you."
+      }
+    },
+    "line_0476": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "我は{race}{demon_name}{n}黄泉に生きる者の力お目にかけよう",
+        "translation": "I am {race} {demon_name}.{n}Behold the power of one who dwells in Yomi."
+      }
+    },
+    "line_0477": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "わしは{race}{demon_name}じゃ{n}地獄の案内ならおまかせくだされ",
+        "translation": "I am {race} {demon_name}.{n}Leave it to me if you need a guide through Hell."
+      }
+    },
+    "line_0478": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "オレは{race}{demon_name}{n}冥府の淵よりここに参上",
+        "translation": "I am {race} {demon_name}.{n}I have come from the depths of the underworld."
+      }
+    },
+    "line_0479": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "私は{race}{demon_name}{n}奈落の声を聞くがよい・・・",
+        "translation": "I am {race} {demon_name}.{n}Hear the voice of the abyss..."
+      }
+    },
+    "line_0480": {
+      "placeholders": {
+        "demon_name": "demon_name",
+        "race": "demon_race"
+      },
+      "text": {
+        "reference": "わたしは{race}{demon_name}・・・{n}死の安らぎを全てのものに・・・・・・",
+        "translation": "I am {race} {demon_name}...{n}May death's peace come to all..."
+      }
+    },
+    "line_0481": {
+      "text": {
+        "reference": "本官は屍鬼ゾンビコップであります！{n}今後ともよろしくお願いするであります！",
+        "translation": "I am Haunt Zombie Cop, reporting for duty!{n}I look forward to serving with you!"
+      }
+    }
+  }
+}

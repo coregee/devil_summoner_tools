@@ -1,0 +1,686 @@
+{
+  "version": 1,
+  "kind": "entity_catalog",
+  "entries": {
+    "deity": {
+      "name": {
+        "reference": "魔神",
+        "translation": "Deity"
+      },
+      "fusion_preview_label": {
+        "reference": "魔神",
+        "translation": "DE"
+      },
+      "fusion_chart_label": {
+        "reference": "魔神",
+        "translation": "Deity"
+      }
+    },
+    "megami": {
+      "name": {
+        "reference": "女神",
+        "translation": "Megami"
+      },
+      "fusion_preview_label": {
+        "reference": "女神",
+        "translation": "MG"
+      },
+      "fusion_chart_label": {
+        "reference": "女神",
+        "translation": "Mega"
+      }
+    },
+    "herald": {
+      "name": {
+        "reference": "大天使",
+        "translation": "Herald"
+      },
+      "fusion_preview_label": {
+        "reference": "大天使",
+        "translation": "HR"
+      },
+      "fusion_chart_label": {
+        "reference": "大天",
+        "translation": "Hera",
+        "variants": {
+          "catalog_source": {
+            "reference": "大天使",
+            "note": "The canonical race catalogue spells out the name; the fusion chart owns the compact source form."
+          }
+        }
+      }
+    },
+    "avian": {
+      "name": {
+        "reference": "霊鳥",
+        "translation": "Avian"
+      },
+      "fusion_preview_label": {
+        "reference": "霊鳥",
+        "translation": "AV"
+      },
+      "fusion_chart_label": {
+        "reference": "霊鳥",
+        "translation": "Avia"
+      }
+    },
+    "tree": {
+      "name": {
+        "reference": "神樹",
+        "translation": "Tree"
+      },
+      "fusion_preview_label": {
+        "reference": "神樹",
+        "translation": "TR"
+      },
+      "fusion_chart_label": {
+        "reference": "神樹",
+        "translation": "Tree"
+      }
+    },
+    "enigma": {
+      "name": {
+        "reference": "秘神",
+        "translation": "Enigma"
+      },
+      "fusion_preview_label": {
+        "reference": "秘神",
+        "translation": "EN"
+      },
+      "fusion_chart_label": {
+        "reference": "秘神",
+        "translation": "Enig"
+      }
+    },
+    "genma": {
+      "name": {
+        "reference": "幻魔",
+        "translation": "Genma"
+      },
+      "fusion_preview_label": {
+        "reference": "幻魔",
+        "translation": "GE"
+      },
+      "fusion_chart_label": {
+        "reference": "幻魔",
+        "translation": "Genm"
+      }
+    },
+    "avatar": {
+      "name": {
+        "reference": "神獣",
+        "translation": "Avatar"
+      },
+      "fusion_preview_label": {
+        "reference": "神獣",
+        "translation": "AT"
+      },
+      "fusion_chart_label": {
+        "reference": "神獣",
+        "translation": "Avat"
+      }
+    },
+    "holy": {
+      "name": {
+        "reference": "聖獣",
+        "translation": "Holy"
+      },
+      "fusion_preview_label": {
+        "reference": "聖獣",
+        "translation": "HO"
+      },
+      "fusion_chart_label": {
+        "reference": "聖獣",
+        "translation": "Holy"
+      }
+    },
+    "element": {
+      "name": {
+        "reference": "精霊",
+        "translation": "Element"
+      },
+      "fusion_preview_label": {
+        "reference": "精霊",
+        "translation": "EL"
+      },
+      "fusion_chart_label": {
+        "reference": "精霊",
+        "translation": "Elem"
+      }
+    },
+    "mitama": {
+      "name": {
+        "reference": "御魂",
+        "translation": "Mitama"
+      },
+      "fusion_preview_label": {
+        "reference": "御魂",
+        "translation": "MI"
+      },
+      "fusion_chart_label": {
+        "reference": "御魂",
+        "translation": "Mita"
+      }
+    },
+    "hero": {
+      "name": {
+        "reference": "英雄",
+        "translation": "Hero"
+      },
+      "fusion_preview_label": {
+        "reference": "英雄",
+        "translation": "HE"
+      },
+      "fusion_chart_label": {
+        "reference": "英雄",
+        "translation": "Hero"
+      }
+    },
+    "fury": {
+      "name": {
+        "reference": "破壊神",
+        "translation": "Fury"
+      },
+      "fusion_preview_label": {
+        "reference": "破壊神",
+        "translation": "FU"
+      },
+      "fusion_chart_label": {
+        "reference": "破壊",
+        "translation": "Fury",
+        "variants": {
+          "catalog_source": {
+            "reference": "破壊神",
+            "note": "The canonical race catalogue spells out the name; the fusion chart owns the compact source form."
+          }
+        }
+      }
+    },
+    "lady": {
+      "name": {
+        "reference": "地母神",
+        "translation": "Lady"
+      },
+      "fusion_preview_label": {
+        "reference": "地母神",
+        "translation": "LA"
+      },
+      "fusion_chart_label": {
+        "reference": "地母",
+        "translation": "Lady",
+        "variants": {
+          "catalog_source": {
+            "reference": "地母神",
+            "note": "The canonical race catalogue spells out the name; the fusion chart owns the compact source form."
+          }
+        }
+      }
+    },
+    "kishin": {
+      "name": {
+        "reference": "鬼神",
+        "translation": "Kishin"
+      },
+      "fusion_preview_label": {
+        "reference": "鬼神",
+        "translation": "KI"
+      },
+      "fusion_chart_label": {
+        "reference": "鬼神",
+        "translation": "Kishi"
+      }
+    },
+    "dragon": {
+      "name": {
+        "reference": "龍神",
+        "translation": "Dragon"
+      },
+      "fusion_preview_label": {
+        "reference": "龍神",
+        "translation": "DG"
+      },
+      "fusion_chart_label": {
+        "reference": "龍神",
+        "translation": "Drag"
+      }
+    },
+    "divine": {
+      "name": {
+        "reference": "天使",
+        "translation": "Divine"
+      },
+      "fusion_preview_label": {
+        "reference": "天使",
+        "translation": "DV"
+      },
+      "fusion_chart_label": {
+        "reference": "天使",
+        "translation": "Divin"
+      }
+    },
+    "flight": {
+      "name": {
+        "reference": "妖鳥",
+        "translation": "Flight"
+      },
+      "fusion_preview_label": {
+        "reference": "妖鳥",
+        "translation": "FL"
+      },
+      "fusion_chart_label": {
+        "reference": "妖鳥",
+        "translation": "Fligh"
+      }
+    },
+    "yoma": {
+      "name": {
+        "reference": "妖魔",
+        "translation": "Yoma"
+      },
+      "fusion_preview_label": {
+        "reference": "妖魔",
+        "translation": "YO"
+      },
+      "fusion_chart_label": {
+        "reference": "妖魔",
+        "translation": "Yoma"
+      }
+    },
+    "fairy": {
+      "name": {
+        "reference": "妖精",
+        "translation": "Fairy"
+      },
+      "fusion_preview_label": {
+        "reference": "妖精",
+        "translation": "FY"
+      },
+      "fusion_chart_label": {
+        "reference": "妖精",
+        "translation": "Fairy"
+      }
+    },
+    "snake": {
+      "name": {
+        "reference": "龍王",
+        "translation": "Snake"
+      },
+      "fusion_preview_label": {
+        "reference": "龍王",
+        "translation": "SN"
+      },
+      "fusion_chart_label": {
+        "reference": "龍王",
+        "translation": "Snak"
+      }
+    },
+    "beast": {
+      "name": {
+        "reference": "魔獣",
+        "translation": "Beast"
+      },
+      "fusion_preview_label": {
+        "reference": "魔獣",
+        "translation": "BE"
+      },
+      "fusion_chart_label": {
+        "reference": "魔獣",
+        "translation": "Beas"
+      }
+    },
+    "uma": {
+      "name": {
+        "reference": "珍獣",
+        "translation": "UMA"
+      },
+      "fusion_preview_label": {
+        "reference": "珍獣",
+        "translation": "UM"
+      },
+      "fusion_chart_label": {
+        "reference": "珍獣",
+        "translation": "UMA"
+      }
+    },
+    "jirae": {
+      "name": {
+        "reference": "地霊",
+        "translation": "Jirae"
+      },
+      "fusion_preview_label": {
+        "reference": "地霊",
+        "translation": "JI"
+      },
+      "fusion_chart_label": {
+        "reference": "地霊",
+        "translation": "Jirae"
+      }
+    },
+    "night": {
+      "name": {
+        "reference": "夜魔",
+        "translation": "Night"
+      },
+      "fusion_preview_label": {
+        "reference": "夜魔",
+        "translation": "NI"
+      },
+      "fusion_chart_label": {
+        "reference": "夜魔",
+        "translation": "Night"
+      }
+    },
+    "fallen": {
+      "name": {
+        "reference": "堕天使",
+        "translation": "Fallen"
+      },
+      "fusion_preview_label": {
+        "reference": "堕天使",
+        "translation": "FA"
+      },
+      "fusion_chart_label": {
+        "reference": "堕天",
+        "translation": "Falle",
+        "variants": {
+          "catalog_source": {
+            "reference": "堕天使",
+            "note": "The canonical race catalogue spells out the name; the fusion chart owns the compact source form."
+          }
+        }
+      }
+    },
+    "brute": {
+      "name": {
+        "reference": "妖鬼",
+        "translation": "Brute"
+      },
+      "fusion_preview_label": {
+        "reference": "妖鬼",
+        "translation": "BR"
+      },
+      "fusion_chart_label": {
+        "reference": "妖鬼",
+        "translation": "Brut"
+      }
+    },
+    "femme": {
+      "name": {
+        "reference": "鬼女",
+        "translation": "Femme"
+      },
+      "fusion_preview_label": {
+        "reference": "鬼女",
+        "translation": "FE"
+      },
+      "fusion_chart_label": {
+        "reference": "鬼女",
+        "translation": "Femm"
+      }
+    },
+    "vile": {
+      "name": {
+        "reference": "邪神",
+        "translation": "Vile"
+      },
+      "fusion_preview_label": {
+        "reference": "邪神",
+        "translation": "VI"
+      },
+      "fusion_chart_label": {
+        "reference": "邪神",
+        "translation": "Vile"
+      }
+    },
+    "raptor": {
+      "name": {
+        "reference": "凶鳥",
+        "translation": "Raptor"
+      },
+      "fusion_preview_label": {
+        "reference": "凶鳥",
+        "translation": "RA"
+      },
+      "fusion_chart_label": {
+        "reference": "凶鳥",
+        "translation": "Rapt"
+      }
+    },
+    "wood": {
+      "name": {
+        "reference": "妖樹",
+        "translation": "Wood"
+      },
+      "fusion_preview_label": {
+        "reference": "妖樹",
+        "translation": "WO"
+      },
+      "fusion_chart_label": {
+        "reference": "妖樹",
+        "translation": "Wood"
+      }
+    },
+    "reaper": {
+      "name": {
+        "reference": "死神",
+        "translation": "Reaper"
+      },
+      "fusion_preview_label": {
+        "reference": "死神",
+        "translation": "RE"
+      },
+      "fusion_chart_label": {
+        "reference": "死神",
+        "translation": "Reap"
+      }
+    },
+    "wilder": {
+      "name": {
+        "reference": "妖獣",
+        "translation": "Wilder"
+      },
+      "fusion_preview_label": {
+        "reference": "妖獣",
+        "translation": "WI"
+      },
+      "fusion_chart_label": {
+        "reference": "妖獣",
+        "translation": "Wilde"
+      }
+    },
+    "jaki": {
+      "name": {
+        "reference": "邪鬼",
+        "translation": "Jaki"
+      },
+      "fusion_preview_label": {
+        "reference": "邪鬼",
+        "translation": "JA"
+      },
+      "fusion_chart_label": {
+        "reference": "邪鬼",
+        "translation": "Jaki"
+      }
+    },
+    "haunt": {
+      "name": {
+        "reference": "屍鬼",
+        "translation": "Haunt"
+      },
+      "fusion_preview_label": {
+        "reference": "屍鬼",
+        "translation": "HA"
+      },
+      "fusion_chart_label": {
+        "reference": "屍鬼",
+        "translation": "Haun"
+      }
+    },
+    "vermin": {
+      "name": {
+        "reference": "妖虫",
+        "translation": "Vermin"
+      },
+      "fusion_preview_label": {
+        "reference": "妖虫",
+        "translation": "VE"
+      },
+      "fusion_chart_label": {
+        "reference": "妖虫",
+        "translation": "Verm"
+      }
+    },
+    "tyrant": {
+      "name": {
+        "reference": "魔王",
+        "translation": "Tyrant"
+      },
+      "fusion_preview_label": {
+        "reference": "魔王",
+        "translation": "TY"
+      },
+      "fusion_chart_label": {
+        "reference": "魔王",
+        "translation": "Tyra"
+      }
+    },
+    "drake": {
+      "name": {
+        "reference": "邪龍",
+        "translation": "Drake"
+      },
+      "fusion_preview_label": {
+        "reference": "邪龍",
+        "translation": "DR"
+      },
+      "fusion_chart_label": {
+        "reference": "邪龍",
+        "translation": "Drak"
+      }
+    },
+    "ghost": {
+      "name": {
+        "reference": "幽鬼",
+        "translation": "Ghost"
+      },
+      "fusion_preview_label": {
+        "reference": "幽鬼",
+        "translation": "GH"
+      },
+      "fusion_chart_label": {
+        "reference": "幽鬼",
+        "translation": "Ghos"
+      }
+    },
+    "spirit": {
+      "name": {
+        "reference": "悪霊",
+        "translation": "Spirit"
+      },
+      "fusion_preview_label": {
+        "reference": "悪霊",
+        "translation": "SP"
+      },
+      "fusion_chart_label": {
+        "reference": "悪霊",
+        "translation": "Spiri"
+      }
+    },
+    "foul": {
+      "name": {
+        "reference": "外道",
+        "translation": "Foul"
+      },
+      "fusion_preview_label": {
+        "reference": "外道",
+        "translation": "FO"
+      },
+      "fusion_chart_label": {
+        "reference": "外道",
+        "translation": "Foul"
+      }
+    },
+    "zoma": {
+      "name": {
+        "reference": "造魔",
+        "translation": "Zoma"
+      },
+      "fusion_preview_label": {
+        "reference": "造魔",
+        "translation": "ZO"
+      },
+      "fusion_chart_label": {
+        "reference": "造魔",
+        "translation": "Zoma"
+      }
+    },
+    "human": {
+      "name": {
+        "reference": "人",
+        "translation": "Human",
+        "variants": {
+          "psp": {
+            "reference": "",
+            "translation": "",
+            "note": "The PSP race table leaves this slot blank."
+          }
+        }
+      },
+      "fusion_preview_label": {
+        "reference": "人",
+        "translation": "HU"
+      },
+      "fusion_chart_label": {
+        "reference": "人",
+        "translation": "Time"
+      },
+      "fusion_name": {
+        "reference": "人",
+        "translation": "Time",
+        "note": "The fusion screens deliberately call the final race Time."
+      }
+    },
+    "time": {
+      "name": {
+        "reference": "時間",
+        "translation": "Time"
+      },
+      "fusion_group_label": {
+        "reference": "時",
+        "translation": "Time"
+      }
+    },
+    "vengeful_spirit": {
+      "status": "unresolved",
+      "note": "Bonus-disc race label with no mature English output.",
+      "name": {
+        "reference": "怨霊",
+        "translation": ""
+      }
+    },
+    "fiend": {
+      "status": "unresolved",
+      "note": "Bonus-disc race label with no mature English output.",
+      "name": {
+        "reference": "魔人",
+        "translation": ""
+      }
+    },
+    "compendium_race_placeholder_a": {
+      "status": "reserve",
+      "note": "Unresolved raw bonus-disc placeholder; identity retained.",
+      "name": {
+        "reference": "{GLYPH:00b4}{GLYPH:00b4}{GLYPH:00b4}",
+        "translation": ""
+      }
+    },
+    "compendium_race_placeholder_b": {
+      "status": "reserve",
+      "note": "Second independently addressable bonus-disc placeholder.",
+      "name": {
+        "reference": "{GLYPH:00b4}{GLYPH:00b4}{GLYPH:00b4}",
+        "translation": ""
+      }
+    }
+  }
+}

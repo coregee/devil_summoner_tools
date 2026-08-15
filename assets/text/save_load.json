@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "empty": {
+      "text": {
+        "reference": "未使用",
+        "translation": "EMPTY"
+      }
+    },
+    "prompt_overwrite": {
+      "text": {
+        "reference": "記録の更新をしますか？",
+        "translation": "Overwrite?"
+      }
+    },
+    "prompt_quit_game": {
+      "text": {
+        "reference": "ゲームを終了しますか？",
+        "translation": "Quit game?"
+      }
+    },
+    "save_write_failure": {
+      "text": {
+        "reference": "正しく記録を保存できませんでした。{n}やり直してください。",
+        "translation": "Unable to save.{n}Please try again."
+      }
+    },
+    "save_capacity_error": {
+      "text": {
+        "reference": "容量不足のためセーブできません{n}セーブには129ブロックが必要です",
+        "translation": "Not enough space to save.{n}Save requires 129 blocks."
+      }
+    },
+    "save_capacity_failure": {
+      "text": {
+        "reference": "記録を保存できません。{n}記録には129ブロック{n}の容量が必要です。",
+        "translation": "Unable to save data.{n}129 free blocks are{n}required."
+      }
+    },
+    "start_without_save_warning": {
+      "text": {
+        "reference": "このままゲームを開始した場合記録を保存することができません。{n}それでもゲームを開始する場合はスタートボタンを押して下さい。",
+        "translation": "If you begin now, your progress cannot be saved.{n}To begin anyway, press START."
+      }
+    },
+    "insufficient_free_space_instructions": {
+      "text": {
+        "reference": "このゲームの記録を、保存するためには、129の空き容量が必要です。{n}セガサターン本体の保存データ管理画面で他ゲームの記録を消す、またはカートリッジRAMにコピーしてからゲームを再スタートして下さい。",
+        "translation": "This game requires 129 blocks to save.{n}Free blocks using the Sega Saturn save data screen, or move data to cartridge RAM and restart the game."
+      }
+    },
+    "load_failure": {
+      "text": {
+        "reference": "ファイルを正しくロードできませんでした。{n}やり直してください。",
+        "translation": "Could not load file.{n}Please try again."
+      }
+    },
+    "capacity_number": {
+      "text": {
+        "reference": "129",
+        "translation": "129"
+      }
+    },
+    "save_heading": {
+      "text": {
+        "reference": "SAVE",
+        "translation": "SAVE"
+      }
+    },
+    "load_heading": {
+      "text": {
+        "reference": "LOAD",
+        "translation": "LOAD"
+      }
+    },
+    "new_game": {
+      "text": {
+        "reference": "NEW GAME",
+        "translation": "NEW GAME"
+      }
+    },
+    "storage_internal": {
+      "text": {
+        "reference": "本体",
+        "translation": "INTERNAL"
+      }
+    },
+    "storage_cartridge": {
+      "text": {
+        "reference": "カートリッジ",
+        "translation": "CARTRIDGE"
+      }
+    },
+    "psp_game_title": {
+      "text": {
+        "reference": "Devil Summoner",
+        "translation": "Devil Summoner"
+      }
+    },
+    "psp_slot_title": {
+      "text": {
+        "reference": "Devil Summoner Save Data",
+        "translation": "Devil Summoner Save Data"
+      }
+    },
+    "psp_difficulty_normal": {
+      "text": {
+        "reference": "Normal",
+        "translation": "Normal"
+      }
+    },
+    "psp_difficulty_hard": {
+      "text": {
+        "reference": "Hard",
+        "translation": "Hard"
+      }
+    },
+    "psp_cancel_load": {
+      "text": {
+        "reference": "Do you want to cancel loading?",
+        "translation": "Do you want to cancel loading?"
+      }
+    },
+    "psp_cancel_save": {
+      "text": {
+        "reference": "Do you want to cancel saving?",
+        "translation": "Do you want to cancel saving?"
+      }
+    },
+    "psp_unknown_location": {
+      "text": {
+        "reference": "Unknown",
+        "translation": "Unknown"
+      }
+    },
+    "psp_detail": {
+      "placeholders": {
+        "codename": "player_codename",
+        "difficulty": "difficulty_label",
+        "hours": "number",
+        "level": "number",
+        "location": "location_name",
+        "minutes": "number"
+      },
+      "text": {
+        "reference": "Shin Megami Tensei: Devil Summoner - Save Data{n}{codename} Lv. {level} ({difficulty}){n}{location} ({hours}:{minutes})",
+        "translation": "Shin Megami Tensei: Devil Summoner - Save Data{n}{codename} Lv. {level} ({difficulty}){n}{location} ({hours}:{minutes})",
+        "note": "Complete PSP savedata detail template. Runtime may format the numeric values but owns no visible prose or punctuation."
+      }
+    }
+  }
+}

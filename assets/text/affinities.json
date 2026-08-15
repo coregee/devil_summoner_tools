@@ -1,0 +1,1150 @@
+{
+  "version": 1,
+  "kind": "entity_catalog",
+  "entries": {
+    "mirror": {
+      "description": {
+        "reference": "物理攻撃に弱{n}魔法を反射",
+        "translation": "Weak: Physical{n}Reflects: Magic"
+      },
+      "battle_summary": {
+        "reference": "ミラー",
+        "translation": "Mirror"
+      }
+    },
+    "card": {
+      "description": {
+        "reference": "火炎に弱",
+        "translation": "Weak: Fire"
+      },
+      "battle_summary": {
+        "reference": "カード",
+        "translation": "Card"
+      }
+    },
+    "resists_physicalical_nulls_expel": {
+      "description": {
+        "reference": "物理に強{n}破魔無効",
+        "translation": "Resists: Physical{n}Nulls: Expel"
+      },
+      "battle_summary": {
+        "reference": "物理に強い",
+        "translation": "Resists: Phys"
+      }
+    },
+    "resists_magic_nulls_expel": {
+      "description": {
+        "reference": "魔法に強{n}破魔無効",
+        "translation": "Resists: Magic{n}Nulls: Expel"
+      },
+      "battle_summary": {
+        "reference": "魔法に強い",
+        "translation": "Resists: Magic"
+      }
+    },
+    "resists_all_nulls_expel": {
+      "description": {
+        "reference": "全攻撃に強{n}破魔無効",
+        "translation": "Resists: All{n}Nulls: Expel"
+      },
+      "battle_summary": {
+        "reference": "全攻撃に強",
+        "translation": "Resists: All"
+      }
+    },
+    "reflects_fire_weak_ice_nulls_expel": {
+      "description": {
+        "reference": "火炎反射{n}氷結に弱{n}破魔無効",
+        "translation": "Reflects: Fire{n}Weak: Ice, Nulls: Expel"
+      },
+      "battle_summary": {
+        "reference": "火炎を反射",
+        "translation": "Reflects: Fire"
+      }
+    },
+    "nulls_fire_expel_weak_ice": {
+      "description": {
+        "reference": "火炎無効{n}氷結に弱{n}破魔無効",
+        "translation": "Nulls: Fire, Expel{n}Weak: Ice"
+      },
+      "battle_summary": {
+        "reference": "火炎無効",
+        "translation": "Nulls: Fire"
+      }
+    },
+    "reflects_ice_weak_fire_nulls_expel": {
+      "description": {
+        "reference": "氷結反射{n}火炎に弱{n}破魔無効",
+        "translation": "Reflects: Ice{n}Weak: Fire, Nulls: Expel"
+      },
+      "battle_summary": {
+        "reference": "氷結反射",
+        "translation": "Reflects: Ice"
+      }
+    },
+    "resists_force_psy_weak_fire_nulls_expel": {
+      "description": {
+        "reference": "衝・念に強{n}火炎に弱{n}破魔無効",
+        "translation": "Resists: Force, Psy{n}Weak: Fire, Nulls: Expel"
+      },
+      "battle_summary": {
+        "reference": "火炎に弱い",
+        "translation": "Weak: Fire"
+      }
+    },
+    "nulls_ice_expel": {
+      "description": {
+        "reference": "氷結無効{n}破魔無効",
+        "translation": "Nulls: Ice, Expel"
+      },
+      "battle_summary": {
+        "reference": "氷結無効",
+        "translation": "Nulls: Ice"
+      }
+    },
+    "reflects_elec_resists_sword_nulls_expel": {
+      "description": {
+        "reference": "電撃反射{n}剣技に強{n}破魔無効",
+        "translation": "Reflects: Elec{n}Resists: Sword, Nulls: Expel"
+      },
+      "battle_summary": {
+        "reference": "電撃反射",
+        "translation": "Reflects: Elec"
+      }
+    },
+    "nulls_elec_expel": {
+      "description": {
+        "reference": "電撃無効{n}破魔無効",
+        "translation": "Nulls: Elec, Expel"
+      },
+      "battle_summary": {
+        "reference": "電撃無効",
+        "translation": "Nulls: Elec"
+      }
+    },
+    "reflects_force_resists_demon_attack_nulls_expel": {
+      "description": {
+        "reference": "衝撃反射{n}技に強破魔無効",
+        "translation": "Reflects: Force{n}Resists: Demon Atk, Nulls: Expel",
+        "variants": {
+          "psp": {
+            "reference": "衝撃反射{n}技に強{n}破魔無効",
+            "note": "PSP source layout differs; translation is shared."
+          }
+        }
+      },
+      "battle_summary": {
+        "reference": "衝撃反射",
+        "translation": "Reflects: Force"
+      }
+    },
+    "reflects_death_nulls_expel": {
+      "description": {
+        "reference": "呪殺反射{n}破魔無効",
+        "translation": "Reflects: Death{n}Nulls: Expel"
+      },
+      "battle_summary": {
+        "reference": "呪殺反射",
+        "translation": "Reflects: Death"
+      }
+    },
+    "drains_psy_nulls_expel_death": {
+      "description": {
+        "reference": "念動吸収{n}破魔・呪殺無効",
+        "translation": "Drains: Psy{n}Nulls: Expel, Death"
+      },
+      "battle_summary": {
+        "reference": "念動吸収",
+        "translation": "Drains: Psy"
+      }
+    },
+    "reflects_rush_skill_sword_skill_nulls_expel": {
+      "description": {
+        "reference": "突撃・技・剣技反射{n}破魔無効",
+        "translation": "Reflects: Rush, Skill, Sword Skill{n}Nulls: Expel"
+      },
+      "battle_summary": {
+        "reference": "特技反射",
+        "translation": "Reflects: Demon Atk"
+      }
+    },
+    "resists_death_nulls_expel": {
+      "description": {
+        "reference": "呪殺に強{n}破魔無効",
+        "translation": "Resists: Death{n}Nulls: Expel"
+      },
+      "battle_summary": {
+        "reference": "呪殺に強い",
+        "translation": "Resists: Death"
+      }
+    },
+    "reflects_expel_resists_physicalical": {
+      "description": {
+        "reference": "破魔反射{n}物理に強",
+        "translation": "Reflects: Expel{n}Resists: Physical"
+      },
+      "battle_summary": {
+        "reference": "破魔反射",
+        "translation": "Reflects: Expel"
+      }
+    },
+    "weak_rush_nulls_mind_ruin_expel": {
+      "description": {
+        "reference": "突撃に弱{n}精神・魔力・破魔無効",
+        "translation": "Weak: Rush{n}Nulls: Mind, Ruin, Expel"
+      },
+      "battle_summary": {
+        "reference": "突撃に弱い",
+        "translation": "Weak: Rush"
+      }
+    },
+    "resists_force_demon_attack_nulls_expel": {
+      "description": {
+        "reference": "衝撃に強{n}特技に強{n}破魔無効",
+        "translation": "Resists: Force, Demon Atk{n}Nulls: Expel"
+      },
+      "battle_summary": {
+        "reference": "衝撃に強い",
+        "translation": "Resists: Force"
+      }
+    },
+    "resists_elec_nulls_expel": {
+      "description": {
+        "reference": "電撃に強{n}破魔無効",
+        "translation": "Resists: Elec{n}Nulls: Expel"
+      },
+      "battle_summary": {
+        "reference": "電撃に強い",
+        "translation": "Resists: Elec"
+      }
+    },
+    "reflects_psy_mind_ruin_nulls_expel": {
+      "description": {
+        "reference": "念動・精神・魔力反射{n}破魔無効",
+        "translation": "Reflects: Psy, Mind, Ruin{n}Nulls: Expel"
+      },
+      "battle_summary": {
+        "reference": "念動反射",
+        "translation": "Reflects: Psy"
+      }
+    },
+    "reflects_expel_death_weak_skill_sword_skill": {
+      "description": {
+        "reference": "破魔・呪殺反射{n}技・剣技に弱",
+        "translation": "Reflects: Expel, Death{n}Weak: Skill, Sword Skill"
+      },
+      "battle_summary": {
+        "reference": "技に弱い",
+        "translation": "Weak: Skill"
+      }
+    },
+    "resists_magic_weak_demon_attacks_rush": {
+      "description": {
+        "reference": "魔法に強{n}悪魔の攻撃・突撃に弱",
+        "translation": "Resists: Magic{n}Weak: Demon attacks, Rush"
+      },
+      "battle_summary": {
+        "reference": "魔法に強い",
+        "translation": "Resists: Magic"
+      }
+    },
+    "drains_fire_weak_ice_gun": {
+      "description": {
+        "reference": "火炎吸収{n}氷結・ガンに弱",
+        "translation": "Drains: Fire{n}Weak: Ice, Gun"
+      },
+      "battle_summary": {
+        "reference": "火炎吸収",
+        "translation": "Drains: Fire"
+      }
+    },
+    "drains_elec_weak_death_gun": {
+      "description": {
+        "reference": "電撃吸収{n}呪殺・ガンに弱",
+        "translation": "Drains: Elec{n}Weak: Death, Gun"
+      },
+      "battle_summary": {
+        "reference": "電撃吸収",
+        "translation": "Drains: Elec"
+      }
+    },
+    "resists_force_weak_gun": {
+      "description": {
+        "reference": "衝撃に強{n}ガンに弱",
+        "translation": "Resists: Force{n}Weak: Gun"
+      },
+      "battle_summary": {
+        "reference": "ガンに弱い",
+        "translation": "Weak: Gun"
+      }
+    },
+    "reflects_expel_death_weak_fire": {
+      "description": {
+        "reference": "破魔・呪殺反射{n}火炎に弱",
+        "translation": "Reflects: Expel, Death{n}Weak: Fire"
+      },
+      "battle_summary": {
+        "reference": "火炎に弱い",
+        "translation": "Weak: Fire"
+      }
+    },
+    "weak_fire_nulls_death": {
+      "description": {
+        "reference": "火炎に弱{n}呪殺無効",
+        "translation": "Weak: Fire{n}Nulls: Death"
+      },
+      "battle_summary": {
+        "reference": "火炎に弱い",
+        "translation": "Weak: Fire"
+      }
+    },
+    "weak_fire": {
+      "description": {
+        "reference": "火炎に弱",
+        "translation": "Weak: Fire"
+      },
+      "battle_summary": {
+        "reference": "火炎に弱い",
+        "translation": "Weak: Fire"
+      }
+    },
+    "resists_fire_ice_nulls_expel": {
+      "description": {
+        "reference": "火炎・氷結に強{n}破魔無効",
+        "translation": "Resists: Fire, Ice{n}Nulls: Expel"
+      },
+      "battle_summary": {
+        "reference": "火炎に強い",
+        "translation": "Resists: Fire"
+      }
+    },
+    "resists_force_weak_death_nulls_expel": {
+      "description": {
+        "reference": "衝撃に強{n}呪殺に弱{n}破魔無効",
+        "translation": "Resists: Force{n}Weak: Death, Nulls: Expel"
+      },
+      "battle_summary": {
+        "reference": "衝撃に強い",
+        "translation": "Resists: Force"
+      }
+    },
+    "weak_fire_ice_nulls_expel_death": {
+      "description": {
+        "reference": "火炎・氷結に弱{n}破魔・呪殺無効",
+        "translation": "Weak: Fire, Ice{n}Nulls: Expel, Death"
+      },
+      "battle_summary": {
+        "reference": "火炎に弱い",
+        "translation": "Weak: Fire"
+      }
+    },
+    "drains_or_nulls_magic_weak_physicalical": {
+      "description": {
+        "reference": "魔法は吸収か無効物理に弱",
+        "translation": "Drains or nulls Magic{n}Weak: Physical"
+      },
+      "battle_summary": {
+        "reference": "物理に弱い",
+        "translation": "Weak: Phys"
+      }
+    },
+    "resists_elec_force_psy": {
+      "description": {
+        "reference": "電撃・衝撃・念動に強",
+        "translation": "Resists: Elec, Force, Psy"
+      },
+      "battle_summary": {
+        "reference": "念動に強い",
+        "translation": "Resists: Psy"
+      }
+    },
+    "weak_death_resists_other_magic": {
+      "description": {
+        "reference": "呪殺に弱{n}他の魔法には強",
+        "translation": "Weak: Death{n}Resists: Other magic"
+      },
+      "battle_summary": {
+        "reference": "呪殺に弱い",
+        "translation": "Weak: Death"
+      }
+    },
+    "resists_fire_ice_weak_elec": {
+      "description": {
+        "reference": "火炎・氷結に強{n}電撃に弱",
+        "translation": "Resists: Fire, Ice{n}Weak: Elec"
+      },
+      "battle_summary": {
+        "reference": "電撃に弱い",
+        "translation": "Weak: Elec"
+      }
+    },
+    "drains_fire_weak_ice": {
+      "description": {
+        "reference": "火炎吸収{n}氷結に弱",
+        "translation": "Drains: Fire{n}Weak: Ice"
+      },
+      "battle_summary": {
+        "reference": "火炎吸収",
+        "translation": "Drains: Fire"
+      }
+    },
+    "reflects_ice_weak_fire_rush": {
+      "description": {
+        "reference": "氷結反射{n}火炎・突撃に弱",
+        "translation": "Reflects: Ice{n}Weak: Fire, Rush"
+      },
+      "battle_summary": {
+        "reference": "氷結反射",
+        "translation": "Reflects: Ice"
+      }
+    },
+    "reflects_force_weak_death": {
+      "description": {
+        "reference": "衝撃反射{n}呪殺に弱",
+        "translation": "Reflects: Force{n}Weak: Death"
+      },
+      "battle_summary": {
+        "reference": "衝撃反射",
+        "translation": "Reflects: Force"
+      }
+    },
+    "drains_elec_weak_psy_nulls_expel": {
+      "description": {
+        "reference": "電撃吸収{n}念動に弱{n}破魔無効",
+        "translation": "Drains: Elec{n}Weak: Psy, Nulls: Expel"
+      },
+      "battle_summary": {
+        "reference": "電撃吸収",
+        "translation": "Drains: Elec"
+      }
+    },
+    "reflects_expel_death_weak_physicalical": {
+      "description": {
+        "reference": "破魔・呪殺反射{n}物理に弱",
+        "translation": "Reflects: Expel, Death{n}Weak: Physical"
+      },
+      "battle_summary": {
+        "reference": "物理に弱い",
+        "translation": "Weak: Phys"
+      }
+    },
+    "resists_fire_ice_elec": {
+      "description": {
+        "reference": "火炎・氷結・電撃に強",
+        "translation": "Resists: Fire, Ice, Elec"
+      },
+      "battle_summary": {
+        "reference": "火炎に強い",
+        "translation": "Resists: Fire"
+      }
+    },
+    "reflects_magic_weak_physicalical": {
+      "description": {
+        "reference": "魔法反射{n}物理に弱",
+        "translation": "Reflects: Magic{n}Weak: Physical"
+      },
+      "battle_summary": {
+        "reference": "魔法反射",
+        "translation": "Reflects: Magic"
+      }
+    },
+    "resists_magic_weak_physicalical": {
+      "description": {
+        "reference": "魔法に強{n}物理に弱",
+        "translation": "Resists: Magic{n}Weak: Physical"
+      },
+      "battle_summary": {
+        "reference": "物理に弱い",
+        "translation": "Weak: Phys"
+      }
+    },
+    "resists_sword_weak_ice_force_gun": {
+      "description": {
+        "reference": "剣に強{n}氷結・衝撃・ガンに弱",
+        "translation": "Resists: Sword{n}Weak: Ice, Force, Gun"
+      },
+      "battle_summary": {
+        "reference": "ガンに弱い",
+        "translation": "Weak: Gun"
+      }
+    },
+    "reflects_death_weak_elec": {
+      "description": {
+        "reference": "呪殺反射{n}電撃に弱",
+        "translation": "Reflects: Death{n}Weak: Elec"
+      },
+      "battle_summary": {
+        "reference": "呪殺反射",
+        "translation": "Reflects: Death"
+      }
+    },
+    "nulls_fire_weak_ice": {
+      "description": {
+        "reference": "火炎無効{n}氷結に弱",
+        "translation": "Nulls: Fire{n}Weak: Ice"
+      },
+      "battle_summary": {
+        "reference": "氷結に弱い",
+        "translation": "Weak: Ice"
+      }
+    },
+    "resists_force_physicalical": {
+      "description": {
+        "reference": "衝撃に強{n}物理に強",
+        "translation": "Resists: Force, Physical"
+      },
+      "battle_summary": {
+        "reference": "衝撃に強い",
+        "translation": "Resists: Force"
+      }
+    },
+    "drains_ice_weak_fire": {
+      "description": {
+        "reference": "氷結吸収{n}火炎に弱",
+        "translation": "Drains: Ice{n}Weak: Fire"
+      },
+      "battle_summary": {
+        "reference": "氷結吸収",
+        "translation": "Drains: Ice"
+      }
+    },
+    "drains_elec_nulls_death": {
+      "description": {
+        "reference": "電撃吸収{n}呪殺無効",
+        "translation": "Drains: Elec{n}Nulls: Death"
+      },
+      "battle_summary": {
+        "reference": "電撃吸収",
+        "translation": "Drains: Elec"
+      }
+    },
+    "resists_elec": {
+      "description": {
+        "reference": "電撃に強",
+        "translation": "Resists: Elec"
+      },
+      "battle_summary": {
+        "reference": "電撃に強い",
+        "translation": "Resists: Elec"
+      }
+    },
+    "drains_fire": {
+      "description": {
+        "reference": "火炎吸収",
+        "translation": "Drains: Fire"
+      },
+      "battle_summary": {
+        "reference": "火炎吸収",
+        "translation": "Drains: Fire"
+      }
+    },
+    "resists_physicalical_weak_elec": {
+      "description": {
+        "reference": "物理に強{n}電撃に弱",
+        "translation": "Resists: Physical{n}Weak: Elec"
+      },
+      "battle_summary": {
+        "reference": "電撃に弱い",
+        "translation": "Weak: Elec"
+      }
+    },
+    "drains_death_nulls_ice_elec": {
+      "description": {
+        "reference": "呪殺吸収{n}氷結・電撃無効",
+        "translation": "Drains: Death{n}Nulls: Ice, Elec"
+      },
+      "battle_summary": {
+        "reference": "呪殺吸収",
+        "translation": "Drains: Death"
+      }
+    },
+    "drains_expel_death_weak_sword": {
+      "description": {
+        "reference": "破魔・呪殺吸収{n}剣技に弱",
+        "translation": "Drains: Expel, Death{n}Weak: Sword"
+      },
+      "battle_summary": {
+        "reference": "剣技に弱い",
+        "translation": "Weak: Sword Skill"
+      }
+    },
+    "resists_force_psy": {
+      "description": {
+        "reference": "衝撃・念動に強",
+        "translation": "Resists: Force, Psy"
+      },
+      "battle_summary": {
+        "reference": "衝撃に強い",
+        "translation": "Resists: Force"
+      }
+    },
+    "nulls_death_nerve_weak_fire_expel": {
+      "description": {
+        "reference": "呪殺・神経無効{n}火炎・破魔に弱",
+        "translation": "Nulls: Death, Nerve{n}Weak: Fire, Expel"
+      },
+      "battle_summary": {
+        "reference": "破魔に弱い",
+        "translation": "Weak: Expel"
+      }
+    },
+    "nulls_death_gun_weak_expel": {
+      "description": {
+        "reference": "呪殺・ガン無効{n}破魔に弱",
+        "translation": "Nulls: Death, Gun{n}Weak: Expel"
+      },
+      "battle_summary": {
+        "reference": "破魔に弱い",
+        "translation": "Weak: Expel"
+      }
+    },
+    "reflects_fire_nulls_psy_weak_ice": {
+      "description": {
+        "reference": "火炎反射{n}念動無効{n}氷結に弱",
+        "translation": "Reflects: Fire, Nulls: Psy{n}Weak: Ice"
+      },
+      "battle_summary": {
+        "reference": "氷結に弱い",
+        "translation": "Weak: Ice"
+      }
+    },
+    "weak_fire_ice": {
+      "description": {
+        "reference": "火炎・氷結に弱",
+        "translation": "Weak: Fire, Ice"
+      },
+      "battle_summary": {
+        "reference": "火炎に弱い",
+        "translation": "Weak: Fire"
+      }
+    },
+    "reflects_physicalical_weak_death_magic": {
+      "description": {
+        "reference": "物理反射{n}呪殺に弱{n}魔法に弱",
+        "translation": "Reflects: Physical{n}Weak: Death, Magic"
+      },
+      "battle_summary": {
+        "reference": "物理反射",
+        "translation": "Reflects: Phys"
+      }
+    },
+    "drains_fire_ice_elec_nulls_expel_death": {
+      "description": {
+        "reference": "火・氷・電吸収{n}破魔呪殺無効",
+        "translation": "Drains: Fire, Ice, Elec{n}Nulls: Expel, Death"
+      },
+      "battle_summary": {
+        "reference": "破魔無効",
+        "translation": "Nulls: Expel"
+      }
+    },
+    "reflects_expel_death_resists_physicalical": {
+      "description": {
+        "reference": "破魔呪殺反射{n}物理に強",
+        "translation": "Reflects: Expel, Death{n}Resists: Physical"
+      },
+      "battle_summary": {
+        "reference": "物理に強い",
+        "translation": "Resists: Phys"
+      }
+    },
+    "nulls_death": {
+      "description": {
+        "reference": "呪殺無効",
+        "translation": "Nulls: Death"
+      },
+      "battle_summary": {
+        "reference": "呪殺無効",
+        "translation": "Nulls: Death"
+      }
+    },
+    "nulls_expel_death_mind_nerve": {
+      "description": {
+        "reference": "破魔・呪殺・精神・神経無効",
+        "translation": "Nulls: Expel, Death,{n}Mind, Nerve",
+        "variants": {
+          "psp": {
+            "reference": "破魔・呪殺無効{n}精神・神経無効",
+            "note": "PSP source layout differs; translation is shared."
+          }
+        }
+      },
+      "battle_summary": {
+        "reference": "破・呪無効",
+        "translation": "Nulls: Expel/Death"
+      }
+    },
+    "reserved_affinity_066": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔・呪殺・精神・神経・魔力無効",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_067": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔・呪殺無効{n}物理に強",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_068": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔・呪殺無効{n}火・氷・{GLYPH:060d}吸収",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_069": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔・呪殺無効{n}電撃に弱",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_070": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔・呪殺無効{n}悪魔の攻撃反射",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_071": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔・呪殺に強",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_072": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "呪殺無効{n}銃撃無効{n}火炎に弱",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_073": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "呪殺無効{n}破魔・金縛・神経に強",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_074": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔・呪殺無効{n}物理に強",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_075": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔・呪殺無効{n}魔法無効",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_076": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔・呪殺無効{n}全攻撃に強",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_077": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔・呪殺無効{n}全攻撃に強",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_078": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔・呪殺反射{n}精神・神経無効",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_079": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔・呪殺無効{n}精神・神経無効",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_080": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "火炎に強{n}氷結・念動に弱",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_081": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔・呪殺無効{n}衝撃・念動に弱",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_082": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔・呪殺・銃撃無効{n}火炎に弱",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_083": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔・呪殺無効{n}精神・神経無効",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_084": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔・呪殺反射{n}火・氷・{GLYPH:060d}反射",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_085": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔・呪殺反射{n}火炎に弱",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_086": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "呪殺吸収{n}破魔無効{n}火炎に弱",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_087": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔・呪殺無効{n}念動に弱",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_088": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔・呪殺反射{n}魔法に強",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_089": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "呪殺吸収{n}破魔無効{n}火炎に弱",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_090": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔・呪殺無効{n}剣・{GLYPH:062e}に弱",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_091": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔無効{n}呪殺反射{n}火炎に弱",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_092": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔・呪殺無効{n}念動反射",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_093": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔無効{n}呪殺反射{n}魔法に強",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_094": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve",
+        "variants": {
+          "psp": {
+            "reference": "破魔・呪殺反射{n}魔法に強",
+            "translation": "",
+            "reviewed": false,
+            "note": "PSP replaces this Saturn reserve with real text; translation is pending."
+          }
+        }
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    },
+    "reserved_affinity_095": {
+      "description": {
+        "reference": "リザーブ",
+        "translation": "Reserve"
+      },
+      "status": "reserve",
+      "note": "Reserved in Saturn; the PSP variant is retained on this physical affinity slot."
+    }
+  }
+}

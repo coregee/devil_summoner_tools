@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "asset": "facilities/healer.json",
+  "records": {
+    "game.shopsmp.m0590.p00": "line_0346.text",
+    "game.shopsmp.m0591.p00": "line_0347.text",
+    "game.shopsmp.m0592.p00": "line_0348.text",
+    "game.shopsmp.m0593.p00": "line_0349.text",
+    "game.shopsmp.m0594.p00": "line_0350.text",
+    "game.shopsmp.m0595.p00": "line_0351.text",
+    "game.shopsmp.m0597.p00": "line_0353.text",
+    "game.shopsmp.m0599.p00": "line_0354.text",
+    "game.shopsmp.m0600.p00": "line_0355.text",
+    "game.shopsmp.m0715.p00": "line_0491.text",
+    "game.shopsmp.m0716.p00": "line_0492.text",
+    "game.shopsmp.m0717.p00": "line_0493.text",
+    "game.shopsmp.m0718.p00": "line_0494.text",
+    "game.shopsmp.m0719.p00": "line_0495.text",
+    "game.shopsmp.m0720.p00": "line_0496.text",
+    "game.shopsmp.m0721.p00": "line_0497.text",
+    "game.shopsmp.m0781.p00": "line_0558.text",
+    "game.shopsmp.m0782.p00": "line_0559.text",
+    "game.shopsmp.m0783.p00": "line_0560.text",
+    "game.shopsmp.m0784.p00": "line_0561.text",
+    "game.shopsmp.m0785.p00": "line_0562.text",
+    "game.shopsmp.m0786.p00": "line_0563.text",
+    "game.shopsmp.m0787.p00": "line_0564.text",
+    "game.shopsmp.m0787.p01": "line_0565.text",
+    "game.shopsmp.m0787.p02": "line_0566.text",
+    "game.shopsmp.m0787.p03": "line_0567.text",
+    "game.shopsmp.m0787.p04": "line_0568.text",
+    "game.shopsmp.m0788.p00": "line_0569.text",
+    "game.event_healing.o0168f7": "all_members.text"
+  },
+  "record_surfaces": {
+    "game.event_healing.o0168f7": [
+      "healer.member_name"
+    ]
+  }
+}

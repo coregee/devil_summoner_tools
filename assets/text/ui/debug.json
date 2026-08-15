@@ -1,0 +1,243 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "line_0000": {
+      "text": {
+        "reference": "01234567890123456789",
+        "translation": "01234567890123456789"
+      }
+    },
+    "line_0049": {
+      "text": {
+        "reference": "{n}イベントよていちです",
+        "translation": "{n}Event placeholder."
+      }
+    },
+    "line_0050": {
+      "placeholders": {
+        "event_id": "number"
+      },
+      "text": {
+        "reference": "このイベント（{event_id}）は{n}できていません",
+        "translation": "Event {event_id}{n}is not implemented."
+      }
+    },
+    "line_0051": {
+      "text": {
+        "reference": "L{GLYPH:010d}R後電石員",
+        "translation": "Debug: L/R Stone"
+      }
+    },
+    "line_0052": {
+      "text": {
+        "reference": "氷妖喚月後電",
+        "translation": "Debug: Ice Summon Moon"
+      }
+    },
+    "line_0053": {
+      "text": {
+        "reference": "氷妖後電",
+        "translation": "Debug: Ice Demon"
+      }
+    },
+    "line_0054": {
+      "text": {
+        "reference": "氷妖商品後電",
+        "translation": "Debug: Ice Demon Goods"
+      }
+    },
+    "line_0055": {
+      "text": {
+        "reference": "商品後電",
+        "translation": "Debug: Goods"
+      }
+    },
+    "line_0056": {
+      "text": {
+        "reference": "力敵後電",
+        "translation": "Debug: Powerful Enemy"
+      }
+    },
+    "line_0057": {
+      "text": {
+        "reference": "屍悪後電石員",
+        "translation": "Debug: Undead Stone"
+      }
+    },
+    "line_0058": {
+      "text": {
+        "reference": "屍悪後電{GLYPH:010c}1",
+        "translation": "Debug: Undead Test 1"
+      }
+    },
+    "line_0059": {
+      "text": {
+        "reference": "屍悪後電{GLYPH:010c}2",
+        "translation": "Debug: Undead Test 2"
+      }
+    },
+    "line_0060": {
+      "text": {
+        "reference": "屍悪後電{GLYPH:010d}1",
+        "translation": "Debug: Undead Alt 1"
+      }
+    },
+    "line_0061": {
+      "text": {
+        "reference": "状態後電",
+        "translation": "Debug: Status"
+      }
+    },
+    "line_0062": {
+      "text": {
+        "reference": "痺能眠後電",
+        "translation": "Debug: Paralyze Ability Sleep"
+      }
+    },
+    "line_0063": {
+      "text": {
+        "reference": "ゾウマくん1ごう",
+        "translation": "Zoma No. 1"
+      }
+    },
+    "line_0435": {
+      "text": {
+        "reference": "DDSネットです",
+        "translation": "This is DDS-NET."
+      }
+    },
+    "line_0436": {
+      "text": {
+        "reference": "ぼくのへやです",
+        "translation": "This is my room."
+      }
+    },
+    "line_0437": {
+      "text": {
+        "reference": "げんかんです",
+        "translation": "This is the entrance."
+      }
+    },
+    "line_0438": {
+      "text": {
+        "reference": "リビングです",
+        "translation": "This is the living room."
+      }
+    },
+    "line_0439": {
+      "text": {
+        "reference": "おやじです",
+        "translation": "This is my father."
+      }
+    },
+    "line_0440": {
+      "text": {
+        "reference": "おふくろです",
+        "translation": "This is my mother."
+      }
+    },
+    "line_0441": {
+      "text": {
+        "reference": "私はメッセンジャーです。{WAIT}{n}これが出ているということは{n}プログラムは正しく動いています。",
+        "translation": "I am the messenger.{WAIT}{n}If you can see this,{n}the program is working correctly."
+      }
+    },
+    "line_0442": {
+      "text": {
+        "reference": "何をしますか？",
+        "translation": "What will you do?"
+      }
+    },
+    "line_0443": {
+      "text": {
+        "reference": "それでは、さようなら",
+        "translation": "Well then, goodbye."
+      }
+    },
+    "line_0444": {
+      "text": {
+        "reference": "話す",
+        "translation": "Talk"
+      }
+    },
+    "line_0445": {
+      "text": {
+        "reference": "見る",
+        "translation": "Look"
+      }
+    },
+    "line_0446": {
+      "text": {
+        "reference": "さわる",
+        "translation": "Touch"
+      }
+    },
+    "line_0447": {
+      "text": {
+        "reference": "おわる",
+        "translation": "End"
+      }
+    },
+    "line_0448": {
+      "text": {
+        "reference": "いまは、話せません。",
+        "translation": "You cannot talk right now."
+      }
+    },
+    "line_0449": {
+      "text": {
+        "reference": "いまは、見れません。",
+        "translation": "You cannot look right now."
+      }
+    },
+    "line_0450": {
+      "text": {
+        "reference": "いまは、さわれません。",
+        "translation": "You cannot touch right now."
+      }
+    },
+    "line_0588": {
+      "text": {
+        "reference": "デバッグモード",
+        "translation": "Debug Mode"
+      }
+    },
+    "line_0589": {
+      "text": {
+        "reference": "BIT変更",
+        "translation": "Edit BIT"
+      }
+    },
+    "line_0590": {
+      "text": {
+        "reference": "イベントNo変更",
+        "translation": "Change Event No."
+      }
+    },
+    "line_0591": {
+      "text": {
+        "reference": "BITNo",
+        "translation": "BIT No."
+      }
+    },
+    "line_0592": {
+      "text": {
+        "reference": "ON",
+        "translation": "ON"
+      }
+    },
+    "line_0593": {
+      "text": {
+        "reference": "OFF",
+        "translation": "OFF"
+      }
+    },
+    "line_0594": {
+      "text": {
+        "reference": "イベントNo",
+        "translation": "Event No."
+      }
+    }
+  }
+}

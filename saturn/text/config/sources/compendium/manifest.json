@@ -1759,7 +1759,7 @@
       "path": "A_DIC.BIN",
       "size": 472172,
       "stock_sha256": "0edd01f270b6500dc6fafc5e71202c11dcc2cceea605cec9057e4ffb5966314c",
-      "owned_sha256": "2323794c3cc62d957bbff301375ad7e7bac42cac20ddc865aa962ace79c686ac"
+      "owned_sha256": "5524cee22ef92a1c074a714ce979e9ebb237535474ece5d6757fc38fe4d34fa7"
     }
   },
   "sources": [
@@ -2150,6 +2150,63 @@
             }
           }
         ]
+      }
+    },
+    {
+      "id": "race_names",
+      "corpus": "addressed/race_names.json",
+      "container": {
+        "type": "addressed",
+        "file": "a_dic",
+        "default_source_encoding": "compendium_font16_plain_skip",
+        "tables": [
+          {
+            "name": "standard",
+            "count": 42,
+            "framing": {
+              "type": "none"
+            },
+            "require_identical_bytes": true,
+            "locations": [
+              {
+                "base": "0x5eda0",
+                "stride": "0x6",
+                "units": 3
+              }
+            ]
+          },
+          {
+            "name": "human",
+            "count": 1,
+            "framing": {
+              "type": "none"
+            },
+            "require_identical_bytes": true,
+            "locations": [
+              {
+                "base": "0x5ee9c",
+                "stride": "0x6",
+                "units": 1
+              }
+            ]
+          },
+          {
+            "name": "supplement",
+            "count": 5,
+            "framing": {
+              "type": "none"
+            },
+            "require_identical_bytes": true,
+            "locations": [
+              {
+                "base": "0x5eea2",
+                "stride": "0x6",
+                "units": 3
+              }
+            ]
+          }
+        ],
+        "records": []
       }
     }
   ]

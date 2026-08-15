@@ -198,14 +198,17 @@ lives here.
 The mature implementations still contain visible wording that must move here;
 none of it is a runtime exemption. The current audit tracks:
 
-- the shop inventory label and battle-result empty label;
+- the battle-result empty label;
 - character full/short name forms used directly by renderers;
-- status headings, personality terms, and fusion full/compact race labels;
-- Saturn dungeon/floor and Analyze-heading templates;
+- status headings and personality terms;
+- wiring the mature Saturn fusion and Analyze renderers to the authored race
+  labels and heading template stored here;
+- wiring the mature Saturn location renderers to the authored floor/location
+  templates now stored in `field/location_formats.json`;
 - the mature Saturn MAZE hook, which currently collapses the distinct item
   `Found` and `Obtained` call paths despite the retail call sites using both;
-- PSP save titles, difficulty labels, prompts, fallback labels, and detail
-  templates;
+- wiring the PSP save renderer to the titles, difficulty labels, prompts,
+  fallback label, and complete detail template now stored in `save_load.json`;
 - the PSP first-VWF welcome line and content-locked name-entry labels/grids;
 - config compound glyphs, which must be generated from editable labels rather
   than maintained as independent phrase fragments;
@@ -231,8 +234,31 @@ to the established Evil Gaze, Death Ring, and Cauterizing Fist entities. All 15
 negotiation styles are represented by 8,523 shared authored fields, including
 their condition reactions; Saturn fans them across 10,009 explicitly bound
 physical occurrences. PSP reuses the same authored fields rather than carrying
-duplicate translations. Facilities and general dialogue follow using the same
-evidence-first rule.
+duplicate translations. The location catalogue adds 24 shared dungeon places,
+seven save-screen-only places, three proven compact automap names, and editable
+3D-map, automap, and save/load composition templates. Its 144 dungeon rows and
+eight special SAVE rows bind explicitly to those places, while PSP can reuse
+the same names without copies or platform variants.
+The race and affinity catalogues add all 43 game races, the bonus disc's 48
+physical race labels, all 96 detailed affinities, and all 66 compact Analyze
+slots. Fusion abbreviations and Analyze punctuation are authored data rather
+than renderer literals. Exact PSP text reuses these fields; two PSP layout
+revisions are reference-only variants, while its 29 replacements for Saturn
+reserve affinities remain visible untranslated work. The fusion-only Time
+identity and all 90 direct SHOPSMP race-table uses also bind here instead of
+duplicating race names in Gouma-den text.
+
+The facility slice partitions all 763 physical SHOPSMP pages into the
+Gouma-den, shops, healer, bar, MAG exchange, gym, demon-join, shared, debug,
+and race consumers while retaining the mature corpus's 595 authored lines and
+explicit fan-out. Sixteen drinks join their separately stored names and
+descriptions in one entity record, and six bar patrons own their display names.
+Fusion confirmation, the healer's all-members label, and the stock `Inv.` label
+are editable assets rather than renderer prose. `save_load.json` owns all
+non-location Saturn SAVE/LOAD text, stock-English and raster labels, and the
+previously code-owned PSP savedata wording and full detail template. The seven
+genuinely PSP-only Gouma-den tutorial lines are additions; inherited PSP text
+continues to reuse the Saturn-authored fields.
 
 After bindings cover the authored corpus, translations in the generated
 physical catalogue will be removed or generated from these assets. There must

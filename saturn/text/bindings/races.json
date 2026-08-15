@@ -1,0 +1,570 @@
+{
+  "version": 1,
+  "asset": "races.json",
+  "records": {
+    "game.normcom_tables.races.r0000": "deity.name",
+    "game.normcom_tables.races.r0001": "megami.name",
+    "game.normcom_tables.races.r0002": "herald.name",
+    "game.normcom_tables.races.r0003": "avian.name",
+    "game.normcom_tables.races.r0004": "tree.name",
+    "game.normcom_tables.races.r0005": "enigma.name",
+    "game.normcom_tables.races.r0006": "genma.name",
+    "game.normcom_tables.races.r0007": "avatar.name",
+    "game.normcom_tables.races.r0008": "holy.name",
+    "game.normcom_tables.races.r0009": "element.name",
+    "game.normcom_tables.races.r0010": "mitama.name",
+    "game.normcom_tables.races.r0011": "hero.name",
+    "game.normcom_tables.races.r0012": "fury.name",
+    "game.normcom_tables.races.r0013": "lady.name",
+    "game.normcom_tables.races.r0014": "kishin.name",
+    "game.normcom_tables.races.r0015": "dragon.name",
+    "game.normcom_tables.races.r0016": "divine.name",
+    "game.normcom_tables.races.r0017": "flight.name",
+    "game.normcom_tables.races.r0018": "yoma.name",
+    "game.normcom_tables.races.r0019": "fairy.name",
+    "game.normcom_tables.races.r0020": "snake.name",
+    "game.normcom_tables.races.r0021": "beast.name",
+    "game.normcom_tables.races.r0022": "uma.name",
+    "game.normcom_tables.races.r0023": "jirae.name",
+    "game.normcom_tables.races.r0024": "night.name",
+    "game.normcom_tables.races.r0025": "fallen.name",
+    "game.normcom_tables.races.r0026": "brute.name",
+    "game.normcom_tables.races.r0027": "femme.name",
+    "game.normcom_tables.races.r0028": "vile.name",
+    "game.normcom_tables.races.r0029": "raptor.name",
+    "game.normcom_tables.races.r0030": "wood.name",
+    "game.normcom_tables.races.r0031": "reaper.name",
+    "game.normcom_tables.races.r0032": "wilder.name",
+    "game.normcom_tables.races.r0033": "jaki.name",
+    "game.normcom_tables.races.r0034": "haunt.name",
+    "game.normcom_tables.races.r0035": "vermin.name",
+    "game.normcom_tables.races.r0036": "tyrant.name",
+    "game.normcom_tables.races.r0037": "drake.name",
+    "game.normcom_tables.races.r0038": "ghost.name",
+    "game.normcom_tables.races.r0039": "spirit.name",
+    "game.normcom_tables.races.r0040": "foul.name",
+    "game.normcom_tables.races.r0041": "zoma.name",
+    "game.normcom_tables.races.r0042": "human.name",
+    "compendium.race_names.standard.r0000": "deity.name",
+    "compendium.race_names.standard.r0001": "megami.name",
+    "compendium.race_names.standard.r0002": "herald.name",
+    "compendium.race_names.standard.r0003": "avian.name",
+    "compendium.race_names.standard.r0004": "tree.name",
+    "compendium.race_names.standard.r0005": "enigma.name",
+    "compendium.race_names.standard.r0006": "genma.name",
+    "compendium.race_names.standard.r0007": "avatar.name",
+    "compendium.race_names.standard.r0008": "holy.name",
+    "compendium.race_names.standard.r0009": "element.name",
+    "compendium.race_names.standard.r0010": "mitama.name",
+    "compendium.race_names.standard.r0011": "hero.name",
+    "compendium.race_names.standard.r0012": "fury.name",
+    "compendium.race_names.standard.r0013": "lady.name",
+    "compendium.race_names.standard.r0014": "kishin.name",
+    "compendium.race_names.standard.r0015": "dragon.name",
+    "compendium.race_names.standard.r0016": "divine.name",
+    "compendium.race_names.standard.r0017": "flight.name",
+    "compendium.race_names.standard.r0018": "yoma.name",
+    "compendium.race_names.standard.r0019": "fairy.name",
+    "compendium.race_names.standard.r0020": "snake.name",
+    "compendium.race_names.standard.r0021": "beast.name",
+    "compendium.race_names.standard.r0022": "uma.name",
+    "compendium.race_names.standard.r0023": "jirae.name",
+    "compendium.race_names.standard.r0024": "night.name",
+    "compendium.race_names.standard.r0025": "fallen.name",
+    "compendium.race_names.standard.r0026": "brute.name",
+    "compendium.race_names.standard.r0027": "femme.name",
+    "compendium.race_names.standard.r0028": "vile.name",
+    "compendium.race_names.standard.r0029": "raptor.name",
+    "compendium.race_names.standard.r0030": "wood.name",
+    "compendium.race_names.standard.r0031": "reaper.name",
+    "compendium.race_names.standard.r0032": "wilder.name",
+    "compendium.race_names.standard.r0033": "jaki.name",
+    "compendium.race_names.standard.r0034": "haunt.name",
+    "compendium.race_names.standard.r0035": "vermin.name",
+    "compendium.race_names.standard.r0036": "tyrant.name",
+    "compendium.race_names.standard.r0037": "drake.name",
+    "compendium.race_names.standard.r0038": "ghost.name",
+    "compendium.race_names.standard.r0039": "spirit.name",
+    "compendium.race_names.standard.r0040": "foul.name",
+    "compendium.race_names.standard.r0041": "zoma.name",
+    "game.shopsmp.m0161.p00": "deity.name",
+    "game.shopsmp.m0220.p00": "deity.fusion_chart_label",
+    "game.shopsmp.m0162.p00": "megami.name",
+    "game.shopsmp.m0221.p00": "megami.fusion_chart_label",
+    "game.shopsmp.m0163.p00": "herald.name",
+    "game.shopsmp.m0222.p00": "herald.fusion_chart_label",
+    "game.shopsmp.m0164.p00": "avian.name",
+    "game.shopsmp.m0223.p00": "avian.fusion_chart_label",
+    "game.shopsmp.m0165.p00": "tree.name",
+    "game.shopsmp.m0224.p00": "tree.fusion_chart_label",
+    "game.shopsmp.m0166.p00": "enigma.name",
+    "game.shopsmp.m0225.p00": "enigma.fusion_chart_label",
+    "game.shopsmp.m0167.p00": "genma.name",
+    "game.shopsmp.m0226.p00": "genma.fusion_chart_label",
+    "game.shopsmp.m0168.p00": "avatar.name",
+    "game.shopsmp.m0227.p00": "avatar.fusion_chart_label",
+    "game.shopsmp.m0169.p00": "holy.name",
+    "game.shopsmp.m0228.p00": "holy.fusion_chart_label",
+    "game.shopsmp.m0170.p00": "element.name",
+    "game.shopsmp.m0229.p00": "element.fusion_chart_label",
+    "game.shopsmp.m0171.p00": "mitama.name",
+    "game.shopsmp.m0230.p00": "mitama.fusion_chart_label",
+    "game.shopsmp.m0172.p00": "hero.name",
+    "game.shopsmp.m0231.p00": "hero.fusion_chart_label",
+    "game.shopsmp.m0173.p00": "fury.name",
+    "game.shopsmp.m0232.p00": "fury.fusion_chart_label",
+    "game.shopsmp.m0174.p00": "lady.name",
+    "game.shopsmp.m0233.p00": "lady.fusion_chart_label",
+    "game.shopsmp.m0175.p00": "kishin.name",
+    "game.shopsmp.m0234.p00": "kishin.fusion_chart_label",
+    "game.shopsmp.m0176.p00": "dragon.name",
+    "game.shopsmp.m0235.p00": "dragon.fusion_chart_label",
+    "game.shopsmp.m0177.p00": "divine.name",
+    "game.shopsmp.m0236.p00": "divine.fusion_chart_label",
+    "game.shopsmp.m0178.p00": "flight.name",
+    "game.shopsmp.m0237.p00": "flight.fusion_chart_label",
+    "game.shopsmp.m0179.p00": "yoma.name",
+    "game.shopsmp.m0238.p00": "yoma.fusion_chart_label",
+    "game.shopsmp.m0180.p00": "fairy.name",
+    "game.shopsmp.m0239.p00": "fairy.fusion_chart_label",
+    "game.shopsmp.m0181.p00": "snake.name",
+    "game.shopsmp.m0240.p00": "snake.fusion_chart_label",
+    "game.shopsmp.m0182.p00": "beast.name",
+    "game.shopsmp.m0241.p00": "beast.fusion_chart_label",
+    "game.shopsmp.m0183.p00": "uma.name",
+    "game.shopsmp.m0242.p00": "uma.fusion_chart_label",
+    "game.shopsmp.m0184.p00": "jirae.name",
+    "game.shopsmp.m0243.p00": "jirae.fusion_chart_label",
+    "game.shopsmp.m0185.p00": "night.name",
+    "game.shopsmp.m0244.p00": "night.fusion_chart_label",
+    "game.shopsmp.m0186.p00": "fallen.name",
+    "game.shopsmp.m0245.p00": "fallen.fusion_chart_label",
+    "game.shopsmp.m0187.p00": "brute.name",
+    "game.shopsmp.m0246.p00": "brute.fusion_chart_label",
+    "game.shopsmp.m0188.p00": "femme.name",
+    "game.shopsmp.m0247.p00": "femme.fusion_chart_label",
+    "game.shopsmp.m0189.p00": "vile.name",
+    "game.shopsmp.m0248.p00": "vile.fusion_chart_label",
+    "game.shopsmp.m0190.p00": "raptor.name",
+    "game.shopsmp.m0249.p00": "raptor.fusion_chart_label",
+    "game.shopsmp.m0191.p00": "wood.name",
+    "game.shopsmp.m0250.p00": "wood.fusion_chart_label",
+    "game.shopsmp.m0192.p00": "reaper.name",
+    "game.shopsmp.m0251.p00": "reaper.fusion_chart_label",
+    "game.shopsmp.m0193.p00": "wilder.name",
+    "game.shopsmp.m0252.p00": "wilder.fusion_chart_label",
+    "game.shopsmp.m0194.p00": "jaki.name",
+    "game.shopsmp.m0253.p00": "jaki.fusion_chart_label",
+    "game.shopsmp.m0195.p00": "haunt.name",
+    "game.shopsmp.m0254.p00": "haunt.fusion_chart_label",
+    "game.shopsmp.m0196.p00": "vermin.name",
+    "game.shopsmp.m0255.p00": "vermin.fusion_chart_label",
+    "game.shopsmp.m0197.p00": "tyrant.name",
+    "game.shopsmp.m0256.p00": "tyrant.fusion_chart_label",
+    "game.shopsmp.m0198.p00": "drake.name",
+    "game.shopsmp.m0257.p00": "drake.fusion_chart_label",
+    "game.shopsmp.m0199.p00": "ghost.name",
+    "game.shopsmp.m0258.p00": "ghost.fusion_chart_label",
+    "game.shopsmp.m0200.p00": "spirit.name",
+    "game.shopsmp.m0259.p00": "spirit.fusion_chart_label",
+    "game.shopsmp.m0201.p00": "foul.name",
+    "game.shopsmp.m0260.p00": "foul.fusion_chart_label",
+    "game.shopsmp.m0202.p00": "zoma.name",
+    "game.shopsmp.m0261.p00": "zoma.fusion_chart_label",
+    "game.shopsmp.m0203.p00": "time.name",
+    "game.shopsmp.m0213.p00": "element.name",
+    "game.shopsmp.m0217.p00": "foul.name",
+    "game.shopsmp.m0218.p00": "time.fusion_group_label",
+    "game.shopsmp.m0219.p00": "zoma.name",
+    "game.shopsmp.m0262.p00": "time.name",
+    "compendium.race_names.human.r0000": "human.name",
+    "compendium.race_names.supplement.r0000": "zoma.name",
+    "compendium.race_names.supplement.r0001": "vengeful_spirit.name",
+    "compendium.race_names.supplement.r0002": "fiend.name",
+    "compendium.race_names.supplement.r0003": "compendium_race_placeholder_a.name",
+    "compendium.race_names.supplement.r0004": "compendium_race_placeholder_b.name"
+  },
+  "additional_uses": {
+    "game.normcom_tables.races.r0000": [
+      {
+        "asset": "deity.fusion_preview_label"
+      },
+      {
+        "asset": "deity.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0001": [
+      {
+        "asset": "megami.fusion_preview_label"
+      },
+      {
+        "asset": "megami.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0002": [
+      {
+        "asset": "herald.fusion_preview_label"
+      },
+      {
+        "asset": "herald.fusion_chart_label",
+        "variant": "catalog_source"
+      }
+    ],
+    "game.normcom_tables.races.r0003": [
+      {
+        "asset": "avian.fusion_preview_label"
+      },
+      {
+        "asset": "avian.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0004": [
+      {
+        "asset": "tree.fusion_preview_label"
+      },
+      {
+        "asset": "tree.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0005": [
+      {
+        "asset": "enigma.fusion_preview_label"
+      },
+      {
+        "asset": "enigma.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0006": [
+      {
+        "asset": "genma.fusion_preview_label"
+      },
+      {
+        "asset": "genma.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0007": [
+      {
+        "asset": "avatar.fusion_preview_label"
+      },
+      {
+        "asset": "avatar.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0008": [
+      {
+        "asset": "holy.fusion_preview_label"
+      },
+      {
+        "asset": "holy.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0009": [
+      {
+        "asset": "element.fusion_preview_label"
+      },
+      {
+        "asset": "element.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0010": [
+      {
+        "asset": "mitama.fusion_preview_label"
+      },
+      {
+        "asset": "mitama.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0011": [
+      {
+        "asset": "hero.fusion_preview_label"
+      },
+      {
+        "asset": "hero.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0012": [
+      {
+        "asset": "fury.fusion_preview_label"
+      },
+      {
+        "asset": "fury.fusion_chart_label",
+        "variant": "catalog_source"
+      }
+    ],
+    "game.normcom_tables.races.r0013": [
+      {
+        "asset": "lady.fusion_preview_label"
+      },
+      {
+        "asset": "lady.fusion_chart_label",
+        "variant": "catalog_source"
+      }
+    ],
+    "game.normcom_tables.races.r0014": [
+      {
+        "asset": "kishin.fusion_preview_label"
+      },
+      {
+        "asset": "kishin.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0015": [
+      {
+        "asset": "dragon.fusion_preview_label"
+      },
+      {
+        "asset": "dragon.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0016": [
+      {
+        "asset": "divine.fusion_preview_label"
+      },
+      {
+        "asset": "divine.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0017": [
+      {
+        "asset": "flight.fusion_preview_label"
+      },
+      {
+        "asset": "flight.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0018": [
+      {
+        "asset": "yoma.fusion_preview_label"
+      },
+      {
+        "asset": "yoma.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0019": [
+      {
+        "asset": "fairy.fusion_preview_label"
+      },
+      {
+        "asset": "fairy.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0020": [
+      {
+        "asset": "snake.fusion_preview_label"
+      },
+      {
+        "asset": "snake.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0021": [
+      {
+        "asset": "beast.fusion_preview_label"
+      },
+      {
+        "asset": "beast.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0022": [
+      {
+        "asset": "uma.fusion_preview_label"
+      },
+      {
+        "asset": "uma.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0023": [
+      {
+        "asset": "jirae.fusion_preview_label"
+      },
+      {
+        "asset": "jirae.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0024": [
+      {
+        "asset": "night.fusion_preview_label"
+      },
+      {
+        "asset": "night.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0025": [
+      {
+        "asset": "fallen.fusion_preview_label"
+      },
+      {
+        "asset": "fallen.fusion_chart_label",
+        "variant": "catalog_source"
+      }
+    ],
+    "game.normcom_tables.races.r0026": [
+      {
+        "asset": "brute.fusion_preview_label"
+      },
+      {
+        "asset": "brute.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0027": [
+      {
+        "asset": "femme.fusion_preview_label"
+      },
+      {
+        "asset": "femme.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0028": [
+      {
+        "asset": "vile.fusion_preview_label"
+      },
+      {
+        "asset": "vile.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0029": [
+      {
+        "asset": "raptor.fusion_preview_label"
+      },
+      {
+        "asset": "raptor.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0030": [
+      {
+        "asset": "wood.fusion_preview_label"
+      },
+      {
+        "asset": "wood.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0031": [
+      {
+        "asset": "reaper.fusion_preview_label"
+      },
+      {
+        "asset": "reaper.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0032": [
+      {
+        "asset": "wilder.fusion_preview_label"
+      },
+      {
+        "asset": "wilder.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0033": [
+      {
+        "asset": "jaki.fusion_preview_label"
+      },
+      {
+        "asset": "jaki.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0034": [
+      {
+        "asset": "haunt.fusion_preview_label"
+      },
+      {
+        "asset": "haunt.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0035": [
+      {
+        "asset": "vermin.fusion_preview_label"
+      },
+      {
+        "asset": "vermin.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0036": [
+      {
+        "asset": "tyrant.fusion_preview_label"
+      },
+      {
+        "asset": "tyrant.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0037": [
+      {
+        "asset": "drake.fusion_preview_label"
+      },
+      {
+        "asset": "drake.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0038": [
+      {
+        "asset": "ghost.fusion_preview_label"
+      },
+      {
+        "asset": "ghost.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0039": [
+      {
+        "asset": "spirit.fusion_preview_label"
+      },
+      {
+        "asset": "spirit.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0040": [
+      {
+        "asset": "foul.fusion_preview_label"
+      },
+      {
+        "asset": "foul.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0041": [
+      {
+        "asset": "zoma.fusion_preview_label"
+      },
+      {
+        "asset": "zoma.fusion_chart_label"
+      }
+    ],
+    "game.normcom_tables.races.r0042": [
+      {
+        "asset": "human.fusion_preview_label"
+      },
+      {
+        "asset": "human.fusion_chart_label"
+      },
+      {
+        "asset": "human.fusion_name"
+      }
+    ]
+  },
+  "field_surfaces": {
+    "name": [
+      "map_3d.analyze_race",
+      "battle.analyze_race_heading",
+      "status.demon_race",
+      "fusion.table_race",
+      "compendium.race"
+    ],
+    "fusion_preview_label": [
+      "fusion.preview_race"
+    ],
+    "fusion_chart_label": [
+      "fusion.chart_race"
+    ],
+    "fusion_name": [
+      "fusion.table_race"
+    ],
+    "fusion_group_label": [
+      "fusion.table_race"
+    ]
+  },
+  "glyph_equivalence": {
+    "01a7": "間"
+  },
+  "unresolved": {
+    "compendium.race_names.supplement.r0001": "The bonus-disc label has no mature English output; keep it visible until its consumer is rebuilt.",
+    "compendium.race_names.supplement.r0002": "The bonus-disc label has no mature English output; keep it visible until its consumer is rebuilt.",
+    "compendium.race_names.supplement.r0003": "Raw bonus-disc placeholder is independently addressable and must not be inferred from its duplicate text.",
+    "compendium.race_names.supplement.r0004": "Raw bonus-disc placeholder is independently addressable and must not be inferred from its duplicate text."
+  }
+}

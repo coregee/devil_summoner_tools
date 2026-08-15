@@ -1,0 +1,199 @@
+{
+  "version": 1,
+  "asset": "facilities/bar.json",
+  "records": {
+    "game.shopsmp.m0604.p00": "line_0358.text",
+    "game.shopsmp.m0605.p00": "line_0359.text",
+    "game.shopsmp.m0606.p00": "line_0360.text",
+    "game.shopsmp.m0607.p00": "line_0360.text",
+    "game.shopsmp.m0607.p01": "line_0361.text",
+    "game.shopsmp.m0608.p00": "line_0362.text",
+    "game.shopsmp.m0609.p00": "line_0363.text",
+    "game.shopsmp.m0610.p00": "line_0364.text",
+    "game.shopsmp.m0611.p00": "line_0365.text",
+    "game.shopsmp.m0612.p00": "line_0366.text",
+    "game.shopsmp.m0612.p01": "line_0367.text",
+    "game.shopsmp.m0612.p02": "line_0368.text",
+    "game.shopsmp.m0613.p00": "line_0369.text",
+    "game.shopsmp.m0613.p01": "line_0370.text",
+    "game.shopsmp.m0614.p00": "line_0371.text",
+    "game.shopsmp.m0614.p01": "line_0372.text",
+    "game.shopsmp.m0615.p00": "line_0363.text",
+    "game.shopsmp.m0616.p00": "line_0373.text",
+    "game.shopsmp.m0616.p01": "line_0374.text",
+    "game.shopsmp.m0617.p00": "line_0375.text",
+    "game.shopsmp.m0617.p01": "line_0376.text",
+    "game.shopsmp.m0617.p02": "line_0377.text",
+    "game.shopsmp.m0618.p00": "line_0378.text",
+    "game.shopsmp.m0619.p00": "line_0379.text",
+    "game.shopsmp.m0619.p01": "line_0380.text",
+    "game.shopsmp.m0619.p02": "line_0381.text",
+    "game.shopsmp.m0620.p00": "line_0382.text",
+    "game.shopsmp.m0620.p01": "line_0383.text",
+    "game.shopsmp.m0621.p00": "line_0384.text",
+    "game.shopsmp.m0621.p01": "line_0385.text",
+    "game.shopsmp.m0622.p00": "line_0386.text",
+    "game.shopsmp.m0623.p00": "line_0387.text",
+    "game.shopsmp.m0623.p01": "line_0388.text",
+    "game.shopsmp.m0624.p00": "line_0389.text",
+    "game.shopsmp.m0624.p01": "line_0390.text",
+    "game.shopsmp.m0625.p00": "line_0391.text",
+    "game.shopsmp.m0626.p00": "line_0392.text",
+    "game.shopsmp.m0626.p01": "line_0393.text",
+    "game.shopsmp.m0627.p00": "line_0394.text",
+    "game.shopsmp.m0627.p01": "line_0395.text",
+    "game.shopsmp.m0628.p00": "line_0396.text",
+    "game.shopsmp.m0628.p01": "line_0397.text",
+    "game.shopsmp.m0629.p00": "line_0398.text",
+    "game.shopsmp.m0629.p01": "line_0399.text",
+    "game.shopsmp.m0630.p00": "line_0400.text",
+    "game.shopsmp.m0630.p01": "line_0401.text",
+    "game.shopsmp.m0631.p00": "line_0402.text",
+    "game.shopsmp.m0632.p00": "line_0403.text",
+    "game.shopsmp.m0632.p01": "line_0404.text",
+    "game.shopsmp.m0633.p00": "line_0405.text",
+    "game.shopsmp.m0633.p01": "line_0406.text",
+    "game.shopsmp.m0634.p00": "line_0407.text",
+    "game.shopsmp.m0634.p01": "line_0408.text",
+    "game.shopsmp.m0635.p00": "line_0409.text",
+    "game.shopsmp.m0635.p01": "line_0410.text",
+    "game.shopsmp.m0636.p00": "line_0411.text",
+    "game.shopsmp.m0637.p00": "line_0412.text",
+    "game.shopsmp.m0638.p00": "line_0413.text",
+    "game.shopsmp.m0638.p01": "line_0414.text",
+    "game.shopsmp.m0639.p00": "line_0415.text",
+    "game.shopsmp.m0640.p00": "line_0416.text",
+    "game.shopsmp.m0641.p00": "line_0417.text",
+    "game.shopsmp.m0641.p01": "line_0418.text",
+    "game.shopsmp.m0642.p00": "line_0419.text",
+    "game.shopsmp.m0642.p01": "line_0420.text",
+    "game.shopsmp.m0643.p00": "line_0421.text",
+    "game.shopsmp.m0644.p00": "line_0422.text",
+    "game.shopsmp.m0645.p00": "line_0423.text",
+    "game.shopsmp.m0646.p00": "line_0424.text",
+    "game.shopsmp.m0647.p00": "line_0425.text",
+    "game.shopsmp.m0648.p00": "line_0426.text",
+    "game.shopsmp.m0650.p00": "line_0427.text",
+    "game.shopsmp.m0651.p00": "line_0428.text",
+    "game.shopsmp.m0652.p00": "line_0429.text",
+    "game.shopsmp.m0653.p00": "line_0430.text",
+    "game.shopsmp.m0654.p00": "line_0431.text",
+    "game.shopsmp.m0655.p00": "line_0432.text",
+    "game.shopsmp.m0656.p00": "line_0430.text",
+    "game.shopsmp.m0657.p00": "line_0433.text",
+    "game.shopsmp.m0658.p00": "line_0434.text",
+    "game.shopsmp.m0722.p00": "line_0498.text",
+    "game.shopsmp.m0723.p00": "line_0499.text",
+    "game.shopsmp.m0791.p00": "crushed_ice.description",
+    "game.shopsmp.m0792.p00": "spark_mixer.description",
+    "game.shopsmp.m0793.p00": "cool_slider.description",
+    "game.shopsmp.m0794.p00": "karuko_wine.description",
+    "game.shopsmp.m0795.p00": "gin_bingara.description",
+    "game.shopsmp.m0796.p00": "natural_high.description",
+    "game.shopsmp.m0797.p00": "adrenal_pop.description",
+    "game.shopsmp.m0798.p00": "megu_beer.description",
+    "game.shopsmp.m0799.p00": "north_ethyl.description",
+    "game.shopsmp.m0800.p00": "gum_syrup.description",
+    "game.shopsmp.m0801.p00": "bio_liqueur.description",
+    "game.shopsmp.m0802.p00": "metamol_mix.description",
+    "game.shopsmp.m0803.p00": "ogre_juice.description",
+    "game.shopsmp.m0804.p00": "neko_sake.description",
+    "game.shopsmp.m0805.p00": "mach_citron.description",
+    "game.shopsmp.m0806.p00": "demon_water.description",
+    "game.event_bar.drinks.r0000": "crushed_ice.name",
+    "game.event_bar.drinks.r0001": "spark_mixer.name",
+    "game.event_bar.drinks.r0002": "cool_slider.name",
+    "game.event_bar.drinks.r0003": "karuko_wine.name",
+    "game.event_bar.drinks.r0004": "gin_bingara.name",
+    "game.event_bar.drinks.r0005": "natural_high.name",
+    "game.event_bar.drinks.r0006": "adrenal_pop.name",
+    "game.event_bar.drinks.r0007": "megu_beer.name",
+    "game.event_bar.drinks.r0008": "north_ethyl.name",
+    "game.event_bar.drinks.r0009": "gum_syrup.name",
+    "game.event_bar.drinks.r0010": "bio_liqueur.name",
+    "game.event_bar.drinks.r0011": "metamol_mix.name",
+    "game.event_bar.drinks.r0012": "ogre_juice.name",
+    "game.event_bar.drinks.r0013": "neko_sake.name",
+    "game.event_bar.drinks.r0014": "mach_citron.name",
+    "game.event_bar.drinks.r0015": "demon_water.name",
+    "game.event_bar.talk_labels.r0000": "master.name",
+    "game.event_bar.talk_labels.r0001": "young_man.name",
+    "game.event_bar.talk_labels.r0002": "white_lady.name",
+    "game.event_bar.talk_labels.r0003": "pair_in_back.name",
+    "game.event_bar.talk_labels.r0004": "young_lady.name",
+    "game.event_bar.talk_labels.r0005": "corner_lady.name"
+  },
+  "field_surfaces": {
+    "description": [
+      "bar.drink_help"
+    ]
+  },
+  "record_surfaces": {
+    "game.event_bar.drinks.r0000": [
+      "bar.drink_name"
+    ],
+    "game.event_bar.drinks.r0001": [
+      "bar.drink_name"
+    ],
+    "game.event_bar.drinks.r0002": [
+      "bar.drink_name"
+    ],
+    "game.event_bar.drinks.r0003": [
+      "bar.drink_name"
+    ],
+    "game.event_bar.drinks.r0004": [
+      "bar.drink_name"
+    ],
+    "game.event_bar.drinks.r0005": [
+      "bar.drink_name"
+    ],
+    "game.event_bar.drinks.r0006": [
+      "bar.drink_name"
+    ],
+    "game.event_bar.drinks.r0007": [
+      "bar.drink_name"
+    ],
+    "game.event_bar.drinks.r0008": [
+      "bar.drink_name"
+    ],
+    "game.event_bar.drinks.r0009": [
+      "bar.drink_name"
+    ],
+    "game.event_bar.drinks.r0010": [
+      "bar.drink_name"
+    ],
+    "game.event_bar.drinks.r0011": [
+      "bar.drink_name"
+    ],
+    "game.event_bar.drinks.r0012": [
+      "bar.drink_name"
+    ],
+    "game.event_bar.drinks.r0013": [
+      "bar.drink_name"
+    ],
+    "game.event_bar.drinks.r0014": [
+      "bar.drink_name"
+    ],
+    "game.event_bar.drinks.r0015": [
+      "bar.drink_name"
+    ],
+    "game.event_bar.talk_labels.r0000": [
+      "bar.patron_name"
+    ],
+    "game.event_bar.talk_labels.r0001": [
+      "bar.patron_name"
+    ],
+    "game.event_bar.talk_labels.r0002": [
+      "bar.patron_name"
+    ],
+    "game.event_bar.talk_labels.r0003": [
+      "bar.patron_name"
+    ],
+    "game.event_bar.talk_labels.r0004": [
+      "bar.patron_name"
+    ],
+    "game.event_bar.talk_labels.r0005": [
+      "bar.patron_name"
+    ]
+  }
+}

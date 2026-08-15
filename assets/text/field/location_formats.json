@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "map_3d_basement_floor": {
+      "placeholders": {
+        "floor": "number"
+      },
+      "text": {
+        "reference": "地下{floor}階",
+        "translation": "B{floor}F"
+      }
+    },
+    "map_3d_above_ground_floor": {
+      "placeholders": {
+        "floor": "number"
+      },
+      "text": {
+        "reference": "{floor}階",
+        "translation": "{floor}F"
+      }
+    },
+    "automap_floorless": {
+      "placeholders": {
+        "location": "location_name"
+      },
+      "text": {
+        "reference": "{location}",
+        "translation": "{location}"
+      }
+    },
+    "automap_basement": {
+      "placeholders": {
+        "location": "location_name",
+        "floor": "number"
+      },
+      "text": {
+        "reference": "{location} B{floor}F",
+        "translation": "{location} B{floor}F"
+      }
+    },
+    "automap_above_ground": {
+      "placeholders": {
+        "location": "location_name",
+        "floor": "number"
+      },
+      "text": {
+        "reference": "{location} {floor}F",
+        "translation": "{location} {floor}F"
+      }
+    },
+    "save_load_floorless": {
+      "placeholders": {
+        "location": "location_name"
+      },
+      "text": {
+        "reference": "{location}",
+        "translation": "{location}"
+      }
+    },
+    "save_load_basement": {
+      "placeholders": {
+        "location": "location_name",
+        "floor": "number"
+      },
+      "text": {
+        "reference": "{location} 地下{floor}階",
+        "translation": "{location} B{floor}F"
+      }
+    },
+    "save_load_above_ground": {
+      "placeholders": {
+        "location": "location_name",
+        "floor": "number"
+      },
+      "text": {
+        "reference": "{location} {floor}階",
+        "translation": "{location} {floor}F"
+      }
+    }
+  }
+}

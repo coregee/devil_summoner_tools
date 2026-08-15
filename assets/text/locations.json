@@ -1,0 +1,204 @@
+{
+  "version": 1,
+  "kind": "entity_catalog",
+  "entries": {
+    "library": {
+      "name": {
+        "reference": "図書館",
+        "translation": "Library"
+      }
+    },
+    "yatou_building": {
+      "name": {
+        "reference": "矢東ビル",
+        "translation": "Yatou Building"
+      }
+    },
+    "construction_site": {
+      "name": {
+        "reference": "工事現場",
+        "translation": "Construction Site"
+      }
+    },
+    "rinkai_hospital": {
+      "name": {
+        "reference": "臨海病院",
+        "translation": "Rinkai Hospital"
+      }
+    },
+    "ginza_arcade": {
+      "name": {
+        "reference": "矢来銀座",
+        "translation": "Ginza Arcade"
+      }
+    },
+    "otherworld": {
+      "name": {
+        "reference": "異界",
+        "translation": "Otherworld"
+      }
+    },
+    "police_station": {
+      "name": {
+        "reference": "警察署",
+        "translation": "Police Station"
+      }
+    },
+    "casa_inui": {
+      "name": {
+        "reference": "カーサ乾",
+        "translation": "Casa Inui"
+      }
+    },
+    "kitayama_university": {
+      "name": {
+        "reference": "北山大学",
+        "translation": "Kitayama University"
+      },
+      "automap_name": {
+        "reference": "北山大学",
+        "translation": "Kitayama Uni"
+      }
+    },
+    "university_main_building": {
+      "name": {
+        "reference": "大学本館",
+        "translation": "University Main Bldg."
+      },
+      "automap_name": {
+        "reference": "大学本館",
+        "translation": "Main Bldg."
+      }
+    },
+    "underground_sewer": {
+      "name": {
+        "reference": "地下水道",
+        "translation": "Underground Sewer"
+      },
+      "automap_name": {
+        "reference": "地下水道",
+        "translation": "Sewer"
+      }
+    },
+    "mount_kasagi": {
+      "name": {
+        "reference": "笠置山",
+        "translation": "Mount Kasagi"
+      }
+    },
+    "kasagi_manor": {
+      "name": {
+        "reference": "かさぎ荘",
+        "translation": "Kasagi Manor"
+      }
+    },
+    "hikawa_shrine": {
+      "name": {
+        "reference": "氷川神社",
+        "translation": "Hikawa Shrine"
+      }
+    },
+    "museum": {
+      "name": {
+        "reference": "博物館",
+        "translation": "Museum"
+      }
+    },
+    "toa_tv": {
+      "name": {
+        "reference": "東亜TV",
+        "translation": "Toa TV"
+      }
+    },
+    "radio_tower": {
+      "name": {
+        "reference": "電波塔",
+        "translation": "Radio Tower"
+      }
+    },
+    "chinatown": {
+      "name": {
+        "reference": "中華街",
+        "translation": "Chinatown"
+      }
+    },
+    "tendou_mansion": {
+      "name": {
+        "reference": "首領邸",
+        "translation": "Tendou Mansion"
+      }
+    },
+    "astral_plane": {
+      "name": {
+        "reference": "擬似異界",
+        "translation": "Astral Plane"
+      }
+    },
+    "avici_hell": {
+      "name": {
+        "reference": "無間地獄",
+        "translation": "Avici Hell"
+      }
+    },
+    "new_city_hall": {
+      "name": {
+        "reference": "新市庁舎",
+        "translation": "New City Hall"
+      }
+    },
+    "fairy_forest": {
+      "name": {
+        "reference": "妖樹林",
+        "translation": "Fairy Forest"
+      }
+    },
+    "ancient_tomb": {
+      "name": {
+        "reference": "古墳迷宮",
+        "translation": "Ancient Tomb"
+      }
+    },
+    "home": {
+      "save_name": {
+        "reference": "自宅",
+        "translation": "Home"
+      }
+    },
+    "detective_agency": {
+      "save_name": {
+        "reference": "探偵事務所",
+        "translation": "Detective Agency"
+      }
+    },
+    "asahi": {
+      "save_name": {
+        "reference": "朝日区",
+        "translation": "Asahi"
+      }
+    },
+    "rinkai_park": {
+      "save_name": {
+        "reference": "臨海公園",
+        "translation": "Rinkai Park"
+      }
+    },
+    "yarai_ward": {
+      "save_name": {
+        "reference": "矢来区",
+        "translation": "Yarai Ward"
+      }
+    },
+    "chuo_ward": {
+      "save_name": {
+        "reference": "中央区",
+        "translation": "Chuo Ward"
+      }
+    },
+    "hibarigaoka": {
+      "save_name": {
+        "reference": "雲雀ヶ丘",
+        "translation": "Hibarigaoka"
+      }
+    }
+  }
+}
