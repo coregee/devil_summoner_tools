@@ -1,0 +1,4594 @@
+[
+  {
+    "id": "game.itemname.o000004.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "アセイミーナイフ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00000c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力7 命中5 1～2回 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000064.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ランドールナイフ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00006c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力18 命中7 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0000c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ジャンビーヤ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0000cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力10 命中8 2～3回 ♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000124.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "てっせん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00012c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力30 命中9 0～1回 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000184.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "カタール",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00018c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力20 命中10 1～2回 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0001e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "しょうしんらい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0001ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力13 命中15 2回 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000244.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "かわりじゅって",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00024c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力18 命中7 2～3回 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0002a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "かぶとわり",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0002ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力30 命中6 0～1回 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000304.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "れんちがん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00030c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力22 命中32 0～2回 ♀{n}POISONの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000364.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "れんそうきけん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00036c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力32 命中10 0～1回 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0003c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ろはんじゃく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0003cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力28 命中20 0～2回 ♂♀{n}BINDの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000424.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "コテツブレード",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00042c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力45 命中35 1～2回 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000484.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "マサムネブレード",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00048c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力70 命中28 0～2回 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0004e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ヤスツナブレード",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0004ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力160 命中20 0～1回 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000544.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "チタンショテル",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00054c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力33 命中45 2～4回 ♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0005a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "カザックナイフ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0005ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力115 命中15 0～1回 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000604.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ヤシャぬんちゃく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00060c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力28 命中19 3～5回 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000664.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ヘヴィザグナル",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00066c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力120 命中21 0～1回 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0006c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "きしんのてってき",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0006cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力34 命中8 3～5回 ♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000724.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "さんこえけん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00072c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力64 命中27 1～3回 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000784.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "おにぼうちょう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00078c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力74 命中67 2回 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0007e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "チェインバスター",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0007ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力62 命中22 0～2回 ♂{n}PANICの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000844.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ラビドリホーンズ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00084c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力35 命中70 前列全体 ♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0008a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "もものぼっけん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0008ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力90 命中19 0～1回 ♂♀{n}SHOCKの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000904.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "くりゅうはけん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00090c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力96 命中20 2回 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000964.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "カイザーソード",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00096c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力90 命中90 前列全体 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0009c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "てんほうていは",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0009cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力115 命中53 2回 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000a24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ヴァジュラメイス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000a2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力76 命中39 2～4回 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000a84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "オリハルコンパタ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000a8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力66 命中70 3～5回 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000ae4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "デスサイズ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000aec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力60 命中8 0～2回 ♂♀{n}CLOSEの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000b44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "エクスゼスソード",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000b4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力113 命中12 1～3回 ♂♀{n}BINDの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000ba4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ガリアン‐ソード",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000bac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力117 命中40 前列全体 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000c04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "プラズナーソード",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000c0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力74 命中60 3～5回 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000c64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "おにまるのたち",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000c6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力158 命中51 2～3回 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000cc4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ソードトマホーク",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000ccc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力161 命中45 2回 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000d24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ざんばとう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000d2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力132 命中40 前列全体 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000d84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "マルジアムアクス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000d8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力170 命中10 2回 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000de4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "りゅうがとう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000dec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力170 命中20 0～1回 ♂{n}SHOCKの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000e44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ピクシーナイフ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000e4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力30 命中25 0～7回 ♀{n}妖精ピクシーの親愛がこもる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000ea4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "シャドゥジャック",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000eac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力46 命中40 3～5回 ♂{n}魔獣ヘアリージャックの忠魂が主人を守る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000f04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "がろうせん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000f0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力37 命中15 ♂♀{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000f64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "こんごうじょう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000f6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力128 命中30 0～1回 ♂{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000fc4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "やそくちょうとう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o000fcc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力34 命中60 0～7回 ♀{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001024.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "トライランス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00102c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力38 命中50 0～2回 ♂{n}SHOCKの効果／後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001084.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "そうりつそうそう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00108c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力166 命中8 0～2回 ♀{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0010e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ヒートグレイプ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0010ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力193 命中50 ♂♀{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001144.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "タクヒのつえ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00114c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力42 命中12 2～3回 ♀{n}妖鳥タクヒの魂が宿る／後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0011a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ゲイボルグ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0011ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力60 命中32 3～5回 ♂♀{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001204.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "こうまじょう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00120c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力42 命中32 2～3回 ♂♀{n}CLOSEの効果／後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001264.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ズフタフのやり",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00126c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力32 命中32 2回 ♂♀{n}BINDの効果／後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0012c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ベルセルクパイル",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0012cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力26 命中24 2回 ♂{n}妖鬼ベルセルクの化身／後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001324.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "かせんそう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00132c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力116 命中33 0～7回 ♂♀{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001384.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ローゼスロッド",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00138c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力10 命中8 前列全体 ♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0013e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ふあっそお",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0013ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力12 命中11 前列全体 ♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001444.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "りゅうづしょぼう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00144c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力21 命中27 前列全体 ♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0014a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "きゅうせつべん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0014ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力16 命中18 前列全体 ♀{n}BINDの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001504.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ヒートウィップ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00150c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力18 命中53 前列全体 ♀{n}SHOCKの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001564.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "けんさく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00156c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力104 命中8 前列全体 ♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0015c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ビームウィップ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0015cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力160 命中45 前列全体 ♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001624.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ヤマタのじゃべん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00162c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力64 命中54 敵全体 ♀{n}龍王ヤマタノオロチの怒りが敵を打ち払う",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001684.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "チャクラム",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00168c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力24 命中10 前列／後列 ♀{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0016e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "てつえんおう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0016ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力64 命中41 前列／後列 ♀{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001744.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ビームホイール",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00174c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力76 命中51 前列／後列 ♀{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0017a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ビガラのほうりん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0017ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力32 命中24 前列／後列 ♀{n}BINDの効果／後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001804.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "むめいのかたな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00180c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力10 命中5 0～1回 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001864.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "しちせいけん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00186c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力24 命中12 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0018c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "くりからのこだち",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0018cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力20 命中45 2～3回 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001924.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "じゃがとう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00192c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力15 命中28 1～2回 ♂♀{n}POISONの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001984.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "くびかりマンダウ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00198c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力22 命中70 ♂♀{n}CLOSEの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0019e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ヤミカゼのくない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0019ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力20 命中87 敵全体 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001a44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "れんきのけん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001a4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力101 命中40 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001aa4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "むらさめまる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001aac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力98 命中50 0～1回 ♂♀{n}FREEZEの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001b04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ようとうニヒル",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001b0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力12 命中32 0～7回 ♂{n}BINDの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001b64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "こくえんけん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001b6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力60 命中12 2～4回 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001bc4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "けしょうおうじん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001bcc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力111 命中65 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001c24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ざんかんけん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001c2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力64 命中24 2回 ♂♀{n}BINDの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001c84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ごかしんえんせん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001c8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力34 命中65 2～4回 ♂♀{n}SHOCKの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001ce4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ごうれつとう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001cec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力201 命中70 1～3回 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001d44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "くさなぎのつるぎ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001d4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力180 命中58 1～3回 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001da4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "きこうせいけん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001dac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力175 命中75 1～3回 ♂♀{n}BINDの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001e04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "にょいぼう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001e0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力130 命中80 敵全体 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001e64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "トールハンマー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001e6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力150 命中68 敵全体 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001ec4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "むひょうつきかげ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001ecc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力170 命中90 0～7回 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001f24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ようおうはけん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001f2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力255 命中12 2～7回 ♂♀{n}PALYZEの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001f84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "トカレフ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001f8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力24 命中8 0～1回 ♂♀{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001fe4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "レディ‐スミス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o001fec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力20 命中15 ♀{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002044.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "デザートイーグル",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00204c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力30 命中12 ♂{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0020a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "アストラM902",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0020ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力30 命中23 2～3回 ♂♀{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002104.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ナンブ100しき",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00210c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力62 命中30 0～7回 ♂♀{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002164.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "バスターショット",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00216c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力140 命中27 前列全体 ♂{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0021c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "サンダラーコルト",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0021cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力66 命中50 敵全体 ♂{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002224.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ブルドッグ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00222c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力40 命中40 2～4回 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002284.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "SPAS12",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00228c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力50 命中42 3～5回 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0022e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "SPAS15",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0022ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力55 命中38 3～6回 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002344.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ナックルブラスタ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00234c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力60 命中50 4～6回 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0023a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "スコーピオン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0023ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力46 命中23 前列全体 ♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002404.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ステアーTMP",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00240c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力58 命中34 前列全体 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002464.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ルガーMP9",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00246c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力80 命中41 前列全体 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0024c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "イングラムM10",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0024cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力104 命中50 前列全体 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002524.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ジリオニウムガン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00252c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力112 命中43 前列全体 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002584.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ドラグノフ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00258c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力65 命中66 ♂♀{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0025e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "タンクゲベール",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0025ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力200 命中52 0～1回 ♂{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002644.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "バレットM90",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00264c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力135 命中50 0～1回 ♂{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0026a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ソロサーンS18",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0026ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力174 命中60 0～1回 ♂{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002704.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ネコパンチバズ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00270c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力240 命中28 0～1回 ♂♀{n}魔獣ネコマタ愛の結晶／後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002764.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "インサニティ‐H",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00276c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力144 命中35 0～7回 ♂{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0027c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "M16A2",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0027cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力48 命中30 前列全体 ♂♀{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002824.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "AK47",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00282c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力80 命中27 前列全体 ♂♀{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002884.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "M249ミニミ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00288c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力40 命中39 敵全体 ♂♀{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0028e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "M134バルカン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0028ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力50 命中48 敵全体 ♂{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002944.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "クラウドバスター",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00294c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力90 命中62 前列全体 ♂♀{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0029a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "バーストライザー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0029ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力110 命中50 敵全体 ♂{n}後列から攻撃可能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002a04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "つうじょうだん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002a0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力1",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002a64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "さくれつだん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002a6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力2 命中5",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002ac4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ベノンショット",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002acc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力4{n}POISONの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002b24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ショットシェル",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002b2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力5",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002b84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ランディショット",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002b8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力1{n}CHARMの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002be4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "スタンショット",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002bec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力2{n}SHOCKの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002c44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ますいだん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002c4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力2{n}SLEEPの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002ca4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "てっこうだん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002cac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力10",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002d04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "デスペルショット",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002d0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力3{n}CLOSEの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002d64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "スラッグショット",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002d6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力14",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002dc4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ライジングカート",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002dcc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力4{n}SHOCKの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002e24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "メデューサカート",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002e2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力2{n}STONEの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002e84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ボンバーブリッド",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002e8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力16 命中8",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002ee4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "こんごうだん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002eec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力5{n}BINDの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002f44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "プラズマカート",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002f4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力6{n}SHOCKの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002fa4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "マーキュリーボム",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o002fac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃力24 命中12",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003004.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "S’Aチェーン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00300c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力7 回避2 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003064.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "6’sチョーカー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00306c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力9 回避1 ♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0030c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ハードテンガロン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0030cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力12 回避2 ♂{n}物理攻撃に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003124.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "チェインベレー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00312c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力9 回避6 ♀{n}物理攻撃に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003184.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "プレートバンダナ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00318c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力14 回避6 ♂♀{n}銃弾に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0031e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "フリッツヘルム",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0031ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力16 回避4 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003244.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "じゅしちゅう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00324c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力20 回避6 ♂♀{n}火炎に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0032a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "スターヘルム",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0032ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力21 回避4 ♂♀{n}衝撃に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003304.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "コーンハット",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00330c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力22 回避6 ♀{n}念動に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003364.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "いちじきん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00336c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力27 回避4 ♂♀{n}精神攻撃に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0033c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ドルフィンヘルム",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0033cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力31 回避8 ♂♀{n}精神攻撃に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003424.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "Aマックスヘルム",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00342c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力46 回避8 ♂{n}すべての攻撃に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003484.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "やさかのまがたま",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00348c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力52 回避4 ♂{n}火炎・氷結に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0034e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "カラミティヘルム",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0034ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力50 回避16 ♀{n}すべての攻撃に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003544.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "こうりんのかぶと",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00354c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力57 回避12 ♂{n}神聖防具",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0035a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ほむらのはつむり",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0035ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力18 回避6 ♂♀{n}火炎に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003604.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "そうきかん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00360c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力62 回避12 ♂♀{n}魔性防具",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003664.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ヤクシャのかめん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00366c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力52 回避16 ♂{n}妖鬼ヤクシャが身を変じたもの",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0036c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "シコメのまがたま",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0036cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力14 回避6 ♀{n}鬼女ヨモツシコメの精魂がこもる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003724.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "フロストずきん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00372c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力16 回避2 ♂♀{n}妖精ジャックフロスト 魂の結晶",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003784.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ランタンハット",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00378c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力18 回避6 ♂♀{n}妖精ジャックランタン 友情の魔晶変化",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0037e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ガルチェのスーツ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0037ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力11 回避1 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003844.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "サニエスのスーツ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00384c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力10 回避3 ♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0038a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "コートジャケット",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0038ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力14 回避4 ♂{n}衝撃に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003904.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "チタンコルセット",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00390c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力18 回避6 ♀{n}衝撃に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003964.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ケブラーベスト",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00396c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力19 回避8 ♂♀{n}刃物に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0039c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "スペクトラコート",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0039cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力33 回避2 ♂♀{n}銃弾に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003a24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "じゅしこう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003a2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力33 回避8 ♂♀{n}火炎に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003a84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "シルバーメイル",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003a8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力46 回避1 ♂♀{n}電撃・衝撃に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003ae4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "スピリットローブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003aec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力42 回避12 ♀{n}火炎・氷結に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003b44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "はくとうかいせい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003b4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力57 回避8 ♂♀{n}刃物に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003ba4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "テトラジャマー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003bac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力60 回避10 ♂♀{n}精神攻撃に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003c04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "Aマックススーツ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003c0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力78 回避14 ♂{n}すべての攻撃に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003c64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "しらとりのころも",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003c6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力80 回避16 ♂{n}すべての攻撃に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003cc4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "カラミティスーツ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003ccc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力93 回避19 ♀{n}すべての攻撃に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003d24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "からじしのよろい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003d2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力99 回避15 ♂{n}神聖防具",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003d84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "メギンギョルズ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003d8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力98 回避25 ♂{n}物理攻撃に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003de4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "びゃくえんがい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003dec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力40 回避4 ♂♀{n}火炎攻撃を吸収",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003e44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "よみのがいこう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003e4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力88 回避8 ♂♀{n}魔性防具",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003ea4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "スプリガンベスト",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003eac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力60 回避2 ♂{n}妖精スプリガンの霊魂が宿る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003f04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ブリザードローブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003f0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力45 回避8 ♀{n}鬼女ユキジョロウの情愛がこもる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003f64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "しょうきがいりん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003f6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力4 回避1 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003fc4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "こうまのゆびわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o003fcc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力4 回避2 ♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004024.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リベットナックル",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00402c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力5 回避1 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004084.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "カイザーリング",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00408c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力5 回避2 ♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0040e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ダマスカスグラブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0040ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力5 回避4 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004144.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "マッスルアーム",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00414c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力10 回避2 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0041a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "じゅしじゅん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0041ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力10 回避4 ♂♀{n}火炎に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004204.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "トライシールド",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00420c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力14 回避2 ♂♀{n}物理攻撃に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004264.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ペンタグラブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00426c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力12 回避8 ♀{n}念動に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0042c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "もものきごて",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0042cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力18 回避4 ♂♀{n}電撃・衝撃に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004324.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ジャミングアーム",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00432c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力19 回避8 ♂♀{n}精神攻撃に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004384.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "Aマックスアーム",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00438c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力24 回避10 ♂{n}すべての攻撃に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0043e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "やたのかがみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0043ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力21 回避18 ♂{n}火炎・氷結に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004444.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "カラミティクロウ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00444c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力20 回避20 ♀{n}電撃攻撃を吸収",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0044a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "れっかのこて",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0044ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力24 回避17 ♂{n}火炎攻撃を吸収",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004504.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ライジンググラブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00450c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力27 回避15 ♂{n}物理攻撃に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004564.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "せいえんのこて",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00456c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力10 回避4 ♂♀{n}火炎攻撃を吸収",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0045c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ばくがいりん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0045cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力36 回避5 ♂♀{n}物理攻撃に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004624.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "カワンチャガード",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00462c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力21 回避4 ♂{n}地霊カワンチャが持ち主を守護する",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004684.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ガネーシャリング",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00468c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力45 回避1 ♀{n}妖魔ガネーシャが持ち主を精神攻撃から守る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0046e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "サイドゴアブーツ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0046ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力4 回避1 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004744.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "シェラガモブーツ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00474c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力5 回避2 ♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0047a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "バットウィングス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0047ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力6 回避2 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004804.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "フルメタルヒール",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00480c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力7 回避1 ♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004864.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ジャックブーツ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00486c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力8 回避1 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0048c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ケブラーチャプス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0048cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力6 回避8 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004924.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "じゅしちょうたい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00492c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力6 回避10 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004984.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ガイアガード",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00498c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力14 回避1 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0049e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ウィッチパンプス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0049ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力12 回避12 ♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004a44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "もものきぐつ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004a4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力14 回避10 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004aa4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "レッガースラム",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004aac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力15 回避15 ♂♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004b04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "Aマックスレッグ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004b0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力17 回避18 ♂{n}すべての攻撃に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004b64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "すさのおのぐそく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004b6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力22 回避14 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004bc4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "カラミティブーツ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004bcc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力28 回避18 ♀",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004c24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "こんごうのぐそく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004c2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力20 回避16 ♂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004c84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "おうえんのぐそく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004c8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力7 回避4 ♂♀{n}火炎に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004ce4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "せいだのぐそく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004cec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力20 回避14 ♂♀{n}すべての攻撃に対する耐性",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004d44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "テングのゲタ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004d4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力11 回避18 ♂{n}妖魔テングが化けたもの",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004da4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リーオヒール",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004dac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御力17 回避14 ♀{n}魔獣ドゥンの闘気が宿る／神聖防具",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004e04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ドラゴンATM",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004e0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃アイテム 全体 威力77{n}すべての敵に火炎系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004e64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "スティンガー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004e6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃アイテム 全体 威力86{n}すべての敵に電撃系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004ec4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "PZファウスト",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004ecc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃アイテム 前列 威力200{n}敵1体に大ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004f24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "りゅうかく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004f2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃アイテム 前列 威力150{n}敵1列全体に大ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004f84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ギャッラルホルン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004f8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃アイテム 全体 威力160{n}すべての敵に大ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004fe4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "てんけつしん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o004fec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃アイテム 前列／後列{n}敵1体を呪殺",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005044.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "きずぐすり",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00504c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復アイテム 単体{n}味方1体のHPを少しだけ回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0050a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "きんぎょうふ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0050ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御アイテム 全体{n}物理攻撃を1ターン防ぎ敵に反射",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005104.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "げほうかくせいふ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00510c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復アイテム 単体{n}味方1体を復活",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005164.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ディストーン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00516c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復アイテム 単体{n}味方1体の石化を治療",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0051c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ディスパライズ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0051cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復アイテム 単体{n}味方1体の麻痺を治療",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005224.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ディスポイズン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00522c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復アイテム 単体{n}味方1体の毒の状態を治療",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005284.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ディスチャーム",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00528c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復アイテム 単体{n}味方1体の魅了を治療",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0052e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ちんしんふ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0052ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復アイテム 単体{n}味方1体の混乱・至福・睡眠・呪縛を治療",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005344.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "とんこうらばん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00534c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊アイテム 移動時{n}パーティー周辺のマップを表示",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0053a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ふえんじ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0053ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊アイテム 移動時{n}月1周の間 低レベル悪魔の出現を抑止",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005404.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ファイナルガード",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00540c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御アイテム 全体{n}破魔・呪殺・エナジードレインを1回防止",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005464.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ちんかいふ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00546c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御アイテム 全体{n}魔法攻撃を1ターン防ぎ敵に反射",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0054c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0054cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005524.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00552c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005584.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "うつくしいえ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00558c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "その大胆な色使いに 見た者は皆 息を飲む",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0055e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "こうかなぞう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0055ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "作り手の愛が伝わる 美しいブロンズ像",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005644.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "めずらしいつぼ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00564c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "テーマは「くしゃみ」{n}質素な中にも 光るものがある",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0056a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ほうぎょく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0056ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復アイテム 単体{n}味方1体のHPを完全回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005704.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ませき",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00570c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復アイテム 単体{n}味方1体をMAX・HPの1／4回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005764.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "チャクラドロップ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00576c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復アイテム 単体{n}味方1体のMPを5回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0057c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "チャクラチップ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0057cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復アイテム 単体{n}味方1体のMPを10回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005824.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "チャクラポット",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00582c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復アイテム 単体{n}味方1体のMPを20回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005884.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ソーマ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00588c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復アイテム 単体{n}味方1体を完全回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0058e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "はんごんこう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0058ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復アイテム 単体{n}味方1体をHP最大で復活",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005944.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "きんたん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00594c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復アイテム 単体{n}味方1体をHP1／8で復活",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0059a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "サマナーズ‐ハイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0059ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復アイテム 単体{n}MAX．HPを一時的に増加",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005a04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ちからのこう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005a0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "通常アイテム 単体{n}人間の「力」を1アップしHP完全回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005a64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ちえのこう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005a6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "通常アイテム 単体{n}人間の「知恵」を1アップしHP完全回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005ac4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "まりょくのこう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005acc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "通常アイテム 単体{n}人間の「魔力」を1アップしHP完全回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005b24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "たいりょくのこう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005b2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "通常アイテム 単体{n}人間の「体力」を1アップしHP完全回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005b84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "はやさのこう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005b8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "通常アイテム 単体{n}人間の「速さ」を1アップしHP完全回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005be4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "うんのこう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005bec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "通常アイテム 単体{n}人間の「運」を1アップしHP完全回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005c44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "コアシールド",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005c4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊アイテム 移動時{n}月1周の間 ダメージゾーンを無効化",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005ca4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005cac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005d04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "きんじゅふ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005d0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃アイテム 全体 バッドステータス{n}すべての敵にBINDの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005d64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "グレイプニル",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005d6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃アイテム 単体 バッドステータス{n}敵1体にPALYZEの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005dc4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005dcc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005e24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "スタングレネード",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005e2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊アイテム 戦闘時{n}戦闘から離脱",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005e84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005e8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005ee4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005eec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005f44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "バックアッパー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005f4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊アイテム 移動時{n}1回だけ「行動の記録」ができる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005fa4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ガーネット",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o005fac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "肉体と精神に働きかける{n}深い血の色をした宝石",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006004.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "アメジスト",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00600c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "至福の愛をあらわす{n}むらさき色のクリスタル",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006064.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "アクアマリン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00606c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "マリンブルーに輝く{n}平和とやさしさの女神",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0060c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ダイヤモンド",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0060cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "魔をはらい邪を屈する{n}宝石の王",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006124.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "エメラルド",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00612c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "古来より魔除として用いられた{n}あざやかな緑の石",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006184.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "パール",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00618c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "慈愛の心を育む{n}母なる海の贈り物",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0061e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ルビー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0061ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "鮮やかに燃え立つ{n}勇気と力のシンボル",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006244.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "オニキス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00624c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "繊細な表情を見せる{n}情熱と神秘のメノウ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0062a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "サファイア",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0062ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "青く澄んだ輝きで{n}危険を遠ざける神秘の石",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006304.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "オパール",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00630c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "苦悩を消し去る{n}希望の象徴",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006364.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "トパーズ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00636c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "黄金色に輝く{n}知性の具現",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0063c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ターコイズ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0063cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "生命力あふれる{n}戦士の守護石",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006424.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ブランク",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00642c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "このりょういきは ほんらい ひょうじ  {n}されません おかしいですね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006484.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00648c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "このりょういきは ほんらい ひょうじ  {n}されません おかしいですね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0064e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0064ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "このりょういきは ほんらい ひょうじ  {n}されません おかしいですね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006544.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00654c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "このりょういきは ほんらい ひょうじ  {n}されません おかしいですね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0065a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "なぞのにんぎょう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0065ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006604.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ドリーカドモン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00660c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006664.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ペトラノン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00666c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0066c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "シャッフラのしょ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0066cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006724.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ぎぞうIDカード",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00672c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006784.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ぎじどうのかぎ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00678c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0067e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "きょうじゅのメモ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0067ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006844.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ヒーホにんぎょう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00684c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0068a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "イベント08",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0068ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006904.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "イベント09",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00690c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006964.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "イベント0A",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o00696c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0069c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "イベント0B",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o0069cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006a24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "イベント0C",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006a2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006a84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "イベント0D",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006a8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006ae4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "イベント0E",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006aec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006b44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "イベント0F",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.itemname.o006b4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  }
+]

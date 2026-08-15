@@ -1,0 +1,6130 @@
+[
+  {
+    "id": "game.evfile_0.m0000.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ようこそ、DDS{GLYPH:010d}NETへ。{n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0000.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "お手数ですが、現在会員の方には、{n}継続手続をお願いしています。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0001.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あなたの名前を入力してください。{n}漢字／ひらがな／カタカナが使えます",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0002.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "これで、よろしいですか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0003.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あなたの名前の読み方を入力してください。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0004.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あなたの住所を入力してください。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0005.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あなたの職業は？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0006.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あなたは、会社員ですね？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0007.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あなたは、学生ですね？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0008.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あなたは、フリーターですね？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0009.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あなたは、無職ですね？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0010.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "これで、よろしいですか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0011.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "お手数をおかけしました。以上で、{n}あなたの会員継続手続は、終了しました。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0011.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "DDS{GLYPH:010d}NETを{n}今後ともよろしくお願いします。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0012.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "会社員",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0013.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "学生",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0014.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "フリーター",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0015.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "無職",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0016.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "DDS{GLYPH:010d}NET：{codename}さんに、{n}メッセージが届きました。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0016.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レッドマン：こんにちは、{n}{codename}さん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0016.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ぼくは、レッドマンです。よろしくね。{n}{codename}さんは、どちらに{n}お住まいですか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0016.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……{city}市{ward}区ですか。{n}{city}は、いいところですよね。{n}{ward}区というと、市の東側かな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0016.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "海に近いし、緑は多いし、{n}立派な公園や、大きな図書館や博物館もある{n}いい街ですよね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0016.p05",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "意外に、歴史も古い街ですよね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0016.p06",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……確か、ヤクザの大親分の屋敷もあった{n}ような……それはどうでもいいか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0016.p07",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "では、またNET上で会いましょう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0017.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "母親の声：はい、{last_name}でございます。{n}ハタノさん……ああ、久美子さんね。{n}{first_name}？今呼びますね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0017.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{first_name}！電話よ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0018.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞下におりますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0019.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "母親の声：今来ますから。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0020.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "母親：はい、久美子さんから電話よ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0020.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞母親から、受話器を受け取った。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0020.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：もしもし、{first_name}くん？{n}わたし。元気だった？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0020.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ところで、今日の臨海公園の待ち合わせ{n}だけど、どこにしましょうか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0020.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "「踊るボディコン娘の像」の前は、{n}ありきたりよね……。{n}喫茶店にしましょう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0020.p05",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "喫茶「アフロ」がいいわね。{n}そう、公園の北側にある、オレンジ色の{n}屋根の小さな店よ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0020.p06",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "じゃあ、またあとでね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0021.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "父親：ほう、今日は彼女とデートか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0022.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "母親：出かけるのね。気をつけてね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0023.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞どこへ行きますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0024.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "母親の声：{first_name}！何してるの？{n}早くおりて来なさい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0025.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞何をしますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0026.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "DDS{GLYPH:010d}NET：ただいまメンテナンス中に{n}つき、アクセスできません。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0027.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞まだ、セーブできない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0028.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "母親：約束してるんでしょ。{n}早く行かないと。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0029.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "自分の部屋",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0030.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "リビングルーム",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0031.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "設定の変更",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0032.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "外出する",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0033.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "NETアクセス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0034.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "行動を記録する",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0035.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "部屋を出る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0036.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞{first_name}の家中に入りますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0037.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞玄関は閉ざされている。{n}チャイムのボタンを押しますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0038.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "父親：……どなたですか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0039.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞どこへ行きますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0040.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞何をしますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0041.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "母親：あら？もう帰って来たの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0042.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "父親：はっはっは、デートじゃなかったのか{n}それとも、彼女とケンカでもしたのか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0043.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "父親：{first_name}、学校には、{n}真面目に行ってるか？{n}単位は、きちんと取れそうか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0044.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "父親：{first_name}、このごろ仕事は、{n}うまくいってるか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0045.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "父親：{first_name}、フリーターだか、{n}なんだか知らんが、アルバイトじゃない、{n}きちんとした仕事についたらどうだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0046.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "父親：{first_name}、いつまでも遊んでないで、{n}いい加減に仕事をしたらどうだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0047.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "父親：何っ！{first_name}！？{n}ウチの息子は、病院だ！{n}タチの悪い、いたずらは止めろ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0048.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "父親：その声は、私立探偵の……。{n}なぜ、息子の名を名乗るんだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0049.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "父親：私立探偵？そんな、いかがわしい男に{n}話すことは何も無い！帰ってくれ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0050.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "父親：あんたか。{n}あんたに話すことは、もうないぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0051.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "{last_name}{first_name}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0052.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "葛葉キョウジ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0053.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "無言で立ち去る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0054.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "自分の部屋",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0055.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "リビングルーム",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0056.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "外に出る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0057.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "NETアクセス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0058.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "行動を記録する",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0059.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "設定の変更",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0060.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "部屋を出る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0061.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "DDS{GLYPH:010d}NET：ただいま、{n}システムメンテナンス中につき、{n}アクセスできません。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0062.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞まだ、セーブできない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0063.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞行動の記録は、現在不可。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0064.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マスター：いらっしゃいませ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0064.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……{last_name}さん、ですか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0064.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "秦野久美子さんから、もう少し遅くなる、{n}って電話があったんですよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0064.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "どうぞごゆっくり、TVでもごらんになって{n}お待ちになってください。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0065.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "TV：……続いて、スポーツです。{n}{city}ウェーブス対東京スパローズは、{n}5対0でウェーブスが勝ちました。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0066.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "0対0で迎えた7回、ウェーブスは{n}ツーアウト2、3塁のチャンス。{n}バッター、ジェニングスの打球はレフトへ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0066.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "スタンドに飛びこむ、スリーラン。{n}この一打が試合を決めました。これで、{n}対戦成績は、ウェーブスの3連勝です。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0067.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マスター：ご注文は？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0068.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ただのコーヒー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0069.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ブルーマウンテン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0070.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "アメリカン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0071.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "モヒカン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0072.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マスター：ホットコーヒーですね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0073.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マスター：ブルーマウンテンですね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0074.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マスター：アメリカンですね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0075.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マスター：は？何ですか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0075.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "すみませんが、もう一度お願いします。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0076.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "アメリカンと言い直す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0077.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "あくまでモヒカンと言いはる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0078.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マスター：アメリカンですね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0079.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マスター：あのー、モカのことでしょうか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0079.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "女の声：そう、モカのことよ。{n}だめじゃない、ふざけて店の人困らせちゃ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0079.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マスター：わかりました。モカですね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0080.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：{first_name}くん、待ったかしら？{n}遅くなってごめんなさい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0081.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "わたしにも、何か頼んでよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0082.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "自分でたのめば？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0083.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "オレンジジュースにする？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0084.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：やっぱり、待たせたこと{n}怒ってるのかしら？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0084.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ねえ、{last_name}くん……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0085.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "怒ってるよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0086.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "タバスコ・コーラを飲んだら許す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0087.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：ご、ごめんなさい……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0088.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：ふふっ、すぐそうやって{n}ふざけるんだから……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0089.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：なんで、あなたがコーヒーで、{n}わたしがオレンジジュースなの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0089.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "何か、意味があるのかしら？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0090.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "じゃあ、コーヒーにする？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0091.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "別に意味はない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0092.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：あら、けっこう{n}気を使ってくれるのね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0093.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：ふーん、そうなの。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0094.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：あ、あのニュース見て……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0095.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "TV：……{city}市議会は、本会議で{n}再開発計画を承認しました。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0095.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "この計画を中心になって進めてきた、{n}山城議員は、これで{city}市の発展がより{n}いっそう進むだろう、と語っています。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0096.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：再開発計画って、わたし反対よ。{n}ただ、古いものをこわして、新しいものを{n}造ればいい、ってものでもないと思うの。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0096.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あなたは、どう思う？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0096.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "再開発計画について……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0097.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "同意する",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0098.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "反対する",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0099.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "別の意見を言う",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0100.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "………………",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0101.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：発展のために、再開発と称して{n}古くても価値のあるものまで、こわして{n}しまったら、どうするの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0101.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "第一、発展することが必ず正しいとは{n}限らないわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0102.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：あなたもそう思うでしょう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0103.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：古くてよいものを、{n}うまく残しながら、再開発計画なんて{n}できるのかしら？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0104.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：……全然、興味なさそうね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0105.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ところで、これから図書館へ行きたいの。{n}レポート書くのに、必要な本があるの。{n}それを借りていきたいのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0106.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "いいでしょ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0107.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "いいよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0108.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "他の場所にしよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0109.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "どこだって？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0110.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：ありがとう。さあ、行きましょ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0111.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：中央図書館よ。この店を出て{n}南の方の右手に見えるわ。すぐ近くよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0112.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：ごめんなさい。{n}どうしても、今日中に借りておきたいの。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0112.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ね、おねがい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0113.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "しょうがないな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0114.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0115.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：ありがとう。わがまま言って、{n}ごめんなさい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0116.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：どうしても、行きたいの。{n}さ、行きましょ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0117.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：ねえ、図書館へ行きましょうよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0118.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：わたしは、学校に用事があるの。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0119.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マスター：いらっしゃい。{n}おや、今度はおひとりですか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0120.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マスター：いらっしゃい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0121.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "TV：……倒れているのを{n}近くを通りかかった人に発見されました。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0122.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "死亡していたのは、自称、私立探偵の{n}葛葉キョウジさんです。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0123.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "葛葉さんの遺体には、外傷はなく死因は{n}今のところ不明です。警察では遺体を{n}司法解剖して、死因を調べるとともに、",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0124.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "目撃者を探すなど、{n}手がかりを集めています……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0125.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マスター：……まったく、世の中ぶっそうに{n}なりましたねぇ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0125.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ああ、そうだ……{last_name}さん。{n}秦野さんから、伝言をことづかって{n}ます。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0125.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "チケットを取って来たら、雲雀ヶ丘の私の家{n}まで持って来てほしい、とのことです。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0125.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……彼女、雲雀ヶ丘に住んでるんですか。{n}お嬢さまなんですねぇ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0126.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マスター：いらっしゃ…………、{n}……あ、あんた。確かTVで……{n}死んだはずじゃあ……人違いですか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0127.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "TV：……{last_name}{first_name}さんが倒れている{n}のを、工事現場の作業員が発見して、{n}{city}臨海病院に運びこまれました。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0127.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{last_name}さんには、これといった外傷は{n}ありませんでしたが、全く意識がなく、{n}重体です……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0128.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "TV：……逮捕されたのは、陸上自衛隊{n}五島公夫一等陸佐です。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0128.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "五島容疑者は、ピストル・ライフルなどの{n}武器を大量にかくし持っていたもようです。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0128.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "調べに対し、五島容疑者は、自分は変革の{n}ための行動を起こそうとしていた、{n}などと自供。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0128.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "しかし自供内容のつじつまがあわず、関係者{n}の証言によると、五島容疑者の最近の言動に{n}は異常な点が多く見られたことから、",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0128.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "警察では、五島容疑者の精神鑑定を行うこと{n}を検討しています……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0129.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "TV：……アメリカのトールマン駐日大使が{n}心不全で亡くなられました。{n}68歳でした。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0129.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "トールマン大使は、就任前は対日強硬派とし{n}て知られていましたが、大使に就任後は日米{n}友好に力をつくされ……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0130.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "TV：……アメリカ、アリゾナ州の{n}ICBM基地で誤ってミサイルが発射{n}されそうになる事故が起こりました。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0130.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "基地の係員が異常に気づき、発射装置を止め{n}ミサイルは発射されず、大事にはいたりませ{n}んでしたが、現在のところ原因は不明です。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0130.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "米軍が原因の調査を行っていますが、何者か{n}が故意に発射させようとしたのではないかと{n}いう見方について米軍側は否定しています。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0131.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マスター：どうしたんだろ？{n}TVうつんないよ。電源は入ってんだけどな{n}おかしいな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0132.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：私は図書館へ行きたいのよ。{n}図書館は、臨海公園でしょう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0133.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：学校に用事があるって{n}言ったじゃない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0133.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "笠置山は、こっちじゃないでしょう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0134.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：貸し出しの手続きするわね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0135.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……利用者カード忘れて来ちゃった。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0135.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "どうしよう？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0136.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "図書館司書：こちら{city}市立中央図書館に{n}何かご用ですか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0137.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "図書館司書：貸し出しですか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0138.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "利用者カードか身分証を出してください。{n}……はい、{last_name}さんですね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0138.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "身分証をお返しします。{n}貸出期間は、1週間です。{n}期間中に返却してください。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0138.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞久美子は、{first_name}の名前で本を借りた。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0139.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：ありがとう、助かったわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0140.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ところで、ちょっと学校へ行く用があるの。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0140.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "つきあってくれる？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0141.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "すぐ身分証を貸す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0142.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "自分のを使うか聞く",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0143.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "彼女の失敗を笑う",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0144.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：えっ？これを使えって？{n}ありがとう、助かるわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0145.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：えっ？あなたのを貸してくれる？{n}そんな悪いわ、どうしようかなぁ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0145.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "それじゃ、お言葉に甘えさせてもらうわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0146.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：なによ。そんなに笑わなくっても{n}いいじゃない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0146.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あっ、そうだ。あなたの身分証を貸してよ。{n}それで本を借りるわ、いいでしょ。{n}人の失敗を笑ったバツよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0147.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "言うことを聞く",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0148.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ことわる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0149.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：ありがとう。助かるわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0150.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：そんなこと言わないで、お願い。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0151.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "従う",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0152.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0153.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：ごめんね。わたしの都合にばかり{n}つきあわせて。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0154.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：そんなワガママ言わないの。{n}世界は、あなたの都合では動いてないのよ。{n}さあ、行きましょ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0155.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：あっ、あったぁ。この本よ。{n}「日本古代文明論」{n}これで、レポート書けるわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0155.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "この本読んだことある？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0156.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "もちろん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0157.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "誰が書いた本？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0158.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ないと思う",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0159.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "興味ない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0160.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：じゃあ、どんなこと書いてあった？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0161.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：わたしのゼミの、吾妻教授が{n}書いた本よ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0161.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "どんな内容か知ってる？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0162.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：そうよね。{n}ふつうの人は、まず読まない本だから。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0163.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：ぜんぜん興味なさそうね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0164.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ヤマタイ国とかの話",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0165.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "実は読んでない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0166.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "知らない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0167.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：そんな、ふつうの本じゃないわよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0168.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：そうでしょう。ふつうの人が読む本{n}じゃないもの。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0169.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "この本、タイトルはまともだけど、{n}内容はけっこうすごいのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0169.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "古代の日本に、魔法を使って国をおさめて{n}いた文明があったっていう内容なの。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0169.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "この本を書いたせいで、吾妻教授は学会を{n}結構さわがせたらしいわ。{n}あまり、信じられてないらしいけどね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0170.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "図書館職員：図書館が、海ぞいにあるのは{n}苦労しますね。本が傷みやすいんですよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0171.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞大学正門{n}中に入りますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0172.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "警官：ここは、立入禁止だ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0173.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "百地警部：またお前か！葛葉！{n}いつの間に、ブタ箱から出てきた！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0174.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "何か事件があると、ノコノコ顔出しやがって{n}とっとと失せろ！！このクズ野郎！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0175.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "磯野刑事：そうだ！失せろ！クズ野郎！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0176.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞大学正門。{n}門は閉まっている。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0177.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：あー、やっぱり閉まってる。{n}裏に回んなきゃ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0178.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：正門は、開いてないわよ。{n}裏門へ行きましょう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0179.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞大学裏門。{n}中に入りますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0180.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞大学裏門。{n}中に入りますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0181.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：こっちから入れるなんて……。{n}なんで、あなたがこんなこと知ってるの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0182.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞大学裏門。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0183.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：実はここ、いつでも通れるって{n}知ってた？……知らなかったの？{n}ちゃんと、学校に出てないからでしょう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0184.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：大学の裏門は、{n}いつでも開いてるのよ。{n}便利なんだけど、不用心よね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0185.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：ここから、いつでも通れるって{n}さすがに知ってるわね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0185.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "北大生の常識よね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0186.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：何で、学生じゃないのに、{n}ここが通れるのを知ってるの。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0187.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あっ、忘れてたわ。{n}チケット取りに行くんだったわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0187.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "例の約束していたコンサートのチケット{n}予約が取れたのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0187.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{first_name}くん、お願いしていい？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0187.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "矢東ビルのチケットガイドへ行って、{n}コンサートのチケットを取って来て{n}くれない？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0187.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ビルは、矢来区のアーケード入口の手前に{n}あるわよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0187.p05",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "わたし、吾妻教授のところへ行って用事を{n}すませたら、臨海公園の喫茶店で{n}待ってるわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0187.p06",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "チケット取って来てね。おねがい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0188.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "久美子の頼みを聞く",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0189.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ここで待つ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0190.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：じゃあ、また後でね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0191.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：用事はけっこう時間がかかりそう{n}だから、先に行ってきて、おねがい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0192.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞どうしますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0193.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "しばらくここで待つ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0194.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "すぐに矢来区に向かう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0195.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞久美子はもどってきそうにない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0196.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞矢東ビル{n}この中に彼女が言っていた{n}チケットガイドがある。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0196.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "中に入りますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0197.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞矢東ビル{n}入り口は閉ざされている。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0198.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞矢東ビル{n}「事件現場につき立入禁止。{city}警察」",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0199.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "グゲゲ{n}グゲグゲグゲゲゲェ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0200.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "謎の男：出たか。このザコどもめ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0201.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "謎の男：きさま、なぜここにいる？{n}1人でいたら、死ぬぞ。わかってるのか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0201.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "このビルは、何者かが異界化させている。{n}そいつを倒さないと、外には出られん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0201.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "外へ出たければ、おれについて来るんだな。{n}もっとも、きさまが生き残れるかどうかの{n}保証はできんがな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0202.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "タカシ：うへへっ、うへへへへへへっ、{n}いいぜいいぜ、血がどんどん集まってくるぜ{n}このビルのやつらは、みんな殺しちまった。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0202.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "親分は、あまりハデにやるなって言ったが、{n}もう、がまんできねぇ！！{n}うへへっ、うへへっ、うへへへへへっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0202.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "謎の男：おい、そこのチンピラ。{n}バカさわぎも、いい加減にしな。{n}おまえは、これでおしまいだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0203.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "タカシ：なんだ？おめぇ？{n}このタカシ様をタダのチンピラだと思って、{n}ナメたらあかんぜぇ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0203.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "このタカシ様は、悪魔を呼び出す力を{n}持ってるんだぜぇ。どうだ！おどろいたか！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0203.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "謎の男：ほう、それはスゴイな。{n}グレムリンでも、呼び出せるのか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0203.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "タカシ：なにぃチキショウ！ナメやがって！{n}あとでほえづらかくなよっ！！{n}{demon_name}！！出てこい！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0204.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "タカシ：うへへっ、うへへっ、うへへっ！！{n}死にやがれっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0205.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "タカシ：な、なにぃ！ピシャーチャを{n}あっさり倒しちまうなんて、何者だ…？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0206.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "くそっ！！おめぇなんか、シドの先生に{n}かかればイチコロだぜ！チクショウ！{n}おぼえてやがれっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0207.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "謎の男：異界化が解ける……。{n}外に出られるぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0208.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "謎の男：ふん、よく生きていられたな。{n}だが、このことを誰かに話したら、{n}命はないぞ……いいな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0208.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "女の声：キョウジ！{n}デビルサマナーともあろう者が{n}若い子相手に、何スゴんでるのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0209.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "キョウジ：なんだ……レイ、お前か。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0209.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：なんだはないでしょ。{n}わざわざ、迎えに来てあげたのに。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0209.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "まあ、あんたの力だったら{n}だいじょうぶだと思ったけどね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0210.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "きみ、早くお帰りよ。気をつけてね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0211.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "キョウジ：おい、レイ。{n}勝手にそいつを帰すな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0212.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：だいじょうぶよ。{n}彼がこのことを誰かに話したって{n}どうせ、信じてもらえないわよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0212.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "この人の気が変わらないうちに、{n}早く帰りなよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0213.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "キョウジ：おれは帰っていいなんて{n}言ってないぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0213.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……まあいい……勝手にしろ。{n}次に会った時には、命の保証はしない……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0213.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あばよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0214.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：キョウジ、待ってよ！{n}ああ、行っちゃった。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0214.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "君も気をつけて、帰ってね。{n}えっ、コンサートのチケット？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0214.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ビル全体が、悪魔たちに荒らされて、{n}チケットガイドもメチャメチャだったから、{n}手に入るわけないよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0214.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "彼女に頼まれた？{n}まあ、あやまるしかないわね。{n}じゃあね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0215.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：まだ、いたの？うろうろしてると{n}面倒にまきこまれるわよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0215.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……あの人？……キョウジなら、{n}1人でどっか行っちゃったわよ。{n}ほんとに、勝手な人だから。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0216.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "警官：ここは、犯行現場。立入禁止だ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0217.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "怪しい神父：あなたハ、{n}{last_name}{first_name}さン、ですネ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0218.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "私ハ、あなたニ、用事がありまス。{n}ちょっト、こちらに来てくださイ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0219.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "怪しい神父：さテ、{last_name}さン。{n}あなたハ、図書館で本を借りましたネ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0219.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "申し遅れましタ。私、シド・デイビスと{n}いいまス。{last_name}{first_name}さン。{n}私にその本ヲ、わたすのでス。フッフッフ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0219.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "何？持っていないですカ？{n}それハ、困りましたですネ。{n}でハ、あなたに用はありませン。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0219.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "死んでもらいまス。と言いたいところですガ{n}あなたモ、死にたくはないでしょウ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0219.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "私から逃げのびテ、このビルから出られたラ{n}見逃してあげましょウ。フッフッフ。{n}さア、お逃げなさイ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0220.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "シド：さア、逃げ回りなさイ。{n}むだな努力をするのでス。{n}フッフッフ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0221.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "シド：もっト、逃げ回っテ{n}せいぜイ、私を楽しませてくださいヨ。{n}フッフッフ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0222.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "シド：どこへ行くのですカ？{n}こちらハ、行き止まりですヨ。{n}フッフッフ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0223.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "シド：フッフッフッフッフッフ。{n}さア、お遊びはここまでにしましょうカ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0223.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "私から逃げられなかっタ、{n}{last_name}{first_name}さんにハ、{n}死んでいただきましょウ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0223.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "さすがニ、出口の無いビルからハ、{n}逃げ出せませんでしたネ。{n}フッフッフッフ…………。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0224.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "おヤ、もうお倒れなのですカ。なぜですカ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0225.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "男：……死せる魂よ……。{n}ようこそ、三途の川辺へ……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0226.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "私はカロン、三途の川の渡し守。{n}そなた、{last_name}{first_name}であった魂は、{n}これより、川を渡るものなり……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0226.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "カロン：……なんと、どうやらそなたは、{n}いまだ死せる定めにあらず。{n}川を渡ること、まかりならん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0226.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "では、立ち去るがよい……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0227.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "カロン：どうしたものか、{n}そなたの魂は元の身体にもどれぬ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0227.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "さりとて、死せる定めになきものに、{n}川を渡らせるわけにもゆかず……。{n}どうしたものか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0227.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "では、代わりの身体へ送り返すとしよう。{n}さらば、{last_name}{first_name}であった魂よ……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0228.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "医師：ああっ、し、死体が動いた！！{n}ゾ、ゾンビだー！！助けてくれー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0229.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "看護婦：せ、先生！置いてかないでー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0230.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "医師の声：た、大変だー！！{n}死体が動き出したぞー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0230.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "看護婦の声：せ、先生！落ちついてっ！！{n}落ちついてください！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0231.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：キョウジ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0232.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……生きてたのね……よかった。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0232.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "こうしちゃ、いられないわ。{n}病院の中は、大騒ぎよ。{n}さっさと、ずらかったほうが利口よ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0232.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "大丈夫？自分で歩ける？{n}じゃあ、あんたのオフィスへ連れてくわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0233.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：さあ、あんたのオフィスについたわ。{n}みんな、あんたのこと心配してたから、{n}ちょっと、顔出してきなよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0233.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "念のため、いつものように、{n}クローバー・ジムで身体を直してもらった{n}ほうがいいかもね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0233.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "向かいの占い屋のクソババァには、{n}あんまり、会いたくないかもしれないけど{n}義理は、欠かないようにしないとね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0233.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "出かけるなら、念のため奥の部屋から{n}武器や防具を取って装備してね。{n}殺されかけたんだから、気をつけなよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0233.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "じゃあ、あんまり無理しないでね。{n}あたしは、いろいろ用事があるから、{n}ちょっと出かけてくるわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0233.p05",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "別に戦うわけじゃないし、重いから{n}武器と防具、置いてくわ。{n}預かっといてね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0234.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞レイ・レイホゥは、出かけていった。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0234.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ジャンビーヤ、{n}レディ・スミス、{n}6’Sチョーカー、",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0234.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "サニエスのスーツ、{n}こうまのゆびわ、{n}シェラガモブーツ、を手に入れた。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0235.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞事務所の奥に、隠し部屋があった。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0235.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ランドールナイフ、{n}デザートイーグル、{n}つうじょうだん、",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0235.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "S’Aチェーン、{n}ガルチェのスーツ、{n}しょうきがいりん、",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0235.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "サイドゴアブーツ、を手に入れた。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0235.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "さらに、{GLYPH:00c0}10000．手に入れた。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0236.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "現在、システムメンテナンスのため、{n}アクセスできません。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0237.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞まだ、セーブできません。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0238.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞何をしますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0239.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "行動の記録",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0240.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "NETアクセス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0241.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "設定の変更",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0242.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "外に出かける",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0243.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞{city}臨海病院。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0244.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "中に入りますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0245.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：病院に何か用があるの？{n}わたし、学校へ行きたいの。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0246.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{first_name}の母：……{first_name}……{n}目をさましておくれ……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0247.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{first_name}の父：かあさん、少しは休まないと{n}おまえのほうが、まいってしまうぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0248.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{first_name}の父：あんたか……{n}私立探偵の……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0248.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ごらんの通り、妻がつきっきりだが{n}わたしの息子は、意識を取りもどさない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0249.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{first_name}の母：……{first_name}……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0249.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{first_name}の父：{first_name}は、どうして意識を{n}取りもどさないんだ……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0249.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "先生、なんとかならないんですか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0250.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "医師：残念ながら、我々には{n}何も分からないのです。いろいろと{n}手をつくしているのですが……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0251.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{first_name}の父：きみは誰だ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0252.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞自分は誰と名乗りますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0253.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "{first_name}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0254.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "葛葉キョウジ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0255.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{first_name}の父：それは、息子の名前だ！{n}わたしの息子は今、生死のさかいを{n}さまよっているんだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0255.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "悪ふざけも、ほどがすぎるぞ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0256.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{first_name}の父：私立探偵……？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0256.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "その私立探偵が、いったい何のようだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0257.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "いったい何のようだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0258.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "自分が{first_name}であると説明する",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0259.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "調べている事件が{first_name}と関係ある",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0260.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{first_name}の父：……？きみは……？{n}何をわけの分からん事を言ってるんだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0261.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{first_name}の父：わたしの息子は、{n}臨海公園のビルの工事現場に倒れていた、{n}と聞いている。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0261.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "それ以外のことは、わたしにはわからん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0262.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "医師：{last_name}{first_name}さんの意識は、{n}ずっと不明のままです。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0262.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "不思議なことに、生きているのか、{n}死んでいるのか、わからない状態です。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0262.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "残念ながら、我々には手のほどこしようが{n}ありません……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0263.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "看護婦：{city}臨海病院に何か御用ですか？{n}御用のない方は、お帰りください。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0264.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：図書館に行きたいのよ。{n}図書館は、公園の南に建っているわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0265.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：学校へ行く用事があるのよ。{n}北大は、笠置山の南でしょう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0266.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞手術室。誰もいない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0267.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "現場監督：工事中なんで通れないんですよ。{n}すみませんね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0268.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "作業員：今、工事してて通れねえんだよ。{n}にぃちゃん、悪ぃな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0269.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "作業員：ここんとこ、再開発計画だかなんか{n}で、工事が多くて忙しいんだよな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0270.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞何をしますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0271.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "行動の記録",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0272.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "NETアクセス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0273.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "設定の変更",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0274.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "外に出かける",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0275.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞まだ、セーブできない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0276.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "若い女：何か用？{n}今、探偵の葛葉は、留守なの。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0277.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：何か用？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0278.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……おや、きみは、矢東ビルにいた……。{n}葛葉は、いま留守なの。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0279.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：葛葉さぁん、いるかい？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0280.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "さっそく、お仕事の話持ってきたんだけど、{n}やってくれるわよね？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0280.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞仕事を引き受けますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0281.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：さすが、デビルサマナー。{n}世のため、人のため、闇にかくれて{n}悪魔を討つ……えっ、うるさい？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0282.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：なーに、冗談言っちゃ困るわよ。{n}最近、仕事の話が多いんだから、{n}頼んだわよ、ねっ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0283.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "今回は、軽い仕事よ。魂が違ってるらしい{n}あんたでも、楽勝だよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0283.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "臨海公園の図書館に、悪魔が出たらしいの。{n}大したヤツじゃないらしいんで、{n}さっと行って、パッと片づけちゃってよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0283.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あの公園のあたりって、今まで魔物のたぐい{n}が出たことなかったのが、{n}ちょっと気になるけどねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0283.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "まあ、しょせんザコ退治よ。{n}ギャラは、いつも通り……ってあんたは{n}いつものことじゃないのか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0283.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "仕事がすんだら、あたしの所まで{n}ギャラ取りに来てね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0284.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイの声：キョウジ、いる？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0285.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：悪魔退治、1件かたづけたんだって？{n}さっそく、あのババァにこき使われてるのね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0285.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "まったく、人使いのあらいババァだわ。{n}具合はどう？身体は休まった？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0285.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "そういえば、あんた矢東ビルの事件を{n}かたづけてから、北山大学の吾妻教授と{n}会うことになってたわよね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0285.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "確か、教授のボディガードを{n}するんじゃなかったっけ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0285.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "教授の家は、{ward}区だったわよね。{n}あたしも、つきあうよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0285.p05",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "それに、あんたまだ具合良くなさそうだし。{n}誰かが、ついてたほうがいいわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0285.p06",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……あと、これは大きなお世話かも{n}知れないけど、今度のヤマはちょっと{n}ヤバいんじゃない？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0285.p07",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あたしも、魔法使えたほうがいいかもね。{n}だから、「神降ろし」をしておこうか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0285.p08",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "笠置山の例の場所……そう、大学の北側の{n}山の中で、すぐに儀式を済ませるわよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0286.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイの声：戻ってたわね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0287.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：あたしのほうは、空振りよ。{n}チンピラのタカシを追ったんだけど、{n}見失ったわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0287.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とても、普通の人間とは思えないほど{n}すばしっこかったのよ。{n}まるで、何かに取りつかれたような……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0287.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あの動きなら、パートナーにすれば、{n}正体不明の今のあんたより、頼もしいかも{n}しれないわね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0287.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……ところで、最近になって急に{n}悪魔の出現が増えだしてるわよね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0287.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "どうやら、吾妻教授の言ってた封印に{n}関係がありそうなのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0287.p05",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "この{city}に、封印がほどこされているって{n}吾妻教授が言ってたけど、封印はいくつも{n}あるらしいのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0287.p06",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "その封印に関係するらしい場所が、{n}市の再開発計画や地上げで、次々に壊されて{n}いるのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0287.p07",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "たとえば、笠置山の南東にあった祠が、{n}取り壊されてるんだけど、いつまでも更地の{n}ままになっているのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0287.p08",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "不景気で、マンションを建てる計画が中止に{n}なったって話なんだけど、どうも怪しいね。{n}単なる偶然じゃないような気がする。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0287.p09",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "今度の一連の事件は、封印をめぐって関係{n}あるような気がするわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0287.p10",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "こんな時に、あんたが本物のキョウジ、{n}デビルサマナーとして信頼できるかどうか{n}疑わしいのは、不安よね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0287.p11",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "まあ今のところ、封印に関係する場所を{n}回ったり、情報を集めたりして様子を見る{n}しかないようね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0288.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：葛葉さぁん、いるかい？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0289.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "「かさぎ荘」の悪魔退治の仕事、終わらせて{n}くれなかったわね。もう、異界化も{n}解けちまって、悪魔も出なくなったよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0289.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "頼むから、引き受けた仕事は、ちゃんと{n}こなしておくれよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0290.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "「かさぎ荘」の悪魔退治の仕事、ご苦労様。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0290.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ギャラの{GLYPH:00c0}50000．{n}わざわざ、持ってきてあげたわよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0291.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "持ち切れないの？{n}それじゃあ、オーバーした分は、{n}あたしがもらっとくよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0292.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "でも、仕事が無くならないのは、{n}ありがたいわよねぇ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0293.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "また、新しい仕事が入ったのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0293.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{ward}区の氷川神社で、移転工事をやってる{n}んだけど、神社の工事現場で事故が多くて、{n}たたり騒ぎになったのよね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0293.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ただのたたり騒ぎだったら、あんたの出番{n}じゃないけど、神社の森に悪魔が出たのよ。{n}これは、デビルサマナーの出番よね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0293.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "よろしく、お願いするわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0293.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞仕事を引き受けますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0294.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：じゃあ、{ward}区の氷川神社に{n}行ってちょうだい。頼んだわよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0295.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：お願いだから、そんなこと{n}言わないでおくれよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0295.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "引き受ける気になったら、「占いの館」まで{n}来てちょうだい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0296.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：博物館が怪しいわね。{n}あたしも少し気になることがあるのよ。{n}行ってみよう、博物館へ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0297.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：博物館は、閉まってたけど、{n}中から妖しい気が、あふれていたようだわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0298.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：市立博物館に、東亜テレビ、{n}どっちもほっとけないわね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0299.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：今度は、{city}警察からの依頼よ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0300.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とある刑事さんからの依頼なんだけど、{n}署内は、悪魔だらけだって。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0300.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞仕事を引き受けますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0301.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：日頃のうらみは忘れてね。{n}仕事は、仕事よ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0302.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：やっぱり警察のために、{n}働きたくは、ないのかい？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0303.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：キョウジ、封印について気づいたこと{n}があるの。あたしの話を聞いて。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0303.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "封印の、位置関係の秘密が分かったのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0304.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：5番目の封印の場所、雲雀ヶ丘へ{n}行きましょう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0305.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：また、封印の魔法陣の説明をするの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0306.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子の父：……私立探偵の葛葉さんは、{n}いらっしゃいますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0307.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "私、秦野ともうします。娘を、娘をさがして{n}助けてください！お願いします！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0307.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "うちの娘、久美子がさらわれたのです。{n}いつぞやの騒ぎの時、私の家の前にいた、{n}あなたしか頼るあてがないのです。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0307.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子は、シド・デイビスと名乗る男に{n}さらわれてしまいました。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0307.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "お願いします！娘を助けてください！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0308.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子の母：私からもお願いします。{n}警察に言っても、なぜかまったく取り合って{n}くれないのです。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0308.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "お願いします。娘を助けてください。{n}お礼は、いくらでもしますから。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0308.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞久美子を助けることを引き受けますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0309.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子の母：ありがとうございます。{n}娘を助けてください、お願いします。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0310.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子の父：引き受けてくれて、{n}ありがとうごさいます、葛葉さん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0310.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "娘を中央区で見かけたという話を、{n}聞いたのですが……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0311.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子の母：ああ、引き受けてくださらない{n}のですか……どうしたらいいんでしょう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0312.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子の父：仕方がない、私が自分で探そう{n}それしかない……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0313.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子の父：葛葉さん、お願いします。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0314.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "娘を、久美子を助けてください。{n}もう、あなたしか頼る人がいないんです。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0314.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "お願いします……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0314.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞久美子を助けることを引き受けますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0315.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子の父：ありがとうございます。{n}シド・デイビスらしい男を、中央区で{n}見かけたという話は聞いたのですが……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0316.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子の父：そうですか、これほど頼んでも{n}引き受けてくれませんか……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0317.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ID＃＃＃＃＃＃＃＃{n}NAME{codename}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0317.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "DDS{GLYPH:010d}NET：ようこそ。{n}{codename}さん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0318.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{codename}さんに{n}メールが届いています。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0318.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{codename}さん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0319.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "しばらく、アクセスがなかったので、{n}どうしたのか、と思いメールを送りました。{n}単にお忙しいだけだと、思いますが……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0319.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "最近、気になる噂を耳にしました。{n}それは{city}市に悪魔が出現するように{n}なった、というのです。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0319.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "まさか、{codename}さんの身に{n}何かあったわけではないと思いますが、{n}お気を悪くしたら、ごめんなさい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0320.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "では、またメールを送ると思います。{n}今日は、この辺で失礼します。{n}レッドマン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0321.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "また、悪魔の噂です。{n}臨海公園にある{city}市立中央図書館に{n}悪魔が出た、という噂を聞きました。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0321.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あの図書館は色んな本がそろっていて、{n}私も利用してましたが、悪魔が出るんじゃあ{n}近づかない方がいいですかね（笑）。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0322.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{ward}区で爆発事故があったらしいですね{n}{codename}さんの家の近所ですが、{n}大丈夫でしたか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0322.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "爆発したのは、北山大学の吾妻教授の家で、{n}教授は、よく大学の研究室にこもるとか。{n}事件の時も留守だったらしいですね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0323.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "吾妻教授は、よく笠置山に登っていた{n}らしいですよ。研究のためか、単に好きな{n}場所なのかは、分かりませんが……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0323.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "実は、前に吾妻教授の書かれた本を読んで{n}感動したんですよ。{n}それ以来、教授のファンなんです。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0323.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "だから教授のことは、いつも注目してます。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0324.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "高級住宅地のヒバリヶ丘（すいません漢字{n}が難しくて…）に、悪魔が出たそうですね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0324.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "大変な事になりましたが、一体どうやって{n}悪魔が出現するのか、興味があります。{n}でも、恐くて見に行けませんが……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0325.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{codename}さんが住んでる{n}{city}市{ward}区の氷川神社で連続して{n}事故が起こったようです。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0325.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "なんでも、氷川神社を移転させる工事中に{n}事故で、関係者が次々にケガをしている{n}みたいです。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0325.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "やはり、噂では神社のタタリだって{n}言われてます。{codename}さんは{n}ご近所ですが大丈夫ですか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0325.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "でも、どうして神社を移転なんかするのか{n}よくわかりませんね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0325.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ところで今度、{city}の博物館に行きます。{n}私は、博物館へ行くのが好きで、{city}の{n}博物館は、よく見学に行っていたんですよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0325.p05",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "いろいろな展示品がそろっている、{n}いい博物館で私は気に入っています。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0325.p06",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "しばらく行っていなかったので、{n}新しい展示品など、どう変わっているか{n}楽しみです。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0326.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{city}市立博物館は、開館しましたか？{n}最近、ずっと閉館したままらしいですね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0326.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "何の説明もなく閉館したままなので{n}私は怒ってるんです！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0326.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "博物館は、一般市民に所蔵品を公開する義務{n}があるんです。しかも市立博物館は、市民の{n}税金で運営されてるんです。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0326.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "それが理由もなく、閉館してるなんて{n}許せません！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0326.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……でも、博物館に悪魔が出ているって噂も{n}あるんです。だから、博物館が開けられない{n}とか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0326.p05",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "だれか、噂を確認してくれませんかねえ。{n}{codename}さん、どうですか？{n}やってみませんか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0327.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "博物館には、行ってみましたか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0327.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "実は、博物館のセキュリティ・システムの{n}はずし方が分かったんですよ。{n}NET上から操作できるんです。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0327.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "詳しい方法は秘密ですが……。{n}では、{codename}さんが行った時に{n}入れるように、はずしておきます。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0328.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "博物館には、入れましたか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0328.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{city}市立博物館は、コレクションが{n}とても充実しています。{n}一見の価値があります。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0329.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "今度、ぜひ一度お会いしたいですね。{n}{codename}さんは、忙しそうですから{n}都合のいい時が、あればいいのですが……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0330.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞タカシの言うとおり、奥の隠し部屋に{n}入ってみますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0331.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "シャッフラーの書があった。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0331.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイは、シャッフラーの魔法が使えるように{n}なった。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0332.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：そういえば、キョウジは、{n}この魔法をよく使ってたわね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0333.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "占い師：ごめんなさいね～。{n}今、準備中なのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0334.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：あ～ら、元気？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0334.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイから聞いたわよ、あやうく死にそう{n}だったんだってねぇ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0334.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とりあえず、五体満足みたいだから、{n}安心したわよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0334.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ところで最近、あたしの所で{n}ポルターガイスト現象が起こるのよ。{n}どうにかならないかしらねぇ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0335.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "おっとっと、そう言ってるうちに、{n}そのポルターガイスト現象が起こるわよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0335.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "声：……おれの身体を返せ……、{n}……おれの身体を返せ……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0335.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：何？この声？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0336.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "キョウジの声：……聞こえるか……、{n}今そこにいる、おれの身体は、{n}おれであって、おれでない……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0336.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "まったく別の魂が入りこんでいる、{n}おれのニセモノだ……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0336.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……いいか、そのうちに、{n}おれは、おれの身体を取り返しに行く……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0336.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……それまで、おれの身体を、{n}傷つけるなよ……さもなくば……、{n}無間地獄に落としてやる……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0336.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……ひとつ、言うことを聞け……、{n}おれが使っていたハンディ・コンピュータを{n}手に入れろ……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0336.p05",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "スペアは、業魔殿のヴィクトルが持っている{n}……おれが、話をつけておいてやる……。{n}後で、業魔殿へ行け……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0336.p06",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "わかったか。おれの言う通りにしろ……。{n}また、そのうち様子を見に来るからな……。{n}……あばよ……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0337.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：あーら、おどろいたわね……。{n}あなた、葛葉のニセモノなのね、へーえ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0337.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "そう言われてみれば、何となく{n}人相変わったような気がするけど{n}言われなきゃ、わかんないわよねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0337.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんたも元に戻りたいだろうね。{n}どうすりゃ戻れるのか、やり方をなんとか{n}見つけないとねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0337.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "悪いけど、それまでデビルサマナーでいて{n}ちょうだいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0337.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんたが、本物だろうとニセモノだろうと、{n}悪魔退治をしてくれさえすれば、{n}いいんだから。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0337.p05",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんたもここはひとつ、腹をくくって{n}元の身体に戻れる時まで、{n}悪魔退治に、はげんでおくれよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0337.p06",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "たよりにしてるからねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0338.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：あなたの未来を、占いましょう。{n}あなたの後ろに、あなたの未来が……{n}なーんだ、あんたか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0338.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "今、仕事は入ってないわよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0339.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：さっそくだけど、仕事が入ってるよ{n}もちろん、やってくれるわよね？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0339.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞仕事を引き受けますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0340.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：さすが、デビルサマナー。{n}世のため、人のため、闇にかくれて{n}悪魔を討つ……えっ、うるさい？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0341.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：なーに、冗談言っちゃ困るわよ。{n}最近、仕事の話が多いんだから、{n}頼んだわよ、ねっ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0342.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "今回は、軽い仕事よ。魂が違ってるらしい{n}あんたでも、楽勝だよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0342.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "臨海公園の図書館に、悪魔が出たらしいの。{n}大したヤツじゃないらしいんで、{n}さっと行って、パッと片づけちゃってよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0342.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あの公園のあたりって、今まで魔物のたぐい{n}が出たことなかったのが、{n}ちょっと気になるけどねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0342.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "まあ、しょせんザコ退治よ。{n}ギャラは、いつも通り……ってあんたは{n}いつものことじゃないのか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0342.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "仕事がすんだら、あたしの所まで{n}ギャラ取りに来てね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0343.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：図書館の悪魔退治、{n}まだ終わんないの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0343.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "早いとこ、カタつけないと、{n}今後の信用にかかわるんだよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0344.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：どーも、ご苦労様ね。{n}これ、今回のギャラ{GLYPH:00c0}50000．",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0345.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "これからも頼むわよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0346.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "持ち切れないの？{n}それじゃあ、オーバーした分は、{n}あたしがもらっとくよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0347.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：「カーサ乾」の悪魔退治。{n}引き受けておくれよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0347.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞仕事を引き受けますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0348.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：じゃあ。{ward}区の「カーサ乾」に{n}行ってよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0349.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：これだけ言ってもダメかい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0350.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：「カーサ乾」の悪魔、{n}早く退治しとくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0351.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：「カーサ乾」の悪魔退治、{n}ご苦労様。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0351.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "これはギャラの{GLYPH:00c0}50000．",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0352.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "これからも頼むよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0353.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "持ち切れないの？{n}それじゃあ、オーバーした分は、{n}あたしがもらっとくよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0354.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：いったい、どういうつもりだい！{n}せっかくのもうけ話を、フイにしちまって！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0354.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんたが悪魔退治する前に、{n}「カーサ乾」の異界は解けて、{n}悪魔は出なくなっちまったよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0354.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "「カーサ乾」の住人が、たくさん犠牲に{n}なったんだよ。まあ、死んじまったやつらは{n}ともかく、一度引き受けた仕事は、",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0354.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ちゃんと、片づけておくれよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0354.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "もう、次の仕事の依頼が来てるんだ。{n}今度は、笠置山のマンション「かさぎ荘」が{n}異界になっちゃったらしいのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0354.p05",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "というわけで、「かさぎ荘」の悪魔退治、{n}やってくれるわよね？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0355.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：「カーサ乾」の悪魔退治、{n}ご苦労様。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0355.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "これはギャラの{GLYPH:00c0}50000．",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0356.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "持ち切れないの？{n}それじゃあ、オーバーした分は、{n}あたしがもらっとくよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0357.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ところで、次の仕事の依頼が来てるんだ。{n}今度は、笠置山のマンション「かさぎ荘」が{n}異界になっちゃったらしいのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0357.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "というわけで、「かさぎ荘」の悪魔退治、{n}やってくれるわよね？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0358.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：いいところへ来たね。{n}新しい仕事が入ってるよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0358.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "今度は、笠置山のマンション「かさぎ荘」が{n}異界になっちゃったらしいのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0358.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "というわけで、「かさぎ荘」の悪魔退治、{n}引き受けとくれよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0359.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：じゃあ、すぐ笠置山の「かさぎ荘」{n}に行っとくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0360.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：「働かざる者、食うべからず」って{n}言うわよ。仕事しなさいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0361.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：「かさぎ荘」の悪魔退治、{n}お願いだから、頼まれておくれよ、{n}ね？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0362.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：「かさぎ荘」の悪魔退治、{n}まだ終わんないの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0363.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：「かさぎ荘」の悪魔退治、{n}ご苦労様。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0363.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "これはギャラの{GLYPH:00c0}50000．",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0364.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "これからも頼むよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0365.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "持ち切れないの？{n}それじゃあ、オーバーした分は、{n}あたしがもらっとくよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0366.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：氷川神社の工事現場の仕事、{n}引き受けてよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0366.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞仕事を引き受けますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0367.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：じゃあ、{ward}区の氷川神社へ{n}行ってちょうだいな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0368.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：そんなに仕事がいやなのかい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0369.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：氷川神社の悪魔退治、{n}まだ終わんないの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0370.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：ご苦労様。まさかスサノオのたたり{n}だったとはねぇ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0370.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "これはギャラの{GLYPH:00c0}50000．",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0371.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "これからも、頼むよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0372.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "持ち切れないの？{n}それじゃあ、オーバーした分は、{n}あたしがもらっとくよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0373.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：今度は、{city}警察からの依頼よ。{n}とある刑事さんからの依頼なんだけど、{n}署内は、悪魔だらけだって。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0373.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞仕事を引き受けますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0374.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：日頃のうらみは忘れてね。{n}仕事は、仕事よ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0375.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：やっぱり警察のために、{n}働きたくは、ないのかい？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0376.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：{city}警察の悪魔退治は、{n}まだ終わんないのかい？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0377.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：ご苦労様。{n}まさか、署長が悪魔だったなんてねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0377.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "これはギャラの{GLYPH:00c0}50000．",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0378.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "これからも頼むよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0379.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "持ち切れないの？{n}それじゃあ、オーバーした分は、{n}あたしがもらっとくよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0380.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：警察署の異界化も、おさまった{n}らしいわよ。百地警部も、その手下の刑事も{n}行方不明らしいわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0380.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "まあ、あんたも警察には、いろいろヒドい目{n}に合わされてるから、気が進まなかったのは{n}わかるけどねぇ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0380.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "引き受けた仕事に、私情をはさんじゃ{n}いけないわよねぇ。{n}おかげで、金も入らないし。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0381.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "でさぁ、次の仕事なんだけど、{n}中華街の陳大人からの依頼なのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0381.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "中華街が突然異界化して、関帝廟にまつられ{n}てる、関帝聖君があばれているんだって。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0381.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "関帝聖君との戦い、{n}引き受けてくれるかしら？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0381.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞依頼を引き受けますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0382.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：警察署の悪魔退治、ご苦労様。{n}まさか、署長が悪魔だったなんてねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0382.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "これはギャラの{GLYPH:00c0}50000．",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0383.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "持ち切れないの？{n}それじゃあ、オーバーした分は、{n}あたしがもらっとくよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0384.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：いいところに来たわね。{n}中華街の陳大人からの依頼よ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0384.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "中華街が突然異界化して、関帝廟にまつられ{n}てる、関帝聖君があばれているんだって。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0384.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "関帝聖君との戦い、{n}引き受けてくれるかしら？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0384.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞依頼を引き受けますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0385.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "さすが、そう来なくちゃ。{n}なんとか、関帝聖君の怒りを{n}静めてちょうだいね。頼んだわよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0386.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "そんなこと、言わないでちょうだいよ。{n}確かに、関帝聖君は手強いだろうけどさぁ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0387.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：お願いだよ。中華街の陳大人の依頼{n}引き受けとくれよ。あたしの面目も{n}かかってるんだよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0387.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞依頼を引き受けますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0388.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：どうだい、中華街のお仕事は？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0389.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：中華街のお仕事、ご苦労さん。{n}ギャラは、陳大人から直接受け取ったよね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0390.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：天堂天山をやっつけちゃったの？{n}ヴァンパイアに、なっていた？{n}へぇ、そりゃ大変だったわねぇ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0390.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "天堂の背後には、市議会議員の山城が{n}いるはず。あいつらは、昔からの知り合い{n}なんだよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0391.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ところで、天堂の背後には、市議会議員の{n}山城がいるはず。あいつらは、昔からの{n}知り合いなんだよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0392.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：ヤバいことになってきたわね。{n}あたしゃ、しばらく、どこかに逃げ出すこと{n}にするよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0393.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞誰もいない……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0394.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "声：ホホホホホホホホホホ、異界となった、{n}わらわの館へようこそ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0395.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "フグルマ：愚かな人間が、読みもせぬ文字を{n}集めおって。無駄なことをするものよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0395.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "おぬしも、わらわを退治しようなど、{n}考えるだけ無駄なことぞえ。{n}ホホホホホホホホ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0396.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "フグルマ：おおお、何と言うことじゃ。{n}せっかく、この館を異界となしたのに……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0397.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：ここは……異界！{n}だれかが、異界の一部を現世に出している、{n}ってことね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0397.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "こんなこと、あんたがいつも相手にしてる{n}ザコじゃできないはず。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0398.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "やはり、「神降ろし」をすませといて{n}正解だったわね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0399.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "これは、あたしの「神降ろし」も要るわ。{n}先に笠置山へ行ったほうが、いいようね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0400.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：街なかに、いきなり異界を出現させる{n}なんて、かなりの大物の仕業よ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0401.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：……着いた。{n}ここでは、いつも龍脈の気の流れが{n}感じられるわね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0402.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "すぐ始めるわ。{n}例によって、どの神の力を降ろすか{n}決めてもらうわね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0403.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "どの神にする？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0404.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "攻撃魔法で、あたしも積極的に攻めるのね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0404.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "女神アマテラスでいい？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0405.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "じゃあ、始めるわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0406.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "支援魔法で、あんたの攻撃を有利にするのね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0406.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "大天使ガブリエルでいい？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0407.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "回復魔法で、危なくなったら、{n}ダメージやバッドステータスを直すのね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0407.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "地母神イシュタルでいい？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0408.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：……ふぅ。{n}久々だから、キツかったわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0408.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんたも大変そうだから、{n}やってあげたんだからね。感謝しなさいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0408.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリーのババァだったら、大金よこせって{n}ギャアギャアわめくところよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0408.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "これで、戦っていくうちに、{n}宿した女神の力が、引き出されていく……{n}あんたも知っての通り。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0408.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "じゃあ、{ward}区の吾妻教授の所へ{n}行きましょうか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0409.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：儀式は、済んでいるわ。{n}今、ここには何の用もないはずよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0410.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "女神アマテラス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0411.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "大天使ガブリエル",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0412.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "地母神イシュタル",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0413.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞誰もいないようだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0414.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：ここが吾妻教授の家ね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0414.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "男の声：くそっ！吾妻のクソじじいめ！{n}どこに本をかくしやがったぁ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0415.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "タカシ：せっかく、シドの先生が異界化まで{n}してくれて、誰にも邪魔されずに{n}探せるってのによぉ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0415.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ン？誰だぁ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0415.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ああっ！てっ、てめえは！{n}シドの先生に、やられたはずじゃねぇか？{n}生きていやがったのか！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0415.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "この、死にぞこないめ！{n}タカシさまが、引導渡してやらぁ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0415.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヤコウ！{n}テナガ！{n}アシナガ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0415.p05",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "出てきやがれっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0416.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "タカシ：な、なにぃ？{n}みんな、かたづけちまいやがった……。{n}なんて、やつだ……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0416.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……くそっ、おとしまえは、{n}つけさせてもらうぜ……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0417.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：あいつ、自爆する気だよっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0418.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "タカシ：へへっ、まだ勝てねえのか。{n}まあ、こいつらと遊んでるのが、{n}おにあいだぜ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0418.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "タカシさまは、ズらからせてもらうぜ……。{n}……あっ、し、しまった爆発しちまう！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0419.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "百地警部：葛葉！きさまの仕業か。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0420.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "また、おれの仕事を増やしやがったな。{n}いつもいつも、怪しい事件には{n}きさまの影がチラついていたが",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0420.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "今日は現場で、きさまを捕まえた。{n}署までご同行ねがおうか。{n}はたして、シラを切り通せるかな？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0420.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "よし、Tシャツ。連れて行け。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0421.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "磯野刑事：はいっ！警部！{n}さあ、来るんだ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0422.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：ひどいわ！{n}キョウジは、何もしてないわよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0423.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "百地警部：うるさいぞ。レイ・レイホゥ。{n}きさまも一緒にしょっぴかれたいか、ン？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0424.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "百地警部：……まさか、ズル賢いきさまを{n}こうして留置場に、ぶち込めるとはなぁ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0424.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "きさまには、いろいろ聞きたいことがある。{n}人間業とは思えん、殺しの現場や{n}化け物騒ぎが起こった場所に、",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0424.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "必ずと言っていいほど、きさまが{n}姿を現している。なぜだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0424.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……まあいい、まずは吾妻教授宅{n}爆発事件について聞こう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0424.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "きさまは、確かに現場にいた。{n}いったい、何をしていたんだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0424.p05",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "声：警部！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0425.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "磯野刑事：警部！たっ、たっ、大変です！！{n}きっ、北山大学で！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0425.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "百地警部：バカモン！声がでかい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0425.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "磯野刑事：すっ、すいません！！{n}実は…………。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0425.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "百地警部：……わかった。{n}すぐ、行こう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0426.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "きさまの取り調べは、後だ。{n}しばらく、そこで頭を冷やしてろ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0427.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "キョウジの声：……どうやら、{n}おれの身体は、無事のようだな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0427.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "それにしても、とんだヘマをやったな。{n}百地のオヤジに捕まるとはな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0427.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "お前には、まだしばらく、おれ、つまり{n}葛葉キョウジとして働いてもらうこと{n}になりそうだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0427.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "だから、あまりみっともないマネは、するな{n}……くそっ、もう外にいられないのか……{n}あばよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0428.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "警官：出ろ。釈放だ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0429.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "警官：今、身元引受人が来るからな。{n}そこで待っていろよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0430.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "話し声：……で、例の教授の家の爆発。{n}吾妻教授は、いなかったんだって？……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0430.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……あい変わらず、行方不明のまま……{n}……現場にうろついてたのが、ほらあそこ{n}につっ立ってる、ドジな私立探偵……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0430.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……自称、私立探偵じゃないのか？……{n}……ところで、天堂組のチンピラ……{n}死体が全然見つからないんだって……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0430.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……爆発の時、ふっ飛んだはず……{n}磯野刑事が見たってよ……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0430.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……磯野？あのド近眼の話が{n}アテになるのかよ……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0430.p05",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……百地警部は、北山大学に行ったのか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0430.p06",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……うん、スッとんでったよ。{n}たかが、怪物さわぎなのにね……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0430.p07",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……でも、キャンパス内は{n}パニックらしいぜ……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0431.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：お迎えに来たわよ。{n}どうだった？鉄格子つきの別荘は？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0431.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "やっぱり、中身がニセもんだと、{n}百地にも捕まっちまうのかねぇ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0431.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "まぁ、あたしの裏のコネをもってすれば{n}あんたを釈放させるのも、この通りワケも{n}ないんだけどねぇ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0431.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "かかった手間の分は、今度のギャラから{n}引いとくからね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0432.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マリー：なんで、わざわざ警察まで来て、{n}あんたを出してもらったかと言うと、{n}そう、仕事があるのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0432.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "当然、やってくれるわよね？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0433.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "そうよぉ、素直が一番。{n}で、仕事の説明なんだけど…………",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0433.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{ward}区の「カーサ乾」ってマンションに{n}悪魔が出たのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0433.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "どうやら、悪霊みたいなヤツらしいんだけど{n}最近、急に力が強くなったみたいね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0433.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "じゃあ、頼んだわよ。{n}退治が済んだら、あたしの「占いの館」まで{n}来てね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0434.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "何よ！せっかく、留置場から出してやった{n}のに、この恩知らず！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0434.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "犬は、3日飼われたら恩を忘れないって{n}言うけど、あんた犬以下だよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0434.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ここまで、言われて悔しかったら、{n}あたしの「占いの館」まで来な。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0435.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：キョウジ！釈放されたのね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0436.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "百地のオヤジに捕まるなんて、あんたらしく{n}ないけど、出られてよかったわね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0436.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あのババァに、借りを作っちゃったのは、{n}ちょっとくやしいけど。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0436.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ところで、ババァの仕事は引き受けた？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0437.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ええっ、引き受けちゃったの！？{n}今、北山大学が大変な騒ぎよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0437.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "吾妻教授が、大学にいるかも知れないって{n}聞いて、行ってみたら、キャンパス中に{n}悪魔が出てきたのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0437.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "しかたないわ、仕事のほうは、{n}さっさと済ませてから、笠置山の大学へ{n}行きましょう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0438.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "引き受けなかったのね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0438.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "今、北山大学が大変な騒ぎよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0438.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "吾妻教授が、大学にいるかも知れないって{n}聞いて、行ってみたら、キャンパス中に{n}悪魔が出てきたのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0438.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "北山大学に行きましょう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0439.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "警官：署内へは、関係者以外立入禁止だ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0440.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{city}市役所職員：何かご用ですか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0440.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "みなさまの{city}市役所では、{n}文化的な市民生活のために、{n}さまざまなサービスを行っています。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0441.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マンションの住人：ここ？「カーサ乾」よ。{n}あたし、そそっかしいから、「かわく」って{n}読んじゃったのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0441.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "「いぬい」って読むのよね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0441.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "引っ越してきたばっかりだけど、{n}なかなか、いいマンションよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0441.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ところで、何の用？{n}セールスだったら、お断わりよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0442.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マンション住人：ここって昔、兵隊さんが{n}おおぜい自殺した場所だったって、{n}聞いたわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0442.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "幽霊でも出るのかしら、怖いわね。{n}ほかへ引っ越そうかしらね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0443.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "怨霊の声：……我が領域に進入するのは{n}誰か？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0444.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "イヌイ：我らの眠りを邪魔する不らちな人間{n}許すまじ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0444.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……乾小隊、突撃！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0445.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "イヌイ：……無念の思いで自害した我らは{n}ただ、静かに眠りたかっただけ……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0445.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "それを、わずか半世紀の後に、{n}かような金もうけのための建物が、{n}ここに建てられようとは……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0445.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "そのいきどおりと、この地にあふれ出た力が{n}我らを怨霊となさしめたのだ……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0446.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞吾妻教授の研究室。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0447.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "シド：あなたハ、葛葉キョウジ……。{n}この私ガ、確かに殺したはずなのニ、{n}なぜ、生きているのですカ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0447.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……信じられませン。何かの間違いでス。{n}葛葉キョウジ、あなたが生きているのハ、{n}間違いでス。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0447.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "間違いハ、正さなければなりませン。{n}間違いを正すためニ、{n}死んでもらいましょウ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0448.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "シド：このまエ、戦ったときハ、もう少し{n}手ごたえがあったようでしたガ。{n}どうかしたのですカ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0448.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "でモ、お遊びはここまででス。{n}そろそロ、あなたを楽にしてあげましょウ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0449.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "「葛葉キョウジ」の魂ヨ！{n}その肉体を離レ、闇の彼方へト{n}ただよい去レ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0449.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "我が偉大なる魔王の御名の元に命ずル！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0450.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "シド：……な、なぜ？効かないのですカ？{n}そんな、バカなことガ、私の術が効かない{n}ワケがありませン！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0450.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ここハ、ひとまず引き上げましょウ。{n}あなたの相手ハ、邪鬼シキオウジが{n}してくれまス。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0450.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "頼みましたヨ。シキオウジ。{n}では、さようなラ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0451.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：……あんた、誰？{n}ヤツは、確かに「葛葉キョウジ」の魂に{n}術をかけたのに、あんたには効かなかった。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0451.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんたは、本当のキョウジ、じゃない？{n}病院から連れ帰ってから、どうも{n}人が変わったような気がしたのは、",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0451.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "気のせいじゃなかったようね。{n}誰だか、わからない者とは、いっしょに{n}いられないわ……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0451.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "と言いたいところだけど、今は別行動を{n}とれるような状況じゃないわね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0451.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ただし、いっしょに付いてきてるからって{n}今のあんたを、完全に認めたわけじゃない。{n}勘違いしないことね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0452.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "怪しい教授：ケケケ、ワテの造魔は、{n}もうすぐ完成や。{n}ワテって、つくづく天才やね。ケケケケケ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0453.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ン？誰や？{n}ここは、天才ドクター・スリル様の研究室や{n}勝手に入りこんだらアカンでぇ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0453.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "そや、ワテのかわいい造魔ガルガンチュアの{n}完成前のテストしたろ。{n}おまえ実験台にしたるでぇ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0453.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ほな、行けや！！{n}プロト・ガルガンチュア！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0454.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "プロト・ガルガンチュア：……ヴヴヴヴ、{n}ドクター・スリルサマ、メイレイ、{n}オマエ、コロス。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0455.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ドクター・スリル：ああっ、そんなアホな。{n}なんで、ワテの造魔くんが負けるんや。{n}造りかけだったんが、ワヤんなってもうた。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0455.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "この借りは、いつか返したる。{n}今日のところは、この辺にしといたるさかい{n}覚えときや！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0456.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞倒した造魔の中から、何か出てきた。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0456.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "謎の人形を手に入れた。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0457.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞誰もいない……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0458.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞空き地がある。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0459.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞久美子がいる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0459.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "彼女に声をかけるか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0460.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：……………………",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0461.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞もう一度、声をかけるか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0462.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "久美子：……はっ、ここは……{n}わたし、こんな所で何をしてたのかしら。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0463.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞久美子は、あわてて立ち去っていった。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.evfile_0.m0464.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "レイ：あの子、おかしいんじゃない？{n}まるで、何かに魅入られたようね。",
+    "translation": "",
+    "note": ""
+  }
+]

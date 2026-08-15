@@ -1,0 +1,4082 @@
+[
+  {
+    "id": "game.magname.o000004.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "アギ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00000c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 前列 威力23{n}敵1体に火炎系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000064.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "アギラオ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00006c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 前列 威力50{n}敵1体に複数回の火炎系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0000c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "マハ‐ラギ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0000cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 前列 威力27{n}敵1列全体に火炎系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000124.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "マハ‐ラギオン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00012c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 全体 威力77{n}すべての敵に火炎系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000184.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ブフ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00018c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 前列 威力23{n}敵1体に氷結系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0001e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ブフーラ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0001ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 前列 威力50{n}複数の敵に氷結系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000244.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "マハ‐ブフ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00024c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 前列 威力25{n}敵1列全体に氷結系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0002a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "マハ‐ブフーラ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0002ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 全体 威力85{n}すべての敵に氷結系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000304.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ジオ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00030c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 前列／後列 威力28{n}敵1体に電撃系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000364.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ジオンガ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00036c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 前列／後列 威力98{n}敵1体に電撃系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0003c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "マハ‐ジオ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0003cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 前列／後列 威力30{n}敵1列全体に電撃系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000424.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "マハ‐ジオンガ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00042c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 全体 威力86{n}すべての敵に電撃系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000484.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ザン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00048c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 前列 威力28{n}敵1体に衝撃系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0004e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ザンマ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0004ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 前列 威力40{n}複数の敵に衝撃系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000544.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "マハ‐ザン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00054c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 前列 威力31{n}敵1列全体に衝撃系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0005a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "マハ‐ザンマ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0005ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 全体 威力87{n}すべての敵に衝撃系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000604.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "サイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00060c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 前列／後列 威力25{n}敵1体に念動系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000664.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "サイオ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00066c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 前列／後列 威力98{n}敵1体に念動系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0006c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "マハ‐サイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0006cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 前列／後列 威力31{n}敵1列全体に念動系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000724.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "マハ‐サイオ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00072c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 全体 威力98{n}すべての敵に念動系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000784.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ハマ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00078c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 前列 威力24{n}敵1体に破魔系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0007e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ハンマ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0007ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 前列 威力20{n}敵1列全体に破魔系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000844.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ハマオン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00084c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 全体 威力16{n}すべての敵に破魔系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0008a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ムド",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0008ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 前列／後列{n}敵1体を呪殺",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000904.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ムドラ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00090c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 前列／後列{n}敵1列全体を呪殺",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000964.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ムドオン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00096c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 全体{n}すべての敵を呪殺",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0009c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "メギド",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0009cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 前列 威力200{n}敵1体に大ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000a24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "メギドラ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000a2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 前列 威力150{n}敵1列全体に大ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000a84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "メギドラオン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000a8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃魔法 全体 威力160{n}すべての敵に大ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000ae4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ドルミナー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000aec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃補助 前列／後列 バッドステータス{n}敵1列全体にSLEEPの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000b44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "マリンカリン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000b4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃補助 前列／後列 バッドステータス{n}敵1体にCHARMの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000ba4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "シバブー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000bac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃補助 前列／後列 バッドステータス{n}敵1列全体にBINDの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000c04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "シャッフ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000c0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃補助 前列／後列 バッドステータス{n}敵1体にCARDの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000c64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "シャッフル",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000c6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃補助 前列／後列 バッドステータス{n}敵1列全体にCARDの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000cc4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "シャッフラー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000ccc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃補助 全体 バッドステータス{n}すべての敵にCARDの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000d24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "キョウ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000d2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃補助 前列 バッドステータス{n}敵1体にMIRRORの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000d84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ハ‐キョウ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000d8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃補助 前列 バッドステータス{n}敵1列全体にMIRRORの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000de4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "シ‐キョウ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000dec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃補助 全体 バッドステータス{n}すべての敵にMIRRORの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000e44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "シパニ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000e4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃補助 全体 バッドステータス{n}すべての敵にPANICの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000ea4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ハピルマ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000eac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃補助 前列 バッドステータス{n}敵1列全体にHAPPYの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000f04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "マカフージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000f0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃補助 前列／後列 バッドステータス{n}敵1体にCLOSEの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000f64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "タル‐ンダ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000f6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃補助 全体{n}すべての敵の攻撃力ダウン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000fc4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ラク‐ンダ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o000fcc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃補助 全体{n}すべての敵の防御力ダウン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001024.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "スク‐ンダ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00102c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃補助 全体{n}すべての敵の命中力ダウン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001084.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "デ‐カジャ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00108c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "攻撃補助 全体{n}すべての敵の能力値アップを無効化",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0010e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ディア",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0010ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復魔法 単体{n}味方1体のHPを少しだけ回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001144.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ディアラマ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00114c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復魔法 単体{n}味方1体のHPを中程度回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0011a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ディアラハン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0011ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復魔法 単体{n}味方1体のHPをMAXまで回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001204.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "メ‐ディア",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00120c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復魔法 全体{n}味方全員のHPを少しだけ回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001264.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "メ‐ディアラマ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00126c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復魔法 全体{n}味方全員のHPを中程度回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0012c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "メ‐ディアラハン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0012cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復魔法 全体{n}味方全員のHPをMAXまで回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001324.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ポズムディ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00132c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復魔法 単体{n}味方1体の毒の状態を治療",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001384.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "パァスディ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00138c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復魔法 単体{n}味方1体の混乱・至福・睡眠を治療",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0013e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "カルムディ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0013ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復魔法 単体{n}味方1体の魅了を治療",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001444.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ペトラディ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00144c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復魔法 単体{n}味方1体の石化を治療",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0014a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "クロズディ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0014ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復魔法 単体{n}味方1体の沈黙を治療",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001504.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "パララディ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00150c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復魔法 単体{n}味方1体の麻痺を治療",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001564.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "メタモディ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00156c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復魔法 単体{n}味方1体の変身を解く",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0015c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "パトラ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0015cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復魔法 単体{n}味方1体の混乱・至福・睡眠・呪縛を治療",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001624.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "メ‐パトラ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00162c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復魔法 全体{n}味方全員の混乱・至福・睡眠・呪縛を治療",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001684.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リカーム",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00168c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復魔法 単体{n}味方1体を復活",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0016e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "サマリカーム",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0016ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復魔法 単体{n}味方1体をHP最大で復活",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001744.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リカーム‐ドラ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00174c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "回復魔法 全体{n}味方全員のHPを最大回復し術者は死亡",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0017a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "テトラジャ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0017ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御魔法 全体{n}破魔・呪殺・エナジードレインを1回防止",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001804.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "テトラカーン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00180c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御魔法 全体{n}物理攻撃を1ターン防ぎ敵に反射",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001864.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "マカラカーン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00186c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "防御魔法 全体{n}魔法攻撃を1ターン防ぎ敵に反射",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0018c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "タル‐カジャ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0018cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "補助魔法 全体{n}味方全員の攻撃力アップ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001924.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ラク‐カジャ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00192c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "補助魔法 全体{n}味方全員の防御力アップ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001984.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "スク‐カジャ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00198c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "補助魔法 全体{n}味方全員の命中力アップ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0019e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "マカ‐カジャ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0019ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "補助魔法 全体{n}味方全員の魔法威力アップ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001a44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "デ‐クンダ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001a4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "補助魔法 全体{n}味方全員の能力値ダウンを無効化",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001aa4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ネクロマ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001aac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "補助魔法 単体{n}死亡した味方1体を戦闘参加",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001b04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "サバト",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001b0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法 移動時・戦闘時{n}マグネタイトを消費しないで仲魔1体を召喚",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001b64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "トラエスト",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001b6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法 移動時{n}ダンジョンより脱出",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001bc4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "エストマ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001bcc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法 移動時{n}月1周の間 低レベル悪魔の出現を抑止",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001c24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "マッパー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001c2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法 移動時{n}パーティー周辺のマップを表示",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001c84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リフトマ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001c8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法 移動時{n}月1周の間 ダメージゾーンを無効化",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001ce4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001cec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001d44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001d4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "                    {n}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001da4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ファイヤーブレス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001dac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 前列 威力37{n}敵1列全体に火炎系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001e04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ごうかしょうかん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001e0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体 威力77{n}すべての敵に火炎系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001e64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ブリザードブレス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001e6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 前列 威力39{n}敵1列全体に氷結系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001ec4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ぜったいれいど",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001ecc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体 威力77{n}すべての敵に氷結系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001f24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ほうでん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001f2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 前列 威力24{n}複数の敵に電撃系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001f84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "サンダーブレイク",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001f8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体 威力77{n}すべての敵に電撃系ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001fe4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ブレインバースト",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o001fec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 前列 威力43{n}複数の敵に念動系ダメージ／BINDの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002044.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "げどうのほう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00204c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体 威力120{n}敵1体に大ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0020a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "どくのひかり",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0020ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体 威力65{n}すべての敵にダメージ／POISONの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002104.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ブラフマーストラ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00210c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体 威力180{n}敵すべての敵に大ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002164.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "バインドボイス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00216c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体 バッドステータス{n}すべての敵にBINDの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0021c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "マグネストーム",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0021cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体 バッドステータス{n}敵1列全体にBINDの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002224.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "パニックボイス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00222c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体 バッドステータス{n}すべての敵にPANICの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002284.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ハッピーダンス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00228c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体 バッドステータス{n}すべての敵にHAPPYの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0022e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "やくしぶっしょう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0022ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体 バッドステータス{n}すべての敵にCLOSEの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002344.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ベノンブレス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00234c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体 バッドステータス{n}すべての敵にPOISONの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0023a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "インサニティアイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0023ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 前列 バッドステータス{n}複数の敵にCHARMの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002404.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "セクシーダンス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00240c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体 バッドステータス{n}すべての敵にCHARMの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002464.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "こもりうた",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00246c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体 バッドステータス{n}すべての敵にSLEEPの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0024c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "まひにらみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0024cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体 バッドステータス{n}敵1体にPALYSEの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002524.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "アラクノワイヤー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00252c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 前列 バッドステータス{n}複数の敵にPALYZEの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002584.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "せきかにらみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00258c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体 バッドステータス{n}敵1体にSTONEの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0025e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "かいほう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0025ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 単体{n}味方1体のHPを少しだけ回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002644.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "せいじゃのうた",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00264c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体{n}味方全員のHPを少しだけ回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0026a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "あついほうよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0026ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体{n}味方全員のHPを中程度回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002704.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "けっかい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00270c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体{n}破魔・呪殺・エナジードレインを1回防止",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002764.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "だいちのかべ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00276c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体{n}物理攻撃を1ターン防ぎ敵に反射",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0027c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ペンタウォール",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0027cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体{n}魔法攻撃を1ターン防ぎ敵に反射",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002824.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "きゅうけつ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00282c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "敵のみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002884.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ミラープリズン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00288c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ボスのみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0028e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "フォトンショット",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0028ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ボスのみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002944.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "げほうげんかじん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00294c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ボスのみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0029a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "イーヴィルアイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0029ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体{n}敵1体を呪殺",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002a04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "デスリング",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002a0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ボスのみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002a64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "あくまのゆうわく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002a6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "敵のみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002ac4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "うらみのどうこく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002acc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ボスのみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002b24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "みずのかべ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002b2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体{n}火炎攻撃を1ターン無効化",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002b84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ほのおのかべ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002b8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体{n}氷結攻撃を1ターン無効化",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002be4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "サイコバリアー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002bec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体{n}念動攻撃を1ターン無効化",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002c44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ジャッジメント",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002c4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 敵・味方全体{n}術者と属性の異なる者すべてにダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002ca4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "てんばつ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002cac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 敵・味方全体{n}術者と属性の異なる者すべてに大ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002d04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ヴァンパイアキス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002d0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "敵のみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002d64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ソウルジャック",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002d6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "敵のみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002dc4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "あくまのゆうわく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002dcc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "敵のみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002e24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ボルカニッカー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002e2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ボスのみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002e84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002e8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002ee4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "なげきのほうこう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002eec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ボスのみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002f44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002f4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002fa4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "まてきだん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o002fac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ボスのみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003004.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00300c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003064.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "てんしのキス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00306c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 単体{n}ロウ・ニュートラルの味方のHPを回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0030c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "あくまのキス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0030cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 単体{n}カオス・ニュートラルの味方のHPを回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003124.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "オトメノイノリ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00312c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体{n}味方1体をHP1／2で復活",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003184.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "サイコブラスト",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00318c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体{n}すべての敵の命中力・魔法威力ダウン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0031e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ラッキーステップ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0031ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体{n}味方全員の命中力アップ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003244.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "しんくうは",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00324c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体{n}味方全体の命中力・攻撃力アップ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0032a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ちょうはつ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0032ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体{n}敵全体の攻撃力アップ・防御力ダウン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003304.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "いかく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00330c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体{n}敵全体の防御力アップ・攻撃力ダウン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003364.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "たかぶりのうた",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00336c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体{n}味方全体の攻撃力・魔法威力アップ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0033c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ダイ‐ハード",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0033cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊魔法行動 全体{n}味方全体の防御力・命中力アップ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003424.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "バイス‐ゴスペル",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00342c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ボスのみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003484.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00348c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0034e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "しちせいこうてん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0034ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ボスのみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003544.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ろくせいきこう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00354c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ボスのみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0035a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0035ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003604.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00360c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003664.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00366c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0036c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0036cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003724.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00372c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003784.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00378c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0037e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0037ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003844.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00384c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0038a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0038ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003904.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00390c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003964.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00396c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0039c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0039cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003a24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003a2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003a84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003a8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003ae4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003aec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003b44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003b4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003ba4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "りょううでおとし",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003bac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力12 0～2回攻撃{n}PALYZEの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003c04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "かいてんぎり",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003c0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力14 4～6回攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003c64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "スカルクラック",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003c6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力100 0～1回攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003cc4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "デスバウンド",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003ccc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力24 0～7回攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003d24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ベノンザッパー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003d2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力15 2～4回攻撃{n}POISONの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003d84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "だいせつだん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003d8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力80",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003de4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "マッハづき",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003dec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力12 0～7回攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003e44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "くしざし",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003e4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力30 前列／後列攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003ea4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "こっぱみじんぎり",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003eac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力22 0～7回攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003f04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "かすみぎり",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003f0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力44 前列全体攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003f64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "いなづまぎり",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003f6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力120 0～1回攻撃{n}SHOCKの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003fc4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "しっぷうじんらい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o003fcc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力20 0～1回攻撃{n}BINDの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004024.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "100にんぎり",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00402c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力32 全体攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004084.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "きょくうざんぱ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00408c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力54 前列／後列攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0040e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ジャンピングニー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0040ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力10 0～1回攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004144.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "バルカンキック",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00414c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力3 2～7回攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0041a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "スタンクラッシュ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0041ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力8 全体攻撃{n}SHOCKの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004204.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "とびひざげり",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00420c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力10",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004264.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "メテオフィスト",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00426c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力7 3～6回攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0042c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ぐんろうけん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0042cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力12 前列全体攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004324.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "じごくづき",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00432c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力10 0～1回攻撃{n}CLOSEの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004384.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "コーズニフェクト",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00438c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力50",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0043e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "スクリュスラップ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0043ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力25 0～7回攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004444.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ひきさき",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00444c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力10 1～2回攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0044a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "どくひっかき",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0044ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力10 2回攻撃{n}POISONの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004504.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "まひひっかき",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00450c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力5 0～2回攻撃{n}PALYZEの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004564.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "はばたき",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00456c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力6 全体攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0045c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ベノンニードル",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0045cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力9 前列全体攻撃{n}POISONの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004624.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "パララニードル",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00462c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力4 前列全体攻撃{n}PALYZEの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004684.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ミンチニードル",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00468c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力20 前列全体攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0046e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ねらいうち",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0046ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力20",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004744.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "みだれうち",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00474c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力16 前列／後列に攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0047a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "かずうちゃあたる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0047ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力22 0～7回攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004804.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ついばみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00480c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力10",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004864.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "バードギムレット",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00486c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "殊物理行動 威力15",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0048c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "かみちぎり",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0048cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力5 2～4回攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004924.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "スパイラルバイト",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00492c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力15",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004984.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "たいあたり",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00498c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力20 2～3回攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0049e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ラリアット",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0049ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力40 0～1回攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004a44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ギロチンヒール",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004a4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力20",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004aa4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "どくかみつき",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004aac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力15{n}POISONの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004b04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "みわくかみつき",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004b0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力10 0～1回攻撃{n}CHARMの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004b64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "せきかかみつき",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004b6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力16 0～1回攻撃{n}STONEの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004bc4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "エーテルメイス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004bcc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力20 全体攻撃{n}PALYZEの効果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004c24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "フレアーラッシュ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004c2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力16 0～7回攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004c84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ランブルラッシュ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004c8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力12 全体攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004ce4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ちまつり",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004cec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力15 0～7回攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004d44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "しょうしゃくけん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004d4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力20 全体攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004da4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ばきゃくげり",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004dac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "敵のみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004e04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "からたけわり",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004e0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力50",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004e64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "1とうりょうだん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004e6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力38 前列全体攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004ec4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "しめおとし",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004ecc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "敵のみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004f24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "キリングステップ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004f2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "敵のみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004f84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "はっそうとび",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004f8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力80 全体攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004fe4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "まるかじり",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o004fec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "敵のみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005044.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "まるのみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00504c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "敵のみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0050a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "にくたいのあくま",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0050ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ボスのみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005104.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "かいなのひとふり",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00510c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ボスのみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005164.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "にくだん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00516c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力98{n}術者の命とひきかえに敵1体へ大ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0051c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "さんげ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0051cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 威力150 全体攻撃{n}術者の命とひきかえに敵全体へ大ダメージ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005224.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "たたみがえし",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00522c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 全体{n}物理攻撃を1ターン防ぐ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005284.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "フリフリウォール",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00528c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 全体{n}魔法攻撃を1ターン防ぎ敵に反射",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0052e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0052ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005344.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "にげる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00534c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "敵のみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0053a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "ぜつめつはけん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0053ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ボスのみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005404.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00540c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005464.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "むじょうのまい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00546c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ボスのみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0054c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "やすむ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0054cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "特殊物理行動 術者{n}使用HPの3倍を回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005524.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00552c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005584.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00558c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0055e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0055ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005644.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00564c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0056a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0056ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005704.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00570c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005764.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00576c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0057c4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0057cc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005824.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00582c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005884.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00588c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0058e4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0058ec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005944.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o00594c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0059a4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o0059ac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005a04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005a0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005a64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005a6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005ac4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005acc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005b24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005b2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005b84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005b8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005be4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005bec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005c44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005c4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005ca4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005cac.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005d04.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005d0c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005d64.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005d6c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005dc4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005dcc.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005e24.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005e2c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005e84.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005e8c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005ee4.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005eec.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005f44.name",
+    "source_encoding": "game_font8_plain_glyph",
+    "output_encoding": "",
+    "reference": "リザーブ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.magname.o005f4c.description",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ミテイ",
+    "translation": "",
+    "note": ""
+  }
+]

@@ -291,9 +291,9 @@
         ["0x8000", "0xffff"]
       ]
     },
-    "compendium_font16_plain_glyph": {
+    "compendium_font16_plain_skip": {
       "codec": "glyph_u16be",
-      "zero": "glyph",
+      "zero": "skip",
       "glyph_banks": [
         {
           "alphabet": "compendium_font16",

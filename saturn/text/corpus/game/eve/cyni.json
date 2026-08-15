@@ -1,0 +1,6386 @@
+[
+  {
+    "id": "game.cyni.m0000.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うちの仲間がいるらしいな。{n}{WAIT}せいぜい、こき使ってやってくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0001.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うちの仲間がいるらしいな。{n}ちゃんと、働いてるか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0001.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}をくれてやろう。{n}ゴクツブシの食費にあててくれ。{n}{WAIT}まあ、{BEAT}俺の分までこき使ってやるがいい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0002.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うちの仲間がいるらしいな。{n}ちゃんと、働いてるか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0002.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}をくれてやろう。{n}ゴクツブシの食費にあててくれ。{n}{WAIT}まあ、{BEAT}俺の分までこき使ってやるがいい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0003.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うちの仲間がいるらしいな。{n}{WAIT}せいぜい、こき使ってやってくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0003.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おお、そうだ。{n}余ってるから、{OP:8023}ほうぎょく{OP:8020}を使ってやろう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0004.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "倍返しって言葉、知ってるか？{n}{WAIT}ひじょーに、{BEAT}魅力的な響きだな。{n}{WAIT}期待してるぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0005.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "好ギ{BEAT}ダダダァ{n}ダダダダ大好ギダァ{n}{WAIT}いや、別に用はないんだが。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0005.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "通りかかったら、きみがいたんで、{n}ちょっとあいさつしようと思ってな。{n}{WAIT}じゃあ、いくぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0005.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こんにちは。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0005.p03",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "以上。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0006.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グゴブガガェ{n}ンゾベギミバ{maru_symbol}ジォ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0006.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "外道スライムのマネ。{n}{WAIT}ひじょーにまったく、{BEAT}意味不明。{n}{WAIT}それはともかく。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0007.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺を仲魔にするって話は、どうなった？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0008.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "準備は整った",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0009.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんの話だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0010.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}しょうがない。{n}仲魔になってやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0011.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}しょうがない。{n}仲魔になってやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0012.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なに？{BEAT}忘れたのか。{n}{BEAT}それはなにより。{n}{WAIT}じつは、けっこうめんどくさかったんだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0012.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}をやるから、{n}これでかんべんしといてくれ。{n}{WAIT}じゃあ、そういうことで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0013.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0013.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グゴブガガェ{n}ンゾベギミバ{maru_symbol}ジォ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0014.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どっかで会った顔だな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0015.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺にひどい仕打ちをした奴だろう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0016.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0017.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "人違いだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0018.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "話が早いな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0018.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}をくれてやる。{n}{WAIT}だから、もういじめはやめてくれ。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0019.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やはり。{n}{WAIT}死んでいいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0020.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "さあて、{BEAT}そいつはどうかな。{n}{BEAT}とにかく。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0020.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今、俺がきみを殺しても、{n}まったく損をしないことは確かだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0021.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}見え見えなんだよ！{n}{WAIT}死ね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0022.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "着がえてきたぞ。{n}{WAIT}まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0022.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それは、どうでもいいんだ。{n}この前の礼をしてやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0023.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんか、望みを言え。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0024.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔になれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0025.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0026.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なってやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0027.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なってやらないこともない。{n}{WAIT}なんかくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0028.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺をやろう。{n}{WAIT}前から、欲しがってただろ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0029.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}をやろう。{n}{WAIT}前から、欲しがってただろ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0029.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "倍返しって言葉、知ってるかい？{n}{WAIT}ひじょーに、{BEAT}魅力的な響きだな。{n}{WAIT}期待してるよ、{BEAT}きみには。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0030.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ここで意見を述べるとすれば、{n}{WAIT}俺は暇で死にそうだ、{BEAT}ということになる。{n}{WAIT}すなわち。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0030.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺にも、話をさせろ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0031.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "意図的に無視しているとしか、思えない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0031.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなに、俺のことが嫌いか？{n}{WAIT}俺は俺が好きだ。{n}{WAIT}たまらん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0032.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひじょーに、{BEAT}暇だね。{n}{WAIT}死にそう。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0033.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "意図的に無視しているとしか、思えない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0033.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そういう年頃なのか？{n}{WAIT}そんなに俺が気になるのなら、{n}話してやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0034.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}俺にもとどめを刺す気かい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0035.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "考え直す気は、ないのか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0036.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "考え直してもいい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0037.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0038.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "さっ{BEAT}すが。{n}{WAIT}太っ腹だね、大将。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0038.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "きみだったら、{n}{WAIT}仲魔になってやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0039.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "さっ{BEAT}すが。{n}{WAIT}太っ腹だね、大将。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0039.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "きみだったら、{n}{WAIT}仲魔になってやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0039.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "とりあえず。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0039.p03",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "お洋服、汚れちゃったしー。{n}着がえてくるね{OP:8026}『{OP:8020}{n}{WAIT}それまでブラブラしてて、{BEAT}ダーリン{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0039.p04",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "魔獣ネコマタのマネ。{n}{WAIT}以上。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0040.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "さっ{BEAT}すが。{n}{WAIT}太っ腹だね、大将。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0040.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そういうやさしさは、{n}いつか身を滅ぼすらしいぞ。{n}{BEAT}死んでいいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0041.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺が信用できないってのか？{n}そんなことはないぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0041.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "契約されたお客様の10人に9人が、{n}次回も{demon_name}を選びました。{n}{WAIT}なんつって。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0041.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやいや、まじで。{n}{WAIT}きみも、そうしたいと思ってんだろ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0042.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ないのか。{n}{WAIT}それは、俺に死ねってことだな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0042.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "果たして、そううまくいくかな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0043.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ないのか。{n}{WAIT}それは、俺に死ねってことだな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0043.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあ、きみも一緒に死のう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0044.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}を、手に入れた。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0045.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだよ。{n}俺より持ってるじゃねえか。{n}なのに、まだ欲しがるってえのは。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0045.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "欲の皮のつっぱった奴だ。{n}{WAIT}帰っていいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0046.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}持ってない？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0047.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "帰っていいよ。{n}{WAIT}まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0048.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "死んでいいよ。{n}{WAIT}まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0049.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "見ず知らずの悪魔に話しかけるとは、{n}よっぽど暇らしいな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0050.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "話を聞いてやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0051.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔になれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0052.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0053.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "話がある",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0054.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "去れ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0055.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もちろん、なんかくれるんだろうな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0056.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ちょっと考えさせろ。{n}{WAIT}前向きに善処してやる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0057.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しょうがねえな。{n}ほら、{offered_item}だ。{n}{WAIT}倍返しって言葉、知ってるかい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0057.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひじょーに、{BEAT}魅力的な単語だな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0058.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今度な。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0059.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しょうがねえなあ。{n}つきあってやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0060.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}しょうがねえなあ。{n}つきあってやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0061.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0061.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もう終わりかい。{n}ひじょーに、{BEAT}不毛な会話だったよ。{n}{WAIT}なんで話したのか、意味不明。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0062.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なめんな。{n}死んでいいよ、きみ。{n}{WAIT}まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0063.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "異界に、人間とは。{n}{WAIT}ひじょーに、{BEAT}興味があるね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0064.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにしてるんだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0065.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "迷っている",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0066.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔探し",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0067.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "鍛練",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0068.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "悪魔退治",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0069.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よけいなお世話",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0070.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "泣くなよ。{n}{WAIT}なんかよこせ。{n}助けてやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0071.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうせ迷ってんだったら、時間あんだろ。{n}{WAIT}ちょっと、つきあえ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0072.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0072.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあ、なんかよこせ。{n}いいことあるかもしれないぞ。{n}{WAIT}まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0073.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そりゃ、すごいねえ。{n}{WAIT}がんばれば。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0074.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そういうこと、真顔で言われてもなあ。{n}いまどき、そんな言葉使う奴、いねえよ。{n}{WAIT}あたま、おかしいんじゃねえの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0074.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おもしろいから、{n}つきあってやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0075.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}そりゃ、すごいねえ。{n}{WAIT}がんばれば。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0076.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}そう。{n}{WAIT}がんばれば。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0077.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}そう。{n}{WAIT}がんばれば。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0078.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}そう来ますか。{n}死んでいいよ、きみ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0079.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}そう来ますか。{n}死んでいいよ、きみ。{n}{WAIT}まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0080.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうした？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0081.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "用なら、早く言えよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0082.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔になれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0083.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0084.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "話がある",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0085.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "去れ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0086.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかよこせ。{n}{WAIT}前向きに善処してやる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0087.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ちょっと考えさせろ。{n}{WAIT}前向きに善処してやる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0088.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "貧乏くせえなあ。{n}たかるなよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0088.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほら、手え出してみろ。{n}{offered_item}だ。{n}{WAIT}倍返しって言葉、知ってるかい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0088.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひじょーに、{BEAT}魅力的な単語だな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0089.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうしてそういうことを、言うかなあ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0089.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんでみつがなきゃいけないのか、{n}ひじょーに、{BEAT}わからないね。{n}俺には。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0090.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しょうがねえなあ。{n}つきあってやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0091.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひじょーに、{BEAT}めんどくさい。{n}{WAIT}まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0092.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0092.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もう終わりかい。{n}ひじょーに、{BEAT}不毛な会話だったよ。{n}なんで話したのか、意味不明。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0093.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0093.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もう終わりかい。{n}ひじょーに、{BEAT}不毛な会話だったよ。{n}なんで話したのか、意味不明。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0094.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうした？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0095.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こんなとこで、なにしてる？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0096.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "迷っている",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0097.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔探し",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0098.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "鍛練",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0099.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "悪魔退治",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0100.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よけいなお世話",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0101.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばかじゃん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0101.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うそだよ、{BEAT}泣くな。{n}{WAIT}なんかよこせ。{n}助けてやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0102.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばかじゃん。{n}死んでいいよ、きみ。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0103.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0103.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "友達いないのか？{n}さみしい奴。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0104.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そりゃ、すごいねえ。{n}{WAIT}がんばれば。{n}{WAIT}まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0105.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "古くせえな。{n}なんだそりゃ、鍛練って。{n}{WAIT}ひじょーに、{BEAT}魅力的。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0106.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだそりゃ、鍛練って。{n}{WAIT}暑苦しい奴。{n}寄るな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0107.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{BEAT}オレサマ逃ゲル！{n}{WAIT}なんつって。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0107.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "邪龍バジリスクのマネ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0108.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}そう来ますか。{n}死んでいいよ、きみ。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0109.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}そう来ますか。{n}それなら、俺にも考えがある。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0110.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}そう来ますか。{n}死んでいいよ、きみ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0111.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "誰だい、きみは。{n}なれなれしく話しかけんなよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0112.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんか用なのか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0113.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔になれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0114.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0115.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "話がある",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0116.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "去れ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0117.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しょうがねえな。{n}なんかよこせ。{n}{WAIT}前向きに善処してやる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0118.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いきなり、そう来るかい。{n}どこの勧誘だ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0119.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いきなり、そう来るかい。{n}{WAIT}貧乏くせえなあ。{n}たかるな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0120.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうしてそういうことを、言うかなあ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0120.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんでみつがなきゃいけないのか、{n}ひじょーに、{BEAT}わからないね。{n}俺には。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0121.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひじょーに、{BEAT}めんどくさい。{n}{WAIT}まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0122.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "かったりいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0122.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "きみと話してても、{n}ひじょーに{BEAT}意味なさそうだからな。{n}{WAIT}まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0123.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}もう終わりかい。{n}そっちから、話しかけといて？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0123.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひじょーに、{BEAT}意味不明。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0124.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0124.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もう終わりかい。{n}ひじょーに、{BEAT}不毛な会話だったよ。{n}なんで話しかけたのか、意味不明。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0124.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "死んでいいよ、きみ。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0125.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "誰だい、きみは。{n}なれなれしく話しかけんなよ。{n}{WAIT}ひじょーに、{BEAT}あやしいね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0126.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こんなとこで、なにしてる？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0127.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "迷っている",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0128.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔探し",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0129.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "鍛練",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0130.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "悪魔退治",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0131.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よけいなお世話",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0132.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばかじゃん。{n}{WAIT}一生迷ってろよ。{n}{WAIT}以上。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0133.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばかじゃん。{n}{WAIT}死んでいいよ、きみ。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0134.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "1人じゃ、なにもできないのか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0135.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ともだち少ないのか？{n}{WAIT}まあ、がんばれ。{n}{WAIT}一生探してろ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0136.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだそりゃ。{n}いまどき使わねえよ、そんな単語。{n}{WAIT}レトロな奴。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0137.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだそりゃ。{n}{WAIT}暑苦しい奴。{n}死んでいいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0138.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}そう来ますか。{n}きみ、害だよ{BEAT}害。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0138.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "死んでいいよ。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0139.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{demon_name}は思った。{n}この男、どうやら死にたいらしい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0139.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どう？{BEAT}俺、小説家になれるかな。{n}{BEAT}{OP:8025}当然{OP:8020}なめちゃいけません{n}センスなさすぎ死んでいいよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0139.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「当然」{BEAT}しか選べないらしいぞ。{n}{WAIT}いやいや、まじで。{n}{WAIT}なぜなら。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0139.p03",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それが、人として当然の選択だから。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0140.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{demon_name}は思った。{n}この男、どうやら死にたいらしい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0140.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どう？{BEAT}俺、小説家になれるかな。{n}{BEAT}当然なめちゃいけません{n}センスなさすぎ{OP:8025}死んでいいよ{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0140.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「死んでいいよ」{BEAT}しか選べないだと？{n}{WAIT}そうか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0140.p03",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺は、死んでいいのか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0141.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ちょうどいい。{n}暇で死にそうだったんだ。{n}{WAIT}たのむ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0142.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺といっしょに、{BEAT}死んでくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0143.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "思いとどまらせる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0144.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うなづく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0145.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "断る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0146.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うろたえる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0147.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "1人で死ね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0148.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "本気にすんなよ。{n}{WAIT}きみ、じつはいい奴？{n}{WAIT}仲魔になってやらないこともないな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0148.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0149.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "本気にしたのか。{n}{WAIT}ばかじゃねーの？{n}{WAIT}死んでいいよ、きみ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0150.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じょうだんだよ、{BEAT}ばーか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0151.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあ。{n}{WAIT}きみから死んでいいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0152.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあ、仲魔に入れてくれ。{n}{WAIT}ついでに、{BEAT}なんかくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0153.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだよ、えんりょすんなよ。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0154.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなの、じょうだんに決まってんだろ。{n}{WAIT}きみをからかうの、おもしろいな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0154.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔になってやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0155.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}{WAIT}なにウロウロ踊ってんだ。{n}本気にすんな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0155.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "死んでいいよ、きみ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0156.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うそだよ、じょうだんだって。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0156.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあ、{BEAT}きみの気持ちはわからないでもない。{n}{WAIT}だがしかし、{BEAT}熱くなるなって。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0157.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アクマでも、愛してくれるぅ{OP:8026}『『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0158.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんつって。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0159.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もちろん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0160.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "却下",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0161.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "攻撃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0162.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうか。{n}{WAIT}それじゃあ、{n}{BEAT}禁断の花園でものぞいてみるか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0163.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "すまん。{n}{WAIT}俺には、きみを愛せる自信がない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0163.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "これで、かんべんしてくれ。{n}{WAIT}{offered_item}。{n}{WAIT}それは、ふたりの愛の証。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0164.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ノリノリだね、きみ。{n}{WAIT}ばーか。{n}死ね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0165.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "1票。{n}{WAIT}ウマが合うね、俺たち。{n}{WAIT}仲魔になってやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0165.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0166.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あたりマエダのローキック。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0166.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しまった。{n}{WAIT}俺としたことが、{BEAT}オヤジギャグを。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0167.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キライはスキの、う{BEAT}ら{BEAT}が{BEAT}え{BEAT}し{BEAT}。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0167.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あーあ。{n}{WAIT}言わなきゃよかった。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0168.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0169.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8024}はい{OP:8020}か{OP:8024}いいえ{OP:8020}で、答えろよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0170.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0171.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいえ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0172.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}もっと、{n}言葉のキャッチボールを楽しもうぜ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0172.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃ、もう1回聞くぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0173.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}もっと、{n}言葉のキャッチボールを楽しもうぜ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0173.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃ、最初からな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0174.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0175.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8024}はい{OP:8020}か{OP:8024}いいえ{OP:8020}で、答えろよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0176.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0177.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいえ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0178.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}もっともっと、{n}言葉のキャッチボールを楽しもうぜ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0178.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃ、最初からな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0179.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}会話を楽しむ心の余裕がないらしい。{n}{WAIT}死んでいいよ、きみ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0180.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "たいくつだなあ、ここは。{n}{BEAT}まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0180.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こんな、なんにもないとこ、",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0181.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うろつきまわって、楽しいのか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0182.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "楽しい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0183.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "楽しくない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0184.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕事だから",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0185.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ここ以外にも、しょっちゅう出かけるのか。{n}{WAIT}それ、ひじょーに{BEAT}魅力的だなあ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0185.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔になってやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0186.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どこ行ったって、{n}ひじょーに{BEAT}同じような景色だし。{n}{WAIT}悪魔しか、いねえし。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0186.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺には、理解できないね。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0187.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だろ？{n}{WAIT}ひじょーに、{BEAT}遊びに行きたいよ。{n}どっか、違うとこに。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0188.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だろ？{n}{WAIT}死んだほうがましだよ、きみ。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0189.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "結局、楽しくないんだろ。{n}やめていいよ、そんな仕事。{n}{WAIT}いっそのこと、人間もやめちまえ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0189.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8024}マグネタイト{OP:8020}。{n}それは、悪魔の活力源。{n}一口食えば、悪魔になれる{WAIT}かも。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0189.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほら、{offered_item}。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0190.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "かわりに、俺がやっといてやるよ。{n}きみの仕事、ひじょーに{BEAT}魅力を感じるね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0191.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ちょうどいい。{n}暇で死にそうだったんだ。{n}{WAIT}たのむ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0192.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺といっしょに、{BEAT}死んでくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0193.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "思いとどまらせる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0194.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うなづく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0195.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "断る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0196.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うろたえる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0197.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "1人で死ね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0198.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "本気にすんなよ。{n}{WAIT}きみ、じつはいい奴？{n}仲魔になってやらないこともないな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0198.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0199.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "本気にしたのか。{n}{WAIT}ばかじゃねーの？{n}{WAIT}死んでいいよ、きみ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0200.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まじかよ、こいつ。{n}{WAIT}いっちゃってるよ。{n}{WAIT}人間、ひじょーに、{BEAT}おそるべし。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0201.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあ。{n}{WAIT}きみから死んでいいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0202.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあ、仲魔に入れてくれ。{n}{WAIT}ついでに、{BEAT}なんかくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0203.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだよ、えんりょすんなよ。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0204.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなの、じょうだんに決まってんだろ。{n}{WAIT}きみをからかうの、おもしろいな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0204.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔になってやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0205.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}{WAIT}なにウロウロ踊ってんだ。{n}本気にすんな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0205.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "死んでいいよ、きみ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0206.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うそだよ、じょうだんだって。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0206.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあ、{BEAT}きみの気持ちはわからないでもない。{n}{WAIT}だがしかし、{BEAT}熱くなるなって。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0207.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "たいへんだよな、きみも。{n}そうやって、悪魔の顔色うかがいながら。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0207.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "けっこう、つらいこともあるだろ。{n}{WAIT}もしかして。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0207.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "誕生日には、自分で自分に、{n}「ご苦労様{OP:8026}『{OP:8020}」とか言って、",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0208.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "プレゼント買っちゃうタイプ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0209.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "実は……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0210.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "違う",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0211.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "同志。{n}{WAIT}きみとは、ウマが合うに違いない。{n}{WAIT}仲間になってやらないこともないぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0212.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}{WAIT}死んでいいよ、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0213.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}{WAIT}死んでいいよ、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0214.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "隠すなよ。{n}{WAIT}安心しろ。{n}みんな、けっこうやってるから。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0214.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "カンパしてやるから、いい銃でも買いな。{n}ほら、{offered_item}。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0215.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだ。{n}そんだけ働いて、{n}自分のために使う金も、残んないのか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0215.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひじょーにきびしいな、{BEAT}サマナーって。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0216.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ため込んでんのか。{n}{WAIT}知ってるか？{n}金は、使うためにあるんだぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0216.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺が使ってやる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0217.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "悪魔のことを、どう思ってる？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0218.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "すぐれた存在",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0219.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "命にかわりはない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0220.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よくわからない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0221.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "人間とは違う",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0222.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "気に入らない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0223.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}{WAIT}ご機嫌取ろうってコンタン、{n}見え見えなんだよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0223.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わかりやすくて、いいや。{n}{WAIT}仲魔になってやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0224.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}{WAIT}ご機嫌取ろうってコンタン、{n}見え見えなんだよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0225.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあ、{BEAT}死霊とかはどうすんだよ。{n}{WAIT}生命、{BEAT}ないじゃん。{n}{WAIT}ひじょーに、{BEAT}よくわからない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0226.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあ、{BEAT}死霊とかはどうすんだよ。{n}{WAIT}生命、{BEAT}ないじゃん。{n}{WAIT}ひじょーに、{BEAT}よくわからない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0227.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺にも、人間がわからん。{n}ひじょーに、{BEAT}よくわからん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0227.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いい機会だから、わかりあってみるか。{n}仲魔になってやらないこともないぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0228.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺にも、人間がわからん。{n}ひじょーに、{BEAT}よくわからん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0229.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}どう違うんだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0229.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まさか。{n}{WAIT}悪魔なんて、人に使われるだけの存在だ、{n}{WAIT}とか思ってるんじゃ、ねえだろうな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0230.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あたりまえだ、ばーか。{n}同じにされちゃ、困るね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0231.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}帰っていいよ、きみ。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0232.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}そう来るかい。{n}それで悪魔を殺すのかい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0232.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "死んでいいよ、きみ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0233.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "つべこべ言う前に、",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0234.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "銃を外して欲しいね、{BEAT}ひじょーに。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0235.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "外す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0236.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "外さない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0237.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}よさ気じゃん。{n}{WAIT}仲間になってやらないこともないぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0238.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}よさ気じゃん。{n}{WAIT}仲魔になってやらないこともないな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0239.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}よさ気じゃん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0240.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}そう来ますか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0241.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}そう来ますか。{n}{WAIT}ひじょーに、{BEAT}怒髪天を突くね。{n}{WAIT}死んでいいよ、きみ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0242.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まじで言ってんだぞ、{BEAT}こら。{n}{WAIT}怒らせたら恐いよ、俺は。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0243.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "試してみるかい？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0244.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "試す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0245.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やめとく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0246.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今日は、やめておこう。{n}{WAIT}コメ食ってないから、力が出ない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0247.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "きょ、今日のところは、{n}かんべんしといてやろう。{n}{WAIT}だがしかし。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0247.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "次に会ったら、そうはいかないらしいよ。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0248.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それじゃ、{BEAT}お言葉にあまえて。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0249.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今日はこれくらいに、{n}しといてやらないでもない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0250.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えんりょなんて、きみらしくないなあ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0251.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えんりょなんて、きみらしくないなあ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0252.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "きみしだいで、{n}{WAIT}仲魔になって{WAIT}やろうかな。{n}{WAIT}字あまり。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0253.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0254.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "交渉する",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0255.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "断る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0256.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}別になんにもいらねえよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0256.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "きみの愛があれば、俺はそれで幸せさ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0256.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}{WAIT}いやいや、{BEAT}今のは自分に言ったんだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0257.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0258.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}じょうだんだよ。{n}{WAIT}死んでいいよ、きみ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0259.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{BEAT}オレサマ涙チョチョ切レル{n}{WAIT}邪龍バジリスクのマネ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0260.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}ひじょーに、{BEAT}悲しいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0260.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "この日の思い出に、{n}これを取っておきたまえ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0260.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}。{n}{WAIT}それは、給料3カ月分。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0261.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "きみと俺は、{n}運命の糸でつながっているに違いない。{n}{WAIT}さて、そこで問題です。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0262.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それは、何色でしょう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0263.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "金",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0264.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "赤",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0265.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "白",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0266.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "黒",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0267.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "サーモンピンク",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0268.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "金！{n}ひじょーに、{BEAT}魅力的な響き。{n}{WAIT}つまり、金が欲しいと。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0268.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}を、やらないこともない。{n}{WAIT}倍返しという言葉を知っているかい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0268.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "期待してるよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0269.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "金！{n}ひじょーに、{BEAT}魅力的な響き。{n}{WAIT}では、望みどうり。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0269.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "きみの金は、俺が使ってやろう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0270.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}そうだったとは。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0270.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それじゃあ、なんかくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0271.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}俺には、{n}きみの愛を正面から受け止める勇気がない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0271.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "かわりに、これを受け取ってくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0271.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}。{n}{WAIT}それは、給料3カ月分。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0272.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}{WAIT}死んでいいよ、きみ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0273.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう。{n}{WAIT}まだ、ムクな白のままだ。{n}{WAIT}これから、ふたりの色で染め上げよう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0273.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "とりあえず、なんかくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0274.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう。{n}{WAIT}まだ、ムクな白のままだ。{n}{WAIT}これから、ふたりの色で染め上げよう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0275.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}それは、どういう意味だ。{n}ひじょーに、{BEAT}気になる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0276.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう。{n}このくされ縁は続くのだよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0276.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "また、{n}言葉のキャッチボールを楽しもう。{n}{WAIT}じゃあな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0277.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うん{maru_symbol}おじちゃん、好き好きぃ～{maru_symbol}{n}{WAIT}妖虫ウブのマネ。{n}{WAIT}ちょっと、マイナーすぎたな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0277.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ついてこれなかったか？{n}{WAIT}まだまだだな。{n}俺が鍛えてやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0277.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0278.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひじょーに、{BEAT}意味不明。{n}{WAIT}プラス、{BEAT}嫌。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0278.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんな糸は、切ってやろう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0279.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グゲグゲグゲゲェ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0279.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おおおお{BEAT}おばえぇ{n}ミニミニミニミニ{BEAT}ミニグイ奴ゥ{n}気ニ入ッッッッ{BEAT}ッダァ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0279.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "外道スライムのマネ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0280.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "似てるだろ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0281.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "似てる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0282.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いまいち",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0283.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おいおい。{n}人の芸を見るだけ見といて、{n}タダはないような{BEAT}気がするなあ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0283.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0284.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おいおい。{n}人の芸を見るだけ見といて、{n}タダはないような{BEAT}気がするなあ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0284.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0285.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほめるだけは、タダだからなあ。{n}{WAIT}まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0286.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おいおい。{n}人の芸を見るだけ見といて、{n}タダはないような{BEAT}気がするなあ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0286.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0287.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グゲグゲグゲゲェ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0287.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おで非常ニ悲悲悲{BEAT}悲ジイィ{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0288.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グゲグゲグゲゲェ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0288.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おばえぇ死ン{BEAT}ンンンデ{BEAT}イイィヨォ{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0289.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ここから先には、{n}行かないほうがいいらしい。{n}{WAIT}なぜなら。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0289.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺たち悪魔が困るからだ。{n}{WAIT}帰ったほうが、いいと思うぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0290.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}で、手を打たないか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0291.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいだろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0292.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だめだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0293.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もう一声",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0294.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "約束したからな。{n}{WAIT}この次ほっつき回ってるのを見かけたら、{n}死んでもらうぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0294.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0295.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "欲に目がくらんだか。{n}まったくわかりやすいね、きみは。{n}{WAIT}ひじょーに、{BEAT}最低の人間だよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0295.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "害だよ、{BEAT}害。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0296.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}黙ってもらっときゃ、わかんねえのに。{n}{WAIT}ひじょーに、{BEAT}ばか正直な奴。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0296.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔になってやらないこともない。{n}{WAIT}なんかくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0297.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}黙ってもらっときゃ、わかんねえのに。{n}{WAIT}ひじょーに、{BEAT}ばか正直な奴。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0297.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "死んでいいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0298.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なめんな。{n}{WAIT}帰っていいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0299.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なめんな。{n}{WAIT}死んでいいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0300.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おぉ、{BEAT}おぉ。{n}{BEAT}ひもじいのゥ。{n}{BEAT}何か、くれんかのゥ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0300.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "屍鬼ラスタマンのマネ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0301.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "似てるだろ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0302.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "似てる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0303.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いまいち",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0304.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "これは、タダのものまねじゃない。{n}俺の悲痛な叫びが、込められている。{n}{WAIT}すなわち。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0304.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0305.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "これは、タダのものまねじゃない。{n}俺の悲痛な叫びが、込められている。{n}{WAIT}すなわち。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0305.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0306.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あーあ。{n}ジジイのものまねしてる場合じゃ、{n}ねえよな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0306.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺もそろそろ、身を固めねえと。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0307.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "これは、タダのものまねじゃない。{n}俺の悲痛な叫びが、込められている。{n}{WAIT}すなわち。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0307.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0308.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おぉ、{BEAT}おぉ。{n}{BEAT}悲しいのゥ。{n}{BEAT}ひもじいのゥ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0308.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0309.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おぉ、{BEAT}おぉ、{BEAT}そう来ますかい。{n}死んでもいいぞ、おまえさん。{n}{BEAT}ヒャッヒャッヒャ～。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0310.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "人が合体するの見てて、楽しいか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0311.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "楽しい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0312.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "つまらない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0313.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "参加したい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0314.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺、合体してるとこ他人に見られると、{n}燃えてくるタイプなんだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0314.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "きみとは、ウマが合うに違いない。{n}{WAIT}仲魔になってやらないこともないぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0314.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0315.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺は、合体してるとこ他人に見られんの、{n}嫌なんだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0315.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "死んでいいよ、きみ。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0316.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "たまには、参加したらどうだ。{n}ローマの偉い人も言ってるぞ。{n}{WAIT}参加することに、意義がある。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0316.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なに？{n}{WAIT}無理？{n}{WAIT}そりゃ、かわいそうに。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0317.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "たまには、参加したらどうだ。{n}ローマの偉人も言ってるぞ。{n}{WAIT}参加することに、意義がある。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0317.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0318.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}死んでいいよ。{n}{WAIT}まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0319.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "好きです{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0320.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "つきあって下さい{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0321.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0322.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいえ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0323.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "って、この前言われたんだけどさ。{n}{WAIT}あん？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0323.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにモジモジしてんだ？{n}仲魔になって欲しかったのか？{n}{WAIT}しょうがねえなあ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0323.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0324.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "とか、言われてみてえなあ。{n}{WAIT}あん？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0324.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なに赤くなってんだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0325.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "とか、言われてみてえなあ。{n}{WAIT}あん？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0325.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なに期待してたんだよ、ばーか。{n}{WAIT}死んでいいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0326.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "って言われる夢を見た。{n}{WAIT}あん？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0326.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうしたんだ、汗かいて。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0327.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "って言われる夢を見た。{n}{WAIT}あ、{BEAT}しまった！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0327.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "正夢は人に話すと、{n}そいつに移るんだった！{n}{WAIT}俺の正夢、返せ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0328.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "カレーライスとハヤシライス。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0329.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "からいのは、どっち？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0330.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0331.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいえ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0332.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "カレーライス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0333.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ハヤシライス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0334.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "すばらしい。{n}誓いを守るとは。{n}{WAIT}ばかもここまで来ると、輝いて見える。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0334.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まじで。{n}{WAIT}おもしれえから、ついてってやる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0335.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "すばらしい。{n}誓いを守るとは。{n}{WAIT}ばかもここまで来ると、輝いて見える。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0335.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まじで。{n}{WAIT}仲魔になってやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0336.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なに言ってんだ、ばーか。{n}ひじょーに、{BEAT}意味不明。{n}{WAIT}帰っていいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0337.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なに言ってんだ、ばーか。{n}ひじょーに、{BEAT}意味不明。{n}{WAIT}死んでいいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0338.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "りちぎな奴。{n}{WAIT}ばかも休み休み言えっつうけど、{n}きみには走り続けて欲しい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0338.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まじで。{n}{WAIT}安心しろ。{n}俺もいっしょに走ってやる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0339.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "りちぎな奴。{n}{WAIT}ばかも休み休み言えっつうけど、{n}きみには走り続けて欲しい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0339.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まじで。{n}{WAIT}仲魔になってやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0340.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なに言ってんだ、ばーか。{n}ひじょーに、{BEAT}意味不明。{n}{WAIT}帰っていいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0341.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なに言ってんだ、ばーか。{n}ひじょーに、{BEAT}意味不明。{n}{WAIT}死んでいいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0342.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "正解。{n}{WAIT}だがしかし。{n}{WAIT}誓いを破るとは。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0342.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひじょーに、{BEAT}信用できないね、きみは。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0343.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "正解。{n}{WAIT}だがしかし。{n}{WAIT}誓いを破るとは。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0343.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひじょーに、{BEAT}信用できないね、きみは。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0344.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "10秒前の約束を破るなんて。{n}{WAIT}ニワトリかい、きみは。{n}{WAIT}しかも、不正解。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0344.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひじょーに、{BEAT}理解不能だね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0345.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "10秒前の約束を破るなんて。{n}{WAIT}ニワトリかい、きみは。{n}{WAIT}しかも、不正解。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0345.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひじょーに、{BEAT}理解不能だね。{n}{WAIT}死んでいいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0346.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんとかに刃物{BEAT}って言葉、知ってるかい。{n}{WAIT}すなわち。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0347.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "SWORDを、外して欲しい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0348.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "外す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0349.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "外さない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0350.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひじょーに、{BEAT}よさ気じゃん。{n}{WAIT}話を聞いてやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0351.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひじょーに、{BEAT}よさ気じゃん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0352.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひじょーに、{BEAT}よさ気じゃん。{n}{WAIT}じゃあ、{BEAT}死んでいいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0353.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}ひじょーに、{BEAT}話す気がないらしい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0354.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}ひじょーに、{BEAT}話す気がないらしい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0354.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "死んでいいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0355.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "悪魔は、殺されると平気じゃないらしい。{n}{WAIT}さて、そこで質問です。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0356.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "きみは、悪魔を殺して平気かい？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0357.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "気がとがめる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0358.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "平気",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0359.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "信じてみるかい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0360.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "果して、{BEAT}どうかな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0361.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "果して、{BEAT}どうかな。{n}{WAIT}気がとがめるなら、{n}防御しかしないに違いない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0362.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}そう来ますか。{n}ひじょーに、{BEAT}恐い。{n}{WAIT}そこで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0362.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}を、くれてやる。{n}{WAIT}それは、{n}{demon_name}の悲痛な叫び。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0362.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "殺しちゃや～よぉ、おじちゃん{maru_symbol}{n}これ、あげるからぁ～{maru_symbol}{n}{WAIT}そんな感じだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0362.p03",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "妖虫ウブのマネだったんだが。{n}{WAIT}ちょっと、マイナーか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0363.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}ひじょーに、{BEAT}恐い男だね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0363.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8025}デビルバスターバスターズ{OP:8020}に、{n}知らせといてやろう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0363.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ヒーホー！{n}{WAIT}危ないオヤジがいるぜ、{BEAT}ヒホー{BEAT}ヒホー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0364.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺といると、楽しいだろ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0365.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0366.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいえ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0367.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあ、一生つきまとってやるよ。{n}{WAIT}あいさつがわりに、なんかくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0368.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあ、一生つきまとってやるよ。{n}{WAIT}あいさつがわりに、なんかくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0369.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあ、一生つきまとってやるよ。{n}{WAIT}ばーか。{n}うそだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0369.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "死んでいいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0370.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあ、一生つきまとってやろうか。{n}{WAIT}あいさつがわりだ。{n}なんかくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0371.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0371.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だめだな。{n}言葉のキャッチボールを、{n}楽しむ余裕のない奴は。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0371.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひじょーに、{BEAT}だめだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0372.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0372.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だめだな。{n}言葉のキャッチボールを、{n}楽しむ余裕のない奴は。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0372.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひじょーに、{BEAT}だめだ。{n}{WAIT}死ぬしかないね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0373.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔になって欲しいのか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0374.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0375.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいえ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0376.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうか。{n}じゃあ、がんばってみついでくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0377.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "期待すんな。{n}聞いてみただけだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0377.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うそだよ、ばーか。{n}{WAIT}とりあえず、なんかくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0378.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうか。{n}{WAIT}聞いてみただけだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0379.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}そうか。{n}じゃあ、これを俺だと思って受け取れ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0379.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}。{n}{WAIT}それは給料3カ月分。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0380.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうか。{n}{WAIT}聞いてみただけだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0381.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じつは、{BEAT}きみに相談がある。{n}{WAIT}相談とは、他でもない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0382.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{requested_item}を貸して欲しい、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0383.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "渡す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0384.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やめておく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0385.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こういう言葉を知ってるかい。{n}{WAIT}きみの物は{BEAT}俺の物、{BEAT}俺の物は{BEAT}きみの物。{n}{WAIT}すなわち。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0385.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふたりは、一心同体だ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0386.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こういう言葉を知ってるかい。{n}{WAIT}きみの物は{BEAT}俺の物、{BEAT}俺の物は{BEAT}俺の物。{n}{WAIT}すなわち。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0386.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありがとう。{n}そして。{n}{WAIT}さようなら。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0387.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねこのひたいの心を持つ男。{n}{WAIT}{OP:8024}の{OP:8020}が2つあって、日本語として美しくない。{n}{WAIT}そこもまた、きみにぴったりだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0388.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねこのひたいの心を持つ男。{n}{WAIT}{OP:8024}の{OP:8020}が2つあって、日本語として美しくない。{n}{WAIT}そこもまた、きみにぴったりだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0388.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "死んでいいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0389.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じつは、{BEAT}きみに相談がある。{n}{WAIT}相談とは、他でもない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0390.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{requested_item}を貸して欲しい、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0391.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "渡す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0392.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やめておく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0393.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こういう言葉を知ってるかい。{n}{WAIT}きみの物は{BEAT}俺の物、{BEAT}俺の物は{BEAT}きみの物。{n}{WAIT}すなわち。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0393.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふたりは、一心同体だ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0394.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こういう言葉を知ってるかい。{n}{WAIT}きみの物は{BEAT}俺の物、{BEAT}俺の物は{BEAT}俺の物。{n}{WAIT}すなわち。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0394.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありがとう。{n}そして。{n}{WAIT}さようなら。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0395.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねこのひたいの心を持つ男。{n}{WAIT}{OP:8024}の{OP:8020}が2つあって、日本語として美しくない。{n}{WAIT}そこもまた、きみにぴったりだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0396.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねこのひたいの心を持つ男。{n}{WAIT}{OP:8024}の{OP:8020}が2つあって、日本語として美しくない。{n}{WAIT}そこもまた、きみにぴったりだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0396.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "死んでいいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0397.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "この前。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0397.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "宝箱が見えたからって、{n}まっすぐ突っ込んでって、{n}ワナに引っかかった、大ばかを見たんだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0397.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そりゃもう、{BEAT}大笑いさ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0398.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "頭悪いと思わねえか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0399.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "思う",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0400.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "思わない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0401.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "実は自分も……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0402.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だろ？{n}そんな奴、死んでいいよ。{n}{WAIT}まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0402.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "きみとは、ウマが合うに違いない。{n}{WAIT}仲魔になってやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0403.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だろ？{n}そんな奴、死んでいいよ。{n}{WAIT}まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0404.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}もしかして。{n}{WAIT}きみだったのか、あれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0404.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだろ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0405.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}もしかして。{n}{WAIT}きみだったのか、あれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0405.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだろ。{n}{WAIT}死んでいいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0406.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}救いようがねえな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0406.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "けがは、直ったのか？{n}{WAIT}{offered_item}。{n}これで、直してもらえ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0407.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}{WAIT}死ね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0408.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうでもいいことかもしれないが。{n}{WAIT}悪魔合体があるのに、{n}どうして{WAIT}{OP:8024}悪魔分解{OP:8020}がないんだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0409.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おかしいと思わないか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0410.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "確かに",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0411.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "別に思わない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0412.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "きみとは、ウマが合うに違いない。{n}{WAIT}仲魔になってやらないこともないぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0413.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だろ。{n}{WAIT}納得いくように、説明して欲しいよな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0414.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だろ。{n}{WAIT}1度気づくと、気になるだろ。{n}{BEAT}{OP:8024}悪魔分解{OP:8020}。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0414.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひじょーに、{BEAT}知りたいよな。{n}{WAIT}ちょっと、聞きに行ってくる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0415.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}大発見だと思ったのに。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0415.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{BEAT}オレサマ大ショック{n}{BEAT}ひじょーに、{BEAT}悲しいよ。{n}{WAIT}出直しだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0416.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そういう、ささいなことが積み重なって、{n}人間界をだめにしてしまうんだぞ。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0417.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "好奇心がなくなったら、人間おしまいだ。{n}{WAIT}死んでいいよ。{n}{WAIT}まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0418.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺、こう見えても足が速いんだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0418.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺と走ってきみが勝ったら、{n}仲魔になってやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0418.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "とりあえず、その格好じゃハンデだろ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0419.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ARMORを外したほうがいいぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0420.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "外す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0421.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "外さない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0422.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}そんなんじゃ、ここでやってけねーぞ。{n}{WAIT}世間にゃ、悪い奴が死ぬほどいるんだから。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0422.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺がついてってやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0423.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う。{n}{WAIT}悪い、{WAIT}急に腹が。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0423.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "走るのは、今度にしよう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0424.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}こんなんに、だまされんな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0424.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "死んでいいよ。{n}{WAIT}まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0425.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱり、こんなんじゃだまされないか。{n}{WAIT}まあ、しかたない。{n}仲魔になってやらないこともないぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0425.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかよこせ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0426.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しかたない。{n}{WAIT}出直して来よう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0427.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺こう見えても、足が速いんだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0427.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺と走ってきみが勝ったら、{n}仲魔になってやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0427.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "とりあえず、その格好じゃハンデだろ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0428.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ARMORを外したほうがいいぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0429.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "外す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0430.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "外さない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0431.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}そんなんじゃ、ここでやってけねーぞ。{n}{WAIT}世間にゃ、悪い奴が死ぬほどいるんだから。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0431.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺がついてってやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0432.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う。{n}{WAIT}悪い、{WAIT}急に腹が。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0432.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "走るのは、今度にしよう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0433.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}こんなんに、だまされんな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0433.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "死んでいいよ。{n}{WAIT}まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0434.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱり、こんなんじゃだまされないか。{n}{WAIT}まあ、しかたない。{n}仲魔になってやらないこともないぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0434.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかよこせ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0435.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しかたない。{n}{WAIT}出直して来よう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0436.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "毎日まいにち、{n}悪魔のご機嫌うかがいで、ヘーコラして。{n}{WAIT}ストレスたまんだろ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0437.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "楽しいか、それで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0438.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "楽しい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0439.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "楽しくない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0440.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕事だから",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0441.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかい。{n}{WAIT}じゃあ俺にも、ヘーコラしてくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0442.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかい。{n}{WAIT}じゃあ、一生やってな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0443.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あたりマエダのローキック。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0443.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しまった！{n}{WAIT}俺としたことが、とんだオヤジギャグを！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0443.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}。{n}{WAIT}これで、{n}{WAIT}今のは聞かなかったことにしてくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0444.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "楽しくないのにやってるくらいなら、{n}死んだほうがいいよ。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0445.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}そう来ますか。{n}{WAIT}あー、{BEAT}偉い偉い。{n}{WAIT}あー、{BEAT}泣ける泣ける。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0445.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなきみには、{offered_item}。{n}{WAIT}これで、飲みに行きな。{n}少しは、ウサが晴れないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0446.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕事なら、楽しくなくてもがまんするのか。{n}{WAIT}そんなんでいいのか、{BEAT}きみ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0447.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "毎日まいにち、{n}悪魔のご機嫌うかがいで、ヘーコラして。{n}{WAIT}ストレスたまんだろ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0448.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "楽しいか、それで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0449.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "楽しい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0450.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "楽しくない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0451.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕事だから",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0452.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかい。{n}{WAIT}じゃあ俺にも、ヘーコラしてくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0453.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかい。{n}{WAIT}じゃあ、一生やってな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0454.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あたりマエダのローキック。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0454.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しまった！{n}{WAIT}俺としたことが、とんだオヤジギャグを！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0454.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}。{n}{WAIT}これで、{n}{WAIT}今のは聞かなかったことにしてくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0455.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "楽しくないのにやってるくらいなら、{n}死んだほうがいいよ。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0456.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}そう来ますか。{n}{WAIT}あー、{BEAT}偉い偉い。{n}{WAIT}あー、{BEAT}泣ける泣ける。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0456.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなきみには、{offered_item}。{n}{WAIT}これで、飲みに行きな。{n}少しは、ウサが晴れないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0457.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕事なら、楽しくなくてもがまんするのか。{n}{WAIT}そんなんでいいのか、{BEAT}きみ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0458.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありがたく、もらってやろう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0459.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{requested_item}だ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0460.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "持ってないじゃねえか。{n}{WAIT}なめんな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0461.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "や～めた。{n}これ以上、ばかにされたくない。{n}{WAIT}まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0461.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレサマゴキゲンナナメ！{n}{WAIT}なんつって。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0462.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なに、{BEAT}もっとくれるのか。{n}しょうがないな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0463.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあ、こうしよう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0464.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なめんな。{n}{WAIT}死にたいとしか、思えない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0465.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありがたく、もらってやる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0466.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}なんにも持ってないじゃん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0466.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "殺す価値もない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0467.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もう少し、{n}{WAIT}もらってやらない{WAIT}こともない。{n}{WAIT}なんか、標語みたいだな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0467.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "くれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0468.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ～あ。{n}そう、来ますか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0469.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なめんな。{n}死んでいいよ。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0470.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しょうがねえな。{n}頼まれてやるか。{n}{WAIT}まあ、これもなにかの縁だし。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0470.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{race}、{demon_name}だ。{n}大船に乗ったつもりで、いてやるからよ。{n}せいぜい、がんばってくれたまえ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0471.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}COMPがいっぱいらしいぞ。{n}そんくらい、ちゃんと覚えとけよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0471.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "また来てやるからよ。{n}そん時までに、なんとかしとけ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0472.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しょうがねえな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0472.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "これくらいに、{n}{WAIT}しといてやらない{WAIT}こともない。{n}{WAIT}字あまり。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0472.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そして。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0472.p03",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}。{n}{WAIT}それはふたりが、{WAIT}出会った記念。{n}{WAIT}俺の気持ちだ、{WAIT}もらっとけ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0473.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今日は、これくらいにしといてやる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0473.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレサママタモライニ来ル{n}{WAIT}なんつって。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0474.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なめんな。{n}{WAIT}死んでいいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0475.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今日は、これくらいにしといてやる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0476.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "死んでいいよ。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0477.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "死んでいいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0478.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "死んでいいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0478.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今度きみの顔を見たら、{n}{WAIT}殺してやらない{WAIT}こともない。{n}{WAIT}字あまり。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0479.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "渡す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0480.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ことわる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0481.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}COMPがいっぱいらしいぞ。{n}そんくらい、ちゃんと覚えとけよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0482.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあ、これもなにかの縁だし。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0482.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{race}、{demon_name}だ。{n}大船に乗ったつもりで、いてやるからよ。{n}せいぜい、がんばってくれたまえ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0483.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんつって。{n}俺のことはあきらめてくれ。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0483.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "救いようのないダメ人間になら、{n}よろこんで、手を貸してやらないでもない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0483.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねたみやうらみを、間近に感じられるのは、{n}{BEAT}ひじょーに、{BEAT}楽しいからな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0483.p03",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "きみからは、{n}そういう黒いオーラが感じられない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0483.p04",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "かわりに、{offered_item}をやろう。{n}つまらない物だから、くれてやる。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0484.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんつって。{n}俺のことはあきらめてくれ。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0484.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "救いようのないダメ人間になら、{n}よろこんで、手を貸してやらないでもない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0484.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねたみやうらみを、間近に感じられるのは、{n}{BEAT}ひじょーに、{BEAT}楽しいからな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0484.p03",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "きみからは、{n}そういう黒いオーラが感じられない。{n}{WAIT}悲しーよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0485.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "月にかわって{WAIT}…{BEAT}…{BEAT}すまん。{n}なんでもない。{n}{WAIT}今日、ちょっとおかしいんだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0486.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひとりにしといてくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0487.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そっとしておく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0488.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "放っておけない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0489.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やさしいね、{BEAT}きみ。{n}{WAIT}まさか！{n}{WAIT}ほれたな？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0489.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しかたない。{n}よろこんで、手を貸してやらないでもない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0490.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やさしいね、{BEAT}きみ。{n}{WAIT}まさか！{n}{WAIT}ほれたな？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0490.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あーあ。{n}なに言ってんだ、俺。{n}{WAIT}死んでいいな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0491.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やさしいね、{BEAT}きみ。{n}{WAIT}まさか！{n}{WAIT}ほれたな？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0491.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あーあ。{n}なに言ってんだ、俺。{n}{WAIT}死んでいいな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0492.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やさしいね、{BEAT}きみ。{n}{WAIT}まさか！{n}{WAIT}ほれたな？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0492.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あーあ。{n}なに言ってんだ、俺。{n}{WAIT}死んでいいな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0493.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やさしいね、{BEAT}きみ。{n}{WAIT}まさか！{n}{WAIT}ほれたな？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0493.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しかたない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0494.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}暑苦しいね、きみは。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0494.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「暑苦しい」の反対は、{WAIT}「寒楽しい」{BEAT}か。{n}{BEAT}どんな感じかな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0494.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あーあ。{n}なに言ってんだ、俺。{n}{WAIT}死んでいいな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0495.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}暑苦しいね、きみは。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0495.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「暑苦しい」の反対は、{WAIT}「寒楽しい」{BEAT}か。{n}{BEAT}どんな感じかな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0495.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あーあ。{n}なに言ってんだ、俺。{n}{WAIT}死んでいいな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0496.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}暑苦しいね、きみは。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0496.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「暑苦しい」の反対は、{WAIT}「寒楽しい」{BEAT}か。{n}{BEAT}どんな感じかな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0496.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あーあ。{n}なに言ってんだ、俺。{n}{WAIT}死んでいいな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0497.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8025}フルムーン{BEAT}・{BEAT}チャーンス{BEAT}！！{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0497.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それでは問題です。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0498.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「グゲグゲグゲゲェ」{BEAT}と、しゃべるのは{BEAT}…{BEAT}…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0499.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "幻魔クー・フーリン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0500.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "屍鬼ラスタマン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0501.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "外道スライム",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0502.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "珍獣オリバーくん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0503.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}{WAIT}奴はファンが多いんだ。{n}聞かれたら、殺されるぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0504.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}{WAIT}奴はファンが多いんだ。{n}聞かれたら、殺されるぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0504.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じつは、俺もファンだったり。{n}{WAIT}殺す。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0505.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}{WAIT}奴はファンが多いんだ。{n}聞かれたら、殺されるぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0505.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じつは、俺もファンだったり。{n}{WAIT}殺す。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0506.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}{WAIT}奴はファンが多いんだ。{n}聞かれたら、殺されるぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0506.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じつは、俺もファンだったり。{n}{WAIT}殺す。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0507.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}{WAIT}帰れ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0508.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}{WAIT}死ね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0509.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}{WAIT}死ね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0510.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばーか。{n}{WAIT}死ね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0511.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "正解！{n}{WAIT}しかたない。{n}超ゴウカ賞品を、くれてやろう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0511.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "一生、大事にしとけ。{n}賞品は、{WAIT}俺だ。{n}{WAIT}前から欲しかっただろ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0512.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "で{BEAT}す{BEAT}が{BEAT}。{n}{WAIT}では、{BEAT}「おぉおぉ、ひもじいのゥ」{BEAT}と{n}しゃべるのは、誰でしょう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0512.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "正解は、屍鬼ラスタマンでした。{n}{WAIT}くー、{BEAT}ちゃんと最後まで聞いていれば。{n}{BEAT}ひじょーに、{BEAT}残念無念。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0512.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "また、次の満月をお楽しみに。{n}{WAIT}グゲグゲグゲゲェ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0513.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "で{BEAT}す{BEAT}が{BEAT}。{n}{WAIT}では、{BEAT}「おぉおぉ、ひもじいのゥ」{BEAT}と{n}しゃべるのは、誰でしょう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0513.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "正解は、屍鬼ラスタマンでした。{n}{WAIT}くー、{BEAT}ちゃんと最後まで聞いていれば。{n}{BEAT}ひじょーに、{BEAT}残念無念。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0513.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "また、次の満月をお楽しみに。{n}{WAIT}グゲグゲグゲゲェ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0514.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "で{BEAT}す{BEAT}が{BEAT}。{n}{WAIT}では、{BEAT}「おぉおぉ、ひもじいのゥ」{BEAT}と{n}しゃべるのは、誰でしょう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0514.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "正解は、屍鬼ラスタマンでした。{n}{WAIT}くー、{BEAT}ちゃんと最後まで聞いていれば。{n}{BEAT}ひじょーに、{BEAT}残念無念。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0514.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "また、次の満月をお楽しみに。{n}{WAIT}グゲグゲグゲゲェ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0515.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おしい。{n}{WAIT}不正解。{n}{WAIT}残念賞をくれてやろう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0515.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "一生、大事にしとけ。{n}賞品は、{WAIT}俺だ。{n}{WAIT}前から欲しかっただろ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0516.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おしい。{n}{WAIT}不正解。{n}{WAIT}死んでいいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0517.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おしい。{n}{WAIT}不正解。{n}{WAIT}死んでいいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0518.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おしい。{n}{WAIT}不正解。{n}{WAIT}死んでいいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0519.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うわっ！{n}{WAIT}寄るな。{n}{WAIT}ばかがうつる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0520.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どっかへ行ってしまえ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0521.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "立ち去る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0522.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "無視",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0523.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばかをうつす",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0524.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おい、ばか。{n}忘れ物だ。{n}{WAIT}俺を連れてくの、{BEAT}忘れてる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0524.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0525.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おい、ばか。{n}なんかわすれてねえか。{n}{WAIT}せっかく、けんか売ってやってんだから。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0525.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "買えよ。{n}{WAIT}まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0526.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おい、ばか。{n}なんかわすれてねえか。{n}{WAIT}せっかく、けんか売ってやってんだから。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0526.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "買えよ。{n}{WAIT}まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0527.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おい、ばか。{n}なんかわすれてねえか。{n}{WAIT}せっかく、けんか売ってやってんだから。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0527.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "買えよ。{n}{WAIT}まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0528.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだ、その態度は。{n}{WAIT}しまった！{n}{WAIT}そうか……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0528.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "言葉が理解できないに、違いない。{n}{WAIT}ばかなので。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0528.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}だ、{BEAT}とっとけ。{n}{WAIT}きみにつける薬は、ないと思うが。{n}{WAIT}あったら買え。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0529.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだ、その態度は。{n}{WAIT}しまった！{n}{WAIT}そうか……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0529.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "言葉が理解できないに、違いない。{n}{WAIT}ばかなので。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0529.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばかは死ななきゃ治らないって言葉、{n}知ってるか？{n}{WAIT}すなわち。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0529.p03",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "死ね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0530.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うわーーっ。{n}なんてことを。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0530.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ちくしょう、{BEAT}類は友を呼んでやる！{n}{WAIT}すなわち。{n}{WAIT}きみの仲魔になってやらないこともない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0531.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やめろ、{BEAT}ばか。{n}{WAIT}頼む、寄らないでくれ、{BEAT}ばか。{n}うわっ、{BEAT}ばか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0531.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わ、わかった。{n}{offered_item}をやる。{n}{WAIT}だから帰れ、{BEAT}まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0532.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばかは風邪と違うのを、知ってるかい。{n}{WAIT}すなわち。{n}{WAIT}人にうつしても治らない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0532.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう。{n}{WAIT}死ななきゃ治らない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0533.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばかは風邪と違うのを、知ってるかい。{n}{WAIT}すなわち。{n}{WAIT}人にうつしても治らない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0533.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう。{n}{WAIT}死ななきゃ治らない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0534.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "満月の日は、いつもの俺と違うんだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0535.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにをしても、許してくれるかい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0536.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "許す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0537.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "約束はできない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0538.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "さっ{BEAT}すが。{n}{WAIT}じゃあ、一生つきまとってやるから、{n}ありがたく思え。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0539.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "さっ{BEAT}すが。{n}{WAIT}では、ばかが治るように死なせてやろう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0540.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "さっ{BEAT}すが。{n}{WAIT}では、ばかが治るように死なせてやろう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0541.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "さっ{BEAT}すが。{n}{WAIT}では、ばかが治るように死なせてやろう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0542.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}みずくさいぞ、{BEAT}友達だろ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0543.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}みずくさいぞ、{BEAT}友達だろ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0544.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}みずくさいぞ、{BEAT}友達だろ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0545.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}みずくさいぞ、{BEAT}友達だろ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0546.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんつって。{n}俺のことはあきらめてくれ。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0546.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それはなぜかと尋ねたら。{n}{WAIT}きみの連れてる悪魔が、{n}{BEAT}ひじょーに、{BEAT}気に食わない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0546.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "以上。{n}{WAIT}なに？{n}納得いかないのか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0546.p03",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあ、{offered_item}をやろう。{n}つまらない物だから、くれてやる。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0547.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんつって。{n}俺のことはあきらめてくれ。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0547.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それはなぜかと尋ねたら。{n}{WAIT}きみの連れてる悪魔が、{n}{BEAT}ひじょーに、{BEAT}気に食わない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0547.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "以上。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0548.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんつって。{n}俺のことはあきらめてくれ。{n}{WAIT}それはなぜかと尋ねたら。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0548.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "きみが、あまりにも弱いからだ。{n}{WAIT}いやいや、まじで。{n}レベルの差は、歴然だからな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0548.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なに？{n}納得いかないのか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0548.p03",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあ、{offered_item}をやろう。{n}つまらない物だから、くれてやる。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0549.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんつって。{n}俺のことはあきらめてくれ。{n}{WAIT}それはなぜかと尋ねたら。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0549.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "きみが、あまりにも弱いからだ。{n}{WAIT}いやいや、まじで。{n}レベルの差は、歴然だからな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0549.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺以外の奴を倒しまくって、{n}せいぜい強くなれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0550.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "月にかわって……なんでもねぇよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0551.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "意図的に無視しているとしか、思えない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0551.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなに、俺のことが嫌いか？{n}{WAIT}俺は俺が好きだ。{n}{WAIT}たまらん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0552.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う{BEAT}うっそ。{n}{WAIT}俺にもとどめを刺す気かい。{n}{WAIT}ひじょーに、{BEAT}やめて欲しい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0552.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "かわりに、きみんとこで使われてる、{n}俺の仲間を好きに扱っていいぞ。{n}{WAIT}いやいや、まじで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.cyni.m0552.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃ、{BEAT}そういうことで。",
+    "translation": "",
+    "note": ""
+  }
+]

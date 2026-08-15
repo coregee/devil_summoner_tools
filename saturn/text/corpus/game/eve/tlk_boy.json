@@ -1,0 +1,4650 @@
+[
+  {
+    "id": "game.tlk_boy.m0000.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8025}ただいまメッセージさくせいちゅう{n}{OP:8022}COMINGSOON{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0001.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "MAKING{OP:8025}NOW{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0002.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なかまにいるんだ～ぜ～！{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0003.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オイラまんげつのよるはハイなんだ{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0004.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "このまえはありがとうなかまになるぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0005.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "このまえはよくもやっつけてやるぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0006.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "このまえはありがとうれいをするぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0007.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わりこみかいしなんかいうんだ～ぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0008.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "さいごのひとりになっちまったんだぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0009.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よく分からない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0010.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "知らない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0011.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どこでもいい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0012.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "異空間",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0013.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "教えない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0014.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{kyouji_name}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0015.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{codename}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0016.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "関係ない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0017.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "好き",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0018.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "きらい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0019.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "種類による",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0020.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "好き",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0021.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "きらい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0022.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "車の方が好き",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0023.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "歩いてきた",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0024.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分からない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0025.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "飛ばされてきた",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0026.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひとりで来た",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0027.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえが連れてきた",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0028.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分からない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0029.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こたえは「2」だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0030.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こたえは「田」だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0031.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…………",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0032.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "YES",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0033.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "NO",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0034.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…………",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0035.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなことしない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0036.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばれたか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0037.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかもしれない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0038.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなことしてない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0039.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なぜ知っている",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0040.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕返しはやめて",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0041.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんな言葉どこで覚えた？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0042.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やめなさい！そんなこと言うのは",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0043.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんな言葉どこで覚えた？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0044.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やめなさい！そんなこと言うのは",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0045.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "さわるな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0046.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "見せてやろうか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0047.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "貸してやろうか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0048.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あげようか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0049.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "自分で買え！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0050.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "自分でうばえ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0051.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よく知らない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0052.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "つまらない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0053.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "楽しい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0054.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "行ったことがない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0055.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "つまらない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0056.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "楽しい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0057.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グーを出す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0058.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "チョキを出す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0059.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "パーを出す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0060.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あと出しをする",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0061.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よし！やろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0062.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "付き合っていられないな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0063.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "待ってくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0064.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0065.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいだろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0066.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0067.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0068.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいだろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0069.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "きらいで結構",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0070.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんな…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0071.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうか…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0072.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0073.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0074.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "違う",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0075.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "本当は頭がいい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0076.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こちらこそたのむ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0077.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0078.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "遠慮しておく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0079.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0080.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "別に…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0081.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔になれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0082.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ここから消えろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0083.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "お願いします",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0084.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "たのむ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0085.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "結構だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0086.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "絶対にいやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0087.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだな…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0088.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "守ってやる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0089.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "欲しいものを言え",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0090.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "右のを食べる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0091.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "真ん中のを食べる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0092.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "左のを食べる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0093.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それなら助けてくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0094.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0095.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0096.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなことはない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0097.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なります",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0098.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0099.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だめだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0100.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0101.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やめろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0102.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "待ってくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0103.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何をするつもりだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0104.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "その前に俺がやる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0105.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0106.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕方がない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0107.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それはできない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0108.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0109.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ごめんなさい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0110.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0111.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それはできない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0112.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0113.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あっ！{n}いいところであった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0114.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんここどこ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0115.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なあんだ{n}おじさんにもわからないのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0116.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ちえっ{n}おじさんならしってるとおもったのにぃ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0117.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え～{BEAT}しらないの～{n}それほんとなの？{WAIT}{n}まあいいかあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0118.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんおとなでしょ{n}もっとしっかりしなくちゃ{n}ダメだよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0119.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだね{n}おじさんのいうとおりだね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0120.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ちっともよくないよー！{n}こまったなあもう！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0121.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふーんそうなんだあ{n}「いくうかん」っていうんだ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0122.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「いくうかん」ってなに？{BEAT}{n}ボクわかんない…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0123.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "カッチョイ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0124.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんだれなの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0125.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねえ～おしえてよう！{n}えっ「でびるさまな」？{n}へーそうなんだあ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0126.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいじゃ～ん！{n}ケチ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0127.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふ～んそうなんだ{n}かっこいいなまえ～！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0128.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふ～んそうなんだ{n}ふ～ん…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0129.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふ～んそうなんだ{n}へんななまえだね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0130.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふ～んそうなんだ{n}ボクは{demon_name}っていうんだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0131.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それもそうだね{WAIT}{n}まあどうでもいいやそんなこと",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0132.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうか…{BEAT}{n}おじさんボクのことキライなんだね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0133.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あれ？{n}はぐれちゃったのかな？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0134.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんここってどこ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0135.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "へえ～{BEAT}っ{n}おとなでもわかんないことあるんだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0136.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わからないのかあ…{WAIT}{n}ちぇっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0137.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうか…{BEAT}{n}おじさんにんげんだもんね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0138.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しらないんだあ{n}へんなの～{WAIT}{n}や～{BEAT}いや～{BEAT}い{BEAT}へんなの～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0139.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え～こまっちゃうよボク…{BEAT}{n}そんなこといわれても～！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0140.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それでいいの？{WAIT}{n}いいならいいけど…{BEAT}{n}ボクはイヤだな！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0141.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なになにそれ？{WAIT}{n}ふつうとちがうところ？{n}ふ～ん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0142.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「…{BEAT}そら{BEAT}{BEAT}あい…{BEAT}だ」！？{WAIT}{n}そんなむずかしいじよめないよボク",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0143.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかヘンなひとがいるなあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0144.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんだれ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0145.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おしえてよう！{n}おしえておしえておしえておしえて…{BEAT}{n}あ～つかれた",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0146.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おしえてくれてもいいでしょ～{n}もう{BEAT}いじわるオヤジ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0147.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふ～んそうなんだあ{n}そんななまえなんだね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0148.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふ～んそうなんだあ…{WAIT}{n}なまえきいてもしょうがないんだけど",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0149.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふ～んそうなんだ{BEAT}{n}おかしななまえ！{n}ハハハハハ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0150.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふ～んそうなんだ{BEAT}{n}でもボクのほうがいいなまえだもんね{n}{demon_name}っていうんだい！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0151.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなの…{BEAT}{n}ちぇっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0152.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなふうにいわなくったって…{WAIT}{n}いいじゃないかあ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0153.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんでこんなとこ{n}きちゃったのかなあ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0154.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんここどこかおしえてよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0155.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ハハッ！{n}おとなのくせにだらしないなあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0156.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなの～{BEAT}{n}カッチョわる～い！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0157.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しらないなんて{n}そんなのおっかしいの～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0158.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさん{n}それでよくいきてられるね{BEAT}{n}ふしぎだなあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0159.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おきらくなせいかくだね{BEAT}{n}いいな～そういうの",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0160.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よくないよ～{BEAT}{n}それじゃあボクこまるもん{BEAT}もう！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0161.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えっ{BEAT}なんていったの{n}ボクわかんない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0162.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "むずかしいこといえば{n}どっかいくとおもっているんでしょ{WAIT}{n}そうはいかないもんねー！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0163.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ぼくとおなじカタチしてないなんて{n}かわってるなあ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0164.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だれなんだようおじさん！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0165.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "べつにいいもん！{n}ちぇっカワイクないおとなだなっ{n}まあいいけど！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0166.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あっそう{BEAT}{n}いいですよ～{WAIT}{n}じゃあねバイバ～{BEAT}イ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0167.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふ～んそうなんだ{BEAT}{n}バカっぽいなまえだね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0168.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふ～んそうなんだ{n}それほんとう？{BEAT}{n}ふ～ん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0169.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふ～んそうなんだ{n}とくにかわったなまえじゃないね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0170.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんななまえきいたことあったかなあ{n}ふつうのひとなんだね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0171.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなこといっちゃうんだあ{n}ふ～{BEAT}んそ～{BEAT}う",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0172.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだよ～それ{BEAT}むかつくなあ{n}ちぇっ！ひどいなあ～{WAIT}{n}それより",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0173.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんさあ{BEAT}{n}ボクどうぶつすきなんだぁ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0174.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんはどうぶつすき？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0175.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よかったあ{n}ぼくもだいすきなんだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0176.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんいいひとなんだ{WAIT}{n}どうぶつずきにわるいひとは{n}いないもんね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0177.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうきらいなんだ…{BEAT}{n}かわいいのとかかっこいいのとか{n}いろいろいるのにぃ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0178.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "きらいなの！？{BEAT}{n}ボクはおじさんのこときらいだよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0179.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかなあ{n}どんなのでもかわらないよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0180.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうやって{n}くべつするんだ{n}そんなひとなんだ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0181.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねえおおきいまちには{n}でんしゃがあるんでしょ{n}ぼくでんしゃすきなんだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0182.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんはでんしゃすき？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0183.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱり！{n}でんしゃってはやくってすごいよね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0184.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よかったあすきで！{n}こんどでんしゃみにつれてってよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0185.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え～{BEAT}そうなの～{BEAT}{n}なんで～{BEAT}{n}わかんないな～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0186.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え～{BEAT}なんでえ～{BEAT}{n}あんなにかっこいいのにぃ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0187.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "くるまもかっこいいもんね{n}そうかくるまのほうがすきなのかあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0188.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "くるまもいいけど{n}やっぱりでんしゃだよ{n}でっかいのがいいんだっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0189.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あれえ{BEAT}{n}ここってかんたんにこれないんじゃ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0190.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんどうやってきたの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0191.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "へえ～{BEAT}{n}あるいてこれるんだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0192.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "へえ～{BEAT}{n}あるいてきたんだあ{n}おじさんおかねないんだね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0193.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わかんないの～{BEAT}{n}おじさんわかんないことおおいの～？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0194.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わかんないのお～{BEAT}{n}わかんないですんだら{n}ケーサツいらないんだよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0195.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんをとばすなんて{n}でっかいせんぷうきがあるんだね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0196.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんとべるんだあ{n}すっげーかっこいいなあ～{n}ひーろーみたい！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0197.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんのこと？{BEAT}{n}かべがバラバラ…{BEAT}ってどういうこと？{n}へんなの～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0198.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あれっ！{n}よくここまでこれたね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0199.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だれにつれてきてもらったの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0200.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひとりできたの！{WAIT}{n}おとなはいいな～{n}おこられたりしないんだね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0201.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひとりなの{n}おじさんかわいそう{n}ともだちいないんだね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0202.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんほめてあげるよ{WAIT}{n}よくできました！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0203.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひどいよ～{n}ボクのせいにして～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0204.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボクなんにもしてないよ～{WAIT}{n}いやだなあ～{n}ボクのせいにするなんて…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0205.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボクじゃないやい！{n}ボクはそんなことしないんだ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0206.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それじゃだめだよ！{WAIT}{n}ちゃんとこたえられるように{n}れんしゅうしとかなくちゃだめなんだよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0207.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しょうがないなあ{n}でもボクじゃなにもできないし{n}こまったなあ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0208.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあいいやそれより{n}おじさんボクとなぞなぞしよう！{WAIT}{n}いい？いくよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0209.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もんだい「1たす1はな～んだ？」",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0210.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ピンポーン！！せいかい！{BEAT}{n}どこがなぞなぞだって？{BEAT}{n}それはいわないでよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0211.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ブッブ～！！はずれ～！{BEAT}{n}せいかいはかんじの「田」だよ！{n}あれ？つまんなかった？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0212.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ピンポーン！！せいかい！{BEAT}{n}よくわかったね～{n}さっすがあおっとなあ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0213.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ブッブ～！！はずれ～！{BEAT}{n}2にきまってるじゃん{WAIT}{n}ほんとはわかってるくせになんだよう！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0214.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだようこたえてよ{n}おじさん！！{BEAT}{n}まあいいけど…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0215.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだようこたえてよ{n}おじさん！！{BEAT}{n}ちぇっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0216.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあいいやそれより{n}おじさんボクとなぞなぞしよう！{WAIT}{n}いい？いくよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0217.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もんだい「あーゆーわーさかな？」",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0218.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ピンポーン！！せいかい！{BEAT}{n}あゆはさかなだもんね！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0219.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ブッブ～！！はずれ～！{BEAT}{n}おじさんはさかなじゃなくて{n}にんげんだよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0219.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あれつまんなかった？{WAIT}{n}ははっ！{n}じゃあね～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0220.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ピンポーン！！せいかい！{BEAT}{n}おじさんはさかなじゃ{n}ないもんね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0221.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ブッブ～！！はずれ～！{BEAT}{n}あゆはさかなにきまってるじゃんっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0222.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだようこたえてよ{n}おじさん！！{BEAT}{n}ちぇっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0223.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだようこたえてよ{n}おじさん！！{BEAT}{n}ちぇっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0224.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんさあ{n}もしかして",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0225.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボクをいじめるつもりでしょ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0226.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとう？{n}ボクいたいのイヤだからね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0227.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとう？{n}な～んかしんじられないな～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0228.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウソだあ～{n}わかってるんだいじめっこ！{WAIT}{n}しかえししてやるう！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0229.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やった～あたり～！！{WAIT}{n}…えっいまなんていったの？{WAIT}{n}まあいいか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0230.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱりそうなんだ～{WAIT}{n}ちっきしょ～{n}え～い！それぇ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0231.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やめてよ～{n}おどかすのは…{BEAT}{n}そんなのいやだよ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0232.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やめてよ～{n}おどかしてもむだだよ{n}ボクそんなんじゃいうこときかない！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0233.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ～！{n}もしかしたらおじさん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0234.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボクのともだちをいじめてるひと？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0235.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとだなっ！{n}ウソだったらしょーちしないぞっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0236.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うそだあ～{n}だってすごいイジワルなひと{n}なんでしょおじさん…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0237.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え～！？やっぱりそうなの～{n}いやなひとだねおじさんって…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0238.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えっ！？{n}じょうだんのつもりだったのに…{WAIT}{n}ゆるさないぞっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0239.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうしようかな？{n}いいよゆるしてあげるよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0240.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんのバカ～！！{n}なんでいじめてないって{n}いってくれないんだよ～っ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0241.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうしようかな？{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{BEAT}{n}いやだあしかえしするもんね～！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0242.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんさあ…{n}かっこつけてるみたいだけど",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0243.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうとう「おんなずき」だなっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0244.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どこでって…{BEAT}{n}いまどきのあくまのコはみんな{n}こんなんだよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0245.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなのわかんないよ{n}しぜんにおぼえたんだから…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0246.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "は～{BEAT}い{WAIT}{n}おじさんきびし～いい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0247.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ちぇっわかったよう{BEAT}{n}やめればいいんでしょやめれば…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0248.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんさあ{n}そのとしでそんなカッコして",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0249.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうとうあそびにんだな！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0250.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う～んとねぇ…{BEAT}{n}おね～ちゃんがおとこにいってたんだ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0251.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わすれちゃったよそんなの…{WAIT}{n}べつにいいでしょ！{n}ぼくおじさんのコドモじゃないし！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0252.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだよ～{n}おじさんのいうことなんかきかないよ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0253.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだよ～{BEAT}い{BEAT}や{BEAT}だ{BEAT}ね～{WAIT}{n}そんなにいうこときかせたいんなら{n}ちからずくでやれば！{WAIT}はいどーぞ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0254.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさん！{WAIT}{n}さっきからそのてにもってるの{n}きになるんだけど",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0255.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにそれ？カッチョイ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0256.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひゃっ！{BEAT}びっくりしたあ～{WAIT}{n}きゅうにおおきなこえださないでよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0257.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだようケチ～{BEAT}{n}いいだろうちょっとぐらい～{n}ひどいよおじさん！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0258.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "エッ！？{BEAT}いいの？{BEAT}{n}やったあ{BEAT}わーいわーいうれしいなあ{WAIT}{n}おじさんありがとう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0258.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほかにもおねがいあるんだっ！{n}う～んとね～じゃあねぇ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0259.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいよやっぱり…{WAIT}{n}おじさんのたからものなんでしょ{n}だいじにしなきゃ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0260.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいの？{BEAT}やった～{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}あれはなれないよ{BEAT}えっ？{BEAT}あれっ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0261.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}おじさ～んだしてよ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0261.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え～でれないの～{BEAT}{n}もうなかまってこと？{WAIT}{n}しょ～がないなあ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0261.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボク{race}{demon_name}{n}ぜったいいじめないでね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0262.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やった～！！{n}スチャッ{BEAT}ジャッキーン！！！{BEAT}{n}わーいわーい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0263.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}ありがとうかえすね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0264.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさん！{BEAT}{n}じつはボクおねがいがあるんだ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0265.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "カッチョイ～ぶきほしいなあ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0266.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいのほんと？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0267.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うそばっかり！{BEAT}{n}そんなつもりないくせに…{WAIT}{n}これだからおとなはいやなんだ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0268.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあおじさん！{n}かうためにもおこづかいちょうだいよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0269.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなのボクのおこづかいじゃ{n}かえないよー！{WAIT}{n}おじさんのバカ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0270.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だって～{BEAT}だって～{BEAT}{n}あくまってつよいしこわいんだよ{n}おとなのあくまはとくにね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0271.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあそうしようかな！{WAIT}{n}おじさんからうばっちゃお！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0272.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねえおじさん！{n}にんげんのことおしえてよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0273.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "がっこうってたのしいの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0274.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんもしかして…{BEAT}{n}バカだからがっこうやめさせられたの？{n}しょ～がないなあ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0275.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんかわいそうだね{BEAT}{n}がっこういってないの…{n}{offered_item}あげるよ！がんばって！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0276.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなんだあ～{WAIT}{n}ちょっといってみたかったんだけど{n}よかった…{BEAT}あくまはいかなくてよくって",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0277.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとはそんなことないんでしょ{n}おじさんかくすなよ～！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0278.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱりそうなのかあ{BEAT}{n}いいな～{n}ぼくもいきたいなあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0279.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとう？{n}おじさんあんまりあてにならないしな～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0280.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねえおじさん！{n}おじさんならしってるよね？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0281.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えんそくってたのしいの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0282.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "かわいそうなおじさん{n}{offered_item}あげるよ！{n}ボクのちょきんぜんぶなんだ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0283.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなの…{n}ちぇっえんそくのことききたかったなあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0284.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウソばっかり！{n}にんげんはみんないくって{n}きいたことあるもんね～！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0285.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なあんだつまんないのかあ{BEAT}{n}そう…ならいいや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0286.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "つまんないのかなあ…{n}いってみたかったんだほんとは…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0287.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "たのしいんだやっぱり！{BEAT}{n}ボクもいきたいいきたいいきたいっ！{WAIT}{n}…でもだめなんだろうなあ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0288.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいな～{n}おじさんこんどボクをつれてってよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0289.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさん！{n}ボクとあそんでよう{WAIT}{n}じゃあねえ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0290.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃんけんしよう！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0291.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ジャンケン{WAIT}チョキ！{BEAT}{n}あっまけちゃったあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0292.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ジャンケン{WAIT}パー！{BEAT}{n}やったかったわーいわーい！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0293.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんまけたから{n}ボクになぐられるんだよ{WAIT}{n}じゃあいくよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0294.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ジャンケン{WAIT}パー！{BEAT}{n}あっまけちゃったあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0295.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ジャンケン{WAIT}グー！{BEAT}{n}やったかったわーいわーい！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0296.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんまけたから{n}ボクになぐられるんだよ{WAIT}{n}じゃあいくよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0297.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ジャンケン{WAIT}グー！{BEAT}{n}あっまけちゃったあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0298.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ジャンケン{WAIT}チョキ！{BEAT}{n}やったかったわーいわーい！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0299.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんまけたから{n}ボクになぐられるんだよ{WAIT}{n}じゃあいくよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0300.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ずるいよおじさん！{WAIT}{n}…でもまけはまけかあ{BEAT}ちぇっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0301.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ずるいよおじさん！{WAIT}{n}…ボクおこったぞ{BEAT}{n}おじさんのことやっつけてやる！{BEAT}え～い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0302.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさん！{BEAT}{n}いまあくまのあいだでだいにんきの{n}あそびがあるんだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0303.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おにごっこしよう！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0304.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よおしおじさんがオニだ！{BEAT}{n}いまからにげるからさがしにきてね{WAIT}{n}いくよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0305.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よおしおじさんがオニだ！{BEAT}{n}いまからにげるからさがしにきてね{WAIT}{n}いくよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0306.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "な～{BEAT}んだつまんない！{BEAT}{n}ちぇっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0307.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボクにさからうつもり？{n}ちっきしょうこうしてやるう！{WAIT}{n}え～い！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0308.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もうおじさんかまってるの{n}あきちゃったよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0309.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もういいよやめようよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0310.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もう…{WAIT}しょうがないなあ{n}あとちょっとだけだよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0311.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やだよ～{BEAT}{n}じゃあねバイバ～{BEAT}イ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0312.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うん！{BEAT}{n}じゃあねおじさん！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0313.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあそろそろ{n}こうげきするね{WAIT}…やだじゃないよ！{WAIT}{n}いくよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0314.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ちょっとまってよ！{WAIT}{n}ボクがわるかったよ{BEAT}ごめんなさい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0315.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんないいかたするんだ{WAIT}{n}ちぇっえらそうに…{BEAT}{n}ボクおこったぞ{BEAT}え～い！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0316.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやなたいどばっかり…{BEAT}{n}ぼくのことこどもだとおもって{n}バカにしてるんだ…{WAIT}エーンエーン！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0317.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もうやめてよ！やめておくれよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0318.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え～{BEAT}んひどいよ！{BEAT}{n}こんなにおねがいしてるのにぃ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0319.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやなおとなだなあ{n}ほんとに！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0320.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わかってくれてよかったあ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0321.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やったあ！やくそくだよ！{WAIT}{n}…えっ！？さっきのはウソなきだよ{n}あっ{BEAT}もしかしてだまされた？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0322.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとにやめてよね{WAIT}{n}おねがいだよ！{WAIT}{n}きっとだよ！{WAIT}やくそくだからね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0323.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだようそれ！{WAIT}{n}ちっきしょうおこったぞ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0324.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねえおじさん！{BEAT}{n}ボクにうるさくしないでよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0325.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんなんてキライだっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0326.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひどいよう{n}ほんとはやさしくしてほしいんだい！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0327.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふ～んそういうこというんだ{WAIT}{n}よ～しボクがやっつけてやる！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0328.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うそだよウ{BEAT}ソ{WAIT}{n}そんなにきらいじゃないよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0329.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いまさらおそいよ！{WAIT}{n}じゃあねバイバイもうあえないかもね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0330.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もっとやさしくしてくれたら{n}すきになってもいいよ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0331.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うんそうだよ{WAIT}{n}おじさんキライ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0332.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねえおじさん！{WAIT}{n}ぐちぐちもんくばっかりいうけど{n}ほんとは",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0333.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんバカなんでしょ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0334.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "またあ{BEAT}ほんとはそんなことないくせに{n}ボクにあわせてもだめだよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0335.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱり{WAIT}{n}や～{BEAT}いバカバ～{BEAT}カ{n}や～いや～い！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0336.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにひらきなおってるの？{BEAT}{n}ハハッおもしろ～い{n}おじさんやっぱりおもしろいんだね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0337.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱりそうなんだ{WAIT}{n}そのくせえらそうにして…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0338.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そ～お～？{n}ふ～んそうやってごまかすんだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0339.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え～ほんと～？{n}そうかなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0340.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボクはそうおもわないもんね！{n}や～いおじさんのバカぁ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0341.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "でもボクほどじゃないよ…{BEAT}{n}1{GLYPH:010c}1＝2{BEAT}1{GLYPH:010c}2＝3{BEAT}1{GLYPH:010c}3＝{BEAT}・{BEAT}・{BEAT}・{BEAT}{n}…え～{BEAT}っと{BEAT}5{BEAT}かな？{BEAT}あれ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0342.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなんだあ{BEAT}{n}へえ～{BEAT}ほ～{BEAT}{n}うぷっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0343.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よおし！{BEAT}{n}決めたぞ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0344.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんちにいくぞ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0345.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとにいいの？{BEAT}{n}ありがとうおじさん！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0345.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボク{race}{demon_name}{n}ぜったいいじめないでね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0346.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ごめん{BEAT}{n}やっぱりいいよ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0347.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よかった…{WAIT}{n}でもボクおこづかいほしいな～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0348.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとにわかってくれたの～？{BEAT}{n}おじさんちゃんとめんどうみてくれる？{BEAT}{n}ふあんだなあ…{BEAT}やっぱりや～めた！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0349.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "すぐそんなこという～！！{WAIT}{n}おじさんのバカ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0350.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなの…{BEAT}{n}もういいよ{WAIT}{n}バイバイおじさんまたね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0351.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかあ～{BEAT}{n}ちぇっつまんないな！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0352.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかあ～{BEAT}ちぇっつまんないな！{n}ほかのおとなとあそぼっ！！{WAIT}{n}バイバイおじさん！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0353.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねえおじさん！{BEAT}{n}ボクにできることあるかなあ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0354.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんでもいいからいってみて！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0355.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなの～？{BEAT}ほんとに～？{BEAT}{n}{offered_item}あげるよ！{n}ボクのたからものだいじにしてね！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0356.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなの～？{BEAT}{n}じゃあいいよ！！{n}がんばってねおじさん！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0357.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいよ！！{WAIT}{n}ボク{race}{demon_name}{n}おじさん！なかよくしてね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0358.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だめだよ～！{BEAT}{n}すぐそうやってなきつく～！！{BEAT}{n}おじさんのわるいくせだよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0359.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなのやだよ～！！{BEAT}{n}ぼくをほっていかないでよお～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0360.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんがそういうなら{BEAT}{n}ボク{BEAT}ボク{BEAT}{n}エ～ン！！！！！！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0361.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんっ！！{BEAT}{n}ちゃ～{BEAT}んとおねがいするなら",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0362.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボクいっしょにいってもいいよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0363.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ど・{BEAT}う・{BEAT}し・{BEAT}よ・{BEAT}う・{BEAT}か・{BEAT}な{BEAT}！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0364.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ど・{BEAT}う・{BEAT}し・{BEAT}よ・{BEAT}う・{BEAT}か・{BEAT}な{BEAT}！{n}やっぱりや～{BEAT}めた！！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0365.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しょうがないなあ～{BEAT}{n}もう{BEAT}ボクをあてにしてえ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0366.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなふうにいうんだ！！{WAIT}{n}そんなんじゃやだよお～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0367.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなんだあ～{BEAT}{n}べつにいいよ～{BEAT}だ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0368.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ～{BEAT}そう！！{BEAT}{n}まあおじさんもがんばって！！{BEAT}{n}じゃあね～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0369.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あっそう{BEAT}{n}じゃあね{BEAT}バイバイ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0370.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかあ～{BEAT}{n}ちぇっ{BEAT}つまんないの！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0371.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねえ！{BEAT}おじさん！！{n}ぼくワガママなんだ！！{BEAT}たぶん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0372.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかしてくれるよね？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0373.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "かんがえこむことないでしょ？{WAIT}{n}こどものためにっておもうのは{n}おとなとしてと～ぜんでしょ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0374.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あれ？{BEAT}あれあれ{BEAT}あれっ？{BEAT}{n}ボクなんかへんなこといった？{WAIT}{n}そんなことないよね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0375.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それほんとう？{WAIT}{n}おとなはウソつくときあるからな～{n}しょうこみせてよ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0376.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんウソでしょ？{BEAT}{n}わかってるんだそれぐらい！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0377.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいんだね？{BEAT}やった～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0378.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱりいらない！！{BEAT}{n}べつにいいんだもん！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0379.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんぼくのいうこと{n}きいてくれるよね！！{WAIT}{n}ジャーン{BEAT}まんじゅうがあるんだ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0380.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんどれかひとつたべて！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0381.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おいしいでしょ！{BEAT}ねっ？{n}よろこんでくれてよかったあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0382.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えっ{BEAT}マズイ？{BEAT}そんなはずないよ…{WAIT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{BEAT}{n}うっなにこれげ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0383.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ざんねんはずれ～！！{BEAT}{n}どくまんじゅうでした～{BEAT}{n}や～いひっかかった～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0384.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさん！！{WAIT}{n}よくきいてね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0385.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボクほんとはすっごいやつなんだぞ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0386.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よしじゃあおこづかいくれたら{n}けらいにしてあげる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0387.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だめだね～！！{BEAT}{n}ボクにやっつけられるんだ{WAIT}{n}え～い！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0388.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "エッヘン！！{BEAT}{n}わかればいいんだっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0389.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとにわかってるう～？{BEAT}{n}な～{BEAT}んかばかにしてるなあ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0390.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しんじてないなあ～！！{WAIT}{n}こうしてやるう～！！{BEAT}{n}エ～{BEAT}イ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0391.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだよう！！{n}おじさんとたたかってもいいんだぞう！{BEAT}{n}よ～{BEAT}しいくぞお～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0392.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんにわかるもんかっ！！{BEAT}{n}ふん！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0393.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなのわかんないだろっ！！{n}よ～{BEAT}しすごいかどうか{n}しょお～ぶしよう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0394.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさん！！{n}しかたないからさあ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0395.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボクのけらいにしてあげるよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0396.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ようし！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0397.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいの？{BEAT}{n}ほんとにいいの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0398.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにかんがえてるんだよう！！{BEAT}{n}いいからいいから！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0399.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱりいいよ！{WAIT}{n}おじさんけらいにしても{n}な～{BEAT}んかねえ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0400.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だめだってなんだよう{BEAT}{n}ちぇっえらそうにぃ…{n}もういいよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0401.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう{BEAT}じゃあおじさん{n}あくのてさきのやくやってね！！{WAIT}{n}よ～しやっつけてやる～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0402.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやなのお～{BEAT}{n}ちぇ～っ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0403.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ってことはおじさんはてきだ！！{WAIT}{n}やっつけてやる～{BEAT}え～い！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0404.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もういい！！{WAIT}{n}ボクおこったぞう～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0405.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え～いやっつけてやるう～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0406.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひっ！{BEAT}{n}おじさんちょうしにのってごめんなさい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0407.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もうおそいよ～{BEAT}だ！！{n}ハハハ！！{BEAT}{n}おじさんここでしぬんだ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0408.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいよまつよ！！{WAIT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}もういいよね？{BEAT}じゃあいくよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0409.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "待てないよ～！！{BEAT}{n}いいからもうあきらめてよ！{BEAT}{n}いくよ！！おじさん！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0410.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボクはなにもしないよ！{n}でもおじさんきっとだれかに{n}やられるよ{BEAT}きっとね！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0411.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だってボクアクマだもん！{BEAT}{n}おじさんやっつけるの{n}と～ぜんでしょ？{BEAT}いくよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0412.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいよ～！{BEAT}{n}できるもんならやってみなよ！{BEAT}{n}ほらど～{BEAT}ぞ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0413.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんなにいってるの？{BEAT}{n}そんなからだでどうするつもり？{BEAT}{n}あれ？{BEAT}きづいてなかった？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0414.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんのバカ～！！！{BEAT}{n}おじさんなんてさいて～だあ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0415.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボクもういくからどいてよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0416.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あれ？{BEAT}いいの？{BEAT}{n}じゃあねバイバイ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0417.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなの？{BEAT}いいの？{BEAT}{n}やっぱいかない！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0418.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しかたないなんて{n}いわなくてもいいでしょ{WAIT}{n}まぁいいや{BEAT}じゃあねおじさん！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0419.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しかたない～！！{n}なんだよそのいいかた{WAIT}{n}きめた！{BEAT}やっつけてからいこうっと！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0420.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあしょうがないよね{WAIT}{n}おじさんにはしんでもらうことにするよ！{n}あきらめてよおじさん！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0421.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあおじさんのこと{n}やっつけよっと！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0422.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやなの？{BEAT}{n}やっぱりボクからはなれたくないんだね{n}もっとすなおになりなよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0423.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんがいやだっていってもだめだよ～{n}ボクのかってでしょ{n}もういっちゃうもんね～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0424.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさん！！{BEAT}{n}と～{BEAT}と～{BEAT}ぼくをおこらせたな～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0425.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あやまるならいまのうちだよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0426.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それでいいんだよ！{WAIT}{n}おじさんのことゆるしてあげてもいいよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0427.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱりやだよ～！！{BEAT}{n}あやまったってぜ～{BEAT}ったい{BEAT}い{BEAT}や{BEAT}だ！！{WAIT}{n}よ～{BEAT}しやっつけちゃうぞ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0428.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとにわかってるの？？{WAIT}{n}あっ{BEAT}ちゃんとあやまってくれるんだ{WAIT}{n}よしそれならゆるしてあげるよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0429.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとにわかってるの？？{WAIT}{n}だったらもっとちゃんとあやまれよう{BEAT}{n}へ～んだ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0430.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あっそう…{BEAT}{n}もうおじさんなんかしらないやい！{n}ふん！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0431.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "できないならいいんだ！{WAIT}{n}じゃあねおじさん！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0432.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いや？{BEAT}{n}いまいやっていった？{WAIT}{n}うっ…{BEAT}うう{BEAT}エーン！！{BEAT}エーン！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0433.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "イヤならいいんだよ！{BEAT}{n}ボクにやっつけられるだけだから…{BEAT}{n}よおし！{BEAT}いっくぞ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0434.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8025}こうしょうすたーと{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0435.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあさあ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0436.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{requested_item}ちょーだいっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0437.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "な～んだもってないの～{n}しょうがないなあ{n}じゃあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0438.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "またでいいよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0439.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなんだけじゃいやだよう{WAIT}{n}どうしようかなほかのもらおうかな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0440.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しょうがないなあ{n}じゃあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0441.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もういいよ{n}ちぇっつまんないの",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0442.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんでもいいからちょうだいっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0443.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "……………{WAIT}{n}おじさんもしかして…{WAIT}{n}な～んにももってないの！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0443.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やーいビンボーにん！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0444.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それじゃあねえ…{BEAT}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0444.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほかにもなにかちょうだいっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0445.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "……もういいよ{n}ちぇっ{BEAT}せっかくきたいしたのに…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0446.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんのバカ～！！{BEAT}{n}コドモだとおもってバカにしたなっ！{WAIT}{n}やっつけてやるう～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0447.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えっへっへ～！！{BEAT}{n}おじさんありがとう{WAIT}{n}いっしょについてってあげるよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0447.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボク{race}{demon_name}{n}ぜったいいじめないでね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0448.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありがと！{n}バイバ～イ！！{WAIT}{n}またちょうだいね！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0449.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ～たのしかった{WAIT}{n}{offered_item}あげる！{n}だいじにしてね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0450.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありがと{n}バイバ～イ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0451.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんバカだね～！！{WAIT}{n}だってこうなるんだよ！！{BEAT}{n}えーい！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0452.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もうあきちゃったよ{n}おじさんつまんないし…{WAIT}{n}ボクかえる！{BEAT}じゃあね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0453.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボクおこったぞ！！{WAIT}{n}おじさんなんかやっつけてやる！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0454.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんひどいよ～！！{BEAT}{n}もうゆるさないぞ！{n}やっつけてやる～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0455.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひどいよひどいよ！！{WAIT}{n}こんどあったとき{n}やっつけてやるからなっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0456.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "渡す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0457.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ことわる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0458.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ん…{BEAT}な～んだ{BEAT}おじさん{n}いいものいっぱいもってるんだ{n}じゃああげない！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0459.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ん…{BEAT}いらなかった？{BEAT}{n}それならいいよあげないからね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0460.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんそうびしてないよ！{n}もしかしてきづいてなかった？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0461.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんそうびしてないよ！{n}もしかしてきづいてなかった？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0462.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんそうびしてないよ！{n}もしかしてきづいてなかった？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0463.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひどいよう…{BEAT}{n}ひどいよおじさん！！{BEAT}{n}ボクのトモダチを…ボクのトモダチを…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0464.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "きっとボクもころすんだね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0465.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "命を助ける",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0466.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "命をうばう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0467.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいの？{BEAT}ほんと？{BEAT}{n}やったー！！{WAIT}ありがとうおじさん！{BEAT}{n}ヘヘッついでにおこづかいちょうだい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0468.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいの？{BEAT}ほんと？{BEAT}{n}やったー！！{WAIT}{n}ヘヘッついでにおこづかいちょうだい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0469.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ははっ！！{n}おじさんやっぱりバカなおとなだね！{n}ボクにやっつけられるともしらないで！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0470.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボクはコドモだぞ～！！{BEAT}{n}ひどいよ～{BEAT}そんなの…{n}ゆるしてねっ！{BEAT}おはなししよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0471.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え～い！こうなったらやけくそだ～{WAIT}{n}いっくぞ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0472.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウッ…{BEAT}ボクここでしぬの…{WAIT}{n}そんなのイヤだ！{n}ダメでもともとだ～！！{BEAT}やってやる～！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0473.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "な～{BEAT}んだ{BEAT}おじさんか～{WAIT}{n}回復してあげるよ！{BEAT}{n}じゃあね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0474.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "な～{BEAT}んだ{BEAT}おじさんか～{WAIT}{n}まだウロウロしてるの？{n}よし！{offered_item}あげるよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0475.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "な～{BEAT}んだ{BEAT}おじさんか～{WAIT}{n}まだウロウロしてるの？{n}よし！{offered_item}あげるよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0476.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "な～{BEAT}んだ{BEAT}おじさんか～{WAIT}{n}ボクのトモダチによろしくね！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0477.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "満月だ満月だワーイワーイ！{BEAT}{n}よふかしだよふかしだワーイワーイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0478.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんおもしろいことしようか～！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0479.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺に何ができる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0480.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえに何ができる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0481.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何をするのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0482.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにもきにすることないよ！{WAIT}{n}とにかくいっしょにいこう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0482.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボク{race}{demon_name}{n}ぜったいいじめないでね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0483.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それもそうだね！{BEAT}{n}なんかおもしろいことは…{BEAT}{n}そうだおじさんやっつけよっと！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0484.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いっしょにいけばわかるよ！{BEAT}{n}ねっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0484.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボク{race}{demon_name}{n}ぜったいいじめないでね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0485.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだよ～！！{BEAT}{n}おじさんひどいよ！！{BEAT}{n}おこったぞ～！！やっつけてやる～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0486.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まだかんがえてないよ～！！{BEAT}{n}とにかくいっしょにいこう！！{BEAT}{n}ねっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0486.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボク{race}{demon_name}{n}ぜったいいじめないでね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0487.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなことどうでもいいじゃないか！{BEAT}{n}…そんなにしりたい？{BEAT}{n}じつはね…{BEAT}おじさんころすんだ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0488.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "満月だ満月だワーイワーイ！{BEAT}{n}よふかしだよふかしだワーイワーイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0489.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねえおじさん！{BEAT}ボクとあそんでよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0490.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにして遊ぶ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0491.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おちつけ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0492.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0493.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんでもいいよ！{n}とにかくいますぐじゃなきゃやだい！！{BEAT}{n}おじさんいこうよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0493.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボク{race}{demon_name}{n}はやくあそぼ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0494.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えっ？{BEAT}{n}そ{BEAT}れ{BEAT}は{BEAT}ね！{n}おじさんやっつけてあそぶんだ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0495.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなこといったって…{BEAT}{n}むりだよ！ボクこどもだもん！{n}おじさんあそぼ{BEAT}は{BEAT}や{BEAT}く{BEAT}！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0495.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボク{race}{demon_name}{n}はやくはやくう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0496.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなこといったって…{BEAT}{n}イヤならいいよ～！！{n}おじさんのことやっつけるもん！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0497.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやなの～！！{BEAT}{n}ねえいいでしょ～{BEAT}ねっ{BEAT}ねっ{WAIT}{n}やった～！！じゃあはやくいこ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0497.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボク{race}{demon_name}{n}ぜったいたのしいって！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0498.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねえいいでしょ～{BEAT}ねっ{BEAT}ねっ{WAIT}{n}いやなの～！！{BEAT}{n}ちっきしょうやっつけてやる～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0499.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "満月だ満月だワーイワーイ！{BEAT}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0500.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よふかしだよふかしだワーイワーイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0501.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "子供は早く寝ろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0502.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "静かにしろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0503.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "宿題は終わったのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0504.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだよ～もういいよ～{BEAT}ちぇっ…{n}ねえ！{BEAT}おじさんのいうこときくから{n}いっしょにつれてって！いいよね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0504.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボク{race}{demon_name}{n}よろしくねっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0505.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだよ～いいでしょ～すこしぐらい～{BEAT}{n}カタイこというなよな～{BEAT}{n}ちっくしょうやっつけてやる～{BEAT}え～い！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0506.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだね～！！{BEAT}ヘッヘッヘー！！{n}つれてってくれたらいうこときいてあげる{BEAT}{n}いいでしょ～{BEAT}ねっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0506.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいの？{BEAT}やったあ～！！{WAIT}{n}ボク{race}{demon_name}{n}よろしくねっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0507.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだよ～いいでしょ～すこしぐらい～{BEAT}{n}カタイこというなよな～{BEAT}{n}ちっくしょうやっつけてやる～{BEAT}え～い！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0508.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ざんねんでした～{BEAT}{n}アクマにしゅくだいなんてないもんね～{BEAT}{n}いろいろおしえてあげるよ{BEAT}ついておいで",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0508.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボク{race}{demon_name}{n}よろしくねっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0509.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだよ～いいでしょ～すこしぐらい～{BEAT}{n}カタイこというなよな～{BEAT}{n}ちっくしょうやっつけてやる～{BEAT}え～い！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0510.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "満月だ満月だワーイワーイ！{BEAT}{n}よふかしだよふかしだワーイワーイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0511.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとにきれいなお月さまだね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0512.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0513.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いつもと変わらない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0514.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "月に関心はない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0515.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ちぇっそんなもんかあ～{WAIT}{n}まあいいや！{BEAT}{n}おじさんべつのとこいこ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0515.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボク{race}{demon_name}{n}…でなにしてあそぶ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0516.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "な～{BEAT}んだそんなもんか～{WAIT}{n}つまんないよ～{n}おじさんやっつけちゃおうかな～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0517.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんにはわかんないんだね{WAIT}{n}いいよボクがおしえてあげる！{n}いっしょにいこ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0517.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボク{race}{demon_name}{n}…でなにしてあそぶ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0518.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え～{BEAT}わかんないの～{BEAT}{n}だめなおとなだな～{n}ボクやっつけちゃおうかな～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0519.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなの…{BEAT}{n}ボクもトクベツってわけじゃないんだ！{BEAT}{n}おじさんおもしろいトコつれてってよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0519.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボク{race}{demon_name}{n}…でどこいくの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0520.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなの…{BEAT}{n}わかってないな～{BEAT}{n}おじさんしんだほうがいいんじゃない？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0521.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あっ！{n}いいとこでおじさんにみつかった！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0522.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねえボクにもできることある？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0523.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔になってくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0524.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "別に…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0525.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいよ！{BEAT}{n}ボクがんばる！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0525.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボク{race}{demon_name}{n}おじさん！{n}ぜったいいじめないでね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0526.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だめだめそんなの！{n}なんでもじぶんでしなさいって{n}がっこうでならわなかった？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0527.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう…{BEAT}{n}でもボクいっしょにいきたい！{BEAT}{n}ねえいいでしょ！{BEAT}ねっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0527.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ボク{race}{demon_name}{n}ありがとうおじさん！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0528.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それならいいよ{n}じゃあね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0529.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あっ！{BEAT}おじさん！！{BEAT}{n}またあえたね！{WAIT}{n}おしごとがんばってね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0530.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あれ…{BEAT}おじさんは…{WAIT}{n}ぼくのことわすれてたなんて{n}いわせないぞっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0531.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よ～し{BEAT}やっつけちゃうぞ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0532.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あやまる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0533.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "命乞いする",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0534.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふふふ…{BEAT}{n}なさけないなあ～{BEAT}{n}もういいよバイバイ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0535.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだよ！{n}ゆるさないからね！{BEAT}{n}いっくぞ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0536.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…もういいよ{n}おじさんのそんなかお{n}みたくなかったな…じゃあね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0537.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なっさけな～い！{n}だめなおとなだね…{BEAT}{n}え～い！{BEAT}こうしてやるう～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0538.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あれおじさんは…{BEAT}{n}おぼえてるよボク…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0539.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにかおれいさせてよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0540.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔になれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0541.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにもいらない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0542.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなのはムリだよう～{BEAT}{n}でもそのかわりに{n}{offered_item}あげる！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0543.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなのは{BEAT}{n}ダ{BEAT}メ{BEAT}だ{BEAT}よ{BEAT}！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0544.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "な～{BEAT}んだいらないのかあ…{WAIT}{n}じゃあ{BEAT}これでどう？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0545.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなの…{n}ざんねんだね{WAIT}{n}せっかくまたあったのにね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0546.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それはだめだよ{BEAT}{n}ごめんねおじさん！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0547.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "な～んだ！{BEAT}{n}おじさんもうもてないじゃん{BEAT}{n}ざんねんでした！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0548.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まってよ～{BEAT}{n}ボクとはなしてよう～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0549.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにしてるの？{BEAT}{n}ボクはこっちだよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0550.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まってよ！{BEAT}{n}ボクのことがめあてじゃなかったの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0551.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにしてるのおじさん！{BEAT}{n}こっちこっち",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0552.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさん！{WAIT}{n}おこらないできいてね{WAIT}{n}ほんとはボクなかまになれないんだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0553.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさん！{BEAT}おこらないできいてね{WAIT}{n}どうしてもイヤなあくま{n}おじさんといっしょにいるんだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0554.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさん！{BEAT}おこらないできいてね{WAIT}{n}いまのおじさんじゃ{n}なかまになれないんだ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0555.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとうにごめんね…{WAIT}{n}{offered_item}あげる！{n}じゃあねおじさん！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0556.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとうにごめんね…{WAIT}{n}じゃあねおじさん！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0557.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさんのバカ～！！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_boy.m0558.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おじさん！{WAIT}{n}そこにいるのボクのともだち？{n}だいじにしてあげてね！",
+    "translation": "",
+    "note": ""
+  }
+]

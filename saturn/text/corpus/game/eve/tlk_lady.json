@@ -1,0 +1,4962 @@
+[
+  {
+    "id": "game.tlk_lady.m0000.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8025}ただいまメッセージさくせいちゅう{n}{OP:8022}COMINGSOON{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0001.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "MAKING{OP:8025}NOW{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0002.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なかまにいるんだ～ぜ～！{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0003.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オイラまんげつのよるはハイなんだ{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0004.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "このまえはありがとうなかまになるぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0005.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "このまえはよくもやっつけてやるぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0006.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "このまえはありがとうれいをするぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0007.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わりこみかいしなんかいうんだ～ぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0008.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "さいごのひとりになっちまったんだぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0009.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほほえむ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0010.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あいさつする",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0011.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "冷静をよそおう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0012.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "無視する",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0013.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "最高だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0014.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあまあだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0015.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いまいちだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0016.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "最低だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0017.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0018.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうかな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0019.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0020.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありがとう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0021.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0022.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0023.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなことない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0024.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0025.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0026.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よろこんで",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0027.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとう？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0028.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0029.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だめだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0030.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "OK",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0031.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0032.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0033.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんな暇はない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0034.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それで？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0035.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0036.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいだろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0037.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0038.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だめだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0039.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0040.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0041.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0042.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかな？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0043.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "関係ないだろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0044.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もちろんだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0045.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕方がない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0046.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんな訳がない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0047.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなことない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0048.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕方がない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0049.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうでもいい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0050.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よろこんで",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0051.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいだろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0052.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "悪魔とデートしろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0053.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0054.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "OK",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0055.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕方ないな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0056.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんな暇はない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0057.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それほどでもない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0058.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もちろんだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0059.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もっと強くなりたい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0060.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかな？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0061.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうでもない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0062.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ただの悪魔",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0063.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "美しい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0064.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "好きだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0065.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "OK",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0066.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だめだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0067.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0068.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0069.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかな？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0070.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "装備してない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0071.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "逃げる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0072.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "とどまる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0073.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "お願いします",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0074.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0075.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0076.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やめてくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0077.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0078.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "試してみるか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0079.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こちらこそたのむ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0080.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0081.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "遠慮しておく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0082.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0083.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "別に…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0084.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔になれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0085.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ここから消えろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0086.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "お願いします",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0087.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "たのむ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0088.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "結構だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0089.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "絶対にいやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0090.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだな…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0091.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "守ってやる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0092.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "欲しいものを言え",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0093.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0094.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえもな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0095.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "放っておいてくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0096.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それなら助けてくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0097.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0098.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0099.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなことはない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0100.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "生まれつきだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0101.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0102.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0103.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "悪いのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0104.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やめて下さい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0105.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "待ってくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0106.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "できるのか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0107.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "その前に俺がやる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0108.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0109.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕方がない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0110.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それはできない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0111.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0112.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ごめんなさい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0113.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0114.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それはできない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0115.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0116.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたのような人に{n}会いたかったのよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0117.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ごきげんいかが…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0118.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ステキな笑顔ね{n}戦っている人には見えないわ{WAIT}{n}突然でおどろくでしょうけど",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0119.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ{WAIT}{n}かわいいとこあるのね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0120.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ごきげんみたいね{WAIT}{n}そう{BEAT}{n}それはよかった…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0121.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よかった{n}返事してくれて…{WAIT}{n}いきなりだけどよく聞いてね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0122.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだ普通の答えなのね…{n}もっと楽しみにしてたのに",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0123.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ{WAIT}{n}ムリしちゃって…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0124.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうしてだまっているの…{n}もっとお話しましょうよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0125.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クールなひとなのね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0126.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんな冷たい態度とらないで…{n}イジワルな人ね…{WAIT}{n}でも",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0127.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうして無視するのよ{n}あなたのこと気になっていたのに…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0128.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今日はお天気も良くって{n}いい一日だったわね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0129.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたの気分はどう？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0130.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう{BEAT}よかったわね{WAIT}{n}あなたには{n}はっきり言うわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0131.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう{BEAT}それじゃあ{n}私とお話しましょう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0132.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなの{n}それじゃあすこしはかまってくれる？{n}あなたとっても優しそう…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0133.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それは残念ね…{WAIT}{n}こんなにお天気がいいのに…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0134.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあ私が{n}気分をまぎらわせてあげる{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0135.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうしてそんなに強がりを言うの{n}良くないならはっきり言えばいいのに…{WAIT}{n}でも",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0136.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "お気の毒ね…{n}それでそんなに無口になっているのね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0137.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあかまってもらえないのね{n}残念だわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0138.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あら…{n}あなた人間ね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0139.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どう元気？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0140.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よかった…元気そうで{WAIT}{n}その笑顔…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0141.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう{BEAT}それはよかった…{n}あまりおしゃべりな人じゃないのね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0142.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ{WAIT}{n}そう{BEAT}それはよかったわね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0143.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ{WAIT}{n}あいさつしてくれる元気はあるのね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0144.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにをそんなにかしこまっているの？{WAIT}{n}変な人…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0145.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなにかたくならなくってもいいのよ{WAIT}{n}私普通のオンナよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0146.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにかたくなってるの…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0147.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "すこしはかまってくれてもいいじゃない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0148.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんな目で見ないで…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0149.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今日はいいお天気だったけど{n}なんか気分はイマイチね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0150.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたはどう？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0151.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう{BEAT}よかったわね…{n}あなたとっても明るいのね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0152.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなの…{WAIT}{n}私はこんなふうなのに…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0153.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私よりはすこしマシみたいね…{WAIT}{n}それはよかった…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0154.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうやっていられるのなら{n}いいじゃない…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0155.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいわね…{n}私のことも元気づけて欲しいわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0156.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう{BEAT}私とおんなじね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0157.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうやって合わせてくれなくっても{n}いいのよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0158.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウソ{WAIT}そんなことないんでしょ{WAIT}{n}私には分かるのよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0159.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなの…{BEAT}{n}あなたもいろいろあるみたいね{WAIT}{n}でもうかない顔しちゃダメ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0160.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなことないんじゃない？{n}そうは見えないわよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0161.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだ{n}人間のオトコかあ…{WAIT}{n}まぁいいわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0162.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こんにちは",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0163.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そういう顔に弱いのよね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0164.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ{WAIT}{n}あんまりいいオトコじゃないのね…{WAIT}{n}ウソよそんな顔しないで",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0165.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにニヤニヤしてるのよ{n}変な人ね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0166.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう…{WAIT}それくらいのことは{n}してくれるのね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0167.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう…{WAIT}それくらいのことしか{n}言ってくれないのね…{WAIT}{n}やっぱり聞いていたとおりの人なのね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0168.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それだけ？{n}なんだつまんない…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0169.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ{WAIT}{n}緊張しているのね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0170.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなふうにカッコつけてもムダよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0171.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひどいわ…{WAIT}{n}私のことムシするなんて…{n}それならここで死ねばいいんだわ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0172.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "許せない…{n}せっかく話しかけてあげたのに…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0173.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こんなにいい天気だと{n}なんか逆にイヤになってくるわね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0174.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたの方はどうなの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0175.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あら？{BEAT}そうなの…{WAIT}{n}そんなふうに言われると{n}ちょっと興味出てくるわね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0176.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の気分は最悪なのに{n}それはないんじゃない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0177.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなの？{n}でもまだあなたの方がまだマシね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0178.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それは残念ね{n}なんとかしてくれるって{n}すこし期待してたのに…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0179.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたもそうなのね…{WAIT}{n}分かるわその気持ち…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0180.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕方のない人…{BEAT}私に合わせたりして…{BEAT}{n}そんなことでどうするの！{WAIT}{n}あなたって分からない人ね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0181.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたも私とおんなじなのね{n}でも気をとりなおして…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0182.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "バカね{n}「最低だ」なんて言ってるだけじゃ{n}あなたの状況は変わらないわよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0183.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そこがあなたの{n}いいところなのかしら？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0184.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ステキな人ね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0185.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ますます気に入ったわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0186.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私あなたのこと気に入ったわ…{WAIT}{n}でもね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0187.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ{WAIT}{n}調子に乗りやすいのね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0188.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんな照れなくってもいいのよ{n}フフフフフ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0189.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ{WAIT}{n}言ってみただけよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0190.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうよ{n}自分じゃ意識してないのね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0191.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいえどういたしまして{n}あなたの態度は変わらないのね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0192.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "素直に答えてくれるのね…{WAIT}{n}とっても楽しかったわ{n}またお話しましょうね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0193.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それにとっても強そう…{WAIT}{n}悪魔を倒してるんでしょう？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0194.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ずいぶんたのもしいのね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0195.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ステキ・{BEAT}・{BEAT}・{BEAT}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0196.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ{WAIT}{n}そんなことないって顔にかいてあるわよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0197.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなにテレなくっても{n}かまわないのに…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0198.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ{WAIT}{n}あなたまたけんそんなんかして…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0199.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたのそういうところ{n}特に好きよ…{WAIT}{n}でもね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0200.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あら{BEAT}そうなの{WAIT}{n}それ本当？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0201.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "人間のオトコのこと{n}私すごく興味あるの…{WAIT}{n}いいでしょ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0202.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もっと人間のこと話して…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0203.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "話してくれるのねうれしいわ…{WAIT}{n}あなたと会えてよかった…{WAIT}{n}でもね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0204.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうしたの？{n}そんな言い方して…{WAIT}{n}私と話してもつまらないのね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0205.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなつめたいこと言わないでよ{n}あなたも素直になってちょうだい…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0206.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう…{BEAT}そうなの{WAIT}{n}それでも私{n}あなたのことキライになれない…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0207.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なによその態度{n}私が悪魔だからなの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0208.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うれしいけど…{n}ちょっとうまくいきすぎね{n}あなたってなにかヘンだわ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0209.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うれしい…{BEAT}{n}そんなふうに言ってくれて…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0210.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかあなたのこと{n}すごく興味が出てきたわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0211.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねぇ{BEAT}あなたのこともっと知りたい…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0212.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もちろんよ{WAIT}{n}私のこと疑っているのね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0213.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうに決まってるじゃない{WAIT}{n}どうして分かってくれないの…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0214.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありがとう{WAIT}{n}あなたならそう言ってくれると{n}思ってたわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0215.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありがとう{WAIT}{n}それなら私のお願い聞いて",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0216.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなふうに言われると{n}ますます興味が出てきちゃう…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0217.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう{BEAT}それならいいの…{WAIT}{n}ここでお別れね…{n}さようなら",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0218.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あれ…{BEAT}{n}どこにいったのかしら？{WAIT}{n}私コンタクト落としたみたい…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0219.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "一緒に探してくれない？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0220.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありがとうじゃあお願いね{WAIT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{BEAT}あっ{BEAT}あった！{WAIT}{n}なにかお礼がしたいんだけど…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0221.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありがとうじゃあお願いね{WAIT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{BEAT}ないわ{BEAT}どこにも…{WAIT}{n}困っちゃうわね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0222.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあお願い{WAIT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{BEAT}動かないで！そう…{BEAT}そのまま{WAIT}{n}あったわ！{WAIT}よかった…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0223.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにそのイヤそうな顔…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0224.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なによ！その言い方{WAIT}{n}…無理にはたのまないわ{WAIT}{n}いいのよ一人で探すから…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0225.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう…{WAIT}やっぱりつめたいのね…{WAIT}{n}それでもいいわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0226.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう{BEAT}それならいいのよ{n}自分で探すから…{WAIT}{n}踏まないうちにどこかへ行きなさい！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0227.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう…{BEAT}もういいわ{WAIT}{n}あなたなんかにたのむんじゃなかった…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0228.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "冗談じゃない！{WAIT}なによ大声で{WAIT}{n}ならさっさと帰ってよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0229.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私ちょっと困ってるの…{WAIT}{n}実はねさっきまで一緒にいた{n}友達がいなくなっちゃって…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0230.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それで友達を探しているの…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0231.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なによその言い方{WAIT}{n}もしかして私のことイヤなの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0232.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あら探してくれるの？{BEAT}{n}あなたが？{BEAT}ほんとに？{BEAT}{n}そんな訳ないわよね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0233.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたの答えがどうであれ{n}私は協力するつもりよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0234.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私にはとっても大切な友達なの{WAIT}{n}あなたには大事な人はいないの？{BEAT}{n}ほんとに分かってないんだから…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0235.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "冷たい言い方するのね{BEAT}{n}私にとって大切な友達なのに…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0236.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まるで他人事って感じの返事ね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0237.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたは関心なさそうね…{WAIT}{n}そうよね…{BEAT}関係ないよね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0238.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もっとリラックスしてちょうだい{n}そうねぇ…{BEAT}じゃあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0239.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "剣なんかはずしてよ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0240.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ{WAIT}{n}そう{BEAT}それでいいのよ{n}カンタンでしょ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0241.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ{WAIT}おバカさんね{n}いつも素直なのが{n}いいって訳じゃないのよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0242.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おりこうさんね{WAIT}{n}ちゃんと言うことをきくのね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0243.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう{BEAT}それでいいのよ{WAIT}{n}あなたほんとうにいい子ね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0244.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕方ないわね{n}言うことをきかないいけない人…{WAIT}{n}でもまぁいいわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0245.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まぁ{BEAT}私に対して{n}そんな態度をとるわけ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0246.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}そこまで私に逆らった人は{n}いなかったわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0247.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいわあなたについていってあ{BEAT}げ{BEAT}る{WAIT}{n}あなたなら私のこと{n}なんとかできるかもしれないわね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0247.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の名前は{race}{demon_name}…{n}よろしくね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0248.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう{BEAT}そういうつもりなの{WAIT}{n}別にいいのよそれならそれで",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0249.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなことじゃ{n}せっかくの二人の時間が{n}だいなしになっちゃうじゃない…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0250.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それに銃なんかいらないでしょ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0251.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それでいいのよ…{BEAT}男らしいわ{WAIT}{n}私が見込んだオトコだけのことは{n}あるわね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0252.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "口だけじゃダメ！{n}男なら行動しなくちゃ！！{WAIT}{n}そんな気ないくせに…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0253.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "銃をはずすのは{n}カンベンしてあげるけど…{WAIT}{n}あなたほんとうにそう思ってるの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0254.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ{n}はずしちゃったわね…{WAIT}{n}これでかわいがってあげられるのね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0255.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうよ{BEAT}分からないの？{WAIT}{n}私の言うことがきけないのね…{WAIT}{n}やっぱりそういうことなのね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0256.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいからおとなしく言うとおりにして！{WAIT}{n}心配しなくてもいいのよ…{WAIT}{n}そう{BEAT}それでいいわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0257.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の言うことがきけないの…{WAIT}{n}そう{BEAT}分かったわ{n}じゃあここで死ぬのね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0258.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたは悪魔にもホンネで{n}話してくれるのね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0259.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいえ関係あるの{WAIT}{n}私のためにはずしてもらうわ{n}あなたに撃たれたくないもの…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0260.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたのこと{n}ひどい人だってみんな言ってるわ{WAIT}{n}悪魔を殺すんですってね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0261.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなこと…{BEAT}平気なの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0262.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "恐いわ…{WAIT}{n}そう言い切るなんて…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0263.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなの…{WAIT}{n}私も悪魔よ{n}私のこともそうするつもりなの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0264.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうよね…{WAIT}{n}あなたにとってはそれくらいのこと{n}大した問題じゃないのよね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0265.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあ私があなたのことを{n}殺すのも仕方がないことなのね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0266.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よかった…{BEAT}{n}あなたが私の思ってたとおりの人で{WAIT}{n}そんなはずないって信じてる…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0267.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんな言葉だけじゃ信じられないわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0268.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウソ！{WAIT}信じられない…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0269.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "自分よりも弱いものたちを{n}つぎつぎと倒してゆく…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0270.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなことが楽しいの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0271.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かったわ{WAIT}{n}ウソは言ってないようだから{n}信じてあげるわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0272.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいわ{BEAT}信じてあげる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0273.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "言葉ではなんとでも言えるわ…{n}あなたの誠意が見たいの…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0274.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なによその言い方！{n}もっと考えてから言いなさいよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0275.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう{BEAT}残念ね…{WAIT}{n}考え直してくれると思ったのに…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0276.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたの本心は分かっているわ{n}そんなこと言ってもムダよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0277.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとうにあきれた人ね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0278.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "普段どおりのあなたが見てみたい…{WAIT}{n}ねぇいいでしょ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0279.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "たまにはデートしてくれない？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0280.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんと？{BEAT}うれしい！{n}きっとね約束よ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0281.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとにいいの？{BEAT}{n}だったらうれしいんだけど…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0282.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なによ{BEAT}その言い方{WAIT}{n}それなら条件があるわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0283.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なによ{BEAT}その言い方{WAIT}{n}そんなにエラそうにするのなら{n}こちらからお断りよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0284.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった…{WAIT}{n}あなたがそういうのなら{n}私は従うわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0285.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうします！{WAIT}{n}もう話しかけないで！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0286.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう{BEAT}それは残念ね…{WAIT}{n}あなたのこと気に入ってるのに…{n}{offered_item}をあげる…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0287.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私だと思って大事にして…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0288.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう{BEAT}じゃあ仕方ないわね…{WAIT}{n}あきらめるわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0289.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなにカッコつけなくっても{n}いいのよ…{WAIT}{n}普段のあなたでいてくれるなら",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0290.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今夜あたりどう？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0291.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとに？{n}じゃあ今夜ね{WAIT}{n}楽しみにしてるわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0292.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うれしいわ{n}じゃあこっちに来て…{WAIT}{n}そう…{BEAT}恐がらなくていいのよ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0293.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフフフ{WAIT}{n}あなたは私のもの…{n}もう離さないわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0294.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "とにかくいいのね…{n}{offered_item}渡しておくわ{WAIT}{n}約束のしるしよ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0295.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なによその言い方{WAIT}{n}それならもういいわ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0296.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなのじゃあ{n}また今度にしましょうか…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0297.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それくらいのこと{n}してくれてもいいんじゃない？{WAIT}{n}ひどい人…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0298.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "きっと自分に自信があるからなのね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0299.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなた強いんでしょうね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0300.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ますます気に入ったわ…{n}私のこと好きにして…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0300.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の名前は{race}{demon_name}…{n}絶対に放さないでね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0301.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "またそんなこと言って…{BEAT}{n}私の前では素直になって！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0302.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあ私のこと守ってね{WAIT}{n}ずっとそばにいるから…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0302.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の名前は{race}{demon_name}…{n}絶対に放さないでね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0303.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあ試してみてもいいわね{WAIT}{n}私が相手をしてあげる！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0304.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたの願いかなえてあげたい…{WAIT}{n}{offered_item}を持っていって{n}きっと役に立つわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0305.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなの…{BEAT}{n}それなら興味はないわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0306.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたの心は分かっているわ{n}私なんかと話してくれるなんて",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0307.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとに優しいのね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0308.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうよ…{BEAT}{n}あなたに私のすべてを任せるわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0308.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の名前は{race}{demon_name}…{n}絶対に放さないでね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0309.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうよ気づいてないの？{WAIT}{n}フフフ{BEAT}{n}あなたらしいわね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0310.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたのそういう素直なところが{n}大好きよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0311.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ{WAIT}{n}おだてに乗りやすいなんて単純ね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0312.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねぇあなたに{n}確かめておきたいことがあるの…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0313.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私のことどう思う？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0314.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう…{BEAT}じゃあいいわ…{BEAT}{n}ビジネスライクにいきましょう{WAIT}{n}私にも条件があるの",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0315.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうよね…{BEAT}{n}あなたにとって私なんて…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0316.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふん！{WAIT}{n}そんなふうに思ってたのね…{BEAT}{n}がっかりしたわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0317.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう言われると私弱いのよね…{WAIT}{n}でもすぐに従うって訳じゃないのよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0318.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありがとう{BEAT}{n}その言葉とってもうれしい…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0319.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だったら私の言うこときいて…{WAIT}{n}こっちに来て…{BEAT}私の目を見て…{BEAT}{n}そう…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0320.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ{BEAT}これで私のもの…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0321.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だったら私の言うこときいて…{WAIT}{n}こっちに来て…{BEAT}私の目を見て…{BEAT}{n}そう…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0322.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どう？ドキドキしたでしょ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0323.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねぇ聞いて！{n}あなたのお手伝いがしたいの…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0324.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "彼女にしてくれてもいいでしょ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0325.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいの？{BEAT}うれしい…{WAIT}{n}もうあなたから離れない…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0325.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の名前は{race}{demon_name}…{n}あなたの好きにして…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0326.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありがとう{WAIT}{n}ずっとあなたのこと想ってるわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0327.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう{BEAT}残念ね…{n}それなら仕方ないわ…{n}さようなら…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0328.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かったわ{n}悪魔は相手にできないってことね{n}そんな人だとは思わなかったわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0329.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう{BEAT}分かったわ{WAIT}{n}毒を飲んで死んでやる！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0330.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうよく分かったわ…{WAIT}{n}後悔してもしらないから！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0331.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私…{BEAT}{n}あなたのこと知りたいのよ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0332.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "防具なんて邪魔なだけでしょ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0333.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ{WAIT}{n}はずしてくれるのね…{WAIT}{n}それでいいのよ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0334.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ{WAIT}{n}はずしてくれたのね…{WAIT}{n}私は何もしない…{BEAT}好きにして…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0335.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう思うんなら{n}とらなくってもいいわ{WAIT}{n}でも私との話もここまでよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0336.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうよいいからとりなさい！{WAIT}{n}フフフ{BEAT}{n}これで私とおんなじね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0337.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウソつき！{n}ほんとにひどい人！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0338.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あきれた…{BEAT}ほんとに装備してないのね…{WAIT}{n}ちょうどいいわここで死になさい！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0339.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたの好きにさせてあ{BEAT}げ{BEAT}る{WAIT}{n}もし望むなら",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0340.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "逃げてもいいのよ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0341.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "さよなら…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0342.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "逃がしてあげるはずないじゃない{BEAT}{n}残念でした",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0343.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いじめてあ{BEAT}げ{BEAT}る{BEAT}{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0344.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう…{BEAT}ありがとう…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0345.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたのことひどい人だと思ってるわ…{WAIT}{n}違うって言うのなら",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0346.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "たまにはやられてみない？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0347.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あら！？{BEAT}{n}そんなにひどい人じゃないみたいね{n}今の一言で分かったわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0348.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいのねいくわよ！{WAIT}{n}えいっ！{WAIT}{n}ピシッ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0349.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "これでカンベンしてあげる！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0350.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいのね？{BEAT}{n}じゃあいくわよ！{WAIT}{n}…{BEAT}やっぱり私にはできないわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0351.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいのね？{BEAT}{n}じゃあいくわよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0352.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もっと男らしくしなさい！{WAIT}{n}がっかりさせないでよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0353.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなこと言ってもムダよ…{WAIT}{n}もう決めているの{BEAT}{n}あなたのこと殺すって！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0354.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そこまで言うのなら{n}考えてあげてもいいわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0355.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}いいわ…許してあげる！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0356.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいかげんにしなさい！{WAIT}{n}そういうところがいけないのよ！！{WAIT}{n}私が直してあげるわ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0357.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたのこといろいろ聞いているわ…{BEAT}{n}おもしろ半分に悪魔たちを{n}つかまえるんですって！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0358.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "別の楽しみかたもあるでしょう…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0359.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かってるなら{n}なぜあなたは自分を変えてくれないの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0360.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かっていてやっているのね…{n}いいわみんなにかわって{n}私がオシオキしてあげる！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0361.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "試すって…別の楽しみを？{n}うーん{BEAT}そうね…{BEAT}{n}試してみようかしら…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0362.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やめてよね！{n}そうやってごまかすのは{WAIT}{n}絶対にイヤよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0363.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私…{WAIT}{n}決めたわ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0364.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたのそばにいさせてちょうだい！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0365.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うれしい！{BEAT}{n}約束するずっとそばにいるって！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0365.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の名前は{race}{demon_name}…{n}絶対に放さないでね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0366.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうねぇ…{BEAT}{n}やっぱりいざとなると迷うわね…{n}どうしようかなあ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0367.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よかったそう言ってくれて…{WAIT}{n}でもね「タダ」って訳にもいかないのよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0368.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "本当に私の気持ち分かっているの？{BEAT}{n}そんな言い方じゃね…{WAIT}{n}やっぱりあなたのこと信じられない！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0369.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなこと言わないで！{WAIT}{n}…って言ってもムダなのかしら…？{BEAT}{n}きっとそうよね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0370.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう…{BEAT}仕方ない…{BEAT}{n}あきらめるわ{WAIT}{n}さよなら楽しかった…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0371.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう分かったわ{BEAT}{n}ムリにとは言わないわ…{WAIT}{n}いろいろありがとう{BEAT}さよなら！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0372.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう…{BEAT}そうやって平気でキズつけるのね…{WAIT}{n}分かったわ！{BEAT}{BEAT}{n}さよなら！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0373.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私あなたのために何かしたい…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0374.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私にできることがあれば言って！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0375.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう{BEAT}欲のない人ね{n}{offered_item}をあげる！{n}がんばってね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0376.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうそれならいいの…{BEAT}{n}がんばってね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0377.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…いいわ分かった{WAIT}{n}私のこと大切にして…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0377.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の名前は{race}{demon_name}…{n}絶対に放さないでね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0378.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ダメ{WAIT}それだけはダメ{WAIT}{n}私にはできない…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0379.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたがそう言うなら私は従うわ…{WAIT}{n}さよなら楽しかった…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0380.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それだけはイヤよ！！{WAIT}{n}あなたから離れたくないの…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0381.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたが頭をさげるのなら",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0382.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "助けてあげてもいいわよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0383.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうしようかな…{BEAT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0384.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうしようかな…{BEAT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{n}やっぱりやめた！{WAIT}ごめんなさい！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0385.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕方ないわね{n}じゃあ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0386.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんな態度でいいの？{WAIT}{n}そう…{BEAT}{n}ふ～ん…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0387.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう…{BEAT}{n}そうなの{BEAT}{BEAT}{n}なら無理にとは言わないわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0388.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう…{BEAT}{n}まあせいぜいがんばってちょうだい{WAIT}{n}じゃあね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0389.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう{BEAT}分かったわ{n}さよなら！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0390.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう…{BEAT}{n}あなたの気持ちよ～{BEAT}く分かりました！{WAIT}{n}じゃあね！ほんとひとの気も知らないで",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0391.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねえ…{BEAT}{n}あなた私のこと大切にしてくれると{n}思うけど…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0392.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私のために何かしてくれるわよね？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0393.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうやって考え込まないと{n}答えられないのね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0394.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウソでもいいから{n}もっとマシなこと言ってよ！{WAIT}{n}私のことちっとも分かってないっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0395.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それほんとう？{WAIT}{n}なら証明して！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0396.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウソでしょ？{BEAT}{n}信じられないわ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0397.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいの？{BEAT}やったあ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0398.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "言ってもどうせくれないんでしょ{WAIT}{n}それじゃあねぇ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0399.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もういいわ{n}よく分かったわ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0400.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "とにかく気をつけることね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0401.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "くれぐれも無理をしないことね…{BEAT}{n}{offered_item}でも持って行って！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0402.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔にも注意するのよ！{WAIT}{n}いい？{BEAT}これは忠告よ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0403.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありがと{BEAT}{n}でも心配はいらないわ！{WAIT}{n}じゃあねさよなら！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0404.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なによその言い方！{n}ひとがせっかく忠告してるっていうのに",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0405.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう分かったわ！{WAIT}{n}仲魔にまで放っておかれないように{n}気をつけることね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0406.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何よそれ？{BEAT}{n}私が直してあげなきゃダメみたいね{WAIT}{n}いいわかかってらっしゃい！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0407.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたのこと分かったような気がする…{WAIT}{n}私の言うことよく聞いて",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0408.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今のままのあなただとかなり危険よ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0409.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあねぇ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0410.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうねぇ…{WAIT}{n}それはできないわ！{BEAT}ごめんなさい！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0411.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "さすがに自分のことは分かるのね{BEAT}{n}いいわ助けてあげる{WAIT}{n}ただし条件次第よ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0412.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かってるのなら{n}自分の力で何とかしなきゃ{BEAT}…ねっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0413.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうよ！{BEAT}{n}自分の状態に気をつけて…！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0414.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かってないのね…{BEAT}{n}この場所は悪魔のものなのよ！{n}その意味をよく考えて！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0415.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう言っていられるのも{n}今のうちだけ…{WAIT}{n}あなたにもすぐ分かる…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0416.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうやって強がっていればいいじゃない{WAIT}{n}好きにすれば！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0417.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたって人は{n}ずっとそんな調子なの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0418.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたってほんと調子いいんだから…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0419.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなの？{n}そうは見えないけど…{WAIT}{n}あなたって見た目と中身全然違うのね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0420.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウソ？{n}あなたどこか変よ{WAIT}{n}うまく言えないけど…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0421.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ{BEAT}いいわ気に入ったわ！！{WAIT}{n}条件次第だけどイイコトしてあげる！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0422.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もう！{BEAT}{n}自分のことも分かってないんだから…{WAIT}{n}もっとしっかりしてよね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0423.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ{BEAT}{n}よく分かってるんじゃない{WAIT}{n}あなたのこと気に入ったわ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0424.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "自分で分かってるのにその調子なの？{WAIT}{n}私が直してあげるしかないわね{WAIT}{n}痛いけどガマンしてね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0425.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なによそれ！{BEAT}{n}その言い方！！{WAIT}{n}開き直らないでよね{BEAT}まったく！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0426.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ええ悪いわ！{BEAT}{n}そういう男って許せないのよね！{WAIT}{n}私がこらしめてやるっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0427.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もういい！{BEAT}{n}あなたなんか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0428.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の手で殺してやる！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0429.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そこまで言うのなら考えてあげる！{BEAT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}いいわ許してあげる{BEAT}今度だけはね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0430.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今さら遅いのよね{n}覚悟しなさい！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0431.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいわよ待つぐらいわね！{WAIT}{n}でもあなたどうせ死ぬのよ…{BEAT}{n}フフフフフ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0432.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "待てないわ！{BEAT}{n}いいからもうあきらめなさい！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0433.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うっ…{BEAT}私にはできない…{WAIT}{n}さよなら{n}もう私の前に現れないで！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0434.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "できるわよ！{BEAT}{n}私もう決めたんだから…{WAIT}{n}えーい！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0435.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいわよ！{BEAT}{n}やってみなさいよ！{BEAT}ほらっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0436.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "残念でした！{BEAT}気づいてなかったの？{BEAT}{n}あなたはもうそんなことできる{n}状態じゃないのよ！{BEAT}{BEAT}フフフ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0437.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとあなたって最低ね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0438.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいからどいてちょうだい！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0439.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あら？{BEAT}やけに素直ね…{BEAT}{n}少し見直したわ{WAIT}{n}もうすこしいてあげる…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0440.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうそれでいいのよ！{n}今度はもっとよく考えて話すことね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0441.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…………{n}まぁいいわ{WAIT}{n}さよならもう顔も見たくないわ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0442.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なによ！その言い方は！{WAIT}{n}せっかく許してあげようと思ったのに…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0443.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱりあなたを倒してから{n}行くことにするわ！{BEAT}{n}いいわね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0444.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうそれなら仕方ないわ{WAIT}{n}倒してでも私行くから！{BEAT}{n}覚悟しなさい！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0445.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう{BEAT}それなら{n}ここで死になさい！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0446.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えっ？{BEAT}今なんて言ったの？{BEAT}{n}やっぱり私のこと想っていてくれたのね{WAIT}{n}あなたのこと見直したわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0447.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたが決めることじゃないのよ！{BEAT}{n}私もう決めたの！{BEAT}{n}もうあなたの顔なんて見たくない…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0448.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もう一度だけチャンスをあげるわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0449.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あやまるなら今のうちよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0450.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それでいいのよ{n}それで…{WAIT}{n}いいわ許してあげる！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0451.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなあやまり方じゃダメ！{n}態度で示してもらうわ{n}じっとしてなさい！{BEAT}行くわよ！それっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0452.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとうに分かっているの？{n}信じていいのね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0453.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとう？{n}口だけでしょどうせ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0454.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やってみなさいよ！{WAIT}{n}私をおこらせて命を失ってもいいの？{WAIT}{n}…ふん！{BEAT}もういいわさよなら…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0455.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "できないならムリにとは言わないわ！{WAIT}{n}ただ死んでもらうだけのことだから…{WAIT}{n}いくわよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0456.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いや？{BEAT}なに言ってるの？{BEAT}{n}自分の状況が分かってるの？{BEAT}{n}…ほんとにあきれた人ね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0457.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "イヤならいいのよ！{BEAT}{n}おとなしく死ねばいいんだから…{WAIT}{n}そろそろ行くわよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0458.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8025}こうしょうすたーと{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0459.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0460.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{requested_item}ちょうだい…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0461.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだ…持ってないじゃない{n}仕方ないわね…{n}じゃあねぇ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0462.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "また今度にしましょうか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0463.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "せっかくだけどそれぐらいじゃね…{WAIT}{n}どうしようかな…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0464.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕方ないわね…{n}それじゃあ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0465.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もういいわ{n}ほんとがっかりしたわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0466.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "とにかく何かちょうだい…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0467.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "……………{WAIT}{n}なに黙ってるの？{WAIT}{n}なんだなにも持ってないじゃない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0468.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それじゃあねぇ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0468.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほかにもなにかちょうだい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0469.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "……もういいわ{n}あなたに期待した私が馬鹿だったわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0470.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "馬鹿にしないでよ！{n}ほんとあなたって許せない…{WAIT}{n}私の手で倒してあげるわ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0471.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "これならいいわ{n}いっしょに行きましょ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0471.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の名前は{race}{demon_name}…{n}あなたの好きにしていいのよ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0472.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありがとう{n}また会えるのを楽しみにしてるわ{WAIT}{n}じゃあね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0473.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なかなか楽しかったわ{n}お礼に{offered_item}をあげる{n}私だと思って大事にしてね{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0474.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうもありがとう{n}じゃあね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0475.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフおバカさんね{n}こうなる運命だったのにね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0476.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "これ以上{n}あなたとお話しすることはないわ…{WAIT}{n}さよなら",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0477.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "かかってきなさいよ！{WAIT}{n}まああなたにそんな勇気があるとは{n}思えないけど",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0478.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひどい人{n}もう許せない{WAIT}死んでもらうわ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0479.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こんど会ったときは{n}今みたいにはいかないわよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0480.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "渡す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0481.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ことわる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0482.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありがとう{n}また会えるのを楽しみにしてるわ{WAIT}{n}じゃあね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0483.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いっしょに連れてって！{n}いやだって言ってもついて行くから！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0484.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}あげる！{n}私の気持ちよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0485.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ごめんなさい{n}許して…{BEAT}ねっ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0486.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私のこと必要ないようね…{n}また会える日を楽しみにしてるわ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0487.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔にいれて{BEAT}ねっ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0488.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…なんてね{n}あれ本気にした？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0489.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "また会える日を楽しみにしてるわ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0490.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔にいれて{BEAT}ねっ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0491.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたにかかっているのよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0492.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ん…{BEAT}なんだ{n}もう持てないみたいね{n}残念だったわね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0493.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ん…{BEAT}もしかしていらなかった？{n}残念ね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0494.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あれ？装備してないんじゃない{n}それじゃ仕方ないわね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0495.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あれ？装備してないんじゃない{n}それじゃ仕方ないわね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0496.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「そうかな」じゃないわよ！{n}でも…{BEAT}あれ？装備してないんじゃない{n}それじゃ仕方ないわね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0497.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あれ？装備してないんじゃない{n}それじゃ仕方ないわね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0498.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「そうかな」じゃないわよ！{n}でも…{BEAT}あれ？装備してないんじゃない{n}それじゃ仕方ないわね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0499.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひどいわ…{BEAT}{n}私のことも殺すつもりなの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0500.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "でももういい…{BEAT}あなたの自由にして…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0501.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "命を助ける",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0502.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "命をうばう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0503.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありがとう…{n}あなたにお礼がしたいの…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0504.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありがとう…{n}お礼にあなたのお話聞くわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0505.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたってどんなときでも人がいいのね{WAIT}{n}でも知ってる？{BEAT}{n}それが不幸をまねくときもあるのよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0506.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そっ…{BEAT}そんな！{BEAT}ひどい人ね！！{BEAT}{n}ねえ…{BEAT}考え直して{BEAT}お願い…{n}あなたの話に応じるわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0507.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…{BEAT}もういい分かったわ！{BEAT}{n}あなたって最低！！{BEAT}{n}私戦うわ！！かかってきなさいよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0508.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう…{BEAT}分かったわ…{WAIT}{n}あなたに命をうばわれるくらいなら{n}あなたを殺して私も死んでやる！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0509.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あらあなただったの…{BEAT}{n}元気なさそうね…{BEAT}{n}これで元気を出して…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0510.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あらあなただったの…{BEAT}{n}{offered_item}あげる{n}持っていって！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0511.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あらあなただったの…{BEAT}{n}{offered_item}あげる{n}あなたに使って欲しいの…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0512.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あらあなただったの…{BEAT}{n}どう？私の仲魔は元気？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0513.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとにキレイな月ね…{n}こんな夜は",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0514.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何が起こってもおかしくないわね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0515.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いつ起こるのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0516.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どこで起こるのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0517.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何が起こるのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0518.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私には分からない…{n}でも確かめてみたいわ{WAIT}{n}ねえ！{BEAT}私を連れてって！いいでしょ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0518.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の名前は{race}{demon_name}…{n}絶対に放さないでね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0519.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ…分からないの…{WAIT}{n}でも{BEAT}すぐに分かるわよ{n}だってあなたが死ぬのは今すぐだもの",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0520.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私には分からない…{n}でも確かめてみたいわ{WAIT}{n}ねえ！{BEAT}私を連れてって！いいでしょ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0520.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の名前は{race}{demon_name}…{n}絶対に放さないでね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0521.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ…分からないの…{WAIT}{n}あなたが死ぬのよここでね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0522.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私には分からない…{n}でも確かめてみたいわ{WAIT}{n}ねえ！{BEAT}私を連れてって！いいでしょ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0522.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の名前は{race}{demon_name}…{n}絶対に放さないでね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0523.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ…分からないの…{WAIT}{n}それはね…{BEAT}{n}あなたの死よ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0524.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ああ…{BEAT}{n}やっと会えたのね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0525.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こんなステキな出会いを想像していたの…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0526.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0527.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どこがだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0528.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうでもない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0529.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうよ…{n}あなたをずっと待っていたの…{n}私を連れて行って{BEAT}お願い！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0529.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の名前は{race}{demon_name}…{n}絶対に放さないでね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0530.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あら…{BEAT}あなたは違ったのね…{BEAT}{n}残念だわ…{WAIT}{n}じゃあ死ぬしかないわね…{BEAT}フフフ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0531.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたがどう思っていようと{n}私はいいの！{n}ずっとそばにいさせて！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0531.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の名前は{race}{demon_name}…{n}絶対に放さないでね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0532.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あら…{BEAT}あなたはそう思ってないのね…{BEAT}{n}残念だわ…{WAIT}{n}じゃあ死ぬしかないわね…{BEAT}フフフ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0533.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなことない！{n}一緒にいればあなたにも分かる…{n}もうあなたから離れない…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0533.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の名前は{race}{demon_name}…{n}絶対に放さないでね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0534.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたは私の思い込みだって言うの？{WAIT}{n}フフフ…{BEAT}{n}あなたには死んでもらうわ！{BEAT}フフフ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0535.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ…{n}今夜の月はほんとにキレイね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0536.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうデートしない？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0537.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいだろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0538.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0539.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それはちょっと…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0540.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありがとう…{n}じゃあはやく行きましょ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0540.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の名前は{race}{demon_name}…{n}あなたの好きにして…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0541.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なによ！そんな言い方じゃイヤ！！{BEAT}{n}ゲンメツしたわ！！{n}死神とでもデートすれば！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0542.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありがとう…{n}じゃあはやく行きましょ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0542.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の名前は{race}{demon_name}…{n}あなたの好きにして…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0543.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なによ！その言い方！！{BEAT}{n}エラそうに…{n}地獄におちなさい！あなたなんかキライ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0544.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうして…{BEAT}{n}とにかく行くわよ！！{n}はやくしなさい！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0544.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の名前は{race}{demon_name}…{n}あなたの好きにしていいのよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0545.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なによ！ヒドイ…{BEAT}{n}私が悪魔なのがいけないの？{WAIT}{n}信じられない{BEAT}殺してやる！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0546.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとにキレイな月ね…{n}こんな夜は",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0547.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アタシいつもよりキレイでしょ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0548.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0549.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いつもと変わらない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0550.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえに関心はない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0551.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「まあな」か…{WAIT}{n}フフフ…{BEAT}まあいいわ{n}あなたと行ってあげる…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0551.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の名前は{race}{demon_name}…{n}あなたの好きにしていいのよ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0552.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なによその言い方！{BEAT}{n}私のこと分かってくれない人は{n}ここで死ぬのよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0553.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えっ？{BEAT}{n}いつも変わらずキレイですって！{WAIT}{n}うれしいわ{BEAT}私のこと連れて行って！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0553.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の名前は{race}{demon_name}…{n}あなたの好きにしていいのよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0554.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なによその言い方！{BEAT}{n}私のこと分かってくれない人は{n}ここで死ぬのよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0555.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "お願いそんなこと言わないで！{BEAT}{n}私のこと連れて行って！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0555.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の名前は{race}{demon_name}…{n}絶対に離れないから…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0556.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なによその言い方！{BEAT}{n}悪魔だからってきらってるのね…{BEAT}{n}ひどい人！{BEAT}死ねばいいんだわ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0557.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたは以前会った人ね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0558.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私を探してくれていたの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0559.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0560.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "別に…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0561.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいわ…{BEAT}{n}私あなたと一緒に行く！{BEAT}{n}大切にしてね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0561.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の名前は{race}{demon_name}…{n}あなたの好きにして…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0562.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そううれしいわ…{n}どうもありがとう{WAIT}{n}じゃあね{BEAT}また会いましょうね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0563.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなの…{BEAT}でもいいわ…{BEAT}{n}私あなたと一緒に行く！{BEAT}{n}もう決めたの！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0563.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私の名前は{race}{demon_name}…{n}あなたの好きにして…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0564.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなの…{BEAT}{n}なんだ…{BEAT}期待したのに…{BEAT}{n}残念ね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0565.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたは以前会った人ね…{BEAT}{n}元気でがんばってね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0566.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あれ…{BEAT}あなたは！{n}またヒドイことをしてるのね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0567.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "許せない！私がオシオキしてあげるわ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0568.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あやまる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0569.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "命乞いする",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0570.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフッ…{BEAT}情けない人ね…{BEAT}{n}こんなくだらない人{n}かまっていられないわ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0571.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ぜったいに許せない！{BEAT}{n}じっとしてなさいいくわよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0572.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕方ないわね…{WAIT}{n}いいわどこへでも行きなさい{n}さあはやく！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0573.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフ…{BEAT}そんなことしてもムダよ！{WAIT}{n}あなたはこうなるのよ…{BEAT}フフフ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0574.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あらあなたは…{BEAT}{n}うれしい！{BEAT}約束覚えてくれていたのね{WAIT}{n}あなたのこと忘れられなかったのよ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0575.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何かお礼がしたいんだけど…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0576.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔になれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0577.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにもいらない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0578.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それはできないわ…{BEAT}{n}かわりって訳じゃないけど{n}{offered_item}をあげる！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0579.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ごめんなさい{n}それだけはできないの…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0580.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだほんとにそれでいいの？{WAIT}{n}それなら回復してあげる{n}これでいいでしょ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0581.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなの…{n}それは残念ね…{WAIT}{n}せっかくまた会ったのに…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0582.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それはできないの{BEAT}{n}ごめんなさい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0583.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あら…{BEAT}もう持てないみたい…{BEAT}{n}残念だったわね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0584.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "待って{BEAT}{n}私とお話しましょ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0585.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何をしてるの{BEAT}{n}あなたの目当てはこっちよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0586.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "待って{BEAT}{n}私はここよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0587.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何してるの{BEAT}{n}あれ…私に気付いてなかったのね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0588.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "気をもたせておいて悪いんだけど…{n}実は私仲魔になれないの…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0589.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…ごめんなさい{BEAT}{n}いろいろしてもらって悪いんだけど",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0589.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたの仲魔{n}私のことなんだかきらってるみたい…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0590.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…ごめんなさい{BEAT}{n}いろいろしてもらって悪いんだけど…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0590.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱりあなたって{n}私とはつりあわないみたいね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0591.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "せっかくだけど失礼するわ{WAIT}{n}かわりって訳じゃないけど{n}{offered_item}持っていって！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0592.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "せっかくだけど失礼するわ{WAIT}{n}じゃあね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0593.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなのイヤ！{n}絶対にイヤ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_lady.m0594.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "待って{BEAT}私はここよ！{WAIT}{n}…なんだ{n}もう私の友達が一緒にいるのね…",
+    "translation": "",
+    "note": ""
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "game.load_static.o00b020",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "このままゲームを開始した場合記録を保存することができません。{n}それでもゲームを開始する場合はスタートボタンを押して下さい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.load_static.o00b0c0",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "このゲームの記録を、保存するためには、129の空き容量が必要です。{n}セガサターン本体の保存データ管理画面で他ゲームの記録を消す、またはカートリッジRAMにコピーしてからゲームを再スタートして下さい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.load_static.o00b1be",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "容量不足のためセーブできません{n}セーブには129ブロックが必要です",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.load_static.o00b1fe",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "ファイルを正しくロードできませんでした。{n}やり直してください。",
+    "translation": "",
+    "note": ""
+  }
+]

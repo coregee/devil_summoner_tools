@@ -1,0 +1,114 @@
+[
+  {
+    "id": "game.save_static.o051b2c",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "自宅",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.save_static.o051b30",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "探偵事務所",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.save_static.o051b3a",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "朝日区",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.save_static.o051b42",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "臨海公園",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.save_static.o051b4a",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "笠置山",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.save_static.o051b52",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "矢来区",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.save_static.o051b5a",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "中央区",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.save_static.o051b62",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "雲雀ヶ丘",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.save_static.o050760",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "未使用",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.save_static.o0508a4",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "記録の更新をしますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.save_static.o0508c6",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "ゲームを終了しますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.save_static.o050658",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "正しく記録を保存できませんでした。{n}やり直してください。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.save_static.o05076a",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "容量不足のためセーブできません{n}セーブには129ブロックが必要です",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.save_static.o0508dc",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "記録を保存できません。{n}記録には129ブロック{n}の容量が必要です。",
+    "translation": "",
+    "note": ""
+  }
+]

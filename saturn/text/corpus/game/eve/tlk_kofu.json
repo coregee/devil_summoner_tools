@@ -1,0 +1,4586 @@
+[
+  {
+    "id": "game.tlk_kofu.m0000.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8025}ただいまメッセージさくせいちゅう{n}{OP:8022}COMINGSOON{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0001.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "MAKING{OP:8025}NOW{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0002.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なかまにいるんだ～ぜ～！{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0003.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オイラまんげつのよるはハイなんだ{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0004.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "このまえはありがとうなかまになるぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0005.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "このまえはよくもやっつけてやるぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0006.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "このまえはありがとうれいをするぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0007.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わりこみかいしなんかいうんだ～ぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0008.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "さいごのひとりになっちまったんだぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0009.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔になれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0010.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何かよこせ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0011.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "話がある",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0012.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "立ち去れ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0013.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "修行のため",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0014.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕事だから",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0015.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "街の平和のため",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0016.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "街の人々のため",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0017.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{kyouji_name}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0018.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{codename}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0019.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだ「誠」だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0020.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いや「愛」だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0021.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "気にしていない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0022.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "その通り",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0023.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "悪魔に何が分かる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0024.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなもの必要ない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0025.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0026.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ああ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0027.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいえ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0028.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かります",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0029.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "誰に言ってるんだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0030.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "探偵",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0031.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "悪魔召喚師",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0032.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "言う必要はない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0033.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もちろんだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0034.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕方がない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0035.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "転職したい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0036.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "剣で勝負",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0037.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "銃で勝負",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0038.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "口ゲンカで勝負",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0039.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "組手で勝負",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0040.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「表」が出る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0041.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「裏」が出る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0042.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "現金",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0043.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "マグネタイト",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0044.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アイテム",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0045.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何もいらない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0046.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…………",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0047.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "馬鹿にするな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0048.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "深く考えていない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0049.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "悪魔が原因だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0050.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "人間が原因だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0051.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "調査中だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0052.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それがどうした",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0053.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "教えてくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0054.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "避ける",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0055.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "受けとめる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0056.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "切り返す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0057.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "座禅を教わる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0058.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ナンパを教わる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0059.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "剣術を教わる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0060.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "家族はいない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0061.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうあって欲しい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0062.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "関係ないね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0063.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "興味はない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0064.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなことはない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0065.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "一緒に来い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0066.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "自分で考えろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0067.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "無茶を言うな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0068.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "剣技",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0069.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "速撃ち",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0070.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "武道の型",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0071.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ何もやらない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0072.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分からない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0073.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "たのむ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0074.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0075.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "遠慮しておく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0076.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "手を貸してくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0077.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "お願いします",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0078.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいだろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0079.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "結構だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0080.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それはできない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0081.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0082.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よろこんで",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0083.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "大きなお世話だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0084.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえもな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0085.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なめるなよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0086.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "すまない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0087.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いい加減にしろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0088.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "未知への挑戦",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0089.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "悪魔を倒すこと",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0090.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "悪魔との交流",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0091.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえを倒すこと",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0092.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "待ってくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0093.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "かかってこい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0094.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0095.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だめだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0096.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あやまる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0097.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ことわる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0098.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなた…「人間」にしては{n}なかなかよい目をしておる{n}よかろう何なりと申すがよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0099.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何を欲しておるのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0100.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いきなり本題か…{WAIT}{n}まぁそう急ぐことはない{n}もう少しそなたを知ってからだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0101.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほう{BEAT}これはこれは{BEAT}{n}おもしろいことを申すのだな…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0102.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はっはっはっ{n}何をたわけたことを申すのだ{n}まぁ若いうちはそれでよいのだが",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0103.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "強気なのだな…{n}他の者ならそれも通用するのかもしれぬな{WAIT}{n}そんなことよりもだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0104.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなたのしていることは{n}盗賊も同じこと{n}あまり感心できぬな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0105.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなた達は我らの持てるものまで{n}欲しているというのか{BEAT}{n}嘆かわしいものよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0106.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ちょうどよい{n}我が方からもそなたに話があるのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0107.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "悪いが聞いている暇はない{n}そもそも{n}我らは相対しているのだぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0108.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我が望みは{n}そなたとの勝負なり{n}そのような望み聞く耳もたぬ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0109.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何を申すかと思えば…{WAIT}{n}はっはっはっ{n}我が力をよほどおそれていると見える",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0110.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほうおもしろい{n}こんな所で「人間」にお目にかかるとはな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0111.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いったい何故ここにおる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0112.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「日々これ鍛練なり」{BEAT}{n}武道の心を理解しているということか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0113.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それはよい心がけ{n}これからも精進いたせ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0114.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はっはっはっ{n}修行だと{WAIT}笑わせてくれる{n}千年早いが…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0115.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "感心感心{n}なかなか誠をつくしているようだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0116.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕事{WAIT}おお生業のことか{n}生業とはいえそなたの行動は{n}合点がいかぬ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0117.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "平和か…{BEAT}なつかしい響きよのう{WAIT}{n}それよりそなた自身のことはどうなのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0118.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなことを考えておるのか{n}ふっ甘い甘い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0119.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なるほど{n}まずは「人間」のことから{n}始めようという訳だな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0120.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほう「人間」以外の存在も{n}この街にはたしかにあるのだぞ{n}それでよいのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0121.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "人々のためだと{WAIT}{n}結局そういうことか{n}しょせんは人の子という訳か",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0122.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "血迷うた手合いかと思えば{n}「人間」にあやつられておるのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0123.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いったい何用だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0124.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "悪魔をあまり困らせるものではない{n}もう少し話題を選んで{n}話してもらわんとな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0125.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それはできぬな{n}否できぬというよりしてはならぬのだ{n}しかしながら",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0126.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いきなりそれでは無礼であろう{n}そのような振る舞いをして{n}暮らしを立てているのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0127.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "無茶なことを…{WAIT}{n}我らは「悪魔」だぞ{n}分かっていて申しておるのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0128.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "下がれこの痴れ者めが{n}これだから「人間」はたちが悪い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0129.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よかろう申すがよい{n}予想はついておる「人間」のことであろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0130.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "応じる悪魔も出てくるだろう{n}すべてはそなたの心がけ次第だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0131.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "またにしてもらおう{n}そんな状況ではあるまい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0132.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんな言葉で{n}我らをどうにかしようというのか{n}ふん片腹痛いわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0133.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとうに去ってよいのか{n}そなたの方が困るのではないかな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0134.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "断じてことわる{n}まったく何を考えておるのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0135.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ここは我ら悪魔の領域のはず",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0136.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何故ここにおるのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0137.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "心がけだけは感心できるのだが{n}今のそなたではな…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0138.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "せいぜい精進することだ{n}我らを目指すがよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0139.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕事だと{n}もっと「人間」らしいことをすれば{n}よいであろう{WAIT}しかもだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0140.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こんな所にまで現れるとは{n}まともな仕事ではないのであろうが",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0141.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "平和だと{n}そなたがもたらしているのは{n}混乱にすぎないではないか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0142.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "平和だとそなたの口から{n}そんな言葉を聞くことができるとはな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0143.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我らのことは{n}どうなっても知らぬという訳か",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0144.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうではあるまい{n}結局自分を満足させたいだけのこと{n}ならば戦うこともあるまいが",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0145.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やはりそう答えたか{n}我らとは相いれぬ存在{n}それも分かっていたこと",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0146.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それで我らと{n}一戦交えたいのかっ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0147.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「人間」ふぜいと言葉を交わすなど{n}悪魔の名おれだが",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0148.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "とにかく用向きを申してみよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0149.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "愚かなことを{n}そのようなことを言うために{n}うろついているのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0150.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "自分の口にした言葉の意味を{n}理解しているとは思えぬな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0151.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そのような用向きに{n}つきあっている暇などないわ{n}愚か者め",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0152.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "哀れなものよ{n}そこまでおちぶれていようとは",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0153.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「人間」とは「物乞い」を意味する{n}言葉だったとはな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0154.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "話だと{BEAT}我らにか{WAIT}{n}どうせたかがしれているのであろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0155.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなたのつまらぬ話など{n}聞くに及ばぬが",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0156.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "悪魔を意のままにできると{n}うぬぼれているようだな{n}ふん気に入らぬ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0157.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よかろう{n}ただし{WAIT}{n}そなた達を始末してからだがな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0158.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ここをどこだと心得ておる{n}そなたたちをどうするも{n}我らの思うがままなのだぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0159.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何故迷いこんだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0160.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "さすればさらなる精進が必要であろう{n}そなたの力など赤子も同然",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0161.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ならば遠慮なく{n}相手をしよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0162.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕事だと{WAIT}{n}それは名目にすぎぬのではないか{n}しょせん目当ては金であろうが",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0163.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなもの忘れてしまえ{n}何をやっても徒労に終わるのだからな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0164.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はっはっはっ{n}これは愉快なことを{n}そなたに何ができよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0165.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ここで黄泉へ旅立つことが{n}平和への道だとは思わぬか{n}おとなしくここへ直れ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0166.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そこまでして{n}守らねばならぬものなのか{n}我には分からぬが",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0167.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "人々のためにとな{n}されば我らが敵ということになるな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0168.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おっとまだ名を申していなかったな{n}我は{demon_name}と申す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0169.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "してそなたの名は",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0170.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…………{WAIT}{n}本当のことは言えぬのだな{n}まぁよい名を知らずとも話はできる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0171.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "その名よく知っておるぞ{n}そなたちといたずらがすぎるようだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0172.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "聞いていた名とは違うな{n}「人間」は自分の都合ですぐ嘘をつく{WAIT}{n}…まあよい{BEAT}よく聞け",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0173.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "偽りを申すでない{n}我らをだます気かっ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0174.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それぞれにそれぞれの道があり{n}また重きを置いているものも違う",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0175.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなたはどうだやはり「誠」か",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0176.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やはりそうであろう{n}うむ大いに結構",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0177.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "口だけは達者だな{n}我にはそうは思えぬな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0178.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふむその心確かなのだな{WAIT}{n}そういう信念なら",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0179.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "甘いな{n}はっはっはっ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0180.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だから愚かだと言うのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0181.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなたよほどの大物かただの馬鹿か{n}よく分からぬな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0182.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「謙虚」という言葉があるであろう{n}こういうときは少しは遠慮するものぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0183.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もっと「勉強」が必要ではないのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0184.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よし分かっておるようだな{n}ついでと言ってはなんだが少々話がある",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0185.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "最低の礼儀は心得ておるようだな{n}それなら話しておきたいことがある",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0186.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "好意を無にしおって{n}かならず後悔する日が来るぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0187.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "無礼者{WAIT}まったくもって話にならぬわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0188.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我が道をゆくか…{n}それもよかろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0189.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それがそなたの答えか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0190.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "目上の者に接するときは{n}礼節を守るのも大切なことだぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0191.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それくらい分かるであろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0192.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっと素直になったな{n}話を続けるとするか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0193.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やけに素直だな気味が悪いぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0194.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっと理解できたようだな{n}実は聞いておきたいことがあるのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0195.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "返事だけはよいようだな{n}調子のよい奴め",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0196.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだその口のききかたは",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0197.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まともに聞いておるのか{n}そのような態度許せぬ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0198.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "頭の中のからくりを{n}調べてもらった方がよいようだな{n}まさか分からぬとは…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0199.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "返事はそれか{n}あきれてものも言えぬわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0200.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひっこれはこれはご無礼を{n}それほどまでの力量の持ち主とは…{WAIT}{n}今の一言で気付きましたぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0201.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "強気に言っても無駄だぞ{n}そんなことで動じたりせぬわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0202.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いったいそなたはどういう{n}つもりなのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0203.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どんな生業をしておる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0204.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「探偵」だとふむ「忍」のことを{n}そう申すのか{n}まっとうな「忍」となるためにも",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0205.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そのようなよく分からぬ生業{n}聞いたこともない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0206.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "さほど楽しいものではあるまい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0207.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そっ{BEAT}それではそなたが…{WAIT}{n}もしそなたが{n}まことの{kyouji_name}なら…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0208.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "聞いているぞそなたの噂{n}さればここで成敗してくれよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0209.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いつもその調子でいられると思うなよ{n}気にさわる奴め",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0210.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "答えぬならそれでもよい{n}ここまでにするだけのこと",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0211.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いずれにせよそんなことが{n}楽しいとは思えぬがな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0212.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そのような生業で満足しているのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0213.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それが本音なのか{BEAT}{n}どうあっても「人間」が大事だという訳か",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0214.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "満足だと{BEAT}骨まで腐った奴だな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0215.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "言い訳など聞くに及ばぬ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0216.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとうにそれでよいのか{n}もう少し真剣に考えてみよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0217.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "好きにするがよい{n}誰も止めはせぬ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0218.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "芯のない奴め{n}我が力でたたき直してやるわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0219.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうまで言うならどうだ{n}ここでひとつ腕試しをしてみぬか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0220.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いかなる勝負でも受けてたつぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0221.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "見事{BEAT}{n}そなたの心澄んでいるようだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0222.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだそのへっぴり腰は{n}修行がたりぬ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0223.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなた速いな{n}かわすのがやっとであったぞ{n}「心」のなせる技という訳か",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0224.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "遅い遅い{n}今度はこちらから行かせてもらうぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0225.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなたの母上でべそ…{WAIT}ええいやめだ{n}分かった分かった負けを認めよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0226.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "たいした神経の持ち主だ{n}子供でももう少しまともな{n}勝負を挑んでくるぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0227.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "くっやるな{n}そこまでの腕っぷしとは{n}そなたの心迷いがないな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0228.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "無駄だ無駄だ{n}ふっ{BEAT}{n}なんだそれが持てる力のすべてか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0229.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そこまで言うなら{n}ここでそなたの運を試してやろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0230.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "小判を投げるゆえ表か裏かを当てるのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0231.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "見事{WAIT}「表」だ{n}精神力と言いたいのであろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0232.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "見事{WAIT}…と言いたいところだが裏だ{n}残念だったな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0233.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふむ{WAIT}裏が出てしもうたか{n}いさぎよく負けを認めよう{n}たいした集中力だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0234.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふむ{WAIT}表が出たぞ{n}哀れこんなことでも勝てぬのか{BEAT}{n}くだらぬ勝負をしてしもうた",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0235.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなたのようになりたくないものよのう{n}ふん仕方がない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0236.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにを恵んで欲しいのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0237.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとうにあきれた奴だ{n}そんなに欲しいならくれてやる{n}{offered_item}といったところであろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0238.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "かかったな{offered_item}くれてやる{n}抱えたままで死ぬがよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0239.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "本気で手に入ると思うたのか{n}この愚か者め",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0240.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}くれてやる{n}ただしそのまま冥土へ行くことになるがな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0241.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "考えてやるとするか…{WAIT}{n}ふむ{offered_item}でも{n}持ってゆくがよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0242.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "本気にしたか{WAIT}ふふそうあっさりと{n}くれてやる訳にはゆかぬ{BEAT}残念だったな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0243.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなたそんなことでよいのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0244.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まだ見込みは残っているようだな…{WAIT}{n}よかろう話しに応じよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0245.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかならばそれでよい{n}そなたとの話もこれまでだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0246.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなたのようには{n}我ら悪魔は落ちることができぬのう{BEAT}{n}ひとつ教えてはもらえぬか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0247.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうすればそうまでになれるのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0248.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "答えることはできまい{WAIT}{n}自分を見直すよい機会になったであろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0249.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何も言えぬのか{BEAT}そうであろうな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0250.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こっ{BEAT}これは失礼した{WAIT}{n}いやはや男ならそうこなくては…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0251.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "急に強気になっても無駄だぞ{n}そなたがどれほどのものなのか{n}分かっているのだからな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0252.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そこまで言い切れるとは{n}もしや…{BEAT}ものすごく大物なのでは…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0253.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やはりそうか{WAIT}{n}そなたそれでよいのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0254.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やはりそうか{WAIT}{n}分かっていたことだがな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0255.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "話というのはほかでもない{n}最近の街の様子はどうも騒がしい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0256.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いったいどうなっているのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0257.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何を言う{n}我ら悪魔は無関係だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0258.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何か根拠があって申しておるのか{n}納得できぬなそのような言葉は",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0259.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やはりそうなのか…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0260.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やはりな{WAIT}{n}我ら悪魔の手で成敗するしかないか…{BEAT}{n}手始めにそなたから始末するとしよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0261.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふむ急いだ方がよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0262.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなたの力で本当に調べられるのか{BEAT}{n}せいぜいがんばることだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0263.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我らが心配することでは{n}ないのかもしれぬが…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0264.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "この街に何か異変はないか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0265.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "無理をするでないぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0266.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなたにどれほどのことができるか…{WAIT}{n}期待しておるぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0267.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "確かにそなたの言う通りだが…{BEAT}{n}我らの気持ちも察してくれ心配なのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0268.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我ら悪魔が考えることではないとな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0269.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我ら悪魔には分からぬ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0270.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "残念だが分からぬのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0271.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ここで試しに手合せをしてみては{WAIT}{n}悪くはあるまい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0272.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "では参るぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0273.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほう{BEAT}なかなかやるな{n}…ふっ精神力か…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0274.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はっはっはっ{n}その程度か{BEAT}精進いたせ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0275.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "くっ{BEAT}まさか押し負けるとは{n}…ふっ精神力か…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0276.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我が力思い知ったか{WAIT}{n}はっはっはっ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0277.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まっ{BEAT}まいった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0278.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "無駄だ無駄だ{WAIT}ほれっ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0279.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "男子たるものあらゆることで{n}自分を磨くそれも大切なことだぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0280.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何なりと教えてやるぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0281.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よしそれでは目を閉じよ{WAIT}{n}精神を落ちつけて…{WAIT}{n}なんだ寝てしまったか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0282.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よしそれでは目を閉じよ{WAIT}{n}精神を落ちつけて…{WAIT}{n}今だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0283.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そのようなこと…{BEAT}{n}いくらなんでも勘弁してくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0284.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そういった発想が愚かだと言うのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0285.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ではかかってこい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0286.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "………まいった{n}…ふっ精神力か…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0287.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "………だめだだめだ{n}出直してこい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0288.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "特に家族のことが心配なのであろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0289.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなたの家族は安全に暮らしているのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0290.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "すまぬ悪いことを聞いてしまったな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0291.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなのか{n}そなたも家庭を持てば{n}成長するかもしれぬのにな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0292.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なかなか人の情というものも{n}捨てたものでもないようだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0293.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "心がけは感心するが{n}この街ではちと甘すぎるのう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0294.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだその言い方は{BEAT}{n}親兄弟を大切にせぬ奴は早死にするぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0295.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "くっ救われぬ奴{n}我が手で引導を渡してやる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0296.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それほどまでに「人間」を大事にするなら{n}家庭を持って平穏に暮らせばよいのに",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0297.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "家庭に興味はないのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0298.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だから成長せぬのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0299.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そういう生き方がよいと思っておるのも{n}今のうちだけだぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0300.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "これは失礼した{n}そなたにも事情があるのであろうな…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0301.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ならば即刻立ち去るがよい{n}そして平穏に暮らすのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0302.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふんつまらぬ{BEAT}{n}つまらぬわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0303.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何かおもしろいことはないのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0304.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "行けばおもしろいことがあると言うのだな{BEAT}{n}ふむよかろう行動を共にしよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0304.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我は{race}{demon_name}{n}かならずやそなたの期待に応えようぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0305.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "行けばおもしろいことがあると言うのだな{BEAT}{n}ふむそうは思えぬがな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0306.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふむそうさせてもらうとしよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0307.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにをいきなり…{BEAT}{n}もうよいわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0308.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった分かった{n}もうよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0309.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "これしきのこと…{BEAT}{n}こちらで勝手に楽しませてもらうとするか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0310.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しかしながらそなたの言うこと{n}考えてやらぬこともないぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0311.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そのかわり何かやってもらおうか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0312.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "見事な技だ{n}そこまでの腕ならあるいは…{WAIT}{n}そなたを見とどけるとしよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0312.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我は{race}{demon_name}{n}かならずやそなたの期待に応えようぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0313.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "見事な技だが…{n}そんなものをみせられてもな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0314.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "つまらぬ{n}そんなもので満足すると思うてか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0315.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひっ{BEAT}なんだ{n}その飛び道具は{WAIT}{n}いやはや感服いたしました…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0315.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我は{race}{demon_name}{n}そなたの期待に応えますぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0316.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "奇怪な技をつかいおって{n}ええい{BEAT}成敗してくれる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0317.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほうそんな芸当ができるのか{n}なかなかのものだったぞ{n}よし{offered_item}をくれてやろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0318.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほうそんな芸当ができるのか{n}なかなかのものだったぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0319.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そのままひとりで遊んでおれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0320.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "くっいまいましい奴め{n}そなたのことなど知らぬわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0321.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなたには分かるまい{n}いったい何が大切なのかがな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0322.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それでも分かると言い張るのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0323.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だまっていても何も始まらぬのだぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0324.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふっ答えられまい{n}そなたの人生まだまだ修行が必要だな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0325.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まだそのようなことを言っているのか…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0326.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "これ以上話しても平行線のまま{n}交わることもあるまい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0327.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "迷いそして行動するのだ{n}さすれば道は開ける",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0328.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "では身をもって知るがよい{n}これも修行ぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0329.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そのような考えで{n}我が前にその身をさらすなど",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0330.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなたにはプライドがないのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0331.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "さればその身で示してみよ{BEAT}{n}どこからでもかかってこい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0332.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうは見えぬがな{n}せいぜいがんばるがよい{BEAT}{n}気を付けてな{WAIT}…さらばだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0333.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "待っておったぞその言葉{n}そうでなくてはいかん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0333.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よかろう{BEAT}{n}そなたとの交渉に応じよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0334.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほう威勢がよいな{n}まぁせいぜい努力することだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0335.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "馬鹿なのか大物なのか{BEAT}{n}まぁどちらでもよいのだが",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0336.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はっはっはっ{n}ついに開き直ったか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0337.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よし決心がついたぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0338.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我が力を振るうのもよかろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0339.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うむ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0340.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うむ分かった{WAIT}{n}そなたの心がけ次第だがな…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0341.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかそれは残念だ{n}ならばそのかわりに{n}{offered_item}を贈ろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0342.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかそれでは仕方がないな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0343.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかそれは残念だ{n}また縁があったら助力しよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0344.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだいらぬと言うのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0345.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "その心おそれ入った",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0346.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我にできることはないか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0347.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よかろうただし条件次第だがな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0348.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうか仕方がないな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0349.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "好意は素直に受けるものだぞ…{BEAT}{n}もうよい好きにするがよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0350.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我も悪魔のことのみを{n}考えている訳ではないのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0351.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなたと契りを結ぶことも可能だが",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0352.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うむよかろう{n}それではと{BEAT}そうだな…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0353.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うむよかろう{n}では盃を持て{WAIT}{n}くっくっ…{BEAT}飲みほしたな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0354.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "くっ最後までふてぶてしい奴め",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0355.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そのような態度をとるのか…{WAIT}{n}気が変わった{n}今の話なかったことにしてもらおう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0356.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かったもう何も言うまい{n}正々堂々と勝負いたそう{BEAT}{n}かかってこい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0357.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そういう強がりが不幸をまねくのだ{n}まだ分からぬのかこの状況が",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0358.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我らの間にはまだまだ壁がある{WAIT}{n}乗り越える方法があるとすれば{n}ただひとつ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0359.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなたが我に従うというのはどうかな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0360.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうであろうな…{BEAT}{n}それが我とそなたとの運命だからな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0361.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "努力をおしみおって{n}体で覚えるがよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0362.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よしそなたと行動を共にしよう{WAIT}{n}我は{race}{demon_name}{n}しかと我に従うのだぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0363.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ではこの盃を飲みほせ{n}さあ早く{WAIT}{n}どうだうまいであろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0364.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ではこの盃を飲みほせ{n}さあ早く{WAIT}{n}かかったな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0365.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はっはっはっ{n}からかってみたまでよ{n}なかなか愉快であったぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0366.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しかしながらほんとうに情けない奴だな{n}そなたのような従者はいらぬ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0367.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もうよい{WAIT}{n}そなたの好きにするがよいわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0368.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "せいぜい用心することだ分かったな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0369.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "くっ生意気なやつめ{WAIT}{n}…心づかいは感謝しておこう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0370.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "くっ生意気なやつめ{WAIT}{n}…二度と顔を見せるな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0371.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それでよいのだそれで",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0372.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "最初からそうやって{n}素直になっていればよかったものを",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0373.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "口のへらぬ奴め{n}二度と現れるなよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0374.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "口のへらぬ奴め{n}安心せよ我が手で冥土へ送ってやる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0375.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひっ{n}なっ{BEAT}なめてなどおらぬ…{BEAT}おりませぬ{n}何とぞお許しを…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0376.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なめているのはそなたの方だ{n}永遠の眠りにつくがよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0377.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もうよい{WAIT}{n}これ以上は何も申すまい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0378.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ただその調子でいられると思うなよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0379.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとうに分かっておるのか{n}まだまだ困難は続くのだぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0380.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おお理解したようだな{n}さっそくだが{n}その調子でいられぬこと証明してみせよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0381.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うむ{n}その気持ち忘れるでないぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0382.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふん{n}どうせ口先だけであろうが",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0383.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "これほど申しても分からぬかっ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0384.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひっ{BEAT}{n}調子に乗っているのは我が方でした{n}何とぞお許しを",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0385.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなたと関っていると{n}不愉快だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0386.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いったい何が楽しいと言うのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0387.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうであったか{n}ならば考えてやらぬでもない{n}そなたの気持ち次第だがな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0388.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "交流を望むなら{n}もう少し気を付けることだ{WAIT}{n}覚えておくがよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0389.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なるほどそうか…{BEAT}{n}この場はこれでおさめよう{WAIT}{n}ゆくがよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0390.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ならばその挑戦受けよう{n}我も「未知なるもの」なのだからな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0391.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうした{BEAT}答えられぬのか{n}それは自分の意志を持たぬからだぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0392.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうした{BEAT}早く答えぬか{WAIT}{n}ふっもうよいわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0393.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もう何も申すまい{WAIT}{n}楽しいだと悪魔を殺すことがか…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0394.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何を言う{n}倒されるのはそなたの方だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0395.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はっはっはっ{n}そなたにできるものか{n}どこからでもかかってこい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0396.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひっ{BEAT}{n}なっ何を言う{WAIT}いやおっしゃる{n}それだけはお許しを…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0397.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなたと関っていると{n}こちらまで調子が狂うてしまう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0398.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そろそろ行くぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0399.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ならぬ{WAIT}と言ったら{n}どうするつもりだったのだ{n}甘いぞその考え",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0400.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ならぬ{WAIT}{n}ここで楽になるがよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0401.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はっはっはっ{n}これは愉快その程度の力でか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0402.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ならば遠慮なくゆかせてもらうぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0403.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなたのことはよく分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0404.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいから通してもらおう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0405.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うむそれでよいのだ{n}{offered_item}でもくれてやる{n}なあにほんの通行料がわりだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0406.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ならば立ち去れ{n}おめおめと逃げ出すがよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0407.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふん言われるまでもないわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0408.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おっとその前にと{BEAT}{n}そなたを始末するのを忘れておった{WAIT}{n}ゆくぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0409.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ならば倒してでも進むまで{n}そなたの方からかかってくるがよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0410.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ならば倒してでも進むまで{n}こちらからゆかせてもらうぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0411.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう言われてもな…{WAIT}{n}困った奴だが仕方がない{n}もう少し相手をしてやるとするか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0412.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "自分の立場と言うものが{n}まだ分かっていないようだな{n}ならば倒して進むまでのこと",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0413.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなたのことはよく分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0414.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今までの悪行わびてもらおう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0415.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かればよいのだ分かればな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0416.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "本当だな{n}ならば水に流してやろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0417.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほう{BEAT}ならば死んでもらおう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0418.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほうそうきたか{n}そなたとはもう二度と話すまい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0419.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほうそうきたか{n}ならば「死」あるのみ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0420.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8025}こうしょうすたーと{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0421.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まずは…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0422.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{requested_item}をいただこうか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0423.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだ持っておらぬではないか{n}仕方のない奴だな{n}それでは…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0424.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "またの機会ということにいたそう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0425.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "せっかくだがそれぐらいではな{WAIT}{n}どうしたものか…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0426.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "くっ仕方がない{n}それでは…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0427.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふざけるな{n}どうやら無駄だったようだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0428.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ともあれ何かいただこうかな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0429.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "……………{WAIT}{n}黙っていると思うたら{n}何ひとつ持っていないのか…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0430.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "その程度ではな…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0430.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにか他のものでもいただこうか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0431.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "……もうよい{n}そなたからは期待できないようだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0432.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "馬鹿にしておるのか{n}やはり戦うしかないようだな{WAIT}{n}いくぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0433.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふむよかろう{WAIT}{n}我は{race}{demon_name}{n}そなたと行動を共にしようではないか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0434.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふむよかろう{n}また会うときを楽しみにしているぞ{WAIT}{n}さらばだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0435.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うむなかなか楽しいときをすごせたぞ{n}一緒にはゆけぬが{n}{offered_item}をやるとするか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0436.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふむ「人間」も{n}すてたものではないようだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0437.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふふ愚かな奴め{n}こうなるとも知らずにな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0438.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "これ以上そなたと話すことはない{WAIT}{n}さらばだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0439.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "かかってこい{n}自分に自信があるならな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0440.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こちらからゆかせてもらうぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0441.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "またいずれ会うこともあるだろう{n}そのときは覚悟しておけ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0442.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "渡す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0443.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ことわる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0444.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "またお会いできることを{n}楽しみにしておりますぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0445.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "無理にでも{n}仲魔に加わらせてもらいますぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0445.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我は{race}{demon_name}{n}かならずやそなたの期待に応えようぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0446.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんの気持ちだが{n}{offered_item}を受けていただきたい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0447.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "とにかく{n}お手やわらかに願いたい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0448.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうやら我が力必要ないようだな{n}また会える日を楽しみにしておるぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0449.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔に加わらせてもらうぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0449.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我は{race}{demon_name}{n}そなたと行動を共にしよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0450.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "本気にされても困るな{n}はっはっはっ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0451.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "また会える日を楽しみにしておるぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0452.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それなら仲魔に加わらせてもらうぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0452.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我は{race}{demon_name}{n}そなたと行動を共にしよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0453.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなたの手にかかっておるのだぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0454.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ん…{BEAT}なんだこれ以上{n}持てないではないか{n}残念だったな…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0455.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ん…{BEAT}なんだいらぬのか{n}それは残念だな…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0456.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "無念…{BEAT}{n}そなたのような者にここまで{n}追いつめられようとは…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0457.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もうよいわ我を好きにするがいい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0458.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "命を助ける",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0459.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "命をうばう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0460.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おお{BEAT}かたじけない{n}そなたの恩にむくいよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0461.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "くっ…{BEAT}{n}そなたに助けられるとはな{n}借りは返さねばならない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0462.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はっはっはっ{n}甘い甘い{BEAT}どこまでも甘い奴よ{WAIT}{n}ここで死ぬがいい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0463.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なっ{BEAT}なにも命まで欲することは…{WAIT}{n}そなたの話に応じるゆえ{n}考え直してくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0464.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ならばかかってこい{n}命果てるまで戦おうぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0465.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "くっ…{BEAT}ここまでか…{WAIT}{n}否{BEAT}そなたに命をうばわれるくらいなら{n}戦いのなかで死ぬまで",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0466.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おお{BEAT}デビルサマナーか{WAIT}{n}日々精進しておるようだな…{WAIT}{n}では回復してやろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0467.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おお{BEAT}デビルサマナーか{WAIT}{n}ここに{offered_item}ある{n}気にすることはない持ってゆかれよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0468.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おお{BEAT}デビルサマナーか{WAIT}{n}ここに{offered_item}ある{n}気にすることはない持ってゆかれよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0469.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おお{BEAT}そなたデビルサマナーだな{WAIT}{n}ほう我が同胞も一緒か…{BEAT}{n}気を付けてゆかれよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0470.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今宵の月は美しい…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0471.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こんな夜は何かが起こる…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0472.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いつ起こるのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0473.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どこで起こるのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0474.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何が起こるのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0475.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なに{BEAT}そなたも確かめたいのか{WAIT}{n}ならば一緒に参ろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0475.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我は{race}{demon_name}{n}では早速ゆくとしよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0476.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふむ…分からぬのか{WAIT}{n}だが{BEAT}すぐに分かる{n}そなたが死ぬのは今すぐだからな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0477.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なに{BEAT}そなたも確かめたいのか{WAIT}{n}ならば一緒に参ろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0477.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我は{race}{demon_name}{n}では早速ゆくとしよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0478.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふむ…まだ分からぬのか{WAIT}{n}ここで起こるに決まっておろう{n}そなたが死ぬのはな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0479.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なに{BEAT}そなたも確かめたいのか{WAIT}{n}ならば一緒に参ろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0479.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我は{race}{demon_name}{n}では早速ゆくとしよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0480.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我には分かる{WAIT}{n}今から起こるのは…{n}そなたの死だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0481.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今宵の月は美しい…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0482.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こんな夜は人を斬れと刀がうずく…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0483.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにをする気だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0484.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おちつけ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0485.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やってみろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0486.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うっ…{BEAT}これは失礼{WAIT}{n}そなたなら我をいさめてくれるようだな{BEAT}{n}よかろう{BEAT}ご一緒しよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0486.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我は{race}{demon_name}{n}では早速参ろうか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0487.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふっ{BEAT}分からぬのか{BEAT}{n}なあにすぐ分かる{WAIT}{n}そなたを{BEAT}斬る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0488.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うっ…{BEAT}これは失礼{WAIT}{n}そなたなら我をいさめてくれるようだな{BEAT}{n}よかろう{BEAT}ご一緒しよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0488.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我は{race}{demon_name}{n}では早速参ろうか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0489.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふっ{BEAT}落ち着いていられようか{WAIT}{n}この月夜に血しぶきはさぞ美しかろう{WAIT}{n}つべこべ言わず覚悟いたせ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0490.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うっ…{BEAT}これは失礼{WAIT}{n}そなたなら我をいさめてくれるようだな{BEAT}{n}よかろう{BEAT}ご一緒しよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0490.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我は{race}{demon_name}{n}では早速参ろうか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0491.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うむ{BEAT}遠慮はせぬ{BEAT}{n}覚悟いたせ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0492.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今宵の月は美しい…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0493.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうだ月見酒といかぬか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0494.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいだろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0495.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0496.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "酒はちょっと…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0497.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はっはっはっ{BEAT}{n}よかろうその飲みっぷり気に入った{n}一緒にゆくとするか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0497.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我は{race}{demon_name}{n}では早速参ろうか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0498.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はっはっはっ{BEAT}そうかそうか{WAIT}{n}いいぞ飲め飲め{WAIT}{n}おい何を寝ておるのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0499.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はっはっはっ{BEAT}そうかそうか{WAIT}{n}いいぞ飲め飲め{WAIT}{n}うむ{BEAT}眠くなってしもうたわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0500.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はっはっはっ{BEAT}そうかそうか{WAIT}{n}いいぞ飲め飲め{WAIT}酔ったところで…{BEAT}{n}そなたを斬る{BEAT}覚悟いたせ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0501.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "無粋な奴よ{WAIT}{n}そなたに風流のなんたるかを{n}教えてやるためにも供をしよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0501.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我は{race}{demon_name}{n}では早速参ろうか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0502.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "無粋者め{WAIT}{n}ここで死ぬがよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0503.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今宵の月は美しい…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0504.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "風流よのうそなたもそう思わぬか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0505.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0506.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いつもと変わらない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0507.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "月に関心はない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0508.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「まあな」か…{WAIT}{n}ふっ…{BEAT}まあよかろう{n}そなたとゆくとするか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0508.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我は{race}{demon_name}{n}では早速参ろうか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0509.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだその言い方は{WAIT}{n}情けない奴よのう…{BEAT}{n}風流の分からぬ奴はここで死ぬがよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0510.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分からぬのか{BEAT}今宵は満月なのだぞ{WAIT}{n}そなたに風流のなんたるかを{n}教えてやるためにも供をしよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0510.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我は{race}{demon_name}{n}では早速参ろうか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0511.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なに分からぬのか{n}情けない奴よのう…{BEAT}{n}風流の分からぬ奴はここで死ぬがよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0512.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そなたに風流のなんたるかを{n}教えてやるためにも供をしよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0512.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我は{race}{demon_name}{n}では早速参ろうか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0513.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "無粋者め{WAIT}{n}ここで死ぬがよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0514.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おお{BEAT}そなたは以前お会いした…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0515.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我が力お望みかな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0516.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "たのむ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0517.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "別に…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0518.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふむ{BEAT}よかろう{n}存分に働かせていだだきますぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0518.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我は{race}{demon_name}{n}では早速参ろうか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0519.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はっはっはっ{BEAT}{n}いましばらくは自分の力で{n}乗り切られよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0520.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにもそうかたくなになることはない{BEAT}{n}我が力試されるがよい{BEAT}{n}そなたとご一緒しよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0520.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "我は{race}{demon_name}{n}では早速参ろうか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0521.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ならば結構{WAIT}{n}いずれ戦場で",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0522.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おう{BEAT}そなたは以前お会いした…{BEAT}{n}期待しておりますぞ{BEAT}{n}お達者で",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0523.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うむ…{BEAT}そなたどこかで…{BEAT}{n}思い出したぞ{n}過日はよくも恥をかかせてくれたな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0524.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "お命ちょうだいいたす{BEAT}覚悟",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0525.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あやまる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0526.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "命乞いする",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0527.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふっ{BEAT}情けない{n}こんなくだらぬ奴にかまっていられるか{n}ふっ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0528.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいや許せぬ{n}刀のサビにしてくれよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0529.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふう{BEAT}仕方ない…{WAIT}{n}殺生は好まぬ{n}どこへでもゆくがよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0530.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふっ{BEAT}甘いわ{n}これでもくらうがよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0531.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おおそなたは…{BEAT}{n}覚えておるぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0532.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何か礼がしたいのだが…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0533.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔になれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0534.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにもいらない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0535.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それはできぬ…{BEAT}{n}かわりといってはなんだが{n}{offered_item}を贈ろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0536.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はっはっはっ{n}それは無理というもの",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0537.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだ欲がないのだな…{WAIT}{n}よし{BEAT}回復してやろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0538.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうか…{n}それは残念{WAIT}{n}せっかくであったのにな…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0539.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それはできぬな{BEAT}{n}はっはっはっ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0540.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うむ…{BEAT}もう持てないようだな{n}はっはっはっ{n}惜しいことをしたのう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0541.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "待たれい{BEAT}{n}我と話すのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0542.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何をしておる{BEAT}{n}そなたの目当てはこちらであろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0543.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "待て{BEAT}{n}我はここだぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0544.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何をしておるのだ{BEAT}{n}もしや我に気付いておらぬのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0545.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "くっ…不覚{WAIT}{n}今にして気づくとは{WAIT}{n}そなたの仲魔にはなれぬ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0546.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "くっ…不覚{WAIT}{n}今にして気づくとは{WAIT}{n}そなたの連れは我とは相入れぬ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0547.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "くっ…不覚{WAIT}{n}今にして気づくとは{WAIT}{n}そなたまだまだ修行が足りぬようだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0548.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "これにて失礼{WAIT}{n}{offered_item}をおいてゆこう{n}持っていくがよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0549.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "これにて失礼{WAIT}{n}いずれまた会おう…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0550.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "見直したぞ{BEAT}{n}これからも修行をおこたらぬようにな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_kofu.m0551.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "待て{WAIT}{n}…おおやはり{BEAT}我が同族も一緒か{BEAT}{n}気をつけてゆかれよ…",
+    "translation": "",
+    "note": ""
+  }
+]

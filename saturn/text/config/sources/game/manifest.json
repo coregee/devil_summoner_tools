@@ -1,0 +1,4189 @@
+{
+  "version": 1,
+  "disc": "game",
+  "track_sha256": "9fb801057082ff482343a45667120ac2af5374ecdf848b22ec3d082922662b6f",
+  "files": {
+    "mesfile_eve": {
+      "path": "MESFILE.EVE",
+      "size": 65536,
+      "stock_sha256": "98bef0726021118071f6ccdf1646ab8cbff34b2ca98f1eacdec7472856185294"
+    },
+    "evfile_0_eve": {
+      "path": "EVFILE_0.EVE",
+      "size": 65536,
+      "stock_sha256": "b72885fd1c3dd7c87014f377a5e57a72f773d5495e8ac7680d414ebdf5a72176"
+    },
+    "evfile_1_eve": {
+      "path": "EVFILE_1.EVE",
+      "size": 65536,
+      "stock_sha256": "7bb7d4ce1635506590aea4b1fed2f694808e389868044a5c5d8104f7603b96dc"
+    },
+    "evfile_2_eve": {
+      "path": "EVFILE_2.EVE",
+      "size": 65536,
+      "stock_sha256": "76058014107ae83d0ac639553b1ea4f55effb871aa44af363d4d910fcd882bc6"
+    },
+    "shopsmp_eve": {
+      "path": "SHOPSMP.EVE",
+      "size": 65536,
+      "stock_sha256": "3088d8f4aee1603d2bb5e00c08d6c993e917b0f6f300d4427410f4faa4a73606"
+    },
+    "combdata_bosstalk_eve": {
+      "path": "COMBDATA/BOSSTALK.EVE",
+      "size": 65536,
+      "stock_sha256": "d5e251aff2b00ffa279e0e10544c390c9418bab00b17cde0697519b20a72270a"
+    },
+    "combdata_tlk_bst_eve": {
+      "path": "COMBDATA/TLK_BST.EVE",
+      "size": 65536,
+      "stock_sha256": "090fbbf6964fdda4c7c37443222cf2024376385093b025135bb6048ee6837449"
+    },
+    "combdata_kemo_eve": {
+      "path": "COMBDATA/KEMO.EVE",
+      "size": 65536,
+      "stock_sha256": "8e8fffc61316ad4a3932eb7396b3752921871ce24f9fcaefe49e0b77f9409226"
+    },
+    "combdata_tlk_kofu_eve": {
+      "path": "COMBDATA/TLK_KOFU.EVE",
+      "size": 65536,
+      "stock_sha256": "b7e94221928ec0a9d3c85f6eff1f711d298bc8a60d88e23fa76abbb03dbcd1b3"
+    },
+    "combdata_nbl_m_eve": {
+      "path": "COMBDATA/NBL_M.EVE",
+      "size": 65536,
+      "stock_sha256": "d3a2cefdb72ac08f97056a3254beb1a3699af75902c694dfb9bd4e68fa888a1c"
+    },
+    "combdata_tlk_hirk_eve": {
+      "path": "COMBDATA/TLK_HIRK.EVE",
+      "size": 65536,
+      "stock_sha256": "bed6ced168b4eeb2cf3a5f0de7acea2203f396a3ac9c34cc0eb6af694af6e2c5"
+    },
+    "combdata_tlk_yngm_eve": {
+      "path": "COMBDATA/TLK_YNGM.EVE",
+      "size": 65536,
+      "stock_sha256": "8c4e9ef10420548502f5f1e831e0cae68f1efe4e2b79cdf3cb3b631ce9acb0ff"
+    },
+    "combdata_grl_eve": {
+      "path": "COMBDATA/GRL.EVE",
+      "size": 65536,
+      "stock_sha256": "2d39988eb8867c6e88535edf6214b079871f1fb776ed063a027fa67c4f5abb8e"
+    },
+    "combdata_tlk_boy_eve": {
+      "path": "COMBDATA/TLK_BOY.EVE",
+      "size": 65536,
+      "stock_sha256": "3f5284e7f47de9d1610691b1c7269ecc3a08bb847e04aedec8b90a200be055be"
+    },
+    "combdata_cld_f_eve": {
+      "path": "COMBDATA/CLD_F.EVE",
+      "size": 65536,
+      "stock_sha256": "0a4770b7c97931cf3a2d7e374bac835695840a7016ed195bfc4ed5009d4183ee"
+    },
+    "combdata_tlk_lady_eve": {
+      "path": "COMBDATA/TLK_LADY.EVE",
+      "size": 65536,
+      "stock_sha256": "ce4006e7ddee376914e45dd0928f5a05056d51affc283d3cf0a53012b8579516"
+    },
+    "combdata_tlk_crzy_eve": {
+      "path": "COMBDATA/TLK_CRZY.EVE",
+      "size": 65536,
+      "stock_sha256": "0f462f3254ef2f51bc88964613984ec9d6c52d57cf1bae8469fcd6c7ed0a6390"
+    },
+    "combdata_jijy_eve": {
+      "path": "COMBDATA/JIJY.EVE",
+      "size": 65536,
+      "stock_sha256": "05682bdedbcb08af743baaaaebbfb44f24893206a3f8e6b53231e8c434e31a5a"
+    },
+    "combdata_cyni_eve": {
+      "path": "COMBDATA/CYNI.EVE",
+      "size": 65536,
+      "stock_sha256": "1d50b97dc59e56d1be01cdaaa6bb000a9b77a1a63f3c06a611d9fe812762f936"
+    },
+    "combdata_tlk_west_eve": {
+      "path": "COMBDATA/TLK_WEST.EVE",
+      "size": 65536,
+      "stock_sha256": "505a31692024584d73f0b062f212161f46b8f87626ecef4c7ccb949cf7d18706"
+    },
+    "combdata_slm_eve": {
+      "path": "COMBDATA/SLM.EVE",
+      "size": 65536,
+      "stock_sha256": "95860ab275c5f1af009d649275b3a19766dab655e88658a2d789edb11289285b"
+    },
+    "automapc_bin": {
+      "path": "AUTOMAPC.BIN",
+      "size": 243240,
+      "stock_sha256": "093b6e57f5c91d4c0b6b3cac428a4e5e15d51d29a6e2f2a5a93c9cc0af329593",
+      "owned_sha256": "837db8ec0bc8b8207d7cd54f3b1467d0cdc220716216d35512717e28b027fbaf"
+    },
+    "btl_help_dat": {
+      "path": "BTL_HELP.DAT",
+      "size": 836,
+      "stock_sha256": "6a22e6e541b44ceec6054ade147fea588b68b55dfb77bc83c3681948401b4347"
+    },
+    "btl_mes_md8": {
+      "path": "BTL_MES.MD8",
+      "size": 5082,
+      "stock_sha256": "e9d76b18d26930873cad0f263d16975b24e0fa14a043da7870ea55bab18e85f1"
+    },
+    "btl_srf_mdt": {
+      "path": "BTL_SRF.MDT",
+      "size": 7854,
+      "stock_sha256": "319ad37ff3d98a39c87c3e1723baf3709c25e78b8db825f3206bb42b3be13829"
+    },
+    "butu_srf_mdt": {
+      "path": "BUTU_SRF.MDT",
+      "size": 4586,
+      "stock_sha256": "02239ebccc3690ab93ed68ffe7409968b0f394dfa4115ff11512f43a5f2289d9"
+    },
+    "cfg_set_bin": {
+      "path": "CFG_SET.BIN",
+      "size": 273560,
+      "stock_sha256": "9a07600dd73031c3e95ece81e1d7dc108b4fce35bcea565402006bb9d6cad0da",
+      "owned_sha256": "dcb63e74a8bfdb2f0c1e1b7c15c0b6fad4672e1d37f1c264c3c901e054cc5562"
+    },
+    "charname_dat": {
+      "path": "CHARNAME.DAT",
+      "size": 48,
+      "stock_sha256": "24da89dc810499d857344dc7c96a847e41ebe4eba854b88b926f0f262cea1a3c"
+    },
+    "combat_bin": {
+      "path": "COMBAT.BIN",
+      "size": 351064,
+      "stock_sha256": "56a5c4b90d32d81c0668d6a0a3885c7784964b4ae5f02f318749403cd9360c56",
+      "owned_sha256": "aad8e963bed2074597643f5c0cbf3c18b43b9178d9d4a9574ebb7cc0417b0001"
+    },
+    "da_3d_bin": {
+      "path": "DA_3D.BIN",
+      "size": 283536,
+      "stock_sha256": "3d7fd55f01eb6aeec410ddb89a8dae6cde3a7dbf1c2b36830af35341ff53d384",
+      "owned_sha256": "3934dfddba98176787e26c83cf047b54a28ebb62aed91aaf4a337ef11568f7b6"
+    },
+    "dvlname_dat": {
+      "path": "DVLNAME.DAT",
+      "size": 2552,
+      "stock_sha256": "9a0042b23e8b7908d90af7aaf77e4089eec082a1ad12cb2bea9c1c3a337a68dc"
+    },
+    "end_roll_bin": {
+      "path": "END_ROLL.BIN",
+      "size": 132128,
+      "stock_sha256": "b72559e959c0e4392557b540f9bd09652cb06d9c061a160f9274e2f2fed63b5f",
+      "owned_sha256": "4331d2b54c1086c1278267f50f48e558f6b3b057453333f267804062c06b2104"
+    },
+    "event_bin": {
+      "path": "EVENT.BIN",
+      "size": 354072,
+      "stock_sha256": "73a24f782f6618081028511e9fcc4c845a79a577e1907a6a6affc9e9f1e2ce84",
+      "owned_sha256": "f2a0410a4496bb64077d5aa7aaff8ad7da908cfff4039a3e5b8f945bd8b2d866"
+    },
+    "hosi_bin": {
+      "path": "HOSI.BIN",
+      "size": 213192,
+      "stock_sha256": "676303bc0382e64429eea5bb5df3a274e83d61fe4ad39490fa4876265910ff72",
+      "owned_sha256": "67faf1c65b465071503c7b0b9ce6d903445a6e36fa7a6011d5cab05ccd540e64"
+    },
+    "itemname_dat": {
+      "path": "ITEMNAME.DAT",
+      "size": 27552,
+      "stock_sha256": "064f234ba11263506025fd59f62de5bccf8d842d1eed00a5ed01ed47262ea7b5"
+    },
+    "level_up_bin": {
+      "path": "LEVEL_UP.BIN",
+      "size": 235304,
+      "stock_sha256": "bea68b010a95b34f69fbc84bbdcd65f5bed004c50739f257675b24045277b536",
+      "owned_sha256": "c0bce14136d76790d03170c4974cc983ff9a5c5c28c8dff29c65b04fa31e4aaf"
+    },
+    "load_bin": {
+      "path": "LOAD.BIN",
+      "size": 338552,
+      "stock_sha256": "100740f4671c2b4f150cfba0b539e75ee122415ec5c1dc9aeeb2f21663a1b446",
+      "owned_sha256": "66db5d0b22918bd803697b23f4c51c51cbe82cef6a1db73e79fc111aa1a0e92c"
+    },
+    "magname_dat": {
+      "path": "MAGNAME.DAT",
+      "size": 24480,
+      "stock_sha256": "76a874323a0b7ebfd978b3d05abe6c177837df44a6b89df8c9055e1a85ab7b03"
+    },
+    "map2d_bin": {
+      "path": "MAP2D.BIN",
+      "size": 126600,
+      "stock_sha256": "1e8d00baefdfa282f3a63beb48ca13adec179935594bd5361bf8234c61ed6ecc",
+      "owned_sha256": "e002965045af42fe2df3d9ad05e43fe7227836b87f1605fe4c45b9f3644cdd05"
+    },
+    "maze_bin": {
+      "path": "MAZE.BIN",
+      "size": 169264,
+      "stock_sha256": "38d8a919d2d17461fc2c2ee8b41093efc893fc72d4e7eb5db243fe84560cc229",
+      "owned_sha256": "958aee162253b1ffb2bd6a192817b8fe78793fb60ee56c9d39751e8a0ef9a39a"
+    },
+    "msgr_cof": {
+      "path": "MSGR.COF",
+      "size": 103792,
+      "stock_sha256": "fc483f3483b14591bef0af1981d2d142c3621506981a596b31595283daa183fa",
+      "owned_sha256": "5dfcb51074be92f728e7f55a6282b7fa3680eab81853eb1202bf5f7a0bc97c5b"
+    },
+    "name_bin": {
+      "path": "NAME.BIN",
+      "size": 155208,
+      "stock_sha256": "cafacc4bfdd8dd1d3255d48814829e564926f6425576b82de45b54310ebcb538",
+      "owned_sha256": "3248530294cfabfa74d033e6cdbad04b6907569af49e9d9cd640685a093c8772"
+    },
+    "normcom_bin": {
+      "path": "NORMCOM.BIN",
+      "size": 352360,
+      "stock_sha256": "983d84ad48c0a497715633c0d2e380743c52e4b1644422ed027ac27e52a2aa9a",
+      "owned_sha256": "c055e60ca90d4a8faa3cbbe03284db1060ff757e36226d30a6caf35a2eff445b"
+    },
+    "normhelp_dat": {
+      "path": "NORMHELP.DAT",
+      "size": 2016,
+      "stock_sha256": "ae07f91a4d2df7a76a7afdc9f2e52edadbdd2f71b4f3a9769db6ea70014cdf85"
+    },
+    "save_bin": {
+      "path": "SAVE.BIN",
+      "size": 334736,
+      "stock_sha256": "49ce5a24f811a70b94e9ab1af327fff2e1150eb455fc1d690adc78961a68f744",
+      "owned_sha256": "ad746247c3e1ec47934f76096291f2da91003794957820c5d80be8132ba79a43"
+    },
+    "sndtest_bin": {
+      "path": "SNDTEST.BIN",
+      "size": 29192,
+      "stock_sha256": "1448c315929218bbf9ee8dd2cc3192fe3f5ae50cc225b40c8bfe0fc3ed4491ac",
+      "owned_sha256": "437a50f17b378a53b33b3864c9430e1dbb39af4c23c0e715fc1ea397838921a5"
+    },
+    "test3d_bin": {
+      "path": "TEST3D.BIN",
+      "size": 30160,
+      "stock_sha256": "858acdeacc39c18f2309cd653f18290d73d46005b169841803b4c3982a8e0427",
+      "owned_sha256": "a39181e58866de2a69ebbfa4b9e91e37cafbd302ca73ad4fb7457d94d3499daa"
+    }
+  },
+  "sources": [
+    {
+      "id": "mesfile",
+      "corpus": "eve/mesfile.json",
+      "container": {
+        "type": "eve",
+        "file": "mesfile_eve",
+        "table_offset": "0x4800",
+        "body_offset": "0x5000",
+        "source_encoding": "game_font12_16_event_skip",
+        "source_encoding_overrides": [],
+        "expected_messages": 238,
+        "expected_pages": 506,
+        "expected_body_bytes": "0x9ab6"
+      }
+    },
+    {
+      "id": "evfile_0",
+      "corpus": "eve/evfile_0.json",
+      "container": {
+        "type": "eve",
+        "file": "evfile_0_eve",
+        "table_offset": "0x4800",
+        "body_offset": "0x5000",
+        "source_encoding": "game_font12_16_event_skip",
+        "source_encoding_overrides": [
+          {
+            "messages": [
+              [
+                29,
+                30
+              ],
+              [
+                32,
+                35
+              ],
+              [
+                51,
+                58
+              ],
+              [
+                60,
+                60
+              ],
+              [
+                68,
+                71
+              ],
+              [
+                76,
+                77
+              ],
+              [
+                82,
+                83
+              ],
+              [
+                85,
+                86
+              ],
+              [
+                90,
+                91
+              ],
+              [
+                97,
+                100
+              ],
+              [
+                107,
+                109
+              ],
+              [
+                113,
+                114
+              ],
+              [
+                141,
+                143
+              ],
+              [
+                147,
+                148
+              ],
+              [
+                151,
+                152
+              ],
+              [
+                156,
+                159
+              ],
+              [
+                164,
+                166
+              ],
+              [
+                188,
+                189
+              ],
+              [
+                193,
+                194
+              ],
+              [
+                239,
+                242
+              ],
+              [
+                253,
+                254
+              ],
+              [
+                258,
+                259
+              ],
+              [
+                271,
+                274
+              ],
+              [
+                410,
+                412
+              ]
+            ],
+            "source_encoding": "game_font16_event_space"
+          }
+        ],
+        "expected_messages": 465,
+        "expected_pages": 766,
+        "expected_body_bytes": "0xaf0a"
+      }
+    },
+    {
+      "id": "evfile_1",
+      "corpus": "eve/evfile_1.json",
+      "container": {
+        "type": "eve",
+        "file": "evfile_1_eve",
+        "table_offset": "0x4800",
+        "body_offset": "0x5000",
+        "source_encoding": "game_font12_16_event_skip",
+        "source_encoding_overrides": [
+          {
+            "messages": [
+              [
+                38,
+                39
+              ],
+              [
+                183,
+                186
+              ],
+              [
+                204,
+                207
+              ],
+              [
+                243,
+                244
+              ],
+              [
+                253,
+                258
+              ],
+              [
+                295,
+                299
+              ]
+            ],
+            "source_encoding": "game_font16_event_space"
+          }
+        ],
+        "expected_messages": 329,
+        "expected_pages": 604,
+        "expected_body_bytes": "0x9cde"
+      }
+    },
+    {
+      "id": "evfile_2",
+      "corpus": "eve/evfile_2.json",
+      "container": {
+        "type": "eve",
+        "file": "evfile_2_eve",
+        "table_offset": "0x4800",
+        "body_offset": "0x5000",
+        "source_encoding": "game_font12_16_event_skip",
+        "source_encoding_overrides": [
+          {
+            "messages": [
+              [
+                41,
+                42
+              ]
+            ],
+            "source_encoding": "game_font16_event_space"
+          }
+        ],
+        "expected_messages": 73,
+        "expected_pages": 154,
+        "expected_body_bytes": "0x22ce"
+      }
+    },
+    {
+      "id": "shopsmp",
+      "corpus": "eve/shopsmp.json",
+      "container": {
+        "type": "eve",
+        "file": "shopsmp_eve",
+        "table_offset": "0x47fe",
+        "body_offset": "0x5000",
+        "source_encoding": "game_font12_16_event_skip",
+        "source_encoding_overrides": [
+          {
+            "messages": [
+              [
+                68,
+                78
+              ],
+              [
+                81,
+                97
+              ],
+              [
+                101,
+                266
+              ]
+            ],
+            "source_encoding": "game_font12_event_space"
+          },
+          {
+            "messages": [
+              [
+                4,
+                6
+              ],
+              [
+                271,
+                274
+              ],
+              [
+                667,
+                670
+              ],
+              [
+                772,
+                774
+              ],
+              [
+                778,
+                779
+              ],
+              [
+                807,
+                809
+              ]
+            ],
+            "source_encoding": "game_font16_event_space"
+          }
+        ],
+        "expected_messages": 815,
+        "expected_pages": 921,
+        "expected_body_bytes": "0x7756"
+      }
+    },
+    {
+      "id": "bosstalk",
+      "corpus": "eve/bosstalk.json",
+      "container": {
+        "type": "eve",
+        "file": "combdata_bosstalk_eve",
+        "table_offset": "0x4800",
+        "body_offset": "0x5000",
+        "source_encoding": "game_font12_16_combat_skip",
+        "source_encoding_overrides": [],
+        "expected_messages": 16,
+        "expected_pages": 16,
+        "expected_body_bytes": "0x2da"
+      }
+    },
+    {
+      "id": "tlk_bst",
+      "corpus": "eve/tlk_bst.json",
+      "container": {
+        "type": "eve",
+        "file": "combdata_tlk_bst_eve",
+        "table_offset": "0x4800",
+        "body_offset": "0x5000",
+        "source_encoding": "game_font12_16_combat_skip",
+        "source_encoding_overrides": [],
+        "expected_messages": 581,
+        "expected_pages": 599,
+        "expected_body_bytes": "0x657e"
+      }
+    },
+    {
+      "id": "kemo",
+      "corpus": "eve/kemo.json",
+      "container": {
+        "type": "eve",
+        "file": "combdata_kemo_eve",
+        "table_offset": "0x4800",
+        "body_offset": "0x5000",
+        "source_encoding": "game_font12_16_combat_skip",
+        "source_encoding_overrides": [],
+        "expected_messages": 543,
+        "expected_pages": 815,
+        "expected_body_bytes": "0x74fe"
+      }
+    },
+    {
+      "id": "tlk_kofu",
+      "corpus": "eve/tlk_kofu.json",
+      "container": {
+        "type": "eve",
+        "file": "combdata_tlk_kofu_eve",
+        "table_offset": "0x4800",
+        "body_offset": "0x5000",
+        "source_encoding": "game_font12_16_combat_skip",
+        "source_encoding_overrides": [],
+        "expected_messages": 552,
+        "expected_pages": 573,
+        "expected_body_bytes": "0x6264"
+      }
+    },
+    {
+      "id": "nbl_m",
+      "corpus": "eve/nbl_m.json",
+      "container": {
+        "type": "eve",
+        "file": "combdata_nbl_m_eve",
+        "table_offset": "0x4800",
+        "body_offset": "0x5000",
+        "source_encoding": "game_font12_16_combat_skip",
+        "source_encoding_overrides": [],
+        "expected_messages": 524,
+        "expected_pages": 767,
+        "expected_body_bytes": "0x8996"
+      }
+    },
+    {
+      "id": "tlk_hirk",
+      "corpus": "eve/tlk_hirk.json",
+      "container": {
+        "type": "eve",
+        "file": "combdata_tlk_hirk_eve",
+        "table_offset": "0x4800",
+        "body_offset": "0x5000",
+        "source_encoding": "game_font12_16_combat_skip",
+        "source_encoding_overrides": [],
+        "expected_messages": 579,
+        "expected_pages": 600,
+        "expected_body_bytes": "0x811c"
+      }
+    },
+    {
+      "id": "tlk_yngm",
+      "corpus": "eve/tlk_yngm.json",
+      "container": {
+        "type": "eve",
+        "file": "combdata_tlk_yngm_eve",
+        "table_offset": "0x4800",
+        "body_offset": "0x5000",
+        "source_encoding": "game_font12_16_combat_skip",
+        "source_encoding_overrides": [],
+        "expected_messages": 600,
+        "expected_pages": 637,
+        "expected_body_bytes": "0x7b2a"
+      }
+    },
+    {
+      "id": "grl",
+      "corpus": "eve/grl.json",
+      "container": {
+        "type": "eve",
+        "file": "combdata_grl_eve",
+        "table_offset": "0x4800",
+        "body_offset": "0x5000",
+        "source_encoding": "game_font12_16_combat_skip",
+        "source_encoding_overrides": [],
+        "expected_messages": 554,
+        "expected_pages": 796,
+        "expected_body_bytes": "0x8436"
+      }
+    },
+    {
+      "id": "tlk_boy",
+      "corpus": "eve/tlk_boy.json",
+      "container": {
+        "type": "eve",
+        "file": "combdata_tlk_boy_eve",
+        "table_offset": "0x4800",
+        "body_offset": "0x5000",
+        "source_encoding": "game_font12_16_combat_skip",
+        "source_encoding_overrides": [],
+        "expected_messages": 559,
+        "expected_pages": 581,
+        "expected_body_bytes": "0x6fde"
+      }
+    },
+    {
+      "id": "cld_f",
+      "corpus": "eve/cld_f.json",
+      "container": {
+        "type": "eve",
+        "file": "combdata_cld_f_eve",
+        "table_offset": "0x4800",
+        "body_offset": "0x5000",
+        "source_encoding": "game_font12_16_combat_skip",
+        "source_encoding_overrides": [],
+        "expected_messages": 540,
+        "expected_pages": 723,
+        "expected_body_bytes": "0x7604"
+      }
+    },
+    {
+      "id": "tlk_lady",
+      "corpus": "eve/tlk_lady.json",
+      "container": {
+        "type": "eve",
+        "file": "combdata_tlk_lady_eve",
+        "table_offset": "0x4800",
+        "body_offset": "0x5000",
+        "source_encoding": "game_font12_16_combat_skip",
+        "source_encoding_overrides": [],
+        "expected_messages": 595,
+        "expected_pages": 620,
+        "expected_body_bytes": "0x70f4"
+      }
+    },
+    {
+      "id": "tlk_crzy",
+      "corpus": "eve/tlk_crzy.json",
+      "container": {
+        "type": "eve",
+        "file": "combdata_tlk_crzy_eve",
+        "table_offset": "0x4800",
+        "body_offset": "0x5000",
+        "source_encoding": "game_font12_16_combat_skip",
+        "source_encoding_overrides": [],
+        "expected_messages": 569,
+        "expected_pages": 590,
+        "expected_body_bytes": "0x863c"
+      }
+    },
+    {
+      "id": "jijy",
+      "corpus": "eve/jijy.json",
+      "container": {
+        "type": "eve",
+        "file": "combdata_jijy_eve",
+        "table_offset": "0x4800",
+        "body_offset": "0x5000",
+        "source_encoding": "game_font12_16_combat_skip",
+        "source_encoding_overrides": [],
+        "expected_messages": 543,
+        "expected_pages": 745,
+        "expected_body_bytes": "0x8266"
+      }
+    },
+    {
+      "id": "cyni",
+      "corpus": "eve/cyni.json",
+      "container": {
+        "type": "eve",
+        "file": "combdata_cyni_eve",
+        "table_offset": "0x4800",
+        "body_offset": "0x5000",
+        "source_encoding": "game_font12_16_combat_skip",
+        "source_encoding_overrides": [],
+        "expected_messages": 553,
+        "expected_pages": 798,
+        "expected_body_bytes": "0x863e"
+      }
+    },
+    {
+      "id": "tlk_west",
+      "corpus": "eve/tlk_west.json",
+      "container": {
+        "type": "eve",
+        "file": "combdata_tlk_west_eve",
+        "table_offset": "0x4800",
+        "body_offset": "0x5000",
+        "source_encoding": "game_font12_16_combat_skip",
+        "source_encoding_overrides": [],
+        "expected_messages": 565,
+        "expected_pages": 584,
+        "expected_body_bytes": "0x7744"
+      }
+    },
+    {
+      "id": "slm",
+      "corpus": "eve/slm.json",
+      "container": {
+        "type": "eve",
+        "file": "combdata_slm_eve",
+        "table_offset": "0x4800",
+        "body_offset": "0x5000",
+        "source_encoding": "game_font12_16_combat_skip",
+        "source_encoding_overrides": [],
+        "expected_messages": 384,
+        "expected_pages": 482,
+        "expected_body_bytes": "0x4c2a"
+      }
+    },
+    {
+      "id": "btl_help",
+      "corpus": "fixed/btl_help.json",
+      "container": {
+        "type": "fixed_records",
+        "file": "btl_help_dat",
+        "blocks": [
+          {
+            "base": "0x0",
+            "count": 19,
+            "stride": "0x2c"
+          }
+        ],
+        "fields": [
+          {
+            "name": "text",
+            "offset": "0x0",
+            "units": 22,
+            "source_encoding": "game_font12_16_combat_skip",
+            "framing": {
+              "type": "terminated",
+              "code": "0x8000"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "normhelp",
+      "corpus": "fixed/normhelp.json",
+      "container": {
+        "type": "fixed_records",
+        "file": "normhelp_dat",
+        "blocks": [
+          {
+            "base": "0x0",
+            "count": 24,
+            "stride": "0x54"
+          }
+        ],
+        "fields": [
+          {
+            "name": "text",
+            "offset": "0x0",
+            "units": 42,
+            "source_encoding": "game_font12_16_event_skip",
+            "framing": {
+              "type": "terminated",
+              "code": "0x8000"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "itemname",
+      "corpus": "fixed/itemname.json",
+      "container": {
+        "type": "fixed_records",
+        "file": "itemname_dat",
+        "blocks": [
+          {
+            "base": "0x0",
+            "count": 287,
+            "stride": "0x60"
+          }
+        ],
+        "fields": [
+          {
+            "name": "name",
+            "offset": "0x4",
+            "units": 8,
+            "source_encoding": "game_font8_plain_glyph",
+            "framing": {
+              "type": "zero_padded"
+            }
+          },
+          {
+            "name": "description",
+            "offset": "0xc",
+            "units": 42,
+            "source_encoding": "game_font16_event_space",
+            "framing": {
+              "type": "terminated",
+              "code": "0x8000"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "magname",
+      "corpus": "fixed/magname.json",
+      "container": {
+        "type": "fixed_records",
+        "file": "magname_dat",
+        "blocks": [
+          {
+            "base": "0x0",
+            "count": 255,
+            "stride": "0x60"
+          }
+        ],
+        "fields": [
+          {
+            "name": "name",
+            "offset": "0x4",
+            "units": 8,
+            "source_encoding": "game_font8_plain_glyph",
+            "framing": {
+              "type": "zero_padded"
+            }
+          },
+          {
+            "name": "description",
+            "offset": "0xc",
+            "units": 42,
+            "source_encoding": "game_font16_event_space",
+            "framing": {
+              "type": "terminated",
+              "code": "0x8000"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "btl_mes",
+      "corpus": "pointer/btl_mes.json",
+      "container": {
+        "type": "pointer_bank",
+        "file": "btl_mes_md8",
+        "table_offset": "0x0",
+        "table_end": "0x800",
+        "body_offset": "0x800",
+        "pointer_unit": "byte",
+        "terminator": "0x80",
+        "source_encoding": "game_battle_smallfont",
+        "expected_records": 358,
+        "sentinel_offset": "0x2cc"
+      }
+    },
+    {
+      "id": "btl_srf",
+      "corpus": "pointer/btl_srf.json",
+      "container": {
+        "type": "pointer_bank",
+        "file": "btl_srf_mdt",
+        "table_offset": "0x0",
+        "table_end": "0x400",
+        "body_offset": "0x400",
+        "pointer_unit": "word",
+        "terminator": "0x8000",
+        "source_encoding": "game_font12_16_combat_skip",
+        "expected_records": 363,
+        "sentinel_offset": "0x2d6"
+      }
+    },
+    {
+      "id": "butu_srf",
+      "corpus": "pointer/butu_srf.json",
+      "container": {
+        "type": "pointer_bank",
+        "file": "butu_srf_mdt",
+        "table_offset": "0x0",
+        "table_end": "0x400",
+        "body_offset": "0x400",
+        "pointer_unit": "word",
+        "terminator": "0x8000",
+        "source_encoding": "game_font12_16_combat_skip",
+        "expected_records": 144,
+        "sentinel_offset": "0x120"
+      }
+    },
+    {
+      "id": "charname",
+      "corpus": "fixed/charname.json",
+      "container": {
+        "type": "fixed_records",
+        "file": "charname_dat",
+        "blocks": [
+          {
+            "base": "0x0",
+            "count": 6,
+            "stride": "0x8"
+          }
+        ],
+        "fields": [
+          {
+            "name": "text",
+            "offset": "0x0",
+            "units": 8,
+            "source_encoding": "game_font8_plain_glyph",
+            "framing": {
+              "type": "zero_padded"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "dvlname",
+      "corpus": "fixed/dvlname.json",
+      "container": {
+        "type": "fixed_records",
+        "file": "dvlname_dat",
+        "blocks": [
+          {
+            "base": "0x0",
+            "count": 319,
+            "stride": "0x8"
+          }
+        ],
+        "fields": [
+          {
+            "name": "text",
+            "offset": "0x0",
+            "units": 8,
+            "source_encoding": "game_font8_plain_glyph",
+            "framing": {
+              "type": "zero_padded"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "combat_condition_messages",
+      "corpus": "fixed/combat_condition_messages.json",
+      "container": {
+        "type": "fixed_records",
+        "file": "combat_bin",
+        "blocks": [
+          {
+            "base": "0x5455c",
+            "count": 16,
+            "stride": "0x2c"
+          },
+          {
+            "base": "0x5481c",
+            "count": 16,
+            "stride": "0x2c"
+          },
+          {
+            "base": "0x54adc",
+            "count": 16,
+            "stride": "0x2c"
+          },
+          {
+            "base": "0x54d9c",
+            "count": 16,
+            "stride": "0x2c"
+          },
+          {
+            "base": "0x5505c",
+            "count": 16,
+            "stride": "0x2c"
+          },
+          {
+            "base": "0x5531c",
+            "count": 16,
+            "stride": "0x2c"
+          },
+          {
+            "base": "0x555dc",
+            "count": 16,
+            "stride": "0x2c"
+          },
+          {
+            "base": "0x5589c",
+            "count": 1,
+            "stride": "0x2c"
+          }
+        ],
+        "fields": [
+          {
+            "name": "text",
+            "offset": "0x0",
+            "units": 22,
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "terminated",
+              "code": "0x8000"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "hosi_messages",
+      "corpus": "fixed/hosi_messages.json",
+      "container": {
+        "type": "fixed_records",
+        "file": "hosi_bin",
+        "blocks": [
+          {
+            "base": "0x10f62",
+            "count": 8,
+            "stride": "0x2a"
+          }
+        ],
+        "fields": [
+          {
+            "name": "text",
+            "offset": "0x0",
+            "units": 21,
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "terminated",
+              "code": "0x8000"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "end_roll_names",
+      "corpus": "addressed/end_roll_names.json",
+      "container": {
+        "type": "addressed",
+        "file": "end_roll_bin",
+        "default_source_encoding": "game_font16_plain_separator_space",
+        "tables": [],
+        "records": [
+          {
+            "name": "main_staff_00",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x19fa8",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_01",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x19fb4",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_02",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x19fc0",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_03",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x19fcc",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_04",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x19fd8",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_05",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x19fe4",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_06",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x19ff0",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_07",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x19ffc",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_08",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1a008",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_09",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1a014",
+                    "units": 6
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_10",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1a020",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_11",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1a02c",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_12",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1a038",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_13",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1a044",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_14",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1a050",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_15",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1a05c",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_16",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1a068",
+                    "units": 6
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_17",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1a074",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_18",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1a080",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_19",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1a08c",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_20",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1a098",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_21",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1a0a4",
+                    "units": 6
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_22",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1a0b0",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_23",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1a0bc",
+                    "units": 6
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_24",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1a0c8",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_25",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1a0d4",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_26",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1a0e0",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "main_staff_27",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1a0ec",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "test_staff_00",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20304",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "test_staff_01",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20312",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "test_staff_02",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20320",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "test_staff_03",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x2032e",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "test_staff_04",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x2033c",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "test_staff_05",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x2034a",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "test_staff_06",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20358",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "test_staff_07",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20366",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "test_staff_08",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20374",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "test_staff_09",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20382",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "test_staff_10",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x203ac",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "test_staff_11",
+            "source_encoding": "game_font16_plain_separator_space",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x203ba",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "automap_system",
+      "corpus": "addressed/automap_system.json",
+      "container": {
+        "type": "addressed",
+        "file": "automapc_bin",
+        "default_source_encoding": "game_font16_plain_skip",
+        "tables": [],
+        "records": [
+          {
+            "name": "marker_delete",
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0xa69c",
+                    "units": 6
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "combat_system",
+      "corpus": "addressed/combat_system.json",
+      "container": {
+        "type": "addressed",
+        "file": "combat_bin",
+        "default_source_encoding": "game_font16_plain_skip",
+        "tables": [],
+        "records": [
+          {
+            "name": "cash",
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "terminated",
+              "code": "0x8000"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x528f4",
+                    "units": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "magnetite",
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "terminated",
+              "code": "0x8000"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x5291c",
+                    "units": 7
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "item",
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "terminated",
+              "code": "0x8000"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x52944",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "give_nothing",
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "terminated",
+              "code": "0x8000"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x5454e",
+                    "units": 7
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "level_up_system",
+      "corpus": "addressed/level_up_system.json",
+      "container": {
+        "type": "addressed",
+        "file": "level_up_bin",
+        "default_source_encoding": "game_font16_plain_skip",
+        "tables": [],
+        "records": [
+          {
+            "name": "learned_magic",
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "terminated",
+              "code": "0x8000"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x8f2c",
+                    "units": 6
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "load_capacity",
+      "corpus": "addressed/load_capacity.json",
+      "container": {
+        "type": "addressed",
+        "file": "load_bin",
+        "default_source_encoding": "game_font16_plain_skip",
+        "tables": [],
+        "records": [
+          {
+            "name": "capacity_number",
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0xb1ae",
+                    "units": 3
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "maze_messages",
+      "corpus": "addressed/maze_messages.json",
+      "container": {
+        "type": "addressed",
+        "file": "maze_bin",
+        "default_source_encoding": "game_font16_plain_skip",
+        "tables": [],
+        "records": [
+          {
+            "name": "talk_prompt",
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x250e4",
+                    "units": 14
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "operation_disabled",
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x25124",
+                    "units": 14
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "nothing_notable",
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x25150",
+                    "units": 14
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "nothing_found",
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x2516c",
+                    "units": 14
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "items_full",
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x25188",
+                    "units": 14
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "already_searched",
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x251a4",
+                    "units": 14
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "obtained_suffix_a",
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x251d0",
+                    "units": 6
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "obtained_suffix_b",
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x251dc",
+                    "units": 6
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "full_suffix",
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x251e8",
+                    "units": 6
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "found_suffix",
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x251f4",
+                    "units": 6
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "enemy_surprise",
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x25234",
+                    "units": 14
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "enemy_behind",
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x25250",
+                    "units": 14
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "preemptive_chance",
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x2526c",
+                    "units": 14
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "auto_recover_on",
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x252b4",
+                    "units": 10
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "no_effect",
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x252d0",
+                    "units": 14
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "normcom_tables",
+      "corpus": "addressed/normcom_tables.json",
+      "container": {
+        "type": "addressed",
+        "file": "normcom_bin",
+        "default_source_encoding": "game_font16_plain_skip",
+        "tables": [
+          {
+            "name": "races",
+            "count": 43,
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "optional_terminated",
+              "code": "0x8000"
+            },
+            "require_identical_bytes": false,
+            "locations": [
+              {
+                "file": "normcom_bin",
+                "base": "0x1f974",
+                "stride": "0x6",
+                "units": 3
+              },
+              {
+                "file": "da_3d_bin",
+                "base": "0x44386",
+                "stride": "0x6",
+                "units": 3
+              },
+              {
+                "file": "event_bin",
+                "base": "0x54828",
+                "stride": "0x6",
+                "units": 3
+              },
+              {
+                "file": "combat_bin",
+                "base": "0x543c0",
+                "stride": "0x8",
+                "units": 4
+              },
+              {
+                "file": "msgr_cof",
+                "base": "0x18d90",
+                "stride": "0x8",
+                "units": 4
+              }
+            ]
+          },
+          {
+            "name": "affinities",
+            "count": 96,
+            "source_encoding": "game_font16_plain_separator_newline",
+            "framing": {
+              "type": "terminated",
+              "code": "0x8000"
+            },
+            "require_identical_bytes": true,
+            "locations": [
+              {
+                "file": "normcom_bin",
+                "base": "0x1fa76",
+                "stride": "0x22",
+                "units": 17
+              },
+              {
+                "file": "da_3d_bin",
+                "base": "0x44488",
+                "stride": "0x22",
+                "units": 17
+              },
+              {
+                "file": "event_bin",
+                "base": "0x5492a",
+                "stride": "0x22",
+                "units": 17
+              }
+            ]
+          }
+        ],
+        "records": []
+      }
+    },
+    {
+      "id": "combat_debug",
+      "corpus": "addressed/combat_debug.json",
+      "container": {
+        "type": "addressed",
+        "file": "combat_bin",
+        "default_source_encoding": "game_font16_plain_glyph",
+        "tables": [],
+        "records": [
+          {
+            "name": "record_00",
+            "framing": {
+              "type": "terminated",
+              "code": "0x8000"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x5451c",
+                    "units": 7
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "record_01",
+            "framing": {
+              "type": "terminated",
+              "code": "0x8000"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x5452c",
+                    "units": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "record_02",
+            "framing": {
+              "type": "terminated",
+              "code": "0x8000"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x55a08",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "record_03",
+            "framing": {
+              "type": "terminated",
+              "code": "0x8000"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x55a32",
+                    "units": 6
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "record_04",
+            "framing": {
+              "type": "terminated",
+              "code": "0x8000"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x55a5c",
+                    "units": 7
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "record_05",
+            "framing": {
+              "type": "terminated",
+              "code": "0x8000"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x55a86",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "record_06",
+            "framing": {
+              "type": "boundary",
+              "code": "0xca"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x55ab0",
+                    "units": 2
+                  }
+                ]
+              },
+              {
+                "spans": [
+                  {
+                    "offset": "0x55ada",
+                    "units": 2
+                  }
+                ]
+              },
+              {
+                "spans": [
+                  {
+                    "offset": "0x55b04",
+                    "units": 2
+                  }
+                ]
+              },
+              {
+                "spans": [
+                  {
+                    "offset": "0x55b2e",
+                    "units": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "record_07",
+            "framing": {
+              "type": "boundary",
+              "code": "0xcb"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x55ab6",
+                    "units": 10
+                  }
+                ]
+              },
+              {
+                "spans": [
+                  {
+                    "offset": "0x55ae0",
+                    "units": 10
+                  }
+                ]
+              },
+              {
+                "spans": [
+                  {
+                    "offset": "0x55b0a",
+                    "units": 10
+                  }
+                ]
+              },
+              {
+                "spans": [
+                  {
+                    "offset": "0x55b34",
+                    "units": 10
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "record_08",
+            "framing": {
+              "type": "boundary",
+              "code": "0x0"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x55acc",
+                    "units": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "record_09",
+            "framing": {
+              "type": "terminated",
+              "code": "0x8000"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x55ad2",
+                    "units": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "record_10",
+            "framing": {
+              "type": "boundary",
+              "code": "0x0"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x55af6",
+                    "units": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "record_11",
+            "framing": {
+              "type": "terminated",
+              "code": "0x8000"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x55afe",
+                    "units": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "record_12",
+            "framing": {
+              "type": "terminated",
+              "code": "0x8000"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x55b20",
+                    "units": 6
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "record_13",
+            "framing": {
+              "type": "terminated",
+              "code": "0x8000"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x55b4a",
+                    "units": 6
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "automap_marker_ui",
+      "corpus": "addressed/automap_marker_ui.json",
+      "container": {
+        "type": "addressed",
+        "file": "automapc_bin",
+        "default_source_encoding": "ascii",
+        "tables": [],
+        "records": [
+          {
+            "name": "marker_no_data",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9aa8",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "marker_yes",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0xa5e0",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "marker_no",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0xa5e4",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sndtest_fields",
+      "corpus": "addressed/sndtest_fields.json",
+      "container": {
+        "type": "addressed",
+        "file": "sndtest_bin",
+        "default_source_encoding": "ascii",
+        "tables": [],
+        "records": [
+          {
+            "name": "title",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x6fac",
+                    "units": 20
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "request_number",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x6fc0",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "sound_effect_request_number",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x6fc8",
+                    "units": 12
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "exit_message",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x6fd4",
+                    "units": 18
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "test3d_fields",
+      "corpus": "addressed/test3d_fields.json",
+      "container": {
+        "type": "addressed",
+        "file": "test3d_bin",
+        "default_source_encoding": "ascii",
+        "tables": [],
+        "records": [
+          {
+            "name": "title",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x695c",
+                    "units": 20
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "control",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x6970",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "map_number",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x6978",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "direction",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x6980",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "x_position",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x6988",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "y_position",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x6990",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "launch",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x69a0",
+                    "units": 20
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fusion_confirmation_static",
+      "corpus": "addressed/fusion_confirmation_static.json",
+      "container": {
+        "type": "addressed",
+        "file": "event_bin",
+        "default_source_encoding": "game_font16_plain_skip",
+        "tables": [],
+        "records": [
+          {
+            "name": "confirm_prompt",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x5458e",
+                    "units": 9
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "level_too_low",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x545b6",
+                    "units": 20
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "duplicate_demon",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x545de",
+                    "units": 11
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "begin_fusion",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x54606",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "label_yes",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x5462e",
+                    "units": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "label_no",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x54636",
+                    "units": 2
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "dungeon_locations",
+      "corpus": "fixed/dungeon_locations.json",
+      "container": {
+        "type": "fixed_records",
+        "file": "maze_bin",
+        "blocks": [
+          {
+            "base": "0x2532c",
+            "count": 144,
+            "stride": "0x20"
+          }
+        ],
+        "fields": [
+          {
+            "name": "text",
+            "offset": "0x2",
+            "units": 5,
+            "source_encoding": "game_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "name_static",
+      "corpus": "addressed/name_static.json",
+      "container": {
+        "type": "addressed",
+        "file": "name_bin",
+        "default_source_encoding": "game_font16_plain_skip",
+        "tables": [],
+        "records": [
+          {
+            "name": "prompt_first",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20b78",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "prompt_last",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20b78",
+                    "units": 8
+                  }
+                ]
+              }
+            ],
+            "fork_of": "prompt_first"
+          },
+          {
+            "name": "prompt_codename",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20ba0",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "prompt_city",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20bc8",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "prompt_ward",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20bc8",
+                    "units": 8
+                  }
+                ]
+              }
+            ],
+            "fork_of": "prompt_city"
+          },
+          {
+            "name": "prompt_confirm",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20c18",
+                    "units": 10
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "label_yes",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20c30",
+                    "units": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "label_no",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20c38",
+                    "units": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "prompt_occupation",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20cb8",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "label_occupation",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20cb8",
+                    "units": 8
+                  }
+                ]
+              }
+            ],
+            "fork_of": "prompt_occupation"
+          },
+          {
+            "name": "tab_upper",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20c40",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tab_lower",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20c68",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tab_symbol",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20dd0",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "occupation_employee",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20ce0",
+                    "units": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "occupation_student",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20d08",
+                    "units": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "occupation_official",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20d30",
+                    "units": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "occupation_part_time",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20d58",
+                    "units": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "occupation_business",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20d80",
+                    "units": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "occupation_jobless",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20da8",
+                    "units": 3
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "save_static",
+      "corpus": "addressed/save_static.json",
+      "container": {
+        "type": "addressed",
+        "file": "save_bin",
+        "default_source_encoding": "game_font16_plain_skip",
+        "tables": [],
+        "records": [
+          {
+            "name": "location_home",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x51b2c",
+                    "units": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "location_office",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x51b30",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "location_asahi",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x51b3a",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "location_rinkai_park",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x51b42",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "location_mount_kasagi",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x51b4a",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "location_yarai",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x51b52",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "location_chuo",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x51b5a",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "location_hibarigaoka",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x51b62",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "empty",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x50760",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "prompt_overwrite",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x508a4",
+                    "units": 11
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "prompt_quit_game",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x508c6",
+                    "units": 11
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "save_write_failure",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x50658",
+                    "units": 17
+                  },
+                  {
+                    "offset": "0x50684",
+                    "units": 10
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "save_capacity_error",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x5076a",
+                    "units": 15
+                  },
+                  {
+                    "offset": "0x50788",
+                    "units": 17
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "save_capacity_failure",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x508dc",
+                    "units": 11
+                  },
+                  {
+                    "offset": "0x508f2",
+                    "units": 11
+                  },
+                  {
+                    "offset": "0x50908",
+                    "units": 11
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "load_static",
+      "corpus": "addressed/load_static.json",
+      "container": {
+        "type": "addressed",
+        "file": "load_bin",
+        "default_source_encoding": "game_font16_plain_skip",
+        "tables": [],
+        "records": [
+          {
+            "name": "start_without_save_warning",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0xb020",
+                    "units": 30
+                  },
+                  {
+                    "offset": "0xb070",
+                    "units": 30
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "insufficient_free_space_instructions",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0xb0c0",
+                    "units": 33
+                  },
+                  {
+                    "offset": "0xb110",
+                    "units": 65
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "save_capacity_error",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0xb1be",
+                    "units": 15
+                  },
+                  {
+                    "offset": "0xb1dc",
+                    "units": 17
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "load_failure",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0xb1fe",
+                    "units": 20
+                  },
+                  {
+                    "offset": "0xb22a",
+                    "units": 10
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "config_static",
+      "corpus": "addressed/config_static.json",
+      "container": {
+        "type": "addressed",
+        "file": "cfg_set_bin",
+        "default_source_encoding": "game_font16_plain_skip",
+        "tables": [],
+        "records": [
+          {
+            "name": "battle_messages",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9e3a",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "auto_map",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9e4a",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "party_panel",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9e5a",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "demon_analyze",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9e6a",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "sound",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9e7a",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "magic_order",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9e8a",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "item_order",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9e9a",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "speed_fast",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9eaa",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "speed_normal",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9eba",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "speed_slow",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9eca",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "party_fixed",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9eda",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "party_free",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9eea",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "graph",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9efa",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "max",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9f0a",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "display_normal",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9f1a",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "display_reverse",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9f2a",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "stereo",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9f3a",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "mono",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9f4a",
+                    "units": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "controls",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9f6a",
+                    "units": 9
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "mode_normal",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9f7c",
+                    "units": 9
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "mode_custom",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9f8e",
+                    "units": 6
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "assist_heal",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9fa0",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "assist_skill",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9faa",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "assist_buff",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9fb4",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "assist_attack_support",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9fbe",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "assist_item",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9fc8",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "assist_gem",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9fd2",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "assist_equip",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x9fdc",
+                    "units": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "action_full_cancel",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x42b46",
+                    "units": 8
+                  }
+                ]
+              }
+            ],
+            "source_encoding": "game_config_action_u16_skip"
+          },
+          {
+            "name": "action_cancel",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x42b56",
+                    "units": 8
+                  }
+                ]
+              }
+            ],
+            "source_encoding": "game_config_action_u16_skip"
+          },
+          {
+            "name": "action_confirm",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x42b66",
+                    "units": 8
+                  }
+                ]
+              }
+            ],
+            "source_encoding": "game_config_action_u16_skip"
+          },
+          {
+            "name": "action_help",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x42b76",
+                    "units": 8
+                  }
+                ]
+              }
+            ],
+            "source_encoding": "game_config_action_u16_skip"
+          },
+          {
+            "name": "action_recover",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x42b86",
+                    "units": 8
+                  }
+                ]
+              }
+            ],
+            "source_encoding": "game_config_action_u16_skip"
+          },
+          {
+            "name": "action_command",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x42b96",
+                    "units": 8
+                  }
+                ]
+              }
+            ],
+            "source_encoding": "game_config_action_u16_skip"
+          },
+          {
+            "name": "action_auto_map",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x42ba6",
+                    "units": 8
+                  }
+                ]
+              }
+            ],
+            "source_encoding": "game_config_action_u16_skip"
+          },
+          {
+            "name": "action_analyze",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x42bb6",
+                    "units": 8
+                  }
+                ]
+              }
+            ],
+            "source_encoding": "game_config_action_u16_skip"
+          },
+          {
+            "name": "footer_assign",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x42bd6",
+                    "units": 9
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "footer_finish",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x42be8",
+                    "units": 9
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "maze_speech_choices_static",
+      "corpus": "addressed/maze_speech_choices_static.json",
+      "container": {
+        "type": "addressed",
+        "file": "maze_bin",
+        "default_source_encoding": "game_font16_plain_skip",
+        "tables": [],
+        "records": [
+          {
+            "name": "label_yes",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x250d0",
+                    "units": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "label_no",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x250d6",
+                    "units": 3
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "map_static",
+      "corpus": "addressed/map_static.json",
+      "container": {
+        "type": "addressed",
+        "file": "map2d_bin",
+        "default_source_encoding": "game_font16_plain_skip",
+        "tables": [],
+        "records": [
+          {
+            "name": "location_rinkai_park",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1e68e",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "location_mount_kasagi",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1e698",
+                    "units": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "location_yarai",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1e6a2",
+                    "units": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "location_chuo",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1e6ac",
+                    "units": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "location_hibarigaoka",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1e6b6",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "talk_prompt",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1e756",
+                    "units": 14
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "label_yes",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1e774",
+                    "units": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "label_no",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1e77c",
+                    "units": 2
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,4722 @@
+[
+  {
+    "id": "game.tlk_crzy.m0000.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8025}ただいまメッセージさくせいちゅう{n}{OP:8022}COMINGSOON{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0001.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "MAKING{OP:8025}NOW{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0002.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なかまにいるんだ～ぜ～！{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0003.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オイラまんげつのよるはハイなんだ{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0004.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "このまえはありがとうなかまになるぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0005.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "このまえはよくもやっつけてやるぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0006.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "このまえはありがとうれいをするぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0007.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わりこみかいしなんかいうんだ～ぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0008.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "さいごのひとりになっちまったんだぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0009.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{codename}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0010.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{kyouji_name}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0011.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "名乗らない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0012.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえこそ誰だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0013.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんのことだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0014.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もちろんだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0015.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…………",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0016.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何が見えるんだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0017.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "見たい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0018.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "別に…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0019.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "見たくない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0020.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "見せてやろうか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0021.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "見たい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0022.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "別に…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0023.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "見たくない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0024.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "見せてやろうか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0025.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "違う",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0026.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0027.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやサルだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0028.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いや人間だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0029.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "違う",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0030.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0031.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやブタだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0032.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いや人間だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0033.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんのことだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0034.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "知るか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0035.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんのことだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0036.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "知るか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0037.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やってみろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0038.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だめだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0039.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やめておけ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0040.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やってみろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0041.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だめだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0042.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうか…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0043.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "自分も楽しい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0044.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "つまらん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0045.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうか…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0046.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "自分もうれしい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0047.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "つまらん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0048.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かってないのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0049.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "自分で思い出せ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0050.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いい加減にしろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0051.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…………",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0052.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえのせいだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0053.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0054.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…………",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0055.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0056.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0057.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0058.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえがやれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0059.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "これでも食え",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0060.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ガマンしろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0061.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0062.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ガマンしろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0063.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとう？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0064.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0065.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0066.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0067.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0068.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "無理を言うな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0069.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "飲む",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0070.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なめる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0071.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "飲まない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0072.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "食べる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0073.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "一口かじる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0074.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "投げ捨てる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0075.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こちらこそたのむ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0076.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0077.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "遠慮しておく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0078.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0079.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "別に…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0080.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔になれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0081.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ここから消えろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0082.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "お願いします",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0083.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "たのむ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0084.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "結構だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0085.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "絶対にいやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0086.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだな…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0087.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0088.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "欲しいものを言え",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0089.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0090.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0091.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんのことだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0092.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それがどうした",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0093.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0094.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0095.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなことはない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0096.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かりました",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0097.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0098.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だめだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0099.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0100.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やめろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0101.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "待ってくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0102.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何をするつもりだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0103.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "その前に俺がやる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0104.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0105.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕方がない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0106.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それはできない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0107.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0108.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ごめんなさい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0109.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0110.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それはできない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0111.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0112.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あれ？{BEAT}{n}ん？{BEAT}{n}うううん…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0113.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたどなたでしたっけ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0114.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ…{BEAT}あああ…{WAIT}{n}思い出せんな…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0115.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クッククッ{BEAT}クッ…{n}フフフハハハハハハ…{n}思い出したぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0116.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうか…{n}今日は日曜日か…{n}クッククッ{BEAT}クッ…{BEAT}ハハハハ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0117.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうか知らなかった…{WAIT}{n}いや知っていたの…かな…{n}ううん…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0118.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうか…{n}今日は大根が安いのか…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0119.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クスッククッケケケケキヒ{n}あなた…{BEAT}あんたあ{n}口がきけないんだあなあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0120.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あなたは…おおまえっ…{n}クッククッ{BEAT}クッ…{BEAT}ハハハハ…{n}ヒーッヒヒヒヒ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0121.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ああーん？{n}オレは…だな{n}えーっと{BEAT}…誰だっけかなあ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0122.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレのことかあ？{n}あーん…{BEAT}うーん{BEAT}{n}もちろん{kyouji_name}だああああ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0123.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやあ？{BEAT}{n}うんん？{BEAT}{n}あれえええ！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0124.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ああなたにもお見えますよね？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0125.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "見えるんだあよう！{n}ひぃいいいいっ{n}や{BEAT}やめてくれええ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0126.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだと{n}あなっ…{BEAT}あんたああ！！{n}あれが見えないって言うのかああっ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0127.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ややっぱりいい…{n}クッククッ{BEAT}クッ…{BEAT}ハハハハ…{n}ヒヒヒヒイイいいいっ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0128.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかいるんですか？{n}私には見えない…{BEAT}見えねえええぇ{n}オレには見えねええぇぇぇんだよう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0129.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ぎひっだまらないでおくれよう！{n}一人にしないでおくれよおおおう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0130.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんで教えてくれなかったんだ！{WAIT}{n}ヒッ！！{BEAT}{n}たっ助けてくれええぇ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0131.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ～ああああ！！{n}見えるううううぅぅぅぅぅ{n}わあああああ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0132.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "来るなあああああ！！{n}助けてくれ～！！{n}ひいいいいいいっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0133.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うっ！{BEAT}{n}ぬおっ{BEAT}{n}くっ………",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0134.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あんたあ…{BEAT}誰だっけ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0135.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだあ{codename}かあ…{n}ひひ久しぶりじゃねえかあ…{n}ん？{BEAT}あ{BEAT}違う？？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0136.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{codename}？？{n}{codename}だって？？？{n}クッククッ{BEAT}クッ…{BEAT}ハハハハ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0137.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかあ{BEAT}{n}{kyouji_name}ねえ…{n}クッククッ{BEAT}クッ…{BEAT}ハハハハ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0138.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "違うんだよお{n}オレの知ってる{kyouji_name}は{n}こんな顔じゃあないんだよおお…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0139.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なーんだあ{n}名前もねえのかよ…{BEAT}ヒヒッ{n}じゃあ今日からああ「ポチ」だああ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0140.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…………{n}んー？{BEAT}んん…？？{n}今オレなんか言ったっけえかなあ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0141.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレかあ！{BEAT}{n}オレはなあ…{WAIT}オレはなあ…{n}ええーっと…{BEAT}なんだっけ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0142.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレの実家は長野だ！！{WAIT}…と思うけど{n}それがどうかしたのかあ？{n}変な奴だあなあ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0143.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うーんん！？{BEAT}{n}ぐうおわお！！{BEAT}{n}ん…{BEAT}んんんん…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0144.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あんたにも見えるだろう？？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0145.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それはだなあ{BEAT}ほらあ！{n}あれだよ！あれ！{n}あれ！あれ！あれ！{BEAT}あれっ？？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0146.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "来るぞ来るぞ{WAIT}{n}来た来た来た来た来たああ！{n}いやだあああぁ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0147.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かってんなら早くうふせろっ！{WAIT}{n}ヒッ！{BEAT}ぶつかるうううぅっ！！{WAIT}{n}……どうしてえあんたあ平気なんだあ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0148.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それに…{BEAT}聞こえるぞ…{n}女ぬおおおヒメイだあああ～{n}フフフハハハハハハ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0149.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どぅおおおしてええだまってえるんだあ？{WAIT}{n}あーん？{BEAT}{n}オレを殺る気なのくわああぁぁ？？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0150.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あんた…{BEAT}いやあなた…{n}おかわいそうに…{n}耳が聞こえないのですね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0151.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "消えた…{WAIT}{n}見えたよね？{BEAT}見えたよね！！{n}あんたも見たんだろうう？？ええっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0152.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こっ来ないでえええ来ないでくれよう！{WAIT}{n}せっ{BEAT}先生ィィィ！{n}許してくれよう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0153.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ぐおあぐげ…{BEAT}ご{BEAT}{n}ぐごご…{BEAT}{n}ぐふう…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0154.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえいったい誰なんだよう？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0155.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ケケケきひい{WAIT}{n}そうかそうか…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0156.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレは{demon_name}だあっ！{WAIT}{n}{demon_name}なんだよう…{n}{demon_name}なんですうっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0157.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんじゃそりゃ！？{n}ケケケ…{n}きひぃ～っ！{WAIT}どうも…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0158.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなのか3月生まれなのか…{n}オレと同じだな{WAIT}{n}うれしいぞおおおぉ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0159.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "恥ずかしがり屋さんなのかあ…{WAIT}{n}ぐふひびひべへほ…{n}返事ぃしてくれよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0160.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ～ん？{BEAT}{n}まぼろしかあ…？？{BEAT}{n}誰かと話してなかったっけなあ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0161.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレかあ？{n}オレは{demon_name}って言うんだ{n}だったらどうすんだあおめえ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0162.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "知るかああ！ボケェ！！{n}オレの名前なんて{n}分かるわけないだろうがあえっ！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0163.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あーん？{BEAT}{n}うおっ！{BEAT}{n}ひっ！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0164.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おっ{BEAT}おまえにはみ{BEAT}み{BEAT}み{BEAT}見えねえのかよ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0165.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだって！{n}そんなことも分かんねえのかよおおお！{WAIT}{n}オレにも分かんねえんだよおおおおお！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0166.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ああん？{n}誰に口きいてんだあおめえ！{n}死にてえようだなあ？ああ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0167.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…………{n}バカには見えねえんだろうけどなあ…{n}くくくく…{BEAT}けけ…{BEAT}けっけ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0168.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえがつれてきたんだあ{WAIT}{n}おまえが持ってきたんだあ{WAIT}{n}おまえさえいなければいいんだああ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0169.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もちろんだと！！{n}…でなんのことだあ？{n}おれは眠いぞ寝る！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0170.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ムシすんのかよう{n}どうしてなんだよう{n}オレのこときらってんのかよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0171.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありゃ{BEAT}・{BEAT}・{BEAT}・{BEAT}{n}ウヒウヒウヒョヒャ{n}消えちまったじゃねえか…ヒャヒャ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0172.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "決まってんじゃねえか{n}でっかい街だよ…{n}空に浮いてるだろほら！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0173.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "見える{BEAT}見える{BEAT}見える{WAIT}{n}前より近くなったよう{n}前より大きくなったよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0174.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クッククッ{BEAT}クッ…{BEAT}ケケキヒヒ…{n}あ～なんだ？おまえ{n}クククッ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0175.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "死ぬトコって見たいだろう？えっ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0176.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなんだな～{BEAT}{n}見たいんだな～{BEAT}{n}見てえよなあああ{BEAT}フフッヒヒッ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0177.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "見せてやってもいいんだぜえ{n}ヘッ{BEAT}ヘッヘヘッ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0178.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだろ！{n}なっ{BEAT}なっなっそう言うと思ったよ{n}死にてええだろやっぱりよおお！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0179.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "別にぃ～{WAIT}別にだあ～？{WAIT}{n}そんなんでいいんかあああ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0180.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "見たいはずだ！{WAIT}{n}いや{BEAT}見たいに違いない{WAIT}{n}いや{BEAT}絶対にいい見たがってるうう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0181.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "無理なんかあするんじゃああねえ！！{n}いいんだぜえ！素直になってえええっ！！{n}見てえだろうがああえええええ！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0182.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにを言ってもムダだああ！！{WAIT}{n}だっておまえが死ぬんだからなあ！{n}クッククッ{BEAT}クッ…{BEAT}ヒヒヒッ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0183.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "見せてくれよう{BEAT}{n}あ～ん？{BEAT}まだかあ～？{BEAT}{n}早くうう見せてくれよううう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0184.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレでええ{n}試してみてもいいんだぜえええ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0185.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとうかあああ？{BEAT}{n}ウヒョ{BEAT}こりゃあ楽しみだ{n}早くうう見せてくれよううう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0186.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "手伝ってええやるううう{BEAT}ぜええええ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0187.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフヒ{BEAT}ヒッ{n}クッククッ{BEAT}クッ…{BEAT}ヒヒヒッ…{WAIT}{n}ようおめえ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0188.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "殺されるトコってのを見たいだろうう？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0189.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "見てえのか？{WAIT}{n}見てえのか？{WAIT}{n}見てえのかああああっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0190.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "見たいだろう？{n}ええ？{BEAT}心からそう思うだろう？{WAIT}{n}ヒーヒヒヒョ{BEAT}見せてやらん！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0191.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "別にだと？{BEAT}何を言ってるんだああ？{n}見たいってえ言い出したのはああ{n}おまえの方じゃあねえかよおおおう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0192.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "別にだと？{BEAT}{n}オレが言ってるのにい別にだと？{WAIT}{n}オレよりエラいって言うのかあああ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0193.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クッククッ{BEAT}クッ…{BEAT}ヒヒヒッ…{WAIT}{n}……{BEAT}そうですか{n}じゃあいいです{WAIT}気にしないで下さいね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0194.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなこたあねえはずだあ{n}おまえってええ奴はあああ{n}心から見たがっているハズなんだよう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0195.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クッククッ{BEAT}ヒヒヒッ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0196.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…………{WAIT}{n}見せるって何を見せて下さるのですか？{n}分からない人だなああなたって人は…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0197.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ～ん？{BEAT}{n}「やろうか」だあ～？{WAIT}{n}誰に言ってんだこのボケがあ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0198.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クッククッ{BEAT}ヒヒヒッ…{WAIT}{n}なんだあ？{n}よ～{BEAT}く知ってるぞ～おまえのことを！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0199.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あん？おまえブタだろう？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0200.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "違うってえ言いやがったな！{BEAT}{n}そんなハズはないねえ～{WAIT}{n}オレが調べてやるぜえええぃ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0201.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "違うんじゃあねえかと思ってたんだ{n}クッククッ{BEAT}ヒヒヒッ…{WAIT}{n}じゃあきっとサルだなサル！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0202.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ブタだってよう…{n}ヒィー{BEAT}ヒャヒャヒャヒョ{BEAT}{n}くくっ{BEAT}このブタ野郎！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0203.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあないてみせろよう{n}ブヒブヒブッヒーってな{n}クッククッ{BEAT}ヒヒヒッ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0204.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやったあああ～っ！！{n}食いもんだあ！！{n}早く食いてえええよおおおぅ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0205.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "違う違う違う違う{WAIT}{n}オレがサルなんだよう{n}おまえはブタなんだよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0206.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "くっ来るなあ～！！{n}いいかオレに近づくんじゃあねえ！！{n}サルはキライなんだよおおおう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0207.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "人間だあ？{BEAT}{n}そのツラでかあ？{WAIT}{n}笑わせてえくれるようなあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0208.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "人間？{BEAT}なんだそりゃ？{WAIT}{n}そんな品種があいるのかよう{n}最近のブタにはよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0209.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クッククッ{BEAT}クッ…{BEAT}ヒヒヒッ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0210.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんとうはサルなんだろうがあ{BEAT}えっ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0211.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "違ったのかあああ{n}ぐふう{BEAT}ぐふふふひ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0212.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "違うだああ？{WAIT}{n}まさか…{BEAT}ひひひひひほへ{n}人間てえ種類の生き物かよう？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0213.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱりなああ{n}みろよ！{BEAT}オレはいつも正しいぜえぇ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0214.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あん？何いばってんだあ？{WAIT}{n}サルのくせにいいいいぃぃ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0215.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ブタだあ？{BEAT}{n}いやどう見てもサルだあ！！{WAIT}{n}おまえはサルなんだよおう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0216.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "……………{WAIT}{n}うっ{BEAT}ううっ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0217.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何を言っとるんだねキミは{WAIT}{n}キミはれっきとした人間だよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0218.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうですか……{WAIT}{n}な～んて納得すると思ったんかあ！！{n}このボケがあ～っ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0219.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなこと始めっから{n}分かってるんだようバ～カがあ{n}マジで答えんなよう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0220.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フッ{BEAT}フッフッ{BEAT}フッ…{BEAT}ヒヒヒッ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0221.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ここれは何なんだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0222.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "これだよこれ{n}これなんだよう{WAIT}{n}いてえ！{BEAT}いてて…いてえよおおお",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0223.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんで分かってくれないんだ～{n}イヒィ～ギヘヘヒュエッ{n}頭があ痛てえよお～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0224.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえのせいじゃあ{n}ねえのかよおお～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0225.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なあ教えてくれよお{n}どうすりゃあいいんだあああ{n}なんとかしてくれよおおお",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0226.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クッククッ{BEAT}クッ…{BEAT}ヒヒヒッ…{n}ヒャアヒャヒャヒャッ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0227.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありゃあ何だ？知ってるんだろう？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0228.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえには見えないってえいうのかよ？{n}あんあにぃはきりしてたのにぃぃ…{BEAT}{n}えっほんとかよおう？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0229.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だめだだめだ{n}おまえ話になんねええんじゃあねえか{WAIT}{n}オレを一人にしてくれえええ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0230.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "知らないのか…{n}そうかそうか{WAIT}{n}クッククッ{BEAT}クッ…{BEAT}ヒヒヒッ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0231.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "知らねえだああ？{BEAT}{n}ウソつくなよなあ{n}おまえが来てから現れたんだよおお！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0232.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クッククッ{BEAT}クッ…{BEAT}ヒヒヒッ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0233.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "その目をえぐりてええんだよお",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0234.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいのかよ～{n}ぐりぐりと指を動かしてええ{n}ズボッとやってもよおおう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0235.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっ{BEAT}やらせてええぐれええ{n}ぐふうひいいいぃぃひゃあぁ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0236.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんでだめなんだよお～{n}やりてえ{BEAT}絶対にぃぃやりてえ{n}たっ頼むぅぅやらせてくれよおおおぅ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0237.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあおまえがやってくれよ{WAIT}{n}痛いだろうなあぁぁ{WAIT}{n}血がいっぱいぃぃ出るんだろうなあぁ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0238.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ぐふうひいいいぃぃひゃあぁ～{n}やりてええよおおう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0239.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "鼻なんかあスパァッとやりてえぇ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0240.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうして邪魔するんだあ{WAIT}{n}いいじゃないかあ{n}おまえには関係ないだろうがあ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0241.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "とめてもムダだあぜえ{n}おれはやる{BEAT}{n}やるやるやるやる{BEAT}やるるるう！！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0242.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほ{BEAT}ほんとにやるぞお{n}やっ{BEAT}やると言ったらやります…やるからな{WAIT}{n}今度…ケヘヒホヘヘヘ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0243.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いくぞおおおぉぉ！！{n}痛てええぞお{n}後悔するぞおぉぉ{BEAT}くくっきひぃ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0244.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ぬあにをおおお～{n}オレはやるぜええずうええったいになぁ{n}やらせてくでるまでえ逃がさねえェェェ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0245.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やるんんだああ{n}オレはぜええったいにぃやるんだよお！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0246.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クッククッ{BEAT}クッ…{BEAT}ヒヒヒッ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0247.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ヒィー{BEAT}ヒィッ楽しいぞおーっ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0248.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ああ楽しいいィィねえぇぇ{n}これが最高の気分ってやつだからなあ{n}フフフヒィーヒヒッ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0249.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "楽しくって楽しくって{n}どうしようもねええようほんとに{WAIT}{n}ぐふうフヒッヒィーヒヒッ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0250.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おめえもかあ{n}そりゃあよかったよかった{WAIT}{n}フフッ{WAIT}…で何がたのしいんだあ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0251.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえぬあんかのおぉことは{n}聞いちゃあいないんだよおお{WAIT}{n}このマヌケ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0252.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "つまらん？{WAIT}つまらんつまらん{n}フフフヒィーヒヒッ！！{n}オレもつまんねえぇよう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0253.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフヒヒッ！！{n}見えるよ見えるよ飛んでるよ！{n}お空は楽しそうだあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0254.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフヒィーヒヒッ！！{n}ぐひゃああひゃひゃっ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0255.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひゃひゃっオレはうれしいいぞぉぉ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0256.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだよなあククッ{n}おまえには関係ないもんなあ{BEAT}ああ？{n}ん～んんっ幸せだなあ『",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0257.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいからあ～{n}いいからあああああ{n}おまえもよろこぶんだよおおおお！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0258.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "幸せな気分にぃなってきただろおぅ？{n}なあ{BEAT}ハッハッハッヒィッ～ッ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0259.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありがとおおおぅっ！！{WAIT}{n}うでしいよお{n}なんだおまえもかよおおおお！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0260.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなのか……？{WAIT}{n}じゃオレうれしくない{n}悲しっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0261.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もっといいカオしろよ{n}そのブサイクなツラも{n}ちったあマシになるからよおお！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0262.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレ様と話せてそんなにうれしいかあ？{BEAT}{n}そうだろう？{n}もっともっと楽しませてやるぜええ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0263.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフヒィーヒヒッ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0264.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ん…{BEAT}ん{BEAT}ん{BEAT}ん…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0265.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ハッオレは何をやっているんだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0266.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやあ…おれ…{BEAT}私何かしましたっけ？{n}ご迷惑おかけしてないですよね？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0267.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんのことでしょう？{WAIT}{n}さっぱり分かりませんね…{n}オレ…{BEAT}いや私なんか言いました？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0268.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "思い出せって言われても…{n}いやおっしゃいましても{n}なんのことかさっぱり分かりませんね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0269.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "教えてくれないんだったらもういい！！{BEAT}{n}…もういいですよ{WAIT}{n}失礼しますね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0270.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いい加減にしろ！！{WAIT}{n}…失礼いいかげんにして下さい{n}私が変なことするハズありません！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0271.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うっ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0272.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うーん？あなた何やってるんですか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0273.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私のせいですか？{n}すいません{n}許して下さい…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0274.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おれが…{n}いや私が何をしたって言うんです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0275.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうしてだまってるんです{n}私のことで何かあったんですか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0276.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ちょっとちょっと…{n}だまらないで下さいよ{WAIT}{n}いやだなあそんな顔して…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0277.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私のせい？{BEAT}{n}いったいなんのことです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0278.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "私が何かした？{BEAT}{n}ハハハ{n}そんなことありませんよあるはずない！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0279.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クッククッ{BEAT}クッ…{BEAT}ヒヒヒッ…{WAIT}{n}走るんだあぁぁよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0280.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいから走れよ早くっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0281.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだ！{WAIT}{n}いいぞ！！{n}もっともっと！！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0282.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クッククッ{BEAT}クッ…{BEAT}ヒヒヒッ…{n}ヒャアヒャヒャヒャッ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0283.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だめだあ{n}むおっとだあああ！！{BEAT}{n}そんなんじゃあダメなんだあよう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0284.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ～？{WAIT}おまえ{n}さからうんじゃあねええぞおう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0285.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだあ聞こえねえのかよう？{WAIT}{n}それともまさかとは思うが…{n}イヤなんじゃあないだろうな！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0286.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クッククッ{BEAT}クッ…{BEAT}ヒヒヒッ…{n}ヒャアヒャヒャヒャッ{WAIT}{n}ならここで死ぬんだああな！！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0287.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "イヒィヒヒィ{BEAT}{n}そんなこともできないのかよう{n}最低のゴミ野郎だなあひゃひゃはっ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0288.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやならいいんだあ{n}別にな…別に…{n}ふふん{BEAT}ふ～ん{BEAT}へえ～{BEAT}ヒヒヒッ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0289.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クッククッ{BEAT}クッ…{BEAT}ヒヒヒッ…{n}ヒャアヒャヒャヒャッ{WAIT}{n}なあおまえ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0290.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "とんでみせろよ鳥だろう？おまえ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0291.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ～？{BEAT}何が分かったってえ？{BEAT}{n}できんのかあおまえ？{WAIT}{n}やるんだなあ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0292.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}くくっバ～カ{n}ほんとにやるなよ！ひっひっひっ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0293.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "早くしろよ早くう！！{n}なにをためらってんだよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0294.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ～ん？{n}もしかしてできねえって言うんじゃ…{n}ウソつきは死ぬんだああよおお！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0295.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだなんて！{BEAT}いやいやいやいや{n}オレがいやだあああっ！！{n}はーはーはーふう…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0296.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "できるんだな？{BEAT}いやなだけだな？{BEAT}{n}ええ？{BEAT}できるんだな？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0297.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "くくっ{BEAT}できねえんじゃあねえのかあ？{BEAT}{n}フフフヒッ{BEAT}バ～カ{BEAT}ヒィッヒヒヒ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0298.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まっ{BEAT}待ってくれよう{n}ちっ{BEAT}ちょっとからかっただけなんだよう{WAIT}{n}{offered_item}で許してくれよ{BEAT}ななっ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0299.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おれがかあ？{BEAT}{n}うーん…そうだなあ・{BEAT}・{BEAT}・{WAIT}{n}いやじゃあああああ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0300.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クッククッ{BEAT}クッ…{BEAT}ヒヒヒッ…{n}ヒャアヒャヒャヒャッ{n}ヒィ～ィィィィ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0301.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "くっ…ハラが減ったんだよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0302.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ぐふぇへ{n}いいのかあ…{n}もうオレのもんだ！返すもんか！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0303.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}なっ{BEAT}なんじゃこりゃ！？{BEAT}{n}ぐふぇっぐふぇっ{BEAT}マジィ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0304.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいのかあ{n}食うぞ！食うぞ！おまえを食うぞ！{WAIT}{n}おまえを殺して…{BEAT}オレを食うぞ！{BEAT}…あれ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0305.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かったよう{n}でもひもじいんだよおおぉぉう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0306.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "できるかそんなもんっ{n}ムリじゃ！{WAIT}イヤじゃ！{WAIT}ダメじゃ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0307.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなんだよう{n}このままじゃあ死んじゃうよう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0308.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなんだ…{n}どんどん減っていくよおおう！{WAIT}{n}食わせてくれよう！{BEAT}食わせてくれよう！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0309.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえらを食わせてくれよおおう！！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0310.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クッククッ{BEAT}クッ…{BEAT}ヒヒヒッ…{n}ヒャアヒャヒャヒャッ{n}は～は～は～{BEAT}ぜいぜい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0311.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ～のどがカラカラだよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0312.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "イヤじゃああ{WAIT}{n}ぎひぃ{BEAT}{n}かわりのものでいいからくれええ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0313.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "できねええんだよおおううぅ！{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}いいことがあったああっ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0314.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえたちぃの{n}血を吸わせてくでええええぇぇ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0315.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなんだあ…………ああ{n}助けてくげえ…{n}お願いだよう……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0316.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレがウソを言う？{BEAT}{n}ウソを言う？{WAIT}{n}ウソを言うのはおまえの方だろうがあ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0317.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クッククッ{BEAT}クッ…{BEAT}ヒヒヒッ…{n}ヒャアヒャヒャヒャッ{n}イヒッエヘッ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0318.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "エヘヘヘッオンナを出せ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0319.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "レイ：あたしはイヤよ！{BEAT}{n}絶対にイ{BEAT}ヤ！{BEAT}{n}そんな目で見ないでよね！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0320.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どこにいるんだあ{n}オンナだようオンナオンナ{n}出せ出せ出せ出せえええっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0321.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ～ん？{BEAT}{n}そこのね～ちゃんだけかよう{n}うえ～んえ～ん{BEAT}もっと別のがいいよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0322.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ならここで死ね！{BEAT}{n}なあに少しずつひねってやるからよう{n}ヒャアーッ{BEAT}ヒャヒャヒャッ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0323.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クッククッ{BEAT}クッ…{BEAT}ヒヒヒッ…{n}ヒャアヒャヒャヒャッ{n}欲しいいいいいぃっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0324.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "魂が欲しいんだあよおおおうぅ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0325.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいんだなあ？{n}動くなよう…{BEAT}{n}分かったなあ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0326.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "早くしろよ{n}時間がかかるんならこのまま{n}体ごとでもいいんだ～ぜ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0327.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "食ってやるう～っ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0328.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ムダじゃああぁ{n}ずっとくっついていってえぇぇ{n}いつかとってやるうううぅっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0329.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "むだじゃああっ{n}なぶり殺しにしてええ{n}そのあとでとってやるううう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0330.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ムリかあ…ムリだってよう…{WAIT}{n}フッフフッ{BEAT}フッ…{BEAT}ヒヒヒッ…{n}ヒャアヒャヒャヒャッ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0331.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ムリじゃあねえだろうがあ？{n}出すしかないんだよう！！{WAIT}{n}それともああ？やるってえのかあ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0332.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フッフフッ{BEAT}フッ…{BEAT}ヒヒヒッ…{n}ヒャアヒャヒャヒャッ{n}くふう…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0333.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ん？どうだ飲むか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0334.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うおおおっ{n}飲め飲め飲め飲め飲めえええ{BEAT}{n}どうだあ？{BEAT}うめえだろう？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0335.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うひょあおえっへっへへっ…{BEAT}{n}飲んだなあ{n}よしよしひゃほうおう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0336.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなんで分かんのかあ？{BEAT}{n}味がだぞう味があ…{n}いくじのないヤツだなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0337.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ～あ口に入れたな～{n}オレは知らね～ぞ{n}どうなるかな～ひひひぃぃぃっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0338.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おい聞いたか？{n}飲まないだってええっ？{n}ひゃっはっへはほっ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0339.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかいそうかい{n}オレのことどう思っているのか{n}よっく分かったようヒヒッヘッ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0340.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クッククッ{BEAT}クッ…{BEAT}ヒヒヒッ…{n}ヒャアヒャヒャヒャッ{n}ん？なんだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0341.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえも一緒に食え！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0342.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "くくっくくくっ{n}食っちまったなあ{n}ヒャアヒャヒャヒャッ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0343.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え～んえ～ん{n}オレの分まで食っちまったよう{n}ヒドイよぉぉぉぅ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0344.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんな食いかたフフヒッ{n}それでも男かあ！！{n}ヒャアヒャヒャヒャッ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0345.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなんじゃあダメだ{n}もっと食うんだあ～{WAIT}{n}食うんだあ～よう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0346.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "……………{n}それでいいんだひいいっ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0347.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんてえことするんだよう～{n}オバケが出ちゃうよ{n}おまえのせいだぞおまえが悪いんだぞ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0348.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ああっあ～{n}オレのオレの…{n}ぢくじょう探し出してえみせるぜええっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0349.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クッククッ{BEAT}クッ…{BEAT}ヒヒヒッ…{n}決っ{BEAT}決めたずおおおお！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0350.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "イヤだと言ってもついてええいくうう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0351.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それでいいんだひいいっ{n}それでいいんだあああああ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0351.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレは{race}{race}{race}！！{n}しかも{demon_name}だあああぁっ！！{n}イヒヒヒ…フフホヒホヘ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0352.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ？{BEAT}{n}ん？{BEAT}{n}オレなんか言ったかあ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0353.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ヒャアヒャヒャヒャッ{BEAT}{n}いいぞおおおお！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0354.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ？{BEAT}{n}なにが分かったんだあ？{BEAT}{n}オレにも教えてくれようかくすなよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0355.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレがイヤだって言うのかあああ！！{WAIT}{n}あん？{BEAT}そんなことねえよなあ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0356.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレがイヤだって言うのかあああ！！{WAIT}{n}あん？{BEAT}で何がイヤなんだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0357.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなのかああああ！！{BEAT}{n}クッククッ{BEAT}クッ…{BEAT}ヒヒヒッ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0358.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだと？{BEAT}{n}いやいやいやいゆああああかあ～！！{WAIT}{n}じゃ死ね！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0359.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クッククッ{BEAT}クッ…{BEAT}ヒヒヒッ…{n}言いたいことがあるならああああ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0360.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何でも言えよおおおおおっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0361.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ？{BEAT}{n}ええ？{BEAT}{n}何もないのかあ…{BEAT}ないのかああ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0362.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレには言えねえのかよおおおおぅ！！{BEAT}{n}そうだろうな…！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0363.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おっおまえ…{n}ほんとうにいいのかあああ？{n}いやだってええ言っても離れないぜええ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0363.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレは{race}{race}{race}！！{n}しかも{demon_name}だあああぁっ！！{n}イヒヒヒ…フフホヒホヘ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0364.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クッククッ{BEAT}クッ…{BEAT}ヒヒヒッ…{n}い{BEAT}や{BEAT}だ{BEAT}ね{BEAT}{n}グフフフ{BEAT}イヒヒヒヒィィィィ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0365.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ～ん？{BEAT}誰にいってるんだあ？{BEAT}{n}だめだあああぜええったいにいなあああ！{BEAT}{n}グフフフ{BEAT}イヒヒヒヒィィィィ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0366.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ああ消えてやるとも…{WAIT}{n}おまえをやってからなああああ！！{BEAT}{n}グフフフ{BEAT}イヒヒヒヒィィィィ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0367.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフフ{BEAT}イヒヒヒヒィィィィ！！{n}頭をさげろよおおおおおう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0368.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "助けてやってもいいんだぜええぇぇ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0369.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフ{BEAT}どうしようかなあ…{BEAT}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0370.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフ{BEAT}どうしようかなあ…{BEAT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{n}やっぱりいやじゃああ！！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0371.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフフ{BEAT}イヒヒヒヒィィィィ！！{n}いいんだな？{BEAT}しらねええぞおお！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0372.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんな態度するのかよおおおう{WAIT}{n}いいのかよおう{BEAT}{n}ほんとうにいいのかようう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0373.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフフ{BEAT}イヒヒヒヒィィィィ！！{BEAT}{n}「結構だ」だああってよおおう{BEAT}{n}グフフフ{BEAT}イヒヒヒヒィィィィ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0374.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかあ？{BEAT}{n}あ～あ{BEAT}もったいない{WAIT}{n}いいのかなああ？{BEAT}いいのかなあああ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0375.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう{BEAT}なのかああああああ！！{WAIT}{n}まあそうだよなこんなオレじゃな…！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0376.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう{BEAT}なのかああああああ！！{WAIT}{n}まあそうだよなこんなオレじゃな…！{n}でも許さないいいいぃぃぃ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0377.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフフ{BEAT}イヒヒヒヒィィィィ！！{n}なあ…{BEAT}おまえよう…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0378.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレ様にも何かめぐんでくれよう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0379.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいのか？{BEAT}{n}いいのかああああ！！{BEAT}{n}はやくくれええええ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0380.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あれえ？{BEAT}どうしたんだあ？{BEAT}{n}まさかいまさらやめようってええ{n}言うんじゃあないだろうなああ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0381.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなああああ{BEAT}{n}ヤツはああああ{BEAT}{n}死ねええええええええええ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0382.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだあ？{n}あ？{BEAT}何言ってんだああ？{BEAT}{n}だしてもらうううううっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0383.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウソだろ？{BEAT}{n}えっ？{BEAT}ほんと？{BEAT}{n}なんだとおおお{BEAT}こ{BEAT}ろ{BEAT}すうう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0384.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフフ{BEAT}イヒヒヒヒィィィィ！！{n}いいんだなあ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0385.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフヒホヘクククククッ…{WAIT}{n}いるかおまえのもんなんかなあ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0386.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "とにかくうううう{n}気をつけろおおおおおお！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0387.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そしてええいい夢みるがいいいいっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0388.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフヒホヘクククククッ…{WAIT}{n}そうだな{BEAT}だって{n}そうだな{BEAT}クククキヒィッ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0389.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだたのしいぞおおお{BEAT}{n}おまえももうすぐみれるうううっ！！{n}グフフフフキヒヒヒヒヒヒィイイ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0390.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあいいだろおおう{WAIT}{n}じゃあなあああ{BEAT}{n}グフフフフキヒヒヒヒヒヒィイイ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0391.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かってないね！{WAIT}{n}オレがみせてやるううううう！！{BEAT}{n}ぐひゃああ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0392.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なに言ってんだあ？{BEAT}{n}分かんねええのかよおおううう{BEAT}{n}バ～カがああ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0393.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかよおおおく分ったぞおおお！{WAIT}{n}おまえ夢もしらねええんだなああ！！{n}かわいそうに…{BEAT}ううしくしくククゥッ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0394.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おい！{BEAT}{n}よく聞けええええええっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0395.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おれは狂ってるんだあああ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0396.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えっ？{BEAT}いいのか{BEAT}{n}…………",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0397.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうもこうも{n}あるかあああああああ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0398.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレはぞうじゃねええええ！！{n}狂ってるんだあアア！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0399.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだよ！{n}悪いか？{BEAT}あん？{BEAT}なんだあその目は！{WAIT}{n}死ねやああこのクズ野郎！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0400.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ああ？{BEAT}{n}ええっ？{BEAT}{n}まさか…{BEAT}おまえもかあああ！！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0401.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなことも分かんねえのかようう！！{BEAT}{n}なんだあおまええええ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0402.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいやオレは狂ってる{n}狂ってえええいるんだああ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0403.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何言ってんだあ？{BEAT}{n}ジジツだよ{BEAT}ジジツなんだよおおお！！{n}分かんないのかあ{BEAT}おまえも狂えやあ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0404.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフフフキヒヒヒヒヒヒィイイ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0405.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おれのために働けええええ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0406.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ああん…{BEAT}おまえ{n}素直じゃあねえかああ…{BEAT}{n}そう{BEAT}それでいいんだよ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0407.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいんだなあ…{BEAT}{n}くっくくっ…{BEAT}{n}グフフフフキヒヒヒヒヒヒィイイ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0408.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフフフキヒヒヒヒヒヒィイイ！！{BEAT}{n}ずっとこき使ってええやるうううう！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0409.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフフフキヒヒヒヒヒヒィイイ！！{BEAT}{n}いらねええよおうおまえなんてえ！！{BEAT}{n}バ～カがああ！！本気で働く気かあ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0410.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だめだあ？{BEAT}{n}おまえ何言ってんだああ？{BEAT}{n}だめなんていう立場じゃあねえんだあ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0411.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだとおおおお！！{WAIT}{n}じゃあ死ね！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0412.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いや？{BEAT}{n}いやだって言うのかよおおおお！！{n}…{BEAT}もうあきちまったようじゃあなあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0413.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやなのかよおおおおう！{BEAT}{n}じゃあこうするまでだあ！！{n}グフフフフキヒヒヒヒヒヒィイイ！！{BEAT}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0414.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフフフキヒヒヒヒヒヒィイイ！！{BEAT}{n}もういい…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0415.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ここで死ねえええ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0416.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフフフヒヒヒヒヒ！{BEAT}{n}だっせえよう{n}「やめろ」だあってよう！ヒヒヒ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0417.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今さら遅い！！{WAIT}{n}だめだね{BEAT}だめだもんね！！{BEAT}{n}キヒヒ命もらうぜええええ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0418.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいんだぜええ待つぐらい…{WAIT}{n}でも{BEAT}クク{BEAT}どうせ{BEAT}クク{BEAT}{n}死ぬんだよおおお！！{BEAT}フフフフフヒヒヒ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0419.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだね！{BEAT}{n}待つかバ～{BEAT}カ！{n}グフフフフヒャヒヤヒヒヒ！{BEAT}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0420.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ああ？{BEAT}{n}分かんねえのかあああ！！{WAIT}{n}こうするのよおおっ！！{BEAT}どうりゃああっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0421.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえバカかあ？{BEAT}{n}おまえ殺されんだよう！{BEAT}{n}オレになああああああ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0422.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフフフヒャヒヤヒヒヒ！{BEAT}{n}できんのかあ？{BEAT}おまえに？{BEAT}{n}いいぞお{BEAT}やってみいろよ！{BEAT}ほらっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0423.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あん？{BEAT}{n}そういわれてやられてたまるかよおお！！{BEAT}{n}死ぬえええええええぇぇぇっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0424.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフフフヒャヒヤヒヒヒ！{BEAT}{n}おまえもオレとおんなじ最低野郎だあ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0425.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいからどけええっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0426.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あら？{BEAT}{n}いいのかよう…{BEAT}{n}じゃ{BEAT}じゃあな！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0427.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それでいいんだああ！{n}じゃあなああ最低野郎！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0428.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕方？{BEAT}{n}「しかた」ってなんだ？{n}誰のことだ？あん？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0429.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんでもいいからはやくどけえええ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0430.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかあ…{BEAT}{n}もういいいいっ！{BEAT}{n}寝る！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0431.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アッハハ{BEAT}クククキヒヒィィ！！{n}それなら死ね！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0432.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えっ？{BEAT}今なん言った？{BEAT}{n}よく聞こえねえなあ？{WAIT}{n}確か「死にてえ」って聞こえたなあ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0433.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえがそう言ったところで{n}ムダなんだああよおおおううう！！{WAIT}{n}ククク{BEAT}あせってやがる！！{BEAT}フフフヒヒ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0434.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アッハハ{BEAT}クククキヒヒィィ…{n}もう一度だけチャンスをやるよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0435.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレ様にあやまるるんだあ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0436.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クフッ{BEAT}それでいいんだあそれで…{WAIT}{n}グフフフフヒャヒヤヒヒヒ！{BEAT}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0437.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフフフヒャヒヤヒヒヒ！{BEAT}{n}オレ様を誰だと思ってんだあ？{BEAT}{n}おまえ死にたいいんかああっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0438.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフフフヒヒヒャヒヤヒヒヒ！{BEAT}{n}ほんとうに分かってんのかあ？{BEAT}{n}よし！許してやるうう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0439.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "この場だけ言ってんじゃあねえだろうな？{BEAT}{n}だとしたら殺すからな！！{BEAT}{n}クク…{BEAT}じゃあな！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0440.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やるんだああ！！{BEAT}{n}いいからやるんだあああああ！！{WAIT}{n}…{BEAT}あやまらねえのかあ…{BEAT}じゃあな！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0441.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフフフヒヒヒャヒヤヒヒヒ！{BEAT}{n}それじゃあ死んでもらうしかねえなあ…{WAIT}{n}いくぜええええぇぇ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0442.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いや？{BEAT}いやだあ？{WAIT}{n}だ{BEAT}め{BEAT}だ{BEAT}ね{BEAT}{n}力ずくでえええあやまらせるぜええ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0443.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフフフヒヒヒャヒヤヒヒヒ！{BEAT}{n}イヤならいいんだぜええ！{BEAT}{n}これでもくらいなっ！！{BEAT}どうりゃあっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0444.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8025}こうしょうすたーと{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0445.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフヒヒ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0446.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{requested_item}くれええ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0447.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだああ持ってね{GLYPH:010d}のかあああ{n}ククク…{BEAT}{n}それじゃああああ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0448.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "……………{BEAT}{n}もういいいいいーっいらんんんん！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0449.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あん？{BEAT}それだけじゃあな{WAIT}{n}んんん…{BEAT}どうするか…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0450.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ぬあにいいいいぃぃぃ…{n}じゃあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0451.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もういいぃぃぃぃ{n}いいんだあああああああ！！！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0452.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何か{BEAT}何くああぁぁくれええぇぇ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0453.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "……………{WAIT}{n}ん？{BEAT}あ？{BEAT}{n}ちぇっ何も持ってないのかよおおうぅ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0454.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほかにもなにかくれええええぇぇぇ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0455.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "……もう…{BEAT}もういいいいぃぃぃっ！{n}もういらんいらん{BEAT}いらないいいっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0456.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ああ？{BEAT}おまえ馬鹿にしてんのかああ！{WAIT}{n}おまえを殴ってええええぇぇぇ{n}気晴らししてやるううううぅぅぃぃ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0457.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フッ{BEAT}フフフフフヒヒヒ…{BEAT}{n}よし…{BEAT}いっしょに行くぜえええぇぇ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0457.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレは{race}{race}{race}！！{n}しかも{demon_name}だあああぁっ！！{n}イヒヒヒ…フフホヒホヘ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0458.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ん？{BEAT}あん？{BEAT}{n}だれだおまえ…！？{WAIT}{n}んじゃそういうことで！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0459.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}やる！{BEAT}{n}やるやるやるうううぅぅっぅ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0460.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フッ{BEAT}フフフフフヒヒヒ…{BEAT}{n}グフフ…フフハハホヒ…{WAIT}{n}じゃあなあああ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0461.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "バカめえええぇぇ！！{n}おまえぶああくあだろううぅぅ！！{BEAT}{n}死ねえええぇぇぇうりゃあ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0462.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ああ？{BEAT}なんだそりゃああ！？{n}もういいいいぃぃぃぃ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0463.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "かかってこいぃぃぃ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0464.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふざけんぬああああ！！{WAIT}{n}死んで{BEAT}死んでわびろおおおお！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0465.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "覚えてるがいいいい！{n}こんど会ったときぃぃ{BEAT}{n}こんど会ったときまでなああぁぁ！！{BEAT}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0466.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "渡す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0467.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ことわる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0468.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ん…{BEAT}なんだあ{WAIT}{n}持てないんじゃああ{n}ねえかあああぁぁぁ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0469.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ん…{BEAT}いらないと{n}言うのかあああぁぁぁ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0470.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ああ？{BEAT}{n}装備してね{GLYPH:010d}じゃあねえくあああ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0471.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ああ？{BEAT}{n}装備してね{GLYPH:010d}じゃあねえくあああ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0472.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ああ？{BEAT}{n}装備してね{GLYPH:010d}じゃあねえくあああ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0473.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひいいぃぃぃぃっっ{BEAT}{n}助けて…{BEAT}助けてくれようううぅっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0474.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "たのむよおおおぉぉお願いだよおおおう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0475.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "命を助ける",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0476.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "命をうばう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0477.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "へ？{BEAT}ほんと…{BEAT}ほっ{BEAT}本当にいいの？{BEAT}{n}このご恩は一生忘れません…{n}でもせっかくだから…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0478.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "へ？{BEAT}いいの？{BEAT}{n}グフッ{BEAT}ついでと言っちゃあ何だが…{BEAT}{n}なんかもらっておこうかああ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0479.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフグヘヘヘヘギィヒーィヒヒ！！{BEAT}{n}甘いんだよう{BEAT}ここで死ねえええ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0480.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なっ{BEAT}なにも命まで…{WAIT}{n}お願いだよう{BEAT}助けてくれよう…{BEAT}{n}話し合いしようよう…{BEAT}いいだろなっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0481.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ああ？{BEAT}なに言ってんだあ？{n}グフフグヘヘヘヘエーヘヘッヘ！！{BEAT}{n}やるってえのかあ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0481.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃあかかってこいよおおお！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0482.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフグヘヘヘヘエーヘヘッヘ！！{BEAT}{n}殺られてたまるかよおおお！！{n}おまえが{BEAT}おまえが死ねよおおおう！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0483.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフヒヒククッ…{BEAT}{n}グフフグヘヘヘヘギィヒーィヒヒ！！{BEAT}{n}いたいとこなくなったかあ？{BEAT}…じゃあな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0484.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフヒヒククッ…{BEAT}{n}グフフグヘヘヘヘギィヒーィヒヒ！！{BEAT}{n}{offered_item}やるうう！！{BEAT}…じゃあな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0485.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフヒヒククッ…{BEAT}{n}グフフグヘヘヘヘギィヒーィヒヒ！！{BEAT}{n}{offered_item}やるうう！！{BEAT}…じゃあな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0486.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフヒヒククッ…{BEAT}{n}グフフグヘヘヘヘギィヒーィヒヒ！！{BEAT}{n}…じゃあな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0487.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウオオオオオオオオオオォォオォオォ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0488.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかああいつもと違うううっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0489.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どこが違うのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0490.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どう違うのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0491.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何か起こるのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0492.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…なに？{BEAT}分かんねえのかよおおおう{WAIT}{n}オレにも分かんねええええ！！{BEAT}{n}…一緒に確かめてくれ{BEAT}なっなっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0492.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレは{race}{race}{race}！！{n}しかも{demon_name}だあああぁっ！！{n}イヒヒヒ…フフホヒホヘ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0493.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…なに？{BEAT}分かんねえのかよおおおう{WAIT}{n}ウソだな{BEAT}ぜえええったいウソだなっ{BEAT}{n}おまえのせいだああああ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0494.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ぜんぜん違うだろうがあ！！{BEAT}{n}この空気…{BEAT}おめえは感じねえのかあ！{n}なったのむよ{BEAT}一緒に行かせてくれよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0494.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレは{race}{race}{race}！！{n}しかも{demon_name}だあああぁっ！！{n}イヒヒヒ…フフホヒホヘ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0495.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ぜんぜん違うだろうがあ！！{BEAT}{n}ははあ…{BEAT}おまえかあ{BEAT}おまえが原因かあ…{BEAT}{n}じゃあ死ぬしかねえんだあよおおおぅ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0496.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフグヘヘヘヘギィヒーィヒヒ！！{BEAT}{n}もとにもどさなきゃ…{BEAT}{n}なっ{BEAT}たのむよ{BEAT}一緒に来てくれよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0496.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレは{race}{race}{race}！！{n}しかも{demon_name}だあああぁっ！！{n}イヒヒヒ…フフホヒホヘ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0497.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かんねえのかあ？{WAIT}{n}起こるに決まってるだろククッ{n}クフフフ…おまえ死ぬんだよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0498.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウオオオオオオオオオオォォオォオォ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0499.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかああさけびたいいっっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0500.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それだけか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0501.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おちつけ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0502.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "勝手にしろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0503.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そっ{BEAT}そうだよう…{BEAT}{n}ウオオオオオオオオオオォォオォオォ！！{n}ふう…{BEAT}すっきりした…{BEAT}さっ行こうか…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0503.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレは{race}{race}{race}！！{n}しかも{demon_name}だあああぁっ！！{n}イヒヒヒ…フフホヒホヘ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0504.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウオオオオオオオオオオォォオォオォ！！{BEAT}{n}さけんでも足りねえええ！！{n}おまえの血でえうめあわせするぜええ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0505.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うっ…{BEAT}できねえんだよう…{BEAT}{n}おまえなんとかしてくれるのか？{WAIT}{n}だったら行くぜええおまえとなああっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0505.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレは{race}{race}{race}！！{n}しかも{demon_name}だあああぁっ！！{n}イヒヒヒ…フフホヒホヘ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0506.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うっ…{BEAT}できねえんだよう…{BEAT}{n}おまえなんとかしてくれるのか？{WAIT}{n}できる訳ねえよなあおまえじゃあなあっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0507.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うっ…{BEAT}そんなふうに言うなよう{BEAT}{n}たっ{BEAT}たのむ…{BEAT}助けてくれようなっ！{BEAT}{n}一緒に連れってってくれよう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0507.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレは{race}{race}{race}！！{n}しかも{demon_name}だあああぁっ！！{n}イヒヒヒ…フフホヒホヘ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0508.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あん？{BEAT}誰に言ってんだあ？おまえ！！{WAIT}{n}死にてえようだなあああ{BEAT}ああん？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0509.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウオオオオオオオオオオォォオォオォ！！{BEAT}{n}まるいなああああ月は…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0510.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんで四角じゃあないいんだよおう？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0511.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分からない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0512.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "知らない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0513.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まるい方がいいだろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0514.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんでえ…{BEAT}なんで分かんねえんだよおう！{n}…なんだオレと同じかあ…{WAIT}{n}気に入ったぜええ！！一緒に行くぜええ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0514.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレは{race}{race}{race}！！{n}しかも{demon_name}だあああぁっ！！{n}イヒヒヒ…フフホヒホヘ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0515.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフグヘヘヘヘギィヒーィヒヒ！！{BEAT}{n}なあんだああ{BEAT}そうかあ…分かんねえかあ{WAIT}{n}…じゃあ死ね！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0516.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんでえ…{BEAT}なんで知らねええんだよおう！{n}…なんだオレと同じかあ…{WAIT}{n}気に入ったぜええ！！一緒に行くぜええ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0516.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレは{race}{race}{race}！！{n}しかも{demon_name}だあああぁっ！！{n}イヒヒヒ…フフホヒホヘ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0517.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフグヘヘヘヘギィヒーィヒヒ！！{BEAT}{n}なあんだああ{BEAT}そうかあ…知らねえかあ{WAIT}{n}…じゃあ死ね！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0518.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}それもそうだな…{BEAT}{n}いいだろう…一緒に行くよおおう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0518.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレは{race}{race}{race}！！{n}しかも{demon_name}だあああぁっ！！{n}イヒヒヒ…フフホヒホヘ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0519.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どおおうしてだよう{BEAT}えっ？{BEAT}{n}どうしてなんだよおおう！！{n}いい加減に言いやがったなあ！{BEAT}死ねえ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0520.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウオオオオオオオオオオォォオォオォ！！{BEAT}{n}つ…{BEAT}月があああああっ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0521.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あっ{BEAT}明るいぃぃっまぶしいよおおおう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0522.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0523.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いつもと変わらない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0524.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "満月だからかな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0525.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんとかしてくれよ{BEAT}なっなっ{BEAT}{n}オレを連れてってくれよ{BEAT}なっなっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0525.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレは{race}{race}{race}！！{n}しかも{demon_name}だあああぁっ！！{n}イヒヒヒ…フフホヒホヘ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0526.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ちくしょうちくしょう！！{BEAT}{n}ひとごとだと思いやがってえええ！！{WAIT}{n}おめえ始末してやるううううぅっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0527.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ぜんぜん違うだろうがあああっ！！{BEAT}{n}分かんねえのかよう…{BEAT}なあ…{BEAT}たのむよ…{BEAT}{n}オレを連れてってくれよ…いいな！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0527.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレは{race}{race}{race}！！{n}しかも{demon_name}だあああぁっ！！{n}イヒヒヒ…フフホヒホヘ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0528.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ちくしょう！！{BEAT}ぜんぜん違うだろうがあ{n}ひとごとだと思いやがってえええ！！{WAIT}{n}今すぐ始末してやるううううぅっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0529.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かってんのならオレを助けてくれよう！{BEAT}{n}オレを連れてってくれよ…{BEAT}{n}たのむよう…{BEAT}いいな！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0529.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレは{race}{race}{race}！！{n}しかも{demon_name}だあああぁっ！！{n}イヒヒヒ…フフホヒホヘ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0530.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ちくしょうちくしょう！！{BEAT}{n}分かってるならなんとかしてくれよおう！{n}くっそおおう始末してやるうううぅっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0531.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウフ{BEAT}グフ{BEAT}フフフヒヒ…{BEAT}{n}よう元気かよう？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0532.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだあ？{BEAT}助けて欲しいのかあ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0533.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "たのむ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0534.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "別に…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0535.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフフヒヒヒヒヒ…{BEAT}{n}オレにたのむだってよう…{BEAT}{n}いいだろう…フフヒヒィ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0535.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレは{race}{race}{race}！！{n}しかも{demon_name}だあああぁっ！！{n}イヒヒヒ…フフホヒホヘ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0536.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフフヒヒヒヒヒ…{BEAT}{n}オレにたのむだってよう…{BEAT}{n}だめだね！{BEAT}ぜええったい{BEAT}だ{BEAT}め{BEAT}だ{BEAT}ね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0537.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フフフフヒヒヒヒヒ…{BEAT}イヤだね{BEAT}{n}おまえがああなんて言ってもおおお！！{n}オレはついて行くぜえええええっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0537.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレは{race}{race}{race}！！{n}しかも{demon_name}だあああぁっ！！{n}イヒヒヒ…フフホヒホヘ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0538.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あん？{BEAT}{n}いいのか？{BEAT}{n}ほんとにいいのっかなっ！！フフヒヒ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0539.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウフ{BEAT}グフ{BEAT}フフフヒヒ…{BEAT}{n}よう元気かよう？{n}まあがんばってくれよう{BEAT}ククッ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0540.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ああん？{BEAT}{n}うーん？{BEAT}{n}思い出したぞおおおっ{BEAT}おまえかああっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0541.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "この前はよくもおおっ！！死ねやああっ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0542.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あやまる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0543.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "無視する",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0544.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふっ{BEAT}なんだあ～{BEAT}{n}あ～{BEAT}あ{BEAT}つまんねえええ！！{n}じゃあな！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0545.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ククッククッ…{BEAT}{n}だめだねだめだだめだだめだよう！！{BEAT}{n}いいからオレにいいぃやられろおうぅ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0546.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えっ？{BEAT}{n}ちょ{BEAT}ちょっと…{BEAT}そりゃないでしょ…{BEAT}{n}お～い！！どこ行くんだあああ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0547.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにあさっての方向いてんだよう！！{BEAT}{n}いいから死ねやあああっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0548.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あん？{BEAT}おお！！{BEAT}{n}おまえかあああ！！{BEAT}{n}覚えてええいるぞおおおっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0549.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オレに礼をさせてくれええええっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0550.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいからはやく行け",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0551.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにもいらない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0552.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだいやだいやだあああっ！！{BEAT}{n}そんなのいやだあああ！！！{BEAT}{n}{offered_item}持ってってくれええ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0553.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだいやだいやだあああっ！！{BEAT}{n}…でもまあいいかあ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0554.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだちえっ…{WAIT}{n}やっぱりそんなのいやだあああ！！！{BEAT}{n}回復してやるううううっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0555.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうか…{BEAT}{n}せっかくなのになバカなヤツ…{BEAT}{n}じゃあなククク…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0556.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだいやだいやだあああっ！！{BEAT}{n}そんなのいやだあああ！！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0557.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えっ？{BEAT}持てないのかよう…{BEAT}{n}ハハハッハハハッヒヒヒッ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0558.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まてよう{BEAT}{n}オレとお話ししようぜええ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0559.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あん？{BEAT}{n}何やってんだあ？{BEAT}{n}こちらだこっち…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0560.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "待てえええっ{BEAT}{n}オレはここだあああ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0561.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何やってんだあおまえ{BEAT}{n}えっ？{BEAT}気付いてないの…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0562.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフグヘヘヘヘギィヒーィヒヒ！！{BEAT}{n}いままでオレのこと信用してたのかよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0562.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ククッ…{BEAT}バ～カがあああっ！！{BEAT}{n}オレは絶対に仲魔になれねえんだよおお！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0563.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフグヘヘヘヘギィヒーィヒヒ！！{BEAT}{n}いままでオレのこと信用してたのかよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0563.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえらのなかにどうしても{n}気に入らねえヤツがいるんだよおおっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0564.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "グフフグヘヘヘヘギィヒーィヒヒ！！{BEAT}{n}いままでオレのこと信用してたのかよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0564.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おめえみてえな貧弱なヤツと{n}行ける訳ね～だろうがああ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0565.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クフッ…{BEAT}{n}{offered_item}やるよ…{WAIT}{n}じゃあな…{BEAT}グフフグヘヘヘ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0566.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "クフッ…{BEAT}{n}じゃあな…{BEAT}グフフグヘヘヘ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0567.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{BEAT}{n}えっいいのか{n}グフフフフィイイィ{BEAT}…じゃあな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_crzy.m0568.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ククククッ…{BEAT}{n}オレがいる…{n}おまえの仲魔にオレがいる…",
+    "translation": "",
+    "note": ""
+  }
+]

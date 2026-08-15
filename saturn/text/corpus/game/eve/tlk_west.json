@@ -1,0 +1,4666 @@
+[
+  {
+    "id": "game.tlk_west.m0000.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8025}ただいまメッセージさくせいちゅう{n}{OP:8022}COMINGSOON{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0001.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "MAKING{OP:8025}NOW{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0002.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なかまにいるんだ～ぜ～！{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0003.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オイラまんげつのよるはハイなんだ{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0004.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "このまえはありがとうなかまになるぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0005.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "このまえはよくもやっつけてやるぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0006.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "このまえはありがとうれいをするぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0007.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わりこみかいしなんかいうんだ～ぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0008.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "さいごのひとりになっちまったんだぜ～{n}（かり）",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0009.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{kyouji_name}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0010.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{codename}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0011.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{demon_name}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0012.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…………",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0013.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "愛想がいいな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0014.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "気味が悪いな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0015.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何だおまえは",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0016.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はあ…？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0017.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よろこんで",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0018.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0019.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなに飲めない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0020.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "酒は飲めない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0021.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0022.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕方ないな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0023.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はやく見せて",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0024.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0025.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それは違う",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0026.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "お好み焼きがウマイ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0027.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0028.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなことはない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0029.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ラーメンが好きだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0030.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "くどい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0031.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "セコい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0032.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "調子乗り",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0033.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どこが",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0034.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0035.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…………",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0036.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "欲しいのか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0037.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえには必要ない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0038.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "さあな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0039.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえに会うため",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0040.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんとなく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0041.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なぜだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0042.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "俺も気に入らない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0043.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうなのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0044.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0045.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなことない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0046.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どこが",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0047.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "残念だったな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0048.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おしいな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0049.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それは無理だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0050.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "惜しいな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0051.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かりました",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0052.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はあ…そうですか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0053.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "難しいな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0054.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かりました",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0055.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はあ…そうですか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0056.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "難しいな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0057.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もちろん大阪だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0058.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "実は違う",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0059.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "その通り",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0060.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "違う",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0061.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばれたか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0062.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなことない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0063.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "芸人になりたい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0064.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ばれたか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0065.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "人違いだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0066.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ただの探偵だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0067.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0068.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "貸すだけなら",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0069.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0070.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0071.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "遠慮しておく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0072.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "貸すと言わずよこせ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0074.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こちらこそたのむ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0075.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0076.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "遠慮しておく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0077.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0078.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "別に…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0079.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔になれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0080.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ここから消えろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0081.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "お願いします",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0082.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "たのむ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0083.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "結構だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0084.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "絶対にいやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0085.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだな…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0086.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0087.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "欲しいものを言え",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0088.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "お願いします",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0089.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0090.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "放っておいてくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0091.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それなら助けてくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0092.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0093.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0094.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなことはない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0095.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なります",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0096.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0097.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だめだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0098.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0099.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やめろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0100.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "待ってくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0101.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何をするつもりだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0102.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "その前に俺がやる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0103.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0104.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仕方がない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0105.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それはできない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0106.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0107.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ごめんなさい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0108.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0109.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それはできない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0110.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0111.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうも～{BEAT}こんにちわ～{BEAT}{n}{demon_name}で～{BEAT}す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0112.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こらこらおまえも名前言わんかい！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0113.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{kyouji_name}さんかいな～{BEAT}{n}そうかそうか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0114.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{kyouji_name}言うんか～{BEAT}{n}かあ～{BEAT}っこええなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0115.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{codename}さんねえ…？{n}あ～{BEAT}そ～{BEAT}ですかあふ～{BEAT}ん{n}まあ名前なんかどうでもええ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0116.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{codename}やて～{WAIT}{n}こないだ病院でウワサになってた{n}やつとおんなじ名前や～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0117.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おいおい{n}それはわいの名前やろ！{BEAT}{n}まあええ精一杯のボケ見せてもろたし",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0118.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんやそれ？{BEAT}{n}ボケたつもりか？{WAIT}{n}めっちゃさぶいなあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0119.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんや{n}聞えてんのか？{WAIT}{n}お～いおまえ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0120.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんやわれ！{n}ひとが聞いてんのに何だまってんねん！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0121.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやあ{BEAT}お客さん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0122.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よういらっしゃいましたなあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0123.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやあ～{BEAT}{n}それがわいのとりえやからなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0124.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかなあ{n}こんなもんやろふつう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0125.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それは考えすぎや{n}そんなことあらへんがな{WAIT}{n}それよりもやな～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0126.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんや{n}感じ悪いやっちゃなあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0127.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいのことか{BEAT}{n}{demon_name}っちゅ～悪魔や！{WAIT}{n}それよりお客さん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0128.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「なんだ」言われてもなあ{BEAT}{n}ふつうの悪魔やからなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0129.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もっと元気ださなあかん{n}そんなんでどうするんや{WAIT}{n}よっしゃ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0130.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんやその気ィのない返事は{BEAT}{n}もっとシャキっとせえ！{n}シャキっと！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0131.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえ…{BEAT}{n}いきなりやけど{n}相方にならへんか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0132.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ええから名前は？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0133.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうやなあ…{BEAT}コンビ名は{n}{kyouji_name}＆{demon_name}で{n}どないや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0134.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{kyouji_name}かあ…{BEAT}{n}なんや変わりばえせ～{BEAT}へん名前やな～{BEAT}{n}なんか芸名つけなあかんなあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0135.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{codename}！{n}どっかで聞いたことあるなあ…{BEAT}{n}まあ気のせいやろうけどな！{WAIT}それより",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0136.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あかんわ…{BEAT}{n}芸向きの名前してへん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0137.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そらわいの名前やゆうねん{WAIT}{n}しょ～もないやっちゃなあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0138.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なに今の？{BEAT}{n}もしかして笑うトコやったんか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0139.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何や～起きてるか～{WAIT}{n}お～い{WAIT}{n}ええからわいの話聞いてくれ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0140.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なに緊張してんねん{n}そんなことで舞台たてるんか～？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0141.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おっ！{BEAT}{n}久しぶりの人間やんけ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0142.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よう来たよう来た！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0143.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえがテンション低いだけや",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0144.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなことないで{n}ふつうのやつはこんなもんや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0145.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかなあ？きにしてまうなあ{BEAT}{n}そんなふうに言わんといてたのむわ！{WAIT}{n}なんかおもろい話するから…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0146.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんでや！{BEAT}{n}わいメチャええやつやんか！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0147.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいは{demon_name}や～{n}もしかして知ってたあ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0148.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえこそなんや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0149.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おいおいたのむで～！{BEAT}{n}そんな情けない声出すなよ～{WAIT}{n}よっしゃわいが元気出る話したる！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0150.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「はあ」やあらへんで！{n}もっと元気だしていこ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0151.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "景気の悪そ～な顔して…{BEAT}{n}もっとシャキっとせんかい{n}シャキっと！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0152.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえなんちゅう名前や？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0153.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{kyouji_name}ねぇ…{BEAT}{n}はいはい{BEAT}そ～ですかあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0154.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえか{BEAT}{n}あっちこちで調子に乗って{n}ブイブイいわしてんのは",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0155.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふ～{BEAT}ん{BEAT}あっそ～{BEAT}ですかあ～{WAIT}{n}まあそれはそれとして",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0156.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "な～{BEAT}んや{BEAT}ありふれた名前やなあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0157.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいの名前言うて{n}どないするんじゃ{WAIT}{n}まあ知ってくれてんのはうれしいけど…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0158.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おっとそうや忘れるとこやった{n}前から誰かに聞きたいと{n}思てたことがあるんや",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0159.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どない言うてええか分からへんわ～{BEAT}{n}わけ分からへん！{WAIT}{n}さてはわいのことキライなんやろ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0160.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえなんでだまってんねん！{n}自分の名前忘れたんと違うやろ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0161.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だまってたら分からへんやんけ！{n}ほんま感じ悪いやっちゃなあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0162.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "せっかく気楽うに{n}ぶらぶらしてたのに～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0163.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあええわ{BEAT}せっかく来たんやからな！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0164.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "別にィそんなこともないけどな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0165.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえにまであいそよう{n}するつもりはないんやけどな！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0166.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えらい失礼なやっちゃなあ{BEAT}{n}いきなりそれかい！{WAIT}{n}よう見たら",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0167.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "誰に言うてんねん誰に！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0168.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よう聞いてくれた{n}{demon_name}いうんや知ってるやろ？{BEAT}{n}なんせわいメジャーやからなあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0169.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいのことはええから{n}おまえのこと言えよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0170.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんな情けない声出してるから{n}あかんのや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0171.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「はあ」ちゃうで{n}もっとしっかりせんかい！{WAIT}{n}おまえいつもそんなんか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0172.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "せっかくやから{n}酒盛りでもしょうか{n}わいのおごりや",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0173.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ええから{BEAT}ええから{BEAT}どんどん飲んでや",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0174.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おお！{BEAT}その調子や！{n}ええからどんどんいってくれ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0175.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アホやな～{BEAT}調子に乗って{WAIT}{n}後できっちり払うてもらうで～{WAIT}{n}…まあそれはええとして",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0176.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}あ～あ{BEAT}タダやと思てそんなムチャして",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0177.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ～あ{BEAT}{n}寝てもうたんかカゼひいても知らんで～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0178.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうやそれでええんや{n}どうやうまいやろ？なっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0179.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "せっかくなんやから{n}もうちょっとよろこんでくれよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0180.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "カタいやっちゃなあ{BEAT}{n}こんなときぐらいええやんか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0181.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あかんなあ～{BEAT}{n}おまえほんまあかんわ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0182.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうか…{BEAT}{n}そらしゃあないなあ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0183.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんやわれ！{WAIT}{n}わいの酒飲まれへんのか！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0184.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "せっかくやからゆっくりしていって！{WAIT}{n}なに？{WAIT}いそがしい？{n}そんなこと言わんと",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0185.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ええからわいのネタ見ていって！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0186.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ええかあ？{BEAT}いくで～！{WAIT}{n}お題は「あくま」",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0187.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8022}あ～{OP:8020}{WAIT}あなたといっしょにィ～{WAIT}{n}{OP:8022}く～{OP:8020}{WAIT}くるしいときも～{WAIT}{n}{OP:8022}ま～{OP:8020}{WAIT}ま…{BEAT}まけるな{demon_name}！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0188.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}どうやハイレベルやろ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0189.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ええかあ？{BEAT}いくで～！{WAIT}{n}お題は「でびる」",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0190.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8022}で～{OP:8020}{WAIT}デリケートで～{WAIT}{n}{OP:8022}び～{OP:8020}{WAIT}びっ{BEAT}貧乏で～{WAIT}{n}{OP:8022}る～{OP:8020}{WAIT}る？{BEAT}る…{BEAT}る…{BEAT}ルルルのル～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0191.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わけ分からへん{BEAT}{n}どないする？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0192.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かったやて～{WAIT}{n}そんなエラそうに言うんやったら{n}ネタなんかやらへんで～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0193.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いややったら別にええんや別に…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0194.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんな態度のやつに誰が見せるか！{WAIT}{n}もうちょっと見込みあると思たのにな…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0195.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そこまで言うんか{WAIT}{n}しゃあないなあやりますか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0196.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "一気にいくからよう見とけよ！{WAIT}{n}妙技「花咲きあくま～」！！{BEAT}{n}おりゃ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0197.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあ悪い気はせんけど{n}今回はやっぱりやめとくわ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0198.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱりあかんあかん{WAIT}{n}おまえに見せんのもったいない{BEAT}{n}減ってまうわ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0199.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何から話しょ～かなあ…{BEAT}{n}そや！{BEAT}食いもんの話しょ～か{WAIT}{n}知ってるて思うけど…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0200.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "タイ焼きよりタコ焼きの方がうまいで！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0201.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なっ{BEAT}そうやろ{BEAT}{n}おまえもそう思うやろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0202.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう言うてくれるのはうれしいけど{n}ほんまに味分かって言うてんのか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0203.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかあ{n}タコ焼きの方が上やと思うけどなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0204.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえには分からんだけや{n}ほんまもんのタコ焼き食うたこと{n}ないんやろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0205.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあ確かにお好みもうまいけどな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0206.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "せやけどわいはタコ焼きの方が{n}好きやねんもん{n}おまえほんまにわかってるかあ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0207.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何から話しょ～かなあ…{BEAT}{n}そや食いもんの話しよ{WAIT}{n}おまえそば好きそうな顔してるけど",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0208.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うどんよりそばの方がええんか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0209.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえ全然分かってへんなあ{WAIT}{n}かわいそうなやっちゃなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0210.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかあ？{BEAT}{n}あんなもんのどこがええんじゃ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0211.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうやろ～{BEAT}{n}おまえもそう思うやろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0212.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんまにそう思てるんやな{WAIT}{n}てきと～に合わせてるだけ{n}ちゃうやろな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0213.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあラーメンもなかなかやけど{n}やっぱりうどんの方がええ思うけどな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0214.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうか{BEAT}そらしゃあないな{WAIT}{n}やっぱり感性が違うんかなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0215.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "突然でびっくりするかもしれへんけど",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0216.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいのことどない思う？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0217.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そら偏見や！{BEAT}{n}そんなことないって！！{WAIT}{n}どうもさっきからおっかしいなあ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0218.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ああそのとおりや！{BEAT}{n}なんやそれがどないしたんや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0219.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえほっといたら{n}むちゃくちゃ言うなあ～{n}このへんでシメとかなあかんなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0220.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ～{BEAT}はいはい{BEAT}{n}池のなかで泳いでて手ェたたくと{n}頭だしよる…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0221.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ああそのとおりや！{BEAT}{n}なんやそれがどないしたんや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0222.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえほっといたら{n}むちゃくちゃ言うなあ～{n}このへんでシメとかなあかんなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0223.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ～{BEAT}はいはい{BEAT}{n}木ィの格子に紙を貼るときに使うやつ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0224.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ああそのとおりや！{BEAT}{n}なんやそれがどないしたんや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0225.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえほっといたら{n}むちゃくちゃ言うなあ～{n}このへんでシメとかなあかんなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0226.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "突然こんなこと聞いて悪いんやけど",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0227.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいのセンス最高やろ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0228.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「どこが」ってなあ…{BEAT}{n}見てたら分かると思うけどなあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0229.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "このあふれる知性といい{n}思慮深いまなざしといい{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0230.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ～{BEAT}あしゃあないなあ…{WAIT}{n}やっぱりおまえにはわからんねんな{n}この高尚なセンスが！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0231.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ちゃあんと分かってるんやんけ{WAIT}{n}よしよし{BEAT}それでええんや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0232.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえ全然感情込もってへんやんけ！{n}ごっつう感じ悪いなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0233.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんな～{WAIT}{n}だまらんでもええやろ{BEAT}{n}たんなるボケやボケ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0234.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえええ加減にしとけよ！{n}だまるな言うてるやろ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0235.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それはそうと{n}さっきからピッコピッコしてるやつ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0236.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんやそのキカイは？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0237.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "タダでもらえるんやったらもらうで～{WAIT}{n}…なんやタダちゃうんか{BEAT}{n}それやったらそんなもんいらん！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0238.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}なんやその目ェ{BEAT}{n}なんでそんな目ェで見るんや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0239.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなもんいるか！{n}なんやって聞いただけや！！{WAIT}{n}おまえ失礼なやっちゃなあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0240.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はいはい{BEAT}分かりました{WAIT}{n}ケチくさいやっちゃなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0241.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それはわいが決めることや{n}ええからよこさんかい！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0242.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}な～{BEAT}んやオモチャか～{BEAT}{n}こんなゼニにならんもんはいらん！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0243.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それはそうと{n}おまえみたいなやつが",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0244.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんでこんなトコおんねん？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0245.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなんでええんか？{BEAT}{n}ほんまええかげんなやっちゃな～{WAIT}{n}そういうやつはイヤなんや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0246.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "カッコつけんなよ！{n}よ～{BEAT}するに迷子になっただけやろ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0247.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "けっこううれしいこと{n}言うてくれるやないか{WAIT}{n}そうかそうか{BEAT}よう分かった",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0248.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんまかあ～{WAIT}{n}な～{BEAT}んかおまえの言うこと{n}信用できへんなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0249.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかあ？{n}ほんまは迷とるだけちゃうんか！{n}ええカッコしいやなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0250.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ええなあヒマ人は{WAIT}{n}ああうらやまし～{BEAT}{n}な～{BEAT}んかハラ立つし！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0251.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえの顔つき…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0252.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "な～{BEAT}んか気に入らんなあ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0253.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんで分からへんねん{n}そ～{BEAT}と～{BEAT}ぼけ～{BEAT}っとしたやつやなあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0254.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなもんおまえのせいに{n}決まってるやんけ！{WAIT}{n}分からんのかボケ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0255.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんや自分のこと{n}分かってるんやないか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0256.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえのことなんか誰も聞いてるか！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0257.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "たのむからもうちょっと{n}マシな返事してくれよ{BEAT}なっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0258.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうや！{n}それもこれもおまえのせいや！{WAIT}{n}カクゴせえよいてもうたるからな！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0259.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえの目ェ{n}な～{BEAT}んかいや～{BEAT}な感じするなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0260.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいのこと見下してるやろ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0261.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そこまではっきり言うかあ～{BEAT}ふつう…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0262.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうか…{BEAT}{n}もうええわ！よ～{BEAT}{BEAT}分かったわ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0263.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんまかあ？{n}そやったらええんやけど…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0264.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう言うたかてなあ～{BEAT}{n}すぐには信用できへんなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0265.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}なんでだまるんや～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0266.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウケる思たのに…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0267.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかなあ～？{BEAT}{n}けっこう地元ではウケてたのになあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0268.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにィ～{BEAT}{n}おまえ芸人ナメんなよ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0269.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんまや！{n}ああええ相方に恵まれてたらなあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0270.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なぐさめてくれんでもかまへん{n}どうせわいはイマイチなんや！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0271.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんまにそう思てくれるんやな！{WAIT}{n}マジで言うてくれるんやな！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0272.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "い～{BEAT}{BEAT}やわいはまだまだや{WAIT}{n}はよ帰ってネタの練習しょう！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0273.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}めっちゃさぶいやん{WAIT}{n}なんでひいてまうんや～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0274.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もっと笑ろてくれよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0275.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんでや！{BEAT}{n}おもろいやろ？{BEAT}なっ！{WAIT}{n}おもろい言うてくれ～！！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0276.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえいつもそんなす～{BEAT}の言い方{n}すんのか？{WAIT}友達なくすで～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0277.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "惜しいかあ～{BEAT}{n}まあそんなもんかわいの実力は…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0278.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もうええ分かった{n}おまえにはどうせ分からんのや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0279.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひとがボケまくってるんやから{n}ここでおまえが",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0280.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もう一発ボケかまさんかい！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0281.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よっしゃ{BEAT}分かればええんや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0282.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんまに分かってるんやろなあ？{BEAT}{n}こうゆうのはセンスなんやでセンス！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0283.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうや！{n}そんなんあたりまえのことやで！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0284.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなんでどうするんや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0285.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあ{BEAT}しゃあないなあ初心者やから…{WAIT}{n}安心せえわいがしっかり仕込んだる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0286.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "これくらいで弱音はいてて{n}どないするんや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0287.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひとがすべっとるんやから{n}ここは一発",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0288.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ツッコまんとあかんやろ～！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0289.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よっしゃ{BEAT}分かればええんや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0290.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんまに分かってるんやろなあ？{BEAT}{n}こうゆうのはセンスなんやでセンス！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0291.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうや！{n}そんなんあたりまえのことやで！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0292.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなんでどうするんや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0293.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあ{BEAT}しゃあないなあ初心者やから…{WAIT}{n}安心せえわいがしっかり仕込んだる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0294.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "これくらいで弱音はいてて{n}どないするんや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0295.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あれ～？{BEAT}おまえもしかして{n}関西人ちゃうんとちゃうか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0296.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえどこの出身なんや？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0297.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふ～{BEAT}ん{BEAT}そう…{BEAT}そうなん…{WAIT}{n}そうですかあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0298.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウソ言うなよ！{n}そんなんバレバレやん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0299.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあ分かってたけどな{n}別にかまへん気にすんな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0300.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱりちゃうんか…{WAIT}{n}今一つ信用できへんと思たら{BEAT}そうか…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0301.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あれ～？{BEAT}どうもおっかしいなあ～{WAIT}{n}はっは～{BEAT}わかったで～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0302.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえ東京モンやろ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0303.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかあ…{BEAT}{n}残念やけど東京モンとは{n}コンビ組まれへんわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0304.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱりそうか…{BEAT}{n}しゃあないここらでキュっといっとこか{n}東京モンは敵やからなあ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0305.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんまやな？{n}ダマしてたらしょ～{BEAT}ちせ～{BEAT}へんで",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0306.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それやったらなんでそんな{n}カッコつけるんや",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0307.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウソ言うなよ！{n}わいのことダマそうとしてもあかん！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0308.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はっはあ～{BEAT}{n}わかったでぇ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0309.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえほんまは芸人ちゃうんやろ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0310.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんやそうやったんか…{n}もっとはよ言えよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0311.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "バレるもなにもないで！{WAIT}{n}ほんまはわいにはうすうす{n}分かってたんや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0312.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかあ？{BEAT}{n}おまえ全然あかんやん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0313.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかあ？{BEAT}信じられへんなあ{WAIT}{n}おまえにはちょっと苦しいもんなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0314.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうか！よう言うた！{WAIT}{n}わいが鍛えたる！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0315.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ムリやムリや！！{BEAT}やめとき{WAIT}{n}悪いこと言わんから…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0316.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はっはあ～{BEAT}{n}やっとわかったでえ～{WAIT}{n}おまえ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0317.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんまは「さまなあ」ちゃうんか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0318.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱりそうか！{n}いやあボクお会いしたかったんですよ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0319.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱりそうか！{n}おかしい思てたんや…{WAIT}{n}よくもダマしてくれたなあ～{WAIT}いくで！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0320.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こらえらいすんません{BEAT}{n}許したってやたのむわ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0321.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかあ？{BEAT}{n}ほんまにそうかあ？{WAIT}{n}そうかなあ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0322.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえウソつくなよ～{BEAT}{n}ほんまは始めっから分かってたんや！{WAIT}{n}ほな死んでもらおかあ～{BEAT}いくで！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0323.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんやそんなも～{BEAT}からん仕事してる{n}やつかあ～{WAIT}{n}すまんすまんわいの人違いや",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0324.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「只野探偵」{WAIT}…ああ「タダの探偵」かあ～{WAIT}{n}…自分で言うててめちゃさぶいわ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0325.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんまに気分悪いなあ～{WAIT}{n}悪いと思てるんやったら",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0326.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ええから金くれよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0327.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おっ{BEAT}ええとこあるやんけ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0328.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんまにええんか？{BEAT}{n}なんか悪いなあ…{WAIT}{n}金以外でもええけどどうしょうかな～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0329.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そっ{BEAT}そうかあ～貸してくれんのか{n}いつ返せるかわからんで～{WAIT}{n}金以外でもええけどどうしょうかな～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0330.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "バァ～{BEAT}{BEAT}ンと出さんかいバァ～{BEAT}{BEAT}ンと！{BEAT}{n}ほんまビンボくさいやっちゃな～！{WAIT}{n}…もうええ他のヤツにたかるわ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0331.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなにイヤなんかい！{WAIT}{n}まあまあそ～言わんとたのむわ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0332.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いややて？{BEAT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}誰にぬかしとるんじゃ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0333.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえボコボコにすんぞ！{WAIT}{n}おりゃあ～！！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0334.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうも気に入らんなあ～{WAIT}{n}せやけど商売のことは別や！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0335.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんぼでも金貸すで！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0336.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ええよ『{n}わいもたまにはええことせんとな！{WAIT}{n}{offered_item}でどうや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0337.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ええことはええけど…{n}ムチャなことはできへんで！{BEAT}{BEAT}{n}そやなあ～{BEAT}{offered_item}でどうや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0338.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほなわいは帰るで！{n}忘れんとちゃんと返してくれよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0339.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なに遠慮してるんや{BEAT}{n}ひとの好意は素直に受けるもんやろ？{WAIT}{n}そやなあ～{BEAT}{offered_item}でどうや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0340.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうか{BEAT}それやったらええんやけどなあ～{n}もったいないなあ…{n}年利43％の超低金利やのに",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0341.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいの好意は受けられへんてことか…{WAIT}{n}ええやろ！{n}よ～分かったわ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0342.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わっ{BEAT}分かりました{WAIT}そやから{n}そんな大きい声出さんといて下さいよ{BEAT}{n}{offered_item}でどうですかあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0343.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんでわいがおまえに{n}金まき上げられなあかんねん！{WAIT}{n}ええかげんにせえよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0344.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあおまえ{n}なかなかええヤツやんけ！{WAIT}{n}決めたで！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0345.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいがなんとかしたろ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0346.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう言うてくれるんか！！{BEAT}{n}おまえほんまええヤツやな～{WAIT}{n}よっしゃついていくで～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0346.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいは{race}{demon_name}や～！！{n}ここはひとつ頼むで～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0347.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "すまんな～{BEAT}{n}やっぱりわいやめとくわ！！{n}悪う思わんといてや！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0348.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんやその言い方は！！{WAIT}{n}でもまあええ{BEAT}{n}わいが欲しいのはゼニやカネ出せ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0349.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんまおまえ分かっとんのか？{BEAT}{n}何やその言い方{n}信じられへんな～！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0350.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まだそんなこと言うてんのか{WAIT}{n}ええからカネや！！{BEAT}{n}カネ出せ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0351.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかあ…{BEAT}しゃあないなあ…{BEAT}{n}もうええ{BEAT}ムリにとは言わん！{BEAT}{n}ほなさいなら！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0352.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなこと言わんといてや！！{BEAT}{n}たのむわ！！{WAIT}{n}ちょっとゼニくれるだけでええんや！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0353.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかあ～{BEAT}{n}それやったら別にええんや！{WAIT}{n}ほなさいなら！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0354.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よっしゃ！！{BEAT}{n}何でも言うてくれ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0355.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんか役に立つことあったらな！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0356.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかあ～{BEAT}{n}めずらしいやっちゃなあ～！{n}{offered_item}やるわ～持っていき～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0357.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうそれやったらええんや！！{BEAT}{n}まあがんばってや～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0358.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よっしゃ！！わかったで～{WAIT}{n}わいにまかせとき～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0358.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいは{race}{demon_name}や～！！{n}なんでも言うてや～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0359.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あかん！{BEAT}{n}それだけはまけといて！{WAIT}{n}そらあかんできへんわ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0360.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アホ！！{WAIT}{n}むちゃ言うな！！{n}ゼニかせがんと帰れるか～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0361.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう言うんやったらしゃあないなあ…{WAIT}{n}ほなさいなら！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0362.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえが頭をさげるっちゅうんやったら{n}どうせ退屈してたとこやし",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0363.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わい遊んだってもええで！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0364.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうしょうかなあ～{BEAT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0365.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうしょうかなあ～{BEAT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{n}やっぱりやめとくわ！！{WAIT}すまんな！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0366.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しゃあないなあ…{BEAT}{n}そこまで言うんやったら{n}考えたろか～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0367.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "われそんな態度とるんかい！！{BEAT}{n}そういうときは「お願いします」やろ！！{n}わいを誰や思とるんじゃ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0368.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう…{BEAT}{n}そうなんかあ～{BEAT}{BEAT}{n}それやったらムリにとは言わん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0369.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかあ～{BEAT}{n}まあせいぜい努力せえよ！{WAIT}{n}おまえにはそれがよう似合とる！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0370.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうか{BEAT}分かったわ！！{n}もうええわい帰るわ！！{n}さいなら！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0371.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうか！{BEAT}よ～{BEAT}う分かったで！！{WAIT}{n}帰る前にいっちょいっとこかあ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0372.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえ…{BEAT}ここまできたら{n}分かってるとは思うけど",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0373.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "出すもん出すんやろなあ～？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0374.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何を考えてるんや？{WAIT}{n}カンタンなことやないか？{BEAT}{n}さっさとださんかい！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0375.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あれ？{BEAT}どうしたん？{BEAT}{n}商売の話やないか{BEAT}{n}あったりまえのことやろ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0376.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それほんまか？{BEAT}{n}本気で言うとるんか？{WAIT}{n}まさかな～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0377.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウソやろ？{WAIT}{n}なに！！{BEAT}本気で言うてんのか！{n}いてまうぞコラ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0378.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えっほんまに？{BEAT}{n}ええんやなあ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0379.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱりいらんいらん！！{BEAT}{n}おまえからセコいもんもろても{n}しゃあないし",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0380.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "とにかくこんな街捨ててしまえよ！{n}悪いこと言わん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0381.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「大阪」いこうや！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0382.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おっしゃ！！{BEAT}{n}物分かりええやっちゃなあ～{WAIT}{n}よしわいがつれったる！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0383.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱりやめとき{WAIT}{n}おまえあかんわ！！{n}ノリについていかれへん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0384.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあええやろ{WAIT}{n}ほんでなに出す？{BEAT}{n}何て案内料や！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0385.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんやて？{BEAT}{n}素直に「行きたい」言わんかい！！{n}ムリすんなよ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0386.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なに言うてるんや{BEAT}{n}ムリせんでええんやって{n}安うしとくから…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0387.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかよう分かったわ！{WAIT}{n}おまえなんか来んでええ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0388.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえ{BEAT}{n}聞かしてくれよ！{n}こんな危ない街のどこがええんや？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0389.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "この街めっちゃ危ないやん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0390.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よっしゃ！{BEAT}{n}その言葉待ってたんや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0391.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そらあかん！{BEAT}{n}そればっかりはでけへんわ！{n}おれただの芸人やもん…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0392.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "さすがに分かるみたいやな{BEAT}{n}ええわ助けたろ{WAIT}{n}せやけど条件があるんや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0393.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "分かってんねやったら{n}自分の力で何とかせんかい！{BEAT}{n}このボケ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0394.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえもしかしたら大物！？{WAIT}{n}なんも考えてへんねんなあ～{n}よっしゃ気に入ったで！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0395.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなことも分からんのかこのハゲ！！{BEAT}{n}ほんまあかんやっちゃなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0396.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかあ～{BEAT}{n}まあおまえのことやし…{n}それやったらええんやけどな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0397.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう言うていられんのも{n}今のうちだけや！{WAIT}{n}いまに分かるようになるで～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0398.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえって{BEAT}{n}ほんま情けないやっちゃなあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0399.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よっしゃ弟子にしたる！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0400.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ええ心がけや！{WAIT}{n}よっしゃ！！{BEAT}ビシビシ行くで～{n}おい行くで！！{BEAT}はよついて来い！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0400.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいは{race}{demon_name}や～！！{n}センセって呼ぶんやで～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0401.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ええんやな！{BEAT}{n}後悔しても知らんで！！{n}なんせわいの授業料は高いからなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0402.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「そうだな」やて～{n}ほうそんなお～へ～な態度とるんか～！{n}やっぱりやめや！やめや！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0403.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんな態度のヤツに誰が教えるか！！{WAIT}{n}根性たたき直したる！！{BEAT}{n}いくで～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0404.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかあ～{BEAT}あかんか～{BEAT}{n}ええアイデアやと思たんやけどなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0405.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにがあかんのや？{WAIT}{n}ようはやる気や！{BEAT}！{n}この根性なしが！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0406.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやなんかい！{BEAT}{n}なんでそんなこと言うんや？{BEAT}{n}ぜんぜん分からへんわ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0407.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いややったらええ！{BEAT}{n}ちょっとは見込みあると思たのに…{WAIT}{n}もうええ{BEAT}死ねや～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0408.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もうええわ！{WAIT}{n}おまえなんか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0409.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいのこの手ェでしばいたる！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0410.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}な{BEAT}なんや{BEAT}{BEAT}お{BEAT}おじけづいたんか？{BEAT}{n}まあわいかてボーリョクはきらいや",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0411.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今日のところはまけといたるわ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0412.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今さら遅いっちゅ～んじゃ{WAIT}{n}覚悟せえ！！{BEAT}{n}いてもうたるからな～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0413.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ええんや待つぐらいわな…{WAIT}{n}せやけどおまえどうせ死ぬんやで！！{BEAT}{n}あ～あ{BEAT}かわいそうなやっちゃなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0414.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "待てるかボケ！{BEAT}{n}ええからもうあきらめるんや！{WAIT}{n}いくで～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0415.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんややめて欲しいんか？{WAIT}{n}ほなカネ出せ{BEAT}ゼニやゼニ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0416.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "カンタンなこっちゃ{WAIT}{n}おまえ殺すだけやがな～！{BEAT}{n}あかんあかん{BEAT}もう決めたんや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0417.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ええで！{BEAT}{n}やってみ！{BEAT}ほらっはよう！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0418.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ～あ残念やなあ…{BEAT}{n}気ィついてへんねんやろけど{n}どうせ負けるんやで～{BEAT}いくで～！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0419.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんまおまえ最低なやっちゃなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0420.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もう行く！ええからどけ～！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0421.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あれ？{BEAT}な～{BEAT}んやえらい素直やな～{BEAT}{n}そうかほな元気でな！！{n}さいなら！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0422.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうそれでええ！{n}もっとはようその足～らん頭で{n}よう考えるんやで～！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0423.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんやて～！その言い方！{WAIT}{n}なんとかならへんのか～！！{BEAT}{n}さいごまでお～へ～なやっちゃ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0424.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱりや～めた！{n}おまえ倒してから行くことにするわ！{WAIT}{n}ええないくで～！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0425.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえがどうするかなんか聞いてへん！{n}倒して進むことにしょうかあ～！{BEAT}{n}いくで～！{BEAT}覚悟せえよ～！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0426.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかあ…{BEAT}そう言われてもなあ{n}ほな軽うやっつけとこか！{WAIT}{n}遠慮はせえへん{BEAT}ここで死ねや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0427.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えっ？{BEAT}今なんて言うた？{BEAT}{n}やっぱりわいに仕込んで欲し～んか{WAIT}{n}しゃあない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0428.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえが決めることやないやろ！{BEAT}{n}わいはもう決めたんや！{BEAT}{n}もうおまえなんか知らん！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0429.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よっしゃ！{BEAT}{n}もう一度だけチャンスやろ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0430.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あやまるなら今のうちやで～！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0431.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それでええんやそれで…{WAIT}{n}おまえのこと許したっる{n}まあ元気でやれよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0432.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいを誰や思っとるんじゃ！！{BEAT}{n}そんなもんですむか！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0433.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえはよ死ね{BEAT}{n}めんどくさい{n}わいがいてもうたる！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0434.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんまに分かってんのか？{n}まあええ{BEAT}信用しといたる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0435.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんまかあ～言うてるだけちゃうんか！{n}どうせこの場だけとちゃうんか！{BEAT}{n}ぜ～{BEAT}ったいそうやろ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0436.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ええからやってみ！{n}ええんか？わいをおこらせても…{WAIT}{n}もう行ってまうで{BEAT}しらんで",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0437.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあムリにとは言わんけどな{WAIT}{n}ただ死んでもらうだけのことや！！{WAIT}{n}いくで遠慮はせ～へんで～！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0438.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いや？{BEAT}いややて？{WAIT}{n}な～{BEAT}んか勘違いしてんのとちゃうか？{BEAT}{n}しゃあないな～{BEAT}やってまうかあ～！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0439.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "イヤやったらええんや！{BEAT}{n}はよ死ね！{WAIT}{n}えっ{BEAT}ムリ？いやあわいが殺したるで！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0440.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8025}こうしょうすたーと{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0441.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そやな～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0442.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{requested_item}でももらおかあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0443.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんや持ってへんのかあ～{n}しゃあないな～{n}ほな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0444.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "また今度にしょうかあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0445.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなぐらいちゅうわけにもなあ～{WAIT}{n}どうしよ～かな～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0446.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しゃあないな～{n}ほな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0447.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もうええわ{n}ほんましょうもないやっちゃ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0448.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よっしゃとにかくなんぼでもええで～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0449.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "……………{WAIT}{n}なんや黙ってると思たら{n}ゼニ持ってへんのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0450.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まだまだやで～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0450.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もっとぎょうさんもらおか～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0451.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "……もうええ{n}期待したわいが間違いやったんや",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0452.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アホかわれ！{n}何考えてんねん！{n}もう許さへんいてまうで～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0453.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあこんなもんかな～{n}しゃあないいっしょに行ったるか～！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0453.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいは{race}{demon_name}や！{n}悪いようにはせ～へん{n}ドーンとまかせといてや～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0454.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えらいおおきにありがと～！{n}ほなそういうことで！{WAIT}{n}またな～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0455.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なかなかおもろかったで{n}{offered_item}やるさかい{n}大事にせえよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0456.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おおきにありがとう！{WAIT}{n}ちゅうわけでさいなら！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0457.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アホ！！{n}こうなるんや～！！{WAIT}{n}おりゃあ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0458.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "これ以上{n}な～んか言うてもしゃあないし{WAIT}{n}わい帰るわ！{BEAT}さいなら～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0459.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "かかってこいや～！{WAIT}{n}まあおまえに言うてもあかんやろけどな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0460.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そらひどいんちゃうか～{n}われええかげんにせえよ！！{WAIT}{n}おこったで～{BEAT}死んでもらおか～！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0461.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "われ覚えとけよ！！{n}こんどは今日みたいには{n}いかんからな～{BEAT}コラ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0462.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "渡す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0463.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ことわる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0464.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ん…{BEAT}なんや{n}持たれへんやん{n}残念やったなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0465.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ん…{BEAT}いらんのか{n}そうか{BEAT}そらしゃあないなあ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0466.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "装備してへんくせにとる言うなよな{n}ほんましゃあないやっちゃなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0467.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "装備してへんくせにとる言うなよな{n}ほんましゃあないやっちゃなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0468.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "装備してへんくせにとる言うなよな{n}ほんましゃあないやっちゃなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0469.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんや～{BEAT}{n}なにするんや～{BEAT}{n}で{BEAT}でもわいだけは助けてくれるやろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0470.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "カンベンしてくれよたのむわ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0471.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "命を助ける",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0472.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "命をうばう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0473.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いや～{BEAT}すまんな～{BEAT}{n}ほなちょっとでええから{n}ついでにもらうもんもろとこか～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0474.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんまにええんか？{BEAT}{n}いや～{BEAT}すまんな～{BEAT}{n}ほなついでにもらうもんもろとこか～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0475.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえほんまにアホやなあ～{n}あかんあかん{BEAT}{n}ここで死んだほうがええで～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0476.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なっ{BEAT}なにも命まで欲しがらんでも…{WAIT}{n}話し合お{BEAT}なっ{BEAT}ええやろ{n}考え直して～な",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0477.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あっそう！{BEAT}{n}分かったもうたのまんわ！{BEAT}{n}わいも男や！！{BEAT}かかってこいや！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0478.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え？{BEAT}今なんて言うた？{BEAT}{n}えっ？{BEAT}あかんの～？{BEAT}{n}そやったらしゃあない{BEAT}いくで～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0479.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おっおまえか…{BEAT}{n}わいの連れのことたのむで～{WAIT}{n}よっしゃ！わいが元気にしたる！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0480.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おっおまえか…{BEAT}{n}元気にしてるかあ～！！{n}よっしゃ！{BEAT}{offered_item}持って行き～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0481.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おっおまえか…{BEAT}{n}元気にしてるかあ～！！{n}よっしゃ！{BEAT}{offered_item}持って行き～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0482.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おっおまえか…{BEAT}{n}なんやわいの連れも一緒かあ～！！{BEAT}{n}まあ気ィ付けてな～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0483.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いや～しかし{n}見れば見るほどええ月や！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0484.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "でもこわいなあ{BEAT}な～{BEAT}んか出そうや",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0485.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなことない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0486.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何か見たのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0487.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何がでると言うのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0488.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そっ{BEAT}そやな{WAIT}だ{BEAT}だ{BEAT}大丈夫やな{WAIT}{n}でもこわい～{n}一緒に行ってくれ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0488.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいは{race}{demon_name}や！{n}よろしゅう頼むわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0489.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうか{WAIT}ははあ～{BEAT}分かったで～{BEAT}{n}おまえがおかしなヤツ出す気やな～{n}そんなことできんようにいっとこか！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0490.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "見た訳やないけど…{WAIT}{n}こわいもんはこわいんじゃ！！{BEAT}{n}なあたのむわ一緒に行こ{BEAT}なっ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0490.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいは{race}{demon_name}や！{n}よろしゅう頼むわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0491.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まだ分からんのか{BEAT}{n}なにが起こるかわからんのやで！{WAIT}{n}おまえみたいなアホはここで死ね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0492.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなもん分からんけど…{BEAT}{n}気になるやん！！{WAIT}{n}なあ一緒に見に行こ{BEAT}なっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0492.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいは{race}{demon_name}や！{n}よろしゅう頼むで～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0493.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…あかん{BEAT}はよイケニエださんと！{BEAT}{n}そや{BEAT}おまえでええわ！！{n}すまん{BEAT}死んでくれ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0494.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いや～しかし{n}見れば見るほどええ月や！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0495.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こんなときはついマンザイしたなるなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0496.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにをする気だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0497.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おちつけ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0498.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やってみろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0499.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そ～言われてもわいのセ～カクやから{BEAT}{n}もしかしておまえが直してくれるんか？{WAIT}{n}よっしゃ一緒に行くで～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0499.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいは{race}{demon_name}や！{n}よろしゅう頼むで～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0500.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そらないやろ！！{BEAT}{n}そんなにわいの相方すんのイヤなんかい！{BEAT}{n}もうええ{BEAT}それやったら死ね！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0501.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そ～言われてもムリなんや{BEAT}{n}おまえ直してくれるんか？{WAIT}{n}それやったら一緒に行くで～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0501.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいは{race}{demon_name}や！{n}よろしゅう頼むで～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0502.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そらムリや！！{n}アカン{BEAT}ガマンしてたらイライラしてきた{WAIT}{n}コラわれ！！{BEAT}いてまうぞ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0503.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いやあ～{BEAT}やっぱりええわ{BEAT}{n}せやけどおまえええやっちゃなあ～{WAIT}{n}よっしゃ{BEAT}気に入ったで！{BEAT}一緒に行こか！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0503.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいは{race}{demon_name}や！{n}よろしゅう頼むで～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0504.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ええんか？いくで！！{WAIT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{BEAT}{n}なんや？{BEAT}気に入らんのか{BEAT}もうええわ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0505.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いや～しかし{n}見れば見るほどええ月や！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0506.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どや！一杯いこか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0507.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いいだろう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0508.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0509.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "酒はちょっと…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0510.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よっしゃええ飲みっぷりや{WAIT}{n}おまえと一緒に行くで～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0510.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいは{race}{demon_name}や！{n}よろしゅう頼むで～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0511.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よっしゃよっしゃ{WAIT}{n}ええぞどんどん飲め飲め～！！{WAIT}{n}あらなんや～寝てしもたんかあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0512.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よっしゃよっしゃ{WAIT}{n}ええぞどんどん飲め飲め～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0512.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よっしゃ気に入った！！{WAIT}{n}わいは{race}{demon_name}や！{n}よろしゅう頼むで～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0513.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よっしゃよっしゃ{WAIT}{n}ええぞどんどん飲め飲め～！！{WAIT}{n}…と油断させといて{BEAT}おりゃあ死ねや～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0514.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アホやなあ～{BEAT}{n}ぜんぜん分かってへん！{WAIT}{n}わいが教えたるええからついて来い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0514.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいは{race}{demon_name}や！{n}いろいろ教えたる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0515.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アホやなあ～{BEAT}{n}ぜんぜん分かってへん！{WAIT}{n}ええからここで死ねやあ～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0516.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いや～しかしな～{n}ここでわいに会えるなんて{n}いや～ほんまラッキーやなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0517.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえそう思うやろ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0518.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0519.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうかな？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0520.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえに関心はない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0521.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "「まあな」かあ…{WAIT}{n}な～{BEAT}んかひょうしぬけするなあ…{BEAT}{n}まあええ{BEAT}ほな行こか！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0521.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいは{race}{demon_name}や！{n}まあそのうち{n}わいが偉大やてわかるって！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0522.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんだその言い方！！{WAIT}{n}せっかくひとがええ気分でおんのに…{BEAT}{n}おまえあかんわ{BEAT}はよ死んでしまえ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0523.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんで分からんのや！！{BEAT}{n}おまえめっちゃラッキーやんけ！{n}分かったらついて来い！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0523.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいは{race}{demon_name}や！{n}まあそのうち{n}わいが偉大やてわかるって！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0524.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんや～分からんのか…{BEAT}{n}分からんのやったら{n}とりあえず死んどくか{BEAT}なっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0525.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まあまあそう言わんと{BEAT}{n}とっておきのネタ見せたるから{n}一緒に行こ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0525.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいは{race}{demon_name}や！{n}まあそのうち{n}わいの芸風最高やてわかるって！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0526.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あっ{BEAT}そうですかあ～{BEAT}{n}せっかくおまえに{n}とっておきのネタ見せたろ思たのに…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0527.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんや～{BEAT}おまえかあ～{BEAT}{n}ほんまにまた会うとは思てなかったで",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0528.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ん？{BEAT}なんや助けて欲しいんか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0529.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "たのむ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0530.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "別に…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0531.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふ～ん{BEAT}まあええやろ{n}しゃあないなあ～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0531.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいは{race}{demon_name}や！{n}しゃあない{n}わいが面倒見たろ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0532.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あかんあかん！！{BEAT}{n}自分の力で何とかせえ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0533.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにもそんなふうに言わんでええやろ{BEAT}{n}わいの口が悪いのは生まれつきや！！{WAIT}{n}ちゃ～{BEAT}んと助けたるって{BEAT}なっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0533.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "わいは{race}{demon_name}や！{n}まあそのうち{n}わいの偉大さが分かるって！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0534.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それやったらええんや{n}わいもメンドウにならんですむ{n}ほなさいなら{BEAT}またな！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0535.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おう{BEAT}おまえかあ～{BEAT}{n}誰かと思たで～{BEAT}{n}まあ元気でがんばってくれよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0536.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまえかあ～！！{BEAT}{n}こないだはようやってくれたな！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0537.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今日こそしばいたるからな覚悟せえ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0538.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あやまる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0539.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "芸をする",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0540.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほんま情けないやっちゃなあ～！！{BEAT}{n}もうええわ{BEAT}{n}かもてられへんわ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0541.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あかん！！{BEAT}{n}誰が許すか！！{WAIT}{n}いくで～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0542.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ふう{BEAT}あいかわらずさぶいなあ～{WAIT}{n}もうええ{BEAT}やる気なくなった{n}ええからどっか行け！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0543.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}そんなんでどないせえ言うんや！！{BEAT}{n}もうええはよ死ね！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0544.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おおこないだはどうも…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0545.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかお礼したいんやけど…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0546.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何かくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0547.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにもいらない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0548.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よっしゃええで！！{BEAT}{n}{offered_item}でどうや！！{n}ケチのわいがやるんや{BEAT}大事にしてや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0549.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう言われてもなあ…{BEAT}{n}あかんあかん！！{n}わいがケチやておまえ知ってるやろ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0550.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんやいらんのかあ…{WAIT}{n}まあそう言うな{offered_item}やる{n}ええから持って行き～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0551.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そっ{BEAT}そうか…{BEAT}そら残念やなあ～{WAIT}{n}ふう助かった…{BEAT}高いもんねだられたら{n}どうしょうかと思たで！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0552.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あかんあかん！！{BEAT}{n}そらぜ～{BEAT}ったいあかん！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0553.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんや{BEAT}もう持たれへんやん{BEAT}{n}そうかあ～{n}いや～残念{n}ほんまに残念や～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0554.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "待てコラ{BEAT}{n}わいをムシすんな～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0555.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにキョロキョロしてるんや{BEAT}{n}わいはここやここや！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0556.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "待て{BEAT}{n}わいはここや",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0557.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "何してるんや{BEAT}{n}もしかしてわいに気ィ付いてへんのか",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0558.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ここまできといて悪いんやけど{n}ほんまはわい仲魔になられへんねん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0559.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ここまできといて悪いんやけど{n}わいと合わんヤツ仲魔におるやろ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0560.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ここまできといて悪いんやけど{n}おまえわいのラベル{WAIT}{n}…いやレベルについて来られへんやろ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0561.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "せっかくやったんやけど失礼するわ{WAIT}{n}{offered_item}おいていくさかい{n}持っていって！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0562.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "せっかくやけど失礼するわ{WAIT}{n}ほなさいなら！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0563.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おっええんか！{BEAT}{n}おまえほんまええヤツやな～{BEAT}{n}ほなさいなら～",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.tlk_west.m0564.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こら待て～{WAIT}{n}…やっぱりええわ！{n}わいの連れもう仲魔におるやんけ…",
+    "translation": "",
+    "note": ""
+  }
+]

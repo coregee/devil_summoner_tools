@@ -1,0 +1,6362 @@
+[
+  {
+    "id": "game.grl.m0000.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あら。{n}{WAIT}{demon_name}の友達、いるのねー。{n}よろしくオネガイよ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0000.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ダイジにしてくんないと、{n}{BEAT}ショーチしないんだから{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0001.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あら。{n}{WAIT}{demon_name}の友達、いるのねー。{n}よろしくオネガイよ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0001.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}、{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}『{OP:8020}{n}{WAIT}友達ダイジにしてくんないと、{n}{BEAT}ショーチしないんだから{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0002.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あら。{n}{WAIT}{demon_name}の友達、いるのねー。{n}よろしくオネガイよ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0002.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}、{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}『{OP:8020}{n}{WAIT}友達ダイジにしてくんないと、{n}{BEAT}ショーチしないんだから{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0003.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あら。{n}{WAIT}{demon_name}の友達、いるのねー。{n}よろしくオネガイよ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0003.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はい、{BEAT}{OP:8023}ほうぎょく{OP:8020}、{BEAT}使ったげる。{n}{BEAT}ムリしちゃダメだからね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0004.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "友達ダイジにしてくんないと、{n}{BEAT}ショーチしないんだから{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0005.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ。{n}{WAIT}見ーつけた。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0005.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "誰か、クビにしてくれたー？{n}{WAIT}ウソー、{BEAT}まだなワケー！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0005.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もー、待てないってカンジー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0006.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ。{n}{WAIT}見ーつけた。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0006.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "誰か、クビにしてくれたー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0007.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アタシ、ナカマになっていーの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0008.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もちろん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0009.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だめだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0010.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もー、じらさないで{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0011.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "待たせたオワビは、してもらうワヨ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0012.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ナニよー！{n}他にオンナができたのねー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0012.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だれがアンタなんか！{n}{WAIT}こっちから、オコトワリよっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0013.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ナニよー！{n}他にオンナができたのねー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0013.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "刺してやる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0014.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "見つけたわよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0015.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "刺してやる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0016.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "返り討ちにしてやる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0017.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "人違いだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0018.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やってみなさいよー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0019.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やってみなさいよー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0020.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え。{n}{WAIT}あ、{BEAT}ごめーん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0020.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミによく似たヤツでー、{n}スゲー{BEAT}ムカつくのが、いるのよー。{n}{WAIT}見つけたら、教えてー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0021.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え。{n}{WAIT}あ、{BEAT}ごめーん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0021.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミによく似たヤツでー、{n}スゲー{BEAT}ムカつくのが、いるのよー。{n}{WAIT}ソックリだからー、{BEAT}キミでいーや。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0022.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おまたせー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0022.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どう、この服。{n}オキニイリなの。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0023.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "カワイーイ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0024.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "かわいい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0025.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "趣味じゃない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0026.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウレシー{OP:8026}『{OP:8020}{n}{WAIT}シアワセー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0027.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "気に入ってくれた？{n}ウレシー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0027.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "でも。{n}{WAIT}コトバだけじゃ、愛情が伝わってこないの。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0028.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おせじの1つも、言えないワケー？{n}ま、{BEAT}いーわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0028.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そのぶん、高くつくワヨ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0029.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おせじの1つも、言えないワケー？{n}{WAIT}サイテー！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0029.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱりあの時、刺しとくべきだったわ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0030.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねー、ちょっとー！{n}{demon_name}も、いるのよー。{n}{WAIT}アタシとは、話ができないってワケー！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0030.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "つきあいなさいよー！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0031.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ごめん。{n}ちょっと、いーい？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0032.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あーあ。{n}シラケちゃう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0032.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{demon_name}とも、話してよー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0033.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ずるーい！{n}{WAIT}そっちばっか、楽しそーでさー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0034.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キャーーーーッ！！{n}{WAIT}ゴメンなさい、{BEAT}ゴメンなさい…{n}{BEAT}ユルして{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0034.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あんなコトも、{BEAT}こんなコトも、{n}{BEAT}してアゲルから…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0035.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ね{OP:8026}『{OP:8020}{BEAT}ね{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0036.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "許す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0037.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "許さん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0038.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "でも。{n}{WAIT}タダってワケにはいかないの。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0038.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それが、世の中ってモンよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0039.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "でも。{n}{WAIT}お洋服、汚れちゃったしー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0039.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "着がえてくるね{OP:8026}『{OP:8020}{n}{WAIT}それまでブラブラしてて、{BEAT}ダーリン{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0040.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "スキありーッ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0040.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オボエてらっしゃーい！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0041.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなコト言っちゃって。{n}{WAIT}いいの？{BEAT}コーカイするわよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0041.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ナカマになったげても、いーのよ{OP:8026}『{OP:8020}{n}{WAIT}もちろん、{n}タダってワケにはいかないケド。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0042.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まだまだ、これからが花なのよ。{n}それなのに…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0042.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こんなトコで倒されちゃ、{n}タマんないわよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0043.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まだまだ、これからが花なのよ。{n}それなのに…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0043.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こんなトコで倒されちゃ、{n}タマんないわよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0044.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}を、手に入れた。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0045.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あら。{n}もう、ケッコー持ってるじゃん。{n}{WAIT}やっぱ、やーめた！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0045.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んじゃねー、サマナーちゃん{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0046.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なによー、持ってないじゃん！{n}{WAIT}ウソつきー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0047.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "刺すわよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0048.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アンタと同じ空気吸ってると思うと、{n}ムカついてきたわ！{n}{WAIT}マジで！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0049.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "めずらしートコで、{n}めずらしーヒトに会うじゃなーい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0050.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なに？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0051.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔になれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0052.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0053.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "話がある",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0054.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "去れ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0055.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え。{n}{demon_name}をー！？{n}{WAIT}んー…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0056.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んー…{n}{WAIT}ちょっとカンガエさしてー。{n}{WAIT}いきなり、そんなコト言われてもさー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0057.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え。{n}{WAIT}{demon_name}がー？キミにー？？{n}ったく、モー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0057.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "必要なモノくらい、自分で買えないワケ？{n}{WAIT}{offered_item}でいーい？{n}…って、{BEAT}モンクは言わせないわよっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0057.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んじゃねー、ビンボーさん{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0058.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え。{n}{WAIT}キミ、他人にモノたかるクセさー。{n}直したほーがいーよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0058.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ったく。{n}このビンボーオトコは…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0059.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{demon_name}もさー。{n}キミに話があんの。{n}{WAIT}ちょーどいーわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0060.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ちょーどいーわ。{n}{WAIT}キミに聞きたいコト、あったのよー。{n}{BEAT}ちょっと、いーい？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0061.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まーた、{BEAT}つまんないコト聞くんでしょ。{n}{WAIT}キミの話ってー、{n}{BEAT}長いだけでー、つまん{BEAT}なー{BEAT}い{BEAT}のよー！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0062.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まーた、そんなコト言っちゃってー{OP:8026}『{OP:8020}{n}{WAIT}{demon_name}が欲しいんでしょー。{n}{BEAT}ホントはー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0062.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そーならそーと、早く言えばいーじゃん。{n}{WAIT}ま、{BEAT}とーぜん、{BEAT}もらうモンはもらうケドー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0063.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はあぁーーーーーーん？{n}{BEAT}キミー、ここドコだと思ってるワケー！？{n}{WAIT}異界よ、{OP:8026}{BEAT}イ{BEAT}カ{BEAT}イ{OP:8020}！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0063.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アクマさんの、おうちなのよ、{BEAT}ワカルー？{n}{WAIT}ヒトんち、勝手にあがりこんどいて、{n}そりゃないでしょー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0064.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う。{n}そーいうコト、言っちゃうワケー？{n}おんなのコにー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0064.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まー、ちょっとくらい、いーじゃん！{n}つきあいなさいよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0065.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どーしたの？{n}なんかあったの？{n}{WAIT}サマナーが、こんなトコで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0066.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いったい、ナニしてるワケー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0067.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "MAP作り",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0068.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔探し",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0069.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "鍛練",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0070.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "悪魔退治",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0071.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ブラブラしてるだけ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0072.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え。{n}マジー？{n}ここの地図、作ってんのー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0072.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "手伝ったげよっかなー…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0073.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え。{n}マジー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0073.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ここの地図なんか作って、どーすんの？{n}売れないわよ、そんなの。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0073.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、そーそー。{n}{WAIT}話、かわるケドさー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0074.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まー{OP:8026}『{OP:8020}{n}それって…{n}{WAIT}{demon_name}が欲しいってコトー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0074.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んー…{n}{WAIT}いーわよ{OP:8026}『{OP:8020}ユルしちゃう{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0075.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ま{OP:8026}『{OP:8020}{n}それって…{n}{WAIT}{demon_name}が欲しいってコトー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0075.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んー…{n}{WAIT}それはそれでー、カンガエとくとしてー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0076.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "へー。{n}イマドキ、感心じゃん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0076.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "手伝ったげよっか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0077.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "へー。{n}そりゃー、タイヘンだー。{n}{WAIT}で…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0077.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8026}タンレン{OP:8020}て、{BEAT}だれ？{n}{WAIT}チューゴクの、エラいおぼーさん？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0077.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ま、いいやー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0078.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "げ。{n}{WAIT}その{OP:8026}モミアゲ{OP:8020}で、そーいうコト言われると…{n}{BEAT}なーんか、セットクリョクあるなー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0079.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "げ。{n}{WAIT}その{OP:8026}モミアゲ{OP:8020}といい、白いスーツといい…{n}{BEAT}ヤバいヒトかなー、なんて思ったケドー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0079.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ヤッパ、{OP:8026}せなかに絵がある系{OP:8020}なんだー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0080.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そーゆートシゴロだもんねー。{n}わかるわー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0080.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0081.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミも、年金はらうトシゴロなんだしー。{n}チョットはオチツキなさいよー！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0081.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いーい！？{n}{WAIT}今度またブラブラしてたら、{n}ショーチしないわよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0082.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アクマに話しかけるなんて、{n}イカレたニンゲンだわね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0083.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{BEAT}なんか用なんでしょー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0084.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔になれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0085.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0086.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "話がある",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0087.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "去れ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0088.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "マジー？{n}ナカマー？？{n}{WAIT}話しかけるだけでもヘンなのに…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0088.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミー、いちど医者行ったほーがいーわよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0088.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ま、タイクツしてたトコだしー。{n}話だけは、聞いたげるわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0089.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どーしてこの{demon_name}が、{n}キミの言ーなりになんなきゃ、{n}いけないワケー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0089.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ナットク、いかないなー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0090.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え。{n}{WAIT}{demon_name}が？キミにー！？{n}{WAIT}ったく、モー！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0090.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほらっ、{offered_item}。{n}あんまし、たかっちゃダメよー。{n}{WAIT}クセになるから{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0091.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え。{n}ちょっと待ってよ！{n}{WAIT}なんで、ミツがなきゃなんないワケー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0091.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ま、いーわ。{n}キミ、おもしろそーだしー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0092.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それよかさー。{n}{WAIT}{demon_name}の話、聞いてよー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0093.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ハナシー！？{n}{WAIT}あんまし、なれなれしくしないでー！！{n}見えすいてんのよー、コンタンは！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0093.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ま、いーわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0094.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "タイド、でかいわねー！{n}あんまし、なれなれしくしないでよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0095.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "？{n}{WAIT}キミー、マジでイカレてんじゃないのー！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0095.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "話しかけたと思ったら、今度は{n}「去れ」！？{n}{WAIT}いーわよ、サルわよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0096.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "？{n}{WAIT}キミー、マジでイカレてんじゃないのー！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0096.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "話しかけたと思ったら、今度は{n}「去れ」！？{n}{WAIT}ナニサマなのよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0097.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "イソガシそーねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0098.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いったい、ナニやってるワケ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0099.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "MAP作り",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0100.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔探し",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0101.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "鍛練",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0102.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "悪魔退治",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0103.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ブラブラしてるだけ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0104.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "へー。{n}楽しそーじゃん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0104.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{demon_name}、ヒマしてんの。{n}{WAIT}キミしだいだけどー、{n}手伝ったげてもいーのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0105.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "へー。{n}地図作って、どーすんのよー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0105.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まー、いっけどねー。{n}そーゆーの、キョーミないしー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0105.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0106.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え。{n}それって…{n}{WAIT}{demon_name}が欲しいってコト？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0106.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もーちょっと、キミのこと、{n}知りたいんだケドー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0107.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "へー。{n}そいつは、タイヘンだー。{n}{BEAT}いいコが見っかると、いーねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0107.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んじゃ、{demon_name}はこれで。{n}{WAIT}これからカレシとランデブーだからー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0108.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え。{n}ここでキタエてるってーことはー…{n}{WAIT}アクマ、{BEAT}殺しまくりー{BEAT}ってワケー！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0108.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ムカつくー！{n}{WAIT}サイテー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0109.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "タンメン？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0109.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こないだ、{n}「{OP:8026}いちごタンメ～ン{OP:8020}{maru_symbol}」{n}って、大さわぎしてる子がいたケド……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0109.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "さては。{n}{BEAT}キミでしょ、コドモにヘンなモノ教えたの！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0109.p03",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなモノ食べて、{n}{WAIT}クセになったらどーすんのよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0110.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "へー。{n}{WAIT}キミに殺されちゃう、{n}オマヌなアクマが、いるワケー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0110.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キャハハハハ。{n}カオ見てみたーい！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0111.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "げ。{n}{WAIT}ア・アンタ、{BEAT}ウワサの{BEAT}{OP:8025}デビルバスター{OP:8020}！？{n}{WAIT}マジー！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0111.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8025}デビルバスターバスターズ{OP:8020}に、{n}言ーつけてやるー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0112.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いートシこいてー…{n}{WAIT}オヤが見たら、泣くかもよー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0113.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いートシこいてー…{n}{WAIT}そろそろヨメサンもらって、{n}おちついたらー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0114.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なによー。{n}今、いそがしーんだからー！{n}{WAIT}用あんならさー、早くすませてよねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0115.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なーに！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0116.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔になれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0117.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0118.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "話がある",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0119.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "去れ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0120.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "な？{n}ナカマ？{WAIT}{demon_name}がー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0120.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んー…{n}欲しいモノ、あるんだけどなー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0121.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "は？{n}{WAIT}ごめーん、{WAIT}聞こえなかったわー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0121.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、そーそー。{n}{WAIT}ぜんぜん話かわるけどさー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0122.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "は？{n}{WAIT}ごめーん、{WAIT}聞こえなかったわー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0122.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、そーそー。{n}{WAIT}ぜんぜん話かわるけどさー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0123.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "は？{n}{BEAT}却下よ、{BEAT}キ{BEAT}ャ{BEAT}ッ{BEAT}カ{BEAT}！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0123.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アンタになんて、{n}ビタイチモン、くれてやんなーい！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0123.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ところで…{WAIT}ビタ・イチモンって、だれなの？{n}{BEAT}ま、いーか。そんなこと。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0124.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "別に、いーけどー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0125.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "すればー。{n}{WAIT}ひとりでー。{n}{WAIT}あー、なんかおもしろいコト、ないワケー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0126.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "るっさいわねー！{n}{WAIT}そんなふーに言わなくたって、{n}いーじゃん！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0127.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかー…{n}{WAIT}アンタのカオ見てると、{n}リフジンにムカついてきたわー…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0127.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…{BEAT}…{BEAT}リ{BEAT}フジン…？{n}{WAIT}だれの奥さんだろ…{n}{WAIT}ま、いーか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0128.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ここは、キミみたいな{n}ボクチャンがいる場所とチガウのよー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0129.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こんなアブないトコで、ナニしてるワケー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0130.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "MAP作り",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0131.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔探し",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0132.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "鍛練",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0133.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "悪魔退治",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0134.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ブラブラしてるだけ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0135.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あー。{n}ヤッパ、まだオコチャマなのねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0135.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いーでちゅかー。{n}{WAIT}ここは{BEAT}コワい{BEAT}コワい{BEAT}でちゅよー。{n}{BEAT}キャハハハハ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0136.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃ、{n}いーコト、教えてアゲよっかー！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0136.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "北向いてー、{BEAT}おハシ持つ手の方がー、{n}{BEAT}…{BEAT}…{BEAT}あれ！？{n}{WAIT}右{BEAT}…{BEAT}だっけ{BEAT}？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0136.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あーーーー！{n}もーーーー！{n}{WAIT}ムカつくーー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0137.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んー…{n}見たカンジ、あんましオカネ、{n}持ってそーもないしなー…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0137.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "カオもコワいしー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0137.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねー。{n}ぜんぜん、話かわるケドさー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0138.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "へー。{n}それって、けっこームズかしくないー？{n}{WAIT}いーコト、教えてアゲよっかー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0138.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いーい、アセっちゃダメなのよー。{n}1回でナカマになってくれる、{n}なんて思ったら、オーマチガーイ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0138.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "話してるうちに、{n}だんだん親しくなってけば、いーのよ。{n}ワカッター？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0139.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "へー。{n}イマドキ、感心じゃん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0140.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え。{n}ここでキタエてるってーことはー…{n}{WAIT}アクマ、殺しまくりってワケー！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0140.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アンタ、{BEAT}サイテー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0141.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "へー、そー。{n}{WAIT}キミに殺されちゃうほど、{n}{demon_name}は、アマくないワヨー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0142.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "へー、そー。{n}{WAIT}キミに殺されちゃうほど、{n}{demon_name}は、アマくないワヨー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0143.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウソつきー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0144.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウソつきー！{n}{WAIT}好きで異界なんかウロつかないワヨ、{n}ニンゲンはー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0144.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{demon_name}を、{n}殺しに来たんでしょー！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0145.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "気が合いそーじゃん、アタシたち！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0146.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もしかして…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0147.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "愛しあってる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0148.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "嫌いあってる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0149.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ま{OP:8026}『{OP:8020}{n}豪速球なヒト{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0150.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ま{OP:8026}『{OP:8020}{n}豪速球なヒト{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0151.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "サイテー{BEAT}…{BEAT}…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0152.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ヒドイ…{n}{BEAT}キミのこと、{BEAT}好きだったのに…{n}{WAIT}刺してやる…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0153.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アクマのこと、どー思ってるー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0154.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱ、{BEAT}キラ{BEAT}…{BEAT}イ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0155.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなことはない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0156.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "嫌い",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0157.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よかった…{n}{WAIT}ちょっと、アンシン。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0158.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウソつきー！{n}{WAIT}じゃーどーして、{n}武器持ってウロついてんのよー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0159.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ。{n}ハッキリ言ってくれるじゃん！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0159.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "スパッてモノが言えるヒトって、{n}最近いないしー。{n}{BEAT}キモチいーわー！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0159.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}『{OP:8020}{n}{demon_name}のキモチよ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0160.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ。{n}ハッキリ言ってくれるじゃん！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0160.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "スパッてモノが言えるヒトって、{n}最近いないしー。{n}{BEAT}キモチいーわー！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0161.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ。{n}ハッキリ言ってくれるじゃん！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0161.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミさー、ここドコだと思ってるワケー！？{n}{WAIT}異界よ、{OP:8026}{BEAT}イ{BEAT}カ{BEAT}イ{OP:8020}！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0161.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アクマさんの、おうちなのよ、{BEAT}ワカルー？{n}{WAIT}ちょっとは、自分の立場カンガエたらー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0162.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミ、デビルサマナーでしょ？{n}{BEAT}で。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0163.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それって、どーゆーシゴトなワケー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0164.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "悪魔召喚師",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0165.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "探偵",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0166.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "悪魔退治屋",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0167.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "へー。{n}なんかー、オモシロそーじゃん。{n}{WAIT}参加してあげても、いーわよ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0168.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "その{BEAT}まんまじゃーん！{n}{WAIT}だれが、和訳しろなんて言ったのよー！{n}ったく…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0169.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "コキ使うワケー？{BEAT}アクマをー？{n}{BEAT}そんで、いらなくなったら{BEAT}ガッタイ…？{n}{WAIT}いー商売してんじゃん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0169.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アンタと同じ空気吸ってると思うと、{n}ムカついてきたわ！{WAIT}マジで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0170.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ。{n}わかった。{n}{OP:8026}ウワキ{OP:8020}のチョーサに来たんでしょー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0170.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キャー、それってミリョクー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0171.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "タンテイ？{n}んー…{n}アヤシーなー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0171.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんで、探偵が武器持ってるワケー！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0172.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "マジー！？{n}{WAIT}{offered_item}アゲルからさー。{n}{WAIT}見逃して{OP:8026}『{OP:8020}{BEAT}ね{OP:8026}『{OP:8020}{BEAT}ね{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0172.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃ、そーゆーことで…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0173.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ヤれるモンなら、ヤってみなさいよー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0174.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミさー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0175.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アクマ殺しといて、ヘーキなワケー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0176.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "良心がとがめる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0177.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "平気",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0178.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だったらー、どーして殺すワケー！？{n}{WAIT}ま。{n}キミも、ナヤんでるのよね…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0179.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "両親はカンケーないの！！{n}{WAIT}パパやママに聞かないと、{n}なーんにも決められないワケー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0179.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "最近のオトコは…{n}ったく…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0180.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アンタと同じ空気吸ってると思うと、{n}死にたくなってくるわ…{BEAT}マジで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0180.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ま、いーわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0181.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{demon_name}、最近カンガエてんのよ。{n}たまにはアカデミックにー、みたいな。{n}{WAIT}核兵器って、あるじゃん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0181.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あれって…{n}{WAIT}当たったら、痛ソーだよねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0182.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミ、核兵器どー思う？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0183.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "許されない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0184.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "持つだけならいい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0185.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "すばらしい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0186.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "痛そう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0187.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "気が合うじゃん！{n}{WAIT}キミしだいだけどー、{n}ついてったげても、いーわよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0188.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そーよ！{n}ニンゲンって、許されないのよー！{n}{WAIT}いっつも、ジブンカッテでゴーマンで！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0188.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "他のイキモノのこと、{n}ぜーんぜん、カンガエてないんだから！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0189.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どーしてー！？{n}持ってたら、使いたくなっちゃうじゃん！{n}{WAIT}アブナイよ、やっぱ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0190.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どーしてー！？{n}持ってたら、使いたくなっちゃうじゃん！{n}{WAIT}特に…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0190.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミなんか、使いそーなカオしてるしー。{n}{WAIT}こんなアブナそーなヤツのナカマなんて…{n}{BEAT}死んだって、なんないわよー！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0191.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そりゃー…{n}{WAIT}お湯もわかせるだろーしー、{n}{WAIT}そしたらー、{BEAT}ラーメンも作れるケドー…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0191.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなに、いーモンかなー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0192.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "サイテー！{n}{WAIT}キミみたいのがいると、{n}メーワクなのよー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0193.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "でしょでしょー！{n}{WAIT}あんなモン作るニンゲンの、{n}気がシレないわー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0194.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "でしょでしょー！{n}{WAIT}やっぱー、イタイのは、イヤだよねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0195.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もしさー、世界がホロビてさー。{n}{WAIT}{demon_name}とキミ、{n}{BEAT}2人だけが残ったとしたら…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0196.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どーするー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0197.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "愛に生きる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0198.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "戦う",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0199.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔にする",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0200.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まー{OP:8026}『{OP:8020}{n}{WAIT}信じて…{BEAT}信じていーのね{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0201.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よくも、シャーシャーと。{n}だれにでも、そんなコト言ってんでしょー！{n}{WAIT}オンナの敵ー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0202.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う。{n}{WAIT}わかりやすいコタエね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0202.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いーコンジョーしてるわー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0203.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "う。{n}{WAIT}わかりやすいコタエ、どーもありがとー。{n}よーく、わかったわー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0204.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しょせん、アクマとニンゲン{BEAT}ってワケー？{n}{WAIT}ココロのせまいオトコねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0205.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しょせん、アクマとニンゲン{BEAT}ってワケー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0205.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、そー。{n}時間のムダだったみたい。{n}{WAIT}んじゃね！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0206.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミー、有名人ー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0207.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0208.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "違う",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0209.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "マジー！？{n}{WAIT}いっしょについてったらー、{n}{demon_name}も有名になれるかなー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0209.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アタシをナンパしに来たの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0210.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっぱりー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0210.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃー、キミが最近ウワサの…{n}{WAIT}アクマ殺しってワケー！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0211.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なーんだー。{n}ドキドキして、ソンしちゃった。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0212.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、そー。{n}じゃー、用ナシね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0213.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミ、血液型はー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0214.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "AB型",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0215.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "O型",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0216.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "B型",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0217.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "A型",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0218.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えー！{n}ウッソー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0218.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それって、{demon_name}と{n}相性バッチリじゃーん{maru_symbol}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0218.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミしだいだけどー、{n}ついてったげても、いーのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0219.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えー！{n}ウッソー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0219.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃー、いくら血ー流してもー、{n}{WAIT}輸血されまくりで、オッケーじゃーん！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0220.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えー！{n}ウッソー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0220.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それって、{demon_name}と{n}相性バッチリじゃーん{maru_symbol}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0220.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミしだいだけどー、{n}ついてったげても、いーのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0221.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "O型のオトコって…{n}{WAIT}あんまし、いー思い出ないのよねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0222.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えー！{n}ウッソー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0222.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それって、{demon_name}と{n}相性バッチリじゃーん{maru_symbol}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0222.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミしだいだけどー、{n}ついてったげても、いーのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0223.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "イーカゲンで、アキっぽいオトコって、{n}サイテー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0223.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オンナの敵よー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0224.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えー！{n}ウッソー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0224.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それって、{demon_name}と{n}相性バッチリじゃーん{maru_symbol}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0224.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミしだいだけどー、{n}ついてったげても、いーのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0225.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "シンケーシツなオトコって、{n}疲れるのよねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0226.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ちょっとさー！{n}{WAIT}その銃、さっきから気になるのよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0227.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "外してくんなーい？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0228.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "外す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0229.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "外さない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0230.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いーわー。{n}{WAIT}じゃ、本題に入りましょー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0231.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いーわー。{n}いーわよー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0232.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いーわー。{n}いーわよー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0233.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、そー。{n}{WAIT}そーゆータイド、とっちゃうワケー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0234.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、そー。{n}{WAIT}{demon_name}と話す気、{n}ないってワケー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0234.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ま、いーわ。{n}じゃ、そーゆーことで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0235.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、そー。{n}そーゆータイド、とっちゃうワケー。{n}{WAIT}かかってきなさいよー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0236.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アンタと同じ空気吸ってると思うと、{n}ムカついてきた！！{n}{WAIT}マジでー！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0237.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "帰ってくんなーい？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0238.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "立ち去る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0239.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "無視する",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0240.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃ、そーゆーことで。{n}おつかれー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0241.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もー2度と現われないで！！{n}マジ、ムカつくから！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0242.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "次に生まれる時は、{n}ちゃーんと、モミアゲ切っとくのよー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0243.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ま、いーわ。{n}言うだけ言ったら、{n}ちょっとスッキリしたしー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0244.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そのタイドが、気に喰わないのよー！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0245.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そのタイドが、気に喰わないのよー！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0246.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねー、聞いてー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0246.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もしもさー、{demon_name}がさー。{n}{WAIT}ナカマにして{OP:8026}『{OP:8020}{n}ってオネガイしたら…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0247.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミ、どーする？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0248.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔にする",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0249.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "お断りだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0250.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうしようかな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0251.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "マジー！？{n}{WAIT}ウレシー{OP:8026}『『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0252.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "マジー！？{n}じゃー、カンガエとくわ{OP:8026}『{OP:8020}{n}{WAIT}そのうち、{BEAT}ね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0253.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "サイテー！{n}信じらんなーい！！{n}{WAIT}もっと、言い方ってもんがあるでしょー！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0254.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "サイテー！{n}信じらんなーい！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0254.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "この{demon_name}ちゃんを、{n}よくもコケにしてくれたわねー！{n}{WAIT}オボエてらっしゃーい！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0255.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じらさないで{OP:8026}『{OP:8020}{n}{WAIT}もー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0256.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んー…{n}{WAIT}じゃー、よくカンガエといてねー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0256.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "サヨナラー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0257.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0258.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{demon_name}のコト、好き？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0259.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "好き",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0260.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "きらい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0261.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どうでもいい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0262.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "マジー！？{n}うれしー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0263.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "マジー！？{n}うれしー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0264.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "サイテー！{n}信じらんなーい！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0264.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そーゆー時って、ウソでもいーから、{n}{WAIT}{OP:8026}スキ『{OP:8020}{BEAT}って言っとくもんよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0264.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ムカつくー！{n}{demon_name}、帰るー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0265.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "サイテー！{n}信じらんなーい！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0265.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そーゆー時って、ウソでもいーから、{n}{WAIT}{OP:8026}スキ『{OP:8020}{BEAT}って言って欲しいモンなのよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0265.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もー、なんにもワカっちゃいない…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0266.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そーゆータイド、とるワケー？{n}{demon_name}に、きらわれたいのー！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0267.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そーゆータイド、とるワケー？{n}ロクな死に方しないわよ、アンタ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0267.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オボエてらっしゃい！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0268.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…{BEAT}…{BEAT}ねー。{n}{BEAT}ちょっとー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0269.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ダマってないで、なんか話してよー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0270.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "愛を語る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0271.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "人生を語る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0272.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "料理を語る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0273.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まんだんをする",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0274.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "政治を語る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0275.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ…{n}{WAIT}え…{OP:8026}『{OP:8020}{n}{WAIT}あ、{BEAT}そんな{BEAT}…{BEAT}…{BEAT}{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0275.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなコト言ってくれんの、キミだけ{OP:8026}『{OP:8020}{n}{WAIT}シアワセにしてくれる？{n}{WAIT}してくれなきゃ、刺しちゃうワヨ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0276.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ…{n}{WAIT}え…{OP:8026}『{OP:8020}{n}{WAIT}あ、{BEAT}そんな{BEAT}…{BEAT}…{BEAT}{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0276.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなコト言ってくれんの、キミだけよ{OP:8026}『{OP:8020}{n}{WAIT}{offered_item}、アゲちゃう{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0277.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "へー。{n}ためになったカモ。{n}{WAIT}キミの話、オモシロイわー{maru_symbol}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0277.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}、{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0277.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "また、聞かしてねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0278.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…{BEAT}…{BEAT}…{BEAT}すやすや{BEAT}……{BEAT}ぐぅ{BEAT}…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0279.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "へー！{n}{WAIT}{OP:8024}ケータイ固形食料{OP:8020}と{OP:8025}カレー{OP:8020}で、{n}{OP:8026}まずいナラヅケ{OP:8020}の味ー！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0279.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今度、ためしてみよー{maru_symbol}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0279.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、そーそー。{n}{WAIT}ぜんぜん話かわるケドー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0280.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うんちくタレるオトコって、{n}吐き気がすんのよー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0280.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ぜーん{BEAT}ぜん{BEAT}ツマンナイ！{n}{WAIT}んじゃね！サヨナラ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0281.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…{BEAT}…{BEAT}キャハハハハ！！{n}{BEAT}グーよ、グー。{n}サイコー{maru_symbol}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0281.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}、{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0281.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "また聞かしてねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0282.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…{BEAT}…{BEAT}死ぬがいーわ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0283.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "へー。{n}わかったよーな、気がするー。{n}{WAIT}なんかー、{BEAT}アタマ良くなったよーなー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0283.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "でも、ケッコー疲れたわー。{n}帰って、おフロ入って寝よ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0284.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "？？{n}{WAIT}わっかんなーい！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0284.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どーせー。{n}{demon_name}はアタマ悪いしー。{n}{WAIT}ムカつくー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0285.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…{BEAT}…{BEAT}ねー。{n}{BEAT}{demon_name}のためにさー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0286.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんか歌ってー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0287.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "バラード",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0288.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "演歌",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0289.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "和歌",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0290.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ラジヲ体操第2",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0291.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…{BEAT}…{BEAT}そんなにも。{n}{BEAT}そんなにも、{BEAT}{demon_name}のこと{BEAT}…{n}{WAIT}いーわ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0292.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…{BEAT}…{BEAT}かゆー。{n}{BEAT}かゆ、{BEAT}かゆ、{BEAT}かゆ、{BEAT}かゆいー！{n}{BEAT}体がー、{BEAT}あー、{BEAT}かー{BEAT}ゆー{BEAT}いー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0292.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やめてー！{n}{WAIT}ナカマになったげるからさー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0292.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フー…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0293.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んー…{n}タマシイ、入ってるってカンジー。{n}{WAIT}いろいろ、苦労してんのねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0293.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}、{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}『{OP:8020}{n}{WAIT}強く生きんのよー！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0294.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んー…{n}まだまだってカンジー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0294.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いーい？{n}お客サマはカミサマなのよ！{n}でね、{WAIT}{demon_name}はお客サマなの。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0294.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "つまり、アタシはカミサマなのよ！！{n}{WAIT}さー、カミサマにミツいでチョーダイ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0295.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あー。{n}{demon_name}、それ知ってるー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0295.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "昔のエライヒトが、{n}プロポーズに使った歌でしょー。{n}{WAIT}ってコトはー{BEAT}…{BEAT}…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0295.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まー{OP:8026}『{OP:8020}{n}どーしましょ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0296.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0296.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ナニソレー？{n}{WAIT}カルタでも始める気？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0297.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "……！！{n}{WAIT}なぜラジヲたいそー{BEAT}…{BEAT}…{BEAT}…{WAIT}第2！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0297.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "タダ者じゃないってカンジ！{n}{demon_name}も、いっしょに行くー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0298.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "……！！{n}{WAIT}なぜラジヲたいそー{BEAT}…{BEAT}…{BEAT}…{WAIT}第2！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0298.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "タダ者じゃないってカンジ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0299.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あー。{n}都会って、どーして{n}こーゴミゴミしてるかなー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0299.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウサギ小屋みたいなトコ、住んでさー。{n}バッカじゃないのー、みんなー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0300.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミ、どーしてこんなマチ住んでんの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0301.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "この街が好きだから",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0302.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "都会は便利だから",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0303.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "よけいなお世話だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0304.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そー、スキなんだー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0304.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それじゃー、{n}{WAIT}マチが壊れちゃったら、カナシーよね。{n}{BEAT}…{BEAT}…{BEAT}そっかー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0304.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{demon_name}でよけりゃ、チカラになるよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0305.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それじゃー、このマチが壊れちゃっても…{n}スキなまんまで、いられるかしらー{maru_symbol}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0305.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キャハハハハ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0306.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "でもさー。{n}ベンリなのは、いーんだけどさー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0306.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "かわりに、なくしてるモノも、{n}多いんじゃー、ないのかなー。{n}{WAIT}ま、いーけど。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0307.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "でもさー。{n}そのベンリなモノに{n}フリ回されちゃってるみたいなトコ、ない？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0307.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ま、いーけどさー。{n}{WAIT}んじゃねー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0308.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃー、このマチどーなってもいーんだー。{n}へー。{n}{WAIT}ま、いーけど。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0309.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃー、このマチどーなってもいーんだー。{n}へー。{n}{WAIT}ま、いーけど。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0310.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミ、アクマガッタイ、どー思う？{n}アクマにだって、ココロはあんのよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0311.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ちょっとは気がとがめたりしないワケー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0312.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんとも思わない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0313.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "気がとがめる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0315.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ひっどーい！{n}サイテー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0316.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "サイテー！{n}{BEAT}アクマのよーなヤツね、アンタ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0317.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んー…{n}{WAIT}いーわ。{n}信じたげる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0318.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んー…{n}{BEAT}んー…{n}{BEAT}んー…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0318.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "本心、見えないなー。{n}{WAIT}日頃のオコナイが、オコナイだけにー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0319.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8023}BAR{OP:8020}には行ってみたー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0320.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "行った",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0321.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "行ってない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0322.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8025}ナチュラルハイ{OP:8020}、もー飲んだー？{n}あのショウチュウ、いーわよー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0322.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "目の前がねー、{BEAT}ぶわー{BEAT}ってハジケルのー{maru_symbol}{n}{WAIT}ぶわー{BEAT}って。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0322.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…{BEAT}…{BEAT}なんかアタシ、{n}{BEAT}アタマ悪そーな話してるわね。{n}{WAIT}本題に入りましょーか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0323.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8025}ガムシロップ{OP:8020}、いーわよー、あまくてー{OP:8026}『{OP:8020}{n}あれって、だれでもカンタンに作れるのー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0323.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "でも、あんまし飲むと、ふとりそーで…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0324.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8023}ノーザンエチル{OP:8020}って、知ってるー？{n}あれって、めちゃくちゃキッツイわよねー。{n}いかにも、カラダに悪そうな名前だしー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0324.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "でも、すっごくチカラ出るのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0325.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "えー、行ったことないのー？{n}いっぺん、行ってみー。{n}楽しーから。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0325.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、それと。{n}{WAIT}{OP:8025}メグスリビア{OP:8020}、おんなのコに飲ませて、{n}ヘンなコトしちゃダメよ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0326.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いっぺん、行ってみー。{n}楽しーお酒、けっこーあるからー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0327.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{demon_name}ね、欲しいモノがあるの{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0328.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{requested_item}ちょーだーい{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0329.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "渡す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0330.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "渡さない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0331.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まー{OP:8026}『{OP:8020}{n}ステキー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0331.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウットリー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0332.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まー{OP:8026}『{OP:8020}{n}ステキー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0332.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウットリー。{n}{WAIT}…{BEAT}…{BEAT}まだ、{BEAT}持ってんじゃないのー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0333.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ないのー？{n}んー…{n}{WAIT}ま、いーわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0333.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃー、他のをちょーだい{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0334.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ないのー？{n}んー…{n}{WAIT}ま、いーわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0335.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ないのー？{n}んー…{n}{WAIT}じゃー、{BEAT}キミをちょーだーい{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0336.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そー言えば…{n}{WAIT}キミ、礼儀を知らないオトコねー！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0337.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "SWORDくらい、外しなさいよー！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0338.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "外す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0339.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "外さない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0340.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いーわー。{n}じゃ、本題に入りましょー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0341.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いーわー。{n}そのチョーシよー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0342.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いーわー。{n}たーっぷり、カワイがったげる{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0343.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、そー。{n}{demon_name}と話す気、{n}ぜーんぜんないってワケー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0343.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ま、いーわ。{n}じゃ、そーゆーことで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0344.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、そー。{n}そーゆータイド、とっちゃうワケー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0344.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "かかってきなさいよー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0345.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、そー。{n}そーゆータイド、とっちゃうワケー{BEAT}…{BEAT}…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0345.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今日のところは、これでユルしたげるわ。{n}オボエてらっしゃーい！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0346.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "刺してやる…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0347.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なだめる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0348.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "逃げる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0349.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "戦う",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0350.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…{BEAT}わかったわよ。{n}{WAIT}話だけは、聞いたげようじゃない！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0351.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…{BEAT}ホンキで怒らせる気ー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0352.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キーーーッ！{n}待ちなさいよー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0353.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キャハハハハ！！{n}カワイがったげるわー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0354.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "この先に行くワケー？{n}{WAIT}やめなよー。{n}死んじゃうカモよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0355.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "帰って、TV見てたほーが、楽しいってー！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0356.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "助力を求める",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0357.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "助言を求める",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0358.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "去る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0359.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んー…{n}しょーがないなー。{n}{WAIT}こんなアタシでも、いないよりマシかー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0360.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んー…{n}キミしだいカナー。{n}{WAIT}たくさん、ハズんでくれたらね{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0361.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んー…{n}じゃー、{offered_item}。{n}なんかのタシにしてー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0361.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んじゃ、そーゆーコトで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0362.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んー…{n}{WAIT}この{demon_name}をさー。{n}ナカマにすると、いーかもよ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0362.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ワカルー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0363.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んー…{n}こまめに回復しろってことカナー？{n}{WAIT}こーんなふーにネ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0364.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほら。{n}{BEAT}ゲンキにやんのよー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0365.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んー…{n}{WAIT}早く、カタギな商売につきなさい！{n}{BEAT}ってコトかなー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0365.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もちろん。{n}{WAIT}生きて帰れたらの話だけどー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0365.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んじゃねー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0366.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まってー！{n}{WAIT}{offered_item}、{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}『{OP:8020}{n}{BEAT}ほんのキモチよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0367.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ムリしないのよー！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0368.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミ。{n}さいしょに思ったホド、{n}悪いヒトじゃなさそーだしー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0369.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "スカウトされても、{BEAT}いっかなー、{BEAT}なんてー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0370.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "交渉してみる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0371.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ことわる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0372.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "話、ハヤいじゃん！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0373.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "話、ハヤいじゃん！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0374.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "話、ハヤいじゃん！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0375.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そー…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0375.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キタイはしてなかったケドさー。{n}{BEAT}そースッパリ言われると…{n}{BEAT}チョッピリさみしーなー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0375.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はい、{offered_item}。{n}せめて、これくらいしてアゲたいの。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0375.p03",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…{BEAT}…{BEAT}サヨナラ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0376.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そー…{n}{WAIT}{demon_name}なんて、{n}{WAIT}必要ない、{BEAT}か…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0377.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "スキよ{OP:8026}『{OP:8020}{n}アタシを見て…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0378.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{demon_name}の目、もっとよく見て{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0379.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "目を見る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0380.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "目をそらす",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0381.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…{BEAT}あ。{n}{WAIT}あぁ{BEAT}…、{BEAT}ヘンになりそ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0382.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…{BEAT}キャハハハハ。{n}かかったわねー！{n}{WAIT}もーキミは、{demon_name}の{BEAT}ト{BEAT}リ{BEAT}コ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0383.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "サイテー！{n}もー、ムードブチ壊しー！！{n}{WAIT}ま、{BEAT}いーわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0383.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "その分、高くつくわよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0384.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "サイテー！{n}もー、ムードブチ壊しー！{n}{WAIT}{demon_name}、帰るー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0385.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "サイテー！{n}もー、ムードブチ壊しー！{n}{WAIT}ムカつくのよ、アンター！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0386.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そろそろ、交渉に入ろっか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0387.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まずキミ、GUN外してくんなーい？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0388.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "外す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0389.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "外さない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0390.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "話、ハヤいじゃん！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0391.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "話、ハヤいじゃん！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0392.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "話、ハヤいじゃん！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0393.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キャハハハハ！{n}{demon_name}が、コワイってワケー？{n}{WAIT}カーワイー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0393.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミしだいだけどー、{n}手伝ってもいーわよ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0394.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、そー。{n}用はナイってワケ？{n}{WAIT}じゃ、帰るわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0394.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おつかれー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0395.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キャハハハハ！{n}{demon_name}が、コワイってワケー？{n}{WAIT}カーワイー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0395.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "タベちゃいたい{OP:8026}『『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0396.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あら？{n}気づかなかったケド。{n}{WAIT}かわいい子ね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0396.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほら、{BEAT}キミの左肩んとこにいる子よ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0397.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こんにちわー{maru_symbol}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0398.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "うろたえる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0399.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなはずはない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0400.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "子供を探す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0401.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キャハハハ。{n}なにアセッてんのよ。{n}{WAIT}カーワイー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0401.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "黙っといてアゲよっか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0402.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キャハハハ。{n}なに、ムキになってんのー。{n}{WAIT}ジョーダンよ、ジョーダン{maru_symbol}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0403.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なに、ムキになってんのー。{n}{WAIT}カーワイー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0403.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いっしょにいてあげたくなっちゃう{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0404.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウッソー！{n}{WAIT}だって、目元なんてキミにそっくりよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0404.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃーねー、おじょうちゃん{maru_symbol}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0405.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なにキョロキョロしてんのよ。{n}{WAIT}あ、{BEAT}さては。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0405.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ごめーん。{n}{offered_item}、カンパしたげるわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0406.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なに？{n}見えないって？{n}{WAIT}目元なんてキミにそっくりよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0406.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃーねー、おじょうちゃん{maru_symbol}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0407.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "これ…、{BEAT}受け取ってもらえる…？{n}{WAIT}{offered_item}。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0408.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{demon_name}の{BEAT}キ{BEAT}モ{BEAT}チ{BEAT}{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0409.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "受け取る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0410.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ことわる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0411.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "たまには、ミツがれるのもいーでしょ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0411.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃ、せーぜーガンバってねー{OP:8026}『{OP:8020}{n}また、声かけてー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0412.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "手切れ金よ！{n}{WAIT}もー2度と、{n}{demon_name}につきまとわないで！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0413.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "オカネより、{demon_name}がいーってワケー？{n}{WAIT}まー{OP:8026}『{OP:8020}{n}豪速球なヒト{OP:8026}『『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0414.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{demon_name}のキモチが、{n}受け取れないってワケー！？{n}{WAIT}なによー、そのタイドー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0415.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{demon_name}のキモチが、{n}受け取れないってワケー！？{n}{WAIT}なによー、そのタイドー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0416.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ありのままのキミが、{BEAT}見{BEAT}た{BEAT}い{BEAT}ナー{BEAT}{OP:8026}『{OP:8020}{n}{WAIT}服、{BEAT}脱いでよ……{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0417.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "このイミ、わかるでしょ{OP:8026}『『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0418.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "脱ぐ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0419.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "脱がない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0420.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まー、スッゴーイ{OP:8026}『{OP:8020}{n}{WAIT}いーわ。{n}{demon_name}は、キミのモノよ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0421.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まー、スッゴーイ{OP:8026}『{OP:8020}{n}まだよ、アセッちゃダーメー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0422.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まー、スッゴーイ{OP:8026}『{OP:8020}{n}{WAIT}じゃ、ハジメましょーか{OP:8026}『『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0423.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もー！{n}ドンカーン！{n}トリケラトプ男ー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0423.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "とぷおのバカー！{n}知らないっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0424.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もー！{n}ドンカーン！{n}トリケラトプ男ー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0424.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "とぷおのバカー！{n}知らないっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0425.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、そー。{n}そーゆータイド、とっちゃうワケー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0425.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "いーわよ、キミがその気なら…！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0426.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミ、よく見るとさー。{n}ケッコー、カッコイーじゃん{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0427.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "こっち来て、もっとよくカオ見してよー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0428.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "近づく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0429.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "その手は喰わない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0430.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "へー。{n}ユーキもあるじゃん{maru_symbol}{n}{WAIT}カーッコイー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0430.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アタシ、ナンパされちゃおっかナー{maru_symbol}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0431.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "へー。{n}ユーキもあるじゃん{maru_symbol}{n}{WAIT}殺すには、オシイわー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0431.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アタシ、ナンパされちゃおっかナー{maru_symbol}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0432.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "へー。{n}ユーキもあるじゃん{maru_symbol}{n}{WAIT}殺すには、オシかったかもー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0433.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なによー、コンジョーなしー！{n}{WAIT}カッコだけじゃ、{n}おんなのコはついて来ないわよー！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0434.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{demon_name}がコワイってワケー？{n}キャハハハハ！{n}カーワイー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0434.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "タベちゃいたい{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0435.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "このオンナ、だれー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0436.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミのカノジョー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0437.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そうだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0438.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "誤解だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0439.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "誰がこんな女",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0440.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{rei_name}：ちょ、{BEAT}ちょっと！{n}{BEAT}いつから、そうなったのよ！{n}{WAIT}勘違いしないで！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0440.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あーはいはい。{n}ゴチソーさま。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0440.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アタシが入って、{n}サンカクカンケーってのも、タノシそーね{OP:8026}『{OP:8020}{n}キャハハ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0441.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{rei_name}：ちょ、{BEAT}ちょっと！{n}{BEAT}いつから、そうなったのよ！{n}{WAIT}勘違いしないで！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0441.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{OP:8025}ビターーーーン！！{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0441.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キャハハハ。{n}ビンタくらってやんのー。{n}{WAIT}しっかり、シリにひかれてるわね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0441.p03",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そんなヘナヘナオトコ、{n}頼りなくってついて行けないってカンジー。{n}{WAIT}んじゃ、{BEAT}一生そーやってなさい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0442.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "マジー？{n}なーんだ、カンガエすぎかー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0442.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃ、いーわ。{n}おシゴトの話、しましょっか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0443.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ウソつきー！{BEAT}オンナの敵ー！！{n}{WAIT}カノジョの前で、{n}別のオンナ、ナンパするなんて…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0444.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{rei_name}：ちょっと待ちなさいよ。{n}{WAIT}あたしのこと、そういう目で見てたわけ？{n}{WAIT}いくらあんたでも、{BEAT}許さないわよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0444.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なーに、イチャイチャやってんのよー！{n}{WAIT}ムカつくわねー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0445.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{rei_name}：ちょっと待ちなさいよ。{n}{WAIT}あたしのこと、そういう目で見てたわけ？{n}{WAIT}いくらあんたでも、{BEAT}許さないわよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0445.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キャハハハ。{n}ナカマ割れー！？{n}{WAIT}手伝ったげよーねー{maru_symbol}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0446.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あのさー。{n}{WAIT}{demon_name}とキミってー、{n}どっか似てんのよねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0446.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかー、他人とは思えないワケよー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0447.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ドコが似てんのカナー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0448.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アニメ好き",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0449.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ロンリーなハート",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0450.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "社会への不満",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0451.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "満たされない愛情",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0452.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ビームが出せない目",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0453.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "し、{BEAT}しまった！！{n}{WAIT}ど、{BEAT}どーしてキミが知ってんのよ！？{n}{WAIT}{offered_item}アゲルからさー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0453.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だれにも言わないでー{OP:8026}『{OP:8020}{n}オネガーイ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0454.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "な、なんのことよー！{n}{WAIT}バ、{BEAT}バカなこと、言わないでー！{n}{WAIT}あ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0454.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "急用が…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0455.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "し、{BEAT}しまった！！{n}{WAIT}カレシも知らないヒミツを…{n}{WAIT}生きて帰れると、{BEAT}思ってるワケー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0456.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そー。{n}{WAIT}ロンリーハートはブロークン。{n}愛を探すさアイニージュー、{BEAT}ってカンジ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0457.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そー。{n}{WAIT}ロンリーハートはブロークン。{n}キミを待ってるホーミータイ、{BEAT}ってカンジ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0457.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…{BEAT}…{BEAT}で？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0458.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そー。{n}{WAIT}ロンリーハートはブロークン。{n}キミを待ってるホーミータイ、{BEAT}ってカンジ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0458.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…{BEAT}…{BEAT}刺すわよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0459.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミも不満があるワケー？{n}{demon_name}もさー…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0459.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "刺してやりたいヤツ、死ぬほどいるワケー{maru_symbol}{n}{WAIT}2人で、ナニもかも壊してやろーよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0460.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミも不満があるワケー？{n}{demon_name}もさー…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0460.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "刺してやりたいヤツ、死ぬほどいるワケー{maru_symbol}{n}{WAIT}アンタとか、{WAIT}アンタとか、{n}{WAIT}アンタとかー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0461.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "かわいそーに…{WAIT}アタマでも打ったの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0461.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ここに{offered_item}だけあるから。{n}これ持って、ビョウイン行っといで。{n}{WAIT}おだいじにー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0462.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はーん？{n}{WAIT}ごめーん、聞こえなかったー。{n}{BEAT}…{BEAT}あ、{BEAT}そーだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0462.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "カレシと待ち合わせしてたんだっけ。{n}{WAIT}じゃ、そーゆーことで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0463.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "しまった！{n}そんなトコにも、共通点が…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0463.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "…って、{BEAT}そんなコトどーでもいーのよ！{n}{WAIT}もーいー！{n}{demon_name}、帰るー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0464.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "フザケないでよー！{n}どーして、そーやってチャカすワケー！？{n}{WAIT}刺すわよ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0465.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "刺すわよ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0466.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んー…{n}どーしょっかなー{OP:8026}『{OP:8020}{n}{BEAT}とりあえずー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0467.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{requested_item}、ちょーだい{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0468.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なによー！！{n}持ってないじゃんかー！{n}{WAIT}この、ビンボーオヤヂー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0469.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "話になんないって、カンジー。{n}帰るわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0470.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んー…{n}{BEAT}つー{BEAT}ぎー{BEAT}はー{BEAT}{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0471.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んー…{n}じゃーあー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0472.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ナメんなってカンジ！{n}{WAIT}刺すわよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0473.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミの誠意は、どれくらいなの？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0474.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なによー！！{n}なーんにも、持ってないワケー！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0474.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "サイテー。{n}このビンボーオヤヂー、使えなーい！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0475.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んー…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0475.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "誠意が見えない、ってカンジー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0476.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あーあ。{n}期待したアタシが、バカだったわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0477.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アンタと同じ空気吸ってると思うと、{n}ムカつくのよ！！{n}刺してやる…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0478.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ま。{n}このへんで、ユルしてやっか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0478.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アタシー、{n}{race}、{demon_name}。{n}{BEAT}よろしくね、サマナーさん{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0479.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねー。{n}{WAIT}アタシの入るスキマ、ないみたーい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0479.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{demon_name}のかわりにさー。{n}だれかクビにしてー{OP:8026}『{OP:8020}{n}それまで、ヒマつぶしてるわー。{n}んじゃねー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0480.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ま。{n}このへんで、ユルしてやっか。{n}{WAIT}じゃー、これとコーカンね{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0480.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほら、{offered_item}。{n}アタシだと思って、大切にシテ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0481.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ま。{n}このへんで、ユルしてやっか。{n}{WAIT}じゃ、そーゆーことで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0481.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "おつかれー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0482.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んー。{n}{WAIT}コマメにカツアゲんの、めんどいなー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0482.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まとめて、もらったげるわ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0483.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "これ以上話してても、イミないみたい。{n}帰るわ。{WAIT}おつかれー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0484.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "刺してやる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0485.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "刺してやる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0486.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アンタと同じ空気吸ってると思うと、{n}ムカつくのよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0486.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今度現われたら…、{WAIT}刺すわよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0487.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "渡す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0488.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ことわる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0489.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねー。{n}{WAIT}アタシの入るスキマ、ないみたーい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0489.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{demon_name}のかわりにさー。{n}だれか、{BEAT}クビにしてー{OP:8026}『{OP:8020}{n}それまで、ヒマつぶしてるわー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0489.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んじゃねー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0490.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アタシー、{n}{race}、{demon_name}。{n}{BEAT}よろしくね、サマナーさん{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0491.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}やっぱー。{n}{WAIT}{demon_name}、{n}ナカマになるの、やめとくわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0491.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "生理的にダメなのよ、{n}{BEAT}ニンゲンのオトコって。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0491.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "かわりにさー、これ{BEAT}受け取って{OP:8026}『{OP:8020}{n}{WAIT}{offered_item}なんだケド。{n}{demon_name}の、ダイジなモノなの{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0491.p03",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ゴメンねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0492.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}やっぱー。{n}{WAIT}{demon_name}、{n}ナカマになるの、やめとくわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0492.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "生理的にダメなのよ、{n}{BEAT}ニンゲンのオトコって。{n}{WAIT}ゴメンね、{BEAT}あきらめて{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0493.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キモチイー夜ねー。{n}{WAIT}あー、{BEAT}もー、{BEAT}生きてるってシアワセー{maru_symbol}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0493.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "今なら{BEAT}ト{BEAT}ク{BEAT}ベ{BEAT}ツ{BEAT}に、",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0494.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんでもゆーこと聞いてアゲちゃう{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0495.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔になれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0496.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0497.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "消えてくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0498.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なーんだ、{BEAT}そんなコトか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0499.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なーんだ、{BEAT}そんなコトか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0500.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ヘー。{n}{WAIT}そーなんだー。{n}{WAIT}スゴイじゃーん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0500.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はい。{n}いちおー、聞くだけ聞いてアゲたわよ。{n}{WAIT}アイヅチつきで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0500.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んじゃねー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0501.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え。{n}{WAIT}{demon_name}がー？キミにー？？{n}ったく、モー{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0501.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "必要なモノくらい、自分で買えないワケ？{n}{WAIT}{offered_item}でいーい？{n}…って、{BEAT}モンクは言わせないわよっ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0501.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んじゃねー、ビンボーさん{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0502.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え。{n}{WAIT}{demon_name}が？キミにー！？{n}{WAIT}ったく、モー！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0502.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ほらっ、{offered_item}。{n}あんまし、たかっちゃダメよー。{n}{WAIT}クセになるから{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0503.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃー、{BEAT}アタシを{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0503.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なーんて。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0503.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ナニ言わせんのよ。{n}カオが、火ー吹いちゃうじゃない！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0504.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ヒドイ{BEAT}…{BEAT}…{n}{WAIT}ヒドスギル{BEAT}…{BEAT}…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0504.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "せめて、{BEAT}これだけでも受け取って。{n}{offered_item}よ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0504.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "これ、{BEAT}アタシだと思って、そばに置いて{BEAT}ね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0505.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ヒドイ{BEAT}…{BEAT}…{n}{WAIT}ヒドスギル{BEAT}…{BEAT}…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0506.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ヘー。{n}{WAIT}そーなんだー。{n}{WAIT}スゴイじゃーん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0506.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "はい。{n}いちおー、聞くだけ聞いてアゲたわよ。{n}{WAIT}アイヅチつきで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0507.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "月に1度は、ゴキゲンナナメなのよ！{n}{WAIT}話しかけないでチョーダイ！！{n}それとも{BEAT}ナニ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0508.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{demon_name}に、頼みがあるってワケ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0509.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "仲魔になれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0510.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんかくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0511.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "消えてくれ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0512.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "頼みはない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0513.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え。{n}{demon_name}をー！？{n}{WAIT}んー…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0514.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "んー…{n}{WAIT}ちょっとカンガエさしてー。{n}{WAIT}いきなり、そんなコト言われてもさー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0515.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え。{n}ちょっと待ってよ！{n}{WAIT}なんで、ミツがなきゃなんないワケー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0515.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ま、いーわ。キミ、おもしろそーだしー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0515.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}でいーい？{n}…って、{BEAT}モンクは言わせないわよっ！{n}{WAIT}んじゃねー、ビンボーさん{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0516.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "え。{n}{WAIT}キミ、他人にモノたかるクセさー。{n}直したほーがいーよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0516.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ったく。{n}ビンボーオトコは、オンナの敵よー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0517.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "モチロンよっ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0518.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "その前に、やり残したコトがあるの。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0519.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}そ。{n}{WAIT}んじゃね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0520.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "じゃー。{n}{demon_name}のオネガイ、{BEAT}聞{BEAT}い{BEAT}て{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0520.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アタシ、血が見たい気分でさー。{n}{WAIT}ワカルでしょ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0521.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キャーーーーーーーッ！！{n}{BEAT}出たーーーーーっ！！{n}{WAIT}…{BEAT}…{BEAT}なによ、{BEAT}ニンゲンじゃない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0521.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "びっくりさせないでよ。{n}{WAIT}ったくどーして、そーゆーヒドイ顔面で、{n}人前に出ようとか思えるワケー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0521.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ショックで死んじゃったら、",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0522.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どー、セキニン取ってくれんのよー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0523.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "出家する",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0524.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "遺族に金を送る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0525.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう言われても",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0526.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "失礼な！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0527.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それって、スキンヘッドにするってコト？{n}{WAIT}クールじゃん。{n}{WAIT}あ、{BEAT}すずしそう{BEAT}ってイミじゃないわよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0528.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あの世に行ってまで、{n}アンタの声なんか聞きたくないわよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0529.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "浮ばれないアタシに、{n}追い打ちかけよーっての？{n}{WAIT}もう2度と、この世に現れないよーに？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0529.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "サイテー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0530.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "死んでからオカネもらったって、{n}使えっこないじゃんか！{n}{WAIT}それくらいのコトも、わかんないワケ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0530.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "死ぬ前に、なんかもらったげるわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0531.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "なんでもオカネで解決しよーっての？{n}そのコンジョー、叩き直してやりたいわ！{n}{WAIT}刺すわよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0532.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "まー、{BEAT}カオは生まれつきだしー。{n}キミのセキニンじゃないわね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0532.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "それじゃー、帰ったら両親に言っといて。{n}{WAIT}刺すって。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0533.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "セキニン取ってよー！{n}{WAIT}刺すわよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0534.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キャーーーーーーーッ！！{n}{WAIT}ごめーん。{n}怒ったー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0534.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "マジんなるコト、ないじゃん。{n}{WAIT}{offered_item}アゲルから、{n}{BEAT}ユルして、{BEAT}オネガーイ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0535.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キャーーーーーーーッ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0536.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "どーして、{demon_name}と同じ空気、{n}吸ってんのよー！{n}{WAIT}シゲンのムダよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0537.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "サンケツで倒れたら、どーしてくれんの！？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0538.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あやまる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0539.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "そう言われても",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0540.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "誰に言ってるんだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0541.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "やっと、自分の罪に気づいたのね。{n}いー心がけだわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0541.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "このさい、{n}{WAIT}アクマタイジごっこも、やめちゃいなさい！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0542.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あやまって済むなら、{n}ケーサツはいらないのよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0543.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "セキニン取ってよー！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0544.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "セキニン取ってよー！{n}{WAIT}刺すわよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0545.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キャーーーーーーーッ！！{n}{WAIT}ごめーん。{n}怒ったー？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0545.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "マジんなるコト、ないじゃん。{n}{WAIT}{offered_item}アゲルから、{n}{BEAT}ユルして、{BEAT}オネガーイ{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0546.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "アンタよ{BEAT}アンタ！{n}{BEAT}アンタなのよー！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0547.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}やっぱー。{n}{WAIT}{demon_name}、{n}ナカマになるの、やめとくわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0547.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミのナカマの中に、{n}ムカつくヤツがいるのよ。{n}{WAIT}ホントだったら、刺してやりたいトコだわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0547.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "かわりにさー、これ{BEAT}受け取って{OP:8026}『{OP:8020}{n}{WAIT}{offered_item}なんだケド。{n}{demon_name}の、ダイジなモノなの{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0547.p03",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ゴメンねー。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0548.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}やっぱー。{n}{WAIT}{demon_name}、{n}ナカマになるの、やめとくわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0548.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キミのナカマの中に、{n}ムカつくヤツがいるのよ。{n}{WAIT}ホントだったら、刺してやりたいトコだわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0548.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ジブンカッテで、ゴメンね。{n}アタシのコトは、あきらめて{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0549.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}やっぱー。{n}{WAIT}{demon_name}、{n}ナカマになるの、やめとくわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0549.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だってー…{n}{BEAT}キミ、頼りなさそーなんだもん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0549.p02",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "かわりにさー、これ{BEAT}受け取って{OP:8026}『{OP:8020}{n}{WAIT}{offered_item}なんだケド。{n}{demon_name}の、ダイジなモノなの{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0549.p03",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "もっとタクマシくなってから、誘って{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0550.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "あ、{BEAT}やっぱー。{n}{WAIT}{demon_name}、{n}ナカマになるの、やめとくわ…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0550.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "だってー…{n}{BEAT}キミ、頼りなさそーなんだもん。{n}{WAIT}もっとタクマシくなってから、誘って{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0551.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "月に1度はゴキゲンナナメよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0552.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "ねー。{n}{demon_name}とも、話してよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0553.p00",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "キャーーーーッ！！{n}{WAIT}ゴメンなさい、{BEAT}ゴメンなさい…{n}{BEAT}ユルして{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.grl.m0553.p01",
+    "source_encoding": "game_font12_16_combat_skip",
+    "output_encoding": "",
+    "reference": "{offered_item}、アゲルから…{n}{WAIT}ね{OP:8026}『{OP:8020}{BEAT}ね{OP:8026}『{OP:8020}",
+    "translation": "",
+    "note": ""
+  }
+]

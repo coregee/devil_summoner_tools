@@ -14,14 +14,14 @@ the original record.
 
 - `config/encodings.json` defines reusable alphabets, control vocabularies, and
   source encodings.
-- `config/sources/<disc>/` will define physical files, containers, defaults, and
-  exceptional record-level encoding overrides.
-- `corpus/<disc>/` will contain the extracted translation records.
-- `util/` contains configuration, token, codec, and later container primitives.
+- `config/sources/<disc>/manifest.json` defines physical files, the four
+  container shapes, defaults, and exceptional record-level overrides.
+- `corpus/<disc>/` contains deterministic extracted translation records.
+- `util/` contains strict configuration, token, codec, and container helpers.
 - `generated/` is ignored and will contain dictionaries, coverage reports,
   capacity reports, and engine-facing payloads.
-- `extract.py` and `repack.py` will be added when the source inventory and output
-  contracts exist; phase 1 deliberately does not add placeholder entry points.
+- `extract.py` verifies source identity and regenerates the complete corpus.
+  `repack.py` remains absent until output encodings are settled.
 
 The corpus record contract will stay small:
 
@@ -29,15 +29,70 @@ The corpus record contract will stay small:
 {
   "id": "stable-record-id",
   "source_encoding": "game_font12_16_event_skip",
-  "output_encoding": "packed_latin_u16be",
+  "output_encoding": "",
   "reference": "Original text{n}",
   "translation": "",
   "note": ""
 }
 ```
 
-Records are not deduplicated by content. Shared output is represented only by an
-explicit alias.
+Records are not deduplicated by content. Physical copies and the three deliberate
+`NAME.BIN` translation forks are declared explicitly in the source manifest.
+
+## Extraction
+
+```powershell
+python saturn/text/extract.py game
+python saturn/text/extract.py game --check
+python saturn/text/extract.py compendium
+python saturn/text/extract.py compendium --check
+python -m unittest discover -s saturn/text/tests -v
+```
+
+The game manifest covers 47 physical files and 51 source groups. Its four
+container types are EVE banks, pointer banks, fixed records with subfields, and
+explicit addressed spans. The generated corpus contains 15,613 records: 12,711
+text-bearing EVE pages and 2,902 other records. All 144 physical dungeon-location
+rows remain distinct instead of collapsing to 24 repeated Japanese strings.
+
+The compendium manifest covers the 292 physical `DVL_*.DAT` profile files as
+one repeated fixed-record source. Each file contributes origin, summary, and
+detail fields from its exact text tail, producing 876 records in one generated
+catalogue. Tail-only identity checks allow future profile-image changes in the
+same files while still failing on any changed text byte.
+
+`A_DIC.BIN` remains outside the manifest. Read-only discovery proves five fixed
+sections containing 319 demon names, 48 race labels, 255 magic names, 48
+race-description layouts, and 11 fusion-help rows. Of those 681 physical rows,
+574 substantially duplicate game catalogues; the description layouts also mix
+labels, prose, and an unexplained marker, while adjacent regions are lookup or
+executable data. Those sections will get a focused inventory rather than being
+folded speculatively into the profile source.
+
+`corpus/<disc>/` is currently a generated physical catalogue. Its file grouping
+is not promised as the eventual authoring interface. A human-oriented authored
+view must be settled before mature translations are imported; stable physical
+IDs allow that view to be reorganized without weakening binary grounding.
+
+The extraction manifest records only data that extraction consumes. Runtime
+reader selection and output-side packing rules will be introduced with repacking,
+once those contracts have executable behavior.
+
+IDs are derived from pointer slots, fixed-record positions, addressed offsets,
+or EVE message/page positions. EVE page numbering includes the 166 structural
+pages that do not themselves produce translation records. It never depends on
+Japanese content or a relocatable body address.
+
+Extraction validates full stock hashes for text-owned files. Shared executable
+overlays also carry a digest over the exact text regions they own, allowing
+unrelated visual or later engine changes to compose safely. The current
+`SAVE.BIN` and `LOAD.BIN` visual changes pass for that reason; changing any owned
+text byte still fails closed.
+
+Only `translation` and `note` are retained by stable ID. Reference text,
+encodings, ordering, and JSON formatting are regenerated. Orphaned IDs,
+overlapping source ownership, changed framing, stale generated fields, and
+unmanaged corpus files are errors. `--check` performs no writes.
 
 ## Encoding boundaries
 
@@ -51,8 +106,8 @@ tables, 16-bit EVENT and combat text, the two-font 8-bit battle-message
 alphabet, and indexed configuration labels without making any of them
 file-specific.
 
-Zero handling is also explicit per encoding. Mixed-font dialogue-bank readers
-skip zero words, while FONT12 and direct fixed records may treat each zero as a
+Zero handling is also explicit per encoding. Mixed-font dialogue encodings skip
+zero words, while FONT12 and direct fixed records may treat each zero as a
 space. Fixed and mirrored tables use separate run-separator modes that ignore
 leading and trailing zeroes and collapse each internal run to one space or
 newline.
@@ -61,10 +116,12 @@ Only formats demonstrated by the discs are configured. The current inventory
 uses big-endian 16-bit glyph words, 8-bit glyph codes, and printable ASCII; no
 Saturn source has established a Shift-JIS encoding.
 
-The compendium font has its own source encoding, but its atlas is intentionally
-unmapped in phase 1. It therefore decodes to lossless `{GLYPH:xxxx}` tokens
-instead of silently borrowing the game font. Its verified profile mapping is
-added with the profile sources in phase 3.
+The compendium font remains independent from the game font. Its mapping now
+covers all 1,703 nonzero glyph codes demonstrated by the 292 profile tails.
+Three duplicated Unicode values occupy six physical codes, so their 29 profile
+occurrences remain lossless `{GLYPH:xxxx}` tokens rather than collapsing numeric
+identity. No replacement-font or renderer contract is implied by this source
+mapping.
 
 Containers remove record terminators and structural padding; codecs apply only
 the selected encoding's declared zero meaning. This keeps the same encoding
@@ -87,26 +144,26 @@ and duplicate atlas values remain raw so their numeric identity is not lost.
 
 1. **Complete:** implement strict configuration loading, lossless token syntax,
    and reusable source decoders.
-2. Extract the complete game-disc text inventory without importing the mature
-   repository's physical bindings.
-3. Add all 292 compendium profiles and begin discovery of the mixed
-   `A_DIC.BIN` sections.
-4. Import only reference text, translations, and useful notes from the mature
-   corpus.
+2. **Complete:** extract the complete game-disc text inventory with a new
+   physical-ID contract and no content deduplication.
+3. **Complete:** add all 292 compendium profiles and begin evidence-only
+   discovery of the mixed `A_DIC.BIN` sections.
+4. Settle the human authoring view, then import only translations and useful
+   notes from the mature corpus.
 5. Produce complete encoding coverage and capacity reports for both discs.
 6. Finalize output encodings and deterministic full-corpus dictionary groups.
 7. Implement one atomic text repack; partial dictionary builds remain
    unsupported.
 8. Design engine hooks against the finalized output encoding contracts.
 
-Later extraction will verify source files, decode every record readably, preserve
-unknown glyph and control identity after its declared zero normalization,
-retain existing translations by stable ID, and report unmapped coverage.
-Later repacking will restore original inputs, verify references by reparsing the
-current files, retrain selected dictionaries deterministically over the complete
-corpus, enforce capacities, and reparse every generated output.
+Extraction verifies source files, decodes every record readably, preserves
+unknown glyph and control identity after declared zero normalization, and
+retains user-owned text by stable ID. Later repacking will restore original
+inputs, verify references by reparsing current files, train selected dictionaries
+deterministically over the complete corpus, enforce capacities, and reparse every
+generated output.
 
 The new package intentionally does not inherit the mature format-class tree,
 global semantic registry, per-page hash manifests, automatic Japanese-text
-deduplication, migration wrappers, capability graph, browser editor, or tests
-package.
+deduplication, migration wrappers, capability graph, browser editor, or mature
+test hierarchy. The focused local tests cover the new extraction contract only.

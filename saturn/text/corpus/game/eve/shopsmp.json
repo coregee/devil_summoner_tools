@@ -1,0 +1,6106 @@
+[
+  {
+    "id": "game.shopsmp.m0000.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "01234567890123456789",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0001.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：悪魔が集いし業魔殿にようこそ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0002.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：どんな用かな？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0003.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：仲魔を集めてまた来るがよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0004.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：今は話すことはない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0005.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "合体",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0006.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "EXIT",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0007.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "話をする",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0008.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：これでよいか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0009.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "YES",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0010.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "NO",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0011.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "攻撃力：",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0012.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "命中：",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0013.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "防御力：",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0014.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "回避：",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0015.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "追加効果：",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0016.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "装備時ステータス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0017.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "性別：",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0018.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "アビリティUP",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0019.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "力：",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0020.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "知：",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0021.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "魔：",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0022.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "耐：",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0023.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "速：",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0024.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "運：",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0025.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "DEAD",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0026.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "UNDEAD",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0027.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "STONE",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0028.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "PALYZE",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0029.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "VAMP",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0030.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "MIRROR",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0031.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "CARD",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0032.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "CHARM",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0033.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "FREEZE",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0034.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "SHOCK",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0035.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "SLEEP",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0036.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "BIND",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0037.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "PANIC",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0038.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "HAPPY",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0039.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "POISON",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0040.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "CLOSE",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0041.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "CURSE",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0042.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "GOOD",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0043.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{GLYPH:010d}{GLYPH:010d}{GLYPH:010d}{GLYPH:010d}{GLYPH:010d}{GLYPH:010d}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0044.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "男用",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0045.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "女用",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0046.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "男女両用",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0047.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "武器：",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0048.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "防具：",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0049.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{n}イベントよていちです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0050.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "このイベント（{event_id}）は{n}できていません",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0051.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "L{GLYPH:010d}R後電石員",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0052.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "氷妖喚月後電",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0053.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "氷妖後電",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0054.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "氷妖商品後電",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0055.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "商品後電",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0056.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "力敵後電",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0057.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "屍悪後電石員",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0058.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "屍悪後電{GLYPH:010c}1",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0059.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "屍悪後電{GLYPH:010c}2",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0060.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "屍悪後電{GLYPH:010d}1",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0061.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "状態後電",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0062.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "痺能眠後電",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0067.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ゾウマくん1ごう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0068.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "2身合体",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0069.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "3身合体",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0070.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "剣・剣合体",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0071.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "剣・悪魔合体",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0072.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "剣・悪魔{GLYPH:010e}2合体",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0073.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "造魔をつくる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0074.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "魔晶変{GLYPH:01aa}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0075.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "合体記号の見方",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0076.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "合体検索",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0077.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ステータスをみる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0078.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "前へもどる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0079.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "火妖{GLYPH:010e}1",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0080.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "火妖{GLYPH:010e}2",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0081.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "合体法則",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0082.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "合体可能な悪魔",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0083.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "通常の2身合体表",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0084.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "通常の3身合体表",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0085.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ダーク2身合体表",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0086.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ダーク3身合体表",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0087.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "表の見方",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0088.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "一覧表示",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0089.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "並び方の変更",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0090.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "種族順",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0091.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "LAW黄性順",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0092.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "CHAOS黄性順",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0093.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "高レベル順",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0094.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "低レベル順",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0095.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "五十音順",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0097.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "終了",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0098.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "詳細場",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0099.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "パートナー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0100.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "詳細離",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0101.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "合体不能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0102.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "並び方",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0103.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "合体の種類",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0104.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "合体後の悪魔",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0105.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "＃",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0106.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "名称",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0107.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "種族",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0108.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "結果",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0109.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：1体目はどの悪魔だ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0110.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：2体目はどいつだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0111.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：最後の3体目は？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0112.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：1本目の剣はどれだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0113.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：2本目は？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0114.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：剣はどれだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0115.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：悪魔はどいつだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0116.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：悪魔のほうの1体目は？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0117.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：悪魔の2体目はどいつだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0118.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：ドリー・カドモンを出すのだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0119.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：どの悪魔の変{GLYPH:01aa}をするんだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0120.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：合体でできる悪魔は・・・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0121.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：合体させていいのか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0122.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：オマエのレベルでは合体できぬ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0123.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：この合体に使える悪魔が足りぬ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0124.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：この合体に使える剣が足りぬ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0125.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：造魔の名称は何にするんだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0126.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：どの悪魔を変{GLYPH:01aa}をするんだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0127.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：変{GLYPH:01aa}を始めていいか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0128.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：これが合体記号の見方だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0129.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：これが合体表の見方だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0130.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：合体の種類はどれだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0131.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：どの悪魔の造り方が知りたい？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0132.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：この合体で造れる悪魔は・・・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0133.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：この合体で造れる悪魔はないぞ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0134.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：誰のステータスをみる？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0135.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：何をするんだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0136.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：どの並び方にするんだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0137.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ヴィクトル：これが造り方だ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0138.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ドリー・カドモン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0139.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "{GLYPH:010a} ……具本合体法則で悪魔が出現",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0140.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "{GLYPH:010b} ……精霊が出現",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0141.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "b ……御魂が出現",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0142.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "1 ……元の悪魔が同種族で1ランクアップ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0143.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "2 ……元の悪魔が同種族で2ランクアップ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0144.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "{GLYPH:010e} ……元の悪魔が同種族で1ランクダウン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0145.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "P ……元の悪魔の能力がアップ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0146.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "D ……ダークサイドの悪魔が出現",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0147.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "・ ……合体不能",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0148.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "{GLYPH:010d} ……組合せが存在しない",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0149.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "青色……LAW黄性の悪魔が出現",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0150.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "赤色……CHAOS黄性の悪魔が出現",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0151.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "白色……NEUTRAL黄性の悪魔が出現",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0152.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "2身・3身合体とも方{GLYPH:01ad}ボタンで上下左右に",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0153.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "スクロールさせることができます",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0154.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "さらに3身合体のときはL・Rボタンで",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0155.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "1体目の選択を変更できます",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0156.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "AボタンかBボタンで前にもどります",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0157.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "以下の4つの種族名については省略物であ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0158.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "らわされます",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0159.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "  破壊神→破壊    地母神→地母",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0160.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "  大天使→大天    堕天使→堕天",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0161.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "魔神",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0162.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "女神",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0163.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "大天使",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0164.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "霊鳥",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0165.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "神樹",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0166.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "秘神",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0167.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "幻魔",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0168.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "神獣",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0169.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "聖獣",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0170.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "精霊",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0171.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "御魂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0172.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "英雄",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0173.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "破壊神",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0174.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "地母神",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0175.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "鬼神",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0176.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "龍神",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0177.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "天使",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0178.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "妖鳥",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0179.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "妖魔",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0180.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "妖精",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0181.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "龍王",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0182.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "魔獣",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0183.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "珍獣",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0184.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "地霊",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0185.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "夜魔",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0186.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "堕天使",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0187.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "妖鬼",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0188.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "鬼女",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0189.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "邪神",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0190.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "凶鳥",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0191.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "妖樹",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0192.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "死神",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0193.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "妖獣",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0194.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "邪鬼",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0195.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "屍鬼",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0196.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "妖虫",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0197.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "魔王",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0198.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "邪龍",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0199.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "幽鬼",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0200.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "悪霊",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0201.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "外道",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0202.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "造魔",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0203.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "時{GLYPH:01a7}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0204.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "剣",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0205.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "神族",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0206.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "鬼神族",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0207.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "魔族",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0208.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "機天",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0209.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "龍族",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0210.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "鳥族",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0211.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "獣族",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0212.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "鬼族",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0213.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "精霊",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0214.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "邪霊",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0215.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "樹霊",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0216.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "虫族",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0217.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "外道",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0218.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "時",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0219.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "造魔",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0220.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "魔神",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0221.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "女神",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0222.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "大天",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0223.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "霊鳥",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0224.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "神樹",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0225.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "秘神",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0226.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "幻魔",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0227.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "神獣",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0228.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "聖獣",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0229.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "精霊",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0230.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "御魂",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0231.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "英雄",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0232.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "破壊",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0233.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "地母",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0234.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "鬼神",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0235.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "龍神",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0236.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "天使",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0237.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "妖鳥",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0238.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "妖魔",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0239.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "妖精",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0240.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "龍王",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0241.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "魔獣",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0242.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "珍獣",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0243.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "地霊",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0244.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "夜魔",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0245.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "堕天",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0246.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "妖鬼",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0247.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "鬼女",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0248.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "邪神",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0249.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "凶鳥",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0250.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "妖樹",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0251.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "死神",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0252.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "妖獣",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0253.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "邪鬼",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0254.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "屍鬼",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0255.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "妖虫",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0256.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "魔王",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0257.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "邪龍",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0258.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "幽鬼",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0259.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "悪霊",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0260.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "外道",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0261.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "造魔",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0262.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "時{GLYPH:01a7}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0263.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "{GLYPH:0117}{GLYPH:0117}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0264.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "{GLYPH:0115}{GLYPH:0116}",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0265.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "{GLYPH:01a9}表",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0266.p00",
+    "source_encoding": "game_font12_event_space",
+    "output_encoding": "",
+    "reference": "ER",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0267.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "業魔殿の主人：業魔殿へようこそ……。{n}……葛葉か？{n}葛葉に似ているが、おぬしは誰だ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0267.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "用無き者は、お引き取り願おう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0268.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：おぬしが誰であろうと、{n}悪魔合体をしようという者なら、{n}業魔殿は、いつでも歓迎しよう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0268.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "本物の葛葉から話はきいている。{n}やつの魂は、どこか結界の中にいるらしい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0268.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ハンディ・コンピュータをやろう。{n}やつが使っていたのと、同じ物だ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0268.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "これを使って、仲魔をたくさん連れて来い。{n}悪魔に会ったら、「TALK」で話せ。{n}あとは、おぬしの工夫しだいだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0268.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞ハンディ・コンピュータを手に入れた。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0268.p05",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：……さて、葛葉から{n}頼まれたのはここまでだが、実は{n}私からも、おぬしに頼みがあるのだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0268.p06",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "これは本物の葛葉から聞いていたことだが、{n}やつは「人造の悪魔」というものについて{n}なにか情報を得ていたらしい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0268.p07",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "合体を生業とする私としても、大いに{n}興味のあることだ。助力は惜しまぬ{n}つもりであった。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0268.p08",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "だが、本物の葛葉はいなくなった。{n}そして、葛葉の体をもった、おぬしが{n}現れた。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0268.p09",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "もはや、葛葉と同じ道を歩まざるを得ぬ{n}おぬしだ。何かつかんだなら、私にも{n}知らせてくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0269.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "……では、行かれよ。{n}悪魔を仲魔にしたなら、また来るがよい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0270.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：業魔殿へようこそ……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0271.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "何の用だ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0272.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "EXIT",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0273.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "合体をする",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0274.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "話をする",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0275.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：そんな、一度に話すことは{n}ないぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0276.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：おおっ、ついに手に入れた{n}ようだな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0276.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "造魔の中にあったという、これこそまさに{n}原初の人型たる「ドリー・カドモン」、{n}生命の息吹を吹き込まれし土塊。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0276.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "私の悪魔合体の技術をもってすれば、{n}ここに再び、息吹かせることも{n}できるであろう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0276.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "しかし、神の禁忌に背く{n}このような品を造ったのは、{n}一体、何者であろうか………。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0277.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "…それとだ、おぬしの悪魔の中に、{n}その姿を変えることを望んでいる{n}ものがいる．",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0277.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "今ならば、忠誠を尽くした悪魔に{n}行えるという秘儀、「魔晶変化」が{n}できるであろう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0278.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：……おぬしの悪魔の中に、{n}その姿を変えることを望んでいる{n}ものがいる．",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0278.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "今ならば、忠誠を尽くした悪魔に{n}行えるという秘儀、「魔晶変化」が{n}できるであろう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0279.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：魔法についてだが、{n}同じ魔法でも、その威力は、術者の{n}レベルや魔力値などで違ってくるのだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0279.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "同じアギでも、術者が違えば、威力が{n}変わってくる。気をつけられよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0280.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：アビリティの魔力が影響{n}するのは、魔法を使ったときばかりでは{n}ない。受ける時にも影響するのだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0280.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "物理攻撃をうけるのに比べ、{n}魔法攻撃でのダメージが大きいようなら、{n}何らかの手を講じられよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0280.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "魔力が全て……などとは言わぬが、{n}あまり、ないがしろにせぬ方が{n}よいだろう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0281.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：悪魔たちは、その性格に{n}よって、どのような攻撃を行うかの{n}傾向をもっているようだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0281.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "悪魔の性格を、見極めることができるか{n}どうかこそ、悪魔召喚師としての{n}真の実力なのだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0282.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：悪魔たちに、どのような{n}命令が下せるかは、おぬしと悪魔の{n}信頼関係、「忠誠度」で決まる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0282.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "それが上がれば、より細かな命令が{n}下せる。もっとも、必ず従うわけでは{n}ないようだが。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0282.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "どのようにすれば「忠誠度」が上がるかは、{n}悪魔によって、多少異なるようだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0282.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "おぬしの強さを見抜くものもいれば、{n}共に戦うことにより心ひらくもの、{n}はたまた、物につられるものもいる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0282.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "まあ、いろいろと試してみることだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0283.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：同種族合体は、悪魔合体の{n}1つの基本だ。同じ種族の悪魔を{n}合体させれば、精霊がつくれる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0283.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "だが、そんなに簡単ではない。{n}2身ではダメで、3身でないと{n}精霊ができない種族もある。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0283.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "使い勝手のあるヤツらであるから、{n}多少苦労しても、損はないだろう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0284.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：精霊を合体に使えば、悪魔を{n}同種族内で、ランクアップさせることが{n}可能だ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0284.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "必ずしも、ランクがアップするわけでは{n}ないが、どの精霊を使えば、ランクアップ{n}するかは、種族に対して決まっている。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0284.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "精霊2体との合体でないと、ランクアップ{n}できない悪魔もいるから、気をつけるん{n}だな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0285.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：悪魔たちの中には、月齢に{n}よって、強さの変わるものたちがいる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0285.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "前に戦ったときに、大したことがなかった{n}からといって、甘く見ていると、痛い目を{n}みることがあるから、気をつけろ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0286.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：私の悪魔合体も、残念だが{n}いつでも上手くいくわけではない、{n}たまには、事故が起こってしまう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0286.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "そうすると、予定と違う悪魔が出来て{n}しまう……、どんなヤツが出てくるかは{n}全くわからぬ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0286.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "まあ、いいところで事故が起きても{n}私をうらまないでくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0287.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：悪魔だけではなく、ある種の{n}剣についてもまた、合体させることが{n}可能なのだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0287.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "剣と剣、または剣と悪魔を合体させる{n}ことで、新たな剣を造りだすことが{n}できる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0287.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "うまくやれば、次々に強くしていくことも{n}できる。その辺は、おぬしの腕次第だ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0288.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：ダークの悪魔を造るのも{n}1つの道ではあるが、あまり、おすすめは{n}できないな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0288.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ダークの悪魔をつくる組合せは、ライトの{n}それと比べ、数が少ない。つまり、道自体が{n}せまいのだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0288.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "それに、ライトの悪魔と合体させることも{n}できん。それでもかまわない、というので{n}あれば、私も何も言わんがな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0289.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：精霊のみで、2身あるいは{n}3身の合体を行うと、御魂という、特殊な{n}悪魔が造れる。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0289.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "この御魂を使うと、悪魔の種類はそのままで{n}能力だけをアップする合体が、可能だ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0289.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "強くするのに、限界が無いわけではないが、{n}気に入った悪魔に、この合体をさせれば{n}おぬしの助けになるのは、間違いない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0290.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：合体前の悪魔が持っていた{n}魔法は、無くなるばかりではない。{n}受け継がれることもある。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0290.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "どうも合体前の悪魔と持っている魔法の{n}種類が似ていれば、そのまま継承されやすい{n}ようだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0290.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "持っている魔法の種類が、似てなかった{n}場合でも、回復魔法や防御魔法であれば{n}継承されるようだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0291.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：いくつかの悪魔が持つ、{n}恐ろしい攻撃に、おぬしのレベルを下げる{n}ものがある。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0291.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "そういう悪魔に出会ったら、テトラジャや{n}アイテムを使って、ガードすることだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0292.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：実は、造魔についてだが、{n}おぬしも気付いておるかも知れぬが、{n}その力には、月が関係してるみたいなのだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0292.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "少しでも、月が光を持っているときは{n}いいが、新月になると、ほとんど力を{n}出せなくなるようだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0292.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "大事なところで、ひどいことにならない{n}よう、用心して、歩くことだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0293.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：「人造の悪魔」の手掛かりは{n}その後つかめぬか？{n}うーむ………。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0294.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：どうやら、種族の近い悪魔、{n}あるいは同じ種族の悪魔を合体させると{n}事故が起こりやすいようなのだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0294.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "これからは、精霊を造るときなんか注意した{n}ほうが、いいかも知れない。……注意した{n}からといって、どうにもならんが。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0295.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：これは、昔の研究によるもの{n}だが、悪魔合体、剣合体だけでなく、{n}まだ悪魔に違う力があるらしい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0295.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "それによると、悪魔が単独で、その主人の{n}ために、モノに姿を変える秘儀が、ある{n}というのだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0295.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "その姿を、モノに変えることにより、永遠に{n}仕えようとする……、悪魔の、未だ{n}定かでないところかも知れぬ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0296.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：これは、合体師としての{n}カンだが……、おそらく造魔には、まだ{n}別の合体能力が、あると思われるのだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0296.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "これだけのタマが、新月のときは{n}ポンコツ同然、なんてことでは、まさか{n}終わらないだろう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0296.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "もっとも、オレの願望がそうだ、という{n}だけのことなのかも知れんがな。{n}ハッハッハ………。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0297.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：実は、長いこと研究していた{n}ダーク悪魔の合体表が、そろそろ{n}完成しそうなのだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0297.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "これが、おぬしの悪魔の合体に有用か{n}どうかは、少し疑問だが、まあ、素直に{n}よろこんでくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0298.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：おぬしが連れている死神……、{n}確かに、レベルの割に強いと思うが、{n}いいことばかりでも、無いみたいだぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0298.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マグネタイトの消費も大きいし……、{n}何よりおぬしを、戦闘から逃げにくくする{n}力を持っているようだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0298.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "せいぜい、上手に付き合うんだな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0299.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：今のおぬしの力では、{n}悪魔と戦うのは苦しいだろう。{n}充分に備えるのだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0299.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "おぬしに死なれたのでは、私の研究も{n}進まないからな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0300.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：これは、おぬしには話して{n}おかねばなるまい。近ごろ、地下水道にも{n}悪魔が出るらしいのだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0300.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "最近、悪魔たちの動きが大きくなってきた{n}ことと関係があるのだろうが、はっきり{n}した原因はわからぬ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0300.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "まあ、おぬしにとっては、いい鍛練の{n}場所になるかも知れぬがな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0301.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：大学の、吾妻とかいう{n}教授には、私にも少し気になることが{n}あるのだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0301.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "この教授の書いた本の噂、私の耳にも{n}届いている。古代日本に、魔術文明が{n}存在した、とかいう論文だったと思うが。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0301.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "だが、私にしてみれば、そんなに{n}大騒ぎするほどのものでは無かったと{n}記憶している。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0302.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：吾妻教授をめぐっては、{n}ただならぬ事態に、なっているようだな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0302.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "おぬしが会った、シドとかいう神父、{n}この世界に通じている私でも、そいつの{n}話は、聞いたことがない。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0302.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "いずれにせよ、本物の葛葉をやったらしい{n}その神父、ただものではあるまい。{n}おぬしも、せいぜい気をつけられよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0302.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "それにしても、教授は何処にいるやら。{n}はたまた、生きているやら、死んでいる{n}やら……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0303.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：おぬしがどうかは知らぬが、{n}本物の葛葉は、いろんな所から情報を{n}集めていたようだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0303.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "この一連の悪魔の動きを、どう見るかが{n}解決の糸口かもな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0304.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：レイ・レイホゥが{n}いないようだが……。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0304.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "まあ、おぬしらの問題か。{n}私には関係あるまい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0305.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：最近の{city}の開発は、{n}確かに、急ぎ過ぎているような感さえ{n}するな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0305.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "それも、行われているのは、霊性の{n}高い場所が目立つようだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0305.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "何か大きな流れが……、この街には{n}あるのかも知れぬ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0306.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：この界隈にも、おぬし{n}もうかなり、慣れてきたようだな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0306.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "まあ、本物の葛葉も、いろんな所に{n}世話になっていたし、良い客であった{n}みたいだがな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0307.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：おぬしも随分と、サマナー{n}稼業が、板についてきたようだな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0307.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "それでもまだ、本物には及ばない{n}ようだがな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0307.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "まあ、マリーが面倒な仕事を{n}持ってきても、やってみるものだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0308.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：最近出没する悪魔たちには{n}吸血鬼系のものが、どうやら多いようだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0308.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "やつらは、おぬしたちを「VAMP」に{n}したり、レベルを下げる攻撃を仕掛けて{n}くるから、注意するのだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0309.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：どうやら「組織」の連中は、{n}この{city}の中枢にまで、食い込んで{n}いるらしいな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0309.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "おぬしの力が、どこまで通じるか、{n}もはや、挑むしかなかろう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0310.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：擬似アストラル界は、異界の{n}中の異界、形無きものが形をつくる、{n}我らの預かり知らぬ世界。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0310.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "故無き悪魔も出るかも知れぬ。{n}おぬしの力を信じるのみであろう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0311.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：始めも無く、終わりも無い、{n}それが無間地獄…。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0312.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：どうやら、おぬしも本物の{n}デビル・サマナーらしくなってきた{n}ようだな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0312.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "いよいよ大詰めだ。強い悪魔をたくさん{n}連れてこい。私の合体で、さらに強い{n}悪魔にするのだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0313.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "私は{city}市{ward}区に住む{n}姓は{last_name}名は{first_name}です",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0314.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "名前をつけてやるがよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0315.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "男：誰だ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0315.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ここは、おまえの来る所ではない。{n}だまって、立ち去るがよい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0316.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：いかん、私ともあろう者が{n}事故を起こしてしまった。{n}すまぬ………。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0317.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトル：アイテムがいっぱいだな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0318.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "デビルサマナー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0319.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "パートナー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0320.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "・・・・・・・・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0321.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "・・・・・・・・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0322.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "・・・・・・・・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0323.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "・・・・・・・・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0324.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "・・・・・・・・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0325.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "・・・・・・・・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0326.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "・・・・・・・・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0327.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "・・・・・・・・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0328.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "・・・・・・・・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0329.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "・・・・・・・・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0330.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "・・・・・・・・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0331.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "・・・・・・・・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0332.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "・・・・・・・・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0333.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "・・・・・・・・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0334.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "なにかのアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0335.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもきちょうなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0336.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもすてきなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0337.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんまりよくないアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0338.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんまりよくないアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0339.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもすてきなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0340.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもきちょうなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0341.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "なにかのアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0342.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんまりよくないアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0343.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもすてきなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0344.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもきちょうなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0345.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "なにかのアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0346.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんまりよくないアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0347.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもすてきなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0348.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもきちょうなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0349.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "なにかのアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0350.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんまりよくないアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0351.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもすてきなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0352.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもきちょうなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0353.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "なにかのアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0354.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんまりよくないアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0355.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもすてきなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0356.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもきちょうなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0357.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "なにかのアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0358.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんまりよくないアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0359.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもすてきなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0360.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもきちょうなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0361.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "なにかのアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0362.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんまりよくないアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0363.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもすてきなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0364.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもきちょうなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0365.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "なにかのアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0366.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんまりよくないアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0367.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもすてきなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0368.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもきちょうなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0369.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "なにかのアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0370.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "なにかのアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0371.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもきちょうなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0372.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもすてきなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0373.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんまりよくないアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0374.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "なにかのアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0375.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもきちょうなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0376.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもすてきなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0377.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんまりよくないアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0378.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "なにかのアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0379.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもきちょうなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0380.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもすてきなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0381.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんまりよくないアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0382.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "なにかのアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0383.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもきちょうなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0384.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもすてきなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0385.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんまりよくないアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0386.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "なにかのアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0387.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもきちょうなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0388.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもすてきなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0389.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんまりよくないアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0390.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "なにかのアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0391.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもきちょうなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0392.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもすてきなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0393.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんまりよくないアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0394.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "なにかのアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0395.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもきちょうなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0396.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもすてきなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0397.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんまりよくないアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0398.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんまりよくないアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0399.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもすてきなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0400.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とてもきちょうなアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0401.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "なにかのアイテムです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0402.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "やたらといいものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0403.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "やたらといいものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0404.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "やたらといいものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0405.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "やたらといいものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0406.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "やたらといいものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0407.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "やたらといいものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0408.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "やたらといいものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0409.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "やたらといいものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0410.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "やたらといいものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0411.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "やたらといいものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0412.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "やたらといいものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0413.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "やたらといいものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0414.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "やたらといいものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0415.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "やたらといいものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0416.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "やたらといいものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0417.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "やたらといいものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0418.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "やたらといいものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0419.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "やたらといいものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0420.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "さいきょうのぶきです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0421.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "たいしたものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0422.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "たいしたものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0423.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "たいしたものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0424.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "たいしたものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0425.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "たいしたものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0426.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "たいしたものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0427.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "たいしたものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0428.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "たいしたものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0429.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "たいしたものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0430.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "さいきょうのぶきです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0431.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "さいきょうのぶきです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0432.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "さいきょうのぶきです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0433.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "さいきょうのぶきです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0434.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "さいきょうのぶきです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0435.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "さいきょうのぶきです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0436.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "さいきょうのぶきです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0589.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "やたらといいものです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0590.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "呪いを除いた全てを回復します",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0591.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "HP・MPを回復します",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0592.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "バッドステータスを回復します",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0593.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "呪いを解きます。呪い装備品は捨てられます",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0594.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "蘇生します",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0595.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ステータスを表示します",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0596.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ここから出ます",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0597.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "用があるなら奥にきな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0598.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "何の用だ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0599.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "また来るがよい・・・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0600.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞不思議な力があふれている・・・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0601.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "EXIT",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0602.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "MAG→金の交換",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0603.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "金→MAGの交換",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0604.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マスター：申し訳ありません。{n}まだ、準備中なんですよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0605.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "いらっしゃいませ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0606.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "時間を気にすることなく、{n}どうぞ、ごゆっくり。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0607.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "時間を気にすることなく、{n}どうぞ、ごゆっくり。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0607.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ここは誰もが無邪気に話が出来る、{n}罪を背負うことのない場所ですから。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0608.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "なんなんだ、あのバカデッカイ市庁舎は。{n}ゼイ金払ってる俺らの身にもなれってんだ。{n}そうだろう？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0609.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "バーに入ったら、とりあえずは{n}オーダーするのが礼儀ってものよ。{n}私のおすすめはクールスライダーかな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0610.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "モーロックのコンサート楽しみだわ。{n}彼らは私の青春だったのよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0611.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "おひさしぶりです。{n}時間を気にすることなく、{n}どうぞ、ごゆっくり。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0612.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "新市庁舎って、まじでデカイ。{n}建物に、あれほど金かける必要あるのか？{n}ゼイ金払ってる俺らの身にもなれってんだ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0612.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とは言うものの、もし自分が新市庁舎で{n}働いてたら、そんな不満もなくて、{n}すげえ鼻高々になってるんだろうな………",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0612.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "俺ってイヤ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0613.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "カーサ乾に引っ越そうかしら。{n}環境いいんでしょ、{ward}区って。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0613.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "今、無理して雲雀ヶ丘に部屋を借りて{n}いるんだけど、さらに値上がったのよ。{n}天堂家もあるし、なんとなくね……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0614.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "日本古代文明論という学説は、かなり{n}危険なんですよ。内容を御存知ですか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0614.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "世間では異端扱いされていますが、{n}一度、書いた本人の吾妻教授から話を{n}聞いてみれば、その怖さがわかりますよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0615.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "バーに入ったら、とりあえずは{n}オーダーするのが礼儀ってものよ。{n}私のおすすめはクールスライダーかな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0616.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{ward}区で家が爆発したそうですね。{n}やっぱり原因はガスでしょうか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0616.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "季節がら、私たちも{n}気をつけないと、いけませんね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0617.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あら、やっぱり生きてたのね。{n}死を偽装してまで、探偵さんが{n}追ってる事件て何かしら？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0617.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "例えば、大学の化物騒ぎ………",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0617.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "クス…、どうやら図星みたいね。{n}大丈夫よ、邪魔はしませんから。{n}それじゃ、がんばってね、探偵さん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0618.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "大学のあたりが騒がしいようですが、{n}何か事件でも、あったのでしょうか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0619.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あら探偵さん、あなたも探し人？{n}吾妻教授ならシドという神父さんも{n}探していましたわよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0619.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "神父さんは、教授は{city}市の外に{n}いると、考えていたようでしたが{n}私はまだ大学の近辺にいると思います。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0619.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "なんとかの元は暗しって言いますでしょ。{n}真実って、わりと単純だったりするのよね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0620.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "私も雲雀ヶ丘あたりに、{n}店をかまえてみたいものです。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0620.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "でもそれって、遠い遠い{n}夢物語なのでしょうねぇ。ふう……{n}最近の土地の値上りには参りますよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0621.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "カーサ乾に引っ越すのやめたわ。{n}私、幽霊とかの話、苦手なのよね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0621.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "アパートでもいいから、心から休める{n}部屋が欲しいのよ。緑も欲しいから、{n}最近は笠置山のアパートを下見してるの。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0622.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "銃犯罪の裏には一部の{n}米軍兵士が、からんでいるらしい。{n}ネタの出どころは不明だがね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0623.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "近頃、治安が悪くなりましたね。{n}だからといって警察の方々に{n}文句を言って、どうにかなるとは……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0623.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "警部さんは熱心な方なんですが、{n}あの人だけでは、どうにもこうにも……{n}ふう、困ったものです。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0624.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "かさぎ荘には何かがいるわね。{n}占い師なら、妖気があふれていて{n}危険だ、とでも言うのかしら？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0624.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ともかく、あなたの出番なんでしょ？{n}ねぇ、探偵さん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0625.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "アメリカではミサイルが誤って{n}発射されそうになったらしいですね。{n}近頃の米軍は何を考えているのやら……",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0626.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "秦野家って旧家なんでしょう。{n}由緒ある家系って、うらやましいわ………",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0626.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "べ、別にお金が欲しいんじゃないのよ。{n}なんか、お嬢様っていうだけで、{n}ロマンス感じちゃうのよ、ワタシ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0627.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{city}市長と天堂組の親分の間には、{n}交友関係があるらしい。{n}これは確かな情報ではないがね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0627.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "だが、市長は市議会員の操り人形だし、{n}なんらかの裏組織があることは、{n}十分、考えられることだな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0628.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "市議会で決まった再開発計画は、{n}残念ながら進んでいるみたいですね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0628.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "古いものには、古いなりの{n}価値があるということが、{n}議員さんには、わからないんでしょうか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0629.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "氷川神社の様子がおかしいわね。{n}あのスサノオを弱らせるほどの、{n}大きな力が働いているとしたら………",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0629.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "今回の1件、かなり、やっかいな相手が{n}バックにいるのは間違いない。{n}そうでしょう、探偵さん？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0630.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "再開発計画で空き地のままになっている、{n}笠置山の更地に幽霊が出たそうですよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0630.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "かなりの人が見たそうですから、{n}あながち嘘だとは言えませんね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0631.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あの新市庁舎を建てるとき、{n}かなりの裏金が動いたんだろうな。{n}まったく、ふざけた話だぜ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0632.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "米軍から横流しされた武器が、{n}そろそろ市場に出回るころだな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0632.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "バンソーコーの親父は、{n}うまいこと、やったのだろうか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0633.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "氷川神社のお祭り、中止なのかしら？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0633.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "何かトラブルがあったみたいなのよね。{n}楽しみにしていたのに残念だわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0634.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "今度は警察署で騒動ですか………",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0634.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "最近、街全体に落ち着きがないように{n}思えてしまって……私も歳ですかね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0635.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "よく、天堂家と警察の関わりが{n}噂されてたけど、どうやら{n}現実のものに、なってしまったようね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0635.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "今、警察署に行けば、{n}裏の顔が見られるんでしょう？{n}ねぇ、探偵さん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0636.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "嫌な世の中ですね。{n}警察がダメなら、他に誰を信じれば{n}いいんでしょうか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0637.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "まったく、警察の署長が天堂家と{n}つながっていたなんて世も末だぜ。{n}{city}市って、なんだかダークな所だな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0638.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "季節はずれの、おばけブームも{n}ようやく、おさまったみたいで{n}本当にほっとしたわ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0638.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "嘘だとわかっていても怖いんですもの。{n}でも、ミキヤがTVに映ったのは、{n}本当に彼の幽霊かもしれないわね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0639.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "たまには中華街に行ってみようかしら。{n}でもここみたいな、いいバーがないのよね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0640.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ここしばらくの騒ぎで、{n}外出をひかえる人も、いるみたいですね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0641.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ついに影の組織の中心部が動き始めたか。{n}最後の決戦は近い、そんな感じだな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0641.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "よし、次の特集は決まった。{n}議員にピッタリ張りついて、{n}今度こそ特ダネをものにするぞ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0642.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "新市庁舎に不穏な動きがあるわ。{n}今までとは違う、恐ろしい何かがいるわね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0642.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "今回も、あなたの出番なんでしょ？{n}ねぇ、探偵さん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0643.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞{OP:8016}は{drink_name}を{n}飲んだ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0644.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞お金が足りません",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0645.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞お酒を飲める状態ではありません",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0646.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "飲み物をを注文",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0647.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "周囲の人々と会話",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0648.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "STATUS表示",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0649.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ここから出ます",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0650.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "マスター：何か用かい？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0651.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "OL：最近、怪しい人を見かけるのよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0652.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "若い女：何かおごってくださらなぁい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0653.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "いらっしゃいませ{WAIT}{n}どうぞこちらへ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0654.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "何にいたしますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0655.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "またいらしてください",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0656.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "いらっしゃいませ{WAIT}{n}どうぞこちらへ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0657.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞何を飲みますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0658.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＞帰ることにした",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0659.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "DDSネットです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0660.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ぼくのへやです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0661.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "げんかんです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0662.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "リビングです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0663.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "おやじです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0664.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "おふくろです",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0665.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "私はメッセンジャーです。{WAIT}{n}これが出ているということは{n}プログラムは正しく動いています。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0666.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "何をしますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0667.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "それでは、さようなら",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0668.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "話す",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0669.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "見る",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0670.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "さわる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0671.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "おわる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0672.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "いまは、話せません。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0673.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "いまは、見れません。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0674.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "いまは、さわれません。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0675.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ワレハ{race}{demon_name}{n}コンゴトモヨロシク",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0676.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "オレサマハ{race}{demon_name}{n}コノオレノチカラミセテヤロウ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0677.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "我は{demon_name}{race}なり{n}そなたに加勢して進ぜよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0678.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "私は{race}{demon_name}{n}貴方を主とし力戦すること{n}この名に掛けて誓いましょう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0679.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "わたくしは{race}{demon_name}{n}貴方の命運のため御助力いたしましょう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0680.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "俺は{race}{demon_name}だ{n}ま今後ともよろしく頼むぜ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0681.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{demon_name}は{race}なの{n}{first_name}さんよろしくネ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0682.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ボク{race}{demon_name}！{n}今後ともよろしくー！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0683.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あたし{race}{demon_name}！{n}女の子なんだからやさしくしてね",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0684.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "アタシは{race}{demon_name}{n}どーぞ今後ともよろしく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0685.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "オレは{race}{demon_name}だ！{n}オレは{race}{demon_name}だ！{n}オレが{race}{demon_name}だ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0686.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "わしは{race}{demon_name}{n}お若いのよろしくな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0687.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "俺は{race}{demon_name}{n}あんまりムチャさせんなよ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0688.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "わいが{race}{demon_name}や！{n}文句あんのかおんどれ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0689.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ズル・・・・・・ズル・・・・・・・・{n}ズズ・・・ズズー・・・・・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0690.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ワタシハ{race}{demon_name}{n}アナタノ命令ニシタガイマス",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0691.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "われは{demon_name}{n}幸なる力にてそなたを助けん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0692.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "われは{demon_name}{n}奇なる力にてそなたを助けん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0693.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "われは{demon_name}{n}荒ぶる力にてそなたを助けん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0694.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "われは{demon_name}{n}和なる力にてそなたを助けん",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0695.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "私は{race}{demon_name}{n}いつでもあなたと共にあり{n}全ての邪悪を滅しましょう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0696.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "我は{race}{demon_name}{n}ここに誓いを立て貴殿を我が主君とし{n}身命掛けて御守り致しましょう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0697.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "我は{race}{demon_name}{n}我が降魔の力そなたに御貸しいたそう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0698.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{demon_name}見参！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0699.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "わたしは{race}{demon_name}{n}わが自由もわが平等もわが博愛も{n}あなたのお手に預けましょう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0700.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "我は{race}{demon_name}{n}黄泉に生きる者の力お目にかけよう",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0701.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "わしは{race}{demon_name}じゃ{n}地獄の案内ならおまかせくだされ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0702.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "オレは{race}{demon_name}{n}冥府の淵よりここに参上",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0703.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "私は{race}{demon_name}{n}奈落の声を聞くがよい・・・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0704.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "わたしは{race}{demon_name}・・・{n}死の安らぎを全てのものに・・・・・・",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0705.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "本官は屍鬼ゾンビコップであります！{n}今後ともよろしくお願いするであります！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0706.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "これが、{item_name}だ。{n}持ってゆくがよい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0707.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＜注意！＞{n}現在装備中のアイテムの売却を入力",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0708.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＜個数未入力＞{n}←→で購入数を指定後、決定キーを入力",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0709.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "＜対象未入力＞{n}←→で対象指定後、決定キーを入力",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0710.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{n}↑↓で交換数量を指定後、決定して下さい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0711.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{n}そんなに交換しても持てないようですね…。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0712.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{n}交換できるだけのMAGがないようですね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0713.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "{n}交換できるだけのお金がないようですね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0714.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "←→で購入数を指定後、決定キーを入力",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0715.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "「呪い」以外をすべて回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0716.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "HP＆MPを回復",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0717.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "バッドステータスを治療",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0718.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "「呪い」の状態を治療",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0719.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "「DEAD」のメンバーを復活",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0720.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "メンバーの詳細ステータスを表示",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0721.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "この場を離れ外へ",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0722.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ドリンクを注文",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0723.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "周囲の人々との会話",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0724.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "商品を購入",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0725.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "商品を売却",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0726.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "新規装備／装備の変更",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0727.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "最高の攻撃力・防御力のアイテムを装備",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0728.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "決定後部位を選択",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0729.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "丸瀬：おまえ、葛葉か？{WAIT}{n}いっ生きていたのか…",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0730.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "おまえに言うまでもないことだが、{n}ウチは、他じゃお目にかかれないものまで{n}扱っている。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0730.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "まあ、じっくり選んでいってくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0731.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "丸瀬：なんだ、葛葉か…。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0732.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "まあ、じっくり選んでいってくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0733.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "丸瀬：じゃあ、またな。{n}なんか、めずらしい物が{n}手に入ったら、出しておくよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0734.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "丸瀬：じゃあ、またな。{n}気をつけてな…。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0735.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "丸瀬：いらっしゃいませ。{n}ウチは、数多くの物件を扱っております。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0736.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "新居をお求めの際には、{n}ぜひ我が丸瀬不動産へ。{WAIT}{n}…お待ちしてますよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0737.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "グーフィー：いや～、{n}葛葉さんやおまへんかあ～。{n}なんや、生きてたんか～。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0738.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あんたは、最高のお得意様やからなあ～。{n}ところで、今日は何をお求めで。{WAIT}{n}まとめてドーンと買うて行ってや～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0739.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "グーフィー：いや～、{n}これはこれは葛葉さん。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0740.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ウチの商品は、最高でっしゃろ？{n}ところで、今日は何をお求めで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0741.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "グーフィー：おおきに。{WAIT}{n}たまに品ぞろえ変えるから、{n}ちょくちょく寄ってや～。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0742.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "グーフィー：おおきに。{n}また、どうぞ～。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0743.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "店主：いや～、{n}よういらっしゃいましたなあ～！！{WAIT}{n}ところで、何をお求めで。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0744.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "なに？違うんかあ？{n}それやったら、帰ってもらおか～！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0745.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "大佐：おお、ミスタ・キョウジ・クズノハ。{n}よく来たな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0746.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "これは秘密の取り引きだ。手早く済ませよう{n}欲しいものを言ってくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0747.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "大佐：グッドラック。{n}ミスタ・キョウジ・クズノハ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0748.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "大佐：なんだ、貴様は！！{n}ここは貴様のような者が、{n}のこのこと、立ち入る場所ではない！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0749.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "さあ、早く出て行け！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0750.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "店主：いらっしゃい。{WAIT}{n}…あんた、葛葉なのか？{n}ひっ、なにもワシのところに出なくても…。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0751.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ヴィクトルの所とか、{n}占いババアの所とか、{n}いろいろ、あるだろうが…。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0751.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とにかく、成仏してくれよ！{WAIT}{n}…えっ、生きてる？{n}そうか、そうなのか…。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0751.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "…で、何を買ってくれるんだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0752.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "店主：いらっしゃい。{n}…今のご時勢、あんたぐらいだ。{n}うちの物を買ってくれるのは。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0753.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "今日は、何を持って行ってくれるんだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0754.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "店主：うちの物の価値が分かるのは、{n}あんただけだ。{n}また、頼むよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0755.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "店主：また、持って行ってくれ。{n}頼んだよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0756.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "店主：いらっしゃい。{WAIT}{n}…なんか用かい？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0757.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ここは、あんたみたいに若い人が{n}来るとこじゃないよ。{n}さあ、帰った、帰った。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0758.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "女主人：あら、いらっしゃい。{n}あたしゃ、アンタが死ぬ訳ないって{n}思ってたんだよ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0759.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "また、いつものように買っておくれ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0760.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "女主人：あら、いらっしゃい。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0761.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "いつも、すまないねぇ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0762.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "女主人：はい、ありがとうね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0763.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "女主人：はい、ありがとうね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0764.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "女主人：いらっしゃいませ。{n}何を、お探し？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0765.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あっ、そういうこと…{n}ムフフ…{n}若いって、いいわね。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0765.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "あら、何もいらないの？{n}そう…。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0766.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "男：ようこそ、生体エナジー協会へ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0766.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "おや、あなたは…{WAIT}{n}いいでしょう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0767.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ご用件を、うかがいましょう。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0768.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "男：くれぐれも、お気をつけて。{n}マグネタイトがなくなると、{n}悪魔は生きてゆけないのですから…。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0769.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "男：ようこそ、生体エナジー協会へ。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0769.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "また、お会いできて光栄です…。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0770.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ご用件を、うかがいましょうか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0771.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "男：また、お立ち寄り下さい。{n}お会いできる日を楽しみにしています…。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0772.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "男：ようこそ、生体エナジー協会へ。{WAIT}{n}わたくしどもの活動に、興味を持った方の{n}入会を、お待ちしているのですよ…。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0772.p01",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "あなたも、入会希望の方ですか？{n}フフフフフ…。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0773.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "MAG→金の交換",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0774.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "金→MAGの交換",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0775.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "おや、金が足りないようですね…。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0776.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "おや、MAGが足りないようですね…。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0777.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "これ以上、金は持てないようですね…。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0778.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "これ以上、MAGは持てないようですね…。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0779.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "EXIT",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0781.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "三平：おまえ、キョウジかっ！{n}…生きていやがったのか、この野郎！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0782.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とにかく、奥へ来いよ！{n}どうせ、いつものヤツだろう？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0783.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "はやく、見せてみろよ！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0784.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "三平：なんだ、キョウジか。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0785.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ほら、早く来いよ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0786.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "今日はどうしたんだ？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0787.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "三平：キョウジ！{n}おまえが死んだと聞かされて{n}俺は本当に驚いた。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0787.p01",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "なにせ、ヤバい仕事をやっつけられるのは{n}おまえだけだからな。",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0787.p02",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "そうそう、最近、市立病院の友人に頼まれて{n}原因不明の病気ってヤツにかかった青年を{n}診にいったんだが、",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0787.p03",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "結局、俺にも分からずじまいだった…。{WAIT}{n}キョウジ、おまえが追っかけてる仕事と{n}何か関係あるのか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0787.p04",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "とにかくだ、いいかキョウジ！{n}傷を負ったら、無理をしないで{n}俺のところへ戻って来い。分かったな！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0788.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "三平：キョウジ、あまり無理をするなよ！{n}いいか、これは友人としての忠告だからな！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0789.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "オーナー：ん？{n}入会希望者か？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0790.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "今なら、私がビシビシしごいてやるぞ！{n}ハッハッハッハ！！",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0791.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "六甲のわき水でつくった氷と{n}ウイスキーが織りなす絶妙のハーモニー",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0792.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "オクラホマからやってきた{n}陽気なアメリカンワイン",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0793.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "湘南の風は僕らの子守歌{n}期間限定のさわやかな奴",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0794.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "くつろぎのひとときを{n}オシャレに演出してはいかが？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0795.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "疲れた精神をリフレッシュさせる{n}常習性のあるカクテル",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0796.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "飲めばたちまち不思議な色彩に包まれる{n}危険な香りが魅力のしょうちゅう割り",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0797.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "体内のアドレナリンの働きを増幅させる{n}真っ赤なアルコール飲料",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0798.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "飲んだ者に安眠を約束する{n}ふしぎなビール",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0799.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "工業用としても使える便利なお酒{n}極寒の地方で愛飲される",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0800.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "少々ねばり気のある甘いドリンク{n}コーヒーと混ぜてもおいしい",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0801.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "エメラルドグリーンの輝きが{n}グラスの中でかすかにうごめく",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0802.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "第3の目を覚醒させる{n}チベット生まれの秘酒",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0803.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "鬼肉エキス入り{n}滋養強壮・病中病後の体力回復に",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0804.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ひだの山奥で年に1本だけ作られる{n}こだわりの逸品",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0805.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "世界のトップアスリートが絶賛{n}ひとくち飲むだけで風になれる",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0806.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "悪魔の好む鉱物を{n}特別のリキュールに溶かした秘薬",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0807.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "デバッグモード",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0808.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "EXIT",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0809.p00",
+    "source_encoding": "game_font16_event_space",
+    "output_encoding": "",
+    "reference": "BIT変更",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0810.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "イベントNo変更",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0811.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "BITNo",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0812.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "ON",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0813.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "OFF",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.shopsmp.m0814.p00",
+    "source_encoding": "game_font12_16_event_skip",
+    "output_encoding": "",
+    "reference": "イベントNo",
+    "translation": "",
+    "note": ""
+  }
+]
