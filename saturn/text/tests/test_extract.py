@@ -35,7 +35,7 @@ class GameInventoryTests(unittest.TestCase):
         self.assertEqual(len(self.batch.rendered), 59)
         self.assertEqual(
             {path.as_posix() for path in self.batch.composed_files},
-            {"LOAD.BIN", "SAVE.BIN"},
+            set(),
         )
 
         rows = [

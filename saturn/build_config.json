@@ -65,6 +65,56 @@
       ]
     },
     {
+      "id": "repack_event_text",
+      "description": "Compile the complete general EVENT surface from shared authored assets.",
+      "type": "python",
+      "script": "text/repack.py",
+      "arguments": ["event"],
+      "check_arguments": ["event", "--check"]
+    },
+    {
+      "id": "install_event_text",
+      "description": "Install the four compiled general EVENT banks.",
+      "type": "copy",
+      "files": [
+        {
+          "source": "text/generated/game/MESFILE.EVE",
+          "destination": "rom/extracted/game/MESFILE.EVE"
+        },
+        {
+          "source": "text/generated/game/EVFILE_0.EVE",
+          "destination": "rom/extracted/game/EVFILE_0.EVE"
+        },
+        {
+          "source": "text/generated/game/EVFILE_1.EVE",
+          "destination": "rom/extracted/game/EVFILE_1.EVE"
+        },
+        {
+          "source": "text/generated/game/EVFILE_2.EVE",
+          "destination": "rom/extracted/game/EVFILE_2.EVE"
+        }
+      ]
+    },
+    {
+      "id": "build_event_engine",
+      "description": "Build the EVENT variable-width renderer and packed-text fetch hook.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["event.dialogue"],
+      "check_arguments": ["event.dialogue", "--check"]
+    },
+    {
+      "id": "install_event_engine",
+      "description": "Install the EVENT runtime required by the translated dialogue banks.",
+      "type": "copy",
+      "files": [
+        {
+          "source": "engine/generated/game/EVENT.BIN",
+          "destination": "rom/extracted/game/EVENT.BIN"
+        }
+      ]
+    },
+    {
       "id": "repack_visuals",
       "description": "Apply every changed visual asset to its extracted disc mirror.",
       "type": "python",
@@ -88,6 +138,10 @@
         "restore_discs",
         "repack_fonts",
         "install_fonts",
+        "repack_event_text",
+        "install_event_text",
+        "build_event_engine",
+        "install_event_engine",
         "repack_visuals",
         "build_discs"
       ],

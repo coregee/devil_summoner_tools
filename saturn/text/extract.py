@@ -6,17 +6,23 @@ import argparse
 import hashlib
 import json
 import os
+import sys
 import tempfile
 from dataclasses import dataclass
 from pathlib import Path, PurePosixPath
 
-from util.config import load_config
-from util.containers import Region, extract_source, merge_regions
-from util.sources import SourceManifest, load_manifest, manifest_path
-from util.tokens import format_tokens, parse_tokens
-
 TEXT_ROOT = Path(__file__).resolve().parent
 SATURN_ROOT = TEXT_ROOT.parent
+if str(SATURN_ROOT) not in sys.path:
+    sys.path.append(str(SATURN_ROOT))
+
+from rom.util.catalog import load_catalog, validate_source  # noqa: E402
+from rom.util.workflows import read_source_files  # noqa: E402
+from util.config import load_config  # noqa: E402
+from util.containers import Region, extract_source, merge_regions  # noqa: E402
+from util.sources import SourceManifest, load_manifest, manifest_path  # noqa: E402
+from util.tokens import format_tokens, parse_tokens  # noqa: E402
+
 ROM_ROOT = SATURN_ROOT / "rom"
 CORPUS_ROOT = TEXT_ROOT / "corpus"
 DISCS_PATH = ROM_ROOT / "discs.json"
@@ -145,6 +151,22 @@ def _read_sources(manifest: SourceManifest, extracted_root: Path) -> dict[str, b
     return blobs
 
 
+def _read_stock_sources(manifest: SourceManifest) -> dict[str, bytes]:
+    try:
+        disc_spec = load_catalog()[manifest.disc]
+    except KeyError as error:
+        raise ValueError(f"source-disc catalog has no {manifest.disc!r} disc") from error
+    validated = validate_source(disc_spec)
+    by_path = read_source_files(
+        validated,
+        tuple(spec.path.as_posix() for spec in manifest.files.values()),
+    )
+    return {
+        name: by_path[spec.path.as_posix()]
+        for name, spec in manifest.files.items()
+    }
+
+
 def _owned_digest(data: bytes, regions: tuple[Region, ...]) -> str:
     digest = hashlib.sha256()
     for region in regions:
@@ -227,11 +249,12 @@ def build_batch(
     if manifest.track_sha256 != expected_track:
         raise ValueError(f"{source_path}: Track 1 identity does not match discs.json")
 
-    root = (
-        extracted_root if extracted_root is not None else ROM_ROOT / "extracted" / disc
-    )
     output_root = corpus_root if corpus_root is not None else CORPUS_ROOT / disc
-    blobs = _read_sources(manifest, root)
+    blobs = (
+        _read_stock_sources(manifest)
+        if extracted_root is None
+        else _read_sources(manifest, extracted_root)
+    )
     catalog = load_config()
     existing, existing_paths = _load_existing(output_root)
 

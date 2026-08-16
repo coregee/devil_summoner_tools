@@ -8,6 +8,7 @@ import shutil
 import struct
 import tempfile
 import uuid
+from collections.abc import Iterable
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -96,6 +97,35 @@ def list_iso_files(validated: ValidatedDisc) -> tuple[IsoFile, ...]:
     with Mode1Track(track_path, validated.data_track.index(1)) as track:
         files = Iso9660(track).files()
     return tuple(sorted(files.values(), key=lambda entry: entry.key))
+
+
+def read_source_files(
+    validated: ValidatedDisc,
+    paths: Iterable[str],
+) -> dict[str, bytes]:
+    """Read selected files directly from a validated source disc."""
+    requested: dict[str, str] = {}
+    for value in paths:
+        normalized = safe_relative_path(value, "source-disc path").as_posix()
+        key = normalized.casefold()
+        if key in requested:
+            raise ValueError(f"duplicate source-disc path: {value}")
+        requested[key] = value
+
+    track_path = validated.sheet.source_path(validated.data_track.file)
+    with Mode1Track(track_path, validated.data_track.index(1)) as track:
+        iso = Iso9660(track)
+        entries = iso.files()
+        missing = [requested[key] for key in requested if key not in entries]
+        if missing:
+            raise ValueError(
+                f"{validated.spec.disc_id}: source disc is missing "
+                + ", ".join(missing)
+            )
+        return {
+            requested[key]: iso.read_file(entries[key])
+            for key in requested
+        }
 
 
 def extract_disc(

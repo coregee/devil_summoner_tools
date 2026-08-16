@@ -5,11 +5,12 @@ live, a container describes how those records are framed, and each record names
 the source encoding used to turn its code units into readable text. Source
 encodings never name a game file.
 
-Repacking will make the same separation in the other direction: each record
-will name an output encoding, while containers remain responsible for pointers,
-terminators, padding, capacities, and file layout. During migration, a blank
-physical translation retains the original record; canonical authored
-translations live under the repository-level `assets/text` tree.
+Repacking uses the same separation in the other direction. The first complete
+output surface is `event.dialogue`: the four general EVENT banks are compiled
+from shared authored assets, while the EVE container owns pointers,
+terminators, capacity, and round-trip validation. Canonical translations live
+under the repository-level `assets/text` tree; the physical corpus remains
+binary evidence rather than an editing interface.
 
 ## Layout
 
@@ -26,12 +27,17 @@ translations live under the repository-level `assets/text` tree.
 - `bindings/` joins Saturn physical records to shared authored asset fields.
 - `../../assets/text/` is the human-facing, cross-platform authoring layer.
 - `util/` contains strict configuration, token, codec, and container helpers.
-- `generated/` is ignored and will contain dictionaries, coverage reports,
-  capacity reports, and engine-facing payloads.
+- `generated/` is ignored and contains compiled banks, build bindings,
+  inventories, and other engine-facing payloads.
 - `extract.py` verifies source identity and regenerates the complete corpus.
 - `event_inventory.py` builds an ignored scene-curation report for the four
   general event banks.
-- `repack.py` remains absent until output encodings are settled.
+- `repack.py` currently builds the complete `event.dialogue` surface.
+
+Extraction reads its evidence directly from the verified original disc, never
+from the writable build mirror. The mirror may therefore contain translated
+text, engine patches, fonts, and visuals without changing corpus references or
+making the extraction suite stale.
 
 The corpus record contract will stay small:
 
@@ -83,8 +89,25 @@ python saturn/text/extract.py game --check
 python saturn/text/extract.py compendium
 python saturn/text/extract.py compendium --check
 python saturn/text/event_inventory.py
+python saturn/text/repack.py event
+python saturn/text/repack.py event --check
 python -m unittest discover -s saturn/text/tests -v
 ```
+
+## General EVENT repacking
+
+The general EVENT compiler resolves all 2,028 physical pages through Saturn
+bindings to 1,890 human-facing asset fields. It rebuilds `MESFILE.EVE` and
+`EVFILE_0.EVE` through `EVFILE_2.EVE` atomically from the verified source disc,
+preserves the two structural-only messages, wraps the translated FONT16
+dialogue to the `event.dialogue` surface contract, retains direct menu readers,
+and reparses every output.
+
+`config/event_codec.json` records the stable dictionary used by the mature
+Saturn output. `generated/game/event_build.json` binds that codec, the current
+FONT16 metrics, and the exact digest of every rebuilt bank. All four outputs
+are byte-identical to the mature Saturn translation build; this is enforced as
+a regression oracle rather than assumed from matching strings.
 
 The game manifest covers 47 physical files and 59 source groups. Its four
 container types are EVE banks, pointer banks, fixed records with subfields, and
@@ -141,9 +164,11 @@ authoring interface. Mature translations are imported only into the shared
 authored assets after a semantic binding is proved; stable physical IDs allow
 that view to evolve without weakening binary grounding.
 
-The extraction manifest records only data that extraction consumes. Runtime
-reader selection and output-side packing rules will be introduced with repacking,
-once those contracts have executable behavior.
+The extraction manifest records only data that extraction consumes. General
+EVENT output-side packing lives in `config/event_codec.json` and
+`util/event_repack.py`; the corresponding runtime renderer and fetch hook live
+under `saturn/engine`. Those contracts now have executable behavior without
+adding output concerns to source extraction.
 
 IDs are derived from pointer slots, fixed-record positions, addressed offsets,
 or EVE message/page positions. EVE page numbering includes the 166 structural
@@ -296,18 +321,21 @@ their wording is editable, but they remain recorded consumer-binding debt.
    editable translations. The two structurally empty `EVFILE_1` messages remain
    binary framing rather than editor rows. Retail placement-error messages remain
    editable assets because visible debug text is not a runtime exemption.
-5. Produce complete encoding coverage and capacity reports for both discs.
-6. Finalize output encodings and deterministic full-corpus dictionary groups.
-7. Implement one atomic text repack; partial dictionary builds remain
-   unsupported.
-8. Design engine hooks against the finalized output encoding contracts.
+5. **Complete for `event.dialogue`:** prove output glyph coverage, capacity,
+   and the stable packed dictionary for all four general EVENT banks.
+6. **Complete for `event.dialogue`:** implement atomic, round-tripped bank
+   repacking with exact mature-output parity.
+7. **Complete for `event.dialogue`:** port the surface-bound VWF renderer and
+   packed fetch hook, then integrate both text and engine outputs into the
+   normal disc build.
+8. Continue surface by surface; do not introduce one global repack or engine
+   capability graph before another consumer needs shared machinery.
 
 Extraction verifies source files, decodes every record readably, preserves
 unknown glyph and control identity after declared zero normalization, and
-retains user-owned text by stable ID. Later repacking will restore original
-inputs, verify references by reparsing current files, train selected dictionaries
-deterministically over the complete corpus, enforce capacities, and reparse every
-generated output.
+retains user-owned text by stable ID. EVENT repacking independently reads the
+verified source disc, resolves the authored bindings, enforces capacity, and
+reparses every generated bank.
 
 The new package intentionally does not inherit the mature format-class tree,
 global semantic registry, per-page hash manifests, automatic Japanese-text

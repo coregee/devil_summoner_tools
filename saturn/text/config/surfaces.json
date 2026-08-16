@@ -73,6 +73,24 @@
         }
       }
     },
+    "event.choice_option": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 9
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
     "profile.first_name": {
       "ja": {
         "font": "font16",

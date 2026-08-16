@@ -427,6 +427,13 @@ def _physical_records(corpus_root: Path) -> Mapping[str, str]:
     return MappingProxyType(records)
 
 
+def load_physical_records(
+    corpus_root: Path = CORPUS_ROOT,
+) -> Mapping[str, str]:
+    """Load the immutable physical-id to source-reference inventory once."""
+    return _physical_records(corpus_root)
+
+
 def load_binding(
     path: Path,
     *,

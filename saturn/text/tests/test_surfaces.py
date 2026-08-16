@@ -29,6 +29,14 @@ class SurfaceCatalogTests(unittest.TestCase):
             ("font16", 3, "pixels", 300),
         )
 
+        choice = self.catalog.surface("event.choice_option")
+        self.assertEqual(
+            (choice.ja.font, choice.ja.rows, choice.ja.width.unit, choice.ja.width.value),
+            ("font16", 1, "glyph_cells", 9),
+        )
+        self.assertEqual((choice.en.font, choice.en.rows), ("font16", 1))
+        self.assertFalse(choice.en.width.known)
+
         negotiation = self.catalog.surface("battle.negotiation_dialogue")
         self.assertEqual(
             (
