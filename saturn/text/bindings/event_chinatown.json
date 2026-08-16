@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "asset": "events/chinatown.json",
+  "records": {
+    "game.evfile_1.m0113.p00": "guan_di_temple_000.text",
+    "game.evfile_1.m0114.p00": "guan_di_temple_001.text",
+    "game.evfile_1.m0114.p01": "guan_di_temple_002.text",
+    "game.evfile_1.m0115.p00": "guan_di_temple_003.text",
+    "game.evfile_1.m0115.p01": "guan_di_temple_004.text",
+    "game.evfile_1.m0115.p02": "guan_di_temple_005.text",
+    "game.evfile_1.m0115.p03": "guan_di_temple_006.text",
+    "game.evfile_1.m0115.p04": "guan_di_temple_007.text",
+    "game.evfile_1.m0115.p05": "guan_di_temple_008.text",
+    "game.evfile_1.m0115.p06": "guan_di_temple_009.text",
+    "game.evfile_1.m0116.p00": "chinatown_reward_000.text",
+    "game.evfile_1.m0117.p00": "chinatown_reward_001.text",
+    "game.evfile_1.m0117.p01": "chinatown_reward_002.text",
+    "game.evfile_1.m0117.p02": "chinatown_reward_003.text",
+    "game.evfile_1.m0117.p03": "chinatown_reward_004.text",
+    "game.evfile_1.m0117.p04": "chinatown_reward_005.text",
+    "game.evfile_1.m0118.p00": "chinatown_reward_006.text",
+    "game.evfile_1.m0119.p00": "chinatown_reward_007.text",
+    "game.evfile_1.m0120.p00": "chinatown_reward_008.text",
+    "game.evfile_1.m0120.p01": "chinatown_reward_009.text",
+    "game.evfile_1.m0120.p02": "chinatown_reward_010.text",
+    "game.evfile_1.m0120.p03": "chinatown_reward_011.text",
+    "game.evfile_1.m0120.p04": "chinatown_reward_012.text",
+    "game.evfile_1.m0121.p00": "chinatown_reward_013.text",
+    "game.evfile_1.m0121.p01": "chinatown_reward_014.text",
+    "game.evfile_1.m0121.p02": "chinatown_reward_015.text",
+    "game.evfile_1.m0122.p00": "chinatown_reward_016.text",
+    "game.evfile_1.m0122.p01": "chinatown_reward_017.text",
+    "game.evfile_1.m0123.p00": "chinatown_reward_018.text",
+    "game.evfile_1.m0123.p01": "chinatown_reward_019.text",
+    "game.evfile_1.m0124.p00": "chinatown_reward_020.text",
+    "game.evfile_1.m0125.p00": "chinatown_reward_021.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  },
+  "glyph_tokens": {
+    "00c0": "yen_symbol"
+  }
+}

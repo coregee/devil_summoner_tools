@@ -198,6 +198,538 @@
         "reference": "大丈夫？自分で歩ける？{n}じゃあ、あんたのオフィスへ連れてくわ。",
         "translation": "Are you all right? Can you walk?{n}Then I'll take you to your office."
       }
+    },
+    "pseudo_astral_identity_000": {
+      "text": {
+        "reference": "キョウジ：……久しぶりだな……{n}おれの身体の使い主よ……。",
+        "translation": "Kyouji: ...Long time no see...{n}You, the man who's been using my body..."
+      }
+    },
+    "pseudo_astral_identity_001": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "……まったく、ヒヤヒヤさせてくれたな。{n}{last_name}{first_name}。",
+        "translation": "You had me sweating there,{n}{first_name} {last_name}."
+      }
+    },
+    "pseudo_astral_identity_002": {
+      "text": {
+        "reference": "おまえが、おれとして動いている間の{n}間抜けぶりは、歯がゆい限りだったぜ。",
+        "translation": "Watching you bumble around in my name{n}was damn frustrating."
+      }
+    },
+    "pseudo_astral_identity_003": {
+      "text": {
+        "reference": "だが、シド・デイビスのわなにかかって、{n}魂を封じこまれた、おれには何も{n}できなかった。",
+        "translation": "But Sid Davis caught me in his trap{n}and sealed away my soul,{n}so there wasn't a damn thing I could do."
+      }
+    },
+    "pseudo_astral_identity_004": {
+      "text": {
+        "reference": "やっと、「タカシ」の死体をあやつって{n}少しは、外界に手出しできるようになったが{n}元々がカスみたいなチンピラだ。",
+        "translation": "I finally managed to take over Takashi's corpse{n}and meddle in the outside world a little,{n}but he was a worthless two-bit punk."
+      }
+    },
+    "pseudo_astral_identity_005": {
+      "text": {
+        "reference": "たいしたことは、できなかった。",
+        "translation": "There wasn't much I could do with him."
+      }
+    },
+    "pseudo_astral_identity_006": {
+      "text": {
+        "reference": "ここには、シド・デイビスも来ている。{n}おれは、ここに封じこまれた、借りを{n}返したい。",
+        "translation": "Sid Davis is here too.{n}I owe him for sealing me away in here,{n}and I mean to settle the score."
+      }
+    },
+    "pseudo_astral_identity_007": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "おまえは、{first_name}だったときの彼女を{n}助けたいだろう？{n}そのためには、シドを倒したい。",
+        "translation": "You want to save the girl you knew back when{n}you were {first_name}, don't you?{n}That means taking Sid down."
+      }
+    },
+    "pseudo_astral_identity_008": {
+      "text": {
+        "reference": "おれとおまえの目的は、一致した。{n}シドを倒すために、一緒に行動してやろう。",
+        "translation": "Our interests line up.{n}I'll work with you to bring Sid down."
+      }
+    },
+    "pseudo_astral_identity_009": {
+      "text": {
+        "reference": "シド：いいですカ、久美子さン。{n}あなたハ、吾妻教授の本を持っていましたネ{n}それハ、今どこにあるのですカ。",
+        "translation": "Sid: Now then, Miss Kumiko.{n}You had Professor Azuma's book, did you not?{n}Where is it now?"
+      }
+    },
+    "pseudo_astral_identity_010": {
+      "text": {
+        "reference": "教えなさイ。ムリヤリあなたの心ヲ{n}のぞいてもよいのですガ、レディに手荒な{n}まねハ、したくありませン。",
+        "translation": "Tell me. I can simply pry into your mind if I must,{n}but I would rather not treat a lady so roughly."
+      }
+    },
+    "pseudo_astral_identity_011": {
+      "text": {
+        "reference": "さア、教えなさイ。{n}さア、言わないとあなたの魂ハ、{n}ここに閉じこめられたままですヨ。",
+        "translation": "Come now, tell me.{n}If you refuse, your soul will remain{n}imprisoned here."
+      }
+    },
+    "pseudo_astral_identity_012": {
+      "text": {
+        "reference": "……ン？おまえハ？{n}葛葉キョウジが2人？……いや違ウ？",
+        "translation": "...Hm? Who are you?{n}Two Kyouji Kuzunohas? ...No, that is not it."
+      }
+    },
+    "pseudo_astral_identity_013": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "1人は葛葉キョウジだガ……{n}もう1人ハ……おウ、工事現場で死んだ{n}{last_name}{first_name}さんですネ。",
+        "translation": "One is Kyouji Kuzunoha, but the other...{n}Ah, yes. {first_name} {last_name},{n}who died at the construction site."
+      }
+    },
+    "pseudo_astral_identity_014": {
+      "text": {
+        "reference": "わかりましタ、わかりましタ。{n}葛葉キョウジ、あなたハ、本当に生き返った{n}わけでハ、なかったのですネ。",
+        "translation": "I see, I see.{n}Kyouji Kuzunoha, you did not truly{n}come back to life after all."
+      }
+    },
+    "pseudo_astral_identity_015": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "自分の身体ニ、{last_name}{first_name}の魂を入れたの{n}ですカ。考えましたネ。",
+        "translation": "You put {first_name} {last_name}'s soul{n}into your own body. How clever."
+      }
+    },
+    "pseudo_astral_identity_016": {
+      "text": {
+        "reference": "やられましタ、私の術も効かないわけでス。{n}私をだましたお返しハ、高く付きますヨ。",
+        "translation": "You fooled me. No wonder my spell did not work.{n}You will pay dearly for that deception."
+      }
+    },
+    "pseudo_astral_identity_017": {
+      "text": {
+        "reference": "ところで、ここに来たということハ、{n}デミウルゴスを倒したのですカ？",
+        "translation": "But if you have come here,{n}does that mean you defeated Demiurge?"
+      }
+    },
+    "pseudo_astral_identity_018": {
+      "text": {
+        "reference": "それハ、とてもありがたいでス。{n}彼ハ、市長や天堂をあやつって{n}封印を壊してくれましタ。",
+        "translation": "That is most helpful.{n}He manipulated the mayor and Tendou{n}into breaking the seals for us."
+      }
+    },
+    "pseudo_astral_identity_019": {
+      "text": {
+        "reference": "もウ、彼の仕事は終わリ、我々の「組織」{n}にハ、用のない存在になっていたのでス。",
+        "translation": "His work was finished,{n}and our organization had no further use for him."
+      }
+    },
+    "pseudo_astral_identity_020": {
+      "text": {
+        "reference": "用なし幹部を始末してくれテ、どうも{n}ありがとウ。",
+        "translation": "Thank you for disposing of a senior leader{n}we no longer needed."
+      }
+    },
+    "pseudo_astral_identity_021": {
+      "text": {
+        "reference": "でハ、死に損ないの2人ヲ、まとめて始末{n}してあげましょウ。",
+        "translation": "Now I shall finish off both of you{n}who cheated death."
+      }
+    },
+    "pseudo_astral_identity_022": {
+      "text": {
+        "reference": "シド：く、くそッ、覚えていなさイッ。{n}これ以上、あなたがたと遊んでいるヒマハ、{n}ありませン。",
+        "translation": "Sid: D-Damn you! Remember this!{n}I have no more time to play with you."
+      }
+    },
+    "pseudo_astral_identity_023": {
+      "text": {
+        "reference": "今度ばかりハ、見逃してあげましょウ。{n}でハ、さようなラ……。",
+        "translation": "Just this once, I will let you live.{n}Farewell..."
+      }
+    },
+    "pseudo_astral_identity_024": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "久美子：……あなたは……{last_name}くん……{n}{first_name}くん！生きていたの？生きていて{n}くれたの……？",
+        "translation": "Kumiko: ...You... {last_name}...{n}{first_name}! You're alive? You survived...?"
+      }
+    },
+    "pseudo_astral_identity_025": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "{first_name}くん。探偵の葛葉さんの中に、{n}あなたは、生きていたのね。",
+        "translation": "{first_name}... You were alive all this time,{n}inside Detective Kuzunoha."
+      }
+    },
+    "pseudo_astral_identity_026": {
+      "text": {
+        "reference": "あなたがもうダメかもしれないって聞いて、{n}とても悲しかった……初めて自分の本当の{n}気持ちがわかったのよ……。",
+        "translation": "When I heard you might not make it,{n}I was devastated... Only then did I realize{n}how I truly felt..."
+      }
+    },
+    "pseudo_astral_identity_027": {
+      "text": {
+        "reference": "あなたに、教授の本、「日本古代文明論」の{n}隠し場所を教えるわ。この本は、あなたと{n}図書館に行ったときに借りたわね。",
+        "translation": "I'll tell you where I hid Professor Azuma's book,{n}\"Theories on Ancient Japanese Civilization.\"{n}We borrowed it when we went to the library."
+      }
+    },
+    "pseudo_astral_identity_028": {
+      "text": {
+        "reference": "……矢来銀座のコインロッカーにあるわ。{n}ロッカー・ナンバーは、……ああっ！！{n}私の身体が呼んでいる！！",
+        "translation": "...It's in a coin locker at Ginza Arcade.{n}The locker number is... Ahhh!!{n}My body is calling me!!"
+      }
+    },
+    "pseudo_astral_identity_029": {
+      "text": {
+        "reference": "……ナンバーは、……私の誕生日……。",
+        "translation": "...The number is... my birthday..."
+      }
+    },
+    "pseudo_astral_identity_030": {
+      "text": {
+        "reference": "キョウジ：……シドの仕業だ。ヤツが彼女の{n}魂を呼び戻したに違いない。{n}早く戻らねば……。",
+        "translation": "Kyouji: ...Sid's doing. He must have called{n}her soul back to her body.{n}We have to get back, now..."
+      }
+    },
+    "pseudo_astral_identity_031": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "だが、{last_name}{first_name}。{n}おまえは、現世には戻れない。",
+        "translation": "But {first_name} {last_name}...{n}you won't be returning to the human world."
+      }
+    },
+    "pseudo_astral_identity_032": {
+      "text": {
+        "reference": "おまえが入っていたのは、おれの身体だ。{n}そして、おれの魂はここにいる。",
+        "translation": "The body you've been using is mine.{n}And my soul is right here."
+      }
+    },
+    "pseudo_astral_identity_033": {
+      "text": {
+        "reference": "おれの魂が、現世に戻れば、{n}デビルサマナー、葛葉キョウジが{n}真の姿に戻る。",
+        "translation": "Once my soul returns to the human world,{n}the Devil Summoner Kyouji Kuzunoha{n}will finally be whole again."
+      }
+    },
+    "pseudo_astral_identity_034": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "{last_name}{first_name}、おまえの役目は終わった。{n}これからの戦いは、おれの役目だ。",
+        "translation": "{first_name} {last_name}, your part is over.{n}The fight is mine from here on out."
+      }
+    },
+    "pseudo_astral_identity_035": {
+      "placeholders": {
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "さらばだ、{last_name}。{n}やすらかに、眠ってくれ……あばよ。",
+        "translation": "So long, {last_name}.{n}Rest in peace... Later."
+      }
+    },
+    "pseudo_astral_identity_036": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "カロン：{last_name}{first_name}であった魂よ。{n}今度こそ、三途の川を渡るときがきたな。",
+        "translation": "Charon: Soul once known as {first_name} {last_name}.{n}This time, the hour has truly come{n}for you to cross the River Styx."
+      }
+    },
+    "pseudo_astral_identity_037": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "死せる魂は、川を渡る定め。{n}汝、{last_name}{first_name}であった魂は、{n}これより、川を渡るものなり……。",
+        "translation": "The souls of the dead are fated to cross.{n}You, the soul once known as {first_name} {last_name},{n}shall now cross the river..."
+      }
+    },
+    "pseudo_astral_identity_038": {
+      "text": {
+        "reference": "カロン：……そなた、無間地獄をくぐり抜け{n}来たりし者か？",
+        "translation": "Charon: ...Are you the one{n}who passed through Avici Hell?"
+      }
+    },
+    "pseudo_astral_identity_039": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "そなたは、{last_name}{first_name}であった魂。{n}そなたに問う。",
+        "translation": "You are the soul once known as{n}{first_name} {last_name}. I have a question for you."
+      }
+    },
+    "pseudo_astral_identity_040": {
+      "text": {
+        "reference": "そなたは、自らの身体を取り戻すことのみに{n}こだわるか？",
+        "translation": "Are you concerned only{n}with reclaiming your own body?"
+      }
+    },
+    "pseudo_astral_identity_041": {
+      "text": {
+        "reference": "カロン：そなたを、確かに無間地獄を{n}くぐり抜け来たりし者と認めよう。",
+        "translation": "Charon: I acknowledge that you have indeed{n}passed through Avici Hell."
+      }
+    },
+    "pseudo_astral_identity_042": {
+      "text": {
+        "reference": "無間地獄をくぐり抜けたそなたに、{n}そなたの死について真実を話そう。",
+        "translation": "Because you overcame Avici Hell,{n}I shall tell you the truth of your death."
+      }
+    },
+    "pseudo_astral_identity_043": {
+      "text": {
+        "reference": "そなたの死は、故意にもたらされた。{n}実は手を下したのは、この私だ。",
+        "translation": "Your death was no accident.{n}In truth, I was the one who killed you."
+      }
+    },
+    "pseudo_astral_identity_044": {
+      "text": {
+        "reference": "そして、そなたの死を願ったのは、{n}葛葉キョウジ。",
+        "translation": "And it was Kyouji Kuzunoha{n}who asked for you to die."
+      }
+    },
+    "pseudo_astral_identity_045": {
+      "text": {
+        "reference": "彼は、シド・デイビスの手にかかって死に、{n}魂は、擬似アストラル界に閉じこめられた。",
+        "translation": "Sid Davis had killed him{n}and trapped his soul in the Pseudo-Astral Plane."
+      }
+    },
+    "pseudo_astral_identity_046": {
+      "text": {
+        "reference": "そのため、デビルサマナーとして働けなく{n}なった彼は、一つの手を打った。",
+        "translation": "Unable to carry out his work as a Devil Summoner,{n}he devised a plan."
+      }
+    },
+    "pseudo_astral_identity_047": {
+      "text": {
+        "reference": "そなたがシドに殺される直前、私にそなたの{n}魂をぬき出させ、自分の身体に入れさせた。{n}そなたの魂を自分の身代わりにしたのだ。",
+        "translation": "Just before Sid killed you, he had me extract{n}your soul and place it in his own body.{n}He made your soul his stand-in."
+      }
+    },
+    "pseudo_astral_identity_048": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "すべては、デビルサマナーの使命を果たす{n}ため……とはいえ、{last_name}{first_name}、{n}そなたが犠牲になったことには変わりない。",
+        "translation": "He did it all to fulfill his duty as a Devil Summoner...{n}Even so, {first_name} {last_name},{n}the fact remains that you were sacrificed."
+      }
+    },
+    "pseudo_astral_identity_049": {
+      "text": {
+        "reference": "だが、そなたは無間地獄を自らの力でくぐり{n}抜けて来た。",
+        "translation": "Yet you escaped Avici Hell{n}through your own strength."
+      }
+    },
+    "pseudo_astral_identity_050": {
+      "text": {
+        "reference": "ならば、三途の川を逆に渡ることを許そう。",
+        "translation": "Therefore, I shall allow you{n}to cross the River Styx in reverse."
+      }
+    },
+    "pseudo_astral_identity_051": {
+      "text": {
+        "reference": "葛葉キョウジの魂よ、聞こえるか。",
+        "translation": "Soul of Kyouji Kuzunoha, can you hear me?"
+      }
+    },
+    "pseudo_astral_identity_052": {
+      "text": {
+        "reference": "キョウジの声：カロンよ、おれは今忙しい。{n}なぜ、おれを呼ぶ？",
+        "translation": "Kyouji's Voice: Charon, I'm busy right now.{n}Why are you calling me?"
+      }
+    },
+    "pseudo_astral_identity_053": {
+      "placeholders": {
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "……なぜ、{last_name}がそこにいる！？{n}無間地獄を抜け出して来たのか？",
+        "translation": "...Why is {last_name} there!?{n}He escaped Avici Hell?"
+      }
+    },
+    "pseudo_astral_identity_054": {
+      "text": {
+        "reference": "カロン：ところで、おまえはまだ自分の身体{n}に戻れないのか？",
+        "translation": "Charon: Tell me, have you still not managed{n}to return to your body?"
+      }
+    },
+    "pseudo_astral_identity_055": {
+      "text": {
+        "reference": "キョウジの声：うるさい、もう少しだ。{n}もう少しなんだ。もう少しで、おれは、{n}おれの身体を取り戻せる。",
+        "translation": "Kyouji's Voice: Shut up. I'm almost there.{n}Just a little longer. Just a little longer,{n}and I'll have my body back."
+      }
+    },
+    "pseudo_astral_identity_056": {
+      "text": {
+        "reference": "カロン：いい加減にあきらめるのだ。{n}残念ながら、おまえの魂は身体と離れすぎて{n}しまった。もう、戻れまい。",
+        "translation": "Charon: Enough. Give it up.{n}Regrettably, your soul has been separated{n}from your body for too long. It can no longer return."
+      }
+    },
+    "pseudo_astral_identity_057": {
+      "text": {
+        "reference": "おまえは、本当に死んでしまったのだ。",
+        "translation": "You truly are dead."
+      }
+    },
+    "pseudo_astral_identity_058": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "ところで、{last_name}{first_name}の魂は、自力で{n}無間地獄を抜け出して来たぞ。",
+        "translation": "Meanwhile, {first_name} {last_name}'s soul{n}escaped Avici Hell by its own strength."
+      }
+    },
+    "pseudo_astral_identity_059": {
+      "text": {
+        "reference": "おまえは、この若造に自分の代わりなど{n}つとまらないと言っていたが、{n}あながち、そうとも言えないのではないか？",
+        "translation": "You said this youngster could never serve{n}as your replacement, but perhaps{n}you judged him too quickly."
+      }
+    },
+    "pseudo_astral_identity_060": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "おまえが、元に戻れない以上、{last_name}{first_name}{n}の魂に、後を任せるしかないのではないか？",
+        "translation": "Since you cannot return, have you any choice{n}but to entrust what comes next{n}to {first_name} {last_name}'s soul?"
+      }
+    },
+    "pseudo_astral_identity_061": {
+      "text": {
+        "reference": "キョウジの声：……………………",
+        "translation": "Kyouji's Voice: ..."
+      }
+    },
+    "pseudo_astral_identity_062": {
+      "text": {
+        "reference": "カロン：黙っているところを見ると、自分が{n}元に戻れぬことを、思い知らされたようだな",
+        "translation": "Charon: Your silence tells me{n}you finally understand that you cannot return."
+      }
+    },
+    "pseudo_astral_identity_063": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "では、{last_name}{first_name}よ、葛葉キョウジの身体{n}に向かい、現世へと戻るがよい。",
+        "translation": "Then go, {first_name} {last_name}.{n}Return to the human world{n}and enter Kyouji Kuzunoha's body."
+      }
+    },
+    "pseudo_astral_identity_064": {
+      "text": {
+        "reference": "カロン：そなたに、三途の川を逆に渡らせる{n}わけにはいかん。無間地獄へと戻るがよい。",
+        "translation": "Charon: I cannot allow you to cross{n}the River Styx in reverse.{n}Return to Avici Hell."
+      }
+    },
+    "pseudo_astral_identity_065": {
+      "text": {
+        "reference": "レイ：……キョウジ……キョウジ！",
+        "translation": "Rei: ...Kyouji... Kyouji!"
+      }
+    },
+    "pseudo_astral_identity_066": {
+      "text": {
+        "reference": "気がついたのね。よかった……。",
+        "translation": "You're awake. Thank goodness..."
+      }
+    },
+    "pseudo_astral_identity_067": {
+      "text": {
+        "reference": "あんたが、擬似アストラル界へ{n}向かってから、いろんなことが起こったわ。",
+        "translation": "All kinds of things happened{n}after you left for the Pseudo-Astral Plane."
+      }
+    },
+    "pseudo_astral_identity_068": {
+      "text": {
+        "reference": "秦野久美子は、どこかへ行ってしまったわ。{n}まるで、何かに取りつかれたようにね。",
+        "translation": "Kumiko Hatano went off somewhere.{n}It was as if something had possessed her."
+      }
+    },
+    "pseudo_astral_identity_069": {
+      "text": {
+        "reference": "あんたが突然、うなされだしたんで{n}ビックリしたわ。最初は、コインロッカーが{n}どうとか、小声でつぶやいていたのよ。",
+        "translation": "You suddenly started groaning in your sleep,{n}and it scared me. At first, you just muttered{n}something about a coin locker."
+      }
+    },
+    "pseudo_astral_identity_070": {
+      "text": {
+        "reference": "それがだんだん大声になって、{n}ずっと「おれは元に戻る、おれは元に戻る」{n}って言い続けていたわ。",
+        "translation": "Then you got louder and louder,{n}and kept shouting, \"I'm going back!{n}I'm going back!\""
+      }
+    },
+    "pseudo_astral_identity_071": {
+      "text": {
+        "reference": "大丈夫？立てる？{n}とにかく、あんたのオフィスに連れてくわ。",
+        "translation": "Are you all right? Can you stand?{n}Come on. I'm taking you back to your office."
+      }
+    },
+    "pseudo_astral_identity_072": {
+      "text": {
+        "reference": "レイ：まあ感謝してよね。{n}これで博物館の借りを返した、なんて{n}言うつもりはないけどね。",
+        "translation": "Rei: You'd better be grateful.{n}Not that I'm saying this settles my debt to you{n}from the museum."
+      }
+    },
+    "avici_hell_000": {
+      "text": {
+        "reference": "ガキ：また、誰か落ちて来たか。",
+        "translation": "Gaki: Someone else has fallen down here."
+      }
+    },
+    "avici_hell_001": {
+      "text": {
+        "reference": "ここは、無間地獄。{n}ここに落とされたら、もう出られない。",
+        "translation": "This is Avici Hell.{n}Once you fall in, there's no getting out."
+      }
+    },
+    "avici_hell_002": {
+      "text": {
+        "reference": "ガキ：おれは、元々人間だったんだよ～。{n}ずっとここに閉じこめられてたら、こんな姿{n}になっちまったんだよ。",
+        "translation": "Gaki: I used to be human, y'know~{n}After being trapped here so long,{n}I ended up looking like this."
+      }
+    },
+    "avici_hell_003": {
+      "text": {
+        "reference": "ガキ：私は、罪深い人間だったので、{n}無間地獄に落とされたのです。",
+        "translation": "Gaki: I was a sinful human,{n}so I was cast into Avici Hell."
+      }
+    },
+    "avici_hell_004": {
+      "text": {
+        "reference": "ガキ：ヒ～ホ～、ヒ～ホ～、迷路でヒ～ホ～{n}迷ってヒ～ホ～、ワ～プでヒ～ホ～。",
+        "translation": "Gaki: Hee-ho, hee-ho! A maze, hee-ho!{n}Get lost, hee-ho! Then warp, hee-ho!"
+      }
     }
   }
 }

@@ -1,0 +1,390 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "club_ezekiel_000": {
+      "text": {
+        "reference": "黒服：お客様の服装では、ご入場はお断わり{n}いたします。",
+        "translation": "Bouncer: We cannot admit you{n}in that attire."
+      }
+    },
+    "club_ezekiel_001": {
+      "text": {
+        "reference": "黒服：いらっしゃいませ。{n}クラブ・エゼキエルへようこそ。",
+        "translation": "Bouncer: Good evening.{n}Welcome to Club Ezekiel."
+      }
+    },
+    "club_ezekiel_002": {
+      "text": {
+        "reference": "常連客：キョウジさんじゃん、久しぶりィ。",
+        "translation": "Regular: Hey, Kyouji! Long time no see!"
+      }
+    },
+    "club_ezekiel_003": {
+      "text": {
+        "reference": "＞誰と話しますか？",
+        "translation": "> Who will you talk to?"
+      }
+    },
+    "club_ezekiel_004": {
+      "text": {
+        "reference": "＞まだ、誰かと話しますか？",
+        "translation": "> Talk to someone else?"
+      }
+    },
+    "club_ezekiel_005": {
+      "text": {
+        "reference": "ピンクワンピース女",
+        "translation": "Woman in Pink"
+      }
+    },
+    "club_ezekiel_006": {
+      "text": {
+        "reference": "ボブカット男",
+        "translation": "Bob-Cut Man"
+      }
+    },
+    "club_ezekiel_007": {
+      "text": {
+        "reference": "紫服の常連",
+        "translation": "Regular in Purple"
+      }
+    },
+    "club_ezekiel_008": {
+      "text": {
+        "reference": "レッグウォーマー女",
+        "translation": "Woman in Leg Warmers"
+      }
+    },
+    "club_ezekiel_009": {
+      "text": {
+        "reference": "ボーダーシャツ男",
+        "translation": "Man in Striped Shirt"
+      }
+    },
+    "club_ezekiel_010": {
+      "text": {
+        "reference": "青い服の女",
+        "translation": "Woman in Blue"
+      }
+    },
+    "club_ezekiel_011": {
+      "text": {
+        "reference": "ボブカット男：このごろ、矢来銀座に{n}活気がないよーな気がするぜぇ。{n}エゼキエルだけは、別だけどぉ。",
+        "translation": "Bob-Cut Man: Yarai Ginza's been{n}kinda dead lately, y'know?{n}Not Club Ezekiel, though."
+      }
+    },
+    "club_ezekiel_012": {
+      "text": {
+        "reference": "紫服の常連：キョウジさん、ひさびさだから{n}踊りかた忘れたのかい？ハハハハハ！",
+        "translation": "Regular in Purple: Been gone so long{n}you forgot how to dance, Kyouji? Hahahaha!"
+      }
+    },
+    "club_ezekiel_013": {
+      "text": {
+        "reference": "レッグウォーマー女：ねえねえ、あんた{n}探偵なんだって？{n}ピストル持ってるのぉ？",
+        "translation": "Woman in Leg Warmers: Hey, hey!{n}So you're a detective?{n}Do you carry a pistol?"
+      }
+    },
+    "club_ezekiel_014": {
+      "text": {
+        "reference": "青い服の女：頭の中を空っぽにして{n}踊るのって、楽しいわぁ！",
+        "translation": "Woman in Blue: It's so much fun to{n}empty your head and dance!"
+      }
+    },
+    "club_ezekiel_015": {
+      "text": {
+        "reference": "ピンクのワンピース女：あたし見たわよ、{n}朝日区の爆発事故。スゴかったわぁ。",
+        "translation": "Woman in Pink: I saw the explosion{n}in Asahi Ward. It was wild!"
+      }
+    },
+    "club_ezekiel_016": {
+      "text": {
+        "reference": "紫服の常連：キョウジさん、{n}百地にパクられたんだって？",
+        "translation": "Regular in Purple: Kyouji,{n}I heard Momochi busted you?"
+      }
+    },
+    "club_ezekiel_017": {
+      "text": {
+        "reference": "ヤなヤツだよね、あのオヤジ。",
+        "translation": "That old man's a real jerk."
+      }
+    },
+    "club_ezekiel_018": {
+      "text": {
+        "reference": "レッグウォーマー女：ねえねえ、探偵って{n}もうかるの？",
+        "translation": "Woman in Leg Warmers: Hey, hey,{n}does detective work pay well?"
+      }
+    },
+    "club_ezekiel_019": {
+      "text": {
+        "reference": "青い服の女：あたしたちは、踊ってストレス{n}解消するけどぉ、年寄りは身体動かないから{n}そうはいかないわよねぇ。",
+        "translation": "Woman in Blue: We dance our stress away,{n}but old people can't move like us,{n}so that won't work for them."
+      }
+    },
+    "club_ezekiel_020": {
+      "text": {
+        "reference": "せいぜい、散歩するぐらいね。{n}笠置山なんか、よく年寄りが歩いてるわ。",
+        "translation": "A walk's about all they can manage.{n}Lots of old people hike Mount Kasagi."
+      }
+    },
+    "club_ezekiel_021": {
+      "text": {
+        "reference": "うちの大学の教授で、そんな人がいたわ。{n}あら、あたし、こう見えても女子大生よ。{n}ホント。",
+        "translation": "One of my university professors did that.{n}Surprised? I'm a college student, you know.{n}Really!"
+      }
+    },
+    "club_ezekiel_022": {
+      "text": {
+        "reference": "ボブカット男：パソコン通信始めたんだぜ。{n}これで、おれもネットサーファーさ。",
+        "translation": "Bob-Cut Man: I got into computer communications.{n}Now I'm a net surfer, too."
+      }
+    },
+    "club_ezekiel_023": {
+      "text": {
+        "reference": "情報のゲットも、早いんだぜ。",
+        "translation": "I can get info fast, too."
+      }
+    },
+    "club_ezekiel_024": {
+      "text": {
+        "reference": "紫服の常連：変な事件が多くて、{n}キョウジさんも、忙しいんじゃないの？",
+        "translation": "Regular in Purple: With all these weird cases,{n}you must be busy too, Kyouji."
+      }
+    },
+    "club_ezekiel_025": {
+      "text": {
+        "reference": "事務所、お留守にしてダイジョウブ？",
+        "translation": "Is it okay to leave your office unattended?"
+      }
+    },
+    "club_ezekiel_026": {
+      "text": {
+        "reference": "ボーダーシャツ男：氷川神社をぶっ壊す工事{n}で、事故がやたら多くて、なんかのタタリ{n}じゃねぇかって、ダチが言ってたよ。",
+        "translation": "Man in Striped Shirt: The job tearing down{n}Hikawa Shrine has had tons of accidents.{n}My buddy says it's some kind of curse."
+      }
+    },
+    "club_ezekiel_027": {
+      "text": {
+        "reference": "青い服の女：ええっ、大学で封鎖騒ぎ？{n}知らないわぁ。",
+        "translation": "Woman in Blue: What? The university's sealed off?{n}I had no idea."
+      }
+    },
+    "club_ezekiel_028": {
+      "text": {
+        "reference": "あたし、しばらく行ってないからぁ。",
+        "translation": "I haven't been there in a while."
+      }
+    },
+    "club_ezekiel_029": {
+      "text": {
+        "reference": "ピンクのワンピース女：イイ男って{n}なかなかいないわねぇ。",
+        "translation": "Woman in Pink: Good men{n}are so hard to find."
+      }
+    },
+    "club_ezekiel_030": {
+      "text": {
+        "reference": "ボブカット男：DDS-NETで、{n}「レッドマン」ってヤツと知り合ったんだ。",
+        "translation": "Bob-Cut Man: On DDS-NET,{n}I met this guy called \"Redman.\""
+      }
+    },
+    "club_ezekiel_031": {
+      "text": {
+        "reference": "なんか変なヤツでさ、博物館が開いてないの{n}を、イカってんの。なんでNETには、{n}みょーなヤツばっかなの？",
+        "translation": "He's a real weirdo, furious that the museum{n}isn't open. Why's the NET full of{n}nothing but freaks?"
+      }
+    },
+    "club_ezekiel_032": {
+      "text": {
+        "reference": "紫服の常連：キョウジさん、最近おとなしく{n}なったって噂だね。前より丸くなったって{n}言ってるヤツもいるぜ。",
+        "translation": "Regular in Purple: Rumor says you've gotten{n}quiet lately, Kyouji. Some people say{n}you've mellowed out."
+      }
+    },
+    "club_ezekiel_033": {
+      "text": {
+        "reference": "どうしたんだよ？{n}キョウジさんには、タフでクールに{n}キメててほしいぜ。",
+        "translation": "What happened?{n}I want you to keep acting tough and cool,{n}Kyouji."
+      }
+    },
+    "club_ezekiel_034": {
+      "text": {
+        "reference": "レッグウォーマー女：ねえねえ、探偵さん？{n}お願いがあるの。あたしのゴロちゃん探して{n}くれない？",
+        "translation": "Woman in Leg Warmers: Hey, Detective?{n}I have a favor. Could you find{n}Goro for me?"
+      }
+    },
+    "club_ezekiel_035": {
+      "text": {
+        "reference": "ゴロちゃんはねぇ、オスの黒ネコでぇ、{n}足の先だけ白いの。先週の燃えないゴミの日{n}にいなくなっちゃたのよぉ。",
+        "translation": "Goro's a black tomcat.{n}Only the tips of his paws are white. He vanished{n}on non-burnable trash day last week."
+      }
+    },
+    "club_ezekiel_036": {
+      "text": {
+        "reference": "ボブカット男：「クレテイシャス」は、{n}会員制のクラブで中々入れない。{n}ネットサーファーのおれでも無理だぜ。",
+        "translation": "Bob-Cut Man: Cretaceous is a members-only club{n}that's nearly impossible to get into.{n}Even a net surfer like me can't manage it."
+      }
+    },
+    "club_ezekiel_037": {
+      "text": {
+        "reference": "どうすりゃ会員になれるんだ？",
+        "translation": "How do you even become a member?"
+      }
+    },
+    "club_ezekiel_038": {
+      "text": {
+        "reference": "紫服の常連：イヤな事件が多いからな。{n}踊って全てを忘れるぜ。",
+        "translation": "Regular in Purple: There've been too many nasty incidents.{n}I'll dance and forget them all."
+      }
+    },
+    "club_ezekiel_039": {
+      "text": {
+        "reference": "ボーダーシャツ男：ここは、イカすぜ。{n}ヒーホ……おっと。",
+        "translation": "Man in Striped Shirt: This place rocks.{n}Hee-ho... Whoops."
+      }
+    },
+    "club_ezekiel_040": {
+      "text": {
+        "reference": "やっぱ、ニンゲンはいいねぇ。{WAIT}{n}……こんど、ランタンも連れてきてやろう。",
+        "translation": "Being human really is great.{WAIT}{n}...Next time, I'll bring Lantern along."
+      }
+    },
+    "club_ezekiel_041": {
+      "text": {
+        "reference": "青い服の女：あたし、マダム銀子様に{n}会ったことがあるわよ。",
+        "translation": "Woman in Blue: I've actually met{n}Madame Ginko."
+      }
+    },
+    "club_ezekiel_042": {
+      "text": {
+        "reference": "あこがれちゃうわぁ、銀子様……。",
+        "translation": "I just idolize her..."
+      }
+    },
+    "club_ezekiel_043": {
+      "text": {
+        "reference": "ピンクのワンピース女：誰もいない所で、{n}何かの気配感じることない？",
+        "translation": "Woman in Pink: When nobody's around,{n}do you ever sense some kind of presence?"
+      }
+    },
+    "club_ezekiel_044": {
+      "text": {
+        "reference": "あたし霊感強いのよ。{n}ほら、あなたの横にも、何かいる。",
+        "translation": "I'm really psychic.{n}Look--there's something beside you, too."
+      }
+    },
+    "club_ezekiel_045": {
+      "text": {
+        "reference": "紫服の常連：中華街の秘密、おれ知ってるぜ{n}四川飯店のオヤジ、実は中華街を支配する{n}カゲのボスなんだぜ。",
+        "translation": "Regular in Purple: I know Chinatown's secret.{n}The old man at Sichuan Restaurant is really{n}the shadow boss who controls Chinatown."
+      }
+    },
+    "club_ezekiel_046": {
+      "text": {
+        "reference": "キョウジさん、おれ、探偵になれるかな？",
+        "translation": "Kyouji, think I could be a detective?"
+      }
+    },
+    "club_ezekiel_047": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "レッグウォーマー女：{city}警察って、{n}建物は立派だけど、役に立ってるのかしら？",
+        "translation": "Woman in Leg Warmers: The {city} Police{n}have a fancy building, but are they any use?"
+      }
+    },
+    "club_ezekiel_048": {
+      "text": {
+        "reference": "青い服の女：最近、中華街の店が全然{n}開いてないのよ。なんで？",
+        "translation": "Woman in Blue: None of the shops{n}in Chinatown have been open lately. Why?"
+      }
+    },
+    "club_ezekiel_049": {
+      "text": {
+        "reference": "ピンクのワンピース女：何かの気配が{n}どんどん強くなってるのよ！{n}ここにも、ほら、あそこにも！",
+        "translation": "Woman in Pink: That presence is getting{n}stronger and stronger!{n}It's here--and over there, too!"
+      }
+    },
+    "club_ezekiel_050": {
+      "text": {
+        "reference": "紫服の常連：なんだ、あのピンク女？{n}キョウジさんが来たら、急に騒ぎ出して。",
+        "translation": "Regular in Purple: What's with the woman in pink?{n}She started making a scene when you came in, Kyouji."
+      }
+    },
+    "club_ezekiel_051": {
+      "text": {
+        "reference": "ボーダーシャツ男：ふん、確かにフロストの{n}言うとおり、こいつの身体には、入りこみ{n}やすかったな。",
+        "translation": "Man in Striped Shirt: Hmph. Frost was right.{n}This body really was easy{n}to slip into."
+      }
+    },
+    "club_ezekiel_052": {
+      "text": {
+        "reference": "青い服の女：ヒバリが丘の天堂組会長の屋敷{n}が、様子が変らしいのよ。",
+        "translation": "Woman in Blue: Something seems off at the mansion{n}of the Tendou-gumi boss in Hibarigaoka."
+      }
+    },
+    "club_ezekiel_053": {
+      "text": {
+        "reference": "あたしの友だちが、近くでゾンビを見たって{n}言ってたわ。",
+        "translation": "A friend of mine said they saw a zombie{n}nearby."
+      }
+    },
+    "club_ezekiel_054": {
+      "text": {
+        "reference": "ボブカット男：天堂組の会長が死んだらしい{n}これで天堂組は解散か、って言われてるぜ。",
+        "translation": "Bob-Cut Man: I hear the Tendou-gumi boss died.{n}People say the gang might break up now."
+      }
+    },
+    "club_ezekiel_055": {
+      "text": {
+        "reference": "紫服の常連：おれ、天堂組のチンピラに{n}ヒドイ目に合わされたことがあるよ。{n}たしか、タカシってヤツだったな。",
+        "translation": "Regular in Purple: A Tendou-gumi punk once{n}gave me a real hard time.{n}Think his name was Takashi."
+      }
+    },
+    "club_ezekiel_056": {
+      "text": {
+        "reference": "レッグウォーマー女：新市庁舎って立派よね{n}でも、あんな高いビル、ホントに必要なの？",
+        "translation": "Woman in Leg Warmers: The new City Hall is impressive.{n}But do we really need a building that tall?"
+      }
+    },
+    "club_ezekiel_057": {
+      "text": {
+        "reference": "青い服の女：秦野久美子？知ってるわ。{n}ヒバリが丘に住んでるお嬢様でしょ。",
+        "translation": "Woman in Blue: Kumiko Hatano? Sure, I know her.{n}She's that rich girl in Hibarigaoka, right?"
+      }
+    },
+    "club_ezekiel_058": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "ピンクのワンピース女：{city}全体が、{n}何かにおおわれているみたいよ。{n}もう、どうしようもないわ！！",
+        "translation": "Woman in Pink: It feels like all of {city}{n}is covered by something.{n}There's nothing we can do anymore!!"
+      }
+    },
+    "club_ezekiel_059": {
+      "text": {
+        "reference": "ボブカット男：最近NETで「レッドマン」{n}を見かけないんだ。",
+        "translation": "Bob-Cut Man: I haven't seen \"Redman\"{n}on the NET lately."
+      }
+    },
+    "club_ezekiel_060": {
+      "text": {
+        "reference": "紫服の常連：キョウジさん、元気ィ？{n}おれは元気元気、きょうもごキゲンさぁ。",
+        "translation": "Regular in Purple: How've you been, Kyouji?{n}Me? Great, great! Feeling good today, too."
+      }
+    },
+    "club_ezekiel_061": {
+      "text": {
+        "reference": "青い服の女：秦野久美子って、{n}男の趣味よくないわね。",
+        "translation": "Woman in Blue: Kumiko Hatano has{n}terrible taste in men."
+      }
+    },
+    "club_ezekiel_062": {
+      "text": {
+        "reference": "前に、臨海公園でダサい男と歩いてるの{n}見たけど、今度は中央区で、黒づくめの{n}怪しい男と歩いてたわ。",
+        "translation": "I once saw her walking with some dork{n}at Rinkai Park. This time, she was in Chuo Ward{n}with a suspicious man dressed all in black."
+      }
+    }
+  }
+}

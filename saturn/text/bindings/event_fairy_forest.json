@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "asset": "events/fairy_forest.json",
+  "records": {
+    "game.evfile_1.m0209.p00": "fairy_forest_exchange_000.text",
+    "game.evfile_1.m0210.p00": "fairy_forest_exchange_001.text",
+    "game.evfile_1.m0210.p01": "fairy_forest_exchange_002.text",
+    "game.evfile_1.m0210.p02": "fairy_forest_exchange_003.text",
+    "game.evfile_1.m0210.p03": "fairy_forest_exchange_004.text",
+    "game.evfile_1.m0210.p04": "fairy_forest_exchange_005.text",
+    "game.evfile_1.m0211.p00": "fairy_forest_exchange_006.text",
+    "game.evfile_1.m0211.p01": "fairy_forest_exchange_007.text",
+    "game.evfile_1.m0212.p00": "fairy_forest_exchange_008.text",
+    "game.evfile_1.m0212.p01": "fairy_forest_exchange_009.text",
+    "game.evfile_1.m0213.p00": "fairy_forest_exchange_010.text",
+    "game.evfile_1.m0214.p00": "fairy_forest_exchange_011.text",
+    "game.evfile_1.m0215.p00": "fairy_forest_exchange_012.text",
+    "game.evfile_1.m0215.p01": "fairy_forest_exchange_013.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

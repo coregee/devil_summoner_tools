@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "asset": "events/kumiko_home.json",
+  "records": {
+    "game.evfile_1.m0017.p00": "hibarigaoka_neighborhood_000.text",
+    "game.evfile_1.m0018.p00": "hibarigaoka_neighborhood_001.text",
+    "game.evfile_1.m0019.p00": "kashiyama_apartment_ghost_000.text",
+    "game.evfile_1.m0019.p01": "kashiyama_apartment_ghost_001.text",
+    "game.evfile_1.m0020.p00": "kashiyama_apartment_ghost_002.text",
+    "game.evfile_1.m0021.p00": "kashiyama_apartment_ghost_003.text",
+    "game.evfile_1.m0022.p00": "kumiko_abduction_000.text",
+    "game.evfile_1.m0022.p01": "kumiko_abduction_001.text",
+    "game.evfile_1.m0022.p02": "kumiko_abduction_002.text",
+    "game.evfile_1.m0022.p03": "kumiko_abduction_003.text",
+    "game.evfile_1.m0022.p04": "kumiko_abduction_004.text",
+    "game.evfile_1.m0023.p00": "kumiko_abduction_005.text",
+    "game.evfile_1.m0024.p00": "kumiko_abduction_006.text",
+    "game.evfile_1.m0025.p00": "kumiko_abduction_007.text",
+    "game.evfile_1.m0026.p00": "kumiko_abduction_008.text",
+    "game.evfile_1.m0027.p00": "kumiko_abduction_009.text",
+    "game.evfile_1.m0028.p00": "kumiko_abduction_010.text",
+    "game.evfile_1.m0029.p00": "kumiko_abduction_011.text",
+    "game.evfile_1.m0030.p00": "kumiko_abduction_012.text",
+    "game.evfile_1.m0031.p00": "kumiko_abduction_013.text",
+    "game.evfile_1.m0031.p01": "kumiko_abduction_014.text",
+    "game.evfile_1.m0032.p00": "kumiko_abduction_015.text",
+    "game.evfile_1.m0033.p00": "kumiko_abduction_016.text",
+    "game.evfile_1.m0033.p01": "kumiko_abduction_017.text",
+    "game.evfile_1.m0033.p02": "kumiko_abduction_018.text",
+    "game.evfile_1.m0034.p00": "kumiko_abduction_019.text",
+    "game.evfile_1.m0035.p00": "kumiko_home_visits_000.text",
+    "game.evfile_1.m0036.p00": "kumiko_home_visits_001.text",
+    "game.evfile_1.m0037.p00": "kumiko_home_visits_002.text",
+    "game.evfile_1.m0040.p00": "kumiko_home_visits_003.text",
+    "game.evfile_1.m0040.p01": "kumiko_home_visits_004.text",
+    "game.evfile_1.m0040.p02": "kumiko_home_visits_005.text",
+    "game.evfile_1.m0041.p00": "kumiko_home_visits_006.text",
+    "game.evfile_1.m0042.p00": "kumiko_home_visits_007.text",
+    "game.evfile_1.m0043.p00": "kumiko_home_visits_008.text",
+    "game.evfile_1.m0043.p01": "kumiko_home_visits_009.text",
+    "game.evfile_1.m0043.p02": "kumiko_home_visits_010.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

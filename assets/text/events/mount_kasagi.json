@@ -1,0 +1,303 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "mount_kasagi_truth_000": {
+      "text": {
+        "reference": "山歩き愛好家：笠置山は、山歩きにちょうど{n}いいので、気に入ってるんだ。",
+        "translation": "Hiking Enthusiast: Mount Kasagi is perfect{n}for hiking. That's why I like it."
+      }
+    },
+    "mount_kasagi_truth_001": {
+      "text": {
+        "reference": "でも、近ごろ山の奥に行けないんだ。{n}道に迷うはずも、道順を忘れるはずも{n}ないんだが……",
+        "translation": "But lately, I can't go deep into the mountain.{n}There's no way I'd lose the trail{n}or forget the route..."
+      }
+    },
+    "mount_kasagi_truth_002": {
+      "text": {
+        "reference": "山歩き愛好家：山に入っちゃいけない。{n}これ以上奥に入ると、本当に迷って{n}出られなくなる。",
+        "translation": "Hiking Enthusiast: Don't go into the mountain.{n}Any farther in, and you'll truly get lost{n}and never find your way out."
+      }
+    },
+    "mount_kasagi_truth_003": {
+      "text": {
+        "reference": "山全体の様子がおかしいんだ。",
+        "translation": "Something is wrong with the whole mountain."
+      }
+    },
+    "mount_kasagi_truth_004": {
+      "text": {
+        "reference": "吾妻教授：葛葉くんか。私は、当分ここに{n}かくれているつもりだ……。",
+        "translation": "Professor Azuma: Kuzunoha? I intend to remain{n}hidden here for a while..."
+      }
+    },
+    "mount_kasagi_truth_005": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "ところで、{city}にかくされていた{n}真実の話をまた聞きたいのかね？",
+        "translation": "By the way, do you want to hear again about{n}the truth concealed in {city}?"
+      }
+    },
+    "mount_kasagi_truth_006": {
+      "text": {
+        "reference": "吾妻教授：だっ、誰だ！？",
+        "translation": "Professor Azuma: W-Who's there?!"
+      }
+    },
+    "mount_kasagi_truth_007": {
+      "text": {
+        "reference": "……た、頼む。命だけは、命だけは、{n}助けてくれ。私には、やり残した研究が{n}まだまだたくさんあるんだ。",
+        "translation": "...P-Please. Spare my life, just my life.{n}I still have so much research left{n}unfinished."
+      }
+    },
+    "mount_kasagi_truth_008": {
+      "text": {
+        "reference": "お、おねがいだ……命だけは……。{n}き、君は、探偵の葛葉くんじゃないか！？{n}生きていたのか。",
+        "translation": "P-Please... Spare me...{n}W-Wait, aren't you Detective Kuzunoha?!{n}You're alive!"
+      }
+    },
+    "mount_kasagi_truth_009": {
+      "text": {
+        "reference": "まさか、君が生きていたとは……、{n}よかった……。",
+        "translation": "I never imagined you could still be alive...{n}Thank goodness..."
+      }
+    },
+    "mount_kasagi_truth_010": {
+      "text": {
+        "reference": "君が殺されたと聞いて、怖くなって{n}すぐに身をかくしたんだよ。",
+        "translation": "When I heard you'd been murdered, I panicked{n}and immediately went into hiding."
+      }
+    },
+    "mount_kasagi_truth_011": {
+      "text": {
+        "reference": "君に、私のボディガードを依頼しておいて{n}何の知らせもせず、すまなかった。{n}だが、君が殺されたと思いこんでいたので",
+        "translation": "I hired you as my bodyguard, then vanished{n}without a word. I apologize.{n}But I was certain you had been killed, so..."
+      }
+    },
+    "mount_kasagi_truth_012": {
+      "text": {
+        "reference": "次は、自分の番だと思い、{n}ずっと逃げ回っていたんだ。",
+        "translation": "I thought I would be next,{n}and have been on the run ever since."
+      }
+    },
+    "mount_kasagi_truth_013": {
+      "text": {
+        "reference": "君が約束通り、私の家に来てくれても{n}ずっと留守にしていて、すまなかった。",
+        "translation": "Even though you came to my house as promised,{n}I was gone. I am sorry."
+      }
+    },
+    "mount_kasagi_truth_014": {
+      "text": {
+        "reference": "レイ：でも、先生。自分の家にいたら{n}命はなかったわよ。",
+        "translation": "Rei: But Professor, if you'd stayed home,{n}you'd be dead now."
+      }
+    },
+    "mount_kasagi_truth_015": {
+      "text": {
+        "reference": "先生のボロ家は、あとかたもなく{n}爆破されちゃったから。",
+        "translation": "That rundown house of yours{n}was completely blown to pieces."
+      }
+    },
+    "mount_kasagi_truth_016": {
+      "text": {
+        "reference": "吾妻教授：な、なんだって！？",
+        "translation": "Professor Azuma: W-What?!"
+      }
+    },
+    "mount_kasagi_truth_017": {
+      "text": {
+        "reference": "あ、あの家には……私が集めた……、{n}貴重な古文書……まだ未研究のものが、{n}まだ手もつけていない……。",
+        "translation": "A-All those precious ancient manuscripts{n}I'd collected... So many still unstudied,{n}so many I had not even touched..."
+      }
+    },
+    "mount_kasagi_truth_018": {
+      "text": {
+        "reference": "私の命の次に大切な……ああ……、{n}なんてことだ……。",
+        "translation": "Second only to my own life... Oh...{n}How could this happen...?"
+      }
+    },
+    "mount_kasagi_truth_019": {
+      "text": {
+        "reference": "レイ：まあ、命までなくしたら研究どころ{n}じゃないんだから……。",
+        "translation": "Rei: Well, you couldn't exactly keep researching{n}if you'd lost your life, too..."
+      }
+    },
+    "mount_kasagi_truth_020": {
+      "text": {
+        "reference": "吾妻教授：そうだ！！今のうちに{n}君たちへ話しておこう。私の長年の研究から{n}わかった真実を！！",
+        "translation": "Professor Azuma: That's it!! While I still can,{n}I must tell you the truth that my many years{n}of research have uncovered!!"
+      }
+    },
+    "mount_kasagi_truth_021": {
+      "text": {
+        "reference": "私が死んでしまったら、{n}誰にも知られずに、真実は失われ、{n}私の研究は、すべて無に帰してしまう。",
+        "translation": "If I die,{n}the truth will vanish without anyone knowing,{n}and all my research will come to nothing."
+      }
+    },
+    "mount_kasagi_truth_022": {
+      "text": {
+        "reference": "私がこの世に、{n}生を受けた意味が、生を成した意義が、{n}すべて失われてしまう。",
+        "translation": "The meaning of my birth into this world,{n}the significance of the life I have led--{n}all of it will be lost."
+      }
+    },
+    "mount_kasagi_truth_023": {
+      "text": {
+        "reference": "葛葉くん、レイくん、聞いてくれたまえ。",
+        "translation": "Kuzunoha, Rei, listen carefully."
+      }
+    },
+    "mount_kasagi_truth_024": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "この、{city}市一帯には、今まで知られて{n}いなかった、古代史上の事件があったのだ。",
+        "translation": "Across the area now known as {city},{n}an event occurred in ancient history that remains unknown."
+      }
+    },
+    "mount_kasagi_truth_025": {
+      "text": {
+        "reference": "古代日本において、大和王朝による統一が{n}進んでいたころ、各地に存在していた国々は{n}2つの選択を突きつけられていた。",
+        "translation": "As the Yamato Court unified ancient Japan,{n}the many states throughout the land{n}were confronted with two choices."
+      }
+    },
+    "mount_kasagi_truth_026": {
+      "text": {
+        "reference": "すなわち、大和王朝の強大な武力の前に{n}戦わずして服従し、生き長らえるか。",
+        "translation": "Submit without a fight before Yamato's{n}overwhelming military power, and survive."
+      }
+    },
+    "mount_kasagi_truth_027": {
+      "text": {
+        "reference": "あるいは、屈することをいさぎよしとせず、{n}最後の一人まで、戦いぬいて滅びるか。",
+        "translation": "Or refuse the disgrace of submission,{n}fight to the last person, and perish."
+      }
+    },
+    "mount_kasagi_truth_028": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "{city}の地には、戦うことを選択した{n}小さな国があった。",
+        "translation": "Here in {city}, there was a small state{n}that chose to fight."
+      }
+    },
+    "mount_kasagi_truth_029": {
+      "text": {
+        "reference": "この国を開いたのは、大陸からやって来た{n}秦氏の一部だとも、伝えられている。",
+        "translation": "Tradition says it was founded by a branch{n}of the Hata clan that came from the continent."
+      }
+    },
+    "mount_kasagi_truth_030": {
+      "text": {
+        "reference": "この名も知らぬ国こそ、私が説いた古代に{n}存在した魔法の国だったのだ。{n}その力によって、大軍を苦しめたらしい。",
+        "translation": "This nameless state was the land of magic{n}I argued had existed in ancient times.{n}Its power apparently tormented the vast army."
+      }
+    },
+    "mount_kasagi_truth_031": {
+      "text": {
+        "reference": "使ったのは、魔法ばかりではなく{n}後の世に言う、悪魔を使い戦わせていた。",
+        "translation": "They also commanded what later ages called demons{n}and sent them into battle."
+      }
+    },
+    "mount_kasagi_truth_032": {
+      "text": {
+        "reference": "さらに、驚くべきことには、{n}自分たちで悪魔を造り出していた、{n}というのだ。",
+        "translation": "More astonishing still,{n}they are said to have created demons{n}with their own hands."
+      }
+    },
+    "mount_kasagi_truth_033": {
+      "text": {
+        "reference": "……「日本古代文明論」を発表した時、{n}私は、あたかも正気ではないような言われ方{n}さえした。",
+        "translation": "...When I published \"Theories on Ancient Japanese{n}Civilization,\" they went so far as to claim{n}I was not in my right mind."
+      }
+    },
+    "mount_kasagi_truth_034": {
+      "text": {
+        "reference": "今、君たちに話している内容を公にしたら、{n}それこそ学会から追放されるだろうな……。",
+        "translation": "If I made public what I am telling you now,{n}the academic establishment would surely expel me..."
+      }
+    },
+    "mount_kasagi_truth_035": {
+      "text": {
+        "reference": "さて、大軍に囲まれ、国は最後を迎える。{n}そして、女王の娘である一人の姫が{n}とらわれの身となった。",
+        "translation": "At last, surrounded by the vast army,{n}the state met its end. One princess,{n}the queen's daughter, was taken captive."
+      }
+    },
+    "mount_kasagi_truth_036": {
+      "text": {
+        "reference": "姫は、言うもはばかられる無残な方法で{n}処刑された。",
+        "translation": "The princess was executed in a manner{n}too brutal to speak of."
+      }
+    },
+    "mount_kasagi_truth_037": {
+      "text": {
+        "reference": "だが、姫の無念の思いが怨霊として、{n}この地に残った。そのため、封印をほどこし{n}怨霊をしずめた、という。",
+        "translation": "But the princess's anguished resentment remained{n}in this land as a vengeful spirit. Seals were laid{n}to pacify it, so the account says."
+      }
+    },
+    "mount_kasagi_truth_038": {
+      "text": {
+        "reference": "私が知ったのは、ここまでだ。{n}この地に、ほどこされた封印について{n}調べようとした所で、身の危険を感じた。",
+        "translation": "That is all I learned. When I began investigating{n}the seals laid upon this land,{n}I sensed that my life was in danger."
+      }
+    },
+    "mount_kasagi_truth_039": {
+      "text": {
+        "reference": "だが、私のような異端の学者をねらって{n}どうしようというのだ。{n}さっぱりわからん……。",
+        "translation": "But what could anyone hope to gain{n}by targeting a heretical scholar like me?{n}I simply do not understand..."
+      }
+    },
+    "mount_kasagi_truth_040": {
+      "text": {
+        "reference": "封印については、メモを残しておいたが、{n}今、手元にないので思い出せない。",
+        "translation": "I left myself a note about the seals,{n}but without it here, I cannot remember the details."
+      }
+    },
+    "mount_kasagi_truth_041": {
+      "text": {
+        "reference": "メモは確か、私の「日本古代文明論」の本に{n}はさんでおいたはずだが……そのまま、{n}図書館に返してしまったかもしれん。",
+        "translation": "I believe I tucked it inside a copy of my{n}\"Theories on Ancient Japanese Civilization\"...{n}But I may have returned it to the library that way."
+      }
+    },
+    "mount_kasagi_truth_042": {
+      "text": {
+        "reference": "私の本は、異端扱いされたあげく{n}すぐ絶版になり、数が非常に少ない。{n}私でさえ、自分で持ってないほどだ。",
+        "translation": "My book was branded heresy and swiftly went{n}out of print, so very few copies exist.{n}Even I do not own one."
+      }
+    },
+    "mount_kasagi_truth_043": {
+      "text": {
+        "reference": "確か、私のゼミの学生……秦野久美子が{n}図書館から借りた、と言っていたが。",
+        "translation": "One of my seminar students, Kumiko Hatano,{n}said she had borrowed it from the library."
+      }
+    },
+    "mount_kasagi_truth_044": {
+      "text": {
+        "reference": "レイ：何、ぐずぐずしているのよ！？{n}次にねらわれるのは、その秦野って学生{n}でしょ。",
+        "translation": "Rei: What are you waiting for?!{n}That student Hatano will be{n}their next target, won't she?"
+      }
+    },
+    "mount_kasagi_truth_045": {
+      "text": {
+        "reference": "吾妻先生、秦野久美子の家はどこ？",
+        "translation": "Professor Azuma, where does Kumiko Hatano live?"
+      }
+    },
+    "mount_kasagi_truth_046": {
+      "text": {
+        "reference": "吾妻教授：確か、雲雀ヶ丘の高級住宅地に{n}住んでいたはず……。",
+        "translation": "Professor Azuma: If I recall, she lives{n}in Hibarigaoka's luxury residential district..."
+      }
+    },
+    "mount_kasagi_truth_047": {
+      "text": {
+        "reference": "レイ：さあ、雲雀ヶ丘に行くわよ。",
+        "translation": "Rei: Come on. We're going to Hibarigaoka."
+      }
+    }
+  }
+}

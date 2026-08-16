@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "asset": "events/city_hall.json",
+  "records": {
+    "game.evfile_1.m0141.p00": "city_hall_confrontation_000.text",
+    "game.evfile_1.m0142.p00": "city_hall_confrontation_001.text",
+    "game.evfile_1.m0142.p01": "city_hall_confrontation_002.text",
+    "game.evfile_1.m0142.p02": "city_hall_confrontation_003.text",
+    "game.evfile_1.m0142.p03": "city_hall_confrontation_004.text",
+    "game.evfile_1.m0142.p04": "city_hall_confrontation_005.text",
+    "game.evfile_1.m0142.p05": "city_hall_confrontation_006.text",
+    "game.evfile_1.m0142.p06": "city_hall_confrontation_007.text",
+    "game.evfile_1.m0143.p00": "city_hall_confrontation_008.text",
+    "game.evfile_1.m0143.p01": "city_hall_confrontation_009.text",
+    "game.evfile_1.m0144.p00": "city_hall_confrontation_010.text",
+    "game.evfile_1.m0145.p00": "city_hall_confrontation_011.text",
+    "game.evfile_1.m0146.p00": "city_hall_confrontation_012.text",
+    "game.evfile_1.m0146.p01": "city_hall_confrontation_013.text",
+    "game.evfile_1.m0147.p00": "city_hall_confrontation_014.text",
+    "game.evfile_1.m0147.p01": "city_hall_confrontation_015.text",
+    "game.evfile_1.m0147.p02": "city_hall_confrontation_016.text",
+    "game.evfile_1.m0148.p00": "city_hall_confrontation_017.text",
+    "game.evfile_1.m0148.p01": "city_hall_confrontation_018.text",
+    "game.evfile_1.m0149.p00": "city_hall_confrontation_019.text",
+    "game.evfile_1.m0149.p01": "city_hall_confrontation_020.text",
+    "game.evfile_1.m0150.p00": "city_hall_confrontation_021.text",
+    "game.evfile_1.m0150.p01": "city_hall_confrontation_022.text",
+    "game.evfile_1.m0151.p00": "city_hall_confrontation_023.text",
+    "game.evfile_1.m0152.p00": "city_hall_confrontation_024.text",
+    "game.evfile_1.m0152.p01": "city_hall_confrontation_025.text",
+    "game.evfile_1.m0153.p00": "city_hall_confrontation_026.text",
+    "game.evfile_1.m0154.p00": "city_hall_confrontation_027.text",
+    "game.evfile_1.m0154.p01": "city_hall_confrontation_028.text",
+    "game.evfile_1.m0155.p00": "city_hall_confrontation_029.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

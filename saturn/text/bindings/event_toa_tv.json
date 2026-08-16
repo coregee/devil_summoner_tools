@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "asset": "events/toa_tv.json",
+  "records": {
+    "game.evfile_1.m0091.p00": "toa_tv_orgone_ghost_000.text",
+    "game.evfile_1.m0092.p00": "toa_tv_orgone_ghost_001.text",
+    "game.evfile_1.m0092.p01": "toa_tv_orgone_ghost_002.text",
+    "game.evfile_1.m0092.p02": "toa_tv_orgone_ghost_003.text",
+    "game.evfile_1.m0092.p03": "toa_tv_orgone_ghost_004.text",
+    "game.evfile_1.m0093.p00": "toa_tv_orgone_ghost_005.text",
+    "game.evfile_1.m0093.p01": "toa_tv_orgone_ghost_006.text",
+    "game.evfile_1.m0093.p02": "toa_tv_orgone_ghost_004.text",
+    "game.evfile_1.m0093.p03": "toa_tv_orgone_ghost_007.text",
+    "game.evfile_1.m0094.p00": "toa_tv_orgone_ghost_008.text",
+    "game.evfile_1.m0095.p00": "toa_tv_orgone_ghost_009.text",
+    "game.evfile_1.m0096.p00": "toa_tv_orgone_ghost_010.text",
+    "game.evfile_1.m0097.p00": "toa_tv_orgone_ghost_011.text",
+    "game.evfile_1.m0098.p00": "toa_tv_orgone_ghost_012.text",
+    "game.evfile_1.m0099.p00": "toa_tv_orgone_ghost_013.text",
+    "game.evfile_1.m0099.p01": "toa_tv_orgone_ghost_014.text",
+    "game.evfile_1.m0100.p00": "toa_tv_orgone_ghost_015.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

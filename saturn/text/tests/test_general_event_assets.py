@@ -33,6 +33,24 @@ ASSET_FILENAMES = (
     "yatou_building.json",
 )
 
+BANK_1_NEW_ASSET_FILENAMES = (
+    "ancient_tomb.json",
+    "chinatown.json",
+    "city_hall.json",
+    "city_museum.json",
+    "club_cretaceous.json",
+    "club_ezekiel.json",
+    "fairy_forest.json",
+    "ginza_arcade.json",
+    "hikawa_shrine.json",
+    "kumiko_home.json",
+    "mount_kasagi.json",
+    "police_station.json",
+    "tendou_mansion.json",
+    "toa_tv.json",
+    "us_base.json",
+)
+
 CURRENCY_PAGES = {
     "game.evfile_0.m0235.p04",
     "game.evfile_0.m0290.p01",
@@ -73,6 +91,8 @@ class GeneralEventAssetTests(unittest.TestCase):
         owners: dict[str, str] = {}
         for binding in (*self.bindings, self.profile_binding):
             for physical_id, asset_ref in binding.records.items():
+                if not physical_id.startswith("game.evfile_0."):
+                    continue
                 self.assertNotIn(physical_id, owners)
                 owners[physical_id] = f"{binding.asset.as_posix()}#{asset_ref}"
         self.assertEqual(set(owners), expected)
@@ -80,19 +100,22 @@ class GeneralEventAssetTests(unittest.TestCase):
         self.assertEqual(len(owners) - len(set(owners.values())), 55)
 
     def test_event_assets_are_semantic_and_preserve_mature_text_state(self) -> None:
-        self.assertEqual(
-            sum(len(asset.entries) for asset in self.assets.values()), 693
-        )
+        asset_refs = {
+            (binding.asset.name, asset_ref)
+            for binding in self.bindings
+            for physical_id, asset_ref in binding.records.items()
+            if physical_id.startswith("game.evfile_0.")
+        }
+        self.assertEqual(len(asset_refs), 693)
         notes = []
-        for filename, asset in self.assets.items():
+        for filename, asset_ref in asset_refs:
             self.assertNotIn("evfile", filename)
-            for entry in asset.entries.values():
-                field = entry.fields["text"]
-                self.assertTrue(field.reference)
-                self.assertTrue(field.translation)
-                self.assertFalse(field.reviewed)
-                if field.note is not None:
-                    notes.append(field.note)
+            field = self.assets[filename].field(asset_ref)
+            self.assertTrue(field.reference)
+            self.assertTrue(field.translation)
+            self.assertFalse(field.reviewed)
+            if field.note is not None:
+                notes.append(field.note)
         self.assertEqual(len(notes), 3)
 
         for binding in self.bindings:
@@ -139,6 +162,112 @@ class GeneralEventAssetTests(unittest.TestCase):
         self.assertEqual(
             set(groups), {f"game.evfile_0.m{index:04d}" for index in range(465)}
         )
+
+
+class SecondGeneralEventBankTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls) -> None:
+        cls.bindings = [
+            load_binding(path)
+            for path in sorted(BINDING_ROOT.glob("event_*.json"))
+        ]
+        cls.assets = {
+            binding.asset.as_posix(): load_asset(binding.asset)
+            for binding in cls.bindings
+        }
+
+    def uses_for_bank(self, bank: int) -> dict[str, str]:
+        prefix = f"game.evfile_{bank}."
+        uses = {}
+        for binding in self.bindings:
+            for physical_id, asset_ref in binding.records.items():
+                if not physical_id.startswith(prefix):
+                    continue
+                self.assertNotIn(physical_id, uses)
+                uses[physical_id] = f"{binding.asset.as_posix()}#{asset_ref}"
+        return uses
+
+    def test_second_bank_has_complete_semantic_ownership(self) -> None:
+        physical_rows = json.loads(
+            (TEXT_ROOT / "corpus" / "game" / "eve" / "evfile_1.json")
+            .read_text(encoding="utf-8")
+        )
+        expected = {row["id"] for row in physical_rows}
+        uses = self.uses_for_bank(1)
+        self.assertEqual(len(expected), 602)
+        self.assertEqual(set(uses), expected)
+        self.assertEqual(len(set(uses.values())), 585)
+        self.assertEqual(len(uses) - len(set(uses.values())), 17)
+
+        first_bank_uses = self.uses_for_bank(0)
+        self.assertEqual(
+            len(set(first_bank_uses.values()) & set(uses.values())), 13
+        )
+        self.assertEqual(
+            len(set(first_bank_uses.values()) | set(uses.values())), 1265
+        )
+
+    def test_second_bank_assets_preserve_editable_mature_output(self) -> None:
+        uses = self.uses_for_bank(1)
+        notes = set()
+        for qualified_ref in set(uses.values()):
+            asset_path, asset_ref = qualified_ref.split("#", 1)
+            self.assertNotIn("evfile", asset_path)
+            field = self.assets[asset_path].field(asset_ref)
+            self.assertTrue(field.reference)
+            self.assertTrue(field.translation)
+            self.assertFalse(field.reviewed)
+            if field.note is not None:
+                notes.add(field.note)
+        self.assertEqual(len(notes), 3)
+
+        for filename in BANK_1_NEW_ASSET_FILENAMES:
+            self.assertIn(f"events/{filename}", self.assets)
+
+    def test_second_bank_visible_glyphs_are_explicitly_authored(self) -> None:
+        yen_pages = {
+            "game.evfile_1.m0102.p04",
+            "game.evfile_1.m0117.p04",
+            "game.evfile_1.m0125.p00",
+            "game.evfile_1.m0196.p00",
+        }
+        uses = self.uses_for_bank(1)
+        for physical_id in yen_pages:
+            asset_path, asset_ref = uses[physical_id].split("#", 1)
+            field = self.assets[asset_path].field(asset_ref)
+            self.assertIn("{yen_symbol}", field.reference)
+            self.assertIn("{yen_symbol}", field.translation)
+
+        dash_path, dash_ref = uses[
+            "game.evfile_1.m0272.p00"
+        ].split("#", 1)
+        dash = self.assets[dash_path].field(dash_ref)
+        self.assertIn("DDS-NET", dash.reference)
+        self.assertNotIn("GLYPH", dash.reference)
+
+    def test_every_text_bearing_message_has_one_curated_scene(self) -> None:
+        rows = json.loads(
+            (TEXT_ROOT / "corpus" / "game" / "eve" / "evfile_1.json")
+            .read_text(encoding="utf-8")
+        )
+        expected_groups = {
+            row["id"].rsplit(".p", 1)[0]
+            for row in rows
+        }
+        scenes = json.loads(
+            (TEXT_ROOT / "config" / "event_scenes.json").read_text(
+                encoding="utf-8"
+            )
+        )["scenes"]
+        groups = [
+            group
+            for scene in scenes.values()
+            for group in scene["physical_groups"]
+            if group.startswith("game.evfile_1.")
+        ]
+        self.assertEqual(len(expected_groups), 327)
+        self.assertEqual(len(groups), len(set(groups)))
+        self.assertEqual(set(groups), expected_groups)
 
 
 if __name__ == "__main__":

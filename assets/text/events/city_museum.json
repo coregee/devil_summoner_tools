@@ -1,0 +1,347 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "city_museum_collection_000": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "＞{city}市立博物館",
+        "translation": "> {city} City Museum"
+      }
+    },
+    "city_museum_collection_001": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "＞「閉館中」{n}{city}市立博物館",
+        "translation": "> \"CLOSED\"{n}{city} City Museum"
+      }
+    },
+    "city_museum_collection_002": {
+      "text": {
+        "reference": "セキュリティがかかっていて、{n}入り口は、開きそうにない。",
+        "translation": "The entrance is locked by the security system{n}and does not look as though it will open."
+      }
+    },
+    "city_museum_collection_003": {
+      "text": {
+        "reference": "久美子：こっちは、博物館よ。{n}図書館は、向かいの海側の建物でしょう。",
+        "translation": "Kumiko: This is the museum.{n}The library is the building across from it,{n}toward the sea.",
+        "note": "Stale, out-of-sequence navigation text; translated literally rather than silently reconciling it with the active route."
+      }
+    },
+    "city_museum_collection_004": {
+      "text": {
+        "reference": "久美子：わたし、学校へ行く用があるの。{n}笠置山に行きましょ。",
+        "translation": "Kumiko: I have business at school.{n}Let's go to Mount Kasagi.",
+        "note": "Stale, out-of-sequence navigation text. The source itself pairs school business with Mount Kasagi; the apparent contradiction is retained literally."
+      }
+    },
+    "city_museum_collection_005": {
+      "text": {
+        "reference": "＞博物館の所蔵品が展示されていたが、{n}持ち去られた。",
+        "translation": "> A piece from the museum's collection was here,{n}but has been taken."
+      }
+    },
+    "city_museum_collection_006": {
+      "placeholders": {
+        "item_name": "item_name"
+      },
+      "text": {
+        "reference": "＞博物館の所蔵品、{item_name}{n}が展示されている。",
+        "translation": "> {item_name}, from the museum collection,{n}is on display."
+      }
+    },
+    "city_museum_collection_007": {
+      "text": {
+        "reference": "展示されている物を取りますか？",
+        "translation": "Take the item on display?"
+      }
+    },
+    "city_museum_collection_008": {
+      "placeholders": {
+        "item_name": "item_name"
+      },
+      "text": {
+        "reference": "{item_name}を手に入れた。",
+        "translation": "Obtained {item_name}."
+      }
+    },
+    "city_museum_collection_009": {
+      "text": {
+        "reference": "アイテムが一杯なので、何か捨てなければ{n}手に入れられない。",
+        "translation": "Your inventory is full. You must discard something{n}before you can take it."
+      }
+    },
+    "city_museum_collection_010": {
+      "text": {
+        "reference": "珍しいツボを手に入れた。",
+        "translation": "Obtained Rare Vase."
+      }
+    },
+    "city_museum_collection_011": {
+      "text": {
+        "reference": "美しい絵を手に入れた。",
+        "translation": "Obtained Beautiful Painting."
+      }
+    },
+    "city_museum_collection_012": {
+      "text": {
+        "reference": "高価な像を手に入れた。",
+        "translation": "Obtained Valuable Statue."
+      }
+    },
+    "city_museum_collection_013": {
+      "text": {
+        "reference": "＞博物館の所蔵品、珍しいツボが{n}展示されている。",
+        "translation": "> A Rare Vase from the museum collection{n}is on display."
+      }
+    },
+    "city_museum_collection_014": {
+      "text": {
+        "reference": "＞博物館の所蔵品、美しい絵が{n}展示されている。",
+        "translation": "> A Beautiful Painting from the museum collection{n}is on display."
+      }
+    },
+    "city_museum_collection_015": {
+      "text": {
+        "reference": "＞博物館の所蔵品、高価な像が{n}展示されている。",
+        "translation": "> A Valuable Statue from the museum collection{n}is on display."
+      }
+    },
+    "city_museum_dantalian_000": {
+      "text": {
+        "reference": "レイ：気をつけて！何かが……",
+        "translation": "Rei: Watch out! Something's..."
+      }
+    },
+    "city_museum_dantalian_001": {
+      "text": {
+        "reference": "ああっ！！",
+        "translation": "Aah!!"
+      }
+    },
+    "city_museum_dantalian_002": {
+      "text": {
+        "reference": "＞レイが、ブロンズ像になってしまった。",
+        "translation": "> Rei has been turned into a bronze statue."
+      }
+    },
+    "city_museum_dantalian_003": {
+      "text": {
+        "reference": "悪魔：見事にワナにかかったな。{n}美しい像が出来たぞ。",
+        "translation": "Demon: You fell beautifully into my trap.{n}What a lovely statue I've made."
+      }
+    },
+    "city_museum_dantalian_004": {
+      "text": {
+        "reference": "このダンタリアン様のコレクションが{n}また一つ増えたぞ。",
+        "translation": "The great Dantalian's collection{n}has gained another piece."
+      }
+    },
+    "city_museum_dantalian_005": {
+      "text": {
+        "reference": "この美しい像も、展示してやろう。",
+        "translation": "I will put this lovely statue on display, too."
+      }
+    },
+    "city_museum_dantalian_006": {
+      "text": {
+        "reference": "＞博物館に取りついていた、{n}堕天使ダンタリアンがいた部屋。",
+        "translation": "> The room where Fallen Dantalian,{n}who possessed the museum, was found."
+      }
+    },
+    "city_museum_dantalian_007": {
+      "text": {
+        "reference": "ダンタリアン：ここへ来るまでに、{n}じゅうぶん見て来ただろう。",
+        "translation": "Dantalian: You saw plenty{n}on your way here, didn't you?"
+      }
+    },
+    "city_museum_dantalian_008": {
+      "text": {
+        "reference": "どうだね、この博物館すべてが、{n}私のコレクションだ。",
+        "translation": "What do you think? This entire museum{n}is my collection."
+      }
+    },
+    "city_museum_dantalian_009": {
+      "text": {
+        "reference": "だが、私が求めているのは物自体ではない。{n}物に取りつかれた、愚かな人間の魂だ。",
+        "translation": "But I do not seek the objects themselves.{n}I seek the souls of fools possessed by possessions."
+      }
+    },
+    "city_museum_dantalian_010": {
+      "text": {
+        "reference": "この博物館の物は、多くの人間の魂を{n}捕らえて来たものばかり。とらわれの魂の{n}無念の想いこそ、私のエナジーなのだ。",
+        "translation": "Every object in this museum has captured{n}the souls of many humans. The bitter regret{n}of those captive souls is my energy."
+      }
+    },
+    "city_museum_dantalian_011": {
+      "text": {
+        "reference": "君に同行していた女は、いいコレクションに{n}なったぞ。",
+        "translation": "The woman who came with you{n}made a fine addition to my collection."
+      }
+    },
+    "city_museum_dantalian_012": {
+      "text": {
+        "reference": "では、君もここに倒れ、無念の想いと化して{n}私のエナジーとなるがよい。",
+        "translation": "Now you, too, shall fall here, turn into regret,{n}and become my energy."
+      }
+    },
+    "city_museum_dantalian_013": {
+      "text": {
+        "reference": "ダンタリアン：せ、せっかく……{n}……いいコレクションを……{n}手に入れたというのに……",
+        "translation": "Dantalian: A-After I finally...{n}...obtained such a fine piece...{n}for my collection..."
+      }
+    },
+    "city_museum_dantalian_014": {
+      "placeholders": {
+        "item_name": "item_name"
+      },
+      "text": {
+        "reference": "＞{item_name}を手に入れた。",
+        "translation": "> Obtained {item_name}."
+      }
+    },
+    "city_museum_dantalian_015": {
+      "text": {
+        "reference": "レイ：ブロンズ像にされていた間って、{n}とても苦しかったのよ。",
+        "translation": "Rei: Being trapped as a bronze statue{n}was agonizing."
+      }
+    },
+    "city_museum_dantalian_016": {
+      "text": {
+        "reference": "ここに来るのは、{n}あまりいい気分じゃないわね。",
+        "translation": "Coming back here{n}doesn't feel very good."
+      }
+    },
+    "city_museum_dantalian_017": {
+      "text": {
+        "reference": "＞ブロンズ像にされたレイを{n}元に戻しますか？",
+        "translation": "> Restore Rei, who was turned into a bronze statue,{n}to normal?"
+      }
+    },
+    "city_museum_dantalian_018": {
+      "text": {
+        "reference": "ペトラノンを使った。",
+        "translation": "Used Petranon."
+      }
+    },
+    "city_museum_dantalian_019": {
+      "text": {
+        "reference": "レイ：……助けてくれたのね。{n}ありがとう……本当に……。",
+        "translation": "Rei: ...You saved me.{n}Thank you... Truly..."
+      }
+    },
+    "city_museum_dantalian_020": {
+      "text": {
+        "reference": "以前のキョウジだったら、こんな時は、{n}私を見捨てて、絶対に助けてはくれなかった{n}はずだわ。",
+        "translation": "The old Kyouji would have abandoned me{n}at a time like this. He never would{n}have come to save me."
+      }
+    },
+    "city_museum_dantalian_021": {
+      "text": {
+        "reference": "……今まで、あなたを疑ってたけど、{n}あなたが、本当にキョウジなのか誰なのか{n}もうどうでもいいわ。",
+        "translation": "...I've doubted you until now,{n}but I no longer care whether you're really Kyouji{n}or who you actually are."
+      }
+    },
+    "city_museum_dantalian_022": {
+      "text": {
+        "reference": "私を助けてくれた、この借りを返したいし{n}……それに、あなたが以前のキョウジ以上{n}に信頼できる人物だって分かった。",
+        "translation": "I want to repay you for saving me...{n}And now I know I can trust you even more{n}than the old Kyouji."
+      }
+    },
+    "city_museum_dantalian_023": {
+      "text": {
+        "reference": "あらためて、これからもパートナーとして{n}協力させてもらうわ。",
+        "translation": "So let me begin again and keep working with you{n}as your partner."
+      }
+    },
+    "city_museum_dantalian_024": {
+      "text": {
+        "reference": "ありがとう、キョウジ。",
+        "translation": "Thank you, Kyouji."
+      }
+    },
+    "city_museum_dantalian_025": {
+      "text": {
+        "reference": "＞レイのブロンズ像がある。{n}レイの思念が伝わってくる…………。",
+        "translation": "> Rei's bronze statue is here.{n}Her thoughts reach you..."
+      }
+    },
+    "city_museum_dantalian_026": {
+      "text": {
+        "reference": "レイ：……た、助けて…………{n}ダンタリアンを倒せば……助かる……。",
+        "translation": "Rei: ...H-Help me...{n}If you defeat Dantalian... I'll be saved..."
+      }
+    },
+    "city_museum_dantalian_027": {
+      "text": {
+        "reference": "レイ：……は、早く……{n}……た、助けて…………",
+        "translation": "Rei: ...H-Hurry...{n}...H-Help me..."
+      }
+    },
+    "city_museum_dantalian_028": {
+      "text": {
+        "reference": "＞展示室には、封印のために建てられた{n}はずの祠が、置かれている。",
+        "translation": "> A shrine that should have been erected{n}as a seal is displayed in the gallery."
+      }
+    },
+    "city_museum_dantalian_029": {
+      "text": {
+        "reference": "レイ：……なぜ、こんなところに{n}こんなものが……ねえ、見て。",
+        "translation": "Rei: ...Why is something like this{n}in a place like this? Hey, look."
+      }
+    },
+    "city_museum_dantalian_030": {
+      "text": {
+        "reference": "ここに展示されてるのを……",
+        "translation": "At what's on display here..."
+      }
+    },
+    "city_museum_dantalian_031": {
+      "text": {
+        "reference": "＞「この祠が、何の目的で建てられたかは、{n}明らかではありません。形状から、奈良時代{n}以前の古いものと考えられます。」",
+        "translation": "> \"The purpose for which this shrine was built{n}is unknown. Its form suggests that it predates{n}the Nara period.\""
+      }
+    },
+    "city_museum_dantalian_032": {
+      "text": {
+        "reference": "と、書かれている。",
+        "translation": "So reads the placard."
+      }
+    },
+    "city_museum_dantalian_033": {
+      "text": {
+        "reference": "レイ：この祠は、なにかを封じるために{n}建てられるものよ。立てられる場所は、{n}風水の術に基づいて決められるはず。",
+        "translation": "Rei: This kind of shrine is built to seal{n}something away. Its site should have been chosen{n}according to the principles of feng shui."
+      }
+    },
+    "city_museum_dantalian_034": {
+      "text": {
+        "reference": "本来の場所から動かされたら、封印の{n}効力は失われるし、こんな不特定多数の人が{n}訪れる場所に置かれたら、",
+        "translation": "Moved from its original location, the seal{n}would lose its power. And displaying it where{n}countless strangers pass by would..."
+      }
+    },
+    "city_museum_dantalian_035": {
+      "text": {
+        "reference": "封印の力は、ますます弱まってしまう。{n}これは、どう考えても意図してやっていると{n}しか思えないわ。",
+        "translation": "weaken it even further.{n}However I look at this,{n}it must have been done deliberately."
+      }
+    },
+    "city_museum_dantalian_036": {
+      "text": {
+        "reference": "＞展示室に祠が展示されている。",
+        "translation": "> A shrine is displayed in the gallery."
+      }
+    },
+    "city_museum_dantalian_037": {
+      "text": {
+        "reference": "祠を見ていきますか？",
+        "translation": "Examine the shrine?"
+      }
+    }
+  }
+}

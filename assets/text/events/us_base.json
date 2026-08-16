@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "us_base_armory_000": {
+      "text": {
+        "reference": "兵士：ココヲ通レバ近道ダ。マタ来イヨ。",
+        "translation": "Soldier: This way is a shortcut. Come again."
+      }
+    },
+    "us_base_armory_001": {
+      "text": {
+        "reference": "兵士：STOP！トマレ！！",
+        "translation": "Soldier: STOP! HALT!!"
+      }
+    },
+    "us_base_armory_002": {
+      "text": {
+        "reference": "IDカードガ無ケレバ通レナイ",
+        "translation": "NO ID CARD, NO ENTRY."
+      }
+    },
+    "us_base_armory_003": {
+      "text": {
+        "reference": "オトナシクヒキ返サナイト撃ツゾ！",
+        "translation": "TURN BACK QUIETLY OR I'LL SHOOT!"
+      }
+    },
+    "us_base_armory_004": {
+      "text": {
+        "reference": "IDカードヲ持ッテイルノカ？",
+        "translation": "YOU HAVE AN ID CARD?"
+      }
+    },
+    "us_base_armory_005": {
+      "text": {
+        "reference": "フフフッ、ヨクデキテイルナ。{n}大佐ノ客ダナ、通ッテイイゾ。",
+        "translation": "Heh heh, very well made.{n}You're the Colonel's guest. You may pass."
+      }
+    },
+    "us_base_armory_006": {
+      "text": {
+        "reference": "兵士：おまえハ、悪魔と戦っているのカ？{n}大佐かラ、強力な武器を手に入れたカ。",
+        "translation": "Soldier: You fight demons?{n}Did the Colonel give you powerful weapons?"
+      }
+    },
+    "us_base_armory_007": {
+      "text": {
+        "reference": "大佐も商売上手だナ、悪魔と戦う者のためと{n}言っテ、武器庫の物を売ってもうけていル。",
+        "translation": "The Colonel is quite the businessman.{n}He claims it's for demon fighters, but sells depot weapons for profit."
+      }
+    },
+    "us_base_armory_008": {
+      "text": {
+        "reference": "本当ニ、悪魔と戦う物のためなラ、{n}金を取るかイ？武器庫の物ハ、大佐の物じゃ{n}ないんダ。",
+        "translation": "If it were really for those fighting demons,{n}would he charge money? Those weapons{n}don't belong to him."
+      }
+    }
+  }
+}

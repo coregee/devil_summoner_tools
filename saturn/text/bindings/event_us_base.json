@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "asset": "events/us_base.json",
+  "records": {
+    "game.evfile_1.m0126.p00": "us_base_armory_000.text",
+    "game.evfile_1.m0127.p00": "us_base_armory_001.text",
+    "game.evfile_1.m0127.p01": "us_base_armory_002.text",
+    "game.evfile_1.m0128.p00": "us_base_armory_003.text",
+    "game.evfile_1.m0129.p00": "us_base_armory_004.text",
+    "game.evfile_1.m0129.p01": "us_base_armory_005.text",
+    "game.evfile_1.m0130.p00": "us_base_armory_006.text",
+    "game.evfile_1.m0130.p01": "us_base_armory_007.text",
+    "game.evfile_1.m0130.p02": "us_base_armory_008.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "guan_di_temple_000": {
+      "text": {
+        "reference": "＞関帝廟。{n}かつての英雄、関羽雲長が神格化され{n}関帝聖君として、祭られている。",
+        "translation": "> Guan Di Temple.{n}The ancient hero Guan Yu, courtesy name Yunchang,{n}is deified and worshipped here as Guan Di Shengjun."
+      }
+    },
+    "guan_di_temple_001": {
+      "text": {
+        "reference": "関帝聖君：戦え……戦え……、{n}我と戦え……我と戦え……。",
+        "translation": "Guan Yu: Fight... Fight...{n}Fight me... Fight me..."
+      }
+    },
+    "guan_di_temple_002": {
+      "text": {
+        "reference": "……戦って、我が足元に屍をさらせ……。",
+        "translation": "...Fight, and leave your corpse at my feet..."
+      }
+    },
+    "guan_di_temple_003": {
+      "text": {
+        "reference": "関帝聖君：……我は、一体何をしていたか。",
+        "translation": "Guan Yu: ...What in the world was I doing?"
+      }
+    },
+    "guan_di_temple_004": {
+      "text": {
+        "reference": "どうやら、そなたが我を正気に戻してくれた{n}ようだな。礼を言うぞ。",
+        "translation": "It seems you have restored me to my senses.{n}You have my thanks."
+      }
+    },
+    "guan_di_temple_005": {
+      "text": {
+        "reference": "今、この地には、悪しき怨念が吹き出そうと{n}しておる。その強さは、我が正気を失う程。",
+        "translation": "A malevolent grudge is about to burst from this land.{n}Its strength was enough to make me lose my senses."
+      }
+    },
+    "guan_di_temple_006": {
+      "text": {
+        "reference": "もともと、怨念は永きにわたり、{n}この地に封じられていたもの。",
+        "translation": "That resentment was originally sealed{n}beneath this land for ages."
+      }
+    },
+    "guan_di_temple_007": {
+      "text": {
+        "reference": "これを、再び復活させようとする者どもが{n}おるようだ。",
+        "translation": "It seems there are those{n}who seek to revive it."
+      }
+    },
+    "guan_di_temple_008": {
+      "text": {
+        "reference": "そのたくらみを、防ぐためなら{n}助力は、惜しまぬ。",
+        "translation": "I will spare no aid{n}to thwart their scheme."
+      }
+    },
+    "guan_di_temple_009": {
+      "text": {
+        "reference": "我を合体の秘術でよみがえらせたとき、{n}我が力、そなたのものとなろう……。",
+        "translation": "When you revive me through the secret art of fusion,{n}my power shall become yours..."
+      }
+    },
+    "chinatown_reward_000": {
+      "text": {
+        "reference": "中国系の男：四川飯店、今日はお休みよ。{n}中華街もすっかり店じまいするしまつで、{n}まったく商売あがったりよ。",
+        "translation": "Chinese Man: Sichuan Restaurant is closed today.{n}With all of Chinatown shuttered,{n}business is completely dead."
+      }
+    },
+    "chinatown_reward_001": {
+      "text": {
+        "reference": "中国系の男：いやぁ、今度の働きは{n}ご苦労さんだったね。",
+        "translation": "Chinese Man: Excellent work on that case.{n}You have my thanks."
+      }
+    },
+    "chinatown_reward_002": {
+      "text": {
+        "reference": "私、中華街のまとめ役をしている陳健民。{n}マリーさんとは、古くからの知り合いでね、{n}あなたに依頼してもらったよ。",
+        "translation": "I'm Chen Jianmin, one of Chinatown's leaders.{n}Marie and I go back a long way,{n}so I asked her to hire you."
+      }
+    },
+    "chinatown_reward_003": {
+      "text": {
+        "reference": "どうも、悪魔を暴れさせたいやつがいる{n}らしいが、私たち華僑は、商売ができないと{n}死んでしまうよ。",
+        "translation": "It seems someone wants demons to run wild,{n}but we overseas Chinese can't survive{n}if we can't conduct business."
+      }
+    },
+    "chinatown_reward_004": {
+      "text": {
+        "reference": "悪魔なんぞに、暴れられたら商売上がったり{n}だからね。ほんとに助かったよ。{n}ありがとう、ありがとう。",
+        "translation": "Demons running wild would ruin us.{n}You truly saved us.{n}Thank you, thank you."
+      }
+    },
+    "chinatown_reward_005": {
+      "text": {
+        "reference": "ほんの気持ちだけども、これを受け取って{n}ほしいね。我々の感謝の気持ちだ。{n}{yen_symbol}50000．ある。",
+        "translation": "It's only a token, but please accept it.{n}It carries our gratitude.{n}There is {yen_symbol}50,000."
+      }
+    },
+    "chinatown_reward_006": {
+      "text": {
+        "reference": "さて、あなたにぜひ紹介したい人がいるよ。{n}……大佐、どうぞ。",
+        "translation": "Now, there's someone I especially want you to meet.{n}...Colonel, please come in."
+      }
+    },
+    "chinatown_reward_007": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "こちら、在日米軍{city}基地の{n}クーパースミス大佐です。",
+        "translation": "This is Colonel Coopersmith{n}from the U.S. military's {city} base."
+      }
+    },
+    "chinatown_reward_008": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "大佐：私が、クーパースミスだ。{n}{city}ベースの補給部隊の司令をしている。{n}よろしく、ミスタ・キョウジ・クズノハ。",
+        "translation": "Colonel: I am Coopersmith.{n}I command the supply unit at {city} Base.{n}A pleasure, Mr. Kyouji Kuzunoha."
+      }
+    },
+    "chinatown_reward_009": {
+      "text": {
+        "reference": "君は、アクマをあやつって、アクマと戦って{n}いるそうだな。君にいいものをあげよう。",
+        "translation": "I hear you command demons and fight demons.{n}I have something useful for you."
+      }
+    },
+    "chinatown_reward_010": {
+      "text": {
+        "reference": "我々が保有する秘密兵器を、{n}君に使ってもらいたい。",
+        "translation": "I would like you to make use{n}of the secret weapons in our possession."
+      }
+    },
+    "chinatown_reward_011": {
+      "text": {
+        "reference": "私のオールド・グッド・フレンド{n}ミスター・チンを助けてくれた礼だ。",
+        "translation": "It is my thanks for helping{n}my dear old friend, Mr. Chen."
+      }
+    },
+    "chinatown_reward_012": {
+      "text": {
+        "reference": "矢来区の地下水道を、西へ向かって進めば{n}我々の武器倉庫の真下へ出られるだろう。{n}いつでも歓迎する。",
+        "translation": "Follow the sewer beneath Yarai Ward west,{n}and you will emerge directly below our arms depot.{n}You are welcome anytime."
+      }
+    },
+    "chinatown_reward_013": {
+      "text": {
+        "reference": "陳健民：よかったね、葛葉さん。{n}あなたに大佐を紹介した、私もうれしいよ。",
+        "translation": "Chen Jianmin: Good for you, Mr. Kuzunoha.{n}I'm glad I introduced you to the Colonel."
+      }
+    },
+    "chinatown_reward_014": {
+      "text": {
+        "reference": "ああ、これ、IDカードね。あげるよ。{n}これ持ってれば、大佐のところまで{n}行けるね。",
+        "translation": "Oh, this is a Fake ID Card. Take it.{n}With this, you can reach{n}the Colonel."
+      }
+    },
+    "chinatown_reward_015": {
+      "text": {
+        "reference": "＞IDカードを手に入れた。",
+        "translation": "> Obtained Fake ID Card."
+      }
+    },
+    "chinatown_reward_016": {
+      "text": {
+        "reference": "陳健民：こんにちは、葛葉さん。{n}クーパースミス大佐のところへ{n}行ったらしいね。",
+        "translation": "Chen Jianmin: Hello, Mr. Kuzunoha.{n}I hear you've visited{n}Colonel Coopersmith."
+      }
+    },
+    "chinatown_reward_017": {
+      "text": {
+        "reference": "大佐は、親切なお人。{n}色んな武器をゆずってくれたでしょう。{n}よかったね。",
+        "translation": "The Colonel is a kind man.{n}He let you have all kinds of weapons, didn't he?{n}Good for you."
+      }
+    },
+    "chinatown_reward_018": {
+      "text": {
+        "reference": "陳健民：こんにちは、葛葉さん。{n}まだ、クーパースミス大佐のところへ{n}行ってないようね？",
+        "translation": "Chen Jianmin: Hello, Mr. Kuzunoha.{n}You haven't visited Colonel Coopersmith{n}yet, have you?"
+      }
+    },
+    "chinatown_reward_019": {
+      "text": {
+        "reference": "矢来区の地下水道を、西へ向かって進めば{n}米軍基地の武器倉庫の真下へ出られるよ。",
+        "translation": "Follow the Yarai Ward sewer west,{n}and you'll emerge below the U.S. military base's arms depot."
+      }
+    },
+    "chinatown_reward_020": {
+      "text": {
+        "reference": "陳健民：持ちきれませんか？{n}では、持てる額までにしておきましょう。{n}多すぎる金は、人を不幸にするからね。",
+        "translation": "Chen Jianmin: Can't carry all of it?{n}Then I'll give you only as much as you can hold.{n}Too much money brings unhappiness."
+      }
+    },
+    "chinatown_reward_021": {
+      "text": {
+        "reference": "陳健民：持ち金を減らして来たなら、{n}{yen_symbol}50000お渡ししましょう。",
+        "translation": "Chen Jianmin: If you've reduced your cash on hand,{n}I'll give you the {yen_symbol}50,000."
+      }
+    }
+  }
+}

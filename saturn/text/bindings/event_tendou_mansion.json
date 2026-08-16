@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "asset": "events/tendou_mansion.json",
+  "records": {
+    "game.evfile_1.m0131.p00": "tendou_mansion_000.text",
+    "game.evfile_1.m0132.p00": "tendou_mansion_001.text",
+    "game.evfile_1.m0133.p00": "tendou_mansion_002.text",
+    "game.evfile_1.m0134.p00": "tendou_mansion_003.text",
+    "game.evfile_1.m0135.p00": "tendou_mansion_004.text",
+    "game.evfile_1.m0136.p00": "tendou_mansion_005.text",
+    "game.evfile_1.m0137.p00": "tendou_mansion_006.text",
+    "game.evfile_1.m0137.p01": "tendou_mansion_007.text",
+    "game.evfile_1.m0138.p00": "tendou_mansion_008.text",
+    "game.evfile_1.m0138.p01": "tendou_mansion_009.text",
+    "game.evfile_1.m0139.p00": "tendou_mansion_010.text",
+    "game.evfile_1.m0139.p01": "tendou_mansion_011.text",
+    "game.evfile_1.m0139.p02": "tendou_mansion_012.text",
+    "game.evfile_1.m0139.p03": "tendou_mansion_013.text",
+    "game.evfile_1.m0139.p04": "tendou_mansion_014.text",
+    "game.evfile_1.m0140.p00": "tendou_mansion_015.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

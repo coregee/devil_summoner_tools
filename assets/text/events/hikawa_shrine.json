@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "hikawa_shrine_seal_000": {
+      "text": {
+        "reference": "老婆：せっかく、ごりやくがあるって言うで{n}遠くからお参りに来ただに、工事中だで{n}入れんだってぇ。どうにかしてくりょ。",
+        "translation": "Old Woman: I came all this way for the blessings,{n}and now they say construction means I can't get in.{n}Someone ought to do something."
+      }
+    },
+    "hikawa_shrine_seal_001": {
+      "text": {
+        "reference": "現場監督：ああ、参ったなあ。{n}工事が進まねえ……。",
+        "translation": "Site Foreman: Aw, this is a mess.{n}Work's going nowhere..."
+      }
+    },
+    "hikawa_shrine_seal_002": {
+      "text": {
+        "reference": "実は、この神社の移転工事をしてんだけど、{n}立て続けに、事故が起きてねぇ。",
+        "translation": "We're relocating this shrine,{n}but accidents keep happening one after another."
+      }
+    },
+    "hikawa_shrine_seal_003": {
+      "text": {
+        "reference": "誰かが祟りだって言い出したら、{n}作業員がみんなブルって、{n}仕事してくれねぇのよ。",
+        "translation": "Once someone called it a curse,{n}all the workers got scared stiff{n}and refused to do another thing."
+      }
+    },
+    "hikawa_shrine_seal_004": {
+      "text": {
+        "reference": "おかしなことに、神社の森に入るとなぜか{n}境内に行けねぇんだ。",
+        "translation": "Strangest thing is, whenever anyone enters the grove,{n}they somehow can't reach the shrine grounds."
+      }
+    },
+    "hikawa_shrine_seal_005": {
+      "text": {
+        "reference": "あんた、中に入るのかい？{n}やめた方がいいよ。化け物が出るっていうぜ{n}ほんとかどうかは、知らんがな。",
+        "translation": "You're going in?{n}I'd reconsider. They say monsters are in there.{n}No idea whether it's true."
+      }
+    },
+    "hikawa_shrine_seal_006": {
+      "text": {
+        "reference": "現場監督：やっぱり、こわくて中に入れねぇ{n}あんた、こわくねぇのか？",
+        "translation": "Site Foreman: I'm too scared to go in after all.{n}Aren't you afraid?"
+      }
+    },
+    "hikawa_shrine_seal_007": {
+      "text": {
+        "reference": "＞氷川神社は、その封印としての力を{n}失っている。",
+        "translation": "> Hikawa Shrine has lost{n}its power as a seal."
+      }
+    },
+    "hikawa_shrine_seal_008": {
+      "text": {
+        "reference": "＞久美子がいる。声をかけるか？",
+        "translation": "> Kumiko is here. Call out to her?"
+      }
+    },
+    "hikawa_shrine_seal_009": {
+      "text": {
+        "reference": "久美子：……………………。",
+        "translation": "Kumiko: ..."
+      }
+    },
+    "hikawa_shrine_seal_010": {
+      "text": {
+        "reference": "男：ここまで、たどり着けたのは、誰だ？",
+        "translation": "Man: Who managed to make it this far?"
+      }
+    },
+    "hikawa_shrine_seal_011": {
+      "text": {
+        "reference": "おれは、スサノオ。{n}一応、この氷川神社の祭神ということに{n}なっている。",
+        "translation": "I'm Susano-o.{n}For what it's worth, I'm supposed to be{n}the enshrined deity of Hikawa Shrine."
+      }
+    },
+    "hikawa_shrine_seal_012": {
+      "text": {
+        "reference": "スサノオ：ほう、おまえが{n}デビルサマナーか。なるほど、すばらしい{n}力を持っているようだが……。",
+        "translation": "Susano-o: So you're{n}the Devil Summoner. I see. You possess{n}impressive power, but..."
+      }
+    },
+    "hikawa_shrine_seal_013": {
+      "text": {
+        "reference": "それにしては、心のほうがあまりに{n}弱々しいのは、なぜだ？",
+        "translation": "Why, then, is your mind{n}so pitifully weak?"
+      }
+    },
+    "hikawa_shrine_seal_014": {
+      "text": {
+        "reference": "まるで、自分の身体と心が別もののようだ。{n}自分を自分と思っていないようだな。",
+        "translation": "It's as if your body and mind were separate.{n}As if you don't even think of yourself as yourself."
+      }
+    },
+    "hikawa_shrine_seal_015": {
+      "text": {
+        "reference": "まあいい、人間とは、取るに足らぬことを{n}くよくよと思い悩むものだからな。",
+        "translation": "Well, never mind. Humans always brood{n}over the most trivial things."
+      }
+    },
+    "hikawa_shrine_seal_016": {
+      "text": {
+        "reference": "ところで、今度のたたり騒ぎは、{n}人間に警告を発するため起こした。",
+        "translation": "As for this latest curse scare,{n}I stirred it up as a warning to humanity."
+      }
+    },
+    "hikawa_shrine_seal_017": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "おまえも悪魔召喚師なら知っていよう、{n}おまえたちが、{city}と呼ぶ、この地に{n}近ごろ、悪魔があふれだしてきたことを。",
+        "translation": "If you're a Devil Summoner, you must know{n}that demons have lately begun flooding this land{n}you people call {city}."
+      }
+    },
+    "hikawa_shrine_seal_018": {
+      "text": {
+        "reference": "それは、この地にほどこされた封印が{n}次々と壊され、異界のものを封じる力が{n}弱まっているせいだ。",
+        "translation": "The seals laid over this land are being destroyed{n}one after another, weakening the power{n}that holds back beings of the Otherworld."
+      }
+    },
+    "hikawa_shrine_seal_019": {
+      "text": {
+        "reference": "封印が壊され、おれの力は、すでに弱り{n}もう何もできない。せいぜい、たたり騒ぎを{n}起こして警告するぐらいだ。",
+        "translation": "With the seals broken, my power is already fading,{n}and there is nothing more I can do. At best,{n}I can stir up a scare to warn you."
+      }
+    },
+    "hikawa_shrine_seal_020": {
+      "text": {
+        "reference": "いいか、封印が壊されれば、恐ろしいことが{n}起こる。それだけは、何としても防ぐのだ。{n}おれに言えることは…………",
+        "translation": "Listen. If the seals are broken, something terrible{n}will happen. You must prevent it at any cost.{n}That is all I can tell you..."
+      }
+    },
+    "hikawa_shrine_seal_021": {
+      "text": {
+        "reference": "……………………",
+        "translation": "..."
+      }
+    }
+  }
+}

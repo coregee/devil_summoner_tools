@@ -452,6 +452,42 @@
         "reference": "レイ：そういえば、キョウジは、{n}この魔法をよく使ってたわね。",
         "translation": "Rei: Come to think of it, Kyouji used this spell{n}all the time."
       }
+    },
+    "detective_office_midgame_menu_000": {
+      "text": {
+        "reference": "病院",
+        "translation": "Hospital"
+      }
+    },
+    "detective_office_midgame_menu_001": {
+      "text": {
+        "reference": "コインロッカー",
+        "translation": "Coin Lockers"
+      }
+    },
+    "detective_office_midgame_menu_002": {
+      "text": {
+        "reference": "久美子の家",
+        "translation": "Kumiko's House"
+      }
+    },
+    "detective_office_midgame_menu_003": {
+      "text": {
+        "reference": "レイ：臨海病院へ行くの？",
+        "translation": "Rei: Are you going to Rinkai Hospital?"
+      }
+    },
+    "detective_office_midgame_menu_004": {
+      "text": {
+        "reference": "レイ：コインロッカー？何か、預けたの？",
+        "translation": "Rei: The coin lockers? Did you leave something there?"
+      }
+    },
+    "detective_office_midgame_menu_005": {
+      "text": {
+        "reference": "レイ：秦野久美子の家に行くの？{n}確か、雲雀ヶ丘にあったわね。",
+        "translation": "Rei: Are you going to Kumiko Hatano's house?{n}That was in Hibarigaoka, right?"
+      }
     }
   }
 }

@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "fairy_forest_exchange_000": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "シド：お待ちしていましたヨ、葛葉さン。{n}いヤ、{last_name}{first_name}さんとお呼びしたほうが{n}よろしいですカ？",
+        "translation": "Sid: I have been waiting, Mr. Kuzunoha.{n}Or should I call you{n}{first_name} {last_name}?"
+      }
+    },
+    "fairy_forest_exchange_001": {
+      "placeholders": {
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "葛葉……いヤ、{last_name}さン。ここにいル、{n}あなたのガール・フレンド、秦野久美子さン{n}には、危害はくわえていませんヨ。",
+        "translation": "Kuzunoha... No, Mr. {last_name}. Your girlfriend,{n}Kumiko Hatano, is here with me.{n}I have not harmed her."
+      }
+    },
+    "fairy_forest_exchange_002": {
+      "text": {
+        "reference": "久美子さンを返して欲しいですよネ。{n}返して欲しけれバ、私の言うことを{n}聞きなさイ。",
+        "translation": "You want Miss Kumiko returned, yes?{n}If so, you will do as I say."
+      }
+    },
+    "fairy_forest_exchange_003": {
+      "text": {
+        "reference": "あなたハ、本を手に入れましたネ。{n}本にハ、メモが入っていましたネ。{n}メモをよこせとハ、言いませんン。",
+        "translation": "You have the book. There was a note inside it.{n}I will not ask you to give me the note."
+      }
+    },
+    "fairy_forest_exchange_004": {
+      "placeholders": {
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "メモに書いてあることヲ、実行しなさイ。{n}そうすれバ、彼女は自由になれるでしょウ。{n}わかりましたネ、{last_name}さン。",
+        "translation": "Carry out what the note says.{n}Then she will be free.{n}Do you understand, Mr. {last_name}?"
+      }
+    },
+    "fairy_forest_exchange_005": {
+      "text": {
+        "reference": "彼女ハ、公園の林の奥デ、自由にして{n}あげましょウ。",
+        "translation": "I shall set her free deep within Fairy Forest."
+      }
+    },
+    "fairy_forest_exchange_006": {
+      "text": {
+        "reference": "シド：早ク、メモに書いてあることを{n}実行しなさイ。そうしたら彼女ハ、{n}ここデ、自由にしてあげましょウ。",
+        "translation": "Sid: Hurry and do as the note says.{n}Then I will set her free here."
+      }
+    },
+    "fairy_forest_exchange_007": {
+      "text": {
+        "reference": "早くしないト、彼女の無事ハ、{n}保証できませんヨ。",
+        "translation": "If you take too long,{n}I cannot guarantee her safety."
+      }
+    },
+    "fairy_forest_exchange_008": {
+      "text": {
+        "reference": "シド：古墳への入口が姿をあらわしましタ。{n}これデ、中に入れまス。入りかたがずっト、{n}わからなかったでス。",
+        "translation": "Sid: The entrance to the Ancient Tomb has appeared.{n}Now we can enter. I could never work out{n}how to get inside."
+      }
+    },
+    "fairy_forest_exchange_009": {
+      "text": {
+        "reference": "でハ、約束どおり彼女を自由にして{n}あげましょウ。",
+        "translation": "As promised, I shall set her free."
+      }
+    },
+    "fairy_forest_exchange_010": {
+      "text": {
+        "reference": "久美子：……わたし、行かなくては、{n}古墳の中へ、封印された魂が、{n}呼んでいる…………。",
+        "translation": "Kumiko: ...I have to go... into the Ancient Tomb.{n}The soul sealed inside is calling to me..."
+      }
+    },
+    "fairy_forest_exchange_011": {
+      "text": {
+        "reference": "シド：おやおヤ、せっかく自由にして{n}あげたのですがネ。",
+        "translation": "Sid: Oh dear, after I went to the trouble{n}of setting her free."
+      }
+    },
+    "fairy_forest_exchange_012": {
+      "text": {
+        "reference": "彼女は自分の意志デ、行ってしまいましタ。{n}わたしハ、約束を果たしたのですガ。",
+        "translation": "She left of her own free will.{n}I have kept my promise."
+      }
+    },
+    "fairy_forest_exchange_013": {
+      "text": {
+        "reference": "フッフッフッフッフ。{n}では、私も彼女を追っテ、古墳に入ると{n}しましょうカ。でハ、さようなラ。",
+        "translation": "Heh heh heh.{n}Then I think I shall follow her into the Ancient Tomb.{n}Farewell."
+      }
+    }
+  }
+}

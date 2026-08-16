@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "police_station_takeover_000": {
+      "text": {
+        "reference": "磯野刑事：ひええええっ！！{n}命ばかりは、お助けをっ！！{n}おれは、食べてもうまくないっス！！",
+        "translation": "Detective Isono: Eeeeeek!!{n}Please, spare my life!!{n}I don't taste good, honest!!"
+      }
+    },
+    "police_station_takeover_001": {
+      "text": {
+        "reference": "……な、なんだ、葛葉か……。",
+        "translation": "...O-Oh, it's only you, Kuzunoha..."
+      }
+    },
+    "police_station_takeover_002": {
+      "text": {
+        "reference": "なんで、おれがここにいるかというとだな、{n}百地警部が、不当に監禁されてしまったので{n}救出に向かうところなのだ。",
+        "translation": "If you're wondering why I'm here,{n}Inspector Momochi has been unjustly imprisoned,{n}and I am on my way to rescue him."
+      }
+    },
+    "police_station_takeover_003": {
+      "text": {
+        "reference": "ところが、署内は化け物がウロウロして、{n}警部の所在も分からず、手が出せないのだ。{n}……ば、化け物が怖いわけじゃないぞ。",
+        "translation": "But monsters are roaming the station,{n}and I can't even find where the Inspector is held.{n}...N-Not that I'm afraid of monsters."
+      }
+    },
+    "police_station_takeover_004": {
+      "text": {
+        "reference": "で、化け物退治の専門家、デビルサマナー{n}なる者がいるというので、署内の化け物退治{n}を依頼したのだ。",
+        "translation": "So I heard of an expert demon hunter{n}called a Devil Summoner, and hired them{n}to clear the station."
+      }
+    },
+    "police_station_takeover_005": {
+      "text": {
+        "reference": "デビルサマナーの代理人マリーには、{n}{yen_symbol}1000000．も取られたが、{n}尊敬する百地警部を助けるためだ。",
+        "translation": "Marie, the Devil Summoner's agent,{n}charged me {yen_symbol}1,000,000,{n}but I must save Inspector Momochi, whom I respect."
+      }
+    },
+    "police_station_takeover_006": {
+      "text": {
+        "reference": "金には、かえられん。{n}……かえられんが、ヘソクリがパーだ……。{n}せっかく、ダービー当てたのに……。",
+        "translation": "You can't put a price on that.{n}...You can't, but there goes my secret nest egg.{n}And I finally won at the Derby..."
+      }
+    },
+    "police_station_takeover_007": {
+      "text": {
+        "reference": "……ま、まさか、葛葉、おまえが{n}デビルサマナーなのか？",
+        "translation": "...D-Don't tell me you're{n}the Devil Summoner, Kuzunoha?"
+      }
+    },
+    "police_station_takeover_008": {
+      "text": {
+        "reference": "おまえも、よく無事でいられるな。{n}お、おれは今、警部救出の作戦を考えている{n}ところだ。",
+        "translation": "How are you staying so calm?{n}I-I'm presently devising a plan{n}to rescue the Inspector."
+      }
+    },
+    "police_station_takeover_009": {
+      "text": {
+        "reference": "おそらく、警部は地階の留置場に入れられて{n}いると思うが……。",
+        "translation": "I suspect he's being held in the cells{n}in the basement..."
+      }
+    },
+    "police_station_takeover_010": {
+      "text": {
+        "reference": "百地警部：誰だ！？",
+        "translation": "Inspector Momochi: Who's there?!"
+      }
+    },
+    "police_station_takeover_011": {
+      "text": {
+        "reference": "きさまは、葛葉キョウジ？{n}よく、ここまで来られたな。{n}前々から、ただ者ではないとは思っていたが",
+        "translation": "You... Kyouji Kuzunoha?{n}I'm impressed you made it this far.{n}I always knew you were no ordinary man, but..."
+      }
+    },
+    "police_station_takeover_012": {
+      "text": {
+        "reference": "……まさか、おれがブタ箱にぶちこまれる{n}とは、思わなかったよ。",
+        "translation": "...I never thought I'd be the one{n}thrown in the slammer."
+      }
+    },
+    "police_station_takeover_013": {
+      "text": {
+        "reference": "このところの一連の化け物騒ぎを追ったのは{n}おれのカンが、これはどうも怪しい、{n}と働いたからだ。",
+        "translation": "I started digging into these monster incidents{n}because my gut told me{n}something about them stank."
+      }
+    },
+    "police_station_takeover_014": {
+      "text": {
+        "reference": "そして、どうやらすべて何者かが裏で糸を{n}引いているらしいところまで、つかんだ。{n}個人じゃない、大きな組織だ。",
+        "translation": "I learned that someone was pulling strings{n}behind every one of them. Not an individual--{n}a large organization."
+      }
+    },
+    "police_station_takeover_015": {
+      "text": {
+        "reference": "詳しいことは、捜査上の秘密で言えんが。",
+        "translation": "I can't reveal the details of an active investigation."
+      }
+    },
+    "police_station_takeover_016": {
+      "text": {
+        "reference": "さらに、捜査を進めようとしたら、{n}署長が止めるように言って来やがった。{n}当然おれは、断った。",
+        "translation": "When I tried to take the investigation further,{n}the chief ordered me to stop.{n}Naturally, I refused."
+      }
+    },
+    "police_station_takeover_017": {
+      "text": {
+        "reference": "そうしたら、即、ブタ箱行きでこのザマだ。{n}どうやら、一連の化け物騒ぎには、{n}署長もからんでるらしい。",
+        "translation": "Next thing I knew, I was tossed in here.{n}Looks like the chief is mixed up{n}in this whole string of incidents, too."
+      }
+    },
+    "police_station_takeover_018": {
+      "text": {
+        "reference": "おっと、長話が過ぎたな。{n}それじゃあ、おれは逃げ出させてもらうぜ。{n}こんな化け物だらけの署内に長居は無用だ。",
+        "translation": "I've talked long enough.{n}I'm getting out of here.{n}No sense lingering in a station full of monsters."
+      }
+    },
+    "police_station_takeover_019": {
+      "text": {
+        "reference": "ひと思いに署長をヤっちまえば、{n}化け物どもも、いなくなるかもしれんがな。",
+        "translation": "Maybe if someone puts the chief down for good,{n}the monsters will disappear with him."
+      }
+    },
+    "police_station_takeover_020": {
+      "text": {
+        "reference": "＞百地警部は、脱出したようだ。",
+        "translation": "> Inspector Momochi appears to have escaped."
+      }
+    },
+    "police_station_takeover_021": {
+      "text": {
+        "reference": "警察署長：誰かね？署長室に入るときは{n}ノックをしたまえ。",
+        "translation": "Police Chief: Who's there?{n}You should knock before entering my office."
+      }
+    },
+    "police_station_takeover_022": {
+      "text": {
+        "reference": "君は確か……私立探偵の葛葉キョウジくん{n}……だったかな。",
+        "translation": "If I recall, you are... Kyouji Kuzunoha,{n}the private detective."
+      }
+    },
+    "police_station_takeover_023": {
+      "text": {
+        "reference": "ちょろちょろと動いて、少々目障りだった{n}ので、シド・デイビスに始末させたはずだが{n}しぶとく生きていたようだな。",
+        "translation": "You kept scurrying about and became an eyesore,{n}so I had Sid Davis dispose of you.{n}It seems you were stubborn enough to survive."
+      }
+    },
+    "police_station_takeover_024": {
+      "text": {
+        "reference": "まあ、君のようなネズミ1ぴきが死のうと、{n}生きようと、関係ない。{n}我々の計画は、着々と進んでいる。",
+        "translation": "Whether one rat like you lives or dies{n}is irrelevant.{n}Our plans are proceeding steadily."
+      }
+    },
+    "police_station_takeover_025": {
+      "text": {
+        "reference": "そう、封印は破壊されつつあるのだ。{n}そして、封印の力が無くなった時……",
+        "translation": "Yes. The seals are being destroyed.{n}And when their power is gone..."
+      }
+    },
+    "police_station_takeover_026": {
+      "text": {
+        "reference": "これ以上は、君が知っても無駄だろう。{n}なぜなら、君はここで最期を迎えるのだ。",
+        "translation": "Knowing any more would do you no good.{n}You will meet your end here."
+      }
+    },
+    "police_station_takeover_027": {
+      "text": {
+        "reference": "クバンダ：組織の大幹部たる我が手にかかり{n}死ねることを、幸せに思うがよい。",
+        "translation": "Kumbhanda: Consider yourself fortunate to die{n}by the hand of one of the organization's senior leaders."
+      }
+    },
+    "police_station_takeover_028": {
+      "text": {
+        "reference": "クバンダ：……私が最期を迎えるとはな。{n}だが、封印の力が無くなるまで、まもなくだ{n}その時は、君も最期だ……。",
+        "translation": "Kumbhanda: ...So I am the one meeting my end.{n}But the seals will soon lose all their power.{n}When that happens, you too will meet yours..."
+      }
+    }
+  }
+}

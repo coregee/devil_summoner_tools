@@ -1,0 +1,313 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "club_cretaceous_000": {
+      "text": {
+        "reference": "情報屋の男",
+        "translation": "Informant"
+      }
+    },
+    "club_cretaceous_001": {
+      "text": {
+        "reference": "長い髪の女",
+        "translation": "Long-Haired Woman"
+      }
+    },
+    "club_cretaceous_002": {
+      "text": {
+        "reference": "ボンデージ女",
+        "translation": "Bondage Woman"
+      }
+    },
+    "club_cretaceous_003": {
+      "text": {
+        "reference": "派手なカップル",
+        "translation": "Flashy Couple"
+      }
+    },
+    "club_cretaceous_004": {
+      "text": {
+        "reference": "店を出る",
+        "translation": "Leave"
+      }
+    },
+    "club_cretaceous_005": {
+      "text": {
+        "reference": "＞誰と話をしますか？",
+        "translation": "> Who will you talk to?"
+      }
+    },
+    "club_cretaceous_006": {
+      "text": {
+        "reference": "男：おい、ここはおまえさんみたいな{n}ボウヤが来るとこじゃねえよ。",
+        "translation": "Man: Hey, this is no place for a kid like you."
+      }
+    },
+    "club_cretaceous_007": {
+      "text": {
+        "reference": "男：葛葉か。久しぶりだな。",
+        "translation": "Man: Kuzunoha. Been a while."
+      }
+    },
+    "club_cretaceous_008": {
+      "text": {
+        "reference": "長い髪の女：ここは、会員制で限られたお客{n}しか入れないので、雰囲気がいいわ。",
+        "translation": "Long-Haired Woman: This place is members-only,{n}and only a select clientele gets in.{n}That's what gives it such a nice atmosphere."
+      }
+    },
+    "club_cretaceous_009": {
+      "text": {
+        "reference": "ボンデージ女：ついこの前まで、天堂組の{n}ヤクザどもが、おおぜいで街中をうろついて{n}たわよね。",
+        "translation": "Bondage Woman: Until just recently,{n}Tendou-gumi thugs were roaming the streets{n}in droves."
+      }
+    },
+    "club_cretaceous_010": {
+      "text": {
+        "reference": "このごろ、見かけなくなったけど、どうした{n}んだろ。静かになって、いいけどね。",
+        "translation": "I haven't seen them lately. Wonder what happened.{n}It's quieter now, so I'm not complaining."
+      }
+    },
+    "club_cretaceous_011": {
+      "text": {
+        "reference": "派手なカップル：クレテイシャスのオーナー{n}である、マダム銀子様には中々会えないぜ。",
+        "translation": "Flashy Couple: It's not easy to meet{n}Madame Ginko, the owner of Cretaceous.",
+        "note": "Shared by physical messages 305 and 314. Before the Toa TV request, Madame Ginko normally appears only at New Moon; afterward, she remains available regardless of moon phase."
+      }
+    },
+    "club_cretaceous_012": {
+      "text": {
+        "reference": "女の私でも、ほれぼれする気風のいい方よ。{n}月の出ていない夜には、きげんがいいらしい{n}んだけどね。",
+        "translation": "Even as a woman, I can't help admiring her.{n}She has such a bold, generous spirit.{n}I hear she's in a good mood on a new moon, though."
+      }
+    },
+    "club_cretaceous_013": {
+      "text": {
+        "reference": "情報屋の男：よお、サツに捕まるなんて、{n}おまえらしくもない、ドジふんだな。",
+        "translation": "Informant: Hey, getting pinched by the cops{n}isn't like you. You really screwed up."
+      }
+    },
+    "club_cretaceous_014": {
+      "text": {
+        "reference": "ところで、北山大学の騒ぎ、知ってるか？{n}警察が封鎖してるんだが、理由はふせてる。",
+        "translation": "By the way, heard about the trouble at Kitayama University?{n}The police have sealed it off,{n}but they're keeping the reason quiet."
+      }
+    },
+    "club_cretaceous_015": {
+      "text": {
+        "reference": "大学の中には、化け物が出てるそうだ。{n}悪魔とかいうたぐいのヤツだ。",
+        "translation": "They say monsters are loose inside.{n}Demons, or something like that."
+      }
+    },
+    "club_cretaceous_016": {
+      "text": {
+        "reference": "長い髪の女：この店に来ると、イヤなことは{n}すべて忘れられるわ。",
+        "translation": "Long-Haired Woman: Whenever I come here,{n}I can forget all my troubles."
+      }
+    },
+    "club_cretaceous_017": {
+      "text": {
+        "reference": "ボンデージ女：このごろ、警察は何やってん{n}だろ。市民の安全を守る、どころじゃないよ{n}あきれるね。",
+        "translation": "Bondage Woman: What the hell are the police{n}doing these days? Protecting the public?{n}Not even close. What a joke."
+      }
+    },
+    "club_cretaceous_018": {
+      "placeholders": {
+        "ward": "location_name"
+      },
+      "text": {
+        "reference": "ボンデージ女：ねえ、聞いた？{n}{ward}区のマンションに、幽霊が出るって話",
+        "translation": "Bondage Woman: Hey, did you hear?{n}They say a ghost appears in an apartment building{n}in {ward}."
+      }
+    },
+    "club_cretaceous_019": {
+      "text": {
+        "reference": "噂によると、呪い殺された人まで{n}出たらしいわ。",
+        "translation": "Rumor has it someone was even cursed to death."
+      }
+    },
+    "club_cretaceous_020": {
+      "placeholders": {
+        "ward": "location_name"
+      },
+      "text": {
+        "reference": "派手なカップル：{ward}区のマンションは、{n}おはらいでもしたほうが、いいんじゃないか",
+        "translation": "Flashy Couple: Maybe someone ought to perform{n}an exorcism on that apartment building in {ward}."
+      }
+    },
+    "club_cretaceous_021": {
+      "text": {
+        "reference": "それより、幽霊退治でもしたほうがいいか。",
+        "translation": "Then again, maybe they should just get rid of the ghost."
+      }
+    },
+    "club_cretaceous_022": {
+      "text": {
+        "reference": "ゴーストバスターでも、いればいいのにね。",
+        "translation": "If only there were a ghostbuster around."
+      }
+    },
+    "club_cretaceous_023": {
+      "text": {
+        "reference": "そうだな。",
+        "translation": "Yeah."
+      }
+    },
+    "club_cretaceous_024": {
+      "text": {
+        "reference": "情報屋の男：行方不明の吾妻とかいう{n}大学教授の噂を聞いたぜ。",
+        "translation": "Informant: I heard a rumor about a missing{n}university professor named Azuma."
+      }
+    },
+    "club_cretaceous_025": {
+      "text": {
+        "reference": "大学の北、笠置山に入っていくのを{n}見たやつがいる。{n}山の奥に隠れてるらしい。",
+        "translation": "Someone saw him heading into Mount Kasagi,{n}north of the university. Seems he's hiding{n}deep in the mountains."
+      }
+    },
+    "club_cretaceous_026": {
+      "text": {
+        "reference": "ボンデージ女：この前、雲雀ヶ丘で悪魔を{n}見たってヤツがいたよ。",
+        "translation": "Bondage Woman: Someone said he saw a demon{n}in Hibarigaoka the other day."
+      }
+    },
+    "club_cretaceous_027": {
+      "text": {
+        "reference": "でも、あたしに言わせりゃ、{n}雲雀ヶ丘に住んで、お高くとまってる{n}やつらなんて、悪魔みたいなもんだよ。",
+        "translation": "But as far as I'm concerned, the stuck-up snobs{n}who live in Hibarigaoka are demons already."
+      }
+    },
+    "club_cretaceous_028": {
+      "text": {
+        "reference": "情報屋の男：なぜ、博物館が閉鎖されたまま{n}か、知ってるか？",
+        "translation": "Informant: Know why the City Museum{n}is still closed?"
+      }
+    },
+    "club_cretaceous_029": {
+      "text": {
+        "reference": "実は、博物館は今、悪魔の巣になってる。",
+        "translation": "Truth is, the museum's become a den of demons."
+      }
+    },
+    "club_cretaceous_030": {
+      "text": {
+        "reference": "ボンデージ女：雲雀ヶ丘に悪魔が出たって話{n}本当だったらしいね。",
+        "translation": "Bondage Woman: Looks like that story about{n}demons in Hibarigaoka was true after all."
+      }
+    },
+    "club_cretaceous_031": {
+      "text": {
+        "reference": "どうせなら、雲雀ヶ丘のやつらを{n}みんな食っちまえば、よかったのに。",
+        "translation": "They should've eaten everyone in Hibarigaoka{n}while they were at it."
+      }
+    },
+    "club_cretaceous_032": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "長い髪の女：{city}は、静かでいい街だった{n}けど、平和が長続きしないような気がするの{n}気のせいだといいけど。",
+        "translation": "Long-Haired Woman: {city} was such a pleasant,{n}quiet city, but I have a feeling the peace won't last.{n}I hope it's only my imagination."
+      }
+    },
+    "club_cretaceous_033": {
+      "text": {
+        "reference": "＞マダムに会いますか？",
+        "translation": "> Meet with Madame Ginko?"
+      }
+    },
+    "club_cretaceous_034": {
+      "text": {
+        "reference": "情報屋の男：よお、葛葉。マダムがぜひ{n}おまえに会いたいって言うんだ。",
+        "translation": "Informant: Hey, Kuzunoha. Madame says{n}she absolutely has to see you."
+      }
+    },
+    "club_cretaceous_035": {
+      "text": {
+        "reference": "ふだんは、新月のときにしか人に会わない{n}お方が、ぜひって言うんだから、よほどの{n}用だぜ。",
+        "translation": "She normally meets people only on a new moon,{n}but she insists, so it must be{n}something serious."
+      }
+    },
+    "club_cretaceous_036": {
+      "text": {
+        "reference": "さあ、さっさと奥の部屋に行けよ。",
+        "translation": "Now hurry into the back room."
+      }
+    },
+    "club_cretaceous_037": {
+      "text": {
+        "reference": "マダム銀子：お久しぶりね。名探偵さん。",
+        "translation": "Madame Ginko: It's been a while, Great Detective."
+      }
+    },
+    "club_cretaceous_038": {
+      "text": {
+        "reference": "この間は、あやうく死にかけたそうね。{n}無事で何よりだったわ。",
+        "translation": "I hear you nearly died the other day.{n}I'm glad you came through safely."
+      }
+    },
+    "club_cretaceous_039": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "近頃、{city}の街は、やけに物騒になって{n}どうも警察の手には、おえそうにないし、{n}あなたの力がいるわね。名探偵さん。",
+        "translation": "{city} has become terribly dangerous lately.{n}It seems beyond what the police can handle,{n}so we need your power, Great Detective."
+      }
+    },
+    "club_cretaceous_040": {
+      "text": {
+        "reference": "マダム銀子：ようこそ、葛葉キョウジ。{n}今日は、あなたにお願いがあるの。",
+        "translation": "Madame Ginko: Welcome, Kyouji Kuzunoha.{n}I have a request for you today."
+      }
+    },
+    "club_cretaceous_041": {
+      "text": {
+        "reference": "東亜テレビが悪魔に乗っ取られたのよ。{n}はやく退治して……デビルサマナー。",
+        "translation": "Demons have taken over Toa TV.{n}Deal with them quickly... Devil Summoner."
+      }
+    },
+    "club_cretaceous_042": {
+      "text": {
+        "reference": "探偵じゃなく、デビルサマナーとしての{n}あなたにお願いするのよ。頼むわね。",
+        "translation": "I'm asking you as a Devil Summoner,{n}not as a detective. I'm counting on you."
+      }
+    },
+    "club_cretaceous_043": {
+      "text": {
+        "reference": "マダム銀子：お久しぶりね。名探偵さん。{n}いや、デビルサマナーさん。",
+        "translation": "Madame Ginko: It's been a while, Great Detective.{n}No... Devil Summoner."
+      }
+    },
+    "club_cretaceous_044": {
+      "text": {
+        "reference": "東亜テレビの悪魔退治は、ご苦労様でした。{n}噂通りのお強さでしたね。",
+        "translation": "Well done clearing the demons from Toa TV.{n}You are every bit as strong as the rumors said."
+      }
+    },
+    "club_cretaceous_045": {
+      "text": {
+        "reference": "あなたのおかげで、多くの人が救われました{n}人知れず苦しい戦いが続くと思いますが、{n}これからも頑張ってくださいね。",
+        "translation": "You saved many lives.{n}Your difficult battles may continue unseen,{n}but please keep fighting."
+      }
+    },
+    "club_cretaceous_046": {
+      "text": {
+        "reference": "マダム銀子：お元気？キョウジさん。",
+        "translation": "Madame Ginko: Have you been well, Kyouji?"
+      }
+    },
+    "club_cretaceous_047": {
+      "text": {
+        "reference": "デビルサマナーとしてのあなたは、{n}誰かのために戦っているのでは、{n}ないでしょうが、",
+        "translation": "As a Devil Summoner,{n}you may not be fighting{n}for anyone else's sake, but..."
+      }
+    },
+    "club_cretaceous_048": {
+      "text": {
+        "reference": "あなたの戦いのおかげで、悪魔と戦う術を{n}持たない多くの人が、助かっていることを{n}忘れないでくださいね。",
+        "translation": "Please remember that your battles save{n}many people who have no means{n}of fighting demons themselves."
+      }
+    }
+  }
+}

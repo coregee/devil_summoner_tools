@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "asset": "events/ginza_arcade.json",
+  "records": {
+    "game.evfile_1.m0193.p00": "ginza_coin_lockers_000.text",
+    "game.evfile_1.m0194.p00": "ginza_coin_lockers_001.text",
+    "game.evfile_1.m0195.p00": "ginza_coin_lockers_002.text",
+    "game.evfile_1.m0196.p00": "ginza_coin_lockers_003.text",
+    "game.evfile_1.m0197.p00": "ginza_coin_lockers_004.text",
+    "game.evfile_1.m0198.p00": "ginza_coin_lockers_005.text",
+    "game.evfile_1.m0199.p00": "ginza_coin_lockers_006.text",
+    "game.evfile_1.m0199.p01": "ginza_coin_lockers_007.text",
+    "game.evfile_1.m0200.p00": "ginza_coin_lockers_008.text",
+    "game.evfile_1.m0201.p00": "ginza_coin_lockers_000.text",
+    "game.evfile_1.m0201.p01": "ginza_coin_lockers_001.text",
+    "game.evfile_1.m0202.p00": "ginza_coin_lockers_009.text",
+    "game.evfile_1.m0203.p00": "ginza_coin_lockers_010.text",
+    "game.evfile_1.m0203.p01": "ginza_coin_lockers_011.text",
+    "game.evfile_1.m0203.p02": "ginza_coin_lockers_012.text",
+    "game.evfile_1.m0203.p03": "ginza_coin_lockers_013.text",
+    "game.evfile_1.m0204.p00": "ginza_coin_lockers_014.text",
+    "game.evfile_1.m0205.p00": "ginza_coin_lockers_015.text",
+    "game.evfile_1.m0206.p00": "ginza_coin_lockers_016.text",
+    "game.evfile_1.m0207.p00": "ginza_coin_lockers_017.text",
+    "game.evfile_1.m0208.p00": "ginza_coin_lockers_018.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  },
+  "glyph_tokens": {
+    "00c0": "yen_symbol"
+  }
+}

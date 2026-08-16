@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "city_hall_confrontation_000": {
+      "text": {
+        "reference": "＞市長は、どこかへ行ってしまったようだ。",
+        "translation": "> The Mayor appears to have gone somewhere."
+      }
+    },
+    "city_hall_confrontation_001": {
+      "text": {
+        "reference": "藤原市長：ひ、ひええっ！お助けを！{n}命ばかりは、助けてくれえっ！！",
+        "translation": "Mayor Fujiwara: E-Eeeek! Spare me!{n}Please, just let me live!!"
+      }
+    },
+    "city_hall_confrontation_002": {
+      "text": {
+        "reference": "……わ、わしは、何も知らん。{n}再開発計画も、この新市庁舎の建設も、{n}みんな山城議員がやったこと。",
+        "translation": "...I-I don't know anything.{n}The redevelopment plan and this New City Hall{n}were all Councillor Yamashiro's doing."
+      }
+    },
+    "city_hall_confrontation_003": {
+      "text": {
+        "reference": "わしは、ただただヤツの言いなりに{n}なっていただけだ。信じてくれ。",
+        "translation": "I merely did whatever he told me.{n}Please believe me."
+      }
+    },
+    "city_hall_confrontation_004": {
+      "text": {
+        "reference": "ヤツは今、市議会議事堂にいる。{n}最後の儀式だとか、なんとか言っていた。",
+        "translation": "He's in the City Council Chamber now.{n}He said something about a final ritual."
+      }
+    },
+    "city_hall_confrontation_005": {
+      "text": {
+        "reference": "議事堂へは、向かい側のドアから行ける。{n}ドアの鍵は、ここにある。",
+        "translation": "You can reach the chamber through the opposite door.{n}Here's the key."
+      }
+    },
+    "city_hall_confrontation_006": {
+      "text": {
+        "reference": "これをやるから、許してくれ、{n}見逃してくれ……。",
+        "translation": "I'll give you this, so forgive me.{n}Let me go..."
+      }
+    },
+    "city_hall_confrontation_007": {
+      "text": {
+        "reference": "＞議事堂の鍵を手に入れた。",
+        "translation": "> Obtained Capitol Key."
+      }
+    },
+    "city_hall_confrontation_008": {
+      "text": {
+        "reference": "藤原市長：……命だけは、助けてくれ。{n}議事堂に山城がいる。全てヤツの仕業だ。",
+        "translation": "Mayor Fujiwara: ...Please, spare my life.{n}Yamashiro is in the Council Chamber. This is all his doing."
+      }
+    },
+    "city_hall_confrontation_009": {
+      "text": {
+        "reference": "議事堂へは、向かい側のドアから行ける。",
+        "translation": "You can reach the Council Chamber through the opposite door."
+      }
+    },
+    "city_hall_confrontation_010": {
+      "text": {
+        "reference": "＞市議会議事堂。",
+        "translation": "> City Council Chamber"
+      }
+    },
+    "city_hall_confrontation_011": {
+      "text": {
+        "reference": "レイ：キョウジ、擬似アストラル界へ{n}行くの？",
+        "translation": "Rei: Kyouji, are you going{n}to the Pseudo-Astral Plane?"
+      }
+    },
+    "city_hall_confrontation_012": {
+      "text": {
+        "reference": "山城：よくやったぞ、シド・デイビス。{n}捕まえた小娘、秦野久美子の魂は、{n}擬似アストラル界に閉じ込めた。",
+        "translation": "Yamashiro: Well done, Sid Davis.{n}The soul of that girl you captured, Kumiko Hatano,{n}is imprisoned in the Pseudo-Astral Plane."
+      }
+    },
+    "city_hall_confrontation_013": {
+      "text": {
+        "reference": "あとは、小娘の魂を責めて、{n}例の本のありかを聞き出すのだ。",
+        "translation": "Now torment the girl's soul{n}and force her to reveal where that book is."
+      }
+    },
+    "city_hall_confrontation_014": {
+      "text": {
+        "reference": "シド：山城さマ、ネズミがまぎれこんで来た{n}ようですガ？",
+        "translation": "Sid: Councillor Yamashiro, it seems{n}a rat has slipped in."
+      }
+    },
+    "city_hall_confrontation_015": {
+      "text": {
+        "reference": "山城：それは、私がつぶしておこう。{n}おまえは気にせずに、擬似アストラル界へ{n}行き、小娘の魂をいたぶってくるがいい。",
+        "translation": "Yamashiro: I will crush it myself.{n}Ignore it. Go to the Pseudo-Astral Plane{n}and torture the girl's soul."
+      }
+    },
+    "city_hall_confrontation_016": {
+      "text": {
+        "reference": "シド：わかりましタ。山城さマ。",
+        "translation": "Sid: Understood, Councillor Yamashiro."
+      }
+    },
+    "city_hall_confrontation_017": {
+      "text": {
+        "reference": "山城：ようこそ、悪魔召喚師。{n}だが、ここに来るのは、いささか遅すぎた{n}ようだな。",
+        "translation": "Yamashiro: Welcome, Devil Summoner.{n}But it seems you have arrived{n}somewhat too late."
+      }
+    },
+    "city_hall_confrontation_018": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "我々の計画は、まもなく完了する。{n}最後の封印について記したメモを{n}手に入れれば、{city}の封印は消える。",
+        "translation": "Our plan will soon be complete.{n}Once we obtain the Professor's Note on the final seal,{n}the seals over {city} will vanish."
+      }
+    },
+    "city_hall_confrontation_019": {
+      "text": {
+        "reference": "山城：では、私が君たちの相手をしてやろう{n}君たちは、幸せだ。封印が消え、{n}大いなる怨霊の姿を見なくて済むのだから。",
+        "translation": "Yamashiro: Then I will deal with you myself.{n}You are fortunate. You will die before the seals vanish,{n}and be spared the sight of the great vengeful spirit."
+      }
+    },
+    "city_hall_confrontation_020": {
+      "text": {
+        "reference": "そして、死の前に私の真の姿、{n}デミウルゴスの姿が見られるのだから。",
+        "translation": "And before you die, you will behold my true form:{n}Demiurge."
+      }
+    },
+    "city_hall_confrontation_021": {
+      "text": {
+        "reference": "レイ：キョウジ、あたしの魔力で、あんた{n}1人なら擬似アストラル界へ送りこめるわ。",
+        "translation": "Rei: Kyouji, with my magic, I can send{n}only you into the Pseudo-Astral Plane."
+      }
+    },
+    "city_hall_confrontation_022": {
+      "text": {
+        "reference": "早く、シドとかいうヤツを追って。",
+        "translation": "Hurry and go after that man Sid."
+      }
+    },
+    "city_hall_confrontation_023": {
+      "text": {
+        "reference": "＞擬似アストラル界へ行きますか？",
+        "translation": "> Go to the Pseudo-Astral Plane?"
+      }
+    },
+    "city_hall_confrontation_024": {
+      "text": {
+        "reference": "レイ：あたしは、あんたを送り込むために{n}ここに残らなきゃいけないのよ。",
+        "translation": "Rei: I have to stay here{n}to send you through."
+      }
+    },
+    "city_hall_confrontation_025": {
+      "text": {
+        "reference": "さあ、擬似アストラル界への道を開けるわ。",
+        "translation": "Now I'll open the path to the Pseudo-Astral Plane."
+      }
+    },
+    "city_hall_confrontation_026": {
+      "text": {
+        "reference": "レイ：さあ、擬似アストラル界への道を{n}開けるわ。",
+        "translation": "Rei: Now I'll open the path{n}to the Pseudo-Astral Plane."
+      }
+    },
+    "city_hall_confrontation_027": {
+      "text": {
+        "reference": "キョウジ：おれは、ここから外に出られん。{n}現界に戻るなら、1人で戻れ。",
+        "translation": "Kyouji: I can't leave this place.{n}If you're returning to the human world,{n}you'll have to go alone."
+      }
+    },
+    "city_hall_confrontation_028": {
+      "text": {
+        "reference": "＞擬似アストラル界から、外に出ますか？",
+        "translation": "> Leave the Pseudo-Astral Plane?"
+      }
+    },
+    "city_hall_confrontation_029": {
+      "text": {
+        "reference": "レイ：……キョウジ……無事に戻って{n}来たのね。よかった。",
+        "translation": "Rei: ...Kyouji... You made it back safely.{n}Thank goodness."
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "asset": "events/hikawa_shrine.json",
+  "records": {
+    "game.evfile_1.m0044.p00": "hikawa_shrine_seal_000.text",
+    "game.evfile_1.m0045.p00": "hikawa_shrine_seal_001.text",
+    "game.evfile_1.m0046.p00": "hikawa_shrine_seal_002.text",
+    "game.evfile_1.m0046.p01": "hikawa_shrine_seal_003.text",
+    "game.evfile_1.m0046.p02": "hikawa_shrine_seal_004.text",
+    "game.evfile_1.m0046.p03": "hikawa_shrine_seal_005.text",
+    "game.evfile_1.m0047.p00": "hikawa_shrine_seal_006.text",
+    "game.evfile_1.m0048.p00": "hikawa_shrine_seal_007.text",
+    "game.evfile_1.m0049.p00": "hikawa_shrine_seal_008.text",
+    "game.evfile_1.m0050.p00": "hikawa_shrine_seal_009.text",
+    "game.evfile_1.m0055.p00": "hikawa_shrine_seal_010.text",
+    "game.evfile_1.m0056.p00": "hikawa_shrine_seal_011.text",
+    "game.evfile_1.m0056.p01": "hikawa_shrine_seal_012.text",
+    "game.evfile_1.m0056.p02": "hikawa_shrine_seal_013.text",
+    "game.evfile_1.m0056.p03": "hikawa_shrine_seal_014.text",
+    "game.evfile_1.m0056.p04": "hikawa_shrine_seal_015.text",
+    "game.evfile_1.m0056.p05": "hikawa_shrine_seal_016.text",
+    "game.evfile_1.m0056.p06": "hikawa_shrine_seal_017.text",
+    "game.evfile_1.m0056.p07": "hikawa_shrine_seal_018.text",
+    "game.evfile_1.m0056.p08": "hikawa_shrine_seal_019.text",
+    "game.evfile_1.m0056.p09": "hikawa_shrine_seal_020.text",
+    "game.evfile_1.m0056.p10": "hikawa_shrine_seal_021.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

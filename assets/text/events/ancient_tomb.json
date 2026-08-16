@@ -1,0 +1,337 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "ancient_tomb_approach_000": {
+      "text": {
+        "reference": "＞古代に造られた、石室のようだ。",
+        "translation": "> This appears to be an ancient stone chamber."
+      }
+    },
+    "ancient_tomb_approach_001": {
+      "text": {
+        "reference": "石造りの栓がある。回しますか？",
+        "translation": "There is a stone plug. Turn it?"
+      }
+    },
+    "ancient_tomb_approach_002": {
+      "text": {
+        "reference": "石造りの栓は、すでに回されている。",
+        "translation": "The stone plug has already been turned."
+      }
+    },
+    "ancient_tomb_approach_003": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "造魔：我は、{demon_name}。{n}玄室の門の一方を守るもの。{n}イナルナ姫の眠りを破るものは、許さぬ。",
+        "translation": "Zoma: I am {demon_name}.{n}I guard one side of the burial chamber gate.{n}None shall disturb Princess Inaruna's sleep."
+      }
+    },
+    "ancient_tomb_approach_004": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "＞造魔{demon_name}を倒した。",
+        "translation": "> Defeated Zoma {demon_name}."
+      }
+    },
+    "ancient_tomb_approach_005": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "＞造魔{demon_name}は、すでに倒した。",
+        "translation": "> Zoma {demon_name} has already been defeated."
+      }
+    },
+    "ancient_tomb_approach_006": {
+      "text": {
+        "reference": "＞石造の扉は、固く閉ざされている。",
+        "translation": "> The stone door is firmly shut."
+      }
+    },
+    "ancient_tomb_approach_007": {
+      "text": {
+        "reference": "＞石造の扉に、少しすきまができたようだ。",
+        "translation": "> A narrow gap has opened in the stone door."
+      }
+    },
+    "ancient_tomb_approach_008": {
+      "text": {
+        "reference": "＞石造の扉は、開けられるようだ。",
+        "translation": "> The stone door can now be opened."
+      }
+    },
+    "ancient_tomb_approach_009": {
+      "text": {
+        "reference": "扉から中に入りますか？",
+        "translation": "Enter through the door?"
+      }
+    },
+    "ancient_tomb_approach_010": {
+      "text": {
+        "reference": "＞石造の扉は、開いている。",
+        "translation": "> The stone door is open."
+      }
+    },
+    "ancient_tomb_approach_011": {
+      "text": {
+        "reference": "＞扉から出ますか？",
+        "translation": "> Leave through the door?"
+      }
+    },
+    "ancient_tomb_finale_000": {
+      "text": {
+        "reference": "シド：さア、イナルナ姫ヨ。怨念を蘇らせる{n}ときガ、来ましタ。あなたの封じこめられた{n}憎しみヲ、全て解き放つのでス。",
+        "translation": "Sid: Now, Princess Inaruna.{n}The time has come to revive your hatred.{n}Unleash all the hatred that was sealed within you."
+      }
+    },
+    "ancient_tomb_finale_001": {
+      "text": {
+        "reference": "あなたの直系の血筋にしテ、あなたの転生と{n}なる女性ヲ、あなたの依り代として、連れて{n}まいりましタ。",
+        "translation": "I have brought you a vessel:{n}a woman of your direct bloodline{n}who will become your reincarnation."
+      }
+    },
+    "ancient_tomb_finale_002": {
+      "text": {
+        "reference": "……ようやく来たカ、だがもう遅いのでス。{n}封印は全て解ケ、秦野久美子を依り代として{n}イナルナ姫の怨霊ハ、まもなく蘇りまス。",
+        "translation": "...So you finally came. But you are too late.{n}Every seal is broken. With Kumiko Hatano as her vessel,{n}Princess Inaruna's vengeful spirit will soon revive."
+      }
+    },
+    "ancient_tomb_finale_003": {
+      "text": {
+        "reference": "怨霊を封じこめていた封印ハ、その力を失イ{n}復活をさまたげるものハ、{n}もう何もありませン。",
+        "translation": "The seals that bound the vengeful spirit{n}have lost their power.{n}Nothing remains to prevent her return."
+      }
+    },
+    "ancient_tomb_finale_004": {
+      "text": {
+        "reference": "姫の怨霊の大いなる力によっテ、{n}大破壊が始まるのでス。フッフッフッフ。",
+        "translation": "The princess's vengeful spirit will unleash{n}the Great Cataclysm. Heh heh heh."
+      }
+    },
+    "ancient_tomb_finale_005": {
+      "text": {
+        "reference": "「組識」の目的ハ、これで達成されましタ。{n}愚かな人間どもニ、破壊の限りをつくしまス{n}みんな殺してしまいまス。フッフッフッフ。",
+        "translation": "The organization's objective is now achieved.{n}We will unleash destruction upon these foolish humans{n}and kill them all. Heh heh heh."
+      }
+    },
+    "ancient_tomb_finale_006": {
+      "text": {
+        "reference": "だガ、私はあなたと最後の決着ヲ、{n}つけなければなりませン。",
+        "translation": "But first, I must settle things with you{n}once and for all."
+      }
+    },
+    "ancient_tomb_finale_007": {
+      "text": {
+        "reference": "あなたが本物ノ、葛葉キョウジならまだしモ{n}見かけだけデ、中身がニセモノの{n}にわかデビルサマナーを生かしておいてハ、",
+        "translation": "If you were the real Kyouji Kuzunoha, perhaps.{n}But to let a novice Devil Summoner live--{n}Kyouji outside, a fraud within--"
+      }
+    },
+    "ancient_tomb_finale_008": {
+      "text": {
+        "reference": "ダークサマナーとしてノ、{n}私のプライドが許しませン！",
+        "translation": "my pride as a Dark Summoner{n}will not allow it!"
+      }
+    },
+    "ancient_tomb_finale_009": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "葛葉キョウジの身体ト、{last_name}{first_name}の魂ハ{n}ここデ、完全な死を迎えるのでス。",
+        "translation": "Kyouji Kuzunoha's body and{n}{first_name} {last_name}'s soul will meet{n}a complete and final death here."
+      }
+    },
+    "ancient_tomb_finale_010": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "シド：……さ、さすがハ、こ、ここまで……{n}来ただけのことはあル……強くなったナ……{n}葛葉、いヤ、{last_name}{first_name}……。",
+        "translation": "Sid: ...N-No wonder you made it this far...{n}You have grown strong... Kuzunoha...{n}No, {first_name} {last_name}..."
+      }
+    },
+    "ancient_tomb_finale_011": {
+      "text": {
+        "reference": "……だガ、その強さも無駄になっタ……。{n}復活するイナルナ姫の怨霊の前にハ……{n}……無力なのダ…………。",
+        "translation": "...But that strength is wasted...{n}Before Princess Inaruna's awakened spirit...{n}...you are powerless..."
+      }
+    },
+    "ancient_tomb_finale_012": {
+      "text": {
+        "reference": "イナルナ姫：……ワラワハ、許サヌ……、{n}忘レテハオラヌ……。ワラワニ、我ガ民ニ、{n}フルワレタ、オゾマシキ仕打チヲ…………。",
+        "translation": "Princess Inaruna: ...I WILL NOT FORGIVE...{n}NOR HAVE I FORGOTTEN... THE HORRORS INFLICTED{n}UPON ME... UPON MY PEOPLE..."
+      }
+    },
+    "ancient_tomb_finale_013": {
+      "text": {
+        "reference": "……怨ミハラサズニ、封ジラレタ、{n}ワラワノ力、今ココニ使ワン…………。{n}ワラワノ怨ミノ深サ、思イ知レ…………。",
+        "translation": "...SEALED AWAY BEFORE I COULD AVENGE US,{n}I SHALL USE MY POWER HERE AND NOW...{n}KNOW THE DEPTH OF MY HATRED..."
+      }
+    },
+    "ancient_tomb_finale_014": {
+      "text": {
+        "reference": "イナルナ姫：………………………わらわは、{n}一体何をしていたのであろうか？",
+        "translation": "Princess Inaruna: ...What have I been doing?"
+      }
+    },
+    "ancient_tomb_finale_015": {
+      "text": {
+        "reference": "怨みを抱いて、封じられた我が身に、{n}悪しき力が注ぎこまれていたようだ。",
+        "translation": "It seems an evil power was poured into me{n}as I lay sealed away, consumed by hatred."
+      }
+    },
+    "ancient_tomb_finale_016": {
+      "text": {
+        "reference": "そなたの力が、わらわを正気に戻したようだ{n}これで、我が想いは因果を越え、{n}解き放たれようぞ。",
+        "translation": "Your strength appears to have restored my senses.{n}Now my longing can transcend the bonds of karma{n}and be set free."
+      }
+    },
+    "ancient_tomb_finale_017": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "礼を言うぞ……ありがとう。{n}葛葉キョウジの身体に宿りし、{n}{last_name}{first_name}よ…………。",
+        "translation": "You have my gratitude... Thank you,{n}{first_name} {last_name}, whose soul dwells{n}within Kyouji Kuzunoha's body..."
+      }
+    },
+    "ancient_tomb_finale_018": {
+      "text": {
+        "reference": "久美子：…………………………………………{n}わたし、今まで何してたのかしら……。",
+        "translation": "Kumiko: ...{n}What have I been doing all this time...?"
+      }
+    },
+    "ancient_tomb_finale_019": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "……あなたが助けてくれたのね。{n}ありがとう……{first_name}くん。",
+        "translation": "...You saved me, didn't you?{n}Thank you... {first_name}."
+      }
+    },
+    "ancient_tomb_finale_020": {
+      "text": {
+        "reference": "あなたは、確かに生きている。{n}でも、あなたは葛葉キョウジさんとして{n}生きていくしかないのね……。",
+        "translation": "You truly are alive.{n}But you have no choice but to live on{n}as Kyouji Kuzunoha..."
+      }
+    },
+    "ancient_tomb_finale_021": {
+      "text": {
+        "reference": "さようならは、言わない。{n}また、会いましょう…………。",
+        "translation": "I won't say goodbye.{n}We'll see each other again..."
+      }
+    },
+    "ancient_tomb_finale_022": {
+      "text": {
+        "reference": "タカシ：よお、涙のお別れは、済んだか？",
+        "translation": "Takashi: Hey, done with the tearful goodbye?"
+      }
+    },
+    "ancient_tomb_finale_023": {
+      "text": {
+        "reference": "カロンのヤツは、おれに死んでほしいらしい{n}が、そうはいかん。",
+        "translation": "That bastard Charon apparently wants me dead,{n}but that's not happening."
+      }
+    },
+    "ancient_tomb_finale_024": {
+      "text": {
+        "reference": "おまえの戦いも、なんとか見られるようには{n}なってきたが、まだまだ、黙って見てられる{n}もんじゃねぇ。",
+        "translation": "Your fighting's finally becoming halfway respectable,{n}but you're still too sloppy for me to leave alone."
+      }
+    },
+    "ancient_tomb_finale_025": {
+      "text": {
+        "reference": "しばらくは、このチンピラの身体を借りて{n}この世に留まらせてもらう。",
+        "translation": "I'll borrow this punk's body for a while{n}and stick around in this world."
+      }
+    },
+    "ancient_tomb_finale_026": {
+      "text": {
+        "reference": "もっと、能力の高いヤツの身体に乗り移る{n}かもしれんがな。",
+        "translation": "Maybe I'll move into somebody{n}with a little more talent."
+      }
+    },
+    "ancient_tomb_finale_027": {
+      "text": {
+        "reference": "おまえの、デビルサマナーとしての戦いぶり{n}見守らせてもらう。あんまり、ヘマなことを{n}するなら、また無間地獄に落としてやる。",
+        "translation": "I'll keep an eye on how you fight as a Devil Summoner.{n}Screw up too badly, and I'll send you{n}back to Avici Hell."
+      }
+    },
+    "ancient_tomb_finale_028": {
+      "text": {
+        "reference": "せいぜい、がんばるんだな。あばよ。",
+        "translation": "You'd better keep at it. Later."
+      }
+    },
+    "ancient_tomb_finale_029": {
+      "text": {
+        "reference": "レイ：やったわね……キョウジ……。",
+        "translation": "Rei: You did it... Kyouji..."
+      }
+    },
+    "ancient_tomb_finale_030": {
+      "text": {
+        "reference": "あんた、本当はキョウジじゃない、{n}でも、今のあたしには、あんたが{n}デビルサマナー・葛葉キョウジ、なのよ。",
+        "translation": "You're not really Kyouji.{n}But as far as I'm concerned, you are now{n}the Devil Summoner Kyouji Kuzunoha."
+      }
+    },
+    "ancient_tomb_finale_031": {
+      "text": {
+        "reference": "でも、本当はキョウジじゃない……。",
+        "translation": "But you aren't really Kyouji..."
+      }
+    },
+    "ancient_tomb_finale_032": {
+      "text": {
+        "reference": "名前は、何て呼ばれたい？",
+        "translation": "What name do you want me to call you?"
+      }
+    },
+    "ancient_tomb_finale_033": {
+      "text": {
+        "reference": "……葛葉キョウジ……{n}デビルサマナー・葛葉キョウジ。",
+        "translation": "...Kyouji Kuzunoha...{n}The Devil Summoner Kyouji Kuzunoha."
+      }
+    },
+    "ancient_tomb_finale_034": {
+      "text": {
+        "reference": "あたしは、あんたのパートナー、{n}レイ・レイホゥよ。改めてよろしくね。",
+        "translation": "I'm your partner, Rei Reiho.{n}Let's make a fresh start."
+      }
+    },
+    "ancient_tomb_finale_035": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "……{last_name}{first_name}……{n}デビルサマナー・{last_name}{first_name}。",
+        "translation": "...{first_name} {last_name}...{n}The Devil Summoner {first_name} {last_name}."
+      }
+    },
+    "ancient_tomb_finale_036": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "＞かくして、{city}市を襲うはずだった{n}大破壊は、未然に防がれた。",
+        "translation": "> And so, the Great Cataclysm that threatened{n}{city} was averted."
+      }
+    },
+    "ancient_tomb_finale_037": {
+      "text": {
+        "reference": "そして、1人のデビルサマナーが誕生した。",
+        "translation": "And a new Devil Summoner was born."
+      }
+    }
+  }
+}
