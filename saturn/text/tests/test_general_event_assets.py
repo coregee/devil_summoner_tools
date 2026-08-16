@@ -164,7 +164,7 @@ class GeneralEventAssetTests(unittest.TestCase):
         )
 
 
-class SecondGeneralEventBankTests(unittest.TestCase):
+class MigratedGeneralEventBankTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         cls.bindings = [
@@ -266,6 +266,76 @@ class SecondGeneralEventBankTests(unittest.TestCase):
             if group.startswith("game.evfile_1.")
         ]
         self.assertEqual(len(expected_groups), 327)
+        self.assertEqual(len(groups), len(set(groups)))
+        self.assertEqual(set(groups), expected_groups)
+
+    def test_third_bank_has_complete_semantic_ownership(self) -> None:
+        physical_rows = json.loads(
+            (TEXT_ROOT / "corpus" / "game" / "eve" / "evfile_2.json")
+            .read_text(encoding="utf-8")
+        )
+        expected = {row["id"] for row in physical_rows}
+        uses = self.uses_for_bank(2)
+        self.assertEqual(len(expected), 154)
+        self.assertEqual(set(uses), expected)
+        self.assertEqual(len(set(uses.values())), 121)
+        self.assertEqual(len(uses) - len(set(uses.values())), 33)
+
+        earlier_uses = {
+            **self.uses_for_bank(0),
+            **self.uses_for_bank(1),
+        }
+        self.assertEqual(
+            len(set(earlier_uses.values()) & set(uses.values())), 4
+        )
+        self.assertEqual(
+            len(set(earlier_uses.values()) | set(uses.values())), 1382
+        )
+
+    def test_third_bank_reuses_only_proven_semantic_fields(self) -> None:
+        uses = self.uses_for_bank(2)
+        self.assertEqual(
+            uses["game.evfile_2.m0001.p00"],
+            "events/doctor_thrill.json#doctor_thrill_laboratory_001.text",
+        )
+        self.assertEqual(
+            uses["game.evfile_2.m0006.p00"],
+            "events/doctor_thrill.json#doctor_thrill_laboratory_007.text",
+        )
+        self.assertEqual(
+            uses["game.evfile_2.m0006.p01"],
+            "events/doctor_thrill.json#doctor_thrill_laboratory_008.text",
+        )
+        self.assertEqual(
+            uses["game.evfile_2.m0072.p00"],
+            "events/city_museum.json#city_museum_collection_008.text",
+        )
+
+        for qualified_ref in set(uses.values()):
+            asset_path, asset_ref = qualified_ref.split("#", 1)
+            field = self.assets[asset_path].field(asset_ref)
+            self.assertTrue(field.reference)
+            self.assertTrue(field.translation)
+            self.assertFalse(field.reviewed)
+
+    def test_every_third_bank_message_has_one_curated_scene(self) -> None:
+        rows = json.loads(
+            (TEXT_ROOT / "corpus" / "game" / "eve" / "evfile_2.json")
+            .read_text(encoding="utf-8")
+        )
+        expected_groups = {row["id"].rsplit(".p", 1)[0] for row in rows}
+        scenes = json.loads(
+            (TEXT_ROOT / "config" / "event_scenes.json").read_text(
+                encoding="utf-8"
+            )
+        )["scenes"]
+        groups = [
+            group
+            for scene in scenes.values()
+            for group in scene["physical_groups"]
+            if group.startswith("game.evfile_2.")
+        ]
+        self.assertEqual(len(expected_groups), 73)
         self.assertEqual(len(groups), len(set(groups)))
         self.assertEqual(set(groups), expected_groups)
 

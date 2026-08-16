@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "asset": "events/devil_buster_busters.json",
+  "records": {
+    "game.evfile_2.m0036.p00": "devil_buster_busters_000.text",
+    "game.evfile_2.m0036.p01": "devil_buster_busters_001.text",
+    "game.evfile_2.m0036.p02": "devil_buster_busters_002.text",
+    "game.evfile_2.m0036.p03": "devil_buster_busters_003.text",
+    "game.evfile_2.m0036.p04": "devil_buster_busters_004.text",
+    "game.evfile_2.m0036.p05": "devil_buster_busters_005.text",
+    "game.evfile_2.m0037.p00": "devil_buster_busters_006.text",
+    "game.evfile_2.m0037.p01": "devil_buster_busters_007.text",
+    "game.evfile_2.m0037.p02": "devil_buster_busters_008.text",
+    "game.evfile_2.m0037.p03": "devil_buster_busters_007.text",
+    "game.evfile_2.m0038.p00": "devil_buster_busters_009.text",
+    "game.evfile_2.m0038.p01": "devil_buster_busters_010.text",
+    "game.evfile_2.m0039.p00": "devil_buster_busters_011.text",
+    "game.evfile_2.m0039.p01": "devil_buster_busters_012.text",
+    "game.evfile_2.m0040.p00": "devil_buster_busters_013.text",
+    "game.evfile_2.m0041.p00": "devil_buster_busters_014.text",
+    "game.evfile_2.m0042.p00": "devil_buster_busters_015.text",
+    "game.evfile_2.m0043.p00": "devil_buster_busters_016.text",
+    "game.evfile_2.m0043.p01": "devil_buster_busters_012.text",
+    "game.evfile_2.m0043.p02": "devil_buster_busters_017.text",
+    "game.evfile_2.m0043.p03": "devil_buster_busters_010.text",
+    "game.evfile_2.m0044.p00": "devil_buster_busters_018.text",
+    "game.evfile_2.m0044.p01": "devil_buster_busters_001.text",
+    "game.evfile_2.m0045.p00": "devil_buster_busters_019.text",
+    "game.evfile_2.m0045.p01": "devil_buster_busters_020.text",
+    "game.evfile_2.m0045.p02": "devil_buster_busters_021.text",
+    "game.evfile_2.m0045.p03": "devil_buster_busters_001.text",
+    "game.evfile_2.m0046.p00": "devil_buster_busters_022.text",
+    "game.evfile_2.m0046.p01": "devil_buster_busters_023.text",
+    "game.evfile_2.m0046.p02": "devil_buster_busters_024.text",
+    "game.evfile_2.m0046.p03": "devil_buster_busters_025.text",
+    "game.evfile_2.m0046.p04": "devil_buster_busters_026.text",
+    "game.evfile_2.m0046.p05": "devil_buster_busters_027.text",
+    "game.evfile_2.m0047.p00": "devil_buster_busters_028.text",
+    "game.evfile_2.m0047.p01": "devil_buster_busters_029.text",
+    "game.evfile_2.m0047.p02": "devil_buster_busters_030.text",
+    "game.evfile_2.m0047.p03": "devil_buster_busters_001.text",
+    "game.evfile_2.m0048.p00": "devil_buster_busters_016.text",
+    "game.evfile_2.m0048.p01": "devil_buster_busters_012.text",
+    "game.evfile_2.m0048.p02": "devil_buster_busters_017.text",
+    "game.evfile_2.m0048.p03": "devil_buster_busters_010.text",
+    "game.evfile_2.m0049.p00": "devil_buster_busters_018.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

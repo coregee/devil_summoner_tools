@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "asset": "events/underground.json",
+  "records": {
+    "game.evfile_2.m0062.p00": "underground_guide_000.text",
+    "game.evfile_2.m0062.p01": "underground_guide_001.text",
+    "game.evfile_2.m0062.p02": "underground_guide_002.text",
+    "game.evfile_2.m0063.p00": "underground_guide_003.text",
+    "game.evfile_2.m0064.p00": "underground_guide_004.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

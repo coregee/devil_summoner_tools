@@ -27,11 +27,11 @@ class GeneralEventInventoryTests(unittest.TestCase):
                 "sources": 4,
                 "messages": 1103,
                 "pages": 2028,
-                "bound_pages": 1368,
-                "unbound_pages": 660,
-                "curated_scenes": 59,
-                "curated_messages": 792,
-                "unclassified_messages": 311,
+                "bound_pages": 1522,
+                "unbound_pages": 506,
+                "curated_scenes": 68,
+                "curated_messages": 865,
+                "unclassified_messages": 238,
             },
         )
         pages = [

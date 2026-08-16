@@ -56,11 +56,11 @@ their binary framing does not itself establish semantic scene boundaries. Runnin
 that actually frames them and recording literal speaker cues, tokens, and any
 existing asset uses. Scene, location, story-state, choice, and call-site fields
 remain explicitly unresolved until a compact entry in `event_scenes.json`
-grounds them. `EVFILE_0.EVE` and `EVFILE_1.EVE` are now complete: their 792
-text-bearing messages and 1,368 pages are assigned to 59 semantic scenes and
-bound to shared authored assets. The two remaining banks are a curation queue
-with 311 unclassified messages and 660 unbound pages. The report is not an
-authored asset and does not claim that one physical message equals one story
+grounds them. All three `EVFILE_*.EVE` banks are now complete: their 865
+text-bearing messages and 1,522 pages are assigned to 68 semantic scenes and
+bound to shared authored assets. The remaining `MESFILE.EVE` bank is a curation
+queue with 238 unclassified messages and 506 unbound pages. The report is not
+an authored asset and does not claim that one physical message equals one story
 scene.
 
 The generated corpus is binary evidence, not the translation editor. Assets
@@ -290,12 +290,12 @@ their wording is editable, but they remain recorded consumer-binding debt.
    exact semantic bindings, including the three deliberate same-source forks;
    the opening event workflow adds 18 mature Saturn pages to the same shared
    profile-entry asset without creating a platform-specific copy. The rest of
-   `EVFILE_0.EVE` and `EVFILE_1.EVE` are also complete: all 792 text-bearing
-   message groups and 1,368 physical pages bind to 1,283 human-facing fields
-   arranged by location, scene, or consumer rather than by event-bank
-   coordinates. Eighty-five repeat and cross-bank uses are explicit binding
-   fan-out instead of duplicated editable translations. The two structurally
-   empty `EVFILE_1` messages remain binary framing rather than editor rows.
+   All three `EVFILE_*.EVE` banks are also complete: 865 text-bearing message
+   groups and 1,522 physical pages bind to 1,400 human-facing fields arranged by
+   location, scene, or consumer rather than by event-bank coordinates. Their 122
+   repeat and cross-bank uses are explicit binding fan-out instead of duplicated
+   editable translations. The two structurally empty `EVFILE_1` messages remain
+   binary framing rather than editor rows.
 5. Produce complete encoding coverage and capacity reports for both discs.
 6. Finalize output encodings and deterministic full-corpus dictionary groups.
 7. Implement one atomic text repack; partial dictionary builds remain

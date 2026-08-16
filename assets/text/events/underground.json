@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "underground_guide_000": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "ホームレスの男：よお、あんた葛葉キョウジ{n}だけど、ホントは{last_name}{first_name}だろ。",
+        "translation": "Homeless Man: Hey, you're Kyouji Kuzunoha,{n}but you're really {first_name} {last_name}, right?"
+      }
+    },
+    "underground_guide_001": {
+      "text": {
+        "reference": "なんだか、地下もさわがしくなってきてよお{n}かなわんぜ。",
+        "translation": "Things are getting noisy underground too.{n}It's driving me nuts."
+      }
+    },
+    "underground_guide_002": {
+      "text": {
+        "reference": "こうやって、かなアミがあって通れねぇ{n}とこがイッパイあっけどよお、{n}そのうち、通れるようになるぜ。",
+        "translation": "There are lots of places blocked by chain-link{n}fences like this, but sooner or later,{n}you'll be able to get through."
+      }
+    },
+    "underground_guide_003": {
+      "text": {
+        "reference": "まあ、がんばってくれや。",
+        "translation": "Well, keep at it."
+      }
+    },
+    "underground_guide_004": {
+      "text": {
+        "reference": "よおし、そろそろ、いいだろう。{n}この奥に行ってみな。",
+        "translation": "All right, it should be about time.{n}Go see what's back there."
+      }
+    }
+  }
+}

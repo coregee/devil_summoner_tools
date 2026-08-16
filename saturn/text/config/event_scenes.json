@@ -1382,6 +1382,169 @@
       "choice_structure": null,
       "call_sites": [],
       "note": "Patron selection, rumors, and Madame Ginko's requests at Club Cretaceous."
+    },
+    "doctor_thrill_gargantua": {
+      "consumer": "events.doctor_thrill",
+      "physical_groups": [
+        "game.evfile_2.m0000",
+        "game.evfile_2.m0001",
+        "game.evfile_2.m0002",
+        "game.evfile_2.m0003",
+        "game.evfile_2.m0004",
+        "game.evfile_2.m0005",
+        "game.evfile_2.m0006",
+        "game.evfile_2.m0007",
+        "game.evfile_2.m0008"
+      ],
+      "location": "doctor_thrill_laboratory",
+      "story_state": "gargantua_completed",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Dr. Thrill completes Gargantua and drops either doll after its defeat."
+    },
+    "doctor_thrill_gargantua_q": {
+      "consumer": "events.doctor_thrill",
+      "physical_groups": [
+        "game.evfile_2.m0009",
+        "game.evfile_2.m0010",
+        "game.evfile_2.m0011",
+        "game.evfile_2.m0012",
+        "game.evfile_2.m0013",
+        "game.evfile_2.m0014",
+        "game.evfile_2.m0015",
+        "game.evfile_2.m0016",
+        "game.evfile_2.m0017"
+      ],
+      "location": "doctor_thrill_laboratory",
+      "story_state": "gargantua_q_completed",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Dr. Thrill returns with the armored Gargantua Q."
+    },
+    "doctor_thrill_gargantua_x": {
+      "consumer": "events.doctor_thrill",
+      "physical_groups": [
+        "game.evfile_2.m0018",
+        "game.evfile_2.m0019",
+        "game.evfile_2.m0020",
+        "game.evfile_2.m0021",
+        "game.evfile_2.m0022",
+        "game.evfile_2.m0023",
+        "game.evfile_2.m0024",
+        "game.evfile_2.m0025",
+        "game.evfile_2.m0026"
+      ],
+      "location": "doctor_thrill_laboratory",
+      "story_state": "gargantua_x_completed",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Dr. Thrill unveils his ultimate Zoma, Gargantua X."
+    },
+    "doctor_thrill_gargantua_8": {
+      "consumer": "events.doctor_thrill",
+      "physical_groups": [
+        "game.evfile_2.m0027",
+        "game.evfile_2.m0028",
+        "game.evfile_2.m0029",
+        "game.evfile_2.m0030",
+        "game.evfile_2.m0031",
+        "game.evfile_2.m0032",
+        "game.evfile_2.m0033",
+        "game.evfile_2.m0034",
+        "game.evfile_2.m0035"
+      ],
+      "location": "doctor_thrill_laboratory",
+      "story_state": "gargantua_8_completed",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Dr. Thrill's final close-combat Zoma, Gargantua 8, ends his experiments."
+    },
+    "devil_buster_busters": {
+      "consumer": "events.devil_buster_busters",
+      "physical_groups": [
+        "game.evfile_2.m0036",
+        "game.evfile_2.m0037",
+        "game.evfile_2.m0038",
+        "game.evfile_2.m0039",
+        "game.evfile_2.m0040",
+        "game.evfile_2.m0041",
+        "game.evfile_2.m0042",
+        "game.evfile_2.m0043",
+        "game.evfile_2.m0044",
+        "game.evfile_2.m0045",
+        "game.evfile_2.m0046",
+        "game.evfile_2.m0047",
+        "game.evfile_2.m0048",
+        "game.evfile_2.m0049"
+      ],
+      "location": "underground",
+      "story_state": "devil_buster_encounters",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Jack Frost and Jack-o'-Lantern challenge the player as the Devil Buster Busters."
+    },
+    "takashi_guidance": {
+      "consumer": "events.soul_transfer",
+      "physical_groups": [
+        "game.evfile_2.m0050",
+        "game.evfile_2.m0051"
+      ],
+      "location": null,
+      "story_state": "takashi_spell_guidance",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Kyouji's soul, acting through Takashi, directs the player to a spell in the office."
+    },
+    "seven_stars_gate": {
+      "consumer": "events.demon_realm",
+      "physical_groups": [
+        "game.evfile_2.m0052",
+        "game.evfile_2.m0053",
+        "game.evfile_2.m0054",
+        "game.evfile_2.m0055",
+        "game.evfile_2.m0056",
+        "game.evfile_2.m0057",
+        "game.evfile_2.m0058",
+        "game.evfile_2.m0059",
+        "game.evfile_2.m0060",
+        "game.evfile_2.m0061"
+      ],
+      "location": "demon_realm",
+      "story_state": "seven_stars_trial",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Beidou and Nandou Xingjun test the player before opening the supreme demon realm."
+    },
+    "underground_guide": {
+      "consumer": "events.underground",
+      "physical_groups": [
+        "game.evfile_2.m0062",
+        "game.evfile_2.m0063",
+        "game.evfile_2.m0064"
+      ],
+      "location": "underground",
+      "story_state": "underground_paths_opening",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "The underground homeless man identifies the player and hints when blocked paths will open."
+    },
+    "kyouji_equipment_cache": {
+      "consumer": "events.detective_office",
+      "physical_groups": [
+        "game.evfile_2.m0065",
+        "game.evfile_2.m0066",
+        "game.evfile_2.m0067",
+        "game.evfile_2.m0068",
+        "game.evfile_2.m0069",
+        "game.evfile_2.m0070",
+        "game.evfile_2.m0071",
+        "game.evfile_2.m0072"
+      ],
+      "location": "detective_office",
+      "story_state": "kyouji_equipment_recovery",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Kyouji retrieves his stored weapons and armor from the detective office back room."
     }
   }
 }

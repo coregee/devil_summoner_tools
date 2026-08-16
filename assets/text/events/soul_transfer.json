@@ -730,6 +730,30 @@
         "reference": "ガキ：ヒ～ホ～、ヒ～ホ～、迷路でヒ～ホ～{n}迷ってヒ～ホ～、ワ～プでヒ～ホ～。",
         "translation": "Gaki: Hee-ho, hee-ho! A maze, hee-ho!{n}Get lost, hee-ho! Then warp, hee-ho!"
       }
+    },
+    "takashi_guidance_000": {
+      "text": {
+        "reference": "タカシ：よお、なんとか戦ってるようだな。",
+        "translation": "Takashi: Hey. Looks like you're managing{n}to hold your own."
+      }
+    },
+    "takashi_guidance_001": {
+      "text": {
+        "reference": "だが、見られた戦いぶりじゃねぇ。{n}1ついいことを教えてやろう。{n}事務所に戻って、奥の部屋に入ってみな。",
+        "translation": "But you're still painful to watch.{n}I'll give you one useful tip.{n}Go back to the office and check the back room."
+      }
+    },
+    "takashi_guidance_002": {
+      "text": {
+        "reference": "魔法を1つ覚えられるぜ。{n}といっても、おまえは魔法が使えねぇから、{n}レイに覚えてもらうんだな。",
+        "translation": "There's a spell you can learn there.{n}You can't use magic yourself,{n}so have Rei learn it."
+      }
+    },
+    "takashi_guidance_003": {
+      "text": {
+        "reference": "あばよ。",
+        "translation": "Later."
+      }
     }
   }
 }

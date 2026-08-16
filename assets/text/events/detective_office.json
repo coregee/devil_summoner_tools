@@ -488,6 +488,48 @@
         "reference": "レイ：秦野久美子の家に行くの？{n}確か、雲雀ヶ丘にあったわね。",
         "translation": "Rei: Are you going to Kumiko Hatano's house?{n}That was in Hibarigaoka, right?"
       }
+    },
+    "kyouji_equipment_cache_000": {
+      "text": {
+        "reference": "キョウジ：まて、おれの装備を取っていく。{n}こっちだ。",
+        "translation": "Kyouji: Wait. I'm taking my gear with me.{n}It's this way."
+      }
+    },
+    "kyouji_equipment_cache_001": {
+      "text": {
+        "reference": "キョウジ：ここには、おれの武器や防具を{n}集めておいた。おれは、これを装備して戦う",
+        "translation": "Kyouji: I gathered my weapons and armor here.{n}I'm equipping them before we fight."
+      }
+    },
+    "kyouji_equipment_cache_002": {
+      "text": {
+        "reference": "キョウジ：まだ、残っている武器防具を{n}取るぞ。",
+        "translation": "Kyouji: There are still some weapons and armor{n}left here. Let's take them."
+      }
+    },
+    "kyouji_equipment_cache_003": {
+      "text": {
+        "reference": "おれの武器防具は、全て取った。{n}装備させてくれ。それから、シドを追って{n}行こう。",
+        "translation": "That's all of my gear.{n}Equip me with it. Then we'll go after Sid."
+      }
+    },
+    "kyouji_equipment_cache_004": {
+      "text": {
+        "reference": "物を持ち過ぎだ。おれの武器防具がまったく{n}取れなかった。",
+        "translation": "You're carrying too much.{n}I couldn't take any of my gear."
+      }
+    },
+    "kyouji_equipment_cache_005": {
+      "text": {
+        "reference": "物を持ち過ぎだ。おれの装備が{n}まだ残っている。",
+        "translation": "You're carrying too much.{n}Some of my gear is still here."
+      }
+    },
+    "kyouji_equipment_cache_006": {
+      "text": {
+        "reference": "キョウジ：ここには、おれの武器防具は{n}もう残っていない。",
+        "translation": "Kyouji: There's none of my gear left here."
+      }
     }
   }
 }

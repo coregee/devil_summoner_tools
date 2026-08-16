@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "asset": "events/demon_realm.json",
+  "records": {
+    "game.evfile_2.m0052.p00": "seven_stars_gate_000.text",
+    "game.evfile_2.m0052.p01": "seven_stars_gate_001.text",
+    "game.evfile_2.m0052.p02": "seven_stars_gate_002.text",
+    "game.evfile_2.m0052.p03": "seven_stars_gate_003.text",
+    "game.evfile_2.m0052.p04": "seven_stars_gate_004.text",
+    "game.evfile_2.m0052.p05": "seven_stars_gate_005.text",
+    "game.evfile_2.m0052.p06": "seven_stars_gate_006.text",
+    "game.evfile_2.m0052.p07": "seven_stars_gate_007.text",
+    "game.evfile_2.m0052.p08": "seven_stars_gate_008.text",
+    "game.evfile_2.m0053.p00": "seven_stars_gate_009.text",
+    "game.evfile_2.m0053.p01": "seven_stars_gate_008.text",
+    "game.evfile_2.m0054.p00": "seven_stars_gate_010.text",
+    "game.evfile_2.m0055.p00": "seven_stars_gate_011.text",
+    "game.evfile_2.m0055.p01": "seven_stars_gate_012.text",
+    "game.evfile_2.m0056.p00": "seven_stars_gate_013.text",
+    "game.evfile_2.m0056.p01": "seven_stars_gate_014.text",
+    "game.evfile_2.m0056.p02": "seven_stars_gate_015.text",
+    "game.evfile_2.m0057.p00": "seven_stars_gate_016.text",
+    "game.evfile_2.m0058.p00": "seven_stars_gate_017.text",
+    "game.evfile_2.m0059.p00": "seven_stars_gate_018.text",
+    "game.evfile_2.m0059.p01": "seven_stars_gate_019.text",
+    "game.evfile_2.m0060.p00": "seven_stars_gate_020.text",
+    "game.evfile_2.m0061.p00": "seven_stars_gate_021.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "seven_stars_gate_000": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "右の悪魔：よくぞ来られた。{n}汝、葛葉キョウジの身体を借る魂、{n}{last_name}{first_name}よ。",
+        "translation": "Demon on Right: Thou hast come far.{n}{first_name} {last_name}, soul who borrows{n}the body of Kyouji Kuzunoha."
+      }
+    },
+    "seven_stars_gate_001": {
+      "text": {
+        "reference": "我はホクトセイクン。{n}七星の下に、人間どもの死を司っておる。",
+        "translation": "I am Beidou Xingjun.{n}Beneath the Seven Stars, I hold dominion{n}over the deaths of humankind."
+      }
+    },
+    "seven_stars_gate_002": {
+      "text": {
+        "reference": "左の悪魔：わしはナントセイクン。{n}人間たちの、生の面倒をみておる。",
+        "translation": "Demon on Left: I am Nandou Xingjun.{n}I watch over the lives of humankind."
+      }
+    },
+    "seven_stars_gate_003": {
+      "text": {
+        "reference": "ホクトセイクン：この奥は、{n}悪魔どもの太極たる場所。{n}最強の悪魔どもが巣食うておる。",
+        "translation": "Beidou Xingjun: Beyond us lies{n}the demons' supreme realm.{n}The mightiest among them make their lairs there."
+      }
+    },
+    "seven_stars_gate_004": {
+      "text": {
+        "reference": "ナントセイクン：それでも汝が{n}この先に進まんとするならば、{n}この道を開けてやらんでもない。",
+        "translation": "Nandou Xingjun: Yet if thou wouldst pass beyond,{n}we may be persuaded to open the way."
+      }
+    },
+    "seven_stars_gate_005": {
+      "text": {
+        "reference": "ホクトセイクン：だがそれは、{n}我らが汝の力を、認めたならばの話。",
+        "translation": "Beidou Xingjun: But only if we judge{n}thy strength worthy."
+      }
+    },
+    "seven_stars_gate_006": {
+      "text": {
+        "reference": "ナントセイクン：満ちたる月が{n}絶え入る前に、わしらを倒すことが{n}出来るならばな。",
+        "translation": "Nandou Xingjun: If thou canst defeat us{n}before the full moon breathes its last."
+      }
+    },
+    "seven_stars_gate_007": {
+      "text": {
+        "reference": "ナントセイクン：さあ、いかが致す。{n}悪魔召喚師殿。",
+        "translation": "Nandou Xingjun: What sayest thou,{n}honored Devil Summoner?"
+      }
+    },
+    "seven_stars_gate_008": {
+      "text": {
+        "reference": "＞戦いますか？",
+        "translation": "> Fight them?"
+      }
+    },
+    "seven_stars_gate_009": {
+      "text": {
+        "reference": "ナントセイクン：またも来られたか、{n}悪魔召喚師殿。{n}我らと戦うのか？",
+        "translation": "Nandou Xingjun: Thou hast returned,{n}honored Devil Summoner.{n}Wilt thou fight us?"
+      }
+    },
+    "seven_stars_gate_010": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "ホクトセイクン：では参られい。{n}汝、流転する魂、{last_name}{first_name}よ。",
+        "translation": "Beidou Xingjun: Then come forth.{n}{first_name} {last_name}, thou ever-turning soul."
+      }
+    },
+    "seven_stars_gate_011": {
+      "text": {
+        "reference": "ホクトセイクン：御見事であった。{n}汝の器量であれば、この先を進むことも{n}可能であろう。",
+        "translation": "Beidou Xingjun: Well fought.{n}With thy mettle, thou mayst be able{n}to press onward."
+      }
+    },
+    "seven_stars_gate_012": {
+      "text": {
+        "reference": "ナントセイクン：では行かれるがよい。{n}くれぐれも達者でな。",
+        "translation": "Nandou Xingjun: Then go on thy way.{n}Mayst thou fare well."
+      }
+    },
+    "seven_stars_gate_013": {
+      "text": {
+        "reference": "ホクトセイクン：……残念だが、{n}このくらいの力量では{n}ここを通すわけにはいかぬな。",
+        "translation": "Beidou Xingjun: ...Regrettably,{n}with strength such as this,{n}I cannot permit thee to pass."
+      }
+    },
+    "seven_stars_gate_014": {
+      "text": {
+        "reference": "ナントセイクン：まあ、今日のところは{n}わしらの攻めに果てなかったことを{n}よしとするがよい。",
+        "translation": "Nandou Xingjun: For now, take comfort{n}that our assault did not claim thy life."
+      }
+    },
+    "seven_stars_gate_015": {
+      "text": {
+        "reference": "ホクトセイクン：では、戻られい。{n}己を鍛え直したなら、また来られよ。",
+        "translation": "Beidou Xingjun: Now return.{n}Train thyself anew, then come again."
+      }
+    },
+    "seven_stars_gate_016": {
+      "text": {
+        "reference": "ナントセイクン：うむ、それもよかろう。{n}何も急ぐ事は無いわ。",
+        "translation": "Nandou Xingjun: Mm. That too is well.{n}There is no need to hurry."
+      }
+    },
+    "seven_stars_gate_017": {
+      "text": {
+        "reference": "＞向こうへ行きますか？",
+        "translation": "> Go to the other side?"
+      }
+    },
+    "seven_stars_gate_018": {
+      "placeholders": {
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "ナントセイクン：ここから出るのかな？{n}{last_name}殿。",
+        "translation": "Nandou Xingjun: Wouldst thou leave this place,{n}{last_name}?"
+      }
+    },
+    "seven_stars_gate_019": {
+      "text": {
+        "reference": "＞ここから出ますか？",
+        "translation": "> Leave this place?"
+      }
+    },
+    "seven_stars_gate_020": {
+      "text": {
+        "reference": "ホクトセイクン：では、さらばだ。",
+        "translation": "Beidou Xingjun: Then farewell."
+      }
+    },
+    "seven_stars_gate_021": {
+      "text": {
+        "reference": "ホクトセイクン：そうか。{n}では、戻るがよい。",
+        "translation": "Beidou Xingjun: I see.{n}Then return."
+      }
+    }
+  }
+}
