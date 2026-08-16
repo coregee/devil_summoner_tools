@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import hashlib
+import json
 import struct
 import sys
 import unittest
@@ -120,6 +121,35 @@ class BattleUiEngineTests(unittest.TestCase):
         self.assertIn(BUILD_PATH, self.outputs)
         self.assertEqual(len(self.combat), 351064)
         self.assertEqual(len(self.outputs[NORMCOM_OUTPUT_PATH]), 352360)
+
+    def test_patch_recipes_are_readable_and_all_assembly_is_provenanced(self) -> None:
+        engine_root = SATURN_ROOT / "engine"
+        config = json.loads(
+            (engine_root / "config" / "battle_ui.json").read_text(encoding="utf-8")
+        )
+        self.assertEqual(config["version"], 2)
+        assembly = set()
+        for group in config["groups"]:
+            for patch in group["patches"]:
+                self.assertNotIn("replacement", patch)
+                self.assertNotIn("replacement_zero_bytes", patch)
+                for source in patch.get("assembly", ()):  # executable sources
+                    path = engine_root / "asm" / source
+                    self.assertTrue(path.is_file(), source)
+                    assembly.add(f"asm/{source}")
+        manifest = json.loads(self.outputs[BUILD_PATH])
+        self.assertEqual(set(manifest["assembly_inputs"]), assembly)
+
+    def test_shadowed_surface_blitter_is_an_intentional_battle_variant(self) -> None:
+        source = (
+            SATURN_ROOT
+            / "engine"
+            / "asm"
+            / "battle_ui"
+            / "font16_surface_blitter.s"
+        ).read_text(encoding="utf-8")
+        self.assertIn("fixed palette-index-1 shadow", source)
+        self.assertNotIn(".word", source)
 
 
 if __name__ == "__main__":

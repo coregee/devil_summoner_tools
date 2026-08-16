@@ -283,7 +283,7 @@ def _build_label_drawer(
 
 
 def _build_item_name_drawer(recipe: PatchRecipe, widths: bytes) -> bytes:
-    source = _only_source(recipe, "equipment_ui/equipment_item_name.s")
+    source = _only_source(recipe, "equipment_item_name.s")
     symbols = {
         "ITEM_FIRST": ITEM_FIRST,
         "ITEM_END": ITEM_END,
@@ -522,7 +522,7 @@ def _bind_patches(
                 elif recipe.name == "buy_sell_name_cave" and target == EVENT_TARGET:
                     replacement = buy_payload
                 elif recipe.name == "buy_sell_name_hook" and target == EVENT_TARGET:
-                    source = _only_source(recipe, "equipment_ui/trampoline.s")
+                    source = _only_source(recipe, "jump_r0.s")
                     replacement = _assembled(source, recipe.address, {"TARGET": buy_drawer})
                 elif recipe.name == "label_drawer":
                     replacement = _build_label_drawer(

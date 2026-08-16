@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import hashlib
+import json
 import struct
 import sys
 import unittest
@@ -12,9 +13,15 @@ if str(SATURN_ROOT) not in sys.path:
     sys.path.insert(0, str(SATURN_ROOT))
 
 from engine.surfaces.battle_negotiation import (  # noqa: E402
+    BUILD_PATH,
+    CONFIG_PATH,
     FONT16_METRICS_PATH,
     OUTPUT_PATH,
     build_battle_negotiation,
+)
+from engine.core.patch_recipes import (  # noqa: E402
+    ASSEMBLY_ROOT,
+    load_patch_recipe_configuration,
 )
 from text.util.assets import load_asset, load_bound_translations  # noqa: E402
 from text.util.event_repack import FontMetrics  # noqa: E402
@@ -28,7 +35,18 @@ class BattleNegotiationEngineTests(unittest.TestCase):
     def setUpClass(cls) -> None:
         cls.outputs = build_battle_negotiation()
         cls.combat = cls.outputs[OUTPUT_PATH]
+        cls.manifest = json.loads(cls.outputs[BUILD_PATH].decode("utf-8"))
         cls.metrics = FontMetrics.load(FONT16_METRICS_PATH)
+        cls.config = load_patch_recipe_configuration(
+            CONFIG_PATH,
+            surface="battle.negotiation",
+            target_names={"COMBAT.BIN"},
+            input_names={
+                "font16_metrics_sha256",
+                "font8_metrics_sha256",
+                "event_runtime_table_sha256",
+            },
+        )
 
     def _decode(self, address: int) -> str:
         position = address - LOAD_ADDRESS
@@ -76,6 +94,43 @@ class BattleNegotiationEngineTests(unittest.TestCase):
             PurePosixPath("characters.json")
         ).field("kyouji_kuzunoha.full_name").resolve()
         self.assertEqual(self._decode(0x060219C6), translation)
+
+    def test_executable_replacements_are_readable_assembly(self) -> None:
+        recipes = self.config.patches["COMBAT.BIN"]
+        kinds = [recipe.replacement.kind for recipe in recipes]
+        self.assertEqual(
+            {kind: kinds.count(kind) for kind in set(kinds)},
+            {
+                "assembly": 9,
+                "linked_pointer": 28,
+                "pointer": 2,
+                "instruction": 19,
+            },
+        )
+        sources = {
+            source.relative_to(ASSEMBLY_ROOT).as_posix()
+            for recipe in recipes
+            for source in recipe.replacement.sources
+        }
+        self.assertEqual(
+            sources,
+            {
+                "battle_negotiation/dialogue_vwf.s",
+                "battle_negotiation/dispatch_hook.s",
+                "battle_negotiation/english_inserts.s",
+                "battle_negotiation/font16_surface_blitter.s",
+                "battle_negotiation/packed_dispatch.s",
+                "battle_negotiation/store_hook.s",
+                "battle_negotiation/typewriter_reset_hook.s",
+                "battle_negotiation/typewriter_reset.s",
+                "battle_negotiation/typewriter_visible_hook.s",
+                "battle_negotiation/typewriter_visible.s",
+            },
+        )
+        self.assertEqual(len(self.manifest["assembly_inputs"]), len(sources))
+        self.assertNotIn(
+            '"replacement"', CONFIG_PATH.read_text(encoding="utf-8")
+        )
 
 
 if __name__ == "__main__":

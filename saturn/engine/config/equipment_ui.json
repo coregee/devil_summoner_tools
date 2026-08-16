@@ -26,7 +26,7 @@
           "name": "equipment_name_cave",
           "address": "0x06020400",
           "expected_zero_bytes": 416,
-          "assembly": ["equipment_ui/equipment_item_name.s"]
+          "assembly": ["equipment_item_name.s"]
         },
         {
           "name": "equipment_name_pointer_060596ec",
@@ -61,7 +61,7 @@
           "name": "buy_sell_name_hook",
           "address": "0x06033c9c",
           "expected": "2f862f962fa62fb62fc62fd6",
-          "assembly": ["equipment_ui/trampoline.s"]
+          "assembly": ["jump_r0.s"]
         },
         {
           "name": "shop_inventory_label_pointer_0603407c",

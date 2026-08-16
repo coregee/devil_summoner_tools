@@ -19,7 +19,7 @@ from engine.build import (  # noqa: E402
     build_fusion_surface,
 )
 from engine.surfaces.event_dialogue import stock_event  # noqa: E402
-from engine.surfaces.fusion import build_fusion_menu  # noqa: E402
+from engine.surfaces.fusion import CONFIG_PATH, build_fusion_menu  # noqa: E402
 
 
 class FusionEngineTests(unittest.TestCase):
@@ -66,6 +66,51 @@ class FusionEngineTests(unittest.TestCase):
             },
         )
 
+    def test_runtime_executable_is_owned_by_readable_assembly(self) -> None:
+        self.assertEqual(
+            {
+                path.relative_to(SATURN_ROOT / "engine").as_posix()
+                for path in self.fusion.assembly_files
+            },
+            {
+                "asm/font16_surface_blitter.s",
+                "asm/fusion/confirmation_pointer_lookup.s",
+                "asm/fusion/confirmation_pointer_lookup_stock.s",
+                "asm/fusion/font8_surface_blitter.s",
+                "asm/fusion/name_drawers.s",
+                "asm/fusion/name_sort.s",
+            },
+        )
+        module_source = Path(__file__).resolve().parents[1] / "surfaces" / "fusion.py"
+        self.assertNotIn("bytes.fromhex", module_source.read_text(encoding="utf-8"))
+
+    def test_patch_inventory_is_a_typed_recipe(self) -> None:
+        source = CONFIG_PATH.read_text(encoding="utf-8")
+        document = json.loads(source)
+        rows = [row for group in document["groups"] for row in group["patches"]]
+        self.assertEqual(document["version"], 2)
+        self.assertEqual(len(rows), 67)
+        self.assertNotIn('"replacement"', source)
+        self.assertEqual(
+            {
+                key: sum(key in row for row in rows)
+                for key in (
+                    "assembly",
+                    "generated",
+                    "pointer",
+                    "linked_pointer",
+                    "instruction",
+                )
+            },
+            {
+                "assembly": 3,
+                "generated": 4,
+                "pointer": 1,
+                "linked_pointer": 50,
+                "instruction": 9,
+            },
+        )
+
     def test_composed_event_output_is_deterministic(self) -> None:
         output = self.outputs[FUSION_OUTPUT_PATH]
         self.assertEqual(len(output), 354072)
@@ -76,6 +121,17 @@ class FusionEngineTests(unittest.TestCase):
 
     def test_manifest_accounts_for_every_consumer_patch(self) -> None:
         self.assertEqual(self.manifest["surface"], "fusion.menu")
+        self.assertEqual(
+            self.manifest["patch_config_sha256"],
+            hashlib.sha256(CONFIG_PATH.read_bytes()).hexdigest(),
+        )
+        self.assertEqual(
+            set(self.manifest["assembly_inputs"]),
+            {
+                path.relative_to(SATURN_ROOT.parent).as_posix()
+                for path in self.fusion.assembly_files
+            },
+        )
         self.assertEqual(self.manifest["runtime"]["end"], "0x06022e9a")
         self.assertEqual(self.manifest["patches"], 67)
         self.assertEqual(

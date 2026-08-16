@@ -37,7 +37,10 @@ from engine.surfaces.event_dialogue import (  # noqa: E402
     stock_event,
     validate_shopsmp_text_build,
 )
-from engine.surfaces.fusion import build_fusion_menu  # noqa: E402
+from engine.surfaces.fusion import (  # noqa: E402
+    CONFIG_PATH as FUSION_CONFIG_PATH,
+    build_fusion_menu,
+)
 
 
 GENERATED_ROOT = ENGINE_ROOT / "generated" / "game"
@@ -61,6 +64,7 @@ def build_fusion_surface() -> dict[Path, bytes]:
     manifest = {
         "version": 1,
         "surface": "fusion.menu",
+        "patch_config_sha256": file_sha256(FUSION_CONFIG_PATH),
         "base_event_output_sha256": sha256(event_patched),
         "base_event_manifest_sha256": sha256(
             event_outputs[BUILD_MANIFEST_PATH]
@@ -72,6 +76,10 @@ def build_fusion_surface() -> dict[Path, bytes]:
         "asset_inputs": {
             path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
             for path in fusion.asset_files
+        },
+        "assembly_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in fusion.assembly_files
         },
         "runtime": {
             "address": "0x06021800",

@@ -6,13 +6,14 @@ import re
 from dataclasses import dataclass
 from pathlib import Path
 
-from engine.core.patch_config import TargetContract, object_value, read_json
+from engine.core.config_io import TargetContract, object_value, read_json
 
 
 ENGINE_ROOT = Path(__file__).resolve().parents[1]
 ASSEMBLY_ROOT = ENGINE_ROOT / "asm"
 _HASH = re.compile(r"[0-9a-f]{64}\Z")
 _HEX = re.compile(r"0x[0-9a-f]+\Z")
+_NAME = re.compile(r"[a-z][a-z0-9_]*\Z")
 
 
 @dataclass(frozen=True, slots=True)
@@ -20,7 +21,9 @@ class ReplacementRecipe:
     kind: str
     sources: tuple[Path, ...] = ()
     pointer: int | None = None
+    link: str | None = None
     instruction: str | None = None
+    generator: str | None = None
 
 
 @dataclass(frozen=True, slots=True)
@@ -149,7 +152,13 @@ def load_patch_recipe_configuration(
             row_context = f"{context}.patches[{row_index}]"
             row = object_value(raw_row, row_context)
             expected_keys = set(row) & {"expected", "expected_zero_bytes"}
-            replacement_keys = set(row) & {"assembly", "pointer", "instruction"}
+            replacement_keys = set(row) & {
+                "assembly",
+                "pointer",
+                "linked_pointer",
+                "instruction",
+                "generated",
+            }
             if (
                 set(row) != {"name", "address"} | expected_keys | replacement_keys
                 or len(expected_keys) != 1
@@ -177,6 +186,27 @@ def load_patch_recipe_configuration(
                 replacement = ReplacementRecipe(
                     "pointer", pointer=_address(row["pointer"], f"{row_context}.pointer")
                 )
+            elif "linked_pointer" in row:
+                link = row["linked_pointer"]
+                if (
+                    len(expected) != 4
+                    or not isinstance(link, str)
+                    or _NAME.fullmatch(link) is None
+                ):
+                    raise ValueError(
+                        f"{row_context}.linked_pointer must name a four-byte link"
+                    )
+                replacement = ReplacementRecipe("linked_pointer", link=link)
+            elif "generated" in row:
+                generator = row["generated"]
+                if (
+                    not isinstance(generator, str)
+                    or _NAME.fullmatch(generator) is None
+                ):
+                    raise ValueError(
+                        f"{row_context}.generated must be a lowercase generator name"
+                    )
+                replacement = ReplacementRecipe("generated", generator=generator)
             else:
                 instruction = row["instruction"]
                 if (

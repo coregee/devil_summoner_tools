@@ -8,6 +8,12 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from engine.core.patching import Patch, apply_patches
+from engine.core.patch_recipes import (
+    PatchRecipe,
+    PatchRecipeConfiguration,
+    load_patch_recipe_configuration,
+)
+from engine.core.sh2 import AssemblyError, assemble, assemble_file
 from text.util.assets import BINDING_ROOT, load_asset, load_binding
 from text.util.event_repack import FontMetrics
 from text.util.surfaces import load_surfaces
@@ -20,6 +26,28 @@ FONT_ROOT = SATURN_ROOT / "font" / "generated" / "game"
 FONT16_METRICS_PATH = FONT_ROOT / "FONT16_metrics.json"
 FONT12_METRICS_PATH = FONT_ROOT / "FONT12_metrics.json"
 FONT8_METRICS_PATH = FONT_ROOT / "FONT8_metrics.json"
+CONFIG_PATH = ENGINE_ROOT / "config" / "fusion.json"
+ASSEMBLY_ROOT = ENGINE_ROOT / "asm"
+FUSION_ASSEMBLY_ROOT = ASSEMBLY_ROOT / "fusion"
+SURFACE_BLITTER_SOURCE = ASSEMBLY_ROOT / "font16_surface_blitter.s"
+FONT8_BLITTER_SOURCE = FUSION_ASSEMBLY_ROOT / "font8_surface_blitter.s"
+NAME_DRAWERS_SOURCE = FUSION_ASSEMBLY_ROOT / "name_drawers.s"
+NAME_SORT_SOURCE = FUSION_ASSEMBLY_ROOT / "name_sort.s"
+CONFIRMATION_LOOKUP_SOURCE = (
+    FUSION_ASSEMBLY_ROOT / "confirmation_pointer_lookup.s"
+)
+CONFIRMATION_LOOKUP_STOCK_SOURCE = (
+    FUSION_ASSEMBLY_ROOT / "confirmation_pointer_lookup_stock.s"
+)
+ASSEMBLY_FILES = (
+    SURFACE_BLITTER_SOURCE,
+    FONT8_BLITTER_SOURCE,
+    NAME_DRAWERS_SOURCE,
+    NAME_SORT_SOURCE,
+    CONFIRMATION_LOOKUP_SOURCE,
+    CONFIRMATION_LOOKUP_STOCK_SOURCE,
+)
+TARGET = "EVENT.BIN"
 
 LOAD_ADDRESS = 0x06020000
 CAVE_ADDRESS = 0x06021800
@@ -63,92 +91,6 @@ CONFIRMATION_WORDS = {
     "label_no": 4,
 }
 
-# These three position-independent blobs are the isolated mature Saturn
-# renderer templates. Their writable inputs are the explicit literal slots in
-# NAME_DRAWER_RELOCATIONS below; no prose or display labels live here.
-SURFACE_BLITTER = bytes.fromhex(
-    "2f862f962fa62fb62fc62fd62fe66a43695365636673d123681251f7641d4408"
-    "44084400384c5bf86bbced00616331dc611d219e021a6353332c6184611c4118"
-    "6284622c212b6033c903e7043708410047108bfc62334209322c32ace7056013"
-    "40194019c90f20088d0a300cd40e044d2b4ede0e0eed602120e90e1a30ec220"
-    "141084108720247108be97d01e1103d108bcc6ef66df66cf66bf66af669f6000"
-    "b68f60009060625980602b9f40602ba14"
-)
-FONT8_BLITTER = bytes.fromhex(
-    "2f862f962fa62fb62fc62fd62fe64f226843695349016a636073209e0e1a38e"
-    "c5cf9e00f2c095bf86bbd4b084b00d01e3b0ced002d9e0e1a3e8c66b4666ce"
-    "70063a3e1802618890461e3623360c3b01400094600666c73017701e0083702"
-    "8bf07d01e0083d028be54f266ef66df66cf66bf66af669f6000b68f6e501225"
-    "889084201312c6210622ce5f02259220b000b21204201312c6210622ce50f225"
-    "940084008220b000b212000219150"
-)
-NAME_DRAWERS = bytes.fromhex(
-    "61f2611dd0ad3108e02b31028b02d0ac402b00092f862f962fa62fb62fc62fd6"
-    "2fe64f227ff84100d0a6301c6001600dd8a5380ce218a08ee30261f2611dd09f"
-    "3108e02b31028b02d09d402b00092f862f962fa62fb62fc62fd62fe64f227ff8"
-    "d29a6013022c622ce01a30284001360c4100d097301c6001600dd896380ca06a"
-    "e30461f2611de02b31028b02d092402b00092f862f962fa62fb62fc62fd62fe6"
-    "4f227ff84100d08a301c6001600dd889380ce228a04fe304a003e304a001e300"
-    "e30261f2611d71ffd08431028b02d084402b00092f862f962fa62fb62fc62fd6"
-    "2fe64f227ff84100d07e301c6001600dd87d380ce260a02e000960f2600dd17b"
-    "3010891a600ce10630128b02d078402b000961032f862f962fa62fb62fc62fd6"
-    "2fe64f227ff84100d072301c6001600dd871380ce260a00d00092f862f962fa6"
-    "2fb62fc62fd62fe64f227ff8d86be260a001e301e30069436a536b636c735dfb"
-    "2f3260b3302c1f016033c8018b08ee206284622ce0ff600c32008948a00b0009"
-    "ee0862817802622dd05d3200893fd05d32008b00e20063f2e00433008b06d15a"
-    "6023021c622cd159a0010009d1586023011c611c2118892ae00433008b03e03f"
-    "32008900710166b33b1c50f13b06891e649365a367c32fd62f2653f2e0043300"
-    "8908e00233028902d04aa0050009d04aa00200097702d049400b00097f084e10"
-    "890563f26033c80189b2afba00097f084f266ef66df66cf66bf66af669f6000"
-    "b68f62f862f964f2258f3688d59f4e0ff600c3806891ad1346083081c688ce0"
-    "ff600c380089122f962f867702d033400b00097f08d12d6083001c600ce13f38"
-    "10890070014f2669f6000b68f62f962f86d029400b00097f08e00caff300094f"
-    "2290503702890d26688b0b51f22f1651f22f16d021400b00097f08e00f3b0ca"
-    "009000951f22f1651f22f16d01d400b00097f083b0c4f26000b000900000000"
-    "00db0603c4100602190c06021bec060227ec06022690060226e60603c4c80000"
-    "013f0603c50c0602196206021c6d000080000603c5c806021be0060226420023"
-    "fe14000080000000010b06022917060228170602180006022a180603b7600602"
-    "2ac806022d960096"
-)
-NAME_SORT_TEMPLATE = bytes.fromhex(
-    "2f862f962fa62fb62fc62fd62fe6d0296801688de00238028b444800d0266a02"
-    "d0266b02d0266c02dd26e9006693760236828932609304ad644d74ff44006043"
-    "04dd644d606305ad655d75ff4500605305dd655d3456890934508b1c609304ad"
-    "644d606305ad655d34568b14609301ad606302ad0a1560930a25609301bd6063"
-    "02bd0b1560930b25609301cd606302cd0c1560930c25afcb760279026e837efe"
-    "39e28bc36ef66df66cf66bf66af669f6000b68f6060768a806068e7806068e7"
-    "c06068e8006021962"
-)
-
-NAME_DRAWER_RELOCATIONS = {
-    708: "race_offsets",
-    712: "race_pool",
-    716: "chart_widths",
-    720: "table_race_offsets",
-    724: "table_race_pool",
-    740: "demon_offsets",
-    744: "demon_pool",
-    756: "character_offsets",
-    760: "character_pool",
-    776: "font8_map",
-    780: "font8_widths",
-    784: "font12_widths",
-    788: "surface_blitter",
-    796: "font8_blitter",
-    800: "fusion_word_font8_glyph",
-}
-NAME_DRAWER_LABELS = {
-    "fusion_preview_race": 0x000,
-    "fusion_chart_race": 0x03A,
-    "fusion_table_race": 0x082,
-    "fusion_table_demon": 0x0B8,
-    "fusion_demon_name": 0x0BC,
-    "fusion_preview_demon": 0x0C0,
-    "fusion_character_name": 0x0FA,
-    "fusion_word_font8_glyph": 0x222,
-    "fusion_guide_mixed_glyph": 0x27E,
-}
-
 
 @dataclass(frozen=True, slots=True)
 class FusionBuild:
@@ -157,14 +99,54 @@ class FusionBuild:
     addresses: dict[str, int]
     patches: tuple[Patch, ...]
     asset_files: tuple[Path, ...]
+    assembly_files: tuple[Path, ...]
 
 
 def _sha256(value: bytes) -> str:
     return hashlib.sha256(value).hexdigest()
 
 
+def _file_sha256(path: Path) -> str:
+    try:
+        return _sha256(path.read_bytes())
+    except FileNotFoundError as error:
+        raise ValueError(f"missing Fusion build input: {path}") from error
+
+
 def _align(payload: bytearray, alignment: int) -> None:
     payload.extend(bytes((-len(payload)) % alignment))
+
+
+def _assembled(
+    source: Path,
+    address: int,
+    symbols: dict[str, int],
+    *,
+    source_text: str | None = None,
+) -> tuple[bytes, dict[str, int]]:
+    try:
+        result = (
+            assemble(source_text, address, symbols)
+            if source_text is not None
+            else assemble_file(source, address, symbols)
+        )
+    except (AssemblyError, FileNotFoundError) as error:
+        raise ValueError(f"{source.relative_to(ENGINE_ROOT)}: {error}") from error
+    if result.warnings:
+        raise ValueError(
+            f"{source.relative_to(ENGINE_ROOT)}: assembly warnings: {result.warnings}"
+        )
+    return result.data, result.labels
+
+
+def _instruction(address: int, source: str) -> bytes:
+    try:
+        result = assemble(source, address)
+    except AssemblyError as error:
+        raise ValueError(f"fusion instruction at {address:#x}: {error}") from error
+    if result.warnings or len(result.data) != 2:
+        raise ValueError(f"fusion instruction at {address:#x} is not one word")
+    return result.data
 
 
 def _name_rows(binding_name: str, prefix: str, count: int) -> tuple[str, ...]:
@@ -237,7 +219,9 @@ def _encode_pool(
         try:
             pool.extend(codes[character] for character in value)
         except KeyError as error:
-            raise ValueError(f"unsupported fusion character {error.args[0]!r}") from error
+            raise ValueError(
+                f"unsupported fusion character {error.args[0]!r}"
+            ) from error
         pool.append(TERMINATOR)
     if len(pool) > 0xFFFF:
         raise ValueError("fusion text pool exceeds 16-bit offsets")
@@ -397,24 +381,91 @@ def _runtime_payload() -> tuple[bytes, dict[str, int], tuple[Path, ...]]:
     append("chart_widths", chart_widths)
     append("font8_widths", widths8)
     append("font8_map", code_map)
-    append("surface_blitter", SURFACE_BLITTER, alignment=4)
-    append("font8_blitter", FONT8_BLITTER, alignment=4)
+    _align(payload, 4)
+    surface_address = CAVE_ADDRESS + len(payload)
+    surface, _surface_labels = _assembled(
+        SURFACE_BLITTER_SOURCE,
+        surface_address,
+        {
+            "FONT12": 0x06062598,
+            "PATTERN_LUT": 0x0602B9F4,
+            "MASK_LUT": 0x0602BA14,
+        },
+    )
+    append("surface_blitter", surface)
+
+    _align(payload, 4)
+    font8_address = CAVE_ADDRESS + len(payload)
+    font8_blitter, _font8_labels = _assembled(
+        FONT8_BLITTER_SOURCE,
+        font8_address,
+        {"FONT8": 0x00219150},
+    )
+    append("font8_blitter", font8_blitter)
+
     _align(payload, 4)
     drawer_address = CAVE_ADDRESS + len(payload)
-    addresses.update(
+    drawer, drawer_labels = _assembled(
+        NAME_DRAWERS_SOURCE,
+        drawer_address,
         {
-            name: drawer_address + offset
-            for name, offset in NAME_DRAWER_LABELS.items()
-        }
+            "RACE_BASE": 219,
+            "RACE_COUNT": RACE_COUNT,
+            "RACE_STOCK": 0x0603C410,
+            "RACE_OFFSETS": addresses["race_offsets"],
+            "RACE_POOL": addresses["race_pool"],
+            "RACE_MAX_WIDTH": PREVIEW_RACE_WIDTH,
+            "CHART_RACE_WIDTHS": addresses["chart_widths"],
+            "CHART_CELL_WIDTH": CHART_CELL_WIDTH,
+            "TABLE_RACE_OFFSETS": addresses["table_race_offsets"],
+            "TABLE_RACE_POOL": addresses["table_race_pool"],
+            "TABLE_FONT8_MODE": 4,
+            "TABLE_RACE_MAX_WIDTH": TABLE_RACE_WIDTH,
+            "TABLE_RACE_STOCK": 0x0603C4C8,
+            "DVL_COUNT": DEMON_COUNT,
+            "DEMON_STOCK": 0x0603C50C,
+            "DVL_OFFSETS": addresses["demon_offsets"],
+            "DVL_POOL": addresses["demon_pool"],
+            "NAME_MAX_WIDTH": TABLE_NAME_WIDTH,
+            "PLAYER_ID": 0x8000,
+            "CHAR_COUNT": CHARACTER_COUNT,
+            "CHARACTER_STOCK": 0x0603C5C8,
+            "CHAR_OFFSETS": addresses["character_offsets"],
+            "CHAR_POOL": addresses["character_pool"],
+            "PLAYER_CODENAME": 0x0023FE14,
+            "WORD_TERMINATOR": WORD_TERMINATOR,
+            "FONT16_SPACE": FONT16_SPACE,
+            "FONT8_CODE_MAP": addresses["font8_map"],
+            "FONT8_WIDTHS": addresses["font8_widths"],
+            "WIDTHS": addresses["font12_widths"],
+            "FONT8_SPACE": codes8[" "],
+            "TABLE_FONT8_Y_OFFSET": 2,
+            "SURFACE_GLYPH": addresses["surface_blitter"],
+            "STOCK_GLYPH": 0x0603B760,
+            "FONT8_GLYPH": addresses["font8_blitter"],
+            "GUIDE_DESCRIPTION_Y": 150,
+        },
     )
-    drawer = bytearray(NAME_DRAWERS)
-    for offset, name in NAME_DRAWER_RELOCATIONS.items():
-        struct.pack_into(">I", drawer, offset, addresses[name])
+    label_names = {
+        "fusion_preview_race": "fusion_race_vwf",
+        "fusion_chart_race": "fusion_chart_race_font8",
+        "fusion_table_race": "fusion_table_race_font8",
+        "fusion_table_demon": "fusion_table_demon_font8",
+        "fusion_demon_name": "fusion_demon_name_vwf",
+        "fusion_preview_demon": "fusion_demon_preview_vwf",
+        "fusion_character_name": "fusion_character_name_vwf",
+        "fusion_word_font8_glyph": "fusion_word_font8_glyph",
+        "fusion_guide_mixed_glyph": "fusion_guide_mixed_glyph",
+    }
+    addresses.update(
+        {name: drawer_labels[label] for name, label in label_names.items()}
+    )
     addresses["name_drawers"] = drawer_address
     payload.extend(drawer)
     if CAVE_ADDRESS + len(payload) > CAVE_END:
         raise ValueError(
-            f"fusion runtime exceeds its cave by {CAVE_ADDRESS + len(payload) - CAVE_END} bytes"
+            "fusion runtime exceeds its cave by "
+            f"{CAVE_ADDRESS + len(payload) - CAVE_END} bytes"
         )
     return bytes(payload), addresses, (
         BINDING_ROOT / "demons.json",
@@ -428,30 +479,17 @@ def _runtime_payload() -> tuple[bytes, dict[str, int], tuple[Path, ...]]:
     )
 
 
-def _pointer_patches(
-    group: str,
-    prefix: str,
-    sites: tuple[int, ...],
-    expected: int,
-    replacement: int,
-) -> tuple[Patch, ...]:
-    return tuple(
-        Patch(
-            group,
-            f"{prefix}_{site:08x}" if len(sites) > 1 else prefix,
-            site,
-            struct.pack(">I", expected),
-            struct.pack(">I", replacement),
-        )
-        for site in sites
-    )
+def _only_source(recipe: PatchRecipe, expected: str) -> Path:
+    sources = recipe.replacement.sources
+    if (
+        len(sources) != 1
+        or sources[0].relative_to(ASSEMBLY_ROOT).as_posix() != expected
+    ):
+        raise ValueError(f"{recipe.group}/{recipe.name}: assembly source changed")
+    return sources[0]
 
 
-def _confirmation_patches(
-    original: bytes,
-    addresses: dict[str, int],
-    font16: FontMetrics,
-) -> tuple[Patch, ...]:
+def _confirmation_payloads(font16: FontMetrics) -> dict[str, bytes]:
     binding = load_binding(BINDING_ROOT / "facilities_gouma_den.json")
     catalog = load_asset(binding.asset)
 
@@ -494,277 +532,191 @@ def _confirmation_patches(
     if len(main) > MAIN_SIZE or CAVE_END + len(level) != PACKED_FETCH_ADDRESS:
         raise ValueError("fusion confirmation storage no longer fits its regions")
     main.extend(bytes(MAIN_SIZE - len(main)))
-
-    def stock(address: int, size: int) -> bytes:
-        offset = address - LOAD_ADDRESS
-        return original[offset : offset + size]
-
-    return (
-        Patch(
-            "fusion.confirmation",
-            "pointer_lookup",
-            0x060578A2,
-            bytes.fromhex("e128d21b2f26e200e700281ee602e514041ad118341c"),
-            bytes.fromhex("d21c2f26e200e700e602e51460834008d1197102041e"),
-        ),
-        Patch(
-            "fusion.confirmation",
-            "main_storage",
-            LOAD_ADDRESS + MAIN_FILE,
-            stock(LOAD_ADDRESS + MAIN_FILE, MAIN_SIZE),
-            bytes(main),
-        ),
-        Patch(
-            "fusion.confirmation",
-            "level_too_low",
-            CAVE_END,
-            bytes(len(level)),
-            level,
-        ),
-        Patch(
-            "fusion.confirmation",
-            "label_yes",
-            LOAD_ADDRESS + LABEL_YES_FILE,
-            stock(LOAD_ADDRESS + LABEL_YES_FILE, len(label_yes)),
-            label_yes,
-        ),
-        Patch(
-            "fusion.confirmation",
-            "label_no",
-            LOAD_ADDRESS + LABEL_NO_FILE,
-            stock(LOAD_ADDRESS + LABEL_NO_FILE, len(label_no)),
-            label_no,
-        ),
-        *_pointer_patches(
-            "fusion.confirmation",
-            "vwf_drawer",
-            (0x06057910,),
-            0x060517C4,
-            addresses["surface_blitter"],
-        ),
-    )
+    return {
+        "confirmation_main": bytes(main),
+        "confirmation_level_too_low": level,
+        "confirmation_label_yes": label_yes,
+        "confirmation_label_no": label_no,
+    }
 
 
-def _fusion_patches(
-    original: bytes, runtime: bytes, addresses: dict[str, int]
+def _instruction(recipe: PatchRecipe) -> bytes:
+    instruction = recipe.replacement.instruction
+    assert instruction is not None
+    try:
+        result = assemble(instruction, recipe.address)
+    except AssemblyError as error:
+        raise ValueError(f"{recipe.group}/{recipe.name}: {error}") from error
+    if result.warnings or len(result.data) != len(recipe.expected):
+        raise ValueError(f"{recipe.group}/{recipe.name}: invalid instruction")
+    return result.data
+
+
+def _assembly_patch(
+    recipe: PatchRecipe,
+    addresses: dict[str, int],
+    runtime: bytes,
+) -> bytes:
+    if recipe.name == "runtime_cave":
+        sources = {
+            path.relative_to(ASSEMBLY_ROOT).as_posix()
+            for path in recipe.replacement.sources
+        }
+        if sources != {
+            "font16_surface_blitter.s",
+            "fusion/font8_surface_blitter.s",
+            "fusion/name_drawers.s",
+        }:
+            raise ValueError("Fusion runtime assembly inventory changed")
+        if len(runtime) > len(recipe.expected):
+            raise ValueError("fusion runtime exceeds its configured cave")
+        return runtime.ljust(len(recipe.expected), b"\0")
+
+    if recipe.name == "english_name_sort":
+        source = _only_source(recipe, "fusion/name_sort.s")
+        if _sha256(recipe.expected) != NAME_SORT_STOCK_SHA256:
+            raise ValueError("fusion English-sort stock guard changed")
+        sorter, _labels = _assembled(
+            source,
+            recipe.address,
+            {
+                "DVL_OFFSETS": addresses["demon_offsets"],
+                "ROSTER_COUNT": 0x060768A8,
+                "ROSTER_IDS_PTR": 0x06068E78,
+                "ROSTER_AUX0_PTR": 0x06068E7C,
+                "ROSTER_AUX1_PTR": 0x06068E80,
+            },
+        )
+        if len(sorter) > len(recipe.expected):
+            raise ValueError("fusion English-sort assembly exceeds its stock region")
+        return sorter.ljust(len(recipe.expected), b"\0")
+
+    if recipe.name == "pointer_lookup":
+        source = _only_source(recipe, "fusion/confirmation_pointer_lookup.s")
+        symbols = {
+            "DESTINATION_LITERAL": 0x06057914,
+            "TABLE_LITERAL": 0x06057918,
+            "POINTER_TABLE_OFFSET": POINTER_TABLE_OFFSET,
+        }
+        replacement, _labels = _assembled(source, recipe.address, symbols)
+        stock, _stock_labels = _assembled(
+            CONFIRMATION_LOOKUP_STOCK_SOURCE,
+            recipe.address,
+            {
+                "DESTINATION_LITERAL": 0x06057914,
+                "TABLE_LITERAL": 0x06057918,
+            },
+        )
+        if stock != recipe.expected:
+            raise ValueError("fusion confirmation stock assembly disagrees with config")
+        return replacement
+
+    raise ValueError(f"unsupported Fusion assembly patch {recipe.name}")
+
+
+def _bind_patches(
+    config: PatchRecipeConfiguration,
+    runtime: bytes,
+    addresses: dict[str, int],
 ) -> tuple[Patch, ...]:
-    sort_offset = NAME_SORT_ADDRESS - LOAD_ADDRESS
-    sort_stock = original[sort_offset : sort_offset + NAME_SORT_SIZE]
-    if _sha256(sort_stock) != NAME_SORT_STOCK_SHA256:
-        raise ValueError("fusion English-sort region does not match stock")
-    sorter = bytearray(NAME_SORT_TEMPLATE)
-    struct.pack_into(">I", sorter, 196, addresses["demon_offsets"])
-    sorter.extend(bytes(NAME_SORT_SIZE - len(sorter)))
-
-    patches: list[Patch] = [
-        Patch(
-            "fusion.runtime",
-            "runtime_cave",
-            CAVE_ADDRESS,
-            bytes(len(runtime)),
-            runtime,
-        ),
-        Patch(
-            "fusion.list",
-            "english_name_sort",
-            NAME_SORT_ADDRESS,
-            sort_stock,
-            bytes(sorter),
-        ),
-        *_pointer_patches(
-            "fusion.list", "name_sort_pointer", (0x060457BC,), 0x060452AC, NAME_SORT_ADDRESS
-        ),
-        *_pointer_patches(
-            "fusion.list",
-            "actor_name",
-            (0x06041488,),
-            0x0603C5C8,
-            addresses["fusion_character_name"],
-        ),
-        *_pointer_patches(
-            "fusion.list",
-            "demon_name",
-            (0x06041498,),
-            0x0603C50C,
-            addresses["fusion_demon_name"],
-        ),
-        *_pointer_patches(
-            "fusion.preview",
-            "race",
-            (0x060419DC,),
-            0x0603C410,
-            addresses["fusion_preview_race"],
-        ),
-        *_pointer_patches(
-            "fusion.preview",
-            "demon",
-            (0x060419E0,),
-            0x0603C50C,
-            addresses["fusion_preview_demon"],
-        ),
-        *_pointer_patches(
-            "fusion.table",
-            "result_demon",
-            (0x06045EFC,),
-            0x0603C50C,
-            addresses["fusion_table_demon"],
-        ),
-        *_pointer_patches(
-            "fusion.table",
-            "level_glyph",
-            (0x06045DA0,),
-            0x0603B760,
-            addresses["surface_blitter"],
-        ),
-        Patch(
-            "fusion.table",
-            "level_second_digit_advance",
-            0x06045D50,
-            bytes.fromhex("790c"),
-            bytes.fromhex("7906"),
-        ),
-        Patch(
-            "fusion.guide",
-            "left_margin",
-            0x0603B8DA,
-            bytes.fromhex("eb00"),
-            bytes.fromhex("eb0a"),
-        ),
-        *_pointer_patches(
-            "fusion.guide",
-            "guide_glyph",
-            (0x0603B9B0,),
-            0x0603B760,
-            addresses["fusion_guide_mixed_glyph"],
-        ),
-        Patch(
-            "fusion.guide",
-            "guide_advance",
-            0x0603B91E,
-            bytes.fromhex("7b0f"),
-            bytes.fromhex("7b00"),
-        ),
-        Patch(
-            "fusion.guide",
-            "guide_terminator_count",
-            0x0603B912,
-            bytes.fromhex("e815"),
-            struct.pack(">H", 0xE800 | GUIDE_GLYPH_LIMIT),
-        ),
-        Patch(
-            "fusion.guide",
-            "guide_glyph_limit",
-            0x0603B918,
-            bytes.fromhex("e014"),
-            struct.pack(">H", 0xE000 | (GUIDE_GLYPH_LIMIT - 1)),
-        ),
-        *_pointer_patches(
-            "fusion.guide",
-            "help_glyph",
-            (0x0603BBD8,),
-            0x0603B760,
-            addresses["fusion_word_font8_glyph"],
-        ),
-        Patch(
-            "fusion.guide",
-            "help_advance",
-            0x0603BB06,
-            bytes.fromhex("7b0c"),
-            bytes.fromhex("3b0c"),
-        ),
-        Patch(
-            "fusion.guide",
-            "help_terminator_count",
-            0x0603BAFA,
-            bytes.fromhex("e815"),
-            struct.pack(">H", 0xE800 | HELP_GLYPH_LIMIT),
-        ),
-        Patch(
-            "fusion.guide",
-            "help_glyph_limit",
-            0x0603BB00,
-            bytes.fromhex("ed14"),
-            struct.pack(">H", 0xED00 | (HELP_GLYPH_LIMIT - 1)),
-        ),
-        *_pointer_patches(
-            "fusion.chart",
-            "word_glyph",
-            (0x0603C4C4,),
-            0x0603B760,
-            addresses["fusion_word_font8_glyph"],
-        ),
-        Patch(
-            "fusion.chart",
-            "word_advance",
-            0x0603C48E,
-            bytes.fromhex("780c"),
-            bytes.fromhex("380c"),
-        ),
-        *_pointer_patches(
-            "fusion.chart",
-            "race",
-            (0x0604442C, 0x0604461C),
-            0x0603C410,
-            addresses["fusion_chart_race"],
-        ),
-    ]
-    table_race_sites = (
-        0x0603D59C,
-        0x0603D670,
-        0x0603D840,
-        0x0603DA2C,
-        0x0603E330,
-        0x0603E524,
-        0x0603E774,
-        0x0603F720,
-        0x0603FA48,
-        0x0603FC5C,
-        0x06042B00,
-        0x06042BCC,
-        0x06042D5C,
-        0x06042F34,
-        0x06043118,
-        0x06043B1C,
-        0x06045A94,
-        0x060460D8,
-        0x06046314,
-    )
-    table_demon_sites = tuple(site + 4 for site in table_race_sites)
-    patches.extend(
-        _pointer_patches(
-            "fusion.table",
-            "race",
-            table_race_sites,
-            0x0603C4C8,
-            addresses["fusion_table_race"],
+    generated = _confirmation_payloads(FontMetrics.load(FONT16_METRICS_PATH))
+    patches: list[Patch] = []
+    assembly_seen: set[str] = set()
+    generated_seen: set[str] = set()
+    for recipe in config.patches[TARGET]:
+        replacement_recipe = recipe.replacement
+        if replacement_recipe.kind == "assembly":
+            assembly_seen.add(recipe.name)
+            replacement = _assembly_patch(recipe, addresses, runtime)
+        elif replacement_recipe.kind == "generated":
+            generator = replacement_recipe.generator
+            if generator is None or generator not in generated:
+                raise ValueError(
+                    f"{recipe.group}/{recipe.name}: unknown generator {generator!r}"
+                )
+            generated_seen.add(generator)
+            replacement = generated[generator]
+        elif replacement_recipe.kind == "pointer":
+            assert replacement_recipe.pointer is not None
+            replacement = struct.pack(">I", replacement_recipe.pointer)
+        elif replacement_recipe.kind == "linked_pointer":
+            link = replacement_recipe.link
+            if link is None or link not in addresses:
+                raise ValueError(
+                    f"{recipe.group}/{recipe.name}: unresolved Fusion link {link!r}"
+                )
+            replacement = struct.pack(">I", addresses[link])
+        elif replacement_recipe.kind == "instruction":
+            replacement = _instruction(recipe)
+        else:
+            raise ValueError(
+                f"{recipe.group}/{recipe.name}: unsupported replacement recipe"
+            )
+        if len(replacement) != len(recipe.expected):
+            raise ValueError(
+                f"{recipe.group}/{recipe.name}: replacement owns "
+                f"{len(replacement)} bytes, expected {len(recipe.expected)}"
+            )
+        patches.append(
+            Patch(
+                recipe.group,
+                recipe.name,
+                recipe.address,
+                recipe.expected,
+                replacement,
+            )
         )
-    )
-    patches.extend(
-        _pointer_patches(
-            "fusion.table",
-            "demon",
-            table_demon_sites,
-            0x0603C50C,
-            addresses["fusion_table_demon"],
-        )
-    )
-    patches.extend(
-        _confirmation_patches(
-            original, addresses, FontMetrics.load(FONT16_METRICS_PATH)
-        )
-    )
+    if assembly_seen != {"runtime_cave", "english_name_sort", "pointer_lookup"}:
+        raise ValueError("Fusion assembly patch inventory changed")
+    if generated_seen != set(generated):
+        raise ValueError("Fusion generated-data patch inventory changed")
     return tuple(patches)
 
 
 def build_fusion_menu(original: bytes, event_patched: bytes) -> FusionBuild:
     """Compose every Fusion consumer onto the already-built EVENT runtime."""
     _validate_surfaces()
+    config = load_patch_recipe_configuration(
+        CONFIG_PATH,
+        surface="fusion.menu",
+        target_names={TARGET},
+        input_names={
+            "font16_metrics_sha256",
+            "font12_metrics_sha256",
+            "font8_metrics_sha256",
+        },
+    )
+    actual_inputs = {
+        "font16_metrics_sha256": _file_sha256(FONT16_METRICS_PATH),
+        "font12_metrics_sha256": _file_sha256(FONT12_METRICS_PATH),
+        "font8_metrics_sha256": _file_sha256(FONT8_METRICS_PATH),
+    }
+    for name, actual in actual_inputs.items():
+        if config.inputs[name] != actual:
+            raise ValueError(
+                f"Fusion patch input {name} is {actual}, "
+                f"expected {config.inputs[name]}"
+            )
+    contract = config.targets[TARGET]
+    if (
+        len(original) != contract.size
+        or _sha256(original) != contract.stock_sha256
+        or len(event_patched) != contract.size
+    ):
+        raise ValueError("Fusion EVENT inputs do not match the configured target")
     runtime, addresses, asset_files = _runtime_payload()
-    patches = _fusion_patches(original, runtime, addresses)
+    patches = _bind_patches(config, runtime, addresses)
+    assembly_files = set(ASSEMBLY_FILES)
+    assembly_files.update(
+        source
+        for recipe in config.patches[TARGET]
+        for source in recipe.replacement.sources
+    )
     return FusionBuild(
-        apply_patches(event_patched, LOAD_ADDRESS, patches),
+        apply_patches(event_patched, contract.load_address, patches),
         runtime,
         addresses,
         patches,
         asset_files,
+        tuple(sorted(assembly_files)),
     )

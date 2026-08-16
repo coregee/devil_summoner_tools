@@ -1,0 +1,477 @@
+{
+  "version": 2,
+  "surface": "fusion.menu",
+  "targets": {
+    "EVENT.BIN": {
+      "load_address": "0x06020000",
+      "size": 354072,
+      "stock_sha256": "73a24f782f6618081028511e9fcc4c845a79a577e1907a6a6affc9e9f1e2ce84"
+    }
+  },
+  "inputs": {
+    "font16_metrics_sha256": "3ce6e6c916da3f4bc3c7a702c9ae07f84519185a45e2f733c13726cab6532fa3",
+    "font12_metrics_sha256": "7df60be0cd524e3fd37dcae84ecc345db24514d771c3ced728dd2de82081f3a9",
+    "font8_metrics_sha256": "8a94b96050127988e9d4b330f5e4ea8626830a5cfc5efa7da6d0ac8f98979d7e"
+  },
+  "groups": [
+    {
+      "capability": "fusion.runtime",
+      "target": "EVENT.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "runtime_cave",
+          "address": "0x06021800",
+          "expected_zero_bytes": 6076,
+          "assembly": [
+            "font16_surface_blitter.s",
+            "fusion/font8_surface_blitter.s",
+            "fusion/name_drawers.s"
+          ]
+        }
+      ]
+    },
+    {
+      "capability": "fusion.list",
+      "target": "EVENT.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "english_name_sort",
+          "address": "0x060451e0",
+          "expected": "624de1753216890672c16123312c312c6013a04d4000914d32168907728a6123312c312c311c6013a0427001914332168d02e000a03c200b913e32168902913ca005321c913a321689089138321c6123312c312c311c6013a02a7002913032168908912a321c6123312c312c311c6013a01e7004912532168f1ae00f9122321689029120a005321c911e32168908911c321c6123312c312c311c6013a00870039111321c6123312c312c311c60137005000b600d00ac00cc00dbff3800e0ff3d00e500e600f5ff1e00faff232f862f962fa62fb62fc62fd62fe64f227ff4d1426712d3426131e200611d71ff32138f02ee00a06e200bd63e6de37d01a0576131ea0060626c133c1c01cde508611d015768ad011a318c317c71f86410d535644c1f61450b1f72690361dd56f16b1360623b1c01bde508611d015757f2011a318c317c71f86410d52b450b644c699d600d56f139068f1c57f2616262c3321c31bc6511632122512131d123611262c3321c31bc6511632122512131d120611262c3321c632131bc6511ea082251a004213139028d027a01ea087a0161ade50731568d0261edafad200b7d01d110611162dd611d32128d0261edafa2200b7e01d30b613162ed611d71ff32138d026de3af94200b7f0c4f266ef66df66cf66bf66af669f6000b68f6000006062550060768a806068e78060451e006068e8006068e7c",
+          "assembly": [
+            "fusion/name_sort.s"
+          ]
+        },
+        {
+          "name": "name_sort_pointer",
+          "address": "0x060457bc",
+          "expected": "060452ac",
+          "pointer": "0x060451e0"
+        },
+        {
+          "name": "actor_name",
+          "address": "0x06041488",
+          "expected": "0603c5c8",
+          "linked_pointer": "fusion_character_name"
+        },
+        {
+          "name": "demon_name",
+          "address": "0x06041498",
+          "expected": "0603c50c",
+          "linked_pointer": "fusion_demon_name"
+        }
+      ]
+    },
+    {
+      "capability": "fusion.preview",
+      "target": "EVENT.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "race",
+          "address": "0x060419dc",
+          "expected": "0603c410",
+          "linked_pointer": "fusion_preview_race"
+        },
+        {
+          "name": "demon",
+          "address": "0x060419e0",
+          "expected": "0603c50c",
+          "linked_pointer": "fusion_preview_demon"
+        }
+      ]
+    },
+    {
+      "capability": "fusion.table",
+      "target": "EVENT.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "result_demon",
+          "address": "0x06045efc",
+          "expected": "0603c50c",
+          "linked_pointer": "fusion_table_demon"
+        },
+        {
+          "name": "level_glyph",
+          "address": "0x06045da0",
+          "expected": "0603b760",
+          "linked_pointer": "surface_blitter"
+        },
+        {
+          "name": "level_second_digit_advance",
+          "address": "0x06045d50",
+          "expected": "790c",
+          "instruction": "add #6, r9"
+        },
+        {
+          "name": "race_0603d59c",
+          "address": "0x0603d59c",
+          "expected": "0603c4c8",
+          "linked_pointer": "fusion_table_race"
+        },
+        {
+          "name": "race_0603d670",
+          "address": "0x0603d670",
+          "expected": "0603c4c8",
+          "linked_pointer": "fusion_table_race"
+        },
+        {
+          "name": "race_0603d840",
+          "address": "0x0603d840",
+          "expected": "0603c4c8",
+          "linked_pointer": "fusion_table_race"
+        },
+        {
+          "name": "race_0603da2c",
+          "address": "0x0603da2c",
+          "expected": "0603c4c8",
+          "linked_pointer": "fusion_table_race"
+        },
+        {
+          "name": "race_0603e330",
+          "address": "0x0603e330",
+          "expected": "0603c4c8",
+          "linked_pointer": "fusion_table_race"
+        },
+        {
+          "name": "race_0603e524",
+          "address": "0x0603e524",
+          "expected": "0603c4c8",
+          "linked_pointer": "fusion_table_race"
+        },
+        {
+          "name": "race_0603e774",
+          "address": "0x0603e774",
+          "expected": "0603c4c8",
+          "linked_pointer": "fusion_table_race"
+        },
+        {
+          "name": "race_0603f720",
+          "address": "0x0603f720",
+          "expected": "0603c4c8",
+          "linked_pointer": "fusion_table_race"
+        },
+        {
+          "name": "race_0603fa48",
+          "address": "0x0603fa48",
+          "expected": "0603c4c8",
+          "linked_pointer": "fusion_table_race"
+        },
+        {
+          "name": "race_0603fc5c",
+          "address": "0x0603fc5c",
+          "expected": "0603c4c8",
+          "linked_pointer": "fusion_table_race"
+        },
+        {
+          "name": "race_06042b00",
+          "address": "0x06042b00",
+          "expected": "0603c4c8",
+          "linked_pointer": "fusion_table_race"
+        },
+        {
+          "name": "race_06042bcc",
+          "address": "0x06042bcc",
+          "expected": "0603c4c8",
+          "linked_pointer": "fusion_table_race"
+        },
+        {
+          "name": "race_06042d5c",
+          "address": "0x06042d5c",
+          "expected": "0603c4c8",
+          "linked_pointer": "fusion_table_race"
+        },
+        {
+          "name": "race_06042f34",
+          "address": "0x06042f34",
+          "expected": "0603c4c8",
+          "linked_pointer": "fusion_table_race"
+        },
+        {
+          "name": "race_06043118",
+          "address": "0x06043118",
+          "expected": "0603c4c8",
+          "linked_pointer": "fusion_table_race"
+        },
+        {
+          "name": "race_06043b1c",
+          "address": "0x06043b1c",
+          "expected": "0603c4c8",
+          "linked_pointer": "fusion_table_race"
+        },
+        {
+          "name": "race_06045a94",
+          "address": "0x06045a94",
+          "expected": "0603c4c8",
+          "linked_pointer": "fusion_table_race"
+        },
+        {
+          "name": "race_060460d8",
+          "address": "0x060460d8",
+          "expected": "0603c4c8",
+          "linked_pointer": "fusion_table_race"
+        },
+        {
+          "name": "race_06046314",
+          "address": "0x06046314",
+          "expected": "0603c4c8",
+          "linked_pointer": "fusion_table_race"
+        },
+        {
+          "name": "demon_0603d5a0",
+          "address": "0x0603d5a0",
+          "expected": "0603c50c",
+          "linked_pointer": "fusion_table_demon"
+        },
+        {
+          "name": "demon_0603d674",
+          "address": "0x0603d674",
+          "expected": "0603c50c",
+          "linked_pointer": "fusion_table_demon"
+        },
+        {
+          "name": "demon_0603d844",
+          "address": "0x0603d844",
+          "expected": "0603c50c",
+          "linked_pointer": "fusion_table_demon"
+        },
+        {
+          "name": "demon_0603da30",
+          "address": "0x0603da30",
+          "expected": "0603c50c",
+          "linked_pointer": "fusion_table_demon"
+        },
+        {
+          "name": "demon_0603e334",
+          "address": "0x0603e334",
+          "expected": "0603c50c",
+          "linked_pointer": "fusion_table_demon"
+        },
+        {
+          "name": "demon_0603e528",
+          "address": "0x0603e528",
+          "expected": "0603c50c",
+          "linked_pointer": "fusion_table_demon"
+        },
+        {
+          "name": "demon_0603e778",
+          "address": "0x0603e778",
+          "expected": "0603c50c",
+          "linked_pointer": "fusion_table_demon"
+        },
+        {
+          "name": "demon_0603f724",
+          "address": "0x0603f724",
+          "expected": "0603c50c",
+          "linked_pointer": "fusion_table_demon"
+        },
+        {
+          "name": "demon_0603fa4c",
+          "address": "0x0603fa4c",
+          "expected": "0603c50c",
+          "linked_pointer": "fusion_table_demon"
+        },
+        {
+          "name": "demon_0603fc60",
+          "address": "0x0603fc60",
+          "expected": "0603c50c",
+          "linked_pointer": "fusion_table_demon"
+        },
+        {
+          "name": "demon_06042b04",
+          "address": "0x06042b04",
+          "expected": "0603c50c",
+          "linked_pointer": "fusion_table_demon"
+        },
+        {
+          "name": "demon_06042bd0",
+          "address": "0x06042bd0",
+          "expected": "0603c50c",
+          "linked_pointer": "fusion_table_demon"
+        },
+        {
+          "name": "demon_06042d60",
+          "address": "0x06042d60",
+          "expected": "0603c50c",
+          "linked_pointer": "fusion_table_demon"
+        },
+        {
+          "name": "demon_06042f38",
+          "address": "0x06042f38",
+          "expected": "0603c50c",
+          "linked_pointer": "fusion_table_demon"
+        },
+        {
+          "name": "demon_0604311c",
+          "address": "0x0604311c",
+          "expected": "0603c50c",
+          "linked_pointer": "fusion_table_demon"
+        },
+        {
+          "name": "demon_06043b20",
+          "address": "0x06043b20",
+          "expected": "0603c50c",
+          "linked_pointer": "fusion_table_demon"
+        },
+        {
+          "name": "demon_06045a98",
+          "address": "0x06045a98",
+          "expected": "0603c50c",
+          "linked_pointer": "fusion_table_demon"
+        },
+        {
+          "name": "demon_060460dc",
+          "address": "0x060460dc",
+          "expected": "0603c50c",
+          "linked_pointer": "fusion_table_demon"
+        },
+        {
+          "name": "demon_06046318",
+          "address": "0x06046318",
+          "expected": "0603c50c",
+          "linked_pointer": "fusion_table_demon"
+        }
+      ]
+    },
+    {
+      "capability": "fusion.guide",
+      "target": "EVENT.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "left_margin",
+          "address": "0x0603b8da",
+          "expected": "eb00",
+          "instruction": "mov #10, r11"
+        },
+        {
+          "name": "guide_glyph",
+          "address": "0x0603b9b0",
+          "expected": "0603b760",
+          "linked_pointer": "fusion_guide_mixed_glyph"
+        },
+        {
+          "name": "guide_advance",
+          "address": "0x0603b91e",
+          "expected": "7b0f",
+          "instruction": "add #0, r11"
+        },
+        {
+          "name": "guide_terminator_count",
+          "address": "0x0603b912",
+          "expected": "e815",
+          "instruction": "mov #100, r8"
+        },
+        {
+          "name": "guide_glyph_limit",
+          "address": "0x0603b918",
+          "expected": "e014",
+          "instruction": "mov #99, r0"
+        },
+        {
+          "name": "help_glyph",
+          "address": "0x0603bbd8",
+          "expected": "0603b760",
+          "linked_pointer": "fusion_word_font8_glyph"
+        },
+        {
+          "name": "help_advance",
+          "address": "0x0603bb06",
+          "expected": "7b0c",
+          "instruction": "add r0, r11"
+        },
+        {
+          "name": "help_terminator_count",
+          "address": "0x0603bafa",
+          "expected": "e815",
+          "instruction": "mov #94, r8"
+        },
+        {
+          "name": "help_glyph_limit",
+          "address": "0x0603bb00",
+          "expected": "ed14",
+          "instruction": "mov #93, r13"
+        }
+      ]
+    },
+    {
+      "capability": "fusion.chart",
+      "target": "EVENT.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "word_glyph",
+          "address": "0x0603c4c4",
+          "expected": "0603b760",
+          "linked_pointer": "fusion_word_font8_glyph"
+        },
+        {
+          "name": "word_advance",
+          "address": "0x0603c48e",
+          "expected": "780c",
+          "instruction": "add r0, r8"
+        },
+        {
+          "name": "race_0604442c",
+          "address": "0x0604442c",
+          "expected": "0603c410",
+          "linked_pointer": "fusion_chart_race"
+        },
+        {
+          "name": "race_0604461c",
+          "address": "0x0604461c",
+          "expected": "0603c410",
+          "linked_pointer": "fusion_chart_race"
+        }
+      ]
+    },
+    {
+      "capability": "fusion.confirmation",
+      "target": "EVENT.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "pointer_lookup",
+          "address": "0x060578a2",
+          "expected": "e128d21b2f26e200e700281ee602e514041ad118341c",
+          "assembly": [
+            "fusion/confirmation_pointer_lookup.s"
+          ]
+        },
+        {
+          "name": "main_storage",
+          "address": "0x0607458e",
+          "expected": "024901450049004c005100640040004400b480000000000000000000000000000000000000000000038d015300d700cd00c70043005d00420057009f00f9009e00da00580249014500da004500530040031800d3019c011600cd004000670064004100d7005380000000000000000000000000000000000000da0058024901450049004c006700d6800000000000000000000000000000000000000000000000",
+          "generated": "confirmation_main"
+        },
+        {
+          "name": "level_too_low",
+          "address": "0x06022fbc",
+          "expected_zero_bytes": 68,
+          "generated": "confirmation_level_too_low"
+        },
+        {
+          "name": "label_yes",
+          "address": "0x0607462e",
+          "expected": "0023000f001d8000",
+          "generated": "confirmation_label_yes"
+        },
+        {
+          "name": "label_no",
+          "address": "0x06074636",
+          "expected": "0018001980000000",
+          "generated": "confirmation_label_no"
+        },
+        {
+          "name": "vwf_drawer",
+          "address": "0x06057910",
+          "expected": "060517c4",
+          "linked_pointer": "surface_blitter"
+        }
+      ]
+    }
+  ]
+}

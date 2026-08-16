@@ -1,109 +1,310 @@
 {
-  "version": 1,
+  "version": 2,
   "surface": "event.dialogue",
-  "target": {
-    "path": "EVENT.BIN",
-    "load_address": "0x06020000",
-    "size": 354072,
-    "stock_sha256": "73a24f782f6618081028511e9fcc4c845a79a577e1907a6a6affc9e9f1e2ce84",
-    "patched_sha256": "b9f988d6a3a2dffa9ef345383bc7c57a4571899b1f62c310e746e3524c795195"
+  "targets": {
+    "EVENT.BIN": {
+      "load_address": "0x06020000",
+      "size": 354072,
+      "stock_sha256": "73a24f782f6618081028511e9fcc4c845a79a577e1907a6a6affc9e9f1e2ce84"
+    }
   },
   "inputs": {
     "font16_metrics_sha256": "3ce6e6c916da3f4bc3c7a702c9ae07f84519185a45e2f733c13726cab6532fa3",
     "font12_metrics_sha256": "7df60be0cd524e3fd37dcae84ecc345db24514d771c3ced728dd2de82081f3a9",
-    "event_runtime_table_sha256": "4f7299d542afd0d9350824e63943893ae95f4d710c93d7df09bff5bba6c26aad"
+    "font16_font_sha256": "89272c66b96536658c271e061ff8c15198a1bbc4c01c4e17f23575897dca0acc",
+    "font12_font_sha256": "804d68d69decb0ed434a37e31dbb00d25292adcb5470f2be762ba7ddf4e101a5",
+    "event_runtime_table_sha256": "4f7299d542afd0d9350824e63943893ae95f4d710c93d7df09bff5bba6c26aad",
+    "patched_sha256": "b9f988d6a3a2dffa9ef345383bc7c57a4571899b1f62c310e746e3524c795195"
   },
   "groups": [
     {
-      "id": "event_vwf",
+      "capability": "event_vwf",
+      "target": "EVENT.BIN",
+      "load_address": 100794368,
       "patches": [
         {
           "name": "dialogue_two_glyph_pacing_cave",
           "address": "0x0602177c",
           "expected_zero_bytes": 97,
-          "replacement": "4f22d113e0002100d112410b00094f26000b00094f22d110410b0009d10c6210720121204f26000b00096281612d31b08b0ad0076100e20131208b0371012010a0020009e100281163b3d104412b0009060217dc0602bb38060211f80602bbf000"
+          "assembly": [
+            "event_dialogue/two_glyph_pacing.s"
+          ]
         },
-        {"name": "dialogue_update_pointer_0603043c", "address": "0x0603043c", "expected": "0602bb38", "replacement": "0602177c"},
-        {"name": "dialogue_update_pointer_06030494", "address": "0x06030494", "expected": "0602bb38", "replacement": "0602177c"},
-        {"name": "dialogue_update_pointer_06030508", "address": "0x06030508", "expected": "0602bb38", "replacement": "0602177c"},
-        {"name": "dialogue_update_pointer_06033820", "address": "0x06033820", "expected": "0602bb38", "replacement": "0602177c"},
-        {"name": "dialogue_update_pointer_06033874", "address": "0x06033874", "expected": "0602bb38", "replacement": "0602177c"},
-        {"name": "dialogue_update_pointer_060338fc", "address": "0x060338fc", "expected": "0602bb38", "replacement": "0602177c"},
-        {"name": "dialogue_update_pointer_06036668", "address": "0x06036668", "expected": "0602bb38", "replacement": "0602177c"},
-        {"name": "dialogue_update_pointer_06039780", "address": "0x06039780", "expected": "0602bb38", "replacement": "0602177c"},
-        {"name": "dialogue_update_pointer_060397ec", "address": "0x060397ec", "expected": "0602bb38", "replacement": "0602177c"},
-        {"name": "dialogue_two_glyph_tail", "address": "0x0602bbe0", "expected": "62819315612d31b08b029113", "replacement": "d301432b00090009060217a6"},
+        {
+          "name": "dialogue_update_pointer_0603043c",
+          "address": "0x0603043c",
+          "expected": "0602bb38",
+          "linked_pointer": "two_glyph_update"
+        },
+        {
+          "name": "dialogue_update_pointer_06030494",
+          "address": "0x06030494",
+          "expected": "0602bb38",
+          "linked_pointer": "two_glyph_update"
+        },
+        {
+          "name": "dialogue_update_pointer_06030508",
+          "address": "0x06030508",
+          "expected": "0602bb38",
+          "linked_pointer": "two_glyph_update"
+        },
+        {
+          "name": "dialogue_update_pointer_06033820",
+          "address": "0x06033820",
+          "expected": "0602bb38",
+          "linked_pointer": "two_glyph_update"
+        },
+        {
+          "name": "dialogue_update_pointer_06033874",
+          "address": "0x06033874",
+          "expected": "0602bb38",
+          "linked_pointer": "two_glyph_update"
+        },
+        {
+          "name": "dialogue_update_pointer_060338fc",
+          "address": "0x060338fc",
+          "expected": "0602bb38",
+          "linked_pointer": "two_glyph_update"
+        },
+        {
+          "name": "dialogue_update_pointer_06036668",
+          "address": "0x06036668",
+          "expected": "0602bb38",
+          "linked_pointer": "two_glyph_update"
+        },
+        {
+          "name": "dialogue_update_pointer_06039780",
+          "address": "0x06039780",
+          "expected": "0602bb38",
+          "linked_pointer": "two_glyph_update"
+        },
+        {
+          "name": "dialogue_update_pointer_060397ec",
+          "address": "0x060397ec",
+          "expected": "0602bb38",
+          "linked_pointer": "two_glyph_update"
+        },
+        {
+          "name": "dialogue_two_glyph_tail",
+          "address": "0x0602bbe0",
+          "expected": "62819315612d31b08b029113",
+          "assembly": [
+            "event_dialogue/absolute_jump.s"
+          ]
+        },
         {
           "name": "advance_cave",
           "address": "0x06021000",
           "expected_zero_bytes": 504,
-          "replacement": "4f222f56d22ad12b60112201d12a60118121634dd12a33128926d12a601188018913d1296112d529315c6010600c8810890b6033d1246112d525315c6033001c630c23388910a00a0009634dd1213312890ad1216033001c630c23388904d01730387001a0030009852063038521d1122101d11a601140118d0285226011600bd10c210160338122d115410b0009d113601120088b01e00a2101d205d10585202101d1058521210165f64f26000b0009060210e40607675406076e24000001360000010c060217fc06062598000001640000d8000000010c060210ec06076e200602be04001000000010000003060506060606060606060707070707070707040607060707070707070707070709070707060606060605060604040604070606060605060506060706060600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000600030303030306000607000007000000000000000000000506000605050503000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003"
+          "assembly": [
+            "event_dialogue/advance.s"
+          ]
         },
-        {"name": "advance_pointer", "address": "0x0602bc9c", "expected": "0602be04", "replacement": "06021000"},
+        {
+          "name": "advance_pointer",
+          "address": "0x0602bc9c",
+          "expected": "0602be04",
+          "pointer": "0x06021000"
+        },
         {
           "name": "subpixel_blitter_cave",
           "address": "0x060211f8",
           "expected_zero_bytes": 288,
-          "replacement": "2f862f962fa62fb62fc62fd62fe6d13d6812644d440844084400384cd13a6911699dd13a6a12d13a6b106bbcd1396c116ccd7cff655d666ded00616331dc611d219e021a6353332c6184611c41186284622c212b6033c903e7043708410047108bfc62334209322c32ace705601340194019c90f20088d0a300cd427044d2b4ede260eed602120e90e1a30ec220141084108720247108be93dc089276233329c7201618371fe6e146eec4e186110611c2e1b6023c903e70437084e0047108bfc61234109311c31ace70560e340194019c90f20088d05300cd40f044d6011304c21014e084e08710247108bee7d01e1103d108ba26ef66df66cf66bf66af669f6000b68f60606259806076e2406067c90060bfc980607675c0602b9f40602ba14"
+          "assembly": [
+            "font16_subpixel_blitter.s"
+          ]
         },
-        {"name": "dialogue_blitter_pointer", "address": "0x0602bcbc", "expected": "0602bcc0", "replacement": "06021790"},
+        {
+          "name": "dialogue_blitter_pointer",
+          "address": "0x0602bcbc",
+          "expected": "0602bcc0",
+          "linked_pointer": "two_glyph_blit"
+        },
         {
           "name": "menu_glyph_cave",
           "address": "0x06021318",
           "expected_zero_bytes": 564,
-          "replacement": "4f222f46d118410b000963f6d1176112d217312c6010600c88108b0b633dd1153312891cd1146033001c600c20088b17a0150009633de13f33128b0ad10f33128b0d60333018e15f30128908d10ca00200096033d10b001c600c20088b00e0104f26000b00090009060211f806062598000001640000010c0602143e000000ad060213a0060213ff06000404040404060006070000070000000000000000000005060006050606040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c06060000000006080000030006060606060606060606080707070707070704060706080708070807070807080a0808070606060606050606040406040806060606050605060608060606030605060606060606060607070707070707070406070607070707070707070707090707070606060606050606040406040706060606050605060607060606000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006000303030303060006070000070000000000000000000005060006050505030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000030000"
+          "assembly": [
+            "event_dialogue/menu_glyph.s"
+          ]
         },
-        {"name": "menu_blitter_pointer", "address": "0x06030d20", "expected": "0602bcc0", "replacement": "06021318"},
-        {"name": "menu_advance", "address": "0x06030cd2", "expected": "61b1", "replacement": "6103"},
-        {"name": "raw_menu_blitter_pointer", "address": "0x0602f03c", "expected": "0602bcc0", "replacement": "06021318"},
-        {"name": "raw_menu_advance", "address": "0x0602f022", "expected": "7910", "replacement": "390c"},
+        {
+          "name": "menu_blitter_pointer",
+          "address": "0x06030d20",
+          "expected": "0602bcc0",
+          "pointer": "0x06021318"
+        },
+        {
+          "name": "menu_advance",
+          "address": "0x06030cd2",
+          "expected": "61b1",
+          "instruction": "mov r0, r1"
+        },
+        {
+          "name": "raw_menu_blitter_pointer",
+          "address": "0x0602f03c",
+          "expected": "0602bcc0",
+          "pointer": "0x06021318"
+        },
+        {
+          "name": "raw_menu_advance",
+          "address": "0x0602f022",
+          "expected": "7910",
+          "instruction": "add r0, r9"
+        },
         {
           "name": "surface_subpixel_blitter_cave",
           "address": "0x0602154c",
           "expected_zero_bytes": 176,
-          "replacement": "2f862f962fa62fb62fc62fd62fe66a43695365636673d123681251f7641d440844084400384c5bf86bbced00616331dc611d219e021a6353332c6184611c41186284622c212b6033c903e7043708410047108bfc62334209322c32ace705601340194019c90f20088d0a300cd40e044d2b4ede0e0eed602120e90e1a30ec220141084108720247108be97d01e1103d108bcc6ef66df66cf66bf66af669f6000b68f60009060625980602b9f40602ba14"
+          "assembly": [
+            "font16_surface_blitter.s"
+          ]
         },
         {
           "name": "font12_word_menu_cave",
           "address": "0x060215fc",
           "expected_zero_bytes": 328,
-          "replacement": "2f862f964f2258f359f42f962f86d009400b00097f08e1ff611c38168905d1066083001c600c20088b00e00c4f2669f6000b68f60602154c0602163803060506060606060606060707070707070707040607060707070707070707070709070707060606060605060604040604070606060605060506060706060600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000600030303030306000607000007000000000000000000000506000605050503000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003"
+          "assembly": [
+            "event_dialogue/font12_word_glyph.s"
+          ]
         },
-        {"name": "font12_word_menu_blitter_pointer", "address": "0x0603be54", "expected": "0603b760", "replacement": "060215fc"},
-        {"name": "font12_word_menu_advance", "address": "0x0603be20", "expected": "790c", "replacement": "390c"},
+        {
+          "name": "font12_word_menu_blitter_pointer",
+          "address": "0x0603be54",
+          "expected": "0603b760",
+          "pointer": "0x060215fc"
+        },
+        {
+          "name": "font12_word_menu_advance",
+          "address": "0x0603be20",
+          "expected": "790c",
+          "instruction": "add r0, r9"
+        },
         {
           "name": "tracked_font_loader_cave",
           "address": "0x06021744",
           "expected_zero_bytes": 56,
-          "replacement": "2f864f225141d0083100d808e000e1108b01e001e1032800d8052811d005400b00094f26000b68f631322e46060217fc060217fe0602b91a"
+          "assembly": [
+            "event_dialogue/tracked_font_loader.s"
+          ]
         },
-        {"name": "zero_cell_space_advance", "address": "0x060217fe", "expected": "0000", "replacement": "0010"},
-        {"name": "zero_cell_space_pointer", "address": "0x0602bc2c", "expected": "06076754", "replacement": "060217fe"},
-        {"name": "tracked_font_loader_pointer_0602eb08", "address": "0x0602eb08", "expected": "0602b91a", "replacement": "06021744"},
-        {"name": "tracked_font_loader_pointer_0602ec94", "address": "0x0602ec94", "expected": "0602b91a", "replacement": "06021744"},
-        {"name": "tracked_font_loader_pointer_0602f2f4", "address": "0x0602f2f4", "expected": "0602b91a", "replacement": "06021744"},
-        {"name": "tracked_font_loader_pointer_06032d48", "address": "0x06032d48", "expected": "0602b91a", "replacement": "06021744"},
-        {"name": "tracked_font_loader_pointer_06041770", "address": "0x06041770", "expected": "0602b91a", "replacement": "06021744"},
-        {"name": "tracked_font_loader_pointer_06042124", "address": "0x06042124", "expected": "0602b91a", "replacement": "06021744"},
-        {"name": "tracked_font_loader_pointer_0604286c", "address": "0x0604286c", "expected": "0602b91a", "replacement": "06021744"},
-        {"name": "tracked_font_loader_pointer_06046ae0", "address": "0x06046ae0", "expected": "0602b91a", "replacement": "06021744"},
-        {"name": "tracked_font_loader_pointer_06046de4", "address": "0x06046de4", "expected": "0602b91a", "replacement": "06021744"},
-        {"name": "tracked_font_loader_pointer_06048794", "address": "0x06048794", "expected": "0602b91a", "replacement": "06021744"},
-        {"name": "tracked_font_loader_pointer_06049604", "address": "0x06049604", "expected": "0602b91a", "replacement": "06021744"},
-        {"name": "tracked_font_loader_pointer_0604a010", "address": "0x0604a010", "expected": "0602b91a", "replacement": "06021744"}
+        {
+          "name": "zero_cell_space_advance",
+          "address": "0x060217fe",
+          "expected": "0000",
+          "assembly": [
+            "event_dialogue/space_advance.s"
+          ]
+        },
+        {
+          "name": "zero_cell_space_pointer",
+          "address": "0x0602bc2c",
+          "expected": "06076754",
+          "pointer": "0x060217fe"
+        },
+        {
+          "name": "tracked_font_loader_pointer_0602eb08",
+          "address": "0x0602eb08",
+          "expected": "0602b91a",
+          "pointer": "0x06021744"
+        },
+        {
+          "name": "tracked_font_loader_pointer_0602ec94",
+          "address": "0x0602ec94",
+          "expected": "0602b91a",
+          "pointer": "0x06021744"
+        },
+        {
+          "name": "tracked_font_loader_pointer_0602f2f4",
+          "address": "0x0602f2f4",
+          "expected": "0602b91a",
+          "pointer": "0x06021744"
+        },
+        {
+          "name": "tracked_font_loader_pointer_06032d48",
+          "address": "0x06032d48",
+          "expected": "0602b91a",
+          "pointer": "0x06021744"
+        },
+        {
+          "name": "tracked_font_loader_pointer_06041770",
+          "address": "0x06041770",
+          "expected": "0602b91a",
+          "pointer": "0x06021744"
+        },
+        {
+          "name": "tracked_font_loader_pointer_06042124",
+          "address": "0x06042124",
+          "expected": "0602b91a",
+          "pointer": "0x06021744"
+        },
+        {
+          "name": "tracked_font_loader_pointer_0604286c",
+          "address": "0x0604286c",
+          "expected": "0602b91a",
+          "pointer": "0x06021744"
+        },
+        {
+          "name": "tracked_font_loader_pointer_06046ae0",
+          "address": "0x06046ae0",
+          "expected": "0602b91a",
+          "pointer": "0x06021744"
+        },
+        {
+          "name": "tracked_font_loader_pointer_06046de4",
+          "address": "0x06046de4",
+          "expected": "0602b91a",
+          "pointer": "0x06021744"
+        },
+        {
+          "name": "tracked_font_loader_pointer_06048794",
+          "address": "0x06048794",
+          "expected": "0602b91a",
+          "pointer": "0x06021744"
+        },
+        {
+          "name": "tracked_font_loader_pointer_06049604",
+          "address": "0x06049604",
+          "expected": "0602b91a",
+          "pointer": "0x06021744"
+        },
+        {
+          "name": "tracked_font_loader_pointer_0604a010",
+          "address": "0x0604a010",
+          "expected": "0602b91a",
+          "pointer": "0x06021744"
+        }
       ]
     },
     {
-      "id": "event_packed_fetch",
+      "capability": "event_packed_fetch",
+      "target": "EVENT.BIN",
+      "load_address": 100794368,
       "patches": [
         {
           "name": "fetch_cave",
           "address": "0x06023000",
           "expected_zero_bytes": 660,
-          "replacement": "2f062f362f7661a2d027630231308b19530223388b1c520322288b2162152a122012622d67234719607370f8e3783032892d632c2338890273f9d01b10336273a01172f82012e30010321033afe6000951016214622c101173ff1032a014000972ffe3001033e33f32328b0d72c142084200d30e323c6324633c6724677c73ffd00910211032627322288b009214292167f663f660f622288902d105412b0009d104412b0009000006023284060230bc0602bb8c0602bb74010b000002290000000000000233390000000000023800000000000002382c0000000000022d3200000000000237000000000000033d333900000000022936000000000002253200000000000233320000000000023300000000000002303000000000000213000000000000023d0000000000000228000000000000022c250000000000032d322b00000000022932000000000002333600000000000225360000000000043d3339000000000231290000000000023738000000000003303000000000000229250000000000022d3800000000000225000000000000042d322b0000000003233339000000000237290000000000033833000000000002333b0000000000032d370000000000033a29000000000004382c2900000000022b2c00000000000331290000000000022538000000000002333300000000000236290000000000022a000000000000021e2c000000000002302d0000000000023100000000000004233339000000000329360000000000022c290000000000023233000000000002191f0000000000042c25380000000003253800000000000230290000000000032a3336000000000329320000000000023b2d00000000000236000000000000032f29000000000000000000000000000000000000000000"
+          "assembly": [
+            "event_dialogue/packed_fetch.s"
+          ]
         },
-        {"name": "fetch_site_1", "address": "0x0602bb68", "expected": "61a26215292122288f0c2a12", "replacement": "d301432b0009000906023000"},
-        {"name": "fetch_site_2", "address": "0x0602bb80", "expected": "61a26215292122288df72a12", "replacement": "d301432b0009000906023000"}
+        {
+          "name": "fetch_site_1",
+          "address": "0x0602bb68",
+          "expected": "61a26215292122288f0c2a12",
+          "assembly": [
+            "event_dialogue/absolute_jump.s"
+          ]
+        },
+        {
+          "name": "fetch_site_2",
+          "address": "0x0602bb80",
+          "expected": "61a26215292122288df72a12",
+          "assembly": [
+            "event_dialogue/absolute_jump.s"
+          ]
+        }
       ]
     }
   ]

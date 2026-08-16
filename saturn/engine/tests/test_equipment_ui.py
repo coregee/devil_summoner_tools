@@ -134,11 +134,11 @@ class EquipmentUiEngineTests(unittest.TestCase):
             {
                 "font8_pixel_blitter.s",
                 "equipment_ui/buy_sell_item_name.s",
-                "equipment_ui/equipment_item_name.s",
+                "equipment_item_name.s",
                 "equipment_ui/label_drawer.s",
                 "equipment_ui/shop_character_name.s",
                 "equipment_ui/shop_inventory_label.s",
-                "equipment_ui/trampoline.s",
+                "jump_r0.s",
             },
         )
         for source in sources:

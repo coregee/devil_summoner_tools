@@ -8,6 +8,12 @@ import struct
 from pathlib import Path, PurePosixPath
 
 from engine.core.patching import Patch, apply_patches
+from engine.core.patch_recipes import (
+    PatchRecipe,
+    PatchRecipeConfiguration,
+    load_patch_recipe_configuration,
+)
+from engine.core.sh2 import Assembly, AssemblyError, assemble, assemble_file
 from rom.util.catalog import load_catalog, validate_source
 from rom.util.workflows import read_source_files
 from text.util.assets import load_asset, load_bound_translations
@@ -19,6 +25,7 @@ from text.util.surfaces import load_surfaces
 ENGINE_ROOT = Path(__file__).resolve().parents[1]
 SATURN_ROOT = ENGINE_ROOT.parent
 CONFIG_PATH = ENGINE_ROOT / "config" / "battle_negotiation.json"
+ASSEMBLY_ROOT = ENGINE_ROOT / "asm"
 GENERATED_ROOT = ENGINE_ROOT / "generated" / "game"
 OUTPUT_PATH = GENERATED_ROOT / "COMBAT.BIN"
 BUILD_PATH = GENERATED_ROOT / "battle_negotiation_build.json"
@@ -31,15 +38,33 @@ FONT_ROOT = SATURN_ROOT / "font" / "generated" / "game"
 FONT16_METRICS_PATH = FONT_ROOT / "FONT16_metrics.json"
 FONT8_METRICS_PATH = FONT_ROOT / "FONT8_metrics.json"
 
+TARGET = "COMBAT.BIN"
+LOAD_ADDRESS = 0x06020000
+
 NAME_COUNT = 319
 RACE_COUNT = 43
+DISPATCH_CAVE_ADDRESS = 0x06021000
+DICTIONARY_ADDRESS = 0x06021200
+DIALOGUE_DISPATCH_MODE = 0x060213FC
+DIALOGUE_CAVE_ADDRESS = 0x06021400
+KYOUJI_NAME_ADDRESS = 0x060219C6
+KYOUJI_NAME_BYTES = 58
 NAME_OFFSETS_ADDRESS = 0x06024000
 RACE_OFFSETS_ADDRESS = 0x0602427E
 FONT8_MAP_ADDRESS = 0x060242D4
 STRING_POOL_ADDRESS = 0x060244D4
 INSERT_DATA_ADDRESS = NAME_OFFSETS_ADDRESS
 INSERT_CODE_ADDRESS = 0x06025D00
+INSERT_DATA_BYTES = INSERT_CODE_ADDRESS - INSERT_DATA_ADDRESS
 FULLWORD_GLYPH_LIMIT = 20
+
+GRID_ADDRESS = 0x06026000
+CURSOR_X = 0x06074099
+CURSOR_Y = 0x0607409A
+CURRENT_COLOR = 0x0607409B
+PENDING_BUFFER = 0x06073FA8
+PENDING_FLAG = 0x06073FD2
+PENDING_WORD_CAPACITY = (PENDING_FLAG - PENDING_BUFFER) // 2
 
 
 def _sha256(value: bytes) -> str:
@@ -79,108 +104,6 @@ def _object(value: object, context: str) -> dict[str, object]:
     if not isinstance(value, dict):
         raise ValueError(f"{context} must be an object")
     return value
-
-
-def _hex(value: object, context: str) -> int:
-    if not isinstance(value, str) or not value.startswith("0x"):
-        raise ValueError(f"{context} must be hexadecimal text")
-    try:
-        return int(value, 16)
-    except ValueError as error:
-        raise ValueError(f"{context} must be hexadecimal text") from error
-
-
-def _bytes(value: object, context: str) -> bytes:
-    if not isinstance(value, str) or not value or len(value) % 2:
-        raise ValueError(f"{context} must be even-length hexadecimal")
-    try:
-        return bytes.fromhex(value)
-    except ValueError as error:
-        raise ValueError(f"{context} contains invalid hexadecimal") from error
-
-
-def _load_config() -> tuple[int, int, str, tuple[Patch, ...], dict[str, int], dict[str, str]]:
-    document = _read_json(CONFIG_PATH)
-    if set(document) != {
-        "version",
-        "surface",
-        "target",
-        "inputs",
-        "dynamic_regions",
-        "groups",
-    } or document["version"] != 1 or document["surface"] != "battle.negotiation":
-        raise ValueError(f"{CONFIG_PATH}: unsupported patch configuration")
-    target = _object(document["target"], f"{CONFIG_PATH}.target")
-    if set(target) != {"path", "load_address", "size", "stock_sha256"}:
-        raise ValueError(f"{CONFIG_PATH}: invalid target")
-    if target["path"] != "COMBAT.BIN" or type(target["size"]) is not int:
-        raise ValueError(f"{CONFIG_PATH}: invalid COMBAT.BIN target")
-    stock_digest = target["stock_sha256"]
-    if not isinstance(stock_digest, str) or len(stock_digest) != 64:
-        raise ValueError(f"{CONFIG_PATH}: invalid stock digest")
-
-    inputs = _object(document["inputs"], f"{CONFIG_PATH}.inputs")
-    if set(inputs) != {
-        "font16_metrics_sha256",
-        "font8_metrics_sha256",
-        "event_runtime_table_sha256",
-    } or not all(isinstance(value, str) and len(value) == 64 for value in inputs.values()):
-        raise ValueError(f"{CONFIG_PATH}: invalid input digests")
-
-    raw_regions = _object(document["dynamic_regions"], f"{CONFIG_PATH}.dynamic_regions")
-    if set(raw_regions) != {"kyouji_name", "english_insert_data"}:
-        raise ValueError(f"{CONFIG_PATH}: invalid dynamic regions")
-    regions: dict[str, int] = {}
-    for name, raw_region in raw_regions.items():
-        region = _object(raw_region, f"{CONFIG_PATH}.dynamic_regions.{name}")
-        if set(region) != {"address", "bytes"} or type(region["bytes"]) is not int:
-            raise ValueError(f"{CONFIG_PATH}: invalid {name} region")
-        regions[f"{name}_address"] = _hex(region["address"], f"{name}.address")
-        regions[f"{name}_bytes"] = region["bytes"]
-
-    raw_groups = document["groups"]
-    if not isinstance(raw_groups, list) or not raw_groups:
-        raise ValueError(f"{CONFIG_PATH}: groups must be a nonempty array")
-    patches: list[Patch] = []
-    for raw_group in raw_groups:
-        group = _object(raw_group, f"{CONFIG_PATH}.groups")
-        if set(group) != {"id", "patches"} or not isinstance(group["id"], str):
-            raise ValueError(f"{CONFIG_PATH}: invalid patch group")
-        rows = group["patches"]
-        if not isinstance(rows, list) or not rows:
-            raise ValueError(f"{CONFIG_PATH}: patch group is empty")
-        for raw_row in rows:
-            row = _object(raw_row, f"{CONFIG_PATH}.patch")
-            replacement = _bytes(row.get("replacement"), "patch replacement")
-            if "expected" in row:
-                expected = _bytes(row["expected"], "patch expected")
-            else:
-                count = row.get("expected_zero_bytes")
-                if type(count) is not int or count <= 0:
-                    raise ValueError(f"{CONFIG_PATH}: invalid zero-filled patch")
-                expected = bytes(count)
-            if set(row) not in (
-                {"name", "address", "expected", "replacement"},
-                {"name", "address", "expected_zero_bytes", "replacement"},
-            ) or not isinstance(row.get("name"), str):
-                raise ValueError(f"{CONFIG_PATH}: malformed patch row")
-            patches.append(
-                Patch(
-                    group["id"],
-                    row["name"],
-                    _hex(row["address"], "patch address"),
-                    expected,
-                    replacement,
-                )
-            )
-    return (
-        _hex(target["load_address"], "target load address"),
-        target["size"],
-        stock_digest,
-        tuple(patches),
-        regions,
-        inputs,
-    )
 
 
 def _validate_surfaces() -> None:
@@ -327,56 +250,445 @@ def _build_kyouji_name(font16: FontMetrics, region_bytes: int) -> bytes:
     return value + bytes(region_bytes - len(value))
 
 
+def _assembled(
+    source: Path,
+    address: int,
+    symbols: dict[str, int] | None = None,
+) -> Assembly:
+    try:
+        result = assemble_file(source, address, symbols)
+    except AssemblyError as error:
+        raise ValueError(f"{source.relative_to(ENGINE_ROOT)}: {error}") from error
+    if result.warnings:
+        raise ValueError(
+            f"{source.relative_to(ENGINE_ROOT)}: assembly warnings: {result.warnings}"
+        )
+    return result
+
+
+def _sources(recipe: PatchRecipe, expected: tuple[str, ...]) -> tuple[Path, ...]:
+    sources = recipe.replacement.sources
+    actual = tuple(path.relative_to(ASSEMBLY_ROOT).as_posix() for path in sources)
+    if actual != expected:
+        raise ValueError(f"{recipe.group}/{recipe.name}: assembly source contract changed")
+    return sources
+
+
+def _font16_layout(font16: FontMetrics) -> tuple[int, int, int, int, int]:
+    document = _read_json(FONT16_METRICS_PATH)
+    width_table = _object(document.get("width_table"), "FONT16 width table")
+    storage_glyph = width_table.get("storage_glyph")
+    code_limit = width_table.get("code_limit")
+    if type(storage_glyph) is not int or type(code_limit) is not int:
+        raise ValueError("FONT16 width-table layout is malformed")
+    minimum_advance = min(glyph.advance for glyph in font16.glyphs)
+    columns = (300 + minimum_advance - 1) // minimum_advance
+    row_bytes = columns * 2
+    total_cells = columns * 3
+    if (columns, row_bytes, total_cells) != (100, 200, 300):
+        raise ValueError("battle negotiation backing-grid geometry changed")
+    return code_limit, storage_glyph * 32, columns, row_bytes, total_cells
+
+
+def _build_dispatch_cave(
+    recipe: PatchRecipe,
+    runtime_table: bytes,
+) -> tuple[bytes, Assembly]:
+    (source,) = _sources(
+        recipe, ("battle_negotiation/packed_dispatch.s",)
+    )
+    if recipe.address != DISPATCH_CAVE_ADDRESS:
+        raise ValueError("battle negotiation dispatch cave moved")
+    symbols = {
+        "RAW_HANDLER": recipe.address,
+        "PACKED_DISPATCH": recipe.address,
+        "DICTIONARY": DICTIONARY_ADDRESS,
+        "SPACE_CODE": 267,
+        "PENDING_BUFFER": PENDING_BUFFER,
+        "PENDING_FLAG": PENDING_FLAG,
+        "DIALOGUE_MODE": DIALOGUE_DISPATCH_MODE,
+        "TERMINATOR": 0x8000,
+        "FIRST_SPECIAL": 0x8010,
+        "DEMON_ID_HANDLER": 0x060504F8,
+        "EQUAL_CONTINUATION": 0x06051D2C,
+        "OTHER_CONTINUATION": 0x06051D44,
+    }
+    probe = _assembled(source, recipe.address, symbols)
+    symbols["RAW_HANDLER"] = probe.labels["raw_handler"]
+    code = _assembled(source, recipe.address, symbols)
+    payload = bytearray(code.data)
+    dictionary_offset = DICTIONARY_ADDRESS - recipe.address
+    if len(payload) > dictionary_offset:
+        raise ValueError("packed dispatcher overlaps the shared dictionary")
+    payload.extend(bytes(dictionary_offset - len(payload)))
+    payload.extend(runtime_table)
+    mode_end = DIALOGUE_DISPATCH_MODE - recipe.address + 1
+    if len(payload) > mode_end:
+        raise ValueError("packed dictionary overlaps the dialogue mode flag")
+    payload.extend(bytes(mode_end - len(payload)))
+    if len(payload) != len(recipe.expected):
+        raise ValueError("packed dispatch payload does not fill its declared cave")
+    return bytes(payload), code
+
+
+def _build_dialogue_cave(
+    recipe: PatchRecipe,
+    font16: FontMetrics,
+) -> tuple[bytes, Assembly]:
+    blitter_source, dialogue_source = _sources(
+        recipe,
+        (
+            "battle_negotiation/font16_surface_blitter.s",
+            "battle_negotiation/dialogue_vwf.s",
+        ),
+    )
+    if (
+        recipe.address != DIALOGUE_CAVE_ADDRESS
+        or recipe.address + len(recipe.expected) != KYOUJI_NAME_ADDRESS
+    ):
+        raise ValueError("battle dialogue cave contract changed")
+    blitter = _assembled(
+        blitter_source,
+        recipe.address,
+        {
+            "FONT16_POINTER": 0x060721E0,
+            "GLYPH_PATTERN_LUT": 0x0606F124,
+            "GLYPH_MASK_LUT": 0x0606F144,
+        },
+    )
+    code_address = (recipe.address + len(blitter.data) + 3) & ~3
+    code_limit, width_offset, columns, row_bytes, total_cells = _font16_layout(
+        font16
+    )
+    colors_address = GRID_ADDRESS + total_cells * 2
+    dialogue = _assembled(
+        dialogue_source,
+        code_address,
+        {
+            "ORIGINAL_SURFACE_CLEAR": 0x060515B4,
+            "FONT16_POINTER": 0x060721E0,
+            "FRAMEBUFFER_POINTER": 0x060721DC,
+            "FRAMEBUFFER_STRIDE": 320,
+            "SURFACE_BLITTER": recipe.address,
+            "CODE_LIMIT": code_limit,
+            "WIDTH_OFFSET": width_offset,
+            "GRID": GRID_ADDRESS,
+            "COLORS": colors_address,
+            "GRID_COLUMNS": columns,
+            "GRID_ROW_BYTES": row_bytes,
+            "COLOR_ROW_BYTES": columns,
+            "TOTAL_CELLS": total_cells,
+            "OPTION_CELLS": columns * 2,
+            "CURSOR_X": CURSOR_X,
+            "CURSOR_Y": CURSOR_Y,
+            "CURRENT_COLOR": CURRENT_COLOR,
+            "STORE_RETURN": 0x06051F6A,
+            "LEFT_MARGIN": 10,
+            "RIGHT_MARGIN": 310,
+            "ANCHOR_CODE": 0x7FFF,
+            "ZERO_SEPARATOR_CODE": 0x07FF,
+            "SOFT_WRAP_CODE": 0x07FE,
+            "STATIC_HINT_BASE": 0x0750,
+            "STATIC_HINT_LIMIT": 0x07FC,
+            "MEASURE_START_CODE": 0x07FC,
+            "MEASURE_END_CODE": 0x07FD,
+            "SPACE_CODE": 267,
+            "MEASURE_MODE": 0x06021A00,
+            "MEASURE_WIDTH": 0x06021A02,
+            "SURFACE_VALID": 0x06021A04,
+            "PENDING_BUFFER": PENDING_BUFFER,
+            "PENDING_FLAG": PENDING_FLAG,
+            "PENDING_WORD_CAPACITY": PENDING_WORD_CAPACITY,
+            "SOURCE_POINTER": 0x06073FD8,
+            "CHOICE_RIGHT_X": 160,
+            "ANCHOR_COLUMN": columns // 2,
+            "ANCHOR_BYTE_OFFSET": columns,
+        },
+    )
+    payload = bytearray(blitter.data)
+    payload.extend(bytes(code_address - recipe.address - len(payload)))
+    payload.extend(dialogue.data)
+    if len(payload) != len(recipe.expected):
+        raise ValueError("battle dialogue assembly does not fill its declared cave")
+    return bytes(payload), dialogue
+
+
+def _build_insert_code(recipe: PatchRecipe) -> tuple[bytes, Assembly]:
+    (source,) = _sources(recipe, ("battle_negotiation/english_inserts.s",))
+    if recipe.address != INSERT_CODE_ADDRESS:
+        raise ValueError("battle English-insert code moved")
+    result = _assembled(
+        source,
+        recipe.address,
+        {
+            "DVL_BASE_POINTER": 0x06072220,
+            "DVL_SOURCE_SIZE": NAME_COUNT * 8,
+            "NAME_OFFSETS": NAME_OFFSETS_ADDRESS,
+            "RACE_OFFSETS": RACE_OFFSETS_ADDRESS,
+            "STRING_POOL": STRING_POOL_ADDRESS,
+            "FONT8_TO_FONT16": FONT8_MAP_ADDRESS,
+            "COMPACT_COPY": 0x06051AE0,
+            "FULLWORD_COPY": 0x06051A94,
+            "RACE_SOURCE": 0x060743C0,
+            "RACE_SOURCE_END": 0x06074518,
+            "ITEM_BUFFER0": 0x0607C08C,
+            "ITEM_BUFFER1": 0x0607C0A4,
+            "ITEM_ID0": 0x0607C0D4,
+            "ITEM_ID1": 0x0607C0D8,
+            "ITEM_FLAG_MASK": 0x60000000,
+            "ITEM_ID_LIMIT": 288,
+            "ITEM_RECORD_SIZE": 0x60,
+            "ITEM_BASE_POINTER": 0x0607221C,
+            "ITEM_FULL_NAME_OFFSET": 0x5E,
+            "ITEM_NAME_LIMIT": FULLWORD_GLYPH_LIMIT - 1,
+            "PENDING_BUFFER": PENDING_BUFFER,
+            "PENDING_FLAG": PENDING_FLAG,
+            "COLOR_RESET": 0x8020,
+            "TERMINATOR": 0x8000,
+        },
+    )
+    if len(result.data) != len(recipe.expected):
+        raise ValueError("battle English-insert assembly size changed")
+    return result.data, result
+
+
+def _instruction(recipe: PatchRecipe) -> bytes:
+    assert recipe.replacement.instruction is not None
+    try:
+        result = assemble(recipe.replacement.instruction, recipe.address)
+    except AssemblyError as error:
+        raise ValueError(f"{recipe.group}/{recipe.name}: {error}") from error
+    trailing_stock_delay = (
+        recipe.name == "dialogue_typewriter_continue_through_pending_selector"
+        and result.warnings == ("line 1: delay slot does not contain an instruction",)
+    )
+    if (result.warnings and not trailing_stock_delay) or len(result.data) != len(
+        recipe.expected
+    ):
+        raise ValueError(f"{recipe.group}/{recipe.name}: invalid instruction patch")
+    return result.data
+
+
+def _bind_static_patches(
+    config: PatchRecipeConfiguration,
+    font16: FontMetrics,
+    runtime_table: bytes,
+) -> tuple[Patch, ...]:
+    recipes = config.patches[TARGET]
+    by_name = {recipe.name: recipe for recipe in recipes}
+    if len(by_name) != len(recipes):
+        raise ValueError("battle negotiation patch names are not unique")
+
+    dispatch_payload, dispatch = _build_dispatch_cave(
+        by_name["dispatch_cave"], runtime_table
+    )
+    dialogue_payload, dialogue = _build_dialogue_cave(
+        by_name["dialogue_vwf_cave"], font16
+    )
+    insert_payload, inserts = _build_insert_code(by_name["english_insert_code"])
+
+    pointer_contracts = {
+        "dispatch_cave_pointer": DISPATCH_CAVE_ADDRESS,
+        "combat_codename_pointer": 0x0023FE14,
+    }
+    link_contracts = {
+        "dialogue_dispatch": dispatch.labels["dialogue_dispatch"],
+        "compact_name_insert": inserts.labels["combat_compact_name_insert"],
+        "fullword_insert": inserts.labels["combat_fullword_insert"],
+        "kyouji_full_name": KYOUJI_NAME_ADDRESS,
+        "dialogue_renderer": dialogue.labels["combat_render"],
+        "dialogue_external_surface_clear": dialogue.labels[
+            "combat_external_surface_clear"
+        ],
+        "dialogue_clear": dialogue.labels["combat_clear"],
+        "dialogue_partial_clear": dialogue.labels["combat_clear_options"],
+        "choice_position": dialogue.labels["combat_choice_position"],
+    }
+    expected_assembly = {
+        "dispatch_cave",
+        "dispatch_hook",
+        "dialogue_vwf_cave",
+        "english_insert_code",
+        "dialogue_store_hook",
+        "dialogue_typewriter_reset_budget",
+        "dialogue_typewriter_continue_after_first_visible_glyph",
+        "dialogue_typewriter_reset_helper",
+        "dialogue_typewriter_visible_helper",
+    }
+    assembly_seen: set[str] = set()
+    bound: list[Patch] = []
+    for recipe in recipes:
+        replacement_recipe = recipe.replacement
+        if replacement_recipe.kind == "assembly":
+            assembly_seen.add(recipe.name)
+            if recipe.name == "dispatch_cave":
+                replacement = dispatch_payload
+            elif recipe.name == "dispatch_hook":
+                (source,) = _sources(
+                    recipe, ("battle_negotiation/dispatch_hook.s",)
+                )
+                replacement = _assembled(
+                    source,
+                    recipe.address,
+                    {"DISPATCH_CAVE_POINTER": 0x06051E40},
+                ).data
+            elif recipe.name == "dialogue_vwf_cave":
+                replacement = dialogue_payload
+            elif recipe.name == "english_insert_code":
+                replacement = insert_payload
+            elif recipe.name == "dialogue_store_hook":
+                (source,) = _sources(recipe, ("battle_negotiation/store_hook.s",))
+                replacement = _assembled(
+                    source,
+                    recipe.address,
+                    {"STORE": dialogue.labels["combat_store"]},
+                ).data
+            elif recipe.name == "dialogue_typewriter_reset_budget":
+                (source,) = _sources(
+                    recipe, ("battle_negotiation/typewriter_reset_hook.s",)
+                )
+                replacement = _assembled(
+                    source,
+                    recipe.address,
+                    {"TYPEWRITER_RESET": 0x06059580},
+                ).data
+            elif recipe.name == "dialogue_typewriter_continue_after_first_visible_glyph":
+                (source,) = _sources(
+                    recipe, ("battle_negotiation/typewriter_visible_hook.s",)
+                )
+                replacement = _assembled(
+                    source,
+                    recipe.address,
+                    {"TYPEWRITER_VISIBLE": 0x06059594},
+                ).data
+            elif recipe.name == "dialogue_typewriter_reset_helper":
+                (source,) = _sources(
+                    recipe, ("battle_negotiation/typewriter_reset.s",)
+                )
+                replacement = _assembled(
+                    source,
+                    recipe.address,
+                    {"TYPEWRITER_MODE_POINTER": 0x06059668},
+                ).data
+            elif recipe.name == "dialogue_typewriter_visible_helper":
+                (source,) = _sources(
+                    recipe, ("battle_negotiation/typewriter_visible.s",)
+                )
+                replacement = _assembled(
+                    source,
+                    recipe.address,
+                    {
+                        "TYPEWRITER_PENDING_SELECTOR": 0x06059678,
+                        "TYPEWRITER_FRAME_RETURN": 0x06059874,
+                    },
+                ).data
+            else:
+                raise ValueError(f"unsupported battle assembly patch {recipe.name}")
+            if len(replacement) != len(recipe.expected):
+                raise ValueError(f"{recipe.name}: assembly patch size changed")
+        elif replacement_recipe.kind == "instruction":
+            replacement = _instruction(recipe)
+        elif replacement_recipe.kind == "pointer":
+            pointer = replacement_recipe.pointer
+            expected_pointer = pointer_contracts.get(recipe.name)
+            if pointer is None or pointer != expected_pointer:
+                raise ValueError(f"{recipe.name}: pointer contract changed")
+            replacement = struct.pack(">I", pointer)
+        elif replacement_recipe.kind == "linked_pointer":
+            link = replacement_recipe.link
+            if link is None or link not in link_contracts:
+                raise ValueError(f"{recipe.name}: unknown linked pointer {link!r}")
+            replacement = struct.pack(">I", link_contracts[link])
+        else:
+            raise ValueError(f"{recipe.name}: unsupported replacement recipe")
+        bound.append(
+            Patch(
+                recipe.group,
+                recipe.name,
+                recipe.address,
+                recipe.expected,
+                replacement,
+            )
+        )
+    if assembly_seen != expected_assembly:
+        raise ValueError("battle negotiation assembly contract is incomplete")
+    return tuple(bound)
+
+
 def build_battle_negotiation() -> dict[Path, bytes]:
     _validate_surfaces()
-    load_address, size, stock_digest, static_patches, regions, input_hashes = _load_config()
+    config = load_patch_recipe_configuration(
+        CONFIG_PATH,
+        surface="battle.negotiation",
+        target_names={TARGET},
+        input_names={
+            "font16_metrics_sha256",
+            "font8_metrics_sha256",
+            "event_runtime_table_sha256",
+        },
+    )
+    contract = config.targets[TARGET]
     font16 = FontMetrics.load(FONT16_METRICS_PATH)
     font8 = FontMetrics.load(FONT8_METRICS_PATH)
+    runtime_table = load_event_dictionary(CODEC_PATH).runtime_table()
     actual_inputs = {
         "font16_metrics_sha256": _file_sha256(FONT16_METRICS_PATH),
         "font8_metrics_sha256": _file_sha256(FONT8_METRICS_PATH),
-        "event_runtime_table_sha256": _sha256(
-            load_event_dictionary(CODEC_PATH).runtime_table()
-        ),
+        "event_runtime_table_sha256": _sha256(runtime_table),
     }
-    if actual_inputs != input_hashes:
+    if actual_inputs != config.inputs:
         raise ValueError("battle-negotiation runtime inputs changed")
 
     validated = validate_source(load_catalog()["game"])
-    stock = read_source_files(validated, ("COMBAT.BIN",))["COMBAT.BIN"]
-    if len(stock) != size or _sha256(stock) != stock_digest:
+    stock = read_source_files(validated, (TARGET,))[TARGET]
+    if len(stock) != contract.size or _sha256(stock) != contract.stock_sha256:
         raise ValueError("stock COMBAT.BIN does not match the patch target")
     translated = _validate_text_build()
-    if len(translated) != size:
+    if len(translated) != contract.size:
         raise ValueError("translated COMBAT.BIN has the wrong size")
 
+    static_patches = _bind_static_patches(config, font16, runtime_table)
     dynamic_patches = (
         Patch(
             "combat_vwf_data",
             "kyouji_full_name",
-            regions["kyouji_name_address"],
-            bytes(regions["kyouji_name_bytes"]),
-            _build_kyouji_name(font16, regions["kyouji_name_bytes"]),
+            KYOUJI_NAME_ADDRESS,
+            bytes(KYOUJI_NAME_BYTES),
+            _build_kyouji_name(font16, KYOUJI_NAME_BYTES),
         ),
         Patch(
             "combat_vwf_data",
             "english_insert_data",
-            regions["english_insert_data_address"],
-            bytes(regions["english_insert_data_bytes"]),
-            _build_insert_data(font16, font8, regions["english_insert_data_bytes"]),
+            INSERT_DATA_ADDRESS,
+            bytes(INSERT_DATA_BYTES),
+            _build_insert_data(font16, font8, INSERT_DATA_BYTES),
         ),
     )
-    patched = apply_patches(translated, load_address, (*static_patches, *dynamic_patches))
+    patches = (*static_patches, *dynamic_patches)
+    patched = apply_patches(translated, contract.load_address, patches)
+    assembly_files = tuple(
+        sorted(
+            {
+                source
+                for recipe in config.patches[TARGET]
+                for source in recipe.replacement.sources
+            }
+        )
+    )
     manifest = {
         "version": 1,
         "surface": "battle.negotiation",
         "patch_config_sha256": _file_sha256(CONFIG_PATH),
         "text_build_sha256": _file_sha256(TEXT_BUILD_PATH),
+        "assembly_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): _file_sha256(path)
+            for path in assembly_files
+        },
         "output_sha256": _sha256(patched),
         "patch_groups": list(
-            dict.fromkeys(patch.group for patch in (*static_patches, *dynamic_patches))
+            dict.fromkeys(patch.group for patch in patches)
         ),
-        "patches": len(static_patches) + len(dynamic_patches),
+        "patches": len(patches),
     }
     return {
         OUTPUT_PATH: patched,

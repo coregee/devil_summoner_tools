@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import hashlib
+import json
 import sys
 import unittest
 from pathlib import Path
@@ -12,12 +13,18 @@ if str(SATURN_ROOT) not in sys.path:
 
 from engine.build import EVENT_DIALOGUE_OUTPUT_PATH, build_event_dialogue  # noqa: E402
 from engine.core.patching import Patch, PatchError, apply_patches  # noqa: E402
+from engine.surfaces.event_dialogue import (  # noqa: E402
+    ASSEMBLY_ROOT,
+    BUILD_PATH,
+    CONFIG_PATH,
+)
 
 
 class EventDialogueEngineTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         cls.outputs = build_event_dialogue()
+        cls.manifest = json.loads(cls.outputs[BUILD_PATH])
 
     def test_proven_event_only_patch_is_reproduced(self) -> None:
         event = self.outputs[EVENT_DIALOGUE_OUTPUT_PATH]
@@ -25,6 +32,33 @@ class EventDialogueEngineTests(unittest.TestCase):
         self.assertEqual(
             hashlib.sha256(event).hexdigest(),
             "b9f988d6a3a2dffa9ef345383bc7c57a4571899b1f62c310e746e3524c795195",
+        )
+
+    def test_patch_recipe_has_no_opaque_replacements(self) -> None:
+        source = CONFIG_PATH.read_text(encoding="utf-8")
+        document = json.loads(source)
+        self.assertEqual(document["version"], 2)
+        self.assertNotIn('"replacement"', source)
+        self.assertEqual(
+            set(self.manifest["assembly_inputs"]),
+            {
+                "event_dialogue/absolute_jump.s",
+                "event_dialogue/advance.s",
+                "event_dialogue/font12_word_glyph.s",
+                "event_dialogue/menu_glyph.s",
+                "event_dialogue/packed_fetch.s",
+                "event_dialogue/space_advance.s",
+                "event_dialogue/tracked_font_loader.s",
+                "event_dialogue/two_glyph_pacing.s",
+                "font16_subpixel_blitter.s",
+                "font16_surface_blitter.s",
+            },
+        )
+        self.assertTrue(
+            all(
+                (ASSEMBLY_ROOT / relative).is_file()
+                for relative in self.manifest["assembly_inputs"]
+            )
         )
 
     def test_patch_application_rejects_overlap_before_writing(self) -> None:
