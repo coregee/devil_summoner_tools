@@ -30,9 +30,8 @@ from util.event_repack import (  # noqa: E402
 from util.sources import load_manifest, manifest_path  # noqa: E402
 
 
-OUTPUT_HASH = "1f86bd84c293dfab0e593be0b7a0feeafee94dc338a57b88ebd29647be2e6ff8"
+OUTPUT_HASH = "b2b2498573e59947e232f9f80d853a7b37309e6d7b158323660016fc4fef2f5b"
 GOOFY_MESSAGE_HASH = "9f585bc2c60caabda79858496a9bd7e69636d589c057e47b1b5e2141ad13a2c7"
-MATURE_SUPPORTED_HASH = "2e710f2a80f687bab07facc7123f60d02f5ebf38014a4b5f3ba345cdb598ffa9"
 
 
 class ShopEventRepackTests(unittest.TestCase):
@@ -46,64 +45,54 @@ class ShopEventRepackTests(unittest.TestCase):
         cls.output_bank = EveBank.parse(cls.output, 0x47FE, 0x5000)
         cls.stock_bank = EveBank.parse(cls.stock, 0x47FE, 0x5000)
 
-    @staticmethod
-    def _message_digest(bank: EveBank, excluded: set[int]) -> str:
-        digest = hashlib.sha256()
-        for message in bank.messages:
-            if message.index in excluded:
-                continue
-            digest.update(struct.pack(">II", message.index, len(message.words)))
-            digest.update(struct.pack(f">{len(message.words)}H", *message.words))
-        return digest.hexdigest()
-
-    def test_safe_mixed_bank_is_deterministic(self) -> None:
+    def test_complete_mixed_bank_is_deterministic(self) -> None:
         self.assertEqual(hashlib.sha256(self.output).hexdigest(), OUTPUT_HASH)
         document = json.loads(self.outputs[SHOPSMP_BUILD_PATH])
         self.assertEqual(document["surface"], "event.dialogue")
         self.assertEqual(
             document["records"],
-            {"translated": 570, "deferred": 193, "total": 763},
+            {"translated": 763, "deferred": 0, "total": 763},
         )
-        self.assertEqual(
-            document["deferred"],
-            {
-                "source_encoding": "game_font12_event_space",
-                "messages": 194,
-                "reason": "requires the fusion consumer engine patch",
-            },
-        )
+        self.assertIsNone(document["deferred"])
         self.assertEqual(
             document["outputs"]["SHOPSMP.EVE"],
             {
                 "sha256": OUTPUT_HASH,
                 "messages": 815,
-                "pages": 570,
-                "body_bytes": 25906,
+                "pages": 763,
+                "body_bytes": 27984,
             },
         )
 
-    def test_all_deferred_fusion_messages_remain_stock_identical(self) -> None:
+    def test_every_translator_facing_fusion_message_is_compiled(self) -> None:
         manifest = load_manifest(manifest_path("game"))
         source = next(
             row for row in manifest.sources if row.name == SHOP_EVENT_SOURCES[0]
         )
         overrides = message_encoding_overrides(source.container, source.name)
-        deferred = {
+        fusion_messages = {
             message
             for message, encoding in overrides.items()
             if encoding == "game_font12_event_space"
         }
-        self.assertEqual(len(deferred), 194)
-        for message in deferred:
-            self.assertEqual(
-                self.output_bank.messages[message].words,
-                self.stock_bank.messages[message].words,
-                f"deferred SHOPSMP message {message} changed",
-            )
-        self.assertEqual(
-            self._message_digest(self.output_bank, deferred),
-            MATURE_SUPPORTED_HASH,
-        )
+        self.assertEqual(len(fusion_messages), 194)
+        translations = load_event_source_translations(SHOP_EVENT_SOURCES)
+        expected_ids = {
+            f"game.shopsmp.m{message:04d}.p00"
+            for message in fusion_messages - {96}
+        }
+        self.assertTrue(expected_ids <= set(translations))
+        unchanged = {
+            message
+            for message in fusion_messages
+            if self.output_bank.messages[message].words
+            == self.stock_bank.messages[message].words
+        }
+        # m0096 is structural-only. The authored '#' and 'ER' happen to use
+        # the same physical glyph codes as stock and are still compiled.
+        self.assertEqual(unchanged, {96, 105, 266})
+        self.assertEqual(translations["game.shopsmp.m0105.p00"], "#")
+        self.assertEqual(translations["game.shopsmp.m0266.p00"], "ER")
 
     def test_goofy_shop_dialogue_uses_the_authored_translation(self) -> None:
         translations = load_event_source_translations(SHOP_EVENT_SOURCES)

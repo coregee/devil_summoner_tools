@@ -19,6 +19,7 @@ if str(SATURN_ROOT) not in sys.path:
 
 from engine.patching import Patch, apply_patches  # noqa: E402
 from engine.battle_negotiation import build_battle_negotiation  # noqa: E402
+from engine.fusion import build_fusion_menu  # noqa: E402
 from rom.util.catalog import load_catalog, validate_source  # noqa: E402
 from rom.util.workflows import read_source_files  # noqa: E402
 from text.util.event_codec import load_event_dictionary  # noqa: E402
@@ -29,13 +30,17 @@ CONFIG_PATH = ENGINE_ROOT / "config" / "event_dialogue.json"
 GENERATED_ROOT = ENGINE_ROOT / "generated" / "game"
 OUTPUT_PATH = GENERATED_ROOT / "EVENT.BIN"
 BUILD_MANIFEST_PATH = GENERATED_ROOT / "event_dialogue_build.json"
+FUSION_BUILD_MANIFEST_PATH = GENERATED_ROOT / "fusion_menu_build.json"
 TEXT_ROOT = SATURN_ROOT / "text"
 TEXT_GENERATED_ROOT = TEXT_ROOT / "generated" / "game"
 TEXT_BUILD_PATH = TEXT_GENERATED_ROOT / "event_build.json"
+SHOPSMP_TEXT_BUILD_PATH = TEXT_GENERATED_ROOT / "shopsmp_build.json"
+SHOPSMP_TEXT_PATH = TEXT_GENERATED_ROOT / "SHOPSMP.EVE"
 CODEC_PATH = TEXT_ROOT / "config" / "event_codec.json"
 FONT_ROOT = SATURN_ROOT / "font" / "generated" / "game"
 FONT16_METRICS_PATH = FONT_ROOT / "FONT16_metrics.json"
 FONT12_METRICS_PATH = FONT_ROOT / "FONT12_metrics.json"
+FONT8_METRICS_PATH = FONT_ROOT / "FONT8_metrics.json"
 _HASH_RE = re.compile(r"[0-9a-f]{64}\Z")
 _HEX_RE = re.compile(r"0x[0-9a-f]+\Z")
 
@@ -157,6 +162,70 @@ def _validate_text_build(codec_digest: str) -> None:
             raise ValueError(f"generated {name} does not match its text build")
 
 
+def _validate_shopsmp_text_build(codec_digest: str) -> None:
+    document = _object(
+        _read_json(SHOPSMP_TEXT_BUILD_PATH), str(SHOPSMP_TEXT_BUILD_PATH)
+    )
+    _fields(
+        document,
+        {
+            "version",
+            "surface",
+            "source",
+            "codec_sha256",
+            "runtime_table_sha256",
+            "font16_metrics_sha256",
+            "font12_metrics_sha256",
+            "records",
+            "deferred",
+            "outputs",
+        },
+        str(SHOPSMP_TEXT_BUILD_PATH),
+    )
+    if (
+        document["version"] != 1
+        or document["surface"] != "event.dialogue"
+        or document["source"] != "SHOPSMP.EVE"
+        or document["codec_sha256"] != codec_digest
+        or document["deferred"] is not None
+    ):
+        raise ValueError("SHOPSMP text build does not match the Fusion surface")
+    records = _object(
+        document["records"], f"{SHOPSMP_TEXT_BUILD_PATH}.records"
+    )
+    if records != {"translated": 763, "deferred": 0, "total": 763}:
+        raise ValueError("SHOPSMP text build is not the complete translated bank")
+    expected_inputs = {
+        "runtime_table_sha256": _sha256(
+            load_event_dictionary(CODEC_PATH).runtime_table()
+        ),
+        "font16_metrics_sha256": _file_sha256(FONT16_METRICS_PATH),
+        "font12_metrics_sha256": _file_sha256(FONT12_METRICS_PATH),
+    }
+    for key, expected in expected_inputs.items():
+        if document[key] != expected:
+            raise ValueError(f"SHOPSMP text build has stale {key}")
+    outputs = _object(
+        document["outputs"], f"{SHOPSMP_TEXT_BUILD_PATH}.outputs"
+    )
+    if set(outputs) != {"SHOPSMP.EVE"}:
+        raise ValueError("SHOPSMP text build has the wrong output set")
+    row = _object(
+        outputs["SHOPSMP.EVE"],
+        f"{SHOPSMP_TEXT_BUILD_PATH}.outputs.SHOPSMP.EVE",
+    )
+    _fields(
+        row,
+        {"sha256", "messages", "pages", "body_bytes"},
+        f"{SHOPSMP_TEXT_BUILD_PATH}.outputs.SHOPSMP.EVE",
+    )
+    if _file_sha256(SHOPSMP_TEXT_PATH) != _hash(
+        row.get("sha256"),
+        f"{SHOPSMP_TEXT_BUILD_PATH}.outputs.SHOPSMP.EVE.sha256",
+    ):
+        raise ValueError("generated SHOPSMP.EVE does not match its text build")
+
+
 def _load_patch_config() -> tuple[int, int, str, tuple[Patch, ...], dict[str, str]]:
     document = _object(_read_json(CONFIG_PATH), str(CONFIG_PATH))
     _fields(document, {"version", "surface", "target", "inputs", "groups"}, str(CONFIG_PATH))
@@ -272,6 +341,50 @@ def build_event_dialogue() -> dict[Path, bytes]:
     }
 
 
+def build_fusion_surface() -> dict[Path, bytes]:
+    """Compose the Fusion consumers onto the general EVENT runtime."""
+    event_outputs = build_event_dialogue()
+    event_patched = event_outputs[OUTPUT_PATH]
+    stock = _stock_event()
+    codec_digest = _file_sha256(CODEC_PATH)
+    _validate_shopsmp_text_build(codec_digest)
+    fusion = build_fusion_menu(stock, event_patched)
+    manifest = {
+        "version": 1,
+        "surface": "fusion.menu",
+        "base_event_output_sha256": _sha256(event_patched),
+        "base_event_manifest_sha256": _sha256(
+            event_outputs[BUILD_MANIFEST_PATH]
+        ),
+        "shopsmp_text_build_sha256": _file_sha256(SHOPSMP_TEXT_BUILD_PATH),
+        "font16_metrics_sha256": _file_sha256(FONT16_METRICS_PATH),
+        "font12_metrics_sha256": _file_sha256(FONT12_METRICS_PATH),
+        "font8_metrics_sha256": _file_sha256(FONT8_METRICS_PATH),
+        "asset_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): _file_sha256(path)
+            for path in fusion.asset_files
+        },
+        "runtime": {
+            "address": "0x06021800",
+            "end": f"0x{0x06021800 + len(fusion.runtime):08x}",
+            "bytes": len(fusion.runtime),
+            "sha256": _sha256(fusion.runtime),
+        },
+        "output_sha256": _sha256(fusion.data),
+        "patch_groups": list(
+            dict.fromkeys(patch.group for patch in fusion.patches)
+        ),
+        "patches": len(fusion.patches),
+    }
+    return {
+        **event_outputs,
+        OUTPUT_PATH: fusion.data,
+        FUSION_BUILD_MANIFEST_PATH: (
+            json.dumps(manifest, indent=2) + "\n"
+        ).encode("utf-8"),
+    }
+
+
 def _atomic_write(path: Path, value: bytes) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     descriptor, temporary_name = tempfile.mkstemp(prefix=f".{path.name}.", dir=path.parent)
@@ -307,16 +420,17 @@ def main() -> int:
         "surface",
         nargs="?",
         default="event.dialogue",
-        choices=("event.dialogue", "battle.negotiation"),
+        choices=("event.dialogue", "fusion.menu", "battle.negotiation"),
     )
     parser.add_argument("--check", action="store_true")
     arguments = parser.parse_args()
     try:
-        outputs = (
-            build_event_dialogue()
-            if arguments.surface == "event.dialogue"
-            else build_battle_negotiation()
-        )
+        if arguments.surface == "event.dialogue":
+            outputs = build_event_dialogue()
+        elif arguments.surface == "fusion.menu":
+            outputs = build_fusion_surface()
+        else:
+            outputs = build_battle_negotiation()
         _publish(outputs, check=arguments.check)
     except (OSError, UnicodeError, ValueError) as error:
         parser.error(str(error))

@@ -428,8 +428,8 @@
         "font": "font12",
         "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 96
         }
       }
     },
@@ -1127,11 +1127,29 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 284
+        }
+      }
+    },
+    "fusion.guide": {
+      "ja": {
+        "font": "font12",
+        "rows": 1,
         "width": {
           "unit": null,
           "value": null
+        }
+      },
+      "en": {
+        "font": "font12",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 300
         }
       }
     },
@@ -1217,11 +1235,29 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font8",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 96
+        }
+      }
+    },
+    "fusion.preview_demon_name": {
+      "ja": {
+        "font": "font12",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": "font12",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 96
         }
       }
     },
@@ -1235,11 +1271,11 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font12",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 96
         }
       }
     },

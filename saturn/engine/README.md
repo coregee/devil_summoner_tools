@@ -26,8 +26,20 @@ capability graph, global build context, or unrelated consumers.
 
 The same EVENT runtime renders the standard dialogue and direct FONT16 menu
 records in `SHOPSMP.EVE`; shop dialogue does not have a separate text hook.
-Direct FONT12 fusion records share that physical bank but remain stock until
-the fusion-menu consumer patch is ported.
+
+## Fusion menu
+
+`fusion.menu` composes the general EVENT runtime with all Gouma-den consumers
+that read the direct FONT12 records in `SHOPSMP.EVE`. It rebuilds the mature
+5,786-byte Fusion runtime exactly from current shared assets and font metrics:
+demon, character, full race, preview-race, and compact chart labels are all
+editable data. It also ports the English name sort, list, preview, result table,
+chart, Guide, Help, and confirmation paths.
+
+The generated runtime is byte-identical to the trusted mature Saturn runtime.
+The surrounding patches name each consumer and verify their stock bytes. The
+six confirmation fields are rebuilt from the Gouma-den asset rather than stored
+as prose inside the engine patch.
 
 Run:
 
@@ -35,6 +47,9 @@ Run:
 python saturn/text/repack.py event
 python saturn/engine/build.py event.dialogue
 python saturn/engine/build.py event.dialogue --check
+python saturn/text/repack.py shopsmp
+python saturn/engine/build.py fusion.menu
+python saturn/engine/build.py fusion.menu --check
 python -m unittest discover -s saturn/engine/tests -v
 ```
 

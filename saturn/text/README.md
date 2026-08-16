@@ -120,18 +120,17 @@ a regression oracle rather than assumed from matching strings.
 `SHOPSMP.EVE` is a mixed physical bank rather than a separate shop renderer.
 The standard dialogue and direct FONT16 menu records use the same proved EVENT
 runtime installed for `event.dialogue`. The `shopsmp` target resolves all 763
-translator-facing pages, compiles the 570 standard-dialogue and direct-FONT16
-pages supported by that runtime, and reparses the complete 815-message bank.
-The displayed Goofy shop line at message 741 is pinned to the trusted mature
-Saturn output.
+translator-facing pages, compiles both the standard dialogue and all 193
+translator-facing direct-FONT12 Fusion pages, and reparses the complete
+815-message bank. The one structural-only Fusion message remains intact.
+`generated/game/shopsmp_build.json` records zero deferred pages and binds the
+output to both FONT16 and FONT12 metrics. The displayed Goofy shop line at
+message 741 remains pinned to the trusted mature Saturn output.
 
-The bank also contains 194 direct FONT12 fusion messages, of which 193 are
-translator-facing. Their English layouts depend on the separate fusion-menu
-renderer and its FONT8/FONT12 consumer patches. Until that surface is ported,
-the compiler verifies their bindings but preserves those messages byte-for-byte
-from the original disc. `generated/game/shopsmp_build.json` records this
-deferral explicitly, so installing shop dialogue cannot silently regress the
-fusion screens.
+The corresponding `fusion.menu` engine target installs the FONT8/FONT12
+consumer renderers required by the direct records. The compact chart labels
+come from their own editable race fields rather than being treated as file-local
+text or silently derived from the longer table labels.
 
 ## Battle-negotiation repacking
 

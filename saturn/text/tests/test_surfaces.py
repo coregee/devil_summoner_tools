@@ -236,6 +236,23 @@ class SurfaceCatalogTests(unittest.TestCase):
                     expected_en,
                 )
 
+    def test_fusion_runtime_geometries_are_proved(self) -> None:
+        expected = {
+            "fusion.status_name": ("font12", 96),
+            "fusion.preview_demon_name": ("font12", 96),
+            "fusion.table_character_name": ("font12", 96),
+            "fusion.table_demon_name": ("font8", 96),
+            "fusion.guide": ("font12", 300),
+            "fusion.help": ("font8", 284),
+        }
+        for name, (font, width) in expected.items():
+            with self.subTest(surface=name):
+                layout = self.catalog.surface(name).en
+                self.assertEqual(
+                    (layout.font, layout.rows, layout.width.unit, layout.width.value),
+                    (font, 1, "pixels", width),
+                )
+
     def test_unmeasured_limits_remain_explicitly_unknown(self) -> None:
         demon_chat_en = self.catalog.surface("battle.demon_chat").en
         self.assertIsNone(demon_chat_en.font)

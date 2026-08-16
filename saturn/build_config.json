@@ -97,7 +97,7 @@
     },
     {
       "id": "repack_shopsmp_text",
-      "description": "Compile shop and facility dialogue from shared authored assets while preserving deferred fusion-only records.",
+      "description": "Compile the complete shop and facility bank, including every Fusion consumer, from shared authored assets.",
       "type": "python",
       "script": "text/repack.py",
       "arguments": ["shopsmp"],
@@ -115,16 +115,16 @@
       ]
     },
     {
-      "id": "build_event_engine",
-      "description": "Build the EVENT variable-width renderer and packed-text fetch hook.",
+      "id": "build_fusion_engine",
+      "description": "Build the composed EVENT dialogue and Fusion-menu runtime patches.",
       "type": "python",
       "script": "engine/build.py",
-      "arguments": ["event.dialogue"],
-      "check_arguments": ["event.dialogue", "--check"]
+      "arguments": ["fusion.menu"],
+      "check_arguments": ["fusion.menu", "--check"]
     },
     {
-      "id": "install_event_engine",
-      "description": "Install the EVENT runtime required by the translated dialogue banks.",
+      "id": "install_fusion_engine",
+      "description": "Install the composed EVENT runtime required by dialogue and Fusion surfaces.",
       "type": "copy",
       "files": [
         {
@@ -212,8 +212,8 @@
         "install_event_text",
         "repack_shopsmp_text",
         "install_shopsmp_text",
-        "build_event_engine",
-        "install_event_engine",
+        "build_fusion_engine",
+        "install_fusion_engine",
         "repack_battle_negotiation_text",
         "install_battle_negotiation_text",
         "build_battle_negotiation_engine",

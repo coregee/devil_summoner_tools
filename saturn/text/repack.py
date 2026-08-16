@@ -34,7 +34,6 @@ from util.event_repack import (  # noqa: E402
     compile_event_sources,
     load_event_source_translations,
     load_event_translations,
-    message_encoding_overrides,
 )
 from util.sources import load_manifest, manifest_path  # noqa: E402
 
@@ -205,16 +204,6 @@ def build_shopsmp_outputs() -> dict[Path, bytes]:
     font16 = FontMetrics.load(FONT16_METRICS_PATH)
     font12 = FontMetrics.load(FONT12_METRICS_PATH)
     dictionary = load_event_dictionary(CODEC_PATH)
-    overrides = message_encoding_overrides(source.container, source.name)
-    deferred_messages = {
-        message
-        for message, encoding in overrides.items()
-        if encoding == "game_font12_event_space"
-    }
-    deferred_records = sum(
-        int(physical_id.split(".m", 1)[1][:4]) in deferred_messages
-        for physical_id in translations
-    )
     bank = compile_event_sources(
         manifest,
         stock,
@@ -223,7 +212,6 @@ def build_shopsmp_outputs() -> dict[Path, bytes]:
         dictionary,
         SHOP_EVENT_SOURCES,
         font12_metrics=font12,
-        preserve_encodings=frozenset({"game_font12_event_space"}),
     )[0]
     document = {
         "version": 1,
@@ -234,15 +222,11 @@ def build_shopsmp_outputs() -> dict[Path, bytes]:
         "font16_metrics_sha256": _sha256_path(FONT16_METRICS_PATH),
         "font12_metrics_sha256": _sha256_path(FONT12_METRICS_PATH),
         "records": {
-            "translated": len(translations) - deferred_records,
-            "deferred": deferred_records,
+            "translated": len(translations),
+            "deferred": 0,
             "total": len(translations),
         },
-        "deferred": {
-            "source_encoding": "game_font12_event_space",
-            "messages": len(deferred_messages),
-            "reason": "requires the fusion consumer engine patch",
-        },
+        "deferred": None,
         "outputs": {
             bank.path.as_posix(): {
                 "sha256": _sha256_bytes(bank.data),

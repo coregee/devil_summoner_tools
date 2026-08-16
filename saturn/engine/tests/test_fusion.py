@@ -1,0 +1,96 @@
+from __future__ import annotations
+
+import hashlib
+import json
+import sys
+import unittest
+from pathlib import Path
+
+
+SATURN_ROOT = Path(__file__).resolve().parents[2]
+if str(SATURN_ROOT) not in sys.path:
+    sys.path.insert(0, str(SATURN_ROOT))
+
+from engine.build import (  # noqa: E402
+    FUSION_BUILD_MANIFEST_PATH,
+    OUTPUT_PATH,
+    _stock_event,
+    build_event_dialogue,
+    build_fusion_surface,
+)
+from engine.fusion import build_fusion_menu  # noqa: E402
+
+
+class FusionEngineTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls) -> None:
+        event = build_event_dialogue()[OUTPUT_PATH]
+        cls.fusion = build_fusion_menu(_stock_event(), event)
+        cls.outputs = build_fusion_surface()
+        cls.manifest = json.loads(cls.outputs[FUSION_BUILD_MANIFEST_PATH])
+
+    def test_proven_runtime_is_reproduced_exactly(self) -> None:
+        self.assertEqual(len(self.fusion.runtime), 5786)
+        self.assertEqual(
+            hashlib.sha256(self.fusion.runtime).hexdigest(),
+            "4b853e181b0c9885d0f59ec21f111b812d4afa194daf48d4f85aea51d98abfd9",
+        )
+        self.assertEqual(
+            self.fusion.addresses,
+            {
+                "font12_widths": 0x06021800,
+                "race_offsets": 0x0602190C,
+                "demon_offsets": 0x06021962,
+                "character_offsets": 0x06021BE0,
+                "race_pool": 0x06021BEC,
+                "demon_pool": 0x06021C6D,
+                "character_pool": 0x06022642,
+                "table_race_offsets": 0x06022690,
+                "table_race_pool": 0x060226E6,
+                "chart_widths": 0x060227EC,
+                "font8_widths": 0x06022817,
+                "font8_map": 0x06022917,
+                "surface_blitter": 0x06022A18,
+                "font8_blitter": 0x06022AC8,
+                "name_drawers": 0x06022B74,
+                "fusion_preview_race": 0x06022B74,
+                "fusion_chart_race": 0x06022BAE,
+                "fusion_table_race": 0x06022BF6,
+                "fusion_table_demon": 0x06022C2C,
+                "fusion_demon_name": 0x06022C30,
+                "fusion_preview_demon": 0x06022C34,
+                "fusion_character_name": 0x06022C6E,
+                "fusion_word_font8_glyph": 0x06022D96,
+                "fusion_guide_mixed_glyph": 0x06022DF2,
+            },
+        )
+
+    def test_composed_event_output_is_deterministic(self) -> None:
+        output = self.outputs[OUTPUT_PATH]
+        self.assertEqual(len(output), 354072)
+        self.assertEqual(
+            hashlib.sha256(output).hexdigest(),
+            "906ffa353eceb0e09ad10f5dde4cbdc08e469dfe11e43d1ff653b2c004f4d826",
+        )
+
+    def test_manifest_accounts_for_every_consumer_patch(self) -> None:
+        self.assertEqual(self.manifest["surface"], "fusion.menu")
+        self.assertEqual(self.manifest["runtime"]["end"], "0x06022e9a")
+        self.assertEqual(self.manifest["patches"], 67)
+        self.assertEqual(
+            self.manifest["patch_groups"],
+            [
+                "fusion.runtime",
+                "fusion.list",
+                "fusion.preview",
+                "fusion.table",
+                "fusion.guide",
+                "fusion.chart",
+                "fusion.confirmation",
+            ],
+        )
+        self.assertEqual(len(self.manifest["asset_inputs"]), 8)
+
+
+if __name__ == "__main__":
+    unittest.main()
