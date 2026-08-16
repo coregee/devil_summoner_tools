@@ -1,0 +1,203 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "sid_death_trap_000": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "怪しい神父：あなたハ、{n}{last_name}{first_name}さン、ですネ？",
+        "translation": "Suspicious Priest: You... by any chance are you{n}{first_name} {last_name}?"
+      }
+    },
+    "sid_death_trap_001": {
+      "text": {
+        "reference": "私ハ、あなたニ、用事がありまス。{n}ちょっト、こちらに来てくださイ。",
+        "translation": "I believe I have some business with you.{n}Please, come this way for just a moment."
+      }
+    },
+    "sid_death_trap_002": {
+      "placeholders": {
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "怪しい神父：さテ、{last_name}さン。{n}あなたハ、図書館で本を借りましたネ？",
+        "translation": "Suspicious Priest: Well then, {last_name}.{n}You checked out a certain book from the library, correct?"
+      }
+    },
+    "sid_death_trap_003": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "申し遅れましタ。私、シド・デイビスと{n}いいまス。{last_name}{first_name}さン。{n}私にその本ヲ、わたすのでス。フッフッフ。",
+        "translation": "Ah, please excuse my manners.{n}My name is Sid Davis. {first_name} {last_name}, please turn that book over to me. Heh heh heh..."
+      }
+    },
+    "sid_death_trap_004": {
+      "text": {
+        "reference": "何？持っていないですカ？{n}それハ、困りましたですネ。{n}でハ、あなたに用はありませン。",
+        "translation": "Hmm? You don't have it?{n}That certainly is bothersome.{n}Then, I have no further business with you."
+      }
+    },
+    "sid_death_trap_005": {
+      "text": {
+        "reference": "死んでもらいまス。と言いたいところですガ{n}あなたモ、死にたくはないでしょウ。",
+        "translation": "I should say you will die here...{n}but I assume you would rather not?"
+      }
+    },
+    "sid_death_trap_006": {
+      "text": {
+        "reference": "私から逃げのびテ、このビルから出られたラ{n}見逃してあげましょウ。フッフッフ。{n}さア、お逃げなさイ。",
+        "translation": "If you can escape me and make it out of this building,{n}I will spare you. Heh heh heh. Now, run."
+      }
+    },
+    "sid_death_trap_007": {
+      "text": {
+        "reference": "シド：さア、逃げ回りなさイ。{n}むだな努力をするのでス。{n}フッフッフ。",
+        "translation": "Sid: Go on, keep running.{n}Struggle all you like.{n}Heh heh heh."
+      }
+    },
+    "sid_death_trap_008": {
+      "text": {
+        "reference": "シド：もっト、逃げ回っテ{n}せいぜイ、私を楽しませてくださいヨ。{n}フッフッフ。",
+        "translation": "Sid: Keep running. Do your very best to entertain me.{n}Heh heh heh."
+      }
+    },
+    "sid_death_trap_009": {
+      "text": {
+        "reference": "シド：どこへ行くのですカ？{n}こちらハ、行き止まりですヨ。{n}フッフッフ。",
+        "translation": "Sid: Where are you going?{n}This path is a dead end.{n}Heh heh heh..."
+      }
+    },
+    "sid_death_trap_010": {
+      "text": {
+        "reference": "シド：フッフッフッフッフッフ。{n}さア、お遊びはここまでにしましょうカ。",
+        "translation": "Sid: Heh heh heh...{n}Well now, this game has gone on long enough."
+      }
+    },
+    "sid_death_trap_011": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "私から逃げられなかっタ、{n}{last_name}{first_name}さんにハ、{n}死んでいただきましょウ。",
+        "translation": "Since you failed to escape me,{n}{first_name} {last_name}, you shall die."
+      }
+    },
+    "sid_death_trap_012": {
+      "text": {
+        "reference": "さすがニ、出口の無いビルからハ、{n}逃げ出せませんでしたネ。{n}フッフッフッフ…………。",
+        "translation": "Of course, you could never escape from a building{n}with no exit.{n}Heh heh heh..."
+      }
+    },
+    "sid_death_trap_013": {
+      "text": {
+        "reference": "おヤ、もうお倒れなのですカ。なぜですカ？",
+        "translation": "Oh, you've collapsed already. Why might that be?"
+      }
+    },
+    "sanzu_river_and_revival_000": {
+      "text": {
+        "reference": "男：……死せる魂よ……。{n}ようこそ、三途の川辺へ……。",
+        "translation": "Man: ...O departed soul...{n}Welcome to the banks of the River Styx..."
+      }
+    },
+    "sanzu_river_and_revival_001": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "私はカロン、三途の川の渡し守。{n}そなた、{last_name}{first_name}であった魂は、{n}これより、川を渡るものなり……",
+        "translation": "I am Charon, ferryman of the River Styx.{n}You, the soul of {first_name} {last_name},{n}are to cross the river..."
+      }
+    },
+    "sanzu_river_and_revival_002": {
+      "text": {
+        "reference": "カロン：……なんと、どうやらそなたは、{n}いまだ死せる定めにあらず。{n}川を渡ること、まかりならん。",
+        "translation": "Charon: ...What is this?{n}It seems you are not yet fated to die.{n}You may not cross the river."
+      }
+    },
+    "sanzu_river_and_revival_003": {
+      "text": {
+        "reference": "では、立ち去るがよい……。",
+        "translation": "In that case, you should leave this place..."
+      }
+    },
+    "sanzu_river_and_revival_004": {
+      "text": {
+        "reference": "カロン：どうしたものか、{n}そなたの魂は元の身体にもどれぬ。",
+        "translation": "Charon: What is to be done?{n}Your soul cannot return to its former body."
+      }
+    },
+    "sanzu_river_and_revival_005": {
+      "text": {
+        "reference": "さりとて、死せる定めになきものに、{n}川を渡らせるわけにもゆかず……。{n}どうしたものか？",
+        "translation": "Yet I cannot allow one who is not{n}fated to die to cross the river...{n}What is to be done?"
+      }
+    },
+    "sanzu_river_and_revival_006": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "では、代わりの身体へ送り返すとしよう。{n}さらば、{last_name}{first_name}であった魂よ……。",
+        "translation": "Very well. I shall send you back in another body. Farewell,{n}soul once known as {first_name} {last_name}..."
+      }
+    },
+    "sanzu_river_and_revival_007": {
+      "text": {
+        "reference": "医師：ああっ、し、死体が動いた！！{n}ゾ、ゾンビだー！！助けてくれー！！",
+        "translation": "Doctor: Aah! Th-the corpse moved!{n}It's a z-zombie! Help!"
+      }
+    },
+    "sanzu_river_and_revival_008": {
+      "text": {
+        "reference": "看護婦：せ、先生！置いてかないでー！！",
+        "translation": "Nurse: D-Doctor! Don't leave me behind!!"
+      }
+    },
+    "sanzu_river_and_revival_009": {
+      "text": {
+        "reference": "医師の声：た、大変だー！！{n}死体が動き出したぞー！！",
+        "translation": "Doctor's Voice: E-Emergency!{n}The corpse started moving!"
+      }
+    },
+    "sanzu_river_and_revival_010": {
+      "text": {
+        "reference": "看護婦の声：せ、先生！落ちついてっ！！{n}落ちついてください！！",
+        "translation": "Nurse's Voice: D-Doctor!{n}Calm down! Please calm down!"
+      }
+    },
+    "sanzu_river_and_revival_011": {
+      "text": {
+        "reference": "レイ：キョウジ！！",
+        "translation": "Rei: Kyouji!!"
+      }
+    },
+    "sanzu_river_and_revival_012": {
+      "text": {
+        "reference": "……生きてたのね……よかった。",
+        "translation": "...You're alive... Thank goodness."
+      }
+    },
+    "sanzu_river_and_revival_013": {
+      "text": {
+        "reference": "こうしちゃ、いられないわ。{n}病院の中は、大騒ぎよ。{n}さっさと、ずらかったほうが利口よ。",
+        "translation": "We can't stay here.{n}The whole hospital is in an uproar.{n}We'd better make ourselves scarce."
+      }
+    },
+    "sanzu_river_and_revival_014": {
+      "text": {
+        "reference": "大丈夫？自分で歩ける？{n}じゃあ、あんたのオフィスへ連れてくわ。",
+        "translation": "Are you all right? Can you walk?{n}Then I'll take you to your office."
+      }
+    }
+  }
+}

@@ -712,6 +712,52 @@ class AssetSchemaTests(unittest.TestCase):
                 },
             )
 
+    def test_visible_source_glyph_can_map_to_an_authored_symbol_token(self) -> None:
+        asset_document = {
+            "version": 1,
+            "kind": "surface_catalog",
+            "entries": {
+                "fee": {
+                    "text": {
+                        "reference": "報酬{yen_symbol}50000",
+                        "translation": "Fee: {yen_symbol}50,000",
+                    }
+                }
+            },
+        }
+        binding_document = {
+            "version": 1,
+            "asset": "fee.json",
+            "records": {"physical.fee": "fee.text"},
+            "glyph_tokens": {"00c0": "yen_symbol"},
+        }
+        with tempfile.TemporaryDirectory() as raw_directory:
+            root = Path(raw_directory)
+            (root / "fee.json").write_text(
+                json.dumps(asset_document), encoding="utf-8"
+            )
+            binding_path = root / "binding.json"
+            binding_path.write_text(
+                json.dumps(binding_document), encoding="utf-8"
+            )
+            binding = load_binding(
+                binding_path,
+                asset_root=root,
+                physical_records={"physical.fee": "報酬{GLYPH:00c0}50000"},
+            )
+            self.assertEqual(dict(binding.glyph_tokens), {"00c0": "yen_symbol"})
+
+            binding_document["glyph_tokens"] = {"00c0": "currency_symbol"}
+            binding_path.write_text(
+                json.dumps(binding_document), encoding="utf-8"
+            )
+            with self.assertRaisesRegex(ValueError, "authored symbol"):
+                load_binding(
+                    binding_path,
+                    asset_root=root,
+                    physical_records={"physical.fee": "報酬{GLYPH:00c0}50000"},
+                )
+
     def test_one_byte_glyph_equivalence_is_lossless_and_explicit(self) -> None:
         asset_document = {
             "version": 1,

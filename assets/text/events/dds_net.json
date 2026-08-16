@@ -1,0 +1,335 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "dds_net_redman_correspondence_000": {
+      "placeholders": {
+        "codename": "player_codename"
+      },
+      "text": {
+        "reference": "DDS-NET：{codename}さんに、{n}メッセージが届きました。",
+        "translation": "DDS-NET: {codename}, you have received a message."
+      }
+    },
+    "dds_net_redman_correspondence_001": {
+      "placeholders": {
+        "codename": "player_codename"
+      },
+      "text": {
+        "reference": "レッドマン：こんにちは、{n}{codename}さん。",
+        "translation": "Redman: Hello, {codename}."
+      }
+    },
+    "dds_net_redman_correspondence_002": {
+      "placeholders": {
+        "codename": "player_codename"
+      },
+      "text": {
+        "reference": "ぼくは、レッドマンです。よろしくね。{n}{codename}さんは、どちらに{n}お住まいですか？",
+        "translation": "I'm Redman. Nice to meet you.{n}Where do you live, {codename}?"
+      }
+    },
+    "dds_net_redman_correspondence_003": {
+      "placeholders": {
+        "city": "location_name",
+        "ward": "location_name"
+      },
+      "text": {
+        "reference": "……{city}市{ward}区ですか。{n}{city}は、いいところですよね。{n}{ward}区というと、市の東側かな。",
+        "translation": "{ward}? That's in {city} City, right?{n}{city}'s a great place.{n}{ward}'s on the east, isn't it?"
+      }
+    },
+    "dds_net_redman_correspondence_004": {
+      "text": {
+        "reference": "海に近いし、緑は多いし、{n}立派な公園や、大きな図書館や博物館もある{n}いい街ですよね。",
+        "translation": "You're near the ocean, with lots of greenery and a beautiful park. You've got a huge library and museum too.{n}It's a nice neighborhood."
+      }
+    },
+    "dds_net_redman_correspondence_005": {
+      "text": {
+        "reference": "意外に、歴史も古い街ですよね。",
+        "translation": "You know, there's some history to it too."
+      }
+    },
+    "dds_net_redman_correspondence_006": {
+      "text": {
+        "reference": "……確か、ヤクザの大親分の屋敷もあった{n}ような……それはどうでもいいか。",
+        "translation": "...I seem to recall there's also a major yakuza boss's{n}mansion around there... But never mind that."
+      }
+    },
+    "dds_net_redman_correspondence_007": {
+      "text": {
+        "reference": "では、またNET上で会いましょう。",
+        "translation": "Well, until I see you again on the NET."
+      }
+    },
+    "dds_net_redman_correspondence_008": {
+      "placeholders": {
+        "codename": "player_codename"
+      },
+      "text": {
+        "reference": "ID＃＃＃＃＃＃＃＃{n}NAME{codename}",
+        "translation": "ID########{n}NAME {codename}",
+        "note": "Physical messages 317-318 are the DDS-NET login and mail header; state-dependent Redman mail text follows across messages 319-325. This block does not resolve Redman's identity."
+      }
+    },
+    "dds_net_redman_correspondence_009": {
+      "placeholders": {
+        "codename": "player_codename"
+      },
+      "text": {
+        "reference": "DDS-NET：ようこそ。{n}{codename}さん。",
+        "translation": "DDS-NET: Welcome,{n}{codename}."
+      }
+    },
+    "dds_net_redman_correspondence_010": {
+      "placeholders": {
+        "codename": "player_codename"
+      },
+      "text": {
+        "reference": "{codename}さんに{n}メールが届いています。",
+        "translation": "{codename},{n}you have mail."
+      }
+    },
+    "dds_net_redman_correspondence_011": {
+      "placeholders": {
+        "codename": "player_codename"
+      },
+      "text": {
+        "reference": "{codename}さん",
+        "translation": "Dear {codename},"
+      }
+    },
+    "dds_net_redman_correspondence_012": {
+      "text": {
+        "reference": "しばらく、アクセスがなかったので、{n}どうしたのか、と思いメールを送りました。{n}単にお忙しいだけだと、思いますが……。",
+        "translation": "It has been a while since you last logged on,{n}so I wrote to ask how you were doing.{n}I expect you have simply been busy, but..."
+      }
+    },
+    "dds_net_redman_correspondence_013": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "最近、気になる噂を耳にしました。{n}それは{city}市に悪魔が出現するように{n}なった、というのです。",
+        "translation": "Recently, I heard a troubling rumor.{n}Apparently, demons have begun appearing{n}in {city} City."
+      }
+    },
+    "dds_net_redman_correspondence_014": {
+      "placeholders": {
+        "codename": "player_codename"
+      },
+      "text": {
+        "reference": "まさか、{codename}さんの身に{n}何かあったわけではないと思いますが、{n}お気を悪くしたら、ごめんなさい。",
+        "translation": "I doubt anything has happened to you,{n}{codename}, but please forgive me{n}if my concern is unwelcome."
+      }
+    },
+    "dds_net_redman_correspondence_015": {
+      "text": {
+        "reference": "では、またメールを送ると思います。{n}今日は、この辺で失礼します。{n}レッドマン",
+        "translation": "I expect I will write again.{n}For now, I will leave it there.{n}Redman"
+      }
+    },
+    "dds_net_redman_correspondence_016": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "また、悪魔の噂です。{n}臨海公園にある{city}市立中央図書館に{n}悪魔が出た、という噂を聞きました。",
+        "translation": "Another rumor about demons:{n}I heard they appeared at {city} Central Library{n}in Rinkai Park."
+      }
+    },
+    "dds_net_redman_correspondence_017": {
+      "text": {
+        "reference": "あの図書館は色んな本がそろっていて、{n}私も利用してましたが、悪魔が出るんじゃあ{n}近づかない方がいいですかね（笑）。",
+        "translation": "That library has all sorts of books,{n}and I used to visit it myself. But if demons are there,{n}perhaps I had better stay away (laugh)."
+      }
+    },
+    "dds_net_redman_correspondence_018": {
+      "placeholders": {
+        "codename": "player_codename",
+        "ward": "location_name"
+      },
+      "text": {
+        "reference": "{ward}区で爆発事故があったらしいですね{n}{codename}さんの家の近所ですが、{n}大丈夫でしたか？",
+        "translation": "I hear there was an explosion in {ward}.{n}It was near your home, {codename}.{n}Were you all right?"
+      }
+    },
+    "dds_net_redman_correspondence_019": {
+      "text": {
+        "reference": "爆発したのは、北山大学の吾妻教授の家で、{n}教授は、よく大学の研究室にこもるとか。{n}事件の時も留守だったらしいですね。",
+        "translation": "The house belonged to Professor Azuma{n}of Kitayama University. He often stays in his lab,{n}and was apparently away when it happened."
+      }
+    },
+    "dds_net_redman_correspondence_020": {
+      "text": {
+        "reference": "吾妻教授は、よく笠置山に登っていた{n}らしいですよ。研究のためか、単に好きな{n}場所なのかは、分かりませんが……。",
+        "translation": "Apparently, Professor Azuma often climbed Mount Kasagi.{n}I do not know whether it was for research{n}or simply because he liked the place..."
+      }
+    },
+    "dds_net_redman_correspondence_021": {
+      "text": {
+        "reference": "実は、前に吾妻教授の書かれた本を読んで{n}感動したんですよ。{n}それ以来、教授のファンなんです。",
+        "translation": "I once read a book by Professor Azuma{n}and found it deeply moving.{n}I have admired him ever since."
+      }
+    },
+    "dds_net_redman_correspondence_022": {
+      "text": {
+        "reference": "だから教授のことは、いつも注目してます。",
+        "translation": "That is why I always pay close attention{n}to any news about the professor."
+      }
+    },
+    "dds_net_redman_correspondence_023": {
+      "text": {
+        "reference": "高級住宅地のヒバリヶ丘（すいません漢字{n}が難しくて…）に、悪魔が出たそうですね。",
+        "translation": "I hear a demon appeared in the upscale district{n}of Hibarigaoka (sorry, the kanji are difficult...)."
+      }
+    },
+    "dds_net_redman_correspondence_024": {
+      "text": {
+        "reference": "大変な事になりましたが、一体どうやって{n}悪魔が出現するのか、興味があります。{n}でも、恐くて見に行けませんが……。",
+        "translation": "It is a serious situation, but I am curious{n}how demons appear. I am too frightened{n}to go and see for myself, though..."
+      }
+    },
+    "dds_net_redman_correspondence_025": {
+      "placeholders": {
+        "city": "location_name",
+        "codename": "player_codename",
+        "ward": "location_name"
+      },
+      "text": {
+        "reference": "{codename}さんが住んでる{n}{city}市{ward}区の氷川神社で連続して{n}事故が起こったようです。",
+        "translation": "{codename}, it seems there have been several accidents{n}at Hikawa Shrine in {ward}, {city} City,{n}right near where you live."
+      }
+    },
+    "dds_net_redman_correspondence_026": {
+      "text": {
+        "reference": "なんでも、氷川神社を移転させる工事中に{n}事故で、関係者が次々にケガをしている{n}みたいです。",
+        "translation": "Apparently, the people working to relocate{n}Hikawa Shrine have been injured in accidents,{n}one after another."
+      }
+    },
+    "dds_net_redman_correspondence_027": {
+      "placeholders": {
+        "codename": "player_codename"
+      },
+      "text": {
+        "reference": "やはり、噂では神社のタタリだって{n}言われてます。{codename}さんは{n}ご近所ですが大丈夫ですか？",
+        "translation": "Naturally, rumor says the shrine is cursed.{n}You live nearby, {codename}.{n}Are you all right?"
+      }
+    },
+    "dds_net_redman_correspondence_028": {
+      "text": {
+        "reference": "でも、どうして神社を移転なんかするのか{n}よくわかりませんね。",
+        "translation": "I do not understand why they would want{n}to relocate the shrine in the first place."
+      }
+    },
+    "dds_net_redman_correspondence_029": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "ところで今度、{city}の博物館に行きます。{n}私は、博物館へ行くのが好きで、{city}の{n}博物館は、よく見学に行っていたんですよ。",
+        "translation": "By the way, I am planning to visit{n}the {city} City Museum. I enjoy museums and used{n}to visit the one in {city} quite often."
+      }
+    },
+    "dds_net_redman_correspondence_030": {
+      "text": {
+        "reference": "いろいろな展示品がそろっている、{n}いい博物館で私は気に入っています。",
+        "translation": "It has a fine range of exhibits.{n}I am quite fond of it."
+      }
+    },
+    "dds_net_redman_correspondence_031": {
+      "text": {
+        "reference": "しばらく行っていなかったので、{n}新しい展示品など、どう変わっているか{n}楽しみです。",
+        "translation": "I have not visited in some time, so I look forward{n}to seeing its new exhibits{n}and how the museum has changed."
+      }
+    },
+    "dds_net_redman_correspondence_032": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "{city}市立博物館は、開館しましたか？{n}最近、ずっと閉館したままらしいですね。",
+        "translation": "Has the {city} City Museum reopened?{n}It seems to have stayed closed lately."
+      }
+    },
+    "dds_net_redman_correspondence_033": {
+      "text": {
+        "reference": "何の説明もなく閉館したままなので{n}私は怒ってるんです！",
+        "translation": "It has remained closed without any explanation,{n}and I'm angry about it!"
+      }
+    },
+    "dds_net_redman_correspondence_034": {
+      "text": {
+        "reference": "博物館は、一般市民に所蔵品を公開する義務{n}があるんです。しかも市立博物館は、市民の{n}税金で運営されてるんです。",
+        "translation": "Museums have a duty to make their collections{n}available to the public. And the City Museum{n}is operated with the taxpayers' money."
+      }
+    },
+    "dds_net_redman_correspondence_035": {
+      "text": {
+        "reference": "それが理由もなく、閉館してるなんて{n}許せません！！",
+        "translation": "Closing it without even giving a reason{n}is unacceptable!!"
+      }
+    },
+    "dds_net_redman_correspondence_036": {
+      "text": {
+        "reference": "……でも、博物館に悪魔が出ているって噂も{n}あるんです。だから、博物館が開けられない{n}とか。",
+        "translation": "...But I've also heard a rumor that demons{n}have appeared inside. Perhaps that's why{n}they can't open it."
+      }
+    },
+    "dds_net_redman_correspondence_037": {
+      "placeholders": {
+        "codename": "player_codename"
+      },
+      "text": {
+        "reference": "だれか、噂を確認してくれませんかねえ。{n}{codename}さん、どうですか？{n}やってみませんか？",
+        "translation": "I wish someone would investigate the rumor.{n}How about you, {codename}?{n}Would you give it a try?"
+      }
+    },
+    "dds_net_redman_correspondence_038": {
+      "text": {
+        "reference": "博物館には、行ってみましたか？",
+        "translation": "Have you tried going to the museum?"
+      }
+    },
+    "dds_net_redman_correspondence_039": {
+      "text": {
+        "reference": "実は、博物館のセキュリティ・システムの{n}はずし方が分かったんですよ。{n}NET上から操作できるんです。",
+        "translation": "Actually, I've discovered how to disable{n}the museum's security system.{n}It can be controlled over the NET."
+      }
+    },
+    "dds_net_redman_correspondence_040": {
+      "placeholders": {
+        "codename": "player_codename"
+      },
+      "text": {
+        "reference": "詳しい方法は秘密ですが……。{n}では、{codename}さんが行った時に{n}入れるように、はずしておきます。",
+        "translation": "The details are secret...{n}But I'll disable it so you can get in{n}when you go, {codename}."
+      }
+    },
+    "dds_net_redman_correspondence_041": {
+      "text": {
+        "reference": "博物館には、入れましたか？",
+        "translation": "Were you able to get into the museum?"
+      }
+    },
+    "dds_net_redman_correspondence_042": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "{city}市立博物館は、コレクションが{n}とても充実しています。{n}一見の価値があります。",
+        "translation": "The {city} City Museum's collection{n}is remarkably extensive.{n}It's well worth seeing."
+      }
+    },
+    "dds_net_redman_correspondence_043": {
+      "placeholders": {
+        "codename": "player_codename"
+      },
+      "text": {
+        "reference": "今度、ぜひ一度お会いしたいですね。{n}{codename}さんは、忙しそうですから{n}都合のいい時が、あればいいのですが……。",
+        "translation": "I'd very much like to meet you someday.{n}You seem busy, {codename},{n}but perhaps we'll find a time that suits you..."
+      }
+    }
+  }
+}

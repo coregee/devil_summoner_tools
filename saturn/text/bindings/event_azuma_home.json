@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "asset": "events/azuma_home.json",
+  "records": {
+    "game.evfile_0.m0413.p00": "azuma_home_takashi_attack_000.text",
+    "game.evfile_0.m0414.p00": "azuma_home_takashi_attack_001.text",
+    "game.evfile_0.m0414.p01": "azuma_home_takashi_attack_002.text",
+    "game.evfile_0.m0415.p00": "azuma_home_takashi_attack_003.text",
+    "game.evfile_0.m0415.p01": "azuma_home_takashi_attack_004.text",
+    "game.evfile_0.m0415.p02": "azuma_home_takashi_attack_005.text",
+    "game.evfile_0.m0415.p03": "azuma_home_takashi_attack_006.text",
+    "game.evfile_0.m0415.p04": "azuma_home_takashi_attack_007.text",
+    "game.evfile_0.m0415.p05": "azuma_home_takashi_attack_008.text",
+    "game.evfile_0.m0416.p00": "azuma_home_takashi_attack_009.text",
+    "game.evfile_0.m0416.p01": "azuma_home_takashi_attack_010.text",
+    "game.evfile_0.m0417.p00": "azuma_home_takashi_attack_011.text",
+    "game.evfile_0.m0418.p00": "azuma_home_takashi_attack_012.text",
+    "game.evfile_0.m0418.p01": "azuma_home_takashi_attack_013.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

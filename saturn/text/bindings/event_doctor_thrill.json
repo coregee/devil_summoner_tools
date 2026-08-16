@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "asset": "events/doctor_thrill.json",
+  "records": {
+    "game.evfile_0.m0452.p00": "doctor_thrill_laboratory_000.text",
+    "game.evfile_0.m0453.p00": "doctor_thrill_laboratory_001.text",
+    "game.evfile_0.m0453.p01": "doctor_thrill_laboratory_002.text",
+    "game.evfile_0.m0453.p02": "doctor_thrill_laboratory_003.text",
+    "game.evfile_0.m0454.p00": "doctor_thrill_laboratory_004.text",
+    "game.evfile_0.m0455.p00": "doctor_thrill_laboratory_005.text",
+    "game.evfile_0.m0455.p01": "doctor_thrill_laboratory_006.text",
+    "game.evfile_0.m0456.p00": "doctor_thrill_laboratory_007.text",
+    "game.evfile_0.m0456.p01": "doctor_thrill_laboratory_008.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

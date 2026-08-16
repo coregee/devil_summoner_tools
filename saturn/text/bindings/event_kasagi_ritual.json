@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "asset": "events/kasagi_ritual.json",
+  "records": {
+    "game.evfile_0.m0401.p00": "rei_kamioroshi_ritual_000.text",
+    "game.evfile_0.m0402.p00": "rei_kamioroshi_ritual_001.text",
+    "game.evfile_0.m0403.p00": "rei_kamioroshi_ritual_002.text",
+    "game.evfile_0.m0404.p00": "rei_kamioroshi_ritual_003.text",
+    "game.evfile_0.m0404.p01": "rei_kamioroshi_ritual_004.text",
+    "game.evfile_0.m0405.p00": "rei_kamioroshi_ritual_005.text",
+    "game.evfile_0.m0406.p00": "rei_kamioroshi_ritual_006.text",
+    "game.evfile_0.m0406.p01": "rei_kamioroshi_ritual_007.text",
+    "game.evfile_0.m0407.p00": "rei_kamioroshi_ritual_008.text",
+    "game.evfile_0.m0407.p01": "rei_kamioroshi_ritual_009.text",
+    "game.evfile_0.m0408.p00": "rei_kamioroshi_ritual_010.text",
+    "game.evfile_0.m0408.p01": "rei_kamioroshi_ritual_011.text",
+    "game.evfile_0.m0408.p02": "rei_kamioroshi_ritual_012.text",
+    "game.evfile_0.m0408.p03": "rei_kamioroshi_ritual_013.text",
+    "game.evfile_0.m0408.p04": "rei_kamioroshi_ritual_014.text",
+    "game.evfile_0.m0409.p00": "rei_kamioroshi_ritual_015.text",
+    "game.evfile_0.m0410.p00": "rei_kamioroshi_ritual_016.text",
+    "game.evfile_0.m0411.p00": "rei_kamioroshi_ritual_017.text",
+    "game.evfile_0.m0412.p00": "rei_kamioroshi_ritual_018.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

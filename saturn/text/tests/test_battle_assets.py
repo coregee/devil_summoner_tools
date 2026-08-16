@@ -35,6 +35,10 @@ class BattleAssetTests(unittest.TestCase):
         cls.condition_binding = load_binding(
             BINDING_ROOT / "battle_condition_fallbacks.json"
         )
+        cls.boss_dialogue = load_asset("battle/boss_dialogue.json")
+        cls.boss_dialogue_binding = load_binding(
+            BINDING_ROOT / "battle_boss_dialogue.json"
+        )
         cls.battle_help = load_asset("battle/help.json")
         cls.battle_help_binding = load_binding(BINDING_ROOT / "battle_help.json")
         cls.command_help = load_asset("ui/command_help.json")
@@ -144,6 +148,39 @@ class BattleAssetTests(unittest.TestCase):
                 entry.fields["text"].reviewed
                 for entry in self.conditions.entries.values()
             )
+        )
+
+    def test_boss_dialogue_is_complete_and_uses_the_negotiation_window(
+        self,
+    ) -> None:
+        rows = physical("eve/bosstalk.json")
+        self.assertEqual(len(self.boss_dialogue.entries), 16)
+        self.assertEqual(len(self.boss_dialogue_binding.records), 16)
+        self.assertEqual(
+            set(self.boss_dialogue_binding.records),
+            {row["id"] for row in rows},
+        )
+        self.assertTrue(
+            all(
+                entry.fields["text"].reviewed
+                for entry in self.boss_dialogue.entries.values()
+            )
+        )
+        self.assertEqual(
+            self.boss_dialogue.entries["dialogue_0000"]
+            .fields["text"]
+            .translation,
+            "GRRRGH, GRAAAGH!{BEAT}{n}I ain't talking to you!",
+        )
+        self.assertEqual(
+            self.boss_dialogue.entries["dialogue_0012"]
+            .fields["text"]
+            .translation,
+            "EXECUTING ORDERS.{n}STATUS:{BEAT}{OP:8025}O{BEAT}K!!{OP:8020}",
+        )
+        self.assertEqual(
+            dict(self.boss_dialogue_binding.field_surfaces),
+            {"text": ("battle.negotiation_dialogue",)},
         )
 
     def test_help_and_negotiation_choices_are_editable_assets(self) -> None:

@@ -144,6 +144,9 @@ class ProfileEntryAssetTests(unittest.TestCase):
     def setUpClass(cls) -> None:
         cls.catalog = load_asset("ui/profile_entry.json")
         cls.binding = load_binding(BINDING_ROOT / "profile_entry.json")
+        cls.event_binding = load_binding(
+            BINDING_ROOT / "profile_entry_events.json"
+        )
         cls.physical = json.loads(
             (
                 TEXT_ROOT
@@ -157,7 +160,10 @@ class ProfileEntryAssetTests(unittest.TestCase):
 
     def test_all_physical_name_entry_text_has_one_authored_owner(self) -> None:
         self.assertEqual(len(self.physical), 19)
-        self.assertEqual(set(self.binding.records), {row["id"] for row in self.physical})
+        self.assertEqual(
+            set(self.binding.records),
+            {row["id"] for row in self.physical},
+        )
         self.assertEqual(len(set(self.binding.records.values())), 19)
         self.assertEqual(
             [
@@ -206,10 +212,15 @@ class ProfileEntryAssetTests(unittest.TestCase):
 
     def test_runtime_grid_defaults_and_end_action_are_editable_assets(self) -> None:
         bound_entries = {
-            asset_ref.rsplit(".", 1)[0] for asset_ref in self.binding.records.values()
+            asset_ref.rsplit(".", 1)[0]
+            for binding in (self.binding, self.event_binding)
+            for asset_ref in binding.records.values()
         }
-        self.assertEqual(set(self.catalog.entries) - bound_entries, RUNTIME_PROFILE_ENTRIES)
-        self.assertEqual(len(self.catalog.entries), 28)
+        self.assertEqual(
+            set(self.catalog.entries) - bound_entries,
+            RUNTIME_PROFILE_ENTRIES,
+        )
+        self.assertEqual(len(self.catalog.entries), 46)
         self.assertEqual(
             self.catalog.entries["grid_symbol_row_2"].fields["text"].translation,
             "-!?/&: ",
@@ -221,6 +232,57 @@ class ProfileEntryAssetTests(unittest.TestCase):
                 self.catalog.entries["grid_end"].fields["text"].translation,
             ),
             ("Hirasaki", "Asahi", "END"),
+        )
+
+    def test_opening_dds_net_workflow_uses_the_mature_saturn_output(self) -> None:
+        self.assertEqual(len(self.event_binding.records), 18)
+        self.assertEqual(
+            set(self.event_binding.records),
+            {
+                f"game.evfile_0.m{message:04d}.p{page:02d}"
+                for message in range(16)
+                for page in range(2 if message in {0, 11} else 1)
+            },
+        )
+        translations = tuple(
+            self.catalog.field(asset_ref).translation
+            for asset_ref in self.event_binding.records.values()
+        )
+        self.assertEqual(
+            translations,
+            (
+                "Welcome to DDS-NET.",
+                "All current members must renew their registration.{n}"
+                "We apologize for the inconvenience.",
+                "Please enter your name.{n}Use UPPER, lower, or SYMBOL.",
+                "Is this correct?",
+                "Please enter the reading for your name.",
+                "Please enter your address.",
+                "And your profession?",
+                "So, you're an office worker?",
+                "So, you're a student?",
+                "So, you're a part-timer?",
+                "So, you're unemployed?",
+                "Is this correct?",
+                "Thank you for your patience.{n}"
+                "Your membership renewal is now complete.",
+                "We hope you continue to enjoy DDS-NET.",
+                "Employee",
+                "Student",
+                "Part-timer",
+                "Unemployed",
+            ),
+        )
+        self.assertEqual(dict(self.event_binding.glyph_equivalence), {"010d": "-"})
+        self.assertEqual(
+            dict(self.event_binding.field_surfaces),
+            {"text": ("event.dialogue",)},
+        )
+        self.assertTrue(
+            all(
+                not self.catalog.field(asset_ref).reviewed
+                for asset_ref in self.event_binding.records.values()
+            )
         )
 
     def test_profile_and_name_entry_limits_match_the_mature_renderer(self) -> None:

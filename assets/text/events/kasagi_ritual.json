@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "rei_kamioroshi_ritual_000": {
+      "text": {
+        "reference": "レイ：……着いた。{n}ここでは、いつも龍脈の気の流れが{n}感じられるわね。",
+        "translation": "Rei: ...We're here.{n}You can always feel the energy flowing{n}through the Dragon Veins here."
+      }
+    },
+    "rei_kamioroshi_ritual_001": {
+      "text": {
+        "reference": "すぐ始めるわ。{n}例によって、どの神の力を降ろすか{n}決めてもらうわね。",
+        "translation": "I'll begin at once.{n}As usual, you choose which deity's power{n}I call down."
+      }
+    },
+    "rei_kamioroshi_ritual_002": {
+      "text": {
+        "reference": "どの神にする？",
+        "translation": "Which deity will it be?"
+      }
+    },
+    "rei_kamioroshi_ritual_003": {
+      "text": {
+        "reference": "攻撃魔法で、あたしも積極的に攻めるのね。",
+        "translation": "You want me attacking with offensive magic."
+      }
+    },
+    "rei_kamioroshi_ritual_004": {
+      "text": {
+        "reference": "女神アマテラスでいい？",
+        "translation": "Megami Amaterasu, then?"
+      }
+    },
+    "rei_kamioroshi_ritual_005": {
+      "text": {
+        "reference": "じゃあ、始めるわ。",
+        "translation": "All right. Let's begin."
+      }
+    },
+    "rei_kamioroshi_ritual_006": {
+      "text": {
+        "reference": "支援魔法で、あんたの攻撃を有利にするのね",
+        "translation": "You want support magic to aid your attacks."
+      }
+    },
+    "rei_kamioroshi_ritual_007": {
+      "text": {
+        "reference": "大天使ガブリエルでいい？",
+        "translation": "Herald Gabriel, then?"
+      }
+    },
+    "rei_kamioroshi_ritual_008": {
+      "text": {
+        "reference": "回復魔法で、危なくなったら、{n}ダメージやバッドステータスを直すのね。",
+        "translation": "With healing magic, I'll restore damage{n}and cure ailments when things get dangerous."
+      }
+    },
+    "rei_kamioroshi_ritual_009": {
+      "text": {
+        "reference": "地母神イシュタルでいい？",
+        "translation": "Lady Ishtar, then?"
+      }
+    },
+    "rei_kamioroshi_ritual_010": {
+      "text": {
+        "reference": "レイ：……ふぅ。{n}久々だから、キツかったわ。",
+        "translation": "Rei: ...Whew.{n}It's been a while. That was rough."
+      }
+    },
+    "rei_kamioroshi_ritual_011": {
+      "text": {
+        "reference": "あんたも大変そうだから、{n}やってあげたんだからね。感謝しなさいよ。",
+        "translation": "I only did it because you've got enough trouble.{n}You'd better be grateful."
+      }
+    },
+    "rei_kamioroshi_ritual_012": {
+      "text": {
+        "reference": "マリーのババァだったら、大金よこせって{n}ギャアギャアわめくところよ。",
+        "translation": "That old hag Marie would be shrieking{n}for a fortune in return."
+      }
+    },
+    "rei_kamioroshi_ritual_013": {
+      "text": {
+        "reference": "これで、戦っていくうちに、{n}宿した女神の力が、引き出されていく……{n}あんたも知っての通り。",
+        "translation": "Now, as we keep fighting,{n}the divine power I host will awaken...{n}You know how it works."
+      }
+    },
+    "rei_kamioroshi_ritual_014": {
+      "placeholders": {
+        "ward": "location_name"
+      },
+      "text": {
+        "reference": "じゃあ、{ward}区の吾妻教授の所へ{n}行きましょうか？",
+        "translation": "Shall we go to Professor Azuma's place{n}in {ward}?"
+      }
+    },
+    "rei_kamioroshi_ritual_015": {
+      "text": {
+        "reference": "レイ：儀式は、済んでいるわ。{n}今、ここには何の用もないはずよ。",
+        "translation": "Rei: The ritual is already done.{n}We have no reason to be here now."
+      }
+    },
+    "rei_kamioroshi_ritual_016": {
+      "text": {
+        "reference": "女神アマテラス",
+        "translation": "Megami Amaterasu"
+      }
+    },
+    "rei_kamioroshi_ritual_017": {
+      "text": {
+        "reference": "大天使ガブリエル",
+        "translation": "Herald Gabriel"
+      }
+    },
+    "rei_kamioroshi_ritual_018": {
+      "text": {
+        "reference": "地母神イシュタル",
+        "translation": "Lady Ishtar"
+      }
+    }
+  }
+}

@@ -93,6 +93,19 @@ reactions use descriptive keys such as `condition_charmed` in the same file.
 Branch labels are added only when call-site evidence proves them, rather than
 being guessed from the wording.
 
+Bosses that reject battle negotiation use the same event-style window but are
+authored separately in `battle/boss_dialogue.json`; they are not a speaking
+personality and are not mixed into the general story-event catalogue.
+
+Story events are grouped under `events/` by player-facing place or narrative
+thread, such as DDS-NET correspondence, Marie's jobs, the Central Library, and
+the detective office. Event-bank names, message numbers, and page numbers stay
+in the Saturn binding. One authored line may therefore serve several proved
+physical occurrences, while contextually distinct repetitions remain separate
+fields even when their Japanese happens to match. The complete first Saturn
+event bank uses 711 authored fields for 766 physical pages; a later PSP binding
+can point its exact matches at those same fields rather than copying them.
+
 The current speaking-style files are `archaic`, `beast`, `boy`, `cynical`,
 `feral`, `girl`, `highborn_lady`, `kansai`, `lady`, `little_girl`, `manic`,
 `nobleman`, `old_man`, `slime`, and `young_man`. Original bank names remain in
@@ -157,6 +170,12 @@ Visible symbols and punctuation are authored too. The currency message, for
 example, has explicit yen and magnetite forms using `{yen_symbol}` and
 `{mag_symbol}` before `{currency_amount}`. Runtime supplies only the formatted
 amount; it does not choose or insert an unrecorded currency label.
+
+When a physical source represents one of those visible symbols as a font glyph,
+the platform binding must explicitly map that glyph code to the authored token.
+This keeps the physical corpus lossless while ensuring the editable text says
+`{yen_symbol}` rather than exposing a raw glyph number or relying on runtime
+prose.
 
 Reference and translation placeholder names and multiplicities must agree,
 including in every declared variant. When a placeholder has a bounded domain,
@@ -279,12 +298,23 @@ shared home in `characters.json`; the PSP table has the same six semantic rows
 and therefore needs no copied text. Kyouji's short, full, given, and family
 forms are independently editable, replacing the mature battle renderer's
 embedded `Kyouji`/`Kuzunoha` wording. `ui/profile_entry.json` owns all 19
-physical `NAME.BIN` strings plus the six English input-grid rows, the Hirasaki
-and Asahi defaults, and the visible END command glyph. The physically shared
-first/last, city/ward, and occupation prompt/summary sources deliberately bind
-to separate fields, so a translator can change their English roles
+physical `NAME.BIN` strings, the 18 opening DDS-NET renewal pages, the six
+English input-grid rows, the Hirasaki and Asahi defaults, and the visible END
+command glyph. The event pages keep the mature Saturn translation in this
+shared asset so a later PSP binding can reuse it rather than copy it. The
+physically shared first/last, city/ward, and occupation prompt/summary sources
+deliberately bind to separate fields, so a translator can change their English roles
 independently. Runtime code may lay out these fields but does not own their
 content or require two independently authored fields to remain equal.
+
+The first general-event-bank slice is complete. Its 465 message groups and 766
+physical pages are organized into 35 semantic scenes across 17 `events/`
+catalogues plus the opening profile workflow. They resolve to 711 independently
+editable fields: repeated uses are shared only where the mature Saturn binding
+declares that relationship, and the original Saturn translations and useful
+notes are retained exactly. Visible yen reward glyphs normalize explicitly to
+the authored `{yen_symbol}` token. No event-bank coordinate appears in an asset
+key or filename.
 
 The status slice gives the six base-stat abbreviations, eight derived-stat
 headings, generic Attack and Accuracy labels, all ten personality values, and

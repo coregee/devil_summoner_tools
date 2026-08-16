@@ -178,6 +178,114 @@
         "translation": "END",
         "note": "Visible command glyph used to accept the current input field."
       }
+    },
+    "dds_net_welcome": {
+      "text": {
+        "reference": "ようこそ、DDS-NETへ。{n}",
+        "translation": "Welcome to DDS-NET."
+      }
+    },
+    "dds_net_renewal_notice": {
+      "text": {
+        "reference": "お手数ですが、現在会員の方には、{n}継続手続をお願いしています。",
+        "translation": "All current members must renew their registration.{n}We apologize for the inconvenience."
+      }
+    },
+    "name_entry_instructions": {
+      "text": {
+        "reference": "あなたの名前を入力してください。{n}漢字／ひらがな／カタカナが使えます",
+        "translation": "Please enter your name.{n}Use UPPER, lower, or SYMBOL."
+      }
+    },
+    "name_entry_confirm": {
+      "text": {
+        "reference": "これで、よろしいですか？",
+        "translation": "Is this correct?"
+      }
+    },
+    "name_reading_instructions": {
+      "text": {
+        "reference": "あなたの名前の読み方を入力してください。",
+        "translation": "Please enter the reading for your name."
+      }
+    },
+    "address_entry_instructions": {
+      "text": {
+        "reference": "あなたの住所を入力してください。",
+        "translation": "Please enter your address."
+      }
+    },
+    "occupation_entry_instructions": {
+      "text": {
+        "reference": "あなたの職業は？",
+        "translation": "And your profession?"
+      }
+    },
+    "occupation_employee_confirm": {
+      "text": {
+        "reference": "あなたは、会社員ですね？",
+        "translation": "So, you're an office worker?"
+      }
+    },
+    "occupation_student_confirm": {
+      "text": {
+        "reference": "あなたは、学生ですね？",
+        "translation": "So, you're a student?"
+      }
+    },
+    "occupation_part_timer_confirm": {
+      "text": {
+        "reference": "あなたは、フリーターですね？",
+        "translation": "So, you're a part-timer?"
+      }
+    },
+    "occupation_unemployed_confirm": {
+      "text": {
+        "reference": "あなたは、無職ですね？",
+        "translation": "So, you're unemployed?"
+      }
+    },
+    "profile_entry_confirm": {
+      "text": {
+        "reference": "これで、よろしいですか？",
+        "translation": "Is this correct?"
+      }
+    },
+    "dds_net_renewal_complete": {
+      "text": {
+        "reference": "お手数をおかけしました。以上で、{n}あなたの会員継続手続は、終了しました。",
+        "translation": "Thank you for your patience.{n}Your membership renewal is now complete."
+      }
+    },
+    "dds_net_closing": {
+      "text": {
+        "reference": "DDS-NETを{n}今後ともよろしくお願いします。",
+        "translation": "We hope you continue to enjoy DDS-NET."
+      }
+    },
+    "occupation_employee_value": {
+      "text": {
+        "reference": "会社員",
+        "translation": "Employee"
+      }
+    },
+    "occupation_student_value": {
+      "text": {
+        "reference": "学生",
+        "translation": "Student"
+      }
+    },
+    "occupation_part_timer_value": {
+      "text": {
+        "reference": "フリーター",
+        "translation": "Part-timer"
+      }
+    },
+    "occupation_unemployed_value": {
+      "text": {
+        "reference": "無職",
+        "translation": "Unemployed"
+      }
     }
   }
 }

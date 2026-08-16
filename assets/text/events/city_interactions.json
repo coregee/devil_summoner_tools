@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "redevelopment_street_interactions_000": {
+      "text": {
+        "reference": "現場監督：工事中なんで通れないんですよ。{n}すみませんね。",
+        "translation": "Foreman: This place is under construction,{n}so you can't go through here. Sorry."
+      }
+    },
+    "redevelopment_street_interactions_001": {
+      "text": {
+        "reference": "作業員：今、工事してて通れねえんだよ。{n}にぃちゃん、悪ぃな。",
+        "translation": "Worker: We're working here, so you can't get through.{n}Sorry, pal."
+      }
+    },
+    "redevelopment_street_interactions_002": {
+      "text": {
+        "reference": "作業員：ここんとこ、再開発計画だかなんか{n}で、工事が多くて忙しいんだよな。",
+        "translation": "Worker: This redevelopment plan or whatever{n}has kept us swamped with construction lately."
+      }
+    },
+    "city_services_interactions_000": {
+      "text": {
+        "reference": "警官：署内へは、関係者以外立入禁止だ。",
+        "translation": "Police Officer: Only authorized personnel may enter."
+      }
+    },
+    "city_services_interactions_001": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "{city}市役所職員：何かご用ですか？",
+        "translation": "{city} City Hall Employee: How may I help you?"
+      }
+    },
+    "city_services_interactions_002": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "みなさまの{city}市役所では、{n}文化的な市民生活のために、{n}さまざまなサービスを行っています。",
+        "translation": "Your {city} City Hall provides{n}many services to support{n}a cultured civic life."
+      }
+    }
+  }
+}

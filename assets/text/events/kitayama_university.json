@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "kitayama_university_errand_000": {
+      "text": {
+        "reference": "＞大学正門{n}中に入りますか？",
+        "translation": "> University Main Gate{n}Will you go inside?"
+      }
+    },
+    "kitayama_university_errand_001": {
+      "text": {
+        "reference": "警官：ここは、立入禁止だ。",
+        "translation": "Police Officer: No entry is allowed past this point."
+      }
+    },
+    "kitayama_university_errand_002": {
+      "text": {
+        "reference": "百地警部：またお前か！葛葉！{n}いつの間に、ブタ箱から出てきた！？",
+        "translation": "Inspector Momochi: Hey, Kuzunoha!{n}When the hell did you get out of your cell?"
+      }
+    },
+    "kitayama_university_errand_003": {
+      "text": {
+        "reference": "何か事件があると、ノコノコ顔出しやがって{n}とっとと失せろ！！このクズ野郎！！",
+        "translation": "Every time there's an incident, you come strolling in.{n}Get lost, you piece of trash!"
+      }
+    },
+    "kitayama_university_errand_004": {
+      "text": {
+        "reference": "磯野刑事：そうだ！失せろ！クズ野郎！！",
+        "translation": "Detective Isono: Yeah! Get lost, you piece of trash!"
+      }
+    },
+    "kitayama_university_errand_005": {
+      "text": {
+        "reference": "＞大学正門。{n}門は閉まっている。",
+        "translation": "> University Main Gate{n}The gate is shut tight."
+      }
+    },
+    "kitayama_university_errand_006": {
+      "text": {
+        "reference": "久美子：あー、やっぱり閉まってる。{n}裏に回んなきゃ。",
+        "translation": "Kumiko: Ah, of course it'd be locked.{n}Let's try the back."
+      }
+    },
+    "kitayama_university_errand_007": {
+      "text": {
+        "reference": "久美子：正門は、開いてないわよ。{n}裏門へ行きましょう。",
+        "translation": "Kumiko: The front's no good.{n}Let's try the back gate."
+      }
+    },
+    "kitayama_university_errand_008": {
+      "text": {
+        "reference": "＞大学裏門。{n}中に入りますか？",
+        "translation": "> University Back Gate{n}Will you go inside?"
+      }
+    },
+    "kitayama_university_errand_009": {
+      "text": {
+        "reference": "レイ：こっちから入れるなんて……。{n}なんで、あなたがこんなこと知ってるの？",
+        "translation": "Rei: Going in through the back...{n}How'd you know we could get in this way?"
+      }
+    },
+    "kitayama_university_errand_010": {
+      "text": {
+        "reference": "＞大学裏門。",
+        "translation": "> It's the university's back gate."
+      }
+    },
+    "kitayama_university_errand_011": {
+      "text": {
+        "reference": "久美子：実はここ、いつでも通れるって{n}知ってた？……知らなかったの？{n}ちゃんと、学校に出てないからでしょう。",
+        "translation": "Kumiko: Did you know you can always get through here?{n}...You didn't? That's what you get for skipping class."
+      }
+    },
+    "kitayama_university_errand_012": {
+      "text": {
+        "reference": "久美子：大学の裏門は、{n}いつでも開いてるのよ。{n}便利なんだけど、不用心よね。",
+        "translation": "Kumiko: You see, the back gate's always open.{n}It's very convenient, but not exactly safe."
+      }
+    },
+    "kitayama_university_errand_013": {
+      "text": {
+        "reference": "久美子：ここから、いつでも通れるって{n}さすがに知ってるわね。",
+        "translation": "Kumiko: You can always come and go through here.{n}Of course you'd know though."
+      }
+    },
+    "kitayama_university_errand_014": {
+      "text": {
+        "reference": "北大生の常識よね。",
+        "translation": "It's just common knowledge among Kitayama students."
+      }
+    },
+    "kitayama_university_errand_015": {
+      "text": {
+        "reference": "久美子：何で、学生じゃないのに、{n}ここが通れるのを知ってるの。",
+        "translation": "Kumiko: You aren't a student here,{n}so how'd you know to come this way?"
+      }
+    },
+    "kitayama_university_errand_016": {
+      "text": {
+        "reference": "あっ、忘れてたわ。{n}チケット取りに行くんだったわ。",
+        "translation": "Ah, I forgot something.{n}I was supposed to pick up the tickets."
+      }
+    },
+    "kitayama_university_errand_017": {
+      "text": {
+        "reference": "例の約束していたコンサートのチケット{n}予約が取れたのよ。",
+        "translation": "I managed to reserve tickets for that concert{n}we talked about."
+      }
+    },
+    "kitayama_university_errand_018": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "{first_name}くん、お願いしていい？",
+        "translation": "{first_name}, would you mind picking it up for me?"
+      }
+    },
+    "kitayama_university_errand_019": {
+      "text": {
+        "reference": "矢東ビルのチケットガイドへ行って、{n}コンサートのチケットを取って来て{n}くれない？",
+        "translation": "Can you go to the ticket office{n}in the Yatou Building and get them?"
+      }
+    },
+    "kitayama_university_errand_020": {
+      "text": {
+        "reference": "ビルは、矢来区のアーケード入口の手前に{n}あるわよ。",
+        "translation": "The building is just before the entrance{n}to the shopping arcade in Yarai Ward."
+      }
+    },
+    "kitayama_university_errand_021": {
+      "text": {
+        "reference": "わたし、吾妻教授のところへ行って用事を{n}すませたら、臨海公園の喫茶店で{n}待ってるわ。",
+        "translation": "I need to see Professor Azuma.{n}When I'm finished, I'll wait at the cafe in Rinkai Park."
+      }
+    },
+    "kitayama_university_errand_022": {
+      "text": {
+        "reference": "チケット取って来てね。おねがい。",
+        "translation": "Please pick up the tickets for me."
+      }
+    },
+    "kitayama_university_errand_023": {
+      "text": {
+        "reference": "久美子の頼みを聞く",
+        "translation": "Agree to help her out"
+      }
+    },
+    "kitayama_university_errand_024": {
+      "text": {
+        "reference": "ここで待つ",
+        "translation": "Wait here"
+      }
+    },
+    "kitayama_university_errand_025": {
+      "text": {
+        "reference": "久美子：じゃあ、また後でね。",
+        "translation": "Kumiko: Okay then, I'll see you later."
+      }
+    },
+    "kitayama_university_errand_026": {
+      "text": {
+        "reference": "久美子：用事はけっこう時間がかかりそう{n}だから、先に行ってきて、おねがい。",
+        "translation": "Kumiko: My errand may take a while, so please go on ahead."
+      }
+    },
+    "kitayama_university_errand_027": {
+      "text": {
+        "reference": "＞どうしますか？",
+        "translation": "> What will you do?"
+      }
+    },
+    "kitayama_university_errand_028": {
+      "text": {
+        "reference": "しばらくここで待つ",
+        "translation": "Wait for a while"
+      }
+    },
+    "kitayama_university_errand_029": {
+      "text": {
+        "reference": "すぐに矢来区に向かう",
+        "translation": "Go straight to Yarai"
+      }
+    },
+    "kitayama_university_errand_030": {
+      "text": {
+        "reference": "＞久美子はもどってきそうにない。",
+        "translation": "> It seems Kumiko isn't coming back..."
+      }
+    },
+    "kitayama_university_sid_confrontation_000": {
+      "text": {
+        "reference": "＞吾妻教授の研究室。",
+        "translation": "> Professor Azuma's Laboratory"
+      }
+    },
+    "kitayama_university_sid_confrontation_001": {
+      "text": {
+        "reference": "シド：あなたハ、葛葉キョウジ……。{n}この私ガ、確かに殺したはずなのニ、{n}なぜ、生きているのですカ？",
+        "translation": "Sid: You are Kyouji Kuzunoha...{n}I know I killed you myself.{n}Why are you alive?"
+      }
+    },
+    "kitayama_university_sid_confrontation_002": {
+      "text": {
+        "reference": "……信じられませン。何かの間違いでス。{n}葛葉キョウジ、あなたが生きているのハ、{n}間違いでス。",
+        "translation": "...I cannot believe it. This is some mistake.{n}Kyouji Kuzunoha, your being alive{n}is itself a mistake."
+      }
+    },
+    "kitayama_university_sid_confrontation_003": {
+      "text": {
+        "reference": "間違いハ、正さなければなりませン。{n}間違いを正すためニ、{n}死んでもらいましょウ。",
+        "translation": "Mistakes must be corrected.{n}To correct this one,{n}you must die."
+      }
+    },
+    "kitayama_university_sid_confrontation_004": {
+      "text": {
+        "reference": "シド：このまエ、戦ったときハ、もう少し{n}手ごたえがあったようでしたガ。{n}どうかしたのですカ？",
+        "translation": "Sid: When we fought before, you offered{n}somewhat more resistance.{n}Is something wrong?"
+      }
+    },
+    "kitayama_university_sid_confrontation_005": {
+      "text": {
+        "reference": "でモ、お遊びはここまででス。{n}そろそロ、あなたを楽にしてあげましょウ。",
+        "translation": "But playtime is over.{n}It is time to put you out of your misery."
+      }
+    },
+    "kitayama_university_sid_confrontation_006": {
+      "text": {
+        "reference": "「葛葉キョウジ」の魂ヨ！{n}その肉体を離レ、闇の彼方へト{n}ただよい去レ！",
+        "translation": "Soul of \"Kyouji Kuzunoha\"!{n}Leave that body and drift away{n}beyond the darkness!"
+      }
+    },
+    "kitayama_university_sid_confrontation_007": {
+      "text": {
+        "reference": "我が偉大なる魔王の御名の元に命ずル！",
+        "translation": "I command you in the name of my great Demon Lord!"
+      }
+    },
+    "kitayama_university_sid_confrontation_008": {
+      "text": {
+        "reference": "シド：……な、なぜ？効かないのですカ？{n}そんな、バカなことガ、私の術が効かない{n}ワケがありませン！！",
+        "translation": "Sid: ...W-Why? Why does it not work?{n}Impossible! There is no way{n}my spell could fail!!"
+      }
+    },
+    "kitayama_university_sid_confrontation_009": {
+      "text": {
+        "reference": "ここハ、ひとまず引き上げましょウ。{n}あなたの相手ハ、邪鬼シキオウジが{n}してくれまス。",
+        "translation": "For now, I shall withdraw.{n}Jaki Shiki-Ouji will{n}deal with you."
+      }
+    },
+    "kitayama_university_sid_confrontation_010": {
+      "text": {
+        "reference": "頼みましたヨ。シキオウジ。{n}では、さようなラ。",
+        "translation": "I leave this to you, Shiki-Ouji.{n}Farewell."
+      }
+    },
+    "kitayama_university_sid_confrontation_011": {
+      "text": {
+        "reference": "レイ：……あんた、誰？{n}ヤツは、確かに「葛葉キョウジ」の魂に{n}術をかけたのに、あんたには効かなかった。",
+        "translation": "Rei: ...Who are you?{n}He cast that spell on the soul of{n}\"Kyouji Kuzunoha,\" but it didn't affect you."
+      }
+    },
+    "kitayama_university_sid_confrontation_012": {
+      "text": {
+        "reference": "あんたは、本当のキョウジ、じゃない？{n}病院から連れ帰ってから、どうも{n}人が変わったような気がしたのは、",
+        "translation": "You're not the real Kyouji, are you?{n}Ever since I brought you back from the hospital,{n}I felt like you'd become someone else."
+      }
+    },
+    "kitayama_university_sid_confrontation_013": {
+      "text": {
+        "reference": "気のせいじゃなかったようね。{n}誰だか、わからない者とは、いっしょに{n}いられないわ……",
+        "translation": "It seems I wasn't imagining it.{n}I can't stay with someone{n}whose identity I don't even know..."
+      }
+    },
+    "kitayama_university_sid_confrontation_014": {
+      "text": {
+        "reference": "と言いたいところだけど、今は別行動を{n}とれるような状況じゃないわね。",
+        "translation": "Or that's what I'd like to say,{n}but this is no time for us to split up."
+      }
+    },
+    "kitayama_university_sid_confrontation_015": {
+      "text": {
+        "reference": "ただし、いっしょに付いてきてるからって{n}今のあんたを、完全に認めたわけじゃない。{n}勘違いしないことね。",
+        "translation": "But just because I'm coming with you{n}doesn't mean I fully accept you as you are.{n}Don't misunderstand me."
+      }
+    }
+  }
+}

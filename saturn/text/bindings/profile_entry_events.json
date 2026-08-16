@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "asset": "ui/profile_entry.json",
+  "records": {
+    "game.evfile_0.m0000.p00": "dds_net_welcome.text",
+    "game.evfile_0.m0000.p01": "dds_net_renewal_notice.text",
+    "game.evfile_0.m0001.p00": "name_entry_instructions.text",
+    "game.evfile_0.m0002.p00": "name_entry_confirm.text",
+    "game.evfile_0.m0003.p00": "name_reading_instructions.text",
+    "game.evfile_0.m0004.p00": "address_entry_instructions.text",
+    "game.evfile_0.m0005.p00": "occupation_entry_instructions.text",
+    "game.evfile_0.m0006.p00": "occupation_employee_confirm.text",
+    "game.evfile_0.m0007.p00": "occupation_student_confirm.text",
+    "game.evfile_0.m0008.p00": "occupation_part_timer_confirm.text",
+    "game.evfile_0.m0009.p00": "occupation_unemployed_confirm.text",
+    "game.evfile_0.m0010.p00": "profile_entry_confirm.text",
+    "game.evfile_0.m0011.p00": "dds_net_renewal_complete.text",
+    "game.evfile_0.m0011.p01": "dds_net_closing.text",
+    "game.evfile_0.m0012.p00": "occupation_employee_value.text",
+    "game.evfile_0.m0013.p00": "occupation_student_value.text",
+    "game.evfile_0.m0014.p00": "occupation_part_timer_value.text",
+    "game.evfile_0.m0015.p00": "occupation_unemployed_value.text"
+  },
+  "glyph_equivalence": {
+    "010d": "-"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

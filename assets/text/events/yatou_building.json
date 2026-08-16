@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "yatou_building_incident_000": {
+      "text": {
+        "reference": "＞矢東ビル{n}この中に彼女が言っていた{n}チケットガイドがある。",
+        "translation": "> Yatou Building{n}The ticket office she mentioned is inside."
+      }
+    },
+    "yatou_building_incident_001": {
+      "text": {
+        "reference": "中に入りますか？",
+        "translation": "Go inside?"
+      }
+    },
+    "yatou_building_incident_002": {
+      "text": {
+        "reference": "＞矢東ビル{n}入り口は閉ざされている。",
+        "translation": "> Yatou Building{n}The entrance is locked."
+      }
+    },
+    "yatou_building_incident_003": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "＞矢東ビル{n}「事件現場につき立入禁止。{city}警察」",
+        "translation": "> Yatou Building{n}No unauthorized access to the crime scene,{n}by order of the {city} Police."
+      }
+    },
+    "yatou_building_incident_004": {
+      "text": {
+        "reference": "グゲゲ{n}グゲグゲグゲゲゲェ",
+        "translation": "Ggege... Ggegegegeee!"
+      }
+    },
+    "yatou_building_incident_005": {
+      "text": {
+        "reference": "謎の男：出たか。このザコどもめ。",
+        "translation": "Mysterious Man: So, there you are.{n}You worthless small fry."
+      }
+    },
+    "yatou_building_incident_006": {
+      "text": {
+        "reference": "謎の男：きさま、なぜここにいる？{n}1人でいたら、死ぬぞ。わかってるのか？",
+        "translation": "Mysterious Man: What are you doing here?{n}You'll die if you stay alone, understand?"
+      }
+    },
+    "yatou_building_incident_007": {
+      "text": {
+        "reference": "このビルは、何者かが異界化させている。{n}そいつを倒さないと、外には出られん。",
+        "translation": "Someone has transformed this building into an Otherworld.{n}Until they're taken down, you can't leave."
+      }
+    },
+    "yatou_building_incident_008": {
+      "text": {
+        "reference": "外へ出たければ、おれについて来るんだな。{n}もっとも、きさまが生き残れるかどうかの{n}保証はできんがな。",
+        "translation": "If you want to escape, come with me.{n}Though I can't guarantee you'll survive."
+      }
+    },
+    "yatou_building_incident_009": {
+      "text": {
+        "reference": "タカシ：うへへっ、うへへへへへへっ、{n}いいぜいいぜ、血がどんどん集まってくるぜ{n}このビルのやつらは、みんな殺しちまった。",
+        "translation": "Takashi: Uheheh, uheheheheh! Yes, yes!{n}The blood just keeps pouring in!{n}I've killed everyone in this building."
+      }
+    },
+    "yatou_building_incident_010": {
+      "text": {
+        "reference": "親分は、あまりハデにやるなって言ったが、{n}もう、がまんできねぇ！！{n}うへへっ、うへへっ、うへへへへへっ！！",
+        "translation": "The boss told me not to make a scene,{n}but I can't hold back anymore!{n}Uheheh, uheheh, uheheheheh!"
+      }
+    },
+    "yatou_building_incident_011": {
+      "text": {
+        "reference": "謎の男：おい、そこのチンピラ。{n}バカさわぎも、いい加減にしな。{n}おまえは、これでおしまいだ。",
+        "translation": "Mysterious Man: Enough of this racket, punk.{n}Time for you to die."
+      }
+    },
+    "yatou_building_incident_012": {
+      "text": {
+        "reference": "タカシ：なんだ？おめぇ？{n}このタカシ様をタダのチンピラだと思って、{n}ナメたらあかんぜぇ！！",
+        "translation": "Takashi: Who the hell are you?{n}Don't think you can treat the great{n}Takashi like some common punk!"
+      }
+    },
+    "yatou_building_incident_013": {
+      "text": {
+        "reference": "このタカシ様は、悪魔を呼び出す力を{n}持ってるんだぜぇ。どうだ！おどろいたか！",
+        "translation": "The great Takashi can summon demons!{n}How's that? Surprised?"
+      }
+    },
+    "yatou_building_incident_014": {
+      "text": {
+        "reference": "謎の男：ほう、それはスゴイな。{n}グレムリンでも、呼び出せるのか？",
+        "translation": "Mysterious Man: My, how impressive.{n}You can even summon a Gremlin?"
+      }
+    },
+    "yatou_building_incident_015": {
+      "placeholders": {
+        "demon_name": "demon_name"
+      },
+      "text": {
+        "reference": "タカシ：なにぃチキショウ！ナメやがって！{n}あとでほえづらかくなよっ！！{n}{demon_name}！！出てこい！！",
+        "translation": "Takashi: What!? Damn you, mocking me! You'll regret this!{n}{demon_name}! Come out!"
+      }
+    },
+    "yatou_building_incident_016": {
+      "text": {
+        "reference": "タカシ：うへへっ、うへへっ、うへへっ！！{n}死にやがれっ！！",
+        "translation": "Takashi: Uheheh...{n}Uheheh... Uheheh! Die!!"
+      }
+    },
+    "yatou_building_incident_017": {
+      "text": {
+        "reference": "タカシ：な、なにぃ！ピシャーチャを{n}あっさり倒しちまうなんて、何者だ…？",
+        "translation": "Takashi: W-What!? You took down Pisaca that easily?{n}Who the hell are you...?"
+      }
+    },
+    "yatou_building_incident_018": {
+      "text": {
+        "reference": "くそっ！！おめぇなんか、シドの先生に{n}かかればイチコロだぜ！チクショウ！{n}おぼえてやがれっ！！",
+        "translation": "Damn it! Master Sid will make short work of you!{n}Remember this!"
+      }
+    },
+    "yatou_building_incident_019": {
+      "text": {
+        "reference": "謎の男：異界化が解ける……。{n}外に出られるぞ。",
+        "translation": "Mysterious Man: The Otherworld is dissolving...{n}You can leave now."
+      }
+    },
+    "yatou_building_incident_020": {
+      "text": {
+        "reference": "謎の男：ふん、よく生きていられたな。{n}だが、このことを誰かに話したら、{n}命はないぞ……いいな。",
+        "translation": "Mysterious Man: Hmm, so you managed to survive.{n}If you say a word about this to anyone,{n}you'll be finished... Understand?"
+      }
+    },
+    "yatou_building_incident_021": {
+      "text": {
+        "reference": "女の声：キョウジ！{n}デビルサマナーともあろう者が{n}若い子相手に、何スゴんでるのよ。",
+        "translation": "Woman's Voice: Kyouji!{n}A Devil Summoner threatening a kid?{n}Shame on you."
+      }
+    },
+    "yatou_building_incident_022": {
+      "text": {
+        "reference": "キョウジ：なんだ……レイ、お前か。",
+        "translation": "Kyouji: What?...Oh, Rei, it's just you."
+      }
+    },
+    "yatou_building_incident_023": {
+      "text": {
+        "reference": "レイ：なんだはないでしょ。{n}わざわざ、迎えに来てあげたのに。",
+        "translation": "Rei: Don't 'what' me.{n}I came all this way to get you."
+      }
+    },
+    "yatou_building_incident_024": {
+      "text": {
+        "reference": "まあ、あんたの力だったら{n}だいじょうぶだと思ったけどね。",
+        "translation": "Not that I was worried, with your power."
+      }
+    },
+    "yatou_building_incident_025": {
+      "text": {
+        "reference": "きみ、早くお帰りよ。気をつけてね。",
+        "translation": "You should hurry home. Be careful."
+      }
+    },
+    "yatou_building_incident_026": {
+      "text": {
+        "reference": "キョウジ：おい、レイ。{n}勝手にそいつを帰すな。",
+        "translation": "Kyouji: Wait, Rei.{n}You can't just let him go like that."
+      }
+    },
+    "yatou_building_incident_027": {
+      "text": {
+        "reference": "レイ：だいじょうぶよ。{n}彼がこのことを誰かに話したって{n}どうせ、信じてもらえないわよ。",
+        "translation": "Rei: Don't worry about it.{n}Besides, even if he told anyone, they'd never believe him."
+      }
+    },
+    "yatou_building_incident_028": {
+      "text": {
+        "reference": "この人の気が変わらないうちに、{n}早く帰りなよ。",
+        "translation": "Get going before he changes his mind."
+      }
+    },
+    "yatou_building_incident_029": {
+      "text": {
+        "reference": "キョウジ：おれは帰っていいなんて{n}言ってないぞ。",
+        "translation": "Kyouji: I never said he could leave."
+      }
+    },
+    "yatou_building_incident_030": {
+      "text": {
+        "reference": "……まあいい……勝手にしろ。{n}次に会った時には、命の保証はしない……。",
+        "translation": "...Fine ...have it your way. But if I see him again,{n}I can't guarantee he'll make it out alive."
+      }
+    },
+    "yatou_building_incident_031": {
+      "text": {
+        "reference": "あばよ。",
+        "translation": "Later."
+      }
+    },
+    "yatou_building_incident_032": {
+      "text": {
+        "reference": "レイ：キョウジ、待ってよ！{n}ああ、行っちゃった。",
+        "translation": "Rei: Kyouji, wait!{n}Oh, there he goes."
+      }
+    },
+    "yatou_building_incident_033": {
+      "text": {
+        "reference": "君も気をつけて、帰ってね。{n}えっ、コンサートのチケット？",
+        "translation": "Like I said, you go home and be safe, okay?{n}Huh, a concert ticket?"
+      }
+    },
+    "yatou_building_incident_034": {
+      "text": {
+        "reference": "ビル全体が、悪魔たちに荒らされて、{n}チケットガイドもメチャメチャだったから、{n}手に入るわけないよ。",
+        "translation": "The demons wrecked the whole building,{n}including the ticket office.{n}There's no chance of getting them now."
+      }
+    },
+    "yatou_building_incident_035": {
+      "text": {
+        "reference": "彼女に頼まれた？{n}まあ、あやまるしかないわね。{n}じゃあね。",
+        "translation": "She asked you to get them?{n}Well, you'll just have to apologize to her.{n}Bye now."
+      }
+    },
+    "yatou_building_incident_036": {
+      "text": {
+        "reference": "レイ：まだ、いたの？うろうろしてると{n}面倒にまきこまれるわよ。",
+        "translation": "Rei: You're still here?{n}If you loiter around you'll find yourself in trouble."
+      }
+    },
+    "yatou_building_incident_037": {
+      "text": {
+        "reference": "……あの人？……キョウジなら、{n}1人でどっか行っちゃったわよ。{n}ほんとに、勝手な人だから。",
+        "translation": "...That man? Kyouji went off somewhere alone.{n}He always does whatever he wants."
+      }
+    },
+    "yatou_building_incident_038": {
+      "text": {
+        "reference": "警官：ここは、犯行現場。立入禁止だ。",
+        "translation": "Police Officer: This is a crime scene.{n}No civilians are allowed past here."
+      }
+    }
+  }
+}

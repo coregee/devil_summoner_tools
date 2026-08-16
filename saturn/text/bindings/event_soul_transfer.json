@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "asset": "events/soul_transfer.json",
+  "records": {
+    "game.evfile_0.m0217.p00": "sid_death_trap_000.text",
+    "game.evfile_0.m0218.p00": "sid_death_trap_001.text",
+    "game.evfile_0.m0219.p00": "sid_death_trap_002.text",
+    "game.evfile_0.m0219.p01": "sid_death_trap_003.text",
+    "game.evfile_0.m0219.p02": "sid_death_trap_004.text",
+    "game.evfile_0.m0219.p03": "sid_death_trap_005.text",
+    "game.evfile_0.m0219.p04": "sid_death_trap_006.text",
+    "game.evfile_0.m0220.p00": "sid_death_trap_007.text",
+    "game.evfile_0.m0221.p00": "sid_death_trap_008.text",
+    "game.evfile_0.m0222.p00": "sid_death_trap_009.text",
+    "game.evfile_0.m0223.p00": "sid_death_trap_010.text",
+    "game.evfile_0.m0223.p01": "sid_death_trap_011.text",
+    "game.evfile_0.m0223.p02": "sid_death_trap_012.text",
+    "game.evfile_0.m0224.p00": "sid_death_trap_013.text",
+    "game.evfile_0.m0225.p00": "sanzu_river_and_revival_000.text",
+    "game.evfile_0.m0226.p00": "sanzu_river_and_revival_001.text",
+    "game.evfile_0.m0226.p01": "sanzu_river_and_revival_002.text",
+    "game.evfile_0.m0226.p02": "sanzu_river_and_revival_003.text",
+    "game.evfile_0.m0227.p00": "sanzu_river_and_revival_004.text",
+    "game.evfile_0.m0227.p01": "sanzu_river_and_revival_005.text",
+    "game.evfile_0.m0227.p02": "sanzu_river_and_revival_006.text",
+    "game.evfile_0.m0228.p00": "sanzu_river_and_revival_007.text",
+    "game.evfile_0.m0229.p00": "sanzu_river_and_revival_008.text",
+    "game.evfile_0.m0230.p00": "sanzu_river_and_revival_009.text",
+    "game.evfile_0.m0230.p01": "sanzu_river_and_revival_010.text",
+    "game.evfile_0.m0231.p00": "sanzu_river_and_revival_011.text",
+    "game.evfile_0.m0232.p00": "sanzu_river_and_revival_012.text",
+    "game.evfile_0.m0232.p01": "sanzu_river_and_revival_013.text",
+    "game.evfile_0.m0232.p02": "sanzu_river_and_revival_014.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

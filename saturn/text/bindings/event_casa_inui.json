@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "asset": "events/casa_inui.json",
+  "records": {
+    "game.evfile_0.m0441.p00": "casa_inui_incident_000.text",
+    "game.evfile_0.m0441.p01": "casa_inui_incident_001.text",
+    "game.evfile_0.m0441.p02": "casa_inui_incident_002.text",
+    "game.evfile_0.m0441.p03": "casa_inui_incident_003.text",
+    "game.evfile_0.m0442.p00": "casa_inui_incident_004.text",
+    "game.evfile_0.m0442.p01": "casa_inui_incident_005.text",
+    "game.evfile_0.m0443.p00": "casa_inui_incident_006.text",
+    "game.evfile_0.m0444.p00": "casa_inui_incident_007.text",
+    "game.evfile_0.m0444.p01": "casa_inui_incident_008.text",
+    "game.evfile_0.m0445.p00": "casa_inui_incident_009.text",
+    "game.evfile_0.m0445.p01": "casa_inui_incident_010.text",
+    "game.evfile_0.m0445.p02": "casa_inui_incident_011.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

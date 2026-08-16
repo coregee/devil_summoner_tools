@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "dialogue_0000": {
+      "text": {
+        "reference": "グゲグゲグゲゲゲェ{BEAT}{n}おまえとは話したくねぇゾォ",
+        "translation": "GRRRGH, GRAAAGH!{BEAT}{n}I ain't talking to you!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0001": {
+      "text": {
+        "reference": "グゲグゲグゲゲゲェ{BEAT}{n}話すよりおまえの血だぁ！！",
+        "translation": "GRRRGH, GRAAAGH!{BEAT}{n}Forget talk, I want your blood!!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0002": {
+      "text": {
+        "reference": "おまえと話すことなど無い！！",
+        "translation": "I've got nothing to say to you!!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0003": {
+      "text": {
+        "reference": "話そうだと？{BEAT}{n}これでもくらえ！！",
+        "translation": "You want to talk?{BEAT}{n}Then listen to this!!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0004": {
+      "text": {
+        "reference": "あたしと何か話すことがあるの！？",
+        "translation": "You got something to say to me!?",
+        "reviewed": true
+      }
+    },
+    "dialogue_0005": {
+      "text": {
+        "reference": "あたしの答えはこれよ！！",
+        "translation": "Here's my answer!!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0006": {
+      "text": {
+        "reference": "きさまと話すことなど何も無い！！",
+        "translation": "I have nothing to say to the likes of you!!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0007": {
+      "text": {
+        "reference": "話をしたいか？{BEAT}{n}ならばきさまの身体に聞いてやろう！！",
+        "translation": "You want to talk?{BEAT}{n}Then I'll make sure your body hears me!!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0008": {
+      "text": {
+        "reference": "語リ合ウコトカラハ何モ生マレヌ{n}人ノ言葉ナド全テイツワリジャ！！",
+        "translation": "NOTHING GOOD COMES FROM TALKING.{n}ALL HUMANS ARE LIARS!!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0009": {
+      "text": {
+        "reference": "言葉ヲモテアソビシ者ヨ{n}コレガワラワノ答エジャ！！",
+        "translation": "YOU WHO PLAYS WITH WORDS,{n}HEAR MY ANSWER!!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0010": {
+      "text": {
+        "reference": "あなたと話すことハ何もありませン！！",
+        "translation": "I have nothing to discuss with you!!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0011": {
+      "text": {
+        "reference": "そんなに話したけれバお話ししましょウ{BEAT}{n}フッフッフッフッフ{BEAT}{n}こんにちハ！おはようございまス！",
+        "translation": "If you must insist, let's talk.{BEAT}{n}Heh heh heh heh heh...{BEAT}{n}Hello! Good morning!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0012": {
+      "text": {
+        "reference": "メイレイジッコウ{n}コンディション{BEAT}{OP:8025}O{BEAT}K！！{OP:8020}",
+        "translation": "EXECUTING ORDERS.{n}STATUS:{BEAT}{OP:8025}O{BEAT}K!!{OP:8020}",
+        "reviewed": true
+      }
+    },
+    "dialogue_0013": {
+      "text": {
+        "reference": "メイレイカクニン{n}オマエコロス！！",
+        "translation": "ORDERS CONFIRMED.{n}TERMINATE YOU!!",
+        "reviewed": true
+      }
+    },
+    "dialogue_0014": {
+      "text": {
+        "reference": "・・・・・・・・。",
+        "translation": "........",
+        "reviewed": true
+      }
+    },
+    "dialogue_0015": {
+      "text": {
+        "reference": "・・・・・・・・！",
+        "translation": "........!",
+        "reviewed": true
+      }
+    }
+  }
+}

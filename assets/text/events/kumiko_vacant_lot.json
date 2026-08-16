@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "kumiko_vacant_lot_000": {
+      "text": {
+        "reference": "＞空き地がある。",
+        "translation": "> There is a vacant lot."
+      }
+    },
+    "kumiko_vacant_lot_001": {
+      "text": {
+        "reference": "＞久美子がいる。",
+        "translation": "> Kumiko is here."
+      }
+    },
+    "kumiko_vacant_lot_002": {
+      "text": {
+        "reference": "彼女に声をかけるか？",
+        "translation": "Call out to her?"
+      }
+    },
+    "kumiko_vacant_lot_003": {
+      "text": {
+        "reference": "久美子：……………………",
+        "translation": "Kumiko: ..."
+      }
+    },
+    "kumiko_vacant_lot_004": {
+      "text": {
+        "reference": "＞もう一度、声をかけるか？",
+        "translation": "> Call out to her again?"
+      }
+    },
+    "kumiko_vacant_lot_005": {
+      "text": {
+        "reference": "久美子：……はっ、ここは……{n}わたし、こんな所で何をしてたのかしら。",
+        "translation": "Kumiko: ...Huh? Where am I?{n}What was I doing in a place like this?"
+      }
+    },
+    "kumiko_vacant_lot_006": {
+      "text": {
+        "reference": "＞久美子は、あわてて立ち去っていった。",
+        "translation": "> Kumiko hurries away."
+      }
+    },
+    "kumiko_vacant_lot_007": {
+      "text": {
+        "reference": "レイ：あの子、おかしいんじゃない？{n}まるで、何かに魅入られたようね。",
+        "translation": "Rei: Isn't something wrong with that girl?{n}It was as if something had bewitched her."
+      }
+    }
+  }
+}

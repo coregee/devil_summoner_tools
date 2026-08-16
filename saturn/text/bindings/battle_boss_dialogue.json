@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "asset": "battle/boss_dialogue.json",
+  "records": {
+    "game.bosstalk.m0000.p00": "dialogue_0000.text",
+    "game.bosstalk.m0001.p00": "dialogue_0001.text",
+    "game.bosstalk.m0002.p00": "dialogue_0002.text",
+    "game.bosstalk.m0003.p00": "dialogue_0003.text",
+    "game.bosstalk.m0004.p00": "dialogue_0004.text",
+    "game.bosstalk.m0005.p00": "dialogue_0005.text",
+    "game.bosstalk.m0006.p00": "dialogue_0006.text",
+    "game.bosstalk.m0007.p00": "dialogue_0007.text",
+    "game.bosstalk.m0008.p00": "dialogue_0008.text",
+    "game.bosstalk.m0009.p00": "dialogue_0009.text",
+    "game.bosstalk.m0010.p00": "dialogue_0010.text",
+    "game.bosstalk.m0011.p00": "dialogue_0011.text",
+    "game.bosstalk.m0012.p00": "dialogue_0012.text",
+    "game.bosstalk.m0013.p00": "dialogue_0013.text",
+    "game.bosstalk.m0014.p00": "dialogue_0014.text",
+    "game.bosstalk.m0015.p00": "dialogue_0015.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "battle.negotiation_dialogue"
+    ]
+  }
+}

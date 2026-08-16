@@ -1,0 +1,311 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "hajime_home_opening_000": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "母親の声：はい、{last_name}でございます。{n}ハタノさん……ああ、久美子さんね。{n}{first_name}？今呼びますね。",
+        "translation": "Mom's Voice: Yes, this is the {last_name} residence.{n}Hatano? Ah, you must be Kumiko.{n}{first_name}? I'll call him down now."
+      }
+    },
+    "hajime_home_opening_001": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "{first_name}！電話よ！",
+        "translation": "{first_name}! Phone for you!"
+      }
+    },
+    "hajime_home_opening_002": {
+      "text": {
+        "reference": "＞下におりますか？",
+        "translation": "> Go downstairs?"
+      }
+    },
+    "hajime_home_opening_003": {
+      "text": {
+        "reference": "母親の声：今来ますから。",
+        "translation": "Mom's Voice: He'll be down in a moment."
+      }
+    },
+    "hajime_home_opening_004": {
+      "text": {
+        "reference": "母親：はい、久美子さんから電話よ。",
+        "translation": "Mom: Kumiko's on the phone."
+      }
+    },
+    "hajime_home_opening_005": {
+      "text": {
+        "reference": "＞母親から、受話器を受け取った。",
+        "translation": "> You took the phone from your mother."
+      }
+    },
+    "hajime_home_opening_006": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "久美子：もしもし、{first_name}くん？{n}わたし。元気だった？",
+        "translation": "Kumiko: Hello? {first_name}?{n}It's me. How have you been?"
+      }
+    },
+    "hajime_home_opening_007": {
+      "text": {
+        "reference": "ところで、今日の臨海公園の待ち合わせ{n}だけど、どこにしましょうか？",
+        "translation": "We're supposed to meet at the park today, right?{n}But where exactly should I find you?"
+      }
+    },
+    "hajime_home_opening_008": {
+      "text": {
+        "reference": "「踊るボディコン娘の像」の前は、{n}ありきたりよね……。{n}喫茶店にしましょう。",
+        "translation": "In front of that scantily-clad dancer statue?{n}That's typical...{n}Let's meet at the cafe near the park instead."
+      }
+    },
+    "hajime_home_opening_009": {
+      "text": {
+        "reference": "喫茶「アフロ」がいいわね。{n}そう、公園の北側にある、オレンジ色の{n}屋根の小さな店よ。",
+        "translation": "There's a cafe called Afro.{n}It's north of the park. The little shop with the orange roof."
+      }
+    },
+    "hajime_home_opening_010": {
+      "text": {
+        "reference": "じゃあ、またあとでね。",
+        "translation": "Alright, I'll see you soon."
+      }
+    },
+    "hajime_home_opening_011": {
+      "text": {
+        "reference": "父親：ほう、今日は彼女とデートか？",
+        "translation": "Dad: Oh, are you going on a date with your girlfriend?"
+      }
+    },
+    "hajime_home_opening_012": {
+      "text": {
+        "reference": "母親：出かけるのね。気をつけてね。",
+        "translation": "Mom: If you're heading out, be careful."
+      }
+    },
+    "hajime_home_opening_013": {
+      "text": {
+        "reference": "＞どこへ行きますか？",
+        "translation": "> Where will you go?"
+      }
+    },
+    "hajime_home_opening_014": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "母親の声：{first_name}！何してるの？{n}早くおりて来なさい。",
+        "translation": "Mom's Voice: {first_name}!{n}What are you doing? Hurry up and get down here."
+      }
+    },
+    "hajime_home_opening_015": {
+      "text": {
+        "reference": "＞何をしますか？",
+        "translation": "> What will you do?"
+      }
+    },
+    "hajime_home_opening_016": {
+      "text": {
+        "reference": "DDS-NET：ただいまメンテナンス中に{n}つき、アクセスできません。",
+        "translation": "DDS-NET: Our systems are down for maintenance.{n}Access to the service is currently unavailable."
+      }
+    },
+    "hajime_home_opening_017": {
+      "text": {
+        "reference": "＞まだ、セーブできない。",
+        "translation": "> You can't save yet."
+      }
+    },
+    "hajime_home_opening_018": {
+      "text": {
+        "reference": "母親：約束してるんでしょ。{n}早く行かないと。",
+        "translation": "Mom: You promised her, didn't you?{n}Hurry up and go."
+      }
+    },
+    "hajime_home_opening_019": {
+      "text": {
+        "reference": "自分の部屋",
+        "translation": "Your Room"
+      }
+    },
+    "hajime_home_opening_020": {
+      "text": {
+        "reference": "リビングルーム",
+        "translation": "Living Room"
+      }
+    },
+    "hajime_home_opening_021": {
+      "text": {
+        "reference": "設定の変更",
+        "translation": "Change Settings"
+      }
+    },
+    "hajime_home_opening_022": {
+      "text": {
+        "reference": "外出する",
+        "translation": "Go Outside"
+      }
+    },
+    "hajime_home_opening_023": {
+      "text": {
+        "reference": "NETアクセス",
+        "translation": "Access DDS-NET"
+      }
+    },
+    "hajime_home_opening_024": {
+      "text": {
+        "reference": "行動を記録する",
+        "translation": "Record Progress"
+      }
+    },
+    "hajime_home_opening_025": {
+      "text": {
+        "reference": "部屋を出る",
+        "translation": "Leave the room"
+      }
+    },
+    "hajime_home_later_visits_000": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "＞{first_name}の家中に入りますか？",
+        "translation": "> Enter {first_name}'s house?"
+      }
+    },
+    "hajime_home_later_visits_001": {
+      "text": {
+        "reference": "＞玄関は閉ざされている。{n}チャイムのボタンを押しますか？",
+        "translation": "> The door is locked.{n}Will you ring the bell?"
+      }
+    },
+    "hajime_home_later_visits_002": {
+      "text": {
+        "reference": "父親：……どなたですか？",
+        "translation": "Dad: ...Who is it?"
+      }
+    },
+    "hajime_home_later_visits_003": {
+      "text": {
+        "reference": "母親：あら？もう帰って来たの？",
+        "translation": "Mom: Hmm? You're back already?"
+      }
+    },
+    "hajime_home_later_visits_004": {
+      "text": {
+        "reference": "父親：はっはっは、デートじゃなかったのか{n}それとも、彼女とケンカでもしたのか？",
+        "translation": "Dad: Hahaha, weren't you supposed to be on a date?{n}Unless...you got into a fight with her?"
+      }
+    },
+    "hajime_home_later_visits_005": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "父親：{first_name}、学校には、{n}真面目に行ってるか？{n}単位は、きちんと取れそうか？",
+        "translation": "Dad: {first_name}, have you{n}been taking your studies seriously?{n}Are you managing with your courses?"
+      }
+    },
+    "hajime_home_later_visits_006": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "父親：{first_name}、このごろ仕事は、{n}うまくいってるか？",
+        "translation": "Dad: {first_name}, has work been going well lately?"
+      }
+    },
+    "hajime_home_later_visits_007": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "父親：{first_name}、フリーターだか、{n}なんだか知らんが、アルバイトじゃない、{n}きちんとした仕事についたらどうだ？",
+        "translation": "Dad: {first_name}, how would you feel about getting{n}into proper employment, instead of all this part-time work?"
+      }
+    },
+    "hajime_home_later_visits_008": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "父親：{first_name}、いつまでも遊んでないで、{n}いい加減に仕事をしたらどうだ？",
+        "translation": "Dad: {first_name}, you can't fool around forever.{n}Isn't it time you found a job?"
+      }
+    },
+    "hajime_home_later_visits_009": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "父親：何っ！{first_name}！？{n}ウチの息子は、病院だ！{n}タチの悪い、いたずらは止めろ！！",
+        "translation": "Dad: What? {first_name}!?{n}My son's in the hospital!{n}Stop with your sick joke and get out of here!"
+      }
+    },
+    "hajime_home_later_visits_010": {
+      "text": {
+        "reference": "父親：その声は、私立探偵の……。{n}なぜ、息子の名を名乗るんだ？",
+        "translation": "Dad: That voice, you're that detective...{n}Why exactly are you using my son's name?"
+      }
+    },
+    "hajime_home_later_visits_011": {
+      "text": {
+        "reference": "父親：私立探偵？そんな、いかがわしい男に{n}話すことは何も無い！帰ってくれ！！",
+        "translation": "Dad: That private detective?{n}I've got nothing to say to guys like you! Get out!"
+      }
+    },
+    "hajime_home_later_visits_012": {
+      "text": {
+        "reference": "父親：あんたか。{n}あんたに話すことは、もうないぞ。",
+        "translation": "Dad: Oh, it's you.{n}I've nothing left to say to you."
+      }
+    },
+    "hajime_home_later_visits_013": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "{last_name}{first_name}",
+        "translation": "{first_name} {last_name}"
+      }
+    },
+    "hajime_home_later_visits_014": {
+      "text": {
+        "reference": "葛葉キョウジ",
+        "translation": "Kyouji Kuzunoha"
+      }
+    },
+    "hajime_home_later_visits_015": {
+      "text": {
+        "reference": "無言で立ち去る",
+        "translation": "Leave without a word"
+      }
+    },
+    "hajime_home_later_visits_016": {
+      "text": {
+        "reference": "外に出る",
+        "translation": "Go Outside"
+      }
+    },
+    "hajime_home_later_visits_017": {
+      "text": {
+        "reference": "DDS-NET：ただいま、{n}システムメンテナンス中につき、{n}アクセスできません。",
+        "translation": "DDS-NET: Our systems are down for maintenance.{n}Access to the service is currently unavailable."
+      }
+    },
+    "hajime_home_later_visits_018": {
+      "text": {
+        "reference": "＞行動の記録は、現在不可。",
+        "translation": "> You cannot save your progress at this time."
+      }
+    }
+  }
+}

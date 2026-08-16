@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "asset": "events/rinkai_hospital.json",
+  "records": {
+    "game.evfile_0.m0243.p00": "rinkai_hospital_visit_000.text",
+    "game.evfile_0.m0245.p00": "rinkai_hospital_visit_001.text",
+    "game.evfile_0.m0246.p00": "rinkai_hospital_visit_002.text",
+    "game.evfile_0.m0247.p00": "rinkai_hospital_visit_003.text",
+    "game.evfile_0.m0248.p00": "rinkai_hospital_visit_004.text",
+    "game.evfile_0.m0248.p01": "rinkai_hospital_visit_005.text",
+    "game.evfile_0.m0249.p00": "rinkai_hospital_visit_006.text",
+    "game.evfile_0.m0249.p01": "rinkai_hospital_visit_007.text",
+    "game.evfile_0.m0249.p02": "rinkai_hospital_visit_008.text",
+    "game.evfile_0.m0250.p00": "rinkai_hospital_visit_009.text",
+    "game.evfile_0.m0251.p00": "rinkai_hospital_visit_010.text",
+    "game.evfile_0.m0252.p00": "rinkai_hospital_visit_011.text",
+    "game.evfile_0.m0253.p00": "rinkai_hospital_visit_012.text",
+    "game.evfile_0.m0255.p00": "rinkai_hospital_visit_013.text",
+    "game.evfile_0.m0255.p01": "rinkai_hospital_visit_014.text",
+    "game.evfile_0.m0256.p00": "rinkai_hospital_visit_015.text",
+    "game.evfile_0.m0256.p01": "rinkai_hospital_visit_016.text",
+    "game.evfile_0.m0257.p00": "rinkai_hospital_visit_017.text",
+    "game.evfile_0.m0258.p00": "rinkai_hospital_visit_018.text",
+    "game.evfile_0.m0259.p00": "rinkai_hospital_visit_019.text",
+    "game.evfile_0.m0260.p00": "rinkai_hospital_visit_020.text",
+    "game.evfile_0.m0261.p00": "rinkai_hospital_visit_021.text",
+    "game.evfile_0.m0261.p01": "rinkai_hospital_visit_022.text",
+    "game.evfile_0.m0262.p00": "rinkai_hospital_visit_023.text",
+    "game.evfile_0.m0262.p01": "rinkai_hospital_visit_024.text",
+    "game.evfile_0.m0262.p02": "rinkai_hospital_visit_025.text",
+    "game.evfile_0.m0263.p00": "rinkai_hospital_visit_026.text",
+    "game.evfile_0.m0264.p00": "rinkai_hospital_visit_027.text",
+    "game.evfile_0.m0265.p00": "rinkai_hospital_visit_028.text",
+    "game.evfile_0.m0266.p00": "rinkai_hospital_visit_029.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

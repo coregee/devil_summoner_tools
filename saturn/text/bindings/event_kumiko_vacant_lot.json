@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "asset": "events/kumiko_vacant_lot.json",
+  "records": {
+    "game.evfile_0.m0458.p00": "kumiko_vacant_lot_000.text",
+    "game.evfile_0.m0459.p00": "kumiko_vacant_lot_001.text",
+    "game.evfile_0.m0459.p01": "kumiko_vacant_lot_002.text",
+    "game.evfile_0.m0460.p00": "kumiko_vacant_lot_003.text",
+    "game.evfile_0.m0461.p00": "kumiko_vacant_lot_004.text",
+    "game.evfile_0.m0462.p00": "kumiko_vacant_lot_005.text",
+    "game.evfile_0.m0463.p00": "kumiko_vacant_lot_006.text",
+    "game.evfile_0.m0464.p00": "kumiko_vacant_lot_007.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

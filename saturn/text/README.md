@@ -18,6 +18,8 @@ translations live under the repository-level `assets/text` tree.
 - `config/surfaces.json` records measured Japanese and English consumer limits.
 - `config/glyph_sets.json` selects preserved stock glyph sets for consumer
   surfaces that intentionally retain a retail typeface.
+- `config/event_scenes.json` records only evidence-grounded semantic groupings
+  for the general event banks.
 - `config/sources/<disc>/manifest.json` defines physical files, the four
   container shapes, defaults, and exceptional record-level overrides.
 - `corpus/<disc>/` contains deterministic extracted physical records.
@@ -27,7 +29,9 @@ translations live under the repository-level `assets/text` tree.
 - `generated/` is ignored and will contain dictionaries, coverage reports,
   capacity reports, and engine-facing payloads.
 - `extract.py` verifies source identity and regenerates the complete corpus.
-  `repack.py` remains absent until output encodings are settled.
+- `event_inventory.py` builds an ignored scene-curation report for the four
+  general event banks.
+- `repack.py` remains absent until output encodings are settled.
 
 The corpus record contract will stay small:
 
@@ -44,6 +48,19 @@ The corpus record contract will stay small:
 
 Records are not deduplicated by content. Physical copies and the three deliberate
 `NAME.BIN` translation forks are declared explicitly in the source manifest.
+
+The general-event banks prove 1,103 message units containing 2,028 pages, but
+their binary framing does not itself establish semantic scene boundaries. Running
+`python saturn/text/event_inventory.py` writes
+`generated/event_scene_inventory.json`, grouping pages by the source message
+that actually frames them and recording literal speaker cues, tokens, and any
+existing asset uses. Scene, location, story-state, choice, and call-site fields
+remain explicitly unresolved until a compact entry in `event_scenes.json`
+grounds them. All 465 messages and 766 pages in `EVFILE_0.EVE` are now assigned
+to 35 semantic scenes and bound to shared authored assets. The other three banks
+remain a curation queue with 638 unclassified messages and 1,262 unbound pages.
+The report is not an authored asset and does not claim that one physical message
+equals one story scene.
 
 The generated corpus is binary evidence, not the translation editor. Assets
 are organised around entities and player-facing surfaces. Item and equipment
@@ -65,6 +82,7 @@ python saturn/text/extract.py game
 python saturn/text/extract.py game --check
 python saturn/text/extract.py compendium
 python saturn/text/extract.py compendium --check
+python saturn/text/event_inventory.py
 python -m unittest discover -s saturn/text/tests -v
 ```
 
@@ -263,11 +281,18 @@ their wording is editable, but they remain recorded consumer-binding debt.
    negotiation-style, facility, SAVE/LOAD, character, profile-entry, status,
    battle-consumer, and Options-menu slices are complete. The battle slice binds
    every visible BTL_MES and BTL_SRF row while retaining their 29 and 160 blank
-   rows as physical evidence. SHOPSMP's 763 physical pages bind to 595 shared
-   authored lines without copying exact PSP text; its seven PSP-only tutorial
-   lines remain explicit additions. The six shared character rows likewise
-   need no PSP copies, and all 19 physical profile-entry records retain exact
-   semantic bindings, including the three deliberate same-source forks.
+   rows as physical evidence, and its 16 BOSSTALK refusal messages now live in a
+   separate reviewed boss-dialogue asset. SHOPSMP's 763 physical pages bind to
+   595 shared authored lines without copying exact PSP text; its seven PSP-only
+   tutorial lines remain explicit additions. The six shared character rows
+   likewise need no PSP copies. All 19 physical profile-entry records retain
+   exact semantic bindings, including the three deliberate same-source forks;
+   the opening event workflow adds 18 mature Saturn pages to the same shared
+   profile-entry asset without creating a platform-specific copy. The rest of
+   `EVFILE_0.EVE` is also complete: all 465 message groups and 766 physical pages
+   bind to 711 human-facing fields arranged by location, scene, or consumer
+   rather than by event-bank coordinates. Fifty-five repeated physical uses are
+   explicit binding fan-out instead of duplicated editable translations.
 5. Produce complete encoding coverage and capacity reports for both discs.
 6. Finalize output encodings and deterministic full-corpus dictionary groups.
 7. Implement one atomic text repack; partial dictionary builds remain

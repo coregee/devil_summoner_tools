@@ -1,0 +1,694 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "marie_first_library_job_000": {
+      "text": {
+        "reference": "マリー：葛葉さぁん、いるかい？",
+        "translation": "Marie: Kuzunoha, are you in?"
+      }
+    },
+    "marie_first_library_job_001": {
+      "text": {
+        "reference": "さっそく、お仕事の話持ってきたんだけど、{n}やってくれるわよね？",
+        "translation": "I've already brought you another job.{n}You'll take it, won't you?"
+      }
+    },
+    "marie_first_library_job_002": {
+      "text": {
+        "reference": "＞仕事を引き受けますか？",
+        "translation": "> Accept the request?"
+      }
+    },
+    "marie_first_library_job_003": {
+      "text": {
+        "reference": "マリー：さすが、デビルサマナー。{n}世のため、人のため、闇にかくれて{n}悪魔を討つ……えっ、うるさい？",
+        "translation": "Marie: Just what I'd expect from a Devil Summoner.{n}Fighting demons from the shadows,{n}for the world and its people... What? Too much?"
+      }
+    },
+    "marie_first_library_job_004": {
+      "text": {
+        "reference": "マリー：なーに、冗談言っちゃ困るわよ。{n}最近、仕事の話が多いんだから、{n}頼んだわよ、ねっ。",
+        "translation": "Marie: Don't joke around.{n}There have been a lot of jobs lately,{n}and I'm counting on you."
+      }
+    },
+    "marie_first_library_job_005": {
+      "text": {
+        "reference": "今回は、軽い仕事よ。魂が違ってるらしい{n}あんたでも、楽勝だよ。",
+        "translation": "It's nothing big this time.{n}Should be easy, even for a soul-swapped guy like you."
+      }
+    },
+    "marie_first_library_job_006": {
+      "text": {
+        "reference": "臨海公園の図書館に、悪魔が出たらしいの。{n}大したヤツじゃないらしいんで、{n}さっと行って、パッと片づけちゃってよ。",
+        "translation": "Apparently demons have appeared at the library in Rinkai{n}Park. They're not supposed to be anything serious,{n}so make it quick and clean."
+      }
+    },
+    "marie_first_library_job_007": {
+      "text": {
+        "reference": "あの公園のあたりって、今まで魔物のたぐい{n}が出たことなかったのが、{n}ちょっと気になるけどねー。",
+        "translation": "Though it does bother me that nothing supernatural{n}has ever appeared around that park before."
+      }
+    },
+    "marie_first_library_job_008": {
+      "text": {
+        "reference": "まあ、しょせんザコ退治よ。{n}ギャラは、いつも通り……ってあんたは{n}いつものことじゃないのか。",
+        "translation": "Still, it's just clearing out small fry.{n}The fee is the usual...{n}though nothing is 'usual' for you, is it?"
+      }
+    },
+    "marie_first_library_job_009": {
+      "text": {
+        "reference": "仕事がすんだら、あたしの所まで{n}ギャラ取りに来てね。",
+        "translation": "So after you finish the job, come back here for your pay."
+      }
+    },
+    "marie_kasagi_job_resolution_000": {
+      "text": {
+        "reference": "「かさぎ荘」の悪魔退治の仕事、終わらせて{n}くれなかったわね。もう、異界化も{n}解けちまって、悪魔も出なくなったよ。",
+        "translation": "You didn't finish clearing the demons{n}out of Kasagi Manor. It's no longer an Otherworld,{n}and the demons have stopped appearing.",
+        "note": "Physical message 289 is the expired-job response; 290 is the success and payment response; 292 is the later coda."
+      }
+    },
+    "marie_kasagi_job_resolution_001": {
+      "text": {
+        "reference": "頼むから、引き受けた仕事は、ちゃんと{n}こなしておくれよ。",
+        "translation": "Please, if you accept a job,{n}see it through properly."
+      }
+    },
+    "marie_kasagi_job_resolution_002": {
+      "text": {
+        "reference": "「かさぎ荘」の悪魔退治の仕事、ご苦労様。",
+        "translation": "Good work clearing the demons{n}out of Kasagi Manor."
+      }
+    },
+    "marie_kasagi_job_resolution_003": {
+      "text": {
+        "reference": "ギャラの{yen_symbol}50000．{n}わざわざ、持ってきてあげたわよ。",
+        "translation": "Here's your fee of {yen_symbol}50,000.{n}I came all this way to bring it to you."
+      }
+    },
+    "marie_kasagi_job_resolution_004": {
+      "text": {
+        "reference": "持ち切れないの？{n}それじゃあ、オーバーした分は、{n}あたしがもらっとくよ。",
+        "translation": "Can't carry all that cash?{n}Then I'll hold on to{n}whatever puts you over the limit."
+      }
+    },
+    "marie_kasagi_job_resolution_005": {
+      "text": {
+        "reference": "でも、仕事が無くならないのは、{n}ありがたいわよねぇ。",
+        "translation": "Still, I guess we should be grateful{n}the work never dries up."
+      }
+    },
+    "marie_hikawa_job_offer_000": {
+      "text": {
+        "reference": "また、新しい仕事が入ったのよ。",
+        "translation": "I've got another new job for you."
+      }
+    },
+    "marie_hikawa_job_offer_001": {
+      "placeholders": {
+        "ward": "location_name"
+      },
+      "text": {
+        "reference": "{ward}区の氷川神社で、移転工事をやってる{n}んだけど、神社の工事現場で事故が多くて、{n}たたり騒ぎになったのよね。",
+        "translation": "They're relocating Hikawa Shrine in {ward},{n}but so many accidents have hit the construction site{n}that people are calling it a curse."
+      }
+    },
+    "marie_hikawa_job_offer_002": {
+      "text": {
+        "reference": "ただのたたり騒ぎだったら、あんたの出番{n}じゃないけど、神社の森に悪魔が出たのよ。{n}これは、デビルサマナーの出番よね。",
+        "translation": "If it were only a curse, you wouldn't be needed.{n}But demons have appeared in the shrine grove.{n}Now that's a job for a Devil Summoner."
+      }
+    },
+    "marie_hikawa_job_offer_003": {
+      "text": {
+        "reference": "よろしく、お願いするわ。",
+        "translation": "I'm counting on you."
+      }
+    },
+    "marie_hikawa_job_offer_004": {
+      "placeholders": {
+        "ward": "location_name"
+      },
+      "text": {
+        "reference": "マリー：じゃあ、{ward}区の氷川神社に{n}行ってちょうだい。頼んだわよ。",
+        "translation": "Marie: Head to Hikawa Shrine in {ward}.{n}I'm counting on you."
+      }
+    },
+    "marie_hikawa_job_offer_005": {
+      "text": {
+        "reference": "マリー：お願いだから、そんなこと{n}言わないでおくれよ。",
+        "translation": "Marie: Please, don't say that.{n}I'm begging you."
+      }
+    },
+    "marie_hikawa_job_offer_006": {
+      "text": {
+        "reference": "引き受ける気になったら、「占いの館」まで{n}来てちょうだい。",
+        "translation": "If you change your mind, come back{n}to my fortune-telling parlor."
+      }
+    },
+    "marie_police_job_offer_000": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "マリー：今度は、{city}警察からの依頼よ。",
+        "translation": "Marie: This time, the request is from {city} Police."
+      }
+    },
+    "marie_police_job_offer_001": {
+      "text": {
+        "reference": "とある刑事さんからの依頼なんだけど、{n}署内は、悪魔だらけだって。",
+        "translation": "It's from a certain detective.{n}He says the station is crawling with demons."
+      }
+    },
+    "marie_police_job_offer_002": {
+      "text": {
+        "reference": "マリー：日頃のうらみは忘れてね。{n}仕事は、仕事よ。",
+        "translation": "Marie: Forget your usual grudges.{n}A job's a job."
+      }
+    },
+    "marie_police_job_offer_003": {
+      "text": {
+        "reference": "マリー：やっぱり警察のために、{n}働きたくは、ないのかい？",
+        "translation": "Marie: You really don't want{n}to work for the police, do you?"
+      }
+    },
+    "fortune_teller_identity_reveal_000": {
+      "text": {
+        "reference": "占い師：ごめんなさいね～。{n}今、準備中なのよ。",
+        "translation": "Fortune-teller: Sorry, hon.{n}I'm still getting ready."
+      }
+    },
+    "fortune_teller_identity_reveal_001": {
+      "text": {
+        "reference": "マリー：あ～ら、元気？",
+        "translation": "Marie: Well, look who it is. Feeling okay?"
+      }
+    },
+    "fortune_teller_identity_reveal_002": {
+      "text": {
+        "reference": "レイから聞いたわよ、あやうく死にそう{n}だったんだってねぇ。",
+        "translation": "Rei told me you nearly{n}got yourself killed."
+      }
+    },
+    "fortune_teller_identity_reveal_003": {
+      "text": {
+        "reference": "とりあえず、五体満足みたいだから、{n}安心したわよ。",
+        "translation": "At least you've still got all your limbs,{n}so that's a relief."
+      }
+    },
+    "fortune_teller_identity_reveal_004": {
+      "text": {
+        "reference": "ところで最近、あたしの所で{n}ポルターガイスト現象が起こるのよ。{n}どうにかならないかしらねぇ。",
+        "translation": "Lately, I've been getting{n}poltergeist activity in here.{n}Think you can do something about it?"
+      }
+    },
+    "fortune_teller_identity_reveal_005": {
+      "text": {
+        "reference": "おっとっと、そう言ってるうちに、{n}そのポルターガイスト現象が起こるわよ。",
+        "translation": "Whoa—speak of the devil.{n}Here comes that poltergeist now."
+      }
+    },
+    "fortune_teller_identity_reveal_006": {
+      "text": {
+        "reference": "声：……おれの身体を返せ……、{n}……おれの身体を返せ……。",
+        "translation": "Voice: ...Give me back my body...{n}...Give me back my body..."
+      }
+    },
+    "fortune_teller_identity_reveal_007": {
+      "text": {
+        "reference": "マリー：何？この声？",
+        "translation": "Marie: What? Whose voice is that?"
+      }
+    },
+    "fortune_teller_identity_reveal_008": {
+      "text": {
+        "reference": "キョウジの声：……聞こえるか……、{n}今そこにいる、おれの身体は、{n}おれであって、おれでない……。",
+        "translation": "Kyouji's Voice: ...Can you hear me...?{n}That body standing there is mine,{n}yet it is not me..."
+      }
+    },
+    "fortune_teller_identity_reveal_009": {
+      "text": {
+        "reference": "まったく別の魂が入りこんでいる、{n}おれのニセモノだ……。",
+        "translation": "A completely different soul has entered it.{n}You're a false version of me..."
+      }
+    },
+    "fortune_teller_identity_reveal_010": {
+      "text": {
+        "reference": "……いいか、そのうちに、{n}おれは、おれの身体を取り返しに行く……。",
+        "translation": "...Listen. One day,{n}I will come to reclaim my body..."
+      }
+    },
+    "fortune_teller_identity_reveal_011": {
+      "text": {
+        "reference": "……それまで、おれの身体を、{n}傷つけるなよ……さもなくば……、{n}無間地獄に落としてやる……。",
+        "translation": "...Until then, don't damage my body...{n}Or else... I'll cast you{n}into Avici Hell..."
+      }
+    },
+    "fortune_teller_identity_reveal_012": {
+      "text": {
+        "reference": "……ひとつ、言うことを聞け……、{n}おれが使っていたハンディ・コンピュータを{n}手に入れろ……。",
+        "translation": "...Do one thing for me...{n}Get the handheld computer{n}I used..."
+      }
+    },
+    "fortune_teller_identity_reveal_013": {
+      "text": {
+        "reference": "スペアは、業魔殿のヴィクトルが持っている{n}……おれが、話をつけておいてやる……。{n}後で、業魔殿へ行け……。",
+        "translation": "Victor at the Gouma-den has a spare...{n}I'll make arrangements with him...{n}Go to the Gouma-den later..."
+      }
+    },
+    "fortune_teller_identity_reveal_014": {
+      "text": {
+        "reference": "わかったか。おれの言う通りにしろ……。{n}また、そのうち様子を見に来るからな……。{n}……あばよ……。",
+        "translation": "Understand? Do as I say...{n}I'll come back to see how things are going...{n}...Later..."
+      }
+    },
+    "fortune_teller_identity_reveal_015": {
+      "text": {
+        "reference": "マリー：あーら、おどろいたわね……。{n}あなた、葛葉のニセモノなのね、へーえ。",
+        "translation": "Marie: Well, that was a surprise...{n}So you're a fake Kuzunoha. Huh."
+      }
+    },
+    "fortune_teller_identity_reveal_016": {
+      "text": {
+        "reference": "そう言われてみれば、何となく{n}人相変わったような気がするけど{n}言われなきゃ、わかんないわよねー。",
+        "translation": "Now that he mentions it, something about{n}your face does seem different—but I'd never{n}have noticed if he hadn't told me."
+      }
+    },
+    "fortune_teller_identity_reveal_017": {
+      "text": {
+        "reference": "あんたも元に戻りたいだろうね。{n}どうすりゃ戻れるのか、やり方をなんとか{n}見つけないとねー。",
+        "translation": "You must want your old body back too.{n}We'll have to find some way{n}to put you back in it."
+      }
+    },
+    "fortune_teller_identity_reveal_018": {
+      "text": {
+        "reference": "悪いけど、それまでデビルサマナーでいて{n}ちょうだいよ。",
+        "translation": "Sorry, but until then,{n}I need you to keep being a Devil Summoner."
+      }
+    },
+    "fortune_teller_identity_reveal_019": {
+      "text": {
+        "reference": "あんたが、本物だろうとニセモノだろうと、{n}悪魔退治をしてくれさえすれば、{n}いいんだから。",
+        "translation": "Real or fake, I don't care—as long as{n}you keep taking care of demons for me,{n}that's all I need."
+      }
+    },
+    "fortune_teller_identity_reveal_020": {
+      "text": {
+        "reference": "あんたもここはひとつ、腹をくくって{n}元の身体に戻れる時まで、{n}悪魔退治に、はげんでおくれよ。",
+        "translation": "So steel yourself and keep hunting demons{n}until you can return{n}to your own body."
+      }
+    },
+    "fortune_teller_identity_reveal_021": {
+      "text": {
+        "reference": "たよりにしてるからねー。",
+        "translation": "I'm counting on you."
+      }
+    },
+    "fortune_teller_identity_reveal_022": {
+      "text": {
+        "reference": "マリー：あなたの未来を、占いましょう。{n}あなたの後ろに、あなたの未来が……{n}なーんだ、あんたか。",
+        "translation": "Marie: Let me read your future.{n}Behind you, I see your future...{n}Oh, it's just you."
+      }
+    },
+    "fortune_teller_identity_reveal_023": {
+      "text": {
+        "reference": "今、仕事は入ってないわよ。",
+        "translation": "No jobs for you right now."
+      }
+    },
+    "marie_library_job_000": {
+      "text": {
+        "reference": "マリー：さっそくだけど、仕事が入ってるよ{n}もちろん、やってくれるわよね？",
+        "translation": "Marie: We've already got a job.{n}Of course you'll take it, right?"
+      }
+    },
+    "marie_library_job_001": {
+      "text": {
+        "reference": "マリー：図書館の悪魔退治、{n}まだ終わんないの？",
+        "translation": "Marie: You still haven't cleared{n}the demons out of the library?"
+      }
+    },
+    "marie_library_job_002": {
+      "text": {
+        "reference": "早いとこ、カタつけないと、{n}今後の信用にかかわるんだよ。",
+        "translation": "You'd better wrap it up fast,{n}or it'll hurt our reputation."
+      }
+    },
+    "marie_library_job_003": {
+      "text": {
+        "reference": "マリー：どーも、ご苦労様ね。{n}これ、今回のギャラ{yen_symbol}50000．",
+        "translation": "Marie: Good work.{n}Here's your fee for this job: {yen_symbol}50,000."
+      }
+    },
+    "marie_library_job_004": {
+      "text": {
+        "reference": "これからも頼むわよ。",
+        "translation": "I'm counting on you from here on out."
+      }
+    },
+    "marie_casa_inui_job_000": {
+      "text": {
+        "reference": "マリー：「カーサ乾」の悪魔退治。{n}引き受けておくれよ。",
+        "translation": "Marie: Take the demon-hunting job at Casa Inui.{n}Come on."
+      }
+    },
+    "marie_casa_inui_job_001": {
+      "placeholders": {
+        "ward": "location_name"
+      },
+      "text": {
+        "reference": "マリー：じゃあ。{ward}区の「カーサ乾」に{n}行ってよ。",
+        "translation": "Marie: Then head to Casa Inui{n}in {ward}."
+      }
+    },
+    "marie_casa_inui_job_002": {
+      "text": {
+        "reference": "マリー：これだけ言ってもダメかい。",
+        "translation": "Marie: Even after all that, you still won't do it?"
+      }
+    },
+    "marie_casa_inui_job_003": {
+      "text": {
+        "reference": "マリー：「カーサ乾」の悪魔、{n}早く退治しとくれ。",
+        "translation": "Marie: Hurry up and deal with{n}the demon at Casa Inui."
+      }
+    },
+    "marie_casa_inui_job_004": {
+      "text": {
+        "reference": "マリー：「カーサ乾」の悪魔退治、{n}ご苦労様。",
+        "translation": "Marie: Good work clearing out{n}the demons at Casa Inui."
+      }
+    },
+    "marie_casa_inui_job_005": {
+      "text": {
+        "reference": "これはギャラの{yen_symbol}50000．",
+        "translation": "Here's your fee: {yen_symbol}50,000."
+      }
+    },
+    "marie_casa_inui_job_006": {
+      "text": {
+        "reference": "これからも頼むよ。",
+        "translation": "Keep it up."
+      }
+    },
+    "marie_kasagi_apartments_job_000": {
+      "text": {
+        "reference": "マリー：いったい、どういうつもりだい！{n}せっかくのもうけ話を、フイにしちまって！",
+        "translation": "Marie: What the hell were you thinking?!{n}You threw away a perfectly good payday!"
+      }
+    },
+    "marie_kasagi_apartments_job_001": {
+      "text": {
+        "reference": "あんたが悪魔退治する前に、{n}「カーサ乾」の異界は解けて、{n}悪魔は出なくなっちまったよ。",
+        "translation": "Before you dealt with the demons,{n}the Otherworld at Casa Inui dissipated,{n}and the demons stopped appearing."
+      }
+    },
+    "marie_kasagi_apartments_job_002": {
+      "text": {
+        "reference": "「カーサ乾」の住人が、たくさん犠牲に{n}なったんだよ。まあ、死んじまったやつらは{n}ともかく、一度引き受けた仕事は、",
+        "translation": "A lot of Casa Inui's residents were killed.{n}But dead people aside, once you accept a job,{n}you need to..."
+      }
+    },
+    "marie_kasagi_apartments_job_003": {
+      "text": {
+        "reference": "ちゃんと、片づけておくれよ。",
+        "translation": "see it through properly."
+      }
+    },
+    "marie_kasagi_apartments_job_004": {
+      "text": {
+        "reference": "もう、次の仕事の依頼が来てるんだ。{n}今度は、笠置山のマンション「かさぎ荘」が{n}異界になっちゃったらしいのよ。",
+        "translation": "Another request has already come in.{n}This time, the Kasagi Manor apartment building{n}on Mount Kasagi has become an Otherworld."
+      }
+    },
+    "marie_kasagi_apartments_job_005": {
+      "text": {
+        "reference": "というわけで、「かさぎ荘」の悪魔退治、{n}やってくれるわよね？",
+        "translation": "So you'll clear the demons out of Kasagi Manor,{n}right?"
+      }
+    },
+    "marie_kasagi_apartments_job_006": {
+      "text": {
+        "reference": "これはギャラの{yen_symbol}50000．",
+        "translation": "Here's your fee: {yen_symbol}50,000."
+      }
+    },
+    "marie_kasagi_apartments_job_007": {
+      "text": {
+        "reference": "ところで、次の仕事の依頼が来てるんだ。{n}今度は、笠置山のマンション「かさぎ荘」が{n}異界になっちゃったらしいのよ。",
+        "translation": "By the way, another request has come in.{n}This time, the Kasagi Manor apartment building{n}on Mount Kasagi has become an Otherworld."
+      }
+    },
+    "marie_kasagi_apartments_job_008": {
+      "text": {
+        "reference": "というわけで、「かさぎ荘」の悪魔退治、{n}やってくれるわよね？",
+        "translation": "So you'll clear the demons out of Kasagi Manor,{n}right?"
+      }
+    },
+    "marie_kasagi_apartments_job_009": {
+      "text": {
+        "reference": "マリー：いいところへ来たね。{n}新しい仕事が入ってるよ。",
+        "translation": "Marie: Perfect timing.{n}I've got a new job for you."
+      }
+    },
+    "marie_kasagi_apartments_job_010": {
+      "text": {
+        "reference": "今度は、笠置山のマンション「かさぎ荘」が{n}異界になっちゃったらしいのよ。",
+        "translation": "This time, the Kasagi Manor apartment building{n}on Mount Kasagi has become an Otherworld."
+      }
+    },
+    "marie_kasagi_apartments_job_011": {
+      "text": {
+        "reference": "というわけで、「かさぎ荘」の悪魔退治、{n}引き受けとくれよ。",
+        "translation": "So take the job and clear the demons{n}out of Kasagi Manor."
+      }
+    },
+    "marie_kasagi_apartments_job_012": {
+      "text": {
+        "reference": "マリー：じゃあ、すぐ笠置山の「かさぎ荘」{n}に行っとくれ。",
+        "translation": "Marie: Get over to Kasagi Manor{n}on Mount Kasagi right away."
+      }
+    },
+    "marie_kasagi_apartments_job_013": {
+      "text": {
+        "reference": "マリー：「働かざる者、食うべからず」って{n}言うわよ。仕事しなさいよ。",
+        "translation": "Marie: They say, \"Those who don't work don't eat.\"{n}So get to work."
+      }
+    },
+    "marie_kasagi_apartments_job_014": {
+      "text": {
+        "reference": "マリー：「かさぎ荘」の悪魔退治、{n}お願いだから、頼まれておくれよ、{n}ね？",
+        "translation": "Marie: Please, take the Kasagi Manor job.{n}Come on, I'm asking you.{n}Okay?"
+      }
+    },
+    "marie_kasagi_apartments_job_015": {
+      "text": {
+        "reference": "マリー：「かさぎ荘」の悪魔退治、{n}まだ終わんないの？",
+        "translation": "Marie: You still haven't cleared{n}the demons out of Kasagi Manor?"
+      }
+    },
+    "marie_kasagi_apartments_job_016": {
+      "text": {
+        "reference": "マリー：「かさぎ荘」の悪魔退治、{n}ご苦労様。",
+        "translation": "Marie: Good work clearing the demons{n}out of Kasagi Manor."
+      }
+    },
+    "marie_hikawa_shrine_job_000": {
+      "text": {
+        "reference": "マリー：氷川神社の工事現場の仕事、{n}引き受けてよ。",
+        "translation": "Marie: Take the Hikawa Shrine{n}construction-site job."
+      }
+    },
+    "marie_hikawa_shrine_job_001": {
+      "placeholders": {
+        "ward": "location_name"
+      },
+      "text": {
+        "reference": "マリー：じゃあ、{ward}区の氷川神社へ{n}行ってちょうだいな。",
+        "translation": "Marie: Head to Hikawa Shrine in {ward}.{n}I'm counting on you."
+      }
+    },
+    "marie_hikawa_shrine_job_002": {
+      "text": {
+        "reference": "マリー：そんなに仕事がいやなのかい。",
+        "translation": "Marie: Do you hate work that much?"
+      }
+    },
+    "marie_hikawa_shrine_job_003": {
+      "text": {
+        "reference": "マリー：氷川神社の悪魔退治、{n}まだ終わんないの？",
+        "translation": "Marie: You still haven't cleared{n}the demons out of Hikawa Shrine?"
+      }
+    },
+    "marie_hikawa_shrine_job_004": {
+      "text": {
+        "reference": "マリー：ご苦労様。まさかスサノオのたたり{n}だったとはねぇ。",
+        "translation": "Marie: Good work. Who would have guessed{n}Susano-o was behind that curse scare?"
+      }
+    },
+    "marie_hikawa_shrine_job_005": {
+      "text": {
+        "reference": "これからも、頼むよ。",
+        "translation": "Keep it up."
+      }
+    },
+    "marie_police_station_job_000": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "マリー：今度は、{city}警察からの依頼よ。{n}とある刑事さんからの依頼なんだけど、{n}署内は、悪魔だらけだって。",
+        "translation": "Marie: This time, the request is from {city} Police.{n}It's from a certain detective, and he says{n}the station is crawling with demons."
+      }
+    },
+    "marie_police_station_job_001": {
+      "text": {
+        "reference": "マリー：やっぱり警察のために、{n}働きたくは、ないのかい？",
+        "translation": "Marie: You really don't want{n}to work for the police, do you?"
+      }
+    },
+    "marie_police_station_job_002": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "マリー：{city}警察の悪魔退治は、{n}まだ終わんないのかい？",
+        "translation": "Marie: You still haven't cleared{n}the demons out of {city} Police?"
+      }
+    },
+    "marie_police_station_job_003": {
+      "text": {
+        "reference": "マリー：ご苦労様。{n}まさか、署長が悪魔だったなんてねー。",
+        "translation": "Marie: Good work.{n}Who would've thought the Police Chief was a demon?"
+      }
+    },
+    "marie_police_station_job_004": {
+      "text": {
+        "reference": "これはギャラの{yen_symbol}50000．",
+        "translation": "Here's your fee: {yen_symbol}50,000."
+      }
+    },
+    "marie_police_station_job_005": {
+      "text": {
+        "reference": "マリー：警察署の異界化も、おさまった{n}らしいわよ。百地警部も、その手下の刑事も{n}行方不明らしいわ。",
+        "translation": "Marie: It seems the Police Station's transformation{n}into an Otherworld has ended. Inspector Momochi{n}and Detective Isono have both disappeared."
+      }
+    },
+    "marie_police_station_job_006": {
+      "text": {
+        "reference": "まあ、あんたも警察には、いろいろヒドい目{n}に合わされてるから、気が進まなかったのは{n}わかるけどねぇ。",
+        "translation": "I know the police have put you through{n}a lot, so I understand why{n}you weren't eager."
+      }
+    },
+    "marie_police_station_job_007": {
+      "text": {
+        "reference": "引き受けた仕事に、私情をはさんじゃ{n}いけないわよねぇ。{n}おかげで、金も入らないし。",
+        "translation": "But you can't let personal feelings interfere{n}with a job you've accepted.{n}Now neither of us gets paid."
+      }
+    },
+    "marie_chinatown_job_000": {
+      "text": {
+        "reference": "でさぁ、次の仕事なんだけど、{n}中華街の陳大人からの依頼なのよ。",
+        "translation": "So, about your next job...{n}It's a request from Mr. Chen in Chinatown."
+      }
+    },
+    "marie_chinatown_job_001": {
+      "text": {
+        "reference": "中華街が突然異界化して、関帝廟にまつられ{n}てる、関帝聖君があばれているんだって。",
+        "translation": "Chinatown has suddenly become an Otherworld,{n}and Guan Yu, enshrined at its Guan Di Temple, is rampaging."
+      }
+    },
+    "marie_chinatown_job_002": {
+      "text": {
+        "reference": "関帝聖君との戦い、{n}引き受けてくれるかしら？",
+        "translation": "Will you take the job{n}of confronting Guan Yu?"
+      }
+    },
+    "marie_chinatown_job_003": {
+      "text": {
+        "reference": "＞依頼を引き受けますか？",
+        "translation": "> Accept the request?"
+      }
+    },
+    "marie_chinatown_job_004": {
+      "text": {
+        "reference": "マリー：警察署の悪魔退治、ご苦労様。{n}まさか、署長が悪魔だったなんてねー。",
+        "translation": "Marie: Good work clearing the Police Station.{n}Who would've thought the chief was a demon?"
+      }
+    },
+    "marie_chinatown_job_005": {
+      "text": {
+        "reference": "マリー：いいところに来たわね。{n}中華街の陳大人からの依頼よ。",
+        "translation": "Marie: Perfect timing.{n}I've got a request from Mr. Chen in Chinatown."
+      }
+    },
+    "marie_chinatown_job_006": {
+      "text": {
+        "reference": "中華街が突然異界化して、関帝廟にまつられ{n}てる、関帝聖君があばれているんだって。",
+        "translation": "Chinatown has suddenly become an Otherworld,{n}and Guan Yu, enshrined at its Guan Di Temple, is rampaging."
+      }
+    },
+    "marie_chinatown_job_007": {
+      "text": {
+        "reference": "さすが、そう来なくちゃ。{n}なんとか、関帝聖君の怒りを{n}静めてちょうだいね。頼んだわよ。",
+        "translation": "That's what I like to hear.{n}Do whatever you can to calm Guan Yu's anger.{n}I'm counting on you."
+      }
+    },
+    "marie_chinatown_job_008": {
+      "text": {
+        "reference": "そんなこと、言わないでちょうだいよ。{n}確かに、関帝聖君は手強いだろうけどさぁ。",
+        "translation": "Please don't say that.{n}I know Guan Yu will be a tough opponent, but..."
+      }
+    },
+    "marie_chinatown_job_009": {
+      "text": {
+        "reference": "マリー：お願いだよ。中華街の陳大人の依頼{n}引き受けとくれよ。あたしの面目も{n}かかってるんだよ。",
+        "translation": "Marie: Please. Take Mr. Chen's Chinatown job.{n}My reputation is on the line here,{n}too."
+      }
+    },
+    "marie_chinatown_job_010": {
+      "text": {
+        "reference": "マリー：どうだい、中華街のお仕事は？",
+        "translation": "Marie: How's the Chinatown job going?"
+      }
+    },
+    "marie_chinatown_job_011": {
+      "text": {
+        "reference": "マリー：中華街のお仕事、ご苦労さん。{n}ギャラは、陳大人から直接受け取ったよね。",
+        "translation": "Marie: Good work on that Chinatown job.{n}You received your fee directly from Mr. Chen, right?"
+      }
+    },
+    "marie_chinatown_job_012": {
+      "text": {
+        "reference": "マリー：天堂天山をやっつけちゃったの？{n}ヴァンパイアに、なっていた？{n}へぇ、そりゃ大変だったわねぇ。",
+        "translation": "Marie: You took down Tenzan Tendou?{n}He'd become a vampire?{n}Wow. That must've been rough."
+      }
+    },
+    "marie_chinatown_job_013": {
+      "text": {
+        "reference": "天堂の背後には、市議会議員の山城が{n}いるはず。あいつらは、昔からの知り合い{n}なんだよ。",
+        "translation": "Councillor Yamashiro should be{n}the one behind Tendou.{n}Those two go way back."
+      }
+    },
+    "marie_chinatown_job_014": {
+      "text": {
+        "reference": "ところで、天堂の背後には、市議会議員の{n}山城がいるはず。あいつらは、昔からの{n}知り合いなんだよ。",
+        "translation": "By the way, Councillor Yamashiro should be{n}the one behind Tendou.{n}Those two go way back."
+      }
+    },
+    "marie_chinatown_job_015": {
+      "text": {
+        "reference": "マリー：ヤバいことになってきたわね。{n}あたしゃ、しばらく、どこかに逃げ出すこと{n}にするよ。",
+        "translation": "Marie: This is getting dangerous.{n}I'm going to disappear somewhere{n}for a while."
+      }
+    },
+    "marie_chinatown_job_016": {
+      "text": {
+        "reference": "＞誰もいない……。",
+        "translation": "> No one is here..."
+      }
+    }
+  }
+}

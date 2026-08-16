@@ -1,0 +1,235 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "rinkai_hospital_visit_000": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "＞{city}臨海病院。",
+        "translation": "> It's {city} Rinkai Hospital."
+      }
+    },
+    "rinkai_hospital_visit_001": {
+      "text": {
+        "reference": "久美子：病院に何か用があるの？{n}わたし、学校へ行きたいの。",
+        "translation": "Kumiko: Do you need something at the hospital?{n}I want to go to the university."
+      }
+    },
+    "rinkai_hospital_visit_002": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "{first_name}の母：……{first_name}……{n}目をさましておくれ……。",
+        "translation": "{first_name}'s Mother: ...{first_name}...{n}Please wake up......"
+      }
+    },
+    "rinkai_hospital_visit_003": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "{first_name}の父：かあさん、少しは休まないと{n}おまえのほうが、まいってしまうぞ。",
+        "translation": "{first_name}'s Father: You need to rest,{n}or you'll collapse too."
+      }
+    },
+    "rinkai_hospital_visit_004": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "{first_name}の父：あんたか……{n}私立探偵の……",
+        "translation": "{first_name}'s Father: It's you...{n}That detective..."
+      }
+    },
+    "rinkai_hospital_visit_005": {
+      "text": {
+        "reference": "ごらんの通り、妻がつきっきりだが{n}わたしの息子は、意識を取りもどさない。",
+        "translation": "As you can see, my wife hasn't left our son's side,{n}but he still hasn't regained consciousness."
+      }
+    },
+    "rinkai_hospital_visit_006": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "{first_name}の母：……{first_name}……",
+        "translation": "{first_name}'s Mother: ...{first_name}..."
+      }
+    },
+    "rinkai_hospital_visit_007": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "{first_name}の父：{first_name}は、どうして意識を{n}取りもどさないんだ……。",
+        "translation": "{first_name}'s Father: {first_name},{n}why won't you wake up...?"
+      }
+    },
+    "rinkai_hospital_visit_008": {
+      "text": {
+        "reference": "先生、なんとかならないんですか？",
+        "translation": "Doctor, isn't there anything you can do?"
+      }
+    },
+    "rinkai_hospital_visit_009": {
+      "text": {
+        "reference": "医師：残念ながら、我々には{n}何も分からないのです。いろいろと{n}手をつくしているのですが……。",
+        "translation": "Doctor: I'm sorry, but we simply don't know.{n}We've tried everything we can,{n}but nothing has worked..."
+      }
+    },
+    "rinkai_hospital_visit_010": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "{first_name}の父：きみは誰だ？",
+        "translation": "{first_name}'s Father: Who are you?"
+      }
+    },
+    "rinkai_hospital_visit_011": {
+      "text": {
+        "reference": "＞自分は誰と名乗りますか？",
+        "translation": "> What name will you give him?"
+      }
+    },
+    "rinkai_hospital_visit_012": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "{first_name}",
+        "translation": "{first_name}"
+      }
+    },
+    "rinkai_hospital_visit_013": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "{first_name}の父：それは、息子の名前だ！{n}わたしの息子は今、生死のさかいを{n}さまよっているんだ。",
+        "translation": "{first_name}'s Father: That's my son's name!{n}My son is on the brink of death right now."
+      }
+    },
+    "rinkai_hospital_visit_014": {
+      "text": {
+        "reference": "悪ふざけも、ほどがすぎるぞ！！",
+        "translation": "This sick joke has gone too far!"
+      }
+    },
+    "rinkai_hospital_visit_015": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "{first_name}の父：私立探偵……？",
+        "translation": "{first_name}'s Father: A private detective...?"
+      }
+    },
+    "rinkai_hospital_visit_016": {
+      "text": {
+        "reference": "その私立探偵が、いったい何のようだ？",
+        "translation": "And what does a private detective want?"
+      }
+    },
+    "rinkai_hospital_visit_017": {
+      "text": {
+        "reference": "いったい何のようだ？",
+        "translation": "So what do you want?"
+      }
+    },
+    "rinkai_hospital_visit_018": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "自分が{first_name}であると説明する",
+        "translation": "Explain that you're {first_name}"
+      }
+    },
+    "rinkai_hospital_visit_019": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "調べている事件が{first_name}と関係ある",
+        "translation": "Say your case is connected to {first_name}"
+      }
+    },
+    "rinkai_hospital_visit_020": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "{first_name}の父：……？きみは……？{n}何をわけの分からん事を言ってるんだ？",
+        "translation": "{first_name}'s Father: ...Who are you?{n}What is this nonsense you're talking about?"
+      }
+    },
+    "rinkai_hospital_visit_021": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "{first_name}の父：わたしの息子は、{n}臨海公園のビルの工事現場に倒れていた、{n}と聞いている。",
+        "translation": "{first_name}'s Father: I was told my son{n}collapsed at the construction site in Rinkai Park."
+      }
+    },
+    "rinkai_hospital_visit_022": {
+      "text": {
+        "reference": "それ以外のことは、わたしにはわからん。",
+        "translation": "Other than that, I don't know anything."
+      }
+    },
+    "rinkai_hospital_visit_023": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "医師：{last_name}{first_name}さんの意識は、{n}ずっと不明のままです。",
+        "translation": "Doctor: {first_name} {last_name}{n}still hasn't regained consciousness."
+      }
+    },
+    "rinkai_hospital_visit_024": {
+      "text": {
+        "reference": "不思議なことに、生きているのか、{n}死んでいるのか、わからない状態です。",
+        "translation": "Strangely, we cannot even determine{n}whether he is alive or dead."
+      }
+    },
+    "rinkai_hospital_visit_025": {
+      "text": {
+        "reference": "残念ながら、我々には手のほどこしようが{n}ありません……。",
+        "translation": "It's a great shame, but I fear there{n}may be nothing else we can do..."
+      }
+    },
+    "rinkai_hospital_visit_026": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "看護婦：{city}臨海病院に何か御用ですか？{n}御用のない方は、お帰りください。",
+        "translation": "Nurse: This is {city} Rinkai Hospital.{n}Are you here to visit a patient?{n}If you have no business here, please leave."
+      }
+    },
+    "rinkai_hospital_visit_027": {
+      "text": {
+        "reference": "久美子：図書館に行きたいのよ。{n}図書館は、公園の南に建っているわ。",
+        "translation": "Kumiko: I need to go to the library.{n}It's south of the park."
+      }
+    },
+    "rinkai_hospital_visit_028": {
+      "text": {
+        "reference": "久美子：学校へ行く用事があるのよ。{n}北大は、笠置山の南でしょう。",
+        "translation": "Kumiko: I have business at the university.{n}Kitayama University is south of Mount Kasagi."
+      }
+    },
+    "rinkai_hospital_visit_029": {
+      "text": {
+        "reference": "＞手術室。誰もいない。",
+        "translation": "> Operating Room{n}No one is here."
+      }
+    }
+  }
+}

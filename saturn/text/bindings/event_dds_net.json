@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "asset": "events/dds_net.json",
+  "records": {
+    "game.evfile_0.m0016.p00": "dds_net_redman_correspondence_000.text",
+    "game.evfile_0.m0016.p01": "dds_net_redman_correspondence_001.text",
+    "game.evfile_0.m0016.p02": "dds_net_redman_correspondence_002.text",
+    "game.evfile_0.m0016.p03": "dds_net_redman_correspondence_003.text",
+    "game.evfile_0.m0016.p04": "dds_net_redman_correspondence_004.text",
+    "game.evfile_0.m0016.p05": "dds_net_redman_correspondence_005.text",
+    "game.evfile_0.m0016.p06": "dds_net_redman_correspondence_006.text",
+    "game.evfile_0.m0016.p07": "dds_net_redman_correspondence_007.text",
+    "game.evfile_0.m0317.p00": "dds_net_redman_correspondence_008.text",
+    "game.evfile_0.m0317.p01": "dds_net_redman_correspondence_009.text",
+    "game.evfile_0.m0318.p00": "dds_net_redman_correspondence_010.text",
+    "game.evfile_0.m0318.p01": "dds_net_redman_correspondence_011.text",
+    "game.evfile_0.m0319.p00": "dds_net_redman_correspondence_012.text",
+    "game.evfile_0.m0319.p01": "dds_net_redman_correspondence_013.text",
+    "game.evfile_0.m0319.p02": "dds_net_redman_correspondence_014.text",
+    "game.evfile_0.m0320.p00": "dds_net_redman_correspondence_015.text",
+    "game.evfile_0.m0321.p00": "dds_net_redman_correspondence_016.text",
+    "game.evfile_0.m0321.p01": "dds_net_redman_correspondence_017.text",
+    "game.evfile_0.m0322.p00": "dds_net_redman_correspondence_018.text",
+    "game.evfile_0.m0322.p01": "dds_net_redman_correspondence_019.text",
+    "game.evfile_0.m0323.p00": "dds_net_redman_correspondence_020.text",
+    "game.evfile_0.m0323.p01": "dds_net_redman_correspondence_021.text",
+    "game.evfile_0.m0323.p02": "dds_net_redman_correspondence_022.text",
+    "game.evfile_0.m0324.p00": "dds_net_redman_correspondence_023.text",
+    "game.evfile_0.m0324.p01": "dds_net_redman_correspondence_024.text",
+    "game.evfile_0.m0325.p00": "dds_net_redman_correspondence_025.text",
+    "game.evfile_0.m0325.p01": "dds_net_redman_correspondence_026.text",
+    "game.evfile_0.m0325.p02": "dds_net_redman_correspondence_027.text",
+    "game.evfile_0.m0325.p03": "dds_net_redman_correspondence_028.text",
+    "game.evfile_0.m0325.p04": "dds_net_redman_correspondence_029.text",
+    "game.evfile_0.m0325.p05": "dds_net_redman_correspondence_030.text",
+    "game.evfile_0.m0325.p06": "dds_net_redman_correspondence_031.text",
+    "game.evfile_0.m0326.p00": "dds_net_redman_correspondence_032.text",
+    "game.evfile_0.m0326.p01": "dds_net_redman_correspondence_033.text",
+    "game.evfile_0.m0326.p02": "dds_net_redman_correspondence_034.text",
+    "game.evfile_0.m0326.p03": "dds_net_redman_correspondence_035.text",
+    "game.evfile_0.m0326.p04": "dds_net_redman_correspondence_036.text",
+    "game.evfile_0.m0326.p05": "dds_net_redman_correspondence_037.text",
+    "game.evfile_0.m0327.p00": "dds_net_redman_correspondence_038.text",
+    "game.evfile_0.m0327.p01": "dds_net_redman_correspondence_039.text",
+    "game.evfile_0.m0327.p02": "dds_net_redman_correspondence_040.text",
+    "game.evfile_0.m0328.p00": "dds_net_redman_correspondence_041.text",
+    "game.evfile_0.m0328.p01": "dds_net_redman_correspondence_042.text",
+    "game.evfile_0.m0329.p00": "dds_net_redman_correspondence_043.text"
+  },
+  "glyph_equivalence": {
+    "010d": "-"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

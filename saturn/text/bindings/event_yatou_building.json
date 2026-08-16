@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "asset": "events/yatou_building.json",
+  "records": {
+    "game.evfile_0.m0196.p00": "yatou_building_incident_000.text",
+    "game.evfile_0.m0196.p01": "yatou_building_incident_001.text",
+    "game.evfile_0.m0197.p00": "yatou_building_incident_002.text",
+    "game.evfile_0.m0198.p00": "yatou_building_incident_003.text",
+    "game.evfile_0.m0199.p00": "yatou_building_incident_004.text",
+    "game.evfile_0.m0200.p00": "yatou_building_incident_005.text",
+    "game.evfile_0.m0201.p00": "yatou_building_incident_006.text",
+    "game.evfile_0.m0201.p01": "yatou_building_incident_007.text",
+    "game.evfile_0.m0201.p02": "yatou_building_incident_008.text",
+    "game.evfile_0.m0202.p00": "yatou_building_incident_009.text",
+    "game.evfile_0.m0202.p01": "yatou_building_incident_010.text",
+    "game.evfile_0.m0202.p02": "yatou_building_incident_011.text",
+    "game.evfile_0.m0203.p00": "yatou_building_incident_012.text",
+    "game.evfile_0.m0203.p01": "yatou_building_incident_013.text",
+    "game.evfile_0.m0203.p02": "yatou_building_incident_014.text",
+    "game.evfile_0.m0203.p03": "yatou_building_incident_015.text",
+    "game.evfile_0.m0204.p00": "yatou_building_incident_016.text",
+    "game.evfile_0.m0205.p00": "yatou_building_incident_017.text",
+    "game.evfile_0.m0206.p00": "yatou_building_incident_018.text",
+    "game.evfile_0.m0207.p00": "yatou_building_incident_019.text",
+    "game.evfile_0.m0208.p00": "yatou_building_incident_020.text",
+    "game.evfile_0.m0208.p01": "yatou_building_incident_021.text",
+    "game.evfile_0.m0209.p00": "yatou_building_incident_022.text",
+    "game.evfile_0.m0209.p01": "yatou_building_incident_023.text",
+    "game.evfile_0.m0209.p02": "yatou_building_incident_024.text",
+    "game.evfile_0.m0210.p00": "yatou_building_incident_025.text",
+    "game.evfile_0.m0211.p00": "yatou_building_incident_026.text",
+    "game.evfile_0.m0212.p00": "yatou_building_incident_027.text",
+    "game.evfile_0.m0212.p01": "yatou_building_incident_028.text",
+    "game.evfile_0.m0213.p00": "yatou_building_incident_029.text",
+    "game.evfile_0.m0213.p01": "yatou_building_incident_030.text",
+    "game.evfile_0.m0213.p02": "yatou_building_incident_031.text",
+    "game.evfile_0.m0214.p00": "yatou_building_incident_032.text",
+    "game.evfile_0.m0214.p01": "yatou_building_incident_033.text",
+    "game.evfile_0.m0214.p02": "yatou_building_incident_034.text",
+    "game.evfile_0.m0214.p03": "yatou_building_incident_035.text",
+    "game.evfile_0.m0215.p00": "yatou_building_incident_036.text",
+    "game.evfile_0.m0215.p01": "yatou_building_incident_037.text",
+    "game.evfile_0.m0216.p00": "yatou_building_incident_038.text",
+    "game.evfile_0.m0244.p00": "yatou_building_incident_001.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

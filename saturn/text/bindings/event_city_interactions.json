@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "asset": "events/city_interactions.json",
+  "records": {
+    "game.evfile_0.m0267.p00": "redevelopment_street_interactions_000.text",
+    "game.evfile_0.m0268.p00": "redevelopment_street_interactions_001.text",
+    "game.evfile_0.m0269.p00": "redevelopment_street_interactions_002.text",
+    "game.evfile_0.m0439.p00": "city_services_interactions_000.text",
+    "game.evfile_0.m0440.p00": "city_services_interactions_001.text",
+    "game.evfile_0.m0440.p01": "city_services_interactions_002.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

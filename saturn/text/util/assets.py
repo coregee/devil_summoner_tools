@@ -213,6 +213,7 @@ class AssetBinding:
     additional_uses: Mapping[str, tuple[AdditionalUse, ...]]
     reference_normalization: str | None
     glyph_equivalence: Mapping[str, str]
+    glyph_tokens: Mapping[str, str]
     field_surfaces: Mapping[str, tuple[str, ...]]
     record_surfaces: Mapping[str, tuple[str, ...]]
     unresolved: Mapping[str, str]
@@ -445,6 +446,7 @@ def load_binding(
             "additional_uses",
             "reference_normalization",
             "glyph_equivalence",
+            "glyph_tokens",
             "field_surfaces",
             "record_surfaces",
             "unresolved",
@@ -575,6 +577,24 @@ def load_binding(
             )
         glyph_equivalence[code] = character
 
+    glyph_tokens: dict[str, str] = {}
+    for code, token_name in _object(
+        document.get("glyph_tokens", {}), f"{path}.glyph_tokens"
+    ).items():
+        if not isinstance(code, str) or _GLYPH_CODE_RE.fullmatch(code) is None:
+            raise ValueError(
+                f"{path}.glyph_tokens keys must be lowercase two- or "
+                "four-digit hex"
+            )
+        if token_name not in _AUTHORED_SYMBOLS:
+            choices = ", ".join(sorted(_AUTHORED_SYMBOLS))
+            raise ValueError(
+                f"{path}.glyph_tokens.{code} must be an authored symbol: {choices}"
+            )
+        if code in glyph_equivalence:
+            raise ValueError(f"{path}: glyph code {code} has two equivalences")
+        glyph_tokens[code] = token_name
+
     field_surfaces: dict[str, tuple[str, ...]] = {}
     bound_fields = {
         asset_ref.rsplit(".", 1)[1] for asset_ref in records.values()
@@ -633,7 +653,7 @@ def load_binding(
         if physical_records is None
         else physical_records
     )
-    unused_glyphs = set(glyph_equivalence)
+    unused_glyphs = set(glyph_equivalence) | set(glyph_tokens)
 
     def normalize_glyphs(value: str) -> str:
         tokens = []
@@ -647,6 +667,10 @@ def load_binding(
                 if code in glyph_equivalence:
                     unused_glyphs.discard(code)
                     tokens.append(Text(glyph_equivalence[code]))
+                    continue
+                if code in glyph_tokens:
+                    unused_glyphs.discard(code)
+                    tokens.append(Named(glyph_tokens[code]))
                     continue
             tokens.append(token)
         return format_tokens(tokens)
@@ -718,6 +742,7 @@ def load_binding(
         MappingProxyType(additional_uses),
         reference_normalization,
         MappingProxyType(glyph_equivalence),
+        MappingProxyType(glyph_tokens),
         MappingProxyType(field_surfaces),
         MappingProxyType(record_surfaces),
         MappingProxyType(unresolved),

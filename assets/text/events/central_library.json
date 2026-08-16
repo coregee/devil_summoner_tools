@@ -1,0 +1,369 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "central_library_date_000": {
+      "text": {
+        "reference": "久美子：私は図書館へ行きたいのよ。{n}図書館は、臨海公園でしょう。",
+        "translation": "Kumiko: I still have to go to the library.{n}The library is in Rinkai Park."
+      }
+    },
+    "central_library_date_001": {
+      "text": {
+        "reference": "久美子：学校に用事があるって{n}言ったじゃない。",
+        "translation": "Kumiko: I said I had to go to the university, right?"
+      }
+    },
+    "central_library_date_002": {
+      "text": {
+        "reference": "笠置山は、こっちじゃないでしょう。",
+        "translation": "This isn't the way to Mount Kasagi."
+      }
+    },
+    "central_library_date_003": {
+      "text": {
+        "reference": "久美子：貸し出しの手続きするわね。",
+        "translation": "Kumiko: So I'll be checking this one out."
+      }
+    },
+    "central_library_date_004": {
+      "text": {
+        "reference": "……利用者カード忘れて来ちゃった。",
+        "translation": "...I forgot my library card."
+      }
+    },
+    "central_library_date_005": {
+      "text": {
+        "reference": "どうしよう？",
+        "translation": "What do I do?"
+      }
+    },
+    "central_library_date_006": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "図書館司書：こちら{city}市立中央図書館に{n}何かご用ですか？",
+        "translation": "Librarian: Welcome to the {city} Central Library.{n}How may I help you?"
+      }
+    },
+    "central_library_date_007": {
+      "text": {
+        "reference": "図書館司書：貸し出しですか？",
+        "translation": "Librarian: Would you like to borrow something?"
+      }
+    },
+    "central_library_date_008": {
+      "placeholders": {
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "利用者カードか身分証を出してください。{n}……はい、{last_name}さんですね。",
+        "translation": "Your library card or ID, please.{n}...{last_name}, correct?"
+      }
+    },
+    "central_library_date_009": {
+      "text": {
+        "reference": "身分証をお返しします。{n}貸出期間は、1週間です。{n}期間中に返却してください。",
+        "translation": "Here's your ID. The loan period is one week from now,{n}so please return the book before then."
+      }
+    },
+    "central_library_date_010": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "＞久美子は、{first_name}の名前で本を借りた。",
+        "translation": "> Kumiko borrowed the book under {first_name}'s name."
+      }
+    },
+    "central_library_date_011": {
+      "text": {
+        "reference": "久美子：ありがとう、助かったわ。",
+        "translation": "Kumiko: Thanks for helping me out."
+      }
+    },
+    "central_library_date_012": {
+      "text": {
+        "reference": "ところで、ちょっと学校へ行く用があるの。",
+        "translation": "By the way, there's still something{n}I have to do at the university."
+      }
+    },
+    "central_library_date_013": {
+      "text": {
+        "reference": "つきあってくれる？",
+        "translation": "Won't you come with me?"
+      }
+    },
+    "central_library_date_014": {
+      "text": {
+        "reference": "すぐ身分証を貸す",
+        "translation": "Lend her your ID"
+      }
+    },
+    "central_library_date_015": {
+      "text": {
+        "reference": "自分のを使うか聞く",
+        "translation": "Offer her your library card"
+      }
+    },
+    "central_library_date_016": {
+      "text": {
+        "reference": "彼女の失敗を笑う",
+        "translation": "Laugh at her mistake"
+      }
+    },
+    "central_library_date_017": {
+      "text": {
+        "reference": "久美子：えっ？これを使えって？{n}ありがとう、助かるわ。",
+        "translation": "Kumiko: What? You'll let me use this?{n}Thanks, you're a lifesaver."
+      }
+    },
+    "central_library_date_018": {
+      "text": {
+        "reference": "久美子：えっ？あなたのを貸してくれる？{n}そんな悪いわ、どうしようかなぁ。",
+        "translation": "Kumiko: Eh? You'll let me use yours?{n}I mean, I know I shouldn't, but what else can I do?"
+      }
+    },
+    "central_library_date_019": {
+      "text": {
+        "reference": "それじゃ、お言葉に甘えさせてもらうわ。",
+        "translation": "I suppose I'll take you up on that."
+      }
+    },
+    "central_library_date_020": {
+      "text": {
+        "reference": "久美子：なによ。そんなに笑わなくっても{n}いいじゃない。",
+        "translation": "Kumiko: Hey! You don't have to laugh that hard."
+      }
+    },
+    "central_library_date_021": {
+      "text": {
+        "reference": "あっ、そうだ。あなたの身分証を貸してよ。{n}それで本を借りるわ、いいでしょ。{n}人の失敗を笑ったバツよ。",
+        "translation": "Oh, I know. Lend me your ID,{n}and I'll check the book out with that.{n}You owe me for laughing at my mistake."
+      }
+    },
+    "central_library_date_022": {
+      "text": {
+        "reference": "言うことを聞く",
+        "translation": "If you say so."
+      }
+    },
+    "central_library_date_023": {
+      "text": {
+        "reference": "ことわる",
+        "translation": "I refuse."
+      }
+    },
+    "central_library_date_024": {
+      "text": {
+        "reference": "久美子：ありがとう。助かるわ。",
+        "translation": "Kumiko: Thanks, you've been really helpful today."
+      }
+    },
+    "central_library_date_025": {
+      "text": {
+        "reference": "久美子：そんなこと言わないで、お願い。",
+        "translation": "Kumiko: Don't say that. Please?"
+      }
+    },
+    "central_library_date_026": {
+      "text": {
+        "reference": "従う",
+        "translation": "Okay."
+      }
+    },
+    "central_library_date_027": {
+      "text": {
+        "reference": "いやだ",
+        "translation": "Nope."
+      }
+    },
+    "central_library_date_028": {
+      "text": {
+        "reference": "久美子：ごめんね。わたしの都合にばかり{n}つきあわせて。",
+        "translation": "Kumiko: Sorry I keep dragging you around on my errands."
+      }
+    },
+    "central_library_date_029": {
+      "text": {
+        "reference": "久美子：そんなワガママ言わないの。{n}世界は、あなたの都合では動いてないのよ。{n}さあ、行きましょ。",
+        "translation": "Kumiko: Don't be so selfish.{n}The world doesn't revolve around you, you know.{n}Now come on, let's go."
+      }
+    },
+    "central_library_date_030": {
+      "text": {
+        "reference": "久美子：あっ、あったぁ。この本よ。{n}「日本古代文明論」{n}これで、レポート書けるわ。",
+        "translation": "Kumiko: And...here it is.{n}'Theories on Ancient Japanese Civilization'.{n}With this book, I'll be able to write my report."
+      }
+    },
+    "central_library_date_031": {
+      "text": {
+        "reference": "この本読んだことある？",
+        "translation": "Have you read it before?"
+      }
+    },
+    "central_library_date_032": {
+      "text": {
+        "reference": "もちろん",
+        "translation": "Of course."
+      }
+    },
+    "central_library_date_033": {
+      "text": {
+        "reference": "誰が書いた本？",
+        "translation": "Who's the author?"
+      }
+    },
+    "central_library_date_034": {
+      "text": {
+        "reference": "ないと思う",
+        "translation": "I don't think so."
+      }
+    },
+    "central_library_date_035": {
+      "text": {
+        "reference": "興味ない",
+        "translation": "Not interested."
+      }
+    },
+    "central_library_date_036": {
+      "text": {
+        "reference": "久美子：じゃあ、どんなこと書いてあった？",
+        "translation": "Kumiko: Well, what's it about?"
+      }
+    },
+    "central_library_date_037": {
+      "text": {
+        "reference": "久美子：わたしのゼミの、吾妻教授が{n}書いた本よ。",
+        "translation": "Kumiko: One of my lecturers,{n}Professor Azuma, is the author."
+      }
+    },
+    "central_library_date_038": {
+      "text": {
+        "reference": "どんな内容か知ってる？",
+        "translation": "Do you know what it's about?"
+      }
+    },
+    "central_library_date_039": {
+      "text": {
+        "reference": "久美子：そうよね。{n}ふつうの人は、まず読まない本だから。",
+        "translation": "Kumiko: I thought not.{n}Most people would never pick up a book like this."
+      }
+    },
+    "central_library_date_040": {
+      "text": {
+        "reference": "久美子：ぜんぜん興味なさそうね。",
+        "translation": "Kumiko: You really aren't interested, are you?"
+      }
+    },
+    "central_library_date_041": {
+      "text": {
+        "reference": "ヤマタイ国とかの話",
+        "translation": "Yamatai-koku and stuff."
+      }
+    },
+    "central_library_date_042": {
+      "text": {
+        "reference": "実は読んでない",
+        "translation": "Actually, I haven't read it."
+      }
+    },
+    "central_library_date_043": {
+      "text": {
+        "reference": "知らない",
+        "translation": "No idea."
+      }
+    },
+    "central_library_date_044": {
+      "text": {
+        "reference": "久美子：そんな、ふつうの本じゃないわよ。",
+        "translation": "Kumiko: No, nothing that ordinary."
+      }
+    },
+    "central_library_date_045": {
+      "text": {
+        "reference": "久美子：そうでしょう。ふつうの人が読む本{n}じゃないもの。",
+        "translation": "Kumiko: I thought so.{n}It isn't the sort of book an ordinary person would read."
+      }
+    },
+    "central_library_date_046": {
+      "text": {
+        "reference": "この本、タイトルはまともだけど、{n}内容はけっこうすごいのよ。",
+        "translation": "The title sounds professional enough,{n}but its contents are pretty out-there."
+      }
+    },
+    "central_library_date_047": {
+      "text": {
+        "reference": "古代の日本に、魔法を使って国をおさめて{n}いた文明があったっていう内容なの。",
+        "translation": "It theorizes that in ancient Japan,{n}there was a civilization governed by the use of magic."
+      }
+    },
+    "central_library_date_048": {
+      "text": {
+        "reference": "この本を書いたせいで、吾妻教授は学会を{n}結構さわがせたらしいわ。{n}あまり、信じられてないらしいけどね。",
+        "translation": "Apparently this book was rather{n}controversial in academic circles.{n}Only a few scholars consider it credible."
+      }
+    },
+    "central_library_date_049": {
+      "text": {
+        "reference": "図書館職員：図書館が、海ぞいにあるのは{n}苦労しますね。本が傷みやすいんですよ。",
+        "translation": "Librarian: Running a library by the sea is difficult.{n}The books get damaged easily."
+      }
+    },
+    "central_library_fuguruma_incident_000": {
+      "text": {
+        "reference": "声：ホホホホホホホホホホ、異界となった、{n}わらわの館へようこそ。",
+        "translation": "Voice: Ho ho ho ho ho! Welcome to my hall,{n}now transformed into an Otherworld."
+      }
+    },
+    "central_library_fuguruma_incident_001": {
+      "text": {
+        "reference": "フグルマ：愚かな人間が、読みもせぬ文字を{n}集めおって。無駄なことをするものよ。",
+        "translation": "Fuguruma: Foolish humans, gathering writings{n}they never even read. What a waste."
+      }
+    },
+    "central_library_fuguruma_incident_002": {
+      "text": {
+        "reference": "おぬしも、わらわを退治しようなど、{n}考えるだけ無駄なことぞえ。{n}ホホホホホホホホ。",
+        "translation": "It is just as futile to imagine{n}that you could defeat me.{n}Ho ho ho ho ho!"
+      }
+    },
+    "central_library_fuguruma_incident_003": {
+      "text": {
+        "reference": "フグルマ：おおお、何と言うことじゃ。{n}せっかく、この館を異界となしたのに……。",
+        "translation": "Fuguruma: Oh! How can this be?{n}After I went to all the trouble of making this hall an Otherworld..."
+      }
+    },
+    "central_library_fuguruma_incident_004": {
+      "text": {
+        "reference": "レイ：ここは……異界！{n}だれかが、異界の一部を現世に出している、{n}ってことね。",
+        "translation": "Rei: This is... an Otherworld!{n}Someone is drawing part of an Otherworld{n}into the human world."
+      }
+    },
+    "central_library_fuguruma_incident_005": {
+      "text": {
+        "reference": "こんなこと、あんたがいつも相手にしてる{n}ザコじゃできないはず。",
+        "translation": "The small fry you usually fight{n}could never do this."
+      }
+    },
+    "central_library_fuguruma_incident_006": {
+      "text": {
+        "reference": "やはり、「神降ろし」をすませといて{n}正解だったわね。",
+        "translation": "Good thing I completed{n}the Divine Descent first."
+      }
+    },
+    "central_library_fuguruma_incident_007": {
+      "text": {
+        "reference": "これは、あたしの「神降ろし」も要るわ。{n}先に笠置山へ行ったほうが、いいようね。",
+        "translation": "I'll need Divine Descent for this.{n}We should go to Mount Kasagi first."
+      }
+    },
+    "central_library_fuguruma_incident_008": {
+      "text": {
+        "reference": "レイ：街なかに、いきなり異界を出現させる{n}なんて、かなりの大物の仕業よ。",
+        "translation": "Rei: Making an Otherworld suddenly appear{n}in the city takes someone powerful."
+      }
+    }
+  }
+}

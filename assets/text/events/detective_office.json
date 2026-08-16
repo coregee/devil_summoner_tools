@@ -1,0 +1,457 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "detective_office_awakening_000": {
+      "text": {
+        "reference": "レイ：さあ、あんたのオフィスについたわ。{n}みんな、あんたのこと心配してたから、{n}ちょっと、顔出してきなよ。",
+        "translation": "Rei: We finally made it back to the office.{n}Everyone was really worried about you,{n}so you should go let them know you're okay."
+      }
+    },
+    "detective_office_awakening_001": {
+      "text": {
+        "reference": "念のため、いつものように、{n}クローバー・ジムで身体を直してもらった{n}ほうがいいかもね。",
+        "translation": "You might want to get fixed up at Clover Gym,{n}as usual, just to be safe."
+      }
+    },
+    "detective_office_awakening_002": {
+      "text": {
+        "reference": "向かいの占い屋のクソババァには、{n}あんまり、会いたくないかもしれないけど{n}義理は、欠かないようにしないとね。",
+        "translation": "You may not want to see that old hag{n}at the fortune-teller's across the street,{n}but you shouldn't neglect your obligations."
+      }
+    },
+    "detective_office_awakening_003": {
+      "text": {
+        "reference": "出かけるなら、念のため奥の部屋から{n}武器や防具を取って装備してね。{n}殺されかけたんだから、気をつけなよ。",
+        "translation": "If you're going out, take some weapons{n}and armor from the back room and equip them.{n}You nearly got killed, so be careful."
+      }
+    },
+    "detective_office_awakening_004": {
+      "text": {
+        "reference": "じゃあ、あんまり無理しないでね。{n}あたしは、いろいろ用事があるから、{n}ちょっと出かけてくるわ。",
+        "translation": "Don't push yourself too hard.{n}I have a few errands, so I'm heading out for a while."
+      }
+    },
+    "detective_office_awakening_005": {
+      "text": {
+        "reference": "別に戦うわけじゃないし、重いから{n}武器と防具、置いてくわ。{n}預かっといてね。",
+        "translation": "I'm not going to fight, and this gear is heavy,{n}so I'll leave my weapons and armor here.{n}Hold on to them for me."
+      }
+    },
+    "detective_office_awakening_006": {
+      "text": {
+        "reference": "＞レイ・レイホゥは、出かけていった。",
+        "translation": "> Rei Reiho left."
+      }
+    },
+    "detective_office_awakening_007": {
+      "text": {
+        "reference": "ジャンビーヤ、{n}レディ・スミス、{n}6’Sチョーカー、",
+        "translation": "Received Jambiya, Lady Smith, 6's Choker,"
+      }
+    },
+    "detective_office_awakening_008": {
+      "text": {
+        "reference": "サニエスのスーツ、{n}こうまのゆびわ、{n}シェラガモブーツ、を手に入れた。",
+        "translation": "Saniesu Suit, Coma Rings, and Sierra Duck Boots."
+      }
+    },
+    "detective_office_awakening_009": {
+      "text": {
+        "reference": "＞事務所の奥に、隠し部屋があった。",
+        "translation": "> The office has a hidden room."
+      }
+    },
+    "detective_office_awakening_010": {
+      "text": {
+        "reference": "ランドールナイフ、{n}デザートイーグル、{n}つうじょうだん、",
+        "translation": "Acquired Randall Knife, Desert Eagle, Normal Rounds,"
+      }
+    },
+    "detective_office_awakening_011": {
+      "text": {
+        "reference": "S’Aチェーン、{n}ガルチェのスーツ、{n}しょうきがいりん、",
+        "translation": "S'A Chain, Garuche Suit, Shoukigairin,"
+      }
+    },
+    "detective_office_awakening_012": {
+      "text": {
+        "reference": "サイドゴアブーツ、を手に入れた。",
+        "translation": "and Side-Gore Boots."
+      }
+    },
+    "detective_office_awakening_013": {
+      "text": {
+        "reference": "さらに、{yen_symbol}10000．手に入れた。",
+        "translation": "Also received {yen_symbol}10,000."
+      }
+    },
+    "detective_office_awakening_014": {
+      "text": {
+        "reference": "現在、システムメンテナンスのため、{n}アクセスできません。",
+        "translation": "We are currently undergoing maintenance.{n}Network access is unavailable at this time."
+      }
+    },
+    "detective_office_awakening_015": {
+      "text": {
+        "reference": "＞まだ、セーブできません。",
+        "translation": "> You can't save yet."
+      }
+    },
+    "detective_office_awakening_016": {
+      "text": {
+        "reference": "行動の記録",
+        "translation": "Record Progress"
+      }
+    },
+    "detective_office_awakening_017": {
+      "text": {
+        "reference": "NETアクセス",
+        "translation": "Access DDS-NET"
+      }
+    },
+    "detective_office_awakening_018": {
+      "text": {
+        "reference": "外に出かける",
+        "translation": "Go Outside"
+      }
+    },
+    "detective_office_casework_000": {
+      "text": {
+        "reference": "若い女：何か用？{n}今、探偵の葛葉は、留守なの。",
+        "translation": "Young Woman: Do you need something?{n}Kuzunoha's not in right now."
+      }
+    },
+    "detective_office_casework_001": {
+      "text": {
+        "reference": "レイ：何か用？",
+        "translation": "Rei: Need something?"
+      }
+    },
+    "detective_office_casework_002": {
+      "text": {
+        "reference": "……おや、きみは、矢東ビルにいた……。{n}葛葉は、いま留守なの。",
+        "translation": "...Ah, you were the one at the Yatou Building.{n}Kuzunoha isn't in right now."
+      }
+    },
+    "detective_office_casework_003": {
+      "text": {
+        "reference": "レイの声：キョウジ、いる？",
+        "translation": "Rei's Voice: Kyouji, is that you?"
+      }
+    },
+    "detective_office_casework_004": {
+      "text": {
+        "reference": "レイ：悪魔退治、1件かたづけたんだって？{n}さっそく、あのババァにこき使われてるのね",
+        "translation": "Rei: I hear you finished a demon-hunting job.{n}That old hag has already put you to work."
+      }
+    },
+    "detective_office_casework_005": {
+      "text": {
+        "reference": "まったく、人使いのあらいババァだわ。{n}具合はどう？身体は休まった？",
+        "translation": "She really is quite the slave driver.{n}So how are you feeling? Did you get some time to rest?"
+      }
+    },
+    "detective_office_casework_006": {
+      "text": {
+        "reference": "そういえば、あんた矢東ビルの事件を{n}かたづけてから、北山大学の吾妻教授と{n}会うことになってたわよね。",
+        "translation": "Come to think of it, after the Yatou Building incident,{n}you were meant to meet Professor{n}Azuma at Kitayama University."
+      }
+    },
+    "detective_office_casework_007": {
+      "text": {
+        "reference": "確か、教授のボディガードを{n}するんじゃなかったっけ？",
+        "translation": "Weren't you supposed to be working as his bodyguard?"
+      }
+    },
+    "detective_office_casework_008": {
+      "placeholders": {
+        "ward": "location_name"
+      },
+      "text": {
+        "reference": "教授の家は、{ward}区だったわよね。{n}あたしも、つきあうよ。",
+        "translation": "His house is in {ward},{n}so if you're going, I'll come with you."
+      }
+    },
+    "detective_office_casework_009": {
+      "text": {
+        "reference": "それに、あんたまだ具合良くなさそうだし。{n}誰かが、ついてたほうがいいわ。",
+        "translation": "Besides, you still don't look fully recovered.{n}Someone ought to stay with you."
+      }
+    },
+    "detective_office_casework_010": {
+      "text": {
+        "reference": "……あと、これは大きなお世話かも{n}知れないけど、今度のヤマはちょっと{n}ヤバいんじゃない？",
+        "translation": "...This may be none of my business,{n}but doesn't this next case sound{n}pretty dangerous?"
+      }
+    },
+    "detective_office_casework_011": {
+      "text": {
+        "reference": "あたしも、魔法使えたほうがいいかもね。{n}だから、「神降ろし」をしておこうか？",
+        "translation": "I may need magic of my own too.{n}How about I perform a \"Divine Descent\" first?"
+      }
+    },
+    "detective_office_casework_012": {
+      "text": {
+        "reference": "笠置山の例の場所……そう、大学の北側の{n}山の中で、すぐに儀式を済ませるわよ。",
+        "translation": "At that place on Mount Kasagi, in the mountains{n}north of the university. The ritual won't take long."
+      }
+    },
+    "detective_office_casework_013": {
+      "text": {
+        "reference": "レイの声：戻ってたわね。",
+        "translation": "Rei's Voice: So, you're back."
+      }
+    },
+    "detective_office_casework_014": {
+      "text": {
+        "reference": "レイ：あたしのほうは、空振りよ。{n}チンピラのタカシを追ったんだけど、{n}見失ったわ。",
+        "translation": "Rei: My search came up empty.{n}I went after that punk Takashi,{n}but I lost him."
+      }
+    },
+    "detective_office_casework_015": {
+      "text": {
+        "reference": "とても、普通の人間とは思えないほど{n}すばしっこかったのよ。{n}まるで、何かに取りつかれたような……。",
+        "translation": "He was far too quick to be an ordinary human.{n}It was as though something had{n}possessed him..."
+      }
+    },
+    "detective_office_casework_016": {
+      "text": {
+        "reference": "あの動きなら、パートナーにすれば、{n}正体不明の今のあんたより、頼もしいかも{n}しれないわね。",
+        "translation": "With moves like that, he'd make a more reliable{n}partner than you, since we still don't know{n}who you really are."
+      }
+    },
+    "detective_office_casework_017": {
+      "text": {
+        "reference": "……ところで、最近になって急に{n}悪魔の出現が増えだしてるわよね。",
+        "translation": "...Besides, demons have suddenly started{n}appearing more often lately."
+      }
+    },
+    "detective_office_casework_018": {
+      "text": {
+        "reference": "どうやら、吾妻教授の言ってた封印に{n}関係がありそうなのよ。",
+        "translation": "It looks like this may be connected{n}to the seals Professor Azuma mentioned."
+      }
+    },
+    "detective_office_casework_019": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "この{city}に、封印がほどこされているって{n}吾妻教授が言ってたけど、封印はいくつも{n}あるらしいのよ。",
+        "translation": "Professor Azuma said seals had been placed{n}throughout {city}, and apparently{n}there are several of them."
+      }
+    },
+    "detective_office_casework_020": {
+      "text": {
+        "reference": "その封印に関係するらしい場所が、{n}市の再開発計画や地上げで、次々に壊されて{n}いるのよ。",
+        "translation": "Places tied to those seals are being destroyed{n}one after another by the city's redevelopment{n}and land sharking."
+      }
+    },
+    "detective_office_casework_021": {
+      "text": {
+        "reference": "たとえば、笠置山の南東にあった祠が、{n}取り壊されてるんだけど、いつまでも更地の{n}ままになっているのよ。",
+        "translation": "For example, a small shrine southeast of Mount{n}Kasagi was demolished, but the land has remained{n}vacant ever since."
+      }
+    },
+    "detective_office_casework_022": {
+      "text": {
+        "reference": "不景気で、マンションを建てる計画が中止に{n}なったって話なんだけど、どうも怪しいね。{n}単なる偶然じゃないような気がする。",
+        "translation": "They say the apartment project was canceled{n}because of the recession, but it stinks.{n}I don't think it's a coincidence."
+      }
+    },
+    "detective_office_casework_023": {
+      "text": {
+        "reference": "今度の一連の事件は、封印をめぐって関係{n}あるような気がするわ。",
+        "translation": "I think this entire series of incidents{n}is connected to the seals."
+      }
+    },
+    "detective_office_casework_024": {
+      "text": {
+        "reference": "こんな時に、あんたが本物のキョウジ、{n}デビルサマナーとして信頼できるかどうか{n}疑わしいのは、不安よね。",
+        "translation": "At a time like this, it's unsettling not knowing{n}if I can trust you to fill the real Kyouji's shoes{n}as a Devil Summoner."
+      }
+    },
+    "detective_office_casework_025": {
+      "text": {
+        "reference": "まあ今のところ、封印に関係する場所を{n}回ったり、情報を集めたりして様子を見る{n}しかないようね。",
+        "translation": "For now, all we can do is visit places tied to{n}the seals, gather information, and see{n}what happens."
+      }
+    },
+    "detective_office_casework_026": {
+      "text": {
+        "reference": "レイ：博物館が怪しいわね。{n}あたしも少し気になることがあるのよ。{n}行ってみよう、博物館へ。",
+        "translation": "Rei: The City Museum looks suspicious.{n}There's something about it that's bothering me too.{n}Let's go check it out."
+      }
+    },
+    "detective_office_casework_027": {
+      "text": {
+        "reference": "レイ：博物館は、閉まってたけど、{n}中から妖しい気が、あふれていたようだわ。",
+        "translation": "Rei: The museum was closed,{n}but an ominous aura seemed to be spilling{n}out from inside."
+      }
+    },
+    "detective_office_casework_028": {
+      "text": {
+        "reference": "レイ：市立博物館に、東亜テレビ、{n}どっちもほっとけないわね。",
+        "translation": "Rei: The City Museum and Toa TV...{n}We can't ignore either one.",
+        "note": "Hybrid-priority reminder used while the City Museum and Toa TV leads are both active."
+      }
+    },
+    "detective_office_casework_029": {
+      "text": {
+        "reference": "レイ：キョウジ、封印について気づいたこと{n}があるの。あたしの話を聞いて。",
+        "translation": "Rei: Kyouji, I've realized something{n}about the seals. Listen to me."
+      }
+    },
+    "detective_office_casework_030": {
+      "text": {
+        "reference": "封印の、位置関係の秘密が分かったのよ。",
+        "translation": "I've figured out the secret of their positions."
+      }
+    },
+    "detective_office_casework_031": {
+      "text": {
+        "reference": "レイ：5番目の封印の場所、雲雀ヶ丘へ{n}行きましょう。",
+        "translation": "Rei: Let's go to Hibarigaoka,{n}the site of the fifth seal."
+      }
+    },
+    "detective_office_casework_032": {
+      "text": {
+        "reference": "レイ：また、封印の魔法陣の説明をするの？",
+        "translation": "Rei: You want me to explain the seals' magic circle again?"
+      }
+    },
+    "detective_office_casework_033": {
+      "text": {
+        "reference": "久美子の父：……私立探偵の葛葉さんは、{n}いらっしゃいますか？",
+        "translation": "Kumiko's Father: Is the private detective{n}Mr. Kuzunoha here?"
+      }
+    },
+    "detective_office_casework_034": {
+      "text": {
+        "reference": "私、秦野ともうします。娘を、娘をさがして{n}助けてください！お願いします！",
+        "translation": "My name is Hatano. Find my daughter--{n}please save her! I beg you!"
+      }
+    },
+    "detective_office_casework_035": {
+      "text": {
+        "reference": "うちの娘、久美子がさらわれたのです。{n}いつぞやの騒ぎの時、私の家の前にいた、{n}あなたしか頼るあてがないのです。",
+        "translation": "My daughter Kumiko has been kidnapped.{n}You were outside our house during that earlier incident.{n}You're the only person I can turn to."
+      }
+    },
+    "detective_office_casework_036": {
+      "text": {
+        "reference": "久美子は、シド・デイビスと名乗る男に{n}さらわれてしまいました。",
+        "translation": "Kumiko was abducted{n}by a man calling himself Sid Davis."
+      }
+    },
+    "detective_office_casework_037": {
+      "text": {
+        "reference": "お願いします！娘を助けてください！",
+        "translation": "Please! Save my daughter!"
+      }
+    },
+    "detective_office_casework_038": {
+      "text": {
+        "reference": "久美子の母：私からもお願いします。{n}警察に言っても、なぜかまったく取り合って{n}くれないのです。",
+        "translation": "Kumiko's Mother: I beg you too.{n}For some reason, the police won't listen to us{n}at all."
+      }
+    },
+    "detective_office_casework_039": {
+      "text": {
+        "reference": "お願いします。娘を助けてください。{n}お礼は、いくらでもしますから。",
+        "translation": "Please save our daughter.{n}We'll pay you anything."
+      }
+    },
+    "detective_office_casework_040": {
+      "text": {
+        "reference": "＞久美子を助けることを引き受けますか？",
+        "translation": "> Agree to rescue Kumiko?"
+      }
+    },
+    "detective_office_casework_041": {
+      "text": {
+        "reference": "久美子の母：ありがとうございます。{n}娘を助けてください、お願いします。",
+        "translation": "Kumiko's Mother: Thank you.{n}Please, save our daughter."
+      }
+    },
+    "detective_office_casework_042": {
+      "text": {
+        "reference": "久美子の父：引き受けてくれて、{n}ありがとうごさいます、葛葉さん。",
+        "translation": "Kumiko's Father: Thank you for accepting,{n}Mr. Kuzunoha."
+      }
+    },
+    "detective_office_casework_043": {
+      "text": {
+        "reference": "娘を中央区で見かけたという話を、{n}聞いたのですが……。",
+        "translation": "I heard that someone saw my daughter{n}in Central Ward..."
+      }
+    },
+    "detective_office_casework_044": {
+      "text": {
+        "reference": "久美子の母：ああ、引き受けてくださらない{n}のですか……どうしたらいいんでしょう。",
+        "translation": "Kumiko's Mother: Oh, you won't help us?{n}What are we going to do...?"
+      }
+    },
+    "detective_office_casework_045": {
+      "text": {
+        "reference": "久美子の父：仕方がない、私が自分で探そう{n}それしかない……。",
+        "translation": "Kumiko's Father: Then I'll search for her myself.{n}There's no other choice..."
+      }
+    },
+    "detective_office_casework_046": {
+      "text": {
+        "reference": "久美子の父：葛葉さん、お願いします。",
+        "translation": "Kumiko's Father: Mr. Kuzunoha, please."
+      }
+    },
+    "detective_office_casework_047": {
+      "text": {
+        "reference": "娘を、久美子を助けてください。{n}もう、あなたしか頼る人がいないんです。",
+        "translation": "Save my daughter--save Kumiko.{n}You're the only person we can rely on now."
+      }
+    },
+    "detective_office_casework_048": {
+      "text": {
+        "reference": "お願いします……。",
+        "translation": "Please..."
+      }
+    },
+    "detective_office_casework_049": {
+      "text": {
+        "reference": "久美子の父：ありがとうございます。{n}シド・デイビスらしい男を、中央区で{n}見かけたという話は聞いたのですが……。",
+        "translation": "Kumiko's Father: Thank you.{n}I heard a man resembling Sid Davis{n}was seen in Central Ward..."
+      }
+    },
+    "detective_office_casework_050": {
+      "text": {
+        "reference": "久美子の父：そうですか、これほど頼んでも{n}引き受けてくれませんか……。",
+        "translation": "Kumiko's Father: I see. Even after all our pleading,{n}you still won't help us..."
+      }
+    },
+    "detective_office_casework_051": {
+      "text": {
+        "reference": "＞タカシの言うとおり、奥の隠し部屋に{n}入ってみますか？",
+        "translation": "> Enter the hidden room in back,{n}as Takashi suggested?"
+      }
+    },
+    "detective_office_casework_052": {
+      "text": {
+        "reference": "シャッフラーの書があった。",
+        "translation": "Found the Shuffler Tome."
+      }
+    },
+    "detective_office_casework_053": {
+      "text": {
+        "reference": "レイは、シャッフラーの魔法が使えるように{n}なった。",
+        "translation": "Rei learned the Shuffler spell."
+      }
+    },
+    "detective_office_casework_054": {
+      "text": {
+        "reference": "レイ：そういえば、キョウジは、{n}この魔法をよく使ってたわね。",
+        "translation": "Rei: Come to think of it, Kyouji used this spell{n}all the time."
+      }
+    }
+  }
+}
