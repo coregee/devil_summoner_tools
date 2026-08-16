@@ -433,9 +433,14 @@ their wording is editable, but they remain recorded consumer-binding debt.
     templates from editable assets on top of the checked equipment NORMCOM
     intermediate. All executable changes are readable assembly, and the final
     binary matches the mature Saturn output exactly.
-13. Continue with the bounded Options surface in `CFG_SET.BIN`; do not
-    introduce one global repack or engine capability graph before another
-    consumer needs shared machinery.
+13. **Complete for `options.ui`:** derive the expanded labels, popup compounds,
+    controller-action atlas, and footer packing from all 38 live editable
+    fields. The zero-length `CONFIG` table row is retained as dormant data; the
+    visible serif heading is graphical. The readable engine stage matches the
+    mature `CFG_SET.BIN` output exactly.
+14. Continue with the bounded MAZE field-message and dungeon-location consumer
+    family; do not introduce one global repack or engine capability graph
+    before another consumer needs shared machinery.
 
 Extraction verifies source files, decodes every record readably, preserves
 unknown glyph and control identity after declared zero normalization, and

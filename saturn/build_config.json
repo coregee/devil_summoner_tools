@@ -232,12 +232,28 @@
       "check_arguments": ["status.ui", "--check"]
     },
     {
+      "id": "build_options_engine",
+      "description": "Build the complete CFG_SET Options interface from editable assets.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["options.ui"],
+      "check_arguments": ["options.ui", "--check"]
+    },
+    {
       "id": "install_event_normcom_engine",
       "description": "Install EVENT through equipment and NORMCOM through detailed status.",
       "type": "copy",
       "files": [
         {"source": "engine/generated/game/EVENT.BIN", "destination": "rom/extracted/game/EVENT.BIN"},
         {"source": "engine/generated/game/NORMCOM.BIN", "destination": "rom/extracted/game/NORMCOM.BIN"}
+      ]
+    },
+    {
+      "id": "install_options_engine",
+      "description": "Install the generated CFG_SET Options runtime and data.",
+      "type": "copy",
+      "files": [
+        {"source": "engine/generated/game/CFG_SET.BIN", "destination": "rom/extracted/game/CFG_SET.BIN"}
       ]
     },
     {
@@ -280,7 +296,9 @@
         "build_comp_engine",
         "build_equipment_engine",
         "build_status_engine",
+        "build_options_engine",
         "install_event_normcom_engine",
+        "install_options_engine",
         "repack_visuals",
         "build_discs"
       ],

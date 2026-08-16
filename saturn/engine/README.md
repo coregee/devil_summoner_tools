@@ -233,4 +233,36 @@ python saturn/engine/build.py status.ui --check
 python saturn/build.py default
 ```
 
-The next bounded runtime surface is the Options menu in `CFG_SET.BIN`.
+## Options
+
+`options.ui` builds the complete two-page Options interface as a standalone
+`CFG_SET.BIN` stage. All 38 live text fields come from `ui/options.json`.
+Retail also contains a dormant `CONFIG` row whose paired draw length is zero;
+the stage preserves it for exact mature-byte parity, while the visible serif
+heading is graphical. Controller button faces and the SEGA mark likewise
+remain image glyphs rather than runtime prose.
+
+`config/options_ui.json` owns 57 typed recipes: four assembly regions, 24
+generated-data regions, 17 readable instruction edits, and 12 linked pointers.
+The five assembly inputs under `asm/options_ui/` implement the label and action
+VWF paths, active-row redraw, and local compound-glyph renderer. Width tables,
+popup rows, action atlas, complete labels, and footer records are regenerated
+from the current assets and FONT16 build. The short compound cells are packing
+artifacts derived from full phrases; strings such as `Recovery` and
+`START: Assign` have no second hand-maintained rendering copy.
+
+The generated result is byte-identical to the trusted mature Saturn output at
+`6d25bab3b2137a3f5fea49d69bcf374a918f68fe5d26f170139f6a76c5fce010`.
+The build separately checks the unchanged retail magic-sort order and reserves
+the global input-end glyph while allocating local compound cells.
+
+Run:
+
+```powershell
+python saturn/engine/build.py options.ui
+python saturn/engine/build.py options.ui --check
+python saturn/build.py default
+```
+
+The next bounded runtime tranche is the MAZE field-message and dungeon-location
+consumer family.

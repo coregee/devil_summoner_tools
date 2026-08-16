@@ -27,6 +27,24 @@ class Sh2AssemblerTests(unittest.TestCase):
         self.assertEqual(result.data, bytes.fromhex("d001402b00090000060209bc"))
         self.assertEqual(result.warnings, ())
 
+    def test_mova_resolves_an_aligned_label_from_aligned_pc_plus_four(self) -> None:
+        result = assemble(
+            "nop\nmova table, r0\nnop\n.align 4\ntable:\n.long 0",
+            0x06020000,
+        )
+        self.assertEqual(result.data, bytes.fromhex("0009c7010009000000000000"))
+        self.assertEqual(result.warnings, ())
+
+    def test_mova_rejects_invalid_destination_alignment_and_range(self) -> None:
+        with self.assertRaisesRegex(AssemblyError, "invalid operands"):
+            assemble("mova TARGET, r1", 0x06020000, {"TARGET": 0x06020004})
+        with self.assertRaisesRegex(AssemblyError, "invalid displacement"):
+            assemble("mova TARGET, r0", 0x06020000, {"TARGET": 0x06020006})
+        with self.assertRaisesRegex(AssemblyError, "invalid displacement"):
+            assemble("mova TARGET, r0", 0x06020000, {"TARGET": 0x06020000})
+        with self.assertRaisesRegex(AssemblyError, "invalid displacement"):
+            assemble("mova TARGET, r0", 0x06020000, {"TARGET": 0x06020404})
+
     def test_unknown_syntax_fails_closed(self) -> None:
         with self.assertRaisesRegex(AssemblyError, "unknown or unsupported"):
             assemble("frob r1, r2", 0x06020000)

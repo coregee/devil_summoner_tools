@@ -315,6 +315,14 @@ def _encode(
             invalid()
         return _ZERO[mnemonic]
 
+    if mnemonic == "mova":
+        if kinds != ("expression", "register") or operands[1] != ("register", 0):
+            invalid()
+        target = _evaluate(str(operands[0][1]), symbols, context)
+        pc = (address + 4) & ~3
+        displacement = _displacement(target - pc, 4, 255, context)
+        return 0xC700 | displacement
+
     if mnemonic in ("mov", "mov.b", "mov.w", "mov.l"):
         if len(operands) != 2:
             invalid()

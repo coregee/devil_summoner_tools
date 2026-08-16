@@ -349,12 +349,15 @@ are not second translation sources.
 
 The Options slice groups the two-page Saturn menu into settings, reusable value
 domains, ordering-popup categories, controller actions, and state-dependent
-footer prompts in `ui/options.json`. All 38 `CFG_SET.BIN` records have one
-explicit binding and retain the mature Saturn English. Renderer-only pieces
+footer prompts in `ui/options.json`. All 38 live `CFG_SET.BIN` text records have
+one explicit binding and retain the mature Saturn English. The visible serif
+`CONFIG` heading is graphical; a zero-length dormant table row with those codes
+is preserved for binary parity but is not presented as editable runtime text.
+Renderer-only pieces
 such as `AR`, `ign`, and the old ordering-popup compound syllables are not
-authored fields; a future repacker must derive any packed glyphs from the
-complete editable words. The identical PSP Auto Map and speed values can reuse
-these fields, while its revised battle-message source is an explicit reference
+authored fields; `options.ui` derives every packed glyph from the complete
+editable words. The identical PSP Auto Map and speed values can reuse these
+fields, while its revised battle-message source is an explicit reference
 variant rather than a copied translation.
 
 The battle slice gives the remaining 82 visible small-font console records,

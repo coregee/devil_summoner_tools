@@ -1,0 +1,102 @@
+{
+  "version": 2,
+  "surface": "options.ui",
+  "targets": {
+    "CFG_SET.BIN": {
+      "load_address": "0x06020000",
+      "size": 273560,
+      "stock_sha256": "9a07600dd73031c3e95ece81e1d7dc108b4fce35bcea565402006bb9d6cad0da"
+    }
+  },
+  "inputs": {
+    "font16_sha256": "89272c66b96536658c271e061ff8c15198a1bbc4c01c4e17f23575897dca0acc",
+    "font16_metrics_sha256": "3ce6e6c916da3f4bc3c7a702c9ae07f84519185a45e2f733c13726cab6532fa3"
+  },
+  "groups": [
+    {
+      "capability": "options_runtime",
+      "target": "CFG_SET.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {"name": "expanded_label_table", "address": "0x06020400", "expected_zero_bytes": 608, "generated": "options_data"},
+        {"name": "active_row_runtime", "address": "0x06020700", "expected_zero_bytes": 232, "assembly": ["options_ui/active_row_renderer.s", "options_ui/active_row_noop.s"]},
+        {"name": "active_row_cache", "address": "0x06020900", "expected_zero_bytes": 4, "generated": "options_data"},
+        {"name": "magic_sort_table", "address": "0x06020904", "expected_zero_bytes": 128, "generated": "options_data"},
+        {"name": "item_sort_table", "address": "0x06020984", "expected_zero_bytes": 96, "generated": "options_data"},
+        {"name": "action_vwf_runtime", "address": "0x06020a00", "expected_zero_bytes": 60, "assembly": ["options_ui/action_vwf.s"]},
+        {"name": "action_widths", "address": "0x06020a3c", "expected_zero_bytes": 64, "generated": "options_data"},
+        {"name": "action_atlas", "address": "0x06021000", "expected_zero_bytes": 2080, "generated": "options_data"},
+        {"name": "glyph_vwf_runtime", "address": "0x06021900", "expected_zero_bytes": 128, "assembly": ["options_ui/glyph_vwf.s"]},
+        {"name": "font16_widths", "address": "0x06021980", "expected_zero_bytes": 268, "generated": "options_data"},
+        {"name": "action_widths_mirror", "address": "0x06021a8c", "expected_zero_bytes": 64, "generated": "options_data"},
+        {"name": "compound_widths", "address": "0x06021acc", "expected_zero_bytes": 24, "generated": "options_data"},
+        {"name": "compound_glyph_runtime", "address": "0x06022000", "expected_zero_bytes": 196, "assembly": ["options_ui/compound_glyph.s"]},
+        {"name": "compound_bitmaps", "address": "0x060220c4", "expected_zero_bytes": 736, "generated": "options_data"},
+        {"name": "row_renderer_pointer", "address": "0x06027400", "expected": "06026bec", "linked_pointer": "active_row_renderer"},
+        {"name": "active_renderer_pointer", "address": "0x06027624", "expected": "06026cd4", "linked_pointer": "active_row_noop"},
+        {"name": "glyph_vwf_pointer", "address": "0x06027ed4", "expected": "06027b64", "linked_pointer": "glyph_vwf"},
+        {"name": "glyph_vwf_advance", "address": "0x06027eb0", "expected": "7110", "instruction": "add r0,r1"},
+        {"name": "action_vwf_pointer", "address": "0x06027f38", "expected": "06027c20", "linked_pointer": "action_vwf"},
+        {"name": "action_vwf_advance", "address": "0x06027f14", "expected": "710c", "instruction": "add r0,r1"}
+      ]
+    },
+    {
+      "capability": "options_labels",
+      "target": "CFG_SET.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {"name": "label_stride_06026c58", "address": "0x06026c58", "expected": "e110", "instruction": "mov #0x20,r1"},
+        {"name": "label_stride_06026d0a", "address": "0x06026d0a", "expected": "e110", "instruction": "mov #0x20,r1"},
+        {"name": "label_stride_06026d7e", "address": "0x06026d7e", "expected": "e110", "instruction": "mov #0x20,r1"},
+        {"name": "label_stride_060276b2", "address": "0x060276b2", "expected": "e110", "instruction": "mov #0x20,r1"},
+        {"name": "label_table_pointer_06026cc8", "address": "0x06026cc8", "expected": "06029e2a", "linked_pointer": "label_table"},
+        {"name": "label_table_pointer_06026d40", "address": "0x06026d40", "expected": "06029e2a", "linked_pointer": "label_table"},
+        {"name": "label_table_pointer_06026db4", "address": "0x06026db4", "expected": "06029e2a", "linked_pointer": "label_table"},
+        {"name": "label_table_pointer_060277cc", "address": "0x060277cc", "expected": "06029e2a", "linked_pointer": "label_table"},
+        {"name": "item_sort_label_pointer", "address": "0x06027504", "expected": "06029e9a", "linked_pointer": "item_sort_label"},
+        {"name": "label_lengths", "address": "0x06029e04", "expected_sha256": "303a98383a718280b8c98494c4e100f773498d0a2c5def442427de0be760ce41", "expected_size": 36, "generated": "options_data"},
+        {"name": "controls", "address": "0x06029f6a", "expected_sha256": "206ea265be6c3c3e58d51a49005fe398fc6003fe1678acc936e9f5ecfbbde905", "expected_size": 18, "generated": "options_data"},
+        {"name": "mode_normal", "address": "0x06029f7c", "expected_sha256": "57eb63168297b2b6ff742c6e0cfdfae7736b006babc539f894ad1414334ac023", "expected_size": 18, "generated": "options_data"},
+        {"name": "mode_custom", "address": "0x06029f8e", "expected_sha256": "ecafe3f7b6ee87efb20283bc59ecbf61a51e04c2be7066b27ba7c456317d6be2", "expected_size": 12, "generated": "options_data"}
+      ]
+    },
+    {
+      "capability": "options_ordering_popup",
+      "target": "CFG_SET.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {"name": "magic_sort_geometry", "address": "0x060269f8", "expected": "e10a", "instruction": "mov #0x20,r1"},
+        {"name": "item_sort_geometry", "address": "0x06026a7e", "expected": "e10a", "instruction": "mov #0x20,r1"},
+        {"name": "magic_sort_pointer", "address": "0x06026a3c", "expected": "06029fa0", "linked_pointer": "magic_sort_table"},
+        {"name": "item_sort_pointer", "address": "0x06026ac4", "expected": "06029fc8", "linked_pointer": "item_sort_table"},
+        {"name": "mode_count_06028a08", "address": "0x06028a08", "expected": "e504", "instruction": "mov #6,r5"},
+        {"name": "mode_count_06028a2a", "address": "0x06028a2a", "expected": "e504", "instruction": "mov #6,r5"},
+        {"name": "mode_count_06028a44", "address": "0x06028a44", "expected": "e504", "instruction": "mov #6,r5"},
+        {"name": "mode_count_06028aa2", "address": "0x06028aa2", "expected": "e504", "instruction": "mov #6,r5"},
+        {"name": "mode_count_06028abc", "address": "0x06028abc", "expected": "e504", "instruction": "mov #6,r5"},
+        {"name": "mode_count_06028af2", "address": "0x06028af2", "expected": "e504", "instruction": "mov #6,r5"},
+        {"name": "mode_count_06028b0a", "address": "0x06028b0a", "expected": "e504", "instruction": "mov #6,r5"},
+        {"name": "mode_count_06028b58", "address": "0x06028b58", "expected": "e504", "instruction": "mov #6,r5"},
+        {"name": "mode_count_06028b74", "address": "0x06028b74", "expected": "e504", "instruction": "mov #6,r5"}
+      ]
+    },
+    {
+      "capability": "options_controller",
+      "target": "CFG_SET.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {"name": "action_atlas_pointer", "address": "0x06027cc8", "expected": "0602a048", "linked_pointer": "action_atlas"},
+        {"name": "action_full_cancel", "address": "0x06062b46", "expected_sha256": "ed110d6339248935df2c917e022fe32590a8e30e56182f05e1accc613a45fe6e", "expected_size": 16, "generated": "options_data"},
+        {"name": "action_cancel", "address": "0x06062b56", "expected_sha256": "cbefe770977a98d27fabedec1a4ea336298c4fd64f9ee8b37c34df35bd6cf5ee", "expected_size": 16, "generated": "options_data"},
+        {"name": "action_confirm", "address": "0x06062b66", "expected_sha256": "1d42c7d0d300c5f0016ec8ee7c02ac6d8d85b6619b9ea3cdf28f3dcbc4c2f1f0", "expected_size": 16, "generated": "options_data"},
+        {"name": "action_help", "address": "0x06062b76", "expected_sha256": "d27241f6d2924e7d19768017c3b98b05a84d155cc624225871a5bce8b57ee89c", "expected_size": 16, "generated": "options_data"},
+        {"name": "action_recover", "address": "0x06062b86", "expected_sha256": "80abef455f17653b4f95bc835c9cd7512120a6456fc95422c3ef9b69887979b1", "expected_size": 16, "generated": "options_data"},
+        {"name": "action_command", "address": "0x06062b96", "expected_sha256": "ba4f0e2c84245dc6c9253121398e66ec24f04ac5dbe5bc4780e2ad354704e47b", "expected_size": 16, "generated": "options_data"},
+        {"name": "action_auto_map", "address": "0x06062ba6", "expected_sha256": "3c8c77efe790ec2aabfe496c4098fe73f702aa11c25600d41149c706bf60211f", "expected_size": 16, "generated": "options_data"},
+        {"name": "action_analyze", "address": "0x06062bb6", "expected_sha256": "0ab073a8b6b837fe743b4a8f93545a5cc83f56111395a493e615d06c21f78645", "expected_size": 16, "generated": "options_data"},
+        {"name": "footer_assign", "address": "0x06062bd6", "expected_sha256": "e60fbfad7e1023b4b905e3883bbc6910646e1ecbbb1682adee570f98c2aa3c77", "expected_size": 18, "generated": "options_data"},
+        {"name": "footer_finish", "address": "0x06062be8", "expected_sha256": "5da8a269ef6278fd714d1d78ba04e112193507542e7b32c171d12b18c93e7779", "expected_size": 18, "generated": "options_data"}
+      ]
+    }
+  ]
+}

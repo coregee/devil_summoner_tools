@@ -64,16 +64,20 @@ The user can then navigate up/down the list of texts, swap them with the A/B but
 
 These binding texts appear to use FONT12. Examples include ラージキャンセル, 決定, ヘルプ表示.
 
-All 38 retail text records for these two pages are represented by
-`assets/text/ui/options.json` and bind explicitly to `CFG_SET.BIN`. The menu is
-split into five text surfaces: primary labels, setting values, the four-row
-ordering popup, controller actions, and the two footer states. Japanese labels
-retain their nine-cell limit, values four cells, popup rows five cells,
-controller actions eight cells, and footers nine cells. The mature English
-renderer proves 80-pixel popup rows, 128-pixel controller actions, and
-144-pixel footers; translated primary-label and value limits remain unmeasured.
-Any packed or compound glyphs used to meet these limits are generated from the
-complete authored words and are not separately maintained text.
+All 38 live text records for these two pages are represented by
+`assets/text/ui/options.json` and bind explicitly to `CFG_SET.BIN`. The visible
+serif `CONFIG` heading is graphical. A stock table row also contains those
+codes, but its paired length is zero and every known draw path skips it, so it
+is preserved as dormant binary data rather than misrepresented as editable
+runtime text. The menu is split into five text surfaces: primary labels,
+setting values, the four-row ordering popup, controller actions, and the two
+footer states. Japanese labels retain their nine-cell limit, values four cells,
+popup rows five cells, controller actions eight cells, and footers nine cells.
+The mature English renderer proves 80-pixel popup rows, 128-pixel controller
+actions, and 144-pixel footers; translated primary-label and value limits remain
+unmeasured. Any packed or compound glyphs used to meet these limits are
+generated from the complete authored words and are not separately maintained
+text.
 
 ### Save/Load Screens
 
