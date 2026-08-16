@@ -81,6 +81,9 @@ console surface. Complete field messages such as `Obtained {item}.` remain with
 the field-message surface even when the original binary stores only a suffix.
 If one physical suffix is consumed by several runtime paths, the binding lists
 every semantic use; it does not force those messages into one authored string.
+The MAZE talk choices live beside that prompt in `field/messages.json`;
+AUTOMAP reuses those same Yes/No fields, while its distinct `(No data)` and
+`Delete?` wording lives in `field/automap.json`.
 
 Each text field keeps the readable `reference` beside its editable
 `translation`. Optional state is omitted when it carries no information:
@@ -270,9 +273,10 @@ their condition reactions; Saturn fans them across 10,009 explicitly bound
 physical occurrences. PSP reuses the same authored fields rather than carrying
 duplicate translations. The location catalogue adds 24 shared dungeon places,
 seven save-screen-only places, three proven compact automap names, and editable
-3D-map, automap, and save/load composition templates. Its 144 dungeon rows and
-eight special SAVE rows bind explicitly to those places, while PSP can reuse
-the same names without copies or platform variants.
+3D-map, automap, and save/load composition templates. Its 144 canonical dungeon
+rows, 288 independently indexed ELV/KAI mirror uses, and eight special SAVE rows
+bind explicitly to those places, while PSP can reuse the same names without
+copies or platform variants.
 The race and affinity catalogues add all 43 game races, the bonus disc's 48
 physical race labels, all 96 detailed affinities, and all 66 compact Analyze
 slots. Fusion abbreviations and Analyze punctuation are authored data rather

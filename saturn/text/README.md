@@ -74,8 +74,10 @@ The generated corpus is binary evidence, not the translation editor. Assets
 are organised around entities and player-facing surfaces. Item and equipment
 names, descriptions, and console forms stay with their entities; MAZE suffixes
 become complete typed field-message templates. The location slice similarly
-reduces 144 physical records to 24 explicitly bound places, while retaining
-three separately editable automap forms and complete floor/location templates.
+reduces 144 canonical records plus 288 independently indexed ELV/KAI mirrors to
+24 explicitly bound places, while retaining three separately editable automap
+forms and complete floor/location templates. MAZE and AUTOMAP share the same
+authored Yes/No choices; `(No data)` and `Delete?` remain AUTOMAP-owned fields.
 Seven additional save-screen places and the shared Mount Kasagi identity cover
 the eight special SAVE labels without duplicating them as save prose. The mixed
 SHOPSMP bank is partitioned by consumer: facilities, demon joining, debug UI,
@@ -181,16 +183,18 @@ This split is physical, not editorial. Every demon still has one complete
 editable name in `assets/text/demons.json`; the repacker and runtime decide
 which storage path can display it without truncation.
 
-The game manifest covers 47 physical files and 59 source groups. Its four
+The game manifest covers 162 physical files and 60 source groups. Its four
 container types are EVE banks, pointer banks, fixed records with subfields, and
-explicit addressed spans. The generated corpus contains 15,765 records: 12,711
-text-bearing EVE pages and 3,054 other records. All 144 dungeon-location rows
+explicit addressed spans. The generated corpus contains 16,053 records: 12,711
+text-bearing EVE pages and 3,342 other records. All 144 dungeon-location rows
 remain distinct instead of collapsing to 24 repeated Japanese strings. Each
 row now verifies that its name bytes agree across the MAZE, AUTOMAP, SAVE, and
 LOAD tables; these four physical copies still produce one catalogue record.
-The additional landing and KAI map-data copies are output mirrors of the same
-semantic places, not new authored strings, and will target these assets when the
-engine repack is introduced.
+The additional 56 landing records across 17 ELV files and 232 records across
+all 98 KAI files are separate physical corpus entries. Exact offsets, complete
+source hashes, owned-region hashes, and the KAI file-catalogue digest fail
+closed; every record binds back to an existing semantic place rather than
+creating another translation.
 
 The consumer audit added four physically grounded source groups containing five
 record families that the earlier registry omitted: all 66 independently
@@ -326,8 +330,10 @@ count remains explicit `null` until measured. The negotiation choice field is
 10 Japanese cells or 150 translated pixels on one row. Location
 contracts now distinguish
 the two-row 64-pixel 3D name, its 64-pixel floor row, the 112-pixel automap text
-after the runtime-owned marker icon, and the 144-pixel save/load label. Other
-English limits remain unknown until their translated renderers are measured.
+after the runtime-owned marker icon, and the 144-pixel save/load label. MAZE
+talk choices retain one 48-pixel row, and the three-row AUTOMAP marker popup is
+limited to 64 pixels per row in English. Other English limits remain unknown
+until their translated renderers are measured.
 Facility contracts additionally distinguish the eight-cell bar and healer
 lists, two-row drink help, the shop's 16-pixel `Inv.` label, and known SAVE/LOAD
 row or raster geometry. Unmeasured facility widths remain explicit `null`s.
@@ -337,7 +343,9 @@ and ward fields. They also record the 13-cell English grid rows, 96-pixel tab
 bands, 128-pixel occupation columns, and 208-pixel confirmation value area.
 Character names have separate consumer contracts: the shared party-panel pool
 is limited to 80 pixels and the shop information field to 72 pixels, while
-unmeasured status and level-up widths remain explicit `null`s.
+the level-up character texture retains eight Japanese cells and the mature
+96-pixel English safe limit. The main LEVEL_UP title, remaining-point display,
+accept action, and confirmation choices use their proved fixed FONT8 slots.
 Status vocabulary has separate contracts for the 12-pixel compressed parameter
 nodes, 46-pixel derived and combat-stat rows, and 38-pixel Loyalty/personality
 rows. The stock Japanese labels retain their distinct one-to-four-cell limits;
@@ -354,6 +362,9 @@ unproved, so `status.numeric_readout` remains explicitly width-unknown. The
 Loyalty number likewise begins at x=72 after its independently rendered
 38-pixel label, but its final edge remains unknown; TYPE and its 38-pixel
 personality value are also retained as separate, non-fungible components.
+The separate Learned Magic texture is 144x32 with two FONT16 rows. Its heading
+uses five Japanese cells and a conservative 128-pixel English contract; the
+ability row uses eight Japanese cells or 128 English pixels.
 Options-menu contracts retain the nine-cell setting-label and four-cell value
 limits while leaving their translated widths unknown. The ordering popup has
 four 80-pixel translated rows, controller actions have one 128-pixel row, and
@@ -368,6 +379,13 @@ set, preserving the retail appearance of labels such as `GO`, `COMP`, `BUY`,
 and `EQUIP`. Other FONT8 consumers continue to use the normal narrow-English
 mapping. No inline token or capitalization heuristic chooses between the two
 faces.
+
+LEVEL_UP extraction is still deliberately incomplete. The physical corpus
+currently contains only the FONT16 heading `魔法を習得` at `0x8f2c`; the ten
+visible ASCII records `LV`, `HP`, `MP`, `EXP`, `NEXT`, `LEVEL UP`, `LEFT`,
+`YES`, `NO`, and `OK` remain explicit next-tranche coverage debt. The leading
+layout blanks used by `LEFT` and `NO` must not become authored text when those
+records are added.
 
 The physical catalogue includes the 16-entry battle action table at all three
 proved COMBAT, MAZE, and NORMCOM locations, the four item/skill actions, the

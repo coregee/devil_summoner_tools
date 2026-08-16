@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "asset": "field/messages.json",
+  "records": {
+    "game.automap_marker_ui.o00a5e0": "talk_choice_yes.text",
+    "game.automap_marker_ui.o00a5e4": "talk_choice_no.text"
+  },
+  "variants": {
+    "game.automap_marker_ui.o00a5e4": "automap"
+  },
+  "record_surfaces": {
+    "game.automap_marker_ui.o00a5e0": ["automap.marker_popup"],
+    "game.automap_marker_ui.o00a5e4": ["automap.marker_popup"]
+  }
+}

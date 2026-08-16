@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "marker_no_data": {
+      "text": {
+        "reference": "NO DATA",
+        "translation": "(No data)",
+        "reviewed": true
+      }
+    },
+    "marker_delete": {
+      "text": {
+        "reference": "マーカー削除",
+        "translation": "Delete?"
+      }
+    }
+  }
+}

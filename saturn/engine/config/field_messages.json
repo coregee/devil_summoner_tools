@@ -1,0 +1,82 @@
+{
+  "version": 2,
+  "surface": "field.messages",
+  "targets": {
+    "MAZE.BIN": {
+      "load_address": "0x06020000",
+      "size": 169264,
+      "stock_sha256": "38d8a919d2d17461fc2c2ee8b41093efc893fc72d4e7eb5db243fe84560cc229"
+    }
+  },
+  "inputs": {
+    "font16_sha256": "89272c66b96536658c271e061ff8c15198a1bbc4c01c4e17f23575897dca0acc",
+    "font16_metrics_sha256": "3ce6e6c916da3f4bc3c7a702c9ae07f84519185a45e2f733c13726cab6532fa3",
+    "font8_metrics_sha256": "63d60162de3c0cb25d6eaa315cfe704592753f41bb5b169329511c873441c587"
+  },
+  "groups": [
+    {
+      "capability": "field_message_runtime",
+      "target": "MAZE.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {"name": "message_compositor", "address": "0x06022c00", "expected_zero_bytes": 420, "assembly": ["field_messages/compositor.s"]},
+        {"name": "message_display", "address": "0x06022dc0", "expected_zero_bytes": 112, "assembly": ["field_messages/display.s"]},
+        {"name": "item_templates", "address": "0x06022e40", "expected_zero_bytes": 228, "assembly": ["field_messages/item_templates.s"]},
+        {"name": "item_token_map", "address": "0x06023020", "expected_zero_bytes": 512, "generated": "field_messages"},
+        {"name": "dynamic_templates", "address": "0x06023220", "expected_zero_bytes": 256, "generated": "field_messages"},
+        {"name": "message_mapping", "address": "0x06023320", "expected_zero_bytes": 96, "generated": "field_messages"},
+        {"name": "message_strings", "address": "0x06023380", "expected_zero_bytes": 672, "generated": "field_messages"},
+        {"name": "message_scratch", "address": "0x06023620", "expected_zero_bytes": 156, "generated": "field_messages"},
+        {"name": "choice_draw", "address": "0x060236c0", "expected_zero_bytes": 72, "assembly": ["field_messages/choice_draw.s"]},
+        {"name": "choice_bitmaps", "address": "0x06023720", "expected_zero_bytes": 192, "generated": "field_messages"},
+        {"name": "choice_row", "address": "0x060237e0", "expected_zero_bytes": 6, "generated": "field_messages"}
+      ]
+    },
+    {
+      "capability": "field_message_dispatch",
+      "target": "MAZE.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {"name": "choice_draw_pointer_060330f8", "address": "0x060330f8", "expected": "06040aac", "linked_pointer": "choice_draw"},
+        {"name": "choice_draw_pointer_0603c680", "address": "0x0603c680", "expected": "06040aac", "linked_pointer": "choice_draw"},
+        {"name": "choice_draw_pointer_0603c884", "address": "0x0603c884", "expected": "06040aac", "linked_pointer": "choice_draw"},
+        {"name": "choice_draw_pointer_0603c9a0", "address": "0x0603c9a0", "expected": "06040aac", "linked_pointer": "choice_draw"},
+        {"name": "choice_draw_pointer_06040d40", "address": "0x06040d40", "expected": "06040aac", "linked_pointer": "choice_draw"},
+        {"name": "choice_yes", "address": "0x060450d0", "expected": "0023000f001d", "generated": "field_messages"},
+        {"name": "choice_no", "address": "0x060450d6", "expected": "001800190000", "generated": "field_messages"},
+        {"name": "message_display_pointer_06032f90", "address": "0x06032f90", "expected": "06040bc4", "linked_pointer": "message_display"},
+        {"name": "message_display_pointer_06033510", "address": "0x06033510", "expected": "06040bc4", "linked_pointer": "message_display"},
+        {"name": "message_display_pointer_060342fc", "address": "0x060342fc", "expected": "06040bc4", "linked_pointer": "message_display"},
+        {"name": "message_display_pointer_060343cc", "address": "0x060343cc", "expected": "06040bc4", "linked_pointer": "message_display"},
+        {"name": "message_display_pointer_0603463c", "address": "0x0603463c", "expected": "06040bc4", "linked_pointer": "message_display"},
+        {"name": "message_display_pointer_0603479c", "address": "0x0603479c", "expected": "06040bc4", "linked_pointer": "message_display"},
+        {"name": "message_display_pointer_06034948", "address": "0x06034948", "expected": "06040bc4", "linked_pointer": "message_display"},
+        {"name": "message_display_pointer_06034aac", "address": "0x06034aac", "expected": "06040bc4", "linked_pointer": "message_display"},
+        {"name": "message_display_pointer_06034e48", "address": "0x06034e48", "expected": "06040bc4", "linked_pointer": "message_display"},
+        {"name": "message_display_pointer_06035968", "address": "0x06035968", "expected": "06040bc4", "linked_pointer": "message_display"},
+        {"name": "message_display_pointer_06035b28", "address": "0x06035b28", "expected": "06040bc4", "linked_pointer": "message_display"},
+        {"name": "message_display_pointer_0603c540", "address": "0x0603c540", "expected": "06040bc4", "linked_pointer": "message_display"},
+        {"name": "message_buffer_pointer_060342ec", "address": "0x060342ec", "expected": "060451c0", "linked_pointer": "message_buffer"},
+        {"name": "message_buffer_pointer_060343bc", "address": "0x060343bc", "expected": "060451c0", "linked_pointer": "message_buffer"},
+        {"name": "message_buffer_pointer_06034628", "address": "0x06034628", "expected": "060451c0", "linked_pointer": "message_buffer"},
+        {"name": "message_buffer_pointer_06034788", "address": "0x06034788", "expected": "060451c0", "linked_pointer": "message_buffer"},
+        {"name": "item_found_hook", "address": "0x060341c0", "expected_sha256": "003aa828878f9c5a59d4c0bab39ef83f7213333a6057c1376eec67c747241e31", "expected_size": 80, "assembly": ["field_messages/item_hook.s"]},
+        {"name": "item_obtained_hook", "address": "0x06034284", "expected_sha256": "fc5aeece7ed31e4575fda4532c17f609fbc54b915597391ad5ab094ccb18e542", "expected_size": 80, "assembly": ["field_messages/item_hook.s"]},
+        {"name": "item_full_hook", "address": "0x06034332", "expected_sha256": "2b2d2163ed0688080acf5e94501d273a05a1b3f48e1f8e5070dea2d36ba5688f", "expected_size": 104, "assembly": ["field_messages/item_hook.s"]}
+      ]
+    },
+    {
+      "capability": "field_message_records",
+      "target": "MAZE.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {"name": "operation_disabled", "address": "0x06045124", "expected_sha256": "85d6394955fb4162fd3a8c3c6df366f4aa8c2ca3fae6d202b8ce9724ad818a1b", "expected_size": 28, "generated": "field_messages"},
+        {"name": "nothing_notable", "address": "0x06045150", "expected_sha256": "bb6f59b7773398f02935e3de94b878ae3c8430afc6294b18fcdc1503510bfce1", "expected_size": 28, "generated": "field_messages"},
+        {"name": "nothing_found", "address": "0x0604516c", "expected_sha256": "71f89eeb70e20f872e476788cf617977fac811a2e32a5d761e5f0bb6d279b491", "expected_size": 28, "generated": "field_messages"},
+        {"name": "inventory_full", "address": "0x06045188", "expected_sha256": "7c15c6bc29ee7423d92967fa5eae7adb4a50eb6193bcfaa573534129c2cd1738", "expected_size": 28, "generated": "field_messages"},
+        {"name": "auto_recover_on", "address": "0x060452b4", "expected_sha256": "76062b087fbca2a52e34285a924f6f51d28d75f7d0a5a7027851917b7cb81cce", "expected_size": 20, "generated": "field_messages"},
+        {"name": "no_effect", "address": "0x060452d0", "expected_sha256": "1fc71deaccd1f603582d2ccb4b09df6bea2a3527ab3f2eab1b070838eb86b3d4", "expected_size": 28, "generated": "field_messages"}
+      ]
+    }
+  ]
+}

@@ -187,6 +187,71 @@ class SurfaceCatalogTests(unittest.TestCase):
             ("font16", 1, "pixels", 128),
         )
 
+    def test_level_up_geometries_are_grounded(self) -> None:
+        expected = {
+            "level_up.character_name": (
+                ("font16", 1, "glyph_cells", 8),
+                ("font16", 1, "pixels", 96),
+            ),
+            "level_up.title": (
+                ("font8", 1, "glyph_cells", 8),
+                ("font8", 1, "glyph_cells", 8),
+            ),
+            "level_up.remaining_points": (
+                ("font8", 1, "glyph_cells", 17),
+                ("font8", 1, "glyph_cells", 17),
+            ),
+            "level_up.accept_action": (
+                ("font8", 1, "glyph_cells", 2),
+                ("font8", 1, "glyph_cells", 2),
+            ),
+            "level_up.confirm_choice": (
+                ("font8", 1, "glyph_cells", 3),
+                ("font8", 1, "glyph_cells", 3),
+            ),
+            "level_up.base_stat_label": (
+                (None, 1, "glyph_cells", 1),
+                ("font8", 1, "pixels", 12),
+            ),
+            "level_up.derived_stat_label": (
+                ("font12", 1, "glyph_cells", 4),
+                ("font8", 1, "pixels", 46),
+            ),
+            "level_up.generic_combat_stat_label": (
+                ("font12", 1, "glyph_cells", 3),
+                ("font8", 1, "pixels", 46),
+            ),
+            "level_up.learned_heading": (
+                ("font16", 1, "glyph_cells", 5),
+                ("font16", 1, "pixels", 128),
+            ),
+            "level_up.ability_name": (
+                ("font16", 1, "glyph_cells", 8),
+                ("font16", 1, "pixels", 128),
+            ),
+        }
+        for name, (expected_ja, expected_en) in expected.items():
+            with self.subTest(surface=name):
+                surface = self.catalog.surface(name)
+                self.assertEqual(
+                    (
+                        surface.ja.font,
+                        surface.ja.rows,
+                        surface.ja.width.unit,
+                        surface.ja.width.value,
+                    ),
+                    expected_ja,
+                )
+                self.assertEqual(
+                    (
+                        surface.en.font,
+                        surface.en.rows,
+                        surface.en.width.unit,
+                        surface.en.width.value,
+                    ),
+                    expected_en,
+                )
+
     def test_race_and_affinity_geometries_cover_each_consumer(self) -> None:
         expected = {
             "battle.analyze_race_heading": (

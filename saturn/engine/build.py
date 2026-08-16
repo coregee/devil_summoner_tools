@@ -7,7 +7,7 @@ import json
 import os
 import sys
 import tempfile
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 
 
 ENGINE_ROOT = Path(__file__).resolve().parent
@@ -23,6 +23,12 @@ from engine.surfaces.comp_menu import (  # noqa: E402
     build_comp_menu,
 )
 from engine.surfaces.equipment_ui import build_equipment_ui  # noqa: E402
+from engine.surfaces.dungeon_locations import (  # noqa: E402
+    AUTOMAP_TARGET as DUNGEON_AUTOMAP_TARGET,
+    CONFIG_PATH as DUNGEON_LOCATIONS_CONFIG_PATH,
+    MAZE_TARGET as DUNGEON_MAZE_TARGET,
+    build_dungeon_locations,
+)
 from engine.surfaces.event_dialogue import (  # noqa: E402
     BUILD_PATH as EVENT_BUILD_PATH,
     CODEC_PATH,
@@ -40,6 +46,10 @@ from engine.surfaces.event_dialogue import (  # noqa: E402
 from engine.surfaces.fusion import (  # noqa: E402
     CONFIG_PATH as FUSION_CONFIG_PATH,
     build_fusion_menu,
+)
+from engine.surfaces.field_messages import (  # noqa: E402
+    CONFIG_PATH as FIELD_MESSAGES_CONFIG_PATH,
+    build_field_messages,
 )
 from engine.surfaces.options_ui import (  # noqa: E402
     CONFIG_PATH as OPTIONS_CONFIG_PATH,
@@ -65,6 +75,13 @@ STATUS_NORMCOM_OUTPUT_PATH = GENERATED_ROOT / "NORMCOM.BIN"
 STATUS_BUILD_MANIFEST_PATH = GENERATED_ROOT / "status_ui_build.json"
 OPTIONS_OUTPUT_PATH = GENERATED_ROOT / "CFG_SET.BIN"
 OPTIONS_BUILD_MANIFEST_PATH = GENERATED_ROOT / "options_ui_build.json"
+DUNGEON_LOCATIONS_ROOT = GENERATED_ROOT / "dungeon_locations"
+DUNGEON_LOCATIONS_MAZE_PATH = DUNGEON_LOCATIONS_ROOT / "MAZE.BIN"
+DUNGEON_LOCATIONS_BUILD_MANIFEST_PATH = (
+    GENERATED_ROOT / "dungeon_locations_build.json"
+)
+FIELD_MESSAGES_OUTPUT_PATH = GENERATED_ROOT / "MAZE.BIN"
+FIELD_MESSAGES_BUILD_MANIFEST_PATH = GENERATED_ROOT / "field_messages_build.json"
 
 
 def build_fusion_surface() -> dict[Path, bytes]:
@@ -260,6 +277,106 @@ def build_options_surface() -> dict[Path, bytes]:
     }
 
 
+def _generated_target_path(target: str) -> Path:
+    return GENERATED_ROOT.joinpath(*PurePosixPath(target).parts)
+
+
+def build_dungeon_locations_surface() -> dict[Path, bytes]:
+    """Build every dungeon-location consumer from the validated stock targets."""
+    result = build_dungeon_locations()
+    outputs = {
+        (
+            DUNGEON_LOCATIONS_MAZE_PATH
+            if target == DUNGEON_MAZE_TARGET
+            else _generated_target_path(target)
+        ): data
+        for target, data in result.outputs.items()
+    }
+    manifest = {
+        "version": 1,
+        "surface": "dungeon.locations",
+        "patch_config_sha256": file_sha256(DUNGEON_LOCATIONS_CONFIG_PATH),
+        "asset_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.asset_files
+        },
+        "runtime_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.runtime_input_files
+        },
+        "source_inputs": dict(result.source_inputs),
+        "assembly_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.assembly_files
+        },
+        "outputs": {
+            target: {
+                "sha256": sha256(data),
+                "patches": len(result.patches[target]),
+            }
+            for target, data in result.outputs.items()
+        },
+        "runtime": {
+            target: {
+                "bytes": len(data),
+                "sha256": sha256(data),
+            }
+            for target, data in result.runtime_used.items()
+        },
+        "targets": len(result.outputs),
+        "patches": sum(len(rows) for rows in result.patches.values()),
+    }
+    outputs[DUNGEON_LOCATIONS_BUILD_MANIFEST_PATH] = (
+        json.dumps(manifest, indent=2) + "\n"
+    ).encode("utf-8")
+    return outputs
+
+
+def build_field_messages_surface() -> dict[Path, bytes]:
+    """Compose authored field messages onto the location-patched MAZE stage."""
+    location_outputs = build_dungeon_locations_surface()
+    base = location_outputs[DUNGEON_LOCATIONS_MAZE_PATH]
+    result = build_field_messages(base)
+    manifest = {
+        "version": 1,
+        "surface": "field.messages",
+        "patch_config_sha256": file_sha256(FIELD_MESSAGES_CONFIG_PATH),
+        "base": {
+            "surface": "dungeon.locations",
+            "sha256": sha256(base),
+            "manifest_sha256": sha256(
+                location_outputs[DUNGEON_LOCATIONS_BUILD_MANIFEST_PATH]
+            ),
+        },
+        "asset_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.asset_files
+        },
+        "runtime_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.runtime_input_files
+        },
+        "source_inputs": dict(result.source_inputs),
+        "assembly_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.assembly_files
+        },
+        "output": {
+            "file": DUNGEON_MAZE_TARGET,
+            "sha256": sha256(result.data),
+        },
+        "patch_groups": list(dict.fromkeys(patch.group for patch in result.patches)),
+        "patches": len(result.patches),
+    }
+    return {
+        **location_outputs,
+        FIELD_MESSAGES_OUTPUT_PATH: result.data,
+        FIELD_MESSAGES_BUILD_MANIFEST_PATH: (
+            json.dumps(manifest, indent=2) + "\n"
+        ).encode("utf-8"),
+    }
+
+
 def _atomic_write(path: Path, value: bytes) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     descriptor, temporary_name = tempfile.mkstemp(
@@ -310,6 +427,8 @@ def main() -> int:
             "equipment.ui",
             "status.ui",
             "options.ui",
+            "dungeon.locations",
+            "field.messages",
         ),
     )
     parser.add_argument("--check", action="store_true")
@@ -324,6 +443,8 @@ def main() -> int:
             "equipment.ui": build_equipment_surface,
             "status.ui": build_status_surface,
             "options.ui": build_options_surface,
+            "dungeon.locations": build_dungeon_locations_surface,
+            "field.messages": build_field_messages_surface,
         }
         _publish(builders[arguments.surface](), check=arguments.check)
     except (OSError, UnicodeError, ValueError) as error:

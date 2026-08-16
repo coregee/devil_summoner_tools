@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "asset": "field/automap.json",
+  "records": {
+    "game.automap_marker_ui.o009aa8": "marker_no_data.text",
+    "game.automap_system.o00a69c": "marker_delete.text"
+  },
+  "record_surfaces": {
+    "game.automap_marker_ui.o009aa8": [
+      "automap.entry"
+    ],
+    "game.automap_system.o00a69c": [
+      "automap.marker_popup"
+    ]
+  }
+}

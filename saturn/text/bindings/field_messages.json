@@ -2,6 +2,8 @@
   "version": 1,
   "asset": "field/messages.json",
   "records": {
+    "game.maze_speech_choices_static.o0250d0": "talk_choice_yes.text",
+    "game.maze_speech_choices_static.o0250d6": "talk_choice_no.text",
     "game.maze_messages.o0250e4": "talk_prompt.text",
     "game.maze_messages.o025124": "operation_disabled.text",
     "game.maze_messages.o025150": "nothing_notable.text",
@@ -67,10 +69,24 @@
       }
     ]
   },
-  "field_surfaces": {
-    "text": [
-      "map_3d.field_message"
-    ]
+  "record_surfaces": {
+    "game.maze_speech_choices_static.o0250d0": ["map_3d.field_choice"],
+    "game.maze_speech_choices_static.o0250d6": ["map_3d.field_choice"],
+    "game.maze_messages.o0250e4": ["map_3d.field_message"],
+    "game.maze_messages.o025124": ["map_3d.field_message"],
+    "game.maze_messages.o025150": ["map_3d.field_message"],
+    "game.maze_messages.o02516c": ["map_3d.field_message"],
+    "game.maze_messages.o025188": ["map_3d.field_message"],
+    "game.maze_messages.o0251a4": ["map_3d.field_message"],
+    "game.maze_messages.o0251d0": ["map_3d.field_message"],
+    "game.maze_messages.o0251dc": ["map_3d.field_message"],
+    "game.maze_messages.o0251e8": ["map_3d.field_message"],
+    "game.maze_messages.o0251f4": ["map_3d.field_message"],
+    "game.maze_messages.o025234": ["map_3d.field_message"],
+    "game.maze_messages.o025250": ["map_3d.field_message"],
+    "game.maze_messages.o02526c": ["map_3d.field_message"],
+    "game.maze_messages.o0252b4": ["map_3d.field_message"],
+    "game.maze_messages.o0252d0": ["map_3d.field_message"]
   },
   "unresolved": {
     "game.maze_messages.o0251d0": "This suffix lives inside the native composition buffer and has no direct pointer reference. Preserve it as a generic acquired value until its call site is proven."

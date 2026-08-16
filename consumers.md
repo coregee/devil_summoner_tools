@@ -246,6 +246,11 @@ Selecting a marker on the map displays a small window in the top-left. 3 rows, 6
 "   YES"
 "    NO"
 
+The translated popup retains those three rows with a 64px limit per row. Its
+separately stored `(No data)`, `Delete?`, `Yes`, and `No` fields are authored
+text, not renderer literals. The MAZE interaction choices use their original
+three-cell footprint, measured as a 48px translated row.
+
 #### Auto Recovery
 
 Pressing Y (default) on the 3D Map displays "オートリカバーON" in the green toast window briefly.
@@ -536,10 +541,45 @@ This uses the FONT12 path.
 
 ### Level Up
 
-When a demon learns a new magic or skill, the level-up screen displays a fixed
-FONT16 learned-magic label and the corresponding magic/skill name through
-separate text draws. The exact combined geometry still needs to be measured.
-Both parts, and their composed presentation, are text consumers.
+#### Main Panel
+
+The ordinary level-up panel is its own `LEVEL_UP.BIN` consumer. `LEVEL UP` is
+one fixed FONT8 row of eight cells. The character-name texture is 128x16: the
+Japanese path draws up to eight FONT16 cells, while the mature English path
+uses a 96px safe limit for the five asset-backed fixed names. The live player
+codename uses the same texture.
+
+The parameter display reuses the six base-stat labels, eight derived-stat
+labels, and the generic Attack and Accuracy variants from the detailed status
+vocabulary. The Japanese base labels occupy one 16x16 cell; their compressed
+English forms occupy 12px. Derived labels occupy four FONT12 cells in Japanese
+and 46px in English. Generic Attack and Accuracy occupy three FONT12 cells in
+Japanese and 46px in English. These are separate LEVEL_UP bitmap consumers even
+though they share authored fields with the status screen.
+
+`LV`, `HP`, `MP`, `EXP`, and `NEXT` are fixed FONT8 labels composed with live
+numeric values. Their individual numeric extents are not all proved and must
+not be inferred from the generic nine-digit number drawer. The remaining-point
+display has a right-aligned value, a four-cell graphical ornament, and a
+four-cell `LEFT` suffix. Its complete renderer spans at most 17 FONT8 cells:
+nine numeric cells, four ornament cells, and four label cells. The four spaces
+stored before `LEFT` reserve the ornament and are not authored text.
+
+The confirmation layer draws an `OK` action label in a two-cell FONT8 slot
+beside a button glyph, plus vertical `YES` and `NO` choices in three-cell FONT8
+slots. The stored leading space before `NO` is centering, not part of the
+authored word.
+
+#### Learned Magic Window
+
+Learning an ability uses a separate conditional texture, not another row of
+the main panel. In normal play it is reached for Rei, rather than for a demon.
+Surface 19 is 144x32 and contains two FONT16 rows. The heading is drawn at
+x=2, y=0 and occupies five Japanese glyph cells; the English contract is a
+conservative 128px, with `Learned Magic` currently measuring 74px. The learned
+magic or skill name is drawn independently at x=2, y=16 and permits eight
+Japanese glyph cells or 128 English pixels. The heading, the selected ability,
+and their two-row presentation are distinct text consumers.
 
 
 ### Fusion

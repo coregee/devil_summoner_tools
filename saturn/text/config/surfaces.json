@@ -402,16 +402,88 @@
         "font": "font16",
         "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "glyph_cells",
+          "value": 8
         }
       },
       "en": {
         "font": "font16",
         "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 96
+        }
+      }
+    },
+    "level_up.title": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      }
+    },
+    "level_up.remaining_points": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 17
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 17
+        }
+      }
+    },
+    "level_up.accept_action": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 2
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 2
+        }
+      }
+    },
+    "level_up.confirm_choice": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 3
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 3
         }
       }
     },
@@ -613,6 +685,24 @@
         }
       }
     },
+    "map_3d.field_choice": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 3
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 48
+        }
+      }
+    },
     "automap.entry": {
       "ja": {
         "font": "font16",
@@ -659,11 +749,11 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font16",
+        "rows": 3,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 64
         }
       }
     },
@@ -1178,6 +1268,24 @@
         "width": {
           "unit": "glyph_cells",
           "value": 8
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 128
+        }
+      }
+    },
+    "level_up.learned_heading": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 5
         }
       },
       "en": {
@@ -1909,6 +2017,24 @@
         }
       }
     },
+    "level_up.base_stat_label": {
+      "ja": {
+        "font": null,
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 1
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 12
+        }
+      }
+    },
     "status.derived_stat_label": {
       "ja": {
         "font": "font12",
@@ -1927,7 +2053,43 @@
         }
       }
     },
+    "level_up.derived_stat_label": {
+      "ja": {
+        "font": "font12",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 4
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 46
+        }
+      }
+    },
     "status.generic_combat_stat_label": {
+      "ja": {
+        "font": "font12",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 3
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 46
+        }
+      }
+    },
+    "level_up.generic_combat_stat_label": {
       "ja": {
         "font": "font12",
         "rows": 1,

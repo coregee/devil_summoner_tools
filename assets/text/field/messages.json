@@ -8,6 +8,26 @@
         "translation": "> Someone is here. Talk to them?"
       }
     },
+    "talk_choice_yes": {
+      "text": {
+        "reference": "YES",
+        "translation": "Yes",
+        "reviewed": true
+      }
+    },
+    "talk_choice_no": {
+      "text": {
+        "reference": "NO",
+        "translation": "No",
+        "reviewed": true,
+        "variants": {
+          "automap": {
+            "reference": " NO",
+            "note": "AUTOMAP stores one leading layout space in its physical ASCII field."
+          }
+        }
+      }
+    },
     "operation_disabled": {
       "text": {
         "reference": "操作不能です",

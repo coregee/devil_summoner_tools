@@ -34,7 +34,7 @@ class AuthoredAssetInventoryTests(unittest.TestCase):
     def test_entity_inventory_is_complete_and_semantic(self) -> None:
         self.assertEqual(len(self.equipment.entries), 208)
         self.assertEqual(len(self.items.entries), 73)
-        self.assertEqual(len(self.messages.entries), 16)
+        self.assertEqual(len(self.messages.entries), 18)
 
         for catalog in (self.equipment, self.items, self.messages):
             for key in catalog.entries:
@@ -125,7 +125,7 @@ class AuthoredAssetInventoryTests(unittest.TestCase):
     def test_physical_binding_inventory_is_exact(self) -> None:
         self.assertEqual(len(self.equipment_binding.records), 416)
         self.assertEqual(len(self.item_binding.records), 208)
-        self.assertEqual(len(self.message_binding.records), 15)
+        self.assertEqual(len(self.message_binding.records), 17)
 
         itemname_rows = json.loads(
             (TEXT_ROOT / "corpus" / "game" / "fixed" / "itemname.json")
@@ -264,9 +264,29 @@ class FieldTemplateTests(unittest.TestCase):
         self.assertEqual(
             item_use[1].composition.supplies, ("currency_amount",)
         )
+        self.assertEqual(dict(self.binding.field_surfaces), {})
         self.assertEqual(
-            self.binding.field_surfaces,
-            {"text": ("map_3d.field_message",)},
+            set(self.binding.record_surfaces),
+            set(self.binding.records),
+        )
+        self.assertEqual(
+            self.binding.record_surfaces[
+                "game.maze_speech_choices_static.o0250d0"
+            ],
+            ("map_3d.field_choice",),
+        )
+        self.assertEqual(
+            self.binding.record_surfaces[
+                "game.maze_speech_choices_static.o0250d6"
+            ],
+            ("map_3d.field_choice",),
+        )
+        self.assertTrue(
+            all(
+                surfaces == ("map_3d.field_message",)
+                for physical_id, surfaces in self.binding.record_surfaces.items()
+                if physical_id.startswith("game.maze_messages.")
+            )
         )
 
 

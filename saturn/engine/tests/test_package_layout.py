@@ -12,6 +12,8 @@ PURE_DATA_GENERATORS = {
     "confirmation_label_yes",
     "confirmation_level_too_low",
     "confirmation_main",
+    "dungeon_locations",
+    "field_messages",
     "font16_scratch",
     "options_data",
     "status_data",

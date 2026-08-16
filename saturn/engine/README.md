@@ -264,5 +264,52 @@ python saturn/engine/build.py options.ui --check
 python saturn/build.py default
 ```
 
-The next bounded runtime tranche is the MAZE field-message and dungeon-location
-consumer family.
+## Dungeon locations
+
+`dungeon.locations` rebuilds the location consumers in `MAZE.BIN`,
+`AUTOMAPC.BIN`, 17 landing files, and 98 floor files. Its 117 stock targets are
+read directly from the verified game disc and owned by 301 typed recipes. The
+MAZE and AUTOMAP renderers come from readable sources under
+`asm/dungeon_locations/`; location names, floor templates, AUTOMAP aliases, and
+marker labels come from the shared human-facing text assets and explicit
+physical bindings.
+
+The builder publishes every AUTOMAP and MAZEDATA result at its terminal path,
+but keeps its MAZE result at `generated/game/dungeon_locations/MAZE.BIN`. This
+checked intermediate prevents two surfaces from claiming the terminal MAZE
+file. `dungeon_locations_build.json` records all 117 source hashes, output
+hashes, assembly inputs, and the exact 301-patch inventory.
+
+The location tables, MAZE renderer, and every ELV/KAI mirror reproduce the
+trusted mature implementation. AUTOMAP deliberately leaves the now-intercepted
+retail `YES`/`NO` storage bytes untouched; their visible forms still come from
+the shared authored choice fields through the new renderer.
+
+## Field messages
+
+`field.messages` composes the fixed field-message window onto that checked MAZE
+intermediate and alone publishes `generated/game/MAZE.BIN`. Complete messages,
+confirmation choices, currency symbols, and item substitutions remain authored
+text inputs; the assembly owns only display, substitution, and layout behavior.
+Its manifest binds the terminal output to both the staged MAZE hash and the
+dungeon-location manifest, so neither stage can silently change beneath the
+other. The default profile therefore runs this composed surface once, then
+installs its exact 117 terminal binaries; `dungeon.locations` remains available
+as an isolated engine build and parity check.
+
+The six unchanged fixed messages reproduce the mature replacement bytes. The
+terminal MAZE hash is intentionally new
+(`b94dd9321f556c1daeeff220149d08581d996fac77ac147f7fe1ee5f62a265e2`):
+the old build accidentally routed the item-obtained path through `Found`, used
+fragmentary item-full wording, and omitted the final punctuation from currency
+messages. The new hooks compile the complete approved asset templates instead.
+
+Run:
+
+```powershell
+python saturn/engine/build.py dungeon.locations
+python saturn/engine/build.py dungeon.locations --check
+python saturn/engine/build.py field.messages
+python saturn/engine/build.py field.messages --check
+python saturn/build.py default
+```
