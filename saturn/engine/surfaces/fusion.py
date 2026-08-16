@@ -7,13 +7,13 @@ import struct
 from dataclasses import dataclass
 from pathlib import Path
 
-from engine.patching import Patch, apply_patches
+from engine.core.patching import Patch, apply_patches
 from text.util.assets import BINDING_ROOT, load_asset, load_binding
 from text.util.event_repack import FontMetrics
 from text.util.surfaces import load_surfaces
 
 
-ENGINE_ROOT = Path(__file__).resolve().parent
+ENGINE_ROOT = Path(__file__).resolve().parents[1]
 SATURN_ROOT = ENGINE_ROOT.parent
 TEXT_ROOT = SATURN_ROOT / "text"
 FONT_ROOT = SATURN_ROOT / "font" / "generated" / "game"

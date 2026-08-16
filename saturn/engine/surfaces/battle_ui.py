@@ -8,11 +8,11 @@ import re
 import struct
 from pathlib import Path
 
-from engine.battle_negotiation import (
+from engine.surfaces.battle_negotiation import (
     OUTPUT_PATH as COMBAT_OUTPUT_PATH,
     build_battle_negotiation,
 )
-from engine.patching import Patch, apply_patches
+from engine.core.patching import Patch, apply_patches
 from rom.util.catalog import load_catalog, validate_source
 from rom.util.workflows import read_source_files
 from text.util.assets import load_asset, load_bound_translations
@@ -21,7 +21,7 @@ from text.util.event_repack import FontMetrics
 from text.util.surfaces import load_surfaces
 
 
-ENGINE_ROOT = Path(__file__).resolve().parent
+ENGINE_ROOT = Path(__file__).resolve().parents[1]
 SATURN_ROOT = ENGINE_ROOT.parent
 CONFIG_PATH = ENGINE_ROOT / "config" / "battle_ui.json"
 GENERATED_ROOT = ENGINE_ROOT / "generated" / "game"

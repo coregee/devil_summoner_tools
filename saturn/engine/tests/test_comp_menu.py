@@ -11,7 +11,7 @@ SATURN_ROOT = Path(__file__).resolve().parents[2]
 if str(SATURN_ROOT) not in sys.path:
     sys.path.insert(0, str(SATURN_ROOT))
 
-from engine.comp_menu import (  # noqa: E402
+from engine.surfaces.comp_menu import (  # noqa: E402
     BUILD_PATH,
     CONFIG_PATH,
     FONT8_METRICS_PATH,
@@ -22,7 +22,7 @@ from engine.comp_menu import (  # noqa: E402
     _panel_data,
     build_comp_menu,
 )
-from engine.patch_config import load_patch_configuration  # noqa: E402
+from engine.core.patch_config import load_patch_configuration  # noqa: E402
 from text.util.event_repack import FontMetrics  # noqa: E402
 
 

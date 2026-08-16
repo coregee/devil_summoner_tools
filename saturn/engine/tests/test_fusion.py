@@ -12,20 +12,21 @@ if str(SATURN_ROOT) not in sys.path:
     sys.path.insert(0, str(SATURN_ROOT))
 
 from engine.build import (  # noqa: E402
+    EVENT_DIALOGUE_OUTPUT_PATH,
     FUSION_BUILD_MANIFEST_PATH,
-    OUTPUT_PATH,
-    _stock_event,
+    FUSION_OUTPUT_PATH,
     build_event_dialogue,
     build_fusion_surface,
 )
-from engine.fusion import build_fusion_menu  # noqa: E402
+from engine.surfaces.event_dialogue import stock_event  # noqa: E402
+from engine.surfaces.fusion import build_fusion_menu  # noqa: E402
 
 
 class FusionEngineTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        event = build_event_dialogue()[OUTPUT_PATH]
-        cls.fusion = build_fusion_menu(_stock_event(), event)
+        event = build_event_dialogue()[EVENT_DIALOGUE_OUTPUT_PATH]
+        cls.fusion = build_fusion_menu(stock_event(), event)
         cls.outputs = build_fusion_surface()
         cls.manifest = json.loads(cls.outputs[FUSION_BUILD_MANIFEST_PATH])
 
@@ -66,7 +67,7 @@ class FusionEngineTests(unittest.TestCase):
         )
 
     def test_composed_event_output_is_deterministic(self) -> None:
-        output = self.outputs[OUTPUT_PATH]
+        output = self.outputs[FUSION_OUTPUT_PATH]
         self.assertEqual(len(output), 354072)
         self.assertEqual(
             hashlib.sha256(output).hexdigest(),

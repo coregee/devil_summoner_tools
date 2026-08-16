@@ -329,6 +329,13 @@ editable too. Twenty-four stock ASCII records bind these assets to exact
 `NORMCOM.BIN` offsets, while bitmap-only Japanese labels remain grounded in
 pinned retail regions. The English stays faithful to the mature Saturn output.
 
+The equipment slice keeps the shared stat vocabulary in `ui/status.json` and
+adds only the two equipment-specific actions to `ui/equipment.json`. COMP and
+shop consumers both use those fields. Shop `Inv.`, all character names, and all
+item names continue to resolve from their existing human-facing catalogues;
+the engine derives constrained render data rather than maintaining duplicate
+runtime strings.
+
 The command slice owns all battle, COMP, shop, bar, and healer menu wording as
 ordinary editable fields. Thirty-seven newly catalogued Saturn records bind
 the proved tables, including three byte-identical physical copies of the

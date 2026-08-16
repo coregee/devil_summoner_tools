@@ -401,8 +401,9 @@ The translated COMP core now owns the two-row, 300-pixel help surface; the
 grid. The 319 demon names remain single authored fields: 210 fit the direct
 eight-byte retail records, while 109 use a runtime compact overflow pool. The
 NORMCOM ritual console composes beneath this target but remains a distinct
-consumer. Equipment labels/stat layout and the detailed status screen are the
-next separately bounded NORMCOM surfaces rather than hidden parts of this core.
+consumer. The equipment layer now composes separately on top; the detailed
+status screen remains the next bounded NORMCOM surface rather than a hidden
+part of the COMP core.
 
 There's also a window in the top-left with the submenus listed. This window serves as an effective margin for the Help window when it's visible.
 
@@ -436,6 +437,14 @@ Between the left equipment list, and the right equipment items window, in the ce
 This shows narrow FONT8x12 (I believe?) stat glyphs, and beside each one, the corresponding stat number value.
 We have 力　知　魔　耐　速　運 stacked vertically, with space beside them for 2 FONT8 digits.
 Then, another column of 剣攻撃 ＿命中 (the _ represents an empty space here for alignment, not a literal underscore)　銃攻撃　＿命中　防衛　回避　魔法威力　＿＿防衛.
+
+The implemented `equipment.ui` contract treats this and the shop equipment
+panel as two consumers of one editable surface. Auto/Unequip are 40-pixel
+FONT8 labels; base and derived headings have 23- and 48-pixel slots; item names
+use 80 pixels. The shop comparison consumer additionally has a 72-pixel
+character-name slot and the existing 16-pixel `Inv.` label. Cursor boxes and
+numeric substitution remain engine layout; every visible word is resolved from
+`assets/text`.
 
 #### Status Screen
 

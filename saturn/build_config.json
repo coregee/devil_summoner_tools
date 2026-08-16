@@ -123,17 +123,6 @@
       "check_arguments": ["fusion.menu", "--check"]
     },
     {
-      "id": "install_fusion_engine",
-      "description": "Install the composed EVENT runtime required by dialogue and Fusion surfaces.",
-      "type": "copy",
-      "files": [
-        {
-          "source": "engine/generated/game/EVENT.BIN",
-          "destination": "rom/extracted/game/EVENT.BIN"
-        }
-      ]
-    },
-    {
       "id": "repack_battle_negotiation_text",
       "description": "Compile battle-negotiation dialogue, choices, condition lines, and item inserts from shared authored assets.",
       "type": "python",
@@ -227,10 +216,19 @@
       "check_arguments": ["comp.menu", "--check"]
     },
     {
-      "id": "install_comp_engine",
-      "description": "Install the composed NORMCOM runtime.",
+      "id": "build_equipment_engine",
+      "description": "Compose the shared COMP and shop equipment consumers from editable assets.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["equipment.ui"],
+      "check_arguments": ["equipment.ui", "--check"]
+    },
+    {
+      "id": "install_equipment_engine",
+      "description": "Install the EVENT and NORMCOM runtimes composed through the equipment surface.",
       "type": "copy",
       "files": [
+        {"source": "engine/generated/game/EVENT.BIN", "destination": "rom/extracted/game/EVENT.BIN"},
         {"source": "engine/generated/game/NORMCOM.BIN", "destination": "rom/extracted/game/NORMCOM.BIN"}
       ]
     },
@@ -263,7 +261,6 @@
         "repack_shopsmp_text",
         "install_shopsmp_text",
         "build_fusion_engine",
-        "install_fusion_engine",
         "repack_battle_negotiation_text",
         "install_battle_negotiation_text",
         "repack_battle_ui_text",
@@ -273,7 +270,8 @@
         "repack_comp_text",
         "install_comp_text",
         "build_comp_engine",
-        "install_comp_engine",
+        "build_equipment_engine",
+        "install_equipment_engine",
         "repack_visuals",
         "build_discs"
       ],

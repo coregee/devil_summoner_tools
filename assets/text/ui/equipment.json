@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "recommend": {
+      "text": {
+        "reference": "おすすめ",
+        "translation": "Auto",
+        "note": "Shared by the COMP and shop equipment panels. The label and its selection box are one consumer contract."
+      }
+    },
+    "unequip": {
+      "text": {
+        "reference": "はずす",
+        "translation": "Unequip",
+        "note": "Shared by the COMP and shop equipment panels."
+      }
+    }
+  }
+}

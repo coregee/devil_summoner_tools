@@ -7,12 +7,13 @@ import json
 import struct
 from pathlib import Path
 
-from engine.battle_ui import (
+from engine.surfaces.battle_ui import (
     NORMCOM_OUTPUT_PATH as BATTLE_NORMCOM_OUTPUT_PATH,
     build_battle_ui,
 )
-from engine.patch_config import load_patch_configuration, object_value, read_json
-from engine.patching import Patch, apply_patches
+from engine.shared.font8 import font8_tables
+from engine.core.patch_config import load_patch_configuration, object_value, read_json
+from engine.core.patching import Patch, apply_patches
 from rom.util.catalog import load_catalog, validate_source
 from rom.util.workflows import read_source_files
 from text.util.assets import load_bound_translations
@@ -20,12 +21,12 @@ from text.util.event_repack import FontMetrics
 from text.util.surfaces import load_surfaces
 
 
-ENGINE_ROOT = Path(__file__).resolve().parent
+ENGINE_ROOT = Path(__file__).resolve().parents[1]
 SATURN_ROOT = ENGINE_ROOT.parent
 CONFIG_PATH = ENGINE_ROOT / "config" / "comp_menu.json"
 GENERATED_ROOT = ENGINE_ROOT / "generated" / "game"
 BUILD_PATH = GENERATED_ROOT / "comp_menu_build.json"
-NORMCOM_OUTPUT_PATH = GENERATED_ROOT / "NORMCOM.BIN"
+NORMCOM_OUTPUT_PATH = GENERATED_ROOT / "comp_menu" / "NORMCOM.BIN"
 TEXT_GENERATED_ROOT = SATURN_ROOT / "text" / "generated" / "game"
 TEXT_BUILD_PATH = TEXT_GENERATED_ROOT / "comp_menu_build.json"
 FONT_ROOT = SATURN_ROOT / "font" / "generated" / "game"
@@ -107,18 +108,6 @@ def _validate_text_build() -> None:
         row = object_value(raw_row, f"{TEXT_BUILD_PATH}.outputs.{name}")
         if row.get("sha256") != _file_sha256(TEXT_GENERATED_ROOT / name):
             raise ValueError(f"generated {name} does not match its text build")
-
-
-def _font8_tables(metrics: FontMetrics) -> tuple[bytes, dict[str, int]]:
-    widths = bytearray(256)
-    codes: dict[str, int] = {}
-    for glyph in metrics.glyphs:
-        if not 0 <= glyph.code < 256:
-            raise ValueError("COMP FONT8 code exceeds one byte")
-        widths[glyph.code] = glyph.advance
-        for text in (glyph.text, *glyph.aliases):
-            codes.setdefault(text, glyph.code)
-    return bytes(widths), codes
 
 
 def _encode_name(
@@ -291,7 +280,7 @@ def _build_panel_cave(
 def _bind_dynamic_patches(
     patches: tuple[Patch, ...], metrics: FontMetrics
 ) -> tuple[Patch, ...]:
-    widths, _codes = _font8_tables(metrics)
+    widths, _codes = font8_tables(metrics)
     panel_patch = next(
         (patch for patch in patches if patch.name == "character_panel_cave"), None
     )

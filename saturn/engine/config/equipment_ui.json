@@ -1,0 +1,197 @@
+{
+  "version": 2,
+  "surface": "equipment.ui",
+  "targets": {
+    "EVENT.BIN": {
+      "load_address": "0x06020000",
+      "size": 354072,
+      "stock_sha256": "73a24f782f6618081028511e9fcc4c845a79a577e1907a6a6affc9e9f1e2ce84"
+    },
+    "NORMCOM.BIN": {
+      "load_address": "0x06020000",
+      "size": 352360,
+      "stock_sha256": "983d84ad48c0a497715633c0d2e380743c52e4b1644422ed027ac27e52a2aa9a"
+    }
+  },
+  "inputs": {
+    "font8_metrics_sha256": "8a94b96050127988e9d4b330f5e4ea8626830a5cfc5efa7da6d0ac8f98979d7e"
+  },
+  "groups": [
+    {
+      "capability": "itemname_runtime",
+      "target": "EVENT.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "equipment_name_cave",
+          "address": "0x06020400",
+          "expected_zero_bytes": 416,
+          "assembly": ["equipment_ui/equipment_item_name.s"]
+        },
+        {
+          "name": "equipment_name_pointer_060596ec",
+          "address": "0x060596ec",
+          "expected": "060584e4",
+          "pointer": "0x06020400"
+        },
+        {
+          "name": "equipment_name_pointer_0605a6a8",
+          "address": "0x0605a6a8",
+          "expected": "060584e4",
+          "pointer": "0x06020400"
+        },
+        {
+          "name": "equipment_name_pointer_0605a914",
+          "address": "0x0605a914",
+          "expected": "060584e4",
+          "pointer": "0x06020400"
+        },
+        {
+          "name": "buy_sell_name_cave",
+          "address": "0x06020900",
+          "expected_zero_bytes": 1792,
+          "assembly": [
+            "font8_pixel_blitter.s",
+            "equipment_ui/buy_sell_item_name.s",
+            "equipment_ui/shop_inventory_label.s",
+            "equipment_ui/shop_character_name.s"
+          ]
+        },
+        {
+          "name": "buy_sell_name_hook",
+          "address": "0x06033c9c",
+          "expected": "2f862f962fa62fb62fc62fd6",
+          "assembly": ["equipment_ui/trampoline.s"]
+        },
+        {
+          "name": "shop_inventory_label_pointer_0603407c",
+          "address": "0x0603407c",
+          "expected": "0602d734",
+          "pointer": "0x06020b58"
+        },
+        {
+          "name": "shop_inventory_label_pointer_06034168",
+          "address": "0x06034168",
+          "expected": "0602d734",
+          "pointer": "0x06020b58"
+        },
+        {
+          "name": "shop_inventory_label_pointer_06034264",
+          "address": "0x06034264",
+          "expected": "0602d734",
+          "pointer": "0x06020b58"
+        },
+        {
+          "name": "shop_character_name_glyph_pointer_06034650",
+          "address": "0x06034650",
+          "expected": "0602d868",
+          "pointer": "0x06020bdc"
+        },
+        {
+          "name": "shop_character_name_glyph_pointer_060347ec",
+          "address": "0x060347ec",
+          "expected": "0602d868",
+          "pointer": "0x06020bdc"
+        },
+        {
+          "name": "shop_character_name_glyph_pointer_060355e8",
+          "address": "0x060355e8",
+          "expected": "0602d868",
+          "pointer": "0x06020bdc"
+        },
+        {
+          "name": "shop_character_name_glyph_pointer_06035840",
+          "address": "0x06035840",
+          "expected": "0602d868",
+          "pointer": "0x06020bdc"
+        }
+      ]
+    },
+    {
+      "capability": "equipment_ui",
+      "target": "EVENT.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "label_drawer",
+          "address": "0x060205a0",
+          "expected_zero_bytes": 864,
+          "assembly": ["equipment_ui/label_drawer.s"]
+        },
+        {
+          "name": "label_drawer_pointer",
+          "address": "0x060598a8",
+          "expected": "060584e4",
+          "pointer": "0x060205a0"
+        },
+        {
+          "name": "base_value_alignment",
+          "address": "0x060593e0",
+          "expected": "e6e0",
+          "instruction": "mov #-31, r6"
+        },
+        {
+          "name": "unequip_selection_width",
+          "address": "0x06059780",
+          "expected": "ec18",
+          "instruction": "mov #32, r12"
+        },
+        {
+          "name": "suppress_stock_heading_0",
+          "address": "0x06058a92",
+          "expected": "4a0b",
+          "instruction": "nop"
+        },
+        {
+          "name": "suppress_stock_heading_1",
+          "address": "0x06058b4a",
+          "expected": "400b",
+          "instruction": "nop"
+        }
+      ]
+    },
+    {
+      "capability": "equipment_ui",
+      "target": "NORMCOM.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "label_drawer",
+          "address": "0x060211a0",
+          "expected_zero_bytes": 1632,
+          "assembly": ["equipment_ui/label_drawer.s"]
+        },
+        {
+          "name": "label_drawer_pointer",
+          "address": "0x0603afbc",
+          "expected": "06039c0c",
+          "pointer": "0x060211a0"
+        },
+        {
+          "name": "base_value_alignment",
+          "address": "0x0603aaf4",
+          "expected": "e6e0",
+          "instruction": "mov #-31, r6"
+        },
+        {
+          "name": "unequip_selection_width",
+          "address": "0x0603ae94",
+          "expected": "ec18",
+          "instruction": "mov #32, r12"
+        },
+        {
+          "name": "suppress_stock_heading_0",
+          "address": "0x0603a1ba",
+          "expected": "4a0b",
+          "instruction": "nop"
+        },
+        {
+          "name": "suppress_stock_heading_1",
+          "address": "0x0603a272",
+          "expected": "400b",
+          "instruction": "nop"
+        }
+      ]
+    }
+  ]
+}

@@ -11,7 +11,7 @@ SATURN_ROOT = Path(__file__).resolve().parents[2]
 if str(SATURN_ROOT) not in sys.path:
     sys.path.insert(0, str(SATURN_ROOT))
 
-from engine.battle_negotiation import (  # noqa: E402
+from engine.surfaces.battle_negotiation import (  # noqa: E402
     FONT16_METRICS_PATH,
     OUTPUT_PATH,
     build_battle_negotiation,

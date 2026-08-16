@@ -1009,6 +1009,78 @@
         }
       }
     },
+    "equipment.action": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 4
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 40
+        }
+      }
+    },
+    "equipment.base_stat": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 1
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 23
+        }
+      }
+    },
+    "equipment.derived_stat": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 4
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 48
+        }
+      }
+    },
+    "equipment.item_name": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 80
+        }
+      }
+    },
     "comp.ability_name": {
       "ja": {
         "font": "font8",

@@ -10,8 +10,8 @@ SATURN_ROOT = Path(__file__).resolve().parents[2]
 if str(SATURN_ROOT) not in sys.path:
     sys.path.insert(0, str(SATURN_ROOT))
 
-from engine.build import OUTPUT_PATH, build_event_dialogue  # noqa: E402
-from engine.patching import Patch, PatchError, apply_patches  # noqa: E402
+from engine.build import EVENT_DIALOGUE_OUTPUT_PATH, build_event_dialogue  # noqa: E402
+from engine.core.patching import Patch, PatchError, apply_patches  # noqa: E402
 
 
 class EventDialogueEngineTests(unittest.TestCase):
@@ -20,7 +20,7 @@ class EventDialogueEngineTests(unittest.TestCase):
         cls.outputs = build_event_dialogue()
 
     def test_proven_event_only_patch_is_reproduced(self) -> None:
-        event = self.outputs[OUTPUT_PATH]
+        event = self.outputs[EVENT_DIALOGUE_OUTPUT_PATH]
         self.assertEqual(len(event), 354072)
         self.assertEqual(
             hashlib.sha256(event).hexdigest(),

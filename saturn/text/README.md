@@ -413,8 +413,13 @@ their wording is editable, but they remain recorded consumer-binding debt.
 10. **Complete for `comp.menu` core:** rebuild the COMP help and direct demon
     name tables, then compose the party panels, item/magic grids, full-name
     pointer reader, and ritual decoder into the normal build.
-11. Continue with the separately proved equipment and detailed-status surfaces;
-    do not introduce one global repack or engine capability graph before another
+11. **Complete for `equipment.ui`:** compose the shared COMP and shop equipment
+    labels, item-name readers, stat headings, inventory label, and fixed
+    character-name pool from editable assets on top of the checked EVENT and
+    NORMCOM stages. Its SH-2 implementation is readable source under
+    `engine/asm/`, with surface code isolated under `engine/surfaces/`.
+12. Continue with the separately proved detailed-status surface; do not
+    introduce one global repack or engine capability graph before another
     consumer needs shared machinery.
 
 Extraction verifies source files, decodes every record readably, preserves
