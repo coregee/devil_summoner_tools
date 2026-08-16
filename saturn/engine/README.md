@@ -79,3 +79,34 @@ python saturn/engine/build.py battle.negotiation
 python saturn/engine/build.py battle.negotiation --check
 python saturn/build.py default
 ```
+
+## Shared battle UI
+
+`battle.ui` composes the negotiation runtime with the remaining shared COMBAT
+renderers and the NORMCOM ritual-console reader. It installs the mature FONT8
+VWF paths for party panels, Analyze, lists, and results; the FONT16 Demon Chat
+and help paths; and compact readers for `BTL_SRF.MDT` and `BUTU_SRF.MDT`.
+
+The checked runtime images contain code and fixed layout only. FONT8 widths,
+all 43 Analyze race-heading slots, 319 demon names, 66 compact affinities, both
+result labels, and all six character names are regenerated from the current
+font metrics and human-facing assets before the patches are applied. Item,
+ability, console, help, Demon Chat, and ritual text arrive through the six files
+produced by `text/repack.py battle`. No visible wording is maintained inside
+engine code.
+
+Every patch site verifies its expected input, the two packed readers reject a
+decoded row larger than their 127-word scratch buffers, and all outputs match
+the isolated mature Saturn patches byte-for-byte. The two result labels retain
+the mature runtime's checked storage slots in addition to their measured
+display limit; an oversized edit therefore fails during the build instead of
+overwriting adjacent code.
+
+Run:
+
+```powershell
+python saturn/text/repack.py battle
+python saturn/engine/build.py battle.ui
+python saturn/engine/build.py battle.ui --check
+python saturn/build.py default
+```

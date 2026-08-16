@@ -677,11 +677,11 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font8",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 80
         }
       }
     },
@@ -749,11 +749,11 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font16",
+        "rows": 2,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 300
         }
       }
     },
@@ -767,11 +767,11 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font8",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 80
         }
       }
     },
@@ -893,11 +893,11 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font16",
+        "rows": 2,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 176
         }
       }
     },
@@ -911,11 +911,29 @@
         }
       },
       "en": {
-        "font": null,
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 88
+        }
+      }
+    },
+    "ritual.console": {
+      "ja": {
+        "font": "font16",
         "rows": null,
         "width": {
           "unit": null,
           "value": null
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": null,
+        "width": {
+          "unit": "pixels",
+          "value": 176
         }
       }
     },

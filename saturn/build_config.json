@@ -143,7 +143,7 @@
     },
     {
       "id": "install_battle_negotiation_text",
-      "description": "Install all sixteen battle-negotiation banks and the generated item-name table.",
+      "description": "Install all sixteen battle-negotiation banks.",
       "type": "copy",
       "files": [
         {"source": "text/generated/game/COMBDATA/BOSSTALK.EVE", "destination": "rom/extracted/game/COMBDATA/BOSSTALK.EVE"},
@@ -161,27 +161,45 @@
         {"source": "text/generated/game/COMBDATA/JIJY.EVE", "destination": "rom/extracted/game/COMBDATA/JIJY.EVE"},
         {"source": "text/generated/game/COMBDATA/CYNI.EVE", "destination": "rom/extracted/game/COMBDATA/CYNI.EVE"},
         {"source": "text/generated/game/COMBDATA/TLK_WEST.EVE", "destination": "rom/extracted/game/COMBDATA/TLK_WEST.EVE"},
-        {"source": "text/generated/game/COMBDATA/SLM.EVE", "destination": "rom/extracted/game/COMBDATA/SLM.EVE"},
-        {"source": "text/generated/game/ITEMNAME.DAT", "destination": "rom/extracted/game/ITEMNAME.DAT"}
+        {"source": "text/generated/game/COMBDATA/SLM.EVE", "destination": "rom/extracted/game/COMBDATA/SLM.EVE"}
       ]
     },
     {
-      "id": "build_battle_negotiation_engine",
-      "description": "Build the battle-negotiation variable-width renderer, packed-text reader, and editable substitution tables.",
+      "id": "repack_battle_ui_text",
+      "description": "Compile the battle console, Demon Chat, help, ritual console, and complete item/skill catalogs from authored assets.",
       "type": "python",
-      "script": "engine/build.py",
-      "arguments": ["battle.negotiation"],
-      "check_arguments": ["battle.negotiation", "--check"]
+      "script": "text/repack.py",
+      "arguments": ["battle"],
+      "check_arguments": ["battle", "--check"]
     },
     {
-      "id": "install_battle_negotiation_engine",
-      "description": "Install the COMBAT runtime and its fixed negotiation text.",
+      "id": "install_battle_ui_text",
+      "description": "Install all six file-backed battle and ritual text consumers.",
       "type": "copy",
       "files": [
-        {
-          "source": "engine/generated/game/COMBAT.BIN",
-          "destination": "rom/extracted/game/COMBAT.BIN"
-        }
+        {"source": "text/generated/game/BTL_HELP.DAT", "destination": "rom/extracted/game/BTL_HELP.DAT"},
+        {"source": "text/generated/game/BTL_MES.MD8", "destination": "rom/extracted/game/BTL_MES.MD8"},
+        {"source": "text/generated/game/BTL_SRF.MDT", "destination": "rom/extracted/game/BTL_SRF.MDT"},
+        {"source": "text/generated/game/BUTU_SRF.MDT", "destination": "rom/extracted/game/BUTU_SRF.MDT"},
+        {"source": "text/generated/game/ITEMNAME.DAT", "destination": "rom/extracted/game/ITEMNAME.DAT"},
+        {"source": "text/generated/game/MAGNAME.DAT", "destination": "rom/extracted/game/MAGNAME.DAT"}
+      ]
+    },
+    {
+      "id": "build_battle_ui_engine",
+      "description": "Compose the battle UI renderers and packed record readers onto the negotiation runtime.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["battle.ui"],
+      "check_arguments": ["battle.ui", "--check"]
+    },
+    {
+      "id": "install_battle_ui_engine",
+      "description": "Install the composed COMBAT runtime and the ritual-console NORMCOM decoder.",
+      "type": "copy",
+      "files": [
+        {"source": "engine/generated/game/COMBAT.BIN", "destination": "rom/extracted/game/COMBAT.BIN"},
+        {"source": "engine/generated/game/NORMCOM.BIN", "destination": "rom/extracted/game/NORMCOM.BIN"}
       ]
     },
     {
@@ -216,8 +234,10 @@
         "install_fusion_engine",
         "repack_battle_negotiation_text",
         "install_battle_negotiation_text",
-        "build_battle_negotiation_engine",
-        "install_battle_negotiation_engine",
+        "repack_battle_ui_text",
+        "install_battle_ui_text",
+        "build_battle_ui_engine",
+        "install_battle_ui_engine",
         "repack_visuals",
         "build_discs"
       ],

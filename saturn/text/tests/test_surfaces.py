@@ -254,12 +254,10 @@ class SurfaceCatalogTests(unittest.TestCase):
                 )
 
     def test_unmeasured_limits_remain_explicitly_unknown(self) -> None:
-        demon_chat_en = self.catalog.surface("battle.demon_chat").en
-        self.assertIsNone(demon_chat_en.font)
-        self.assertIsNone(demon_chat_en.rows)
-        self.assertIsNone(demon_chat_en.width.unit)
-        self.assertIsNone(demon_chat_en.width.value)
-        self.assertFalse(demon_chat_en.width.known)
+        ritual_ja = self.catalog.surface("ritual.console").ja
+        self.assertEqual(ritual_ja.font, "font16")
+        self.assertIsNone(ritual_ja.rows)
+        self.assertFalse(ritual_ja.width.known)
 
         fusion_help_ja = self.catalog.surface("fusion.help").ja
         self.assertEqual((fusion_help_ja.font, fusion_help_ja.rows), ("font12", 1))
@@ -268,7 +266,6 @@ class SurfaceCatalogTests(unittest.TestCase):
 
     def test_demon_surface_slots_are_recorded_without_guessed_limits(self) -> None:
         known_font_rows = {
-            "battle.party_demon_name": ("font8", 1),
             "comp.party_demon_name": ("font8", 1),
             "comp.stock_demon_name": ("font8", 1),
             "status.demon_name": ("font16", 1),
@@ -281,6 +278,17 @@ class SurfaceCatalogTests(unittest.TestCase):
                 self.assertIsNone(surface.en.font)
                 self.assertIsNone(surface.en.rows)
                 self.assertFalse(surface.en.width.known)
+
+        battle_party = self.catalog.surface("battle.party_demon_name").en
+        self.assertEqual(
+            (
+                battle_party.font,
+                battle_party.rows,
+                battle_party.width.unit,
+                battle_party.width.value,
+            ),
+            ("font8", 1, "pixels", 80),
+        )
 
         battle_analyze = self.catalog.surface("battle.analyze_demon_name")
         self.assertEqual(

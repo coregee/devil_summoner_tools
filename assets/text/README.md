@@ -64,6 +64,7 @@ assets/text/
   terminology/
   negotiation/<speaking-style>.json
   battle/
+  ritual/
   field/
   fusion/
   facilities/
@@ -361,6 +362,11 @@ remain lossless tokens until their behavior is proved, while `{NUM}` and
 `{demon_name}` are editable templates with typed runtime values. The mature
 Saturn output is the translation oracle; identical PSP text can bind these same
 fields without being copied.
+
+The ritual console is a separate authored consumer under `ritual/console.json`.
+Its 64 visible fields bind to 64 of the 144 physical `BUTU_SRF` slots; blank
+slots remain physical evidence rather than empty editor rows. Sharing with
+Demon Chat is never inferred from equal wording or similar presentation.
 
 After bindings cover the authored corpus, translations in the generated
 physical catalogue will be removed or generated from these assets. There must

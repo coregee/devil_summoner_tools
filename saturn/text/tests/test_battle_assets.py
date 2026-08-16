@@ -240,11 +240,11 @@ class BattleAssetTests(unittest.TestCase):
             ),
             "battle.demon_chat": (
                 ("font16", 2, "glyph_cells", 11),
-                (None, None, None, None),
+                ("font16", 2, "pixels", 176),
             ),
             "battle.help": (
                 ("font16", 2, "glyph_cells", 20),
-                (None, None, None, None),
+                ("font16", 2, "pixels", 300),
             ),
             "battle.negotiation_choice": (
                 ("font16", 1, "glyph_cells", 10),

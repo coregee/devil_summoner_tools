@@ -369,6 +369,24 @@ Row 4: "ITEM"
 Rows 5-7(?): Items obtained from the battle, if any; else empty
 Bottom row: "ませき" [number of lifestones obtained] "ほうぎょく" [number of beads obtained]
 
+The translated shared battle runtime now covers the party names, Analyze race
+heading/name/affinity fields, item and skill lists, the help strip, Demon Chat,
+result names and labels, and the complete fixed-width console bank. Its measured
+English limits are 80 pixels for item, skill, and party names; 112 pixels for
+Analyze names and affinities; 300 pixels by two rows for help; 176 pixels by two
+rows for Demon Chat; and 88 pixels for result names. The Analyze race heading is
+an eight-cell FONT8 record rather than a measured variable-width slot.
+
+### Ritual Console
+
+The NORMCOM ritual sequence uses its own `BUTU_SRF.MDT` FONT16 pointer bank. It
+is not a Demon Chat alias even though both are console-like overlays. All 144
+physical rows remain catalogued; 64 visible rows bind to independently editable
+`ritual/console.json` fields and the other 80 remain blank binary evidence. The
+translated renderer has a proved 176-pixel width. Its row count has not yet been
+measured and remains explicitly unknown rather than borrowing Demon Chat's
+two-row contract.
+
 
 ### COMP Menu
 

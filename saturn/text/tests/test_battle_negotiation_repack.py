@@ -62,7 +62,7 @@ class BattleNegotiationRepackTests(unittest.TestCase):
             hashlib.sha256(
                 self.outputs[TEXT_ROOT / "generated" / "game" / "ITEMNAME.DAT"]
             ).hexdigest(),
-            "e8a0531f751dabdc18a9e4446711ee23c42156444039039d930e715cca9d87ef",
+            "ef7529cb8d5b3ace761172c79c9359a7d588bfda0260a00c754dfdec8e2be140",
         )
 
     def test_manifest_covers_every_translator_facing_page(self) -> None:
@@ -74,7 +74,9 @@ class BattleNegotiationRepackTests(unittest.TestCase):
                 "dialogue_pages": 9920,
                 "fixed_messages": 117,
                 "item_names": 287,
-                "total": 10324,
+                "item_descriptions": 287,
+                "translated_item_descriptions": 265,
+                "total": 10611,
             },
         )
         self.assertEqual(set(document["outputs"]), {

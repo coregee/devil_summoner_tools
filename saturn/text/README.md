@@ -6,12 +6,12 @@ the source encoding used to turn its code units into readable text. Source
 encodings never name a game file.
 
 Repacking uses the same separation in the other direction. The complete
-general `event.dialogue` and `battle.negotiation` surfaces, plus the supported
-shop/facility portion of the mixed `SHOPSMP.EVE` bank, are compiled from shared
-authored assets. Physical containers own pointers, terminators, capacity, and
-round-trip validation. Canonical translations live under the repository-level
-`assets/text` tree; the physical corpus remains binary evidence rather than an
-editing interface.
+general `event.dialogue`, `battle.negotiation`, and shared `battle.ui` surfaces,
+plus the supported shop/facility portion of the mixed `SHOPSMP.EVE` bank, are
+compiled from shared authored assets. Physical containers own pointers,
+terminators, capacity, and round-trip validation. Canonical translations live
+under the repository-level `assets/text` tree; the physical corpus remains
+binary evidence rather than an editing interface.
 
 ## Layout
 
@@ -33,8 +33,8 @@ editing interface.
 - `extract.py` verifies source identity and regenerates the complete corpus.
 - `event_inventory.py` builds an ignored scene-curation report for the four
   general event banks.
-- `repack.py` builds general EVENT, shop/facility dialogue, and battle
-  negotiation.
+- `repack.py` builds general EVENT, shop/facility dialogue, battle negotiation,
+  and the file-backed battle and ritual consumers.
 
 Extraction reads its evidence directly from the verified original disc, never
 from the writable build mirror. The mirror may therefore contain translated
@@ -97,6 +97,8 @@ python saturn/text/repack.py shopsmp
 python saturn/text/repack.py shopsmp --check
 python saturn/text/repack.py negotiation
 python saturn/text/repack.py negotiation --check
+python saturn/text/repack.py battle
+python saturn/text/repack.py battle --check
 python -m unittest discover -s saturn/text/tests -v
 ```
 
@@ -140,11 +142,28 @@ structural controls and are preserved directly. Every rebuilt bank is
 byte-identical to the mature Saturn output.
 
 The same target compiles 113 condition messages and four provisioning labels
-into `COMBAT.BIN`. It creates complete editable FONT8 item names for runtime
-item substitutions while leaving ITEMNAME descriptions untouched until their
-own consumer is ported. The engine stage consumes this generated `COMBAT.BIN`;
-the normal build installs the final engine output rather than the intermediate
-text-only file.
+into `COMBAT.BIN`. It also compiles the complete `ITEMNAME.DAT` catalogue so
+runtime item substitutions and descriptions always come from one asset-backed
+output. The engine stage consumes this generated `COMBAT.BIN`; the normal build
+installs the final engine output rather than the intermediate text-only file.
+
+## Shared battle UI repacking
+
+The `battle` target rebuilds all six file-backed consumers used by the shared
+battle runtime: `BTL_MES.MD8`, `BTL_SRF.MDT`, `BTL_HELP.DAT`, `ITEMNAME.DAT`,
+`MAGNAME.DAT`, and the ritual console's `BUTU_SRF.MDT`. It resolves 313 visible
+small-font console rows, 203 visible Demon Chat rows, all 19 help records, all
+542 item and ability records with their separate names and descriptions, and
+64 visible ritual-console rows. The remaining physical pointer slots stay
+intact as binary evidence; BTL_MES has 29 unbound blank rows and one deliberately
+bound blank row, while BTL_SRF has 160 blank rows.
+
+The byte and word pointer banks are compacted into their proved translated body
+locations and reparsed under exact capacity checks. Item and ability names are
+allocated into verified description padding and selected by the mature runtime's
+per-record pointer without changing the 96-byte record shape. All six outputs
+are byte-identical to the trusted mature Saturn build. There is no fallback to
+hand-maintained runtime prose.
 
 The game manifest covers 47 physical files and 59 source groups. Its four
 container types are EVE banks, pointer banks, fixed records with subfields, and
@@ -281,10 +300,14 @@ become a guessed constraint.
 
 The English event and battle-negotiation windows are separate consumers with
 the documented 300-pixel, three-row patch geometry. The battle console is fixed
-at 16 cells by three rows in both languages. Demon Chat is 11 Japanese cells by
-two rows, and battle help is 20 Japanese cells by two rows. The negotiation
-choice field is 10 Japanese cells or 150 translated pixels on one row. Unknown
-translated help and Demon Chat measurements remain explicit `null`s. Location
+at 16 cells by three rows in both languages. Demon Chat is 11 Japanese cells or
+176 translated pixels by two rows, and battle help is 20 Japanese cells or 300
+translated pixels by two rows. Battle item, skill, and party names use measured
+80-pixel rows; Analyze names and compact affinities use 112 pixels, while its
+race heading remains an eight-cell fixed FONT8 field. The result-name field is
+88 pixels. The ritual console has a proved 176-pixel English width, but its row
+count remains explicit `null` until measured. The negotiation choice field is
+10 Japanese cells or 150 translated pixels on one row. Location
 contracts now distinguish
 the two-row 64-pixel 3D name, its 64-pixel floor row, the 112-pixel automap text
 after the runtime-owned marker icon, and the 144-pixel save/load label. Other
@@ -368,7 +391,10 @@ their wording is editable, but they remain recorded consumer-binding debt.
 8. **Complete for `battle.negotiation`:** rebuild all sixteen EVE banks, fixed
    prompts and conditions, dynamic names/items, and port the surface renderer
    and packed fetch hook into the normal disc build.
-9. Continue surface by surface; do not introduce one global repack or engine
+9. **Complete for `battle.ui`:** rebuild the console, Demon Chat, help, ritual,
+   item, and ability text banks; port the shared battle renderers, Analyze and
+   result fields, dynamic names, and both packed readers into the normal build.
+10. Continue surface by surface; do not introduce one global repack or engine
    capability graph before another consumer needs shared machinery.
 
 Extraction verifies source files, decodes every record readably, preserves
