@@ -5,12 +5,12 @@ live, a container describes how those records are framed, and each record names
 the source encoding used to turn its code units into readable text. Source
 encodings never name a game file.
 
-Repacking uses the same separation in the other direction. The first complete
-output surface is `event.dialogue`: the four general EVENT banks are compiled
-from shared authored assets, while the EVE container owns pointers,
-terminators, capacity, and round-trip validation. Canonical translations live
-under the repository-level `assets/text` tree; the physical corpus remains
-binary evidence rather than an editing interface.
+Repacking uses the same separation in the other direction. The complete
+`event.dialogue` and `battle.negotiation` surfaces are compiled from shared
+authored assets, while physical containers own pointers, terminators, capacity,
+and round-trip validation. Canonical translations live under the
+repository-level `assets/text` tree; the physical corpus remains binary
+evidence rather than an editing interface.
 
 ## Layout
 
@@ -32,7 +32,7 @@ binary evidence rather than an editing interface.
 - `extract.py` verifies source identity and regenerates the complete corpus.
 - `event_inventory.py` builds an ignored scene-curation report for the four
   general event banks.
-- `repack.py` currently builds the complete `event.dialogue` surface.
+- `repack.py` builds the complete general EVENT and battle-negotiation surfaces.
 
 Extraction reads its evidence directly from the verified original disc, never
 from the writable build mirror. The mirror may therefore contain translated
@@ -91,6 +91,8 @@ python saturn/text/extract.py compendium --check
 python saturn/text/event_inventory.py
 python saturn/text/repack.py event
 python saturn/text/repack.py event --check
+python saturn/text/repack.py negotiation
+python saturn/text/repack.py negotiation --check
 python -m unittest discover -s saturn/text/tests -v
 ```
 
@@ -108,6 +110,20 @@ Saturn output. `generated/game/event_build.json` binds that codec, the current
 FONT16 metrics, and the exact digest of every rebuilt bank. All four outputs
 are byte-identical to the mature Saturn translation build; this is enforced as
 a regression oracle rather than assumed from matching strings.
+
+## Battle-negotiation repacking
+
+The negotiation compiler rebuilds `BOSSTALK.EVE` and all fifteen personality
+banks from 9,920 bound physical pages. Six additional messages contain only
+structural controls and are preserved directly. Every rebuilt bank is
+byte-identical to the mature Saturn output.
+
+The same target compiles 113 condition messages and four provisioning labels
+into `COMBAT.BIN`. It creates complete editable FONT8 item names for runtime
+item substitutions while leaving ITEMNAME descriptions untouched until their
+own consumer is ported. The engine stage consumes this generated `COMBAT.BIN`;
+the normal build installs the final engine output rather than the intermediate
+text-only file.
 
 The game manifest covers 47 physical files and 59 source groups. Its four
 container types are EVE banks, pointer banks, fixed records with subfields, and
@@ -313,8 +329,8 @@ their wording is editable, but they remain recorded consumer-binding debt.
    likewise need no PSP copies. All 19 physical profile-entry records retain
    exact semantic bindings, including the three deliberate same-source forks;
    the opening event workflow adds 18 mature Saturn pages to the same shared
-   profile-entry asset without creating a platform-specific copy. The rest of
-   All four general-event banks are also complete: 1,103 text-bearing message
+   profile-entry asset without creating a platform-specific copy. All four
+   general-event banks are also complete: 1,103 text-bearing message
    groups and 2,028 physical pages bind to 1,890 human-facing fields arranged by
    location, scene, or consumer rather than by event-bank coordinates. Their 138
    repeat and cross-bank uses are explicit binding fan-out instead of duplicated
@@ -328,7 +344,10 @@ their wording is editable, but they remain recorded consumer-binding debt.
 7. **Complete for `event.dialogue`:** port the surface-bound VWF renderer and
    packed fetch hook, then integrate both text and engine outputs into the
    normal disc build.
-8. Continue surface by surface; do not introduce one global repack or engine
+8. **Complete for `battle.negotiation`:** rebuild all sixteen EVE banks, fixed
+   prompts and conditions, dynamic names/items, and port the surface renderer
+   and packed fetch hook into the normal disc build.
+9. Continue surface by surface; do not introduce one global repack or engine
    capability graph before another consumer needs shared machinery.
 
 Extraction verifies source files, decodes every record readably, preserves

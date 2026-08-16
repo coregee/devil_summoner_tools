@@ -1,0 +1,385 @@
+{
+  "version": 1,
+  "surface": "battle.negotiation",
+  "target": {
+    "path": "COMBAT.BIN",
+    "load_address": "0x06020000",
+    "size": 351064,
+    "stock_sha256": "56a5c4b90d32d81c0668d6a0a3885c7784964b4ae5f02f318749403cd9360c56"
+  },
+  "inputs": {
+    "font16_metrics_sha256": "3ce6e6c916da3f4bc3c7a702c9ae07f84519185a45e2f733c13726cab6532fa3",
+    "font8_metrics_sha256": "8a94b96050127988e9d4b330f5e4ea8626830a5cfc5efa7da6d0ac8f98979d7e",
+    "event_runtime_table_sha256": "4f7299d542afd0d9350824e63943893ae95f4d710c93d7df09bff5bba6c26aad"
+  },
+  "dynamic_regions": {
+    "kyouji_name": {
+      "address": "0x060219c6",
+      "bytes": 58
+    },
+    "english_insert_data": {
+      "address": "0x06024000",
+      "bytes": 7424
+    }
+  },
+  "groups": [
+    {
+      "id": "combat_packed_fetch",
+      "patches": [
+        {
+          "name": "dispatch_cave",
+          "address": "0x06021000",
+          "expected_zero_bytes": 1021,
+          "replacement": "6043401970f8e178301289552f862f962fa62fb62fc62fd62fe64f2268436c836ccc2cc889ffd1336d106ddc2dd88900dd31481978f8de316b83e03f3b028b117bc14b084b00d92e39bc6a946aac6494644c24488b009461b02700094a108bf6a006000964b324488b009457b01d00092cc889046bc3ec007bf8afde00092dd88909904c2d01d11fe0012101d11a6411644d4e0b00094f266ef66df66cf66bf66af669f668f6000b00092dd889022d41000b7d024e2b0009d010402b00094f22d10ce0012100d010400b0009d109e20021204f26000b00094f226643d10b36108b05d00b400b0009d10a412b0009d00a402b0009060213fc06073fa8060210d80602120006073fd20602100000008010060504f806051d2c06051d44010b8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002290000000000000233390000000000023800000000000002382c0000000000022d3200000000000237000000000000033d333900000000022936000000000002253200000000000233320000000000023300000000000002303000000000000213000000000000023d0000000000000228000000000000022c250000000000032d322b00000000022932000000000002333600000000000225360000000000043d3339000000000231290000000000023738000000000003303000000000000229250000000000022d3800000000000225000000000000042d322b0000000003233339000000000237290000000000033833000000000002333b0000000000032d370000000000033a29000000000004382c2900000000022b2c00000000000331290000000000022538000000000002333300000000000236290000000000022a000000000000021e2c000000000002302d0000000000023100000000000004233339000000000329360000000000022c290000000000023233000000000002191f0000000000042c25380000000003253800000000000230290000000000032a3336000000000329320000000000023b2d00000000000236000000000000032f2900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "name": "dispatch_hook",
+          "address": "0x06051d1c",
+          "expected": "4f226643d14736108b0ed047",
+          "replacement": "d048402b0009000900090009"
+        },
+        {
+          "name": "dispatch_cave_pointer",
+          "address": "0x06051e40",
+          "expected": "00008010",
+          "replacement": "06021000"
+        },
+        {
+          "name": "dialogue_dispatch_pointer_0",
+          "address": "0x060597b8",
+          "expected": "06051d1c",
+          "replacement": "060210be"
+        }
+      ]
+    },
+    {
+      "id": "combat_vwf",
+      "patches": [
+        {
+          "name": "dialogue_vwf_cave",
+          "address": "0x06021400",
+          "expected_zero_bytes": 1478,
+          "replacement": "2f862f962fa62fb62fc62fd62fe66a43695365636673d13a681251f7641d440844084400384c5bf86bbc5cf96ccced00616331dc611d219e021a6353332c6184611c41186284622c212b6033c903e7043708410047108bfc62334209322c32ace705601340194019c90f20088d0a300cd424044d2b4ede240eed602120e90e1a30ec220141084108720247108be9e10f3d1089296233329c7201618371fe6e146eec4e186110611c2e1b6023c903e70437084e0047108bfc61234109311c31ace70560e340194019c90f20088d07300cd40c044d2c4e041a6011304c21014e084e08710247108bec7d01e1103d108b9f6ef66df66cf66bf66af669f6000b68f6060721e00606f1240606f1442f862f962fa62fb62fc62fd62fe64f22ee00d040610021188b03ee01d03e400b0009e800eb0060839188201e001adc3b3c0c60839183201e001add393d0ce900ea0a64c5644d67d02448892190783400891ad0343400891a90733a02891db04a000965a33a0c926c3a26891666b32ee88b0147118b0ce07f27096073cb802d00b01c0009a00400097a10a00100099a597d017901e06439028bd378017b10e00338028bc0d01be10120104f266ef66df66cf66bf66af669f6000b68f62f862f962fa62fb64f22684369536a636b7360b370012f062fb62f86d41364429533669367a3d012400b00097f0c4f266bf66af669f6000b68f6604dd10d30128907d10d6112d20d312c001c600c20088b00e010000b000906021a04060515b4060260000602625800007fff060721dc060214000000010c060721e00000d80000c8006407ff013600a001402f862f962fa62fb62fc64f2268436953ea00eb0aec003a9289166485644d2448890f901d34008907d00c34008907bfbe00093b0ca00500097b10a00200099b10ec017a01afe7000960b361c34f266cf66bf66af669f6000b68f6000000007fff07ff00a02f862f962fa62fb62fc62fd62fe64f22686390c33800894790c13800895328888b0098bd90bd38028b0a91bb3812890764833408b0bb000920088b7ea08b0009d04b61002118894ae2023120890be203312089216483bf780009d1466211320c2121a0780009e1002010d0426c016ccddb41ea1564b5644d604f40118b05bf6400093c0c4a108bf5000964c3b08f000920088b58a023000978ffd0362081d034e1022010a0570009d031610021188903e1032010a04f0009e1012010d02de1002011a0480009d02ae1002010d0296401644db06c000920088b2fa03c0009906238008b009860d1256910699ce0643902892ed3236a306aace0033a028b00ea0260a39452204e001ad41e340c6093309cb0de0009048560a39448204e001ad41a340cd01a63006033c97f6303609304347901d1122190a00b0009d115621272fe2122a0030009d113e2002121a004e0fee001a0010009e0ff4f266ef66df66cf66bf66af669f668f6d10b412b0009000006021a0006021a0206073fa8060740990607409a06026000060262580607409b06073fd806073fd206051f6a07fc07fd07ff075007fc07fe010b00c800642f862f962fa64f226843d0156900699c2998891dd0146a006aace0033a02891a60a39124201e001ad410340c6593bede000921188b0c308c911a30168b08e0023a0289087a01d00720a0d005e1002010e000a0010009e0014f266af669f6000b68f6060740990607409a0602600000c801362f86d12fe0002100d12e2100d12e2100d12e2100d12e2101d12ed22f9862210171022200720148108bf9000b68f62f86d123e0002100d1232100d1232100d1232100d1232101d123924d312cd222934b323c984a210171022200720148108bf9000b68f6d319e2002320d31923216043e1012109e2320217021a7201d3102320c90240017001d310230021188908922a202e001ad20f320c9028320cd00f2201000b0009d107e0002100d10d412b0009014d21188902d103e2002120000b00090607409906021a040607409a06021a0006021a02060260000602625800007fff060515b4012c00c8006400c80064"
+        },
+        {
+          "name": "english_insert_code",
+          "address": "0x06025d00",
+          "expected_zero_bytes": 304,
+          "replacement": "6143d037600231028b0f3108d0353102890b4109410141006013d433014d611dd432341cd032402b0009d032402b0009d03134008916d031340089166143d03031028b2dd22f3122892a31084109410141006013d42c014d611dd424341cd024402b0009d029a0026102d02961026213d028220922288b1321188911d0263102890e71ffe2600127d0246202041a342c6143715e6011600d302c6403a0030009d013402b0009d21ee3136044600c2008890ae1ff611c301089064000d119001d2201720243108bf0903022017202902e2201d115e0012101d1116011000b600d06072220000009f806024000060244d406051a9406051ae00607c08c0607c0a4060743c0060745180602427e0607c0d40607c0d860000000000001200607221c06073fa8060242d406073fd280208000"
+        },
+        {
+          "name": "compact_name_insert_pointer",
+          "address": "0x06051e4c",
+          "expected": "06051ae0",
+          "replacement": "06025d00"
+        },
+        {
+          "name": "fullword_insert_pointer",
+          "address": "0x06051e8c",
+          "expected": "06051a94",
+          "replacement": "06025d30"
+        },
+        {
+          "name": "combat_stock_kyouji_pointer",
+          "address": "0x06051e94",
+          "expected": "0607451c",
+          "replacement": "060219c6"
+        },
+        {
+          "name": "dialogue_renderer_pointer",
+          "address": "0x060598e8",
+          "expected": "06051a08",
+          "replacement": "0602150c"
+        },
+        {
+          "name": "dialogue_store_hook",
+          "address": "0x06051ee6",
+          "expected": "d2266120631c33768f13e113",
+          "replacement": "d001402b0009060216b80009"
+        },
+        {
+          "name": "dialogue_external_surface_clear_06053a20",
+          "address": "0x06053a20",
+          "expected": "060515b4",
+          "replacement": "0602197c"
+        },
+        {
+          "name": "dialogue_external_surface_clear_06053fe4",
+          "address": "0x06053fe4",
+          "expected": "060515b4",
+          "replacement": "0602197c"
+        },
+        {
+          "name": "dialogue_typewriter_relocate_input_reader_0",
+          "address": "0x06059436",
+          "expected": "db52",
+          "replacement": "db8d"
+        },
+        {
+          "name": "dialogue_typewriter_relocate_input_reader_1",
+          "address": "0x060594c2",
+          "expected": "d02f",
+          "replacement": "d06a"
+        },
+        {
+          "name": "dialogue_typewriter_relocate_input_reader_2",
+          "address": "0x06059540",
+          "expected": "d00f",
+          "replacement": "d04a"
+        },
+        {
+          "name": "dialogue_typewriter_relocate_input_mask_0",
+          "address": "0x06059442",
+          "expected": "d050",
+          "replacement": "d086"
+        },
+        {
+          "name": "dialogue_typewriter_relocate_input_mask_1",
+          "address": "0x0605947a",
+          "expected": "d042",
+          "replacement": "d078"
+        },
+        {
+          "name": "dialogue_typewriter_relocate_input_mask_2",
+          "address": "0x060594cc",
+          "expected": "d02d",
+          "replacement": "d063"
+        },
+        {
+          "name": "dialogue_typewriter_relocate_input_mask_3",
+          "address": "0x06059502",
+          "expected": "d020",
+          "replacement": "d056"
+        },
+        {
+          "name": "dialogue_typewriter_relocate_input_mask_4",
+          "address": "0x0605954a",
+          "expected": "d00e",
+          "replacement": "d044"
+        },
+        {
+          "name": "dialogue_typewriter_relocate_input_ack_0",
+          "address": "0x0605945e",
+          "expected": "d14a",
+          "replacement": "d180"
+        },
+        {
+          "name": "dialogue_typewriter_relocate_input_ack_1",
+          "address": "0x0605949a",
+          "expected": "d13b",
+          "replacement": "d171"
+        },
+        {
+          "name": "dialogue_typewriter_relocate_input_ack_2",
+          "address": "0x060594e8",
+          "expected": "d127",
+          "replacement": "d15d"
+        },
+        {
+          "name": "dialogue_typewriter_relocate_input_ack_3",
+          "address": "0x06059522",
+          "expected": "d119",
+          "replacement": "d14f"
+        },
+        {
+          "name": "dialogue_typewriter_relocate_input_ack_4",
+          "address": "0x06059566",
+          "expected": "d108",
+          "replacement": "d13e"
+        },
+        {
+          "name": "dialogue_typewriter_relocate_alternate_reader_0",
+          "address": "0x06059470",
+          "expected": "d048",
+          "replacement": "d079"
+        },
+        {
+          "name": "dialogue_typewriter_relocate_alternate_reader_1",
+          "address": "0x060594f8",
+          "expected": "d026",
+          "replacement": "d057"
+        },
+        {
+          "name": "dialogue_typewriter_relocate_dialogue_state_0",
+          "address": "0x060594b6",
+          "expected": "db38",
+          "replacement": "dbc4"
+        },
+        {
+          "name": "dialogue_typewriter_relocate_dialogue_state_1",
+          "address": "0x0605952e",
+          "expected": "db1a",
+          "replacement": "dba6"
+        },
+        {
+          "name": "dialogue_typewriter_reset_budget",
+          "address": "0x06059640",
+          "expected": "d1096110",
+          "replacement": "bf9e0009"
+        },
+        {
+          "name": "dialogue_typewriter_continue_through_pending_selector",
+          "address": "0x060596fa",
+          "expected": "8def",
+          "replacement": "8dbd"
+        },
+        {
+          "name": "dialogue_typewriter_continue_after_first_visible_glyph",
+          "address": "0x06059720",
+          "expected": "a0a8200b",
+          "replacement": "af380009"
+        },
+        {
+          "name": "dialogue_typewriter_reset_helper",
+          "address": "0x06059580",
+          "expected": "06050450060728ec060504e4",
+          "replacement": "d1396110ec013c1c000b0009"
+        },
+        {
+          "name": "dialogue_typewriter_visible_helper",
+          "address": "0x06059594",
+          "expected": "060504a006073f9e",
+          "replacement": "4c108b6fa16c0009"
+        },
+        {
+          "name": "dialogue_clear_pointer_06052840",
+          "address": "0x06052840",
+          "expected": "06051478",
+          "replacement": "060218d8"
+        },
+        {
+          "name": "dialogue_clear_pointer_06052954",
+          "address": "0x06052954",
+          "expected": "06051478",
+          "replacement": "060218d8"
+        },
+        {
+          "name": "dialogue_clear_pointer_06052b3c",
+          "address": "0x06052b3c",
+          "expected": "06051478",
+          "replacement": "060218d8"
+        },
+        {
+          "name": "dialogue_clear_pointer_060547c0",
+          "address": "0x060547c0",
+          "expected": "06051478",
+          "replacement": "060218d8"
+        },
+        {
+          "name": "dialogue_clear_pointer_06054c68",
+          "address": "0x06054c68",
+          "expected": "06051478",
+          "replacement": "060218d8"
+        },
+        {
+          "name": "dialogue_clear_pointer_06054e88",
+          "address": "0x06054e88",
+          "expected": "06051478",
+          "replacement": "060218d8"
+        },
+        {
+          "name": "dialogue_clear_pointer_06057f54",
+          "address": "0x06057f54",
+          "expected": "06051478",
+          "replacement": "060218d8"
+        },
+        {
+          "name": "dialogue_clear_pointer_060589c8",
+          "address": "0x060589c8",
+          "expected": "06051478",
+          "replacement": "060218d8"
+        },
+        {
+          "name": "dialogue_clear_pointer_06058d14",
+          "address": "0x06058d14",
+          "expected": "06051478",
+          "replacement": "060218d8"
+        },
+        {
+          "name": "dialogue_clear_pointer_0605958c",
+          "address": "0x0605958c",
+          "expected": "06051478",
+          "replacement": "060218d8"
+        },
+        {
+          "name": "dialogue_clear_pointer_06059664",
+          "address": "0x06059664",
+          "expected": "06051478",
+          "replacement": "060218d8"
+        },
+        {
+          "name": "dialogue_clear_pointer_060598e4",
+          "address": "0x060598e4",
+          "expected": "06051478",
+          "replacement": "060218d8"
+        },
+        {
+          "name": "dialogue_partial_clear_pointer_06052854",
+          "address": "0x06052854",
+          "expected": "06051518",
+          "replacement": "06021906"
+        },
+        {
+          "name": "dialogue_partial_clear_pointer_06052a5c",
+          "address": "0x06052a5c",
+          "expected": "06051518",
+          "replacement": "06021906"
+        },
+        {
+          "name": "dialogue_partial_clear_pointer_06052c68",
+          "address": "0x06052c68",
+          "expected": "06051518",
+          "replacement": "06021906"
+        },
+        {
+          "name": "dialogue_partial_clear_pointer_0605377c",
+          "address": "0x0605377c",
+          "expected": "06051518",
+          "replacement": "06021906"
+        },
+        {
+          "name": "dialogue_partial_clear_pointer_06054558",
+          "address": "0x06054558",
+          "expected": "06051518",
+          "replacement": "06021906"
+        },
+        {
+          "name": "choice_position_pointer_0605285c",
+          "address": "0x0605285c",
+          "expected": "06051568",
+          "replacement": "0602193c"
+        },
+        {
+          "name": "choice_position_pointer_06052a64",
+          "address": "0x06052a64",
+          "expected": "06051568",
+          "replacement": "0602193c"
+        },
+        {
+          "name": "choice_position_pointer_06052c70",
+          "address": "0x06052c70",
+          "expected": "06051568",
+          "replacement": "0602193c"
+        },
+        {
+          "name": "choice_position_pointer_06053784",
+          "address": "0x06053784",
+          "expected": "06051568",
+          "replacement": "0602193c"
+        },
+        {
+          "name": "combat_codename_pointer",
+          "address": "0x06074518",
+          "expected": "002029c0",
+          "replacement": "0023fe14"
+        },
+        {
+          "name": "combat_codename_capacity",
+          "address": "0x06051ddc",
+          "expected": "720c",
+          "replacement": "7210"
+        }
+      ]
+    }
+  ]
+}

@@ -434,6 +434,46 @@ def load_physical_records(
     return _physical_records(corpus_root)
 
 
+def load_bound_translations(
+    prefixes: tuple[str, ...],
+    *,
+    required_ids: set[str] | frozenset[str] | None = None,
+) -> Mapping[str, str]:
+    """Resolve primary Saturn physical records to their authored translations."""
+    if not prefixes or any(not prefix for prefix in prefixes):
+        raise ValueError("binding prefixes must be nonempty")
+    physical = load_physical_records()
+    catalogs: dict[PurePosixPath, AssetCatalog] = {}
+    translations: dict[str, str] = {}
+    for path in sorted(BINDING_ROOT.glob("*.json")):
+        if not any(prefix in path.read_text(encoding="utf-8") for prefix in prefixes):
+            continue
+        binding = load_binding(path, physical_records=physical)
+        catalog = catalogs.setdefault(binding.asset, load_asset(binding.asset))
+        for physical_id, asset_ref in binding.records.items():
+            if not physical_id.startswith(prefixes):
+                continue
+            if required_ids is not None and physical_id not in required_ids:
+                continue
+            if physical_id in translations:
+                raise ValueError(f"physical record has two authored owners: {physical_id}")
+            _reference, translation, _reviewed = catalog.field(asset_ref).resolve(
+                binding.variants.get(physical_id)
+            )
+            if not translation:
+                raise ValueError(f"physical record is untranslated: {physical_id}")
+            translations[physical_id] = translation
+
+    if required_ids is not None:
+        missing = sorted(set(required_ids) - set(translations))
+        extra = sorted(set(translations) - set(required_ids))
+        if missing or extra:
+            raise ValueError(
+                f"binding coverage differs: {len(missing)} missing, {len(extra)} extra"
+            )
+    return MappingProxyType(translations)
+
+
 def load_binding(
     path: Path,
     *,

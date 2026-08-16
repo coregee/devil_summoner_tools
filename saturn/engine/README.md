@@ -36,3 +36,26 @@ python -m unittest discover -s saturn/engine/tests -v
 Runtime code owns rendering, decoding, and substitution mechanics only. All
 visible words, punctuation, symbols, and complete templates continue to come
 from `assets/text` through explicit Saturn bindings.
+
+## Battle negotiation
+
+`config/battle_negotiation.json` binds the player-facing negotiation window and
+choice fields to the proved COMBAT renderer and packed-text reader. The window
+uses the same FONT16, 300-pixel, three-row display geometry as general EVENT;
+choices use the renderer's measured 150-pixel column geometry.
+
+The executable patch image remains fixed data. Demon names, race labels, item
+names, and Kyouji's full name are rebuilt separately from shared authored
+assets, so no visible runtime string is hand-maintained in engine code. The
+dynamic pool matches the mature Saturn output while leaving growth space before
+the fixed insertion routine. Condition messages and provisioning choices arrive
+through the text build's generated `COMBAT.BIN`.
+
+Run:
+
+```powershell
+python saturn/text/repack.py negotiation
+python saturn/engine/build.py battle.negotiation
+python saturn/engine/build.py battle.negotiation --check
+python saturn/build.py default
+```

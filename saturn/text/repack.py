@@ -19,6 +19,13 @@ if str(SATURN_ROOT) not in sys.path:
 from rom.util.catalog import load_catalog, validate_source  # noqa: E402
 from rom.util.workflows import read_source_files  # noqa: E402
 from util.event_codec import load_event_dictionary  # noqa: E402
+from util.battle_negotiation import (  # noqa: E402
+    NEGOTIATION_EVE_SOURCES,
+    compile_combat_fixed_text,
+    compile_item_names,
+    compile_negotiation_banks,
+    load_negotiation_translations,
+)
 from util.event_repack import (  # noqa: E402
     GENERAL_EVENT_SOURCES,
     FontMetrics,
@@ -31,7 +38,9 @@ from util.sources import load_manifest, manifest_path  # noqa: E402
 GENERATED_ROOT = TEXT_ROOT / "generated" / "game"
 CODEC_PATH = TEXT_ROOT / "config" / "event_codec.json"
 FONT16_METRICS_PATH = SATURN_ROOT / "font" / "generated" / "game" / "FONT16_metrics.json"
+FONT8_METRICS_PATH = SATURN_ROOT / "font" / "generated" / "game" / "FONT8_metrics.json"
 EVENT_BUILD_PATH = GENERATED_ROOT / "event_build.json"
+NEGOTIATION_BUILD_PATH = GENERATED_ROOT / "battle_negotiation_build.json"
 
 
 def _stock_files(paths: tuple[PurePosixPath, ...]) -> dict[PurePosixPath, bytes]:
@@ -116,6 +125,67 @@ def build_event_outputs() -> dict[Path, bytes]:
     return output
 
 
+def build_negotiation_outputs() -> dict[Path, bytes]:
+    manifest = load_manifest(manifest_path("game"))
+    selected = {
+        source.name: source
+        for source in manifest.sources
+        if source.name in NEGOTIATION_EVE_SOURCES
+    }
+    if set(selected) != set(NEGOTIATION_EVE_SOURCES):
+        raise ValueError("game manifest does not declare every negotiation EVE bank")
+    paths = tuple(
+        manifest.files[source.container["file"]].path
+        for source in selected.values()
+    ) + (PurePosixPath("COMBAT.BIN"), PurePosixPath("ITEMNAME.DAT"))
+    stock = _stock_files(paths)
+    translations = load_negotiation_translations()
+    font16 = FontMetrics.load(FONT16_METRICS_PATH)
+    font8 = FontMetrics.load(FONT8_METRICS_PATH)
+    dictionary = load_event_dictionary(CODEC_PATH)
+    banks = compile_negotiation_banks(
+        manifest, stock, translations, font16, dictionary
+    )
+    combat = compile_combat_fixed_text(stock[PurePosixPath("COMBAT.BIN")], font16)
+    itemname = compile_item_names(stock[PurePosixPath("ITEMNAME.DAT")], font8)
+
+    output: dict[Path, bytes] = {
+        GENERATED_ROOT.joinpath(*bank.path.parts): bank.data for bank in banks
+    }
+    output[GENERATED_ROOT / "COMBAT.BIN"] = combat
+    output[GENERATED_ROOT / "ITEMNAME.DAT"] = itemname
+    output_rows = {
+        bank.path.as_posix(): {
+            "sha256": _sha256_bytes(bank.data),
+            "messages": bank.messages,
+            "pages": bank.pages,
+            "body_bytes": bank.body_bytes,
+        }
+        for bank in banks
+    }
+    output_rows["COMBAT.BIN"] = {"sha256": _sha256_bytes(combat)}
+    output_rows["ITEMNAME.DAT"] = {"sha256": _sha256_bytes(itemname)}
+    document = {
+        "version": 1,
+        "surface": "battle.negotiation",
+        "codec_sha256": _sha256_path(CODEC_PATH),
+        "runtime_table_sha256": _sha256_bytes(dictionary.runtime_table()),
+        "font16_metrics_sha256": _sha256_path(FONT16_METRICS_PATH),
+        "font8_metrics_sha256": _sha256_path(FONT8_METRICS_PATH),
+        "records": {
+            "dialogue_pages": len(translations),
+            "fixed_messages": 117,
+            "item_names": 287,
+            "total": len(translations) + 117 + 287,
+        },
+        "outputs": output_rows,
+    }
+    output[NEGOTIATION_BUILD_PATH] = (
+        json.dumps(document, ensure_ascii=False, indent=2) + "\n"
+    ).encode("utf-8")
+    return output
+
+
 def publish(outputs: dict[Path, bytes], *, check: bool) -> None:
     stale = [
         path
@@ -125,7 +195,7 @@ def publish(outputs: dict[Path, bytes], *, check: bool) -> None:
     if check:
         if stale:
             raise ValueError(
-                "stale general EVENT outputs: "
+                "stale text outputs: "
                 + ", ".join(str(path.relative_to(SATURN_ROOT)) for path in stale)
             )
         return
@@ -136,17 +206,25 @@ def publish(outputs: dict[Path, bytes], *, check: bool) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("target", nargs="?", default="event", choices=("event",))
+    parser.add_argument(
+        "target",
+        nargs="?",
+        default="all",
+        choices=("event", "negotiation", "all"),
+    )
     parser.add_argument("--check", action="store_true")
     arguments = parser.parse_args()
     try:
-        outputs = build_event_outputs()
+        outputs = {}
+        if arguments.target in {"event", "all"}:
+            outputs.update(build_event_outputs())
+        if arguments.target in {"negotiation", "all"}:
+            outputs.update(build_negotiation_outputs())
         publish(outputs, check=arguments.check)
     except (OSError, UnicodeError, ValueError) as error:
         parser.error(str(error))
     action = "verified" if arguments.check else "built"
-    banks = len(outputs) - 1
-    print(f"{action} {banks} general EVENT banks for event.dialogue")
+    print(f"{action} {arguments.target} text outputs")
     return 0
 
 

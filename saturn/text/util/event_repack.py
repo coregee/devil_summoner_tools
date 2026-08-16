@@ -10,10 +10,7 @@ from dataclasses import dataclass
 from pathlib import Path, PurePosixPath
 
 from .assets import (
-    BINDING_ROOT,
-    AssetCatalog,
-    load_asset,
-    load_binding,
+    load_bound_translations,
     load_physical_records,
 )
 from .event_codec import EventDictionary
@@ -499,39 +496,12 @@ def load_event_translations() -> dict[str, str]:
     """Resolve every physical general-EVENT page to its authored translation."""
     prefixes = tuple(f"game.{source}." for source in GENERAL_EVENT_SOURCES)
     physical = load_physical_records()
-    catalogs: dict[PurePosixPath, AssetCatalog] = {}
-    translations: dict[str, str] = {}
-    candidates = [
-        path
-        for path in sorted(BINDING_ROOT.glob("*.json"))
-        if any(prefix in path.read_text(encoding="utf-8") for prefix in prefixes)
-    ]
-    for path in candidates:
-        binding = load_binding(path, physical_records=physical)
-        catalog = catalogs.setdefault(binding.asset, load_asset(binding.asset))
-        for physical_id, asset_ref in binding.records.items():
-            if not physical_id.startswith(prefixes):
-                continue
-            if physical_id in translations:
-                raise ValueError(f"physical EVENT page has two owners: {physical_id}")
-            _reference, translation, _reviewed = catalog.field(asset_ref).resolve(
-                binding.variants.get(physical_id)
-            )
-            if not translation:
-                raise ValueError(f"physical EVENT page is untranslated: {physical_id}")
-            translations[physical_id] = translation
-
     expected = {
         record_id for record_id in physical if record_id.startswith(prefixes)
     }
-    missing = sorted(expected - set(translations))
-    extra = sorted(set(translations) - expected)
-    if missing or extra:
-        raise ValueError(
-            f"general EVENT binding coverage differs: {len(missing)} missing, "
-            f"{len(extra)} extra"
-        )
-    return translations
+    return dict(
+        load_bound_translations(prefixes, required_ids=expected)
+    )
 
 
 @dataclass(frozen=True, slots=True)

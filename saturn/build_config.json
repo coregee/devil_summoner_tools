@@ -115,6 +115,57 @@
       ]
     },
     {
+      "id": "repack_battle_negotiation_text",
+      "description": "Compile battle-negotiation dialogue, choices, condition lines, and item inserts from shared authored assets.",
+      "type": "python",
+      "script": "text/repack.py",
+      "arguments": ["negotiation"],
+      "check_arguments": ["negotiation", "--check"]
+    },
+    {
+      "id": "install_battle_negotiation_text",
+      "description": "Install all sixteen battle-negotiation banks and the generated item-name table.",
+      "type": "copy",
+      "files": [
+        {"source": "text/generated/game/COMBDATA/BOSSTALK.EVE", "destination": "rom/extracted/game/COMBDATA/BOSSTALK.EVE"},
+        {"source": "text/generated/game/COMBDATA/TLK_BST.EVE", "destination": "rom/extracted/game/COMBDATA/TLK_BST.EVE"},
+        {"source": "text/generated/game/COMBDATA/KEMO.EVE", "destination": "rom/extracted/game/COMBDATA/KEMO.EVE"},
+        {"source": "text/generated/game/COMBDATA/TLK_KOFU.EVE", "destination": "rom/extracted/game/COMBDATA/TLK_KOFU.EVE"},
+        {"source": "text/generated/game/COMBDATA/NBL_M.EVE", "destination": "rom/extracted/game/COMBDATA/NBL_M.EVE"},
+        {"source": "text/generated/game/COMBDATA/TLK_HIRK.EVE", "destination": "rom/extracted/game/COMBDATA/TLK_HIRK.EVE"},
+        {"source": "text/generated/game/COMBDATA/TLK_YNGM.EVE", "destination": "rom/extracted/game/COMBDATA/TLK_YNGM.EVE"},
+        {"source": "text/generated/game/COMBDATA/GRL.EVE", "destination": "rom/extracted/game/COMBDATA/GRL.EVE"},
+        {"source": "text/generated/game/COMBDATA/TLK_BOY.EVE", "destination": "rom/extracted/game/COMBDATA/TLK_BOY.EVE"},
+        {"source": "text/generated/game/COMBDATA/CLD_F.EVE", "destination": "rom/extracted/game/COMBDATA/CLD_F.EVE"},
+        {"source": "text/generated/game/COMBDATA/TLK_LADY.EVE", "destination": "rom/extracted/game/COMBDATA/TLK_LADY.EVE"},
+        {"source": "text/generated/game/COMBDATA/TLK_CRZY.EVE", "destination": "rom/extracted/game/COMBDATA/TLK_CRZY.EVE"},
+        {"source": "text/generated/game/COMBDATA/JIJY.EVE", "destination": "rom/extracted/game/COMBDATA/JIJY.EVE"},
+        {"source": "text/generated/game/COMBDATA/CYNI.EVE", "destination": "rom/extracted/game/COMBDATA/CYNI.EVE"},
+        {"source": "text/generated/game/COMBDATA/TLK_WEST.EVE", "destination": "rom/extracted/game/COMBDATA/TLK_WEST.EVE"},
+        {"source": "text/generated/game/COMBDATA/SLM.EVE", "destination": "rom/extracted/game/COMBDATA/SLM.EVE"},
+        {"source": "text/generated/game/ITEMNAME.DAT", "destination": "rom/extracted/game/ITEMNAME.DAT"}
+      ]
+    },
+    {
+      "id": "build_battle_negotiation_engine",
+      "description": "Build the battle-negotiation variable-width renderer, packed-text reader, and editable substitution tables.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["battle.negotiation"],
+      "check_arguments": ["battle.negotiation", "--check"]
+    },
+    {
+      "id": "install_battle_negotiation_engine",
+      "description": "Install the COMBAT runtime and its fixed negotiation text.",
+      "type": "copy",
+      "files": [
+        {
+          "source": "engine/generated/game/COMBAT.BIN",
+          "destination": "rom/extracted/game/COMBAT.BIN"
+        }
+      ]
+    },
+    {
       "id": "repack_visuals",
       "description": "Apply every changed visual asset to its extracted disc mirror.",
       "type": "python",
@@ -142,6 +193,10 @@
         "install_event_text",
         "build_event_engine",
         "install_event_engine",
+        "repack_battle_negotiation_text",
+        "install_battle_negotiation_text",
+        "build_battle_negotiation_engine",
+        "install_battle_negotiation_engine",
         "repack_visuals",
         "build_discs"
       ],

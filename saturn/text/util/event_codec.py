@@ -35,6 +35,33 @@ def _replace_pair(
     return output
 
 
+def pack_direct_codes(codes: list[int]) -> list[int]:
+    """Pair compact Latin codes without applying dictionary merges."""
+    output: list[int] = []
+    direct: list[int] = []
+
+    def flush() -> None:
+        for position in range(0, len(direct), 2):
+            first = direct[position] + PACKED_TOKEN_BASE
+            second = (
+                direct[position + 1] + PACKED_TOKEN_BASE
+                if position + 1 < len(direct)
+                else 0
+            )
+            output.append(first << 8 | second)
+        direct.clear()
+
+    for code in codes:
+        token = 0 if code == SPACE_CODE else code
+        if 0 <= token < PACKED_TOKEN_LIMIT:
+            direct.append(token)
+        else:
+            flush()
+            output.append(code)
+    flush()
+    return output
+
+
 @dataclass(frozen=True, slots=True)
 class EventDictionary:
     """Sequential byte-pair merges over the compact Latin alphabet."""

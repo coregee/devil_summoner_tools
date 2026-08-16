@@ -18,6 +18,7 @@ if str(SATURN_ROOT) not in sys.path:
     sys.path.append(str(SATURN_ROOT))
 
 from engine.patching import Patch, apply_patches  # noqa: E402
+from engine.battle_negotiation import build_battle_negotiation  # noqa: E402
 from rom.util.catalog import load_catalog, validate_source  # noqa: E402
 from rom.util.workflows import read_source_files  # noqa: E402
 from text.util.event_codec import load_event_dictionary  # noqa: E402
@@ -291,7 +292,7 @@ def _publish(outputs: dict[Path, bytes], *, check: bool) -> None:
     if check:
         if stale:
             raise ValueError(
-                "stale EVENT engine outputs: "
+                "stale engine outputs: "
                 + ", ".join(str(path.relative_to(SATURN_ROOT)) for path in stale)
             )
         return
@@ -302,15 +303,27 @@ def _publish(outputs: dict[Path, bytes], *, check: bool) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("surface", nargs="?", default="event.dialogue", choices=("event.dialogue",))
+    parser.add_argument(
+        "surface",
+        nargs="?",
+        default="event.dialogue",
+        choices=("event.dialogue", "battle.negotiation"),
+    )
     parser.add_argument("--check", action="store_true")
     arguments = parser.parse_args()
     try:
-        outputs = build_event_dialogue()
+        outputs = (
+            build_event_dialogue()
+            if arguments.surface == "event.dialogue"
+            else build_battle_negotiation()
+        )
         _publish(outputs, check=arguments.check)
     except (OSError, UnicodeError, ValueError) as error:
         parser.error(str(error))
-    print(f"{'verified' if arguments.check else 'built'} event.dialogue engine patch")
+    print(
+        f"{'verified' if arguments.check else 'built'} "
+        f"{arguments.surface} engine patch"
+    )
     return 0
 
 
