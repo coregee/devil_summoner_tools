@@ -46,10 +46,14 @@ generated result at both paths.
 A definition may also expose a named `reference_set` for stock cells that must
 remain addressable after repacking. Game `FONT8.FON` publishes cells 0-62 as
 `stock_latin`: the original space, digits, uppercase letters, and lowercase
-letters. Those cells are not replacements and are asserted byte-preserved.
-Generated FONT8 metrics therefore contain both the normal narrow-English map
-and this separately named stock map; consumers must choose the stock map
-explicitly rather than resolving duplicate Latin characters by accident.
+letters. It also publishes the source-preserved punctuation cells 176 and 198
+under the ASCII aliases `.` and `/`. A `reference_sets[].aliases` entry changes
+only the character name published to that named consumer map; it does not
+change the base source decoding or take ownership of the glyph bitmap. These
+cells are not replacements and are asserted byte-preserved. Generated FONT8
+metrics therefore contain both the normal narrow-English map and this
+separately named stock map; consumers must choose the stock map explicitly
+rather than resolving duplicate Latin characters by accident.
 
 Run extraction and `extract.py --check` against mirrors restored from the
 original discs. They deliberately reject generated fonts installed by a build.

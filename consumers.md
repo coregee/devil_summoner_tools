@@ -401,9 +401,8 @@ The translated COMP core now owns the two-row, 300-pixel help surface; the
 grid. The 319 demon names remain single authored fields: 210 fit the direct
 eight-byte retail records, while 109 use a runtime compact overflow pool. The
 NORMCOM ritual console composes beneath this target but remains a distinct
-consumer. The equipment layer now composes separately on top; the detailed
-status screen remains the next bounded NORMCOM surface rather than a hidden
-part of the COMP core.
+consumer. The equipment and detailed-status layers compose as separate checked
+stages on top rather than being hidden parts of the COMP core.
 
 There's also a window in the top-left with the submenus listed. This window serves as an effective margin for the Help window when it's visible.
 
@@ -459,9 +458,23 @@ MP ####/####
 EXP #####
 NEXT #####
 
+The traced NORMCOM layout keeps these as separate one-row FONT8 compositions,
+not free-flowing strings. `LV` and `CP` place their dynamic value at x=40;
+`EXP` and `NEXT` place it at x=80. `HP` and `MP` place the current value at
+x=40, their shared one-cell separator at x=48, and the maximum value at x=80.
+The `LV`, `HP`, `MP`, `EXP`, and `CP` prefixes allow three glyphs, while `NEXT`
+allows seven. These starts do not establish the numbers' maximum digit counts
+or final right edges, so the complete numeric-row widths remain unmeasured.
+
 In the middle is a hexagon graph of the player's stat distribution. At the six points of the hexagon are the six in-game stats, 力　知　魔　耐　速　運.
 
 In the top-right  is the player's AUTO setting (i.e., AUTO SWORD), and the party alignment (i.e., "P.A. LAW"). FONT8
+
+Both are fixed one-row, twelve-cell FONT8 compositions. Their selected value
+starts at x=40 and has seven cells. `AUTO` uses four of the five cells before
+that value; `P.A.` is exactly four cells, leaving the fifth cell as layout
+space. The separating space in each authored template declares that boundary;
+it is not another freely positioned text glyph.
 
 On the right are the player's derived stats. FONT 12 with the values as FONT8 beside, aligned to the bottom of the text.
 剣攻撃力
@@ -489,6 +502,18 @@ Instead of derived stats, the right shows three new parameters:
 忠誠度 (FONT12)  # (FONT8)
 CTRL   1ST (or similar; both FONT8)
 TYPE (FONT8)  [personality string (FONT12 Kanji)]
+
+The translated Loyalty and personality rasters each have 38 usable pixels.
+Loyalty's FONT8 number begins separately at x=72; its maximum digits and final
+right edge are not yet proved. `TYPE` occupies its own four-cell FONT8 prefix,
+and the personality raster is a separate consumer, so the intervening layout
+space cannot be borrowed by either translation. `CTRL` is a ten-cell FONT8
+composition: its prefix begins at x=0 and may use five cells, while its
+three-cell rank begins at x=56. The cells between those slots are layout, not
+text. Each L/N/C/L/D alignment-axis label occupies one FONT8 cell. Law and
+Light remain separate authored fields even though both default to `L`; the
+runtime keeps the retail shared pointer when they agree and emits a dedicated
+Light pointer only when an edit makes them differ.
 
 The bottom right shows a 2D alignment axis, LNC and LND.
 

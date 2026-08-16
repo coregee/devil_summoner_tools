@@ -224,8 +224,16 @@
       "check_arguments": ["equipment.ui", "--check"]
     },
     {
-      "id": "install_equipment_engine",
-      "description": "Install the EVENT and NORMCOM runtimes composed through the equipment surface.",
+      "id": "build_status_engine",
+      "description": "Compose the detailed NORMCOM status interface from editable assets.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["status.ui"],
+      "check_arguments": ["status.ui", "--check"]
+    },
+    {
+      "id": "install_event_normcom_engine",
+      "description": "Install EVENT through equipment and NORMCOM through detailed status.",
       "type": "copy",
       "files": [
         {"source": "engine/generated/game/EVENT.BIN", "destination": "rom/extracted/game/EVENT.BIN"},
@@ -271,7 +279,8 @@
         "install_comp_text",
         "build_comp_engine",
         "build_equipment_engine",
-        "install_equipment_engine",
+        "build_status_engine",
+        "install_event_normcom_engine",
         "repack_visuals",
         "build_discs"
       ],

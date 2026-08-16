@@ -267,6 +267,30 @@ class StatusAssetTests(unittest.TestCase):
                 ("font12", 1, "glyph_cells", 2),
                 ("font8", 1, "pixels", 38),
             ),
+            "status.numeric_readout": (
+                ("font8", 1, None, None),
+                ("font8", 1, None, None),
+            ),
+            "status.auto_setting": (
+                ("font8", 1, "glyph_cells", 12),
+                ("font8", 1, "glyph_cells", 12),
+            ),
+            "status.party_alignment": (
+                ("font8", 1, "glyph_cells", 12),
+                ("font8", 1, "glyph_cells", 12),
+            ),
+            "status.control": (
+                ("font8", 1, "glyph_cells", 10),
+                ("font8", 1, "glyph_cells", 10),
+            ),
+            "status.loyalty_row": (
+                (None, 1, None, None),
+                ("font8", 1, None, None),
+            ),
+            "status.personality_row": (
+                (None, 1, None, None),
+                ("font8", 1, None, None),
+            ),
             "status.control_rank": (
                 ("font8", 1, "glyph_cells", 3),
                 ("font8", 1, "glyph_cells", 3),
@@ -305,6 +329,44 @@ class StatusAssetTests(unittest.TestCase):
                     ),
                     expected_en,
                 )
+
+    def test_composite_status_spans_do_not_hide_component_slots(self) -> None:
+        expected = {
+            "status.auto_setting": (12, "status.auto_command", 7, 5),
+            "status.party_alignment": (
+                12,
+                "status.party_alignment_value",
+                7,
+                5,
+            ),
+            "status.control": (10, "status.control_rank", 3, 7),
+        }
+        for row_name, (
+            row_cells,
+            value_name,
+            value_cells,
+            value_start,
+        ) in expected.items():
+            with self.subTest(surface=row_name):
+                row = self.surfaces.surface(row_name).en
+                value = self.surfaces.surface(value_name).en
+                self.assertEqual(
+                    (row.width.unit, row.width.value),
+                    ("glyph_cells", row_cells),
+                )
+                self.assertEqual(
+                    (value.width.unit, value.width.value),
+                    ("glyph_cells", value_cells),
+                )
+                self.assertEqual(row_cells - value_cells, value_start)
+
+        for row_name in (
+            "status.numeric_readout",
+            "status.loyalty_row",
+            "status.personality_row",
+        ):
+            with self.subTest(unbounded_surface=row_name):
+                self.assertFalse(self.surfaces.surface(row_name).en.width.known)
 
     def test_compression_hints_are_not_translator_vocabulary(self) -> None:
         authored = {

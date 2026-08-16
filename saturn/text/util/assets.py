@@ -5,7 +5,7 @@ from __future__ import annotations
 import json
 import re
 from collections import Counter
-from collections.abc import Mapping
+from collections.abc import Iterable, Mapping
 from dataclasses import dataclass
 from pathlib import Path, PurePosixPath
 from types import MappingProxyType
@@ -409,9 +409,9 @@ def load_asset(
     )
 
 
-def _physical_records(corpus_root: Path) -> Mapping[str, str]:
+def _physical_record_files(paths: Iterable[Path]) -> Mapping[str, str]:
     records: dict[str, str] = {}
-    for path in sorted(corpus_root.rglob("*.json")):
+    for path in sorted(paths):
         rows = _read_json(path)
         if not isinstance(rows, list):
             raise ValueError(f"{path}: physical corpus must be a list")
@@ -427,6 +427,10 @@ def _physical_records(corpus_root: Path) -> Mapping[str, str]:
     return MappingProxyType(records)
 
 
+def _physical_records(corpus_root: Path) -> Mapping[str, str]:
+    return _physical_record_files(corpus_root.rglob("*.json"))
+
+
 def load_physical_records(
     corpus_root: Path = CORPUS_ROOT,
 ) -> Mapping[str, str]:
@@ -434,19 +438,31 @@ def load_physical_records(
     return _physical_records(corpus_root)
 
 
+def load_physical_record_files(paths: Iterable[Path]) -> Mapping[str, str]:
+    """Load an explicit physical corpus dependency set without directory scans."""
+    return _physical_record_files(paths)
+
+
 def load_bound_translations(
     prefixes: tuple[str, ...],
     *,
     required_ids: set[str] | frozenset[str] | None = None,
+    binding_paths: Iterable[Path] | None = None,
+    physical_records: Mapping[str, str] | None = None,
 ) -> Mapping[str, str]:
     """Resolve primary Saturn physical records to their authored translations."""
     if not prefixes or any(not prefix for prefix in prefixes):
         raise ValueError("binding prefixes must be nonempty")
-    physical = load_physical_records()
+    physical = (
+        load_physical_records() if physical_records is None else physical_records
+    )
     catalogs: dict[PurePosixPath, AssetCatalog] = {}
     translations: dict[str, str] = {}
-    for path in sorted(BINDING_ROOT.glob("*.json")):
-        if not any(prefix in path.read_text(encoding="utf-8") for prefix in prefixes):
+    paths = BINDING_ROOT.glob("*.json") if binding_paths is None else binding_paths
+    for path in sorted(paths):
+        if binding_paths is None and not any(
+            prefix in path.read_text(encoding="utf-8") for prefix in prefixes
+        ):
             continue
         binding = load_binding(path, physical_records=physical)
         catalog = catalogs.setdefault(binding.asset, load_asset(binding.asset))

@@ -23,11 +23,13 @@ class FontReferenceSetTests(unittest.TestCase):
     def test_stock_latin_is_a_distinct_preserved_reference_set(self) -> None:
         references = self.definition.reference_sets["stock_latin"]
         expected = " 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
-        self.assertEqual(len(references), 63)
-        self.assertEqual(
-            references,
-            {character: code for code, character in enumerate(expected)},
-        )
+        expected_references = {
+            character: code for code, character in enumerate(expected)
+        }
+        expected_references["."] = 176
+        expected_references["/"] = 198
+        self.assertEqual(len(references), 65)
+        self.assertEqual(references, expected_references)
         self.assertFalse(set(references.values()) & set(self.definition.replacements))
 
     def test_repacked_metrics_publish_both_english_code_maps(self) -> None:
@@ -45,6 +47,14 @@ class FontReferenceSetTests(unittest.TestCase):
         stride = self.definition.format.glyph_stride
         preserved_end = 63 * stride
         self.assertEqual(result.data[:preserved_end], source[:preserved_end])
+        self.assertEqual(
+            result.data[176 * stride : 177 * stride],
+            source[176 * stride : 177 * stride],
+        )
+        self.assertEqual(
+            result.data[198 * stride : 199 * stride],
+            source[198 * stride : 199 * stride],
+        )
         default_codes = {
             row["text"]: row["code"] for row in metrics["glyphs"]
         }
@@ -62,6 +72,15 @@ class FontReferenceSetTests(unittest.TestCase):
             path.write_text(json.dumps(document), encoding="utf-8")
             with self.assertRaisesRegex(ValueError, "replaced glyph 63"):
                 load_definition(path, "game")
+
+    def test_reference_set_can_publish_an_ascii_alias_for_stock_punctuation(self) -> None:
+        references = self.definition.reference_sets["stock_latin"]
+        self.assertEqual(references["."], 176)
+        self.assertEqual(references["/"], 198)
+        self.assertNotIn("．", references)
+        self.assertNotIn("／", references)
+        self.assertEqual(self.definition.glyphs[176], "．")
+        self.assertEqual(self.definition.glyphs[198], "／")
 
 
 if __name__ == "__main__":

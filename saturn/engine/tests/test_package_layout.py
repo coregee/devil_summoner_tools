@@ -13,6 +13,7 @@ PURE_DATA_GENERATORS = {
     "confirmation_level_too_low",
     "confirmation_main",
     "font16_scratch",
+    "status_data",
     "zero_scratch",
 }
 

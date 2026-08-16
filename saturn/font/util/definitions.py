@@ -249,22 +249,30 @@ def _reference_sets(
         used_codes: set[int] = set()
         for entry_number, raw_entry in enumerate(raw_entries):
             entry_context = f"{context}.{name}[{entry_number}]"
-            if not isinstance(raw_entry, dict) or set(raw_entry) != {
-                "start",
-                "characters",
-            }:
+            if (
+                not isinstance(raw_entry, dict)
+                or not {"start", "characters"} <= set(raw_entry)
+                or not set(raw_entry) <= {"start", "characters", "aliases"}
+            ):
                 raise ValueError(
-                    f"{entry_context} needs only start and characters"
+                    f"{entry_context} needs start, characters, and optional aliases"
                 )
             start = _index(raw_entry["start"], f"{entry_context}.start")
             characters = raw_entry["characters"]
             if not isinstance(characters, str) or not characters:
                 raise ValueError(f"{entry_context}.characters must be nonempty text")
-            for offset, character in enumerate(characters):
+            aliases = raw_entry.get("aliases", characters)
+            if not isinstance(aliases, str) or len(aliases) != len(characters):
+                raise ValueError(
+                    f"{entry_context}.aliases must match characters in length"
+                )
+            for offset, (character, exposed) in enumerate(
+                zip(characters, aliases, strict=True)
+            ):
                 code = start + offset
-                if character in references:
+                if exposed in references:
                     raise ValueError(
-                        f"{entry_context} repeats reference character {character!r}"
+                        f"{entry_context} repeats reference character {exposed!r}"
                     )
                 if code in used_codes:
                     raise ValueError(f"{entry_context} repeats glyph {code}")
@@ -277,7 +285,7 @@ def _reference_sets(
                         f"{entry_context} selects replaced glyph {code}; reference "
                         "sets must preserve stock cells"
                     )
-                references[character] = code
+                references[exposed] = code
                 used_codes.add(code)
         output[name] = references
     return output

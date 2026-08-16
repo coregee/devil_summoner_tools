@@ -41,6 +41,10 @@ from engine.surfaces.fusion import (  # noqa: E402
     CONFIG_PATH as FUSION_CONFIG_PATH,
     build_fusion_menu,
 )
+from engine.surfaces.status_ui import (  # noqa: E402
+    CONFIG_PATH as STATUS_CONFIG_PATH,
+    build_status_ui,
+)
 
 
 GENERATED_ROOT = ENGINE_ROOT / "generated" / "game"
@@ -49,8 +53,12 @@ BUILD_MANIFEST_PATH = EVENT_BUILD_PATH
 FUSION_OUTPUT_PATH = GENERATED_ROOT / "fusion_menu" / "EVENT.BIN"
 FUSION_BUILD_MANIFEST_PATH = GENERATED_ROOT / "fusion_menu_build.json"
 EQUIPMENT_EVENT_OUTPUT_PATH = GENERATED_ROOT / "EVENT.BIN"
-EQUIPMENT_NORMCOM_OUTPUT_PATH = GENERATED_ROOT / "NORMCOM.BIN"
+EQUIPMENT_NORMCOM_OUTPUT_PATH = (
+    GENERATED_ROOT / "equipment_ui" / "NORMCOM.BIN"
+)
 EQUIPMENT_BUILD_MANIFEST_PATH = GENERATED_ROOT / "equipment_ui_build.json"
+STATUS_NORMCOM_OUTPUT_PATH = GENERATED_ROOT / "NORMCOM.BIN"
+STATUS_BUILD_MANIFEST_PATH = GENERATED_ROOT / "status_ui_build.json"
 
 
 def build_fusion_surface() -> dict[Path, bytes]:
@@ -161,6 +169,53 @@ def build_equipment_surface() -> dict[Path, bytes]:
     }
 
 
+def build_status_surface() -> dict[Path, bytes]:
+    """Compose the detailed-status consumer onto the equipment NORMCOM base."""
+    equipment_outputs = build_equipment_surface()
+    base = equipment_outputs[EQUIPMENT_NORMCOM_OUTPUT_PATH]
+    result = build_status_ui(base)
+    manifest = {
+        "version": 1,
+        "surface": "status.ui",
+        "patch_config_sha256": file_sha256(STATUS_CONFIG_PATH),
+        "base": {
+            "surface": "equipment.ui",
+            "sha256": sha256(base),
+            "manifest_sha256": sha256(
+                equipment_outputs[EQUIPMENT_BUILD_MANIFEST_PATH]
+            ),
+        },
+        "asset_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.asset_files
+        },
+        "runtime_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.runtime_input_files
+        },
+        "source_inputs": dict(result.source_inputs),
+        "assembly_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.assembly_files
+        },
+        "output": {
+            "file": "NORMCOM.BIN",
+            "sha256": sha256(result.data),
+        },
+        "patch_groups": list(
+            dict.fromkeys(patch.group for patch in result.patches)
+        ),
+        "patches": len(result.patches),
+    }
+    return {
+        **equipment_outputs,
+        STATUS_NORMCOM_OUTPUT_PATH: result.data,
+        STATUS_BUILD_MANIFEST_PATH: (
+            json.dumps(manifest, indent=2) + "\n"
+        ).encode("utf-8"),
+    }
+
+
 def _atomic_write(path: Path, value: bytes) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     descriptor, temporary_name = tempfile.mkstemp(
@@ -209,6 +264,7 @@ def main() -> int:
             "battle.ui",
             "comp.menu",
             "equipment.ui",
+            "status.ui",
         ),
     )
     parser.add_argument("--check", action="store_true")
@@ -221,6 +277,7 @@ def main() -> int:
             "battle.ui": build_battle_ui,
             "comp.menu": build_comp_menu,
             "equipment.ui": build_equipment_surface,
+            "status.ui": build_status_surface,
         }
         _publish(builders[arguments.surface](), check=arguments.check)
     except (OSError, UnicodeError, ValueError) as error:

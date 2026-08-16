@@ -174,7 +174,8 @@ python saturn/build.py default
 `equipment.ui` is one player-facing surface with two binary consumers: the COMP
 equipment panel in `NORMCOM.BIN` and the shop equipment/comparison panel in
 `EVENT.BIN`. It composes on the checked COMP and Fusion intermediates, then
-publishes the two final binaries installed by the normal build.
+publishes the terminal `generated/game/EVENT.BIN` and the checked
+`generated/game/equipment_ui/NORMCOM.BIN` intermediate consumed by status.
 
 `ui/equipment.json` owns Auto/Unequip; the shared stat abbreviations remain in
 `ui/status.json`; `facilities/shop.json` owns `Inv.`; and character and item
@@ -188,7 +189,6 @@ hex.
 Both outputs are byte-identical to the same mature Saturn patch groups. Cave
 ownership is expanded to the proved zero-filled boundaries so edited labels can
 grow safely, while pixel and glyph limits fail before any binary is written.
-The detailed status screen remains the next separate NORMCOM consumer.
 
 Run:
 
@@ -197,3 +197,40 @@ python saturn/engine/build.py equipment.ui
 python saturn/engine/build.py equipment.ui --check
 python saturn/build.py default
 ```
+
+## Detailed status
+
+`status.ui` composes the NORMCOM human and demon status screens on the checked
+equipment intermediate, then publishes the terminal
+`generated/game/NORMCOM.BIN`. The equipment base is
+`a63ec7dbe6d5fdc03f9ff9f4c15fd556c26b9883dc0eb89e7bb18a70e5b58965`;
+the result is byte-identical to the mature Saturn output at
+`d5cbdc03719a412e9b020141e774c563b4303a2821ac5669043db2409048bf43`.
+
+`config/status_ui.json` owns 91 typed recipes across rendering, layout,
+race/affinity mirrors, direct ASCII fields, and templates. Fifty-six recipes
+represent the mature changes at 66 physical sites; the remaining 35 are
+currently byte-neutral paths which ensure edits to stock-readable labels,
+separators, and immediates still propagate. The kind split is 76 generated-data
+recipes, six assembly recipes, eight linked pointers, and one fixed pointer.
+Executable behavior comes from 11 readable sources under `asm/status_ui/`.
+
+Seven authored catalogues supply status labels and templates, races,
+affinities, demon and character names, alignments, and commands. The build also
+names every font, binding, physical-corpus, generated-name, and stock-disc input
+in `status_ui_build.json`; it does not discover dependencies by scanning the
+whole text tree. Complete templates own their visible prefixes and punctuation:
+HP and MP share one editable separator, `P.A.` owns a checked four-cell prefix,
+and Law and Light remain independently editable even though both default to
+`L`. The conditional Light redirect is emitted only when those authored fields
+diverge.
+
+Run:
+
+```powershell
+python saturn/engine/build.py status.ui
+python saturn/engine/build.py status.ui --check
+python saturn/build.py default
+```
+
+The next bounded runtime surface is the Options menu in `CFG_SET.BIN`.

@@ -33,6 +33,7 @@ class OutputGlyphSetTests(unittest.TestCase):
                 "healer.command",
                 "status.auto_command",
                 "status.auto_setting",
+                "status.party_alignment",
             },
         )
         self.assertIsNone(catalog.for_surface("event.dialogue"))

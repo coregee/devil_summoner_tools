@@ -343,8 +343,17 @@ nodes, 46-pixel derived and combat-stat rows, and 38-pixel Loyalty/personality
 rows. The stock Japanese labels retain their distinct one-to-four-cell limits;
 the fixed TYPE label remains a four-cell FONT8 consumer. CTRL ranks are three
 FONT8 cells, AUTO command values and party alignments are seven cells, and the
-two alignment axes use editable one-cell labels. Whole dynamic readout widths
-remain explicitly unknown until their render slots are measured.
+two alignment axes use editable one-cell labels. The complete AUTO and P.A.
+rows occupy twelve fixed FONT8 cells, with their seven-cell values beginning at
+x=40. CTRL occupies ten cells, with its three-cell rank beginning at x=56.
+These are composed slots: the cells between a prefix and its value are layout,
+not extra translator capacity. Numeric draw starts are now recorded as x=40
+for LV/CP, x=80 for EXP/NEXT, and x=40/x=48/x=80 for the HP/MP current value,
+separator, and maximum value. Their final numeric right edges are still
+unproved, so `status.numeric_readout` remains explicitly width-unknown. The
+Loyalty number likewise begins at x=72 after its independently rendered
+38-pixel label, but its final edge remains unknown; TYPE and its 38-pixel
+personality value are also retained as separate, non-fungible components.
 Options-menu contracts retain the nine-cell setting-label and four-cell value
 limits while leaving their translated widths unknown. The ordering popup has
 four 80-pixel translated rows, controller actions have one 128-pixel row, and
@@ -353,11 +362,12 @@ compound glyphs and action-atlas chunks are derived output artifacts.
 
 Typeface selection is also a consumer contract, not authored punctuation.
 `config/glyph_sets.json` assigns the `font8_stock_latin` handler to the battle,
-COMP, shop, bar, healer, and status command surfaces. That handler selects FONT8's
-named `stock_latin` reference set, preserving the retail appearance of labels
-such as `GO`, `COMP`, `BUY`, and `EQUIP`. Other FONT8 consumers continue to use
-the normal narrow-English mapping. No inline token or capitalization heuristic
-chooses between the two faces.
+COMP, shop, bar, healer, and status command surfaces, plus the status AUTO and
+P.A. compositions. That handler selects FONT8's named `stock_latin` reference
+set, preserving the retail appearance of labels such as `GO`, `COMP`, `BUY`,
+and `EQUIP`. Other FONT8 consumers continue to use the normal narrow-English
+mapping. No inline token or capitalization heuristic chooses between the two
+faces.
 
 The physical catalogue includes the 16-entry battle action table at all three
 proved COMBAT, MAZE, and NORMCOM locations, the four item/skill actions, the
@@ -418,7 +428,12 @@ their wording is editable, but they remain recorded consumer-binding debt.
     character-name pool from editable assets on top of the checked EVENT and
     NORMCOM stages. Its SH-2 implementation is readable source under
     `engine/asm/`, with surface code isolated under `engine/surfaces/`.
-12. Continue with the separately proved detailed-status surface; do not
+12. **Complete for `status.ui`:** compose the human and demon detailed-status
+    renderers, labels, names, race/affinity text, command fields, axes, and full
+    templates from editable assets on top of the checked equipment NORMCOM
+    intermediate. All executable changes are readable assembly, and the final
+    binary matches the mature Saturn output exactly.
+13. Continue with the bounded Options surface in `CFG_SET.BIN`; do not
     introduce one global repack or engine capability graph before another
     consumer needs shared machinery.
 

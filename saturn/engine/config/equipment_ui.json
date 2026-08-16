@@ -14,7 +14,7 @@
     }
   },
   "inputs": {
-    "font8_metrics_sha256": "8a94b96050127988e9d4b330f5e4ea8626830a5cfc5efa7da6d0ac8f98979d7e"
+    "font8_metrics_sha256": "63d60162de3c0cb25d6eaa315cfe704592753f41bb5b169329511c873441c587"
   },
   "groups": [
     {
@@ -158,7 +158,7 @@
         {
           "name": "label_drawer",
           "address": "0x060211a0",
-          "expected_zero_bytes": 1632,
+          "expected_zero_bytes": 736,
           "assembly": ["equipment_ui/label_drawer.s"]
         },
         {
