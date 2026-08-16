@@ -27,6 +27,12 @@ from engine.build import (  # noqa: E402
     build_status_surface,
 )
 from engine.shared.font8 import font8_tables  # noqa: E402
+from engine.shared.status_layout import (  # noqa: E402
+    compile_status_templates,
+    load_font16_metrics,
+    load_status_templates,
+    load_stock_latin_codes,
+)
 from engine.surfaces.equipment_ui import (  # noqa: E402
     CONFIG_PATH as EQUIPMENT_CONFIG_PATH,
 )
@@ -39,6 +45,7 @@ from engine.surfaces.status_ui import (  # noqa: E402
     CONFIG_PATH,
     DVLNAME_PATH,
     EQUIPMENT_LABEL_CAVE_LIMIT,
+    FONT16_METRICS_PATH,
     FONT8_METRICS_PATH,
     LIGHT_AXIS_RECORD,
     LOAD_ADDRESS,
@@ -51,14 +58,10 @@ from engine.surfaces.status_ui import (  # noqa: E402
     _ascii_data,
     _axis_data,
     _bind_patches,
-    _compile_status_templates,
     _configuration,
-    _font16_metrics,
     _mirror_data,
     _source_assets,
-    _status_templates,
     _status_terms,
-    _stock_latin_codes,
     _template_data,
     build_status_ui,
 )
@@ -256,7 +259,7 @@ class StatusUiEngineTests(unittest.TestCase):
             all(recipe.replacement.kind == "generated" for recipe in recipes.values())
         )
 
-        templates = _status_templates()
+        templates = load_status_templates()
         current = _ascii_data(templates)
         translations = {
             ASCII_PHYSICAL_IDS[address]: current[name].rstrip(b"\0").decode("ascii")
@@ -274,24 +277,24 @@ class StatusUiEngineTests(unittest.TestCase):
         self.assertEqual(mutated["command_go"], b"RUN\0")
 
     def test_status_template_grammar_owns_all_visible_literals(self) -> None:
-        templates = _compile_status_templates(_template_values())
+        templates = compile_status_templates(_template_values())
         self.assertEqual(templates.prefixes["party_alignment"], "P.A.")
         self.assertEqual(templates.hp_mp_separator, "/")
 
         invalid = dict(_template_values(), level="LV  {level}")
         with self.assertRaisesRegex(ValueError, "boundary space"):
-            _compile_status_templates(invalid)
+            compile_status_templates(invalid)
         invalid = dict(_template_values(), magic_points="MP {current_mp}:{maximum_mp}")
         with self.assertRaisesRegex(ValueError, "share one separator"):
-            _compile_status_templates(invalid)
+            compile_status_templates(invalid)
         invalid = dict(_template_values(), party_alignment="P.A! {alignment}")
         with self.assertRaisesRegex(ValueError, "repeated cells"):
-            _compile_status_templates(invalid)
+            compile_status_templates(invalid)
         invalid = dict(_template_values(), level="LV {rank}")
         with self.assertRaisesRegex(ValueError, "PREFIX"):
-            _compile_status_templates(invalid)
+            compile_status_templates(invalid)
 
-        unsupported = replace(_status_templates(), party_prefix="P_A_")
+        unsupported = replace(load_status_templates(), party_prefix="P_A_")
         with patch(
             "engine.surfaces.status_ui._status_templates",
             return_value=unsupported,
@@ -308,12 +311,12 @@ class StatusUiEngineTests(unittest.TestCase):
     def test_hp_mp_separator_uses_an_editable_font8_glyph(self) -> None:
         metrics = FontMetrics.load(FONT8_METRICS_PATH)
         _widths8, codes8 = font8_tables(metrics)
-        stock_codes = _stock_latin_codes()
-        current = _template_data(_status_templates(), codes8, stock_codes)
+        stock_codes = load_stock_latin_codes(FONT8_METRICS_PATH)
+        current = _template_data(load_status_templates(), codes8, stock_codes)
         self.assertEqual(current["human_hp_mp_separator"], b"\x00\xc6")
         self.assertEqual(current["demon_hp_mp_separator"], b"\x00\xc6")
 
-        changed = replace(_status_templates(), hp_mp_separator=":")
+        changed = replace(load_status_templates(), hp_mp_separator=":")
         edited = _template_data(changed, codes8, stock_codes)
         self.assertEqual(edited["human_hp_mp_separator"], codes8[":"].to_bytes(2, "big"))
         self.assertEqual(edited["demon_hp_mp_separator"], edited["human_hp_mp_separator"])
@@ -365,7 +368,7 @@ class StatusUiEngineTests(unittest.TestCase):
         )
 
         races, affinities, _demons, _characters = _status_terms()
-        _widths16, codes16 = _font16_metrics()
+        _widths16, codes16 = load_font16_metrics(FONT16_METRICS_PATH)
         races[22] = "AAAA"
         with self.assertRaisesRegex(ValueError, "race mirror 22"):
             _mirror_data(races, affinities, codes16)
@@ -408,6 +411,7 @@ class StatusUiEngineTests(unittest.TestCase):
                 "saturn/text/corpus/compendium/fixed/demon_names.json",
                 "saturn/text/corpus/game/addressed/battle_command_labels.json",
                 "saturn/text/corpus/game/addressed/combat_analysis_affinities.json",
+                "saturn/text/corpus/game/addressed/da3d_analyze.json",
                 "saturn/text/corpus/game/addressed/normcom_status_ascii.json",
                 "saturn/text/corpus/game/addressed/normcom_tables.json",
                 "saturn/text/corpus/game/eve/shopsmp.json",
@@ -433,7 +437,7 @@ class StatusUiEngineTests(unittest.TestCase):
         self.assertEqual(manifest["output"]["sha256"], EXPECTED_HASH)
         self.assertEqual(len(manifest["asset_inputs"]), 7)
         self.assertEqual(len(manifest["assembly_inputs"]), 11)
-        self.assertEqual(len(manifest["runtime_inputs"]), 23)
+        self.assertEqual(len(manifest["runtime_inputs"]), 24)
         self.assertEqual(
             set(manifest["source_inputs"]),
             {"game:CHARNAME.DAT", "game:DVLNAME.DAT", "game:FONT16.FON"},

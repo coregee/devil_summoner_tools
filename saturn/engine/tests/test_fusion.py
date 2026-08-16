@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import struct
 import sys
 import unittest
 from pathlib import Path
@@ -17,6 +18,11 @@ from engine.build import (  # noqa: E402
     FUSION_OUTPUT_PATH,
     build_event_dialogue,
     build_fusion_surface,
+)
+from engine.shared.demon_sort import (  # noqa: E402
+    dense_rank_table,
+    encode_sorted_pool,
+    english_name_key,
 )
 from engine.surfaces.event_dialogue import stock_event  # noqa: E402
 from engine.surfaces.fusion import CONFIG_PATH, build_fusion_menu  # noqa: E402
@@ -36,6 +42,7 @@ class FusionEngineTests(unittest.TestCase):
             hashlib.sha256(self.fusion.runtime).hexdigest(),
             "4b853e181b0c9885d0f59ec21f111b812d4afa194daf48d4f85aea51d98abfd9",
         )
+
         self.assertEqual(
             self.fusion.addresses,
             {
@@ -65,6 +72,24 @@ class FusionEngineTests(unittest.TestCase):
                 "fusion_guide_mixed_glyph": 0x06022DF2,
             },
         )
+
+    def test_shared_english_demon_collation_matches_the_mature_contract(self) -> None:
+        self.assertEqual(english_name_key("Jack-o'-Lantern"), "jackolantern")
+        self.assertEqual(
+            dense_rank_table(("Zed", "Alpha", "Alpha", "Beta"), count=4),
+            bytes((2, 0, 0, 1, 0xFF)),
+        )
+
+        names = ("Pixie", "Jack Frost", "Pixie")
+        codes = {character: ord(character) for character in "PixieJack Frost"}
+        offsets, pool = encode_sorted_pool(names, codes)
+        self.assertEqual(offsets, struct.pack(">3H", 11, 0, 11))
+        self.assertEqual(pool, b"Jack Frost\xffPixie\xff")
+        with self.assertRaisesRegex(ValueError, "same English sort key"):
+            encode_sorted_pool(
+                ("Jack Frost", "Jack-Frost"),
+                {character: ord(character) for character in "Jack Frost-"},
+            )
 
     def test_runtime_executable_is_owned_by_readable_assembly(self) -> None:
         self.assertEqual(

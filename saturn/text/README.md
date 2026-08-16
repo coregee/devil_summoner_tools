@@ -183,10 +183,10 @@ This split is physical, not editorial. Every demon still has one complete
 editable name in `assets/text/demons.json`; the repacker and runtime decide
 which storage path can display it without truncation.
 
-The game manifest covers 162 physical files and 60 source groups. Its four
+The game manifest covers 162 physical files and 61 source groups. Its four
 container types are EVE banks, pointer banks, fixed records with subfields, and
-explicit addressed spans. The generated corpus contains 16,063 records: 12,711
-text-bearing EVE pages and 3,352 other records. All 144 dungeon-location rows
+explicit addressed spans. The generated corpus contains 16,123 records: 12,711
+text-bearing EVE pages and 3,412 other records. All 144 dungeon-location rows
 remain distinct instead of collapsing to 24 repeated Japanese strings. Each
 row now verifies that its name bytes agree across the MAZE, AUTOMAP, SAVE, and
 LOAD tables; these four physical copies still produce one catalogue record.
@@ -212,6 +212,14 @@ fallback, three party-alignment values, and seven AUTO command values. Their
 semantic bindings retain complete editable templates such as `HP
 {current_hp}/{maximum_hp}` and `CTRL {rank}` rather than leaving punctuation or
 word order in renderer code.
+
+The DA_3D Analyze inventory adds 60 more physical records: all 43 compact
+FONT8 race rows, seven grid headings, four detail prefixes, two skill-cost
+units, and the four stored alignment-axis labels. The one retail `L` record is
+explicitly bound to both the independently editable Law and Light fields. The
+M and H records are suffixes of complete typed cost templates, while the grid
+and detail LV/HP/MP/CP records reuse the shared status templates. This leaves
+no player-visible Analyze label as an unowned renderer literal.
 
 The MAZE suffix at `0x251dc` has three proved consumers: successful item
 acquisition, yen acquisition, and magnetite acquisition. The two currency paths
@@ -362,6 +370,14 @@ unproved, so `status.numeric_readout` remains explicitly width-unknown. The
 Loyalty number likewise begins at x=72 after its independently rendered
 38-pixel label, but its final edge remains unknown; TYPE and its 38-pixel
 personality value are also retained as separate, non-fungible components.
+The 3D-map Analyze grid is a separate FONT8 consumer on a 352-pixel raster.
+Its seven header columns begin at x=28, 80, 156, 202, 236, 264, and 300 and
+have respective 52-, 76-, 46-, 34-, 28-, 36-, and 52-pixel contracts. Sixteen
+rows begin at y=32 in 12-pixel steps; race and name translations have 52 and
+84 pixels before the dynamic values at x=164, 208, 244, 280, and 316. The
+selected-demon detail view retains 126 pixels for its FONT16 name, 46 pixels
+for its FONT16 race, a 96-pixel numeric row, six 80-pixel FONT8 skill names,
+16-pixel typed cost forms, and the existing 128-pixel two-row affinity surface.
 The separate Learned Magic texture is 144x32 with two FONT16 rows. Its heading
 uses five Japanese cells and a conservative 128-pixel English contract; the
 ability row uses eight Japanese cells or 128 English pixels.
@@ -375,8 +391,9 @@ compound glyphs and action-atlas chunks are derived output artifacts.
 
 Typeface selection is also a consumer contract, not authored punctuation.
 `config/glyph_sets.json` assigns the `font8_stock_latin` handler to the battle,
-COMP, shop, bar, healer, and status command surfaces, the status AUTO and P.A.
-compositions, and every fixed FONT8 Level Up label/readout. That handler selects
+COMP, shop, bar, healer, and status command surfaces, the status AUTO, P.A., and
+alignment-axis compositions, every fixed FONT8 Level Up label/readout, and the
+DA_3D Analyze headers, numeric prefixes, and cost units. That handler selects
 FONT8's named `stock_latin` reference set, preserving the retail appearance of
 labels such as `GO`, `COMP`, `BUY`, `EQUIP`, and `LEVEL UP`. Other FONT8
 consumers continue to use the normal narrow-English mapping. No inline token or

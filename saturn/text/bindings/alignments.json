@@ -4,9 +4,21 @@
   "records": {
     "game.normcom_status_ascii.o016574": "law.party_label",
     "game.normcom_status_ascii.o016578": "neutral.party_label",
-    "game.normcom_status_ascii.o016580": "chaos.party_label"
+    "game.normcom_status_ascii.o016580": "chaos.party_label",
+    "game.da3d_analyze.o00d4c8": "law.axis_label",
+    "game.da3d_analyze.o00d4cc": "chaos.axis_label",
+    "game.da3d_analyze.o00d4d0": "dark.axis_label",
+    "game.da3d_analyze.o00d4d4": "neutral.axis_label"
+  },
+  "additional_uses": {
+    "game.da3d_analyze.o00d4c8": [
+      {
+        "asset": "light.axis_label"
+      }
+    ]
   },
   "field_surfaces": {
-    "party_label": ["status.party_alignment_value"]
+    "party_label": ["status.party_alignment_value"],
+    "axis_label": ["status.alignment_axis_label"]
   }
 }

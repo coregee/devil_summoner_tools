@@ -248,6 +248,14 @@
       "check_arguments": ["level_up.ui", "--check"]
     },
     {
+      "id": "build_analyze_engine",
+      "description": "Build the DA_3D Analyze grid and selected-demon detail panel from editable assets.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["map_3d.analyze"],
+      "check_arguments": ["map_3d.analyze", "--check"]
+    },
+    {
       "id": "install_event_normcom_engine",
       "description": "Install EVENT through equipment and NORMCOM through detailed status.",
       "type": "copy",
@@ -270,6 +278,14 @@
       "type": "copy",
       "files": [
         {"source": "engine/generated/game/LEVEL_UP.BIN", "destination": "rom/extracted/game/LEVEL_UP.BIN"}
+      ]
+    },
+    {
+      "id": "install_analyze_engine",
+      "description": "Install the generated DA_3D Analyze runtime and data.",
+      "type": "copy",
+      "files": [
+        {"source": "engine/generated/game/DA_3D.BIN", "destination": "rom/extracted/game/DA_3D.BIN"}
       ]
     },
     {
@@ -446,9 +462,11 @@
         "build_status_engine",
         "build_options_engine",
         "build_level_up_engine",
+        "build_analyze_engine",
         "install_event_normcom_engine",
         "install_options_engine",
         "install_level_up_engine",
+        "install_analyze_engine",
         "build_field_messages_engine",
         "install_maze_engine",
         "repack_visuals",

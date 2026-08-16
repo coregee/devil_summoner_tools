@@ -1,14 +1,12 @@
 from __future__ import annotations
 
 import hashlib
-import json
 import struct
 import sys
 import unittest
 from collections import Counter
 from dataclasses import replace
 from pathlib import Path
-from types import MappingProxyType
 
 
 SATURN_ROOT = Path(__file__).resolve().parents[2]
@@ -18,6 +16,11 @@ if str(SATURN_ROOT) not in sys.path:
 from engine.core.patch_recipes import (  # noqa: E402
     ASSEMBLY_ROOT,
     resolve_recipe_expected,
+)
+from engine.shared.status_layout import (  # noqa: E402
+    compile_status_templates,
+    load_font16_metrics,
+    load_stock_latin_codes,
 )
 from engine.surfaces.level_up_ui import (  # noqa: E402
     ASSET_FILES,
@@ -35,17 +38,14 @@ from engine.surfaces.level_up_ui import (  # noqa: E402
     _ability_names,
     _bind_patches,
     _build_components,
-    _compile_status_templates,
     _configuration,
     _fallback_assembly,
     _fixed_data,
-    _font16_metrics,
     _level_up_terms,
     _manifest,
     _physical_records,
     _runtime_payload,
     _source_assets,
-    _stock_latin_codes,
     _validate_ability_names,
     _validate_generated_magname,
     build_level_up_ui,
@@ -201,7 +201,7 @@ class LevelUpUiEngineTests(unittest.TestCase):
 
     def test_complete_status_templates_are_compiled_not_prefix_sliced(self) -> None:
         values = _status_values()
-        templates = _compile_status_templates(values)
+        templates = compile_status_templates(values)
         self.assertEqual(templates.prefixes["hit_points"], "HP")
         self.assertEqual(templates.hp_mp_separator, "/")
 
@@ -210,13 +210,13 @@ class LevelUpUiEngineTests(unittest.TestCase):
             hit_points="HP {maximum_hp}/{current_hp}",
         )
         with self.assertRaisesRegex(ValueError, "must use"):
-            _compile_status_templates(reordered)
+            compile_status_templates(reordered)
         suffixed = dict(values, level="LV {level}!")
         with self.assertRaisesRegex(ValueError, "PREFIX"):
-            _compile_status_templates(suffixed)
+            compile_status_templates(suffixed)
         split = dict(values, magic_points="MP {current_mp}.{maximum_mp}")
         with self.assertRaisesRegex(ValueError, "share one separator"):
-            _compile_status_templates(split)
+            compile_status_templates(split)
 
     def test_both_runtime_fallbacks_are_fully_editable(self) -> None:
         recipes = {recipe.name: recipe for recipe in self.config.patches[TARGET]}
@@ -234,7 +234,7 @@ class LevelUpUiEngineTests(unittest.TestCase):
             max_expected,
         )
 
-        stock = _stock_latin_codes()
+        stock = load_stock_latin_codes(FONT8_METRICS_PATH)
         edited_max = replace(self.terms, max_level_next="ABC")
         max_replacement = _fallback_assembly(
             max_recipe, max_expected, edited_max
@@ -315,7 +315,7 @@ class LevelUpUiEngineTests(unittest.TestCase):
         runtime = self.patches["level_up_runtime"].replacement
         self.assertIn(struct.pack(">I", PLAYER_NAME), runtime)
 
-        widths, codes = _font16_metrics()
+        widths, codes = load_font16_metrics(FONT16_METRICS_PATH)
         hajime = load_bound_translations(
             ("game.charname.",),
             required_ids={"game.charname.o000000.text"},

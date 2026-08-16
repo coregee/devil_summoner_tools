@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "asset": "ui/status.json",
+  "records": {
+    "game.da3d_analyze.o00d284": "level.text",
+    "game.da3d_analyze.o00d288": "hit_points.text",
+    "game.da3d_analyze.o00d28c": "magic_points.text",
+    "game.da3d_analyze.o00d290": "summon_cost.text",
+    "game.da3d_analyze.o00f7ec": "level.text",
+    "game.da3d_analyze.o00f7f0": "hit_points.text",
+    "game.da3d_analyze.o00f7f4": "magic_points.text"
+  },
+  "composition": {
+    "game.da3d_analyze.o00d284": {
+      "source_role": "prefix",
+      "supplies": [
+        "level"
+      ]
+    },
+    "game.da3d_analyze.o00d288": {
+      "source_role": "prefix",
+      "supplies": [
+        "current_hp",
+        "maximum_hp"
+      ]
+    },
+    "game.da3d_analyze.o00d28c": {
+      "source_role": "prefix",
+      "supplies": [
+        "current_mp",
+        "maximum_mp"
+      ]
+    },
+    "game.da3d_analyze.o00d290": {
+      "source_role": "prefix",
+      "supplies": [
+        "summon_cost"
+      ]
+    },
+    "game.da3d_analyze.o00f7ec": {
+      "source_role": "prefix",
+      "supplies": [
+        "level"
+      ]
+    },
+    "game.da3d_analyze.o00f7f0": {
+      "source_role": "prefix",
+      "supplies": [
+        "current_hp",
+        "maximum_hp"
+      ]
+    },
+    "game.da3d_analyze.o00f7f4": {
+      "source_role": "prefix",
+      "supplies": [
+        "current_mp",
+        "maximum_mp"
+      ]
+    }
+  },
+  "record_surfaces": {
+    "game.da3d_analyze.o00d284": [
+      "map_3d.analyze_detail.numeric_readout"
+    ],
+    "game.da3d_analyze.o00d288": [
+      "map_3d.analyze_detail.numeric_readout"
+    ],
+    "game.da3d_analyze.o00d28c": [
+      "map_3d.analyze_detail.numeric_readout"
+    ],
+    "game.da3d_analyze.o00d290": [
+      "map_3d.analyze_detail.numeric_readout"
+    ],
+    "game.da3d_analyze.o00f7ec": [
+      "map_3d.analyze_grid.level_heading"
+    ],
+    "game.da3d_analyze.o00f7f0": [
+      "map_3d.analyze_grid.hit_points_heading"
+    ],
+    "game.da3d_analyze.o00f7f4": [
+      "map_3d.analyze_grid.magic_points_heading"
+    ]
+  }
+}

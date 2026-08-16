@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "asset": "ui/map_3d_analyze.json",
+  "records": {
+    "game.da3d_analyze.o00e590": "magic_cost.text",
+    "game.da3d_analyze.o00e594": "health_cost.text",
+    "game.da3d_analyze.o00f7dc": "race_heading.text",
+    "game.da3d_analyze.o00f7e4": "name_heading.text",
+    "game.da3d_analyze.o00f7f8": "attack_heading.text",
+    "game.da3d_analyze.o00f7fc": "defense_heading.text"
+  },
+  "composition": {
+    "game.da3d_analyze.o00e590": {
+      "source_role": "suffix",
+      "supplies": [
+        "cost"
+      ]
+    },
+    "game.da3d_analyze.o00e594": {
+      "source_role": "suffix",
+      "supplies": [
+        "cost"
+      ]
+    }
+  },
+  "record_surfaces": {
+    "game.da3d_analyze.o00e590": [
+      "map_3d.analyze_detail.skill_cost"
+    ],
+    "game.da3d_analyze.o00e594": [
+      "map_3d.analyze_detail.skill_cost"
+    ],
+    "game.da3d_analyze.o00f7dc": [
+      "map_3d.analyze_grid.race_heading"
+    ],
+    "game.da3d_analyze.o00f7e4": [
+      "map_3d.analyze_grid.name_heading"
+    ],
+    "game.da3d_analyze.o00f7f8": [
+      "map_3d.analyze_grid.attack_heading"
+    ],
+    "game.da3d_analyze.o00f7fc": [
+      "map_3d.analyze_grid.defense_heading"
+    ]
+  }
+}

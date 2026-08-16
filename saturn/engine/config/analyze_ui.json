@@ -1,0 +1,110 @@
+{
+  "version": 2,
+  "surface": "map_3d.analyze",
+  "targets": {
+    "DA_3D.BIN": {
+      "load_address": "0x06020000",
+      "size": 283536,
+      "stock_sha256": "3d7fd55f01eb6aeec410ddb89a8dae6cde3a7dbf1c2b36830af35341ff53d384"
+    }
+  },
+  "inputs": {
+    "font8_sha256": "c656c783225271ae1910224b85eba9431ad2c27e96bfdab797e8499f77eeff7c",
+    "font8_metrics_sha256": "82f688a7a2bc2efd1caa32555968c456c332d30813bd7e2b3c8af08b7f2978c6",
+    "font16_sha256": "89272c66b96536658c271e061ff8c15198a1bbc4c01c4e17f23575897dca0acc",
+    "font16_metrics_sha256": "3ce6e6c916da3f4bc3c7a702c9ae07f84519185a45e2f733c13726cab6532fa3",
+    "stock_font16_sha256": "177c86a2df07f001257bcd3d05dacee3417c21b8140d3174be1da58934ddc2d6"
+  },
+  "groups": [
+    {
+      "capability": "analyze_runtime",
+      "target": "DA_3D.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "analyze_runtime",
+          "address": "0x06064386",
+          "expected_sha256": "c430a6ca50199fa37e9eae6aea7a9adb728d63de881d3c02ca572e3ef908834f",
+          "expected_size": 3522,
+          "assembly": [
+            "analyze_ui/font8_vwf.s",
+            "analyze_ui/font16_from_font8.s",
+            "analyze_ui/name_decoder.s",
+            "analyze_ui/affinity_dispatcher.s",
+            "analyze_ui/name_race_dispatcher.s"
+          ]
+        },
+        {
+          "name": "analyze_table_runtime",
+          "address": "0x0606517c",
+          "expected_sha256": "fb2d01194650e10ce6fadb42fbab07e5bd63678818c1bdc61acc74e81ed2c881",
+          "expected_size": 258,
+          "assembly": [
+            "analyze_ui/skill_dispatcher.s",
+            "analyze_ui/table_font8_vwf.s"
+          ]
+        },
+        {"name": "detail_name_race_drawer", "address": "0x0602d1f8", "expected": "0602b50c", "linked_pointer": "detailed_dispatcher"},
+        {"name": "skill_name_drawer", "address": "0x0602e6f8", "expected": "0602b578", "linked_pointer": "skill_dispatcher"},
+        {"name": "affinity_drawer", "address": "0x0602d8d8", "expected": "0602b50c", "linked_pointer": "affinity_dispatcher"},
+        {"name": "grid_drawer", "address": "0x0602f404", "expected": "0602e934", "linked_pointer": "table_dispatcher"},
+        {"name": "grid_highlight_drawer", "address": "0x0602f710", "expected": "0602e934", "linked_pointer": "table_dispatcher"},
+        {
+          "name": "english_name_compare",
+          "address": "0x0602ed34",
+          "expected": "013de808611d71ff0187326cd034011a301c1f016023013dd431611d71ff0187e7006923011a341c",
+          "assembly": ["analyze_ui/name_rank_compare.s"]
+        },
+        {
+          "name": "english_name_ranks",
+          "address": "0x06065280",
+          "expected_sha256": "b47d4970e76250bd2b366114cc659c916cd5f0bcfadd98c346b960fe8f733ceb",
+          "expected_size": 256,
+          "generated": "analyze_ui_data"
+        }
+      ]
+    },
+    {
+      "capability": "analyze_layout",
+      "target": "DA_3D.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {"name": "parameter_nodes", "address": "0x06032000", "expected_sha256": "c1635e930f58c93218327b18c29e17c6cac03e7d75a694930d47f30044a6a204", "expected_size": 3072, "generated": "analyze_ui_data"},
+        {"name": "parameter_rows", "address": "0x06032c00", "expected_sha256": "05c5b4209860c1de992ae806c1832bff5c2ed3600cb2f106e6718fa377879d9f", "expected_size": 9216, "generated": "analyze_ui_data"},
+        {"name": "generic_attack_label", "address": "0x06035000", "expected_sha256": "86c69aedbccf3b6417f9d544b86d2718ffc6ad705b00b019769dedcb735c79aa", "expected_size": 1152, "generated": "analyze_ui_data"},
+        {"name": "generic_accuracy_label", "address": "0x06035480", "expected_sha256": "d7c9a5237611fd0953a7838b24ddb754e9d2354c104d2a8c8283f956e5ce37d9", "expected_size": 1152, "generated": "analyze_ui_data"},
+        {"name": "loyalty_label", "address": "0x06035900", "expected_sha256": "b4a73e08c55faa6eab2af2339fbb5c2935b34bf2b52316f195bc18fc17b51641", "expected_size": 960, "generated": "analyze_ui_data"}
+      ]
+    },
+    {
+      "capability": "analyze_visible_text",
+      "target": "DA_3D.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {"name": "detail_level_prefix", "address": "0x0602d284", "expected": "4c560000", "generated": "analyze_ui_data"},
+        {"name": "detail_hit_points_prefix", "address": "0x0602d288", "expected": "48500000", "generated": "analyze_ui_data"},
+        {"name": "detail_magic_points_prefix", "address": "0x0602d28c", "expected": "4d500000", "generated": "analyze_ui_data"},
+        {"name": "detail_summon_cost_prefix", "address": "0x0602d290", "expected": "43500000", "generated": "analyze_ui_data"},
+        {"name": "axis_law", "address": "0x0602d4c8", "expected": "4c000000", "generated": "analyze_ui_data"},
+        {"name": "axis_chaos", "address": "0x0602d4cc", "expected": "43000000", "generated": "analyze_ui_data"},
+        {"name": "axis_dark", "address": "0x0602d4d0", "expected": "44000000", "generated": "analyze_ui_data"},
+        {"name": "axis_neutral", "address": "0x0602d4d4", "expected": "4e00", "generated": "analyze_ui_data"},
+        {"name": "axis_law_first_load", "address": "0x0602d4e0", "expected": "db1c", "assembly": ["analyze_ui/axis_pointer_load.s"]},
+        {"name": "axis_law_adjust", "address": "0x0602d4f4", "expected": "e507", "assembly": ["analyze_ui/axis_law_adjust.s"]},
+        {"name": "axis_law_cell_argument", "address": "0x0602d4f8", "expected": "64b3", "assembly": ["analyze_ui/axis_cell_argument.s"]},
+        {"name": "axis_light_load", "address": "0x0602d506", "expected": "e507", "assembly": ["analyze_ui/axis_pointer_load.s"]},
+        {"name": "axis_light_cell_argument", "address": "0x0602d50a", "expected": "64b3", "assembly": ["analyze_ui/axis_cell_argument.s"]},
+        {"name": "axis_law_light_pointer", "address": "0x0602d554", "expected": "0602d4c8", "generated": "analyze_ui_data"},
+        {"name": "magic_cost_suffix", "address": "0x0602e590", "expected": "4d000000", "generated": "analyze_ui_data"},
+        {"name": "health_cost_suffix", "address": "0x0602e594", "expected": "4800", "generated": "analyze_ui_data"},
+        {"name": "race_heading", "address": "0x0602f7dc", "expected": "5241434500000000", "generated": "analyze_ui_data"},
+        {"name": "name_heading", "address": "0x0602f7e4", "expected": "4e414d4500000000", "generated": "analyze_ui_data"},
+        {"name": "level_heading", "address": "0x0602f7ec", "expected": "4c560000", "generated": "analyze_ui_data"},
+        {"name": "hit_points_heading", "address": "0x0602f7f0", "expected": "48500000", "generated": "analyze_ui_data"},
+        {"name": "magic_points_heading", "address": "0x0602f7f4", "expected": "4d500000", "generated": "analyze_ui_data"},
+        {"name": "attack_heading", "address": "0x0602f7f8", "expected": "41544b00", "generated": "analyze_ui_data"},
+        {"name": "defense_heading", "address": "0x0602f7fc", "expected": "44454600", "generated": "analyze_ui_data"}
+      ]
+    }
+  ]
+}

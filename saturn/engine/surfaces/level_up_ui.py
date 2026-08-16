@@ -20,19 +20,18 @@ from engine.core.patch_recipes import (
 from engine.core.patching import Patch, apply_patches
 from engine.core.sh2 import AssemblyError, assemble_file
 from engine.shared.font8 import font8_tables
-from engine.surfaces.status_ui import (
-    NODE_BITMAP_OFFSET as STATUS_NODE_BITMAP_OFFSET,
+from engine.shared.status_layout import (
     SIMPLE_TEMPLATE_GRAMMAR,
     StatusTemplates,
-    _compile_status_templates,
-    _derived_rows,
-    _direct_color_node,
-    _direct_color_row,
-    _font16_metrics,
-    _node_background,
-    _status_labels,
-    _stock_latin_codes,
-    _validate_shiftable_bitmap,
+    compile_status_templates,
+    derived_rows,
+    direct_color_node,
+    direct_color_row,
+    load_font16_metrics,
+    load_status_labels,
+    load_stock_latin_codes,
+    node_background,
+    validate_shiftable_bitmap,
 )
 from rom.util.catalog import load_catalog, validate_source
 from rom.util.workflows import read_source_files
@@ -344,7 +343,7 @@ def _level_up_terms(physical: Mapping[str, str]) -> LevelUpTerms:
     }
     for name, physical_id in STATUS_IDS.items():
         status_values[name] = bound[physical_id]
-    templates = _compile_status_templates(status_values)
+    templates = compile_status_templates(status_values)
 
     remaining = bound[DIRECT_IDS["remaining_points"]]
     match = _REMAINING_TEMPLATE.fullmatch(remaining)
@@ -529,7 +528,7 @@ def _ascii_record(
 
 
 def _fixed_data(terms: LevelUpTerms) -> dict[str, bytes]:
-    stock_codes = _stock_latin_codes()
+    stock_codes = load_stock_latin_codes(FONT8_METRICS_PATH)
     prefixes = terms.templates.prefixes
     generated = {
         "level_prefix": _ascii_record(prefixes["level"], 4, 3, "status.level", stock_codes),
@@ -591,28 +590,24 @@ def _layout_data(
     widths8, codes8 = font8_tables(metrics8)
     if len(font8) != 256 * 8:
         raise ValueError("Level Up FONT8 bitmap geometry changed")
-    labels = _status_labels(terms.templates)
+    labels = load_status_labels(terms.templates)
     cell = base[NODE_BITMAP_OFFSET : NODE_BITMAP_OFFSET + NODE_BITMAP_SIZE]
     if len(cell) != NODE_BITMAP_SIZE:
         raise ValueError("LEVEL_UP status-node bitmap is truncated")
-    # Reuse the status package's pure reconstruction routine without pretending
-    # LEVEL_UP has NORMCOM's file layout.
-    proxy = bytearray(STATUS_NODE_BITMAP_OFFSET + NODE_BITMAP_SIZE)
-    proxy[STATUS_NODE_BITMAP_OFFSET:] = cell
-    background = _node_background(bytes(proxy), stock_font16)
+    background = node_background(cell, stock_font16)
     return {
         "parameter_nodes": b"".join(
-            _direct_color_node(label, font8, widths8, codes8, background)
+            direct_color_node(label, font8, widths8, codes8, background)
             for label in labels.base
         ),
         "parameter_rows": b"".join(
-            _direct_color_row(" ".join(row), font8, widths8, codes8)
-            for row in _derived_rows(labels)
+            direct_color_row(" ".join(row), font8, widths8, codes8)
+            for row in derived_rows(labels)
         ),
-        "generic_attack_label": _direct_color_row(
+        "generic_attack_label": direct_color_row(
             labels.attack, font8, widths8, codes8
         ),
-        "generic_accuracy_label": _direct_color_row(
+        "generic_accuracy_label": direct_color_row(
             labels.accuracy, font8, widths8, codes8
         ),
     }
@@ -666,11 +661,11 @@ def _runtime_payload(
     )
     metrics8 = FontMetrics.load(FONT8_METRICS_PATH)
     metrics16 = FontMetrics.load(FONT16_METRICS_PATH)
-    widths16, _codes16 = _font16_metrics()
+    widths16, _codes16 = load_font16_metrics(FONT16_METRICS_PATH)
     font16 = FONT16_PATH.read_bytes()
     if len(font16) != 1872 * 32 or len(widths16) != 268:
         raise ValueError("Level Up FONT16 geometry changed")
-    _validate_shiftable_bitmap(
+    validate_shiftable_bitmap(
         font16, widths16, 32, 2, "Level Up status FONT16"
     )
     _validate_ability_names(packed_magname, ability_names, metrics8, metrics16)
@@ -811,7 +806,7 @@ def _runtime_payload(
 def _fallback_codes(
     terms: LevelUpTerms,
 ) -> tuple[tuple[int, ...], tuple[int, ...]]:
-    stock_codes = _stock_latin_codes()
+    stock_codes = load_stock_latin_codes(FONT8_METRICS_PATH)
     max_text = terms.max_level_next
     if not max_text or len(max_text) > 7:
         raise ValueError("level_up.max_level_next must contain one to seven cells")

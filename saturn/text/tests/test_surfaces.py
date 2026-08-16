@@ -345,18 +345,38 @@ class SurfaceCatalogTests(unittest.TestCase):
         self.assertIsNone(fusion_help_ja.width.unit)
         self.assertIsNone(fusion_help_ja.width.value)
 
-    def test_demon_surface_slots_are_recorded_without_guessed_limits(self) -> None:
-        known_font_rows = {
-            "status.demon_name": ("font16", 1),
+    def test_demon_detail_surface_slots_use_grounded_da3d_limits(self) -> None:
+        expected = {
+            "status.demon_name": (
+                ("font16", 1, "glyph_cells", 8),
+                ("font16", 1, "pixels", 126),
+            ),
+            "status.demon_race": (
+                ("font16", 1, "glyph_cells", 3),
+                ("font16", 1, "pixels", 46),
+            ),
         }
-        for name, expected in known_font_rows.items():
+        for name, (expected_ja, expected_en) in expected.items():
             with self.subTest(surface=name):
                 surface = self.catalog.surface(name)
-                self.assertEqual((surface.ja.font, surface.ja.rows), expected)
-                self.assertFalse(surface.ja.width.known)
-                self.assertIsNone(surface.en.font)
-                self.assertIsNone(surface.en.rows)
-                self.assertFalse(surface.en.width.known)
+                self.assertEqual(
+                    (
+                        surface.ja.font,
+                        surface.ja.rows,
+                        surface.ja.width.unit,
+                        surface.ja.width.value,
+                    ),
+                    expected_ja,
+                )
+                self.assertEqual(
+                    (
+                        surface.en.font,
+                        surface.en.rows,
+                        surface.en.width.unit,
+                        surface.en.width.value,
+                    ),
+                    expected_en,
+                )
 
         for name in (
             "battle.party_demon_name",

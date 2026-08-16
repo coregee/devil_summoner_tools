@@ -17,6 +17,12 @@ if str(SATURN_ROOT) not in sys.path:
 
 from engine.surfaces.battle_negotiation import build_battle_negotiation  # noqa: E402
 from engine.surfaces.battle_ui import build_battle_ui  # noqa: E402
+from engine.surfaces.analyze_ui import (  # noqa: E402
+    CONFIG_PATH as ANALYZE_CONFIG_PATH,
+    RUNTIME_CAVE as ANALYZE_RUNTIME_CAVE,
+    TABLE_CAVE as ANALYZE_TABLE_CAVE,
+    build_analyze_ui,
+)
 from engine.surfaces.comp_menu import (  # noqa: E402
     BUILD_PATH as COMP_BUILD_PATH,
     NORMCOM_OUTPUT_PATH as COMP_NORMCOM_OUTPUT_PATH,
@@ -82,6 +88,8 @@ OPTIONS_OUTPUT_PATH = GENERATED_ROOT / "CFG_SET.BIN"
 OPTIONS_BUILD_MANIFEST_PATH = GENERATED_ROOT / "options_ui_build.json"
 LEVEL_UP_OUTPUT_PATH = GENERATED_ROOT / "LEVEL_UP.BIN"
 LEVEL_UP_BUILD_MANIFEST_PATH = GENERATED_ROOT / "level_up_ui_build.json"
+ANALYZE_OUTPUT_PATH = GENERATED_ROOT / "DA_3D.BIN"
+ANALYZE_BUILD_MANIFEST_PATH = GENERATED_ROOT / "analyze_ui_build.json"
 DUNGEON_LOCATIONS_ROOT = GENERATED_ROOT / "dungeon_locations"
 DUNGEON_LOCATIONS_MAZE_PATH = DUNGEON_LOCATIONS_ROOT / "MAZE.BIN"
 DUNGEON_LOCATIONS_BUILD_MANIFEST_PATH = (
@@ -327,6 +335,55 @@ def build_level_up_surface() -> dict[Path, bytes]:
     }
 
 
+def build_analyze_surface() -> dict[Path, bytes]:
+    """Build the DA_3D Analyze grid and selected-demon detail panel."""
+    result = build_analyze_ui()
+    manifest = {
+        "version": 1,
+        "surface": "map_3d.analyze",
+        "patch_config_sha256": file_sha256(ANALYZE_CONFIG_PATH),
+        "asset_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.asset_files
+        },
+        "runtime_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.runtime_input_files
+        },
+        "source_inputs": dict(result.source_inputs),
+        "assembly_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.assembly_files
+        },
+        "runtime": {
+            "detail": {
+                "address": f"0x{ANALYZE_RUNTIME_CAVE:08x}",
+                "bytes": result.runtime_used_size,
+                "capacity": result.runtime_capacity,
+            },
+            "table": {
+                "address": f"0x{ANALYZE_TABLE_CAVE:08x}",
+                "bytes": result.table_runtime_used_size,
+                "capacity": result.table_runtime_capacity,
+            },
+        },
+        "output": {
+            "file": "DA_3D.BIN",
+            "sha256": sha256(result.data),
+        },
+        "patch_groups": list(
+            dict.fromkeys(patch.group for patch in result.patches)
+        ),
+        "patches": len(result.patches),
+    }
+    return {
+        ANALYZE_OUTPUT_PATH: result.data,
+        ANALYZE_BUILD_MANIFEST_PATH: (
+            json.dumps(manifest, indent=2) + "\n"
+        ).encode("utf-8"),
+    }
+
+
 def _generated_target_path(target: str) -> Path:
     return GENERATED_ROOT.joinpath(*PurePosixPath(target).parts)
 
@@ -478,6 +535,7 @@ def main() -> int:
             "status.ui",
             "options.ui",
             "level_up.ui",
+            "map_3d.analyze",
             "dungeon.locations",
             "field.messages",
         ),
@@ -495,6 +553,7 @@ def main() -> int:
             "status.ui": build_status_surface,
             "options.ui": build_options_surface,
             "level_up.ui": build_level_up_surface,
+            "map_3d.analyze": build_analyze_surface,
             "dungeon.locations": build_dungeon_locations_surface,
             "field.messages": build_field_messages_surface,
         }

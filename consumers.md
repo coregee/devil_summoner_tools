@@ -228,7 +228,27 @@ All of the grid text is rendered in FONT8.
 
 Pressing R (default) in the 3D Map view opens the Demon Analyze table. The table includes columns for "RACE", "NAME', "LV", "HP", "MP', "ATK", "DEF". Highlighting a column header sorts the table by that metric. The player can scroll down the table to view the demons they've encountered thus far.
 
-Each demon's row consists of a 5-kana race and 8-character demon name. Wider values would overrun the available space.
+On the 352-pixel raster, the header starts are x=28, 80, 156, 202, 236,
+264, and 300. Their corresponding one-row limits are 52, 76, 46, 34, 28,
+36, and 52 pixels. The stock header baseline is y=20. These fixed Latin
+headings use the original Japanese FONT8 English alphabet rather than the
+mixed-case replacement face.
+
+The table shows 16 rows at y=32 through y=212 in 12-pixel steps. Row fields
+start at x=28 for race, x=80 for name, then x=164, 208, 244, 280, and 316 for
+the five numeric values. Each demon's Japanese row consists of a five-kana
+race and an eight-glyph demon name. The translated race has 52 pixels and the
+translated name has 84 pixels before the first numeric value. Wider names are
+not clipped by the mature renderer, so over-limit authored values remain a
+surface-validation issue rather than being silently truncated.
+With the current FONT8 metrics, `Yamata-no-Orochi` advances 93 pixels and
+`Yomotsu-Shikome` 88 pixels, so those two active names exceed the actual
+84-pixel row gap. `Take-Mikazuchi` and `Jack-o'-Lantern` exceed the 76-pixel
+header-column span but still fit the row's later numeric start.
+
+The 43 physical grid race spellings are katakana source variants of the same
+semantic race entries used by the FONT16 detail view. They do not create a
+second translation catalogue.
 
 Selecting a demon from the list opens its status screen.
 
@@ -500,11 +520,26 @@ On the right are the player's derived stats. FONT 12 with the values as FONT8 be
 
 The demon status screen replaces the human name with two text consumers. The kanji representation of the demon's race, and the demon's name, both separate FONT16 strings.
 
-The top-left stat block is now LV, HP, MP, and CP (summon cost).
+The selected demon name occupies a 128x16 raster and starts at x=2, leaving
+126 translated pixels; the race occupies a 48x16 raster and starts at x=2,
+leaving 46 pixels. The Japanese inputs are eight and three FONT16 glyphs
+respectively.
+The current `Avatar` and `Element` race translations advance 47 and 50 pixels
+in the mature FONT16 renderer, so both exceed the strict 46-pixel detail slot;
+that is retained as explicit review debt rather than hidden with truncation.
+
+The top-left stat block is a 96x60 raster containing LV, HP, MP, and CP
+(summon cost). The four FONT8 rows begin at y=0, 12, 24, and 36; each dynamic
+value begins separately at x=40. These prefixes reuse the shared, editable
+status templates rather than introducing Analyze-only copies.
 
 The bottom left now shows a skill table.
-These are FONT8 8-glyph strings, with space for a 2 digit + letter FONT8 cost beside them (i.e., "12H", "14M").
-There can be up to 7 skills.
+This is a 96x80 FONT8 raster with six visible rows at y=8 through y=68 in
+12-pixel steps. Skill names start at x=0 and have an 80-pixel contract; the
+numeric cost is anchored at x=80 and its editable one-glyph unit at x=88.
+The complete typed templates are `{cost}M` for magic/MP costs and `{cost}H`
+for health/HP costs. The retail renderer selects M for ability IDs through 159
+and H for IDs above 159. There is no item relation in this Analyze consumer.
 
 The top right now shows just the AUTO command (i.e., "AUTO GO").
 Instead of derived stats, the right shows three new parameters:
@@ -536,7 +571,9 @@ On this page we have the derived stats in the top-right:
 魔法防衛
 
 And below these, a 2 row, 8 glyph window for affinity text.
-This uses the FONT12 path.
+The affinity raster is 128x32. Japanese uses two rows of eight FONT12 glyphs;
+the translated consumer uses FONT8 and may advance through 127 pixels while
+retaining the full 128-pixel surface.
 
 
 ### Level Up

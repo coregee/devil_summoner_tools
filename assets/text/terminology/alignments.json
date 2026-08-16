@@ -9,7 +9,8 @@
       },
       "axis_label": {
         "reference": "L",
-        "translation": "L"
+        "translation": "L",
+        "note": "DA_3D retail shares this physical L record with Light; the authored fields remain independent so the engine can split the Light source when their translations differ."
       }
     },
     "neutral": {
@@ -35,7 +36,8 @@
     "light": {
       "axis_label": {
         "reference": "L",
-        "translation": "L"
+        "translation": "L",
+        "note": "DA_3D retail aliases this to the Law L record; this field remains independently editable and requires a dedicated Light source when it diverges."
       }
     },
     "dark": {

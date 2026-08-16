@@ -15,6 +15,7 @@ PURE_DATA_GENERATORS = {
     "dungeon_locations",
     "field_messages",
     "font16_scratch",
+    "analyze_ui_data",
     "level_up_data",
     "options_data",
     "status_data",

@@ -703,6 +703,132 @@
         }
       }
     },
+    "map_3d.analyze_grid.race_heading": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 52
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 52
+        }
+      }
+    },
+    "map_3d.analyze_grid.name_heading": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 76
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 76
+        }
+      }
+    },
+    "map_3d.analyze_grid.level_heading": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 46
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 46
+        }
+      }
+    },
+    "map_3d.analyze_grid.hit_points_heading": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 34
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 34
+        }
+      }
+    },
+    "map_3d.analyze_grid.magic_points_heading": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 28
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 28
+        }
+      }
+    },
+    "map_3d.analyze_grid.attack_heading": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 36
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 36
+        }
+      }
+    },
+    "map_3d.analyze_grid.defense_heading": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 52
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 52
+        }
+      }
+    },
     "map_3d.analyze_race": {
       "ja": {
         "font": "font8",
@@ -716,8 +842,8 @@
         "font": "font8",
         "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 52
         }
       }
     },
@@ -731,11 +857,65 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font8",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 84
+        }
+      }
+    },
+    "map_3d.analyze_detail.numeric_readout": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 96
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 96
+        }
+      }
+    },
+    "map_3d.analyze_detail.skill_cost": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 16
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 16
+        }
+      }
+    },
+    "map_3d.analyze_detail.skill_list": {
+      "ja": {
+        "font": "font8",
+        "rows": 6,
+        "width": {
+          "unit": "pixels",
+          "value": 96
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 6,
+        "width": {
+          "unit": "pixels",
+          "value": 96
         }
       }
     },
@@ -1284,16 +1464,16 @@
         "font": "font16",
         "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "glyph_cells",
+          "value": 8
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font16",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 126
         }
       }
     },
@@ -1302,16 +1482,16 @@
         "font": "font16",
         "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "glyph_cells",
+          "value": 3
         }
       },
       "en": {
         "font": "font16",
         "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 46
         }
       }
     },

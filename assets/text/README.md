@@ -122,6 +122,16 @@ record exists. Field-only magic therefore does not acquire an invented console
 form. The bonus-disc ability-name table binds to the same fields, including its
 28 explicit punctuation variants and one proved glyph equivalence.
 
+The 3D-map Analyze table follows the same sharing rule. Its 43 compact
+katakana race records are reference-only `analyze_grid` variants of the shared
+race names, so editing a race translation updates both the grid and FONT16
+detail view. `ui/map_3d_analyze.json` owns only Analyze-specific headings and
+the complete typed `{cost}M` / `{cost}H` skill-cost templates. Its LV, HP, MP,
+and CP records bind to the shared status templates. DA_3D retail also points
+both Law and Light at one physical `L`; the alignment catalogue keeps those as
+independent authored fields, and the Saturn binding records Light as a second
+semantic use of the stock Law record.
+
 ## Identity and sharing
 
 An asset is identified by its file-local semantic key and field path. English

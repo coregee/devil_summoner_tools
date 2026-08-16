@@ -5,7 +5,12 @@
     "deity": {
       "name": {
         "reference": "魔神",
-        "translation": "Deity"
+        "translation": "Deity",
+        "variants": {
+          "analyze_grid": {
+            "reference": "マジン"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "魔神",
@@ -19,7 +24,12 @@
     "megami": {
       "name": {
         "reference": "女神",
-        "translation": "Megami"
+        "translation": "Megami",
+        "variants": {
+          "analyze_grid": {
+            "reference": "メガミ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "女神",
@@ -33,7 +43,12 @@
     "herald": {
       "name": {
         "reference": "大天使",
-        "translation": "Herald"
+        "translation": "Herald",
+        "variants": {
+          "analyze_grid": {
+            "reference": "ダイテンシ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "大天使",
@@ -53,7 +68,12 @@
     "avian": {
       "name": {
         "reference": "霊鳥",
-        "translation": "Avian"
+        "translation": "Avian",
+        "variants": {
+          "analyze_grid": {
+            "reference": "レイチョウ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "霊鳥",
@@ -67,7 +87,12 @@
     "tree": {
       "name": {
         "reference": "神樹",
-        "translation": "Tree"
+        "translation": "Tree",
+        "variants": {
+          "analyze_grid": {
+            "reference": "シンジュ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "神樹",
@@ -81,7 +106,12 @@
     "enigma": {
       "name": {
         "reference": "秘神",
-        "translation": "Enigma"
+        "translation": "Enigma",
+        "variants": {
+          "analyze_grid": {
+            "reference": "ヒシン"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "秘神",
@@ -95,7 +125,12 @@
     "genma": {
       "name": {
         "reference": "幻魔",
-        "translation": "Genma"
+        "translation": "Genma",
+        "variants": {
+          "analyze_grid": {
+            "reference": "ゲンマ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "幻魔",
@@ -109,7 +144,12 @@
     "avatar": {
       "name": {
         "reference": "神獣",
-        "translation": "Avatar"
+        "translation": "Avatar",
+        "variants": {
+          "analyze_grid": {
+            "reference": "シンジュウ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "神獣",
@@ -123,7 +163,12 @@
     "holy": {
       "name": {
         "reference": "聖獣",
-        "translation": "Holy"
+        "translation": "Holy",
+        "variants": {
+          "analyze_grid": {
+            "reference": "セイジュウ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "聖獣",
@@ -137,7 +182,12 @@
     "element": {
       "name": {
         "reference": "精霊",
-        "translation": "Element"
+        "translation": "Element",
+        "variants": {
+          "analyze_grid": {
+            "reference": "セイレイ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "精霊",
@@ -151,7 +201,12 @@
     "mitama": {
       "name": {
         "reference": "御魂",
-        "translation": "Mitama"
+        "translation": "Mitama",
+        "variants": {
+          "analyze_grid": {
+            "reference": "ミタマ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "御魂",
@@ -165,7 +220,12 @@
     "hero": {
       "name": {
         "reference": "英雄",
-        "translation": "Hero"
+        "translation": "Hero",
+        "variants": {
+          "analyze_grid": {
+            "reference": "エイユウ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "英雄",
@@ -179,7 +239,12 @@
     "fury": {
       "name": {
         "reference": "破壊神",
-        "translation": "Fury"
+        "translation": "Fury",
+        "variants": {
+          "analyze_grid": {
+            "reference": "ハカイシン"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "破壊神",
@@ -199,7 +264,12 @@
     "lady": {
       "name": {
         "reference": "地母神",
-        "translation": "Lady"
+        "translation": "Lady",
+        "variants": {
+          "analyze_grid": {
+            "reference": "ジボシン"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "地母神",
@@ -219,7 +289,12 @@
     "kishin": {
       "name": {
         "reference": "鬼神",
-        "translation": "Kishin"
+        "translation": "Kishin",
+        "variants": {
+          "analyze_grid": {
+            "reference": "キシン"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "鬼神",
@@ -233,7 +308,12 @@
     "dragon": {
       "name": {
         "reference": "龍神",
-        "translation": "Dragon"
+        "translation": "Dragon",
+        "variants": {
+          "analyze_grid": {
+            "reference": "リュウジン"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "龍神",
@@ -247,7 +327,12 @@
     "divine": {
       "name": {
         "reference": "天使",
-        "translation": "Divine"
+        "translation": "Divine",
+        "variants": {
+          "analyze_grid": {
+            "reference": "テンシ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "天使",
@@ -261,7 +346,12 @@
     "flight": {
       "name": {
         "reference": "妖鳥",
-        "translation": "Flight"
+        "translation": "Flight",
+        "variants": {
+          "analyze_grid": {
+            "reference": "ヨウチョウ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "妖鳥",
@@ -275,7 +365,12 @@
     "yoma": {
       "name": {
         "reference": "妖魔",
-        "translation": "Yoma"
+        "translation": "Yoma",
+        "variants": {
+          "analyze_grid": {
+            "reference": "ヨウマ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "妖魔",
@@ -289,7 +384,12 @@
     "fairy": {
       "name": {
         "reference": "妖精",
-        "translation": "Fairy"
+        "translation": "Fairy",
+        "variants": {
+          "analyze_grid": {
+            "reference": "ヨウセイ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "妖精",
@@ -303,7 +403,12 @@
     "snake": {
       "name": {
         "reference": "龍王",
-        "translation": "Snake"
+        "translation": "Snake",
+        "variants": {
+          "analyze_grid": {
+            "reference": "リュウオウ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "龍王",
@@ -317,7 +422,12 @@
     "beast": {
       "name": {
         "reference": "魔獣",
-        "translation": "Beast"
+        "translation": "Beast",
+        "variants": {
+          "analyze_grid": {
+            "reference": "マジュウ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "魔獣",
@@ -331,7 +441,12 @@
     "uma": {
       "name": {
         "reference": "珍獣",
-        "translation": "UMA"
+        "translation": "UMA",
+        "variants": {
+          "analyze_grid": {
+            "reference": "チンジュウ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "珍獣",
@@ -345,7 +460,12 @@
     "jirae": {
       "name": {
         "reference": "地霊",
-        "translation": "Jirae"
+        "translation": "Jirae",
+        "variants": {
+          "analyze_grid": {
+            "reference": "チレイ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "地霊",
@@ -359,7 +479,12 @@
     "night": {
       "name": {
         "reference": "夜魔",
-        "translation": "Night"
+        "translation": "Night",
+        "variants": {
+          "analyze_grid": {
+            "reference": "ヤマ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "夜魔",
@@ -373,7 +498,12 @@
     "fallen": {
       "name": {
         "reference": "堕天使",
-        "translation": "Fallen"
+        "translation": "Fallen",
+        "variants": {
+          "analyze_grid": {
+            "reference": "ダテンシ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "堕天使",
@@ -393,7 +523,12 @@
     "brute": {
       "name": {
         "reference": "妖鬼",
-        "translation": "Brute"
+        "translation": "Brute",
+        "variants": {
+          "analyze_grid": {
+            "reference": "ヨウキ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "妖鬼",
@@ -407,7 +542,12 @@
     "femme": {
       "name": {
         "reference": "鬼女",
-        "translation": "Femme"
+        "translation": "Femme",
+        "variants": {
+          "analyze_grid": {
+            "reference": "キジョ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "鬼女",
@@ -421,7 +561,12 @@
     "vile": {
       "name": {
         "reference": "邪神",
-        "translation": "Vile"
+        "translation": "Vile",
+        "variants": {
+          "analyze_grid": {
+            "reference": "ジャシン"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "邪神",
@@ -435,7 +580,12 @@
     "raptor": {
       "name": {
         "reference": "凶鳥",
-        "translation": "Raptor"
+        "translation": "Raptor",
+        "variants": {
+          "analyze_grid": {
+            "reference": "キョウチョウ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "凶鳥",
@@ -449,7 +599,12 @@
     "wood": {
       "name": {
         "reference": "妖樹",
-        "translation": "Wood"
+        "translation": "Wood",
+        "variants": {
+          "analyze_grid": {
+            "reference": "ヨウジュ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "妖樹",
@@ -463,7 +618,12 @@
     "reaper": {
       "name": {
         "reference": "死神",
-        "translation": "Reaper"
+        "translation": "Reaper",
+        "variants": {
+          "analyze_grid": {
+            "reference": "シニガミ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "死神",
@@ -477,7 +637,12 @@
     "wilder": {
       "name": {
         "reference": "妖獣",
-        "translation": "Wilder"
+        "translation": "Wilder",
+        "variants": {
+          "analyze_grid": {
+            "reference": "ヨウジュウ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "妖獣",
@@ -491,7 +656,12 @@
     "jaki": {
       "name": {
         "reference": "邪鬼",
-        "translation": "Jaki"
+        "translation": "Jaki",
+        "variants": {
+          "analyze_grid": {
+            "reference": "ジャキ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "邪鬼",
@@ -505,7 +675,12 @@
     "haunt": {
       "name": {
         "reference": "屍鬼",
-        "translation": "Haunt"
+        "translation": "Haunt",
+        "variants": {
+          "analyze_grid": {
+            "reference": "シキ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "屍鬼",
@@ -519,7 +694,12 @@
     "vermin": {
       "name": {
         "reference": "妖虫",
-        "translation": "Vermin"
+        "translation": "Vermin",
+        "variants": {
+          "analyze_grid": {
+            "reference": "ヨウチュウ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "妖虫",
@@ -533,7 +713,12 @@
     "tyrant": {
       "name": {
         "reference": "魔王",
-        "translation": "Tyrant"
+        "translation": "Tyrant",
+        "variants": {
+          "analyze_grid": {
+            "reference": "マオウ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "魔王",
@@ -547,7 +732,12 @@
     "drake": {
       "name": {
         "reference": "邪龍",
-        "translation": "Drake"
+        "translation": "Drake",
+        "variants": {
+          "analyze_grid": {
+            "reference": "ジャリュウ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "邪龍",
@@ -561,7 +751,12 @@
     "ghost": {
       "name": {
         "reference": "幽鬼",
-        "translation": "Ghost"
+        "translation": "Ghost",
+        "variants": {
+          "analyze_grid": {
+            "reference": "ユウキ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "幽鬼",
@@ -575,7 +770,12 @@
     "spirit": {
       "name": {
         "reference": "悪霊",
-        "translation": "Spirit"
+        "translation": "Spirit",
+        "variants": {
+          "analyze_grid": {
+            "reference": "アクリョウ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "悪霊",
@@ -589,7 +789,12 @@
     "foul": {
       "name": {
         "reference": "外道",
-        "translation": "Foul"
+        "translation": "Foul",
+        "variants": {
+          "analyze_grid": {
+            "reference": "ゲドウ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "外道",
@@ -603,7 +808,12 @@
     "zoma": {
       "name": {
         "reference": "造魔",
-        "translation": "Zoma"
+        "translation": "Zoma",
+        "variants": {
+          "analyze_grid": {
+            "reference": "ゾウマ"
+          }
+        }
       },
       "fusion_preview_label": {
         "reference": "造魔",
@@ -619,6 +829,9 @@
         "reference": "人",
         "translation": "Human",
         "variants": {
+          "analyze_grid": {
+            "reference": "ヒト"
+          },
           "psp": {
             "reference": "",
             "translation": "",

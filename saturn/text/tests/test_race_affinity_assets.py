@@ -61,7 +61,14 @@ class RaceAssetTests(unittest.TestCase):
         )
 
     def test_game_and_compendium_occurrences_bind_explicitly(self) -> None:
-        self.assertEqual(len(self.binding.records), 181)
+        self.assertEqual(len(self.binding.records), 224)
+        self.assertEqual(
+            sum(
+                physical_id.startswith("game.da3d_analyze.grid_races.")
+                for physical_id in self.binding.variants
+            ),
+            43,
+        )
         self.assertEqual(len(self.binding.additional_uses), 43)
         self.assertEqual(
             sum(len(uses) for uses in self.binding.additional_uses.values()),

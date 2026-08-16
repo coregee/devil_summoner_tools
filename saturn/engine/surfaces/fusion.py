@@ -14,6 +14,7 @@ from engine.core.patch_recipes import (
     load_patch_recipe_configuration,
 )
 from engine.core.sh2 import AssemblyError, assemble, assemble_file
+from engine.shared.demon_sort import encode_sorted_pool
 from text.util.assets import BINDING_ROOT, load_asset, load_binding
 from text.util.event_repack import FontMetrics
 from text.util.surfaces import load_surfaces
@@ -228,39 +229,6 @@ def _encode_pool(
     return struct.pack(f">{len(offsets)}H", *offsets), bytes(pool)
 
 
-def _english_name_key(value: str) -> str:
-    key = "".join(
-        character.lower()
-        for character in value
-        if character not in " -'"
-    )
-    if not key or not key.isascii() or not key.isalnum():
-        raise ValueError(f"unsupported fusion sort name {value!r}")
-    return key
-
-
-def _encode_sorted_pool(
-    values: tuple[str, ...], codes: dict[str, int]
-) -> tuple[bytes, bytes]:
-    names_by_key: dict[str, set[str]] = {}
-    for value in values:
-        names_by_key.setdefault(_english_name_key(value), set()).add(value)
-    collisions = {key: rows for key, rows in names_by_key.items() if len(rows) > 1}
-    if collisions:
-        raise ValueError(f"fusion demon-name sort collisions: {collisions}")
-    offsets_by_name: dict[str, int] = {}
-    pool = bytearray()
-    for key in sorted(names_by_key):
-        value = next(iter(names_by_key[key]))
-        offsets_by_name[value] = len(pool)
-        pool.extend(codes[character] for character in value)
-        pool.append(TERMINATOR)
-    offsets = struct.pack(
-        f">{len(values)}H", *(offsets_by_name[value] for value in values)
-    )
-    return offsets, bytes(pool)
-
-
 def _font8_map(
     font12_codes: dict[str, int],
     font8_codes: dict[str, int],
@@ -353,7 +321,7 @@ def _runtime_payload() -> tuple[bytes, dict[str, int], tuple[Path, ...]]:
     codes8 = _codes(font8)
 
     race_offsets, race_pool = _encode_pool(preview_races, codes12)
-    demon_offsets, demon_pool = _encode_sorted_pool(demon_names, codes12)
+    demon_offsets, demon_pool = encode_sorted_pool(demon_names, codes12)
     character_offsets, character_pool = _encode_pool(character_names, codes12)
     table_offsets, table_pool = _encode_pool(table_races, codes12)
     chart_widths = _chart_widths(table_races, chart_races, font8)

@@ -155,7 +155,7 @@
       "path": "DA_3D.BIN",
       "size": 283536,
       "stock_sha256": "3d7fd55f01eb6aeec410ddb89a8dae6cde3a7dbf1c2b36830af35341ff53d384",
-      "owned_sha256": "3934dfddba98176787e26c83cf047b54a28ebb62aed91aaf4a337ef11568f7b6"
+      "owned_sha256": "a764151a5f6b33d3e0ef67cb362deab4525f3eee6e1de539c564537304740a59"
     },
     "dvlname_dat": {
       "path": "DVLNAME.DAT",
@@ -2488,6 +2488,120 @@
                 ]
               }
             ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "da3d_analyze",
+      "corpus": "addressed/da3d_analyze.json",
+      "container": {
+        "type": "addressed",
+        "file": "da_3d_bin",
+        "default_source_encoding": "ascii",
+        "tables": [
+          {
+            "name": "grid_races",
+            "count": 43,
+            "source_encoding": "game_font8_plain_glyph",
+            "framing": {
+              "type": "zero_padded"
+            },
+            "require_identical_bytes": false,
+            "locations": [
+              {
+                "base": "0x4517c",
+                "stride": "0x6",
+                "units": 6
+              }
+            ]
+          }
+        ],
+        "records": [
+          {
+            "name": "detail_level",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0xd284", "units": 4}]}]
+          },
+          {
+            "name": "detail_hit_points",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0xd288", "units": 4}]}]
+          },
+          {
+            "name": "detail_magic_points",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0xd28c", "units": 4}]}]
+          },
+          {
+            "name": "detail_summon_cost",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0xd290", "units": 4}]}]
+          },
+          {
+            "name": "axis_law_light",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0xd4c8", "units": 4}]}]
+          },
+          {
+            "name": "axis_chaos",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0xd4cc", "units": 4}]}]
+          },
+          {
+            "name": "axis_dark",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0xd4d0", "units": 4}]}]
+          },
+          {
+            "name": "axis_neutral",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0xd4d4", "units": 2}]}]
+          },
+          {
+            "name": "magic_cost_unit",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0xe590", "units": 4}]}]
+          },
+          {
+            "name": "health_cost_unit",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0xe594", "units": 2}]}]
+          },
+          {
+            "name": "grid_race_heading",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0xf7dc", "units": 8}]}]
+          },
+          {
+            "name": "grid_name_heading",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0xf7e4", "units": 8}]}]
+          },
+          {
+            "name": "grid_level_heading",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0xf7ec", "units": 4}]}]
+          },
+          {
+            "name": "grid_hit_points_heading",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0xf7f0", "units": 4}]}]
+          },
+          {
+            "name": "grid_magic_points_heading",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0xf7f4", "units": 4}]}]
+          },
+          {
+            "name": "grid_attack_heading",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0xf7f8", "units": 4}]}]
+          },
+          {
+            "name": "grid_defense_heading",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0xf7fc", "units": 4}]}]
           }
         ]
       }

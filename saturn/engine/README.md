@@ -300,6 +300,43 @@ python saturn/engine/build.py level_up.ui --check
 python saturn/build.py default
 ```
 
+## 3D Map Analyze
+
+`map_3d.analyze` builds one atomic `DA_3D.BIN` surface for both the sortable
+Analyze grid and the selected-demon detail panel. The result is byte-identical
+to the trusted mature Saturn output at
+`3d84b647018108d6a2f1f74a068336d6166766b1a3d25d826f7eb05c66f2efe7`.
+
+`config/analyze_ui.json` owns 37 typed recipes. Fourteen reproduce the mature
+runtime, hooks, English name ranks, and status rasters. Seventeen additional
+generated records make every live retail heading, numeric prefix, alignment
+axis, and skill-cost unit asset-driven. Six conditional recipes split the
+retail Law/Light `L` alias only when those independently authored fields
+diverge, so the default remains exact without sacrificing editability.
+
+Eleven readable sources under `asm/analyze_ui/` implement the bounded FONT8
+and FONT16 drawers, name decoder, affinity and skill dispatchers, grid/detail
+dispatcher, English rank comparison, and the conditional axis split. The main
+runtime uses 3,510 of its exact 3,522-byte region; the separate table runtime
+uses 256 of 258 bytes. The 52 live bytes between those regions remain
+untouched rather than being treated as cave space.
+
+The builder reuses shared demon, race, affinity, status, alignment, magic, and
+skill assets. The 43 katakana grid race records are reference variants of the
+same semantic race entries, not duplicate translations. Fixed Latin labels
+use the preserved Japanese FONT8 English alphabet through the named
+`stock_latin` handler. The affinity dictionary is deterministically derived
+from complete authored descriptions; compression phrases are not a second
+hand-maintained prose source.
+
+Run:
+
+```powershell
+python saturn/engine/build.py map_3d.analyze
+python saturn/engine/build.py map_3d.analyze --check
+python saturn/build.py default
+```
+
 ## Dungeon locations
 
 `dungeon.locations` rebuilds the location consumers in `MAZE.BIN`,

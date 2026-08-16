@@ -193,16 +193,17 @@ class StatusAssetTests(unittest.TestCase):
             for physical_id in self.command_binding.records
             if physical_id.startswith("game.normcom_status_ascii.")
         }
-        bound_ids = (
-            set(self.binding.records)
-            | status_command_ids
-            | set(self.alignment_binding.records)
-        )
+        status_alignment_ids = {
+            physical_id
+            for physical_id in self.alignment_binding.records
+            if physical_id.startswith("game.normcom_status_ascii.")
+        }
+        bound_ids = set(self.binding.records) | status_command_ids | status_alignment_ids
         self.assertEqual(len(corpus_ids), 24)
         self.assertEqual(bound_ids, corpus_ids)
         self.assertEqual(len(self.binding.records), 14)
         self.assertEqual(len(status_command_ids), 7)
-        self.assertEqual(len(self.alignment_binding.records), 3)
+        self.assertEqual(len(status_alignment_ids), 3)
         self.assertEqual(
             {
                 physical_id: composition.source_role
