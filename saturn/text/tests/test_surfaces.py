@@ -101,6 +101,10 @@ class SurfaceCatalogTests(unittest.TestCase):
                 ("font16", 1, "glyph_cells", 7),
                 ("font16", 1, "pixels", 144),
             ),
+            "save_load.special_location": (
+                ("font16", 1, "glyph_cells", 7),
+                ("font16", 1, "pixels", 112),
+            ),
         }
         for name, (expected_ja, expected_en) in expected_locations.items():
             with self.subTest(surface=name):
@@ -123,6 +127,14 @@ class SurfaceCatalogTests(unittest.TestCase):
                     ),
                     expected_en,
                 )
+        self.assertEqual(
+            self.catalog.surface("save_load.dungeon_location").en.glyphs,
+            24,
+        )
+        self.assertEqual(
+            self.catalog.surface("save_load.special_location").en.glyphs,
+            16,
+        )
 
     def test_documented_fixed_width_japanese_geometries(self) -> None:
         expected = {
@@ -457,6 +469,15 @@ class SurfaceCatalogTests(unittest.TestCase):
                 "surfaces": {
                     "test.surface": {
                         "ja": {**unknown, "note": "not part of the contract"},
+                        "en": unknown,
+                    }
+                },
+            },
+            "invalid glyph cap": {
+                "version": 1,
+                "surfaces": {
+                    "test.surface": {
+                        "ja": {**unknown, "glyphs": 0},
                         "en": unknown,
                     }
                 },

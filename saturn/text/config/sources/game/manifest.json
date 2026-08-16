@@ -195,7 +195,7 @@
       "path": "LOAD.BIN",
       "size": 338552,
       "stock_sha256": "100740f4671c2b4f150cfba0b539e75ee122415ec5c1dc9aeeb2f21663a1b446",
-      "owned_sha256": "744200ade01d69f43d7a5d0131dd9080299a44aafd196a3ef143d75542abe40a"
+      "owned_sha256": "ad3e6c96332f97a5cfffcbfb3139d92f134c0dce7081df28bc31b88cf76175c5"
     },
     "magname_dat": {
       "path": "MAGNAME.DAT",
@@ -356,7 +356,7 @@
       "path": "SAVE.BIN",
       "size": 334736,
       "stock_sha256": "49ce5a24f811a70b94e9ab1af327fff2e1150eb455fc1d690adc78961a68f744",
-      "owned_sha256": "ec665cecf9efd03afd97d54646e5dc97cb56512341cba2559054afadd95d0bc5"
+      "owned_sha256": "ae6d12063eefa9e4fa108602aa08e63ba4b20712e9bb5e656170744f53eccbfe"
     },
     "sndtest_bin": {
       "path": "SNDTEST.BIN",
@@ -4178,6 +4178,7 @@
         "records": [
           {
             "name": "location_home",
+            "require_identical_bytes": true,
             "locations": [
               {
                 "spans": [
@@ -4186,11 +4187,21 @@
                     "units": 2
                   }
                 ]
+              },
+              {
+                "spans": [
+                  {
+                    "file": "load_bin",
+                    "offset": "0x52a14",
+                    "units": 2
+                  }
+                ]
               }
             ]
           },
           {
             "name": "location_office",
+            "require_identical_bytes": true,
             "locations": [
               {
                 "spans": [
@@ -4199,11 +4210,21 @@
                     "units": 5
                   }
                 ]
+              },
+              {
+                "spans": [
+                  {
+                    "file": "load_bin",
+                    "offset": "0x52a18",
+                    "units": 5
+                  }
+                ]
               }
             ]
           },
           {
             "name": "location_asahi",
+            "require_identical_bytes": true,
             "locations": [
               {
                 "spans": [
@@ -4212,11 +4233,21 @@
                     "units": 4
                   }
                 ]
+              },
+              {
+                "spans": [
+                  {
+                    "file": "load_bin",
+                    "offset": "0x52a22",
+                    "units": 4
+                  }
+                ]
               }
             ]
           },
           {
             "name": "location_rinkai_park",
+            "require_identical_bytes": true,
             "locations": [
               {
                 "spans": [
@@ -4225,11 +4256,21 @@
                     "units": 4
                   }
                 ]
+              },
+              {
+                "spans": [
+                  {
+                    "file": "load_bin",
+                    "offset": "0x52a2a",
+                    "units": 4
+                  }
+                ]
               }
             ]
           },
           {
             "name": "location_mount_kasagi",
+            "require_identical_bytes": true,
             "locations": [
               {
                 "spans": [
@@ -4238,11 +4279,21 @@
                     "units": 4
                   }
                 ]
+              },
+              {
+                "spans": [
+                  {
+                    "file": "load_bin",
+                    "offset": "0x52a32",
+                    "units": 4
+                  }
+                ]
               }
             ]
           },
           {
             "name": "location_yarai",
+            "require_identical_bytes": true,
             "locations": [
               {
                 "spans": [
@@ -4251,11 +4302,21 @@
                     "units": 4
                   }
                 ]
+              },
+              {
+                "spans": [
+                  {
+                    "file": "load_bin",
+                    "offset": "0x52a3a",
+                    "units": 4
+                  }
+                ]
               }
             ]
           },
           {
             "name": "location_chuo",
+            "require_identical_bytes": true,
             "locations": [
               {
                 "spans": [
@@ -4264,11 +4325,21 @@
                     "units": 4
                   }
                 ]
+              },
+              {
+                "spans": [
+                  {
+                    "file": "load_bin",
+                    "offset": "0x52a42",
+                    "units": 4
+                  }
+                ]
               }
             ]
           },
           {
             "name": "location_hibarigaoka",
+            "require_identical_bytes": true,
             "locations": [
               {
                 "spans": [
@@ -4277,16 +4348,81 @@
                     "units": 4
                   }
                 ]
+              },
+              {
+                "spans": [
+                  {
+                    "file": "load_bin",
+                    "offset": "0x52a4a",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "slot_level_scaffold",
+            "require_identical_bytes": true,
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x51b28",
+                    "units": 2
+                  }
+                ]
+              },
+              {
+                "spans": [
+                  {
+                    "file": "load_bin",
+                    "offset": "0x52a10",
+                    "units": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "basement_floor_scaffold",
+            "require_identical_bytes": true,
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x51b8a",
+                    "units": 3
+                  }
+                ]
+              },
+              {
+                "spans": [
+                  {
+                    "file": "load_bin",
+                    "offset": "0x52a62",
+                    "units": 3
+                  }
+                ]
               }
             ]
           },
           {
             "name": "empty",
+            "require_identical_bytes": true,
             "locations": [
               {
                 "spans": [
                   {
                     "offset": "0x50760",
+                    "units": 5
+                  }
+                ]
+              },
+              {
+                "spans": [
+                  {
+                    "file": "load_bin",
+                    "offset": "0xb1b4",
                     "units": 5
                   }
                 ]
@@ -4307,6 +4443,32 @@
             ]
           },
           {
+            "name": "confirm_yes",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x508ba",
+                    "units": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "confirm_no",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x508c0",
+                    "units": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "prompt_quit_game",
             "locations": [
               {
@@ -4314,6 +4476,54 @@
                   {
                     "offset": "0x508c6",
                     "units": 11
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "slot_date_scaffold",
+            "source_encoding": "game_font16_plain_glyph",
+            "require_identical_bytes": true,
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0xab62",
+                    "units": 1
+                  }
+                ]
+              },
+              {
+                "spans": [
+                  {
+                    "file": "load_bin",
+                    "offset": "0xa786",
+                    "units": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "slot_time_scaffold",
+            "source_encoding": "game_font16_plain_glyph",
+            "require_identical_bytes": true,
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0xac00",
+                    "units": 1
+                  }
+                ]
+              },
+              {
+                "spans": [
+                  {
+                    "file": "load_bin",
+                    "offset": "0xa792",
+                    "units": 1
                   }
                 ]
               }

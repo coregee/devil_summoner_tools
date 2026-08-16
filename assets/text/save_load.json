@@ -20,6 +20,61 @@
         "translation": "Quit game?"
       }
     },
+    "confirm_yes": {
+      "text": {
+        "reference": "YES",
+        "translation": "YES"
+      }
+    },
+    "confirm_no": {
+      "text": {
+        "reference": "NO",
+        "translation": "NO"
+      }
+    },
+    "slot_name": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "{first_name} {last_name}",
+        "translation": "{first_name} {last_name}",
+        "note": "Complete Saturn populated-slot name template. The renderer supplies the two saved name values and takes the conditional separator from this asset. The current Saturn compiler requires {first_name} before {last_name}; supporting reversed order remains renderer debt."
+      }
+    },
+    "slot_level": {
+      "placeholders": {
+        "level": "number"
+      },
+      "text": {
+        "reference": "Lv{level}",
+        "translation": "Lv{level}",
+        "note": "Complete Saturn populated-slot level template. Any alignment between the fixed prefix and numeric value is surface layout, not authored text."
+      }
+    },
+    "slot_date": {
+      "placeholders": {
+        "day": "number",
+        "month": "number"
+      },
+      "text": {
+        "reference": "{day}／{month}",
+        "translation": "{day}/{month}",
+        "note": "Complete Saturn populated-slot date template. Values are non-zero-padded; field padding is layout."
+      }
+    },
+    "slot_time": {
+      "placeholders": {
+        "hour": "number",
+        "minute": "number"
+      },
+      "text": {
+        "reference": "{hour}：{minute}",
+        "translation": "{hour}:{minute}",
+        "note": "Complete Saturn populated-slot time template. Values are non-zero-padded; field padding is layout."
+      }
+    },
     "save_write_failure": {
       "text": {
         "reference": "正しく記録を保存できませんでした。{n}やり直してください。",
@@ -27,15 +82,23 @@
       }
     },
     "save_capacity_error": {
+      "placeholders": {
+        "capacity_blocks": "number"
+      },
       "text": {
-        "reference": "容量不足のためセーブできません{n}セーブには129ブロックが必要です",
-        "translation": "Not enough space to save.{n}Save requires 129 blocks."
+        "reference": "容量不足のためセーブできません{n}セーブには{capacity_blocks}ブロックが必要です",
+        "translation": "Not enough space to save.{n}Save requires {capacity_blocks} blocks.",
+        "note": "Complete capacity message. capacity_blocks is supplied by capacity_number.text so the required size has one authored owner."
       }
     },
     "save_capacity_failure": {
+      "placeholders": {
+        "capacity_blocks": "number"
+      },
       "text": {
-        "reference": "記録を保存できません。{n}記録には129ブロック{n}の容量が必要です。",
-        "translation": "Unable to save data.{n}129 free blocks are{n}required."
+        "reference": "記録を保存できません。{n}記録には{capacity_blocks}ブロック{n}の容量が必要です。",
+        "translation": "Unable to save data.{n}{capacity_blocks} free blocks are{n}required.",
+        "note": "Complete capacity failure. capacity_blocks is supplied by capacity_number.text so the required size has one authored owner."
       }
     },
     "start_without_save_warning": {
@@ -45,9 +108,13 @@
       }
     },
     "insufficient_free_space_instructions": {
+      "placeholders": {
+        "capacity_blocks": "number"
+      },
       "text": {
-        "reference": "このゲームの記録を、保存するためには、129の空き容量が必要です。{n}セガサターン本体の保存データ管理画面で他ゲームの記録を消す、またはカートリッジRAMにコピーしてからゲームを再スタートして下さい。",
-        "translation": "This game requires 129 blocks to save.{n}Free blocks using the Sega Saturn save data screen, or move data to cartridge RAM and restart the game."
+        "reference": "このゲームの記録を、保存するためには、{capacity_blocks}の空き容量が必要です。{n}セガサターン本体の保存データ管理画面で他ゲームの記録を消す、またはカートリッジRAMにコピーしてからゲームを再スタートして下さい。",
+        "translation": "This game requires {capacity_blocks} blocks to save.{n}Free blocks using the Sega Saturn save data screen, or move data to cartridge RAM and restart the game.",
+        "note": "Complete storage warning. capacity_blocks is supplied by capacity_number.text so the required size has one authored owner."
       }
     },
     "load_failure": {
@@ -65,31 +132,36 @@
     "save_heading": {
       "text": {
         "reference": "SAVE",
-        "translation": "SAVE"
+        "translation": "SAVE",
+        "note": "Semantic label for stock image lettering. Saturn raster ownership remains in the visual package; this is not a FONT text record."
       }
     },
     "load_heading": {
       "text": {
         "reference": "LOAD",
-        "translation": "LOAD"
+        "translation": "LOAD",
+        "note": "Semantic label for stock image lettering. Saturn raster ownership remains in the visual package; this is not a FONT text record."
       }
     },
     "new_game": {
       "text": {
         "reference": "NEW GAME",
-        "translation": "NEW GAME"
+        "translation": "NEW GAME",
+        "note": "Semantic label for stock image lettering. Saturn raster ownership remains in the visual package; this is not a FONT text record."
       }
     },
     "storage_internal": {
       "text": {
         "reference": "本体",
-        "translation": "INTERNAL"
+        "translation": "INTERNAL",
+        "note": "Semantic source for the visual-owned Saturn storage-selector raster and reusable platform consumers."
       }
     },
     "storage_cartridge": {
       "text": {
         "reference": "カートリッジ",
-        "translation": "CARTRIDGE"
+        "translation": "CARTRIDGE",
+        "note": "Semantic source for the visual-owned Saturn storage-selector raster and reusable platform consumers."
       }
     },
     "psp_game_title": {

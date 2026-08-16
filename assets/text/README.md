@@ -257,6 +257,10 @@ none of it is a runtime exemption. The current audit tracks:
   `Found` and `Obtained` call paths despite the retail call sites using both;
 - wiring the PSP save renderer to the titles, difficulty labels, prompts,
   fallback label, and complete detail template now stored in `save_load.json`;
+- extending the Saturn slot-name compiler if translators need to reverse the
+  current `{first_name}` then `{last_name}` field order; its conditional
+  separator is asset-owned now, but the trusted renderer reads those adjacent
+  save fields in fixed order;
 - the PSP first-VWF welcome line, and wiring the shared profile-entry assets
   while removing its old content-equality locks;
 - every visible word in title, menu, or other artwork.
@@ -303,8 +307,17 @@ explicit fan-out. Sixteen drinks join their separately stored names and
 descriptions in one entity record, and six bar patrons own their display names.
 Fusion confirmation, the healer's all-members label, and the stock `Inv.` label
 are editable assets rather than renderer prose. `save_load.json` owns all
-non-location Saturn SAVE/LOAD text, stock-English and raster labels, and the
-previously code-owned PSP savedata wording and full detail template. The seven
+non-location Saturn SAVE/LOAD text, including the complete populated-slot name,
+level, date, and time templates, stock-English confirmation choices, system
+messages, semantic image labels, and the previously code-owned PSP savedata
+wording and full detail template. `capacity_number.text` is the single owner of
+the required block count; typed binding substitutions materialize it into the
+three complete Saturn prose templates instead of maintaining four copies of
+`129`. The Saturn date/time punctuation and `Lv` prefix bind as physical
+scaffolds of their complete templates, while the basement scaffold binds to
+the canonical template in `field/location_formats.json`. SAVE/LOAD image
+lettering remains visual-package output rather than being misclassified as
+FONT text. The seven
 genuinely PSP-only Gouma-den tutorial lines are additions; inherited PSP text
 continues to reuse the Saturn-authored fields.
 

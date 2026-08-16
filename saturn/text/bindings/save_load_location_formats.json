@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "asset": "field/location_formats.json",
+  "records": {
+    "game.save_static.o051b8a": "save_load_basement.text"
+  },
+  "composition": {
+    "game.save_static.o051b8a": {
+      "source_role": "scaffold",
+      "supplies": [
+        "location",
+        "floor"
+      ]
+    }
+  },
+  "record_surfaces": {
+    "game.save_static.o051b8a": [
+      "save_load.dungeon_location"
+    ]
+  }
+}

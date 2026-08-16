@@ -18,6 +18,7 @@ PURE_DATA_GENERATORS = {
     "analyze_ui_data",
     "level_up_data",
     "options_data",
+    "save_load_data",
     "status_data",
     "zero_scratch",
 }

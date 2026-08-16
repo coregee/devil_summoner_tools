@@ -17,6 +17,7 @@ from util.assets import (  # noqa: E402
     _safe_relative_path,
     load_asset,
     load_binding,
+    load_bound_translations,
     validate_asset_document,
 )
 
@@ -566,6 +567,123 @@ class AssetSchemaTests(unittest.TestCase):
                     asset_root=root,
                     physical_records={"physical.ctrl": "TR"},
                 )
+
+    def test_physical_scaffold_can_ground_an_interior_literal(self) -> None:
+        asset_document = {
+            "version": 1,
+            "kind": "surface_catalog",
+            "entries": {
+                "date": {
+                    "placeholders": {"day": "number", "month": "number"},
+                    "text": {
+                        "reference": "{day}／{month}",
+                        "translation": "{day}/{month}",
+                    },
+                }
+            },
+        }
+        binding_document = {
+            "version": 1,
+            "asset": "date.json",
+            "records": {"physical.slash": "date.text"},
+            "composition": {
+                "physical.slash": {
+                    "source_role": "scaffold",
+                    "supplies": ["day", "month"],
+                }
+            },
+        }
+        with tempfile.TemporaryDirectory() as raw_directory:
+            root = Path(raw_directory)
+            (root / "date.json").write_text(
+                json.dumps(asset_document), encoding="utf-8"
+            )
+            binding_path = root / "binding.json"
+            binding_path.write_text(
+                json.dumps(binding_document), encoding="utf-8"
+            )
+            binding = load_binding(
+                binding_path,
+                asset_root=root,
+                physical_records={"physical.slash": "／"},
+            )
+            self.assertEqual(
+                binding.composition["physical.slash"].source_role,
+                "scaffold",
+            )
+
+            with self.assertRaisesRegex(ValueError, "not a scaffold"):
+                load_binding(
+                    binding_path,
+                    asset_root=root,
+                    physical_records={"physical.slash": "："},
+                )
+
+    def test_binding_substitutions_materialize_bound_translations_token_safely(
+        self,
+    ) -> None:
+        asset_document = {
+            "version": 1,
+            "kind": "surface_catalog",
+            "entries": {
+                "capacity": {
+                    "text": {"reference": "129", "translation": "256"}
+                },
+                "message": {
+                    "placeholders": {"capacity_blocks": "number"},
+                    "text": {
+                        "reference": (
+                            "Need {capacity_blocks}; literal {{capacity_blocks}}"
+                        ),
+                        "translation": (
+                            "Need {capacity_blocks}; literal {{capacity_blocks}}"
+                        ),
+                    },
+                },
+            },
+        }
+        binding_document = {
+            "version": 1,
+            "asset": "capacity.json",
+            "records": {"physical.message": "message.text"},
+            "substitutions": {
+                "physical.message": {
+                    "capacity_blocks": "capacity.text",
+                }
+            },
+        }
+        with tempfile.TemporaryDirectory() as raw_directory:
+            root = Path(raw_directory)
+            (root / "capacity.json").write_text(
+                json.dumps(asset_document), encoding="utf-8"
+            )
+            binding_path = root / "binding.json"
+            binding_path.write_text(
+                json.dumps(binding_document), encoding="utf-8"
+            )
+            physical = {
+                "physical.message": "Need 129; literal {{capacity_blocks}}"
+            }
+            binding = load_binding(
+                binding_path,
+                asset_root=root,
+                physical_records=physical,
+            )
+            self.assertEqual(
+                dict(binding.substitutions["physical.message"]),
+                {"capacity_blocks": "capacity.text"},
+            )
+            translations = load_bound_translations(
+                ("physical.",),
+                required_ids={"physical.message"},
+                binding_paths=(binding_path,),
+                physical_records=physical,
+                asset_root=root,
+            )
+            self.assertEqual(
+                translations["physical.message"],
+                "Need 256; literal {{capacity_blocks}}",
+            )
 
     def test_nl_is_layout_only(self) -> None:
         document = {

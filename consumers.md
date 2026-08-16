@@ -81,28 +81,75 @@ text.
 
 ### Save/Load Screens
 
-#### Load Screen
+SAVE and LOAD list three slots using FONT16. Their headings and top selectors are
+image lettering, not FONT text: LOAD, NEW GAME, and SAVE remain stock image
+glyphs, while the 104-by-24 INTERNAL/CARTRIDGE selector variants are owned by
+the visual package. `assets/text/save_load.json` still owns those semantic
+labels so another platform or a future regenerated raster does not need to
+invent them, but the Saturn text package must not catalogue their pixels as
+physical text records.
 
-The top-left of the load screen renders two texture buttons, "LOAD" and "NEW GAME".
-The top-right of the load screen renders two more buttons, "本体" and "カートリッジ".
+An empty slot displays `未使用` / `EMPTY`. The stock source stores five visible
+cells and the English field has an 80-pixel bound. SAVE and LOAD contain
+identical physical copies; the source manifest validates both through one
+semantic record. Inter-character centring blanks and the slot's unused
+one-glyph left margin are geometry, not authored text.
 
-The load screen itself lists three save files. All of the text is in FONT16.
+A populated slot has two rows. The first row contains a player name followed
+by a location. The original name segment is three given-name cells, one
+separator cell, and three family-name cells. The translated renderer has an
+eight-cell/128-pixel strip. The complete editable template is
+`{first_name} {last_name}`: the renderer supplies the saved values and may omit
+the asset-owned separator when either value is empty. The current Saturn
+compiler still requires `{first_name}` before `{last_name}` because its trusted
+path reads the adjacent save fields in that order; honoring a reversed template
+requires a second renderer path and remains explicit debt. A special fixed location has seven Japanese cells or
+112 English pixels. A generated dungeon label has the same seven-cell stock
+field but a proved 144-pixel translated limit because it may append an editable
+floor form.
 
-Empty save files display "未　使　用" (with equivalent spaces between) in the center of their bounding area.
+The second row has independently bounded fields:
 
-Populated save files display across two rows. They are laid out as follows, with the number indicating the reserved glyphs.
-[First Name - 3][Space - 1][Last Name - 3][Space - 1][Location - 7]
-["Lv" + 1/2 numbers][Space - 2]["DD/MM" for non-zero padded date][Space - 1]["HH:MM" for non-zero padded 24 hour time]
+- `Lv{level}`: four Japanese cells or 64 English pixels;
+- `{day}／{month}` / `{day}/{month}`: five cells or 80 pixels;
+- `{hour}：{minute}` / `{hour}:{minute}`: five cells or 80 pixels.
 
-There is a 1 glyph left margin for the populated save files that goes unused.
+Day, month, hour, minute, level, location identity, floor number, and player
+names are runtime values. They are not translatable literals. Alignment blanks
+and the non-zero-padded numeric field geometry also remain layout. The visible
+`Lv`, date slash, time colon, and `地下…階` floor scaffold are authored text:
+their identical SAVE/LOAD FONT16 copies are extracted and bound as literal
+scaffolds of the complete `save_load.json` slot templates and
+`field/location_formats.json` floor template. The same floor record supplies
+the final `階` glyph for positive floors; the complete above-ground form remains
+an independently editable template even though it has no separate stock
+literal record.
 
-#### Save Screen
+On SAVE, selecting an occupied slot opens a one-row prompt (`記録の更新をしますか？`
+or `ゲームを終了しますか？`) followed by the FONT16 choices `YES` and `NO`.
+Prompts are 11 Japanese cells or 176 English pixels; choices are three cells or
+48 pixels. The stock-English choice records are physical text and remain
+editable despite needing no translation.
 
-The save screen is similar to the LOAD screen, except the top left doesn't have "LOAD"/"NEW GAME" but instead a "SAVE" button.
+SAVE/LOAD system text has separate contracts rather than one generic message
+surface: small failures are three rows of 11 Japanese cells or 176 English
+pixels; capacity messages are two rows of 17 cells or 272 pixels; the start
+warning is four rows of 20 cells or 320 pixels; and the storage-management
+warning is six rows of 20 cells or 320 pixels. The standalone capacity display
+is three cells. `capacity_number.text` is the sole authored owner of `129`;
+typed `{capacity_blocks}` substitutions materialize that value into each
+complete prose template and the direct LOAD record at `LOAD.BIN` `0xB1AE`.
+Translated rows must satisfy both their pixel width and their encoded-glyph
+ceiling. Those ceilings are 16 for a special location, 24 for a dungeon
+location, 17 for the joined player name, 4 for level, 5 for date/time and the
+empty state, 11 for prompts, 3 for choices, 24 per small-message row, 25 per
+capacity-message row, 63 per warning row, and 3 for the capacity value.
 
-Selecting a save file that already exists displays a prompt window, with FONT16 text, and below, the options "YES", "NO" also in FONT16, with a green bounding rectangle and orange text to indicate selection.
-
-Prompts can include "記録の更新をしますか？", "ゲームを終了しますか？".
+PSP reuses the shared location identities and general save semantics without
+copying translations. Its game title, slot title, difficulty labels, cancel
+prompts, fallback location, and complete `psp_detail` template remain PSP-only
+fields because that savedata presentation is a different consumer layout from
+the Saturn two-row slot.
 
 
 ### Event Window

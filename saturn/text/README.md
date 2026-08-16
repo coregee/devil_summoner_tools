@@ -79,7 +79,8 @@ reduces 144 canonical records plus 288 independently indexed ELV/KAI mirrors to
 forms and complete floor/location templates. MAZE and AUTOMAP share the same
 authored Yes/No choices; `(No data)` and `Delete?` remain AUTOMAP-owned fields.
 Seven additional save-screen places and the shared Mount Kasagi identity cover
-the eight special SAVE labels without duplicating them as save prose. The mixed
+the eight special SAVE/LOAD labels without duplicating them as save prose; each
+record validates the identical physical copy in both executables. The mixed
 SHOPSMP bank is partitioned by consumer: facilities, demon joining, debug UI,
 and the race catalogue own their lines independently of the parent file. Saturn
 bindings retain exact physical grounding without putting file offsets or table
@@ -185,11 +186,16 @@ which storage path can display it without truncation.
 
 The game manifest covers 162 physical files and 61 source groups. Its four
 container types are EVE banks, pointer banks, fixed records with subfields, and
-explicit addressed spans. The generated corpus contains 16,123 records: 12,711
-text-bearing EVE pages and 3,412 other records. All 144 dungeon-location rows
+explicit addressed spans. The generated corpus contains 16,129 records: 12,711
+text-bearing EVE pages and 3,418 other records. All 144 dungeon-location rows
 remain distinct instead of collapsing to 24 repeated Japanese strings. Each
 row now verifies that its name bytes agree across the MAZE, AUTOMAP, SAVE, and
 LOAD tables; these four physical copies still produce one catalogue record.
+SAVE/LOAD's previously omitted `Lv`, `YES`, `NO`, date slash, time colon, and
+basement-floor scaffold are now explicit records. Identical EMPTY, special
+location, `Lv`, punctuation, and floor copies are validated across SAVE and
+LOAD instead of being inferred from one file. The direct three-cell LOAD
+capacity record at `0xB1AE` remains independently catalogued.
 The additional 56 landing records across 17 ELV files and 232 records across
 all 98 KAI files are separate physical corpus entries. Exact offsets, complete
 source hashes, owned-region hashes, and the KAI file-catalogue digest fail
@@ -317,11 +323,23 @@ mapped:
 Raw 8-bit values use two hexadecimal digits. Unknown controls are never dropped,
 and duplicate atlas values remain raw so their numeric identity is not lost.
 
+Bindings can ground a complete runtime template with
+`composition.source_role: "scaffold"`: removing its declared value
+placeholders must leave exactly the physical literal record. This proves the
+SAVE/LOAD `Lv`, slash, colon, and `地下…階` records without introducing duplicate
+fragment assets. `substitutions` handles a different case, where a stored full
+record materializes another placeholder-free asset field. SAVE/LOAD uses it to
+compile the single `capacity_number.text` value into every capacity message;
+reference and translation substitution operate on parsed named tokens, so
+escaped literal braces cannot be rewritten accidentally.
+
 ## Consumer limits
 
 `config/surfaces.json` is a platform display contract, not an authored-text or
 binary-storage catalog. Each surface has separate `ja` and `en` layouts with an
 explicit font, row count, and width measured in either glyph cells or pixels.
+Layouts may also declare an independent `glyphs` ceiling when a proportional
+renderer has both a pixel boundary and a finite encoded-row buffer.
 `null` means that a limit has not been established; the loader rejects omitted
 fields and partially specified widths so an unknown value cannot silently
 become a guessed constraint.
@@ -338,13 +356,26 @@ count remains explicit `null` until measured. The negotiation choice field is
 10 Japanese cells or 150 translated pixels on one row. Location
 contracts now distinguish
 the two-row 64-pixel 3D name, its 64-pixel floor row, the 112-pixel automap text
-after the runtime-owned marker icon, and the 144-pixel save/load label. MAZE
+after the runtime-owned marker icon, the 112-pixel special SAVE/LOAD location,
+and the 144-pixel generated dungeon label. SAVE/LOAD additionally records the
+128-pixel joined-name strip, four-cell/64-pixel level field, five-cell/80-pixel
+date and time fields, five-cell/80-pixel empty state, 11-cell/176-pixel prompt,
+and three-cell/48-pixel confirmation choice. Its small messages are three rows
+of 11 cells or 176 pixels, capacity messages two rows of 17 cells or 272
+pixels, and its four- and six-row warnings use the proved 20-cell/320-pixel
+geometry. Heading and storage-selector surfaces remain explicitly image-owned.
+SAVE/LOAD English layouts record both limits: special/dungeon location rows
+allow 16/24 encoded glyphs, the joined name 17, level 4, date/time and EMPTY 5,
+prompts 11, choices 3, small-message rows 24, capacity-message rows 25, warning
+rows 63, and the capacity value 3. Passing the pixel check alone is therefore
+not sufficient for unusually narrow text.
+MAZE
 talk choices retain one 48-pixel row, and the three-row AUTOMAP marker popup is
 limited to 64 pixels per row in English. Other English limits remain unknown
 until their translated renderers are measured.
 Facility contracts additionally distinguish the eight-cell bar and healer
-lists, two-row drink help, the shop's 16-pixel `Inv.` label, and known SAVE/LOAD
-row or raster geometry. Unmeasured facility widths remain explicit `null`s.
+lists, two-row drink help, and the shop's 16-pixel `Inv.` label. Unmeasured
+facility widths remain explicit `null`s.
 Profile-entry contracts retain the stock three/three/eight/three/three input
 limits and the English patch's eight-character first, last, codename, city,
 and ward fields. They also record the 13-cell English grid rows, 96-pixel tab

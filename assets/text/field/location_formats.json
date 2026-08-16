@@ -64,7 +64,7 @@
         "floor": "number"
       },
       "text": {
-        "reference": "{location} 地下{floor}階",
+        "reference": "{location}地下{floor}階",
         "translation": "{location} B{floor}F"
       }
     },
@@ -74,7 +74,7 @@
         "floor": "number"
       },
       "text": {
-        "reference": "{location} {floor}階",
+        "reference": "{location}{floor}階",
         "translation": "{location} {floor}F"
       }
     }

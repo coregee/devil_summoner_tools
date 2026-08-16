@@ -36,6 +36,7 @@ class LayoutLimit:
     font: str | None
     rows: int | None
     width: WidthLimit
+    glyphs: int | None
 
 
 @dataclass(frozen=True)
@@ -122,7 +123,12 @@ def _load_layout(
     font_config_root: Path,
 ) -> LayoutLimit:
     row = _object(value, context)
-    _fields(row, {"font", "rows", "width"}, context)
+    required = {"font", "rows", "width"}
+    if not required <= set(row) or not set(row) <= required | {"glyphs"}:
+        raise ValueError(
+            f"{context} fields are {sorted(row)}, expected {sorted(required)} "
+            "with optional 'glyphs'"
+        )
     font = row["font"]
     if font is not None:
         if not isinstance(font, str) or _FONT_RE.fullmatch(font) is None:
@@ -133,6 +139,7 @@ def _load_layout(
         font,
         _positive_or_unknown(row["rows"], f"{context}.rows"),
         _load_width(row["width"], f"{context}.width"),
+        _positive_or_unknown(row.get("glyphs"), f"{context}.glyphs"),
     )
 
 

@@ -135,6 +135,30 @@ def _placeholder_tokens(value: str) -> Counter[str]:
     )
 
 
+def _literal_scaffold(value: str, placeholders: Iterable[str]) -> str:
+    """Remove runtime placeholders while preserving the authored literal skeleton."""
+    supplied = frozenset(placeholders)
+    return format_tokens(
+        token
+        for token in parse_tokens(value)
+        if not (isinstance(token, Named) and token.name in supplied)
+    )
+
+
+def _substitute_named_tokens(
+    value: str,
+    replacements: Mapping[str, str],
+) -> str:
+    """Replace declared named tokens without touching escaped literal braces."""
+    output = []
+    for token in parse_tokens(value):
+        if isinstance(token, Named) and token.name in replacements:
+            output.extend(parse_tokens(replacements[token.name]))
+        else:
+            output.append(token)
+    return format_tokens(output)
+
+
 @dataclass(frozen=True, slots=True)
 class TextVariant:
     reference: str | None
@@ -209,6 +233,7 @@ class AssetBinding:
     asset: PurePosixPath
     records: Mapping[str, str]
     variants: Mapping[str, str]
+    substitutions: Mapping[str, Mapping[str, str]]
     composition: Mapping[str, Composition]
     additional_uses: Mapping[str, tuple[AdditionalUse, ...]]
     reference_normalization: str | None
@@ -449,6 +474,7 @@ def load_bound_translations(
     required_ids: set[str] | frozenset[str] | None = None,
     binding_paths: Iterable[Path] | None = None,
     physical_records: Mapping[str, str] | None = None,
+    asset_root: Path = ASSET_ROOT,
 ) -> Mapping[str, str]:
     """Resolve primary Saturn physical records to their authored translations."""
     if not prefixes or any(not prefix for prefix in prefixes):
@@ -464,8 +490,15 @@ def load_bound_translations(
             prefix in path.read_text(encoding="utf-8") for prefix in prefixes
         ):
             continue
-        binding = load_binding(path, physical_records=physical)
-        catalog = catalogs.setdefault(binding.asset, load_asset(binding.asset))
+        binding = load_binding(
+            path,
+            asset_root=asset_root,
+            physical_records=physical,
+        )
+        catalog = catalogs.setdefault(
+            binding.asset,
+            load_asset(binding.asset, asset_root=asset_root),
+        )
         for physical_id, asset_ref in binding.records.items():
             if not physical_id.startswith(prefixes):
                 continue
@@ -476,6 +509,19 @@ def load_bound_translations(
             _reference, translation, _reviewed = catalog.field(asset_ref).resolve(
                 binding.variants.get(physical_id)
             )
+            replacement_values: dict[str, str] = {}
+            for placeholder, supplier_ref in binding.substitutions.get(
+                physical_id, {}
+            ).items():
+                _supplier_reference, supplier_translation, _supplier_reviewed = (
+                    catalog.field(supplier_ref).resolve()
+                )
+                if not supplier_translation:
+                    raise ValueError(
+                        f"substitution supplier is untranslated: {supplier_ref}"
+                    )
+                replacement_values[placeholder] = supplier_translation
+            translation = _substitute_named_tokens(translation, replacement_values)
             if not translation:
                 raise ValueError(f"physical record is untranslated: {physical_id}")
             translations[physical_id] = translation
@@ -505,6 +551,7 @@ def load_binding(
         str(path),
         optional={
             "variants",
+            "substitutions",
             "composition",
             "additional_uses",
             "reference_normalization",
@@ -541,6 +588,53 @@ def load_binding(
         catalog.field(records[physical_id]).resolve(variant_name)
         variants[physical_id] = variant_name
 
+    substitutions: dict[str, Mapping[str, str]] = {}
+    for physical_id, raw_substitutions in _object(
+        document.get("substitutions", {}), f"{path}.substitutions"
+    ).items():
+        if physical_id not in records:
+            raise ValueError(f"{path}: substitutions describe an unbound record")
+        asset_ref = records[physical_id]
+        match = _ASSET_REF_RE.fullmatch(asset_ref)
+        assert match is not None
+        placeholders = set(catalog.entries[match.group(1)].placeholders)
+        values = _object(
+            raw_substitutions,
+            f"{path}.substitutions.{physical_id}",
+        )
+        if set(values) != placeholders or not placeholders:
+            raise ValueError(
+                f"{path}: substitutions for {physical_id!r} must supply every "
+                "template placeholder"
+            )
+        resolved: dict[str, str] = {}
+        for placeholder, supplier_ref in values.items():
+            _identifier(
+                placeholder,
+                f"{path}.substitutions.{physical_id} placeholder",
+            )
+            if not isinstance(supplier_ref, str):
+                raise ValueError(
+                    f"{path}.substitutions.{physical_id}.{placeholder} must be "
+                    "an asset reference"
+                )
+            supplier_match = _ASSET_REF_RE.fullmatch(supplier_ref)
+            if supplier_match is None:
+                raise ValueError(
+                    f"{path}.substitutions.{physical_id}.{placeholder} must be "
+                    "an asset reference"
+                )
+            supplier = catalog.field(supplier_ref)
+            supplier_entry = catalog.entries[supplier_match.group(1)]
+            if supplier_entry.placeholders:
+                raise ValueError(
+                    f"{path}: substitution supplier {supplier_ref!r} must not "
+                    "contain placeholders"
+                )
+            supplier.resolve()
+            resolved[placeholder] = supplier_ref
+        substitutions[physical_id] = MappingProxyType(resolved)
+
     def load_composition(
         raw_composition: Any,
         context: str,
@@ -548,9 +642,10 @@ def load_binding(
     ) -> Composition:
         value = _object(raw_composition, context)
         _fields(value, {"source_role", "supplies"}, context)
-        if value["source_role"] not in {"prefix", "suffix"}:
+        if value["source_role"] not in {"prefix", "suffix", "scaffold"}:
             raise ValueError(
-                f"{path}: composition source role must be 'prefix' or 'suffix'"
+                f"{path}: composition source role must be 'prefix', 'suffix', "
+                "or 'scaffold'"
             )
         if not isinstance(value["supplies"], list) or not value["supplies"]:
             raise ValueError(f"{context}.supplies must be a list")
@@ -575,6 +670,10 @@ def load_binding(
     ).items():
         if physical_id not in records:
             raise ValueError(f"{path}: composition describes an unbound record")
+        if physical_id in substitutions:
+            raise ValueError(
+                f"{path}: a record cannot use both substitutions and composition"
+            )
         composition[physical_id] = load_composition(
             raw_composition,
             f"{path}.composition.{physical_id}",
@@ -748,6 +847,15 @@ def load_binding(
         reference, _translation, _reviewed = catalog.field(asset_ref).resolve(
             variants.get(physical_id)
         )
+        replacement_values: dict[str, str] = {}
+        for placeholder, supplier_ref in substitutions.get(
+            physical_id, {}
+        ).items():
+            supplier_reference, _supplier_translation, _supplier_reviewed = (
+                catalog.field(supplier_ref).resolve()
+            )
+            replacement_values[placeholder] = supplier_reference
+        reference = _substitute_named_tokens(reference, replacement_values)
         normalized_reference = normalize_glyphs(physical_reference)
         if reference_normalization == "layout_blank":
             visible_source = physical_reference.replace("{n}", "").strip()
@@ -755,11 +863,18 @@ def load_binding(
                 normalized_reference = ""
         if physical_id in composition:
             source_role = composition[physical_id].source_role
-            matches = (
-                reference.startswith(normalized_reference)
-                if source_role == "prefix"
-                else reference.endswith(normalized_reference)
-            )
+            if source_role == "prefix":
+                matches = reference.startswith(normalized_reference)
+            elif source_role == "suffix":
+                matches = reference.endswith(normalized_reference)
+            else:
+                matches = (
+                    _literal_scaffold(
+                        reference,
+                        composition[physical_id].supplies,
+                    )
+                    == normalized_reference
+                )
             if not normalized_reference or not matches:
                 raise ValueError(
                     f"{path}: composed record {physical_id!r} is not a {source_role} of "
@@ -776,11 +891,18 @@ def load_binding(
             ).resolve(use.variant)
             if use.composition is not None:
                 source_role = use.composition.source_role
-                matches = (
-                    use_reference.startswith(normalized_reference)
-                    if source_role == "prefix"
-                    else use_reference.endswith(normalized_reference)
-                )
+                if source_role == "prefix":
+                    matches = use_reference.startswith(normalized_reference)
+                elif source_role == "suffix":
+                    matches = use_reference.endswith(normalized_reference)
+                else:
+                    matches = (
+                        _literal_scaffold(
+                            use_reference,
+                            use.composition.supplies,
+                        )
+                        == normalized_reference
+                    )
                 if not normalized_reference or not matches:
                     raise ValueError(
                         f"{path}: additional use {physical_id!r} is not a {source_role} "
@@ -801,6 +923,7 @@ def load_binding(
         asset_path,
         MappingProxyType(records),
         MappingProxyType(variants),
+        MappingProxyType(substitutions),
         MappingProxyType(composition),
         MappingProxyType(additional_uses),
         reference_normalization,

@@ -64,6 +64,22 @@
     "note": ""
   },
   {
+    "id": "game.save_static.o051b28",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "Lv",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.save_static.o051b8a",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "地下階",
+    "translation": "",
+    "note": ""
+  },
+  {
     "id": "game.save_static.o050760",
     "source_encoding": "game_font16_plain_skip",
     "output_encoding": "",
@@ -80,10 +96,42 @@
     "note": ""
   },
   {
+    "id": "game.save_static.o0508ba",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "YES",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.save_static.o0508c0",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "NO",
+    "translation": "",
+    "note": ""
+  },
+  {
     "id": "game.save_static.o0508c6",
     "source_encoding": "game_font16_plain_skip",
     "output_encoding": "",
     "reference": "ゲームを終了しますか？",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.save_static.o00ab62",
+    "source_encoding": "game_font16_plain_glyph",
+    "output_encoding": "",
+    "reference": "／",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.save_static.o00ac00",
+    "source_encoding": "game_font16_plain_glyph",
+    "output_encoding": "",
+    "reference": "：",
     "translation": "",
     "note": ""
   },

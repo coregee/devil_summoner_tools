@@ -182,7 +182,33 @@
       "automap.entry"
     ],
     "save_name": [
-      "save_load.dungeon_location"
+      "save_load.special_location"
+    ]
+  },
+  "record_surfaces": {
+    "game.save_static.o051b2c": [
+      "save_load.special_location"
+    ],
+    "game.save_static.o051b30": [
+      "save_load.special_location"
+    ],
+    "game.save_static.o051b3a": [
+      "save_load.special_location"
+    ],
+    "game.save_static.o051b42": [
+      "save_load.special_location"
+    ],
+    "game.save_static.o051b4a": [
+      "save_load.special_location"
+    ],
+    "game.save_static.o051b52": [
+      "save_load.special_location"
+    ],
+    "game.save_static.o051b5a": [
+      "save_load.special_location"
+    ],
+    "game.save_static.o051b62": [
+      "save_load.special_location"
     ]
   }
 }

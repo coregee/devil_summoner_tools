@@ -66,6 +66,11 @@ from engine.surfaces.options_ui import (  # noqa: E402
     CONFIG_PATH as OPTIONS_CONFIG_PATH,
     build_options_ui,
 )
+from engine.surfaces.save_load_ui import (  # noqa: E402
+    CONFIG_PATH as SAVE_LOAD_CONFIG_PATH,
+    TARGETS as SAVE_LOAD_TARGETS,
+    build_save_load_ui,
+)
 from engine.surfaces.status_ui import (  # noqa: E402
     CONFIG_PATH as STATUS_CONFIG_PATH,
     build_status_ui,
@@ -97,6 +102,24 @@ DUNGEON_LOCATIONS_BUILD_MANIFEST_PATH = (
 )
 FIELD_MESSAGES_OUTPUT_PATH = GENERATED_ROOT / "MAZE.BIN"
 FIELD_MESSAGES_BUILD_MANIFEST_PATH = GENERATED_ROOT / "field_messages_build.json"
+SAVE_LOAD_OUTPUT_PATHS = {
+    target: GENERATED_ROOT / target for target in SAVE_LOAD_TARGETS
+}
+SAVE_LOAD_BUILD_MANIFEST_PATH = GENERATED_ROOT / "save_load_ui_build.json"
+SAVE_LOAD_INSTALL_ROOT = SATURN_ROOT / "rom" / "extracted" / "game"
+SAVE_LOAD_VISUAL_MANIFEST_PATH = (
+    SATURN_ROOT / "visual" / "modified" / "game" / "manifest.json"
+)
+SAVE_LOAD_VISUAL_PREFIX = "SAVE_LOAD/storage/"
+SAVE_LOAD_VISUAL_PATHS = frozenset(
+    SAVE_LOAD_VISUAL_PREFIX + name
+    for name in (
+        "internal_selected.png",
+        "internal_idle.png",
+        "cartridge_selected.png",
+        "cartridge_idle.png",
+    )
+)
 
 
 def build_fusion_surface() -> dict[Path, bytes]:
@@ -484,6 +507,175 @@ def build_field_messages_surface() -> dict[Path, bytes]:
     }
 
 
+def build_save_load_surface() -> dict[Path, bytes]:
+    """Build SAVE and LOAD together before their visual assets are repacked."""
+    result = build_save_load_ui()
+    manifest = {
+        "version": 1,
+        "surface": "save_load.ui",
+        "patch_config_sha256": file_sha256(SAVE_LOAD_CONFIG_PATH),
+        "asset_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.asset_files
+        },
+        "runtime_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.runtime_input_files
+        },
+        "source_inputs": dict(result.source_inputs),
+        "assembly_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.assembly_files
+        },
+        "runtime": {
+            target: {
+                component: {
+                    "bytes": result.runtime_used_sizes[target][component],
+                    "capacity": result.runtime_capacities[target][component],
+                }
+                for component in result.runtime_used_sizes[target]
+            }
+            for target in SAVE_LOAD_TARGETS
+        },
+        "outputs": {
+            target: {"sha256": sha256(result.data[target])}
+            for target in SAVE_LOAD_TARGETS
+        },
+        "patch_groups": {
+            target: list(
+                dict.fromkeys(patch.group for patch in result.patches[target])
+            )
+            for target in SAVE_LOAD_TARGETS
+        },
+        "patches": {
+            target: len(result.patches[target]) for target in SAVE_LOAD_TARGETS
+        },
+    }
+    return {
+        **{
+            SAVE_LOAD_OUTPUT_PATHS[target]: result.data[target]
+            for target in SAVE_LOAD_TARGETS
+        },
+        SAVE_LOAD_BUILD_MANIFEST_PATH: (
+            json.dumps(manifest, indent=2) + "\n"
+        ).encode("utf-8"),
+    }
+
+
+def _save_load_visual_spans() -> dict[str, tuple[tuple[int, int], ...]]:
+    """Load the four visual-owned storage-selector spans for each target."""
+    document = json.loads(
+        SAVE_LOAD_VISUAL_MANIFEST_PATH.read_text(encoding="utf-8")
+    )
+    if document.get("version") != 2 or document.get("disc") != "game":
+        raise ValueError("SAVE/LOAD visual ownership manifest is unsupported")
+    images = document.get("images")
+    if not isinstance(images, list):
+        raise ValueError("SAVE/LOAD visual ownership manifest is malformed")
+    rows = [
+        row
+        for row in images
+        if isinstance(row, dict)
+        and isinstance(row.get("path"), str)
+        and row["path"].startswith(SAVE_LOAD_VISUAL_PREFIX)
+    ]
+    if {row["path"] for row in rows} != SAVE_LOAD_VISUAL_PATHS:
+        raise ValueError(
+            "SAVE/LOAD visual ownership must contain exactly the four storage "
+            "selector images"
+        )
+
+    result: dict[str, tuple[tuple[int, int], ...]] = {}
+    for target in SAVE_LOAD_TARGETS:
+        spans = []
+        for row in rows:
+            targets = row.get("targets")
+            if not isinstance(targets, list):
+                raise ValueError(f"{row['path']}: visual targets are malformed")
+            matches = [
+                image
+                for image in targets
+                if isinstance(image, dict) and image.get("source") == target
+            ]
+            if len(matches) != 1:
+                raise ValueError(
+                    f"{row['path']}: expected one {target} visual target"
+                )
+            image = matches[0]
+            if (
+                image.get("encoding") != "rgb555"
+                or image.get("layout") != "linear"
+            ):
+                raise ValueError(f"{row['path']}: unsupported visual target layout")
+            try:
+                start = int(image["offset"])
+                byte_length = int(image["width"]) * int(image["height"]) * 2
+            except (KeyError, TypeError, ValueError) as error:
+                raise ValueError(
+                    f"{row['path']}: invalid visual target geometry"
+                ) from error
+            if start < 0 or byte_length <= 0:
+                raise ValueError(f"{row['path']}: invalid visual target span")
+            spans.append((start, start + byte_length))
+        spans.sort()
+        if any(
+            current[0] < previous[1]
+            for previous, current in zip(spans, spans[1:])
+        ):
+            raise ValueError(f"{target}: visual-owned spans overlap")
+        result[target] = tuple(spans)
+    return result
+
+
+def _verify_save_load_install(
+    target: str,
+    expected: bytes,
+    installed: bytes,
+    visual_spans: tuple[tuple[int, int], ...],
+) -> None:
+    """Compare an installed target while leaving visual-owned bytes downstream."""
+    if len(installed) != len(expected):
+        raise ValueError(f"installed {target} has the wrong size")
+    cursor = 0
+    for start, end in visual_spans:
+        if start < cursor or end > len(expected):
+            raise ValueError(f"{target}: visual-owned span lies outside the target")
+        if installed[cursor:start] != expected[cursor:start]:
+            raise ValueError(f"installed {target} has stale non-visual engine bytes")
+        cursor = end
+    if installed[cursor:] != expected[cursor:]:
+        raise ValueError(f"installed {target} has stale non-visual engine bytes")
+
+
+def install_save_load_surface(*, check: bool) -> None:
+    """Install engine outputs, or verify them beneath the later visual overlays."""
+    visual_spans = _save_load_visual_spans()
+    generated: dict[str, bytes] = {}
+    for target in SAVE_LOAD_TARGETS:
+        source = SAVE_LOAD_OUTPUT_PATHS[target]
+        if not source.is_file():
+            raise ValueError(f"SAVE/LOAD engine output is missing: {source}")
+        generated[target] = source.read_bytes()
+
+    for target, expected in generated.items():
+        destination = SAVE_LOAD_INSTALL_ROOT / target
+        if check:
+            if not destination.is_file():
+                raise ValueError(
+                    f"installed SAVE/LOAD target is missing: {destination}"
+                )
+            _verify_save_load_install(
+                target,
+                expected,
+                destination.read_bytes(),
+                visual_spans[target],
+            )
+            print(f"verified non-visual SAVE/LOAD engine bytes in {target}")
+        else:
+            _atomic_write(destination, expected)
+            print(f"installed SAVE/LOAD engine output {target}")
+
+
 def _atomic_write(path: Path, value: bytes) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     descriptor, temporary_name = tempfile.mkstemp(
@@ -538,9 +730,15 @@ def main() -> int:
             "map_3d.analyze",
             "dungeon.locations",
             "field.messages",
+            "save_load.ui",
         ),
     )
     parser.add_argument("--check", action="store_true")
+    parser.add_argument(
+        "--install",
+        action="store_true",
+        help="install SAVE/LOAD before visuals, or verify only its engine-owned bytes",
+    )
     arguments = parser.parse_args()
     try:
         builders = {
@@ -556,13 +754,19 @@ def main() -> int:
             "map_3d.analyze": build_analyze_surface,
             "dungeon.locations": build_dungeon_locations_surface,
             "field.messages": build_field_messages_surface,
+            "save_load.ui": build_save_load_surface,
         }
-        _publish(builders[arguments.surface](), check=arguments.check)
+        if arguments.install:
+            if arguments.surface != "save_load.ui":
+                raise ValueError("--install is only supported for save_load.ui")
+            install_save_load_surface(check=arguments.check)
+        else:
+            _publish(builders[arguments.surface](), check=arguments.check)
     except (OSError, UnicodeError, ValueError) as error:
         parser.error(str(error))
     print(
         f"{'verified' if arguments.check else 'built'} "
-        f"{arguments.surface} engine patch"
+        f"{arguments.surface} engine {'installation' if arguments.install else 'patch'}"
     )
     return 0
 

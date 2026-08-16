@@ -2,9 +2,14 @@
   "version": 1,
   "asset": "save_load.json",
   "records": {
+    "game.save_static.o051b28": "slot_level.text",
     "game.save_static.o050760": "empty.text",
     "game.save_static.o0508a4": "prompt_overwrite.text",
+    "game.save_static.o0508ba": "confirm_yes.text",
+    "game.save_static.o0508c0": "confirm_no.text",
     "game.save_static.o0508c6": "prompt_quit_game.text",
+    "game.save_static.o00ab62": "slot_date.text",
+    "game.save_static.o00ac00": "slot_time.text",
     "game.save_static.o050658": "save_write_failure.text",
     "game.save_static.o05076a": "save_capacity_error.text",
     "game.save_static.o0508dc": "save_capacity_failure.text",
@@ -14,36 +19,87 @@
     "game.load_static.o00b1fe": "load_failure.text",
     "game.load_capacity.o00b1ae": "capacity_number.text"
   },
+  "substitutions": {
+    "game.save_static.o05076a": {
+      "capacity_blocks": "capacity_number.text"
+    },
+    "game.save_static.o0508dc": {
+      "capacity_blocks": "capacity_number.text"
+    },
+    "game.load_static.o00b0c0": {
+      "capacity_blocks": "capacity_number.text"
+    },
+    "game.load_static.o00b1be": {
+      "capacity_blocks": "capacity_number.text"
+    }
+  },
+  "composition": {
+    "game.save_static.o051b28": {
+      "source_role": "scaffold",
+      "supplies": [
+        "level"
+      ]
+    },
+    "game.save_static.o00ab62": {
+      "source_role": "scaffold",
+      "supplies": [
+        "day",
+        "month"
+      ]
+    },
+    "game.save_static.o00ac00": {
+      "source_role": "scaffold",
+      "supplies": [
+        "hour",
+        "minute"
+      ]
+    }
+  },
   "record_surfaces": {
+    "game.save_static.o051b28": [
+      "save_load.slot_level"
+    ],
     "game.save_static.o050760": [
       "save_load.slot_state"
     ],
     "game.save_static.o0508a4": [
       "save_load.prompt"
     ],
+    "game.save_static.o0508ba": [
+      "save_load.confirm_choice"
+    ],
+    "game.save_static.o0508c0": [
+      "save_load.confirm_choice"
+    ],
     "game.save_static.o0508c6": [
       "save_load.prompt"
     ],
+    "game.save_static.o00ab62": [
+      "save_load.slot_date"
+    ],
+    "game.save_static.o00ac00": [
+      "save_load.slot_time"
+    ],
     "game.save_static.o050658": [
-      "save_load.message"
+      "save_load.small_message"
     ],
     "game.save_static.o05076a": [
-      "save_load.message"
+      "save_load.capacity_message"
     ],
     "game.save_static.o0508dc": [
-      "save_load.message"
+      "save_load.small_message"
     ],
     "game.load_static.o00b020": [
-      "save_load.message"
+      "save_load.start_warning"
     ],
     "game.load_static.o00b0c0": [
-      "save_load.message"
+      "save_load.storage_warning"
     ],
     "game.load_static.o00b1be": [
-      "save_load.message"
+      "save_load.capacity_message"
     ],
     "game.load_static.o00b1fe": [
-      "save_load.message"
+      "save_load.small_message"
     ],
     "game.load_capacity.o00b1ae": [
       "save_load.capacity"

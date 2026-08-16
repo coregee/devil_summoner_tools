@@ -49,6 +49,9 @@ class LocationAssetInventoryTests(unittest.TestCase):
         cls.catalog = load_asset("locations.json")
         cls.formats = load_asset("field/location_formats.json")
         cls.binding = load_binding(BINDING_ROOT / "locations.json")
+        cls.save_load_formats_binding = load_binding(
+            BINDING_ROOT / "save_load_location_formats.json"
+        )
         cls.physical = json.loads(
             (
                 TEXT_ROOT
@@ -184,8 +187,27 @@ class LocationAssetInventoryTests(unittest.TestCase):
         )
         self.assertEqual(
             self.binding.field_surfaces["save_name"],
-            ("save_load.dungeon_location",),
+            ("save_load.special_location",),
         )
+        special_ids = {
+            f"game.save_static.o{offset}"
+            for offset in (
+                "051b2c",
+                "051b30",
+                "051b3a",
+                "051b42",
+                "051b4a",
+                "051b52",
+                "051b5a",
+                "051b62",
+            )
+        }
+        self.assertEqual(set(self.binding.record_surfaces), special_ids)
+        for physical_id in special_ids:
+            self.assertEqual(
+                self.binding.record_surfaces[physical_id],
+                ("save_load.special_location",),
+            )
 
     def test_floor_and_location_wording_is_editable_asset_text(self) -> None:
         expected = {
@@ -202,11 +224,11 @@ class LocationAssetInventoryTests(unittest.TestCase):
             ),
             "save_load_floorless": ("{location}", "{location}"),
             "save_load_basement": (
-                "{location} 地下{floor}階",
+                "{location}地下{floor}階",
                 "{location} B{floor}F",
             ),
             "save_load_above_ground": (
-                "{location} {floor}階",
+                "{location}{floor}階",
                 "{location} {floor}F",
             ),
         }
@@ -218,6 +240,22 @@ class LocationAssetInventoryTests(unittest.TestCase):
                     (field.reference, field.translation),
                     (reference, translation),
                 )
+
+    def test_stock_save_load_floor_scaffold_grounds_complete_template(self) -> None:
+        physical_id = "game.save_static.o051b8a"
+        self.assertEqual(
+            self.save_load_formats_binding.records[physical_id],
+            "save_load_basement.text",
+        )
+        composition = self.save_load_formats_binding.composition[physical_id]
+        self.assertEqual(
+            (composition.source_role, composition.supplies),
+            ("scaffold", ("location", "floor")),
+        )
+        self.assertEqual(
+            self.save_load_formats_binding.record_surfaces[physical_id],
+            ("save_load.dungeon_location",),
+        )
 
     def test_canonical_table_checks_all_main_saturn_mirrors(self) -> None:
         manifest = load_manifest(manifest_path("game"))

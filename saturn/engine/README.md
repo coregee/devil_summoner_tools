@@ -386,3 +386,44 @@ python saturn/engine/build.py field.messages
 python saturn/engine/build.py field.messages --check
 python saturn/build.py default
 ```
+
+## Save and Load
+
+`save_load.ui` builds `SAVE.BIN` and `LOAD.BIN` as one atomic surface. The two
+programs share the player-name runtime, proportional location renderer, dungeon
+location records, and system-message layout, so the parent builder publishes
+both terminal binaries and one `save_load_ui_build.json` manifest. It reads the
+retail SAVE, LOAD, and MAZE targets directly from the verified game disc; no
+engine input comes from the mutable extracted-disc mirror.
+
+All visible runtime wording comes from the Save/Load, location, and complete
+floor-format assets through explicit bindings. The engine sources contain only
+rendering, name reconstruction, and layout behavior. The engine-only outputs are
+`3f97ac9b7f40af32c1314a00311a15079c1a402bc0b3822d2b1d90fbab2c5b57`
+for SAVE and
+`a9a58b2fa5c4c0e96298c6ec2fcdf84999e695d084556f53c33db3c2afad959f`
+for LOAD.
+
+Every translated row is checked against both the consumer's pixel width and its
+finite encoded-glyph capacity; those two limits are published together in the
+surface catalogue.
+
+The four Internal/Cartridge selector images remain owned by the visual package.
+The default profile therefore installs both engine outputs together immediately
+before `repack_visuals`, which overlays exactly four catalogued RGB555 spans in
+each binary. Check mode compares every non-visual byte to the generated engine
+outputs, then lets the visual check validate those eight downstream spans. The
+fully composed mature hashes are
+`ccbff9a2dedd4b65c073dd1e59b343602c52f80f2ad431309b23dba86e1c0d31`
+for SAVE and
+`13ea4b16836906ae75e5d08d622bd10f513c31bdbf42d7a8930abd99475eb82a`
+for LOAD.
+
+Run:
+
+```powershell
+python saturn/engine/build.py save_load.ui
+python saturn/engine/build.py save_load.ui --check
+python saturn/build.py default
+python saturn/build.py default --check
+```

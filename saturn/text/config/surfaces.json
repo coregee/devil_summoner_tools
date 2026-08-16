@@ -985,9 +985,29 @@
       "en": {
         "font": "font16",
         "rows": 1,
+        "glyphs": 24,
         "width": {
           "unit": "pixels",
           "value": 144
+        }
+      }
+    },
+    "save_load.special_location": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 7
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "glyphs": 16,
+        "width": {
+          "unit": "pixels",
+          "value": 112
         }
       }
     },
@@ -2143,6 +2163,82 @@
         }
       }
     },
+    "save_load.slot_name": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 7
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "glyphs": 17,
+        "width": {
+          "unit": "pixels",
+          "value": 128
+        }
+      }
+    },
+    "save_load.slot_level": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 4
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "glyphs": 4,
+        "width": {
+          "unit": "pixels",
+          "value": 64
+        }
+      }
+    },
+    "save_load.slot_date": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 5
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "glyphs": 5,
+        "width": {
+          "unit": "pixels",
+          "value": 80
+        }
+      }
+    },
+    "save_load.slot_time": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 5
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "glyphs": 5,
+        "width": {
+          "unit": "pixels",
+          "value": 80
+        }
+      }
+    },
     "save_load.slot_state": {
       "ja": {
         "font": "font16",
@@ -2155,9 +2251,10 @@
       "en": {
         "font": "font16",
         "rows": 1,
+        "glyphs": 5,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 80
         }
       }
     },
@@ -2166,34 +2263,112 @@
         "font": "font16",
         "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "glyph_cells",
+          "value": 11
         }
       },
       "en": {
         "font": "font16",
         "rows": 1,
+        "glyphs": 11,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 176
         }
       }
     },
-    "save_load.message": {
+    "save_load.confirm_choice": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 3
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "glyphs": 3,
+        "width": {
+          "unit": "pixels",
+          "value": 48
+        }
+      }
+    },
+    "save_load.small_message": {
       "ja": {
         "font": "font16",
         "rows": 3,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "glyph_cells",
+          "value": 11
         }
       },
       "en": {
         "font": "font16",
         "rows": 3,
+        "glyphs": 24,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 176
+        }
+      }
+    },
+    "save_load.capacity_message": {
+      "ja": {
+        "font": "font16",
+        "rows": 2,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 17
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 2,
+        "glyphs": 25,
+        "width": {
+          "unit": "pixels",
+          "value": 272
+        }
+      }
+    },
+    "save_load.start_warning": {
+      "ja": {
+        "font": "font16",
+        "rows": 4,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 20
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 4,
+        "glyphs": 63,
+        "width": {
+          "unit": "pixels",
+          "value": 320
+        }
+      }
+    },
+    "save_load.storage_warning": {
+      "ja": {
+        "font": "font16",
+        "rows": 6,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 20
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 6,
+        "glyphs": 63,
+        "width": {
+          "unit": "pixels",
+          "value": 320
         }
       }
     },
@@ -2209,6 +2384,7 @@
       "en": {
         "font": "font16",
         "rows": 1,
+        "glyphs": 3,
         "width": {
           "unit": "glyph_cells",
           "value": 3

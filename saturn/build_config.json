@@ -421,6 +421,22 @@
       ]
     },
     {
+      "id": "build_save_load_engine",
+      "description": "Build SAVE and LOAD together from the verified disc and authored text.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["save_load.ui"],
+      "check_arguments": ["save_load.ui", "--check"]
+    },
+    {
+      "id": "install_save_load_engine",
+      "description": "Install SAVE and LOAD engine bytes before applying their visual overlays.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["save_load.ui", "--install"],
+      "check_arguments": ["save_load.ui", "--install", "--check"]
+    },
+    {
       "id": "repack_visuals",
       "description": "Apply every changed visual asset to its extracted disc mirror.",
       "type": "python",
@@ -469,6 +485,8 @@
         "install_analyze_engine",
         "build_field_messages_engine",
         "install_maze_engine",
+        "build_save_load_engine",
+        "install_save_load_engine",
         "repack_visuals",
         "build_discs"
       ],

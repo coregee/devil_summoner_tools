@@ -1,0 +1,175 @@
+{
+  "version": 2,
+  "surface": "save_load.ui",
+  "targets": {
+    "SAVE.BIN": {
+      "load_address": "0x06020000",
+      "size": 334736,
+      "stock_sha256": "49ce5a24f811a70b94e9ab1af327fff2e1150eb455fc1d690adc78961a68f744"
+    },
+    "LOAD.BIN": {
+      "load_address": "0x06020000",
+      "size": 338552,
+      "stock_sha256": "100740f4671c2b4f150cfba0b539e75ee122415ec5c1dc9aeeb2f21663a1b446"
+    }
+  },
+  "inputs": {
+    "font16_sha256": "89272c66b96536658c271e061ff8c15198a1bbc4c01c4e17f23575897dca0acc",
+    "font16_metrics_sha256": "3ce6e6c916da3f4bc3c7a702c9ae07f84519185a45e2f733c13726cab6532fa3",
+    "font8_sha256": "c656c783225271ae1910224b85eba9431ad2c27e96bfdab797e8499f77eeff7c",
+    "font8_metrics_sha256": "82f688a7a2bc2efd1caa32555968c456c332d30813bd7e2b3c8af08b7f2978c6",
+    "maze_sha256": "38d8a919d2d17461fc2c2ee8b41093efc893fc72d4e7eb5db243fe84560cc229"
+  },
+  "groups": [
+    {
+      "capability": "save_load_name_runtime",
+      "target": "SAVE.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {"name": "save_name_strip", "address": "0x06020040", "expected_zero_bytes": 1984, "assembly": ["save_load_ui/name_strip.s"]},
+        {"name": "save_name_byte_read_b0ea", "address": "0x0602b0ea", "expected": "6725", "instruction": "mov.b @r2+,r7"},
+        {"name": "save_name_byte_read_b122", "address": "0x0602b122", "expected": "6725", "instruction": "mov.b @r2+,r7"},
+        {"name": "save_name_byte_read_b03c", "address": "0x0602b03c", "expected": "6725", "instruction": "mov.b @r2+,r7"},
+        {"name": "save_name_byte_read_b074", "address": "0x0602b074", "expected": "6725", "instruction": "mov.b @r2+,r7"},
+        {"name": "save_name_byte_read_b1a4", "address": "0x0602b1a4", "expected": "6d25", "instruction": "mov.b @r2+,r13"},
+        {"name": "save_name_byte_read_b204", "address": "0x0602b204", "expected": "6c25", "instruction": "mov.b @r2+,r12"},
+        {"name": "save_name_draw_pool_b0cc", "address": "0x0602b0cc", "expected": "0602afdc", "linked_pointer": "name_strip"},
+        {"name": "save_name_draw_pool_b168", "address": "0x0602b168", "expected": "0602afdc", "linked_pointer": "name_strip"},
+        {"name": "save_name_draw_pool_b304", "address": "0x0602b304", "expected": "0602afdc", "linked_pointer": "name_strip"},
+        {"name": "save_name_draw_count", "address": "0x0602b1f0", "expected": "e503", "instruction": "mov #8,r5"},
+        {"name": "save_name_tail_count", "address": "0x0602b248", "expected": "e503", "instruction": "mov #0,r5"},
+        {"name": "name_strip_edge_left", "address": "0x06071b70", "expected": "0000", "generated": "save_load_data"},
+        {"name": "name_strip_edge_right", "address": "0x06071b78", "expected": "0000", "generated": "save_load_data"}
+      ]
+    },
+    {
+      "capability": "save_load_slot_templates",
+      "target": "SAVE.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {"name": "level_prefix", "address": "0x06071b28", "expected": "0016003a", "generated": "save_load_data"},
+        {"name": "date_separator", "address": "0x0602ab62", "expected": "00c6", "generated": "save_load_data"},
+        {"name": "time_separator", "address": "0x0602ac00", "expected": "00af", "generated": "save_load_data"}
+      ]
+    },
+    {
+      "capability": "save_load_ui_runtime",
+      "target": "SAVE.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {"name": "save_ui_runtime", "address": "0x06020800", "expected_zero_bytes": 7596, "assembly": ["save_load_ui/font16_vwf.s", "save_load_ui/dungeon_location_drawer.s"]},
+        {"name": "save_font16_blitter_pool", "address": "0x06028248", "expected": "06028128", "linked_pointer": "font16_vwf"},
+        {"name": "save_font16_advance", "address": "0x06028224", "expected": "7110", "instruction": "add r0,r1"},
+        {"name": "save_location_home_pointer", "address": "0x0602ac70", "expected": "06071b2c", "linked_pointer": "location_home"},
+        {"name": "save_location_office_pointer", "address": "0x0602ac7c", "expected": "06071b30", "linked_pointer": "location_office"},
+        {"name": "save_location_asahi_pointer", "address": "0x0602ad24", "expected": "06071b3a", "linked_pointer": "location_asahi"},
+        {"name": "save_location_home_count", "address": "0x0602ac42", "expected": "e502", "instruction": "mov #4,r5"},
+        {"name": "save_location_office_count", "address": "0x0602ac56", "expected": "e505", "instruction": "mov #16,r5"},
+        {"name": "save_location_stride", "address": "0x0602acd8", "expected": "e108", "instruction": "mov #32,r1"},
+        {"name": "save_location_array_count", "address": "0x0602ace2", "expected": "e504", "instruction": "mov #16,r5"},
+        {"name": "empty", "address": "0x06070760", "expected": "01cd00000127000001db", "generated": "save_load_data"},
+        {"name": "dungeon_hook", "address": "0x0602ad28", "expected": "2f862f962fa62fb62fc62fd6", "assembly": ["save_load_ui/dungeon_hook.s"]},
+        {"name": "prompt_overwrite", "address": "0x060708a4", "expected": "041c041d005701b501b1006b004a005d004b004400b4", "generated": "save_load_data"},
+        {"name": "confirm_yes", "address": "0x060708ba", "expected": "0023000f001d", "generated": "save_load_data"},
+        {"name": "confirm_no", "address": "0x060708c0", "expected": "001800190000", "generated": "save_load_data"},
+        {"name": "prompt_quit_game", "address": "0x060708c6", "expected": "00ea00ad0096006b036c0177004a005d004b004400b4", "generated": "save_load_data"}
+      ]
+    },
+    {
+      "capability": "save_load_system_messages",
+      "target": "SAVE.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {"name": "save_system_data", "address": "0x060225ac", "expected_zero_bytes": 392, "generated": "save_load_data"},
+        {"name": "save_failure_pointer", "address": "0x060287d8", "expected": "06070658", "linked_pointer": "save_write_failure"},
+        {"name": "save_failure_stride", "address": "0x06028708", "expected": "e116", "instruction": "mov #48,r1"},
+        {"name": "save_failure_count", "address": "0x06028722", "expected": "e50b", "instruction": "mov #24,r5"},
+        {"name": "save_capacity_line_0_pointer_a", "address": "0x06028de4", "expected": "0607076a", "linked_pointer": "save_capacity_error_0"},
+        {"name": "save_capacity_line_1_pointer_a", "address": "0x06028de8", "expected": "06070788", "linked_pointer": "save_capacity_error_1"},
+        {"name": "save_capacity_line_0_pointer_b", "address": "0x06028ed4", "expected": "0607076a", "linked_pointer": "save_capacity_error_0"},
+        {"name": "save_capacity_line_1_pointer_b", "address": "0x06028ed8", "expected": "06070788", "linked_pointer": "save_capacity_error_1"},
+        {"name": "save_capacity_line_0_count_a", "address": "0x06028d7c", "expected": "e50f", "instruction": "mov #25,r5"},
+        {"name": "save_capacity_line_1_count_a", "address": "0x06028d8e", "expected": "e511", "instruction": "mov #25,r5"},
+        {"name": "save_capacity_line_0_count_b", "address": "0x06028e6a", "expected": "e50f", "instruction": "mov #25,r5"},
+        {"name": "save_capacity_line_1_count_b", "address": "0x06028e7c", "expected": "e511", "instruction": "mov #25,r5"},
+        {"name": "save_capacity_failure_pointer", "address": "0x06029c10", "expected": "060708dc", "linked_pointer": "save_capacity_failure"},
+        {"name": "save_capacity_failure_stride", "address": "0x06029b38", "expected": "e116", "instruction": "mov #48,r1"},
+        {"name": "save_capacity_failure_count", "address": "0x06029b52", "expected": "e50b", "instruction": "mov #24,r5"}
+      ]
+    },
+    {
+      "capability": "save_load_name_runtime",
+      "target": "LOAD.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {"name": "load_name_rebuild", "address": "0x06020040", "expected_zero_bytes": 1024, "assembly": ["save_load_ui/load_name_rebuild.s"]},
+        {"name": "load_name_rebuild_hook", "address": "0x06028cfc", "expected": "0602ab5c", "linked_pointer": "name_rebuild"},
+        {"name": "load_name_strip", "address": "0x06020440", "expected_zero_bytes": 1984, "assembly": ["save_load_ui/name_strip.s"]},
+        {"name": "load_name_byte_read_aac0", "address": "0x0602aac0", "expected": "6725", "instruction": "mov.b @r2+,r7"},
+        {"name": "load_name_byte_read_aaf8", "address": "0x0602aaf8", "expected": "6725", "instruction": "mov.b @r2+,r7"},
+        {"name": "load_name_byte_read_ab6e", "address": "0x0602ab6e", "expected": "6725", "instruction": "mov.b @r2+,r7"},
+        {"name": "load_name_byte_read_aba6", "address": "0x0602aba6", "expected": "6725", "instruction": "mov.b @r2+,r7"},
+        {"name": "load_name_byte_read_ac1e", "address": "0x0602ac1e", "expected": "6d25", "instruction": "mov.b @r2+,r13"},
+        {"name": "load_name_byte_read_ac7e", "address": "0x0602ac7e", "expected": "6c25", "instruction": "mov.b @r2+,r12"},
+        {"name": "load_name_draw_pool_ab50", "address": "0x0602ab50", "expected": "0602aa60", "linked_pointer": "name_strip"},
+        {"name": "load_name_draw_pool_abe8", "address": "0x0602abe8", "expected": "0602aa60", "linked_pointer": "name_strip"},
+        {"name": "load_name_draw_pool_ad78", "address": "0x0602ad78", "expected": "0602aa60", "linked_pointer": "name_strip"},
+        {"name": "load_name_draw_count", "address": "0x0602ac6a", "expected": "e503", "instruction": "mov #8,r5"},
+        {"name": "load_name_tail_count", "address": "0x0602acc2", "expected": "e503", "instruction": "mov #0,r5"}
+      ]
+    },
+    {
+      "capability": "save_load_slot_templates",
+      "target": "LOAD.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {"name": "level_prefix", "address": "0x06072a10", "expected": "0016003a", "generated": "save_load_data"},
+        {"name": "date_separator", "address": "0x0602a786", "expected": "00c6", "generated": "save_load_data"},
+        {"name": "time_separator", "address": "0x0602a792", "expected": "00af", "generated": "save_load_data"},
+        {"name": "capacity_number", "address": "0x0602b1ae", "expected": "00020003000a", "generated": "save_load_data"}
+      ]
+    },
+    {
+      "capability": "save_load_ui_runtime",
+      "target": "LOAD.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {"name": "load_ui_runtime", "address": "0x06020c00", "expected_zero_bytes": 7596, "assembly": ["save_load_ui/font16_vwf.s", "save_load_ui/dungeon_location_drawer.s"]},
+        {"name": "load_font16_blitter_pool", "address": "0x06029580", "expected": "06029460", "linked_pointer": "font16_vwf"},
+        {"name": "load_font16_advance", "address": "0x0602955c", "expected": "7110", "instruction": "add r0,r1"},
+        {"name": "load_location_home_pointer", "address": "0x0602a814", "expected": "06072a14", "linked_pointer": "location_home"},
+        {"name": "load_location_office_pointer", "address": "0x0602a820", "expected": "06072a18", "linked_pointer": "location_office"},
+        {"name": "load_location_asahi_pointer", "address": "0x0602a8c4", "expected": "06072a22", "linked_pointer": "location_asahi"},
+        {"name": "load_location_home_count", "address": "0x0602a7e4", "expected": "e502", "instruction": "mov #4,r5"},
+        {"name": "load_location_office_count", "address": "0x0602a7f8", "expected": "e505", "instruction": "mov #16,r5"},
+        {"name": "load_location_stride", "address": "0x0602a87a", "expected": "e108", "instruction": "mov #32,r1"},
+        {"name": "load_location_array_count", "address": "0x0602a882", "expected": "e504", "instruction": "mov #16,r5"},
+        {"name": "empty", "address": "0x0602b1b4", "expected": "01cd00000127000001db", "generated": "save_load_data"},
+        {"name": "dungeon_hook", "address": "0x0602a8c8", "expected": "2f862f962fa62fb62fc62fd6", "assembly": ["save_load_ui/dungeon_hook.s"]}
+      ]
+    },
+    {
+      "capability": "save_load_system_messages",
+      "target": "LOAD.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {"name": "load_system_data", "address": "0x060229ac", "expected_zero_bytes": 1508, "generated": "save_load_data"},
+        {"name": "load_warning_pointer", "address": "0x060280e4", "expected": "0602b01e", "linked_pointer": "start_without_save_warning"},
+        {"name": "load_capacity_overlay_count", "address": "0x06027fba", "expected": "e503", "instruction": "mov #0,r5"},
+        {"name": "load_capacity_line_0_pointer", "address": "0x06028660", "expected": "0602b1be", "linked_pointer": "save_capacity_error_0"},
+        {"name": "load_capacity_line_1_pointer", "address": "0x06028664", "expected": "0602b1dc", "linked_pointer": "save_capacity_error_1"},
+        {"name": "load_capacity_line_0_count", "address": "0x060285f4", "expected": "e50f", "instruction": "mov #25,r5"},
+        {"name": "load_capacity_line_1_count", "address": "0x06028606", "expected": "e511", "instruction": "mov #25,r5"},
+        {"name": "load_failure_pointer", "address": "0x06028798", "expected": "0602b1fe", "linked_pointer": "load_failure"},
+        {"name": "load_failure_stride", "address": "0x06028690", "expected": "e116", "instruction": "mov #48,r1"},
+        {"name": "load_failure_count", "address": "0x060286aa", "expected": "e50b", "instruction": "mov #24,r5"},
+        {"name": "load_warning_stride_7f3c", "address": "0x06027f3c", "expected": "e128", "instruction": "mov #126,r1"},
+        {"name": "load_warning_stride_7f74", "address": "0x06027f74", "expected": "e128", "instruction": "mov #126,r1"},
+        {"name": "load_warning_stride_7fc4", "address": "0x06027fc4", "expected": "e128", "instruction": "mov #126,r1"},
+        {"name": "load_warning_count_7f4c", "address": "0x06027f4c", "expected": "e514", "instruction": "mov #63,r5"},
+        {"name": "load_warning_count_7f84", "address": "0x06027f84", "expected": "e514", "instruction": "mov #63,r5"},
+        {"name": "load_warning_count_7fd4", "address": "0x06027fd4", "expected": "e514", "instruction": "mov #63,r5"}
+      ]
+    }
+  ]
+}
