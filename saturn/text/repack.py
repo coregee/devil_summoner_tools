@@ -28,9 +28,13 @@ from util.battle_negotiation import (  # noqa: E402
 )
 from util.event_repack import (  # noqa: E402
     GENERAL_EVENT_SOURCES,
+    SHOP_EVENT_SOURCES,
     FontMetrics,
     compile_event_banks,
+    compile_event_sources,
+    load_event_source_translations,
     load_event_translations,
+    message_encoding_overrides,
 )
 from util.sources import load_manifest, manifest_path  # noqa: E402
 
@@ -38,9 +42,11 @@ from util.sources import load_manifest, manifest_path  # noqa: E402
 GENERATED_ROOT = TEXT_ROOT / "generated" / "game"
 CODEC_PATH = TEXT_ROOT / "config" / "event_codec.json"
 FONT16_METRICS_PATH = SATURN_ROOT / "font" / "generated" / "game" / "FONT16_metrics.json"
+FONT12_METRICS_PATH = SATURN_ROOT / "font" / "generated" / "game" / "FONT12_metrics.json"
 FONT8_METRICS_PATH = SATURN_ROOT / "font" / "generated" / "game" / "FONT8_metrics.json"
 EVENT_BUILD_PATH = GENERATED_ROOT / "event_build.json"
 NEGOTIATION_BUILD_PATH = GENERATED_ROOT / "battle_negotiation_build.json"
+SHOPSMP_BUILD_PATH = GENERATED_ROOT / "shopsmp_build.json"
 
 
 def _stock_files(paths: tuple[PurePosixPath, ...]) -> dict[PurePosixPath, bytes]:
@@ -186,6 +192,74 @@ def build_negotiation_outputs() -> dict[Path, bytes]:
     return output
 
 
+def build_shopsmp_outputs() -> dict[Path, bytes]:
+    manifest = load_manifest(manifest_path("game"))
+    sources = {source.name: source for source in manifest.sources}
+    try:
+        source = sources[SHOP_EVENT_SOURCES[0]]
+    except KeyError as error:
+        raise ValueError("game manifest does not declare SHOPSMP.EVE") from error
+    path = manifest.files[source.container["file"]].path
+    stock = _stock_files((path,))
+    translations = load_event_source_translations(SHOP_EVENT_SOURCES)
+    font16 = FontMetrics.load(FONT16_METRICS_PATH)
+    font12 = FontMetrics.load(FONT12_METRICS_PATH)
+    dictionary = load_event_dictionary(CODEC_PATH)
+    overrides = message_encoding_overrides(source.container, source.name)
+    deferred_messages = {
+        message
+        for message, encoding in overrides.items()
+        if encoding == "game_font12_event_space"
+    }
+    deferred_records = sum(
+        int(physical_id.split(".m", 1)[1][:4]) in deferred_messages
+        for physical_id in translations
+    )
+    bank = compile_event_sources(
+        manifest,
+        stock,
+        translations,
+        font16,
+        dictionary,
+        SHOP_EVENT_SOURCES,
+        font12_metrics=font12,
+        preserve_encodings=frozenset({"game_font12_event_space"}),
+    )[0]
+    document = {
+        "version": 1,
+        "surface": "event.dialogue",
+        "source": "SHOPSMP.EVE",
+        "codec_sha256": _sha256_path(CODEC_PATH),
+        "runtime_table_sha256": _sha256_bytes(dictionary.runtime_table()),
+        "font16_metrics_sha256": _sha256_path(FONT16_METRICS_PATH),
+        "font12_metrics_sha256": _sha256_path(FONT12_METRICS_PATH),
+        "records": {
+            "translated": len(translations) - deferred_records,
+            "deferred": deferred_records,
+            "total": len(translations),
+        },
+        "deferred": {
+            "source_encoding": "game_font12_event_space",
+            "messages": len(deferred_messages),
+            "reason": "requires the fusion consumer engine patch",
+        },
+        "outputs": {
+            bank.path.as_posix(): {
+                "sha256": _sha256_bytes(bank.data),
+                "messages": bank.messages,
+                "pages": bank.pages,
+                "body_bytes": bank.body_bytes,
+            }
+        },
+    }
+    return {
+        GENERATED_ROOT.joinpath(*bank.path.parts): bank.data,
+        SHOPSMP_BUILD_PATH: (
+            json.dumps(document, ensure_ascii=False, indent=2) + "\n"
+        ).encode("utf-8"),
+    }
+
+
 def publish(outputs: dict[Path, bytes], *, check: bool) -> None:
     stale = [
         path
@@ -210,7 +284,7 @@ def main() -> int:
         "target",
         nargs="?",
         default="all",
-        choices=("event", "negotiation", "all"),
+        choices=("event", "shopsmp", "negotiation", "all"),
     )
     parser.add_argument("--check", action="store_true")
     arguments = parser.parse_args()
@@ -218,6 +292,8 @@ def main() -> int:
         outputs = {}
         if arguments.target in {"event", "all"}:
             outputs.update(build_event_outputs())
+        if arguments.target in {"shopsmp", "all"}:
+            outputs.update(build_shopsmp_outputs())
         if arguments.target in {"negotiation", "all"}:
             outputs.update(build_negotiation_outputs())
         publish(outputs, check=arguments.check)

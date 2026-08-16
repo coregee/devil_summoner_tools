@@ -19,6 +19,7 @@ from .tokens import Named, Raw, Text, parse_tokens
 
 
 GENERAL_EVENT_SOURCES = ("mesfile", "evfile_0", "evfile_1", "evfile_2")
+SHOP_EVENT_SOURCES = ("shopsmp",)
 EVENT_INSERT_CODES = {
     "first_name": 0x8006,
     "last_name": 0x8007,
@@ -54,7 +55,7 @@ NORMALIZE_CHARACTERS = {
 }
 _PUNCTUATION_SPACE_RE = re.compile(r"([.!?])([A-Za-z{])")
 _PHYSICAL_ID_RE = re.compile(
-    r"game\.(mesfile|evfile_[012])\.m([0-9]{4})\.p([0-9]{2})\Z"
+    r"game\.([a-z0-9_]+)\.m([0-9]{4})\.p([0-9]{2})\Z"
 )
 
 
@@ -344,6 +345,14 @@ def _page_structure(
     return tuple(glyphs), tuple(tuple(row) for row in breaks)
 
 
+def _source_page_count(words: tuple[int, ...]) -> int:
+    """Count extraction pages without treating a leading clear as an empty page."""
+    glyphs, breaks = _page_structure(words)
+    if len(glyphs) > 1 and glyphs[0] == 0 and 0x8002 in breaks[0]:
+        return len(glyphs) - 1
+    return len(glyphs)
+
+
 def _wrap_lines(text: str, metrics: FontMetrics) -> list[str]:
     lines: list[str] = []
     for explicit_line in _normalize_english(text).split("\n"):
@@ -476,25 +485,34 @@ def _expanded_ranges(rows: object, context: str) -> frozenset[int]:
     return frozenset(output)
 
 
-def _raw_messages(container: object, context: str) -> frozenset[int]:
+def message_encoding_overrides(
+    container: object, context: str
+) -> dict[int, str]:
     if not isinstance(container, dict):
         container = dict(container)  # MappingProxyType
-    output: set[int] = set()
+    if container["source_encoding"] != "game_font12_16_event_skip":
+        raise ValueError(f"{context}: unsupported default EVENT encoding")
+    output: dict[int, str] = {}
+    supported = {"game_font16_event_space", "game_font12_event_space"}
     for index, row in enumerate(container["source_encoding_overrides"]):
         encoding = row.get("source_encoding")
-        if encoding != "game_font16_event_space":
+        if encoding not in supported:
             raise ValueError(
                 f"{context}: unsupported general EVENT override {encoding!r}"
             )
-        output.update(
-            _expanded_ranges(row.get("messages"), f"{context}.overrides[{index}]")
+        messages = _expanded_ranges(
+            row.get("messages"), f"{context}.overrides[{index}]"
         )
-    return frozenset(output)
+        overlap = messages & output.keys()
+        if overlap:
+            raise ValueError(f"{context}: EVENT encoding overrides overlap")
+        output.update((message, encoding) for message in messages)
+    return output
 
 
-def load_event_translations() -> dict[str, str]:
-    """Resolve every physical general-EVENT page to its authored translation."""
-    prefixes = tuple(f"game.{source}." for source in GENERAL_EVENT_SOURCES)
+def load_event_source_translations(source_names: tuple[str, ...]) -> dict[str, str]:
+    """Resolve selected physical EVENT pages to their authored translations."""
+    prefixes = tuple(f"game.{source}." for source in source_names)
     physical = load_physical_records()
     expected = {
         record_id for record_id in physical if record_id.startswith(prefixes)
@@ -502,6 +520,11 @@ def load_event_translations() -> dict[str, str]:
     return dict(
         load_bound_translations(prefixes, required_ids=expected)
     )
+
+
+def load_event_translations() -> dict[str, str]:
+    """Resolve every physical general-EVENT page to its authored translation."""
+    return load_event_source_translations(GENERAL_EVENT_SOURCES)
 
 
 @dataclass(frozen=True, slots=True)
@@ -514,16 +537,20 @@ class CompiledEventBank:
     body_bytes: int
 
 
-def compile_event_banks(
+def compile_event_sources(
     manifest: SourceManifest,
     stock_files: dict[PurePosixPath, bytes],
     translations: dict[str, str],
-    metrics: FontMetrics,
+    font16_metrics: FontMetrics,
     dictionary: EventDictionary,
+    source_names: tuple[str, ...],
+    *,
+    font12_metrics: FontMetrics | None = None,
+    preserve_encodings: frozenset[str] = frozenset(),
 ) -> tuple[CompiledEventBank, ...]:
     sources = {source.name: source for source in manifest.sources}
     compiled: list[CompiledEventBank] = []
-    for source_name in GENERAL_EVENT_SOURCES:
+    for source_name in source_names:
         try:
             source = sources[source_name]
         except KeyError as error:
@@ -548,7 +575,9 @@ def compile_event_banks(
                 f"{file_spec.path}: found {len(bank.messages)} messages, "
                 f"expected {expected_messages}"
             )
-        raw = _raw_messages(container, source_name)
+        overrides = message_encoding_overrides(container, source_name)
+        if any(message >= len(bank.messages) for message in overrides):
+            raise ValueError(f"{source_name}: encoding override is out of range")
         by_message: dict[int, list[tuple[int, str]]] = {}
         for physical_id, translation in translations.items():
             match = _PHYSICAL_ID_RE.fullmatch(physical_id)
@@ -562,27 +591,44 @@ def compile_event_banks(
         page_count = 0
         source_page_count = 0
         for message in bank.messages:
-            source_page_count += len(_page_structure(message.words)[1])
+            source_page_count += _source_page_count(message.words)
             page_rows = sorted(by_message.get(message.index, ()))
             if not page_rows:
                 # A small number of stock messages are structural/control-only.
                 # They are not translator-facing records and remain byte-identical.
                 words.append(message.words)
                 continue
+            encoding = overrides.get(message.index)
             if [page for page, _translation in page_rows] != list(
                 range(len(page_rows))
             ):
                 raise ValueError(
                     f"{source_name}: message {message.index} has non-contiguous pages"
                 )
+            if encoding in preserve_encodings:
+                words.append(message.words)
+                continue
             pages = [translation for _page, translation in page_rows]
+            if encoding is None:
+                message_metrics = font16_metrics
+                raw_reader = False
+            elif encoding == "game_font16_event_space":
+                message_metrics = font16_metrics
+                raw_reader = True
+            else:
+                if font12_metrics is None:
+                    raise ValueError(
+                        f"{source_name}: FONT12 EVENT output has no metrics"
+                    )
+                message_metrics = font12_metrics
+                raw_reader = True
             words.append(
                 encode_event_message(
                     message.words,
                     pages,
-                    metrics,
+                    message_metrics,
                     dictionary,
-                    raw_reader=message.index in raw,
+                    raw_reader=raw_reader,
                 )
             )
             page_count += len(pages)
@@ -605,3 +651,20 @@ def compile_event_banks(
             )
         )
     return tuple(compiled)
+
+
+def compile_event_banks(
+    manifest: SourceManifest,
+    stock_files: dict[PurePosixPath, bytes],
+    translations: dict[str, str],
+    metrics: FontMetrics,
+    dictionary: EventDictionary,
+) -> tuple[CompiledEventBank, ...]:
+    return compile_event_sources(
+        manifest,
+        stock_files,
+        translations,
+        metrics,
+        dictionary,
+        GENERAL_EVENT_SOURCES,
+    )

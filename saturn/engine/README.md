@@ -24,6 +24,11 @@ binary that differs from the isolated mature patch digest. This retains the
 proved SH-2 output without importing the mature repository's assembler,
 capability graph, global build context, or unrelated consumers.
 
+The same EVENT runtime renders the standard dialogue and direct FONT16 menu
+records in `SHOPSMP.EVE`; shop dialogue does not have a separate text hook.
+Direct FONT12 fusion records share that physical bank but remain stock until
+the fusion-menu consumer patch is ported.
+
 Run:
 
 ```powershell

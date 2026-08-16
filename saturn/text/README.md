@@ -6,11 +6,12 @@ the source encoding used to turn its code units into readable text. Source
 encodings never name a game file.
 
 Repacking uses the same separation in the other direction. The complete
-`event.dialogue` and `battle.negotiation` surfaces are compiled from shared
-authored assets, while physical containers own pointers, terminators, capacity,
-and round-trip validation. Canonical translations live under the
-repository-level `assets/text` tree; the physical corpus remains binary
-evidence rather than an editing interface.
+general `event.dialogue` and `battle.negotiation` surfaces, plus the supported
+shop/facility portion of the mixed `SHOPSMP.EVE` bank, are compiled from shared
+authored assets. Physical containers own pointers, terminators, capacity, and
+round-trip validation. Canonical translations live under the repository-level
+`assets/text` tree; the physical corpus remains binary evidence rather than an
+editing interface.
 
 ## Layout
 
@@ -32,7 +33,8 @@ evidence rather than an editing interface.
 - `extract.py` verifies source identity and regenerates the complete corpus.
 - `event_inventory.py` builds an ignored scene-curation report for the four
   general event banks.
-- `repack.py` builds the complete general EVENT and battle-negotiation surfaces.
+- `repack.py` builds general EVENT, shop/facility dialogue, and battle
+  negotiation.
 
 Extraction reads its evidence directly from the verified original disc, never
 from the writable build mirror. The mirror may therefore contain translated
@@ -91,6 +93,8 @@ python saturn/text/extract.py compendium --check
 python saturn/text/event_inventory.py
 python saturn/text/repack.py event
 python saturn/text/repack.py event --check
+python saturn/text/repack.py shopsmp
+python saturn/text/repack.py shopsmp --check
 python saturn/text/repack.py negotiation
 python saturn/text/repack.py negotiation --check
 python -m unittest discover -s saturn/text/tests -v
@@ -110,6 +114,24 @@ Saturn output. `generated/game/event_build.json` binds that codec, the current
 FONT16 metrics, and the exact digest of every rebuilt bank. All four outputs
 are byte-identical to the mature Saturn translation build; this is enforced as
 a regression oracle rather than assumed from matching strings.
+
+## Shop and facility EVENT repacking
+
+`SHOPSMP.EVE` is a mixed physical bank rather than a separate shop renderer.
+The standard dialogue and direct FONT16 menu records use the same proved EVENT
+runtime installed for `event.dialogue`. The `shopsmp` target resolves all 763
+translator-facing pages, compiles the 570 standard-dialogue and direct-FONT16
+pages supported by that runtime, and reparses the complete 815-message bank.
+The displayed Goofy shop line at message 741 is pinned to the trusted mature
+Saturn output.
+
+The bank also contains 194 direct FONT12 fusion messages, of which 193 are
+translator-facing. Their English layouts depend on the separate fusion-menu
+renderer and its FONT8/FONT12 consumer patches. Until that surface is ported,
+the compiler verifies their bindings but preserves those messages byte-for-byte
+from the original disc. `generated/game/shopsmp_build.json` records this
+deferral explicitly, so installing shop dialogue cannot silently regress the
+fusion screens.
 
 ## Battle-negotiation repacking
 

@@ -96,6 +96,25 @@
       ]
     },
     {
+      "id": "repack_shopsmp_text",
+      "description": "Compile shop and facility dialogue from shared authored assets while preserving deferred fusion-only records.",
+      "type": "python",
+      "script": "text/repack.py",
+      "arguments": ["shopsmp"],
+      "check_arguments": ["shopsmp", "--check"]
+    },
+    {
+      "id": "install_shopsmp_text",
+      "description": "Install the compiled shop and facility EVENT bank.",
+      "type": "copy",
+      "files": [
+        {
+          "source": "text/generated/game/SHOPSMP.EVE",
+          "destination": "rom/extracted/game/SHOPSMP.EVE"
+        }
+      ]
+    },
+    {
       "id": "build_event_engine",
       "description": "Build the EVENT variable-width renderer and packed-text fetch hook.",
       "type": "python",
@@ -191,6 +210,8 @@
         "install_fonts",
         "repack_event_text",
         "install_event_text",
+        "repack_shopsmp_text",
+        "install_shopsmp_text",
         "build_event_engine",
         "install_event_engine",
         "repack_battle_negotiation_text",
