@@ -55,6 +55,19 @@ metrics therefore contain both the normal narrow-English map and this
 separately named stock map; consumers must choose the stock map explicitly
 rather than resolving duplicate Latin characters by accident.
 
+Game `KANJI.FON` likewise publishes the name-entry grid's `stock_latin` set:
+the exact retail uppercase and lowercase alphabets, digits, punctuation,
+interpunct, and selectable-blank cell used across the stock codename page and
+English replacement grids. Repacking remains byte-for-byte identical; its
+generated metrics only give those preserved cells stable names, codes, and
+measured advances.
+`name_entry.grid_row` selects this map through a dedicated text glyph handler,
+so engine code does not need to reconstruct the code ranges. The grid's END
+control is a different boundary: `FONT16.FON` names its original two-cell image
+compound as `{input_end_prefix}` and `{input_end_symbol}` without replacing
+either raster. Left/right and END action semantics stay authored text, while a
+different visible raster still requires coordinated font and engine work.
+
 Run extraction and `extract.py --check` against mirrors restored from the
 original discs. They deliberately reject generated fonts installed by a build.
 

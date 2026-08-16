@@ -21,6 +21,8 @@ from engine.surfaces.save_load_ui import (  # noqa: E402
     FONT8_PATH,
     LOAD_TARGET,
     LOCATION_FORMAT_BINDING_PATH,
+    PLAYER_NAMES_PATH,
+    PLAYER_PROFILE_ASSET_PATH,
     RUNTIME_INPUT_FILES,
     SAVE_TARGET,
     TARGETS,
@@ -179,10 +181,13 @@ class SaveLoadUiEngineTests(unittest.TestCase):
                 "assets/text/save_load.json",
                 "assets/text/locations.json",
                 "assets/text/field/location_formats.json",
+                "assets/text/player_profile.json",
             },
         )
+        self.assertIn(PLAYER_PROFILE_ASSET_PATH, ASSET_FILES)
         self.assertIn(FONT16_PATH, RUNTIME_INPUT_FILES)
         self.assertIn(FONT8_PATH, RUNTIME_INPUT_FILES)
+        self.assertIn(PLAYER_NAMES_PATH, RUNTIME_INPUT_FILES)
         self.assertIn(LOCATION_FORMAT_BINDING_PATH, RUNTIME_INPUT_FILES)
         self.assertEqual(
             set(self.build.source_inputs),
@@ -307,6 +312,75 @@ class SaveLoadUiEngineTests(unittest.TestCase):
             side_effect=unsupported_separator,
         ), self.assertRaisesRegex(ValueError, "supported ASCII glyph"):
             _slot_templates(_font16_layout())
+
+    def test_shared_storage_order_is_independent_from_visible_slot_name(self) -> None:
+        baseline = {
+            target: {row.name: row for row in self.build.patches[target]}
+            for target in TARGETS
+        }
+        original = _asset_text
+
+        def hyphenated_slot(name: str) -> str:
+            return (
+                "{first_name}-{last_name}"
+                if name == "slot_name"
+                else original(name)
+            )
+
+        with patch(
+            "engine.surfaces.save_load_ui._asset_text",
+            side_effect=hyphenated_slot,
+        ):
+            slot_changed = build_save_load_ui()
+        with patch(
+            "engine.surfaces.save_load_ui._full_name_storage_text",
+            return_value="{last_name}/{first_name}",
+        ):
+            storage_changed = build_save_load_ui()
+
+        slot_patches = {
+            target: {row.name: row for row in slot_changed.patches[target]}
+            for target in TARGETS
+        }
+        storage_patches = {
+            target: {row.name: row for row in storage_changed.patches[target]}
+            for target in TARGETS
+        }
+        for target, name in (
+            (SAVE_TARGET, "save_name_strip"),
+            (LOAD_TARGET, "load_name_strip"),
+        ):
+            self.assertNotEqual(
+                slot_patches[target][name].replacement,
+                baseline[target][name].replacement,
+            )
+            self.assertEqual(
+                storage_patches[target][name].replacement,
+                baseline[target][name].replacement,
+            )
+
+        self.assertEqual(
+            slot_patches[LOAD_TARGET]["load_name_rebuild"].replacement,
+            baseline[LOAD_TARGET]["load_name_rebuild"].replacement,
+        )
+        self.assertNotEqual(
+            storage_patches[LOAD_TARGET]["load_name_rebuild"].replacement,
+            baseline[LOAD_TARGET]["load_name_rebuild"].replacement,
+        )
+        self.assertEqual(
+            storage_changed.data[SAVE_TARGET], self.build.data[SAVE_TARGET]
+        )
+        self.assertEqual(
+            storage_changed.runtime_used_sizes[LOAD_TARGET]["name_rebuild"],
+            0x400,
+        )
+
+    def test_shared_storage_separator_must_be_one_font16_glyph(self) -> None:
+        with patch(
+            "engine.surfaces.save_load_ui._full_name_storage_text",
+            return_value="{first_name}\t{last_name}",
+        ), self.assertRaisesRegex(ValueError, "one supported FONT16"):
+            build_save_load_ui()
 
     def test_location_and_floor_template_edits_rebuild_both_ui_caves(self) -> None:
         dungeon, special = _location_text()

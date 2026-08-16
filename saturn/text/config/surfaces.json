@@ -95,6 +95,7 @@
       "ja": {
         "font": "font16",
         "rows": 1,
+        "glyphs": 3,
         "width": {
           "unit": "glyph_cells",
           "value": 3
@@ -103,6 +104,7 @@
       "en": {
         "font": "font16",
         "rows": 1,
+        "glyphs": 8,
         "width": {
           "unit": "glyph_cells",
           "value": 8
@@ -113,6 +115,7 @@
       "ja": {
         "font": "font16",
         "rows": 1,
+        "glyphs": 3,
         "width": {
           "unit": "glyph_cells",
           "value": 3
@@ -121,9 +124,30 @@
       "en": {
         "font": "font16",
         "rows": 1,
+        "glyphs": 8,
         "width": {
           "unit": "glyph_cells",
           "value": 8
+        }
+      }
+    },
+    "profile.full_name": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "glyphs": 7,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 7
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "glyphs": 17,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 17
         }
       }
     },
@@ -131,6 +155,7 @@
       "ja": {
         "font": "font16",
         "rows": 1,
+        "glyphs": 8,
         "width": {
           "unit": "glyph_cells",
           "value": 8
@@ -139,6 +164,7 @@
       "en": {
         "font": "font16",
         "rows": 1,
+        "glyphs": 8,
         "width": {
           "unit": "glyph_cells",
           "value": 8
@@ -149,6 +175,7 @@
       "ja": {
         "font": "font16",
         "rows": 1,
+        "glyphs": 3,
         "width": {
           "unit": "glyph_cells",
           "value": 3
@@ -157,6 +184,7 @@
       "en": {
         "font": "font16",
         "rows": 1,
+        "glyphs": 8,
         "width": {
           "unit": "glyph_cells",
           "value": 8
@@ -167,6 +195,7 @@
       "ja": {
         "font": "font16",
         "rows": 1,
+        "glyphs": 3,
         "width": {
           "unit": "glyph_cells",
           "value": 3
@@ -175,6 +204,7 @@
       "en": {
         "font": "font16",
         "rows": 1,
+        "glyphs": 8,
         "width": {
           "unit": "glyph_cells",
           "value": 8
@@ -211,9 +241,10 @@
       "en": {
         "font": "font16",
         "rows": 1,
+        "glyphs": 11,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 168
         }
       }
     },
@@ -229,9 +260,10 @@
       "en": {
         "font": "font16",
         "rows": 1,
+        "glyphs": 11,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "glyph_cells",
+          "value": 11
         }
       }
     },
@@ -247,6 +279,7 @@
       "en": {
         "font": "font16",
         "rows": 1,
+        "glyphs": 3,
         "width": {
           "unit": "glyph_cells",
           "value": 3
@@ -265,6 +298,7 @@
       "en": {
         "font": "font16",
         "rows": 1,
+        "glyphs": 11,
         "width": {
           "unit": "pixels",
           "value": 104
@@ -309,16 +343,18 @@
     },
     "name_entry.grid_row": {
       "ja": {
-        "font": "font16",
+        "font": "kanji",
         "rows": 1,
+        "glyphs": 19,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "glyph_cells",
+          "value": 19
         }
       },
       "en": {
-        "font": "font16",
+        "font": "kanji",
         "rows": 1,
+        "glyphs": 13,
         "width": {
           "unit": "glyph_cells",
           "value": 13
@@ -329,6 +365,27 @@
       "ja": {
         "font": "font16",
         "rows": 1,
+        "glyphs": 2,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 2
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "glyphs": 2,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 2
+        }
+      }
+    },
+    "name_entry.address_suffix": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "glyphs": 1,
         "width": {
           "unit": "glyph_cells",
           "value": 1
@@ -338,8 +395,8 @@
         "font": "font16",
         "rows": 1,
         "width": {
-          "unit": "glyph_cells",
-          "value": 1
+          "unit": null,
+          "value": null
         }
       }
     },
@@ -355,6 +412,7 @@
       "en": {
         "font": "font16",
         "rows": 1,
+        "glyphs": 8,
         "width": {
           "unit": "glyph_cells",
           "value": 8

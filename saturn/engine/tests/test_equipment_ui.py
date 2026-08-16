@@ -35,7 +35,7 @@ from text.util.event_repack import FontMetrics  # noqa: E402
 
 
 EXPECTED_HASHES = {
-    "EVENT.BIN": "697647ea5446901715b43fa175dcd293175746b393a1efa8d0eac7f8fa24f0ed",
+    "EVENT.BIN": "1ffb315598c74bf0b0cb1a85b68097ba10ed050fdb6b1795ef00f2c8485f695e",
     "NORMCOM.BIN": "a63ec7dbe6d5fdc03f9ff9f4c15fd556c26b9883dc0eb89e7bb18a70e5b58965",
 }
 
@@ -71,7 +71,7 @@ class EquipmentUiEngineTests(unittest.TestCase):
         self.assertEqual(self.manifest["surface"], "equipment.ui")
         self.assertEqual(
             {target: row["surface"] for target, row in self.manifest["bases"].items()},
-            {"EVENT.BIN": "fusion.menu", "NORMCOM.BIN": "comp.menu"},
+            {"EVENT.BIN": "event.name_inserts", "NORMCOM.BIN": "comp.menu"},
         )
         self.assertEqual(
             self.manifest["patch_groups"],

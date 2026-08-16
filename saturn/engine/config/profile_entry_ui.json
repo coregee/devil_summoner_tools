@@ -1,0 +1,143 @@
+{
+  "version": 2,
+  "surface": "profile_entry.ui",
+  "targets": {
+    "NAME.BIN": {
+      "load_address": "0x06020000",
+      "size": 155208,
+      "stock_sha256": "cafacc4bfdd8dd1d3255d48814829e564926f6425576b82de45b54310ebcb538"
+    }
+  },
+  "inputs": {
+    "font16_sha256": "89272c66b96536658c271e061ff8c15198a1bbc4c01c4e17f23575897dca0acc",
+    "font16_metrics_sha256": "3ce6e6c916da3f4bc3c7a702c9ae07f84519185a45e2f733c13726cab6532fa3",
+    "font8_sha256": "c656c783225271ae1910224b85eba9431ad2c27e96bfdab797e8499f77eeff7c",
+    "font8_metrics_sha256": "82f688a7a2bc2efd1caa32555968c456c332d30813bd7e2b3c8af08b7f2978c6",
+    "kanji_sha256": "0bdfd6640b7ea3e792de2575cafcfae29aa86af12f0925f458b88ad533744dd7",
+    "kanji_config_sha256": "c92c1c1d8100379a721740dc75c627cbfbeb881c561f3d7973d0d8f339054071",
+    "glyph_sets_sha256": "b1e622635b296b6a5d15b96f5e4077a82b56115e8a6e5660a63d28191ce5b015"
+  },
+  "groups": [
+    {
+      "capability": "profile_entry.runtime",
+      "target": "NAME.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "runtime_arena",
+          "address": "0x0603e840",
+          "expected_sha256": "0a696f1f14ed2e454c4d1e94ac23add7e788ff6b0709af8177ed58ecbfc6a7d2",
+          "expected_size": 6840,
+          "assembly": ["profile_entry_ui/entry.s"]
+        }
+      ]
+    },
+    {
+      "capability": "profile_entry.templates",
+      "target": "NAME.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "entry_template",
+          "address": "0x06040b78",
+          "expected": "003f0053004e005705430361005800b4000000000750075107520000075407550756000000008000",
+          "generated": "profile_entry_data"
+        },
+        {
+          "name": "confirm_template",
+          "address": "0x06040c18",
+          "expected": "0048006800da00000040004000da004b004400b4000000000023000f001d00000018001900008000",
+          "generated": "profile_entry_data"
+        },
+        {
+          "name": "occupation_template",
+          "address": "0x06040cb8",
+          "expected": "003f0053004e0057032c0276005800b4000000000000000000000000000000000000000000008000",
+          "generated": "profile_entry_data"
+        }
+      ]
+    },
+    {
+      "capability": "profile_entry.runtime",
+      "target": "NAME.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "router_hook",
+          "address": "0x060330fc",
+          "expected": "88018f328802",
+          "assembly": ["profile_entry_ui/router_hook.s"]
+        },
+        {
+          "name": "router_pointer",
+          "address": "0x06033204",
+          "expected": "0603203c",
+          "linked_pointer": "router"
+        },
+        {
+          "name": "init_pointer",
+          "address": "0x06033054",
+          "expected": "06030850",
+          "linked_pointer": "init_shim"
+        },
+        {
+          "name": "initial_row_flush_pointer",
+          "address": "0x06033078",
+          "expected": "0602f6ac",
+          "linked_pointer": "initial_row_flush"
+        },
+        {
+          "name": "commit_pointer",
+          "address": "0x06033478",
+          "expected": "06032b1c",
+          "linked_pointer": "commit"
+        },
+        {
+          "name": "end_pointer_060312b4",
+          "address": "0x060312b4",
+          "expected": "06030ed4",
+          "linked_pointer": "end_handler"
+        },
+        {
+          "name": "end_pointer_060328fc",
+          "address": "0x060328fc",
+          "expected": "06030ed4",
+          "linked_pointer": "end_handler"
+        },
+        {
+          "name": "tab_draw_pointer",
+          "address": "0x06033488",
+          "expected": "06030780",
+          "linked_pointer": "tab_draw"
+        },
+        {
+          "name": "skip_stock_text",
+          "address": "0x06032800",
+          "expected": "480be401",
+          "assembly": ["profile_entry_ui/skip_stock_text.s"]
+        },
+        {
+          "name": "occupation_cursor_pointer",
+          "address": "0x06032ad0",
+          "expected": "0603049c",
+          "linked_pointer": "occ_cursor"
+        }
+      ]
+    },
+    {
+      "capability": "profile_entry.occupation",
+      "target": "NAME.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {"name": "occupation_count_value", "address": "0x06032936", "expected": "6013", "instruction": "mov #5,r0"},
+        {"name": "occupation_count_compare", "address": "0x06032938", "expected": "8804", "instruction": "cmp/hi r0,r1"},
+        {"name": "occupation_stride_flag", "address": "0x06032948", "expected": "8802", "instruction": "sett"},
+        {"name": "occupation_row_stride", "address": "0x0603295a", "expected": "7617", "instruction": "add #39,r6"},
+        {"name": "occupation_left_offset", "address": "0x0603295e", "expected": "cb09", "instruction": "add #25,r0"},
+        {"name": "occupation_count_0603297e", "address": "0x0603297e", "expected": "8804", "instruction": "cmp/eq #6,r0"},
+        {"name": "occupation_right_offset", "address": "0x060329a6", "expected": "cb08", "instruction": "add #24,r0"},
+        {"name": "occupation_count_06032a44", "address": "0x06032a44", "expected": "8804", "instruction": "cmp/eq #6,r0"}
+      ]
+    }
+  ]
+}

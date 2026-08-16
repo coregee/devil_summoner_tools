@@ -103,7 +103,12 @@ eight-cell/128-pixel strip. The complete editable template is
 the asset-owned separator when either value is empty. The current Saturn
 compiler still requires `{first_name}` before `{last_name}` because its trusted
 path reads the adjacent save fields in that order; honoring a reversed template
-requires a second renderer path and remains explicit debt. A special fixed location has seven Japanese cells or
+requires a second renderer path and remains explicit debt. This
+`save_load.json` field controls visible slot layout only. The shared
+`NAME_FW_FULL` storage row is rebuilt independently from
+`player_profile.json#full_name_storage.text`; both Profile Entry and LOAD use
+that one authored order and separator, so editing the slot display cannot
+silently change runtime player-name storage. A special fixed location has seven Japanese cells or
 112 English pixels. A generated dungeon label has the same seven-cell stock
 field but a proved 144-pixel translated limit because it may append an editable
 floor form.
@@ -189,6 +194,18 @@ The player fills out their profile by progressing through several inputs. For ea
 
 The game renders each input screen with a top prompt section, consisting of a FONT16 question (i.e., "コードネームは？") and an input area (a series of underline characters to indicate available length/spacing, with a white bounding box to indicate the active input character target).
 
+`ui/profile_entry.json` owns every prompt, choice, occupation, tab label,
+English replacement row, and default value. The shared complete-name storage
+template lives at `player_profile.json#full_name_storage.text`; Profile Entry
+and SAVE/LOAD both rebuild `NAME_FW_FULL` from its authored placeholder order
+and one literal separator. Either placeholder order is valid, with each field
+appearing exactly once. The visible SAVE/LOAD slot template remains a
+separate consumer layout. Confirmation draws the first and last fields at
+independent x positions, so its much wider visual gap is layout and does not
+override the shared storage format. Underline slots, cursor rectangles,
+highlight colours, and centering blanks are visual/layout state rather than
+additional text.
+
 The sequence is as follows:
 1. Full Name: ___ ___ - 3 glyphs for last/first names. This is not ideal in English. The patch currently splits this into two separate screens.
 2. Codename: ________ - 8 glyphs.
@@ -199,7 +216,9 @@ The sequence is as follows:
 
 The player can switch between three pages for the text input. 漢字, ひらがな, and カタカナ. The actively-highlighted page has yellow text instead of white. The position of the grid cursor is indicated by a yellow bounding box. This bounding box borders either the current glyph's cell, or the page's rectangle, depending on where it's positioned.
 
-Each page consists of a navigable input grid. The grid consists entirely of FONT16 glyphs, with different colourations:
+Each page consists of a navigable input grid. Ordinary grid cells are drawn
+from `KANJI.FON`; the action cells are special, font-owned compound images.
+Cells have different colourations:
 
 - Blue characters: Used to indicate the start of a section on the kanji page (i.e., あ, い, う, え, お, か, き, etc.). If selected, is treated the same as a hiragana glyph input.
 
@@ -213,6 +232,31 @@ The kanji page consists of a full-window grid, 8 rows tall, 19 rows wide, with t
 
 The hiragana and katakana pages consist of three small grids distributed evenly and centered inside the window.
 Each grid is 6 rows, 5 columns. The first and second grids are the standard kana and small vowels/ya/yu/yo/tsu/katakana-vu. The third grid consists of dakuten/handakuten variants, and the dash and interpunct. It also has the left/right arrows and END command button.
+
+The mature English replacement retires those pages in favour of three tabs,
+`UPPER`, `lower`, and `SYMBOL`. It still draws eight navigable rows of 19 cells,
+with up to 13 authored content cells starting at column three. Its six row
+strings are editable assets. Every cleared navigable cell remains a selectable
+blank; the trailing space in the second SYMBOL row is the one blank that is
+part of authored row content. The grid text uses the named `KANJI.FON`
+`stock_latin` reference set, which publishes the exact preserved digit,
+uppercase, lowercase, punctuation, interpunct, and blank cells. It does not
+regenerate or overwrite those retail glyphs.
+
+Stock physically stores `漢字`, `ひらがな`, and `カタカナ` twice: once in the
+combined tab row and once in each selected-tab template. Each byte-identical
+pair has one semantic asset owner and two source locations. Katakana remains
+inventoried even though the English runtime leaves it dormant. The city `市`
+and ward `区` suffix glyphs are likewise physical editable records, although
+the split English screens retire that stock address scaffold.
+
+The left/right controls and `終了` are semantic text but their retail rasters are
+font/image-owned compounds, not ordinary grid strings. `grid_end.text` records
+the editable `END` meaning and the two original `FONT16` cells explicitly. The
+mature English code selects the stock action through display code `0x01F7`, so
+a different visible label requires coordinated engine/font output rather than
+an asset-only substitution. The English replacement does not currently draw
+the left/right actions.
 
 #### Codename Input
 
@@ -237,6 +281,12 @@ The blocks are:
 あなたの職業は？　　＿＿＿
 
 これで　いいですか？　　YES　NO
+
+The mature English confirmation builder has one known parity defect: it omits
+the terminating `0x8000` word after its 19-cell template, allowing the stock
+drawer to continue into the following `漢字` data. The rewrite should terminate
+that span explicitly; this is a documented output correction, not wording to
+preserve in an asset.
 
 ### 2D Map
 

@@ -40,6 +40,22 @@
     "note": ""
   },
   {
+    "id": "game.name_static.o020be2",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "市",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.name_static.o020bea",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "区",
+    "translation": "",
+    "note": ""
+  },
+  {
     "id": "game.name_static.o020c18",
     "source_encoding": "game_font16_plain_skip",
     "output_encoding": "",
@@ -92,6 +108,14 @@
     "source_encoding": "game_font16_plain_skip",
     "output_encoding": "",
     "reference": "ひらがな",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.name_static.o020c90",
+    "source_encoding": "game_font16_plain_skip",
+    "output_encoding": "",
+    "reference": "カタカナ",
     "translation": "",
     "note": ""
   },

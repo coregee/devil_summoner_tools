@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "surface": "event.name_inserts",
+  "targets": {
+    "EVENT.BIN": {
+      "load_address": "0x06020000",
+      "size": 354072,
+      "stock_sha256": "73a24f782f6618081028511e9fcc4c845a79a577e1907a6a6affc9e9f1e2ce84"
+    }
+  },
+  "inputs": {},
+  "groups": [
+    {
+      "capability": "event.name_inserts",
+      "target": "EVENT.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {"name": "first_insert_pointer", "address": "0x0602c554", "expected": "002029b8", "pointer": "0x0023fdf0"},
+        {"name": "first_terminator_stamp", "address": "0x0602c51c", "expected": "2121", "instruction": "nop"},
+        {"name": "last_insert_pointer", "address": "0x0602c5c8", "expected": "002029b0", "pointer": "0x0023fe02"},
+        {"name": "last_terminator_stamp", "address": "0x0602c592", "expected": "2121", "instruction": "nop"},
+        {"name": "city_insert_pointer", "address": "0x0602c63c", "expected": "002029d0", "pointer": "0x0023fe26"},
+        {"name": "city_terminator_stamp", "address": "0x0602c606", "expected": "2121", "instruction": "nop"},
+        {"name": "ward_insert_pointer", "address": "0x0602c6b0", "expected": "002029d8", "pointer": "0x0023fe38"},
+        {"name": "ward_terminator_stamp", "address": "0x0602c67a", "expected": "2121", "instruction": "nop"},
+        {"name": "codename_skip_copy", "address": "0x0602c44c", "expected": "e300e507", "assembly": ["event_name_inserts/codename_skip.s"]},
+        {"name": "codename_insert_pointer", "address": "0x0602c4d4", "expected": "06076a84", "pointer": "0x0023fe14"},
+        {
+          "name": "raw_menu_name_renderer",
+          "address": "0x06030bb4",
+          "expected_sha256": "12226d03c1e6596447e14e6a7042e4567d3b53665f450e90055a1f97696ded31",
+          "expected_size": 96,
+          "assembly": ["event_name_inserts/raw_menu_inserts.s"]
+        },
+        {"name": "raw_menu_first_insert_pointer", "address": "0x06030d14", "expected": "002029b8", "pointer": "0x0023fdf0"},
+        {"name": "raw_menu_last_insert_pointer", "address": "0x06030d1c", "expected": "002029b0", "pointer": "0x0023fe02"},
+        {"name": "raw_menu_name_result_06030c66", "address": "0x06030c66", "expected": "618371026111", "assembly": ["event_name_inserts/raw_menu_result.s"]},
+        {"name": "raw_menu_name_result_06030c98", "address": "0x06030c98", "expected": "618371026111", "assembly": ["event_name_inserts/raw_menu_result.s"]}
+      ]
+    }
+  ]
+}

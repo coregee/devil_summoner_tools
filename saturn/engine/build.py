@@ -49,6 +49,10 @@ from engine.surfaces.event_dialogue import (  # noqa: E402
     stock_event,
     validate_shopsmp_text_build,
 )
+from engine.surfaces.event_name_inserts import (  # noqa: E402
+    CONFIG_PATH as EVENT_NAME_INSERTS_CONFIG_PATH,
+    build_event_name_inserts,
+)
 from engine.surfaces.fusion import (  # noqa: E402
     CONFIG_PATH as FUSION_CONFIG_PATH,
     build_fusion_menu,
@@ -66,6 +70,11 @@ from engine.surfaces.options_ui import (  # noqa: E402
     CONFIG_PATH as OPTIONS_CONFIG_PATH,
     build_options_ui,
 )
+from engine.surfaces.profile_entry_ui import (  # noqa: E402
+    CONFIG_PATH as PROFILE_ENTRY_CONFIG_PATH,
+    TARGET as PROFILE_ENTRY_TARGET,
+    build_profile_entry_ui,
+)
 from engine.surfaces.save_load_ui import (  # noqa: E402
     CONFIG_PATH as SAVE_LOAD_CONFIG_PATH,
     TARGETS as SAVE_LOAD_TARGETS,
@@ -82,6 +91,12 @@ EVENT_DIALOGUE_OUTPUT_PATH = EVENT_OUTPUT_PATH
 BUILD_MANIFEST_PATH = EVENT_BUILD_PATH
 FUSION_OUTPUT_PATH = GENERATED_ROOT / "fusion_menu" / "EVENT.BIN"
 FUSION_BUILD_MANIFEST_PATH = GENERATED_ROOT / "fusion_menu_build.json"
+EVENT_NAME_INSERTS_OUTPUT_PATH = (
+    GENERATED_ROOT / "event_name_inserts" / "EVENT.BIN"
+)
+EVENT_NAME_INSERTS_BUILD_MANIFEST_PATH = (
+    GENERATED_ROOT / "event_name_inserts_build.json"
+)
 EQUIPMENT_EVENT_OUTPUT_PATH = GENERATED_ROOT / "EVENT.BIN"
 EQUIPMENT_NORMCOM_OUTPUT_PATH = (
     GENERATED_ROOT / "equipment_ui" / "NORMCOM.BIN"
@@ -106,6 +121,11 @@ SAVE_LOAD_OUTPUT_PATHS = {
     target: GENERATED_ROOT / target for target in SAVE_LOAD_TARGETS
 }
 SAVE_LOAD_BUILD_MANIFEST_PATH = GENERATED_ROOT / "save_load_ui_build.json"
+PROFILE_ENTRY_OUTPUT_PATH = GENERATED_ROOT / PROFILE_ENTRY_TARGET
+PROFILE_ENTRY_BUILD_MANIFEST_PATH = GENERATED_ROOT / "profile_entry_ui_build.json"
+PROFILE_ENTRY_INSTALL_PATH = (
+    SATURN_ROOT / "rom" / "extracted" / "game" / PROFILE_ENTRY_TARGET
+)
 SAVE_LOAD_INSTALL_ROOT = SATURN_ROOT / "rom" / "extracted" / "game"
 SAVE_LOAD_VISUAL_MANIFEST_PATH = (
     SATURN_ROOT / "visual" / "modified" / "game" / "manifest.json"
@@ -171,12 +191,59 @@ def build_fusion_surface() -> dict[Path, bytes]:
     }
 
 
-def build_equipment_surface() -> dict[Path, bytes]:
-    """Compose shared equipment consumers onto Fusion and COMP bases."""
+def build_event_name_inserts_surface() -> dict[Path, bytes]:
+    """Compose player-name EVENT adapters onto the checked Fusion stage."""
     fusion_outputs = build_fusion_surface()
+    base = fusion_outputs[FUSION_OUTPUT_PATH]
+    result = build_event_name_inserts(base)
+    manifest = {
+        "version": 1,
+        "surface": "event.name_inserts",
+        "patch_config_sha256": file_sha256(EVENT_NAME_INSERTS_CONFIG_PATH),
+        "base": {
+            "surface": "fusion.menu",
+            "sha256": sha256(base),
+            "manifest_sha256": sha256(
+                fusion_outputs[FUSION_BUILD_MANIFEST_PATH]
+            ),
+        },
+        "runtime_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.runtime_input_files
+        },
+        "source_inputs": dict(result.source_inputs),
+        "assembly_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.assembly_files
+        },
+        "runtime": {
+            "bytes": result.runtime_used_size,
+            "capacity": result.runtime_capacity,
+        },
+        "output": {
+            "file": "EVENT.BIN",
+            "sha256": sha256(result.data),
+        },
+        "patch_groups": list(
+            dict.fromkeys(patch.group for patch in result.patches)
+        ),
+        "patches": len(result.patches),
+    }
+    return {
+        **fusion_outputs,
+        EVENT_NAME_INSERTS_OUTPUT_PATH: result.data,
+        EVENT_NAME_INSERTS_BUILD_MANIFEST_PATH: (
+            json.dumps(manifest, indent=2) + "\n"
+        ).encode("utf-8"),
+    }
+
+
+def build_equipment_surface() -> dict[Path, bytes]:
+    """Compose shared equipment consumers onto name-adapted EVENT and COMP."""
+    event_outputs = build_event_name_inserts_surface()
     comp_outputs = build_comp_menu()
     result = build_equipment_ui(
-        fusion_outputs[FUSION_OUTPUT_PATH],
+        event_outputs[EVENT_NAME_INSERTS_OUTPUT_PATH],
         comp_outputs[COMP_NORMCOM_OUTPUT_PATH],
     )
     manifest = {
@@ -187,10 +254,12 @@ def build_equipment_surface() -> dict[Path, bytes]:
         ),
         "bases": {
             "EVENT.BIN": {
-                "surface": "fusion.menu",
-                "sha256": sha256(fusion_outputs[FUSION_OUTPUT_PATH]),
+                "surface": "event.name_inserts",
+                "sha256": sha256(
+                    event_outputs[EVENT_NAME_INSERTS_OUTPUT_PATH]
+                ),
                 "manifest_sha256": sha256(
-                    fusion_outputs[FUSION_BUILD_MANIFEST_PATH]
+                    event_outputs[EVENT_NAME_INSERTS_BUILD_MANIFEST_PATH]
                 ),
             },
             "NORMCOM.BIN": {
@@ -220,11 +289,52 @@ def build_equipment_surface() -> dict[Path, bytes]:
         },
     }
     return {
-        **fusion_outputs,
+        **event_outputs,
         **comp_outputs,
         EQUIPMENT_EVENT_OUTPUT_PATH: result.event,
         EQUIPMENT_NORMCOM_OUTPUT_PATH: result.normcom,
         EQUIPMENT_BUILD_MANIFEST_PATH: (
+            json.dumps(manifest, indent=2) + "\n"
+        ).encode("utf-8"),
+    }
+
+
+def build_profile_entry_surface() -> dict[Path, bytes]:
+    """Build the complete Profile Entry controller from the stock NAME target."""
+    result = build_profile_entry_ui()
+    manifest = {
+        "version": 1,
+        "surface": "profile_entry.ui",
+        "patch_config_sha256": file_sha256(PROFILE_ENTRY_CONFIG_PATH),
+        "asset_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.asset_files
+        },
+        "runtime_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.runtime_input_files
+        },
+        "source_inputs": dict(result.source_inputs),
+        "assembly_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.assembly_files
+        },
+        "runtime": {
+            "bytes": result.runtime_used_size,
+            "capacity": result.runtime_capacity,
+        },
+        "output": {
+            "file": PROFILE_ENTRY_TARGET,
+            "sha256": sha256(result.data),
+        },
+        "patch_groups": list(
+            dict.fromkeys(patch.group for patch in result.patches)
+        ),
+        "patches": len(result.patches),
+    }
+    return {
+        PROFILE_ENTRY_OUTPUT_PATH: result.data,
+        PROFILE_ENTRY_BUILD_MANIFEST_PATH: (
             json.dumps(manifest, indent=2) + "\n"
         ).encode("utf-8"),
     }
@@ -676,6 +786,27 @@ def install_save_load_surface(*, check: bool) -> None:
             print(f"installed SAVE/LOAD engine output {target}")
 
 
+def install_profile_entry_surface(*, check: bool) -> None:
+    """Install NAME.BIN exactly, or verify the installed terminal image."""
+    if not PROFILE_ENTRY_OUTPUT_PATH.is_file():
+        raise ValueError(
+            f"Profile Entry engine output is missing: {PROFILE_ENTRY_OUTPUT_PATH}"
+        )
+    expected = PROFILE_ENTRY_OUTPUT_PATH.read_bytes()
+    if check:
+        if not PROFILE_ENTRY_INSTALL_PATH.is_file():
+            raise ValueError(
+                f"installed Profile Entry target is missing: "
+                f"{PROFILE_ENTRY_INSTALL_PATH}"
+            )
+        if PROFILE_ENTRY_INSTALL_PATH.read_bytes() != expected:
+            raise ValueError("installed NAME.BIN has stale Profile Entry bytes")
+        print("verified installed Profile Entry engine output NAME.BIN")
+    else:
+        _atomic_write(PROFILE_ENTRY_INSTALL_PATH, expected)
+        print("installed Profile Entry engine output NAME.BIN")
+
+
 def _atomic_write(path: Path, value: bytes) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     descriptor, temporary_name = tempfile.mkstemp(
@@ -720,6 +851,7 @@ def main() -> int:
         choices=(
             "event.dialogue",
             "fusion.menu",
+            "event.name_inserts",
             "battle.negotiation",
             "battle.ui",
             "comp.menu",
@@ -731,19 +863,24 @@ def main() -> int:
             "dungeon.locations",
             "field.messages",
             "save_load.ui",
+            "profile_entry.ui",
         ),
     )
     parser.add_argument("--check", action="store_true")
     parser.add_argument(
         "--install",
         action="store_true",
-        help="install SAVE/LOAD before visuals, or verify only its engine-owned bytes",
+        help=(
+            "install a terminal Profile Entry or SAVE/LOAD output, or verify "
+            "its installed engine-owned bytes"
+        ),
     )
     arguments = parser.parse_args()
     try:
         builders = {
             "event.dialogue": build_event_dialogue,
             "fusion.menu": build_fusion_surface,
+            "event.name_inserts": build_event_name_inserts_surface,
             "battle.negotiation": build_battle_negotiation,
             "battle.ui": build_battle_ui,
             "comp.menu": build_comp_menu,
@@ -755,11 +892,18 @@ def main() -> int:
             "dungeon.locations": build_dungeon_locations_surface,
             "field.messages": build_field_messages_surface,
             "save_load.ui": build_save_load_surface,
+            "profile_entry.ui": build_profile_entry_surface,
         }
         if arguments.install:
-            if arguments.surface != "save_load.ui":
-                raise ValueError("--install is only supported for save_load.ui")
-            install_save_load_surface(check=arguments.check)
+            if arguments.surface == "save_load.ui":
+                install_save_load_surface(check=arguments.check)
+            elif arguments.surface == "profile_entry.ui":
+                install_profile_entry_surface(check=arguments.check)
+            else:
+                raise ValueError(
+                    "--install is supported only for profile_entry.ui and "
+                    "save_load.ui"
+                )
         else:
             _publish(builders[arguments.surface](), check=arguments.check)
     except (OSError, UnicodeError, ValueError) as error:

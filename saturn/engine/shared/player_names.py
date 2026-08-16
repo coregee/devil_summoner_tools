@@ -12,6 +12,8 @@ from dataclasses import dataclass
 from types import MappingProxyType
 from typing import Mapping
 
+from text.util.tokens import Named, Text, parse_tokens
+
 
 MAX_NAME_BYTES = 8
 FONT16_TERMINATOR = 0x8000
@@ -34,6 +36,12 @@ class PlayerNameField:
         return NAME_FW + self.row_index * FONT16_ROW_STRIDE
 
 
+@dataclass(frozen=True, slots=True)
+class FullNameTemplate:
+    field_order: tuple[str, str]
+    separator: str
+
+
 PLAYER_NAME_FIELDS = (
     PlayerNameField("first_name", 0x002029E0, 0),
     PlayerNameField("last_name", 0x002029E8, 1),
@@ -44,6 +52,40 @@ PLAYER_NAME_FIELDS = (
 PLAYER_NAME_FIELD_BY_KEY: Mapping[str, PlayerNameField] = MappingProxyType(
     {field.key: field for field in PLAYER_NAME_FIELDS}
 )
+
+
+def parse_full_name_template(
+    value: str,
+    *,
+    allow_reverse: bool = True,
+) -> FullNameTemplate:
+    """Parse two player-name tokens separated by one authored literal.
+
+    Token parsing matters here: escaped braces are literal separator text, while
+    named placeholders retain their semantic identity.  Renderers decide how
+    many font glyphs the separator may occupy.
+    """
+    tokens = parse_tokens(value)
+    if (
+        len(tokens) != 3
+        or not isinstance(tokens[0], Named)
+        or not isinstance(tokens[1], Text)
+        or not isinstance(tokens[2], Named)
+    ):
+        raise ValueError(
+            "full-name template must be "
+            "'{first_name}<literal>{last_name}' or the reverse"
+        )
+    order = (tokens[0].name, tokens[2].name)
+    allowed = {("first_name", "last_name")}
+    if allow_reverse:
+        allowed.add(("last_name", "first_name"))
+    if order not in allowed:
+        suffix = " or the reverse" if allow_reverse else ""
+        raise ValueError(
+            "full-name template must use first_name then last_name" + suffix
+        )
+    return FullNameTemplate(order, tokens[1].value)
 
 
 def byte_to_font16_table(codes: Mapping[str, int]) -> tuple[int, ...]:

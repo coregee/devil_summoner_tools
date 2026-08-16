@@ -61,10 +61,10 @@ lnf_term:
     cmp/eq  #5, r0
     bf      lnf_field
 
-    ; Rebuild the combined first/separator/last row from the authored slot
-    ; name template. Empty fields retain the mature runtime behaviour here.
+    ; Rebuild the combined row from the shared authored storage template.
+    ; Visible save-slot order is a separate consumer contract.
     mov.l   =0x00008000, r3
-    mov.l   =NAME_FW, r9
+    mov.l   =@FULL_NAME_FIRST@, r9
     mov.l   =NAME_FW_FULL, r10
 lnf_f1:
     mov.w   @r9+, r1
@@ -79,7 +79,7 @@ lnf_f2:
     mov.w   r1, @r10
     add     #2, r10
     mov.l   =NAME_FW, r9
-    add     #18, r9
+    add     #@FULL_NAME_SECOND_OFFSET@, r9
 lnf_f3:
     mov.w   @r9+, r1
     extu.w  r1, r0

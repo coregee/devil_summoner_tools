@@ -307,10 +307,14 @@ explicit fan-out. Sixteen drinks join their separately stored names and
 descriptions in one entity record, and six bar patrons own their display names.
 Fusion confirmation, the healer's all-members label, and the stock `Inv.` label
 are editable assets rather than renderer prose. `save_load.json` owns all
-non-location Saturn SAVE/LOAD text, including the complete populated-slot name,
+non-location Saturn SAVE/LOAD text, including the populated-slot display name,
 level, date, and time templates, stock-English confirmation choices, system
 messages, semantic image labels, and the previously code-owned PSP savedata
-wording and full detail template. `capacity_number.text` is the single owner of
+wording and full detail template. The separate `player_profile.json`
+`full_name_storage.text` field is the one authored owner of the shared
+`NAME_FW_FULL` order and separator used by both Profile Entry and LOAD; changing
+the visible slot layout cannot make those rebuild paths diverge.
+`capacity_number.text` is the single owner of
 the required block count; typed binding substitutions materialize it into the
 three complete Saturn prose templates instead of maintaining four copies of
 `129`. The Saturn date/time punctuation and `Lv` prefix bind as physical
@@ -325,15 +329,24 @@ The character and profile-entry slice gives all six `CHARNAME` identities one
 shared home in `characters.json`; the PSP table has the same six semantic rows
 and therefore needs no copied text. Kyouji's short, full, given, and family
 forms are independently editable, replacing the mature battle renderer's
-embedded `Kyouji`/`Kuzunoha` wording. `ui/profile_entry.json` owns all 19
+embedded `Kyouji`/`Kuzunoha` wording. `ui/profile_entry.json` owns all 22
 physical `NAME.BIN` strings, the 18 opening DDS-NET renewal pages, the six
-English input-grid rows, the Hirasaki and Asahi defaults, and the visible END
-command glyph. The event pages keep the mature Saturn translation in this
-shared asset so a later PSP binding can reuse it rather than copy it. The
-physically shared first/last, city/ward, and occupation prompt/summary sources
-deliberately bind to separate fields, so a translator can change their English roles
-independently. Runtime code may lay out these fields but does not own their
-content or require two independently authored fields to remain equal.
+English input-grid rows, and the Hirasaki and Asahi defaults. The shared
+`player_profile.json` asset owns the complete runtime name format instead. The
+three stock tab labels each have one semantic
+owner across their byte-identical combined-row and selected-tab copies;
+Katakana remains inventoried even though the English runtime retires it. The
+city and ward suffixes are also retained as independently editable physical
+evidence. Grid rows select the preserved `KANJI.FON` `stock_latin` reference
+set rather than hard-coding code formulas. END and the left/right actions have
+editable semantic labels while their existing compound rasters remain an
+explicit font/image boundary. The event pages keep the mature Saturn
+translation in this shared asset so a later PSP binding can reuse it rather
+than copy it. The physically shared first/last, city/ward, and occupation
+prompt/summary sources deliberately bind to separate fields, so a translator
+can change their English roles independently. Runtime code may lay out these
+fields but does not own their content or require two independently authored
+fields to remain equal.
 
 The complete general-event corpus has 1,103 text-bearing message groups and
 2,028 physical pages organized into 92 semantic scenes across 40 `events/`

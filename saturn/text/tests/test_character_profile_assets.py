@@ -10,7 +10,13 @@ TEXT_ROOT = Path(__file__).resolve().parents[1]
 if str(TEXT_ROOT) not in sys.path:
     sys.path.insert(0, str(TEXT_ROOT))
 
-from util.assets import BINDING_ROOT, load_asset, load_binding  # noqa: E402
+from util.assets import (  # noqa: E402
+    ASSET_ROOT,
+    BINDING_ROOT,
+    load_asset,
+    load_binding,
+    validate_asset_document,
+)
 from util.surfaces import load_surfaces  # noqa: E402
 
 
@@ -41,6 +47,8 @@ RUNTIME_PROFILE_ENTRIES = {
     "grid_symbol_row_2",
     "default_city",
     "default_ward",
+    "grid_move_left",
+    "grid_move_right",
     "grid_end",
 }
 
@@ -143,6 +151,7 @@ class ProfileEntryAssetTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         cls.catalog = load_asset("ui/profile_entry.json")
+        cls.player_profile = load_asset("player_profile.json")
         cls.binding = load_binding(BINDING_ROOT / "profile_entry.json")
         cls.event_binding = load_binding(
             BINDING_ROOT / "profile_entry_events.json"
@@ -159,12 +168,12 @@ class ProfileEntryAssetTests(unittest.TestCase):
         cls.surfaces = load_surfaces()
 
     def test_all_physical_name_entry_text_has_one_authored_owner(self) -> None:
-        self.assertEqual(len(self.physical), 19)
+        self.assertEqual(len(self.physical), 22)
         self.assertEqual(
             set(self.binding.records),
             {row["id"] for row in self.physical},
         )
-        self.assertEqual(len(set(self.binding.records.values())), 19)
+        self.assertEqual(len(set(self.binding.records.values())), 22)
         self.assertEqual(
             [
                 self.catalog.field(asset_ref).reference
@@ -210,7 +219,9 @@ class ProfileEntryAssetTests(unittest.TestCase):
                     translations,
                 )
 
-    def test_runtime_grid_defaults_and_end_action_are_editable_assets(self) -> None:
+    def test_runtime_grid_defaults_shared_name_format_and_actions_are_authored(
+        self,
+    ) -> None:
         bound_entries = {
             asset_ref.rsplit(".", 1)[0]
             for binding in (self.binding, self.event_binding)
@@ -220,7 +231,7 @@ class ProfileEntryAssetTests(unittest.TestCase):
             set(self.catalog.entries) - bound_entries,
             RUNTIME_PROFILE_ENTRIES,
         )
-        self.assertEqual(len(self.catalog.entries), 46)
+        self.assertEqual(len(self.catalog.entries), 51)
         self.assertEqual(
             self.catalog.entries["grid_symbol_row_2"].fields["text"].translation,
             "-!?/&: ",
@@ -232,6 +243,109 @@ class ProfileEntryAssetTests(unittest.TestCase):
                 self.catalog.entries["grid_end"].fields["text"].translation,
             ),
             ("Hirasaki", "Asahi", "END"),
+        )
+        self.assertEqual(tuple(self.player_profile.entries), ("full_name_storage",))
+        full_name = self.player_profile.entries["full_name_storage"]
+        self.assertEqual(
+            dict(full_name.placeholders),
+            {"first_name": "player_name", "last_name": "player_name"},
+        )
+        self.assertEqual(
+            (
+                full_name.fields["text"].reference,
+                full_name.fields["text"].translation,
+            ),
+            ("{last_name} {first_name}", "{first_name} {last_name}"),
+        )
+        self.assertIn("NAME_FW_FULL", full_name.fields["text"].note or "")
+        slot_name = load_asset("save_load.json").entries["slot_name"]
+        self.assertEqual(
+            (
+                slot_name.fields["text"].reference,
+                slot_name.fields["text"].translation,
+            ),
+            ("{first_name} {last_name}", "{first_name} {last_name}"),
+        )
+        self.assertIn("visible slot layout", slot_name.fields["text"].note or "")
+        self.assertNotEqual(
+            full_name.fields["text"].reference,
+            slot_name.fields["text"].reference,
+        )
+        document = json.loads(
+            (ASSET_ROOT / "player_profile.json").read_text(encoding="utf-8")
+        )
+        document["entries"]["full_name_storage"]["text"]["reference"] = (
+            "{first_name}"
+        )
+        document["entries"]["full_name_storage"]["text"]["translation"] = (
+            "{first_name}"
+        )
+        with self.assertRaisesRegex(ValueError, "placeholders"):
+            validate_asset_document(document, "profile_entry")
+        self.assertIn(
+            "0x074E",
+            self.catalog.entries["grid_end"].fields["text"].note or "",
+        )
+
+    def test_stock_address_suffixes_and_retired_katakana_tab_are_inventoried(
+        self,
+    ) -> None:
+        self.assertEqual(
+            {
+                key: (
+                    self.catalog.entries[key].fields["text"].reference,
+                    self.catalog.entries[key].fields["text"].translation,
+                )
+                for key in ("city_suffix", "ward_suffix", "tab_katakana")
+            },
+            {
+                "city_suffix": ("市", " City"),
+                "ward_suffix": ("区", " Ward"),
+                "tab_katakana": ("カタカナ", "KATAKANA"),
+            },
+        )
+        self.assertEqual(
+            {
+                record_id: self.binding.records[record_id]
+                for record_id in (
+                    "game.name_static.o020be2",
+                    "game.name_static.o020bea",
+                    "game.name_static.o020c90",
+                )
+            },
+            {
+                "game.name_static.o020be2": "city_suffix.text",
+                "game.name_static.o020bea": "ward_suffix.text",
+                "game.name_static.o020c90": "tab_katakana.text",
+            },
+        )
+        manifest = json.loads(
+            (TEXT_ROOT / "config" / "sources" / "game" / "manifest.json")
+            .read_text(encoding="utf-8")
+        )
+        source = next(row for row in manifest["sources"] if row["id"] == "name_static")
+        records = {
+            row["name"]: row for row in source["container"]["records"]
+        }
+        self.assertEqual(
+            {
+                name: tuple(
+                    location["spans"][0]["offset"]
+                    for location in records[name]["locations"]
+                )
+                for name in ("tab_upper", "tab_lower", "tab_katakana")
+            },
+            {
+                "tab_upper": ("0x20c40", "0x20bf2"),
+                "tab_lower": ("0x20c68", "0x20bfe"),
+                "tab_katakana": ("0x20c90", "0x20c0a"),
+            },
+        )
+        self.assertTrue(
+            all(
+                records[name]["require_identical_bytes"]
+                for name in ("tab_upper", "tab_lower", "tab_katakana")
+            )
         )
 
     def test_opening_dds_net_workflow_uses_the_mature_saturn_output(self) -> None:
@@ -293,6 +407,18 @@ class ProfileEntryAssetTests(unittest.TestCase):
                     (layout.font, layout.rows, layout.width.unit, layout.width.value),
                     ("font16", 1, "glyph_cells", 8),
                 )
+                self.assertEqual(layout.glyphs, 8)
+        full_name = self.surfaces.surface("profile.full_name").en
+        self.assertEqual(
+            (
+                full_name.font,
+                full_name.rows,
+                full_name.width.unit,
+                full_name.width.value,
+                full_name.glyphs,
+            ),
+            ("font16", 1, "glyph_cells", 17, 17),
+        )
         occupation = self.surfaces.surface("profile.occupation").en
         self.assertEqual(
             (
@@ -304,16 +430,21 @@ class ProfileEntryAssetTests(unittest.TestCase):
             ("font16", 1, "pixels", 208),
         )
         expected = {
-            "name_entry.tab_label": ("pixels", 96),
-            "name_entry.occupation_choice": ("pixels", 128),
-            "name_entry.grid_row": ("glyph_cells", 13),
-            "name_entry.default_value": ("glyph_cells", 8),
+            "name_entry.prompt": ("font16", "pixels", 168, 11),
+            "name_entry.confirm_prompt": ("font16", "glyph_cells", 11, 11),
+            "name_entry.tab_label": ("font16", "pixels", 96, None),
+            "name_entry.occupation_choice": ("font16", "pixels", 128, None),
+            "name_entry.grid_row": ("kanji", "glyph_cells", 13, 13),
+            "name_entry.grid_action": ("font16", "glyph_cells", 2, 2),
+            "name_entry.address_suffix": ("font16", None, None, None),
+            "name_entry.default_value": ("font16", "glyph_cells", 8, 8),
         }
-        for surface_id, (unit, value) in expected.items():
+        for surface_id, (font, unit, value, glyphs) in expected.items():
             with self.subTest(surface=surface_id):
                 layout = self.surfaces.surface(surface_id).en
-                self.assertEqual((layout.font, layout.rows), ("font16", 1))
+                self.assertEqual((layout.font, layout.rows), (font, 1))
                 self.assertEqual((layout.width.unit, layout.width.value), (unit, value))
+                self.assertEqual(layout.glyphs, glyphs)
 
 
 if __name__ == "__main__":

@@ -8,6 +8,7 @@ from pathlib import Path
 
 
 TEXT_ROOT = Path(__file__).resolve().parents[1]
+FONT_CONFIG_ROOT = TEXT_ROOT.parent / "font" / "config" / "game"
 if str(TEXT_ROOT) not in sys.path:
     sys.path.insert(0, str(TEXT_ROOT))
 
@@ -16,13 +17,15 @@ from util.glyph_sets import CONFIG_PATH, load_glyph_sets  # noqa: E402
 
 
 class OutputGlyphSetTests(unittest.TestCase):
-    def test_stock_font8_is_selected_only_by_named_retail_font8_surfaces(self) -> None:
+    def test_preserved_stock_sets_are_selected_only_by_named_surfaces(self) -> None:
         catalog = load_glyph_sets()
         handler = catalog.handlers["font8_stock_latin"]
         self.assertEqual(
             (handler.font, handler.reference_set),
             ("font8", "stock_latin"),
         )
+        kanji = catalog.handlers["kanji_stock_latin"]
+        self.assertEqual((kanji.font, kanji.reference_set), ("kanji", "stock_latin"))
         self.assertEqual(
             set(catalog.surface_handlers),
             {
@@ -51,9 +54,38 @@ class OutputGlyphSetTests(unittest.TestCase):
                 "level_up.remaining_points",
                 "level_up.accept_action",
                 "level_up.confirm_choice",
+                "name_entry.grid_row",
             },
         )
         self.assertIsNone(catalog.for_surface("event.dialogue"))
+
+    def test_name_grid_selects_preserved_kanji_latin(self) -> None:
+        handler = load_glyph_sets().for_surface("name_entry.grid_row")
+        self.assertIsNotNone(handler)
+        self.assertEqual(
+            (handler.font, handler.reference_set),
+            ("kanji", "stock_latin"),
+        )
+        definition = json.loads(
+            (FONT_CONFIG_ROOT / "kanji.json").read_text(encoding="utf-8")
+        )
+        published = {
+            character
+            for entry in definition["reference_sets"]["stock_latin"]
+            for character in entry.get("aliases", entry["characters"])
+        }
+        profile = load_asset("ui/profile_entry.json")
+        for key in (
+            "grid_upper_row_1",
+            "grid_upper_row_2",
+            "grid_lower_row_1",
+            "grid_lower_row_2",
+            "grid_symbol_row_1",
+            "grid_symbol_row_2",
+        ):
+            with self.subTest(row=key):
+                translation = profile.entries[key].fields["text"].translation
+                self.assertLessEqual(set(translation), published)
 
     def test_existing_go_field_declares_the_stock_command_surface(self) -> None:
         commands = load_asset("battle/commands.json")

@@ -40,7 +40,7 @@
       "text": {
         "reference": "{first_name} {last_name}",
         "translation": "{first_name} {last_name}",
-        "note": "Complete Saturn populated-slot name template. The renderer supplies the two saved name values and takes the conditional separator from this asset. The current Saturn compiler requires {first_name} before {last_name}; supporting reversed order remains renderer debt."
+        "note": "Complete Saturn populated-slot display template. The renderer supplies the two saved name values and takes the conditional separator from this asset. This field owns only visible slot layout; player_profile.json#full_name_storage.text separately owns the shared NAME_FW_FULL storage row. The current slot renderer requires {first_name} before {last_name}; supporting reversed display order remains renderer debt."
       }
     },
     "slot_level": {

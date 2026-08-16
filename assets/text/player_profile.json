@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "full_name_storage": {
+      "placeholders": {
+        "first_name": "player_name",
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "{last_name} {first_name}",
+        "translation": "{first_name} {last_name}",
+        "note": "Canonical format for the shared NAME_FW_FULL storage row. Profile Entry and SAVE/LOAD rebuild it from the two live fields using this authored order and one literal separator. Either placeholder order is valid when both consumers support it. Visible save-slot layout remains independently owned by save_load.json#slot_name.text."
+      }
+    }
+  }
+}

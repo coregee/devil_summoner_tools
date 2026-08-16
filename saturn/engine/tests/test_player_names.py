@@ -18,6 +18,7 @@ from engine.shared.player_names import (  # noqa: E402
     byte_to_advance_table,
     byte_to_font16_table,
     byte_to_font8_table,
+    parse_full_name_template,
 )
 
 
@@ -53,6 +54,30 @@ class PlayerNameContractTests(unittest.TestCase):
         self.assertEqual((wide[0], widths[0], narrow[0]), (4, 0, 0))
         self.assertEqual((wide[ord("A")], widths[ord("A")], narrow[ord("A")]), (9, 8, 13))
         self.assertEqual((wide[0x80], widths[0x80], narrow[0x80]), (7, 6, 11))
+
+    def test_full_name_template_preserves_authored_order_and_literal(self) -> None:
+        normal = parse_full_name_template("{first_name} {last_name}")
+        reverse = parse_full_name_template("{last_name}/{first_name}")
+
+        self.assertEqual(normal.field_order, ("first_name", "last_name"))
+        self.assertEqual(normal.separator, " ")
+        self.assertEqual(reverse.field_order, ("last_name", "first_name"))
+        self.assertEqual(reverse.separator, "/")
+
+    def test_full_name_template_is_token_aware_and_can_forbid_reverse(self) -> None:
+        escaped = parse_full_name_template("{first_name}{{{last_name}")
+        self.assertEqual(escaped.separator, "{")
+        with self.assertRaisesRegex(ValueError, "first_name then last_name"):
+            parse_full_name_template(
+                "{last_name} {first_name}", allow_reverse=False
+            )
+        for invalid in (
+            "{first_name}{last_name}",
+            "{first_name}{codename}{last_name}",
+            "prefix {first_name} {last_name}",
+        ):
+            with self.subTest(value=invalid), self.assertRaises(ValueError):
+                parse_full_name_template(invalid)
 
 
 if __name__ == "__main__":

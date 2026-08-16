@@ -339,7 +339,7 @@
       "path": "NAME.BIN",
       "size": 155208,
       "stock_sha256": "cafacc4bfdd8dd1d3255d48814829e564926f6425576b82de45b54310ebcb538",
-      "owned_sha256": "3248530294cfabfa74d033e6cdbad04b6907569af49e9d9cd640685a093c8772"
+      "owned_sha256": "78a06fc0b769e49106d0a80a6bd2fb4807350b51ee9141a602985965945b0875"
     },
     "normcom_bin": {
       "path": "NORMCOM.BIN",
@@ -3982,6 +3982,32 @@
             "fork_of": "prompt_city"
           },
           {
+            "name": "city_suffix",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20be2",
+                    "units": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ward_suffix",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20bea",
+                    "units": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "prompt_confirm",
             "locations": [
               {
@@ -4049,6 +4075,7 @@
           },
           {
             "name": "tab_upper",
+            "require_identical_bytes": true,
             "locations": [
               {
                 "spans": [
@@ -4057,16 +4084,55 @@
                     "units": 4
                   }
                 ]
+              },
+              {
+                "spans": [
+                  {
+                    "offset": "0x20bf2",
+                    "units": 4
+                  }
+                ]
               }
             ]
           },
           {
             "name": "tab_lower",
+            "require_identical_bytes": true,
             "locations": [
               {
                 "spans": [
                   {
                     "offset": "0x20c68",
+                    "units": 4
+                  }
+                ]
+              },
+              {
+                "spans": [
+                  {
+                    "offset": "0x20bfe",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tab_katakana",
+            "require_identical_bytes": true,
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x20c90",
+                    "units": 4
+                  }
+                ]
+              },
+              {
+                "spans": [
+                  {
+                    "offset": "0x20c0a",
                     "units": 4
                   }
                 ]

@@ -22,12 +22,15 @@ from engine.core.sh2 import AssemblyError, assemble
 from engine.shared.font8 import font8_tables
 from engine.shared.player_names import (
     CODENAME_BYTES,
+    FullNameTemplate,
     NAME_FW,
     NAME_FW_FULL,
+    PLAYER_NAME_FIELD_BY_KEY,
     PLAYER_NAME_FIELDS,
     byte_to_advance_table,
     byte_to_font16_table,
     byte_to_font8_table,
+    parse_full_name_template,
 )
 from rom.util.catalog import load_catalog, validate_source
 from rom.util.workflows import read_source_files
@@ -57,10 +60,12 @@ FONT8_METRICS_PATH = FONT_ROOT / "FONT8_metrics.json"
 SAVE_LOAD_ASSET_PATH = ASSET_ROOT / "save_load.json"
 LOCATION_ASSET_PATH = ASSET_ROOT / "locations.json"
 LOCATION_FORMAT_ASSET_PATH = ASSET_ROOT / "field" / "location_formats.json"
+PLAYER_PROFILE_ASSET_PATH = ASSET_ROOT / "player_profile.json"
 ASSET_FILES = (
     SAVE_LOAD_ASSET_PATH,
     LOCATION_ASSET_PATH,
     LOCATION_FORMAT_ASSET_PATH,
+    PLAYER_PROFILE_ASSET_PATH,
 )
 
 SAVE_LOAD_BINDING_PATH = BINDING_ROOT / "save_load.json"
@@ -72,6 +77,7 @@ CAPACITY_CORPUS_PATH = CORPUS_ROOT / "game" / "addressed" / "load_capacity.json"
 DUNGEON_CORPUS_PATH = (
     CORPUS_ROOT / "game" / "addressed" / "dungeon_locations.json"
 )
+PLAYER_NAMES_PATH = ENGINE_ROOT / "shared" / "player_names.py"
 CORPUS_FILES = (
     SAVE_CORPUS_PATH,
     LOAD_CORPUS_PATH,
@@ -89,6 +95,7 @@ RUNTIME_INPUT_FILES = (
     LOCATION_BINDING_PATH,
     LOCATION_FORMAT_BINDING_PATH,
     *CORPUS_FILES,
+    PLAYER_NAMES_PATH,
 )
 
 SAVE_TARGET = "SAVE.BIN"
@@ -409,6 +416,7 @@ def _validate_surfaces() -> None:
         "save_load.capacity": ("font16", 1, "glyph_cells", 3, 3),
         "save_load.heading": (None, 1, None, None, None),
         "save_load.storage_selector": (None, 1, "pixels", 104, None),
+        "profile.full_name": ("font16", 1, "glyph_cells", 17, 17),
     }
     surfaces = load_surfaces()
     for name, geometry in expected.items():
@@ -444,6 +452,36 @@ def _slot_templates(metrics: Font16Layout) -> SlotTemplates:
     if date is None or time is None:
         raise ValueError("SAVE/LOAD date and time templates need one separator")
     return SlotTemplates(name.group(1), level.group(1), date.group(1), time.group(1))
+
+
+def _full_name_storage_text() -> str:
+    catalog = load_asset("player_profile.json")
+    try:
+        value = catalog.entries["full_name_storage"].fields["text"].translation
+    except KeyError as error:
+        raise ValueError(
+            "player_profile.json is missing full_name_storage.text"
+        ) from error
+    if not value:
+        raise ValueError("player_profile.json full_name_storage.text is untranslated")
+    return value
+
+
+def _full_name_storage_template(metrics: Font16Layout) -> FullNameTemplate:
+    template = parse_full_name_template(_full_name_storage_text())
+    try:
+        encoded = _encoded(template.separator, metrics, "full-name separator")
+    except ValueError as error:
+        raise ValueError(
+            "player_profile.full_name_storage needs one supported FONT16 "
+            "separator glyph"
+        ) from error
+    if len(encoded) != 1:
+        raise ValueError(
+            "player_profile.full_name_storage needs one supported FONT16 "
+            "separator glyph"
+        )
+    return template
 
 
 def _location_text() -> tuple[tuple[str, ...], tuple[str, ...]]:
@@ -645,10 +683,16 @@ def _assembly_text(paths: tuple[Path, ...]) -> str:
 
 
 def _assembled(
-    paths: tuple[Path, ...], address: int, symbols: Mapping[str, int], suffix: str = ""
+    paths: tuple[Path, ...],
+    address: int,
+    symbols: Mapping[str, int],
+    suffix: str = "",
+    *,
+    source_text: str | None = None,
 ):
     try:
-        result = assemble(_assembly_text(paths) + suffix, address, dict(symbols))
+        source = _assembly_text(paths) if source_text is None else source_text
+        result = assemble(source + suffix, address, dict(symbols))
     except AssemblyError as error:
         names = ", ".join(path.name for path in paths)
         raise ValueError(f"SAVE/LOAD assembly failed in {names}: {error}") from error
@@ -723,7 +767,7 @@ def _load_rebuild_component(
     recipe: PatchRecipe,
     metrics16: Font16Layout,
     metrics8: FontMetrics,
-    separator: str,
+    full_name: FullNameTemplate,
 ) -> RuntimeComponent:
     if recipe.address != LOAD_REBUILD_ADDRESS or len(recipe.expected) != LOAD_REBUILD_CAPACITY:
         raise ValueError("LOAD name-rebuild cave contract changed")
@@ -732,6 +776,28 @@ def _load_rebuild_component(
     _widths8, codes8 = font8_tables(metrics8)
     atlas = byte_to_font16_table(metrics16.codes)
     font8 = byte_to_font8_table(codes8)
+    first_field, second_field = (
+        PLAYER_NAME_FIELD_BY_KEY[name] for name in full_name.field_order
+    )
+    second_offset = second_field.runtime_address - NAME_FW
+    if not -128 <= second_offset <= 127:
+        raise ValueError("LOAD full-name second field is outside immediate range")
+    separator_glyph = _encoded(
+        full_name.separator, metrics16, "full-name separator"
+    )[0]
+    source_text = _assembly_text(recipe.replacement.sources)
+    rendered = {
+        "@FULL_NAME_FIRST@": (
+            "NAME_FW"
+            if first_field.runtime_address == NAME_FW
+            else "FULL_NAME_FIRST"
+        ),
+        "@FULL_NAME_SECOND_OFFSET@": str(second_offset),
+    }
+    for token, value in rendered.items():
+        if source_text.count(token) != 1:
+            raise ValueError(f"LOAD name rebuild source needs one {token} token")
+        source_text = source_text.replace(token, value)
     suffix = (
         "\n.align 4\nstage_ptrs:\n    .long "
         + ", ".join(f"{row.stage_address:#010x}" for row in PLAYER_NAME_FIELDS)
@@ -749,9 +815,12 @@ def _load_rebuild_component(
             "NAME_FW_FULL": NAME_FW_FULL,
             "CODENAME": CODENAME_BYTES,
             "prep_names": 0x0602AB5C,
-            "name_separator_glyph": metrics16.codes[separator],
+            "FULL_NAME_FIRST": first_field.runtime_address,
+            "FULL_NAME_SECOND_OFFSET": second_offset,
+            "name_separator_glyph": separator_glyph,
         },
         suffix,
+        source_text=source_text,
     )
     return _padded_component(
         result.data,
@@ -1032,6 +1101,7 @@ def _runtime_for_target(
     metrics16: Font16Layout,
     metrics8: FontMetrics,
     templates: SlotTemplates,
+    full_name: FullNameTemplate,
     dungeon_names: tuple[str, ...],
     special_locations: tuple[str, ...],
 ) -> TargetRuntime:
@@ -1042,7 +1112,7 @@ def _runtime_for_target(
     components: dict[str, RuntimeComponent] = {}
     if target == LOAD_TARGET:
         components["name_rebuild"] = _load_rebuild_component(
-            recipes["load_name_rebuild"], metrics16, metrics8, templates.name_separator
+            recipes["load_name_rebuild"], metrics16, metrics8, full_name
         )
     stem = target.lower().removesuffix(".bin")
     components["name_strip"] = _name_strip_component(
@@ -1194,6 +1264,7 @@ def build_save_load_ui(
     metrics16 = _font16_layout()
     metrics8 = FontMetrics.load(FONT8_METRICS_PATH)
     templates = _slot_templates(metrics16)
+    full_name = _full_name_storage_template(metrics16)
     dungeon_names, special_locations = _location_text()
     runtimes = {
         target: _runtime_for_target(
@@ -1203,6 +1274,7 @@ def build_save_load_ui(
             metrics16,
             metrics8,
             templates,
+            full_name,
             dungeon_names,
             special_locations,
         )

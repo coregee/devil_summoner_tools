@@ -4,6 +4,10 @@
     "font8_stock_latin": {
       "font": "font8",
       "reference_set": "stock_latin"
+    },
+    "kanji_stock_latin": {
+      "font": "kanji",
+      "reference_set": "stock_latin"
     }
   },
   "surface_handlers": {
@@ -31,6 +35,7 @@
     "level_up.title": "font8_stock_latin",
     "level_up.remaining_points": "font8_stock_latin",
     "level_up.accept_action": "font8_stock_latin",
-    "level_up.confirm_choice": "font8_stock_latin"
+    "level_up.confirm_choice": "font8_stock_latin",
+    "name_entry.grid_row": "kanji_stock_latin"
   }
 }

@@ -32,6 +32,20 @@
         "translation": "Ward?"
       }
     },
+    "city_suffix": {
+      "text": {
+        "reference": "市",
+        "translation": " City",
+        "note": "Stock NAME.BIN places this suffix immediately after the three-cell city value. The English entry workflow currently retires that stock summary scaffold, but the visible source remains independently editable."
+      }
+    },
+    "ward_suffix": {
+      "text": {
+        "reference": "区",
+        "translation": " Ward",
+        "note": "Stock NAME.BIN places this suffix immediately after the three-cell ward value. The English entry workflow currently retires that stock summary scaffold, but the visible source remains independently editable."
+      }
+    },
     "prompt_confirm": {
       "text": {
         "reference": "これでいいですか？",
@@ -72,6 +86,13 @@
       "text": {
         "reference": "ひらがな",
         "translation": "lower"
+      }
+    },
+    "tab_katakana": {
+      "text": {
+        "reference": "カタカナ",
+        "translation": "KATAKANA",
+        "note": "Stock third input tab, present in both the combined tab row and its selected-label template. The English runtime retires this tab in favour of SYMBOL but keeps it inventoried as physical evidence."
       }
     },
     "tab_symbol": {
@@ -120,42 +141,42 @@
       "text": {
         "reference": "ABCDEFGHIJKLM",
         "translation": "ABCDEFGHIJKLM",
-        "note": "English replacement input-grid content."
+        "note": "English replacement input-grid content rendered with the preserved KANJI.FON stock_latin reference set."
       }
     },
     "grid_upper_row_2": {
       "text": {
         "reference": "NOPQRSTUVWXYZ",
         "translation": "NOPQRSTUVWXYZ",
-        "note": "English replacement input-grid content."
+        "note": "English replacement input-grid content rendered with the preserved KANJI.FON stock_latin reference set."
       }
     },
     "grid_lower_row_1": {
       "text": {
         "reference": "abcdefghijklm",
         "translation": "abcdefghijklm",
-        "note": "English replacement input-grid content."
+        "note": "English replacement input-grid content rendered with the preserved KANJI.FON stock_latin reference set."
       }
     },
     "grid_lower_row_2": {
       "text": {
         "reference": "nopqrstuvwxyz",
         "translation": "nopqrstuvwxyz",
-        "note": "English replacement input-grid content."
+        "note": "English replacement input-grid content rendered with the preserved KANJI.FON stock_latin reference set."
       }
     },
     "grid_symbol_row_1": {
       "text": {
         "reference": "0123456789.,'",
         "translation": "0123456789.,'",
-        "note": "English replacement input-grid content."
+        "note": "English replacement input-grid content rendered with the preserved KANJI.FON stock_latin reference set."
       }
     },
     "grid_symbol_row_2": {
       "text": {
         "reference": "-!?/&: ",
         "translation": "-!?/&: ",
-        "note": "The final space is a selectable blank input cell."
+        "note": "The final space is an explicitly authored selectable blank rendered with the preserved KANJI.FON blank cell. Cleared cells elsewhere in the navigable 19-column grid are layout-owned blanks and also commit a blank; they are not hidden runtime prose."
       }
     },
     "default_city": {
@@ -172,11 +193,25 @@
         "note": "Initial ward value."
       }
     },
+    "grid_move_left": {
+      "text": {
+        "reference": "←",
+        "translation": "←",
+        "note": "Semantic label for the stock compound input-grid action. Its raster is font-owned; the English replacement grid does not currently display this action."
+      }
+    },
+    "grid_move_right": {
+      "text": {
+        "reference": "→",
+        "translation": "→",
+        "note": "Semantic label for the stock compound input-grid action. Its raster is font-owned; the English replacement grid does not currently display this action."
+      }
+    },
     "grid_end": {
       "text": {
-        "reference": "END",
+        "reference": "終了",
         "translation": "END",
-        "note": "Visible command glyph used to accept the current input field."
+        "note": "Semantic label for the command that accepts the current field. Stock renders a two-cell FONT16 image compound ({input_end_prefix} at 0x074E and {input_end_symbol} at 0x074F); it is not ordinary KANJI grid text. The mature English controller hardcodes display cell 0x01F7, so editing this label requires an engine/font-aware replacement rather than silently changing the raster."
       }
     },
     "dds_net_welcome": {

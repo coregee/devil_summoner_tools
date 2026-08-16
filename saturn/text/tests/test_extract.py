@@ -31,7 +31,7 @@ class GameInventoryTests(unittest.TestCase):
 
     def test_complete_inventory_snapshot(self) -> None:
         self.assertEqual(self.batch.source_count, 61)
-        self.assertEqual(self.batch.record_count, 16_129)
+        self.assertEqual(self.batch.record_count, 16_132)
         self.assertEqual(len(self.batch.rendered), 61)
         self.assertEqual(
             {path.as_posix() for path in self.batch.composed_files},
@@ -48,7 +48,7 @@ class GameInventoryTests(unittest.TestCase):
         self.assertEqual(
             sum("/eve/" in f"/{path.as_posix()}" for path in self.batch.rendered), 21
         )
-        self.assertEqual(sum(row_id.startswith("game.") for row_id in ids), 16_129)
+        self.assertEqual(sum(row_id.startswith("game.") for row_id in ids), 16_132)
 
         eve_rows = [
             row
@@ -57,7 +57,7 @@ class GameInventoryTests(unittest.TestCase):
             for row in json.loads(rendered)
         ]
         self.assertEqual(len(eve_rows), 12_711)
-        self.assertEqual(len(rows) - len(eve_rows), 3_418)
+        self.assertEqual(len(rows) - len(eve_rows), 3_421)
         self.assertGreater(sum("{GLYPH:" in row["reference"] for row in rows), 0)
         self.assertGreater(sum("{OP:" in row["reference"] for row in rows), 0)
         self.assertFalse(any("{OP:8002}" in row["reference"] for row in rows))
@@ -132,7 +132,7 @@ class GameInventoryTests(unittest.TestCase):
         name_rows = json.loads(
             self.batch.rendered[PurePosixPath("addressed/name_static.json")]
         )
-        self.assertEqual(len(name_rows), 19)
+        self.assertEqual(len(name_rows), 22)
         fork_ids = {row["id"] for row in name_rows if row["id"].count(".") == 3}
         self.assertEqual(
             fork_ids,

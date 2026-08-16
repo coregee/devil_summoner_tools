@@ -2,7 +2,7 @@
   "file": "KANJI.FON",
   "targets": ["KANJI.FON", "MMP/KANJI.FON"],
   "sha256": "0bdfd6640b7ea3e792de2575cafcfae29aa86af12f0925f458b88ad533744dd7",
-  "description": "Unmapped",
+  "description": "Stock Japanese name-entry font. The original Latin letters, digits, punctuation, and selectable blank used by NAME.BIN remain untouched and are published as the named stock_latin reference set. NAME action controls are compound FONT16 image glyphs rather than KANJI text.",
   "format": {
     "width": 16,
     "height": 16,
@@ -13,7 +13,79 @@
   "atlas": {
     "columns": 64,
     "scale": 1,
-    "groups": {}
+    "groups": {
+      "name_entry_latin": [
+        {
+          "start": 203,
+          "characters": "0123456789"
+        },
+        {
+          "start": 220,
+          "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        {
+          "start": 252,
+          "characters": "abcdefghijklmnopqrstuvwxyz"
+        }
+      ],
+      "name_entry_symbols": [
+        {
+          "3": ",",
+          "4": ".",
+          "5": "・",
+          "6": ":",
+          "7": ";",
+          "8": "?",
+          "9": "!",
+          "17": " ",
+          "29": "-",
+          "30": "/",
+          "38": "'",
+          "84": "&"
+        }
+      ]
+    }
   },
-  "repack": {}
+  "reference_sets": {
+    "stock_latin": [
+      {
+        "start": 3,
+        "characters": ",.・:;?!"
+      },
+      {
+        "start": 17,
+        "characters": " "
+      },
+      {
+        "start": 29,
+        "characters": "-/"
+      },
+      {
+        "start": 38,
+        "characters": "'"
+      },
+      {
+        "start": 84,
+        "characters": "&"
+      },
+      {
+        "start": 203,
+        "characters": "0123456789"
+      },
+      {
+        "start": 220,
+        "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+      },
+      {
+        "start": 252,
+        "characters": "abcdefghijklmnopqrstuvwxyz"
+      }
+    ]
+  },
+  "repack": {
+    "metrics": {
+      "code_limit": 278,
+      "measurement": "ink"
+    }
+  }
 }

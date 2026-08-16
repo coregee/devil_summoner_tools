@@ -34,6 +34,42 @@ the root of `asm/`; a surface owns a local variant only when its calling
 convention or rendering semantics genuinely differ. A package-level regression
 rejects version-1 configs and executable `replacement` blobs.
 
+## Profile Entry
+
+`profile_entry.ui` builds the complete `NAME.BIN` entry controller from the
+verified retail target, human-facing Profile Entry assets, and the generated
+FONT16, FONT8, and KANJI atlases. It never reads the mutable extracted-disc
+mirror. The generated font binaries and metrics are runtime ABI inputs: the
+controller derives its saved-byte conversion tables, proportional advances,
+and input-grid codes from those checked artifacts.
+
+The 6,840-byte retired stock region is one checked arena rather than a frozen
+data/code split. Asset-derived tables grow from its start, the readable
+controller is aligned and assembled immediately afterward, and every hook is
+linked to the resulting labels. The build rejects only when their combined size
+crosses the proved arena boundary. The default build uses 5,112 bytes and leaves
+1,728 bytes for safe data growth. Prompts, choices, tabs, occupations, grid
+rows, and defaults come from `assets/text/ui/profile_entry.json`; the shared
+NAME_FW_FULL order and separator come from
+`assets/text/player_profile.json#full_name_storage`. Grid raster cells remain
+owned by the generated KANJI/FONT16 fonts.
+
+The output hash is
+`bde4ea3bd7edd9bd9427aeaed68637bb597163a6c1db73e3d720222d5ebf8397`.
+It intentionally differs from the trusted mature build at one word: the
+confirmation template now ends with the renderer's required `0x8000` sentinel
+instead of falling through into the following stock table. The default build
+installs this terminal `NAME.BIN` immediately after the generated fonts.
+
+Run:
+
+```powershell
+python saturn/font/repack.py all
+python saturn/engine/build.py profile_entry.ui
+python saturn/engine/build.py profile_entry.ui --check
+python saturn/engine/build.py profile_entry.ui --install
+```
+
 ## Event dialogue
 
 `config/event_dialogue.json` binds the `event.dialogue` surface to two proved
@@ -83,6 +119,32 @@ python -m unittest discover -s saturn/engine/tests -v
 Runtime code owns rendering, decoding, and substitution mechanics only. All
 visible words, punctuation, symbols, and complete templates continue to come
 from `assets/text` through explicit Saturn bindings.
+
+## EVENT player-name adapters
+
+`event.name_inserts` is a separate, text-free composition stage between Fusion
+and Equipment. It adapts the five Profile Entry runtime buffers to the EVENT
+consumers that display first name, last name, codename, city, and ward, including
+the raw menu-name renderer. Its 15 guarded recipes contain seven linked
+pointers, four terminator edits, three small readable hook sites, and one
+96-byte assembly cave (86 bytes used).
+
+The stage reads the shared player-name ABI from `shared/player_names.py` and
+publishes `generated/game/event_name_inserts/EVENT.BIN` plus its own manifest.
+It does not import the Profile Entry surface or read mutable installed outputs.
+On the checked Fusion base its hash is
+`587683072bb86e91085d752c0ea7399182667a417c2618754888e687e93679f6`.
+This intermediate is deliberately not installed: Equipment consumes it and
+publishes the terminal EVENT image, so Fusion, name adapters, and Equipment each
+retain an independent `--check` boundary.
+
+Run:
+
+```powershell
+python saturn/engine/build.py fusion.menu
+python saturn/engine/build.py event.name_inserts
+python saturn/engine/build.py event.name_inserts --check
+```
 
 ## Battle negotiation
 
@@ -173,9 +235,10 @@ python saturn/build.py default
 
 `equipment.ui` is one player-facing surface with two binary consumers: the COMP
 equipment panel in `NORMCOM.BIN` and the shop equipment/comparison panel in
-`EVENT.BIN`. It composes on the checked COMP and Fusion intermediates, then
-publishes the terminal `generated/game/EVENT.BIN` and the checked
-`generated/game/equipment_ui/NORMCOM.BIN` intermediate consumed by status.
+`EVENT.BIN`. It composes on the checked COMP and `event.name_inserts`
+intermediates, then publishes the terminal `generated/game/EVENT.BIN` and the
+checked `generated/game/equipment_ui/NORMCOM.BIN` intermediate consumed by
+status.
 
 `ui/equipment.json` owns Auto/Unequip; the shared stat abbreviations remain in
 `ui/status.json`; `facilities/shop.json` owns `Inv.`; and character and item
@@ -186,9 +249,11 @@ in readable surface-owned sources plus shared item-name, jump, and FONT8
 renderer sources; `config/equipment_ui.json` contains no executable replacement
 hex.
 
-Both outputs are byte-identical to the same mature Saturn patch groups. Cave
-ownership is expanded to the proved zero-filled boundaries so edited labels can
-grow safely, while pixel and glyph limits fail before any binary is written.
+The terminal EVENT hash is
+`1ffb315598c74bf0b0cb1a85b68097ba10ed050fdb6b1795ef00f2c8485f695e`
+after composing the name adapters and mature equipment groups. Cave ownership
+is expanded to the proved zero-filled boundaries so edited labels can grow
+safely, while pixel and glyph limits fail before any binary is written.
 
 Run:
 
@@ -397,8 +462,13 @@ retail SAVE, LOAD, and MAZE targets directly from the verified game disc; no
 engine input comes from the mutable extracted-disc mirror.
 
 All visible runtime wording comes from the Save/Load, location, and complete
-floor-format assets through explicit bindings. The engine sources contain only
-rendering, name reconstruction, and layout behavior. The engine-only outputs are
+floor-format assets through explicit bindings. The visible slot line keeps its
+consumer-specific `save_load.json#slot_name` order, while LOAD reconstructs the
+shared NAME_FW_FULL row from
+`player_profile.json#full_name_storage`. Both placeholder orders and one mapped
+FONT16 separator glyph are supported, so Profile Entry and LOAD cannot silently
+disagree after a round trip. The engine sources contain only rendering, name
+reconstruction, and layout behavior. The engine-only outputs are
 `3f97ac9b7f40af32c1314a00311a15079c1a402bc0b3822d2b1d90fbab2c5b57`
 for SAVE and
 `a9a58b2fa5c4c0e96298c6ec2fcdf84999e695d084556f53c33db3c2afad959f`

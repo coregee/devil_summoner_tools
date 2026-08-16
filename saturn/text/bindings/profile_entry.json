@@ -7,6 +7,8 @@
     "game.name_static.o020ba0": "prompt_codename.text",
     "game.name_static.o020bc8.prompt_city": "prompt_city.text",
     "game.name_static.o020bc8.prompt_ward": "prompt_ward.text",
+    "game.name_static.o020be2": "city_suffix.text",
+    "game.name_static.o020bea": "ward_suffix.text",
     "game.name_static.o020c18": "prompt_confirm.text",
     "game.name_static.o020c30": "label_yes.text",
     "game.name_static.o020c38": "label_no.text",
@@ -14,6 +16,7 @@
     "game.name_static.o020cb8.label_occupation": "label_occupation.text",
     "game.name_static.o020c40": "tab_upper.text",
     "game.name_static.o020c68": "tab_lower.text",
+    "game.name_static.o020c90": "tab_katakana.text",
     "game.name_static.o020dd0": "tab_symbol.text",
     "game.name_static.o020ce0": "occupation_employee.text",
     "game.name_static.o020d08": "occupation_student.text",
@@ -38,6 +41,12 @@
     "game.name_static.o020bc8.prompt_ward": [
       "name_entry.prompt"
     ],
+    "game.name_static.o020be2": [
+      "name_entry.address_suffix"
+    ],
+    "game.name_static.o020bea": [
+      "name_entry.address_suffix"
+    ],
     "game.name_static.o020cb8.prompt_occupation": [
       "name_entry.prompt"
     ],
@@ -57,6 +66,9 @@
       "name_entry.tab_label"
     ],
     "game.name_static.o020c68": [
+      "name_entry.tab_label"
+    ],
+    "game.name_static.o020c90": [
       "name_entry.tab_label"
     ],
     "game.name_static.o020dd0": [

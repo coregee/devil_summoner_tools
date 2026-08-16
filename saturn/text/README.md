@@ -378,8 +378,24 @@ lists, two-row drink help, and the shop's 16-pixel `Inv.` label. Unmeasured
 facility widths remain explicit `null`s.
 Profile-entry contracts retain the stock three/three/eight/three/three input
 limits and the English patch's eight-character first, last, codename, city,
-and ward fields. They also record the 13-cell English grid rows, 96-pixel tab
-bands, 128-pixel occupation columns, and 208-pixel confirmation value area.
+and ward fields. `player_profile.json#full_name_storage.text` gives Profile
+Entry and SAVE/LOAD one shared 17-cell `NAME_FW_FULL` format, while the visible
+save-slot name remains an independent consumer template. The storage format
+permits either placeholder order, exactly once each, around one supported
+separator glyph. The two confirmation
+fields still use independent positions. The prompt and
+confirmation question additionally record their proved 168-pixel/11-glyph and
+11-cell limits. English input rows use up to 13 authored cells inside the
+19-column navigable `KANJI.FON` grid and select its named `stock_latin`
+reference set. The two-cell END compound remains a FONT16-owned action rather
+than being misclassified as ordinary grid text. Contracts also retain the
+96-pixel tab bands, 128-pixel occupation columns, eight-cell defaults, and
+208-pixel confirmation value area. The dormant English address suffixes remain
+explicitly width-unknown until a renderer restores that scaffold.
+The storage template has no source binding because retail stores no standalone
+template record; both runtime builders load the authored asset directly and
+include it in their input provenance.
+
 Character names have separate consumer contracts: the shared party-panel pool
 is limited to 80 pixels and the shop information field to 72 pixels, while
 the level-up character texture retains eight Japanese cells and the mature
@@ -430,7 +446,10 @@ labels such as `GO`, `COMP`, `BUY`, `EQUIP`, and `LEVEL UP`. Other FONT8
 consumers continue to use the normal narrow-English mapping. No inline token or
 capitalization heuristic chooses between the two faces. The named stock set also
 publishes the source-preserved hyphen, full stop, and slash cells used by fixed
-numeric fallbacks and punctuation.
+numeric fallbacks and punctuation. `name_entry.grid_row` separately selects
+the `kanji_stock_latin` handler, exposing the preserved KANJI input-grid Latin,
+digit, punctuation, interpunct, and selectable-blank cells without changing
+their bitmaps.
 
 LEVEL_UP extraction now covers all eleven proved visible records: the fixed
 FONT8 `LV`, `HP`, `MP`, `EXP`, `NEXT`, `LEVEL UP`, `LEFT`, `YES`, `NO`, and
@@ -471,9 +490,11 @@ their wording is editable, but they remain recorded consumer-binding debt.
    separate reviewed boss-dialogue asset. SHOPSMP's 763 physical pages bind to
    595 shared authored lines without copying exact PSP text; its seven PSP-only
    tutorial lines remain explicit additions. The six shared character rows
-   likewise need no PSP copies. All 19 physical profile-entry records retain
-   exact semantic bindings, including the three deliberate same-source forks;
-   the opening event workflow adds 18 mature Saturn pages to the same shared
+   likewise need no PSP copies. All 22 physical profile-entry records retain
+   exact semantic bindings, including the three deliberate same-source forks,
+   the address suffixes, and the dormant Katakana tab; byte-identical tab-row
+   copies fan out from one authored field rather than becoming duplicate text.
+   The opening event workflow adds 18 mature Saturn pages to the same shared
    profile-entry asset without creating a platform-specific copy. All four
    general-event banks are also complete: 1,103 text-bearing message
    groups and 2,028 physical pages bind to 1,890 human-facing fields arranged by

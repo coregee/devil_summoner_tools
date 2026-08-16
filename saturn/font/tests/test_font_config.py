@@ -91,5 +91,72 @@ class FontReferenceSetTests(unittest.TestCase):
         self.assertEqual(self.definition.glyphs[198], "／")
 
 
+class KanjiNameEntryReferenceSetTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls) -> None:
+        cls.definition = load_definition(
+            CONFIG_ROOT / "game" / "kanji.json",
+            "game",
+        )
+
+    def test_stock_name_entry_latin_has_explicit_preserved_codes(self) -> None:
+        expected = {
+            **{character: 203 + index for index, character in enumerate("0123456789")},
+            **{
+                character: 220 + index
+                for index, character in enumerate("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+            },
+            **{
+                character: 252 + index
+                for index, character in enumerate("abcdefghijklmnopqrstuvwxyz")
+            },
+            ",": 3,
+            ".": 4,
+            "・": 5,
+            ":": 6,
+            ";": 7,
+            "?": 8,
+            "!": 9,
+            " ": 17,
+            "-": 29,
+            "/": 30,
+            "'": 38,
+            "&": 84,
+        }
+        references = self.definition.reference_sets["stock_latin"]
+        self.assertEqual(len(references), 74)
+        self.assertEqual(references, expected)
+        self.assertFalse(set(references.values()) & set(self.definition.replacements))
+        self.assertEqual(
+            {code: self.definition.glyphs[code] for code in expected.values()},
+            {code: character for character, code in expected.items()},
+        )
+
+    def test_repack_is_binary_identity_and_publishes_named_metrics(self) -> None:
+        source = self.definition.source_path.read_bytes()
+        result = repack_font(source, self.definition)
+        self.assertEqual(result.data, source)
+        self.assertIsNotNone(result.metrics)
+        metrics = json.loads(result.metrics or "")
+        self.assertEqual(metrics["glyphs"], [])
+        self.assertEqual(metrics["missing_codes"], [])
+        self.assertTrue(metrics["complete"])
+        stock = metrics["reference_sets"]["stock_latin"]
+        self.assertEqual(
+            {row["text"]: row["code"] for row in stock},
+            dict(self.definition.reference_sets["stock_latin"]),
+        )
+        self.assertTrue(all(type(row["advance"]) is int for row in stock))
+
+    def test_end_action_compound_is_named_but_not_replaced(self) -> None:
+        font16 = load_definition(CONFIG_ROOT / "game" / "font16.json", "game")
+        self.assertEqual(
+            (font16.glyphs[1870], font16.glyphs[1871]),
+            ("{input_end_prefix}", "{input_end_symbol}"),
+        )
+        self.assertNotIn(1870, font16.replacements)
+        self.assertNotIn(1871, font16.replacements)
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -108,8 +108,13 @@ class SaveLoadBuildIntegrationTests(unittest.TestCase):
             "assets/text/save_load.json",
             "assets/text/locations.json",
             "assets/text/field/location_formats.json",
+            "assets/text/player_profile.json",
         ):
             self.assertIn(expected, self.manifest["asset_inputs"])
+        self.assertIn(
+            "saturn/engine/shared/player_names.py",
+            self.manifest["runtime_inputs"],
+        )
 
     def test_default_build_installs_once_immediately_before_visuals(self) -> None:
         document = json.loads(BUILD_CONFIG_PATH.read_text(encoding="utf-8"))

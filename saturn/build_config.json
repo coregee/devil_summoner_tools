@@ -65,6 +65,22 @@
       ]
     },
     {
+      "id": "build_profile_entry_engine",
+      "description": "Build the complete Profile Entry controller and data from authored text and generated fonts.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["profile_entry.ui"],
+      "check_arguments": ["profile_entry.ui", "--check"]
+    },
+    {
+      "id": "install_profile_entry_engine",
+      "description": "Install the terminal Profile Entry NAME runtime.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["profile_entry.ui", "--install"],
+      "check_arguments": ["profile_entry.ui", "--install", "--check"]
+    },
+    {
       "id": "repack_event_text",
       "description": "Compile the complete general EVENT surface from shared authored assets.",
       "type": "python",
@@ -121,6 +137,14 @@
       "script": "engine/build.py",
       "arguments": ["fusion.menu"],
       "check_arguments": ["fusion.menu", "--check"]
+    },
+    {
+      "id": "build_event_name_inserts_engine",
+      "description": "Compose player-name adapters onto the checked Fusion EVENT intermediate.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["event.name_inserts"],
+      "check_arguments": ["event.name_inserts", "--check"]
     },
     {
       "id": "repack_battle_negotiation_text",
@@ -460,11 +484,14 @@
         "restore_discs",
         "repack_fonts",
         "install_fonts",
+        "build_profile_entry_engine",
+        "install_profile_entry_engine",
         "repack_event_text",
         "install_event_text",
         "repack_shopsmp_text",
         "install_shopsmp_text",
         "build_fusion_engine",
+        "build_event_name_inserts_engine",
         "repack_battle_negotiation_text",
         "install_battle_negotiation_text",
         "repack_battle_ui_text",
