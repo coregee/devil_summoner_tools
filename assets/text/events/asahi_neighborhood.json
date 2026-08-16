@@ -1,0 +1,456 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "asahi_friends_000": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "友人：{first_name}？………じゃねえよな。{n}わりぃ、他人すぎる人違いだった。",
+        "translation": "Friend: {first_name}...? Nah, couldn't be.{n}Sorry. I got you mixed up with a total stranger."
+      }
+    },
+    "asahi_friends_001": {
+      "text": {
+        "reference": "………おっかしいなぁ、{n}全然、似てねえんだよな。",
+        "translation": "...That's weird.{n}You don't look anything alike."
+      }
+    },
+    "asahi_friends_002": {
+      "text": {
+        "reference": "友人：そこの、おっさん！{n}俺のダチの家に何か用か？{n}下手な押売はお断りだぜ。",
+        "translation": "Friend: Hey, old man!{n}What do you want at my buddy's house?{n}We don't want any pushy salesmen."
+      }
+    },
+    "asahi_friends_003": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "友人：あーあ、やりきれねえよな。{n}意識ねえんじゃ、さすがに{n}{first_name}もだめだろうな。",
+        "translation": "Friend: Damn, this is too much.{n}With {first_name} still unconscious,{n}I guess there may be no hope."
+      }
+    },
+    "asahi_friends_004": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "友人：よお、{first_name}じゃないか。{n}まじめに講義に出て単位取ってるかい。",
+        "translation": "Friend: Hey, {first_name}.{n}You going to classes and earning your credits?"
+      }
+    },
+    "asahi_friends_005": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "友人：よお、{first_name}。{n}まじめに働いてるか？仕事は大変か？",
+        "translation": "Friend: Hey, {first_name}.{n}Working hard? Is the job rough?"
+      }
+    },
+    "asahi_friends_006": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "友人：よお、{first_name}。{n}今日はバイトないのか？{n}フリーターって気楽なもんだな。",
+        "translation": "Friend: Hey, {first_name}.{n}No shift today?{n}Must be easy, being a part-timer."
+      }
+    },
+    "asahi_friends_007": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "友人：よお、{first_name}。{n}まだ仕事もバイトもしてないのか？{n}そんなんで大丈夫か？",
+        "translation": "Friend: Hey, {first_name}.{n}Still no job or part-time work?{n}Are you going to be okay?"
+      }
+    },
+    "asahi_friends_008": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "友人：{first_name}くん！？{n}あっ、ごめんなさい。{n}なんでもありません………",
+        "translation": "Friend: {first_name}?!{n}Oh, sorry.{n}It's nothing..."
+      }
+    },
+    "asahi_friends_009": {
+      "text": {
+        "reference": "まさか、そんなわけないわよね。{n}あたし、どうかしてるわ………",
+        "translation": "No. That can't be.{n}What's wrong with me...?"
+      }
+    },
+    "asahi_friends_010": {
+      "text": {
+        "reference": "友人：この辺りも物騒になったわ。{n}帰りが夜遅いときなんて、{n}つい振り向いちゃうの。",
+        "translation": "Friend: This neighborhood has gotten dangerous.{n}Walking home late at night,{n}I can't help looking over my shoulder."
+      }
+    },
+    "asahi_friends_011": {
+      "text": {
+        "reference": "誰もいないとバカみたいだけど、{n}誰かいたらバカじゃすまないもの。",
+        "translation": "I feel silly when nobody is there,{n}but if someone were, it would be no joke."
+      }
+    },
+    "asahi_friends_012": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "友人：{first_name}くんが{n}あんなことになるなんて………{n}これじゃ秦野さんが、かわいそう。",
+        "translation": "Friend: I can't believe{n}this happened to {first_name}...{n}Poor Kumiko Hatano."
+      }
+    },
+    "asahi_friends_013": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "友人：{first_name}くん。{n}ちゃんと講義に出なさいよ。{n}試験前にノート貸せって言ってもダメよ。",
+        "translation": "Friend: {first_name}.{n}You'd better attend your lectures.{n}Don't ask for my notes right before the exams."
+      }
+    },
+    "asahi_friends_014": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "友人：{first_name}くん元気？{n}仕事がんばってね。",
+        "translation": "Friend: How are you, {first_name}?{n}Keep working hard."
+      }
+    },
+    "asahi_friends_015": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "友人：今、何のバイトやってるの？{n}{first_name}くん。",
+        "translation": "Friend: What part-time job are you doing now,{n}{first_name}?"
+      }
+    },
+    "asahi_friends_016": {
+      "text": {
+        "reference": "どうせ働くならバイトじゃなくて{n}ちゃんと就職した方がいいんじゃない？",
+        "translation": "If you're going to work anyway, wouldn't it be better{n}to get a proper job instead of part-time work?"
+      }
+    },
+    "asahi_friends_017": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "友人：{first_name}くん、{n}ちゃんと生活してるの？",
+        "translation": "Friend: {first_name},{n}are you getting by all right?"
+      }
+    },
+    "asahi_friends_018": {
+      "text": {
+        "reference": "いくら不景気だからって、{n}仕事なんか探せばいくらでもあるわよ。",
+        "translation": "Even in a recession,{n}there are plenty of jobs if you look."
+      }
+    },
+    "asahi_neighbors_000": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "近所のおばさん：まったく、{city}市は{n}下水道の工事やってんのかしら。",
+        "translation": "Neighborhood Woman: Honestly, is {city} City{n}doing any work on the sewers?"
+      }
+    },
+    "asahi_neighbors_001": {
+      "text": {
+        "reference": "このごろ水がキタナイのよ。{n}マンホールのフタから臭いは出るし、{n}ほんとに、どうなってるのかしら。",
+        "translation": "The water's been filthy lately.{n}And the stink from the manhole covers...{n}Honestly, what is going on?"
+      }
+    },
+    "asahi_neighbors_002": {
+      "text": {
+        "reference": "近所のおばさん：……あら？{n}ちょっとちょっと、あんた！{n}TVに出てた人じゃないの？",
+        "translation": "Neighborhood Woman: ...Oh?{n}Wait, wait a minute--you!{n}Weren't you on TV?"
+      }
+    },
+    "asahi_neighbors_003": {
+      "text": {
+        "reference": "確か、お昼のニュースに出てたでしょ。{n}再開発の話じゃなくて、{n}あらら、なんの話でしたっけ……",
+        "translation": "I'm sure I saw you on the noon news.{n}It wasn't about redevelopment...{n}Oh dear, what was it again...?"
+      }
+    },
+    "asahi_neighbors_004": {
+      "placeholders": {
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "近所のおばさん：ちょっとちょっと{n}聞いた？{last_name}さん家の息子が、{n}入院したんですって。",
+        "translation": "Neighborhood Woman: Listen, have you heard?{n}The {last_name} family's son{n}has been hospitalized."
+      }
+    },
+    "asahi_neighbors_005": {
+      "text": {
+        "reference": "なんでも工事現場で倒れていたらしくて、{n}原因がわからないんですって。",
+        "translation": "Apparently, he was found collapsed at a construction site,{n}and they don't know why."
+      }
+    },
+    "asahi_neighbors_006": {
+      "text": {
+        "reference": "変なことする子には、{n}見えなかったんだけどねぇ………",
+        "translation": "He never seemed like the type{n}to do anything strange..."
+      }
+    },
+    "asahi_neighbors_007": {
+      "text": {
+        "reference": "近所のおばさん：あーら、おはようさん。{n}学生さんは、お休みが多くていいわねぇ。",
+        "translation": "Neighborhood Woman: Well, good morning.{n}Students get so much time off. Must be nice."
+      }
+    },
+    "asahi_neighbors_008": {
+      "text": {
+        "reference": "近所のおばさん：あーら、おはようさん。{n}景気悪くて大変よねぇ。",
+        "translation": "Neighborhood Woman: Well, good morning.{n}Times are hard with the economy like this."
+      }
+    },
+    "asahi_neighbors_009": {
+      "text": {
+        "reference": "近所の人：自業自得だな。{n}神聖な神社を移そうとするから、{n}バチがあたるんだ。",
+        "translation": "Neighbor: They brought it on themselves.{n}Move a sacred shrine, and divine punishment{n}is what you get."
+      }
+    },
+    "asahi_neighbors_010": {
+      "text": {
+        "reference": "近所の人：いい眼をしてるな………{n}クローバージムの選手か？いや違うな。",
+        "translation": "Neighbor: You've got a good look in your eyes...{n}A Clover Gym fighter? Nah, that's not it."
+      }
+    },
+    "asahi_neighbors_011": {
+      "text": {
+        "reference": "まるで、あんちゃんだけが大事を{n}抱え込んでいるように見えるぜ。{n}………ときには息抜きも必要だぞ。",
+        "translation": "Looks like you're carrying some huge burden{n}all by yourself, kid.{n}...You need to unwind sometimes."
+      }
+    },
+    "asahi_neighbors_012": {
+      "text": {
+        "reference": "近所の人：ふう、最近の若い者は、{n}礼儀ってもんを知らねえらしい。{n}仁義を忘れた奴は、ただのチンピラだ。",
+        "translation": "Neighbor: Sheesh, young people these days{n}don't know the first thing about manners.{n}A guy who forgets honor is just a punk."
+      }
+    },
+    "asahi_neighbors_013": {
+      "text": {
+        "reference": "近所の人：なんだその格好は？{n}まったく最近の若造は{n}チャラチャラしやがって。",
+        "translation": "Neighbor: What's with that outfit?{n}Young punks these days,{n}always dressing so flashy."
+      }
+    },
+    "asahi_neighbors_014": {
+      "text": {
+        "reference": "近所の人：ふう………{n}お兄さんは青春だなぁ。",
+        "translation": "Neighbor: Sigh...{n}You're in the prime of youth."
+      }
+    },
+    "asahi_neighbors_015": {
+      "text": {
+        "reference": "近所の人：ふう、青春時代は{n}とうに昔の話か………{n}お兄さんもすぐだぞ。",
+        "translation": "Neighbor: Sigh... My youth{n}is ancient history now...{n}Yours will be too before you know it."
+      }
+    },
+    "asahi_neighbors_016": {
+      "text": {
+        "reference": "近所の人：ふう、若さか………{n}俺の可能性は、つぶれちまったが{n}お兄さんは、そうなるなよ。",
+        "translation": "Neighbor: Sigh... Youth...{n}My own potential got crushed,{n}but don't let that happen to you."
+      }
+    },
+    "asahi_neighbors_017": {
+      "text": {
+        "reference": "近所の人：ふう………{n}働くって字を忘れちまったなぁ。{n}お兄さんも俺と同じか………",
+        "translation": "Neighbor: Sigh...{n}I've forgotten the very word \"work.\"{n}You're just like me, huh...?"
+      }
+    },
+    "asahi_neighbors_018": {
+      "text": {
+        "reference": "高校の後輩：神社で心霊現象が{n}起きるんですって。{n}見たいけど、怖いから私は行かないの。",
+        "translation": "High School Underclassman: They say{n}paranormal phenomena are happening at the shrine.{n}I'd like to see, but I'm too scared to go."
+      }
+    },
+    "asahi_neighbors_019": {
+      "text": {
+        "reference": "高校の後輩：なにか変なのよ。{n}そこの家のあたりが、気味悪くて。",
+        "translation": "High School Underclassman: Something's strange.{n}The area around that house feels creepy."
+      }
+    },
+    "asahi_neighbors_020": {
+      "text": {
+        "reference": "なにがどうとは、具体的には{n}言えないんだけど………{n}なんとなく悪い予感がするのよ。",
+        "translation": "I can't say exactly what's wrong,{n}but...{n}I've just got a bad feeling."
+      }
+    },
+    "asahi_neighbors_021": {
+      "text": {
+        "reference": "高校の後輩：ビックリしたわー。{n}ガス爆発の音ってすごいのね。",
+        "translation": "High School Underclassman: Wow, that startled me!{n}I never knew a gas explosion was so loud."
+      }
+    },
+    "asahi_neighbors_022": {
+      "text": {
+        "reference": "映画よりも、すごい音したのよ。{n}ホント、ホント、ホント、驚いたわ。",
+        "translation": "It was louder than anything in the movies.{n}Really, really, really--what a shock!"
+      }
+    },
+    "asahi_neighbors_023": {
+      "text": {
+        "reference": "高校の後輩：あの……もしかして、{n}TVドラマに出てる工藤優作さんですか？",
+        "translation": "High School Underclassman: Um... could you be{n}Yusaku Kudo, the TV actor?"
+      }
+    },
+    "asahi_neighbors_024": {
+      "text": {
+        "reference": "え、違うの？{n}だったらよかったのに………",
+        "translation": "Wait, you're not?{n}I wish you were..."
+      }
+    },
+    "asahi_neighbors_025": {
+      "text": {
+        "reference": "高校の後輩：この前、初めて、{n}銃の音を聞いたの。パーンて音だったわ。",
+        "translation": "High School Underclassman: I heard a gunshot{n}for the first time the other day. It went bang."
+      }
+    },
+    "asahi_neighbors_026": {
+      "text": {
+        "reference": "とっても、こわかった。{n}銃犯罪とかって、もう{n}他人事じゃすまないのね。",
+        "translation": "It was so scary.{n}Gun crime isn't something{n}we can treat as somebody else's problem anymore."
+      }
+    },
+    "asahi_neighbors_027": {
+      "text": {
+        "reference": "高校の後輩：すごい服装ですね。{n}今日、氷川神社のお祭りでしたっけ？",
+        "translation": "High School Underclassman: What an outfit!{n}Was the Hikawa Shrine festival today?"
+      }
+    },
+    "asahi_neighbors_028": {
+      "text": {
+        "reference": "そういえばあの神社、移転するのよね。{n}マメを食べにくるハトが可愛かったのに{n}残念だわ。",
+        "translation": "Come to think of it, they're moving that shrine.{n}The pigeons that came to eat beans were so cute.{n}It's a shame."
+      }
+    },
+    "asahi_neighbors_029": {
+      "placeholders": {
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "高校の後輩：{last_name}先輩！{n}大学生の生活って、どんなものですか？{n}今度、受験の相談にのって下さいね。",
+        "translation": "High School Underclassman: {last_name}!{n}What's college life like?{n}Give me some entrance-exam advice sometime!"
+      }
+    },
+    "asahi_neighbors_030": {
+      "placeholders": {
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "高校の後輩：{last_name}先輩！{n}お仕事の調子どうです？{n}たまには後輩の顔でも見に来て下さいね。",
+        "translation": "High School Underclassman: {last_name}!{n}How's work going?{n}Come visit me once in a while!"
+      }
+    },
+    "asahi_neighbors_031": {
+      "placeholders": {
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "高校の後輩：{last_name}先輩！{n}今、何のバイトやってるんですか？{n}たまには後輩の顔でも見に来て下さいよ。",
+        "translation": "High School Underclassman: {last_name}!{n}What part-time job are you doing now?{n}Come visit me once in a while!"
+      }
+    },
+    "asahi_neighbors_032": {
+      "placeholders": {
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "高校の後輩：{last_name}先輩！{n}ぶらぶらしてるのも、いいですけど、{n}たまには後輩の顔でも見に来て下さいよ。",
+        "translation": "High School Underclassman: {last_name}!{n}Loafing around is fine, but{n}come visit me once in a while!"
+      }
+    },
+    "asahi_neighbors_033": {
+      "text": {
+        "reference": "近所の人：神社で工事なんかして、{n}スサノオのタタリが怖くないんかね。{n}俺、結構、信心深いんだよ。",
+        "translation": "Neighbor: Doing construction at a shrine...{n}Aren't they afraid of Susano-o's curse?{n}I'm pretty religious myself."
+      }
+    },
+    "asahi_neighbors_034": {
+      "text": {
+        "reference": "近所の人：おい！おい！{n}この先、なぜか行けないんだ。",
+        "translation": "Neighbor: Hey! Hey!{n}For some reason, I can't go any farther."
+      }
+    },
+    "asahi_neighbors_035": {
+      "text": {
+        "reference": "なんかヤバイぜ、なんかがよ！！",
+        "translation": "Something's bad here. I don't know what!!"
+      }
+    },
+    "asahi_neighbors_036": {
+      "text": {
+        "reference": "近所の人：すげぇ、爆発だったぜ。{n}俺の目の前で、ドカーンだよ。{n}危なく死ぬところだった、マジで！！",
+        "translation": "Neighbor: That explosion was insane.{n}It went boom right in front of me.{n}I seriously almost died!!"
+      }
+    },
+    "asahi_neighbors_037": {
+      "text": {
+        "reference": "近所の人：あんた、いい服着てるな。{n}イカスよ、イカス。マジで。",
+        "translation": "Neighbor: Those are some nice clothes.{n}Cool. Really cool. Seriously."
+      }
+    },
+    "asahi_neighbors_038": {
+      "text": {
+        "reference": "近所の人：なんだかよぉ、{n}いきなりアパート値上げだぜ。{n}こいつも、なんたら議員のせいか？",
+        "translation": "Neighbor: Man,{n}they suddenly jacked up my rent.{n}Is this some whats-his-name councillor's fault too?"
+      }
+    },
+    "asahi_neighbors_039": {
+      "text": {
+        "reference": "近所の人：おい、顔色すっげえ悪いぞ。{n}大丈夫かよ、おめえ。",
+        "translation": "Neighbor: Hey, you look pale as hell.{n}You all right?"
+      }
+    },
+    "asahi_neighbors_040": {
+      "text": {
+        "reference": "まるで死体が歩いてるみてえだぜ。{n}マジで。",
+        "translation": "You look like a corpse walking around.{n}Seriously."
+      }
+    },
+    "asahi_neighbors_041": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "近所の人：おっと、{first_name}じゃん。{n}明日のパン教、文化人類学だっけ？{n}フラ語はたしか休講だよな。",
+        "translation": "Neighbor: Hey, {first_name}.{n}Tomorrow's gen-ed is anthropology, right?{n}And French is canceled, I think."
+      }
+    },
+    "asahi_neighbors_042": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "近所の人：おっと、{first_name}じゃん。{n}家近いわりには、ひさしぶりだよな。{n}今度ヒマをみつけて飲みにいこうぜ。",
+        "translation": "Neighbor: Hey, {first_name}.{n}We live so close, but it's been ages.{n}Let's find time to grab a drink."
+      }
+    },
+    "asahi_neighbors_043": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "近所の人：おっとっと、{first_name}じゃん。{n}明日のバイト遅れるなよ。{n}なんてったって1日{yen_symbol}8000だぜ。",
+        "translation": "Neighbor: Hey, {first_name}.{n}Don't be late for your shift tomorrow.{n}It pays {yen_symbol}8,000 a day, after all."
+      }
+    },
+    "asahi_neighbors_044": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "近所の人：おっとっと、{first_name}じゃん。{n}やっぱり、まだ生きてたのかよ。{n}噂じゃ日本海に沈んでるぜ、お前。",
+        "translation": "Neighbor: Well, look who it is, {first_name}.{n}So you're still alive after all.{n}Word is you're at the bottom of the Sea of Japan."
+      }
+    }
+  }
+}

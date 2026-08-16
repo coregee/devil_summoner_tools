@@ -230,6 +230,45 @@
         "reference": "＞手術室。誰もいない。",
         "translation": "> Operating Room{n}No one is here."
       }
+    },
+    "rinkai_hospital_bystanders_000": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "医者：{first_name}君のご両親には{n}わるいが正直なところ、お手上げだ。{n}現代医学では、どうすることもできん。",
+        "translation": "Doctor: I feel terrible for {first_name}'s parents,{n}but honestly, we're at a loss.{n}Modern medicine has nothing more to offer."
+      }
+    },
+    "rinkai_hospital_bystanders_001": {
+      "text": {
+        "reference": "しかし、たとえ、さじがあっても我々は、{n}それを投げるわけには、いかない。",
+        "translation": "But even with a spoon to throw,{n}we can't simply give up."
+      }
+    },
+    "rinkai_hospital_bystanders_002": {
+      "text": {
+        "reference": "患者：人間の体って{n}すごく不思議だよな。",
+        "translation": "Patient: The human body{n}is an incredible mystery, isn't it?"
+      }
+    },
+    "rinkai_hospital_bystanders_003": {
+      "text": {
+        "reference": "俺は見てのとおり傷だらけだけど、{n}あの入院患者よりも{n}ある意味、軽傷だもんな。",
+        "translation": "I'm covered in wounds, as you can see,{n}but in a way, I'm still less seriously hurt{n}than that other patient."
+      }
+    },
+    "rinkai_hospital_bystanders_004": {
+      "text": {
+        "reference": "研修生：意識がない状態って{n}死んでいるの？それとも生きているの？{n}答を出すのが、こわい。",
+        "translation": "Medical Intern: When someone is unconscious,{n}are they dead, or are they alive?{n}I'm afraid to answer that."
+      }
+    },
+    "rinkai_hospital_bystanders_005": {
+      "text": {
+        "reference": "医学は魔法じゃない。{n}そんなことは、わかってるわ。{n}だけど神様に祈りたくなるのよ。",
+        "translation": "Medicine isn't magic.{n}I know that.{n}But it still makes me want to pray to God."
+      }
     }
   }
 }

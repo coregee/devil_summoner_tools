@@ -298,6 +298,42 @@
         "reference": "レイ：さあ、雲雀ヶ丘に行くわよ。",
         "translation": "Rei: Come on. We're going to Hibarigaoka."
       }
+    },
+    "mount_kasagi_caretaker_000": {
+      "text": {
+        "reference": "おじさん：どうやら、{n}無断で山小屋を使っている{n}人がいるみたいなんだがね。",
+        "translation": "Mister: It seems{n}someone has been using the mountain cabin{n}without permission."
+      }
+    },
+    "mount_kasagi_caretaker_001": {
+      "text": {
+        "reference": "そういうの困るんだよねぇ、{n}管理してる私が後から怒られるんだよ。{n}ま、君にグチをこぼしても仕方ないがね。",
+        "translation": "That puts me in a bind.{n}I'm the caretaker, so I'll get blamed later.{n}Well, there's no point complaining to you."
+      }
+    },
+    "mount_kasagi_caretaker_002": {
+      "text": {
+        "reference": "おじさん：この道は、{n}笠置山の登山道に、つながっている。{n}山道は険しいから十分注意しなさい。",
+        "translation": "Mister: This road leads{n}to the Mount Kasagi hiking trail.{n}The path is steep, so be very careful."
+      }
+    },
+    "mount_kasagi_caretaker_003": {
+      "text": {
+        "reference": "おじさん：そこのかさぎ荘で、{n}一もんちゃく、あったそうだ。{n}いや、それともまだ続いているんかな。",
+        "translation": "Mister: There was some sort of trouble{n}at Kasagi Manor over there.{n}Or perhaps it's still going on."
+      }
+    },
+    "mount_kasagi_caretaker_004": {
+      "text": {
+        "reference": "なんと化物が出たんだと！{n}まったく、化物が人を襲うだなんて、{n}子供だって信じない話さ。",
+        "translation": "They say a monster appeared!{n}A monster attacking people--{n}even a child wouldn't believe such a tale."
+      }
+    },
+    "mount_kasagi_caretaker_005": {
+      "text": {
+        "reference": "おそらく、ごろつき共が{n}仮装行列のような格好でもして{n}騒いでるんだろうよ。",
+        "translation": "It's probably just a band of thugs{n}dressed up like some costume parade{n}and causing a commotion."
+      }
     }
   }
 }

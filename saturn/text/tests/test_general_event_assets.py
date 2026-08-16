@@ -176,8 +176,8 @@ class MigratedGeneralEventBankTests(unittest.TestCase):
             for binding in cls.bindings
         }
 
-    def uses_for_bank(self, bank: int) -> dict[str, str]:
-        prefix = f"game.evfile_{bank}."
+    def uses_for_source(self, source: str) -> dict[str, str]:
+        prefix = f"game.{source}."
         uses = {}
         for binding in self.bindings:
             for physical_id, asset_ref in binding.records.items():
@@ -186,6 +186,9 @@ class MigratedGeneralEventBankTests(unittest.TestCase):
                 self.assertNotIn(physical_id, uses)
                 uses[physical_id] = f"{binding.asset.as_posix()}#{asset_ref}"
         return uses
+
+    def uses_for_bank(self, bank: int) -> dict[str, str]:
+        return self.uses_for_source(f"evfile_{bank}")
 
     def test_second_bank_has_complete_semantic_ownership(self) -> None:
         physical_rows = json.loads(
@@ -336,6 +339,89 @@ class MigratedGeneralEventBankTests(unittest.TestCase):
             if group.startswith("game.evfile_2.")
         ]
         self.assertEqual(len(expected_groups), 73)
+        self.assertEqual(len(groups), len(set(groups)))
+        self.assertEqual(set(groups), expected_groups)
+
+    def test_main_bank_has_complete_semantic_ownership(self) -> None:
+        physical_rows = json.loads(
+            (TEXT_ROOT / "corpus" / "game" / "eve" / "mesfile.json")
+            .read_text(encoding="utf-8")
+        )
+        expected = {row["id"] for row in physical_rows}
+        uses = self.uses_for_source("mesfile")
+        self.assertEqual(len(expected), 506)
+        self.assertEqual(set(uses), expected)
+        self.assertEqual(len(set(uses.values())), 490)
+        self.assertEqual(len(uses) - len(set(uses.values())), 16)
+
+        earlier_uses = {
+            **self.uses_for_bank(0),
+            **self.uses_for_bank(1),
+            **self.uses_for_bank(2),
+        }
+        self.assertFalse(set(earlier_uses.values()) & set(uses.values()))
+        self.assertEqual(
+            len(set(earlier_uses.values()) | set(uses.values())), 1872
+        )
+
+    def test_main_bank_retains_all_mature_text_and_notes(self) -> None:
+        uses = self.uses_for_source("mesfile")
+        notes = set()
+        for qualified_ref in set(uses.values()):
+            asset_path, asset_ref = qualified_ref.split("#", 1)
+            field = self.assets[asset_path].field(asset_ref)
+            self.assertTrue(field.reference)
+            self.assertTrue(field.translation)
+            self.assertFalse(field.reviewed)
+            if field.note is not None:
+                notes.add(field.note)
+        self.assertEqual(len(notes), 3)
+
+        for filename in (
+            "asahi_neighborhood.json",
+            "bioenergy_association.json",
+            "hibarigaoka.json",
+            "hotel_neighborhood.json",
+            "house_of_fortune.json",
+        ):
+            self.assertIn(f"events/{filename}", self.assets)
+
+    def test_main_bank_yen_and_visible_debug_text_are_authored(self) -> None:
+        uses = self.uses_for_source("mesfile")
+        yen_path, yen_ref = uses["game.mesfile.m0077.p00"].split("#", 1)
+        yen = self.assets[yen_path].field(yen_ref)
+        self.assertIn("{yen_symbol}", yen.reference)
+        self.assertIn("{yen_symbol}", yen.translation)
+
+        debug_uses = {
+            uses["game.mesfile.m0145.p00"],
+            uses["game.mesfile.m0148.p00"],
+            uses["game.mesfile.m0150.p00"],
+        }
+        self.assertEqual(len(debug_uses), 2)
+        for qualified_ref in debug_uses:
+            asset_path, asset_ref = qualified_ref.split("#", 1)
+            debug = self.assets[asset_path].field(asset_ref)
+            self.assertIn("If you see this message, it is a bug.", debug.translation)
+
+    def test_every_main_bank_message_has_one_curated_scene(self) -> None:
+        rows = json.loads(
+            (TEXT_ROOT / "corpus" / "game" / "eve" / "mesfile.json")
+            .read_text(encoding="utf-8")
+        )
+        expected_groups = {row["id"].rsplit(".p", 1)[0] for row in rows}
+        scenes = json.loads(
+            (TEXT_ROOT / "config" / "event_scenes.json").read_text(
+                encoding="utf-8"
+            )
+        )["scenes"]
+        groups = [
+            group
+            for scene in scenes.values()
+            for group in scene["physical_groups"]
+            if group.startswith("game.mesfile.")
+        ]
+        self.assertEqual(len(expected_groups), 238)
         self.assertEqual(len(groups), len(set(groups)))
         self.assertEqual(set(groups), expected_groups)
 

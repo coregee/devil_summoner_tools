@@ -286,6 +286,466 @@
         "reference": "ただし、いっしょに付いてきてるからって{n}今のあんたを、完全に認めたわけじゃない。{n}勘違いしないことね。",
         "translation": "But just because I'm coming with you{n}doesn't mean I fully accept you as you are.{n}Don't misunderstand me."
       }
+    },
+    "kitayama_university_students_000": {
+      "text": {
+        "reference": "学生：やっと騒ぎもおさまったか。{n}まったく化物やら悪魔やらが、{n}出たとか出ないとか、あーアホらし。",
+        "translation": "Student: Things finally calmed down.{n}All this talk of monsters and demons{n}showing up... What a load of crap."
+      }
+    },
+    "kitayama_university_students_001": {
+      "text": {
+        "reference": "しっかし学食ぐらいなら、{n}入れてくれても、よかったんじゃねえか。{n}ビンボな俺にはこたえたぜ。",
+        "translation": "They could've at least let us into{n}the cafeteria. That really hurt{n}a broke guy like me."
+      }
+    },
+    "kitayama_university_students_002": {
+      "text": {
+        "reference": "学生：ちいっす。{n}あれっ、二人でどこに行くのかなぁ。{n}もしかして君たちノリノリ？",
+        "translation": "Student: Hey there.{n}So where are you two headed together?{n}Are you guys, like, getting it on?"
+      }
+    },
+    "kitayama_university_students_003": {
+      "text": {
+        "reference": "久美子：ノリノリ？{n}意味がわからないわ。{n}それは日本語なのかしら？",
+        "translation": "Kumiko: \"Getting it on\"?{n}I don't understand.{n}Is that even English?"
+      }
+    },
+    "kitayama_university_students_004": {
+      "text": {
+        "reference": "学生：いや、だから、{n}つまり男と女がですね………{n}えーと何でもないっす。",
+        "translation": "Student: Well, you know...{n}When a man and a woman are...{n}Uh, never mind."
+      }
+    },
+    "kitayama_university_students_005": {
+      "placeholders": {
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "………{last_name}、何笑ってんだよ。{n}お前だって一般ピープルなんだからな。{n}いつまでも、のぼせてんなよ。",
+        "translation": "...{last_name}, what are you laughing at?{n}You're just a regular joe too, you know.{n}Quit getting carried away."
+      }
+    },
+    "kitayama_university_students_006": {
+      "text": {
+        "reference": "学生：ちいっす。久美子お嬢さんは、{n}今日も研究室に行くのかな、{n}と思って声かけたら誰？その男。",
+        "translation": "Student: Hey. I thought Miss Kumiko{n}was off to the lab again, so I called out...{n}Wait, who's this guy?"
+      }
+    },
+    "kitayama_university_students_007": {
+      "text": {
+        "reference": "あのー………{n}秦野さんのお兄さんですか？",
+        "translation": "Um...{n}Are you Miss Hatano's older brother?"
+      }
+    },
+    "kitayama_university_students_008": {
+      "text": {
+        "reference": "久美子：違います。",
+        "translation": "Kumiko: No."
+      }
+    },
+    "kitayama_university_students_009": {
+      "text": {
+        "reference": "学生：ま、まさか彼氏？",
+        "translation": "Student: D-Don't tell me he's your boyfriend?"
+      }
+    },
+    "kitayama_university_students_010": {
+      "text": {
+        "reference": "学生：だと思った。{n}秦野さんとは、つり合わないもんなぁ。",
+        "translation": "Student: I knew it.{n}Miss Hatano is way out of your league."
+      }
+    },
+    "kitayama_university_students_011": {
+      "text": {
+        "reference": "残念だったね、おにいさん。{n}はっはっはっ。",
+        "translation": "Too bad, mister.{n}Ha ha ha!"
+      }
+    },
+    "kitayama_university_students_012": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "久美子：なんて失礼な人！{n}………ごめんね、{first_name}君。{n}自分だけ、かばうようなこと言って……",
+        "translation": "Kumiko: What a rude person!{n}...I'm sorry, {first_name}.{n}I only said that to defend myself..."
+      }
+    },
+    "kitayama_university_students_013": {
+      "text": {
+        "reference": "学生：なんだ、お前。{n}俺に何か用かよ………",
+        "translation": "Student: Who the hell are you?{n}You want something from me...?"
+      }
+    },
+    "kitayama_university_students_014": {
+      "text": {
+        "reference": "警官：おい、大学付近は立入禁止だ。{n}すぐに、ここから立ち去りなさい。",
+        "translation": "Police Officer: The area around the university{n}is off-limits. Leave immediately."
+      }
+    },
+    "kitayama_university_students_015": {
+      "text": {
+        "reference": "学生：え？チケット売り場？{n}チケットガイドは矢来区だぜ。",
+        "translation": "Student: Huh? The ticket office?{n}That's in Yarai Ward."
+      }
+    },
+    "kitayama_university_students_016": {
+      "text": {
+        "reference": "女子大生：失敗したわ。{n}しばらく学校サボってたら、{n}話題に乗り遅れちゃったじゃない！",
+        "translation": "Female Student: I really messed up.{n}I skipped school for a while,{n}and now I'm behind on all the gossip!"
+      }
+    },
+    "kitayama_university_students_017": {
+      "text": {
+        "reference": "ねえねえ、いったい大学で何があったの？{n}教授は見つかったの？もーくやしいなぁ。{n}すぐに、友達から情報収集しなきゃ。",
+        "translation": "So what happened at the university?{n}Did they find the professor? Oh, this is maddening!{n}I need to pump my friends for information."
+      }
+    },
+    "kitayama_university_students_018": {
+      "placeholders": {
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "女子大生：ハーイ、久美子、{last_name}君。{n}吾妻教授のゼミどう？あの先生{n}変人だって噂、本当なんでしょ。",
+        "translation": "Female Student: Hi, Kumiko, {last_name}.{n}How's Professor Azuma's seminar?{n}The rumors that he's a weirdo are true, right?"
+      }
+    },
+    "kitayama_university_students_019": {
+      "text": {
+        "reference": "ああいうタイプは{n}ほんと何するかわからないから、{n}気をつけなさいよー。",
+        "translation": "You never know{n}what that type might do,{n}so be careful."
+      }
+    },
+    "kitayama_university_students_020": {
+      "text": {
+        "reference": "そうそう、わたしも今日{n}初めて知ったんだけど、裏口なら{n}東側から回って行った方が早いわよ。",
+        "translation": "Oh, right. I only learned this today,{n}but the quickest way to the back gate{n}is to go around the east side."
+      }
+    },
+    "kitayama_university_students_021": {
+      "text": {
+        "reference": "女子大生：ハーイ、久美子。{n}ゼミの研究発表、次は久美子の番でしょ。{n}大変よねー。",
+        "translation": "Female Student: Hi, Kumiko.{n}You're giving the next seminar presentation, right?{n}That's rough."
+      }
+    },
+    "kitayama_university_students_022": {
+      "text": {
+        "reference": "吾妻教授って、変わり者だって{n}聞いてたけど、ほんとに変人なんだもの。{n}講義はまあ面白いからいいけど。",
+        "translation": "I'd heard Professor Azuma was eccentric,{n}but he really is a complete oddball.{n}His lectures are interesting, at least."
+      }
+    },
+    "kitayama_university_students_023": {
+      "text": {
+        "reference": "そうそう、裏口って、{n}東側から回って行った方が{n}近道だったのね。今日、初めて知ったわ。",
+        "translation": "Oh, right. I only learned today{n}that going around the east side{n}is a shortcut to the back gate."
+      }
+    },
+    "kitayama_university_students_024": {
+      "text": {
+        "reference": "女子大生：あの、何か御用ですか？{n}断っておきますけど、この辺りは{n}警官の巡回区域になっています。",
+        "translation": "Female Student: Do you need something?{n}Just so you know, police officers{n}are patrolling this area."
+      }
+    },
+    "kitayama_university_students_025": {
+      "text": {
+        "reference": "つまり私が大声を出せば{n}警官がすぐにかけつけてくれる、{n}ということです。",
+        "translation": "In other words, if I scream,{n}the police will come running{n}right away."
+      }
+    },
+    "kitayama_university_students_026": {
+      "text": {
+        "reference": "いたずらしようなんて{n}思わない方が賢明ですよ。",
+        "translation": "You'd be wise not to try{n}anything funny."
+      }
+    },
+    "kitayama_university_students_027": {
+      "text": {
+        "reference": "警官：キミ！そこのキミ！{n}ここは警戒区域に指定されているんでね、{n}うろちょろ、されると困るんだよ。",
+        "translation": "Police Officer: You there!{n}This is a restricted area,{n}so I can't have you wandering around."
+      }
+    },
+    "kitayama_university_students_028": {
+      "placeholders": {
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "女子大生：{last_name}君、どうしたの？{n}ははーん、久美子のおつかいでしょ。",
+        "translation": "Female Student: What is it, {last_name}?{n}Aha, you're running an errand for Kumiko."
+      }
+    },
+    "kitayama_university_students_029": {
+      "text": {
+        "reference": "ごくろう様ねぇ。{n}チケットガイドは矢来区にあるわよ。",
+        "translation": "How diligent of you.{n}The ticket office is in Yarai Ward."
+      }
+    },
+    "kitayama_university_students_030": {
+      "text": {
+        "reference": "女子大生：あなた、誰？{n}ああ、裏門のところで{n}久美子と一緒にいた人………",
+        "translation": "Female Student: Who are you?{n}Oh, you're the man I saw with Kumiko{n}by the back gate..."
+      }
+    },
+    "kitayama_university_students_031": {
+      "text": {
+        "reference": "ふーん、チケットを取りに行くんだ。{n}チケットガイドは矢来区にあるわよ。",
+        "translation": "Oh, you're going to pick up some tickets.{n}The ticket office is in Yarai Ward."
+      }
+    },
+    "kitayama_university_students_032": {
+      "text": {
+        "reference": "白衣の女学生：いったい、警察は{n}何のために大学を封鎖してたのかしら？",
+        "translation": "Student in Lab Coat: Why on earth{n}did the police seal off the university?"
+      }
+    },
+    "kitayama_university_students_033": {
+      "text": {
+        "reference": "噂では、吾妻教授の研究が事件のカギを{n}握っているみたいだけど、あの{n}「日本古代文明論」にどんな謎が……？",
+        "translation": "Rumor says Professor Azuma's research holds{n}the key to the case, but what mystery could lurk{n}in \"Theories on Ancient Japanese Civilization\"...?"
+      }
+    },
+    "kitayama_university_students_034": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "研究室には、まだデータが残っているし、{n}教授はここ{city}市にこだわっていたから、{n}そう遠くには行かないはず………",
+        "translation": "The lab still has his data, and Professor Azuma{n}was fixated on {city} City, so he can't have gone{n}too far away..."
+      }
+    },
+    "kitayama_university_students_035": {
+      "text": {
+        "reference": "やっぱり、本人に聞かないと、{n}事件の真相はわからないわね。",
+        "translation": "We'll never learn the truth of this case{n}unless we ask the professor himself."
+      }
+    },
+    "kitayama_university_students_036": {
+      "text": {
+        "reference": "もっとも、教授が{n}まだ生きていればの話だけど………",
+        "translation": "Assuming, of course,{n}that he's still alive..."
+      }
+    },
+    "kitayama_university_students_037": {
+      "placeholders": {
+        "last_name": "player_name"
+      },
+      "text": {
+        "reference": "白衣の女学生：こんにちは秦野さん。{n}ふーん、{last_name}君も一緒なんだ。{n}もしかして、つきあってるとか？",
+        "translation": "Student in Lab Coat: Hello, Miss Hatano.{n}Oh, {last_name} is with you too.{n}Are you two dating, by any chance?"
+      }
+    },
+    "kitayama_university_students_038": {
+      "placeholders": {
+        "first_name": "player_name"
+      },
+      "text": {
+        "reference": "久美子：そ、そんなんじゃ、ありません！{n}{first_name}君は、ただの友達で{n}先輩が考えているような関係では……",
+        "translation": "Kumiko: N-No, it's nothing like that!{n}{first_name} is just a friend.{n}It isn't the kind of relationship you think..."
+      }
+    },
+    "kitayama_university_students_039": {
+      "text": {
+        "reference": "白衣の女学生：はいはい。{n}その話は、また今度{n}じっくり聞かせてもらうわ。",
+        "translation": "Student in Lab Coat: All right, all right.{n}You can tell me the whole story{n}some other time."
+      }
+    },
+    "kitayama_university_students_040": {
+      "text": {
+        "reference": "それよりもゼミの発表会、来週でしょ。{n}頑張ってね、期待してるから。",
+        "translation": "More importantly, your seminar presentation{n}is next week. Do your best. I'm counting on you."
+      }
+    },
+    "kitayama_university_students_041": {
+      "text": {
+        "reference": "白衣の女学生：こんにちは秦野さん。{n}今日は彼とデート？",
+        "translation": "Student in Lab Coat: Hello, Miss Hatano.{n}Are you on a date with your boyfriend today?"
+      }
+    },
+    "kitayama_university_students_042": {
+      "text": {
+        "reference": "久美子：そ、そんなんじゃ、ありません！{n}この人は、ただの友達なんです。{n}先輩が考えているような関係では……",
+        "translation": "Kumiko: N-No, it's nothing like that!{n}He's just a friend.{n}It isn't the kind of relationship you think..."
+      }
+    },
+    "kitayama_university_students_043": {
+      "text": {
+        "reference": "それよりも、{n}ゼミの発表会、来週でしょ。{n}頑張ってね、期待してるから。",
+        "translation": "More importantly,{n}your seminar presentation is next week.{n}Do your best. I'm counting on you."
+      }
+    },
+    "kitayama_university_students_044": {
+      "text": {
+        "reference": "白衣の女学生：わたくし、{n}あなたが以前、吾妻教授と{n}お話なさってるところを見ました………",
+        "translation": "Student in Lab Coat: I saw you{n}speaking with Professor Azuma{n}once before..."
+      }
+    },
+    "kitayama_university_students_045": {
+      "text": {
+        "reference": "白衣の女学生：なんなの？{n}この警官の多さ普通じゃないわ。{n}いったい何があったのかしら………",
+        "translation": "Student in Lab Coat: What's going on?{n}This many police officers isn't normal.{n}What on earth happened...?"
+      }
+    },
+    "kitayama_university_students_046": {
+      "text": {
+        "reference": "白衣の女学生：え、矢東ビル？{n}ごめんなさい、私も知らないの。{n}多分、矢来区だと思うわ。",
+        "translation": "Student in Lab Coat: The Yatou Building?{n}Sorry, I don't know where it is either.{n}It's probably in Yarai Ward."
+      }
+    },
+    "kitayama_university_incident_000": {
+      "text": {
+        "reference": "教授：ななな、なんということだ。{n}恐ろしい、恐ろしいよキミ。{n}私の想像を超えた生物がいるんだよ！",
+        "translation": "Professor: W-W-What is this?!{n}Terrifying, simply terrifying!{n}There are creatures beyond my imagination!"
+      }
+    },
+    "kitayama_university_incident_001": {
+      "text": {
+        "reference": "自然のルールに従っていないんだ。{n}何かが、こ、壊れてるんだよ。{n}誰か400字以内で説明したまえ！！",
+        "translation": "They don't obey the laws of nature.{n}S-Something has broken.{n}Someone explain it in 400 characters or fewer!!"
+      }
+    },
+    "kitayama_university_incident_002": {
+      "text": {
+        "reference": "学生：な、なんなのよー。{n}イヤー、来ないで来ないでったら！{n}あなたが誰かは知らないけどイヤー！",
+        "translation": "Student: W-What is going on?!{n}No! Don't come any closer!{n}I don't know who you are, but stay away!"
+      }
+    },
+    "kitayama_university_incident_003": {
+      "text": {
+        "reference": "わたしは化物になんか、{n}なりたくないのよ～～～！！",
+        "translation": "I don't want to turn into{n}a monsteeeer!!"
+      }
+    },
+    "kitayama_university_incident_004": {
+      "text": {
+        "reference": "学生：黒ずくめの神父が、{n}教授の部屋に入って行くのを見たよ。{n}何か探してるようだったよ、うん。",
+        "translation": "Student: I saw a priest dressed all in black{n}go into the professor's office.{n}He looked like he was searching for something."
+      }
+    },
+    "kitayama_university_incident_005": {
+      "text": {
+        "reference": "……なんて冷静になってる場合じゃねえ！{n}あんたも早く逃げないと、怪物どもに{n}喰われちまうぞゥ、アヒャ～～～！",
+        "translation": "...This is no time to be calm!{n}You'd better run too, or those monsters{n}will eat you alive! Ah-hyaaa!"
+      }
+    },
+    "kitayama_university_incident_006": {
+      "text": {
+        "reference": "教授：きみきみ、{n}ここは本当に大学なのかね？",
+        "translation": "Professor: Excuse me, young man.{n}Is this truly a university?"
+      }
+    },
+    "kitayama_university_incident_007": {
+      "text": {
+        "reference": "自然にかこまれて{n}学ぶというのも悪くはないが、{n}お祭り騒ぎは、よろしくないな。",
+        "translation": "Studying surrounded by nature{n}is all well and good,{n}but all this uproar is unacceptable."
+      }
+    },
+    "kitayama_university_incident_008": {
+      "text": {
+        "reference": "警察の世話にまでなって……{n}まあ済んだことだから、かまわんがね。",
+        "translation": "It even required police intervention...{n}Well, it's over now, so never mind."
+      }
+    },
+    "kitayama_university_incident_009": {
+      "text": {
+        "reference": "教授：あー、きみきみ。{n}第7研究室に行きたいのだが、{n}どう行けばいいのかな？",
+        "translation": "Professor: Excuse me, young man.{n}I'd like to get to Lab 7.{n}Could you tell me the way?"
+      }
+    },
+    "kitayama_university_incident_010": {
+      "text": {
+        "reference": "……ふむふむ。{n}どうもありがとう、助かったよ。",
+        "translation": "...Mm-hmm, I see.{n}Thank you very much. That's a great help."
+      }
+    },
+    "kitayama_university_incident_011": {
+      "text": {
+        "reference": "え？知らない？{n}なんだ、君はここの生徒ではないのか。{n}そうかそうか、そうなのか。",
+        "translation": "What, you don't know?{n}Then you aren't a student here.{n}I see, I see. So that's it."
+      }
+    },
+    "kitayama_university_incident_012": {
+      "text": {
+        "reference": "学生：ここは大学だよな………{n}俺なんか変なもんでも食ったかな？",
+        "translation": "Student: This is a university, right...?{n}Did I eat something weird or what?"
+      }
+    },
+    "kitayama_university_incident_013": {
+      "text": {
+        "reference": "悪魔が襲ってきて壁はウネウネ………{n}幻覚にしては、みょうにリアルだった。",
+        "translation": "Demons attacked, the walls wriggled...{n}For a hallucination, it felt awfully real."
+      }
+    },
+    "kitayama_university_incident_014": {
+      "text": {
+        "reference": "これから、合宿で使う山小屋の手配を{n}しなきゃならないのに、オエっ………{n}まいったな、まだ気持ち悪いぜ。",
+        "translation": "Now I've gotta book a mountain cabin{n}for our training camp--urp...{n}Damn, I still feel sick."
+      }
+    },
+    "kitayama_university_incident_015": {
+      "text": {
+        "reference": "学生：騒ぎのおかげで、休講になったのは{n}ラッキイだけど、それで合宿まで{n}中止になったのは、いたいっすよ。",
+        "translation": "Student: Getting classes canceled{n}because of the commotion was lucky,{n}but losing our training camp really hurts."
+      }
+    },
+    "kitayama_university_incident_016": {
+      "text": {
+        "reference": "助教授：やっと静かになったね。{n}まったく吾妻教授にも困ったもんだ。{n}この騒動も教授のせいなんだろう？",
+        "translation": "Assistant Professor: Finally, some peace.{n}Professor Azuma is nothing but trouble.{n}This whole mess was his fault, wasn't it?"
+      }
+    },
+    "kitayama_university_incident_017": {
+      "text": {
+        "reference": "あの人、ホント変わっててね。{n}この前も、とつぜん登山靴とか{n}寝袋とか買い込んできて、",
+        "translation": "The man is truly eccentric.{n}Just the other day, he suddenly bought{n}hiking boots and a sleeping bag,"
+      }
+    },
+    "kitayama_university_incident_018": {
+      "text": {
+        "reference": "それで講義もスッポかして、{n}そのまま行方不明なんだから。{n}まったく、どこへ行ったのやら……",
+        "translation": "then skipped his lectures{n}and vanished without a trace.{n}Honestly, where could he have gone...?"
+      }
+    },
+    "kitayama_university_incident_019": {
+      "text": {
+        "reference": "助教授：吾妻教授はどこに行ったんだ？{n}発表会もあるのに、私だけでゼミ生の{n}面倒をみろというのか………",
+        "translation": "Assistant Professor: Where is Professor Azuma?{n}We have a presentation coming up, and I'm meant{n}to manage his seminar students alone...?"
+      }
+    },
+    "kitayama_university_incident_020": {
+      "text": {
+        "reference": "まったく、自分勝手な人ですよ。{n}まぁ、学者らしいといえば、{n}学者らしいんですけどね。",
+        "translation": "He really is a selfish man.{n}Then again, I suppose that does make him{n}rather typical of a scholar."
+      }
+    },
+    "kitayama_university_incident_021": {
+      "text": {
+        "reference": "学生：いったい、なんだったの？{n}あれって妖怪？お化け？{n}もう、うまく説明できないわ。",
+        "translation": "Student: What was that, anyway?{n}A monster? A ghost?{n}I don't even know how to explain it."
+      }
+    },
+    "kitayama_university_incident_022": {
+      "text": {
+        "reference": "そんなことよりゼミの発表会！{n}まったくもう、吾妻教授は{n}どこに行っちゃったのかしら？",
+        "translation": "More importantly, our seminar presentation!{n}Honestly, where could Professor Azuma{n}have gone?"
+      }
+    },
+    "kitayama_university_incident_023": {
+      "text": {
+        "reference": "研究室の連絡ボードには、{n}「置きガサはダメだよ秦野さん」って{n}書いてあるけど、いったい何のことかしら？",
+        "translation": "The lab noticeboard says,{n}\"No oki-gasa, Miss Hatano.\"{n}What on earth does that mean?",
+        "note": "置きガサ (oki-gasa, 'a spare umbrella') reverses the elements of 笠置 (Kasagi), making the odd notice a clue to Mount Kasagi."
+      }
+    },
+    "kitayama_university_incident_024": {
+      "text": {
+        "reference": "学生：休講の代わりにレポートを{n}出すなんて、まるで小学校みたい。",
+        "translation": "Student: Assigning a report in place of class{n}makes this feel like elementary school."
+      }
+    },
+    "kitayama_university_incident_025": {
+      "text": {
+        "reference": "秦野さんがいてくれたら、こんなの{n}チョチョイのチョイなんだけど、{n}彼女と連絡とれないのよ、どうしよう………",
+        "translation": "With Miss Hatano here, this would be{n}a piece of cake, but I can't reach her.{n}What am I going to do...?"
+      }
     }
   }
 }

@@ -115,6 +115,604 @@
         "reference": "ロッカーを開けたが、何も無かった。",
         "translation": "Opened the locker, but it was empty."
       }
+    },
+    "yarai_ginza_landmarks_000": {
+      "text": {
+        "reference": "女の子：アーケードの中って、{n}見た目より広いのよ。{n}初めての人は、まず迷うわね。",
+        "translation": "Girl: Ginza Arcade is bigger inside{n}than it looks. First-time visitors{n}almost always get lost."
+      }
+    },
+    "yarai_ginza_landmarks_001": {
+      "text": {
+        "reference": "夫：アーケード街には、{n}何でもありますからね。{n}ほんと便利ですよ。",
+        "translation": "Husband: Ginza Arcade has everything{n}you could need. It's very convenient."
+      }
+    },
+    "yarai_ginza_landmarks_002": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "妻：私たちにとっては、{n}中央区よりも矢来区の方が、{n}{city}市の中心地ですわ。",
+        "translation": "Wife: To us, Yarai Ward feels more like{n}the heart of {city} than Chuo Ward does."
+      }
+    },
+    "yarai_ginza_landmarks_003": {
+      "text": {
+        "reference": "男：東亜TVと電波塔を{n}結んでいる連絡通路を見るたびに{n}思うことなんですが………",
+        "translation": "Man: Every time I see the walkway connecting{n}Toa TV and the Radio Tower,{n}I find myself wondering..."
+      }
+    },
+    "yarai_ginza_landmarks_004": {
+      "text": {
+        "reference": "どうやってあんなの、{n}つくったんでしょうか？",
+        "translation": "How did they ever build{n}something like that?"
+      }
+    },
+    "yarai_ginza_landmarks_005": {
+      "text": {
+        "reference": "高いところが苦手な私には、{n}すごく不思議ですよ、ほんとに。",
+        "translation": "As someone who's afraid of heights,{n}it truly amazes me."
+      }
+    },
+    "yarai_ginza_landmarks_006": {
+      "text": {
+        "reference": "男：あのTV局には出るそうだよ。{n}え、何が出るかって？",
+        "translation": "Man: They say something appears{n}at that TV station. What, you ask?"
+      }
+    },
+    "yarai_ginza_landmarks_007": {
+      "text": {
+        "reference": "そりゃ決まってるでしょ、{n}出ると言ったら、幽霊ですよ。",
+        "translation": "Isn't it obvious? When people say something{n}appears, they mean a ghost."
+      }
+    },
+    "yarai_ginza_landmarks_008": {
+      "text": {
+        "reference": "噂では、バンド内のいざこざから自殺した{n}キーボーディストの霊だそうですよ。",
+        "translation": "Rumor says it's the ghost of a keyboardist{n}who killed himself after a feud in his band."
+      }
+    },
+    "yarai_ginza_crowds_000": {
+      "text": {
+        "reference": "右の女：走って走って{n}風になる瞬間が、もう最高！",
+        "translation": "Woman on Right: Nothing beats that moment{n}when you skate and skate until you become the wind!"
+      }
+    },
+    "yarai_ginza_crowds_001": {
+      "text": {
+        "reference": "左の女：欲を言えばスケートを{n}仕事に活かせれば、いいのになぁ。",
+        "translation": "Woman on Left: If I could ask for anything,{n}I'd love to make skating my career."
+      }
+    },
+    "yarai_ginza_crowds_002": {
+      "text": {
+        "reference": "姉：走って走って{n}風になる瞬間が、もう最高！",
+        "translation": "Older Sister: Nothing beats that moment{n}when you skate and skate until you become the wind!"
+      }
+    },
+    "yarai_ginza_crowds_003": {
+      "text": {
+        "reference": "妹：欲を言えばスケートを{n}仕事に活かせれば、いいのになぁ。",
+        "translation": "Younger Sister: If I could ask for anything,{n}I'd love to make skating my career."
+      }
+    },
+    "yarai_ginza_crowds_004": {
+      "text": {
+        "reference": "姉：いいでしょ、このニーパッド。{n}これサバイバルショップの{n}セルフ・ディフェンスで買ったのよ。",
+        "translation": "Older Sister: Nice knee pads, right?{n}I bought them at the survival shop{n}Self-Defense."
+      }
+    },
+    "yarai_ginza_crowds_005": {
+      "text": {
+        "reference": "妹：自分の体ぐらい自分で{n}守れなきゃ、スケーターにはなれないわ。{n}備えよ常にって、ことよね。",
+        "translation": "Younger Sister: You can't be a skater if you{n}can't protect yourself. Always be prepared,{n}right?"
+      }
+    },
+    "yarai_ginza_crowds_006": {
+      "text": {
+        "reference": "姉：それでもケガしちゃった時は{n}歯車堂で、きずぐすりを買えば問題なし。{n}矢来銀座って便利よね。",
+        "translation": "Older Sister: And if you still get hurt,{n}just buy some Medicine at Hagurumado.{n}Yarai Ginza is so convenient!"
+      }
+    },
+    "yarai_ginza_crowds_007": {
+      "text": {
+        "reference": "妹：そして骨董屋には、骨を{n}折っちゃった時とかに行けばいいのよ。",
+        "translation": "Younger Sister: And if you break a bone,{n}that's when you go to the antique shop!"
+      }
+    },
+    "yarai_ginza_crowds_008": {
+      "text": {
+        "reference": "姉：それはウソ。{n}金王屋は骨董品を扱っている、{n}アンティーク・ショップなの。",
+        "translation": "Older Sister: That's not true.{n}Konnou-Ya is an antique shop.{n}They deal in collectibles."
+      }
+    },
+    "yarai_ginza_crowds_009": {
+      "text": {
+        "reference": "妹：え、金王屋？{n}あ、玉じゃないんだ。そうなの、{n}ふーん。なんかがっかり。",
+        "translation": "Younger Sister: Huh, Konnou-Ya?{n}Oh, that's the character for 'king,' not 'ball.'{n}I see... That's kind of disappointing.",
+        "note": "金王 and 金玉 differ through the near-lookalike 王 (king) and 玉 (ball); the younger sister had hoped for the bawdy reading implied by 'golden balls.'"
+      }
+    },
+    "yarai_ginza_crowds_010": {
+      "text": {
+        "reference": "姉：知ってる？新しい{n}セルフ・ディフェンスのプロテクター。{n}すっごくクールなのよ。",
+        "translation": "Older Sister: Know about the new protector{n}at Self-Defense? It's super cool."
+      }
+    },
+    "yarai_ginza_crowds_011": {
+      "text": {
+        "reference": "妹：あっ！なんだ、{n}もうトライシールド持ってるじゃない。{n}やっるー、流行に敏感なのね。",
+        "translation": "Younger Sister: Oh! You've already got{n}a Tri Shield. Nice--you really keep up{n}with the latest trends!"
+      }
+    },
+    "yarai_ginza_crowds_012": {
+      "text": {
+        "reference": "妹：私たちには、まさに{n}タカネの花なんだけど欲しいなあ、あれ。",
+        "translation": "Younger Sister: It's totally out of our reach,{n}but I still want one."
+      }
+    },
+    "yarai_ginza_crowds_013": {
+      "text": {
+        "reference": "姉：我慢することも時には必要なのよね。{n}バイトでもして、お金ためましょう。",
+        "translation": "Older Sister: Sometimes we have to go without.{n}Let's get part-time jobs and save up."
+      }
+    },
+    "yarai_ginza_crowds_014": {
+      "text": {
+        "reference": "姉：そのプロテクターいいわね。{n}ネイチャー・アンティークって感じ。{n}私、ピーチの香りが特に好きなの。",
+        "translation": "Older Sister: That's a nice protector.{n}It has a real nature-antique feel.{n}I especially like the peach scent."
+      }
+    },
+    "yarai_ginza_crowds_015": {
+      "text": {
+        "reference": "妹：そろそろ私も新しい{n}エルボーパッドが欲しいな。{n}腕って、一番怪我するとこだもん。",
+        "translation": "Younger Sister: I could use some new elbow pads.{n}Your arms always get hurt the most."
+      }
+    },
+    "yarai_ginza_crowds_016": {
+      "text": {
+        "reference": "姉：セルフ・ディフェンスに、{n}新しいツールが入ったみたいよ。",
+        "translation": "Older Sister: It looks like Self-Defense{n}has some new gear in stock."
+      }
+    },
+    "yarai_ginza_crowds_017": {
+      "text": {
+        "reference": "妹：そろそろ私も新しい{n}エルボーパットが欲しいな。{n}腕って、一番怪我するとこだもん。",
+        "translation": "Younger Sister: I could use some new elbow pads.{n}Your arms always get hurt the most."
+      }
+    },
+    "yarai_ginza_crowds_018": {
+      "text": {
+        "reference": "姉：最近のセルフ・ディフェンスって{n}手ごろな値段の品がないわ。{n}お店のおじさん、高級指向だったのね。",
+        "translation": "Older Sister: Self-Defense doesn't carry{n}anything affordable lately. I guess the owner{n}was into high-end merchandise all along."
+      }
+    },
+    "yarai_ginza_crowds_019": {
+      "text": {
+        "reference": "妹：もう、私たちの手には{n}届かないものばっかり置いてあるのよ！{n}ちょっと、高すぎよね。",
+        "translation": "Younger Sister: Everything they stock now{n}is beyond our reach! The prices are{n}just way too high."
+      }
+    },
+    "yarai_ginza_crowds_020": {
+      "text": {
+        "reference": "姉：セルフ・ディフェンスに、{n}あのAシリーズが入ったみたいよ。",
+        "translation": "Older Sister: It looks like Self-Defense{n}finally has that A Series in stock."
+      }
+    },
+    "yarai_ginza_crowds_021": {
+      "text": {
+        "reference": "妹：AシリーズのAって何のこと？{n}アニマル？安全？安藤くん？",
+        "translation": "Younger Sister: What's the A in A Series for?{n}Animal? Accident-proof? Ando?"
+      }
+    },
+    "yarai_ginza_crowds_022": {
+      "text": {
+        "reference": "男：喫茶店のマスター、しぶかったなぁ。{n}僕もアフロにしてみようかな。",
+        "translation": "Man: That cafe owner was so cool.{n}Maybe I should get an afro too."
+      }
+    },
+    "yarai_ginza_crowds_023": {
+      "text": {
+        "reference": "女：それだけはやめて。",
+        "translation": "Woman: Please, anything but that."
+      }
+    },
+    "yarai_ginza_crowds_024": {
+      "text": {
+        "reference": "夫：子供ができてから、{n}買い物の量が増えましたよ。{n}で、あと何を買えばいいんだい？",
+        "translation": "Husband: Since we had the baby,{n}we've had so much more to buy.{n}So, what else do we need?"
+      }
+    },
+    "yarai_ginza_crowds_025": {
+      "text": {
+        "reference": "妻：そうねぇ、中華街で{n}今夜のおかずを買いましょうか。{n}それで買物は一通り終わり。",
+        "translation": "Wife: Let's buy something for dinner{n}in Chinatown. That should finish the shopping."
+      }
+    },
+    "yarai_ginza_crowds_026": {
+      "text": {
+        "reference": "夫：それでって、{n}まだ続きがあるのかい？",
+        "translation": "Husband: You said that finishes the shopping...{n}Does that mean there's still more to do?"
+      }
+    },
+    "yarai_ginza_crowds_027": {
+      "text": {
+        "reference": "妻：ええそうよ。臨海公園の、{n}図書館に本を返さないと、だめじゃない。{n}ついでに病院にも寄らないと……",
+        "translation": "Wife: Of course. We have books to return{n}to the library in Rinkai Park. And we need{n}to stop by the hospital while we're there..."
+      }
+    },
+    "yarai_ginza_crowds_028": {
+      "text": {
+        "reference": "夫：はー、生活していくって、{n}ほんと大変なことなんですね。",
+        "translation": "Husband: Whew... Getting through daily life{n}really is hard work."
+      }
+    },
+    "yarai_ginza_crowds_029": {
+      "text": {
+        "reference": "夫：今日は、もう帰りでね。{n}のんびりフロにつかってからの、{n}ビールが楽しみですよ。",
+        "translation": "Husband: We're heading home now.{n}I'm looking forward to a long soak in the bath,{n}then a nice cold beer."
+      }
+    },
+    "yarai_ginza_crowds_030": {
+      "text": {
+        "reference": "妻：ダーメ。{n}お医者様に言われたでしょう。{n}お酒は当分ひかえるようにって。",
+        "translation": "Wife: No beer.{n}Remember what the doctor said?{n}You have to stay off alcohol for a while."
+      }
+    },
+    "yarai_ginza_crowds_031": {
+      "text": {
+        "reference": "夫：………………{n}自由の日々が、なつかしいっす。",
+        "translation": "Husband: ............{n}I miss the days when I was free."
+      }
+    },
+    "yarai_ginza_crowds_032": {
+      "text": {
+        "reference": "夫：この子が大きくなったころ、{n}この街はどんな風になってるのかな？",
+        "translation": "Husband: I wonder what this city will be like{n}when our child grows up."
+      }
+    },
+    "yarai_ginza_crowds_033": {
+      "text": {
+        "reference": "妻：銀座は銀座のままでしょうね。{n}そのころ私は、雲雀ヶ丘で優雅な{n}生活を送りたいから、あなたがんばってね。",
+        "translation": "Wife: Ginza will still be Ginza.{n}By then, I want to be living elegantly{n}in Hibarigaoka, so work hard, dear."
+      }
+    },
+    "yarai_ginza_crowds_034": {
+      "text": {
+        "reference": "夫：………………{n}はい、がんばりますか……",
+        "translation": "Husband: ............{n}Yes, dear. I suppose I will..."
+      }
+    },
+    "yarai_ginza_crowds_035": {
+      "text": {
+        "reference": "夫：街の外は人気がないけど、{n}ここは変わらぬ活気に満ちているね。{n}さすが銀座ですよ。",
+        "translation": "Husband: The rest of the city feels deserted,{n}but this place is as lively as ever.{n}That's Ginza for you."
+      }
+    },
+    "yarai_ginza_crowds_036": {
+      "text": {
+        "reference": "妻：私たちの生活も安定したいわ。{n}いつから値段を気にせず、買物できる{n}ようになるのかしらねぇ？",
+        "translation": "Wife: I want our life to be secure too.{n}When will I be able to shop without worrying{n}about the prices?"
+      }
+    },
+    "yarai_ginza_crowds_037": {
+      "text": {
+        "reference": "夫：………………{n}まだ上を見るのかい、君は………",
+        "translation": "Husband: ............{n}You're still aiming higher...?"
+      }
+    },
+    "yarai_ginza_crowds_038": {
+      "text": {
+        "reference": "男の人：さて、仕事しますか。{n}最近、楽しいことがないけど、{n}仕事があれば、私は幸せなんです。",
+        "translation": "Man: Well, time to work.{n}Nothing has been fun lately, but as long as{n}I have work, I'm happy."
+      }
+    },
+    "yarai_ginza_crowds_039": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "セールスマン：臨海公園の博物館から{n}公官庁街の新市庁舎まで、{city}市は{n}組長の屋敷以外、全部まわりました。",
+        "translation": "Salesman: From the Museum in Rinkai Park{n}to New City Hall in the Government District,{n}I've covered all of {city} but the boss's mansion."
+      }
+    },
+    "yarai_ginza_crowds_040": {
+      "text": {
+        "reference": "あとは、ここ矢来区のTV局で、{n}ノルマが終わるかも知れません。{n}営業って、つらいっすよ。",
+        "translation": "One more sale here at Toa TV in Yarai Ward{n}might fill my quota. Sales work is rough."
+      }
+    },
+    "yarai_ginza_crowds_041": {
+      "text": {
+        "reference": "セールスマン：おかげさまで{n}うちの消火器と寝袋、けっこう{n}さばけましたよ。",
+        "translation": "Salesman: Thanks to everyone,{n}we've sold quite a few of our fire extinguishers{n}and sleeping bags."
+      }
+    },
+    "yarai_ginza_crowds_042": {
+      "text": {
+        "reference": "どうです、あなたも買いませんか？{n}トラブルの時は重宝しますよ。{n}そろそろ、地震とか危ないですしねぇ。",
+        "translation": "Would you like to buy one? They're invaluable{n}in an emergency. We may be due for{n}a dangerous earthquake soon, you know."
+      }
+    },
+    "yarai_ginza_crowds_043": {
+      "text": {
+        "reference": "セールスマン：本社からの命令で、{n}雲雀ヶ丘の組長の屋敷にも、{n}売り込みに行かなければなりません。",
+        "translation": "Salesman: Head office ordered me to make{n}a sales call at the Tendou-gumi boss's mansion{n}in Hibarigaoka too."
+      }
+    },
+    "yarai_ginza_crowds_044": {
+      "text": {
+        "reference": "こんなに真面目に働いているのに、{n}何で私ひとりが、これほど苦労せにゃ{n}あかんのですかねぇ。",
+        "translation": "I work so conscientiously, so why am I{n}the only one who has to suffer like this?"
+      }
+    },
+    "yarai_ginza_crowds_045": {
+      "text": {
+        "reference": "セールスマン：いやぁ、天堂組が{n}解散するそうで、売り込みに行く{n}必要がなくなりました。",
+        "translation": "Salesman: Well, I hear the Tendou-gumi{n}is disbanding, so I no longer have to{n}make that sales call."
+      }
+    },
+    "yarai_ginza_crowds_046": {
+      "text": {
+        "reference": "もしもの事を考え、保険に入ろうか{n}などと悩んでいたのですが、{n}その必要もなくなりましたよ。",
+        "translation": "I was even considering taking out insurance{n}in case something happened, but now{n}there's no need."
+      }
+    },
+    "yarai_ginza_crowds_047": {
+      "text": {
+        "reference": "こんな私でも、やっぱり{n}神様って、見てくれているんですねぇ。",
+        "translation": "I suppose God really is watching over{n}even someone like me."
+      }
+    },
+    "yarai_ginza_crowds_048": {
+      "text": {
+        "reference": "左の男：くずのは探偵事務所って{n}どんな仕事してんのかな。",
+        "translation": "Man on Left: I wonder what kind of work{n}the Kuzunoha Detective Agency does."
+      }
+    },
+    "yarai_ginza_crowds_049": {
+      "text": {
+        "reference": "右の男：さあな。浮気とか{n}フリンとかの調査じゃないのか。{n}俺らには関係ない世界だよ。",
+        "translation": "Man on Right: Who knows? Cheating spouses,{n}secret affairs, that kind of investigation.{n}Nothing to do with guys like us."
+      }
+    },
+    "yarai_ginza_crowds_050": {
+      "text": {
+        "reference": "左の男：ジムに行きてえな。{n}最近、鍛えてねえもんだから、{n}体の調子が、どうも今一つでさ。",
+        "translation": "Man on Left: I wanna hit the gym.{n}I haven't trained lately, and my body{n}just doesn't feel right."
+      }
+    },
+    "yarai_ginza_crowds_051": {
+      "text": {
+        "reference": "右の男：わかるわかる、だるいんだろ。{n}普段、動かしている筋肉を{n}使わないでいると、そんなもんさ。",
+        "translation": "Man on Right: I know what you mean. Sluggish,{n}right? That's what happens when you stop using{n}muscles you normally work."
+      }
+    },
+    "yarai_ginza_crowds_052": {
+      "text": {
+        "reference": "左の男：それもあるけどさ、{n}おやっさんのマッサージが{n}気持ちいいんだよ。ハリ治療より、きくぜ。",
+        "translation": "Man on Left: That too, but the old man's{n}massages feel great. They work better{n}than acupuncture."
+      }
+    },
+    "yarai_ginza_crowds_053": {
+      "text": {
+        "reference": "右の男：ま、確かにトレーニングの{n}疲れなんかは、かるく吹っ飛ぶわな。",
+        "translation": "Man on Right: True. They make fatigue{n}from training disappear in no time."
+      }
+    },
+    "yarai_ginza_crowds_054": {
+      "text": {
+        "reference": "左の男：最近、調子よくってさ、{n}気分よすぎて、誰か殴りたい気分だぜ。",
+        "translation": "Man on Left: I've been feeling so good lately,{n}I feel like punching somebody."
+      }
+    },
+    "yarai_ginza_crowds_055": {
+      "text": {
+        "reference": "右の男：あぶねえなぁ。{n}わからなくも、ないけどよ。{n}それはリングの中だけに、しとけよ。",
+        "translation": "Man on Right: That's dangerous.{n}I kinda get it, but save that feeling{n}for the ring."
+      }
+    },
+    "yarai_ginza_crowds_056": {
+      "text": {
+        "reference": "左の男：わあってるって。{n}最近おまわり、やかましいからな。{n}俺、昨日も職務質問、受けちまったよ。",
+        "translation": "Man on Left: I know, I know.{n}The cops have been a real pain lately.{n}They stopped and questioned me again yesterday."
+      }
+    },
+    "yarai_ginza_crowds_057": {
+      "text": {
+        "reference": "右の男：これからは通信だよ、通信。{n}面白いんだって、マジで。",
+        "translation": "Man on Right: Computer communications{n}are the future. Seriously, they're a blast."
+      }
+    },
+    "yarai_ginza_crowds_058": {
+      "text": {
+        "reference": "左の男：お前がやってんのは、{n}「DDSネット」ってやつだろ。{n}そんなに面白いのか？",
+        "translation": "Man on Left: You use that DDS-NET thing,{n}right? Is it really that much fun?"
+      }
+    },
+    "yarai_ginza_crowds_059": {
+      "text": {
+        "reference": "右の男：それは使い方しだいさ。{n}面白さが百あっても、1の楽しみ方しか{n}しない奴には、つまらんだろうよ。",
+        "translation": "Man on Right: Depends how you use it.{n}Even if it offers a hundred kinds of fun,{n}someone who tries only one will get bored."
+      }
+    },
+    "yarai_ginza_crowds_060": {
+      "text": {
+        "reference": "右の男：もしも、明日がいきなり{n}地球最期の日とかだったらどうする？",
+        "translation": "Man on Right: What would you do if tomorrow{n}suddenly turned out to be Earth's final day?"
+      }
+    },
+    "yarai_ginza_crowds_061": {
+      "text": {
+        "reference": "左の男：どうしようもないんじゃん。{n}それよりもさ、昨日が最期の日だった、{n}とかのほうが怖いよ、俺は。",
+        "translation": "Man on Left: Nothing you could do.{n}I'd be more scared to learn that yesterday{n}had been the final day."
+      }
+    },
+    "yarai_ginza_crowds_062": {
+      "text": {
+        "reference": "女：テクノサーカスのモーロックが{n}復活するんですって。知ってた？",
+        "translation": "Woman: They say Morlock from Techno Circus{n}is making a comeback. Did you know?"
+      }
+    },
+    "yarai_ginza_crowds_063": {
+      "text": {
+        "reference": "男：いや初耳。でもさ、{n}メンバーの誰か他界してなかった？",
+        "translation": "Man: No, that's news to me. But didn't{n}one of the members pass away?"
+      }
+    },
+    "yarai_ginza_crowds_064": {
+      "text": {
+        "reference": "男：知りたいことがあるなら、{n}イノセンスかエゼキエル、{n}どっちかに行けば、わかるぜ。",
+        "translation": "Man: If there's something you want to know,{n}try Innocence or Club Ezekiel.{n}One of them should have the answer."
+      }
+    },
+    "yarai_ginza_crowds_065": {
+      "text": {
+        "reference": "女：エゼキエルはディスコだから、{n}ちょっと、うるさいけどね。",
+        "translation": "Woman: Club Ezekiel is a disco,{n}so it is a little noisy."
+      }
+    },
+    "yarai_ginza_crowds_066": {
+      "text": {
+        "reference": "男：ま、それでもわからなきゃ、{n}占い師にでも、みてもらいな。{n}当たるかどうかは知らないよ。",
+        "translation": "Man: If that still gets you nowhere,{n}have the fortune-teller take a look.{n}No idea if her predictions are right, though."
+      }
+    },
+    "yarai_ginza_crowds_067": {
+      "text": {
+        "reference": "男：物知りといえば、そこの{n}妖しいホテルの主人も、{n}いろんなこと知ってるらしいぜ。",
+        "translation": "Man: Speaking of knowledgeable people,{n}I hear the owner of that strange hotel nearby{n}knows all sorts of things."
+      }
+    },
+    "yarai_ginza_crowds_068": {
+      "text": {
+        "reference": "女：あそこの部屋、カルティーで{n}アタシ好き。昔の洋館みたいでしょう。",
+        "translation": "Woman: I like the rooms there. They have{n}this culty vibe, like an old Western mansion."
+      }
+    },
+    "yarai_ginza_crowds_069": {
+      "text": {
+        "reference": "男：そうそう、じゃ行こか。{n}うん行こう。なら行こう。",
+        "translation": "Man: Right, right. Shall we go, then?{n}Yeah, let's. Then let's go."
+      }
+    },
+    "yarai_ginza_crowds_070": {
+      "text": {
+        "reference": "男：知りたい情報は手に入ったかい？",
+        "translation": "Man: Did you find the information you wanted?"
+      }
+    },
+    "yarai_ginza_crowds_071": {
+      "text": {
+        "reference": "女：クレテイシャスには行った？{n}普通の人は行かないとこだけど、{n}それなりの話は聞けるわよ。",
+        "translation": "Woman: Have you tried Cretaceous?{n}Ordinary people don't go there, but you can hear{n}some worthwhile things."
+      }
+    },
+    "yarai_ginza_crowds_072": {
+      "text": {
+        "reference": "男：ま、後は、あんたの腕しだいだな。",
+        "translation": "Man: Well, the rest depends on your skill."
+      }
+    },
+    "yarai_ginza_crowds_073": {
+      "text": {
+        "reference": "女：モーロックのコンサート、{n}中止になったんですって。",
+        "translation": "Woman: I hear Morlock's concert{n}has been canceled."
+      }
+    },
+    "yarai_ginza_crowds_074": {
+      "text": {
+        "reference": "男：へえ、そうなんだ。",
+        "translation": "Man: Huh. Is that so?"
+      }
+    },
+    "yarai_ginza_crowds_075": {
+      "text": {
+        "reference": "女：3LDKで3階より上で、{n}南向きのフローリングの3年以内なら、{n}まぁ満足しちゃうかな。",
+        "translation": "Woman: A 3LDK above the third floor,{n}south-facing, hardwood, less than three years old...{n}I suppose I'd settle for that."
+      }
+    },
+    "yarai_ginza_crowds_076": {
+      "text": {
+        "reference": "男：いやいや、それだけでは甘いな。{n}部屋選びのポイントは隣の住人が、{n}どんな人間かにつきるね。",
+        "translation": "Man: No, no, that's not enough.{n}The key to choosing a home is finding out{n}what kind of people live next door."
+      }
+    },
+    "yarai_ginza_crowds_077": {
+      "text": {
+        "reference": "女：そうそう。でも1番の{n}ポイントは値段なのよね………",
+        "translation": "Woman: Exactly. But the most important thing{n}is still the price..."
+      }
+    },
+    "yarai_ginza_crowds_078": {
+      "text": {
+        "reference": "男：丸瀬不動産のおやじの顔、{n}見たことあるか？{n}ドケチの人相だよ、あれは。",
+        "translation": "Man: Ever seen the owner of Maruse Real Estate?{n}That is the face of a total miser."
+      }
+    },
+    "yarai_ginza_crowds_079": {
+      "text": {
+        "reference": "女：部屋の中も、シャンデリアの光が{n}変に明るくて、いやらしかったわ。{n}ネコなんて抱いちゃって不気味よ。",
+        "translation": "Woman: The chandelier made the room{n}weirdly bright and gaudy. And him sitting there{n}holding a cat was just creepy."
+      }
+    },
+    "yarai_ginza_crowds_080": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "男：とはいえ、{city}市は不動産屋、{n}あそこ一軒だけなんだよな。{n}とほほ。",
+        "translation": "Man: Still, Maruse is the only real estate agency{n}in all of {city}. What a pain."
+      }
+    },
+    "yarai_ginza_crowds_081": {
+      "text": {
+        "reference": "男：どうも、あの不動産屋が{n}気になってしようがねえんだ。{n}あいつ俺らに何か隠してやがる。",
+        "translation": "Man: I can't stop thinking about{n}that real estate agent. He's hiding something{n}from us."
+      }
+    },
+    "yarai_ginza_crowds_082": {
+      "text": {
+        "reference": "女：ねえねえ、行くのやめましょうよ。{n}なんかいやだわ、あの店。",
+        "translation": "Woman: Hey, let's stop going there.{n}Something about that place bothers me."
+      }
+    },
+    "yarai_ginza_crowds_083": {
+      "text": {
+        "reference": "男：いいや正体を暴いてやる。{n}奴の、おでこのバンソーコーを、{n}ひっぺがしてみたいんだよ。",
+        "translation": "Man: No, I'm going to expose him.{n}I want to rip that bandage right off{n}his forehead."
+      }
+    },
+    "yarai_ginza_crowds_084": {
+      "text": {
+        "reference": "女：ばかみたい。{n}なんの意味があるのよ。",
+        "translation": "Woman: That's idiotic.{n}What would that accomplish?"
+      }
+    },
+    "yarai_ginza_crowds_085": {
+      "text": {
+        "reference": "男：別に………{n}ただ、そうしたいだけ。",
+        "translation": "Man: Nothing...{n}I just want to do it."
+      }
+    },
+    "yarai_ginza_crowds_086": {
+      "text": {
+        "reference": "男：やっぱり、あの店のオヤジ、{n}やばい奴だ。客を見てると、かたぎとは{n}思えない連中ばかりだからな。",
+        "translation": "Man: I knew that shopkeeper was trouble.{n}Look at his customers--not one of them{n}looks like an honest citizen."
+      }
+    },
+    "yarai_ginza_crowds_087": {
+      "text": {
+        "reference": "女：ねぇ、やめましょうよ。{n}もうこれ以上かかわらない方がいいわ。",
+        "translation": "Woman: Come on, let's drop this.{n}We shouldn't get any more involved."
+      }
+    },
+    "yarai_ginza_crowds_088": {
+      "text": {
+        "reference": "男：そうだな、やめよう。",
+        "translation": "Man: Yeah. Let's drop it."
+      }
     }
   }
 }

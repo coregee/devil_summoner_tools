@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "asset": "events/house_of_fortune.json",
+  "records": {
+    "game.mesfile.m0158.p00": "fortune_district_saleslady_000.text",
+    "game.mesfile.m0159.p00": "fortune_district_saleslady_001.text",
+    "game.mesfile.m0159.p01": "fortune_district_saleslady_002.text",
+    "game.mesfile.m0159.p02": "fortune_district_saleslady_003.text",
+    "game.mesfile.m0160.p00": "fortune_district_saleslady_004.text",
+    "game.mesfile.m0161.p00": "fortune_district_saleslady_005.text",
+    "game.mesfile.m0161.p01": "fortune_district_saleslady_006.text",
+    "game.mesfile.m0162.p00": "fortune_district_saleslady_007.text",
+    "game.mesfile.m0162.p01": "fortune_district_saleslady_008.text",
+    "game.mesfile.m0196.p00": "house_of_fortune_rumors_000.text",
+    "game.mesfile.m0196.p01": "house_of_fortune_rumors_001.text",
+    "game.mesfile.m0196.p02": "house_of_fortune_rumors_002.text",
+    "game.mesfile.m0196.p03": "house_of_fortune_rumors_003.text",
+    "game.mesfile.m0197.p00": "house_of_fortune_rumors_004.text",
+    "game.mesfile.m0197.p01": "house_of_fortune_rumors_005.text",
+    "game.mesfile.m0198.p00": "house_of_fortune_rumors_006.text",
+    "game.mesfile.m0198.p01": "house_of_fortune_rumors_007.text",
+    "game.mesfile.m0199.p00": "house_of_fortune_rumors_008.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

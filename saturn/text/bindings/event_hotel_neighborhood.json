@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "asset": "events/hotel_neighborhood.json",
+  "records": {
+    "game.mesfile.m0200.p00": "hotel_street_performers_000.text",
+    "game.mesfile.m0201.p00": "hotel_street_performers_001.text",
+    "game.mesfile.m0202.p00": "hotel_street_performers_002.text",
+    "game.mesfile.m0202.p01": "hotel_street_performers_003.text",
+    "game.mesfile.m0202.p02": "hotel_street_performers_004.text",
+    "game.mesfile.m0202.p03": "hotel_street_performers_005.text",
+    "game.mesfile.m0203.p00": "hotel_street_performers_006.text",
+    "game.mesfile.m0204.p00": "hotel_street_performers_007.text",
+    "game.mesfile.m0205.p00": "hotel_street_performers_008.text",
+    "game.mesfile.m0205.p01": "hotel_street_performers_009.text",
+    "game.mesfile.m0206.p00": "hotel_street_performers_010.text",
+    "game.mesfile.m0206.p01": "hotel_street_performers_011.text",
+    "game.mesfile.m0207.p00": "hotel_street_performers_012.text",
+    "game.mesfile.m0207.p01": "hotel_street_performers_013.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

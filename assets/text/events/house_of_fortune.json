@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "fortune_district_saleslady_000": {
+      "text": {
+        "reference": "女の人：最近、仕事も男も{n}うまくいかないのよね。{n}ふう……占いでもしてみようかしら。",
+        "translation": "Woman: Lately, neither work nor men{n}have been going well for me.{n}Sigh... Maybe I should have my fortune told."
+      }
+    },
+    "fortune_district_saleslady_001": {
+      "text": {
+        "reference": "セールスレディ：えーと{n}あそこが、ヘボ探偵の事務所ね。{n}まだ誰か残ってるかしら？",
+        "translation": "Saleslady: Let's see...{n}So that's the lousy detective's office.{n}I wonder if anyone's still there."
+      }
+    },
+    "fortune_district_saleslady_002": {
+      "text": {
+        "reference": "………あらぁ？{n}チョット、あなた死んだんじゃないの？{n}あなた探偵の葛葉さんでしょう。",
+        "translation": "...Wait a minute!{n}Didn't you die? You're Detective Kuzunoha,{n}aren't you?"
+      }
+    },
+    "fortune_district_saleslady_003": {
+      "text": {
+        "reference": "もう、生きてたんなら、{n}保険会社に連絡ぐらいして下さいよ。",
+        "translation": "Honestly, if you're alive, the least you could do{n}is notify the insurance company."
+      }
+    },
+    "fortune_district_saleslady_004": {
+      "text": {
+        "reference": "セールスレディ：一日中、歩いてるから{n}足が太くなっちゃうのよね。{n}どうにか、ならないかしら？",
+        "translation": "Saleslady: Walking all day is making{n}my legs thick. Isn't there anything{n}I can do about it?"
+      }
+    },
+    "fortune_district_saleslady_005": {
+      "text": {
+        "reference": "セールスレディ：私たちの間で{n}会えないっていうので有名なのが、{n}吾妻っていう学者さんなんですよ。",
+        "translation": "Saleslady: Among us salespeople, a scholar{n}named Azuma is famous for being impossible{n}to meet."
+      }
+    },
+    "fortune_district_saleslady_006": {
+      "text": {
+        "reference": "家にも大学にも、いないんですの。{n}やんなっちゃうわ、もう。{n}ああ、しば漬け食べたい。",
+        "translation": "He's never at home or at the university.{n}I'm so fed up with it.{n}Ahh, I could really go for some shibazuke."
+      }
+    },
+    "fortune_district_saleslady_007": {
+      "text": {
+        "reference": "セールスレディ：占い屋のおばさん{n}どこに行っちゃったのかしら？",
+        "translation": "Saleslady: I wonder where that old lady{n}from the fortune-telling shop went."
+      }
+    },
+    "fortune_district_saleslady_008": {
+      "text": {
+        "reference": "も、もしかしたら霊の呪い！？{n}他人ごとだから、すっごく知りたいわ。",
+        "translation": "C-Could it be a spirit's curse?!{n}Since it's not my problem, I'm dying to know!"
+      }
+    },
+    "house_of_fortune_rumors_000": {
+      "text": {
+        "reference": "女子高生：占いの館のマリーおばさんは{n}よく当てるので有名なのよ、ホンキ。",
+        "translation": "High School Girl: Marie at the House of Fortune{n}is famous for being dead-on. Seriously."
+      }
+    },
+    "house_of_fortune_rumors_001": {
+      "placeholders": {
+        "ward": "location_name"
+      },
+      "text": {
+        "reference": "私の住んでいる{ward}区にも、{n}スサノオを祭っている{n}神社があるんだけど………",
+        "translation": "There's also a shrine to Susano-o{n}where I live in {ward}, but..."
+      }
+    },
+    "house_of_fortune_rumors_002": {
+      "text": {
+        "reference": "そっちに御参りするよりも、{n}すぐに未来を教えてもらう方が、{n}LLいいじゃない。",
+        "translation": "Rather than going there to pray,{n}having someone tell you your future right away{n}is LL better, isn't it?",
+        "note": "The source literally reads 'LLいいじゃない'. The function of the two Latin L characters is unresolved, so they are retained visibly instead of silently normalized."
+      }
+    },
+    "house_of_fortune_rumors_003": {
+      "text": {
+        "reference": "ちょっとかなりとても、お金が{n}かかるのが、ハート的に痛いけどね。",
+        "translation": "It costs a little, quite, very huge amount{n}of money, which is painful heart-wise, though."
+      }
+    },
+    "house_of_fortune_rumors_004": {
+      "text": {
+        "reference": "女子高生：マリーの占いって、本当に{n}よく当たるのよ。もう行ってみた？",
+        "translation": "High School Girl: Marie's readings are really{n}accurate. Have you gone to see her yet?"
+      }
+    },
+    "house_of_fortune_rumors_005": {
+      "text": {
+        "reference": "占いコースで、今いちばん人気なのは{n}「好いたら吸われるな、未然に防ごう{n}ドレドレ・テトラジャ占い」かしら。",
+        "translation": "I think the hottest course is 'Smitten? Don't Get{n}Sucked! Stop It Early with a Let's-See{n}Tetraja Reading.'"
+      }
+    },
+    "house_of_fortune_rumors_006": {
+      "text": {
+        "reference": "女子高生：最近ねぇ、占いの館だけ{n}じゃなくて、神社もよくいくんよ。",
+        "translation": "High School Girl: Lately I've been visiting{n}shrines a lot, not just the House of Fortune."
+      }
+    },
+    "house_of_fortune_rumors_007": {
+      "text": {
+        "reference": "だって幽霊、見たいもん。{n}噂じゃ、キレイな女の人だって。",
+        "translation": "I want to see a ghost!{n}They say she's a beautiful woman."
+      }
+    },
+    "house_of_fortune_rumors_008": {
+      "text": {
+        "reference": "女子高生：門限きびしくって{n}めいっぱい遊べないの～。{n}ストレスたまるきゃ。",
+        "translation": "High School Girl: My curfew is so strict,{n}I can't stay out and have all the fun I want.{n}I'm, like, totally stressed out!"
+      }
+    }
+  }
+}

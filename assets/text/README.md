@@ -102,8 +102,8 @@ thread, such as DDS-NET correspondence, Marie's jobs, the Central Library, and
 the detective office. Event-bank names, message numbers, and page numbers stay
 in the Saturn binding. One authored line may therefore serve several proved
 physical occurrences, while contextually distinct repetitions remain separate
-fields even when their Japanese happens to match. The three Saturn `EVFILE`
-banks use 1,400 authored fields for 1,522 physical pages; a later PSP binding can
+fields even when their Japanese happens to match. The four Saturn general-event
+banks use 1,890 authored fields for 2,028 physical pages; a later PSP binding can
 point its exact matches at those same fields rather than copying them.
 
 The current speaking-style files are `archaic`, `beast`, `boy`, `cynical`,
@@ -307,14 +307,15 @@ deliberately bind to separate fields, so a translator can change their English r
 independently. Runtime code may lay out these fields but does not own their
 content or require two independently authored fields to remain equal.
 
-The three `EVFILE` slices are complete. Their 865 text-bearing message groups
-and 1,522 physical pages are organized into 68 semantic scenes across 35
-`events/` catalogues plus the opening profile workflow. They resolve to 1,400
-independently editable fields: repeated uses are shared only where the mature
-Saturn binding or reviewed cross-scene semantics establish that relationship,
-and the original Saturn translations and useful notes are retained exactly.
-Visible yen reward glyphs normalize explicitly to the authored `{yen_symbol}`
-token. No event-bank coordinate appears in an asset key or filename.
+The complete general-event corpus has 1,103 text-bearing message groups and
+2,028 physical pages organized into 92 semantic scenes across 40 `events/`
+catalogues plus the opening profile workflow. They resolve to 1,890 independently
+editable fields: repeated uses are shared only where the mature Saturn binding
+or reviewed cross-scene semantics establish that relationship, and the original
+Saturn translations and useful notes are retained exactly. Visible yen glyphs
+normalize explicitly to the authored `{yen_symbol}` token, and even retail
+placement-error messages remain editable. No event-bank coordinate appears in
+an asset key or filename.
 
 The status slice gives the six base-stat abbreviations, eight derived-stat
 headings, generic Attack and Accuracy labels, all ten personality values, and

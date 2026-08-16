@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "asset": "events/bioenergy_association.json",
+  "records": {
+    "game.mesfile.m0208.p00": "bioenergy_association_street_000.text",
+    "game.mesfile.m0208.p01": "bioenergy_association_street_001.text",
+    "game.mesfile.m0208.p02": "bioenergy_association_street_002.text",
+    "game.mesfile.m0209.p00": "bioenergy_association_street_003.text",
+    "game.mesfile.m0209.p01": "bioenergy_association_street_004.text",
+    "game.mesfile.m0209.p02": "bioenergy_association_street_005.text",
+    "game.mesfile.m0210.p00": "bioenergy_association_street_006.text",
+    "game.mesfile.m0210.p01": "bioenergy_association_street_007.text",
+    "game.mesfile.m0211.p00": "bioenergy_association_street_008.text",
+    "game.mesfile.m0211.p01": "bioenergy_association_street_009.text",
+    "game.mesfile.m0212.p00": "bioenergy_association_street_010.text",
+    "game.mesfile.m0213.p00": "bioenergy_association_street_000.text",
+    "game.mesfile.m0213.p01": "bioenergy_association_street_011.text",
+    "game.mesfile.m0214.p00": "bioenergy_association_street_012.text",
+    "game.mesfile.m0214.p01": "bioenergy_association_street_013.text",
+    "game.mesfile.m0214.p02": "bioenergy_association_street_014.text",
+    "game.mesfile.m0215.p00": "bioenergy_association_street_015.text",
+    "game.mesfile.m0215.p01": "bioenergy_association_street_016.text",
+    "game.mesfile.m0216.p00": "bioenergy_association_street_017.text",
+    "game.mesfile.m0216.p01": "bioenergy_association_street_018.text",
+    "game.mesfile.m0216.p02": "bioenergy_association_street_019.text",
+    "game.mesfile.m0216.p03": "bioenergy_association_street_020.text",
+    "game.mesfile.m0217.p00": "bioenergy_association_street_021.text",
+    "game.mesfile.m0218.p00": "bioenergy_association_street_022.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

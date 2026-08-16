@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "asset": "events/hibarigaoka.json",
+  "records": {
+    "game.mesfile.m0016.p00": "hibarigaoka_residents_000.text",
+    "game.mesfile.m0016.p01": "hibarigaoka_residents_001.text",
+    "game.mesfile.m0016.p02": "hibarigaoka_residents_002.text",
+    "game.mesfile.m0016.p03": "hibarigaoka_residents_003.text",
+    "game.mesfile.m0017.p00": "hibarigaoka_residents_004.text",
+    "game.mesfile.m0017.p01": "hibarigaoka_residents_005.text",
+    "game.mesfile.m0017.p02": "hibarigaoka_residents_006.text",
+    "game.mesfile.m0018.p00": "hibarigaoka_residents_007.text",
+    "game.mesfile.m0018.p01": "hibarigaoka_residents_008.text",
+    "game.mesfile.m0019.p00": "hibarigaoka_residents_009.text",
+    "game.mesfile.m0019.p01": "hibarigaoka_residents_010.text",
+    "game.mesfile.m0019.p02": "hibarigaoka_residents_011.text",
+    "game.mesfile.m0020.p00": "hibarigaoka_residents_012.text",
+    "game.mesfile.m0020.p01": "hibarigaoka_residents_013.text",
+    "game.mesfile.m0020.p02": "hibarigaoka_residents_014.text",
+    "game.mesfile.m0021.p00": "hibarigaoka_residents_009.text",
+    "game.mesfile.m0021.p01": "hibarigaoka_residents_010.text",
+    "game.mesfile.m0021.p02": "hibarigaoka_residents_011.text",
+    "game.mesfile.m0022.p00": "hibarigaoka_residents_015.text",
+    "game.mesfile.m0022.p01": "hibarigaoka_residents_016.text",
+    "game.mesfile.m0023.p00": "hibarigaoka_residents_017.text",
+    "game.mesfile.m0023.p01": "hibarigaoka_residents_018.text",
+    "game.mesfile.m0024.p00": "hibarigaoka_residents_019.text",
+    "game.mesfile.m0025.p00": "hibarigaoka_residents_020.text",
+    "game.mesfile.m0025.p01": "hibarigaoka_residents_021.text",
+    "game.mesfile.m0026.p00": "hibarigaoka_residents_022.text",
+    "game.mesfile.m0026.p01": "hibarigaoka_residents_023.text",
+    "game.mesfile.m0027.p00": "hibarigaoka_residents_024.text",
+    "game.mesfile.m0027.p01": "hibarigaoka_residents_025.text",
+    "game.mesfile.m0027.p02": "hibarigaoka_residents_026.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "event.dialogue"
+    ]
+  }
+}

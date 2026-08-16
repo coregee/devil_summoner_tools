@@ -184,6 +184,69 @@
         "reference": "レイ：……キョウジ……無事に戻って{n}来たのね。よかった。",
         "translation": "Rei: ...Kyouji... You made it back safely.{n}Thank goodness."
       }
+    },
+    "city_hall_park_bystanders_000": {
+      "text": {
+        "reference": "OL：中央公園の林が、{n}立入禁止になっちゃったの。{n}どうしてなのかしら。",
+        "translation": "Office Worker: The woods in Central Park{n}have been closed to the public.{n}I wonder why."
+      }
+    },
+    "city_hall_park_bystanders_001": {
+      "text": {
+        "reference": "林の奥にある池のほとりで{n}ボーッとするのが好きだったのに。{n}あーあ、残念だなぁ。",
+        "translation": "I loved zoning out by the pond{n}deep in the woods.{n}Aw, what a shame."
+      }
+    },
+    "city_hall_park_bystanders_002": {
+      "text": {
+        "reference": "市役所職員：ここ中央区は{n}公官庁街とも呼ばれておりまして、{n}市政の中心部にあたります。",
+        "translation": "City Hall Employee: This area, Chuo Ward,{n}is also known as the government district{n}and serves as the center of city administration."
+      }
+    },
+    "city_hall_park_bystanders_003": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "臨海公園ほど広くはありませんが、{n}そこの中央公園の木々の美しさは{n}{city}市で1番ですよ。",
+        "translation": "It isn't as large as Rinkai Park,{n}but Central Park's trees are{n}the most beautiful in {city} City."
+      }
+    },
+    "city_hall_park_bystanders_004": {
+      "text": {
+        "reference": "市役所職員：いやはや、{n}新市庁舎に入れないんですよ。{n}何が起きたんだか、さっぱりです。",
+        "translation": "City Hall Employee: Good grief,{n}we can't get into New City Hall.{n}I have no idea what has happened."
+      }
+    },
+    "city_hall_park_bystanders_005": {
+      "text": {
+        "reference": "市役所職員：今日も一日、{n}しっかり、働きましょう。{n}職場があるだけで私は幸せなんです。",
+        "translation": "City Hall Employee: Today, too,{n}let's put in a solid day's work.{n}I'm happy just to have a job."
+      }
+    },
+    "city_hall_park_bystanders_006": {
+      "text": {
+        "reference": "警官：きみ、そこのきみ。{n}ここで何やっとるんだ。{n}名前は？職業は？",
+        "translation": "Police Officer: You there.{n}What are you doing here?{n}Name and occupation?"
+      }
+    },
+    "city_hall_park_bystanders_007": {
+      "text": {
+        "reference": "はいはい探偵さんね。{n}この辺りは、あんたが追いかける{n}ような事件は何もないよ。",
+        "translation": "All right, all right, a detective.{n}There are no cases around here{n}for you to chase."
+      }
+    },
+    "city_hall_park_bystanders_008": {
+      "text": {
+        "reference": "レイ：はいはい、ごくろうさま。{n}面倒だから、ほっといて先に行きましょ。",
+        "translation": "Rei: Yeah, yeah. Good work.{n}This is a pain. Let's ignore him and keep going."
+      }
+    },
+    "city_hall_park_bystanders_009": {
+      "text": {
+        "reference": "警官：あ、こら！どこにいくんだ。{n}待ちなさい、待てって言ってるのに！",
+        "translation": "Police Officer: H-Hey! Where are you going?{n}Stop! I said stop!"
+      }
     }
   }
 }

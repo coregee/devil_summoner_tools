@@ -56,12 +56,11 @@ their binary framing does not itself establish semantic scene boundaries. Runnin
 that actually frames them and recording literal speaker cues, tokens, and any
 existing asset uses. Scene, location, story-state, choice, and call-site fields
 remain explicitly unresolved until a compact entry in `event_scenes.json`
-grounds them. All three `EVFILE_*.EVE` banks are now complete: their 865
-text-bearing messages and 1,522 pages are assigned to 68 semantic scenes and
-bound to shared authored assets. The remaining `MESFILE.EVE` bank is a curation
-queue with 238 unclassified messages and 506 unbound pages. The report is not
-an authored asset and does not claim that one physical message equals one story
-scene.
+grounds them. All four general-event banks are complete: their 1,103
+text-bearing messages and 2,028 pages are assigned to 92 semantic scenes and
+bound to shared authored assets. The report now proves zero unclassified
+messages and zero unbound pages. It is not an authored asset and does not claim
+that one physical message equals one story scene.
 
 The generated corpus is binary evidence, not the translation editor. Assets
 are organised around entities and player-facing surfaces. Item and equipment
@@ -290,12 +289,13 @@ their wording is editable, but they remain recorded consumer-binding debt.
    exact semantic bindings, including the three deliberate same-source forks;
    the opening event workflow adds 18 mature Saturn pages to the same shared
    profile-entry asset without creating a platform-specific copy. The rest of
-   All three `EVFILE_*.EVE` banks are also complete: 865 text-bearing message
-   groups and 1,522 physical pages bind to 1,400 human-facing fields arranged by
-   location, scene, or consumer rather than by event-bank coordinates. Their 122
+   All four general-event banks are also complete: 1,103 text-bearing message
+   groups and 2,028 physical pages bind to 1,890 human-facing fields arranged by
+   location, scene, or consumer rather than by event-bank coordinates. Their 138
    repeat and cross-bank uses are explicit binding fan-out instead of duplicated
    editable translations. The two structurally empty `EVFILE_1` messages remain
-   binary framing rather than editor rows.
+   binary framing rather than editor rows. Retail placement-error messages remain
+   editable assets because visible debug text is not a runtime exemption.
 5. Produce complete encoding coverage and capacity reports for both discs.
 6. Finalize output encodings and deterministic full-corpus dictionary groups.
 7. Implement one atomic text repack; partial dictionary builds remain

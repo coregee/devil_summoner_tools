@@ -1545,6 +1545,484 @@
       "choice_structure": null,
       "call_sites": [],
       "note": "Kyouji retrieves his stored weapons and armor from the detective office back room."
+    },
+    "yatou_building_concert_fans": {
+      "consumer": "events.yatou_building",
+      "physical_groups": [
+        "game.mesfile.m0000",
+        "game.mesfile.m0001",
+        "game.mesfile.m0002",
+        "game.mesfile.m0003"
+      ],
+      "location": "yatou_building",
+      "story_state": "yatou_access_states",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Morlock fans react to the Yatou Building closure and its aftermath."
+    },
+    "yarai_ginza_landmarks": {
+      "consumer": "events.ginza_arcade",
+      "physical_groups": [
+        "game.mesfile.m0004",
+        "game.mesfile.m0005",
+        "game.mesfile.m0006",
+        "game.mesfile.m0007"
+      ],
+      "location": "yarai_ginza",
+      "story_state": "city_rumors",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Ginza Arcade and Toa TV landmark chatter from Yarai pedestrians."
+    },
+    "chinatown_street": {
+      "consumer": "events.chinatown",
+      "physical_groups": [
+        "game.mesfile.m0008",
+        "game.mesfile.m0009",
+        "game.mesfile.m0010",
+        "game.mesfile.m0011",
+        "game.mesfile.m0012",
+        "game.mesfile.m0013"
+      ],
+      "location": "chinatown",
+      "story_state": "chinatown_access_states",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Street conversations about Sichuan Restaurant, Guan Di Temple, and the Chinatown disturbance."
+    },
+    "toa_tv_fans": {
+      "consumer": "events.toa_tv",
+      "physical_groups": [
+        "game.mesfile.m0014",
+        "game.mesfile.m0015"
+      ],
+      "location": "toa_tv",
+      "story_state": "toa_tv_access_states",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "A Yusaku fan waits outside Toa TV before and during the disturbance."
+    },
+    "hibarigaoka_residents": {
+      "consumer": "events.hibarigaoka",
+      "physical_groups": [
+        "game.mesfile.m0016",
+        "game.mesfile.m0017",
+        "game.mesfile.m0018",
+        "game.mesfile.m0019",
+        "game.mesfile.m0020",
+        "game.mesfile.m0021",
+        "game.mesfile.m0022",
+        "game.mesfile.m0023",
+        "game.mesfile.m0024",
+        "game.mesfile.m0025",
+        "game.mesfile.m0026",
+        "game.mesfile.m0027"
+      ],
+      "location": "hibarigaoka",
+      "story_state": "hibarigaoka_story_states",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "State-dependent conversations with Hibarigaoka's wealthy residents."
+    },
+    "asahi_friends": {
+      "consumer": "events.asahi_neighborhood",
+      "physical_groups": [
+        "game.mesfile.m0028",
+        "game.mesfile.m0029",
+        "game.mesfile.m0030",
+        "game.mesfile.m0031",
+        "game.mesfile.m0032",
+        "game.mesfile.m0033",
+        "game.mesfile.m0034",
+        "game.mesfile.m0035",
+        "game.mesfile.m0036",
+        "game.mesfile.m0037",
+        "game.mesfile.m0038",
+        "game.mesfile.m0039",
+        "game.mesfile.m0040",
+        "game.mesfile.m0041",
+        "game.mesfile.m0042",
+        "game.mesfile.m0043"
+      ],
+      "location": "asahi_ward",
+      "story_state": "player_identity_states",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Friends near the player's home react to the borrowed body, occupation, and hospitalization."
+    },
+    "asahi_neighbors": {
+      "consumer": "events.asahi_neighborhood",
+      "physical_groups": [
+        "game.mesfile.m0044",
+        "game.mesfile.m0045",
+        "game.mesfile.m0046",
+        "game.mesfile.m0047",
+        "game.mesfile.m0048",
+        "game.mesfile.m0049",
+        "game.mesfile.m0050",
+        "game.mesfile.m0051",
+        "game.mesfile.m0052",
+        "game.mesfile.m0053",
+        "game.mesfile.m0054",
+        "game.mesfile.m0055",
+        "game.mesfile.m0056",
+        "game.mesfile.m0057",
+        "game.mesfile.m0058",
+        "game.mesfile.m0059",
+        "game.mesfile.m0060",
+        "game.mesfile.m0061",
+        "game.mesfile.m0062",
+        "game.mesfile.m0063",
+        "game.mesfile.m0064",
+        "game.mesfile.m0065",
+        "game.mesfile.m0066",
+        "game.mesfile.m0067",
+        "game.mesfile.m0068",
+        "game.mesfile.m0069",
+        "game.mesfile.m0070",
+        "game.mesfile.m0071",
+        "game.mesfile.m0072",
+        "game.mesfile.m0073",
+        "game.mesfile.m0074",
+        "game.mesfile.m0075",
+        "game.mesfile.m0076",
+        "game.mesfile.m0077",
+        "game.mesfile.m0078"
+      ],
+      "location": "asahi_ward",
+      "story_state": "neighborhood_story_states",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Neighbors around the player's home respond to the shrine, explosion, occupation, and city events."
+    },
+    "rinkai_hospital_bystanders": {
+      "consumer": "events.rinkai_hospital",
+      "physical_groups": [
+        "game.mesfile.m0079",
+        "game.mesfile.m0080",
+        "game.mesfile.m0081"
+      ],
+      "location": "rinkai_hospital",
+      "story_state": "hospitalization",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Hospital staff and patients discuss the player's unconscious body."
+    },
+    "city_hall_park_bystanders": {
+      "consumer": "events.city_hall",
+      "physical_groups": [
+        "game.mesfile.m0082",
+        "game.mesfile.m0083",
+        "game.mesfile.m0084",
+        "game.mesfile.m0085",
+        "game.mesfile.m0086",
+        "game.mesfile.m0087"
+      ],
+      "location": "central_park",
+      "story_state": "city_hall_access_states",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Central Park and City Hall workers and police react to changing access conditions."
+    },
+    "central_library_patrons": {
+      "consumer": "events.central_library",
+      "physical_groups": [
+        "game.mesfile.m0088",
+        "game.mesfile.m0089",
+        "game.mesfile.m0090",
+        "game.mesfile.m0091",
+        "game.mesfile.m0092",
+        "game.mesfile.m0093",
+        "game.mesfile.m0094",
+        "game.mesfile.m0095",
+        "game.mesfile.m0096",
+        "game.mesfile.m0097",
+        "game.mesfile.m0098",
+        "game.mesfile.m0099",
+        "game.mesfile.m0100",
+        "game.mesfile.m0101",
+        "game.mesfile.m0102",
+        "game.mesfile.m0103",
+        "game.mesfile.m0104",
+        "game.mesfile.m0105",
+        "game.mesfile.m0106",
+        "game.mesfile.m0107",
+        "game.mesfile.m0108"
+      ],
+      "location": "central_library",
+      "story_state": "library_story_states",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "State-dependent reading, rumor, ghost, and trapped-patron dialogue throughout the Central Library."
+    },
+    "rinkai_park_museum_visitors": {
+      "consumer": "events.city_museum",
+      "physical_groups": [
+        "game.mesfile.m0109",
+        "game.mesfile.m0110",
+        "game.mesfile.m0111",
+        "game.mesfile.m0112",
+        "game.mesfile.m0113",
+        "game.mesfile.m0114",
+        "game.mesfile.m0115",
+        "game.mesfile.m0116",
+        "game.mesfile.m0117",
+        "game.mesfile.m0118",
+        "game.mesfile.m0119",
+        "game.mesfile.m0120"
+      ],
+      "location": "rinkai_park",
+      "story_state": "museum_story_states",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Visitors around the museum and Rinkai Park react to its closure, thefts, and reopening."
+    },
+    "police_station_bystanders": {
+      "consumer": "events.police_station",
+      "physical_groups": [
+        "game.mesfile.m0121",
+        "game.mesfile.m0122",
+        "game.mesfile.m0123"
+      ],
+      "location": "police_station",
+      "story_state": "police_station_takeover",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "A suspect and officers panic during the demonic police-station takeover."
+    },
+    "kitayama_university_students": {
+      "consumer": "events.kitayama_university",
+      "physical_groups": [
+        "game.mesfile.m0124",
+        "game.mesfile.m0125",
+        "game.mesfile.m0126",
+        "game.mesfile.m0127",
+        "game.mesfile.m0128",
+        "game.mesfile.m0129",
+        "game.mesfile.m0130",
+        "game.mesfile.m0131",
+        "game.mesfile.m0132",
+        "game.mesfile.m0133",
+        "game.mesfile.m0134",
+        "game.mesfile.m0135",
+        "game.mesfile.m0136",
+        "game.mesfile.m0137",
+        "game.mesfile.m0138",
+        "game.mesfile.m0139",
+        "game.mesfile.m0140",
+        "game.mesfile.m0141",
+        "game.mesfile.m0142",
+        "game.mesfile.m0143"
+      ],
+      "location": "kitayama_university",
+      "story_state": "university_access_states",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Students and police discuss Kumiko, Professor Azuma, the ticket office, and restricted access."
+    },
+    "vacant_lot_bystanders": {
+      "consumer": "events.city_interactions",
+      "physical_groups": [
+        "game.mesfile.m0144",
+        "game.mesfile.m0145",
+        "game.mesfile.m0146",
+        "game.mesfile.m0147",
+        "game.mesfile.m0148",
+        "game.mesfile.m0149",
+        "game.mesfile.m0150"
+      ],
+      "location": "vacant_lot",
+      "story_state": "vacant_lot_story_states",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Bystanders discuss ghosts and demolished shrines; retail placement-error text remains editable here too."
+    },
+    "mount_kasagi_caretaker": {
+      "consumer": "events.mount_kasagi",
+      "physical_groups": [
+        "game.mesfile.m0151",
+        "game.mesfile.m0152",
+        "game.mesfile.m0153"
+      ],
+      "location": "mount_kasagi",
+      "story_state": "mountain_access_states",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "The Mount Kasagi caretaker describes the cabin, trail, and manor disturbance."
+    },
+    "tendou_gumi_street": {
+      "consumer": "events.tendou_mansion",
+      "physical_groups": [
+        "game.mesfile.m0154",
+        "game.mesfile.m0155",
+        "game.mesfile.m0156",
+        "game.mesfile.m0157"
+      ],
+      "location": "hibarigaoka",
+      "story_state": "tendou_gumi_story_states",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Tendou-gumi members and street punks react to Tenzan's transformation and defeat."
+    },
+    "fortune_district_saleslady": {
+      "consumer": "events.house_of_fortune",
+      "physical_groups": [
+        "game.mesfile.m0158",
+        "game.mesfile.m0159",
+        "game.mesfile.m0160",
+        "game.mesfile.m0161",
+        "game.mesfile.m0162"
+      ],
+      "location": "yarai_ginza",
+      "story_state": "fortune_shop_story_states",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "A saleslady comments on the detective office, Professor Azuma, and the fortune teller's disappearance."
+    },
+    "yarai_ginza_crowds": {
+      "consumer": "events.ginza_arcade",
+      "physical_groups": [
+        "game.mesfile.m0163",
+        "game.mesfile.m0164",
+        "game.mesfile.m0165",
+        "game.mesfile.m0166",
+        "game.mesfile.m0167",
+        "game.mesfile.m0168",
+        "game.mesfile.m0169",
+        "game.mesfile.m0170",
+        "game.mesfile.m0171",
+        "game.mesfile.m0172",
+        "game.mesfile.m0173",
+        "game.mesfile.m0174",
+        "game.mesfile.m0175",
+        "game.mesfile.m0176",
+        "game.mesfile.m0177",
+        "game.mesfile.m0178",
+        "game.mesfile.m0179",
+        "game.mesfile.m0180",
+        "game.mesfile.m0181",
+        "game.mesfile.m0182",
+        "game.mesfile.m0183",
+        "game.mesfile.m0184",
+        "game.mesfile.m0185",
+        "game.mesfile.m0186",
+        "game.mesfile.m0187",
+        "game.mesfile.m0188",
+        "game.mesfile.m0189",
+        "game.mesfile.m0190",
+        "game.mesfile.m0191",
+        "game.mesfile.m0192",
+        "game.mesfile.m0193",
+        "game.mesfile.m0194",
+        "game.mesfile.m0195"
+      ],
+      "location": "yarai_ginza",
+      "story_state": "ginza_story_states",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Skaters, families, salespeople, gym patrons, and information seekers around Yarai Ginza."
+    },
+    "house_of_fortune_rumors": {
+      "consumer": "events.house_of_fortune",
+      "physical_groups": [
+        "game.mesfile.m0196",
+        "game.mesfile.m0197",
+        "game.mesfile.m0198",
+        "game.mesfile.m0199"
+      ],
+      "location": "house_of_fortune",
+      "story_state": "fortune_shop_story_states",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "A schoolgirl advertises Marie's readings and discusses nearby ghosts and curfew."
+    },
+    "hotel_street_performers": {
+      "consumer": "events.hotel_neighborhood",
+      "physical_groups": [
+        "game.mesfile.m0200",
+        "game.mesfile.m0201",
+        "game.mesfile.m0202",
+        "game.mesfile.m0203",
+        "game.mesfile.m0204",
+        "game.mesfile.m0205",
+        "game.mesfile.m0206",
+        "game.mesfile.m0207"
+      ],
+      "location": "hotel_neighborhood",
+      "story_state": "hotel_story_states",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "The Eyeball Man's songs and warnings outside the suspicious hotel."
+    },
+    "bioenergy_association_street": {
+      "consumer": "events.bioenergy_association",
+      "physical_groups": [
+        "game.mesfile.m0208",
+        "game.mesfile.m0209",
+        "game.mesfile.m0210",
+        "game.mesfile.m0211",
+        "game.mesfile.m0212",
+        "game.mesfile.m0213",
+        "game.mesfile.m0214",
+        "game.mesfile.m0215",
+        "game.mesfile.m0216",
+        "game.mesfile.m0217",
+        "game.mesfile.m0218"
+      ],
+      "location": "bioenergy_association",
+      "story_state": "association_story_states",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Eccentric street characters discuss MAG trading, equipment, and survival near the Association."
+    },
+    "cretaceous_promoters": {
+      "consumer": "events.club_cretaceous",
+      "physical_groups": [
+        "game.mesfile.m0219",
+        "game.mesfile.m0220",
+        "game.mesfile.m0221",
+        "game.mesfile.m0222"
+      ],
+      "location": "club_cretaceous",
+      "story_state": "cretaceous_access_states",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Street dialogue promoting Cretaceous and Madame Ginko."
+    },
+    "toa_tv_takeover_bystanders": {
+      "consumer": "events.toa_tv",
+      "physical_groups": [
+        "game.mesfile.m0223",
+        "game.mesfile.m0224",
+        "game.mesfile.m0225"
+      ],
+      "location": "toa_tv",
+      "story_state": "toa_tv_takeover",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Toa TV staff react to the ghosts and demons inside the station."
+    },
+    "kitayama_university_incident": {
+      "consumer": "events.kitayama_university",
+      "physical_groups": [
+        "game.mesfile.m0226",
+        "game.mesfile.m0227",
+        "game.mesfile.m0228",
+        "game.mesfile.m0229",
+        "game.mesfile.m0230",
+        "game.mesfile.m0231",
+        "game.mesfile.m0232",
+        "game.mesfile.m0233",
+        "game.mesfile.m0234",
+        "game.mesfile.m0235",
+        "game.mesfile.m0236",
+        "game.mesfile.m0237"
+      ],
+      "location": "kitayama_university",
+      "story_state": "university_incident",
+      "choice_structure": null,
+      "call_sites": [],
+      "note": "Professors and students react during and after the demonic university incident."
     }
   }
 }
