@@ -20,6 +20,7 @@ if str(SATURN_ROOT) not in sys.path:
 from engine.patching import Patch, apply_patches  # noqa: E402
 from engine.battle_negotiation import build_battle_negotiation  # noqa: E402
 from engine.battle_ui import build_battle_ui  # noqa: E402
+from engine.comp_menu import build_comp_menu  # noqa: E402
 from engine.fusion import build_fusion_menu  # noqa: E402
 from rom.util.catalog import load_catalog, validate_source  # noqa: E402
 from rom.util.workflows import read_source_files  # noqa: E402
@@ -421,7 +422,13 @@ def main() -> int:
         "surface",
         nargs="?",
         default="event.dialogue",
-        choices=("event.dialogue", "fusion.menu", "battle.negotiation", "battle.ui"),
+        choices=(
+            "event.dialogue",
+            "fusion.menu",
+            "battle.negotiation",
+            "battle.ui",
+            "comp.menu",
+        ),
     )
     parser.add_argument("--check", action="store_true")
     arguments = parser.parse_args()
@@ -432,8 +439,10 @@ def main() -> int:
             outputs = build_fusion_surface()
         elif arguments.surface == "battle.negotiation":
             outputs = build_battle_negotiation()
-        else:
+        elif arguments.surface == "battle.ui":
             outputs = build_battle_ui()
+        else:
+            outputs = build_comp_menu()
         _publish(outputs, check=arguments.check)
     except (OSError, UnicodeError, ValueError) as error:
         parser.error(str(error))

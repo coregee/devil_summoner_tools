@@ -381,18 +381,28 @@ def compile_indexed_words(
     return PointerBuild(bytes(output), count, translated, body_words * 2, capacity * 2)
 
 
-def compile_btl_help(stock: bytes, metrics: FontMetrics) -> PointerBuild:
-    if len(stock) != BTL_HELP_COUNT * BTL_HELP_WORDS * 2:
-        raise ValueError("BTL_HELP inventory changed")
-    translations = _bound_fields("game.btl_help.")
-    required = {f"game.btl_help.o{index * 0x2C:06x}.text" for index in range(BTL_HELP_COUNT)}
+def compile_fixed_help(
+    stock: bytes,
+    *,
+    prefix: str,
+    count: int,
+    record_words: int,
+    metrics: FontMetrics,
+    width: int,
+    max_lines: int,
+) -> PointerBuild:
+    stride = record_words * 2
+    if len(stock) != count * stride:
+        raise ValueError(f"{prefix} fixed-help inventory changed")
+    translations = _bound_fields(prefix)
+    required = {f"{prefix}o{index * stride:06x}.text" for index in range(count)}
     if set(translations) != required:
-        raise ValueError("BTL_HELP binding coverage changed")
+        raise ValueError(f"{prefix} binding coverage changed")
     output = bytearray(len(stock))
     longest = 0
-    for record in range(BTL_HELP_COUNT):
-        physical_id = f"game.btl_help.o{record * 0x2C:06x}.text"
-        original = struct.unpack_from(">22H", stock, record * 0x2C)
+    for record in range(count):
+        physical_id = f"{prefix}o{record * stride:06x}.text"
+        original = struct.unpack_from(f">{record_words}H", stock, record * stride)
         end = original.index(TERMINATOR_WORD)
         leading = next((index for index, word in enumerate(original[:end]) if word), end)
         post_newline = 0
@@ -400,23 +410,37 @@ def compile_btl_help(stock: bytes, metrics: FontMetrics) -> PointerBuild:
             cursor = original.index(NEWLINE_WORD) + 1
             while cursor + post_newline < end and original[cursor + post_newline] == 0:
                 post_newline += 1
-        lines = _normalize(translations[physical_id]).split("\n")
-        if not 1 <= len(lines) <= BTL_HELP_LINES or any(not line for line in lines):
+        text_lines = _normalize(translations[physical_id]).split("\n")
+        if not 1 <= len(text_lines) <= max_lines or any(
+            not line for line in text_lines
+        ):
             raise ValueError(f"{physical_id}: help needs one or two nonempty lines")
-        if any(_font16_width(line, metrics) > BTL_HELP_WIDTH for line in lines):
-            raise ValueError(f"{physical_id}: help line exceeds {BTL_HELP_WIDTH}px")
+        if any(_font16_width(line, metrics) > width for line in text_lines):
+            raise ValueError(f"{physical_id}: help line exceeds {width}px")
         words = [0] * leading
-        for line_index, line in enumerate(lines):
+        for line_index, line in enumerate(text_lines):
             if line_index:
                 words.append(NEWLINE_WORD)
                 words.extend([0] * post_newline)
             words.extend(pack_direct_codes(_font16_codes(line, metrics)))
         words.append(TERMINATOR_WORD)
-        if len(words) > BTL_HELP_WORDS:
-            raise ValueError(f"{physical_id}: uses {len(words)}/{BTL_HELP_WORDS} words")
-        struct.pack_into(f">{len(words)}H", output, record * 0x2C, *words)
+        if len(words) > record_words:
+            raise ValueError(f"{physical_id}: uses {len(words)}/{record_words} words")
+        struct.pack_into(f">{len(words)}H", output, record * stride, *words)
         longest = max(longest, len(words))
-    return PointerBuild(bytes(output), BTL_HELP_COUNT, BTL_HELP_COUNT, longest * 2, BTL_HELP_WORDS * 2)
+    return PointerBuild(bytes(output), count, count, longest * 2, record_words * 2)
+
+
+def compile_btl_help(stock: bytes, metrics: FontMetrics) -> PointerBuild:
+    return compile_fixed_help(
+        stock,
+        prefix="game.btl_help.",
+        count=BTL_HELP_COUNT,
+        record_words=BTL_HELP_WORDS,
+        metrics=metrics,
+        width=BTL_HELP_WIDTH,
+        max_lines=BTL_HELP_LINES,
+    )
 
 
 def _allocate(ranges: list[list[int]], payload: bytes, context: str) -> int:

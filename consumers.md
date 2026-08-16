@@ -396,6 +396,14 @@ Its top-level FONT8 commands are `COMP`, `MAGIC`, `ITEM`, `EQUIP`, and `STATUS`.
 They use the preserved stock Latin face and are separately editable from equal
 words used by battle or facilities.
 
+The translated COMP core now owns the two-row, 300-pixel help surface; the
+80-pixel active and stock demon-name panels; and the 80-pixel item/magic name
+grid. The 319 demon names remain single authored fields: 210 fit the direct
+eight-byte retail records, while 109 use a runtime compact overflow pool. The
+NORMCOM ritual console composes beneath this target but remains a distinct
+consumer. Equipment labels/stat layout and the detailed status screen are the
+next separately bounded NORMCOM surfaces rather than hidden parts of this core.
+
 There's also a window in the top-left with the submenus listed. This window serves as an effective margin for the Help window when it's visible.
 
 #### Party Panel

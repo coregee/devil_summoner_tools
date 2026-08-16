@@ -368,6 +368,12 @@ Its 64 visible fields bind to 64 of the 144 physical `BUTU_SRF` slots; blank
 slots remain physical evidence rather than empty editor rows. Sharing with
 Demon Chat is never inferred from equal wording or similar presentation.
 
+The COMP core consumes the existing demon, character, item, magic, skill, and
+command-help assets directly. Its 210 direct demon records and 109 compact
+overflow records are generated storage choices, not alternative name fields.
+All 24 COMP help lines likewise remain in `ui/command_help.json`; neither the
+runtime nor `NORMHELP.DAT` is a second translation location.
+
 After bindings cover the authored corpus, translations in the generated
 physical catalogue will be removed or generated from these assets. There must
 never be two independently editable translation locations.

@@ -110,3 +110,31 @@ python saturn/engine/build.py battle.ui
 python saturn/engine/build.py battle.ui --check
 python saturn/build.py default
 ```
+
+## COMP core
+
+`comp.menu` composes the NORMCOM ritual decoder from `battle.ui` with the shared
+FONT8 party-panel and item/magic-grid renderers, the complete item-name pointer
+reader, and the full-width FONT16 help renderer. This boundary deliberately
+stops before the separately proved equipment and detailed-status surfaces.
+
+The runtime rebuilds its FONT8 width tables and all character/demon overflow
+name data from the current font metrics, `characters.json`, `demons.json`, and
+the generated `DVLNAME.DAT`. Names that fit the retail record stay direct;
+longer names enter checked low/high compact pools without exposing that packing
+to editors. The preassembled drawer is retained only as checked code: its data
+addresses and the three caller pointers are rebound whenever the pools move.
+
+`NORMHELP.DAT`, `DVLNAME.DAT`, `ITEMNAME.DAT`, and `MAGNAME.DAT` remain ordinary
+file-backed text outputs. The composed NORMCOM result is byte-identical to the
+same isolated mature capabilities and fails on changed source bytes, stale text
+or metrics, overlong names, unsupported compact characters, or cave overflow.
+
+Run:
+
+```powershell
+python saturn/text/repack.py comp
+python saturn/engine/build.py comp.menu
+python saturn/engine/build.py comp.menu --check
+python saturn/build.py default
+```

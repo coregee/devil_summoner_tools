@@ -266,8 +266,6 @@ class SurfaceCatalogTests(unittest.TestCase):
 
     def test_demon_surface_slots_are_recorded_without_guessed_limits(self) -> None:
         known_font_rows = {
-            "comp.party_demon_name": ("font8", 1),
-            "comp.stock_demon_name": ("font8", 1),
             "status.demon_name": ("font16", 1),
         }
         for name, expected in known_font_rows.items():
@@ -279,15 +277,28 @@ class SurfaceCatalogTests(unittest.TestCase):
                 self.assertIsNone(surface.en.rows)
                 self.assertFalse(surface.en.width.known)
 
-        battle_party = self.catalog.surface("battle.party_demon_name").en
+        for name in (
+            "battle.party_demon_name",
+            "comp.party_demon_name",
+            "comp.stock_demon_name",
+        ):
+            with self.subTest(name=name):
+                layout = self.catalog.surface(name).en
+                self.assertEqual(
+                    (
+                        layout.font,
+                        layout.rows,
+                        layout.width.unit,
+                        layout.width.value,
+                    ),
+                    ("font8", 1, "pixels", 80),
+                )
+
+    def test_comp_help_uses_the_full_width_surface(self) -> None:
+        layout = self.catalog.surface("comp.help").en
         self.assertEqual(
-            (
-                battle_party.font,
-                battle_party.rows,
-                battle_party.width.unit,
-                battle_party.width.value,
-            ),
-            ("font8", 1, "pixels", 80),
+            (layout.font, layout.rows, layout.width.unit, layout.width.value),
+            ("font16", 2, "pixels", 300),
         )
 
         battle_analyze = self.catalog.surface("battle.analyze_demon_name")

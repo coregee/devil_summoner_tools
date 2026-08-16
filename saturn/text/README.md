@@ -34,7 +34,7 @@ binary evidence rather than an editing interface.
 - `event_inventory.py` builds an ignored scene-curation report for the four
   general event banks.
 - `repack.py` builds general EVENT, shop/facility dialogue, battle negotiation,
-  and the file-backed battle and ritual consumers.
+  the file-backed battle and ritual consumers, and the COMP help/name tables.
 
 Extraction reads its evidence directly from the verified original disc, never
 from the writable build mirror. The mirror may therefore contain translated
@@ -99,6 +99,8 @@ python saturn/text/repack.py negotiation
 python saturn/text/repack.py negotiation --check
 python saturn/text/repack.py battle
 python saturn/text/repack.py battle --check
+python saturn/text/repack.py comp
+python saturn/text/repack.py comp --check
 python -m unittest discover -s saturn/text/tests -v
 ```
 
@@ -164,6 +166,20 @@ allocated into verified description padding and selected by the mature runtime's
 per-record pointer without changing the 96-byte record shape. All six outputs
 are byte-identical to the trusted mature Saturn build. There is no fallback to
 hand-maintained runtime prose.
+
+## COMP-core repacking
+
+The `comp` target rebuilds `NORMHELP.DAT` and `DVLNAME.DAT` from the same
+human-facing assets used by battle, Fusion, and the Compendium. All 24 help
+records use the measured 300-pixel, two-row COMP surface and retain their fixed
+42-word records. Of the 319 demon names, 210 fit the retail eight-byte/64-pixel
+direct slot and are written into `DVLNAME.DAT`; the other 109 retain their stock
+record bytes and are supplied in full by the COMP party-panel runtime's compact
+overflow pool. Both outputs are byte-identical to the mature Saturn build.
+
+This split is physical, not editorial. Every demon still has one complete
+editable name in `assets/text/demons.json`; the repacker and runtime decide
+which storage path can display it without truncation.
 
 The game manifest covers 47 physical files and 59 source groups. Its four
 container types are EVE banks, pointer banks, fixed records with subfields, and
@@ -394,8 +410,12 @@ their wording is editable, but they remain recorded consumer-binding debt.
 9. **Complete for `battle.ui`:** rebuild the console, Demon Chat, help, ritual,
    item, and ability text banks; port the shared battle renderers, Analyze and
    result fields, dynamic names, and both packed readers into the normal build.
-10. Continue surface by surface; do not introduce one global repack or engine
-   capability graph before another consumer needs shared machinery.
+10. **Complete for `comp.menu` core:** rebuild the COMP help and direct demon
+    name tables, then compose the party panels, item/magic grids, full-name
+    pointer reader, and ritual decoder into the normal build.
+11. Continue with the separately proved equipment and detailed-status surfaces;
+    do not introduce one global repack or engine capability graph before another
+    consumer needs shared machinery.
 
 Extraction verifies source files, decodes every record readably, preserves
 unknown glyph and control identity after declared zero normalization, and

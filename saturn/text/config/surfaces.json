@@ -960,16 +960,16 @@
         "font": "font8",
         "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "glyph_cells",
+          "value": 8
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font8",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 80
         }
       }
     },
@@ -978,16 +978,16 @@
         "font": "font8",
         "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "glyph_cells",
+          "value": 8
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font8",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 80
         }
       }
     },
@@ -1001,11 +1001,11 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font16",
+        "rows": 2,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 300
         }
       }
     },

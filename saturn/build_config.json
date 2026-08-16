@@ -195,10 +195,42 @@
     },
     {
       "id": "install_battle_ui_engine",
-      "description": "Install the composed COMBAT runtime and the ritual-console NORMCOM decoder.",
+      "description": "Install the composed COMBAT runtime.",
       "type": "copy",
       "files": [
-        {"source": "engine/generated/game/COMBAT.BIN", "destination": "rom/extracted/game/COMBAT.BIN"},
+        {"source": "engine/generated/game/COMBAT.BIN", "destination": "rom/extracted/game/COMBAT.BIN"}
+      ]
+    },
+    {
+      "id": "repack_comp_text",
+      "description": "Compile COMP help and direct demon-name records from authored assets.",
+      "type": "python",
+      "script": "text/repack.py",
+      "arguments": ["comp"],
+      "check_arguments": ["comp", "--check"]
+    },
+    {
+      "id": "install_comp_text",
+      "description": "Install the COMP help and demon-name tables.",
+      "type": "copy",
+      "files": [
+        {"source": "text/generated/game/DVLNAME.DAT", "destination": "rom/extracted/game/DVLNAME.DAT"},
+        {"source": "text/generated/game/NORMHELP.DAT", "destination": "rom/extracted/game/NORMHELP.DAT"}
+      ]
+    },
+    {
+      "id": "build_comp_engine",
+      "description": "Compose the COMP party panels, lists, help renderer, and ritual decoder.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["comp.menu"],
+      "check_arguments": ["comp.menu", "--check"]
+    },
+    {
+      "id": "install_comp_engine",
+      "description": "Install the composed NORMCOM runtime.",
+      "type": "copy",
+      "files": [
         {"source": "engine/generated/game/NORMCOM.BIN", "destination": "rom/extracted/game/NORMCOM.BIN"}
       ]
     },
@@ -238,6 +270,10 @@
         "install_battle_ui_text",
         "build_battle_ui_engine",
         "install_battle_ui_engine",
+        "repack_comp_text",
+        "install_comp_text",
+        "build_comp_engine",
+        "install_comp_engine",
         "repack_visuals",
         "build_discs"
       ],

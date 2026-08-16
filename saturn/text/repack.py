@@ -31,6 +31,7 @@ from util.battle_ui import (  # noqa: E402
     compile_catalog,
     compile_indexed_words,
 )
+from util.comp_menu import compile_demon_names, compile_normhelp  # noqa: E402
 from util.event_repack import (  # noqa: E402
     GENERAL_EVENT_SOURCES,
     SHOP_EVENT_SOURCES,
@@ -52,6 +53,7 @@ EVENT_BUILD_PATH = GENERATED_ROOT / "event_build.json"
 NEGOTIATION_BUILD_PATH = GENERATED_ROOT / "battle_negotiation_build.json"
 SHOPSMP_BUILD_PATH = GENERATED_ROOT / "shopsmp_build.json"
 BATTLE_UI_BUILD_PATH = GENERATED_ROOT / "battle_ui_build.json"
+COMP_MENU_BUILD_PATH = GENERATED_ROOT / "comp_menu_build.json"
 
 
 def _stock_files(paths: tuple[PurePosixPath, ...]) -> dict[PurePosixPath, bytes]:
@@ -318,6 +320,46 @@ def build_battle_ui_outputs() -> dict[Path, bytes]:
     return outputs
 
 
+def build_comp_menu_outputs() -> dict[Path, bytes]:
+    paths = (PurePosixPath("DVLNAME.DAT"), PurePosixPath("NORMHELP.DAT"))
+    stock = _stock_files(paths)
+    font8 = FontMetrics.load(FONT8_METRICS_PATH)
+    font16 = FontMetrics.load(FONT16_METRICS_PATH)
+    demon_names = compile_demon_names(stock[paths[0]], font8)
+    help_text = compile_normhelp(stock[paths[1]], font16)
+    outputs = {
+        GENERATED_ROOT / "DVLNAME.DAT": demon_names.data,
+        GENERATED_ROOT / "NORMHELP.DAT": help_text.data,
+    }
+    document = {
+        "version": 1,
+        "surface": "comp.menu",
+        "font8_metrics_sha256": _sha256_path(FONT8_METRICS_PATH),
+        "font16_metrics_sha256": _sha256_path(FONT16_METRICS_PATH),
+        "outputs": {
+            "DVLNAME.DAT": {
+                "sha256": _sha256_bytes(demon_names.data),
+                "records": demon_names.records,
+                "direct_names": demon_names.direct_names,
+                "overflow_names": demon_names.overflow_names,
+                "longest_name_bytes": demon_names.longest_name_bytes,
+                "longest_name_pixels": demon_names.longest_name_pixels,
+            },
+            "NORMHELP.DAT": {
+                "sha256": _sha256_bytes(help_text.data),
+                "records": help_text.records,
+                "translated": help_text.translated,
+                "longest_record_words": help_text.body_size // 2,
+                "capacity_words": help_text.body_capacity // 2,
+            },
+        },
+    }
+    outputs[COMP_MENU_BUILD_PATH] = (
+        json.dumps(document, ensure_ascii=False, indent=2) + "\n"
+    ).encode("utf-8")
+    return outputs
+
+
 def build_shopsmp_outputs() -> dict[Path, bytes]:
     manifest = load_manifest(manifest_path("game"))
     sources = {source.name: source for source in manifest.sources}
@@ -395,7 +437,7 @@ def main() -> int:
         "target",
         nargs="?",
         default="all",
-        choices=("event", "shopsmp", "negotiation", "battle", "all"),
+        choices=("event", "shopsmp", "negotiation", "battle", "comp", "all"),
     )
     parser.add_argument("--check", action="store_true")
     arguments = parser.parse_args()
@@ -409,6 +451,8 @@ def main() -> int:
             outputs.update(build_negotiation_outputs())
         if arguments.target in {"battle", "all"}:
             outputs.update(build_battle_ui_outputs())
+        if arguments.target in {"comp", "all"}:
+            outputs.update(build_comp_menu_outputs())
         publish(outputs, check=arguments.check)
     except (OSError, UnicodeError, ValueError) as error:
         parser.error(str(error))

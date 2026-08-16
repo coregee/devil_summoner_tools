@@ -9,9 +9,14 @@ from pathlib import Path
 
 TEXT_ROOT = Path(__file__).resolve().parents[1]
 PROJECT_ROOT = TEXT_ROOT.parents[1]
+SATURN_ROOT = TEXT_ROOT.parent
 if str(TEXT_ROOT) not in sys.path:
     sys.path.insert(0, str(TEXT_ROOT))
+if str(SATURN_ROOT) not in sys.path:
+    sys.path.insert(0, str(SATURN_ROOT))
 
+from rom.util.catalog import load_catalog, validate_source  # noqa: E402
+from rom.util.workflows import read_source_files  # noqa: E402
 from util.assets import BINDING_ROOT, load_asset, load_binding  # noqa: E402
 from util.surfaces import load_surfaces  # noqa: E402
 
@@ -211,14 +216,8 @@ class StatusAssetTests(unittest.TestCase):
         self.assertEqual(len(self.binding.composition), 9)
 
     def test_stock_bitmap_sources_are_pinned_without_becoming_corpus_rows(self) -> None:
-        source = (
-            PROJECT_ROOT
-            / "saturn"
-            / "rom"
-            / "extracted"
-            / "game"
-            / "NORMCOM.BIN"
-        ).read_bytes()
+        validated = validate_source(load_catalog()["game"])
+        source = read_source_files(validated, ("NORMCOM.BIN",))["NORMCOM.BIN"]
         self.assertEqual(
             hashlib.sha256(source).hexdigest(),
             "983d84ad48c0a497715633c0d2e380743c52e4b1644422ed027ac27e52a2aa9a",
