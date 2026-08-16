@@ -46,8 +46,8 @@ generated result at both paths.
 A definition may also expose a named `reference_set` for stock cells that must
 remain addressable after repacking. Game `FONT8.FON` publishes cells 0-62 as
 `stock_latin`: the original space, digits, uppercase letters, and lowercase
-letters. It also publishes the source-preserved punctuation cells 176 and 198
-under the ASCII aliases `.` and `/`. A `reference_sets[].aliases` entry changes
+letters. It also publishes the source-preserved punctuation cells 174, 176, and
+198 under the ASCII aliases `-`, `.`, and `/`. A `reference_sets[].aliases` entry changes
 only the character name published to that named consumer map; it does not
 change the base source decoding or take ownership of the glyph bitmap. These
 cells are not replacements and are asserted byte-preserved. Generated FONT8

@@ -240,6 +240,14 @@
       "check_arguments": ["options.ui", "--check"]
     },
     {
+      "id": "build_level_up_engine",
+      "description": "Build the Level Up panel and Learned Magic window from editable assets.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["level_up.ui"],
+      "check_arguments": ["level_up.ui", "--check"]
+    },
+    {
       "id": "install_event_normcom_engine",
       "description": "Install EVENT through equipment and NORMCOM through detailed status.",
       "type": "copy",
@@ -254,6 +262,14 @@
       "type": "copy",
       "files": [
         {"source": "engine/generated/game/CFG_SET.BIN", "destination": "rom/extracted/game/CFG_SET.BIN"}
+      ]
+    },
+    {
+      "id": "install_level_up_engine",
+      "description": "Install the generated Level Up and Learned Magic runtime.",
+      "type": "copy",
+      "files": [
+        {"source": "engine/generated/game/LEVEL_UP.BIN", "destination": "rom/extracted/game/LEVEL_UP.BIN"}
       ]
     },
     {
@@ -429,8 +445,10 @@
         "build_equipment_engine",
         "build_status_engine",
         "build_options_engine",
+        "build_level_up_engine",
         "install_event_normcom_engine",
         "install_options_engine",
+        "install_level_up_engine",
         "build_field_messages_engine",
         "install_maze_engine",
         "repack_visuals",

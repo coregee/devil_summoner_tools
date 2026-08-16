@@ -1,0 +1,178 @@
+{
+  "version": 2,
+  "surface": "level_up.ui",
+  "targets": {
+    "LEVEL_UP.BIN": {
+      "load_address": "0x06020000",
+      "size": 235304,
+      "stock_sha256": "bea68b010a95b34f69fbc84bbdcd65f5bed004c50739f257675b24045277b536"
+    }
+  },
+  "inputs": {
+    "font8_sha256": "c656c783225271ae1910224b85eba9431ad2c27e96bfdab797e8499f77eeff7c",
+    "font8_metrics_sha256": "82f688a7a2bc2efd1caa32555968c456c332d30813bd7e2b3c8af08b7f2978c6",
+    "font16_sha256": "89272c66b96536658c271e061ff8c15198a1bbc4c01c4e17f23575897dca0acc",
+    "font16_metrics_sha256": "3ce6e6c916da3f4bc3c7a702c9ae07f84519185a45e2f733c13726cab6532fa3",
+    "stock_font16_sha256": "177c86a2df07f001257bcd3d05dacee3417c21b8140d3174be1da58934ddc2d6"
+  },
+  "groups": [
+    {
+      "capability": "level_up_runtime",
+      "target": "LEVEL_UP.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "level_up_runtime",
+          "address": "0x06022000",
+          "expected_zero_bytes": 1280,
+          "assembly": [
+            "level_up_ui/font16_vwf.s",
+            "level_up_ui/name_drawer.s",
+            "level_up_ui/learned_dispatcher.s",
+            "level_up_ui/learned_prepare.s"
+          ]
+        },
+        {
+          "name": "learned_prepare_pointer",
+          "address": "0x060291b8",
+          "expected": "0602a05c",
+          "linked_pointer": "learned_prepare"
+        },
+        {
+          "name": "learned_drawer_pointer",
+          "address": "0x060291bc",
+          "expected": "06029c8c",
+          "linked_pointer": "learned_drawer"
+        },
+        {
+          "name": "name_drawer_pointer",
+          "address": "0x06029440",
+          "expected": "06027944",
+          "linked_pointer": "name_drawer"
+        },
+        {
+          "name": "no_magic_points_runtime",
+          "address": "0x060279cc",
+          "expected_sha256": "8d3f4164bee2ce928f16a15b324004dc3a44bfbdcaedcfe3a31e4d351f37791c",
+          "expected_size": 50,
+          "assembly": ["level_up_ui/no_magic_points.s"]
+        },
+        {
+          "name": "max_level_next_runtime",
+          "address": "0x06027ac2",
+          "expected_sha256": "1783cabae4947c771f8730f07ba4c3be886c5311a9e43d4bb6cd883527891cf7",
+          "expected_size": 80,
+          "assembly": ["level_up_ui/max_level_next.s"]
+        }
+      ]
+    },
+    {
+      "capability": "level_up_fixed_text",
+      "target": "LEVEL_UP.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "level_prefix",
+          "address": "0x060279a4",
+          "expected": "4c560000",
+          "generated": "level_up_data"
+        },
+        {
+          "name": "hit_points_prefix",
+          "address": "0x060279a8",
+          "expected": "48500000",
+          "generated": "level_up_data"
+        },
+        {
+          "name": "magic_points_prefix",
+          "address": "0x060279ac",
+          "expected": "4d500000",
+          "generated": "level_up_data"
+        },
+        {
+          "name": "experience_prefix",
+          "address": "0x060279b0",
+          "expected": "45585000",
+          "generated": "level_up_data"
+        },
+        {
+          "name": "next_experience_prefix",
+          "address": "0x060279b4",
+          "expected": "4e4558540000",
+          "generated": "level_up_data"
+        },
+        {
+          "name": "hp_mp_separator",
+          "address": "0x06027b24",
+          "expected": "00c6",
+          "generated": "level_up_data"
+        },
+        {
+          "name": "title",
+          "address": "0x06028478",
+          "expected": "4c4556454c20555000000000",
+          "generated": "level_up_data"
+        },
+        {
+          "name": "remaining_points_suffix",
+          "address": "0x06028488",
+          "expected": "4c4546540000",
+          "generated": "level_up_data"
+        },
+        {
+          "name": "confirm_yes",
+          "address": "0x06028e1c",
+          "expected": "59455300",
+          "generated": "level_up_data"
+        },
+        {
+          "name": "confirm_no",
+          "address": "0x06028e20",
+          "expected": "204e4f00",
+          "generated": "level_up_data"
+        },
+        {
+          "name": "accept",
+          "address": "0x06028e24",
+          "expected": "4f4b0000",
+          "generated": "level_up_data"
+        }
+      ]
+    },
+    {
+      "capability": "level_up_layout",
+      "target": "LEVEL_UP.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "parameter_nodes",
+          "address": "0x0602c750",
+          "expected_sha256": "c1635e930f58c93218327b18c29e17c6cac03e7d75a694930d47f30044a6a204",
+          "expected_size": 3072,
+          "generated": "level_up_data"
+        },
+        {
+          "name": "parameter_rows",
+          "address": "0x0602d350",
+          "expected_sha256": "05c5b4209860c1de992ae806c1832bff5c2ed3600cb2f106e6718fa377879d9f",
+          "expected_size": 9216,
+          "generated": "level_up_data"
+        },
+        {
+          "name": "generic_attack_label",
+          "address": "0x0602f750",
+          "expected_sha256": "86c69aedbccf3b6417f9d544b86d2718ffc6ad705b00b019769dedcb735c79aa",
+          "expected_size": 1152,
+          "generated": "level_up_data"
+        },
+        {
+          "name": "generic_accuracy_label",
+          "address": "0x0602fbd0",
+          "expected_sha256": "d7c9a5237611fd0953a7838b24ddb754e9d2354c104d2a8c8283f956e5ce37d9",
+          "expected_size": 1152,
+          "generated": "level_up_data"
+        }
+      ]
+    }
+  ]
+}

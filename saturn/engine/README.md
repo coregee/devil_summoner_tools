@@ -264,6 +264,42 @@ python saturn/engine/build.py options.ui --check
 python saturn/build.py default
 ```
 
+## Level Up
+
+`level_up.ui` builds the standalone `LEVEL_UP.BIN` interface as two explicit
+consumers: the ordinary stat/confirmation panel and Rei's separate two-row
+Learned Magic window. The default result is byte-identical to the mature Saturn
+output at
+`466c552e95bb5c7bd808f550e8f0832077715f20fd5427dedf412793fe5d1ed1`.
+
+`config/level_up_ui.json` owns 21 typed recipes: three readable assembly
+regions, three linked pointers, and 15 generated-data regions. Six sources under
+`asm/level_up_ui/` implement the FONT16 name/ability paths and two conditional
+numeric fallbacks. The established runtime occupies 1,279 of the proved 1,280
+zero bytes at `0x06022000`; the final byte is retained as a hard cave boundary,
+not advertised as general growth capacity.
+
+Every visible word and sign comes from the text assets. The five fixed
+character selectors use Rei, Kyouji, Taro, Jiro, and Saburo; the live player
+codename remains a separate 128-pixel dynamic source. Learned abilities follow
+the exact 255 Saturn MAGNAME bindings rather than concatenating the shared asset
+catalogues. Complete LV/HP/MP/EXP/NEXT templates own their punctuation, while
+the maximum-level `-------` and no-MP `---/---` forms are editable even though
+retail constructs them in code. Their alternate assembly activates only when
+needed, preserving retail bytes for the default text.
+
+`level_up_ui_build.json` records the stock target, fonts, generated MAGNAME
+manifest, exact assets/bindings/corpora, assembly sources, patch inventory, and
+terminal hash.
+
+Run:
+
+```powershell
+python saturn/engine/build.py level_up.ui
+python saturn/engine/build.py level_up.ui --check
+python saturn/build.py default
+```
+
 ## Dungeon locations
 
 `dungeon.locations` rebuilds the location consumers in `MAZE.BIN`,

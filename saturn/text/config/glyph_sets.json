@@ -14,6 +14,13 @@
     "healer.command": "font8_stock_latin",
     "status.auto_command": "font8_stock_latin",
     "status.auto_setting": "font8_stock_latin",
-    "status.party_alignment": "font8_stock_latin"
+    "status.party_alignment": "font8_stock_latin",
+    "level_up.numeric_readout": "font8_stock_latin",
+    "level_up.max_level_next": "font8_stock_latin",
+    "level_up.no_magic_points": "font8_stock_latin",
+    "level_up.title": "font8_stock_latin",
+    "level_up.remaining_points": "font8_stock_latin",
+    "level_up.accept_action": "font8_stock_latin",
+    "level_up.confirm_choice": "font8_stock_latin"
   }
 }

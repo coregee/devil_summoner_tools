@@ -31,7 +31,7 @@ class GameInventoryTests(unittest.TestCase):
 
     def test_complete_inventory_snapshot(self) -> None:
         self.assertEqual(self.batch.source_count, 60)
-        self.assertEqual(self.batch.record_count, 16_053)
+        self.assertEqual(self.batch.record_count, 16_063)
         self.assertEqual(len(self.batch.rendered), 60)
         self.assertEqual(
             {path.as_posix() for path in self.batch.composed_files},
@@ -48,7 +48,7 @@ class GameInventoryTests(unittest.TestCase):
         self.assertEqual(
             sum("/eve/" in f"/{path.as_posix()}" for path in self.batch.rendered), 21
         )
-        self.assertEqual(sum(row_id.startswith("game.") for row_id in ids), 16_053)
+        self.assertEqual(sum(row_id.startswith("game.") for row_id in ids), 16_063)
 
         eve_rows = [
             row
@@ -57,7 +57,7 @@ class GameInventoryTests(unittest.TestCase):
             for row in json.loads(rendered)
         ]
         self.assertEqual(len(eve_rows), 12_711)
-        self.assertEqual(len(rows) - len(eve_rows), 3_342)
+        self.assertEqual(len(rows) - len(eve_rows), 3_352)
         self.assertGreater(sum("{GLYPH:" in row["reference"] for row in rows), 0)
         self.assertGreater(sum("{OP:" in row["reference"] for row in rows), 0)
         self.assertFalse(any("{OP:8002}" in row["reference"] for row in rows))

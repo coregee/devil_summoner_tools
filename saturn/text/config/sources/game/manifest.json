@@ -189,7 +189,7 @@
       "path": "LEVEL_UP.BIN",
       "size": 235304,
       "stock_sha256": "bea68b010a95b34f69fbc84bbdcd65f5bed004c50739f257675b24045277b536",
-      "owned_sha256": "c0bce14136d76790d03170c4974cc983ff9a5c5c28c8dff29c65b04fa31e4aaf"
+      "owned_sha256": "a0f411051245313f3943ec018f389c7179a6312448c83a31d2e3f6a3c5e106c2"
     },
     "load_bin": {
       "path": "LOAD.BIN",
@@ -2006,7 +2006,177 @@
         "tables": [],
         "records": [
           {
-            "name": "learned_magic",
+            "name": "level",
+            "source_encoding": "ascii",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x79a4",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "hit_points",
+            "source_encoding": "ascii",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x79a8",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "magic_points",
+            "source_encoding": "ascii",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x79ac",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "experience",
+            "source_encoding": "ascii",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x79b0",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "next_experience",
+            "source_encoding": "ascii",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x79b4",
+                    "units": 6
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "title",
+            "source_encoding": "ascii",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x8478",
+                    "units": 12
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "remaining_points_label",
+            "source_encoding": "ascii",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x8488",
+                    "units": 6
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "confirm_yes",
+            "source_encoding": "ascii",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x8e1c",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "confirm_no",
+            "source_encoding": "ascii",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x8e21",
+                    "units": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "accept",
+            "source_encoding": "ascii",
+            "framing": {
+              "type": "zero_terminated"
+            },
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x8e24",
+                    "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "learned_magic_heading",
             "source_encoding": "game_font16_plain_skip",
             "framing": {
               "type": "terminated",

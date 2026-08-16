@@ -333,6 +333,16 @@ editable too. Twenty-four stock ASCII records bind these assets to exact
 `NORMCOM.BIN` offsets, while bitmap-only Japanese labels remain grounded in
 pinned retail regions. The English stays faithful to the mature Saturn output.
 
+The Level Up slice keeps its surface-owned wording in `ui/level_up.json`:
+the title, complete typed remaining-point form, OK action, Yes/No confirmation,
+and Learned Magic heading are all editable there. `LV`, `HP`, `MP`, `EXP`, and
+`NEXT` reuse the complete numeric templates in `ui/status.json`; character,
+magic, and skill names likewise continue to use their entity catalogues. The
+four-cell ornament before `LEFT` and the centering cell before `NO` remain
+renderer layout rather than authored spaces. The maximum-level `-------` and
+no-MP `---/---` fallbacks also live in this asset even though retail constructs
+them in code and therefore provides no physical text record to bind.
+
 The equipment slice keeps the shared stat vocabulary in `ui/status.json` and
 adds only the two equipment-specific actions to `ui/equipment.json`. COMP and
 shop consumers both use those fields. Shop `Inv.`, all character names, and all

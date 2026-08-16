@@ -16,7 +16,7 @@ from util.glyph_sets import CONFIG_PATH, load_glyph_sets  # noqa: E402
 
 
 class OutputGlyphSetTests(unittest.TestCase):
-    def test_stock_font8_is_selected_only_by_named_command_surfaces(self) -> None:
+    def test_stock_font8_is_selected_only_by_named_retail_font8_surfaces(self) -> None:
         catalog = load_glyph_sets()
         handler = catalog.handlers["font8_stock_latin"]
         self.assertEqual(
@@ -34,6 +34,13 @@ class OutputGlyphSetTests(unittest.TestCase):
                 "status.auto_command",
                 "status.auto_setting",
                 "status.party_alignment",
+                "level_up.numeric_readout",
+                "level_up.max_level_next",
+                "level_up.no_magic_points",
+                "level_up.title",
+                "level_up.remaining_points",
+                "level_up.accept_action",
+                "level_up.confirm_choice",
             },
         )
         self.assertIsNone(catalog.for_surface("event.dialogue"))

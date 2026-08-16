@@ -291,7 +291,7 @@ class StatusUiEngineTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "PREFIX"):
             _compile_status_templates(invalid)
 
-        unsupported = replace(_status_templates(), party_prefix="P-A-")
+        unsupported = replace(_status_templates(), party_prefix="P_A_")
         with patch(
             "engine.surfaces.status_ui._status_templates",
             return_value=unsupported,

@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "asset": "ui/level_up.json",
+  "records": {
+    "game.level_up_system.o008478": "title.text",
+    "game.level_up_system.o008488": "remaining_points.text",
+    "game.level_up_system.o008e1c": "confirm_yes.text",
+    "game.level_up_system.o008e21": "confirm_no.text",
+    "game.level_up_system.o008e24": "accept.text",
+    "game.level_up_system.o008f2c": "learned_magic_heading.text"
+  },
+  "composition": {
+    "game.level_up_system.o008488": {
+      "source_role": "suffix",
+      "supplies": [
+        "remaining_points"
+      ]
+    }
+  },
+  "record_surfaces": {
+    "game.level_up_system.o008478": [
+      "level_up.title"
+    ],
+    "game.level_up_system.o008488": [
+      "level_up.remaining_points"
+    ],
+    "game.level_up_system.o008e1c": [
+      "level_up.confirm_choice"
+    ],
+    "game.level_up_system.o008e21": [
+      "level_up.confirm_choice"
+    ],
+    "game.level_up_system.o008e24": [
+      "level_up.accept_action"
+    ],
+    "game.level_up_system.o008f2c": [
+      "level_up.learned_heading"
+    ]
+  }
+}

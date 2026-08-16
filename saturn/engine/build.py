@@ -47,6 +47,11 @@ from engine.surfaces.fusion import (  # noqa: E402
     CONFIG_PATH as FUSION_CONFIG_PATH,
     build_fusion_menu,
 )
+from engine.surfaces.level_up_ui import (  # noqa: E402
+    CONFIG_PATH as LEVEL_UP_CONFIG_PATH,
+    RUNTIME_CAVE as LEVEL_UP_RUNTIME_CAVE,
+    build_level_up_ui,
+)
 from engine.surfaces.field_messages import (  # noqa: E402
     CONFIG_PATH as FIELD_MESSAGES_CONFIG_PATH,
     build_field_messages,
@@ -75,6 +80,8 @@ STATUS_NORMCOM_OUTPUT_PATH = GENERATED_ROOT / "NORMCOM.BIN"
 STATUS_BUILD_MANIFEST_PATH = GENERATED_ROOT / "status_ui_build.json"
 OPTIONS_OUTPUT_PATH = GENERATED_ROOT / "CFG_SET.BIN"
 OPTIONS_BUILD_MANIFEST_PATH = GENERATED_ROOT / "options_ui_build.json"
+LEVEL_UP_OUTPUT_PATH = GENERATED_ROOT / "LEVEL_UP.BIN"
+LEVEL_UP_BUILD_MANIFEST_PATH = GENERATED_ROOT / "level_up_ui_build.json"
 DUNGEON_LOCATIONS_ROOT = GENERATED_ROOT / "dungeon_locations"
 DUNGEON_LOCATIONS_MAZE_PATH = DUNGEON_LOCATIONS_ROOT / "MAZE.BIN"
 DUNGEON_LOCATIONS_BUILD_MANIFEST_PATH = (
@@ -277,6 +284,49 @@ def build_options_surface() -> dict[Path, bytes]:
     }
 
 
+def build_level_up_surface() -> dict[Path, bytes]:
+    """Build the main Level Up panel and its Learned Magic window."""
+    result = build_level_up_ui()
+    manifest = {
+        "version": 1,
+        "surface": "level_up.ui",
+        "patch_config_sha256": file_sha256(LEVEL_UP_CONFIG_PATH),
+        "asset_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.asset_files
+        },
+        "runtime_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.runtime_input_files
+        },
+        "source_inputs": dict(result.source_inputs),
+        "assembly_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.assembly_files
+        },
+        "runtime": {
+            "address": f"0x{LEVEL_UP_RUNTIME_CAVE:08x}",
+            "end": f"0x{LEVEL_UP_RUNTIME_CAVE + result.runtime_used_size:08x}",
+            "bytes": result.runtime_used_size,
+            "capacity": 0x500,
+        },
+        "output": {
+            "file": "LEVEL_UP.BIN",
+            "sha256": sha256(result.data),
+        },
+        "patch_groups": list(
+            dict.fromkeys(patch.group for patch in result.patches)
+        ),
+        "patches": len(result.patches),
+    }
+    return {
+        LEVEL_UP_OUTPUT_PATH: result.data,
+        LEVEL_UP_BUILD_MANIFEST_PATH: (
+            json.dumps(manifest, indent=2) + "\n"
+        ).encode("utf-8"),
+    }
+
+
 def _generated_target_path(target: str) -> Path:
     return GENERATED_ROOT.joinpath(*PurePosixPath(target).parts)
 
@@ -427,6 +477,7 @@ def main() -> int:
             "equipment.ui",
             "status.ui",
             "options.ui",
+            "level_up.ui",
             "dungeon.locations",
             "field.messages",
         ),
@@ -443,6 +494,7 @@ def main() -> int:
             "equipment.ui": build_equipment_surface,
             "status.ui": build_status_surface,
             "options.ui": build_options_surface,
+            "level_up.ui": build_level_up_surface,
             "dungeon.locations": build_dungeon_locations_surface,
             "field.messages": build_field_messages_surface,
         }

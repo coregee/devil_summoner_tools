@@ -185,8 +185,8 @@ which storage path can display it without truncation.
 
 The game manifest covers 162 physical files and 60 source groups. Its four
 container types are EVE banks, pointer banks, fixed records with subfields, and
-explicit addressed spans. The generated corpus contains 16,053 records: 12,711
-text-bearing EVE pages and 3,342 other records. All 144 dungeon-location rows
+explicit addressed spans. The generated corpus contains 16,063 records: 12,711
+text-bearing EVE pages and 3,352 other records. All 144 dungeon-location rows
 remain distinct instead of collapsing to 24 repeated Japanese strings. Each
 row now verifies that its name bytes agree across the MAZE, AUTOMAP, SAVE, and
 LOAD tables; these four physical copies still produce one catalogue record.
@@ -365,6 +365,8 @@ personality value are also retained as separate, non-fungible components.
 The separate Learned Magic texture is 144x32 with two FONT16 rows. Its heading
 uses five Japanese cells and a conservative 128-pixel English contract; the
 ability row uses eight Japanese cells or 128 English pixels.
+The Level Up name texture likewise distinguishes the five fixed character
+assets (96px) from the live player codename (the full 128px row).
 Options-menu contracts retain the nine-cell setting-label and four-cell value
 limits while leaving their translated widths unknown. The ordering popup has
 four 80-pixel translated rows, controller actions have one 128-pixel row, and
@@ -373,19 +375,26 @@ compound glyphs and action-atlas chunks are derived output artifacts.
 
 Typeface selection is also a consumer contract, not authored punctuation.
 `config/glyph_sets.json` assigns the `font8_stock_latin` handler to the battle,
-COMP, shop, bar, healer, and status command surfaces, plus the status AUTO and
-P.A. compositions. That handler selects FONT8's named `stock_latin` reference
-set, preserving the retail appearance of labels such as `GO`, `COMP`, `BUY`,
-and `EQUIP`. Other FONT8 consumers continue to use the normal narrow-English
-mapping. No inline token or capitalization heuristic chooses between the two
-faces.
+COMP, shop, bar, healer, and status command surfaces, the status AUTO and P.A.
+compositions, and every fixed FONT8 Level Up label/readout. That handler selects
+FONT8's named `stock_latin` reference set, preserving the retail appearance of
+labels such as `GO`, `COMP`, `BUY`, `EQUIP`, and `LEVEL UP`. Other FONT8
+consumers continue to use the normal narrow-English mapping. No inline token or
+capitalization heuristic chooses between the two faces. The named stock set also
+publishes the source-preserved hyphen, full stop, and slash cells used by fixed
+numeric fallbacks and punctuation.
 
-LEVEL_UP extraction is still deliberately incomplete. The physical corpus
-currently contains only the FONT16 heading `魔法を習得` at `0x8f2c`; the ten
-visible ASCII records `LV`, `HP`, `MP`, `EXP`, `NEXT`, `LEVEL UP`, `LEFT`,
-`YES`, `NO`, and `OK` remain explicit next-tranche coverage debt. The leading
-layout blanks used by `LEFT` and `NO` must not become authored text when those
-records are added.
+LEVEL_UP extraction now covers all eleven proved visible records: the fixed
+FONT8 `LV`, `HP`, `MP`, `EXP`, `NEXT`, `LEVEL UP`, `LEFT`, `YES`, `NO`, and
+`OK` fields plus the FONT16 `魔法を習得` heading. The physical spans begin
+`LEFT` and `NO` at their first visible letters, so the preceding four ornament
+cells and one centering cell remain layout rather than authored spaces. The five
+numeric prefixes bind to the existing typed status templates; the other fields
+bind to `assets/text/ui/level_up.json`, including the complete typed
+remaining-point form and the mature `Learned Magic` translation. That asset also
+owns the runtime-constructed maximum-level `-------` and no-MP `---/---`
+fallbacks; the latter's post-slash alignment cell remains renderer layout. Their
+lack of corpus IDs is explicit because they have no stored text record.
 
 The physical catalogue includes the 16-entry battle action table at all three
 proved COMBAT, MAZE, and NORMCOM locations, the four item/skill actions, the

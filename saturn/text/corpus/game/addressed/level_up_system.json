@@ -1,5 +1,85 @@
 [
   {
+    "id": "game.level_up_system.o0079a4",
+    "source_encoding": "ascii",
+    "output_encoding": "",
+    "reference": "LV",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.level_up_system.o0079a8",
+    "source_encoding": "ascii",
+    "output_encoding": "",
+    "reference": "HP",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.level_up_system.o0079ac",
+    "source_encoding": "ascii",
+    "output_encoding": "",
+    "reference": "MP",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.level_up_system.o0079b0",
+    "source_encoding": "ascii",
+    "output_encoding": "",
+    "reference": "EXP",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.level_up_system.o0079b4",
+    "source_encoding": "ascii",
+    "output_encoding": "",
+    "reference": "NEXT",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.level_up_system.o008478",
+    "source_encoding": "ascii",
+    "output_encoding": "",
+    "reference": "LEVEL UP",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.level_up_system.o008488",
+    "source_encoding": "ascii",
+    "output_encoding": "",
+    "reference": "LEFT",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.level_up_system.o008e1c",
+    "source_encoding": "ascii",
+    "output_encoding": "",
+    "reference": "YES",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.level_up_system.o008e21",
+    "source_encoding": "ascii",
+    "output_encoding": "",
+    "reference": "NO",
+    "translation": "",
+    "note": ""
+  },
+  {
+    "id": "game.level_up_system.o008e24",
+    "source_encoding": "ascii",
+    "output_encoding": "",
+    "reference": "OK",
+    "translation": "",
+    "note": ""
+  },
+  {
     "id": "game.level_up_system.o008f2c",
     "source_encoding": "game_font16_plain_skip",
     "output_encoding": "",

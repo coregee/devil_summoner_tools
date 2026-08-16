@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "asset": "ui/status.json",
+  "records": {
+    "game.level_up_system.o0079a4": "level.text",
+    "game.level_up_system.o0079a8": "hit_points.text",
+    "game.level_up_system.o0079ac": "magic_points.text",
+    "game.level_up_system.o0079b0": "experience.text",
+    "game.level_up_system.o0079b4": "next_experience.text"
+  },
+  "composition": {
+    "game.level_up_system.o0079a4": {
+      "source_role": "prefix",
+      "supplies": [
+        "level"
+      ]
+    },
+    "game.level_up_system.o0079a8": {
+      "source_role": "prefix",
+      "supplies": [
+        "current_hp",
+        "maximum_hp"
+      ]
+    },
+    "game.level_up_system.o0079ac": {
+      "source_role": "prefix",
+      "supplies": [
+        "current_mp",
+        "maximum_mp"
+      ]
+    },
+    "game.level_up_system.o0079b0": {
+      "source_role": "prefix",
+      "supplies": [
+        "experience"
+      ]
+    },
+    "game.level_up_system.o0079b4": {
+      "source_role": "prefix",
+      "supplies": [
+        "experience_to_next"
+      ]
+    }
+  },
+  "record_surfaces": {
+    "game.level_up_system.o0079a4": [
+      "level_up.numeric_readout"
+    ],
+    "game.level_up_system.o0079a8": [
+      "level_up.numeric_readout"
+    ],
+    "game.level_up_system.o0079ac": [
+      "level_up.numeric_readout"
+    ],
+    "game.level_up_system.o0079b0": [
+      "level_up.numeric_readout"
+    ],
+    "game.level_up_system.o0079b4": [
+      "level_up.numeric_readout"
+    ]
+  }
+}

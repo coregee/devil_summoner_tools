@@ -415,7 +415,79 @@
         }
       }
     },
+    "level_up.live_codename": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 128
+        }
+      }
+    },
     "level_up.title": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      }
+    },
+    "level_up.numeric_readout": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": null,
+          "value": null
+        }
+      }
+    },
+    "level_up.max_level_next": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 7
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 7
+        }
+      }
+    },
+    "level_up.no_magic_points": {
       "ja": {
         "font": "font8",
         "rows": 1,

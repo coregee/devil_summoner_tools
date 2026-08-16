@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "title": {
+      "text": {
+        "reference": "LEVEL UP",
+        "translation": "LEVEL UP"
+      }
+    },
+    "remaining_points": {
+      "placeholders": {
+        "remaining_points": "number"
+      },
+      "note": "The renderer places a four-cell graphical ornament between the right-aligned value and this editable suffix; those layout cells are not authored spaces.",
+      "text": {
+        "reference": "{remaining_points} LEFT",
+        "translation": "{remaining_points} LEFT"
+      }
+    },
+    "max_level_next": {
+      "note": "Shown in the NEXT value field at maximum level. Retail constructs this at runtime rather than storing a text record.",
+      "text": {
+        "reference": "-------",
+        "translation": "-------"
+      }
+    },
+    "no_magic_points": {
+      "note": "Shown in the current/maximum MP fields when the actor has no MP capacity. Retail constructs this at runtime rather than storing a text record, and the renderer inserts one fixed alignment cell after the slash.",
+      "text": {
+        "reference": "---/---",
+        "translation": "---/---"
+      }
+    },
+    "accept": {
+      "text": {
+        "reference": "OK",
+        "translation": "OK"
+      }
+    },
+    "confirm_yes": {
+      "text": {
+        "reference": "YES",
+        "translation": "YES"
+      }
+    },
+    "confirm_no": {
+      "text": {
+        "reference": "NO",
+        "translation": "NO"
+      }
+    },
+    "learned_magic_heading": {
+      "text": {
+        "reference": "魔法を習得",
+        "translation": "Learned Magic"
+      }
+    }
+  }
+}

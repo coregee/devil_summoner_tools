@@ -547,7 +547,8 @@ The ordinary level-up panel is its own `LEVEL_UP.BIN` consumer. `LEVEL UP` is
 one fixed FONT8 row of eight cells. The character-name texture is 128x16: the
 Japanese path draws up to eight FONT16 cells, while the mature English path
 uses a 96px safe limit for the five asset-backed fixed names. The live player
-codename uses the same texture.
+codename uses the same texture but is a separate dynamic consumer with the full
+128px physical row; the fixed-name limit must not be misapplied to player input.
 
 The parameter display reuses the six base-stat labels, eight derived-stat
 labels, and the generic Attack and Accuracy variants from the detailed status
@@ -564,6 +565,14 @@ display has a right-aligned value, a four-cell graphical ornament, and a
 four-cell `LEFT` suffix. Its complete renderer spans at most 17 FONT8 cells:
 nine numeric cells, four ornament cells, and four label cells. The four spaces
 stored before `LEFT` reserve the ornament and are not authored text.
+
+Two exceptional numeric rows are still authored text even though retail builds
+them directly in code: maximum level replaces the seven-cell NEXT value with
+`-------`, and a character with no MP capacity displays the authored `---/---`
+form across the current/maximum MP layout. The renderer inserts one fixed
+alignment cell after the slash, producing eight displayed cells without making
+that gap translator-owned. Both fields use the preserved stock FONT8 hyphen and
+slash cells.
 
 The confirmation layer draws an `OK` action label in a two-cell FONT8 slot
 beside a button glyph, plus vertical `YES` and `NO` choices in three-cell FONT8

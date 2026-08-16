@@ -193,7 +193,23 @@ class SurfaceCatalogTests(unittest.TestCase):
                 ("font16", 1, "glyph_cells", 8),
                 ("font16", 1, "pixels", 96),
             ),
+            "level_up.live_codename": (
+                ("font16", 1, "glyph_cells", 8),
+                ("font16", 1, "pixels", 128),
+            ),
             "level_up.title": (
+                ("font8", 1, "glyph_cells", 8),
+                ("font8", 1, "glyph_cells", 8),
+            ),
+            "level_up.numeric_readout": (
+                ("font8", 1, None, None),
+                ("font8", 1, None, None),
+            ),
+            "level_up.max_level_next": (
+                ("font8", 1, "glyph_cells", 7),
+                ("font8", 1, "glyph_cells", 7),
+            ),
+            "level_up.no_magic_points": (
                 ("font8", 1, "glyph_cells", 8),
                 ("font8", 1, "glyph_cells", 8),
             ),

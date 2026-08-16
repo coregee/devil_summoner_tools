@@ -1,7 +1,7 @@
 {
   "file": "FONT8.FON",
   "sha256": "f2f04e98a9eb0d3ff9180d746280f6cbcd6b364e58ccb91721e36f6f6dc2ee5c",
-  "description": "Stock Latin cells 0-62, the original full stop at cell 176, and the original slash at cell 198 remain untouched and are published as the named stock_latin reference set for original English menu labels. Translated names use narrow Galmuri7 glyphs mapped over hiragana cells 63-117 and 205-229; katakana remains intact for Japanese fallbacks. EVENT's shop summary originally used cells 211-212 as compound Inv. tiles, so itemname_runtime reconstructs that label while retaining y/z in those cells. The bar screen also used cells 218-229 as compound REVIEW/STATUS tiles; status_ui rewrites those two static labels to canonical stock Latin codes while retaining the punctuation in those cells.",
+  "description": "Stock Latin cells 0-62 and the original hyphen, full stop, and slash at cells 174, 176, and 198 remain untouched and are published as the named stock_latin reference set for original English menu labels and numeric fallbacks. Translated names use narrow Galmuri7 glyphs mapped over hiragana cells 63-117 and 205-229; katakana remains intact for Japanese fallbacks. EVENT's shop summary originally used cells 211-212 as compound Inv. tiles, so itemname_runtime reconstructs that label while retaining y/z in those cells. The bar screen also used cells 218-229 as compound REVIEW/STATUS tiles; status_ui rewrites those two static labels to canonical stock Latin codes while retaining the punctuation in those cells.",
   "format": {
     "width": 8,
     "height": 8,
@@ -320,6 +320,11 @@
       {
         "start": 0,
         "characters": " 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+      },
+      {
+        "start": 174,
+        "characters": "‐",
+        "aliases": "-"
       },
       {
         "start": 176,

@@ -26,9 +26,10 @@ class FontReferenceSetTests(unittest.TestCase):
         expected_references = {
             character: code for code, character in enumerate(expected)
         }
+        expected_references["-"] = 174
         expected_references["."] = 176
         expected_references["/"] = 198
-        self.assertEqual(len(references), 65)
+        self.assertEqual(len(references), 66)
         self.assertEqual(references, expected_references)
         self.assertFalse(set(references.values()) & set(self.definition.replacements))
 
@@ -47,6 +48,10 @@ class FontReferenceSetTests(unittest.TestCase):
         stride = self.definition.format.glyph_stride
         preserved_end = 63 * stride
         self.assertEqual(result.data[:preserved_end], source[:preserved_end])
+        self.assertEqual(
+            result.data[174 * stride : 175 * stride],
+            source[174 * stride : 175 * stride],
+        )
         self.assertEqual(
             result.data[176 * stride : 177 * stride],
             source[176 * stride : 177 * stride],
@@ -75,10 +80,13 @@ class FontReferenceSetTests(unittest.TestCase):
 
     def test_reference_set_can_publish_an_ascii_alias_for_stock_punctuation(self) -> None:
         references = self.definition.reference_sets["stock_latin"]
+        self.assertEqual(references["-"], 174)
         self.assertEqual(references["."], 176)
         self.assertEqual(references["/"], 198)
+        self.assertNotIn("‐", references)
         self.assertNotIn("．", references)
         self.assertNotIn("／", references)
+        self.assertEqual(self.definition.glyphs[174], "‐")
         self.assertEqual(self.definition.glyphs[176], "．")
         self.assertEqual(self.definition.glyphs[198], "／")
 
