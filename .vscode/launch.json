@@ -1,0 +1,47 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Build Saturn Patch (Full)",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "python saturn/build.py default",
+      "cwd": "${workspaceFolder}",
+      "presentation": {
+        "hidden": false,
+        "group": "build",
+        "order": 1
+      },
+      "preLaunchTask": null,
+      "problemMatcher": []
+    },
+    {
+      "name": "Build Saturn Patch (Check Only)",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "python saturn/build.py default --check",
+      "cwd": "${workspaceFolder}",
+      "presentation": {
+        "hidden": false,
+        "group": "build",
+        "order": 2
+      },
+      "preLaunchTask": null,
+      "problemMatcher": []
+    },
+    {
+      "name": "Build Saturn Patch (Plan Only)",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "python saturn/build.py default --plan",
+      "cwd": "${workspaceFolder}",
+      "presentation": {
+        "hidden": false,
+        "group": "build",
+        "order": 3
+      },
+      "preLaunchTask": null,
+      "problemMatcher": []
+    }
+  ]
+}
