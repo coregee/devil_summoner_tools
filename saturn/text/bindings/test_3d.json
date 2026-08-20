@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "asset": "diagnostics/test_3d.json",
+  "records": {
+    "game.test3d_fields.o00695c": "title.text",
+    "game.test3d_fields.o006970": "control.text",
+    "game.test3d_fields.o006978": "map_number.text",
+    "game.test3d_fields.o006980": "direction.text",
+    "game.test3d_fields.o006988": "x_position.text",
+    "game.test3d_fields.o006990": "y_position.text",
+    "game.test3d_fields.o0069a0": "launch.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "diagnostics.test_3d"
+    ]
+  }
+}

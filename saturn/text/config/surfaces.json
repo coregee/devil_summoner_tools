@@ -1,6 +1,54 @@
 {
   "version": 1,
   "surfaces": {
+    "credits.main_name": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {"unit": "glyph_cells", "value": 6},
+        "glyphs": 6
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {"unit": "pixels", "value": 96},
+        "glyphs": 18
+      }
+    },
+    "credits.test_name": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {"unit": "glyph_cells", "value": 7},
+        "glyphs": 7
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {"unit": "pixels", "value": 112},
+        "glyphs": 18
+      }
+    },
+    "horoscope.message": {
+      "ja": {
+        "font": "font16",
+        "rows": 3,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 20
+        },
+        "glyphs": 60
+      },
+      "en": {
+        "font": "font16",
+        "rows": 3,
+        "width": {
+          "unit": "pixels",
+          "value": 320
+        },
+        "glyphs": 60
+      }
+    },
     "options.primary_label": {
       "ja": {
         "font": "font16",
@@ -442,16 +490,16 @@
         "font": "font16",
         "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "glyph_cells",
+          "value": 8
         }
       },
       "en": {
         "font": "font16",
         "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 126
         }
       }
     },
@@ -1142,6 +1190,42 @@
         }
       }
     },
+    "battle.party_empty": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 5
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 5
+        }
+      }
+    },
+    "battle.party_in_party": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      }
+    },
     "battle.analyze_race_heading": {
       "ja": {
         "font": "font8",
@@ -1283,6 +1367,42 @@
         "width": {
           "unit": "glyph_cells",
           "value": 16
+        }
+      }
+    },
+    "diagnostics.sound_test": {
+      "ja": {
+        "font": null,
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 19
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 19
+        }
+      }
+    },
+    "diagnostics.test_3d": {
+      "ja": {
+        "font": null,
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 19
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 19
         }
       }
     },
@@ -1864,109 +1984,113 @@
     },
     "compendium.profile_name": {
       "ja": {
-        "font": null,
-        "rows": null,
+        "font": "font16",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
-        }
+          "unit": "glyph_cells",
+          "value": 8
+        },
+        "glyphs": 8
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font8",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 128
         }
       }
     },
     "compendium.ability_name": {
       "ja": {
-        "font": null,
-        "rows": null,
+        "font": "font16",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
-        }
+          "unit": "glyph_cells",
+          "value": 8
+        },
+        "glyphs": 8
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font8",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 128
         }
       }
     },
     "compendium.race": {
       "ja": {
-        "font": null,
-        "rows": null,
+        "font": "font16",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
-        }
+          "unit": "glyph_cells",
+          "value": 3
+        },
+        "glyphs": 3
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font8",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 48
         }
       }
     },
     "compendium.origin": {
       "ja": {
-        "font": null,
-        "rows": null,
+        "font": "font16",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
-        }
+          "unit": "glyph_cells",
+          "value": 9
+        },
+        "glyphs": 9
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font8",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 144
         }
       }
     },
     "compendium.summary": {
       "ja": {
-        "font": null,
-        "rows": null,
+        "font": "font16",
+        "rows": 4,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "glyph_cells",
+          "value": 14
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font8",
+        "rows": 4,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 224
         }
       }
     },
     "compendium.detail": {
       "ja": {
-        "font": null,
-        "rows": null,
+        "font": "font16",
+        "rows": 12,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "glyph_cells",
+          "value": 14
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font8",
+        "rows": 12,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 224
         }
       }
     },
@@ -2106,11 +2230,11 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font8",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 64
         }
       }
     },
@@ -2142,11 +2266,11 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font8",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 64
         }
       }
     },
@@ -2160,11 +2284,11 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font8",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 104
         }
       }
     },
@@ -2214,11 +2338,29 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font8",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 104
+        }
+      }
+    },
+    "healer.all_members": {
+      "ja": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 8
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 144
         }
       }
     },
@@ -2232,11 +2374,11 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font8",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 104
         }
       }
     },

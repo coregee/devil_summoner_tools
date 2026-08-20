@@ -147,6 +147,25 @@ class FacilityAssetTests(unittest.TestCase):
             (all_members.reference, all_members.translation),
             ("メンバーすべて", "All Members"),
         )
+        healer_binding = self.bindings["facilities_healer.json"]
+        self.assertEqual(
+            healer_binding.records["game.event_healing.o0168f7"],
+            "all_members.text",
+        )
+        self.assertEqual(
+            healer_binding.record_surfaces["game.event_healing.o0168f7"],
+            ("healer.all_members",),
+        )
+        all_members_surface = load_surfaces().surface("healer.all_members")
+        self.assertEqual(
+            (
+                all_members_surface.en.font,
+                all_members_surface.en.rows,
+                all_members_surface.en.width.unit,
+                all_members_surface.en.width.value,
+            ),
+            ("font8", 1, "pixels", 144),
+        )
         gouma = self.assets["gouma_den"]
         self.assertEqual(
             gouma.entries["confirm_prompt"].fields["text"].translation,
@@ -158,6 +177,23 @@ class FacilityAssetTests(unittest.TestCase):
             ],
             "confirm_prompt.text",
         )
+
+    def test_event_bar_name_rows_use_the_mature_runtime_limits(self) -> None:
+        surfaces = load_surfaces()
+        expected = {
+            "bar.drink_name": 64,
+            "bar.patron_name": 64,
+            "bar.status_name": 104,
+            "healer.member_name": 104,
+            "healer.status_name": 104,
+        }
+        for name, width in expected.items():
+            with self.subTest(surface=name):
+                layout = surfaces.surface(name).en
+                self.assertEqual(
+                    (layout.font, layout.rows, layout.width.unit, layout.width.value),
+                    ("font8", 1, "pixels", width),
+                )
 
     def test_shop_inventory_wording_and_geometry_are_not_runtime_literals(self) -> None:
         inventory = self.assets["shop"].entries["inventory_label"].fields["text"]

@@ -79,6 +79,29 @@ unmeasured. Any packed or compound glyphs used to meet these limits are
 generated from the complete authored words and are not separately maintained
 text.
 
+### Horoscope Vision
+
+The fortune-telling sequence in `HOSI.BIN` displays eight FONT16 story
+messages through the stock progressive-reveal renderer. Each message may use
+up to three rows of 20 fixed cells; wrapping occurs only at authored spaces,
+and the runtime reveal stream is limited to 64 words including line controls
+and its terminator. The translated messages describe the five locations and
+the magic circle, and are owned together by `assets/text/ui/horoscope.json`.
+The English runtime relocates them into a checked 1,024-byte pool and links the
+eight stock pointer literals to their generated rows. Line breaks, pool
+addresses, and reveal pacing are renderer output rather than separately
+authored prose.
+
+### End Credits
+
+`END_ROLL.BIN` has two staff-name consumers. The main rolling credits contain
+28 FONT16 names in six-cell/96-pixel rows; two staff-test grids contain another
+12 names in seven-cell/112-pixel rows. All 40 people are independently authored
+under `assets/text/credits/names.json`. The translated renderer precomposes each
+complete proportional name into the fixed row and horizontally scales only an
+overflowing row, rather than truncating the person's name or maintaining a
+short runtime alias. Names may contain at most 18 generated FONT16 glyphs.
+
 ### Save/Load Screens
 
 SAVE and LOAD list three slots using FONT16. Their headings and top selectors are
@@ -468,6 +491,18 @@ The party panels are a set of six rectangular panels located near the bottom of 
 Each panel consists of two rows. The top is a FONT8 consumer, 8 glyphs (though space for ~12); it's the demon/player/unit's name (left-justified) or "EMPTY" (centered) when no unit is present.
 The bottom row uses FONT6 and consists of the HP/MP labels and dynamic values. It may not require a special renderer hook, but its visible labels/templates must still be asset-owned.
 
+COMBAT constructs the sentinel top rows directly in code. `EMPTY` is a
+five-cell row and the related stock-party list uses the eight-cell `IN PARTY`
+row. Both are now complete fields in `assets/text/battle/party_panel.json` and
+the Battle UI assembler resolves their glyphs through the preserved FONT8
+`stock_latin` set. Padding and centering remain renderer layout.
+
+The MAZE stock-party list is also migrated. Its compact FONT8 renderer shares
+the same asset-driven 319-demon/six-character name compiler as the COMP menu,
+but owns separate MAZE code caves and three call-site pointers. Long names use
+the bounded packed-name path; edits may relocate the drawer within its declared
+2,048-byte arena, and all three links are rebuilt from the resulting label.
+
 #### Analyze
 
 Pressing R in combat highlights a demon, and displays the demon analyze window on the right of the screen.
@@ -507,9 +542,13 @@ The retail battle action table is present as three byte-identical physical
 copies in COMBAT, MAZE, and NORMCOM. Its exact visible spellings are `OFFENCE`
 and `DEFENCE`; these are retained as consumer-specific variants of the shared
 `OFFENSE` and `DEFENSE` terminology. The four item/skill actions and the rest
-of that table are physically catalogued. The render selectors for `FIGHT`,
-`TALK`, `ESCAPE`, `AUTO`, `PRESET`, and `REPEAT` have not yet been proved, so
-their authored fields remain explicit binding debt rather than inferred uses.
+of that table are physically catalogued. An exhaustive COMBAT storage and
+call-site audit found no byte or word text records for the primary selectors
+`FIGHT`, `TALK`, `ESCAPE`, `AUTO`, `PRESET`, and `REPEAT`: their retail English
+lettering is preserved precomposed graphic/font content rather than this text
+table. Their semantic fields remain authored, but changing their visible
+lettering requires the corresponding graphic/font path, not an invented binary
+text binding.
 
 #### Item/Skill Windows
 
@@ -645,6 +684,8 @@ numeric substitution remain engine layout; every visible word is resolved from
 ##### Human Status
 
 The human status screen has the player/human's codename/name in the top-left in FONT16.
+It uses the same eight-cell, 128x16 name raster as the demon detail view: text
+starts at x=2, leaving a 126-pixel English contract.
 
 Below is a 5-line list in FONT8 of :
 LV ##
@@ -802,6 +843,13 @@ Most fusion consumers are FONT12.
 The demon compendium doesn't exist in the original Saturn release. However, it was included in a non-gameplay form with a bonus pack-in disc "Akuma Zensho".
 This disc includes demon lore entries that would later appear in-game in the PSP version. For that reason, these should be translated and paired with their respective parent demons.
 
+The Saturn bonus-disc executable draws the selected profile from a fixed
+0x1dc-byte tail: origin is one 144px row, summary is four 224px rows, and the
+full detail is twelve 224px rows. Demon and ability names use one 128px row;
+race labels use one 48px row. English uses the narrow FONT8 raster embedded by
+the compendium renderer, while the stock fixed-cell path remains available for
+untranslated evidence and unrelated Japanese UI.
+
 #### Top Menus
 We have nested windows.
 ２身合体
@@ -899,12 +947,16 @@ There are similar info windows to the Shop screen, displaying current money, and
 ORDER shows a list of 2-row drink blocks, 7 in total.
 Each drink is represented as two rows.
 Top is 8 chars of FONT8 kana, bottom is yen symbol, with space for 7 digits (right-aligned).
+The translated drink-name row is one FONT8 line with a 64-pixel limit.
 
 #### Patron List
 TALK shows a list of 1-row patron names, each FONT8 with space for 8 kana.
+The translated patron row likewise has a 64-pixel limit.
 
 #### Status List
 Like the fusion status list window, but FONT8.
+The bar's party/info and status names share the mature runtime's 104-pixel
+FONT8 name pool.
 
 #### Help Window
 
@@ -921,6 +973,9 @@ Top row: An interpunct, followed by space for 8 glyphs.
 Bottom row: yen, followed by space for a cost of 6 glyphs.
 The list is prefaced with "メンバーすべて" as one of the targets.
 The list shows up to 8 targets, and can be scrolled.
+The translated all-members row has its own full-row drawer and a 144-pixel
+FONT8 contract. Ordinary character and demon rows instead use the shared
+104-pixel facility-name pool.
 
 #### Heal One List
 Similar to the Heal All list, however the window has been widened.
@@ -929,6 +984,7 @@ Each unit shows, after the top row name, HP ####/####, and after the bottom row 
 #### Status List
 
 Like the fusion status list window, but FONT8.
+Character and demon names use the same 104-pixel facility-name contract.
 
 ### MAG Exchange
 
@@ -941,3 +997,13 @@ When converting mag, two additional FONT8 help windows appear.
 and
 RATE
 {mag symbol}10={yen symbol}{current rate} (or vice-versa, depending on the exchange).
+
+## Developer Diagnostic Overlays
+
+SNDTEST displays a fixed-cell ASCII title, two request-number prefixes, and an
+exit message. TEST3D displays a title, five parameter labels, and its launch
+prompt through the same kind of embedded ASCII tile path. These eleven fields
+are developer-facing but on-screen, so they remain ordinary authored text in
+`assets/text/diagnostics/`. Their native records require ASCII, a terminating
+NUL, and exact per-field capacities; trailing spaces in parameter prefixes are
+meaningful separators or alignment, not normalization noise.

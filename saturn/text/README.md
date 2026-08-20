@@ -86,6 +86,18 @@ and the race catalogue own their lines independently of the parent file. Saturn
 bindings retain exact physical grounding without putting file offsets or table
 indices into semantic asset identities.
 
+The eight `HOSI.BIN` messages bind to `assets/text/ui/horoscope.json` and the
+`horoscope.message` surface. The retail renderer supplies three 20-cell FONT16
+rows and a 64-word progressive-reveal stream. The engine compiler inserts only
+derived word-boundary line controls and relocates the complete authored
+messages into the overlay's verified zero pool.
+
+The 40 `END_ROLL.BIN` records bind to `assets/text/credits/names.json`.
+Twenty-eight use the six-cell `credits.main_name` surface and twelve use the
+seven-cell `credits.test_name` surface. Both accept complete names up to 18
+FONT16 glyphs; the engine precomposes the proportional row and scales only when
+its measured width exceeds the physical 96- or 112-pixel destination.
+
 ## Extraction
 
 ```powershell
@@ -165,6 +177,21 @@ The corresponding `fusion.menu` engine target installs the FONT8/FONT12
 consumer renderers required by the direct records. The compact chart labels
 come from their own editable race fields rather than being treated as file-local
 text or silently derived from the longer table labels.
+
+The terminal `EVENT.BIN` status and facility consumers use the same semantic
+catalogues rather than a second runtime-text document. The manifest grounds all
+43 race rows at `0x54828`, all 96 affinity rows at `0x5492a`, all 16 drink rows,
+all six patron rows, and the healer's split all-members source. The mature
+direct-table edits are exactly race 22 plus affinities 1, 29, 51, 52, 60, 64,
+and 66 through 95: 37 physical EVENT mirrors with their existing race or
+affinity owners. `DVLNAME.DAT`, `CHARNAME.DAT`, and `MAGNAME.DAT` remain the
+single sources for demon, character, and ability names.
+
+Facility list geometry is explicit as well. Drink and patron rows are
+64-pixel FONT8 consumers; the shared character/demon pool is capped at 104
+pixels; and the healer's distinct all-members drawer has 144 pixels. The
+detailed human name uses the same eight-cell, 126-pixel FONT16 raster as the
+demon name. No renderer-owned duplicate wording is required.
 
 ## Battle-negotiation repacking
 
@@ -280,6 +307,24 @@ the independently rendered 319-demon-name table at `0x5d9b0`, the
 Tail-only identity checks allow future profile-image changes in the DVL files
 while still failing on any changed text byte.
 
+The executable layout is now proved as well. `A_DIC.BIN` loads the selected
+profile at `0x00210000`; origin is one 144-pixel row, summary is four
+224-pixel rows, and detail is twelve 224-pixel rows. Summary begins at the
+last origin-layout word (`0x7801c`) and detail begins at the last
+summary-layout word (`0x7808c`), so those two leading zero words are renderer
+scaffolds rather than authored whitespace. The aggregate 0x1dc-byte tail ends
+exactly after the twelfth detail row.
+
+The stock compendium font has no spare glyph bank: code zero is the only blank
+cell, and all 2,047 other cells contain raster data. The engine therefore has a
+reversible compact-row codec rather than overwriting unclassified Japanese UI
+glyphs. Its deterministic 64-entry dictionary plus tagged five-bit stream has
+been exhaustively checked against the 1,494 translated physical records: every
+profile paragraph and fixed A_DIC name fits both its proved pixel geometry and
+its existing word storage. Four independently addressed race-supplement rows
+remain explicitly untranslated and are excluded from compact encoding until
+their semantics are resolved.
+
 Other `A_DIC.BIN` sections remain outside the manifest. Read-only discovery
 proves 48 race-description layouts and 11 fusion-help rows. The description
 layouts mix labels, prose, and an unexplained marker, while adjacent regions are
@@ -340,8 +385,9 @@ The compendium font remains independent from the game font. Its mapping now
 covers all 1,703 nonzero glyph codes demonstrated by the 292 profile tails.
 Three duplicated Unicode values occupy six physical codes, so their 29 profile
 occurrences remain lossless `{GLYPH:xxxx}` tokens rather than collapsing numeric
-identity. No replacement-font or renderer contract is implied by this source
-mapping.
+identity. No replacement-font contract is implied by this source mapping; the
+compact renderer contract embeds only the generated narrow Latin rasters it
+consumes and does not modify `FONT16.FON`.
 
 Containers remove record terminators and structural padding; codecs apply only
 the selected encoding's declared zero meaning. This keeps the same encoding
@@ -515,9 +561,25 @@ The physical catalogue includes the 16-entry battle action table at all three
 proved COMBAT, MAZE, and NORMCOM locations, the four item/skill actions, the
 five COMP commands, and twelve shared facility commands. Compound stock cells
 for `REVIVE` and `STATUS` are normalized by explicit binding maps rather than
-being taught to the general source decoder. The primary battle selectors for
-`FIGHT`, `TALK`, `ESCAPE`, `AUTO`, `PRESET`, and `REPEAT` are still unlocated;
-their wording is editable, but they remain recorded consumer-binding debt.
+being taught to the general source decoder. The primary battle selectors
+`FIGHT`, `TALK`, `ESCAPE`, `AUTO`, `PRESET`, and `REPEAT` have no byte or word
+text records in COMBAT after an exhaustive storage/call-site audit. Their
+retail English lettering is therefore classified as preserved
+graphic/font-owned content rather than assigned a speculative text binding.
+The authored command fields remain the semantic source for a future
+visual/font migration.
+
+COMBAT's code-built party-state rows are separately explicit text ownership:
+`assets/text/battle/party_panel.json` supplies complete `EMPTY` and `IN PARTY`
+labels, with exact five- and eight-cell surfaces and the preserved FONT8
+`stock_latin` handler.
+
+SNDTEST and TEST3D contribute eleven on-screen fixed-cell diagnostic fields.
+They are owned by `assets/text/diagnostics/sound_test.json` and
+`assets/text/diagnostics/test_3d.json`, bound to their addressed physical
+records, and compiled as ASCII with an explicit NUL into the exact 7-, 8-, 11-,
+17-, or 19-visible-cell native fields. Meaningful trailing spaces are preserved
+instead of normalized away.
 
 ## Implementation plan
 
@@ -585,9 +647,12 @@ their wording is editable, but they remain recorded consumer-binding debt.
     fields. The zero-length `CONFIG` table row is retained as dormant data; the
     visible serif heading is graphical. The readable engine stage matches the
     mature `CFG_SET.BIN` output exactly.
-14. Continue with the bounded MAZE field-message and dungeon-location consumer
-    family; do not introduce one global repack or engine capability graph
-    before another consumer needs shared machinery.
+14. **Complete for the MAZE consumer family:** compose dungeon locations,
+    field messages, and the compact-name party panel as three checked stages;
+    share only the pure party-name compiler with COMP, and keep all executable
+    caves and pointers target-owned.
+15. Continue with the already-surfaced Akuma Zensho/compendium text compiler,
+    then the remaining bounded HOSI and END_ROLL consumers.
 
 Extraction verifies source files, decodes every record readably, preserves
 unknown glyph and control identity after declared zero normalization, and

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "title": {
+      "text": {
+        "reference": "Sound Test Program",
+        "translation": "Sound Test Program"
+      }
+    },
+    "request_number": {
+      "text": {
+        "reference": "Req No ",
+        "translation": "Req No ",
+        "note": "The trailing space separates this label from the runtime number."
+      }
+    },
+    "sound_effect_request_number": {
+      "text": {
+        "reference": "Se Req No ",
+        "translation": "Se Req No ",
+        "note": "The trailing space separates this label from the runtime number."
+      }
+    },
+    "exit_message": {
+      "text": {
+        "reference": "Sound Test Exit!!",
+        "translation": "Sound Test Exit!!"
+      }
+    }
+  }
+}

@@ -92,16 +92,17 @@ class MazeBuildIntegrationTests(unittest.TestCase):
             {row["source"] for row in files},
         )
         self.assertNotIn("build_dungeon_locations_engine", steps)
+        self.assertNotIn("build_field_messages_engine", steps)
         self.assertEqual(
-            steps["build_field_messages_engine"]["arguments"],
-            ["field.messages"],
+            steps["build_maze_party_panel_engine"]["arguments"],
+            ["maze.party_panel"],
         )
         profile = document["profiles"]["default"]["steps"]
-        start = profile.index("build_field_messages_engine")
+        start = profile.index("build_maze_party_panel_engine")
         self.assertEqual(
             profile[start : start + 2],
             [
-                "build_field_messages_engine",
+                "build_maze_party_panel_engine",
                 "install_maze_engine",
             ],
         )

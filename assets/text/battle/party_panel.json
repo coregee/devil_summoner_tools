@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "empty": {
+      "text": {
+        "reference": "EMPTY",
+        "translation": "EMPTY"
+      }
+    },
+    "in_party": {
+      "text": {
+        "reference": "IN PARTY",
+        "translation": "IN PARTY"
+      }
+    }
+  }
+}

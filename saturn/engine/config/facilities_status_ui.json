@@ -1,0 +1,561 @@
+{
+  "version": 2,
+  "surface": "facilities.status_ui",
+  "targets": {
+    "EVENT.BIN": {
+      "load_address": "0x06020000",
+      "size": 354072,
+      "stock_sha256": "73a24f782f6618081028511e9fcc4c845a79a577e1907a6a6affc9e9f1e2ce84"
+    }
+  },
+  "inputs": {
+    "font8_sha256": "c656c783225271ae1910224b85eba9431ad2c27e96bfdab797e8499f77eeff7c",
+    "font8_metrics_sha256": "82f688a7a2bc2efd1caa32555968c456c332d30813bd7e2b3c8af08b7f2978c6",
+    "font16_sha256": "89272c66b96536658c271e061ff8c15198a1bbc4c01c4e17f23575897dca0acc",
+    "font16_metrics_sha256": "3ce6e6c916da3f4bc3c7a702c9ae07f84519185a45e2f733c13726cab6532fa3",
+    "stock_dvlname_sha256": "9a0042b23e8b7908d90af7aaf77e4089eec082a1ad12cb2bea9c1c3a337a68dc",
+    "stock_font16_sha256": "177c86a2df07f001257bcd3d05dacee3417c21b8140d3174be1da58934ddc2d6",
+    "stock_charname_sha256": "24da89dc810499d857344dc7c96a847e41ebe4eba854b88b926f0f262cea1a3c"
+  },
+  "groups": [
+    {
+      "capability": "fusion.status_ui",
+      "target": "EVENT.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "fusion_parameter_nodes",
+          "address": "0x06068fcc",
+          "expected_sha256": "c1635e930f58c93218327b18c29e17c6cac03e7d75a694930d47f30044a6a204",
+          "expected_size": 3072,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "fusion_parameter_rows",
+          "address": "0x06069bcc",
+          "expected_sha256": "05c5b4209860c1de992ae806c1832bff5c2ed3600cb2f106e6718fa377879d9f",
+          "expected_size": 9216,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "fusion_generic_attack_label",
+          "address": "0x0606bfcc",
+          "expected_sha256": "86c69aedbccf3b6417f9d544b86d2718ffc6ad705b00b019769dedcb735c79aa",
+          "expected_size": 1152,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "fusion_generic_accuracy_label",
+          "address": "0x0606c44c",
+          "expected_sha256": "d7c9a5237611fd0953a7838b24ddb754e9d2354c104d2a8c8283f956e5ce37d9",
+          "expected_size": 1152,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "fusion_personality_label_0",
+          "address": "0x0606c8cc",
+          "expected_sha256": "b4a73e08c55faa6eab2af2339fbb5c2935b34bf2b52316f195bc18fc17b51641",
+          "expected_size": 960,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "fusion_personality_label_1",
+          "address": "0x0606cc8c",
+          "expected_sha256": "45b101d6b820755c21eec51ab799eb9326cf5cdedaab12fe41e26b9106f92d2a",
+          "expected_size": 960,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "fusion_personality_label_2",
+          "address": "0x0606d04c",
+          "expected_sha256": "489ae907ab9e09c2fe15c5729df08c56f5c73dc39d3f76d1eea45fae8d85d97a",
+          "expected_size": 960,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "fusion_personality_label_3",
+          "address": "0x0606d40c",
+          "expected_sha256": "fa04efe2b0b8c9bb48be3e9167058469cdfb7c894f541fa6366eb83d490423ee",
+          "expected_size": 960,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "fusion_personality_label_4",
+          "address": "0x0606d7cc",
+          "expected_sha256": "8d3232fcacc75dc42745a64aa999668071200365aff51a83eea6c245c554220e",
+          "expected_size": 960,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "fusion_personality_label_5",
+          "address": "0x0606db8c",
+          "expected_sha256": "e6816bc1a3127e0c2bc29619427bd53aea18c1d87afb27edea41bc61e57675fa",
+          "expected_size": 960,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "fusion_personality_label_6",
+          "address": "0x0606df4c",
+          "expected_sha256": "1d39f8485aecb63c5c618f0d5946f7fbc8b23a3b0cc779c511ba7a519c6f9468",
+          "expected_size": 960,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "fusion_personality_label_7",
+          "address": "0x0606e30c",
+          "expected_sha256": "c2141b8196d50c4dd7d25f3e848f65f77a921c12c35597a164962230e22e5466",
+          "expected_size": 960,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "fusion_personality_label_8",
+          "address": "0x0606e6cc",
+          "expected_sha256": "f05de1981bca1535d3f20684671761d2328a099f78e7b82c02b87a5b240539f2",
+          "expected_size": 960,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "fusion_personality_label_9",
+          "address": "0x0606ea8c",
+          "expected_sha256": "fcc14355cf6c2b501201ced5c5b88b9bd2743f803309f362850723c33a87a3f2",
+          "expected_size": 960,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "fusion_personality_label_10",
+          "address": "0x0606ee4c",
+          "expected_sha256": "b3adae541bcbf63e00aaefca7944889b45a9fc9aafa6bb5aa2f5226ab37ea780",
+          "expected_size": 960,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "fusion_status_runtime",
+          "address": "0x06023294",
+          "expected_zero_bytes": 12908,
+          "assembly": [
+            "facilities_status_ui/font16_vwf.s",
+            "facilities_status_ui/font16_from_font8.s",
+            "facilities_status_ui/skill_vwf.s",
+            "facilities_status_ui/affinity_font8_vwf.s",
+            "facilities_status_ui/status_skill_dispatcher.s",
+            "facilities_status_ui/name_race_dispatcher.s",
+            "facilities_status_ui/affinity_dispatcher.s",
+            "facilities_status_ui/font8_surface_blitter.s",
+            "facilities_status_ui/facility_name_drawers.s",
+            "facilities_status_ui/event_term_inserts.s"
+          ]
+        },
+        {
+          "name": "fusion_name_race_drawer",
+          "address": "0x06054bcc",
+          "expected": "060517c4",
+          "linked_pointer": "fusion_name_race_drawer"
+        },
+        {
+          "name": "fusion_skill_name_drawer",
+          "address": "0x060582a8",
+          "expected": "06051830",
+          "linked_pointer": "fusion_skill_name_drawer"
+        },
+        {
+          "name": "fusion_status_skill_drawer",
+          "address": "0x06055744",
+          "expected": "06051830",
+          "linked_pointer": "fusion_status_skill_drawer"
+        },
+        {
+          "name": "fusion_affinity_drawer",
+          "address": "0x06055e44",
+          "expected": "060517c4",
+          "linked_pointer": "fusion_affinity_drawer"
+        }
+      ]
+    },
+    {
+      "capability": "event.term_inserts",
+      "target": "EVENT.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "event_dialogue_character_name_insert",
+          "address": "0x0602c3a8",
+          "expected": "2f864f22d7156371603d20088d05684388018d16e600a01d0009d211e1012210613371012711d00f400b0009e114281ed20dd10e061a316c2212d20d910da0092211d30c92096131212923112761d204e10022104f26000b68f67fff060be9e8060767600602bea8060bf6e0060bf80c060bfd0006076bc4",
+          "assembly": [
+            "facilities_status_ui/event_character_insert.s"
+          ]
+        },
+        {
+          "name": "event_dialogue_demon_name_insert",
+          "address": "0x0602c0dc",
+          "expected": "0602c84c",
+          "linked_pointer": "event_dialogue_demon_name_insert"
+        },
+        {
+          "name": "event_dialogue_race_insert",
+          "address": "0x0602c0ec",
+          "expected": "0602c9f0",
+          "linked_pointer": "event_dialogue_race_insert"
+        }
+      ]
+    },
+    {
+      "capability": "facilities.command_ui",
+      "target": "EVENT.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "facility_revive_status_aliases",
+          "address": "0x060625f8",
+          "expected": "dadbdcdddedfe0e1e2e3e4e5",
+          "generated": "facilities_status_data"
+        }
+      ]
+    },
+    {
+      "capability": "bar.status_ui",
+      "target": "EVENT.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "bar_drink_name_drawer",
+          "address": "0x06039db0",
+          "expected": "06039b48",
+          "linked_pointer": "bar_drink_name_drawer"
+        },
+        {
+          "name": "bar_talk_role_drawer",
+          "address": "0x06039e80",
+          "expected": "06039c24",
+          "linked_pointer": "bar_talk_role_drawer"
+        },
+        {
+          "name": "bar_status_name_glyph",
+          "address": "0x06039fcc",
+          "expected": "0602d868",
+          "linked_pointer": "bar_status_name_glyph"
+        },
+        {
+          "name": "bar_party_name_glyph",
+          "address": "0x06039b40",
+          "expected": "0602d868",
+          "linked_pointer": "bar_party_name_glyph"
+        }
+      ]
+    },
+    {
+      "capability": "healer.status_ui",
+      "target": "EVENT.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "healing_all_drawer_0",
+          "address": "0x06037728",
+          "expected": "06036860",
+          "linked_pointer": "healing_all_drawer"
+        },
+        {
+          "name": "healing_all_drawer_1",
+          "address": "0x06037940",
+          "expected": "06036860",
+          "linked_pointer": "healing_all_drawer"
+        },
+        {
+          "name": "healing_all_drawer_2",
+          "address": "0x06037ba8",
+          "expected": "06036860",
+          "linked_pointer": "healing_all_drawer"
+        },
+        {
+          "name": "healing_name_drawer_0",
+          "address": "0x0603780c",
+          "expected": "06036fb8",
+          "linked_pointer": "healing_name_drawer"
+        },
+        {
+          "name": "healing_name_drawer_1",
+          "address": "0x06037a5c",
+          "expected": "06036fb8",
+          "linked_pointer": "healing_name_drawer"
+        },
+        {
+          "name": "healing_name_drawer_2",
+          "address": "0x06037cd0",
+          "expected": "06036fb8",
+          "linked_pointer": "healing_name_drawer"
+        },
+        {
+          "name": "healing_name_drawer_3",
+          "address": "0x06037d74",
+          "expected": "06036fb8",
+          "linked_pointer": "healing_name_drawer"
+        }
+      ]
+    },
+    {
+      "capability": "event.fixed_text_compatibility",
+      "target": "EVENT.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "races_022",
+          "address": "0x060748ac",
+          "expected_sha256": "5ce4d17968bf089695834c49b6c3b48c521dd8bfe0b13a24674b618e06adb0a5",
+          "expected_size": 6,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_001",
+          "address": "0x0607494c",
+          "expected_sha256": "0678635c054644f9ac5b9ff1f3df37b4d183e8429e8d5a9e51aef019643da6e6",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_029",
+          "address": "0x06074d04",
+          "expected_sha256": "0678635c054644f9ac5b9ff1f3df37b4d183e8429e8d5a9e51aef019643da6e6",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_051",
+          "address": "0x06074ff0",
+          "expected_sha256": "e16c93e327356c0cca7fe3ed45d78d4963ef5c0976fc9f92bdcf17cfeb2272b3",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_052",
+          "address": "0x06075012",
+          "expected_sha256": "87212451f66e53a191434e49a0bb39e0d59df936246f02f97f50b120c5668bdd",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_060",
+          "address": "0x06075122",
+          "expected_sha256": "da553b2be8a247bfae468d48f1eda14ba7f4b3eabff469ad1019f99030b450ff",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_064",
+          "address": "0x060751aa",
+          "expected_sha256": "89eb5b9336e7f87c949cb8038ee0904b61a5cdf55464f975b01f4a28d45e2de2",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_066",
+          "address": "0x060751ee",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_067",
+          "address": "0x06075210",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_068",
+          "address": "0x06075232",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_069",
+          "address": "0x06075254",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_070",
+          "address": "0x06075276",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_071",
+          "address": "0x06075298",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_072",
+          "address": "0x060752ba",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_073",
+          "address": "0x060752dc",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_074",
+          "address": "0x060752fe",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_075",
+          "address": "0x06075320",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_076",
+          "address": "0x06075342",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_077",
+          "address": "0x06075364",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_078",
+          "address": "0x06075386",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_079",
+          "address": "0x060753a8",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_080",
+          "address": "0x060753ca",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_081",
+          "address": "0x060753ec",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_082",
+          "address": "0x0607540e",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_083",
+          "address": "0x06075430",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_084",
+          "address": "0x06075452",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_085",
+          "address": "0x06075474",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_086",
+          "address": "0x06075496",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_087",
+          "address": "0x060754b8",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_088",
+          "address": "0x060754da",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_089",
+          "address": "0x060754fc",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_090",
+          "address": "0x0607551e",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_091",
+          "address": "0x06075540",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_092",
+          "address": "0x06075562",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_093",
+          "address": "0x06075584",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_094",
+          "address": "0x060755a6",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        },
+        {
+          "name": "affinities_095",
+          "address": "0x060755c8",
+          "expected_sha256": "178a5ea38f23790570b4d103b3181b5ca522a34a7084c56d28c8b29698eb0798",
+          "expected_size": 34,
+          "generated": "facilities_status_data"
+        }
+      ]
+    }
+  ]
+}

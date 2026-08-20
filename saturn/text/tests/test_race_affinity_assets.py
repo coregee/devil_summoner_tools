@@ -11,6 +11,79 @@ if str(TEXT_ROOT) not in sys.path:
     sys.path.insert(0, str(TEXT_ROOT))
 
 from util.assets import BINDING_ROOT, load_asset, load_binding  # noqa: E402
+from util.sources import load_manifest, manifest_path  # noqa: E402
+
+
+EVENT_MIRROR_RACE_INDICES = (22,)
+EVENT_MIRROR_AFFINITY_INDICES = (
+    1,
+    29,
+    51,
+    52,
+    60,
+    64,
+    *range(66, 96),
+)
+
+
+class EventStatusTermOwnershipTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls) -> None:
+        manifest = load_manifest(manifest_path("game"))
+        cls.source = next(
+            source for source in manifest.sources if source.name == "normcom_tables"
+        )
+        cls.races = load_asset("races.json")
+        cls.affinities = load_asset("affinities.json")
+        cls.race_binding = load_binding(BINDING_ROOT / "races.json")
+        cls.affinity_binding = load_binding(BINDING_ROOT / "affinities.json")
+
+    def test_event_uses_the_canonical_race_and_affinity_records(self) -> None:
+        tables = {table["name"]: table for table in self.source.container["tables"]}
+        self.assertIn(
+            {
+                "file": "event_bin",
+                "base": "0x54828",
+                "stride": "0x6",
+                "units": 3,
+            },
+            tables["races"]["locations"],
+        )
+        self.assertIn(
+            {
+                "file": "event_bin",
+                "base": "0x5492a",
+                "stride": "0x22",
+                "units": 17,
+            },
+            tables["affinities"]["locations"],
+        )
+        self.assertEqual(
+            (tables["races"]["count"], tables["affinities"]["count"]),
+            (43, 96),
+        )
+
+    def test_all_37_mature_event_mirrors_have_semantic_owners(self) -> None:
+        race_records = tuple(
+            f"game.normcom_tables.races.r{index:04d}"
+            for index in EVENT_MIRROR_RACE_INDICES
+        )
+        affinity_records = tuple(
+            f"game.normcom_tables.affinities.r{index:04d}"
+            for index in EVENT_MIRROR_AFFINITY_INDICES
+        )
+        self.assertEqual(len(race_records) + len(affinity_records), 37)
+        for physical_id in race_records:
+            asset_ref = self.race_binding.records[physical_id]
+            self.assertTrue(self.races.field(asset_ref).translation)
+        for physical_id in affinity_records:
+            asset_ref = self.affinity_binding.records[physical_id]
+            self.assertTrue(self.affinities.field(asset_ref).translation)
+        self.assertIn("status.demon_race", self.race_binding.field_surfaces["name"])
+        self.assertEqual(
+            self.affinity_binding.field_surfaces["description"],
+            ("status.affinity",),
+        )
 
 
 class RaceAssetTests(unittest.TestCase):

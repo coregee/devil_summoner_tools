@@ -1,0 +1,84 @@
+{
+  "version": 2,
+  "surface": "horoscope.ui",
+  "targets": {
+    "HOSI.BIN": {
+      "load_address": "0x06020000",
+      "size": 213192,
+      "stock_sha256": "676303bc0382e64429eea5bb5df3a274e83d61fe4ad39490fa4876265910ff72"
+    }
+  },
+  "inputs": {
+    "font16_sha256": "89272c66b96536658c271e061ff8c15198a1bbc4c01c4e17f23575897dca0acc",
+    "font16_metrics_sha256": "3ce6e6c916da3f4bc3c7a702c9ae07f84519185a45e2f733c13726cab6532fa3"
+  },
+  "groups": [
+    {
+      "capability": "horoscope.messages",
+      "target": "HOSI.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "message_pool",
+          "address": "0x06020400",
+          "expected_zero_bytes": 1024,
+          "generated": "horoscope_data"
+        },
+        {
+          "name": "message_01_pointer",
+          "address": "0x0602d7f8",
+          "expected": "06030f62",
+          "linked_pointer": "message_01"
+        },
+        {
+          "name": "message_02_pointer",
+          "address": "0x0602d7fc",
+          "expected": "06030f8c",
+          "linked_pointer": "message_02"
+        },
+        {
+          "name": "message_03_pointer",
+          "address": "0x0602d800",
+          "expected": "06030fb6",
+          "linked_pointer": "message_03"
+        },
+        {
+          "name": "message_04_pointer",
+          "address": "0x0602d804",
+          "expected": "06030fe0",
+          "linked_pointer": "message_04"
+        },
+        {
+          "name": "message_05_pointer",
+          "address": "0x0602d808",
+          "expected": "0603100a",
+          "linked_pointer": "message_05"
+        },
+        {
+          "name": "message_06_pointer",
+          "address": "0x0602d80c",
+          "expected": "06031034",
+          "linked_pointer": "message_06"
+        },
+        {
+          "name": "message_07_pointer",
+          "address": "0x0602d8ac",
+          "expected": "0603105e",
+          "linked_pointer": "message_07"
+        },
+        {
+          "name": "message_08_pointer",
+          "address": "0x0602d8b0",
+          "expected": "06031088",
+          "linked_pointer": "message_08"
+        },
+        {
+          "name": "reveal_scale",
+          "address": "0x0602d880",
+          "expected": "0009",
+          "instruction": "shll2 r5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "title": {
+      "text": {
+        "reference": "3d maze prm set ",
+        "translation": "3d maze prm set "
+      }
+    },
+    "control": {
+      "text": {
+        "reference": "ctl   ",
+        "translation": "ctl   "
+      }
+    },
+    "map_number": {
+      "text": {
+        "reference": "mapno ",
+        "translation": "mapno "
+      }
+    },
+    "direction": {
+      "text": {
+        "reference": "muki  ",
+        "translation": "muki  "
+      }
+    },
+    "x_position": {
+      "text": {
+        "reference": "posix ",
+        "translation": "posix "
+      }
+    },
+    "y_position": {
+      "text": {
+        "reference": "posiy ",
+        "translation": "posiy "
+      }
+    },
+    "launch": {
+      "text": {
+        "reference": "GO TO 3D MAIN PROC",
+        "translation": "GO TO 3D MAIN PROC"
+      }
+    }
+  }
+}

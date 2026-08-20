@@ -19,10 +19,11 @@ from engine.surfaces.battle_negotiation import (
 )
 from engine.core.patching import Patch, apply_patches
 from engine.core.sh2 import AssemblyError, assemble
+from engine.shared.status_layout import load_stock_latin_codes
 from rom.util.catalog import load_catalog, validate_source
 from rom.util.workflows import read_source_files
 from text.util.assets import load_asset, load_bound_translations
-from text.util.event_codec import load_event_dictionary
+from text.util.event_codec import load_event_dictionary, pack_direct_codes
 from text.util.event_repack import FontMetrics
 from text.util.surfaces import load_surfaces
 
@@ -40,6 +41,7 @@ CODEC_PATH = TEXT_ROOT / "config" / "event_codec.json"
 FONT_ROOT = SATURN_ROOT / "font" / "generated" / "game"
 FONT8_METRICS_PATH = FONT_ROOT / "FONT8_metrics.json"
 FONT16_METRICS_PATH = FONT_ROOT / "FONT16_metrics.json"
+PARTY_PANEL_ASSET_PATH = SATURN_ROOT.parent / "assets" / "text" / "battle" / "party_panel.json"
 
 LOAD_ADDRESS = 0x06020000
 RENDERER_CAVE = 0x06020400
@@ -98,6 +100,40 @@ AFFINITY_MAX_PIXELS = 112
 PARTY_NAME_MAX_PIXELS = 80
 RESULT_LABEL_MAX_PIXELS = 88
 DECODED_RECORD_WORDS = 127
+PACKED_PADDING_WORD = 0x0800
+
+# The stock test/diagnostic table mixes terminated fields with fields whose
+# following structure word is the boundary. Every physical mirror is owned so
+# authored edits cannot silently update only one copy.
+DEBUG_LAYOUT = (
+    ("debug_record_00", "game.combat_debug.o05451c", (0x0607451C,), 7, True),
+    ("debug_record_01", "game.combat_debug.o05452c", (0x0607452C,), 3, True),
+    ("debug_record_02", "game.combat_debug.o055a08", (0x06075A08,), 5, True),
+    ("debug_record_03", "game.combat_debug.o055a32", (0x06075A32,), 6, True),
+    ("debug_record_04", "game.combat_debug.o055a5c", (0x06075A5C,), 7, True),
+    ("debug_record_05", "game.combat_debug.o055a86", (0x06075A86,), 8, True),
+    (
+        "debug_record_06",
+        "game.combat_debug.o055ab0",
+        (0x06075AB0, 0x06075ADA, 0x06075B04, 0x06075B2E),
+        2,
+        False,
+    ),
+    (
+        "debug_record_07",
+        "game.combat_debug.o055ab6",
+        (0x06075AB6, 0x06075AE0, 0x06075B0A, 0x06075B34),
+        10,
+        False,
+    ),
+    ("debug_record_08", "game.combat_debug.o055acc", (0x06075ACC,), 2, False),
+    ("debug_record_09", "game.combat_debug.o055ad2", (0x06075AD2,), 3, True),
+    ("debug_record_10", "game.combat_debug.o055af6", (0x06075AF6,), 3, False),
+    ("debug_record_11", "game.combat_debug.o055afe", (0x06075AFE,), 2, True),
+    ("debug_record_12", "game.combat_debug.o055b20", (0x06075B20,), 6, True),
+    ("debug_record_13", "game.combat_debug.o055b4a", (0x06075B4A,), 6, True),
+)
+UMA_MIRROR_ADDRESS = 0x06074470
 
 
 def _sha256(value: bytes) -> str:
@@ -158,6 +194,15 @@ def _validate_surfaces() -> None:
             layout.width.unit,
             layout.width.value,
         ) != (font, rows, "pixels", width):
+            raise ValueError(f"{name} geometry changed")
+    for name, cells in (("battle.party_empty", 5), ("battle.party_in_party", 8)):
+        layout = surfaces.surface(name).en
+        if (
+            layout.font,
+            layout.rows,
+            layout.width.unit,
+            layout.width.value,
+        ) != ("font8", 1, "glyph_cells", cells):
             raise ValueError(f"{name} geometry changed")
     race_heading = surfaces.surface("battle.analyze_race_heading").en
     if (
@@ -338,6 +383,141 @@ def _dynamic_payloads(metrics: FontMetrics) -> dict[str, bytes]:
         "character_offsets": character_offsets,
         "character_pool": character_pool,
     }
+
+
+def _packed_debug_field(
+    text: str,
+    metrics: FontMetrics,
+    *,
+    words: int,
+    terminated: bool,
+    context: str,
+) -> bytes:
+    try:
+        codes = [glyph.code for glyph in metrics.segment(text)]
+        encoded = pack_direct_codes(codes)
+    except (KeyError, ValueError) as error:
+        raise ValueError(f"{context} cannot be encoded: {text!r}") from error
+    capacity = words - int(terminated)
+    if not 1 <= len(encoded) <= capacity:
+        raise ValueError(
+            f"{context} uses {len(encoded)}/{capacity} packed words: {text!r}"
+        )
+    payload = [*encoded]
+    if terminated:
+        payload.append(0x8000)
+    payload.extend([PACKED_PADDING_WORD] * (words - len(payload)))
+    return struct.pack(f">{words}H", *payload)
+
+
+def _fixed_field_payloads(metrics: FontMetrics) -> dict[str, bytes]:
+    debug_ids = {physical_id for _, physical_id, _, _, _ in DEBUG_LAYOUT}
+    debug_values = load_bound_translations(
+        ("game.combat_debug.",), required_ids=debug_ids
+    )
+    payloads: dict[str, bytes] = {}
+    for name, physical_id, addresses, words, terminated in DEBUG_LAYOUT:
+        payload = _packed_debug_field(
+            debug_values[physical_id],
+            metrics,
+            words=words,
+            terminated=terminated,
+            context=f"COMBAT debug field {physical_id}",
+        )
+        for mirror, _address in enumerate(addresses):
+            payloads[f"{name}_{mirror}"] = payload
+
+    uma_id = "game.normcom_tables.races.r0022"
+    uma_text = load_bound_translations(
+        ("game.normcom_tables.races.",), required_ids={uma_id}
+    )[uma_id]
+    try:
+        uma_codes = tuple(glyph.code for glyph in metrics.segment(uma_text))
+    except ValueError as error:
+        raise ValueError(f"COMBAT Uma compatibility row cannot encode {uma_text!r}") from error
+    # This stock table is a dead compatibility mirror after the live race
+    # drawer is redirected. Preserve its guarded Japanese row if an edit no
+    # longer fits the optional-terminated four-word physical record.
+    if 1 <= len(uma_codes) <= 3:
+        payloads["race_uma_mirror"] = struct.pack(
+            f">{len(uma_codes) + 1}H", *uma_codes, 0x8000
+        ).ljust(8, b"\0")
+    elif len(uma_codes) == 4:
+        payloads["race_uma_mirror"] = struct.pack(">4H", *uma_codes)
+    return payloads
+
+
+def _party_state_codes() -> tuple[tuple[int, ...], tuple[int, ...]]:
+    catalog = load_asset("battle/party_panel.json")
+    stock_codes = load_stock_latin_codes(FONT8_METRICS_PATH)
+    output: list[tuple[int, ...]] = []
+    for key, cells in (("empty", 5), ("in_party", 8)):
+        try:
+            text = catalog.entries[key].fields["text"].translation
+            codes = tuple(stock_codes[character] for character in text)
+            space = stock_codes[" "]
+        except KeyError as error:
+            raise ValueError(
+                f"battle party {key.replace('_', ' ')} uses an unsupported stock-Latin glyph"
+            ) from error
+        if not text or len(codes) > cells:
+            raise ValueError(
+                f"battle party {key.replace('_', ' ')} uses {len(codes)}/{cells} cells"
+            )
+        output.append((*codes, *((space,) * (cells - len(codes)))))
+    return output[0], output[1]
+
+
+def _validate_fixed_recipe_contract(config: PatchRecipeConfiguration) -> None:
+    expected = []
+    for name, _physical_id, addresses, _words, _terminated in DEBUG_LAYOUT:
+        expected.extend(
+            ("combat.debug_ui", f"{name}_{mirror}", address, "combat_debug_data")
+            for mirror, address in enumerate(addresses)
+        )
+    expected.append(
+        (
+            "combat.fixed_text_compatibility",
+            "race_uma_mirror",
+            UMA_MIRROR_ADDRESS,
+            "combat_compatibility_data",
+        )
+    )
+    actual = []
+    for recipe in config.patches["COMBAT.BIN"]:
+        if recipe.group not in {"combat.debug_ui", "combat.fixed_text_compatibility"}:
+            continue
+        actual.append(
+            (
+                recipe.group,
+                recipe.name,
+                recipe.address,
+                recipe.replacement.generator,
+            )
+        )
+    if actual != expected:
+        raise ValueError("COMBAT fixed-field recipe inventory changed")
+
+    party = [
+        recipe
+        for recipe in config.patches["COMBAT.BIN"]
+        if recipe.group == "combat.party_labels"
+    ]
+    if len(party) != 1:
+        raise ValueError("COMBAT party-label recipe inventory changed")
+    recipe = party[0]
+    if (
+        recipe.name,
+        recipe.address,
+        recipe.replacement.kind,
+        _source_names(recipe),
+    ) != (
+        "party_state_rows",
+        0x0604C0E8,
+        "assembly",
+        ("battle_ui/party_state_rows.s",),
+    ):
+        raise ValueError("COMBAT party-label recipe contract changed")
 
 
 def _source_names(recipe: PatchRecipe) -> tuple[str, ...]:
@@ -956,7 +1136,11 @@ def _instruction(recipe: PatchRecipe) -> bytes:
     return result.data
 
 
-def _standalone_assembly(recipe: PatchRecipe, target: str) -> bytes:
+def _standalone_assembly(
+    recipe: PatchRecipe,
+    target: str,
+    party_state_codes: tuple[tuple[int, ...], tuple[int, ...]],
+) -> bytes:
     if recipe.name == "btl_srf_hook" and target == "COMBAT.BIN":
         source = "jump_r0.s"
         symbols = {"TARGET": BTL_DECODER}
@@ -966,6 +1150,13 @@ def _standalone_assembly(recipe: PatchRecipe, target: str) -> bytes:
     elif recipe.name == "btl_srf_loop_reentry" and target == "COMBAT.BIN":
         source = "battle_ui/btl_loop_reentry.s"
         symbols = {"TARGET": BTL_HOOK}
+    elif recipe.name == "party_state_rows" and target == "COMBAT.BIN":
+        source = "battle_ui/party_state_rows.s"
+        empty, in_party = party_state_codes
+        symbols = {
+            **{f"EMPTY{index}": code for index, code in enumerate(empty)},
+            **{f"IN_PARTY{index}": code for index, code in enumerate(in_party)},
+        }
     else:
         raise ValueError(f"unsupported standalone assembly {target}/{recipe.name}")
     if _source_names(recipe) != (source,):
@@ -983,9 +1174,13 @@ def _standalone_assembly(recipe: PatchRecipe, target: str) -> bytes:
 def _bind_patches(
     config: PatchRecipeConfiguration,
     metrics: FontMetrics,
+    metrics16: FontMetrics,
     dictionary_table: bytes,
 ) -> dict[str, tuple[Patch, ...]]:
     payloads = _dynamic_payloads(metrics)
+    fixed_payloads = _fixed_field_payloads(metrics16)
+    party_state_codes = _party_state_codes()
+    _validate_fixed_recipe_contract(config)
     renderer_recipe = next(
         recipe
         for recipe in config.patches["COMBAT.BIN"]
@@ -1019,7 +1214,9 @@ def _bind_patches(
                         recipe, dictionary_table, target=target
                     )
                 else:
-                    replacement = _standalone_assembly(recipe, target)
+                    replacement = _standalone_assembly(
+                        recipe, target, party_state_codes
+                    )
             elif replacement_recipe.kind == "linked_pointer":
                 assert replacement_recipe.link is not None
                 try:
@@ -1039,6 +1236,11 @@ def _bind_patches(
                 and replacement_recipe.generator == "zero_scratch"
             ):
                 replacement = bytes(len(recipe.expected))
+            elif replacement_recipe.kind == "generated" and replacement_recipe.generator in {
+                "combat_debug_data",
+                "combat_compatibility_data",
+            }:
+                replacement = fixed_payloads.get(recipe.name, recipe.expected)
             else:
                 raise ValueError(f"unsupported battle UI recipe {target}/{recipe.name}")
             if len(replacement) != len(recipe.expected):
@@ -1059,6 +1261,7 @@ def _bind_patches(
                 "btl_srf_decoder",
                 "btl_srf_hook",
                 "btl_srf_loop_reentry",
+                "party_state_rows",
             }
             if target == "COMBAT.BIN"
             else {"butu_srf_decoder", "butu_srf_hook"}
@@ -1124,7 +1327,8 @@ def build_battle_ui() -> dict[Path, bytes]:
     negotiation_outputs = build_battle_negotiation()
     combat_base = negotiation_outputs[COMBAT_OUTPUT_PATH]
     font8 = FontMetrics.load(FONT8_METRICS_PATH)
-    patches = _bind_patches(config, font8, dictionary_table)
+    font16 = FontMetrics.load(FONT16_METRICS_PATH)
+    patches = _bind_patches(config, font8, font16, dictionary_table)
     combat_patches = patches["COMBAT.BIN"]
     normcom_patches = patches["NORMCOM.BIN"]
     combat = apply_patches(
@@ -1151,6 +1355,7 @@ def build_battle_ui() -> dict[Path, bytes]:
         "surface": "battle.ui",
         "patch_config_sha256": _file_sha256(CONFIG_PATH),
         "text_build_sha256": _file_sha256(TEXT_BUILD_PATH),
+        "party_panel_asset_sha256": _file_sha256(PARTY_PANEL_ASSET_PATH),
         "base_combat_sha256": _sha256(combat_base),
         "assembly_inputs": {
             path.relative_to(ENGINE_ROOT).as_posix(): _file_sha256(path)

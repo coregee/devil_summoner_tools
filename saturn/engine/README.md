@@ -34,6 +34,38 @@ the root of `asm/`; a surface owns a local variant only when its calling
 convention or rendering semantics genuinely differ. A package-level regression
 rejects version-1 configs and executable `replacement` blobs.
 
+## Akuma Zensho text
+
+`compendium.text` compiles the complete proved text inventory on the bonus
+disc: 292 profile tails plus the demon, ability, and race tables in
+`A_DIC.BIN`. The profile geometry remains one 144-pixel origin row, four
+224-pixel summary rows, and twelve 224-pixel detail rows. Names and abilities
+use 128-pixel rows; race labels use 48-pixel rows.
+
+Generated rows use a reversible tagged codec and a deterministic asset-derived
+dictionary. One readable SH-2 wrapper temporarily composes decoded FONT8
+glyphs in the existing compendium FONT16 work area, calls the stock drawer,
+and restores the original cells. It uses 1,888 bytes of the 30,722-byte
+verified zero arena in `A_DIC.BIN`; no compendium font cell or font file is
+repurposed. Exactly four independently addressable supplemental race rows stay
+byte-identical to retail because their English identities remain unresolved.
+
+The builder reads all 293 targets directly from the verified source disc,
+publishes them under `engine/generated/compendium/`, and installs complete
+files before the visual profile pass. Check mode compares `A_DIC.BIN` exactly
+and the 292 engine-owned text tails beneath the later profile images. There is
+no trusted mature whole-output oracle for this tranche, so validation instead
+locks every source hash and patch span and decodes every generated record back
+to its authored text.
+
+Run:
+
+```powershell
+python saturn/engine/build.py compendium.text
+python saturn/engine/build.py compendium.text --check
+python saturn/engine/build.py compendium.text --install
+```
+
 ## Profile Entry
 
 `profile_entry.ui` builds the complete `NAME.BIN` entry controller from the
@@ -104,6 +136,53 @@ Run:
 python saturn/font/repack.py all
 python saturn/engine/build.py map_2d.ui
 python saturn/engine/build.py map_2d.ui --check
+```
+
+## Horoscope vision
+
+`horoscope.ui` rebuilds the eight story messages in `HOSI.BIN` from
+`assets/text/ui/horoscope.json` and the generated FONT16 metrics. The stock
+renderer remains intact. The builder wraps only at authored spaces, allows at
+most three 20-cell rows and 64 reveal words per message, and writes a dynamic
+message pool into the verified 1,024-byte zero arena at `0x06020400`.
+
+The eight pointer literals are linked to their actual generated positions, so
+safe text growth or shrinkage relocates following messages without freezing
+the mature layout. One readable typed instruction scales the stock reveal
+counter while preserving progressive display. The default pool uses 668 bytes;
+the complete output matches the trusted mature `HOSI.BIN` SHA-256
+`b51a5611e1095387c92baec2a5f8a8965eb47794cab0b774add3eb310f04b041`.
+The normal build installs it once after MAP2D and before the EVENT banks.
+
+Run:
+
+```powershell
+python saturn/engine/build.py horoscope.ui
+python saturn/engine/build.py horoscope.ui --check
+```
+
+## End credits
+
+`credits.ui` rebuilds every visible staff name in `END_ROLL.BIN`. The 28 main
+credits use six 16-pixel cells and the two staff-test tables contribute 12
+seven-cell rows. All names come from `assets/text/credits/names.json`; the
+engine generates complete 1bpp rows from FONT16 and scales only a row whose
+proportional advance exceeds its 96- or 112-pixel destination.
+
+Four readable assembly sources provide the shared bitmap renderer, both test
+adapters, the main-roll hook, and the two trampolines. Generated data is limited
+to the 40-entry offset table and 8,064-byte bitmap pool. The runtime ends 8,528
+bytes into the independently verified 23,888-byte zero cave, and its 10 typed
+recipes reproduce trusted mature `END_ROLL.BIN` SHA-256
+`cb9059287736d1c173c8fd2a3757409a8fd2f80cf23d5880c310df9a7f618a42`.
+The normal build installs this standalone target once before the EVENT banks;
+no visual package owns it.
+
+Run:
+
+```powershell
+python saturn/engine/build.py credits.ui
+python saturn/engine/build.py credits.ui --check
 ```
 
 ## Event dialogue
@@ -222,7 +301,8 @@ It does not import the Profile Entry surface or read mutable installed outputs.
 On the checked Fusion base its hash is
 `587683072bb86e91085d752c0ea7399182667a417c2618754888e687e93679f6`.
 This intermediate is deliberately not installed: Equipment consumes it and
-publishes the terminal EVENT image, so Fusion, name adapters, and Equipment each
+publishes another checked intermediate, which `facilities.status_ui` turns into
+the terminal EVENT image. Fusion, name adapters, Equipment, and facilities each
 retain an independent `--check` boundary.
 
 Run:
@@ -257,6 +337,28 @@ python saturn/engine/build.py battle.negotiation --check
 python saturn/build.py default
 ```
 
+## Diagnostic overlays
+
+`diagnostics.ui` builds SNDTEST and TEST3D together from their verified retail
+targets. Their eleven on-screen fields are fixed-cell ASCII rather than a game
+font: each authored value must remain ASCII, include a terminating NUL within
+its exact native capacity, and preserve any meaningful trailing alignment
+spaces. Defaults are deliberately byte-identical to retail while edits replace
+only the guarded field spans.
+
+The build reads `assets/text/diagnostics/sound_test.json` and
+`assets/text/diagnostics/test_3d.json` through explicit physical bindings and
+publishes both complete overlays plus one provenance manifest. There is no
+runtime cave or executable replacement. The default profile installs each
+target once before the general EVENT build.
+
+Run:
+
+```powershell
+python saturn/engine/build.py diagnostics.ui
+python saturn/engine/build.py diagnostics.ui --check
+```
+
 ## Shared battle UI
 
 `battle.ui` composes the negotiation runtime with the remaining shared COMBAT
@@ -269,15 +371,20 @@ all 43 Analyze race-heading slots, 319 demon names, 66 compact affinities, both
 result labels, and all six character names are regenerated from the current
 font metrics and human-facing assets before the patches are applied. Item,
 ability, console, help, Demon Chat, and ritual text arrive through the six files
-produced by `text/repack.py battle`. No visible wording is maintained inside
-engine code.
+produced by `text/repack.py battle`. The 14 debug records cover all 20 physical
+mirrors, the dormant four-word Uma compatibility row follows its live race
+asset, and the code-constructed `EMPTY`/`IN PARTY` rows are assembled from
+`battle/party_panel.json` through the preserved stock-Latin glyph set. No
+visible wording is maintained inside engine code.
 
 Every patch site verifies its expected input, the two packed readers reject a
 decoded row larger than their 127-word scratch buffers, and all outputs match
 the isolated mature Saturn patches byte-for-byte. The two result labels retain
 the mature runtime's checked storage slots in addition to their measured
 display limit; an oversized edit therefore fails during the build instead of
-overwriting adjacent code.
+overwriting adjacent code. The complete configuration owns 66 guarded sites;
+the default COMBAT output remains byte-identical to the mature capabilities
+after the current negotiation composition.
 
 Run:
 
@@ -323,9 +430,10 @@ python saturn/build.py default
 `equipment.ui` is one player-facing surface with two binary consumers: the COMP
 equipment panel in `NORMCOM.BIN` and the shop equipment/comparison panel in
 `EVENT.BIN`. It composes on the checked COMP and `event.name_inserts`
-intermediates, then publishes the terminal `generated/game/EVENT.BIN` and the
-checked `generated/game/equipment_ui/NORMCOM.BIN` intermediate consumed by
-status.
+intermediates, then publishes checked
+`generated/game/equipment_ui/{EVENT,NORMCOM}.BIN` intermediates. The EVENT
+result is consumed by `facilities.status_ui`; the NORMCOM result is consumed by
+`status.ui`.
 
 `ui/equipment.json` owns Auto/Unequip; the shared stat abbreviations remain in
 `ui/status.json`; `facilities/shop.json` owns `Inv.`; and character and item
@@ -336,7 +444,7 @@ in readable surface-owned sources plus shared item-name, jump, and FONT8
 renderer sources; `config/equipment_ui.json` contains no executable replacement
 hex.
 
-The terminal EVENT hash is
+The equipment EVENT intermediate hash is
 `1ffb315598c74bf0b0cb1a85b68097ba10ed050fdb6b1795ef00f2c8485f695e`
 after composing the name adapters and mature equipment groups. Cave ownership
 is expanded to the proved zero-filled boundaries so edited labels can grow
@@ -347,6 +455,41 @@ Run:
 ```powershell
 python saturn/engine/build.py equipment.ui
 python saturn/engine/build.py equipment.ui --check
+python saturn/build.py default
+```
+
+## Facilities and Fusion status
+
+`facilities.status_ui` composes the remaining EVENT consumers onto the checked
+equipment intermediate and publishes terminal `generated/game/EVENT.BIN`.
+Its 72 typed recipes cover the Fusion detailed-status panel (20), shared EVENT
+term insertions (3), the shared facility command cells (1), Bar UI (4), Healer
+UI (7), and 37 fixed race/affinity compatibility mirrors. Fusion's six
+confirmation-window recipes remain owned by `fusion.menu` and are explicitly
+excluded here.
+
+Ten authored catalogues provide status labels, names, terms, drinks, patrons,
+and healing text. The runtime validates the current generated DVLNAME and
+MAGNAME outputs through their text-build manifests, and names every asset,
+binding, corpus, font, assembly, and verified-disc source in
+`facilities_status_ui_build.json`. Eleven readable assembly sources rebuild the
+drawers and insertion adapters; no executable replacement blob or authored
+English fragment lives in the engine layer.
+
+The runtime arena is `0x06023294..0x06026500`: the default payload uses 11,838
+of 12,908 bytes and may relocate within that proved capacity when translations
+change. On the current composed equipment base, terminal EVENT has SHA-256
+`04926f92d670726412b91f7925cd3086c1e64d09a8344956a544cdc686ba892a`.
+The shared command recipe intentionally corrects the legacy port's `REVIEW`
+typo to the authored Healer command `REVIVE`; `STATUS` remains shared with the
+Bar. Both words use the preserved stock-Latin cells selected by their declared
+command surfaces.
+
+Run:
+
+```powershell
+python saturn/engine/build.py facilities.status_ui
+python saturn/engine/build.py facilities.status_ui --check
 python saturn/build.py default
 ```
 
@@ -513,14 +656,13 @@ the shared authored choice fields through the new renderer.
 ## Field messages
 
 `field.messages` composes the fixed field-message window onto that checked MAZE
-intermediate and alone publishes `generated/game/MAZE.BIN`. Complete messages,
+intermediate and publishes the next checked `generated/game/MAZE.BIN` stage. Complete messages,
 confirmation choices, currency symbols, and item substitutions remain authored
 text inputs; the assembly owns only display, substitution, and layout behavior.
-Its manifest binds the terminal output to both the staged MAZE hash and the
+Its manifest binds its output to both the staged MAZE hash and the
 dungeon-location manifest, so neither stage can silently change beneath the
-other. The default profile therefore runs this composed surface once, then
-installs its exact 117 terminal binaries; `dungeon.locations` remains available
-as an isolated engine build and parity check.
+other. Both `dungeon.locations` and `field.messages` remain available as
+isolated engine builds and parity checks.
 
 The six unchanged fixed messages reproduce the mature replacement bytes. The
 terminal MAZE hash is intentionally new
@@ -529,6 +671,23 @@ the old build accidentally routed the item-obtained path through `Found`, used
 fragmentary item-full wording, and omitted the final punctuation from currency
 messages. The new hooks compile the complete approved asset templates instead.
 
+## MAZE party panel
+
+`maze.party_panel` is the terminal MAZE composer used by the default build. It
+adds the compact party-list name renderer to the checked `field.messages`
+stage, while retaining the other 116 terminal AUTOMAP and MAZEDATA outputs.
+The same pure compact-name compiler is shared with `comp.menu`; all 319 demon
+names and six character names still come from their authored assets and the
+fresh generated `DVLNAME.DAT` contract.
+
+Five typed recipes own two disjoint zero caves and the three live drawer
+pointers. Readable `font8_pixel_blitter.s`, `font8_fixed_name.s`, and
+`comp_menu/party_panel.s` sources generate 2,038 bytes inside 3,072 bytes of
+declared capacity. The renderer arena ends exactly where the field-message cave
+begins, and the compact-name arena starts at the field-message cave limit, so
+the three MAZE consumers cannot silently overlap. The default terminal SHA-256
+is `4acac957d02e706eab0e76344e5d82ed1aa672e7ae39d739ad9f40e3d5669b6d`.
+
 Run:
 
 ```powershell
@@ -536,6 +695,8 @@ python saturn/engine/build.py dungeon.locations
 python saturn/engine/build.py dungeon.locations --check
 python saturn/engine/build.py field.messages
 python saturn/engine/build.py field.messages --check
+python saturn/engine/build.py maze.party_panel
+python saturn/engine/build.py maze.party_panel --check
 python saturn/build.py default
 ```
 

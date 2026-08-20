@@ -254,22 +254,13 @@ lives here.
 The mature implementations still contain visible wording that must move here;
 none of it is a runtime exemption. The current audit tracks:
 
-- the battle-result empty label;
-- locating the retail render selectors for the authored primary battle labels
-  `FIGHT`, `TALK`, `ESCAPE`, `AUTO`, `PRESET`, and `REPEAT`; the other battle,
-  COMP, shop, bar, and healer commands now have proved Saturn records and all
-  command surfaces select the preserved `stock_latin` face;
-- wiring character full/short name forms from `characters.json` into the
-  remaining mature renderers;
-- wiring the mature Saturn status renderer to the complete readout templates,
-  headings, command/alignment domains, and personality terms now owned by the
-  shared assets;
-- wiring the mature Saturn fusion and Analyze renderers to the authored race
-  labels and heading template stored here;
-- wiring the mature Saturn location renderers to the authored floor/location
-  templates now stored in `field/location_formats.json`;
-- the mature Saturn MAZE hook, which currently collapses the distinct item
-  `Found` and `Obtained` call paths despite the retail call sites using both;
+- the primary battle selectors `FIGHT`, `TALK`, `ESCAPE`, `AUTO`, `PRESET`, and
+  `REPEAT` are preserved graphic/font-owned lettering: exhaustive COMBAT
+  storage and call-site scans found no binary text records to bind. Their
+  semantic fields remain here for the eventual visual/font path;
+- wiring character full/short name forms from `characters.json` into any
+  remaining unproved renderers; the known Profile, EVENT, MSGR, status,
+  Level-Up, COMP, and MAZE consumers are migrated;
 - wiring the PSP save renderer to the titles, difficulty labels, prompts,
   fallback label, and complete detail template now stored in `save_load.json`;
 - extending the Saturn slot-name compiler if translators need to reverse the
@@ -282,6 +273,18 @@ none of it is a runtime exemption. The current audit tracks:
 
 This checklist is an audit seed, not proof of completeness. Consumer coverage
 must eventually prove that every item in `consumers.md` has asset ownership.
+
+`battle/party_panel.json` now owns the runtime-constructed COMBAT sentinel rows
+`EMPTY` and `IN PARTY` as complete five- and eight-cell fields. The engine maps
+them through the explicitly preserved FONT8 `stock_latin` set; centering and
+padding remain layout rather than authored spaces.
+
+The developer-facing Saturn Sound Test and 3D Test overlays are also explicit
+assets rather than excluded binary literals. `diagnostics/sound_test.json` and
+`diagnostics/test_3d.json` own all eleven fixed-cell ASCII fields, including
+their meaningful number-separator and alignment spaces. Their bindings retain
+the exact native byte capacities and the diagnostics build requires ASCII plus
+a terminating NUL.
 
 ## Migration
 
@@ -339,6 +342,13 @@ lettering remains visual-package output rather than being misclassified as
 FONT text. The seven
 genuinely PSP-only Gouma-den tutorial lines are additions; inherited PSP text
 continues to reuse the Saturn-authored fields.
+
+The terminal EVENT facility consumers retain distinct measured contracts:
+drink and patron names use 64-pixel FONT8 rows, shared character/demon facility
+names use 104 pixels, and the healer's separately drawn all-members row uses
+144 pixels. The status character name shares the detailed demon name's
+eight-cell, 126-pixel FONT16 raster. These are consumer surfaces, not alternate
+name fields.
 
 The character and profile-entry slice gives all six `CHARNAME` identities one
 shared home in `characters.json`; the PSP table has the same six semantic rows
@@ -424,6 +434,18 @@ authored fields; `options.ui` derives every packed glyph from the complete
 editable words. The identical PSP Auto Map and speed values can reuse these
 fields, while its revised battle-message source is an explicit reference
 variant rather than a copied translation.
+
+The Horoscope slice keeps all eight story messages in `ui/horoscope.json`.
+They are complete authored sentences rather than source-sized fragments; the
+Saturn builder derives word-boundary line controls and relocated pointers for
+the stock three-row reveal window. No line break or pool address is a second
+translation source.
+
+The Credits slice owns the 40 named people in `credits/names.json`. Twenty-eight
+main-roll uses and twelve staff-test uses remain distinct physical records but
+resolve to one field per person. The Saturn renderer derives fixed 96- and
+112-pixel bitmap rows from the complete names; compressed raster rows are
+generated presentation, not alternate authored abbreviations.
 
 The battle slice gives the remaining 82 visible small-font console records,
 all 203 visible Demon Chat records, 19 battle-help lines, 24 general command

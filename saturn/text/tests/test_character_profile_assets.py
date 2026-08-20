@@ -132,11 +132,13 @@ class CharacterAssetTests(unittest.TestCase):
                 "shop.character_name",
                 "bar.status_name",
                 "healer.member_name",
+                "healer.status_name",
                 "battle.result_name",
             ),
         )
         party = self.surfaces.surface("party.character_name")
         shop = self.surfaces.surface("shop.character_name")
+        status = self.surfaces.surface("status.character_name")
         self.assertEqual(
             (party.en.font, party.en.rows, party.en.width.unit, party.en.width.value),
             ("font8", 1, "pixels", 80),
@@ -145,6 +147,35 @@ class CharacterAssetTests(unittest.TestCase):
             (shop.en.font, shop.en.rows, shop.en.width.unit, shop.en.width.value),
             ("font8", 1, "pixels", 72),
         )
+        self.assertEqual(
+            (
+                status.ja.font,
+                status.ja.rows,
+                status.ja.width.unit,
+                status.ja.width.value,
+            ),
+            ("font16", 1, "glyph_cells", 8),
+        )
+        self.assertEqual(
+            (
+                status.en.font,
+                status.en.rows,
+                status.en.width.unit,
+                status.en.width.value,
+            ),
+            ("font16", 1, "pixels", 126),
+        )
+        for surface_name in (
+            "bar.status_name",
+            "healer.member_name",
+            "healer.status_name",
+        ):
+            with self.subTest(surface=surface_name):
+                layout = self.surfaces.surface(surface_name).en
+                self.assertEqual(
+                    (layout.font, layout.rows, layout.width.unit, layout.width.value),
+                    ("font8", 1, "pixels", 104),
+                )
 
 
 class ProfileEntryAssetTests(unittest.TestCase):

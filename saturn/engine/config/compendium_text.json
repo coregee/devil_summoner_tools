@@ -1,0 +1,169 @@
+{
+  "version": 2,
+  "surface": "compendium.text",
+  "targets": {
+    "A_DIC.BIN": {
+      "load_address": "0x06020000",
+      "size": 472172,
+      "stock_sha256": "0edd01f270b6500dc6fafc5e71202c11dcc2cceea605cec9057e4ffb5966314c"
+    }
+  },
+  "inputs": {
+    "font8_sha256": "c656c783225271ae1910224b85eba9431ad2c27e96bfdab797e8499f77eeff7c",
+    "font8_metrics_sha256": "82f688a7a2bc2efd1caa32555968c456c332d30813bd7e2b3c8af08b7f2978c6"
+  },
+  "groups": [
+    {
+      "capability": "compendium.runtime",
+      "target": "A_DIC.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "runtime_arena",
+          "address": "0x0603d200",
+          "expected_sha256": "dfbf1c201ee7ffc6cd57c009a17320eb7f63ccb6528fc81d9fb1fba7bd250c67",
+          "expected_size": 30722,
+          "assembly": ["compendium_text/compact_drawer.s"]
+        }
+      ]
+    },
+    {
+      "capability": "compendium.catalogue_text",
+      "target": "A_DIC.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "demon_names",
+          "address": "0x0607d9b0",
+          "expected_sha256": "99bae321b0ef7323c03311426193e751260434423193151adbe5d49f41072c4a",
+          "expected_size": 5104,
+          "generated": "compendium_data"
+        },
+        {
+          "name": "race_names",
+          "address": "0x0607eda0",
+          "expected_sha256": "94f2d0836f07a0a1336a18d502ce0e5931d372a35c52f83dd27f43db720b6ca6",
+          "expected_size": 288,
+          "generated": "compendium_data"
+        },
+        {
+          "name": "ability_names",
+          "address": "0x06089be4",
+          "expected_sha256": "75fbf7d562f3455fce0d0689e89d8b247a62cc9d2cc88857973069ff5e3f89b4",
+          "expected_size": 4080,
+          "generated": "compendium_data"
+        }
+      ]
+    },
+    {
+      "capability": "compendium.drawer_links",
+      "target": "A_DIC.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "drawer_pointer_01",
+          "address": "0x06022758",
+          "expected": "06021984",
+          "linked_pointer": "compact_draw"
+        },
+        {
+          "name": "drawer_pointer_02",
+          "address": "0x06022b88",
+          "expected": "06021984",
+          "linked_pointer": "compact_draw"
+        },
+        {
+          "name": "drawer_pointer_03",
+          "address": "0x060240bc",
+          "expected": "06021984",
+          "linked_pointer": "compact_draw"
+        },
+        {
+          "name": "drawer_pointer_04",
+          "address": "0x060241c0",
+          "expected": "06021984",
+          "linked_pointer": "compact_draw"
+        },
+        {
+          "name": "drawer_pointer_05",
+          "address": "0x0602492c",
+          "expected": "06021984",
+          "linked_pointer": "compact_draw"
+        },
+        {
+          "name": "drawer_pointer_06",
+          "address": "0x0602499c",
+          "expected": "06021984",
+          "linked_pointer": "compact_draw"
+        },
+        {
+          "name": "drawer_pointer_07",
+          "address": "0x06025b80",
+          "expected": "06021984",
+          "linked_pointer": "compact_draw"
+        },
+        {
+          "name": "drawer_pointer_08",
+          "address": "0x06025dc8",
+          "expected": "06021984",
+          "linked_pointer": "compact_draw"
+        },
+        {
+          "name": "drawer_pointer_09",
+          "address": "0x06025eb4",
+          "expected": "06021984",
+          "linked_pointer": "compact_draw"
+        },
+        {
+          "name": "drawer_pointer_10",
+          "address": "0x06026010",
+          "expected": "06021984",
+          "linked_pointer": "compact_draw"
+        },
+        {
+          "name": "drawer_pointer_11",
+          "address": "0x06026144",
+          "expected": "06021984",
+          "linked_pointer": "compact_draw"
+        },
+        {
+          "name": "drawer_pointer_12",
+          "address": "0x0602627c",
+          "expected": "06021984",
+          "linked_pointer": "compact_draw"
+        },
+        {
+          "name": "drawer_pointer_13",
+          "address": "0x06026334",
+          "expected": "06021984",
+          "linked_pointer": "compact_draw"
+        },
+        {
+          "name": "drawer_pointer_14",
+          "address": "0x06026660",
+          "expected": "06021984",
+          "linked_pointer": "compact_draw"
+        },
+        {
+          "name": "drawer_pointer_15",
+          "address": "0x06026a3c",
+          "expected": "06021984",
+          "linked_pointer": "compact_draw"
+        },
+        {
+          "name": "drawer_pointer_16",
+          "address": "0x06027b78",
+          "expected": "06021984",
+          "linked_pointer": "compact_draw"
+        },
+        {
+          "name": "drawer_pointer_17",
+          "address": "0x06027c70",
+          "expected": "06021984",
+          "linked_pointer": "compact_draw"
+        }
+      ]
+    }
+  ]
+}
+

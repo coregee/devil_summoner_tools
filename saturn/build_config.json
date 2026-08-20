@@ -65,6 +65,22 @@
       ]
     },
     {
+      "id": "build_compendium_text_engine",
+      "description": "Compile all proved Akuma Zensho profile and catalogue text from shared authored assets.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["compendium.text"],
+      "check_arguments": ["compendium.text", "--check"]
+    },
+    {
+      "id": "install_compendium_text_engine",
+      "description": "Install the Akuma Zensho catalogue and all 292 profile text tails.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["compendium.text", "--install"],
+      "check_arguments": ["compendium.text", "--install", "--check"]
+    },
+    {
       "id": "build_profile_entry_engine",
       "description": "Build the complete Profile Entry controller and data from authored text and generated fonts.",
       "type": "python",
@@ -96,6 +112,67 @@
         {
           "source": "engine/generated/game/MAP2D.BIN",
           "destination": "rom/extracted/game/MAP2D.BIN"
+        }
+      ]
+    },
+    {
+      "id": "build_horoscope_engine",
+      "description": "Compile the eight authored horoscope messages into the verified HOSI overlay.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["horoscope.ui"],
+      "check_arguments": ["horoscope.ui", "--check"]
+    },
+    {
+      "id": "install_horoscope_engine",
+      "description": "Install the terminal horoscope overlay.",
+      "type": "copy",
+      "files": [
+        {
+          "source": "engine/generated/game/HOSI.BIN",
+          "destination": "rom/extracted/game/HOSI.BIN"
+        }
+      ]
+    },
+    {
+      "id": "build_credits_engine",
+      "description": "Render all 40 authored staff names into the END_ROLL credit grids.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["credits.ui"],
+      "check_arguments": ["credits.ui", "--check"]
+    },
+    {
+      "id": "install_credits_engine",
+      "description": "Install the terminal END_ROLL credits overlay.",
+      "type": "copy",
+      "files": [
+        {
+          "source": "engine/generated/game/END_ROLL.BIN",
+          "destination": "rom/extracted/game/END_ROLL.BIN"
+        }
+      ]
+    },
+    {
+      "id": "build_diagnostics_engine",
+      "description": "Compile the authored Sound Test and 3D Test labels into their verified overlays.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["diagnostics.ui"],
+      "check_arguments": ["diagnostics.ui", "--check"]
+    },
+    {
+      "id": "install_diagnostics_engine",
+      "description": "Install the terminal diagnostic overlays.",
+      "type": "copy",
+      "files": [
+        {
+          "source": "engine/generated/game/SNDTEST.BIN",
+          "destination": "rom/extracted/game/SNDTEST.BIN"
+        },
+        {
+          "source": "engine/generated/game/TEST3D.BIN",
+          "destination": "rom/extracted/game/TEST3D.BIN"
         }
       ]
     },
@@ -279,11 +356,19 @@
     },
     {
       "id": "build_equipment_engine",
-      "description": "Compose the shared COMP and shop equipment consumers from editable assets.",
+      "description": "Compose the shared COMP and shop equipment consumers as checked intermediates.",
       "type": "python",
       "script": "engine/build.py",
       "arguments": ["equipment.ui"],
       "check_arguments": ["equipment.ui", "--check"]
+    },
+    {
+      "id": "build_facilities_status_engine",
+      "description": "Compose the terminal EVENT Fusion status, bar, healer, and shared term consumers.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["facilities.status_ui"],
+      "check_arguments": ["facilities.status_ui", "--check"]
     },
     {
       "id": "build_status_engine",
@@ -319,7 +404,7 @@
     },
     {
       "id": "install_event_normcom_engine",
-      "description": "Install EVENT through equipment and NORMCOM through detailed status.",
+      "description": "Install EVENT through facilities/status and NORMCOM through detailed status.",
       "type": "copy",
       "files": [
         {"source": "engine/generated/game/EVENT.BIN", "destination": "rom/extracted/game/EVENT.BIN"},
@@ -351,12 +436,12 @@
       ]
     },
     {
-      "id": "build_field_messages_engine",
-      "description": "Compose complete editable field messages onto the location-patched MAZE runtime.",
+      "id": "build_maze_party_panel_engine",
+      "description": "Compose locations, field messages, and the compact-name party panel into terminal MAZE.",
       "type": "python",
       "script": "engine/build.py",
-      "arguments": ["field.messages"],
-      "check_arguments": ["field.messages", "--check"]
+      "arguments": ["maze.party_panel"],
+      "check_arguments": ["maze.party_panel", "--check"]
     },
     {
       "id": "install_maze_engine",
@@ -522,10 +607,18 @@
         "restore_discs",
         "repack_fonts",
         "install_fonts",
+        "build_compendium_text_engine",
+        "install_compendium_text_engine",
         "build_profile_entry_engine",
         "install_profile_entry_engine",
         "build_map_2d_engine",
         "install_map_2d_engine",
+        "build_horoscope_engine",
+        "install_horoscope_engine",
+        "build_credits_engine",
+        "install_credits_engine",
+        "build_diagnostics_engine",
+        "install_diagnostics_engine",
         "repack_event_text",
         "install_event_text",
         "build_portrait_scene_engine",
@@ -544,6 +637,7 @@
         "install_comp_text",
         "build_comp_engine",
         "build_equipment_engine",
+        "build_facilities_status_engine",
         "build_status_engine",
         "build_options_engine",
         "build_level_up_engine",
@@ -552,7 +646,7 @@
         "install_options_engine",
         "install_level_up_engine",
         "install_analyze_engine",
-        "build_field_messages_engine",
+        "build_maze_party_panel_engine",
         "install_maze_engine",
         "build_save_load_engine",
         "install_save_load_engine",

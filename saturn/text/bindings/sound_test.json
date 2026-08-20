@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "asset": "diagnostics/sound_test.json",
+  "records": {
+    "game.sndtest_fields.o006fac": "title.text",
+    "game.sndtest_fields.o006fc0": "request_number.text",
+    "game.sndtest_fields.o006fc8": "sound_effect_request_number.text",
+    "game.sndtest_fields.o006fd4": "exit_message.text"
+  },
+  "field_surfaces": {
+    "text": [
+      "diagnostics.sound_test"
+    ]
+  }
+}

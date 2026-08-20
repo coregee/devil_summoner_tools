@@ -300,6 +300,54 @@
       ]
     },
     {
+      "capability": "combat.debug_ui",
+      "target": "COMBAT.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {"name": "debug_record_00_0", "address": "0x0607451c", "expected": "04250351007c00ac007800ed8000", "generated": "combat_debug_data"},
+        {"name": "debug_record_01_0", "address": "0x0607452c", "expected": "009f00778000", "generated": "combat_debug_data"},
+        {"name": "debug_record_02_0", "address": "0x06075a08", "expected": "01000100010001008000", "generated": "combat_debug_data"},
+        {"name": "debug_record_03_0", "address": "0x06075a32", "expected": "010001000100010001008000", "generated": "combat_debug_data"},
+        {"name": "debug_record_04_0", "address": "0x06075a5c", "expected": "0100010001000100010001008000", "generated": "combat_debug_data"},
+        {"name": "debug_record_05_0", "address": "0x06075a86", "expected": "01000100010001000100010001008000", "generated": "combat_debug_data"},
+        {"name": "debug_record_06_0", "address": "0x06075ab0", "expected": "00f600e9", "generated": "combat_debug_data"},
+        {"name": "debug_record_06_1", "address": "0x06075ada", "expected": "00f600e9", "generated": "combat_debug_data"},
+        {"name": "debug_record_06_2", "address": "0x06075b04", "expected": "00f600e9", "generated": "combat_debug_data"},
+        {"name": "debug_record_06_3", "address": "0x06075b2e", "expected": "00f600e9", "generated": "combat_debug_data"},
+        {"name": "debug_record_07_0", "address": "0x06075ab6", "expected": "004800680052005801aa004c00530040005800d4", "generated": "combat_debug_data"},
+        {"name": "debug_record_07_1", "address": "0x06075ae0", "expected": "004800680052005801aa004c00530040005800d4", "generated": "combat_debug_data"},
+        {"name": "debug_record_07_2", "address": "0x06075b0a", "expected": "004800680052005801aa004c00530040005800d4", "generated": "combat_debug_data"},
+        {"name": "debug_record_07_3", "address": "0x06075b34", "expected": "004800680052005801aa004c00530040005800d4", "generated": "combat_debug_data"},
+        {"name": "debug_record_08_0", "address": "0x06075acc", "expected": "00210015", "generated": "combat_debug_data"},
+        {"name": "debug_record_09_0", "address": "0x06075ad2", "expected": "001800198000", "generated": "combat_debug_data"},
+        {"name": "debug_record_10_0", "address": "0x06075af6", "expected": "000c000b000e", "generated": "combat_debug_data"},
+        {"name": "debug_record_11_0", "address": "0x06075afe", "expected": "001d8000", "generated": "combat_debug_data"},
+        {"name": "debug_record_12_0", "address": "0x06075b20", "expected": "000e000d0019000e000f8000", "generated": "combat_debug_data"},
+        {"name": "debug_record_13_0", "address": "0x06075b4a", "expected": "000f00220013001d001e8000", "generated": "combat_debug_data"}
+      ]
+    },
+    {
+      "capability": "combat.fixed_text_compatibility",
+      "target": "COMBAT.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {"name": "race_uma_mirror", "address": "0x06074470", "expected": "0132011b80000000", "generated": "combat_compatibility_data"}
+      ]
+    },
+    {
+      "capability": "combat.party_labels",
+      "target": "COMBAT.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "party_state_rows",
+          "address": "0x0604c0e8",
+          "expected": "e10f2f1062f37201e117221061f37102e31a213061f37103e61e216061f37104e723217062f37208e113221062f37209e118221062f3720ae100221061f3710b213062f3720ce10b221062f3720de11c221061f3710e216061f3710f2170",
+          "assembly": ["battle_ui/party_state_rows.s"]
+        }
+      ]
+    },
+    {
       "capability": "combat_packed_fetch",
       "target": "NORMCOM.BIN",
       "load_address": 100794368,

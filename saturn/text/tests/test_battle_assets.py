@@ -52,6 +52,7 @@ class BattleAssetTests(unittest.TestCase):
         cls.debug_character_binding = load_binding(
             BINDING_ROOT / "battle_debug_characters.json"
         )
+        cls.party_panel = load_asset("battle/party_panel.json")
         cls.characters = load_asset("characters.json")
         cls.surfaces = load_surfaces()
 
@@ -254,6 +255,14 @@ class BattleAssetTests(unittest.TestCase):
                 ("font16", 1, None, None),
                 ("font16", 1, None, None),
             ),
+            "battle.party_empty": (
+                ("font8", 1, "glyph_cells", 5),
+                ("font8", 1, "glyph_cells", 5),
+            ),
+            "battle.party_in_party": (
+                ("font8", 1, "glyph_cells", 8),
+                ("font8", 1, "glyph_cells", 8),
+            ),
         }
         for name, (expected_ja, expected_en) in expected.items():
             with self.subTest(surface=name):
@@ -266,6 +275,15 @@ class BattleAssetTests(unittest.TestCase):
                 )
                 self.assertEqual(actual(surface.ja), expected_ja)
                 self.assertEqual(actual(surface.en), expected_en)
+
+    def test_party_state_rows_are_complete_authored_labels(self) -> None:
+        self.assertEqual(
+            {
+                key: entry.fields["text"].translation
+                for key, entry in self.party_panel.entries.items()
+            },
+            {"empty": "EMPTY", "in_party": "IN PARTY"},
+        )
 
 
 if __name__ == "__main__":

@@ -1,0 +1,99 @@
+{
+  "version": 2,
+  "surface": "credits.ui",
+  "targets": {
+    "END_ROLL.BIN": {
+      "load_address": "0x06020000",
+      "size": 132128,
+      "stock_sha256": "b72559e959c0e4392557b540f9bd09652cb06d9c061a160f9274e2f2fed63b5f"
+    }
+  },
+  "inputs": {
+    "font16_sha256": "89272c66b96536658c271e061ff8c15198a1bbc4c01c4e17f23575897dca0acc",
+    "font16_metrics_sha256": "3ce6e6c916da3f4bc3c7a702c9ae07f84519185a45e2f733c13726cab6532fa3"
+  },
+  "groups": [
+    {
+      "capability": "credits.runtime",
+      "target": "END_ROLL.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "renderer",
+          "address": "0x06025000",
+          "expected_zero_bytes": 256,
+          "assembly": ["credits_ui/renderer.s"]
+        },
+        {
+          "name": "test_main_wrapper",
+          "address": "0x06025100",
+          "expected_zero_bytes": 64,
+          "assembly": ["credits_ui/test_wrapper.s"]
+        },
+        {
+          "name": "test_extra_wrapper",
+          "address": "0x06025140",
+          "expected_zero_bytes": 64,
+          "assembly": ["credits_ui/test_wrapper.s"]
+        },
+        {
+          "name": "offset_table",
+          "address": "0x06025180",
+          "expected_zero_bytes": 80,
+          "generated": "credits_data"
+        },
+        {
+          "name": "bitmap_pool",
+          "address": "0x060251d0",
+          "expected_zero_bytes": 8064,
+          "generated": "credits_data"
+        }
+      ]
+    },
+    {
+      "capability": "credits.main",
+      "target": "END_ROLL.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "main_name_hook",
+          "address": "0x0602cf5e",
+          "expected_sha256": "137e060f61428241b07dd8f0b6794e3d648de18f79d994a770443f7ce04e209a",
+          "expected_size": 50,
+          "assembly": ["credits_ui/main_hook.s"]
+        },
+        {
+          "name": "main_vdp_literal",
+          "address": "0x0602d018",
+          "expected": "06039fa8",
+          "pointer": "0x25e02000"
+        },
+        {
+          "name": "main_renderer_literal",
+          "address": "0x0602d01c",
+          "expected": "0602cdcc",
+          "linked_pointer": "renderer"
+        }
+      ]
+    },
+    {
+      "capability": "credits.test",
+      "target": "END_ROLL.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "test_main_trampoline",
+          "address": "0x0602d1b0",
+          "expected": "2f862f962fa62fb62fc64f22",
+          "assembly": ["credits_ui/trampoline.s"]
+        },
+        {
+          "name": "test_extra_trampoline",
+          "address": "0x0602d210",
+          "expected": "2f862f962fa62fb62fc64f22",
+          "assembly": ["credits_ui/trampoline.s"]
+        }
+      ]
+    }
+  ]
+}

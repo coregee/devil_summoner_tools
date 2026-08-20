@@ -359,6 +359,10 @@ class SurfaceCatalogTests(unittest.TestCase):
 
     def test_demon_detail_surface_slots_use_grounded_da3d_limits(self) -> None:
         expected = {
+            "status.character_name": (
+                ("font16", 1, "glyph_cells", 8),
+                ("font16", 1, "pixels", 126),
+            ),
             "status.demon_name": (
                 ("font16", 1, "glyph_cells", 8),
                 ("font16", 1, "pixels", 126),
@@ -407,6 +411,23 @@ class SurfaceCatalogTests(unittest.TestCase):
                     ("font8", 1, "pixels", 80),
                 )
 
+    def test_event_facility_name_geometries_are_proved(self) -> None:
+        expected = {
+            "bar.drink_name": 64,
+            "bar.patron_name": 64,
+            "bar.status_name": 104,
+            "healer.member_name": 104,
+            "healer.all_members": 144,
+            "healer.status_name": 104,
+        }
+        for name, width in expected.items():
+            with self.subTest(surface=name):
+                layout = self.catalog.surface(name).en
+                self.assertEqual(
+                    (layout.font, layout.rows, layout.width.unit, layout.width.value),
+                    ("font8", 1, "pixels", width),
+                )
+
     def test_comp_help_uses_the_full_width_surface(self) -> None:
         layout = self.catalog.surface("comp.help").en
         self.assertEqual(
@@ -425,20 +446,35 @@ class SurfaceCatalogTests(unittest.TestCase):
             ("font8", 1, "pixels", 112),
         )
 
-        for name in (
-            "compendium.ability_name",
-            "compendium.profile_name",
-            "compendium.race",
-            "compendium.origin",
-            "compendium.summary",
-            "compendium.detail",
-        ):
+        expected = {
+            "compendium.profile_name": (1, 8, 128),
+            "compendium.ability_name": (1, 8, 128),
+            "compendium.race": (1, 3, 48),
+            "compendium.origin": (1, 9, 144),
+            "compendium.summary": (4, 14, 224),
+            "compendium.detail": (12, 14, 224),
+        }
+        for name, (rows, ja_cells, en_pixels) in expected.items():
             with self.subTest(surface=name):
                 surface = self.catalog.surface(name)
-                for layout in (surface.ja, surface.en):
-                    self.assertIsNone(layout.font)
-                    self.assertIsNone(layout.rows)
-                    self.assertFalse(layout.width.known)
+                self.assertEqual(
+                    (
+                        surface.ja.font,
+                        surface.ja.rows,
+                        surface.ja.width.unit,
+                        surface.ja.width.value,
+                    ),
+                    ("font16", rows, "glyph_cells", ja_cells),
+                )
+                self.assertEqual(
+                    (
+                        surface.en.font,
+                        surface.en.rows,
+                        surface.en.width.unit,
+                        surface.en.width.value,
+                    ),
+                    ("font8", rows, "pixels", en_pixels),
+                )
 
     def test_catalog_is_strict(self) -> None:
         unknown = {

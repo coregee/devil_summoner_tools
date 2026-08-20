@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "first_point": {
+      "text": {
+        "reference": "第1の地点は、笠置山近くの更地……",
+        "translation": "The first point is an empty lot near Mount Kasagi..."
+      }
+    },
+    "second_point": {
+      "text": {
+        "reference": "第2の地点は、氷川神社……",
+        "translation": "The second point is Hikawa Shrine..."
+      }
+    },
+    "third_point": {
+      "text": {
+        "reference": "第3の地点は、臨海公園の市立博物館……",
+        "translation": "The third point is the City Museum in Rinkai Park..."
+      }
+    },
+    "fourth_point": {
+      "text": {
+        "reference": "第4の地点は、矢来区の東亜テレビ……",
+        "translation": "The fourth point is the Toa TV Station in Yarai..."
+      }
+    },
+    "connect_points": {
+      "text": {
+        "reference": "4つの場所を結ぶと……",
+        "translation": "Connecting the four locations..."
+      }
+    },
+    "magic_circle": {
+      "text": {
+        "reference": "……魔法陣ができるわ。",
+        "translation": "...A magic circle can be formed."
+      }
+    },
+    "fifth_point": {
+      "text": {
+        "reference": "第5の地点に当たる場所は、雲雀ヶ丘……",
+        "translation": "The fifth point is Hibarigaoka..."
+      }
+    },
+    "tendou_mansion": {
+      "text": {
+        "reference": "天堂組組長の屋敷が建っているあたりよ。",
+        "translation": "It is where the Tendou Yakuza boss's mansion resides."
+      }
+    }
+  }
+}

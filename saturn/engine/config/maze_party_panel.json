@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "surface": "maze.party_panel",
+  "targets": {
+    "MAZE.BIN": {
+      "load_address": "0x06020000",
+      "size": 169264,
+      "stock_sha256": "38d8a919d2d17461fc2c2ee8b41093efc893fc72d4e7eb5db243fe84560cc229"
+    }
+  },
+  "inputs": {
+    "font8_metrics_sha256": "82f688a7a2bc2efd1caa32555968c456c332d30813bd7e2b3c8af08b7f2978c6"
+  },
+  "groups": [
+    {
+      "capability": "maze.party_panel",
+      "target": "MAZE.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "renderer_cave",
+          "address": "0x06022800",
+          "expected_zero_bytes": 1024,
+          "assembly": [
+            "font8_pixel_blitter.s",
+            "font8_fixed_name.s"
+          ]
+        },
+        {
+          "name": "compact_name_cave",
+          "address": "0x06023800",
+          "expected_zero_bytes": 2048,
+          "assembly": ["comp_menu/party_panel.s"]
+        },
+        {
+          "name": "panel_pointer_0603f364",
+          "address": "0x0603f364",
+          "expected": "0603fbb4",
+          "linked_pointer": "party_panel_entry"
+        },
+        {
+          "name": "panel_pointer_0603f660",
+          "address": "0x0603f660",
+          "expected": "0603fbb4",
+          "linked_pointer": "party_panel_entry"
+        },
+        {
+          "name": "panel_pointer_0603f8e4",
+          "address": "0x0603f8e4",
+          "expected": "0603fbb4",
+          "linked_pointer": "party_panel_entry"
+        }
+      ]
+    }
+  ]
+}

@@ -12,6 +12,8 @@
   },
   "surface_handlers": {
     "battle.command": "font8_stock_latin",
+    "battle.party_empty": "font8_stock_latin",
+    "battle.party_in_party": "font8_stock_latin",
     "comp.command": "font8_stock_latin",
     "shop.command": "font8_stock_latin",
     "bar.command": "font8_stock_latin",

@@ -29,7 +29,7 @@ FUSION_SHA256 = (
 NAME_INSERTS_SHA256 = (
     "587683072bb86e91085d752c0ea7399182667a417c2618754888e687e93679f6"
 )
-TERMINAL_EQUIPMENT_SHA256 = (
+EQUIPMENT_INTERMEDIATE_SHA256 = (
     "1ffb315598c74bf0b0cb1a85b68097ba10ed050fdb6b1795ef00f2c8485f695e"
 )
 
@@ -77,12 +77,12 @@ class EventNameInsertsBuildIntegrationTests(unittest.TestCase):
             )
         )
 
-    def test_equipment_consumes_adapter_and_keeps_terminal_path(self) -> None:
+    def test_equipment_consumes_adapter_and_publishes_distinct_intermediate(self) -> None:
         equipment = build_equipment_surface()
         manifest = json.loads(equipment[EQUIPMENT_BUILD_MANIFEST_PATH])
         self.assertEqual(
             hashlib.sha256(equipment[EQUIPMENT_EVENT_OUTPUT_PATH]).hexdigest(),
-            TERMINAL_EQUIPMENT_SHA256,
+            EQUIPMENT_INTERMEDIATE_SHA256,
         )
         self.assertEqual(
             manifest["bases"]["EVENT.BIN"],

@@ -28,7 +28,23 @@ from engine.surfaces.comp_menu import (  # noqa: E402
     NORMCOM_OUTPUT_PATH as COMP_NORMCOM_OUTPUT_PATH,
     build_comp_menu,
 )
+from engine.surfaces.compendium_text import (  # noqa: E402
+    BUILD_PATH as COMPENDIUM_TEXT_BUILD_PATH,
+    CONFIG_PATH as COMPENDIUM_TEXT_CONFIG_PATH,
+    OUTPUT_ROOT as COMPENDIUM_TEXT_OUTPUT_ROOT,
+    PROFILE_TAIL_BYTES as COMPENDIUM_PROFILE_TAIL_BYTES,
+    PROFILE_TAIL_OFFSET as COMPENDIUM_PROFILE_TAIL_OFFSET,
+    TARGET as COMPENDIUM_TEXT_TARGET,
+    build_compendium_text,
+)
 from engine.surfaces.equipment_ui import build_equipment_ui  # noqa: E402
+from engine.surfaces.facilities_status_ui import (  # noqa: E402
+    BUILD_PATH as FACILITIES_STATUS_BUILD_MANIFEST_PATH,
+    CONFIG_PATH as FACILITIES_STATUS_CONFIG_PATH,
+    OUTPUT_PATH as FACILITIES_STATUS_OUTPUT_PATH,
+    TARGET as FACILITIES_STATUS_TARGET,
+    build_facilities_status_ui,
+)
 from engine.surfaces.dungeon_locations import (  # noqa: E402
     AUTOMAP_TARGET as DUNGEON_AUTOMAP_TARGET,
     CONFIG_PATH as DUNGEON_LOCATIONS_CONFIG_PATH,
@@ -62,6 +78,21 @@ from engine.surfaces.level_up_ui import (  # noqa: E402
     RUNTIME_CAVE as LEVEL_UP_RUNTIME_CAVE,
     build_level_up_ui,
 )
+from engine.surfaces.horoscope_ui import (  # noqa: E402
+    CONFIG_PATH as HOROSCOPE_CONFIG_PATH,
+    TARGET as HOROSCOPE_TARGET,
+    build_horoscope_ui,
+)
+from engine.surfaces.credits_ui import (  # noqa: E402
+    CONFIG_PATH as CREDITS_CONFIG_PATH,
+    TARGET as CREDITS_TARGET,
+    build_credits_ui,
+)
+from engine.surfaces.diagnostics_ui import (  # noqa: E402
+    CONFIG_PATH as DIAGNOSTICS_CONFIG_PATH,
+    TARGETS as DIAGNOSTICS_TARGETS,
+    build_diagnostics_ui,
+)
 from engine.surfaces.map_2d_ui import (  # noqa: E402
     CONFIG_PATH as MAP_2D_CONFIG_PATH,
     TARGET as MAP_2D_TARGET,
@@ -70,6 +101,11 @@ from engine.surfaces.map_2d_ui import (  # noqa: E402
 from engine.surfaces.field_messages import (  # noqa: E402
     CONFIG_PATH as FIELD_MESSAGES_CONFIG_PATH,
     build_field_messages,
+)
+from engine.surfaces.maze_party_panel import (  # noqa: E402
+    BUILD_PATH as MAZE_PARTY_PANEL_BUILD_MANIFEST_PATH,
+    CONFIG_PATH as MAZE_PARTY_PANEL_CONFIG_PATH,
+    build_maze_party_panel,
 )
 from engine.surfaces.options_ui import (  # noqa: E402
     CONFIG_PATH as OPTIONS_CONFIG_PATH,
@@ -109,7 +145,7 @@ EVENT_NAME_INSERTS_OUTPUT_PATH = (
 EVENT_NAME_INSERTS_BUILD_MANIFEST_PATH = (
     GENERATED_ROOT / "event_name_inserts_build.json"
 )
-EQUIPMENT_EVENT_OUTPUT_PATH = GENERATED_ROOT / "EVENT.BIN"
+EQUIPMENT_EVENT_OUTPUT_PATH = GENERATED_ROOT / "equipment_ui" / "EVENT.BIN"
 EQUIPMENT_NORMCOM_OUTPUT_PATH = (
     GENERATED_ROOT / "equipment_ui" / "NORMCOM.BIN"
 )
@@ -137,6 +173,15 @@ PROFILE_ENTRY_OUTPUT_PATH = GENERATED_ROOT / PROFILE_ENTRY_TARGET
 PROFILE_ENTRY_BUILD_MANIFEST_PATH = GENERATED_ROOT / "profile_entry_ui_build.json"
 MAP_2D_OUTPUT_PATH = GENERATED_ROOT / MAP_2D_TARGET
 MAP_2D_BUILD_MANIFEST_PATH = GENERATED_ROOT / "map_2d_ui_build.json"
+HOROSCOPE_OUTPUT_PATH = GENERATED_ROOT / HOROSCOPE_TARGET
+HOROSCOPE_BUILD_MANIFEST_PATH = GENERATED_ROOT / "horoscope_ui_build.json"
+CREDITS_OUTPUT_PATH = GENERATED_ROOT / CREDITS_TARGET
+CREDITS_BUILD_MANIFEST_PATH = GENERATED_ROOT / "credits_ui_build.json"
+DIAGNOSTICS_OUTPUT_PATHS = {
+    target: GENERATED_ROOT / target for target in DIAGNOSTICS_TARGETS
+}
+DIAGNOSTICS_BUILD_MANIFEST_PATH = GENERATED_ROOT / "diagnostics_ui_build.json"
+COMPENDIUM_INSTALL_ROOT = SATURN_ROOT / "rom" / "extracted" / "compendium"
 PROFILE_ENTRY_INSTALL_PATH = (
     SATURN_ROOT / "rom" / "extracted" / "game" / PROFILE_ENTRY_TARGET
 )
@@ -313,6 +358,65 @@ def build_equipment_surface() -> dict[Path, bytes]:
     }
 
 
+def build_facilities_status_surface() -> dict[Path, bytes]:
+    """Compose the terminal EVENT facility and detailed-status consumers."""
+    equipment_outputs = build_equipment_surface()
+    base = equipment_outputs[EQUIPMENT_EVENT_OUTPUT_PATH]
+    result = build_facilities_status_ui(base)
+    manifest = {
+        "version": 1,
+        "surface": "facilities.status_ui",
+        "patch_config_sha256": file_sha256(FACILITIES_STATUS_CONFIG_PATH),
+        "base": {
+            "surface": "equipment.ui",
+            "sha256": sha256(base),
+            "manifest_sha256": sha256(
+                equipment_outputs[EQUIPMENT_BUILD_MANIFEST_PATH]
+            ),
+        },
+        "asset_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.asset_files
+        },
+        "runtime_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.runtime_input_files
+        },
+        "source_inputs": dict(result.source_inputs),
+        "assembly_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.assembly_files
+        },
+        "runtime": {
+            "bytes": result.runtime_used_size,
+            "capacity": result.runtime_capacity,
+            "arenas": {
+                arena.name: {
+                    "address": f"0x{arena.address:08x}",
+                    "bytes": arena.used_size,
+                    "capacity": arena.capacity,
+                }
+                for arena in result.runtime_arenas
+            },
+        },
+        "output": {
+            "file": FACILITIES_STATUS_TARGET,
+            "sha256": sha256(result.data),
+        },
+        "patch_groups": list(
+            dict.fromkeys(patch.group for patch in result.patches)
+        ),
+        "patches": len(result.patches),
+    }
+    return {
+        **equipment_outputs,
+        FACILITIES_STATUS_OUTPUT_PATH: result.data,
+        FACILITIES_STATUS_BUILD_MANIFEST_PATH: (
+            json.dumps(manifest, indent=2) + "\n"
+        ).encode("utf-8"),
+    }
+
+
 def build_profile_entry_surface() -> dict[Path, bytes]:
     """Build the complete Profile Entry controller from the stock NAME target."""
     result = build_profile_entry_ui()
@@ -392,6 +496,193 @@ def build_map_2d_surface() -> dict[Path, bytes]:
         MAP_2D_BUILD_MANIFEST_PATH: (
             json.dumps(manifest, indent=2) + "\n"
         ).encode("utf-8"),
+    }
+
+
+def build_horoscope_surface() -> dict[Path, bytes]:
+    """Build the authored horoscope messages in the stock overlay."""
+    result = build_horoscope_ui()
+    manifest = {
+        "version": 1,
+        "surface": "horoscope.ui",
+        "patch_config_sha256": file_sha256(HOROSCOPE_CONFIG_PATH),
+        "asset_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.asset_files
+        },
+        "runtime_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.runtime_input_files
+        },
+        "source_inputs": dict(result.source_inputs),
+        "assembly_inputs": {},
+        "runtime": {
+            "bytes": result.runtime_used_size,
+            "capacity": result.runtime_capacity,
+            "arenas": [
+                {
+                    "address": f"0x{arena.address:08x}",
+                    "bytes": arena.used_size,
+                    "capacity": arena.capacity,
+                }
+                for arena in result.runtime_arenas
+            ],
+        },
+        "output": {
+            "file": HOROSCOPE_TARGET,
+            "sha256": sha256(result.data),
+        },
+        "patch_groups": list(
+            dict.fromkeys(patch.group for patch in result.patches)
+        ),
+        "patches": len(result.patches),
+    }
+    return {
+        HOROSCOPE_OUTPUT_PATH: result.data,
+        HOROSCOPE_BUILD_MANIFEST_PATH: (
+            json.dumps(manifest, indent=2) + "\n"
+        ).encode("utf-8"),
+    }
+
+
+def build_credits_surface() -> dict[Path, bytes]:
+    """Build every authored END_ROLL staff-name consumer."""
+    result = build_credits_ui()
+    manifest = {
+        "version": 1,
+        "surface": "credits.ui",
+        "patch_config_sha256": file_sha256(CREDITS_CONFIG_PATH),
+        "asset_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.asset_files
+        },
+        "runtime_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.runtime_input_files
+        },
+        "source_inputs": dict(result.source_inputs),
+        "assembly_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.assembly_files
+        },
+        "runtime": {
+            "bytes": result.runtime_used_size,
+            "capacity": result.runtime_capacity,
+            "arenas": [
+                {
+                    "address": f"0x{arena.address:08x}",
+                    "bytes": arena.used_size,
+                    "capacity": arena.capacity,
+                }
+                for arena in result.runtime_arenas
+            ],
+        },
+        "output": {"file": CREDITS_TARGET, "sha256": sha256(result.data)},
+        "patch_groups": list(
+            dict.fromkeys(patch.group for patch in result.patches)
+        ),
+        "patches": len(result.patches),
+    }
+    return {
+        CREDITS_OUTPUT_PATH: result.data,
+        CREDITS_BUILD_MANIFEST_PATH: (
+            json.dumps(manifest, indent=2) + "\n"
+        ).encode("utf-8"),
+    }
+
+
+def build_diagnostics_surface() -> dict[Path, bytes]:
+    """Build the authored Sound Test and 3D Test fixed-cell labels."""
+    result = build_diagnostics_ui()
+    manifest = {
+        "version": 1,
+        "surface": "diagnostics.ui",
+        "patch_config_sha256": file_sha256(DIAGNOSTICS_CONFIG_PATH),
+        "asset_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.asset_files
+        },
+        "runtime_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.runtime_input_files
+        },
+        "source_inputs": dict(result.source_inputs),
+        "assembly_inputs": {},
+        "runtime": {"bytes": 0, "capacity": 0, "arenas": []},
+        "outputs": {
+            target: {"sha256": sha256(result.outputs[target])}
+            for target in DIAGNOSTICS_TARGETS
+        },
+        "patch_groups": list(
+            dict.fromkeys(patch.group for patch in result.patches)
+        ),
+        "patches": len(result.patches),
+    }
+    return {
+        **{
+            DIAGNOSTICS_OUTPUT_PATHS[target]: result.outputs[target]
+            for target in DIAGNOSTICS_TARGETS
+        },
+        DIAGNOSTICS_BUILD_MANIFEST_PATH: (
+            json.dumps(manifest, indent=2) + "\n"
+        ).encode("utf-8"),
+    }
+
+
+def build_compendium_text_surface() -> dict[Path, bytes]:
+    """Build every proved Akuma Zensho profile and catalogue text field."""
+    result = build_compendium_text()
+    manifest = {
+        "version": 1,
+        "surface": "compendium.text",
+        "patch_config_sha256": file_sha256(COMPENDIUM_TEXT_CONFIG_PATH),
+        "asset_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.asset_files
+        },
+        "runtime_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.runtime_input_files
+        },
+        "source_inputs": dict(result.source_inputs),
+        "assembly_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.assembly_files
+        },
+        "runtime": {
+            "bytes": result.runtime_used_size,
+            "capacity": result.runtime_capacity,
+            "arenas": [
+                {
+                    "address": f"0x{arena.address:08x}",
+                    "bytes": arena.used_size,
+                    "capacity": arena.capacity,
+                }
+                for arena in result.runtime_arenas
+            ],
+        },
+        "outputs": {
+            target: {"sha256": sha256(data), "bytes": len(data)}
+            for target, data in result.outputs.items()
+        },
+        "patch_groups": list(
+            dict.fromkeys(
+                patch.group
+                for patches in result.patches.values()
+                for patch in patches
+            )
+        ),
+        "patches": sum(len(patches) for patches in result.patches.values()),
+        "unresolved_physical_ids": sorted(result.unresolved_ids),
+    }
+    return {
+        **{
+            COMPENDIUM_TEXT_OUTPUT_ROOT / target: data
+            for target, data in result.outputs.items()
+        },
+        COMPENDIUM_TEXT_BUILD_PATH: (json.dumps(manifest, indent=2) + "\n").encode(
+            "utf-8"
+        ),
     }
 
 
@@ -721,6 +1012,62 @@ def build_field_messages_surface() -> dict[Path, bytes]:
     }
 
 
+def build_maze_party_panel_surface() -> dict[Path, bytes]:
+    """Compose the final compact-name party panel onto field-message MAZE."""
+    field_outputs = build_field_messages_surface()
+    base = field_outputs[FIELD_MESSAGES_OUTPUT_PATH]
+    result = build_maze_party_panel(base)
+    manifest = {
+        "version": 1,
+        "surface": "maze.party_panel",
+        "patch_config_sha256": file_sha256(MAZE_PARTY_PANEL_CONFIG_PATH),
+        "base": {
+            "surface": "field.messages",
+            "sha256": sha256(base),
+            "manifest_sha256": sha256(
+                field_outputs[FIELD_MESSAGES_BUILD_MANIFEST_PATH]
+            ),
+        },
+        "asset_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.asset_files
+        },
+        "runtime_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.runtime_input_files
+        },
+        "source_inputs": dict(result.source_inputs),
+        "assembly_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.assembly_files
+        },
+        "runtime": {
+            "bytes": result.runtime_used_size,
+            "capacity": result.runtime_capacity,
+            "arenas": [
+                {
+                    "address": f"0x{arena.address:08x}",
+                    "bytes": arena.used_size,
+                    "capacity": arena.capacity,
+                }
+                for arena in result.runtime_arenas
+            ],
+        },
+        "output": {"file": DUNGEON_MAZE_TARGET, "sha256": sha256(result.data)},
+        "patch_groups": list(
+            dict.fromkeys(patch.group for patch in result.patches)
+        ),
+        "patches": len(result.patches),
+    }
+    return {
+        **field_outputs,
+        FIELD_MESSAGES_OUTPUT_PATH: result.data,
+        MAZE_PARTY_PANEL_BUILD_MANIFEST_PATH: (
+            json.dumps(manifest, indent=2) + "\n"
+        ).encode("utf-8"),
+    }
+
+
 def build_save_load_surface() -> dict[Path, bytes]:
     """Build SAVE and LOAD together before their visual assets are repacked."""
     result = build_save_load_ui()
@@ -911,6 +1258,63 @@ def install_profile_entry_surface(*, check: bool) -> None:
         print("installed Profile Entry engine output NAME.BIN")
 
 
+def _verify_compendium_text_install(
+    target: str, expected: bytes, installed: bytes
+) -> None:
+    if len(installed) != len(expected):
+        raise ValueError(f"installed compendium target has wrong size: {target}")
+    if target == COMPENDIUM_TEXT_TARGET:
+        matches = installed == expected
+    else:
+        start = COMPENDIUM_PROFILE_TAIL_OFFSET
+        end = start + COMPENDIUM_PROFILE_TAIL_BYTES
+        matches = installed[start:end] == expected[start:end]
+    if not matches:
+        raise ValueError(f"installed compendium text is stale in {target}")
+
+
+def install_compendium_text_surface(*, check: bool) -> None:
+    """Install all compendium text, or verify text tails beneath visual edits."""
+    if not COMPENDIUM_TEXT_BUILD_PATH.is_file():
+        raise ValueError(
+            f"compendium text manifest is missing: {COMPENDIUM_TEXT_BUILD_PATH}"
+        )
+    manifest = json.loads(COMPENDIUM_TEXT_BUILD_PATH.read_text(encoding="utf-8"))
+    outputs = manifest.get("outputs") if isinstance(manifest, dict) else None
+    if (
+        not isinstance(manifest, dict)
+        or manifest.get("surface") != "compendium.text"
+        or not isinstance(outputs, dict)
+        or len(outputs) != 293
+        or COMPENDIUM_TEXT_TARGET not in outputs
+        or sum(name.startswith("DVL_") and name.endswith(".DAT") for name in outputs)
+        != 292
+    ):
+        raise ValueError("compendium text manifest target inventory drifted")
+    for target, contract in outputs.items():
+        source = COMPENDIUM_TEXT_OUTPUT_ROOT / target
+        if not source.is_file():
+            raise ValueError(f"compendium text output is missing: {source}")
+        expected = source.read_bytes()
+        if (
+            not isinstance(contract, dict)
+            or contract.get("bytes") != len(expected)
+            or contract.get("sha256") != sha256(expected)
+        ):
+            raise ValueError(f"compendium text manifest is stale for {target}")
+        destination = COMPENDIUM_INSTALL_ROOT / target
+        if check:
+            if not destination.is_file():
+                raise ValueError(f"installed compendium target is missing: {destination}")
+            installed = destination.read_bytes()
+            _verify_compendium_text_install(target, expected, installed)
+        else:
+            _atomic_write(destination, expected)
+    print(
+        f"{'verified' if check else 'installed'} 293 compendium text targets"
+    )
+
+
 def _atomic_write(path: Path, value: bytes) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     descriptor, temporary_name = tempfile.mkstemp(
@@ -960,16 +1364,22 @@ def main() -> int:
             "battle.ui",
             "comp.menu",
             "equipment.ui",
+            "facilities.status_ui",
             "status.ui",
             "options.ui",
             "level_up.ui",
             "map_3d.analyze",
             "dungeon.locations",
             "field.messages",
+            "maze.party_panel",
             "save_load.ui",
             "profile_entry.ui",
             "map_2d.ui",
+            "horoscope.ui",
+            "credits.ui",
+            "diagnostics.ui",
             "portrait_scene.ui",
+            "compendium.text",
         ),
     )
     parser.add_argument("--check", action="store_true")
@@ -977,8 +1387,8 @@ def main() -> int:
         "--install",
         action="store_true",
         help=(
-            "install a terminal Profile Entry or SAVE/LOAD output, or verify "
-            "its installed engine-owned bytes"
+            "install a terminal Profile Entry, SAVE/LOAD, or compendium output, "
+            "or verify its installed engine-owned bytes"
         ),
     )
     arguments = parser.parse_args()
@@ -991,26 +1401,34 @@ def main() -> int:
             "battle.ui": build_battle_ui,
             "comp.menu": build_comp_menu,
             "equipment.ui": build_equipment_surface,
+            "facilities.status_ui": build_facilities_status_surface,
             "status.ui": build_status_surface,
             "options.ui": build_options_surface,
             "level_up.ui": build_level_up_surface,
             "map_3d.analyze": build_analyze_surface,
             "dungeon.locations": build_dungeon_locations_surface,
             "field.messages": build_field_messages_surface,
+            "maze.party_panel": build_maze_party_panel_surface,
             "save_load.ui": build_save_load_surface,
             "profile_entry.ui": build_profile_entry_surface,
             "map_2d.ui": build_map_2d_surface,
+            "horoscope.ui": build_horoscope_surface,
+            "credits.ui": build_credits_surface,
+            "diagnostics.ui": build_diagnostics_surface,
             "portrait_scene.ui": build_portrait_scene_surface,
+            "compendium.text": build_compendium_text_surface,
         }
         if arguments.install:
             if arguments.surface == "save_load.ui":
                 install_save_load_surface(check=arguments.check)
             elif arguments.surface == "profile_entry.ui":
                 install_profile_entry_surface(check=arguments.check)
+            elif arguments.surface == "compendium.text":
+                install_compendium_text_surface(check=arguments.check)
             else:
                 raise ValueError(
-                    "--install is supported only for profile_entry.ui and "
-                    "save_load.ui"
+                    "--install is supported only for profile_entry.ui, "
+                    "save_load.ui, and compendium.text"
                 )
         else:
             _publish(builders[arguments.surface](), check=arguments.check)

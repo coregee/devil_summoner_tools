@@ -322,6 +322,7 @@ class CompendiumInventoryTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         cls.manifest = load_manifest(manifest_path("compendium"))
+        cls.stock_blobs = extract._read_stock_sources(cls.manifest)
         cls.batch = extract.build_batch("compendium")
         cls.rows = json.loads(cls.batch.rendered[PurePosixPath("profiles.json")])
         cls.name_rows = json.loads(
@@ -456,11 +457,10 @@ class CompendiumInventoryTests(unittest.TestCase):
             "summary": hashlib.sha256(),
             "detail": hashlib.sha256(),
         }
-        root = extract.ROM_ROOT / "extracted" / "compendium"
         for file_id, spec in self.manifest.files.items():
             if not file_id.startswith("dvl_"):
                 continue
-            data = root.joinpath(*spec.path.parts).read_bytes()
+            data = self.stock_blobs[file_id]
             tails.update(data[0x78000:0x781DC])
             fields["origin"].update(data[0x78000:0x7801E])
             fields["summary"].update(data[0x7801E:0x7808E])
@@ -487,8 +487,7 @@ class CompendiumInventoryTests(unittest.TestCase):
     def test_profile_text_composes_with_visual_changes(self) -> None:
         file_id = "dvl_001"
         spec = self.manifest.files[file_id]
-        path = extract.ROM_ROOT / "extracted" / "compendium" / spec.path
-        stock = path.read_bytes()
+        stock = self.stock_blobs[file_id]
         single = SourceManifest(
             "compendium",
             self.manifest.track_sha256,

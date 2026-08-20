@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "asset": "ui/horoscope.json",
+  "records": {
+    "game.hosi_messages.o010f62.text": "first_point.text",
+    "game.hosi_messages.o010f8c.text": "second_point.text",
+    "game.hosi_messages.o010fb6.text": "third_point.text",
+    "game.hosi_messages.o010fe0.text": "fourth_point.text",
+    "game.hosi_messages.o01100a.text": "connect_points.text",
+    "game.hosi_messages.o011034.text": "magic_circle.text",
+    "game.hosi_messages.o01105e.text": "fifth_point.text",
+    "game.hosi_messages.o011088.text": "tendou_mansion.text"
+  },
+  "record_surfaces": {
+    "game.hosi_messages.o010f62.text": ["horoscope.message"],
+    "game.hosi_messages.o010f8c.text": ["horoscope.message"],
+    "game.hosi_messages.o010fb6.text": ["horoscope.message"],
+    "game.hosi_messages.o010fe0.text": ["horoscope.message"],
+    "game.hosi_messages.o01100a.text": ["horoscope.message"],
+    "game.hosi_messages.o011034.text": ["horoscope.message"],
+    "game.hosi_messages.o01105e.text": ["horoscope.message"],
+    "game.hosi_messages.o011088.text": ["horoscope.message"]
+  }
+}

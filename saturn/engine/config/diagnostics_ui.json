@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "surface": "diagnostics.ui",
+  "targets": {
+    "SNDTEST.BIN": {
+      "load_address": "0x06020000",
+      "size": 29192,
+      "stock_sha256": "1448c315929218bbf9ee8dd2cc3192fe3f5ae50cc225b40c8bfe0fc3ed4491ac"
+    },
+    "TEST3D.BIN": {
+      "load_address": "0x06020000",
+      "size": 30160,
+      "stock_sha256": "858acdeacc39c18f2309cd653f18290d73d46005b169841803b4c3982a8e0427"
+    }
+  },
+  "inputs": {},
+  "groups": [
+    {
+      "capability": "diagnostics.sound_test",
+      "target": "SNDTEST.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {"name": "title", "address": "0x06026fac", "expected": "536f756e6420546573742050726f6772616d0000", "generated": "diagnostics_ascii"},
+        {"name": "request_number", "address": "0x06026fc0", "expected": "526571204e6f2000", "generated": "diagnostics_ascii"},
+        {"name": "sound_effect_request_number", "address": "0x06026fc8", "expected": "536520526571204e6f200000", "generated": "diagnostics_ascii"},
+        {"name": "exit_message", "address": "0x06026fd4", "expected": "536f756e6420546573742045786974212100", "generated": "diagnostics_ascii"}
+      ]
+    },
+    {
+      "capability": "diagnostics.test_3d",
+      "target": "TEST3D.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {"name": "title", "address": "0x0602695c", "expected": "3364206d617a652070726d207365742000000000", "generated": "diagnostics_ascii"},
+        {"name": "control", "address": "0x06026970", "expected": "63746c2020200000", "generated": "diagnostics_ascii"},
+        {"name": "map_number", "address": "0x06026978", "expected": "6d61706e6f200000", "generated": "diagnostics_ascii"},
+        {"name": "direction", "address": "0x06026980", "expected": "6d756b6920200000", "generated": "diagnostics_ascii"},
+        {"name": "x_position", "address": "0x06026988", "expected": "706f736978200000", "generated": "diagnostics_ascii"},
+        {"name": "y_position", "address": "0x06026990", "expected": "706f736979200000", "generated": "diagnostics_ascii"},
+        {"name": "launch", "address": "0x060269a0", "expected": "474f20544f203344204d41494e2050524f430000", "generated": "diagnostics_ascii"}
+      ]
+    }
+  ]
+}

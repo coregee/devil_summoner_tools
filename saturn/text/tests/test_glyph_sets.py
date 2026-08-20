@@ -30,6 +30,8 @@ class OutputGlyphSetTests(unittest.TestCase):
             set(catalog.surface_handlers),
             {
                 "battle.command",
+                "battle.party_empty",
+                "battle.party_in_party",
                 "comp.command",
                 "shop.command",
                 "bar.command",

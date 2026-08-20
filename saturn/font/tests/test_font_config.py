@@ -90,6 +90,15 @@ class FontReferenceSetTests(unittest.TestCase):
         self.assertEqual(self.definition.glyphs[176], "．")
         self.assertEqual(self.definition.glyphs[198], "／")
 
+    def test_compound_facility_tiles_are_documented_as_healer_labels(self) -> None:
+        document = json.loads(
+            (CONFIG_ROOT / "game" / "font8.json").read_text(encoding="utf-8")
+        )
+        description = document["description"]
+        self.assertIn("healer screen", description)
+        self.assertIn("compound REVIVE/STATUS tiles", description)
+        self.assertNotIn("REVIEW", description)
+
 
 class KanjiNameEntryReferenceSetTests(unittest.TestCase):
     @classmethod
