@@ -16,8 +16,12 @@ from engine.core.patch_recipes import (
     resolve_recipe_expected,
 )
 from engine.core.patching import Patch, apply_patches
-from engine.core.sh2 import AssemblyError, assemble, assemble_file
-from engine.shared.player_names import PLAYER_NAME_FIELD_BY_KEY
+from engine.core.sh2 import AssemblyError, assemble
+from engine.shared.player_name_adapters import (
+    PlayerNameAdapterSpec,
+    build_player_name_assembly,
+    pointer_contract,
+)
 from rom.util.catalog import load_catalog, validate_source
 from rom.util.workflows import read_source_files
 
@@ -40,22 +44,18 @@ ORIGINAL_BLITTER = 0x0602BCC0
 STOCK_ADVANCE = 0x06076754
 RAW_MENU_CONTINUE = 0x06030CDA
 CODENAME_CONTINUE = 0x0602C49E
-TERMINATOR = 0x8000
-
-POINTER_CONTRACT = MappingProxyType(
-    {
-        "first_insert_pointer": PLAYER_NAME_FIELD_BY_KEY["first_name"].runtime_address,
-        "last_insert_pointer": PLAYER_NAME_FIELD_BY_KEY["last_name"].runtime_address,
-        "city_insert_pointer": PLAYER_NAME_FIELD_BY_KEY["city"].runtime_address,
-        "ward_insert_pointer": PLAYER_NAME_FIELD_BY_KEY["ward"].runtime_address,
-        "codename_insert_pointer": PLAYER_NAME_FIELD_BY_KEY["codename"].runtime_address,
-        "raw_menu_first_insert_pointer": PLAYER_NAME_FIELD_BY_KEY[
-            "first_name"
-        ].runtime_address,
-        "raw_menu_last_insert_pointer": PLAYER_NAME_FIELD_BY_KEY[
-            "last_name"
-        ].runtime_address,
-    }
+POINTER_CONTRACT = pointer_contract()
+ADAPTER_SPEC = PlayerNameAdapterSpec(
+    "EVENT",
+    0x0602C44C,
+    CODENAME_CONTINUE,
+    RUNTIME_ADDRESS,
+    RUNTIME_CAPACITY,
+    MENU_BLITTER_POINTER,
+    ORIGINAL_BLITTER,
+    STOCK_ADVANCE,
+    (0x06030C66, 0x06030C98),
+    RAW_MENU_CONTINUE,
 )
 
 
@@ -120,22 +120,6 @@ def _only_source(recipe: PatchRecipe, expected: str) -> Path:
     return sources[0]
 
 
-def _assembled(
-    source: Path,
-    address: int,
-    symbols: Mapping[str, int],
-) -> bytes:
-    try:
-        result = assemble_file(source, address, dict(symbols))
-    except (AssemblyError, FileNotFoundError) as error:
-        raise ValueError(f"{source.relative_to(ENGINE_ROOT)}: {error}") from error
-    if result.warnings:
-        raise ValueError(
-            f"{source.relative_to(ENGINE_ROOT)}: assembly warnings: {result.warnings}"
-        )
-    return result.data
-
-
 def _instruction(recipe: PatchRecipe) -> bytes:
     source = recipe.replacement.instruction
     assert source is not None
@@ -148,33 +132,41 @@ def _instruction(recipe: PatchRecipe) -> bytes:
     return result.data
 
 
-def _assembly_patch(recipe: PatchRecipe, expected_size: int) -> bytes:
-    if recipe.name == "raw_menu_name_renderer":
-        source = _only_source(
-            recipe, "event_name_inserts/raw_menu_inserts.s"
-        )
-        code = _assembled(
-            source,
-            recipe.address,
-            {
-                "MENU_BLITTER_POINTER": MENU_BLITTER_POINTER,
-                "ORIGINAL_BLITTER": ORIGINAL_BLITTER,
-                "STOCK_ADVANCE": STOCK_ADVANCE,
-                "TERMINATOR": TERMINATOR,
-            },
-        )
-        if len(code) != RUNTIME_USED_SIZE or expected_size != RUNTIME_CAPACITY:
-            raise ValueError(
-                f"EVENT name renderer uses {len(code)}/{expected_size} bytes"
-            )
-        return code.ljust(expected_size, b"\0")
-    if recipe.name == "codename_skip_copy":
-        source = _only_source(recipe, "event_name_inserts/codename_skip.s")
-        return _assembled(source, recipe.address, {"CONTINUE": CODENAME_CONTINUE})
-    if recipe.name.startswith("raw_menu_name_result_"):
-        source = _only_source(recipe, "event_name_inserts/raw_menu_result.s")
-        return _assembled(source, recipe.address, {"CONTINUE": RAW_MENU_CONTINUE})
-    raise ValueError(f"{recipe.group}/{recipe.name}: unknown assembly owner")
+def _assembly_replacements(
+    config: PatchRecipeConfiguration,
+) -> Mapping[str, bytes]:
+    recipes = {recipe.name: recipe for recipe in config.patches[TARGET]}
+    sources = {
+        "codename_skip_copy": _only_source(
+            recipes["codename_skip_copy"],
+            "shared/player_name_inserts/codename_skip.s",
+        ),
+        "raw_menu_name_renderer": _only_source(
+            recipes["raw_menu_name_renderer"],
+            "shared/player_name_inserts/raw_menu_inserts.s",
+        ),
+        "raw_menu_result": _only_source(
+            recipes["raw_menu_name_result_06030c66"],
+            "shared/player_name_inserts/raw_menu_result.s",
+        ),
+    }
+    for name in ("raw_menu_name_result_06030c66", "raw_menu_name_result_06030c98"):
+        if _only_source(
+            recipes[name], "shared/player_name_inserts/raw_menu_result.s"
+        ) != sources["raw_menu_result"]:
+            raise ValueError("EVENT raw-menu result source inventory changed")
+    built = build_player_name_assembly(
+        ADAPTER_SPEC,
+        codename_source=sources["codename_skip_copy"],
+        raw_menu_source=sources["raw_menu_name_renderer"],
+        result_source=sources["raw_menu_result"],
+    )
+    if (
+        built.raw_menu_used_size != RUNTIME_USED_SIZE
+        or built.raw_menu_capacity != RUNTIME_CAPACITY
+    ):
+        raise ValueError("EVENT raw-menu name runtime geometry changed")
+    return built.replacements
 
 
 def _bind_patches(
@@ -183,11 +175,19 @@ def _bind_patches(
 ) -> tuple[Patch, ...]:
     output: list[Patch] = []
     pointer_seen: set[str] = set()
+    assembly = _assembly_replacements(config)
+    assembly_seen: set[str] = set()
     for recipe in config.patches[TARGET]:
         expected = resolve_recipe_expected(recipe, stock, LOAD_ADDRESS)
         replacement_recipe = recipe.replacement
         if replacement_recipe.kind == "assembly":
-            replacement = _assembly_patch(recipe, len(expected))
+            try:
+                replacement = assembly[recipe.name]
+            except KeyError as error:
+                raise ValueError(
+                    f"{recipe.group}/{recipe.name}: unknown assembly owner"
+                ) from error
+            assembly_seen.add(recipe.name)
         elif replacement_recipe.kind == "instruction":
             replacement = _instruction(recipe)
         elif replacement_recipe.kind == "pointer":
@@ -226,6 +226,8 @@ def _bind_patches(
     if pointer_seen != set(POINTER_CONTRACT):
         missing = sorted(set(POINTER_CONTRACT) - pointer_seen)
         raise ValueError(f"EVENT name-pointer recipe inventory changed: {missing}")
+    if assembly_seen != set(assembly):
+        raise ValueError("EVENT name assembly ownership differs from config")
     return tuple(output)
 
 

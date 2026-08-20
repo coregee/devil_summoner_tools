@@ -1,4 +1,4 @@
-; Expand two-token EVENT records through the corpus-trained dictionary.  The
+; Expand two-token event-window records through the corpus-trained dictionary. The
 ; linked STATE block remembers a partially consumed word/expansion across VM
 ; calls; DICTIONARY remains asset-derived data, not executable code.
 

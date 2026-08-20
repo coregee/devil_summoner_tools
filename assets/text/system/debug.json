@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "portrait_name_id_error": {
+      "text": {
+        "reference": "NAME TO ID ERR",
+        "translation": "NAME TO ID ERR",
+        "note": "MSGR.COF displays this diagnostic through its embedded fixed-cell ASCII tile set when a portrait-scene name cannot be resolved. The field has room for 15 visible bytes plus its required NUL."
+      }
+    },
+    "portrait_load_error": {
+      "text": {
+        "reference": "LOAD ERR",
+        "translation": "LOAD ERR",
+        "note": "MSGR.COF displays this diagnostic through its embedded fixed-cell ASCII tile set when a portrait-scene resource load fails. The field has room for 9 visible bytes plus its required NUL."
+      }
+    },
+    "portrait_menu_count_over": {
+      "text": {
+        "reference": "ERROR: MENU COUNT OVER",
+        "translation": "ERROR: MENU COUNT OVER",
+        "note": "MSGR.COF displays this diagnostic through its embedded fixed-cell ASCII tile set when a choice menu exceeds the supported count. The field has room for 23 visible bytes plus its required NUL."
+      }
+    }
+  }
+}

@@ -30,9 +30,9 @@ class GameInventoryTests(unittest.TestCase):
         cls.batch = extract.build_batch("game")
 
     def test_complete_inventory_snapshot(self) -> None:
-        self.assertEqual(self.batch.source_count, 61)
-        self.assertEqual(self.batch.record_count, 16_138)
-        self.assertEqual(len(self.batch.rendered), 61)
+        self.assertEqual(self.batch.source_count, 62)
+        self.assertEqual(self.batch.record_count, 16_141)
+        self.assertEqual(len(self.batch.rendered), 62)
         self.assertEqual(
             {path.as_posix() for path in self.batch.composed_files},
             set(),
@@ -48,7 +48,7 @@ class GameInventoryTests(unittest.TestCase):
         self.assertEqual(
             sum("/eve/" in f"/{path.as_posix()}" for path in self.batch.rendered), 21
         )
-        self.assertEqual(sum(row_id.startswith("game.") for row_id in ids), 16_138)
+        self.assertEqual(sum(row_id.startswith("game.") for row_id in ids), 16_141)
 
         eve_rows = [
             row
@@ -57,7 +57,7 @@ class GameInventoryTests(unittest.TestCase):
             for row in json.loads(rendered)
         ]
         self.assertEqual(len(eve_rows), 12_711)
-        self.assertEqual(len(rows) - len(eve_rows), 3_427)
+        self.assertEqual(len(rows) - len(eve_rows), 3_430)
         self.assertGreater(sum("{GLYPH:" in row["reference"] for row in rows), 0)
         self.assertGreater(sum("{OP:" in row["reference"] for row in rows), 0)
         self.assertFalse(any("{OP:8002}" in row["reference"] for row in rows))

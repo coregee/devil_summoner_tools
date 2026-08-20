@@ -1,4 +1,4 @@
-; Reset the per-update visible-glyph budget, count actual framebuffer commits,
+; Reset a cloned event VM's visible-glyph budget, count framebuffer commits,
 ; and preserve phase 0x8000 for one extra visible glyph. Automatic wrapping
 ; can suppress a requested draw, so the count lives at the blitter boundary.
 

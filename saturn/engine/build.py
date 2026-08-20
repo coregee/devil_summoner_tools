@@ -80,6 +80,13 @@ from engine.surfaces.profile_entry_ui import (  # noqa: E402
     TARGET as PROFILE_ENTRY_TARGET,
     build_profile_entry_ui,
 )
+from engine.surfaces.portrait_scene_ui import (  # noqa: E402
+    BUILD_PATH as PORTRAIT_SCENE_BUILD_MANIFEST_PATH,
+    CONFIG_PATH as PORTRAIT_SCENE_CONFIG_PATH,
+    OUTPUT_PATH as PORTRAIT_SCENE_OUTPUT_PATH,
+    TARGET as PORTRAIT_SCENE_TARGET,
+    build_portrait_scene_ui,
+)
 from engine.surfaces.save_load_ui import (  # noqa: E402
     CONFIG_PATH as SAVE_LOAD_CONFIG_PATH,
     TARGETS as SAVE_LOAD_TARGETS,
@@ -383,6 +390,55 @@ def build_map_2d_surface() -> dict[Path, bytes]:
     return {
         MAP_2D_OUTPUT_PATH: result.data,
         MAP_2D_BUILD_MANIFEST_PATH: (
+            json.dumps(manifest, indent=2) + "\n"
+        ).encode("utf-8"),
+    }
+
+
+def build_portrait_scene_surface() -> dict[Path, bytes]:
+    """Build the complete portrait-scene consumer from the stock MSGR target."""
+    result = build_portrait_scene_ui()
+    manifest = {
+        "version": 1,
+        "surface": "portrait_scene.ui",
+        "patch_config_sha256": file_sha256(PORTRAIT_SCENE_CONFIG_PATH),
+        "asset_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.asset_files
+        },
+        "runtime_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.runtime_input_files
+        },
+        "source_inputs": dict(result.source_inputs),
+        "assembly_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.assembly_files
+        },
+        "runtime": {
+            "bytes": result.runtime_used_size,
+            "capacity": result.runtime_capacity,
+            "arenas": {
+                arena.name: {
+                    "address": f"0x{arena.address:08x}",
+                    "bytes": arena.used_size,
+                    "capacity": arena.capacity,
+                }
+                for arena in result.runtime_arenas
+            },
+        },
+        "output": {
+            "file": PORTRAIT_SCENE_TARGET,
+            "sha256": sha256(result.data),
+        },
+        "patch_groups": list(
+            dict.fromkeys(patch.group for patch in result.patches)
+        ),
+        "patches": len(result.patches),
+    }
+    return {
+        PORTRAIT_SCENE_OUTPUT_PATH: result.data,
+        PORTRAIT_SCENE_BUILD_MANIFEST_PATH: (
             json.dumps(manifest, indent=2) + "\n"
         ).encode("utf-8"),
     }
@@ -913,6 +969,7 @@ def main() -> int:
             "save_load.ui",
             "profile_entry.ui",
             "map_2d.ui",
+            "portrait_scene.ui",
         ),
     )
     parser.add_argument("--check", action="store_true")
@@ -943,6 +1000,7 @@ def main() -> int:
             "save_load.ui": build_save_load_surface,
             "profile_entry.ui": build_profile_entry_surface,
             "map_2d.ui": build_map_2d_surface,
+            "portrait_scene.ui": build_portrait_scene_surface,
         }
         if arguments.install:
             if arguments.surface == "save_load.ui":

@@ -333,7 +333,7 @@
       "path": "MSGR.COF",
       "size": 103792,
       "stock_sha256": "fc483f3483b14591bef0af1981d2d142c3621506981a596b31595283daa183fa",
-      "owned_sha256": "5dfcb51074be92f728e7f55a6282b7fa3680eab81853eb1202bf5f7a0bc97c5b"
+      "owned_sha256": "aa1ddd442655db67044fe6a1dc658c9f39f288a1f56e16ba646358a0d0a0d08c"
     },
     "name_bin": {
       "path": "NAME.BIN",
@@ -2602,6 +2602,33 @@
             "name": "grid_defense_heading",
             "framing": {"type": "zero_terminated"},
             "locations": [{"spans": [{"offset": "0xf7fc", "units": 4}]}]
+          }
+        ]
+      }
+    },
+    {
+      "id": "msgr_debug_ascii",
+      "corpus": "addressed/msgr_debug_ascii.json",
+      "container": {
+        "type": "addressed",
+        "file": "msgr_cof",
+        "default_source_encoding": "ascii",
+        "tables": [],
+        "records": [
+          {
+            "name": "name_id_error",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0xae04", "units": 16}]}]
+          },
+          {
+            "name": "load_error",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0xae14", "units": 10}]}]
+          },
+          {
+            "name": "menu_count_over",
+            "framing": {"type": "zero_terminated"},
+            "locations": [{"spans": [{"offset": "0xc1b4", "units": 24}]}]
           }
         ]
       }

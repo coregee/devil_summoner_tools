@@ -1,4 +1,4 @@
-; EVENT/MSGR choice-menu loops handle 0x8006/0x8007 outside the dialogue VM.
+; Cloned EVENT/MSGR choice-menu loops handle 0x8006/0x8007 outside the dialogue VM.
 ; Stock code draws at most three Japanese glyphs and estimates the next X from
 ; that fixed-width limit.  English name rows contain up to eight proportional
 ; FONT16 glyphs, so draw the complete bounded row and return its exact final X.

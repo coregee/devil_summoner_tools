@@ -1,4 +1,4 @@
-; Draw a raw FONT16/FONT12 menu glyph through the shared subpixel blitter and
+; Draw a raw FONT16/FONT12 event-menu glyph through the shared subpixel blitter and
 ; return the authored width. Compact low/high FONT16 tables and the FONT12
 ; table are linked immediately after this source.
 

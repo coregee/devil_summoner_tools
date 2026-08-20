@@ -1286,6 +1286,24 @@
         }
       }
     },
+    "portrait_scene.debug_message": {
+      "ja": {
+        "font": null,
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 64
+        }
+      },
+      "en": {
+        "font": null,
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 64
+        }
+      }
+    },
     "battle.negotiation_dialogue": {
       "ja": {
         "font": "font16",

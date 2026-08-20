@@ -131,6 +131,25 @@
       ]
     },
     {
+      "id": "build_portrait_scene_engine",
+      "description": "Build the complete portrait-scene event-window runtime from shared authored text, generated fonts, and player-name adapters.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["portrait_scene.ui"],
+      "check_arguments": ["portrait_scene.ui", "--check"]
+    },
+    {
+      "id": "install_portrait_scene_engine",
+      "description": "Install the terminal MSGR portrait-scene runtime.",
+      "type": "copy",
+      "files": [
+        {
+          "source": "engine/generated/game/MSGR.COF",
+          "destination": "rom/extracted/game/MSGR.COF"
+        }
+      ]
+    },
+    {
       "id": "repack_shopsmp_text",
       "description": "Compile the complete shop and facility bank, including every Fusion consumer, from shared authored assets.",
       "type": "python",
@@ -509,6 +528,8 @@
         "install_map_2d_engine",
         "repack_event_text",
         "install_event_text",
+        "build_portrait_scene_engine",
+        "install_portrait_scene_engine",
         "repack_shopsmp_text",
         "install_shopsmp_text",
         "build_fusion_engine",

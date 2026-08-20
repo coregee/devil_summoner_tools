@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "surface": "portrait_scene.ui",
+  "targets": {
+    "MSGR.COF": {
+      "load_address": "0x06060000",
+      "size": 103792,
+      "stock_sha256": "fc483f3483b14591bef0af1981d2d142c3621506981a596b31595283daa183fa"
+    }
+  },
+  "inputs": {
+    "font16_metrics_sha256": "3ce6e6c916da3f4bc3c7a702c9ae07f84519185a45e2f733c13726cab6532fa3",
+    "font12_metrics_sha256": "7df60be0cd524e3fd37dcae84ecc345db24514d771c3ced728dd2de82081f3a9",
+    "font8_metrics_sha256": "82f688a7a2bc2efd1caa32555968c456c332d30813bd7e2b3c8af08b7f2978c6",
+    "font16_font_sha256": "89272c66b96536658c271e061ff8c15198a1bbc4c01c4e17f23575897dca0acc",
+    "font12_font_sha256": "804d68d69decb0ed434a37e31dbb00d25292adcb5470f2be762ba7ddf4e101a5",
+    "font8_font_sha256": "c656c783225271ae1910224b85eba9431ad2c27e96bfdab797e8499f77eeff7c",
+    "event_runtime_table_sha256": "4f7299d542afd0d9350824e63943893ae95f4d710c93d7df09bff5bba6c26aad"
+  },
+  "groups": [
+    {
+      "capability": "msgr.dialogue_vwf",
+      "target": "MSGR.COF",
+      "load_address": 101056512,
+      "patches": [
+        {"name": "dialogue_two_glyph_pacing_cave", "address": "0x06060be4", "expected_zero_bytes": 97, "assembly": ["shared/event_window/two_glyph_pacing.s"]},
+        {"name": "dialogue_update_pointer_0606beac", "address": "0x0606beac", "expected": "0606ebe4", "linked_pointer": "two_glyph_update"},
+        {"name": "dialogue_update_pointer_0606bf78", "address": "0x0606bf78", "expected": "0606ebe4", "linked_pointer": "two_glyph_update"},
+        {"name": "dialogue_two_glyph_tail", "address": "0x0606ec8c", "expected": "62819315612d31b08b029113", "assembly": ["shared/event_window/absolute_jump.s"]},
+        {"name": "advance_cave", "address": "0x06060400", "expected_zero_bytes": 504, "assembly": ["shared/event_window/advance.s"]},
+        {"name": "packed_fetch_cave", "address": "0x060605f8", "expected_zero_bytes": 660, "assembly": ["shared/event_window/packed_fetch.s"]},
+        {"name": "subpixel_blitter_cave", "address": "0x06060890", "expected_zero_bytes": 288, "assembly": ["font16_subpixel_blitter.s"]},
+        {"name": "menu_glyph_cave", "address": "0x060609b0", "expected_zero_bytes": 564, "assembly": ["shared/event_window/menu_glyph.s"]},
+        {"name": "fetch_site_1", "address": "0x0606ec14", "expected": "61a26215292122288f0c2a12", "assembly": ["shared/event_window/absolute_jump.s"]},
+        {"name": "fetch_site_2", "address": "0x0606ec2c", "expected": "61a26215292122288df72a12", "assembly": ["shared/event_window/absolute_jump.s"]},
+        {"name": "advance_pointer", "address": "0x0606ed48", "expected": "0606eeb0", "pointer": "0x06060400"},
+        {"name": "dialogue_blitter_pointer", "address": "0x0606ed68", "expected": "0606ed6c", "linked_pointer": "two_glyph_blit"},
+        {"name": "menu_blitter_pointer", "address": "0x0606c7a8", "expected": "0606ed6c", "pointer": "0x060609b0"},
+        {"name": "menu_advance", "address": "0x0606c75a", "expected": "61b1", "instruction": "mov r0, r1"}
+      ]
+    },
+    {
+      "capability": "msgr.term_inserts",
+      "target": "MSGR.COF",
+      "load_address": 101056512,
+      "patches": [
+        {"name": "dialogue_full_term_runtime", "address": "0x06065000", "expected_zero_bytes": 5376, "assembly": ["shared/event_window/full_term_inserts.s", "shared/event_window/character_term_insert.s"]},
+        {"name": "dialogue_character_name_insert", "address": "0x0606f17c", "expected": "0606f454", "linked_pointer": "dialogue_character_name_insert"},
+        {"name": "dialogue_demon_name_insert", "address": "0x0606f188", "expected": "0606f8f8", "linked_pointer": "dialogue_demon_name_insert"},
+        {"name": "dialogue_race_insert", "address": "0x0606f198", "expected": "0606fa9c", "linked_pointer": "dialogue_race_insert"}
+      ]
+    },
+    {
+      "capability": "msgr.player_name_adapters",
+      "target": "MSGR.COF",
+      "load_address": 101056512,
+      "patches": [
+        {"name": "first_insert_pointer", "address": "0x0606f600", "expected": "002029b8", "pointer": "0x0023fdf0"},
+        {"name": "first_terminator_stamp", "address": "0x0606f5c8", "expected": "2121", "instruction": "nop"},
+        {"name": "last_insert_pointer", "address": "0x0606f674", "expected": "002029b0", "pointer": "0x0023fe02"},
+        {"name": "last_terminator_stamp", "address": "0x0606f63e", "expected": "2121", "instruction": "nop"},
+        {"name": "city_insert_pointer", "address": "0x0606f6e8", "expected": "002029d0", "pointer": "0x0023fe26"},
+        {"name": "city_terminator_stamp", "address": "0x0606f6b2", "expected": "2121", "instruction": "nop"},
+        {"name": "ward_insert_pointer", "address": "0x0606f75c", "expected": "002029d8", "pointer": "0x0023fe38"},
+        {"name": "ward_terminator_stamp", "address": "0x0606f726", "expected": "2121", "instruction": "nop"},
+        {"name": "codename_skip_copy", "address": "0x0606f4f8", "expected": "e300e507", "assembly": ["shared/player_name_inserts/codename_skip.s"]},
+        {"name": "codename_insert_pointer", "address": "0x0606f580", "expected": "0607984c", "pointer": "0x0023fe14"},
+        {"name": "raw_menu_name_renderer", "address": "0x0606c63c", "expected_sha256": "a9242a67ee55cc77008b1b501058e93f6d70bdb5add3a5fab3fc44e3d778d83f", "expected_size": 96, "assembly": ["shared/player_name_inserts/raw_menu_inserts.s"]},
+        {"name": "raw_menu_first_insert_pointer", "address": "0x0606c79c", "expected": "002029b8", "pointer": "0x0023fdf0"},
+        {"name": "raw_menu_last_insert_pointer", "address": "0x0606c7a4", "expected": "002029b0", "pointer": "0x0023fe02"},
+        {"name": "raw_menu_name_result_0606c6ee", "address": "0x0606c6ee", "expected": "618371026111", "assembly": ["shared/player_name_inserts/raw_menu_result.s"]},
+        {"name": "raw_menu_name_result_0606c720", "address": "0x0606c720", "expected": "618371026111", "assembly": ["shared/player_name_inserts/raw_menu_result.s"]}
+      ]
+    },
+    {
+      "capability": "msgr.fixed_text_compatibility",
+      "target": "MSGR.COF",
+      "load_address": 101056512,
+      "patches": [
+        {"name": "race_uma_mirror", "address": "0x06078e40", "expected": "0132011b80000000", "generated": "portrait_scene_data"}
+      ]
+    },
+    {
+      "capability": "msgr.debug_messages",
+      "target": "MSGR.COF",
+      "load_address": 101056512,
+      "patches": [
+        {"name": "debug_name_id_error", "address": "0x0606ae04", "expected": "4e414d4520544f204944204552520000", "generated": "portrait_scene_data"},
+        {"name": "debug_load_error", "address": "0x0606ae14", "expected": "4c4f4144204552520000", "generated": "portrait_scene_data"},
+        {"name": "debug_menu_count_over", "address": "0x0606c1b4", "expected": "4552524f523a204d454e5520434f554e54204f5645520000", "generated": "portrait_scene_data"}
+      ]
+    }
+  ]
+}

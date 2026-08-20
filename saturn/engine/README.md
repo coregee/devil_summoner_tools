@@ -117,12 +117,63 @@ python saturn/engine/build.py map_2d.ui --check
   `text/repack.py` using the exact configured dictionary table.
 
 Its executable caves are rebuilt from the readable sources under
-`asm/event_dialogue/` plus the shared FONT16 renderers. The builder rejects
+`asm/shared/event_window/` plus the shared FONT16 renderers. The builder rejects
 changed inputs, overlaps, wrong metrics or dictionaries, stale text outputs,
 and mature-output drift.
 
 The same EVENT runtime renders the standard dialogue and direct FONT16 menu
 records in `SHOPSMP.EVE`; shop dialogue does not have a separate text hook.
+
+## Portrait-scene event window
+
+`portrait_scene.ui` builds the complete `MSGR.COF` portrait-scene consumer from
+the verified retail target. It uses the same `event.dialogue` text and
+three-row, 300-pixel wrapping contract as the general EVENT runtime; there is no
+second portrait-dialogue bank. Before assembling the consumer, the builder
+checks the general EVENT build manifest, all four generated EVE banks, the
+shared packed-text dictionary, and the generated FONT16 and FONT12 ABIs. The
+generated FONT8 font and metrics also pin the name-pool byte mapping. The later
+`SHOPSMP.EVE` build is another bank consumed through that same runtime contract,
+not an input to this executable build.
+
+All 37 owned sites are composed atomically because their runtime contracts are
+interdependent. The `msgr.dialogue_vwf` group owns the 14 proportional dialogue,
+menu, packed-fetch, and typewriter sites. `msgr.term_inserts` owns the four
+character, demon, and race substitution sites and its generated pools.
+`msgr.player_name_adapters` owns the 15 first-name, last-name, codename, city,
+ward, and raw-choice-menu adapters. `msgr.fixed_text_compatibility` retains the
+proved direct `UMA` race mirror, while `msgr.debug_messages` rebuilds all three
+on-screen ASCII diagnostics from `assets/text/system/debug.json`. Those
+diagnostics continue to use MSGR's embedded fixed-cell glyph tiles rather than
+FONT8 or FONT16.
+
+The executable code is assembled from readable shared event-window and
+player-name sources plus the common FONT16 subpixel blitter. Character, demon,
+race, and diagnostic data come through explicit assets, bindings, and corpora.
+The dialogue arena uses 2,113 of 19,456 bytes, the full-term arena uses 4,480
+of 5,376 bytes, and the raw-name menu arena uses 86 of 96 bytes. The build
+manifest records each arena's address and capacity, plus the aggregate 6,679
+of 24,928 reserved bytes.
+
+The player-name adapters read only the stable WRAM contract in
+`shared/player_names.py`; they do not import Profile Entry or read generated or
+installed `NAME.BIN` bytes. The builder also never reads the mutable extracted
+disc mirror.
+
+The default output is byte-identical to the trusted mature Saturn target, with
+SHA-256
+`3cbbf6ec70887cdb49a46c006767550438da684a30b5a754d6ce7c811d337814`.
+The normal build publishes a complete `MSGR.COF` and provenance manifest, then
+installs it with an ordinary copy immediately after the four general EVENT
+banks. No current visual asset owns an MSGR span.
+
+Run:
+
+```powershell
+python saturn/text/repack.py event
+python saturn/engine/build.py portrait_scene.ui
+python saturn/engine/build.py portrait_scene.ui --check
+```
 
 ## Fusion menu
 

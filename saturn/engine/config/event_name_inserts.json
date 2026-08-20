@@ -23,19 +23,19 @@
         {"name": "city_terminator_stamp", "address": "0x0602c606", "expected": "2121", "instruction": "nop"},
         {"name": "ward_insert_pointer", "address": "0x0602c6b0", "expected": "002029d8", "pointer": "0x0023fe38"},
         {"name": "ward_terminator_stamp", "address": "0x0602c67a", "expected": "2121", "instruction": "nop"},
-        {"name": "codename_skip_copy", "address": "0x0602c44c", "expected": "e300e507", "assembly": ["event_name_inserts/codename_skip.s"]},
+        {"name": "codename_skip_copy", "address": "0x0602c44c", "expected": "e300e507", "assembly": ["shared/player_name_inserts/codename_skip.s"]},
         {"name": "codename_insert_pointer", "address": "0x0602c4d4", "expected": "06076a84", "pointer": "0x0023fe14"},
         {
           "name": "raw_menu_name_renderer",
           "address": "0x06030bb4",
           "expected_sha256": "12226d03c1e6596447e14e6a7042e4567d3b53665f450e90055a1f97696ded31",
           "expected_size": 96,
-          "assembly": ["event_name_inserts/raw_menu_inserts.s"]
+          "assembly": ["shared/player_name_inserts/raw_menu_inserts.s"]
         },
         {"name": "raw_menu_first_insert_pointer", "address": "0x06030d14", "expected": "002029b8", "pointer": "0x0023fdf0"},
         {"name": "raw_menu_last_insert_pointer", "address": "0x06030d1c", "expected": "002029b0", "pointer": "0x0023fe02"},
-        {"name": "raw_menu_name_result_06030c66", "address": "0x06030c66", "expected": "618371026111", "assembly": ["event_name_inserts/raw_menu_result.s"]},
-        {"name": "raw_menu_name_result_06030c98", "address": "0x06030c98", "expected": "618371026111", "assembly": ["event_name_inserts/raw_menu_result.s"]}
+        {"name": "raw_menu_name_result_06030c66", "address": "0x06030c66", "expected": "618371026111", "assembly": ["shared/player_name_inserts/raw_menu_result.s"]},
+        {"name": "raw_menu_name_result_06030c98", "address": "0x06030c98", "expected": "618371026111", "assembly": ["shared/player_name_inserts/raw_menu_result.s"]}
       ]
     }
   ]

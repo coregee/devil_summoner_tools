@@ -27,7 +27,7 @@
           "address": "0x0602177c",
           "expected_zero_bytes": 97,
           "assembly": [
-            "event_dialogue/two_glyph_pacing.s"
+            "shared/event_window/two_glyph_pacing.s"
           ]
         },
         {
@@ -89,7 +89,7 @@
           "address": "0x0602bbe0",
           "expected": "62819315612d31b08b029113",
           "assembly": [
-            "event_dialogue/absolute_jump.s"
+            "shared/event_window/absolute_jump.s"
           ]
         },
         {
@@ -97,7 +97,7 @@
           "address": "0x06021000",
           "expected_zero_bytes": 504,
           "assembly": [
-            "event_dialogue/advance.s"
+            "shared/event_window/advance.s"
           ]
         },
         {
@@ -125,7 +125,7 @@
           "address": "0x06021318",
           "expected_zero_bytes": 564,
           "assembly": [
-            "event_dialogue/menu_glyph.s"
+            "shared/event_window/menu_glyph.s"
           ]
         },
         {
@@ -286,7 +286,7 @@
           "address": "0x06023000",
           "expected_zero_bytes": 660,
           "assembly": [
-            "event_dialogue/packed_fetch.s"
+            "shared/event_window/packed_fetch.s"
           ]
         },
         {
@@ -294,7 +294,7 @@
           "address": "0x0602bb68",
           "expected": "61a26215292122288f0c2a12",
           "assembly": [
-            "event_dialogue/absolute_jump.s"
+            "shared/event_window/absolute_jump.s"
           ]
         },
         {
@@ -302,7 +302,7 @@
           "address": "0x0602bb80",
           "expected": "61a26215292122288df72a12",
           "assembly": [
-            "event_dialogue/absolute_jump.s"
+            "shared/event_window/absolute_jump.s"
           ]
         }
       ]

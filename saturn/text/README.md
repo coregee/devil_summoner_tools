@@ -122,6 +122,33 @@ FONT16 metrics, and the exact digest of every rebuilt bank. All four outputs
 are byte-identical to the mature Saturn translation build; this is enforced as
 a regression oracle rather than assumed from matching strings.
 
+## Portrait-scene EVENT consumption
+
+`MSGR.COF` does not contain another dialogue bank. Its portrait-scene runtime
+loads `MESFILE.EVE`, `EVFILE_0.EVE` through `EVFILE_2.EVE`, and `SHOPSMP.EVE`,
+so ordinary prose and choices consume the existing EVENT compiler outputs and
+the shared `event.dialogue` and `event.choice_option` contracts. There is no
+MSGR-specific prose asset or text-repack output.
+
+Runtime inserts likewise reuse the shared semantic catalogues: all 319 demon
+names, all 43 race names, and the directly selectable Hajime, Rei, and Kyouji
+character names can enter the ordinary dialogue stream. The runtime still
+sources and packs all six CHARNAME rows to preserve the shared table layout;
+the proved character-insert handler accepts only indices 0–2. First name, last
+name, codename, city, and ward remain typed EVENT placeholders supplied by the
+shared player-data ABI. The direct MSGR race table is an additional physical
+copy of the same 43 race fields; the mature build's eight-byte UMA compatibility
+edit remains the existing `game.normcom_tables.races.r0022` record rather than
+a duplicate asset.
+
+Three stock-English diagnostics are separate because MSGR draws them directly
+through an embedded fixed-cell ASCII tile set. `system/debug.json` and
+`bindings/portrait_scene_debug.json` own `NAME TO ID ERR`, `LOAD ERR`, and
+`ERROR: MENU COUNT OVER`. Their padded executable allocations are 16, 10, and
+24 bytes, allowing 15, 9, and 23 visible ASCII bytes plus the required NUL.
+The human-facing `portrait_scene.debug_message` contract is one 64-cell row;
+its `null` font records that the glyph rasters do not come from FONT8 or FONT16.
+
 ## Shop and facility EVENT repacking
 
 `SHOPSMP.EVE` is a mixed physical bank rather than a separate shop renderer.
@@ -184,10 +211,10 @@ This split is physical, not editorial. Every demon still has one complete
 editable name in `assets/text/demons.json`; the repacker and runtime decide
 which storage path can display it without truncation.
 
-The game manifest covers 162 physical files and 61 source groups. Its four
+The game manifest covers 162 physical files and 62 source groups. Its four
 container types are EVE banks, pointer banks, fixed records with subfields, and
-explicit addressed spans. The generated corpus contains 16,138 records: 12,711
-text-bearing EVE pages and 3,427 other records. All 144 dungeon-location rows
+explicit addressed spans. The generated corpus contains 16,141 records: 12,711
+text-bearing EVE pages and 3,430 other records. All 144 dungeon-location rows
 remain distinct instead of collapsing to 24 repeated Japanese strings. Each
 row now verifies that its name bytes agree across the MAZE, AUTOMAP, SAVE, and
 LOAD tables; these four physical copies still produce one catalogue record.
@@ -361,7 +388,10 @@ at 16 cells by three rows in both languages. Demon Chat is 11 Japanese cells or
 translated pixels by two rows. Battle item, skill, and party names use measured
 80-pixel rows; Analyze names and compact affinities use 112 pixels, while its
 race heading remains an eight-cell fixed FONT8 field. The result-name field is
-88 pixels. The ritual console has a proved 176-pixel English width, but its row
+88 pixels. MSGR's direct diagnostic writer has one 64-cell row in both
+languages; its embedded tile glyphs have no FONT8/FONT16 identity, while its
+three physical string records separately enforce 15-, 9-, and 23-byte visible
+limits. The ritual console has a proved 176-pixel English width, but its row
 count remains explicit `null` until measured. The negotiation choice field is
 10 Japanese cells or 150 translated pixels on one row. Location
 contracts now distinguish
@@ -520,7 +550,10 @@ their wording is editable, but they remain recorded consumer-binding debt.
    repeat and cross-bank uses are explicit binding fan-out instead of duplicated
    editable translations. The two structurally empty `EVFILE_1` messages remain
    binary framing rather than editor rows. Retail placement-error messages remain
-   editable assets because visible debug text is not a runtime exemption.
+   editable assets because visible debug text is not a runtime exemption. The
+   portrait-scene audit likewise reuses every EVENT page and shared fixed/runtime
+   term, while binding its three direct on-screen diagnostics without inventing
+   a second MSGR dialogue catalogue.
 5. **Complete for `event.dialogue`:** prove output glyph coverage, capacity,
    and the stable packed dictionary for all four general EVENT banks.
 6. **Complete for `event.dialogue`:** implement atomic, round-tripped bank

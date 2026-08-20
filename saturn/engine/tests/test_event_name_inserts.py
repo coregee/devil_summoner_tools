@@ -79,9 +79,9 @@ class EventNameInsertsEngineTests(unittest.TestCase):
                 for path in self.build.assembly_files
             },
             {
-                "asm/event_name_inserts/codename_skip.s",
-                "asm/event_name_inserts/raw_menu_inserts.s",
-                "asm/event_name_inserts/raw_menu_result.s",
+                "asm/shared/player_name_inserts/codename_skip.s",
+                "asm/shared/player_name_inserts/raw_menu_inserts.s",
+                "asm/shared/player_name_inserts/raw_menu_result.s",
             },
         )
 

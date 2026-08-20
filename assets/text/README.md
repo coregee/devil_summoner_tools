@@ -68,6 +68,7 @@ assets/text/
   field/
   fusion/
   facilities/
+  system/
   ui/
 ```
 
@@ -84,6 +85,12 @@ every semantic use; it does not force those messages into one authored string.
 The MAZE talk choices live beside that prompt in `field/messages.json`;
 AUTOMAP reuses those same Yes/No fields, while its distinct `(No data)` and
 `Delete?` wording lives in `field/automap.json`.
+
+`system/debug.json` owns the three visible diagnostics emitted by the Saturn
+portrait-scene overlay. They remain editable even though their stock English
+wording needs no translation. Their letters are raster glyphs in an embedded
+fixed-cell tile set, so the asset owns the wording while the Saturn binding and
+engine own the padded records and glyph rendering.
 
 Each text field keeps the readable `reference` beside its editable
 `translation`. Optional state is omitted when it carries no information:

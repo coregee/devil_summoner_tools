@@ -188,6 +188,41 @@ Line 3: [8px]部屋を出る
 
 The active option is highlighted yellow.
 
+#### Portrait-scene overlay (`MSGR.COF`)
+
+Portrait scenes are not a separate authored dialogue family. The overlay loads
+`MESFILE.EVE`, `EVFILE_0.EVE` through `EVFILE_2.EVE`, and `SHOPSMP.EVE`, so its
+ordinary prose and choices use the same `event.dialogue` and
+`event.choice_option` assets and wrapping as the Event Window above: three rows
+of 20 fixed cells in Japanese, or a 300-pixel row in the translated renderer.
+The text build therefore produces no MSGR-specific prose bank.
+
+Portrait dialogue can insert all 319 demon names, all 43 race names, and the
+three directly selectable character names Hajime, Rei, and Kyouji from their
+shared semantic assets. All six CHARNAME rows are sourced and packed to retain
+the shared table layout, but indices 3–5 are not accepted by the proved
+character-insert handler. First name, last name, codename, city, and ward are
+typed runtime values in the existing EVENT templates. The name adapters stage
+at most 20 glyphs into the normal dialogue stream. That is a runtime
+insertion-token/storage ceiling, not the visible width of a dialogue row;
+display measurement and wrapping still use the 300-pixel, three-row EVENT
+surface. MSGR's direct eight-byte race table is a compatibility mirror of the
+same 43 race fields; only the UMA row differs in the mature translated
+executable.
+
+Three failure paths draw fixed ASCII tile glyphs directly into a one-row,
+64-cell VDP2 pattern-name buffer. `NAME TO ID ERR` and `LOAD ERR` begin at cell
+10; `ERROR: MENU COUNT OVER` begins at cell 0. Their padded executable records
+hold respectively 15, 9, and 23 visible ASCII bytes plus a NUL. These messages
+remain editable in `assets/text/system/debug.json`, with exact physical records
+bound to `portrait_scene.debug_message`. The glyph rasters are embedded in
+MSGR rather than FONT8 or FONT16, so replacing their wording is text work while
+changing their letterforms is a font/image task.
+
+Other readable ASCII in MSGR consists of resource names, file names, lookup
+tables, and developer/runtime mechanics; no additional on-screen prose path was
+proved by the consumer trace.
+
 ### Profile Entry
 
 The player fills out their profile by progressing through several inputs. For each input, they need to provide a valid input value, and confirm with END to advance.

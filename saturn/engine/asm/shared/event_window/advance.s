@@ -1,4 +1,4 @@
-; Advance Latin glyphs by authored width while preserving the stock EVENT
+; Advance Latin glyphs by authored width while preserving the stock event-window
 ; wrap routine and its mutable globals. FONT12 and FONT16 share this hook; the
 ; tracked loader selects the active width table at runtime.
 

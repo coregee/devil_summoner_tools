@@ -20,6 +20,7 @@ PURE_DATA_GENERATORS = {
     "map_2d_data",
     "options_data",
     "profile_entry_data",
+    "portrait_scene_data",
     "save_load_data",
     "status_data",
     "zero_scratch",

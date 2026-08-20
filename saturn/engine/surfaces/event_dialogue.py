@@ -15,6 +15,17 @@ from engine.core.patch_recipes import (
     load_patch_recipe_configuration,
 )
 from engine.core.sh2 import Assembly, AssemblyError, assemble, assemble_file
+from engine.shared.event_window import (
+    build_absolute_jump,
+    build_advance_payload,
+    build_menu_payload,
+    build_packed_fetch_payload,
+    build_two_glyph_payload,
+    font12_widths as shared_font12_widths,
+    font16_layout as shared_font16_layout,
+    font_signature as shared_font_signature,
+    validate_event_text_build,
+)
 from rom.util.catalog import load_catalog, validate_source
 from rom.util.workflows import read_source_files
 from text.util.event_codec import load_event_dictionary
@@ -116,41 +127,13 @@ def _validate_surface() -> None:
 
 
 def _validate_text_build(codec_digest: str) -> None:
-    document = _object(_read_json(TEXT_BUILD_PATH), str(TEXT_BUILD_PATH))
-    _fields(
-        document,
-        {
-            "version",
-            "surface",
-            "codec_sha256",
-            "runtime_table_sha256",
-            "font16_metrics_sha256",
-            "records",
-            "outputs",
-        },
-        str(TEXT_BUILD_PATH),
+    validate_event_text_build(
+        TEXT_BUILD_PATH,
+        TEXT_GENERATED_ROOT,
+        codec_digest,
+        sha256(load_event_dictionary(CODEC_PATH).runtime_table()),
+        file_sha256(FONT16_METRICS_PATH),
     )
-    if (
-        document["version"] != 1
-        or document["surface"] != "event.dialogue"
-        or document["codec_sha256"] != codec_digest
-    ):
-        raise ValueError("general EVENT text build does not match this surface/codec")
-    outputs = _object(document["outputs"], f"{TEXT_BUILD_PATH}.outputs")
-    expected_names = {
-        "MESFILE.EVE",
-        "EVFILE_0.EVE",
-        "EVFILE_1.EVE",
-        "EVFILE_2.EVE",
-    }
-    if set(outputs) != expected_names:
-        raise ValueError("general EVENT text build has the wrong output set")
-    for name, raw_row in outputs.items():
-        row = _object(raw_row, f"{TEXT_BUILD_PATH}.outputs.{name}")
-        if file_sha256(TEXT_GENERATED_ROOT / name) != _digest(
-            row.get("sha256"), f"{TEXT_BUILD_PATH}.outputs.{name}.sha256"
-        ):
-            raise ValueError(f"generated {name} does not match its text build")
 
 
 def validate_shopsmp_text_build(codec_digest: str) -> None:
@@ -214,81 +197,15 @@ def validate_shopsmp_text_build(codec_digest: str) -> None:
 
 
 def _font12_widths(metrics: FontMetrics) -> bytes:
-    output = bytearray(FONT16_SPACE + 1)
-    for glyph in metrics.glyphs:
-        if not 0 <= glyph.code < len(output) or not 0 <= glyph.advance <= 0xFF:
-            raise ValueError("FONT12 metrics exceed the EVENT width-table contract")
-        output[glyph.code] = glyph.advance
-    output[FONT16_SPACE] = output[0]
-    return bytes(output)
+    return shared_font12_widths(metrics, space_code=FONT16_SPACE)
 
 
 def _font16_layout() -> tuple[int, int]:
-    document = _object(_read_json(FONT16_METRICS_PATH), str(FONT16_METRICS_PATH))
-    table = _object(
-        document.get("width_table"), f"{FONT16_METRICS_PATH}.width_table"
-    )
-    code_limit = table.get("code_limit")
-    storage_glyph = table.get("storage_glyph")
-    if (
-        document.get("version") != 2
-        or document.get("font") != "FONT16.FON"
-        or document.get("complete") is not True
-        or type(code_limit) is not int
-        or type(storage_glyph) is not int
-        or code_limit <= 0
-        or storage_glyph <= 0
-    ):
-        raise ValueError("FONT16 metrics have an invalid runtime width layout")
-    return code_limit, storage_glyph * 32
+    return shared_font16_layout(FONT16_METRICS_PATH)
 
 
 def _font12_signature() -> tuple[int, int]:
-    try:
-        font12 = FONT12_PATH.read_bytes()
-        font16 = FONT16_PATH.read_bytes()
-    except FileNotFoundError as error:
-        raise ValueError(f"missing generated EVENT font: {error.filename}") from error
-    record_start = 11 * 32
-    candidates = (
-        enumerate(
-            zip(
-                font12[record_start : record_start + 32],
-                font16[record_start : record_start + 32],
-            ),
-            record_start,
-        ),
-        enumerate(zip(font12, font16)),
-    )
-    for rows in candidates:
-        for offset, (font12_byte, font16_byte) in rows:
-            if font12_byte != font16_byte and 0 < font12_byte < 0x80:
-                return offset, font12_byte
-    raise ValueError("FONT12 and FONT16 have no usable runtime signature")
-
-
-def _compact_width_tables(metrics: FontMetrics) -> tuple[bytes, int, bytes]:
-    glyphs = sorted(metrics.glyphs, key=lambda glyph: glyph.code)
-    if len(glyphs) < 2:
-        raise ValueError("FONT16 menu widths need at least two glyphs")
-    gap_size, split = max(
-        (right.code - left.code - 1, index)
-        for index, (left, right) in enumerate(zip(glyphs, glyphs[1:]), 1)
-    )
-    if gap_size <= 0:
-        raise ValueError("FONT16 menu widths have no compact-table gap")
-    low_glyphs = glyphs[:split]
-    high_glyphs = glyphs[split:]
-    low = bytearray(low_glyphs[-1].code + 1)
-    high_start = high_glyphs[0].code
-    high = bytearray(high_glyphs[-1].code - high_start + 1)
-    for glyph in low_glyphs:
-        low[glyph.code] = glyph.advance
-    for glyph in high_glyphs:
-        high[glyph.code - high_start] = glyph.advance
-    if len(low) > 0x7F or len(high) > 0x7F:
-        raise ValueError("FONT16 compact width tables exceed SH-2 immediates")
-    return bytes(low), high_start, bytes(high)
+    return shared_font_signature(FONT12_PATH, FONT16_PATH)
 
 
 def _assembled(
@@ -318,10 +235,10 @@ def _only_source(recipe: PatchRecipe, expected: str) -> Path:
 def _advance_payload(
     recipe: PatchRecipe, font12_widths: bytes
 ) -> bytes:
-    source = _only_source(recipe, "event_dialogue/advance.s")
+    source = _only_source(recipe, "shared/event_window/advance.s")
     code_limit, width_offset = _font16_layout()
     signature_offset, signature_value = _font12_signature()
-    code = _assembled(
+    return build_advance_payload(
         source,
         recipe.address,
         {
@@ -339,10 +256,9 @@ def _advance_payload(
             "STOCK_ADVANCE": 0x0602BE04,
             "TEXT_LEFT_MARGIN": 10,
         },
+        font12_widths,
+        "EVENT dialogue advance",
     )
-    if code.labels.get("font12_widths") != recipe.address + len(code.data):
-        raise ValueError("EVENT advance width-table link changed")
-    return code.data + font12_widths
 
 
 def _menu_payload(
@@ -350,38 +266,21 @@ def _menu_payload(
     font16: FontMetrics,
     font12_widths: bytes,
 ) -> bytes:
-    source = _only_source(recipe, "event_dialogue/menu_glyph.s")
-    low, high_start, high = _compact_width_tables(font16)
+    source = _only_source(recipe, "shared/event_window/menu_glyph.s")
     signature_offset, signature_value = _font12_signature()
-    symbols = {
-        "BLITTER": 0x060211F8,
-        "FONT16_POINTER": 0x06062598,
-        "FONT12_SIGNATURE_OFFSET": signature_offset,
-        "FONT12_SIGNATURE_VALUE": signature_value,
-        "FONT12_CODE_LIMIT": len(font12_widths),
-        "LOW_TABLE_LENGTH": len(low),
-        "HIGH_TABLE_LENGTH": len(high),
-        "HIGH_START": high_start,
-        "LOW_TABLE": 0,
-        "FONT12_TABLE": 0,
-    }
-    probe = _assembled(source, recipe.address, symbols)
-    table_address = probe.labels["table_data"]
-    symbols.update(
+    return build_menu_payload(
+        source,
+        recipe.address,
+        font16,
+        font12_widths,
         {
-            "LOW_TABLE": table_address + len(high),
-            "FONT12_TABLE": table_address + len(high) + len(low),
-        }
+            "BLITTER": 0x060211F8,
+            "FONT16_POINTER": 0x06062598,
+            "FONT12_SIGNATURE_OFFSET": signature_offset,
+            "FONT12_SIGNATURE_VALUE": signature_value,
+        },
+        "EVENT raw-menu glyph",
     )
-    code = _assembled(source, recipe.address, symbols)
-    if code.labels["table_data"] != table_address:
-        raise ValueError("EVENT menu assembly layout depends on linked tables")
-    payload = bytearray(code.data)
-    payload.extend(high)
-    payload.extend(low)
-    payload.extend(font12_widths)
-    payload.extend(bytes((-len(payload)) % 4))
-    return bytes(payload)
 
 
 def _font12_word_payload(
@@ -400,24 +299,15 @@ def _font12_word_payload(
 
 
 def _packed_fetch_payload(recipe: PatchRecipe, dictionary: bytes) -> bytes:
-    source = _only_source(recipe, "event_dialogue/packed_fetch.s")
-    symbols = {
-        "STATE": recipe.address,
-        "DICTIONARY": recipe.address,
-        "RETURN_CODE": 0x0602BB8C,
-        "RETURN_ZERO": 0x0602BB74,
-    }
-    probe = _assembled(source, recipe.address, symbols)
-    dictionary_address = (recipe.address + len(probe.data) + 3) & ~3
-    state_address = (dictionary_address + len(dictionary) + 3) & ~3
-    symbols.update({"DICTIONARY": dictionary_address, "STATE": state_address})
-    code = _assembled(source, recipe.address, symbols)
-    payload = bytearray(code.data)
-    payload.extend(bytes(dictionary_address - recipe.address - len(payload)))
-    payload.extend(dictionary)
-    payload.extend(bytes(state_address - recipe.address - len(payload)))
-    payload.extend(bytes(16))
-    return bytes(payload)
+    source = _only_source(recipe, "shared/event_window/packed_fetch.s")
+    return build_packed_fetch_payload(
+        source,
+        recipe.address,
+        dictionary,
+        return_code=0x0602BB8C,
+        return_zero=0x0602BB74,
+        context="EVENT packed fetch",
+    )
 
 
 def _assembly_payload(
@@ -429,36 +319,33 @@ def _assembly_payload(
     links: dict[str, int],
 ) -> bytes:
     if recipe.name == "dialogue_two_glyph_pacing_cave":
-        source = _only_source(recipe, "event_dialogue/two_glyph_pacing.s")
-        symbols = {
-            "ORIGINAL_UPDATE": 0x0602BB38,
-            "VISIBLE_BLITTER": 0x060211F8,
-            "VISIBLE_COUNT": recipe.address,
-            "TAIL_CONTINUE": 0x0602BBF0,
-        }
-        probe = _assembled(source, recipe.address, symbols)
-        state_address = (recipe.address + len(probe.data) + 3) & ~3
-        symbols["VISIBLE_COUNT"] = state_address
-        code = _assembled(source, recipe.address, symbols)
-        payload = bytearray(code.data)
-        payload.extend(bytes(state_address - recipe.address - len(payload)))
-        payload.append(0)
+        source = _only_source(recipe, "shared/event_window/two_glyph_pacing.s")
+        pacing = build_two_glyph_payload(
+            source,
+            recipe.address,
+            original_update=0x0602BB38,
+            visible_blitter=0x060211F8,
+            tail_continue=0x0602BBF0,
+            context="EVENT two-glyph pacing",
+        )
         links.update(
             {
-                "two_glyph_update": code.labels["two_glyph_update"],
-                "two_glyph_blit": code.labels["two_glyph_blit"],
-                "two_glyph_tail": code.labels["two_glyph_tail"],
+                "two_glyph_update": pacing.labels["two_glyph_update"],
+                "two_glyph_blit": pacing.labels["two_glyph_blit"],
+                "two_glyph_tail": pacing.labels["two_glyph_tail"],
             }
         )
-        return bytes(payload)
+        return pacing.data
     if recipe.name in {"dialogue_two_glyph_tail", "fetch_site_1", "fetch_site_2"}:
-        source = _only_source(recipe, "event_dialogue/absolute_jump.s")
+        source = _only_source(recipe, "shared/event_window/absolute_jump.s")
         target = (
             links["two_glyph_tail"]
             if recipe.name == "dialogue_two_glyph_tail"
             else 0x06023000
         )
-        return _assembled(source, recipe.address, {"TARGET": target}).data
+        return build_absolute_jump(
+            source, recipe.address, target, f"EVENT {recipe.name}"
+        )
     if recipe.name == "advance_cave":
         return _advance_payload(recipe, font12_widths)
     if recipe.name == "subpixel_blitter_cave":
