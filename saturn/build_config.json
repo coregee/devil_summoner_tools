@@ -66,7 +66,7 @@
     },
     {
       "id": "build_compendium_text_engine",
-      "description": "Compile all proved Akuma Zensho profile and catalogue text from shared authored assets.",
+      "description": "Compile all proved Akuma Zensho profile, name, race-description, and fusion-help text from shared authored assets.",
       "type": "python",
       "script": "engine/build.py",
       "arguments": ["compendium.text"],
@@ -74,7 +74,7 @@
     },
     {
       "id": "install_compendium_text_engine",
-      "description": "Install the Akuma Zensho catalogue and all 292 profile text tails.",
+      "description": "Install the complete proved Akuma Zensho catalogue and all 292 profile text tails.",
       "type": "python",
       "script": "engine/build.py",
       "arguments": ["compendium.text", "--install"],

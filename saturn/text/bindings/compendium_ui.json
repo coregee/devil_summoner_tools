@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "asset": "compendium/ui.json",
+  "records": {
+    "compendium.race_descriptions.o06c2ce.heading": "no_data_heading.text",
+    "compendium.race_descriptions.o06c2e8.description": "blank_description.text",
+    "compendium.race_descriptions.o06c4fe.heading": "no_data_heading.text",
+    "compendium.race_descriptions.o06c518.description": "blank_description.text",
+    "compendium.race_descriptions.o06c58a.heading": "no_data_heading.text",
+    "compendium.race_descriptions.o06c5a4.description": "blank_description.text",
+    "compendium.fusion_help.o06d828.text": "new_moon_accident.text",
+    "compendium.fusion_help.o06d878.text": "full_moon_accident.text",
+    "compendium.fusion_help.o06d8c8.text": "herald_avatar.text",
+    "compendium.fusion_help.o06d918.text": "fairy_snake_femme.text",
+    "compendium.fusion_help.o06d968.text": "yoma_divine_flight_beast.text",
+    "compendium.fusion_help.o06d9b8.text": "night_fallen_brute_jirae.text",
+    "compendium.fusion_help.o06da08.text": "vishnu.text",
+    "compendium.fusion_help.o06da58.text": "zhu_yin.text",
+    "compendium.fusion_help.o06daa8.text": "sandalphon.text",
+    "compendium.fusion_help.o06daf8.text": "hachiman.text",
+    "compendium.fusion_help.o06db48.text": "black_maria.text"
+  },
+  "record_surfaces": {
+    "compendium.race_descriptions.o06c2ce.heading": [
+      "compendium.race_description_heading"
+    ],
+    "compendium.race_descriptions.o06c2e8.description": [
+      "compendium.race_description"
+    ],
+    "compendium.race_descriptions.o06c4fe.heading": [
+      "compendium.race_description_heading"
+    ],
+    "compendium.race_descriptions.o06c518.description": [
+      "compendium.race_description"
+    ],
+    "compendium.race_descriptions.o06c58a.heading": [
+      "compendium.race_description_heading"
+    ],
+    "compendium.race_descriptions.o06c5a4.description": [
+      "compendium.race_description"
+    ],
+    "compendium.fusion_help.o06d828.text": [
+      "compendium.fusion_help"
+    ],
+    "compendium.fusion_help.o06d878.text": [
+      "compendium.fusion_help"
+    ],
+    "compendium.fusion_help.o06d8c8.text": [
+      "compendium.fusion_help"
+    ],
+    "compendium.fusion_help.o06d918.text": [
+      "compendium.fusion_help"
+    ],
+    "compendium.fusion_help.o06d968.text": [
+      "compendium.fusion_help"
+    ],
+    "compendium.fusion_help.o06d9b8.text": [
+      "compendium.fusion_help"
+    ],
+    "compendium.fusion_help.o06da08.text": [
+      "compendium.fusion_help"
+    ],
+    "compendium.fusion_help.o06da58.text": [
+      "compendium.fusion_help"
+    ],
+    "compendium.fusion_help.o06daa8.text": [
+      "compendium.fusion_help"
+    ],
+    "compendium.fusion_help.o06daf8.text": [
+      "compendium.fusion_help"
+    ],
+    "compendium.fusion_help.o06db48.text": [
+      "compendium.fusion_help"
+    ]
+  },
+  "glyph_equivalence": {
+    "0018": "N",
+    "0503": "含"
+  },
+  "unresolved": {
+    "compendium.race_descriptions.o06c2e8.description": "The NO DATA layout intentionally contains an empty four-row description.",
+    "compendium.race_descriptions.o06c518.description": "The NO DATA layout intentionally contains an empty four-row description.",
+    "compendium.race_descriptions.o06c5a4.description": "The NO DATA layout intentionally contains an empty four-row description."
+  }
+}

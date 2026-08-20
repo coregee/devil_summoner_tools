@@ -37,18 +37,21 @@ rejects version-1 configs and executable `replacement` blobs.
 ## Akuma Zensho text
 
 `compendium.text` compiles the complete proved text inventory on the bonus
-disc: 292 profile tails plus the demon, ability, and race tables in
-`A_DIC.BIN`. The profile geometry remains one 144-pixel origin row, four
+disc: 292 profile tails plus the demon, ability, race-label, race-description,
+and fusion-help tables in `A_DIC.BIN`. The profile geometry remains one 144-pixel origin row, four
 224-pixel summary rows, and twelve 224-pixel detail rows. Names and abilities
-use 128-pixel rows; race labels use 48-pixel rows.
+use 128-pixel rows; race labels use 48-pixel rows. Race descriptions use a
+224-pixel heading plus four 224-pixel prose rows, while fusion help uses two
+320-pixel rows.
 
 Generated rows use a reversible tagged codec and a deterministic asset-derived
 dictionary. One readable SH-2 wrapper temporarily composes decoded FONT8
 glyphs in the existing compendium FONT16 work area, calls the stock drawer,
-and restores the original cells. It uses 1,888 bytes of the 30,722-byte
+and restores the original cells. It uses 1,890 bytes of the 30,722-byte
 verified zero arena in `A_DIC.BIN`; no compendium font cell or font file is
-repurposed. Exactly four independently addressable supplemental race rows stay
-byte-identical to retail because their English identities remain unresolved.
+repurposed. Vengeful Spirit and Fiend are now authored; only two independently
+addressable raw placeholder race rows stay byte-identical to retail because
+their identities remain unresolved.
 
 The builder reads all 293 targets directly from the verified source disc,
 publishes them under `engine/generated/compendium/`, and installs complete

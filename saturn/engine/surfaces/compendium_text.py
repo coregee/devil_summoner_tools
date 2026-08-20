@@ -24,6 +24,7 @@ from engine.shared.compendium_codec import (
     build_dictionary,
     build_embedded_font,
     encode_profile_tail,
+    encode_text_rows,
 )
 from rom.util.catalog import load_catalog, validate_source
 from rom.util.workflows import read_source_files
@@ -62,6 +63,8 @@ ASSET_FILES = (
     ASSET_ROOT / "races.json",
     ASSET_ROOT / "magic.json",
     ASSET_ROOT / "skills.json",
+    ASSET_ROOT / "compendium" / "race_descriptions.json",
+    ASSET_ROOT / "compendium" / "ui.json",
 )
 BINDING_FILES = (
     BINDING_ROOT / "demon_compendium.json",
@@ -69,12 +72,17 @@ BINDING_FILES = (
     BINDING_ROOT / "races.json",
     BINDING_ROOT / "magic.json",
     BINDING_ROOT / "skills.json",
+    BINDING_ROOT / "compendium_race_description_headings.json",
+    BINDING_ROOT / "compendium_race_descriptions.json",
+    BINDING_ROOT / "compendium_ui.json",
 )
 CORPUS_FILES = (
     CORPUS_ROOT / "compendium" / "profiles.json",
     CORPUS_ROOT / "compendium" / "fixed" / "demon_names.json",
     CORPUS_ROOT / "compendium" / "fixed" / "ability_names.json",
     CORPUS_ROOT / "compendium" / "addressed" / "race_names.json",
+    CORPUS_ROOT / "compendium" / "fixed" / "race_descriptions.json",
+    CORPUS_ROOT / "compendium" / "fixed" / "fusion_help.json",
 )
 RUNTIME_INPUT_FILES = (
     FONT8_PATH,
@@ -93,7 +101,7 @@ RUNTIME_CAPACITY = 0x7802
 ORIGINAL_DRAW = 0x06021984
 FONT_BASE = 0x00289000
 SAVED_FONT = 0x002881DC
-ROW_CODES = SAVED_FONT + 14 * 32
+ROW_CODES = SAVED_FONT + 20 * 32
 
 DEMON_TABLE_OFFSET = 0x5D9B0
 DEMON_COUNT = 319
@@ -101,13 +109,27 @@ ABILITY_TABLE_OFFSET = 0x69BE4
 ABILITY_COUNT = 255
 RACE_TABLE_OFFSET = 0x5EDA0
 RACE_COUNT = 48
+RACE_DESCRIPTION_OFFSET = 0x6ABD4
+RACE_DESCRIPTION_STRIDE = 0x8C
+RACE_DESCRIPTION_COUNT = 48
+RACE_DESCRIPTION_ROW_WORDS = 14
+RACE_DESCRIPTION_ROWS = 4
+FUSION_HELP_OFFSET = 0x6D828
+FUSION_HELP_STRIDE = 0x50
+FUSION_HELP_COUNT = 11
+FUSION_HELP_ROW_WORDS = 20
 
 UNRESOLVED_IDS = frozenset(
     {
-        "compendium.race_names.supplement.r0001",
-        "compendium.race_names.supplement.r0002",
         "compendium.race_names.supplement.r0003",
         "compendium.race_names.supplement.r0004",
+    }
+)
+BLANK_DESCRIPTION_IDS = frozenset(
+    {
+        "compendium.race_descriptions.o06c2e8.description",
+        "compendium.race_descriptions.o06c518.description",
+        "compendium.race_descriptions.o06c5a4.description",
     }
 )
 POINTER_OFFSETS = (
@@ -183,6 +205,12 @@ def _configuration() -> PatchRecipeConfiguration:
         ("demon_names", LOAD_ADDRESS + DEMON_TABLE_OFFSET, "generated"),
         ("race_names", LOAD_ADDRESS + RACE_TABLE_OFFSET, "generated"),
         ("ability_names", LOAD_ADDRESS + ABILITY_TABLE_OFFSET, "generated"),
+        (
+            "race_description_layouts",
+            LOAD_ADDRESS + RACE_DESCRIPTION_OFFSET,
+            "generated",
+        ),
+        ("fusion_help_rows", LOAD_ADDRESS + FUSION_HELP_OFFSET, "generated"),
         *(
             (
                 f"drawer_pointer_{index + 1:02d}",
@@ -201,11 +229,11 @@ def _configuration() -> PatchRecipeConfiguration:
         raise ValueError("compendium runtime assembly source drifted")
     if any(
         recipe.replacement.generator != "compendium_data"
-        for recipe in recipes[1:4]
+        for recipe in recipes[1:6]
     ):
         raise ValueError("compendium data generator contract drifted")
     if any(
-        recipe.replacement.link != "compact_draw" for recipe in recipes[4:]
+        recipe.replacement.link != "compact_draw" for recipe in recipes[6:]
     ):
         raise ValueError("compendium drawer link contract drifted")
     return config
@@ -300,15 +328,33 @@ def _translations() -> tuple[
     tuple[str, ...],
     tuple[str, ...],
     tuple[str, ...],
+    tuple[str, ...],
+    tuple[str, ...],
 ]:
     physical = load_physical_record_files(CORPUS_FILES)
-    profile_ids, demon_ids, ability_ids, race_ids = map(_corpus_ids, CORPUS_FILES)
-    all_ids = set(profile_ids) | set(demon_ids) | set(ability_ids) | set(race_ids)
+    (
+        profile_ids,
+        demon_ids,
+        ability_ids,
+        race_ids,
+        race_description_ids,
+        fusion_help_ids,
+    ) = map(_corpus_ids, CORPUS_FILES)
+    all_ids = (
+        set(profile_ids)
+        | set(demon_ids)
+        | set(ability_ids)
+        | set(race_ids)
+        | set(race_description_ids)
+        | set(fusion_help_ids)
+    )
     if (
         len(profile_ids) != 876
         or len(demon_ids) != DEMON_COUNT
         or len(ability_ids) != ABILITY_COUNT
         or len(race_ids) != RACE_COUNT
+        or len(race_description_ids) != RACE_DESCRIPTION_COUNT * 2
+        or len(fusion_help_ids) != FUSION_HELP_COUNT
         or set(physical) != all_ids
     ):
         raise ValueError("compendium physical text inventory drifted")
@@ -320,6 +366,11 @@ def _translations() -> tuple[
         "races.json": PurePosixPath("races.json"),
         "magic.json": PurePosixPath("magic.json"),
         "skills.json": PurePosixPath("skills.json"),
+        "compendium_race_description_headings.json": PurePosixPath("races.json"),
+        "compendium_race_descriptions.json": PurePosixPath(
+            "compendium/race_descriptions.json"
+        ),
+        "compendium_ui.json": PurePosixPath("compendium/ui.json"),
     }
     for path in BINDING_FILES:
         document = _read_json(path)
@@ -352,14 +403,24 @@ def _translations() -> tuple[
             _reference, translation, _reviewed = catalog.field(asset_ref).resolve(
                 variants.get(physical_id)
             )
-            if translation:
+            if translation or (
+                physical[physical_id] == "" and physical_id not in raw_unresolved
+            ):
                 translations[physical_id] = translation
-    if unresolved != set(UNRESOLVED_IDS):
+    if unresolved != set(UNRESOLVED_IDS | BLANK_DESCRIPTION_IDS):
         raise ValueError("compendium unresolved inventory drifted")
     required = all_ids - unresolved
     if set(translations) != required:
         raise ValueError("compendium authored translation coverage drifted")
-    return MappingProxyType(translations), profile_ids, demon_ids, ability_ids, race_ids
+    return (
+        MappingProxyType(translations),
+        profile_ids,
+        demon_ids,
+        ability_ids,
+        race_ids,
+        race_description_ids,
+        fusion_help_ids,
+    )
 
 
 def _font() -> tuple[bytes, FontMetrics, dict[str, int], dict[str, int]]:
@@ -469,9 +530,12 @@ def _a_dic_tables(
     source: bytes,
     translations: Mapping[str, str],
     codec: CompactCodec,
+    advances: Mapping[str, int],
     demon_ids: tuple[str, ...],
     ability_ids: tuple[str, ...],
     race_ids: tuple[str, ...],
+    race_description_ids: tuple[str, ...],
+    fusion_help_ids: tuple[str, ...],
 ) -> Mapping[str, bytes]:
     demons = b"".join(codec.encode_row(translations[record], 8) for record in demon_ids)
     abilities = b"".join(
@@ -484,13 +548,66 @@ def _a_dic_tables(
             races.extend(race_source[index * 6 : index * 6 + 6])
         else:
             races.extend(codec.encode_row(translations[record], 3))
+
+    race_descriptions = bytearray()
+    for index in range(RACE_DESCRIPTION_COUNT):
+        heading_id = race_description_ids[index * 2]
+        description_id = race_description_ids[index * 2 + 1]
+        if not heading_id.endswith(".heading") or not description_id.endswith(
+            ".description"
+        ):
+            raise ValueError("compendium race-description field order drifted")
+        race_descriptions.extend(
+            codec.encode_row(
+                translations[heading_id],
+                RACE_DESCRIPTION_ROW_WORDS,
+            )
+        )
+        if description_id in BLANK_DESCRIPTION_IDS:
+            description = ""
+        else:
+            description = translations[description_id]
+        if description:
+            race_descriptions.extend(
+                encode_text_rows(
+                    description,
+                    codec,
+                    (RACE_DESCRIPTION_ROW_WORDS,) * RACE_DESCRIPTION_ROWS,
+                    advances,
+                    224,
+                )
+            )
+        else:
+            race_descriptions.extend(
+                codec.encode_row("", RACE_DESCRIPTION_ROW_WORDS)
+                * RACE_DESCRIPTION_ROWS
+            )
+
+    fusion_help = b"".join(
+        encode_text_rows(
+            translations[record],
+            codec,
+            (FUSION_HELP_ROW_WORDS, FUSION_HELP_ROW_WORDS),
+            advances,
+            320,
+        )
+        for record in fusion_help_ids
+    )
     if len(demons) != DEMON_COUNT * 16 or len(abilities) != ABILITY_COUNT * 16:
         raise AssertionError("compendium table compiler changed fixed geometry")
+    if (
+        len(race_descriptions)
+        != RACE_DESCRIPTION_COUNT * RACE_DESCRIPTION_STRIDE
+        or len(fusion_help) != FUSION_HELP_COUNT * FUSION_HELP_STRIDE
+    ):
+        raise AssertionError("compendium layout compiler changed fixed geometry")
     return MappingProxyType(
         {
             "demon_names": demons,
             "race_names": bytes(races),
             "ability_names": abilities,
+            "race_description_layouts": bytes(race_descriptions),
+            "fusion_help_rows": fusion_help,
         }
     )
 
@@ -530,14 +647,30 @@ def build_compendium_text(
     """Build all currently proved Akuma Zensho text consumers atomically."""
     config = _configuration()
     source_files, source_inputs = _source_files(sources)
-    translations, profile_ids, demon_ids, ability_ids, race_ids = _translations()
+    (
+        translations,
+        profile_ids,
+        demon_ids,
+        ability_ids,
+        race_ids,
+        race_description_ids,
+        fusion_help_ids,
+    ) = _translations()
     font, _metrics, codes, advances = _font()
     codec = CompactCodec(build_dictionary(translations.values()))
     runtime = _runtime(codec, font, codes, advances)
 
     a_dic_source = source_files[TARGET]
     tables = _a_dic_tables(
-        a_dic_source, translations, codec, demon_ids, ability_ids, race_ids
+        a_dic_source,
+        translations,
+        codec,
+        advances,
+        demon_ids,
+        ability_ids,
+        race_ids,
+        race_description_ids,
+        fusion_help_ids,
     )
     a_dic_patches = _a_dic_patches(config, a_dic_source, runtime, tables)
     outputs: dict[str, bytes] = {

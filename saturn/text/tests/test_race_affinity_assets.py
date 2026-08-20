@@ -163,7 +163,7 @@ class RaceAssetTests(unittest.TestCase):
             self.binding.records["compendium.race_names.supplement.r0000"],
             "zoma.name",
         )
-        self.assertEqual(len(self.binding.unresolved), 4)
+        self.assertEqual(len(self.binding.unresolved), 2)
         self.assertEqual(
             self.binding.records["game.shopsmp.m0161.p00"],
             "deity.name",
@@ -200,14 +200,18 @@ class RaceAssetTests(unittest.TestCase):
             },
         )
 
-    def test_unproved_bonus_disc_labels_remain_visible(self) -> None:
+    def test_bonus_disc_labels_and_unproved_placeholders_remain_distinct(self) -> None:
         self.assertEqual(
             self.catalog.entries["vengeful_spirit"].fields["name"].reference,
             "怨霊",
         )
         self.assertEqual(
+            self.catalog.entries["vengeful_spirit"].fields["name"].translation,
+            "Vengeful Spirit",
+        )
+        self.assertEqual(
             self.catalog.entries["fiend"].fields["name"].translation,
-            "",
+            "Fiend",
         )
         placeholders = (
             self.catalog.entries["compendium_race_placeholder_a"],

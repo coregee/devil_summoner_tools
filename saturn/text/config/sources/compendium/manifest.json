@@ -1759,7 +1759,7 @@
       "path": "A_DIC.BIN",
       "size": 472172,
       "stock_sha256": "0edd01f270b6500dc6fafc5e71202c11dcc2cceea605cec9057e4ffb5966314c",
-      "owned_sha256": "5524cee22ef92a1c074a714ce979e9ebb237535474ece5d6757fc38fe4d34fa7"
+      "owned_sha256": "a4c19bb592fb36699da3658cd71e06e9ae5b81b1f28eade511702dee315fed5b"
     }
   },
   "sources": [
@@ -2207,6 +2207,67 @@
           }
         ],
         "records": []
+      }
+    },
+    {
+      "id": "race_descriptions",
+      "corpus": "fixed/race_descriptions.json",
+      "container": {
+        "type": "fixed_records",
+        "file": "a_dic",
+        "blocks": [
+          {
+            "base": "0x6abd4",
+            "count": 48,
+            "stride": "0x8c"
+          }
+        ],
+        "fields": [
+          {
+            "name": "heading",
+            "offset": "0x2",
+            "units": 13,
+            "source_encoding": "compendium_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            }
+          },
+          {
+            "name": "description",
+            "offset": "0x1c",
+            "units": 56,
+            "source_encoding": "compendium_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "fusion_help",
+      "corpus": "fixed/fusion_help.json",
+      "container": {
+        "type": "fixed_records",
+        "file": "a_dic",
+        "blocks": [
+          {
+            "base": "0x6d828",
+            "count": 11,
+            "stride": "0x50"
+          }
+        ],
+        "fields": [
+          {
+            "name": "text",
+            "offset": "0x0",
+            "units": 40,
+            "source_encoding": "compendium_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            }
+          }
+        ]
       }
     }
   ]

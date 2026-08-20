@@ -23,6 +23,8 @@ class CompendiumTextSurfaceTests(unittest.TestCase):
             cls.demon_ids,
             cls.ability_ids,
             cls.race_ids,
+            cls.race_description_ids,
+            cls.fusion_help_ids,
         ) = surface._translations()
         cls.codec = CompactCodec(build_dictionary(cls.translations.values()))
         cls.build = surface.build_compendium_text(cls.sources)
@@ -30,7 +32,7 @@ class CompendiumTextSurfaceTests(unittest.TestCase):
     def test_exact_target_and_patch_inventory(self) -> None:
         self.assertEqual(len(self.build.outputs), 293)
         self.assertEqual(set(self.build.outputs), set(self.sources))
-        self.assertEqual(len(self.build.patches[surface.TARGET]), 21)
+        self.assertEqual(len(self.build.patches[surface.TARGET]), 23)
         self.assertTrue(
             all(
                 len(patches) == 1
@@ -39,7 +41,7 @@ class CompendiumTextSurfaceTests(unittest.TestCase):
             )
         )
         self.assertEqual(
-            sum(len(patches) for patches in self.build.patches.values()), 313
+            sum(len(patches) for patches in self.build.patches.values()), 315
         )
         self.assertEqual(self.build.unresolved_ids, surface.UNRESOLVED_IDS)
         self.assertEqual(self.build.assembly_files, (surface.ASSEMBLY_PATH,))
@@ -47,7 +49,7 @@ class CompendiumTextSurfaceTests(unittest.TestCase):
     def test_default_hashes_and_runtime_capacity_are_deterministic(self) -> None:
         self.assertEqual(
             hashlib.sha256(self.build.outputs[surface.TARGET]).hexdigest(),
-            "631dc5de8f67f8cbf1edf0dc0ace52183ceb854d951be21d36e16c3842a06624",
+            "b4884845db76ee6461cf2383f958e2c4599f8e43fb552636177fece8787d3a7f",
         )
         catalogue = hashlib.sha256()
         for path, data in sorted(self.build.outputs.items()):
@@ -56,9 +58,9 @@ class CompendiumTextSurfaceTests(unittest.TestCase):
             catalogue.update(hashlib.sha256(data).digest())
         self.assertEqual(
             catalogue.hexdigest(),
-            "54a264f277606e795935ddba51d7a0333e3ee86d4880796ce35dfd2b27b0d38b",
+            "de2d414ae012f77ba9392e3bdeece3237a00471de84aa8304f3cfc2fedfa9061",
         )
-        self.assertEqual(self.build.runtime_used_size, 1888)
+        self.assertEqual(self.build.runtime_used_size, 1890)
         self.assertEqual(self.build.runtime_capacity, 30722)
         runtime = self.build.outputs[surface.TARGET][
             surface.RUNTIME_ADDRESS
@@ -68,7 +70,7 @@ class CompendiumTextSurfaceTests(unittest.TestCase):
         ]
         self.assertEqual(
             hashlib.sha256(runtime).hexdigest(),
-            "cc2c68cbe49d8617423da95bca32fe45dd0cfa5a0db18b328374300d8ec6f4a0",
+            "aeffd977c68c01ba299314fdbe7abac6aebbf0a58967b0e46ba7dcb539bb0598",
         )
 
     def test_profile_outputs_change_only_the_proved_tail(self) -> None:
@@ -143,6 +145,39 @@ class CompendiumTextSurfaceTests(unittest.TestCase):
             else:
                 self.assertEqual(self.codec.decode_row(row), self.translations[record])
 
+        for index in range(surface.RACE_DESCRIPTION_COUNT):
+            start = (
+                surface.RACE_DESCRIPTION_OFFSET
+                + index * surface.RACE_DESCRIPTION_STRIDE
+            )
+            heading_id = self.race_description_ids[index * 2]
+            description_id = self.race_description_ids[index * 2 + 1]
+            self.assertEqual(
+                self.codec.decode_row(output[start : start + 28]),
+                self.translations[heading_id],
+            )
+            rows = [
+                self.codec.decode_row(
+                    output[start + offset : start + offset + 28]
+                )
+                for offset in range(28, surface.RACE_DESCRIPTION_STRIDE, 28)
+            ]
+            self.assertEqual(
+                " ".join(value for value in rows if value),
+                self.translations.get(description_id, ""),
+            )
+
+        for index, record in enumerate(self.fusion_help_ids):
+            start = surface.FUSION_HELP_OFFSET + index * surface.FUSION_HELP_STRIDE
+            rows = [
+                self.codec.decode_row(output[start + offset : start + offset + 40])
+                for offset in (0, 40)
+            ]
+            self.assertEqual(
+                " ".join(value for value in rows if value),
+                self.translations[record],
+            )
+
     def test_every_drawer_pointer_links_to_the_readable_wrapper(self) -> None:
         output = self.build.outputs[surface.TARGET]
         pointer = surface.RUNTIME_ADDRESS.to_bytes(4, "big")
@@ -164,6 +199,8 @@ class CompendiumTextSurfaceTests(unittest.TestCase):
             self.demon_ids,
             self.ability_ids,
             self.race_ids,
+            self.race_description_ids,
+            self.fusion_help_ids,
         )
         with patch.object(surface, "_translations", return_value=mocked):
             edited = surface.build_compendium_text(self.sources)
@@ -176,6 +213,44 @@ class CompendiumTextSurfaceTests(unittest.TestCase):
             surface.PROFILE_TAIL_OFFSET + surface.PROFILE_TAIL_BYTES
         ]
         self.assertEqual(edited_codec.decode_row(tail[:18]), "India!")
+
+    def test_race_description_and_fusion_help_edits_propagate(self) -> None:
+        changed = dict(self.translations)
+        description = "compendium.race_descriptions.o06abf0.description"
+        help_row = "compendium.fusion_help.o06d828.text"
+        changed[description] = "Edited race description."
+        changed[help_row] = "Edited fusion help."
+        mocked = (
+            changed,
+            self.profile_ids,
+            self.demon_ids,
+            self.ability_ids,
+            self.race_ids,
+            self.race_description_ids,
+            self.fusion_help_ids,
+        )
+        with patch.object(surface, "_translations", return_value=mocked):
+            edited = surface.build_compendium_text(self.sources)
+        codec = CompactCodec(build_dictionary(changed.values()))
+        output = edited.outputs[surface.TARGET]
+        self.assertEqual(
+            codec.decode_row(
+                output[
+                    surface.RACE_DESCRIPTION_OFFSET
+                    + 28 : surface.RACE_DESCRIPTION_OFFSET
+                    + 56
+                ]
+            ),
+            "Edited race description.",
+        )
+        self.assertEqual(
+            codec.decode_row(
+                output[
+                    surface.FUSION_HELP_OFFSET : surface.FUSION_HELP_OFFSET + 40
+                ]
+            ),
+            "Edited fusion help.",
+        )
 
     def test_tampered_source_and_config_drift_fail_closed(self) -> None:
         changed = dict(self.sources)

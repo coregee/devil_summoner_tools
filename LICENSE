@@ -1,0 +1,35 @@
+# License
+
+Except for the excluded materials listed below, project-authored source code
+and documentation in this repository are licensed under the BSD Zero Clause
+License (SPDX identifier: 0BSD).
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+
+Excluded materials
+------------------
+
+The 0BSD license above does not apply to:
+
+1. JSON files under `assets/text/` and `saturn/text/corpus/`;
+2. PNG files under `saturn/visual/modified/`;
+3. patch preview screenshots under `saturn/docs/preview_screens/`; or
+4. future shared or platform assets that reproduce or adapt copyrighted game
+   text, images, audio, or movies.
+
+Those materials are protected by their respective copyright owners and are
+included, where present, on the basis of fair use. No rights are granted beyond
+those provided by applicable law, and they must not be redistributed for
+profit.
+
+Third-party fonts retain the license terms and provenance notices stored next
+to their source files.

@@ -67,15 +67,16 @@ class CompendiumCodecTests(unittest.TestCase):
                 glyph = embedded.bitmaps[index * 8 : index * 8 + 8]
                 self.assertNotEqual(glyph, bytes(8))
 
-    def test_inventory_has_only_four_explicitly_untranslated_race_rows(self) -> None:
-        self.assertEqual(len(self.translations), 1494)
+    def test_inventory_has_only_two_unknown_rows_and_three_blanks(self) -> None:
+        self.assertEqual(len(self.translations), 1600)
         self.assertEqual(
             self.unresolved,
             {
-                "compendium.race_names.supplement.r0001",
-                "compendium.race_names.supplement.r0002",
                 "compendium.race_names.supplement.r0003",
                 "compendium.race_names.supplement.r0004",
+                "compendium.race_descriptions.o06c2e8.description",
+                "compendium.race_descriptions.o06c518.description",
+                "compendium.race_descriptions.o06c5a4.description",
             },
         )
 
@@ -149,7 +150,7 @@ class CompendiumCodecTests(unittest.TestCase):
         layouts = {
             "compendium.demon_names.": (8, 128, 319),
             "compendium.ability_names.": (8, 128, 255),
-            "compendium.race_names.": (3, 48, 44),
+            "compendium.race_names.": (3, 48, 46),
         }
         for prefix, (words, pixels, expected_count) in layouts.items():
             selected = {
@@ -164,6 +165,32 @@ class CompendiumCodecTests(unittest.TestCase):
                 )
                 encoded = self.codec.encode_row(value, words)
                 self.assertEqual(self.codec.decode_row(encoded), value)
+
+    def test_all_a_dic_prose_fits_proved_rows(self) -> None:
+        layouts = {
+            ".description": ((14,) * 4, 224, 45),
+            "compendium.fusion_help.": ((20, 20), 320, 11),
+        }
+        descriptions = {
+            key: value
+            for key, value in self.translations.items()
+            if key.startswith("compendium.race_descriptions.")
+            and key.endswith(".description")
+        }
+        help_rows = {
+            key: value
+            for key, value in self.translations.items()
+            if key.startswith("compendium.fusion_help.")
+        }
+        for selected, (capacities, pixels, count) in zip(
+            (descriptions, help_rows), layouts.values(), strict=True
+        ):
+            self.assertEqual(len(selected), count)
+            for value in selected.values():
+                rows = wrap_rows(
+                    value, self.codec, capacities, self.advances, pixels
+                )
+                self.assertEqual(" ".join(rows), value)
 
 
 if __name__ == "__main__":

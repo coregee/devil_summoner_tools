@@ -60,7 +60,7 @@ class CompendiumTextBuildIntegrationTests(unittest.TestCase):
                 COMPENDIUM_TEXT_BUILD_PATH,
             },
         )
-        self.assertEqual(self.manifest["patches"], 313)
+        self.assertEqual(self.manifest["patches"], 315)
         self.assertEqual(
             self.manifest["patch_groups"],
             [
@@ -73,18 +73,18 @@ class CompendiumTextBuildIntegrationTests(unittest.TestCase):
         self.assertEqual(
             self.manifest["runtime"],
             {
-                "bytes": 1888,
+                "bytes": 1890,
                 "capacity": 30722,
                 "arenas": [
                     {
                         "address": "0x0603d200",
-                        "bytes": 1888,
+                        "bytes": 1890,
                         "capacity": 30722,
                     }
                 ],
             },
         )
-        self.assertEqual(len(self.manifest["unresolved_physical_ids"]), 4)
+        self.assertEqual(len(self.manifest["unresolved_physical_ids"]), 2)
 
     def test_manifest_proves_all_direct_inputs_and_verified_sources(self) -> None:
         self.assertEqual(len(self.manifest["source_inputs"]), 293)
@@ -96,6 +96,8 @@ class CompendiumTextBuildIntegrationTests(unittest.TestCase):
                 "assets/text/races.json",
                 "assets/text/magic.json",
                 "assets/text/skills.json",
+                "assets/text/compendium/race_descriptions.json",
+                "assets/text/compendium/ui.json",
             },
         )
         self.assertEqual(
@@ -111,6 +113,8 @@ class CompendiumTextBuildIntegrationTests(unittest.TestCase):
             "saturn/text/corpus/compendium/fixed/demon_names.json",
             "saturn/text/corpus/compendium/fixed/ability_names.json",
             "saturn/text/corpus/compendium/addressed/race_names.json",
+            "saturn/text/corpus/compendium/fixed/race_descriptions.json",
+            "saturn/text/corpus/compendium/fixed/fusion_help.json",
             "saturn/engine/shared/compendium_codec.py",
         ):
             self.assertIn(expected, runtime)

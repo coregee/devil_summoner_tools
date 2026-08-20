@@ -52,6 +52,20 @@
           "expected_sha256": "75fbf7d562f3455fce0d0689e89d8b247a62cc9d2cc88857973069ff5e3f89b4",
           "expected_size": 4080,
           "generated": "compendium_data"
+        },
+        {
+          "name": "race_description_layouts",
+          "address": "0x0608abd4",
+          "expected_sha256": "70b22bc9ee3ab79d641080439642decd8904b763801bb17fd21401a3fd33f082",
+          "expected_size": 6720,
+          "generated": "compendium_data"
+        },
+        {
+          "name": "fusion_help_rows",
+          "address": "0x0608d828",
+          "expected_sha256": "e5c4cd4b1cce01c460f78593c904939088c669b0b099476079b9923294abbdbf",
+          "expected_size": 880,
+          "generated": "compendium_data"
         }
       ]
     },
@@ -166,4 +180,3 @@
     }
   ]
 }
-

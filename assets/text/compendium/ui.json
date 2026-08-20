@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "no_data_heading": {
+      "text": {
+        "reference": "NODATA",
+        "translation": "NO DATA"
+      }
+    },
+    "blank_description": {
+      "text": {
+        "reference": "",
+        "translation": "",
+        "note": "An intentionally empty four-row description paired with each NO DATA heading."
+      }
+    },
+    "new_moon_accident": {
+      "text": {
+        "reference": "新月時の神族を含む合体事故で出現",
+        "translation": "Appears in a fusion accident involving Divine races during a new moon."
+      }
+    },
+    "full_moon_accident": {
+      "text": {
+        "reference": "満月時の獣族を含む合体事故で出現",
+        "translation": "Appears in a fusion accident involving Beast races during a full moon."
+      }
+    },
+    "herald_avatar": {
+      "text": {
+        "reference": "大天使・神獣の同種族2身合体で出現",
+        "translation": "Appears through same-race double fusion of Heralds or Avatars."
+      }
+    },
+    "fairy_snake_femme": {
+      "text": {
+        "reference": "妖精・龍王・鬼女の同種族3身合体か鬼神・龍神の同種族2身合体で出現",
+        "translation": "Appears through same-race triple fusion of Fairy, Snake, or Femme; or double fusion of Kishin or Dragon."
+      }
+    },
+    "yoma_divine_flight_beast": {
+      "text": {
+        "reference": "妖魔・天使・妖鳥・魔獣の同種族3身合体か幻魔・霊鳥の同種族2身合体で出現",
+        "translation": "Appears through same-race triple fusion of Yoma, Divine, Flight, or Beast; or double fusion of Genma or Avian."
+      }
+    },
+    "night_fallen_brute_jirae": {
+      "text": {
+        "reference": "夜魔・堕天使・妖鬼・地霊の同種族3身合体か聖獣・神樹の同種族2身合体で出現",
+        "translation": "Appears through same-race triple fusion of Night, Fallen, Brute, or Jirae; or double fusion of Holy or Tree."
+      }
+    },
+    "vishnu": {
+      "text": {
+        "reference": "レベル70以上の造魔とヴィシュヌの合体で出現",
+        "translation": "Appears by fusing Vishnu with a Zoma of level 70 or higher."
+      }
+    },
+    "zhu_yin": {
+      "text": {
+        "reference": "レベル65以上の造魔とショクインの合体で出現",
+        "translation": "Appears by fusing Zhu Yin with a Zoma of level 65 or higher."
+      }
+    },
+    "sandalphon": {
+      "text": {
+        "reference": "レベル60以上の造魔とサンダルフォンの合体で出現",
+        "translation": "Appears by fusing Sandalphon with a Zoma of level 60 or higher."
+      }
+    },
+    "hachiman": {
+      "text": {
+        "reference": "レベル55以上の造魔とハチマンの合体で出現",
+        "translation": "Appears by fusing Hachiman with a Zoma of level 55 or higher."
+      }
+    },
+    "black_maria": {
+      "text": {
+        "reference": "レベル50以上の造魔とブラックマリアの合体で出現",
+        "translation": "Appears by fusing Black Maria with a Zoma of level 50 or higher."
+      }
+    }
+  }
+}

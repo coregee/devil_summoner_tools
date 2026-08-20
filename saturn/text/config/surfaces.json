@@ -2039,6 +2039,61 @@
         }
       }
     },
+    "compendium.race_description_heading": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 14
+        },
+        "glyphs": 13
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 224
+        }
+      }
+    },
+    "compendium.race_description": {
+      "ja": {
+        "font": "font16",
+        "rows": 4,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 14
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 4,
+        "width": {
+          "unit": "pixels",
+          "value": 224
+        }
+      }
+    },
+    "compendium.fusion_help": {
+      "ja": {
+        "font": "font16",
+        "rows": 2,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 20
+        }
+      },
+      "en": {
+        "font": "font8",
+        "rows": 2,
+        "width": {
+          "unit": "pixels",
+          "value": 320
+        }
+      }
+    },
     "compendium.origin": {
       "ja": {
         "font": "font16",

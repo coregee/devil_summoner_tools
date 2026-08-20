@@ -228,6 +228,7 @@
     "game.da3d_analyze.grid_races.r0042": "human.name"
   },
   "variants": {
+    "compendium.race_names.supplement.r0001": "compendium_table",
     "game.da3d_analyze.grid_races.r0000": "analyze_grid",
     "game.da3d_analyze.grid_races.r0001": "analyze_grid",
     "game.da3d_analyze.grid_races.r0002": "analyze_grid",
@@ -651,8 +652,6 @@
     "01a7": "間"
   },
   "unresolved": {
-    "compendium.race_names.supplement.r0001": "The bonus-disc label has no mature English output; keep it visible until its consumer is rebuilt.",
-    "compendium.race_names.supplement.r0002": "The bonus-disc label has no mature English output; keep it visible until its consumer is rebuilt.",
     "compendium.race_names.supplement.r0003": "Raw bonus-disc placeholder is independently addressable and must not be inferred from its duplicate text.",
     "compendium.race_names.supplement.r0004": "Raw bonus-disc placeholder is independently addressable and must not be inferred from its duplicate text."
   }

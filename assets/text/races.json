@@ -864,19 +864,21 @@
       }
     },
     "vengeful_spirit": {
-      "status": "unresolved",
-      "note": "Bonus-disc race label with no mature English output.",
       "name": {
         "reference": "怨霊",
-        "translation": ""
+        "translation": "Vengeful Spirit",
+        "variants": {
+          "compendium_table": {
+            "translation": "Venge.",
+            "note": "Compact A_DIC race-table abbreviation; the full heading remains Vengeful Spirit."
+          }
+        }
       }
     },
     "fiend": {
-      "status": "unresolved",
-      "note": "Bonus-disc race label with no mature English output.",
       "name": {
         "reference": "魔人",
-        "translation": ""
+        "translation": "Fiend"
       }
     },
     "compendium_race_placeholder_a": {

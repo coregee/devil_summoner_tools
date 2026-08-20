@@ -292,8 +292,11 @@ The physical Saturn corpus remains the extraction oracle while this authored
 layer is introduced. The first vertical slice joins equipment and items to
 their names, descriptions, console forms, and complete field-message templates.
 The demon catalogue now joins game and Akuma Zensho names with all Compendium
-profile fields, while retaining PSP-only entities and PSP reference revisions
-for later platform bindings. The magic and skill catalogues add all 255 Saturn
+profile fields. The bonus-disc catalogue also owns all 44 distinct race
+descriptions, three intentional NO DATA layouts, eleven fusion-help rules, and
+the Vengeful Spirit and Fiend supplement labels; only two raw placeholder race
+identities remain unresolved. PSP-only entities and PSP reference revisions
+remain available for later platform bindings. The magic and skill catalogues add all 255 Saturn
 ability slots, 199 separately authored battle-console forms, and the complete
 Akuma Zensho name table. Of the PSP name/description fields, 298 exact fields
 need no variant, 105 source revisions retain the shared English, and 102

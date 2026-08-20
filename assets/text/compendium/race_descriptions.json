@@ -1,0 +1,270 @@
+{
+  "version": 1,
+  "kind": "entity_catalog",
+  "entries": {
+    "deity": {
+      "text": {
+        "reference": "現在の中心的な神々．多くの信仰をその身に集め，最高の力を持っている．やや享楽的な神々が多い．",
+        "translation": "The foremost gods of the present age. They gather vast faith and wield supreme power. Many are somewhat hedonistic."
+      }
+    },
+    "megami": {
+      "text": {
+        "reference": "慈愛をもたらす女の神々．愛に溢れた優しい性格の持ち主である．高い能力を持っているが，無駄な戦いは好まない．",
+        "translation": "Goddesses who bring love and compassion. Kind and affectionate, they possess great power but dislike needless conflict."
+      }
+    },
+    "herald": {
+      "text": {
+        "reference": "天使たちよりも上位にある精霊たち．かなりの魔力を持ち，破壊神のような恐ろしい存在であるものもいる．",
+        "translation": "Spirits who stand above ordinary angels. They wield considerable magic, and some are as fearsome as gods of destruction."
+      }
+    },
+    "avian": {
+      "text": {
+        "reference": "神々の乗り物であったり，聖なる力の昇華を体現するものであったりする，神聖度の高い魔物たち．",
+        "translation": "Sacred demons that serve as the gods' mounts or embody the elevation of holy power."
+      }
+    },
+    "tree": {
+      "text": {
+        "reference": "神聖な力より生え出でた樹木．穏やかな性格を持ち，他者に恩寵をもたらす．",
+        "translation": "Trees born from sacred power. Gentle by nature, they bestow blessings upon others."
+      }
+    },
+    "enigma": {
+      "text": {
+        "reference": "月影の消える夜にだけ現れる，秘められた神々．性愛や排泄などの，人間の隠された部分を司る．",
+        "translation": "Hidden gods who appear only on moonless nights. They govern concealed parts of human life, such as sexuality and excretion."
+      }
+    },
+    "genma": {
+      "text": {
+        "reference": "魔力に優れた神に近い者たち．多様な能力を備えており，変身を得意とする者も多い．",
+        "translation": "Beings close to the gods and gifted with magic. They possess varied powers, and many excel at transformation."
+      }
+    },
+    "avatar": {
+      "text": {
+        "reference": "神の猛々しい野性の力の現れである，善なる獣たち．邪悪なものとの戦いには，大きな力を発揮する．",
+        "translation": "Benevolent beasts embodying the gods' fierce, wild power. They display tremendous strength against evil."
+      }
+    },
+    "holy": {
+      "text": {
+        "reference": "聖なる魔獣たち．瑞兆の現れであったり，神に捧げられる犠牲であったりする．また，神の乗り物である者もいる．",
+        "translation": "Sacred beasts that may herald good fortune, serve as offerings to gods, or act as divine mounts."
+      }
+    },
+    "element": {
+      "text": {
+        "reference": "地・火・水・風の四大（しだい）元素の神格化されたもの．",
+        "translation": "Deifications of the four classical elements: earth, fire, water, and wind."
+      }
+    },
+    "mitama": {
+      "text": {
+        "reference": "神や人間の霊を形づくる，荒・和・幸・奇の四魂．",
+        "translation": "The four souls that shape gods and humans: Ara, Nigi, Saki, and Kushi."
+      }
+    },
+    "hero": {
+      "text": {
+        "reference": "造魔の身体を借りて再び現世に帰った，過去の勇者たち．その能力は，もはや人間の域を越えている．",
+        "translation": "Heroes of the past who borrowed Zoma bodies to return to this world. Their abilities now surpass human limits."
+      }
+    },
+    "fury": {
+      "text": {
+        "reference": "魔神に対抗する力を持つ神々．破壊と創造の力を併せ持つ．畏怖の念をもって人々に崇拝される．",
+        "translation": "Gods whose power opposes the Deities. They embody destruction and creation and are worshiped with awe."
+      }
+    },
+    "lady": {
+      "text": {
+        "reference": "母なる大地の女神たち．母の優しさと自然の厳しさの両面を持っている．かなり古い神々でもある．",
+        "translation": "Mother goddesses of the earth. They embody a mother's kindness and nature's severity, and are among the oldest gods."
+      }
+    },
+    "kishin": {
+      "text": {
+        "reference": "怒りの姿をとる神々．鬼たちが神の力を得た姿である．その荒ぶる力で，魔という魔を降伏する．",
+        "translation": "Gods who assume wrathful forms. They are oni empowered by divinity, subduing all demons with their raging might."
+      }
+    },
+    "dragon": {
+      "text": {
+        "reference": "龍族の長．神々の中でも最も古き者たちであり，人智を越えた能力と，不思議な価値基準を持っている．",
+        "translation": "Leaders of the dragons. Among the oldest gods, they possess superhuman powers and mysterious values."
+      }
+    },
+    "divine": {
+      "text": {
+        "reference": "下級の天使たち．天界の使い走りだが，敵に対しては武器を取り戦う．人間たちの守護者でもある．",
+        "translation": "Lesser angels. Though merely heaven's messengers, they take up arms against foes and guard humanity."
+      }
+    },
+    "flight": {
+      "text": {
+        "reference": "人々を誘惑し，気に入ったものをさらっていく，危険な風の魔であるが，本来は魂の運び手であった．",
+        "translation": "Dangerous wind demons who tempt people and abduct those they favor. Originally, they were bearers of souls."
+      }
+    },
+    "yoma": {
+      "text": {
+        "reference": "魔力の強い悪魔たち．その性格は暗いものではなく，光に向いている．自然の力を利用することに長けた者も多い．",
+        "translation": "Powerful demons whose nature turns toward light, not darkness. Many excel at harnessing nature."
+      }
+    },
+    "fairy": {
+      "text": {
+        "reference": "陽気な魔物たち．邪悪にも正義にもあまり興味がなく，自分の好き勝手にやるのが好きなようである．",
+        "translation": "Cheerful demons with little interest in good or evil. They prefer to act entirely as they please."
+      }
+    },
+    "snake": {
+      "text": {
+        "reference": "龍神には至らないものの，巨大な力を秘めた龍たち．水に関係する特性を持つ傾向がある．",
+        "translation": "Dragons that fall short of Dragon Gods but conceal immense power. They often possess traits associated with water."
+      }
+    },
+    "beast": {
+      "text": {
+        "reference": "直感で生きる獣が，魔と化したもの．危険ではあるが邪悪なものではない．また，従属的な性格の者も少なくない．",
+        "translation": "Beasts transformed into demons that live by instinct. Dangerous but not evil, many also have a submissive nature."
+      }
+    },
+    "uma": {
+      "text": {
+        "reference": "ユーモラスな姿をした，愛すべき獣たち．ただし戦闘の能力のほうは，あまり期待できない．",
+        "translation": "Lovable beasts with humorous forms. Their combat ability, however, is rarely impressive."
+      }
+    },
+    "jirae": {
+      "text": {
+        "reference": "鬼族であるが，妖精に近く，鬼となる闘気を秘めていない．大地よりその力を得ている．",
+        "translation": "Oni akin to fairies, lacking the fighting spirit that would make them true oni. They draw power from the earth."
+      }
+    },
+    "night": {
+      "text": {
+        "reference": "妖魔よりもさらに魔力を持つ，恐ろしき夜の魔物たち．人間にとっては最も身近な魔物たちである．",
+        "translation": "Terrifying night demons with even greater magic than Yoma. They are among the demons most familiar to humans."
+      }
+    },
+    "fallen": {
+      "text": {
+        "reference": "かつてセラフ（熾天使）との戦いで敗れ，堕ちた天使たち．いわゆる悪魔たちで，デーモンとも呼ばれる．",
+        "translation": "Angels cast down after losing a battle with the Seraphim. Commonly called devils, they are also known as demons."
+      }
+    },
+    "brute": {
+      "text": {
+        "reference": "他者に支配されることなく，自らの怒りの原理で行動する鬼たち．どちらかといえば肉体派である．",
+        "translation": "Oni ruled by no master, acting according to their own anger. They generally favor physical strength."
+      }
+    },
+    "femme": {
+      "text": {
+        "reference": "破壊をもたらす女魔たち．敵に対しては，容赦のない殺戮を行う．女性らしさをいかした攻撃も得意である．",
+        "translation": "Female demons who bring destruction. Merciless toward enemies, they also excel at attacks exploiting feminine allure."
+      }
+    },
+    "vile": {
+      "text": {
+        "reference": "陥しめられた神々の中でも，最も邪悪なもの．人間の恐怖や苦悩を求め，破壊を行う．",
+        "translation": "The most wicked among fallen gods. They seek human fear and suffering and spread destruction."
+      }
+    },
+    "raptor": {
+      "text": {
+        "reference": "悪い兆しを運んでくる，不吉な鳥たち．また，人の魂を奪うものたちでもある．",
+        "translation": "Ominous birds that bring ill fortune. Some also steal away human souls."
+      }
+    },
+    "wood": {
+      "text": {
+        "reference": "放射能の影響か，意志を持ち，人々に襲いかかる樹木．大地の怒りが体現した姿だとも考えられる．",
+        "translation": "Trees given will, perhaps through radiation, that attack people. They may embody the earth's anger."
+      }
+    },
+    "reaper": {
+      "text": {
+        "reference": "人間たちを死に誘う，冥界からの使者．その恐るべき呪力で，痛みを感じる間すら与えずに，命の灯火を消す．",
+        "translation": "Messengers from the underworld who lure humans to death. Their dreadful curses extinguish life before pain can be felt."
+      }
+    },
+    "wilder": {
+      "text": {
+        "reference": "飽く無き欲望の悪魔．破壊する純粋な力の権化である獣たち．その邪悪な牙で襲いかかってくる．",
+        "translation": "Demons of insatiable desire: beasts embodying pure destructive force, attacking with wicked fangs."
+      }
+    },
+    "jaki": {
+      "text": {
+        "reference": "邪神に仕える鬼．最低限にまで落ちた神々や精霊．復讐と残虐な欲望の塊である．",
+        "translation": "Oni serving evil gods; fallen gods and spirits reduced to their lowest state. They are masses of vengeance and cruel desire."
+      }
+    },
+    "haunt": {
+      "text": {
+        "reference": "悪魔の力によって，歩き回る死体たち．生前の記憶が残っているものが多いようである．",
+        "translation": "Corpses made to walk by demonic power. Many seem to retain memories from life."
+      }
+    },
+    "vermin": {
+      "text": {
+        "reference": "虫の姿をとる魔物たち．人間の怨霊が変化したものもいる．その生態は謎だらけである．",
+        "translation": "Demons in insect form. Some arose from human grudges; their ecology remains shrouded in mystery."
+      }
+    },
+    "tyrant": {
+      "text": {
+        "reference": "陥しめられた魔と堕天使を統べる古き神々．測り知れない潜在的な力を持っている．",
+        "translation": "Ancient gods ruling over fallen demons and fallen angels. They possess immeasurable latent power."
+      }
+    },
+    "drake": {
+      "text": {
+        "reference": "知性は無く，破壊と貪欲な食欲の衝動に駆られる暗黒のパワーの権化である龍．",
+        "translation": "Mindless dragons embodying dark power, driven by impulses of destruction and ravenous hunger."
+      }
+    },
+    "ghost": {
+      "text": {
+        "reference": "強烈な怨念により，人が死してもなお姿をとどめ，復讐をなそうとするおぞましい霊．",
+        "translation": "Horrific spirits whose intense grudges let them retain form after death and seek revenge."
+      }
+    },
+    "spirit": {
+      "text": {
+        "reference": "幽鬼ほどの実体化ができずにとどまっている怨霊たち．肉体が希薄であるため，攻撃がしづらい．",
+        "translation": "Vengeful spirits unable to manifest as fully as Ghosts. Their insubstantial bodies make them difficult to attack."
+      }
+    },
+    "foul": {
+      "text": {
+        "reference": "実体化できない悪魔たち．あるいは悪魔に精神を冒された人間たち．",
+        "translation": "Demons unable to manifest physically, or humans whose minds have been corrupted by demons."
+      }
+    },
+    "zoma": {
+      "text": {
+        "reference": "人造の悪魔．その主人たる者の命令を忠実に遂行する．",
+        "translation": "Artificial demons that faithfully carry out their master's commands."
+      }
+    },
+    "vengeful_spirit": {
+      "text": {
+        "reference": "存命時の怨念や現世への執着によってとどまる，死者の霊．必ずしも悪い人間だったわけでは無い．",
+        "translation": "Spirits of the dead held in this world by grudges from life or lingering attachments. They were not necessarily evil people."
+      }
+    },
+    "fiend": {
+      "text": {
+        "reference": "恐るべき魔力をもった超人．人間たることに飽き足らず，神あるいは悪魔の領域に踏み込もうとする．",
+        "translation": "Superhumans with terrifying magic. Dissatisfied with mere humanity, they seek to enter the realm of gods or demons."
+      }
+    }
+  }
+}

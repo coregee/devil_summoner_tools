@@ -334,6 +334,12 @@ class CompendiumInventoryTests(unittest.TestCase):
         cls.race_rows = json.loads(
             cls.batch.rendered[PurePosixPath("addressed/race_names.json")]
         )
+        cls.race_description_rows = json.loads(
+            cls.batch.rendered[PurePosixPath("fixed/race_descriptions.json")]
+        )
+        cls.fusion_help_rows = json.loads(
+            cls.batch.rendered[PurePosixPath("fixed/fusion_help.json")]
+        )
 
     def test_complete_profile_inventory(self) -> None:
         absent = {
@@ -363,9 +369,9 @@ class CompendiumInventoryTests(unittest.TestCase):
             all(spec.owned_sha256 is not None for spec in self.manifest.files.values())
         )
         self.assertEqual(self.manifest.files["a_dic"].size, 472_172)
-        self.assertEqual(self.batch.source_count, 4)
-        self.assertEqual(self.batch.record_count, 1_498)
-        self.assertEqual(len(self.batch.rendered), 4)
+        self.assertEqual(self.batch.source_count, 6)
+        self.assertEqual(self.batch.record_count, 1_605)
+        self.assertEqual(len(self.batch.rendered), 6)
 
         ids = [row["id"] for row in self.rows]
         self.assertEqual(len(ids), len(set(ids)))
@@ -433,6 +439,31 @@ class CompendiumInventoryTests(unittest.TestCase):
         self.assertEqual(
             self.race_rows[-1]["reference"],
             "{GLYPH:00b4}{GLYPH:00b4}{GLYPH:00b4}",
+        )
+
+        self.assertEqual(len(self.race_description_rows), 96)
+        self.assertEqual(
+            self.race_description_rows[0]["id"],
+            "compendium.race_descriptions.o06abd6.heading",
+        )
+        self.assertEqual(self.race_description_rows[0]["reference"], "魔神")
+        self.assertEqual(
+            self.race_description_rows[-1]["id"],
+            "compendium.race_descriptions.o06c5a4.description",
+        )
+        self.assertEqual(
+            sum(not row["reference"] for row in self.race_description_rows),
+            3,
+        )
+
+        self.assertEqual(len(self.fusion_help_rows), 11)
+        self.assertEqual(
+            self.fusion_help_rows[0]["id"],
+            "compendium.fusion_help.o06d828.text",
+        )
+        self.assertEqual(
+            self.fusion_help_rows[-1]["reference"],
+            "レベル50以上の造魔とブラックマリアの合体で出現",
         )
 
     def test_profile_font_mapping_is_complete_and_lossless(self) -> None:

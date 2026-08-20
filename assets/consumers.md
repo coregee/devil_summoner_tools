@@ -850,6 +850,13 @@ race labels use one 48px row. English uses the narrow FONT8 raster embedded by
 the compendium renderer, while the stock fixed-cell path remains available for
 untranslated evidence and unrelated Japanese UI.
 
+The same executable owns 48 race-description layouts: one 224px heading and
+four 224px prose rows each. Three layouts intentionally say `NO DATA` and leave
+their prose rows empty. Its eleven fusion-condition help records use two 320px
+rows. These fields, including Vengeful Spirit and Fiend, are authored and built
+by `compendium.text`; two raw supplemental race placeholders remain unresolved
+because their identities are not proved.
+
 #### Top Menus
 We have nested windows.
 ２身合体

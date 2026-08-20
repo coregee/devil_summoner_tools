@@ -300,10 +300,12 @@ or symbol choice to runtime code.
 
 The compendium manifest covers the 292 physical `DVL_*.DAT` profile files as
 one repeated fixed-record source. Each file contributes origin, summary, and
-detail fields from its exact text tail. Three focused `A_DIC.BIN` sources cover
+detail fields from its exact text tail. Five focused `A_DIC.BIN` sources cover
 the independently rendered 319-demon-name table at `0x5d9b0`, the
 255-ability-name table at `0x69be4`, and the 48 proved race-label records at
-`0x5eda0`. Together they produce 1,498 records in four generated catalogues.
+`0x5eda0`, plus 48 heading-and-description layouts at `0x6abd4` and 11
+two-row fusion-help records at `0x6d828`. Together they produce 1,605 records
+in six generated catalogues.
 Tail-only identity checks allow future profile-image changes in the DVL files
 while still failing on any changed text byte.
 
@@ -319,17 +321,13 @@ The stock compendium font has no spare glyph bank: code zero is the only blank
 cell, and all 2,047 other cells contain raster data. The engine therefore has a
 reversible compact-row codec rather than overwriting unclassified Japanese UI
 glyphs. Its deterministic 64-entry dictionary plus tagged five-bit stream has
-been exhaustively checked against the 1,494 translated physical records: every
-profile paragraph and fixed A_DIC name fits both its proved pixel geometry and
-its existing word storage. Four independently addressed race-supplement rows
-remain explicitly untranslated and are excluded from compact encoding until
-their semantics are resolved.
-
-Other `A_DIC.BIN` sections remain outside the manifest. Read-only discovery
-proves 48 race-description layouts and 11 fusion-help rows. The description
-layouts mix labels, prose, and an unexplained marker, while adjacent regions are
-lookup or executable data. Those sections will get focused inventories rather
-than being folded speculatively into the profile source.
+been exhaustively checked against all authored physical records: every profile
+paragraph, fixed A_DIC name, race-description row, and fusion-help row fits its
+proved pixel geometry and existing word storage. The description layouts keep
+their leading graphical marker outside authored text; three NO DATA layouts
+retain deliberately empty prose rows. Vengeful Spirit and Fiend are translated,
+leaving only two independently addressed raw race placeholders byte-identical
+to retail until their identities are proved.
 
 `corpus/<disc>/` is a generated physical catalogue. Its file grouping is not an
 authoring interface. Mature translations are imported only into the shared
@@ -587,9 +585,9 @@ instead of normalized away.
    and reusable source decoders.
 2. **Complete:** extract the complete game-disc text inventory with a new
    physical-ID contract and no content deduplication.
-3. **Complete:** add all 292 compendium profiles and the proved demon-name,
-   ability-name, and race-label `A_DIC.BIN` tables, while keeping other mixed
-   sections evidence-only.
+3. **Complete:** add all 292 compendium profiles and every proved `A_DIC.BIN`
+   text table: demon names, ability names, race labels, race descriptions, and
+   fusion help, while keeping unrelated lookup/executable regions evidence-only.
 4. **In progress:** establish the shared human authoring view and import only
    translations and useful notes from the mature corpus. Item, equipment,
    field-message, location, demon, race, affinity, magic, skill, all 15
@@ -651,8 +649,9 @@ instead of normalized away.
     field messages, and the compact-name party panel as three checked stages;
     share only the pure party-name compiler with COMP, and keep all executable
     caves and pointers target-owned.
-15. Continue with the already-surfaced Akuma Zensho/compendium text compiler,
-    then the remaining bounded HOSI and END_ROLL consumers.
+15. **Complete for `compendium.text`:** compile and install the full proved
+    Akuma Zensho text inventory. Continue with the remaining bounded HOSI and
+    END_ROLL consumers.
 
 Extraction verifies source files, decodes every record readably, preserves
 unknown glyph and control identity after declared zero normalization, and
