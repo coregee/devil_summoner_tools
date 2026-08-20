@@ -579,88 +579,53 @@ records, and compiled as ASCII with an explicit NUL into the exact 7-, 8-, 11-,
 17-, or 19-visible-cell native fields. Meaningful trailing spaces are preserved
 instead of normalized away.
 
-## Implementation plan
+## Current implementation
 
-1. **Complete:** implement strict configuration loading, lossless token syntax,
-   and reusable source decoders.
-2. **Complete:** extract the complete game-disc text inventory with a new
-   physical-ID contract and no content deduplication.
-3. **Complete:** add all 292 compendium profiles and every proved `A_DIC.BIN`
-   text table: demon names, ability names, race labels, race descriptions, and
-   fusion help, while keeping unrelated lookup/executable regions evidence-only.
-4. **In progress:** establish the shared human authoring view and import only
-   translations and useful notes from the mature corpus. Item, equipment,
-   field-message, location, demon, race, affinity, magic, skill, all 15
-   negotiation-style, facility, SAVE/LOAD, character, profile-entry, status,
-   battle-consumer, and Options-menu slices are complete. The battle slice binds
-   every visible BTL_MES and BTL_SRF row while retaining their 29 and 160 blank
-   rows as physical evidence, and its 16 BOSSTALK refusal messages now live in a
-   separate reviewed boss-dialogue asset. SHOPSMP's 763 physical pages bind to
-   595 shared authored lines without copying exact PSP text; its seven PSP-only
-   tutorial lines remain explicit additions. The six shared character rows
-   likewise need no PSP copies. All 22 physical profile-entry records retain
-   exact semantic bindings, including the three deliberate same-source forks,
-   the address suffixes, and the dormant Katakana tab; byte-identical tab-row
-   copies fan out from one authored field rather than becoming duplicate text.
-   The opening event workflow adds 18 mature Saturn pages to the same shared
-   profile-entry asset without creating a platform-specific copy. All four
-   general-event banks are also complete: 1,103 text-bearing message
-   groups and 2,028 physical pages bind to 1,890 human-facing fields arranged by
-   location, scene, or consumer rather than by event-bank coordinates. Their 138
-   repeat and cross-bank uses are explicit binding fan-out instead of duplicated
-   editable translations. The two structurally empty `EVFILE_1` messages remain
-   binary framing rather than editor rows. Retail placement-error messages remain
-   editable assets because visible debug text is not a runtime exemption. The
-   portrait-scene audit likewise reuses every EVENT page and shared fixed/runtime
-   term, while binding its three direct on-screen diagnostics without inventing
-   a second MSGR dialogue catalogue.
-5. **Complete for `event.dialogue`:** prove output glyph coverage, capacity,
-   and the stable packed dictionary for all four general EVENT banks.
-6. **Complete for `event.dialogue`:** implement atomic, round-tripped bank
-   repacking with exact mature-output parity.
-7. **Complete for `event.dialogue`:** port the surface-bound VWF renderer and
-   packed fetch hook, then integrate both text and engine outputs into the
-   normal disc build.
-8. **Complete for `battle.negotiation`:** rebuild all sixteen EVE banks, fixed
-   prompts and conditions, dynamic names/items, and port the surface renderer
-   and packed fetch hook into the normal disc build.
-9. **Complete for `battle.ui`:** rebuild the console, Demon Chat, help, ritual,
-   item, and ability text banks; port the shared battle renderers, Analyze and
-   result fields, dynamic names, and both packed readers into the normal build.
-10. **Complete for `comp.menu` core:** rebuild the COMP help and direct demon
-    name tables, then compose the party panels, item/magic grids, full-name
-    pointer reader, and ritual decoder into the normal build.
-11. **Complete for `equipment.ui`:** compose the shared COMP and shop equipment
-    labels, item-name readers, stat headings, inventory label, and fixed
-    character-name pool from editable assets on top of the checked EVENT and
-    NORMCOM stages. Its SH-2 implementation is readable source under
-    `engine/asm/`, with surface code isolated under `engine/surfaces/`.
-12. **Complete for `status.ui`:** compose the human and demon detailed-status
-    renderers, labels, names, race/affinity text, command fields, axes, and full
-    templates from editable assets on top of the checked equipment NORMCOM
-    intermediate. All executable changes are readable assembly, and the final
-    binary matches the mature Saturn output exactly.
-13. **Complete for `options.ui`:** derive the expanded labels, popup compounds,
-    controller-action atlas, and footer packing from all 38 live editable
-    fields. The zero-length `CONFIG` table row is retained as dormant data; the
-    visible serif heading is graphical. The readable engine stage matches the
-    mature `CFG_SET.BIN` output exactly.
-14. **Complete for the MAZE consumer family:** compose dungeon locations,
-    field messages, and the compact-name party panel as three checked stages;
-    share only the pure party-name compiler with COMP, and keep all executable
-    caves and pointers target-owned.
-15. **Complete for `compendium.text`:** compile and install the full proved
-    Akuma Zensho text inventory. Continue with the remaining bounded HOSI and
-    END_ROLL consumers.
+Extraction verifies immutable source-disc files, decodes every record readably,
+preserves unknown glyph and control identity after declared zero normalization,
+and retains authored translations by stable physical ID. The current catalogues
+contain 16,141 records from 62 game source groups and 1,605 records from six
+compendium source groups.
 
-Extraction verifies source files, decodes every record readably, preserves
-unknown glyph and control identity after declared zero normalization, and
-retains user-owned text by stable ID. EVENT repacking independently reads the
-verified source disc, resolves the authored bindings, enforces capacity, and
-reparses every generated bank.
+The file-backed repacker has five independently checkable selections:
 
-The new package intentionally does not inherit the mature format-class tree,
-global semantic registry, per-page hash manifests, automatic Japanese-text
-deduplication, migration wrappers, capability graph, browser editor, or mature
-test hierarchy. Focused local tests cover extraction, authored assets and
-bindings, and surface contracts.
+| Selection | Generated text outputs |
+| --- | --- |
+| `event` | The four general EVENT banks |
+| `shopsmp` | The complete shop, facility, and Fusion EVENT bank |
+| `negotiation` | All sixteen battle-negotiation banks |
+| `battle` | Battle help, console, Demon Chat, ritual, item-name, and ability-name files |
+| `comp` | COMP help and direct demon-name tables |
+
+`all` builds those five selections together. Each repacker reads the verified
+source disc, resolves explicit authored bindings, enforces physical and display
+capacity, and reparses every generated record before publication.
+
+Executable-backed consumers are compiled by `saturn/engine`. This includes the
+Profile, MAP2D, Horoscope, Credits, diagnostic overlays, portrait scenes,
+Options, Level Up, detailed status, facilities, Save/Load, MAZE, and battle
+runtime text. The complete proved Akuma Zensho inventory is likewise built by
+`compendium.text`: all 292 profile tails plus the A_DIC demon, ability,
+race-label, race-description, and fusion-help tables. These engine consumers
+still use the same assets, bindings, corpora, encodings, and surface contracts;
+they are not second translation systems.
+
+## Remaining boundaries
+
+- Primary battle-selector words are preserved graphic/font-owned cells because
+  no text record or code-built literal was found. Their semantic assets are
+  ready for a future raster migration.
+- The MAP2D cloud record and two independently addressed compendium race rows
+  remain unresolved evidence rather than guessed semantic bindings.
+- Visible words baked into title, menu, selector, and environment artwork still
+  need complete semantic-to-visual ownership where no generated raster exists.
+- Explicit `null` surface limits mark measurements still to be proved; they do
+  not imply that the corresponding binary consumer is unported.
+- Shared PSP reference data is present where proved, but PSP bindings, codecs,
+  runtime patches, and a build workflow do not exist yet. Saturn FMV subtitles
+  are likewise outside the current package.
+
+The package intentionally does not reproduce the old format-class tree, global
+semantic registry, content-based Japanese deduplication, or migration wrappers.
+Its tests cover extraction, authored assets, bindings, surface contracts,
+packing round trips, and cross-package freshness manifests.

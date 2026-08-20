@@ -14,6 +14,26 @@ The package is split by responsibility:
 - `asm/` and `config/` are readable build inputs.
 - `build.py` only composes surfaces, publishes outputs, and provides the CLI.
 
+## Current surface inventory
+
+The package exposes 23 checked surface commands. Some are terminal standalone
+outputs; others are explicit intermediate stages in a composed binary:
+
+| Family | Surface commands |
+| --- | --- |
+| Akuma Zensho | `compendium.text` |
+| Profile and standalone overlays | `profile_entry.ui`, `map_2d.ui`, `horoscope.ui`, `credits.ui`, `diagnostics.ui`, `portrait_scene.ui` |
+| EVENT and COMP composition | `event.dialogue`, `fusion.menu`, `event.name_inserts`, `comp.menu`, `equipment.ui`, `facilities.status_ui` |
+| Battle | `battle.negotiation`, `battle.ui` |
+| Standalone game interfaces | `status.ui`, `options.ui`, `level_up.ui`, `map_3d.analyze` |
+| MAZE family | `dungeon.locations`, `field.messages`, `maze.party_panel` |
+| Save system | `save_load.ui` |
+
+The default Saturn profile invokes these in dependency order, installs each
+terminal output once, applies visual replacements afterward, and then rebuilds
+both discs. Intermediate outputs and their manifests remain available for
+focused checks but are never installed as competing owners of a terminal file.
+
 ## Assembly ownership
 
 Executable changes are authored as readable SH-2 sources under `asm/`. The
@@ -748,3 +768,22 @@ python saturn/engine/build.py save_load.ui --check
 python saturn/build.py default
 python saturn/build.py default --check
 ```
+
+## Current boundaries
+
+The ported executable surfaces above represent the currently proved Saturn
+runtime patch inventory. Remaining work is not hidden behind a generic legacy
+patch stage:
+
+- primary battle-selector lettering is preserved graphic/font content rather
+  than a byte- or word-backed text record;
+- the MAP2D cloud row and two raw compendium race placeholders remain stock
+  because no semantic consumer or identity has been proved;
+- visible words in images remain owned by the visual/asset boundary until a
+  generated raster path exists; and
+- PSP and FMV require separate future platform packages rather than additional
+  Saturn surface recipes.
+
+Unknown pixel limits in `text/config/surfaces.json` are validation and layout
+research debt, not missing binary owners. The normal build and every individual
+surface `--check` remain the authoritative freshness checks.

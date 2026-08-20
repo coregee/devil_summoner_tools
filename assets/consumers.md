@@ -1,10 +1,13 @@
 # Devil Summoner: Text Consumer Specs
 
-This document enumerates the observed behaviour of all text consumers in the game, and is intended as a reference for aligning the AI's existing code with what a user will intuitively understand from playing the game.
+This document enumerates the observed behaviour of player-facing text consumers
+and records the display contracts that the asset, text, font, engine, and visual
+packages share. It is the human-facing companion to the machine-readable Saturn
+surface catalogue.
 
-The purpose of this document is to help in auditing the existing text surfaces for accuracy, aligning where mis-implementations may have occurred, relabelling where mis-identifications may have occurred, and hooking where surfaces may have been otherwise missed.
-
-Hopefully, by referencing this, we'll be able to rewrite the Saturn codebase to be much more intuitive and maintainable going forward.
+Implementation notes describe the current port where a consumer is built, and
+mark unknown geometry, image ownership, or unresolved physical evidence
+explicitly. A missing measurement is not the same as a missing runtime port.
 
 These text surfaces are externally-viewed only. The game may duplicate surfaces that appear similar/identical from the user's point of view for architectural/efficiency reasons.
 
@@ -340,11 +343,11 @@ The blocks are:
 
 これで　いいですか？　　YES　NO
 
-The mature English confirmation builder has one known parity defect: it omits
-the terminating `0x8000` word after its 19-cell template, allowing the stock
-drawer to continue into the following `漢字` data. The rewrite should terminate
-that span explicitly; this is a documented output correction, not wording to
-preserve in an asset.
+The mature English confirmation builder had one parity defect: it omitted the
+terminating `0x8000` word after its 19-cell template, allowing the stock drawer
+to continue into the following `漢字` data. The current `profile_entry.ui`
+builder terminates that span explicitly. This is a documented output
+correction, not wording preserved in an asset.
 
 ### 2D Map
 

@@ -15,6 +15,19 @@ The scripts resolve project data from their own location instead of the current
 working directory. The examples below assume the project root. With no disc
 argument, each command processes both `game` and `compendium`.
 
+## Current integration
+
+`saturn/rom` owns media validation, extraction, ISO injection, sector repair,
+and structural verification. It does not decide which translations to build.
+The normal entry point is `python -B saturn/build.py`, whose configured default
+profile restores both mirrors, installs the current font/text/engine/visual
+outputs in dependency order, and then asks this package to rebuild both discs.
+
+Use the commands below for focused media work. Generated files under
+`rom/extracted/` are mutable integration mirrors, not authored sources; the
+default build restores them from verified original media before applying any
+translation package.
+
 ## Extract
 
 ```powershell

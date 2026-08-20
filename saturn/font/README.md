@@ -15,6 +15,19 @@ directories are divided by disc:
 Open-source typefaces and their licenses live outside the platform package at
 `../../assets/font/<font>/`.
 
+## Current definitions
+
+The game disc has eight definitions: `FNT12X12`, `FNT8X12`, `FONT12`, `FONT16`,
+`FONT6`, `FONT8`, `ICON`, and `KANJI`. The generated KANJI output is installed
+at both of its verified physical targets. The compendium has one independent,
+identity-preserving `FONT16` definition; its glyph layout is not interchangeable
+with the game font.
+
+All definitions produce deterministic generated binaries and metrics. The
+default build installs them before text or engine compilation so downstream
+manifests can treat the font binaries and measured advances as checked runtime
+ABI inputs.
+
 The scripts require Pillow and read original fonts from
 `../rom/extracted/<disc>/`. Run them from the project root:
 

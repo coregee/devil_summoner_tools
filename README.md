@@ -12,15 +12,37 @@ The project is intended to provide a strong, approachable foundation for
 translating the game into other languages or modifying and refining the
 included English translation.
 
-## Project Status
+## Project status
 
-| Target | Status | Output |
+| Target | Build status | Runtime status |
 | --- | --- | --- |
-| Sega Saturn Rev. B Game | Functional | Builds |
-| Sega Saturn *Akuma Zensho* (Compendium Disc) | Untested | Builds |
-| PSP | Planned | None yet |
+| Sega Saturn Rev. B game | Complete configured build | Functional, but not comprehensively reviewed or playtested |
+| Sega Saturn *Akuma Zensho* | Complete configured build for every proved text and visual span | Structurally verified; runtime playtesting remains |
+| PSP | No build implementation | Planned |
 
-The base game build has been tested, though not comprehensively.
+"Complete configured build" means the repository can regenerate and verify all
+translation work currently represented here. It does not mean every English
+line or image has received final editorial review, nor that every path through
+either disc has been tested in game.
+
+## Package status
+
+| Package | Current responsibility |
+| --- | --- |
+| `assets/text` | Canonical shared text, typed templates, semantic identities, and consumer specifications |
+| `saturn/text` | Lossless catalogues for 16,141 game records and 1,605 compendium records, plus the file-backed EVENT, battle, facility, and COMP repackers |
+| `saturn/font` | Eight game-font definitions, one identity-preserving compendium definition, generated atlases, and runtime metrics |
+| `saturn/engine` | Twenty-three checked surface builds covering the translated executable consumers and the complete proved compendium text inventory |
+| `saturn/visual` | 2,365 game image views and 295 classified compendium image structures, with sparse tracked replacements |
+| `saturn/rom` | Verified extraction and transactional rebuilding of both Saturn discs |
+| `psp` | Placeholder package only; shared assets exist, but platform bindings and a build workflow do not |
+| `saturn/fmv` | Placeholder package only; the subtitle screenshot is reference material, not a current build output |
+
+The remaining work is chiefly translation review and playtesting, semantic
+ownership for visible wording in artwork, a handful of deliberately unresolved
+physical records, unmeasured layout limits, and the future PSP and FMV
+workflows. The package READMEs distinguish these boundaries from implemented
+features.
 
 ## AI Disclosure
 
@@ -39,6 +61,16 @@ And if you believe that a technology like AI is fundamentally theft, no matter h
 - Legally obtained copies of both supported Saturn discs:
   - *Shin Megami Tensei: Devil Summoner* (Japan, Rev. B)
   - *Shin Megami Tensei: Devil Summoner - Akuma Zensho* (Japan)
+
+Install Pillow into the Python environment used for the build if it is not
+already available:
+
+```powershell
+python -m pip install Pillow
+```
+
+Pillow is used by the font and visual packages and by the integration checks
+that compose engine-owned SAVE/LOAD bytes with their final image overlays.
 
 ### 1. Adding the original game images
 
@@ -174,6 +206,8 @@ configuration itself can be inspected without them using `--plan`,
 - [Saturn engine patches](saturn/engine/README.md)
 - [Saturn font generation](saturn/font/README.md)
 - [Saturn visual extraction and repacking](saturn/visual/README.md)
+- [Saturn FMV package status](saturn/fmv/README.md)
+- [PSP package status](psp/README.md)
 
 Generated directories are deliberately excluded from source control. In broad
 terms, `assets/` owns shared authored material, while `saturn/` owns the

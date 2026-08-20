@@ -249,18 +249,16 @@ Text in artwork follows the same ownership rule. Its platform binding may be a
 visual replacement rather than a text encoder, but the editable wording still
 lives here.
 
-### Known migration debt
+### Current ownership boundaries
 
-The mature implementations still contain visible wording that must move here;
-none of it is a runtime exemption. The current audit tracks:
+Visible wording is never exempt from asset ownership, but some consumers are
+still deliberately classified outside the ordinary text pipeline. The current
+audit tracks:
 
 - the primary battle selectors `FIGHT`, `TALK`, `ESCAPE`, `AUTO`, `PRESET`, and
   `REPEAT` are preserved graphic/font-owned lettering: exhaustive COMBAT
   storage and call-site scans found no binary text records to bind. Their
   semantic fields remain here for the eventual visual/font path;
-- wiring character full/short name forms from `characters.json` into any
-  remaining unproved renderers; the known Profile, EVENT, MSGR, status,
-  Level-Up, COMP, and MAZE consumers are migrated;
 - wiring the PSP save renderer to the titles, difficulty labels, prompts,
   fallback label, and complete detail template now stored in `save_load.json`;
 - extending the Saturn slot-name compiler if translators need to reverse the
@@ -286,11 +284,11 @@ their meaningful number-separator and alignment spaces. Their bindings retain
 the exact native byte capacities and the diagnostics build requires ASCII plus
 a terminating NUL.
 
-## Migration
+## Current coverage
 
-The physical Saturn corpus remains the extraction oracle while this authored
-layer is introduced. The first vertical slice joins equipment and items to
-their names, descriptions, console forms, and complete field-message templates.
+The physical Saturn corpus is the extraction oracle and this directory is the
+single human-authoring layer. Equipment and items are joined to their names,
+descriptions, console forms, and complete field-message templates.
 The demon catalogue now joins game and Akuma Zensho names with all Compendium
 profile fields. The bonus-disc catalogue also owns all 44 distinct race
 descriptions, three intentional NO DATA layouts, eleven fusion-help rules, and
@@ -474,6 +472,6 @@ overflow records are generated storage choices, not alternative name fields.
 All 24 COMP help lines likewise remain in `ui/command_help.json`; neither the
 runtime nor `NORMHELP.DAT` is a second translation location.
 
-After bindings cover the authored corpus, translations in the generated
-physical catalogue will be removed or generated from these assets. There must
-never be two independently editable translation locations.
+Generated physical catalogues are evidence-only; their translated values are
+materialized from these assets and bindings. There must never be two
+independently editable translation locations.
