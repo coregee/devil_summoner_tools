@@ -344,7 +344,7 @@ FONT text. The seven
 genuinely PSP-only Gouma-den tutorial lines are additions; inherited PSP text
 continues to reuse the Saturn-authored fields.
 
-The terminal EVENT facility consumers retain distinct measured contracts:
+The EVENT facility consumers retain distinct measured contracts:
 drink and patron names use 64-pixel FONT8 rows, shared character/demon facility
 names use 104 pixels, and the healer's separately drawn all-members row uses
 144 pixels. The status character name shares the detailed demon name's
@@ -441,6 +441,14 @@ They are complete authored sentences rather than source-sized fragments; the
 Saturn builder derives word-boundary line controls and relocated pointers for
 the stock three-row reveal window. No line break or pool address is a second
 translation source.
+
+The FMV slice keeps the START2 news report in the timed-text specification at
+`fmv/subtitles.json`. Its nine entries retain the Japanese reference, English
+line choices, and presentation-relative centisecond ranges without carrying an
+ASS/libass stylesheet or a second platform subtitle script. Saturn derives
+12 fps frame ranges, FONT16 codes, measured centering, and runtime storage from
+that one specification; the source CPK is validation evidence rather than an
+editable or generated text container.
 
 The Credits slice owns the 40 named people in `credits/names.json`. Twenty-eight
 main-roll uses and twelve staff-test uses remain distinct physical records but

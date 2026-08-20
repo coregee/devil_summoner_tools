@@ -32,16 +32,15 @@ either disc has been tested in game.
 | `assets/text` | Canonical shared text, typed templates, semantic identities, and consumer specifications |
 | `saturn/text` | Lossless catalogues for 16,141 game records and 1,605 compendium records, plus the file-backed EVENT, battle, facility, and COMP repackers |
 | `saturn/font` | Eight game-font definitions, one identity-preserving compendium definition, generated atlases, and runtime metrics |
-| `saturn/engine` | Twenty-three checked surface builds covering the translated executable consumers and the complete proved compendium text inventory |
+| `saturn/engine` | Twenty-four checked surface builds covering the translated executable consumers, lossless FMV subtitles, and the complete proved compendium text inventory |
 | `saturn/visual` | 2,365 game image views and 295 classified compendium image structures, with sparse tracked replacements |
 | `saturn/rom` | Verified extraction and transactional rebuilding of both Saturn discs |
 | `psp` | Placeholder package only; shared assets exist, but platform bindings and a build workflow do not |
-| `saturn/fmv` | Placeholder package only; the subtitle screenshot is reference material, not a current build output |
 
 The remaining work is chiefly translation review and playtesting, semantic
 ownership for visible wording in artwork, a handful of deliberately unresolved
-physical records, unmeasured layout limits, and the future PSP and FMV
-workflows. The package READMEs distinguish these boundaries from implemented
+physical records, unmeasured layout limits, and the future PSP workflow. The
+package READMEs distinguish these boundaries from implemented
 features.
 
 ## AI Disclosure
@@ -206,7 +205,6 @@ configuration itself can be inspected without them using `--plan`,
 - [Saturn engine patches](saturn/engine/README.md)
 - [Saturn font generation](saturn/font/README.md)
 - [Saturn visual extraction and repacking](saturn/visual/README.md)
-- [Saturn FMV package status](saturn/fmv/README.md)
 - [PSP package status](psp/README.md)
 
 Generated directories are deliberately excluded from source control. In broad
@@ -223,9 +221,8 @@ complete scope.
 ## Preview/Example Screenshots
 
 These screenshots come from the mature Saturn reference build that this
-tooling is intended to reproduce. The FMV subtitle example is included for
-reference; its authoring and build workflow has not yet been ported to this
-repository.
+tooling is intended to reproduce. The FMV subtitle presentation is now built
+losslessly by the Saturn engine surface rather than burned into the movie.
 
 | **Title** | **Fusion Table** |
 | :---: | :---: |
@@ -238,5 +235,5 @@ repository.
 | ![Translated negotiation choice](saturn/docs/preview_screens/negotiate.png) | ![Translated shop](saturn/docs/preview_screens/shop.png) |
 | **Settings** | **Status** |
 | ![Translated settings](saturn/docs/preview_screens/settings.png) | ![Translated status screen](saturn/docs/preview_screens/status.png) |
-| **FMV Subtitles (reference only)** | **Name Input** |
+| **FMV Subtitles** | **Name Input** |
 | ![Translated FMV subtitles](saturn/docs/preview_screens/fmv.png) | ![Translated name input](saturn/docs/preview_screens/name.png) |

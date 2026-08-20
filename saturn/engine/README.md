@@ -16,14 +16,14 @@ The package is split by responsibility:
 
 ## Current surface inventory
 
-The package exposes 23 checked surface commands. Some are terminal standalone
+The package exposes 24 checked surface commands. Some are terminal standalone
 outputs; others are explicit intermediate stages in a composed binary:
 
 | Family | Surface commands |
 | --- | --- |
 | Akuma Zensho | `compendium.text` |
 | Profile and standalone overlays | `profile_entry.ui`, `map_2d.ui`, `horoscope.ui`, `credits.ui`, `diagnostics.ui`, `portrait_scene.ui` |
-| EVENT and COMP composition | `event.dialogue`, `fusion.menu`, `event.name_inserts`, `comp.menu`, `equipment.ui`, `facilities.status_ui` |
+| EVENT and COMP composition | `event.dialogue`, `fusion.menu`, `event.name_inserts`, `comp.menu`, `equipment.ui`, `facilities.status_ui`, `fmv.subtitles` |
 | Battle | `battle.negotiation`, `battle.ui` |
 | Standalone game interfaces | `status.ui`, `options.ui`, `level_up.ui`, `map_3d.analyze` |
 | MAZE family | `dungeon.locations`, `field.messages`, `maze.party_panel` |
@@ -184,6 +184,34 @@ python saturn/engine/build.py horoscope.ui
 python saturn/engine/build.py horoscope.ui --check
 ```
 
+## Lossless FMV subtitles
+
+`fmv.subtitles` is the terminal EVENT composition stage. It reads the nine
+START2 news-report cues from `assets/text/fmv/subtitles.json`, converts their
+presentation-relative centiseconds to half-open ranges on the checked 12 fps,
+401-frame timeline, and centers each authored line with the generated FONT16
+Ark 12px advances.
+
+The surface does not rebuild or install a CPK. It verifies the retail
+`BGDATA/START2.CPK` hash as an immutable source contract, then patches only
+`EVENT.BIN`. The readable SH-2 runtime recognizes START2 through both blocking
+and queued movie initialization paths and wraps the stock frame presenter. Once
+the stock decoder has copied a fresh 32-bit RGB frame to NBG0 at `0x25e08000`,
+the wrapper writes a one-pixel dark shadow and white FONT16 face into that
+frame. Timing therefore advances only on presented movie frames; the following
+frame naturally removes old text during cue gaps and movie cleanup.
+
+The cue/data compiler uses 1,218 of 1,624 checked data bytes, while the runtime
+uses 464 of 512 code bytes. The original 9,134,032-byte CPK remains
+byte-for-byte untouched.
+
+Run:
+
+```powershell
+python saturn/engine/build.py fmv.subtitles
+python saturn/engine/build.py fmv.subtitles --check
+```
+
 ## End credits
 
 `credits.ui` rebuilds every visible staff name in `END_ROLL.BIN`. The 28 main
@@ -325,8 +353,9 @@ On the checked Fusion base its hash is
 `587683072bb86e91085d752c0ea7399182667a417c2618754888e687e93679f6`.
 This intermediate is deliberately not installed: Equipment consumes it and
 publishes another checked intermediate, which `facilities.status_ui` turns into
-the terminal EVENT image. Fusion, name adapters, Equipment, and facilities each
-retain an independent `--check` boundary.
+the facility-complete EVENT base consumed by `fmv.subtitles`. Fusion, name
+adapters, Equipment, facilities, and FMV each retain an independent `--check`
+boundary.
 
 Run:
 
@@ -483,8 +512,9 @@ python saturn/build.py default
 
 ## Facilities and Fusion status
 
-`facilities.status_ui` composes the remaining EVENT consumers onto the checked
-equipment intermediate and publishes terminal `generated/game/EVENT.BIN`.
+`facilities.status_ui` composes the remaining facility/status consumers onto
+the checked equipment intermediate and publishes `generated/game/EVENT.BIN` as
+the base for the terminal FMV subtitle stage.
 Its 72 typed recipes cover the Fusion detailed-status panel (20), shared EVENT
 term insertions (3), the shared facility command cells (1), Bar UI (4), Healer
 UI (7), and 37 fixed race/affinity compatibility mirrors. Fusion's six
@@ -501,8 +531,8 @@ English fragment lives in the engine layer.
 
 The runtime arena is `0x06023294..0x06026500`: the default payload uses 11,838
 of 12,908 bytes and may relocate within that proved capacity when translations
-change. On the current composed equipment base, terminal EVENT has SHA-256
-`04926f92d670726412b91f7925cd3086c1e64d09a8344956a544cdc686ba892a`.
+change. On the current composed equipment base, the facility-complete EVENT
+has SHA-256 `04926f92d670726412b91f7925cd3086c1e64d09a8344956a544cdc686ba892a`.
 The shared command recipe intentionally corrects the legacy port's `REVIEW`
 typo to the authored Healer command `REVIVE`; `STATUS` remains shared with the
 Bar. Both words use the preserved stock-Latin cells selected by their declared
@@ -781,8 +811,8 @@ patch stage:
   because no semantic consumer or identity has been proved;
 - visible words in images remain owned by the visual/asset boundary until a
   generated raster path exists; and
-- PSP and FMV require separate future platform packages rather than additional
-  Saturn surface recipes.
+- PSP requires its own future platform package rather than additional Saturn
+  surface recipes.
 
 Unknown pixel limits in `text/config/surfaces.json` are validation and layout
 research debt, not missing binary owners. The normal build and every individual

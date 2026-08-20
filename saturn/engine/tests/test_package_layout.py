@@ -19,6 +19,7 @@ PURE_DATA_GENERATORS = {
     "diagnostics_ascii",
     "dungeon_locations",
     "field_messages",
+    "fmv_subtitle_data",
     "facilities_status_data",
     "font16_scratch",
     "horoscope_data",

@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "surface": "fmv.subtitles",
+  "targets": {
+    "EVENT.BIN": {
+      "load_address": "0x06020000",
+      "size": 354072,
+      "stock_sha256": "73a24f782f6618081028511e9fcc4c845a79a577e1907a6a6affc9e9f1e2ce84"
+    }
+  },
+  "inputs": {
+    "font16_sha256": "89272c66b96536658c271e061ff8c15198a1bbc4c01c4e17f23575897dca0acc",
+    "font16_metrics_sha256": "3ce6e6c916da3f4bc3c7a702c9ae07f84519185a45e2f733c13726cab6532fa3"
+  },
+  "groups": [
+    {
+      "capability": "fmv.runtime_subtitles",
+      "target": "EVENT.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "subtitle_data_primary",
+          "address": "0x06020000",
+          "expected_zero_bytes": 1024,
+          "generated": "fmv_subtitle_data"
+        },
+        {
+          "name": "subtitle_runtime",
+          "address": "0x060260a8",
+          "expected_zero_bytes": 512,
+          "assembly": ["fmv_subtitles/runtime.s"]
+        },
+        {
+          "name": "subtitle_data_secondary",
+          "address": "0x060262a8",
+          "expected_zero_bytes": 600,
+          "generated": "fmv_subtitle_data"
+        },
+        {
+          "name": "blocking_player_pointer",
+          "address": "0x0602ee70",
+          "expected": "060393d0",
+          "linked_pointer": "fmv_blocking_player_wrapper"
+        },
+        {
+          "name": "async_init_pointer",
+          "address": "0x060390ac",
+          "expected": "060390e0",
+          "linked_pointer": "fmv_async_init_wrapper"
+        },
+        {
+          "name": "presenter_pointer",
+          "address": "0x0603907c",
+          "expected": "06039294",
+          "linked_pointer": "fmv_present_wrapper"
+        }
+      ]
+    }
+  ]
+}

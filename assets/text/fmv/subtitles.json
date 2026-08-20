@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "kind": "timed_text_surface",
+  "surface": "fmv.subtitles",
+  "timeline": "presentation_relative_centiseconds",
+  "movies": {
+    "start2_news": {
+      "role": "opening_story_news_report",
+      "canvas": {"width": 320, "height": 224},
+      "cues": [
+        {
+          "start": 90,
+          "end": 260,
+          "reference": ["それでは次のニュースです。"],
+          "translation": ["And now for our next story."]
+        },
+        {
+          "start": 305,
+          "end": 525,
+          "reference": ["昨夜未明、市内各所で目撃された"],
+          "translation": [
+            "We still cannot confirm anything",
+            "regarding the mysterious creatures"
+          ]
+        },
+        {
+          "start": 525,
+          "end": 750,
+          "reference": ["謎の生物の手がかりは依然つかめておらず、"],
+          "translation": [
+            "sighted throughout the city",
+            "in the early hours of last night."
+          ]
+        },
+        {
+          "start": 750,
+          "end": 1095,
+          "reference": ["地域住民の不安が高まっています。"],
+          "translation": [
+            "However, anxiety is growing",
+            "among local residents."
+          ]
+        },
+        {
+          "start": 1165,
+          "end": 1680,
+          "reference": [
+            "目撃者の証言では、この生物について、西洋の悪魔のような姿であるという声が多く、"
+          ],
+          "translation": [
+            "Witnesses claim the creatures resemble",
+            "demons from Western mythology."
+          ]
+        },
+        {
+          "start": 1680,
+          "end": 2030,
+          "reference": ["現場周辺での調査が続いています。"],
+          "translation": [
+            "Investigations into these sightings",
+            "are ongoing."
+          ]
+        },
+        {
+          "start": 2075,
+          "end": 2415,
+          "reference": ["そうした中、捜査当局では同夜起こった"],
+          "translation": [
+            "The police haven't ruled out a connection",
+            "between these sightings and"
+          ]
+        },
+        {
+          "start": 2415,
+          "end": 2760,
+          "reference": ["連続殺人事件との関連もあるのではないかと見て、"],
+          "translation": [
+            "the series of murders that occurred",
+            "the same night."
+          ]
+        },
+        {
+          "start": 2760,
+          "end": 3325,
+          "reference": ["引き続き付近の住民に警戒を呼びかけています。"],
+          "translation": [
+            "Residents in the surrounding areas are urged",
+            "to remain vigilant."
+          ]
+        }
+      ]
+    }
+  }
+}

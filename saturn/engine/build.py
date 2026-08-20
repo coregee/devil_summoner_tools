@@ -45,6 +45,11 @@ from engine.surfaces.facilities_status_ui import (  # noqa: E402
     TARGET as FACILITIES_STATUS_TARGET,
     build_facilities_status_ui,
 )
+from engine.surfaces.fmv_subtitles import (  # noqa: E402
+    CONFIG_PATH as FMV_SUBTITLES_CONFIG_PATH,
+    TARGET as FMV_SUBTITLES_TARGET,
+    build_fmv_subtitles,
+)
 from engine.surfaces.dungeon_locations import (  # noqa: E402
     AUTOMAP_TARGET as DUNGEON_AUTOMAP_TARGET,
     CONFIG_PATH as DUNGEON_LOCATIONS_CONFIG_PATH,
@@ -181,6 +186,8 @@ DIAGNOSTICS_OUTPUT_PATHS = {
     target: GENERATED_ROOT / target for target in DIAGNOSTICS_TARGETS
 }
 DIAGNOSTICS_BUILD_MANIFEST_PATH = GENERATED_ROOT / "diagnostics_ui_build.json"
+FMV_SUBTITLES_OUTPUT_PATH = GENERATED_ROOT / FMV_SUBTITLES_TARGET
+FMV_SUBTITLES_BUILD_MANIFEST_PATH = GENERATED_ROOT / "fmv_subtitles_build.json"
 COMPENDIUM_INSTALL_ROOT = SATURN_ROOT / "rom" / "extracted" / "compendium"
 PROFILE_ENTRY_INSTALL_PATH = (
     SATURN_ROOT / "rom" / "extracted" / "game" / PROFILE_ENTRY_TARGET
@@ -359,7 +366,7 @@ def build_equipment_surface() -> dict[Path, bytes]:
 
 
 def build_facilities_status_surface() -> dict[Path, bytes]:
-    """Compose the terminal EVENT facility and detailed-status consumers."""
+    """Compose the EVENT facility and detailed-status consumers."""
     equipment_outputs = build_equipment_surface()
     base = equipment_outputs[EQUIPMENT_EVENT_OUTPUT_PATH]
     result = build_facilities_status_ui(base)
@@ -412,6 +419,64 @@ def build_facilities_status_surface() -> dict[Path, bytes]:
         **equipment_outputs,
         FACILITIES_STATUS_OUTPUT_PATH: result.data,
         FACILITIES_STATUS_BUILD_MANIFEST_PATH: (
+            json.dumps(manifest, indent=2) + "\n"
+        ).encode("utf-8"),
+    }
+
+
+def build_fmv_subtitle_surface() -> dict[Path, bytes]:
+    """Compose the lossless START2 overlay as the terminal EVENT image."""
+    facilities_outputs = build_facilities_status_surface()
+    base = facilities_outputs[FACILITIES_STATUS_OUTPUT_PATH]
+    result = build_fmv_subtitles(base)
+    manifest = {
+        "version": 1,
+        "surface": "fmv.subtitles",
+        "patch_config_sha256": file_sha256(FMV_SUBTITLES_CONFIG_PATH),
+        "base": {
+            "surface": "facilities.status_ui",
+            "sha256": sha256(base),
+            "manifest_sha256": sha256(
+                facilities_outputs[FACILITIES_STATUS_BUILD_MANIFEST_PATH]
+            ),
+        },
+        "asset_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.asset_files
+        },
+        "runtime_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.runtime_input_files
+        },
+        "source_inputs": dict(result.source_inputs),
+        "assembly_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.assembly_files
+        },
+        "runtime": {
+            "bytes": result.runtime_used_size,
+            "capacity": result.runtime_capacity,
+            "arenas": {
+                arena.name: {
+                    "address": f"0x{arena.address:08x}",
+                    "bytes": arena.used_size,
+                    "capacity": arena.capacity,
+                }
+                for arena in result.runtime_arenas
+            },
+        },
+        "cues": len(result.cues),
+        "output": {
+            "file": FMV_SUBTITLES_TARGET,
+            "sha256": sha256(result.data),
+        },
+        "patch_groups": list(dict.fromkeys(patch.group for patch in result.patches)),
+        "patches": len(result.patches),
+    }
+    return {
+        **facilities_outputs,
+        FMV_SUBTITLES_OUTPUT_PATH: result.data,
+        FMV_SUBTITLES_BUILD_MANIFEST_PATH: (
             json.dumps(manifest, indent=2) + "\n"
         ).encode("utf-8"),
     }
@@ -1365,6 +1430,7 @@ def main() -> int:
             "comp.menu",
             "equipment.ui",
             "facilities.status_ui",
+            "fmv.subtitles",
             "status.ui",
             "options.ui",
             "level_up.ui",
@@ -1402,6 +1468,7 @@ def main() -> int:
             "comp.menu": build_comp_menu,
             "equipment.ui": build_equipment_surface,
             "facilities.status_ui": build_facilities_status_surface,
+            "fmv.subtitles": build_fmv_subtitle_surface,
             "status.ui": build_status_surface,
             "options.ui": build_options_surface,
             "level_up.ui": build_level_up_surface,

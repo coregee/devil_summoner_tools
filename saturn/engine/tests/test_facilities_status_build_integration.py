@@ -57,7 +57,7 @@ class FacilitiesStatusBuildIntegrationTests(unittest.TestCase):
             cls.outputs[FACILITIES_STATUS_BUILD_MANIFEST_PATH].decode("utf-8")
         )
 
-    def test_terminal_event_composes_on_a_distinct_equipment_intermediate(self) -> None:
+    def test_facility_complete_event_composes_on_equipment_intermediate(self) -> None:
         self.assertNotEqual(
             EQUIPMENT_EVENT_OUTPUT_PATH, FACILITIES_STATUS_OUTPUT_PATH
         )
@@ -159,7 +159,7 @@ class FacilitiesStatusBuildIntegrationTests(unittest.TestCase):
             any(path.startswith("saturn/rom/extracted/") for path in paths)
         )
 
-    def test_default_build_has_one_terminal_event_owner_and_installer(self) -> None:
+    def test_default_build_has_one_facilities_stage_and_event_installer(self) -> None:
         document = json.loads(BUILD_CONFIG_PATH.read_text(encoding="utf-8"))
         steps = {row["id"]: row for row in document["steps"]}
         self.assertEqual(
@@ -194,7 +194,7 @@ class FacilitiesStatusBuildIntegrationTests(unittest.TestCase):
         )
         self.assertEqual(event_source, "engine/generated/game/EVENT.BIN")
 
-    def test_cli_dispatches_the_terminal_surface(self) -> None:
+    def test_cli_dispatches_the_facilities_surface(self) -> None:
         with patch.object(
             sys, "argv", ["build.py", "facilities.status_ui", "--check"]
         ), patch(

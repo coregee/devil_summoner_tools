@@ -65,7 +65,7 @@ class FacilitiesStatusUiEngineTests(unittest.TestCase):
             cls.stock_font16,
         ) = status._source_assets()
 
-    def test_complete_terminal_event_is_reproduced_exactly(self) -> None:
+    def test_complete_facilities_event_is_reproduced_exactly(self) -> None:
         self.assertEqual(_sha256(self.base), BASE_SHA256)
         self.assertEqual(len(self.result.data), 354_072)
         self.assertEqual(_sha256(self.result.data), OUTPUT_SHA256)

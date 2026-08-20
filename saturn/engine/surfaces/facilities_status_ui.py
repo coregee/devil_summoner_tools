@@ -1,9 +1,9 @@
 """Compose EVENT's Fusion status, bar, and healing consumers.
 
-This is the terminal EVENT surface.  It consumes the checked equipment stage,
-owns the remaining detailed-status/facility hooks and compatibility mirrors,
-and deliberately leaves Fusion's confirmation-window patches to
-``fusion.menu``.
+This is the facility-complete EVENT composition base. It consumes the checked
+equipment stage, owns the remaining detailed-status/facility hooks and
+compatibility mirrors, and deliberately leaves Fusion's confirmation-window
+patches to ``fusion.menu``. The optional FMV subtitle surface composes after it.
 """
 
 from __future__ import annotations
@@ -1775,7 +1775,7 @@ def _bind_patches(
 
 
 def build_facilities_status_ui(base: bytes) -> FacilitiesStatusUiBuild:
-    """Apply the terminal EVENT facility/status stage to equipment output."""
+    """Apply the EVENT facility/status stage to equipment output."""
     _validate_surfaces()
     config = _configuration()
     stock_event, stock_dvlname, stock_charname, stock_font16 = _source_assets()

@@ -364,7 +364,7 @@
     },
     {
       "id": "build_facilities_status_engine",
-      "description": "Compose the terminal EVENT Fusion status, bar, healer, and shared term consumers.",
+      "description": "Compose the EVENT Fusion status, bar, healer, and shared term consumers.",
       "type": "python",
       "script": "engine/build.py",
       "arguments": ["facilities.status_ui"],
@@ -403,8 +403,16 @@
       "check_arguments": ["map_3d.analyze", "--check"]
     },
     {
+      "id": "build_fmv_subtitles_engine",
+      "description": "Compose the timed, lossless START2 FONT16 overlay onto terminal EVENT.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["fmv.subtitles"],
+      "check_arguments": ["fmv.subtitles", "--check"]
+    },
+    {
       "id": "install_event_normcom_engine",
-      "description": "Install EVENT through facilities/status and NORMCOM through detailed status.",
+      "description": "Install EVENT through FMV subtitles and NORMCOM through detailed status.",
       "type": "copy",
       "files": [
         {"source": "engine/generated/game/EVENT.BIN", "destination": "rom/extracted/game/EVENT.BIN"},
@@ -642,6 +650,7 @@
         "build_options_engine",
         "build_level_up_engine",
         "build_analyze_engine",
+        "build_fmv_subtitles_engine",
         "install_event_normcom_engine",
         "install_options_engine",
         "install_level_up_engine",

@@ -95,6 +95,17 @@ eight stock pointer literals to their generated rows. Line breaks, pool
 addresses, and reveal pacing are renderer output rather than separately
 authored prose.
 
+### FMV Subtitles
+
+The 33.4-second `START2` news report presents nine timed English cues over a
+320x224 Cinepak movie. `assets/text/fmv/subtitles.json` owns the Japanese
+reference, English line breaks, and presentation-relative centisecond ranges.
+The Saturn engine converts those ranges to the movie's checked 12 fps timeline
+and centers one or two proportional FONT16 rows at y=196 or y=180/196. Font
+codes, pixel widths, centered x positions, packed runtime rows, movie index,
+framebuffer address, and the shadow are derived platform presentation—not
+independently authored wording. The CPK remains immutable.
+
 ### End Credits
 
 `END_ROLL.BIN` has two staff-name consumers. The main rolling credits contain
