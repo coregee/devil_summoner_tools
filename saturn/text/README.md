@@ -186,8 +186,8 @@ which storage path can display it without truncation.
 
 The game manifest covers 162 physical files and 61 source groups. Its four
 container types are EVE banks, pointer banks, fixed records with subfields, and
-explicit addressed spans. The generated corpus contains 16,129 records: 12,711
-text-bearing EVE pages and 3,418 other records. All 144 dungeon-location rows
+explicit addressed spans. The generated corpus contains 16,138 records: 12,711
+text-bearing EVE pages and 3,427 other records. All 144 dungeon-location rows
 remain distinct instead of collapsing to 24 repeated Japanese strings. Each
 row now verifies that its name bytes agree across the MAZE, AUTOMAP, SAVE, and
 LOAD tables; these four physical copies still produce one catalogue record.
@@ -196,6 +196,16 @@ basement-floor scaffold are now explicit records. Identical EMPTY, special
 location, `Lv`, punctuation, and floor copies are validated across SAVE and
 LOAD instead of being inferred from one file. The direct three-cell LOAD
 capacity record at `0xB1AE` remains independently catalogued.
+MAP2D now contributes all 14 proved records rather than only its five fixed
+destinations and three talk fields. The default ward and city rows are split
+from their suffixes and reuse the Profile Entry defaults; duplicate `区` and
+`市` spans are byte-checked as one physical record apiece. The full-map `全図`
+suffix grounds a complete authored world-city template instead of being
+silently cleared, while the standalone `雲` record remains editable and
+explicitly unresolved. Dedicated MAP2D bindings reuse the five shared location
+fields and the shared field prompt/choices without extending the MAZE bindings.
+Only `Mount Kasagi` receives a real compact variant, `Mt. Kasagi`, for the
+64-pixel destination strip.
 The additional 56 landing records across 17 ELV files and 232 records across
 all 98 KAI files are separate physical corpus entries. Exact offsets, complete
 source hashes, owned-region hashes, and the KAI file-catalogue digest fail
@@ -369,6 +379,14 @@ allow 16/24 encoded glyphs, the joined name 17, level 4, date/time and EMPTY 5,
 prompts 11, choices 3, small-message rows 24, capacity-message rows 25, warning
 rows 63, and the capacity value 3. Passing the pixel check alone is therefore
 not sufficient for unusually narrow text.
+MAP2D separately records its six-cell/96-pixel world-city rectangle,
+four-cell/64-pixel destination strip, and combined eight-cell/128-pixel area
+rectangle. Its field prompt is 14 cells or 224 pixels; choices are three cells
+or 48 pixels with a three-glyph translated ceiling. The mature renderer's
+64-pixel dynamic component and suppression of the area-screen city component
+are engine policies, not smaller human-facing surface definitions. Every
+proved MAP2D surface uses FONT16; the adjacent unresolved cloud row is not
+assigned a visible surface until a consumer is established.
 MAZE
 talk choices retain one 48-pixel row, and the three-row AUTOMAP marker popup is
 limited to 64 pixels per row in English. Other English limits remain unknown

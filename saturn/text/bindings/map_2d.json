@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "asset": "ui/map_2d.json",
+  "records": {
+    "game.map_static.o01e688": "world_ward_label.text",
+    "game.map_static.o01e6c4": "city_label.text",
+    "game.map_static.o01e6ca": "world_city_label.text",
+    "game.map_static.o01e6d4": "orphan_cloud.text"
+  },
+  "composition": {
+    "game.map_static.o01e688": {
+      "source_role": "suffix",
+      "supplies": [
+        "ward"
+      ]
+    },
+    "game.map_static.o01e6c4": {
+      "source_role": "suffix",
+      "supplies": [
+        "city"
+      ]
+    },
+    "game.map_static.o01e6ca": {
+      "source_role": "suffix",
+      "supplies": [
+        "city"
+      ]
+    }
+  },
+  "record_surfaces": {
+    "game.map_static.o01e688": [
+      "map_2d.world_region_label",
+      "map_2d.area_label"
+    ],
+    "game.map_static.o01e6c4": [
+      "map_2d.world_city_label",
+      "map_2d.area_label"
+    ],
+    "game.map_static.o01e6ca": [
+      "map_2d.world_city_label"
+    ]
+  },
+  "unresolved": {
+    "game.map_static.o01e6d4": "No absolute reference or proved destination selector reaches this standalone terminated record."
+  }
+}

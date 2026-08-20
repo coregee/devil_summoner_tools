@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "asset": "locations.json",
+  "records": {
+    "game.map_static.o01e68e": "rinkai_park.save_name",
+    "game.map_static.o01e698": "mount_kasagi.name",
+    "game.map_static.o01e6a2": "yarai_ward.save_name",
+    "game.map_static.o01e6ac": "chuo_ward.save_name",
+    "game.map_static.o01e6b6": "hibarigaoka.save_name"
+  },
+  "variants": {
+    "game.map_static.o01e698": "map_2d"
+  },
+  "record_surfaces": {
+    "game.map_static.o01e68e": [
+      "map_2d.world_region_label",
+      "map_2d.area_label"
+    ],
+    "game.map_static.o01e698": [
+      "map_2d.world_region_label",
+      "map_2d.area_label"
+    ],
+    "game.map_static.o01e6a2": [
+      "map_2d.world_region_label",
+      "map_2d.area_label"
+    ],
+    "game.map_static.o01e6ac": [
+      "map_2d.world_region_label",
+      "map_2d.area_label"
+    ],
+    "game.map_static.o01e6b6": [
+      "map_2d.world_region_label",
+      "map_2d.area_label"
+    ]
+  }
+}

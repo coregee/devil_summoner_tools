@@ -70,6 +70,42 @@ python saturn/engine/build.py profile_entry.ui --check
 python saturn/engine/build.py profile_entry.ui --install
 ```
 
+## Two-dimensional map
+
+`map_2d.ui` builds the complete `MAP2D.BIN` city-map runtime from the verified
+retail target, the generated FONT16 atlas and metrics, and shared authored text.
+The initial city and ward reuse Profile Entry defaults, the five destination
+rows reuse the location catalogue, and the conversation prompt and choices
+reuse field messages. Only `Mt. Kasagi` is a map-specific compact variant.
+The builder never reads the mutable extracted-disc mirror.
+
+The human-facing contracts remain the proved 96-pixel world-city rectangle,
+64-pixel region strip, and 128-pixel area rectangle. For exact parity with the
+mature Saturn output, the current adapter composes an individual dynamic name
+inside 64 pixels and suppresses the city component on the area screen. It also
+omits the authored `市全図` suffixes on the world screen; their complete
+template remains editable rather than becoming renderer-owned text. The
+unresolved standalone cloud row is retained by the text package and is not
+assigned to this runtime until a visible consumer is proved.
+
+All executable changes come from the two readable sources under
+`asm/map_2d_ui/` and the 24 typed recipes in `config/map_2d_ui.json`. Dynamic
+city and ward reads use the shared player-name field ABI from
+`shared/player_names.py`; the build does not read the generated `NAME.BIN`.
+The three checked arenas use 2,166 of 2,756 available bytes, including the
+eight-byte transient FONT16 scratch region. The resulting output hash is
+`dce250711d7a596bb6c675c76c8cc30542181f00570c5bd4a92d3b7eca6b1123`.
+The default build creates its provenance manifest after Profile Entry and
+installs `MAP2D.BIN` with an ordinary copy before later visual overlays.
+
+Run:
+
+```powershell
+python saturn/font/repack.py all
+python saturn/engine/build.py map_2d.ui
+python saturn/engine/build.py map_2d.ui --check
+```
+
 ## Event dialogue
 
 `config/event_dialogue.json` binds the `event.dialogue` surface to two proved

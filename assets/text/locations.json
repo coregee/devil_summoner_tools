@@ -83,7 +83,13 @@
     "mount_kasagi": {
       "name": {
         "reference": "笠置山",
-        "translation": "Mount Kasagi"
+        "translation": "Mount Kasagi",
+        "variants": {
+          "map_2d": {
+            "translation": "Mt. Kasagi",
+            "note": "Compact form proved by the 64-pixel two-dimensional map destination strip."
+          }
+        }
       }
     },
     "kasagi_manor": {

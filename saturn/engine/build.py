@@ -62,6 +62,11 @@ from engine.surfaces.level_up_ui import (  # noqa: E402
     RUNTIME_CAVE as LEVEL_UP_RUNTIME_CAVE,
     build_level_up_ui,
 )
+from engine.surfaces.map_2d_ui import (  # noqa: E402
+    CONFIG_PATH as MAP_2D_CONFIG_PATH,
+    TARGET as MAP_2D_TARGET,
+    build_map_2d_ui,
+)
 from engine.surfaces.field_messages import (  # noqa: E402
     CONFIG_PATH as FIELD_MESSAGES_CONFIG_PATH,
     build_field_messages,
@@ -123,6 +128,8 @@ SAVE_LOAD_OUTPUT_PATHS = {
 SAVE_LOAD_BUILD_MANIFEST_PATH = GENERATED_ROOT / "save_load_ui_build.json"
 PROFILE_ENTRY_OUTPUT_PATH = GENERATED_ROOT / PROFILE_ENTRY_TARGET
 PROFILE_ENTRY_BUILD_MANIFEST_PATH = GENERATED_ROOT / "profile_entry_ui_build.json"
+MAP_2D_OUTPUT_PATH = GENERATED_ROOT / MAP_2D_TARGET
+MAP_2D_BUILD_MANIFEST_PATH = GENERATED_ROOT / "map_2d_ui_build.json"
 PROFILE_ENTRY_INSTALL_PATH = (
     SATURN_ROOT / "rom" / "extracted" / "game" / PROFILE_ENTRY_TARGET
 )
@@ -335,6 +342,47 @@ def build_profile_entry_surface() -> dict[Path, bytes]:
     return {
         PROFILE_ENTRY_OUTPUT_PATH: result.data,
         PROFILE_ENTRY_BUILD_MANIFEST_PATH: (
+            json.dumps(manifest, indent=2) + "\n"
+        ).encode("utf-8"),
+    }
+
+
+def build_map_2d_surface() -> dict[Path, bytes]:
+    """Build the complete two-dimensional city map from the stock target."""
+    result = build_map_2d_ui()
+    manifest = {
+        "version": 1,
+        "surface": "map_2d.ui",
+        "patch_config_sha256": file_sha256(MAP_2D_CONFIG_PATH),
+        "asset_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.asset_files
+        },
+        "runtime_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.runtime_input_files
+        },
+        "source_inputs": dict(result.source_inputs),
+        "assembly_inputs": {
+            path.relative_to(SATURN_ROOT.parent).as_posix(): file_sha256(path)
+            for path in result.assembly_files
+        },
+        "runtime": {
+            "bytes": result.runtime_used_size,
+            "capacity": result.runtime_capacity,
+        },
+        "output": {
+            "file": MAP_2D_TARGET,
+            "sha256": sha256(result.data),
+        },
+        "patch_groups": list(
+            dict.fromkeys(patch.group for patch in result.patches)
+        ),
+        "patches": len(result.patches),
+    }
+    return {
+        MAP_2D_OUTPUT_PATH: result.data,
+        MAP_2D_BUILD_MANIFEST_PATH: (
             json.dumps(manifest, indent=2) + "\n"
         ).encode("utf-8"),
     }
@@ -864,6 +912,7 @@ def main() -> int:
             "field.messages",
             "save_load.ui",
             "profile_entry.ui",
+            "map_2d.ui",
         ),
     )
     parser.add_argument("--check", action="store_true")
@@ -893,6 +942,7 @@ def main() -> int:
             "field.messages": build_field_messages_surface,
             "save_load.ui": build_save_load_surface,
             "profile_entry.ui": build_profile_entry_surface,
+            "map_2d.ui": build_map_2d_surface,
         }
         if arguments.install:
             if arguments.surface == "save_load.ui":

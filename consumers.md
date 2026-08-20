@@ -290,24 +290,58 @@ preserve in an asset.
 
 ### 2D Map
 
+Every proved player-facing `MAP2D.BIN` string is ordinary FONT16 data. No
+MAP2D label crosses into a baked image-glyph surface. The physical inventory
+keeps the runtime pieces visible instead of treating the mature renderer's
+omissions as deleted prose: `朝日` at `0x1E684` and `平崎` at `0x1E6C0` are
+initial values shared with Profile Entry, `区` is stored at both `0x1E688` and
+`0x1E6DE`, `市` at both `0x1E6C4` and `0x1E6E2`, and `全図` at `0x1E6CA`.
+Extraction verifies each pair of suffix copies byte-for-byte. The independently
+terminated `雲` at `0x1E6D4` remains an editable unresolved asset: no absolute
+reference or live destination selector for it has yet been proved.
+
 #### World Map
 
 The world map has two text consumers. All use FONT16.
 
-In the bottom-left is a grey rectangle, with the text "＿＿＿市全図", dynamically inserting the player's chosen city. The left city text is actually centered within its available 4 glyph space. In total, this rectangle provides 6 glyphs of space.
+In the bottom-left is a grey rectangle with the complete source template
+`{city}市全図`. The city component is centered within its four-cell allocation;
+the complete human-facing rectangle is six Japanese cells or 96 translated
+pixels. `ui/map_2d.json#world_city_label.text` owns the template and translates
+it as `{city}`. The mature English adapter constructs the city inside a stricter
+64-pixel internal component and deliberately omits both suffixes. That internal
+policy does not shrink the 96-pixel surface contract or leave `市全図` as
+hand-maintained renderer text.
 
-In the top-right are multiple grey rectangles. These display conditionally based on the areas the player is permitted to access at their point in the story. There is enough space for 4 glyphs in each. Examples include "＿＿＿区" (player input substituted), "臨海公園", "中央区". All are horizontally centered.
+In the top-right are conditionally displayed destination rectangles. Each is
+four Japanese cells or 64 translated pixels and is horizontally centered. The
+dynamic source template is `{ward}区`, translated as `{ward}`. Five fixed
+records reuse the shared location catalogue: Rinkai Park, Mt. Kasagi, Yarai
+Ward, Chuo Ward, and Hibarigaoka. Only Mount Kasagi needs a MAP2D-specific
+compact variant: the canonical `Mount Kasagi` is 69 pixels, while `Mt. Kasagi`
+is 55 pixels and fits this strip. Identical fixed forms are not copied into a
+second map catalogue.
 
 #### Area Map
 
-(All also FONT16).
-
-Within each area, the game shows a rectangle in the bottom-left with 8 glyphs of available space.
-The first 4 are the chosen ___市 centered within the allocated space. The next 4 are the current area's text centered within the allocated strip.
+Within each area, the bottom-left rectangle has eight Japanese cells or 128
+translated pixels. Stock draws two independently centered four-cell components:
+the complete `{city}市` city label followed by the current `{area}` label. These
+are separately authored templates. The mature English adapter explicitly
+suppresses the city component on this screen and renders the area alone; the
+asset does not silently discard a city placeholder, and the human surface
+remains the proved eight-cell rectangle.
 
 While exploring the map, the player may traverse over a conversation point. This displays on the screen in a large pair of green boxes:
 "＞誰かいる。話しかけますか？"
 and vertically stacked, "YES", "NO".
+
+The prompt and choices reuse the shared field-message assets. The prompt is a
+14-cell/224-pixel FONT16 surface; its mature English text is 32 proportional
+glyphs advancing 171 pixels and is precomposed into those cells. Each choice
+uses the proved three-cell/48-pixel surface, with a three-glyph encoded-row
+ceiling. Their physical records remain at `0x1E756`, `0x1E774`, and `0x1E77C`
+respectively.
 
 ### 3D Map
 

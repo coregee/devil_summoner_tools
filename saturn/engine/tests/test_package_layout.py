@@ -17,6 +17,7 @@ PURE_DATA_GENERATORS = {
     "font16_scratch",
     "analyze_ui_data",
     "level_up_data",
+    "map_2d_data",
     "options_data",
     "profile_entry_data",
     "save_load_data",

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "city_label": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "{city}市",
+        "translation": "{city}",
+        "note": "Complete dynamic city row assembled by MAP2D. The stock renderer appends the independently inventoried city suffix; the English renderer intentionally omits it."
+      }
+    },
+    "world_city_label": {
+      "placeholders": {
+        "city": "location_name"
+      },
+      "text": {
+        "reference": "{city}市全図",
+        "translation": "{city}",
+        "note": "Complete lower-left world-map label. The mature English renderer omits both stock suffixes instead of deleting unowned runtime text."
+      }
+    },
+    "world_ward_label": {
+      "placeholders": {
+        "ward": "location_name"
+      },
+      "text": {
+        "reference": "{ward}区",
+        "translation": "{ward}",
+        "note": "Complete dynamic player-ward destination. The same rebuilt row can also be the current area label."
+      }
+    },
+    "area_label": {
+      "placeholders": {
+        "area": "location_name"
+      },
+      "text": {
+        "reference": "{area}",
+        "translation": "{area}",
+        "note": "Complete current-area component of the lower-left area-map strip. Stock draws it after city_label; the mature English adapter suppresses that separate city component and renders this component alone."
+      }
+    },
+    "orphan_cloud": {
+      "status": "unresolved",
+      "note": "Standalone terminated FONT16 record immediately after the live label table. No absolute reference or proved selector reaches it; retain it as dormant physical evidence until its call site is established.",
+      "text": {
+        "reference": "雲",
+        "translation": "Cloud"
+      }
+    }
+  }
+}

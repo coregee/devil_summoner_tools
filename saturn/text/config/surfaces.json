@@ -663,12 +663,49 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font16",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 96
         }
+      }
+    },
+    "map_2d.field_message": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 14
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 224
+        }
+      }
+    },
+    "map_2d.field_choice": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 3
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 48
+        },
+        "glyphs": 3
       }
     },
     "map_2d.world_region_label": {
@@ -681,11 +718,11 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font16",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 64
         }
       }
     },
@@ -699,11 +736,11 @@
         }
       },
       "en": {
-        "font": null,
-        "rows": null,
+        "font": "font16",
+        "rows": 1,
         "width": {
-          "unit": null,
-          "value": null
+          "unit": "pixels",
+          "value": 128
         }
       }
     },

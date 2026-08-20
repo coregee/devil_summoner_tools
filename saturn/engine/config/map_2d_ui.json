@@ -1,0 +1,199 @@
+{
+  "version": 2,
+  "surface": "map_2d.ui",
+  "targets": {
+    "MAP2D.BIN": {
+      "load_address": "0x06020000",
+      "size": 126600,
+      "stock_sha256": "1e8d00baefdfa282f3a63beb48ca13adec179935594bd5361bf8234c61ed6ecc"
+    }
+  },
+  "inputs": {
+    "font16_sha256": "89272c66b96536658c271e061ff8c15198a1bbc4c01c4e17f23575897dca0acc",
+    "font16_metrics_sha256": "3ce6e6c916da3f4bc3c7a702c9ae07f84519185a45e2f733c13726cab6532fa3"
+  },
+  "groups": [
+    {
+      "capability": "map_2d.runtime",
+      "target": "MAP2D.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "name_runtime_arena",
+          "address": "0x06020400",
+          "expected_sha256": "4cf9816ed1062189ff0c8d427fba5e912cc68fc9af76cf7f08fd255977de3b33",
+          "expected_size": 1152,
+          "assembly": ["map_2d_ui/name_compositor.s"]
+        },
+        {
+          "name": "name_copy_pointer",
+          "address": "0x06030e5c",
+          "expected": "060309e0",
+          "linked_pointer": "map_name_compose"
+        },
+        {
+          "name": "city_name_pointer",
+          "address": "0x0603db2c",
+          "expected": "002029d0",
+          "pointer": "0x0023fe26"
+        },
+        {
+          "name": "ward_name_pointer",
+          "address": "0x0603db30",
+          "expected": "002029d8",
+          "pointer": "0x0023fe38"
+        },
+        {
+          "name": "city_copy_clamp_add",
+          "address": "0x06030d58",
+          "expected": "7106",
+          "instruction": "nop"
+        },
+        {
+          "name": "city_copy_clamp_store",
+          "address": "0x06030d5c",
+          "expected": "2191",
+          "instruction": "nop"
+        },
+        {
+          "name": "city_suffix_call",
+          "address": "0x06030d62",
+          "expected": "4a0b",
+          "instruction": "nop"
+        },
+        {
+          "name": "ward_copy_clamp_add",
+          "address": "0x06030d70",
+          "expected": "7106",
+          "instruction": "nop"
+        },
+        {
+          "name": "ward_copy_clamp_store",
+          "address": "0x06030d74",
+          "expected": "2191",
+          "instruction": "nop"
+        },
+        {
+          "name": "ward_suffix_call",
+          "address": "0x06030d78",
+          "expected": "4a0b",
+          "instruction": "nop"
+        }
+      ]
+    },
+    {
+      "capability": "map_2d.prompt",
+      "target": "MAP2D.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "prompt_runtime",
+          "address": "0x06021000",
+          "expected_sha256": "7b8ec8dd836b564f0c85ad088fc744de820345204e154bc1503e04e9d6fdd9f1",
+          "expected_size": 124,
+          "assembly": ["map_2d_ui/prompt_wrapper.s"]
+        },
+        {
+          "name": "bitmap_data_arena",
+          "address": "0x06021200",
+          "expected_sha256": "8ee724d497565f18f1f5e526f9634479ba2886cdbeb942faf194b1f73686e8dc",
+          "expected_size": 1480,
+          "generated": "map_2d_data"
+        },
+        {
+          "name": "prompt_draw_pointer",
+          "address": "0x06039518",
+          "expected": "06039534",
+          "linked_pointer": "prompt_draw"
+        }
+      ]
+    },
+    {
+      "capability": "map_2d.labels",
+      "target": "MAP2D.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "rinkai_park_row",
+          "address": "0x0603e68e",
+          "expected": "02990212029a029b8000",
+          "generated": "map_2d_data"
+        },
+        {
+          "name": "mount_kasagi_row",
+          "address": "0x0603e698",
+          "expected": "029d01ec025480000000",
+          "generated": "map_2d_data"
+        },
+        {
+          "name": "yarai_ward_row",
+          "address": "0x0603e6a2",
+          "expected": "029c020d029880000000",
+          "generated": "map_2d_data"
+        },
+        {
+          "name": "chuo_ward_row",
+          "address": "0x0603e6ac",
+          "expected": "015f02a2029880000000",
+          "generated": "map_2d_data"
+        },
+        {
+          "name": "hibarigaoka_row",
+          "address": "0x0603e6b6",
+          "expected": "029e029f02a002a18000",
+          "generated": "map_2d_data"
+        },
+        {
+          "name": "overview_suffix_row",
+          "address": "0x0603e6ca",
+          "expected": "014d02a3800000000000",
+          "generated": "map_2d_data"
+        }
+      ]
+    },
+    {
+      "capability": "map_2d.prompt",
+      "target": "MAP2D.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "talk_prompt_row",
+          "address": "0x0603e756",
+          "expected": "00c502c700440040006700b501aa004a00440047005d004b004400b48000",
+          "generated": "map_2d_data"
+        },
+        {
+          "name": "talk_choice_yes_row",
+          "address": "0x0603e774",
+          "expected": "0023000f001d8000",
+          "generated": "map_2d_data"
+        },
+        {
+          "name": "talk_choice_no_row",
+          "address": "0x0603e77c",
+          "expected": "001800198000",
+          "generated": "map_2d_data"
+        }
+      ]
+    },
+    {
+      "capability": "map_2d.layout",
+      "target": "MAP2D.BIN",
+      "load_address": 100794368,
+      "patches": [
+        {
+          "name": "area_city_draw",
+          "address": "0x0603ac28",
+          "expected": "430b",
+          "instruction": "nop"
+        },
+        {
+          "name": "area_ward_origin",
+          "address": "0x0603ad96",
+          "expected": "02a8",
+          "generated": "map_2d_data"
+        }
+      ]
+    }
+  ]
+}

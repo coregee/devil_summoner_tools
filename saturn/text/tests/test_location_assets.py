@@ -79,11 +79,16 @@ class LocationAssetInventoryTests(unittest.TestCase):
             self.assertTrue({"name", "save_name"} & set(entry.fields))
             self.assertNotIn("saturn", key)
             self.assertNotIn("psp", key)
-            for field in entry.fields.values():
+            for field_name, field in entry.fields.items():
                 self.assertTrue(field.reference)
                 self.assertTrue(field.translation)
                 self.assertFalse(field.reviewed)
-                self.assertEqual(dict(field.variants), {})
+                expected_variants = (
+                    {"map_2d"}
+                    if (key, field_name) == ("mount_kasagi", "name")
+                    else set()
+                )
+                self.assertEqual(set(field.variants), expected_variants)
 
     def test_only_proven_automap_forms_are_authored_separately(self) -> None:
         compact = {

@@ -81,6 +81,25 @@
       "check_arguments": ["profile_entry.ui", "--install", "--check"]
     },
     {
+      "id": "build_map_2d_engine",
+      "description": "Build the complete two-dimensional city map from shared authored text and generated fonts.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["map_2d.ui"],
+      "check_arguments": ["map_2d.ui", "--check"]
+    },
+    {
+      "id": "install_map_2d_engine",
+      "description": "Install the terminal MAP2D city-map runtime.",
+      "type": "copy",
+      "files": [
+        {
+          "source": "engine/generated/game/MAP2D.BIN",
+          "destination": "rom/extracted/game/MAP2D.BIN"
+        }
+      ]
+    },
+    {
       "id": "repack_event_text",
       "description": "Compile the complete general EVENT surface from shared authored assets.",
       "type": "python",
@@ -486,6 +505,8 @@
         "install_fonts",
         "build_profile_entry_engine",
         "install_profile_entry_engine",
+        "build_map_2d_engine",
+        "install_map_2d_engine",
         "repack_event_text",
         "install_event_text",
         "repack_shopsmp_text",

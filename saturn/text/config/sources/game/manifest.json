@@ -206,7 +206,7 @@
       "path": "MAP2D.BIN",
       "size": 126600,
       "stock_sha256": "1e8d00baefdfa282f3a63beb48ca13adec179935594bd5361bf8234c61ed6ecc",
-      "owned_sha256": "e002965045af42fe2df3d9ad05e43fe7227836b87f1605fe4c45b9f3644cdd05"
+      "owned_sha256": "44487bcbff38bf55d8302a1767821bfdf272a1475ac4794b438dafea623e5b43"
     },
     "maze_bin": {
       "path": "MAZE.BIN",
@@ -5295,6 +5295,41 @@
         "tables": [],
         "records": [
           {
+            "name": "default_ward",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1e684",
+                    "units": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ward_suffix",
+            "require_identical_bytes": true,
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1e688",
+                    "units": 1
+                  }
+                ]
+              },
+              {
+                "spans": [
+                  {
+                    "offset": "0x1e6de",
+                    "units": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "location_rinkai_park",
             "locations": [
               {
@@ -5354,6 +5389,67 @@
                   {
                     "offset": "0x1e6b6",
                     "units": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "default_city",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1e6c0",
+                    "units": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "city_suffix",
+            "require_identical_bytes": true,
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1e6c4",
+                    "units": 1
+                  }
+                ]
+              },
+              {
+                "spans": [
+                  {
+                    "offset": "0x1e6e2",
+                    "units": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "full_map_suffix",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1e6ca",
+                    "units": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "orphan_cloud",
+            "locations": [
+              {
+                "spans": [
+                  {
+                    "offset": "0x1e6d4",
+                    "units": 1
                   }
                 ]
               }

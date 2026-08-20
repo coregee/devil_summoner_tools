@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "asset": "ui/profile_entry.json",
+  "records": {
+    "game.map_static.o01e684": "default_ward.text",
+    "game.map_static.o01e6c0": "default_city.text"
+  },
+  "record_surfaces": {
+    "game.map_static.o01e684": [
+      "map_2d.world_region_label",
+      "map_2d.area_label"
+    ],
+    "game.map_static.o01e6c0": [
+      "map_2d.world_city_label",
+      "map_2d.area_label"
+    ]
+  }
+}

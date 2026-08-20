@@ -132,6 +132,14 @@ both Law and Light at one physical `L`; the alignment catalogue keeps those as
 independent authored fields, and the Saturn binding records Light as a second
 semantic use of the stock Law record.
 
+The 2D map keeps runtime structure in `ui/map_2d.json`: complete city,
+world-city, ward, and area templates own their suffixes and placeholder order.
+Its initial Hirasaki and Asahi values reuse `ui/profile_entry.json`; the five
+fixed destinations reuse `locations.json`, with only the genuinely constrained
+`Mt. Kasagi` form declared as a MAP2D variant. The talk prompt and Yes/No choices
+reuse `field/messages.json`. A standalone stock `雲` row stays editable but
+`unresolved` until a visible consumer is proved.
+
 ## Identity and sharing
 
 An asset is identified by its file-local semantic key and field path. English
