@@ -194,15 +194,21 @@ Ark 12px advances.
 
 The surface does not rebuild or install a CPK. It verifies the retail
 `BGDATA/START2.CPK` hash as an immutable source contract, then patches only
-`EVENT.BIN`. The readable SH-2 runtime recognizes START2 through both blocking
-and queued movie initialization paths and wraps the stock frame presenter. Once
-the stock decoder has copied a fresh 32-bit RGB frame to NBG0 at `0x25e08000`,
-the wrapper writes a one-pixel dark shadow and white FONT16 face into that
-frame. Timing therefore advances only on presented movie frames; the following
-frame naturally removes old text during cue gaps and movie cleanup.
+`EVENT.BIN`. The readable SH-2 runtime recognizes START2 through the blocking,
+queued, and direct asynchronous movie initialization paths and wraps the stock
+frame presenters. Both players stage each decoded frame at cached work-RAM
+address `0x0607704c` before programming an asynchronous SCU DMA to video memory.
+Because the subtitle writes occur after the decoder's cache maintenance, the
+wrappers render through the same buffer's P1 uncached alias at `0x2607704c`.
+The DMA can therefore observe the new pixels in physical RAM. Rendering uses
+RGB555/640-byte rows for streaming playback and 32-bit RGB/1,280-byte rows for
+blocking playback; timing advances only when a decoded frame is ready for
+transfer.
 
-The cue/data compiler uses 1,218 of 1,624 checked data bytes, while the runtime
-uses 464 of 512 code bytes. The original 9,134,032-byte CPK remains
+The cue/data compiler embeds the 32 required FONT16 masks and uses 1,894 of
+1,952 checked data bytes, while the runtime uses 560 of 704 code bytes. It does
+not depend on a preceding module having left FONT16 resident in work RAM. The
+original 9,134,032-byte CPK remains
 byte-for-byte untouched.
 
 Run:

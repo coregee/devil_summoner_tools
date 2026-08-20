@@ -60,14 +60,17 @@ class FmvSubtitleEngineTests(unittest.TestCase):
                     self.assertGreater(packed & 0x0FFF, 0)
 
     def test_runtime_data_and_hook_inventory_are_exact(self) -> None:
-        self.assertEqual(self.runtime.primary_used, 1004)
-        self.assertEqual(self.runtime.secondary_used, 214)
-        self.assertEqual(self.runtime.code_used, 464)
+        self.assertEqual(self.runtime.primary_used, 998)
+        self.assertEqual(self.runtime.secondary_used, 384)
+        self.assertEqual(self.runtime.tertiary_used, 512)
+        self.assertEqual(self.runtime.code_used, 560)
         self.assertEqual(len(self.runtime.primary), fmv.PRIMARY_DATA_CAPACITY)
         self.assertEqual(len(self.runtime.secondary), fmv.SECONDARY_DATA_CAPACITY)
+        self.assertEqual(len(self.runtime.tertiary), fmv.TERTIARY_DATA_CAPACITY)
         self.assertEqual(len(self.runtime.code), fmv.RUNTIME_CAPACITY)
         self.assertFalse(any(self.runtime.primary[self.runtime.primary_used :]))
         self.assertFalse(any(self.runtime.secondary[self.runtime.secondary_used :]))
+        self.assertFalse(any(self.runtime.tertiary[self.runtime.tertiary_used :]))
         self.assertFalse(any(self.runtime.code[self.runtime.code_used :]))
         self.assertEqual(
             [patch.name for patch in self.build.patches],
@@ -75,14 +78,17 @@ class FmvSubtitleEngineTests(unittest.TestCase):
                 "subtitle_data_primary",
                 "subtitle_runtime",
                 "subtitle_data_secondary",
+                "subtitle_data_tertiary",
                 "blocking_player_pointer",
                 "async_init_pointer",
+                "async_launcher_init_pointer",
+                "stream_presenter_pointer",
                 "presenter_pointer",
             ],
         )
         pointers = {
             patch.name: struct.unpack(">I", patch.replacement)[0]
-            for patch in self.build.patches[-3:]
+            for patch in self.build.patches[4:]
         }
         self.assertEqual(
             pointers,
@@ -91,19 +97,161 @@ class FmvSubtitleEngineTests(unittest.TestCase):
                     "fmv_blocking_player_wrapper"
                 ],
                 "async_init_pointer": self.runtime.labels["fmv_async_init_wrapper"],
+                "async_launcher_init_pointer": self.runtime.labels[
+                    "fmv_async_init_wrapper"
+                ],
+                "stream_presenter_pointer": self.runtime.labels[
+                    "fmv_stream_present_wrapper"
+                ],
                 "presenter_pointer": self.runtime.labels["fmv_present_wrapper"],
             },
         )
 
-    def test_runtime_masks_the_advance_out_of_each_font_code(self) -> None:
+    def test_runtime_resolves_dense_embedded_glyph_tokens(self) -> None:
         offset = self.runtime.labels["fmv_line_loop"] - fmv.RUNTIME_ADDRESS
         self.assertEqual(
             self.runtime.code[offset : offset + 32],
             bytes.fromhex(
-                "6485644d244889116943491949094909"
-                "60434018400840084019400940096403"
+                "6484644c2448890e74ff6043d126091c"
+                "699c44086043d125041e65a3b00966b3"
             ),
         )
+
+    def test_runtime_embeds_every_required_font16_mask(self) -> None:
+        codes = {
+            packed & 0x0FFF
+            for cue in self.runtime.cues
+            for line in cue.lines
+            for packed in line.packed_glyphs
+        }
+        self.assertEqual(len(codes), 32)
+        font = fmv.FONT16_PATH.read_bytes()
+        owned_data = (
+            self.runtime.primary
+            + self.runtime.secondary
+            + self.runtime.tertiary
+        )
+        for code in codes:
+            glyph = font[code * 32 : (code + 1) * 32]
+            self.assertEqual(len(glyph), 32)
+            self.assertIn(glyph, owned_data)
+        self.assertNotIn(
+            struct.pack(">I", 0x0021A000),
+            self.runtime.code[: self.runtime.code_used],
+        )
+
+    def test_runtime_aligns_font16_rows_before_testing_shll_carry(self) -> None:
+        code = self.runtime.code[: self.runtime.code_used]
+        self.assertIn(bytes.fromhex("611d4128e210"), code)
+
+    def test_stock_start2_async_call_chain_reaches_the_stream_hook(self) -> None:
+        movie_name_pointer = struct.unpack_from(
+            ">I",
+            self.stock,
+            fmv.MOVIE_NAME_TABLE
+            + fmv.MOVIE_INDEX * 4
+            - fmv.LOAD_ADDRESS,
+        )[0]
+        movie_name_offset = movie_name_pointer - fmv.LOAD_ADDRESS
+        self.assertEqual(
+            self.stock[movie_name_offset : movie_name_offset + 11],
+            b"START2.CPK\0",
+        )
+
+        handler_pointer = struct.unpack_from(
+            ">I",
+            self.stock,
+            fmv.SCRIPT_DISPATCH_TABLE + 13 * 4 - fmv.LOAD_ADDRESS,
+        )[0]
+        self.assertEqual(handler_pointer, fmv.ASYNC_MOVIE_SCRIPT_HANDLER)
+        self.assertEqual(
+            struct.unpack_from(
+                ">I", self.stock, 0x0602DBA0 - fmv.LOAD_ADDRESS
+            )[0],
+            fmv.ASYNC_MOVIE_LAUNCHER,
+        )
+        self.assertEqual(
+            self.stock[
+                0x0602DB86 - fmv.LOAD_ADDRESS : 0x0602DB94 - fmv.LOAD_ADDRESS
+            ],
+            bytes.fromhex("6603666d688dd1046583410be400"),
+        )
+
+        self.assertEqual(
+            struct.unpack_from(
+                ">I", self.stock, 0x060396BC - fmv.LOAD_ADDRESS
+            )[0],
+            fmv.ASYNC_MOVIE_INDEX,
+        )
+        self.assertEqual(
+            struct.unpack_from(
+                ">I", self.stock, 0x060396D4 - fmv.LOAD_ADDRESS
+            )[0],
+            fmv.MOVIE_NAME_TABLE,
+        )
+        self.assertEqual(
+            struct.unpack_from(
+                ">I", self.stock, 0x060396F0 - fmv.LOAD_ADDRESS
+            )[0],
+            fmv.STOCK_ASYNC_INIT,
+        )
+        self.assertEqual(
+            struct.unpack_from(
+                ">I", self.stock, 0x06039078 - fmv.LOAD_ADDRESS
+            )[0],
+            fmv.STOCK_STREAM_PRESENTER,
+        )
+
+    def test_runtime_draws_uncached_decoded_source_before_async_dma(self) -> None:
+        self.assertEqual(fmv.WHITE_PIXEL, 0x80FFFFFF)
+        self.assertEqual(fmv.SHADOW_PIXEL, 0x80010101)
+        self.assertEqual(fmv.SHADOW_PIXEL_16 & 0x8000, 0x8000)
+        blocking_source = 0x06039390 - fmv.LOAD_ADDRESS
+        self.assertEqual(
+            self.stock[blocking_source : blocking_source + 4],
+            struct.pack(">I", fmv.DECODED_FRAMEBUFFER),
+        )
+        stream_source = 0x06039074 - fmv.LOAD_ADDRESS
+        self.assertEqual(
+            self.stock[stream_source : stream_source + 4],
+            struct.pack(">I", fmv.DECODED_FRAMEBUFFER),
+        )
+        dma_setup = 0x0602A760 - fmv.LOAD_ADDRESS
+        self.assertEqual(
+            self.stock[dma_setup : dma_setup + 6],
+            bytes.fromhex("135013411362"),
+        )
+        self.assertEqual(fmv.MOVIE_FRAMEBUFFER_STRIDE, fmv.MOVIE_WIDTH)
+        code = self.runtime.code[: self.runtime.code_used]
+        self.assertEqual(
+            fmv.UNCACHED_DECODED_FRAMEBUFFER & 0x1FFFFFFF,
+            fmv.DECODED_FRAMEBUFFER,
+        )
+        self.assertEqual(
+            code.count(struct.pack(">I", fmv.UNCACHED_DECODED_FRAMEBUFFER)), 2
+        )
+        self.assertNotIn(struct.pack(">I", fmv.DECODED_FRAMEBUFFER), code)
+        self.assertIn(struct.pack(">I", fmv.BLOCKING_ROW_STRIDE), code)
+        self.assertIn(struct.pack(">I", fmv.STREAM_ROW_STRIDE), code)
+        self.assertIn(struct.pack(">I", fmv.SHADOW_PIXEL_16), code)
+
+        source = fmv.ASSEMBLY_PATH.read_text(encoding="utf-8")
+        blocking = source.split("fmv_present_wrapper:", 1)[1].split(
+            "fmv_stream_present_wrapper:", 1
+        )[0]
+        streaming = source.split("fmv_stream_present_wrapper:", 1)[1].split(
+            "fmv_present_active_frame:", 1
+        )[0]
+        self.assertLess(
+            blocking.index("bsr     fmv_present_active_frame"),
+            blocking.index("=STOCK_PRESENTER"),
+        )
+        self.assertLess(
+            streaming.index("bsr     fmv_present_active_frame"),
+            streaming.index("=STOCK_STREAM_PRESENTER"),
+        )
+        self.assertIn("=UNCACHED_DECODED_FRAMEBUFFER", blocking)
+        self.assertIn("=UNCACHED_DECODED_FRAMEBUFFER", streaming)
 
     def test_cue_table_points_only_into_owned_data_arenas(self) -> None:
         count, reserved = struct.unpack_from(">HH", self.runtime.primary, 8)
@@ -116,6 +264,10 @@ class FmvSubtitleEngineTests(unittest.TestCase):
             (
                 fmv.SECONDARY_DATA_ADDRESS,
                 fmv.SECONDARY_DATA_ADDRESS + fmv.SECONDARY_DATA_CAPACITY,
+            ),
+            (
+                fmv.TERTIARY_DATA_ADDRESS,
+                fmv.TERTIARY_DATA_ADDRESS + fmv.TERTIARY_DATA_CAPACITY,
             ),
         )
         for index, cue in enumerate(self.build.cues):

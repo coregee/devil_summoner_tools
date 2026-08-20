@@ -1,9 +1,11 @@
 ; Lossless START2 subtitle overlay for EVENT.BIN's Cinepak player.
 ;
-; The stock presenter writes a 32-bit RGB frame to the NBG0 bitmap at
-; 0x25e08000.  The wrapped presenter calls that routine first, then draws the
-; active cue directly into the fresh frame.  A subsequent movie frame replaces
-; every subtitle pixel, so gaps and cleanup need no destructive clear pass.
+; Both players stage a decoded frame at cached work-RAM address 0x0607704c
+; before scheduling an SCU DMA to video memory.  The decoder has already done
+; its cache maintenance by the time these wrappers run, so later CPU writes via
+; that cached alias are not visible to the DMA engine.  Draw through the P1
+; uncached alias instead; the stock transfer from 0x0607704c then sees the same
+; physical bytes and carries the subtitle into the displayed frame.
 
 fmv_blocking_player_wrapper:
     mov.l   r8, @-r15
@@ -60,27 +62,67 @@ fmv_async_state_ready:
     .pool
 
 fmv_present_wrapper:
-    mov.l   r8, @-r15
+    mov.l   r12, @-r15
+    mov.l   r13, @-r15
+    mov.l   r14, @-r15
     sts.l   pr, @-r15
+    mov.l   =UNCACHED_DECODED_FRAMEBUFFER, r14
+    mov.l   =BLOCKING_ROW_STRIDE, r12
+    mov     #4, r13
+    bsr     fmv_present_active_frame
+    nop
     mov.l   =STOCK_PRESENTER, r1
     jsr     @r1
     nop
-    mov     r0, r8
+    lds.l   @r15+, pr
+    mov.l   @r15+, r14
+    mov.l   @r15+, r13
+    rts
+    mov.l   @r15+, r12
+    .pool
+
+fmv_stream_present_wrapper:
+    mov.l   r12, @-r15
+    mov.l   r13, @-r15
+    mov.l   r14, @-r15
+    sts.l   pr, @-r15
+    mov.l   r4, @-r15
+    mov.l   r5, @-r15
+    mov.l   r6, @-r15
+    mov.l   =UNCACHED_DECODED_FRAMEBUFFER, r14
+    mov.l   =STREAM_ROW_STRIDE, r12
+    mov     #2, r13
+    bsr     fmv_present_active_frame
+    nop
+    mov.l   @r15+, r6
+    mov.l   @r15+, r5
+    mov.l   @r15+, r4
+    mov.l   =STOCK_STREAM_PRESENTER, r1
+    jsr     @r1
+    nop
+    lds.l   @r15+, pr
+    mov.l   @r15+, r14
+    mov.l   @r15+, r13
+    rts
+    mov.l   @r15+, r12
+    .pool
+
+fmv_present_active_frame:
+    sts.l   pr, @-r15
     mov.l   =FMV_ACTIVE, r1
     mov.w   @r1, r1
     tst     r1, r1
-    bt      fmv_present_done
+    bt      fmv_present_active_done
     bsr     fmv_render_frame
     nop
     mov.l   =FMV_FRAME, r1
     mov.l   @r1, r2
     add     #1, r2
     mov.l   r2, @r1
-fmv_present_done:
-    mov     r8, r0
+fmv_present_active_done:
     lds.l   @r15+, pr
     rts
-    mov.l   @r15+, r8
+    nop
     .pool
 
 ; Cue table:
@@ -130,8 +172,8 @@ fmv_render_done:
     mov.l   @r15+, r8
     .pool
 
-; Line payload: u16 x, u16 y, then packed FONT16 words.  Bits 15..12 hold
-; the proportional advance and bits 11..0 hold the atlas code.  Zero ends it.
+; Line payload: u16 x, u16 y, then one-byte dense glyph tokens. Zero ends it.
+; Pointer and advance tables bind each token to an embedded FONT16 mask.
 fmv_draw_line:
     mov.l   r8, @-r15
     mov.l   r9, @-r15
@@ -144,22 +186,19 @@ fmv_draw_line:
     mov.w   @r8+, r11
     extu.w  r11, r11
 fmv_line_loop:
-    mov.w   @r8+, r4
-    extu.w  r4, r4
+    mov.b   @r8+, r4
+    extu.b  r4, r4
     tst     r4, r4
     bt      fmv_line_done
-    mov     r4, r9
-    shlr8   r9
-    shlr2   r9
-    shlr2   r9
+    add     #-1, r4
     mov     r4, r0
-    shll8   r0
-    shll2   r0
-    shll2   r0
-    shlr8   r0
-    shlr2   r0
-    shlr2   r0
-    mov     r0, r4
+    mov.l   =GLYPH_ADVANCE_TABLE, r1
+    mov.b   @(r0,r1), r9
+    extu.b  r9, r9
+    shll2   r4
+    mov     r4, r0
+    mov.l   =GLYPH_POINTER_TABLE, r1
+    mov.l   @(r0,r1), r4
     mov     r10, r5
     bsr     fmv_draw_glyph
     mov     r11, r6
@@ -174,9 +213,10 @@ fmv_line_done:
     rts
     mov.l   @r15+, r8
 
-; r4=FONT16 code, r5=x, r6=y.  Each source row is a 16-bit 1bpp mask.
-; Draw a one-pixel black lower-right shadow and an opaque white face into the
-; movie's 512-pixel-stride, 32-bit RGB NBG0 bitmap.
+; r4=embedded FONT16 mask, r5=x, r6=y; r12=row bytes, r13=bytes per pixel,
+; r14=base.
+; Each source row is a 16-bit 1bpp mask. Draw a lower-right shadow and white
+; face into either the streaming RGB555 or blocking 32-bit RGB movie buffer.
 fmv_draw_glyph:
     mov.l   r8, @-r15
     mov.l   r9, @-r15
@@ -185,40 +225,49 @@ fmv_draw_glyph:
     mov.l   r12, @-r15
     mov.l   r13, @-r15
     mov.l   r14, @-r15
-    extu.w  r4, r4
-    shll2   r4
-    shll2   r4
-    shll    r4
-    mov.l   =FONT16_BITMAP, r8
-    add     r4, r8
-    extu.w  r5, r5
-    shll2   r5
-    extu.w  r6, r6
-    shll8   r6
-    shll2   r6
-    shll    r6
-    mov.l   =MOVIE_FRAMEBUFFER, r9
+    mov     r4, r8
+    mulu.w  r13, r5
+    sts     macl, r5
+    mulu.w  r12, r6
+    sts     macl, r6
+    mov     r14, r9
     add     r5, r9
     add     r6, r9
     mov     r9, r10
-    mov.l   =SHADOW_OFFSET, r1
-    add     r1, r10
-    mov.l   =ROW_ADVANCE, r11
-    mov.l   =WHITE_PIXEL, r13
+    add     r12, r10
+    add     r13, r10
+    mov     r12, r11
+    mov     #16, r1
+    mulu.w  r13, r1
+    sts     macl, r1
+    sub     r1, r11
+    mov     r13, r0
+    mov.l   =WHITE_PIXEL, r7
     mov.l   =SHADOW_PIXEL, r14
+    mov     #-1, r5
+    mov.l   =SHADOW_PIXEL_16, r6
     mov     #16, r12
 fmv_glyph_row:
     mov.w   @r8+, r1
     extu.w  r1, r1
+    shll16  r1
     mov     #16, r2
 fmv_glyph_pixel:
     shll    r1
     bf      fmv_glyph_blank
+    cmp/eq  #2, r0
+    bt      fmv_glyph_pixel16
     mov.l   r14, @r10
-    mov.l   r13, @r9
+    mov.l   r7, @r9
+    bra     fmv_glyph_advance
+    nop
+fmv_glyph_pixel16:
+    mov.w   r6, @r10
+    mov.w   r5, @r9
 fmv_glyph_blank:
-    add     #4, r9
-    add     #4, r10
+fmv_glyph_advance:
+    add     r13, r9
+    add     r13, r10
     dt      r2
     bf      fmv_glyph_pixel
     add     r11, r9

@@ -38,28 +38,33 @@ class FmvSubtitleBuildIntegrationTests(unittest.TestCase):
             self.manifest["output"], {"file": "EVENT.BIN", "sha256": digest}
         )
         self.assertEqual(self.manifest["cues"], 9)
-        self.assertEqual(self.manifest["patches"], 6)
+        self.assertEqual(self.manifest["patches"], 9)
         self.assertEqual(self.manifest["patch_groups"], ["fmv.runtime_subtitles"])
         self.assertEqual(
             self.manifest["runtime"],
             {
-                "bytes": 1682,
-                "capacity": 2136,
+                "bytes": 2454,
+                "capacity": 2656,
                 "arenas": {
                     "data_primary": {
                         "address": "0x06020000",
-                        "bytes": 1004,
+                        "bytes": 998,
                         "capacity": 1024,
                     },
                     "code": {
                         "address": "0x060260a8",
-                        "bytes": 464,
-                        "capacity": 512,
+                        "bytes": 560,
+                        "capacity": 704,
                     },
                     "data_secondary": {
-                        "address": "0x060262a8",
-                        "bytes": 214,
-                        "capacity": 600,
+                        "address": "0x06026368",
+                        "bytes": 384,
+                        "capacity": 408,
+                    },
+                    "data_tertiary": {
+                        "address": "0x06020df8",
+                        "bytes": 512,
+                        "capacity": 520,
                     },
                 },
             },

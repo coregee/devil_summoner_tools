@@ -27,13 +27,19 @@
         {
           "name": "subtitle_runtime",
           "address": "0x060260a8",
-          "expected_zero_bytes": 512,
+          "expected_zero_bytes": 704,
           "assembly": ["fmv_subtitles/runtime.s"]
         },
         {
           "name": "subtitle_data_secondary",
-          "address": "0x060262a8",
-          "expected_zero_bytes": 600,
+          "address": "0x06026368",
+          "expected_zero_bytes": 408,
+          "generated": "fmv_subtitle_data"
+        },
+        {
+          "name": "subtitle_data_tertiary",
+          "address": "0x06020df8",
+          "expected_zero_bytes": 520,
           "generated": "fmv_subtitle_data"
         },
         {
@@ -47,6 +53,18 @@
           "address": "0x060390ac",
           "expected": "060390e0",
           "linked_pointer": "fmv_async_init_wrapper"
+        },
+        {
+          "name": "async_launcher_init_pointer",
+          "address": "0x060396f0",
+          "expected": "060390e0",
+          "linked_pointer": "fmv_async_init_wrapper"
+        },
+        {
+          "name": "stream_presenter_pointer",
+          "address": "0x06039078",
+          "expected": "06038f18",
+          "linked_pointer": "fmv_stream_present_wrapper"
         },
         {
           "name": "presenter_pointer",

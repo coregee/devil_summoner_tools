@@ -53,23 +53,31 @@ ACTIVE_ADDRESS = PRIMARY_DATA_ADDRESS
 FRAME_ADDRESS = PRIMARY_DATA_ADDRESS + 4
 CUE_TABLE_ADDRESS = PRIMARY_DATA_ADDRESS + 8
 RUNTIME_ADDRESS = 0x060260A8
-RUNTIME_CAPACITY = 512
-SECONDARY_DATA_ADDRESS = 0x060262A8
-SECONDARY_DATA_CAPACITY = 600
+RUNTIME_CAPACITY = 704
+SECONDARY_DATA_ADDRESS = 0x06026368
+SECONDARY_DATA_CAPACITY = 408
+TERTIARY_DATA_ADDRESS = 0x06020DF8
+TERTIARY_DATA_CAPACITY = 520
 
-FONT16_BITMAP = 0x0021A000
-MOVIE_FRAMEBUFFER = 0x25E08000
-MOVIE_FRAMEBUFFER_STRIDE = 512
+DECODED_FRAMEBUFFER = 0x0607704C
+UNCACHED_DECODED_FRAMEBUFFER = 0x2607704C
+MOVIE_FRAMEBUFFER_STRIDE = 320
 MOVIE_BYTES_PER_PIXEL = 4
-SHADOW_OFFSET = MOVIE_FRAMEBUFFER_STRIDE * MOVIE_BYTES_PER_PIXEL + 4
-ROW_ADVANCE = MOVIE_FRAMEBUFFER_STRIDE * MOVIE_BYTES_PER_PIXEL - 16 * 4
-WHITE_PIXEL = 0x00FFFFFF
-SHADOW_PIXEL = 0x00010101
+BLOCKING_ROW_STRIDE = MOVIE_FRAMEBUFFER_STRIDE * MOVIE_BYTES_PER_PIXEL
+STREAM_ROW_STRIDE = MOVIE_FRAMEBUFFER_STRIDE * 2
+WHITE_PIXEL = 0x80FFFFFF
+SHADOW_PIXEL = 0x80010101
+SHADOW_PIXEL_16 = 0x8421
 
 STOCK_BLOCKING_PLAYER = 0x060393D0
 STOCK_ASYNC_INIT = 0x060390E0
 ASYNC_MOVIE_INDEX = 0x0607693C
+MOVIE_NAME_TABLE = 0x06062798
+SCRIPT_DISPATCH_TABLE = 0x060652B0
+ASYNC_MOVIE_SCRIPT_HANDLER = 0x0602DB74
+ASYNC_MOVIE_LAUNCHER = 0x060395FC
 STOCK_PRESENTER = 0x06039294
+STOCK_STREAM_PRESENTER = 0x06038F18
 
 SINGLE_LINE_TOP = 196
 DOUBLE_LINE_TOPS = (180, 196)
@@ -133,11 +141,13 @@ class FmvSubtitleBuild:
 class _Runtime:
     primary: bytes
     secondary: bytes
+    tertiary: bytes
     code: bytes
     labels: Mapping[str, int]
     cues: tuple[CompiledCue, ...]
     primary_used: int
     secondary_used: int
+    tertiary_used: int
     code_used: int
 
 
@@ -271,8 +281,11 @@ def _configuration() -> PatchRecipeConfiguration:
         ("subtitle_data_primary", PRIMARY_DATA_ADDRESS, "generated"),
         ("subtitle_runtime", RUNTIME_ADDRESS, "assembly"),
         ("subtitle_data_secondary", SECONDARY_DATA_ADDRESS, "generated"),
+        ("subtitle_data_tertiary", TERTIARY_DATA_ADDRESS, "generated"),
         ("blocking_player_pointer", 0x0602EE70, "linked_pointer"),
         ("async_init_pointer", 0x060390AC, "linked_pointer"),
+        ("async_launcher_init_pointer", 0x060396F0, "linked_pointer"),
+        ("stream_presenter_pointer", 0x06039078, "linked_pointer"),
         ("presenter_pointer", 0x0603907C, "linked_pointer"),
     )
     recipes = config.patches[TARGET]
@@ -281,7 +294,7 @@ def _configuration() -> PatchRecipeConfiguration:
         raise ValueError("FMV subtitle patch recipe inventory drifted")
     if any(
         row.replacement.generator != "fmv_subtitle_data"
-        for row in (recipes[0], recipes[2])
+        for row in (recipes[0], recipes[2], recipes[3])
     ):
         raise ValueError("FMV subtitle data generator contract drifted")
     return config
@@ -363,35 +376,68 @@ def _build_runtime() -> _Runtime:
         raise ValueError("FMV subtitle cue table exceeds its primary arena")
     primary = bytearray(PRIMARY_DATA_CAPACITY)
     secondary = bytearray(SECONDARY_DATA_CAPACITY)
+    tertiary = bytearray(TERTIARY_DATA_CAPACITY)
     struct.pack_into(">HH", primary, 8, len(cues), 0)
-    primary_cursor = header_size
-    secondary_cursor = 0
+    arenas = [
+        [PRIMARY_DATA_ADDRESS, primary, header_size],
+        [SECONDARY_DATA_ADDRESS, secondary, 0],
+        [TERTIARY_DATA_ADDRESS, tertiary, 0],
+    ]
+
+    def allocate(payload: bytes, context: str, *, alignment: int = 1) -> int:
+        for arena in arenas:
+            address, data, cursor = arena
+            cursor += (-(address + cursor)) % alignment
+            if cursor + len(payload) <= len(data):
+                data[cursor : cursor + len(payload)] = payload
+                arena[2] = cursor + len(payload)
+                return address + cursor
+        raise ValueError(f"FMV subtitle {context} exceeds its checked data arenas")
+
+    glyph_rows = FONT16_PATH.read_bytes()
+    code_advances: dict[int, int] = {}
+    for cue in cues:
+        for line in cue.lines:
+            for packed in line.packed_glyphs:
+                advance = packed >> 12
+                code = packed & 0x0FFF
+                previous = code_advances.setdefault(code, advance)
+                if previous != advance:
+                    raise ValueError("START2 FONT16 code has inconsistent advances")
+    codes = tuple(sorted(code_advances))
+    if len(codes) > 0xFF:
+        raise ValueError("START2 subtitle dense glyph bank exceeds one-byte tokens")
+    dense_codes = {code: index + 1 for index, code in enumerate(codes)}
+
     line_addresses: list[tuple[int, ...]] = []
 
     for cue in cues:
         pointers: list[int] = []
         for line in cue.lines:
-            payload = struct.pack(
-                f">HH{len(line.packed_glyphs) + 1}H",
-                line.x,
-                line.y,
-                *line.packed_glyphs,
-                0,
+            payload = struct.pack(">HH", line.x, line.y) + bytes(
+                [
+                    *(dense_codes[packed & 0x0FFF] for packed in line.packed_glyphs),
+                    0,
+                ]
             )
-            if primary_cursor + len(payload) <= PRIMARY_DATA_CAPACITY:
-                pointer = PRIMARY_DATA_ADDRESS + primary_cursor
-                primary[primary_cursor : primary_cursor + len(payload)] = payload
-                primary_cursor += len(payload)
-            else:
-                if secondary_cursor + len(payload) > SECONDARY_DATA_CAPACITY:
-                    raise ValueError(
-                        "FMV subtitle text exceeds its checked data arenas"
-                    )
-                pointer = SECONDARY_DATA_ADDRESS + secondary_cursor
-                secondary[secondary_cursor : secondary_cursor + len(payload)] = payload
-                secondary_cursor += len(payload)
-            pointers.append(pointer)
+            pointers.append(allocate(payload, "text", alignment=2))
         line_addresses.append(tuple(pointers))
+
+    advance_table = allocate(
+        bytes(code_advances[code] for code in codes), "glyph advances"
+    )
+    glyph_pointers: list[int] = []
+    for code in codes:
+        start = code * 32
+        glyph = glyph_rows[start : start + 32]
+        if len(glyph) != 32:
+            raise ValueError(f"START2 FONT16 code {code:#x} lies outside the font")
+        glyph_pointers.append(allocate(glyph, "embedded glyphs", alignment=2))
+    pointer_table = allocate(
+        struct.pack(f">{len(glyph_pointers)}I", *glyph_pointers),
+        "glyph pointer table",
+        alignment=4,
+    )
 
     for index, (cue, pointers) in enumerate(zip(cues, line_addresses)):
         first = pointers[0]
@@ -415,12 +461,16 @@ def _build_runtime() -> _Runtime:
         "STOCK_ASYNC_INIT": STOCK_ASYNC_INIT,
         "ASYNC_MOVIE_INDEX": ASYNC_MOVIE_INDEX,
         "STOCK_PRESENTER": STOCK_PRESENTER,
-        "FONT16_BITMAP": FONT16_BITMAP,
-        "MOVIE_FRAMEBUFFER": MOVIE_FRAMEBUFFER,
-        "SHADOW_OFFSET": SHADOW_OFFSET,
-        "ROW_ADVANCE": ROW_ADVANCE,
+        "STOCK_STREAM_PRESENTER": STOCK_STREAM_PRESENTER,
+        "GLYPH_POINTER_TABLE": pointer_table,
+        "GLYPH_ADVANCE_TABLE": advance_table,
+        "DECODED_FRAMEBUFFER": DECODED_FRAMEBUFFER,
+        "UNCACHED_DECODED_FRAMEBUFFER": UNCACHED_DECODED_FRAMEBUFFER,
+        "BLOCKING_ROW_STRIDE": BLOCKING_ROW_STRIDE,
+        "STREAM_ROW_STRIDE": STREAM_ROW_STRIDE,
         "WHITE_PIXEL": WHITE_PIXEL,
         "SHADOW_PIXEL": SHADOW_PIXEL,
+        "SHADOW_PIXEL_16": SHADOW_PIXEL_16,
     }
     try:
         assembly = assemble_file(ASSEMBLY_PATH, RUNTIME_ADDRESS, symbols)
@@ -432,6 +482,7 @@ def _build_runtime() -> _Runtime:
         "fmv_blocking_player_wrapper",
         "fmv_async_init_wrapper",
         "fmv_present_wrapper",
+        "fmv_stream_present_wrapper",
     }
     if not required_labels <= assembly.labels.keys():
         raise ValueError("FMV subtitle runtime is missing public entry points")
@@ -441,11 +492,13 @@ def _build_runtime() -> _Runtime:
     return _Runtime(
         bytes(primary),
         bytes(secondary),
+        bytes(tertiary),
         code,
         MappingProxyType(dict(assembly.labels)),
         cues,
-        primary_cursor,
-        secondary_cursor,
+        arenas[0][2],
+        arenas[1][2],
+        arenas[2][2],
         len(assembly.data),
     )
 
@@ -457,6 +510,7 @@ def _bind_patches(
     generated = {
         "subtitle_data_primary": runtime.primary,
         "subtitle_data_secondary": runtime.secondary,
+        "subtitle_data_tertiary": runtime.tertiary,
     }
     links_seen: set[str] = set()
     patches: list[Patch] = []
@@ -498,6 +552,7 @@ def _bind_patches(
         "fmv_blocking_player_wrapper",
         "fmv_async_init_wrapper",
         "fmv_present_wrapper",
+        "fmv_stream_present_wrapper",
     }:
         raise ValueError("FMV subtitle linked-pointer ownership drifted")
     return tuple(patches), runtime
@@ -522,6 +577,12 @@ def build_fmv_subtitles(base: bytes) -> FmvSubtitleBuild:
             SECONDARY_DATA_ADDRESS,
             runtime.secondary_used,
             SECONDARY_DATA_CAPACITY,
+        ),
+        RuntimeArena(
+            "data_tertiary",
+            TERTIARY_DATA_ADDRESS,
+            runtime.tertiary_used,
+            TERTIARY_DATA_CAPACITY,
         ),
     )
     return FmvSubtitleBuild(
