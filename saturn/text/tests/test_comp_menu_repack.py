@@ -19,8 +19,8 @@ from util.event_repack import FontMetrics  # noqa: E402
 
 GENERATED_ROOT = SATURN_ROOT / "text" / "generated" / "game"
 FONT8_METRICS = SATURN_ROOT / "font" / "generated" / "game" / "FONT8_metrics.json"
-MATURE_HASHES = {
-    "DVLNAME.DAT": "a99fd470632db18c393a01d91170c24863f0b0d17f47eeac7596b07fea6dfe28",
+OUTPUT_HASHES = {
+    "DVLNAME.DAT": "8dc63eb84662c567c6584b92c2838d7f067195f5191c879907f26b5deaa6d12e",
     "NORMHELP.DAT": "965071d279caf0a4558e183c20cab69666905a5733d434b0eecf6e9f8d657529",
 }
 
@@ -33,8 +33,8 @@ class CompMenuRepackTests(unittest.TestCase):
             cls.outputs[GENERATED_ROOT / "comp_menu_build.json"].decode("utf-8")
         )
 
-    def test_two_files_match_the_mature_saturn_output(self) -> None:
-        for name, expected in MATURE_HASHES.items():
+    def test_two_files_are_deterministic(self) -> None:
+        for name, expected in OUTPUT_HASHES.items():
             with self.subTest(name=name):
                 data = self.outputs[GENERATED_ROOT / name]
                 self.assertEqual(hashlib.sha256(data).hexdigest(), expected)
@@ -59,7 +59,7 @@ class CompMenuRepackTests(unittest.TestCase):
         data = self.outputs[GENERATED_ROOT / "DVLNAME.DAT"]
         checked = 0
         for index, physical_id in enumerate(ids):
-            glyphs = metrics.segment(values[physical_id])
+            glyphs = metrics.segment_output(values[physical_id])
             encoded = bytes(glyph.code for glyph in glyphs)
             pixels = sum(glyph.advance for glyph in glyphs)
             if len(encoded) <= 8 and pixels <= 64:

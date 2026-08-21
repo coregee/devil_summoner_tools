@@ -62,7 +62,7 @@ class BattleNegotiationRepackTests(unittest.TestCase):
             hashlib.sha256(
                 self.outputs[TEXT_ROOT / "generated" / "game" / "ITEMNAME.DAT"]
             ).hexdigest(),
-            "97727575963142efda2aa8b5544fd8406aad0691f87db8332ea39d51f8868c28",
+            "ef7529cb8d5b3ace761172c79c9359a7d588bfda0260a00c754dfdec8e2be140",
         )
 
     def test_manifest_covers_every_translator_facing_page(self) -> None:

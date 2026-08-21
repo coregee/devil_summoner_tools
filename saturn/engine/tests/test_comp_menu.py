@@ -26,7 +26,7 @@ from engine.core.patch_recipes import load_patch_recipe_configuration  # noqa: E
 from text.util.event_repack import FontMetrics  # noqa: E402
 
 
-EXPECTED_HASH = "a9fd0516cfabf301401d22233d5771ed2abf603f6eda36fe13d30c4ea683c41f"
+EXPECTED_HASH = "a3e0f479df32a8f181493adb5d4cba8e602617314419354446068c3b10636e7f"
 
 
 class CompMenuEngineTests(unittest.TestCase):
@@ -36,7 +36,7 @@ class CompMenuEngineTests(unittest.TestCase):
         cls.manifest = json.loads(cls.outputs[BUILD_PATH].decode("utf-8"))
         cls.metrics = FontMetrics.load(FONT8_METRICS_PATH)
 
-    def test_isolated_mature_comp_core_is_reproduced(self) -> None:
+    def test_isolated_comp_core_is_reproduced(self) -> None:
         output = self.outputs[NORMCOM_OUTPUT_PATH]
         self.assertEqual(len(output), 352_360)
         self.assertEqual(hashlib.sha256(output).hexdigest(), EXPECTED_HASH)

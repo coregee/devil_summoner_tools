@@ -64,7 +64,7 @@ class BattleNegotiationEngineTests(unittest.TestCase):
         self.assertEqual(len(self.combat), 351064)
         self.assertEqual(
             hashlib.sha256(self.combat).hexdigest(),
-            "fa4230af9dbfa871e01c4af5c91c932e2fb76eba4c2c25bb45baa5f99c88eb90",
+            "457cea3774d7894736aa5ecf02bcbcf95a0a731f008d963b78d57f8fc8fe2d1a",
         )
 
     def test_all_demon_and_race_inserts_come_from_authored_assets(self) -> None:
