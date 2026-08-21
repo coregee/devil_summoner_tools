@@ -115,7 +115,7 @@ stock fixed-advance template, with YES and NO centered in their original
 choice regions.
 
 The output hash is
-`c7ad447635a623d28ee7528b1067defe50fa95e0803af997441549e6103b3500`.
+`9143d8961f1193aa23a8033f70c829214fa7a40e149e6467b335f23e7ad61f41`.
 The default build installs this terminal `NAME.BIN` immediately after the
 generated fonts.
 

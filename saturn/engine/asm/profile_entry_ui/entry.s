@@ -132,7 +132,10 @@ echo_redraw:
     mov     #6, r1
     cmp/hs  r1, r8
     bt      er_done
-    mov.l   =fn_rowclear, r1
+    mov.l   =fn_rowclear, r1    ; clear stock row-8 codes/colors
+    jsr     @r1
+    mov     #8, r4
+    mov.l   =fn_clearrow, r1    ; direct pixel draws also need the canvas cleared
     jsr     @r1
     mov     #8, r4
     mov     r8, r4
@@ -738,10 +741,10 @@ eh_ok:
     mov.l   =g_row, r1
     mov     #1, r2
     mov.w   r2, @r1
-    mov     r8, r4
-    bsr     field_open
-    nop
     bsr     grid_draw
+    nop
+    mov     r8, r4
+    bsr     field_open          ; prompt is the final layer uploaded on transition
     nop
     bra     eh_done
     nop
@@ -763,6 +766,12 @@ eh_to_occ:
     mov     #0, r0             ; occ_last = 0, draw with choice 0 highlighted
     mov.l   =occ_last, r1
     mov.w   r0, @r1
+    mov.l   =fn_rowclear, r1    ; retire the editable row before occupation
+    jsr     @r1
+    mov     #8, r4
+    mov.l   =fn_clearrow, r1
+    jsr     @r1
+    mov     #8, r4
     mov     #0, r4
     mov.l   =occ_draw, r1
     jsr     @r1
@@ -817,10 +826,10 @@ eh_redo:
     mov     #0, r1
     mov.l   =g_pos, r2
     mov.w   r1, @r2
-    mov     #1, r4
-    bsr     field_open
-    nop
     bsr     grid_draw
+    nop
+    mov     #1, r4
+    bsr     field_open          ; prompt is the final layer uploaded on restart
     nop
 eh_done:
     lds.l   @r15+, pr

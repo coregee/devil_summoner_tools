@@ -16,7 +16,7 @@ import engine.surfaces.profile_entry_ui as profile  # noqa: E402
 from engine.core.patching import PatchError  # noqa: E402
 
 
-EXPECTED_HASH = "c7ad447635a623d28ee7528b1067defe50fa95e0803af997441549e6103b3500"
+EXPECTED_HASH = "9143d8961f1193aa23a8033f70c829214fa7a40e149e6467b335f23e7ad61f41"
 
 
 class ProfileEntryUiEngineTests(unittest.TestCase):
@@ -47,21 +47,26 @@ class ProfileEntryUiEngineTests(unittest.TestCase):
         arena = self.patches["runtime_arena"]
         self.assertEqual(arena.address, profile.DATA_ADDRESS)
         self.assertEqual(len(arena.replacement), profile.RUNTIME_CAPACITY)
-        self.assertEqual(self.build.runtime_used_size, 5348)
+        self.assertEqual(self.build.runtime_used_size, 5376)
         self.assertEqual(self.build.runtime_capacity, 6840)
         self.assertEqual(
             hashlib.sha256(arena.replacement).hexdigest(),
-            "4dfb6b284a386610bc9ce2db075fea5046eb5a2a844550e697e0ec1db64d9a6f",
+            "419fc4026acf7d81560dd3d0dae8d22687ef5f9dd349203e428ec1348c6c4290",
         )
         self.assertEqual(
             hashlib.sha256(arena.replacement[:2636]).hexdigest(),
             "e1b54d820ae2b000d9465d81e0cd84da67041d20a09e702574e91ffe91cdb95f",
         )
         self.assertEqual(
-            hashlib.sha256(arena.replacement[2636:5348]).hexdigest(),
-            "26e4a155940592bd3b48d90ee8c1ae711ddf86e077a03d67c561fc2c0874dafa",
+            hashlib.sha256(arena.replacement[2636:5376]).hexdigest(),
+            "10d962de9b5474205b39cbc883feb30b7b0ebd07431c074cefb139374cb964dd",
         )
-        self.assertFalse(any(arena.replacement[5348:]))
+        self.assertFalse(any(arena.replacement[5376:]))
+
+    def test_centered_echo_clears_both_stock_row_state_and_pixel_canvas(self) -> None:
+        controller = self.patches["runtime_arena"].replacement[2636:5376]
+        self.assertIn(struct.pack(">I", 0x0602EE1C), controller)
+        self.assertIn(struct.pack(">I", 0x0602F0E4), controller)
 
     def test_typed_recipe_and_provenance_inventories_are_complete(self) -> None:
         expected_names = {
