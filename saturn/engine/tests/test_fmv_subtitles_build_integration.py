@@ -43,7 +43,7 @@ class FmvSubtitleBuildIntegrationTests(unittest.TestCase):
         self.assertEqual(
             self.manifest["runtime"],
             {
-                "bytes": 2454,
+                "bytes": 2458,
                 "capacity": 2656,
                 "arenas": {
                     "data_primary": {
@@ -53,7 +53,7 @@ class FmvSubtitleBuildIntegrationTests(unittest.TestCase):
                     },
                     "code": {
                         "address": "0x060260a8",
-                        "bytes": 560,
+                        "bytes": 564,
                         "capacity": 704,
                     },
                     "data_secondary": {

@@ -42,6 +42,20 @@
       },
       "preLaunchTask": null,
       "problemMatcher": []
+    },
+    {
+      "name": "Open Translation Editor",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "python -B -m tools.editor",
+      "cwd": "${workspaceFolder}",
+      "presentation": {
+        "hidden": false,
+        "group": "tools",
+        "order": 1
+      },
+      "preLaunchTask": null,
+      "problemMatcher": []
     }
   ]
 }

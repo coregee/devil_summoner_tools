@@ -1,11 +1,10 @@
 ; Lossless START2 subtitle overlay for EVENT.BIN's Cinepak player.
 ;
-; Both players stage a decoded frame at cached work-RAM address 0x0607704c
-; before scheduling an SCU DMA to video memory.  The decoder has already done
-; its cache maintenance by the time these wrappers run, so later CPU writes via
-; that cached alias are not visible to the DMA engine.  Draw through the P1
-; uncached alias instead; the stock transfer from 0x0607704c then sees the same
-; physical bytes and carries the subtitle into the displayed frame.
+; Both players stage a decoded reference frame in work RAM and use SCU DMA to
+; present it.  Call the stock presenter first, then draw into its live VDP
+; destination.  B-bus serialization places these writes after an active DMA,
+; while leaving Cinepak's persistent reference frame pristine.  The next
+; presented frame therefore removes an expired cue in one step.
 
 fmv_blocking_player_wrapper:
     mov.l   r8, @-r15
@@ -62,49 +61,53 @@ fmv_async_state_ready:
     .pool
 
 fmv_present_wrapper:
+    mov.l   r8, @-r15
     mov.l   r12, @-r15
     mov.l   r13, @-r15
     mov.l   r14, @-r15
     sts.l   pr, @-r15
-    mov.l   =UNCACHED_DECODED_FRAMEBUFFER, r14
-    mov.l   =BLOCKING_ROW_STRIDE, r12
-    mov     #4, r13
-    bsr     fmv_present_active_frame
-    nop
     mov.l   =STOCK_PRESENTER, r1
     jsr     @r1
     nop
+    mov     r0, r8
+    mov.l   =BLOCKING_DMA_DESTINATION_POINTER, r1
+    mov.l   @r1, r14
+    mov.l   =BLOCKING_DISPLAY_ROW_STRIDE, r12
+    mov     #4, r13
+    bsr     fmv_present_active_frame
+    nop
+    mov     r8, r0
     lds.l   @r15+, pr
     mov.l   @r15+, r14
     mov.l   @r15+, r13
-    rts
     mov.l   @r15+, r12
+    rts
+    mov.l   @r15+, r8
     .pool
 
 fmv_stream_present_wrapper:
+    mov.l   r8, @-r15
     mov.l   r12, @-r15
     mov.l   r13, @-r15
     mov.l   r14, @-r15
     sts.l   pr, @-r15
-    mov.l   r4, @-r15
-    mov.l   r5, @-r15
-    mov.l   r6, @-r15
-    mov.l   =UNCACHED_DECODED_FRAMEBUFFER, r14
-    mov.l   =STREAM_ROW_STRIDE, r12
-    mov     #2, r13
-    bsr     fmv_present_active_frame
-    nop
-    mov.l   @r15+, r6
-    mov.l   @r15+, r5
-    mov.l   @r15+, r4
     mov.l   =STOCK_STREAM_PRESENTER, r1
     jsr     @r1
     nop
+    mov     r0, r8
+    mov.l   =STREAM_DMA_DESTINATION_POINTER, r1
+    mov.l   @r1, r14
+    mov.l   =STREAM_DISPLAY_ROW_STRIDE, r12
+    mov     #2, r13
+    bsr     fmv_present_active_frame
+    nop
+    mov     r8, r0
     lds.l   @r15+, pr
     mov.l   @r15+, r14
     mov.l   @r15+, r13
-    rts
     mov.l   @r15+, r12
+    rts
+    mov.l   @r15+, r8
     .pool
 
 fmv_present_active_frame:

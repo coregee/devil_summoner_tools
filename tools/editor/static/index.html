@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Devil Summoner Translation Editor</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="identity">
+        <span class="sigil" aria-hidden="true">DS</span>
+        <div>
+          <p class="kicker">Translation tools</p>
+          <h1>Devil Summoner Editor</h1>
+        </div>
+      </div>
+      <div class="connection"><span></span><strong id="corpus-state">Indexing corpus…</strong></div>
+    </header>
+
+    <main class="workspace">
+      <aside class="browser" aria-label="Translation fields">
+        <label class="search">
+          <span>Search translations</span>
+          <input id="search" type="search" placeholder="Dialogue, asset, reference…" autocomplete="off">
+        </label>
+        <div class="browser-summary">
+          <strong id="result-count">—</strong>
+          <span id="result-note"></span>
+        </div>
+        <nav id="entry-list" class="entry-list" aria-label="Search results"></nav>
+      </aside>
+
+      <section class="editor" aria-label="Translation editor">
+        <div id="empty-state" class="empty-state">
+          <p class="kicker">Canonical assets</p>
+          <h2>Select a translation field</h2>
+          <p>Search by wording, asset path, or semantic identity. Every known Saturn consumer will be checked together.</p>
+        </div>
+
+        <div id="editor-content" hidden>
+          <header class="record-heading">
+            <div>
+              <p id="asset-path" class="kicker"></p>
+              <h2 id="record-name"></h2>
+            </div>
+            <div class="record-meta">
+              <span id="review-state" class="pill"></span>
+              <span id="consumer-count" class="pill"></span>
+            </div>
+          </header>
+
+          <div class="editor-grid">
+            <section class="copy-panel">
+              <label for="reference">Japanese reference</label>
+              <textarea id="reference" readonly spellcheck="false"></textarea>
+
+              <div class="translation-label">
+                <label for="translation">English translation</label>
+                <span id="character-count">0 characters</span>
+              </div>
+              <textarea id="translation" class="translation" spellcheck="true"></textarea>
+
+              <div class="save-row">
+                <p id="save-state">No unsaved changes</p>
+                <div>
+                  <button id="discard" class="secondary" type="button" disabled>Discard</button>
+                  <button id="save" type="button" disabled>Save translation</button>
+                </div>
+              </div>
+            </section>
+
+            <section class="preview-panel" aria-labelledby="preview-title">
+              <header class="panel-heading">
+                <div>
+                  <p class="kicker">Live game render</p>
+                  <h3 id="preview-title">Surface preview</h3>
+                </div>
+                <select id="surface-select" aria-label="Preview surface"></select>
+              </header>
+              <div class="screen-frame">
+                <img id="preview-image" alt="Translation rendered in its game surface" hidden>
+                <div id="preview-empty" class="preview-empty">Preview unavailable for this surface.</div>
+              </div>
+              <div class="surface-facts">
+                <span id="font-fact">Font —</span>
+                <span id="geometry-fact">Geometry —</span>
+                <span id="fidelity-fact">Fidelity —</span>
+              </div>
+            </section>
+          </div>
+
+          <section class="validation-panel" aria-labelledby="validation-title">
+            <header class="panel-heading">
+              <div>
+                <p class="kicker">All bound consumers</p>
+                <h3 id="validation-title">Validation</h3>
+              </div>
+              <span id="validation-summary" class="validation-summary">Waiting for draft</span>
+            </header>
+            <div id="diagnostics" class="diagnostics"></div>
+            <details class="consumer-details">
+              <summary>Physical consumer records</summary>
+              <ul id="consumer-list"></ul>
+            </details>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
+

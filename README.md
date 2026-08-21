@@ -36,6 +36,7 @@ either disc has been tested in game.
 | `saturn/visual` | 2,365 game image views and 295 classified compendium image structures, with sparse tracked replacements |
 | `saturn/rom` | Verified extraction and transactional rebuilding of both Saturn discs |
 | `psp` | Placeholder package only; shared assets exist, but platform bindings and a build workflow do not |
+| `tools` | Local browser-based translation editing, bound-consumer validation, and exact-font surface previews |
 
 The remaining work is chiefly translation review and playtesting, semantic
 ownership for visible wording in artwork, a handful of deliberately unresolved
@@ -110,6 +111,18 @@ width, row, and capacity limits. See the
 [text tooling documentation](saturn/text/README.md) and
 [consumer specifications](assets/consumers.md) before adding fields or changing
 layout-sensitive text.
+
+The local translation editor provides a searchable view of these same canonical
+assets, checks every mapped Saturn consumer, and previews supported surfaces
+with the generated game fonts:
+
+```powershell
+python -B -m tools.editor
+```
+
+It is also available as **Open Translation Editor** in the repository's VS Code
+launch configurations. See [`tools/README.md`](tools/README.md) for editor-specific
+details.
 
 #### Image Editing
 
