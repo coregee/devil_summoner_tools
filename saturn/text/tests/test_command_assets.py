@@ -207,6 +207,11 @@ class CommandAssetTests(unittest.TestCase):
             dict(self.facility_bindings[3].variants),
             {"game.facility_command_labels.o0425f8": "font8_tiles"},
         )
+        for binding in self.facility_bindings:
+            catalog = catalogs[binding.asset.as_posix()]
+            for physical_id, variant in binding.variants.items():
+                with self.subTest(physical_id=physical_id, variant=variant):
+                    catalog.field(binding.records[physical_id]).resolve(variant)
 
     def test_every_menu_tag_selects_its_font8_alphabet_in_the_corpus(self) -> None:
         for key in self.battle.entries:

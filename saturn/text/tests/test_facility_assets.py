@@ -177,6 +177,18 @@ class FacilityAssetTests(unittest.TestCase):
             ],
             "confirm_prompt.text",
         )
+        self.assertEqual(
+            {
+                key: gouma.entries[key].fields["text"].translation
+                for key in ("line_0134", "line_0135", "line_0139", "line_0143")
+            },
+            {
+                "line_0134": "{GLYPH:010a}: Basic fusion result",
+                "line_0135": "{GLYPH:010b}: Element appears",
+                "line_0139": "{GLYPH:010e}: Same race down one",
+                "line_0143": "{GLYPH:010d}: No combination",
+            },
+        )
 
     def test_event_bar_name_rows_use_the_mature_runtime_limits(self) -> None:
         surfaces = load_surfaces()

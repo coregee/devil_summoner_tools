@@ -473,13 +473,13 @@
     "line_0134": {
       "text": {
         "reference": "〇 ……基本合体法則で悪魔が出現",
-        "translation": "〇: Basic fusion result"
+        "translation": "{GLYPH:010a}: Basic fusion result"
       }
     },
     "line_0135": {
       "text": {
         "reference": "{latin_space} ……精霊が出現",
-        "translation": "{latin_space}: Element appears"
+        "translation": "{GLYPH:010b}: Element appears"
       }
     },
     "line_0136": {
@@ -503,7 +503,7 @@
     "line_0139": {
       "text": {
         "reference": "× ……元の悪魔が同種族で1ランクダウン",
-        "translation": "×: Same race down one"
+        "translation": "{GLYPH:010e}: Same race down one"
       }
     },
     "line_0140": {
@@ -527,7 +527,7 @@
     "line_0143": {
       "text": {
         "reference": "− ……組合せが存在しない",
-        "translation": "−: No combination"
+        "translation": "{GLYPH:010d}: No combination"
       }
     },
     "line_0144": {
