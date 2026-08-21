@@ -66,6 +66,7 @@ FONT16_METRICS_PATH = FONT_ROOT / "FONT16_metrics.json"
 FONT8_PATH = FONT_ROOT / "FONT8.FON"
 FONT8_METRICS_PATH = FONT_ROOT / "FONT8_metrics.json"
 KANJI_PATH = FONT_ROOT / "KANJI.FON"
+KANJI_METRICS_PATH = FONT_ROOT / "KANJI_metrics.json"
 KANJI_CONFIG_PATH = SATURN_ROOT / "font" / "config" / "game" / "kanji.json"
 
 ASSET_FILES = (PROFILE_ASSET_PATH, PLAYER_PROFILE_ASSET_PATH)
@@ -75,6 +76,7 @@ RUNTIME_INPUT_FILES = (
     FONT8_PATH,
     FONT8_METRICS_PATH,
     KANJI_PATH,
+    KANJI_METRICS_PATH,
     KANJI_CONFIG_PATH,
     SURFACES_PATH,
     GLYPH_SETS_PATH,
@@ -89,9 +91,9 @@ LOAD_ADDRESS = 0x06020000
 
 DATA_ADDRESS = 0x0603E840
 RUNTIME_CAPACITY = 6840
-DEFAULT_DATA_SIZE = 2504
-DEFAULT_CONTROLLER_ADDRESS = 0x0603F208
-DEFAULT_CONTROLLER_SIZE = 2608
+DEFAULT_DATA_SIZE = 2636
+DEFAULT_CONTROLLER_ADDRESS = 0x0603F28C
+DEFAULT_CONTROLLER_SIZE = 2712
 
 GRID_ROWS = 8
 GRID_COLUMNS = 19
@@ -125,6 +127,7 @@ OCCUPATION_KEYS = (
     "occupation_jobless",
 )
 TAB_LABEL_KEYS = ("tab_upper", "tab_lower", "tab_symbol")
+CONFIRM_KEYS = ("prompt_confirm", "label_yes", "label_no")
 
 
 @dataclass(frozen=True, slots=True)
@@ -179,6 +182,7 @@ def _configuration() -> PatchRecipeConfiguration:
             "font8_sha256",
             "font8_metrics_sha256",
             "kanji_sha256",
+            "kanji_metrics_sha256",
             "kanji_config_sha256",
             "glyph_sets_sha256",
         },
@@ -216,6 +220,7 @@ def _validate_sources(
         "font8_sha256": _file_sha256(FONT8_PATH),
         "font8_metrics_sha256": _file_sha256(FONT8_METRICS_PATH),
         "kanji_sha256": _file_sha256(KANJI_PATH),
+        "kanji_metrics_sha256": _file_sha256(KANJI_METRICS_PATH),
         "kanji_config_sha256": _file_sha256(KANJI_CONFIG_PATH),
         "glyph_sets_sha256": _file_sha256(GLYPH_SETS_PATH),
     }
@@ -258,8 +263,8 @@ def _validate_text_binding() -> None:
 def _validate_surfaces() -> None:
     expected = {
         "name_entry.prompt": ("font16", 1, "pixels", 168, 11),
-        "name_entry.confirm_prompt": ("font16", 1, "glyph_cells", 11, 11),
-        "name_entry.confirm_choice": ("font16", 1, "glyph_cells", 3, 3),
+        "name_entry.confirm_prompt": ("font16", 1, "pixels", 176, 11),
+        "name_entry.confirm_choice": ("font16", 1, "pixels", 48, 3),
         "name_entry.summary_label": ("font16", 1, "pixels", 104, 11),
         "name_entry.tab_label": ("font16", 1, "pixels", 96, None),
         "name_entry.occupation_choice": ("font16", 1, "pixels", 128, None),
@@ -340,11 +345,50 @@ def _reference_codes(reference_set: str) -> Mapping[str, int]:
     return MappingProxyType(output)
 
 
-def _kanji_codes() -> Mapping[str, int]:
+def _kanji_maps() -> tuple[Mapping[str, int], Mapping[str, int]]:
     handler = load_glyph_sets().for_surface("name_entry.grid_row")
     if handler is None or handler.font != "kanji":
         raise ValueError("name_entry.grid_row needs an explicit KANJI glyph handler")
-    return _reference_codes(handler.reference_set)
+    codes = _reference_codes(handler.reference_set)
+    try:
+        document = json.loads(KANJI_METRICS_PATH.read_text(encoding="utf-8"))
+        rows = document["reference_sets"][handler.reference_set]
+    except (FileNotFoundError, json.JSONDecodeError, KeyError, TypeError) as error:
+        raise ValueError("invalid generated KANJI reference-set metrics") from error
+    if not isinstance(rows, list):
+        raise ValueError("generated KANJI reference set must be a list")
+    metrics_codes: dict[str, int] = {}
+    offsets: dict[str, int] = {}
+    for index, row in enumerate(rows):
+        try:
+            character = row["text"]
+            code = row["code"]
+            left = row["ink_left"]
+            right = row["ink_right"]
+        except (KeyError, TypeError) as error:
+            raise ValueError(f"invalid generated KANJI metric {index}") from error
+        if (
+            not isinstance(character, str)
+            or len(character) != 1
+            or type(code) is not int
+            or type(left) is not int
+            or type(right) is not int
+            or not 0 <= left <= right <= 16
+            or character in metrics_codes
+        ):
+            raise ValueError(f"invalid generated KANJI metric {index}")
+        metrics_codes[character] = code
+        ink_width = right - left
+        offsets[character] = 0 if ink_width == 0 else (16 - ink_width) // 2 - left
+    if metrics_codes != dict(codes):
+        raise ValueError("generated KANJI metrics disagree with the configured codes")
+    if any(not 0 <= offset <= 15 for offset in offsets.values()):
+        raise ValueError("generated KANJI centering offset is out of range")
+    return codes, MappingProxyType(offsets)
+
+
+def _kanji_codes() -> Mapping[str, int]:
+    return _kanji_maps()[0]
 
 
 def _ascii_text(
@@ -429,6 +473,7 @@ def _data_layout(
     advances16: Mapping[str, int],
     codes8: Mapping[str, int],
     kanji_codes: Mapping[str, int],
+    kanji_offsets: Mapping[str, int],
 ) -> tuple[bytes, Mapping[str, int], Mapping[str, int]]:
     blocks: list[DataBlock] = []
     cursor = DATA_ADDRESS
@@ -478,8 +523,18 @@ def _data_layout(
         struct.pack(">5I", *(field.stage_address for field in PLAYER_NAME_FIELDS)),
     )
     add("ascii_to_width", byte_to_advance_table(advances16)[0x20:0x80])
+    add(
+        "ascii_to_grid_offset",
+        bytes(kanji_offsets.get(chr(code), 0) for code in range(0x20, 0x80)),
+    )
 
-    string_keys = (*PROMPT_KEYS, *OCCUPATION_KEYS, *TAB_LABEL_KEYS, "label_occupation")
+    string_keys = (
+        *PROMPT_KEYS,
+        *OCCUPATION_KEYS,
+        *TAB_LABEL_KEYS,
+        *CONFIRM_KEYS,
+        "label_occupation",
+    )
     string_offsets: dict[str, int] = {}
     string_data = bytearray()
     for key in string_keys:
@@ -490,6 +545,10 @@ def _data_layout(
             if key in OCCUPATION_KEYS
             else (None, 96)
             if key in TAB_LABEL_KEYS
+            else (11, 176)
+            if key == "prompt_confirm"
+            else (3, 48)
+            if key in {"label_yes", "label_no"}
             else (11, 104)
         )
         value = _ascii_text(
@@ -533,6 +592,14 @@ def _data_layout(
         )
     add("tab_info", bytes(tab_info))
 
+    confirm_info = bytearray()
+    for key, center in zip(CONFIRM_KEYS, (None, 216, 280)):
+        value = _translation(catalog, key)
+        width = sum(glyph.advance for glyph in metrics16.segment_output(value))
+        x = 8 if center is None else max(0, center - width // 2)
+        confirm_info.extend(struct.pack(">IHH", labels[key], x, 192))
+    add("confirm_info", bytes(confirm_info), align=4)
+
     if cursor > DATA_ADDRESS + RUNTIME_CAPACITY:
         raise ValueError("Profile Entry generated data exceeds its runtime arena")
     payload = bytearray(cursor - DATA_ADDRESS)
@@ -548,12 +615,9 @@ def _templates(catalog, metrics16: FontMetrics) -> Mapping[str, bytes]:
     entry = [0] * 20
     entry[-1] = ROW_TERMINATOR
 
+    # Row 12 is cleared and rebuilt proportionally by confirm_open. Keeping the
+    # stock template blank prevents its fixed-cell pass from leaking through.
     confirm = [0] * 20
-    confirm[:ENTRY_COLUMN] = _fixed_words(
-        catalog, metrics16, "prompt_confirm", ENTRY_COLUMN
-    )
-    confirm[12:15] = _fixed_words(catalog, metrics16, "label_yes", 3)
-    confirm[16:19] = _fixed_words(catalog, metrics16, "label_no", 3)
     confirm[-1] = ROW_TERMINATOR
 
     occupation = [0] * 20
@@ -616,26 +680,21 @@ def _controller_symbols(
         "fn_btnA": 0x0602ECD0,
         "fn_btnB": 0x0602ECC0,
         "fn_btnX": 0x0602ECB2,
-        "fn_exitgrid": 0x06030E84,
         "fn_rowclear": 0x0602EE1C,
-        "fn_pen": 0x0602EE80,
-        "fn_color": 0x0602EE94,
-        "fn_drawstr": 0x0602EFB8,
         "fn_rowflush": 0x0602F6AC,
-        "fn_newline": 0x0602EE60,
-        "fn_gridrow": 0x0602F05C,
-        "fn_clearall": 0x0602EDD0,
-        "fn_fullflush": 0x0602F628,
         "fn_upload": 0x0602F1C4,
         "fn_setbit": 0x06032AD4,
+        "fn_kanji_blit": 0x0602F3F4,
         "fn_blit": 0x0602F510,
         "fn_clearrow": 0x0602F0E4,
         "fn_clear07": 0x0602F0C8,
         "ascii_to_atlas": addresses["ascii_to_atlas"],
         "ascii_to_width": addresses["ascii_to_width"],
         "ascii_to_charmap": addresses["ascii_to_charmap"],
+        "ascii_to_grid_offset": addresses["ascii_to_grid_offset"],
         "OCC_INFO": addresses["occupation_info"],
         "TAB_INFO": addresses["tab_info"],
+        "CONFIRM_INFO": addresses["confirm_info"],
         "OCC_PROMPT": labels["label_occupation"],
         "J_TEXT_JSR": 0x06033144,
         "J_TEXT_SKIP": 0x0603314A,
@@ -643,7 +702,6 @@ def _controller_symbols(
         "J_CONFIRM": 0x060332EA,
         "J_T12": 0x0603336A,
         "J_IDLE": 0x0603341E,
-        "TMPL8": 0x06040B78,
         "prompt_pointers": addresses["prompt_pointers"],
         "default_city_ward": addresses["default_city_ward"],
         "grid_bases": addresses["grid_bases"],
@@ -666,13 +724,15 @@ def _runtime(
     codes16, advances16 = _font16_maps(metrics16)
     _widths8, codes8 = font8_tables(metrics8)
     _validate_dormant_text(catalog, metrics16)
+    kanji_codes, kanji_offsets = _kanji_maps()
     data, addresses, labels = _data_layout(
         catalog,
         metrics16,
         codes16,
         advances16,
         codes8,
-        _kanji_codes(),
+        kanji_codes,
+        kanji_offsets,
     )
 
     full_name = parse_full_name_template(full_name_storage)

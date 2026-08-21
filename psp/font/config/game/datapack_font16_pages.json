@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "datapack_font16_pages",
+  "name": "DATAPACK FONT16 - Main UI (7 Pages)",
+  "file": "datapack.bin members 9-15",
+  "description": "Runtime-proven paged main-UI FONT16. Stock drawing selects member 9 + (code >> 8), providing 1,792 physical cells. The original project proved several feature-local replacement banks; this first package slice catalogues the complete stock atlas and keeps generic replacement locked until those ownership guards are ported.",
+  "confidence": "runtime_proven",
+  "glyph_count": 1792,
+  "format": {"width": 16, "height": 16, "bpp": 8, "row_stride": 16, "glyph_stride": 256},
+  "storage": {"kind": "gim_pages", "logical_target_indices": [0, 1, 2, 3, 4, 5, 6]},
+  "atlas": {
+    "columns": 32,
+    "scale": 1,
+    "groups": {
+      "stock_latin": [
+        {"start": 0, "characters": " 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"}
+      ]
+    }
+  },
+  "source_overrides": {},
+  "editable_ranges": [],
+  "repack": {},
+  "targets": [
+    {"kind": "pack_member", "iso_path": "PSP_GAME/USRDIR/datapack.bin", "member_index": 9, "offset": 441184, "size": 66848, "sha256": "1fd3d308e1ed056d4bbb22908a884830fe924469ec495530b38cc9e774a7739c"},
+    {"kind": "pack_member", "iso_path": "PSP_GAME/USRDIR/datapack.bin", "member_index": 10, "offset": 508032, "size": 66848, "sha256": "9efc7516e554488939eef00330c643488ceb8f3eaf594ff116644cdac0046cc4"},
+    {"kind": "pack_member", "iso_path": "PSP_GAME/USRDIR/datapack.bin", "member_index": 11, "offset": 574880, "size": 66848, "sha256": "a6f6057bed3c203271bf2148ce4af6211cd2fa649a44675cf2f5f308dd506257"},
+    {"kind": "pack_member", "iso_path": "PSP_GAME/USRDIR/datapack.bin", "member_index": 12, "offset": 641728, "size": 66848, "sha256": "cce56a56bbdd8407afc9dccb1bf6d149c1d1d234409c3da8c399f0d6aad368bd"},
+    {"kind": "pack_member", "iso_path": "PSP_GAME/USRDIR/datapack.bin", "member_index": 13, "offset": 708576, "size": 66848, "sha256": "775a001314bb7c90eeb88dd886f27ec16966ea3ae6909dc7ceb1a5ff61632499"},
+    {"kind": "pack_member", "iso_path": "PSP_GAME/USRDIR/datapack.bin", "member_index": 14, "offset": 775424, "size": 66848, "sha256": "b5347cb58f78baaad06c2a8a4775eca9ff9a4a7a40a2fbf82c23a19c8fa7b60d"},
+    {"kind": "pack_member", "iso_path": "PSP_GAME/USRDIR/datapack.bin", "member_index": 15, "offset": 842272, "size": 66848, "sha256": "462bedbda5f68fab2ac555b5eac13958716818235dad536702fdc065adf7664c"}
+  ]
+}
+

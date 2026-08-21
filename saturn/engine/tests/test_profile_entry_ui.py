@@ -14,11 +14,9 @@ if str(SATURN_ROOT) not in sys.path:
 
 import engine.surfaces.profile_entry_ui as profile  # noqa: E402
 from engine.core.patching import PatchError  # noqa: E402
-from text.util.event_repack import FontMetrics  # noqa: E402
 
 
-CORRECTED_HASH = "bde4ea3bd7edd9bd9427aeaed68637bb597163a6c1db73e3d720222d5ebf8397"
-MATURE_BUGGY_HASH = "11b5824ffb71f54137ff9a644e0d55ef0dee3ee6f9e176a72310574ddecf22d3"
+EXPECTED_HASH = "c7ad447635a623d28ee7528b1067defe50fa95e0803af997441549e6103b3500"
 
 
 class ProfileEntryUiEngineTests(unittest.TestCase):
@@ -27,9 +25,9 @@ class ProfileEntryUiEngineTests(unittest.TestCase):
         cls.build = profile.build_profile_entry_ui()
         cls.patches = {row.name: row for row in cls.build.patches}
 
-    def test_corrected_mature_output_is_reproduced_exactly(self) -> None:
+    def test_polished_profile_entry_output_is_reproduced_exactly(self) -> None:
         self.assertEqual(len(self.build.data), 155208)
-        self.assertEqual(hashlib.sha256(self.build.data).hexdigest(), CORRECTED_HASH)
+        self.assertEqual(hashlib.sha256(self.build.data).hexdigest(), EXPECTED_HASH)
         self.assertEqual(len(self.build.patches), 22)
         self.assertEqual(
             tuple(dict.fromkeys(row.group for row in self.build.patches)),
@@ -40,32 +38,30 @@ class ProfileEntryUiEngineTests(unittest.TestCase):
             ),
         )
 
-    def test_confirmation_sentinel_is_the_only_mature_binary_delta(self) -> None:
-        sentinel = 0x20C3E
-        self.assertEqual(self.build.data[sentinel : sentinel + 2], b"\x80\x00")
-        buggy = bytearray(self.build.data)
-        buggy[sentinel : sentinel + 2] = b"\0\0"
-        self.assertEqual(hashlib.sha256(buggy).hexdigest(), MATURE_BUGGY_HASH)
+    def test_confirmation_template_is_blank_for_the_proportional_runtime(self) -> None:
+        confirm = self.patches["confirm_template"]
+        words = struct.unpack(">20H", confirm.replacement)
+        self.assertEqual(words, (0,) * 19 + (profile.ROW_TERMINATOR,))
 
     def test_runtime_arena_preserves_the_proven_default_layout(self) -> None:
         arena = self.patches["runtime_arena"]
         self.assertEqual(arena.address, profile.DATA_ADDRESS)
         self.assertEqual(len(arena.replacement), profile.RUNTIME_CAPACITY)
-        self.assertEqual(self.build.runtime_used_size, 5112)
+        self.assertEqual(self.build.runtime_used_size, 5348)
         self.assertEqual(self.build.runtime_capacity, 6840)
         self.assertEqual(
             hashlib.sha256(arena.replacement).hexdigest(),
-            "2eaef6daec94c6dee438ca76b1b96ebe53201618244c09ded5864fea9cb35a11",
+            "4dfb6b284a386610bc9ce2db075fea5046eb5a2a844550e697e0ec1db64d9a6f",
         )
         self.assertEqual(
-            hashlib.sha256(arena.replacement[:2504]).hexdigest(),
-            "59bf35d50b3f80d480f94efeadf9079486c219e11e8627194e6fe2715896aae8",
+            hashlib.sha256(arena.replacement[:2636]).hexdigest(),
+            "e1b54d820ae2b000d9465d81e0cd84da67041d20a09e702574e91ffe91cdb95f",
         )
         self.assertEqual(
-            hashlib.sha256(arena.replacement[2504:5112]).hexdigest(),
-            "135dadfde95bb69a5d602bf1fac4c0c296b6b1d643d78fac7231dc8014a8b9df",
+            hashlib.sha256(arena.replacement[2636:5348]).hexdigest(),
+            "26e4a155940592bd3b48d90ee8c1ae711ddf86e077a03d67c561fc2c0874dafa",
         )
-        self.assertFalse(any(arena.replacement[5112:]))
+        self.assertFalse(any(arena.replacement[5348:]))
 
     def test_typed_recipe_and_provenance_inventories_are_complete(self) -> None:
         expected_names = {
@@ -114,9 +110,9 @@ class ProfileEntryUiEngineTests(unittest.TestCase):
             {f"game:{profile.TARGET}": profile._sha256(profile._stock_source())},
         )
 
-    def test_grids_use_the_named_stock_kanji_reference_set(self) -> None:
+    def test_grids_use_the_named_ark_kanji_set_and_runtime_blitter(self) -> None:
         arena = self.patches["runtime_arena"].replacement
-        codes = profile._kanji_codes()
+        codes, offsets = profile._kanji_maps()
 
         def word(offset: int) -> int:
             return struct.unpack_from(">H", arena, offset)[0]
@@ -135,8 +131,11 @@ class ProfileEntryUiEngineTests(unittest.TestCase):
         self.assertEqual(word(explicit_space), codes[" "])
         symbol_commit = symbol_display + 304
         self.assertEqual(word(symbol_commit + explicit_space - symbol_display), 0x20)
+        self.assertGreater(offsets["i"], offsets["W"])
+        self.assertEqual(arena.count(struct.pack(">I", 0x0602F3F4)), 1)
+        self.assertNotIn(struct.pack(">I", 0x0602F05C), arena)
 
-    def test_three_glyph_no_edit_uses_the_free_confirmation_cell(self) -> None:
+    def test_three_glyph_no_edit_is_owned_by_the_proportional_confirm_data(self) -> None:
         original = profile._translation
 
         def edited(catalog, key: str) -> str:
@@ -146,11 +145,9 @@ class ProfileEntryUiEngineTests(unittest.TestCase):
             changed = profile.build_profile_entry_ui()
         confirm = next(row for row in changed.patches if row.name == "confirm_template")
         words = struct.unpack(">20H", confirm.replacement)
-        metrics = FontMetrics.load(profile.FONT16_METRICS_PATH).by_text
-        self.assertEqual(
-            words[16:20],
-            (metrics["N"].code, metrics["O"].code, metrics["!"].code, 0x8000),
-        )
+        self.assertEqual(words, (0,) * 19 + (profile.ROW_TERMINATOR,))
+        arena = next(row for row in changed.patches if row.name == "runtime_arena")
+        self.assertIn(b"NO!\0", arena.replacement)
 
     def test_authored_reverse_order_and_separator_change_storage_code(self) -> None:
         with patch.object(

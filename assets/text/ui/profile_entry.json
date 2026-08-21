@@ -141,42 +141,42 @@
       "text": {
         "reference": "ABCDEFGHIJKLM",
         "translation": "ABCDEFGHIJKLM",
-        "note": "English replacement input-grid content rendered with the preserved KANJI.FON stock_latin reference set."
+        "note": "English replacement input-grid content rendered with the KANJI.FON ark_latin set; NAME.BIN centers each 16px Ark glyph in its cursor cell at runtime."
       }
     },
     "grid_upper_row_2": {
       "text": {
         "reference": "NOPQRSTUVWXYZ",
         "translation": "NOPQRSTUVWXYZ",
-        "note": "English replacement input-grid content rendered with the preserved KANJI.FON stock_latin reference set."
+        "note": "English replacement input-grid content rendered with the KANJI.FON ark_latin set; NAME.BIN centers each 16px Ark glyph in its cursor cell at runtime."
       }
     },
     "grid_lower_row_1": {
       "text": {
         "reference": "abcdefghijklm",
         "translation": "abcdefghijklm",
-        "note": "English replacement input-grid content rendered with the preserved KANJI.FON stock_latin reference set."
+        "note": "English replacement input-grid content rendered with the KANJI.FON ark_latin set; NAME.BIN centers each 16px Ark glyph in its cursor cell at runtime."
       }
     },
     "grid_lower_row_2": {
       "text": {
         "reference": "nopqrstuvwxyz",
         "translation": "nopqrstuvwxyz",
-        "note": "English replacement input-grid content rendered with the preserved KANJI.FON stock_latin reference set."
+        "note": "English replacement input-grid content rendered with the KANJI.FON ark_latin set; NAME.BIN centers each 16px Ark glyph in its cursor cell at runtime."
       }
     },
     "grid_symbol_row_1": {
       "text": {
         "reference": "0123456789.,'",
         "translation": "0123456789.,'",
-        "note": "English replacement input-grid content rendered with the preserved KANJI.FON stock_latin reference set."
+        "note": "English replacement input-grid content rendered with the KANJI.FON ark_latin set; NAME.BIN centers each 16px Ark glyph in its cursor cell at runtime."
       }
     },
     "grid_symbol_row_2": {
       "text": {
         "reference": "-!?/&: ",
         "translation": "-!?/&: ",
-        "note": "The final space is an explicitly authored selectable blank rendered with the preserved KANJI.FON blank cell. Cleared cells elsewhere in the navigable 19-column grid are layout-owned blanks and also commit a blank; they are not hidden runtime prose."
+        "note": "The final space is an explicitly authored selectable blank in the KANJI.FON ark_latin set. Cleared cells elsewhere in the navigable 19-column grid are layout-owned blanks and also commit a blank; they are not hidden runtime prose."
       }
     },
     "default_city": {

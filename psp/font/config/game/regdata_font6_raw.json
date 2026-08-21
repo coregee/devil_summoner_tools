@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "regdata_font6_raw",
+  "name": "REGDATA FONT6 - HP/MP Resource",
+  "file": "regdata.bin member 1",
+  "description": "Byte-identical to Saturn FONT6. The PSP pointer slot is initialized, but its direct consumer remains unresolved.",
+  "confidence": "byte_exact_consumer_unresolved",
+  "glyph_count": 14,
+  "format": {"width": 6, "height": 8, "bpp": 4, "row_stride": 3, "glyph_stride": 24},
+  "storage": {"kind": "raw_tiles", "logical_target_indices": [0]},
+  "atlas": {
+    "columns": 14,
+    "scale": 8,
+    "groups": {"numbers": [{"start": 1, "characters": "0123456789"}]}
+  },
+  "source_overrides": {"11": ".", "12": "H", "13": "M"},
+  "editable_ranges": [],
+  "repack": {},
+  "targets": [
+    {"kind": "pack_member", "iso_path": "PSP_GAME/USRDIR/regdata.bin", "member_index": 1, "offset": 60048, "size": 336, "sha256": "8a3469ff3ef89587c16c944df26d951948ad0771c5d487ca8897ba0e8bf81be5"}
+  ]
+}
+

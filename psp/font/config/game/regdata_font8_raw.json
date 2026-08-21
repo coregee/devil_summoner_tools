@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "id": "regdata_font8_raw",
+  "name": "REGDATA FONT8 - Ported Raw Resource",
+  "file": "regdata.bin member 2",
+  "description": "A 256-cell 1bpp FONT8 derivative; 242 aligned records are byte-identical to Saturn. Its pointer slot is initialized, but its PSP consumer is unresolved.",
+  "confidence": "archive_equivalent_consumer_unresolved",
+  "glyph_count": 256,
+  "format": {"width": 8, "height": 8, "bpp": 1, "row_stride": 1, "glyph_stride": 8},
+  "storage": {"kind": "raw_tiles", "logical_target_indices": [0]},
+  "atlas": {
+    "columns": 16,
+    "scale": 4,
+    "groups": {
+      "stock_latin": [
+        {"start": 0, "characters": " 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"}
+      ]
+    }
+  },
+  "source_overrides": {},
+  "editable_ranges": [],
+  "repack": {},
+  "targets": [
+    {"kind": "pack_member", "iso_path": "PSP_GAME/USRDIR/regdata.bin", "member_index": 2, "offset": 60384, "size": 2048, "sha256": "0d8cf183688a592f9e796d55b4e090e7481c69d3b965218350c275a90ae04249"}
+  ]
+}
+

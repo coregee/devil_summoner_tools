@@ -1,14 +1,11 @@
 # PSP package status
 
-PSP support is not implemented yet. This directory is a placeholder for future
-platform-specific engine, ROM, and visual tooling.
+PSP implementation has begun with the original UMD font catalogue under
+[`font/`](font/README.md). It defines all twelve logical font roles recovered
+from the original PSP project, including their twenty physical archive or
+embedded targets, storage formats, hashes, confidence levels, and cell grids.
 
-The shared assets under `assets/text/` already retain proved PSP identities,
-reference variants, and PSP-only wording where that evidence is useful. Those
-records are not a PSP build: there are currently no physical PSP bindings,
-extraction/repacking commands, generated outputs, or install profile in this
-repository.
-
-Future PSP work should reuse the shared semantic assets and add PSP-owned
-bindings, surface limits, codecs, engine changes, media validation, and a
-top-level build workflow rather than copying the Saturn binary model.
+This is not yet a PSP build. Text bindings, engine patches, visual assets, UMD
+publication, and a top-level install profile still need to be ported as
+PSP-owned components. The font catalogue intentionally does not infer a live
+reader from a Saturn-equivalent filename or bitmap.

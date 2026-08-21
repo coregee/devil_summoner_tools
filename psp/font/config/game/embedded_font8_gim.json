@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "embedded_font8_gim",
+  "name": "Embedded FONT8 - BOOT and Viewer",
+  "file": "font8.bmp GIM",
+  "description": "Two byte-identical 8px GIM targets whose 256 decoded masks are pixel-identical to Saturn FONT8. The PSP consumer is unresolved; both physical mirrors are catalogued, but only one logical atlas is shown.",
+  "confidence": "pixel_exact_consumer_unresolved",
+  "glyph_count": 256,
+  "format": {"width": 8, "height": 8, "bpp": 4, "row_stride": 4, "glyph_stride": 32},
+  "storage": {"kind": "gim_pages", "logical_target_indices": [0]},
+  "atlas": {
+    "columns": 16,
+    "scale": 4,
+    "groups": {
+      "stock_latin": [
+        {"start": 0, "characters": " 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"}
+      ]
+    }
+  },
+  "source_overrides": {},
+  "editable_ranges": [],
+  "repack": {},
+  "targets": [
+    {"kind": "embedded", "iso_path": "PSP_GAME/SYSDIR/BOOT.BIN", "file_offset": 993764, "size": 65740, "sha256": "23cf52ea1ab88192f50c783475dd8de4b7fad1b3c4a730e8ffe11365beddc001"},
+    {"kind": "pack_member", "iso_path": "PSP_GAME/USRDIR/packchr/viewer_pack.bin", "member_index": 0, "offset": 32, "size": 65740, "sha256": "23cf52ea1ab88192f50c783475dd8de4b7fad1b3c4a730e8ffe11365beddc001"}
+  ]
+}
+

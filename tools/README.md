@@ -12,9 +12,11 @@ The editor binds only to `127.0.0.1`, opens the canonical text assets under
 translations before saving them. Known hard validation failures block writes.
 Unknown surface measurements remain visible without being treated as success.
 
-The **Fonts** workspace exposes the Saturn text fonts, their runtime cell
-formats, source typefaces, consumer counts, and editable replacement slots.
-`ICON.FON` is intentionally omitted. Original and generated atlases are shown
+The **Fonts** workspace exposes the Saturn text fonts and all catalogued PSP
+font resources, their runtime cell formats, source typefaces, confidence and
+consumer state, and editable replacement slots. Saturn `ICON.FON` is
+intentionally omitted; the unresolved PSP ICON resource remains visible as
+part of the comprehensive physical audit. Original and generated atlases are shown
 side by side so typeface style and bitmap placement can be reviewed visually.
 Each font uses a descriptive interface name rather than relying on its disc
 filename alone.
@@ -35,8 +37,11 @@ language-specific `.FON`, atlas, and metrics file are generated. The base
 English font remains unchanged. Every automatic assignment can then be
 reviewed and edited from the glyph inspector.
 
-Fixed and source-preserved fonts remain visible but read-only; changing those
+Fixed, unresolved, and source-preserved fonts remain visible but read-only; changing those
 requires a proved runtime mapping rather than an unsafe bitmap substitution.
+PSP source identities can still be reviewed and saved to their checked
+definitions. PSP raster rebuild controls remain locked until the corresponding
+archive publisher and feature-specific ownership guards exist in this repository.
 Imported typefaces are copied under `assets/font/imported/<language>/`; the
 user is responsible for ensuring the typeface license permits the intended use
 and redistribution.

@@ -1,4 +1,4 @@
-"""Load explicit output selections for preserved stock glyph sets."""
+"""Load explicit output selections for stable named glyph sets."""
 
 from __future__ import annotations
 

@@ -75,7 +75,7 @@ class FontReferenceSetTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as raw_directory:
             path = Path(raw_directory) / "font8.json"
             path.write_text(json.dumps(document), encoding="utf-8")
-            with self.assertRaisesRegex(ValueError, "replaced glyph 63"):
+            with self.assertRaisesRegex(ValueError, "remapped glyph 63"):
                 load_definition(path, "game")
 
     def test_reference_set_can_publish_an_ascii_alias_for_stock_punctuation(self) -> None:
@@ -117,7 +117,7 @@ class KanjiNameEntryReferenceSetTests(unittest.TestCase):
             "game",
         )
 
-    def test_stock_name_entry_latin_has_explicit_preserved_codes(self) -> None:
+    def test_ark_name_entry_latin_reuses_the_explicit_grid_codes(self) -> None:
         expected = {
             **{character: 203 + index for index, character in enumerate("0123456789")},
             **{
@@ -130,9 +130,7 @@ class KanjiNameEntryReferenceSetTests(unittest.TestCase):
             },
             ",": 3,
             ".": 4,
-            "・": 5,
             ":": 6,
-            ";": 7,
             "?": 8,
             "!": 9,
             " ": 17,
@@ -141,30 +139,35 @@ class KanjiNameEntryReferenceSetTests(unittest.TestCase):
             "'": 38,
             "&": 84,
         }
-        references = self.definition.reference_sets["stock_latin"]
-        self.assertEqual(len(references), 74)
+        references = self.definition.reference_sets["ark_latin"]
+        self.assertEqual(len(references), 72)
         self.assertEqual(references, expected)
-        self.assertFalse(set(references.values()) & set(self.definition.replacements))
+        self.assertEqual(set(references.values()), set(self.definition.replacements))
         self.assertEqual(
             {code: self.definition.glyphs[code] for code in expected.values()},
             {code: character for character, code in expected.items()},
         )
 
-    def test_repack_is_binary_identity_and_publishes_named_metrics(self) -> None:
+    def test_repack_publishes_origin_aligned_16px_ark_ink_bounds(self) -> None:
         source = self.definition.source_path.read_bytes()
         result = repack_font(source, self.definition)
-        self.assertEqual(result.data, source)
+        self.assertNotEqual(result.data, source)
         self.assertIsNotNone(result.metrics)
         metrics = json.loads(result.metrics or "")
-        self.assertEqual(metrics["glyphs"], [])
+        self.assertEqual(len(metrics["glyphs"]), 72)
         self.assertEqual(metrics["missing_codes"], [])
         self.assertTrue(metrics["complete"])
-        stock = metrics["reference_sets"]["stock_latin"]
+        ark = metrics["reference_sets"]["ark_latin"]
         self.assertEqual(
-            {row["text"]: row["code"] for row in stock},
-            dict(self.definition.reference_sets["stock_latin"]),
+            {row["text"]: row["code"] for row in ark},
+            dict(self.definition.reference_sets["ark_latin"]),
         )
-        self.assertTrue(all(type(row["advance"]) is int for row in stock))
+        self.assertTrue(all(type(row["advance"]) is int for row in ark))
+        self.assertTrue(
+            all(0 <= row["ink_left"] <= row["ink_right"] <= 16 for row in ark)
+        )
+        visible = [row for row in ark if row["ink_right"] > row["ink_left"]]
+        self.assertTrue(any(row["ink_left"] == 0 for row in visible))
 
     def test_end_action_compound_is_named_but_not_replaced(self) -> None:
         font16 = load_definition(CONFIG_ROOT / "game" / "font16.json", "game")

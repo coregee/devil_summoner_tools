@@ -281,10 +281,10 @@ def _reference_sets(
                     raise ValueError(
                         f"{entry_context} expects glyph {code} to be {character!r}"
                     )
-                if code in replacements:
+                if code in replacements and replacements[code] != character:
                     raise ValueError(
-                        f"{entry_context} selects replaced glyph {code}; reference "
-                        "sets must preserve stock cells"
+                        f"{entry_context} selects remapped glyph {code}; reference "
+                        "sets must preserve character identity"
                     )
                 references[exposed] = code
                 used_codes.add(code)

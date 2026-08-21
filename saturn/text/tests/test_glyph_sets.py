@@ -19,25 +19,25 @@ from util.glyph_sets import CONFIG_PATH, load_glyph_sets  # noqa: E402
 class OutputGlyphSetTests(unittest.TestCase):
     def test_only_non_font8_grid_selection_remains_surface_global(self) -> None:
         catalog = load_glyph_sets()
-        kanji = catalog.handlers["kanji_stock_latin"]
-        self.assertEqual((kanji.font, kanji.reference_set), ("kanji", "stock_latin"))
-        self.assertEqual(set(catalog.handlers), {"kanji_stock_latin"})
+        kanji = catalog.handlers["kanji_ark_latin"]
+        self.assertEqual((kanji.font, kanji.reference_set), ("kanji", "ark_latin"))
+        self.assertEqual(set(catalog.handlers), {"kanji_ark_latin"})
         self.assertEqual(set(catalog.surface_handlers), {"name_entry.grid_row"})
         self.assertIsNone(catalog.for_surface("event.dialogue"))
 
-    def test_name_grid_selects_preserved_kanji_latin(self) -> None:
+    def test_name_grid_selects_centered_ark_kanji_latin(self) -> None:
         handler = load_glyph_sets().for_surface("name_entry.grid_row")
         self.assertIsNotNone(handler)
         self.assertEqual(
             (handler.font, handler.reference_set),
-            ("kanji", "stock_latin"),
+            ("kanji", "ark_latin"),
         )
         definition = json.loads(
             (FONT_CONFIG_ROOT / "kanji.json").read_text(encoding="utf-8")
         )
         published = {
             character
-            for entry in definition["reference_sets"]["stock_latin"]
+            for entry in definition["reference_sets"]["ark_latin"]
             for character in entry.get("aliases", entry["characters"])
         }
         profile = load_asset("ui/profile_entry.json")
@@ -67,7 +67,7 @@ class OutputGlyphSetTests(unittest.TestCase):
     def test_handler_font_must_match_the_selected_english_surface(self) -> None:
         document = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
         document["surface_handlers"] = {
-            "event.dialogue": "kanji_stock_latin"
+            "event.dialogue": "kanji_ark_latin"
         }
         with tempfile.TemporaryDirectory() as raw_directory:
             path = Path(raw_directory) / "glyph_sets.json"

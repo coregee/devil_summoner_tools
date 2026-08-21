@@ -22,7 +22,7 @@ from engine.build import (  # noqa: E402
 
 
 EXPECTED_OUTPUT_SHA256 = (
-    "bde4ea3bd7edd9bd9427aeaed68637bb597163a6c1db73e3d720222d5ebf8397"
+    "c7ad447635a623d28ee7528b1067defe50fa95e0803af997441549e6103b3500"
 )
 STOCK_NAME_SHA256 = (
     "cafacc4bfdd8dd1d3255d48814829e564926f6425576b82de45b54310ebcb538"
@@ -57,7 +57,7 @@ class ProfileEntryBuildIntegrationTests(unittest.TestCase):
             self.manifest["source_inputs"], {"game:NAME.BIN": STOCK_NAME_SHA256}
         )
         self.assertEqual(
-            self.manifest["runtime"], {"bytes": 5112, "capacity": 6840}
+            self.manifest["runtime"], {"bytes": 5348, "capacity": 6840}
         )
         self.assertEqual(self.manifest["patches"], 22)
         self.assertTrue(self.manifest["asset_inputs"])

@@ -414,7 +414,7 @@ function renderFontList() {
     const name = document.createElement("strong");
     name.textContent = font.name;
     const detail = document.createElement("span");
-    detail.textContent = `${font.known_slots.toLocaleString()}/${font.physical_slots.toLocaleString()} mapped`;
+    detail.textContent = `${font.platform === "psp" ? "PSP" : "Saturn"} · ${font.known_slots.toLocaleString()}/${font.physical_slots.toLocaleString()} mapped`;
     copy.append(name, detail);
     const count = document.createElement("small");
     count.textContent = font.customized
@@ -449,7 +449,7 @@ async function selectFont(id, offset = 0) {
     state.selectedGlyph = null;
     elements.fontEmptyState.hidden = true;
     elements.fontContent.hidden = false;
-    elements.fontDisc.textContent = `${state.font.disc} disc font`;
+    elements.fontDisc.textContent = state.font.context || `${state.font.disc} disc font`;
     elements.fontName.textContent = state.font.name;
     elements.fontDescription.textContent = state.font.description || "Game font resource";
     elements.fontCell.textContent = `${state.font.cell.width}×${state.font.cell.height} · ${state.font.cell.bpp}bpp`;

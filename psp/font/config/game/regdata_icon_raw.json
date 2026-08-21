@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "id": "regdata_icon_raw",
+  "name": "REGDATA ICON - 12px Symbols",
+  "file": "regdata.bin member 3",
+  "description": "The byte-identical PSP copy of Saturn ICON.FON. It is catalogued as a font-adjacent raster resource; the live PSP consumer is unresolved and every cell remains locked.",
+  "confidence": "byte_exact_consumer_unresolved",
+  "glyph_count": 21,
+  "format": {"width": 12, "height": 12, "bpp": 4, "row_stride": 6, "glyph_stride": 72},
+  "storage": {"kind": "raw_tiles", "logical_target_indices": [0]},
+  "atlas": {"columns": 7, "scale": 6, "groups": {}},
+  "source_overrides": {},
+  "editable_ranges": [],
+  "repack": {},
+  "targets": [
+    {"kind": "pack_member", "iso_path": "PSP_GAME/USRDIR/regdata.bin", "member_index": 3, "offset": 62432, "size": 1512, "sha256": "dcaa049c66913242108d1579c6a943c78f40c92c4fd71accd97c1797a2424b86"}
+  ]
+}
+

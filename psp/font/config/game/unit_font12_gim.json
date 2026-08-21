@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "id": "unit_font12_gim",
+  "name": "UNIT FONT12 - 12px Glyph Map",
+  "file": "unit_pack.bin member 0",
+  "description": "A 480-cell indexed GIM named font12.bmp in the source. It is visually related to Saturn FONT12, but its live PSP consumer has not yet been traced, so raster replacement remains locked.",
+  "confidence": "named_resource_consumer_unresolved",
+  "glyph_count": 480,
+  "format": {"width": 16, "height": 16, "bpp": 4, "row_stride": 8, "glyph_stride": 128},
+  "storage": {"kind": "gim_pages", "logical_target_indices": [0]},
+  "atlas": {"columns": 16, "scale": 2, "groups": {}},
+  "source_overrides": {},
+  "editable_ranges": [],
+  "repack": {},
+  "targets": [
+    {"kind": "pack_member", "iso_path": "PSP_GAME/USRDIR/packchr/unit_pack.bin", "member_index": 0, "offset": 64, "size": 61784, "sha256": "771cf3f1f7e5fe746ecf4a9f4b1c0ec24ac254c8878630db0689984474d095ae"}
+  ]
+}
+

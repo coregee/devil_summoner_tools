@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "id": "datapack_font8_gim",
+  "name": "DATAPACK FONT8 - Compact UI Page",
+  "file": "datapack.bin member 6",
+  "description": "A colored 8px GIM with the same broad visual role as FONT8 but a different representation. Its consumer has not yet been traced.",
+  "confidence": "visual_map_consumer_unresolved",
+  "glyph_count": 256,
+  "format": {"width": 8, "height": 8, "bpp": 8, "row_stride": 8, "glyph_stride": 64},
+  "storage": {"kind": "gim_pages", "logical_target_indices": [0]},
+  "atlas": {"columns": 16, "scale": 4, "groups": {}},
+  "source_overrides": {},
+  "editable_ranges": [],
+  "repack": {},
+  "targets": [
+    {"kind": "pack_member", "iso_path": "PSP_GAME/USRDIR/datapack.bin", "member_index": 6, "offset": 289744, "size": 17700, "sha256": "fb24400ecc33717220bbc01f77f3a7007e16ef3b4c5dc3713d51455a415fb8e3"}
+  ]
+}
+

@@ -2,7 +2,7 @@
   "file": "KANJI.FON",
   "targets": ["KANJI.FON", "MMP/KANJI.FON"],
   "sha256": "0bdfd6640b7ea3e792de2575cafcfae29aa86af12f0925f458b88ad533744dd7",
-  "description": "Stock Japanese name-entry font. The original Latin letters, digits, punctuation, and selectable blank used by NAME.BIN remain untouched and are published as the named stock_latin reference set. NAME action controls are compound FONT16 image glyphs rather than KANJI text.",
+  "description": "Japanese name-entry font. The Latin letters, digits, punctuation, and selectable blank used by the English NAME.BIN grid are replaced in place with Ark Pixel 16px glyphs and published as the named ark_latin reference set. NAME.BIN uses the generated ink bounds to center them at runtime; the source cells themselves remain origin-aligned. NAME action controls remain compound FONT16 image glyphs rather than KANJI text.",
   "format": {
     "width": 16,
     "height": 16,
@@ -16,25 +16,27 @@
     "groups": {
       "name_entry_latin": [
         {
+          "replace": true,
           "start": 203,
           "characters": "0123456789"
         },
         {
+          "replace": true,
           "start": 220,
           "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
         },
         {
+          "replace": true,
           "start": 252,
           "characters": "abcdefghijklmnopqrstuvwxyz"
         }
       ],
       "name_entry_symbols": [
         {
+          "replace": true,
           "3": ",",
           "4": ".",
-          "5": "・",
           "6": ":",
-          "7": ";",
           "8": "?",
           "9": "!",
           "17": " ",
@@ -47,10 +49,18 @@
     }
   },
   "reference_sets": {
-    "stock_latin": [
+    "ark_latin": [
       {
         "start": 3,
-        "characters": ",.・:;?!"
+        "characters": ",."
+      },
+      {
+        "start": 6,
+        "characters": ":"
+      },
+      {
+        "start": 8,
+        "characters": "?!"
       },
       {
         "start": 17,
@@ -83,6 +93,18 @@
     ]
   },
   "repack": {
+    "source": "ark-pixel/ark-pixel-16px-proportional-latin.otf",
+    "source_sha256": "5ff8ed367e79aa2e1081a20c17f248a0c688baa566efbcda7ed00f62351f8491",
+    "render": {
+      "size": 16,
+      "placement": "origin",
+      "anchor": "la",
+      "offset_x": 0,
+      "offset_y": -5,
+      "stroke_width": 0,
+      "antialias": false,
+      "compose_from_glyphs": true
+    },
     "metrics": {
       "code_limit": 278,
       "measurement": "ink"

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "id": "regdata_font16_raw",
+  "name": "REGDATA FONT16 - Ported Raw Resource",
+  "file": "regdata.bin member 0",
+  "description": "A 1bpp raw FONT16 derivative: 1,784 of 1,872 aligned records are byte-identical to the Saturn game font. Its pointer slot is initialized, but no direct executable load has been proved.",
+  "confidence": "archive_equivalent_consumer_unresolved",
+  "glyph_count": 1872,
+  "format": {"width": 16, "height": 16, "bpp": 1, "row_stride": 2, "glyph_stride": 32},
+  "storage": {"kind": "raw_tiles", "logical_target_indices": [0]},
+  "atlas": {
+    "columns": 48,
+    "scale": 2,
+    "groups": {
+      "stock_latin": [
+        {"start": 0, "characters": " 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"}
+      ]
+    }
+  },
+  "source_overrides": {},
+  "editable_ranges": [],
+  "repack": {},
+  "targets": [
+    {"kind": "pack_member", "iso_path": "PSP_GAME/USRDIR/regdata.bin", "member_index": 0, "offset": 144, "size": 59904, "sha256": "7c8623acec59592d176f4cf672b7c87b80e62160153f4322e1c3069da874fd99"}
+  ]
+}
+

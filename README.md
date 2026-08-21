@@ -35,7 +35,7 @@ either disc has been tested in game.
 | `saturn/engine` | Twenty-four checked surface builds covering the translated executable consumers, lossless FMV subtitles, and the complete proved compendium text inventory |
 | `saturn/visual` | 2,365 game image views and 295 classified compendium image structures, with sparse tracked replacements |
 | `saturn/rom` | Verified extraction and transactional rebuilding of both Saturn discs |
-| `psp` | Placeholder package only; shared assets exist, but platform bindings and a build workflow do not |
+| `psp` | Initial PSP font-resource catalogue and codecs; text, engine, visual, UMD publication, and a build workflow remain to be ported |
 | `tools` | Local browser-based translation editing, bound-consumer validation, and exact-font surface previews |
 
 The remaining work is chiefly translation review and playtesting, semantic

@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from .catalog import CorpusCatalog
-from .fonts import FontService
+from .font_catalogs import FontCatalogService
 from .languages import LanguageService
 from .validation import DraftEvaluator
 
@@ -17,7 +17,7 @@ class EditorApplication:
         self.catalog = catalog or CorpusCatalog()
         self.languages = languages or LanguageService()
         self.evaluator = DraftEvaluator(self.catalog)
-        self.fonts = FontService(self.catalog, self.languages)
+        self.fonts = FontCatalogService(self.catalog, self.languages)
 
     def evaluate(
         self,

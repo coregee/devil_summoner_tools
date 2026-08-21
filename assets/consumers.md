@@ -309,9 +309,10 @@ with up to 13 authored content cells starting at column three. Its six row
 strings are editable assets. Every cleared navigable cell remains a selectable
 blank; the trailing space in the second SYMBOL row is the one blank that is
 part of authored row content. The grid text uses the named `KANJI.FON`
-`stock_latin` reference set, which publishes the exact preserved digit,
-uppercase, lowercase, punctuation, interpunct, and blank cells. It does not
-regenerate or overwrite those retail glyphs.
+`ark_latin` set, which replaces the required cells with origin-aligned 16px Ark
+glyphs. Generated ink bounds let NAME.BIN center every visible glyph inside its
+navigable cell at runtime. The typed eight-cell cursor row is centered by the
+same runtime layout principle using the existing FONT16 metrics.
 
 Stock physically stores `漢字`, `ひらがな`, and `カタカナ` twice: once in the
 combined tab row and once in each selected-tab template. Each byte-identical

@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "id": "datapack_font12_pages",
+  "name": "DATAPACK FONT12 - Two Paged Atlases",
+  "file": "datapack.bin members 7-8",
+  "description": "Two 256-cell indexed GIM pages. Their visual sequence tracks Saturn FONT12, but the PSP reader remains unresolved and the pages are source-preserved.",
+  "confidence": "visual_sequence_consumer_unresolved",
+  "glyph_count": 512,
+  "format": {"width": 16, "height": 16, "bpp": 8, "row_stride": 16, "glyph_stride": 256},
+  "storage": {"kind": "gim_pages", "logical_target_indices": [0, 1]},
+  "atlas": {"columns": 16, "scale": 2, "groups": {}},
+  "source_overrides": {},
+  "editable_ranges": [],
+  "repack": {},
+  "targets": [
+    {"kind": "pack_member", "iso_path": "PSP_GAME/USRDIR/datapack.bin", "member_index": 7, "offset": 307456, "size": 66852, "sha256": "443ed8948c076c9a11486b2464bbc0cdf3d9beee8bcd2cbf282bb7ef7ecf180d"},
+    {"kind": "pack_member", "iso_path": "PSP_GAME/USRDIR/datapack.bin", "member_index": 8, "offset": 374320, "size": 66852, "sha256": "dd8bd73dbd1b510a9519a79d1cc0be697ad8cdcf3743f612c467406b298d3872"}
+  ]
+}
+

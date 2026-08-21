@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "id": "regdata_fnt12x12_raw",
+  "name": "REGDATA FNT12x12 - Battle Kanji",
+  "file": "regdata.bin member 16",
+  "description": "Byte-identical to Saturn FNT12X12. Its 52-glyph source reading comes from the battle-message context; the direct PSP reader remains unresolved.",
+  "confidence": "byte_exact_consumer_unresolved",
+  "glyph_count": 52,
+  "format": {"width": 12, "height": 12, "bpp": 1, "row_stride": 2, "glyph_stride": 32},
+  "storage": {"kind": "raw_tiles", "logical_target_indices": [0]},
+  "atlas": {
+    "columns": 16,
+    "scale": 4,
+    "groups": {
+      "kanji": [{"start": 0, "characters": "会心必殺反射吸収防御壁無効果回避範囲外量不足復活攻撃力命中魔出現解除弾切失敗続消滅持正気奪威法呪殺物理所"}]
+    }
+  },
+  "source_overrides": {},
+  "editable_ranges": [],
+  "repack": {},
+  "targets": [
+    {"kind": "pack_member", "iso_path": "PSP_GAME/USRDIR/regdata.bin", "member_index": 16, "offset": 174128, "size": 1664, "sha256": "c8318e97906f902c0b3471d6b0277e3a0c05a100cdd206d33333d9117fb8836e"}
+  ]
+}
+

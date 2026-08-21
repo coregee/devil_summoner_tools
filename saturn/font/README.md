@@ -56,8 +56,10 @@ generated outputs. The game `KANJI.FON` definition has two verified physical
 targets, `KANJI.FON` and `MMP/KANJI.FON`; the parent build installs its one
 generated result at both paths.
 
-A definition may also expose a named `reference_set` for stock cells that must
-remain addressable after repacking. Game `FONT8.FON` publishes cells 0-62 as
+A definition may also expose a named `reference_set` for cells that must remain
+addressable after repacking. A referenced cell may be rerendered only when its
+character identity is unchanged; remapping it to different text is rejected.
+Game `FONT8.FON` publishes cells 0-62 as
 `stock_latin`: the original space, digits, uppercase letters, and lowercase
 letters. It also publishes the source-preserved punctuation cells 174, 176, and
 198 under the ASCII aliases `-`, `.`, and `/`; cell 174 decodes as the Japanese
@@ -70,14 +72,13 @@ metrics therefore contain both the normal narrow-English map and this
 separately named stock map; consumers must choose the stock map explicitly
 rather than resolving duplicate Latin characters by accident.
 
-Game `KANJI.FON` likewise publishes the name-entry grid's `stock_latin` set:
-the exact retail uppercase and lowercase alphabets, digits, punctuation,
-interpunct, and selectable-blank cell used across the stock codename page and
-English replacement grids. Repacking remains byte-for-byte identical; its
-generated metrics only give those preserved cells stable names, codes, and
-measured advances.
+Game `KANJI.FON` publishes the name-entry grid's `ark_latin` set. It replaces
+the exact cells used by the English grid with origin-aligned Ark Pixel 16px
+letters, digits, punctuation, and a selectable blank. Generated metrics publish
+stable codes and ink bounds; `NAME.BIN` uses those bounds to center each glyph
+inside its navigable cell at runtime rather than baking layout into the atlas.
 `name_entry.grid_row` selects this map through a dedicated text glyph handler,
-so engine code does not need to reconstruct the code ranges. The grid's END
+so engine code does not reconstruct the code ranges. The grid's END
 control is a different boundary: `FONT16.FON` names its original two-cell image
 compound as `{input_end_prefix}` and `{input_end_symbol}` without replacing
 either raster. Left/right and END action semantics stay authored text, while a

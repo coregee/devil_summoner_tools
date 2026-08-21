@@ -310,8 +310,8 @@
         "rows": 1,
         "glyphs": 11,
         "width": {
-          "unit": "glyph_cells",
-          "value": 11
+          "unit": "pixels",
+          "value": 176
         }
       }
     },
@@ -329,8 +329,8 @@
         "rows": 1,
         "glyphs": 3,
         "width": {
-          "unit": "glyph_cells",
-          "value": 3
+          "unit": "pixels",
+          "value": 48
         }
       }
     },

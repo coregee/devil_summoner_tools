@@ -102,19 +102,22 @@ The 6,840-byte retired stock region is one checked arena rather than a frozen
 data/code split. Asset-derived tables grow from its start, the readable
 controller is aligned and assembled immediately afterward, and every hook is
 linked to the resulting labels. The build rejects only when their combined size
-crosses the proved arena boundary. The default build uses 5,112 bytes and leaves
-1,728 bytes for safe data growth. Prompts, choices, tabs, occupations, grid
+crosses the proved arena boundary. The default build uses 5,348 bytes and leaves
+1,492 bytes for safe data growth. Prompts, choices, tabs, occupations, grid
 rows, and defaults come from `assets/text/ui/profile_entry.json`; the shared
 NAME_FW_FULL order and separator come from
-`assets/text/player_profile.json#full_name_storage`. Grid raster cells remain
-owned by the generated KANJI/FONT16 fonts.
+`assets/text/player_profile.json#full_name_storage`. The typed eight-cell row
+centers the existing 12px Ark FONT16 glyphs at runtime. Grid cells use the
+generated origin-aligned 16px Ark KANJI glyphs and their measured ink bounds;
+the controller centers each raster in its navigable cell at draw time. The
+confirmation prompt and choices are proportional FONT16 text rather than the
+stock fixed-advance template, with YES and NO centered in their original
+choice regions.
 
 The output hash is
-`bde4ea3bd7edd9bd9427aeaed68637bb597163a6c1db73e3d720222d5ebf8397`.
-It intentionally differs from the trusted mature build at one word: the
-confirmation template now ends with the renderer's required `0x8000` sentinel
-instead of falling through into the following stock table. The default build
-installs this terminal `NAME.BIN` immediately after the generated fonts.
+`c7ad447635a623d28ee7528b1067defe50fa95e0803af997441549e6103b3500`.
+The default build installs this terminal `NAME.BIN` immediately after the
+generated fonts.
 
 Run:
 

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "id": "regdata_fnt8x12_raw",
+  "name": "REGDATA FNT8x12 - Battle Console",
+  "file": "regdata.bin member 15",
+  "description": "Byte-identical to Saturn FNT8X12. The archive pointer slot is known, but the PSP battle-console reader has not yet been tied to this member.",
+  "confidence": "byte_exact_consumer_unresolved",
+  "glyph_count": 72,
+  "format": {"width": 8, "height": 12, "bpp": 1, "row_stride": 1, "glyph_stride": 12},
+  "storage": {"kind": "raw_tiles", "logical_target_indices": [0]},
+  "atlas": {
+    "columns": 16,
+    "scale": 4,
+    "groups": {
+      "numbers": [{"start": 2, "characters": "0123456789"}],
+      "uppercase": [{"start": 12, "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ"}],
+      "lowercase": [{"start": 38, "characters": "abcdefghijklnmopqrstuvwxyz"}]
+    }
+  },
+  "source_overrides": {"0": "　", "1": "▯", "64": "ー", "65": "＿", "66": "↑", "67": "↓", "68": "＆", "69": "【", "70": "】", "71": "'"},
+  "editable_ranges": [],
+  "repack": {},
+  "targets": [
+    {"kind": "pack_member", "iso_path": "PSP_GAME/USRDIR/regdata.bin", "member_index": 15, "offset": 173264, "size": 864, "sha256": "338a1211de9b10512fc3b1fefd5b98387a13fddcc5084df9e7dbe8b9f88d5a79"}
+  ]
+}
+

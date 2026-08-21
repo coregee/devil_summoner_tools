@@ -478,9 +478,11 @@ permits either placeholder order, exactly once each, around one supported
 separator glyph. The two confirmation
 fields still use independent positions. The prompt and
 confirmation question additionally record their proved 168-pixel/11-glyph and
-11-cell limits. English input rows use up to 13 authored cells inside the
-19-column navigable `KANJI.FON` grid and select its named `stock_latin`
-reference set. The two-cell END compound remains a FONT16-owned action rather
+176-pixel/11-glyph limits. The proportional YES/NO regions are each 48 pixels
+with a three-glyph cap. English input rows use up to 13 authored cells inside the
+19-column navigable `KANJI.FON` grid and select its named `ark_latin`
+reference set. The Saturn renderer uses its generated ink bounds to center the
+origin-aligned 16px Ark rasters in their cells at runtime. The two-cell END compound remains a FONT16-owned action rather
 than being misclassified as ordinary grid text. Contracts also retain the
 96-pixel tab bands, 128-pixel occupation columns, eight-cell defaults, and
 208-pixel confirmation value area. The dormant English address suffixes remain
@@ -538,7 +540,7 @@ select the original alphabet. Names and ordinary translated text default to the
 replacement alphabet, including the shop's current `Inv.` label. Named tokens
 are never changed by uppercasing. The stock set also publishes the preserved
 hyphen, full stop, and slash cells used by fixed numeric fallbacks. The separate
-`name_entry.grid_row` surface still selects the KANJI `stock_latin` handler.
+`name_entry.grid_row` surface selects the KANJI `ark_latin` handler.
 
 LEVEL_UP extraction now covers all eleven proved visible records: the fixed
 FONT8 `LV`, `HP`, `MP`, `EXP`, `NEXT`, `LEVEL UP`, `LEFT`, `YES`, `NO`, and

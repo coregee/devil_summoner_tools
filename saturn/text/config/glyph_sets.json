@@ -1,12 +1,12 @@
 {
   "version": 1,
   "handlers": {
-    "kanji_stock_latin": {
+    "kanji_ark_latin": {
       "font": "kanji",
-      "reference_set": "stock_latin"
+      "reference_set": "ark_latin"
     }
   },
   "surface_handlers": {
-    "name_entry.grid_row": "kanji_stock_latin"
+    "name_entry.grid_row": "kanji_ark_latin"
   }
 }

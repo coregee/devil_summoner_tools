@@ -364,8 +364,9 @@ three stock tab labels each have one semantic
 owner across their byte-identical combined-row and selected-tab copies;
 Katakana remains inventoried even though the English runtime retires it. The
 city and ward suffixes are also retained as independently editable physical
-evidence. Grid rows select the preserved `KANJI.FON` `stock_latin` reference
-set rather than hard-coding code formulas. END and the left/right actions have
+evidence. Grid rows select the generated `KANJI.FON` `ark_latin` reference set
+rather than hard-coding code formulas; NAME.BIN centers its 16px Ark rasters
+from generated ink bounds at runtime. END and the left/right actions have
 editable semantic labels while their existing compound rasters remain an
 explicit font/image boundary. The event pages keep the mature Saturn
 translation in this shared asset so a later PSP binding can reuse it rather

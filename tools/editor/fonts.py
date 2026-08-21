@@ -409,6 +409,7 @@ class FontService:
             rows.append(
                 {
                     "id": font_id,
+                    "platform": "saturn",
                     "disc": definition.disc,
                     "name": self._display_name(definition),
                     "file": definition.file,
@@ -674,7 +675,9 @@ class FontService:
         )
         return {
             "id": font_id,
+            "platform": "saturn",
             "disc": definition.disc,
+            "context": f"Saturn {definition.disc} disc font",
             "name": self._display_name(definition),
             "file": definition.file,
             "description": self._read_description(config_path),

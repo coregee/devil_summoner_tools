@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "eve_kanji_dialogue",
+  "name": "EVE KANJI - Dialogue and Native UI",
+  "file": "eve_files.bin member 5",
+  "description": "Runtime-proven 16px EVE atlas. The PSP expands the Saturn KANJI semantic index space to 7,808 4bpp cells. Its checked source-blank 0x1E20-0x1E7E bank is the English printable-ASCII replacement domain; all other cells remain source-preserved until catalogued.",
+  "confidence": "runtime_proven",
+  "glyph_count": 7808,
+  "format": {"width": 16, "height": 16, "bpp": 4, "row_stride": 8, "glyph_stride": 128},
+  "storage": {"kind": "raw_tiles", "logical_target_indices": [0]},
+  "atlas": {"columns": 64, "scale": 1, "groups": {}},
+  "source_overrides": {},
+  "editable_ranges": [
+    {
+      "start": "0x1E20",
+      "characters": "0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~!\"#$%&'()*+,-./ ",
+      "source": "{source_blank}"
+    }
+  ],
+  "repack": {
+    "source": "ark-pixel/ark-pixel-12px-proportional-latin.otf",
+    "source_sha256": "ba0bbfc888f51ddde1b75944c26457bc26d666ab4fa1c73da726bbbec6497bf5"
+  },
+  "targets": [
+    {"kind": "pack_member", "iso_path": "PSP_GAME/USRDIR/flwdat/eve_files.bin", "member_index": 5, "offset": 368768, "size": 999424, "sha256": "08512684c5205786f5e68dde1c94c2cb9dd1eb6acbf67cec623f3f6de946fe31"}
+  ]
+}
+

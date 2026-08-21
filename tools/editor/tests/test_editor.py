@@ -94,10 +94,12 @@ class ActualCorpusTests(unittest.TestCase):
 
     def test_font_inventory_hides_icon_resource(self) -> None:
         rows = self.application.fonts.inventory()["fonts"]
-        names = {row["file"] for row in rows}
+        saturn_rows = [row for row in rows if row["platform"] == "saturn"]
+        psp_rows = [row for row in rows if row["platform"] == "psp"]
+        names = {row["file"] for row in saturn_rows}
         self.assertNotIn("ICON.FON", names)
         self.assertEqual(
-            {row["name"] for row in rows},
+            {row["name"] for row in saturn_rows},
             {
                 "FNT8x12 - Battle Console (12x8 Source Fixed)",
                 "FNT12x12 - Battle Console Kanji (12x12 Source Fixed)",
@@ -108,6 +110,12 @@ class ActualCorpusTests(unittest.TestCase):
                 "KANJI - Name Entry Grid Text (16px Source)",
                 "FONT16 2nd - Compendium Text",
             },
+        )
+        self.assertEqual(len(psp_rows), 12)
+        self.assertIn("regdata.bin member 3", {row["file"] for row in psp_rows})
+        self.assertEqual(
+            {row["id"] for row in psp_rows if row["confidence"] == "runtime_proven"},
+            {"psp/eve_kanji_dialogue", "psp/datapack_font16_pages"},
         )
 
     def test_font8_alphabet_is_owned_by_each_corpus_field(self) -> None:

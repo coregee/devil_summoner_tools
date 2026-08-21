@@ -146,6 +146,27 @@ class GameInventoryTests(unittest.TestCase):
             },
         )
 
+    def test_font8_composed_names_decode_to_normalized_kana(self) -> None:
+        rows = [
+            row
+            for rendered in self.batch.rendered.values()
+            for row in json.loads(rendered)
+            if row["source_encoding"] == "game_font8_kana_composer"
+        ]
+        self.assertTrue(rows)
+        self.assertFalse(any("{GLYPH:" in row["reference"] for row in rows))
+        self.assertFalse(any("‐" in row["reference"] for row in rows))
+
+        references = {row["id"]: row["reference"] for row in rows}
+        self.assertEqual(
+            references["game.dvlname.o000200.text"],
+            "ジャンヌ・ダルク",
+        )
+        self.assertEqual(
+            references["game.magname.o003424.name"],
+            "バイス・ゴスペル",
+        )
+
     def test_recovered_consumer_text_is_explicitly_grounded(self) -> None:
         affinities = json.loads(
             self.batch.rendered[

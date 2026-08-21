@@ -54,22 +54,6 @@ r_idle:
     .pool
 
 ; ===== small helpers ========================================================
-; echo_of: r4 = ASCII -> r0 = current FONT16 atlas code. clobbers r0,r1 only.
-echo_of:
-    tst     r4, r4
-    bt      eo_blank
-    mov.l   =ascii_to_atlas, r1
-    mov     r4, r0
-    add     #-32, r0
-    add     r0, r0
-    mov.w   @(r0,r1), r0
-    extu.w  r0, r0
-    rts
-    nop
-eo_blank:
-    rts
-    mov     #0, r0
-
 ; stage_of: r4 = field type 1-5 -> r0 = NAME_ASCII row ptr. clobbers r0,r1.
 stage_of:
     mov.l   =stage_ptrs, r1
@@ -80,25 +64,59 @@ stage_of:
     rts
     nop
 
-; echo8: r4 = ASCII row ptr, r5 = dst cell ptr (8 cells). clobbers r0-r1,r4.
-echo8:
+; centered_draw8(r4=8-byte ASCII, r5=cell x, r6=y, r7=color): draw each Ark
+; FONT16 glyph horizontally centered in its 16px cursor cell. Blank bytes still
+; consume one cell. This preserves the stock cursor geometry without imposing
+; the stock renderer's left-aligned 16px advance on the glyph bitmap.
+centered_draw8:
     mov.l   r8, @-r15
     mov.l   r9, @-r15
     mov.l   r10, @-r15
+    mov.l   r11, @-r15
+    mov.l   r12, @-r15
+    mov.l   r13, @-r15
     sts.l   pr, @-r15
     mov     r4, r8
     mov     r5, r9
-    mov     #8, r10
-e8_loop:
-    mov.b   @r8+, r4
-    extu.b  r4, r4
-    bsr     echo_of
+    mov     r6, r10
+    mov     r7, r11
+    mov     #8, r12
+cd8_loop:
+    mov.b   @r8+, r0
+    extu.b  r0, r0
+    tst     r0, r0
+    bt      cd8_next
+    add     #-32, r0
+    mov     r0, r13
+    mov.l   =ascii_to_width, r1
+    mov.b   @(r0,r1), r1
+    extu.b  r1, r1
+    mov     #16, r5
+    sub     r1, r5
+    shlr    r5
+    add     r9, r5
+    mov     r13, r0
+    shll    r0
+    mov.l   =ascii_to_atlas, r1
+    mov.w   @(r0,r1), r4
+    extu.w  r4, r4
+    mov     r10, r6
+    mov     r11, r7
+    mov     r11, r0
+    add     #1, r0
+    mov.l   r0, @-r15
+    mov.l   =fn_blit, r1
+    jsr     @r1
     nop
-    mov.w   r0, @r9
-    add     #2, r9
-    dt      r10
-    bf      e8_loop
+    add     #4, r15
+cd8_next:
+    add     #16, r9
+    dt      r12
+    bf      cd8_loop
     lds.l   @r15+, pr
+    mov.l   @r15+, r13
+    mov.l   @r15+, r12
+    mov.l   @r15+, r11
     mov.l   @r15+, r10
     mov.l   @r15+, r9
     rts
@@ -107,7 +125,6 @@ e8_loop:
 ; echo_redraw(r4=field type 1-5): VWF question + fixed-cell answer on row 8.
 echo_redraw:
     mov.l   r8, @-r15
-    mov.l   r9, @-r15
     sts.l   pr, @-r15
     extu.b  r4, r8
     tst     r8, r8
@@ -115,39 +132,21 @@ echo_redraw:
     mov     #6, r1
     cmp/hs  r1, r8
     bt      er_done
-    mov.l   =TMPL8, r9          ; blank the old fixed-cell prompt
-    mov     #0, r1
-    mov     #11, r2
-er_blank:
-    mov.w   r1, @r9
-    add     #2, r9
-    dt      r2
-    bf      er_blank
-    mov     r8, r4              ; fixed input stays aligned to cells 11-18
-    bsr     stage_of
-    nop
-    mov     r0, r4
-    mov     r9, r5
-    bsr     echo8
-    nop
-    mov.l   =TMPL8, r1
-    mov.w   =0x8000, r2
-    mov     #38, r0
-    mov.w   r2, @(r0,r1)
     mov.l   =fn_rowclear, r1
     jsr     @r1
     mov     #8, r4
-    mov.l   =fn_pen, r1
-    mov     #8, r5
-    jsr     @r1
-    mov     #0, r4
-    mov.l   =fn_drawstr, r1
-    mov.l   =TMPL8, r4
-    jsr     @r1
+    mov     r8, r4
+    bsr     stage_of
     nop
-    mov.l   =fn_rowflush, r1
-    jsr     @r1
-    mov     #8, r4
+    mov     r0, r4
+    mov     #88, r5
+    shll    r5                  ; cell 11 begins at x = 176
+    mov     #8, r6
+    shll2   r6
+    shll2   r6                  ; y = 128 (row 8)
+    mov     #2, r7
+    bsr     centered_draw8
+    nop
     mov     r8, r0
     add     #-1, r0
     shll2   r0
@@ -165,7 +164,6 @@ er_blank:
     nop
 er_done:
     lds.l   @r15+, pr
-    mov.l   @r15+, r9
     rts
     mov.l   @r15+, r8
 
@@ -572,17 +570,19 @@ ts_redraw:
     rts
     nop
 
-; ===== grid drawer (tab-aware; replaces all five stock drawers) ============
+; ===== grid drawer (tab-aware; runtime-centers KANJI glyphs in each cell) ===
 grid_draw:
     mov.l   r8, @-r15
     mov.l   r9, @-r15
+    mov.l   r10, @-r15
+    mov.l   r11, @-r15
+    mov.l   r12, @-r15
+    mov.l   r13, @-r15
+    mov.l   r14, @-r15
     sts.l   pr, @-r15
-    mov.l   =fn_clearall, r1
+    mov.l   =fn_clear07, r1
     jsr     @r1
     nop
-    mov.l   =fn_color, r1
-    jsr     @r1
-    mov     #1, r4
     mov.l   =g_tab, r1
     mov.b   @r1, r1
     extu.b  r1, r1
@@ -596,28 +596,66 @@ gd_ok:
     shll    r1
     mov.l   =grid_bases, r2
     add     r1, r2
-    mov.l   @r2, r9
+    mov.l   @r2, r10           ; display words (KANJI codes)
+    mov.l   @(4,r2), r11       ; commit words (ASCII used for ink offsets)
     mov     #8, r8
+    mov     #0, r12            ; pixel y
 gd_row:
-    mov.l   =fn_gridrow, r1
-    mov     #19, r5
+    mov     #0, r9             ; column
+gd_cell:
+    mov.w   @r10, r14
+    extu.w  r14, r14
+    tst     r14, r14
+    bt      gd_next
+    mov     r9, r5
+    shll2   r5
+    shll2   r5                 ; cell x = column * 16
+    mov.w   @r11, r0
+    extu.w  r0, r0
+    tst     r0, r0             ; END has no ASCII/offset entry
+    bt      gd_color
+    add     #-32, r0
+    mov.l   =ascii_to_grid_offset, r1
+    mov.b   @(r0,r1), r0
+    extu.b  r0, r0
+    add     r0, r5             ; runtime horizontal centering
+gd_color:
+    mov     #2, r7             ; ordinary grid glyphs are white
+    mov.w   =0x01F7, r1
+    cmp/eq  r1, r14
+    bf      gd_blit
+    mov     #10, r7            ; END remains green
+gd_blit:
+    mov     r14, r4
+    mov     r12, r6
+    mov     r7, r0
+    add     #1, r0
+    mov.l   r0, @-r15          ; shadow color
+    mov.l   =fn_kanji_blit, r1
     jsr     @r1
-    mov     r9, r4
+    nop
+    add     #4, r15
+gd_next:
+    add     #2, r10
+    add     #2, r11
+    add     #1, r9
+    mov     r9, r0
+    cmp/eq  #19, r0
+    bf      gd_cell
     dt      r8
     bt      gd_flush
-    mov.l   =fn_newline, r1
-    jsr     @r1
-    nop
     bra     gd_row
-    add     #38, r9
+    add     #16, r12
 gd_flush:
-    mov.l   =fn_fullflush, r1
-    jsr     @r1
-    nop
     mov.l   =fn_upload, r1
     jsr     @r1
     nop
     lds.l   @r15+, pr
+    mov.l   @r15+, r14
+    mov.l   @r15+, r13
+    mov.l   @r15+, r12
+    mov.l   @r15+, r11
+    mov.l   @r15+, r10
     mov.l   @r15+, r9
     rts
     mov.l   @r15+, r8
@@ -791,9 +829,10 @@ eh_done:
     mov.l   @r15+, r8
     .pool
 
-; ===== confirm_open: VWF summary rows 8/9/10/13 from staged ASCII ==========
+; ===== confirm_open: VWF summary rows plus proportional row-12 choices =====
 confirm_open:
     mov.l   r8, @-r15
+    mov.l   r9, @-r15
     sts.l   pr, @-r15
     mov     #8, r8
 co_clear:
@@ -807,6 +846,9 @@ co_clear:
     mov.l   =fn_clearrow, r1
     jsr     @r1
     mov     #13, r4
+    mov.l   =fn_clearrow, r1
+    jsr     @r1
+    mov     #12, r4
 
     mov.l   =stage_ptrs, r8     ; row 8 = first and last names
     mov.l   @r8, r4
@@ -877,10 +919,26 @@ co_clear:
     mov     #2, r7
     bsr     prop_draw
     nop
+
+    mov.l   =CONFIRM_INFO, r8  ; row 12 = All OK? / centered YES / centered NO
+    mov     #3, r9
+co_label:
+    mov.l   @r8, r4
+    mov.w   @(4,r8), r0
+    extu.w  r0, r5
+    mov.w   @(6,r8), r0
+    extu.w  r0, r6
+    mov     #2, r7
+    bsr     prop_draw
+    nop
+    add     #8, r8
+    dt      r9
+    bf      co_label
     mov.l   =fn_upload, r1
     jsr     @r1
     nop
     lds.l   @r15+, pr
+    mov.l   @r15+, r9
     rts
     mov.l   @r15+, r8
     .pool

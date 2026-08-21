@@ -462,7 +462,8 @@ class ProfileEntryAssetTests(unittest.TestCase):
         )
         expected = {
             "name_entry.prompt": ("font16", "pixels", 168, 11),
-            "name_entry.confirm_prompt": ("font16", "glyph_cells", 11, 11),
+            "name_entry.confirm_prompt": ("font16", "pixels", 176, 11),
+            "name_entry.confirm_choice": ("font16", "pixels", 48, 3),
             "name_entry.tab_label": ("font16", "pixels", 96, None),
             "name_entry.occupation_choice": ("font16", "pixels", 128, None),
             "name_entry.grid_row": ("kanji", "glyph_cells", 13, 13),
