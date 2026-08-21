@@ -38,8 +38,8 @@
         },
         {
           "name": "subtitle_data_tertiary",
-          "address": "0x06020df8",
-          "expected_zero_bytes": 520,
+          "address": "0x06020dfc",
+          "expected_zero_bytes": 516,
           "generated": "fmv_subtitle_data"
         },
         {

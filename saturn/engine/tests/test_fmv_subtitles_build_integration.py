@@ -44,7 +44,7 @@ class FmvSubtitleBuildIntegrationTests(unittest.TestCase):
             self.manifest["runtime"],
             {
                 "bytes": 2458,
-                "capacity": 2656,
+                "capacity": 2652,
                 "arenas": {
                     "data_primary": {
                         "address": "0x06020000",
@@ -62,9 +62,9 @@ class FmvSubtitleBuildIntegrationTests(unittest.TestCase):
                         "capacity": 408,
                     },
                     "data_tertiary": {
-                        "address": "0x06020df8",
+                        "address": "0x06020dfc",
                         "bytes": 512,
-                        "capacity": 520,
+                        "capacity": 516,
                     },
                 },
             },
