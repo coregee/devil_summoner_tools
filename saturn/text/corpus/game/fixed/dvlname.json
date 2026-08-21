@@ -1,7 +1,7 @@
 [
   {
     "id": "game.dvlname.o000000.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヴィシュヌ",
     "translation": "",
@@ -9,15 +9,15 @@
   },
   {
     "id": "game.dvlname.o000008.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
-    "reference": "アメン‐ラー",
+    "reference": "アメン・ラー",
     "translation": "",
     "note": ""
   },
   {
     "id": "game.dvlname.o000010.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "オーディン",
     "translation": "",
@@ -25,7 +25,7 @@
   },
   {
     "id": "game.dvlname.o000018.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ハチマン",
     "translation": "",
@@ -33,7 +33,7 @@
   },
   {
     "id": "game.dvlname.o000020.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "プロメテウス",
     "translation": "",
@@ -41,7 +41,7 @@
   },
   {
     "id": "game.dvlname.o000028.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "インティ",
     "translation": "",
@@ -49,7 +49,7 @@
   },
   {
     "id": "game.dvlname.o000030.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "アナト",
     "translation": "",
@@ -57,7 +57,7 @@
   },
   {
     "id": "game.dvlname.o000038.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ラクシュミ",
     "translation": "",
@@ -65,7 +65,7 @@
   },
   {
     "id": "game.dvlname.o000040.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "パラスアテナ",
     "translation": "",
@@ -73,7 +73,7 @@
   },
   {
     "id": "game.dvlname.o000048.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ブリジット",
     "translation": "",
@@ -81,7 +81,7 @@
   },
   {
     "id": "game.dvlname.o000050.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "エルズリー",
     "translation": "",
@@ -89,7 +89,7 @@
   },
   {
     "id": "game.dvlname.o000058.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "スカアハ",
     "translation": "",
@@ -97,7 +97,7 @@
   },
   {
     "id": "game.dvlname.o000060.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ナキサワメ",
     "translation": "",
@@ -105,7 +105,7 @@
   },
   {
     "id": "game.dvlname.o000068.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "メタトロン",
     "translation": "",
@@ -113,7 +113,7 @@
   },
   {
     "id": "game.dvlname.o000070.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "スラオシャ",
     "translation": "",
@@ -121,7 +121,7 @@
   },
   {
     "id": "game.dvlname.o000078.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "サンダルフォン",
     "translation": "",
@@ -129,7 +129,7 @@
   },
   {
     "id": "game.dvlname.o000080.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "アズラエル",
     "translation": "",
@@ -137,7 +137,7 @@
   },
   {
     "id": "game.dvlname.o000088.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ライラ",
     "translation": "",
@@ -145,7 +145,7 @@
   },
   {
     "id": "game.dvlname.o000090.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヴィクター",
     "translation": "",
@@ -153,7 +153,7 @@
   },
   {
     "id": "game.dvlname.o000098.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ガルーダ",
     "translation": "",
@@ -161,7 +161,7 @@
   },
   {
     "id": "game.dvlname.o0000a0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヤタガラス",
     "translation": "",
@@ -169,7 +169,7 @@
   },
   {
     "id": "game.dvlname.o0000a8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヴィゾフニル",
     "translation": "",
@@ -177,7 +177,7 @@
   },
   {
     "id": "game.dvlname.o0000b0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "フェニックス",
     "translation": "",
@@ -185,7 +185,7 @@
   },
   {
     "id": "game.dvlname.o0000b8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ハンサ",
     "translation": "",
@@ -193,7 +193,7 @@
   },
   {
     "id": "game.dvlname.o0000c0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ハオマ",
     "translation": "",
@@ -201,7 +201,7 @@
   },
   {
     "id": "game.dvlname.o0000c8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ククノチ",
     "translation": "",
@@ -209,7 +209,7 @@
   },
   {
     "id": "game.dvlname.o0000d0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ダフネ",
     "translation": "",
@@ -217,7 +217,7 @@
   },
   {
     "id": "game.dvlname.o0000d8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "オシラサマ",
     "translation": "",
@@ -225,7 +225,7 @@
   },
   {
     "id": "game.dvlname.o0000e0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "カーマ",
     "translation": "",
@@ -233,7 +233,7 @@
   },
   {
     "id": "game.dvlname.o0000e8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヤリーロ",
     "translation": "",
@@ -241,7 +241,7 @@
   },
   {
     "id": "game.dvlname.o0000f0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ネコショウグン",
     "translation": "",
@@ -249,7 +249,7 @@
   },
   {
     "id": "game.dvlname.o0000f8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "カンバリ",
     "translation": "",
@@ -257,7 +257,7 @@
   },
   {
     "id": "game.dvlname.o000100.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヘイムルダム",
     "translation": "",
@@ -265,7 +265,7 @@
   },
   {
     "id": "game.dvlname.o000108.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ハヌマーン",
     "translation": "",
@@ -273,7 +273,7 @@
   },
   {
     "id": "game.dvlname.o000110.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "クルースニク",
     "translation": "",
@@ -281,15 +281,15 @@
   },
   {
     "id": "game.dvlname.o000118.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
-    "reference": "クー‐フーリン",
+    "reference": "クー・フーリン",
     "translation": "",
     "note": ""
   },
   {
     "id": "game.dvlname.o000120.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "マウイ",
     "translation": "",
@@ -297,7 +297,7 @@
   },
   {
     "id": "game.dvlname.o000128.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ジャンバヴァン",
     "translation": "",
@@ -305,7 +305,7 @@
   },
   {
     "id": "game.dvlname.o000130.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "イクティニケ",
     "translation": "",
@@ -313,7 +313,7 @@
   },
   {
     "id": "game.dvlname.o000138.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "コンス",
     "translation": "",
@@ -321,7 +321,7 @@
   },
   {
     "id": "game.dvlname.o000140.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "バロン",
     "translation": "",
@@ -329,7 +329,7 @@
   },
   {
     "id": "game.dvlname.o000148.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ウカノミタマ",
     "translation": "",
@@ -337,7 +337,7 @@
   },
   {
     "id": "game.dvlname.o000150.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "キマイラ",
     "translation": "",
@@ -345,7 +345,7 @@
   },
   {
     "id": "game.dvlname.o000158.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "アヌビス",
     "translation": "",
@@ -353,7 +353,7 @@
   },
   {
     "id": "game.dvlname.o000160.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "カマプアア",
     "translation": "",
@@ -361,7 +361,7 @@
   },
   {
     "id": "game.dvlname.o000168.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "スレイプニル",
     "translation": "",
@@ -369,7 +369,7 @@
   },
   {
     "id": "game.dvlname.o000170.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "パピルサグ",
     "translation": "",
@@ -377,7 +377,7 @@
   },
   {
     "id": "game.dvlname.o000178.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "アイラーヴァタ",
     "translation": "",
@@ -385,7 +385,7 @@
   },
   {
     "id": "game.dvlname.o000180.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヤツフサ",
     "translation": "",
@@ -393,7 +393,7 @@
   },
   {
     "id": "game.dvlname.o000188.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "アピス",
     "translation": "",
@@ -401,7 +401,7 @@
   },
   {
     "id": "game.dvlname.o000190.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "カイチ",
     "translation": "",
@@ -409,7 +409,7 @@
   },
   {
     "id": "game.dvlname.o000198.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "シーサー",
     "translation": "",
@@ -417,7 +417,7 @@
   },
   {
     "id": "game.dvlname.o0001a0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "サラマンダー",
     "translation": "",
@@ -425,7 +425,7 @@
   },
   {
     "id": "game.dvlname.o0001a8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ウンディーネ",
     "translation": "",
@@ -433,7 +433,7 @@
   },
   {
     "id": "game.dvlname.o0001b0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "シルフ",
     "translation": "",
@@ -441,7 +441,7 @@
   },
   {
     "id": "game.dvlname.o0001b8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ノーム",
     "translation": "",
@@ -449,7 +449,7 @@
   },
   {
     "id": "game.dvlname.o0001c0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "サキミタマ",
     "translation": "",
@@ -457,7 +457,7 @@
   },
   {
     "id": "game.dvlname.o0001c8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "クシミタマ",
     "translation": "",
@@ -465,7 +465,7 @@
   },
   {
     "id": "game.dvlname.o0001d0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "アラミタマ",
     "translation": "",
@@ -473,7 +473,7 @@
   },
   {
     "id": "game.dvlname.o0001d8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ニギミタマ",
     "translation": "",
@@ -481,7 +481,7 @@
   },
   {
     "id": "game.dvlname.o0001e0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ラーマ",
     "translation": "",
@@ -489,7 +489,7 @@
   },
   {
     "id": "game.dvlname.o0001e8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "カンテイセイクン",
     "translation": "",
@@ -497,7 +497,7 @@
   },
   {
     "id": "game.dvlname.o0001f0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ファリードゥーン",
     "translation": "",
@@ -505,7 +505,7 @@
   },
   {
     "id": "game.dvlname.o0001f8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヨシツネ",
     "translation": "",
@@ -513,15 +513,15 @@
   },
   {
     "id": "game.dvlname.o000200.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
-    "reference": "ジャンヌ‐ダルク",
+    "reference": "ジャンヌ・ダルク",
     "translation": "",
     "note": ""
   },
   {
     "id": "game.dvlname.o000208.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "シヴァ",
     "translation": "",
@@ -529,7 +529,7 @@
   },
   {
     "id": "game.dvlname.o000210.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "スサノオ",
     "translation": "",
@@ -537,7 +537,7 @@
   },
   {
     "id": "game.dvlname.o000218.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "カルティケーヤ",
     "translation": "",
@@ -545,7 +545,7 @@
   },
   {
     "id": "game.dvlname.o000220.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "セイテンタイセイ",
     "translation": "",
@@ -553,7 +553,7 @@
   },
   {
     "id": "game.dvlname.o000228.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "トリグラフ",
     "translation": "",
@@ -561,7 +561,7 @@
   },
   {
     "id": "game.dvlname.o000230.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "オグン",
     "translation": "",
@@ -569,7 +569,7 @@
   },
   {
     "id": "game.dvlname.o000238.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "カーリー",
     "translation": "",
@@ -577,7 +577,7 @@
   },
   {
     "id": "game.dvlname.o000240.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "キュベレ",
     "translation": "",
@@ -585,7 +585,7 @@
   },
   {
     "id": "game.dvlname.o000248.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ブラックマリア",
     "translation": "",
@@ -593,7 +593,7 @@
   },
   {
     "id": "game.dvlname.o000250.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "セドナ",
     "translation": "",
@@ -601,7 +601,7 @@
   },
   {
     "id": "game.dvlname.o000258.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ハリティー",
     "translation": "",
@@ -609,7 +609,7 @@
   },
   {
     "id": "game.dvlname.o000260.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "セクメト",
     "translation": "",
@@ -617,7 +617,7 @@
   },
   {
     "id": "game.dvlname.o000268.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "キクリヒメ",
     "translation": "",
@@ -625,7 +625,7 @@
   },
   {
     "id": "game.dvlname.o000270.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "マリシテン",
     "translation": "",
@@ -633,7 +633,7 @@
   },
   {
     "id": "game.dvlname.o000278.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ビシャモンテン",
     "translation": "",
@@ -641,7 +641,7 @@
   },
   {
     "id": "game.dvlname.o000280.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "トール",
     "translation": "",
@@ -649,7 +649,7 @@
   },
   {
     "id": "game.dvlname.o000288.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "タケミカヅチ",
     "translation": "",
@@ -657,7 +657,7 @@
   },
   {
     "id": "game.dvlname.o000290.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ショウキ",
     "translation": "",
@@ -665,7 +665,7 @@
   },
   {
     "id": "game.dvlname.o000298.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ティール",
     "translation": "",
@@ -673,7 +673,7 @@
   },
   {
     "id": "game.dvlname.o0002a0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ナガスネヒコ",
     "translation": "",
@@ -681,7 +681,7 @@
   },
   {
     "id": "game.dvlname.o0002a8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "オトゴドウジ",
     "translation": "",
@@ -689,7 +689,7 @@
   },
   {
     "id": "game.dvlname.o0002b0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ショクイン",
     "translation": "",
@@ -697,7 +697,7 @@
   },
   {
     "id": "game.dvlname.o0002b8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "アナンタ",
     "translation": "",
@@ -705,7 +705,7 @@
   },
   {
     "id": "game.dvlname.o0002c0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "イルルヤンカシュ",
     "translation": "",
@@ -713,7 +713,7 @@
   },
   {
     "id": "game.dvlname.o0002c8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "パトリムパス",
     "translation": "",
@@ -721,7 +721,7 @@
   },
   {
     "id": "game.dvlname.o0002d0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ケツアルカトル",
     "translation": "",
@@ -729,7 +729,7 @@
   },
   {
     "id": "game.dvlname.o0002d8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ケルプ",
     "translation": "",
@@ -737,7 +737,7 @@
   },
   {
     "id": "game.dvlname.o0002e0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ソロネ",
     "translation": "",
@@ -745,7 +745,7 @@
   },
   {
     "id": "game.dvlname.o0002e8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ドミニオン",
     "translation": "",
@@ -753,7 +753,7 @@
   },
   {
     "id": "game.dvlname.o0002f0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヴァーチャー",
     "translation": "",
@@ -761,7 +761,7 @@
   },
   {
     "id": "game.dvlname.o0002f8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "パワー",
     "translation": "",
@@ -769,7 +769,7 @@
   },
   {
     "id": "game.dvlname.o000300.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "プリンシパリティ",
     "translation": "",
@@ -777,7 +777,7 @@
   },
   {
     "id": "game.dvlname.o000308.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "アークエンジェル",
     "translation": "",
@@ -785,7 +785,7 @@
   },
   {
     "id": "game.dvlname.o000310.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "エンジェル",
     "translation": "",
@@ -793,7 +793,7 @@
   },
   {
     "id": "game.dvlname.o000318.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ルフ",
     "translation": "",
@@ -801,7 +801,7 @@
   },
   {
     "id": "game.dvlname.o000320.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "タイホウ",
     "translation": "",
@@ -809,7 +809,7 @@
   },
   {
     "id": "game.dvlname.o000328.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ホラワカ",
     "translation": "",
@@ -817,7 +817,7 @@
   },
   {
     "id": "game.dvlname.o000330.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "カラドリウス",
     "translation": "",
@@ -825,7 +825,7 @@
   },
   {
     "id": "game.dvlname.o000338.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "タクヒ",
     "translation": "",
@@ -833,7 +833,7 @@
   },
   {
     "id": "game.dvlname.o000340.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヤマチチ",
     "translation": "",
@@ -841,7 +841,7 @@
   },
   {
     "id": "game.dvlname.o000348.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "バー",
     "translation": "",
@@ -849,7 +849,7 @@
   },
   {
     "id": "game.dvlname.o000350.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ガネーシャ",
     "translation": "",
@@ -857,7 +857,7 @@
   },
   {
     "id": "game.dvlname.o000358.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ペリ",
     "translation": "",
@@ -865,7 +865,7 @@
   },
   {
     "id": "game.dvlname.o000360.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "シウテクトリ",
     "translation": "",
@@ -873,7 +873,7 @@
   },
   {
     "id": "game.dvlname.o000368.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "テング",
     "translation": "",
@@ -881,7 +881,7 @@
   },
   {
     "id": "game.dvlname.o000370.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "マルト",
     "translation": "",
@@ -889,7 +889,7 @@
   },
   {
     "id": "game.dvlname.o000378.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "シャイターン",
     "translation": "",
@@ -897,7 +897,7 @@
   },
   {
     "id": "game.dvlname.o000380.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "アガシオン",
     "translation": "",
@@ -905,7 +905,7 @@
   },
   {
     "id": "game.dvlname.o000388.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "オベロン",
     "translation": "",
@@ -913,7 +913,7 @@
   },
   {
     "id": "game.dvlname.o000390.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ティターニア",
     "translation": "",
@@ -921,7 +921,7 @@
   },
   {
     "id": "game.dvlname.o000398.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "スプリガン",
     "translation": "",
@@ -929,7 +929,7 @@
   },
   {
     "id": "game.dvlname.o0003a0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ローレライ",
     "translation": "",
@@ -937,7 +937,7 @@
   },
   {
     "id": "game.dvlname.o0003a8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ドモヴォーイ",
     "translation": "",
@@ -945,7 +945,7 @@
   },
   {
     "id": "game.dvlname.o0003b0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ジャックランタン",
     "translation": "",
@@ -953,7 +953,7 @@
   },
   {
     "id": "game.dvlname.o0003b8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ジャックフロスト",
     "translation": "",
@@ -961,7 +961,7 @@
   },
   {
     "id": "game.dvlname.o0003c0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "キジムナー",
     "translation": "",
@@ -969,7 +969,7 @@
   },
   {
     "id": "game.dvlname.o0003c8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ピクシー",
     "translation": "",
@@ -977,7 +977,7 @@
   },
   {
     "id": "game.dvlname.o0003d0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ウロボロス",
     "translation": "",
@@ -985,7 +985,7 @@
   },
   {
     "id": "game.dvlname.o0003d8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヤマタノオロチ",
     "translation": "",
@@ -993,7 +993,7 @@
   },
   {
     "id": "game.dvlname.o0003e0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ユルング",
     "translation": "",
@@ -1001,7 +1001,7 @@
   },
   {
     "id": "game.dvlname.o0003e8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "クエレプレ",
     "translation": "",
@@ -1009,7 +1009,7 @@
   },
   {
     "id": "game.dvlname.o0003f0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ナーガ",
     "translation": "",
@@ -1017,7 +1017,7 @@
   },
   {
     "id": "game.dvlname.o0003f8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヴィーヴル",
     "translation": "",
@@ -1025,7 +1025,7 @@
   },
   {
     "id": "game.dvlname.o000400.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヤトノカミ",
     "translation": "",
@@ -1033,7 +1033,7 @@
   },
   {
     "id": "game.dvlname.o000408.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ケルベロス",
     "translation": "",
@@ -1041,7 +1041,7 @@
   },
   {
     "id": "game.dvlname.o000410.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "アーマーン",
     "translation": "",
@@ -1049,7 +1049,7 @@
   },
   {
     "id": "game.dvlname.o000418.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ドゥン",
     "translation": "",
@@ -1057,7 +1057,7 @@
   },
   {
     "id": "game.dvlname.o000420.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ショウジョウ",
     "translation": "",
@@ -1065,7 +1065,7 @@
   },
   {
     "id": "game.dvlname.o000428.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ネコマタ",
     "translation": "",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "game.dvlname.o000430.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "カタキラウワ",
     "translation": "",
@@ -1081,7 +1081,7 @@
   },
   {
     "id": "game.dvlname.o000438.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヘアリージャック",
     "translation": "",
@@ -1089,7 +1089,7 @@
   },
   {
     "id": "game.dvlname.o000440.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "カブソ",
     "translation": "",
@@ -1097,7 +1097,7 @@
   },
   {
     "id": "game.dvlname.o000448.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "イナバシロウサギ",
     "translation": "",
@@ -1105,7 +1105,7 @@
   },
   {
     "id": "game.dvlname.o000450.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "アエロファンテ",
     "translation": "",
@@ -1113,7 +1113,7 @@
   },
   {
     "id": "game.dvlname.o000458.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "マメダヌキ",
     "translation": "",
@@ -1121,7 +1121,7 @@
   },
   {
     "id": "game.dvlname.o000460.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "オリバーくん",
     "translation": "",
@@ -1129,7 +1129,7 @@
   },
   {
     "id": "game.dvlname.o000468.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ゴグマゴク",
     "translation": "",
@@ -1137,7 +1137,7 @@
   },
   {
     "id": "game.dvlname.o000470.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ティターン",
     "translation": "",
@@ -1145,7 +1145,7 @@
   },
   {
     "id": "game.dvlname.o000478.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "オオミツヌ",
     "translation": "",
@@ -1153,7 +1153,7 @@
   },
   {
     "id": "game.dvlname.o000480.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "カワンチャ",
     "translation": "",
@@ -1161,7 +1161,7 @@
   },
   {
     "id": "game.dvlname.o000488.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ドワーフ",
     "translation": "",
@@ -1169,7 +1169,7 @@
   },
   {
     "id": "game.dvlname.o000490.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "リブ",
     "translation": "",
@@ -1177,7 +1177,7 @@
   },
   {
     "id": "game.dvlname.o000498.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "コロポックル",
     "translation": "",
@@ -1185,7 +1185,7 @@
   },
   {
     "id": "game.dvlname.o0004a0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ノッカー",
     "translation": "",
@@ -1193,7 +1193,7 @@
   },
   {
     "id": "game.dvlname.o0004a8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヒュプノス",
     "translation": "",
@@ -1201,7 +1201,7 @@
   },
   {
     "id": "game.dvlname.o0004b0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "サキュバス",
     "translation": "",
@@ -1209,7 +1209,7 @@
   },
   {
     "id": "game.dvlname.o0004b8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "インキュバス",
     "translation": "",
@@ -1217,7 +1217,7 @@
   },
   {
     "id": "game.dvlname.o0004c0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヒノエンマ",
     "translation": "",
@@ -1225,7 +1225,7 @@
   },
   {
     "id": "game.dvlname.o0004c8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ザントマン",
     "translation": "",
@@ -1233,7 +1233,7 @@
   },
   {
     "id": "game.dvlname.o0004d0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "キキーモラ",
     "translation": "",
@@ -1241,7 +1241,7 @@
   },
   {
     "id": "game.dvlname.o0004d8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ナハトコボルト",
     "translation": "",
@@ -1249,7 +1249,7 @@
   },
   {
     "id": "game.dvlname.o0004e0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "アブラクサス",
     "translation": "",
@@ -1257,7 +1257,7 @@
   },
   {
     "id": "game.dvlname.o0004e8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ボティス",
     "translation": "",
@@ -1265,7 +1265,7 @@
   },
   {
     "id": "game.dvlname.o0004f0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "バルバトス",
     "translation": "",
@@ -1273,7 +1273,7 @@
   },
   {
     "id": "game.dvlname.o0004f8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "プールソン",
     "translation": "",
@@ -1281,7 +1281,7 @@
   },
   {
     "id": "game.dvlname.o000500.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ビフロンス",
     "translation": "",
@@ -1289,7 +1289,7 @@
   },
   {
     "id": "game.dvlname.o000508.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ニスロク",
     "translation": "",
@@ -1297,7 +1297,7 @@
   },
   {
     "id": "game.dvlname.o000510.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "メルコム",
     "translation": "",
@@ -1305,7 +1305,7 @@
   },
   {
     "id": "game.dvlname.o000518.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ストラス",
     "translation": "",
@@ -1313,7 +1313,7 @@
   },
   {
     "id": "game.dvlname.o000520.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヤクシャ",
     "translation": "",
@@ -1321,7 +1321,7 @@
   },
   {
     "id": "game.dvlname.o000528.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ベルセルク",
     "translation": "",
@@ -1329,7 +1329,7 @@
   },
   {
     "id": "game.dvlname.o000530.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "プルキシ",
     "translation": "",
@@ -1337,7 +1337,7 @@
   },
   {
     "id": "game.dvlname.o000538.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヨモツイクサ",
     "translation": "",
@@ -1345,7 +1345,7 @@
   },
   {
     "id": "game.dvlname.o000540.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "トケビ",
     "translation": "",
@@ -1353,7 +1353,7 @@
   },
   {
     "id": "game.dvlname.o000548.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヤマワロ",
     "translation": "",
@@ -1361,7 +1361,7 @@
   },
   {
     "id": "game.dvlname.o000550.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ボーグル",
     "translation": "",
@@ -1369,7 +1369,7 @@
   },
   {
     "id": "game.dvlname.o000558.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ランダ",
     "translation": "",
@@ -1377,7 +1377,7 @@
   },
   {
     "id": "game.dvlname.o000560.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ダーキニー",
     "translation": "",
@@ -1385,7 +1385,7 @@
   },
   {
     "id": "game.dvlname.o000568.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "アマゾーン",
     "translation": "",
@@ -1393,7 +1393,7 @@
   },
   {
     "id": "game.dvlname.o000570.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ユキジョロウ",
     "translation": "",
@@ -1401,7 +1401,7 @@
   },
   {
     "id": "game.dvlname.o000578.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "トドメキ",
     "translation": "",
@@ -1409,7 +1409,7 @@
   },
   {
     "id": "game.dvlname.o000580.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "リャナンシー",
     "translation": "",
@@ -1417,7 +1417,7 @@
   },
   {
     "id": "game.dvlname.o000588.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヨモツシコメ",
     "translation": "",
@@ -1425,7 +1425,7 @@
   },
   {
     "id": "game.dvlname.o000590.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "パレス",
     "translation": "",
@@ -1433,7 +1433,7 @@
   },
   {
     "id": "game.dvlname.o000598.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "トウテツ",
     "translation": "",
@@ -1441,7 +1441,7 @@
   },
   {
     "id": "game.dvlname.o0005a0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "カナロア",
     "translation": "",
@@ -1449,7 +1449,7 @@
   },
   {
     "id": "game.dvlname.o0005a8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ケモシ",
     "translation": "",
@@ -1457,7 +1457,7 @@
   },
   {
     "id": "game.dvlname.o0005b0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "パチャカマク",
     "translation": "",
@@ -1465,7 +1465,7 @@
   },
   {
     "id": "game.dvlname.o0005b8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "カウ",
     "translation": "",
@@ -1473,7 +1473,7 @@
   },
   {
     "id": "game.dvlname.o0005c0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "アンズー",
     "translation": "",
@@ -1481,7 +1481,7 @@
   },
   {
     "id": "game.dvlname.o0005c8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "チン",
     "translation": "",
@@ -1489,7 +1489,7 @@
   },
   {
     "id": "game.dvlname.o0005d0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "スチュパリデス",
     "translation": "",
@@ -1497,7 +1497,7 @@
   },
   {
     "id": "game.dvlname.o0005d8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "イツマデ",
     "translation": "",
@@ -1505,15 +1505,15 @@
   },
   {
     "id": "game.dvlname.o0005e0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
-    "reference": "モー‐ショボー",
+    "reference": "モー・ショボー",
     "translation": "",
     "note": ""
   },
   {
     "id": "game.dvlname.o0005e8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヒッポウ",
     "translation": "",
@@ -1521,7 +1521,7 @@
   },
   {
     "id": "game.dvlname.o0005f0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "エス",
     "translation": "",
@@ -1529,7 +1529,7 @@
   },
   {
     "id": "game.dvlname.o0005f8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ザックーム",
     "translation": "",
@@ -1537,7 +1537,7 @@
   },
   {
     "id": "game.dvlname.o000600.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "アルラウネ",
     "translation": "",
@@ -1545,7 +1545,7 @@
   },
   {
     "id": "game.dvlname.o000608.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "マンドレイク",
     "translation": "",
@@ -1553,7 +1553,7 @@
   },
   {
     "id": "game.dvlname.o000610.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ジュボッコ",
     "translation": "",
@@ -1561,7 +1561,7 @@
   },
   {
     "id": "game.dvlname.o000618.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "モト",
     "translation": "",
@@ -1569,7 +1569,7 @@
   },
   {
     "id": "game.dvlname.o000620.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ゲーデ",
     "translation": "",
@@ -1577,7 +1577,7 @@
   },
   {
     "id": "game.dvlname.o000628.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "チェルノボグ",
     "translation": "",
@@ -1585,7 +1585,7 @@
   },
   {
     "id": "game.dvlname.o000630.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "タナトス",
     "translation": "",
@@ -1593,7 +1593,7 @@
   },
   {
     "id": "game.dvlname.o000638.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "イシュタム",
     "translation": "",
@@ -1601,7 +1601,7 @@
   },
   {
     "id": "game.dvlname.o000640.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "トウコツ",
     "translation": "",
@@ -1609,7 +1609,7 @@
   },
   {
     "id": "game.dvlname.o000648.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "カトブレパス",
     "translation": "",
@@ -1617,7 +1617,7 @@
   },
   {
     "id": "game.dvlname.o000650.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "フォービ",
     "translation": "",
@@ -1625,7 +1625,7 @@
   },
   {
     "id": "game.dvlname.o000658.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヌエ",
     "translation": "",
@@ -1633,7 +1633,7 @@
   },
   {
     "id": "game.dvlname.o000660.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "スイコ",
     "translation": "",
@@ -1641,7 +1641,7 @@
   },
   {
     "id": "game.dvlname.o000668.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "アーヴァンク",
     "translation": "",
@@ -1649,7 +1649,7 @@
   },
   {
     "id": "game.dvlname.o000670.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ワイラ",
     "translation": "",
@@ -1657,7 +1657,7 @@
   },
   {
     "id": "game.dvlname.o000678.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "グレンデル",
     "translation": "",
@@ -1665,7 +1665,7 @@
   },
   {
     "id": "game.dvlname.o000680.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ギリメカラ",
     "translation": "",
@@ -1673,7 +1673,7 @@
   },
   {
     "id": "game.dvlname.o000688.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ガシャドクロ",
     "translation": "",
@@ -1681,7 +1681,7 @@
   },
   {
     "id": "game.dvlname.o000690.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "オセロット",
     "translation": "",
@@ -1689,7 +1689,7 @@
   },
   {
     "id": "game.dvlname.o000698.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "アシナガ",
     "translation": "",
@@ -1697,7 +1697,7 @@
   },
   {
     "id": "game.dvlname.o0006a0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "テナガ",
     "translation": "",
@@ -1705,7 +1705,7 @@
   },
   {
     "id": "game.dvlname.o0006a8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "オーガ",
     "translation": "",
@@ -1713,7 +1713,7 @@
   },
   {
     "id": "game.dvlname.o0006b0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "パトリオット",
     "translation": "",
@@ -1721,7 +1721,7 @@
   },
   {
     "id": "game.dvlname.o0006b8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ゾンビコップ",
     "translation": "",
@@ -1729,7 +1729,7 @@
   },
   {
     "id": "game.dvlname.o0006c0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "アゴニー",
     "translation": "",
@@ -1737,7 +1737,7 @@
   },
   {
     "id": "game.dvlname.o0006c8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ラスタマン",
     "translation": "",
@@ -1745,7 +1745,7 @@
   },
   {
     "id": "game.dvlname.o0006d0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ワックスワーク",
     "translation": "",
@@ -1753,7 +1753,7 @@
   },
   {
     "id": "game.dvlname.o0006d8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "スケアクロー",
     "translation": "",
@@ -1761,7 +1761,7 @@
   },
   {
     "id": "game.dvlname.o0006e0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "モスマン",
     "translation": "",
@@ -1769,7 +1769,7 @@
   },
   {
     "id": "game.dvlname.o0006e8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ミルメコレオ",
     "translation": "",
@@ -1777,7 +1777,7 @@
   },
   {
     "id": "game.dvlname.o0006f0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "オキクムシ",
     "translation": "",
@@ -1785,7 +1785,7 @@
   },
   {
     "id": "game.dvlname.o0006f8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヨーウィー",
     "translation": "",
@@ -1793,7 +1793,7 @@
   },
   {
     "id": "game.dvlname.o000700.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ウブ",
     "translation": "",
@@ -1801,7 +1801,7 @@
   },
   {
     "id": "game.dvlname.o000708.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "シュウ",
     "translation": "",
@@ -1809,7 +1809,7 @@
   },
   {
     "id": "game.dvlname.o000710.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ネルガル",
     "translation": "",
@@ -1817,7 +1817,7 @@
   },
   {
     "id": "game.dvlname.o000718.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ラーフ",
     "translation": "",
@@ -1825,7 +1825,7 @@
   },
   {
     "id": "game.dvlname.o000720.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ロキ",
     "translation": "",
@@ -1833,7 +1833,7 @@
   },
   {
     "id": "game.dvlname.o000728.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "バロール",
     "translation": "",
@@ -1841,7 +1841,7 @@
   },
   {
     "id": "game.dvlname.o000730.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヴァスキ",
     "translation": "",
@@ -1849,7 +1849,7 @@
   },
   {
     "id": "game.dvlname.o000738.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ムシュフシュ",
     "translation": "",
@@ -1857,7 +1857,7 @@
   },
   {
     "id": "game.dvlname.o000740.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ピュートーン",
     "translation": "",
@@ -1865,7 +1865,7 @@
   },
   {
     "id": "game.dvlname.o000748.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "バジリスク",
     "translation": "",
@@ -1873,7 +1873,7 @@
   },
   {
     "id": "game.dvlname.o000750.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ウワバミ",
     "translation": "",
@@ -1881,7 +1881,7 @@
   },
   {
     "id": "game.dvlname.o000758.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "アスプ",
     "translation": "",
@@ -1889,7 +1889,7 @@
   },
   {
     "id": "game.dvlname.o000760.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "トウビョウ",
     "translation": "",
@@ -1897,7 +1897,7 @@
   },
   {
     "id": "game.dvlname.o000768.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヴェータラ",
     "translation": "",
@@ -1905,7 +1905,7 @@
   },
   {
     "id": "game.dvlname.o000770.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "クドラク",
     "translation": "",
@@ -1913,7 +1913,7 @@
   },
   {
     "id": "game.dvlname.o000778.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ツォロム",
     "translation": "",
@@ -1921,7 +1921,7 @@
   },
   {
     "id": "game.dvlname.o000780.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "エンク",
     "translation": "",
@@ -1929,7 +1929,7 @@
   },
   {
     "id": "game.dvlname.o000788.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "グール",
     "translation": "",
@@ -1937,7 +1937,7 @@
   },
   {
     "id": "game.dvlname.o000790.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "オバリヨン",
     "translation": "",
@@ -1945,7 +1945,7 @@
   },
   {
     "id": "game.dvlname.o000798.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ガキ",
     "translation": "",
@@ -1953,7 +1953,7 @@
   },
   {
     "id": "game.dvlname.o0007a0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "マカーブル",
     "translation": "",
@@ -1961,7 +1961,7 @@
   },
   {
     "id": "game.dvlname.o0007a8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "レギオン",
     "translation": "",
@@ -1969,7 +1969,7 @@
   },
   {
     "id": "game.dvlname.o0007b0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "インフェルノ",
     "translation": "",
@@ -1977,7 +1977,7 @@
   },
   {
     "id": "game.dvlname.o0007b8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "トルソー",
     "translation": "",
@@ -1985,7 +1985,7 @@
   },
   {
     "id": "game.dvlname.o0007c0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "クイックシルバー",
     "translation": "",
@@ -1993,7 +1993,7 @@
   },
   {
     "id": "game.dvlname.o0007c8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ポルターガイスト",
     "translation": "",
@@ -2001,7 +2001,7 @@
   },
   {
     "id": "game.dvlname.o0007d0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ドッペルゲンガー",
     "translation": "",
@@ -2009,7 +2009,7 @@
   },
   {
     "id": "game.dvlname.o0007d8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "タトゥーマン",
     "translation": "",
@@ -2017,7 +2017,7 @@
   },
   {
     "id": "game.dvlname.o0007e0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "キラーチョッパー",
     "translation": "",
@@ -2025,7 +2025,7 @@
   },
   {
     "id": "game.dvlname.o0007e8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "フーリガン",
     "translation": "",
@@ -2033,7 +2033,7 @@
   },
   {
     "id": "game.dvlname.o0007f0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "スライム",
     "translation": "",
@@ -2041,7 +2041,7 @@
   },
   {
     "id": "game.dvlname.o0007f8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "シェイ",
     "translation": "",
@@ -2049,7 +2049,7 @@
   },
   {
     "id": "game.dvlname.o000800.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "シェイ",
     "translation": "",
@@ -2057,7 +2057,7 @@
   },
   {
     "id": "game.dvlname.o000808.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "シェイ",
     "translation": "",
@@ -2065,7 +2065,7 @@
   },
   {
     "id": "game.dvlname.o000810.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "シェイ",
     "translation": "",
@@ -2073,7 +2073,7 @@
   },
   {
     "id": "game.dvlname.o000818.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "シェイ",
     "translation": "",
@@ -2081,7 +2081,7 @@
   },
   {
     "id": "game.dvlname.o000820.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ナゾのおとこ",
     "translation": "",
@@ -2089,7 +2089,7 @@
   },
   {
     "id": "game.dvlname.o000828.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "クミコ",
     "translation": "",
@@ -2097,15 +2097,15 @@
   },
   {
     "id": "game.dvlname.o000830.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
-    "reference": "ドリー‐カドモン",
+    "reference": "ドリー・カドモン",
     "translation": "",
     "note": ""
   },
   {
     "id": "game.dvlname.o000838.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ガキ",
     "translation": "",
@@ -2113,7 +2113,7 @@
   },
   {
     "id": "game.dvlname.o000840.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "スライム",
     "translation": "",
@@ -2121,7 +2121,7 @@
   },
   {
     "id": "game.dvlname.o000848.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ピシャーチャ",
     "translation": "",
@@ -2129,7 +2129,7 @@
   },
   {
     "id": "game.dvlname.o000850.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "フグルマ",
     "translation": "",
@@ -2137,7 +2137,7 @@
   },
   {
     "id": "game.dvlname.o000858.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヤコウ",
     "translation": "",
@@ -2145,7 +2145,7 @@
   },
   {
     "id": "game.dvlname.o000860.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "アシナガ",
     "translation": "",
@@ -2153,7 +2153,7 @@
   },
   {
     "id": "game.dvlname.o000868.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "テナガ",
     "translation": "",
@@ -2161,7 +2161,7 @@
   },
   {
     "id": "game.dvlname.o000870.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "イヌイ",
     "translation": "",
@@ -2169,7 +2169,7 @@
   },
   {
     "id": "game.dvlname.o000878.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ぶたいへい",
     "translation": "",
@@ -2177,7 +2177,7 @@
   },
   {
     "id": "game.dvlname.o000880.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "Pガルガンチュア",
     "translation": "",
@@ -2185,7 +2185,7 @@
   },
   {
     "id": "game.dvlname.o000888.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "シド",
     "translation": "",
@@ -2193,7 +2193,7 @@
   },
   {
     "id": "game.dvlname.o000890.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "シキオウジ",
     "translation": "",
@@ -2201,7 +2201,7 @@
   },
   {
     "id": "game.dvlname.o000898.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ストリゴイイ",
     "translation": "",
@@ -2209,7 +2209,7 @@
   },
   {
     "id": "game.dvlname.o0008a0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ストリゲス",
     "translation": "",
@@ -2217,7 +2217,7 @@
   },
   {
     "id": "game.dvlname.o0008a8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "カシヤマ",
     "translation": "",
@@ -2225,7 +2225,7 @@
   },
   {
     "id": "game.dvlname.o0008b0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "エンク",
     "translation": "",
@@ -2233,7 +2233,7 @@
   },
   {
     "id": "game.dvlname.o0008b8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ダンタリアン",
     "translation": "",
@@ -2241,7 +2241,7 @@
   },
   {
     "id": "game.dvlname.o0008c0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ユリア",
     "translation": "",
@@ -2249,7 +2249,7 @@
   },
   {
     "id": "game.dvlname.o0008c8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "スピーディー",
     "translation": "",
@@ -2257,7 +2257,7 @@
   },
   {
     "id": "game.dvlname.o0008d0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ミキヤ",
     "translation": "",
@@ -2265,7 +2265,7 @@
   },
   {
     "id": "game.dvlname.o0008d8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "オルゴンゴースト",
     "translation": "",
@@ -2273,7 +2273,7 @@
   },
   {
     "id": "game.dvlname.o0008e0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "オルゴンゴースト",
     "translation": "",
@@ -2281,7 +2281,7 @@
   },
   {
     "id": "game.dvlname.o0008e8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "クバンダ",
     "translation": "",
@@ -2289,7 +2289,7 @@
   },
   {
     "id": "game.dvlname.o0008f0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "カンテイセイクン",
     "translation": "",
@@ -2297,7 +2297,7 @@
   },
   {
     "id": "game.dvlname.o0008f8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "テンドウ",
     "translation": "",
@@ -2305,7 +2305,7 @@
   },
   {
     "id": "game.dvlname.o000900.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "デミウルゴス",
     "translation": "",
@@ -2313,7 +2313,7 @@
   },
   {
     "id": "game.dvlname.o000908.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "シド",
     "translation": "",
@@ -2321,7 +2321,7 @@
   },
   {
     "id": "game.dvlname.o000910.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "カロン",
     "translation": "",
@@ -2329,7 +2329,7 @@
   },
   {
     "id": "game.dvlname.o000918.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "オオマガツヒ",
     "translation": "",
@@ -2337,7 +2337,7 @@
   },
   {
     "id": "game.dvlname.o000920.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ヤソマガツヒ",
     "translation": "",
@@ -2345,7 +2345,7 @@
   },
   {
     "id": "game.dvlname.o000928.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "シド",
     "translation": "",
@@ -2353,7 +2353,7 @@
   },
   {
     "id": "game.dvlname.o000930.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "イナルナ",
     "translation": "",
@@ -2361,7 +2361,7 @@
   },
   {
     "id": "game.dvlname.o000938.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "イナルナ",
     "translation": "",
@@ -2369,7 +2369,7 @@
   },
   {
     "id": "game.dvlname.o000940.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "イナルナ",
     "translation": "",
@@ -2377,7 +2377,7 @@
   },
   {
     "id": "game.dvlname.o000948.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ガルガンチュア",
     "translation": "",
@@ -2385,7 +2385,7 @@
   },
   {
     "id": "game.dvlname.o000950.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ガルガンチュアQ",
     "translation": "",
@@ -2393,7 +2393,7 @@
   },
   {
     "id": "game.dvlname.o000958.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ガルガンチュアX",
     "translation": "",
@@ -2401,7 +2401,7 @@
   },
   {
     "id": "game.dvlname.o000960.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ガルガンチュア8",
     "translation": "",
@@ -2409,7 +2409,7 @@
   },
   {
     "id": "game.dvlname.o000968.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ホクトセイクン",
     "translation": "",
@@ -2417,7 +2417,7 @@
   },
   {
     "id": "game.dvlname.o000970.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ナントセイクン",
     "translation": "",
@@ -2425,7 +2425,7 @@
   },
   {
     "id": "game.dvlname.o000978.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "デビルバスターズ",
     "translation": "",
@@ -2433,7 +2433,7 @@
   },
   {
     "id": "game.dvlname.o000980.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ボスりざーぶ",
     "translation": "",
@@ -2441,7 +2441,7 @@
   },
   {
     "id": "game.dvlname.o000988.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ボスりざーぶ",
     "translation": "",
@@ -2449,7 +2449,7 @@
   },
   {
     "id": "game.dvlname.o000990.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ボスりざーぶ",
     "translation": "",
@@ -2457,7 +2457,7 @@
   },
   {
     "id": "game.dvlname.o000998.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ボスりざーぶ",
     "translation": "",
@@ -2465,7 +2465,7 @@
   },
   {
     "id": "game.dvlname.o0009a0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ボスりざーぶ",
     "translation": "",
@@ -2473,7 +2473,7 @@
   },
   {
     "id": "game.dvlname.o0009a8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ボスりざーぶ",
     "translation": "",
@@ -2481,7 +2481,7 @@
   },
   {
     "id": "game.dvlname.o0009b0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ボスりざーぶ",
     "translation": "",
@@ -2489,7 +2489,7 @@
   },
   {
     "id": "game.dvlname.o0009b8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ボスりざーぶ",
     "translation": "",
@@ -2497,7 +2497,7 @@
   },
   {
     "id": "game.dvlname.o0009c0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ボスりざーぶ",
     "translation": "",
@@ -2505,7 +2505,7 @@
   },
   {
     "id": "game.dvlname.o0009c8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ボスりざーぶ",
     "translation": "",
@@ -2513,7 +2513,7 @@
   },
   {
     "id": "game.dvlname.o0009d0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ボスりざーぶ",
     "translation": "",
@@ -2521,7 +2521,7 @@
   },
   {
     "id": "game.dvlname.o0009d8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ボスりざーぶ",
     "translation": "",
@@ -2529,7 +2529,7 @@
   },
   {
     "id": "game.dvlname.o0009e0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ボスりざーぶ",
     "translation": "",
@@ -2537,7 +2537,7 @@
   },
   {
     "id": "game.dvlname.o0009e8.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ボスりざーぶ",
     "translation": "",
@@ -2545,7 +2545,7 @@
   },
   {
     "id": "game.dvlname.o0009f0.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "ボスりざーぶ",
     "translation": "",

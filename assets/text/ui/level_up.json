@@ -5,7 +5,8 @@
     "title": {
       "text": {
         "reference": "LEVEL UP",
-        "translation": "LEVEL UP"
+        "translation": "LEVEL UP",
+        "font8_alphabet": "original"
       }
     },
     "remaining_points": {
@@ -15,39 +16,45 @@
       "note": "The renderer places a four-cell graphical ornament between the right-aligned value and this editable suffix; those layout cells are not authored spaces.",
       "text": {
         "reference": "{remaining_points} LEFT",
-        "translation": "{remaining_points} LEFT"
+        "translation": "{remaining_points} LEFT",
+        "font8_alphabet": "original"
       }
     },
     "max_level_next": {
       "note": "Shown in the NEXT value field at maximum level. Retail constructs this at runtime rather than storing a text record.",
       "text": {
         "reference": "-------",
-        "translation": "-------"
+        "translation": "-------",
+        "font8_alphabet": "original"
       }
     },
     "no_magic_points": {
       "note": "Shown in the current/maximum MP fields when the actor has no MP capacity. Retail constructs this at runtime rather than storing a text record, and the renderer inserts one fixed alignment cell after the slash.",
       "text": {
         "reference": "---/---",
-        "translation": "---/---"
+        "translation": "---/---",
+        "font8_alphabet": "original"
       }
     },
     "accept": {
       "text": {
         "reference": "OK",
-        "translation": "OK"
+        "translation": "OK",
+        "font8_alphabet": "original"
       }
     },
     "confirm_yes": {
       "text": {
         "reference": "YES",
-        "translation": "YES"
+        "translation": "YES",
+        "font8_alphabet": "original"
       }
     },
     "confirm_no": {
       "text": {
         "reference": "NO",
-        "translation": "NO"
+        "translation": "NO",
+        "font8_alphabet": "original"
       }
     },
     "learned_magic_heading": {

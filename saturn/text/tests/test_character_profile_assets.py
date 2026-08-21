@@ -418,7 +418,7 @@ class ProfileEntryAssetTests(unittest.TestCase):
                 "Unemployed",
             ),
         )
-        self.assertEqual(dict(self.event_binding.glyph_equivalence), {"010d": "-"})
+        self.assertFalse(self.event_binding.glyph_equivalence)
         self.assertEqual(
             dict(self.event_binding.field_surfaces),
             {"text": ("event.dialogue",)},

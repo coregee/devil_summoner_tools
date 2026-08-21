@@ -18,7 +18,11 @@
     ]
   },
   "field_surfaces": {
-    "party_label": ["status.party_alignment_value"],
-    "axis_label": ["status.alignment_axis_label"]
+    "party_label": [
+      "status.party_alignment_value"
+    ],
+    "axis_label": [
+      "status.alignment_axis_label"
+    ]
   }
 }

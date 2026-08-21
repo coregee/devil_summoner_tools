@@ -54,7 +54,7 @@ def compile_demon_names(stock: bytes, metrics: FontMetrics) -> DemonNameBuild:
         text = _normalize(translations[physical_id])
         if not text or any(not isinstance(token, Text) for token in parse_tokens(text)):
             raise ValueError(f"{physical_id}: demon name must be nonempty literal text")
-        glyphs = metrics.segment(text)
+        glyphs = metrics.segment_output(text)
         encoded = bytes(glyph.code for glyph in glyphs)
         pixels = sum(glyph.advance for glyph in glyphs)
         if pixels > COMP_DEMON_MAX_PIXELS:

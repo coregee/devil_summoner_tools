@@ -81,17 +81,17 @@
   },
   {
     "id": "game.facility_command_labels.o0425f8",
-    "source_encoding": "game_font8_stock_latin",
+    "source_encoding": "game_font8_plain_glyph",
     "output_encoding": "",
-    "reference": "{GLYPH:da}{GLYPH:db}{GLYPH:dc}{GLYPH:dd}{GLYPH:de}{GLYPH:df}",
+    "reference": "{revive_1}{revive_2}{revive_3}{revive_4}{revive_5}{revive_6}",
     "translation": "",
     "note": ""
   },
   {
     "id": "game.facility_command_labels.o0425fe",
-    "source_encoding": "game_font8_stock_latin",
+    "source_encoding": "game_font8_plain_glyph",
     "output_encoding": "",
-    "reference": "{GLYPH:e0}{GLYPH:e1}{GLYPH:e2}{GLYPH:e3}{GLYPH:e4}{GLYPH:e5}",
+    "reference": "{status_1}{status_2}{status_3}{status_4}{status_5}{status_6}",
     "translation": "",
     "note": ""
   }

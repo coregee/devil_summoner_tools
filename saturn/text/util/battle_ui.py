@@ -128,11 +128,11 @@ def _literal_codes(text: str, metrics: FontMetrics) -> list[int]:
         if code is None:
             continue
         if start < position:
-            output.extend(glyph.code for glyph in metrics.segment(text[start:position]))
+            output.extend(glyph.code for glyph in metrics.segment_output(text[start:position]))
         output.append(code)
         start = position + 1
     if start < len(text):
-        output.extend(glyph.code for glyph in metrics.segment(text[start:]))
+        output.extend(glyph.code for glyph in metrics.segment_output(text[start:]))
     return output
 
 
@@ -525,7 +525,7 @@ def compile_catalog(
                 not isinstance(token, Text) for token in parse_tokens(normalized)
             ):
                 raise ValueError(f"{physical_id}: name must be literal single-line text")
-            glyphs = font8.segment(normalized)
+            glyphs = font8.segment_output(normalized)
             encoded = bytes(glyph.code for glyph in glyphs)
             pixels = sum(glyph.advance for glyph in glyphs)
             if len(encoded) > CATALOG_MAX_NAME_BYTES or pixels > CATALOG_MAX_NAME_PIXELS:

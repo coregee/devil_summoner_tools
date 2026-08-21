@@ -1,7 +1,12 @@
 {
   "file": "FONT8.FON",
   "sha256": "f2f04e98a9eb0d3ff9180d746280f6cbcd6b364e58ccb91721e36f6f6dc2ee5c",
-  "description": "Stock Latin cells 0-62 and the original hyphen, full stop, and slash at cells 174, 176, and 198 remain untouched and are published as the named stock_latin reference set for original English menu labels and numeric fallbacks. Translated names use narrow Galmuri7 glyphs mapped over hiragana cells 63-117 and 205-229; katakana remains intact for Japanese fallbacks. EVENT's shop summary originally used cells 211-212 as compound Inv. tiles, so itemname_runtime reconstructs that label while retaining y/z in those cells. The healer screen also used cells 218-229 as compound REVIVE/STATUS tiles; facilities_status_ui rewrites those two static labels to canonical stock Latin codes while retaining the punctuation in those cells.",
+  "description": "Stock Latin cells 0-62 and the original interpunct, full stop, and slash at cells 174, 176, and 198 remain untouched and are published as the named stock_latin reference set for original English menu labels and numeric fallbacks. Each authored FONT8 field selects the original alphabet explicitly; omitted font8_alphabet metadata defaults to the Galmuri7 replacement alphabet. Translated names use narrow Galmuri7 glyphs mapped over hiragana cells 63-117 and 205-229; katakana remains intact for Japanese fallbacks. EVENT's editable shop summary label currently uses the replacement alphabet, freeing its former compound Inv. cells 211-212. The healer screen reconstructs the editable REVIVE and STATUS labels from stock_latin, freeing their former compound cells 218-229.",
+  "source_consumers": {
+    "shop_equipped_marker": [
+      "{equip_symbol}"
+    ]
+  },
   "format": {
     "width": 8,
     "height": 8,
@@ -33,7 +38,7 @@
         {
           "0": " ",
           "173": "ー",
-          "174": "‐",
+          "174": "・",
           "175": "：",
           "176": "．",
           "177": "＿",
@@ -223,79 +228,79 @@
             "ょ": "r"
           },
           "205": {
-            "が": "s"
+            "◉": "s"
           },
           "206": {
-            "ぎ": "t"
+            "{dakuten}": "t"
           },
           "207": {
-            "ぐ": "u"
+            "{handakuten}": "u"
           },
           "208": {
-            "げ": "v"
+            "↑": "v"
           },
           "209": {
-            "ご": "w"
+            "〇": "w"
           },
           "210": {
-            "ざ": "x"
+            "※": "x"
           },
           "211": {
-            "じ": "y"
+            "In": "y"
           },
           "212": {
-            "ず": "z"
+            "v.": "z"
           },
           "213": {
-            "ぜ": "-"
+            "{equip_1}": "-"
           },
           "214": {
-            "ぞ": ":"
+            "{equip_2}": ":"
           },
           "215": {
-            "だ": "."
+            "{equip_3}": "."
           },
           "216": {
-            "ぢ": "_"
+            "{equip_4}": ";"
           },
           "217": {
-            "づ": "'"
+            "{equip_5}": "'"
           },
           "218": {
-            "で": "!"
+            "{revive_1}": "!"
           },
           "219": {
-            "ど": "?"
+            "{revive_2}": "?"
           },
           "220": {
-            "ば": "["
+            "{revive_3}": "["
           },
           "221": {
-            "び": "]"
+            "{revive_4}": "]"
           },
           "222": {
-            "ぶ": "&"
+            "{revive_5}": "&"
           },
           "223": {
-            "べ": "#"
+            "{revive_6}": "#"
           },
           "224": {
-            "ぼ": ">"
+            "{status_1}": ">"
           },
           "225": {
-            "ぱ": "/"
+            "{status_2}": "/"
           },
           "226": {
-            "ぴ": "<"
+            "{status_3}": "<"
           },
           "227": {
-            "ぷ": "("
+            "{status_4}": "("
           },
           "228": {
-            "ぺ": ")"
+            "{status_5}": ")"
           },
           "229": {
-            "ぽ": ","
+            "{status_6}": ","
           }
         }
       ],
@@ -309,8 +314,58 @@
           "characters": "ァィゥェォッャュョ"
         },
         {
-          "start": 230,
-          "characters": "ヴガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポ"
+          "replace": false,
+          "230": "{equip_symbol}"
+        },
+        {
+          "replace": false,
+          "231": "="
+        }
+      ],
+      "mapped_source": [
+        {
+          "replace": false,
+          "187": "□"
+        },
+        {
+          "replace": false,
+          "191": "🠈"
+        },
+        {
+          "replace": false,
+          "188": "🠉"
+        },
+        {
+          "replace": false,
+          "189": "🠊"
+        },
+        {
+          "replace": false,
+          "192": "¥"
+        },
+        {
+          "replace": false,
+          "193": "{mag_symbol}"
+        },
+        {
+          "replace": false,
+          "194": "10"
+        },
+        {
+          "replace": false,
+          "195": "11"
+        },
+        {
+          "replace": false,
+          "196": "12"
+        },
+        {
+          "replace": false,
+          "199": "▲"
+        },
+        {
+          "replace": false,
+          "190": "🠋"
         }
       ]
     }
@@ -323,7 +378,7 @@
       },
       {
         "start": 174,
-        "characters": "‐",
+        "characters": "・",
         "aliases": "-"
       },
       {

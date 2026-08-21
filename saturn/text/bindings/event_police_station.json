@@ -45,7 +45,9 @@
       "event.dialogue"
     ]
   },
-  "glyph_tokens": {
-    "00c0": "yen_symbol"
+  "source_glyph_tokens": {
+    "game.evfile_1.m0102.p04": {
+      "▯": "yen_symbol"
+    }
   }
 }

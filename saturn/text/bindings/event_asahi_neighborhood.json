@@ -74,7 +74,9 @@
       "event.dialogue"
     ]
   },
-  "glyph_tokens": {
-    "00c0": "yen_symbol"
+  "source_glyph_tokens": {
+    "game.mesfile.m0077.p00": {
+      "▯": "yen_symbol"
+    }
   }
 }

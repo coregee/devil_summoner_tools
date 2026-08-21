@@ -83,10 +83,10 @@ class FontReferenceSetTests(unittest.TestCase):
         self.assertEqual(references["-"], 174)
         self.assertEqual(references["."], 176)
         self.assertEqual(references["/"], 198)
-        self.assertNotIn("‐", references)
+        self.assertNotIn("・", references)
         self.assertNotIn("．", references)
         self.assertNotIn("／", references)
-        self.assertEqual(self.definition.glyphs[174], "‐")
+        self.assertEqual(self.definition.glyphs[174], "・")
         self.assertEqual(self.definition.glyphs[176], "．")
         self.assertEqual(self.definition.glyphs[198], "／")
 
@@ -96,8 +96,17 @@ class FontReferenceSetTests(unittest.TestCase):
         )
         description = document["description"]
         self.assertIn("healer screen", description)
-        self.assertIn("compound REVIVE/STATUS tiles", description)
+        self.assertIn("former compound cells", description)
+        self.assertIn("stock_latin", description)
         self.assertNotIn("REVIEW", description)
+
+    def test_direct_gui_consumers_preserve_overloaded_font8_cells(self) -> None:
+        self.assertEqual(
+            self.definition.source_consumers,
+            {
+                "shop_equipped_marker": ("{equip_symbol}",),
+            },
+        )
 
 
 class KanjiNameEntryReferenceSetTests(unittest.TestCase):

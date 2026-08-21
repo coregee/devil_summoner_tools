@@ -214,8 +214,14 @@
     "game.facility_command_labels.standard_commands.r0002": "command_equip.text"
   },
   "record_surfaces": {
-    "game.facility_command_labels.standard_commands.r0000": ["shop.command"],
-    "game.facility_command_labels.standard_commands.r0001": ["shop.command"],
-    "game.facility_command_labels.standard_commands.r0002": ["shop.command"]
+    "game.facility_command_labels.standard_commands.r0000": [
+      "shop.command"
+    ],
+    "game.facility_command_labels.standard_commands.r0001": [
+      "shop.command"
+    ],
+    "game.facility_command_labels.standard_commands.r0002": [
+      "shop.command"
+    ]
   }
 }

@@ -18,8 +18,9 @@ binary evidence rather than an editing interface.
 - `config/encodings.json` defines reusable alphabets, control vocabularies, and
   source encodings.
 - `config/surfaces.json` records measured Japanese and English consumer limits.
-- `config/glyph_sets.json` selects preserved stock glyph sets for consumer
-  surfaces that intentionally retain a retail typeface.
+- `config/glyph_sets.json` selects preserved stock glyph sets only for
+  non-FONT8 systems such as the KANJI name-entry grid. FONT8 alphabet choice
+  is authored per text field.
 - `config/event_scenes.json` records only evidence-grounded semantic groupings
   for the general event banks.
 - `config/sources/<disc>/manifest.json` defines physical files, the four
@@ -528,20 +529,16 @@ four 80-pixel translated rows, controller actions have one 128-pixel row, and
 the two footer states have one 144-pixel row. These are consumer limits; local
 compound glyphs and action-atlas chunks are derived output artifacts.
 
-Typeface selection is also a consumer contract, not authored punctuation.
-`config/glyph_sets.json` assigns the `font8_stock_latin` handler to the battle,
-COMP, shop, bar, healer, and status command surfaces, the status AUTO, P.A., and
-alignment-axis compositions, every fixed FONT8 Level Up label/readout, and the
-DA_3D Analyze headers, numeric prefixes, and cost units. That handler selects
-FONT8's named `stock_latin` reference set, preserving the retail appearance of
-labels such as `GO`, `COMP`, `BUY`, `EQUIP`, and `LEVEL UP`. Other FONT8
-consumers continue to use the normal narrow-English mapping. No inline token or
-capitalization heuristic chooses between the two faces. The named stock set also
-publishes the source-preserved hyphen, full stop, and slash cells used by fixed
-numeric fallbacks and punctuation. `name_entry.grid_row` separately selects
-the `kanji_stock_latin` handler, exposing the preserved KANJI input-grid Latin,
-digit, punctuation, interpunct, and selectable-blank cells without changing
-their bitmaps.
+Typeface selection is authored beside each FONT8 translation. A field with
+`"font8_alphabet": "original"` uses FONT8's preserved `stock_latin` reference
+set and uppercases literal letters at render time; `"replaced"`, or an omitted
+property, uses the language project's replacement face. Menu labels such as
+`GO`, `COMP`, `BUY`, `EQUIP`, `REPEAT`, `OFFENSE`, and `LEVEL UP` explicitly
+select the original alphabet. Names and ordinary translated text default to the
+replacement alphabet, including the shop's current `Inv.` label. Named tokens
+are never changed by uppercasing. The stock set also publishes the preserved
+hyphen, full stop, and slash cells used by fixed numeric fallbacks. The separate
+`name_entry.grid_row` surface still selects the KANJI `stock_latin` handler.
 
 LEVEL_UP extraction now covers all eleven proved visible records: the fixed
 FONT8 `LV`, `HP`, `MP`, `EXP`, `NEXT`, `LEVEL UP`, `LEFT`, `YES`, `NO`, and

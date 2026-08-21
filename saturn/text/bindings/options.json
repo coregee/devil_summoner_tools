@@ -42,43 +42,119 @@
     "game.config_static.o042be8": "controller_footer.finish"
   },
   "record_surfaces": {
-    "game.config_static.o009e3a": ["options.primary_label"],
-    "game.config_static.o009e4a": ["options.primary_label"],
-    "game.config_static.o009e5a": ["options.primary_label"],
-    "game.config_static.o009e6a": ["options.primary_label"],
-    "game.config_static.o009e7a": ["options.primary_label"],
-    "game.config_static.o009e8a": ["options.primary_label"],
-    "game.config_static.o009e9a": ["options.primary_label"],
-    "game.config_static.o009eaa": ["options.value"],
-    "game.config_static.o009eba": ["options.value"],
-    "game.config_static.o009eca": ["options.value"],
-    "game.config_static.o009eda": ["options.value"],
-    "game.config_static.o009eea": ["options.value"],
-    "game.config_static.o009efa": ["options.value"],
-    "game.config_static.o009f0a": ["options.value"],
-    "game.config_static.o009f1a": ["options.value"],
-    "game.config_static.o009f2a": ["options.value"],
-    "game.config_static.o009f3a": ["options.value"],
-    "game.config_static.o009f4a": ["options.value"],
-    "game.config_static.o009f6a": ["options.primary_label"],
-    "game.config_static.o009f7c": ["options.value"],
-    "game.config_static.o009f8e": ["options.value"],
-    "game.config_static.o009fa0": ["options.ordering_popup"],
-    "game.config_static.o009faa": ["options.ordering_popup"],
-    "game.config_static.o009fb4": ["options.ordering_popup"],
-    "game.config_static.o009fbe": ["options.ordering_popup"],
-    "game.config_static.o009fc8": ["options.ordering_popup"],
-    "game.config_static.o009fd2": ["options.ordering_popup"],
-    "game.config_static.o009fdc": ["options.ordering_popup"],
-    "game.config_static.o042b46": ["options.controller_action"],
-    "game.config_static.o042b56": ["options.controller_action"],
-    "game.config_static.o042b66": ["options.controller_action"],
-    "game.config_static.o042b76": ["options.controller_action"],
-    "game.config_static.o042b86": ["options.controller_action"],
-    "game.config_static.o042b96": ["options.controller_action"],
-    "game.config_static.o042ba6": ["options.controller_action"],
-    "game.config_static.o042bb6": ["options.controller_action"],
-    "game.config_static.o042bd6": ["options.footer"],
-    "game.config_static.o042be8": ["options.footer"]
+    "game.config_static.o009e3a": [
+      "options.primary_label"
+    ],
+    "game.config_static.o009e4a": [
+      "options.primary_label"
+    ],
+    "game.config_static.o009e5a": [
+      "options.primary_label"
+    ],
+    "game.config_static.o009e6a": [
+      "options.primary_label"
+    ],
+    "game.config_static.o009e7a": [
+      "options.primary_label"
+    ],
+    "game.config_static.o009e8a": [
+      "options.primary_label"
+    ],
+    "game.config_static.o009e9a": [
+      "options.primary_label"
+    ],
+    "game.config_static.o009eaa": [
+      "options.value"
+    ],
+    "game.config_static.o009eba": [
+      "options.value"
+    ],
+    "game.config_static.o009eca": [
+      "options.value"
+    ],
+    "game.config_static.o009eda": [
+      "options.value"
+    ],
+    "game.config_static.o009eea": [
+      "options.value"
+    ],
+    "game.config_static.o009efa": [
+      "options.value"
+    ],
+    "game.config_static.o009f0a": [
+      "options.value"
+    ],
+    "game.config_static.o009f1a": [
+      "options.value"
+    ],
+    "game.config_static.o009f2a": [
+      "options.value"
+    ],
+    "game.config_static.o009f3a": [
+      "options.value"
+    ],
+    "game.config_static.o009f4a": [
+      "options.value"
+    ],
+    "game.config_static.o009f6a": [
+      "options.primary_label"
+    ],
+    "game.config_static.o009f7c": [
+      "options.value"
+    ],
+    "game.config_static.o009f8e": [
+      "options.value"
+    ],
+    "game.config_static.o009fa0": [
+      "options.ordering_popup"
+    ],
+    "game.config_static.o009faa": [
+      "options.ordering_popup"
+    ],
+    "game.config_static.o009fb4": [
+      "options.ordering_popup"
+    ],
+    "game.config_static.o009fbe": [
+      "options.ordering_popup"
+    ],
+    "game.config_static.o009fc8": [
+      "options.ordering_popup"
+    ],
+    "game.config_static.o009fd2": [
+      "options.ordering_popup"
+    ],
+    "game.config_static.o009fdc": [
+      "options.ordering_popup"
+    ],
+    "game.config_static.o042b46": [
+      "options.controller_action"
+    ],
+    "game.config_static.o042b56": [
+      "options.controller_action"
+    ],
+    "game.config_static.o042b66": [
+      "options.controller_action"
+    ],
+    "game.config_static.o042b76": [
+      "options.controller_action"
+    ],
+    "game.config_static.o042b86": [
+      "options.controller_action"
+    ],
+    "game.config_static.o042b96": [
+      "options.controller_action"
+    ],
+    "game.config_static.o042ba6": [
+      "options.controller_action"
+    ],
+    "game.config_static.o042bb6": [
+      "options.controller_action"
+    ],
+    "game.config_static.o042bd6": [
+      "options.footer"
+    ],
+    "game.config_static.o042be8": [
+      "options.footer"
+    ]
   }
 }

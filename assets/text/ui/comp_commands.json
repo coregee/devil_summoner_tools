@@ -5,31 +5,36 @@
     "comp": {
       "text": {
         "reference": "COMP",
-        "translation": "COMP"
+        "translation": "COMP",
+        "font8_alphabet": "original"
       }
     },
     "magic": {
       "text": {
         "reference": "MAGIC",
-        "translation": "MAGIC"
+        "translation": "MAGIC",
+        "font8_alphabet": "original"
       }
     },
     "item": {
       "text": {
         "reference": "ITEM",
-        "translation": "ITEM"
+        "translation": "ITEM",
+        "font8_alphabet": "original"
       }
     },
     "equip": {
       "text": {
         "reference": "EQUIP",
-        "translation": "EQUIP"
+        "translation": "EQUIP",
+        "font8_alphabet": "original"
       }
     },
     "status": {
       "text": {
         "reference": "STATUS",
-        "translation": "STATUS"
+        "translation": "STATUS",
+        "font8_alphabet": "original"
       }
     }
   }

@@ -5,13 +5,23 @@
     "line_0356": {
       "text": {
         "reference": "MAG→金の交換",
-        "translation": "MAG to Cash"
+        "translation": "MAG to Cash",
+        "variants": {
+          "font16": {
+            "reference": "MAG🠊金の交換"
+          }
+        }
       }
     },
     "line_0357": {
       "text": {
         "reference": "金→MAGの交換",
-        "translation": "Cash to MAG"
+        "translation": "Cash to MAG",
+        "variants": {
+          "font16": {
+            "reference": "金🠊MAGの交換"
+          }
+        }
       }
     },
     "line_0486": {

@@ -641,13 +641,6 @@
     "game.dvlname.o0009f0.text": "boss_reserve.name",
     "compendium.demon_names.o05ed90.text": "boss_reserve.name"
   },
-  "variants": {
-    "compendium.demon_names.o05d9c0.text": "akuma_zensho",
-    "compendium.demon_names.o05dbe0.text": "akuma_zensho",
-    "compendium.demon_names.o05ddb0.text": "akuma_zensho",
-    "compendium.demon_names.o05e570.text": "akuma_zensho",
-    "compendium.demon_names.o05ea10.text": "akuma_zensho"
-  },
   "field_surfaces": {
     "name": [
       "event.dialogue",

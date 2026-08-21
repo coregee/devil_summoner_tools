@@ -16,7 +16,6 @@ if str(SATURN_ROOT) not in sys.path:
 from rom.util.catalog import load_catalog, validate_source  # noqa: E402
 from rom.util.workflows import read_source_files  # noqa: E402
 from util.assets import BINDING_ROOT, load_asset, load_binding  # noqa: E402
-from util.glyph_sets import load_glyph_sets  # noqa: E402
 from util.sources import load_manifest, manifest_path  # noqa: E402
 
 
@@ -266,25 +265,24 @@ class LevelUpAssetTests(unittest.TestCase):
         )
 
     def test_fixed_font8_fields_explicitly_select_the_stock_latin_face(self) -> None:
-        glyph_sets = load_glyph_sets()
-        for surface in (
-            "level_up.numeric_readout",
-            "level_up.max_level_next",
-            "level_up.no_magic_points",
-            "level_up.title",
-            "level_up.remaining_points",
-            "level_up.accept_action",
-            "level_up.confirm_choice",
+        for catalog, refs in (
+            (self.status, (
+                "level.text", "hit_points.text", "magic_points.text",
+                "experience.text", "next_experience.text",
+            )),
+            (self.catalog, (
+                "max_level_next.text", "no_magic_points.text", "title.text",
+                "remaining_points.text", "accept.text", "confirm_yes.text",
+                "confirm_no.text",
+            )),
         ):
-            with self.subTest(surface=surface):
-                handler = glyph_sets.for_surface(surface)
-                self.assertIsNotNone(handler)
-                self.assertEqual(
-                    (handler.font, handler.reference_set),
-                    ("font8", "stock_latin"),
-                )
-        self.assertIsNone(glyph_sets.for_surface("level_up.learned_heading"))
-        self.assertIsNone(glyph_sets.for_surface("level_up.ability_name"))
+            for ref in refs:
+                with self.subTest(ref=ref):
+                    self.assertEqual(catalog.field(ref).font8_alphabet, "original")
+        self.assertEqual(
+            self.catalog.field("learned_magic_heading.text").font8_alphabet,
+            "replaced",
+        )
 
 
 if __name__ == "__main__":

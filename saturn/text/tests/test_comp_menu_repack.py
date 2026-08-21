@@ -20,7 +20,7 @@ from util.event_repack import FontMetrics  # noqa: E402
 GENERATED_ROOT = SATURN_ROOT / "text" / "generated" / "game"
 FONT8_METRICS = SATURN_ROOT / "font" / "generated" / "game" / "FONT8_metrics.json"
 MATURE_HASHES = {
-    "DVLNAME.DAT": "8dc63eb84662c567c6584b92c2838d7f067195f5191c879907f26b5deaa6d12e",
+    "DVLNAME.DAT": "a99fd470632db18c393a01d91170c24863f0b0d17f47eeac7596b07fea6dfe28",
     "NORMHELP.DAT": "965071d279caf0a4558e183c20cab69666905a5733d434b0eecf6e9f8d657529",
 }
 

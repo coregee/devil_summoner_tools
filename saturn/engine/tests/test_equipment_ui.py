@@ -26,6 +26,7 @@ from engine.surfaces.equipment_ui import (  # noqa: E402
     _bind_patches,
     _equipment_labels,
     _shop_character_data,
+    _shop_inventory_codes,
 )
 from engine.core.patch_recipes import (  # noqa: E402
     ASSEMBLY_ROOT,
@@ -35,8 +36,8 @@ from text.util.event_repack import FontMetrics  # noqa: E402
 
 
 EXPECTED_HASHES = {
-    "EVENT.BIN": "1ffb315598c74bf0b0cb1a85b68097ba10ed050fdb6b1795ef00f2c8485f695e",
-    "NORMCOM.BIN": "a63ec7dbe6d5fdc03f9ff9f4c15fd556c26b9883dc0eb89e7bb18a70e5b58965",
+    "EVENT.BIN": "c292f62b306f1f98a52590adbf8ae8da1884bab3e9ae0a94d8ef091ae11e9d36",
+    "NORMCOM.BIN": "55283ade924c5f4aa7c8ddd871bd2563e5c36d5f384b7240f2ed57dfbd4e7947",
 }
 
 
@@ -121,6 +122,13 @@ class EquipmentUiEngineTests(unittest.TestCase):
                 cave, limit, _stock, _glyph = EQUIPMENT_LABEL_TARGETS[target]
                 self.assertEqual(label.address, cave)
                 self.assertEqual(len(label.replacement), limit - cave)
+
+    def test_shop_inventory_uses_replacement_glyphs_not_source_aliases(self) -> None:
+        codes, advances, initial_shift = _shop_inventory_codes(self.metrics)
+        self.assertEqual(codes, (82, 113, 208, 215))
+        self.assertEqual(advances, (2, 5, 6, 0))
+        self.assertEqual(initial_shift, 0)
+        self.assertNotEqual(codes[:2], (0xD3, 0xD4))
 
     def test_executable_replacements_are_readable_assembly(self) -> None:
         sources = {

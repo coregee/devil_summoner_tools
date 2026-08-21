@@ -39,7 +39,15 @@ NAMED_WORDS = {
     "yen_symbol": 0x00C0,
     "mag_symbol": 0x00C1,
     "white_square": 0x00C0,
+    "square_symbol": 0x00C0,
+    "heart_symbol": 0x0105,
+    "happy_symbol": 0x0106,
     "maru_symbol": 0x0106,
+    "circle_symbol": 0x010A,
+    "latin_space": 0x010B,
+    "plus_symbol": 0x010C,
+    "minus_symbol": 0x010D,
+    "times_symbol": 0x010E,
 }
 NORMALIZE_CHARACTERS = {
     "’": "'",
@@ -112,14 +120,21 @@ class FontMetrics:
 
     @property
     def by_text(self) -> dict[str, Glyph]:
-        output: dict[str, Glyph] = {}
+        output = self.output_by_text
         for glyph in self.glyphs:
-            for value in (glyph.text, *glyph.aliases):
+            for value in glyph.aliases:
                 output.setdefault(value, glyph)
         return output
 
-    def segment(self, value: str) -> tuple[Glyph, ...]:
-        mapping = self.by_text
+    @property
+    def output_by_text(self) -> dict[str, Glyph]:
+        """Return only glyphs actually present in the rebuilt font."""
+        output: dict[str, Glyph] = {}
+        for glyph in self.glyphs:
+            output.setdefault(glyph.text, glyph)
+        return output
+
+    def _segment(self, value: str, mapping: dict[str, Glyph]) -> tuple[Glyph, ...]:
         compounds = tuple(
             sorted(
                 (
@@ -156,18 +171,38 @@ class FontMetrics:
             position += 1
         return tuple(output)
 
+    def segment(self, value: str) -> tuple[Glyph, ...]:
+        return self._segment(value, self.by_text)
+
+    def segment_output(self, value: str) -> tuple[Glyph, ...]:
+        """Segment translated output without accepting replaced source aliases."""
+        return self._segment(value, self.output_by_text)
+
+    def measure_output(self, value: str) -> int:
+        return self.measure(value)
+
     def measure(self, value: str) -> int:
         width = 0
         for token in parse_tokens(value):
             if isinstance(token, Text):
-                width += sum(glyph.advance for glyph in self.segment(token.value))
+                width += sum(
+                    glyph.advance for glyph in self.segment_output(token.value)
+                )
             elif isinstance(token, Raw) and token.kind == "GLYPH":
                 width += 16
             elif isinstance(token, Named) and token.name in {
                 "yen_symbol",
                 "mag_symbol",
                 "white_square",
+                "square_symbol",
+                "heart_symbol",
+                "happy_symbol",
                 "maru_symbol",
+                "circle_symbol",
+                "latin_space",
+                "plus_symbol",
+                "minus_symbol",
+                "times_symbol",
             }:
                 width += 16
             else:
@@ -189,7 +224,9 @@ class FontMetrics:
                 output.append(0x8001)
             for token in parse_tokens(line):
                 if isinstance(token, Text):
-                    codes = [glyph.code for glyph in self.segment(token.value)]
+                    codes = [
+                        glyph.code for glyph in self.segment_output(token.value)
+                    ]
                     output.extend(
                         dictionary.encode_codes(codes)
                         if dictionary is not None

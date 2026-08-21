@@ -99,12 +99,14 @@
     "game.evfile_2.m0070.p00": "kyouji_equipment_cache_005.text",
     "game.evfile_2.m0071.p00": "kyouji_equipment_cache_006.text"
   },
-  "glyph_tokens": {
-    "00c0": "yen_symbol"
-  },
   "field_surfaces": {
     "text": [
       "event.dialogue"
     ]
+  },
+  "source_glyph_tokens": {
+    "game.evfile_0.m0235.p04": {
+      "▯": "yen_symbol"
+    }
   }
 }

@@ -35,32 +35,86 @@
     "game.battle_command_labels.o05067c": "battle_table"
   },
   "record_surfaces": {
-    "game.normcom_status_ascii.o016594": ["status.auto_command"],
-    "game.normcom_status_ascii.o01659c": ["status.auto_command"],
-    "game.normcom_status_ascii.o0165a4": ["status.auto_command"],
-    "game.normcom_status_ascii.o0165a8": ["status.auto_command"],
-    "game.normcom_status_ascii.o0165b0": ["status.auto_command"],
-    "game.normcom_status_ascii.o0165b4": ["status.auto_command"],
-    "game.normcom_status_ascii.o0165bc": ["status.auto_command"],
-    "game.battle_command_labels.item_skill_actions.r0000": ["battle.command"],
-    "game.battle_command_labels.item_skill_actions.r0001": ["battle.command"],
-    "game.battle_command_labels.item_skill_actions.r0002": ["battle.command"],
-    "game.battle_command_labels.item_skill_actions.r0003": ["battle.command"],
-    "game.battle_command_labels.o05061d": ["battle.command"],
-    "game.battle_command_labels.o050626": ["battle.command"],
-    "game.battle_command_labels.o05062d": ["battle.command"],
-    "game.battle_command_labels.o050635": ["battle.command"],
-    "game.battle_command_labels.o05063d": ["battle.command"],
-    "game.battle_command_labels.o050645": ["battle.command"],
-    "game.battle_command_labels.o05064d": ["battle.command"],
-    "game.battle_command_labels.o050655": ["battle.command"],
-    "game.battle_command_labels.o05065d": ["battle.command"],
-    "game.battle_command_labels.o050665": ["battle.command"],
-    "game.battle_command_labels.o05066e": ["battle.command"],
-    "game.battle_command_labels.o050674": ["battle.command"],
-    "game.battle_command_labels.o05067c": ["battle.command"],
-    "game.battle_command_labels.o050685": ["battle.command"],
-    "game.battle_command_labels.o05068d": ["battle.command"],
-    "game.battle_command_labels.o050695": ["battle.command"]
+    "game.normcom_status_ascii.o016594": [
+      "status.auto_command"
+    ],
+    "game.normcom_status_ascii.o01659c": [
+      "status.auto_command"
+    ],
+    "game.normcom_status_ascii.o0165a4": [
+      "status.auto_command"
+    ],
+    "game.normcom_status_ascii.o0165a8": [
+      "status.auto_command"
+    ],
+    "game.normcom_status_ascii.o0165b0": [
+      "status.auto_command"
+    ],
+    "game.normcom_status_ascii.o0165b4": [
+      "status.auto_command"
+    ],
+    "game.normcom_status_ascii.o0165bc": [
+      "status.auto_command"
+    ],
+    "game.battle_command_labels.item_skill_actions.r0000": [
+      "battle.command"
+    ],
+    "game.battle_command_labels.item_skill_actions.r0001": [
+      "battle.command"
+    ],
+    "game.battle_command_labels.item_skill_actions.r0002": [
+      "battle.command"
+    ],
+    "game.battle_command_labels.item_skill_actions.r0003": [
+      "battle.command"
+    ],
+    "game.battle_command_labels.o05061d": [
+      "battle.command"
+    ],
+    "game.battle_command_labels.o050626": [
+      "battle.command"
+    ],
+    "game.battle_command_labels.o05062d": [
+      "battle.command"
+    ],
+    "game.battle_command_labels.o050635": [
+      "battle.command"
+    ],
+    "game.battle_command_labels.o05063d": [
+      "battle.command"
+    ],
+    "game.battle_command_labels.o050645": [
+      "battle.command"
+    ],
+    "game.battle_command_labels.o05064d": [
+      "battle.command"
+    ],
+    "game.battle_command_labels.o050655": [
+      "battle.command"
+    ],
+    "game.battle_command_labels.o05065d": [
+      "battle.command"
+    ],
+    "game.battle_command_labels.o050665": [
+      "battle.command"
+    ],
+    "game.battle_command_labels.o05066e": [
+      "battle.command"
+    ],
+    "game.battle_command_labels.o050674": [
+      "battle.command"
+    ],
+    "game.battle_command_labels.o05067c": [
+      "battle.command"
+    ],
+    "game.battle_command_labels.o050685": [
+      "battle.command"
+    ],
+    "game.battle_command_labels.o05068d": [
+      "battle.command"
+    ],
+    "game.battle_command_labels.o050695": [
+      "battle.command"
+    ]
   }
 }

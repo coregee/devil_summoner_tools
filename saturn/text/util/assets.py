@@ -11,6 +11,7 @@ from pathlib import Path, PurePosixPath
 from types import MappingProxyType
 from typing import Any
 
+from .config import FONT_CONFIG_ROOT, load_config
 from .surfaces import load_surfaces
 from .tokens import Named, Raw, Text, format_tokens, parse_tokens, valid_name
 
@@ -23,7 +24,19 @@ CORPUS_ROOT = TEXT_ROOT / "corpus"
 _IDENTIFIER_RE = re.compile(r"[a-z][a-z0-9_]*\Z")
 _ASSET_REF_RE = re.compile(r"([a-z][a-z0-9_]*)\.([a-z][a-z0-9_]*)\Z")
 _LAYOUT_TOKENS = frozenset({"n", "NL"})
-_SOURCE_ONLY_GLYPHS = frozenset({"maru_symbol"})
+_STATIC_SOURCE_ONLY_GLYPHS = frozenset(
+    {
+        "circle_symbol",
+        "happy_symbol",
+        "heart_symbol",
+        "latin_space",
+        "maru_symbol",
+        "minus_symbol",
+        "plus_symbol",
+        "square_symbol",
+        "times_symbol",
+    }
+)
 _AUTHORED_SYMBOLS = frozenset({"mag_symbol", "yen_symbol"})
 _CONTROL_TOKENS = frozenset({"WAIT", "BEAT"})
 _PLACEHOLDER_TYPES = frozenset(
@@ -48,7 +61,37 @@ _PLACEHOLDER_TYPES = frozenset(
 )
 _KINDS = frozenset({"entity_catalog", "surface_catalog"})
 _STATUSES = frozenset({"reserve", "unresolved"})
+_FONT8_ALPHABETS = frozenset({"original", "replaced"})
 _GLYPH_CODE_RE = re.compile(r"(?:[0-9a-f]{2}|[0-9a-f]{4})\Z")
+_SOURCE_GLYPH_SIGNATURE: tuple[tuple[str, int, int], ...] | None = None
+_CONFIGURED_SOURCE_GLYPHS: frozenset[str] = frozenset()
+_KNOWN_SURFACES: frozenset[str] | None = None
+
+
+def _known_surfaces() -> frozenset[str]:
+    global _KNOWN_SURFACES
+    if _KNOWN_SURFACES is None:
+        _KNOWN_SURFACES = frozenset(load_surfaces().surfaces)
+    return _KNOWN_SURFACES
+
+
+def _source_only_glyphs() -> frozenset[str]:
+    """Return presentation glyph names, refreshing after font-editor saves."""
+    global _SOURCE_GLYPH_SIGNATURE, _CONFIGURED_SOURCE_GLYPHS
+    paths = sorted(FONT_CONFIG_ROOT.glob("*/*.json"))
+    signature = tuple(
+        (path.as_posix(), path.stat().st_mtime_ns, path.stat().st_size)
+        for path in paths
+    )
+    if signature != _SOURCE_GLYPH_SIGNATURE:
+        catalog = load_config()
+        _CONFIGURED_SOURCE_GLYPHS = frozenset(
+            name
+            for source in catalog.source_encodings.values()
+            for name in source.named_glyph_codes
+        ) - _AUTHORED_SYMBOLS
+        _SOURCE_GLYPH_SIGNATURE = signature
+    return _STATIC_SOURCE_ONLY_GLYPHS | _CONFIGURED_SOURCE_GLYPHS
 
 
 def _reject_duplicate_keys(pairs: list[tuple[str, Any]]) -> dict[str, Any]:
@@ -112,7 +155,7 @@ def _functional_tokens(value: str) -> Counter[tuple[str, str, int]]:
         ("named", token.name, 0)
         for token in parse_tokens(value)
         if isinstance(token, Named)
-        and token.name not in _LAYOUT_TOKENS | _SOURCE_ONLY_GLYPHS
+        and token.name not in _LAYOUT_TOKENS | _source_only_glyphs()
     ) + Counter(
         ("op", f"{token.value:x}", token.width)
         for token in parse_tokens(value)
@@ -128,7 +171,7 @@ def _placeholder_tokens(value: str) -> Counter[str]:
         and token.name
         not in (
             _LAYOUT_TOKENS
-            | _SOURCE_ONLY_GLYPHS
+            | _source_only_glyphs()
             | _AUTHORED_SYMBOLS
             | _CONTROL_TOKENS
         )
@@ -173,6 +216,8 @@ class TextField:
     translation: str
     reviewed: bool
     note: str | None
+    font8_alphabet: str
+    surfaces: tuple[str, ...]
     variants: Mapping[str, TextVariant]
 
     def resolve(self, variant: str | None = None) -> tuple[str, str, bool]:
@@ -239,6 +284,7 @@ class AssetBinding:
     reference_normalization: str | None
     glyph_equivalence: Mapping[str, str]
     glyph_tokens: Mapping[str, str]
+    source_glyph_tokens: Mapping[str, Mapping[str, str]]
     field_surfaces: Mapping[str, tuple[str, ...]]
     record_surfaces: Mapping[str, tuple[str, ...]]
     unresolved: Mapping[str, str]
@@ -250,7 +296,13 @@ def _load_text_field(value: Any, context: str) -> TextField:
         document,
         {"reference", "translation"},
         context,
-        optional={"reviewed", "note", "variants"},
+        optional={
+            "reviewed",
+            "note",
+            "font8_alphabet",
+            "surfaces",
+            "variants",
+        },
     )
     reference = _text(document["reference"], f"{context}.reference")
     translation = _text(document["translation"], f"{context}.translation")
@@ -260,6 +312,24 @@ def _load_text_field(value: Any, context: str) -> TextField:
     note = document.get("note")
     if note is not None and (not isinstance(note, str) or not note):
         raise ValueError(f"{context}.note must be nonempty text")
+    font8_alphabet = document.get("font8_alphabet", "replaced")
+    if font8_alphabet not in _FONT8_ALPHABETS:
+        raise ValueError(
+            f"{context}.font8_alphabet must be one of "
+            f"{sorted(_FONT8_ALPHABETS)}"
+        )
+    raw_surfaces = document.get("surfaces", [])
+    if (
+        not isinstance(raw_surfaces, list)
+        or any(not isinstance(surface, str) for surface in raw_surfaces)
+        or len(set(raw_surfaces)) != len(raw_surfaces)
+    ):
+        raise ValueError(f"{context}.surfaces must contain unique surface names")
+    unknown_surfaces = sorted(set(raw_surfaces) - _known_surfaces())
+    if unknown_surfaces:
+        raise ValueError(
+            f"{context}.surfaces names unknown surfaces {unknown_surfaces}"
+        )
 
     variants: dict[str, TextVariant] = {}
     for name, raw_variant in _object(
@@ -312,6 +382,8 @@ def _load_text_field(value: Any, context: str) -> TextField:
         translation,
         reviewed,
         note,
+        font8_alphabet,
+        tuple(raw_surfaces),
         MappingProxyType(variants),
     )
 
@@ -557,6 +629,7 @@ def load_binding(
             "reference_normalization",
             "glyph_equivalence",
             "glyph_tokens",
+            "source_glyph_tokens",
             "field_surfaces",
             "record_surfaces",
             "unresolved",
@@ -757,6 +830,38 @@ def load_binding(
             raise ValueError(f"{path}: glyph code {code} has two equivalences")
         glyph_tokens[code] = token_name
 
+    source_glyph_tokens: dict[str, Mapping[str, str]] = {}
+    for physical_id, raw_tokens in _object(
+        document.get("source_glyph_tokens", {}),
+        f"{path}.source_glyph_tokens",
+    ).items():
+        if physical_id not in records:
+            raise ValueError(
+                f"{path}: source glyph tokens describe an unbound record"
+            )
+        resolved: dict[str, str] = {}
+        for character, token_name in _object(
+            raw_tokens,
+            f"{path}.source_glyph_tokens.{physical_id}",
+        ).items():
+            if not isinstance(character, str) or len(character) != 1:
+                raise ValueError(
+                    f"{path}.source_glyph_tokens.{physical_id} keys must be "
+                    "one character"
+                )
+            if token_name not in _AUTHORED_SYMBOLS:
+                choices = ", ".join(sorted(_AUTHORED_SYMBOLS))
+                raise ValueError(
+                    f"{path}.source_glyph_tokens.{physical_id}.{character} must "
+                    f"be an authored symbol: {choices}"
+                )
+            resolved[character] = token_name
+        if not resolved:
+            raise ValueError(
+                f"{path}.source_glyph_tokens.{physical_id} must not be empty"
+            )
+        source_glyph_tokens[physical_id] = MappingProxyType(resolved)
+
     field_surfaces: dict[str, tuple[str, ...]] = {}
     bound_fields = {
         asset_ref.rsplit(".", 1)[1] for asset_ref in records.values()
@@ -816,9 +921,15 @@ def load_binding(
         else physical_records
     )
     unused_glyphs = set(glyph_equivalence) | set(glyph_tokens)
+    unused_source_glyphs = {
+        (physical_id, character)
+        for physical_id, tokens in source_glyph_tokens.items()
+        for character in tokens
+    }
 
-    def normalize_glyphs(value: str) -> str:
+    def normalize_glyphs(value: str, physical_id: str) -> str:
         tokens = []
+        source_tokens = source_glyph_tokens.get(physical_id, {})
         for token in parse_tokens(value):
             if (
                 isinstance(token, Raw)
@@ -834,6 +945,21 @@ def load_binding(
                     unused_glyphs.discard(code)
                     tokens.append(Named(glyph_tokens[code]))
                     continue
+            if isinstance(token, Text) and source_tokens:
+                text = ""
+                for character in token.value:
+                    token_name = source_tokens.get(character)
+                    if token_name is None:
+                        text += character
+                        continue
+                    if text:
+                        tokens.append(Text(text))
+                        text = ""
+                    unused_source_glyphs.discard((physical_id, character))
+                    tokens.append(Named(token_name))
+                if text:
+                    tokens.append(Text(text))
+                continue
             tokens.append(token)
         return format_tokens(tokens)
 
@@ -856,7 +982,7 @@ def load_binding(
             )
             replacement_values[placeholder] = supplier_reference
         reference = _substitute_named_tokens(reference, replacement_values)
-        normalized_reference = normalize_glyphs(physical_reference)
+        normalized_reference = normalize_glyphs(physical_reference, physical_id)
         if reference_normalization == "layout_blank":
             visible_source = physical_reference.replace("{n}", "").strip()
             if not visible_source:
@@ -918,6 +1044,10 @@ def load_binding(
         raise ValueError(
             f"{path}: unused glyph equivalence codes {sorted(unused_glyphs)}"
         )
+    if unused_source_glyphs:
+        raise ValueError(
+            f"{path}: unused source glyph tokens {sorted(unused_source_glyphs)}"
+        )
 
     return AssetBinding(
         asset_path,
@@ -929,6 +1059,7 @@ def load_binding(
         reference_normalization,
         MappingProxyType(glyph_equivalence),
         MappingProxyType(glyph_tokens),
+        MappingProxyType(source_glyph_tokens),
         MappingProxyType(field_surfaces),
         MappingProxyType(record_surfaces),
         MappingProxyType(unresolved),

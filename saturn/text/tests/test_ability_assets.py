@@ -138,12 +138,9 @@ class AbilityAssetInventoryTests(unittest.TestCase):
         self.assertEqual(bound_zensho, {row["id"] for row in zensho_rows})
         self.assertEqual(
             len(self.magic_binding.variants) + len(self.skill_binding.variants),
-            28,
+            0,
         )
-        self.assertEqual(
-            dict(self.skill_binding.glyph_equivalence),
-            {"00e3": "ぷ"},
-        )
+        self.assertFalse(self.skill_binding.glyph_equivalence)
 
     def test_console_forms_exist_only_for_proven_battle_actions(self) -> None:
         bindings = {
@@ -186,14 +183,15 @@ class AbilityAssetInventoryTests(unittest.TestCase):
             for field in entry.fields.values()
         ]
         variants = [field.variants["psp"] for field in fields if "psp" in field.variants]
-        self.assertEqual(len(variants), 207)
-        self.assertEqual(sum(variant.translation is None for variant in variants), 105)
+        self.assertEqual(len(variants), 179)
+        self.assertEqual(sum(variant.translation is None for variant in variants), 77)
         self.assertEqual(sum(variant.translation == "" for variant in variants), 102)
 
         agi = self.magic.entries["agi"].fields["description"]
         self.assertEqual(agi.resolve("psp")[1], "")
         maragi = self.magic.entries["maragi"].fields["name"]
-        self.assertEqual(maragi.resolve("psp")[1], "Maragi")
+        self.assertNotIn("psp", maragi.variants)
+        self.assertEqual(maragi.translation, "Maragi")
 
         for key, reference in (
             ("jigoku_nagashi", "地獄流し"),

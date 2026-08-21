@@ -33,6 +33,7 @@ shop_inventory_label:
     mov     r6, r10
     mov     r7, r11
     mov.l   @(28,r15), r12
+    add     #INITIAL_SHIFT, r10
 
     mov     #CODE_0, r0
     bsr     shop_inventory_glyph

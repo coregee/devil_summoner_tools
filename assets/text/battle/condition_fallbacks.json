@@ -53,8 +53,8 @@
     },
     "comp_signal_happy": {
       "text": {
-        "reference": "COMP SIGNAL{GLYPH:010d}＞「HAPPY」",
-        "translation": "COMP SIGNAL{GLYPH:010d}> \"HAPPY\"",
+        "reference": "COMP SIGNAL−＞「HAPPY」",
+        "translation": "COMP SIGNAL{minus_symbol}> \"HAPPY\"",
         "reviewed": true
       }
     }

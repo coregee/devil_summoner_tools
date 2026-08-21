@@ -20,55 +20,103 @@
   "composition": {
     "game.normcom_status_ascii.o0132dc": {
       "source_role": "prefix",
-      "supplies": ["experience"]
+      "supplies": [
+        "experience"
+      ]
     },
     "game.normcom_status_ascii.o0135b0": {
       "source_role": "prefix",
-      "supplies": ["level"]
+      "supplies": [
+        "level"
+      ]
     },
     "game.normcom_status_ascii.o013de8": {
       "source_role": "prefix",
-      "supplies": ["personality"]
+      "supplies": [
+        "personality"
+      ]
     },
     "game.normcom_status_ascii.o014298": {
       "source_role": "prefix",
-      "supplies": ["current_hp", "maximum_hp"]
+      "supplies": [
+        "current_hp",
+        "maximum_hp"
+      ]
     },
     "game.normcom_status_ascii.o0142a4": {
       "source_role": "prefix",
-      "supplies": ["current_mp", "maximum_mp"]
+      "supplies": [
+        "current_mp",
+        "maximum_mp"
+      ]
     },
     "game.normcom_status_ascii.o015de4": {
       "source_role": "prefix",
-      "supplies": ["rank"]
+      "supplies": [
+        "rank"
+      ]
     },
     "game.normcom_status_ascii.o015fc4": {
       "source_role": "prefix",
-      "supplies": ["experience_to_next"]
+      "supplies": [
+        "experience_to_next"
+      ]
     },
     "game.normcom_status_ascii.o015fcc": {
       "source_role": "prefix",
-      "supplies": ["summon_cost"]
+      "supplies": [
+        "summon_cost"
+      ]
     },
     "game.normcom_status_ascii.o0165c4": {
       "source_role": "prefix",
-      "supplies": ["command"]
+      "supplies": [
+        "command"
+      ]
     }
   },
   "record_surfaces": {
-    "game.normcom_status_ascii.o0132dc": ["status.numeric_readout"],
-    "game.normcom_status_ascii.o0135b0": ["status.numeric_readout"],
-    "game.normcom_status_ascii.o013de8": ["status.personality_row"],
-    "game.normcom_status_ascii.o014298": ["status.numeric_readout"],
-    "game.normcom_status_ascii.o0142a4": ["status.numeric_readout"],
-    "game.normcom_status_ascii.o015da0": ["status.control_rank"],
-    "game.normcom_status_ascii.o015da4": ["status.control_rank"],
-    "game.normcom_status_ascii.o015da8": ["status.control_rank"],
-    "game.normcom_status_ascii.o015dac": ["status.control_rank"],
-    "game.normcom_status_ascii.o015db0": ["status.control_rank"],
-    "game.normcom_status_ascii.o015de4": ["status.control"],
-    "game.normcom_status_ascii.o015fc4": ["status.numeric_readout"],
-    "game.normcom_status_ascii.o015fcc": ["status.numeric_readout"],
-    "game.normcom_status_ascii.o0165c4": ["status.auto_setting"]
+    "game.normcom_status_ascii.o0132dc": [
+      "status.numeric_readout"
+    ],
+    "game.normcom_status_ascii.o0135b0": [
+      "status.numeric_readout"
+    ],
+    "game.normcom_status_ascii.o013de8": [
+      "status.personality_row"
+    ],
+    "game.normcom_status_ascii.o014298": [
+      "status.numeric_readout"
+    ],
+    "game.normcom_status_ascii.o0142a4": [
+      "status.numeric_readout"
+    ],
+    "game.normcom_status_ascii.o015da0": [
+      "status.control_rank"
+    ],
+    "game.normcom_status_ascii.o015da4": [
+      "status.control_rank"
+    ],
+    "game.normcom_status_ascii.o015da8": [
+      "status.control_rank"
+    ],
+    "game.normcom_status_ascii.o015dac": [
+      "status.control_rank"
+    ],
+    "game.normcom_status_ascii.o015db0": [
+      "status.control_rank"
+    ],
+    "game.normcom_status_ascii.o015de4": [
+      "status.control"
+    ],
+    "game.normcom_status_ascii.o015fc4": [
+      "status.numeric_readout"
+    ],
+    "game.normcom_status_ascii.o015fcc": [
+      "status.numeric_readout"
+    ],
+    "game.normcom_status_ascii.o0165c4": [
+      "status.auto_setting"
+    ]
   }
 }

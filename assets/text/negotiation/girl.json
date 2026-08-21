@@ -7,14 +7,14 @@
         "demon_name": "demon_name"
       },
       "text": {
-        "reference": "あら。{n}{WAIT}{demon_name}の友達、いるのねー。{n}よろしくオネガイよ{OP:8026}『{OP:8020}",
-        "translation": "Oh!{WAIT} You've got a friend who's {demon_name}. Be nice to them, okay?{OP:8026}『{OP:8020}"
+        "reference": "あら。{n}{WAIT}{demon_name}の友達、いるのねー。{n}よろしくオネガイよ{OP:8026}♡{OP:8020}",
+        "translation": "Oh!{WAIT} You've got a friend who's {demon_name}. Be nice to them, okay?{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0001": {
       "text": {
-        "reference": "ダイジにしてくんないと、{n}{BEAT}ショーチしないんだから{OP:8026}『{OP:8020}",
-        "translation": "You'd better treat my friend right,{BEAT} or you're gonna regret it!{OP:8026}『{OP:8020}"
+        "reference": "ダイジにしてくんないと、{n}{BEAT}ショーチしないんだから{OP:8026}♡{OP:8020}",
+        "translation": "You'd better treat my friend right,{BEAT} or you're gonna regret it!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0002": {
@@ -22,8 +22,8 @@
         "offered_item": "item_name"
       },
       "text": {
-        "reference": "{offered_item}、{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}『{OP:8020}{n}{WAIT}友達ダイジにしてくんないと、{n}{BEAT}ショーチしないんだから{OP:8026}『{OP:8020}",
-        "translation": "Here,{BEAT} take{BEAT} {offered_item}!{BEAT}{BEAT}{OP:8026}『{OP:8020}{WAIT} You'd better treat my friend right,{BEAT} or you're gonna regret it!{OP:8026}『{OP:8020}"
+        "reference": "{offered_item}、{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}♡{OP:8020}{n}{WAIT}友達ダイジにしてくんないと、{n}{BEAT}ショーチしないんだから{OP:8026}♡{OP:8020}",
+        "translation": "Here,{BEAT} take{BEAT} {offered_item}!{BEAT}{BEAT}{OP:8026}{heart_symbol}{OP:8020}{WAIT} You'd better treat my friend right,{BEAT} or you're gonna regret it!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0003": {
@@ -34,8 +34,8 @@
     },
     "dialogue_0004": {
       "text": {
-        "reference": "友達ダイジにしてくんないと、{n}{BEAT}ショーチしないんだから{OP:8026}『{OP:8020}",
-        "translation": "You'd better treat my friend right,{BEAT} or you're gonna regret it!{OP:8026}『{OP:8020}"
+        "reference": "友達ダイジにしてくんないと、{n}{BEAT}ショーチしないんだから{OP:8026}♡{OP:8020}",
+        "translation": "You'd better treat my friend right,{BEAT} or you're gonna regret it!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0005": {
@@ -82,14 +82,14 @@
     },
     "dialogue_0012": {
       "text": {
-        "reference": "もー、じらさないで{OP:8026}『{OP:8020}",
-        "translation": "Quit teasing me!{OP:8026}『{OP:8020}"
+        "reference": "もー、じらさないで{OP:8026}♡{OP:8020}",
+        "translation": "Quit teasing me!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0013": {
       "text": {
-        "reference": "待たせたオワビは、してもらうワヨ{OP:8026}『{OP:8020}",
-        "translation": "You owe me for making me wait!{OP:8026}『{OP:8020}"
+        "reference": "待たせたオワビは、してもらうワヨ{OP:8026}♡{OP:8020}",
+        "translation": "You owe me for making me wait!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0014": {
@@ -160,8 +160,8 @@
     },
     "dialogue_0025": {
       "text": {
-        "reference": "おまたせー{OP:8026}『{OP:8020}",
-        "translation": "Sorry to keep you waiting!{OP:8026}『{OP:8020}"
+        "reference": "おまたせー{OP:8026}♡{OP:8020}",
+        "translation": "Sorry to keep you waiting!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0026": {
@@ -190,14 +190,14 @@
     },
     "dialogue_0030": {
       "text": {
-        "reference": "ウレシー{OP:8026}『{OP:8020}{n}{WAIT}シアワセー{OP:8026}『{OP:8020}",
-        "translation": "Yay!{OP:8026}『{OP:8020}{WAIT} I'm so happy!{OP:8026}『{OP:8020}"
+        "reference": "ウレシー{OP:8026}♡{OP:8020}{n}{WAIT}シアワセー{OP:8026}♡{OP:8020}",
+        "translation": "Yay!{OP:8026}{heart_symbol}{OP:8020}{WAIT} I'm so happy!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0031": {
       "text": {
-        "reference": "気に入ってくれた？{n}ウレシー{OP:8026}『{OP:8020}",
-        "translation": "You like it? Yay!{OP:8026}『{OP:8020}"
+        "reference": "気に入ってくれた？{n}ウレシー{OP:8026}♡{OP:8020}",
+        "translation": "You like it? Yay!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0032": {
@@ -274,8 +274,8 @@
     },
     "dialogue_0043": {
       "text": {
-        "reference": "キャーーーーッ！！{n}{WAIT}ゴメンなさい、{BEAT}ゴメンなさい…{n}{BEAT}ユルして{OP:8026}『{OP:8020}",
-        "translation": "Aaaaaah!{WAIT} I'm sorry,{BEAT} I'm sorry...{BEAT} Forgive me!{OP:8026}『{OP:8020}"
+        "reference": "キャーーーーッ！！{n}{WAIT}ゴメンなさい、{BEAT}ゴメンなさい…{n}{BEAT}ユルして{OP:8026}♡{OP:8020}",
+        "translation": "Aaaaaah!{WAIT} I'm sorry,{BEAT} I'm sorry...{BEAT} Forgive me!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0044": {
@@ -286,8 +286,8 @@
     },
     "dialogue_0045": {
       "text": {
-        "reference": "ね{OP:8026}『{OP:8020}{BEAT}ね{OP:8026}『{OP:8020}",
-        "translation": "Please!{OP:8026}『{OP:8020}{BEAT} Please!{OP:8026}『{OP:8020}"
+        "reference": "ね{OP:8026}♡{OP:8020}{BEAT}ね{OP:8026}♡{OP:8020}",
+        "translation": "Please!{OP:8026}{heart_symbol}{OP:8020}{BEAT} Please!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0046": {
@@ -322,8 +322,8 @@
     },
     "dialogue_0051": {
       "text": {
-        "reference": "着がえてくるね{OP:8026}『{OP:8020}{n}{WAIT}それまでブラブラしてて、{BEAT}ダーリン{OP:8026}『{OP:8020}",
-        "translation": "I'm gonna change!{OP:8026}『{OP:8020}{WAIT} Wander around till I get back,{BEAT} darling!{OP:8026}『{OP:8020}"
+        "reference": "着がえてくるね{OP:8026}♡{OP:8020}{n}{WAIT}それまでブラブラしてて、{BEAT}ダーリン{OP:8026}♡{OP:8020}",
+        "translation": "I'm gonna change!{OP:8026}{heart_symbol}{OP:8020}{WAIT} Wander around till I get back,{BEAT} darling!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0052": {
@@ -346,8 +346,8 @@
     },
     "dialogue_0055": {
       "text": {
-        "reference": "ナカマになったげても、いーのよ{OP:8026}『{OP:8020}{n}{WAIT}もちろん、{n}タダってワケにはいかないケド。",
-        "translation": "I could join you, you know!{OP:8026}『{OP:8020}{WAIT} Not for free, obviously."
+        "reference": "ナカマになったげても、いーのよ{OP:8026}♡{OP:8020}{n}{WAIT}もちろん、{n}タダってワケにはいかないケド。",
+        "translation": "I could join you, you know!{OP:8026}{heart_symbol}{OP:8020}{WAIT} Not for free, obviously."
       }
     },
     "dialogue_0056": {
@@ -381,8 +381,8 @@
     },
     "dialogue_0060": {
       "text": {
-        "reference": "んじゃねー、サマナーちゃん{OP:8026}『{OP:8020}",
-        "translation": "See you, Summoner-boy!{OP:8026}『{OP:8020}"
+        "reference": "んじゃねー、サマナーちゃん{OP:8026}♡{OP:8020}",
+        "translation": "See you, Summoner-boy!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0061": {
@@ -459,8 +459,8 @@
         "demon_name": "demon_name"
       },
       "text": {
-        "reference": "え。{n}{WAIT}{demon_name}がー？キミにー？？{n}ったく、モー{OP:8026}『{OP:8020}",
-        "translation": "What?{WAIT} {demon_name} has to give something to you!? Ugh, seriously!{OP:8026}『{OP:8020}"
+        "reference": "え。{n}{WAIT}{demon_name}がー？キミにー？？{n}ったく、モー{OP:8026}♡{OP:8020}",
+        "translation": "What?{WAIT} {demon_name} has to give something to you!? Ugh, seriously!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0073": {
@@ -474,8 +474,8 @@
     },
     "dialogue_0074": {
       "text": {
-        "reference": "んじゃねー、ビンボーさん{OP:8026}『{OP:8020}",
-        "translation": "See you, broke boy!{OP:8026}『{OP:8020}"
+        "reference": "んじゃねー、ビンボーさん{OP:8026}♡{OP:8020}",
+        "translation": "See you, broke boy!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0075": {
@@ -516,8 +516,8 @@
         "demon_name": "demon_name"
       },
       "text": {
-        "reference": "まーた、そんなコト言っちゃってー{OP:8026}『{OP:8020}{n}{WAIT}{demon_name}が欲しいんでしょー。{n}{BEAT}ホントはー{OP:8026}『{OP:8020}",
-        "translation": "There you go again!{OP:8026}『{OP:8020}{WAIT} You want {demon_name}, don't you?{BEAT} Admit it!{OP:8026}『{OP:8020}"
+        "reference": "まーた、そんなコト言っちゃってー{OP:8026}♡{OP:8020}{n}{WAIT}{demon_name}が欲しいんでしょー。{n}{BEAT}ホントはー{OP:8026}♡{OP:8020}",
+        "translation": "There you go again!{OP:8026}{heart_symbol}{OP:8020}{WAIT} You want {demon_name}, don't you?{BEAT} Admit it!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0081": {
@@ -627,14 +627,14 @@
         "demon_name": "demon_name"
       },
       "text": {
-        "reference": "まー{OP:8026}『{OP:8020}{n}それって…{n}{WAIT}{demon_name}が欲しいってコトー？",
-        "translation": "Oh!{OP:8026}『{OP:8020} Does that mean...{WAIT} you want {demon_name}?"
+        "reference": "まー{OP:8026}♡{OP:8020}{n}それって…{n}{WAIT}{demon_name}が欲しいってコトー？",
+        "translation": "Oh!{OP:8026}{heart_symbol}{OP:8020} Does that mean...{WAIT} you want {demon_name}?"
       }
     },
     "dialogue_0099": {
       "text": {
-        "reference": "んー…{n}{WAIT}いーわよ{OP:8026}『{OP:8020}ユルしちゃう{OP:8026}『{OP:8020}",
-        "translation": "Hmm...{WAIT} Okay!{OP:8026}『{OP:8020} I'll allow it!{OP:8026}『{OP:8020}"
+        "reference": "んー…{n}{WAIT}いーわよ{OP:8026}♡{OP:8020}ユルしちゃう{OP:8026}♡{OP:8020}",
+        "translation": "Hmm...{WAIT} Okay!{OP:8026}{heart_symbol}{OP:8020} I'll allow it!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0100": {
@@ -642,8 +642,8 @@
         "demon_name": "demon_name"
       },
       "text": {
-        "reference": "ま{OP:8026}『{OP:8020}{n}それって…{n}{WAIT}{demon_name}が欲しいってコトー？",
-        "translation": "Oh!{OP:8026}『{OP:8020} Does that mean...{WAIT} you want {demon_name}?"
+        "reference": "ま{OP:8026}♡{OP:8020}{n}それって…{n}{WAIT}{demon_name}が欲しいってコトー？",
+        "translation": "Oh!{OP:8026}{heart_symbol}{OP:8020} Does that mean...{WAIT} you want {demon_name}?"
       }
     },
     "dialogue_0101": {
@@ -786,8 +786,8 @@
         "offered_item": "item_name"
       },
       "text": {
-        "reference": "ほらっ、{offered_item}。{n}あんまし、たかっちゃダメよー。{n}{WAIT}クセになるから{OP:8026}『{OP:8020}",
-        "translation": "Here, {offered_item}. Don't mooch too much.{WAIT} It becomes a habit!{OP:8026}『{OP:8020}"
+        "reference": "ほらっ、{offered_item}。{n}あんまし、たかっちゃダメよー。{n}{WAIT}クセになるから{OP:8026}♡{OP:8020}",
+        "translation": "Here, {offered_item}. Don't mooch too much.{WAIT} It becomes a habit!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0123": {
@@ -936,7 +936,7 @@
     },
     "dialogue_0145": {
       "text": {
-        "reference": "こないだ、{n}「{OP:8026}いちごタンメ～ン{OP:8020}{maru_symbol}」{n}って、大さわぎしてる子がいたケド……",
+        "reference": "こないだ、{n}「{OP:8026}いちごタンメ～ン{OP:8020}{happy_symbol}」{n}って、大さわぎしてる子がいたケド……",
         "translation": "The other day, some kid was shouting about {OP:8026}strawberry tan-men{OP:8020}..."
       }
     },
@@ -1221,8 +1221,8 @@
     },
     "dialogue_0191": {
       "text": {
-        "reference": "ま{OP:8026}『{OP:8020}{n}豪速球なヒト{OP:8026}『{OP:8020}",
-        "translation": "Wow!{OP:8026}『{OP:8020} Talk about a fastball!{OP:8026}『{OP:8020}"
+        "reference": "ま{OP:8026}♡{OP:8020}{n}豪速球なヒト{OP:8026}♡{OP:8020}",
+        "translation": "Wow!{OP:8026}{heart_symbol}{OP:8020} Talk about a fastball!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0192": {
@@ -1291,8 +1291,8 @@
         "offered_item": "item_name"
       },
       "text": {
-        "reference": "{offered_item}{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}『{OP:8020}{n}{demon_name}のキモチよ{OP:8026}『{OP:8020}",
-        "translation": "{offered_item}!{BEAT} For{BEAT} you!{BEAT}{BEAT}{OP:8026}『{OP:8020} It's how {demon_name} feels!{OP:8026}『{OP:8020}"
+        "reference": "{offered_item}{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}♡{OP:8020}{n}{demon_name}のキモチよ{OP:8026}♡{OP:8020}",
+        "translation": "{offered_item}!{BEAT} For{BEAT} you!{BEAT}{BEAT}{OP:8026}{heart_symbol}{OP:8020} It's how {demon_name} feels!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0203": {
@@ -1345,8 +1345,8 @@
     },
     "dialogue_0211": {
       "text": {
-        "reference": "へー。{n}なんかー、オモシロそーじゃん。{n}{WAIT}参加してあげても、いーわよ{OP:8026}『{OP:8020}",
-        "translation": "Huh. Sounds kinda fun.{WAIT} Maybe I'll join in!{OP:8026}『{OP:8020}"
+        "reference": "へー。{n}なんかー、オモシロそーじゃん。{n}{WAIT}参加してあげても、いーわよ{OP:8026}♡{OP:8020}",
+        "translation": "Huh. Sounds kinda fun.{WAIT} Maybe I'll join in!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0212": {
@@ -1369,8 +1369,8 @@
     },
     "dialogue_0215": {
       "text": {
-        "reference": "あ。{n}わかった。{n}{OP:8026}ウワキ{OP:8020}のチョーサに来たんでしょー{OP:8026}『{OP:8020}",
-        "translation": "Oh, I get it. You're investigating {OP:8026}cheating{OP:8020}, aren't you?{OP:8026}『{OP:8020}"
+        "reference": "あ。{n}わかった。{n}{OP:8026}ウワキ{OP:8020}のチョーサに来たんでしょー{OP:8026}♡{OP:8020}",
+        "translation": "Oh, I get it. You're investigating {OP:8026}cheating{OP:8020}, aren't you?{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0216": {
@@ -1396,8 +1396,8 @@
         "offered_item": "item_name"
       },
       "text": {
-        "reference": "マジー！？{n}{WAIT}{offered_item}アゲルからさー。{n}{WAIT}見逃して{OP:8026}『{OP:8020}{BEAT}ね{OP:8026}『{OP:8020}{BEAT}ね{OP:8026}『{OP:8020}",
-        "translation": "Seriously!?{WAIT} I'll give you {offered_item}.{WAIT} Let me go!{OP:8026}『{OP:8020}{BEAT} Please!{OP:8026}『{OP:8020}{BEAT} Please!{OP:8026}『{OP:8020}"
+        "reference": "マジー！？{n}{WAIT}{offered_item}アゲルからさー。{n}{WAIT}見逃して{OP:8026}♡{OP:8020}{BEAT}ね{OP:8026}♡{OP:8020}{BEAT}ね{OP:8026}♡{OP:8020}",
+        "translation": "Seriously!?{WAIT} I'll give you {offered_item}.{WAIT} Let me go!{OP:8026}{heart_symbol}{OP:8020}{BEAT} Please!{OP:8026}{heart_symbol}{OP:8020}{BEAT} Please!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0220": {
@@ -1614,8 +1614,8 @@
     },
     "dialogue_0254": {
       "text": {
-        "reference": "まー{OP:8026}『{OP:8020}{n}{WAIT}信じて…{BEAT}信じていーのね{OP:8026}『{OP:8020}",
-        "translation": "Oh my!{OP:8026}『{OP:8020}{WAIT} I can trust you...{BEAT} right?{OP:8026}『{OP:8020}"
+        "reference": "まー{OP:8026}♡{OP:8020}{n}{WAIT}信じて…{BEAT}信じていーのね{OP:8026}♡{OP:8020}",
+        "translation": "Oh my!{OP:8026}{heart_symbol}{OP:8020}{WAIT} I can trust you...{BEAT} right?{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0255": {
@@ -1758,7 +1758,7 @@
         "demon_name": "demon_name"
       },
       "text": {
-        "reference": "それって、{demon_name}と{n}相性バッチリじゃーん{maru_symbol}",
+        "reference": "それって、{demon_name}と{n}相性バッチリじゃーん{happy_symbol}",
         "translation": "That makes you a perfect match for {demon_name}!"
       }
     },
@@ -1830,14 +1830,14 @@
     },
     "dialogue_0289": {
       "text": {
-        "reference": "いーわー。{n}{WAIT}じゃ、本題に入りましょー{OP:8026}『{OP:8020}",
-        "translation": "Good.{WAIT} Now let's get to the point!{OP:8026}『{OP:8020}"
+        "reference": "いーわー。{n}{WAIT}じゃ、本題に入りましょー{OP:8026}♡{OP:8020}",
+        "translation": "Good.{WAIT} Now let's get to the point!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0290": {
       "text": {
-        "reference": "いーわー。{n}いーわよー{OP:8026}『{OP:8020}",
-        "translation": "Perfect. Just perfect!{OP:8026}『{OP:8020}"
+        "reference": "いーわー。{n}いーわよー{OP:8026}♡{OP:8020}",
+        "translation": "Perfect. Just perfect!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0291": {
@@ -1932,8 +1932,8 @@
         "demon_name": "demon_name"
       },
       "text": {
-        "reference": "もしもさー、{demon_name}がさー。{n}{WAIT}ナカマにして{OP:8026}『{OP:8020}{n}ってオネガイしたら…",
-        "translation": "Say {demon_name} asked,{WAIT} \"Make me your ally!\"{OP:8026}『{OP:8020}"
+        "reference": "もしもさー、{demon_name}がさー。{n}{WAIT}ナカマにして{OP:8026}♡{OP:8020}{n}ってオネガイしたら…",
+        "translation": "Say {demon_name} asked,{WAIT} \"Make me your ally!\"{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0306": {
@@ -1956,14 +1956,14 @@
     },
     "dialogue_0309": {
       "text": {
-        "reference": "マジー！？{n}{WAIT}ウレシー{OP:8026}『『{OP:8020}",
-        "translation": "Seriously!?{WAIT} Yay!{OP:8026}『『{OP:8020}"
+        "reference": "マジー！？{n}{WAIT}ウレシー{OP:8026}♡♡{OP:8020}",
+        "translation": "Seriously!?{WAIT} Yay!{OP:8026}{heart_symbol}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0310": {
       "text": {
-        "reference": "マジー！？{n}じゃー、カンガエとくわ{OP:8026}『{OP:8020}{n}{WAIT}そのうち、{BEAT}ね。",
-        "translation": "Seriously!? Then I'll think about it!{OP:8026}『{OP:8020}{WAIT} Someday,{BEAT} maybe."
+        "reference": "マジー！？{n}じゃー、カンガエとくわ{OP:8026}♡{OP:8020}{n}{WAIT}そのうち、{BEAT}ね。",
+        "translation": "Seriously!? Then I'll think about it!{OP:8026}{heart_symbol}{OP:8020}{WAIT} Someday,{BEAT} maybe."
       }
     },
     "dialogue_0311": {
@@ -1989,14 +1989,14 @@
     },
     "dialogue_0314": {
       "text": {
-        "reference": "じらさないで{OP:8026}『{OP:8020}{n}{WAIT}もー{OP:8026}『{OP:8020}",
-        "translation": "Quit teasing me!{OP:8026}『{OP:8020}{WAIT} Come on!{OP:8026}『{OP:8020}"
+        "reference": "じらさないで{OP:8026}♡{OP:8020}{n}{WAIT}もー{OP:8026}♡{OP:8020}",
+        "translation": "Quit teasing me!{OP:8026}{heart_symbol}{OP:8020}{WAIT} Come on!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0315": {
       "text": {
-        "reference": "んー…{n}{WAIT}じゃー、よくカンガエといてねー{OP:8026}『{OP:8020}",
-        "translation": "Hmm...{WAIT} Think it over carefully, okay?{OP:8026}『{OP:8020}"
+        "reference": "んー…{n}{WAIT}じゃー、よくカンガエといてねー{OP:8026}♡{OP:8020}",
+        "translation": "Hmm...{WAIT} Think it over carefully, okay?{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0316": {
@@ -2034,13 +2034,13 @@
     },
     "dialogue_0321": {
       "text": {
-        "reference": "マジー！？{n}うれしー{OP:8026}『{OP:8020}",
-        "translation": "Seriously!? Yay!{OP:8026}『{OP:8020}"
+        "reference": "マジー！？{n}うれしー{OP:8026}♡{OP:8020}",
+        "translation": "Seriously!? Yay!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0322": {
       "text": {
-        "reference": "そーゆー時って、ウソでもいーから、{n}{WAIT}{OP:8026}スキ『{OP:8020}{BEAT}って言っとくもんよ！",
+        "reference": "そーゆー時って、ウソでもいーから、{n}{WAIT}{OP:8026}スキ♡{OP:8020}{BEAT}って言っとくもんよ！",
         "translation": "At times like this, you lie and say...{WAIT}{OP:8026}I love you{OP:8020}!{BEAT}"
       }
     },
@@ -2055,7 +2055,7 @@
     },
     "dialogue_0324": {
       "text": {
-        "reference": "そーゆー時って、ウソでもいーから、{n}{WAIT}{OP:8026}スキ『{OP:8020}{BEAT}って言って欲しいモンなのよ！",
+        "reference": "そーゆー時って、ウソでもいーから、{n}{WAIT}{OP:8026}スキ♡{OP:8020}{BEAT}って言って欲しいモンなのよ！",
         "translation": "At times like this, even if it's a lie, a girl wants to hear...{WAIT}{OP:8026}I love you{OP:8020}!{BEAT}"
       }
     },
@@ -2130,14 +2130,14 @@
     },
     "dialogue_0336": {
       "text": {
-        "reference": "あ…{n}{WAIT}え…{OP:8026}『{OP:8020}{n}{WAIT}あ、{BEAT}そんな{BEAT}…{BEAT}…{BEAT}{OP:8026}『{OP:8020}",
-        "translation": "Ah...{WAIT} Um...{OP:8026}『{OP:8020}{WAIT} Oh,{BEAT} you can't{BEAT}.{BEAT}.{BEAT}{OP:8026}『{OP:8020}"
+        "reference": "あ…{n}{WAIT}え…{OP:8026}♡{OP:8020}{n}{WAIT}あ、{BEAT}そんな{BEAT}…{BEAT}…{BEAT}{OP:8026}♡{OP:8020}",
+        "translation": "Ah...{WAIT} Um...{OP:8026}{heart_symbol}{OP:8020}{WAIT} Oh,{BEAT} you can't{BEAT}.{BEAT}.{BEAT}{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0337": {
       "text": {
-        "reference": "そんなコト言ってくれんの、キミだけ{OP:8026}『{OP:8020}{n}{WAIT}シアワセにしてくれる？{n}{WAIT}してくれなきゃ、刺しちゃうワヨ{OP:8026}『{OP:8020}",
-        "translation": "You're the only one who says things like that!{OP:8026}『{OP:8020}{WAIT} Will you make me happy?{WAIT} If not, I'll stab you!{OP:8026}『{OP:8020}"
+        "reference": "そんなコト言ってくれんの、キミだけ{OP:8026}♡{OP:8020}{n}{WAIT}シアワセにしてくれる？{n}{WAIT}してくれなきゃ、刺しちゃうワヨ{OP:8026}♡{OP:8020}",
+        "translation": "You're the only one who says things like that!{OP:8026}{heart_symbol}{OP:8020}{WAIT} Will you make me happy?{WAIT} If not, I'll stab you!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0338": {
@@ -2145,13 +2145,13 @@
         "offered_item": "item_name"
       },
       "text": {
-        "reference": "そんなコト言ってくれんの、キミだけよ{OP:8026}『{OP:8020}{n}{WAIT}{offered_item}、アゲちゃう{OP:8026}『{OP:8020}",
-        "translation": "You're the only one who says things like that!{OP:8026}『{OP:8020}{WAIT} I'll give you {offered_item}!{OP:8026}『{OP:8020}"
+        "reference": "そんなコト言ってくれんの、キミだけよ{OP:8026}♡{OP:8020}{n}{WAIT}{offered_item}、アゲちゃう{OP:8026}♡{OP:8020}",
+        "translation": "You're the only one who says things like that!{OP:8026}{heart_symbol}{OP:8020}{WAIT} I'll give you {offered_item}!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0339": {
       "text": {
-        "reference": "へー。{n}ためになったカモ。{n}{WAIT}キミの話、オモシロイわー{maru_symbol}",
+        "reference": "へー。{n}ためになったカモ。{n}{WAIT}キミの話、オモシロイわー{happy_symbol}",
         "translation": "Huh. Maybe I learned something.{WAIT} Your stories are interesting!"
       }
     },
@@ -2160,8 +2160,8 @@
         "offered_item": "item_name"
       },
       "text": {
-        "reference": "{offered_item}、{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}『{OP:8020}",
-        "translation": "Here,{BEAT} take{BEAT} {offered_item}!{BEAT}{BEAT}{OP:8026}『{OP:8020}"
+        "reference": "{offered_item}、{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}♡{OP:8020}",
+        "translation": "Here,{BEAT} take{BEAT} {offered_item}!{BEAT}{BEAT}{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0341": {
@@ -2184,7 +2184,7 @@
     },
     "dialogue_0344": {
       "text": {
-        "reference": "今度、ためしてみよー{maru_symbol}",
+        "reference": "今度、ためしてみよー{happy_symbol}",
         "translation": "I'll try that sometime!"
       }
     },
@@ -2208,7 +2208,7 @@
     },
     "dialogue_0348": {
       "text": {
-        "reference": "…{BEAT}…{BEAT}キャハハハハ！！{n}{BEAT}グーよ、グー。{n}サイコー{maru_symbol}",
+        "reference": "…{BEAT}…{BEAT}キャハハハハ！！{n}{BEAT}グーよ、グー。{n}サイコー{happy_symbol}",
         "translation": "...{BEAT}.{BEAT} Ah-ha-ha-ha!{BEAT} Good, really good. Amazing!"
       }
     },
@@ -2217,8 +2217,8 @@
         "offered_item": "item_name"
       },
       "text": {
-        "reference": "{offered_item}、{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}『{OP:8020}",
-        "translation": "Here,{BEAT} take{BEAT} {offered_item}!{BEAT}{BEAT}{OP:8026}『{OP:8020}"
+        "reference": "{offered_item}、{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}♡{OP:8020}",
+        "translation": "Here,{BEAT} take{BEAT} {offered_item}!{BEAT}{BEAT}{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0350": {
@@ -2271,8 +2271,8 @@
     },
     "dialogue_0357": {
       "text": {
-        "reference": "なんか歌ってー{OP:8026}『{OP:8020}",
-        "translation": "Sing something!{OP:8026}『{OP:8020}"
+        "reference": "なんか歌ってー{OP:8026}♡{OP:8020}",
+        "translation": "Sing something!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0358": {
@@ -2304,8 +2304,8 @@
         "demon_name": "demon_name"
       },
       "text": {
-        "reference": "…{BEAT}…{BEAT}そんなにも。{n}{BEAT}そんなにも、{BEAT}{demon_name}のこと{BEAT}…{n}{WAIT}いーわ{OP:8026}『{OP:8020}",
-        "translation": "...{BEAT}.{BEAT} You feel that strongly...{BEAT} that strongly about {demon_name}...{BEAT}.{BEAT}{WAIT} Fine!{OP:8026}『{OP:8020}"
+        "reference": "…{BEAT}…{BEAT}そんなにも。{n}{BEAT}そんなにも、{BEAT}{demon_name}のこと{BEAT}…{n}{WAIT}いーわ{OP:8026}♡{OP:8020}",
+        "translation": "...{BEAT}.{BEAT} You feel that strongly...{BEAT} that strongly about {demon_name}...{BEAT}.{BEAT}{WAIT} Fine!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0363": {
@@ -2337,8 +2337,8 @@
         "offered_item": "item_name"
       },
       "text": {
-        "reference": "{offered_item}、{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}『{OP:8020}{n}{WAIT}強く生きんのよー！",
-        "translation": "Here,{BEAT} take{BEAT} {offered_item}!{BEAT}{BEAT}{OP:8026}『{OP:8020}{WAIT} Stay strong!"
+        "reference": "{offered_item}、{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}♡{OP:8020}{n}{WAIT}強く生きんのよー！",
+        "translation": "Here,{BEAT} take{BEAT} {offered_item}!{BEAT}{BEAT}{OP:8026}{heart_symbol}{OP:8020}{WAIT} Stay strong!"
       }
     },
     "dialogue_0368": {
@@ -2381,8 +2381,8 @@
     },
     "dialogue_0373": {
       "text": {
-        "reference": "まー{OP:8026}『{OP:8020}{n}どーしましょ{OP:8026}『{OP:8020}",
-        "translation": "Oh my!{OP:8026}『{OP:8020} What should I do?{OP:8026}『{OP:8020}",
+        "reference": "まー{OP:8026}♡{OP:8020}{n}どーしましょ{OP:8026}♡{OP:8020}",
+        "translation": "Oh my!{OP:8026}{heart_symbol}{OP:8020} What should I do?{OP:8026}{heart_symbol}{OP:8020}",
         "note": "Fragment context: message 295 page 2 completes \"Which means...\" on page 1 (dialogue_0372)."
       }
     },
@@ -2478,7 +2478,7 @@
     },
     "dialogue_0388": {
       "text": {
-        "reference": "それじゃー、このマチが壊れちゃっても…{n}スキなまんまで、いられるかしらー{maru_symbol}",
+        "reference": "それじゃー、このマチが壊れちゃっても…{n}スキなまんまで、いられるかしらー{happy_symbol}",
         "translation": "So if this city were destroyed... would you still love it?"
       }
     },
@@ -2508,8 +2508,8 @@
     },
     "dialogue_0393": {
       "text": {
-        "reference": "ま、いーけどさー。{n}{WAIT}んじゃねー{OP:8026}『{OP:8020}",
-        "translation": "Whatever.{WAIT} Bye!{OP:8026}『{OP:8020}"
+        "reference": "ま、いーけどさー。{n}{WAIT}んじゃねー{OP:8026}♡{OP:8020}",
+        "translation": "Whatever.{WAIT} Bye!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0394": {
@@ -2598,7 +2598,7 @@
     },
     "dialogue_0408": {
       "text": {
-        "reference": "目の前がねー、{BEAT}ぶわー{BEAT}ってハジケルのー{maru_symbol}{n}{WAIT}ぶわー{BEAT}って。",
+        "reference": "目の前がねー、{BEAT}ぶわー{BEAT}ってハジケルのー{happy_symbol}{n}{WAIT}ぶわー{BEAT}って。",
         "translation": "Everything in front of you{BEAT} explodes{BEAT} into color!{WAIT} Just{BEAT} whoosh!"
       }
     },
@@ -2610,8 +2610,8 @@
     },
     "dialogue_0410": {
       "text": {
-        "reference": "{OP:8025}ガムシロップ{OP:8020}、いーわよー、あまくてー{OP:8026}『{OP:8020}{n}あれって、だれでもカンタンに作れるのー。",
-        "translation": "{OP:8025}Gum Syrup{OP:8020} is great—so sweet!{OP:8026}『{OP:8020} Anyone can make it easily."
+        "reference": "{OP:8025}ガムシロップ{OP:8020}、いーわよー、あまくてー{OP:8026}♡{OP:8020}{n}あれって、だれでもカンタンに作れるのー。",
+        "translation": "{OP:8025}Gum Syrup{OP:8020} is great—so sweet!{OP:8026}{heart_symbol}{OP:8020} Anyone can make it easily."
       }
     },
     "dialogue_0411": {
@@ -2640,8 +2640,8 @@
     },
     "dialogue_0415": {
       "text": {
-        "reference": "あ、それと。{n}{WAIT}{OP:8025}メグスリビア{OP:8020}、おんなのコに飲ませて、{n}ヘンなコトしちゃダメよ{OP:8026}『{OP:8020}",
-        "translation": "Oh, and one more thing.{WAIT} Don't give {OP:8025}Megu Beer{OP:8020} to girls and do anything creepy!{OP:8026}『{OP:8020}"
+        "reference": "あ、それと。{n}{WAIT}{OP:8025}メグスリビア{OP:8020}、おんなのコに飲ませて、{n}ヘンなコトしちゃダメよ{OP:8026}♡{OP:8020}",
+        "translation": "Oh, and one more thing.{WAIT} Don't give {OP:8025}Megu Beer{OP:8020} to girls and do anything creepy!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0416": {
@@ -2655,8 +2655,8 @@
         "demon_name": "demon_name"
       },
       "text": {
-        "reference": "{demon_name}ね、欲しいモノがあるの{OP:8026}『{OP:8020}",
-        "translation": "There's something {demon_name} wants!{OP:8026}『{OP:8020}"
+        "reference": "{demon_name}ね、欲しいモノがあるの{OP:8026}♡{OP:8020}",
+        "translation": "There's something {demon_name} wants!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0418": {
@@ -2664,8 +2664,8 @@
         "requested_item": "item_name"
       },
       "text": {
-        "reference": "{requested_item}ちょーだーい{OP:8026}『{OP:8020}",
-        "translation": "Give me {requested_item}!{OP:8026}『{OP:8020}"
+        "reference": "{requested_item}ちょーだーい{OP:8026}♡{OP:8020}",
+        "translation": "Give me {requested_item}!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0419": {
@@ -2682,8 +2682,8 @@
     },
     "dialogue_0421": {
       "text": {
-        "reference": "まー{OP:8026}『{OP:8020}{n}ステキー。",
-        "translation": "Oh my!{OP:8026}『{OP:8020} Wonderful."
+        "reference": "まー{OP:8026}♡{OP:8020}{n}ステキー。",
+        "translation": "Oh my!{OP:8026}{heart_symbol}{OP:8020} Wonderful."
       }
     },
     "dialogue_0422": {
@@ -2694,8 +2694,8 @@
     },
     "dialogue_0423": {
       "text": {
-        "reference": "まー{OP:8026}『{OP:8020}{n}ステキー。",
-        "translation": "Oh my!{OP:8026}『{OP:8020} Wonderful."
+        "reference": "まー{OP:8026}♡{OP:8020}{n}ステキー。",
+        "translation": "Oh my!{OP:8026}{heart_symbol}{OP:8020} Wonderful."
       }
     },
     "dialogue_0424": {
@@ -2712,14 +2712,14 @@
     },
     "dialogue_0426": {
       "text": {
-        "reference": "じゃー、他のをちょーだい{OP:8026}『{OP:8020}",
-        "translation": "Then give me something else!{OP:8026}『{OP:8020}"
+        "reference": "じゃー、他のをちょーだい{OP:8026}♡{OP:8020}",
+        "translation": "Then give me something else!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0427": {
       "text": {
-        "reference": "ないのー？{n}んー…{n}{WAIT}じゃー、{BEAT}キミをちょーだーい{OP:8026}『{OP:8020}",
-        "translation": "You don't have it? Hmm...{WAIT} Then{BEAT} give me yourself!{OP:8026}『{OP:8020}"
+        "reference": "ないのー？{n}んー…{n}{WAIT}じゃー、{BEAT}キミをちょーだーい{OP:8026}♡{OP:8020}",
+        "translation": "You don't have it? Hmm...{WAIT} Then{BEAT} give me yourself!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0428": {
@@ -2736,20 +2736,20 @@
     },
     "dialogue_0430": {
       "text": {
-        "reference": "いーわー。{n}じゃ、本題に入りましょー{OP:8026}『{OP:8020}",
-        "translation": "Good. Now let's get to the point!{OP:8026}『{OP:8020}"
+        "reference": "いーわー。{n}じゃ、本題に入りましょー{OP:8026}♡{OP:8020}",
+        "translation": "Good. Now let's get to the point!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0431": {
       "text": {
-        "reference": "いーわー。{n}そのチョーシよー{OP:8026}『{OP:8020}",
-        "translation": "Good. That's more like it!{OP:8026}『{OP:8020}"
+        "reference": "いーわー。{n}そのチョーシよー{OP:8026}♡{OP:8020}",
+        "translation": "Good. That's more like it!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0432": {
       "text": {
-        "reference": "いーわー。{n}たーっぷり、カワイがったげる{OP:8026}『{OP:8020}",
-        "translation": "Good. I'm gonna show you lots of love!{OP:8026}『{OP:8020}"
+        "reference": "いーわー。{n}たーっぷり、カワイがったげる{OP:8026}♡{OP:8020}",
+        "translation": "Good. I'm gonna show you lots of love!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0433": {
@@ -2829,8 +2829,8 @@
     },
     "dialogue_0445": {
       "text": {
-        "reference": "キャハハハハ！！{n}カワイがったげるわー{OP:8026}『{OP:8020}",
-        "translation": "Ah-ha-ha-ha! I'm gonna play with you!{OP:8026}『{OP:8020}"
+        "reference": "キャハハハハ！！{n}カワイがったげるわー{OP:8026}♡{OP:8020}",
+        "translation": "Ah-ha-ha-ha! I'm gonna play with you!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0446": {
@@ -2871,8 +2871,8 @@
     },
     "dialogue_0452": {
       "text": {
-        "reference": "んー…{n}キミしだいカナー。{n}{WAIT}たくさん、ハズんでくれたらね{OP:8026}『{OP:8020}",
-        "translation": "Hmm... Depends on you.{WAIT} If you make it worth my while!{OP:8026}『{OP:8020}"
+        "reference": "んー…{n}キミしだいカナー。{n}{WAIT}たくさん、ハズんでくれたらね{OP:8026}♡{OP:8020}",
+        "translation": "Hmm... Depends on you.{WAIT} If you make it worth my while!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0453": {
@@ -2895,8 +2895,8 @@
         "demon_name": "demon_name"
       },
       "text": {
-        "reference": "んー…{n}{WAIT}この{demon_name}をさー。{n}ナカマにすると、いーかもよ{OP:8026}『{OP:8020}",
-        "translation": "Hmm...{WAIT} You should make {demon_name} your ally. It might help!{OP:8026}『{OP:8020}"
+        "reference": "んー…{n}{WAIT}この{demon_name}をさー。{n}ナカマにすると、いーかもよ{OP:8026}♡{OP:8020}",
+        "translation": "Hmm...{WAIT} You should make {demon_name} your ally. It might help!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0456": {
@@ -2907,14 +2907,14 @@
     },
     "dialogue_0457": {
       "text": {
-        "reference": "んー…{n}こまめに回復しろってことカナー？{n}{WAIT}こーんなふーにネ{OP:8026}『{OP:8020}",
-        "translation": "Hmm... Maybe heal often?{WAIT} Like this!{OP:8026}『{OP:8020}"
+        "reference": "んー…{n}こまめに回復しろってことカナー？{n}{WAIT}こーんなふーにネ{OP:8026}♡{OP:8020}",
+        "translation": "Hmm... Maybe heal often?{WAIT} Like this!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0458": {
       "text": {
-        "reference": "ほら。{n}{BEAT}ゲンキにやんのよー{OP:8026}『{OP:8020}",
-        "translation": "There!{BEAT} Stay healthy!{OP:8026}『{OP:8020}"
+        "reference": "ほら。{n}{BEAT}ゲンキにやんのよー{OP:8026}♡{OP:8020}",
+        "translation": "There!{BEAT} Stay healthy!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0459": {
@@ -2931,8 +2931,8 @@
     },
     "dialogue_0461": {
       "text": {
-        "reference": "んじゃねー{OP:8026}『{OP:8020}",
-        "translation": "Bye!{OP:8026}『{OP:8020}"
+        "reference": "んじゃねー{OP:8026}♡{OP:8020}",
+        "translation": "Bye!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0462": {
@@ -2940,8 +2940,8 @@
         "offered_item": "item_name"
       },
       "text": {
-        "reference": "まってー！{n}{WAIT}{offered_item}、{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}『{OP:8020}{n}{BEAT}ほんのキモチよ。",
-        "translation": "Wait!{WAIT} Here,{BEAT} take{BEAT} {offered_item}!{BEAT}{BEAT}{OP:8026}『{OP:8020}{BEAT} Just a little gift."
+        "reference": "まってー！{n}{WAIT}{offered_item}、{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}♡{OP:8020}{n}{BEAT}ほんのキモチよ。",
+        "translation": "Wait!{WAIT} Here,{BEAT} take{BEAT} {offered_item}!{BEAT}{BEAT}{OP:8026}{heart_symbol}{OP:8020}{BEAT} Just a little gift."
       }
     },
     "dialogue_0463": {
@@ -3018,8 +3018,8 @@
     },
     "dialogue_0474": {
       "text": {
-        "reference": "スキよ{OP:8026}『{OP:8020}{n}アタシを見て…",
-        "translation": "I like you!{OP:8026}『{OP:8020} Look at me..."
+        "reference": "スキよ{OP:8026}♡{OP:8020}{n}アタシを見て…",
+        "translation": "I like you!{OP:8026}{heart_symbol}{OP:8020} Look at me..."
       }
     },
     "dialogue_0475": {
@@ -3027,8 +3027,8 @@
         "demon_name": "demon_name"
       },
       "text": {
-        "reference": "{demon_name}の目、もっとよく見て{OP:8026}『{OP:8020}",
-        "translation": "Look deeper into {demon_name}'s eyes!{OP:8026}『{OP:8020}"
+        "reference": "{demon_name}の目、もっとよく見て{OP:8026}♡{OP:8020}",
+        "translation": "Look deeper into {demon_name}'s eyes!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0476": {
@@ -3054,8 +3054,8 @@
         "demon_name": "demon_name"
       },
       "text": {
-        "reference": "…{BEAT}キャハハハハ。{n}かかったわねー！{n}{WAIT}もーキミは、{demon_name}の{BEAT}ト{BEAT}リ{BEAT}コ{OP:8026}『{OP:8020}",
-        "translation": "...{BEAT} Ah-ha-ha-ha! You fell for it!{WAIT} Now you're {demon_name}'s{BEAT} cap{BEAT}tive!{BEAT}{OP:8026}『{OP:8020}"
+        "reference": "…{BEAT}キャハハハハ。{n}かかったわねー！{n}{WAIT}もーキミは、{demon_name}の{BEAT}ト{BEAT}リ{BEAT}コ{OP:8026}♡{OP:8020}",
+        "translation": "...{BEAT} Ah-ha-ha-ha! You fell for it!{WAIT} Now you're {demon_name}'s{BEAT} cap{BEAT}tive!{BEAT}{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0480": {
@@ -3102,14 +3102,14 @@
         "demon_name": "demon_name"
       },
       "text": {
-        "reference": "キャハハハハ！{n}{demon_name}が、コワイってワケー？{n}{WAIT}カーワイー{OP:8026}『{OP:8020}",
-        "translation": "Ah-ha-ha-ha! Is {demon_name} scary?{WAIT} So cute!{OP:8026}『{OP:8020}"
+        "reference": "キャハハハハ！{n}{demon_name}が、コワイってワケー？{n}{WAIT}カーワイー{OP:8026}♡{OP:8020}",
+        "translation": "Ah-ha-ha-ha! Is {demon_name} scary?{WAIT} So cute!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0487": {
       "text": {
-        "reference": "キミしだいだけどー、{n}手伝ってもいーわよ{OP:8026}『{OP:8020}",
-        "translation": "Depending on your answer, maybe I'll help!{OP:8026}『{OP:8020}"
+        "reference": "キミしだいだけどー、{n}手伝ってもいーわよ{OP:8026}♡{OP:8020}",
+        "translation": "Depending on your answer, maybe I'll help!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0488": {
@@ -3126,8 +3126,8 @@
     },
     "dialogue_0490": {
       "text": {
-        "reference": "タベちゃいたい{OP:8026}『『{OP:8020}",
-        "translation": "I could just eat you up!{OP:8026}『『{OP:8020}"
+        "reference": "タベちゃいたい{OP:8026}♡♡{OP:8020}",
+        "translation": "I could just eat you up!{OP:8026}{heart_symbol}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0491": {
@@ -3144,7 +3144,7 @@
     },
     "dialogue_0493": {
       "text": {
-        "reference": "こんにちわー{maru_symbol}",
+        "reference": "こんにちわー{happy_symbol}",
         "translation": "Hellooo!"
       }
     },
@@ -3168,8 +3168,8 @@
     },
     "dialogue_0497": {
       "text": {
-        "reference": "キャハハハ。{n}なにアセッてんのよ。{n}{WAIT}カーワイー{OP:8026}『{OP:8020}",
-        "translation": "Ah-ha-ha! Why're you panicking?{WAIT} So cute!{OP:8026}『{OP:8020}"
+        "reference": "キャハハハ。{n}なにアセッてんのよ。{n}{WAIT}カーワイー{OP:8026}♡{OP:8020}",
+        "translation": "Ah-ha-ha! Why're you panicking?{WAIT} So cute!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0498": {
@@ -3180,20 +3180,20 @@
     },
     "dialogue_0499": {
       "text": {
-        "reference": "キャハハハ。{n}なに、ムキになってんのー。{n}{WAIT}ジョーダンよ、ジョーダン{maru_symbol}",
+        "reference": "キャハハハ。{n}なに、ムキになってんのー。{n}{WAIT}ジョーダンよ、ジョーダン{happy_symbol}",
         "translation": "Ah-ha-ha! Why so serious?{WAIT} I'm kidding!"
       }
     },
     "dialogue_0500": {
       "text": {
-        "reference": "なに、ムキになってんのー。{n}{WAIT}カーワイー{OP:8026}『{OP:8020}",
-        "translation": "Why so serious?{WAIT} So cute!{OP:8026}『{OP:8020}"
+        "reference": "なに、ムキになってんのー。{n}{WAIT}カーワイー{OP:8026}♡{OP:8020}",
+        "translation": "Why so serious?{WAIT} So cute!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0501": {
       "text": {
-        "reference": "いっしょにいてあげたくなっちゃう{OP:8026}『{OP:8020}",
-        "translation": "Makes me wanna stay with you!{OP:8026}『{OP:8020}"
+        "reference": "いっしょにいてあげたくなっちゃう{OP:8026}♡{OP:8020}",
+        "translation": "Makes me wanna stay with you!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0502": {
@@ -3204,7 +3204,7 @@
     },
     "dialogue_0503": {
       "text": {
-        "reference": "じゃーねー、おじょうちゃん{maru_symbol}",
+        "reference": "じゃーねー、おじょうちゃん{happy_symbol}",
         "translation": "Bye, little girl!"
       }
     },
@@ -3243,8 +3243,8 @@
         "demon_name": "demon_name"
       },
       "text": {
-        "reference": "{demon_name}の{BEAT}キ{BEAT}モ{BEAT}チ{BEAT}{OP:8026}『{OP:8020}",
-        "translation": "{demon_name}'s{BEAT} feel{BEAT}ings!{BEAT}{BEAT}{OP:8026}『{OP:8020}"
+        "reference": "{demon_name}の{BEAT}キ{BEAT}モ{BEAT}チ{BEAT}{OP:8026}♡{OP:8020}",
+        "translation": "{demon_name}'s{BEAT} feel{BEAT}ings!{BEAT}{BEAT}{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0509": {
@@ -3261,8 +3261,8 @@
     },
     "dialogue_0511": {
       "text": {
-        "reference": "じゃ、せーぜーガンバってねー{OP:8026}『{OP:8020}{n}また、声かけてー{OP:8026}『{OP:8020}",
-        "translation": "Do your best!{OP:8026}『{OP:8020} Talk to me again sometime!{OP:8026}『{OP:8020}"
+        "reference": "じゃ、せーぜーガンバってねー{OP:8026}♡{OP:8020}{n}また、声かけてー{OP:8026}♡{OP:8020}",
+        "translation": "Do your best!{OP:8026}{heart_symbol}{OP:8020} Talk to me again sometime!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0512": {
@@ -3279,8 +3279,8 @@
         "demon_name": "demon_name"
       },
       "text": {
-        "reference": "オカネより、{demon_name}がいーってワケー？{n}{WAIT}まー{OP:8026}『{OP:8020}{n}豪速球なヒト{OP:8026}『『{OP:8020}",
-        "translation": "You want {demon_name} more than money?{WAIT} Oh my!{OP:8026}『{OP:8020} Talk about a fastball!{OP:8026}『『{OP:8020}"
+        "reference": "オカネより、{demon_name}がいーってワケー？{n}{WAIT}まー{OP:8026}♡{OP:8020}{n}豪速球なヒト{OP:8026}♡♡{OP:8020}",
+        "translation": "You want {demon_name} more than money?{WAIT} Oh my!{OP:8026}{heart_symbol}{OP:8020} Talk about a fastball!{OP:8026}{heart_symbol}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0514": {
@@ -3294,14 +3294,14 @@
     },
     "dialogue_0515": {
       "text": {
-        "reference": "ありのままのキミが、{BEAT}見{BEAT}た{BEAT}い{BEAT}ナー{BEAT}{OP:8026}『{OP:8020}{n}{WAIT}服、{BEAT}脱いでよ……{OP:8026}『{OP:8020}",
-        "translation": "I wanna{BEAT} see{BEAT} the{BEAT} real{BEAT} you!{BEAT}{OP:8026}『{OP:8020}{WAIT} Take{BEAT} off your clothes...{OP:8026}『{OP:8020}"
+        "reference": "ありのままのキミが、{BEAT}見{BEAT}た{BEAT}い{BEAT}ナー{BEAT}{OP:8026}♡{OP:8020}{n}{WAIT}服、{BEAT}脱いでよ……{OP:8026}♡{OP:8020}",
+        "translation": "I wanna{BEAT} see{BEAT} the{BEAT} real{BEAT} you!{BEAT}{OP:8026}{heart_symbol}{OP:8020}{WAIT} Take{BEAT} off your clothes...{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0516": {
       "text": {
-        "reference": "このイミ、わかるでしょ{OP:8026}『『{OP:8020}",
-        "translation": "You know what I mean!{OP:8026}『『{OP:8020}"
+        "reference": "このイミ、わかるでしょ{OP:8026}♡♡{OP:8020}",
+        "translation": "You know what I mean!{OP:8026}{heart_symbol}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0517": {
@@ -3321,20 +3321,20 @@
         "demon_name": "demon_name"
       },
       "text": {
-        "reference": "まー、スッゴーイ{OP:8026}『{OP:8020}{n}{WAIT}いーわ。{n}{demon_name}は、キミのモノよ{OP:8026}『{OP:8020}",
-        "translation": "Oh my, amazing!{OP:8026}『{OP:8020}{WAIT} Fine. {demon_name} belongs to you!{OP:8026}『{OP:8020}"
+        "reference": "まー、スッゴーイ{OP:8026}♡{OP:8020}{n}{WAIT}いーわ。{n}{demon_name}は、キミのモノよ{OP:8026}♡{OP:8020}",
+        "translation": "Oh my, amazing!{OP:8026}{heart_symbol}{OP:8020}{WAIT} Fine. {demon_name} belongs to you!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0520": {
       "text": {
-        "reference": "まー、スッゴーイ{OP:8026}『{OP:8020}{n}まだよ、アセッちゃダーメー{OP:8026}『{OP:8020}",
-        "translation": "Oh my, amazing!{OP:8026}『{OP:8020} Not yet. Don't rush!{OP:8026}『{OP:8020}"
+        "reference": "まー、スッゴーイ{OP:8026}♡{OP:8020}{n}まだよ、アセッちゃダーメー{OP:8026}♡{OP:8020}",
+        "translation": "Oh my, amazing!{OP:8026}{heart_symbol}{OP:8020} Not yet. Don't rush!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0521": {
       "text": {
-        "reference": "まー、スッゴーイ{OP:8026}『{OP:8020}{n}{WAIT}じゃ、ハジメましょーか{OP:8026}『『{OP:8020}",
-        "translation": "Oh my, amazing!{OP:8026}『{OP:8020}{WAIT} Then let's begin!{OP:8026}『『{OP:8020}"
+        "reference": "まー、スッゴーイ{OP:8026}♡{OP:8020}{n}{WAIT}じゃ、ハジメましょーか{OP:8026}♡♡{OP:8020}",
+        "translation": "Oh my, amazing!{OP:8026}{heart_symbol}{OP:8020}{WAIT} Then let's begin!{OP:8026}{heart_symbol}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0522": {
@@ -3363,14 +3363,14 @@
     },
     "dialogue_0526": {
       "text": {
-        "reference": "キミ、よく見るとさー。{n}ケッコー、カッコイーじゃん{OP:8026}『{OP:8020}",
-        "translation": "Looking closer, you're pretty handsome!{OP:8026}『{OP:8020}"
+        "reference": "キミ、よく見るとさー。{n}ケッコー、カッコイーじゃん{OP:8026}♡{OP:8020}",
+        "translation": "Looking closer, you're pretty handsome!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0527": {
       "text": {
-        "reference": "こっち来て、もっとよくカオ見してよー{OP:8026}『{OP:8020}",
-        "translation": "Come closer and let me see your face!{OP:8026}『{OP:8020}"
+        "reference": "こっち来て、もっとよくカオ見してよー{OP:8026}♡{OP:8020}",
+        "translation": "Come closer and let me see your face!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0528": {
@@ -3387,25 +3387,25 @@
     },
     "dialogue_0530": {
       "text": {
-        "reference": "へー。{n}ユーキもあるじゃん{maru_symbol}{n}{WAIT}カーッコイー{OP:8026}『{OP:8020}",
-        "translation": "Huh. You've got courage too!{WAIT} So cool!{OP:8026}『{OP:8020}"
+        "reference": "へー。{n}ユーキもあるじゃん{happy_symbol}{n}{WAIT}カーッコイー{OP:8026}♡{OP:8020}",
+        "translation": "Huh. You've got courage too!{WAIT} So cool!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0531": {
       "text": {
-        "reference": "アタシ、ナンパされちゃおっかナー{maru_symbol}",
+        "reference": "アタシ、ナンパされちゃおっかナー{happy_symbol}",
         "translation": "Maybe I'll let you pick me up!"
       }
     },
     "dialogue_0532": {
       "text": {
-        "reference": "へー。{n}ユーキもあるじゃん{maru_symbol}{n}{WAIT}殺すには、オシイわー。",
+        "reference": "へー。{n}ユーキもあるじゃん{happy_symbol}{n}{WAIT}殺すには、オシイわー。",
         "translation": "Huh. You've got courage too!{WAIT} It'd be a shame to kill you."
       }
     },
     "dialogue_0533": {
       "text": {
-        "reference": "へー。{n}ユーキもあるじゃん{maru_symbol}{n}{WAIT}殺すには、オシかったかもー。",
+        "reference": "へー。{n}ユーキもあるじゃん{happy_symbol}{n}{WAIT}殺すには、オシかったかもー。",
         "translation": "Huh. You've got courage too!{WAIT} Maybe it was a shame to kill you."
       }
     },
@@ -3426,8 +3426,8 @@
     },
     "dialogue_0536": {
       "text": {
-        "reference": "タベちゃいたい{OP:8026}『{OP:8020}",
-        "translation": "I could just eat you up!{OP:8026}『{OP:8020}"
+        "reference": "タベちゃいたい{OP:8026}♡{OP:8020}",
+        "translation": "I could just eat you up!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0537": {
@@ -3471,8 +3471,8 @@
     },
     "dialogue_0543": {
       "text": {
-        "reference": "アタシが入って、{n}サンカクカンケーってのも、タノシそーね{OP:8026}『{OP:8020}{n}キャハハ。",
-        "translation": "Maybe I'll join you and make it a love triangle!{OP:8026}『{OP:8020} Ah-ha-ha!"
+        "reference": "アタシが入って、{n}サンカクカンケーってのも、タノシそーね{OP:8026}♡{OP:8020}{n}キャハハ。",
+        "translation": "Maybe I'll join you and make it a love triangle!{OP:8026}{heart_symbol}{OP:8020} Ah-ha-ha!"
       }
     },
     "dialogue_0544": {
@@ -3528,7 +3528,7 @@
     },
     "dialogue_0552": {
       "text": {
-        "reference": "キャハハハ。{n}ナカマ割れー！？{n}{WAIT}手伝ったげよーねー{maru_symbol}",
+        "reference": "キャハハハ。{n}ナカマ割れー！？{n}{WAIT}手伝ったげよーねー{happy_symbol}",
         "translation": "Ah-ha-ha! A lovers' quarrel?{WAIT} I'll help!"
       }
     },
@@ -3594,8 +3594,8 @@
     },
     "dialogue_0562": {
       "text": {
-        "reference": "だれにも言わないでー{OP:8026}『{OP:8020}{n}オネガーイ！！",
-        "translation": "Don't tell anyone!{OP:8026}『{OP:8020} Please!"
+        "reference": "だれにも言わないでー{OP:8026}♡{OP:8020}{n}オネガーイ！！",
+        "translation": "Don't tell anyone!{OP:8026}{heart_symbol}{OP:8020} Please!"
       }
     },
     "dialogue_0563": {
@@ -3652,14 +3652,14 @@
     },
     "dialogue_0571": {
       "text": {
-        "reference": "刺してやりたいヤツ、死ぬほどいるワケー{maru_symbol}{n}{WAIT}2人で、ナニもかも壊してやろーよ！！",
+        "reference": "刺してやりたいヤツ、死ぬほどいるワケー{happy_symbol}{n}{WAIT}2人で、ナニもかも壊してやろーよ！！",
         "translation": "more people than I can count that I wanna stab!{WAIT} Let's destroy everything together!",
         "note": "Fragment context: message 459 page 1 completes \"{demon_name} has...\" on page 0 (dialogue_0570)."
       }
     },
     "dialogue_0572": {
       "text": {
-        "reference": "刺してやりたいヤツ、死ぬほどいるワケー{maru_symbol}{n}{WAIT}アンタとか、{WAIT}アンタとか、{n}{WAIT}アンタとかー！！",
+        "reference": "刺してやりたいヤツ、死ぬほどいるワケー{happy_symbol}{n}{WAIT}アンタとか、{WAIT}アンタとか、{n}{WAIT}アンタとかー！！",
         "translation": "more people than I can count that I wanna stab!{WAIT} You,{WAIT} you,{WAIT} and you!",
         "note": "Fragment context: message 460 page 1 completes \"{demon_name} has...\" on page 0 (dialogue_0570)."
       }
@@ -3720,8 +3720,8 @@
     },
     "dialogue_0581": {
       "text": {
-        "reference": "んー…{n}どーしょっかなー{OP:8026}『{OP:8020}{n}{BEAT}とりあえずー。",
-        "translation": "Hmm... What should I do?{OP:8026}『{OP:8020}{BEAT} For now..."
+        "reference": "んー…{n}どーしょっかなー{OP:8026}♡{OP:8020}{n}{BEAT}とりあえずー。",
+        "translation": "Hmm... What should I do?{OP:8026}{heart_symbol}{OP:8020}{BEAT} For now..."
       }
     },
     "dialogue_0582": {
@@ -3729,8 +3729,8 @@
         "requested_item": "item_name"
       },
       "text": {
-        "reference": "{requested_item}、ちょーだい{OP:8026}『{OP:8020}",
-        "translation": "Give me {requested_item}!{OP:8026}『{OP:8020}"
+        "reference": "{requested_item}、ちょーだい{OP:8026}♡{OP:8020}",
+        "translation": "Give me {requested_item}!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0583": {
@@ -3747,14 +3747,14 @@
     },
     "dialogue_0585": {
       "text": {
-        "reference": "んー…{n}{BEAT}つー{BEAT}ぎー{BEAT}はー{BEAT}{OP:8026}『{OP:8020}",
-        "translation": "Hmm...{BEAT} Next{BEAT} up{BEAT} is!{BEAT}{OP:8026}『{OP:8020}"
+        "reference": "んー…{n}{BEAT}つー{BEAT}ぎー{BEAT}はー{BEAT}{OP:8026}♡{OP:8020}",
+        "translation": "Hmm...{BEAT} Next{BEAT} up{BEAT} is!{BEAT}{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0586": {
       "text": {
-        "reference": "んー…{n}じゃーあー{OP:8026}『{OP:8020}",
-        "translation": "Hmm... Then!{OP:8026}『{OP:8020}"
+        "reference": "んー…{n}じゃーあー{OP:8026}♡{OP:8020}",
+        "translation": "Hmm... Then!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0587": {
@@ -3818,8 +3818,8 @@
         "race": "demon_race"
       },
       "text": {
-        "reference": "アタシー、{n}{race}、{demon_name}。{n}{BEAT}よろしくね、サマナーさん{OP:8026}『{OP:8020}",
-        "translation": "I'm {race} {demon_name}.{BEAT} Nice to meet you, Summoner!{OP:8026}『{OP:8020}",
+        "reference": "アタシー、{n}{race}、{demon_name}。{n}{BEAT}よろしくね、サマナーさん{OP:8026}♡{OP:8020}",
+        "translation": "I'm {race} {demon_name}.{BEAT} Nice to meet you, Summoner!{OP:8026}{heart_symbol}{OP:8020}",
         "note": "Fragment context: message 478 page 1 completes page 0 (dialogue_0595); this record also owns the standalone message 490."
       }
     },
@@ -3834,14 +3834,14 @@
         "demon_name": "demon_name"
       },
       "text": {
-        "reference": "{demon_name}のかわりにさー。{n}だれかクビにしてー{OP:8026}『{OP:8020}{n}それまで、ヒマつぶしてるわー。{n}んじゃねー{OP:8026}『{OP:8020}",
-        "translation": "Kick somebody out for {demon_name}!{OP:8026}『{OP:8020} I'll kill time until then. Bye!{OP:8026}『{OP:8020}"
+        "reference": "{demon_name}のかわりにさー。{n}だれかクビにしてー{OP:8026}♡{OP:8020}{n}それまで、ヒマつぶしてるわー。{n}んじゃねー{OP:8026}♡{OP:8020}",
+        "translation": "Kick somebody out for {demon_name}!{OP:8026}{heart_symbol}{OP:8020} I'll kill time until then. Bye!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0599": {
       "text": {
-        "reference": "ま。{n}このへんで、ユルしてやっか。{n}{WAIT}じゃー、これとコーカンね{OP:8026}『{OP:8020}",
-        "translation": "Fine. I'll let you off here.{WAIT} Trade me for this!{OP:8026}『{OP:8020}"
+        "reference": "ま。{n}このへんで、ユルしてやっか。{n}{WAIT}じゃー、これとコーカンね{OP:8026}♡{OP:8020}",
+        "translation": "Fine. I'll let you off here.{WAIT} Trade me for this!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0600": {
@@ -3849,8 +3849,8 @@
         "offered_item": "item_name"
       },
       "text": {
-        "reference": "ほら、{offered_item}。{n}アタシだと思って、大切にシテ{OP:8026}『{OP:8020}",
-        "translation": "Here, {offered_item}. Treasure it like it's me!{OP:8026}『{OP:8020}"
+        "reference": "ほら、{offered_item}。{n}アタシだと思って、大切にシテ{OP:8026}♡{OP:8020}",
+        "translation": "Here, {offered_item}. Treasure it like it's me!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0601": {
@@ -3867,8 +3867,8 @@
     },
     "dialogue_0603": {
       "text": {
-        "reference": "まとめて、もらったげるわ{OP:8026}『{OP:8020}",
-        "translation": "I'll just take it all at once!{OP:8026}『{OP:8020}"
+        "reference": "まとめて、もらったげるわ{OP:8026}♡{OP:8020}",
+        "translation": "I'll just take it all at once!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0604": {
@@ -3894,8 +3894,8 @@
         "demon_name": "demon_name"
       },
       "text": {
-        "reference": "{demon_name}のかわりにさー。{n}だれか、{BEAT}クビにしてー{OP:8026}『{OP:8020}{n}それまで、ヒマつぶしてるわー。",
-        "translation": "Kick somebody{BEAT} out for {demon_name}!{OP:8026}『{OP:8020} I'll kill time until then."
+        "reference": "{demon_name}のかわりにさー。{n}だれか、{BEAT}クビにしてー{OP:8026}♡{OP:8020}{n}それまで、ヒマつぶしてるわー。",
+        "translation": "Kick somebody{BEAT} out for {demon_name}!{OP:8026}{heart_symbol}{OP:8020} I'll kill time until then."
       }
     },
     "dialogue_0608": {
@@ -3921,8 +3921,8 @@
         "offered_item": "item_name"
       },
       "text": {
-        "reference": "かわりにさー、これ{BEAT}受け取って{OP:8026}『{OP:8020}{n}{WAIT}{offered_item}なんだケド。{n}{demon_name}の、ダイジなモノなの{OP:8026}『{OP:8020}",
-        "translation": "Take this{BEAT} instead!{OP:8026}『{OP:8020}{WAIT} It's {offered_item}, something precious to {demon_name}!{OP:8026}『{OP:8020}",
+        "reference": "かわりにさー、これ{BEAT}受け取って{OP:8026}♡{OP:8020}{n}{WAIT}{offered_item}なんだケド。{n}{demon_name}の、ダイジなモノなの{OP:8026}♡{OP:8020}",
+        "translation": "Take this{BEAT} instead!{OP:8026}{heart_symbol}{OP:8020}{WAIT} It's {offered_item}, something precious to {demon_name}!{OP:8026}{heart_symbol}{OP:8020}",
         "note": "Fragment context: this shared gift page continues refusal messages 491, 547, and 549 after page 0 (dialogue_0608); message 491 then closes with dialogue_0611."
       }
     },
@@ -3935,14 +3935,14 @@
     },
     "dialogue_0612": {
       "text": {
-        "reference": "生理的にダメなのよ、{n}{BEAT}ニンゲンのオトコって。{n}{WAIT}ゴメンね、{BEAT}あきらめて{OP:8026}『{OP:8020}",
-        "translation": "Human men just gross me out{BEAT} on a physical level.{WAIT} Sorry,{BEAT} give up on me!{OP:8026}『{OP:8020}",
+        "reference": "生理的にダメなのよ、{n}{BEAT}ニンゲンのオトコって。{n}{WAIT}ゴメンね、{BEAT}あきらめて{OP:8026}♡{OP:8020}",
+        "translation": "Human men just gross me out{BEAT} on a physical level.{WAIT} Sorry,{BEAT} give up on me!{OP:8026}{heart_symbol}{OP:8020}",
         "note": "Fragment context: message 492 page 1 completes the refusal begun on page 0 (dialogue_0608)."
       }
     },
     "dialogue_0613": {
       "text": {
-        "reference": "キモチイー夜ねー。{n}{WAIT}あー、{BEAT}もー、{BEAT}生きてるってシアワセー{maru_symbol}",
+        "reference": "キモチイー夜ねー。{n}{WAIT}あー、{BEAT}もー、{BEAT}生きてるってシアワセー{happy_symbol}",
         "translation": "What a lovely night.{WAIT} Ah,{BEAT} wow,{BEAT} being alive is wonderful!"
       }
     },
@@ -3955,8 +3955,8 @@
     },
     "dialogue_0615": {
       "text": {
-        "reference": "なんでもゆーこと聞いてアゲちゃう{OP:8026}『{OP:8020}",
-        "translation": "do anything you ask!{OP:8026}『{OP:8020}",
+        "reference": "なんでもゆーこと聞いてアゲちゃう{OP:8026}♡{OP:8020}",
+        "translation": "do anything you ask!{OP:8026}{heart_symbol}{OP:8020}",
         "note": "Message 494 leads into message 495: “I'll make a special exception and... / do anything you ask!”"
       }
     },
@@ -3986,8 +3986,8 @@
     },
     "dialogue_0620": {
       "text": {
-        "reference": "じゃー、{BEAT}アタシを{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}『{OP:8020}",
-        "translation": "Then{BEAT} I'll{BEAT} give{BEAT} you{BEAT} me!{BEAT}{OP:8026}『{OP:8020}"
+        "reference": "じゃー、{BEAT}アタシを{BEAT}ア{BEAT}ゲ{BEAT}ル{BEAT}{OP:8026}♡{OP:8020}",
+        "translation": "Then{BEAT} I'll{BEAT} give{BEAT} you{BEAT} me!{BEAT}{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0621": {
@@ -4055,8 +4055,8 @@
         "offered_item": "item_name"
       },
       "text": {
-        "reference": "{offered_item}でいーい？{n}…って、{BEAT}モンクは言わせないわよっ！{n}{WAIT}んじゃねー、ビンボーさん{OP:8026}『{OP:8020}",
-        "translation": "Is {offered_item} okay? ...And no complaining!{BEAT}{WAIT} See you, broke boy!{OP:8026}『{OP:8020}"
+        "reference": "{offered_item}でいーい？{n}…って、{BEAT}モンクは言わせないわよっ！{n}{WAIT}んじゃねー、ビンボーさん{OP:8026}♡{OP:8020}",
+        "translation": "Is {offered_item} okay? ...And no complaining!{BEAT}{WAIT} See you, broke boy!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0631": {
@@ -4088,8 +4088,8 @@
         "demon_name": "demon_name"
       },
       "text": {
-        "reference": "じゃー。{n}{demon_name}のオネガイ、{BEAT}聞{BEAT}い{BEAT}て{OP:8026}『{OP:8020}",
-        "translation": "Then hear{BEAT} {demon_name}'s{BEAT} re{BEAT}quest!{OP:8026}『{OP:8020}"
+        "reference": "じゃー。{n}{demon_name}のオネガイ、{BEAT}聞{BEAT}い{BEAT}て{OP:8026}♡{OP:8020}",
+        "translation": "Then hear{BEAT} {demon_name}'s{BEAT} re{BEAT}quest!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0636": {
@@ -4219,8 +4219,8 @@
         "offered_item": "item_name"
       },
       "text": {
-        "reference": "マジんなるコト、ないじゃん。{n}{WAIT}{offered_item}アゲルから、{n}{BEAT}ユルして、{BEAT}オネガーイ{OP:8026}『{OP:8020}",
-        "translation": "Don't take it so seriously.{WAIT} I'll give you {offered_item},{BEAT} so forgive me,{BEAT} please!{OP:8026}『{OP:8020}"
+        "reference": "マジんなるコト、ないじゃん。{n}{WAIT}{offered_item}アゲルから、{n}{BEAT}ユルして、{BEAT}オネガーイ{OP:8026}♡{OP:8020}",
+        "translation": "Don't take it so seriously.{WAIT} I'll give you {offered_item},{BEAT} so forgive me,{BEAT} please!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0657": {
@@ -4295,8 +4295,8 @@
     },
     "dialogue_0668": {
       "text": {
-        "reference": "ジブンカッテで、ゴメンね。{n}アタシのコトは、あきらめて{OP:8026}『{OP:8020}",
-        "translation": "Sorry for being selfish. Give up on me!{OP:8026}『{OP:8020}",
+        "reference": "ジブンカッテで、ゴメンね。{n}アタシのコトは、あきらめて{OP:8026}♡{OP:8020}",
+        "translation": "Sorry for being selfish. Give up on me!{OP:8026}{heart_symbol}{OP:8020}",
         "note": "Fragment context: message 548 page 2 closes the refusal begun on page 0 (dialogue_0608) and explained on page 1 (dialogue_0667)."
       }
     },
@@ -4309,15 +4309,15 @@
     },
     "dialogue_0670": {
       "text": {
-        "reference": "もっとタクマシくなってから、誘って{OP:8026}『{OP:8020}",
-        "translation": "Ask me again when you're tougher!{OP:8026}『{OP:8020}",
+        "reference": "もっとタクマシくなってから、誘って{OP:8026}♡{OP:8020}",
+        "translation": "Ask me again when you're tougher!{OP:8026}{heart_symbol}{OP:8020}",
         "note": "Fragment context: message 549 page 3 closes the refusal begun on page 0 (dialogue_0608) and explained on page 1 (dialogue_0669)."
       }
     },
     "dialogue_0671": {
       "text": {
-        "reference": "だってー…{n}{BEAT}キミ、頼りなさそーなんだもん。{n}{WAIT}もっとタクマシくなってから、誘って{OP:8026}『{OP:8020}",
-        "translation": "Because...{BEAT} you don't look dependable.{WAIT} Ask me again when you're tougher!{OP:8026}『{OP:8020}",
+        "reference": "だってー…{n}{BEAT}キミ、頼りなさそーなんだもん。{n}{WAIT}もっとタクマシくなってから、誘って{OP:8026}♡{OP:8020}",
+        "translation": "Because...{BEAT} you don't look dependable.{WAIT} Ask me again when you're tougher!{OP:8026}{heart_symbol}{OP:8020}",
         "note": "Fragment context: message 550 page 1 completes the refusal begun on page 0 (dialogue_0608)."
       }
     },
@@ -4338,8 +4338,8 @@
     },
     "dialogue_0674": {
       "text": {
-        "reference": "キャーーーーッ！！{n}{WAIT}ゴメンなさい、{BEAT}ゴメンなさい…{n}{BEAT}ユルして{OP:8026}『{OP:8020}",
-        "translation": "Aaaaaah!{WAIT} I'm sorry,{BEAT} I'm sorry...{BEAT} Forgive me!{OP:8026}『{OP:8020}"
+        "reference": "キャーーーーッ！！{n}{WAIT}ゴメンなさい、{BEAT}ゴメンなさい…{n}{BEAT}ユルして{OP:8026}♡{OP:8020}",
+        "translation": "Aaaaaah!{WAIT} I'm sorry,{BEAT} I'm sorry...{BEAT} Forgive me!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0675": {
@@ -4347,14 +4347,14 @@
         "offered_item": "item_name"
       },
       "text": {
-        "reference": "{offered_item}、アゲルから…{n}{WAIT}ね{OP:8026}『{OP:8020}{BEAT}ね{OP:8026}『{OP:8020}",
-        "translation": "I'll give you {offered_item}...{WAIT} Please!{OP:8026}『{OP:8020}{BEAT} Please!{OP:8026}『{OP:8020}"
+        "reference": "{offered_item}、アゲルから…{n}{WAIT}ね{OP:8026}♡{OP:8020}{BEAT}ね{OP:8026}♡{OP:8020}",
+        "translation": "I'll give you {offered_item}...{WAIT} Please!{OP:8026}{heart_symbol}{OP:8020}{BEAT} Please!{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "condition_charmed": {
       "text": {
-        "reference": "アタシだけを 見つめて『",
-        "translation": "Look only at me!『",
+        "reference": "アタシだけを 見つめて♡",
+        "translation": "Look only at me!{heart_symbol}",
         "reviewed": true
       }
     },

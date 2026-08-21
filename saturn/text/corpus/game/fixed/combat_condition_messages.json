@@ -11,7 +11,7 @@
     "id": "game.combat_condition_messages.o054588.text",
     "source_encoding": "game_font16_plain_separator_space",
     "output_encoding": "",
-    "reference": "クーン クーン{maru_symbol}",
+    "reference": "クーン クーン{happy_symbol}",
     "translation": "",
     "note": ""
   },
@@ -43,7 +43,7 @@
     "id": "game.combat_condition_messages.o054638.text",
     "source_encoding": "game_font16_plain_separator_space",
     "output_encoding": "",
-    "reference": "おまえって ほんと最高 いい奴だよな{GLYPH:010d}",
+    "reference": "おまえって ほんと最高 いい奴だよな−",
     "translation": "",
     "note": ""
   },
@@ -51,7 +51,7 @@
     "id": "game.combat_condition_messages.o054664.text",
     "source_encoding": "game_font16_plain_separator_space",
     "output_encoding": "",
-    "reference": "アタシだけを 見つめて『",
+    "reference": "アタシだけを 見つめて♡",
     "translation": "",
     "note": ""
   },
@@ -75,7 +75,7 @@
     "id": "game.combat_condition_messages.o0546e8.text",
     "source_encoding": "game_font16_plain_separator_space",
     "output_encoding": "",
-    "reference": "アタシは あなたのもの…好きにして『",
+    "reference": "アタシは あなたのもの…好きにして♡",
     "translation": "",
     "note": ""
   },
@@ -91,7 +91,7 @@
     "id": "game.combat_condition_messages.o054740.text",
     "source_encoding": "game_font16_plain_separator_space",
     "output_encoding": "",
-    "reference": "もう おまえさんしか見えないんじゃァ『",
+    "reference": "もう おまえさんしか見えないんじゃァ♡",
     "translation": "",
     "note": ""
   },
@@ -139,7 +139,7 @@
     "id": "game.combat_condition_messages.o054848.text",
     "source_encoding": "game_font16_plain_separator_space",
     "output_encoding": "",
-    "reference": "ヌウ・・・オレサマ ウキウキ{maru_symbol}",
+    "reference": "ヌウ・・・オレサマ ウキウキ{happy_symbol}",
     "translation": "",
     "note": ""
   },
@@ -171,7 +171,7 @@
     "id": "game.combat_condition_messages.o0548f8.text",
     "source_encoding": "game_font16_plain_separator_space",
     "output_encoding": "",
-    "reference": "いや{GLYPH:010d} マジ気分最高だな{GLYPH:010d} へっへ{GLYPH:010d}！",
+    "reference": "いや− マジ気分最高だな− へっへ−！",
     "translation": "",
     "note": ""
   },
@@ -195,7 +195,7 @@
     "id": "game.combat_condition_messages.o05497c.text",
     "source_encoding": "game_font16_plain_separator_space",
     "output_encoding": "",
-    "reference": "あははは なんかぁ 笑いがとまらなぁい{maru_symbol}",
+    "reference": "あははは なんかぁ 笑いがとまらなぁい{happy_symbol}",
     "translation": "",
     "note": ""
   },
@@ -299,7 +299,7 @@
     "id": "game.combat_condition_messages.o054bb8.text",
     "source_encoding": "game_font16_plain_separator_space",
     "output_encoding": "",
-    "reference": "あん？ ここどこだ{GLYPH:010d}？ 何だ おまえ？",
+    "reference": "あん？ ここどこだ−？ 何だ おまえ？",
     "translation": "",
     "note": ""
   },
@@ -323,7 +323,7 @@
     "id": "game.combat_condition_messages.o054c3c.text",
     "source_encoding": "game_font16_plain_separator_space",
     "output_encoding": "",
-    "reference": "あははは おじちゃん へんなかお～{maru_symbol}",
+    "reference": "あははは おじちゃん へんなかお～{happy_symbol}",
     "translation": "",
     "note": ""
   },
@@ -371,7 +371,7 @@
     "id": "game.combat_condition_messages.o054d44.text",
     "source_encoding": "game_font16_plain_separator_space",
     "output_encoding": "",
-    "reference": "ゴンゲ{maru_symbol}レゲレレレヂベ♂ンバェェ！！",
+    "reference": "ゴンゲ{happy_symbol}レゲレレレヂベ♂ンバェェ！！",
     "translation": "",
     "note": ""
   },
@@ -427,7 +427,7 @@
     "id": "game.combat_condition_messages.o054e78.text",
     "source_encoding": "game_font16_plain_separator_space",
     "output_encoding": "",
-    "reference": "もう おまえと話すことなんか ね{GLYPH:010d}よ！！",
+    "reference": "もう おまえと話すことなんか ね−よ！！",
     "translation": "",
     "note": ""
   },
@@ -451,7 +451,7 @@
     "id": "game.combat_condition_messages.o054efc.text",
     "source_encoding": "game_font16_plain_separator_space",
     "output_encoding": "",
-    "reference": "おじちゃん 死刑ぇ～{maru_symbol}",
+    "reference": "おじちゃん 死刑ぇ～{happy_symbol}",
     "translation": "",
     "note": ""
   },
@@ -683,7 +683,7 @@
     "id": "game.combat_condition_messages.o0553f8.text",
     "source_encoding": "game_font16_plain_separator_space",
     "output_encoding": "",
-    "reference": "つまんね{GLYPH:010d}ヤツだから 構うことね{GLYPH:010d}よ！！",
+    "reference": "つまんね−ヤツだから 構うことね−よ！！",
     "translation": "",
     "note": ""
   },
@@ -707,7 +707,7 @@
     "id": "game.combat_condition_messages.o05547c.text",
     "source_encoding": "game_font16_plain_separator_space",
     "output_encoding": "",
-    "reference": "早く 血ぃ出そぉ 出そぉ～{maru_symbol}",
+    "reference": "早く 血ぃ出そぉ 出そぉ～{happy_symbol}",
     "translation": "",
     "note": ""
   },
@@ -811,7 +811,7 @@
     "id": "game.combat_condition_messages.o0556b8.text",
     "source_encoding": "game_font16_plain_separator_space",
     "output_encoding": "",
-    "reference": "こんな明るい夜は どっか遊び 行きて{GLYPH:010d}な",
+    "reference": "こんな明るい夜は どっか遊び 行きて−な",
     "translation": "",
     "note": ""
   },
@@ -899,7 +899,7 @@
     "id": "game.combat_condition_messages.o05589c.text",
     "source_encoding": "game_font16_plain_separator_space",
     "output_encoding": "",
-    "reference": "COMP SIGNAL{GLYPH:010d}＞「HAPPY」",
+    "reference": "COMP SIGNAL−＞「HAPPY」",
     "translation": "",
     "note": ""
   }

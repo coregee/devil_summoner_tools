@@ -47,7 +47,15 @@ COMBAT_NAMED_WORDS = {
     "yen_symbol": 0x00C0,
     "mag_symbol": 0x00C1,
     "white_square": 0x00C0,
+    "square_symbol": 0x00C0,
+    "heart_symbol": 0x0105,
+    "happy_symbol": 0x0106,
     "maru_symbol": 0x0106,
+    "circle_symbol": 0x010A,
+    "latin_space": 0x010B,
+    "plus_symbol": 0x010C,
+    "minus_symbol": 0x010D,
+    "times_symbol": 0x010E,
 }
 COMBAT_INSERT_WIDTHS = {
     0x8010: 8 * 16,
@@ -103,11 +111,11 @@ def _text_codes(value: str, metrics: FontMetrics) -> list[int]:
         if literal is None:
             continue
         if start < position:
-            output.extend(glyph.code for glyph in metrics.segment(value[start:position]))
+            output.extend(glyph.code for glyph in metrics.segment_output(value[start:position]))
         output.append(literal)
         start = position + 1
     if start < len(value):
-        output.extend(glyph.code for glyph in metrics.segment(value[start:]))
+        output.extend(glyph.code for glyph in metrics.segment_output(value[start:]))
     return output
 
 

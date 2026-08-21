@@ -127,7 +127,7 @@ class DemonAssetInventoryTests(unittest.TestCase):
             if "akuma_zensho" in field.variants
         ]
         self.assertEqual(len(psp_variants), 160)
-        self.assertEqual(len(zensho_variants), 5)
+        self.assertEqual(len(zensho_variants), 0)
         self.assertEqual(
             sum(
                 "psp" in entry.fields["name"].variants
@@ -152,8 +152,8 @@ class DemonAssetInventoryTests(unittest.TestCase):
         self.assertFalse(reviewed)
 
         amon = self.catalog.entries["amon_ra"].fields["name"]
-        self.assertEqual(amon.resolve("akuma_zensho")[0], "アメン・ラー")
-        self.assertEqual(amon.resolve("akuma_zensho")[1], "Amon-Ra")
+        self.assertEqual(amon.reference, "アメン・ラー")
+        self.assertEqual(amon.translation, "Amon-Ra")
 
     def test_psp_repurposed_entities_do_not_alias_saturn_reserves(self) -> None:
         self.assertTrue(PSP_ONLY_KEYS <= set(self.catalog.entries))
@@ -196,13 +196,7 @@ class DemonAssetInventoryTests(unittest.TestCase):
         game_ids = {row["id"] for row in game_rows}
         zensho_ids = {row["id"] for row in zensho_rows}
         self.assertEqual(set(self.name_binding.records), game_ids | zensho_ids)
-        self.assertEqual(len(self.name_binding.variants), 5)
-        self.assertTrue(
-            all(
-                physical_id.startswith("compendium.demon_names.")
-                for physical_id in self.name_binding.variants
-            )
-        )
+        self.assertFalse(self.name_binding.variants)
 
         game_targets = [self.name_binding.records[row["id"]] for row in game_rows]
         duplicate_targets = {
@@ -235,6 +229,7 @@ class DemonAssetInventoryTests(unittest.TestCase):
             {
                 "0026": "e",
                 "0029": "a",
+                "002c": "p",
                 "002d": "e",
                 "002f": "a",
                 "026e": "木",

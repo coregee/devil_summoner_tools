@@ -269,7 +269,7 @@ def _encode_font8(
     *,
     max_bytes: int = 31,
 ) -> bytes:
-    glyphs = metrics.segment(text)
+    glyphs = metrics.segment_output(text)
     encoded = bytes(glyph.code for glyph in glyphs)
     pixels = sum(glyph.advance for glyph in glyphs)
     if len(encoded) > max_bytes or pixels > max_pixels:
@@ -394,7 +394,7 @@ def _packed_debug_field(
     context: str,
 ) -> bytes:
     try:
-        codes = [glyph.code for glyph in metrics.segment(text)]
+        codes = [glyph.code for glyph in metrics.segment_output(text)]
         encoded = pack_direct_codes(codes)
     except (KeyError, ValueError) as error:
         raise ValueError(f"{context} cannot be encoded: {text!r}") from error
@@ -432,7 +432,7 @@ def _fixed_field_payloads(metrics: FontMetrics) -> dict[str, bytes]:
         ("game.normcom_tables.races.",), required_ids={uma_id}
     )[uma_id]
     try:
-        uma_codes = tuple(glyph.code for glyph in metrics.segment(uma_text))
+        uma_codes = tuple(glyph.code for glyph in metrics.segment_output(uma_text))
     except ValueError as error:
         raise ValueError(f"COMBAT Uma compatibility row cannot encode {uma_text!r}") from error
     # This stock table is a dead compatibility mirror after the live race

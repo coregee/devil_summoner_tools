@@ -20,7 +20,7 @@ def _encode_name(
     metrics: FontMetrics,
     context: str,
 ) -> tuple[bytes, int]:
-    glyphs = metrics.segment(value)
+    glyphs = metrics.segment_output(value)
     encoded = bytes(glyph.code for glyph in glyphs)
     pixels = sum(glyph.advance for glyph in glyphs)
     if pixels > PANEL_MAX_PIXELS:

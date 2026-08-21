@@ -10,7 +10,8 @@
       "axis_label": {
         "reference": "L",
         "translation": "L",
-        "note": "DA_3D retail shares this physical L record with Light; the authored fields remain independent so the engine can split the Light source when their translations differ."
+        "note": "DA_3D retail shares this physical L record with Light; the authored fields remain independent so the engine can split the Light source when their translations differ.",
+        "font8_alphabet": "original"
       }
     },
     "neutral": {
@@ -20,7 +21,8 @@
       },
       "axis_label": {
         "reference": "N",
-        "translation": "N"
+        "translation": "N",
+        "font8_alphabet": "original"
       }
     },
     "chaos": {
@@ -30,7 +32,8 @@
       },
       "axis_label": {
         "reference": "C",
-        "translation": "C"
+        "translation": "C",
+        "font8_alphabet": "original"
       }
     },
     "light": {
@@ -43,7 +46,8 @@
     "dark": {
       "axis_label": {
         "reference": "D",
-        "translation": "D"
+        "translation": "D",
+        "font8_alphabet": "original"
       }
     }
   }

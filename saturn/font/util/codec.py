@@ -219,7 +219,11 @@ def _ink_advance(
     return min(definition.format.width, max(occupied) + 2)
 
 
-def _metrics_json(definition: FontDefinition, advances: dict[int, int]) -> str | None:
+def _metrics_json(
+    definition: FontDefinition,
+    advances: dict[int, int],
+    data: bytes | bytearray,
+) -> str | None:
     metrics = definition.metrics
     if metrics is None:
         return None
@@ -265,6 +269,12 @@ def _metrics_json(definition: FontDefinition, advances: dict[int, int]) -> str |
                     "text": character,
                     "code": code,
                     "advance": advances[code],
+                    "ink_left": (
+                        bounds[0] if (bounds := decode_glyph(
+                            data, definition.format, code
+                        ).getbbox()) is not None else 0
+                    ),
+                    "ink_right": bounds[2] if bounds is not None else 0,
                 }
                 for character, code in sorted(
                     references.items(), key=lambda item: item[1]
@@ -348,5 +358,5 @@ def repack_font(source_data: bytes, definition: FontDefinition) -> RepackedFont:
     return RepackedFont(
         data=bytes(output),
         atlas=render_atlas(output, definition),
-        metrics=_metrics_json(definition, advances),
+        metrics=_metrics_json(definition, advances, output),
     )

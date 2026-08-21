@@ -79,6 +79,7 @@ class FontDefinition:
     atlas: AtlasOptions
     glyphs: dict[int, str]
     replacements: dict[int, str]
+    source_consumers: dict[str, tuple[str, ...]]
     reference_sets: dict[str, dict[str, int]]
     source_font: Path | None
     source_sha256: str | None
@@ -291,6 +292,35 @@ def _reference_sets(
     return output
 
 
+def _source_consumers(
+    value: Any,
+    glyphs: dict[int, str],
+    context: str,
+) -> dict[str, tuple[str, ...]]:
+    if value is None:
+        return {}
+    if not isinstance(value, dict):
+        raise ValueError(f"{context} must be an object")
+    known = set(glyphs.values())
+    output: dict[str, tuple[str, ...]] = {}
+    for name, raw_glyphs in value.items():
+        if not isinstance(name, str) or _REFERENCE_SET_RE.fullmatch(name) is None:
+            raise ValueError(f"{context} names must be lowercase identifiers")
+        if (
+            not isinstance(raw_glyphs, list)
+            or not raw_glyphs
+            or not all(isinstance(glyph, str) and glyph for glyph in raw_glyphs)
+        ):
+            raise ValueError(f"{context}.{name} must be a nonempty glyph array")
+        unknown = [glyph for glyph in raw_glyphs if glyph not in known]
+        if unknown:
+            raise ValueError(
+                f"{context}.{name} references unknown source glyph {unknown[0]!r}"
+            )
+        output[name] = tuple(raw_glyphs)
+    return output
+
+
 def load_definition(path: Path, disc: str) -> FontDefinition:
     if disc not in DISC_IDS:
         raise ValueError(f"unsupported disc {disc!r}")
@@ -363,6 +393,11 @@ def load_definition(path: Path, disc: str) -> FontDefinition:
     )
     glyphs, replacements = _atlas_mappings(
         atlas_data.get("groups"), f"{path}.atlas.groups"
+    )
+    source_consumers = _source_consumers(
+        data.get("source_consumers"),
+        glyphs,
+        f"{path}.source_consumers",
     )
     reference_sets = _reference_sets(
         data.get("reference_sets", {}),
@@ -455,6 +490,7 @@ def load_definition(path: Path, disc: str) -> FontDefinition:
         atlas=atlas,
         glyphs=glyphs,
         replacements=replacements,
+        source_consumers=source_consumers,
         reference_sets=reference_sets,
         source_font=source_font,
         source_sha256=source_digest,

@@ -5,31 +5,41 @@
     "command_all": {
       "text": {
         "reference": "ALL",
-        "translation": "ALL"
+        "translation": "ALL",
+        "font8_alphabet": "original"
       }
     },
     "command_heal": {
       "text": {
         "reference": "HEAL",
-        "translation": "HEAL"
+        "translation": "HEAL",
+        "font8_alphabet": "original"
       }
     },
     "command_cure": {
       "text": {
         "reference": "CURE",
-        "translation": "CURE"
+        "translation": "CURE",
+        "font8_alphabet": "original"
       }
     },
     "command_curse": {
       "text": {
         "reference": "CURSE",
-        "translation": "CURSE"
+        "translation": "CURSE",
+        "font8_alphabet": "original"
       }
     },
     "command_revive": {
       "text": {
         "reference": "REVIVE",
-        "translation": "REVIVE"
+        "translation": "REVIVE",
+        "font8_alphabet": "original",
+        "variants": {
+          "font8_tiles": {
+            "reference": "{revive_1}{revive_2}{revive_3}{revive_4}{revive_5}{revive_6}"
+          }
+        }
       }
     },
     "line_0346": {

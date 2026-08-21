@@ -82,7 +82,7 @@
     },
     "line_0068": {
       "text": {
-        "reference": "剣・悪魔{GLYPH:010e}2合体",
+        "reference": "剣・悪魔×2合体",
         "translation": "Sword - 2x Demon"
       }
     },
@@ -94,7 +94,7 @@
     },
     "line_0070": {
       "text": {
-        "reference": "魔晶変{GLYPH:01aa}",
+        "reference": "魔晶変化",
         "translation": "Mystic Change"
       }
     },
@@ -124,14 +124,14 @@
     },
     "line_0075": {
       "text": {
-        "reference": "火妖{GLYPH:010e}1",
-        "translation": "Fire Demon 1"
+        "reference": "火妖×1",
+        "translation": "Fire Demon x1"
       }
     },
     "line_0076": {
       "text": {
-        "reference": "火妖{GLYPH:010e}2",
-        "translation": "Fire Demon 2"
+        "reference": "火妖×2",
+        "translation": "Fire Demon x2"
       }
     },
     "line_0077": {
@@ -196,13 +196,13 @@
     },
     "line_0087": {
       "text": {
-        "reference": "LAW黄性順",
+        "reference": "LAW属性順",
         "translation": "LAW Aligned"
       }
     },
     "line_0088": {
       "text": {
-        "reference": "CHAOS黄性順",
+        "reference": "CHAOS属性順",
         "translation": "CHAOS Aligned"
       }
     },
@@ -352,7 +352,7 @@
     },
     "line_0114": {
       "text": {
-        "reference": "ヴィクトル：どの悪魔の変{GLYPH:01aa}をするんだ？",
+        "reference": "ヴィクトル：どの悪魔の変化をするんだ？",
         "translation": "Victor: Which demon will undergo Mystic Change?"
       }
     },
@@ -394,13 +394,13 @@
     },
     "line_0121": {
       "text": {
-        "reference": "ヴィクトル：どの悪魔を変{GLYPH:01aa}をするんだ？",
+        "reference": "ヴィクトル：どの悪魔を変化をするんだ？",
         "translation": "Victor: Which demon will undergo Mystic Change?"
       }
     },
     "line_0122": {
       "text": {
-        "reference": "ヴィクトル：変{GLYPH:01aa}を始めていいか？",
+        "reference": "ヴィクトル：変化を始めていいか？",
         "translation": "Victor: Shall I begin Mystic Change?"
       }
     },
@@ -472,14 +472,14 @@
     },
     "line_0134": {
       "text": {
-        "reference": "{GLYPH:010a} ……具本合体法則で悪魔が出現",
-        "translation": "{GLYPH:010a}: Basic fusion result"
+        "reference": "〇 ……基本合体法則で悪魔が出現",
+        "translation": "〇: Basic fusion result"
       }
     },
     "line_0135": {
       "text": {
-        "reference": "{GLYPH:010b} ……精霊が出現",
-        "translation": "{GLYPH:010b}: Element appears"
+        "reference": "{latin_space} ……精霊が出現",
+        "translation": "{latin_space}: Element appears"
       }
     },
     "line_0136": {
@@ -502,8 +502,8 @@
     },
     "line_0139": {
       "text": {
-        "reference": "{GLYPH:010e} ……元の悪魔が同種族で1ランクダウン",
-        "translation": "{GLYPH:010e}: Same race down one"
+        "reference": "× ……元の悪魔が同種族で1ランクダウン",
+        "translation": "×: Same race down one"
       }
     },
     "line_0140": {
@@ -526,31 +526,31 @@
     },
     "line_0143": {
       "text": {
-        "reference": "{GLYPH:010d} ……組合せが存在しない",
-        "translation": "{GLYPH:010d}: No combination"
+        "reference": "− ……組合せが存在しない",
+        "translation": "−: No combination"
       }
     },
     "line_0144": {
       "text": {
-        "reference": "青色……LAW黄性の悪魔が出現",
+        "reference": "青色……LAW属性の悪魔が出現",
         "translation": "Blue: LAW demon"
       }
     },
     "line_0145": {
       "text": {
-        "reference": "赤色……CHAOS黄性の悪魔が出現",
+        "reference": "赤色……CHAOS属性の悪魔が出現",
         "translation": "Red: CHAOS demon"
       }
     },
     "line_0146": {
       "text": {
-        "reference": "白色……NEUTRAL黄性の悪魔が出現",
+        "reference": "白色……NEUTRAL属性の悪魔が出現",
         "translation": "White: NEUTRAL demon"
       }
     },
     "line_0147": {
       "text": {
-        "reference": "2身・3身合体とも方{GLYPH:01ad}ボタンで上下左右に",
+        "reference": "2身・3身合体とも方向ボタンで上下左右に",
         "translation": "Use D-pad to scroll"
       }
     },
@@ -580,7 +580,7 @@
     },
     "line_0152": {
       "text": {
-        "reference": "以下の4つの種族名については省略物であ",
+        "reference": "以下の4つの種族名については省略形であ",
         "translation": "The chart uses these"
       }
     },
@@ -628,7 +628,7 @@
     },
     "line_0203": {
       "text": {
-        "reference": "機天",
+        "reference": "飛天",
         "translation": "Celest."
       }
     },
@@ -676,19 +676,19 @@
     },
     "line_0216": {
       "text": {
-        "reference": "{GLYPH:0117}{GLYPH:0117}",
+        "reference": "--",
         "translation": "--"
       }
     },
     "line_0217": {
       "text": {
-        "reference": "{GLYPH:0115}{GLYPH:0116}",
+        "reference": "><",
         "translation": "><"
       }
     },
     "line_0218": {
       "text": {
-        "reference": "{GLYPH:01a9}表",
+        "reference": "別表",
         "translation": "Stats"
       }
     },

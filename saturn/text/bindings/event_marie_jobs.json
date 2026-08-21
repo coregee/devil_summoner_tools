@@ -146,12 +146,35 @@
     "game.evfile_0.m0393.p00": "marie_chinatown_job_016.text",
     "game.evfile_0.m0457.p00": "marie_chinatown_job_016.text"
   },
-  "glyph_tokens": {
-    "00c0": "yen_symbol"
-  },
   "field_surfaces": {
     "text": [
       "event.dialogue"
     ]
+  },
+  "source_glyph_tokens": {
+    "game.evfile_0.m0290.p01": {
+      "▯": "yen_symbol"
+    },
+    "game.evfile_0.m0344.p00": {
+      "▯": "yen_symbol"
+    },
+    "game.evfile_0.m0351.p01": {
+      "▯": "yen_symbol"
+    },
+    "game.evfile_0.m0355.p01": {
+      "▯": "yen_symbol"
+    },
+    "game.evfile_0.m0363.p01": {
+      "▯": "yen_symbol"
+    },
+    "game.evfile_0.m0370.p01": {
+      "▯": "yen_symbol"
+    },
+    "game.evfile_0.m0377.p01": {
+      "▯": "yen_symbol"
+    },
+    "game.evfile_0.m0382.p01": {
+      "▯": "yen_symbol"
+    }
   }
 }

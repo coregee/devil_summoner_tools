@@ -389,7 +389,7 @@ def _build_runtime() -> _Runtime:
     compressed: list[str] = []
     for index, (physical_id, value) in enumerate(_bound_names()):
         try:
-            codes = tuple(glyph.code for glyph in metrics.segment(value))
+            codes = tuple(glyph.code for glyph in metrics.segment_output(value))
         except ValueError as error:
             raise ValueError(f"{physical_id}: {error}") from error
         offsets.append(len(bitmaps))

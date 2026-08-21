@@ -37,13 +37,8 @@
     "game.shopsmp.m0788.p00": "line_0569.text",
     "game.event_healing.o0168f7": "all_members.text"
   },
-  "glyph_equivalence": {
-    "da": "R",
-    "db": "E",
-    "dc": "V",
-    "dd": "I",
-    "de": "V",
-    "df": "E"
+  "variants": {
+    "game.facility_command_labels.o0425f8": "font8_tiles"
   },
   "record_surfaces": {
     "game.facility_command_labels.standard_commands.r0004": [

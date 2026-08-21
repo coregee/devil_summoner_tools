@@ -15,10 +15,14 @@
           <h1>Devil Summoner Editor</h1>
         </div>
       </div>
+      <nav class="workspace-tabs" aria-label="Editor workspaces">
+        <button id="translations-tab" class="workspace-tab active" type="button">Translations</button>
+        <button id="fonts-tab" class="workspace-tab" type="button">Fonts</button>
+      </nav>
       <div class="connection"><span></span><strong id="corpus-state">Indexing corpus…</strong></div>
     </header>
 
-    <main class="workspace">
+    <main id="translations-workspace" class="workspace">
       <aside class="browser" aria-label="Translation fields">
         <label class="search">
           <span>Search translations</span>
@@ -60,6 +64,14 @@
                 <span id="character-count">0 characters</span>
               </div>
               <textarea id="translation" class="translation" spellcheck="true"></textarea>
+
+              <div id="font8-alphabet-field">
+                <label for="font8-alphabet" class="field-label">FONT8 alphabet</label>
+                <select id="font8-alphabet">
+                  <option value="replaced">Replacement typeface (default)</option>
+                  <option value="original">Original game Latin (uppercase)</option>
+                </select>
+              </div>
 
               <div class="save-row">
                 <p id="save-state">No unsaved changes</p>
@@ -108,8 +120,179 @@
       </section>
     </main>
 
+    <main id="fonts-workspace" class="font-workspace" hidden>
+      <aside class="font-browser" aria-label="Game fonts">
+        <header>
+          <p class="kicker">Language project</p>
+          <div class="language-heading">
+            <select id="language-select" aria-label="Language project"></select>
+            <button id="edit-language" class="icon-button" type="button" title="Edit language">Edit</button>
+          </div>
+          <button id="new-language" class="secondary new-language" type="button">New language…</button>
+          <p>Choose a font to inspect and adapt for this language.</p>
+        </header>
+        <nav id="font-list" class="font-list"></nav>
+      </aside>
+
+      <section class="font-editor">
+        <div id="font-empty-state" class="empty-state font-empty-state">
+          <p class="kicker">Language support</p>
+          <h2>Select a game font</h2>
+          <p>Editable slots can be reassigned to accented letters or other characters without touching the source code.</p>
+        </div>
+
+        <div id="font-content" hidden>
+          <header class="font-heading">
+            <div>
+              <p id="font-disc" class="kicker"></p>
+              <h2 id="font-name"></h2>
+              <p id="font-description" class="font-description"></p>
+            </div>
+            <div class="font-heading-facts">
+              <span id="font-cell" class="pill"></span>
+              <span id="font-source" class="pill"></span>
+              <button id="import-font" class="secondary" type="button" hidden>Import from Font File…</button>
+              <input id="font-file" type="file" accept=".ttf,.otf,font/ttf,font/otf" hidden>
+            </div>
+          </header>
+
+          <section class="font-update-panel">
+            <div class="font-update-heading">
+              <div>
+                <p class="kicker">Corpus-driven replacement</p>
+                <h3>Update Font</h3>
+                <p>Audit every bound text surface, protect untranslated source glyphs, and assign the most-needed translated glyphs to the safest available slots.</p>
+              </div>
+              <button id="plan-font-update" type="button">Audit font</button>
+            </div>
+            <div id="font-update-empty" class="font-update-empty">Run the audit to preview every proposed replacement before changing the font.</div>
+            <div id="font-update-result" hidden>
+              <div id="font-update-stats" class="font-update-stats"></div>
+              <div id="font-update-warnings" class="font-update-warnings"></div>
+              <div class="font-update-table-wrap">
+                <table class="font-update-table">
+                  <thead><tr><th>Slot</th><th>Original source</th><th>Current</th><th>Proposed</th><th>Original uses</th><th>Required uses</th></tr></thead>
+                  <tbody id="font-update-changes"></tbody>
+                </table>
+              </div>
+              <div class="font-update-actions">
+                <p id="font-update-summary"></p>
+                <button id="apply-font-update" type="button">Apply Update Font pipeline</button>
+              </div>
+            </div>
+          </section>
+
+          <section class="atlas-comparison">
+            <header>
+              <div>
+                <p class="kicker">Style comparison</p>
+                <h3>Original and modified font</h3>
+              </div>
+              <p>Compare the game’s original bitmap atlas with the font generated for the selected language.</p>
+            </header>
+            <div class="atlas-grid">
+              <figure>
+                <figcaption>Original game font</figcaption>
+                <div class="atlas-frame"><img id="original-atlas" alt="Original game font atlas"></div>
+              </figure>
+              <figure>
+                <figcaption>Modified language font</figcaption>
+                <div class="atlas-frame"><img id="modified-atlas" alt="Modified language font atlas"></div>
+              </figure>
+            </div>
+          </section>
+
+          <section class="glyph-workspace">
+            <div class="glyph-inventory">
+              <header class="panel-heading">
+                <div>
+                  <p class="kicker">Complete physical grid</p>
+                  <h3 id="glyph-count">Glyph inventory</h3>
+                </div>
+                <input id="glyph-filter" type="search" placeholder="Find character or code">
+              </header>
+              <div class="glyph-page-controls">
+                <span id="glyph-page-summary"></span>
+                <div>
+                  <button id="previous-glyph-page" class="secondary" type="button">Previous</button>
+                  <button id="next-glyph-page" class="secondary" type="button">Next</button>
+                </div>
+              </div>
+              <div id="glyph-grid" class="glyph-grid"></div>
+            </div>
+
+            <aside class="glyph-inspector">
+              <div id="glyph-empty" class="glyph-inspector-empty">Select a character slot to edit it.</div>
+              <div id="glyph-content" hidden>
+                <p class="kicker">Selected slot</p>
+                <div>
+                  <h3 id="selected-glyph-code"></h3>
+                  <p id="selected-glyph-original"></p>
+                </div>
+                <div id="selected-glyph-pair" class="selected-glyph-pair">
+                  <figure>
+                    <div class="selected-glyph-image"><img id="selected-original-image" alt="Original game glyph"></div>
+                    <figcaption>Original</figcaption>
+                  </figure>
+                  <span id="selected-glyph-divider">/</span>
+                  <figure id="selected-current-glyph">
+                    <div class="selected-glyph-image"><img id="selected-glyph-image" alt="Current mapped glyph"></div>
+                    <figcaption>Current</figcaption>
+                  </figure>
+                </div>
+                <p id="selected-glyph-mapping" class="selected-glyph-mapping"></p>
+                <section class="source-value-editor">
+                  <label for="source-value">Original source value</label>
+                  <input id="source-value" maxlength="48" autocomplete="off" placeholder="Character or {symbol_name}">
+                  <p id="source-value-help" class="glyph-usage"></p>
+                  <button id="save-source-value" class="secondary" type="button">Save to font definition</button>
+                </section>
+                <section id="replacement-editor" class="replacement-editor">
+                  <label for="glyph-replacement">Character to render</label>
+                  <input id="glyph-replacement" maxlength="3" autocomplete="off">
+                  <p id="glyph-usage" class="glyph-usage"></p>
+                  <button id="save-glyph" type="button">Rebuild this font</button>
+                  <p class="glyph-help">Only cells proved safe for typeface regeneration can be rebuilt. Source-fixed cells remain visible for mapping review.</p>
+                </section>
+              </div>
+            </aside>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <dialog id="language-dialog" class="language-dialog">
+      <form id="language-form">
+        <header>
+          <div>
+            <p class="kicker">Language project</p>
+            <h2 id="language-dialog-title">New language</h2>
+          </div>
+          <button id="close-language" class="icon-button" type="button" aria-label="Close">×</button>
+        </header>
+        <label for="language-label">Name</label>
+        <input id="language-label" required placeholder="French">
+        <div class="language-fields">
+          <div>
+            <label for="language-id">Project ID</label>
+            <input id="language-id" required pattern="[a-z][a-z0-9-]*" placeholder="fr">
+          </div>
+          <div>
+            <label for="language-locale">Locale</label>
+            <input id="language-locale" required placeholder="fr-FR">
+          </div>
+        </div>
+        <label for="language-characters">Additional characters</label>
+        <textarea id="language-characters" placeholder="ÀÂÆÇÉÈÊËÎÏÔŒÙÛÜŸ àâæçéèêëîïôœùûüÿ"></textarea>
+        <p class="dialog-help">Enter characters this language needs beyond the current translated corpus. Use Update Font to audit and assign them to safe replacement slots.</p>
+        <footer>
+          <button id="cancel-language" class="secondary" type="button">Cancel</button>
+          <button id="save-language" type="submit">Create language</button>
+        </footer>
+      </form>
+    </dialog>
+
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
     <script type="module" src="/app.js"></script>
   </body>
 </html>
-

@@ -46,7 +46,6 @@ from text.util.assets import (
     load_physical_record_files,
 )
 from text.util.event_repack import FontMetrics
-from text.util.glyph_sets import load_glyph_sets
 from text.util.surfaces import load_surfaces
 
 
@@ -387,28 +386,23 @@ def _validate_surfaces() -> None:
         actual = (layout.font, layout.rows, layout.width.unit, layout.width.value)
         if actual != geometry:
             raise ValueError(f"{name} geometry changed: {actual!r}")
-    glyph_sets = load_glyph_sets()
-    fixed = (
-        "map_3d.analyze_grid.race_heading",
-        "map_3d.analyze_grid.name_heading",
-        "map_3d.analyze_grid.level_heading",
-        "map_3d.analyze_grid.hit_points_heading",
-        "map_3d.analyze_grid.magic_points_heading",
-        "map_3d.analyze_grid.attack_heading",
-        "map_3d.analyze_grid.defense_heading",
-        "map_3d.analyze_detail.numeric_readout",
-        "map_3d.analyze_detail.skill_cost",
-        "status.alignment_axis_label",
+    status = load_asset("ui/status.json")
+    analyze = load_asset("ui/map_3d_analyze.json")
+    alignments = load_asset("terminology/alignments.json")
+    fields = (
+        *((status, f"{name}.text") for name in (
+            "level", "hit_points", "magic_points", "summon_cost"
+        )),
+        *((analyze, f"{name}.text") for name in (
+            "magic_cost", "health_cost", "race_heading", "name_heading",
+            "attack_heading", "defense_heading"
+        )),
+        *((alignments, f"{name}.axis_label") for name in (
+            "law", "chaos", "dark", "neutral"
+        )),
     )
-    for name in fixed:
-        handler = glyph_sets.for_surface(name)
-        if (
-            handler is None
-            or handler.name != "font8_stock_latin"
-            or handler.font != "font8"
-            or handler.reference_set != "stock_latin"
-        ):
-            raise ValueError(f"{name} lost its preserved stock-Latin handler")
+    if any(field.font8_alphabet != "original" for asset, ref in fields for field in (asset.field(ref),)):
+        raise ValueError("Analyze stock labels must select font8_alphabet original")
 
 
 def _analyze_terms(physical: Mapping[str, str]) -> AnalyzeTerms:

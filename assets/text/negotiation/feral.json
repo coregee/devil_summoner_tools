@@ -4023,15 +4023,15 @@
     },
     "condition_charmed": {
       "text": {
-        "reference": "クーン クーン{maru_symbol}",
-        "translation": "WHIMPER... WHIMPER{maru_symbol}",
+        "reference": "クーン クーン{happy_symbol}",
+        "translation": "WHIMPER... WHIMPER{happy_symbol}",
         "reviewed": true
       }
     },
     "condition_happy": {
       "text": {
-        "reference": "ヌウ・・・オレサマ ウキウキ{maru_symbol}",
-        "translation": "NGH... I AM GIDDY{maru_symbol}",
+        "reference": "ヌウ・・・オレサマ ウキウキ{happy_symbol}",
+        "translation": "NGH... I AM GIDDY{happy_symbol}",
         "reviewed": true
       }
     },

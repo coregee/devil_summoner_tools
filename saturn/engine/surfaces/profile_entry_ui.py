@@ -358,7 +358,7 @@ def _ascii_text(
     value = _translation(catalog, key)
     if not value.isascii() or "\x00" in value or "{" in value or "}" in value:
         raise ValueError(f"Profile Entry {key} must be literal ASCII")
-    glyphs = metrics.segment(value)
+    glyphs = metrics.segment_output(value)
     if glyph_limit is not None and len(glyphs) > glyph_limit:
         raise ValueError(f"Profile Entry {key} exceeds {glyph_limit} glyphs")
     pixels = sum(glyph.advance for glyph in glyphs)
@@ -378,7 +378,7 @@ def _fixed_words(
     value = _ascii_text(
         catalog, metrics, key, glyph_limit=cells, pixel_limit=pixel_limit
     )
-    words = tuple(glyph.code for glyph in metrics.segment(value))
+    words = tuple(glyph.code for glyph in metrics.segment_output(value))
     return words + (0,) * (cells - len(words))
 
 
@@ -518,7 +518,7 @@ def _data_layout(
         OCCUPATION_KEYS, occupation_centers, occupation_rows
     ):
         value = _translation(catalog, key)
-        width = sum(glyph.advance for glyph in metrics16.segment(value))
+        width = sum(glyph.advance for glyph in metrics16.segment_output(value))
         occupation_info.extend(
             struct.pack(">IHH", labels[key], max(0, center - width // 2), y)
         )
@@ -527,7 +527,7 @@ def _data_layout(
     tab_info = bytearray()
     for key, center in zip(TAB_LABEL_KEYS, (48, 144, 240)):
         value = _translation(catalog, key)
-        width = sum(glyph.advance for glyph in metrics16.segment(value))
+        width = sum(glyph.advance for glyph in metrics16.segment_output(value))
         tab_info.extend(
             struct.pack(">IHH", labels[key], max(0, center - width // 2), 0)
         )
@@ -676,7 +676,7 @@ def _runtime(
     )
 
     full_name = parse_full_name_template(full_name_storage)
-    separator = metrics16.segment(full_name.separator)
+    separator = metrics16.segment_output(full_name.separator)
     if len(separator) != 1:
         raise ValueError("Profile Entry full_name needs exactly one FONT16 separator glyph")
     symbols = _controller_symbols(

@@ -44,7 +44,6 @@ from text.util.assets import (
     load_physical_record_files,
 )
 from text.util.event_repack import FontMetrics
-from text.util.glyph_sets import load_glyph_sets
 from text.util.surfaces import load_surfaces
 
 
@@ -428,8 +427,8 @@ def _validate_ability_names(
         if not name or name != name.strip():
             raise ValueError(f"Level Up MAGNAME row {index} is empty or padded")
         try:
-            glyphs8 = metrics8.segment(name)
-            glyphs16 = metrics16.segment(name)
+            glyphs8 = metrics8.segment_output(name)
+            glyphs16 = metrics16.segment_output(name)
         except ValueError as error:
             raise ValueError(
                 f"Level Up MAGNAME row {index} uses unsupported text: {name!r}"
@@ -486,24 +485,19 @@ def _validate_surfaces() -> None:
         if actual != geometry:
             raise ValueError(f"{name} geometry changed")
 
-    glyph_sets = load_glyph_sets()
-    for name in (
-        "level_up.numeric_readout",
-        "level_up.max_level_next",
-        "level_up.no_magic_points",
-        "level_up.title",
-        "level_up.remaining_points",
-        "level_up.accept_action",
-        "level_up.confirm_choice",
-    ):
-        handler = glyph_sets.for_surface(name)
-        if (
-            handler is None
-            or handler.name != "font8_stock_latin"
-            or handler.font != "font8"
-            or handler.reference_set != "stock_latin"
-        ):
-            raise ValueError(f"{name} lost its preserved stock-Latin handler")
+    status = load_asset("ui/status.json")
+    level_up = load_asset("ui/level_up.json")
+    fields = (
+        *((status, f"{name}.text") for name in (
+            "level", "hit_points", "magic_points", "experience", "next_experience"
+        )),
+        *((level_up, f"{name}.text") for name in (
+            "title", "remaining_points", "accept", "confirm_yes", "confirm_no",
+            "max_level_next", "no_magic_points"
+        )),
+    )
+    if any(field.font8_alphabet != "original" for asset, ref in fields for field in (asset.field(ref),)):
+        raise ValueError("Level Up stock labels must select font8_alphabet original")
 
 
 def _ascii_record(
@@ -695,7 +689,7 @@ def _runtime_payload(
         raise ValueError("Level Up code overlaps its fixed width table")
 
     try:
-        heading_glyphs = metrics16.segment(terms.learned_magic_heading)
+        heading_glyphs = metrics16.segment_output(terms.learned_magic_heading)
     except ValueError as error:
         raise ValueError("Level Up learned heading uses unsupported FONT16 text") from error
     heading_words = tuple(glyph.code for glyph in heading_glyphs) + (0x8000,)
@@ -731,7 +725,7 @@ def _runtime_payload(
         if not name or name != name.strip():
             raise ValueError(f"Level Up character-name row {index + 1} is invalid")
         try:
-            glyphs = metrics16.segment(name)
+            glyphs = metrics16.segment_output(name)
         except ValueError as error:
             raise ValueError(
                 f"Level Up character name {name!r} uses unsupported FONT16 text"

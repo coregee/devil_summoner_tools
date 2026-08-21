@@ -12,7 +12,6 @@ if str(TEXT_ROOT) not in sys.path:
     sys.path.insert(0, str(TEXT_ROOT))
 
 from util.assets import BINDING_ROOT, load_asset, load_binding  # noqa: E402
-from util.glyph_sets import load_glyph_sets  # noqa: E402
 
 
 def _corpus(name: str) -> list[dict[str, object]]:
@@ -198,30 +197,46 @@ class CommandAssetTests(unittest.TestCase):
             for physical_id in set(binding.records) & corpus_ids:
                 owners[physical_id] += 1
         self.assertEqual(owners, {physical_id: 1 for physical_id in corpus_ids})
+        self.assertEqual(dict(self.facility_bindings[0].glyph_equivalence), {})
+        self.assertEqual(dict(self.facility_bindings[3].glyph_equivalence), {})
         self.assertEqual(
-            dict(self.facility_bindings[0].glyph_equivalence),
-            {"e0": "S", "e1": "T", "e2": "A", "e3": "T", "e4": "U", "e5": "S"},
+            dict(self.facility_bindings[0].variants),
+            {"game.facility_command_labels.o0425fe": "font8_tiles"},
         )
         self.assertEqual(
-            dict(self.facility_bindings[3].glyph_equivalence),
-            {"da": "R", "db": "E", "dc": "V", "dd": "I", "de": "V", "df": "E"},
+            dict(self.facility_bindings[3].variants),
+            {"game.facility_command_labels.o0425f8": "font8_tiles"},
         )
 
-    def test_every_command_surface_selects_the_preserved_stock_alphabet(self) -> None:
-        catalog = load_glyph_sets()
-        for surface in (
-            "battle.command",
-            "comp.command",
-            "shop.command",
-            "bar.command",
-            "healer.command",
-            "status.auto_command",
-            "status.auto_setting",
+    def test_every_menu_tag_selects_its_font8_alphabet_in_the_corpus(self) -> None:
+        for key in self.battle.entries:
+            with self.subTest(asset="battle/commands.json", key=key):
+                self.assertEqual(
+                    self.battle.field(f"{key}.name").font8_alphabet,
+                    "original",
+                )
+        for key in self.comp.entries:
+            with self.subTest(asset="ui/comp_commands.json", key=key):
+                self.assertEqual(
+                    self.comp.field(f"{key}.text").font8_alphabet,
+                    "original",
+                )
+        for catalog, refs in (
+            (self.common, ("exit.text", "status.text")),
+            (self.shop, ("command_buy.text", "command_sell.text", "command_equip.text")),
+            (self.bar, ("command_order.text", "command_talk.text")),
+            (self.healer, (
+                "command_all.text", "command_heal.text", "command_cure.text",
+                "command_curse.text", "command_revive.text",
+            )),
         ):
-            with self.subTest(surface=surface):
-                handler = catalog.for_surface(surface)
-                self.assertIsNotNone(handler)
-                self.assertEqual((handler.font, handler.reference_set), ("font8", "stock_latin"))
+            for ref in refs:
+                with self.subTest(ref=ref):
+                    self.assertEqual(catalog.field(ref).font8_alphabet, "original")
+        self.assertEqual(
+            self.shop.field("inventory_label.text").font8_alphabet,
+            "replaced",
+        )
 
 
 if __name__ == "__main__":

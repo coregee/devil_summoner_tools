@@ -44,45 +44,125 @@
     "game.end_roll_names.o0203ba": "hiroaki_murai.name"
   },
   "record_surfaces": {
-    "game.end_roll_names.o019fa8": ["credits.main_name"],
-    "game.end_roll_names.o019fb4": ["credits.main_name"],
-    "game.end_roll_names.o019fc0": ["credits.main_name"],
-    "game.end_roll_names.o019fcc": ["credits.main_name"],
-    "game.end_roll_names.o019fd8": ["credits.main_name"],
-    "game.end_roll_names.o019fe4": ["credits.main_name"],
-    "game.end_roll_names.o019ff0": ["credits.main_name"],
-    "game.end_roll_names.o019ffc": ["credits.main_name"],
-    "game.end_roll_names.o01a008": ["credits.main_name"],
-    "game.end_roll_names.o01a014": ["credits.main_name"],
-    "game.end_roll_names.o01a020": ["credits.main_name"],
-    "game.end_roll_names.o01a02c": ["credits.main_name"],
-    "game.end_roll_names.o01a038": ["credits.main_name"],
-    "game.end_roll_names.o01a044": ["credits.main_name"],
-    "game.end_roll_names.o01a050": ["credits.main_name"],
-    "game.end_roll_names.o01a05c": ["credits.main_name"],
-    "game.end_roll_names.o01a068": ["credits.main_name"],
-    "game.end_roll_names.o01a074": ["credits.main_name"],
-    "game.end_roll_names.o01a080": ["credits.main_name"],
-    "game.end_roll_names.o01a08c": ["credits.main_name"],
-    "game.end_roll_names.o01a098": ["credits.main_name"],
-    "game.end_roll_names.o01a0a4": ["credits.main_name"],
-    "game.end_roll_names.o01a0b0": ["credits.main_name"],
-    "game.end_roll_names.o01a0bc": ["credits.main_name"],
-    "game.end_roll_names.o01a0c8": ["credits.main_name"],
-    "game.end_roll_names.o01a0d4": ["credits.main_name"],
-    "game.end_roll_names.o01a0e0": ["credits.main_name"],
-    "game.end_roll_names.o01a0ec": ["credits.main_name"],
-    "game.end_roll_names.o020304": ["credits.test_name"],
-    "game.end_roll_names.o020312": ["credits.test_name"],
-    "game.end_roll_names.o020320": ["credits.test_name"],
-    "game.end_roll_names.o02032e": ["credits.test_name"],
-    "game.end_roll_names.o02033c": ["credits.test_name"],
-    "game.end_roll_names.o02034a": ["credits.test_name"],
-    "game.end_roll_names.o020358": ["credits.test_name"],
-    "game.end_roll_names.o020366": ["credits.test_name"],
-    "game.end_roll_names.o020374": ["credits.test_name"],
-    "game.end_roll_names.o020382": ["credits.test_name"],
-    "game.end_roll_names.o0203ac": ["credits.test_name"],
-    "game.end_roll_names.o0203ba": ["credits.test_name"]
+    "game.end_roll_names.o019fa8": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o019fb4": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o019fc0": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o019fcc": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o019fd8": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o019fe4": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o019ff0": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o019ffc": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o01a008": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o01a014": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o01a020": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o01a02c": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o01a038": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o01a044": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o01a050": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o01a05c": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o01a068": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o01a074": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o01a080": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o01a08c": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o01a098": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o01a0a4": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o01a0b0": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o01a0bc": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o01a0c8": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o01a0d4": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o01a0e0": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o01a0ec": [
+      "credits.main_name"
+    ],
+    "game.end_roll_names.o020304": [
+      "credits.test_name"
+    ],
+    "game.end_roll_names.o020312": [
+      "credits.test_name"
+    ],
+    "game.end_roll_names.o020320": [
+      "credits.test_name"
+    ],
+    "game.end_roll_names.o02032e": [
+      "credits.test_name"
+    ],
+    "game.end_roll_names.o02033c": [
+      "credits.test_name"
+    ],
+    "game.end_roll_names.o02034a": [
+      "credits.test_name"
+    ],
+    "game.end_roll_names.o020358": [
+      "credits.test_name"
+    ],
+    "game.end_roll_names.o020366": [
+      "credits.test_name"
+    ],
+    "game.end_roll_names.o020374": [
+      "credits.test_name"
+    ],
+    "game.end_roll_names.o020382": [
+      "credits.test_name"
+    ],
+    "game.end_roll_names.o0203ac": [
+      "credits.test_name"
+    ],
+    "game.end_roll_names.o0203ba": [
+      "credits.test_name"
+    ]
   }
 }

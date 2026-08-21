@@ -1327,8 +1327,8 @@
     },
     "dialogue_0216": {
       "text": {
-        "reference": "そうだよなあククッ{n}おまえには関係ないもんなあ{BEAT}ああ？{n}ん～んんっ幸せだなあ『",
-        "translation": "Right, heh. It's none of your business...{BEAT} Huh? Mmm... Such happiness...『"
+        "reference": "そうだよなあククッ{n}おまえには関係ないもんなあ{BEAT}ああ？{n}ん～んんっ幸せだなあ♡",
+        "translation": "Right, heh. It's none of your business...{BEAT} Huh? Mmm... Such happiness...{heart_symbol}"
       }
     },
     "dialogue_0217": {
@@ -2490,7 +2490,7 @@
     },
     "dialogue_0407": {
       "text": {
-        "reference": "なんだああ持ってね{GLYPH:010d}のかあああ{n}ククク…{BEAT}{n}それじゃああああ",
+        "reference": "なんだああ持ってね−のかあああ{n}ククク…{BEAT}{n}それじゃああああ",
         "translation": "Whaaat? You don't have it? Keh heh...{BEAT} Then...",
         "note": "The Japanese trails off on それじゃあ ('then...'), handing control to the branch-dependent negotiation result."
       }
@@ -2634,7 +2634,7 @@
     },
     "dialogue_0430": {
       "text": {
-        "reference": "ああ？{BEAT}{n}装備してね{GLYPH:010d}じゃあねえくあああ",
+        "reference": "ああ？{BEAT}{n}装備してね−じゃあねえくあああ",
         "translation": "Huh?{BEAT} You aren't wearing any!"
       }
     },

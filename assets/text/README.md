@@ -127,7 +127,8 @@ The Saturn `MAGNAME` catalogue is split by its proved category metadata into
 description, plus a separate battle `console_text` only when a physical console
 record exists. Field-only magic therefore does not acquire an invented console
 form. The bonus-disc ability-name table binds to the same fields, including its
-28 explicit punctuation variants and one proved glyph equivalence.
+the 28 names whose Saturn FONT8 separator now decodes to the same interpunct,
+plus one proved glyph equivalence.
 
 The 3D-map Analyze table follows the same sharing rule. Its 43 compact
 katakana race records are reference-only `analyze_grid` variants of the shared
@@ -418,8 +419,8 @@ the proved tables, including three byte-identical physical copies of the
 16-entry battle action table. Retail `OFFENCE` and `DEFENCE` remain explicit
 battle-table variants of the shared `OFFENSE` and `DEFENSE` terminology, and
 the bonus compound cells used to draw `REVIVE` and `STATUS` are normalized only
-at their physical bindings. Typeface selection remains platform metadata: each
-of these consumers requests FONT8's preserved `stock_latin` reference set.
+at their physical bindings. Each menu field explicitly sets
+`font8_alphabet: original`; omitted fields default to the replacement typeface.
 Bitmap generation and phrase compression remain derived rendering work; they
 are not second translation sources.
 

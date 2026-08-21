@@ -183,7 +183,8 @@
       },
       "text": {
         "reference": "LV {level}",
-        "translation": "LV {level}"
+        "translation": "LV {level}",
+        "font8_alphabet": "original"
       }
     },
     "hit_points": {
@@ -193,7 +194,8 @@
       },
       "text": {
         "reference": "HP {current_hp}/{maximum_hp}",
-        "translation": "HP {current_hp}/{maximum_hp}"
+        "translation": "HP {current_hp}/{maximum_hp}",
+        "font8_alphabet": "original"
       }
     },
     "magic_points": {
@@ -203,7 +205,8 @@
       },
       "text": {
         "reference": "MP {current_mp}/{maximum_mp}",
-        "translation": "MP {current_mp}/{maximum_mp}"
+        "translation": "MP {current_mp}/{maximum_mp}",
+        "font8_alphabet": "original"
       }
     },
     "experience": {
@@ -212,7 +215,8 @@
       },
       "text": {
         "reference": "EXP {experience}",
-        "translation": "EXP {experience}"
+        "translation": "EXP {experience}",
+        "font8_alphabet": "original"
       }
     },
     "next_experience": {
@@ -221,7 +225,8 @@
       },
       "text": {
         "reference": "NEXT {experience_to_next}",
-        "translation": "NEXT {experience_to_next}"
+        "translation": "NEXT {experience_to_next}",
+        "font8_alphabet": "original"
       }
     },
     "summon_cost": {
@@ -230,7 +235,8 @@
       },
       "text": {
         "reference": "CP {summon_cost}",
-        "translation": "CP {summon_cost}"
+        "translation": "CP {summon_cost}",
+        "font8_alphabet": "original"
       }
     },
     "auto_setting": {
@@ -239,7 +245,8 @@
       },
       "text": {
         "reference": "AUTO {command}",
-        "translation": "AUTO {command}"
+        "translation": "AUTO {command}",
+        "font8_alphabet": "original"
       }
     },
     "party_alignment": {

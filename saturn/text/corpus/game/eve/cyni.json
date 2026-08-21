@@ -99,7 +99,7 @@
     "id": "game.cyni.m0006.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "グゴブガガェ{n}ンゾベギミバ{maru_symbol}ジォ",
+    "reference": "グゴブガガェ{n}ンゾベギミバ{happy_symbol}ジォ",
     "translation": "",
     "note": ""
   },
@@ -179,7 +179,7 @@
     "id": "game.cyni.m0013.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "グゴブガガェ{n}ンゾベギミバ{maru_symbol}ジォ",
+    "reference": "グゴブガガェ{n}ンゾベギミバ{happy_symbol}ジォ",
     "translation": "",
     "note": ""
   },
@@ -475,7 +475,7 @@
     "id": "game.cyni.m0039.p03",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "お洋服、汚れちゃったしー。{n}着がえてくるね{OP:8026}『{OP:8020}{n}{WAIT}それまでブラブラしてて、{BEAT}ダーリン{OP:8026}『{OP:8020}",
+    "reference": "お洋服、汚れちゃったしー。{n}着がえてくるね{OP:8026}♡{OP:8020}{n}{WAIT}それまでブラブラしてて、{BEAT}ダーリン{OP:8026}♡{OP:8020}",
     "translation": "",
     "note": ""
   },
@@ -1699,7 +1699,7 @@
     "id": "game.cyni.m0157.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "アクマでも、愛してくれるぅ{OP:8026}『『{OP:8020}",
+    "reference": "アクマでも、愛してくれるぅ{OP:8026}♡♡{OP:8020}",
     "translation": "",
     "note": ""
   },
@@ -2243,7 +2243,7 @@
     "id": "game.cyni.m0207.p02",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "誕生日には、自分で自分に、{n}「ご苦労様{OP:8026}『{OP:8020}」とか言って、",
+    "reference": "誕生日には、自分で自分に、{n}「ご苦労様{OP:8026}♡{OP:8020}」とか言って、",
     "translation": "",
     "note": ""
   },
@@ -2963,7 +2963,7 @@
     "id": "game.cyni.m0277.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "うん{maru_symbol}おじちゃん、好き好きぃ～{maru_symbol}{n}{WAIT}妖虫ウブのマネ。{n}{WAIT}ちょっと、マイナーすぎたな。",
+    "reference": "うん{happy_symbol}おじちゃん、好き好きぃ～{happy_symbol}{n}{WAIT}妖虫ウブのマネ。{n}{WAIT}ちょっと、マイナーすぎたな。",
     "translation": "",
     "note": ""
   },
@@ -3507,7 +3507,7 @@
     "id": "game.cyni.m0319.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "好きです{OP:8026}『{OP:8020}",
+    "reference": "好きです{OP:8026}♡{OP:8020}",
     "translation": "",
     "note": ""
   },
@@ -3515,7 +3515,7 @@
     "id": "game.cyni.m0320.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "つきあって下さい{OP:8026}『{OP:8020}",
+    "reference": "つきあって下さい{OP:8026}♡{OP:8020}",
     "translation": "",
     "note": ""
   },
@@ -3987,7 +3987,7 @@
     "id": "game.cyni.m0362.p02",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "殺しちゃや～よぉ、おじちゃん{maru_symbol}{n}これ、あげるからぁ～{maru_symbol}{n}{WAIT}そんな感じだ。",
+    "reference": "殺しちゃや～よぉ、おじちゃん{happy_symbol}{n}これ、あげるからぁ～{happy_symbol}{n}{WAIT}そんな感じだ。",
     "translation": "",
     "note": ""
   },

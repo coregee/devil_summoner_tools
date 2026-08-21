@@ -945,7 +945,7 @@
     },
     "dialogue_0152": {
       "text": {
-        "reference": "グゴブガガェ{n}ンゾベギミバ{maru_symbol}ジォ",
+        "reference": "グゴブガガェ{n}ンゾベギミバ{happy_symbol}ジォ",
         "translation": "Gugobugagae... Nzobegimiva'jo."
       }
     },
@@ -1784,7 +1784,7 @@
     },
     "dialogue_0286": {
       "text": {
-        "reference": "←→→{BEAT}P{GLYPH:010c}KェPPPィKェ{n}PPPィ{BEAT}→Kェェェ{n}{WAIT}↑↑↓↓←→←→{BEAT}イイイィ{BEAT}エエエエェ",
+        "reference": "←→→{BEAT}P+KェPPPィKェ{n}PPPィ{BEAT}→Kェェェ{n}{WAIT}↑↑↓↓←→←→{BEAT}イイイィ{BEAT}エエエエェ",
         "translation": "Left, right, right{BEAT} P K... P-P-P... K... P-P-P{BEAT} Right, K...{WAIT} Up, up, down, down, left, right, left, right{BEAT} A-A-A{BEAT} B-B-B..."
       }
     },
@@ -2495,8 +2495,8 @@
     },
     "condition_confused": {
       "text": {
-        "reference": "ゴンゲ{maru_symbol}レゲレレレヂベ♂ンバェェ！！",
-        "translation": "Grrngh{maru_symbol} Blehlehleh... Bwaaagh!!",
+        "reference": "ゴンゲ{happy_symbol}レゲレレレヂベ♂ンバェェ！！",
+        "translation": "Grrngh{happy_symbol} Blehlehleh... Bwaaagh!!",
         "reviewed": true
       }
     },

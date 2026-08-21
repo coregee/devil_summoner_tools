@@ -347,7 +347,7 @@ def _compile_cues() -> tuple[CompiledCue, ...]:
         lines: list[SubtitleLine] = []
         for line_index, (text, y) in enumerate(zip(cue.translation, tops), 1):
             try:
-                glyphs = tuple(metrics.segment(text))
+                glyphs = tuple(metrics.segment_output(text))
             except ValueError as error:
                 raise ValueError(
                     f"START2 cue {cue_index} line {line_index}: {error}"

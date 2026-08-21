@@ -1539,7 +1539,7 @@
     "id": "game.evfile_1.m0102.p04",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "デビルサマナーの代理人マリーには、{n}{GLYPH:00c0}1000000．も取られたが、{n}尊敬する百地警部を助けるためだ。",
+    "reference": "デビルサマナーの代理人マリーには、{n}▯1000000．も取られたが、{n}尊敬する百地警部を助けるためだ。",
     "translation": "",
     "note": ""
   },
@@ -1859,7 +1859,7 @@
     "id": "game.evfile_1.m0117.p04",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "ほんの気持ちだけども、これを受け取って{n}ほしいね。我々の感謝の気持ちだ。{n}{GLYPH:00c0}50000．ある。",
+    "reference": "ほんの気持ちだけども、これを受け取って{n}ほしいね。我々の感謝の気持ちだ。{n}▯50000．ある。",
     "translation": "",
     "note": ""
   },
@@ -1987,7 +1987,7 @@
     "id": "game.evfile_1.m0125.p00",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "陳健民：持ち金を減らして来たなら、{n}{GLYPH:00c0}50000お渡ししましょう。",
+    "reference": "陳健民：持ち金を減らして来たなら、{n}▯50000お渡ししましょう。",
     "translation": "",
     "note": ""
   },
@@ -3187,7 +3187,7 @@
     "id": "game.evfile_1.m0196.p00",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "{GLYPH:00c0}100手に入れた。",
+    "reference": "▯100手に入れた。",
     "translation": "",
     "note": ""
   },
@@ -4139,7 +4139,7 @@
     "id": "game.evfile_1.m0272.p00",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "ボブカット男：DDS{GLYPH:010d}NETで、{n}「レッドマン」ってヤツと知り合ったんだ。",
+    "reference": "ボブカット男：DDS−NETで、{n}「レッドマン」ってヤツと知り合ったんだ。",
     "translation": "",
     "note": ""
   },

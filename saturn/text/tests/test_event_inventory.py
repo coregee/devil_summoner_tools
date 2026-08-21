@@ -62,7 +62,7 @@ class GeneralEventInventoryTests(unittest.TestCase):
 
         opening = by_id["game.evfile_0.m0000"]
         self.assertEqual(len(opening["pages"]), 2)
-        self.assertEqual(opening["evidence"]["raw_tokens"], ["GLYPH:010d"])
+        self.assertEqual(opening["evidence"]["raw_tokens"], [])
         self.assertEqual(opening["curation"]["scene"], "dds_net_profile_renewal")
         self.assertEqual(opening["curation"]["consumer"], "ui.profile_entry")
         self.assertEqual(

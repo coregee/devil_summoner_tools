@@ -30,7 +30,7 @@ from util.event_repack import (  # noqa: E402
 from util.sources import load_manifest, manifest_path  # noqa: E402
 
 
-OUTPUT_HASH = "b2b2498573e59947e232f9f80d853a7b37309e6d7b158323660016fc4fef2f5b"
+OUTPUT_HASH = "ac12a847c6b14ec3e9effb143cbcca0e8762701caab094c4a5517f36cc181773"
 GOOFY_MESSAGE_HASH = "9f585bc2c60caabda79858496a9bd7e69636d589c057e47b1b5e2141ad13a2c7"
 
 

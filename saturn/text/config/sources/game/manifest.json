@@ -948,7 +948,7 @@
             "name": "name",
             "offset": "0x4",
             "units": 8,
-            "source_encoding": "game_font8_plain_glyph",
+            "source_encoding": "game_font8_kana_composer",
             "framing": {
               "type": "zero_padded"
             }
@@ -984,7 +984,7 @@
             "name": "name",
             "offset": "0x4",
             "units": 8,
-            "source_encoding": "game_font8_plain_glyph",
+            "source_encoding": "game_font8_kana_composer",
             "framing": {
               "type": "zero_padded"
             }
@@ -1068,7 +1068,7 @@
             "name": "text",
             "offset": "0x0",
             "units": 8,
-            "source_encoding": "game_font8_plain_glyph",
+            "source_encoding": "game_font8_kana_composer",
             "framing": {
               "type": "zero_padded"
             }
@@ -1094,7 +1094,7 @@
             "name": "text",
             "offset": "0x0",
             "units": 8,
-            "source_encoding": "game_font8_plain_glyph",
+            "source_encoding": "game_font8_kana_composer",
             "framing": {
               "type": "zero_padded"
             }
@@ -2503,7 +2503,7 @@
           {
             "name": "grid_races",
             "count": 43,
-            "source_encoding": "game_font8_plain_glyph",
+            "source_encoding": "game_font8_kana_composer",
             "framing": {
               "type": "zero_padded"
             },
@@ -3098,12 +3098,14 @@
         "records": [
           {
             "name": "revive",
+            "source_encoding": "game_font8_plain_glyph",
             "locations": [
               {"spans": [{"offset": "0x425f8", "units": 6}]}
             ]
           },
           {
             "name": "status",
+            "source_encoding": "game_font8_plain_glyph",
             "locations": [
               {"spans": [{"offset": "0x425fe", "units": 6}]}
             ]
@@ -5549,7 +5551,7 @@
       "container": {
         "type": "addressed",
         "file": "combat_bin",
-        "default_source_encoding": "game_font8_plain_glyph",
+        "default_source_encoding": "game_font8_kana_composer",
         "tables": [],
         "records": [
           {
@@ -5571,7 +5573,7 @@
       "container": {
         "type": "addressed",
         "file": "event_bin",
-        "default_source_encoding": "game_font8_plain_glyph",
+        "default_source_encoding": "game_font8_kana_composer",
         "tables": [
           {
             "name": "drinks",

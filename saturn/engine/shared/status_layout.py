@@ -78,6 +78,14 @@ class StatusLabels:
     personality: tuple[str, ...]
 
 
+@dataclass(frozen=True, slots=True)
+class StockGlyph:
+    code: int
+    advance: int
+    ink_left: int
+    ink_right: int
+
+
 def load_font16_metrics(path: Path) -> tuple[bytes, dict[str, int]]:
     """Load the complete 268-cell FONT16 width and character maps."""
     try:
@@ -106,20 +114,44 @@ def load_font16_metrics(path: Path) -> tuple[bytes, dict[str, int]]:
     return bytes(widths), codes
 
 
-def load_stock_latin_codes(path: Path) -> dict[str, int]:
-    """Load the preserved Japanese FONT8 Latin reference set."""
+def load_stock_latin_glyphs(path: Path) -> dict[str, StockGlyph]:
+    """Load metrics for the preserved Japanese FONT8 Latin reference set."""
     try:
         document = json.loads(path.read_text(encoding="utf-8"))
         rows = document["reference_sets"]["stock_latin"]
     except (FileNotFoundError, json.JSONDecodeError, KeyError, TypeError) as error:
         raise ValueError("FONT8 metrics do not publish stock_latin") from error
-    result: dict[str, int] = {}
+    result: dict[str, StockGlyph] = {}
     for row in rows:
-        text, code = row.get("text"), row.get("code")
-        if not isinstance(text, str) or len(text) != 1 or type(code) is not int:
+        text, code, advance = (
+            row.get("text"),
+            row.get("code"),
+            row.get("advance"),
+        )
+        ink_left, ink_right = row.get("ink_left"), row.get("ink_right")
+        if (
+            not isinstance(text, str)
+            or len(text) != 1
+            or type(code) is not int
+            or not 0 <= code <= 0xFF
+            or type(advance) is not int
+            or not 1 <= advance <= 8
+            or type(ink_left) is not int
+            or type(ink_right) is not int
+            or not 0 <= ink_left <= ink_right <= 8
+            or text in result
+        ):
             raise ValueError("invalid stock_latin FONT8 record")
-        result[text] = code
+        result[text] = StockGlyph(code, advance, ink_left, ink_right)
     return result
+
+
+def load_stock_latin_codes(path: Path) -> dict[str, int]:
+    """Load the preserved Japanese FONT8 Latin reference codes."""
+    return {
+        text: glyph.code
+        for text, glyph in load_stock_latin_glyphs(path).items()
+    }
 
 
 def compile_status_templates(values: Mapping[str, str]) -> StatusTemplates:
@@ -454,6 +486,7 @@ __all__ = (
     "load_status_labels",
     "load_status_templates",
     "load_stock_latin_codes",
+    "load_stock_latin_glyphs",
     "node_background",
     "status_atlas_tile",
     "status_mask",

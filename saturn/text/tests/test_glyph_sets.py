@@ -17,48 +17,12 @@ from util.glyph_sets import CONFIG_PATH, load_glyph_sets  # noqa: E402
 
 
 class OutputGlyphSetTests(unittest.TestCase):
-    def test_preserved_stock_sets_are_selected_only_by_named_surfaces(self) -> None:
+    def test_only_non_font8_grid_selection_remains_surface_global(self) -> None:
         catalog = load_glyph_sets()
-        handler = catalog.handlers["font8_stock_latin"]
-        self.assertEqual(
-            (handler.font, handler.reference_set),
-            ("font8", "stock_latin"),
-        )
         kanji = catalog.handlers["kanji_stock_latin"]
         self.assertEqual((kanji.font, kanji.reference_set), ("kanji", "stock_latin"))
-        self.assertEqual(
-            set(catalog.surface_handlers),
-            {
-                "battle.command",
-                "battle.party_empty",
-                "battle.party_in_party",
-                "comp.command",
-                "shop.command",
-                "bar.command",
-                "healer.command",
-                "status.auto_command",
-                "status.auto_setting",
-                "status.party_alignment",
-                "status.alignment_axis_label",
-                "map_3d.analyze_grid.race_heading",
-                "map_3d.analyze_grid.name_heading",
-                "map_3d.analyze_grid.level_heading",
-                "map_3d.analyze_grid.hit_points_heading",
-                "map_3d.analyze_grid.magic_points_heading",
-                "map_3d.analyze_grid.attack_heading",
-                "map_3d.analyze_grid.defense_heading",
-                "map_3d.analyze_detail.numeric_readout",
-                "map_3d.analyze_detail.skill_cost",
-                "level_up.numeric_readout",
-                "level_up.max_level_next",
-                "level_up.no_magic_points",
-                "level_up.title",
-                "level_up.remaining_points",
-                "level_up.accept_action",
-                "level_up.confirm_choice",
-                "name_entry.grid_row",
-            },
-        )
+        self.assertEqual(set(catalog.handlers), {"kanji_stock_latin"})
+        self.assertEqual(set(catalog.surface_handlers), {"name_entry.grid_row"})
         self.assertIsNone(catalog.for_surface("event.dialogue"))
 
     def test_name_grid_selects_preserved_kanji_latin(self) -> None:
@@ -93,19 +57,17 @@ class OutputGlyphSetTests(unittest.TestCase):
         commands = load_asset("battle/commands.json")
         binding = load_binding(BINDING_ROOT / "battle_commands.json")
         self.assertEqual(commands.field("go.name").translation, "GO")
+        self.assertEqual(commands.field("go.name").font8_alphabet, "original")
         self.assertEqual(
             binding.record_surfaces["game.battle_command_labels.o05066e"],
             ("battle.command",),
         )
-        self.assertEqual(
-            load_glyph_sets().for_surface("battle.command").reference_set,
-            "stock_latin",
-        )
+        self.assertIsNone(load_glyph_sets().for_surface("battle.command"))
 
     def test_handler_font_must_match_the_selected_english_surface(self) -> None:
         document = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
         document["surface_handlers"] = {
-            "event.dialogue": "font8_stock_latin"
+            "event.dialogue": "kanji_stock_latin"
         }
         with tempfile.TemporaryDirectory() as raw_directory:
             path = Path(raw_directory) / "glyph_sets.json"

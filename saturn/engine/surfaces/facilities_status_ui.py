@@ -605,7 +605,7 @@ def _built_charname(
 ) -> bytes:
     if len(stock) != CHARACTER_COUNT * 8:
         raise ValueError("stock CHARNAME has the wrong size")
-    glyphs = metrics8.segment(character_names[2])
+    glyphs = metrics8.segment_output(character_names[2])
     encoded = bytes(glyph.code for glyph in glyphs)
     if not encoded or len(encoded) > 8:
         raise ValueError("Kyouji's direct CHARNAME record exceeds eight bytes")

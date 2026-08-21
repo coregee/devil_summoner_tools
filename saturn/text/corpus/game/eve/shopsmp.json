@@ -347,7 +347,7 @@
     "id": "game.shopsmp.m0043.p00",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "{GLYPH:010d}{GLYPH:010d}{GLYPH:010d}{GLYPH:010d}{GLYPH:010d}{GLYPH:010d}",
+    "reference": "−−−−−−",
     "translation": "",
     "note": ""
   },
@@ -411,7 +411,7 @@
     "id": "game.shopsmp.m0051.p00",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "L{GLYPH:010d}R後電石員",
+    "reference": "L−R後電石員",
     "translation": "",
     "note": ""
   },
@@ -467,7 +467,7 @@
     "id": "game.shopsmp.m0058.p00",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "屍悪後電{GLYPH:010c}1",
+    "reference": "屍悪後電+1",
     "translation": "",
     "note": ""
   },
@@ -475,7 +475,7 @@
     "id": "game.shopsmp.m0059.p00",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "屍悪後電{GLYPH:010c}2",
+    "reference": "屍悪後電+2",
     "translation": "",
     "note": ""
   },
@@ -483,7 +483,7 @@
     "id": "game.shopsmp.m0060.p00",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "屍悪後電{GLYPH:010d}1",
+    "reference": "屍悪後電−1",
     "translation": "",
     "note": ""
   },
@@ -547,7 +547,7 @@
     "id": "game.shopsmp.m0072.p00",
     "source_encoding": "game_font12_event_space",
     "output_encoding": "",
-    "reference": "剣・悪魔{GLYPH:010e}2合体",
+    "reference": "剣・悪魔×2合体",
     "translation": "",
     "note": ""
   },
@@ -563,7 +563,7 @@
     "id": "game.shopsmp.m0074.p00",
     "source_encoding": "game_font12_event_space",
     "output_encoding": "",
-    "reference": "魔晶変{GLYPH:01aa}",
+    "reference": "魔晶変化",
     "translation": "",
     "note": ""
   },
@@ -603,7 +603,7 @@
     "id": "game.shopsmp.m0079.p00",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "火妖{GLYPH:010e}1",
+    "reference": "火妖×1",
     "translation": "",
     "note": ""
   },
@@ -611,7 +611,7 @@
     "id": "game.shopsmp.m0080.p00",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "火妖{GLYPH:010e}2",
+    "reference": "火妖×2",
     "translation": "",
     "note": ""
   },
@@ -699,7 +699,7 @@
     "id": "game.shopsmp.m0091.p00",
     "source_encoding": "game_font12_event_space",
     "output_encoding": "",
-    "reference": "LAW黄性順",
+    "reference": "LAW属性順",
     "translation": "",
     "note": ""
   },
@@ -707,7 +707,7 @@
     "id": "game.shopsmp.m0092.p00",
     "source_encoding": "game_font12_event_space",
     "output_encoding": "",
-    "reference": "CHAOS黄性順",
+    "reference": "CHAOS属性順",
     "translation": "",
     "note": ""
   },
@@ -915,7 +915,7 @@
     "id": "game.shopsmp.m0119.p00",
     "source_encoding": "game_font12_event_space",
     "output_encoding": "",
-    "reference": "ヴィクトル：どの悪魔の変{GLYPH:01aa}をするんだ？",
+    "reference": "ヴィクトル：どの悪魔の変化をするんだ？",
     "translation": "",
     "note": ""
   },
@@ -971,7 +971,7 @@
     "id": "game.shopsmp.m0126.p00",
     "source_encoding": "game_font12_event_space",
     "output_encoding": "",
-    "reference": "ヴィクトル：どの悪魔を変{GLYPH:01aa}をするんだ？",
+    "reference": "ヴィクトル：どの悪魔を変化をするんだ？",
     "translation": "",
     "note": ""
   },
@@ -979,7 +979,7 @@
     "id": "game.shopsmp.m0127.p00",
     "source_encoding": "game_font12_event_space",
     "output_encoding": "",
-    "reference": "ヴィクトル：変{GLYPH:01aa}を始めていいか？",
+    "reference": "ヴィクトル：変化を始めていいか？",
     "translation": "",
     "note": ""
   },
@@ -1075,7 +1075,7 @@
     "id": "game.shopsmp.m0139.p00",
     "source_encoding": "game_font12_event_space",
     "output_encoding": "",
-    "reference": "{GLYPH:010a} ……具本合体法則で悪魔が出現",
+    "reference": "〇 ……基本合体法則で悪魔が出現",
     "translation": "",
     "note": ""
   },
@@ -1083,7 +1083,7 @@
     "id": "game.shopsmp.m0140.p00",
     "source_encoding": "game_font12_event_space",
     "output_encoding": "",
-    "reference": "{GLYPH:010b} ……精霊が出現",
+    "reference": "{latin_space} ……精霊が出現",
     "translation": "",
     "note": ""
   },
@@ -1115,7 +1115,7 @@
     "id": "game.shopsmp.m0144.p00",
     "source_encoding": "game_font12_event_space",
     "output_encoding": "",
-    "reference": "{GLYPH:010e} ……元の悪魔が同種族で1ランクダウン",
+    "reference": "× ……元の悪魔が同種族で1ランクダウン",
     "translation": "",
     "note": ""
   },
@@ -1147,7 +1147,7 @@
     "id": "game.shopsmp.m0148.p00",
     "source_encoding": "game_font12_event_space",
     "output_encoding": "",
-    "reference": "{GLYPH:010d} ……組合せが存在しない",
+    "reference": "− ……組合せが存在しない",
     "translation": "",
     "note": ""
   },
@@ -1155,7 +1155,7 @@
     "id": "game.shopsmp.m0149.p00",
     "source_encoding": "game_font12_event_space",
     "output_encoding": "",
-    "reference": "青色……LAW黄性の悪魔が出現",
+    "reference": "青色……LAW属性の悪魔が出現",
     "translation": "",
     "note": ""
   },
@@ -1163,7 +1163,7 @@
     "id": "game.shopsmp.m0150.p00",
     "source_encoding": "game_font12_event_space",
     "output_encoding": "",
-    "reference": "赤色……CHAOS黄性の悪魔が出現",
+    "reference": "赤色……CHAOS属性の悪魔が出現",
     "translation": "",
     "note": ""
   },
@@ -1171,7 +1171,7 @@
     "id": "game.shopsmp.m0151.p00",
     "source_encoding": "game_font12_event_space",
     "output_encoding": "",
-    "reference": "白色……NEUTRAL黄性の悪魔が出現",
+    "reference": "白色……NEUTRAL属性の悪魔が出現",
     "translation": "",
     "note": ""
   },
@@ -1179,7 +1179,7 @@
     "id": "game.shopsmp.m0152.p00",
     "source_encoding": "game_font12_event_space",
     "output_encoding": "",
-    "reference": "2身・3身合体とも方{GLYPH:01ad}ボタンで上下左右に",
+    "reference": "2身・3身合体とも方向ボタンで上下左右に",
     "translation": "",
     "note": ""
   },
@@ -1219,7 +1219,7 @@
     "id": "game.shopsmp.m0157.p00",
     "source_encoding": "game_font12_event_space",
     "output_encoding": "",
-    "reference": "以下の4つの種族名については省略物であ",
+    "reference": "以下の4つの種族名については省略形であ",
     "translation": "",
     "note": ""
   },
@@ -1587,7 +1587,7 @@
     "id": "game.shopsmp.m0203.p00",
     "source_encoding": "game_font12_event_space",
     "output_encoding": "",
-    "reference": "時{GLYPH:01a7}",
+    "reference": "人間",
     "translation": "",
     "note": ""
   },
@@ -1627,7 +1627,7 @@
     "id": "game.shopsmp.m0208.p00",
     "source_encoding": "game_font12_event_space",
     "output_encoding": "",
-    "reference": "機天",
+    "reference": "飛天",
     "translation": "",
     "note": ""
   },
@@ -1707,7 +1707,7 @@
     "id": "game.shopsmp.m0218.p00",
     "source_encoding": "game_font12_event_space",
     "output_encoding": "",
-    "reference": "時",
+    "reference": "人",
     "translation": "",
     "note": ""
   },
@@ -2059,7 +2059,7 @@
     "id": "game.shopsmp.m0262.p00",
     "source_encoding": "game_font12_event_space",
     "output_encoding": "",
-    "reference": "時{GLYPH:01a7}",
+    "reference": "人間",
     "translation": "",
     "note": ""
   },
@@ -2067,7 +2067,7 @@
     "id": "game.shopsmp.m0263.p00",
     "source_encoding": "game_font12_event_space",
     "output_encoding": "",
-    "reference": "{GLYPH:0117}{GLYPH:0117}",
+    "reference": "--",
     "translation": "",
     "note": ""
   },
@@ -2075,7 +2075,7 @@
     "id": "game.shopsmp.m0264.p00",
     "source_encoding": "game_font12_event_space",
     "output_encoding": "",
-    "reference": "{GLYPH:0115}{GLYPH:0116}",
+    "reference": "><",
     "translation": "",
     "note": ""
   },
@@ -2083,7 +2083,7 @@
     "id": "game.shopsmp.m0265.p00",
     "source_encoding": "game_font12_event_space",
     "output_encoding": "",
-    "reference": "{GLYPH:01a9}表",
+    "reference": "別表",
     "translation": "",
     "note": ""
   },
@@ -5747,7 +5747,7 @@
     "id": "game.shopsmp.m0773.p00",
     "source_encoding": "game_font16_event_space",
     "output_encoding": "",
-    "reference": "MAG→金の交換",
+    "reference": "MAG🠊金の交換",
     "translation": "",
     "note": ""
   },
@@ -5755,7 +5755,7 @@
     "id": "game.shopsmp.m0774.p00",
     "source_encoding": "game_font16_event_space",
     "output_encoding": "",
-    "reference": "金→MAGの交換",
+    "reference": "金🠊MAGの交換",
     "translation": "",
     "note": ""
   },

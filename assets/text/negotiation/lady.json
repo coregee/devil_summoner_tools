@@ -570,8 +570,8 @@
     },
     "dialogue_0094": {
       "text": {
-        "reference": "じゃあ私が{n}気分をまぎらわせてあげる{OP:8026}『{OP:8020}",
-        "translation": "Then let me take your mind off it. {OP:8026}『{OP:8020}"
+        "reference": "じゃあ私が{n}気分をまぎらわせてあげる{OP:8026}♡{OP:8020}",
+        "translation": "Then let me take your mind off it. {OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0095": {
@@ -1883,8 +1883,8 @@
     },
     "dialogue_0306": {
       "text": {
-        "reference": "いじめてあ{BEAT}げ{BEAT}る{BEAT}{OP:8026}『{OP:8020}",
-        "translation": "I'll t{BEAT}o{BEAT}rment you...{BEAT}{OP:8026}『{OP:8020}"
+        "reference": "いじめてあ{BEAT}げ{BEAT}る{BEAT}{OP:8026}♡{OP:8020}",
+        "translation": "I'll t{BEAT}o{BEAT}rment you...{BEAT}{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0307": {
@@ -2706,8 +2706,8 @@
         "offered_item": "item_name"
       },
       "text": {
-        "reference": "なかなか楽しかったわ{n}お礼に{offered_item}をあげる{n}私だと思って大事にしてね{OP:8026}『{OP:8020}",
-        "translation": "That was rather fun. As thanks, take {offered_item}. Treasure it as though it were me. {OP:8026}『{OP:8020}"
+        "reference": "なかなか楽しかったわ{n}お礼に{offered_item}をあげる{n}私だと思って大事にしてね{OP:8026}♡{OP:8020}",
+        "translation": "That was rather fun. As thanks, take {offered_item}. Treasure it as though it were me. {OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0439": {
@@ -2775,20 +2775,20 @@
     },
     "dialogue_0449": {
       "text": {
-        "reference": "ごめんなさい{n}許して…{BEAT}ねっ{OP:8026}『{OP:8020}",
-        "translation": "I'm sorry. Please forgive me...{BEAT} All right? {OP:8026}『{OP:8020}"
+        "reference": "ごめんなさい{n}許して…{BEAT}ねっ{OP:8026}♡{OP:8020}",
+        "translation": "I'm sorry. Please forgive me...{BEAT} All right? {OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0450": {
       "text": {
-        "reference": "私のこと必要ないようね…{n}また会える日を楽しみにしてるわ{OP:8026}『{OP:8020}",
-        "translation": "It seems you don't need me... I'll look forward to the day we meet again. {OP:8026}『{OP:8020}"
+        "reference": "私のこと必要ないようね…{n}また会える日を楽しみにしてるわ{OP:8026}♡{OP:8020}",
+        "translation": "It seems you don't need me... I'll look forward to the day we meet again. {OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0451": {
       "text": {
-        "reference": "仲魔にいれて{BEAT}ねっ{OP:8026}『{OP:8020}",
-        "translation": "Let me join y{BEAT}ou. {OP:8026}『{OP:8020}"
+        "reference": "仲魔にいれて{BEAT}ねっ{OP:8026}♡{OP:8020}",
+        "translation": "Let me join y{BEAT}ou. {OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0452": {
@@ -2799,8 +2799,8 @@
     },
     "dialogue_0453": {
       "text": {
-        "reference": "また会える日を楽しみにしてるわ{OP:8026}『{OP:8020}",
-        "translation": "I'll look forward to the day we meet again. {OP:8026}『{OP:8020}"
+        "reference": "また会える日を楽しみにしてるわ{OP:8026}♡{OP:8020}",
+        "translation": "I'll look forward to the day we meet again. {OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0454": {
@@ -3435,8 +3435,8 @@
     },
     "condition_charmed": {
       "text": {
-        "reference": "アタシは あなたのもの…好きにして『",
-        "translation": "I'm yours... Do whatever you like...『",
+        "reference": "アタシは あなたのもの…好きにして♡",
+        "translation": "I'm yours... Do whatever you like...{heart_symbol}",
         "reviewed": true
       }
     },

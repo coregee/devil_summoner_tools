@@ -246,10 +246,10 @@
     "game.magname.o003484.name": "reserved_skill_141.name",
     "game.magname.o00348c.description": "reserved_skill_141.description",
     "compendium.ability_names.o06a4a4.text": "reserved_skill_141.name",
-    "game.btl_mes.p0190": "eight_shooting_stars.console_text",
-    "game.magname.o0034e4.name": "eight_shooting_stars.name",
-    "game.magname.o0034ec.description": "eight_shooting_stars.description",
-    "compendium.ability_names.o06a4b4.text": "eight_shooting_stars.name",
+    "game.btl_mes.p0190": "seven_shooting_stars.console_text",
+    "game.magname.o0034e4.name": "seven_shooting_stars.name",
+    "game.magname.o0034ec.description": "seven_shooting_stars.description",
+    "compendium.ability_names.o06a4b4.text": "seven_shooting_stars.name",
     "game.btl_mes.p0191": "six_shining_stars.console_text",
     "game.magname.o003544.name": "six_shining_stars.name",
     "game.magname.o00354c.description": "six_shining_stars.description",
@@ -656,13 +656,6 @@
     "game.magname.o005f44.name": "reserved_skill_255.name",
     "game.magname.o005f4c.description": "reserved_skill_255.description",
     "compendium.ability_names.o06abc4.text": "reserved_skill_255.name"
-  },
-  "variants": {
-    "compendium.ability_names.o06a484.text": "akuma_zensho",
-    "compendium.ability_names.o06a494.text": "akuma_zensho"
-  },
-  "glyph_equivalence": {
-    "00e3": "ぷ"
   },
   "field_surfaces": {
     "name": [

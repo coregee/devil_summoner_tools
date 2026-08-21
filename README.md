@@ -113,8 +113,10 @@ width, row, and capacity limits. See the
 layout-sensitive text.
 
 The local translation editor provides a searchable view of these same canonical
-assets, checks every mapped Saturn consumer, and previews supported surfaces
-with the generated game fonts:
+assets, checks every mapped Saturn consumer, previews supported surfaces with
+the generated game fonts, and provides language projects for importing a
+typeface, automatically assigning required characters to editable runtime
+slots, and comparing original and modified font atlases:
 
 ```powershell
 python -B -m tools.editor
@@ -212,6 +214,7 @@ configuration itself can be inspected without them using `--plan`,
 ## Documentation
 
 - [Shared text asset model](assets/text/README.md)
+- [Language projects](assets/languages/README.md)
 - [Text consumer specifications](assets/consumers.md)
 - [Saturn ROM extraction and rebuilding](saturn/rom/README.md)
 - [Saturn text extraction and repacking](saturn/text/README.md)

@@ -16,13 +16,8 @@
     "game.facility_command_labels.standard_commands.r0003": "exit.text",
     "game.facility_command_labels.o0425fe": "status.text"
   },
-  "glyph_equivalence": {
-    "e0": "S",
-    "e1": "T",
-    "e2": "A",
-    "e3": "T",
-    "e4": "U",
-    "e5": "S"
+  "variants": {
+    "game.facility_command_labels.o0425fe": "font8_tiles"
   },
   "record_surfaces": {
     "game.facility_command_labels.standard_commands.r0003": [

@@ -27,9 +27,9 @@ MATURE_BANK_HASHES = {
     "COMBDATA/TLK_YNGM.EVE": "44333f1b164a3cd1a0101df60678cb8a9bc744af4cfbaf8005a62550950279e4",
     "COMBDATA/GRL.EVE": "62aed64f6163a3307b049d80a4948d1bfc7ed82aac1c92d6f94365f18d134a46",
     "COMBDATA/TLK_BOY.EVE": "cb5f44f8577f209a33885e2ff6878dfae42253de0aeee672b5705628d6c18d8c",
-    "COMBDATA/CLD_F.EVE": "8ee3ab4d2682e65296bd13efbdad7cf6c81082a8a7aa6b922efe229301da9e92",
+    "COMBDATA/CLD_F.EVE": "c1d8ed1806853eb1ff63a600b7788b0050c52f5e74897fa00139e1cb9855217a",
     "COMBDATA/TLK_LADY.EVE": "587d9e4dc6904f41294e5270db0587919f753de2310f6d835a307beb5e67c2fb",
-    "COMBDATA/TLK_CRZY.EVE": "7b63078b2b44814b4514cc67a284f2e3daf54a41c2b13814bff2ef61b102ca56",
+    "COMBDATA/TLK_CRZY.EVE": "d54403a02fbb68921c3350e41be5c67f4ab7304d643d83546cf7fbdc81749d8b",
     "COMBDATA/JIJY.EVE": "d3c3dfecfcc05a1235d510e98a4a0fc6ded93880a904493236552dcfb877d5a6",
     "COMBDATA/CYNI.EVE": "6b3149a3834280a2a71b8057fe36608f021ebefba2e69bde8235dc260664140a",
     "COMBDATA/TLK_WEST.EVE": "c9140c60ab26a02f08bef4df1f8559adbfcbc200282678298f89cf19204242c8",
@@ -56,13 +56,13 @@ class BattleNegotiationRepackTests(unittest.TestCase):
             hashlib.sha256(
                 self.outputs[TEXT_ROOT / "generated" / "game" / "COMBAT.BIN"]
             ).hexdigest(),
-            "5c1c9b72ff06c06792deb5b655bfabf4e345c8a7535ac5388fd5bbe4d3a38430",
+            "7fa8643884fedecbd70bbb2074336c1e4e06b1455178afeb6e6456ca2ac58048",
         )
         self.assertEqual(
             hashlib.sha256(
                 self.outputs[TEXT_ROOT / "generated" / "game" / "ITEMNAME.DAT"]
             ).hexdigest(),
-            "ef7529cb8d5b3ace761172c79c9359a7d588bfda0260a00c754dfdec8e2be140",
+            "97727575963142efda2aa8b5544fd8406aad0691f87db8332ea39d51f8868c28",
         )
 
     def test_manifest_covers_every_translator_facing_page(self) -> None:

@@ -186,7 +186,7 @@
         }
       },
       "console_text": {
-        "reference": "OUTSIDER’SーLAW",
+        "reference": "OUTSIDER'SーLAW",
         "translation": "Foul_Law"
       }
     },
@@ -584,7 +584,7 @@
         "translation": "Boss-only skill."
       },
       "console_text": {
-        "reference": "PHOTO’NーSHOT",
+        "reference": "PHOTO'NーSHOT",
         "translation": "Photon_Shot"
       }
     },
@@ -652,7 +652,7 @@
         "translation": "Enemy-only skill."
       },
       "console_text": {
-        "reference": "DEMON’SーLURE",
+        "reference": "DEMON'SーLURE",
         "translation": "Demon's_Lure"
       }
     },
@@ -826,7 +826,7 @@
         "translation": "Enemy-only skill."
       },
       "console_text": {
-        "reference": "DEMON’SーLURE",
+        "reference": "DEMON'SーLURE",
         "translation": "Demon's_Lure"
       }
     },
@@ -940,7 +940,7 @@
         }
       },
       "console_text": {
-        "reference": "ANGEL’SーKISS",
+        "reference": "ANGEL'SーKISS",
         "translation": "Angel's_Kiss"
       }
     },
@@ -966,7 +966,7 @@
         }
       },
       "console_text": {
-        "reference": "DEMON’SーKISS",
+        "reference": "DEMON'SーKISS",
         "translation": "Demon's_Kiss"
       }
     },
@@ -1102,16 +1102,8 @@
     },
     "die_hard": {
       "name": {
-        "reference": "ダイ‐ハード",
-        "translation": "Die Hard",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "ダイ・ハード"
-          },
-          "psp": {
-            "reference": "ダイ・ハード"
-          }
-        }
+        "reference": "ダイ・ハード",
+        "translation": "Die Hard"
       },
       "description": {
         "reference": "特殊魔法行動 全体{n}味方全体の防御力・命中力アップ",
@@ -1124,16 +1116,8 @@
     },
     "vice_gospel": {
       "name": {
-        "reference": "バイス‐ゴスペル",
-        "translation": "Vice Gospel",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "バイス・ゴスペル"
-          },
-          "psp": {
-            "reference": "バイス・ゴスペル"
-          }
-        }
+        "reference": "バイス・ゴスペル",
+        "translation": "Vice Gospel"
       },
       "description": {
         "reference": "ボスのみ",
@@ -1156,12 +1140,12 @@
         "translation": "Unimplemented."
       }
     },
-    "eight_shooting_stars": {
+    "seven_shooting_stars": {
       "status": "unresolved",
       "note": "This is one of two text-identical Demon's Lure records. Their semantic relationship is not inferred without call-site evidence.",
       "name": {
         "reference": "しちせいこうてん",
-        "translation": "8 Shooting Stars",
+        "translation": "7 Shooting Stars",
         "variants": {
           "psp": {
             "reference": "{GLYPH:0637}星降天"
@@ -1173,8 +1157,8 @@
         "translation": "Boss-only skill."
       },
       "console_text": {
-        "reference": "SHOOTINGー8STARS",
-        "translation": "8_Shooting_Stars"
+        "reference": "SHOOTINGー7STARS",
+        "translation": "7_Shooting_Stars"
       }
     },
     "six_shining_stars": {
@@ -1194,7 +1178,7 @@
         "translation": "Boss-only skill."
       },
       "console_text": {
-        "reference": "BRIGHTENー7STARS",
+        "reference": "BRIGHTENー6STARS",
         "translation": "6_Shining_Stars"
       }
     },

@@ -32,13 +32,8 @@
     },
     "amon_ra": {
       "name": {
-        "reference": "アメン‐ラー",
-        "translation": "Amon-Ra",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "アメン・ラー"
-          }
-        }
+        "reference": "アメン・ラー",
+        "translation": "Amon-Ra"
       },
       "compendium_origin": {
         "reference": "エジプト",
@@ -779,13 +774,8 @@
     },
     "cu_chulainn": {
       "name": {
-        "reference": "クー‐フーリン",
-        "translation": "Cu Chulainn",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "クー・フーリン"
-          }
-        }
+        "reference": "クー・フーリン",
+        "translation": "Cu Chulainn"
       },
       "compendium_origin": {
         "reference": "アイルランド",
@@ -1406,13 +1396,8 @@
     },
     "jeanne_d_arc": {
       "name": {
-        "reference": "ジャンヌ‐ダルク",
-        "translation": "Jeanne d'Arc",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "ジャンヌ・ダルク"
-          }
-        }
+        "reference": "ジャンヌ・ダルク",
+        "translation": "Jeanne d'Arc"
       },
       "compendium_origin": {
         "reference": "フランス",
@@ -3983,13 +3968,8 @@
     },
     "moh_shuvuu": {
       "name": {
-        "reference": "モー‐ショボー",
-        "translation": "Moh Shuvuu",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "モー・ショボー"
-          }
-        }
+        "reference": "モー・ショボー",
+        "translation": "Moh Shuvuu"
       },
       "compendium_origin": {
         "reference": "モンゴル",
@@ -5456,13 +5436,8 @@
     },
     "dolly_kadmon": {
       "name": {
-        "reference": "ドリー‐カドモン",
-        "translation": "Dolly Kadmon",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "ドリー・カドモン"
-          }
-        }
+        "reference": "ドリー・カドモン",
+        "translation": "Dolly Kadmon"
       }
     },
     "preta_unprofiled": {

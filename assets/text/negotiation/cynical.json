@@ -61,7 +61,7 @@
     },
     "dialogue_0009": {
       "text": {
-        "reference": "グゴブガガェ{n}ンゾベギミバ{maru_symbol}ジォ",
+        "reference": "グゴブガガェ{n}ンゾベギミバ{happy_symbol}ジォ",
         "translation": "Gugobugagae! Nzobegimivazhyo!"
       }
     },
@@ -118,7 +118,7 @@
     },
     "dialogue_0018": {
       "text": {
-        "reference": "グゴブガガェ{n}ンゾベギミバ{maru_symbol}ジォ",
+        "reference": "グゴブガガェ{n}ンゾベギミバ{happy_symbol}ジォ",
         "translation": "Gugobugagae! Nzobegimivazhyo!"
       }
     },
@@ -330,7 +330,7 @@
     },
     "dialogue_0052": {
       "text": {
-        "reference": "お洋服、汚れちゃったしー。{n}着がえてくるね{OP:8026}『{OP:8020}{n}{WAIT}それまでブラブラしてて、{BEAT}ダーリン{OP:8026}『{OP:8020}",
+        "reference": "お洋服、汚れちゃったしー。{n}着がえてくるね{OP:8026}♡{OP:8020}{n}{WAIT}それまでブラブラしてて、{BEAT}ダーリン{OP:8026}♡{OP:8020}",
         "translation": "And my clothes are all dirty, so I'm going to change{OP:8026}~{OP:8020}{WAIT} Wander around until I return,{BEAT} darling{OP:8026}~{OP:8020}"
       }
     },
@@ -1035,7 +1035,7 @@
     },
     "dialogue_0166": {
       "text": {
-        "reference": "アクマでも、愛してくれるぅ{OP:8026}『『{OP:8020}",
+        "reference": "アクマでも、愛してくれるぅ{OP:8026}♡♡{OP:8020}",
         "translation": "Would you love me, even if I'm a demon{OP:8026}?{OP:8020}"
       }
     },
@@ -1296,7 +1296,7 @@
     },
     "dialogue_0208": {
       "text": {
-        "reference": "誕生日には、自分で自分に、{n}「ご苦労様{OP:8026}『{OP:8020}」とか言って、",
+        "reference": "誕生日には、自分で自分に、{n}「ご苦労様{OP:8026}♡{OP:8020}」とか言って、",
         "translation": "on your birthday, you tell yourself “Good work{OP:8026}!{OP:8020}” and...",
         "note": "Middle fragment; dialogue_0207 supplies Perhaps, and dialogue_0209 completes the question."
       }
@@ -1798,7 +1798,7 @@
     },
     "dialogue_0289": {
       "text": {
-        "reference": "うん{maru_symbol}おじちゃん、好き好きぃ～{maru_symbol}{n}{WAIT}妖虫ウブのマネ。{n}{WAIT}ちょっと、マイナーすぎたな。",
+        "reference": "うん{happy_symbol}おじちゃん、好き好きぃ～{happy_symbol}{n}{WAIT}妖虫ウブのマネ。{n}{WAIT}ちょっと、マイナーすぎたな。",
         "translation": "“Mm! I love you, mister!”{WAIT} My impression of Vermin Ubu.{WAIT} That reference was a bit too obscure."
       }
     },
@@ -2092,13 +2092,13 @@
     },
     "dialogue_0337": {
       "text": {
-        "reference": "好きです{OP:8026}『{OP:8020}",
+        "reference": "好きです{OP:8026}♡{OP:8020}",
         "translation": "I love you{OP:8026}!{OP:8020}"
       }
     },
     "dialogue_0338": {
       "text": {
-        "reference": "つきあって下さい{OP:8026}『{OP:8020}",
+        "reference": "つきあって下さい{OP:8026}♡{OP:8020}",
         "translation": "Please go out with me{OP:8026}!{OP:8020}"
       }
     },
@@ -2352,7 +2352,7 @@
     },
     "dialogue_0379": {
       "text": {
-        "reference": "殺しちゃや～よぉ、おじちゃん{maru_symbol}{n}これ、あげるからぁ～{maru_symbol}{n}{WAIT}そんな感じだ。",
+        "reference": "殺しちゃや～よぉ、おじちゃん{happy_symbol}{n}これ、あげるからぁ～{happy_symbol}{n}{WAIT}そんな感じだ。",
         "translation": "“Don't kill me, mister! I'll give you this!”{WAIT} Something like that."
       }
     },

@@ -1,7 +1,7 @@
 [
   {
     "id": "game.charname.o000000.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "たにがわ ハジメ",
     "translation": "",
@@ -9,15 +9,15 @@
   },
   {
     "id": "game.charname.o000008.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
-    "reference": "レイ‐レイホゥ",
+    "reference": "レイ・レイホゥ",
     "translation": "",
     "note": ""
   },
   {
     "id": "game.charname.o000010.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "キョウジ",
     "translation": "",
@@ -25,7 +25,7 @@
   },
   {
     "id": "game.charname.o000018.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "たにがわたろう",
     "translation": "",
@@ -33,7 +33,7 @@
   },
   {
     "id": "game.charname.o000020.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "たにがわじろう",
     "translation": "",
@@ -41,7 +41,7 @@
   },
   {
     "id": "game.charname.o000028.text",
-    "source_encoding": "game_font8_plain_glyph",
+    "source_encoding": "game_font8_kana_composer",
     "output_encoding": "",
     "reference": "たにがわさぶろう",
     "translation": "",

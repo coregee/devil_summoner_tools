@@ -315,7 +315,7 @@ def _encode(text: str, metrics: FontMetrics, context: str) -> tuple[int, ...]:
     if "{" in text or "}" in text or "\n" in text:
         raise ValueError(f"{context} contains unsupported controls")
     try:
-        return tuple(glyph.code for glyph in metrics.segment(text))
+        return tuple(glyph.code for glyph in metrics.segment_output(text))
     except ValueError as error:
         raise ValueError(f"{context}: {error}") from error
 

@@ -105,7 +105,7 @@ class RaceAssetTests(unittest.TestCase):
         )
         human = self.catalog.entries["human"]
         self.assertEqual(human.fields["name"].translation, "Human")
-        self.assertEqual(human.fields["fusion_name"].translation, "Time")
+        self.assertEqual(human.fields["fusion_name"].translation, "Human")
         self.assertEqual(
             human.fields["name"].resolve("psp")[:2],
             ("", ""),
@@ -130,7 +130,7 @@ class RaceAssetTests(unittest.TestCase):
                 .fields["fusion_group_label"]
                 .translation,
             ),
-            ("時間", "Time"),
+            ("人間", "Human"),
         )
 
     def test_game_and_compendium_occurrences_bind_explicitly(self) -> None:

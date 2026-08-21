@@ -301,7 +301,7 @@ def _build_runtime() -> _Runtime:
     for link, physical_id, _literal in MESSAGE_ROWS:
         value = values[physical_id]
         try:
-            codes = tuple(glyph.code for glyph in metrics.segment(value))
+            codes = tuple(glyph.code for glyph in metrics.segment_output(value))
         except ValueError as error:
             raise ValueError(f"{physical_id}: {error}") from error
         layout = _layout_words(codes, space_code)

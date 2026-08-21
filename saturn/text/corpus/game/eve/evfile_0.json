@@ -3,7 +3,7 @@
     "id": "game.evfile_0.m0000.p00",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "ようこそ、DDS{GLYPH:010d}NETへ。{n}",
+    "reference": "ようこそ、DDS−NETへ。{n}",
     "translation": "",
     "note": ""
   },
@@ -107,7 +107,7 @@
     "id": "game.evfile_0.m0011.p01",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "DDS{GLYPH:010d}NETを{n}今後ともよろしくお願いします。",
+    "reference": "DDS−NETを{n}今後ともよろしくお願いします。",
     "translation": "",
     "note": ""
   },
@@ -147,7 +147,7 @@
     "id": "game.evfile_0.m0016.p00",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "DDS{GLYPH:010d}NET：{codename}さんに、{n}メッセージが届きました。",
+    "reference": "DDS−NET：{codename}さんに、{n}メッセージが届きました。",
     "translation": "",
     "note": ""
   },
@@ -339,7 +339,7 @@
     "id": "game.evfile_0.m0026.p00",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "DDS{GLYPH:010d}NET：ただいまメンテナンス中に{n}つき、アクセスできません。",
+    "reference": "DDS−NET：ただいまメンテナンス中に{n}つき、アクセスできません。",
     "translation": "",
     "note": ""
   },
@@ -619,7 +619,7 @@
     "id": "game.evfile_0.m0061.p00",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "DDS{GLYPH:010d}NET：ただいま、{n}システムメンテナンス中につき、{n}アクセスできません。",
+    "reference": "DDS−NET：ただいま、{n}システムメンテナンス中につき、{n}アクセスできません。",
     "translation": "",
     "note": ""
   },
@@ -2691,7 +2691,7 @@
     "id": "game.evfile_0.m0235.p04",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "さらに、{GLYPH:00c0}10000．手に入れた。",
+    "reference": "さらに、▯10000．手に入れた。",
     "translation": "",
     "note": ""
   },
@@ -3403,7 +3403,7 @@
     "id": "game.evfile_0.m0290.p01",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "ギャラの{GLYPH:00c0}50000．{n}わざわざ、持ってきてあげたわよ。",
+    "reference": "ギャラの▯50000．{n}わざわざ、持ってきてあげたわよ。",
     "translation": "",
     "note": ""
   },
@@ -3747,7 +3747,7 @@
     "id": "game.evfile_0.m0317.p01",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "DDS{GLYPH:010d}NET：ようこそ。{n}{codename}さん。",
+    "reference": "DDS−NET：ようこそ。{n}{codename}さん。",
     "translation": "",
     "note": ""
   },
@@ -4339,7 +4339,7 @@
     "id": "game.evfile_0.m0344.p00",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "マリー：どーも、ご苦労様ね。{n}これ、今回のギャラ{GLYPH:00c0}50000．",
+    "reference": "マリー：どーも、ご苦労様ね。{n}これ、今回のギャラ▯50000．",
     "translation": "",
     "note": ""
   },
@@ -4411,7 +4411,7 @@
     "id": "game.evfile_0.m0351.p01",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "これはギャラの{GLYPH:00c0}50000．",
+    "reference": "これはギャラの▯50000．",
     "translation": "",
     "note": ""
   },
@@ -4491,7 +4491,7 @@
     "id": "game.evfile_0.m0355.p01",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "これはギャラの{GLYPH:00c0}50000．",
+    "reference": "これはギャラの▯50000．",
     "translation": "",
     "note": ""
   },
@@ -4587,7 +4587,7 @@
     "id": "game.evfile_0.m0363.p01",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "これはギャラの{GLYPH:00c0}50000．",
+    "reference": "これはギャラの▯50000．",
     "translation": "",
     "note": ""
   },
@@ -4659,7 +4659,7 @@
     "id": "game.evfile_0.m0370.p01",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "これはギャラの{GLYPH:00c0}50000．",
+    "reference": "これはギャラの▯50000．",
     "translation": "",
     "note": ""
   },
@@ -4731,7 +4731,7 @@
     "id": "game.evfile_0.m0377.p01",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "これはギャラの{GLYPH:00c0}50000．",
+    "reference": "これはギャラの▯50000．",
     "translation": "",
     "note": ""
   },
@@ -4819,7 +4819,7 @@
     "id": "game.evfile_0.m0382.p01",
     "source_encoding": "game_font12_16_event_skip",
     "output_encoding": "",
-    "reference": "これはギャラの{GLYPH:00c0}50000．",
+    "reference": "これはギャラの▯50000．",
     "translation": "",
     "note": ""
   },

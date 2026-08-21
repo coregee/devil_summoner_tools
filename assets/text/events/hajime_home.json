@@ -113,7 +113,7 @@
     },
     "hajime_home_opening_016": {
       "text": {
-        "reference": "DDS-NET：ただいまメンテナンス中に{n}つき、アクセスできません。",
+        "reference": "DDS−NET：ただいまメンテナンス中に{n}つき、アクセスできません。",
         "translation": "DDS-NET: Our systems are down for maintenance.{n}Access to the service is currently unavailable."
       }
     },
@@ -297,7 +297,7 @@
     },
     "hajime_home_later_visits_017": {
       "text": {
-        "reference": "DDS-NET：ただいま、{n}システムメンテナンス中につき、{n}アクセスできません。",
+        "reference": "DDS−NET：ただいま、{n}システムメンテナンス中につき、{n}アクセスできません。",
         "translation": "DDS-NET: Our systems are down for maintenance.{n}Access to the service is currently unavailable."
       }
     },

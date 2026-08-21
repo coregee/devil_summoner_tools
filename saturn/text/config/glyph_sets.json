@@ -1,43 +1,12 @@
 {
   "version": 1,
   "handlers": {
-    "font8_stock_latin": {
-      "font": "font8",
-      "reference_set": "stock_latin"
-    },
     "kanji_stock_latin": {
       "font": "kanji",
       "reference_set": "stock_latin"
     }
   },
   "surface_handlers": {
-    "battle.command": "font8_stock_latin",
-    "battle.party_empty": "font8_stock_latin",
-    "battle.party_in_party": "font8_stock_latin",
-    "comp.command": "font8_stock_latin",
-    "shop.command": "font8_stock_latin",
-    "bar.command": "font8_stock_latin",
-    "healer.command": "font8_stock_latin",
-    "status.auto_command": "font8_stock_latin",
-    "status.auto_setting": "font8_stock_latin",
-    "status.party_alignment": "font8_stock_latin",
-    "status.alignment_axis_label": "font8_stock_latin",
-    "map_3d.analyze_grid.race_heading": "font8_stock_latin",
-    "map_3d.analyze_grid.name_heading": "font8_stock_latin",
-    "map_3d.analyze_grid.level_heading": "font8_stock_latin",
-    "map_3d.analyze_grid.hit_points_heading": "font8_stock_latin",
-    "map_3d.analyze_grid.magic_points_heading": "font8_stock_latin",
-    "map_3d.analyze_grid.attack_heading": "font8_stock_latin",
-    "map_3d.analyze_grid.defense_heading": "font8_stock_latin",
-    "map_3d.analyze_detail.numeric_readout": "font8_stock_latin",
-    "map_3d.analyze_detail.skill_cost": "font8_stock_latin",
-    "level_up.numeric_readout": "font8_stock_latin",
-    "level_up.max_level_next": "font8_stock_latin",
-    "level_up.no_magic_points": "font8_stock_latin",
-    "level_up.title": "font8_stock_latin",
-    "level_up.remaining_points": "font8_stock_latin",
-    "level_up.accept_action": "font8_stock_latin",
-    "level_up.confirm_choice": "font8_stock_latin",
     "name_entry.grid_row": "kanji_stock_latin"
   }
 }

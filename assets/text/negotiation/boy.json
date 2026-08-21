@@ -1953,7 +1953,7 @@
     },
     "dialogue_0319": {
       "text": {
-        "reference": "でもボクほどじゃないよ…{BEAT}{n}1{GLYPH:010c}1＝2{BEAT}1{GLYPH:010c}2＝3{BEAT}1{GLYPH:010c}3＝{BEAT}・{BEAT}・{BEAT}・{BEAT}{n}…え～{BEAT}っと{BEAT}5{BEAT}かな？{BEAT}あれ？",
+        "reference": "でもボクほどじゃないよ…{BEAT}{n}1+1＝2{BEAT}1+2＝3{BEAT}1+3＝{BEAT}・{BEAT}・{BEAT}・{BEAT}{n}…え～{BEAT}っと{BEAT}5{BEAT}かな？{BEAT}あれ？",
         "translation": "But not as smart as me...{BEAT} One{BEAT} plus one is two,{BEAT} one{BEAT} plus two is three,{BEAT} one plus three is...{BEAT}.{BEAT}.{BEAT}.{BEAT} um...{BEAT} five?{BEAT} Huh?"
       }
     },

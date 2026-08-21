@@ -7,7 +7,7 @@
         "codename": "player_codename"
       },
       "text": {
-        "reference": "DDS-NET：{codename}さんに、{n}メッセージが届きました。",
+        "reference": "DDS−NET：{codename}さんに、{n}メッセージが届きました。",
         "translation": "DDS-NET: {codename}, you have received a message."
       }
     },
@@ -78,7 +78,7 @@
         "codename": "player_codename"
       },
       "text": {
-        "reference": "DDS-NET：ようこそ。{n}{codename}さん。",
+        "reference": "DDS−NET：ようこそ。{n}{codename}さん。",
         "translation": "DDS-NET: Welcome,{n}{codename}."
       }
     },

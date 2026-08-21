@@ -441,7 +441,7 @@ def _encode(
 ) -> tuple[int, ...]:
     literal = _literal_text(value, context, allow_empty=allow_empty)
     try:
-        return tuple(glyph.code for glyph in metrics.segment(literal))
+        return tuple(glyph.code for glyph in metrics.segment_output(literal))
     except ValueError as error:
         raise ValueError(f"{context}: {error}") from error
 

@@ -5,25 +5,29 @@
     "race_heading": {
       "text": {
         "reference": "RACE",
-        "translation": "RACE"
+        "translation": "RACE",
+        "font8_alphabet": "original"
       }
     },
     "name_heading": {
       "text": {
         "reference": "NAME",
-        "translation": "NAME"
+        "translation": "NAME",
+        "font8_alphabet": "original"
       }
     },
     "attack_heading": {
       "text": {
         "reference": "ATK",
-        "translation": "ATK"
+        "translation": "ATK",
+        "font8_alphabet": "original"
       }
     },
     "defense_heading": {
       "text": {
         "reference": "DEF",
-        "translation": "DEF"
+        "translation": "DEF",
+        "font8_alphabet": "original"
       }
     },
     "magic_cost": {
@@ -33,7 +37,8 @@
       "note": "The DA_3D skill renderer selects this MP-cost form for ability IDs through 159; the stored record is its editable M suffix.",
       "text": {
         "reference": "{cost}M",
-        "translation": "{cost}M"
+        "translation": "{cost}M",
+        "font8_alphabet": "original"
       }
     },
     "health_cost": {
@@ -43,7 +48,8 @@
       "note": "The DA_3D skill renderer selects this HP-cost form for ability IDs above 159; the stored record is its editable H suffix.",
       "text": {
         "reference": "{cost}H",
-        "translation": "{cost}H"
+        "translation": "{cost}H",
+        "font8_alphabet": "original"
       }
     }
   }

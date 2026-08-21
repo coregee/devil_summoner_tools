@@ -72,16 +72,88 @@
           "characters": "合体目最後足本剣出名称記号始見方種類知誰身検索前"
         },
         {
+          "replace": false,
           "start": 360,
-          "characters": "法則可能通常表一覧示並変更族結果不具現元同力組存"
+          "characters": "法則可能通常表一覧示並変更族結果不"
         },
         {
+          "replace": false,
+          "377": "基"
+        },
+        {
+          "replace": false,
+          "start": 378,
+          "characters": "現元同力組存"
+        },
+        {
+          "replace": false,
           "start": 384,
-          "characters": "在色青白赤黄性十字内害左右上下選択以省略物仲順高"
+          "characters": "在色青白赤"
         },
         {
+          "replace": false,
+          "389": "属"
+        },
+        {
+          "replace": false,
+          "start": 390,
+          "characters": "性十字内"
+        },
+        {
+          "replace": false,
+          "394": "容"
+        },
+        {
+          "replace": false,
+          "start": 395,
+          "characters": "左右上下選択以省略"
+        },
+        {
+          "replace": false,
+          "404": "形"
+        },
+        {
+          "replace": false,
+          "start": 405,
+          "characters": "仲順高"
+        },
+        {
+          "replace": false,
           "start": 408,
-          "characters": "低五音終了晶誕生位人間飛別化時間機"
+          "characters": "低五音終了晶誕生位"
+        },
+        {
+          "replace": false,
+          "417": "召"
+        },
+        {
+          "replace": false,
+          "418": "喚"
+        },
+        {
+          "replace": false,
+          "419": "士"
+        },
+        {
+          "replace": false,
+          "420": "中"
+        },
+        {
+          "replace": false,
+          "421": "仮"
+        },
+        {
+          "replace": false,
+          "422": "人"
+        },
+        {
+          "replace": false,
+          "start": 423,
+          "characters": "間"
+        },
+        {
+          "replace": false,
+          "424": "飛"
         }
       ],
       "symbols": [
@@ -131,7 +203,7 @@
             "＃": "#"
           },
           "187": {
-            "{white_square}": null
+            "▢": null
           },
           "188": {
             "↑": null
@@ -146,7 +218,7 @@
             "←": null
           },
           "192": {
-            "{white_square}": null
+            "▯": null
           },
           "193": {
             "♄": null
@@ -200,8 +272,126 @@
             "％": "%"
           },
           "280": {
-            "{level_label}": "Lv"
+            "{level_label}": "Lv."
           }
+        }
+      ],
+      "mapped_source": [
+        {
+          "replace": false,
+          "259": "「"
+        },
+        {
+          "replace": false,
+          "260": "」"
+        },
+        {
+          "replace": false,
+          "261": "『"
+        },
+        {
+          "replace": false,
+          "262": "』"
+        },
+        {
+          "replace": false,
+          "265": "｜"
+        },
+        {
+          "replace": false,
+          "266": "〇"
+        },
+        {
+          "replace": false,
+          "267": "{latin_space}"
+        },
+        {
+          "replace": false,
+          "268": "+"
+        },
+        {
+          "replace": false,
+          "269": "−"
+        },
+        {
+          "replace": false,
+          "270": "×"
+        },
+        {
+          "replace": false,
+          "271": "÷"
+        },
+        {
+          "replace": false,
+          "272": "10"
+        },
+        {
+          "replace": false,
+          "273": "11"
+        },
+        {
+          "replace": false,
+          "274": "12"
+        },
+        {
+          "replace": false,
+          "277": ">"
+        },
+        {
+          "replace": false,
+          "278": "<"
+        },
+        {
+          "replace": false,
+          "276": "▶"
+        },
+        {
+          "replace": false,
+          "275": "◀"
+        },
+        {
+          "replace": false,
+          "279": "-"
+        },
+        {
+          "replace": false,
+          "281": "{l_symbol}"
+        },
+        {
+          "replace": false,
+          "282": "{r_symbol}"
+        },
+        {
+          "replace": false,
+          "283": "▲"
+        },
+        {
+          "replace": false,
+          "284": "▼"
+        },
+        {
+          "replace": false,
+          "285": "*"
+        },
+        {
+          "replace": false,
+          "425": "別"
+        },
+        {
+          "replace": false,
+          "426": "化"
+        },
+        {
+          "replace": false,
+          "427": "特"
+        },
+        {
+          "replace": false,
+          "429": "向"
+        },
+        {
+          "replace": false,
+          "428": "殊"
         }
       ]
     }

@@ -5,19 +5,22 @@
     "command_buy": {
       "text": {
         "reference": "BUY",
-        "translation": "BUY"
+        "translation": "BUY",
+        "font8_alphabet": "original"
       }
     },
     "command_sell": {
       "text": {
         "reference": "SELL",
-        "translation": "SELL"
+        "translation": "SELL",
+        "font8_alphabet": "original"
       }
     },
     "command_equip": {
       "text": {
         "reference": "EQUIP",
-        "translation": "EQUIP"
+        "translation": "EQUIP",
+        "font8_alphabet": "original"
       }
     },
     "line_0011": {
@@ -214,7 +217,7 @@
     },
     "line_0043": {
       "text": {
-        "reference": "{GLYPH:010d}{GLYPH:010d}{GLYPH:010d}{GLYPH:010d}{GLYPH:010d}{GLYPH:010d}",
+        "reference": "−−−−−−",
         "translation": "------"
       }
     },
@@ -597,7 +600,7 @@
       "text": {
         "reference": "Inv.",
         "translation": "Inv.",
-        "note": "Stock two-tile shop label reconstructed by the Saturn English renderer; it is authored here rather than in code."
+        "note": "Editable 'Inv.' label from the Shop Screen, intended for replacement as needed by other languages."
       }
     }
   }

@@ -40,7 +40,7 @@ class FusionEngineTests(unittest.TestCase):
         self.assertEqual(len(self.fusion.runtime), 5786)
         self.assertEqual(
             hashlib.sha256(self.fusion.runtime).hexdigest(),
-            "4b853e181b0c9885d0f59ec21f111b812d4afa194daf48d4f85aea51d98abfd9",
+            "69270adb74c7322fbd69af9e52ab51229409c705943d73dbb07890f8120589e4",
         )
 
         self.assertEqual(
@@ -55,9 +55,9 @@ class FusionEngineTests(unittest.TestCase):
                 "character_pool": 0x06022642,
                 "table_race_offsets": 0x06022690,
                 "table_race_pool": 0x060226E6,
-                "chart_widths": 0x060227EC,
-                "font8_widths": 0x06022817,
-                "font8_map": 0x06022917,
+                "chart_widths": 0x060227ED,
+                "font8_widths": 0x06022818,
+                "font8_map": 0x06022918,
                 "surface_blitter": 0x06022A18,
                 "font8_blitter": 0x06022AC8,
                 "name_drawers": 0x06022B74,
@@ -141,7 +141,7 @@ class FusionEngineTests(unittest.TestCase):
         self.assertEqual(len(output), 354072)
         self.assertEqual(
             hashlib.sha256(output).hexdigest(),
-            "906ffa353eceb0e09ad10f5dde4cbdc08e469dfe11e43d1ff653b2c004f4d826",
+            "96fc22ba20d5d8d1fe03569a2c2a38090d765abec120a5fb030ac0db786347e2",
         )
 
     def test_manifest_accounts_for_every_consumer_patch(self) -> None:

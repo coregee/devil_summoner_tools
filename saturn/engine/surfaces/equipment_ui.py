@@ -8,6 +8,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from engine.shared.font8 import font8_tables
+from engine.shared.status_layout import load_stock_latin_glyphs
 from engine.core.patching import Patch, apply_patches
 from engine.core.patch_recipes import (
     PatchRecipe,
@@ -141,7 +142,7 @@ def _encode_label(
     max_pixels: int,
     max_glyphs: int = 16,
 ) -> EncodedLabel:
-    glyphs = metrics.segment(text)
+    glyphs = metrics.segment_output(text)
     if not glyphs or len(glyphs) > max_glyphs:
         raise ValueError(f"{name} must use 1..{max_glyphs} FONT8 glyphs")
     if any(not 0 <= glyph.code < 0xFF or glyph.advance <= 0 for glyph in glyphs):
@@ -301,27 +302,66 @@ def _build_item_name_drawer(recipe: PatchRecipe, widths: bytes) -> bytes:
     return payload.ljust(len(recipe.expected), b"\0")
 
 
-def _shop_inventory_codes(metrics: FontMetrics) -> tuple[tuple[int, ...], tuple[int, ...]]:
+def _shop_inventory_codes(
+    metrics: FontMetrics,
+) -> tuple[tuple[int, ...], tuple[int, ...], int]:
     shop = load_asset("facilities/shop.json")
-    label = _encode_label(
-        "shop.inventory_label",
-        _translation(shop, "inventory_label.text", "facilities/shop.json"),
-        metrics,
-        max_pixels=16,
-        max_glyphs=4,
-    )
-    glyphs = list(metrics.segment(label.text))
-    if len(glyphs) < 4:
-        blank = metrics.segment(" ")
-        if len(blank) != 1 or blank[0].code >= 0x80:
+    field = shop.field("inventory_label.text")
+    text = _translation(shop, "inventory_label.text", "facilities/shop.json")
+    if field.font8_alphabet == "replaced":
+        label = _encode_label(
+            "shop.inventory_label",
+            text,
+            metrics,
+            max_pixels=16,
+            max_glyphs=4,
+        )
+        glyphs = list(metrics.segment_output(label.text))
+        blank = metrics.output_by_text.get(" ")
+        if blank is None or blank.code >= 0x80:
             raise ValueError("FONT8 space is not a usable shop-label pad")
-        glyphs.extend(blank * (4 - len(glyphs)))
-    codes = tuple(glyph.code for glyph in glyphs)
-    advances = tuple(
-        glyph.advance if index < len(label.data) else 0
-        for index, glyph in enumerate(glyphs)
-    )
-    return codes, advances
+        codes = [glyph.code for glyph in glyphs]
+        advances = [glyph.advance for glyph in glyphs[:-1]]
+        while len(codes) < 4:
+            codes.append(blank.code)
+        while len(advances) < 4:
+            advances.append(0)
+        return tuple(codes), tuple(advances), 0
+
+    text = text.upper()
+    stock = load_stock_latin_glyphs(FONT8_METRICS_PATH)
+    if not 1 <= len(text) <= 4:
+        raise ValueError("shop.inventory_label must use 1..4 stock FONT8 glyphs")
+    try:
+        glyphs = [stock[character] for character in text]
+    except KeyError as error:
+        raise ValueError(
+            f"shop.inventory_label uses unsupported stock FONT8 character {error.args[0]!r}"
+        ) from error
+
+    # The retail label occupied two 8px compound cells. Draw the preserved
+    # one-character glyphs edge-to-edge and remove the first left bearing.
+    advances = [
+        glyph.ink_right - following.ink_left
+        for glyph, following in zip(glyphs, glyphs[1:])
+    ]
+    if any(advance <= 0 for advance in advances):
+        raise ValueError("shop.inventory_label stock glyphs cannot be compacted")
+    initial_shift = -glyphs[0].ink_left
+    pixels = initial_shift + sum(advances) + glyphs[-1].ink_right
+    if pixels > 16:
+        raise ValueError(
+            f"shop.inventory_label exceeds 16px ({pixels}px): {text!r}"
+        )
+    codes = [glyph.code for glyph in glyphs]
+    blank = stock.get(" ")
+    if blank is None:
+        raise ValueError("FONT8 stock_latin does not publish a space")
+    while len(codes) < 4:
+        codes.append(blank.code)
+    while len(advances) < 4:
+        advances.append(0)
+    return tuple(codes), tuple(advances), initial_shift
 
 
 def _shop_character_data(metrics: FontMetrics) -> tuple[bytes, bytes]:
@@ -406,7 +446,7 @@ def _build_buy_sell_cave(
     _align_payload(payload, BUY_CAVE)
 
     inventory_address = BUY_CAVE + len(payload)
-    codes, advances = _shop_inventory_codes(metrics)
+    codes, advances, initial_shift = _shop_inventory_codes(metrics)
     inventory_symbols = {
         "INVENTORY_TILE_0_SIGNED": 0xD3 - 0x100,
         "INVENTORY_TILE_1_SIGNED": 0xD4 - 0x100,
@@ -417,6 +457,7 @@ def _build_buy_sell_cave(
         "CODE_2_SIGNED": codes[2] if codes[2] < 0x80 else codes[2] - 0x100,
         "ADVANCE_2": advances[2],
         "CODE_3_SIGNED": codes[3] if codes[3] < 0x80 else codes[3] - 0x100,
+        "INITIAL_SHIFT": initial_shift,
         "RAW_GLYPH": SHOP_RAW_GLYPH,
     }
     payload.extend(

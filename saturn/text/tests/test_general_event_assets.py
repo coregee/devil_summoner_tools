@@ -128,16 +128,20 @@ class GeneralEventAssetTests(unittest.TestCase):
         physical_to_field = {}
         catalogs = {}
         bindings_with_token = 0
+        normalized_currency_pages = set()
         for binding in self.bindings:
             catalog = self.assets[binding.asset.name]
             catalogs[binding.asset.as_posix()] = catalog
-            if binding.glyph_tokens:
+            if binding.source_glyph_tokens:
                 bindings_with_token += 1
-                self.assertEqual(dict(binding.glyph_tokens), {"00c0": "yen_symbol"})
+                normalized_currency_pages.update(binding.source_glyph_tokens)
+                for tokens in binding.source_glyph_tokens.values():
+                    self.assertEqual(dict(tokens), {"▯": "yen_symbol"})
             for physical_id, asset_ref in binding.records.items():
                 physical_to_field[physical_id] = (catalog, asset_ref)
 
         self.assertEqual(bindings_with_token, 2)
+        self.assertEqual(normalized_currency_pages, CURRENCY_PAGES)
         self.assertEqual(CURRENCY_PAGES, CURRENCY_PAGES & set(physical_to_field))
         for physical_id in CURRENCY_PAGES:
             catalog, asset_ref = physical_to_field[physical_id]
@@ -245,7 +249,7 @@ class MigratedGeneralEventBankTests(unittest.TestCase):
             "game.evfile_1.m0272.p00"
         ].split("#", 1)
         dash = self.assets[dash_path].field(dash_ref)
-        self.assertIn("DDS-NET", dash.reference)
+        self.assertIn("DDS−NET", dash.reference)
         self.assertNotIn("GLYPH", dash.reference)
 
     def test_every_text_bearing_message_has_one_curated_scene(self) -> None:

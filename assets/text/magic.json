@@ -46,16 +46,8 @@
     },
     "maragi": {
       "name": {
-        "reference": "マハ‐ラギ",
-        "translation": "Maragi",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "マハ・ラギ"
-          },
-          "psp": {
-            "reference": "マハ・ラギ"
-          }
-        }
+        "reference": "マハ・ラギ",
+        "translation": "Maragi"
       },
       "description": {
         "reference": "攻撃魔法 前列 威力27{n}敵1列全体に火炎系ダメージ",
@@ -75,16 +67,8 @@
     },
     "maragion": {
       "name": {
-        "reference": "マハ‐ラギオン",
-        "translation": "Maragion",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "マハ・ラギオン"
-          },
-          "psp": {
-            "reference": "マハ・ラギオン"
-          }
-        }
+        "reference": "マハ・ラギオン",
+        "translation": "Maragion"
       },
       "description": {
         "reference": "攻撃魔法 全体 威力77{n}すべての敵に火炎系ダメージ",
@@ -146,16 +130,8 @@
     },
     "mabufu": {
       "name": {
-        "reference": "マハ‐ブフ",
-        "translation": "Mabufu",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "マハ・ブフ"
-          },
-          "psp": {
-            "reference": "マハ・ブフ"
-          }
-        }
+        "reference": "マハ・ブフ",
+        "translation": "Mabufu"
       },
       "description": {
         "reference": "攻撃魔法 前列 威力25{n}敵1列全体に氷結系ダメージ",
@@ -175,16 +151,8 @@
     },
     "mabufula": {
       "name": {
-        "reference": "マハ‐ブフーラ",
-        "translation": "Mabufula",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "マハ・ブフーラ"
-          },
-          "psp": {
-            "reference": "マハ・ブフーラ"
-          }
-        }
+        "reference": "マハ・ブフーラ",
+        "translation": "Mabufula"
       },
       "description": {
         "reference": "攻撃魔法 全体 威力85{n}すべての敵に氷結系ダメージ",
@@ -246,16 +214,8 @@
     },
     "mazio": {
       "name": {
-        "reference": "マハ‐ジオ",
-        "translation": "Mazio",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "マハ・ジオ"
-          },
-          "psp": {
-            "reference": "マハ・ジオ"
-          }
-        }
+        "reference": "マハ・ジオ",
+        "translation": "Mazio"
       },
       "description": {
         "reference": "攻撃魔法 前列／後列 威力30{n}敵1列全体に電撃系ダメージ",
@@ -275,16 +235,8 @@
     },
     "mazionga": {
       "name": {
-        "reference": "マハ‐ジオンガ",
-        "translation": "Mazionga",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "マハ・ジオンガ"
-          },
-          "psp": {
-            "reference": "マハ・ジオンガ"
-          }
-        }
+        "reference": "マハ・ジオンガ",
+        "translation": "Mazionga"
       },
       "description": {
         "reference": "攻撃魔法 全体 威力86{n}すべての敵に電撃系ダメージ",
@@ -346,16 +298,8 @@
     },
     "mazan": {
       "name": {
-        "reference": "マハ‐ザン",
-        "translation": "Mazan",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "マハ・ザン"
-          },
-          "psp": {
-            "reference": "マハ・ザン"
-          }
-        }
+        "reference": "マハ・ザン",
+        "translation": "Mazan"
       },
       "description": {
         "reference": "攻撃魔法 前列 威力31{n}敵1列全体に衝撃系ダメージ",
@@ -375,16 +319,8 @@
     },
     "mazanma": {
       "name": {
-        "reference": "マハ‐ザンマ",
-        "translation": "Mazanma",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "マハ・ザンマ"
-          },
-          "psp": {
-            "reference": "マハ・ザンマ"
-          }
-        }
+        "reference": "マハ・ザンマ",
+        "translation": "Mazanma"
       },
       "description": {
         "reference": "攻撃魔法 全体 威力87{n}すべての敵に衝撃系ダメージ",
@@ -446,16 +382,8 @@
     },
     "mapsi": {
       "name": {
-        "reference": "マハ‐サイ",
-        "translation": "Mapsi",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "マハ・サイ"
-          },
-          "psp": {
-            "reference": "マハ・サイ"
-          }
-        }
+        "reference": "マハ・サイ",
+        "translation": "Mapsi"
       },
       "description": {
         "reference": "攻撃魔法 前列／後列 威力31{n}敵1列全体に念動系ダメージ",
@@ -475,16 +403,8 @@
     },
     "mapsio": {
       "name": {
-        "reference": "マハ‐サイオ",
-        "translation": "Mapsio",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "マハ・サイオ"
-          },
-          "psp": {
-            "reference": "マハ・サイオ"
-          }
-        }
+        "reference": "マハ・サイオ",
+        "translation": "Mapsio"
       },
       "description": {
         "reference": "攻撃魔法 全体 威力98{n}すべての敵に念動系ダメージ",
@@ -798,16 +718,8 @@
     },
     "hakyou": {
       "name": {
-        "reference": "ハ‐キョウ",
-        "translation": "Hakyou",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "ハ・キョウ"
-          },
-          "psp": {
-            "reference": "ハ・キョウ"
-          }
-        }
+        "reference": "ハ・キョウ",
+        "translation": "Hakyou"
       },
       "description": {
         "reference": "攻撃補助 前列 バッドステータス{n}敵1列全体にMIRRORの効果",
@@ -827,16 +739,8 @@
     },
     "shikyou": {
       "name": {
-        "reference": "シ‐キョウ",
-        "translation": "Shikyou",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "シ・キョウ"
-          },
-          "psp": {
-            "reference": "シ・キョウ"
-          }
-        }
+        "reference": "シ・キョウ",
+        "translation": "Shikyou"
       },
       "description": {
         "reference": "攻撃補助 全体 バッドステータス{n}すべての敵にMIRRORの効果",
@@ -898,16 +802,8 @@
     },
     "tarunda": {
       "name": {
-        "reference": "タル‐ンダ",
-        "translation": "Tarunda",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "タル・ンダ"
-          },
-          "psp": {
-            "reference": "タル・ンダ"
-          }
-        }
+        "reference": "タル・ンダ",
+        "translation": "Tarunda"
       },
       "description": {
         "reference": "攻撃補助 全体{n}すべての敵の攻撃力ダウン",
@@ -920,16 +816,8 @@
     },
     "rakunda": {
       "name": {
-        "reference": "ラク‐ンダ",
-        "translation": "Rakunda",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "ラク・ンダ"
-          },
-          "psp": {
-            "reference": "ラク・ンダ"
-          }
-        }
+        "reference": "ラク・ンダ",
+        "translation": "Rakunda"
       },
       "description": {
         "reference": "攻撃補助 全体{n}すべての敵の防御力ダウン",
@@ -942,16 +830,8 @@
     },
     "sukunda": {
       "name": {
-        "reference": "スク‐ンダ",
-        "translation": "Sukunda",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "スク・ンダ"
-          },
-          "psp": {
-            "reference": "スク・ンダ"
-          }
-        }
+        "reference": "スク・ンダ",
+        "translation": "Sukunda"
       },
       "description": {
         "reference": "攻撃補助 全体{n}すべての敵の命中力ダウン",
@@ -964,16 +844,8 @@
     },
     "dekaja": {
       "name": {
-        "reference": "デ‐カジャ",
-        "translation": "Dekaja",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "デ・カジャ"
-          },
-          "psp": {
-            "reference": "デ・カジャ"
-          }
-        }
+        "reference": "デ・カジャ",
+        "translation": "Dekaja"
       },
       "description": {
         "reference": "攻撃補助 全体{n}すべての敵の能力値アップを無効化",
@@ -1028,16 +900,8 @@
     },
     "media": {
       "name": {
-        "reference": "メ‐ディア",
-        "translation": "Media",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "メ・ディア"
-          },
-          "psp": {
-            "reference": "メ・ディア"
-          }
-        }
+        "reference": "メ・ディア",
+        "translation": "Media"
       },
       "description": {
         "reference": "回復魔法 全体{n}味方全員のHPを少しだけ回復",
@@ -1050,16 +914,8 @@
     },
     "mediarama": {
       "name": {
-        "reference": "メ‐ディアラマ",
-        "translation": "Mediarama",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "メ・ディアラマ"
-          },
-          "psp": {
-            "reference": "メ・ディアラマ"
-          }
-        }
+        "reference": "メ・ディアラマ",
+        "translation": "Mediarama"
       },
       "description": {
         "reference": "回復魔法 全体{n}味方全員のHPを中程度回復",
@@ -1072,16 +928,8 @@
     },
     "mediarahan": {
       "name": {
-        "reference": "メ‐ディアラハン",
-        "translation": "Mediarahan",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "メ・ディアラハン"
-          },
-          "psp": {
-            "reference": "メ・ディアラハン"
-          }
-        }
+        "reference": "メ・ディアラハン",
+        "translation": "Mediarahan"
       },
       "description": {
         "reference": "回復魔法 全体{n}味方全員のHPをMAXまで回復",
@@ -1206,16 +1054,8 @@
     },
     "me_patra": {
       "name": {
-        "reference": "メ‐パトラ",
-        "translation": "Me Patra",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "メ・パトラ"
-          },
-          "psp": {
-            "reference": "メ・パトラ"
-          }
-        }
+        "reference": "メ・パトラ",
+        "translation": "Me Patra"
       },
       "description": {
         "reference": "回復魔法 全体{n}味方全員の混乱・至福・睡眠・呪縛を治療",
@@ -1256,16 +1096,8 @@
     },
     "recarmdra": {
       "name": {
-        "reference": "リカーム‐ドラ",
-        "translation": "Recarmdra",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "リカーム・ドラ"
-          },
-          "psp": {
-            "reference": "リカーム・ドラ"
-          }
-        }
+        "reference": "リカーム・ドラ",
+        "translation": "Recarmdra"
       },
       "description": {
         "reference": "回復魔法 全体{n}味方全員のHPを最大回復し術者は死亡",
@@ -1327,16 +1159,8 @@
     },
     "tarukaja": {
       "name": {
-        "reference": "タル‐カジャ",
-        "translation": "Tarukaja",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "タル・カジャ"
-          },
-          "psp": {
-            "reference": "タル・カジャ"
-          }
-        }
+        "reference": "タル・カジャ",
+        "translation": "Tarukaja"
       },
       "description": {
         "reference": "補助魔法 全体{n}味方全員の攻撃力アップ",
@@ -1349,16 +1173,8 @@
     },
     "rakukaja": {
       "name": {
-        "reference": "ラク‐カジャ",
-        "translation": "Rakukaja",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "ラク・カジャ"
-          },
-          "psp": {
-            "reference": "ラク・カジャ"
-          }
-        }
+        "reference": "ラク・カジャ",
+        "translation": "Rakukaja"
       },
       "description": {
         "reference": "補助魔法 全体{n}味方全員の防御力アップ",
@@ -1371,16 +1187,8 @@
     },
     "sukukaja": {
       "name": {
-        "reference": "スク‐カジャ",
-        "translation": "Sukukaja",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "スク・カジャ"
-          },
-          "psp": {
-            "reference": "スク・カジャ"
-          }
-        }
+        "reference": "スク・カジャ",
+        "translation": "Sukukaja"
       },
       "description": {
         "reference": "補助魔法 全体{n}味方全員の命中力アップ",
@@ -1393,16 +1201,8 @@
     },
     "makakaja": {
       "name": {
-        "reference": "マカ‐カジャ",
-        "translation": "Makakaja",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "マカ・カジャ"
-          },
-          "psp": {
-            "reference": "マカ・カジャ"
-          }
-        }
+        "reference": "マカ・カジャ",
+        "translation": "Makakaja"
       },
       "description": {
         "reference": "補助魔法 全体{n}味方全員の魔法威力アップ",
@@ -1415,16 +1215,8 @@
     },
     "dekunda": {
       "name": {
-        "reference": "デ‐クンダ",
-        "translation": "Dekunda",
-        "variants": {
-          "akuma_zensho": {
-            "reference": "デ・クンダ"
-          },
-          "psp": {
-            "reference": "デ・クンダ"
-          }
-        }
+        "reference": "デ・クンダ",
+        "translation": "Dekunda"
       },
       "description": {
         "reference": "補助魔法 全体{n}味方全員の能力値ダウンを無効化",

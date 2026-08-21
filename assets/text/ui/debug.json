@@ -25,7 +25,7 @@
     },
     "line_0051": {
       "text": {
-        "reference": "L{GLYPH:010d}R後電石員",
+        "reference": "L−R後電石員",
         "translation": "Debug: L/R Stone"
       }
     },
@@ -67,19 +67,19 @@
     },
     "line_0058": {
       "text": {
-        "reference": "屍悪後電{GLYPH:010c}1",
+        "reference": "屍悪後電+1",
         "translation": "Debug: Undead Test 1"
       }
     },
     "line_0059": {
       "text": {
-        "reference": "屍悪後電{GLYPH:010c}2",
+        "reference": "屍悪後電+2",
         "translation": "Debug: Undead Test 2"
       }
     },
     "line_0060": {
       "text": {
-        "reference": "屍悪後電{GLYPH:010d}1",
+        "reference": "屍悪後電−1",
         "translation": "Debug: Undead Alt 1"
       }
     },

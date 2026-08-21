@@ -139,3 +139,11 @@ def format_tokens(tokens: Iterable[Token]) -> str:
         else:
             raise TypeError(f"unknown token type {type(token).__name__}")
     return "".join(output)
+
+
+def uppercase_text(value: str) -> str:
+    """Uppercase literal text while preserving named/control token identity."""
+    return format_tokens(
+        Text(token.value.upper()) if isinstance(token, Text) else token
+        for token in parse_tokens(value)
+    )

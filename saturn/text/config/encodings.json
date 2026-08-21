@@ -4,6 +4,27 @@
     "game_fnt8x12": "game/fnt8x12",
     "game_fnt12x12": "game/fnt12x12",
     "game_font8": "game/font8",
+    "game_font8_composed_kana": {
+      "glyphs": {
+        "0x00cd": "が", "0x00ce": "ぎ", "0x00cf": "ぐ",
+        "0x00d0": "げ", "0x00d1": "ご", "0x00d2": "ざ",
+        "0x00d3": "じ", "0x00d4": "ず", "0x00d5": "ぜ",
+        "0x00d6": "ぞ", "0x00d7": "だ", "0x00d8": "ぢ",
+        "0x00d9": "づ", "0x00da": "で", "0x00db": "ど",
+        "0x00dc": "ば", "0x00dd": "び", "0x00de": "ぶ",
+        "0x00df": "べ", "0x00e0": "ぼ", "0x00e1": "ぱ",
+        "0x00e2": "ぴ", "0x00e3": "ぷ", "0x00e4": "ぺ",
+        "0x00e5": "ぽ", "0x00e6": "ヴ", "0x00e7": "ガ",
+        "0x00e8": "ギ", "0x00e9": "グ", "0x00ea": "ゲ",
+        "0x00eb": "ゴ", "0x00ec": "ザ", "0x00ed": "ジ",
+        "0x00ee": "ズ", "0x00ef": "ゼ", "0x00f0": "ゾ",
+        "0x00f1": "ダ", "0x00f2": "ヂ", "0x00f3": "ヅ",
+        "0x00f4": "デ", "0x00f5": "ド", "0x00f6": "バ",
+        "0x00f7": "ビ", "0x00f8": "ブ", "0x00f9": "ベ",
+        "0x00fa": "ボ", "0x00fb": "パ", "0x00fc": "ピ",
+        "0x00fd": "プ", "0x00fe": "ペ", "0x00ff": "ポ"
+      }
+    },
     "game_font12": "game/font12",
     "game_font16": "game/font16",
     "game_config_actions": {
@@ -130,6 +151,26 @@
           "start": "0x00",
           "end": "0xff",
           "glyph_start": "0x00"
+        }
+      ],
+      "control_vocabulary": "none",
+      "control_ranges": []
+    },
+    "game_font8_kana_composer": {
+      "codec": "glyph_u8",
+      "zero": "glyph",
+      "glyph_banks": [
+        {
+          "alphabet": "game_font8",
+          "start": "0x00",
+          "end": "0xcb",
+          "glyph_start": "0x00"
+        },
+        {
+          "alphabet": "game_font8_composed_kana",
+          "start": "0xcd",
+          "end": "0xff",
+          "glyph_start": "0xcd"
         }
       ],
       "control_vocabulary": "none",

@@ -200,7 +200,7 @@ def _build_insert_data(
     def encode(text: str, context: str) -> int:
         if text in interned:
             return interned[text]
-        glyphs = font16.segment(text)
+        glyphs = font16.segment_output(text)
         if len(glyphs) > FULLWORD_GLYPH_LIMIT:
             raise ValueError(f"{context} exceeds the battle insert buffer: {text!r}")
         offset = len(data) - pool_offset
@@ -243,7 +243,7 @@ def _build_insert_data(
 
 def _build_kyouji_name(font16: FontMetrics, region_bytes: int) -> bytes:
     _demons, _races, kyouji = _translated_terms()
-    glyphs = font16.segment(kyouji)
+    glyphs = font16.segment_output(kyouji)
     value = struct.pack(f">{len(glyphs) + 1}H", *(g.code for g in glyphs), 0x8000)
     if len(value) > region_bytes:
         raise ValueError("Kyouji's full name exceeds its configured runtime row")

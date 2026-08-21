@@ -438,7 +438,7 @@ class CompendiumInventoryTests(unittest.TestCase):
         )
         self.assertEqual(
             self.race_rows[-1]["reference"],
-            "{GLYPH:00b4}{GLYPH:00b4}{GLYPH:00b4}",
+            "???",
         )
 
         self.assertEqual(len(self.race_description_rows), 96)
@@ -468,16 +468,16 @@ class CompendiumInventoryTests(unittest.TestCase):
 
     def test_profile_font_mapping_is_complete_and_lossless(self) -> None:
         catalog = load_config()
-        self.assertEqual(len(catalog.alphabets["compendium_font16"].glyphs), 1_703)
+        self.assertEqual(len(catalog.alphabets["compendium_font16"].glyphs), 1_758)
         raw_codes = [
             code
             for row in self.rows
             for code in re.findall(r"\{GLYPH:([0-9a-f]{4})\}", row["reference"])
         ]
-        self.assertEqual(len(raw_codes), 29)
+        self.assertEqual(len(raw_codes), 30)
         self.assertEqual(
             set(raw_codes),
-            {"0026", "0029", "002d", "002f", "026e", "0656"},
+            {"0026", "0029", "002c", "002d", "002f", "026e", "0656"},
         )
         self.assertFalse(any("{OP:" in row["reference"] for row in self.rows))
 

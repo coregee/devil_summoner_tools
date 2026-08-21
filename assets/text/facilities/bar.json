@@ -5,13 +5,15 @@
     "command_order": {
       "text": {
         "reference": "ORDER",
-        "translation": "ORDER"
+        "translation": "ORDER",
+        "font8_alphabet": "original"
       }
     },
     "command_talk": {
       "text": {
         "reference": "TALK",
-        "translation": "TALK"
+        "translation": "TALK",
+        "font8_alphabet": "original"
       }
     },
     "line_0358": {

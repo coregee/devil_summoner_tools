@@ -5,13 +5,15 @@
     "empty": {
       "text": {
         "reference": "EMPTY",
-        "translation": "EMPTY"
+        "translation": "EMPTY",
+        "font8_alphabet": "original"
       }
     },
     "in_party": {
       "text": {
         "reference": "IN PARTY",
-        "translation": "IN PARTY"
+        "translation": "IN PARTY",
+        "font8_alphabet": "original"
       }
     }
   }

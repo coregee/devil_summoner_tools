@@ -18,7 +18,6 @@ if str(SATURN_ROOT) not in sys.path:
 from rom.util.catalog import load_catalog, validate_source  # noqa: E402
 from rom.util.workflows import read_source_files  # noqa: E402
 from util.assets import BINDING_ROOT, load_asset, load_binding  # noqa: E402
-from util.glyph_sets import load_glyph_sets  # noqa: E402
 from util.sources import load_manifest, manifest_path  # noqa: E402
 from util.surfaces import load_surfaces  # noqa: E402
 
@@ -204,7 +203,7 @@ class Map3dAnalyzeAssetTests(unittest.TestCase):
         )
         self.assertTrue(
             all(
-                row["source_encoding"] == "game_font8_plain_glyph"
+                row["source_encoding"] == "game_font8_kana_composer"
                 for row in self.rows[:43]
             )
         )
@@ -237,7 +236,7 @@ class Map3dAnalyzeAssetTests(unittest.TestCase):
                 {
                     "name": "grid_races",
                     "count": 43,
-                    "source_encoding": "game_font8_plain_glyph",
+                    "source_encoding": "game_font8_kana_composer",
                     "framing": {"type": "zero_padded"},
                     "require_identical_bytes": False,
                     "locations": [
@@ -477,29 +476,21 @@ class Map3dAnalyzeAssetTests(unittest.TestCase):
         )
         self.assertEqual(descriptor_size(40), (128, 32))
 
-        glyph_sets = load_glyph_sets()
-        stock_latin = {
-            "map_3d.analyze_grid.race_heading",
-            "map_3d.analyze_grid.name_heading",
-            "map_3d.analyze_grid.level_heading",
-            "map_3d.analyze_grid.hit_points_heading",
-            "map_3d.analyze_grid.magic_points_heading",
-            "map_3d.analyze_grid.attack_heading",
-            "map_3d.analyze_grid.defense_heading",
-            "map_3d.analyze_detail.numeric_readout",
-            "map_3d.analyze_detail.skill_cost",
-            "status.alignment_axis_label",
-        }
-        for surface in stock_latin:
-            with self.subTest(glyph_handler=surface):
-                handler = glyph_sets.for_surface(surface)
-                self.assertIsNotNone(handler)
-                self.assertEqual(
-                    (handler.font, handler.reference_set),
-                    ("font8", "stock_latin"),
-                )
-        self.assertIsNone(glyph_sets.for_surface("map_3d.analyze_race"))
-        self.assertIsNone(glyph_sets.for_surface("map_3d.analyze_demon_name"))
+        fields = (
+            *((self.status, f"{name}.text") for name in (
+                "level", "hit_points", "magic_points", "summon_cost"
+            )),
+            *((self.asset, f"{name}.text") for name in (
+                "magic_cost", "health_cost", "race_heading", "name_heading",
+                "attack_heading", "defense_heading",
+            )),
+            *((self.alignments, f"{name}.axis_label") for name in (
+                "law", "chaos", "dark", "neutral"
+            )),
+        )
+        for catalog, ref in fields:
+            with self.subTest(ref=ref):
+                self.assertEqual(catalog.field(ref).font8_alphabet, "original")
 
 
 if __name__ == "__main__":

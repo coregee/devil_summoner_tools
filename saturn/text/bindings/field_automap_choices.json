@@ -9,7 +9,11 @@
     "game.automap_marker_ui.o00a5e4": "automap"
   },
   "record_surfaces": {
-    "game.automap_marker_ui.o00a5e0": ["automap.marker_popup"],
-    "game.automap_marker_ui.o00a5e4": ["automap.marker_popup"]
+    "game.automap_marker_ui.o00a5e0": [
+      "automap.marker_popup"
+    ],
+    "game.automap_marker_ui.o00a5e4": [
+      "automap.marker_popup"
+    ]
   }
 }

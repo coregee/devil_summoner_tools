@@ -947,7 +947,7 @@
     "id": "game.tlk_yngm.m0118.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "けっこ{GLYPH:010d}強そうに見えるけど{n}ここらへんかなりあぶね{GLYPH:010d}ぞ{WAIT}{n}もちろん分かってんだろうけど",
+    "reference": "けっこ−強そうに見えるけど{n}ここらへんかなりあぶね−ぞ{WAIT}{n}もちろん分かってんだろうけど",
     "translation": "",
     "note": ""
   },
@@ -963,7 +963,7 @@
     "id": "game.tlk_yngm.m0120.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "へ{GLYPH:010d}おもしろそ{GLYPH:010d}じゃん{n}おれも気に入らね{GLYPH:010d}ヤツいるんだ{WAIT}{n}でもそのせいで",
+    "reference": "へ−おもしろそ−じゃん{n}おれも気に入らね−ヤツいるんだ{WAIT}{n}でもそのせいで",
     "translation": "",
     "note": ""
   },
@@ -987,7 +987,7 @@
     "id": "game.tlk_yngm.m0123.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そんなことやってんだ{n}ふ{GLYPH:010d}ん大変だね{WAIT}{n}じゃあさあ",
+    "reference": "そんなことやってんだ{n}ふ−ん大変だね{WAIT}{n}じゃあさあ",
     "translation": "",
     "note": ""
   },
@@ -1011,7 +1011,7 @@
     "id": "game.tlk_yngm.m0126.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ハハ{BEAT}かわいそ{GLYPH:010d}だな{n}他の人間にかまってもらえないんだろ",
+    "reference": "ハハ{BEAT}かわいそ−だな{n}他の人間にかまってもらえないんだろ",
     "translation": "",
     "note": ""
   },
@@ -1027,7 +1027,7 @@
     "id": "game.tlk_yngm.m0128.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "別にムリに聞きたい訳じゃね{GLYPH:010d}から{n}どうでもいいんだけど",
+    "reference": "別にムリに聞きたい訳じゃね−から{n}どうでもいいんだけど",
     "translation": "",
     "note": ""
   },
@@ -1043,7 +1043,7 @@
     "id": "game.tlk_yngm.m0130.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ちょっと調子に乗りすぎじゃね{GLYPH:010d}の{n}いい加減にしてくれよな",
+    "reference": "ちょっと調子に乗りすぎじゃね−の{n}いい加減にしてくれよな",
     "translation": "",
     "note": ""
   },
@@ -1051,7 +1051,7 @@
     "id": "game.tlk_yngm.m0131.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "こう見えても{n}おれけっこ{GLYPH:010d}いいヤツだと思うんだけど",
+    "reference": "こう見えても{n}おれけっこ−いいヤツだと思うんだけど",
     "translation": "",
     "note": ""
   },
@@ -1067,7 +1067,7 @@
     "id": "game.tlk_yngm.m0133.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そうだろ{n}やっぱそう思うよな{GLYPH:010d}{WAIT}{n}おまえもほんとはいいヤツなのに",
+    "reference": "そうだろ{n}やっぱそう思うよな−{WAIT}{n}おまえもほんとはいいヤツなのに",
     "translation": "",
     "note": ""
   },
@@ -1075,7 +1075,7 @@
     "id": "game.tlk_yngm.m0134.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "本気にすんなよ{n}自分のこといいヤツなんて思ってね{GLYPH:010d}よ",
+    "reference": "本気にすんなよ{n}自分のこといいヤツなんて思ってね−よ",
     "translation": "",
     "note": ""
   },
@@ -1083,7 +1083,7 @@
     "id": "game.tlk_yngm.m0135.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "それだけ？{BEAT}{n}もっと言うことね{GLYPH:010d}の{n}つまんね{GLYPH:010d}な",
+    "reference": "それだけ？{BEAT}{n}もっと言うことね−の{n}つまんね−な",
     "translation": "",
     "note": ""
   },
@@ -1091,7 +1091,7 @@
     "id": "game.tlk_yngm.m0136.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "はっきり言ってくれんな{GLYPH:010d}",
+    "reference": "はっきり言ってくれんな−",
     "translation": "",
     "note": ""
   },
@@ -1123,7 +1123,7 @@
     "id": "game.tlk_yngm.m0140.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "あっそうもういいよ{BEAT}{n}つまんね{GLYPH:010d}の",
+    "reference": "あっそうもういいよ{BEAT}{n}つまんね−の",
     "translation": "",
     "note": ""
   },
@@ -1139,7 +1139,7 @@
     "id": "game.tlk_yngm.m0142.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おまえバカじゃね{GLYPH:010d}の{n}見る目ないなあ",
+    "reference": "おまえバカじゃね−の{n}見る目ないなあ",
     "translation": "",
     "note": ""
   },
@@ -1147,7 +1147,7 @@
     "id": "game.tlk_yngm.m0143.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おまえなんでこんなトコにいるんだ？{n}まさか遊んでる訳じゃないだろ{GLYPH:010d}し",
+    "reference": "おまえなんでこんなトコにいるんだ？{n}まさか遊んでる訳じゃないだろ−し",
     "translation": "",
     "note": ""
   },
@@ -1179,7 +1179,7 @@
     "id": "game.tlk_yngm.m0147.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "知らね{GLYPH:010d}ぞ{BEAT}{n}超強いヤツに会ってケガしても",
+    "reference": "知らね−ぞ{BEAT}{n}超強いヤツに会ってケガしても",
     "translation": "",
     "note": ""
   },
@@ -1195,7 +1195,7 @@
     "id": "game.tlk_yngm.m0149.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "あんまりムズかしいこと言うなよな{n}よく分かんね{GLYPH:010d}ぞ",
+    "reference": "あんまりムズかしいこと言うなよな{n}よく分かんね−ぞ",
     "translation": "",
     "note": ""
   },
@@ -1211,7 +1211,7 @@
     "id": "game.tlk_yngm.m0151.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "だったら他にやること{n}いっぱいあるんじゃね{GLYPH:010d}の",
+    "reference": "だったら他にやること{n}いっぱいあるんじゃね−の",
     "translation": "",
     "note": ""
   },
@@ -1243,7 +1243,7 @@
     "id": "game.tlk_yngm.m0155.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ自分じゃちょっと{n}カッコイ{GLYPH:010d}かなって思ってんだけど",
+    "reference": "おれ自分じゃちょっと{n}カッコイ−かなって思ってんだけど",
     "translation": "",
     "note": ""
   },
@@ -1275,7 +1275,7 @@
     "id": "game.tlk_yngm.m0159.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "けっこ{GLYPH:010d}つめたいなあ{n}そういうのがカッコイ{GLYPH:010d}のかなあ{BEAT}{n}そのわりにはこんなトコいるしな",
+    "reference": "けっこ−つめたいなあ{n}そういうのがカッコイ−のかなあ{BEAT}{n}そのわりにはこんなトコいるしな",
     "translation": "",
     "note": ""
   },
@@ -1283,7 +1283,7 @@
     "id": "game.tlk_yngm.m0160.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ホンネで答えんなよ{n}てきと{GLYPH:010d}に合わせてくれてもいいだろ",
+    "reference": "ホンネで答えんなよ{n}てきと−に合わせてくれてもいいだろ",
     "translation": "",
     "note": ""
   },
@@ -1291,7 +1291,7 @@
     "id": "game.tlk_yngm.m0160.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "まったくうらやまし{GLYPH:010d}ことばっかだよ",
+    "reference": "まったくうらやまし−ことばっかだよ",
     "translation": "",
     "note": ""
   },
@@ -1307,7 +1307,7 @@
     "id": "game.tlk_yngm.m0162.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "なんだせっかくおちゃらけてんのに{n}乗ってこね{GLYPH:010d}のか{WAIT}{n}つまんね{GLYPH:010d}ヤツ",
+    "reference": "なんだせっかくおちゃらけてんのに{n}乗ってこね−のか{WAIT}{n}つまんね−ヤツ",
     "translation": "",
     "note": ""
   },
@@ -1323,7 +1323,7 @@
     "id": "game.tlk_yngm.m0164.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ちゃんと答えろよ{n}ムカつくよな{GLYPH:010d}そういう態度",
+    "reference": "ちゃんと答えろよ{n}ムカつくよな−そういう態度",
     "translation": "",
     "note": ""
   },
@@ -1331,7 +1331,7 @@
     "id": "game.tlk_yngm.m0165.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "お{GLYPH:010d}いおまえだよ{n}マヌケな顔すんなよな",
+    "reference": "お−いおまえだよ{n}マヌケな顔すんなよな",
     "translation": "",
     "note": ""
   },
@@ -1363,7 +1363,7 @@
     "id": "game.tlk_yngm.m0169.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ふ{GLYPH:010d}んそうなんだ{n}なんか見つかるといいね",
+    "reference": "ふ−んそうなんだ{n}なんか見つかるといいね",
     "translation": "",
     "note": ""
   },
@@ -1371,7 +1371,7 @@
     "id": "game.tlk_yngm.m0170.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "こんなトコで調べるったって{n}たぶん何も見つからね{GLYPH:010d}ぞ",
+    "reference": "こんなトコで調べるったって{n}たぶん何も見つからね−ぞ",
     "translation": "",
     "note": ""
   },
@@ -1379,7 +1379,7 @@
     "id": "game.tlk_yngm.m0171.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれみたいなのが言うのもなんだけど{n}こんなトコでヒマつぶしてないで{n}もうちょっとマシなことやれよな{GLYPH:010d}",
+    "reference": "おれみたいなのが言うのもなんだけど{n}こんなトコでヒマつぶしてないで{n}もうちょっとマシなことやれよな−",
     "translation": "",
     "note": ""
   },
@@ -1395,7 +1395,7 @@
     "id": "game.tlk_yngm.m0173.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "しょ{GLYPH:010d}がね{GLYPH:010d}な{n}おれが遊んでやっか！",
+    "reference": "しょ−がね−な{n}おれが遊んでやっか！",
     "translation": "",
     "note": ""
   },
@@ -1403,7 +1403,7 @@
     "id": "game.tlk_yngm.m0174.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "けっこ{GLYPH:010d}用心深いんだな{GLYPH:010d}",
+    "reference": "けっこ−用心深いんだな−",
     "translation": "",
     "note": ""
   },
@@ -1411,7 +1411,7 @@
     "id": "game.tlk_yngm.m0175.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "なんだケチだな{GLYPH:010d}{n}そんなんだったら話しかけんなよな",
+    "reference": "なんだケチだな−{n}そんなんだったら話しかけんなよな",
     "translation": "",
     "note": ""
   },
@@ -1427,7 +1427,7 @@
     "id": "game.tlk_yngm.m0177.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "まったくつまんね{GLYPH:010d}よなあ{n}気に入らね{GLYPH:010d}ことばっかりで",
+    "reference": "まったくつまんね−よなあ{n}気に入らね−ことばっかりで",
     "translation": "",
     "note": ""
   },
@@ -1443,7 +1443,7 @@
     "id": "game.tlk_yngm.m0179.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おまえもそう思うだろ{n}こんなんじゃやってらんね{GLYPH:010d}よな",
+    "reference": "おまえもそう思うだろ{n}こんなんじゃやってらんね−よな",
     "translation": "",
     "note": ""
   },
@@ -1459,7 +1459,7 @@
     "id": "game.tlk_yngm.m0181.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "どこがって言われてもな{GLYPH:010d}{n}悪魔はつまんね{GLYPH:010d}こと多いんだよ{WAIT}{n}えっ何がって？",
+    "reference": "どこがって言われてもな−{n}悪魔はつまんね−こと多いんだよ{WAIT}{n}えっ何がって？",
     "translation": "",
     "note": ""
   },
@@ -1467,7 +1467,7 @@
     "id": "game.tlk_yngm.m0182.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "とにかくつまんね{GLYPH:010d}んだよ{n}おまえのせいで{n}もっと気分悪くなったじゃね{GLYPH:010d}か",
+    "reference": "とにかくつまんね−んだよ{n}おまえのせいで{n}もっと気分悪くなったじゃね−か",
     "translation": "",
     "note": ""
   },
@@ -1475,7 +1475,7 @@
     "id": "game.tlk_yngm.m0183.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "うるせ{GLYPH:010d}な{n}ケンカ売ってんのかよ{n}なら受けてやるよ！",
+    "reference": "うるせ−な{n}ケンカ売ってんのかよ{n}なら受けてやるよ！",
     "translation": "",
     "note": ""
   },
@@ -1483,7 +1483,7 @@
     "id": "game.tlk_yngm.m0184.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そうだろ{GLYPH:010d}な{n}悪魔のことなんか関係ね{GLYPH:010d}もんな{WAIT}{n}ならおまえのこと教えろよ",
+    "reference": "そうだろ−な{n}悪魔のことなんか関係ね−もんな{WAIT}{n}ならおまえのこと教えろよ",
     "translation": "",
     "note": ""
   },
@@ -1491,7 +1491,7 @@
     "id": "game.tlk_yngm.m0185.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "聞いてんだからちゃんと答えろよ{n}オヤジのわりには何も考えてね{GLYPH:010d}な",
+    "reference": "聞いてんだからちゃんと答えろよ{n}オヤジのわりには何も考えてね−な",
     "translation": "",
     "note": ""
   },
@@ -1507,7 +1507,7 @@
     "id": "game.tlk_yngm.m0187.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ちゃんと「意志」をもって{n}行動してないからそんなことしか{n}言えね{GLYPH:010d}んだよ{BEAT}バカ！",
+    "reference": "ちゃんと「意志」をもって{n}行動してないからそんなことしか{n}言えね−んだよ{BEAT}バカ！",
     "translation": "",
     "note": ""
   },
@@ -1515,7 +1515,7 @@
     "id": "game.tlk_yngm.m0188.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "情けね{GLYPH:010d}ヤツだな{n}自分のことも分かんね{GLYPH:010d}のか{n}最悪だな",
+    "reference": "情けね−ヤツだな{n}自分のことも分かんね−のか{n}最悪だな",
     "translation": "",
     "note": ""
   },
@@ -1531,7 +1531,7 @@
     "id": "game.tlk_yngm.m0190.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そんなんで楽し{GLYPH:010d}の？",
+    "reference": "そんなんで楽し−の？",
     "translation": "",
     "note": ""
   },
@@ -1539,7 +1539,7 @@
     "id": "game.tlk_yngm.m0191.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ガマン強いんだな{GLYPH:010d}{n}おれならすぐイヤになっちゃうよ",
+    "reference": "ガマン強いんだな−{n}おれならすぐイヤになっちゃうよ",
     "translation": "",
     "note": ""
   },
@@ -1547,7 +1547,7 @@
     "id": "game.tlk_yngm.m0192.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "へ{GLYPH:010d}変わってんな{GLYPH:010d}",
+    "reference": "へ−変わってんな−",
     "translation": "",
     "note": ""
   },
@@ -1563,7 +1563,7 @@
     "id": "game.tlk_yngm.m0194.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ふ{GLYPH:010d}ん満足してんだ{n}けっこう変わってるヤツだな",
+    "reference": "ふ−ん満足してんだ{n}けっこう変わってるヤツだな",
     "translation": "",
     "note": ""
   },
@@ -1571,7 +1571,7 @@
     "id": "game.tlk_yngm.m0195.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "かわいそ{GLYPH:010d}なヤツ{n}いいように使われてんの{n}分かってね{GLYPH:010d}な",
+    "reference": "かわいそ−なヤツ{n}いいように使われてんの{n}分かってね−な",
     "translation": "",
     "note": ""
   },
@@ -1579,7 +1579,7 @@
     "id": "game.tlk_yngm.m0196.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そうなんだ{WAIT}{n}それでもやってるなんて{n}おれには分かんね{GLYPH:010d}なおまえの気持ち",
+    "reference": "そうなんだ{WAIT}{n}それでもやってるなんて{n}おれには分かんね−なおまえの気持ち",
     "translation": "",
     "note": ""
   },
@@ -1587,7 +1587,7 @@
     "id": "game.tlk_yngm.m0197.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そうかよ{n}せっかく気をつかってやってんのに…{WAIT}{n}やなヤツだな友達少ないんだろ{GLYPH:010d}",
+    "reference": "そうかよ{n}せっかく気をつかってやってんのに…{WAIT}{n}やなヤツだな友達少ないんだろ−",
     "translation": "",
     "note": ""
   },
@@ -1611,7 +1611,7 @@
     "id": "game.tlk_yngm.m0200.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "けっこ{GLYPH:010d}マジメなんだな{GLYPH:010d}",
+    "reference": "けっこ−マジメなんだな−",
     "translation": "",
     "note": ""
   },
@@ -1619,7 +1619,7 @@
     "id": "game.tlk_yngm.m0201.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そんなこと誰もおまえに望んでね{GLYPH:010d}よ{n}ヤツら自分のことだけがカワイイんだ…{WAIT}{n}おまえも友達いないんだろ{GLYPH:010d}",
+    "reference": "そんなこと誰もおまえに望んでね−よ{n}ヤツら自分のことだけがカワイイんだ…{WAIT}{n}おまえも友達いないんだろ−",
     "translation": "",
     "note": ""
   },
@@ -1627,7 +1627,7 @@
     "id": "game.tlk_yngm.m0202.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "信じらんね{GLYPH:010d}なそんなこと{n}他人のためにそこまでできる訳ね{GLYPH:010d}だろ",
+    "reference": "信じらんね−なそんなこと{n}他人のためにそこまでできる訳ね−だろ",
     "translation": "",
     "note": ""
   },
@@ -1635,7 +1635,7 @@
     "id": "game.tlk_yngm.m0203.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そっかそれがいちばんだよな{n}ゴタゴタしてると遊べね{GLYPH:010d}もんな",
+    "reference": "そっかそれがいちばんだよな{n}ゴタゴタしてると遊べね−もんな",
     "translation": "",
     "note": ""
   },
@@ -1643,7 +1643,7 @@
     "id": "game.tlk_yngm.m0204.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ほんとかよ信じらんね{GLYPH:010d}な{n}だったらこんなトコ来んなよ",
+    "reference": "ほんとかよ信じらんね−な{n}だったらこんなトコ来んなよ",
     "translation": "",
     "note": ""
   },
@@ -1651,7 +1651,7 @@
     "id": "game.tlk_yngm.m0205.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "やっぱそれがフツ{GLYPH:010d}だよな",
+    "reference": "やっぱそれがフツ−だよな",
     "translation": "",
     "note": ""
   },
@@ -1667,7 +1667,7 @@
     "id": "game.tlk_yngm.m0207.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "シゴトだってことは分かったけど{n}変わったことしてるよな{GLYPH:010d}",
+    "reference": "シゴトだってことは分かったけど{n}変わったことしてるよな−",
     "translation": "",
     "note": ""
   },
@@ -1691,7 +1691,7 @@
     "id": "game.tlk_yngm.m0210.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "もしかしてけっこ{GLYPH:010d}有名人？",
+    "reference": "もしかしてけっこ−有名人？",
     "translation": "",
     "note": ""
   },
@@ -1707,7 +1707,7 @@
     "id": "game.tlk_yngm.m0212.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "バレたかじゃね{GLYPH:010d}よ{n}もっと早く言えよな{WAIT}{n}まあどうでもいいけど",
+    "reference": "バレたかじゃね−よ{n}もっと早く言えよな{WAIT}{n}まあどうでもいいけど",
     "translation": "",
     "note": ""
   },
@@ -1747,7 +1747,7 @@
     "id": "game.tlk_yngm.m0217.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "まあそれはいいとして{n}こんなとこ調べまわるってのは{n}けっこ{GLYPH:010d}変わってるよな{GLYPH:010d}",
+    "reference": "まあそれはいいとして{n}こんなとこ調べまわるってのは{n}けっこ−変わってるよな−",
     "translation": "",
     "note": ""
   },
@@ -1763,7 +1763,7 @@
     "id": "game.tlk_yngm.m0219.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "なんだそりゃ？{n}「あくましょ{GLYPH:010d}かんし」だって？{WAIT}{n}へ{GLYPH:010d}",
+    "reference": "なんだそりゃ？{n}「あくましょ−かんし」だって？{WAIT}{n}へ−",
     "translation": "",
     "note": ""
   },
@@ -1779,7 +1779,7 @@
     "id": "game.tlk_yngm.m0221.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "じゃその「しょ{GLYPH:010d}かん」ってヤツを{n}あんまりされないうちに{n}かるくやっつけとくか！",
+    "reference": "じゃその「しょ−かん」ってヤツを{n}あんまりされないうちに{n}かるくやっつけとくか！",
     "translation": "",
     "note": ""
   },
@@ -1795,7 +1795,7 @@
     "id": "game.tlk_yngm.m0223.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そうなんだ…{BEAT}{n}な{GLYPH:010d}んか信じらんね{GLYPH:010d}な{WAIT}{n}分かったおまえデビルサマナ{GLYPH:010d}だろ！！",
+    "reference": "そうなんだ…{BEAT}{n}な−んか信じらんね−な{WAIT}{n}分かったおまえデビルサマナ−だろ！！",
     "translation": "",
     "note": ""
   },
@@ -1803,7 +1803,7 @@
     "id": "game.tlk_yngm.m0224.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ウソつくなよ{n}「たんて{GLYPH:010d}」ってこんなトコ来んのかよ{GLYPH:010d}",
+    "reference": "ウソつくなよ{n}「たんて−」ってこんなトコ来んのかよ−",
     "translation": "",
     "note": ""
   },
@@ -1811,7 +1811,7 @@
     "id": "game.tlk_yngm.m0225.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ふ{GLYPH:010d}んそうなんだ{n}もっと変わったことしてんのかと思った",
+    "reference": "ふ−んそうなんだ{n}もっと変わったことしてんのかと思った",
     "translation": "",
     "note": ""
   },
@@ -1843,7 +1843,7 @@
     "id": "game.tlk_yngm.m0229.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ばか調子に乗るんじゃね{GLYPH:010d}{n}ムリにでも言わせてやるからな！",
+    "reference": "ばか調子に乗るんじゃね−{n}ムリにでも言わせてやるからな！",
     "translation": "",
     "note": ""
   },
@@ -1851,7 +1851,7 @@
     "id": "game.tlk_yngm.m0230.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "人間はいいよな{GLYPH:010d}{n}使えるモノいっぱい持ってるし",
+    "reference": "人間はいいよな−{n}使えるモノいっぱい持ってるし",
     "translation": "",
     "note": ""
   },
@@ -1859,7 +1859,7 @@
     "id": "game.tlk_yngm.m0231.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれもクルマなんか欲しいな{GLYPH:010d}",
+    "reference": "おれもクルマなんか欲しいな−",
     "translation": "",
     "note": ""
   },
@@ -1867,7 +1867,7 @@
     "id": "game.tlk_yngm.m0232.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "まったくほんとつめて{GLYPH:010d}よな{n}分かってるよそんなこと",
+    "reference": "まったくほんとつめて−よな{n}分かってるよそんなこと",
     "translation": "",
     "note": ""
   },
@@ -1899,7 +1899,7 @@
     "id": "game.tlk_yngm.m0236.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そりゃね{GLYPH:010d}だろ{n}買ってくれなんてたのんでないんだから…{WAIT}{n}それよりどうせヒマなんだろ",
+    "reference": "そりゃね−だろ{n}買ってくれなんてたのんでないんだから…{WAIT}{n}それよりどうせヒマなんだろ",
     "translation": "",
     "note": ""
   },
@@ -1907,7 +1907,7 @@
     "id": "game.tlk_yngm.m0237.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ほんとかよ信じらんね{GLYPH:010d}な{WAIT}{n}な{GLYPH:010d}んかイヤな気分だな{GLYPH:010d}",
+    "reference": "ほんとかよ信じらんね−な{WAIT}{n}な−んかイヤな気分だな−",
     "translation": "",
     "note": ""
   },
@@ -1915,7 +1915,7 @@
     "id": "game.tlk_yngm.m0238.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "また言ってるだけじゃね{GLYPH:010d}の",
+    "reference": "また言ってるだけじゃね−の",
     "translation": "",
     "note": ""
   },
@@ -1923,7 +1923,7 @@
     "id": "game.tlk_yngm.m0239.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ウソつくなよそんな気ないくせに{WAIT}{n}おまえのこと倒して{n}もらっちゃうことにしようかな{GLYPH:010d}",
+    "reference": "ウソつくなよそんな気ないくせに{WAIT}{n}おまえのこと倒して{n}もらっちゃうことにしようかな−",
     "translation": "",
     "note": ""
   },
@@ -1931,7 +1931,7 @@
     "id": "game.tlk_yngm.m0240.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "街はいいよな{GLYPH:010d}{n}いろいろ楽し{GLYPH:010d}ことばっかで{n}ギャンブル好きのおれにはたまんないよ",
+    "reference": "街はいいよな−{n}いろいろ楽し−ことばっかで{n}ギャンブル好きのおれにはたまんないよ",
     "translation": "",
     "note": ""
   },
@@ -1947,7 +1947,7 @@
     "id": "game.tlk_yngm.m0242.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そうだよな{GLYPH:010d}{n}やっぱやめらんないよな{GLYPH:010d}",
+    "reference": "そうだよな−{n}やっぱやめらんないよな−",
     "translation": "",
     "note": ""
   },
@@ -1979,7 +1979,7 @@
     "id": "game.tlk_yngm.m0246.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そうなのかつまんね{GLYPH:010d}の{n}もったいね{GLYPH:010d}よな街にいるのに…",
+    "reference": "そうなのかつまんね−の{n}もったいね−よな街にいるのに…",
     "translation": "",
     "note": ""
   },
@@ -1987,7 +1987,7 @@
     "id": "game.tlk_yngm.m0247.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "じゃあやってみろよおれと{WAIT}{n}楽し{GLYPH:010d}ぞ{BEAT}{n}命をかけたギャンブルだからな！",
+    "reference": "じゃあやってみろよおれと{WAIT}{n}楽し−ぞ{BEAT}{n}命をかけたギャンブルだからな！",
     "translation": "",
     "note": ""
   },
@@ -1995,7 +1995,7 @@
     "id": "game.tlk_yngm.m0248.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "やっぱそうかかたいよな{GLYPH:010d}{WAIT}{n}ハッ！もしかして…{n}ウワサのデビルサマナ{GLYPH:010d}？",
+    "reference": "やっぱそうかかたいよな−{WAIT}{n}ハッ！もしかして…{n}ウワサのデビルサマナ−？",
     "translation": "",
     "note": ""
   },
@@ -2003,7 +2003,7 @@
     "id": "game.tlk_yngm.m0249.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "だからダメなんだよ{n}息抜きも必要だと思うけどな{GLYPH:010d}{WAIT}{n}それよりおまえヒマなんだろ",
+    "reference": "だからダメなんだよ{n}息抜きも必要だと思うけどな−{WAIT}{n}それよりおまえヒマなんだろ",
     "translation": "",
     "note": ""
   },
@@ -2019,7 +2019,7 @@
     "id": "game.tlk_yngm.m0251.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ゲ{GLYPH:010d}ムっておもしろいだろ？",
+    "reference": "ゲ−ムっておもしろいだろ？",
     "translation": "",
     "note": ""
   },
@@ -2027,7 +2027,7 @@
     "id": "game.tlk_yngm.m0252.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "いいよな{GLYPH:010d}そういうのが{n}おれたちにはムリだもんな{GLYPH:010d}",
+    "reference": "いいよな−そういうのが{n}おれたちにはムリだもんな−",
     "translation": "",
     "note": ""
   },
@@ -2035,7 +2035,7 @@
     "id": "game.tlk_yngm.m0253.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "くやし{GLYPH:010d}よな{n}そういうこと言ってんの聞くと",
+    "reference": "くやし−よな{n}そういうこと言ってんの聞くと",
     "translation": "",
     "note": ""
   },
@@ -2051,7 +2051,7 @@
     "id": "game.tlk_yngm.m0255.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そうかあおれやりたくって{n}仕方ないんだけどな{GLYPH:010d}",
+    "reference": "そうかあおれやりたくって{n}仕方ないんだけどな−",
     "translation": "",
     "note": ""
   },
@@ -2059,7 +2059,7 @@
     "id": "game.tlk_yngm.m0256.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ところでそうやって{n}おれの気をひいてどうすんだよ？{WAIT}{n}な{GLYPH:010d}んかあやしいな{GLYPH:010d}",
+    "reference": "ところでそうやって{n}おれの気をひいてどうすんだよ？{WAIT}{n}な−んかあやしいな−",
     "translation": "",
     "note": ""
   },
@@ -2083,7 +2083,7 @@
     "id": "game.tlk_yngm.m0259.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "じゃあしょ{GLYPH:010d}がないな{n}ずっとそうやってぶらぶらしてろよ",
+    "reference": "じゃあしょ−がないな{n}ずっとそうやってぶらぶらしてろよ",
     "translation": "",
     "note": ""
   },
@@ -2091,7 +2091,7 @@
     "id": "game.tlk_yngm.m0260.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "え{GLYPH:010d}そうなの？{n}そんなヤツ今どきいるのかよ…{WAIT}{n}じゃあさあ",
+    "reference": "え−そうなの？{n}そんなヤツ今どきいるのかよ…{WAIT}{n}じゃあさあ",
     "translation": "",
     "note": ""
   },
@@ -2131,7 +2131,7 @@
     "id": "game.tlk_yngm.m0265.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そういうのが人間にはあるんだよな{GLYPH:010d}{n}いいよな{GLYPH:010d}人間は",
+    "reference": "そういうのが人間にはあるんだよな−{n}いいよな−人間は",
     "translation": "",
     "note": ""
   },
@@ -2155,7 +2155,7 @@
     "id": "game.tlk_yngm.m0267.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ちゃんと分かってんだぞ{n}おまえがデビルサマナ{GLYPH:010d}だってことは",
+    "reference": "ちゃんと分かってんだぞ{n}おまえがデビルサマナ−だってことは",
     "translation": "",
     "note": ""
   },
@@ -2163,7 +2163,7 @@
     "id": "game.tlk_yngm.m0268.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ハハハ{BEAT}{n}人間のくせにしょ{GLYPH:010d}がね{GLYPH:010d}な",
+    "reference": "ハハハ{BEAT}{n}人間のくせにしょ−がね−な",
     "translation": "",
     "note": ""
   },
@@ -2171,7 +2171,7 @@
     "id": "game.tlk_yngm.m0269.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おまえほんとダメだな…{WAIT}{n}どうしようもね{GLYPH:010d}ヤツは死んじまえよ！",
+    "reference": "おまえほんとダメだな…{WAIT}{n}どうしようもね−ヤツは死んじまえよ！",
     "translation": "",
     "note": ""
   },
@@ -2187,7 +2187,7 @@
     "id": "game.tlk_yngm.m0271.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ほんとに気に入らね{GLYPH:010d}な",
+    "reference": "ほんとに気に入らね−な",
     "translation": "",
     "note": ""
   },
@@ -2211,7 +2211,7 @@
     "id": "game.tlk_yngm.m0274.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "えっ分かんね{GLYPH:010d}の？{WAIT}{n}もういい怒る気しね{GLYPH:010d}",
+    "reference": "えっ分かんね−の？{WAIT}{n}もういい怒る気しね−",
     "translation": "",
     "note": ""
   },
@@ -2235,7 +2235,7 @@
     "id": "game.tlk_yngm.m0277.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "まだ分かんね{GLYPH:010d}のか{n}最悪だなおまえ{WAIT}いいから死ね！",
+    "reference": "まだ分かんね−のか{n}最悪だなおまえ{WAIT}いいから死ね！",
     "translation": "",
     "note": ""
   },
@@ -2259,7 +2259,7 @@
     "id": "game.tlk_yngm.m0280.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "なんだよ{WAIT}ほんとに{n}ムカつく言い方しかしね{GLYPH:010d}んだな{WAIT}{n}その性格なんとかしろよな！！",
+    "reference": "なんだよ{WAIT}ほんとに{n}ムカつく言い方しかしね−んだな{WAIT}{n}その性格なんとかしろよな！！",
     "translation": "",
     "note": ""
   },
@@ -2267,7 +2267,7 @@
     "id": "game.tlk_yngm.m0281.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ふざけんなよ{BEAT}{n}おまえろくなヤツじゃね{GLYPH:010d}な{n}いいからかかってこいよ",
+    "reference": "ふざけんなよ{BEAT}{n}おまえろくなヤツじゃね−な{n}いいからかかってこいよ",
     "translation": "",
     "note": ""
   },
@@ -2283,7 +2283,7 @@
     "id": "game.tlk_yngm.m0282.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}心配しなくても助けてやるよ！",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}心配しなくても助けてやるよ！",
     "translation": "",
     "note": ""
   },
@@ -2291,7 +2291,7 @@
     "id": "game.tlk_yngm.m0283.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "でっかい声出してんじゃね{GLYPH:010d}よ{n}弱いヤツほどそうなんだよな{GLYPH:010d}{WAIT}{n}どっからでもかかってこいよバカ！",
+    "reference": "でっかい声出してんじゃね−よ{n}弱いヤツほどそうなんだよな−{WAIT}{n}どっからでもかかってこいよバカ！",
     "translation": "",
     "note": ""
   },
@@ -2299,7 +2299,7 @@
     "id": "game.tlk_yngm.m0284.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "まったくほんとつまんね{GLYPH:010d}ヤツだな",
+    "reference": "まったくほんとつまんね−ヤツだな",
     "translation": "",
     "note": ""
   },
@@ -2315,7 +2315,7 @@
     "id": "game.tlk_yngm.m0286.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "へ{GLYPH:010d}けっこうやるじゃん",
+    "reference": "へ−けっこうやるじゃん",
     "translation": "",
     "note": ""
   },
@@ -2323,7 +2323,7 @@
     "id": "game.tlk_yngm.m0287.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "あ{GLYPH:010d}あきたいしたのに{n}そんなもんかあ",
+    "reference": "あ−あきたいしたのに{n}そんなもんかあ",
     "translation": "",
     "note": ""
   },
@@ -2339,7 +2339,7 @@
     "id": "game.tlk_yngm.m0289.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "なんだやっぱへったくそだな{GLYPH:010d}{n}ヘタなのは性格悪いからだよ{n}なんとかしたいと思ってんだろ？",
+    "reference": "なんだやっぱへったくそだな−{n}ヘタなのは性格悪いからだよ{n}なんとかしたいと思ってんだろ？",
     "translation": "",
     "note": ""
   },
@@ -2347,7 +2347,7 @@
     "id": "game.tlk_yngm.m0290.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "へ{GLYPH:010d}おまえそんなことできたのか{n}けっこ{GLYPH:010d}おもしろかったよ{n}そんな才能あんなら帰っちゃえよ",
+    "reference": "へ−おまえそんなことできたのか{n}けっこ−おもしろかったよ{n}そんな才能あんなら帰っちゃえよ",
     "translation": "",
     "note": ""
   },
@@ -2355,7 +2355,7 @@
     "id": "game.tlk_yngm.m0291.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そんなかったるいもん見せんなよ{n}このバ{GLYPH:010d}{BEAT}カ",
+    "reference": "そんなかったるいもん見せんなよ{n}このバ−{BEAT}カ",
     "translation": "",
     "note": ""
   },
@@ -2363,7 +2363,7 @@
     "id": "game.tlk_yngm.m0292.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "けっこ{GLYPH:010d}おもしろいもんなんだな{n}期待してたよりずっとよかったよ",
+    "reference": "けっこ−おもしろいもんなんだな{n}期待してたよりずっとよかったよ",
     "translation": "",
     "note": ""
   },
@@ -2379,7 +2379,7 @@
     "id": "game.tlk_yngm.m0294.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "まあそんなに{n}もうかってなさそ{GLYPH:010d}だけど",
+    "reference": "まあそんなに{n}もうかってなさそ−だけど",
     "translation": "",
     "note": ""
   },
@@ -2387,7 +2387,7 @@
     "id": "game.tlk_yngm.m0295.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "「ケ{GLYPH:010d}タイ」ぐらい持ってんだろ？",
+    "reference": "「ケ−タイ」ぐらい持ってんだろ？",
     "translation": "",
     "note": ""
   },
@@ -2395,7 +2395,7 @@
     "id": "game.tlk_yngm.m0296.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そうかあいいよな{n}おれも人間がよかったな{GLYPH:010d}",
+    "reference": "そうかあいいよな{n}おれも人間がよかったな−",
     "translation": "",
     "note": ""
   },
@@ -2411,7 +2411,7 @@
     "id": "game.tlk_yngm.m0298.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そうなのか{n}やっぱいいな{GLYPH:010d}",
+    "reference": "そうなのか{n}やっぱいいな−",
     "translation": "",
     "note": ""
   },
@@ -2427,7 +2427,7 @@
     "id": "game.tlk_yngm.m0300.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そうなのか{n}やっぱビンボ{GLYPH:010d}なんだ{n}でもおまえらし{GLYPH:010d}よ！！",
+    "reference": "そうなのか{n}やっぱビンボ−なんだ{n}でもおまえらし−よ！！",
     "translation": "",
     "note": ""
   },
@@ -2435,7 +2435,7 @@
     "id": "game.tlk_yngm.m0301.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そっか…{WAIT}欲し{GLYPH:010d}んだろ？{BEAT}{n}じゃあ{offered_item}やるから{n}売って足しにしてくれ",
+    "reference": "そっか…{WAIT}欲し−んだろ？{BEAT}{n}じゃあ{offered_item}やるから{n}売って足しにしてくれ",
     "translation": "",
     "note": ""
   },
@@ -2443,7 +2443,7 @@
     "id": "game.tlk_yngm.m0302.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ムリしてんな{GLYPH:010d}{WAIT}{n}笑っちゃうよ{n}ハハハハハ！！",
+    "reference": "ムリしてんな−{WAIT}{n}笑っちゃうよ{n}ハハハハハ！！",
     "translation": "",
     "note": ""
   },
@@ -2451,7 +2451,7 @@
     "id": "game.tlk_yngm.m0303.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "バカだな{GLYPH:010d}{WAIT}{n}便利だぞ{GLYPH:010d}{WAIT}{n}いいぞ{GLYPH:010d}",
+    "reference": "バカだな−{WAIT}{n}便利だぞ−{WAIT}{n}いいぞ−",
     "translation": "",
     "note": ""
   },
@@ -2467,7 +2467,7 @@
     "id": "game.tlk_yngm.m0305.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "変わってるよな{GLYPH:010d}何それ？",
+    "reference": "変わってるよな−何それ？",
     "translation": "",
     "note": ""
   },
@@ -2475,7 +2475,7 @@
     "id": "game.tlk_yngm.m0306.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そうなんだふ{GLYPH:010d}ん{WAIT}{n}なんだなんだ{BEAT}体が引っ張られて…{BEAT}{n}吸い込まれる！",
+    "reference": "そうなんだふ−ん{WAIT}{n}なんだなんだ{BEAT}体が引っ張られて…{BEAT}{n}吸い込まれる！",
     "translation": "",
     "note": ""
   },
@@ -2483,7 +2483,7 @@
     "id": "game.tlk_yngm.m0306.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}なんだよここは！{BEAT}{n}…出せよひきょ{GLYPH:010d}だろ！！",
+    "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}なんだよここは！{BEAT}{n}…出せよひきょ−だろ！！",
     "translation": "",
     "note": ""
   },
@@ -2491,7 +2491,7 @@
     "id": "game.tlk_yngm.m0306.p02",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ちぇっあきらめたよ…{WAIT}{n}おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}心配しなくても助けてやるよ！",
+    "reference": "ちぇっあきらめたよ…{WAIT}{n}おれ{race}{demon_name}つ−んだ{n}心配しなくても助けてやるよ！",
     "translation": "",
     "note": ""
   },
@@ -2499,7 +2499,7 @@
     "id": "game.tlk_yngm.m0307.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そうなんだふ{GLYPH:010d}ん{WAIT}{n}な{GLYPH:010d}んだつまんね{GLYPH:010d}な{WAIT}{n}でもまあいいや",
+    "reference": "そうなんだふ−ん{WAIT}{n}な−んだつまんね−な{WAIT}{n}でもまあいいや",
     "translation": "",
     "note": ""
   },
@@ -2507,7 +2507,7 @@
     "id": "game.tlk_yngm.m0308.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "えっ？いいのかよ{WAIT}{n}へ{GLYPH:010d}こ{GLYPH:010d}なってんだおもしれ{GLYPH:010d}{WAIT}{n}もう返しとくよサンキュ{GLYPH:010d}！",
+    "reference": "えっ？いいのかよ{WAIT}{n}へ−こ−なってんだおもしれ−{WAIT}{n}もう返しとくよサンキュ−！",
     "translation": "",
     "note": ""
   },
@@ -2523,7 +2523,7 @@
     "id": "game.tlk_yngm.m0310.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれならもっと違ったことやりて{GLYPH:010d}な{n}イイ女といっしょに",
+    "reference": "おれならもっと違ったことやりて−な{n}イイ女といっしょに",
     "translation": "",
     "note": ""
   },
@@ -2539,7 +2539,7 @@
     "id": "game.tlk_yngm.m0312.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "いいな{GLYPH:010d}{n}人間にはイイ女多いもんな{GLYPH:010d}",
+    "reference": "いいな−{n}人間にはイイ女多いもんな−",
     "translation": "",
     "note": ""
   },
@@ -2555,7 +2555,7 @@
     "id": "game.tlk_yngm.m0314.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "かわいそ{GLYPH:010d}なヤツ{n}あせった方がいいよもうオヤジなんだから",
+    "reference": "かわいそ−なヤツ{n}あせった方がいいよもうオヤジなんだから",
     "translation": "",
     "note": ""
   },
@@ -2563,7 +2563,7 @@
     "id": "game.tlk_yngm.m0315.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そうだろ{GLYPH:010d}な{n}おまえじゃムリだろ{GLYPH:010d}な{GLYPH:010d}{n}けっこ{GLYPH:010d}変なヤツだもんな{GLYPH:010d}",
+    "reference": "そうだろ−な{n}おまえじゃムリだろ−な−{n}けっこ−変なヤツだもんな−",
     "translation": "",
     "note": ""
   },
@@ -2587,7 +2587,7 @@
     "id": "game.tlk_yngm.m0318.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれは毎日やりたいこと{n}やってるからな…{WAIT}{n}あ{GLYPH:010d}あ",
+    "reference": "おれは毎日やりたいこと{n}やってるからな…{WAIT}{n}あ−あ",
     "translation": "",
     "note": ""
   },
@@ -2595,7 +2595,7 @@
     "id": "game.tlk_yngm.m0319.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "どっかにイイ女いね{GLYPH:010d}かなあ？",
+    "reference": "どっかにイイ女いね−かなあ？",
     "translation": "",
     "note": ""
   },
@@ -2603,7 +2603,7 @@
     "id": "game.tlk_yngm.m0320.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "マジで？{BEAT}いいの？{BEAT}{n}おまえいいヤツなんだな{GLYPH:010d}",
+    "reference": "マジで？{BEAT}いいの？{BEAT}{n}おまえいいヤツなんだな−",
     "translation": "",
     "note": ""
   },
@@ -2627,7 +2627,7 @@
     "id": "game.tlk_yngm.m0323.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そんな変な顔すんなよな{GLYPH:010d}{n}別にいいだろ悪魔がそう思ってたって",
+    "reference": "そんな変な顔すんなよな−{n}別にいいだろ悪魔がそう思ってたって",
     "translation": "",
     "note": ""
   },
@@ -2643,7 +2643,7 @@
     "id": "game.tlk_yngm.m0325.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "なに冷静に答えてんだよ{n}オンナの話にも乗ってこないのかよ{n}ほんとつまんね{GLYPH:010d}な",
+    "reference": "なに冷静に答えてんだよ{n}オンナの話にも乗ってこないのかよ{n}ほんとつまんね−な",
     "translation": "",
     "note": ""
   },
@@ -2659,7 +2659,7 @@
     "id": "game.tlk_yngm.m0326.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}よろしくな！",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}よろしくな！",
     "translation": "",
     "note": ""
   },
@@ -2707,7 +2707,7 @@
     "id": "game.tlk_yngm.m0332.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "へ{GLYPH:010d}そうなんだ",
+    "reference": "へ−そうなんだ",
     "translation": "",
     "note": ""
   },
@@ -2731,7 +2731,7 @@
     "id": "game.tlk_yngm.m0334.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}心配しなくても助けてやるよ！",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}心配しなくても助けてやるよ！",
     "translation": "",
     "note": ""
   },
@@ -2739,7 +2739,7 @@
     "id": "game.tlk_yngm.m0335.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "なんだよケチだな{GLYPH:010d}{n}別にど{GLYPH:010d}こ{GLYPH:010d}しようって{n}言ってんじゃないんだし教えろよな{GLYPH:010d}",
+    "reference": "なんだよケチだな−{n}別にど−こ−しようって{n}言ってんじゃないんだし教えろよな−",
     "translation": "",
     "note": ""
   },
@@ -2747,7 +2747,7 @@
     "id": "game.tlk_yngm.m0336.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おまえも人間なら{n}けっこ{GLYPH:010d}いいトコ住んでんだろ",
+    "reference": "おまえも人間なら{n}けっこ−いいトコ住んでんだろ",
     "translation": "",
     "note": ""
   },
@@ -2763,7 +2763,7 @@
     "id": "game.tlk_yngm.m0338.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おまえならそんなとこだろ{GLYPH:010d}な",
+    "reference": "おまえならそんなとこだろ−な",
     "translation": "",
     "note": ""
   },
@@ -2771,7 +2771,7 @@
     "id": "game.tlk_yngm.m0339.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "いくらなんでもワンル{GLYPH:010d}ムじゃな{GLYPH:010d}{n}もうちょっとマシなとこ住めよ{n}ほら{offered_item}もってけよ",
+    "reference": "いくらなんでもワンル−ムじゃな−{n}もうちょっとマシなとこ住めよ{n}ほら{offered_item}もってけよ",
     "translation": "",
     "note": ""
   },
@@ -2787,7 +2787,7 @@
     "id": "game.tlk_yngm.m0341.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "けっこうナマイキだな{GLYPH:010d}{n}おまえ一人で住んでんだろ{n}ほんとナマイキだな{GLYPH:010d}",
+    "reference": "けっこうナマイキだな−{n}おまえ一人で住んでんだろ{n}ほんとナマイキだな−",
     "translation": "",
     "note": ""
   },
@@ -2795,7 +2795,7 @@
     "id": "game.tlk_yngm.m0342.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "すっげ{GLYPH:010d}なそれ{n}おれも連れてってくれよ{n}たのむよ{BEAT}なっ！{WAIT}OK？{BEAT}やった{GLYPH:010d}",
+    "reference": "すっげ−なそれ{n}おれも連れてってくれよ{n}たのむよ{BEAT}なっ！{WAIT}OK？{BEAT}やった−",
     "translation": "",
     "note": ""
   },
@@ -2803,7 +2803,7 @@
     "id": "game.tlk_yngm.m0342.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}心配しなくても役に立つって！",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}心配しなくても役に立つって！",
     "translation": "",
     "note": ""
   },
@@ -2811,7 +2811,7 @@
     "id": "game.tlk_yngm.m0343.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "なんだよそれ{GLYPH:010d}{n}すっげ{GLYPH:010d}ナマイキだな{GLYPH:010d}{n}ったくうらやまし{GLYPH:010d}よな",
+    "reference": "なんだよそれ−{n}すっげ−ナマイキだな−{n}ったくうらやまし−よな",
     "translation": "",
     "note": ""
   },
@@ -2819,7 +2819,7 @@
     "id": "game.tlk_yngm.m0344.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ハハハハハ{BEAT}しょ{GLYPH:010d}がね{GLYPH:010d}な{n}{offered_item}",
+    "reference": "ハハハハハ{BEAT}しょ−がね−な{n}{offered_item}",
     "translation": "",
     "note": ""
   },
@@ -2843,7 +2843,7 @@
     "id": "game.tlk_yngm.m0347.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "{OP:8025}ハハハハハ{n}{OP:8022}ハハハハハ{OP:8020}{n}…………苦し{GLYPH:010d}動けね{GLYPH:010d}",
+    "reference": "{OP:8025}ハハハハハ{n}{OP:8022}ハハハハハ{OP:8020}{n}…………苦し−動けね−",
     "translation": "",
     "note": ""
   },
@@ -2851,7 +2851,7 @@
     "id": "game.tlk_yngm.m0348.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "だからって{n}悪魔であやし{GLYPH:010d}ことするのやめろよな{GLYPH:010d}",
+    "reference": "だからって{n}悪魔であやし−ことするのやめろよな−",
     "translation": "",
     "note": ""
   },
@@ -2867,7 +2867,7 @@
     "id": "game.tlk_yngm.m0350.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "開き直んなよな{GLYPH:010d}{n}マジで最悪なヤツだな",
+    "reference": "開き直んなよな−{n}マジで最悪なヤツだな",
     "translation": "",
     "note": ""
   },
@@ -2875,7 +2875,7 @@
     "id": "game.tlk_yngm.m0351.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "「そうだ」じゃね{GLYPH:010d}だろ{n}「そうだ」じゃ",
+    "reference": "「そうだ」じゃね−だろ{n}「そうだ」じゃ",
     "translation": "",
     "note": ""
   },
@@ -2899,7 +2899,7 @@
     "id": "game.tlk_yngm.m0353.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}まあよろしく頼むわ",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}まあよろしく頼むわ",
     "translation": "",
     "note": ""
   },
@@ -2907,7 +2907,7 @@
     "id": "game.tlk_yngm.m0354.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ってことはつまりやってるって訳だ{WAIT}{n}ふざけたヤツだな{GLYPH:010d}{n}これでもくらいなっ！！",
+    "reference": "ってことはつまりやってるって訳だ{WAIT}{n}ふざけたヤツだな−{n}これでもくらいなっ！！",
     "translation": "",
     "note": ""
   },
@@ -2915,7 +2915,7 @@
     "id": "game.tlk_yngm.m0355.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そりゃそうかもしれないけど{n}気になるだろ{GLYPH:010d}！！",
+    "reference": "そりゃそうかもしれないけど{n}気になるだろ−！！",
     "translation": "",
     "note": ""
   },
@@ -2931,7 +2931,7 @@
     "id": "game.tlk_yngm.m0357.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "あ{GLYPH:010d}あだからか{WAIT}{n}おまえが連れてるヤツら",
+    "reference": "あ−あだからか{WAIT}{n}おまえが連れてるヤツら",
     "translation": "",
     "note": ""
   },
@@ -2955,7 +2955,7 @@
     "id": "game.tlk_yngm.m0360.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "へ{GLYPH:010d}そんなヤツらがね{GLYPH:010d}{n}おれにはそうは見えないけど{WAIT}{n}だって大したことなさそ{GLYPH:010d}じゃん",
+    "reference": "へ−そんなヤツらがね−{n}おれにはそうは見えないけど{WAIT}{n}だって大したことなさそ−じゃん",
     "translation": "",
     "note": ""
   },
@@ -2979,7 +2979,7 @@
     "id": "game.tlk_yngm.m0363.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おまえバカにされてんの{n}分かってね{GLYPH:010d}のかよ{n}ほんとしゃ{GLYPH:010d}ね{GLYPH:010d}な",
+    "reference": "おまえバカにされてんの{n}分かってね−のかよ{n}ほんとしゃ−ね−な",
     "translation": "",
     "note": ""
   },
@@ -2995,7 +2995,7 @@
     "id": "game.tlk_yngm.m0364.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}心配しなくても助けてやるよ！",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}心配しなくても助けてやるよ！",
     "translation": "",
     "note": ""
   },
@@ -3003,7 +3003,7 @@
     "id": "game.tlk_yngm.m0365.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そりゃそ{GLYPH:010d}だけど…{BEAT}{n}でもな{GLYPH:010d}笑っちゃうよな{GLYPH:010d}{n}フッ…{BEAT}ダッセ{GLYPH:010d}やつ",
+    "reference": "そりゃそ−だけど…{BEAT}{n}でもな−笑っちゃうよな−{n}フッ…{BEAT}ダッセ−やつ",
     "translation": "",
     "note": ""
   },
@@ -3011,7 +3011,7 @@
     "id": "game.tlk_yngm.m0366.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "分かったよよけ{GLYPH:010d}なこと言わないから{n}おれも仲魔に入れてくれよ{WAIT}{n}まあいいからいいから…",
+    "reference": "分かったよよけ−なこと言わないから{n}おれも仲魔に入れてくれよ{WAIT}{n}まあいいからいいから…",
     "translation": "",
     "note": ""
   },
@@ -3019,7 +3019,7 @@
     "id": "game.tlk_yngm.m0366.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}心配しなくても助けてやるよ！",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}心配しなくても助けてやるよ！",
     "translation": "",
     "note": ""
   },
@@ -3035,7 +3035,7 @@
     "id": "game.tlk_yngm.m0368.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "まだそういう態度とるのかよ{n}ムカつくな{GLYPH:010d}{n}おまえよっぽどやられたいみたいだな",
+    "reference": "まだそういう態度とるのかよ{n}ムカつくな−{n}おまえよっぽどやられたいみたいだな",
     "translation": "",
     "note": ""
   },
@@ -3043,7 +3043,7 @@
     "id": "game.tlk_yngm.m0369.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "だったらおもしれ{GLYPH:010d}コトあるんだよ{WAIT}{n}その前におまえの持ってるモノ{n}ぶっそ{GLYPH:010d}なモノ多いからさあ",
+    "reference": "だったらおもしれ−コトあるんだよ{WAIT}{n}その前におまえの持ってるモノ{n}ぶっそ−なモノ多いからさあ",
     "translation": "",
     "note": ""
   },
@@ -3059,7 +3059,7 @@
     "id": "game.tlk_yngm.m0371.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "バカだな{GLYPH:010d}{n}ほんとにとっちゃたよ…{WAIT}{n}おまえど{GLYPH:010d}すんの？それで",
+    "reference": "バカだな−{n}ほんとにとっちゃたよ…{WAIT}{n}おまえど−すんの？それで",
     "translation": "",
     "note": ""
   },
@@ -3067,7 +3067,7 @@
     "id": "game.tlk_yngm.m0372.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ひっかかったなバ{GLYPH:010d}カ{n}と{GLYPH:010d}ぜんおれ攻撃するからな{GLYPH:010d}{WAIT}{n}ほれっ！",
+    "reference": "ひっかかったなバ−カ{n}と−ぜんおれ攻撃するからな−{WAIT}{n}ほれっ！",
     "translation": "",
     "note": ""
   },
@@ -3075,7 +3075,7 @@
     "id": "game.tlk_yngm.m0373.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おまえすげ{GLYPH:010d}な{n}フツ{GLYPH:010d}そこまでしね{GLYPH:010d}ぞ{WAIT}{n}{offered_item}やるよいいから持ってけ",
+    "reference": "おまえすげ−な{n}フツ−そこまでしね−ぞ{WAIT}{n}{offered_item}やるよいいから持ってけ",
     "translation": "",
     "note": ""
   },
@@ -3083,7 +3083,7 @@
     "id": "game.tlk_yngm.m0374.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "バカだな{GLYPH:010d}{n}ほんとにはずしちゃうし{WAIT}{n}かわいそ{GLYPH:010d}だから攻撃させてやるよ！",
+    "reference": "バカだな−{n}ほんとにはずしちゃうし{WAIT}{n}かわいそ−だから攻撃させてやるよ！",
     "translation": "",
     "note": ""
   },
@@ -3091,7 +3091,7 @@
     "id": "game.tlk_yngm.m0375.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "つまんね{GLYPH:010d}の{n}おまえほんとノリ悪いよな",
+    "reference": "つまんね−の{n}おまえほんとノリ悪いよな",
     "translation": "",
     "note": ""
   },
@@ -3107,7 +3107,7 @@
     "id": "game.tlk_yngm.m0377.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ほんとだこいつマジで装備してね{GLYPH:010d}ぞ{BEAT}{n}おまえやる気あんの？",
+    "reference": "ほんとだこいつマジで装備してね−ぞ{BEAT}{n}おまえやる気あんの？",
     "translation": "",
     "note": ""
   },
@@ -3123,7 +3123,7 @@
     "id": "game.tlk_yngm.m0379.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ悪いヤツじゃないし{n}信用してくれるんなら{n}言うとおりにしろよな{GLYPH:010d}",
+    "reference": "おれ悪いヤツじゃないし{n}信用してくれるんなら{n}言うとおりにしろよな−",
     "translation": "",
     "note": ""
   },
@@ -3131,7 +3131,7 @@
     "id": "game.tlk_yngm.m0380.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "防具はいらね{GLYPH:010d}だろ？とっちゃえよ",
+    "reference": "防具はいらね−だろ？とっちゃえよ",
     "translation": "",
     "note": ""
   },
@@ -3139,7 +3139,7 @@
     "id": "game.tlk_yngm.m0381.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "マジでとったのか？いい度胸してんな{GLYPH:010d}{n}おまえとなら気が合うかもな{WAIT}{n}仲魔になってやるよ！",
+    "reference": "マジでとったのか？いい度胸してんな−{n}おまえとなら気が合うかもな{WAIT}{n}仲魔になってやるよ！",
     "translation": "",
     "note": ""
   },
@@ -3147,7 +3147,7 @@
     "id": "game.tlk_yngm.m0381.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}心配しなくてもだいじょ{GLYPH:010d}ぶだって！",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}心配しなくてもだいじょ−ぶだって！",
     "translation": "",
     "note": ""
   },
@@ -3155,7 +3155,7 @@
     "id": "game.tlk_yngm.m0382.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "やるな{GLYPH:010d}{BEAT}ほんとにはずすなんて{WAIT}{n}でもバカだな{GLYPH:010d}",
+    "reference": "やるな−{BEAT}ほんとにはずすなんて{WAIT}{n}でもバカだな−",
     "translation": "",
     "note": ""
   },
@@ -3163,7 +3163,7 @@
     "id": "game.tlk_yngm.m0383.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そうかよ{BEAT}{n}信用できね{GLYPH:010d}のかよ{WAIT}{n}ったくやなヤツだな{GLYPH:010d}",
+    "reference": "そうかよ{BEAT}{n}信用できね−のかよ{WAIT}{n}ったくやなヤツだな−",
     "translation": "",
     "note": ""
   },
@@ -3171,7 +3171,7 @@
     "id": "game.tlk_yngm.m0384.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "なんだよつまんね{GLYPH:010d}な{WAIT}{n}信用ね{GLYPH:010d}んだなちぇっ！",
+    "reference": "なんだよつまんね−な{WAIT}{n}信用ね−んだなちぇっ！",
     "translation": "",
     "note": ""
   },
@@ -3187,7 +3187,7 @@
     "id": "game.tlk_yngm.m0386.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おまえと関ってると{n}なんか楽しめそ{GLYPH:010d}な気がするし",
+    "reference": "おまえと関ってると{n}なんか楽しめそ−な気がするし",
     "translation": "",
     "note": ""
   },
@@ -3211,7 +3211,7 @@
     "id": "game.tlk_yngm.m0389.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ほんとにいいのかよ{n}てきと{GLYPH:010d}にいってんじゃね{GLYPH:010d}よ",
+    "reference": "ほんとにいいのかよ{n}てきと−にいってんじゃね−よ",
     "translation": "",
     "note": ""
   },
@@ -3219,7 +3219,7 @@
     "id": "game.tlk_yngm.m0390.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "マジで？{WAIT}{n}へ{GLYPH:010d}いいのかよ",
+    "reference": "マジで？{WAIT}{n}へ−いいのかよ",
     "translation": "",
     "note": ""
   },
@@ -3227,7 +3227,7 @@
     "id": "game.tlk_yngm.m0391.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "なんだエラそ{GLYPH:010d}に！{n}そんなんなら別にいいよ",
+    "reference": "なんだエラそ−に！{n}そんなんなら別にいいよ",
     "translation": "",
     "note": ""
   },
@@ -3243,7 +3243,7 @@
     "id": "game.tlk_yngm.m0392.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}まあよろしくな",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}まあよろしくな",
     "translation": "",
     "note": ""
   },
@@ -3251,7 +3251,7 @@
     "id": "game.tlk_yngm.m0393.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そうかよ！{n}もうたのまね{GLYPH:010d}よ！！{n}じゃあな",
+    "reference": "そうかよ！{n}もうたのまね−よ！！{n}じゃあな",
     "translation": "",
     "note": ""
   },
@@ -3267,7 +3267,7 @@
     "id": "game.tlk_yngm.m0394.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}心配しなくても助けてやるよ！",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}心配しなくても助けてやるよ！",
     "translation": "",
     "note": ""
   },
@@ -3275,7 +3275,7 @@
     "id": "game.tlk_yngm.m0395.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "いやなのかよ！{WAIT}{n}…もういいよ{n}他にも楽し{GLYPH:010d}ことあるだろ{GLYPH:010d}し",
+    "reference": "いやなのかよ！{WAIT}{n}…もういいよ{n}他にも楽し−ことあるだろ−し",
     "translation": "",
     "note": ""
   },
@@ -3299,7 +3299,7 @@
     "id": "game.tlk_yngm.m0398.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ほんとか？{BEAT}{n}オヤジのくせにいいノリしてんな{GLYPH:010d}{WAIT}{n}じゃあ行くか！！",
+    "reference": "ほんとか？{BEAT}{n}オヤジのくせにいいノリしてんな−{WAIT}{n}じゃあ行くか！！",
     "translation": "",
     "note": ""
   },
@@ -3307,7 +3307,7 @@
     "id": "game.tlk_yngm.m0398.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}だいじょ{GLYPH:010d}ぶ助けてやるって！",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}だいじょ−ぶ助けてやるって！",
     "translation": "",
     "note": ""
   },
@@ -3331,7 +3331,7 @@
     "id": "game.tlk_yngm.m0401.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そうか…{n}おれ気が短いし待てね{GLYPH:010d}んだよな{WAIT}{n}別のヤツ探すからあんたはいいよ",
+    "reference": "そうか…{n}おれ気が短いし待てね−んだよな{WAIT}{n}別のヤツ探すからあんたはいいよ",
     "translation": "",
     "note": ""
   },
@@ -3363,7 +3363,7 @@
     "id": "game.tlk_yngm.m0405.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そうかよ{n}じゃあいいよ{WAIT}{n}まあ気が向いたら行こ{GLYPH:010d}！",
+    "reference": "そうかよ{n}じゃあいいよ{WAIT}{n}まあ気が向いたら行こ−！",
     "translation": "",
     "note": ""
   },
@@ -3387,7 +3387,7 @@
     "id": "game.tlk_yngm.m0408.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そこまで言われちゃあ{GLYPH:010d}な{n}じゃ行きますか！",
+    "reference": "そこまで言われちゃあ−な{n}じゃ行きますか！",
     "translation": "",
     "note": ""
   },
@@ -3395,7 +3395,7 @@
     "id": "game.tlk_yngm.m0408.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}だいじょ{GLYPH:010d}ぶ助けてやるって！",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}だいじょ−ぶ助けてやるって！",
     "translation": "",
     "note": ""
   },
@@ -3403,7 +3403,7 @@
     "id": "game.tlk_yngm.m0409.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "バ{GLYPH:010d}カじょ{GLYPH:010d}だんだよ！{n}行く訳ね{GLYPH:010d}だろすこしは考えろよな！",
+    "reference": "バ−カじょ−だんだよ！{n}行く訳ね−だろすこしは考えろよな！",
     "translation": "",
     "note": ""
   },
@@ -3411,7 +3411,7 @@
     "id": "game.tlk_yngm.m0410.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おまえな{GLYPH:010d}{n}もっとうれしそうなカオしろよな{GLYPH:010d}{BEAT}{n}ったく！",
+    "reference": "おまえな−{n}もっとうれしそうなカオしろよな−{BEAT}{n}ったく！",
     "translation": "",
     "note": ""
   },
@@ -3419,7 +3419,7 @@
     "id": "game.tlk_yngm.m0411.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ひとがせっかく言ってやってんのに{n}そりゃね{GLYPH:010d}んじゃね{GLYPH:010d}の？{n}えっ！！",
+    "reference": "ひとがせっかく言ってやってんのに{n}そりゃね−んじゃね−の？{n}えっ！！",
     "translation": "",
     "note": ""
   },
@@ -3427,7 +3427,7 @@
     "id": "game.tlk_yngm.m0412.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そっか…{BEAT}まあいいや！{BEAT}{n}そんなに困ってね{GLYPH:010d}ってことか…{WAIT}{n}また今度な",
+    "reference": "そっか…{BEAT}まあいいや！{BEAT}{n}そんなに困ってね−ってことか…{WAIT}{n}また今度な",
     "translation": "",
     "note": ""
   },
@@ -3443,7 +3443,7 @@
     "id": "game.tlk_yngm.m0414.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そんなにおれがいやな訳？{BEAT}{n}結局人間ってそ{GLYPH:010d}なんだよな{GLYPH:010d}",
+    "reference": "そんなにおれがいやな訳？{BEAT}{n}結局人間ってそ−なんだよな−",
     "translation": "",
     "note": ""
   },
@@ -3451,7 +3451,7 @@
     "id": "game.tlk_yngm.m0415.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そ{GLYPH:010d}かよじゃあなっ{BEAT}{n}せっかくなのによ{GLYPH:010d}",
+    "reference": "そ−かよじゃあなっ{BEAT}{n}せっかくなのによ−",
     "translation": "",
     "note": ""
   },
@@ -3459,7 +3459,7 @@
     "id": "game.tlk_yngm.m0416.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おまえさあ{n}おれたち「悪魔」をひっぱってくのは{n}いいけどさ{GLYPH:010d}",
+    "reference": "おまえさあ{n}おれたち「悪魔」をひっぱってくのは{n}いいけどさ−",
     "translation": "",
     "note": ""
   },
@@ -3467,7 +3467,7 @@
     "id": "game.tlk_yngm.m0417.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "モノみたいに扱ってんじゃね{GLYPH:010d}だろ{GLYPH:010d}なあ",
+    "reference": "モノみたいに扱ってんじゃね−だろ−なあ",
     "translation": "",
     "note": ""
   },
@@ -3483,7 +3483,7 @@
     "id": "game.tlk_yngm.m0419.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "やっぱりそうだったのかよ{n}がらじゃあね{GLYPH:010d}けど{n}おれがおまえのこと殺ってやる！！",
+    "reference": "やっぱりそうだったのかよ{n}がらじゃあね−けど{n}おれがおまえのこと殺ってやる！！",
     "translation": "",
     "note": ""
   },
@@ -3491,7 +3491,7 @@
     "id": "game.tlk_yngm.m0420.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "信じらんね{GLYPH:010d}な{WAIT}{n}おれがこの目で確かめてやる！！{WAIT}{n}いっしょに行くからな！！",
+    "reference": "信じらんね−な{WAIT}{n}おれがこの目で確かめてやる！！{WAIT}{n}いっしょに行くからな！！",
     "translation": "",
     "note": ""
   },
@@ -3499,7 +3499,7 @@
     "id": "game.tlk_yngm.m0420.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}まあよろしくな",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}まあよろしくな",
     "translation": "",
     "note": ""
   },
@@ -3507,7 +3507,7 @@
     "id": "game.tlk_yngm.m0421.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "んなもん{n}口ではなんとでも言えるよな{GLYPH:010d}{WAIT}{n}おれは信用しないからな！",
+    "reference": "んなもん{n}口ではなんとでも言えるよな−{WAIT}{n}おれは信用しないからな！",
     "translation": "",
     "note": ""
   },
@@ -3515,7 +3515,7 @@
     "id": "game.tlk_yngm.m0422.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ほんとかよ！{n}まあおれに対してそんなこと{n}やってんじゃないからいいんだけどさ{GLYPH:010d}",
+    "reference": "ほんとかよ！{n}まあおれに対してそんなこと{n}やってんじゃないからいいんだけどさ−",
     "translation": "",
     "note": ""
   },
@@ -3523,7 +3523,7 @@
     "id": "game.tlk_yngm.m0423.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そこまで言うなんて逆にあやしいね！{WAIT}{n}このウソつきヤロ{GLYPH:010d}が！{n}根性たたきなおしてやる！！",
+    "reference": "そこまで言うなんて逆にあやしいね！{WAIT}{n}このウソつきヤロ−が！{n}根性たたきなおしてやる！！",
     "translation": "",
     "note": ""
   },
@@ -3531,7 +3531,7 @@
     "id": "game.tlk_yngm.m0424.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ実はさ{GLYPH:010d}{n}今月ちょっとピンチなんだ",
+    "reference": "おれ実はさ−{n}今月ちょっとピンチなんだ",
     "translation": "",
     "note": ""
   },
@@ -3547,7 +3547,7 @@
     "id": "game.tlk_yngm.m0426.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ほんとに！{BEAT}{n}いや{GLYPH:010d}{BEAT}悪ィ{GLYPH:010d}な{GLYPH:010d}",
+    "reference": "ほんとに！{BEAT}{n}いや−{BEAT}悪ィ−な−",
     "translation": "",
     "note": ""
   },
@@ -3571,7 +3571,7 @@
     "id": "game.tlk_yngm.m0429.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そんなお{GLYPH:010d}へ{GLYPH:010d}なら{n}もういいたのまね{GLYPH:010d}よ！！",
+    "reference": "そんなお−へ−なら{n}もういいたのまね−よ！！",
     "translation": "",
     "note": ""
   },
@@ -3587,7 +3587,7 @@
     "id": "game.tlk_yngm.m0431.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そ{GLYPH:010d}かよ！！{BEAT}{n}分かったよ！！{BEAT}{n}もういいよ！！！",
+    "reference": "そ−かよ！！{BEAT}{n}分かったよ！！{BEAT}{n}もういいよ！！！",
     "translation": "",
     "note": ""
   },
@@ -3595,7 +3595,7 @@
     "id": "game.tlk_yngm.m0432.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ハハッ！！{BEAT}かわいそ{GLYPH:010d}なヤツ{n}{offered_item}恵んでやるよ{n}いいから持ってけ！",
+    "reference": "ハハッ！！{BEAT}かわいそ−なヤツ{n}{offered_item}恵んでやるよ{n}いいから持ってけ！",
     "translation": "",
     "note": ""
   },
@@ -3603,7 +3603,7 @@
     "id": "game.tlk_yngm.m0433.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ハハッ！！{n}そうかあ…{n}じゃあしょうがね{GLYPH:010d}な",
+    "reference": "ハハッ！！{n}そうかあ…{n}じゃあしょうがね−な",
     "translation": "",
     "note": ""
   },
@@ -3611,7 +3611,7 @@
     "id": "game.tlk_yngm.m0434.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "とにかくさ{GLYPH:010d}{n}せっかく知りあったんだから",
+    "reference": "とにかくさ−{n}せっかく知りあったんだから",
     "translation": "",
     "note": ""
   },
@@ -3619,7 +3619,7 @@
     "id": "game.tlk_yngm.m0435.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "たまには飲み行こ{GLYPH:010d}ぜ！",
+    "reference": "たまには飲み行こ−ぜ！",
     "translation": "",
     "note": ""
   },
@@ -3627,7 +3627,7 @@
     "id": "game.tlk_yngm.m0436.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ほんとに？{BEAT}楽しみだな{GLYPH:010d}{WAIT}{n}BARのDRINKって{n}いろいろあるらし{GLYPH:010d}からなあ{GLYPH:010d}",
+    "reference": "ほんとに？{BEAT}楽しみだな−{WAIT}{n}BARのDRINKって{n}いろいろあるらし−からなあ−",
     "translation": "",
     "note": ""
   },
@@ -3635,7 +3635,7 @@
     "id": "game.tlk_yngm.m0436.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "あっ{BEAT}そうそう{BEAT}{n}ついでになんかもらっちゃおうかな{GLYPH:010d}",
+    "reference": "あっ{BEAT}そうそう{BEAT}{n}ついでになんかもらっちゃおうかな−",
     "translation": "",
     "note": ""
   },
@@ -3643,7 +3643,7 @@
     "id": "game.tlk_yngm.m0437.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ってもおれのこと{n}いれてくれる飲み屋ってあんのかな？{WAIT}{n}まいいか！考えてもしょ{GLYPH:010d}がね{GLYPH:010d}しな",
+    "reference": "ってもおれのこと{n}いれてくれる飲み屋ってあんのかな？{WAIT}{n}まいいか！考えてもしょ−がね−しな",
     "translation": "",
     "note": ""
   },
@@ -3651,7 +3651,7 @@
     "id": "game.tlk_yngm.m0437.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "あっ{BEAT}そうそう{BEAT}{n}ついでになんかもらっちゃおうかな{GLYPH:010d}",
+    "reference": "あっ{BEAT}そうそう{BEAT}{n}ついでになんかもらっちゃおうかな−",
     "translation": "",
     "note": ""
   },
@@ -3659,7 +3659,7 @@
     "id": "game.tlk_yngm.m0438.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "うれし{GLYPH:010d}だろ？{BEAT}{n}まあでもんなことぐらいで{n}そんなによろこぶなよ！！",
+    "reference": "うれし−だろ？{BEAT}{n}まあでもんなことぐらいで{n}そんなによろこぶなよ！！",
     "translation": "",
     "note": ""
   },
@@ -3667,7 +3667,7 @@
     "id": "game.tlk_yngm.m0438.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "あっ{BEAT}そうそう{BEAT}{n}ついでになんかもらっちゃおうかな{GLYPH:010d}",
+    "reference": "あっ{BEAT}そうそう{BEAT}{n}ついでになんかもらっちゃおうかな−",
     "translation": "",
     "note": ""
   },
@@ -3675,7 +3675,7 @@
     "id": "game.tlk_yngm.m0439.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そ{GLYPH:010d}だよ！！{BEAT}{n}悪かったな{n}きれいなね{GLYPH:010d}ちゃんじゃなくって！！",
+    "reference": "そ−だよ！！{BEAT}{n}悪かったな{n}きれいなね−ちゃんじゃなくって！！",
     "translation": "",
     "note": ""
   },
@@ -3683,7 +3683,7 @@
     "id": "game.tlk_yngm.m0440.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ま{GLYPH:010d}{BEAT}ま{GLYPH:010d}{BEAT}{n}そ{GLYPH:010d}言わないでいいだろなっ！！{n}行こ！行こ！",
+    "reference": "ま−{BEAT}ま−{BEAT}{n}そ−言わないでいいだろなっ！！{n}行こ！行こ！",
     "translation": "",
     "note": ""
   },
@@ -3691,7 +3691,7 @@
     "id": "game.tlk_yngm.m0440.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "あっ{BEAT}そうそう{BEAT}{n}ついでになんかもらっちゃおうかな{GLYPH:010d}",
+    "reference": "あっ{BEAT}そうそう{BEAT}{n}ついでになんかもらっちゃおうかな−",
     "translation": "",
     "note": ""
   },
@@ -3715,7 +3715,7 @@
     "id": "game.tlk_yngm.m0443.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれでいろいろ試すんじゃね{GLYPH:010d}だろ{GLYPH:010d}な",
+    "reference": "おれでいろいろ試すんじゃね−だろ−な",
     "translation": "",
     "note": ""
   },
@@ -3723,7 +3723,7 @@
     "id": "game.tlk_yngm.m0444.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "いちお{GLYPH:010d}しんじてやるよ！{BEAT}{n}でもいちお{GLYPH:010d}だからな！！",
+    "reference": "いちお−しんじてやるよ！{BEAT}{n}でもいちお−だからな！！",
     "translation": "",
     "note": ""
   },
@@ -3731,7 +3731,7 @@
     "id": "game.tlk_yngm.m0444.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "…そうだな{GLYPH:010d}{BEAT}{n}ついでになんかもらっとくかな",
+    "reference": "…そうだな−{BEAT}{n}ついでになんかもらっとくかな",
     "translation": "",
     "note": ""
   },
@@ -3739,7 +3739,7 @@
     "id": "game.tlk_yngm.m0445.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ほんとか？{BEAT}{n}おまえうまくウソつくからな{GLYPH:010d}{n}いまいち信用できないんだよな{GLYPH:010d}",
+    "reference": "ほんとか？{BEAT}{n}おまえうまくウソつくからな−{n}いまいち信用できないんだよな−",
     "translation": "",
     "note": ""
   },
@@ -3747,7 +3747,7 @@
     "id": "game.tlk_yngm.m0446.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "またそんなこと言って{n}ど{GLYPH:010d}せ口だけだろ{GLYPH:010d}が！！",
+    "reference": "またそんなこと言って{n}ど−せ口だけだろ−が！！",
     "translation": "",
     "note": ""
   },
@@ -3755,7 +3755,7 @@
     "id": "game.tlk_yngm.m0447.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ほんとかよ？{BEAT}{n}ぜって{GLYPH:010d}信用できないね！",
+    "reference": "ほんとかよ？{BEAT}{n}ぜって−信用できないね！",
     "translation": "",
     "note": ""
   },
@@ -3771,7 +3771,7 @@
     "id": "game.tlk_yngm.m0449.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "冗談じゃね{GLYPH:010d}{n}特に合体なんかやられてたまるかよ！{WAIT}{n}じゃあなもう来んなよ！",
+    "reference": "冗談じゃね−{n}特に合体なんかやられてたまるかよ！{WAIT}{n}じゃあなもう来んなよ！",
     "translation": "",
     "note": ""
   },
@@ -3779,7 +3779,7 @@
     "id": "game.tlk_yngm.m0450.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "特に合体って試すなんていう{n}カンタンなことじゃね{GLYPH:010d}んだぞ！{n}おれいなくなっちゃう訳だし…",
+    "reference": "特に合体って試すなんていう{n}カンタンなことじゃね−んだぞ！{n}おれいなくなっちゃう訳だし…",
     "translation": "",
     "note": ""
   },
@@ -3787,7 +3787,7 @@
     "id": "game.tlk_yngm.m0451.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "マジかよ！{n}おい！おまえそりゃね{GLYPH:010d}だろ！！{WAIT}{n}いいようにやられてたまるかよ{BEAT}死ねっ！",
+    "reference": "マジかよ！{n}おい！おまえそりゃね−だろ！！{WAIT}{n}いいようにやられてたまるかよ{BEAT}死ねっ！",
     "translation": "",
     "note": ""
   },
@@ -3795,7 +3795,7 @@
     "id": "game.tlk_yngm.m0452.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おまえさあ{n}ウロチョロしやがって{n}ったくうさんくせ{GLYPH:010d}な{GLYPH:010d}",
+    "reference": "おまえさあ{n}ウロチョロしやがって{n}ったくうさんくせ−な−",
     "translation": "",
     "note": ""
   },
@@ -3803,7 +3803,7 @@
     "id": "game.tlk_yngm.m0453.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おまえには付き合いきれね{GLYPH:010d}な",
+    "reference": "おまえには付き合いきれね−な",
     "translation": "",
     "note": ""
   },
@@ -3827,7 +3827,7 @@
     "id": "game.tlk_yngm.m0456.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "待つのはいいけどさ{n}おれの気持ちは変わんね{GLYPH:010d}ぞ！！",
+    "reference": "待つのはいいけどさ{n}おれの気持ちは変わんね−ぞ！！",
     "translation": "",
     "note": ""
   },
@@ -3835,7 +3835,7 @@
     "id": "game.tlk_yngm.m0457.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "い{GLYPH:010d}や待てないね！{WAIT}{n}じゃあなバ{GLYPH:010d}カ！！",
+    "reference": "い−や待てないね！{WAIT}{n}じゃあなバ−カ！！",
     "translation": "",
     "note": ""
   },
@@ -3843,7 +3843,7 @@
     "id": "game.tlk_yngm.m0458.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おまえほんと頭わり{GLYPH:010d}な！！{WAIT}{n}仕方ね{GLYPH:010d}なかわいそ{GLYPH:010d}だから{n}なんか考えてやるか！！",
+    "reference": "おまえほんと頭わり−な！！{WAIT}{n}仕方ね−なかわいそ−だから{n}なんか考えてやるか！！",
     "translation": "",
     "note": ""
   },
@@ -3851,7 +3851,7 @@
     "id": "game.tlk_yngm.m0459.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "なんで分かんね{GLYPH:010d}んだよ！{WAIT}{n}おまえどうしょ{GLYPH:010d}もね{GLYPH:010d}な{n}痛い目にあわないと分かんね{GLYPH:010d}んだな！！",
+    "reference": "なんで分かんね−んだよ！{WAIT}{n}おまえどうしょ−もね−な{n}痛い目にあわないと分かんね−んだな！！",
     "translation": "",
     "note": ""
   },
@@ -3859,7 +3859,7 @@
     "id": "game.tlk_yngm.m0460.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "う{GLYPH:010d}ん{n}なんかパッとしね{GLYPH:010d}なあ…",
+    "reference": "う−ん{n}なんかパッとしね−なあ…",
     "translation": "",
     "note": ""
   },
@@ -3867,7 +3867,7 @@
     "id": "game.tlk_yngm.m0461.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "じゃあ剣とってもらお{GLYPH:010d}か",
+    "reference": "じゃあ剣とってもらお−か",
     "translation": "",
     "note": ""
   },
@@ -3875,7 +3875,7 @@
     "id": "game.tlk_yngm.m0462.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "あ{GLYPH:010d}とっちゃったよ{WAIT}{n}まあでもいいか！{n}おれと戦う訳じゃね{GLYPH:010d}し{BEAT}じゃあな！",
+    "reference": "あ−とっちゃったよ{WAIT}{n}まあでもいいか！{n}おれと戦う訳じゃね−し{BEAT}じゃあな！",
     "translation": "",
     "note": ""
   },
@@ -3883,7 +3883,7 @@
     "id": "game.tlk_yngm.m0463.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おっカッコイ{GLYPH:010d}{BEAT}{n}いいぞ！いいぞ！{n}ヘッヘッへ{GLYPH:010d}！！",
+    "reference": "おっカッコイ−{BEAT}{n}いいぞ！いいぞ！{n}ヘッヘッへ−！！",
     "translation": "",
     "note": ""
   },
@@ -3891,7 +3891,7 @@
     "id": "game.tlk_yngm.m0464.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おっ素直だね{GLYPH:010d}{BEAT}{n}これでやっとおまえのこと{n}キョ{GLYPH:010d}ハクできんなっ！！",
+    "reference": "おっ素直だね−{BEAT}{n}これでやっとおまえのこと{n}キョ−ハクできんなっ！！",
     "translation": "",
     "note": ""
   },
@@ -3899,7 +3899,7 @@
     "id": "game.tlk_yngm.m0465.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "さあはやく！{BEAT}{n}ほらど{GLYPH:010d}したんだよ！！{WAIT}{n}よっしゃあそれでい{GLYPH:010d}んだよ！！",
+    "reference": "さあはやく！{BEAT}{n}ほらど−したんだよ！！{WAIT}{n}よっしゃあそれでい−んだよ！！",
     "translation": "",
     "note": ""
   },
@@ -3907,7 +3907,7 @@
     "id": "game.tlk_yngm.m0466.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "いやならいいよ{WAIT}{n}おまえやっぱつまんね{GLYPH:010d}{n}じゃあな！",
+    "reference": "いやならいいよ{WAIT}{n}おまえやっぱつまんね−{n}じゃあな！",
     "translation": "",
     "note": ""
   },
@@ -3915,7 +3915,7 @@
     "id": "game.tlk_yngm.m0467.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "なんだよ！{n}やっぱほんとムカつくヤツだな{GLYPH:010d}{n}やっぱ殺すしかね{GLYPH:010d}か！！",
+    "reference": "なんだよ！{n}やっぱほんとムカつくヤツだな−{n}やっぱ殺すしかね−か！！",
     "translation": "",
     "note": ""
   },
@@ -3947,7 +3947,7 @@
     "id": "game.tlk_yngm.m0471.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そ{GLYPH:010d}かよ{BEAT}{n}じゃあこれでもくらいなっ！！",
+    "reference": "そ−かよ{BEAT}{n}じゃあこれでもくらいなっ！！",
     "translation": "",
     "note": ""
   },
@@ -3955,7 +3955,7 @@
     "id": "game.tlk_yngm.m0472.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "いいよど{GLYPH:010d}ぞど{GLYPH:010d}ぞ{WAIT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{BEAT}{n}おっ{BEAT}おいおいほんとに行くなよ{GLYPH:010d}",
+    "reference": "いいよど−ぞど−ぞ{WAIT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{BEAT}{n}おっ{BEAT}おいおいほんとに行くなよ−",
     "translation": "",
     "note": ""
   },
@@ -3963,7 +3963,7 @@
     "id": "game.tlk_yngm.m0473.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "いいよど{GLYPH:010d}ぞど{GLYPH:010d}ぞ{WAIT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{BEAT}{n}なにすっころんでんだよおまえ！",
+    "reference": "いいよど−ぞど−ぞ{WAIT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{BEAT}{n}なにすっころんでんだよおまえ！",
     "translation": "",
     "note": ""
   },
@@ -3971,7 +3971,7 @@
     "id": "game.tlk_yngm.m0474.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "へ{GLYPH:010d}{BEAT}強気だね{GLYPH:010d}{WAIT}{n}根性あるな{GLYPH:010d}{BEAT}{n}おまえけっこ{GLYPH:010d}気に入ったよ！",
+    "reference": "へ−{BEAT}強気だね−{WAIT}{n}根性あるな−{BEAT}{n}おまえけっこ−気に入ったよ！",
     "translation": "",
     "note": ""
   },
@@ -4003,7 +4003,7 @@
     "id": "game.tlk_yngm.m0478.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "{requested_item}でい{GLYPH:010d}よ！",
+    "reference": "{requested_item}でい−よ！",
     "translation": "",
     "note": ""
   },
@@ -4011,7 +4011,7 @@
     "id": "game.tlk_yngm.m0479.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "なんだ持ってね{GLYPH:010d}のかよ{n}仕方ないな{GLYPH:010d}{n}じゃあ",
+    "reference": "なんだ持ってね−のかよ{n}仕方ないな−{n}じゃあ",
     "translation": "",
     "note": ""
   },
@@ -4027,7 +4027,7 @@
     "id": "game.tlk_yngm.m0481.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "それぐらいじゃな{WAIT}{n}どうしよ{GLYPH:010d}かな",
+    "reference": "それぐらいじゃな{WAIT}{n}どうしよ−かな",
     "translation": "",
     "note": ""
   },
@@ -4043,7 +4043,7 @@
     "id": "game.tlk_yngm.m0483.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "もういいよ{n}ほんとつまんね{GLYPH:010d}の",
+    "reference": "もういいよ{n}ほんとつまんね−の",
     "translation": "",
     "note": ""
   },
@@ -4051,7 +4051,7 @@
     "id": "game.tlk_yngm.m0484.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "とにかく何でもい{GLYPH:010d}よ！",
+    "reference": "とにかく何でもい−よ！",
     "translation": "",
     "note": ""
   },
@@ -4059,7 +4059,7 @@
     "id": "game.tlk_yngm.m0485.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "……………{WAIT}{n}黙ってんじゃね{GLYPH:010d}よ！{WAIT}{n}ありゃなにも持ってね{GLYPH:010d}のか",
+    "reference": "……………{WAIT}{n}黙ってんじゃね−よ！{WAIT}{n}ありゃなにも持ってね−のか",
     "translation": "",
     "note": ""
   },
@@ -4075,7 +4075,7 @@
     "id": "game.tlk_yngm.m0486.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ほかにもなにかもらお{GLYPH:010d}かなっ",
+    "reference": "ほかにもなにかもらお−かなっ",
     "translation": "",
     "note": ""
   },
@@ -4091,7 +4091,7 @@
     "id": "game.tlk_yngm.m0488.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "馬鹿にすんなよな！{n}マジで許せね{GLYPH:010d}な{WAIT}{n}おまえ殴って気晴らしすっか！！",
+    "reference": "馬鹿にすんなよな！{n}マジで許せね−な{WAIT}{n}おまえ殴って気晴らしすっか！！",
     "translation": "",
     "note": ""
   },
@@ -4107,7 +4107,7 @@
     "id": "game.tlk_yngm.m0489.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}だいじょ{GLYPH:010d}ぶ任せとけって！",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}だいじょ−ぶ任せとけって！",
     "translation": "",
     "note": ""
   },
@@ -4139,7 +4139,7 @@
     "id": "game.tlk_yngm.m0493.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "バ{GLYPH:010d}カ！！{n}こうなるんだよ！！{WAIT}{n}うりゃあ！",
+    "reference": "バ−カ！！{n}こうなるんだよ！！{WAIT}{n}うりゃあ！",
     "translation": "",
     "note": ""
   },
@@ -4147,7 +4147,7 @@
     "id": "game.tlk_yngm.m0494.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "これ以上{n}なんか言っててもしょ{GLYPH:010d}がないし{WAIT}{n}おれ帰るわ！{BEAT}じゃあな",
+    "reference": "これ以上{n}なんか言っててもしょ−がないし{WAIT}{n}おれ帰るわ！{BEAT}じゃあな",
     "translation": "",
     "note": ""
   },
@@ -4155,7 +4155,7 @@
     "id": "game.tlk_yngm.m0495.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "かかってこいよ！{WAIT}{n}まあおまえそんな度胸ね{GLYPH:010d}だろ{GLYPH:010d}けどな",
+    "reference": "かかってこいよ！{WAIT}{n}まあおまえそんな度胸ね−だろ−けどな",
     "translation": "",
     "note": ""
   },
@@ -4163,7 +4163,7 @@
     "id": "game.tlk_yngm.m0496.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ひっで{GLYPH:010d}ヤツ{n}ふざけんなよな{GLYPH:010d}{WAIT}{n}とりあえず死んでもらおっかなっ！",
+    "reference": "ひっで−ヤツ{n}ふざけんなよな−{WAIT}{n}とりあえず死んでもらおっかなっ！",
     "translation": "",
     "note": ""
   },
@@ -4171,7 +4171,7 @@
     "id": "game.tlk_yngm.m0497.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "覚えてろよ！{n}こんど会ったときは{n}今日みたいにはいかね{GLYPH:010d}からな！",
+    "reference": "覚えてろよ！{n}こんど会ったときは{n}今日みたいにはいかね−からな！",
     "translation": "",
     "note": ""
   },
@@ -4195,7 +4195,7 @@
     "id": "game.tlk_yngm.m0500.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ん…{BEAT}なんだ{n}持てね{GLYPH:010d}じゃんっ！！{n}残念だったな…",
+    "reference": "ん…{BEAT}なんだ{n}持てね−じゃんっ！！{n}残念だったな…",
     "translation": "",
     "note": ""
   },
@@ -4203,7 +4203,7 @@
     "id": "game.tlk_yngm.m0501.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ん…{BEAT}いらね{GLYPH:010d}のか{n}それならい{GLYPH:010d}んだけど",
+    "reference": "ん…{BEAT}いらね−のか{n}それならい−んだけど",
     "translation": "",
     "note": ""
   },
@@ -4211,7 +4211,7 @@
     "id": "game.tlk_yngm.m0502.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "装備してね{GLYPH:010d}くせにとるなんて言うなよな{n}ったくしょ{GLYPH:010d}がね{GLYPH:010d}ヤツだな",
+    "reference": "装備してね−くせにとるなんて言うなよな{n}ったくしょ−がね−ヤツだな",
     "translation": "",
     "note": ""
   },
@@ -4219,7 +4219,7 @@
     "id": "game.tlk_yngm.m0503.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "装備してね{GLYPH:010d}くせにとるなんて言うなよな{n}ったくしょ{GLYPH:010d}がね{GLYPH:010d}ヤツだな",
+    "reference": "装備してね−くせにとるなんて言うなよな{n}ったくしょ−がね−ヤツだな",
     "translation": "",
     "note": ""
   },
@@ -4227,7 +4227,7 @@
     "id": "game.tlk_yngm.m0504.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ちぇっしゃ{GLYPH:010d}ね{GLYPH:010d}な{GLYPH:010d}{BEAT}{n}もうあきらめたよ",
+    "reference": "ちぇっしゃ−ね−な−{BEAT}{n}もうあきらめたよ",
     "translation": "",
     "note": ""
   },
@@ -4259,7 +4259,7 @@
     "id": "game.tlk_yngm.m0508.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "えっいいのかよ！{BEAT}{n}悪り{GLYPH:010d}なおっさん！！{BEAT}{n}ついでって訳じゃないけど…",
+    "reference": "えっいいのかよ！{BEAT}{n}悪り−なおっさん！！{BEAT}{n}ついでって訳じゃないけど…",
     "translation": "",
     "note": ""
   },
@@ -4267,7 +4267,7 @@
     "id": "game.tlk_yngm.m0509.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "助けてくれんのかよ！{BEAT}{n}へ{GLYPH:010d}いいとこあんな！{BEAT}{n}へへ{GLYPH:010d}",
+    "reference": "助けてくれんのかよ！{BEAT}{n}へ−いいとこあんな！{BEAT}{n}へへ−",
     "translation": "",
     "note": ""
   },
@@ -4275,7 +4275,7 @@
     "id": "game.tlk_yngm.m0510.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "バッカだな{GLYPH:010d}{BEAT}{n}おまえほんとお人よしだな{GLYPH:010d}{BEAT}{n}へへっこ{GLYPH:010d}なるんだぜ！！",
+    "reference": "バッカだな−{BEAT}{n}おまえほんとお人よしだな−{BEAT}{n}へへっこ−なるんだぜ！！",
     "translation": "",
     "note": ""
   },
@@ -4299,7 +4299,7 @@
     "id": "game.tlk_yngm.m0513.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ここまでかあ…{WAIT}{n}まっ仕方ね{GLYPH:010d}か！{n}じゃあいきますか！！",
+    "reference": "ここまでかあ…{WAIT}{n}まっ仕方ね−か！{n}じゃあいきますか！！",
     "translation": "",
     "note": ""
   },
@@ -4339,7 +4339,7 @@
     "id": "game.tlk_yngm.m0518.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "こんな明るい夜はどっか遊び行きて{GLYPH:010d}な",
+    "reference": "こんな明るい夜はどっか遊び行きて−な",
     "translation": "",
     "note": ""
   },
@@ -4347,7 +4347,7 @@
     "id": "game.tlk_yngm.m0519.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "なんか起きそうで楽し{GLYPH:010d}じゃん",
+    "reference": "なんか起きそうで楽し−じゃん",
     "translation": "",
     "note": ""
   },
@@ -4379,7 +4379,7 @@
     "id": "game.tlk_yngm.m0523.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おっ{BEAT}乗ってきたね{GLYPH:010d}！！{BEAT}{n}えっ？{BEAT}一緒に行く？{BEAT}{n}分かったよい{GLYPH:010d}よ！！",
+    "reference": "おっ{BEAT}乗ってきたね−！！{BEAT}{n}えっ？{BEAT}一緒に行く？{BEAT}{n}分かったよい−よ！！",
     "translation": "",
     "note": ""
   },
@@ -4387,7 +4387,7 @@
     "id": "game.tlk_yngm.m0523.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}よろしくな",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}よろしくな",
     "translation": "",
     "note": ""
   },
@@ -4395,7 +4395,7 @@
     "id": "game.tlk_yngm.m0524.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そんなのも分かんね{GLYPH:010d}のかよ！！{BEAT}{n}へっへ{GLYPH:010d}{BEAT}今だよ！！{BEAT}{n}おまえ死ぬんだよ！！",
+    "reference": "そんなのも分かんね−のかよ！！{BEAT}{n}へっへ−{BEAT}今だよ！！{BEAT}{n}おまえ死ぬんだよ！！",
     "translation": "",
     "note": ""
   },
@@ -4403,7 +4403,7 @@
     "id": "game.tlk_yngm.m0525.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おっ{BEAT}乗ってきたね{GLYPH:010d}！！{BEAT}{n}えっ？{BEAT}一緒に行く？{BEAT}{n}分かったよい{GLYPH:010d}よ！！",
+    "reference": "おっ{BEAT}乗ってきたね−！！{BEAT}{n}えっ？{BEAT}一緒に行く？{BEAT}{n}分かったよい−よ！！",
     "translation": "",
     "note": ""
   },
@@ -4411,7 +4411,7 @@
     "id": "game.tlk_yngm.m0525.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}よろしくな",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}よろしくな",
     "translation": "",
     "note": ""
   },
@@ -4419,7 +4419,7 @@
     "id": "game.tlk_yngm.m0526.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "さあどこだろ{GLYPH:010d}ね…{BEAT}{n}もしかしてここかもよ！{n}おまえが死ぬのは！！",
+    "reference": "さあどこだろ−ね…{BEAT}{n}もしかしてここかもよ！{n}おまえが死ぬのは！！",
     "translation": "",
     "note": ""
   },
@@ -4427,7 +4427,7 @@
     "id": "game.tlk_yngm.m0527.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おっ{BEAT}乗ってきたね{GLYPH:010d}！！{BEAT}{n}えっ？{BEAT}一緒に行く？{BEAT}{n}分かったよい{GLYPH:010d}よ！！",
+    "reference": "おっ{BEAT}乗ってきたね−！！{BEAT}{n}えっ？{BEAT}一緒に行く？{BEAT}{n}分かったよい−よ！！",
     "translation": "",
     "note": ""
   },
@@ -4435,7 +4435,7 @@
     "id": "game.tlk_yngm.m0527.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}よろしくな",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}よろしくな",
     "translation": "",
     "note": ""
   },
@@ -4443,7 +4443,7 @@
     "id": "game.tlk_yngm.m0528.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そんなのも分かんね{GLYPH:010d}のかよ！{WAIT}{n}でもその方がいいかもね！{BEAT}{n}だっておまえ死ぬんだからなっ！！",
+    "reference": "そんなのも分かんね−のかよ！{WAIT}{n}でもその方がいいかもね！{BEAT}{n}だっておまえ死ぬんだからなっ！！",
     "translation": "",
     "note": ""
   },
@@ -4451,7 +4451,7 @@
     "id": "game.tlk_yngm.m0529.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "こんな明るい夜はどっか遊び行きて{GLYPH:010d}な",
+    "reference": "こんな明るい夜はどっか遊び行きて−な",
     "translation": "",
     "note": ""
   },
@@ -4459,7 +4459,7 @@
     "id": "game.tlk_yngm.m0530.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "いろんな遊びできそ{GLYPH:010d}だし！",
+    "reference": "いろんな遊びできそ−だし！",
     "translation": "",
     "note": ""
   },
@@ -4491,7 +4491,7 @@
     "id": "game.tlk_yngm.m0534.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ったくマジになんなよな{GLYPH:010d}{BEAT}{n}わかったやめとくよ！{n}そのかわりどっか連れてってくれよな！",
+    "reference": "ったくマジになんなよな−{BEAT}{n}わかったやめとくよ！{n}そのかわりどっか連れてってくれよな！",
     "translation": "",
     "note": ""
   },
@@ -4499,7 +4499,7 @@
     "id": "game.tlk_yngm.m0534.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}…でどこ行く？",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}…でどこ行く？",
     "translation": "",
     "note": ""
   },
@@ -4507,7 +4507,7 @@
     "id": "game.tlk_yngm.m0535.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ぜんぜん{BEAT}分かってね{GLYPH:010d}な{BEAT}{n}たとえばそ{GLYPH:010d}だな{GLYPH:010d}{BEAT}{n}おまえ殺るってのどう？",
+    "reference": "ぜんぜん{BEAT}分かってね−な{BEAT}{n}たとえばそ−だな−{BEAT}{n}おまえ殺るってのどう？",
     "translation": "",
     "note": ""
   },
@@ -4515,7 +4515,7 @@
     "id": "game.tlk_yngm.m0536.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ちぇっ{BEAT}つまんね{GLYPH:010d}な{GLYPH:010d}{BEAT}{n}わかったやめとくよ！{n}そのかわりどっか連れてってくれよな！",
+    "reference": "ちぇっ{BEAT}つまんね−な−{BEAT}{n}わかったやめとくよ！{n}そのかわりどっか連れてってくれよな！",
     "translation": "",
     "note": ""
   },
@@ -4523,7 +4523,7 @@
     "id": "game.tlk_yngm.m0536.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}…でどこ行く？",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}…でどこ行く？",
     "translation": "",
     "note": ""
   },
@@ -4531,7 +4531,7 @@
     "id": "game.tlk_yngm.m0537.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "こんな夜に{BEAT}落ち着いてらんね{GLYPH:010d}よ{WAIT}{n}それでも落ち着けって言うんなら{n}かわりにおまえ殺らしてもらお{GLYPH:010d}か！！",
+    "reference": "こんな夜に{BEAT}落ち着いてらんね−よ{WAIT}{n}それでも落ち着けって言うんなら{n}かわりにおまえ殺らしてもらお−か！！",
     "translation": "",
     "note": ""
   },
@@ -4539,7 +4539,7 @@
     "id": "game.tlk_yngm.m0538.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "まあそ{GLYPH:010d}言うなよ{WAIT}{n}おまえも行こ{GLYPH:010d}ぜ！！{n}なっいいだろ！",
+    "reference": "まあそ−言うなよ{WAIT}{n}おまえも行こ−ぜ！！{n}なっいいだろ！",
     "translation": "",
     "note": ""
   },
@@ -4547,7 +4547,7 @@
     "id": "game.tlk_yngm.m0538.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}よろしくな",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}よろしくな",
     "translation": "",
     "note": ""
   },
@@ -4563,7 +4563,7 @@
     "id": "game.tlk_yngm.m0540.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "こんな明るい夜はどっか遊び行きて{GLYPH:010d}な",
+    "reference": "こんな明るい夜はどっか遊び行きて−な",
     "translation": "",
     "note": ""
   },
@@ -4571,7 +4571,7 @@
     "id": "game.tlk_yngm.m0541.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ど{GLYPH:010d}だ飲みにでも行くか！",
+    "reference": "ど−だ飲みにでも行くか！",
     "translation": "",
     "note": ""
   },
@@ -4603,7 +4603,7 @@
     "id": "game.tlk_yngm.m0545.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "じゃ行きますか！！{n}おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}まあよろしくな",
+    "reference": "じゃ行きますか！！{n}おれ{race}{demon_name}つ−んだ{n}まあよろしくな",
     "translation": "",
     "note": ""
   },
@@ -4611,7 +4611,7 @@
     "id": "game.tlk_yngm.m0546.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "やっぱやめた！{n}なんかつまんなそ{GLYPH:010d}だし{WAIT}{n}じゃあな！！",
+    "reference": "やっぱやめた！{n}なんかつまんなそ−だし{WAIT}{n}じゃあな！！",
     "translation": "",
     "note": ""
   },
@@ -4619,7 +4619,7 @@
     "id": "game.tlk_yngm.m0547.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おっ乗ってきたね{GLYPH:010d}{BEAT}{n}じゃ行きますか！！",
+    "reference": "おっ乗ってきたね−{BEAT}{n}じゃ行きますか！！",
     "translation": "",
     "note": ""
   },
@@ -4627,7 +4627,7 @@
     "id": "game.tlk_yngm.m0547.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}はやく行こ{GLYPH:010d}ぜ！",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}はやく行こ−ぜ！",
     "translation": "",
     "note": ""
   },
@@ -4635,7 +4635,7 @@
     "id": "game.tlk_yngm.m0548.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "やっぱやめた！{n}なんかつまんなそ{GLYPH:010d}だし{WAIT}{n}じゃあな！！",
+    "reference": "やっぱやめた！{n}なんかつまんなそ−だし{WAIT}{n}じゃあな！！",
     "translation": "",
     "note": ""
   },
@@ -4643,7 +4643,7 @@
     "id": "game.tlk_yngm.m0549.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ったくマジメだね{GLYPH:010d}おっさん！{WAIT}{n}でもとにかくどっか行こ！{n}いいだろなっ！！",
+    "reference": "ったくマジメだね−おっさん！{WAIT}{n}でもとにかくどっか行こ！{n}いいだろなっ！！",
     "translation": "",
     "note": ""
   },
@@ -4651,7 +4651,7 @@
     "id": "game.tlk_yngm.m0549.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}はやく行こ{GLYPH:010d}ぜ！",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}はやく行こ−ぜ！",
     "translation": "",
     "note": ""
   },
@@ -4659,7 +4659,7 @@
     "id": "game.tlk_yngm.m0550.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "なんだよ{GLYPH:010d}{BEAT}{n}ったくノリ悪いな{GLYPH:010d}{BEAT}{n}なんか許せね{GLYPH:010d}な{BEAT}ここで死ぬか？{BEAT}なっ！",
+    "reference": "なんだよ−{BEAT}{n}ったくノリ悪いな−{BEAT}{n}なんか許せね−な{BEAT}ここで死ぬか？{BEAT}なっ！",
     "translation": "",
     "note": ""
   },
@@ -4667,7 +4667,7 @@
     "id": "game.tlk_yngm.m0551.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "こんな明るい夜はどっか遊び行きて{GLYPH:010d}な",
+    "reference": "こんな明るい夜はどっか遊び行きて−な",
     "translation": "",
     "note": ""
   },
@@ -4675,7 +4675,7 @@
     "id": "game.tlk_yngm.m0552.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ナンパなんかど{GLYPH:010d}かな？",
+    "reference": "ナンパなんかど−かな？",
     "translation": "",
     "note": ""
   },
@@ -4715,7 +4715,7 @@
     "id": "game.tlk_yngm.m0556.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}はやく行こ{GLYPH:010d}ぜ！",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}はやく行こ−ぜ！",
     "translation": "",
     "note": ""
   },
@@ -4723,7 +4723,7 @@
     "id": "game.tlk_yngm.m0557.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "とか言っといて直前に逃げる気だな？{BEAT}{n}おっ{BEAT}当たったみたいだな！{BEAT}{n}むかつくな{GLYPH:010d}ふざけんなよ！！",
+    "reference": "とか言っといて直前に逃げる気だな？{BEAT}{n}おっ{BEAT}当たったみたいだな！{BEAT}{n}むかつくな−ふざけんなよ！！",
     "translation": "",
     "note": ""
   },
@@ -4731,7 +4731,7 @@
     "id": "game.tlk_yngm.m0558.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そんなにやる気ね{GLYPH:010d}のかよ…{WAIT}{n}じゃあもうい{GLYPH:010d}よ！{n}別のことしよ{GLYPH:010d}ぜ{BEAT}おい行くぞ！！",
+    "reference": "そんなにやる気ね−のかよ…{WAIT}{n}じゃあもうい−よ！{n}別のことしよ−ぜ{BEAT}おい行くぞ！！",
     "translation": "",
     "note": ""
   },
@@ -4739,7 +4739,7 @@
     "id": "game.tlk_yngm.m0558.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}はやく行こ！",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}はやく行こ！",
     "translation": "",
     "note": ""
   },
@@ -4747,7 +4747,7 @@
     "id": "game.tlk_yngm.m0559.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "なんだやる気ね{GLYPH:010d}のかよ…{WAIT}{n}おまえダメ！{n}ここで死んじまえよ！！",
+    "reference": "なんだやる気ね−のかよ…{WAIT}{n}おまえダメ！{n}ここで死んじまえよ！！",
     "translation": "",
     "note": ""
   },
@@ -4755,7 +4755,7 @@
     "id": "game.tlk_yngm.m0560.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そんなにやる気ね{GLYPH:010d}のかよ…{WAIT}{n}じゃあもうい{GLYPH:010d}よ！{n}別のことしよ{GLYPH:010d}ぜ{BEAT}おい行くぞ！！",
+    "reference": "そんなにやる気ね−のかよ…{WAIT}{n}じゃあもうい−よ！{n}別のことしよ−ぜ{BEAT}おい行くぞ！！",
     "translation": "",
     "note": ""
   },
@@ -4763,7 +4763,7 @@
     "id": "game.tlk_yngm.m0560.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}はやく行こ！",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}はやく行こ！",
     "translation": "",
     "note": ""
   },
@@ -4771,7 +4771,7 @@
     "id": "game.tlk_yngm.m0561.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "なんだやる気ね{GLYPH:010d}のかよ…{WAIT}{n}付き合わね{GLYPH:010d}んだったら{n}ここで死んじまえよ！！",
+    "reference": "なんだやる気ね−のかよ…{WAIT}{n}付き合わね−んだったら{n}ここで死んじまえよ！！",
     "translation": "",
     "note": ""
   },
@@ -4811,7 +4811,7 @@
     "id": "game.tlk_yngm.m0566.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ふ{GLYPH:010d}ん{BEAT}いいよ{n}おれ今ヒマだし…{BEAT}{n}じゃあ行くか！！",
+    "reference": "ふ−ん{BEAT}いいよ{n}おれ今ヒマだし…{BEAT}{n}じゃあ行くか！！",
     "translation": "",
     "note": ""
   },
@@ -4819,7 +4819,7 @@
     "id": "game.tlk_yngm.m0566.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}はやく行こ{GLYPH:010d}ぜ！",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}はやく行こ−ぜ！",
     "translation": "",
     "note": ""
   },
@@ -4827,7 +4827,7 @@
     "id": "game.tlk_yngm.m0567.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "バ{GLYPH:010d}カ！！{n}だめだよ{n}自分でなんとかしな！！",
+    "reference": "バ−カ！！{n}だめだよ{n}自分でなんとかしな！！",
     "translation": "",
     "note": ""
   },
@@ -4835,7 +4835,7 @@
     "id": "game.tlk_yngm.m0568.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "なんだよ冷て{GLYPH:010d}じゃん{BEAT}{n}まあいいから{n}連れてってくれよなっ！！",
+    "reference": "なんだよ冷て−じゃん{BEAT}{n}まあいいから{n}連れてってくれよなっ！！",
     "translation": "",
     "note": ""
   },
@@ -4843,7 +4843,7 @@
     "id": "game.tlk_yngm.m0568.p01",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おれ{race}{demon_name}つ{GLYPH:010d}んだ{n}はやく行こ{GLYPH:010d}ぜ！",
+    "reference": "おれ{race}{demon_name}つ−んだ{n}はやく行こ−ぜ！",
     "translation": "",
     "note": ""
   },
@@ -4851,7 +4851,7 @@
     "id": "game.tlk_yngm.m0569.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "じゃあい{GLYPH:010d}よ！！{WAIT}{n}またな！",
+    "reference": "じゃあい−よ！！{WAIT}{n}またな！",
     "translation": "",
     "note": ""
   },
@@ -4899,7 +4899,7 @@
     "id": "game.tlk_yngm.m0575.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "フッ{BEAT}情けね{GLYPH:010d}ヤツ{n}こんなくだらね{GLYPH:010d}ヤツに{n}かまってらんね{GLYPH:010d}な{BEAT}じゃあな",
+    "reference": "フッ{BEAT}情けね−ヤツ{n}こんなくだらね−ヤツに{n}かまってらんね−な{BEAT}じゃあな",
     "translation": "",
     "note": ""
   },
@@ -4907,7 +4907,7 @@
     "id": "game.tlk_yngm.m0576.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "い{GLYPH:010d}やだめだね{n}ここから帰れると思うなよ！！",
+    "reference": "い−やだめだね{n}ここから帰れると思うなよ！！",
     "translation": "",
     "note": ""
   },
@@ -4915,7 +4915,7 @@
     "id": "game.tlk_yngm.m0577.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ふう…{BEAT}仕方ね{GLYPH:010d}な！！{WAIT}{n}どこでもいけよ！{BEAT}{n}早く！！",
+    "reference": "ふう…{BEAT}仕方ね−な！！{WAIT}{n}どこでもいけよ！{BEAT}{n}早く！！",
     "translation": "",
     "note": ""
   },
@@ -4923,7 +4923,7 @@
     "id": "game.tlk_yngm.m0578.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "許す訳ね{GLYPH:010d}じゃん{n}おまえ{BEAT}ほんとバカだな{GLYPH:010d}{n}こ{GLYPH:010d}なるんだよ！！",
+    "reference": "許す訳ね−じゃん{n}おまえ{BEAT}ほんとバカだな−{n}こ−なるんだよ！！",
     "translation": "",
     "note": ""
   },
@@ -4971,7 +4971,7 @@
     "id": "game.tlk_yngm.m0584.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "バカ！{n}なに甘えてんだよ！！{BEAT}{n}そりゃムリだな{GLYPH:010d}",
+    "reference": "バカ！{n}なに甘えてんだよ！！{BEAT}{n}そりゃムリだな−",
     "translation": "",
     "note": ""
   },
@@ -4979,7 +4979,7 @@
     "id": "game.tlk_yngm.m0585.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "なんだ欲がないんだな{GLYPH:010d}{WAIT}{n}じゃあ{BEAT}回復してやるよ！！",
+    "reference": "なんだ欲がないんだな−{WAIT}{n}じゃあ{BEAT}回復してやるよ！！",
     "translation": "",
     "note": ""
   },
@@ -4987,7 +4987,7 @@
     "id": "game.tlk_yngm.m0586.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そうか{GLYPH:010d}{n}残念だな{GLYPH:010d}{WAIT}{n}せっかくなのにな{GLYPH:010d}",
+    "reference": "そうか−{n}残念だな−{WAIT}{n}せっかくなのにな−",
     "translation": "",
     "note": ""
   },
@@ -4995,7 +4995,7 @@
     "id": "game.tlk_yngm.m0587.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "そりゃダメだよ{BEAT}{n}いや{GLYPH:010d}悪り{GLYPH:010d}な！！",
+    "reference": "そりゃダメだよ{BEAT}{n}いや−悪り−な！！",
     "translation": "",
     "note": ""
   },
@@ -5003,7 +5003,7 @@
     "id": "game.tlk_yngm.m0588.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "あれ？{BEAT}もう持てね{GLYPH:010d}みたいだな{BEAT}{n}そりゃ仕方ね{GLYPH:010d}な{n}残念だったな！！",
+    "reference": "あれ？{BEAT}もう持てね−みたいだな{BEAT}{n}そりゃ仕方ね−な{n}残念だったな！！",
     "translation": "",
     "note": ""
   },
@@ -5019,7 +5019,7 @@
     "id": "game.tlk_yngm.m0590.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "何してんだ{BEAT}{n}おまえおれのこと分かんね{GLYPH:010d}のか",
+    "reference": "何してんだ{BEAT}{n}おまえおれのこと分かんね−のか",
     "translation": "",
     "note": ""
   },
@@ -5035,7 +5035,7 @@
     "id": "game.tlk_yngm.m0592.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "何してんだ？{BEAT}{n}もしかして気付いてね{GLYPH:010d}のか",
+    "reference": "何してんだ？{BEAT}{n}もしかして気付いてね−のか",
     "translation": "",
     "note": ""
   },
@@ -5043,7 +5043,7 @@
     "id": "game.tlk_yngm.m0593.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ここまで引っぱっといて悪いんだけど{n}ほんとはおれ仲魔になれね{GLYPH:010d}んだ",
+    "reference": "ここまで引っぱっといて悪いんだけど{n}ほんとはおれ仲魔になれね−んだ",
     "translation": "",
     "note": ""
   },
@@ -5051,7 +5051,7 @@
     "id": "game.tlk_yngm.m0594.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ここまで引っぱっといて悪いんだけど{n}おれの気に入らね{GLYPH:010d}ヤツ仲魔にいるだろ？",
+    "reference": "ここまで引っぱっといて悪いんだけど{n}おれの気に入らね−ヤツ仲魔にいるだろ？",
     "translation": "",
     "note": ""
   },
@@ -5059,7 +5059,7 @@
     "id": "game.tlk_yngm.m0595.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ここまで引っぱっといて悪いんだけど{n}おまえさ{GLYPH:010d}{n}おれのレベルについて来れね{GLYPH:010d}だろ？",
+    "reference": "ここまで引っぱっといて悪いんだけど{n}おまえさ−{n}おれのレベルについて来れね−だろ？",
     "translation": "",
     "note": ""
   },
@@ -5075,7 +5075,7 @@
     "id": "game.tlk_yngm.m0597.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "ほんと悪いな！{WAIT}{n}…じゃ{GLYPH:010d}な！",
+    "reference": "ほんと悪いな！{WAIT}{n}…じゃ−な！",
     "translation": "",
     "note": ""
   },
@@ -5083,7 +5083,7 @@
     "id": "game.tlk_yngm.m0598.p00",
     "source_encoding": "game_font12_16_combat_skip",
     "output_encoding": "",
-    "reference": "おとなしく帰るよ…{BEAT}{n}じゃ{GLYPH:010d}な！",
+    "reference": "おとなしく帰るよ…{BEAT}{n}じゃ−な！",
     "translation": "",
     "note": ""
   },

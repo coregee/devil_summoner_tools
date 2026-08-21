@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import base64
 import io
+import json
 import math
 from dataclasses import dataclass
 from pathlib import Path
@@ -13,9 +14,9 @@ from PIL import Image, ImageDraw
 
 from saturn.font.util.codec import decode_glyph
 from saturn.font.util.definitions import load_definition
-from saturn.text.util.event_repack import FontMetrics
+from saturn.text.util.event_repack import FontMetrics, Glyph
 from saturn.text.util.surfaces import load_surfaces
-from saturn.text.util.tokens import Named, Raw, Text, parse_tokens
+from saturn.text.util.tokens import Named, Raw, Text, parse_tokens, uppercase_text
 
 from .catalog import PROJECT_ROOT, CorpusCatalog
 
@@ -34,18 +35,40 @@ class DraftEvaluator:
     def __init__(self, catalog: CorpusCatalog) -> None:
         self.catalog = catalog
         self.surfaces = load_surfaces()
-        self._metrics: dict[str, FontMetrics | None] = {}
+        self._metrics: dict[tuple[str, str], FontMetrics | None] = {}
+        self._stock_font8: dict[str, dict[str, int]] | None = None
 
-    def _font_metrics(self, font: str | None) -> FontMetrics | None:
+    def refresh_fonts(self) -> None:
+        self._metrics.clear()
+        self._stock_font8 = None
+
+    def _font_metrics(
+        self, font: str | None, alphabet: str = "replaced"
+    ) -> FontMetrics | None:
         if font is None:
             return None
-        if font not in self._metrics:
+        key = (font, alphabet)
+        if key not in self._metrics:
             path = FONT_GENERATED_ROOT / f"{font.upper()}_metrics.json"
             try:
-                self._metrics[font] = FontMetrics.load(path)
-            except ValueError:
-                self._metrics[font] = None
-        return self._metrics[font]
+                if font == "font8" and alphabet == "original":
+                    document = json.loads(path.read_text(encoding="utf-8"))
+                    rows = document["reference_sets"]["stock_latin"]
+                    self._stock_font8 = {row["text"]: row for row in rows}
+                    self._metrics[key] = FontMetrics(
+                        document["font"],
+                        tuple(
+                            Glyph(
+                                row["text"], row["code"], row["advance"], ()
+                            )
+                            for row in rows
+                        ),
+                    )
+                else:
+                    self._metrics[key] = FontMetrics.load(path)
+            except (KeyError, OSError, TypeError, ValueError, json.JSONDecodeError):
+                self._metrics[key] = None
+        return self._metrics[key]
 
     @staticmethod
     def _explicit_lines(value: str) -> list[str]:
@@ -62,30 +85,37 @@ class DraftEvaluator:
             current: list[str] = []
             for word in words:
                 candidate = " ".join((*current, word))
-                width = metrics.measure(candidate)
+                width = metrics.measure_output(candidate)
                 if current and width > limit:
                     text = " ".join(current)
-                    output.append(MeasuredLine(text, metrics.measure(text)))
+                    output.append(MeasuredLine(text, metrics.measure_output(text)))
                     current = [word]
                 else:
                     current.append(word)
             text = " ".join(current)
-            output.append(MeasuredLine(text, metrics.measure(text)))
+            output.append(MeasuredLine(text, metrics.measure_output(text)))
         return output
 
     @staticmethod
     def _measure_unwrapped(value: str, metrics: FontMetrics) -> list[MeasuredLine]:
         return [
-            MeasuredLine(line, metrics.measure(line))
+            MeasuredLine(line, metrics.measure_output(line))
             for line in DraftEvaluator._explicit_lines(value)
         ]
 
-    def evaluate(self, entry_id: str, translation: str) -> dict[str, Any]:
+    def evaluate(
+        self,
+        entry_id: str,
+        translation: str,
+        font8_alphabet: str | None = None,
+    ) -> dict[str, Any]:
         if not isinstance(translation, str):
             raise ValueError("translation must be text")
         diagnostics: list[dict[str, Any]] = []
         try:
-            self.catalog.candidate_document(entry_id, translation)
+            self.catalog.candidate_document(
+                entry_id, translation, font8_alphabet
+            )
         except ValueError as error:
             diagnostics.append(
                 {
@@ -103,6 +133,12 @@ class DraftEvaluator:
             }
 
         entry = self.catalog.entry(entry_id)
+        alphabet = font8_alphabet or entry["font8_alphabet"]
+        rendered_translation = (
+            uppercase_text(translation)
+            if alphabet == "original"
+            else translation
+        )
         surface_names = sorted(
             {
                 item["surface"]
@@ -114,7 +150,8 @@ class DraftEvaluator:
         for surface_name in surface_names:
             surface = self.surfaces.surface(surface_name)
             layout = surface.en
-            metrics = self._font_metrics(layout.font)
+            surface_alphabet = alphabet if layout.font == "font8" else "replaced"
+            metrics = self._font_metrics(layout.font, surface_alphabet)
             surface_diagnostics: list[dict[str, Any]] = []
             lines: list[MeasuredLine]
             exact_wrap = (
@@ -125,15 +162,29 @@ class DraftEvaluator:
             )
             try:
                 if exact_wrap:
-                    lines = self._wrap(translation, metrics, layout.width.value or 0)
+                    lines = self._wrap(
+                        rendered_translation, metrics, layout.width.value or 0
+                    )
+                elif (
+                    surface_name == "shop.inventory_label"
+                    and surface_alphabet == "original"
+                    and self._stock_font8 is not None
+                ):
+                    rows = [self._stock_font8[character] for character in rendered_translation]
+                    lines = [
+                        MeasuredLine(
+                            rendered_translation,
+                            sum(row["ink_right"] - row["ink_left"] for row in rows),
+                        )
+                    ]
                 elif metrics is not None:
-                    lines = self._measure_unwrapped(translation, metrics)
+                    lines = self._measure_unwrapped(rendered_translation, metrics)
                 else:
                     lines = [
                         MeasuredLine(line, None)
-                        for line in self._explicit_lines(translation)
+                        for line in self._explicit_lines(rendered_translation)
                     ]
-            except ValueError as error:
+            except (KeyError, ValueError) as error:
                 lines = []
                 surface_diagnostics.append(
                     {
@@ -213,13 +264,20 @@ class DraftEvaluator:
                 {
                     "name": surface_name,
                     "font": layout.font,
+                    "font8_alphabet": (
+                        alphabet if layout.font == "font8" else None
+                    ),
                     "rows": layout.rows,
                     "width": {"unit": layout.width.unit, "value": limit},
                     "lines": [
                         {"text": line.text, "width": line.width} for line in lines
                     ],
                     "pages": pages,
-                    "exact": exact_wrap,
+                    "exact": exact_wrap
+                    or (
+                        surface_name == "shop.inventory_label"
+                        and surface_alphabet == "original"
+                    ),
                     "diagnostics": surface_diagnostics,
                 }
             )
@@ -246,7 +304,9 @@ class DraftEvaluator:
         font = evaluation["font"]
         if font is None or not evaluation["lines"]:
             return None
-        metrics = self._font_metrics(font)
+        metrics = self._font_metrics(
+            font, evaluation.get("font8_alphabet") or "replaced"
+        )
         data_path = FONT_GENERATED_ROOT / f"{font.upper()}.FON"
         config_path = FONT_CONFIG_ROOT / f"{font}.json"
         if metrics is None or not data_path.is_file() or not config_path.is_file():
@@ -288,11 +348,24 @@ class DraftEvaluator:
                 tokens = parse_tokens(row["text"])
                 for token in tokens:
                     if isinstance(token, Text):
-                        for glyph in metrics.segment(token.value):
+                        segmented = metrics.segment_output(token.value)
+                        compact = (
+                            evaluation["name"] == "shop.inventory_label"
+                            and evaluation.get("font8_alphabet") == "original"
+                            and self._stock_font8 is not None
+                        )
+                        if compact and segmented:
+                            x -= self._stock_font8[segmented[0].text]["ink_left"]
+                        for index, glyph in enumerate(segmented):
                             mask = decode_glyph(data, definition.format, glyph.code)
                             mask = mask.point(lambda value: 255 if value else 0)
                             image.paste((235, 244, 231), (x, y), mask)
-                            x += glyph.advance
+                            if compact and index + 1 < len(segmented):
+                                current = self._stock_font8[glyph.text]
+                                following = self._stock_font8[segmented[index + 1].text]
+                                x += current["ink_right"] - following["ink_left"]
+                            else:
+                                x += glyph.advance
                     elif isinstance(token, (Named, Raw)):
                         draw.rectangle(
                             (x, y + 2, x + 77, y + 13),

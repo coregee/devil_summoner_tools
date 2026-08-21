@@ -7,8 +7,14 @@
     "game.map_static.o01e77c": "talk_choice_no.text"
   },
   "record_surfaces": {
-    "game.map_static.o01e756": ["map_2d.field_message"],
-    "game.map_static.o01e774": ["map_2d.field_choice"],
-    "game.map_static.o01e77c": ["map_2d.field_choice"]
+    "game.map_static.o01e756": [
+      "map_2d.field_message"
+    ],
+    "game.map_static.o01e774": [
+      "map_2d.field_choice"
+    ],
+    "game.map_static.o01e77c": [
+      "map_2d.field_choice"
+    ]
   }
 }

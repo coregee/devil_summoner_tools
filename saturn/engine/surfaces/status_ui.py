@@ -464,7 +464,7 @@ def _built_charname(
         raise ValueError("stock CHARNAME has the wrong size")
     # Kyouji's compact English record is the only CHARNAME row repacked by the
     # mature Saturn build. Other status names resolve from their stock hash.
-    glyphs = metrics8.segment(character_names[2])
+    glyphs = metrics8.segment_output(character_names[2])
     encoded = bytes(glyph.code for glyph in glyphs)
     if not encoded or len(encoded) > 8:
         raise ValueError("Kyouji's direct CHARNAME record exceeds eight bytes")

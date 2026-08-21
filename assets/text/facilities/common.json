@@ -5,13 +5,15 @@
     "exit": {
       "text": {
         "reference": "EXIT",
-        "translation": "EXIT"
+        "translation": "EXIT",
+        "font8_alphabet": "original"
       }
     },
     "status": {
       "text": {
         "reference": "STATUS",
-        "translation": "STATUS"
+        "translation": "STATUS",
+        "font8_alphabet": "original"
       }
     },
     "partner": {

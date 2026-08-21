@@ -1,4 +1,4 @@
-# Devil Summoner: Text Consumer Specs
+# Devil Summoner: Saturn Text Consumer Specs
 
 This document enumerates the observed behaviour of player-facing text consumers
 and records the display contracts that the asset, text, font, engine, and visual
@@ -18,8 +18,6 @@ select an asset, substitute typed values, format numbers, measure it, and render
 it; runtime code must not own player-visible wording or punctuation. References
 below to text not needing a hook mean only that no special renderer change is
 currently required.
-
-## Saturn Consumers
 
 ### Title Screen
 
@@ -435,7 +433,8 @@ On the 352-pixel raster, the header starts are x=28, 80, 156, 202, 236,
 264, and 300. Their corresponding one-row limits are 52, 76, 46, 34, 28,
 36, and 52 pixels. The stock header baseline is y=20. These fixed Latin
 headings use the original Japanese FONT8 English alphabet rather than the
-mixed-case replacement face.
+mixed-case replacement face. This choice is stored on each authored heading as
+`font8_alphabet: original`; omission means the replacement face.
 
 The table shows 16 rows at y=32 through y=212 in 12-pixel steps. Row fields
 start at x=28 for race, x=80 for name, then x=164, 208, 244, 280, and 316 for
@@ -508,8 +507,9 @@ The bottom row uses FONT6 and consists of the HP/MP labels and dynamic values. I
 COMBAT constructs the sentinel top rows directly in code. `EMPTY` is a
 five-cell row and the related stock-party list uses the eight-cell `IN PARTY`
 row. Both are now complete fields in `assets/text/battle/party_panel.json` and
-the Battle UI assembler resolves their glyphs through the preserved FONT8
-`stock_latin` set. Padding and centering remain renderer layout.
+the fields explicitly select `font8_alphabet: original`, which resolves through
+the preserved FONT8 `stock_latin` set. Padding and centering remain renderer
+layout.
 
 The MAZE stock-party list is also migrated. Its compact FONT8 renderer shares
 the same asset-driven 319-demon/six-character name compiler as the COMP menu,
@@ -829,8 +829,8 @@ them directly in code: maximum level replaces the seven-cell NEXT value with
 `-------`, and a character with no MP capacity displays the authored `---/---`
 form across the current/maximum MP layout. The renderer inserts one fixed
 alignment cell after the slash, producing eight displayed cells without making
-that gap translator-owned. Both fields use the preserved stock FONT8 hyphen and
-slash cells.
+that gap translator-owned. Both fields use the preserved stock FONT8
+interpunct cell through its `-` alias, plus the preserved slash cell.
 
 The confirmation layer draws an `OK` action label in a two-cell FONT8 slot
 beside a button glyph, plus vertical `YES` and `NO` choices in three-cell FONT8

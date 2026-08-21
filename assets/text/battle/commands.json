@@ -5,55 +5,64 @@
     "fight": {
       "name": {
         "reference": "FIGHT",
-        "translation": "FIGHT"
+        "translation": "FIGHT",
+        "font8_alphabet": "original"
       }
     },
     "talk": {
       "name": {
         "reference": "TALK",
-        "translation": "TALK"
+        "translation": "TALK",
+        "font8_alphabet": "original"
       }
     },
     "escape": {
       "name": {
         "reference": "ESCAPE",
-        "translation": "ESCAPE"
+        "translation": "ESCAPE",
+        "font8_alphabet": "original"
       }
     },
     "auto": {
       "name": {
         "reference": "AUTO",
-        "translation": "AUTO"
+        "translation": "AUTO",
+        "font8_alphabet": "original"
       }
     },
     "sword": {
       "name": {
         "reference": "SWORD",
-        "translation": "SWORD"
+        "translation": "SWORD",
+        "font8_alphabet": "original"
       }
     },
     "attack": {
       "name": {
         "reference": "ATTACK",
-        "translation": "ATTACK"
+        "translation": "ATTACK",
+        "font8_alphabet": "original"
       }
     },
     "gun": {
       "name": {
         "reference": "GUN",
-        "translation": "GUN"
+        "translation": "GUN",
+        "font8_alphabet": "original"
       }
     },
     "guard": {
       "name": {
         "reference": "GUARD",
-        "translation": "GUARD"
+        "translation": "GUARD",
+        "font8_alphabet": "original"
       }
     },
     "go": {
       "name": {
         "reference": "GO",
-        "translation": "GO"
+        "translation": "GO",
+        "font8_alphabet": "original"
       }
     },
     "offense": {
@@ -65,7 +74,8 @@
             "reference": "OFFENCE",
             "translation": "OFFENCE"
           }
-        }
+        },
+        "font8_alphabet": "original"
       }
     },
     "defense": {
@@ -77,55 +87,64 @@
             "reference": "DEFENCE",
             "translation": "DEFENCE"
           }
-        }
+        },
+        "font8_alphabet": "original"
       }
     },
     "comp": {
       "name": {
         "reference": "COMP",
-        "translation": "COMP"
+        "translation": "COMP",
+        "font8_alphabet": "original"
       }
     },
     "magic": {
       "name": {
         "reference": "MAGIC",
-        "translation": "MAGIC"
+        "translation": "MAGIC",
+        "font8_alphabet": "original"
       }
     },
     "item": {
       "name": {
         "reference": "ITEM",
-        "translation": "ITEM"
+        "translation": "ITEM",
+        "font8_alphabet": "original"
       }
     },
     "move": {
       "name": {
         "reference": "MOVE",
-        "translation": "MOVE"
+        "translation": "MOVE",
+        "font8_alphabet": "original"
       }
     },
     "return": {
       "name": {
         "reference": "RETURN",
-        "translation": "RETURN"
+        "translation": "RETURN",
+        "font8_alphabet": "original"
       }
     },
     "extra": {
       "name": {
         "reference": "EXTRA",
-        "translation": "EXTRA"
+        "translation": "EXTRA",
+        "font8_alphabet": "original"
       }
     },
     "preset": {
       "name": {
         "reference": "PRESET",
-        "translation": "PRESET"
+        "translation": "PRESET",
+        "font8_alphabet": "original"
       }
     },
     "repeat": {
       "name": {
         "reference": "REPEAT",
-        "translation": "REPEAT"
+        "translation": "REPEAT",
+        "font8_alphabet": "original"
       }
     }
   }

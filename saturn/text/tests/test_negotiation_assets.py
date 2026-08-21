@@ -239,24 +239,19 @@ class NegotiationAssetTests(unittest.TestCase):
 
     def test_lossless_source_glyphs_remain_readable_and_explicit(self) -> None:
         little_girl = self.catalogs["little_girl"].entries["dialogue_0493"]
-        self.assertIn("□", little_girl.fields["text"].reference)
-        self.assertEqual(
-            dict(self.bindings["little_girl"].glyph_equivalence),
-            {"00c0": "□"},
-        )
-        for name, binding in self.bindings.items():
-            if name != "little_girl":
-                self.assertFalse(binding.glyph_equivalence)
+        self.assertIn("▯", little_girl.fields["text"].reference)
+        for binding in self.bindings.values():
+            self.assertFalse(binding.glyph_equivalence)
 
         self.assertTrue(
             any(
-                "{GLYPH:010d}" in entry.fields["text"].reference
+                "−" in entry.fields["text"].reference
                 for entry in self.catalogs["young_man"].entries.values()
             )
         )
         self.assertTrue(
             any(
-                "{GLYPH:010c}" in entry.fields["text"].reference
+                "+" in entry.fields["text"].reference
                 for entry in self.catalogs["slime"].entries.values()
             )
         )
