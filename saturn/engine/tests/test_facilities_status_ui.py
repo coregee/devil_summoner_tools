@@ -23,12 +23,12 @@ import engine.surfaces.facilities_status_ui as status  # noqa: E402
 
 
 BASE_SHA256 = "c292f62b306f1f98a52590adbf8ae8da1884bab3e9ae0a94d8ef091ae11e9d36"
-OUTPUT_SHA256 = "b8cb531dd41145831880f65677ca75fce38130a65430bef8c78cb727b0fdf16b"
+OUTPUT_SHA256 = "78c8a7a6ddc382bd189533a64931ef5819b3cd7bca400fbbf52fd6107facf968"
 RUNTIME_USED_SHA256 = (
-    "425f326c12bfddd3b54bbc66ff6919af3e600764c76fc58dd82dc0498306be95"
+    "96692b71de2bd8afedd15e13e1e3b34a99ee7cf075625a3f08eeb39e8f0aea6f"
 )
 RUNTIME_FULL_SHA256 = (
-    "849b138634ba55a1b86f5bb5fb082dcabc2c7b0583c4eae75794273b0407e0fb"
+    "3a9866d0ac211359b197dee2fda40e0c589ba3a844c9b29cd3f351f41fefbaf3"
 )
 MIRROR_SHA256 = "ab939ba949285f9a961401ecfb338474db95a6e056260091594a27114d0c872f"
 
@@ -43,7 +43,8 @@ EXPECTED_ASSEMBLY = {
     "facilities_status_ui/font8_surface_blitter.s",
     "facilities_status_ui/name_race_dispatcher.s",
     "facilities_status_ui/skill_vwf.s",
-    "facilities_status_ui/status_skill_dispatcher.s",
+    "status_ui/auto_action_vwf.s",
+    "status_ui/auto_block_ascii.s",
 }
 
 
@@ -69,11 +70,11 @@ class FacilitiesStatusUiEngineTests(unittest.TestCase):
         self.assertEqual(_sha256(self.base), BASE_SHA256)
         self.assertEqual(len(self.result.data), 354_072)
         self.assertEqual(_sha256(self.result.data), OUTPUT_SHA256)
-        self.assertEqual(len(self.result.patches), 72)
+        self.assertEqual(len(self.result.patches), 73)
         self.assertEqual(
             Counter(patch.group for patch in self.result.patches),
             {
-                "fusion.status_ui": 20,
+                "fusion.status_ui": 21,
                 "event.term_inserts": 3,
                 "facilities.command_ui": 1,
                 "bar.status_ui": 4,
@@ -85,7 +86,7 @@ class FacilitiesStatusUiEngineTests(unittest.TestCase):
     def test_runtime_matches_mature_oracle_and_owns_the_whole_cave(self) -> None:
         runtime = self.patches["fusion_status_runtime"]
         self.assertEqual(runtime.address, 0x06023294)
-        self.assertEqual(self.result.runtime_used_size, 11_838)
+        self.assertEqual(self.result.runtime_used_size, 12_306)
         self.assertEqual(self.result.runtime_capacity, 12_908)
         self.assertEqual(len(runtime.replacement), self.result.runtime_capacity)
         self.assertEqual(
@@ -103,7 +104,7 @@ class FacilitiesStatusUiEngineTests(unittest.TestCase):
                 status.RuntimeArena(
                     "event_facilities_status",
                     0x06023294,
-                    11_838,
+                    12_306,
                     12_908,
                 ),
             ),
@@ -117,7 +118,7 @@ class FacilitiesStatusUiEngineTests(unittest.TestCase):
         )
         self.assertEqual(
             Counter(recipe.replacement.kind for recipe in recipes),
-            {"generated": 53, "assembly": 2, "linked_pointer": 17},
+            {"generated": 53, "assembly": 2, "linked_pointer": 18},
         )
         assembly = {
             path.relative_to(ASSEMBLY_ROOT).as_posix()
@@ -146,6 +147,55 @@ class FacilitiesStatusUiEngineTests(unittest.TestCase):
             ],
         )
         self.assertEqual(_sha256(b"".join(row.replacement for row in mirrors)), MIRROR_SHA256)
+
+    def test_every_event_status_entry_uses_the_shared_auto_block_runtime(self) -> None:
+        action_patch = self.patches["fusion_auto_action_name_drawer"]
+        block_patch = self.patches["fusion_auto_block_ascii_drawer"]
+        self.assertEqual(action_patch.address, 0x06055744)
+        self.assertEqual(action_patch.expected, bytes.fromhex("06051830"))
+        self.assertEqual(block_patch.address, 0x0605573C)
+        self.assertEqual(block_patch.expected, bytes.fromhex("060516e8"))
+
+        runtime = self.patches["fusion_status_runtime"].replacement
+        action = int.from_bytes(action_patch.replacement, "big")
+        block = int.from_bytes(block_patch.replacement, "big")
+        affinity = int.from_bytes(
+            self.patches["fusion_affinity_drawer"].replacement, "big"
+        )
+        action_blob = runtime[
+            action - status.RUNTIME_ADDRESS : block - status.RUNTIME_ADDRESS
+        ]
+        block_blob = runtime[
+            block - status.RUNTIME_ADDRESS : affinity - status.RUNTIME_ADDRESS
+        ]
+        for address in (
+            status.CURRENT_PARTY_TYPE,
+            status.HUMAN_AUTO_STATE,
+            status.DEMON_AUTO_STATE,
+            status.ITEMNAME_BASE,
+            status.MAGNAME_BASE,
+            status.FONT8_GLYPH_DRAWER,
+            status.FONT12_DRAWER,
+        ):
+            self.assertIn(address.to_bytes(4, "big"), action_blob)
+        for address in (*status.PARTY_ALIGNMENT_SOURCES.values(), 0x060516E8):
+            self.assertIn(address.to_bytes(4, "big"), block_blob)
+        self.assertIn(b"LAW\0NEUTRAL\0CHAOS\0", runtime)
+
+        action_source = (
+            ASSEMBLY_ROOT / "status_ui" / "auto_action_vwf.s"
+        ).read_text("ascii")
+        block_source = (
+            ASSEMBLY_ROOT / "status_ui" / "auto_block_ascii.s"
+        ).read_text("ascii")
+        self.assertIn("add     #4, r11", action_source)
+        self.assertIn("add     #4, r0", action_source)
+        self.assertIn("add     #4, r7", block_source)
+        self.assertEqual(status._party_alignment_terms(), ("LAW", "NEUTRAL", "CHAOS"))
+        for text in status._party_alignment_terms():
+            self.assertTrue(status._encode_party_alignment_ascii(text).endswith(b"\0"))
+        with self.assertRaisesRegex(ValueError, "exceeds 8 original FONT8 cells"):
+            status._encode_party_alignment_ascii("NEUTRALITY")
 
     def test_facility_compounds_use_authored_stock_latin_not_legacy_review_typo(self) -> None:
         aliases = self.patches["facility_revive_status_aliases"].replacement
@@ -259,7 +309,7 @@ class FacilitiesStatusUiEngineTests(unittest.TestCase):
 
     def test_runtime_relocates_safely_when_authored_terms_change_size(self) -> None:
         drinks, talk_labels, _healing_all = status._facility_terms()
-        for term, expected_size in (("All", 11_830), ("All Party Members", 11_846)):
+        for term, expected_size in (("All", 12_298), ("All Party Members", 12_310)):
             with self.subTest(term=term), patch.object(
                 status,
                 "_facility_terms",

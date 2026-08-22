@@ -44,6 +44,7 @@ from text.util.assets import (
     ASSET_ROOT,
     BINDING_ROOT,
     CORPUS_ROOT,
+    load_asset,
     load_bound_translations,
     load_physical_record_files,
 )
@@ -75,6 +76,7 @@ DISC_CONFIG_PATH = SATURN_ROOT / "rom" / "discs.json"
 STATUS_ASSET_PATH = ASSET_ROOT / "ui" / "status.json"
 RACE_ASSET_PATH = ASSET_ROOT / "races.json"
 AFFINITY_ASSET_PATH = ASSET_ROOT / "affinities.json"
+ALIGNMENT_ASSET_PATH = ASSET_ROOT / "terminology" / "alignments.json"
 DEMON_ASSET_PATH = ASSET_ROOT / "demons.json"
 CHARACTER_ASSET_PATH = ASSET_ROOT / "characters.json"
 MAGIC_ASSET_PATH = ASSET_ROOT / "magic.json"
@@ -86,6 +88,7 @@ ASSET_FILES = (
     STATUS_ASSET_PATH,
     RACE_ASSET_PATH,
     AFFINITY_ASSET_PATH,
+    ALIGNMENT_ASSET_PATH,
     DEMON_ASSET_PATH,
     CHARACTER_ASSET_PATH,
     MAGIC_ASSET_PATH,
@@ -157,6 +160,8 @@ FONT8_GLYPH_DRAWER = 0x06051380
 FONT16_BITMAP = 0x0021A000
 FONT8_BITMAP = 0x00219150
 CURRENT_PARTY_TYPE = 0x060BF6EC
+HUMAN_AUTO_STATE = 0x060BF800
+DEMON_AUTO_STATE = 0x06076DDC
 CURRENT_NAME_PTR = 0x06076BA0
 RACE_SOURCE = 0x06074828
 AFFINITY_SOURCE = 0x060744EA + 32 * 34
@@ -166,6 +171,14 @@ MAGNAME_BASE = 0x0022F7A0
 MAGNAME_FIRST = MAGNAME_BASE + 4
 MAGNAME_END = 0x00235740
 MAGNAME_POINTER_OFFSET = 0x5A
+ITEMNAME_BASE = 0x00228C00
+AUTO_ACTION_START_X = 40
+AUTO_ACTION_END_X = 110
+PARTY_ALIGNMENT_SOURCES = {
+    "law": 0x060553B4,
+    "neutral": 0x060553B8,
+    "chaos": 0x060553C0,
+}
 
 CHARACTER_INSERT_STOCK = 0x0602C3A8
 CHARACTER_INSERT_END = 0x0602C420
@@ -247,8 +260,9 @@ RECIPE_CONTRACT = (
             "facilities_status_ui/font16_vwf.s",
             "facilities_status_ui/font16_from_font8.s",
             "facilities_status_ui/skill_vwf.s",
+            "status_ui/auto_action_vwf.s",
+            "status_ui/auto_block_ascii.s",
             "facilities_status_ui/affinity_font8_vwf.s",
-            "facilities_status_ui/status_skill_dispatcher.s",
             "facilities_status_ui/name_race_dispatcher.s",
             "facilities_status_ui/affinity_dispatcher.s",
             "facilities_status_ui/font8_surface_blitter.s",
@@ -258,7 +272,8 @@ RECIPE_CONTRACT = (
     ),
     ("fusion.status_ui", "fusion_name_race_drawer", 0x06054BCC, "linked_pointer", "fusion_name_race_drawer"),
     ("fusion.status_ui", "fusion_skill_name_drawer", 0x060582A8, "linked_pointer", "fusion_skill_name_drawer"),
-    ("fusion.status_ui", "fusion_status_skill_drawer", 0x06055744, "linked_pointer", "fusion_status_skill_drawer"),
+    ("fusion.status_ui", "fusion_auto_block_ascii_drawer", 0x0605573C, "linked_pointer", "fusion_auto_block_ascii_drawer"),
+    ("fusion.status_ui", "fusion_auto_action_name_drawer", 0x06055744, "linked_pointer", "fusion_auto_action_drawer"),
     ("fusion.status_ui", "fusion_affinity_drawer", 0x06055E44, "linked_pointer", "fusion_affinity_drawer"),
     (
         "event.term_inserts",
@@ -598,6 +613,17 @@ def _status_terms() -> tuple[list[str], list[str], list[str], list[str]]:
     )
 
 
+def _party_alignment_terms() -> tuple[str, str, str]:
+    alignments = load_asset("terminology/alignments.json")
+    values: list[str] = []
+    for name in PARTY_ALIGNMENT_SOURCES:
+        _reference, value, _reviewed = alignments.field(
+            f"{name}.party_label"
+        ).resolve()
+        values.append(value)
+    return values[0], values[1], values[2]
+
+
 def _built_charname(
     stock: bytes,
     character_names: list[str],
@@ -725,6 +751,32 @@ def _encode_affinity_font8(
     return encoded + b"\0"
 
 
+def _encode_party_alignment_ascii(text: str) -> bytes:
+    try:
+        encoded = text.encode("ascii")
+    except UnicodeEncodeError as error:
+        raise ValueError(
+            f"party alignment must use the original ASCII FONT8 alphabet: {text!r}"
+        ) from error
+    if any(
+        code != 0x20
+        and not 0x30 <= code <= 0x39
+        and not 0x41 <= code <= 0x5A
+        and not 0x61 <= code <= 0x7A
+        for code in encoded
+    ):
+        raise ValueError(
+            f"party alignment contains a character unsupported by the original "
+            f"ASCII FONT8 drawer: {text!r}"
+        )
+    maximum_cells = (AUTO_ACTION_END_X - AUTO_ACTION_START_X) // 8
+    if not encoded or len(encoded) > maximum_cells:
+        raise ValueError(
+            f"party alignment exceeds {maximum_cells} original FONT8 cells: {text!r}"
+        )
+    return encoded + b"\0"
+
+
 def _encode_font8(
     text: str,
     codes: Mapping[str, int],
@@ -835,33 +887,6 @@ def _facility_alias_data(codes8: Mapping[str, int]) -> bytes:
     return bytes(output)
 
 
-def _ambiguous_magname_fallbacks(built: bytes) -> tuple[bytes, ...]:
-    ids = [f"game.magname.o{index * 96 + 4:06x}.name" for index in range(255)]
-    values = _bound_translations(
-        ("game.magname.",),
-        set(ids),
-        (BINDING_ROOT / "magic.json", BINDING_ROOT / "skills.json"),
-    )
-    if len(built) != 255 * 96:
-        raise ValueError("fusion status needs 255 MAGNAME records")
-    seen: dict[bytes, str] = {}
-    ambiguous: set[bytes] = set()
-    for index, physical_id in enumerate(ids):
-        fallback = built[index * 96 + 4 : index * 96 + 12]
-        name = values[physical_id]
-        previous = seen.get(fallback)
-        if previous is not None and previous != name:
-            ambiguous.add(fallback)
-        seen[fallback] = name
-    result = tuple(sorted(ambiguous))
-    if len(result) != 4:
-        raise ValueError(
-            "fusion status expected four ambiguous MAGNAME fallbacks, found "
-            f"{len(result)}"
-        )
-    return result
-
-
 def _event_english_data(
     widths8: bytes,
     codes8: Mapping[str, int],
@@ -871,6 +896,7 @@ def _event_english_data(
     font16: bytes,
     races: list[str],
     affinities: list[str],
+    party_alignments: tuple[str, str, str],
     demon_names: list[str],
     character_names: list[str],
     english_dvlname: bytes,
@@ -883,6 +909,7 @@ def _event_english_data(
     if (
         len(races) != RACE_COUNT
         or len(affinities) != AFFINITY_COUNT
+        or len(party_alignments) != len(PARTY_ALIGNMENT_SOURCES)
         or len(demon_names) != DEMON_COUNT
         or len(character_names) != CHARACTER_COUNT
         or len(english_dvlname) != DEMON_COUNT * 8
@@ -1072,7 +1099,12 @@ def _event_english_data(
             32,
         )
     )
-    return bytes(data), {
+    party_alignment_addresses: dict[str, int] = {}
+    for name, text in zip(PARTY_ALIGNMENT_SOURCES, party_alignments, strict=True):
+        party_alignment_addresses[name] = RUNTIME_ADDRESS + len(data)
+        data.extend(_encode_party_alignment_ascii(text))
+
+    addresses = {
         "widths16": widths16_address,
         "widths8": widths8_address,
         "compact_widths16": compact16_address,
@@ -1088,6 +1120,13 @@ def _event_english_data(
         "talk_pool": talk_pool_address,
         "healing_all": healing_all_address,
     }
+    addresses.update(
+        {
+            f"party_alignment_{name}": address
+            for name, address in party_alignment_addresses.items()
+        }
+    )
+    return bytes(data), addresses
 
 
 def _layout_data(
@@ -1375,10 +1414,10 @@ def _runtime_payload(
     font16: bytes,
     races: list[str],
     affinities: list[str],
+    party_alignments: tuple[str, str, str],
     demon_names: list[str],
     character_names: list[str],
     english_dvlname: bytes,
-    english_magname: bytes,
     stock_charname: bytes,
     english_charname: bytes,
 ) -> RuntimeBuild:
@@ -1388,8 +1427,9 @@ def _runtime_payload(
             "facilities_status_ui/font16_vwf.s",
             "facilities_status_ui/font16_from_font8.s",
             "facilities_status_ui/skill_vwf.s",
+            "status_ui/auto_action_vwf.s",
+            "status_ui/auto_block_ascii.s",
             "facilities_status_ui/affinity_font8_vwf.s",
-            "facilities_status_ui/status_skill_dispatcher.s",
             "facilities_status_ui/name_race_dispatcher.s",
             "facilities_status_ui/affinity_dispatcher.s",
             "facilities_status_ui/font8_surface_blitter.s",
@@ -1410,6 +1450,7 @@ def _runtime_payload(
         font16,
         races,
         affinities,
+        party_alignments,
         demon_names,
         character_names,
         english_dvlname,
@@ -1455,8 +1496,37 @@ def _runtime_payload(
             "GLYPH": FONT8_GLYPH_DRAWER,
         },
     )
-    affinity_vwf, _affinity_code = append(
+    auto_action_vwf, _auto_action_code = append(
         sources[3],
+        {
+            "PARTY_TYPE": CURRENT_PARTY_TYPE,
+            "HUMAN_AUTO_STATE": HUMAN_AUTO_STATE,
+            "DEMON_AUTO_STATE": DEMON_AUTO_STATE,
+            "ITEM_BASE": ITEMNAME_BASE,
+            "MAGIC_BASE": MAGNAME_BASE,
+            "NAME_POINTER": MAGNAME_POINTER_OFFSET,
+            "SPACE_CODE": codes8[" "],
+            "END_X": AUTO_ACTION_END_X,
+            "WIDTHS": data_links["widths8"],
+            "FONT_BITMAP": FONT8_BITMAP,
+            "GLYPH": FONT8_GLYPH_DRAWER,
+            "STOCK": FONT12_DRAWER,
+        },
+    )
+    auto_block_ascii, _auto_block_code = append(
+        sources[4],
+        {
+            "LAW_SOURCE": PARTY_ALIGNMENT_SOURCES["law"],
+            "NEUTRAL_SOURCE": PARTY_ALIGNMENT_SOURCES["neutral"],
+            "CHAOS_SOURCE": PARTY_ALIGNMENT_SOURCES["chaos"],
+            "LAW_TEXT": data_links["party_alignment_law"],
+            "NEUTRAL_TEXT": data_links["party_alignment_neutral"],
+            "CHAOS_TEXT": data_links["party_alignment_chaos"],
+            "STOCK": 0x060516E8,
+        },
+    )
+    affinity_vwf, _affinity_code = append(
+        sources[5],
         {
             "WIDTHS": data_links["widths8"],
             "FONT_BITMAP": FONT8_BITMAP,
@@ -1467,18 +1537,8 @@ def _runtime_payload(
             "COMMA_CODE": codes8[","],
         },
     )
-    ambiguous = _ambiguous_magname_fallbacks(english_magname)
-    status_symbols = {
-        "MAGIC_FIRST": MAGNAME_FIRST,
-        "SKILL_VWF": skill_vwf,
-        "STOCK": FONT12_DRAWER,
-    }
-    for index, key in enumerate(ambiguous):
-        status_symbols[f"AMBIG{index}_HI"] = int.from_bytes(key[:4], "big")
-        status_symbols[f"AMBIG{index}_LO"] = int.from_bytes(key[4:], "big")
-    status_skill, _status_skill_code = append(sources[4], status_symbols)
     name_race, _name_race_code = append(
-        sources[5],
+        sources[6],
         {
             "RACE_SOURCE": RACE_SOURCE,
             "RACE_TABLE": data_links["race_table"],
@@ -1493,7 +1553,7 @@ def _runtime_payload(
         },
     )
     affinity, _affinity_dispatch_code = append(
-        sources[6],
+        sources[7],
         {
             "SELECTOR": AFFINITY_SELECTOR,
             "SOURCE": AFFINITY_SOURCE,
@@ -1503,13 +1563,13 @@ def _runtime_payload(
         },
     )
     bar_glyph, _bar_glyph_code = append(
-        sources[7],
+        sources[8],
         {"FONT8": FONT8_BITMAP},
     )
 
     facility_address = RUNTIME_ADDRESS + len(payload)
     facility = _assembly(
-        sources[8],
+        sources[9],
         facility_address,
         {
             "WIDTHS": data_links["widths8"],
@@ -1542,7 +1602,7 @@ def _runtime_payload(
     payload.extend(bytes((-(RUNTIME_ADDRESS + len(payload))) % 4))
     term_address = RUNTIME_ADDRESS + len(payload)
     term_payload, term_labels = _term_insert_payload(
-        sources[9],
+        sources[10],
         term_address,
         data_links,
         codes8,
@@ -1574,7 +1634,8 @@ def _runtime_payload(
     links = {
         "fusion_name_race_drawer": name_race,
         "fusion_skill_name_drawer": skill_vwf,
-        "fusion_status_skill_drawer": status_skill,
+        "fusion_auto_action_drawer": auto_action_vwf,
+        "fusion_auto_block_ascii_drawer": auto_block_ascii,
         "fusion_affinity_drawer": affinity,
         "event_dialogue_demon_name_insert": term_labels[
             "dialogue_demon_name_insert"
@@ -1608,7 +1669,6 @@ def _build_components(
     stock_charname: bytes,
     stock_font16: bytes,
     english_dvlname: bytes,
-    english_magname: bytes,
 ) -> tuple[dict[str, bytes], RuntimeBuild]:
     metrics8 = FontMetrics.load(FONT8_METRICS_PATH)
     widths8, codes8 = font8_tables(metrics8)
@@ -1619,6 +1679,7 @@ def _build_components(
         raise ValueError("EVENT facilities/status font geometry changed")
 
     races, affinities, demon_names, character_names = _status_terms()
+    party_alignments = _party_alignment_terms()
     english_charname = _built_charname(stock_charname, character_names, metrics8)
     generated = _layout_data(
         base,
@@ -1651,10 +1712,10 @@ def _build_components(
         font16,
         races,
         affinities,
+        party_alignments,
         demon_names,
         character_names,
         english_dvlname,
-        english_magname,
         stock_charname,
         english_charname,
     )
@@ -1667,7 +1728,6 @@ def _bind_patches(
     stock_charname: bytes,
     stock_font16: bytes,
     english_dvlname: bytes,
-    english_magname: bytes,
 ) -> tuple[tuple[Patch, ...], RuntimeBuild]:
     generated, runtime = _build_components(
         config,
@@ -1675,7 +1735,6 @@ def _bind_patches(
         stock_charname,
         stock_font16,
         english_dvlname,
-        english_magname,
     )
     output: list[Patch] = []
     generated_seen: set[str] = set()
@@ -1745,8 +1804,8 @@ def _bind_patches(
             "facilities/status data generator has no configured owner: "
             + ", ".join(sorted(unused_generated))
         )
-    if len(output) != 72:
-        raise ValueError(f"facilities/status patch inventory changed: {len(output)}/72")
+    if len(output) != 73:
+        raise ValueError(f"facilities/status patch inventory changed: {len(output)}/73")
     if FUSION_CONFIRMATION_PATCH_NAMES & {patch.name for patch in output}:
         raise ValueError("facilities/status duplicates Fusion confirmation ownership")
     for patch in output:
@@ -1761,7 +1820,7 @@ def _bind_patches(
     for patch in output:
         capability_counts[patch.group] = capability_counts.get(patch.group, 0) + 1
     if capability_counts != {
-        "fusion.status_ui": 20,
+        "fusion.status_ui": 21,
         "event.term_inserts": 3,
         "facilities.command_ui": 1,
         "bar.status_ui": 4,
@@ -1779,7 +1838,7 @@ def build_facilities_status_ui(base: bytes) -> FacilitiesStatusUiBuild:
     _validate_surfaces()
     config = _configuration()
     stock_event, stock_dvlname, stock_charname, stock_font16 = _source_assets()
-    english_dvlname, english_magname = _validate_inputs(
+    english_dvlname, _english_magname = _validate_inputs(
         config,
         base,
         stock_event,
@@ -1793,7 +1852,6 @@ def build_facilities_status_ui(base: bytes) -> FacilitiesStatusUiBuild:
         stock_charname,
         stock_font16,
         english_dvlname,
-        english_magname,
     )
     assembly_files = tuple(
         sorted(

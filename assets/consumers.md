@@ -746,7 +746,9 @@ In the middle is a hexagon graph of the player's stat distribution. At the six p
 
 In the top-right  is the player's AUTO setting (i.e., AUTO SWORD), and the party alignment (i.e., "P.A. LAW"). FONT8
 
-Both use FONT8 framing. The selected AUTO value starts at x=40 and safely
+Both the NORMCOM entry used by the field/COMP menu and the duplicated EVENT
+entry used by the Gouma-Den, healer, gym, and shops use this behavior. Both rows
+use FONT8 framing. The selected AUTO value starts at x=40 and safely
 extends through x=110. Generic AUTO commands retain the fixed-cell path, while
 item and magic selections resolve the active human or demon's full catalog name
 and draw complete glyphs with proportional FONT8 advances inside that 70-pixel

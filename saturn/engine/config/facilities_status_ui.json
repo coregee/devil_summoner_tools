@@ -136,8 +136,9 @@
             "facilities_status_ui/font16_vwf.s",
             "facilities_status_ui/font16_from_font8.s",
             "facilities_status_ui/skill_vwf.s",
+            "status_ui/auto_action_vwf.s",
+            "status_ui/auto_block_ascii.s",
             "facilities_status_ui/affinity_font8_vwf.s",
-            "facilities_status_ui/status_skill_dispatcher.s",
             "facilities_status_ui/name_race_dispatcher.s",
             "facilities_status_ui/affinity_dispatcher.s",
             "facilities_status_ui/font8_surface_blitter.s",
@@ -158,10 +159,16 @@
           "linked_pointer": "fusion_skill_name_drawer"
         },
         {
-          "name": "fusion_status_skill_drawer",
+          "name": "fusion_auto_block_ascii_drawer",
+          "address": "0x0605573c",
+          "expected": "060516e8",
+          "linked_pointer": "fusion_auto_block_ascii_drawer"
+        },
+        {
+          "name": "fusion_auto_action_name_drawer",
           "address": "0x06055744",
           "expected": "06051830",
-          "linked_pointer": "fusion_status_skill_drawer"
+          "linked_pointer": "fusion_auto_action_drawer"
         },
         {
           "name": "fusion_affinity_drawer",
