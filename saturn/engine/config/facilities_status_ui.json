@@ -131,19 +131,26 @@
         {
           "name": "fusion_status_runtime",
           "address": "0x06023294",
-          "expected_zero_bytes": 12908,
+          "expected_zero_bytes": 11796,
           "assembly": [
             "facilities_status_ui/font16_vwf.s",
             "facilities_status_ui/font16_from_font8.s",
             "facilities_status_ui/skill_vwf.s",
-            "status_ui/auto_action_vwf.s",
-            "status_ui/auto_block_ascii.s",
             "facilities_status_ui/affinity_font8_vwf.s",
             "facilities_status_ui/name_race_dispatcher.s",
             "facilities_status_ui/affinity_dispatcher.s",
             "facilities_status_ui/font8_surface_blitter.s",
             "facilities_status_ui/facility_name_drawers.s",
             "facilities_status_ui/event_term_inserts.s"
+          ]
+        },
+        {
+          "name": "fusion_auto_runtime",
+          "address": "0x06065bb4",
+          "expected_zero_bytes": 844,
+          "assembly": [
+            "status_ui/auto_action_vwf.s",
+            "status_ui/auto_block_ascii.s"
           ]
         },
         {

@@ -151,8 +151,11 @@ RUNTIME_INPUT_FILES = (
 TARGET = "EVENT.BIN"
 LOAD_ADDRESS = 0x06020000
 RUNTIME_ADDRESS = 0x06023294
-RUNTIME_LIMIT = 0x06026500
+RUNTIME_LIMIT = 0x060260A8
 RUNTIME_CAPACITY = RUNTIME_LIMIT - RUNTIME_ADDRESS
+AUTO_RUNTIME_ADDRESS = 0x06065BB4
+AUTO_RUNTIME_LIMIT = 0x06065F00
+AUTO_RUNTIME_CAPACITY = AUTO_RUNTIME_LIMIT - AUTO_RUNTIME_ADDRESS
 
 FONT16_DRAWER = 0x060517C4
 FONT12_DRAWER = 0x06051830
@@ -260,14 +263,22 @@ RECIPE_CONTRACT = (
             "facilities_status_ui/font16_vwf.s",
             "facilities_status_ui/font16_from_font8.s",
             "facilities_status_ui/skill_vwf.s",
-            "status_ui/auto_action_vwf.s",
-            "status_ui/auto_block_ascii.s",
             "facilities_status_ui/affinity_font8_vwf.s",
             "facilities_status_ui/name_race_dispatcher.s",
             "facilities_status_ui/affinity_dispatcher.s",
             "facilities_status_ui/font8_surface_blitter.s",
             "facilities_status_ui/facility_name_drawers.s",
             "facilities_status_ui/event_term_inserts.s",
+        ),
+    ),
+    (
+        "fusion.status_ui",
+        "fusion_auto_runtime",
+        0x06065BB4,
+        "assembly",
+        (
+            "status_ui/auto_action_vwf.s",
+            "status_ui/auto_block_ascii.s",
         ),
     ),
     ("fusion.status_ui", "fusion_name_race_drawer", 0x06054BCC, "linked_pointer", "fusion_name_race_drawer"),
@@ -353,10 +364,11 @@ class RuntimeArena:
 @dataclass(frozen=True, slots=True)
 class RuntimeBuild:
     data: bytes
+    auto_data: bytes
     character_handler: bytes
     generated: Mapping[str, bytes]
     links: Mapping[str, int]
-    arena: RuntimeArena
+    arenas: tuple[RuntimeArena, ...]
 
 
 @dataclass(frozen=True, slots=True)
@@ -1405,6 +1417,7 @@ def _character_handler(
 
 def _runtime_payload(
     runtime_recipe: PatchRecipe,
+    auto_recipe: PatchRecipe,
     character_recipe: PatchRecipe,
     widths8: bytes,
     codes8: Mapping[str, int],
@@ -1427,14 +1440,19 @@ def _runtime_payload(
             "facilities_status_ui/font16_vwf.s",
             "facilities_status_ui/font16_from_font8.s",
             "facilities_status_ui/skill_vwf.s",
-            "status_ui/auto_action_vwf.s",
-            "status_ui/auto_block_ascii.s",
             "facilities_status_ui/affinity_font8_vwf.s",
             "facilities_status_ui/name_race_dispatcher.s",
             "facilities_status_ui/affinity_dispatcher.s",
             "facilities_status_ui/font8_surface_blitter.s",
             "facilities_status_ui/facility_name_drawers.s",
             "facilities_status_ui/event_term_inserts.s",
+        ),
+    )
+    auto_sources = _source_paths(
+        auto_recipe,
+        (
+            "status_ui/auto_action_vwf.s",
+            "status_ui/auto_block_ascii.s",
         ),
     )
     (character_source,) = _source_paths(
@@ -1464,6 +1482,17 @@ def _runtime_payload(
         address = RUNTIME_ADDRESS + len(payload)
         code = _assembly(source, address, symbols)
         payload.extend(code.data)
+        return address, code
+
+    auto_payload = bytearray()
+
+    def append_auto(source: Path, symbols: Mapping[str, int]) -> tuple[int, Assembly]:
+        auto_payload.extend(
+            bytes((-(AUTO_RUNTIME_ADDRESS + len(auto_payload))) % 4)
+        )
+        address = AUTO_RUNTIME_ADDRESS + len(auto_payload)
+        code = _assembly(source, address, symbols)
+        auto_payload.extend(code.data)
         return address, code
 
     font16_vwf, _font16_code = append(
@@ -1496,8 +1525,8 @@ def _runtime_payload(
             "GLYPH": FONT8_GLYPH_DRAWER,
         },
     )
-    auto_action_vwf, _auto_action_code = append(
-        sources[3],
+    auto_action_vwf, _auto_action_code = append_auto(
+        auto_sources[0],
         {
             "PARTY_TYPE": CURRENT_PARTY_TYPE,
             "HUMAN_AUTO_STATE": HUMAN_AUTO_STATE,
@@ -1513,8 +1542,8 @@ def _runtime_payload(
             "STOCK": FONT12_DRAWER,
         },
     )
-    auto_block_ascii, _auto_block_code = append(
-        sources[4],
+    auto_block_ascii, _auto_block_code = append_auto(
+        auto_sources[1],
         {
             "LAW_SOURCE": PARTY_ALIGNMENT_SOURCES["law"],
             "NEUTRAL_SOURCE": PARTY_ALIGNMENT_SOURCES["neutral"],
@@ -1526,7 +1555,7 @@ def _runtime_payload(
         },
     )
     affinity_vwf, _affinity_code = append(
-        sources[5],
+        sources[3],
         {
             "WIDTHS": data_links["widths8"],
             "FONT_BITMAP": FONT8_BITMAP,
@@ -1538,7 +1567,7 @@ def _runtime_payload(
         },
     )
     name_race, _name_race_code = append(
-        sources[6],
+        sources[4],
         {
             "RACE_SOURCE": RACE_SOURCE,
             "RACE_TABLE": data_links["race_table"],
@@ -1553,7 +1582,7 @@ def _runtime_payload(
         },
     )
     affinity, _affinity_dispatch_code = append(
-        sources[7],
+        sources[5],
         {
             "SELECTOR": AFFINITY_SELECTOR,
             "SOURCE": AFFINITY_SOURCE,
@@ -1563,13 +1592,13 @@ def _runtime_payload(
         },
     )
     bar_glyph, _bar_glyph_code = append(
-        sources[8],
+        sources[6],
         {"FONT8": FONT8_BITMAP},
     )
 
     facility_address = RUNTIME_ADDRESS + len(payload)
     facility = _assembly(
-        sources[9],
+        sources[7],
         facility_address,
         {
             "WIDTHS": data_links["widths8"],
@@ -1602,7 +1631,7 @@ def _runtime_payload(
     payload.extend(bytes((-(RUNTIME_ADDRESS + len(payload))) % 4))
     term_address = RUNTIME_ADDRESS + len(payload)
     term_payload, term_labels = _term_insert_payload(
-        sources[10],
+        sources[8],
         term_address,
         data_links,
         codes8,
@@ -1630,6 +1659,19 @@ def _runtime_payload(
             f"EVENT facilities/status runtime uses {used_size}/"
             f"{len(runtime_recipe.expected)} configured bytes"
         )
+    auto_used_size = len(auto_payload)
+    if AUTO_RUNTIME_ADDRESS + auto_used_size > AUTO_RUNTIME_LIMIT:
+        raise ValueError(
+            "EVENT facilities/status AUTO runtime exceeds its verified cave by "
+            f"{AUTO_RUNTIME_ADDRESS + auto_used_size - AUTO_RUNTIME_LIMIT:#x} bytes"
+        )
+    if len(auto_recipe.expected) != AUTO_RUNTIME_CAPACITY:
+        raise ValueError("EVENT facilities/status AUTO recipe changed capacity")
+    if auto_used_size > len(auto_recipe.expected):
+        raise ValueError(
+            f"EVENT facilities/status AUTO runtime uses {auto_used_size}/"
+            f"{len(auto_recipe.expected)} configured bytes"
+        )
 
     links = {
         "fusion_name_race_drawer": name_race,
@@ -1648,18 +1690,27 @@ def _runtime_payload(
         "healing_all_drawer": facility.labels["healing_all_drawer"],
         "healing_name_drawer": facility.labels["healing_name_drawer"],
     }
-    arena = RuntimeArena(
-        "event_facilities_status",
-        RUNTIME_ADDRESS,
-        used_size,
-        RUNTIME_CAPACITY,
+    arenas = (
+        RuntimeArena(
+            "event_facilities_status",
+            RUNTIME_ADDRESS,
+            used_size,
+            RUNTIME_CAPACITY,
+        ),
+        RuntimeArena(
+            "event_status_auto",
+            AUTO_RUNTIME_ADDRESS,
+            auto_used_size,
+            AUTO_RUNTIME_CAPACITY,
+        ),
     )
     return RuntimeBuild(
         bytes(payload).ljust(RUNTIME_CAPACITY, b"\0"),
+        bytes(auto_payload).ljust(AUTO_RUNTIME_CAPACITY, b"\0"),
         character_handler,
         MappingProxyType({}),
         MappingProxyType(links),
-        arena,
+        arenas,
     )
 
 
@@ -1698,11 +1749,13 @@ def _build_components(
         raise ValueError("facilities/status patch names must be unique")
     try:
         runtime_recipe = recipes["fusion_status_runtime"]
+        auto_recipe = recipes["fusion_auto_runtime"]
         character_recipe = recipes["event_dialogue_character_name_insert"]
     except KeyError as error:
         raise ValueError("facilities/status config is missing an assembly owner") from error
     runtime = _runtime_payload(
         runtime_recipe,
+        auto_recipe,
         character_recipe,
         widths8,
         codes8,
@@ -1745,6 +1798,8 @@ def _bind_patches(
         if replacement_recipe.kind == "assembly":
             if recipe.name == "fusion_status_runtime":
                 replacement = runtime.data
+            elif recipe.name == "fusion_auto_runtime":
+                replacement = runtime.auto_data
             elif recipe.name == "event_dialogue_character_name_insert":
                 replacement = runtime.character_handler
             else:
@@ -1795,6 +1850,7 @@ def _bind_patches(
 
     if assembly_seen != {
         "fusion_status_runtime",
+        "fusion_auto_runtime",
         "event_dialogue_character_name_insert",
     }:
         raise ValueError("facilities/status assembly ownership differs from config")
@@ -1804,8 +1860,8 @@ def _bind_patches(
             "facilities/status data generator has no configured owner: "
             + ", ".join(sorted(unused_generated))
         )
-    if len(output) != 73:
-        raise ValueError(f"facilities/status patch inventory changed: {len(output)}/73")
+    if len(output) != 74:
+        raise ValueError(f"facilities/status patch inventory changed: {len(output)}/74")
     if FUSION_CONFIRMATION_PATCH_NAMES & {patch.name for patch in output}:
         raise ValueError("facilities/status duplicates Fusion confirmation ownership")
     for patch in output:
@@ -1820,7 +1876,7 @@ def _bind_patches(
     for patch in output:
         capability_counts[patch.group] = capability_counts.get(patch.group, 0) + 1
     if capability_counts != {
-        "fusion.status_ui": 21,
+        "fusion.status_ui": 22,
         "event.term_inserts": 3,
         "facilities.command_ui": 1,
         "bar.status_ui": 4,
@@ -1877,9 +1933,9 @@ def build_facilities_status_ui(base: bytes) -> FacilitiesStatusUiBuild:
                 "game:FONT16.FON": _sha256(stock_font16),
             }
         ),
-        runtime.arena.used_size,
-        runtime.arena.capacity,
-        (runtime.arena,),
+        sum(arena.used_size for arena in runtime.arenas),
+        sum(arena.capacity for arena in runtime.arenas),
+        runtime.arenas,
     )
 
 

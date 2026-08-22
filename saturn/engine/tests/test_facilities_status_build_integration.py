@@ -27,10 +27,10 @@ from engine.build import (  # noqa: E402
 BUILD_CONFIG_PATH = SATURN_ROOT / "build_config.json"
 EXTRACTED_ROOT = (SATURN_ROOT / "rom" / "extracted").resolve()
 EQUIPMENT_SHA256 = (
-    "1ffb315598c74bf0b0cb1a85b68097ba10ed050fdb6b1795ef00f2c8485f695e"
+    "c292f62b306f1f98a52590adbf8ae8da1884bab3e9ae0a94d8ef091ae11e9d36"
 )
 OUTPUT_SHA256 = (
-    "04926f92d670726412b91f7925cd3086c1e64d09a8344956a544cdc686ba892a"
+    "7f765a31d200d641e1bc2b254a4575e965c6228aae611b7e7bf4360c70ff20d9"
 )
 
 
@@ -82,7 +82,7 @@ class FacilitiesStatusBuildIntegrationTests(unittest.TestCase):
 
     def test_manifest_records_complete_recipe_and_runtime_ownership(self) -> None:
         self.assertEqual(self.manifest["surface"], "facilities.status_ui")
-        self.assertEqual(self.manifest["patches"], 72)
+        self.assertEqual(self.manifest["patches"], 74)
         self.assertEqual(
             self.manifest["patch_groups"],
             [
@@ -97,13 +97,18 @@ class FacilitiesStatusBuildIntegrationTests(unittest.TestCase):
         self.assertEqual(
             self.manifest["runtime"],
             {
-                "bytes": 11838,
-                "capacity": 12908,
+                "bytes": 12306,
+                "capacity": 12640,
                 "arenas": {
                     "event_facilities_status": {
                         "address": "0x06023294",
-                        "bytes": 11838,
-                        "capacity": 12908,
+                        "bytes": 11718,
+                        "capacity": 11796,
+                    },
+                    "event_status_auto": {
+                        "address": "0x06065bb4",
+                        "bytes": 588,
+                        "capacity": 844,
                     }
                 },
             },
@@ -116,6 +121,7 @@ class FacilitiesStatusBuildIntegrationTests(unittest.TestCase):
                 "assets/text/ui/status.json",
                 "assets/text/races.json",
                 "assets/text/affinities.json",
+                "assets/text/terminology/alignments.json",
                 "assets/text/demons.json",
                 "assets/text/characters.json",
                 "assets/text/magic.json",
@@ -125,7 +131,7 @@ class FacilitiesStatusBuildIntegrationTests(unittest.TestCase):
                 "assets/text/facilities/common.json",
             },
         )
-        self.assertEqual(len(self.manifest["assembly_inputs"]), 11)
+        self.assertEqual(len(self.manifest["assembly_inputs"]), 12)
         runtime_inputs = set(self.manifest["runtime_inputs"])
         for expected in (
             "saturn/font/generated/game/FONT8.FON",

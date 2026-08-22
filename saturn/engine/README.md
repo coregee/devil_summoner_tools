@@ -531,8 +531,8 @@ python saturn/build.py default
 `facilities.status_ui` composes the remaining facility/status consumers onto
 the checked equipment intermediate and publishes `generated/game/EVENT.BIN` as
 the base for the terminal FMV subtitle stage.
-Its 73 typed recipes cover the Fusion and facility-launched detailed-status panel
-(21), shared EVENT
+Its 74 typed recipes cover the Fusion and facility-launched detailed-status panel
+(22), shared EVENT
 term insertions (3), the shared facility command cells (1), Bar UI (4), Healer
 UI (7), and 37 fixed race/affinity compatibility mirrors. Fusion's six
 confirmation-window recipes remain owned by `fusion.menu` and are explicitly
@@ -552,10 +552,12 @@ wide names wrap within the same bounded slot, and both rows move down four
 pixels. Alignment values retain EVENT's fixed-cell drawer while resolving the
 authored terminology records.
 
-The runtime arena is `0x06023294..0x06026500`: the default payload uses 12,306
-of 12,908 bytes and may relocate within that proved capacity when translations
-change. On the current composed equipment base, the facility-complete EVENT
-has SHA-256 `78c8a7a6ddc382bd189533a64931ef5819b3cd7bca400fbbf52fd6107facf968`.
+The main runtime arena is `0x06023294..0x060260a8`; the AUTO wrappers use the
+separate verified zero arena at `0x06065bb4..0x06065f00`. The default payload
+uses 12,306 of 12,640 bytes across both arenas and leaves the terminal FMV
+subtitle code/data ranges untouched. On the current composed equipment base,
+the facility-complete EVENT has SHA-256
+`7f765a31d200d641e1bc2b254a4575e965c6228aae611b7e7bf4360c70ff20d9`.
 The shared command recipe intentionally corrects the legacy port's `REVIEW`
 typo to the authored Healer command `REVIVE`; `STATUS` remains shared with the
 Bar. Both words use the preserved stock-Latin cells selected by their declared

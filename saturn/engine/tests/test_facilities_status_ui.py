@@ -23,13 +23,15 @@ import engine.surfaces.facilities_status_ui as status  # noqa: E402
 
 
 BASE_SHA256 = "c292f62b306f1f98a52590adbf8ae8da1884bab3e9ae0a94d8ef091ae11e9d36"
-OUTPUT_SHA256 = "78c8a7a6ddc382bd189533a64931ef5819b3cd7bca400fbbf52fd6107facf968"
+OUTPUT_SHA256 = "7f765a31d200d641e1bc2b254a4575e965c6228aae611b7e7bf4360c70ff20d9"
 RUNTIME_USED_SHA256 = (
-    "96692b71de2bd8afedd15e13e1e3b34a99ee7cf075625a3f08eeb39e8f0aea6f"
+    "95cbe0e4eaeb2b4564a4af7a0dbae1e9537ace6606e69d299829b8b671c1e7d9"
 )
 RUNTIME_FULL_SHA256 = (
-    "3a9866d0ac211359b197dee2fda40e0c589ba3a844c9b29cd3f351f41fefbaf3"
+    "4f0fa00cfc1ca5669fea9e25d5bf0c50b430c591a678b9476343d9cad208ecb1"
 )
+AUTO_USED_SHA256 = "7e5a0d31dc8e72faaeb538e71835cf43ec300394a8e5e55add9565dda9014df7"
+AUTO_FULL_SHA256 = "9554b27d9138c82cf5410a7112b3fb885e8f1ffa828498b4921e5864a325fa55"
 MIRROR_SHA256 = "ab939ba949285f9a961401ecfb338474db95a6e056260091594a27114d0c872f"
 
 EXPECTED_ASSEMBLY = {
@@ -70,11 +72,11 @@ class FacilitiesStatusUiEngineTests(unittest.TestCase):
         self.assertEqual(_sha256(self.base), BASE_SHA256)
         self.assertEqual(len(self.result.data), 354_072)
         self.assertEqual(_sha256(self.result.data), OUTPUT_SHA256)
-        self.assertEqual(len(self.result.patches), 73)
+        self.assertEqual(len(self.result.patches), 74)
         self.assertEqual(
             Counter(patch.group for patch in self.result.patches),
             {
-                "fusion.status_ui": 21,
+                "fusion.status_ui": 22,
                 "event.term_inserts": 3,
                 "facilities.command_ui": 1,
                 "bar.status_ui": 4,
@@ -85,18 +87,27 @@ class FacilitiesStatusUiEngineTests(unittest.TestCase):
 
     def test_runtime_matches_mature_oracle_and_owns_the_whole_cave(self) -> None:
         runtime = self.patches["fusion_status_runtime"]
+        auto_runtime = self.patches["fusion_auto_runtime"]
         self.assertEqual(runtime.address, 0x06023294)
+        self.assertEqual(auto_runtime.address, 0x06065BB4)
         self.assertEqual(self.result.runtime_used_size, 12_306)
-        self.assertEqual(self.result.runtime_capacity, 12_908)
-        self.assertEqual(len(runtime.replacement), self.result.runtime_capacity)
+        self.assertEqual(self.result.runtime_capacity, 12_640)
+        self.assertEqual(len(runtime.replacement), 11_796)
+        self.assertEqual(len(auto_runtime.replacement), 844)
         self.assertEqual(
-            _sha256(runtime.replacement[: self.result.runtime_used_size]),
+            _sha256(runtime.replacement[:11_718]),
             RUNTIME_USED_SHA256,
         )
         self.assertEqual(_sha256(runtime.replacement), RUNTIME_FULL_SHA256)
         self.assertEqual(
-            runtime.replacement[self.result.runtime_used_size :],
-            bytes(self.result.runtime_capacity - self.result.runtime_used_size),
+            _sha256(auto_runtime.replacement[:588]), AUTO_USED_SHA256
+        )
+        self.assertEqual(_sha256(auto_runtime.replacement), AUTO_FULL_SHA256)
+        self.assertEqual(
+            runtime.replacement[11_718:], bytes(11_796 - 11_718)
+        )
+        self.assertEqual(
+            auto_runtime.replacement[588:], bytes(844 - 588)
         )
         self.assertEqual(
             self.result.runtime_arenas,
@@ -104,8 +115,14 @@ class FacilitiesStatusUiEngineTests(unittest.TestCase):
                 status.RuntimeArena(
                     "event_facilities_status",
                     0x06023294,
-                    12_306,
-                    12_908,
+                    11_718,
+                    11_796,
+                ),
+                status.RuntimeArena(
+                    "event_status_auto",
+                    0x06065BB4,
+                    588,
+                    844,
                 ),
             ),
         )
@@ -118,7 +135,7 @@ class FacilitiesStatusUiEngineTests(unittest.TestCase):
         )
         self.assertEqual(
             Counter(recipe.replacement.kind for recipe in recipes),
-            {"generated": 53, "assembly": 2, "linked_pointer": 18},
+            {"generated": 53, "assembly": 3, "linked_pointer": 18},
         )
         assembly = {
             path.relative_to(ASSEMBLY_ROOT).as_posix()
@@ -157,17 +174,13 @@ class FacilitiesStatusUiEngineTests(unittest.TestCase):
         self.assertEqual(block_patch.expected, bytes.fromhex("060516e8"))
 
         runtime = self.patches["fusion_status_runtime"].replacement
+        auto_runtime = self.patches["fusion_auto_runtime"].replacement
         action = int.from_bytes(action_patch.replacement, "big")
         block = int.from_bytes(block_patch.replacement, "big")
-        affinity = int.from_bytes(
-            self.patches["fusion_affinity_drawer"].replacement, "big"
-        )
-        action_blob = runtime[
-            action - status.RUNTIME_ADDRESS : block - status.RUNTIME_ADDRESS
-        ]
-        block_blob = runtime[
-            block - status.RUNTIME_ADDRESS : affinity - status.RUNTIME_ADDRESS
-        ]
+        action_offset = action - status.AUTO_RUNTIME_ADDRESS
+        block_offset = block - status.AUTO_RUNTIME_ADDRESS
+        action_blob = auto_runtime[action_offset:block_offset]
+        block_blob = auto_runtime[block_offset:]
         for address in (
             status.CURRENT_PARTY_TYPE,
             status.HUMAN_AUTO_STATE,
@@ -331,7 +344,11 @@ class FacilitiesStatusUiEngineTests(unittest.TestCase):
             self.assertLessEqual(changed.runtime_used_size, changed.runtime_capacity)
             self.assertEqual(
                 len(changed_patches["fusion_status_runtime"].replacement),
-                changed.runtime_capacity,
+                status.RUNTIME_CAPACITY,
+            )
+            self.assertEqual(
+                len(changed_patches["fusion_auto_runtime"].replacement),
+                status.AUTO_RUNTIME_CAPACITY,
             )
             self.assertNotEqual(_sha256(changed.data), OUTPUT_SHA256)
             for name in (
