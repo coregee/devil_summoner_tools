@@ -757,9 +757,11 @@ down four pixels together, avoiding negative-y clipping. `AUTO`
 uses four of the five cells before the value; `P.A.` is exactly four cells,
 leaving the fifth cell as layout space. The separating space in each authored
 template declares that boundary; it is not another freely positioned glyph.
-The party-alignment value is a proportional FONT8 consumer of the authored
-`law.party_label`, `neutral.party_label`, and `chaos.party_label` fields; its
-legacy fixed ASCII records remain dormant address sentinels for dispatch.
+The party-alignment value uses the original fixed-cell ASCII/FONT8 glyphs while
+resolving the authored `law.party_label`, `neutral.party_label`, and
+`chaos.party_label` fields from unrestricted runtime records. The 70-pixel slot
+accepts up to eight original cells; legacy fixed records remain dormant address
+sentinels for dispatch.
 
 The AUTO configuration item grid shares the item/magic full-name VWF used by
 the working magic grid. Its entry path also restores the stock icon atlas after

@@ -399,23 +399,28 @@ def _encode_affinity_font8(
     return encoded + b"\0"
 
 
-def _encode_party_alignment_font8(
-    text: str,
-    widths: bytes,
-    codes: Mapping[str, int],
-) -> bytes:
+def _encode_party_alignment_ascii(text: str) -> bytes:
     try:
-        encoded = bytes(codes[character] for character in text)
-    except KeyError as error:
+        encoded = text.encode("ascii")
+    except UnicodeEncodeError as error:
         raise ValueError(
-            f"unsupported party-alignment FONT8 character {error.args[0]!r} "
-            f"in {text!r}"
+            f"party alignment must use the original ASCII FONT8 alphabet: {text!r}"
         ) from error
-    pixel_width = sum(widths[code] + 1 for code in encoded)
-    maximum = AUTO_ACTION_END_X - AUTO_ACTION_START_X
-    if not encoded or pixel_width > maximum:
+    if any(
+        code != 0x20
+        and not 0x30 <= code <= 0x39
+        and not 0x41 <= code <= 0x5A
+        and not 0x61 <= code <= 0x7A
+        for code in encoded
+    ):
         raise ValueError(
-            f"party alignment exceeds {maximum}px ({pixel_width}px): {text!r}"
+            f"party alignment contains a character unsupported by the original "
+            f"ASCII FONT8 drawer: {text!r}"
+        )
+    maximum_cells = (AUTO_ACTION_END_X - AUTO_ACTION_START_X) // 8
+    if not encoded or len(encoded) > maximum_cells:
+        raise ValueError(
+            f"party alignment exceeds {maximum_cells} original FONT8 cells: {text!r}"
         )
     return encoded + b"\0"
 
@@ -690,7 +695,7 @@ def _runtime_english_data(
     party_alignment_addresses: dict[str, int] = {}
     for name, text in zip(PARTY_ALIGNMENT_SOURCES, party_alignments, strict=True):
         party_alignment_addresses[name] = RUNTIME_DATA + len(data)
-        data.extend(_encode_party_alignment_font8(text, widths8, codes8))
+        data.extend(_encode_party_alignment_ascii(text))
 
     def font16_pointer(text: str) -> int:
         return font16_pool_address + font16_offsets[text]
@@ -943,7 +948,7 @@ def _runtime_payload(
             "status_ui/font16_vwf.s",
             "status_ui/skill_vwf.s",
             "status_ui/auto_action_vwf.s",
-            "status_ui/auto_block_vwf.s",
+            "status_ui/auto_block_ascii.s",
             "status_ui/affinity_font8_vwf.s",
             "status_ui/name_race_dispatcher.s",
             "status_ui/affinity_dispatcher.s",
@@ -1038,7 +1043,7 @@ def _runtime_payload(
             "COMMA_CODE": codes8[","],
         },
     )
-    auto_block_vwf = append(
+    auto_block_ascii = append(
         sources[3],
         {
             "LAW_SOURCE": PARTY_ALIGNMENT_SOURCES["law"],
@@ -1047,7 +1052,6 @@ def _runtime_payload(
             "LAW_TEXT": addresses["party_alignment_law"],
             "NEUTRAL_TEXT": addresses["party_alignment_neutral"],
             "CHAOS_TEXT": addresses["party_alignment_chaos"],
-            "FONT8_VWF": affinity_vwf,
             "STOCK": 0x06039108,
         },
     )
@@ -1109,7 +1113,7 @@ def _runtime_payload(
                 "name_race_drawer": name_race,
                 "skill_name_drawer": skill_vwf,
                 "auto_action_drawer": auto_action_vwf,
-                "auto_block_ascii_drawer": auto_block_vwf,
+                "auto_block_ascii_drawer": auto_block_ascii,
                 "affinity_drawer": affinity,
                 "stock_icon_drawer": stock_icon,
             }

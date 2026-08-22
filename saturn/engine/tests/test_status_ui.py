@@ -72,7 +72,7 @@ from engine.surfaces.status_ui import (  # noqa: E402
     _axis_data,
     _bind_patches,
     _configuration,
-    _encode_party_alignment_font8,
+    _encode_party_alignment_ascii,
     _mirror_data,
     _party_alignment_terms,
     _source_assets,
@@ -84,15 +84,15 @@ from text.util.event_repack import FontMetrics  # noqa: E402
 
 
 BASE_HASH = "55283ade924c5f4aa7c8ddd871bd2563e5c36d5f384b7240f2ed57dfbd4e7947"
-EXPECTED_HASH = "fac37aaccbd2f352866a5ecfd21dd1b9291b29ab40e924dab14d6f3a4d27b7d2"
+EXPECTED_HASH = "36c700eb470293e7a6141b265c5f5ddd16a0b616fad3aa0f08df595df88c9c41"
 EXPECTED_COMPONENT_HASHES = {
     "wrapper_cave": "b841af4246a3ef6bd28ddd765dda6416b16739abcb5fc4549178b6a5d193c824",
     "font12_atlas": "0ae06b004b5c0114e2f4e0d49ad42c3c1985d891096d628828080393337329e0",
-    "english_status_runtime": "3e0964d8b15ea1c05d9600bfa5563eec0a4c0809dbaaaf268e734ed4353d4978",
+    "english_status_runtime": "d4d527af4978daa7ddb49cc3521478c600c96872358224a2d8f9db3b5f55135e",
 }
 EXPECTED_ASSEMBLY = {
     "status_ui/auto_action_vwf.s",
-    "status_ui/auto_block_vwf.s",
+    "status_ui/auto_block_ascii.s",
     "status_ui/affinity_dispatcher.s",
     "status_ui/affinity_font8_vwf.s",
     "status_ui/atlas_wrapper.s",
@@ -200,7 +200,7 @@ class StatusUiEngineTests(unittest.TestCase):
                 "status_ui/font16_vwf.s",
                 "status_ui/skill_vwf.s",
                 "status_ui/auto_action_vwf.s",
-                "status_ui/auto_block_vwf.s",
+                "status_ui/auto_block_ascii.s",
                 "status_ui/affinity_font8_vwf.s",
                 "status_ui/name_race_dispatcher.s",
                 "status_ui/affinity_dispatcher.s",
@@ -263,16 +263,12 @@ class StatusUiEngineTests(unittest.TestCase):
         self.assertEqual(AUTO_ACTION_END_X - AUTO_ACTION_START_X, 70)
         self.assertEqual(auto_source.count("mov     #END_X"), 3)
         auto_block_source = (
-            ASSEMBLY_ROOT / "status_ui" / "auto_block_vwf.s"
+            ASSEMBLY_ROOT / "status_ui" / "auto_block_ascii.s"
         ).read_text(encoding="utf-8")
         self.assertIn("add     #4, r7", auto_block_source)
-        self.assertIn("mov.l   =FONT8_VWF, r0", auto_block_source)
-        affinity_source = (
-            ASSEMBLY_ROOT / "status_ui" / "affinity_font8_vwf.s"
-        ).read_text(encoding="utf-8")
-        self.assertIn("add     #4, r11", affinity_source)
+        self.assertIn("mov.l   =STOCK, r0", auto_block_source)
+        self.assertNotIn("FONT8_VWF", auto_block_source)
 
-        widths8, codes8 = font8_tables(FontMetrics.load(FONT8_METRICS_PATH))
         self.assertEqual(_party_alignment_terms(), ("LAW", "NEUTRAL", "CHAOS"))
         alignment_binding = json.loads(
             (SATURN_ROOT / "text" / "bindings" / "alignments.json").read_text(
@@ -289,12 +285,14 @@ class StatusUiEngineTests(unittest.TestCase):
             {"law.party_label", "neutral.party_label", "chaos.party_label"},
         )
         for text in _party_alignment_terms():
-            encoded = _encode_party_alignment_font8(text, widths8, codes8)
+            encoded = _encode_party_alignment_ascii(text)
             self.assertIn(encoded, runtime)
         self.assertEqual(
-            len(_encode_party_alignment_font8("NEUTRALITY", widths8, codes8)),
-            11,
+            _encode_party_alignment_ascii("BALANCE"),
+            b"BALANCE\0",
         )
+        with self.assertRaisesRegex(ValueError, "exceeds 8 original FONT8 cells"):
+            _encode_party_alignment_ascii("NEUTRALITY")
 
         icon = self.patches["restore_auto_config_icon_atlas"]
         self.assertEqual(icon.address, 0x06031C44)

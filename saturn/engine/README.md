@@ -569,7 +569,7 @@ equipment intermediate, then publishes the terminal
 `generated/game/NORMCOM.BIN`. The equipment base is
 `55283ade924c5f4aa7c8ddd871bd2563e5c36d5f384b7240f2ed57dfbd4e7947`;
 the terminal result is
-`fac37aaccbd2f352866a5ecfd21dd1b9291b29ab40e924dab14d6f3a4d27b7d2`.
+`36c700eb470293e7a6141b265c5f5ddd16a0b616fad3aa0f08df595df88c9c41`.
 
 `config/status_ui.json` owns 95 typed recipes across rendering, layout,
 race/affinity mirrors, direct ASCII fields, and templates. Sixty recipes
@@ -585,9 +585,10 @@ selected human or demon's full item or magic name through the proportional
 drawer instead of the stock summary's compact eight-byte copy. Names that fit
 remain on one line; wider names wrap over two bounded lines. The complete
 AUTO/P.A. block moves down four pixels so the upper line stays inside its
-surface, and party-alignment values resolve from their authored proportional
-FONT8 translations in `assets/text/terminology/alignments.json` rather than the
-dormant fixed ASCII records.
+surface, and party-alignment values resolve from their authored translations
+in `assets/text/terminology/alignments.json` rather than the
+dormant fixed ASCII records. They deliberately retain the original fixed-cell
+ASCII/FONT8 glyph path, with up to eight editable cells in the 70-pixel slot.
 
 Seven authored catalogues supply status labels and templates, races,
 affinities, demon and character names, alignments, and commands. The build also

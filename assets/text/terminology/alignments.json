@@ -5,7 +5,8 @@
     "law": {
       "party_label": {
         "reference": "LAW",
-        "translation": "LAW"
+        "translation": "LAW",
+        "font8_alphabet": "original"
       },
       "axis_label": {
         "reference": "L",
@@ -17,7 +18,8 @@
     "neutral": {
       "party_label": {
         "reference": "NEUTRAL",
-        "translation": "NEUTRAL"
+        "translation": "NEUTRAL",
+        "font8_alphabet": "original"
       },
       "axis_label": {
         "reference": "N",
@@ -28,7 +30,8 @@
     "chaos": {
       "party_label": {
         "reference": "CHAOS",
-        "translation": "CHAOS"
+        "translation": "CHAOS",
+        "font8_alphabet": "original"
       },
       "axis_label": {
         "reference": "C",
