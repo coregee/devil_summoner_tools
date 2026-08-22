@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "title_help",
+  "asset": {
+    "path": "assets/text/ui/title.json",
+    "keys": ["help_load", "help_new", "help_option", "help_special", "help_normal", "help_hard"],
+    "reference_sha256": "a340f26d276bea15cc164807f09bd590972f0a91491be4d50c99966834ba8521",
+    "translation_sha256": "d5e2157be78880ec1d7009139c382a4a29a221b5e322743c6636725e43833dab"
+  },
+  "source": {
+    "iso_path": "PSP_GAME/USRDIR/regdata.bin",
+    "size": 248592,
+    "sha256": "d9916886ea6bffe13e1eeeaf3558d5602f8b2b2a9f1987acc45a766511cc0bd2",
+    "member_count": 32,
+    "member_index": 30,
+    "member_offset": 248064,
+    "member_size": 504,
+    "member_sha256": "8cbe02286d8e438dfdcd2c17c60bd243198917ecca3c40895ad480ddb6ec231a"
+  },
+  "encoding": {
+    "slot_count": 6,
+    "slot_words": 42,
+    "terminator": "0x8000",
+    "ranges": [
+      {"characters": "0123456789", "start": "0x0001"},
+      {"characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "start": "0x000b"},
+      {"characters": "abcdefghijklmnopqrstuvwxyz", "start": "0x0025"}
+    ],
+    "glyphs": [
+      {"character": " ", "code": "0x0000"},
+      {"character": ".", "code": "0x00b0"}
+    ]
+  },
+  "output": {
+    "sha256": "6aae2a8ff01d2888434c460d1731f3aa2a8bc2025dac038485fc064494663d8f",
+    "member_sha256": "2034976f6963fa222aa5e78f19e1ab1c8f34e2f3b3cfede2b2f10b520ec82049"
+  }
+}

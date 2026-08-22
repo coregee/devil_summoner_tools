@@ -365,7 +365,7 @@ The stage reads the shared player-name ABI from `shared/player_names.py` and
 publishes `generated/game/event_name_inserts/EVENT.BIN` plus its own manifest.
 It does not import the Profile Entry surface or read mutable installed outputs.
 On the checked Fusion base its hash is
-`da9cae6d5030a6c3a7862a799a3bd9ff3267ab49423524a65eef446f41cf3b67`.
+`5ab530a29f1656ef579971faa29d6a4c6e2173aad4e0c72bd99602018ac37867`.
 This intermediate is deliberately not installed: Equipment consumes it and
 publishes another checked intermediate, which `facilities.status_ui` turns into
 the facility-complete EVENT base consumed by `fmv.subtitles`. Fusion, name
@@ -514,7 +514,7 @@ renderer sources; `config/equipment_ui.json` contains no executable replacement
 hex.
 
 The equipment EVENT intermediate hash is
-`17024077453e578315e289e93bae6d887ef86c43f353f3c1fbb5363f183f119e`
+`0353914196dac6974b6e2909e9422b75a66c51632d1784915d1fb79ac71c515a`
 after composing the name adapters and mature equipment groups. Cave ownership
 is expanded to the proved zero-filled boundaries so edited labels can grow
 safely, while pixel and glyph limits fail before any binary is written.
@@ -558,7 +558,7 @@ separate verified zero arena at `0x06065bb4..0x06065f00`. The default payload
 uses 12,306 of 12,640 bytes across both arenas and leaves the terminal FMV
 subtitle code/data ranges untouched. On the current composed equipment base,
 the facility-complete EVENT has SHA-256
-`d1f8e3050d56c50ca6e1cafe80ce993e399a91c53c31acc2487f30e00bd261f6`.
+`73b29be69585867c96fddedd84f823943121b7b88405e70b692d19bb0340594d`.
 The shared command recipe intentionally corrects the legacy port's `REVIEW`
 typo to the authored Healer command `REVIVE`; `STATUS` remains shared with the
 Bar. Both words use the preserved stock-Latin cells selected by their declared

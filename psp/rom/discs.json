@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "discs": {
+    "game": {
+      "source": {
+        "filename": "Shin Megami Tensei - Devil Summoner (Japan, Asia).iso",
+        "size": 409468928,
+        "sha256": "48e53b79dffc0ae4ed10a94328f6447278c1669d7acaa130f7b287fae86b6c9c"
+      },
+      "output": {
+        "filename": "smtds_psp_in_progress.iso"
+      },
+      "entries": {
+        "boot": {
+          "path": "PSP_GAME/SYSDIR/BOOT.BIN",
+          "size": 2404599,
+          "sha256": "37b5b7a49fe1a5af60ab042d2822befb00580e02a7d7d2ed77dd279ebe6f55fa"
+        },
+        "eboot": {
+          "path": "PSP_GAME/SYSDIR/EBOOT.BIN",
+          "size": 2404944,
+          "sha256": "3c1cb9f0f377862a0be969321a772e7a206bc3e1bb8025965e54f17c0261cd5e"
+        },
+        "datapack": {
+          "path": "PSP_GAME/USRDIR/datapack.bin",
+          "size": 914544,
+          "sha256": "0be5851b575c52eccce21b6e76a2961b08b2f4426645600b6bac84358e9e2219"
+        },
+        "regdata": {
+          "path": "PSP_GAME/USRDIR/regdata.bin",
+          "size": 248592,
+          "sha256": "d9916886ea6bffe13e1eeeaf3558d5602f8b2b2a9f1987acc45a766511cc0bd2"
+        }
+      }
+    }
+  }
+}

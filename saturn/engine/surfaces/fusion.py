@@ -94,6 +94,17 @@ CONFIRMATION_WORDS = {
     "label_yes": 4,
     "label_no": 4,
 }
+CONFIRMATION_GLYPH_LIMIT = max(
+    CONFIRMATION_WORDS[name]
+    for name in ("confirm_prompt", "level_too_low", "duplicate_demon", "begin_fusion")
+)
+CONFIRMATION_CONTENT_LEFT = 10
+CONFIRMATION_CONTENT_WIDTH = 300
+CONFIRMATION_CONTENT_RIGHT = (
+    CONFIRMATION_CONTENT_LEFT + CONFIRMATION_CONTENT_WIDTH
+)
+CONFIRMATION_CHOICE_SELECTOR_BASE = 65
+CONFIRMATION_CHOICE_WIDTH = 48
 
 
 @dataclass(frozen=True, slots=True)
@@ -444,6 +455,10 @@ def _runtime_payload() -> tuple[bytes, dict[str, int], tuple[Path, ...]]:
             "FONT16_SPACE": FONT16_SPACE,
             "WIDTHS": 0x0021A000 + shared_font16_layout(FONT16_METRICS_PATH)[1],
             "STOCK_GLYPH": 0x06051188,
+            "CONTENT_LEFT": CONFIRMATION_CONTENT_LEFT,
+            "CONTENT_RIGHT": CONFIRMATION_CONTENT_RIGHT,
+            "CHOICE_SELECTOR_BASE": CONFIRMATION_CHOICE_SELECTOR_BASE,
+            "CHOICE_RIGHT": CONFIRMATION_CHOICE_WIDTH,
         },
     )
     addresses["confirmation_drawer"] = confirmation_labels[
@@ -492,6 +507,16 @@ def _confirmation_payloads(font16: FontMetrics) -> dict[str, bytes]:
             "label_no": "game.fusion_confirmation_static.o054636",
         }[name]
         text = catalog.field(binding.records[physical_id]).translation
+        width_limit = (
+            CONFIRMATION_CHOICE_WIDTH
+            if name in {"label_yes", "label_no"}
+            else CONFIRMATION_CONTENT_WIDTH
+        )
+        if font16.measure(text) > width_limit:
+            raise ValueError(
+                f"fusion confirmation {name} exceeds "
+                f"{width_limit} pixels"
+            )
         words = font16.encode(text, dictionary=None)
         capacity = CONFIRMATION_WORDS[name]
         if len(words) + 1 > capacity:
@@ -587,6 +612,7 @@ def _assembly_patch(
             "DESTINATION_LITERAL": 0x06057914,
             "TABLE_LITERAL": 0x06057918,
             "POINTER_TABLE_OFFSET": POINTER_TABLE_OFFSET,
+            "CONFIRMATION_GLYPH_LIMIT": CONFIRMATION_GLYPH_LIMIT,
         }
         replacement, _labels = _assembled(source, recipe.address, symbols)
         stock, _stock_labels = _assembled(

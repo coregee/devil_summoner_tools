@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "id": "title_help_font16",
+  "source": {
+    "iso_path": "PSP_GAME/USRDIR/datapack.bin",
+    "size": 914544,
+    "sha256": "0be5851b575c52eccce21b6e76a2961b08b2f4426645600b6bac84358e9e2219",
+    "member_count": 18
+  },
+  "page": {
+    "member_index": 9,
+    "size": 66848,
+    "sha256": "1fd3d308e1ed056d4bbb22908a884830fe924469ec495530b38cc9e774a7739c",
+    "format": 5,
+    "order": 1,
+    "width": 256,
+    "height": 256,
+    "bits_per_pixel": 8,
+    "palette_sha256": "c5ea645b347b7859e64fea12e022bd8e67d3ce7a1f4d93cf3a25e9423540b66d",
+    "transparent_index": 0,
+    "transparent_rgba": "00000000",
+    "ink_index": 10,
+    "ink_rgba": "fcfafcff"
+  },
+  "text": {
+    "translation_sha256": "d5e2157be78880ec1d7009139c382a4a29a221b5e322743c6636725e43833dab",
+    "glyphs": [
+      {"character": " ", "code": "0x0000"},
+      {"character": "C", "code": "0x000d"},
+      {"character": "D", "code": "0x000e"},
+      {"character": "F", "code": "0x0010"},
+      {"character": "R", "code": "0x001c"},
+      {"character": "S", "code": "0x001d"},
+      {"character": "V", "code": "0x0020"},
+      {"character": "a", "code": "0x0025"},
+      {"character": "c", "code": "0x0027"},
+      {"character": "d", "code": "0x0028"},
+      {"character": "e", "code": "0x0029"},
+      {"character": "f", "code": "0x002a"},
+      {"character": "g", "code": "0x002b"},
+      {"character": "h", "code": "0x002c"},
+      {"character": "i", "code": "0x002d"},
+      {"character": "l", "code": "0x0030"},
+      {"character": "m", "code": "0x0031"},
+      {"character": "n", "code": "0x0032"},
+      {"character": "o", "code": "0x0033"},
+      {"character": "r", "code": "0x0036"},
+      {"character": "s", "code": "0x0037"},
+      {"character": "t", "code": "0x0038"},
+      {"character": "u", "code": "0x0039"},
+      {"character": "v", "code": "0x003a"},
+      {"character": "w", "code": "0x003b"},
+      {"character": "y", "code": "0x003d"},
+      {"character": ".", "code": "0x00b0"}
+    ]
+  },
+  "output": {
+    "sha256": "f2ac2e9b96739384fa2c4fc07e9152898ab1a2ee2f7451e2061c6b76352ff77d",
+    "member_sha256": "35a7bdf0cb47d4b3c7c2069594c4b7dc55ac2d04358b834019d3e7d680df45b4",
+    "changed_byte_count": 1139,
+    "changed_codes": [
+      "0x000d", "0x000e", "0x0010", "0x001c", "0x001d", "0x0020",
+      "0x0025", "0x0027", "0x0028", "0x0029", "0x002a", "0x002b",
+      "0x002c", "0x002d", "0x0030", "0x0031", "0x0032", "0x0033",
+      "0x0036", "0x0037", "0x0038", "0x0039", "0x003a", "0x003b",
+      "0x003d", "0x00b0"
+    ]
+  }
+}

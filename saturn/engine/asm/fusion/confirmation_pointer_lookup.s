@@ -6,7 +6,7 @@
     mov     #0, r2
     mov     #0, r7
     mov     #2, r6
-    mov     #20, r5
+    mov     #CONFIRMATION_GLYPH_LIMIT, r5
     mov     r8, r0
     shll2   r0
     mov.l   TABLE_LITERAL, r1

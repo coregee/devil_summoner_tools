@@ -37,10 +37,10 @@ class FusionEngineTests(unittest.TestCase):
         cls.manifest = json.loads(cls.outputs[FUSION_BUILD_MANIFEST_PATH])
 
     def test_proven_runtime_is_reproduced_exactly(self) -> None:
-        self.assertEqual(len(self.fusion.runtime), 5908)
+        self.assertEqual(len(self.fusion.runtime), 5978)
         self.assertEqual(
             hashlib.sha256(self.fusion.runtime).hexdigest(),
-            "a4f81dc54ea72f0bf93c8ea9ade768de11b8e5a0eb8bccc1b149aa002aff56cf",
+            "14585ce1d5311fc90a6125163f5955ad3f2fa15d8ce5d456a3101b68072362f5",
         )
 
         self.assertEqual(
@@ -129,8 +129,12 @@ class FusionEngineTests(unittest.TestCase):
             / "confirmation_drawer.s"
         ).read_text(encoding="utf-8")
         self.assertIn("mov     r11, r6", source)
-        self.assertIn("add     r2, r11", source)
+        self.assertIn("add     r2, r3", source)
         self.assertNotIn("add     r2, r10", source)
+        self.assertEqual(
+            patches["pointer_lookup"].replacement[10:12],
+            bytes((0xE5, 0x00 | 34)),
+        )
 
     def test_patch_inventory_is_a_typed_recipe(self) -> None:
         source = CONFIG_PATH.read_text(encoding="utf-8")
@@ -164,7 +168,7 @@ class FusionEngineTests(unittest.TestCase):
         self.assertEqual(len(output), 354072)
         self.assertEqual(
             hashlib.sha256(output).hexdigest(),
-            "e5455cf2f13db5389ecf3e76d81047d334f8d688deed5ef64c4ae1409f87f749",
+            "a60d61a03ee768836c75601b733873009007d8bdd2fb2308fefcc1423b81d1fd",
         )
 
     def test_manifest_accounts_for_every_consumer_patch(self) -> None:
@@ -180,7 +184,7 @@ class FusionEngineTests(unittest.TestCase):
                 for path in self.fusion.assembly_files
             },
         )
-        self.assertEqual(self.manifest["runtime"]["end"], "0x06022f14")
+        self.assertEqual(self.manifest["runtime"]["end"], "0x06022f5a")
         self.assertEqual(self.manifest["patches"], 67)
         self.assertEqual(
             self.manifest["patch_groups"],

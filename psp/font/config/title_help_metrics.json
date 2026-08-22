@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "title_help_metrics",
+  "provider": {
+    "source": "../../../assets/font/ark-pixel/ark-pixel-12px-proportional-latin.otf",
+    "sha256": "ba0bbfc888f51ddde1b75944c26457bc26d666ab4fa1c73da726bbbec6497bf5",
+    "size": 12,
+    "baseline": 13,
+    "antialias": false,
+    "layout_engine": "basic"
+  },
+  "contract": {
+    "character_first": 32,
+    "character_last": 126,
+    "space_advance": 4,
+    "maximum_advance": 14,
+    "visible_advance_rule": "min(ink_width + 1, 14)",
+    "storage_order": "psp_packed_printable_ascii",
+    "owned_characters": " CDFRSVacdefghilmnorstuvwy."
+  },
+  "fallback": {
+    "kind": "ported_eve_runtime_advances",
+    "sha256": "7d0d660b9f7a8d5617316c14c9299ad3b284dbb07936aa365141e9007e13ebb6",
+    "storage_order": [
+      6, 5, 6, 6, 6, 6, 6, 6, 6, 6, 3, 3, 5, 6, 5, 6,
+      8, 8, 7, 7, 7, 7, 7, 7, 7, 4, 6, 7, 6, 8, 7, 8,
+      7, 8, 7, 7, 8, 7, 8, 10, 8, 8, 7, 5, 6, 5, 6, 6,
+      4, 6, 6, 6, 6, 6, 5, 6, 6, 4, 4, 6, 4, 8, 6, 6,
+      6, 6, 5, 6, 5, 6, 6, 8, 6, 6, 6, 6, 3, 6, 6, 3,
+      5, 7, 6, 8, 7, 3, 5, 5, 6, 6, 3, 6, 3, 6, 3
+    ]
+  }
+}

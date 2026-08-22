@@ -45,6 +45,7 @@ class GuardRecipe:
 class PatchRecipeConfiguration:
     surface: str
     targets: dict[str, TargetContract]
+    inputs: dict[str, str]
     guards: dict[str, tuple[GuardRecipe, ...]]
     patches: dict[str, tuple[PatchRecipe, ...]]
 
@@ -95,9 +96,10 @@ def load_patch_recipe_configuration(
     *,
     surface: str,
     target_names: set[str],
+    input_names: set[str] = frozenset(),
 ) -> PatchRecipeConfiguration:
     document = object_value(read_json(path), str(path))
-    if set(document) != {"version", "surface", "targets", "groups"}:
+    if set(document) != {"version", "surface", "targets", "inputs", "groups"}:
         raise ValueError(f"{path}: invalid root fields")
     if document["version"] != 2 or document["surface"] != surface:
         raise ValueError(f"{path}: unsupported patch recipe")
@@ -139,6 +141,14 @@ def load_patch_recipe_configuration(
                 )
             )
         guards[name] = tuple(parsed_guards)
+
+    raw_inputs = object_value(document["inputs"], f"{path}.inputs")
+    if set(raw_inputs) != input_names:
+        raise ValueError(f"{path}: invalid input set")
+    inputs = {
+        name: _hash(value, f"{path}.inputs.{name}")
+        for name, value in raw_inputs.items()
+    }
 
     raw_groups = document["groups"]
     if not isinstance(raw_groups, list) or not raw_groups:
@@ -233,6 +243,7 @@ def load_patch_recipe_configuration(
     return PatchRecipeConfiguration(
         surface,
         targets,
+        inputs,
         guards,
         {name: tuple(rows) for name, rows in patches.items()},
     )

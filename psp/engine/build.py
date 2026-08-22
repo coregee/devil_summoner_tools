@@ -1,0 +1,226 @@
+"""Build or verify generated PSP engine surfaces."""
+
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import os
+import tempfile
+from pathlib import Path
+
+if __package__ in {None, ""}:
+    import sys
+
+    root = str(Path(__file__).resolve().parents[2])
+    if root not in sys.path:
+        sys.path.insert(0, root)
+
+from psp.engine.surfaces.title_help_ui import (
+    CONFIG_PATH,
+    TARGET,
+    _configuration,
+    build_title_help_ui,
+)
+from psp.font.util.metrics import CONFIG_PATH as METRIC_CONFIG_PATH
+from psp.rom.util.catalog import (
+    CATALOG_PATH,
+    file_sha256,
+    load_catalog,
+    validate_source,
+)
+from psp.rom.util.iso9660 import read_iso9660_file
+
+
+ENGINE_ROOT = Path(__file__).resolve().parent
+PSP_ROOT = ENGINE_ROOT.parent
+METRICS_PATH = PSP_ROOT / "font" / "generated" / "game" / "title_help_metrics.json"
+GENERATED_ROOT = ENGINE_ROOT / "generated" / "game"
+BOOT_OUTPUT = GENERATED_ROOT / "BOOT.BIN"
+EBOOT_OUTPUT = GENERATED_ROOT / "EBOOT.BIN"
+MANIFEST_OUTPUT = GENERATED_ROOT / "title_help.ui.json"
+EBOOT_TRAILING_SIZE = 345
+
+
+def _sha256(data: bytes) -> str:
+    return hashlib.sha256(data).hexdigest()
+
+
+def _metric_widths() -> bytes:
+    config = _configuration()
+    if not METRICS_PATH.is_file():
+        raise ValueError(
+            f"title-help metrics are missing: {METRICS_PATH}; "
+            "run psp/font/repack.py title_help"
+        )
+    digest = file_sha256(METRICS_PATH)
+    expected = config.inputs["title_help_metrics_sha256"]
+    if digest != expected:
+        raise ValueError(
+            f"title-help metrics SHA-256 is {digest}; expected {expected}"
+        )
+    try:
+        document = json.loads(METRICS_PATH.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as error:
+        raise ValueError(f"invalid title-help metrics: {METRICS_PATH}") from error
+    storage = document.get("storage_order") if isinstance(document, dict) else None
+    if (
+        not isinstance(document, dict)
+        or document.get("version") != 1
+        or document.get("id") != "title_help_metrics"
+        or not isinstance(storage, list)
+        or len(storage) != 95
+        or any(type(value) is not int or not 1 <= value <= 255 for value in storage)
+    ):
+        raise ValueError("title-help metrics have an invalid runtime width table")
+    return bytes(storage)
+
+
+def _source_entries() -> tuple[bytes, bytes, dict[str, object]]:
+    try:
+        disc = load_catalog()["game"]
+        boot_contract = disc.entries["boot"]
+        eboot_contract = disc.entries["eboot"]
+    except KeyError as error:
+        raise ValueError("PSP disc catalogue is missing game BOOT contracts") from error
+    source_path = validate_source(disc, verify_hash=False)
+    boot_extent, boot = read_iso9660_file(source_path, boot_contract.path)
+    eboot_extent, eboot = read_iso9660_file(source_path, eboot_contract.path)
+    for contract, extent, data in (
+        (boot_contract, boot_extent, boot),
+        (eboot_contract, eboot_extent, eboot),
+    ):
+        digest = _sha256(data)
+        if extent.size != contract.size or digest != contract.sha256:
+            raise ValueError(
+                f"{contract.path} is not the configured stock PSP entry"
+            )
+    evidence = {
+        "iso": disc.source_filename,
+        "boot": {
+            "path": boot_contract.path,
+            "lba": boot_extent.lba,
+            "size": len(boot),
+            "sha256": _sha256(boot),
+        },
+        "eboot": {
+            "path": eboot_contract.path,
+            "lba": eboot_extent.lba,
+            "size": len(eboot),
+            "sha256": _sha256(eboot),
+        },
+    }
+    return boot, eboot, evidence
+
+
+def _manifest(
+    *,
+    source: dict[str, object],
+    boot: bytes,
+    eboot: bytes,
+    patches,
+    runtime_used: int,
+    runtime_capacity: int,
+) -> bytes:
+    document = {
+        "version": 1,
+        "surface": "title_help.ui",
+        "source": source,
+        "inputs": {
+            "disc_catalog_sha256": file_sha256(CATALOG_PATH),
+            "font_metric_config_sha256": file_sha256(METRIC_CONFIG_PATH),
+            "patch_config_sha256": file_sha256(CONFIG_PATH),
+            "title_help_metrics_sha256": file_sha256(METRICS_PATH),
+            "assembly": {
+                path.relative_to(ENGINE_ROOT).as_posix(): file_sha256(path)
+                for path in sorted(
+                    {
+                        source
+                        for recipe in _configuration().patches[TARGET]
+                        for source in recipe.replacement.sources
+                    }
+                )
+            },
+        },
+        "runtime": {"used": runtime_used, "capacity": runtime_capacity},
+        "patches": [
+            {
+                "group": patch.group,
+                "name": patch.name,
+                "address": f"0x{patch.address:08x}",
+                "size": len(patch.replacement),
+                "replacement_sha256": _sha256(patch.replacement),
+            }
+            for patch in patches
+        ],
+        "outputs": {
+            "BOOT.BIN": {"size": len(boot), "sha256": _sha256(boot)},
+            "EBOOT.BIN": {"size": len(eboot), "sha256": _sha256(eboot)},
+        },
+    }
+    return (json.dumps(document, indent=2, sort_keys=True) + "\n").encode("utf-8")
+
+
+def _publish(path: Path, data: bytes, *, check: bool) -> None:
+    if check:
+        if not path.is_file() or path.read_bytes() != data:
+            raise ValueError(f"PSP engine output is missing or stale: {path}")
+        print(f"verified {path.relative_to(ENGINE_ROOT).as_posix()}")
+        return
+    path.parent.mkdir(parents=True, exist_ok=True)
+    handle = tempfile.NamedTemporaryFile(
+        mode="wb",
+        dir=path.parent,
+        prefix=f".{path.name}.",
+        suffix=".tmp",
+        delete=False,
+    )
+    temporary = Path(handle.name)
+    try:
+        with handle:
+            handle.write(data)
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(temporary, path)
+    finally:
+        if temporary.exists():
+            temporary.unlink()
+    print(f"generated {path.relative_to(ENGINE_ROOT).as_posix()}")
+
+
+def build_title_help_surface(*, check: bool) -> None:
+    widths = _metric_widths()
+    stock_boot, stock_eboot, source = _source_entries()
+    build = build_title_help_ui(stock_boot, widths)
+    eboot = build.data + bytes(EBOOT_TRAILING_SIZE)
+    if len(eboot) != len(stock_eboot):
+        raise ValueError("title-help EBOOT replacement changed its ISO extent size")
+    manifest = _manifest(
+        source=source,
+        boot=build.data,
+        eboot=eboot,
+        patches=build.patches,
+        runtime_used=build.runtime_used_size,
+        runtime_capacity=build.runtime_capacity,
+    )
+    for path, data in (
+        (BOOT_OUTPUT, build.data),
+        (EBOOT_OUTPUT, eboot),
+        (MANIFEST_OUTPUT, manifest),
+    ):
+        _publish(path, data, check=check)
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("surface", choices=("title_help.ui",))
+    parser.add_argument("--check", action="store_true")
+    arguments = parser.parse_args()
+    try:
+        build_title_help_surface(check=arguments.check)
+    except (OSError, TypeError, ValueError) as error:
+        parser.error(str(error))
+
+
+if __name__ == "__main__":
+    main()

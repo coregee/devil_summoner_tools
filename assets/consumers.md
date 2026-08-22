@@ -939,6 +939,13 @@ We have nested windows.
 
 This strip is a FONT12 consumer at the top of the screen, one line tall. It displays Victor's dialogue on these top-level screens.
 
+#### Fusion Confirmation
+
+The prompt and status messages use one 300px FONT16 line inside a 320px
+surface, with 10px left and right margins. YES and NO retain their independent
+48px strips on the next two rows; each authored label is right-aligned within
+its strip, whose compositor placement supplies the shared screen-right edge.
+
 #### Fusion Chart
 
 The fusion chart displays a header text (i.e., 通常の２身合体表).

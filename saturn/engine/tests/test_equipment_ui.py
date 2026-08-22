@@ -36,7 +36,7 @@ from text.util.event_repack import FontMetrics  # noqa: E402
 
 
 EXPECTED_HASHES = {
-    "EVENT.BIN": "17024077453e578315e289e93bae6d887ef86c43f353f3c1fbb5363f183f119e",
+    "EVENT.BIN": "0353914196dac6974b6e2909e9422b75a66c51632d1784915d1fb79ac71c515a",
     "NORMCOM.BIN": "55283ade924c5f4aa7c8ddd871bd2563e5c36d5f384b7240f2ed57dfbd4e7947",
 }
 

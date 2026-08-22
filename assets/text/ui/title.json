@@ -22,6 +22,48 @@
         "translation": "OPTION",
         "note": "Semantic wording for the final six TITLE.BIN menu glyph records beginning at 0x1FB24."
       }
+    },
+    "help_load": {
+      "text": {
+        "reference": "行動の記録をした所からゲームを再開します",
+        "translation": "Resume from your last save.",
+        "note": "PSP title-menu help record 0 in regdata.bin member 30."
+      }
+    },
+    "help_new": {
+      "text": {
+        "reference": "最初からゲームを始めます／開始前に難度選択があります",
+        "translation": "Start a new game. Choose a difficulty.",
+        "note": "PSP title-menu help record 1 in regdata.bin member 30."
+      }
+    },
+    "help_option": {
+      "text": {
+        "reference": "ゲーム中の各種設定を行うことができます",
+        "translation": "Change game settings.",
+        "note": "PSP title-menu help record 2 in regdata.bin member 30."
+      }
+    },
+    "help_special": {
+      "text": {
+        "reference": "デビルサマナーシリーズ最新作の映像がご覧いただけます",
+        "translation": "View the latest Devil Summoner trailer.",
+        "note": "PSP title-menu help record 3 in regdata.bin member 30."
+      }
+    },
+    "help_normal": {
+      "text": {
+        "reference": "標準的な難度です",
+        "translation": "Standard difficulty.",
+        "note": "PSP title-menu help record 4 in regdata.bin member 30."
+      }
+    },
+    "help_hard": {
+      "text": {
+        "reference": "上級悪魔召喚師に向けた高い難度です",
+        "translation": "For veteran Devil Summoners.",
+        "note": "PSP title-menu help record 5 in regdata.bin member 30."
+      }
     }
   }
 }

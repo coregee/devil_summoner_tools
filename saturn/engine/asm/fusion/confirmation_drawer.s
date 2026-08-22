@@ -3,8 +3,8 @@
 ; string drawer:
 ;
 ;   r4       word-string pointer
-;   r5       maximum glyph count
-;   r6/r7    fixed y/starting x (the stock glyph ABI is not x/y ordered)
+;   r5       scan guard (authored strings are terminator-driven)
+;   r6/r7    fixed y/stock x (the stock glyph ABI is not x/y ordered)
 ;   @(0,sp)  stock glyph-renderer mode
 ;   @(4,sp)  palette/surface selector
 ;   @(8,sp)  stock surface descriptor table
@@ -30,6 +30,39 @@ fusion_confirmation_vwf:
     mov.l   @(32,r15), r12
     mov.l   @(36,r15), r13
     mov.l   @(40,r15), r14
+    mov     #CONTENT_LEFT, r11
+    mov     #CHOICE_SELECTOR_BASE, r0
+    cmp/hs  r0, r13
+    bf      confirmation_loop
+
+; The choices use the same 300px content region as the prompt but align their
+; final pixel to its right edge.  Measure without consuming the live stream.
+    mov     r8, r6
+    mov     r9, r7
+    mov     #0, r3
+confirmation_measure:
+    tst     r7, r7
+    bt      confirmation_measure_done
+    mov.w   @r6, r4
+    add     #2, r6
+    extu.w  r4, r4
+    mov.l   =WORD_TERMINATOR, r0
+    cmp/eq  r0, r4
+    bt      confirmation_measure_done
+    mov.l   =WIDTHS, r1
+    mov     r4, r0
+    mov.b   @(r0,r1), r2
+    extu.b  r2, r2
+    add     r2, r3
+    dt      r7
+    bf      confirmation_measure
+confirmation_measure_done:
+    mov     #CHOICE_RIGHT, r11
+    sub     r3, r11
+    mov     #CONTENT_LEFT, r0
+    cmp/hs  r0, r11
+    bt      confirmation_loop
+    mov     r0, r11
 
 confirmation_loop:
     tst     r9, r9
@@ -44,9 +77,14 @@ confirmation_loop:
     mov     r4, r0
     mov.b   @(r0,r1), r2
     extu.b  r2, r2
+    mov     r11, r3
+    add     r2, r3
+    mov.w   =CONTENT_RIGHT, r1
+    cmp/hi  r1, r3
+    bt      confirmation_done
     mov     r10, r5
     mov     r11, r6
-    add     r2, r11
+    mov     r3, r11
     mov.l   =FONT16_SPACE, r0
     cmp/eq  r0, r4
     bt      confirmation_next

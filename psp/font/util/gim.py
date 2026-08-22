@@ -122,6 +122,118 @@ def _linear(raster: Raster) -> bytes:
     return bytes(output)
 
 
+def _stored(linear: bytes, raster: Raster) -> bytes:
+    """Return linear raster bytes in their original GIM storage order."""
+
+    if len(linear) != raster.row_bytes * raster.stored_height:
+        raise ValueError("linear GIM payload does not match its geometry")
+    if raster.order == LINEAR:
+        return linear
+    if raster.row_bytes % 16 or raster.stored_height % 8:
+        raise ValueError("swizzled GIM is not aligned to 16x8-byte blocks")
+    output = bytearray(len(linear))
+    target = 0
+    for block_y in range(0, raster.stored_height, 8):
+        for block_x in range(0, raster.row_bytes, 16):
+            for row in range(8):
+                source = (block_y + row) * raster.row_bytes + block_x
+                output[target : target + 16] = linear[source : source + 16]
+                target += 16
+    return bytes(output)
+
+
+def _picture_children(data: bytes) -> tuple[tuple[Chunk, Raster], ...]:
+    if data[: len(SIGNATURE)] != SIGNATURE:
+        raise ValueError("GIM signature is missing")
+    root = _chunk(data, 0x10, len(data), "root")
+    if root.kind != ROOT_CHUNK:
+        raise ValueError("GIM root chunk is missing")
+    picture = _chunk(data, root.offset + root.child_offset, root.end, "picture")
+    if picture.kind != PICTURE_CHUNK:
+        raise ValueError("GIM picture chunk is missing")
+    children = []
+    offset = picture.offset + picture.child_offset
+    while offset < picture.end:
+        child = _chunk(data, offset, picture.end, "picture child")
+        if child.kind in {IMAGE_CHUNK, PALETTE_CHUNK}:
+            label = "image" if child.kind == IMAGE_CHUNK else "palette"
+            children.append((child, _raster(data, child, label)))
+        offset += child.next_offset or child.size
+    return tuple(children)
+
+
+def indexed_rasters(data: bytes) -> tuple[Raster, Raster]:
+    """Return the sole image and palette rasters from an indexed GIM."""
+
+    children = _picture_children(data)
+    images = [raster for chunk, raster in children if chunk.kind == IMAGE_CHUNK]
+    palettes = [raster for chunk, raster in children if chunk.kind == PALETTE_CHUNK]
+    if len(images) != 1 or len(palettes) != 1:
+        raise ValueError("indexed GIM must contain exactly one image and palette")
+    return images[0], palettes[0]
+
+
+def replace_index8_cells(
+    data: bytes,
+    replacements: dict[int, bytes],
+    *,
+    transparent_index: int,
+    ink_index: int,
+) -> bytes:
+    """Replace selected 16x16 cells without rebuilding the GIM container."""
+
+    if not isinstance(data, bytes):
+        raise TypeError("GIM source must be bytes")
+    if not isinstance(replacements, dict):
+        raise TypeError("GIM cell replacements must be a dictionary")
+    children = _picture_children(data)
+    images = [(chunk, raster) for chunk, raster in children if chunk.kind == IMAGE_CHUNK]
+    palettes = [raster for chunk, raster in children if chunk.kind == PALETTE_CHUNK]
+    if len(images) != 1 or len(palettes) != 1:
+        raise ValueError("indexed GIM must contain exactly one image and palette")
+    chunk, image = images[0]
+    palette = palettes[0]
+    if (
+        image.format != INDEX8
+        or image.bits_per_pixel != 8
+        or image.width % 16
+        or image.height % 16
+    ):
+        raise ValueError("GIM image is not a 16x16-cell INDEX8 raster")
+    palette_size = palette.width * palette.height
+    if not 0 <= transparent_index < palette_size or not 0 <= ink_index < palette_size:
+        raise ValueError("GIM replacement palette index is outside the palette")
+    columns = image.width // 16
+    rows = image.height // 16
+    maximum_cell = columns * rows
+    for cell, coverage in replacements.items():
+        if type(cell) is not int or not 0 <= cell < maximum_cell:
+            raise ValueError(f"GIM replacement cell is invalid: {cell!r}")
+        if not isinstance(coverage, bytes) or len(coverage) != 16 * 16:
+            raise ValueError(f"GIM replacement cell {cell:#x} is not a 16x16 mask")
+        if set(coverage) - {0, 255}:
+            raise ValueError(f"GIM replacement cell {cell:#x} is antialiased")
+
+    linear = bytearray(_linear(image))
+    for cell, coverage in replacements.items():
+        cell_row, cell_column = divmod(cell, columns)
+        for y in range(16):
+            target = (cell_row * 16 + y) * image.row_bytes + cell_column * 16
+            source = y * 16
+            linear[target : target + 16] = bytes(
+                ink_index if value else transparent_index
+                for value in coverage[source : source + 16]
+            )
+    stored = _stored(bytes(linear), image)
+    metadata = chunk.offset + 0x10
+    payload_start = struct.unpack_from("<I", data, chunk.offset + 0x2C)[0]
+    start = metadata + payload_start
+    end = start + len(image.payload)
+    if data[start:end] != image.payload or len(stored) != len(image.payload):
+        raise ValueError("GIM image payload location changed")
+    return data[:start] + stored + data[end:]
+
+
 def _palette(raster: Raster) -> tuple[bytes, ...]:
     linear = _linear(raster)
     colors: list[bytes] = []

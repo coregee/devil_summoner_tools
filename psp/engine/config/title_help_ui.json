@@ -20,6 +20,9 @@
       ]
     }
   },
+  "inputs": {
+    "title_help_metrics_sha256": "f97675c7c7f06b66ee14132caf2a8d55cefaa0da41ca04506d9e5ee7e0505a1c"
+  },
   "groups": [
     {
       "capability": "title_help.vwf",
@@ -66,4 +69,3 @@
     }
   ]
 }
-

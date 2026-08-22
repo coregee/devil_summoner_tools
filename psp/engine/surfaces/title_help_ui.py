@@ -51,6 +51,7 @@ def _configuration() -> PatchRecipeConfiguration:
         CONFIG_PATH,
         surface="title_help.ui",
         target_names={TARGET},
+        input_names={"title_help_metrics_sha256"},
     )
 
 
@@ -227,4 +228,3 @@ def build_title_help_ui(stock: bytes, widths: Iterable[int]) -> TitleHelpUiBuild
         + TITLE_HELP_WIDTH_TABLE_SIZE
         - TITLE_HELP_DRAW_WRAPPER_ADDRESS,
     )
-

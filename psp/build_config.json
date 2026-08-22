@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "steps": [
+    {
+      "id": "repack_title_help_font",
+      "description": "Generate the title-help FONT16 page and its checked runtime advances.",
+      "type": "python",
+      "script": "font/repack.py",
+      "arguments": ["title_help"],
+      "check_arguments": ["title_help", "--check"]
+    },
+    {
+      "id": "repack_title_help_text",
+      "description": "Compile the six authored English title-help records into regdata.bin.",
+      "type": "python",
+      "script": "text/repack.py",
+      "arguments": ["title_help"],
+      "check_arguments": ["title_help", "--check"]
+    },
+    {
+      "id": "build_title_help_engine",
+      "description": "Build checked BOOT and EBOOT title-help VWF artifacts.",
+      "type": "python",
+      "script": "engine/build.py",
+      "arguments": ["title_help.ui"],
+      "check_arguments": ["title_help.ui", "--check"]
+    },
+    {
+      "id": "build_disc",
+      "description": "Publish the same-size PSP ISO and provenance manifest.",
+      "type": "python",
+      "script": "rom/repack.py",
+      "arguments": ["game"],
+      "check_arguments": ["game", "--check"]
+    }
+  ],
+  "profiles": {
+    "default": {
+      "description": "Build every PSP surface currently ported into this repository.",
+      "steps": [
+        "repack_title_help_font",
+        "repack_title_help_text",
+        "build_title_help_engine",
+        "build_disc"
+      ],
+      "outputs": ["game"]
+    }
+  }
+}
