@@ -2,28 +2,28 @@
   "version": 1,
   "steps": [
     {
-      "id": "repack_title_help_font",
-      "description": "Generate the title-help FONT16 page and its checked runtime advances.",
+      "id": "repack_fonts",
+      "description": "Generate the composed title-help and CONFIG font pages.",
       "type": "python",
       "script": "font/repack.py",
-      "arguments": ["title_help"],
-      "check_arguments": ["title_help", "--check"]
+      "arguments": ["all"],
+      "check_arguments": ["all", "--check"]
     },
     {
-      "id": "repack_title_help_text",
-      "description": "Compile the six authored English title-help records into regdata.bin.",
+      "id": "repack_text",
+      "description": "Compile the title-help and CONFIG help records into regdata.bin.",
       "type": "python",
       "script": "text/repack.py",
-      "arguments": ["title_help"],
-      "check_arguments": ["title_help", "--check"]
+      "arguments": ["all"],
+      "check_arguments": ["all", "--check"]
     },
     {
-      "id": "build_title_help_engine",
-      "description": "Build checked BOOT and EBOOT title-help VWF artifacts.",
+      "id": "build_engine",
+      "description": "Build the composed title-help and CONFIG BOOT/EBOOT patches.",
       "type": "python",
       "script": "engine/build.py",
-      "arguments": ["title_help.ui"],
-      "check_arguments": ["title_help.ui", "--check"]
+      "arguments": ["all"],
+      "check_arguments": ["all", "--check"]
     },
     {
       "id": "build_disc",
@@ -38,9 +38,9 @@
     "default": {
       "description": "Build every PSP surface currently ported into this repository.",
       "steps": [
-        "repack_title_help_font",
-        "repack_title_help_text",
-        "build_title_help_engine",
+        "repack_fonts",
+        "repack_text",
+        "build_engine",
         "build_disc"
       ],
       "outputs": ["game"]

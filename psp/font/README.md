@@ -43,26 +43,27 @@ editable raster domain. It maps all 95 printable ASCII characters to the Ark
 Pixel 12 source face. The frontend currently keeps its rebuild control locked
 because the new repository does not yet own the guarded `eve_files.bin`
 publisher and runtime width-table install. FONT16 remains feature-owned rather
-than globally editable: the title-help publisher now owns its exact 26 visible
-Latin cells in page 0, while CONFIG, START2, MAP2D, and the other allocations
-remain locked until their local guards are ported.
+than globally editable. The composed publisher owns the title-help Ark12 cells,
+the proved START2 Ark16 base allocation needed by CONFIG, CONFIG's twelve new
+Ark16 cells, and its three Ark12 mode-label cells. START2 subtitle runtime and
+text are not ported yet; only its shared font dependency is reproduced. MAP2D
+and the other allocations remain locked until their local guards are ported.
 
 This distinction is deliberate: a byte-identical Saturn-named resource is
 format evidence, not proof that its PSP reader is live or interchangeable.
 
 ## Runtime metrics
 
-The title-help slice generates its 95-entry Allegrex advance table and a
-same-size `datapack.bin` containing the authored surface's FONT16 cells directly
-from the pinned Ark Pixel 12px face and checked PSP raster geometry:
+The composed font stage generates the title-help 95-entry advance table and a
+same-size `datapack.bin` containing the title and CONFIG cells from pinned Ark
+Pixel faces and checked PSP raster geometry:
 
 ```powershell
-python -B psp/font/repack.py title_help
-python -B psp/font/repack.py title_help --check
+python -B psp/font/repack.py all
+python -B psp/font/repack.py all --check
 ```
 
 The publisher verifies the source pack, member 9 GIM geometry and palette,
-every owned glyph code, all unowned cells, the 1,139 changed-byte inventory,
-and the exact legacy output hashes. Until the shared EVENT font publisher is
-ported, the runtime table retains its proved 95-entry fallback advances and
-overrides only the title-owned glyphs.
+every owned glyph code, all unowned cells, the 2,821 changed-byte inventory,
+and the exact legacy output hashes. CONFIG exports its Ark12/Ark16 mappings,
+advance table, and draw limit through the font manifest for the engine stage.

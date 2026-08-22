@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "platform": "psp",
+  "corpus": "configuration_menu/psp/menu.json",
+  "corpus_record_count": 38,
+  "runtime_record_count": 29,
+  "source": "PSP_GAME/USRDIR/regdata.bin",
+  "source_size": 248592,
+  "source_sha256": "sha256:d9916886ea6bffe13e1eeeaf3558d5602f8b2b2a9f1987acc45a766511cc0bd2",
+  "member_count": 32,
+  "member_index": 14,
+  "member_offset": "0x29210",
+  "member_size": 4788,
+  "member_sha256": "sha256:88000e4e4a74398f932d4d98a7c8cff696e50427f088c0cb32d9cbf5f2caf725",
+  "slot_count": 57,
+  "slot_words": 42,
+  "terminator": "8000",
+  "help_first_slot": 45,
+  "help_slot_count": 9,
+  "records": [
+    {
+      "slot_index": 45,
+      "key": "triangle_button",
+      "record_id": "ds.psp.config_menu.r000027",
+      "slot_offset": "0x0ec4",
+      "file_offset": "0x2a0d4",
+      "source_slot_sha256": "sha256:8bfbc191df154f77f24aa218c97c1dc151319a190aeb00046e95f62d0b312273",
+      "source_text_sha256": "sha256:e9aaca3c81c9f3c8a345884baae3dda1258a3598c6285d079987b5fc515c1f15"
+    },
+    {
+      "slot_index": 46,
+      "key": "start_button",
+      "record_id": "ds.psp.config_menu.r000028",
+      "slot_offset": "0x0f18",
+      "file_offset": "0x2a128",
+      "source_slot_sha256": "sha256:0b64c27bcae7f601602fc9bb97dc43c22493b91636f2cfed16467589040308a1",
+      "source_text_sha256": "sha256:be0ccb19ca78c84bd4a98075a6c211ab55cec697e39e13b1dac78c2c6b5daecc"
+    },
+    {
+      "slot_index": 47,
+      "key": "l_button",
+      "record_id": "ds.psp.config_menu.r000029",
+      "slot_offset": "0x0f6c",
+      "file_offset": "0x2a17c",
+      "source_slot_sha256": "sha256:ae391fe0c4bc00b5c565afb1e557c0abd6b396b3cce3837810876cdaf08cdeb2",
+      "source_text_sha256": "sha256:4eec026be13dc3ad4f70c121c67150c70fee689fe2f90b7791c6dc4614a04826"
+    },
+    {
+      "slot_index": 48,
+      "key": "r_button",
+      "record_id": "ds.psp.config_menu.r000030",
+      "slot_offset": "0x0fc0",
+      "file_offset": "0x2a1d0",
+      "source_slot_sha256": "sha256:fdbe0dc0bde075c11a093b87f9a4f89290321fe786a3c8c7dd54e7fc292c785c",
+      "source_text_sha256": "sha256:30a708e326fdcb423c740704b46833b3ff92977aebddcbfe072eec05c8d18158"
+    },
+    {
+      "slot_index": 49,
+      "key": "auto_map",
+      "record_id": "ds.psp.config_menu.r000031",
+      "slot_offset": "0x1014",
+      "file_offset": "0x2a224",
+      "source_slot_sha256": "sha256:4df8ab7a5158268433c19f6a7fb63ddd3189e0bd99c4ed8915ec9331508a1ecf",
+      "source_text_sha256": "sha256:bfa6ecfb84af60097e07ca00fc275e4500d48886f2abbe7d9890509e7678afe5"
+    },
+    {
+      "slot_index": 50,
+      "key": "battle_messages",
+      "record_id": "ds.psp.config_menu.r000032",
+      "slot_offset": "0x1068",
+      "file_offset": "0x2a278",
+      "source_slot_sha256": "sha256:f30742ce03548b1dc725d9fe99932649b5d906dd7e191374e4173ddc56d5e955",
+      "source_text_sha256": "sha256:afa48431d9154358e5f202a2fd8a614b030c6b4f09dfb09ca1de2fbe4af55e04"
+    },
+    {
+      "slot_index": 51,
+      "key": "message_speed",
+      "record_id": "ds.psp.config_menu.r000033",
+      "slot_offset": "0x10bc",
+      "file_offset": "0x2a2cc",
+      "source_slot_sha256": "sha256:d8419be1539c5ec885bf959599a6d48a614be8e1f5c2be85e163f7b4f6cb0739",
+      "source_text_sha256": "sha256:9032a77b318b7c5a4e07d1e6aaf1f3aecc51dd0d97742978a91b9d7460b70eb8"
+    },
+    {
+      "slot_index": 52,
+      "key": "screen_size",
+      "record_id": "ds.psp.config_menu.r000034",
+      "slot_offset": "0x1110",
+      "file_offset": "0x2a320",
+      "source_slot_sha256": "sha256:9ce87c5a5ad180f98059ca90c423e5acd8ee7a5bf670ffb116aebcb433cb36e4",
+      "source_text_sha256": "sha256:be06627428c8e44d7efc56ee7bb31277375d75ea8278c48c8f78720ab615933e"
+    },
+    {
+      "slot_index": 53,
+      "key": "frame",
+      "record_id": "ds.psp.config_menu.r000035",
+      "slot_offset": "0x1164",
+      "file_offset": "0x2a374",
+      "source_slot_sha256": "sha256:6a90fe57e0d4ba8a48b9d67b8d745b13ce126875c68c8c434c4cb63f5aabf3bb",
+      "source_text_sha256": "sha256:360e8134f03f05bca4f24b63be4749f219a6e677a5d66138a563aa3c89a43638"
+    }
+  ]
+}
+
+

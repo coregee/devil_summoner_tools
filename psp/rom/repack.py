@@ -29,11 +29,11 @@ from psp.rom.util.publication import (
 PSP_ROOT = Path(__file__).resolve().parents[1]
 ENGINE_ROOT = PSP_ROOT / "engine"
 ENGINE_GENERATED = ENGINE_ROOT / "generated" / "game"
-ENGINE_MANIFEST = ENGINE_GENERATED / "title_help.ui.json"
+ENGINE_MANIFEST = ENGINE_GENERATED / "psp.engine.json"
 FONT_GENERATED = PSP_ROOT / "font" / "generated" / "game"
-FONT_MANIFEST = FONT_GENERATED / "title_help_font16.json"
+FONT_MANIFEST = FONT_GENERATED / "psp.fonts.json"
 TEXT_GENERATED = PSP_ROOT / "text" / "generated" / "game"
-TEXT_MANIFEST = TEXT_GENERATED / "title_help.json"
+TEXT_MANIFEST = TEXT_GENERATED / "psp.text.json"
 
 
 def _sha256(data: bytes) -> str:
@@ -51,7 +51,7 @@ def _engine_outputs() -> dict[str, dict[str, object]]:
     if (
         not isinstance(document, dict)
         or document.get("version") != 1
-        or document.get("surface") != "title_help.ui"
+        or document.get("surface") != "psp.engine"
         or not isinstance(outputs, dict)
         or set(outputs) != {"BOOT.BIN", "EBOOT.BIN"}
         or any(
@@ -93,7 +93,9 @@ def _resource_output(
         or not isinstance(output["sha256"], str)
         or len(output["sha256"]) != 64
     ):
-        raise ValueError(f"PSP component manifest has an invalid output: {manifest_path}")
+        raise ValueError(
+            f"PSP component manifest has an invalid output: {manifest_path}"
+        )
     if not output_path.is_file():
         raise ValueError(f"PSP component output is missing: {output_path}")
     data = output_path.read_bytes()
@@ -135,13 +137,13 @@ def _replacements(source_path: Path, disc) -> tuple[IsoReplacement, ...]:
         (
             "datapack",
             FONT_MANIFEST,
-            "title_help.font16",
+            "psp.fonts",
             FONT_GENERATED / "datapack.bin",
         ),
         (
             "regdata",
             TEXT_MANIFEST,
-            "title_help.text",
+            "psp.text",
             TEXT_GENERATED / "regdata.bin",
         ),
     ):

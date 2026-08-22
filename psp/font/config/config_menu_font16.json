@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "config_menu_font16",
+  "source_sha256": "0be5851b575c52eccce21b6e76a2961b08b2f4426645600b6bac84358e9e2219",
+  "ark12": {
+    "provider": "../../../assets/font/ark-pixel/ark-pixel-12px-proportional-latin.otf",
+    "provider_sha256": "ba0bbfc888f51ddde1b75944c26457bc26d666ab4fa1c73da726bbbec6497bf5",
+    "member_index": 9,
+    "output_member_sha256": "546b0c2873a107c60759a526e638eca6e1e80f957325fd611030bc7324ca1928",
+    "new_codes": ["0x0012", "0x0017", "0x0018"]
+  },
+  "ark16": {
+    "provider": "../../../assets/font/ark-pixel/ark-pixel-16px-proportional-latin.otf",
+    "provider_sha256": "5ff8ed367e79aa2e1081a20c17f248a0c688baa566efbcda7ed00f62351f8491",
+    "size": 16,
+    "baseline": 13,
+    "antialias": true,
+    "member_index": 15,
+    "source_member_sha256": "462bedbda5f68fab2ac555b5eac13958716818235dad536702fdc065adf7664c",
+    "palette_sha256": "010ceeaac001c39b98d424877c87ddd9eb923f5cb89b762cdce9d29b7fa81141",
+    "output_member_sha256": "185a12bb4f71cd61f5610d4ee0200e554207f8045e691d7c40646abc51ee0431",
+    "first_code": "0x0672",
+    "new_codes": ["0x0691", "0x0692", "0x0693", "0x0694", "0x0695", "0x0696", "0x0697", "0x0698", "0x0699", "0x069a", "0x069b", "0x069c"],
+    "required_limit": "0x069d"
+  },
+  "output": {
+    "sha256": "f8f2742352f56c464ab4d3661cba323c2e06f9890081f2e9bcb6bb65fa15adf4",
+    "changed_byte_count": 2821,
+    "changed_members": [9, 15]
+  }
+}

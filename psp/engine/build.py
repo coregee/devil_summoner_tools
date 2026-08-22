@@ -16,6 +16,7 @@ if __package__ in {None, ""}:
     if root not in sys.path:
         sys.path.insert(0, root)
 
+from psp.engine.surfaces.config_menu import build_config_menu
 from psp.engine.surfaces.title_help_ui import (
     CONFIG_PATH,
     TARGET,
@@ -30,6 +31,7 @@ from psp.rom.util.catalog import (
     validate_source,
 )
 from psp.rom.util.iso9660 import read_iso9660_file
+from psp.text.util.assets import CONFIG_ASSET_PATH
 
 
 ENGINE_ROOT = Path(__file__).resolve().parent
@@ -38,7 +40,16 @@ METRICS_PATH = PSP_ROOT / "font" / "generated" / "game" / "title_help_metrics.js
 GENERATED_ROOT = ENGINE_ROOT / "generated" / "game"
 BOOT_OUTPUT = GENERATED_ROOT / "BOOT.BIN"
 EBOOT_OUTPUT = GENERATED_ROOT / "EBOOT.BIN"
-MANIFEST_OUTPUT = GENERATED_ROOT / "title_help.ui.json"
+MANIFEST_OUTPUT = GENERATED_ROOT / "psp.engine.json"
+FONT_MANIFEST_PATH = (
+    PSP_ROOT / "font" / "generated" / "game" / "psp.fonts.json"
+)
+CONFIG_ENGINE_SOURCES = (
+    ENGINE_ROOT / "core" / "emitter.py",
+    ENGINE_ROOT / "core" / "layout.py",
+    ENGINE_ROOT / "surfaces" / "config_menu.py",
+    ENGINE_ROOT / "surfaces" / "config_menu_runtime.py",
+)
 EBOOT_TRAILING_SIZE = 345
 
 
@@ -113,6 +124,27 @@ def _source_entries() -> tuple[bytes, bytes, dict[str, object]]:
     return boot, eboot, evidence
 
 
+def _config_font_contract() -> dict[str, object]:
+    if not FONT_MANIFEST_PATH.is_file():
+        raise ValueError(
+            f"PSP font manifest is missing: {FONT_MANIFEST_PATH}; "
+            "run psp/font/repack.py all"
+        )
+    try:
+        document = json.loads(FONT_MANIFEST_PATH.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as error:
+        raise ValueError(f"invalid PSP font manifest: {FONT_MANIFEST_PATH}") from error
+    contract = document.get("config_menu") if isinstance(document, dict) else None
+    if (
+        not isinstance(document, dict)
+        or document.get("version") != 1
+        or document.get("surface") != "psp.fonts"
+        or not isinstance(contract, dict)
+    ):
+        raise ValueError("PSP font manifest has no CONFIG runtime contract")
+    return contract
+
+
 def _manifest(
     *,
     source: dict[str, object],
@@ -124,13 +156,16 @@ def _manifest(
 ) -> bytes:
     document = {
         "version": 1,
-        "surface": "title_help.ui",
+        "surface": "psp.engine",
+        "components": ["title_help.ui", "config_menu.ui"],
         "source": source,
         "inputs": {
             "disc_catalog_sha256": file_sha256(CATALOG_PATH),
             "font_metric_config_sha256": file_sha256(METRIC_CONFIG_PATH),
             "patch_config_sha256": file_sha256(CONFIG_PATH),
             "title_help_metrics_sha256": file_sha256(METRICS_PATH),
+            "font_manifest_sha256": file_sha256(FONT_MANIFEST_PATH),
+            "config_menu_asset_sha256": file_sha256(CONFIG_ASSET_PATH),
             "assembly": {
                 path.relative_to(ENGINE_ROOT).as_posix(): file_sha256(path)
                 for path in sorted(
@@ -140,6 +175,10 @@ def _manifest(
                         for source in recipe.replacement.sources
                     }
                 )
+            },
+            "config_menu_sources": {
+                path.relative_to(ENGINE_ROOT).as_posix(): file_sha256(path)
+                for path in CONFIG_ENGINE_SOURCES
             },
         },
         "runtime": {"used": runtime_used, "capacity": runtime_capacity},
@@ -188,23 +227,24 @@ def _publish(path: Path, data: bytes, *, check: bool) -> None:
     print(f"generated {path.relative_to(ENGINE_ROOT).as_posix()}")
 
 
-def build_title_help_surface(*, check: bool) -> None:
+def build_engine(*, check: bool) -> None:
     widths = _metric_widths()
     stock_boot, stock_eboot, source = _source_entries()
-    build = build_title_help_ui(stock_boot, widths)
-    eboot = build.data + bytes(EBOOT_TRAILING_SIZE)
+    title = build_title_help_ui(stock_boot, widths)
+    config = build_config_menu(stock_boot, title.data, _config_font_contract())
+    eboot = config.data + bytes(EBOOT_TRAILING_SIZE)
     if len(eboot) != len(stock_eboot):
-        raise ValueError("title-help EBOOT replacement changed its ISO extent size")
+        raise ValueError("PSP EBOOT replacement changed its ISO extent size")
     manifest = _manifest(
         source=source,
-        boot=build.data,
+        boot=config.data,
         eboot=eboot,
-        patches=build.patches,
-        runtime_used=build.runtime_used_size,
-        runtime_capacity=build.runtime_capacity,
+        patches=(*title.patches, *config.patches),
+        runtime_used=title.runtime_used_size + config.runtime_used_size,
+        runtime_capacity=title.runtime_capacity + config.runtime_used_size,
     )
     for path, data in (
-        (BOOT_OUTPUT, build.data),
+        (BOOT_OUTPUT, config.data),
         (EBOOT_OUTPUT, eboot),
         (MANIFEST_OUTPUT, manifest),
     ):
@@ -213,11 +253,11 @@ def build_title_help_surface(*, check: bool) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("surface", choices=("title_help.ui",))
+    parser.add_argument("surface", choices=("all",))
     parser.add_argument("--check", action="store_true")
     arguments = parser.parse_args()
     try:
-        build_title_help_surface(check=arguments.check)
+        build_engine(check=arguments.check)
     except (OSError, TypeError, ValueError) as error:
         parser.error(str(error))
 

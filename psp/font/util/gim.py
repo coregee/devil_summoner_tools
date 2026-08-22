@@ -187,7 +187,9 @@ def replace_index8_cells(
     if not isinstance(replacements, dict):
         raise TypeError("GIM cell replacements must be a dictionary")
     children = _picture_children(data)
-    images = [(chunk, raster) for chunk, raster in children if chunk.kind == IMAGE_CHUNK]
+    images = [
+        (chunk, raster) for chunk, raster in children if chunk.kind == IMAGE_CHUNK
+    ]
     palettes = [raster for chunk, raster in children if chunk.kind == PALETTE_CHUNK]
     if len(images) != 1 or len(palettes) != 1:
         raise ValueError("indexed GIM must contain exactly one image and palette")
@@ -201,7 +203,10 @@ def replace_index8_cells(
     ):
         raise ValueError("GIM image is not a 16x16-cell INDEX8 raster")
     palette_size = palette.width * palette.height
-    if not 0 <= transparent_index < palette_size or not 0 <= ink_index < palette_size:
+    if (
+        not 0 <= transparent_index < palette_size
+        or not 0 <= ink_index < palette_size
+    ):
         raise ValueError("GIM replacement palette index is outside the palette")
     columns = image.width // 16
     rows = image.height // 16
@@ -230,6 +235,68 @@ def replace_index8_cells(
     start = metadata + payload_start
     end = start + len(image.payload)
     if data[start:end] != image.payload or len(stored) != len(image.payload):
+        raise ValueError("GIM image payload location changed")
+    return data[:start] + stored + data[end:]
+
+
+def replace_index8_coverage_cells(
+    data: bytes,
+    replacements: dict[int, bytes],
+    *,
+    maximum_source_index: int,
+) -> bytes:
+    """Apply antialiased cell coverage through the GIM's native gray ramp."""
+
+    children = _picture_children(data)
+    images = [
+        (chunk, raster) for chunk, raster in children if chunk.kind == IMAGE_CHUNK
+    ]
+    palettes = [raster for chunk, raster in children if chunk.kind == PALETTE_CHUNK]
+    if len(images) != 1 or len(palettes) != 1:
+        raise ValueError("indexed GIM must contain exactly one image and palette")
+    chunk, image = images[0]
+    palette = palettes[0]
+    if image.format != INDEX8 or image.bits_per_pixel != 8:
+        raise ValueError("GIM image is not INDEX8")
+    colors = _palette(palette)
+    if not 1 <= maximum_source_index < len(colors):
+        raise ValueError("GIM grayscale ramp is outside the palette")
+    ramp = []
+    for index in range(1, maximum_source_index + 1):
+        red, green, blue, alpha = colors[index]
+        if alpha == 0:
+            continue
+        if alpha != 255 or max(red, green, blue) - min(red, green, blue) > 4:
+            raise ValueError("GIM coverage requires an opaque grayscale ramp")
+        ramp.append((index, round((red + green + blue) / 3)))
+    darkest = min(value for _index, value in ramp)
+    brightest = max(value for _index, value in ramp)
+    linear = bytearray(_linear(image))
+    columns = image.width // 16
+    maximum_cell = columns * (image.height // 16)
+    for cell, coverage in replacements.items():
+        if type(cell) is not int or not 0 <= cell < maximum_cell:
+            raise ValueError(f"GIM replacement cell is invalid: {cell!r}")
+        if not isinstance(coverage, bytes) or len(coverage) != 256:
+            raise ValueError(f"GIM replacement cell {cell:#x} is not a 16x16 mask")
+        cell_row, cell_column = divmod(cell, columns)
+        for y in range(16):
+            target = (cell_row * 16 + y) * image.row_bytes + cell_column * 16
+            for x, value in enumerate(coverage[y * 16 : y * 16 + 16]):
+                if value == 0:
+                    continue
+                luminance = darkest + value * (brightest - darkest) / 255
+                index, _actual = min(
+                    ramp,
+                    key=lambda item: (abs(item[1] - luminance), -item[1]),
+                )
+                linear[target + x] = index
+    stored = _stored(bytes(linear), image)
+    metadata = chunk.offset + 0x10
+    payload_start = struct.unpack_from("<I", data, chunk.offset + 0x2C)[0]
+    start = metadata + payload_start
+    end = start + len(image.payload)
+    if data[start:end] != image.payload:
         raise ValueError("GIM image payload location changed")
     return data[:start] + stored + data[end:]
 

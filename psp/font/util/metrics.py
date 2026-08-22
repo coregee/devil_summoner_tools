@@ -235,12 +235,12 @@ def _mask(
     )
 
 
-def build_title_help_masks(characters: str) -> dict[str, dict[str, object]]:
-    """Render the exact FONT16 masks consumed by the title-help publisher."""
+def render_title_help_masks(characters: str) -> dict[str, dict[str, object]]:
+    """Render Ark Pixel 12 masks in the checked PSP FONT16 geometry."""
 
     plan = _load_config()
-    if set(characters) != plan.owned_characters or len(set(characters)) != len(characters):
-        raise ValueError("title-help raster ownership differs from its metric contract")
+    if len(set(characters)) != len(characters):
+        raise ValueError("Ark Pixel 12 mask characters are duplicated")
     font = _font(plan)
     output: dict[str, dict[str, object]] = {}
     for character in characters:
@@ -251,6 +251,15 @@ def build_title_help_masks(characters: str) -> dict[str, dict[str, object]]:
             "bounds": bounds,
         }
     return output
+
+
+def build_title_help_masks(characters: str) -> dict[str, dict[str, object]]:
+    """Render the exact FONT16 masks consumed by the title-help publisher."""
+
+    plan = _load_config()
+    if set(characters) != plan.owned_characters:
+        raise ValueError("title-help raster ownership differs from its metric contract")
+    return render_title_help_masks(characters)
 
 
 def build_title_help_metrics(

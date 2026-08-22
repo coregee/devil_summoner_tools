@@ -19,13 +19,19 @@ if __package__ in {None, ""}:
 from psp.rom.util.catalog import load_catalog, validate_source
 from psp.rom.util.iso9660 import read_iso9660_file
 from psp.text.util.assets import TITLE_ASSET_PATH
+from psp.text.util.assets import CONFIG_ASSET_PATH
+from psp.text.util.config_menu import (
+    CONFIG_PATH as CONFIG_MENU_PATH,
+    build_config_text,
+)
+from psp.archive.pack import PspPack
 from psp.text.util.title_help import CONFIG_PATH, build_title_help, load_config
 
 
 TEXT_ROOT = Path(__file__).resolve().parent
 OUTPUT_ROOT = TEXT_ROOT / "generated" / "game"
 OUTPUT_PATH = OUTPUT_ROOT / "regdata.bin"
-MANIFEST_PATH = OUTPUT_ROOT / "title_help.json"
+MANIFEST_PATH = OUTPUT_ROOT / "psp.text.json"
 
 
 def _sha(data: bytes) -> str:
@@ -68,37 +74,56 @@ def build(*, check: bool) -> None:
         or _sha(source) != contract.sha256
     ):
         raise ValueError("PSP regdata disc contract changed")
-    result = build_title_help(source, config)
+    title_result = build_title_help(source, config)
+    config_result = build_config_text(source)
+    archive = PspPack.parse(source)
+    combined = archive.rebuild(
+        {14: config_result.member, config.member_index: title_result.member}
+    )
+    if _sha(combined) != (
+        "a642bbea6b2d3a087261bd2aaf6ac0687eba2eb272681344b3a0cc1946688e4b"
+    ):
+        raise ValueError("combined PSP CONFIG/title-help regdata contract changed")
     manifest = {
         "version": 1,
-        "surface": "title_help.text",
+        "surface": "psp.text",
+        "components": ["title_help.text", "config_menu.text"],
         "inputs": {
             "asset_sha256": _sha(TITLE_ASSET_PATH.read_bytes()),
+            "config_asset_sha256": _sha(CONFIG_ASSET_PATH.read_bytes()),
             "config_sha256": _sha(CONFIG_PATH.read_bytes()),
+            "config_menu_binding_sha256": _sha(CONFIG_MENU_PATH.read_bytes()),
             "source_sha256": _sha(source),
         },
         "output": {
             "filename": OUTPUT_PATH.name,
-            "size": len(result.data),
-            "sha256": _sha(result.data),
+            "size": len(combined),
+            "sha256": _sha(combined),
         },
         "member": {
-            "index": config.member_index,
-            "size": len(result.member),
-            "sha256": _sha(result.member),
+            "indices": [14, config.member_index],
+            "sha256": {
+                "14": _sha(config_result.member),
+                str(config.member_index): _sha(title_result.member),
+            },
         },
-        "records": list(result.translations),
+        "records": {
+            "title_help": list(title_result.translations),
+            "config_help": list(config_result.translations),
+        },
     }
     manifest_bytes = (
         json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
     ).encode("utf-8")
-    _publish(OUTPUT_PATH, result.data, check=check)
+    _publish(OUTPUT_PATH, combined, check=check)
     _publish(MANIFEST_PATH, manifest_bytes, check=check)
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("target", choices=("title_help", "all"), nargs="?", default="all")
+    parser.add_argument(
+        "target", choices=("all",), nargs="?", default="all"
+    )
     parser.add_argument("--check", action="store_true")
     arguments = parser.parse_args()
     try:

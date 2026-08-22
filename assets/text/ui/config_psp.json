@@ -1,0 +1,273 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "label_triangle_button": {
+      "text": {
+        "reference": "△ボタン",
+        "translation": "△ Button",
+        "note": "PSP CONFIG label record ds.psp.config_menu.r000000."
+      }
+    },
+    "label_start_button": {
+      "text": {
+        "reference": "STARTボタン",
+        "translation": "START Button",
+        "note": "PSP CONFIG label record ds.psp.config_menu.r000001."
+      }
+    },
+    "label_l_button": {
+      "text": {
+        "reference": "Lボタン",
+        "translation": "L Button",
+        "note": "PSP CONFIG label record ds.psp.config_menu.r000002."
+      }
+    },
+    "label_r_button": {
+      "text": {
+        "reference": "Rボタン",
+        "translation": "R Button",
+        "note": "PSP CONFIG label record ds.psp.config_menu.r000003."
+      }
+    },
+    "label_auto_map": {
+      "text": {
+        "reference": "オートマッピング",
+        "translation": "Auto Map",
+        "note": "PSP CONFIG label record ds.psp.config_menu.r000004."
+      }
+    },
+    "label_battle_messages": {
+      "text": {
+        "reference": "戦闘中メッセージ",
+        "translation": "Battle Messages",
+        "note": "PSP CONFIG label record ds.psp.config_menu.r000005."
+      }
+    },
+    "label_message_speed": {
+      "text": {
+        "reference": "メッセージ",
+        "translation": "Message Speed",
+        "note": "PSP CONFIG label record ds.psp.config_menu.r000006."
+      }
+    },
+    "label_screen_size": {
+      "text": {
+        "reference": "画面サイズ",
+        "translation": "Screen Size",
+        "note": "PSP CONFIG label record ds.psp.config_menu.r000007."
+      }
+    },
+    "label_frame": {
+      "text": {
+        "reference": "フレーム",
+        "translation": "Frame",
+        "note": "PSP CONFIG label record ds.psp.config_menu.r000008."
+      }
+    },
+    "action_magic": {
+      "text": {
+        "reference": "MAGIC",
+        "translation": "Magic",
+        "note": "PSP CONFIG action record ds.psp.config_menu.r000009."
+      }
+    },
+    "action_status": {
+      "text": {
+        "reference": "STATUS",
+        "translation": "Status",
+        "note": "PSP CONFIG action record ds.psp.config_menu.r000010."
+      }
+    },
+    "action_auto_map": {
+      "text": {
+        "reference": "AUTO MAP",
+        "translation": "Auto Map",
+        "note": "PSP CONFIG action record ds.psp.config_menu.r000011."
+      }
+    },
+    "action_item_use": {
+      "text": {
+        "reference": "ITEM USE",
+        "translation": "Item Use",
+        "note": "PSP CONFIG action record ds.psp.config_menu.r000012."
+      }
+    },
+    "action_analyze": {
+      "text": {
+        "reference": "ANALYZE",
+        "translation": "Analyze",
+        "note": "PSP CONFIG action record ds.psp.config_menu.r000013."
+      }
+    },
+    "action_recovery": {
+      "text": {
+        "reference": "RECOVERY",
+        "translation": "Recovery",
+        "note": "PSP CONFIG action record ds.psp.config_menu.r000014."
+      }
+    },
+    "orientation_north_up": {
+      "text": {
+        "reference": "北が上",
+        "translation": "North Up",
+        "note": "PSP CONFIG orientation record ds.psp.config_menu.r000015."
+      }
+    },
+    "orientation_facing_up": {
+      "text": {
+        "reference": "正面が上",
+        "translation": "Facing Up",
+        "note": "PSP CONFIG orientation record ds.psp.config_menu.r000016."
+      }
+    },
+    "speed_fast": {
+      "text": {
+        "reference": "速い",
+        "translation": "Fast",
+        "note": "PSP CONFIG speed record ds.psp.config_menu.r000017."
+      }
+    },
+    "speed_normal": {
+      "text": {
+        "reference": "普通",
+        "translation": "Normal",
+        "note": "PSP CONFIG speed record ds.psp.config_menu.r000018."
+      }
+    },
+    "speed_slow": {
+      "text": {
+        "reference": "遅い",
+        "translation": "Slow",
+        "note": "PSP CONFIG speed record ds.psp.config_menu.r000019."
+      }
+    },
+    "size_normal": {
+      "text": {
+        "reference": "NORMAL",
+        "translation": "Normal",
+        "note": "PSP CONFIG size record ds.psp.config_menu.r000020."
+      }
+    },
+    "size_wide_1": {
+      "text": {
+        "reference": "WIDE 1",
+        "translation": "Wide 1",
+        "note": "PSP CONFIG size record ds.psp.config_menu.r000021."
+      }
+    },
+    "size_wide_2": {
+      "text": {
+        "reference": "WIDE 2",
+        "translation": "Wide 2",
+        "note": "PSP CONFIG size record ds.psp.config_menu.r000022."
+      }
+    },
+    "frame_type_1": {
+      "text": {
+        "reference": "TYPE 1",
+        "translation": "Type 1",
+        "note": "PSP CONFIG frame record ds.psp.config_menu.r000023."
+      }
+    },
+    "frame_type_2": {
+      "text": {
+        "reference": "TYPE 2",
+        "translation": "Type 2",
+        "note": "PSP CONFIG frame record ds.psp.config_menu.r000024."
+      }
+    },
+    "frame_type_3": {
+      "text": {
+        "reference": "TYPE 3",
+        "translation": "Type 3",
+        "note": "PSP CONFIG frame record ds.psp.config_menu.r000025."
+      }
+    },
+    "secondary_help_delete_save_data": {
+      "text": {
+        "reference": "セーブデータ削除メニューへ",
+        "translation": "Delete Save Data Menu",
+        "note": "PSP CONFIG secondary help record ds.psp.config_menu.r000026."
+      }
+    },
+    "context_help_triangle_button": {
+      "text": {
+        "reference": "△ボタンの機能を設定します",
+        "translation": "Set the Triangle button function.",
+        "note": "PSP CONFIG context help record ds.psp.config_menu.r000027."
+      }
+    },
+    "context_help_start_button": {
+      "text": {
+        "reference": "STARTボタンの機能を設定します",
+        "translation": "Set the START button function.",
+        "note": "PSP CONFIG context help record ds.psp.config_menu.r000028."
+      }
+    },
+    "context_help_l_button": {
+      "text": {
+        "reference": "Lボタンの機能を設定します",
+        "translation": "Set the L button function.",
+        "note": "PSP CONFIG context help record ds.psp.config_menu.r000029."
+      }
+    },
+    "context_help_r_button": {
+      "text": {
+        "reference": "Rボタンの機能を設定します",
+        "translation": "Set the R button function.",
+        "note": "PSP CONFIG context help record ds.psp.config_menu.r000030."
+      }
+    },
+    "context_help_auto_map": {
+      "text": {
+        "reference": "オートマッピングの表示モードを設定します",
+        "translation": "Set the Auto Map orientation.",
+        "note": "PSP CONFIG context help record ds.psp.config_menu.r000031."
+      }
+    },
+    "context_help_battle_messages": {
+      "text": {
+        "reference": "戦闘メッセージスピードを変更します",
+        "translation": "Set battle message speed.",
+        "note": "PSP CONFIG context help record ds.psp.config_menu.r000032."
+      }
+    },
+    "context_help_message_speed": {
+      "text": {
+        "reference": "戦闘以外のメッセージスピードを変更します",
+        "translation": "Set message speed.",
+        "note": "PSP CONFIG context help record ds.psp.config_menu.r000033."
+      }
+    },
+    "context_help_screen_size": {
+      "text": {
+        "reference": "画面サイズを変更します",
+        "translation": "Set the screen size.",
+        "note": "PSP CONFIG context help record ds.psp.config_menu.r000034."
+      }
+    },
+    "context_help_frame": {
+      "text": {
+        "reference": "フレームを変更します",
+        "translation": "Choose the window frame.",
+        "note": "PSP CONFIG context help record ds.psp.config_menu.r000035."
+      }
+    },
+    "mode_normal": {
+      "text": {
+        "reference": "NORMAL MODE",
+        "translation": "Normal Mode",
+        "note": "PSP CONFIG mode record ds.psp.config_menu.r000036."
+      }
+    },
+    "mode_hard": {
+      "text": {
+        "reference": "HARD MODE",
+        "translation": "Hard Mode",
+        "note": "PSP CONFIG mode record ds.psp.config_menu.r000037."
+      }
+    }
+  }
+}
+

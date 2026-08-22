@@ -17,6 +17,10 @@ if __package__ in {None, ""}:
         sys.path.insert(0, root)
 
 from psp.font.util.metrics import build_title_help_metrics, metric_bytes
+from psp.font.util.config_menu import (
+    CONFIG_PATH as CONFIG_FONT16_PATH,
+    build_config_font16,
+)
 from psp.font.util.title_help import (
     CONFIG_PATH as FONT16_CONFIG_PATH,
     build_title_help_font16,
@@ -30,7 +34,7 @@ from psp.text.util.assets import TITLE_ASSET_PATH
 FONT_ROOT = Path(__file__).resolve().parent
 OUTPUT_PATH = FONT_ROOT / "generated" / "game" / "title_help_metrics.json"
 DATAPACK_PATH = FONT_ROOT / "generated" / "game" / "datapack.bin"
-MANIFEST_PATH = FONT_ROOT / "generated" / "game" / "title_help_font16.json"
+MANIFEST_PATH = FONT_ROOT / "generated" / "game" / "psp.fonts.json"
 
 
 def publish(path: Path, data: bytes, *, check: bool) -> None:
@@ -64,7 +68,7 @@ def _sha(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
-def build_title_help(*, check: bool) -> None:
+def build_fonts(*, check: bool) -> None:
     metrics = build_title_help_metrics()
     metrics_data = metric_bytes(metrics)
     disc = load_catalog()["game"]
@@ -79,13 +83,16 @@ def build_title_help(*, check: bool) -> None:
         or _sha(source) != contract.sha256
     ):
         raise ValueError("PSP datapack disc contract changed")
-    result = build_title_help_font16(source, config)
+    title_result = build_title_help_font16(source, config)
+    result = build_config_font16(source, title_result)
     manifest = {
         "version": 1,
-        "surface": "title_help.font16",
+        "surface": "psp.fonts",
+        "components": ["title_help.font16", "config_menu.font16"],
         "inputs": {
             "asset_sha256": _sha(TITLE_ASSET_PATH.read_bytes()),
             "config_sha256": _sha(FONT16_CONFIG_PATH.read_bytes()),
+            "config_menu_config_sha256": _sha(CONFIG_FONT16_PATH.read_bytes()),
             "metrics_sha256": _sha(metrics_data),
             "source_sha256": _sha(source),
         },
@@ -94,14 +101,21 @@ def build_title_help(*, check: bool) -> None:
             "size": len(result.data),
             "sha256": _sha(result.data),
         },
-        "member": {
-            "index": config.member_index,
-            "size": len(result.member),
-            "sha256": _sha(result.member),
-        },
+        "changed_members": [9, 15],
         "changed_byte_count": result.changed_byte_count,
-        "changed_codes": [f"0x{code:04x}" for code in result.changed_codes],
-        "advances": dict(result.advances),
+        "config_menu": {
+            "required_draw_code_limit": result.required_limit,
+            "ark16_advance_first_code": 0x0672,
+            "ark16_advance_table": list(result.advance_table),
+            "ark12": [
+                {"character": character, "code": code, "advance": advance}
+                for character, code, advance in result.ark12
+            ],
+            "ark16": [
+                {"character": character, "code": code, "advance": advance}
+                for character, code, advance in result.ark16
+            ],
+        },
     }
     manifest_data = (
         json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
@@ -118,14 +132,14 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "target",
-        choices=("title_help", "all"),
+        choices=("all",),
         nargs="?",
         default="all",
     )
     parser.add_argument("--check", action="store_true")
     arguments = parser.parse_args()
     try:
-        build_title_help(check=arguments.check)
+        build_fonts(check=arguments.check)
     except (KeyError, OSError, TypeError, ValueError) as error:
         parser.error(str(error))
 
