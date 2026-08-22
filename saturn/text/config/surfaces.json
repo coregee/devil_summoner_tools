@@ -1,6 +1,62 @@
 {
   "version": 1,
   "surfaces": {
+    "field.elevator_floor": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {"unit": "glyph_cells", "value": 4},
+        "glyphs": 4
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {"unit": "pixels", "value": 64},
+        "glyphs": 4
+      }
+    },
+    "title.press_start": {
+      "ja": {
+        "font": "title_prompt",
+        "rows": 1,
+        "width": {"unit": "pixels", "value": 256},
+        "glyphs": 16
+      },
+      "en": {
+        "font": "title_prompt",
+        "rows": 1,
+        "width": {"unit": "pixels", "value": 256},
+        "glyphs": 16
+      }
+    },
+    "title.menu_start": {
+      "ja": {
+        "font": "title_menu",
+        "rows": 1,
+        "width": {"unit": "pixels", "value": 80},
+        "glyphs": 5
+      },
+      "en": {
+        "font": "title_menu",
+        "rows": 1,
+        "width": {"unit": "pixels", "value": 80},
+        "glyphs": 5
+      }
+    },
+    "title.menu_option": {
+      "ja": {
+        "font": "title_menu",
+        "rows": 1,
+        "width": {"unit": "pixels", "value": 88},
+        "glyphs": 6
+      },
+      "en": {
+        "font": "title_menu",
+        "rows": 1,
+        "width": {"unit": "pixels", "value": 88},
+        "glyphs": 6
+      }
+    },
     "credits.main_name": {
       "ja": {
         "font": "font16",
@@ -1457,6 +1513,10 @@
         "width": {
           "unit": "pixels",
           "value": 150
+        },
+        "advisory_width": {
+          "unit": "pixels",
+          "value": 142
         }
       }
     },
@@ -2091,6 +2151,44 @@
         "width": {
           "unit": "pixels",
           "value": 320
+        }
+      }
+    },
+    "compendium.status_base_label": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 1
+        },
+        "glyphs": 1
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 16
+        }
+      }
+    },
+    "compendium.status_derived_label": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 4
+        },
+        "glyphs": 4
+      },
+      "en": {
+        "font": "font8",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 64
         }
       }
     },

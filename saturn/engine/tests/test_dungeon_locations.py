@@ -19,6 +19,8 @@ from engine.surfaces.dungeon_locations import (  # noqa: E402
     MAZE_TARGET,
     PRIMARY_TARGETS,
     _configuration,
+    _elevator_format,
+    _font16_metrics,
     _location_text,
     _marker_text,
     _mirror_text,
@@ -28,11 +30,11 @@ from engine.surfaces.dungeon_locations import (  # noqa: E402
 
 
 MAIN_OUTPUT_SHA256 = {
-    MAZE_TARGET: "9e3b197ece3556a573c6078e09a9a8f3550647f6d7b51b741cccde14364a615a",
+    MAZE_TARGET: "7f85c7dd54c89d403b33aed18db627cb0ec1666f74283438e4fe6d8cc82a7a7d",
     AUTOMAP_TARGET: "d57132654f52e413e0643839919088c5a6534f8ad09be534800964cc2bff4023",
 }
 RUNTIME_SHA256 = {
-    MAZE_TARGET: "38031bea58c6798944515bad3b1fdb7bb195cd9fd8f075aa339165b784e00820",
+    MAZE_TARGET: "c3d082bc146ee7b5332ee3f157528191491a9394b2542317d94cb6c461a5038d",
     AUTOMAP_TARGET: "bf288f8cb05ceb6905c45f8cbdf86df688d06f564f57994d1f6dc3eb451e1fec",
 }
 MIRROR_CATALOGS = {
@@ -88,7 +90,7 @@ class DungeonLocationEngineTests(unittest.TestCase):
         )
         self.assertEqual(
             {target: len(self.build.runtime_used[target]) for target in PRIMARY_TARGETS},
-            {MAZE_TARGET: 8524, AUTOMAP_TARGET: 9296},
+            {MAZE_TARGET: 8728, AUTOMAP_TARGET: 9296},
         )
         self.assertEqual(
             {target: len(self.build.labels[target]) for target in PRIMARY_TARGETS},
@@ -117,7 +119,7 @@ class DungeonLocationEngineTests(unittest.TestCase):
         self.assertEqual(document["version"], 2)
         self.assertEqual(document["surface"], "dungeon.locations")
         self.assertEqual(len(document["targets"]), 117)
-        self.assertEqual(len(rows), 301)
+        self.assertEqual(len(rows), 302)
         self.assertNotIn('"replacement"', source)
         self.assertEqual(
             {
@@ -133,7 +135,7 @@ class DungeonLocationEngineTests(unittest.TestCase):
             {
                 "assembly": 4,
                 "generated": 290,
-                "linked_pointer": 7,
+                "linked_pointer": 8,
                 "instruction": 0,
                 "pointer": 0,
             },
@@ -170,6 +172,7 @@ class DungeonLocationEngineTests(unittest.TestCase):
             },
             {
                 "asm/dungeon_locations/automap_wrapper.s",
+                "asm/dungeon_locations/elevator_surface.s",
                 "asm/dungeon_locations/floor_compositor.s",
                 "asm/dungeon_locations/floor_hook.s",
                 "asm/dungeon_locations/marker_ui.s",
@@ -186,6 +189,52 @@ class DungeonLocationEngineTests(unittest.TestCase):
         self.assertIn("CODE_SUFFIX", compositor_source)
         self.assertNotIn("CODE_B", compositor_source)
         self.assertNotIn("CODE_F", compositor_source)
+
+    def test_elevator_owns_a_distinct_vwf_format_and_drawer_link(self) -> None:
+        asset = json.loads(
+            (
+                ENGINE_ROOT.parents[1]
+                / "assets"
+                / "text"
+                / "field"
+                / "elevator.json"
+            ).read_text(encoding="utf-8")
+        )
+        entries = asset["entries"]
+        self.assertEqual(entries["lower_symbol"]["text"]["translation"], "B")
+        self.assertEqual(entries["floor_symbol"]["text"]["translation"], "F")
+        self.assertEqual(
+            entries["floor_definition"]["text"]["translation"],
+            "{lower_symbol}{floor_number}{floor_symbol}",
+        )
+        pointer = next(
+            patch
+            for patch in self.build.patches[MAZE_TARGET]
+            if patch.name == "elevator_drawer_pointer"
+        )
+        self.assertEqual(pointer.address, 0x0603CFC4)
+        self.assertEqual(pointer.expected, bytes.fromhex("0603fcfc"))
+        entry = int.from_bytes(pointer.replacement, "big")
+        self.assertTrue(0x06020400 <= entry < 0x06022800)
+
+        source = (
+            ENGINE_ROOT / "asm" / "dungeon_locations" / "elevator_surface.s"
+        ).read_text(encoding="utf-8")
+        self.assertIn("ELEVATOR_CODE_LOWER", source)
+        self.assertIn("ELEVATOR_CODE_FLOOR", source)
+        self.assertIn("ELEVATOR_PART_0", source)
+
+        values = {
+            "lower_symbol": "B",
+            "floor_symbol": "F",
+            "floor_definition": "{floor_symbol}{floor_number}{lower_symbol}",
+        }
+        with patch(
+            "engine.surfaces.dungeon_locations._surface_text",
+            side_effect=lambda _asset, entry: values[entry],
+        ):
+            reordered = _elevator_format(_font16_metrics())
+        self.assertEqual(reordered.parts, (3, 2, 1))
 
     def test_tables_use_selectors_without_overwriting_floor_metadata(self) -> None:
         for target in PRIMARY_TARGETS:

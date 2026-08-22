@@ -135,7 +135,7 @@ class MazeBuildIntegrationTests(unittest.TestCase):
 
         self.assertEqual(self.location_manifest["surface"], "dungeon.locations")
         self.assertEqual(self.location_manifest["targets"], 117)
-        self.assertEqual(self.location_manifest["patches"], 301)
+        self.assertEqual(self.location_manifest["patches"], 302)
         self.assertEqual(
             set(self.location_manifest["outputs"]), set(self.config.targets)
         )

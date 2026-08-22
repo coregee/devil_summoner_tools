@@ -68,7 +68,7 @@ class CompendiumCodecTests(unittest.TestCase):
                 self.assertNotEqual(glyph, bytes(8))
 
     def test_inventory_has_only_two_unknown_rows_and_three_blanks(self) -> None:
-        self.assertEqual(len(self.translations), 1600)
+        self.assertEqual(len(self.translations), 1612)
         self.assertEqual(
             self.unresolved,
             {
@@ -191,6 +191,30 @@ class CompendiumCodecTests(unittest.TestCase):
                     value, self.codec, capacities, self.advances, pixels
                 )
                 self.assertEqual(" ".join(rows), value)
+
+    def test_compendium_status_labels_fit_their_two_blitter_paths(self) -> None:
+        base = {
+            key: value
+            for key, value in self.translations.items()
+            if key.startswith("compendium.status_base_labels.")
+        }
+        derived = {
+            key: value
+            for key, value in self.translations.items()
+            if key.startswith("compendium.status_derived_labels.")
+        }
+        self.assertEqual(len(base), 6)
+        self.assertEqual(len(derived), 6)
+        for value in base.values():
+            self.assertLessEqual(
+                sum(self.advances[character] for character in value), 16
+            )
+        for value in derived.values():
+            self.assertLessEqual(
+                sum(self.advances[character] for character in value), 64
+            )
+            encoded = self.codec.encode_row(value, 4)
+            self.assertEqual(self.codec.decode_row(encoded), value)
 
 
 if __name__ == "__main__":

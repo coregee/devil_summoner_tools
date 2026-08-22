@@ -1759,7 +1759,7 @@
       "path": "A_DIC.BIN",
       "size": 472172,
       "stock_sha256": "0edd01f270b6500dc6fafc5e71202c11dcc2cceea605cec9057e4ffb5966314c",
-      "owned_sha256": "a4c19bb592fb36699da3658cd71e06e9ae5b81b1f28eade511702dee315fed5b"
+      "owned_sha256": "c4b8f817c95ac80014e17910bb5e137981906e789418bd42c7024af00c54adf5"
     }
   },
   "sources": [
@@ -2262,6 +2262,58 @@
             "name": "text",
             "offset": "0x0",
             "units": 40,
+            "source_encoding": "compendium_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "status_base_labels",
+      "corpus": "fixed/status_base_labels.json",
+      "container": {
+        "type": "fixed_records",
+        "file": "a_dic",
+        "blocks": [
+          {
+            "base": "0x69a70",
+            "count": 6,
+            "stride": "0x2"
+          }
+        ],
+        "fields": [
+          {
+            "name": "text",
+            "offset": "0x0",
+            "units": 1,
+            "source_encoding": "compendium_font16_plain_skip",
+            "framing": {
+              "type": "none"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "status_derived_labels",
+      "corpus": "fixed/status_derived_labels.json",
+      "container": {
+        "type": "fixed_records",
+        "file": "a_dic",
+        "blocks": [
+          {
+            "base": "0x69b16",
+            "count": 6,
+            "stride": "0x8"
+          }
+        ],
+        "fields": [
+          {
+            "name": "text",
+            "offset": "0x0",
+            "units": 4,
             "source_encoding": "compendium_font16_plain_skip",
             "framing": {
               "type": "none"

@@ -53,6 +53,51 @@ class ActualCorpusTests(unittest.TestCase):
         self.assertTrue(result["surfaces"][0]["exact"])
         self.assertTrue(result["preview"]["data_url"].startswith("data:image/png"))
 
+    def test_each_bound_surface_has_its_own_preview(self) -> None:
+        entry = self.application.catalog.entry("battle/commands.json#go.name")
+        result = self.application.evaluate(
+            entry["id"], entry["translation"], entry["font8_alphabet"]
+        )
+        self.assertEqual(
+            [surface["name"] for surface in result["surfaces"]],
+            ["battle.command", "status.auto_command"],
+        )
+        for surface in result["surfaces"]:
+            self.assertEqual(surface["preview"]["surface"], surface["name"])
+            self.assertTrue(surface["preview"]["data_url"].startswith("data:image/png"))
+
+    def test_negotiation_grid_choice_uses_a_non_blocking_width_advisory(self) -> None:
+        entry_id = "negotiation/feral.json#dialogue_0207.text"
+        entry = self.application.catalog.entry(entry_id)
+        self.assertEqual(
+            {consumer["surface"] for consumer in entry["consumers"]},
+            {"battle.negotiation_choice"},
+        )
+
+        boundary = self.application.evaluate(
+            entry_id, "Because it will be convenie"
+        )
+        self.assertEqual(boundary["surfaces"][0]["lines"][0]["width"], 142)
+        self.assertNotIn(
+            "advisory_line_width",
+            {diagnostic["code"] for diagnostic in boundary["diagnostics"]},
+        )
+
+        overflow = self.application.evaluate(
+            entry_id, "Because it will be convenient"
+        )
+        self.assertTrue(overflow["valid"])
+        self.assertEqual(overflow["surfaces"][0]["lines"][0]["width"], 153)
+        diagnostic = next(
+            row
+            for row in overflow["diagnostics"]
+            if row["code"] == "advisory_line_width"
+        )
+        self.assertEqual(
+            (diagnostic["severity"], diagnostic["actual"], diagnostic["limit"]),
+            ("warning", 153, 142),
+        )
+
     def test_overlong_unbroken_dialogue_is_rejected(self) -> None:
         result = self.application.evaluate(self.entry_id, "W" * 90)
         self.assertFalse(result["valid"])
@@ -109,6 +154,8 @@ class ActualCorpusTests(unittest.TestCase):
                 "FONT8 - Menu Text (8px Source)",
                 "KANJI - Name Entry Grid Text (16px Source)",
                 "FONT16 2nd - Compendium Text",
+                "TITLE Prompt - PRESS START BUTTON Raster",
+                "TITLE Menu - START / OPTION Raster",
             },
         )
         self.assertEqual(len(psp_rows), 12)
@@ -117,6 +164,55 @@ class ActualCorpusTests(unittest.TestCase):
             {row["id"] for row in psp_rows if row["confidence"] == "runtime_proven"},
             {"psp/eve_kanji_dialogue", "psp/datapack_font16_pages"},
         )
+
+    def test_title_visual_fonts_expose_the_proved_positional_runs(self) -> None:
+        prompt = self.application.fonts.detail("game/title_prompt")
+        menu = self.application.fonts.detail("game/title_menu")
+
+        self.assertEqual(prompt["slot_page"]["physical"], 16)
+        self.assertEqual(
+            "".join(slot["source_value"] for slot in prompt["slots"]),
+            "PRESSSTARTBUTTON",
+        )
+        self.assertEqual(prompt["surfaces"], ["title.press_start"])
+        self.assertFalse(prompt["can_import"])
+        self.assertFalse(prompt["can_rebuild"])
+
+        self.assertEqual(menu["slot_page"]["physical"], 11)
+        self.assertEqual(
+            "".join(slot["source_value"] for slot in menu["slots"]),
+            "STARTOPTION",
+        )
+        self.assertEqual(menu["slots"][8]["record_width"], 8)
+        self.assertEqual(
+            menu["surfaces"], ["title.menu_start", "title.menu_option"]
+        )
+
+    def test_title_text_surfaces_preview_with_visual_rasters(self) -> None:
+        for entry_id, surface_name in (
+            ("ui/title.json#press_start_button.text", "title.press_start"),
+            ("ui/title.json#start.text", "title.menu_start"),
+            ("ui/title.json#option.text", "title.menu_option"),
+        ):
+            entry = self.application.catalog.entry(entry_id)
+            result = self.application.evaluate(entry_id, entry["translation"])
+            preview = result["surfaces"][0]["preview"]
+            self.assertEqual(preview["surface"], surface_name)
+            self.assertEqual(preview["fidelity"], "exact-visual-font")
+            self.assertTrue(preview["data_url"].startswith("data:image/png"))
+
+    def test_title_visual_font_generation_is_explicitly_locked(self) -> None:
+        with self.assertRaisesRegex(ValueError, "profile-specific"):
+            self.application.fonts.update_plan("game/title_prompt")
+
+    def test_elevator_definition_previews_the_composed_floor_label(self) -> None:
+        entry = self.application.catalog.entry(
+            "field/elevator.json#floor_definition.text"
+        )
+        result = self.application.evaluate(entry["id"], entry["translation"])
+        self.assertTrue(result["valid"])
+        self.assertEqual(result["surfaces"][0]["name"], "field.elevator_floor")
+        self.assertEqual(result["surfaces"][0]["lines"], [{"text": "B1F", "width": 20}])
 
     def test_font8_alphabet_is_owned_by_each_corpus_field(self) -> None:
         command = self.application.catalog.entry(
@@ -415,6 +511,23 @@ class SavingTests(unittest.TestCase):
             result["entry"]["file_hash"],
             hashlib.sha256(self.asset_path.read_bytes()).hexdigest(),
         )
+
+    def test_entry_browser_reports_and_filters_by_surface(self) -> None:
+        result = self.application.catalog.list_entries(
+            surface="event.dialogue"
+        )
+        self.assertEqual(result["total"], 1)
+        self.assertEqual(result["matching_total"], 1)
+        self.assertEqual(
+            result["surface_counts"],
+            [{"name": "event.dialogue", "count": 1}],
+        )
+        self.assertEqual(result["entries"][0]["id"], self.entry_id)
+
+        other = self.application.catalog.list_entries(surface="battle.command")
+        self.assertEqual(other["total"], 0)
+        self.assertEqual(other["matching_total"], 1)
+        self.assertEqual(other["surface_counts"], result["surface_counts"])
 
     def test_font8_alphabet_defaults_to_replaced_and_can_be_saved(self) -> None:
         before = self.application.catalog.entry(self.entry_id)

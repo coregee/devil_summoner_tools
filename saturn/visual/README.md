@@ -74,6 +74,14 @@ The exceptional game layouts are declared in `util/special_views.json`:
   palettes. Changed overlays are quantized back into those palette budgets,
   including transparent and opaque black handling.
 
+`TITLE.BIN` also contains two contiguous positional glyph runs. The visual
+catalogue extracts sixteen 16x12 records spelling `PRESS START BUTTON` and
+eleven 16/8x9 records spelling `START` plus `OPTION`. The translation editor
+exposes these runs as the read-only `TITLE Prompt` and `TITLE Menu` Saturn
+fonts. Every physical position is mapped, but only ten and eight distinct
+capital letters respectively exist in the source; there is no unused alphabet
+storage in these spans.
+
 Structural and byte-for-byte checks do not establish in-game presentation.
 Changed title, save/load, TEX3D, profile, and compendium warning screens still
 need emulator or hardware review after building the relevant disc.

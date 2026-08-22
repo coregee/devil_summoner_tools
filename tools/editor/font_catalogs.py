@@ -8,20 +8,28 @@ from .catalog import CorpusCatalog
 from .fonts import FontService as SaturnFontService
 from .languages import LanguageService
 from .psp_fonts import PspFontService
+from .visual_fonts import VisualFontService
 
 
 class FontCatalogService:
     def __init__(self, corpus: CorpusCatalog, languages: LanguageService) -> None:
         self.saturn = SaturnFontService(corpus, languages)
+        self.visual = VisualFontService(corpus, languages)
         self.psp = PspFontService(languages)
 
     def _service(self, font_id: str) -> Any:
+        if self.visual.handles(font_id):
+            return self.visual
         return self.psp if font_id.startswith("psp/") else self.saturn
 
     def inventory(self, language_id: str = "en") -> dict[str, Any]:
         saturn = self.saturn.inventory(language_id)
+        visual = self.visual.inventory(language_id)
         psp = self.psp.inventory(language_id)
-        return {"fonts": saturn["fonts"] + psp["fonts"], "language": language_id}
+        return {
+            "fonts": saturn["fonts"] + visual["fonts"] + psp["fonts"],
+            "language": language_id,
+        }
 
     def detail(self, font_id: str, *args: Any, **kwargs: Any) -> dict[str, Any]:
         return self._service(font_id).detail(font_id, *args, **kwargs)
@@ -40,4 +48,3 @@ class FontCatalogService:
 
     def remap(self, font_id: str, *args: Any, **kwargs: Any) -> dict[str, Any]:
         return self._service(font_id).remap(font_id, *args, **kwargs)
-

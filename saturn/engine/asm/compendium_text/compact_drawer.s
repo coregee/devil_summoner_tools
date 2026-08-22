@@ -285,3 +285,97 @@ compact_emit_next:
     rts
     nop
     .pool
+
+compact_stat_draw:
+    mov.l   =STAT_SOURCE_CODES, r1
+    mov     #0, r2
+    mov     #6, r3
+compact_stat_find:
+    mov.w   @r1+, r0
+    extu.w  r0, r0
+    cmp/eq  r4, r0
+    bt      compact_stat_begin
+    add     #1, r2
+    dt      r3
+    bf      compact_stat_find
+    mov.l   =ORIGINAL_GLYPH_DRAW, r1
+    jmp     @r1
+    nop
+    .pool
+
+compact_stat_begin:
+    mov.l   r8, @-r15
+    mov.l   r9, @-r15
+    mov.l   r10, @-r15
+    mov.l   r11, @-r15
+    mov.l   r12, @-r15
+    mov.l   r13, @-r15
+    mov.l   r14, @-r15
+    sts.l   pr, @-r15
+    mov     r5, r9
+    mov     r6, r10
+    mov     r7, r11
+
+    mov.l   =FONT_BASE, r4
+    mov.l   =SAVED_FONT, r5
+    mov     #8, r6
+compact_stat_save_font:
+    mov.l   @r4+, r0
+    mov.l   r0, @r5
+    add     #4, r5
+    dt      r6
+    bf      compact_stat_save_font
+
+    mov     r2, r0
+    shll2   r0
+    shll2   r0
+    shll    r0
+    mov.l   =STAT_BITMAPS, r4
+    add     r0, r4
+    mov.l   =FONT_BASE, r5
+    mov     #8, r6
+compact_stat_install_font:
+    mov.l   @r4+, r0
+    mov.l   r0, @r5
+    add     #4, r5
+    dt      r6
+    bf      compact_stat_install_font
+
+    mov     r15, r14
+    add     #32, r14
+    mov.l   @(4,r14), r0
+    mov.l   r0, @-r15
+    mov.l   @r14, r0
+    mov.l   r0, @-r15
+    mov     #0, r4
+    mov     r9, r5
+    mov     r10, r6
+    mov     r11, r7
+    mov.l   =ORIGINAL_GLYPH_DRAW, r1
+    jsr     @r1
+    nop
+    add     #8, r15
+    mov.l   r0, @-r15
+
+    mov.l   =SAVED_FONT, r4
+    mov.l   =FONT_BASE, r5
+    mov     #8, r6
+compact_stat_restore_font:
+    mov.l   @r4+, r0
+    mov.l   r0, @r5
+    add     #4, r5
+    dt      r6
+    bf      compact_stat_restore_font
+
+    mov.l   @r15+, r0
+    lds.l   @r15+, pr
+    mov.l   @r15+, r14
+    mov.l   @r15+, r13
+    mov.l   @r15+, r12
+    mov.l   @r15+, r11
+    mov.l   @r15+, r10
+    mov.l   @r15+, r9
+    mov.l   @r15+, r8
+    rts
+    nop
+    .pool

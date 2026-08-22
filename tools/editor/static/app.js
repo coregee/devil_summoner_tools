@@ -1,7 +1,11 @@
 const state = {
   rows: [],
+  surfaceCounts: [],
+  browserSurface: null,
+  matchingTotal: 0,
   selected: null,
   evaluation: null,
+  entryRequest: null,
   queryTimer: null,
   evaluationTimer: null,
   evaluationRequest: null,
@@ -22,6 +26,7 @@ const elements = {
   search: $("search"),
   resultCount: $("result-count"),
   resultNote: $("result-note"),
+  surfaceList: $("surface-list"),
   entryList: $("entry-list"),
   emptyState: $("empty-state"),
   editorContent: $("editor-content"),
@@ -38,6 +43,7 @@ const elements = {
   discard: $("discard"),
   save: $("save"),
   surfaceSelect: $("surface-select"),
+  previewTitle: $("preview-title"),
   previewImage: $("preview-image"),
   previewEmpty: $("preview-empty"),
   fontFact: $("font-fact"),
@@ -142,19 +148,80 @@ function glyphMappingLabel(slot) {
   return `${source} / ${glyphValueLabel(slot.replacement)}`;
 }
 
+function words(value) {
+  return value.replaceAll("_", " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
+}
+
+function surfaceLabel(value) {
+  if (value === "__unmapped__") return "Unmapped";
+  const detail = value.split(".").slice(1).join(" / ");
+  return words(detail || value);
+}
+
 async function loadEntries() {
   const query = encodeURIComponent(elements.search.value.trim());
+  const surface = state.browserSurface === null
+    ? ""
+    : `&surface=${encodeURIComponent(state.browserSurface)}`;
+  state.entryRequest?.abort();
+  state.entryRequest = new AbortController();
   try {
-    const data = await requestJson(`/api/entries?q=${query}&limit=300`);
+    const data = await requestJson(`/api/entries?q=${query}&limit=300${surface}`, {
+      signal: state.entryRequest.signal,
+    });
     state.rows = data.entries;
+    state.surfaceCounts = data.surface_counts;
+    state.matchingTotal = data.matching_total;
     elements.corpusState.textContent = "Corpus ready";
     elements.resultCount.textContent = `${data.total.toLocaleString()} fields`;
     elements.resultNote.textContent = data.limited ? "showing first 300" : "";
+    renderSurfaceList();
     renderEntries();
   } catch (error) {
+    if (error.name === "AbortError") return;
     elements.corpusState.textContent = "Corpus unavailable";
     showToast(error.message, true);
   }
+}
+
+function renderSurfaceList() {
+  const fragment = document.createDocumentFragment();
+  const all = document.createElement("button");
+  all.type = "button";
+  all.className = `surface-button surface-all${state.browserSurface === null ? " active" : ""}`;
+  all.innerHTML = `<span>All surfaces</span><small>${state.matchingTotal.toLocaleString()}</small>`;
+  all.addEventListener("click", () => selectBrowserSurface(null));
+  fragment.append(all);
+
+  let namespace = null;
+  for (const row of state.surfaceCounts) {
+    const nextNamespace = row.name === "__unmapped__" ? "Other" : words(row.name.split(".", 1)[0]);
+    if (nextNamespace !== namespace) {
+      namespace = nextNamespace;
+      const heading = document.createElement("p");
+      heading.className = "surface-group";
+      heading.textContent = namespace;
+      fragment.append(heading);
+    }
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = `surface-button${state.browserSurface === row.name ? " active" : ""}`;
+    button.title = row.name === "__unmapped__" ? "Fields without a mapped game surface" : row.name;
+    const label = document.createElement("span");
+    label.textContent = surfaceLabel(row.name);
+    const count = document.createElement("small");
+    count.textContent = row.count.toLocaleString();
+    button.append(label, count);
+    button.addEventListener("click", () => selectBrowserSurface(row.name));
+    fragment.append(button);
+  }
+  elements.surfaceList.replaceChildren(fragment);
+}
+
+function selectBrowserSurface(surface) {
+  if (state.browserSurface === surface) return;
+  state.browserSurface = surface;
+  loadEntries();
 }
 
 function renderEntries() {
@@ -275,7 +342,11 @@ function renderEvaluation() {
     return card;
   }));
 
-  const selectedSurface = elements.surfaceSelect.value;
+  const selectedSurface = (
+    state.browserSurface
+    && state.browserSurface !== "__unmapped__"
+    && evaluation.surfaces.some((surface) => surface.name === state.browserSurface)
+  ) ? state.browserSurface : elements.surfaceSelect.value;
   elements.surfaceSelect.replaceChildren(...evaluation.surfaces.map((surface) => {
     const option = document.createElement("option");
     option.value = surface.name;
@@ -291,7 +362,7 @@ function renderEvaluation() {
 function renderSurface() {
   const surface = state.evaluation?.surfaces.find((row) => row.name === elements.surfaceSelect.value)
     || state.evaluation?.surfaces[0];
-  const preview = state.evaluation?.preview;
+  const preview = surface?.preview || state.evaluation?.preview;
   if (!surface) {
     elements.previewImage.hidden = true;
     elements.previewEmpty.hidden = false;
@@ -300,11 +371,16 @@ function renderSurface() {
     elements.fidelityFact.textContent = "Fidelity —";
     return;
   }
-  elements.previewTitle = surface.name;
+  elements.previewTitle.textContent = surface.name;
   elements.fontFact.textContent = `Font ${surface.font?.toUpperCase() || "unknown"}`;
   const width = surface.width.value ? `${surface.width.value} ${surface.width.unit === "pixels" ? "px" : "cells"}` : "unknown width";
-  elements.geometryFact.textContent = `${surface.rows || "?"} rows · ${width}`;
-  elements.fidelityFact.textContent = surface.exact ? "Exact wrapping" : "Measured surface";
+  const advisory = surface.advisory_width?.value
+    ? ` · warn after ${surface.advisory_width.value} ${surface.advisory_width.unit === "pixels" ? "px" : "cells"}`
+    : "";
+  elements.geometryFact.textContent = `${surface.rows || "?"} rows · ${width}${advisory}`;
+  elements.fidelityFact.textContent = preview?.fidelity === "exact-visual-font"
+    ? "Exact visual raster"
+    : surface.exact ? "Exact wrapping" : "Measured surface";
   if (preview && preview.surface === surface.name) {
     elements.previewImage.src = preview.data_url;
     elements.previewImage.hidden = false;
@@ -312,6 +388,7 @@ function renderSurface() {
   } else {
     elements.previewImage.hidden = true;
     elements.previewEmpty.hidden = false;
+    elements.previewEmpty.textContent = `Preview unavailable for ${surface.name}.`;
   }
 }
 

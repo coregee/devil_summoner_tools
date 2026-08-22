@@ -11,6 +11,12 @@ The editor binds only to `127.0.0.1`, opens the canonical text assets under
 `assets/text`, traces their Saturn consumer bindings, and validates proposed
 translations before saving them. Known hard validation failures block writes.
 Unknown surface measurements remain visible without being treated as success.
+The text workspace is organised by game surface: selecting a surface filters
+the editable fields to that context, and fields shared by several surfaces can
+switch between a separate live preview for each one. Preview geometry converts
+cell-based contracts to the selected font's physical pixels and row height.
+The title surfaces use their positional `TITLE.BIN` rasters over the actual
+title artwork rather than a generic text box.
 
 The **Fonts** workspace exposes the Saturn text fonts and all catalogued PSP
 font resources, their runtime cell formats, source typefaces, confidence and
@@ -20,6 +26,13 @@ part of the comprehensive physical audit. Original and generated atlases are sho
 side by side so typeface style and bitmap placement can be reviewed visually.
 Each font uses a descriptive interface name rather than relying on its disc
 filename alone.
+
+The Saturn list also includes the two visual-owned `TITLE.BIN` glyph runs used
+by `PRESS START BUTTON`, `START`, and `OPTION`. They are presented as read-only
+fonts because they are positional RGB555 image records, not `.FON` resources.
+Their checked stock mappings and individual glyph images can be audited in the
+same workspace; profile-specific generation remains locked until the title
+renderer can publish translated positional runs safely.
 
 The glyph inventory pages through every physical cell, including stock,
 replaceable, and previously unmapped cells. Values from checked definitions

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "lower_symbol": {
+      "text": {
+        "reference": "地下",
+        "translation": "B",
+        "surfaces": [
+          "field.elevator_floor"
+        ],
+        "note": "Conditional symbol used only for floors below ground level. The Saturn elevator VWF currently requires one translated FONT16 glyph."
+      }
+    },
+    "floor_symbol": {
+      "text": {
+        "reference": "階",
+        "translation": "F",
+        "surfaces": [
+          "field.elevator_floor"
+        ],
+        "note": "Floor unit symbol used by the Saturn elevator VWF. The runtime currently requires one translated FONT16 glyph."
+      }
+    },
+    "floor_definition": {
+      "placeholders": {
+        "lower_symbol": "display_value",
+        "floor_number": "number",
+        "floor_symbol": "display_value"
+      },
+      "text": {
+        "reference": "{lower_symbol}{floor_number}{floor_symbol}",
+        "translation": "{lower_symbol}{floor_number}{floor_symbol}",
+        "surfaces": [
+          "field.elevator_floor"
+        ],
+        "note": "Complete elevator floor format. Each placeholder must occur once; lower_symbol is omitted automatically for above-ground floors. Placeholder order is editable."
+      }
+    }
+  }
+}

@@ -16,13 +16,29 @@ from saturn.font.util.codec import decode_glyph
 from saturn.font.util.definitions import load_definition
 from saturn.text.util.event_repack import FontMetrics, Glyph
 from saturn.text.util.surfaces import load_surfaces
-from saturn.text.util.tokens import Named, Raw, Text, parse_tokens, uppercase_text
+from saturn.text.util.tokens import (
+    Named,
+    Raw,
+    Text,
+    format_tokens,
+    parse_tokens,
+    uppercase_text,
+)
+from saturn.visual.util.catalog import (
+    TITLE_COPYRIGHT_ASSET,
+    TITLE_MENU_GLYPHS,
+    TITLE_PRESS_START_GLYPHS,
+)
+from saturn.visual.util.codec import decode as decode_visual
 
 from .catalog import PROJECT_ROOT, CorpusCatalog
 
 FONT_ROOT = PROJECT_ROOT / "saturn" / "font"
 FONT_CONFIG_ROOT = FONT_ROOT / "config" / "game"
 FONT_GENERATED_ROOT = FONT_ROOT / "generated" / "game"
+VISUAL_EXTRACTED_ROOT = PROJECT_ROOT / "saturn" / "visual" / "extracted" / "game"
+VISUAL_MODIFIED_ROOT = PROJECT_ROOT / "saturn" / "visual" / "modified" / "game"
+TITLE_BIN_PATH = PROJECT_ROOT / "saturn" / "rom" / "extracted" / "game" / "TITLE.BIN"
 
 
 @dataclass(frozen=True, slots=True)
@@ -73,6 +89,50 @@ class DraftEvaluator:
     @staticmethod
     def _explicit_lines(value: str) -> list[str]:
         return value.replace("{n}", "\n").split("\n")
+
+    @staticmethod
+    def _preview_placeholders(value: str, placeholders: dict[str, str]) -> str:
+        """Substitute stable examples for runtime values in surface previews."""
+
+        by_name = {
+            "lower_symbol": "B",
+            "floor_number": "1",
+            "floor_symbol": "F",
+        }
+        by_type = {
+            "character_name": "Name",
+            "alignment_label": "Neutral",
+            "battle_command": "Command",
+            "control_rank": "1",
+            "demon_name": "Demon",
+            "demon_race": "Race",
+            "difficulty_label": "Normal",
+            "display_value": "X",
+            "drink_name": "Drink",
+            "formatted_currency_amount": "1,000",
+            "item_name": "Item",
+            "location_name": "Location",
+            "number": "1",
+            "personality_label": "Type",
+            "player_codename": "Code",
+            "player_name": "Name",
+        }
+        output: list[str] = []
+        for token in parse_tokens(value):
+            if isinstance(token, Text):
+                output.append(token.value)
+            elif isinstance(token, Named) and token.name in placeholders:
+                output.append(
+                    by_name.get(
+                        token.name,
+                        by_type.get(placeholders[token.name], "X"),
+                    )
+                )
+            elif isinstance(token, Raw):
+                output.append(format_tokens((token,)))
+            else:
+                output.append(f"{{{token.name}}}")
+        return "".join(output)
 
     @staticmethod
     def _wrap(value: str, metrics: FontMetrics, limit: int) -> list[MeasuredLine]:
@@ -134,10 +194,13 @@ class DraftEvaluator:
 
         entry = self.catalog.entry(entry_id)
         alphabet = font8_alphabet or entry["font8_alphabet"]
+        preview_translation = self._preview_placeholders(
+            translation, entry["placeholders"]
+        )
         rendered_translation = (
-            uppercase_text(translation)
+            uppercase_text(preview_translation)
             if alphabet == "original"
-            else translation
+            else preview_translation
         )
         surface_names = sorted(
             {
@@ -196,7 +259,28 @@ class DraftEvaluator:
                 )
 
             limit = layout.width.value
-            if layout.width.unit == "pixels" and limit is not None:
+            advisory_limit = layout.advisory_width.value
+            if (
+                layout.advisory_width.unit == "pixels"
+                and advisory_limit is not None
+            ):
+                for index, line in enumerate(lines):
+                    if line.width is not None and line.width > advisory_limit:
+                        surface_diagnostics.append(
+                            {
+                                "severity": "warning",
+                                "code": "advisory_line_width",
+                                "message": (
+                                    f"Row {index + 1} uses {line.width}px; the "
+                                    f"recommended maximum is {advisory_limit}px."
+                                ),
+                                "surface": surface_name,
+                                "actual": line.width,
+                                "limit": advisory_limit,
+                                "unit": "pixels",
+                            }
+                        )
+            elif layout.width.unit == "pixels" and limit is not None:
                 for index, line in enumerate(lines):
                     if line.width is not None and line.width > limit:
                         surface_diagnostics.append(
@@ -260,27 +344,31 @@ class DraftEvaluator:
                     }
                 )
             diagnostics.extend(surface_diagnostics)
-            evaluations.append(
-                {
-                    "name": surface_name,
-                    "font": layout.font,
-                    "font8_alphabet": (
-                        alphabet if layout.font == "font8" else None
-                    ),
-                    "rows": layout.rows,
-                    "width": {"unit": layout.width.unit, "value": limit},
-                    "lines": [
-                        {"text": line.text, "width": line.width} for line in lines
-                    ],
-                    "pages": pages,
-                    "exact": exact_wrap
-                    or (
-                        surface_name == "shop.inventory_label"
-                        and surface_alphabet == "original"
-                    ),
-                    "diagnostics": surface_diagnostics,
-                }
-            )
+            evaluation = {
+                "name": surface_name,
+                "font": layout.font,
+                "font8_alphabet": (
+                    alphabet if layout.font == "font8" else None
+                ),
+                "rows": layout.rows,
+                "width": {"unit": layout.width.unit, "value": limit},
+                "advisory_width": {
+                    "unit": layout.advisory_width.unit,
+                    "value": advisory_limit,
+                },
+                "lines": [
+                    {"text": line.text, "width": line.width} for line in lines
+                ],
+                "pages": pages,
+                "exact": exact_wrap
+                or (
+                    surface_name == "shop.inventory_label"
+                    and surface_alphabet == "original"
+                ),
+                "diagnostics": surface_diagnostics,
+            }
+            evaluation["preview"] = self._preview(evaluation)
+            evaluations.append(evaluation)
 
         if not surface_names:
             diagnostics.append(
@@ -292,7 +380,9 @@ class DraftEvaluator:
                 }
             )
 
-        preview = self._preview(evaluations[0]) if evaluations else None
+        # Keep the top-level preview for older clients.  Surface-aware clients
+        # use the preview attached to each evaluation instead.
+        preview = evaluations[0]["preview"] if evaluations else None
         return {
             "valid": not any(row["severity"] == "error" for row in diagnostics),
             "diagnostics": diagnostics,
@@ -304,6 +394,8 @@ class DraftEvaluator:
         font = evaluation["font"]
         if font is None or not evaluation["lines"]:
             return None
+        if font in {"title_prompt", "title_menu"}:
+            return self._title_preview(evaluation)
         metrics = self._font_metrics(
             font, evaluation.get("font8_alphabet") or "replaced"
         )
@@ -316,10 +408,20 @@ class DraftEvaluator:
         image = Image.new("RGB", (352, 224), (7, 9, 12))
         draw = ImageDraw.Draw(image)
         is_event = evaluation["name"] == "event.dialogue"
-        width = evaluation["width"]["value"] or 300
+        width_value = evaluation["width"]["value"]
+        if width_value is None:
+            measured = [row["width"] for row in evaluation["lines"]]
+            width = max((value for value in measured if value is not None), default=300)
+        elif evaluation["width"]["unit"] == "glyph_cells":
+            width = width_value * definition.format.width
+        else:
+            width = width_value
+        width = max(definition.format.width, min(320, width))
+        line_height = definition.format.height
         rows = evaluation["rows"] or min(3, len(evaluation["lines"]))
+        rows = max(1, min(rows, 184 // line_height))
         box_width = min(332, width + 20)
-        box_height = max(32, rows * 16 + 20)
+        box_height = max(32, rows * line_height + 20)
         left = (352 - box_width) // 2
         top = 224 - box_height - 10 if is_event else (224 - box_height) // 2
         draw.rectangle(
@@ -336,14 +438,14 @@ class DraftEvaluator:
                 content_left,
                 content_top,
                 content_left + width - 1,
-                content_top + rows * 16 - 1,
+                content_top + rows * line_height - 1,
             ),
             outline=(51, 94, 82),
         )
         glyphs = metrics.by_text
         for row_index, row in enumerate(evaluation["lines"][:rows]):
             x = content_left
-            y = content_top + row_index * 16
+            y = content_top + row_index * line_height
             try:
                 tokens = parse_tokens(row["text"])
                 for token in tokens:
@@ -383,4 +485,85 @@ class DraftEvaluator:
             "height": 224,
             "surface": evaluation["name"],
             "fidelity": "exact-font" if evaluation["exact"] else "surface",
+        }
+
+    @staticmethod
+    def _visual_image(asset: Any) -> Image.Image | None:
+        for root in (VISUAL_MODIFIED_ROOT, VISUAL_EXTRACTED_ROOT):
+            path = root / asset.image
+            if path.is_file():
+                with Image.open(path) as opened:
+                    return opened.convert("RGB")
+        if TITLE_BIN_PATH.is_file() and asset.source == "TITLE.BIN":
+            return decode_visual(TITLE_BIN_PATH.read_bytes(), asset).convert("RGB")
+        return None
+
+    def _title_preview(self, evaluation: dict[str, Any]) -> dict[str, Any] | None:
+        background_path = VISUAL_MODIFIED_ROOT / "TITLE" / "full_title_screen.png"
+        if not background_path.is_file():
+            background_path = VISUAL_EXTRACTED_ROOT / "TITLE" / "full_title_screen.png"
+        if not background_path.is_file():
+            return None
+        with Image.open(background_path) as opened:
+            image = opened.convert("RGB")
+        if image.size != (352, 224):
+            image = image.resize((352, 224), Image.Resampling.NEAREST)
+
+        name = evaluation["name"]
+        if name == "title.press_start":
+            alphabet = "PRESSSTARTBUTTON"
+            assets = TITLE_PRESS_START_GLYPHS
+            text_rows = [(evaluation["lines"][0]["text"], 163)]
+            space = 8
+            copyright_image = self._visual_image(TITLE_COPYRIGHT_ASSET)
+            if copyright_image is not None:
+                image.paste(copyright_image, ((352 - copyright_image.width) // 2, 202))
+        else:
+            alphabet = "STARTOPTION"
+            assets = TITLE_MENU_GLYPHS
+            selected = evaluation["lines"][0]["text"]
+            text_rows = [
+                (selected if name == "title.menu_start" else "START", 163),
+                (selected if name == "title.menu_option" else "OPTION", 181),
+            ]
+            space = 8
+
+        glyphs: dict[str, Image.Image] = {}
+        for character, asset in zip(alphabet, assets, strict=True):
+            if character in glyphs:
+                continue
+            glyph = self._visual_image(asset)
+            if glyph is not None:
+                glyphs[character] = glyph
+
+        for text, y in text_rows:
+            pieces: list[Image.Image | None] = []
+            width = 0
+            for character in text.upper():
+                if character == " ":
+                    pieces.append(None)
+                    width += space
+                    continue
+                glyph = glyphs.get(character)
+                if glyph is None:
+                    return None
+                pieces.append(glyph)
+                width += glyph.width
+            x = (352 - width) // 2
+            for glyph in pieces:
+                if glyph is None:
+                    x += space
+                else:
+                    image.paste(glyph, (x, y))
+                    x += glyph.width
+
+        buffer = io.BytesIO()
+        image.save(buffer, format="PNG", optimize=True)
+        return {
+            "data_url": "data:image/png;base64,"
+            + base64.b64encode(buffer.getvalue()).decode("ascii"),
+            "width": 352,
+            "height": 224,
+            "surface": name,
+            "fidelity": "exact-visual-font",
         }

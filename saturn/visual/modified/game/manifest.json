@@ -47551,7 +47551,7 @@
       ]
     },
     {
-      "path": "TITLE/start_button/05_b.png",
+      "path": "TITLE/start_button/05_o.png",
       "layout": "identity",
       "width": 16,
       "height": 9,
@@ -47559,7 +47559,7 @@
       "targets": [
         {
           "source": "TITLE.BIN",
-          "image": "TITLE/start_button/05_b.png",
+          "image": "TITLE/start_button/05_o.png",
           "offset": 129828,
           "width": 16,
           "height": 9,
@@ -47571,7 +47571,7 @@
       ]
     },
     {
-      "path": "TITLE/start_button/06_u.png",
+      "path": "TITLE/start_button/06_p.png",
       "layout": "identity",
       "width": 16,
       "height": 9,
@@ -47579,7 +47579,7 @@
       "targets": [
         {
           "source": "TITLE.BIN",
-          "image": "TITLE/start_button/06_u.png",
+          "image": "TITLE/start_button/06_p.png",
           "offset": 130116,
           "width": 16,
           "height": 9,
@@ -47611,7 +47611,7 @@
       ]
     },
     {
-      "path": "TITLE/start_button/08_t.png",
+      "path": "TITLE/start_button/08_i.png",
       "layout": "identity",
       "width": 8,
       "height": 9,
@@ -47619,7 +47619,7 @@
       "targets": [
         {
           "source": "TITLE.BIN",
-          "image": "TITLE/start_button/08_t.png",
+          "image": "TITLE/start_button/08_i.png",
           "offset": 130692,
           "width": 8,
           "height": 9,

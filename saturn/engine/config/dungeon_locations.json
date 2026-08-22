@@ -604,7 +604,8 @@
           "expected_zero_bytes": 9216,
           "assembly": [
             "dungeon_locations/maze_wrapper.s",
-            "dungeon_locations/floor_compositor.s"
+            "dungeon_locations/floor_compositor.s",
+            "dungeon_locations/elevator_surface.s"
           ]
         },
         {
@@ -626,6 +627,12 @@
           "address": "0x0603fd34",
           "expected": "0603fea0",
           "linked_pointer": "name_wrapper"
+        },
+        {
+          "name": "elevator_drawer_pointer",
+          "address": "0x0603cfc4",
+          "expected": "0603fcfc",
+          "linked_pointer": "elevator_entry"
         },
         {
           "name": "location_table",

@@ -2,6 +2,8 @@
   "version": 1,
   "asset": "compendium/ui.json",
   "records": {
+    "compendium.status_derived_labels.o069b26.text": "defense.text",
+    "compendium.status_derived_labels.o069b3e.text": "magic_defense.text",
     "compendium.race_descriptions.o06c2ce.heading": "no_data_heading.text",
     "compendium.race_descriptions.o06c2e8.description": "blank_description.text",
     "compendium.race_descriptions.o06c4fe.heading": "no_data_heading.text",
@@ -21,6 +23,12 @@
     "compendium.fusion_help.o06db48.text": "black_maria.text"
   },
   "record_surfaces": {
+    "compendium.status_derived_labels.o069b26.text": [
+      "compendium.status_derived_label"
+    ],
+    "compendium.status_derived_labels.o069b3e.text": [
+      "compendium.status_derived_label"
+    ],
     "compendium.race_descriptions.o06c2ce.heading": [
       "compendium.race_description_heading"
     ],

@@ -23,9 +23,18 @@
     </header>
 
     <main id="translations-workspace" class="workspace">
+      <aside class="surface-browser" aria-label="Text surfaces">
+        <header>
+          <p class="kicker">Game context</p>
+          <h2>Surfaces</h2>
+          <p>Choose where the text appears. Counts include fields shared by more than one surface.</p>
+        </header>
+        <nav id="surface-list" class="surface-list" aria-label="Text surfaces"></nav>
+      </aside>
+
       <aside class="browser" aria-label="Translation fields">
         <label class="search">
-          <span>Search translations</span>
+          <span>Search this surface</span>
           <input id="search" type="search" placeholder="Dialogue, asset, reference…" autocomplete="off">
         </label>
         <div class="browser-summary">

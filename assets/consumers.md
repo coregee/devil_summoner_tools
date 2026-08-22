@@ -27,6 +27,16 @@ There is also the logo "悪魔召喚師" (literally Devil Summoner, in Japanese)
 
 The title screen itself is another image, displayed after a white flash transition. These three logos are pre-baked into it.
 
+The `PRESS START BUTTON` prompt and the selectable `START` / `OPTION` labels
+are separate from that baked screen. `TITLE.BIN` stores them as two contiguous
+runs of positional RGB555 glyph images: sixteen 16x12 records for the prompt,
+and eleven 16/8x9 records for the two menu labels. Their wording is authored in
+`assets/text/ui/title.json`, their physical spans are bound as title surfaces,
+and the browser Fonts workspace exposes both raster styles as read-only Saturn
+fonts. The source contains only the letters used by those three stock strings;
+alternate wording still requires a profile-specific glyph generator and
+publication path.
+
 ### Options Menu
 
 The options menu consists of two pages.
@@ -422,6 +432,14 @@ In the top-right of the 3D map is the compass and location text.
 The location text is displayed as a row of 4 FONT16 glyphs. Examples include 氷川神社, カーサ乾, 図書館. These are left-justified.
 Below the location text is another 4 glyph strip for floor information. The format is an optional 地下 prefix, followed by an up-to 2 digit number, followed by 階. These are right-justified. The game never combines 'underground' with a floor that requires more than 1 digit.
 
+#### Elevator floors
+
+Elevator destinations reuse the four-cell FONT16 floor strip but are a distinct
+authored surface. The translated renderer is proportional within the same
+64-pixel buffer. `field/elevator.json` owns the conditional lower symbol, the
+floor symbol, and the complete definition; its current English expansion is
+`{lower_symbol}{floor_number}{floor_symbol}`, producing `4F` or `B1F`.
+
 In the top-left of the 3D map is the moon phase and currency information. The game uses FONT8 to render two rows of 4 letters for the moon phase. These can include English texts, "NEW", "FULL" and "MOON". The first two being on the top row, the latter being on the bottom.
 
 #### Analyze Grid
@@ -580,6 +598,13 @@ translated renderer has three rows and a 300-pixel usable width. This is a
 separate `battle.negotiation_dialogue` consumer even though its measured
 geometry matches the event window.
 
+Four-way replies use a two-column by two-row FONT16 grid. Each physical column
+is 150 pixels wide. The longest clean reference visible in the mature English
+screen, `Because it will be convenie`, measures exactly 142 pixels with the
+generated FONT16 advances. Translation tooling therefore treats 142 pixels as
+a non-blocking advisory maximum: wider options remain editable and saveable,
+but receive a layout warning.
+
 Demons can request items, which are highlighted in blue text.
 
 Demons can also ask for the player to provision an item, money, or magnetite. The former opens an item window similar to the one specified directly above. The latter two provide an inline money selector, where the player moves left and right to select the highlighted digit, and up/down to decrement/increment it. Pressing A confirms the amount to provision.
@@ -721,11 +746,17 @@ In the middle is a hexagon graph of the player's stat distribution. At the six p
 
 In the top-right  is the player's AUTO setting (i.e., AUTO SWORD), and the party alignment (i.e., "P.A. LAW"). FONT8
 
-Both are fixed one-row, twelve-cell FONT8 compositions. Their selected value
-starts at x=40 and has seven cells. `AUTO` uses four of the five cells before
-that value; `P.A.` is exactly four cells, leaving the fifth cell as layout
-space. The separating space in each authored template declares that boundary;
-it is not another freely positioned text glyph.
+Both use one-row, twelve-cell FONT8 framing. Their selected value starts at
+x=40 and ends at x=96. Generic AUTO commands retain the fixed-cell path, while
+item and magic selections draw the compact eight-byte record already copied by
+the stock summary with proportional FONT8 advances inside that 56-pixel span. `AUTO`
+uses four of the five cells before the value; `P.A.` is exactly four cells,
+leaving the fifth cell as layout space. The separating space in each authored
+template declares that boundary; it is not another freely positioned glyph.
+
+The AUTO configuration item grid shares the item/magic full-name VWF used by
+the working magic grid. Its entry path also restores the stock icon atlas after
+the detailed-status atlas has occupied the shared cache.
 
 On the right are the player's derived stats. FONT 12 with the values as FONT8 beside, aligned to the bottom of the text.
 剣攻撃力
@@ -863,7 +894,9 @@ The Saturn bonus-disc executable draws the selected profile from a fixed
 full detail is twelve 224px rows. Demon and ability names use one 128px row;
 race labels use one 48px row. English uses the narrow FONT8 raster embedded by
 the compendium renderer, while the stock fixed-cell path remains available for
-untranslated evidence and unrelated Japanese UI.
+untranslated evidence and non-text graphics. The status view's six base-stat
+abbreviations use its proved single-glyph adapter; its six derived-stat rows use
+the same compact row codec as the catalogue text.
 
 The same executable owns 48 race-description layouts: one 224px heading and
 four 224px prose rows each. Three layouts intentionally say `NO DATA` and leave

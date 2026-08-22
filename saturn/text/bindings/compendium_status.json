@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "asset": "ui/status.json",
+  "records": {
+    "compendium.status_base_labels.o069a70.text": "strength.text",
+    "compendium.status_base_labels.o069a72.text": "intelligence.text",
+    "compendium.status_base_labels.o069a74.text": "magic.text",
+    "compendium.status_base_labels.o069a76.text": "vitality.text",
+    "compendium.status_base_labels.o069a78.text": "agility.text",
+    "compendium.status_base_labels.o069a7a.text": "luck.text",
+    "compendium.status_derived_labels.o069b16.text": "attack.text",
+    "compendium.status_derived_labels.o069b1e.text": "accuracy.text",
+    "compendium.status_derived_labels.o069b2e.text": "evasion.text",
+    "compendium.status_derived_labels.o069b36.text": "magic_power.text"
+  },
+  "record_surfaces": {
+    "compendium.status_base_labels.o069a70.text": ["compendium.status_base_label"],
+    "compendium.status_base_labels.o069a72.text": ["compendium.status_base_label"],
+    "compendium.status_base_labels.o069a74.text": ["compendium.status_base_label"],
+    "compendium.status_base_labels.o069a76.text": ["compendium.status_base_label"],
+    "compendium.status_base_labels.o069a78.text": ["compendium.status_base_label"],
+    "compendium.status_base_labels.o069a7a.text": ["compendium.status_base_label"],
+    "compendium.status_derived_labels.o069b16.text": ["compendium.status_derived_label"],
+    "compendium.status_derived_labels.o069b1e.text": ["compendium.status_derived_label"],
+    "compendium.status_derived_labels.o069b2e.text": ["compendium.status_derived_label"],
+    "compendium.status_derived_labels.o069b36.text": ["compendium.status_derived_label"]
+  },
+  "unresolved": {}
+}

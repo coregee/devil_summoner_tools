@@ -148,6 +148,9 @@ AFFINITY_SELECTOR = 0x06081170
 MAGNAME_BASE = 0x0022F7A0
 MAGNAME_FIRST = MAGNAME_BASE + 4
 MAGNAME_END = 0x00235740
+ITEMNAME_BASE = 0x00228C00
+ITEMNAME_FIRST = ITEMNAME_BASE + 4
+ITEMNAME_END = MAGNAME_BASE
 MAGNAME_POINTER_OFFSET = 0x5A
 ITEM_ICON_DRAWER = 0x060396CC
 
@@ -873,6 +876,7 @@ def _runtime_payload(
         (
             "status_ui/font16_vwf.s",
             "status_ui/skill_vwf.s",
+            "status_ui/auto_action_vwf.s",
             "status_ui/affinity_font8_vwf.s",
             "status_ui/name_race_dispatcher.s",
             "status_ui/affinity_dispatcher.s",
@@ -924,6 +928,9 @@ def _runtime_payload(
     skill_vwf = append(
         sources[1],
         {
+            "ITEM_FIRST": ITEMNAME_FIRST,
+            "ITEM_END": ITEMNAME_END,
+            "ITEM_BASE": ITEMNAME_BASE,
             "MAGIC_FIRST": MAGNAME_FIRST,
             "MAGIC_END": MAGNAME_END,
             "MAGIC_BASE": MAGNAME_BASE,
@@ -934,8 +941,17 @@ def _runtime_payload(
             "GLYPH": FONT8_GLYPH_DRAWER,
         },
     )
-    affinity_vwf = append(
+    auto_action_vwf = append(
         sources[2],
+        {
+            "WIDTHS": addresses["widths8"],
+            "FONT_BITMAP": FONT8_BITMAP,
+            "GLYPH": FONT8_GLYPH_DRAWER,
+            "STOCK": FONT8_DRAWER,
+        },
+    )
+    affinity_vwf = append(
+        sources[3],
         {
             "WIDTHS": addresses["widths8"],
             "FONT_BITMAP": FONT8_BITMAP,
@@ -947,7 +963,7 @@ def _runtime_payload(
         },
     )
     name_race = append(
-        sources[3],
+        sources[4],
         {
             "RACE_SOURCE": RACE_SOURCE,
             "RACE_TABLE": addresses["race_table"],
@@ -962,7 +978,7 @@ def _runtime_payload(
         },
     )
     affinity = append(
-        sources[4],
+        sources[5],
         {
             "SELECTOR": AFFINITY_SELECTOR,
             "SOURCE": AFFINITY_SOURCE,
@@ -972,7 +988,7 @@ def _runtime_payload(
         },
     )
     stock_icon = append(
-        sources[5],
+        sources[6],
         {
             "DIRTY": dirty_address,
             "BUILD_ATLAS": BUILD_ATLAS,
@@ -1002,6 +1018,7 @@ def _runtime_payload(
             {
                 "name_race_drawer": name_race,
                 "skill_name_drawer": skill_vwf,
+                "auto_action_drawer": auto_action_vwf,
                 "affinity_drawer": affinity,
                 "stock_icon_drawer": stock_icon,
             }

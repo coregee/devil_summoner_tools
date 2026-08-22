@@ -30,6 +30,7 @@ from text.util.assets import (
     load_physical_record_files,
 )
 from text.util.surfaces import load_surfaces
+from text.util.tokens import Named, parse_tokens
 
 
 ENGINE_ROOT = Path(__file__).resolve().parents[1]
@@ -42,6 +43,7 @@ SURFACE_PATH = SATURN_ROOT / "text" / "config" / "surfaces.json"
 
 LOCATION_ASSET_PATH = ASSET_ROOT / "locations.json"
 LOCATION_FORMAT_ASSET_PATH = ASSET_ROOT / "field" / "location_formats.json"
+ELEVATOR_ASSET_PATH = ASSET_ROOT / "field" / "elevator.json"
 LOCATION_BINDING_PATH = BINDING_ROOT / "locations.json"
 LOCATION_CORPUS_PATH = CORPUS_ROOT / "game" / "addressed" / "dungeon_locations.json"
 SAVE_CORPUS_PATH = CORPUS_ROOT / "game" / "addressed" / "save_static.json"
@@ -64,6 +66,7 @@ AUTOMAP_SYSTEM_CORPUS_PATH = (
 ASSET_FILES = (
     LOCATION_ASSET_PATH,
     LOCATION_FORMAT_ASSET_PATH,
+    ELEVATOR_ASSET_PATH,
     AUTOMAP_ASSET_PATH,
     FIELD_MESSAGES_ASSET_PATH,
 )
@@ -143,6 +146,13 @@ class FloorFormat:
             raise ValueError(f"dungeon floor {floor} exceeds the two-digit renderer")
         prefix = self.negative_prefix if floor < 0 else ""
         return f"{prefix}{abs(floor)}{self.suffix}"
+
+
+@dataclass(frozen=True, slots=True)
+class ElevatorFormat:
+    lower_symbol: str
+    floor_symbol: str
+    parts: tuple[int, int, int]
 
 
 @dataclass(frozen=True, slots=True)
@@ -416,6 +426,34 @@ def _floor_formats() -> Mapping[str, FloorFormat]:
     return MappingProxyType(plans)
 
 
+def _elevator_format(metrics: Font16Metrics) -> ElevatorFormat:
+    asset = "field/elevator.json"
+    lower = _surface_text(asset, "lower_symbol")
+    floor = _surface_text(asset, "floor_symbol")
+    for name, value in (("lower_symbol", lower), ("floor_symbol", floor)):
+        if len(value) != 1 or value not in metrics.codes:
+            raise ValueError(
+                f"elevator {name} must encode as exactly one FONT16 glyph"
+            )
+
+    definition = _surface_text(asset, "floor_definition")
+    tokens = parse_tokens(definition)
+    names = tuple(token.name for token in tokens if isinstance(token, Named))
+    expected = ("lower_symbol", "floor_number", "floor_symbol")
+    if len(tokens) != 3 or set(names) != set(expected) or len(names) != 3:
+        raise ValueError(
+            "elevator floor_definition must contain lower_symbol, floor_number, "
+            "and floor_symbol exactly once, without literal text"
+        )
+    part_codes = {
+        "lower_symbol": 1,
+        "floor_number": 2,
+        "floor_symbol": 3,
+    }
+    parts = tuple(part_codes[name] for name in names)
+    return ElevatorFormat(lower, floor, (parts[0], parts[1], parts[2]))
+
+
 def _location_text() -> tuple[tuple[str, ...], Mapping[str, str]]:
     physical = load_physical_record_files((LOCATION_CORPUS_PATH, SAVE_CORPUS_PATH))
     translations = load_bound_translations(
@@ -478,6 +516,10 @@ def _validate_surfaces() -> None:
         "automap.marker_popup": (
             ("font16", 3, "glyph_cells", 6),
             ("font16", 3, "pixels", 64),
+        ),
+        "field.elevator_floor": (
+            ("font16", 1, "glyph_cells", 4),
+            ("font16", 1, "pixels", 64),
         ),
     }
     for name, (ja_expected, en_expected) in expected.items():
@@ -779,6 +821,7 @@ def _runtime_sources(
         else (
             ENGINE_ROOT / "asm" / "dungeon_locations" / "maze_wrapper.s",
             ENGINE_ROOT / "asm" / "dungeon_locations" / "floor_compositor.s",
+            ENGINE_ROOT / "asm" / "dungeon_locations" / "elevator_surface.s",
         )
     )
     if recipe.replacement.sources != expected:
@@ -792,6 +835,7 @@ def _build_cave(
     font16: bytes,
     metrics: Font16Metrics,
     floor_format: FloorFormat,
+    elevator_format: ElevatorFormat,
     labels: tuple[tuple[str, str, int], ...],
     marker_strips: tuple[MarkerStrip, ...],
     capacity: int,
@@ -817,6 +861,12 @@ def _build_cave(
         "DRAW_NAME": spec.stock_name_drawer,
         "LABEL_BASE": LABEL_SENTINEL,
         "LABEL_COUNT": len(labels),
+        "ELEVATOR_DRAW": 0x0603FCFC,
+        "ELEVATOR_CODE_LOWER": metrics.codes[elevator_format.lower_symbol],
+        "ELEVATOR_CODE_FLOOR": metrics.codes[elevator_format.floor_symbol],
+        "ELEVATOR_PART_0": elevator_format.parts[0],
+        "ELEVATOR_PART_1": elevator_format.parts[1],
+        "ELEVATOR_PART_2": elevator_format.parts[2],
     }
     marker_by_name = {strip.name: strip for strip in marker_strips}
     if spec.automap and tuple(marker_by_name) != MARKER_ORDER:
@@ -917,6 +967,7 @@ def _build_runtime(
     font16: bytes,
     metrics: Font16Metrics,
     floor_format: FloorFormat,
+    elevator_format: ElevatorFormat,
     texts: tuple[str, ...],
     aliases: Mapping[str, str],
     marker_text: Mapping[str, str],
@@ -936,6 +987,7 @@ def _build_runtime(
         font16,
         metrics,
         floor_format,
+        elevator_format,
         labels,
         marker_strips,
         len(cave_recipe.expected),
@@ -955,6 +1007,8 @@ def _build_runtime(
         "floor_entry": code_labels[entry_name],
         "name_wrapper": code_labels[wrapper_name],
     }
+    if not spec.automap:
+        links["elevator_entry"] = code_labels["elevator_entry"]
     if spec.automap:
         links.update(
             {
@@ -1218,6 +1272,7 @@ def build_dungeon_locations(
         raise ValueError("dungeon-location FONT16 geometry changed")
     metrics = _font16_metrics()
     floor_formats = _floor_formats()
+    elevator_format = _elevator_format(metrics)
     texts, aliases = _location_text()
     marker_text = _marker_text()
     mirror_text = _mirror_text(config)
@@ -1230,6 +1285,7 @@ def build_dungeon_locations(
             font16,
             metrics,
             floor_formats[target],
+            elevator_format,
             texts,
             aliases if spec.automap else MappingProxyType({}),
             marker_text,

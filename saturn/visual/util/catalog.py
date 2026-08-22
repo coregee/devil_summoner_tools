@@ -66,106 +66,114 @@ TEX3D_MODELS = {
 }
 
 
+TITLE_INDEXED_ASSETS = (
+    ImageAsset(
+        "TITLE.BIN",
+        "TITLE/devil_summoner.png",
+        0x16644,
+        288,
+        53,
+        encoding="indexed8",
+        palette_offset=0x1A1E4,
+        palette_entries=198,
+    ),
+    ImageAsset(
+        "TITLE.BIN",
+        "TITLE/shin_megami_tensei.png",
+        0x1A3E4,
+        288,
+        36,
+        encoding="indexed8",
+        palette_offset=0x1CC64,
+        palette_entries=64,
+    ),
+    ImageAsset(
+        "TITLE.BIN",
+        "TITLE/emblems.png",
+        0x1CE64,
+        120,
+        28,
+        encoding="indexed8",
+        palette_offset=0x1DB84,
+        palette_entries=64,
+    ),
+)
+
+TITLE_PRESS_START_GLYPHS = tuple(
+    ImageAsset(
+        "TITLE.BIN",
+        f"TITLE/press_start_button/{index:02d}_{letter.lower()}.png",
+        offset,
+        16,
+        12,
+    )
+    for index, (letter, offset) in enumerate(
+        zip(
+            "PRESSSTARTBUTTON",
+            (
+                0x1DD84,
+                0x1DF04,
+                0x1E084,
+                0x1E204,
+                0x1E384,
+                0x1E504,
+                0x1E684,
+                0x1E804,
+                0x1E984,
+                0x1EB04,
+                0x1EC84,
+                0x1EE04,
+                0x1F104,
+                0x1EF84,
+                0x1F284,
+                0x1F404,
+            ),
+            strict=True,
+        )
+    )
+)
+
+TITLE_MENU_GLYPHS = tuple(
+    ImageAsset(
+        "TITLE.BIN",
+        f"TITLE/start_button/{index:02d}_{letter.lower()}.png",
+        offset,
+        width,
+        9,
+    )
+    for index, (letter, offset, width) in enumerate(
+        zip(
+            "STARTOPTION",
+            (
+                0x1F584,
+                0x1F6A4,
+                0x1F7C4,
+                0x1F8E4,
+                0x1FA04,
+                0x1FB24,
+                0x1FC44,
+                0x1FD64,
+                0x1FE84,
+                0x1FF14,
+                0x20034,
+            ),
+            (16, 16, 16, 16, 16, 16, 16, 16, 8, 16, 16),
+            strict=True,
+        )
+    )
+)
+
+TITLE_COPYRIGHT_ASSET = ImageAsset(
+    "TITLE.BIN", "TITLE/copyright_atlus_1995.png", 0x20154, 120, 15
+)
+
+
 def _title_assets() -> list[ImageAsset]:
-    indexed = [
-        ImageAsset(
-            "TITLE.BIN",
-            "TITLE/devil_summoner.png",
-            0x16644,
-            288,
-            53,
-            encoding="indexed8",
-            palette_offset=0x1A1E4,
-            palette_entries=198,
-        ),
-        ImageAsset(
-            "TITLE.BIN",
-            "TITLE/shin_megami_tensei.png",
-            0x1A3E4,
-            288,
-            36,
-            encoding="indexed8",
-            palette_offset=0x1CC64,
-            palette_entries=64,
-        ),
-        ImageAsset(
-            "TITLE.BIN",
-            "TITLE/emblems.png",
-            0x1CE64,
-            120,
-            28,
-            encoding="indexed8",
-            palette_offset=0x1DB84,
-            palette_entries=64,
-        ),
-    ]
-    press = [
-        ImageAsset(
-            "TITLE.BIN",
-            f"TITLE/press_start_button/{index:02d}_{letter.lower()}.png",
-            offset,
-            16,
-            12,
-        )
-        for index, (letter, offset) in enumerate(
-            zip(
-                "PRESSSTARTBUTTON",
-                (
-                    0x1DD84,
-                    0x1DF04,
-                    0x1E084,
-                    0x1E204,
-                    0x1E384,
-                    0x1E504,
-                    0x1E684,
-                    0x1E804,
-                    0x1E984,
-                    0x1EB04,
-                    0x1EC84,
-                    0x1EE04,
-                    0x1F104,
-                    0x1EF84,
-                    0x1F284,
-                    0x1F404,
-                ),
-                strict=True,
-            )
-        )
-    ]
-    start = [
-        ImageAsset(
-            "TITLE.BIN",
-            f"TITLE/start_button/{index:02d}_{letter.lower()}.png",
-            offset,
-            width,
-            9,
-        )
-        for index, (letter, offset, width) in enumerate(
-            zip(
-                "STARTBUTTON",
-                (
-                    0x1F584,
-                    0x1F6A4,
-                    0x1F7C4,
-                    0x1F8E4,
-                    0x1FA04,
-                    0x1FB24,
-                    0x1FC44,
-                    0x1FD64,
-                    0x1FE84,
-                    0x1FF14,
-                    0x20034,
-                ),
-                (16, 16, 16, 16, 16, 16, 16, 16, 8, 16, 16),
-                strict=True,
-            )
-        )
-    ]
     return [
-        *indexed,
-        ImageAsset("TITLE.BIN", "TITLE/copyright_atlus_1995.png", 0x20154, 120, 15),
-        *press,
-        *start,
+        *TITLE_INDEXED_ASSETS,
+        TITLE_COPYRIGHT_ASSET,
+        *TITLE_PRESS_START_GLYPHS,
+        *TITLE_MENU_GLYPHS,
         ImageAsset(
             "TESTLOGO.COF",
             "TITLE/full_title_screen.png",

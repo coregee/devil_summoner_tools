@@ -361,6 +361,12 @@ class CompendiumInventoryTests(unittest.TestCase):
         cls.fusion_help_rows = json.loads(
             cls.batch.rendered[PurePosixPath("fixed/fusion_help.json")]
         )
+        cls.status_base_rows = json.loads(
+            cls.batch.rendered[PurePosixPath("fixed/status_base_labels.json")]
+        )
+        cls.status_derived_rows = json.loads(
+            cls.batch.rendered[PurePosixPath("fixed/status_derived_labels.json")]
+        )
 
     def test_complete_profile_inventory(self) -> None:
         absent = {
@@ -390,9 +396,9 @@ class CompendiumInventoryTests(unittest.TestCase):
             all(spec.owned_sha256 is not None for spec in self.manifest.files.values())
         )
         self.assertEqual(self.manifest.files["a_dic"].size, 472_172)
-        self.assertEqual(self.batch.source_count, 6)
-        self.assertEqual(self.batch.record_count, 1_605)
-        self.assertEqual(len(self.batch.rendered), 6)
+        self.assertEqual(self.batch.source_count, 8)
+        self.assertEqual(self.batch.record_count, 1_617)
+        self.assertEqual(len(self.batch.rendered), 8)
 
         ids = [row["id"] for row in self.rows]
         self.assertEqual(len(ids), len(set(ids)))
@@ -485,6 +491,15 @@ class CompendiumInventoryTests(unittest.TestCase):
         self.assertEqual(
             self.fusion_help_rows[-1]["reference"],
             "レベル50以上の造魔とブラックマリアの合体で出現",
+        )
+
+        self.assertEqual(
+            [row["reference"] for row in self.status_base_rows],
+            ["力", "知", "魔", "耐", "速", "運"],
+        )
+        self.assertEqual(
+            [row["reference"] for row in self.status_derived_rows],
+            ["攻撃力", "命中力", "防御力", "回避力", "魔法威力", "魔法防御"],
         )
 
     def test_profile_font_mapping_is_complete_and_lossless(self) -> None:

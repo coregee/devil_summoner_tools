@@ -54,6 +54,13 @@
           "generated": "compendium_data"
         },
         {
+          "name": "status_derived_labels",
+          "address": "0x06089b16",
+          "expected_sha256": "5ccecc60e8bb0a2ae0c336fd5164f73ec29739d8ff1fa7510f8ccd0439dcd2de",
+          "expected_size": 48,
+          "generated": "compendium_data"
+        },
+        {
           "name": "race_description_layouts",
           "address": "0x0608abd4",
           "expected_sha256": "70b22bc9ee3ab79d641080439642decd8904b763801bb17fd21401a3fd33f082",
@@ -175,6 +182,12 @@
           "address": "0x06027c70",
           "expected": "06021984",
           "linked_pointer": "compact_draw"
+        },
+        {
+          "name": "status_glyph_pointer",
+          "address": "0x06025b84",
+          "expected": "06021824",
+          "linked_pointer": "compact_stat_draw"
         }
       ]
     }

@@ -2,9 +2,20 @@ maze_entry:
     mov     #-1, r0
     mov.l   =CURRENT_APPEND, r1
     mov.b   r0, @r1
+    mov.l   =ELEVATOR_MODE, r0
+    mov.b   @r0, r0
+    tst     r0, r0
+    bt      maze_floor
+    mov     r11, r4
+    bsr     elevator_floor_compose
+    nop
+    bra     maze_floor_ready
+    nop
+maze_floor:
     mov     r11, r4
     bsr     floor_compose
     nop
+maze_floor_ready:
     mov.w   =BOTTOM_CODE, r1
     mov     r15, r2
     add     #8, r2

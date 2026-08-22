@@ -19,6 +19,7 @@ _SURFACE_RE = re.compile(
 )
 _FONT_RE = re.compile(r"[a-z][a-z0-9_]*\Z")
 _WIDTH_UNITS = frozenset({"glyph_cells", "pixels"})
+_VISUAL_FONTS = frozenset({"title_menu", "title_prompt"})
 
 
 @dataclass(frozen=True)
@@ -37,6 +38,7 @@ class LayoutLimit:
     rows: int | None
     width: WidthLimit
     glyphs: int | None
+    advisory_width: WidthLimit
 
 
 @dataclass(frozen=True)
@@ -124,22 +126,30 @@ def _load_layout(
 ) -> LayoutLimit:
     row = _object(value, context)
     required = {"font", "rows", "width"}
-    if not required <= set(row) or not set(row) <= required | {"glyphs"}:
+    optional = {"glyphs", "advisory_width"}
+    if not required <= set(row) or not set(row) <= required | optional:
         raise ValueError(
             f"{context} fields are {sorted(row)}, expected {sorted(required)} "
-            "with optional 'glyphs'"
+            "with optional 'glyphs' and 'advisory_width'"
         )
     font = row["font"]
     if font is not None:
         if not isinstance(font, str) or _FONT_RE.fullmatch(font) is None:
             raise ValueError(f"{context}.font must be a font identifier or null")
-        if not (font_config_root / f"{font}.json").is_file():
+        if font not in _VISUAL_FONTS and not (
+            font_config_root / f"{font}.json"
+        ).is_file():
             raise ValueError(f"{context}.font names unknown Saturn font {font!r}")
     return LayoutLimit(
         font,
         _positive_or_unknown(row["rows"], f"{context}.rows"),
         _load_width(row["width"], f"{context}.width"),
         _positive_or_unknown(row.get("glyphs"), f"{context}.glyphs"),
+        (
+            _load_width(row["advisory_width"], f"{context}.advisory_width")
+            if "advisory_width" in row
+            else WidthLimit(None, None)
+        ),
     )
 
 

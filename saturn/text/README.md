@@ -305,8 +305,9 @@ detail fields from its exact text tail. Five focused `A_DIC.BIN` sources cover
 the independently rendered 319-demon-name table at `0x5d9b0`, the
 255-ability-name table at `0x69be4`, and the 48 proved race-label records at
 `0x5eda0`, plus 48 heading-and-description layouts at `0x6abd4` and 11
-two-row fusion-help records at `0x6d828`. Together they produce 1,605 records
-in six generated catalogues.
+two-row fusion-help records at `0x6d828`, six single-cell base-stat labels at
+`0x69a70`, and six four-cell derived-stat labels at `0x69b16`. Together they
+produce 1,617 records in eight generated catalogues.
 Tail-only identity checks allow future profile-image changes in the DVL files
 while still failing on any changed text byte.
 
@@ -438,7 +439,10 @@ languages; its embedded tile glyphs have no FONT8/FONT16 identity, while its
 three physical string records separately enforce 15-, 9-, and 23-byte visible
 limits. The ritual console has a proved 176-pixel English width, but its row
 count remains explicit `null` until measured. The negotiation choice field is
-10 Japanese cells or 150 translated pixels on one row. Location
+10 Japanese cells or 150 translated pixels on one row. Its two-by-two English
+grid has a 142-pixel advisory maximum, measured from `Because it will be
+convenie`; exceeding that recommendation warns without invalidating the text.
+Location
 contracts now distinguish
 the two-row 64-pixel 3D name, its 64-pixel floor row, the 112-pixel automap text
 after the runtime-owned marker icon, the 112-pixel special SAVE/LOAD location,
@@ -583,7 +587,7 @@ instead of normalized away.
 Extraction verifies immutable source-disc files, decodes every record readably,
 preserves unknown glyph and control identity after declared zero normalization,
 and retains authored translations by stable physical ID. The current catalogues
-contain 16,141 records from 62 game source groups and 1,605 records from six
+contain 16,141 records from 62 game source groups and 1,617 records from eight
 compendium source groups.
 
 The file-backed repacker has five independently checkable selections:
@@ -605,7 +609,7 @@ Profile, MAP2D, Horoscope, Credits, diagnostic overlays, portrait scenes,
 Options, Level Up, detailed status, facilities, Save/Load, MAZE, and battle
 runtime text. The complete proved Akuma Zensho inventory is likewise built by
 `compendium.text`: all 292 profile tails plus the A_DIC demon, ability,
-race-label, race-description, and fusion-help tables. These engine consumers
+race-label, race-description, fusion-help, and status-label tables. These engine consumers
 still use the same assets, bindings, corpora, encodings, and surface contracts;
 they are not second translation systems.
 

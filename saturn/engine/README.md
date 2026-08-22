@@ -58,7 +58,8 @@ rejects version-1 configs and executable `replacement` blobs.
 
 `compendium.text` compiles the complete proved text inventory on the bonus
 disc: 292 profile tails plus the demon, ability, race-label, race-description,
-and fusion-help tables in `A_DIC.BIN`. The profile geometry remains one 144-pixel origin row, four
+fusion-help, and twelve status-label records in `A_DIC.BIN`. The profile
+geometry remains one 144-pixel origin row, four
 224-pixel summary rows, and twelve 224-pixel detail rows. Names and abilities
 use 128-pixel rows; race labels use 48-pixel rows. Race descriptions use a
 224-pixel heading plus four 224-pixel prose rows, while fusion help uses two
@@ -67,7 +68,11 @@ use 128-pixel rows; race labels use 48-pixel rows. Race descriptions use a
 Generated rows use a reversible tagged codec and a deterministic asset-derived
 dictionary. One readable SH-2 wrapper temporarily composes decoded FONT8
 glyphs in the existing compendium FONT16 work area, calls the stock drawer,
-and restores the original cells. It uses 1,890 bytes of the 30,722-byte
+and restores the original cells. A dedicated single-glyph adapter precomposes
+the six two-letter base-stat labels, while the shared row adapter owns the six
+derived-stat labels. Both keep their save and row-code scratch inside the
+verified executable arena rather than the live `0x00288000` render surface.
+The runtime uses 2,960 bytes of the 30,722-byte
 verified zero arena in `A_DIC.BIN`; no compendium font cell or font file is
 repurposed. Vengeful Spirit and Fiend are now authored; only two independently
 addressable raw placeholder race rows stay byte-identical to retail because
@@ -379,7 +384,9 @@ python saturn/engine/build.py event.name_inserts --check
 `config/battle_negotiation.json` binds the player-facing negotiation window and
 choice fields to the proved COMBAT renderer and packed-text reader. The window
 uses the same FONT16, 300-pixel, three-row display geometry as general EVENT;
-choices use the renderer's measured 150-pixel column geometry.
+choices use the renderer's measured 150-pixel column geometry. Translation
+tooling warns beyond the 142-pixel clean reference boundary for the two-by-two
+grid but does not block longer input.
 
 The renderer, packed reader, dispatch hooks, inserts, and typewriter behavior
 are rebuilt from readable sources under `asm/battle_negotiation/`. Demon names,
@@ -560,17 +567,22 @@ python saturn/build.py default
 `status.ui` composes the NORMCOM human and demon status screens on the checked
 equipment intermediate, then publishes the terminal
 `generated/game/NORMCOM.BIN`. The equipment base is
-`a63ec7dbe6d5fdc03f9ff9f4c15fd556c26b9883dc0eb89e7bb18a70e5b58965`;
-the result is byte-identical to the mature Saturn output at
-`d5cbdc03719a412e9b020141e774c563b4303a2821ac5669043db2409048bf43`.
+`55283ade924c5f4aa7c8ddd871bd2563e5c36d5f384b7240f2ed57dfbd4e7947`;
+the terminal result is
+`766f82c9ccd4832d004733697615f1568853e1e81473b571f3ec713719e3badd`.
 
-`config/status_ui.json` owns 91 typed recipes across rendering, layout,
-race/affinity mirrors, direct ASCII fields, and templates. Fifty-six recipes
-represent the mature changes at 66 physical sites; the remaining 35 are
+`config/status_ui.json` owns 94 typed recipes across rendering, layout,
+race/affinity mirrors, direct ASCII fields, and templates. Fifty-nine recipes
+represent the live changes at 69 physical sites; the remaining 35 are
 currently byte-neutral paths which ensure edits to stock-readable labels,
 separators, and immediates still propagate. The kind split is 76 generated-data
-recipes, six assembly recipes, eight linked pointers, and one fixed pointer.
-Executable behavior comes from 11 readable sources under `asm/status_ui/`.
+recipes, six assembly recipes, eleven linked pointers, and one fixed pointer.
+Executable behavior comes from 12 readable sources under `asm/status_ui/`.
+
+The AUTO configuration item grid now shares the translated item/magic VWF,
+restores the stock icon atlas before composing its panel, and resolves the
+compact eight-byte item or magic name already copied by the AUTO summary
+through the proportional drawer instead of the stock fixed-cell drawer.
 
 Seven authored catalogues supply status labels and templates, races,
 affinities, demon and character names, alignments, and commands. The build also
@@ -698,7 +710,7 @@ python saturn/build.py default
 
 `dungeon.locations` rebuilds the location consumers in `MAZE.BIN`,
 `AUTOMAPC.BIN`, 17 landing files, and 98 floor files. Its 117 stock targets are
-read directly from the verified game disc and owned by 301 typed recipes. The
+read directly from the verified game disc and owned by 302 typed recipes. The
 MAZE and AUTOMAP renderers come from readable sources under
 `asm/dungeon_locations/`; location names, floor templates, AUTOMAP aliases, and
 marker labels come from the shared human-facing text assets and explicit
@@ -708,10 +720,14 @@ The builder publishes every AUTOMAP and MAZEDATA result at its terminal path,
 but keeps its MAZE result at `generated/game/dungeon_locations/MAZE.BIN`. This
 checked intermediate prevents two surfaces from claiming the terminal MAZE
 file. `dungeon_locations_build.json` records all 117 source hashes, output
-hashes, assembly inputs, and the exact 301-patch inventory.
+hashes, assembly inputs, and the exact 302-patch inventory.
 
-The location tables, MAZE renderer, and every ELV/KAI mirror reproduce the
-trusted mature implementation. AUTOMAP deliberately leaves the now-intercepted
+The location tables and every ELV/KAI mirror reproduce the trusted mature
+implementation. MAZE additionally redirects the proved elevator-only drawer
+pointer at `0x0603CFC4` into a readable VWF adapter. Its lower symbol, floor
+symbol, and three-part placeholder order come from
+`assets/text/field/elevator.json`, independently of the 3D-map floor wording.
+AUTOMAP deliberately leaves the now-intercepted
 retail `YES`/`NO` storage bytes untouched; their visible forms still come from
 the shared authored choice fields through the new renderer.
 
@@ -728,7 +744,7 @@ isolated engine builds and parity checks.
 
 The six unchanged fixed messages reproduce the mature replacement bytes. The
 terminal MAZE hash is intentionally new
-(`b94dd9321f556c1daeeff220149d08581d996fac77ac147f7fe1ee5f62a265e2`):
+(`f89e4df13f4ea92524338b106493ec504f63cc514f51682292c3563e57c34e75`):
 the old build accidentally routed the item-obtained path through `Found`, used
 fragmentary item-full wording, and omitted the final punctuation from currency
 messages. The new hooks compile the complete approved asset templates instead.
@@ -748,7 +764,7 @@ pointers. Readable `font8_pixel_blitter.s`, `font8_fixed_name.s`, and
 declared capacity. The renderer arena ends exactly where the field-message cave
 begins, and the compact-name arena starts at the field-message cave limit, so
 the three MAZE consumers cannot silently overlap. The default terminal SHA-256
-is `4acac957d02e706eab0e76344e5d82ed1aa672e7ae39d739ad9f40e3d5669b6d`.
+is `c45b897557852679a855b8c4e01c627fd2531d8b5be07072bb49de5a0ff2e5e1`.
 
 Run:
 

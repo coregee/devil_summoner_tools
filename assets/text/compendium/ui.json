@@ -2,6 +2,18 @@
   "version": 1,
   "kind": "surface_catalog",
   "entries": {
+    "defense": {
+      "text": {
+        "reference": "防御力",
+        "translation": "Def"
+      }
+    },
+    "magic_defense": {
+      "text": {
+        "reference": "魔法防御",
+        "translation": "Mag Efc"
+      }
+    },
     "no_data_heading": {
       "text": {
         "reference": "NODATA",

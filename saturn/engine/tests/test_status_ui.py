@@ -45,10 +45,18 @@ from engine.surfaces.status_ui import (  # noqa: E402
     CONFIG_PATH,
     DVLNAME_PATH,
     EQUIPMENT_LABEL_CAVE_LIMIT,
+    FONT8_BITMAP,
+    FONT8_GLYPH_DRAWER,
     FONT16_METRICS_PATH,
     FONT8_METRICS_PATH,
+    ITEMNAME_BASE,
+    ITEMNAME_END,
+    ITEMNAME_FIRST,
     LIGHT_AXIS_RECORD,
     LOAD_ADDRESS,
+    MAGNAME_BASE,
+    MAGNAME_END,
+    MAGNAME_FIRST,
     RUNTIME_CAVE,
     RUNTIME_DATA,
     RUNTIME_INPUT_FILES,
@@ -68,14 +76,15 @@ from engine.surfaces.status_ui import (  # noqa: E402
 from text.util.event_repack import FontMetrics  # noqa: E402
 
 
-BASE_HASH = "a63ec7dbe6d5fdc03f9ff9f4c15fd556c26b9883dc0eb89e7bb18a70e5b58965"
-EXPECTED_HASH = "d5cbdc03719a412e9b020141e774c563b4303a2821ac5669043db2409048bf43"
+BASE_HASH = "55283ade924c5f4aa7c8ddd871bd2563e5c36d5f384b7240f2ed57dfbd4e7947"
+EXPECTED_HASH = "766f82c9ccd4832d004733697615f1568853e1e81473b571f3ec713719e3badd"
 EXPECTED_COMPONENT_HASHES = {
     "wrapper_cave": "5422bdeac781e6d3e5307795a766cc2eb2a1a12d67c25b09eb1a304fa269933e",
     "font12_atlas": "0ae06b004b5c0114e2f4e0d49ad42c3c1985d891096d628828080393337329e0",
-    "english_status_runtime": "40cfb28a87c0ab4234e5365fc487fd1c00126476a35f1cd2d746de77b5cc14de",
+    "english_status_runtime": "3b38ab46ab199948ce57f1b1ef48dce2b2487610763d72b1f845bbe13b207501",
 }
 EXPECTED_ASSEMBLY = {
+    "status_ui/auto_action_vwf.s",
     "status_ui/affinity_dispatcher.s",
     "status_ui/affinity_font8_vwf.s",
     "status_ui/atlas_wrapper.s",
@@ -124,11 +133,11 @@ class StatusUiEngineTests(unittest.TestCase):
         self.assertEqual(hashlib.sha256(self.base).hexdigest(), BASE_HASH)
         self.assertEqual(len(self.result.data), 352_360)
         self.assertEqual(hashlib.sha256(self.result.data).hexdigest(), EXPECTED_HASH)
-        self.assertEqual(len(self.result.patches), 91)
+        self.assertEqual(len(self.result.patches), 94)
         self.assertEqual(
             Counter(patch.group for patch in self.result.patches),
             {
-                "status_rendering": 11,
+                "status_rendering": 14,
                 "status_layout": 8,
                 "status_term_mirrors": 37,
                 "status_ascii": 24,
@@ -160,7 +169,7 @@ class StatusUiEngineTests(unittest.TestCase):
             {
                 "generated": 76,
                 "assembly": 6,
-                "linked_pointer": 8,
+                "linked_pointer": 11,
                 "pointer": 1,
             },
         )
@@ -182,6 +191,7 @@ class StatusUiEngineTests(unittest.TestCase):
             (
                 "status_ui/font16_vwf.s",
                 "status_ui/skill_vwf.s",
+                "status_ui/auto_action_vwf.s",
                 "status_ui/affinity_font8_vwf.s",
                 "status_ui/name_race_dispatcher.s",
                 "status_ui/affinity_dispatcher.s",
@@ -189,6 +199,45 @@ class StatusUiEngineTests(unittest.TestCase):
             ),
         )
         self.assertNotIn('"replacement"', CONFIG_PATH.read_text(encoding="utf-8"))
+
+    def test_auto_item_and_magic_paths_use_the_translated_runtime(self) -> None:
+        skill = int.from_bytes(self.patches["skill_name_drawer"].replacement, "big")
+        auto = int.from_bytes(
+            self.patches["auto_action_name_drawer"].replacement, "big"
+        )
+        affinity = int.from_bytes(self.patches["affinity_drawer"].replacement, "big")
+
+        self.assertEqual(self.patches["item_name_drawer"].address, 0x06031B08)
+        self.assertEqual(
+            self.patches["item_name_drawer"].replacement,
+            self.patches["skill_name_drawer"].replacement,
+        )
+        self.assertEqual(self.patches["auto_action_name_drawer"].address, 0x06036904)
+
+        runtime = self.patches["english_status_runtime"].replacement
+        ability_blob = runtime[skill - RUNTIME_CAVE : auto - RUNTIME_CAVE]
+        auto_blob = runtime[auto - RUNTIME_CAVE : affinity - RUNTIME_CAVE]
+        for address in (
+            ITEMNAME_FIRST,
+            ITEMNAME_END,
+            ITEMNAME_BASE,
+            MAGNAME_FIRST,
+            MAGNAME_END,
+            MAGNAME_BASE,
+        ):
+            self.assertIn(address.to_bytes(4, "big"), ability_blob)
+        self.assertIn(FONT8_BITMAP.to_bytes(4, "big"), auto_blob)
+        self.assertIn(FONT8_GLYPH_DRAWER.to_bytes(4, "big"), auto_blob)
+        self.assertNotIn(ITEMNAME_BASE.to_bytes(4, "big"), auto_blob)
+        self.assertNotIn(MAGNAME_BASE.to_bytes(4, "big"), auto_blob)
+        self.assertNotIn(skill.to_bytes(4, "big"), auto_blob)
+
+        icon = self.patches["restore_auto_config_icon_atlas"]
+        self.assertEqual(icon.address, 0x06031C44)
+        self.assertEqual(
+            icon.replacement,
+            self.patches["restore_item_icon_atlas_0603adf8"].replacement,
+        )
 
     def test_digest_guards_resolve_before_replacements_are_applied(self) -> None:
         for recipe in self.config.patches[TARGET]:
@@ -436,7 +485,7 @@ class StatusUiEngineTests(unittest.TestCase):
         self.assertEqual(manifest["base"]["sha256"], BASE_HASH)
         self.assertEqual(manifest["output"]["sha256"], EXPECTED_HASH)
         self.assertEqual(len(manifest["asset_inputs"]), 7)
-        self.assertEqual(len(manifest["assembly_inputs"]), 11)
+        self.assertEqual(len(manifest["assembly_inputs"]), 12)
         self.assertEqual(len(manifest["runtime_inputs"]), 24)
         self.assertEqual(
             set(manifest["source_inputs"]),

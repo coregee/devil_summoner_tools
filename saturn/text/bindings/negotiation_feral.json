@@ -824,6 +824,20 @@
     "game.combat_condition_messages.o055348.text": "condition_ally_veto.text",
     "game.combat_condition_messages.o055608.text": "condition_full_moon.text"
   },
+  "record_surfaces": {
+    "game.kemo.m0184.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0185.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0186.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0187.p00": [
+      "battle.negotiation_choice"
+    ]
+  },
   "field_surfaces": {
     "text": [
       "battle.negotiation_dialogue"

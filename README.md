@@ -30,7 +30,7 @@ either disc has been tested in game.
 | Package | Current responsibility |
 | --- | --- |
 | `assets/text` | Canonical shared text, typed templates, semantic identities, and consumer specifications |
-| `saturn/text` | Lossless catalogues for 16,141 game records and 1,605 compendium records, plus the file-backed EVENT, battle, facility, and COMP repackers |
+| `saturn/text` | Lossless catalogues for 16,141 game records and 1,617 compendium records, plus the file-backed EVENT, battle, facility, and COMP repackers |
 | `saturn/font` | Eight game-font definitions, one identity-preserving compendium definition, generated atlases, and runtime metrics |
 | `saturn/engine` | Twenty-four checked surface builds covering the translated executable consumers, lossless FMV subtitles, and the complete proved compendium text inventory |
 | `saturn/visual` | 2,365 game image views and 295 classified compendium image structures, with sparse tracked replacements |

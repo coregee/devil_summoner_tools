@@ -60,7 +60,7 @@ class CompendiumTextBuildIntegrationTests(unittest.TestCase):
                 COMPENDIUM_TEXT_BUILD_PATH,
             },
         )
-        self.assertEqual(self.manifest["patches"], 315)
+        self.assertEqual(self.manifest["patches"], 317)
         self.assertEqual(
             self.manifest["patch_groups"],
             [
@@ -73,12 +73,12 @@ class CompendiumTextBuildIntegrationTests(unittest.TestCase):
         self.assertEqual(
             self.manifest["runtime"],
             {
-                "bytes": 1890,
+                "bytes": 2960,
                 "capacity": 30722,
                 "arenas": [
                     {
                         "address": "0x0603d200",
-                        "bytes": 1890,
+                        "bytes": 2960,
                         "capacity": 30722,
                     }
                 ],
@@ -98,6 +98,7 @@ class CompendiumTextBuildIntegrationTests(unittest.TestCase):
                 "assets/text/skills.json",
                 "assets/text/compendium/race_descriptions.json",
                 "assets/text/compendium/ui.json",
+                "assets/text/ui/status.json",
             },
         )
         self.assertEqual(
@@ -115,6 +116,9 @@ class CompendiumTextBuildIntegrationTests(unittest.TestCase):
             "saturn/text/corpus/compendium/addressed/race_names.json",
             "saturn/text/corpus/compendium/fixed/race_descriptions.json",
             "saturn/text/corpus/compendium/fixed/fusion_help.json",
+            "saturn/text/corpus/compendium/fixed/status_base_labels.json",
+            "saturn/text/corpus/compendium/fixed/status_derived_labels.json",
+            "saturn/text/bindings/compendium_status.json",
             "saturn/engine/shared/compendium_codec.py",
         ):
             self.assertIn(expected, runtime)

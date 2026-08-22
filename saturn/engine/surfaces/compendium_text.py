@@ -19,6 +19,7 @@ from engine.core.patching import Patch, apply_patches
 from engine.core.sh2 import AssemblyError, assemble
 from engine.shared.compendium_codec import (
     CompactCodec,
+    EmbeddedFont,
     EXTENDED_CHARACTERS,
     PROFILE_TAIL_BYTES,
     build_dictionary,
@@ -65,6 +66,7 @@ ASSET_FILES = (
     ASSET_ROOT / "skills.json",
     ASSET_ROOT / "compendium" / "race_descriptions.json",
     ASSET_ROOT / "compendium" / "ui.json",
+    ASSET_ROOT / "ui" / "status.json",
 )
 BINDING_FILES = (
     BINDING_ROOT / "demon_compendium.json",
@@ -75,6 +77,7 @@ BINDING_FILES = (
     BINDING_ROOT / "compendium_race_description_headings.json",
     BINDING_ROOT / "compendium_race_descriptions.json",
     BINDING_ROOT / "compendium_ui.json",
+    BINDING_ROOT / "compendium_status.json",
 )
 CORPUS_FILES = (
     CORPUS_ROOT / "compendium" / "profiles.json",
@@ -83,6 +86,8 @@ CORPUS_FILES = (
     CORPUS_ROOT / "compendium" / "addressed" / "race_names.json",
     CORPUS_ROOT / "compendium" / "fixed" / "race_descriptions.json",
     CORPUS_ROOT / "compendium" / "fixed" / "fusion_help.json",
+    CORPUS_ROOT / "compendium" / "fixed" / "status_base_labels.json",
+    CORPUS_ROOT / "compendium" / "fixed" / "status_derived_labels.json",
 )
 RUNTIME_INPUT_FILES = (
     FONT8_PATH,
@@ -99,9 +104,12 @@ PROFILE_TAIL_OFFSET = 0x78000
 RUNTIME_ADDRESS = 0x0603D200
 RUNTIME_CAPACITY = 0x7802
 ORIGINAL_DRAW = 0x06021984
+ORIGINAL_GLYPH_DRAW = 0x06021824
 FONT_BASE = 0x00289000
-SAVED_FONT = 0x002881DC
-ROW_CODES = SAVED_FONT + 20 * 32
+MAX_COMPOSED_GLYPHS = 20
+SAVED_FONT_BYTES = MAX_COMPOSED_GLYPHS * 32
+ROW_CODE_BYTES = MAX_COMPOSED_GLYPHS * 2
+RUNTIME_SCRATCH_BYTES = SAVED_FONT_BYTES + ROW_CODE_BYTES
 
 DEMON_TABLE_OFFSET = 0x5D9B0
 DEMON_COUNT = 319
@@ -118,6 +126,12 @@ FUSION_HELP_OFFSET = 0x6D828
 FUSION_HELP_STRIDE = 0x50
 FUSION_HELP_COUNT = 11
 FUSION_HELP_ROW_WORDS = 20
+STATUS_BASE_LABEL_OFFSET = 0x69A70
+STATUS_BASE_LABEL_COUNT = 6
+STATUS_BASE_LABEL_CODES = (0x0140, 0x0141, 0x0116, 0x0142, 0x0143, 0x0144)
+STATUS_DERIVED_LABEL_OFFSET = 0x69B16
+STATUS_DERIVED_LABEL_COUNT = 6
+STATUS_DERIVED_LABEL_WORDS = 4
 
 UNRESOLVED_IDS = frozenset(
     {
@@ -151,6 +165,8 @@ POINTER_OFFSETS = (
     0x7B78,
     0x7C70,
 )
+GLYPH_POINTER_OFFSETS = (0x19E4, 0x3C90, 0x5B84, 0x6014, 0x6148, 0x6280)
+STATUS_GLYPH_POINTER_OFFSET = 0x5B84
 
 
 @dataclass(frozen=True, slots=True)
@@ -206,6 +222,11 @@ def _configuration() -> PatchRecipeConfiguration:
         ("race_names", LOAD_ADDRESS + RACE_TABLE_OFFSET, "generated"),
         ("ability_names", LOAD_ADDRESS + ABILITY_TABLE_OFFSET, "generated"),
         (
+            "status_derived_labels",
+            LOAD_ADDRESS + STATUS_DERIVED_LABEL_OFFSET,
+            "generated",
+        ),
+        (
             "race_description_layouts",
             LOAD_ADDRESS + RACE_DESCRIPTION_OFFSET,
             "generated",
@@ -219,6 +240,11 @@ def _configuration() -> PatchRecipeConfiguration:
             )
             for index, offset in enumerate(POINTER_OFFSETS)
         ),
+        (
+            "status_glyph_pointer",
+            LOAD_ADDRESS + STATUS_GLYPH_POINTER_OFFSET,
+            "linked_pointer",
+        ),
     )
     actual = tuple(
         (recipe.name, recipe.address, recipe.replacement.kind) for recipe in recipes
@@ -229,13 +255,15 @@ def _configuration() -> PatchRecipeConfiguration:
         raise ValueError("compendium runtime assembly source drifted")
     if any(
         recipe.replacement.generator != "compendium_data"
-        for recipe in recipes[1:6]
+        for recipe in recipes[1:7]
     ):
         raise ValueError("compendium data generator contract drifted")
     if any(
-        recipe.replacement.link != "compact_draw" for recipe in recipes[6:]
+        recipe.replacement.link != "compact_draw" for recipe in recipes[7:-1]
     ):
         raise ValueError("compendium drawer link contract drifted")
+    if recipes[-1].replacement.link != "compact_stat_draw":
+        raise ValueError("compendium stat-glyph link contract drifted")
     return config
 
 
@@ -330,6 +358,8 @@ def _translations() -> tuple[
     tuple[str, ...],
     tuple[str, ...],
     tuple[str, ...],
+    tuple[str, ...],
+    tuple[str, ...],
 ]:
     physical = load_physical_record_files(CORPUS_FILES)
     (
@@ -339,6 +369,8 @@ def _translations() -> tuple[
         race_ids,
         race_description_ids,
         fusion_help_ids,
+        status_base_label_ids,
+        status_derived_label_ids,
     ) = map(_corpus_ids, CORPUS_FILES)
     all_ids = (
         set(profile_ids)
@@ -347,6 +379,8 @@ def _translations() -> tuple[
         | set(race_ids)
         | set(race_description_ids)
         | set(fusion_help_ids)
+        | set(status_base_label_ids)
+        | set(status_derived_label_ids)
     )
     if (
         len(profile_ids) != 876
@@ -355,6 +389,8 @@ def _translations() -> tuple[
         or len(race_ids) != RACE_COUNT
         or len(race_description_ids) != RACE_DESCRIPTION_COUNT * 2
         or len(fusion_help_ids) != FUSION_HELP_COUNT
+        or len(status_base_label_ids) != STATUS_BASE_LABEL_COUNT
+        or len(status_derived_label_ids) != STATUS_DERIVED_LABEL_COUNT
         or set(physical) != all_ids
     ):
         raise ValueError("compendium physical text inventory drifted")
@@ -371,6 +407,7 @@ def _translations() -> tuple[
             "compendium/race_descriptions.json"
         ),
         "compendium_ui.json": PurePosixPath("compendium/ui.json"),
+        "compendium_status.json": PurePosixPath("ui/status.json"),
     }
     for path in BINDING_FILES:
         document = _read_json(path)
@@ -420,6 +457,8 @@ def _translations() -> tuple[
         race_ids,
         race_description_ids,
         fusion_help_ids,
+        status_base_label_ids,
+        status_derived_label_ids,
     )
 
 
@@ -445,11 +484,40 @@ def _align(value: int, boundary: int = 2) -> int:
     return (value + boundary - 1) & -boundary
 
 
+def _compose_stat_bitmaps(
+    labels: tuple[str, ...], embedded: EmbeddedFont
+) -> bytes:
+    """Compose six compact labels into the stock single-glyph 16x16 format."""
+    if len(labels) != STATUS_BASE_LABEL_COUNT:
+        raise ValueError("compendium base-stat label inventory drifted")
+    output = bytearray()
+    for label in labels:
+        rows = [0] * 8
+        cursor = 0
+        for character in label:
+            index = ord(character) - 0x20
+            if not 0 <= index < len(embedded.advances):
+                raise ValueError(f"unsupported compendium stat label {label!r}")
+            advance = embedded.advances[index]
+            if advance <= 0 or cursor + advance > 16:
+                raise ValueError(f"compendium stat label exceeds one glyph: {label!r}")
+            glyph = embedded.bitmaps[index * 8 : index * 8 + 8]
+            for row, bits in enumerate(glyph):
+                rows[row] |= ((bits << 24) >> cursor) >> 16
+            cursor += advance
+        for bits in rows:
+            encoded = struct.pack(">H", bits & 0xFFFF)
+            output.extend(encoded)
+            output.extend(encoded)
+    return bytes(output)
+
+
 def _runtime(
     codec: CompactCodec,
     font: bytes,
     codes: Mapping[str, int],
     advances: Mapping[str, int],
+    status_base_labels: tuple[str, ...],
 ) -> _Runtime:
     dictionary_pool = bytearray()
     offsets = bytearray()
@@ -460,19 +528,26 @@ def _runtime(
         dictionary_pool.extend(entry.encode("ascii"))
         dictionary_pool.append(0)
     embedded = build_embedded_font(font, codes, advances)
+    stat_source_codes = b"".join(
+        struct.pack(">H", code) for code in STATUS_BASE_LABEL_CODES
+    )
+    stat_bitmaps = _compose_stat_bitmaps(status_base_labels, embedded)
     source = ASSEMBLY_PATH.read_text(encoding="utf-8")
 
     probe_symbols = {
         "COMPACT_MARKER": 0x8000,
         "ORIGINAL_DRAW": ORIGINAL_DRAW,
+        "ORIGINAL_GLYPH_DRAW": ORIGINAL_GLYPH_DRAW,
         "FONT_BASE": FONT_BASE,
-        "SAVED_FONT": SAVED_FONT,
-        "ROW_CODES": ROW_CODES,
+        "SAVED_FONT": RUNTIME_ADDRESS,
+        "ROW_CODES": RUNTIME_ADDRESS,
         "EXTENDED_TABLE": RUNTIME_ADDRESS,
         "DICTIONARY_OFFSETS": RUNTIME_ADDRESS,
         "DICTIONARY_POOL": RUNTIME_ADDRESS,
         "FONT_BITMAPS": RUNTIME_ADDRESS,
         "FONT_WIDTHS": RUNTIME_ADDRESS,
+        "STAT_SOURCE_CODES": RUNTIME_ADDRESS,
+        "STAT_BITMAPS": RUNTIME_ADDRESS,
     }
     try:
         probe = assemble(source, RUNTIME_ADDRESS, probe_symbols)
@@ -491,6 +566,16 @@ def _runtime(
     cursor += len(embedded.bitmaps)
     widths_offset = cursor
     cursor += len(embedded.advances)
+    cursor = _align(cursor, 2)
+    stat_source_codes_offset = cursor
+    cursor += len(stat_source_codes)
+    stat_bitmaps_offset = cursor
+    cursor += len(stat_bitmaps)
+    cursor = _align(cursor, 4)
+    saved_font_offset = cursor
+    cursor += SAVED_FONT_BYTES
+    row_codes_offset = cursor
+    cursor += ROW_CODE_BYTES
     symbols = {
         **probe_symbols,
         "EXTENDED_TABLE": RUNTIME_ADDRESS + extended_offset,
@@ -498,6 +583,10 @@ def _runtime(
         "DICTIONARY_POOL": RUNTIME_ADDRESS + pool_offset,
         "FONT_BITMAPS": RUNTIME_ADDRESS + bitmap_offset,
         "FONT_WIDTHS": RUNTIME_ADDRESS + widths_offset,
+        "STAT_SOURCE_CODES": RUNTIME_ADDRESS + stat_source_codes_offset,
+        "STAT_BITMAPS": RUNTIME_ADDRESS + stat_bitmaps_offset,
+        "SAVED_FONT": RUNTIME_ADDRESS + saved_font_offset,
+        "ROW_CODES": RUNTIME_ADDRESS + row_codes_offset,
     }
     try:
         assembly = assemble(source, RUNTIME_ADDRESS, symbols)
@@ -515,6 +604,10 @@ def _runtime(
     used[pool_offset : pool_offset + len(dictionary_pool)] = dictionary_pool
     used[bitmap_offset : bitmap_offset + len(embedded.bitmaps)] = embedded.bitmaps
     used[widths_offset : widths_offset + len(embedded.advances)] = embedded.advances
+    used[
+        stat_source_codes_offset : stat_source_codes_offset + len(stat_source_codes)
+    ] = stat_source_codes
+    used[stat_bitmaps_offset : stat_bitmaps_offset + len(stat_bitmaps)] = stat_bitmaps
     if len(used) > RUNTIME_CAPACITY:
         raise ValueError(
             f"compendium runtime uses {len(used)} bytes, capacity {RUNTIME_CAPACITY}"
@@ -522,7 +615,12 @@ def _runtime(
     return _Runtime(
         bytes(used) + bytes(RUNTIME_CAPACITY - len(used)),
         len(used),
-        MappingProxyType({"compact_draw": assembly.labels["compact_draw"]}),
+        MappingProxyType(
+            {
+                "compact_draw": assembly.labels["compact_draw"],
+                "compact_stat_draw": assembly.labels["compact_stat_draw"],
+            }
+        ),
     )
 
 
@@ -536,6 +634,7 @@ def _a_dic_tables(
     race_ids: tuple[str, ...],
     race_description_ids: tuple[str, ...],
     fusion_help_ids: tuple[str, ...],
+    status_derived_label_ids: tuple[str, ...],
 ) -> Mapping[str, bytes]:
     demons = b"".join(codec.encode_row(translations[record], 8) for record in demon_ids)
     abilities = b"".join(
@@ -593,12 +692,18 @@ def _a_dic_tables(
         )
         for record in fusion_help_ids
     )
+    status_derived_labels = b"".join(
+        codec.encode_row(translations[record], STATUS_DERIVED_LABEL_WORDS)
+        for record in status_derived_label_ids
+    )
     if len(demons) != DEMON_COUNT * 16 or len(abilities) != ABILITY_COUNT * 16:
         raise AssertionError("compendium table compiler changed fixed geometry")
     if (
         len(race_descriptions)
         != RACE_DESCRIPTION_COUNT * RACE_DESCRIPTION_STRIDE
         or len(fusion_help) != FUSION_HELP_COUNT * FUSION_HELP_STRIDE
+        or len(status_derived_labels)
+        != STATUS_DERIVED_LABEL_COUNT * STATUS_DERIVED_LABEL_WORDS * 2
     ):
         raise AssertionError("compendium layout compiler changed fixed geometry")
     return MappingProxyType(
@@ -608,6 +713,7 @@ def _a_dic_tables(
             "ability_names": abilities,
             "race_description_layouts": bytes(race_descriptions),
             "fusion_help_rows": fusion_help,
+            "status_derived_labels": status_derived_labels,
         }
     )
 
@@ -655,10 +761,15 @@ def build_compendium_text(
         race_ids,
         race_description_ids,
         fusion_help_ids,
+        status_base_label_ids,
+        status_derived_label_ids,
     ) = _translations()
     font, _metrics, codes, advances = _font()
     codec = CompactCodec(build_dictionary(translations.values()))
-    runtime = _runtime(codec, font, codes, advances)
+    status_base_labels = tuple(
+        translations[record] for record in status_base_label_ids
+    )
+    runtime = _runtime(codec, font, codes, advances, status_base_labels)
 
     a_dic_source = source_files[TARGET]
     tables = _a_dic_tables(
@@ -671,6 +782,7 @@ def build_compendium_text(
         race_ids,
         race_description_ids,
         fusion_help_ids,
+        status_derived_label_ids,
     )
     a_dic_patches = _a_dic_patches(config, a_dic_source, runtime, tables)
     outputs: dict[str, bytes] = {

@@ -42,6 +42,7 @@
           "assembly": [
             "status_ui/font16_vwf.s",
             "status_ui/skill_vwf.s",
+            "status_ui/auto_action_vwf.s",
             "status_ui/affinity_font8_vwf.s",
             "status_ui/name_race_dispatcher.s",
             "status_ui/affinity_dispatcher.s",
@@ -59,6 +60,18 @@
           "address": "0x06031a64",
           "expected": "06039250",
           "linked_pointer": "skill_name_drawer"
+        },
+        {
+          "name": "item_name_drawer",
+          "address": "0x06031b08",
+          "expected": "06039250",
+          "linked_pointer": "skill_name_drawer"
+        },
+        {
+          "name": "auto_action_name_drawer",
+          "address": "0x06036904",
+          "expected": "06039250",
+          "linked_pointer": "auto_action_drawer"
         },
         {
           "name": "affinity_drawer",
@@ -81,6 +94,12 @@
         {
           "name": "restore_item_icon_atlas_0603adf8",
           "address": "0x0603adf8",
+          "expected": "060396cc",
+          "linked_pointer": "stock_icon_drawer"
+        },
+        {
+          "name": "restore_auto_config_icon_atlas",
+          "address": "0x06031c44",
           "expected": "060396cc",
           "linked_pointer": "stock_icon_drawer"
         },

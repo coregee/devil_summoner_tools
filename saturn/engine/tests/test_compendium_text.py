@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import hashlib
+import struct
 import unittest
 from unittest.mock import patch
 
@@ -25,6 +26,8 @@ class CompendiumTextSurfaceTests(unittest.TestCase):
             cls.race_ids,
             cls.race_description_ids,
             cls.fusion_help_ids,
+            cls.status_base_label_ids,
+            cls.status_derived_label_ids,
         ) = surface._translations()
         cls.codec = CompactCodec(build_dictionary(cls.translations.values()))
         cls.build = surface.build_compendium_text(cls.sources)
@@ -32,7 +35,7 @@ class CompendiumTextSurfaceTests(unittest.TestCase):
     def test_exact_target_and_patch_inventory(self) -> None:
         self.assertEqual(len(self.build.outputs), 293)
         self.assertEqual(set(self.build.outputs), set(self.sources))
-        self.assertEqual(len(self.build.patches[surface.TARGET]), 23)
+        self.assertEqual(len(self.build.patches[surface.TARGET]), 25)
         self.assertTrue(
             all(
                 len(patches) == 1
@@ -41,7 +44,7 @@ class CompendiumTextSurfaceTests(unittest.TestCase):
             )
         )
         self.assertEqual(
-            sum(len(patches) for patches in self.build.patches.values()), 315
+            sum(len(patches) for patches in self.build.patches.values()), 317
         )
         self.assertEqual(self.build.unresolved_ids, surface.UNRESOLVED_IDS)
         self.assertEqual(self.build.assembly_files, (surface.ASSEMBLY_PATH,))
@@ -49,7 +52,7 @@ class CompendiumTextSurfaceTests(unittest.TestCase):
     def test_default_hashes_and_runtime_capacity_are_deterministic(self) -> None:
         self.assertEqual(
             hashlib.sha256(self.build.outputs[surface.TARGET]).hexdigest(),
-            "b4884845db76ee6461cf2383f958e2c4599f8e43fb552636177fece8787d3a7f",
+            "e333bcee225c5f64bbee88ca907b72bc4201330018cee958c70bddc5ef526232",
         )
         catalogue = hashlib.sha256()
         for path, data in sorted(self.build.outputs.items()):
@@ -58,9 +61,9 @@ class CompendiumTextSurfaceTests(unittest.TestCase):
             catalogue.update(hashlib.sha256(data).digest())
         self.assertEqual(
             catalogue.hexdigest(),
-            "de2d414ae012f77ba9392e3bdeece3237a00471de84aa8304f3cfc2fedfa9061",
+            "ad7774e7e9bf68a87c4255eb350eac1c6f11ba1cd0d67bf15ef2dbe6ed3a6c3b",
         )
-        self.assertEqual(self.build.runtime_used_size, 1890)
+        self.assertEqual(self.build.runtime_used_size, 2960)
         self.assertEqual(self.build.runtime_capacity, 30722)
         runtime = self.build.outputs[surface.TARGET][
             surface.RUNTIME_ADDRESS
@@ -70,8 +73,19 @@ class CompendiumTextSurfaceTests(unittest.TestCase):
         ]
         self.assertEqual(
             hashlib.sha256(runtime).hexdigest(),
-            "aeffd977c68c01ba299314fdbe7abac6aebbf0a58967b0e46ba7dcb539bb0598",
+            "0810e27ab3667e0a7184f8d547f4c1c73db22f9935ac22dd0759a08c59a2539e",
         )
+        scratch = (
+            surface.RUNTIME_ADDRESS
+            + self.build.runtime_used_size
+            - surface.RUNTIME_SCRATCH_BYTES
+        )
+        self.assertIn(struct.pack(">I", scratch), runtime)
+        self.assertEqual(
+            runtime[-surface.RUNTIME_SCRATCH_BYTES :],
+            bytes(surface.RUNTIME_SCRATCH_BYTES),
+        )
+        self.assertNotIn(struct.pack(">I", 0x002881DC), runtime)
 
     def test_profile_outputs_change_only_the_proved_tail(self) -> None:
         for target, output in self.build.outputs.items():
@@ -183,11 +197,59 @@ class CompendiumTextSurfaceTests(unittest.TestCase):
         pointer = surface.RUNTIME_ADDRESS.to_bytes(4, "big")
         for offset in surface.POINTER_OFFSETS:
             self.assertEqual(output[offset : offset + 4], pointer)
+        stat_pointer = output[
+            surface.STATUS_GLYPH_POINTER_OFFSET : surface.STATUS_GLYPH_POINTER_OFFSET
+            + 4
+        ]
+        self.assertNotEqual(stat_pointer, struct.pack(">I", surface.ORIGINAL_GLYPH_DRAW))
         source = surface.ASSEMBLY_PATH.read_text(encoding="utf-8")
         self.assertIn("compact_draw:", source)
+        self.assertIn("compact_stat_draw:", source)
         self.assertIn("ORIGINAL_DRAW", source)
         self.assertNotIn(".byte", source)
         self.assertNotIn(".word", source)
+
+    def test_stock_blitter_pointer_scan_is_exhaustive(self) -> None:
+        source = self.sources[surface.TARGET]
+        row_pointer = struct.pack(">I", surface.ORIGINAL_DRAW)
+        glyph_pointer = struct.pack(">I", surface.ORIGINAL_GLYPH_DRAW)
+        self.assertEqual(
+            tuple(
+                offset
+                for offset in range(len(source))
+                if source.startswith(row_pointer, offset)
+            ),
+            surface.POINTER_OFFSETS,
+        )
+        self.assertEqual(
+            tuple(
+                offset
+                for offset in range(len(source))
+                if source.startswith(glyph_pointer, offset)
+            ),
+            surface.GLYPH_POINTER_OFFSETS,
+        )
+
+    def test_status_labels_use_both_proved_blitter_adapters(self) -> None:
+        output = self.build.outputs[surface.TARGET]
+        for index, record in enumerate(self.status_derived_label_ids):
+            start = surface.STATUS_DERIVED_LABEL_OFFSET + index * 8
+            self.assertEqual(
+                self.codec.decode_row(output[start : start + 8]),
+                self.translations[record],
+            )
+        font, _metrics, codes, advances = surface._font()
+        embedded = surface.build_embedded_font(font, codes, advances)
+        labels = tuple(
+            self.translations[record] for record in self.status_base_label_ids
+        )
+        bitmaps = surface._compose_stat_bitmaps(labels, embedded)
+        self.assertEqual(len(bitmaps), surface.STATUS_BASE_LABEL_COUNT * 32)
+        for glyph in range(surface.STATUS_BASE_LABEL_COUNT):
+            cell = bitmaps[glyph * 32 : (glyph + 1) * 32]
+            self.assertNotEqual(cell, bytes(32))
+            for row in range(0, 32, 4):
+                self.assertEqual(cell[row : row + 2], cell[row + 2 : row + 4])
 
     def test_authored_edit_propagates_to_its_profile_tail(self) -> None:
         changed = dict(self.translations)
@@ -201,6 +263,8 @@ class CompendiumTextSurfaceTests(unittest.TestCase):
             self.race_ids,
             self.race_description_ids,
             self.fusion_help_ids,
+            self.status_base_label_ids,
+            self.status_derived_label_ids,
         )
         with patch.object(surface, "_translations", return_value=mocked):
             edited = surface.build_compendium_text(self.sources)
@@ -228,6 +292,8 @@ class CompendiumTextSurfaceTests(unittest.TestCase):
             self.race_ids,
             self.race_description_ids,
             self.fusion_help_ids,
+            self.status_base_label_ids,
+            self.status_derived_label_ids,
         )
         with patch.object(surface, "_translations", return_value=mocked):
             edited = surface.build_compendium_text(self.sources)

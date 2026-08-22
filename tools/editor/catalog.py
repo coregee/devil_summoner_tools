@@ -166,10 +166,18 @@ class CorpusCatalog:
             for key, value in uses.items()
         }
 
-    def list_entries(self, query: str = "", limit: int = 250) -> dict[str, Any]:
+    def list_entries(
+        self,
+        query: str = "",
+        limit: int = 250,
+        *,
+        surface: str | None = None,
+    ) -> dict[str, Any]:
         needle = query.casefold().strip()
         rows: list[dict[str, Any]] = []
         total = 0
+        matching_total = 0
+        surface_counts: Counter[str] = Counter()
         with self._lock:
             for asset, document in self._documents.items():
                 for entry_name, entry in document["entries"].items():
@@ -177,20 +185,6 @@ class CorpusCatalog:
                         if field_name in {"status", "note", "placeholders"}:
                             continue
                         key = EntryKey(asset, entry_name, field_name)
-                        haystack = "\n".join(
-                            (
-                                asset,
-                                entry_name,
-                                field_name,
-                                str(field.get("reference", "")),
-                                str(field.get("translation", "")),
-                            )
-                        ).casefold()
-                        if needle and needle not in haystack:
-                            continue
-                        total += 1
-                        if len(rows) >= limit:
-                            continue
                         consumers = self._consumers.get((asset, key.asset_ref), ())
                         surfaces = sorted(
                             {
@@ -199,6 +193,31 @@ class CorpusCatalog:
                                 if item.surface is not None
                             }
                         )
+                        haystack = "\n".join(
+                            (
+                                asset,
+                                entry_name,
+                                field_name,
+                                str(field.get("reference", "")),
+                                str(field.get("translation", "")),
+                                *surfaces,
+                            )
+                        ).casefold()
+                        if needle and needle not in haystack:
+                            continue
+                        matching_total += 1
+                        if surfaces:
+                            surface_counts.update(surfaces)
+                        else:
+                            surface_counts["__unmapped__"] += 1
+                        if surface == "__unmapped__":
+                            if surfaces:
+                                continue
+                        elif surface is not None and surface not in surfaces:
+                            continue
+                        total += 1
+                        if len(rows) >= limit:
+                            continue
                         rows.append(
                             {
                                 "id": key.id,
@@ -215,7 +234,19 @@ class CorpusCatalog:
                                 "consumer_count": len(consumers),
                             }
                         )
-        return {"entries": rows, "total": total, "limited": total > len(rows)}
+        return {
+            "entries": rows,
+            "total": total,
+            "matching_total": matching_total,
+            "limited": total > len(rows),
+            "surface_counts": [
+                {"name": name, "count": count}
+                for name, count in sorted(
+                    surface_counts.items(),
+                    key=lambda item: (item[0] == "__unmapped__", item[0]),
+                )
+            ],
+        }
 
     def entry(self, value: str) -> dict[str, Any]:
         key = EntryKey.parse(value)
@@ -244,6 +275,7 @@ class CorpusCatalog:
                 "font8_configurable": font8_configurable,
                 "note": field.get("note") or raw_entry.get("note"),
                 "status": raw_entry.get("status"),
+                "placeholders": copy.deepcopy(raw_entry.get("placeholders", {})),
                 "variants": copy.deepcopy(field.get("variants", {})),
                 "consumers": [
                     {"record_id": item.record_id, "surface": item.surface}

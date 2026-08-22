@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "press_start_button": {
+      "text": {
+        "reference": "PRESS START BUTTON",
+        "translation": "PRESS START BUTTON",
+        "note": "Semantic wording for the sixteen positional RGB555 glyph records beginning at TITLE.BIN 0x1DD84. The Saturn visual package owns the raster bytes."
+      }
+    },
+    "start": {
+      "text": {
+        "reference": "START",
+        "translation": "START",
+        "note": "Semantic wording for the first five TITLE.BIN menu glyph records beginning at 0x1F584."
+      }
+    },
+    "option": {
+      "text": {
+        "reference": "OPTION",
+        "translation": "OPTION",
+        "note": "Semantic wording for the final six TITLE.BIN menu glyph records beginning at 0x1FB24."
+      }
+    }
+  }
+}

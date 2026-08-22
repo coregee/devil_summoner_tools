@@ -19,6 +19,26 @@ class SurfaceCatalogTests(unittest.TestCase):
         cls.catalog = load_surfaces()
 
     def test_documented_translation_geometries(self) -> None:
+        prompt = self.catalog.surface("title.press_start")
+        self.assertEqual(
+            (
+                prompt.en.font,
+                prompt.en.rows,
+                prompt.en.width.unit,
+                prompt.en.width.value,
+            ),
+            ("title_prompt", 1, "pixels", 256),
+        )
+        self.assertEqual(prompt.en.glyphs, 16)
+        self.assertEqual(
+            self.catalog.surface("title.menu_start").en.glyphs,
+            5,
+        )
+        self.assertEqual(
+            self.catalog.surface("title.menu_option").en.glyphs,
+            6,
+        )
+
         event = self.catalog.surface("event.dialogue")
         self.assertEqual(
             (event.ja.font, event.ja.rows, event.ja.width.unit, event.ja.width.value),
@@ -55,6 +75,19 @@ class SurfaceCatalogTests(unittest.TestCase):
                 negotiation.en.width.value,
             ),
             ("font16", 3, "pixels", 300),
+        )
+
+        negotiation_choice = self.catalog.surface("battle.negotiation_choice")
+        self.assertEqual(
+            (
+                negotiation_choice.en.font,
+                negotiation_choice.en.rows,
+                negotiation_choice.en.width.unit,
+                negotiation_choice.en.width.value,
+                negotiation_choice.en.advisory_width.unit,
+                negotiation_choice.en.advisory_width.value,
+            ),
+            ("font16", 1, "pixels", 150, "pixels", 142),
         )
 
         console = self.catalog.surface("battle.console")
@@ -453,6 +486,8 @@ class SurfaceCatalogTests(unittest.TestCase):
             "compendium.race_description_heading": (1, 14, 224),
             "compendium.race_description": (4, 14, 224),
             "compendium.fusion_help": (2, 20, 320),
+            "compendium.status_base_label": (1, 1, 16),
+            "compendium.status_derived_label": (1, 4, 64),
             "compendium.origin": (1, 9, 144),
             "compendium.summary": (4, 14, 224),
             "compendium.detail": (12, 14, 224),

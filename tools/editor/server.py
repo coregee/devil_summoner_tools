@@ -47,7 +47,9 @@ class EditorRequestHandler(BaseHTTPRequestHandler):
                     raise ValueError("limit must be an integer") from None
                 self._json(
                     self.server.application.catalog.list_entries(
-                        query.get("q", [""])[0], limit
+                        query.get("q", [""])[0],
+                        limit,
+                        surface=query.get("surface", [None])[0],
                     )
                 )
                 return

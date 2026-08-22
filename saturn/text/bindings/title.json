@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "asset": "ui/title.json",
+  "records": {
+    "game.title_visual.o01dd84": "press_start_button.text",
+    "game.title_visual.o01f584": "start.text",
+    "game.title_visual.o01fb24": "option.text"
+  },
+  "record_surfaces": {
+    "game.title_visual.o01dd84": [
+      "title.press_start"
+    ],
+    "game.title_visual.o01f584": [
+      "title.menu_start"
+    ],
+    "game.title_visual.o01fb24": [
+      "title.menu_option"
+    ]
+  },
+  "unresolved": {
+    "game.title_visual.o01dd84": "The visual glyph positions are proved, but profile-specific raster generation and publication are not implemented.",
+    "game.title_visual.o01f584": "The visual glyph positions are proved, but profile-specific raster generation and publication are not implemented.",
+    "game.title_visual.o01fb24": "The visual glyph positions are proved, but profile-specific raster generation and publication are not implemented."
+  }
+}

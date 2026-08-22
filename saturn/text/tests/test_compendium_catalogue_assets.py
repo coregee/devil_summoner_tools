@@ -30,6 +30,7 @@ class CompendiumCatalogueAssetTests(unittest.TestCase):
                 "compendium_race_description_headings.json",
                 "compendium_race_descriptions.json",
                 "compendium_ui.json",
+                "compendium_status.json",
             )
         )
         cls.description_rows = json.loads(
@@ -45,10 +46,29 @@ class CompendiumCatalogueAssetTests(unittest.TestCase):
                 CORPUS_ROOT / "compendium" / "fixed" / "fusion_help.json"
             ).read_text(encoding="utf-8")
         )
+        cls.status_base_rows = json.loads(
+            (
+                CORPUS_ROOT / "compendium" / "fixed" / "status_base_labels.json"
+            ).read_text(encoding="utf-8")
+        )
+        cls.status_derived_rows = json.loads(
+            (
+                CORPUS_ROOT
+                / "compendium"
+                / "fixed"
+                / "status_derived_labels.json"
+            ).read_text(encoding="utf-8")
+        )
 
-    def test_all_107_physical_fields_have_one_explicit_owner(self) -> None:
+    def test_all_119_physical_fields_have_one_explicit_owner(self) -> None:
         physical_ids = {
-            row["id"] for row in (*self.description_rows, *self.fusion_rows)
+            row["id"]
+            for row in (
+                *self.description_rows,
+                *self.fusion_rows,
+                *self.status_base_rows,
+                *self.status_derived_rows,
+            )
         }
         owners: dict[str, int] = {}
         unresolved: set[str] = set()
@@ -56,7 +76,7 @@ class CompendiumCatalogueAssetTests(unittest.TestCase):
             for physical_id in binding.records:
                 owners[physical_id] = owners.get(physical_id, 0) + 1
             unresolved.update(binding.unresolved)
-        self.assertEqual(len(physical_ids), 107)
+        self.assertEqual(len(physical_ids), 119)
         self.assertEqual(set(owners), physical_ids)
         self.assertTrue(all(count == 1 for count in owners.values()))
         self.assertEqual(
@@ -79,7 +99,13 @@ class CompendiumCatalogueAssetTests(unittest.TestCase):
         help_entries = {
             key: entry
             for key, entry in self.ui_asset.entries.items()
-            if key not in {"no_data_heading", "blank_description"}
+            if key
+            not in {
+                "no_data_heading",
+                "blank_description",
+                "defense",
+                "magic_defense",
+            }
         }
         self.assertEqual(len(help_entries), 11)
         self.assertTrue(

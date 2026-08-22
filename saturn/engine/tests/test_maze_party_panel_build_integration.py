@@ -49,7 +49,7 @@ class MazePartyPanelBuildIntegrationTests(unittest.TestCase):
         field_manifest = self.outputs[FIELD_MESSAGES_BUILD_MANIFEST_PATH]
         self.assertEqual(
             _sha256(terminal),
-            "4acac957d02e706eab0e76344e5d82ed1aa672e7ae39d739ad9f40e3d5669b6d",
+            "c45b897557852679a855b8c4e01c627fd2531d8b5be07072bb49de5a0ff2e5e1",
         )
         self.assertEqual(self.manifest["surface"], "maze.party_panel")
         self.assertEqual(self.manifest["patches"], 5)
