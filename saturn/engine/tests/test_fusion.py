@@ -37,10 +37,10 @@ class FusionEngineTests(unittest.TestCase):
         cls.manifest = json.loads(cls.outputs[FUSION_BUILD_MANIFEST_PATH])
 
     def test_proven_runtime_is_reproduced_exactly(self) -> None:
-        self.assertEqual(len(self.fusion.runtime), 5786)
+        self.assertEqual(len(self.fusion.runtime), 5908)
         self.assertEqual(
             hashlib.sha256(self.fusion.runtime).hexdigest(),
-            "69270adb74c7322fbd69af9e52ab51229409c705943d73dbb07890f8120589e4",
+            "a4f81dc54ea72f0bf93c8ea9ade768de11b8e5a0eb8bccc1b149aa002aff56cf",
         )
 
         self.assertEqual(
@@ -70,6 +70,8 @@ class FusionEngineTests(unittest.TestCase):
                 "fusion_character_name": 0x06022C6E,
                 "fusion_word_font8_glyph": 0x06022D96,
                 "fusion_guide_mixed_glyph": 0x06022DF2,
+                "confirmation_drawer": 0x06022E9C,
+                "confirmation_drawer_code": 0x06022E9C,
             },
         )
 
@@ -101,6 +103,7 @@ class FusionEngineTests(unittest.TestCase):
                 "asm/font16_surface_blitter.s",
                 "asm/fusion/confirmation_pointer_lookup.s",
                 "asm/fusion/confirmation_pointer_lookup_stock.s",
+                "asm/fusion/confirmation_drawer.s",
                 "asm/fusion/font8_surface_blitter.s",
                 "asm/fusion/name_drawers.s",
                 "asm/fusion/name_sort.s",
@@ -108,6 +111,26 @@ class FusionEngineTests(unittest.TestCase):
         )
         module_source = Path(__file__).resolve().parents[1] / "surfaces" / "fusion.py"
         self.assertNotIn("bytes.fromhex", module_source.read_text(encoding="utf-8"))
+
+    def test_confirmation_uses_a_string_drawer_not_the_single_glyph_blitter(self) -> None:
+        patches = {row.name: row for row in self.fusion.patches}
+        self.assertEqual(
+            patches["vwf_drawer"].replacement,
+            struct.pack(">I", self.fusion.addresses["confirmation_drawer"]),
+        )
+        self.assertNotEqual(
+            patches["vwf_drawer"].replacement,
+            struct.pack(">I", self.fusion.addresses["surface_blitter"]),
+        )
+        source = (
+            Path(__file__).resolve().parents[1]
+            / "asm"
+            / "fusion"
+            / "confirmation_drawer.s"
+        ).read_text(encoding="utf-8")
+        self.assertIn("mov     r11, r6", source)
+        self.assertIn("add     r2, r11", source)
+        self.assertNotIn("add     r2, r10", source)
 
     def test_patch_inventory_is_a_typed_recipe(self) -> None:
         source = CONFIG_PATH.read_text(encoding="utf-8")
@@ -141,7 +164,7 @@ class FusionEngineTests(unittest.TestCase):
         self.assertEqual(len(output), 354072)
         self.assertEqual(
             hashlib.sha256(output).hexdigest(),
-            "96fc22ba20d5d8d1fe03569a2c2a38090d765abec120a5fb030ac0db786347e2",
+            "e5455cf2f13db5389ecf3e76d81047d334f8d688deed5ef64c4ae1409f87f749",
         )
 
     def test_manifest_accounts_for_every_consumer_patch(self) -> None:
@@ -157,7 +180,7 @@ class FusionEngineTests(unittest.TestCase):
                 for path in self.fusion.assembly_files
             },
         )
-        self.assertEqual(self.manifest["runtime"]["end"], "0x06022e9a")
+        self.assertEqual(self.manifest["runtime"]["end"], "0x06022f14")
         self.assertEqual(self.manifest["patches"], 67)
         self.assertEqual(
             self.manifest["patch_groups"],

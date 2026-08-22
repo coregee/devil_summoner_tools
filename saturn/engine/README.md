@@ -322,13 +322,14 @@ python saturn/engine/build.py portrait_scene.ui --check
 ## Fusion menu
 
 `fusion.menu` composes the general EVENT runtime with all Gouma-den consumers
-that read the direct FONT12 records in `SHOPSMP.EVE`. It rebuilds the mature
-5,786-byte Fusion runtime exactly from current shared assets and font metrics:
+that read the direct FONT12 records in `SHOPSMP.EVE`. It rebuilds the Fusion
+runtime directly from current shared assets and font metrics:
 demon, character, full race, preview-race, and compact chart labels are all
 editable data. It also ports the English name sort, list, preview, result table,
 chart, Guide, Help, and confirmation paths.
 
-The generated runtime is byte-identical to the trusted mature Saturn runtime.
+The generated runtime retains the trusted mature Saturn behavior and adds a
+compatible proportional FONT16 string drawer for the confirmation window.
 `config/fusion.json` declares all 67 sites as typed recipes, while shared
 renderers and surface-specific behavior live under `asm/` and `asm/fusion/`.
 The surrounding patches name each consumer and verify their stock bytes. The
@@ -364,7 +365,7 @@ The stage reads the shared player-name ABI from `shared/player_names.py` and
 publishes `generated/game/event_name_inserts/EVENT.BIN` plus its own manifest.
 It does not import the Profile Entry surface or read mutable installed outputs.
 On the checked Fusion base its hash is
-`587683072bb86e91085d752c0ea7399182667a417c2618754888e687e93679f6`.
+`da9cae6d5030a6c3a7862a799a3bd9ff3267ab49423524a65eef446f41cf3b67`.
 This intermediate is deliberately not installed: Equipment consumes it and
 publishes another checked intermediate, which `facilities.status_ui` turns into
 the facility-complete EVENT base consumed by `fmv.subtitles`. Fusion, name
@@ -513,7 +514,7 @@ renderer sources; `config/equipment_ui.json` contains no executable replacement
 hex.
 
 The equipment EVENT intermediate hash is
-`1ffb315598c74bf0b0cb1a85b68097ba10ed050fdb6b1795ef00f2c8485f695e`
+`17024077453e578315e289e93bae6d887ef86c43f353f3c1fbb5363f183f119e`
 after composing the name adapters and mature equipment groups. Cave ownership
 is expanded to the proved zero-filled boundaries so edited labels can grow
 safely, while pixel and glyph limits fail before any binary is written.
@@ -557,7 +558,7 @@ separate verified zero arena at `0x06065bb4..0x06065f00`. The default payload
 uses 12,306 of 12,640 bytes across both arenas and leaves the terminal FMV
 subtitle code/data ranges untouched. On the current composed equipment base,
 the facility-complete EVENT has SHA-256
-`7f765a31d200d641e1bc2b254a4575e965c6228aae611b7e7bf4360c70ff20d9`.
+`d1f8e3050d56c50ca6e1cafe80ce993e399a91c53c31acc2487f30e00bd261f6`.
 The shared command recipe intentionally corrects the legacy port's `REVIEW`
 typo to the authored Healer command `REVIVE`; `STATUS` remains shared with the
 Bar. Both words use the preserved stock-Latin cells selected by their declared

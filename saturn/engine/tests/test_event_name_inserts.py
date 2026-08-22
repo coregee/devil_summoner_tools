@@ -44,12 +44,12 @@ class EventNameInsertsEngineTests(unittest.TestCase):
         fusion = build_fusion_menu(stock_event(), dialogue).data
         self.assertEqual(
             hashlib.sha256(fusion).hexdigest(),
-            "906ffa353eceb0e09ad10f5dde4cbdc08e469dfe11e43d1ff653b2c004f4d826",
+            "e5455cf2f13db5389ecf3e76d81047d334f8d688deed5ef64c4ae1409f87f749",
         )
         composed = inserts.build_event_name_inserts(fusion)
         self.assertEqual(
             hashlib.sha256(composed.data).hexdigest(),
-            "587683072bb86e91085d752c0ea7399182667a417c2618754888e687e93679f6",
+            "da9cae6d5030a6c3a7862a799a3bd9ff3267ab49423524a65eef446f41cf3b67",
         )
 
     def test_exact_fifteen_recipe_inventory_is_readable(self) -> None:

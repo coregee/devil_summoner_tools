@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Build Saturn Patch (Full)",
+      "name": "Build Saturn Patch",
       "type": "node-terminal",
       "request": "launch",
       "command": "python saturn/build.py default",
@@ -16,29 +16,15 @@
       "problemMatcher": []
     },
     {
-      "name": "Build Saturn Patch (Check Only)",
+      "name": "Build PSP Patch",
       "type": "node-terminal",
       "request": "launch",
-      "command": "python saturn/build.py default --check",
+      "command": "python psp/build.py default",
       "cwd": "${workspaceFolder}",
       "presentation": {
         "hidden": false,
         "group": "build",
-        "order": 2
-      },
-      "preLaunchTask": null,
-      "problemMatcher": []
-    },
-    {
-      "name": "Build Saturn Patch (Plan Only)",
-      "type": "node-terminal",
-      "request": "launch",
-      "command": "python saturn/build.py default --plan",
-      "cwd": "${workspaceFolder}",
-      "presentation": {
-        "hidden": false,
-        "group": "build",
-        "order": 3
+        "order": 4
       },
       "preLaunchTask": null,
       "problemMatcher": []

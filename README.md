@@ -18,7 +18,7 @@ included English translation.
 | --- | --- | --- |
 | Sega Saturn Rev. B game | Complete configured build | Functional, but not comprehensively reviewed or playtested |
 | Sega Saturn *Akuma Zensho* | Complete configured build for every proved text and visual span | Structurally verified; runtime playtesting remains |
-| PSP | No build implementation | Planned |
+| PSP | Font catalogue and first checked engine surface | No integrated build |
 
 "Complete configured build" means the repository can regenerate and verify all
 translation work currently represented here. It does not mean every English
@@ -35,7 +35,7 @@ either disc has been tested in game.
 | `saturn/engine` | Twenty-four checked surface builds covering the translated executable consumers, lossless FMV subtitles, and the complete proved compendium text inventory |
 | `saturn/visual` | 2,365 game image views and 295 classified compendium image structures, with sparse tracked replacements |
 | `saturn/rom` | Verified extraction and transactional rebuilding of both Saturn discs |
-| `psp` | Initial PSP font-resource catalogue and codecs; text, engine, visual, UMD publication, and a build workflow remain to be ported |
+| `psp` | Initial font-resource catalogue and codecs plus a checked, readable title-help Allegrex surface; text, remaining engine surfaces, visual, UMD publication, and a build workflow remain to be ported |
 | `tools` | Local browser-based translation editing, bound-consumer validation, and exact-font surface previews |
 
 The remaining work is chiefly translation review and playtesting, semantic

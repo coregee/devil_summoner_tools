@@ -15,6 +15,7 @@ from engine.core.patch_recipes import (
 )
 from engine.core.sh2 import AssemblyError, assemble, assemble_file
 from engine.shared.demon_sort import encode_sorted_pool
+from engine.shared.event_window import font16_layout as shared_font16_layout
 from text.util.assets import BINDING_ROOT, load_asset, load_binding
 from text.util.event_repack import FontMetrics
 from text.util.surfaces import load_surfaces
@@ -34,6 +35,7 @@ SURFACE_BLITTER_SOURCE = ASSEMBLY_ROOT / "font16_surface_blitter.s"
 FONT8_BLITTER_SOURCE = FUSION_ASSEMBLY_ROOT / "font8_surface_blitter.s"
 NAME_DRAWERS_SOURCE = FUSION_ASSEMBLY_ROOT / "name_drawers.s"
 NAME_SORT_SOURCE = FUSION_ASSEMBLY_ROOT / "name_sort.s"
+CONFIRMATION_DRAWER_SOURCE = FUSION_ASSEMBLY_ROOT / "confirmation_drawer.s"
 CONFIRMATION_LOOKUP_SOURCE = (
     FUSION_ASSEMBLY_ROOT / "confirmation_pointer_lookup.s"
 )
@@ -45,6 +47,7 @@ ASSEMBLY_FILES = (
     FONT8_BLITTER_SOURCE,
     NAME_DRAWERS_SOURCE,
     NAME_SORT_SOURCE,
+    CONFIRMATION_DRAWER_SOURCE,
     CONFIRMATION_LOOKUP_SOURCE,
     CONFIRMATION_LOOKUP_STOCK_SOURCE,
 )
@@ -430,6 +433,24 @@ def _runtime_payload() -> tuple[bytes, dict[str, int], tuple[Path, ...]]:
     )
     addresses["name_drawers"] = drawer_address
     payload.extend(drawer)
+
+    _align(payload, 4)
+    confirmation_address = CAVE_ADDRESS + len(payload)
+    confirmation, confirmation_labels = _assembled(
+        CONFIRMATION_DRAWER_SOURCE,
+        confirmation_address,
+        {
+            "WORD_TERMINATOR": WORD_TERMINATOR,
+            "FONT16_SPACE": FONT16_SPACE,
+            "WIDTHS": 0x0021A000 + shared_font16_layout(FONT16_METRICS_PATH)[1],
+            "STOCK_GLYPH": 0x06051188,
+        },
+    )
+    addresses["confirmation_drawer"] = confirmation_labels[
+        "fusion_confirmation_vwf"
+    ]
+    addresses["confirmation_drawer_code"] = confirmation_address
+    payload.extend(confirmation)
     if CAVE_ADDRESS + len(payload) > CAVE_END:
         raise ValueError(
             "fusion runtime exceeds its cave by "
@@ -534,6 +555,7 @@ def _assembly_patch(
             "font16_surface_blitter.s",
             "fusion/font8_surface_blitter.s",
             "fusion/name_drawers.s",
+            "fusion/confirmation_drawer.s",
         }:
             raise ValueError("Fusion runtime assembly inventory changed")
         if len(runtime) > len(recipe.expected):

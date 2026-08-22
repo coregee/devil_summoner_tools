@@ -1,0 +1,69 @@
+{
+  "version": 2,
+  "surface": "title_help.ui",
+  "targets": {
+    "BOOT.BIN": {
+      "address_bias": "0x80",
+      "size": 2404599,
+      "stock_sha256": "37b5b7a49fe1a5af60ab042d2822befb00580e02a7d7d2ed77dd279ebe6f55fa",
+      "guards": [
+        {
+          "name": "menu_draw_relocation",
+          "file_offset": "0x1d8960",
+          "expected": "c43c010004000000"
+        },
+        {
+          "name": "difficulty_draw_relocation",
+          "file_offset": "0x1d8c28",
+          "expected": "c83f010004000000"
+        }
+      ]
+    }
+  },
+  "groups": [
+    {
+      "capability": "title_help.vwf",
+      "target": "BOOT.BIN",
+      "address_bias": 128,
+      "patches": [
+        {
+          "name": "menu_draw_call",
+          "address": "0x13cc4",
+          "expected": "6632000c",
+          "linked_call": "title_help_draw_wrapper"
+        },
+        {
+          "name": "menu_fixed_advance",
+          "address": "0x13cd4",
+          "expected": "0f003126",
+          "instruction": "nop"
+        },
+        {
+          "name": "difficulty_draw_call",
+          "address": "0x13fc8",
+          "expected": "6632000c",
+          "linked_call": "title_help_draw_wrapper"
+        },
+        {
+          "name": "difficulty_fixed_advance",
+          "address": "0x13fd8",
+          "expected": "0f003126",
+          "instruction": "nop"
+        },
+        {
+          "name": "draw_wrapper",
+          "address": "0x13ec80",
+          "expected_zero_bytes": 76,
+          "assembly": ["title_help_ui/draw_wrapper.s"]
+        },
+        {
+          "name": "width_table",
+          "address": "0x13ed00",
+          "expected_zero_bytes": 268,
+          "generated": "title_help_widths"
+        }
+      ]
+    }
+  ]
+}
+

@@ -22,8 +22,8 @@ from engine.core.patch_recipes import ASSEMBLY_ROOT, resolve_recipe_expected  # 
 import engine.surfaces.facilities_status_ui as status  # noqa: E402
 
 
-BASE_SHA256 = "c292f62b306f1f98a52590adbf8ae8da1884bab3e9ae0a94d8ef091ae11e9d36"
-OUTPUT_SHA256 = "7f765a31d200d641e1bc2b254a4575e965c6228aae611b7e7bf4360c70ff20d9"
+BASE_SHA256 = "17024077453e578315e289e93bae6d887ef86c43f353f3c1fbb5363f183f119e"
+OUTPUT_SHA256 = "d1f8e3050d56c50ca6e1cafe80ce993e399a91c53c31acc2487f30e00bd261f6"
 RUNTIME_USED_SHA256 = (
     "95cbe0e4eaeb2b4564a4af7a0dbae1e9537ace6606e69d299829b8b671c1e7d9"
 )

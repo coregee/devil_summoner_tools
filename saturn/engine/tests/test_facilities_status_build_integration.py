@@ -27,10 +27,10 @@ from engine.build import (  # noqa: E402
 BUILD_CONFIG_PATH = SATURN_ROOT / "build_config.json"
 EXTRACTED_ROOT = (SATURN_ROOT / "rom" / "extracted").resolve()
 EQUIPMENT_SHA256 = (
-    "c292f62b306f1f98a52590adbf8ae8da1884bab3e9ae0a94d8ef091ae11e9d36"
+    "17024077453e578315e289e93bae6d887ef86c43f353f3c1fbb5363f183f119e"
 )
 OUTPUT_SHA256 = (
-    "7f765a31d200d641e1bc2b254a4575e965c6228aae611b7e7bf4360c70ff20d9"
+    "d1f8e3050d56c50ca6e1cafe80ce993e399a91c53c31acc2487f30e00bd261f6"
 )
 
 

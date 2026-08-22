@@ -26,7 +26,8 @@
           "assembly": [
             "font16_surface_blitter.s",
             "fusion/font8_surface_blitter.s",
-            "fusion/name_drawers.s"
+            "fusion/name_drawers.s",
+            "fusion/confirmation_drawer.s"
           ]
         }
       ]
@@ -469,7 +470,7 @@
           "name": "vwf_drawer",
           "address": "0x06057910",
           "expected": "060517c4",
-          "linked_pointer": "surface_blitter"
+          "linked_pointer": "confirmation_drawer"
         }
       ]
     }
