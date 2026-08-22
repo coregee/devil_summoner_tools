@@ -38,11 +38,12 @@
         {
           "name": "english_status_runtime",
           "address": "0x06022000",
-          "expected_zero_bytes": 14849,
+          "expected_zero_bytes": 16180,
           "assembly": [
             "status_ui/font16_vwf.s",
             "status_ui/skill_vwf.s",
             "status_ui/auto_action_vwf.s",
+            "status_ui/auto_block_vwf.s",
             "status_ui/affinity_font8_vwf.s",
             "status_ui/name_race_dispatcher.s",
             "status_ui/affinity_dispatcher.s",
@@ -72,6 +73,12 @@
           "address": "0x06036904",
           "expected": "06039250",
           "linked_pointer": "auto_action_drawer"
+        },
+        {
+          "name": "auto_block_ascii_drawer",
+          "address": "0x060368fc",
+          "expected": "06039108",
+          "linked_pointer": "auto_block_ascii_drawer"
         },
         {
           "name": "affinity_drawer",

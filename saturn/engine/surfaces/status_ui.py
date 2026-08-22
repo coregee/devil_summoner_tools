@@ -140,6 +140,8 @@ FONT8_GLYPH_DRAWER = 0x06038DA0
 FONT16_BITMAP = 0x0021A000
 FONT8_BITMAP = 0x00219150
 CURRENT_PARTY_TYPE = 0x060812BC
+HUMAN_AUTO_STATE = 0x060812D4
+DEMON_AUTO_STATE = 0x0607B9CC
 CURRENT_NAME_PTR = 0x0607B980
 PLAYER_STATUS_NAME = 0x0023FE14
 RACE_SOURCE = 0x0603F974
@@ -160,6 +162,13 @@ AFFINITY_COUNT = 96
 RUNTIME_AFFINITY_COUNT = 66
 DEMON_COUNT = 319
 CHARACTER_COUNT = 6
+AUTO_ACTION_START_X = 40
+AUTO_ACTION_END_X = 110
+PARTY_ALIGNMENT_SOURCES = {
+    "law": 0x06036574,
+    "neutral": 0x06036578,
+    "chaos": 0x06036580,
+}
 AFFINITY_SURFACE_WIDTH = 128
 AFFINITY_MAX_ADVANCE = AFFINITY_SURFACE_WIDTH - 1
 AFFINITY_ADVANCE_OVERRIDES = {" ": 1, ",": 2, ":": 2}
@@ -390,6 +399,27 @@ def _encode_affinity_font8(
     return encoded + b"\0"
 
 
+def _encode_party_alignment_font8(
+    text: str,
+    widths: bytes,
+    codes: Mapping[str, int],
+) -> bytes:
+    try:
+        encoded = bytes(codes[character] for character in text)
+    except KeyError as error:
+        raise ValueError(
+            f"unsupported party-alignment FONT8 character {error.args[0]!r} "
+            f"in {text!r}"
+        ) from error
+    pixel_width = sum(widths[code] + 1 for code in encoded)
+    maximum = AUTO_ACTION_END_X - AUTO_ACTION_START_X
+    if not encoded or pixel_width > maximum:
+        raise ValueError(
+            f"party alignment exceeds {maximum}px ({pixel_width}px): {text!r}"
+        )
+    return encoded + b"\0"
+
+
 def _bound_translations(
     prefixes: tuple[str, ...],
     required_ids: set[str],
@@ -443,6 +473,17 @@ def _status_terms() -> tuple[list[str], list[str], list[str], list[str]]:
     )
     characters = [character_values[physical_id] for physical_id in character_ids]
     return races, affinities, demons, characters
+
+
+def _party_alignment_terms() -> tuple[str, str, str]:
+    alignments = load_asset("terminology/alignments.json")
+    values: list[str] = []
+    for name in PARTY_ALIGNMENT_SOURCES:
+        _reference, value, _reviewed = alignments.field(
+            f"{name}.party_label"
+        ).resolve()
+        values.append(value)
+    return values[0], values[1], values[2]
 
 
 def _source_assets() -> tuple[bytes, bytes, bytes]:
@@ -531,6 +572,7 @@ def _runtime_english_data(
     font16: bytes,
     races: list[str],
     affinities: list[str],
+    party_alignments: tuple[str, str, str],
     demon_names: list[str],
     character_names: list[str],
     stock_dvlname: bytes,
@@ -543,6 +585,8 @@ def _runtime_english_data(
     _validate_affinity_font8(font8, widths8, codes8)
     if len(races) != RACE_COUNT or len(affinities) < RUNTIME_AFFINITY_COUNT:
         raise ValueError("status terminology inventory changed")
+    if len(party_alignments) != len(PARTY_ALIGNMENT_SOURCES):
+        raise ValueError("party-alignment terminology inventory changed")
 
     data = bytearray()
 
@@ -643,6 +687,11 @@ def _runtime_english_data(
         affinity_offsets[text] = offset
     data.extend(affinity_pool)
 
+    party_alignment_addresses: dict[str, int] = {}
+    for name, text in zip(PARTY_ALIGNMENT_SOURCES, party_alignments, strict=True):
+        party_alignment_addresses[name] = RUNTIME_DATA + len(data)
+        data.extend(_encode_party_alignment_font8(text, widths8, codes8))
+
     def font16_pointer(text: str) -> int:
         return font16_pool_address + font16_offsets[text]
 
@@ -665,7 +714,7 @@ def _runtime_english_data(
         )
     lookup = _build_name_lookup(hashes, font16_pointer)
     data[lookup_offset : lookup_offset + len(lookup)] = lookup
-    return bytes(data), {
+    addresses = {
         "widths16": widths_address,
         "widths8": widths8_address,
         "race_table": race_address,
@@ -673,6 +722,13 @@ def _runtime_english_data(
         "name_lookup": lookup_address,
         "name_count": len(hashes),
     }
+    addresses.update(
+        {
+            f"party_alignment_{name}": address
+            for name, address in party_alignment_addresses.items()
+        }
+    )
+    return bytes(data), addresses
 
 
 def _encode_mirror_record(
@@ -768,9 +824,18 @@ def _ascii_data(templates: StatusTemplates) -> dict[str, bytes]:
             for name in ("alignments.json", "battle_commands.json", "status.json")
         ),
     )
+    alignment_asset = load_asset("terminology/alignments.json")
+    dormant_alignment_records = {
+        f"alignment_{name}": alignment_asset.field(
+            f"{name}.party_label"
+        ).resolve()[0]
+        for name in PARTY_ALIGNMENT_SOURCES
+    }
     output: dict[str, bytes] = {}
     for name, address, capacity in ASCII_RECORDS:
-        value = translations[ASCII_PHYSICAL_IDS[address]]
+        value = dormant_alignment_records.get(
+            name, translations[ASCII_PHYSICAL_IDS[address]]
+        )
         prefix = _ascii_prefix(value, name)
         expected_prefix = templates.prefixes.get(name)
         if expected_prefix is not None and prefix != expected_prefix:
@@ -862,6 +927,7 @@ def _runtime_payload(
     font16: bytes,
     races: list[str],
     affinities: list[str],
+    party_alignments: tuple[str, str, str],
     demon_names: list[str],
     character_names: list[str],
     stock_dvlname: bytes,
@@ -877,6 +943,7 @@ def _runtime_payload(
             "status_ui/font16_vwf.s",
             "status_ui/skill_vwf.s",
             "status_ui/auto_action_vwf.s",
+            "status_ui/auto_block_vwf.s",
             "status_ui/affinity_font8_vwf.s",
             "status_ui/name_race_dispatcher.s",
             "status_ui/affinity_dispatcher.s",
@@ -892,6 +959,7 @@ def _runtime_payload(
         font16,
         races,
         affinities,
+        party_alignments,
         demon_names,
         character_names,
         stock_dvlname,
@@ -944,6 +1012,14 @@ def _runtime_payload(
     auto_action_vwf = append(
         sources[2],
         {
+            "PARTY_TYPE": CURRENT_PARTY_TYPE,
+            "HUMAN_AUTO_STATE": HUMAN_AUTO_STATE,
+            "DEMON_AUTO_STATE": DEMON_AUTO_STATE,
+            "ITEM_BASE": ITEMNAME_BASE,
+            "MAGIC_BASE": MAGNAME_BASE,
+            "NAME_POINTER": MAGNAME_POINTER_OFFSET,
+            "SPACE_CODE": codes8[" "],
+            "END_X": AUTO_ACTION_END_X,
             "WIDTHS": addresses["widths8"],
             "FONT_BITMAP": FONT8_BITMAP,
             "GLYPH": FONT8_GLYPH_DRAWER,
@@ -951,7 +1027,7 @@ def _runtime_payload(
         },
     )
     affinity_vwf = append(
-        sources[3],
+        sources[4],
         {
             "WIDTHS": addresses["widths8"],
             "FONT_BITMAP": FONT8_BITMAP,
@@ -962,8 +1038,21 @@ def _runtime_payload(
             "COMMA_CODE": codes8[","],
         },
     )
+    auto_block_vwf = append(
+        sources[3],
+        {
+            "LAW_SOURCE": PARTY_ALIGNMENT_SOURCES["law"],
+            "NEUTRAL_SOURCE": PARTY_ALIGNMENT_SOURCES["neutral"],
+            "CHAOS_SOURCE": PARTY_ALIGNMENT_SOURCES["chaos"],
+            "LAW_TEXT": addresses["party_alignment_law"],
+            "NEUTRAL_TEXT": addresses["party_alignment_neutral"],
+            "CHAOS_TEXT": addresses["party_alignment_chaos"],
+            "FONT8_VWF": affinity_vwf,
+            "STOCK": 0x06039108,
+        },
+    )
     name_race = append(
-        sources[4],
+        sources[5],
         {
             "RACE_SOURCE": RACE_SOURCE,
             "RACE_TABLE": addresses["race_table"],
@@ -978,7 +1067,7 @@ def _runtime_payload(
         },
     )
     affinity = append(
-        sources[5],
+        sources[6],
         {
             "SELECTOR": AFFINITY_SELECTOR,
             "SOURCE": AFFINITY_SOURCE,
@@ -988,7 +1077,7 @@ def _runtime_payload(
         },
     )
     stock_icon = append(
-        sources[6],
+        sources[7],
         {
             "DIRTY": dirty_address,
             "BUILD_ATLAS": BUILD_ATLAS,
@@ -1006,10 +1095,11 @@ def _runtime_payload(
         start = LIGHT_AXIS_RECORD - RUNTIME_CAVE
         payload[start : start + 4] = light_record
     payload.extend(data)
-    if len(payload) != len(recipe.expected):
+    if len(payload) > len(recipe.expected):
         raise ValueError(
-            f"status runtime uses {len(payload)}/{len(recipe.expected)} bytes"
+            f"status runtime exceeds {len(recipe.expected)} bytes ({len(payload)})"
         )
+    payload.extend(bytes(len(recipe.expected) - len(payload)))
     if RUNTIME_CAVE + len(payload) > RUNTIME_LIMIT:
         raise ValueError("status runtime overlaps the COMP party-panel cave")
     return RuntimeBuild(
@@ -1019,6 +1109,7 @@ def _runtime_payload(
                 "name_race_drawer": name_race,
                 "skill_name_drawer": skill_vwf,
                 "auto_action_drawer": auto_action_vwf,
+                "auto_block_ascii_drawer": auto_block_vwf,
                 "affinity_drawer": affinity,
                 "stock_icon_drawer": stock_icon,
             }
@@ -1172,6 +1263,7 @@ def _build_components(
     templates = _status_templates()
     labels = _status_labels(templates)
     races, affinities, demon_names, character_names = _status_terms()
+    party_alignments = _party_alignment_terms()
     english_charname = _built_charname(stock_charname, character_names, metrics8)
     generated, masks = _layout_data(
         base,
@@ -1206,6 +1298,7 @@ def _build_components(
         font16,
         races,
         affinities,
+        party_alignments,
         demon_names,
         character_names,
         stock_dvlname,

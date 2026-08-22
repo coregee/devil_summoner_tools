@@ -746,13 +746,20 @@ In the middle is a hexagon graph of the player's stat distribution. At the six p
 
 In the top-right  is the player's AUTO setting (i.e., AUTO SWORD), and the party alignment (i.e., "P.A. LAW"). FONT8
 
-Both use one-row, twelve-cell FONT8 framing. Their selected value starts at
-x=40 and ends at x=96. Generic AUTO commands retain the fixed-cell path, while
-item and magic selections draw the compact eight-byte record already copied by
-the stock summary with proportional FONT8 advances inside that 56-pixel span. `AUTO`
+Both use FONT8 framing. The selected AUTO value starts at x=40 and safely
+extends through x=110. Generic AUTO commands retain the fixed-cell path, while
+item and magic selections resolve the active human or demon's full catalog name
+and draw complete glyphs with proportional FONT8 advances inside that 70-pixel
+span. This removes the stock eight-character limit. Names that fit stay on the
+shifted single-line baseline; wider names wrap at a usable space or glyph
+boundary over y=0 and y=8. The AUTO label/value and P.A. label/value blocks move
+down four pixels together, avoiding negative-y clipping. `AUTO`
 uses four of the five cells before the value; `P.A.` is exactly four cells,
 leaving the fifth cell as layout space. The separating space in each authored
 template declares that boundary; it is not another freely positioned glyph.
+The party-alignment value is a proportional FONT8 consumer of the authored
+`law.party_label`, `neutral.party_label`, and `chaos.party_label` fields; its
+legacy fixed ASCII records remain dormant address sentinels for dispatch.
 
 The AUTO configuration item grid shares the item/magic full-name VWF used by
 the working magic grid. Its entry path also restores the stock icon atlas after

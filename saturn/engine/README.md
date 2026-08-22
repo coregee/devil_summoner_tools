@@ -569,20 +569,25 @@ equipment intermediate, then publishes the terminal
 `generated/game/NORMCOM.BIN`. The equipment base is
 `55283ade924c5f4aa7c8ddd871bd2563e5c36d5f384b7240f2ed57dfbd4e7947`;
 the terminal result is
-`766f82c9ccd4832d004733697615f1568853e1e81473b571f3ec713719e3badd`.
+`fac37aaccbd2f352866a5ecfd21dd1b9291b29ab40e924dab14d6f3a4d27b7d2`.
 
-`config/status_ui.json` owns 94 typed recipes across rendering, layout,
-race/affinity mirrors, direct ASCII fields, and templates. Fifty-nine recipes
-represent the live changes at 69 physical sites; the remaining 35 are
+`config/status_ui.json` owns 95 typed recipes across rendering, layout,
+race/affinity mirrors, direct ASCII fields, and templates. Sixty recipes
+represent the live changes at 70 physical sites; the remaining 35 are
 currently byte-neutral paths which ensure edits to stock-readable labels,
 separators, and immediates still propagate. The kind split is 76 generated-data
-recipes, six assembly recipes, eleven linked pointers, and one fixed pointer.
-Executable behavior comes from 12 readable sources under `asm/status_ui/`.
+recipes, six assembly recipes, twelve linked pointers, and one fixed pointer.
+Executable behavior comes from 13 readable sources under `asm/status_ui/`.
 
 The AUTO configuration item grid now shares the translated item/magic VWF,
 restores the stock icon atlas before composing its panel, and resolves the
-compact eight-byte item or magic name already copied by the AUTO summary
-through the proportional drawer instead of the stock fixed-cell drawer.
+selected human or demon's full item or magic name through the proportional
+drawer instead of the stock summary's compact eight-byte copy. Names that fit
+remain on one line; wider names wrap over two bounded lines. The complete
+AUTO/P.A. block moves down four pixels so the upper line stays inside its
+surface, and party-alignment values resolve from their authored proportional
+FONT8 translations in `assets/text/terminology/alignments.json` rather than the
+dormant fixed ASCII records.
 
 Seven authored catalogues supply status labels and templates, races,
 affinities, demon and character names, alignments, and commands. The build also

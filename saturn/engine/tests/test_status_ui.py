@@ -41,9 +41,12 @@ from engine.surfaces.status_ui import (  # noqa: E402
     ASCII_RECORDS,
     ASSET_FILES,
     ATLAS_ADDRESS,
+    AUTO_ACTION_END_X,
+    AUTO_ACTION_START_X,
     COMP_PANEL_CAVE,
     CONFIG_PATH,
     DVLNAME_PATH,
+    DEMON_AUTO_STATE,
     EQUIPMENT_LABEL_CAVE_LIMIT,
     FONT8_BITMAP,
     FONT8_GLYPH_DRAWER,
@@ -54,9 +57,11 @@ from engine.surfaces.status_ui import (  # noqa: E402
     ITEMNAME_FIRST,
     LIGHT_AXIS_RECORD,
     LOAD_ADDRESS,
+    HUMAN_AUTO_STATE,
     MAGNAME_BASE,
     MAGNAME_END,
     MAGNAME_FIRST,
+    PARTY_ALIGNMENT_SOURCES,
     RUNTIME_CAVE,
     RUNTIME_DATA,
     RUNTIME_INPUT_FILES,
@@ -67,7 +72,9 @@ from engine.surfaces.status_ui import (  # noqa: E402
     _axis_data,
     _bind_patches,
     _configuration,
+    _encode_party_alignment_font8,
     _mirror_data,
+    _party_alignment_terms,
     _source_assets,
     _status_terms,
     _template_data,
@@ -77,14 +84,15 @@ from text.util.event_repack import FontMetrics  # noqa: E402
 
 
 BASE_HASH = "55283ade924c5f4aa7c8ddd871bd2563e5c36d5f384b7240f2ed57dfbd4e7947"
-EXPECTED_HASH = "766f82c9ccd4832d004733697615f1568853e1e81473b571f3ec713719e3badd"
+EXPECTED_HASH = "fac37aaccbd2f352866a5ecfd21dd1b9291b29ab40e924dab14d6f3a4d27b7d2"
 EXPECTED_COMPONENT_HASHES = {
-    "wrapper_cave": "5422bdeac781e6d3e5307795a766cc2eb2a1a12d67c25b09eb1a304fa269933e",
+    "wrapper_cave": "b841af4246a3ef6bd28ddd765dda6416b16739abcb5fc4549178b6a5d193c824",
     "font12_atlas": "0ae06b004b5c0114e2f4e0d49ad42c3c1985d891096d628828080393337329e0",
-    "english_status_runtime": "3b38ab46ab199948ce57f1b1ef48dce2b2487610763d72b1f845bbe13b207501",
+    "english_status_runtime": "3e0964d8b15ea1c05d9600bfa5563eec0a4c0809dbaaaf268e734ed4353d4978",
 }
 EXPECTED_ASSEMBLY = {
     "status_ui/auto_action_vwf.s",
+    "status_ui/auto_block_vwf.s",
     "status_ui/affinity_dispatcher.s",
     "status_ui/affinity_font8_vwf.s",
     "status_ui/atlas_wrapper.s",
@@ -133,11 +141,11 @@ class StatusUiEngineTests(unittest.TestCase):
         self.assertEqual(hashlib.sha256(self.base).hexdigest(), BASE_HASH)
         self.assertEqual(len(self.result.data), 352_360)
         self.assertEqual(hashlib.sha256(self.result.data).hexdigest(), EXPECTED_HASH)
-        self.assertEqual(len(self.result.patches), 94)
+        self.assertEqual(len(self.result.patches), 95)
         self.assertEqual(
             Counter(patch.group for patch in self.result.patches),
             {
-                "status_rendering": 14,
+                "status_rendering": 15,
                 "status_layout": 8,
                 "status_term_mirrors": 37,
                 "status_ascii": 24,
@@ -169,7 +177,7 @@ class StatusUiEngineTests(unittest.TestCase):
             {
                 "generated": 76,
                 "assembly": 6,
-                "linked_pointer": 11,
+                "linked_pointer": 12,
                 "pointer": 1,
             },
         )
@@ -192,6 +200,7 @@ class StatusUiEngineTests(unittest.TestCase):
                 "status_ui/font16_vwf.s",
                 "status_ui/skill_vwf.s",
                 "status_ui/auto_action_vwf.s",
+                "status_ui/auto_block_vwf.s",
                 "status_ui/affinity_font8_vwf.s",
                 "status_ui/name_race_dispatcher.s",
                 "status_ui/affinity_dispatcher.s",
@@ -205,6 +214,9 @@ class StatusUiEngineTests(unittest.TestCase):
         auto = int.from_bytes(
             self.patches["auto_action_name_drawer"].replacement, "big"
         )
+        auto_block = int.from_bytes(
+            self.patches["auto_block_ascii_drawer"].replacement, "big"
+        )
         affinity = int.from_bytes(self.patches["affinity_drawer"].replacement, "big")
 
         self.assertEqual(self.patches["item_name_drawer"].address, 0x06031B08)
@@ -213,10 +225,14 @@ class StatusUiEngineTests(unittest.TestCase):
             self.patches["skill_name_drawer"].replacement,
         )
         self.assertEqual(self.patches["auto_action_name_drawer"].address, 0x06036904)
+        self.assertEqual(self.patches["auto_block_ascii_drawer"].address, 0x060368FC)
 
         runtime = self.patches["english_status_runtime"].replacement
         ability_blob = runtime[skill - RUNTIME_CAVE : auto - RUNTIME_CAVE]
-        auto_blob = runtime[auto - RUNTIME_CAVE : affinity - RUNTIME_CAVE]
+        auto_blob = runtime[auto - RUNTIME_CAVE : auto_block - RUNTIME_CAVE]
+        auto_block_blob = runtime[
+            auto_block - RUNTIME_CAVE : affinity - RUNTIME_CAVE
+        ]
         for address in (
             ITEMNAME_FIRST,
             ITEMNAME_END,
@@ -228,9 +244,57 @@ class StatusUiEngineTests(unittest.TestCase):
             self.assertIn(address.to_bytes(4, "big"), ability_blob)
         self.assertIn(FONT8_BITMAP.to_bytes(4, "big"), auto_blob)
         self.assertIn(FONT8_GLYPH_DRAWER.to_bytes(4, "big"), auto_blob)
-        self.assertNotIn(ITEMNAME_BASE.to_bytes(4, "big"), auto_blob)
-        self.assertNotIn(MAGNAME_BASE.to_bytes(4, "big"), auto_blob)
+        self.assertIn(HUMAN_AUTO_STATE.to_bytes(4, "big"), auto_blob)
+        self.assertIn(DEMON_AUTO_STATE.to_bytes(4, "big"), auto_blob)
+        self.assertIn(ITEMNAME_BASE.to_bytes(4, "big"), auto_blob)
+        self.assertIn(MAGNAME_BASE.to_bytes(4, "big"), auto_blob)
         self.assertNotIn(skill.to_bytes(4, "big"), auto_blob)
+        for address in PARTY_ALIGNMENT_SOURCES.values():
+            self.assertIn(address.to_bytes(4, "big"), auto_block_blob)
+        auto_source = (
+            ASSEMBLY_ROOT / "status_ui" / "auto_action_vwf.s"
+        ).read_text(encoding="utf-8")
+        self.assertIn("add     #-8, r11", auto_source)
+        self.assertIn("add     #8, r11", auto_source)
+        self.assertIn("add     #4, r11", auto_source)
+        self.assertNotIn("add     #-8, r9", auto_source)
+        self.assertIn("cmp/eq  #SPACE_CODE, r0", auto_source)
+        self.assertEqual(AUTO_ACTION_END_X, 110)
+        self.assertEqual(AUTO_ACTION_END_X - AUTO_ACTION_START_X, 70)
+        self.assertEqual(auto_source.count("mov     #END_X"), 3)
+        auto_block_source = (
+            ASSEMBLY_ROOT / "status_ui" / "auto_block_vwf.s"
+        ).read_text(encoding="utf-8")
+        self.assertIn("add     #4, r7", auto_block_source)
+        self.assertIn("mov.l   =FONT8_VWF, r0", auto_block_source)
+        affinity_source = (
+            ASSEMBLY_ROOT / "status_ui" / "affinity_font8_vwf.s"
+        ).read_text(encoding="utf-8")
+        self.assertIn("add     #4, r11", affinity_source)
+
+        widths8, codes8 = font8_tables(FontMetrics.load(FONT8_METRICS_PATH))
+        self.assertEqual(_party_alignment_terms(), ("LAW", "NEUTRAL", "CHAOS"))
+        alignment_binding = json.loads(
+            (SATURN_ROOT / "text" / "bindings" / "alignments.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        self.assertEqual(
+            {
+                alignment_binding["records"][
+                    f"game.normcom_status_ascii.o{address - LOAD_ADDRESS:06x}"
+                ]
+                for address in PARTY_ALIGNMENT_SOURCES.values()
+            },
+            {"law.party_label", "neutral.party_label", "chaos.party_label"},
+        )
+        for text in _party_alignment_terms():
+            encoded = _encode_party_alignment_font8(text, widths8, codes8)
+            self.assertIn(encoded, runtime)
+        self.assertEqual(
+            len(_encode_party_alignment_font8("NEUTRALITY", widths8, codes8)),
+            11,
+        )
 
         icon = self.patches["restore_auto_config_icon_atlas"]
         self.assertEqual(icon.address, 0x06031C44)
@@ -292,12 +356,11 @@ class StatusUiEngineTests(unittest.TestCase):
         self.assertEqual(RUNTIME_CAVE, 0x06022000)
         self.assertEqual(
             RUNTIME_CAVE + len(self.patches["english_status_runtime"].replacement),
-            0x06025A01,
+            RUNTIME_LIMIT,
         )
         self.assertEqual(RUNTIME_LIMIT, COMP_PANEL_CAVE)
-        self.assertLess(0x06025A01, COMP_PANEL_CAVE)
 
-    def test_every_direct_ascii_record_is_generated_from_its_binding(self) -> None:
+    def test_bound_ascii_and_dormant_alignment_records_are_explicit(self) -> None:
         recipes = {
             recipe.name: recipe
             for recipe in self.config.patches[TARGET]
@@ -310,6 +373,9 @@ class StatusUiEngineTests(unittest.TestCase):
 
         templates = load_status_templates()
         current = _ascii_data(templates)
+        self.assertEqual(current["alignment_law"], b"LAW\0")
+        self.assertEqual(current["alignment_neutral"], b"NEUTRAL\0")
+        self.assertEqual(current["alignment_chaos"], b"CHAOS\0\0\0")
         translations = {
             ASCII_PHYSICAL_IDS[address]: current[name].rstrip(b"\0").decode("ascii")
             for name, address, _capacity in ASCII_RECORDS
@@ -485,7 +551,7 @@ class StatusUiEngineTests(unittest.TestCase):
         self.assertEqual(manifest["base"]["sha256"], BASE_HASH)
         self.assertEqual(manifest["output"]["sha256"], EXPECTED_HASH)
         self.assertEqual(len(manifest["asset_inputs"]), 7)
-        self.assertEqual(len(manifest["assembly_inputs"]), 12)
+        self.assertEqual(len(manifest["assembly_inputs"]), 13)
         self.assertEqual(len(manifest["runtime_inputs"]), 24)
         self.assertEqual(
             set(manifest["source_inputs"]),
