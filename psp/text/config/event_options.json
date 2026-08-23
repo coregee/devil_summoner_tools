@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "platform": "psp",
+  "corpus": "events/event_psp.json",
+  "renderer": {
+    "handle_pool": 84,
+    "grid_width": 150,
+    "stacked_width": 300
+  },
+  "banks": [
+    {
+      "name": "SHOPSMP",
+      "descriptor_count": 4,
+      "slot_count": 13,
+      "message_count": 13,
+      "descriptor_sha256": "sha256:35fa1554494810ce39634210881d34c67f48b02299b11c58757eeb1acaa06d54",
+      "display_overrides": [
+        {
+          "source_asset": "facilities/gouma_den.json#line_0004.text",
+          "display_asset": "events/event_psp.json#option_no_discussion.text"
+        }
+      ],
+      "preserved_prefixes": [
+        {
+          "message_index": 271,
+          "codes": [
+            "8002"
+          ]
+        }
+      ],
+      "required_insert_codes": []
+    },
+    {
+      "name": "EVFILE_0",
+      "descriptor_count": 27,
+      "slot_count": 74,
+      "message_count": 71,
+      "descriptor_sha256": "sha256:b66beb6cfc7b9820b5d1b35f9dac3be3adcfd579e74c68ca69f4e5ca9862ebf9",
+      "display_overrides": [
+        {
+          "source_asset": "events/hajime_home.json#hajime_home_later_visits_013.text",
+          "display_asset": "events/event_psp.json#option_first_name.text"
+        }
+      ],
+      "preserved_prefixes": [],
+      "required_insert_codes": [
+        {
+          "message_index": 51,
+          "codes": [
+            "8006"
+          ]
+        },
+        {
+          "message_index": 253,
+          "codes": [
+            "8006"
+          ]
+        },
+        {
+          "message_index": 258,
+          "codes": [
+            "8006"
+          ]
+        },
+        {
+          "message_index": 259,
+          "codes": [
+            "8006"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EVFILE_1",
+      "descriptor_count": 18,
+      "slot_count": 68,
+      "message_count": 23,
+      "descriptor_sha256": "sha256:367dd4bea22879e5a0348fa9ee6f80c567eb2c83853c767dc68c724ef8604b24",
+      "display_overrides": [],
+      "preserved_prefixes": [],
+      "required_insert_codes": [
+        {
+          "message_index": 38,
+          "codes": [
+            "8006",
+            "8007"
+          ]
+        },
+        {
+          "message_index": 244,
+          "codes": [
+            "8006",
+            "8007"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MESFILE",
+      "descriptor_count": 0,
+      "slot_count": 0,
+      "message_count": 0,
+      "descriptor_sha256": "sha256:cbcf9d66adf2dff1c43c9652e2f51fa2dc9c5baee2a27c75a7e71f7cc63f211e",
+      "display_overrides": [],
+      "preserved_prefixes": [],
+      "required_insert_codes": []
+    },
+    {
+      "name": "EVFILE_2",
+      "descriptor_count": 1,
+      "slot_count": 2,
+      "message_count": 2,
+      "descriptor_sha256": "sha256:461cb6e5e3fde47b310d84f57a813d6b1a6668c2d7899361b77b858cc7712dca",
+      "display_overrides": [],
+      "preserved_prefixes": [],
+      "required_insert_codes": []
+    }
+  ]
+}

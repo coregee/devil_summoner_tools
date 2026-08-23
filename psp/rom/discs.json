@@ -26,10 +26,20 @@
           "size": 914544,
           "sha256": "0be5851b575c52eccce21b6e76a2961b08b2f4426645600b6bac84358e9e2219"
         },
+        "eve_files": {
+          "path": "PSP_GAME/USRDIR/flwdat/eve_files.bin",
+          "size": 2830640,
+          "sha256": "4355db7002fd692e3ae05d7a5763e96debd7f5c8fd51bc49a3ef94a6c3b5f59d"
+        },
         "regdata": {
           "path": "PSP_GAME/USRDIR/regdata.bin",
           "size": 248592,
           "sha256": "d9916886ea6bffe13e1eeeaf3558d5602f8b2b2a9f1987acc45a766511cc0bd2"
+        },
+        "start2_pmf": {
+          "path": "PSP_GAME/USRDIR/MOVIE/START2_320x224.pmf",
+          "size": 4511744,
+          "sha256": "6dc543ac681b3fc8def88b23d00415306720454e82438e3f73cf485ed9eccb90"
         }
       }
     }

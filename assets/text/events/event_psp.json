@@ -1,0 +1,191 @@
+{
+  "version": 1,
+  "kind": "surface_catalog",
+  "entries": {
+    "gouma_den_preview": {
+      "text": {
+        "reference": "……そうだな、先に見せておこうか。{n}付いてくるがいい。",
+        "translation": "...Yes, perhaps I should show you first.{n}Follow me."
+      }
+    },
+    "gouma_den_tutorial_00": {
+      "text": {
+        "reference": "ここが我が合体場。{n}悪魔らを合体させ、新たな悪魔を作り出す{n}儀式の場だ。",
+        "translation": "This is my fusion chamber.{n}Here I perform the ritual of fusing demons{n}to create new ones."
+      }
+    },
+    "gouma_den_tutorial_01": {
+      "text": {
+        "reference": "どの悪魔を合体させるかを選ぶのは{n}おぬしだ。強い悪魔を作るがいい。{n}私はそれに従おう。",
+        "translation": "You shall choose which demons to fuse.{n}Create a powerful demon.{n}I shall honor your choice."
+      }
+    },
+    "gouma_den_tutorial_02": {
+      "text": {
+        "reference": "そして、もう1つ。{n}ここで、おぬしは「悪魔全書」を使う{n}ことができる。",
+        "translation": "There is one more thing.{n}Here, you may use the Demon Compendium."
+      }
+    },
+    "gouma_den_tutorial_03": {
+      "text": {
+        "reference": "これは、仲魔にしたことのある悪魔を{n}MAGを対価に再度、仲魔にすると{n}いう術だ。",
+        "translation": "It lets you summon any demon{n}you have recruited before,{n}in exchange for MAG."
+      }
+    },
+    "gouma_den_tutorial_04": {
+      "text": {
+        "reference": "「登録」を使えば、強くした悪魔データで{n}上書きができ、「閲覧」では悪魔らの{n}説明が得られ、購入ができる。",
+        "translation": "\"Register\" overwrites a record with a strengthened{n}demon's data. \"View\" lets you read descriptions and{n}purchase demons."
+      }
+    },
+    "gouma_den_tutorial_05": {
+      "text": {
+        "reference": "葛葉が残した悪魔らの情報をいくつか{n}転載しておこう。良ければ使うがいい。",
+        "translation": "I shall transfer some of the demon records{n}left behind by Kuzunoha.{n}Use them if you wish."
+      }
+    },
+    "underground_teleport_00": {
+      "text": {
+        "reference": "警官：ほ、本官、{n}警官の命とも言うべき拳銃の身柄を{n}確保したいのでありますが……",
+        "translation": "Police Officer: I-I must secure my service pistol,{n}the very lifeblood of a police officer,{n}but..."
+      }
+    },
+    "underground_teleport_01": {
+      "text": {
+        "reference": "フクザツ怪奇な瞬間移動地帯によって、{n}進路を阻まれておるのであります！",
+        "translation": "This bafflingly complex teleportation zone{n}is obstructing my advance!"
+      }
+    },
+    "underground_teleport_02": {
+      "text": {
+        "reference": "この瞬間移動、A地点からB地点に{n}飛ばされ、戻ろうとB地点に行っても{n}何も無かったり…",
+        "translation": "It can send you from Point A to Point B,{n}but when you return to Point B to go back,{n}sometimes nothing happens..."
+      }
+    },
+    "underground_teleport_03": {
+      "text": {
+        "reference": "A地点にNから入るとB地点に出るのが、{n}Sから入るとC地点に行ったりするので{n}あります！",
+        "translation": "Approach Point A from N and you emerge at Point B,{n}but approach it from S and you may end up{n}at Point C!"
+      }
+    },
+    "underground_teleport_04": {
+      "text": {
+        "reference": "ま、まさに迷宮入りなのであります！",
+        "translation": "I-It's truly a maze of a case!",
+        "note": "迷宮入り is both entering a maze and a case going unsolved."
+      }
+    },
+    "underground_teleport_05": {
+      "text": {
+        "reference": "男：これがワープというやつですか？{n}飛ばされまくりです。{n}迷いまくりです。",
+        "translation": "Man: Is this what they call warping?{n}I keep getting warped all over.{n}And I keep getting lost."
+      }
+    },
+    "underground_teleport_06": {
+      "text": {
+        "reference": "一番タチが悪いのは、{n}戻ろうとするとさらに変な場所に飛ばす{n}「出口が入口」なヤツですよ。",
+        "translation": "The worst are the \"exit is the entrance\" kind.{n}Try to go back, and they send you{n}somewhere even stranger."
+      }
+    },
+    "underground_teleport_07": {
+      "text": {
+        "reference": "ああ、ボクはどうすれば……",
+        "translation": "Oh, what am I supposed to do...?"
+      }
+    },
+    "extra_battle_farewell": {
+      "text": {
+        "reference": "……そうそう、これも持って行け。{n}今日の戦いの証だ。ではな。",
+        "translation": "...Ah, yes. Take this with thee as well.{n}It is a token of today's battle.{n}Farewell."
+      }
+    },
+    "extra_battle_item_reward": {
+      "text": {
+        "reference": "＞「{item_name}」を手に入れた。",
+        "translation": "> Obtained {item_name}."
+      }
+    },
+    "extra_battle_empty": {
+      "text": {
+        "reference": "＞誰もいないが妖気を感じる……",
+        "translation": "> No one is here, but you sense demonic energy..."
+      }
+    },
+    "extra_battle_energy_remains": {
+      "text": {
+        "reference": "＞悪魔を倒したが{n}まだ妖気が残っている……",
+        "translation": "> The demon has been defeated,{n}but demonic energy still lingers..."
+      }
+    },
+    "extra_battle_challenge": {
+      "text": {
+        "reference": "悪魔：…時ノ輪ニ導カレ、我ハ来タリ。{n}オマエノ魂ヲ質スタメ。",
+        "translation": "Demon: ...Guided by the wheel of time, I have come{n}to put thy soul to the test."
+      }
+    },
+    "extra_battle_david": {
+      "text": {
+        "reference": "我ガ造リ主ガ、{n}我ニ付ケシ名ハ「ダビデ」。{n}コノ名ニカケテ、相手イタソウ。",
+        "translation": "My creator bestowed upon me the name \"David\".{n}By that name, I shall face thee."
+      }
+    },
+    "extra_battle_enoch": {
+      "text": {
+        "reference": "我ガ造リ主ガ、{n}我ニ付ケシ名ハ「エノク」。{n}コノ名ニカケテ、相手イタソウ。",
+        "translation": "My creator bestowed upon me the name \"Enoch\".{n}By that name, I shall face thee."
+      }
+    },
+    "extra_battle_leviathan": {
+      "text": {
+        "reference": "我ガ造リ主ガ、{n}我ニ付ケシ名ハ「レヴィアサン」。{n}コノ名ニカケテ、相手イタソウ。",
+        "translation": "My creator bestowed upon me the name \"Leviathan\".{n}By that name, I shall face thee."
+      }
+    },
+    "extra_battle_skoll": {
+      "text": {
+        "reference": "我ガ造リ主ガ、{n}我ニ付ケシ名ハ「スコール」。{n}コノ名ニカケテ、相手イタソウ。",
+        "translation": "My creator bestowed upon me the name \"Skoll\".{n}By that name, I shall face thee.",
+        "note": "スコール names the intended mythological Skoll rather than the English word squall."
+      }
+    },
+    "extra_battle_defeat": {
+      "text": {
+        "reference": "悪魔：…恐ルベキカナ、ソノチカラ。{n}汝ノ内ニ宿リシ、霊ト、魂ト。",
+        "translation": "Demon: ...Fearsome indeed is thy power:{n}the spirit and soul that dwell within thee."
+      }
+    },
+    "extra_battle_group_challenge": {
+      "text": {
+        "reference": "ナラバ我ラ、{n}群レヲ成シテ挑マン。",
+        "translation": "Then we shall band together and challenge thee."
+      }
+    },
+    "extra_battle_death_tally": {
+      "text": {
+        "reference": "他界の割符を手に入れた。",
+        "translation": "Obtained Death Tally.",
+        "note": "Death Tally is the established English name for the PSP reward that halves Demon Compendium costs."
+      }
+    },
+    "extra_battle_soma": {
+      "text": {
+        "reference": "ソーマを手に入れた。",
+        "translation": "Obtained Soma."
+      }
+    },
+    "option_no_discussion": {
+      "text": {
+        "reference": "ヴィクトル：今は話すことはない",
+        "translation": "Nothing to discuss"
+      },
+      "note": "PSP EVENT menu display variant; the source dialogue remains bound to its shared canonical field."
+    },
+    "option_first_name": {
+      "text": {
+        "reference": "{last_name}{first_name}",
+        "translation": "{first_name}"
+      },
+      "note": "PSP EVENT menu display variant; the source dialogue remains bound to its shared canonical field."
+    }
+  }
+}

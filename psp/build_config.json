@@ -3,7 +3,7 @@
   "steps": [
     {
       "id": "repack_fonts",
-      "description": "Generate the composed title-help and CONFIG font pages.",
+      "description": "Generate the composed title-help, CONFIG, START2, and EVE font resources.",
       "type": "python",
       "script": "font/repack.py",
       "arguments": ["all"],
@@ -11,15 +11,31 @@
     },
     {
       "id": "repack_text",
-      "description": "Compile the title-help and CONFIG help records into regdata.bin.",
+      "description": "Compile title-help, CONFIG/command help, and BTL_MES records into regdata.bin.",
       "type": "python",
       "script": "text/repack.py",
       "arguments": ["all"],
       "check_arguments": ["all", "--check"]
     },
     {
+      "id": "repack_event_text",
+      "description": "Compile the five canonical EVENT banks into the generated EVE font archive.",
+      "type": "python",
+      "script": "text/event_repack.py",
+      "arguments": ["all"],
+      "check_arguments": ["all", "--check"]
+    },
+    {
+      "id": "build_fmv",
+      "description": "Validate START2 and compile its canonical subtitles into runtime placements.",
+      "type": "python",
+      "script": "fmv/build.py",
+      "arguments": ["all"],
+      "check_arguments": ["all", "--check"]
+    },
+    {
       "id": "build_engine",
-      "description": "Build the composed title-help and CONFIG BOOT/EBOOT patches.",
+      "description": "Build title-help, CONFIG/command-help, EVENT VWF, BTL_MES, and START2 BOOT/EBOOT patches.",
       "type": "python",
       "script": "engine/build.py",
       "arguments": ["all"],
@@ -40,6 +56,8 @@
       "steps": [
         "repack_fonts",
         "repack_text",
+        "repack_event_text",
+        "build_fmv",
         "build_engine",
         "build_disc"
       ],

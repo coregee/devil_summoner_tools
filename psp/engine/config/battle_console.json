@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "surface": "battle_console.runtime",
+  "targets": {
+    "BOOT.BIN": {
+      "address_bias": "0x80",
+      "size": 2404599,
+      "stock_sha256": "37b5b7a49fe1a5af60ab042d2822befb00580e02a7d7d2ed77dd279ebe6f55fa",
+      "guards": []
+    }
+  },
+  "inputs": {},
+  "groups": [
+    {
+      "capability": "battle_console.body_offset",
+      "target": "BOOT.BIN",
+      "address_bias": 128,
+      "patches": [
+        {
+          "name": "primary_body_base",
+          "address": "0x6b874",
+          "expected": "00089224",
+          "instruction": "addiu s2, a0, 0x400"
+        },
+        {
+          "name": "secondary_body_base",
+          "address": "0x6bb40",
+          "expected": "00086424",
+          "instruction": "addiu a0, v1, 0x400"
+        }
+      ]
+    }
+  ]
+}

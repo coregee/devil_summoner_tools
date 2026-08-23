@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "surface": "command_menu_help.runtime",
+  "target": {
+    "name": "BOOT.BIN",
+    "address_bias": 128,
+    "size": 2404599,
+    "stock_sha256": "37b5b7a49fe1a5af60ab042d2822befb00580e02a7d7d2ed77dd279ebe6f55fa"
+  },
+  "hooks": {
+    "draw": {
+      "address": "0x0003d6e8",
+      "source": "6632000c",
+      "delay_slot": "ffff0824",
+      "relocation_offset": "0x001f2700"
+    },
+    "frame": {
+      "address": "0x00000598",
+      "source": "c20a000c",
+      "delay_slot": "00000000",
+      "relocation_offset": "0x001cdc70"
+    }
+  },
+  "runtime": {
+    "width_table_address": "0x0013ec20",
+    "draw_wrapper_address": "0x0016f700",
+    "draw_wrapper_limit": "0x0016f800",
+    "frame_wrapper_address": "0x00172014",
+    "append_helper_address": "0x001720c0",
+    "state_address": "0x00172175",
+    "cave_limit": "0x00172200"
+  }
+}

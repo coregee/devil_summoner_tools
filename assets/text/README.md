@@ -449,8 +449,9 @@ The FMV slice keeps the START2 news report in the timed-text specification at
 line choices, and presentation-relative centisecond ranges without carrying an
 ASS/libass stylesheet or a second platform subtitle script. Saturn derives
 12 fps frame ranges, FONT16 codes, measured centering, and runtime storage from
-that one specification; the source CPK is validation evidence rather than an
-editable or generated text container.
+that one specification. PSP derives `30000/1001` frame ranges and its own
+FONT16/runtime overlay from the same cues. Each platform's source movie is
+validation evidence rather than an editable or generated text container.
 
 The Credits slice owns the 40 named people in `credits/names.json`. Twenty-eight
 main-roll uses and twelve staff-test uses remain distinct physical records but
@@ -481,6 +482,11 @@ command-help assets directly. Its 210 direct demon records and 109 compact
 overflow records are generated storage choices, not alternative name fields.
 All 24 COMP help lines likewise remain in `ui/command_help.json`; neither the
 runtime nor `NORMHELP.DAT` is a second translation location.
+
+PSP command help reuses those fields and the battle-help fields wherever their
+semantic identity is exact. Its 34 platform-only states and compact
+capacity-specific variants live in `ui/command_help_psp.json`; the PSP binding
+owns their fixed member-14 slots and is not an alternate editing location.
 
 Generated physical catalogues are evidence-only; their translated values are
 materialized from these assets and bindings. There must never be two

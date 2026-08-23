@@ -32,8 +32,10 @@ ENGINE_GENERATED = ENGINE_ROOT / "generated" / "game"
 ENGINE_MANIFEST = ENGINE_GENERATED / "psp.engine.json"
 FONT_GENERATED = PSP_ROOT / "font" / "generated" / "game"
 FONT_MANIFEST = FONT_GENERATED / "psp.fonts.json"
+FMV_MANIFEST = PSP_ROOT / "fmv" / "generated" / "game" / "psp.fmv.json"
 TEXT_GENERATED = PSP_ROOT / "text" / "generated" / "game"
 TEXT_MANIFEST = TEXT_GENERATED / "psp.text.json"
+EVENT_MANIFEST = TEXT_GENERATED / "psp.events.json"
 
 
 def _sha256(data: bytes) -> str:
@@ -73,6 +75,7 @@ def _resource_output(
     *,
     surface: str,
     output_path: Path,
+    output_key: str = "output",
 ) -> bytes:
     if not manifest_path.is_file():
         raise ValueError(f"PSP component manifest is missing: {manifest_path}")
@@ -80,14 +83,24 @@ def _resource_output(
         document = json.loads(manifest_path.read_text(encoding="utf-8"))
     except json.JSONDecodeError as error:
         raise ValueError(f"invalid PSP component manifest: {manifest_path}") from error
-    output = document.get("output") if isinstance(document, dict) else None
+    container = document.get(output_key) if isinstance(document, dict) else None
+    output = (
+        container.get(output_path.name)
+        if output_key == "outputs" and isinstance(container, dict)
+        else container
+    )
     if (
         not isinstance(document, dict)
         or document.get("version") != 1
         or document.get("surface") != surface
         or not isinstance(output, dict)
-        or set(output) != {"filename", "size", "sha256"}
-        or output["filename"] != output_path.name
+        or set(output)
+        != (
+            {"size", "sha256"}
+            if output_key == "outputs"
+            else {"filename", "size", "sha256"}
+        )
+        or (output_key != "outputs" and output["filename"] != output_path.name)
         or type(output["size"]) is not int
         or output["size"] <= 0
         or not isinstance(output["sha256"], str)
@@ -155,6 +168,7 @@ def _replacements(source_path: Path, disc) -> tuple[IsoReplacement, ...]:
             manifest_path,
             surface=surface,
             output_path=output_path,
+            output_key="outputs" if surface == "psp.fonts" else "output",
         )
         extent, source = read_iso9660_file(source_path, contract.path)
         if (
@@ -165,6 +179,25 @@ def _replacements(source_path: Path, disc) -> tuple[IsoReplacement, ...]:
         ):
             raise ValueError(f"{contract.path} source or replacement contract changed")
         rows.append(IsoReplacement(extent, source, replacement))
+    contract = disc.entries.get("eve_files")
+    if contract is None:
+        raise ValueError("PSP disc has no eve_files entry contract")
+    eve_output = TEXT_GENERATED / "eve_files.bin"
+    replacement = _resource_output(
+        EVENT_MANIFEST,
+        surface="psp.event_text",
+        output_path=eve_output,
+        output_key="outputs",
+    )
+    extent, source = read_iso9660_file(source_path, contract.path)
+    if (
+        extent.size != contract.size
+        or len(source) != contract.size
+        or _sha256(source) != contract.sha256
+        or len(replacement) != contract.size
+    ):
+        raise ValueError(f"{contract.path} source or replacement contract changed")
+    rows.append(IsoReplacement(extent, source, replacement))
     return tuple(rows)
 
 
@@ -184,8 +217,10 @@ def _manifest_bytes(disc, digest: str, replacements) -> bytes:
         },
         "component_manifests": {
             "engine": file_sha256(ENGINE_MANIFEST),
+            "fmv": file_sha256(FMV_MANIFEST),
             "font": file_sha256(FONT_MANIFEST),
             "text": file_sha256(TEXT_MANIFEST),
+            "event_text": file_sha256(EVENT_MANIFEST),
         },
         "replacements": [
             {

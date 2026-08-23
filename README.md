@@ -6,8 +6,9 @@ This repository contains translation and modification tools for *Shin Megami
 Tensei: Devil Summoner*. It can currently produce a functional English build of
 the Sega Saturn Rev. B game and its *Akuma Zensho* compendium disc, although the
 result has not yet received comprehensive translation review or runtime
-testing. PSP support has begun with complete English title-help and CONFIG menu
-slices, but it does not yet cover the rest of the game.
+testing. PSP support has begun with complete English title-help, CONFIG menu,
+command-menu help, battle-console, five-bank EVENT dialogue, and START2
+subtitle slices, but it does not yet cover the rest of the game.
 
 The project is intended to provide a strong, approachable foundation for
 translating the game into other languages or modifying and refining the
@@ -19,7 +20,7 @@ included English translation.
 | --- | --- | --- |
 | Sega Saturn Rev. B game | Complete configured build | Functional, but not comprehensively reviewed or playtested |
 | Sega Saturn *Akuma Zensho* | Complete configured build for every proved text and visual span | Structurally verified; runtime playtesting remains |
-| PSP | Complete configured English title-help and CONFIG build | Structurally verified; broader translation remains |
+| PSP | Complete configured English title-help, CONFIG, command-help, battle-console, five-bank EVENT, and START2 subtitle build | Structurally verified; broader translation remains |
 
 "Complete configured build" means the repository can regenerate and verify all
 translation work currently represented here. It does not mean every English
@@ -36,7 +37,7 @@ either disc has been tested in game.
 | `saturn/engine` | Twenty-four checked surface builds covering the translated executable consumers, lossless FMV subtitles, and the complete proved compendium text inventory |
 | `saturn/visual` | 2,365 game image views and 295 classified compendium image structures, with sparse tracked replacements |
 | `saturn/rom` | Verified extraction and transactional rebuilding of both Saturn discs |
-| `psp` | Font-resource catalogue plus authored title-help/CONFIG text, FONT16 rasters, Allegrex renderers, and checked same-size ISO publication; remaining surfaces and visuals remain to be ported |
+| `psp` | Font-resource catalogue plus authored title-help/CONFIG/command-help/battle-console/EVENT/START2 text, FONT16 and EVE rasters, the stock-safe EVENT VWF runtime, Allegrex patches, and checked same-size ISO publication; remaining surfaces and visuals remain to be ported |
 | `tools` | Local browser-based translation editing, bound-consumer validation, and exact-font surface previews |
 
 The remaining work is chiefly translation review and playtesting, semantic

@@ -16,11 +16,11 @@ from psp.rom.util.publication import (
 
 
 class PspRomTests(unittest.TestCase):
-    def test_catalog_declares_the_complete_title_help_extent_set(self) -> None:
+    def test_catalog_declares_the_complete_ported_extent_set(self) -> None:
         disc = load_catalog()["game"]
         self.assertEqual(
             set(disc.entries),
-            {"boot", "eboot", "datapack", "regdata"},
+            {"boot", "eboot", "datapack", "eve_files", "regdata", "start2_pmf"},
         )
 
     def test_atomic_publication_changes_only_declared_extents(self) -> None:

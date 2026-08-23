@@ -16,15 +16,24 @@ if __package__ in {None, ""}:
     if root not in sys.path:
         sys.path.insert(0, root)
 
+from psp.archive.pack import PspPack
 from psp.rom.util.catalog import load_catalog, validate_source
 from psp.rom.util.iso9660 import read_iso9660_file
-from psp.text.util.assets import TITLE_ASSET_PATH
-from psp.text.util.assets import CONFIG_ASSET_PATH
+from psp.text.util.assets import CONFIG_ASSET_PATH, TITLE_ASSET_PATH
+from psp.text.util.btl_mes import (
+    CONFIG_PATH as BTL_MES_CONFIG_PATH,
+    asset_paths as btl_mes_asset_paths,
+    build_btl_mes,
+)
 from psp.text.util.config_menu import (
     CONFIG_PATH as CONFIG_MENU_PATH,
     build_config_text,
 )
-from psp.archive.pack import PspPack
+from psp.text.util.command_menu_help import (
+    CONFIG_PATH as COMMAND_HELP_PATH,
+    asset_paths as command_help_asset_paths,
+    build_command_menu_help,
+)
 from psp.text.util.title_help import CONFIG_PATH, build_title_help, load_config
 
 
@@ -76,23 +85,46 @@ def build(*, check: bool) -> None:
         raise ValueError("PSP regdata disc contract changed")
     title_result = build_title_help(source, config)
     config_result = build_config_text(source)
+    command_help_result = build_command_menu_help(source, config_result)
+    btl_mes_result = build_btl_mes(source)
     archive = PspPack.parse(source)
     combined = archive.rebuild(
-        {14: config_result.member, config.member_index: title_result.member}
+        {
+            14: command_help_result.member,
+            18: btl_mes_result.member,
+            config.member_index: title_result.member,
+        }
     )
     if _sha(combined) != (
-        "a642bbea6b2d3a087261bd2aaf6ac0687eba2eb272681344b3a0cc1946688e4b"
+        "e25777eb87f9fe4a2ea300837113cac9dceb86e154322baa266ac03f4dee3b9f"
     ):
-        raise ValueError("combined PSP CONFIG/title-help regdata contract changed")
+        raise ValueError("composed PSP regdata contract changed")
     manifest = {
         "version": 1,
         "surface": "psp.text",
-        "components": ["title_help.text", "config_menu.text"],
+        "components": [
+            "title_help.text",
+            "config_menu.text",
+            "command_menu_help.text",
+            "battle_console.text",
+        ],
         "inputs": {
             "asset_sha256": _sha(TITLE_ASSET_PATH.read_bytes()),
             "config_asset_sha256": _sha(CONFIG_ASSET_PATH.read_bytes()),
             "config_sha256": _sha(CONFIG_PATH.read_bytes()),
             "config_menu_binding_sha256": _sha(CONFIG_MENU_PATH.read_bytes()),
+            "command_help_binding_sha256": _sha(COMMAND_HELP_PATH.read_bytes()),
+            "command_help_assets": {
+                path.relative_to(TEXT_ROOT.parents[1]).as_posix(): _sha(path.read_bytes())
+                for path in command_help_asset_paths()
+            },
+            "btl_mes_binding_sha256": _sha(BTL_MES_CONFIG_PATH.read_bytes()),
+            "btl_mes_assets": {
+                path.relative_to(TEXT_ROOT.parents[1]).as_posix(): _sha(
+                    path.read_bytes()
+                )
+                for path in btl_mes_asset_paths()
+            },
             "source_sha256": _sha(source),
         },
         "output": {
@@ -101,15 +133,25 @@ def build(*, check: bool) -> None:
             "sha256": _sha(combined),
         },
         "member": {
-            "indices": [14, config.member_index],
+            "indices": [14, 18, config.member_index],
             "sha256": {
-                "14": _sha(config_result.member),
+                "14": _sha(command_help_result.member),
+                "18": _sha(btl_mes_result.member),
                 str(config.member_index): _sha(title_result.member),
             },
         },
         "records": {
             "title_help": list(title_result.translations),
             "config_help": list(config_result.translations),
+            "command_help": list(command_help_result.translations),
+            "battle_console": {
+                "translated": btl_mes_result.translated_record_count,
+                "preserved_empty": btl_mes_result.preserved_record_count,
+                "body_offset": btl_mes_result.body_offset,
+                "body_size": btl_mes_result.body_size,
+                "body_capacity": btl_mes_result.body_capacity,
+                "free_bytes": btl_mes_result.free_bytes,
+            },
         },
     }
     manifest_bytes = (

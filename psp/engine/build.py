@@ -16,7 +16,25 @@ if __package__ in {None, ""}:
     if root not in sys.path:
         sys.path.insert(0, root)
 
+from psp.engine.surfaces.battle_console import (
+    CONFIG_PATH as BATTLE_CONSOLE_CONFIG_PATH,
+    build_battle_console,
+)
 from psp.engine.surfaces.config_menu import build_config_menu
+from psp.engine.surfaces.command_menu_help import (
+    CONFIG_PATH as COMMAND_HELP_CONFIG_PATH,
+    build_command_menu_help,
+    load_eve_widths,
+)
+from psp.engine.surfaces.event_window import (
+    CONFIG_PATH as EVENT_WINDOW_CONFIG_PATH,
+    build_event_window,
+)
+from psp.engine.surfaces.fmv_subtitles import (
+    CONFIG_PATH as FMV_SUBTITLE_CONFIG_PATH,
+    FMV_MANIFEST_PATH,
+    build_fmv_subtitles,
+)
 from psp.engine.surfaces.title_help_ui import (
     CONFIG_PATH,
     TARGET,
@@ -44,11 +62,32 @@ MANIFEST_OUTPUT = GENERATED_ROOT / "psp.engine.json"
 FONT_MANIFEST_PATH = (
     PSP_ROOT / "font" / "generated" / "game" / "psp.fonts.json"
 )
+TEXT_MANIFEST_PATH = PSP_ROOT / "text" / "generated" / "game" / "psp.text.json"
 CONFIG_ENGINE_SOURCES = (
     ENGINE_ROOT / "core" / "emitter.py",
     ENGINE_ROOT / "core" / "layout.py",
     ENGINE_ROOT / "surfaces" / "config_menu.py",
     ENGINE_ROOT / "surfaces" / "config_menu_runtime.py",
+)
+BATTLE_CONSOLE_ENGINE_SOURCES = (
+    BATTLE_CONSOLE_CONFIG_PATH,
+    ENGINE_ROOT / "surfaces" / "battle_console.py",
+)
+FMV_SUBTITLE_ENGINE_SOURCES = (
+    FMV_SUBTITLE_CONFIG_PATH,
+    ENGINE_ROOT / "surfaces" / "fmv_subtitles.py",
+)
+COMMAND_HELP_ENGINE_SOURCES = (
+    COMMAND_HELP_CONFIG_PATH,
+    ENGINE_ROOT / "core" / "emitter.py",
+    ENGINE_ROOT / "core" / "layout.py",
+    ENGINE_ROOT / "surfaces" / "command_menu_help.py",
+)
+EVENT_WINDOW_ENGINE_SOURCES = (
+    EVENT_WINDOW_CONFIG_PATH,
+    ENGINE_ROOT / "core" / "emitter.py",
+    ENGINE_ROOT / "core" / "layout.py",
+    ENGINE_ROOT / "surfaces" / "event_window.py",
 )
 EBOOT_TRAILING_SIZE = 345
 
@@ -145,6 +184,48 @@ def _config_font_contract() -> dict[str, object]:
     return contract
 
 
+def _battle_console_body_offset() -> int:
+    if not TEXT_MANIFEST_PATH.is_file():
+        raise ValueError(
+            f"PSP text manifest is missing: {TEXT_MANIFEST_PATH}; "
+            "run psp/text/repack.py all"
+        )
+    try:
+        document = json.loads(TEXT_MANIFEST_PATH.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as error:
+        raise ValueError(f"invalid PSP text manifest: {TEXT_MANIFEST_PATH}") from error
+    records = document.get("records") if isinstance(document, dict) else None
+    battle_console = (
+        records.get("battle_console") if isinstance(records, dict) else None
+    )
+    components = document.get("components") if isinstance(document, dict) else None
+    if (
+        not isinstance(document, dict)
+        or document.get("version") != 1
+        or document.get("surface") != "psp.text"
+        or not isinstance(components, list)
+        or "battle_console.text" not in components
+        or not isinstance(battle_console, dict)
+        or set(battle_console)
+        != {
+            "translated",
+            "preserved_empty",
+            "body_offset",
+            "body_size",
+            "body_capacity",
+            "free_bytes",
+        }
+        or battle_console.get("translated") != 313
+        or battle_console.get("preserved_empty") != 45
+        or battle_console.get("body_offset") != 0x400
+        or battle_console.get("body_size") != 3_136
+        or battle_console.get("body_capacity") != 4_058
+        or battle_console.get("free_bytes") != 922
+    ):
+        raise ValueError("PSP text manifest has no valid battle-console contract")
+    return 0x400
+
+
 def _manifest(
     *,
     source: dict[str, object],
@@ -157,7 +238,14 @@ def _manifest(
     document = {
         "version": 1,
         "surface": "psp.engine",
-        "components": ["title_help.ui", "config_menu.ui"],
+        "components": [
+            "title_help.ui",
+            "config_menu.ui",
+            "command_menu_help.runtime",
+            "event_window.runtime_foundation",
+            "battle_console.runtime",
+            "fmv_subtitles.runtime",
+        ],
         "source": source,
         "inputs": {
             "disc_catalog_sha256": file_sha256(CATALOG_PATH),
@@ -165,6 +253,8 @@ def _manifest(
             "patch_config_sha256": file_sha256(CONFIG_PATH),
             "title_help_metrics_sha256": file_sha256(METRICS_PATH),
             "font_manifest_sha256": file_sha256(FONT_MANIFEST_PATH),
+            "text_manifest_sha256": file_sha256(TEXT_MANIFEST_PATH),
+            "fmv_manifest_sha256": file_sha256(FMV_MANIFEST_PATH),
             "config_menu_asset_sha256": file_sha256(CONFIG_ASSET_PATH),
             "assembly": {
                 path.relative_to(ENGINE_ROOT).as_posix(): file_sha256(path)
@@ -179,6 +269,22 @@ def _manifest(
             "config_menu_sources": {
                 path.relative_to(ENGINE_ROOT).as_posix(): file_sha256(path)
                 for path in CONFIG_ENGINE_SOURCES
+            },
+            "command_help_sources": {
+                path.relative_to(ENGINE_ROOT).as_posix(): file_sha256(path)
+                for path in COMMAND_HELP_ENGINE_SOURCES
+            },
+            "event_window_sources": {
+                path.relative_to(ENGINE_ROOT).as_posix(): file_sha256(path)
+                for path in EVENT_WINDOW_ENGINE_SOURCES
+            },
+            "battle_console_sources": {
+                path.relative_to(ENGINE_ROOT).as_posix(): file_sha256(path)
+                for path in BATTLE_CONSOLE_ENGINE_SOURCES
+            },
+            "fmv_subtitle_sources": {
+                path.relative_to(ENGINE_ROOT).as_posix(): file_sha256(path)
+                for path in FMV_SUBTITLE_ENGINE_SOURCES
             },
         },
         "runtime": {"used": runtime_used, "capacity": runtime_capacity},
@@ -232,19 +338,50 @@ def build_engine(*, check: bool) -> None:
     stock_boot, stock_eboot, source = _source_entries()
     title = build_title_help_ui(stock_boot, widths)
     config = build_config_menu(stock_boot, title.data, _config_font_contract())
-    eboot = config.data + bytes(EBOOT_TRAILING_SIZE)
+    command_help = build_command_menu_help(stock_boot, config.data)
+    event_window = build_event_window(
+        stock_boot,
+        command_help.data,
+        load_eve_widths(),
+    )
+    battle_console = build_battle_console(
+        stock_boot,
+        event_window.data,
+        _battle_console_body_offset(),
+    )
+    fmv = build_fmv_subtitles(stock_boot, battle_console.data)
+    eboot = fmv.data + bytes(EBOOT_TRAILING_SIZE)
     if len(eboot) != len(stock_eboot):
         raise ValueError("PSP EBOOT replacement changed its ISO extent size")
     manifest = _manifest(
         source=source,
-        boot=config.data,
+        boot=fmv.data,
         eboot=eboot,
-        patches=(*title.patches, *config.patches),
-        runtime_used=title.runtime_used_size + config.runtime_used_size,
-        runtime_capacity=title.runtime_capacity + config.runtime_used_size,
+        patches=(
+            *title.patches,
+            *config.patches,
+            *command_help.patches,
+            *event_window.patches,
+            *battle_console.patches,
+            *fmv.patches,
+        ),
+        runtime_used=(
+            title.runtime_used_size
+            + config.runtime_used_size
+            + command_help.runtime_used_size
+            + event_window.runtime_used_size
+            + fmv.runtime_used_size
+        ),
+        runtime_capacity=(
+            title.runtime_capacity
+            + config.runtime_used_size
+            + command_help.runtime_capacity
+            + event_window.runtime_capacity
+            + fmv.runtime_capacity
+        ),
     )
     for path, data in (
-        (BOOT_OUTPUT, config.data),
+        (BOOT_OUTPUT, fmv.data),
         (EBOOT_OUTPUT, eboot),
         (MANIFEST_OUTPUT, manifest),
     ):

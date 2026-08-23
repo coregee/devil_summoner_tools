@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "start2_news",
+  "surface": "fmv.subtitles",
+  "asset": "../../../assets/text/fmv/subtitles.json",
+  "disc_entry": "start2_pmf",
+  "extent_offset": 257064960,
+  "video": {
+    "container": "psmf",
+    "codec": "h264",
+    "width": 320,
+    "height": 224,
+    "frame_rate_numerator": 30000,
+    "frame_rate_denominator": 1001,
+    "sample_count": 1000,
+    "header_size": 2048,
+    "stream_size": 4509696,
+    "clock_hz": 90000,
+    "presentation_start_ticks": 90000,
+    "presentation_end_ticks": 3093000
+  },
+  "render": {
+    "single_line_tops": [196],
+    "double_line_tops": [180, 196],
+    "x_compensation": 8,
+    "outline_pixels": 1,
+    "stock_movie_sprites": 5,
+    "sprite_limit": 384
+  }
+}

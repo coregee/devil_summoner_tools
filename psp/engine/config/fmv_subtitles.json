@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "surface": "fmv_subtitles.runtime",
+  "target": {
+    "name": "BOOT.BIN",
+    "address_bias": 128,
+    "size": 2404599,
+    "stock_sha256": "37b5b7a49fe1a5af60ab042d2822befb00580e02a7d7d2ed77dd279ebe6f55fa"
+  },
+  "runtime": {
+    "draw_wrapper_address": "0x0013ee10",
+    "cue_table_address": "0x0013f000",
+    "cue_table_limit": "0x0013f800",
+    "movie_update_address": "0x0000b8a8",
+    "glyph_draw_address": "0x0000c998",
+    "start2_name_address": "0x0010c5b0",
+    "frame_counter_address": "0x004703a0",
+    "glyph_first": "0x0672",
+    "glyph_limit": "0x0691"
+  },
+  "movie_calls": [
+    {"name": "fmv_subtitle_movie_call_072218", "address": "0x00072218", "relocation_offset": "0x002119e8", "delay_slot": "0000048e"},
+    {"name": "fmv_subtitle_movie_call_072248", "address": "0x00072248", "relocation_offset": "0x00211a10", "delay_slot": "0000048e"},
+    {"name": "fmv_subtitle_movie_call_072258", "address": "0x00072258", "relocation_offset": "0x00211a20", "delay_slot": "0000048e"},
+    {"name": "fmv_subtitle_movie_call_0769cc", "address": "0x000769cc", "relocation_offset": "0x00214228", "delay_slot": "0000048e"},
+    {"name": "fmv_subtitle_movie_call_0769e4", "address": "0x000769e4", "relocation_offset": "0x00214238", "delay_slot": "0000048e"},
+    {"name": "fmv_subtitle_movie_call_077be0", "address": "0x00077be0", "relocation_offset": "0x00214cd0", "delay_slot": "0000048e"},
+    {"name": "fmv_subtitle_movie_call_077c14", "address": "0x00077c14", "relocation_offset": "0x00214ce8", "delay_slot": "0000048e"},
+    {"name": "fmv_subtitle_movie_call_077d20", "address": "0x00077d20", "relocation_offset": "0x00214d80", "delay_slot": "0000048e"},
+    {"name": "fmv_subtitle_movie_call_0858f0", "address": "0x000858f0", "relocation_offset": "0x0021a928", "delay_slot": "0000048e"},
+    {"name": "fmv_subtitle_draw_call", "address": "0x000a024c", "relocation_offset": "0x00225ba0", "delay_slot": "0000448c"}
+  ],
+  "stock_call": "2a2e000c"
+}

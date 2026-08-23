@@ -21,6 +21,14 @@ from psp.font.util.config_menu import (
     CONFIG_PATH as CONFIG_FONT16_PATH,
     build_config_font16,
 )
+from psp.font.util.fmv_subtitles import (
+    CONFIG_PATH as FMV_FONT16_PATH,
+    build_fmv_subtitle_font16,
+)
+from psp.font.util.eve_ascii import (
+    CONFIG_PATH as EVE_ASCII_CONFIG_PATH,
+    build_eve_ascii,
+)
 from psp.font.util.title_help import (
     CONFIG_PATH as FONT16_CONFIG_PATH,
     build_title_help_font16,
@@ -34,6 +42,7 @@ from psp.text.util.assets import TITLE_ASSET_PATH
 FONT_ROOT = Path(__file__).resolve().parent
 OUTPUT_PATH = FONT_ROOT / "generated" / "game" / "title_help_metrics.json"
 DATAPACK_PATH = FONT_ROOT / "generated" / "game" / "datapack.bin"
+EVE_FILES_PATH = FONT_ROOT / "generated" / "game" / "eve_files.bin"
 MANIFEST_PATH = FONT_ROOT / "generated" / "game" / "psp.fonts.json"
 
 
@@ -84,25 +93,71 @@ def build_fonts(*, check: bool) -> None:
     ):
         raise ValueError("PSP datapack disc contract changed")
     title_result = build_title_help_font16(source, config)
-    result = build_config_font16(source, title_result)
+    fmv_result = build_fmv_subtitle_font16(source)
+    result = build_config_font16(source, title_result, fmv_result)
+    eve_config = json.loads(EVE_ASCII_CONFIG_PATH.read_text(encoding="utf-8"))
+    eve_contract = disc.entries.get("eve_files")
+    if eve_contract is None:
+        raise ValueError("PSP disc catalogue has no eve_files contract")
+    eve_extent, eve_source = read_iso9660_file(source_iso, eve_config["iso_path"])
+    if (
+        eve_extent.size != eve_contract.size
+        or len(eve_source) != eve_contract.size
+        or _sha(eve_source) != eve_contract.sha256
+    ):
+        raise ValueError("PSP eve_files disc contract changed")
+    eve_result = build_eve_ascii(eve_source)
     manifest = {
         "version": 1,
         "surface": "psp.fonts",
-        "components": ["title_help.font16", "config_menu.font16"],
+        "components": [
+            "title_help.font16",
+            "fmv_subtitles.font16",
+            "config_menu.font16",
+            "command_menu_help.eve_ascii",
+        ],
         "inputs": {
             "asset_sha256": _sha(TITLE_ASSET_PATH.read_bytes()),
             "config_sha256": _sha(FONT16_CONFIG_PATH.read_bytes()),
             "config_menu_config_sha256": _sha(CONFIG_FONT16_PATH.read_bytes()),
+            "fmv_subtitle_config_sha256": _sha(FMV_FONT16_PATH.read_bytes()),
+            "eve_ascii_config_sha256": _sha(EVE_ASCII_CONFIG_PATH.read_bytes()),
             "metrics_sha256": _sha(metrics_data),
             "source_sha256": _sha(source),
+            "eve_source_sha256": _sha(eve_source),
         },
-        "output": {
-            "filename": DATAPACK_PATH.name,
-            "size": len(result.data),
-            "sha256": _sha(result.data),
+        "outputs": {
+            DATAPACK_PATH.name: {
+                "size": len(result.data),
+                "sha256": _sha(result.data),
+            },
+            EVE_FILES_PATH.name: {
+                "size": len(eve_result.data),
+                "sha256": _sha(eve_result.data),
+            },
         },
         "changed_members": [9, 15],
         "changed_byte_count": result.changed_byte_count,
+        "eve_ascii": {
+            "first_code": 0x1E20,
+            "last_code": 0x1E7E,
+            "changed_codes": list(eve_result.changed_codes),
+            "changed_byte_count": eve_result.changed_byte_count,
+            "advance_table": list(eve_result.advance_table),
+            "characters": [
+                {"character": character, "code": code, "advance": advance}
+                for character, code, advance in eve_result.mappings
+            ],
+        },
+        "fmv_subtitles": {
+            "first_code": fmv_result.changed_codes[0],
+            "required_draw_code_limit": fmv_result.changed_codes[-1] + 1,
+            "changed_codes": list(fmv_result.changed_codes),
+            "characters": [
+                {"character": character, "code": code, "advance": advance}
+                for character, code, advance in fmv_result.mappings
+            ],
+        },
         "config_menu": {
             "required_draw_code_limit": result.required_limit,
             "ark16_advance_first_code": 0x0672,
@@ -123,6 +178,7 @@ def build_fonts(*, check: bool) -> None:
     for path, data in (
         (OUTPUT_PATH, metrics_data),
         (DATAPACK_PATH, result.data),
+        (EVE_FILES_PATH, eve_result.data),
         (MANIFEST_PATH, manifest_data),
     ):
         publish(path, data, check=check)

@@ -7,13 +7,18 @@ import json
 from dataclasses import dataclass
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import ImageFont
 
 from psp.archive.pack import PspPack
 from psp.font.util.gim import (
-    indexed_rasters,
     replace_index8_cells,
     replace_index8_coverage_cells,
+)
+from psp.font.util.fmv_subtitles import (
+    FmvSubtitleFontBuild,
+    build_fmv_subtitle_font16,
+    load_config as load_fmv_config,
+    render_mask,
 )
 from psp.font.util.metrics import render_title_help_masks
 from psp.font.util.title_help import TitleHelpFontBuild
@@ -22,39 +27,6 @@ from psp.text.util.assets import load_config_asset
 
 FONT_ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = FONT_ROOT / "config" / "config_menu_font16.json"
-ARK16_BASE = (
-    ("'", 0x0672, 4),
-    (",", 0x0673, 5),
-    (".", 0x0674, 5),
-    ("A", 0x0675, 8),
-    ("H", 0x0676, 8),
-    ("I", 0x0677, 4),
-    ("R", 0x0678, 8),
-    ("T", 0x0679, 8),
-    ("W", 0x067A, 12),
-    ("a", 0x067B, 7),
-    ("b", 0x067C, 7),
-    ("c", 0x067D, 7),
-    ("d", 0x067E, 7),
-    ("e", 0x067F, 7),
-    ("f", 0x0680, 7),
-    ("g", 0x0681, 7),
-    ("h", 0x0682, 7),
-    ("i", 0x0683, 4),
-    ("l", 0x0684, 4),
-    ("m", 0x0685, 10),
-    ("n", 0x0686, 7),
-    ("o", 0x0687, 7),
-    ("p", 0x0688, 7),
-    ("r", 0x0689, 6),
-    ("s", 0x068A, 7),
-    ("t", 0x068B, 7),
-    ("u", 0x068C, 7),
-    ("v", 0x068D, 8),
-    ("w", 0x068E, 10),
-    ("x", 0x068F, 8),
-    ("y", 0x0690, 8),
-)
 ARK16_NEW_CHARACTERS = "123BDFLMNSUz"
 ARK12_NEW = (("H", 0x12, 7), ("M", 0x17, 8), ("N", 0x18, 7))
 
@@ -78,20 +50,6 @@ def _provider(path_text: str, digest: str, size: int) -> ImageFont.FreeTypeFont:
     return ImageFont.truetype(str(path), size, layout_engine=ImageFont.Layout.BASIC)
 
 
-def _mask(character: str, font: ImageFont.FreeTypeFont) -> bytes:
-    canvas = Image.new("L", (64, 64), 0)
-    draw = ImageDraw.Draw(canvas)
-    draw.fontmode = "L"
-    draw.text((24, 37), character, font=font, fill=255, anchor="ls")
-    bounds = canvas.getbbox()
-    if bounds is None or bounds[1] < 24 or bounds[3] > 40:
-        raise ValueError(f"PSP CONFIG Ark16 glyph {character!r} clips")
-    strip = canvas.crop((bounds[0], 24, bounds[2], 40))
-    cell = Image.new("L", (16, 16), 0)
-    cell.paste(strip, (0, 0))
-    return bytes(cell.tobytes())
-
-
 @dataclass(frozen=True, slots=True)
 class ConfigFontBuild:
     data: bytes
@@ -102,7 +60,11 @@ class ConfigFontBuild:
     changed_byte_count: int
 
 
-def build_config_font16(source: bytes, title: TitleHelpFontBuild) -> ConfigFontBuild:
+def build_config_font16(
+    source: bytes,
+    title: TitleHelpFontBuild,
+    fmv: FmvSubtitleFontBuild | None = None,
+) -> ConfigFontBuild:
     plan = _load()
     ark12_plan = plan["ark12"]
     ark16_plan = plan["ark16"]
@@ -124,13 +86,14 @@ def build_config_font16(source: bytes, title: TitleHelpFontBuild) -> ConfigFontB
     if _sha(member9) != ark12_plan["output_member_sha256"]:
         raise ValueError("PSP CONFIG Ark12 output contract changed")
 
-    member15 = archive.members[15].data
-    image, palette = indexed_rasters(member15)
+    fmv_result = fmv or build_fmv_subtitle_font16(source)
+    fmv_plan = load_fmv_config()
     if (
-        _sha(member15) != ark16_plan["source_member_sha256"]
-        or _sha(palette.payload) != ark16_plan["palette_sha256"]
+        fmv_result.mappings != fmv_plan.characters
+        or _sha(fmv_result.member) != fmv_plan.output_member_sha256
     ):
-        raise ValueError("PSP CONFIG Ark16 source contract changed")
+        raise ValueError("PSP CONFIG FMV FONT16 input contract changed")
+    member15 = fmv_result.member
     font16 = _provider(
         ark16_plan["provider"], ark16_plan["provider_sha256"], ark16_plan["size"]
     )
@@ -144,15 +107,19 @@ def build_config_font16(source: bytes, title: TitleHelpFontBuild) -> ConfigFontB
         if row[0] not in {"mode", "context_help"}
     )
     required = set("".join(runtime_strings)) - {" ", "△"}
-    mappings = (*ARK16_BASE, *new)
+    mappings = (*fmv_result.mappings[1:], *new)
     mapped = {character for character, _code, _advance in mappings}
     if not required <= mapped or required - {
-        row[0] for row in ARK16_BASE
+        row[0] for row in fmv_result.mappings[1:]
     } != set(ARK16_NEW_CHARACTERS):
         raise ValueError("PSP CONFIG Ark16 mapping differs from authored text")
     masks16 = {
-        code & 0xFF: _mask(character, font16)
-        for character, code, _advance in mappings
+        code & 0xFF: render_mask(
+            character,
+            font16,
+            baseline=fmv_plan.baseline,
+        )
+        for character, code, _advance in new
     }
     member15 = replace_index8_coverage_cells(
         member15, masks16, maximum_source_index=10

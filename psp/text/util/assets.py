@@ -1,13 +1,14 @@
-"""Narrow authored-asset loader for the PSP title-help surface."""
+"""Strict authored-asset loaders used by PSP text and runtime surfaces."""
 
 from __future__ import annotations
 
 import hashlib
 import json
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
+ASSET_ROOT = PROJECT_ROOT / "assets" / "text"
 TITLE_ASSET_PATH = PROJECT_ROOT / "assets" / "text" / "ui" / "title.json"
 CONFIG_ASSET_PATH = PROJECT_ROOT / "assets" / "text" / "ui" / "config_psp.json"
 TITLE_HELP_KEYS = (
@@ -74,6 +75,51 @@ def strings_sha256(strings: tuple[str, ...]) -> str:
         list(strings), ensure_ascii=False, separators=(",", ":")
     ).encode("utf-8")
     return hashlib.sha256(encoded).hexdigest()
+
+
+def load_asset_field(
+    identity: str,
+    *,
+    asset_root: Path = ASSET_ROOT,
+) -> tuple[str, str]:
+    """Resolve one ``path#entry.field`` identity without platform imports."""
+
+    if not isinstance(identity, str) or identity.count("#") != 1:
+        raise ValueError("PSP asset identity must be path#entry.field text")
+    raw_path, separator, field_identity = identity.partition("#")
+    if not separator or field_identity.count(".") != 1 or "\\" in raw_path:
+        raise ValueError(f"invalid PSP asset identity: {identity!r}")
+    entry_name, field_name = field_identity.split(".")
+    relative = PurePosixPath(raw_path)
+    if (
+        relative.is_absolute()
+        or relative.suffix != ".json"
+        or any(part in {"", ".", ".."} for part in relative.parts)
+        or not entry_name
+        or not field_name
+    ):
+        raise ValueError(f"invalid PSP asset identity: {identity!r}")
+    root = asset_root.resolve()
+    path = (asset_root / Path(*relative.parts)).resolve()
+    if path.parent != root and root not in path.parents:
+        raise ValueError(f"PSP asset identity escapes the asset root: {identity!r}")
+    try:
+        document = json.loads(path.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError) as error:
+        raise ValueError(f"invalid PSP authored asset: {path}") from error
+    entries = document.get("entries") if isinstance(document, dict) else None
+    entry = entries.get(entry_name) if isinstance(entries, dict) else None
+    field = entry.get(field_name) if isinstance(entry, dict) else None
+    if (
+        not isinstance(document, dict)
+        or document.get("version") != 1
+        or document.get("kind") not in {"entity_catalog", "surface_catalog"}
+        or not isinstance(field, dict)
+        or not isinstance(field.get("reference"), str)
+        or not isinstance(field.get("translation"), str)
+    ):
+        raise ValueError(f"{path}: invalid authored field {field_identity!r}")
+    return field["reference"], field["translation"]
 
 
 def load_title_help_asset(

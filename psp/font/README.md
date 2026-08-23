@@ -39,31 +39,38 @@ identity in its checked definition. Definitions show whether the original
 project proved a runtime reader or only an unresolved archive relationship.
 
 Only the EVE source-blank `0x1E20..0x1E7E` range is declared as a generic
-editable raster domain. It maps all 95 printable ASCII characters to the Ark
-Pixel 12 source face. The frontend currently keeps its rebuild control locked
-because the new repository does not yet own the guarded `eve_files.bin`
-publisher and runtime width-table install. FONT16 remains feature-owned rather
-than globally editable. The composed publisher owns the title-help Ark12 cells,
-the proved START2 Ark16 base allocation needed by CONFIG, CONFIG's twelve new
-Ark16 cells, and its three Ark12 mode-label cells. START2 subtitle runtime and
-text are not ported yet; only its shared font dependency is reproduced. MAP2D
-and the other allocations remain locked until their local guards are ported.
+editable raster domain. The guarded publisher maps all 95 printable ASCII
+characters to the Ark Pixel 12 source face, preserves every unowned tile and
+palette record, and emits both `eve_files.bin` and the runtime advance table
+shared by command help and the EVENT VWF foundation.
+FONT16 remains feature-owned rather than globally editable. The composed
+publisher owns the title-help Ark12 cells,
+the proved START2 Ark16 base allocation, CONFIG's twelve new Ark16 cells, and
+its three Ark12 mode-label cells. START2 owns codes `0x0672..0x0690`, compiled
+directly from the canonical timed-text character inventory; CONFIG extends the
+same checked page through `0x069c`. MAP2D and the other allocations remain
+locked until their local guards are ported.
+
+The ported BTL_MES battle console validates the stock 72-cell FNT8X12 member
+as codec and source-order evidence, but does not rewrite that member or broaden
+its unresolved runtime-reader claim.
 
 This distinction is deliberate: a byte-identical Saturn-named resource is
 format evidence, not proof that its PSP reader is live or interchangeable.
 
 ## Runtime metrics
 
-The composed font stage generates the title-help 95-entry advance table and a
-same-size `datapack.bin` containing the title and CONFIG cells from pinned Ark
-Pixel faces and checked PSP raster geometry:
+The composed font stage generates the title-help and EVE 95-entry advance
+tables, a same-size `datapack.bin`, and a same-size `eve_files.bin` from pinned
+Ark Pixel faces and checked PSP raster geometry:
 
 ```powershell
 python -B psp/font/repack.py all
 python -B psp/font/repack.py all --check
 ```
 
-The publisher verifies the source pack, member 9 GIM geometry and palette,
-every owned glyph code, all unowned cells, the 2,821 changed-byte inventory,
-and the exact legacy output hashes. CONFIG exports its Ark12/Ark16 mappings,
-advance table, and draw limit through the font manifest for the engine stage.
+The publisher verifies the source pack, member 9 and member 15 GIM geometry and palette,
+every owned glyph code, all unowned cells, both changed-byte inventories, and
+the exact legacy output hashes. The manifest exports the START2 and EVE
+mappings plus CONFIG's composed Ark12/Ark16 mapping, advance table, and draw
+limit for later build stages.

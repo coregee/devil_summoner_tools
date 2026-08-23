@@ -15,6 +15,8 @@ class PspBuildPipelineTests(unittest.TestCase):
             (
                 "repack_fonts",
                 "repack_text",
+                "repack_event_text",
+                "build_fmv",
                 "build_engine",
                 "build_disc",
             ),
@@ -38,6 +40,8 @@ class PspBuildPipelineTests(unittest.TestCase):
         self.assertIn("Mode: build", output)
         self.assertIn("font\\repack.py all", output)
         self.assertIn("text\\repack.py all", output)
+        self.assertIn("text\\event_repack.py all", output)
+        self.assertIn("fmv\\build.py all", output)
         self.assertIn("engine\\build.py all", output)
         self.assertIn("rom\\repack.py game", output)
         self.assertIn("smtds_psp_in_progress.iso", output)

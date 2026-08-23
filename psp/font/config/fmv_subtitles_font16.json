@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "id": "fmv_subtitles_font16",
+  "asset": {
+    "path": "../../../assets/text/fmv/subtitles.json",
+    "sha256": "3926cd17b37b87739c9aa6eef7e97c0737b8d07e48df79138af8cf11f14d7f6e"
+  },
+  "source": {
+    "sha256": "0be5851b575c52eccce21b6e76a2961b08b2f4426645600b6bac84358e9e2219",
+    "member_index": 15,
+    "member_sha256": "462bedbda5f68fab2ac555b5eac13958716818235dad536702fdc065adf7664c",
+    "palette_sha256": "010ceeaac001c39b98d424877c87ddd9eb923f5cb89b762cdce9d29b7fa81141"
+  },
+  "provider": {
+    "path": "../../../assets/font/ark-pixel/ark-pixel-16px-proportional-latin.otf",
+    "sha256": "5ff8ed367e79aa2e1081a20c17f248a0c688baa566efbcda7ed00f62351f8491",
+    "size": 16,
+    "baseline": 13
+  },
+  "layout": {
+    "first_code": "0x0672",
+    "required_limit": "0x0691",
+    "canvas_width": 320,
+    "horizontal_margin": 12
+  },
+  "characters": [
+    {"character": " ", "code": "0x0000", "advance": 7},
+    {"character": "'", "code": "0x0672", "advance": 4},
+    {"character": ",", "code": "0x0673", "advance": 5},
+    {"character": ".", "code": "0x0674", "advance": 5},
+    {"character": "A", "code": "0x0675", "advance": 8},
+    {"character": "H", "code": "0x0676", "advance": 8},
+    {"character": "I", "code": "0x0677", "advance": 4},
+    {"character": "R", "code": "0x0678", "advance": 8},
+    {"character": "T", "code": "0x0679", "advance": 8},
+    {"character": "W", "code": "0x067a", "advance": 12},
+    {"character": "a", "code": "0x067b", "advance": 7},
+    {"character": "b", "code": "0x067c", "advance": 7},
+    {"character": "c", "code": "0x067d", "advance": 7},
+    {"character": "d", "code": "0x067e", "advance": 7},
+    {"character": "e", "code": "0x067f", "advance": 7},
+    {"character": "f", "code": "0x0680", "advance": 7},
+    {"character": "g", "code": "0x0681", "advance": 7},
+    {"character": "h", "code": "0x0682", "advance": 7},
+    {"character": "i", "code": "0x0683", "advance": 4},
+    {"character": "l", "code": "0x0684", "advance": 4},
+    {"character": "m", "code": "0x0685", "advance": 10},
+    {"character": "n", "code": "0x0686", "advance": 7},
+    {"character": "o", "code": "0x0687", "advance": 7},
+    {"character": "p", "code": "0x0688", "advance": 7},
+    {"character": "r", "code": "0x0689", "advance": 6},
+    {"character": "s", "code": "0x068a", "advance": 7},
+    {"character": "t", "code": "0x068b", "advance": 7},
+    {"character": "u", "code": "0x068c", "advance": 7},
+    {"character": "v", "code": "0x068d", "advance": 8},
+    {"character": "w", "code": "0x068e", "advance": 10},
+    {"character": "x", "code": "0x068f", "advance": 8},
+    {"character": "y", "code": "0x0690", "advance": 8}
+  ],
+  "output": {
+    "sha256": "5c34fda5ed29ce937a16d74214526bb647aa4e904f4632800ea1e62f18c26e6e",
+    "member_sha256": "4e760c3fb60f9924b5b481fb381487117f2f6bff419ba3ac10eef7afe9fc86bd",
+    "changed_byte_count": 1009
+  }
+}

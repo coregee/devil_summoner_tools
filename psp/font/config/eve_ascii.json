@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "iso_path": "PSP_GAME/USRDIR/flwdat/eve_files.bin",
+  "source_size": 2830640,
+  "source_sha256": "4355db7002fd692e3ae05d7a5763e96debd7f5c8fd51bc49a3ef94a6c3b5f59d",
+  "member_count": 30,
+  "atlas": {
+    "member_index": 5,
+    "offset": 368768,
+    "size": 999424,
+    "sha256": "08512684c5205786f5e68dde1c94c2cb9dd1eb6acbf67cec623f3f6de946fe31"
+  },
+  "palette": {
+    "member_index": 6,
+    "offset": 1368192,
+    "size": 64,
+    "sha256": "01041c72f80c356957fbff6cff23b7bc1c6e4c8896db06716851197ff3846ea7",
+    "maximum_source_index": 10
+  },
+  "provider": {
+    "path": "../../../assets/font/ark-pixel/ark-pixel-12px-proportional-latin.otf",
+    "sha256": "ba0bbfc888f51ddde1b75944c26457bc26d666ab4fa1c73da726bbbec6497bf5",
+    "size": 12,
+    "baseline": 13
+  },
+  "format": {
+    "width": 16,
+    "height": 16,
+    "bpp": 4,
+    "row_stride": 8,
+    "glyph_stride": 128,
+    "nibble_order": "high_then_low"
+  },
+  "output": {
+    "archive_sha256": "c4b1a34ec0e6b05bec0afb0b581f2fbf5897e68ca488562f1b41c2f3d615378e",
+    "atlas_sha256": "6f893fdab8d7e13bf16e390ce3a04809fbef153eac7813a5e04d9e7dba44b2a4",
+    "changed_byte_count": 1643
+  }
+}
