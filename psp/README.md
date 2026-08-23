@@ -3,16 +3,16 @@
 PSP implementation has begun with the original UMD font catalogue under
 [`font/`](font/README.md), checked movie compilation under [`fmv/`](fmv/README.md),
 the ported runtime surfaces under [`engine/`](engine/README.md), and an explicit
-visual reuse boundary under [`visual/`](visual/README.md). The font package defines all twelve logical font
+visual reuse boundary under [`visual/`](visual/README.md). The font package
+defines all twelve logical font
 roles recovered from the original PSP project, including their twenty physical
 archive or embedded targets, storage formats, hashes, confidence levels, and
 cell grids. The engine package now owns the readable Allegrex title-help VWF
 patch and readable CONFIG emitter, with exact source guards and focused tests.
 
 The PSP-owned build pipeline now composes the complete English title-help,
-CONFIG, command-help, battle-console, NAME/profile entry, savedata metadata, Demon Compendium,
-active-item, and START2 subtitle
-slices. It compiles
+CONFIG, command-help, battle-console, NAME/profile entry, savedata metadata,
+Demon Compendium, active-item, and START2 subtitle slices. It compiles
 six title records, all 57 CONFIG/command-help slots, and 313 active BTL_MES
 rows into `regdata.bin` while preserving
 45 native empty rows; compiles nine canonical START2 cues after validating the
@@ -36,10 +36,12 @@ Savedata switches the PSP utility language to English and builds its SFO detail
 from the live English codename, level, difficulty, one of 24 dungeon locations,
 and playtime.
 The pipeline
-publishes a same-size ISO through 89 verified resource, executable, title, and
-maze extents. The visual package reuses three title images and 37 maze images,
-encoding only 18 unique pack members before fanning them out to 84 visual target
-packs. Remaining text surfaces, engine patches, fonts, and platform-layout
+publishes a same-size ISO through 91 verified resource, executable, title, maze,
+and save-icon extents. The visual package uses four title images, 37 maze images, and the
+PSP save/game icon, encoding only 20 unique members/files before fanning them
+out to 86 visual target extents. Three title assets are cross-platform; the
+lower-resolution 114x25 overlay remains explicitly PSP-owned. Remaining text
+surfaces, engine patches, fonts, and platform-layout
 visual sheets still need to be ported; unlike layouts will remain separate
 assets rather than being forced into one encoding. The
 font catalogue intentionally does not infer a live reader from a

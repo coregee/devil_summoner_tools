@@ -16,7 +16,7 @@ from psp.visual.util.workflow import (
 
 
 MATURE_OUTPUT_AGGREGATE = (
-    "9dc56e9822c540588cf6b12f3d53366edee2ac7901024e643cbd1d909cc83962"
+    "e3c846fc47c6926a71bb4c1d6b21baf02204e4f08fce1caad03ba82143cf1f2d"
 )
 
 
@@ -32,9 +32,9 @@ class PspVisualWorkflowTests(unittest.TestCase):
         self.assertEqual(
             self.document["summary"],
             {
-                "shared_assets": 40,
-                "encoded_members": 18,
-                "physical_bindings": 86,
+                "shared_assets": 42,
+                "encoded_members": 20,
+                "physical_bindings": 89,
             },
         )
         maze = json.loads(MAZE_BINDINGS_PATH.read_text(encoding="utf-8"))
@@ -63,8 +63,8 @@ class PspVisualWorkflowTests(unittest.TestCase):
 
     def test_rom_composer_materializes_one_extent_per_target_pack(self) -> None:
         rows = _visual_replacements(self.disc.source_path, self.disc)
-        self.assertEqual(len(rows), 84)
-        self.assertEqual(len({row.extent.path.casefold() for row in rows}), 84)
+        self.assertEqual(len(rows), 86)
+        self.assertEqual(len({row.extent.path.casefold() for row in rows}), 86)
         self.assertTrue(
             all(len(row.source_data) == len(row.replacement_data) for row in rows)
         )

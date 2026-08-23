@@ -38,6 +38,20 @@
       }
     },
     {
+      "asset": "title.psp.shin_megami_tensei",
+      "member_index": 4,
+      "alpha_mode": "preserve",
+      "source": {
+        "size": 5408,
+        "sha256": "61c4df7baa0b55200478fb11e3cc74872c979c808a36c8b5b34a005cca7cffba",
+        "pixel_sha256": "617d828e897ae06cdf817d7fd5f3832db32e2b5fa65ff336c597070f24b5a065",
+        "width": 114,
+        "height": 25,
+        "format": 5,
+        "order": 1
+      }
+    },
+    {
       "asset": "title.full_title_screen",
       "member_index": 5,
       "alpha_mode": "preserve",

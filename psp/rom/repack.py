@@ -229,7 +229,7 @@ def _visual_replacements(source_path: Path, disc) -> tuple[IsoReplacement, ...]:
     ):
         raise ValueError("PSP visual manifest has an invalid contract")
 
-    by_path: dict[str, list[tuple[int, bytes, str]]] = {}
+    by_path: dict[str, list[tuple[int | None, bytes, str]]] = {}
     for key, row in outputs.items():
         if (
             not isinstance(key, str)
@@ -257,7 +257,10 @@ def _visual_replacements(source_path: Path, disc) -> tuple[IsoReplacement, ...]:
                 not isinstance(target, dict)
                 or set(target) != {"iso_path", "member_index"}
                 or not isinstance(target["iso_path"], str)
-                or type(target["member_index"]) is not int
+                or not (
+                    target["member_index"] is None
+                    or type(target["member_index"]) is int
+                )
             ):
                 raise ValueError(f"PSP visual output {key} has an invalid target")
             by_path.setdefault(target["iso_path"], []).append(
@@ -267,9 +270,18 @@ def _visual_replacements(source_path: Path, disc) -> tuple[IsoReplacement, ...]:
     result = []
     for iso_path, member_rows in sorted(by_path.items()):
         extent, source = read_iso9660_file(source_path, iso_path)
+        if any(index is None for index, _replacement, _digest in member_rows):
+            if len(member_rows) != 1 or member_rows[0][0] is not None:
+                raise ValueError(f"{iso_path}: direct and member visuals overlap")
+            _index, replacement, source_sha256 = member_rows[0]
+            if _sha256(source) != source_sha256 or len(source) != len(replacement):
+                raise ValueError(f"{iso_path}: direct visual source contract changed")
+            result.append(IsoReplacement(extent, source, replacement))
+            continue
         pack = PspPack.parse(source)
         replacements = {}
         for index, replacement, source_sha256 in member_rows:
+            assert index is not None
             if index in replacements or not 0 <= index < len(pack.members):
                 raise ValueError(f"{iso_path}: invalid or duplicate visual member")
             member = pack.members[index].data

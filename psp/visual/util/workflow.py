@@ -3,10 +3,12 @@
 from __future__ import annotations
 
 import hashlib
+import io
 import json
 import os
 import struct
 import tempfile
+import zlib
 from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path, PurePosixPath
@@ -26,6 +28,7 @@ IMAGE_ROOT = REPOSITORY_ROOT / "assets" / "image"
 IMAGE_CATALOG_PATH = IMAGE_ROOT / "catalog.json"
 TITLE_BINDINGS_PATH = VISUAL_ROOT / "bindings" / "title.json"
 MAZE_BINDINGS_PATH = VISUAL_ROOT / "bindings" / "maze.json"
+SAVE_ICON_BINDINGS_PATH = VISUAL_ROOT / "bindings" / "save_icon.json"
 GENERATED_ROOT = VISUAL_ROOT / "generated" / "game"
 MANIFEST_PATH = GENERATED_ROOT / "psp.visual.json"
 TEXTURE_LOAD_BASE = 0x00250000
@@ -62,7 +65,7 @@ class MemberOutput:
     data: bytes
     source_sha256: str
     asset_ids: tuple[str, ...]
-    targets: tuple[tuple[str, int], ...]
+    targets: tuple[tuple[str, int | None], ...]
     report: dict[str, object]
 
 
@@ -149,6 +152,165 @@ def _effective_title(
     if alpha_mode == "black_matte_binary":
         return _black_matte_binary(image)
     raise ValueError(f"unsupported PSP title alpha mode: {alpha_mode}")
+
+
+def _png_chunks(data: bytes) -> tuple[tuple[bytes, bytes], ...]:
+    signature = b"\x89PNG\r\n\x1a\n"
+    if not data.startswith(signature):
+        raise ValueError("PNG signature is missing")
+    chunks = []
+    cursor = len(signature)
+    while cursor < len(data):
+        if cursor + 12 > len(data):
+            raise ValueError("PNG chunk header is truncated")
+        size = struct.unpack_from(">I", data, cursor)[0]
+        end = cursor + 12 + size
+        if end > len(data):
+            raise ValueError("PNG chunk exceeds its file")
+        kind = data[cursor + 4 : cursor + 8]
+        payload = data[cursor + 8 : cursor + 8 + size]
+        expected_crc = struct.unpack_from(">I", data, cursor + 8 + size)[0]
+        if zlib.crc32(kind + payload) & 0xFFFFFFFF != expected_crc:
+            raise ValueError(f"PNG {kind!r} chunk CRC is invalid")
+        chunks.append((kind, payload))
+        cursor = end
+        if kind == b"IEND":
+            break
+    if cursor != len(data) or not chunks or chunks[-1][0] != b"IEND":
+        raise ValueError("PNG chunk boundaries are invalid")
+    return tuple(chunks)
+
+
+def _png_bytes(chunks: tuple[tuple[bytes, bytes], ...]) -> bytes:
+    output = bytearray(b"\x89PNG\r\n\x1a\n")
+    for kind, payload in chunks:
+        output.extend(struct.pack(">I", len(payload)))
+        output.extend(kind)
+        output.extend(payload)
+        output.extend(struct.pack(">I", zlib.crc32(kind + payload) & 0xFFFFFFFF))
+    return bytes(output)
+
+
+def _encode_png_same_size(image: Image.Image, source_data: bytes) -> bytes:
+    source_chunks = _png_chunks(source_data)
+    with Image.open(io.BytesIO(source_data)) as opened:
+        source_size = opened.size
+    if image.size != source_size:
+        raise ValueError("PSP save icon dimensions changed")
+    rgba = image.convert("RGBA")
+    if rgba.getchannel("A").getextrema() != (255, 255):
+        raise ValueError("PSP save icon must remain fully opaque")
+    generated = io.BytesIO()
+    rgba.convert("RGB").save(generated, format="PNG", optimize=True, compress_level=9)
+    generated_chunks = _png_chunks(generated.getvalue())
+    preserved_types = {
+        b"cHRM",
+        b"gAMA",
+        b"iCCP",
+        b"iTXt",
+        b"pHYs",
+        b"sRGB",
+        b"tEXt",
+        b"tIME",
+        b"zTXt",
+    }
+    already_present = {kind for kind, _payload in generated_chunks}
+    preserved = tuple(
+        (kind, payload)
+        for kind, payload in source_chunks
+        if kind in preserved_types and kind not in already_present
+    )
+    combined = []
+    inserted = False
+    for kind, payload in generated_chunks:
+        if kind == b"IDAT" and not inserted:
+            combined.extend(preserved)
+            inserted = True
+        combined.append((kind, payload))
+    encoded = _png_bytes(tuple(combined))
+    if len(encoded) > len(source_data):
+        raise ValueError("encoded PSP save icon exceeds its fixed capacity")
+    padding = len(source_data) - len(encoded)
+    if padding:
+        if padding < 12:
+            raise ValueError("PSP save icon leaves too little room for PNG padding")
+        padded = []
+        for kind, payload in combined:
+            if kind == b"IEND":
+                padded.append((b"npAd", bytes(padding - 12)))
+            padded.append((kind, payload))
+        encoded = _png_bytes(tuple(padded))
+    if len(encoded) != len(source_data):
+        raise AssertionError("PSP save icon padding changed fixed size")
+    with Image.open(io.BytesIO(encoded)) as checked:
+        if pixel_sha256(checked) != pixel_sha256(image):
+            raise ValueError("PSP save icon encoding changed authored pixels")
+    return encoded
+
+
+def _save_icon_output(
+    source_path: Path, assets: dict[str, SharedImage]
+) -> MemberOutput:
+    config = _json(SAVE_ICON_BINDINGS_PATH, "psp_save_icon_bindings")
+    asset_id = config.get("asset")
+    contract = config.get("source")
+    targets = config.get("targets")
+    if asset_id not in assets or not isinstance(contract, dict) or not isinstance(
+        targets, list
+    ):
+        raise ValueError(f"{SAVE_ICON_BINDINGS_PATH}: malformed bindings")
+    payloads = []
+    resolved_targets = []
+    for target in targets:
+        if not isinstance(target, dict):
+            raise ValueError(f"{SAVE_ICON_BINDINGS_PATH}: malformed target")
+        iso_path = target.get("iso_path")
+        member_index = target.get("member_index")
+        if not isinstance(iso_path, str) or not (
+            member_index is None or type(member_index) is int
+        ):
+            raise ValueError(f"{SAVE_ICON_BINDINGS_PATH}: invalid target")
+        _extent, entry = read_iso9660_file(source_path, iso_path)
+        if member_index is None:
+            payload = entry
+        else:
+            pack = PspPack.parse(entry)
+            try:
+                payload = pack.members[member_index].data
+            except IndexError:
+                raise ValueError(f"{iso_path}: save-icon member is missing") from None
+        if len(payload) != contract.get("size") or _sha256(payload) != contract.get(
+            "sha256"
+        ):
+            raise ValueError(f"{iso_path}: save-icon source contract changed")
+        with Image.open(io.BytesIO(payload)) as opened:
+            actual = (opened.size, pixel_sha256(opened))
+        expected = (
+            (contract.get("width"), contract.get("height")),
+            contract.get("pixel_sha256"),
+        )
+        if actual != expected:
+            raise ValueError(f"{iso_path}: save-icon pixels changed")
+        payloads.append(payload)
+        resolved_targets.append((iso_path, member_index))
+    if len({_sha256(payload) for payload in payloads}) != 1:
+        raise ValueError("PSP save-icon consumers do not share one source payload")
+    authored = _image(assets[asset_id])
+    encoded = _encode_png_same_size(authored, payloads[0])
+    return MemberOutput(
+        key=f"save_icon:{asset_id}",
+        filename="save_icon/title.png",
+        data=encoded,
+        source_sha256=_sha256(payloads[0]),
+        asset_ids=(asset_id,),
+        targets=tuple(resolved_targets),
+        report={
+            "authored_pixel_sha256": pixel_sha256(authored),
+            "encoded_pixel_sha256": pixel_sha256(authored),
+            "quantized": False,
+            "lossy_pixel_count": 0,
+        },
+    )
 
 
 def _title_outputs(
@@ -424,6 +586,7 @@ def compose() -> tuple[dict[Path, bytes], dict[str, object]]:
     assets = _shared_images()
     outputs = (
         *_title_outputs(source_path, assets),
+        _save_icon_output(source_path, assets),
         *_maze_outputs(source_path, assets),
     )
     files = {GENERATED_ROOT / row.filename: row.data for row in outputs}
@@ -441,6 +604,7 @@ def compose() -> tuple[dict[Path, bytes], dict[str, object]]:
                 IMAGE_CATALOG_PATH,
                 TITLE_BINDINGS_PATH,
                 MAZE_BINDINGS_PATH,
+                SAVE_ICON_BINDINGS_PATH,
                 *(assets[asset].path for row in outputs for asset in row.asset_ids),
             )
         },

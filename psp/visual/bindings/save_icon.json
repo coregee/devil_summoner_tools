@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "kind": "psp_save_icon_bindings",
+  "platform": "psp",
+  "asset": "save_icon.psp.title",
+  "source": {
+    "size": 10522,
+    "sha256": "2843bd6292ef80bb5f0149c651bbaddeb4e04b88f8634a6d1e1c5558589875b5",
+    "pixel_sha256": "c54c6e9f696ff25a6b50f76be33f5a9732a5dc0d4e6f64dab634ae2c4f2e3530",
+    "width": 144,
+    "height": 80
+  },
+  "targets": [
+    {
+      "iso_path": "PSP_GAME/USRDIR/savedata.bin",
+      "member_index": 1
+    },
+    {
+      "iso_path": "PSP_GAME/ICON0.PNG",
+      "member_index": null
+    }
+  ]
+}

@@ -10,11 +10,13 @@ ID when its required pixels are identical, or add a platform-layout variant when
 the sheet geometry differs. A common subject or English phrase does not by
 itself make two differently arranged sheets the same asset.
 
-The current catalog contains the 44 active Saturn replacements plus one title
-asset used directly by PSP:
+The current catalog contains the 44 active Saturn replacements plus three
+assets used directly by PSP:
 
 - 37 maze textures whose translated pixels are also suitable for PSP;
-- three title images whose translated pixels are suitable for PSP;
+- three title images whose translated pixels are shared with PSP;
+- one lower-resolution title overlay using a PSP-specific layout;
+- one PSP save/game icon shared by its archive and direct-ISO consumers;
 - one title-emblem sheet with shared semantics but platform-specific layout; and
 - four Saturn-layout SAVE/LOAD selector images.
 

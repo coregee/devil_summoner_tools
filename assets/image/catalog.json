@@ -271,6 +271,18 @@
       "width": 288,
       "height": 36,
       "portability": "pixel_identical_saturn_psp"
+    },
+    "title.psp.shin_megami_tensei": {
+      "path": "translated/title/psp/shin_megami_tensei.png",
+      "width": 114,
+      "height": 25,
+      "portability": "psp_layout"
+    },
+    "save_icon.psp.title": {
+      "path": "translated/save_icon/psp/title.png",
+      "width": 144,
+      "height": 80,
+      "portability": "psp_specific"
     }
   }
 }
