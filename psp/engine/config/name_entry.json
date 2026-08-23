@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "surface": "name_entry.runtime",
+  "target": {
+    "name": "BOOT.BIN",
+    "address_bias": 128,
+    "size": 2404599,
+    "stock_sha256": "37b5b7a49fe1a5af60ab042d2822befb00580e02a7d7d2ed77dd279ebe6f55fa"
+  },
+  "dependency": "event_window.runtime_foundation",
+  "field_keys": ["first", "last", "codename", "city", "ward"],
+  "field_size": 8,
+  "write_count": 138
+}

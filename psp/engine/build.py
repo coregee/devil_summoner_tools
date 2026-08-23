@@ -43,6 +43,14 @@ from psp.engine.surfaces.item_runtime import (
     CONFIG_PATH as ITEM_RUNTIME_CONFIG_PATH,
     build_item_runtime,
 )
+from psp.engine.surfaces.name_entry import (
+    CONFIG_PATH as NAME_ENTRY_CONFIG_PATH,
+    build_name_entry,
+)
+from psp.engine.surfaces.savedata import (
+    CONFIG_PATH as SAVEDATA_CONFIG_PATH,
+    build_savedata,
+)
 from psp.engine.surfaces.title_help_ui import (
     CONFIG_PATH,
     TARGET,
@@ -97,6 +105,29 @@ EVENT_WINDOW_ENGINE_SOURCES = (
     ENGINE_ROOT / "core" / "emitter.py",
     ENGINE_ROOT / "core" / "layout.py",
     ENGINE_ROOT / "surfaces" / "event_window.py",
+)
+NAME_ENTRY_ENGINE_SOURCES = (
+    NAME_ENTRY_CONFIG_PATH,
+    ENGINE_ROOT / "core" / "emitter.py",
+    ENGINE_ROOT / "core" / "layout.py",
+    ENGINE_ROOT / "surfaces" / "name_entry.py",
+    ENGINE_ROOT / "surfaces" / "name_entry_runtime.py",
+    PSP_ROOT / "text" / "config" / "name_entry.json",
+    PSP_ROOT / "text" / "util" / "event_packed.py",
+    PSP_ROOT / "text" / "util" / "name_entry.py",
+    PSP_ROOT.parent / "assets" / "text" / "ui" / "profile_entry.json",
+)
+SAVEDATA_ENGINE_SOURCES = (
+    SAVEDATA_CONFIG_PATH,
+    ENGINE_ROOT / "core" / "emitter.py",
+    ENGINE_ROOT / "core" / "layout.py",
+    ENGINE_ROOT / "surfaces" / "savedata.py",
+    ENGINE_ROOT / "surfaces" / "savedata_runtime.py",
+    PSP_ROOT / "text" / "config" / "savedata.json",
+    PSP_ROOT / "text" / "util" / "event_packed.py",
+    PSP_ROOT / "text" / "util" / "savedata.py",
+    PSP_ROOT.parent / "assets" / "text" / "save_load.json",
+    PSP_ROOT.parent / "assets" / "text" / "locations.json",
 )
 COMPENDIUM_ENGINE_SOURCES = (
     COMPENDIUM_CONFIG_PATH,
@@ -280,6 +311,8 @@ def _manifest(
     runtime_capacity: int,
     compendium,
     item_runtime,
+    name_entry,
+    savedata,
 ) -> bytes:
     document = {
         "version": 1,
@@ -289,6 +322,8 @@ def _manifest(
             "config_menu.ui",
             "command_menu_help.runtime",
             "event_window.runtime_foundation",
+            "name_entry.runtime",
+            "savedata.runtime",
             "demon_compendium.prose",
             "demon_compendium.names",
             "psp_active_items.runtime",
@@ -328,6 +363,14 @@ def _manifest(
                 path.relative_to(ENGINE_ROOT).as_posix(): file_sha256(path)
                 for path in EVENT_WINDOW_ENGINE_SOURCES
             },
+            "name_entry_sources": {
+                path.relative_to(PSP_ROOT.parent).as_posix(): file_sha256(path)
+                for path in NAME_ENTRY_ENGINE_SOURCES
+            },
+            "savedata_sources": {
+                path.relative_to(PSP_ROOT.parent).as_posix(): file_sha256(path)
+                for path in SAVEDATA_ENGINE_SOURCES
+            },
             "compendium_sources": {
                 path.relative_to(PSP_ROOT).as_posix(): file_sha256(path)
                 for path in COMPENDIUM_ENGINE_SOURCES
@@ -364,6 +407,24 @@ def _manifest(
             "regdata_bytes_unchanged": True,
             "source_member_sha256": item_runtime.text.source_member_sha256,
             "runtime_data_sha256": _sha256(item_runtime.runtime.data_blob),
+        },
+        "name_entry": {
+            "fields": [field.key for field in name_entry.text.fields],
+            "field_size": 8,
+            "tabs": [grid.key for grid in name_entry.text.grids],
+            "default_city": name_entry.text.default_city,
+            "default_ward": name_entry.text.default_ward,
+            "write_count": len(name_entry.patches),
+        },
+        "savedata": {
+            "language": "English",
+            "game_title": savedata.text.game_title,
+            "slot_title": savedata.text.slot_title,
+            "detail_template": savedata.text.detail_template,
+            "special_locations": [savedata.text.home, savedata.text.office],
+            "dungeon_locations": list(savedata.text.locations),
+            "location_record_count": len(savedata.runtime.location_ids),
+            "write_count": len(savedata.patches),
         },
         "patches": [
             {
@@ -422,9 +483,11 @@ def build_engine(*, check: bool) -> None:
         command_help.data,
         load_eve_widths(),
     )
+    name_entry = build_name_entry(stock_boot, event_window.data)
+    savedata = build_savedata(stock_boot, name_entry.data)
     battle_console = build_battle_console(
         stock_boot,
-        event_window.data,
+        savedata.data,
         _battle_console_body_offset(),
     )
     compendium = build_compendium(
@@ -451,6 +514,8 @@ def build_engine(*, check: bool) -> None:
             *config.patches,
             *command_help.patches,
             *event_window.patches,
+            *name_entry.patches,
+            *savedata.patches,
             *battle_console.patches,
             *compendium.patches,
             *item_runtime.patches,
@@ -461,6 +526,8 @@ def build_engine(*, check: bool) -> None:
             + config.runtime_used_size
             + command_help.runtime_used_size
             + event_window.runtime_used_size
+            + name_entry.runtime_used_size
+            + savedata.runtime_used_size
             + compendium.runtime_used_size
             + item_runtime.runtime_used_size
             + fmv.runtime_used_size
@@ -470,12 +537,16 @@ def build_engine(*, check: bool) -> None:
             + config.runtime_used_size
             + command_help.runtime_capacity
             + event_window.runtime_capacity
+            + name_entry.runtime_capacity
+            + savedata.runtime_capacity
             + compendium.runtime_capacity
             + item_runtime.runtime_capacity
             + fmv.runtime_capacity
         ),
         compendium=compendium,
         item_runtime=item_runtime,
+        name_entry=name_entry,
+        savedata=savedata,
     )
     for path, data in (
         (BOOT_OUTPUT, fmv.data),

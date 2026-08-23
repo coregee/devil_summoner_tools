@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "surface": "savedata.runtime",
+  "target": {
+    "name": "BOOT.BIN",
+    "address_bias": 128,
+    "size": 2404599,
+    "stock_sha256": "37b5b7a49fe1a5af60ab042d2822befb00580e02a7d7d2ed77dd279ebe6f55fa"
+  },
+  "dependency": "name_entry.runtime",
+  "location_record_count": 144,
+  "location_name_count": 24,
+  "write_count": 13
+}

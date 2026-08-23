@@ -25,9 +25,11 @@ class PspEngineBuildIntegrationTests(unittest.TestCase):
             command_help.data,
             engine_build.load_eve_widths(),
         )
+        name_entry = engine_build.build_name_entry(stock, event_window.data)
+        savedata = engine_build.build_savedata(stock, name_entry.data)
         battle = engine_build.build_battle_console(
             stock,
-            event_window.data,
+            savedata.data,
             engine_build._battle_console_body_offset(),
         )
         compendium = engine_build.build_compendium(
@@ -48,17 +50,19 @@ class PspEngineBuildIntegrationTests(unittest.TestCase):
             + len(config.patches)
             + len(command_help.patches)
             + len(event_window.patches)
+            + len(name_entry.patches)
+            + len(savedata.patches)
             + len(battle.patches)
             + len(compendium.patches)
             + len(item_runtime.patches)
             + len(result.patches),
-            121,
+            272,
         )
         self.assertEqual(source["boot"]["lba"], 21760)
         self.assertEqual(len(eboot) - len(stock), engine_build.EBOOT_TRAILING_SIZE)
         self.assertEqual(
             hashlib.sha256(result.data).hexdigest(),
-            "154bab0ec5606112ada0d6585fa7745be72124a7ea59208e55e0f9b06ef2cb38",
+            "ca4b028cafa9a0f758ee3fef2419c9db825d58ac2b364842e0003ae70eaec15b",
         )
 
 

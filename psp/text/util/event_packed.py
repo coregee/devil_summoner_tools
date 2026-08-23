@@ -52,6 +52,28 @@ def normalize_ascii(text: str) -> str:
     return text.replace("\r\n", "\n").replace("\r", "\n")
 
 
+def validate_printable_ascii(
+    value: object,
+    context: str,
+    *,
+    maximum: int | None = None,
+) -> str:
+    """Validate prose that must remain in the shared printable-ASCII domain.
+
+    This does not encode the value.  System ASCII fields and packed-EVE
+    consumers can therefore share one authoring boundary without pretending
+    that their binary representations are identical.
+    """
+
+    if not isinstance(value, str) or not value:
+        raise ValueError(f"{context} must be nonempty text")
+    if maximum is not None and len(value) > maximum:
+        raise ValueError(f"{context} exceeds {maximum} characters")
+    if any(not ASCII_FIRST <= ord(character) <= ASCII_LAST for character in value):
+        raise ValueError(f"{context} must use printable ASCII")
+    return value
+
+
 def _validate_character(character: str) -> int:
     if not isinstance(character, str) or len(character) != 1:
         raise TypeError("packed PSP text expects one character")

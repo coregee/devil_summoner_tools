@@ -10,7 +10,8 @@ from PIL import Image
 from .catalog import discover_assets, discover_views
 from .codec import adaptive_palette, decode, encode, pixel_hash
 from .model import ImageAsset, ImageView
-from .paths import extracted_root, manifest_path, modified_root, rom_root
+from .paths import extracted_root, manifest_path, rom_root
+from .replacements import ReplacementImage, load_replacements
 
 
 def _file_hash(data: bytes) -> str:
@@ -128,7 +129,6 @@ def extract(disc: str, *, check: bool, overwrite: bool) -> tuple[int, int]:
         raise ValueError("--check and --overwrite cannot be combined")
     manifest = manifest_path(disc)
     originals = extracted_root(disc)
-    modifications = modified_root(disc)
     if manifest.is_file() and not overwrite:
         document = load_manifest(disc)
         _validate_catalog(disc, document)
@@ -157,7 +157,7 @@ def extract(disc: str, *, check: bool, overwrite: bool) -> tuple[int, int]:
 
     if not check and images is not None:
         originals.mkdir(parents=True, exist_ok=True)
-        modifications.mkdir(parents=True, exist_ok=True)
+        manifest.parent.mkdir(parents=True, exist_ok=True)
         manifest.write_text(
             _manifest_text(document), encoding="utf-8", newline="\n"
         )
@@ -166,32 +166,32 @@ def extract(disc: str, *, check: bool, overwrite: bool) -> tuple[int, int]:
 
 def changes(
     disc: str, document: dict[str, object]
-) -> list[tuple[dict[str, object], ImageView]]:
-    modifications = modified_root(disc)
+) -> list[tuple[dict[str, object], ImageView, ReplacementImage]]:
     rows = document["images"]
     assert isinstance(rows, list)
-    registered = {str(row["path"]).casefold() for row in rows}
-    actual = {
-        path.relative_to(modifications).as_posix().casefold()
-        for path in modifications.rglob("*.png")
-    }
-    unexpected = sorted(actual - registered)
-    if unexpected:
-        raise ValueError(f"modified contains unregistered PNGs: {unexpected}")
+    registered = {str(row["path"]).casefold(): row for row in rows}
     changed = []
-    for row in rows:
+    for replacement in load_replacements(disc):
+        row = registered.get(replacement.view.casefold())
+        if row is None:
+            raise ValueError(
+                f"{replacement.view}: Saturn binding is absent from the manifest"
+            )
         view = _view_from_row(row)
-        path = modifications / view.path
-        if not path.is_file():
-            continue
+        path = replacement.path
         with Image.open(path) as opened:
-            if opened.size != view.size:
+            if opened.size != replacement.size:
                 raise ValueError(
                     f"{path}: got {opened.width}x{opened.height}, "
-                    f"expected {view.size[0]}x{view.size[1]}"
+                    f"expected catalog size {replacement.width}x{replacement.height}"
+                )
+            if replacement.size != view.size:
+                raise ValueError(
+                    f"{replacement.asset}: catalog size does not match "
+                    f"Saturn view {replacement.view}"
                 )
             if pixel_hash(opened) != row["pixel_sha256"]:
-                changed.append((row, view))
+                changed.append((row, view, replacement))
     return changed
 
 
@@ -201,19 +201,17 @@ def repack(
     if check and list_only:
         raise ValueError("--check and --list cannot be combined")
     root = rom_root(disc)
-    modifications = modified_root(disc)
     document = load_manifest(disc)
     _validate_catalog(disc, document)
     changed = changes(disc, document)
     by_source: dict[str, list[tuple[ImageAsset, Image.Image]]] = defaultdict(list)
-    for _row, view in changed:
-        path = modifications / view.path
-        with Image.open(path) as opened:
+    for _row, view, replacement in changed:
+        with Image.open(replacement.path) as opened:
             pieces = _split(opened.copy(), view)
         for target, piece in zip(view.targets, pieces, strict=True):
             by_source[target.source].append((target, piece))
 
-    for _row, view in changed:
+    for _row, view, _replacement in changed:
         print(f"changed  {view.path} ({len(view.targets)} target(s))")
     if list_only:
         return len(changed), sum(map(len, by_source.values())), len(by_source)
@@ -234,7 +232,9 @@ def repack(
         expected = bytes(output)
         if check:
             if expected != original:
-                raise ValueError(f"{source}: modified images have not been repacked")
+                raise ValueError(
+                    f"{source}: replacement images have not been repacked"
+                )
         elif expected != original:
             path.write_bytes(expected)
             print(f"repacked {source} ({len(replacements)} image target(s))")

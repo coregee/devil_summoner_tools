@@ -31,6 +31,15 @@ three-row handle geometry, page clearing and wrapping, option layout, and the
 expanded DVLNAME resolver. Native Japanese words remain on the stock path for
 the explicitly preserved raw-reader and null-bound pages; the text stage now
 publishes all five translated EVENT banks against this runtime contract.
+`name_entry.runtime` applies 138 guarded writes for the five independent
+eight-character profile fields, UPPER/lower/SYMBOL grids, occupation flow,
+commit/load synchronization, and durable English reader cache. It shares the
+packed-EVE alphabet and checked EVENT allocation without adding another codec
+or overlapping the EVENT helpers.
+`savedata.runtime` adds 13 guarded writes for English utility prompts and the
+live SFO detail formatter. It maps 144 physical records to 24 canonical
+locations and consumes NAME's packed-English codename layout while emitting
+ordinary system ASCII metadata.
 `demon_compendium.runtime` compiles all 292 live lore profiles into the stock
 arena, redirects the three proved prose calls to a local packed-ASCII reader,
 and installs full proportional demon names plus English alphabetical sorting.

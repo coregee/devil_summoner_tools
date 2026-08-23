@@ -16,6 +16,41 @@ EVENT_CAPACITY_HELPER_ADDRESS = 0x0013F800
 EVENT_OPTION_RESET_WRAPPER_ADDRESS = 0x00140B70
 EVENT_CAVE_END_ADDRESS = 0x00140C38
 
+# NAME shares the checked EVENT allocation without overlapping its helpers.
+# Persisted profile rows are also consumed by EVENT, MAP2D, and savedata, so
+# their second-load layout belongs to neutral core rather than the screen.
+NAME_DATA_SEGMENT_ADDRESS = DATA_LOAD_SEGMENT_ADDRESS
+NAME_FIELD_MAX = 8
+NAME_PROFILE_RAW_ADDRESS = 0x003F6CF8
+NAME_PROFILE_ADDRESS = NAME_DATA_SEGMENT_ADDRESS + NAME_PROFILE_RAW_ADDRESS
+NAME_PROFILE_FIELD_OFFSETS = {
+    "first": 0x00,
+    "last": 0x08,
+    "codename": 0x10,
+    "city": 0x18,
+    "ward": 0x20,
+}
+NAME_PROFILE_OCCUPATION_OFFSET = 0x28
+NAME_PROFILE_CODENAME_MIRROR_OFFSET = 0x34
+
+# Savedata's physical location records are shared with the later dungeon HUD.
+# The compact ID table sits immediately before the active-item data partition.
+SAVEDATA_LOCATION_SOURCE_RAW_ADDRESS = 0x000032C0
+SAVEDATA_LOCATION_SOURCE_ADDRESS = (
+    DATA_LOAD_SEGMENT_ADDRESS + SAVEDATA_LOCATION_SOURCE_RAW_ADDRESS
+)
+SAVEDATA_LOCATION_RECORD_COUNT = 144
+SAVEDATA_LOCATION_RECORD_SIZE = 0x20
+SAVEDATA_LOCATION_NAME_COUNT = 24
+SAVEDATA_LOCATION_ID_TABLE_ADDRESS = 0x00108730
+
+# The savedata formatter owns the checked interval before the active-item
+# description wrapper. Its static table boundary is ITEM_RUNTIME_DATA_ADDRESS,
+# declared below and enforced by the runtime composer.
+SAVEDATA_DETAIL_WRAPPER_ADDRESS = 0x00172740
+SAVEDATA_LOCATION_TEXT_BLOB_ADDRESS = 0x00175488
+SAVEDATA_LOCATION_TEXT_CAVE_END_ADDRESS = 0x001755CC
+
 # CONFIG records use one Ark16 width table. This lives in core because later
 # PSP surfaces can consume the same checked allocation without CONFIG owning
 # their runtime dependency.

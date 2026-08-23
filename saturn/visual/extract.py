@@ -1,4 +1,4 @@
-"""Extract all supported Saturn images and initialize editable copies."""
+"""Extract Saturn image baselines and validate bound replacement assets."""
 
 import argparse
 import json
@@ -20,18 +20,18 @@ def main() -> None:
     parser.add_argument(
         "--overwrite",
         action="store_true",
-        help="replace the extracted baseline; never replaces modified images",
+        help="replace the extracted baseline; never replaces shared assets",
     )
     args = parser.parse_args()
     try:
         for disc in DISCS if args.disc == "all" else (args.disc,):
-            total, modified = extract(
+            total, replacements = extract(
                 disc, check=args.check, overwrite=args.overwrite
             )
             action = "verified" if args.check else "extracted"
             print(f"{disc} visual images: {action} {total:,} logical images")
             print(
-                f"{disc} visual images: found {modified:,} sparse modified images"
+                f"{disc} visual images: found {replacements:,} bound replacements"
             )
     except (KeyError, OSError, ValueError, json.JSONDecodeError) as error:
         parser.error(str(error))

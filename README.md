@@ -8,7 +8,8 @@ the Sega Saturn Rev. B game and its *Akuma Zensho* compendium disc, although the
 result has not yet received comprehensive translation review or runtime
 testing. PSP support has begun with complete English title-help, CONFIG menu,
 command-menu help, battle-console, five-bank EVENT dialogue, BOSSTALK boss
-combat dialogue, Demon Compendium, PSP-only active items, and START2 subtitle slices, but it does not
+combat dialogue, NAME/profile entry, English savedata metadata, Demon Compendium,
+PSP-only active items, shared title/maze visuals, and START2 subtitle slices, but it does not
 yet cover the rest of the game.
 
 The project is intended to provide a strong, approachable foundation for
@@ -21,7 +22,7 @@ included English translation.
 | --- | --- | --- |
 | Sega Saturn Rev. B game | Complete configured build | Functional, but not comprehensively reviewed or playtested |
 | Sega Saturn *Akuma Zensho* | Complete configured build for every proved text and visual span | Structurally verified; runtime playtesting remains |
-| PSP | Complete configured English title-help, CONFIG, command-help, battle-console, five-bank EVENT, BOSSTALK, Demon Compendium, active-item, and START2 subtitle build | Structurally verified; broader translation remains |
+| PSP | Complete configured English title-help, CONFIG, command-help, battle-console, five-bank EVENT, BOSSTALK, NAME/profile entry, savedata metadata, Demon Compendium, active-item, shared title/maze visual, and START2 subtitle build | Structurally verified; broader translation remains |
 
 "Complete configured build" means the repository can regenerate and verify all
 translation work currently represented here. It does not mean every English
@@ -33,12 +34,13 @@ either disc has been tested in game.
 | Package | Current responsibility |
 | --- | --- |
 | `assets/text` | Canonical shared text, typed templates, semantic identities, and consumer specifications |
+| `assets/image` | Canonical replacement pixels and explicit cross-platform portability boundaries |
 | `saturn/text` | Lossless catalogues for 16,141 game records and 1,617 compendium records, plus the file-backed EVENT, battle, facility, and COMP repackers |
 | `saturn/font` | Eight game-font definitions, one identity-preserving compendium definition, generated atlases, and runtime metrics |
 | `saturn/engine` | Twenty-four checked surface builds covering the translated executable consumers, lossless FMV subtitles, and the complete proved compendium text inventory |
-| `saturn/visual` | 2,365 game image views and 295 classified compendium image structures, with sparse tracked replacements |
+| `saturn/visual` | 2,365 game image views and 295 classified compendium image structures, with bindings to the sparse shared replacement catalog |
 | `saturn/rom` | Verified extraction and transactional rebuilding of both Saturn discs |
-| `psp` | Font-resource catalogue plus authored title-help/CONFIG/command-help/battle-console/EVENT/BOSSTALK/Compendium/active-item/START2 text, FONT16 and EVE rasters, stock-safe EVENT, Compendium, and active-item VWF runtimes, Allegrex patches, and checked same-size ISO publication; remaining surfaces and visuals remain to be ported |
+| `psp` | Authored text and fonts, stock-safe runtime patches, shared title/maze visual composition, and checked same-size ISO publication; remaining surfaces and platform-layout visuals remain to be ported |
 | `tools` | Local browser-based translation editing, bound-consumer validation, and exact-font surface previews |
 
 The remaining work is chiefly translation review and playtesting, semantic
@@ -131,11 +133,13 @@ details.
 
 #### Image Editing
 
-Editable Saturn images live under `saturn/visual/modified/<disc>/`. Existing
-files there are sparse tracked replacements. To work on another image, first
-run the visual extractor, copy the corresponding PNG from
-`saturn/visual/extracted/<disc>/` to the same relative path under `modified/`,
-and edit that copy:
+Editable replacement images live under `assets/image/`. Saturn keeps decoded
+baseline manifests and explicit view bindings under `saturn/visual/`; PSP can
+therefore reuse pixel-identical art while retaining its own binary formats,
+palettes, targets, and platform-specific sheet layouts. To work on another
+image, first run the visual extractor, copy the corresponding PNG from
+`saturn/visual/extracted/<disc>/` into a semantic `assets/image/` path, then add
+its catalog entry and Saturn binding:
 
 ```powershell
 python -B saturn/visual/extract.py all
@@ -208,6 +212,8 @@ The focused test suites use Python's standard `unittest` runner:
 python -m unittest discover -s saturn/font/tests -v
 python -m unittest discover -s saturn/text/tests -v
 python -m unittest discover -s saturn/engine/tests -v
+python -m unittest discover -s saturn/visual/tests -v
+python -m unittest discover -s psp/visual/tests -v
 ```
 
 Some integration checks require the verified private disc inputs. The build
@@ -217,6 +223,7 @@ configuration itself can be inspected without them using `--plan`,
 ## Documentation
 
 - [Shared text asset model](assets/text/README.md)
+- [Shared image asset model](assets/image/README.md)
 - [Language projects](assets/languages/README.md)
 - [Text consumer specifications](assets/consumers.md)
 - [Saturn ROM extraction and rebuilding](saturn/rom/README.md)
@@ -225,6 +232,7 @@ configuration itself can be inspected without them using `--plan`,
 - [Saturn font generation](saturn/font/README.md)
 - [Saturn visual extraction and repacking](saturn/visual/README.md)
 - [PSP package status](psp/README.md)
+- [PSP visual composition](psp/visual/README.md)
 
 Generated directories are deliberately excluded from source control. In broad
 terms, `assets/` owns shared authored material, while `saturn/` owns the

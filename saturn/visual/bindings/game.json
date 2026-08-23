@@ -1,0 +1,184 @@
+{
+  "version": 1,
+  "kind": "visual_bindings",
+  "platform": "saturn",
+  "disc": "game",
+  "replacements": [
+    {
+      "asset": "save_load.storage.cartridge_idle",
+      "view": "SAVE_LOAD/storage/cartridge_idle.png"
+    },
+    {
+      "asset": "save_load.storage.cartridge_selected",
+      "view": "SAVE_LOAD/storage/cartridge_selected.png"
+    },
+    {
+      "asset": "save_load.storage.internal_idle",
+      "view": "SAVE_LOAD/storage/internal_idle.png"
+    },
+    {
+      "asset": "save_load.storage.internal_selected",
+      "view": "SAVE_LOAD/storage/internal_selected.png"
+    },
+    {
+      "asset": "maze.tex3d_arca_chr_037",
+      "view": "TEX3D/ARCA_CHR/037.png"
+    },
+    {
+      "asset": "maze.tex3d_arca_chr_039",
+      "view": "TEX3D/ARCA_CHR/039.png"
+    },
+    {
+      "asset": "maze.tex3d_arca_chr_040",
+      "view": "TEX3D/ARCA_CHR/040.png"
+    },
+    {
+      "asset": "maze.tex3d_arca_chr_042",
+      "view": "TEX3D/ARCA_CHR/042.png"
+    },
+    {
+      "asset": "maze.tex3d_arca_chr_048",
+      "view": "TEX3D/ARCA_CHR/048.png"
+    },
+    {
+      "asset": "maze.tex3d_arca_chr_049",
+      "view": "TEX3D/ARCA_CHR/049.png"
+    },
+    {
+      "asset": "maze.tex3d_arca_chr_051",
+      "view": "TEX3D/ARCA_CHR/051.png"
+    },
+    {
+      "asset": "maze.tex3d_arca_chr_052",
+      "view": "TEX3D/ARCA_CHR/052.png"
+    },
+    {
+      "asset": "maze.tex3d_arca_chr_054",
+      "view": "TEX3D/ARCA_CHR/054.png"
+    },
+    {
+      "asset": "maze.tex3d_arca_chr_055",
+      "view": "TEX3D/ARCA_CHR/055.png"
+    },
+    {
+      "asset": "maze.tex3d_arca_chr_060",
+      "view": "TEX3D/ARCA_CHR/060.png"
+    },
+    {
+      "asset": "maze.tex3d_chi_chr_048",
+      "view": "TEX3D/CHI_CHR/048.png"
+    },
+    {
+      "asset": "maze.tex3d_cyu_chr_017",
+      "view": "TEX3D/CYU_CHR/017.png"
+    },
+    {
+      "asset": "maze.tex3d_cyu_chr_029",
+      "view": "TEX3D/CYU_CHR/029.png"
+    },
+    {
+      "asset": "maze.tex3d_cyu_chr_031",
+      "view": "TEX3D/CYU_CHR/031.png"
+    },
+    {
+      "asset": "maze.tex3d_cyu_chr_039",
+      "view": "TEX3D/CYU_CHR/039.png"
+    },
+    {
+      "asset": "maze.tex3d_cyu_chr_041",
+      "view": "TEX3D/CYU_CHR/041.png"
+    },
+    {
+      "asset": "maze.tex3d_cyu_chr_060",
+      "view": "TEX3D/CYU_CHR/060.png"
+    },
+    {
+      "asset": "maze.tex3d_cyu_chr_071",
+      "view": "TEX3D/CYU_CHR/071.png"
+    },
+    {
+      "asset": "maze.tex3d_cyu_chr_072",
+      "view": "TEX3D/CYU_CHR/072.png"
+    },
+    {
+      "asset": "maze.tex3d_dout_chr_068",
+      "view": "TEX3D/DOUT_CHR/068.png"
+    },
+    {
+      "asset": "maze.tex3d_haku_chr_076",
+      "view": "TEX3D/HAKU_CHR/076.png"
+    },
+    {
+      "asset": "maze.tex3d_hdai_chr_037_038",
+      "view": "TEX3D/HDAI_CHR/037_038.png"
+    },
+    {
+      "asset": "maze.tex3d_hhak_chr_032_033",
+      "view": "TEX3D/HHAK_CHR/032_033.png"
+    },
+    {
+      "asset": "maze.tex3d_hout_chr_022",
+      "view": "TEX3D/HOUT_CHR/022.png"
+    },
+    {
+      "asset": "maze.tex3d_icyu_chr_016",
+      "view": "TEX3D/ICYU_CHR/016.png"
+    },
+    {
+      "asset": "maze.tex3d_icyu_chr_029",
+      "view": "TEX3D/ICYU_CHR/029.png"
+    },
+    {
+      "asset": "maze.tex3d_icyu_chr_039",
+      "view": "TEX3D/ICYU_CHR/039.png"
+    },
+    {
+      "asset": "maze.tex3d_icyu_chr_060",
+      "view": "TEX3D/ICYU_CHR/060.png"
+    },
+    {
+      "asset": "maze.tex3d_icyu_chr_072",
+      "view": "TEX3D/ICYU_CHR/072.png"
+    },
+    {
+      "asset": "maze.tex3d_idai_chr_039_040",
+      "view": "TEX3D/IDAI_CHR/039_040.png"
+    },
+    {
+      "asset": "maze.tex3d_iden_chr_043_044",
+      "view": "TEX3D/IDEN_CHR/043_044.png"
+    },
+    {
+      "asset": "maze.tex3d_iman_chr_022",
+      "view": "TEX3D/IMAN_CHR/022.png"
+    },
+    {
+      "asset": "maze.tex3d_itos_chr_046",
+      "view": "TEX3D/ITOS_CHR/046.png"
+    },
+    {
+      "asset": "maze.tex3d_itv_chr_045_046",
+      "view": "TEX3D/ITV_CHR/045_046.png"
+    },
+    {
+      "asset": "maze.tex3d_shi_chr_061",
+      "view": "TEX3D/SHI_CHR/061.png"
+    },
+    {
+      "asset": "maze.tex3d_shi_chr_063_064",
+      "view": "TEX3D/SHI_CHR/063_064.png"
+    },
+    {
+      "asset": "title.devil_summoner",
+      "view": "TITLE/devil_summoner.png"
+    },
+    {
+      "asset": "title.emblems",
+      "view": "TITLE/emblems.png"
+    },
+    {
+      "asset": "title.full_title_screen",
+      "view": "TITLE/full_title_screen.png"
+    }
+  ]
+}

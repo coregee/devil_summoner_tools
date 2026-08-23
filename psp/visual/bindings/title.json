@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "kind": "psp_title_bindings",
+  "platform": "psp",
+  "iso_path": "PSP_GAME/USRDIR/datatit.bin",
+  "source_pack": {
+    "size": 603920,
+    "sha256": "4117771e7d5db8adbf3eefd5b1d35dad4f1baeca4aad15e74fa69efb060022b7",
+    "member_count": 10
+  },
+  "replacements": [
+    {
+      "asset": "title.shin_megami_tensei",
+      "member_index": 0,
+      "alpha_mode": "source_mask",
+      "source": {
+        "size": 12832,
+        "sha256": "e3e2046f1612a07199ce6dc50c1ce5bbacd0738b5392eebdcbf44458a0ad921a",
+        "pixel_sha256": "8aec065a71dd52e1c6f19a4b333896ac7279b48b5b98df7ba331106d271114cf",
+        "width": 288,
+        "height": 36,
+        "format": 5,
+        "order": 1
+      }
+    },
+    {
+      "asset": "title.devil_summoner",
+      "member_index": 2,
+      "alpha_mode": "black_matte_binary",
+      "source": {
+        "size": 17440,
+        "sha256": "cf24d63856f93c7aa232065b71b3d5ccee46daa941b6cc33fac8312dd6f710b0",
+        "pixel_sha256": "d24721615841985f9fac381b65a8bc0a08f6b9268a1e73bdd13e399425b1a868",
+        "width": 288,
+        "height": 53,
+        "format": 5,
+        "order": 1
+      }
+    },
+    {
+      "asset": "title.full_title_screen",
+      "member_index": 5,
+      "alpha_mode": "preserve",
+      "source": {
+        "size": 85792,
+        "sha256": "c8badf2079d4a176217134bdd0ed8118d132ffb577d9bc0fa05d2296ffcddb8b",
+        "pixel_sha256": "894ae3de7806c3c64ceea745fed8353f70b2e7319e17d832eb7e6f10b8583778",
+        "width": 352,
+        "height": 240,
+        "format": 5,
+        "order": 1
+      }
+    }
+  ]
+}

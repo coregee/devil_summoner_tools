@@ -35,9 +35,17 @@
     },
     {
       "id": "build_engine",
-      "description": "Build title-help, CONFIG/command-help, EVENT VWF, BTL_MES, Compendium, active-item, and START2 BOOT/EBOOT patches.",
+      "description": "Build title-help, CONFIG/command-help, EVENT VWF, NAME/profile entry, savedata metadata, BTL_MES, Compendium, active-item, and START2 BOOT/EBOOT patches.",
       "type": "python",
       "script": "engine/build.py",
+      "arguments": ["all"],
+      "check_arguments": ["all", "--check"]
+    },
+    {
+      "id": "repack_visuals",
+      "description": "Encode shared title and maze replacement art into PSP pack members.",
+      "type": "python",
+      "script": "visual/repack.py",
       "arguments": ["all"],
       "check_arguments": ["all", "--check"]
     },
@@ -59,6 +67,7 @@
         "repack_event_text",
         "build_fmv",
         "build_engine",
+        "repack_visuals",
         "build_disc"
       ],
       "outputs": ["game"]

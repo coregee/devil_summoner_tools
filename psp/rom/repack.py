@@ -7,7 +7,7 @@ import hashlib
 import json
 import os
 import tempfile
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 
 if __package__ in {None, ""}:
     import sys
@@ -16,6 +16,7 @@ if __package__ in {None, ""}:
     if root not in sys.path:
         sys.path.insert(0, root)
 
+from psp.archive.pack import PspPack
 from psp.rom.util.catalog import file_sha256, load_catalog, validate_source
 from psp.rom.util.iso9660 import read_iso9660_file
 from psp.rom.util.publication import (
@@ -36,6 +37,8 @@ FMV_MANIFEST = PSP_ROOT / "fmv" / "generated" / "game" / "psp.fmv.json"
 TEXT_GENERATED = PSP_ROOT / "text" / "generated" / "game"
 TEXT_MANIFEST = TEXT_GENERATED / "psp.text.json"
 EVENT_MANIFEST = TEXT_GENERATED / "psp.events.json"
+VISUAL_GENERATED = PSP_ROOT / "visual" / "generated" / "game"
+VISUAL_MANIFEST = VISUAL_GENERATED / "psp.visual.json"
 
 
 def _sha256(data: bytes) -> str:
@@ -198,7 +201,86 @@ def _replacements(source_path: Path, disc) -> tuple[IsoReplacement, ...]:
     ):
         raise ValueError(f"{contract.path} source or replacement contract changed")
     rows.append(IsoReplacement(extent, source, replacement))
+    rows.extend(_visual_replacements(source_path, disc))
     return tuple(rows)
+
+
+def _visual_replacements(source_path: Path, disc) -> tuple[IsoReplacement, ...]:
+    if not VISUAL_MANIFEST.is_file():
+        raise ValueError(f"PSP visual manifest is missing: {VISUAL_MANIFEST}")
+    try:
+        document = json.loads(VISUAL_MANIFEST.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as error:
+        raise ValueError(f"invalid PSP visual manifest: {VISUAL_MANIFEST}") from error
+    source_contract = document.get("source") if isinstance(document, dict) else None
+    outputs = document.get("outputs") if isinstance(document, dict) else None
+    if (
+        document.get("version") != 1
+        or document.get("surface") != "psp.visual"
+        or not isinstance(source_contract, dict)
+        or source_contract
+        != {
+            "filename": disc.source_filename,
+            "size": disc.source_size,
+            "sha256": disc.source_sha256,
+        }
+        or not isinstance(outputs, dict)
+        or not outputs
+    ):
+        raise ValueError("PSP visual manifest has an invalid contract")
+
+    by_path: dict[str, list[tuple[int, bytes, str]]] = {}
+    for key, row in outputs.items():
+        if (
+            not isinstance(key, str)
+            or not isinstance(row, dict)
+            or not isinstance(row.get("filename"), str)
+            or not isinstance(row.get("targets"), list)
+            or not isinstance(row.get("source_sha256"), str)
+        ):
+            raise ValueError("PSP visual manifest has a malformed output")
+        relative = PurePosixPath(row["filename"])
+        if relative.is_absolute() or any(
+            part in {"", ".", ".."} for part in relative.parts
+        ):
+            raise ValueError(f"PSP visual output {key} has an unsafe filename")
+        output_path = VISUAL_GENERATED.joinpath(*relative.parts)
+        if not output_path.is_file():
+            raise ValueError(f"PSP visual output is missing: {output_path}")
+        replacement = output_path.read_bytes()
+        if len(replacement) != row.get("size") or _sha256(replacement) != row.get(
+            "sha256"
+        ):
+            raise ValueError(f"PSP visual output violates its manifest: {output_path}")
+        for target in row["targets"]:
+            if (
+                not isinstance(target, dict)
+                or set(target) != {"iso_path", "member_index"}
+                or not isinstance(target["iso_path"], str)
+                or type(target["member_index"]) is not int
+            ):
+                raise ValueError(f"PSP visual output {key} has an invalid target")
+            by_path.setdefault(target["iso_path"], []).append(
+                (target["member_index"], replacement, row["source_sha256"])
+            )
+
+    result = []
+    for iso_path, member_rows in sorted(by_path.items()):
+        extent, source = read_iso9660_file(source_path, iso_path)
+        pack = PspPack.parse(source)
+        replacements = {}
+        for index, replacement, source_sha256 in member_rows:
+            if index in replacements or not 0 <= index < len(pack.members):
+                raise ValueError(f"{iso_path}: invalid or duplicate visual member")
+            member = pack.members[index].data
+            if _sha256(member) != source_sha256 or len(member) != len(replacement):
+                raise ValueError(f"{iso_path} member {index}: source contract changed")
+            replacements[index] = replacement
+        rebuilt = pack.rebuild(replacements)
+        if len(rebuilt) != len(source):
+            raise ValueError(f"{iso_path}: visual rebuild changed fixed pack size")
+        result.append(IsoReplacement(extent, source, rebuilt))
+    return tuple(result)
 
 
 def _manifest_bytes(disc, digest: str, replacements) -> bytes:
@@ -221,6 +303,7 @@ def _manifest_bytes(disc, digest: str, replacements) -> bytes:
             "font": file_sha256(FONT_MANIFEST),
             "text": file_sha256(TEXT_MANIFEST),
             "event_text": file_sha256(EVENT_MANIFEST),
+            "visual": file_sha256(VISUAL_MANIFEST),
         },
         "replacements": [
             {

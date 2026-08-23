@@ -1,0 +1,276 @@
+{
+  "version": 1,
+  "kind": "image_catalog",
+  "images": {
+    "save_load.storage.cartridge_idle": {
+      "path": "translated/save_load/storage/cartridge_idle.png",
+      "width": 104,
+      "height": 24,
+      "portability": "saturn_layout"
+    },
+    "save_load.storage.cartridge_selected": {
+      "path": "translated/save_load/storage/cartridge_selected.png",
+      "width": 104,
+      "height": 24,
+      "portability": "saturn_layout"
+    },
+    "save_load.storage.internal_idle": {
+      "path": "translated/save_load/storage/internal_idle.png",
+      "width": 104,
+      "height": 24,
+      "portability": "saturn_layout"
+    },
+    "save_load.storage.internal_selected": {
+      "path": "translated/save_load/storage/internal_selected.png",
+      "width": 104,
+      "height": 24,
+      "portability": "saturn_layout"
+    },
+    "maze.tex3d_arca_chr_037": {
+      "path": "translated/maze/tex3d_arca_chr_037.png",
+      "width": 80,
+      "height": 16,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_arca_chr_039": {
+      "path": "translated/maze/tex3d_arca_chr_039.png",
+      "width": 80,
+      "height": 16,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_arca_chr_040": {
+      "path": "translated/maze/tex3d_arca_chr_040.png",
+      "width": 32,
+      "height": 32,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_arca_chr_042": {
+      "path": "translated/maze/tex3d_arca_chr_042.png",
+      "width": 80,
+      "height": 16,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_arca_chr_048": {
+      "path": "translated/maze/tex3d_arca_chr_048.png",
+      "width": 40,
+      "height": 24,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_arca_chr_049": {
+      "path": "translated/maze/tex3d_arca_chr_049.png",
+      "width": 24,
+      "height": 80,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_arca_chr_051": {
+      "path": "translated/maze/tex3d_arca_chr_051.png",
+      "width": 80,
+      "height": 16,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_arca_chr_052": {
+      "path": "translated/maze/tex3d_arca_chr_052.png",
+      "width": 24,
+      "height": 40,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_arca_chr_054": {
+      "path": "translated/maze/tex3d_arca_chr_054.png",
+      "width": 24,
+      "height": 80,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_arca_chr_055": {
+      "path": "translated/maze/tex3d_arca_chr_055.png",
+      "width": 32,
+      "height": 32,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_arca_chr_060": {
+      "path": "translated/maze/tex3d_arca_chr_060.png",
+      "width": 80,
+      "height": 16,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_chi_chr_048": {
+      "path": "translated/maze/tex3d_chi_chr_048.png",
+      "width": 40,
+      "height": 80,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_cyu_chr_017": {
+      "path": "translated/maze/tex3d_cyu_chr_017.png",
+      "width": 24,
+      "height": 64,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_cyu_chr_029": {
+      "path": "translated/maze/tex3d_cyu_chr_029.png",
+      "width": 24,
+      "height": 80,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_cyu_chr_031": {
+      "path": "translated/maze/tex3d_cyu_chr_031.png",
+      "width": 24,
+      "height": 80,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_cyu_chr_039": {
+      "path": "translated/maze/tex3d_cyu_chr_039.png",
+      "width": 24,
+      "height": 80,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_cyu_chr_041": {
+      "path": "translated/maze/tex3d_cyu_chr_041.png",
+      "width": 80,
+      "height": 24,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_cyu_chr_060": {
+      "path": "translated/maze/tex3d_cyu_chr_060.png",
+      "width": 64,
+      "height": 56,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_cyu_chr_071": {
+      "path": "translated/maze/tex3d_cyu_chr_071.png",
+      "width": 64,
+      "height": 16,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_cyu_chr_072": {
+      "path": "translated/maze/tex3d_cyu_chr_072.png",
+      "width": 24,
+      "height": 80,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_dout_chr_068": {
+      "path": "translated/maze/tex3d_dout_chr_068.png",
+      "width": 48,
+      "height": 96,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_haku_chr_076": {
+      "path": "translated/maze/tex3d_haku_chr_076.png",
+      "width": 32,
+      "height": 96,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_hdai_chr_037_038": {
+      "path": "translated/maze/tex3d_hdai_chr_037_038.png",
+      "width": 80,
+      "height": 96,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_hhak_chr_032_033": {
+      "path": "translated/maze/tex3d_hhak_chr_032_033.png",
+      "width": 96,
+      "height": 64,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_hout_chr_022": {
+      "path": "translated/maze/tex3d_hout_chr_022.png",
+      "width": 48,
+      "height": 96,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_icyu_chr_016": {
+      "path": "translated/maze/tex3d_icyu_chr_016.png",
+      "width": 24,
+      "height": 64,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_icyu_chr_029": {
+      "path": "translated/maze/tex3d_icyu_chr_029.png",
+      "width": 24,
+      "height": 80,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_icyu_chr_039": {
+      "path": "translated/maze/tex3d_icyu_chr_039.png",
+      "width": 24,
+      "height": 80,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_icyu_chr_060": {
+      "path": "translated/maze/tex3d_icyu_chr_060.png",
+      "width": 64,
+      "height": 56,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_icyu_chr_072": {
+      "path": "translated/maze/tex3d_icyu_chr_072.png",
+      "width": 24,
+      "height": 80,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_idai_chr_039_040": {
+      "path": "translated/maze/tex3d_idai_chr_039_040.png",
+      "width": 80,
+      "height": 96,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_iden_chr_043_044": {
+      "path": "translated/maze/tex3d_iden_chr_043_044.png",
+      "width": 96,
+      "height": 96,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_iman_chr_022": {
+      "path": "translated/maze/tex3d_iman_chr_022.png",
+      "width": 16,
+      "height": 48,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_itos_chr_046": {
+      "path": "translated/maze/tex3d_itos_chr_046.png",
+      "width": 48,
+      "height": 96,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_itv_chr_045_046": {
+      "path": "translated/maze/tex3d_itv_chr_045_046.png",
+      "width": 96,
+      "height": 96,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_shi_chr_061": {
+      "path": "translated/maze/tex3d_shi_chr_061.png",
+      "width": 56,
+      "height": 96,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "maze.tex3d_shi_chr_063_064": {
+      "path": "translated/maze/tex3d_shi_chr_063_064.png",
+      "width": 96,
+      "height": 96,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "title.devil_summoner": {
+      "path": "translated/title/devil_summoner.png",
+      "width": 288,
+      "height": 53,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "title.emblems": {
+      "path": "translated/title/emblems.png",
+      "width": 120,
+      "height": 28,
+      "portability": "shared_semantics_platform_layout"
+    },
+    "title.full_title_screen": {
+      "path": "translated/title/full_title_screen.png",
+      "width": 352,
+      "height": 240,
+      "portability": "pixel_identical_saturn_psp"
+    },
+    "title.shin_megami_tensei": {
+      "path": "translated/title/shin_megami_tensei.png",
+      "width": 288,
+      "height": 36,
+      "portability": "pixel_identical_saturn_psp"
+    }
+  }
+}

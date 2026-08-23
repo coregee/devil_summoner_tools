@@ -2,14 +2,16 @@
 
 PSP implementation has begun with the original UMD font catalogue under
 [`font/`](font/README.md), checked movie compilation under [`fmv/`](fmv/README.md),
-and the ported runtime surfaces under [`engine/`](engine/README.md). The font package defines all twelve logical font
+the ported runtime surfaces under [`engine/`](engine/README.md), and an explicit
+visual reuse boundary under [`visual/`](visual/README.md). The font package defines all twelve logical font
 roles recovered from the original PSP project, including their twenty physical
 archive or embedded targets, storage formats, hashes, confidence levels, and
 cell grids. The engine package now owns the readable Allegrex title-help VWF
 patch and readable CONFIG emitter, with exact source guards and focused tests.
 
 The PSP-owned build pipeline now composes the complete English title-help,
-CONFIG, command-help, battle-console, Demon Compendium, active-item, and START2 subtitle
+CONFIG, command-help, battle-console, NAME/profile entry, savedata metadata, Demon Compendium,
+active-item, and START2 subtitle
 slices. It compiles
 six title records, all 57 CONFIG/command-help slots, and 313 active BTL_MES
 rows into `regdata.bin` while preserving
@@ -27,11 +29,19 @@ dialogue. The engine also packs all 292 live Demon Compendium profiles into
 the original BOOT lore arena, installs full proportional names and English
 alphabetical sorting, and preserves every inactive row and flag. It additionally
 publishes the three PSP-only active items through checked inventory, detail, and
-EVENT consumers while leaving ITEMNAME member 4 unchanged. The pipeline
-publishes a same-size
-ISO by replacing only the six verified resource or executable extents.
-Remaining text surfaces, engine patches, fonts, and visual assets still need
-to be ported. The
+EVENT consumers while leaving ITEMNAME member 4 unchanged. It also ports the
+five independent eight-character NAME fields, three English input grids,
+occupation selection, profile cache, and all proved downstream name readers.
+Savedata switches the PSP utility language to English and builds its SFO detail
+from the live English codename, level, difficulty, one of 24 dungeon locations,
+and playtime.
+The pipeline
+publishes a same-size ISO through 89 verified resource, executable, title, and
+maze extents. The visual package reuses three title images and 37 maze images,
+encoding only 18 unique pack members before fanning them out to 84 visual target
+packs. Remaining text surfaces, engine patches, fonts, and platform-layout
+visual sheets still need to be ported; unlike layouts will remain separate
+assets rather than being forced into one encoding. The
 font catalogue intentionally does not infer a live reader from a
 Saturn-equivalent filename or bitmap.
 
@@ -55,5 +65,9 @@ The Compendium prose, name-table, and sorting contract is documented in
 [`docs/compendium.md`](docs/compendium.md).
 The PSP-only item-name, description, and EVENT insertion paths are documented
 in [`docs/item_runtime.md`](docs/item_runtime.md).
+The English profile controller and durable name-cache contract are documented
+in [`docs/name_entry.md`](docs/name_entry.md).
+The utility-language and SFO-detail formatter is documented in
+[`docs/savedata.md`](docs/savedata.md).
 The consolidated codec families and their physical projections are documented
 in [`docs/text_encodings.md`](docs/text_encodings.md).

@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "surface": "savedata",
+  "save_asset": "assets/text/save_load.json",
+  "location_asset": "assets/text/locations.json",
+  "location_keys": [
+    "library",
+    "yatou_building",
+    "construction_site",
+    "rinkai_hospital",
+    "ginza_arcade",
+    "otherworld",
+    "police_station",
+    "casa_inui",
+    "kitayama_university",
+    "university_main_building",
+    "underground_sewer",
+    "mount_kasagi",
+    "kasagi_manor",
+    "hikawa_shrine",
+    "museum",
+    "toa_tv",
+    "radio_tower",
+    "chinatown",
+    "tendou_mansion",
+    "astral_plane",
+    "avici_hell",
+    "new_city_hall",
+    "fairy_forest",
+    "ancient_tomb"
+  ],
+  "special_locations": {
+    "home": "home",
+    "office": "detective_agency"
+  },
+  "detail_placeholders": [
+    "codename",
+    "level",
+    "difficulty",
+    "location",
+    "hours",
+    "minutes"
+  ]
+}

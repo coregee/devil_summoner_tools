@@ -1,12 +1,16 @@
 # Saturn visuals
 
-This package owns the editable raster assets on both Saturn discs.
+This package owns Saturn image discovery, binary layouts, and repacking. The
+editable replacement pixels live in the repository-wide image catalog so PSP
+can reuse genuinely identical art without copying it.
 
 ```text
 extracted/game/          generated game-disc PNGs
 extracted/compendium/    generated compendium-disc PNGs
-modified/game/           tracked game manifest and sparse edited PNGs
-modified/compendium/     tracked compendium manifest and sparse edited PNGs
+modified/game/           tracked game extraction manifest
+modified/compendium/     tracked compendium extraction manifest
+bindings/game.json       shared assets mapped to Saturn game views
+bindings/compendium.json shared assets mapped to Saturn compendium views
 util/                    discovery, codecs, and exceptional view definitions
 extract.py               extract and validate either or both working sets
 repack.py                patch changed images into the selected disc mirrors
@@ -14,7 +18,9 @@ repack.py                patch changed images into the selected disc mirrors
 
 `extracted/` is ignored because it can be recreated from the original discs.
 Each tracked `modified/<disc>/manifest.json` records the decoded pixel hashes;
-the remaining files under `modified/` are only the PNGs intentionally changed.
+the legacy directory name is retained because engine ownership checks consume
+those manifests. Replacement PNGs and their semantic metadata are tracked under
+`assets/image/`, while this package's bindings retain Saturn view paths.
 
 ## Extract
 
@@ -27,10 +33,10 @@ python -B saturn/visual/extract.py compendium --check
 ```
 
 The optional positional selector is `game`, `compendium`, or `all`; it defaults
-to `all`. Extraction never creates, replaces, or removes modified PNGs. Use
+to `all`. Extraction never creates, replaces, or removes shared assets. Use
 `--overwrite` only after restoring the selected `rom/extracted/<disc>` mirror
 from its original disc. It replaces that disc's extracted baseline and
-manifest while preserving every existing modified PNG.
+manifest while preserving every shared replacement asset and binding.
 
 The game catalog contains 2,365 logical images. It discovers the standalone
 rasters plus every model-described TEX3D and MMP texture.
@@ -58,12 +64,19 @@ python -B saturn/visual/repack.py game
 python -B saturn/visual/repack.py compendium --check
 ```
 
-An absent modified PNG means that its original image is preserved. The manifest
+An absent binding means that the original image is preserved. The manifest
 compares decoded pixels rather than PNG file bytes, so metadata or compression
 changes do not trigger a rebuild. Repacking starts with each current ROM file
-and changes only image records whose modified PNG differs from its baseline.
+and changes only bound assets whose pixels differ from the baseline.
 Unrelated binary changes in the same file, including compendium profile text,
 are preserved. Run `saturn/rom/repack.py` for each disc afterward.
+
+To add a replacement, copy the extracted PNG into the appropriate semantic
+folder under `assets/image/`, register its stable ID and dimensions in
+`assets/image/catalog.json`, and bind that ID to the Saturn view in
+`bindings/<disc>.json`. Reuse an existing ID only when the required pixels and
+dimensions are identical. Similar wording with a different sheet layout remains
+a distinct platform-layout asset.
 
 The exceptional game layouts are declared in `util/special_views.json`:
 

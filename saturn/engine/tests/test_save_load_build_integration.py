@@ -22,11 +22,14 @@ from engine.build import (  # noqa: E402
     build_save_load_surface,
 )
 from engine.surfaces.save_load_ui import TARGETS  # noqa: E402
+from visual.util.replacements import load_replacements  # noqa: E402
 
 
 BUILD_CONFIG_PATH = SATURN_ROOT / "build_config.json"
 EXTRACTED_ROOT = (SATURN_ROOT / "rom" / "extracted").resolve()
-VISUAL_MODIFIED_ROOT = SATURN_ROOT / "visual" / "modified" / "game"
+VISUAL_REPLACEMENTS = {
+    replacement.view: replacement.path for replacement in load_replacements("game")
+}
 ENGINE_HASHES = {
     "SAVE.BIN": "3f97ac9b7f40af32c1314a00311a15079c1a402bc0b3822d2b1d90fbab2c5b57",
     "LOAD.BIN": "a9a58b2fa5c4c0e96298c6ec2fcdf84999e695d084556f53c33db3c2afad959f",
@@ -199,7 +202,7 @@ class SaveLoadBuildIntegrationTests(unittest.TestCase):
                     if image["source"] == target
                 ]
                 self.assertEqual(len(matches), 1)
-                with Image.open(VISUAL_MODIFIED_ROOT / row["path"]) as image:
+                with Image.open(VISUAL_REPLACEMENTS[row["path"]]) as image:
                     encode(composed, matches[0], image)
             self.assertEqual(_sha256(bytes(composed)), FINAL_HASHES[target])
 

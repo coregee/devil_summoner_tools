@@ -1,0 +1,612 @@
+{
+  "version": 1,
+  "kind": "psp_maze_bindings",
+  "platform": "psp",
+  "model_member": 1,
+  "texture_member": 2,
+  "asset_binding_count": 37,
+  "logical_target_count": 45,
+  "physical_binding_count": 153,
+  "archives": [
+    {
+      "archive": "ARCA_CHR",
+      "sha256": "a57a4c27bf81e52b8ac0b68765246e03e122cf35a1175d908cb5c5f4554f9743",
+      "psp_iso_paths": [
+        "PSP_GAME/USRDIR/MAZE/maze008.bin"
+      ]
+    },
+    {
+      "archive": "CHI_CHR",
+      "sha256": "355f69fdefdf8542f6ca3e626c7e6c2faf0bd360a0c49ed42dcb6bc184af99f3",
+      "psp_iso_paths": [
+        "PSP_GAME/USRDIR/MAZE/maze023.bin",
+        "PSP_GAME/USRDIR/MAZE/maze024.bin",
+        "PSP_GAME/USRDIR/MAZE/maze025.bin",
+        "PSP_GAME/USRDIR/MAZE/maze026.bin",
+        "PSP_GAME/USRDIR/MAZE/maze027.bin",
+        "PSP_GAME/USRDIR/MAZE/maze033.bin",
+        "PSP_GAME/USRDIR/MAZE/maze034.bin",
+        "PSP_GAME/USRDIR/MAZE/maze035.bin",
+        "PSP_GAME/USRDIR/MAZE/maze036.bin",
+        "PSP_GAME/USRDIR/MAZE/maze037.bin",
+        "PSP_GAME/USRDIR/MAZE/maze052.bin",
+        "PSP_GAME/USRDIR/MAZE/maze053.bin",
+        "PSP_GAME/USRDIR/MAZE/maze054.bin",
+        "PSP_GAME/USRDIR/MAZE/maze055.bin",
+        "PSP_GAME/USRDIR/MAZE/maze056.bin",
+        "PSP_GAME/USRDIR/MAZE/maze05f.bin",
+        "PSP_GAME/USRDIR/MAZE/maze060.bin",
+        "PSP_GAME/USRDIR/MAZE/maze061.bin",
+        "PSP_GAME/USRDIR/MAZE/maze062.bin",
+        "PSP_GAME/USRDIR/MAZE/maze063.bin",
+        "PSP_GAME/USRDIR/MAZE/maze06e.bin",
+        "PSP_GAME/USRDIR/MAZE/maze06f.bin",
+        "PSP_GAME/USRDIR/MAZE/maze070.bin",
+        "PSP_GAME/USRDIR/MAZE/maze071.bin",
+        "PSP_GAME/USRDIR/MAZE/maze072.bin"
+      ]
+    },
+    {
+      "archive": "CYU_CHR",
+      "sha256": "4e10291f70b91f2bd9629338dbcdd198ef1222b0b1b39e6f99403c72a50e5274",
+      "psp_iso_paths": [
+        "PSP_GAME/USRDIR/MAZE/maze05e.bin"
+      ]
+    },
+    {
+      "archive": "DOUT_CHR",
+      "sha256": "05b557f6c4c5c7628a0636180b876d1465b820a174fca86392b33670ca662057",
+      "psp_iso_paths": [
+        "PSP_GAME/USRDIR/MAZE/maze01a.bin"
+      ]
+    },
+    {
+      "archive": "HAKU_CHR",
+      "sha256": "468d0da984c84872b788345dfa13aef7e3200698b0a9cfbe73f79ca3b8eb9dbc",
+      "psp_iso_paths": [
+        "PSP_GAME/USRDIR/MAZE/maze038.bin",
+        "PSP_GAME/USRDIR/MAZE/maze039.bin",
+        "PSP_GAME/USRDIR/MAZE/maze03a.bin",
+        "PSP_GAME/USRDIR/MAZE/maze03b.bin"
+      ]
+    },
+    {
+      "archive": "HDAI_CHR",
+      "sha256": "f609ada26889e9246ad5ed8a0027b9bc4d4acfe8c461a5fc45d90ba4825c056b",
+      "psp_iso_paths": [
+        "PSP_GAME/USRDIR/MAZE/maze021.bin",
+        "PSP_GAME/USRDIR/MAZE/maze022.bin"
+      ]
+    },
+    {
+      "archive": "HHAK_CHR",
+      "sha256": "009a82f92596ae331bcb34a71d63be251da77c796c5c28d2ff4ff0a804b81836",
+      "psp_iso_paths": [
+        "PSP_GAME/USRDIR/MAZE/maze03d.bin"
+      ]
+    },
+    {
+      "archive": "HOUT_CHR",
+      "sha256": "6330fa9080c654cdfce93b3fbec815a3d2d09db86da4a63f2aeea17c66416770",
+      "psp_iso_paths": [
+        "PSP_GAME/USRDIR/MAZE/maze018.bin",
+        "PSP_GAME/USRDIR/MAZE/maze019.bin"
+      ]
+    },
+    {
+      "archive": "ICYU_CHR",
+      "sha256": "baffad80545a4b7a8884fa9e4dd7ec948c42ffe8c6020e3002ee75ab34c6feb9",
+      "psp_iso_paths": [
+        "PSP_GAME/USRDIR/MAZE/maze05c.bin"
+      ]
+    },
+    {
+      "archive": "IDAI_CHR",
+      "sha256": "c084fda98acbc2103eb17488f17ae2974334b12f0f30dd4717c528ef9f9aaeb3",
+      "psp_iso_paths": [
+        "PSP_GAME/USRDIR/MAZE/maze01c.bin",
+        "PSP_GAME/USRDIR/MAZE/maze01d.bin",
+        "PSP_GAME/USRDIR/MAZE/maze01e.bin",
+        "PSP_GAME/USRDIR/MAZE/maze01f.bin"
+      ]
+    },
+    {
+      "archive": "IDEN_CHR",
+      "sha256": "41c8be36a1e4168d4e65cb0556357e4bd4e77f716eb3d79b89732a2e0bea8c9f",
+      "psp_iso_paths": [
+        "PSP_GAME/USRDIR/MAZE/maze047.bin",
+        "PSP_GAME/USRDIR/MAZE/maze048.bin",
+        "PSP_GAME/USRDIR/MAZE/maze049.bin",
+        "PSP_GAME/USRDIR/MAZE/maze04a.bin",
+        "PSP_GAME/USRDIR/MAZE/maze04b.bin",
+        "PSP_GAME/USRDIR/MAZE/maze04c.bin",
+        "PSP_GAME/USRDIR/MAZE/maze04d.bin",
+        "PSP_GAME/USRDIR/MAZE/maze04e.bin"
+      ]
+    },
+    {
+      "archive": "IMAN_CHR",
+      "sha256": "d5fc02a880f663ac3793dba64f4daf6d3890845c2b61c3d394a7b2420f5fd7fe",
+      "psp_iso_paths": [
+        "PSP_GAME/USRDIR/MAZE/maze012.bin",
+        "PSP_GAME/USRDIR/MAZE/maze013.bin",
+        "PSP_GAME/USRDIR/MAZE/maze014.bin",
+        "PSP_GAME/USRDIR/MAZE/maze015.bin",
+        "PSP_GAME/USRDIR/MAZE/maze02c.bin",
+        "PSP_GAME/USRDIR/MAZE/maze02d.bin",
+        "PSP_GAME/USRDIR/MAZE/maze02e.bin",
+        "PSP_GAME/USRDIR/MAZE/maze02f.bin"
+      ]
+    },
+    {
+      "archive": "ITOS_CHR",
+      "sha256": "3883babaf0c4389d085a71b5235904770b00403c03d5ada2921affc7a197febd",
+      "psp_iso_paths": [
+        "PSP_GAME/USRDIR/MAZE/maze009.bin",
+        "PSP_GAME/USRDIR/MAZE/maze00a.bin",
+        "PSP_GAME/USRDIR/MAZE/maze00b.bin",
+        "PSP_GAME/USRDIR/MAZE/maze00c.bin",
+        "PSP_GAME/USRDIR/MAZE/maze00d.bin"
+      ]
+    },
+    {
+      "archive": "ITV_CHR",
+      "sha256": "ef9eb3fdc0bbaab24a2ef0a577dbc0cddc65aa21f86e635eb95ada849b86dd3d",
+      "psp_iso_paths": [
+        "PSP_GAME/USRDIR/MAZE/maze03e.bin",
+        "PSP_GAME/USRDIR/MAZE/maze03f.bin",
+        "PSP_GAME/USRDIR/MAZE/maze040.bin",
+        "PSP_GAME/USRDIR/MAZE/maze041.bin",
+        "PSP_GAME/USRDIR/MAZE/maze042.bin",
+        "PSP_GAME/USRDIR/MAZE/maze043.bin",
+        "PSP_GAME/USRDIR/MAZE/maze044.bin",
+        "PSP_GAME/USRDIR/MAZE/maze045.bin"
+      ]
+    },
+    {
+      "archive": "SHI_CHR",
+      "sha256": "0cef502c8aa4714a3d2b76cf19e66e7c984e69e67b4bca42e23cb68f59a3c927",
+      "psp_iso_paths": [
+        "PSP_GAME/USRDIR/MAZE/maze075.bin",
+        "PSP_GAME/USRDIR/MAZE/maze076.bin",
+        "PSP_GAME/USRDIR/MAZE/maze077.bin",
+        "PSP_GAME/USRDIR/MAZE/maze078.bin",
+        "PSP_GAME/USRDIR/MAZE/maze079.bin",
+        "PSP_GAME/USRDIR/MAZE/maze07a.bin",
+        "PSP_GAME/USRDIR/MAZE/maze07b.bin",
+        "PSP_GAME/USRDIR/MAZE/maze07c.bin",
+        "PSP_GAME/USRDIR/MAZE/maze07d.bin",
+        "PSP_GAME/USRDIR/MAZE/maze07e.bin",
+        "PSP_GAME/USRDIR/MAZE/maze07f.bin",
+        "PSP_GAME/USRDIR/MAZE/maze080.bin"
+      ]
+    }
+  ],
+  "replacements": [
+    {
+      "asset": "maze.tex3d_arca_chr_037",
+      "targets": [
+        {
+          "archive": "ARCA_CHR",
+          "texture_indices": [
+            37
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_arca_chr_039",
+      "targets": [
+        {
+          "archive": "ARCA_CHR",
+          "texture_indices": [
+            39
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_arca_chr_040",
+      "targets": [
+        {
+          "archive": "ARCA_CHR",
+          "texture_indices": [
+            40
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_arca_chr_042",
+      "targets": [
+        {
+          "archive": "ARCA_CHR",
+          "texture_indices": [
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_arca_chr_048",
+      "targets": [
+        {
+          "archive": "ARCA_CHR",
+          "texture_indices": [
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_arca_chr_049",
+      "targets": [
+        {
+          "archive": "ARCA_CHR",
+          "texture_indices": [
+            49
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_arca_chr_051",
+      "targets": [
+        {
+          "archive": "ARCA_CHR",
+          "texture_indices": [
+            51
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_arca_chr_052",
+      "targets": [
+        {
+          "archive": "ARCA_CHR",
+          "texture_indices": [
+            52
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_arca_chr_054",
+      "targets": [
+        {
+          "archive": "ARCA_CHR",
+          "texture_indices": [
+            54
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_arca_chr_055",
+      "targets": [
+        {
+          "archive": "ARCA_CHR",
+          "texture_indices": [
+            55
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_arca_chr_060",
+      "targets": [
+        {
+          "archive": "ARCA_CHR",
+          "texture_indices": [
+            60
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_chi_chr_048",
+      "targets": [
+        {
+          "archive": "CHI_CHR",
+          "texture_indices": [
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_cyu_chr_017",
+      "targets": [
+        {
+          "archive": "CYU_CHR",
+          "texture_indices": [
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_cyu_chr_029",
+      "targets": [
+        {
+          "archive": "CYU_CHR",
+          "texture_indices": [
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_cyu_chr_031",
+      "targets": [
+        {
+          "archive": "CYU_CHR",
+          "texture_indices": [
+            31
+          ]
+        },
+        {
+          "archive": "ICYU_CHR",
+          "texture_indices": [
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_cyu_chr_039",
+      "targets": [
+        {
+          "archive": "CYU_CHR",
+          "texture_indices": [
+            39
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_cyu_chr_041",
+      "targets": [
+        {
+          "archive": "CYU_CHR",
+          "texture_indices": [
+            41
+          ]
+        },
+        {
+          "archive": "ICYU_CHR",
+          "texture_indices": [
+            41
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_cyu_chr_060",
+      "targets": [
+        {
+          "archive": "CYU_CHR",
+          "texture_indices": [
+            60
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_cyu_chr_071",
+      "targets": [
+        {
+          "archive": "CYU_CHR",
+          "texture_indices": [
+            71
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_cyu_chr_072",
+      "targets": [
+        {
+          "archive": "CYU_CHR",
+          "texture_indices": [
+            72
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_dout_chr_068",
+      "targets": [
+        {
+          "archive": "DOUT_CHR",
+          "texture_indices": [
+            68
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_haku_chr_076",
+      "targets": [
+        {
+          "archive": "HAKU_CHR",
+          "texture_indices": [
+            76
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_hdai_chr_037_038",
+      "targets": [
+        {
+          "archive": "HDAI_CHR",
+          "texture_indices": [
+            37,
+            38
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_hhak_chr_032_033",
+      "targets": [
+        {
+          "archive": "HHAK_CHR",
+          "texture_indices": [
+            32,
+            33
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_hout_chr_022",
+      "targets": [
+        {
+          "archive": "HOUT_CHR",
+          "texture_indices": [
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_icyu_chr_016",
+      "targets": [
+        {
+          "archive": "ICYU_CHR",
+          "texture_indices": [
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_icyu_chr_029",
+      "targets": [
+        {
+          "archive": "ICYU_CHR",
+          "texture_indices": [
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_icyu_chr_039",
+      "targets": [
+        {
+          "archive": "ICYU_CHR",
+          "texture_indices": [
+            39
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_icyu_chr_060",
+      "targets": [
+        {
+          "archive": "ICYU_CHR",
+          "texture_indices": [
+            60
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_icyu_chr_072",
+      "targets": [
+        {
+          "archive": "ICYU_CHR",
+          "texture_indices": [
+            72
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_idai_chr_039_040",
+      "targets": [
+        {
+          "archive": "IDAI_CHR",
+          "texture_indices": [
+            39,
+            40
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_iden_chr_043_044",
+      "targets": [
+        {
+          "archive": "IDEN_CHR",
+          "texture_indices": [
+            43,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_iman_chr_022",
+      "targets": [
+        {
+          "archive": "IMAN_CHR",
+          "texture_indices": [
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_itos_chr_046",
+      "targets": [
+        {
+          "archive": "ITOS_CHR",
+          "texture_indices": [
+            46
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_itv_chr_045_046",
+      "targets": [
+        {
+          "archive": "ITV_CHR",
+          "texture_indices": [
+            45,
+            46
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_shi_chr_061",
+      "targets": [
+        {
+          "archive": "SHI_CHR",
+          "texture_indices": [
+            61
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "maze.tex3d_shi_chr_063_064",
+      "targets": [
+        {
+          "archive": "SHI_CHR",
+          "texture_indices": [
+            63,
+            64
+          ]
+        }
+      ]
+    }
+  ]
+}

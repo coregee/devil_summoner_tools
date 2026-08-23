@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "surface": "name_entry",
+  "asset": "assets/text/ui/profile_entry.json",
+  "field_keys": ["first", "last", "codename", "city", "ward"],
+  "tab_keys": ["upper", "lower", "symbol"],
+  "tab_labels": ["UPPER", "lower", "SYMBOL"],
+  "grid_rows": [
+    ["grid_upper_row_1", "grid_upper_row_2"],
+    ["grid_lower_row_1", "grid_lower_row_2"],
+    ["grid_symbol_row_1", "grid_symbol_row_2"]
+  ],
+  "occupation_keys": [
+    "occupation_employee",
+    "occupation_student",
+    "occupation_official",
+    "occupation_part_time",
+    "occupation_business",
+    "occupation_jobless"
+  ],
+  "max_field_length": 8
+}

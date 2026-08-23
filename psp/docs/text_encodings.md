@@ -13,15 +13,20 @@ bias, and the common `0x8000` message terminator.
 The same assignment has two physical projections:
 
 - packed one-byte glyphs for EVENT, BOSSTALK, Demon Compendium prose and names,
-  and the three PSP-only active items;
+  the three PSP-only active items, and persisted NAME profile fields;
 - direct big-endian u16 runtime glyph codes for CONFIG help, command help, and
-  direct-reader EVENT options.
+  direct-reader EVENT options and NAME labels.
 
 The EVE font package consumes this codec to populate its atlas and produces the
 advance table. It no longer defines a parallel character-to-code map.
 
 EVENT and BOSSTALK remain separate control dialects. Their opcode vocabularies
 belong to different VMs, but their literal glyphs share the EVE codec.
+
+NAME's visible input grid uses native low KANJI.FON glyph IDs. That table is a
+screen-specific physical projection, not another authored encoding; selected
+characters are converted back to the shared packed-English bytes before they
+enter the profile.
 
 ## Native FONT16 u16 text
 
@@ -40,3 +45,11 @@ limit; folding it into EVE or FONT16 would erase real source semantics.
 The FMV/CONFIG Ark16 allocation is a runtime glyph allocation rather than
 another source text codec. Its character/code/advance table is compiled once by
 the font stage and passed to the engine and subtitle placement builders.
+
+## System ASCII and UTF-8-compatible fields
+
+Savedata utility titles, cancellation prompts, and the generated SFO detail
+buffer use ordinary ASCII bytes. They share `validate_printable_ascii` with the
+packed authoring domain, but they do not pass through the EVE byte mapping.
+Keeping validation and binary projection separate prevents another character
+inventory while preserving the PSP system API's actual representation.
