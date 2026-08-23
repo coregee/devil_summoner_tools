@@ -53,6 +53,17 @@ command help. Raw-reader messages, eight explicitly native pages, big-endian
 controls, and inline insertions remain lossless, while every bank receives the
 same canonical 319-record DVLNAME runtime table.
 
+## Boss combat dialogue
+
+`eve_files.bin` member 22 contains 16 BOSSTALK messages displayed through the
+common EVENT packed-byte renderer. They resolve one-to-one from
+`assets/text/battle/boss_dialogue.json`, wrap to the same 300-pixel three-row
+geometry, and preserve the combat VM's separate structural and color controls.
+All 16 physical messages are reached by proved ordinary opcode-0 scripts; the
+bank contains no combat-menu owner and needs no DVLNAME tail. It is composed
+after the five standard EVENT members so only one final archive reaches the
+ISO publisher.
+
 ## START2 news subtitles
 
 `assets/text/fmv/subtitles.json` owns the nine presentation-relative cues for

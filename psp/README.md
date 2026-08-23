@@ -16,11 +16,13 @@ rows into `regdata.bin` while preserving
 unchanged PMF; renders the checked Ark12/Ark16 allocations in `datapack.bin`
 and the 95-glyph printable-ASCII bank in `eve_files.bin`; transactionally
 rebuilds all five standard EVENT members from 2,830 canonical page bindings
-plus the expanded 319-name insertion table; builds the title VWF,
+plus the expanded 319-name insertion table, then publishes all 16 canonical
+BOSSTALK boss-combat messages in member 22; builds the title VWF,
 29 CONFIG runtime rows, the retained-EVE command-help adapter, two guarded
 battle-console body-offset instructions, and the lossless subtitle overlay into
 BOOT/EBOOT. The stock-safe EVENT VWF runtime consumes those packed banks and
-shares the command-help EVE advance table. The pipeline publishes a same-size
+shares the command-help EVE advance table for both ordinary and boss-combat
+dialogue. The pipeline publishes a same-size
 ISO by replacing only the six verified resource or executable extents.
 Remaining text surfaces, engine patches, fonts, and visual assets still need
 to be ported. The
@@ -34,8 +36,8 @@ python -B psp/build.py default --check
 ```
 
 The current image is still an incomplete translation rather than a release, but
-all six current slices are complete from authored English through text, font,
-runtime, and ISO publication. The checked battle-console geometry, codec, and
+all currently configured slices are complete from authored English through
+text, font, runtime, and ISO publication. The checked battle-console geometry, codec, and
 runtime acceptance target are documented in [`docs/btl_mes.md`](docs/btl_mes.md);
 the corresponding START2 contracts are in
 [`docs/fmv_subtitles.md`](docs/fmv_subtitles.md).

@@ -6,8 +6,8 @@ PSP-local configuration owns archive members, offsets, capacities, character
 codes, source hashes, and expected binary results.
 
 The complete surfaces are `title_help`, `config_menu`, `command_menu_help`,
-`battle_console`, and the five standard `event_dialogue` banks. The title's six
-English records come from
+`battle_console`, the five standard `event_dialogue` banks, and the BOSSTALK
+boss-combat bank. The title's six English records come from
 `assets/text/ui/title.json` and compile into the six fixed 42-word slots in
 `regdata.bin` member 30. The publisher verifies the complete source file and
 member identities, enforces the proved raw FONT16 code map, and round-trips
@@ -38,6 +38,14 @@ in `assets/text/events/event_psp.json`; shared dialogue continues to resolve
 from the general event and facility assets. The composed text-stage archive is
 the ISO publisher's final `eve_files.bin` input, so its member-5 EVE font data
 cannot be lost.
+
+BOSSTALK is composed immediately afterward into member 22. Its 16 ordinary
+opcode-0 messages resolve directly from `assets/text/battle/boss_dialogue.json`
+and use the common packed EVENT cursor, but retain their distinct combat
+control vocabulary: structural `0x8000..0x8004`, insert `0x8010..0x8017`, and
+color `0x8020..0x8026`. The compiler proves that every message has exactly one
+ordinary script owner and that no combat-menu reader is present before
+publishing the member.
 
 ```powershell
 python -B psp/text/repack.py all

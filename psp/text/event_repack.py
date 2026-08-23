@@ -1,4 +1,4 @@
-"""Build or verify the five canonical PSP EVENT text banks."""
+"""Build or verify the canonical PSP EVENT and boss-combat text banks."""
 
 from __future__ import annotations
 
@@ -18,6 +18,10 @@ if __package__ in {None, ""}:
 
 from psp.font.util.eve_ascii import glyph_code
 from psp.text.util.assets import ASSET_ROOT
+from psp.text.util.combat_dialogue import (
+    COMBAT_DIALOGUE_CONFIG_PATH,
+    build_bosstalk_dialogue,
+)
 from psp.text.util.event_corpus import (
     EVENT_BINDINGS_ROOT,
     EVENT_OPTION_CONFIG_PATH,
@@ -36,7 +40,7 @@ OUTPUT_ROOT = TEXT_ROOT / "generated" / "game"
 OUTPUT_PATH = OUTPUT_ROOT / "eve_files.bin"
 MANIFEST_PATH = OUTPUT_ROOT / "psp.events.json"
 EXPECTED_OUTPUT_SHA256 = (
-    "dcecdf12a20bff77277b22dbc46f9f6f0466b06c56d8acf7d0bb92408e4d5458"
+    "71e43ab3ce3bad0d69e9b6ad68bdd49a16510df890e6999041df8ecd803fefe5"
 )
 
 
@@ -117,12 +121,19 @@ def build(*, check: bool) -> None:
         return sum(widths[glyph_code(character) - 0x1E20] for character in text)
 
     result = build_event_corpus(source, measure_ascii=measure_ascii)
-    digest = _sha(result.eve_files)
+    combat = build_bosstalk_dialogue(
+        result.eve_files,
+        measure_ascii=measure_ascii,
+    )
+    digest = _sha(combat.eve_files)
     if digest != EXPECTED_OUTPUT_SHA256:
         raise ValueError("composed PSP EVENT archive contract changed")
     asset_paths = tuple(
         sorted(
-            {_asset_path(relative) for relative in result.corpus_paths}
+            {
+                _asset_path(relative)
+                for relative in (*result.corpus_paths, *combat.corpus_paths)
+            }
             | {ASSET_ROOT / "demons.json"}
         )
     )
@@ -134,12 +145,16 @@ def build(*, check: bool) -> None:
             "event_dialogue.packed_text",
             "event_options.raw_text",
             "event_inserts.dvlname",
+            "boss_combat_dialogue.packed_text",
         ],
         "inputs": {
             "font_manifest_sha256": _sha(font_manifest_data),
             "font_eve_sha256": _sha(source),
             "option_config_sha256": _sha(EVENT_OPTION_CONFIG_PATH.read_bytes()),
             "dvlname_config_sha256": _sha(DVLNAME_CONFIG_PATH.read_bytes()),
+            "combat_dialogue_config_sha256": _sha(
+                COMBAT_DIALOGUE_CONFIG_PATH.read_bytes()
+            ),
             "bindings": {
                 path.name: _sha(path.read_bytes()) for path in binding_paths
             },
@@ -152,13 +167,14 @@ def build(*, check: bool) -> None:
         },
         "outputs": {
             OUTPUT_PATH.name: {
-                "size": len(result.eve_files),
+                "size": len(combat.eve_files),
                 "sha256": digest,
             }
         },
-        "changed_members": list(result.changed_member_indices),
-        "changed_byte_count": result.changed_byte_count,
-        "translated_assets": len(result.translated_record_ids),
+        "changed_members": [*result.changed_member_indices, combat.bank.member_index],
+        "changed_byte_count": result.changed_byte_count + combat.changed_byte_count,
+        "translated_assets": len(result.translated_record_ids)
+        + len(combat.translated_record_ids),
         "preserved_assets": len(result.preserved_record_ids),
         "banks": [
             {
@@ -177,12 +193,29 @@ def build(*, check: bool) -> None:
                 "sha256": _sha(bank.data),
             }
             for bank in result.banks
+        ]
+        + [
+            {
+                "name": combat.bank.name,
+                "member_index": combat.bank.member_index,
+                "message_count": combat.bank.message_count,
+                "translated_message_count": combat.bank.message_count,
+                "translated_page_count": len(combat.bank.translated_record_ids),
+                "raw_message_count": 0,
+                "translated_option_count": 0,
+                "used_body_bytes": combat.bank.used_body_bytes,
+                "body_capacity_bytes": combat.bank.body_capacity_bytes,
+                "dvlname_table_offset": None,
+                "dvlname_table_size": 0,
+                "changed_byte_count": combat.bank.changed_byte_count,
+                "sha256": _sha(combat.bank.data),
+            }
         ],
     }
     manifest_data = (
         json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
     ).encode("utf-8")
-    _publish(OUTPUT_PATH, result.eve_files, check=check)
+    _publish(OUTPUT_PATH, combat.eve_files, check=check)
     _publish(MANIFEST_PATH, manifest_data, check=check)
 
 

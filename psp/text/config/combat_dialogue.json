@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "platform": "psp",
+  "renderer": {
+    "profile": "common_event_packed_byte_v1",
+    "dialogue_width": 300,
+    "lines_per_page": 3,
+    "runtime_glyph_cap": 120
+  },
+  "dialect": {
+    "structural_codes": [
+      "8000",
+      "8001",
+      "8002",
+      "8003",
+      "8004"
+    ],
+    "insert_codes": [
+      "8010",
+      "8011",
+      "8012",
+      "8013",
+      "8014",
+      "8015",
+      "8016",
+      "8017"
+    ],
+    "color_codes": [
+      "8020",
+      "8021",
+      "8022",
+      "8023",
+      "8024",
+      "8025",
+      "8026"
+    ]
+  },
+  "bank": {
+    "name": "BOSSTALK",
+    "member_index": 22,
+    "member_sha256": "sha256:b5e57cfb6b237f5c6fddebec65de8a0fb2784bd0e79e3164b1179f9e53ce48f9",
+    "table_offset": "0x4800",
+    "body_offset": "0x5000",
+    "message_count": 16,
+    "source_used_body_bytes": 730,
+    "body_capacity_bytes": 53248,
+    "script_profile": "ordinary_opcode_0",
+    "ordinary_reference_count": 16,
+    "ordinary_reference_sha256": "sha256:832934acc0ea9f9910fba05e6a7976c1c493b944ed2090d721622894510cc7e7",
+    "dvlname_tail": false,
+    "assets": [
+      "battle/boss_dialogue.json#dialogue_0000.text",
+      "battle/boss_dialogue.json#dialogue_0001.text",
+      "battle/boss_dialogue.json#dialogue_0002.text",
+      "battle/boss_dialogue.json#dialogue_0003.text",
+      "battle/boss_dialogue.json#dialogue_0004.text",
+      "battle/boss_dialogue.json#dialogue_0005.text",
+      "battle/boss_dialogue.json#dialogue_0006.text",
+      "battle/boss_dialogue.json#dialogue_0007.text",
+      "battle/boss_dialogue.json#dialogue_0008.text",
+      "battle/boss_dialogue.json#dialogue_0009.text",
+      "battle/boss_dialogue.json#dialogue_0010.text",
+      "battle/boss_dialogue.json#dialogue_0011.text",
+      "battle/boss_dialogue.json#dialogue_0012.text",
+      "battle/boss_dialogue.json#dialogue_0013.text",
+      "battle/boss_dialogue.json#dialogue_0014.text",
+      "battle/boss_dialogue.json#dialogue_0015.text"
+    ]
+  }
+}

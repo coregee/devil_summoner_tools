@@ -19,7 +19,7 @@
     },
     {
       "id": "repack_event_text",
-      "description": "Compile the five canonical EVENT banks into the generated EVE font archive.",
+      "description": "Compile the five standard EVENT banks and BOSSTALK into the generated EVE font archive.",
       "type": "python",
       "script": "text/event_repack.py",
       "arguments": ["all"],

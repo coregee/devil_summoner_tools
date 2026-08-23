@@ -36,3 +36,11 @@ raw u16 words for their direct readers and are checked against the real 150- or
 table, resolved from 319 semantic `assets/text/demons.json` slots, is reserved
 at the end of every bank. The resulting archive is the sole ISO publication
 owner for `eve_files.bin`; the font-stage archive is its checked input.
+
+Member 22, `BOSSTALK`, is then composed onto that archive. Its 16 canonical
+boss-combat messages share the packed cursor and EVE atlas but use a deliberately
+separate combat control dialect. Script scanning proves a one-to-one set of
+ordinary opcode-0 owners and rejects any menu script before publication. The
+resulting member is byte-identical to the mature port and changes 700 bytes;
+members 0 through 4 and the font atlas remain untouched during this final
+composition step.
