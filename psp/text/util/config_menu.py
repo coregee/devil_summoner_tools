@@ -10,6 +10,7 @@ from pathlib import Path
 
 from psp.archive.pack import PspPack
 from psp.text.util.assets import load_config_asset
+from psp.text.util.event_packed import MESSAGE_TERMINATOR, glyph_code_for_character
 
 
 TEXT_ROOT = Path(__file__).resolve().parents[1]
@@ -20,21 +21,6 @@ OUTPUT_MEMBER_SHA256 = "453a48e898a1abed6ba4562bed3f97ca3afa00494fccabed65fa33d2
 
 def _sha(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
-
-
-def _glyph_code(character: str) -> int:
-    codepoint = ord(character)
-    if not 0x20 <= codepoint <= 0x7E:
-        raise ValueError(
-            f"PSP CONFIG help character is not printable ASCII: {character!r}"
-        )
-    if 0x30 <= codepoint <= 0x7E:
-        stored = codepoint - 0x11
-    elif 0x21 <= codepoint <= 0x2F:
-        stored = codepoint + 0x4D
-    else:
-        stored = 0x7D
-    return stored + 0x1E01
 
 
 @dataclass(frozen=True, slots=True)
@@ -73,10 +59,10 @@ def build_config_text(source: bytes) -> ConfigTextBuild:
         expected_reference = record["source_text_sha256"].removeprefix("sha256:")
         if _sha(reference.encode("utf-8")) != expected_reference:
             raise ValueError(f"PSP CONFIG source reference changed: {record['key']}")
-        words = [_glyph_code(character) for character in translation]
+        words = [glyph_code_for_character(character) for character in translation]
         if len(words) >= slot_words:
             raise ValueError(f"PSP CONFIG help exceeds slot capacity: {record['key']}")
-        words.append(0x8000)
+        words.append(MESSAGE_TERMINATOR)
         words.extend([0] * (slot_words - len(words)))
         slot = struct.pack(f">{slot_words}H", *words)
         offset = int(record["slot_offset"], 16)

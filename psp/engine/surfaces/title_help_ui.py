@@ -7,6 +7,13 @@ from collections.abc import Iterable
 from dataclasses import dataclass
 from pathlib import Path
 
+from psp.text.util.event_packed import (
+    ASCII_FIRST,
+    ASCII_LAST,
+    STORED_PRINTABLE_FIRST,
+    encode_ascii_character,
+)
+
 from ..core.allegrex import Assembly, assemble_file, encode_instruction
 from ..core.patch_recipes import (
     PatchRecipeConfiguration,
@@ -20,9 +27,8 @@ CONFIG_PATH = ENGINE_ROOT / "config" / "title_help_ui.json"
 ASSEMBLY_ROOT = ENGINE_ROOT / "asm"
 TARGET = "BOOT.BIN"
 
-PACKED_FIRST = 0x1F
-PACKED_LAST = 0x7D
-PACKED_WIDTH_COUNT = PACKED_LAST - PACKED_FIRST + 1
+PACKED_FIRST = STORED_PRINTABLE_FIRST
+PACKED_WIDTH_COUNT = ASCII_LAST - ASCII_FIRST + 1
 TITLE_HELP_WIDTH_TABLE_SIZE = 268
 TITLE_HELP_STOCK_ADVANCE = 15
 TITLE_HELP_DRAW_WRAPPER_ADDRESS = 0x0013EC80
@@ -56,16 +62,7 @@ def _configuration() -> PatchRecipeConfiguration:
 
 
 def _packed_storage_index(character: str) -> int:
-    if not isinstance(character, str) or len(character) != 1:
-        raise ValueError("PSP packed-width lookup expects one character")
-    code = ord(character)
-    if character == " ":
-        return PACKED_WIDTH_COUNT - 1
-    if 0x30 <= code <= 0x7E:
-        return code - 0x30
-    if 0x21 <= code <= 0x2F:
-        return code + 0x2E
-    raise ValueError(f"character is outside printable ASCII: {character!r}")
+    return encode_ascii_character(character) - PACKED_FIRST
 
 
 def _validate_widths(widths: Iterable[int]) -> bytes:

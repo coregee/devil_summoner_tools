@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "kind": "entity_catalog",
+  "entries": {
+    "back_upper_reusable": {
+      "name": {
+        "reference": "バックアッパーR",
+        "translation": "Back-Upper R"
+      },
+      "description": {
+        "reference": "特殊アイテム 移動時{n}「行動の記録」ができる／繰返し使用可能",
+        "translation": "Special item: Field{n}Save anywhere; reusable."
+      }
+    },
+    "death_tally": {
+      "name": {
+        "reference": "他界の割符",
+        "translation": "Death Tally"
+      },
+      "description": {
+        "reference": "悪魔全書の悪魔呼び出し費用を割引    {n}",
+        "translation": "Reduces Demon Compendium summoning costs."
+      }
+    },
+    "demon_compendium_extra_volume": {
+      "name": {
+        "reference": "悪魔全書別巻",
+        "translation": "Demon Compendium Extra Volume"
+      },
+      "description": {
+        "reference": "本体にはない悪魔が記された全書の別巻  {n}[END]呼び出しはできない",
+        "translation": "A supplement listing demons absent from the main Compendium. [END] Its demons cannot be summoned."
+      }
+    }
+  }
+}

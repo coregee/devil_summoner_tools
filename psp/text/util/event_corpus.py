@@ -39,6 +39,7 @@ from .event_packed import (
     encode_ascii,
     encode_logical_word,
     glyph_code_for_character,
+    normalize_ascii,
 )
 
 SCRIPT_TABLE_OFFSET = 0x22
@@ -89,18 +90,6 @@ EXPECTED_RAW_MESSAGE_COUNTS = {
 }
 
 _TOKEN_PATTERN = re.compile(r"\{([^{}]+)\}")
-_NORMALIZE_CHARACTERS = {
-    "\u2019": "'",
-    "\u2018": "'",
-    "\u201c": '"',
-    "\u201d": '"',
-    "\u2014": "-",
-    "\u2013": "-",
-    "\u2026": "...",
-    "\u00e9": "e",
-    "\u3000": " ",
-    "\u00a0": " ",
-}
 _LITERAL_GLYPH_CODES = {
     "\n": 0x8001,
     "\u300e": 0x005E,
@@ -462,9 +451,7 @@ def _message_bytes(message: PspEveMessage) -> bytes:
 def _normalize_event_text(text: str) -> str:
     if not isinstance(text, str):
         raise TypeError("PSP EVENT translation must be a string")
-    for source, replacement in _NORMALIZE_CHARACTERS.items():
-        text = text.replace(source, replacement)
-    return text.replace("\r\n", "\n").replace("\r", "\n")
+    return normalize_ascii(text)
 
 
 def _append_literal(output: bytearray, literal: str) -> None:

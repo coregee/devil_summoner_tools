@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "surface": "psp_active_items.runtime",
+  "target": {
+    "name": "BOOT.BIN",
+    "address_bias": 128,
+    "size": 2404599,
+    "stock_sha256": "37b5b7a49fe1a5af60ab042d2822befb00580e02a7d7d2ed77dd279ebe6f55fa"
+  },
+  "owned_game_ids": [255, 280, 281],
+  "dependency": "demon_compendium.runtime",
+  "source_member": {
+    "path": "PSP_GAME/USRDIR/regdata.bin",
+    "member_index": 4,
+    "member_sha256": "d8f599b6a739eb5367ea4ad1107bc325641dc1d0164bad89034cef948bb75f96",
+    "bytes_unchanged": true
+  },
+  "write_count": 13
+}

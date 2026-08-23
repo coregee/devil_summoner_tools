@@ -57,7 +57,16 @@ from ..core.layout import (
     COMPENDIUM_NAME_TABLE_SIZE,
     WIDTH_TABLE_ADDRESS,
 )
-from psp.font.util.eve_ascii import PACKED_FIRST, PACKED_RUNTIME_BIAS, PACKED_WIDTH_COUNT
+from psp.text.util.event_packed import (
+    ASCII_FIRST,
+    ASCII_LAST,
+    GLYPH_CODE_BIAS,
+    STORED_PRINTABLE_FIRST,
+)
+
+PACKED_FIRST = STORED_PRINTABLE_FIRST
+PACKED_RUNTIME_BIAS = GLYPH_CODE_BIAS
+PACKED_WIDTH_COUNT = ASCII_LAST - ASCII_FIRST + 1
 
 COMPENDIUM_NAME_DETAIL_CALL_ADDRESS = 0x0008A84C
 COMPENDIUM_NAME_LIST_CALL_ADDRESS = 0x0008B744
@@ -504,4 +513,3 @@ __all__ = (
     "CompendiumNamePatchSource",
     "build_compendium_name_patch",
 )
-

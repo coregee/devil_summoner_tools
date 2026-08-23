@@ -38,6 +38,7 @@ from psp.text.util.title_help import CONFIG_PATH, build_title_help, load_config
 
 
 TEXT_ROOT = Path(__file__).resolve().parent
+ENCODING_CODEC_PATH = TEXT_ROOT / "util" / "event_packed.py"
 OUTPUT_ROOT = TEXT_ROOT / "generated" / "game"
 OUTPUT_PATH = OUTPUT_ROOT / "regdata.bin"
 MANIFEST_PATH = OUTPUT_ROOT / "psp.text.json"
@@ -112,6 +113,7 @@ def build(*, check: bool) -> None:
             "asset_sha256": _sha(TITLE_ASSET_PATH.read_bytes()),
             "config_asset_sha256": _sha(CONFIG_ASSET_PATH.read_bytes()),
             "config_sha256": _sha(CONFIG_PATH.read_bytes()),
+            "encoding_codec_sha256": _sha(ENCODING_CODEC_PATH.read_bytes()),
             "config_menu_binding_sha256": _sha(CONFIG_MENU_PATH.read_bytes()),
             "command_help_binding_sha256": _sha(COMMAND_HELP_PATH.read_bytes()),
             "command_help_assets": {

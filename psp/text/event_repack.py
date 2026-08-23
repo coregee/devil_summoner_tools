@@ -32,6 +32,7 @@ from psp.text.util.event_dvlname import CONFIG_PATH as DVLNAME_CONFIG_PATH
 
 PSP_ROOT = Path(__file__).resolve().parents[1]
 TEXT_ROOT = Path(__file__).resolve().parent
+ENCODING_CODEC_PATH = TEXT_ROOT / "util" / "event_packed.py"
 FONT_ROOT = PSP_ROOT / "font"
 FONT_GENERATED = FONT_ROOT / "generated" / "game"
 FONT_EVE_PATH = FONT_GENERATED / "eve_files.bin"
@@ -150,6 +151,7 @@ def build(*, check: bool) -> None:
         "inputs": {
             "font_manifest_sha256": _sha(font_manifest_data),
             "font_eve_sha256": _sha(source),
+            "encoding_codec_sha256": _sha(ENCODING_CODEC_PATH.read_bytes()),
             "option_config_sha256": _sha(EVENT_OPTION_CONFIG_PATH.read_bytes()),
             "dvlname_config_sha256": _sha(DVLNAME_CONFIG_PATH.read_bytes()),
             "combat_dialogue_config_sha256": _sha(

@@ -39,6 +39,10 @@ from psp.engine.surfaces.fmv_subtitles import (
     FMV_MANIFEST_PATH,
     build_fmv_subtitles,
 )
+from psp.engine.surfaces.item_runtime import (
+    CONFIG_PATH as ITEM_RUNTIME_CONFIG_PATH,
+    build_item_runtime,
+)
 from psp.engine.surfaces.title_help_ui import (
     CONFIG_PATH,
     TARGET,
@@ -67,6 +71,7 @@ FONT_MANIFEST_PATH = (
     PSP_ROOT / "font" / "generated" / "game" / "psp.fonts.json"
 )
 TEXT_MANIFEST_PATH = PSP_ROOT / "text" / "generated" / "game" / "psp.text.json"
+ENCODING_CODEC_PATH = PSP_ROOT / "text" / "util" / "event_packed.py"
 CONFIG_ENGINE_SOURCES = (
     ENGINE_ROOT / "core" / "emitter.py",
     ENGINE_ROOT / "core" / "layout.py",
@@ -104,6 +109,16 @@ COMPENDIUM_ENGINE_SOURCES = (
     PSP_ROOT / "text" / "config" / "event_dvlname.json",
     PSP_ROOT / "text" / "util" / "compendium.py",
     PSP_ROOT / "text" / "util" / "event_dvlname.py",
+)
+ITEM_RUNTIME_ENGINE_SOURCES = (
+    ITEM_RUNTIME_CONFIG_PATH,
+    ENGINE_ROOT / "core" / "emitter.py",
+    ENGINE_ROOT / "core" / "layout.py",
+    ENGINE_ROOT / "surfaces" / "item_runtime.py",
+    ENGINE_ROOT / "surfaces" / "item_runtime_runtime.py",
+    PSP_ROOT / "text" / "config" / "item_runtime.json",
+    PSP_ROOT / "text" / "util" / "item_runtime.py",
+    PSP_ROOT.parent / "assets" / "text" / "items_psp.json",
 )
 EBOOT_TRAILING_SIZE = 345
 
@@ -179,6 +194,19 @@ def _source_entries() -> tuple[bytes, bytes, dict[str, object]]:
     return boot, eboot, evidence
 
 
+def _source_regdata() -> bytes:
+    try:
+        disc = load_catalog()["game"]
+        contract = disc.entries["regdata"]
+    except KeyError as error:
+        raise ValueError("PSP disc catalogue is missing the regdata contract") from error
+    source_path = validate_source(disc, verify_hash=False)
+    extent, data = read_iso9660_file(source_path, contract.path)
+    if extent.size != contract.size or _sha256(data) != contract.sha256:
+        raise ValueError(f"{contract.path} is not the configured stock PSP entry")
+    return data
+
+
 def _config_font_contract() -> dict[str, object]:
     if not FONT_MANIFEST_PATH.is_file():
         raise ValueError(
@@ -251,6 +279,7 @@ def _manifest(
     runtime_used: int,
     runtime_capacity: int,
     compendium,
+    item_runtime,
 ) -> bytes:
     document = {
         "version": 1,
@@ -262,6 +291,7 @@ def _manifest(
             "event_window.runtime_foundation",
             "demon_compendium.prose",
             "demon_compendium.names",
+            "psp_active_items.runtime",
             "battle_console.runtime",
             "fmv_subtitles.runtime",
         ],
@@ -273,6 +303,7 @@ def _manifest(
             "title_help_metrics_sha256": file_sha256(METRICS_PATH),
             "font_manifest_sha256": file_sha256(FONT_MANIFEST_PATH),
             "text_manifest_sha256": file_sha256(TEXT_MANIFEST_PATH),
+            "encoding_codec_sha256": file_sha256(ENCODING_CODEC_PATH),
             "fmv_manifest_sha256": file_sha256(FMV_MANIFEST_PATH),
             "config_menu_asset_sha256": file_sha256(CONFIG_ASSET_PATH),
             "assembly": {
@@ -301,6 +332,10 @@ def _manifest(
                 path.relative_to(PSP_ROOT).as_posix(): file_sha256(path)
                 for path in COMPENDIUM_ENGINE_SOURCES
             },
+            "item_runtime_sources": {
+                path.relative_to(PSP_ROOT.parent).as_posix(): file_sha256(path)
+                for path in ITEM_RUNTIME_ENGINE_SOURCES
+            },
             "battle_console_sources": {
                 path.relative_to(ENGINE_ROOT).as_posix(): file_sha256(path)
                 for path in BATTLE_CONSOLE_ENGINE_SOURCES
@@ -321,6 +356,14 @@ def _manifest(
             "text_sha256": _sha256(compendium.text.text_arena),
             "pointer_table_sha256": _sha256(compendium.text.pointer_table),
             "dvlname_table_sha256": _sha256(compendium.names.dvlname_table),
+        },
+        "active_items": {
+            "game_ids": [record.game_id for record in item_runtime.text.records],
+            "names": [record.name for record in item_runtime.text.records],
+            "regdata_member_index": 4,
+            "regdata_bytes_unchanged": True,
+            "source_member_sha256": item_runtime.text.source_member_sha256,
+            "runtime_data_sha256": _sha256(item_runtime.runtime.data_blob),
         },
         "patches": [
             {
@@ -370,6 +413,7 @@ def _publish(path: Path, data: bytes, *, check: bool) -> None:
 def build_engine(*, check: bool) -> None:
     widths = _metric_widths()
     stock_boot, stock_eboot, source = _source_entries()
+    stock_regdata = _source_regdata()
     title = build_title_help_ui(stock_boot, widths)
     config = build_config_menu(stock_boot, title.data, _config_font_contract())
     command_help = build_command_menu_help(stock_boot, config.data)
@@ -388,7 +432,13 @@ def build_engine(*, check: bool) -> None:
         battle_console.data,
         load_eve_widths(),
     )
-    fmv = build_fmv_subtitles(stock_boot, compendium.data)
+    item_runtime = build_item_runtime(
+        stock_boot,
+        compendium.data,
+        stock_regdata,
+        load_eve_widths(),
+    )
+    fmv = build_fmv_subtitles(stock_boot, item_runtime.data)
     eboot = fmv.data + bytes(EBOOT_TRAILING_SIZE)
     if len(eboot) != len(stock_eboot):
         raise ValueError("PSP EBOOT replacement changed its ISO extent size")
@@ -403,6 +453,7 @@ def build_engine(*, check: bool) -> None:
             *event_window.patches,
             *battle_console.patches,
             *compendium.patches,
+            *item_runtime.patches,
             *fmv.patches,
         ),
         runtime_used=(
@@ -411,6 +462,7 @@ def build_engine(*, check: bool) -> None:
             + command_help.runtime_used_size
             + event_window.runtime_used_size
             + compendium.runtime_used_size
+            + item_runtime.runtime_used_size
             + fmv.runtime_used_size
         ),
         runtime_capacity=(
@@ -419,9 +471,11 @@ def build_engine(*, check: bool) -> None:
             + command_help.runtime_capacity
             + event_window.runtime_capacity
             + compendium.runtime_capacity
+            + item_runtime.runtime_capacity
             + fmv.runtime_capacity
         ),
         compendium=compendium,
+        item_runtime=item_runtime,
     )
     for path, data in (
         (BOOT_OUTPUT, fmv.data),

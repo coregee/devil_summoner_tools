@@ -7,10 +7,10 @@ from collections.abc import Mapping
 from dataclasses import dataclass
 
 from psp.archive.pack import PspPack
+from psp.text.util.event_packed import MESSAGE_TERMINATOR
 
 POINTER_TABLE_OFFSET = 0x4800
 MESSAGE_BODY_OFFSET = 0x5000
-MESSAGE_TERMINATOR = 0x8000
 PAGE_CLEAR_OP = 0x8002
 PAGE_EDGE_OPS = frozenset({0x8002, 0x8003})
 PAYLOAD_OPS = frozenset(
@@ -328,4 +328,3 @@ class PspEveFiles:
                 )
             results.append(EveAuditResult(binding.member_index, binding.name, count))
         return tuple(results)
-

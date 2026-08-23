@@ -9,10 +9,17 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
+from psp.text.util.event_packed import (
+    ASCII_FIRST,
+    ASCII_LAST,
+    STORED_PRINTABLE_FIRST,
+    encode_ascii_character,
+)
+
 
 FONT_ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = FONT_ROOT / "config" / "title_help_metrics.json"
-PACKED_WIDTH_COUNT = 95
+PACKED_WIDTH_COUNT = ASCII_LAST - ASCII_FIRST + 1
 CANVAS_SIZE = 64
 CELL_ORIGIN = 24
 CELL_HEIGHT = 16
@@ -32,14 +39,7 @@ class TitleHelpMetricConfig:
 
 
 def _packed_storage_index(character: str) -> int:
-    code = ord(character)
-    if character == " ":
-        return PACKED_WIDTH_COUNT - 1
-    if 0x30 <= code <= 0x7E:
-        return code - 0x30
-    if 0x21 <= code <= 0x2F:
-        return code + 0x2E
-    raise ValueError(f"character is outside printable ASCII: {character!r}")
+    return encode_ascii_character(character) - STORED_PRINTABLE_FIRST
 
 
 def _load_config(path: Path = CONFIG_PATH) -> TitleHelpMetricConfig:
@@ -269,7 +269,7 @@ def build_title_help_metrics(
     font = _font(plan)
     storage = list(plan.fallback_storage_order)
     glyphs: list[dict[str, object]] = []
-    for code in range(32, 127):
+    for code in range(ASCII_FIRST, ASCII_LAST + 1):
         character = chr(code)
         index = _packed_storage_index(character)
         raster_advance, bounds = _advance(character, font, plan)

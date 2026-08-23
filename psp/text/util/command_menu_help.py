@@ -10,8 +10,8 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from psp.archive.pack import PspPack
-from psp.font.util.eve_ascii import glyph_code
 from psp.text.util.config_menu import ConfigTextBuild, build_config_text
+from psp.text.util.event_packed import glyph_code_for_character
 
 
 TEXT_ROOT = Path(__file__).resolve().parents[1]
@@ -55,13 +55,13 @@ def _words(text: str) -> list[int]:
         fragment = text[position : match.start()]
         if "{" in fragment or "}" in fragment:
             raise ValueError("command-menu help contains an unknown control token")
-        words.extend(glyph_code(character) for character in fragment)
+        words.extend(glyph_code_for_character(character) for character in fragment)
         words.append(TOKEN_WORDS[match.group(0)])
         position = match.end()
     fragment = text[position:]
     if "{" in fragment or "}" in fragment:
         raise ValueError("command-menu help contains an unknown control token")
-    words.extend(glyph_code(character) for character in fragment)
+    words.extend(glyph_code_for_character(character) for character in fragment)
     return words
 
 

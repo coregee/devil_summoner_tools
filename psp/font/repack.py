@@ -37,6 +37,7 @@ from psp.font.util.title_help import (
 from psp.rom.util.catalog import load_catalog, validate_source
 from psp.rom.util.iso9660 import read_iso9660_file
 from psp.text.util.assets import TITLE_ASSET_PATH
+from psp.text.util.title_help import CONFIG_PATH as TITLE_TEXT_CONFIG_PATH
 
 
 FONT_ROOT = Path(__file__).resolve().parent
@@ -44,6 +45,7 @@ OUTPUT_PATH = FONT_ROOT / "generated" / "game" / "title_help_metrics.json"
 DATAPACK_PATH = FONT_ROOT / "generated" / "game" / "datapack.bin"
 EVE_FILES_PATH = FONT_ROOT / "generated" / "game" / "eve_files.bin"
 MANIFEST_PATH = FONT_ROOT / "generated" / "game" / "psp.fonts.json"
+ENCODING_CODEC_PATH = FONT_ROOT.parent / "text" / "util" / "event_packed.py"
 
 
 def publish(path: Path, data: bytes, *, check: bool) -> None:
@@ -119,6 +121,8 @@ def build_fonts(*, check: bool) -> None:
         "inputs": {
             "asset_sha256": _sha(TITLE_ASSET_PATH.read_bytes()),
             "config_sha256": _sha(FONT16_CONFIG_PATH.read_bytes()),
+            "title_text_config_sha256": _sha(TITLE_TEXT_CONFIG_PATH.read_bytes()),
+            "encoding_codec_sha256": _sha(ENCODING_CODEC_PATH.read_bytes()),
             "config_menu_config_sha256": _sha(CONFIG_FONT16_PATH.read_bytes()),
             "fmv_subtitle_config_sha256": _sha(FMV_FONT16_PATH.read_bytes()),
             "eve_ascii_config_sha256": _sha(EVE_ASCII_CONFIG_PATH.read_bytes()),

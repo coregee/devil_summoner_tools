@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "surface": "psp_active_items",
+  "source": {
+    "path": "PSP_GAME/USRDIR/regdata.bin",
+    "size": 248592,
+    "sha256": "d9916886ea6bffe13e1eeeaf3558d5602f8b2b2a9f1987acc45a766511cc0bd2",
+    "member_count": 32,
+    "member_index": 4,
+    "member_offset": 63952,
+    "member_size": 29848,
+    "member_sha256": "d8f599b6a739eb5367ea4ad1107bc325641dc1d0164bad89034cef948bb75f96"
+  },
+  "layout": {
+    "record_count": 287,
+    "record_size": 104,
+    "metadata_size": 4,
+    "name_offset": 4,
+    "name_size": 16,
+    "description_offset": 20,
+    "description_size": 84
+  },
+  "records": [
+    {
+      "game_id": 255,
+      "record_index": 254,
+      "asset": "back_upper_reusable",
+      "source_record_sha256": "ed04bf61b989b8e6a5e50a78b373e5139b2b33468d78f282db8d16c413feef36",
+      "source_metadata_hex": "0000000d",
+      "source_name_hex": "00f600a9007d007600a900fb00ad001c"
+    },
+    {
+      "game_id": 280,
+      "record_index": 279,
+      "asset": "death_tally",
+      "source_record_sha256": "a537a3e455af188dd283e463c5082002906c555cda57a32db9c5fb1b6349664d",
+      "source_metadata_hex": "0000000f",
+      "source_name_hex": "0302028d0057023604e8000000000000"
+    },
+    {
+      "game_id": 281,
+      "record_index": 280,
+      "asset": "demon_compendium_extra_volume",
+      "source_record_sha256": "d583ab34a0d6e55768f317409f163b53c3114cc6d4b39f9fa18b6405b183e736",
+      "source_metadata_hex": "0000000f",
+      "source_name_hex": "013d0116014d02890282051b00000000"
+    }
+  ]
+}

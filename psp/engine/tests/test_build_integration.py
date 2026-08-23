@@ -35,7 +35,13 @@ class PspEngineBuildIntegrationTests(unittest.TestCase):
             battle.data,
             engine_build.load_eve_widths(),
         )
-        result = engine_build.build_fmv_subtitles(stock, compendium.data)
+        item_runtime = engine_build.build_item_runtime(
+            stock,
+            compendium.data,
+            engine_build._source_regdata(),
+            engine_build.load_eve_widths(),
+        )
+        result = engine_build.build_fmv_subtitles(stock, item_runtime.data)
         self.assertEqual(len(result.data), len(stock))
         self.assertEqual(
             len(title.patches)
@@ -44,14 +50,15 @@ class PspEngineBuildIntegrationTests(unittest.TestCase):
             + len(event_window.patches)
             + len(battle.patches)
             + len(compendium.patches)
+            + len(item_runtime.patches)
             + len(result.patches),
-            108,
+            121,
         )
         self.assertEqual(source["boot"]["lba"], 21760)
         self.assertEqual(len(eboot) - len(stock), engine_build.EBOOT_TRAILING_SIZE)
         self.assertEqual(
             hashlib.sha256(result.data).hexdigest(),
-            "a81e3dc0b248e849dd26a3a6c93742e9b7ae39343a41ed7314a425a8a9878b3d",
+            "154bab0ec5606112ada0d6585fa7745be72124a7ea59208e55e0f9b06ef2cb38",
         )
 
 

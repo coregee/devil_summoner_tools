@@ -10,6 +10,14 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 from psp.archive.pack import PspPack
+from psp.text.util.event_packed import (
+    ASCII_FIRST,
+    ASCII_LAST,
+    GLYPH_CODE_BIAS,
+    GLYPH_CODE_FIRST,
+    STORED_PRINTABLE_FIRST,
+    glyph_code_for_character,
+)
 
 
 FONT_ROOT = Path(__file__).resolve().parents[1]
@@ -18,13 +26,15 @@ TILE_WIDTH = 16
 TILE_HEIGHT = 16
 TILE_STRIDE = 128
 PIXEL_COUNT = TILE_WIDTH * TILE_HEIGHT
-ASCII_CHARACTERS = tuple(chr(value) for value in range(0x20, 0x7F))
+ASCII_CHARACTERS = tuple(
+    chr(value) for value in range(ASCII_FIRST, ASCII_LAST + 1)
+)
 SPACE_ADVANCE = 3
 MAX_ADVANCE = 14
-PACKED_FIRST = 0x1F
-PACKED_RUNTIME_BIAS = 0x1E01
-PACKED_RUNTIME_FIRST = PACKED_FIRST + PACKED_RUNTIME_BIAS
-PACKED_WIDTH_COUNT = 95
+PACKED_FIRST = STORED_PRINTABLE_FIRST
+PACKED_RUNTIME_BIAS = GLYPH_CODE_BIAS
+PACKED_RUNTIME_FIRST = GLYPH_CODE_FIRST
+PACKED_WIDTH_COUNT = ASCII_LAST - ASCII_FIRST + 1
 
 
 def _sha(data: bytes) -> str:
@@ -34,18 +44,7 @@ def _sha(data: bytes) -> str:
 def glyph_code(character: str) -> int:
     """Return the retail packed EVE tile code for one printable ASCII glyph."""
 
-    if not isinstance(character, str) or len(character) != 1:
-        raise TypeError("EVE glyph lookup expects one character")
-    value = ord(character)
-    if not 0x20 <= value <= 0x7E:
-        raise ValueError(f"EVE character is not printable ASCII: {character!r}")
-    if 0x30 <= value <= 0x7E:
-        stored = value - 0x11
-    elif 0x21 <= value <= 0x2F:
-        stored = value + 0x4D
-    else:
-        stored = 0x7D
-    return stored + 0x1E01
+    return glyph_code_for_character(character)
 
 
 def _validate_widths(widths) -> bytes:

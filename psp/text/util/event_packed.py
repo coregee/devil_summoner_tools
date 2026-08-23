@@ -28,6 +28,29 @@ GLYPH_CODE_FIRST = STORED_PRINTABLE_FIRST + GLYPH_CODE_BIAS
 GLYPH_CODE_LAST = STORED_PRINTABLE_LAST + GLYPH_CODE_BIAS
 MESSAGE_TERMINATOR = 0x8000
 
+ASCII_NORMALIZATION = {
+    "\u2019": "'",
+    "\u2018": "'",
+    "\u201c": '"',
+    "\u201d": '"',
+    "\u2014": "-",
+    "\u2013": "-",
+    "\u2026": "...",
+    "\u00e9": "e",
+    "\u3000": " ",
+    "\u00a0": " ",
+}
+
+
+def normalize_ascii(text: str) -> str:
+    """Normalize prose shared by consumers of the packed-ASCII codec."""
+
+    if not isinstance(text, str):
+        raise TypeError("packed PSP text must be a string")
+    for source, replacement in ASCII_NORMALIZATION.items():
+        text = text.replace(source, replacement)
+    return text.replace("\r\n", "\n").replace("\r", "\n")
+
 
 def _validate_character(character: str) -> int:
     if not isinstance(character, str) or len(character) != 1:
@@ -139,4 +162,3 @@ def decode_token(data: bytes, offset: int = 0) -> PackedToken:
         return PackedToken((first << 8) | data[offset + 1], 2, None)
     character = decode_ascii_byte(first)
     return PackedToken(first + GLYPH_CODE_BIAS, 1, character)
-

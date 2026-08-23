@@ -8,7 +8,6 @@ import struct
 from dataclasses import dataclass
 from pathlib import Path
 
-from psp.font.util.eve_ascii import PACKED_FIRST, PACKED_WIDTH_COUNT
 from psp.text.util.compendium import (
     COMPENDIUM_LIVE_PROFILE_COUNT,
     COMPENDIUM_TEXT_ARENA_SIZE,
@@ -17,7 +16,15 @@ from psp.text.util.compendium import (
     load_compendium_profiles,
 )
 from psp.text.util.event_dvlname import build_psp_dvlname_runtime_table
-from psp.text.util.event_packed import encode_ascii
+from psp.text.util.event_packed import (
+    ASCII_FIRST,
+    ASCII_LAST,
+    STORED_PRINTABLE_FIRST,
+    encode_ascii,
+)
+
+PACKED_FIRST = STORED_PRINTABLE_FIRST
+PACKED_WIDTH_COUNT = ASCII_LAST - ASCII_FIRST + 1
 
 from ..core.layout import DATA_LOAD_SEGMENT_ADDRESS
 from ..core.patching import Patch, apply_patches
@@ -331,4 +338,3 @@ __all__ = [
     "CompendiumBuild",
     "build_compendium",
 ]
-

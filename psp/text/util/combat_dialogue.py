@@ -22,7 +22,12 @@ from psp.text.util.assets import load_asset_field
 
 from .event_corpus import payload_pages
 from .event_bank import MESSAGE_BODY_OFFSET, EveBinding, PspEveBank, PspEveMessage
-from .event_packed import decode_token, encode_ascii, encode_logical_word
+from .event_packed import (
+    decode_token,
+    encode_ascii,
+    encode_logical_word,
+    normalize_ascii,
+)
 
 COMBAT_DIALOGUE_CONFIG_PATH = (
     Path(__file__).resolve().parents[1] / "config" / "combat_dialogue.json"
@@ -49,19 +54,6 @@ _STRUCTURAL_TOKENS = {
     "BEAT": 0x8004,
 }
 _TOKEN_PATTERN = re.compile(r"\{([^{}]+)\}")
-_NORMALIZE_CHARACTERS = {
-    "\u2019": "'",
-    "\u2018": "'",
-    "\u201c": '"',
-    "\u201d": '"',
-    "\u2014": "-",
-    "\u2013": "-",
-    "\u2026": "...",
-    "\u00e9": "e",
-    "\u3000": " ",
-    "\u00a0": " ",
-}
-
 BOSSTALK_BINDING = EveBinding(22, "BOSSTALK", 16)
 BOSSTALK_CORPUS = "battle/boss_dialogue.json"
 
@@ -273,9 +265,7 @@ def load_combat_dialogue_contract(
 def _normalize_combat_text(text: str) -> str:
     if not isinstance(text, str):
         raise TypeError("PSP combat translation must be a string")
-    for source, replacement in _NORMALIZE_CHARACTERS.items():
-        text = text.replace(source, replacement)
-    return text.replace("\r\n", "\n").replace("\r", "\n")
+    return normalize_ascii(text)
 
 
 def combat_token_code(token: str) -> int:

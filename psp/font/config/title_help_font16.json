@@ -24,35 +24,7 @@
   },
   "text": {
     "translation_sha256": "d5e2157be78880ec1d7009139c382a4a29a221b5e322743c6636725e43833dab",
-    "glyphs": [
-      {"character": " ", "code": "0x0000"},
-      {"character": "C", "code": "0x000d"},
-      {"character": "D", "code": "0x000e"},
-      {"character": "F", "code": "0x0010"},
-      {"character": "R", "code": "0x001c"},
-      {"character": "S", "code": "0x001d"},
-      {"character": "V", "code": "0x0020"},
-      {"character": "a", "code": "0x0025"},
-      {"character": "c", "code": "0x0027"},
-      {"character": "d", "code": "0x0028"},
-      {"character": "e", "code": "0x0029"},
-      {"character": "f", "code": "0x002a"},
-      {"character": "g", "code": "0x002b"},
-      {"character": "h", "code": "0x002c"},
-      {"character": "i", "code": "0x002d"},
-      {"character": "l", "code": "0x0030"},
-      {"character": "m", "code": "0x0031"},
-      {"character": "n", "code": "0x0032"},
-      {"character": "o", "code": "0x0033"},
-      {"character": "r", "code": "0x0036"},
-      {"character": "s", "code": "0x0037"},
-      {"character": "t", "code": "0x0038"},
-      {"character": "u", "code": "0x0039"},
-      {"character": "v", "code": "0x003a"},
-      {"character": "w", "code": "0x003b"},
-      {"character": "y", "code": "0x003d"},
-      {"character": ".", "code": "0x00b0"}
-    ]
+    "encoding": "../../text/config/title_help.json"
   },
   "output": {
     "sha256": "f2ac2e9b96739384fa2c4fc07e9152898ab1a2ee2f7451e2061c6b76352ff77d",

@@ -83,13 +83,19 @@ from ..core.layout import (
     EVENT_OPTION_RESET_WRAPPER_ADDRESS,
     WIDTH_TABLE_ADDRESS,
 )
-from psp.font.util.eve_ascii import (
-    PACKED_FIRST,
-    PACKED_RUNTIME_BIAS,
-    PACKED_RUNTIME_FIRST,
-    PACKED_WIDTH_COUNT,
-    _validate_widths,
+from psp.font.util.eve_ascii import _validate_widths
+from psp.text.util.event_packed import (
+    ASCII_FIRST,
+    ASCII_LAST,
+    GLYPH_CODE_BIAS,
+    GLYPH_CODE_FIRST,
+    STORED_PRINTABLE_FIRST,
 )
+
+PACKED_FIRST = STORED_PRINTABLE_FIRST
+PACKED_RUNTIME_BIAS = GLYPH_CODE_BIAS
+PACKED_RUNTIME_FIRST = GLYPH_CODE_FIRST
+PACKED_WIDTH_COUNT = ASCII_LAST - ASCII_FIRST + 1
 from ..core.patching import Patch, apply_patches
 
 

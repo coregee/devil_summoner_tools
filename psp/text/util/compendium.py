@@ -9,7 +9,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from psp.text.util.assets import load_asset_field
-from psp.text.util.event_packed import encode_ascii
+from psp.text.util.event_packed import encode_ascii, normalize_ascii
 
 CONFIG_PATH = Path(__file__).resolve().parents[1] / "config" / "compendium.json"
 COMPENDIUM_PROFILE_COUNT = 319
@@ -28,18 +28,6 @@ COMPENDIUM_NEWLINE = 0x01
 _FIELD_NAMES = ("compendium_origin", "compendium_summary", "compendium_detail")
 _LIVE_STATUSES = frozenset(("live_saturn", "live_psp"))
 _ROW_STATUSES = _LIVE_STATUSES | frozenset(("empty", "orphan_unbound"))
-_NORMALIZE_CHARACTERS = {
-    "\u00a0": " ",
-    "‘": "'",
-    "’": "'",
-    "“": '"',
-    "”": '"',
-    "…": "...",
-    "–": "-",
-    "—": "-",
-}
-
-
 @dataclass(frozen=True, slots=True)
 class CompendiumProfileText:
     row_index: int
@@ -163,9 +151,7 @@ def load_compendium_profiles(
 def _normalize_text(value: str, context: str) -> str:
     if not isinstance(value, str):
         raise TypeError(f"{context}: translation must be text")
-    normalized = value.replace("\r\n", "\n").replace("\r", "\n")
-    for source, replacement in _NORMALIZE_CHARACTERS.items():
-        normalized = normalized.replace(source, replacement)
+    normalized = normalize_ascii(value)
     normalized = normalized.replace("{n}", "\n")
     if not normalized.strip():
         raise ValueError(f"{context}: translation is empty")
@@ -414,4 +400,3 @@ __all__ = [
     "build_compendium_text",
     "load_compendium_profiles",
 ]
-

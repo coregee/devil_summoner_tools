@@ -18,6 +18,7 @@ from psp.font.util.gim import (
 )
 from psp.font.util.metrics import build_title_help_masks
 from psp.text.util.assets import load_title_help_asset, strings_sha256
+from psp.text.util.title_help import load_config as load_title_text_config
 
 
 FONT_ROOT = Path(__file__).resolve().parents[1]
@@ -83,7 +84,7 @@ def load_config(path: Path = CONFIG_PATH) -> TitleHelpFontConfig:
             "transparent_rgba", "ink_index", "ink_rgba"
         }
         or not isinstance(text, dict)
-        or set(text) != {"translation_sha256", "glyphs"}
+        or set(text) != {"translation_sha256", "encoding"}
         or not isinstance(output, dict)
         or set(output)
         != {"sha256", "member_sha256", "changed_byte_count", "changed_codes"}
@@ -117,25 +118,25 @@ def load_config(path: Path = CONFIG_PATH) -> TitleHelpFontConfig:
         raise ValueError(f"{path}: invalid palette color") from error
     if len(transparent_rgba) != 4 or len(ink_rgba) != 4:
         raise ValueError(f"{path}: palette colors must be RGBA records")
-    glyphs = []
-    for row in text["glyphs"]:
-        if (
-            not isinstance(row, dict)
-            or set(row) != {"character", "code"}
-            or not isinstance(row["character"], str)
-            or len(row["character"]) != 1
-        ):
-            raise ValueError(f"{path}: invalid title FONT16 glyph")
-        glyphs.append((row["character"], _code(row["code"], "glyph code")))
-    characters = "".join(character for character, _code_value in glyphs)
     required = set("".join(row[2] for row in load_title_help_asset()))
-    if set(characters) != required or len(set(characters)) != len(characters):
+    encoding_path = (path.parent / text["encoding"]).resolve()
+    text_plan = load_title_text_config(encoding_path)
+    glyphs = tuple(
+        (character, code)
+        for character, code in text_plan.encoding
+        if character in required
+    )
+    if (
+        text["encoding"] != "../../text/config/title_help.json"
+        or text_plan.translation_sha256 != text["translation_sha256"]
+        or {character for character, _code_value in glyphs} != required
+    ):
         raise ValueError(f"{path}: title FONT16 glyph ownership changed")
     return TitleHelpFontConfig(
         source["iso_path"], source["size"], source["sha256"], source["member_count"],
         page["member_index"], page["size"], page["sha256"], page["palette_sha256"],
         page["transparent_index"], transparent_rgba, page["ink_index"], ink_rgba,
-        text["translation_sha256"], tuple(glyphs), output["sha256"],
+        text["translation_sha256"], glyphs, output["sha256"],
         output["member_sha256"], output["changed_byte_count"],
         tuple(_code(value, "changed code") for value in output["changed_codes"]),
     )

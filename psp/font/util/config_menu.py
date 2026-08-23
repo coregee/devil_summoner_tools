@@ -21,7 +21,10 @@ from psp.font.util.fmv_subtitles import (
     render_mask,
 )
 from psp.font.util.metrics import render_title_help_masks
-from psp.font.util.title_help import TitleHelpFontBuild
+from psp.font.util.title_help import (
+    TitleHelpFontBuild,
+    load_config as load_title_font_config,
+)
 from psp.text.util.assets import load_config_asset
 
 
@@ -136,35 +139,7 @@ def build_config_font16(
     # Ark12 mappings needed by the runtime are the title allocation plus H/M/N.
     title_mappings = tuple(
         (character, code, int(dict(title.advances)[character]))
-        for character, code in (
-            (" ", 0),
-            ("C", 13),
-            ("D", 14),
-            ("F", 16),
-            ("R", 28),
-            ("S", 29),
-            ("V", 32),
-            ("a", 37),
-            ("c", 39),
-            ("d", 40),
-            ("e", 41),
-            ("f", 42),
-            ("g", 43),
-            ("h", 44),
-            ("i", 45),
-            ("l", 48),
-            ("m", 49),
-            ("n", 50),
-            ("o", 51),
-            ("r", 54),
-            ("s", 55),
-            ("t", 56),
-            ("u", 57),
-            ("v", 58),
-            ("w", 59),
-            ("y", 61),
-            (".", 176),
-        )
+        for character, code in load_title_font_config().glyphs
     )
     ark12 = tuple(sorted((*title_mappings, *ARK12_NEW), key=lambda row: row[1]))
     ark16 = ((" ", 0, 7), ("△", 0x0671, 16), *mappings)

@@ -47,6 +47,18 @@ EVE_UI_HANDLE_APPEND_ADDRESS = 0x001720C0
 EVE_UI_HANDLE_STATE_ADDRESS = 0x00172175
 EVE_UI_HANDLE_CAVE_END_ADDRESS = 0x00172200
 
+# The PSP-only item renderer uses the remaining checked partitions in the
+# CONFIG cave. It shares the Compendium packed renderer and EVE widths.
+ITEM_RUNTIME_DATA_ADDRESS = 0x0010884F
+ITEM_RUNTIME_DATA_END_ADDRESS = 0x00108944
+ITEM_EVENT_INSERT_WRAPPER_ADDRESS = 0x00171D24
+ITEM_EVENT_INSERT_WRAPPER_END_ADDRESS = 0x00171E00
+ITEM_NAME_RESOLVER_ADDRESS = 0x00172260
+ITEM_NAME_DRAW_WRAPPER_ADDRESS = 0x00172360
+ITEM_NAME_DRAW_WRAPPER_END_ADDRESS = 0x00172400
+ITEM_DESCRIPTION_DRAW_WRAPPER_ADDRESS = 0x00172ABC
+ITEM_DESCRIPTION_DRAW_WRAPPER_END_ADDRESS = 0x00172C38
+
 # The Compendium owns three checked source-zero code partitions near the end
 # of .rodata. Prose retains the original lore arena; the packed full-name
 # table occupies its tail, making the two runtime halves one atomic surface.

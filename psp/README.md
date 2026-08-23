@@ -9,7 +9,7 @@ cell grids. The engine package now owns the readable Allegrex title-help VWF
 patch and readable CONFIG emitter, with exact source guards and focused tests.
 
 The PSP-owned build pipeline now composes the complete English title-help,
-CONFIG, command-help, battle-console, Demon Compendium, and START2 subtitle
+CONFIG, command-help, battle-console, Demon Compendium, active-item, and START2 subtitle
 slices. It compiles
 six title records, all 57 CONFIG/command-help slots, and 313 active BTL_MES
 rows into `regdata.bin` while preserving
@@ -25,7 +25,9 @@ BOOT/EBOOT. The stock-safe EVENT VWF runtime consumes those packed banks and
 shares the command-help EVE advance table for both ordinary and boss-combat
 dialogue. The engine also packs all 292 live Demon Compendium profiles into
 the original BOOT lore arena, installs full proportional names and English
-alphabetical sorting, and preserves every inactive row and flag. The pipeline
+alphabetical sorting, and preserves every inactive row and flag. It additionally
+publishes the three PSP-only active items through checked inventory, detail, and
+EVENT consumers while leaving ITEMNAME member 4 unchanged. The pipeline
 publishes a same-size
 ISO by replacing only the six verified resource or executable extents.
 Remaining text surfaces, engine patches, fonts, and visual assets still need
@@ -51,3 +53,7 @@ The reusable EVENT runtime boundary is documented in
 [`docs/event_window.md`](docs/event_window.md).
 The Compendium prose, name-table, and sorting contract is documented in
 [`docs/compendium.md`](docs/compendium.md).
+The PSP-only item-name, description, and EVENT insertion paths are documented
+in [`docs/item_runtime.md`](docs/item_runtime.md).
+The consolidated codec families and their physical projections are documented
+in [`docs/text_encodings.md`](docs/text_encodings.md).
