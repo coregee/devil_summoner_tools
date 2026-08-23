@@ -6,8 +6,9 @@ PSP-local configuration owns archive members, offsets, capacities, character
 codes, source hashes, and expected binary results.
 
 The complete surfaces are `title_help`, `config_menu`, `command_menu_help`,
-`battle_console`, the five standard `event_dialogue` banks, and the BOSSTALK
-boss-combat bank. The title's six English records come from
+`battle_console`, the five standard `event_dialogue` banks, the BOSSTALK
+boss-combat bank, and the BOOT-resident Demon Compendium. The title's six
+English records come from
 `assets/text/ui/title.json` and compile into the six fixed 42-word slots in
 `regdata.bin` member 30. The publisher verifies the complete source file and
 member identities, enforces the proved raw FONT16 code map, and round-trips
@@ -46,6 +47,12 @@ control vocabulary: structural `0x8000..0x8004`, insert `0x8010..0x8017`, and
 color `0x8020..0x8026`. The compiler proves that every message has exactly one
 ordinary script owner and that no combat-menu reader is present before
 publishing the member.
+
+The Compendium binding in `config/compendium.json` preserves all 319 physical
+pointer-table rows and resolves 292 live profiles through
+`assets/text/demons.json`. Its compiler pools and wraps 876 canonical prose
+fields into the fixed BOOT lore arena; the engine surface combines that output
+with the shared 319-name DVLNAME table.
 
 ```powershell
 python -B psp/text/repack.py all

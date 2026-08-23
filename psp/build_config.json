@@ -35,7 +35,7 @@
     },
     {
       "id": "build_engine",
-      "description": "Build title-help, CONFIG/command-help, EVENT VWF, BTL_MES, and START2 BOOT/EBOOT patches.",
+      "description": "Build title-help, CONFIG/command-help, EVENT VWF, BTL_MES, Compendium, and START2 BOOT/EBOOT patches.",
       "type": "python",
       "script": "engine/build.py",
       "arguments": ["all"],

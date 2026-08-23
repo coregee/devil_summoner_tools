@@ -1,0 +1,1928 @@
+{
+  "version": 1,
+  "surface": "demon_compendium",
+  "target": "BOOT.BIN",
+  "profile_count": 319,
+  "live_profile_count": 292,
+  "fields": [
+    "compendium_origin",
+    "compendium_summary",
+    "compendium_detail"
+  ],
+  "rows": [
+    {
+      "row_index": 0,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "vishnu"
+    },
+    {
+      "row_index": 1,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "amon_ra"
+    },
+    {
+      "row_index": 2,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "odin"
+    },
+    {
+      "row_index": 3,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "hachiman"
+    },
+    {
+      "row_index": 4,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "prometheus"
+    },
+    {
+      "row_index": 5,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "inti"
+    },
+    {
+      "row_index": 6,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "anat"
+    },
+    {
+      "row_index": 7,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "lakshmi"
+    },
+    {
+      "row_index": 8,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "pallas_athena"
+    },
+    {
+      "row_index": 9,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "brigid"
+    },
+    {
+      "row_index": 10,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "eruzuli"
+    },
+    {
+      "row_index": 11,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "scathach"
+    },
+    {
+      "row_index": 12,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "nakisawame"
+    },
+    {
+      "row_index": 13,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "metatron"
+    },
+    {
+      "row_index": 14,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "sraosha"
+    },
+    {
+      "row_index": 15,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "sandalphon"
+    },
+    {
+      "row_index": 16,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "azrael"
+    },
+    {
+      "row_index": 17,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "lailah"
+    },
+    {
+      "row_index": 18,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "victor"
+    },
+    {
+      "row_index": 19,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "garuda"
+    },
+    {
+      "row_index": 20,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "yatagarasu"
+    },
+    {
+      "row_index": 21,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "vidofnir"
+    },
+    {
+      "row_index": 22,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "phoenix"
+    },
+    {
+      "row_index": 23,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "hamsa"
+    },
+    {
+      "row_index": 24,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "haoma"
+    },
+    {
+      "row_index": 25,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "kukunochi"
+    },
+    {
+      "row_index": 26,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "daphne"
+    },
+    {
+      "row_index": 27,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "oshira_sama"
+    },
+    {
+      "row_index": 28,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "kama"
+    },
+    {
+      "row_index": 29,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "jarilo"
+    },
+    {
+      "row_index": 30,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "neko_shogun"
+    },
+    {
+      "row_index": 31,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "kanbari"
+    },
+    {
+      "row_index": 32,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "heimdall"
+    },
+    {
+      "row_index": 33,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "hanuman"
+    },
+    {
+      "row_index": 34,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "kresnik"
+    },
+    {
+      "row_index": 35,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "cu_chulainn"
+    },
+    {
+      "row_index": 36,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "maui"
+    },
+    {
+      "row_index": 37,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "jambavan"
+    },
+    {
+      "row_index": 38,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "ictinike"
+    },
+    {
+      "row_index": 39,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "khonsu"
+    },
+    {
+      "row_index": 40,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "barong"
+    },
+    {
+      "row_index": 41,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "ukano_mitama"
+    },
+    {
+      "row_index": 42,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "chimera"
+    },
+    {
+      "row_index": 43,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "anubis"
+    },
+    {
+      "row_index": 44,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "kamapua_a"
+    },
+    {
+      "row_index": 45,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "sleipnir"
+    },
+    {
+      "row_index": 46,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "pabilsag"
+    },
+    {
+      "row_index": 47,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "airavata"
+    },
+    {
+      "row_index": 48,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "yatsufusa"
+    },
+    {
+      "row_index": 49,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "apis"
+    },
+    {
+      "row_index": 50,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "xiezhai"
+    },
+    {
+      "row_index": 51,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "shiisaa"
+    },
+    {
+      "row_index": 52,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "salamander"
+    },
+    {
+      "row_index": 53,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "undine"
+    },
+    {
+      "row_index": 54,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "sylph"
+    },
+    {
+      "row_index": 55,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "gnome"
+    },
+    {
+      "row_index": 56,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "saki_mitama"
+    },
+    {
+      "row_index": 57,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "kusi_mitama"
+    },
+    {
+      "row_index": 58,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "ara_mitama"
+    },
+    {
+      "row_index": 59,
+      "status": "live_saturn",
+      "flags": "0x00010000",
+      "asset": "nigi_mitama"
+    },
+    {
+      "row_index": 60,
+      "status": "live_saturn",
+      "flags": "0x00010000",
+      "asset": "rama"
+    },
+    {
+      "row_index": 61,
+      "status": "live_saturn",
+      "flags": "0x00010000",
+      "asset": "guan_yu"
+    },
+    {
+      "row_index": 62,
+      "status": "live_saturn",
+      "flags": "0x00010000",
+      "asset": "fariedone"
+    },
+    {
+      "row_index": 63,
+      "status": "live_saturn",
+      "flags": "0x00010000",
+      "asset": "yoshitsune"
+    },
+    {
+      "row_index": 64,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "jeanne_d_arc"
+    },
+    {
+      "row_index": 65,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "shiva"
+    },
+    {
+      "row_index": 66,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "susano_o"
+    },
+    {
+      "row_index": 67,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "kartikeya"
+    },
+    {
+      "row_index": 68,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "seiten_taisei"
+    },
+    {
+      "row_index": 69,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "triglav"
+    },
+    {
+      "row_index": 70,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "ogun"
+    },
+    {
+      "row_index": 71,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "kali"
+    },
+    {
+      "row_index": 72,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "cybele"
+    },
+    {
+      "row_index": 73,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "black_maria"
+    },
+    {
+      "row_index": 74,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "sedna"
+    },
+    {
+      "row_index": 75,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "hariti"
+    },
+    {
+      "row_index": 76,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "sekhmet"
+    },
+    {
+      "row_index": 77,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "kikuri_hime"
+    },
+    {
+      "row_index": 78,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "marici"
+    },
+    {
+      "row_index": 79,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "bishamonten"
+    },
+    {
+      "row_index": 80,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "thor"
+    },
+    {
+      "row_index": 81,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "take_mikazuchi"
+    },
+    {
+      "row_index": 82,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "zhong_kui"
+    },
+    {
+      "row_index": 83,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "tyr"
+    },
+    {
+      "row_index": 84,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "nagasunehiko"
+    },
+    {
+      "row_index": 85,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "otogo_douji"
+    },
+    {
+      "row_index": 86,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "zhu_yin"
+    },
+    {
+      "row_index": 87,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "ananta"
+    },
+    {
+      "row_index": 88,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "illuyanka"
+    },
+    {
+      "row_index": 89,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "patrimpas"
+    },
+    {
+      "row_index": 90,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "quetzalcoatl"
+    },
+    {
+      "row_index": 91,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "cherub"
+    },
+    {
+      "row_index": 92,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "throne"
+    },
+    {
+      "row_index": 93,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "dominion"
+    },
+    {
+      "row_index": 94,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "virtue"
+    },
+    {
+      "row_index": 95,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "power"
+    },
+    {
+      "row_index": 96,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "principality"
+    },
+    {
+      "row_index": 97,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "archangel"
+    },
+    {
+      "row_index": 98,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "angel"
+    },
+    {
+      "row_index": 99,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "rukh"
+    },
+    {
+      "row_index": 100,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "da_peng"
+    },
+    {
+      "row_index": 101,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "holawaka"
+    },
+    {
+      "row_index": 102,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "caladrius"
+    },
+    {
+      "row_index": 103,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "tuofei"
+    },
+    {
+      "row_index": 104,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "yamachichi"
+    },
+    {
+      "row_index": 105,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "ba"
+    },
+    {
+      "row_index": 106,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "ganesha"
+    },
+    {
+      "row_index": 107,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "peri"
+    },
+    {
+      "row_index": 108,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "xiuhtecuhtli"
+    },
+    {
+      "row_index": 109,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "tengu"
+    },
+    {
+      "row_index": 110,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "maruts"
+    },
+    {
+      "row_index": 111,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "shaytan"
+    },
+    {
+      "row_index": 112,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "agathion"
+    },
+    {
+      "row_index": 113,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "oberon"
+    },
+    {
+      "row_index": 114,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "titania"
+    },
+    {
+      "row_index": 115,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "spriggan"
+    },
+    {
+      "row_index": 116,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "lorelei"
+    },
+    {
+      "row_index": 117,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "domovoi"
+    },
+    {
+      "row_index": 118,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "jack_o_lantern"
+    },
+    {
+      "row_index": 119,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "jack_frost"
+    },
+    {
+      "row_index": 120,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "kijimunaa"
+    },
+    {
+      "row_index": 121,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "pixie"
+    },
+    {
+      "row_index": 122,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "ouroboros"
+    },
+    {
+      "row_index": 123,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "yamata_no_orochi"
+    },
+    {
+      "row_index": 124,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "yurlungur"
+    },
+    {
+      "row_index": 125,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "culebre"
+    },
+    {
+      "row_index": 126,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "naga"
+    },
+    {
+      "row_index": 127,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "vouivre"
+    },
+    {
+      "row_index": 128,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "yato_no_kami"
+    },
+    {
+      "row_index": 129,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "cerberus"
+    },
+    {
+      "row_index": 130,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "ammut"
+    },
+    {
+      "row_index": 131,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "gdon"
+    },
+    {
+      "row_index": 132,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "hsing_hsing"
+    },
+    {
+      "row_index": 133,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "nekomata"
+    },
+    {
+      "row_index": 134,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "katakirauwa"
+    },
+    {
+      "row_index": 135,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "hairy_jack"
+    },
+    {
+      "row_index": 136,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "kabuso"
+    },
+    {
+      "row_index": 137,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "hare_of_inaba"
+    },
+    {
+      "row_index": 138,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "aerophant"
+    },
+    {
+      "row_index": 139,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "mamedanuki"
+    },
+    {
+      "row_index": 140,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "oliver"
+    },
+    {
+      "row_index": 141,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "gogmagog"
+    },
+    {
+      "row_index": 142,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "titan"
+    },
+    {
+      "row_index": 143,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "oumitsunu"
+    },
+    {
+      "row_index": 144,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "kwancha"
+    },
+    {
+      "row_index": 145,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "dwarf"
+    },
+    {
+      "row_index": 146,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "ribhu"
+    },
+    {
+      "row_index": 147,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "koropokkur"
+    },
+    {
+      "row_index": 148,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "knocker"
+    },
+    {
+      "row_index": 149,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "hypnos"
+    },
+    {
+      "row_index": 150,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "succubus"
+    },
+    {
+      "row_index": 151,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "incubus"
+    },
+    {
+      "row_index": 152,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "hinoenma"
+    },
+    {
+      "row_index": 153,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "sandman"
+    },
+    {
+      "row_index": 154,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "kikimora"
+    },
+    {
+      "row_index": 155,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "nacht_kobold"
+    },
+    {
+      "row_index": 156,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "abraxas"
+    },
+    {
+      "row_index": 157,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "botis"
+    },
+    {
+      "row_index": 158,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "barbatos"
+    },
+    {
+      "row_index": 159,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "purson"
+    },
+    {
+      "row_index": 160,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "bifrons"
+    },
+    {
+      "row_index": 161,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "nisroc"
+    },
+    {
+      "row_index": 162,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "melchom"
+    },
+    {
+      "row_index": 163,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "stolas"
+    },
+    {
+      "row_index": 164,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "yaksha"
+    },
+    {
+      "row_index": 165,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "berserker"
+    },
+    {
+      "row_index": 166,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "pulukishi"
+    },
+    {
+      "row_index": 167,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "yomotsu_ikusa"
+    },
+    {
+      "row_index": 168,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "dokkaebi"
+    },
+    {
+      "row_index": 169,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "yamawaro"
+    },
+    {
+      "row_index": 170,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "bogle"
+    },
+    {
+      "row_index": 171,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "rangda"
+    },
+    {
+      "row_index": 172,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "dakini"
+    },
+    {
+      "row_index": 173,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "amazon"
+    },
+    {
+      "row_index": 174,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "yuki_jyorou"
+    },
+    {
+      "row_index": 175,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "todomeki"
+    },
+    {
+      "row_index": 176,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "leanan_sidhe"
+    },
+    {
+      "row_index": 177,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "yomotsu_shikome"
+    },
+    {
+      "row_index": 178,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "pales"
+    },
+    {
+      "row_index": 179,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "taotie"
+    },
+    {
+      "row_index": 180,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "kanaloa"
+    },
+    {
+      "row_index": 181,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "chemosh"
+    },
+    {
+      "row_index": 182,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "pachacamac"
+    },
+    {
+      "row_index": 183,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "kau"
+    },
+    {
+      "row_index": 184,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "anzu"
+    },
+    {
+      "row_index": 185,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "zhen"
+    },
+    {
+      "row_index": 186,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "stymphalides"
+    },
+    {
+      "row_index": 187,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "itsumade"
+    },
+    {
+      "row_index": 188,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "moh_shuvuu"
+    },
+    {
+      "row_index": 189,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "hippou"
+    },
+    {
+      "row_index": 190,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "es"
+    },
+    {
+      "row_index": 191,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "zaccoum"
+    },
+    {
+      "row_index": 192,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "alraune"
+    },
+    {
+      "row_index": 193,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "mandrake"
+    },
+    {
+      "row_index": 194,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "jubokko"
+    },
+    {
+      "row_index": 195,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "mot"
+    },
+    {
+      "row_index": 196,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "guedhe"
+    },
+    {
+      "row_index": 197,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "chernobog"
+    },
+    {
+      "row_index": 198,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "thanatos"
+    },
+    {
+      "row_index": 199,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "ixtab"
+    },
+    {
+      "row_index": 200,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "taowu"
+    },
+    {
+      "row_index": 201,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "catoblepas"
+    },
+    {
+      "row_index": 202,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "porewit"
+    },
+    {
+      "row_index": 203,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "nue"
+    },
+    {
+      "row_index": 204,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "suiko"
+    },
+    {
+      "row_index": 205,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "afanc"
+    },
+    {
+      "row_index": 206,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "waira"
+    },
+    {
+      "row_index": 207,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "grendel"
+    },
+    {
+      "row_index": 208,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "girimekhala"
+    },
+    {
+      "row_index": 209,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "gashadokuro"
+    },
+    {
+      "row_index": 210,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "ocelot"
+    },
+    {
+      "row_index": 211,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "ashinaga"
+    },
+    {
+      "row_index": 212,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "tenaga"
+    },
+    {
+      "row_index": 213,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "ogre"
+    },
+    {
+      "row_index": 214,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "patriot"
+    },
+    {
+      "row_index": 215,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "zombie_cop"
+    },
+    {
+      "row_index": 216,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "agony"
+    },
+    {
+      "row_index": 217,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "rastaman"
+    },
+    {
+      "row_index": 218,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "waxwork"
+    },
+    {
+      "row_index": 219,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "scarecrow"
+    },
+    {
+      "row_index": 220,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "mothman"
+    },
+    {
+      "row_index": 221,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "myrmecolion"
+    },
+    {
+      "row_index": 222,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "okiku_mushi"
+    },
+    {
+      "row_index": 223,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "yowie"
+    },
+    {
+      "row_index": 224,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "ubu"
+    },
+    {
+      "row_index": 225,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "chi_you"
+    },
+    {
+      "row_index": 226,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "nergal"
+    },
+    {
+      "row_index": 227,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "rahu"
+    },
+    {
+      "row_index": 228,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "loki"
+    },
+    {
+      "row_index": 229,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "balor"
+    },
+    {
+      "row_index": 230,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "vasuki"
+    },
+    {
+      "row_index": 231,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "mushussu"
+    },
+    {
+      "row_index": 232,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "python"
+    },
+    {
+      "row_index": 233,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "basilisk"
+    },
+    {
+      "row_index": 234,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "uwabami"
+    },
+    {
+      "row_index": 235,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "asp"
+    },
+    {
+      "row_index": 236,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "toubyou"
+    },
+    {
+      "row_index": 237,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "vetala"
+    },
+    {
+      "row_index": 238,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "kudlak"
+    },
+    {
+      "row_index": 239,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "dzolob"
+    },
+    {
+      "row_index": 240,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "enku"
+    },
+    {
+      "row_index": 241,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "ghoul"
+    },
+    {
+      "row_index": 242,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "obariyon"
+    },
+    {
+      "row_index": 243,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "preta"
+    },
+    {
+      "row_index": 244,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "macabre"
+    },
+    {
+      "row_index": 245,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "legion"
+    },
+    {
+      "row_index": 246,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "inferno"
+    },
+    {
+      "row_index": 247,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "torso"
+    },
+    {
+      "row_index": 248,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "quicksilver"
+    },
+    {
+      "row_index": 249,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "poltergeist"
+    },
+    {
+      "row_index": 250,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "doppelganger"
+    },
+    {
+      "row_index": 251,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "tattooed_man"
+    },
+    {
+      "row_index": 252,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "killer_chopper"
+    },
+    {
+      "row_index": 253,
+      "status": "live_saturn",
+      "flags": "0x00000000",
+      "asset": "hooligan"
+    },
+    {
+      "row_index": 254,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "slime"
+    },
+    {
+      "row_index": 255,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "shei_form_1"
+    },
+    {
+      "row_index": 256,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "shei_form_2"
+    },
+    {
+      "row_index": 257,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "shei_form_3"
+    },
+    {
+      "row_index": 258,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "shei_form_4"
+    },
+    {
+      "row_index": 259,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "shei_form_5"
+    },
+    {
+      "row_index": 260,
+      "status": "empty",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 261,
+      "status": "empty",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 262,
+      "status": "empty",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 263,
+      "status": "empty",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 264,
+      "status": "empty",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 265,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "pisaca"
+    },
+    {
+      "row_index": 266,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "fuguruma"
+    },
+    {
+      "row_index": 267,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "yakou"
+    },
+    {
+      "row_index": 268,
+      "status": "empty",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 269,
+      "status": "empty",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 270,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "inui"
+    },
+    {
+      "row_index": 271,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "platoon_soldier"
+    },
+    {
+      "row_index": 272,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "proto_gargantua"
+    },
+    {
+      "row_index": 273,
+      "status": "orphan_unbound",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 274,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "shiki_ouji"
+    },
+    {
+      "row_index": 275,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "strigoii"
+    },
+    {
+      "row_index": 276,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "strix"
+    },
+    {
+      "row_index": 277,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "kashiyama"
+    },
+    {
+      "row_index": 278,
+      "status": "empty",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 279,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "dantalian"
+    },
+    {
+      "row_index": 280,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "julia"
+    },
+    {
+      "row_index": 281,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "speedy"
+    },
+    {
+      "row_index": 282,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "mikiya"
+    },
+    {
+      "row_index": 283,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "orgone_ghost_empowered"
+    },
+    {
+      "row_index": 284,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "orgone_ghost_weakened"
+    },
+    {
+      "row_index": 285,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "kumbhanda"
+    },
+    {
+      "row_index": 286,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "guan_yu_rampaging"
+    },
+    {
+      "row_index": 287,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "tendou"
+    },
+    {
+      "row_index": 288,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "demiurge"
+    },
+    {
+      "row_index": 289,
+      "status": "empty",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 290,
+      "status": "empty",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 291,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "oo_magatsuhi"
+    },
+    {
+      "row_index": 292,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "yaso_magatsuhi"
+    },
+    {
+      "row_index": 293,
+      "status": "orphan_unbound",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 294,
+      "status": "orphan_unbound",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 295,
+      "status": "orphan_unbound",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 296,
+      "status": "empty",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 297,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "gargantua"
+    },
+    {
+      "row_index": 298,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "gargantua_q"
+    },
+    {
+      "row_index": 299,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "gargantua_x"
+    },
+    {
+      "row_index": 300,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "gargantua_8"
+    },
+    {
+      "row_index": 301,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "beidou_xingjun"
+    },
+    {
+      "row_index": 302,
+      "status": "live_saturn",
+      "flags": "0x00010001",
+      "asset": "nandou_xingjun"
+    },
+    {
+      "row_index": 303,
+      "status": "empty",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 304,
+      "status": "empty",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 305,
+      "status": "empty",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 306,
+      "status": "empty",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 307,
+      "status": "empty",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 308,
+      "status": "live_psp",
+      "flags": "0x00010001",
+      "asset": "david"
+    },
+    {
+      "row_index": 309,
+      "status": "live_psp",
+      "flags": "0x00010001",
+      "asset": "enoch"
+    },
+    {
+      "row_index": 310,
+      "status": "live_psp",
+      "flags": "0x00010001",
+      "asset": "leviathan"
+    },
+    {
+      "row_index": 311,
+      "status": "live_psp",
+      "flags": "0x00010001",
+      "asset": "skoll"
+    },
+    {
+      "row_index": 312,
+      "status": "empty",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 313,
+      "status": "empty",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 314,
+      "status": "empty",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 315,
+      "status": "empty",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 316,
+      "status": "empty",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 317,
+      "status": "empty",
+      "flags": "0x00010001",
+      "asset": null
+    },
+    {
+      "row_index": 318,
+      "status": "empty",
+      "flags": "0x00000000",
+      "asset": null
+    }
+  ]
+}

@@ -31,6 +31,11 @@ three-row handle geometry, page clearing and wrapping, option layout, and the
 expanded DVLNAME resolver. Native Japanese words remain on the stock path for
 the explicitly preserved raw-reader and null-bound pages; the text stage now
 publishes all five translated EVENT banks against this runtime contract.
+`demon_compendium.runtime` compiles all 292 live lore profiles into the stock
+arena, redirects the three proved prose calls to a local packed-ASCII reader,
+and installs full proportional demon names plus English alphabetical sorting.
+It reuses the EVENT atlas and advance table, preserves player-name fallback,
+and guards the complete pointer/flag and relocation topology.
 `fmv_subtitles.runtime` redirects the ten proved movie-update calls through a
 position-independent wrapper. The wrapper leaves every movie except START2 on
 the stock path, converts the presenter's consumed-frame counter to a displayed

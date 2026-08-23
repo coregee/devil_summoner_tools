@@ -74,3 +74,13 @@ FONT16 codes `0x0672..0x0690`. The source PMF remains byte-for-byte unchanged;
 the engine overlays one shadow and one face sprite per visible glyph only when
 the selected movie basename is START2.
 
+## Demon Compendium
+
+The PSP Compendium consumes the canonical names and three prose fields from
+`assets/text/demons.json`. A 319-row physical binding owns 292 live profiles,
+including David, Enoch, Leviathan, and Skoll, while retaining every stock
+inactive row and flag. Prose is pooled into the original BOOT lore arena and
+drawn through the EVE proportional atlas; the shared packed DVLNAME table
+provides full names to both detail and list screens and drives English
+alphabetical sorting.
+

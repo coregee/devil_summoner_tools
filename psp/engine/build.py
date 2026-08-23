@@ -26,6 +26,10 @@ from psp.engine.surfaces.command_menu_help import (
     build_command_menu_help,
     load_eve_widths,
 )
+from psp.engine.surfaces.compendium import (
+    CONFIG_PATH as COMPENDIUM_CONFIG_PATH,
+    build_compendium,
+)
 from psp.engine.surfaces.event_window import (
     CONFIG_PATH as EVENT_WINDOW_CONFIG_PATH,
     build_event_window,
@@ -88,6 +92,18 @@ EVENT_WINDOW_ENGINE_SOURCES = (
     ENGINE_ROOT / "core" / "emitter.py",
     ENGINE_ROOT / "core" / "layout.py",
     ENGINE_ROOT / "surfaces" / "event_window.py",
+)
+COMPENDIUM_ENGINE_SOURCES = (
+    COMPENDIUM_CONFIG_PATH,
+    ENGINE_ROOT / "core" / "emitter.py",
+    ENGINE_ROOT / "core" / "layout.py",
+    ENGINE_ROOT / "surfaces" / "compendium.py",
+    ENGINE_ROOT / "surfaces" / "compendium_prose_runtime.py",
+    ENGINE_ROOT / "surfaces" / "compendium_name_runtime.py",
+    PSP_ROOT / "text" / "config" / "compendium.json",
+    PSP_ROOT / "text" / "config" / "event_dvlname.json",
+    PSP_ROOT / "text" / "util" / "compendium.py",
+    PSP_ROOT / "text" / "util" / "event_dvlname.py",
 )
 EBOOT_TRAILING_SIZE = 345
 
@@ -234,6 +250,7 @@ def _manifest(
     patches,
     runtime_used: int,
     runtime_capacity: int,
+    compendium,
 ) -> bytes:
     document = {
         "version": 1,
@@ -243,6 +260,8 @@ def _manifest(
             "config_menu.ui",
             "command_menu_help.runtime",
             "event_window.runtime_foundation",
+            "demon_compendium.prose",
+            "demon_compendium.names",
             "battle_console.runtime",
             "fmv_subtitles.runtime",
         ],
@@ -278,6 +297,10 @@ def _manifest(
                 path.relative_to(ENGINE_ROOT).as_posix(): file_sha256(path)
                 for path in EVENT_WINDOW_ENGINE_SOURCES
             },
+            "compendium_sources": {
+                path.relative_to(PSP_ROOT).as_posix(): file_sha256(path)
+                for path in COMPENDIUM_ENGINE_SOURCES
+            },
             "battle_console_sources": {
                 path.relative_to(ENGINE_ROOT).as_posix(): file_sha256(path)
                 for path in BATTLE_CONSOLE_ENGINE_SOURCES
@@ -288,6 +311,17 @@ def _manifest(
             },
         },
         "runtime": {"used": runtime_used, "capacity": runtime_capacity},
+        "compendium": {
+            "table_rows": 319,
+            "live_profiles": len(compendium.text.profiles),
+            "translated_fields": compendium.text.translated_field_count,
+            "unique_strings": compendium.text.unique_string_count,
+            "text_used": compendium.text.used_size,
+            "text_capacity": len(compendium.text.text_arena),
+            "text_sha256": _sha256(compendium.text.text_arena),
+            "pointer_table_sha256": _sha256(compendium.text.pointer_table),
+            "dvlname_table_sha256": _sha256(compendium.names.dvlname_table),
+        },
         "patches": [
             {
                 "group": patch.group,
@@ -349,7 +383,12 @@ def build_engine(*, check: bool) -> None:
         event_window.data,
         _battle_console_body_offset(),
     )
-    fmv = build_fmv_subtitles(stock_boot, battle_console.data)
+    compendium = build_compendium(
+        stock_boot,
+        battle_console.data,
+        load_eve_widths(),
+    )
+    fmv = build_fmv_subtitles(stock_boot, compendium.data)
     eboot = fmv.data + bytes(EBOOT_TRAILING_SIZE)
     if len(eboot) != len(stock_eboot):
         raise ValueError("PSP EBOOT replacement changed its ISO extent size")
@@ -363,6 +402,7 @@ def build_engine(*, check: bool) -> None:
             *command_help.patches,
             *event_window.patches,
             *battle_console.patches,
+            *compendium.patches,
             *fmv.patches,
         ),
         runtime_used=(
@@ -370,6 +410,7 @@ def build_engine(*, check: bool) -> None:
             + config.runtime_used_size
             + command_help.runtime_used_size
             + event_window.runtime_used_size
+            + compendium.runtime_used_size
             + fmv.runtime_used_size
         ),
         runtime_capacity=(
@@ -377,8 +418,10 @@ def build_engine(*, check: bool) -> None:
             + config.runtime_used_size
             + command_help.runtime_capacity
             + event_window.runtime_capacity
+            + compendium.runtime_capacity
             + fmv.runtime_capacity
         ),
+        compendium=compendium,
     )
     for path, data in (
         (BOOT_OUTPUT, fmv.data),

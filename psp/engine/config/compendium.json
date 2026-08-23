@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "surface": "demon_compendium.runtime",
+  "target": {
+    "name": "BOOT.BIN",
+    "address_bias": 128,
+    "size": 2404599,
+    "stock_sha256": "37b5b7a49fe1a5af60ab042d2822befb00580e02a7d7d2ed77dd279ebe6f55fa"
+  },
+  "prose": {
+    "source_arena_address": "0x001a0ad8",
+    "source_arena_size": 122974,
+    "source_arena_sha256": "fbb3627b44d8dfb30f7f65859e76619deee619f5fb3b2db93b90b35aa36d6cb5",
+    "output_arena_size": 118824,
+    "pointer_table_address": "0x001beb4c",
+    "pointer_table_size": 5104,
+    "pointer_table_sha256": "01c55fa4a613d2918cc31aa1fb3219d11dc30190176aab2d328b09b11bbf66ed"
+  },
+  "names": {
+    "source_table_address": "0x001bdb00",
+    "table_size": 3205,
+    "source_table_sha256": "459405b2a66a726669da6dc9a0ec89bb56a0df6588892e337e983478d151561f"
+  }
+}
