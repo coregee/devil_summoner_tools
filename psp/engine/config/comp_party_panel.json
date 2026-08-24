@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "surface": "comp_party_panel.runtime",
+  "character_names": [
+    "characters.json#rei_reiho.name",
+    "characters.json#kyouji_kuzunoha.name",
+    "characters.json#taro_tanigawa.name",
+    "characters.json#jiro_tanigawa.name",
+    "characters.json#saburo_tanigawa.name"
+  ],
+  "write_count": 4
+}

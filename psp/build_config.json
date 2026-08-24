@@ -3,7 +3,7 @@
   "steps": [
     {
       "id": "repack_fonts",
-      "description": "Generate the composed title-help, CONFIG, START2, and EVE font resources.",
+      "description": "Generate the composed title-help, CONFIG, MAP2D, maze-location, COMP Ark10, START2, and EVE font resources.",
       "type": "python",
       "script": "font/repack.py",
       "arguments": ["all"],
@@ -35,7 +35,7 @@
     },
     {
       "id": "build_engine",
-      "description": "Build title-help, CONFIG/command-help, EVENT VWF, NAME/profile entry, savedata metadata, BTL_MES, Compendium, active-item, and START2 BOOT/EBOOT patches.",
+      "description": "Build title-help, CONFIG/command-help, EVENT VWF, NAME/profile entry, MAP2D, savedata and maze-location, BTL_MES, battle/COMP party names, Compendium, active-item, and START2 BOOT/EBOOT patches.",
       "type": "python",
       "script": "engine/build.py",
       "arguments": ["all"],

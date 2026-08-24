@@ -19,6 +19,22 @@ compiled records without storing a machine-code patch blob.
 `battle_console.runtime` adds two declarative Allegrex instruction recipes that
 retarget both native BTL_MES readers from the stock `0x800` body to the checked
 compacted body at `0x400`; it needs no code cave or relocation edit.
+`battle_names.runtime` redirects the five proved party-panel loops and the
+private battle-result name/label calls through two proportional Ark12 wrappers.
+It decodes the live packed Codename, reads full demon names from the
+Compendium-owned table, substitutes `Mysterious Man`, `(None)`, `Life Stone`,
+and `Bead`, and leaves unrelated resolver callers and native result rows stock.
+`comp_party_panel.runtime` replaces the common six-card COMP name call. It
+reuses the live NAME Codename, battle-owned special row, Compendium name table,
+packed printable-ASCII codec, and shared EVE handle lifecycle. A private Ark10
+raster/advance projection satisfies the smaller card geometry without creating
+another stored-text encoding or modifying the source CHARNAME/DVLNAME tables.
+`map_2d.runtime` completes the city-map surface with all 16 mature writes: the
+native and mirrored talk prompts, five fixed destination strips, and four live
+city/ward states. It consumes the shared NAME profile and packed codec, using a
+screen-local Ark16 raster only where the dynamic 64-pixel fields need it. The
+original delay slots, JAL relocations, and adjacent item/savedata cave
+partitions remain guarded.
 `command_menu_help.runtime` installs the generated EVE advance table, adapts the
 stock C998 help-loop ABI to the retained EVE glyph drawer, and preserves the
 stock path for non-owned codes. Its shared frame hook releases only handles
@@ -45,6 +61,16 @@ arena, redirects the three proved prose calls to a local packed-ASCII reader,
 and installs full proportional demon names plus English alphabetical sorting.
 It reuses the EVENT atlas and advance table, preserves player-name fallback,
 and guards the complete pointer/flag and relocation topology.
+
+The maze location display consumes savedata's shared 144-record selector and
+the canonical 24 names. Ten preserved JAL sites stage the physical record for
+the persistent HUD; the staircase-transition surface feeds its existing
+current-record selector through a small bridge. One caller-independent wrapper
+maps either source to the shared semantic ID and draws the compiled one- or
+two-row Ark Pixel name. A companion wrapper translates and right-aligns the
+native floor digits plus `B`/`F` suffixes on both surfaces. The emitted runtime,
+both zero-backed caves, every delay slot, and all fourteen retained draw/stage
+relocations are checked against the stock executable.
 `fmv_subtitles.runtime` redirects the ten proved movie-update calls through a
 position-independent wrapper. The wrapper leaves every movie except START2 on
 the stock path, converts the presenter's consumed-frame counter to a displayed
@@ -59,7 +85,7 @@ stock file identity, both ELF relocation records, every edited instruction, and
 both zero-backed cave spans before returning a same-size patched image.
 
 `build.py all` reads BOOT and EBOOT directly from the configured source ISO,
-validates the generated title metrics, CONFIG/START2 font contracts, BTL_MES
+validates the generated shared Ark12, CONFIG/START2 font contracts, BTL_MES
 text manifest, EVE font contract, and START2 runtime manifest, composes all
 ported disjoint runtime surfaces, and publishes same-size
 executable artifacts plus a manifest under `generated/game/`. The top-level PSP

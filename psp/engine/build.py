@@ -20,6 +20,10 @@ from psp.engine.surfaces.battle_console import (
     CONFIG_PATH as BATTLE_CONSOLE_CONFIG_PATH,
     build_battle_console,
 )
+from psp.engine.surfaces.battle_names import (
+    CONFIG_PATH as BATTLE_NAMES_CONFIG_PATH,
+    build_battle_names,
+)
 from psp.engine.surfaces.config_menu import build_config_menu
 from psp.engine.surfaces.command_menu_help import (
     CONFIG_PATH as COMMAND_HELP_CONFIG_PATH,
@@ -30,9 +34,17 @@ from psp.engine.surfaces.compendium import (
     CONFIG_PATH as COMPENDIUM_CONFIG_PATH,
     build_compendium,
 )
+from psp.engine.surfaces.comp_party_panel import (
+    CONFIG_PATH as COMP_PARTY_PANEL_CONFIG_PATH,
+    build_comp_party_panel,
+)
 from psp.engine.surfaces.event_window import (
     CONFIG_PATH as EVENT_WINDOW_CONFIG_PATH,
     build_event_window,
+)
+from psp.engine.surfaces.dungeon_locations import (
+    CONFIG_PATH as DUNGEON_LOCATION_CONFIG_PATH,
+    build_dungeon_locations,
 )
 from psp.engine.surfaces.fmv_subtitles import (
     CONFIG_PATH as FMV_SUBTITLE_CONFIG_PATH,
@@ -42,6 +54,10 @@ from psp.engine.surfaces.fmv_subtitles import (
 from psp.engine.surfaces.item_runtime import (
     CONFIG_PATH as ITEM_RUNTIME_CONFIG_PATH,
     build_item_runtime,
+)
+from psp.engine.surfaces.map2d import (
+    CONFIG_PATH as MAP2D_CONFIG_PATH,
+    build_map2d,
 )
 from psp.engine.surfaces.name_entry import (
     CONFIG_PATH as NAME_ENTRY_CONFIG_PATH,
@@ -90,6 +106,46 @@ BATTLE_CONSOLE_ENGINE_SOURCES = (
     BATTLE_CONSOLE_CONFIG_PATH,
     ENGINE_ROOT / "surfaces" / "battle_console.py",
 )
+BATTLE_NAMES_ENGINE_SOURCES = (
+    BATTLE_NAMES_CONFIG_PATH,
+    ENGINE_ROOT / "core" / "emitter.py",
+    ENGINE_ROOT / "core" / "layout.py",
+    ENGINE_ROOT / "surfaces" / "battle_names.py",
+    ENGINE_ROOT / "surfaces" / "battle_names_runtime.py",
+    PSP_ROOT / "text" / "config" / "event_dvlname.json",
+    PSP_ROOT / "text" / "config" / "name_entry.json",
+    PSP_ROOT / "text" / "util" / "event_dvlname.py",
+    PSP_ROOT / "text" / "util" / "name_entry.py",
+    PSP_ROOT.parent / "assets" / "text" / "demons.json",
+    PSP_ROOT.parent / "assets" / "text" / "items.json",
+    PSP_ROOT.parent / "assets" / "text" / "ui" / "profile_entry.json",
+)
+COMP_PARTY_PANEL_ENGINE_SOURCES = (
+    COMP_PARTY_PANEL_CONFIG_PATH,
+    ENGINE_ROOT / "core" / "emitter.py",
+    ENGINE_ROOT / "core" / "layout.py",
+    ENGINE_ROOT / "surfaces" / "comp_party_panel.py",
+    ENGINE_ROOT / "surfaces" / "comp_party_panel_runtime.py",
+    PSP_ROOT / "font" / "config" / "comp_party_ark10.json",
+    PSP_ROOT / "font" / "util" / "comp_party_ark10.py",
+    PSP_ROOT / "text" / "config" / "name_entry.json",
+    PSP_ROOT.parent / "assets" / "text" / "characters.json",
+    PSP_ROOT.parent / "assets" / "text" / "ui" / "profile_entry.json",
+)
+MAP2D_ENGINE_SOURCES = (
+    MAP2D_CONFIG_PATH,
+    ENGINE_ROOT / "core" / "emitter.py",
+    ENGINE_ROOT / "core" / "layout.py",
+    ENGINE_ROOT / "surfaces" / "map2d.py",
+    ENGINE_ROOT / "surfaces" / "map2d_runtime.py",
+    PSP_ROOT / "font" / "config" / "map2d.json",
+    PSP_ROOT / "font" / "util" / "map2d.py",
+    PSP_ROOT / "text" / "config" / "map2d.json",
+    PSP_ROOT / "text" / "util" / "map2d.py",
+    PSP_ROOT.parent / "assets" / "text" / "field" / "messages.json",
+    PSP_ROOT.parent / "assets" / "text" / "locations.json",
+    PSP_ROOT.parent / "assets" / "text" / "ui" / "map_2d.json",
+)
 FMV_SUBTITLE_ENGINE_SOURCES = (
     FMV_SUBTITLE_CONFIG_PATH,
     ENGINE_ROOT / "surfaces" / "fmv_subtitles.py",
@@ -127,6 +183,17 @@ SAVEDATA_ENGINE_SOURCES = (
     PSP_ROOT / "text" / "util" / "event_packed.py",
     PSP_ROOT / "text" / "util" / "savedata.py",
     PSP_ROOT.parent / "assets" / "text" / "save_load.json",
+    PSP_ROOT.parent / "assets" / "text" / "locations.json",
+)
+DUNGEON_LOCATION_ENGINE_SOURCES = (
+    DUNGEON_LOCATION_CONFIG_PATH,
+    ENGINE_ROOT / "core" / "emitter.py",
+    ENGINE_ROOT / "core" / "layout.py",
+    ENGINE_ROOT / "surfaces" / "dungeon_locations.py",
+    ENGINE_ROOT / "surfaces" / "dungeon_locations_runtime.py",
+    PSP_ROOT / "font" / "config" / "dungeon_locations_font16.json",
+    PSP_ROOT / "font" / "util" / "dungeon_locations.py",
+    PSP_ROOT / "text" / "config" / "savedata.json",
     PSP_ROOT.parent / "assets" / "text" / "locations.json",
 )
 COMPENDIUM_ENGINE_SOURCES = (
@@ -259,6 +326,69 @@ def _config_font_contract() -> dict[str, object]:
     return contract
 
 
+def _dungeon_location_font_contract() -> dict[str, object]:
+    if not FONT_MANIFEST_PATH.is_file():
+        raise ValueError(
+            f"PSP font manifest is missing: {FONT_MANIFEST_PATH}; "
+            "run psp/font/repack.py all"
+        )
+    try:
+        document = json.loads(FONT_MANIFEST_PATH.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as error:
+        raise ValueError(f"invalid PSP font manifest: {FONT_MANIFEST_PATH}") from error
+    contract = document.get("dungeon_locations") if isinstance(document, dict) else None
+    if (
+        not isinstance(document, dict)
+        or document.get("version") != 1
+        or document.get("surface") != "psp.fonts"
+        or not isinstance(contract, dict)
+    ):
+        raise ValueError("PSP font manifest has no dungeon-location contract")
+    return contract
+
+
+def _comp_party_ark10_contract() -> dict[str, object]:
+    if not FONT_MANIFEST_PATH.is_file():
+        raise ValueError(
+            f"PSP font manifest is missing: {FONT_MANIFEST_PATH}; "
+            "run psp/font/repack.py all"
+        )
+    try:
+        document = json.loads(FONT_MANIFEST_PATH.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as error:
+        raise ValueError(f"invalid PSP font manifest: {FONT_MANIFEST_PATH}") from error
+    contract = document.get("comp_party_ark10") if isinstance(document, dict) else None
+    if (
+        not isinstance(document, dict)
+        or document.get("version") != 1
+        or document.get("surface") != "psp.fonts"
+        or not isinstance(contract, dict)
+    ):
+        raise ValueError("PSP font manifest has no COMP Ark10 contract")
+    return contract
+
+
+def _map2d_font_contract() -> dict[str, object]:
+    if not FONT_MANIFEST_PATH.is_file():
+        raise ValueError(
+            f"PSP font manifest is missing: {FONT_MANIFEST_PATH}; "
+            "run psp/font/repack.py all"
+        )
+    try:
+        document = json.loads(FONT_MANIFEST_PATH.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as error:
+        raise ValueError(f"invalid PSP font manifest: {FONT_MANIFEST_PATH}") from error
+    contract = document.get("map2d") if isinstance(document, dict) else None
+    if (
+        not isinstance(document, dict)
+        or document.get("version") != 1
+        or document.get("surface") != "psp.fonts"
+        or not isinstance(contract, dict)
+    ):
+        raise ValueError("PSP font manifest has no MAP2D contract")
+    return contract
+
+
 def _battle_console_body_offset() -> int:
     if not TEXT_MANIFEST_PATH.is_file():
         raise ValueError(
@@ -313,6 +443,10 @@ def _manifest(
     item_runtime,
     name_entry,
     savedata,
+    dungeon_locations,
+    battle_names,
+    comp_party_panel,
+    map2d,
 ) -> bytes:
     document = {
         "version": 1,
@@ -324,10 +458,15 @@ def _manifest(
             "event_window.runtime_foundation",
             "name_entry.runtime",
             "savedata.runtime",
+            "maze.location_display",
             "demon_compendium.prose",
             "demon_compendium.names",
             "psp_active_items.runtime",
             "battle_console.runtime",
+            "battle_party_panel.names",
+            "battle_results.names",
+            "comp_party_panel.names",
+            "map_2d.runtime",
             "fmv_subtitles.runtime",
         ],
         "source": source,
@@ -371,6 +510,10 @@ def _manifest(
                 path.relative_to(PSP_ROOT.parent).as_posix(): file_sha256(path)
                 for path in SAVEDATA_ENGINE_SOURCES
             },
+            "dungeon_location_sources": {
+                path.relative_to(PSP_ROOT.parent).as_posix(): file_sha256(path)
+                for path in DUNGEON_LOCATION_ENGINE_SOURCES
+            },
             "compendium_sources": {
                 path.relative_to(PSP_ROOT).as_posix(): file_sha256(path)
                 for path in COMPENDIUM_ENGINE_SOURCES
@@ -382,6 +525,18 @@ def _manifest(
             "battle_console_sources": {
                 path.relative_to(ENGINE_ROOT).as_posix(): file_sha256(path)
                 for path in BATTLE_CONSOLE_ENGINE_SOURCES
+            },
+            "battle_name_sources": {
+                path.relative_to(PSP_ROOT.parent).as_posix(): file_sha256(path)
+                for path in BATTLE_NAMES_ENGINE_SOURCES
+            },
+            "comp_party_panel_sources": {
+                path.relative_to(PSP_ROOT.parent).as_posix(): file_sha256(path)
+                for path in COMP_PARTY_PANEL_ENGINE_SOURCES
+            },
+            "map2d_sources": {
+                path.relative_to(PSP_ROOT.parent).as_posix(): file_sha256(path)
+                for path in MAP2D_ENGINE_SOURCES
             },
             "fmv_subtitle_sources": {
                 path.relative_to(ENGINE_ROOT).as_posix(): file_sha256(path)
@@ -425,6 +580,30 @@ def _manifest(
             "dungeon_locations": list(savedata.text.locations),
             "location_record_count": len(savedata.runtime.location_ids),
             "write_count": len(savedata.patches),
+        },
+        "dungeon_locations": {
+            "location_count": 24,
+            "physical_record_count": 144,
+            "name_sequence_size": len(dungeon_locations.runtime.name_sequence),
+            "write_count": len(dungeon_locations.patches),
+        },
+        "battle_names": {
+            "mysterious_man": battle_names.mysterious_man,
+            "result_labels": list(battle_names.result_labels),
+            "full_dvl_names": True,
+            "write_count": len(battle_names.patches),
+        },
+        "comp_party_panel": {
+            "character_names": list(comp_party_panel.character_names),
+            "shared_dvlname_table": True,
+            "shared_eve_handle_owner": True,
+            "write_count": len(comp_party_panel.patches),
+        },
+        "map2d": {
+            "locations": list(map2d.locations),
+            "write_count": len(map2d.patches),
+            "runtime_used": map2d.runtime_used_size,
+            "runtime_capacity": map2d.runtime_capacity,
         },
         "patches": [
             {
@@ -485,9 +664,14 @@ def build_engine(*, check: bool) -> None:
     )
     name_entry = build_name_entry(stock_boot, event_window.data)
     savedata = build_savedata(stock_boot, name_entry.data)
-    battle_console = build_battle_console(
+    dungeon_locations = build_dungeon_locations(
         stock_boot,
         savedata.data,
+        _dungeon_location_font_contract(),
+    )
+    battle_console = build_battle_console(
+        stock_boot,
+        dungeon_locations.data,
         _battle_console_body_offset(),
     )
     compendium = build_compendium(
@@ -495,13 +679,31 @@ def build_engine(*, check: bool) -> None:
         battle_console.data,
         load_eve_widths(),
     )
-    item_runtime = build_item_runtime(
+    battle_names = build_battle_names(
         stock_boot,
         compendium.data,
+        _config_font_contract(),
+        compendium.names.dvlname_table,
+    )
+    comp_party_panel = build_comp_party_panel(
+        stock_boot,
+        battle_names.data,
+        _comp_party_ark10_contract(),
+        compendium.names.dvlname_table,
+        battle_names.mysterious_man,
+    )
+    item_runtime = build_item_runtime(
+        stock_boot,
+        comp_party_panel.data,
         stock_regdata,
         load_eve_widths(),
     )
-    fmv = build_fmv_subtitles(stock_boot, item_runtime.data)
+    map2d = build_map2d(
+        stock_boot,
+        item_runtime.data,
+        _map2d_font_contract(),
+    )
+    fmv = build_fmv_subtitles(stock_boot, map2d.data)
     eboot = fmv.data + bytes(EBOOT_TRAILING_SIZE)
     if len(eboot) != len(stock_eboot):
         raise ValueError("PSP EBOOT replacement changed its ISO extent size")
@@ -516,9 +718,13 @@ def build_engine(*, check: bool) -> None:
             *event_window.patches,
             *name_entry.patches,
             *savedata.patches,
+            *dungeon_locations.patches,
             *battle_console.patches,
             *compendium.patches,
+            *battle_names.patches,
+            *comp_party_panel.patches,
             *item_runtime.patches,
+            *map2d.patches,
             *fmv.patches,
         ),
         runtime_used=(
@@ -528,8 +734,12 @@ def build_engine(*, check: bool) -> None:
             + event_window.runtime_used_size
             + name_entry.runtime_used_size
             + savedata.runtime_used_size
+            + dungeon_locations.runtime_used_size
             + compendium.runtime_used_size
+            + battle_names.runtime_used_size
+            + comp_party_panel.runtime_used_size
             + item_runtime.runtime_used_size
+            + map2d.runtime_used_size
             + fmv.runtime_used_size
         ),
         runtime_capacity=(
@@ -539,14 +749,22 @@ def build_engine(*, check: bool) -> None:
             + event_window.runtime_capacity
             + name_entry.runtime_capacity
             + savedata.runtime_capacity
+            + dungeon_locations.runtime_capacity
             + compendium.runtime_capacity
+            + battle_names.runtime_capacity
+            + comp_party_panel.runtime_capacity
             + item_runtime.runtime_capacity
+            + map2d.runtime_capacity
             + fmv.runtime_capacity
         ),
         compendium=compendium,
         item_runtime=item_runtime,
         name_entry=name_entry,
         savedata=savedata,
+        dungeon_locations=dungeon_locations,
+        battle_names=battle_names,
+        comp_party_panel=comp_party_panel,
+        map2d=map2d,
     )
     for path, data in (
         (BOOT_OUTPUT, fmv.data),

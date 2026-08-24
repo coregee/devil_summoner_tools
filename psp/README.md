@@ -1,29 +1,37 @@
 # PSP package status
 
-PSP implementation has begun with the original UMD font catalogue under
+The PSP implementation now combines the original UMD font catalogue under
 [`font/`](font/README.md), checked movie compilation under [`fmv/`](fmv/README.md),
 the ported runtime surfaces under [`engine/`](engine/README.md), and an explicit
 visual reuse boundary under [`visual/`](visual/README.md). The font package
 defines all twelve logical font
 roles recovered from the original PSP project, including their twenty physical
 archive or embedded targets, storage formats, hashes, confidence levels, and
-cell grids. The engine package now owns the readable Allegrex title-help VWF
-patch and readable CONFIG emitter, with exact source guards and focused tests.
+cell grids. The engine package now owns the complete original PSP patch
+inventory as readable, responsibility-oriented surface builders with exact
+source guards and focused tests.
 
 The PSP-owned build pipeline now composes the complete English title-help,
 CONFIG, command-help, battle-console, NAME/profile entry, savedata metadata,
-Demon Compendium, active-item, and START2 subtitle slices. It compiles
+maze HUD and staircase-transition location/floor display, Demon Compendium,
+battle party-panel/results names, the six-card COMP party-name panel,
+the complete two-dimensional city map, active-item, and START2 subtitle
+slices. It compiles
 six title records, all 57 CONFIG/command-help slots, and 313 active BTL_MES
 rows into `regdata.bin` while preserving
 45 native empty rows; compiles nine canonical START2 cues after validating the
 unchanged PMF; renders the checked Ark12/Ark16 allocations in `datapack.bin`
-and the 95-glyph printable-ASCII bank in `eve_files.bin`; transactionally
+and the shared Ark12 plus card-specific Ark10 printable-ASCII rasters in
+`eve_files.bin`, including MAP2D's consolidated Ark12/Ark16 projections;
+transactionally
 rebuilds all five standard EVENT members from 2,830 canonical page bindings
 plus the expanded 319-name insertion table, then publishes all 16 canonical
 BOSSTALK boss-combat messages in member 22; builds the title VWF,
 29 CONFIG runtime rows, the retained-EVE command-help adapter, two guarded
 battle-console body-offset instructions, and the lossless subtitle overlay into
-BOOT/EBOOT. The stock-safe EVENT VWF runtime consumes those packed banks and
+BOOT/EBOOT. The battle-name runtime additionally publishes the live Codename,
+full demon names, and fixed result labels through the consolidated Ark12 bank.
+The stock-safe EVENT VWF runtime consumes those packed banks and
 shares the command-help EVE advance table for both ordinary and boss-combat
 dialogue. The engine also packs all 292 live Demon Compendium profiles into
 the original BOOT lore arena, installs full proportional names and English
@@ -65,6 +73,12 @@ The reusable EVENT runtime boundary is documented in
 [`docs/event_window.md`](docs/event_window.md).
 The Compendium prose, name-table, and sorting contract is documented in
 [`docs/compendium.md`](docs/compendium.md).
+The consolidated battle party-panel and results-name runtime is documented in
+[`docs/battle_names.md`](docs/battle_names.md).
+The common six-card COMP name renderer and its Ark10 projection are documented
+in [`docs/comp_party_panel.md`](docs/comp_party_panel.md).
+The complete two-dimensional map runtime and its shared-text/font projections
+are documented in [`docs/map2d.md`](docs/map2d.md).
 The PSP-only item-name, description, and EVENT insertion paths are documented
 in [`docs/item_runtime.md`](docs/item_runtime.md).
 The English profile controller and durable name-cache contract are documented

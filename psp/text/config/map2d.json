@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "surface": "map_2d",
+  "ui_asset": "assets/text/ui/map_2d.json",
+  "field_asset": "assets/text/field/messages.json",
+  "location_asset": "assets/text/locations.json",
+  "dynamic_templates": [
+    "city_label",
+    "world_city_label",
+    "world_ward_label",
+    "area_label"
+  ],
+  "fixed_locations": [
+    {"key": "rinkai_park", "field": "save_name"},
+    {"key": "mount_kasagi", "field": "name", "variant": "map_2d"},
+    {"key": "yarai_ward", "field": "save_name"},
+    {"key": "chuo_ward", "field": "save_name"},
+    {"key": "hibarigaoka", "field": "save_name"}
+  ],
+  "runtime_records": [
+    "talk_prompt",
+    "talk_choice_yes",
+    "talk_choice_no"
+  ]
+}

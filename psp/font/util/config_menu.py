@@ -25,13 +25,60 @@ from psp.font.util.title_help import (
     TitleHelpFontBuild,
     load_config as load_title_font_config,
 )
-from psp.text.util.assets import load_config_asset
+from psp.text.util.assets import load_asset_field, load_config_asset
+from psp.text.util.event_dvlname import load_psp_dvlname_text
+from psp.text.util.name_entry import load_name_entry_text
 
 
 FONT_ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = FONT_ROOT / "config" / "config_menu_font16.json"
 ARK16_NEW_CHARACTERS = "123BDFLMNSUz"
-ARK12_NEW = (("H", 0x12, 7), ("M", 0x17, 8), ("N", 0x18, 7))
+
+
+def _ark12_code(character: str) -> int:
+    """Return the established low-code FONT16 mapping shared by Ark12 users."""
+
+    if character == " ":
+        return 0
+    if "0" <= character <= "9":
+        return 1 + ord(character) - ord("0")
+    if "A" <= character <= "Z":
+        return 11 + ord(character) - ord("A")
+    if "a" <= character <= "z":
+        return 37 + ord(character) - ord("a")
+    punctuation = {
+        "-": 0xAD,
+        ":": 0xAF,
+        ".": 0xB0,
+        ",": 0xB1,
+        "'": 0xB2,
+        "!": 0xB3,
+        "?": 0xB4,
+        "&": 0xB7,
+        "/": 0xC6,
+        "(": 0xCA,
+        ")": 0xCB,
+    }
+    try:
+        return punctuation[character]
+    except KeyError as error:
+        raise ValueError(
+            f"shared PSP Ark12 character {character!r} has no conventional code"
+        ) from error
+
+
+def _battle_ark12_characters() -> frozenset[str]:
+    name_entry = load_name_entry_text()
+    text = "".join(record.translation for record in load_psp_dvlname_text())
+    text += "".join(grid.characters for grid in name_entry.grids)
+    text += load_asset_field("demons.json#mysterious_man.name")[1]
+    text += "(None)"
+    text += load_asset_field("items.json#life_stone.name")[1]
+    text += load_asset_field("items.json#bead.name")[1]
+    characters = frozenset(text)
+    for character in characters:
+        _ark12_code(character)
+    return characters
 
 
 def _sha(data: bytes) -> str:
@@ -76,18 +123,39 @@ def build_config_font16(
         raise ValueError("PSP CONFIG datapack source changed")
     archive = PspPack.parse(source)
     title_member = title.member
-    masks12 = render_title_help_masks("HMN")
+    title_characters = {
+        character for character, _code in load_title_font_config().glyphs
+    }
+    required_ark12 = _battle_ark12_characters()
+    new_ark12_characters = tuple(
+        sorted(required_ark12 - title_characters - {" "}, key=_ark12_code)
+    )
+    masks12 = render_title_help_masks("".join(new_ark12_characters))
+    ark12_new = tuple(
+        (
+            character,
+            _ark12_code(character),
+            int(masks12[character]["advance"]),
+        )
+        for character in new_ark12_characters
+    )
+    if ark12_plan.get("new_codes") != [
+        f"0x{code:04x}" for _character, code, _advance in ark12_new
+    ]:
+        raise ValueError("PSP shared Ark12 code inventory changed")
     member9 = replace_index8_cells(
         title_member,
         {
             code: masks12[character]["coverage"]
-            for character, code, _advance in ARK12_NEW
+            for character, code, _advance in ark12_new
         },
         transparent_index=0,
         ink_index=10,
     )
     if _sha(member9) != ark12_plan["output_member_sha256"]:
-        raise ValueError("PSP CONFIG Ark12 output contract changed")
+        raise ValueError(
+            "PSP CONFIG Ark12 output contract changed: " + _sha(member9)
+        )
 
     fmv_result = fmv or build_fmv_subtitle_font16(source)
     fmv_plan = load_fmv_config()
@@ -135,13 +203,15 @@ def build_config_font16(
         _sha(rebuilt) != output_plan["sha256"]
         or changed != output_plan["changed_byte_count"]
     ):
-        raise ValueError("PSP CONFIG FONT16 output contract changed")
-    # Ark12 mappings needed by the runtime are the title allocation plus H/M/N.
+        raise ValueError(
+            f"PSP CONFIG FONT16 output contract changed: {_sha(rebuilt)}, {changed}"
+        )
+    # Export one shared Ark12 mapping for title, CONFIG, NAME, and battle names.
     title_mappings = tuple(
         (character, code, int(dict(title.advances)[character]))
         for character, code in load_title_font_config().glyphs
     )
-    ark12 = tuple(sorted((*title_mappings, *ARK12_NEW), key=lambda row: row[1]))
+    ark12 = tuple(sorted((*title_mappings, *ark12_new), key=lambda row: row[1]))
     ark16 = ((" ", 0, 7), ("△", 0x0671, 16), *mappings)
     table = bytes(
         advance

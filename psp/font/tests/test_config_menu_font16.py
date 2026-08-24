@@ -10,7 +10,7 @@ from psp.rom.util.iso9660 import read_iso9660_file
 
 
 class ConfigMenuFont16Tests(unittest.TestCase):
-    def test_private_source_reproduces_the_legacy_output_when_available(self) -> None:
+    def test_private_source_reproduces_the_shared_ark12_output_when_available(self) -> None:
         disc = load_catalog()["game"]
         if not disc.source_path.is_file():
             self.skipTest("private PSP source ISO is unavailable")
@@ -20,11 +20,11 @@ class ConfigMenuFont16Tests(unittest.TestCase):
         )
         title = build_title_help_font16(source)
         result = build_config_font16(source, title)
-        self.assertEqual(result.changed_byte_count, 2821)
+        self.assertEqual(result.changed_byte_count, 4859)
         self.assertEqual(result.required_limit, 0x069D)
         self.assertEqual(
             hashlib.sha256(result.data).hexdigest(),
-            "f8f2742352f56c464ab4d3661cba323c2e06f9890081f2e9bcb6bb65fa15adf4",
+            "bea1adabce9c6d9b01a3a96430d162af3c0a0c7a9ccc263bb3bb10d7e5998c97",
         )
         self.assertEqual(
             bytes(result.advance_table).hex(),
@@ -36,6 +36,11 @@ class ConfigMenuFont16Tests(unittest.TestCase):
             if character in set("123BDFLMNSUz")
         )
         self.assertEqual(new_codes, tuple(range(0x0691, 0x069D)))
+        self.assertEqual(len(result.ark12), 74)
+        self.assertEqual(
+            {character for character, _code, _advance in result.ark12},
+            set(" !&'(),-./0123456789:?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"),
+        )
 
 
 if __name__ == "__main__":

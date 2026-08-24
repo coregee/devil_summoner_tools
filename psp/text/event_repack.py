@@ -41,7 +41,7 @@ OUTPUT_ROOT = TEXT_ROOT / "generated" / "game"
 OUTPUT_PATH = OUTPUT_ROOT / "eve_files.bin"
 MANIFEST_PATH = OUTPUT_ROOT / "psp.events.json"
 EXPECTED_OUTPUT_SHA256 = (
-    "71e43ab3ce3bad0d69e9b6ad68bdd49a16510df890e6999041df8ecd803fefe5"
+    "eb373f15d3bdd2e350d9680d91fb344d54272cb5f4c08b2ef6879b3835e2d89d"
 )
 
 
@@ -128,7 +128,9 @@ def build(*, check: bool) -> None:
     )
     digest = _sha(combat.eve_files)
     if digest != EXPECTED_OUTPUT_SHA256:
-        raise ValueError("composed PSP EVENT archive contract changed")
+        raise ValueError(
+            f"composed PSP EVENT archive contract changed: {digest}"
+        )
     asset_paths = tuple(
         sorted(
             {

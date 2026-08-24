@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "comp_party_ark10",
+  "dependency": "command_menu_help.eve_ascii",
+  "atlas": {
+    "member_index": 5,
+    "input_sha256": "6f893fdab8d7e13bf16e390ce3a04809fbef153eac7813a5e04d9e7dba44b2a4",
+    "first_code": "0x1155",
+    "code_limit": "0x11b4",
+    "source_run_sha256": "fdc11d031643d2dc54fd522bbf82a5b0ef340a7275c2bfff30a95dcb4248b97c"
+  },
+  "palette": {
+    "member_index": 6,
+    "sha256": "01041c72f80c356957fbff6cff23b7bc1c6e4c8896db06716851197ff3846ea7",
+    "maximum_source_index": 10
+  },
+  "provider": {
+    "path": "../../../assets/font/ark-pixel/ark-pixel-10px-proportional-latin.otf",
+    "sha256": "7e52409d4d2d748d4e2ea56d27fbcf6130acfc8bc42f9da68c4e55f67efb3f77",
+    "size": 10,
+    "baseline": 10
+  },
+  "output": {
+    "archive_sha256": "5b2c21c8b74a25227c8dd14938e4099e2a88cb2662a9b534fd29956d0f3bad90",
+    "atlas_sha256": "b87ba742c04d99dff7edd167f05d8eaf11053bf691df494d14cfaabcfc75631e",
+    "added_changed_byte_count": 1221,
+    "total_changed_byte_count": 2864
+  }
+}

@@ -27,9 +27,14 @@ class PspEngineBuildIntegrationTests(unittest.TestCase):
         )
         name_entry = engine_build.build_name_entry(stock, event_window.data)
         savedata = engine_build.build_savedata(stock, name_entry.data)
-        battle = engine_build.build_battle_console(
+        dungeon = engine_build.build_dungeon_locations(
             stock,
             savedata.data,
+            engine_build._dungeon_location_font_contract(),
+        )
+        battle = engine_build.build_battle_console(
+            stock,
+            dungeon.data,
             engine_build._battle_console_body_offset(),
         )
         compendium = engine_build.build_compendium(
@@ -37,13 +42,31 @@ class PspEngineBuildIntegrationTests(unittest.TestCase):
             battle.data,
             engine_build.load_eve_widths(),
         )
-        item_runtime = engine_build.build_item_runtime(
+        battle_names = engine_build.build_battle_names(
             stock,
             compendium.data,
+            engine_build._config_font_contract(),
+            compendium.names.dvlname_table,
+        )
+        comp_party_panel = engine_build.build_comp_party_panel(
+            stock,
+            battle_names.data,
+            engine_build._comp_party_ark10_contract(),
+            compendium.names.dvlname_table,
+            battle_names.mysterious_man,
+        )
+        item_runtime = engine_build.build_item_runtime(
+            stock,
+            comp_party_panel.data,
             engine_build._source_regdata(),
             engine_build.load_eve_widths(),
         )
-        result = engine_build.build_fmv_subtitles(stock, item_runtime.data)
+        map2d = engine_build.build_map2d(
+            stock,
+            item_runtime.data,
+            engine_build._map2d_font_contract(),
+        )
+        result = engine_build.build_fmv_subtitles(stock, map2d.data)
         self.assertEqual(len(result.data), len(stock))
         self.assertEqual(
             len(title.patches)
@@ -52,17 +75,21 @@ class PspEngineBuildIntegrationTests(unittest.TestCase):
             + len(event_window.patches)
             + len(name_entry.patches)
             + len(savedata.patches)
+            + len(dungeon.patches)
             + len(battle.patches)
             + len(compendium.patches)
+            + len(battle_names.patches)
+            + len(comp_party_panel.patches)
             + len(item_runtime.patches)
+            + len(map2d.patches)
             + len(result.patches),
-            272,
+            337,
         )
         self.assertEqual(source["boot"]["lba"], 21760)
         self.assertEqual(len(eboot) - len(stock), engine_build.EBOOT_TRAILING_SIZE)
         self.assertEqual(
             hashlib.sha256(result.data).hexdigest(),
-            "ca4b028cafa9a0f758ee3fef2419c9db825d58ac2b364842e0003ae70eaec15b",
+            "8de2dad41021e9c66e9f2578a5cd00bf11eca0f5d1473d23fd7d3c572cb1d3e1",
         )
 
 

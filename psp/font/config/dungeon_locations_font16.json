@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "dungeon_locations_font16",
+  "asset": {
+    "path": "../../../assets/text/locations.json",
+    "sha256": "5661964309dc60edb636925a49219592b952172fa0524606a7613b241a992336"
+  },
+  "dependency": "config_menu.font16",
+  "provider": {
+    "path": "../../../assets/font/ark-pixel/ark-pixel-12px-proportional-latin.otf",
+    "sha256": "ba0bbfc888f51ddde1b75944c26457bc26d666ab4fa1c73da726bbbec6497bf5",
+    "size": 12,
+    "baseline": 13,
+    "antialias": true
+  },
+  "layout": {
+    "member_index": 15,
+    "reserved_first_code": "0x069d",
+    "first_code": "0x06b0",
+    "required_limit": "0x06e4",
+    "cell_size": 16,
+    "line_width": 64,
+    "location_count": 24
+  },
+  "output": {
+    "input_sha256": "bea1adabce9c6d9b01a3a96430d162af3c0a0c7a9ccc263bb3bb10d7e5998c97",
+    "input_member_sha256": "185a12bb4f71cd61f5610d4ee0200e554207f8045e691d7c40646abc51ee0431",
+    "sha256": "36e22244c5d7047091eb0f2b652f7b50c56331dad14c37a48763b82b92c83cb4",
+    "member_sha256": "ffdf4bb3b0e1cc95b51aa71ebed51ad33cd655f729325c145afe19ee85f320b0",
+    "added_changed_byte_count": 1441,
+    "changed_byte_count": 6300
+  }
+}

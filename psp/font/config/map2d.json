@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "id": "map2d",
+  "dependencies": {
+    "datapack": "dungeon_locations.font16",
+    "eve": "comp_party_panel.ark10"
+  },
+  "providers": {
+    "ark12": {
+      "path": "../../../assets/font/ark-pixel/ark-pixel-12px-proportional-latin.otf",
+      "sha256": "ba0bbfc888f51ddde1b75944c26457bc26d666ab4fa1c73da726bbbec6497bf5",
+      "size": 12,
+      "baseline": 13
+    },
+    "ark16": {
+      "path": "../../../assets/font/ark-pixel/ark-pixel-16px-proportional-latin.otf",
+      "sha256": "5ff8ed367e79aa2e1081a20c17f248a0c688baa566efbcda7ed00f62351f8491",
+      "size": 16,
+      "baseline": 13
+    }
+  },
+  "datapack": {
+    "member_index": 15,
+    "first_code": "0x069d",
+    "code_limit": "0x06b0",
+    "input_sha256": "36e22244c5d7047091eb0f2b652f7b50c56331dad14c37a48763b82b92c83cb4",
+    "input_member_sha256": "ffdf4bb3b0e1cc95b51aa71ebed51ad33cd655f729325c145afe19ee85f320b0"
+  },
+  "eve": {
+    "atlas_member_index": 5,
+    "palette_member_index": 6,
+    "input_sha256": "5b2c21c8b74a25227c8dd14938e4099e2a88cb2662a9b534fd29956d0f3bad90",
+    "input_atlas_sha256": "b87ba742c04d99dff7edd167f05d8eaf11053bf691df494d14cfaabcfc75631e",
+    "palette_sha256": "01041c72f80c356957fbff6cff23b7bc1c6e4c8896db06716851197ff3846ea7",
+    "maximum_source_index": 10,
+    "fixed_first_code": "0x1d60",
+    "scratch_ward_first_code": "0x1d80",
+    "scratch_city_first_code": "0x1d84",
+    "precomposed_first_code": "0x1d88",
+    "printable_first_code": "0x1da0",
+    "code_limit": "0x1dff"
+  },
+  "output": {
+    "datapack_sha256": "85130497233a0b497f2982af07d59d8270064404435198d6d05be90209354273",
+    "datapack_member_sha256": "3e47cf37df271dd98ee4f11002ddd93ab1a00db0bf814b763b7b5f7cc72d8e64",
+    "datapack_added_changed_byte_count": 754,
+    "datapack_changed_byte_count": 7054,
+    "eve_sha256": "e04e0dd9905e35203b79d82963d2876b6f636714eb2c2206b167756d66c7b76a",
+    "atlas_sha256": "86d7010af305f5e6af4c033eaa6742c954fc123895e7a4ac3c7fc47944d1d08c",
+    "eve_added_changed_byte_count": 3396,
+    "eve_changed_byte_count": 6260
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "surface": "maze.location_display",
+  "dependency": "savedata.runtime",
+  "font_dependency": "dungeon_locations.font16",
+  "write_count": 21,
+  "write_fingerprint": "bd7b360d9532bfeba5724d8c174a3b81c7e6e6999eee96f0df09bd656f0b884b"
+}
