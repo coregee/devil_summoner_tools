@@ -4,6 +4,7 @@ import hashlib
 import unittest
 
 from psp.engine import build as engine_build
+from psp.engine.tests.support import name_ready_boot
 from psp.engine.surfaces.battle_names import build_battle_names
 from psp.engine.surfaces.compendium import build_compendium
 from psp.engine.surfaces.command_menu_help import load_eve_widths
@@ -14,7 +15,7 @@ class BattleNamesRuntimeTests(unittest.TestCase):
     def setUpClass(cls) -> None:
         stock, _eboot, _source = engine_build._source_entries()
         cls.stock = stock
-        cls.compendium = build_compendium(stock, stock, load_eve_widths())
+        cls.compendium = build_compendium(stock, name_ready_boot(), load_eve_widths())
         cls.build = build_battle_names(
             stock,
             cls.compendium.data,

@@ -155,7 +155,7 @@ def build_item_runtime(stock: bytes, intermediate: bytes, regdata: bytes, packed
     if not isinstance(packed_widths, bytes) or len(packed_widths) != PACKED_WIDTH_COUNT:
         raise ValueError("PSP item-runtime EVE widths are invalid")
     dependency = intermediate[COMPENDIUM_DRAW_WRAPPER_ADDRESS + ADDRESS_BIAS : COMPENDIUM_DRAW_WRAPPER_END_ADDRESS + ADDRESS_BIAS]
-    if not any(dependency):
+    if dependency == stock[COMPENDIUM_DRAW_WRAPPER_ADDRESS + ADDRESS_BIAS : COMPENDIUM_DRAW_WRAPPER_END_ADDRESS + ADDRESS_BIAS]:
         raise ValueError("PSP item runtime requires the Compendium draw wrapper")
     pack = PspPack.parse(regdata)
     if len(pack.members) != 32 or pack.members[4].offset != 0xF9D0:

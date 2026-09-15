@@ -32,7 +32,7 @@ class SavedataRuntimeTests(unittest.TestCase):
         self.assertEqual((self.build.runtime_used_size, self.build.runtime_capacity), (1500, 1505))
         self.assertEqual(
             hashlib.sha256(b"".join(write.data for write in runtime.writes)).hexdigest(),
-            "82bd900fe65b31d7e416b9f647ef03cab4eabcff28587471647e5893916775b6",
+            "835feeeb67665192a9accb4a426282daf81a7c028fb8ac764cbd87d1de1ff898",
         )
         self.assertEqual((runtime.detail_wrapper.address, len(runtime.detail_wrapper.data)), (SAVEDATA_DETAIL_WRAPPER_ADDRESS, 892))
         self.assertEqual(len(runtime.location_text_blob), 321)

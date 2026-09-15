@@ -4,6 +4,7 @@ import hashlib
 import unittest
 
 from psp.engine import build as engine_build
+from psp.engine.tests.support import name_ready_boot
 from psp.engine.surfaces.command_menu_help import load_eve_widths
 from psp.engine.surfaces.compendium import build_compendium
 from psp.engine.surfaces.item_runtime import build_item_runtime
@@ -14,7 +15,7 @@ class ItemRuntimeTests(unittest.TestCase):
     def setUpClass(cls) -> None:
         stock, _eboot, _source = engine_build._source_entries()
         cls.stock = stock
-        cls.compendium = build_compendium(stock, stock, load_eve_widths())
+        cls.compendium = build_compendium(stock, name_ready_boot(), load_eve_widths())
         cls.build = build_item_runtime(stock, cls.compendium.data, engine_build._source_regdata(), load_eve_widths())
 
     def test_runtime_matches_the_mature_patch(self) -> None:

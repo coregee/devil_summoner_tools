@@ -4,6 +4,7 @@ import hashlib
 import unittest
 
 from psp.font.util.eve_ascii import build_eve_ascii, glyph_code
+from psp.font.util.name_entry import build_name_grid_metrics, name_grid_glyph
 from psp.rom.util.catalog import load_catalog, validate_source
 from psp.rom.util.iso9660 import read_iso9660_file
 
@@ -37,6 +38,17 @@ class EveAsciiFontTests(unittest.TestCase):
             hashlib.sha256(result.data).hexdigest(),
             "c4b1a34ec0e6b05bec0afb0b581f2fbf5897e68ca488562f1b41c2f3d615378e",
         )
+        metrics = {
+            row["character"]: row
+            for row in build_name_grid_metrics(result.atlas, "AiW'.")
+        }
+        self.assertEqual(metrics["A"]["bounds"], [1, 2, 12, 13])
+        self.assertEqual(metrics["A"]["x_offset"], 1)
+        self.assertEqual(metrics["i"]["x_offset"], 0)
+        self.assertEqual(metrics["W"]["x_offset"], 1)
+        self.assertEqual(metrics["'"]["x_offset"], 5)
+        self.assertEqual(metrics["."]["x_offset"], 6)
+        self.assertEqual(metrics["."]["code"], name_grid_glyph("."))
 
 
 if __name__ == "__main__":

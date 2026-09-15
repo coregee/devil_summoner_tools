@@ -3,8 +3,22 @@
 from __future__ import annotations
 
 import struct
-from collections.abc import Iterable
+from collections.abc import Iterable, Mapping
 from dataclasses import dataclass
+
+from psp.font.util.name_entry import (
+    NAME_GRID_LOW_PUNCTUATION,
+    name_grid_glyph,
+)
+from psp.text.util.event_packed import (
+    ASCII_FIRST,
+    ASCII_LAST,
+    GLYPH_CODE_BIAS,
+    GLYPH_CODE_FIRST,
+    STORED_PRINTABLE_FIRST,
+    STORED_PRINTABLE_LAST,
+    encode_ascii_character,
+)
 
 from ..core.emitter import (
     A0,
@@ -49,15 +63,6 @@ from ..core.layout import (
     NAME_PROFILE_CODENAME_MIRROR_OFFSET,
     NAME_PROFILE_FIELD_OFFSETS,
 )
-from psp.text.util.event_packed import (
-    ASCII_FIRST,
-    ASCII_LAST,
-    GLYPH_CODE_BIAS,
-    GLYPH_CODE_FIRST,
-    STORED_PRINTABLE_FIRST,
-    STORED_PRINTABLE_LAST,
-    encode_ascii_character,
-)
 
 PACKED_FIRST = STORED_PRINTABLE_FIRST
 PACKED_LAST = STORED_PRINTABLE_LAST
@@ -89,7 +94,9 @@ def _validate_widths(widths: Iterable[int]) -> bytes:
         raise ValueError("PSP VWF widths must be integer bytes from 1 through 255")
     return bytes(values)
 
+
 NAME_LABEL_DRAW_WRAPPER_ADDRESS = 0x0013FC10
+NAME_GRID_DRAW_WRAPPER_ADDRESS = 0x0013FCDC
 NAME_GLYPH_TO_BYTE_ADDRESS = 0x0013FD40
 NAME_BYTE_TO_GLYPH_ADDRESS = 0x0013FDC0
 NAME_WIDTH_TABLE_ADDRESS = 0x0013FE40
@@ -105,7 +112,8 @@ NAME_DONE_HANDLER_ADDRESS = 0x00140108
 NAME_SELECT_WRAPPER_ADDRESS = 0x00140250
 NAME_BUTTON_HELPER_ADDRESS = 0x00140350
 NAME_DONE_SOUND_WRAPPER_ADDRESS = 0x00140440
-NAME_CONFIRM_WRAPPER_ADDRESS = 0x00140500
+NAME_BUFFER_DRAW_WRAPPER_ADDRESS = 0x00140488
+NAME_CONFIRM_WRAPPER_ADDRESS = 0x00140580
 NAME_COMMIT_WRAPPER_ADDRESS = 0x001406C0
 NAME_CACHE_REBUILD_ADDRESS = 0x001407F0
 NAME_LOAD_WRAPPER_ADDRESS = 0x00140900
@@ -154,6 +162,8 @@ NAME_RUNTIME_CACHE_RELOCATION_ADDENDS = {
     for key, address in NAME_RUNTIME_CACHE_ADDRESSES.items()
 }
 NAME_GRID_PUNCTUATION_TABLE_ADDRESS = NAME_LABEL_BLOB_ADDRESS + 0x3D0
+NAME_GRID_OFFSET_TABLE_ADDRESS = NAME_LABEL_BLOB_ADDRESS + 0x120
+NAME_GRID_OFFSET_TABLE_SIZE = 0x116
 
 NAME_GRID_ROWS = 8
 NAME_GRID_COLUMNS = 19
@@ -162,22 +172,6 @@ NAME_GRID_SENTINEL = 0x0061
 # PSP uses a different display code for its native Done graphic, but the cell
 # occupies the same Saturn position and is the only authored control cell.
 NAME_GRID_DONE = 0x83C0
-
-# The native grid renderer owns these low Member-5 glyph IDs.  Selected cells
-# are translated to the high packed-runtime page before they enter a staged
-# name buffer, matching Saturn's separate display and commit tables.
-NAME_GRID_LOW_PUNCTUATION = {
-    ":": 0x0006,
-    "?": 0x0008,
-    "!": 0x0009,
-    " ": 0x0011,
-    "-": 0x001D,
-    "/": 0x001E,
-    "'": 0x0026,
-    "&": 0x0054,
-    ",": 0x0003,
-    ".": 0x0004,
-}
 
 NAME_FIELD_KEYS = ("first", "last", "codename", "city", "ward")
 NAME_FIELD_LIMITS = (NAME_FIELD_MAX,) * len(NAME_FIELD_KEYS)
@@ -188,6 +182,8 @@ NAME_OCCUPATION_BUFFER_INDEX = 5
 NAME_OCCUPATION_SELECTION_OFFSET = 0x1410
 NAME_LOGICAL_FIELD_OFFSET = 0x1414
 NAME_STATE_SIZE = 0x1418
+NAME_CONFIRM_STATE = 4
+NAME_CONFIRM_OCCUPATION_DESCRIPTOR_BASE = 20
 # The stock PSP tab renderer uses this ABGR value for its selected yellow.
 # Reusing it gives the occupation grid Saturn's selected-text behavior without
 # introducing a PSP-only cursor box or a new shared-font color contract.
@@ -306,6 +302,18 @@ NAME_HOOK_CONTRACTS = (
         NAME_BYTE_TO_GLYPH_CALL_ADDRESS,
         _jal_word(NAME_BYTE_TO_GLYPH_CALL_ADDRESS, 0x0009EC3C),
         _jal_word(NAME_BYTE_TO_GLYPH_CALL_ADDRESS, NAME_BYTE_TO_GLYPH_ADDRESS),
+    ),
+    (
+        "name_grid_draw_call",
+        0x0009E478,
+        _jal_word(0x0009E478, 0x0009EEA8),
+        _jal_word(0x0009E478, NAME_GRID_DRAW_WRAPPER_ADDRESS),
+    ),
+    (
+        "name_buffer_draw_call",
+        0x0009E948,
+        _jal_word(0x0009E948, 0x0009EEA8),
+        _jal_word(0x0009E948, NAME_BUFFER_DRAW_WRAPPER_ADDRESS),
     ),
 )
 
@@ -701,6 +709,42 @@ def _build_name_label_draw_wrapper() -> AssembledCode:
     code.label("advance_pen")
     code.addiu(V0, V1, -16)
     code.addu(S2, S2, V0)
+    _load_pc_relative_target(
+        code,
+        T9,
+        RA,
+        pc_address=pc_address,
+        target_address=0x0009EEA8,
+    )
+    code.addu(RA, T8, ZERO)
+    code.jr(T9)
+    code.delay_nop()
+    return code.finish()
+
+
+def _build_name_grid_draw_wrapper() -> AssembledCode:
+    """Center native character-grid ink inside each sixteen-pixel cell."""
+
+    code = _Assembler(NAME_GRID_DRAW_WRAPPER_ADDRESS)
+    code.addu(T8, RA, ZERO)
+    code.bal("pc")
+    code.delay_nop()
+    code.label("pc")
+    pc_address = code.cursor
+    code.sltiu(V0, A2, NAME_GRID_OFFSET_TABLE_SIZE)
+    code.beq(V0, ZERO, "tail")
+    code.delay_nop()
+    _load_pc_relative_target(
+        code,
+        T9,
+        RA,
+        pc_address=pc_address,
+        target_address=NAME_GRID_OFFSET_TABLE_ADDRESS,
+    )
+    code.addu(T9, T9, A2)
+    code.lbu(V0, 0, T9)
+    code.addu(A0, A0, V0)
+    code.label("tail")
     _load_pc_relative_target(
         code,
         T9,
@@ -1262,8 +1306,82 @@ def _emit_name_call(
     code.delay_nop()
 
 
+def _build_name_buffer_draw_wrapper() -> AssembledCode:
+    """Center input cells, but use accumulated VWF positions on confirmation."""
+
+    code = _Assembler(NAME_BUFFER_DRAW_WRAPPER_ADDRESS)
+    code.addu(T8, RA, ZERO)
+    code.bal("pc")
+    code.delay_nop()
+    code.label("pc")
+    pc_address = code.cursor
+    code.addiu(T9, RA, NAME_WIDTH_TABLE_ADDRESS - pc_address)
+
+    code.addiu(V0, A2, -PACKED_RUNTIME_FIRST)
+    code.sltiu(V1, V0, PACKED_WIDTH_COUNT)
+    code.beq(V1, ZERO, "current_fallback")
+    code.delay_nop()
+    code.addu(V1, T9, V0)
+    code.lbu(V1, 0, V1)
+    code.beq(ZERO, ZERO, "mode")
+    code.delay_nop()
+    code.label("current_fallback")
+    code.addiu(V1, ZERO, 16)
+
+    code.label("mode")
+    code.subu(T3, S0, S1)
+    code.lw(T4, 0, T3)
+    code.addiu(T5, ZERO, NAME_CONFIRM_STATE)
+    code.beq(T4, T5, "confirm")
+    code.delay_nop()
+    code.addiu(V0, ZERO, 16)
+    code.subu(V0, V0, V1)
+    code.srl(V0, V0, 1)
+    code.addu(A0, A0, V0)
+    code.beq(ZERO, ZERO, "tail")
+    code.delay_nop()
+
+    code.label("confirm")
+    code.addu(A0, S6, ZERO)
+    code.addu(V0, S3, ZERO)
+    code.beq(V0, ZERO, "tail")
+    code.delay_nop()
+    code.addiu(T3, S0, NAME_FIELD_BUFFER_BASE)
+    code.label("prefix")
+    code.lw(T5, 0, T3)
+    code.addiu(T5, T5, -PACKED_RUNTIME_FIRST)
+    code.sltiu(T6, T5, PACKED_WIDTH_COUNT)
+    code.beq(T6, ZERO, "prefix_fallback")
+    code.delay_nop()
+    code.addu(T6, T9, T5)
+    code.lbu(T6, 0, T6)
+    code.beq(ZERO, ZERO, "prefix_add")
+    code.delay_nop()
+    code.label("prefix_fallback")
+    code.addiu(T6, ZERO, 16)
+    code.label("prefix_add")
+    code.addu(A0, A0, T6)
+    code.addiu(T3, T3, 4)
+    code.addiu(V0, V0, -1)
+    code.bne(V0, ZERO, "prefix")
+    code.delay_nop()
+
+    code.label("tail")
+    _load_pc_relative_target(
+        code,
+        T9,
+        RA,
+        pc_address=pc_address,
+        target_address=0x0009EEA8,
+    )
+    code.addu(RA, T8, ZERO)
+    code.jr(T9)
+    code.delay_nop()
+    return code.finish()
+
+
 def _build_name_confirm_wrapper() -> AssembledCode:
-    """Draw Saturn's grouped First+Last, Code, City+Ward confirmation."""
+    """Draw the grouped profile fields and selected occupation proportionally."""
 
     code = _Assembler(NAME_CONFIRM_WRAPPER_ADDRESS)
     code.addiu(SP, SP, -0x20)
@@ -1310,15 +1428,13 @@ def _build_name_confirm_wrapper() -> AssembledCode:
     ):
         _emit_name_call(code, S2, selector=field_index, x=x, y=y, color=0)
     _emit_name_call(code, S1, selector=10, x=0x58, y=0x88, color=-1)
-    code.sw(ZERO, 0x128C, S0)
-    _emit_name_call(
-        code,
-        S2,
-        selector=NAME_OCCUPATION_BUFFER_INDEX,
-        x=0xF8,
-        y=0x88,
-        color=0,
-    )
+    code.lw(A0, NAME_OCCUPATION_SELECTION_OFFSET, S0)
+    code.addiu(A0, A0, NAME_CONFIRM_OCCUPATION_DESCRIPTOR_BASE)
+    code.addiu(A1, ZERO, 0xF8)
+    code.addiu(A2, ZERO, 0x88)
+    code.addu(A3, ZERO, ZERO)
+    code.jalr(S1)
+    code.delay_nop()
     _emit_name_call(code, S1, selector=17, x=0x58, y=0xD8, color=-1)
     code.addiu(T0, ZERO, NAME_FIELD_MAX)
     code.sw(T0, 0x128C, S0)
@@ -1832,15 +1948,6 @@ def _name_runtime_glyph(character: str) -> int:
     return PACKED_RUNTIME_FIRST + _packed_storage_index(character)
 
 
-def _name_grid_glyph(character: str) -> int:
-    code = ord(character)
-    if character in NAME_GRID_LOW_PUNCTUATION:
-        return NAME_GRID_LOW_PUNCTUATION[character]
-    if 0x30 <= code <= 0x39 or 0x41 <= code <= 0x5A or 0x61 <= code <= 0x7A:
-        return code + 0x9B
-    raise ValueError(f"character has no PSP NAME grid glyph: {character!r}")
-
-
 def _build_name_grid(rows: tuple[str, str]) -> bytes:
     # Mirror saturn/engine/script/name/data.py:build_grid exactly inside the
     # active 4x13 rectangle. Its unused cells are selectable zero blanks;
@@ -1851,7 +1958,7 @@ def _build_name_grid(rows: tuple[str, str]) -> bytes:
             cells[row_index * NAME_GRID_COLUMNS + column_index] = 0
     for row_index, row in enumerate(rows, 1):
         for column_index, character in enumerate(row, 3):
-            cells[row_index * NAME_GRID_COLUMNS + column_index] = _name_grid_glyph(
+            cells[row_index * NAME_GRID_COLUMNS + column_index] = name_grid_glyph(
                 character
             )
     cells[4 * NAME_GRID_COLUMNS + 15] = NAME_GRID_DONE
@@ -1866,6 +1973,7 @@ def _encode_name_label(label: str) -> bytes:
 
 def _build_name_label_writes(
     source: NameEntryPatchSource,
+    grid_offsets: Mapping[str, int],
 ) -> tuple[tuple[PatchWrite, ...], bytes]:
     blob = bytearray()
     offsets: dict[bytes, int] = {}
@@ -1910,6 +2018,24 @@ def _build_name_label_writes(
         raise ValueError("PSP NAME punctuation table exceeds the retired label pool")
     compiled_blob = bytearray(NAME_LABEL_BLOB_MAX_SIZE)
     compiled_blob[: len(blob)] = blob
+    grid_offset_table = bytearray(NAME_GRID_OFFSET_TABLE_SIZE)
+    expected_characters = {
+        character for page in source.grids for row in page for character in row
+    }
+    if set(grid_offsets) != expected_characters:
+        raise ValueError(
+            "PSP NAME grid-offset characters differ from the authored grid"
+        )
+    for character, offset in grid_offsets.items():
+        if type(offset) is not int or not 0 <= offset <= 15:
+            raise ValueError(f"invalid PSP NAME grid offset for {character!r}")
+        grid_offset_table[name_grid_glyph(character)] = offset
+    grid_offset_start = NAME_GRID_OFFSET_TABLE_ADDRESS - NAME_LABEL_BLOB_ADDRESS
+    if len(blob) > grid_offset_start:
+        raise ValueError("PSP NAME labels overlap the native-grid offset table")
+    compiled_blob[grid_offset_start : grid_offset_start + len(grid_offset_table)] = (
+        grid_offset_table
+    )
     compiled_blob[0x3D0 : 0x3D0 + len(punctuation)] = punctuation
     return (
         tuple(descriptor_writes),
@@ -1953,6 +2079,7 @@ def _build_name_x_start_table(
 
 def build_name_entry_patch(
     widths: Iterable[int],
+    grid_offsets: Mapping[str, int],
     source: NameEntryPatchSource,
 ) -> NameEntryPatch:
     """Build the five-field, eight-cell Saturn NAME contract on PSP.
@@ -1966,8 +2093,10 @@ def build_name_entry_patch(
     width_table = _validate_widths(widths)
     _validate_name_entry_source(source)
     label_draw_wrapper = _build_name_label_draw_wrapper()
+    grid_draw_wrapper = _build_name_grid_draw_wrapper()
     glyph_to_byte = _build_name_glyph_to_byte()
     byte_to_glyph = _build_name_byte_to_glyph()
+    buffer_draw_wrapper = _build_name_buffer_draw_wrapper()
     runtime_helpers = (
         _build_name_init_wrapper(source),
         _build_name_prompt_wrapper(),
@@ -1976,6 +2105,7 @@ def build_name_entry_patch(
         _build_name_select_wrapper(),
         _build_name_button_wrapper(),
         _build_name_done_sound_wrapper(),
+        buffer_draw_wrapper,
         _build_name_confirm_wrapper(),
         _build_name_commit_wrapper(),
         _build_name_cache_rebuild(),
@@ -1985,13 +2115,15 @@ def build_name_entry_patch(
         _build_name_rename_sync(),
     )
     x_starts = _build_name_x_start_table(width_table, source)
-    descriptor_writes, label_blob = _build_name_label_writes(source)
+    descriptor_writes, label_blob = _build_name_label_writes(source, grid_offsets)
     upper_grid = _build_name_grid(source.grids[0])
     lower_grid = _build_name_grid(source.grids[1])
     symbol_grid = _build_name_grid(source.grids[2])
 
-    if label_draw_wrapper.end_address > NAME_GLYPH_TO_BYTE_ADDRESS:
+    if label_draw_wrapper.end_address > NAME_GRID_DRAW_WRAPPER_ADDRESS:
         raise ValueError("PSP NAME label wrapper exceeds its cave partition")
+    if grid_draw_wrapper.end_address > NAME_GLYPH_TO_BYTE_ADDRESS:
+        raise ValueError("PSP NAME grid wrapper exceeds its cave partition")
     if glyph_to_byte.end_address > NAME_BYTE_TO_GLYPH_ADDRESS:
         raise ValueError("PSP NAME glyph-to-byte wrapper exceeds its cave partition")
     if byte_to_glyph.end_address > NAME_WIDTH_TABLE_ADDRESS:
@@ -2037,6 +2169,7 @@ def build_name_entry_patch(
                 NAME_SELECT_WRAPPER_ADDRESS: "name_select_wrapper",
                 NAME_BUTTON_HELPER_ADDRESS: "name_button_wrapper",
                 NAME_DONE_SOUND_WRAPPER_ADDRESS: "name_done_sound_wrapper",
+                NAME_BUFFER_DRAW_WRAPPER_ADDRESS: "name_buffer_draw_wrapper",
                 NAME_CONFIRM_WRAPPER_ADDRESS: "name_confirm_wrapper",
                 NAME_COMMIT_WRAPPER_ADDRESS: "name_commit_wrapper",
                 NAME_CACHE_REBUILD_ADDRESS: "name_cache_rebuild",
@@ -2081,6 +2214,11 @@ def build_name_entry_patch(
                 "name_label_draw_wrapper",
                 label_draw_wrapper.address,
                 label_draw_wrapper.data,
+            ),
+            PatchWrite(
+                "name_grid_draw_wrapper",
+                grid_draw_wrapper.address,
+                grid_draw_wrapper.data,
             ),
             PatchWrite("name_glyph_to_byte", glyph_to_byte.address, glyph_to_byte.data),
             PatchWrite("name_byte_to_glyph", byte_to_glyph.address, byte_to_glyph.data),
@@ -2161,5 +2299,3 @@ __all__ = [
     "NameEntryPatchSource",
     "build_name_entry_patch",
 ]
-
-

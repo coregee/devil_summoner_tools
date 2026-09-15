@@ -20,6 +20,7 @@ from psp.engine.surfaces.battle_console import (
     CONFIG_PATH as BATTLE_CONSOLE_CONFIG_PATH,
     build_battle_console,
 )
+from psp.engine.core.storage import validate_map_collision_data, validate_retired_name_owner
 from psp.engine.surfaces.battle_names import (
     CONFIG_PATH as BATTLE_NAMES_CONFIG_PATH,
     build_battle_names,
@@ -99,6 +100,7 @@ ENCODING_CODEC_PATH = PSP_ROOT / "text" / "util" / "event_packed.py"
 CONFIG_ENGINE_SOURCES = (
     ENGINE_ROOT / "core" / "emitter.py",
     ENGINE_ROOT / "core" / "layout.py",
+    ENGINE_ROOT / "core" / "storage.py",
     ENGINE_ROOT / "surfaces" / "config_menu.py",
     ENGINE_ROOT / "surfaces" / "config_menu_runtime.py",
 )
@@ -110,6 +112,7 @@ BATTLE_NAMES_ENGINE_SOURCES = (
     BATTLE_NAMES_CONFIG_PATH,
     ENGINE_ROOT / "core" / "emitter.py",
     ENGINE_ROOT / "core" / "layout.py",
+    ENGINE_ROOT / "core" / "storage.py",
     ENGINE_ROOT / "surfaces" / "battle_names.py",
     ENGINE_ROOT / "surfaces" / "battle_names_runtime.py",
     PSP_ROOT / "text" / "config" / "event_dvlname.json",
@@ -124,6 +127,7 @@ COMP_PARTY_PANEL_ENGINE_SOURCES = (
     COMP_PARTY_PANEL_CONFIG_PATH,
     ENGINE_ROOT / "core" / "emitter.py",
     ENGINE_ROOT / "core" / "layout.py",
+    ENGINE_ROOT / "core" / "storage.py",
     ENGINE_ROOT / "surfaces" / "comp_party_panel.py",
     ENGINE_ROOT / "surfaces" / "comp_party_panel_runtime.py",
     PSP_ROOT / "font" / "config" / "comp_party_ark10.json",
@@ -136,6 +140,7 @@ MAP2D_ENGINE_SOURCES = (
     MAP2D_CONFIG_PATH,
     ENGINE_ROOT / "core" / "emitter.py",
     ENGINE_ROOT / "core" / "layout.py",
+    ENGINE_ROOT / "core" / "storage.py",
     ENGINE_ROOT / "surfaces" / "map2d.py",
     ENGINE_ROOT / "surfaces" / "map2d_runtime.py",
     PSP_ROOT / "font" / "config" / "map2d.json",
@@ -154,20 +159,24 @@ COMMAND_HELP_ENGINE_SOURCES = (
     COMMAND_HELP_CONFIG_PATH,
     ENGINE_ROOT / "core" / "emitter.py",
     ENGINE_ROOT / "core" / "layout.py",
+    ENGINE_ROOT / "core" / "storage.py",
     ENGINE_ROOT / "surfaces" / "command_menu_help.py",
 )
 EVENT_WINDOW_ENGINE_SOURCES = (
     EVENT_WINDOW_CONFIG_PATH,
     ENGINE_ROOT / "core" / "emitter.py",
     ENGINE_ROOT / "core" / "layout.py",
+    ENGINE_ROOT / "core" / "storage.py",
     ENGINE_ROOT / "surfaces" / "event_window.py",
 )
 NAME_ENTRY_ENGINE_SOURCES = (
     NAME_ENTRY_CONFIG_PATH,
     ENGINE_ROOT / "core" / "emitter.py",
     ENGINE_ROOT / "core" / "layout.py",
+    ENGINE_ROOT / "core" / "storage.py",
     ENGINE_ROOT / "surfaces" / "name_entry.py",
     ENGINE_ROOT / "surfaces" / "name_entry_runtime.py",
+    PSP_ROOT / "font" / "util" / "name_entry.py",
     PSP_ROOT / "text" / "config" / "name_entry.json",
     PSP_ROOT / "text" / "util" / "event_packed.py",
     PSP_ROOT / "text" / "util" / "name_entry.py",
@@ -177,6 +186,7 @@ SAVEDATA_ENGINE_SOURCES = (
     SAVEDATA_CONFIG_PATH,
     ENGINE_ROOT / "core" / "emitter.py",
     ENGINE_ROOT / "core" / "layout.py",
+    ENGINE_ROOT / "core" / "storage.py",
     ENGINE_ROOT / "surfaces" / "savedata.py",
     ENGINE_ROOT / "surfaces" / "savedata_runtime.py",
     PSP_ROOT / "text" / "config" / "savedata.json",
@@ -189,6 +199,7 @@ DUNGEON_LOCATION_ENGINE_SOURCES = (
     DUNGEON_LOCATION_CONFIG_PATH,
     ENGINE_ROOT / "core" / "emitter.py",
     ENGINE_ROOT / "core" / "layout.py",
+    ENGINE_ROOT / "core" / "storage.py",
     ENGINE_ROOT / "surfaces" / "dungeon_locations.py",
     ENGINE_ROOT / "surfaces" / "dungeon_locations_runtime.py",
     PSP_ROOT / "font" / "config" / "dungeon_locations_font16.json",
@@ -200,6 +211,7 @@ COMPENDIUM_ENGINE_SOURCES = (
     COMPENDIUM_CONFIG_PATH,
     ENGINE_ROOT / "core" / "emitter.py",
     ENGINE_ROOT / "core" / "layout.py",
+    ENGINE_ROOT / "core" / "storage.py",
     ENGINE_ROOT / "surfaces" / "compendium.py",
     ENGINE_ROOT / "surfaces" / "compendium_prose_runtime.py",
     ENGINE_ROOT / "surfaces" / "compendium_name_runtime.py",
@@ -212,6 +224,7 @@ ITEM_RUNTIME_ENGINE_SOURCES = (
     ITEM_RUNTIME_CONFIG_PATH,
     ENGINE_ROOT / "core" / "emitter.py",
     ENGINE_ROOT / "core" / "layout.py",
+    ENGINE_ROOT / "core" / "storage.py",
     ENGINE_ROOT / "surfaces" / "item_runtime.py",
     ENGINE_ROOT / "surfaces" / "item_runtime_runtime.py",
     PSP_ROOT / "text" / "config" / "item_runtime.json",
@@ -323,7 +336,16 @@ def _config_font_contract() -> dict[str, object]:
         or not isinstance(contract, dict)
     ):
         raise ValueError("PSP font manifest has no CONFIG runtime contract")
-    return contract
+    limits = []
+    for surface in ("config_menu", "fmv_subtitles", "map2d", "dungeon_locations"):
+        row = document.get(surface)
+        limit = row.get("required_draw_code_limit") if isinstance(row, dict) else None
+        if type(limit) is not int or not 0 < limit <= 0x7FFF:
+            raise ValueError(f"PSP font manifest has no valid {surface} draw limit")
+        limits.append(limit)
+    # C998 is shared by every FONT16 consumer, including the later map/HUD
+    # allocations. CONFIG's width table must retain its own smaller range.
+    return {**contract, "font16_draw_code_limit": max(limits)}
 
 
 def _dungeon_location_font_contract() -> dict[str, object]:
@@ -704,6 +726,8 @@ def build_engine(*, check: bool) -> None:
         _map2d_font_contract(),
     )
     fmv = build_fmv_subtitles(stock_boot, map2d.data)
+    validate_map_collision_data(stock_boot, fmv.data)
+    validate_retired_name_owner(fmv.data)
     eboot = fmv.data + bytes(EBOOT_TRAILING_SIZE)
     if len(eboot) != len(stock_eboot):
         raise ValueError("PSP EBOOT replacement changed its ISO extent size")

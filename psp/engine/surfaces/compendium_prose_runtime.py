@@ -31,6 +31,8 @@ from ..core.emitter import (
     T1,
     T2,
     T3,
+    T8,
+    T9,
     ZERO,
     AssembledCode,
     PatchWrite,
@@ -40,6 +42,8 @@ from ..core.emitter import (
     _word_bytes,
 )
 from ..core.layout import (
+    COMPENDIUM_DRAW_BRIDGE_ADDRESS,
+    COMPENDIUM_DRAW_BRIDGE_END_ADDRESS,
     COMPENDIUM_DRAW_WRAPPER_ADDRESS,
     COMPENDIUM_DRAW_WRAPPER_END_ADDRESS,
     COMPENDIUM_NAME_TABLE_ADDRESS,
@@ -111,6 +115,7 @@ class CompendiumPatch:
     """All isolated BOOT.BIN writes for translated Compendium prose."""
 
     draw_wrapper: AssembledCode
+    draw_bridge: AssembledCode
     text_arena: bytes
     pointer_table: bytes
     writes: tuple[PatchWrite, ...]
@@ -283,7 +288,23 @@ def build_compendium_patch(source: CompendiumPatchSource) -> CompendiumPatch:
     if draw_wrapper.end_address > COMPENDIUM_DRAW_WRAPPER_END_ADDRESS:
         raise ValueError("PSP Compendium draw wrapper exceeds its checked cave")
 
+    bridge = _Assembler(COMPENDIUM_DRAW_BRIDGE_ADDRESS)
+    bridge.addu(T8, RA, ZERO)
+    bridge.bal("pc")
+    bridge.delay_nop()
+    bridge.label("pc")
+    _load_pc_relative_target(
+        bridge, T9, RA, pc_address=bridge.cursor,
+        target_address=COMPENDIUM_DRAW_WRAPPER_ADDRESS,
+    )
+    bridge.addu(RA, T8, ZERO)
+    bridge.jr(T9)
+    bridge.delay_nop()
+    draw_bridge = bridge.finish()
+    if draw_bridge.end_address > COMPENDIUM_DRAW_BRIDGE_END_ADDRESS:
+        raise ValueError("PSP Compendium draw bridge exceeds its partition")
     writes = (
+        PatchWrite("compendium_draw_bridge", draw_bridge.address, draw_bridge.data),
         PatchWrite(
             "compendium_draw_wrapper",
             COMPENDIUM_DRAW_WRAPPER_ADDRESS,
@@ -317,6 +338,7 @@ def build_compendium_patch(source: CompendiumPatchSource) -> CompendiumPatch:
     )
     return CompendiumPatch(
         draw_wrapper=draw_wrapper,
+        draw_bridge=draw_bridge,
         text_arena=text_arena,
         pointer_table=pointer_table,
         writes=writes,

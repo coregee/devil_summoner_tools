@@ -62,6 +62,7 @@ from ..core.emitter import (
 )
 from ..core.layout import (
     COMPENDIUM_DRAW_WRAPPER_ADDRESS,
+    COMPENDIUM_DRAW_BRIDGE_ADDRESS,
     ITEM_DESCRIPTION_DRAW_WRAPPER_ADDRESS,
     ITEM_DESCRIPTION_DRAW_WRAPPER_END_ADDRESS,
     ITEM_EVENT_INSERT_WRAPPER_ADDRESS,
@@ -525,7 +526,7 @@ def _build_name_wrapper() -> AssembledCode:
     code.lw(A2, 0x10, SP)
     code.addiu(A3, ZERO, 6)
     code.addiu(T0, ZERO, -1)
-    code.bal_address(COMPENDIUM_DRAW_WRAPPER_ADDRESS)
+    code.bal_address(COMPENDIUM_DRAW_BRIDGE_ADDRESS)
     code.delay_nop()
     code.lw(RA, 0x1C, SP)
     code.addiu(SP, SP, 0x20)
@@ -648,7 +649,7 @@ def _build_description_wrapper() -> AssembledCode:
     code.addu(A2, S3, ZERO)
     code.addu(A3, S4, ZERO)
     code.addiu(T0, ZERO, -1)
-    code.bal_address(COMPENDIUM_DRAW_WRAPPER_ADDRESS)
+    code.bal_address(COMPENDIUM_DRAW_BRIDGE_ADDRESS)
     code.delay_nop()
     code.label("scan")
     code.lbu(T0, 0, S5)

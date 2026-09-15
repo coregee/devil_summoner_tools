@@ -408,6 +408,17 @@ def build_map2d(
     ]:
         raise ValueError("PSP MAP2D requires the NAME packed-profile owner")
     compiled = build_patch(_font_plan(font_contract))
+    # The lower rows are also consumed by the 3D field's retained FONT16
+    # queue (2A39C -> 15BCC -> 156F0 -> C998), independently of the EVE hooks.
+    # A correct atlas is still entirely blank if the shared native gate rejects
+    # these high glyph codes. Refuse to build that combination.
+    gate = struct.unpack_from("<I", intermediate, file_offset(0xC99C))[0]
+    native_codes = [
+        code for write in compiled.writes if write.name in _LOWER_SOURCE_BY_WRITE
+        for (code,) in struct.iter_unpack("<H", write.data)
+    ]
+    if gate >> 16 != 0x28E2 or not max(native_codes) < (gate & 0xFFFF) <= 0x7FFF:
+        raise ValueError("PSP MAP2D field prompt requires the extended FONT16 draw gate")
     validate_source_elf(stock)
     validate_patch_sources(stock, compiled)
     fingerprint = hashlib.sha256(
@@ -436,7 +447,7 @@ def build_map2d(
         - runtime.MAP2D_DYNAMIC_DRAW_WRAPPER_ADDRESS
         + runtime.MAP2D_WIDTH_TABLE_ADDRESS - runtime.MAP2D_TOP_DRAW_WRAPPER_ADDRESS
         + runtime.MAP2D_TOP_ROW_TABLE_ADDRESS - runtime.MAP2D_WIDTH_TABLE_ADDRESS
-        + runtime.MAP2D_FIXED_ROW_TABLE_ADDRESS - runtime.MAP2D_TOP_ROW_TABLE_ADDRESS
+        + runtime.COMPENDIUM_DRAW_BRIDGE_ADDRESS - runtime.MAP2D_TOP_ROW_TABLE_ADDRESS
         + runtime.SAVEDATA_DETAIL_WRAPPER_ADDRESS - runtime.MAP2D_FIXED_ROW_TABLE_ADDRESS
     )
     return Map2dBuild(

@@ -1,6 +1,7 @@
 {
   "version": 1,
   "surface": "demon_compendium.runtime",
+  "dependency": "name_entry.runtime",
   "target": {
     "name": "BOOT.BIN",
     "address_bias": 128,

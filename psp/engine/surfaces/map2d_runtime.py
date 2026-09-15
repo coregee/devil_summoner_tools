@@ -40,6 +40,7 @@ from ..core.emitter import (
     _word_bytes,
 )
 from ..core.layout import (
+    COMPENDIUM_DRAW_BRIDGE_ADDRESS,
     DATA_LOAD_SEGMENT_ADDRESS,
     ITEM_EVENT_INSERT_WRAPPER_ADDRESS,
     MAP2D_DYNAMIC_DRAW_WRAPPER_ADDRESS,
@@ -825,7 +826,7 @@ def build_map2d_runtime_patch(
     if MAP2D_WIDTH_TABLE_ADDRESS + len(width_table) > MAP2D_TOP_ROW_TABLE_ADDRESS:
         raise ValueError("PSP MAP2D widths exceed their cave partition")
     if MAP2D_TOP_ROW_TABLE_ADDRESS + len(top_row_table) > (
-        MAP2D_FIXED_ROW_TABLE_ADDRESS
+        COMPENDIUM_DRAW_BRIDGE_ADDRESS
     ):
         raise ValueError("PSP MAP2D rows exceed the checked source-zero run")
     if MAP2D_FIXED_ROW_TABLE_ADDRESS + len(fixed_row_table) > (

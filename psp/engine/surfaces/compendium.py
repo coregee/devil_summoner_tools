@@ -26,8 +26,13 @@ from psp.text.util.event_packed import (
 PACKED_FIRST = STORED_PRINTABLE_FIRST
 PACKED_WIDTH_COUNT = ASCII_LAST - ASCII_FIRST + 1
 
-from ..core.layout import DATA_LOAD_SEGMENT_ADDRESS
+from ..core.layout import (
+    DATA_LOAD_SEGMENT_ADDRESS,
+    COMPENDIUM_DRAW_BRIDGE_ADDRESS,
+    COMPENDIUM_DRAW_BRIDGE_END_ADDRESS,
+)
 from ..core.patching import Patch, apply_patches
+from ..core.storage import validate_retired_name_source, validate_retired_name_owner
 from .compendium_name_runtime import (
     COMPENDIUM_NAME_COMPARE_WRAPPER_ADDRESS,
     COMPENDIUM_NAME_COMPARE_WRAPPER_END_ADDRESS,
@@ -113,6 +118,7 @@ def _configuration() -> dict[str, object]:
     if (
         document.get("version") != 1
         or document.get("surface") != "demon_compendium.runtime"
+        or document.get("dependency") != "name_entry.runtime"
         or document.get("target")
         != {
             "name": "BOOT.BIN",
@@ -226,14 +232,17 @@ def _validate_source(stock: bytes, pointer_table: bytes) -> None:
         raise ValueError("PSP Compendium pointer relocation inventory changed")
 
     caves = (
+        (COMPENDIUM_DRAW_BRIDGE_ADDRESS, COMPENDIUM_DRAW_BRIDGE_END_ADDRESS),
         (COMPENDIUM_DRAW_WRAPPER_ADDRESS, COMPENDIUM_DRAW_WRAPPER_END_ADDRESS),
         (COMPENDIUM_NAME_DRAW_WRAPPER_ADDRESS, COMPENDIUM_NAME_DRAW_WRAPPER_END_ADDRESS),
         (COMPENDIUM_NAME_COMPARE_WRAPPER_ADDRESS, COMPENDIUM_NAME_COMPARE_WRAPPER_END_ADDRESS),
     )
-    for start, end in caves:
-        source = stock[start + ADDRESS_BIAS : end + ADDRESS_BIAS]
-        if len(source) != end - start or any(source):
-            raise ValueError(f"PSP Compendium cave {start:#x}..{end:#x} is not blank")
+    validate_retired_name_source(stock)
+    if any(stock[
+        COMPENDIUM_DRAW_BRIDGE_ADDRESS + ADDRESS_BIAS :
+        COMPENDIUM_DRAW_BRIDGE_END_ADDRESS + ADDRESS_BIAS
+    ]):
+        raise ValueError("PSP Compendium draw bridge source is not blank")
     relocation_rows = (
         *_relocations(stock, _REL_TEXT_FILE_OFFSET, _REL_TEXT_SIZE),
         *_relocations(stock, _REL_RODATA_FILE_OFFSET, _REL_RODATA_SIZE),
@@ -267,6 +276,7 @@ def build_compendium(
         raise ValueError("PSP Compendium EVE width table is invalid")
     if not isinstance(intermediate, bytes) or len(intermediate) != len(stock):
         raise ValueError("PSP Compendium intermediate BOOT size changed")
+    validate_retired_name_owner(intermediate)
 
     def measure(value: str) -> int:
         return sum(packed_widths[code - PACKED_FIRST] for code in encode_ascii(value))
@@ -313,11 +323,13 @@ def build_compendium(
     output = apply_patches(intermediate, ADDRESS_BIAS, patches)
     code_used = (
         len(prose.draw_wrapper.data)
+        + len(prose.draw_bridge.data)
         + len(names.draw_wrapper.data)
         + len(names.compare_wrapper.data)
     )
     code_capacity = (
         COMPENDIUM_DRAW_WRAPPER_END_ADDRESS - COMPENDIUM_DRAW_WRAPPER_ADDRESS
+        + COMPENDIUM_DRAW_BRIDGE_END_ADDRESS - COMPENDIUM_DRAW_BRIDGE_ADDRESS
         + COMPENDIUM_NAME_DRAW_WRAPPER_END_ADDRESS - COMPENDIUM_NAME_DRAW_WRAPPER_ADDRESS
         + COMPENDIUM_NAME_COMPARE_WRAPPER_END_ADDRESS - COMPENDIUM_NAME_COMPARE_WRAPPER_ADDRESS
     )

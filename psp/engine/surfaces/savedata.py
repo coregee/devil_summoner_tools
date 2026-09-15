@@ -41,6 +41,9 @@ from ..core.layout import (
     SAVEDATA_LOCATION_SOURCE_ADDRESS,
 )
 from ..core.patching import Patch, apply_patches
+from ..core.storage import (
+    is_retired_name_storage, validate_retired_name_source, validate_retired_name_owner,
+)
 from .name_entry_runtime import NAME_INIT_WRAPPER_ADDRESS
 
 ADDRESS_BIAS = 0x80
@@ -285,7 +288,9 @@ def validate_source_elf(source: bytes) -> tuple[int, ...]:
     ):
         cave_start = file_offset(start)
         cave_end = file_offset(end)
-        if any(source[cave_start:cave_end]):
+        if is_retired_name_storage(start, end):
+            validate_retired_name_source(source)
+        elif any(source[cave_start:cave_end]):
             raise ValueError(
                 f"PSP savedata {description} cave is no longer source-blank"
             )
@@ -312,7 +317,10 @@ def validate_patch_sources(source: bytes, patch: SavedataPatch) -> None:
                 raise ValueError(f"PSP savedata hook source changed at {write.name}")
         elif write.name in SAVEDATA_CAVE_WRITE_ADDRESSES:
             expected_address = SAVEDATA_CAVE_WRITE_ADDRESSES[write.name]
-            if write.address != expected_address or not write.data or any(before):
+            retired = is_retired_name_storage(write.address, write.end_address)
+            if retired:
+                validate_retired_name_source(source)
+            if write.address != expected_address or not write.data or (not retired and any(before)):
                 raise ValueError(f"PSP savedata cave source changed at {write.name}")
         else:  # The exact inventory check above makes this defensive only.
             raise ValueError(f"unknown PSP savedata write: {write.name}")
@@ -333,6 +341,7 @@ def build_savedata(stock: bytes, intermediate: bytes) -> SavedataBuild:
         raise ValueError("PSP savedata requires the English NAME runtime")
 
     text = load_savedata_text()
+    validate_retired_name_owner(intermediate)
     record_ids = validate_source_elf(stock)
     runtime = build_patch(_patch_source(text), record_ids)
     validate_patch_sources(stock, runtime)

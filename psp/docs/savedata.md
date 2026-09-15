@@ -12,12 +12,15 @@ an authored asset; the binding pins its placeholder order and punctuation so
 the machine-code formatter cannot silently diverge from it.
 
 Thirteen writes are guarded against the stock BOOT, including every hook,
-relocation, physical location table, and three zero-backed cave partitions.
+relocation, physical location table, two zero-backed partitions, and the
+location-text partition in NAME's retired Kanji pages at `0x1c7580`.
 The generated data uses 1,500 of 1,505 reserved bytes; the location-name blob
 alone uses 321 of its 324-byte partition.
 
 Savedata requires `name_entry.runtime` because its codename decoder consumes
-the packed-English profile bytes established by NAME. Output metadata itself
+the packed-English profile bytes established by NAME. Its storage check also
+requires the one-page NAME grid and replacement label descriptors; zero-filled
+city-map collision tiles are not free storage. Output metadata itself
 is ordinary ASCII, which is also valid UTF-8 for the PSP utility/SFO buffers.
 It shares printable-ASCII validation with the packed codec but does not share
 the packed binary representation or require a game-font allocation.

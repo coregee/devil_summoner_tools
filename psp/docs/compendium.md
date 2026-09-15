@@ -24,6 +24,9 @@ complete packed English names instead of the stock eight-cell Japanese source
 rows, while IDs `0x100..0x105` retain the stock player-name fallback.
 
 All hook preimages, JAL relocation records, source data hashes, row flags,
-pointer relocations, atlas ownership, and three source-zero code caves are
-validated before the surface is composed into BOOT/EBOOT.
-
+pointer relocations, atlas ownership, and three partitions in NAME's retired
+Kanji pages are validated before the surface is composed into BOOT/EBOOT.
+This surface requires the English NAME grid/label owner. A 36-byte bridge at
+`0x1726c0` keeps the item renderers' short-range calls in range of the relocated
+prose renderer. The former zero-filled allocations in the city-map collision
+table are live blocked tiles and must remain untouched.

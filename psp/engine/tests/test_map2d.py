@@ -52,7 +52,7 @@ class Map2dRuntimeTests(unittest.TestCase):
 
     def test_runtime_tables_and_name_dependency_are_explicit(self) -> None:
         runtime = self.build.runtime.runtime_patch
-        self.assertEqual((self.build.runtime_used_size, self.build.runtime_capacity), (1979, 2148))
+        self.assertEqual((self.build.runtime_used_size, self.build.runtime_capacity), (1979, 2084))
         self.assertEqual(len(runtime.width_table), 95)
         self.assertEqual(len(runtime.top_row_table), 44)
         self.assertEqual(len(runtime.fixed_row_table), 40)

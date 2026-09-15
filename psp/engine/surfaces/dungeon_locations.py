@@ -25,6 +25,9 @@ from ..core.layout import (
     SAVEDATA_LOCATION_RECORD_COUNT,
 )
 from ..core.patching import Patch, apply_patches
+from ..core.storage import (
+    is_retired_name_storage, validate_retired_name_source, validate_retired_name_owner,
+)
 from .dungeon_locations_runtime import (
     DUNGEON_LOCATION_MAZE_FLOOR_DRAW_CALL_ADDRESS,
     DUNGEON_LOCATION_MAZE_NAME_DRAW_CALL_ADDRESS,
@@ -188,7 +191,7 @@ def _configuration() -> dict[str, object]:
         or value.get("font_dependency") != "dungeon_locations.font16"
         or value.get("write_count") != 21
         or value.get("write_fingerprint")
-        != "bd7b360d9532bfeba5724d8c174a3b81c7e6e6999eee96f0df09bd656f0b884b"
+        != "da58fb8173633b5f2d7e7c367b62852dbde814a8e07d0cecb1944e4cd3695a93"
     ):
         raise ValueError("invalid PSP dungeon-location contract")
     return value
@@ -259,7 +262,9 @@ def validate_source_elf(source: bytes) -> None:
         ("sequence", DUNGEON_LOCATION_NAME_SEQUENCE_CAVE_SOURCE_START_ADDRESS, DUNGEON_LOCATION_NAME_SEQUENCE_CAVE_END_ADDRESS),
         ("state", DUNGEON_LOCATION_STATE_ADDRESS, DUNGEON_LOCATION_STATE_END_ADDRESS),
     ):
-        if any(source[file_offset(start) : file_offset(end)]):
+        if is_retired_name_storage(start, end):
+            validate_retired_name_source(source)
+        elif any(source[file_offset(start) : file_offset(end)]):
             raise ValueError(f"PSP dungeon-location {description} cave is no longer source-blank")
 
 
@@ -280,6 +285,7 @@ def build_dungeon_locations(
     if len(location_ids) != SAVEDATA_LOCATION_RECORD_COUNT or set(location_ids) != set(range(24)):
         raise ValueError("PSP dungeon-location runtime requires the savedata selector")
     validate_source_elf(stock)
+    validate_retired_name_owner(intermediate)
     records, digit_codes, basement_code, floor_code = _font_plan(font_contract)
     runtime = build_dungeon_location_patch(
         records,
@@ -310,7 +316,8 @@ def build_dungeon_locations(
                 raise ValueError(f"PSP dungeon-location hook changed at {write.name}")
         else:
             expected_address = DUNGEON_LOCATION_CAVE_WRITE_ADDRESSES[write.name]
-            if write.address != expected_address or not write.data or any(before):
+            retired = is_retired_name_storage(write.address, write.end_address)
+            if write.address != expected_address or not write.data or (not retired and any(before)):
                 raise ValueError(f"PSP dungeon-location cave changed at {write.name}")
         patches.append(Patch("maze.location_display", write.name, write.address, before, write.data))
     output = apply_patches(intermediate, ADDRESS_BIAS, tuple(patches))

@@ -6,6 +6,7 @@ import unittest
 from dataclasses import replace
 
 from psp.engine import build as engine_build
+from psp.engine.tests.support import name_ready_boot
 from psp.engine.surfaces.command_menu_help import load_eve_widths
 from psp.engine.surfaces.compendium import build_compendium
 from psp.engine.surfaces.compendium_name_runtime import (
@@ -45,20 +46,21 @@ class CompendiumRuntimeTests(unittest.TestCase):
             CompendiumPatchSource(bytes(arena), bytes(table))
         )
 
-    def test_prose_emitter_matches_the_mature_patch(self) -> None:
+    def test_prose_emitter_uses_the_retired_name_storage(self) -> None:
         patch = self._prose()
         self.assertEqual(
             (patch.draw_wrapper.address, patch.draw_wrapper.end_address),
-            (0x00176794, 0x001768A0),
+            (0x001C7700, 0x001C780C),
         )
         self.assertEqual(
             hashlib.sha256(patch.draw_wrapper.data).hexdigest(),
-            "8cac1f564f1aff6eb5f6dac15aba0d0d95c940730a830d213c4566452a49cb86",
+            "16213cb14fd48ae809cbab6631836d2ebde05e5e10c8d0a89c1b43f58001da29",
         )
         self.assertEqual(
             tuple((write.name, write.address, len(write.data)) for write in patch.writes),
             (
-                ("compendium_draw_wrapper", 0x00176794, 268),
+                ("compendium_draw_bridge", 0x001726C0, 36),
+                ("compendium_draw_wrapper", 0x001C7700, 268),
                 ("compendium_origin_draw_call", 0x0008A88C, 4),
                 ("compendium_summary_draw_call", 0x0008A8A4, 4),
                 ("compendium_detail_draw_call", 0x0008A974, 4),
@@ -80,15 +82,15 @@ class CompendiumRuntimeTests(unittest.TestCase):
         )
         self.assertEqual(
             hashlib.sha256(patch.draw_wrapper.data).hexdigest(),
-            "995cb938f91e11e96fa9edcae5e17bd6a63f6ad60265423356f5ec5c1432b66d",
+            "07a1f1345bf76705fd5cc1695361389d4c587238e3ed5f1f9d22012b580ace41",
         )
         self.assertEqual(
             hashlib.sha256(patch.compare_wrapper.data).hexdigest(),
-            "af2c5678fa838f32294a28bb3403ac09c95d007d5e9084a78a37db42702a44af",
+            "d43b7f4be0af900b2230c13017dd7c444bf4d5a7299259433822678c20f332cd",
         )
         self.assertEqual(
             patch.write("compendium_name_sort_block").data.hex(),
-            "0800b396080092962120600221284002b0de050c0000000019004010000000000a00001000000000",
+            "0800b396080092962120600221284002801e070c0000000019004010000000000a00001000000000",
         )
         changed = bytearray(patch.dvlname_table)
         changed[COMPENDIUM_NAME_OFFSET_TABLE_SIZE] = 2
@@ -102,14 +104,14 @@ class CompendiumRuntimeTests(unittest.TestCase):
 
     def test_private_stock_build_is_exact_and_disjoint(self) -> None:
         stock, _eboot, _source = engine_build._source_entries()
-        result = build_compendium(stock, stock, load_eve_widths())
-        self.assertEqual(len(result.patches), 12)
+        result = build_compendium(stock, name_ready_boot(), load_eve_widths())
+        self.assertEqual(len(result.patches), 13)
         self.assertEqual(result.text.used_size, 116_577)
-        self.assertEqual(result.runtime_used_size, 125_830)
-        self.assertEqual(result.runtime_capacity, 128_205)
+        self.assertEqual(result.runtime_used_size, 125_866)
+        self.assertEqual(result.runtime_capacity, 128_269)
         self.assertEqual(
             hashlib.sha256(result.data).hexdigest(),
-            "dc2e9a1e801df2cd6440b174c9850bd6e383429695c65870947b4cb8cc9ee679",
+            "a824ce8f682afa87a44049e1a2a7b3bf80ca6eb9672c0743df289edee387145d",
         )
         ordered = sorted(result.patches, key=lambda patch: patch.address)
         self.assertTrue(

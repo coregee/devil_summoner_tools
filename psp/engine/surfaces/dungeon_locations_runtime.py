@@ -257,10 +257,15 @@ def _build_floor_wrapper(digit_first: int, basement: int, floor: int) -> Assembl
 
 
 def _build_transition_name_bridge() -> AssembledCode:
-    """Stage surface A's physical ID, then enter the shared name drawer."""
+    """Normalize the transition's post-incremented index for the shared drawer."""
 
     code = _Assembler(DUNGEON_LOCATION_TRANSITION_NAME_BRIDGE_ADDRESS)
-    code.addu(T8, RA, ZERO)
+    code.addiu(SP, SP, -0x10)
+    code.sw(RA, 0x0C, SP)
+    code.sw(S0, 0x08, SP)
+    code.addiu(T0, S0, -1)
+    code.bne(T0, ZERO, "return")
+    code.delay_nop()
     code.bal("pc")
     code.delay_nop()
     code.label("pc")
@@ -280,8 +285,14 @@ def _build_transition_name_bridge() -> AssembledCode:
         code, T9, T7, pc_address=pc_address,
         target_address=DUNGEON_LOCATION_MAZE_NAME_DRAW_WRAPPER_ADDRESS,
     )
-    code.addu(RA, T8, ZERO)
-    code.jr(T9)
+    code.addu(S0, ZERO, ZERO)
+    code.jalr(T9)
+    code.delay_nop()
+    code.label("return")
+    code.lw(S0, 0x08, SP)
+    code.lw(RA, 0x0C, SP)
+    code.addiu(SP, SP, 0x10)
+    code.jr(RA)
     code.delay_nop()
     return code.finish()
 

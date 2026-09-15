@@ -5,12 +5,19 @@ from __future__ import annotations
 import hashlib
 import json
 import struct
+from collections.abc import Iterable
 from dataclasses import dataclass
 from pathlib import Path
-from collections.abc import Iterable
 
+from psp.font.util.name_entry import name_grid_glyph
+from psp.text.util.name_entry import NameEntryText, load_name_entry_text
+
+from ..core.layout import EVENT_CAPACITY_HELPER_ADDRESS
+from ..core.patching import Patch, apply_patches
+from .command_menu_help import load_eve_widths
 from .name_entry_runtime import (
     NAME_ADDRESS_DEFAULT_STORE_CONTRACTS,
+    NAME_BUFFER_DRAW_WRAPPER_ADDRESS,
     NAME_BUTTON_HELPER_ADDRESS,
     NAME_CACHE_REBUILD_ADDRESS,
     NAME_COMMIT_WRAPPER_ADDRESS,
@@ -18,6 +25,7 @@ from .name_entry_runtime import (
     NAME_DONE_HANDLER_ADDRESS,
     NAME_DONE_SOUND_WRAPPER_ADDRESS,
     NAME_ECHO_WRAPPER_ADDRESS,
+    NAME_GRID_DRAW_WRAPPER_ADDRESS,
     NAME_HOOK_CONTRACTS,
     NAME_INIT_WRAPPER_ADDRESS,
     NAME_INSTRUCTION_PATCH_CONTRACTS,
@@ -31,11 +39,6 @@ from .name_entry_runtime import (
     NameEntryPatchSource,
     build_name_entry_patch,
 )
-from psp.text.util.name_entry import NameEntryText, load_name_entry_text
-
-from ..core.layout import EVENT_CAPACITY_HELPER_ADDRESS
-from ..core.patching import Patch, apply_patches
-from .command_menu_help import load_eve_widths
 
 RELOCATION = struct.Struct("<II")
 ADDRESS_BIAS = 0x80
@@ -43,6 +46,9 @@ BOOT_SIZE = 2_404_599
 BOOT_STOCK_SHA256 = "37b5b7a49fe1a5af60ab042d2822befb00580e02a7d7d2ed77dd279ebe6f55fa"
 ENGINE_ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ENGINE_ROOT / "config" / "name_entry.json"
+FONT_MANIFEST_PATH = (
+    ENGINE_ROOT.parent / "font" / "generated" / "game" / "psp.fonts.json"
+)
 
 
 def file_offset(address: int) -> int:
@@ -74,7 +80,7 @@ def _configuration() -> dict[str, object]:
         or value.get("dependency") != "event_window.runtime_foundation"
         or value.get("field_keys") != ["first", "last", "codename", "city", "ward"]
         or value.get("field_size") != 8
-        or value.get("write_count") != 138
+        or value.get("write_count") != 142
     ):
         raise ValueError("invalid PSP name-entry contract")
     return value
@@ -110,6 +116,57 @@ def _patch_source(text: NameEntryText) -> NameEntryPatchSource:
         text.default_ward,
     )
 
+
+def _name_grid_offsets(text: NameEntryText) -> dict[str, int]:
+    try:
+        document = json.loads(FONT_MANIFEST_PATH.read_text(encoding="utf-8"))
+        rows = document["name_entry"]["grid_metrics"]
+    except (FileNotFoundError, json.JSONDecodeError, KeyError, TypeError) as error:
+        raise ValueError("PSP font manifest has no NAME grid metrics") from error
+    if (
+        document.get("version") != 1
+        or document.get("surface") != "psp.fonts"
+        or not isinstance(rows, list)
+    ):
+        raise ValueError("invalid PSP NAME grid metric contract")
+    offsets: dict[str, int] = {}
+    for index, row in enumerate(rows):
+        try:
+            character = row["character"]
+            code = row["code"]
+            bounds = row["bounds"]
+            offset = row["x_offset"]
+        except (KeyError, TypeError) as error:
+            raise ValueError(f"invalid PSP NAME grid metric {index}") from error
+        if (
+            not isinstance(character, str)
+            or len(character) != 1
+            or type(code) is not int
+            or code != name_grid_glyph(character)
+            or not isinstance(bounds, list)
+            or len(bounds) != 4
+            or any(type(value) is not int for value in bounds)
+            or type(offset) is not int
+            or not 0 <= offset <= 15
+            or character in offsets
+        ):
+            raise ValueError(f"invalid PSP NAME grid metric {index}")
+        left, top, right, bottom = bounds
+        if bounds == [0, 0, 0, 0]:
+            expected_offset = 0
+        elif not (0 <= left < right <= 16 and 0 <= top < bottom <= 16):
+            raise ValueError(f"invalid PSP NAME grid bounds {index}")
+        else:
+            expected_offset = (16 - (right - left)) // 2 - left
+        if offset != expected_offset:
+            raise ValueError(f"invalid PSP NAME grid centering offset {index}")
+        offsets[character] = offset
+    expected = {character for grid in text.grids for character in grid.characters}
+    if set(offsets) != expected:
+        raise ValueError("PSP NAME grid metrics differ from the authored characters")
+    return offsets
+
+
 # NAME.BIN's live screen is executable-owned.  These checks pin both the
 # instructions being redirected and the otherwise unrelated data ranges that
 # become the translated three-page grid and static-label pool.
@@ -134,6 +191,7 @@ NAME_ENTRY_HOOK_SOURCE_CONTRACTS = {
 }
 NAME_ENTRY_CAVE_WRITE_ADDRESSES = {
     "name_label_draw_wrapper": 0x0013FC10,
+    "name_grid_draw_wrapper": NAME_GRID_DRAW_WRAPPER_ADDRESS,
     "name_glyph_to_byte": 0x0013FD40,
     "name_byte_to_glyph": 0x0013FDC0,
     "name_widths": 0x0013FE40,
@@ -145,6 +203,7 @@ NAME_ENTRY_CAVE_WRITE_ADDRESSES = {
     "name_select_wrapper": NAME_SELECT_WRAPPER_ADDRESS,
     "name_button_wrapper": NAME_BUTTON_HELPER_ADDRESS,
     "name_done_sound_wrapper": NAME_DONE_SOUND_WRAPPER_ADDRESS,
+    "name_buffer_draw_wrapper": NAME_BUFFER_DRAW_WRAPPER_ADDRESS,
     "name_confirm_wrapper": NAME_CONFIRM_WRAPPER_ADDRESS,
     "name_commit_wrapper": NAME_COMMIT_WRAPPER_ADDRESS,
     "name_cache_rebuild": NAME_CACHE_REBUILD_ADDRESS,
@@ -234,6 +293,8 @@ NAME_ENTRY_CONTROL_RELOCATION_CONTRACTS = (
     (0x0009DFD4, 0x00224CA0, RELOCATION.pack(0x0009DFD4, 4)),
     (0x0009DFEC, 0x00224CC0, RELOCATION.pack(0x0009DFEC, 4)),
     (0x0009E260, 0x00224DD0, RELOCATION.pack(0x0009E260, 4)),
+    (0x0009E478, 0x00224E90, RELOCATION.pack(0x0009E478, 4)),
+    (0x0009E948, 0x00224FE0, RELOCATION.pack(0x0009E948, 4)),
     (0x0009ECAC, 0x00225100, RELOCATION.pack(0x0009ECAC, 4)),
 )
 NAME_ENTRY_CACHE_RELOCATION_CONTRACTS = tuple(
@@ -302,11 +363,12 @@ NAME_ENTRY_ECHO_POINTER_RELOCATIONS = b"".join(
 
 def build_patch(
     eve_widths: Iterable[int],
+    grid_offsets: dict[str, int],
     source: NameEntryPatchSource,
 ) -> NameEntryPatch:
     """Build the Allegrex patch for checked NAME text and EVE widths."""
 
-    return build_name_entry_patch(eve_widths, source)
+    return build_name_entry_patch(eve_widths, grid_offsets, source)
 
 
 def validate_source_elf(source: bytes) -> None:
@@ -397,7 +459,9 @@ def build_name_entry(stock: bytes, intermediate: bytes) -> NameEntryBuild:
         raise ValueError("PSP name entry requires the EVENT runtime foundation")
 
     text = load_name_entry_text()
-    runtime = build_patch(load_eve_widths(), _patch_source(text))
+    runtime = build_patch(
+        load_eve_widths(), _name_grid_offsets(text), _patch_source(text)
+    )
     validate_source_elf(stock)
     validate_patch_sources(stock, runtime)
     patches = tuple(

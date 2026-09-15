@@ -4,6 +4,7 @@ import hashlib
 import unittest
 
 from psp.engine import build as engine_build
+from psp.engine.tests.support import name_ready_boot
 
 
 class CompPartyPanelRuntimeTests(unittest.TestCase):
@@ -17,7 +18,7 @@ class CompPartyPanelRuntimeTests(unittest.TestCase):
         )
         command = engine_build.build_command_menu_help(stock, config.data)
         cls.compendium = engine_build.build_compendium(
-            stock, command.data, engine_build.load_eve_widths()
+            stock, name_ready_boot(), engine_build.load_eve_widths()
         )
         cls.battle = engine_build.build_battle_names(
             stock,

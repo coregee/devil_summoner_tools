@@ -4,6 +4,7 @@ import hashlib
 import unittest
 
 from psp.engine import build as engine_build
+from psp.engine.core.storage import validate_map_collision_data, validate_retired_name_owner
 from psp.rom.util.catalog import load_catalog
 
 
@@ -67,6 +68,8 @@ class PspEngineBuildIntegrationTests(unittest.TestCase):
             engine_build._map2d_font_contract(),
         )
         result = engine_build.build_fmv_subtitles(stock, map2d.data)
+        validate_map_collision_data(stock, result.data)
+        validate_retired_name_owner(result.data)
         self.assertEqual(len(result.data), len(stock))
         self.assertEqual(
             len(title.patches)
@@ -83,13 +86,13 @@ class PspEngineBuildIntegrationTests(unittest.TestCase):
             + len(item_runtime.patches)
             + len(map2d.patches)
             + len(result.patches),
-            337,
+            342,
         )
         self.assertEqual(source["boot"]["lba"], 21760)
         self.assertEqual(len(eboot) - len(stock), engine_build.EBOOT_TRAILING_SIZE)
         self.assertEqual(
             hashlib.sha256(result.data).hexdigest(),
-            "8de2dad41021e9c66e9f2578a5cd00bf11eca0f5d1473d23fd7d3c572cb1d3e1",
+            "5ec426ef9f3aacffc53e5106678945c3b83e39ef95912fca3614a367f56a286a",
         )
 
 

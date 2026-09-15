@@ -37,6 +37,7 @@ from psp.font.util.map2d import (
     CONFIG_PATH as MAP2D_CONFIG_PATH,
     build_map2d_fonts,
 )
+from psp.font.util.name_entry import build_name_grid_metrics
 from psp.text.util.map2d import (
     CONFIG_PATH as MAP2D_TEXT_CONFIG_PATH,
     FIELD_ASSET_PATH as MAP2D_FIELD_ASSET_PATH,
@@ -59,6 +60,7 @@ from psp.text.util.event_dvlname import CONFIG_PATH as DVLNAME_CONFIG_PATH
 from psp.text.util.name_entry import (
     ASSET_PATH as NAME_ENTRY_ASSET_PATH,
     CONFIG_PATH as NAME_ENTRY_CONFIG_PATH,
+    load_name_entry_text,
 )
 from psp.text.util.title_help import CONFIG_PATH as TITLE_TEXT_CONFIG_PATH
 
@@ -135,6 +137,11 @@ def build_fonts(*, check: bool) -> None:
     ):
         raise ValueError("PSP eve_files disc contract changed")
     eve_result = build_eve_ascii(eve_source)
+    name_entry = load_name_entry_text()
+    name_grid_metrics = build_name_grid_metrics(
+        eve_result.atlas,
+        "".join(grid.characters for grid in name_entry.grids),
+    )
     comp_party_ark10 = build_comp_party_ark10(eve_source, eve_result.data)
     map2d = build_map2d_fonts(
         source,
@@ -152,6 +159,7 @@ def build_fonts(*, check: bool) -> None:
             "battle_names.font16",
             "dungeon_locations.font16",
             "command_menu_help.eve_ascii",
+            "name_entry.grid_metrics",
             "comp_party_panel.ark10",
             "map_2d.font16",
             "map_2d.eve",
@@ -206,6 +214,9 @@ def build_fonts(*, check: bool) -> None:
                 {"character": character, "code": code, "advance": advance}
                 for character, code, advance in eve_result.mappings
             ],
+        },
+        "name_entry": {
+            "grid_metrics": list(name_grid_metrics),
         },
         "comp_party_ark10": {
             "first_code": comp_party_ark10.owned_codes[0],

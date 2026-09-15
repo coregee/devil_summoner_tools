@@ -24,7 +24,7 @@ BOOT_STOCK_SHA256 = (
 ADDRESS_BIAS = 0x80
 WRITE_COUNT = 45
 WRITE_FINGERPRINT = (
-    "69161b6092657273a92d656b8b294100e743c7e3b9027ade6f891cd4c187d039"
+    "ba53a4827d518d6267b1e2178b420a76b13fe520678a709db97ac87dff737452"
 )
 
 
@@ -113,6 +113,7 @@ def build_config_menu(
         ark12_advances,
         ark16_advance_first_code=first_code,
         draw_code_limit=draw_limit,
+        font16_draw_code_limit=font_contract["font16_draw_code_limit"],
     )
     if (
         len(runtime.writes) != WRITE_COUNT
