@@ -57,7 +57,7 @@ SATURN_ROOT = ENGINE_ROOT.parent
 PROJECT_ROOT = SATURN_ROOT.parent
 CONFIG_PATH = ENGINE_ROOT / "config" / "facilities_status_ui.json"
 GENERATED_ROOT = ENGINE_ROOT / "generated" / "game"
-OUTPUT_PATH = GENERATED_ROOT / "EVENT.BIN"
+OUTPUT_PATH = GENERATED_ROOT / "facilities_status_ui" / "EVENT.BIN"
 BUILD_PATH = GENERATED_ROOT / "facilities_status_ui_build.json"
 
 FONT_ROOT = SATURN_ROOT / "font" / "generated" / "game"
