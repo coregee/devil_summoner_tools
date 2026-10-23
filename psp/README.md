@@ -1,59 +1,42 @@
-# PSP package status
+# PSP port
 
-The PSP implementation now combines the original UMD font catalogue under
-[`font/`](font/README.md), checked movie compilation under [`fmv/`](fmv/README.md),
-the ported runtime surfaces under [`engine/`](engine/README.md), and an explicit
-visual reuse boundary under [`visual/`](visual/README.md). The font package
-defines all twelve logical font
-roles recovered from the original PSP project, including their twenty physical
-archive or embedded targets, storage formats, hashes, confidence levels, and
-cell grids. The engine package now owns the complete original PSP patch
-inventory as readable, responsibility-oriented surface builders with exact
-source guards and focused tests.
+The PSP port is very incomplete. Most of the game is still in Japanese. What's
+here builds cleanly and produces a working ISO, but only the screens listed
+below are translated.
 
-The PSP-owned build pipeline now composes the complete English title-help,
-CONFIG, command-help, battle-console, NAME/profile entry, savedata metadata,
-maze HUD and staircase-transition location/floor display, Demon Compendium,
-battle party-panel/results names, the six-card COMP party-name panel,
-the complete two-dimensional city map, active-item, and START2 subtitle
-slices. It compiles
-six title records, all 57 CONFIG/command-help slots, and 313 active BTL_MES
-rows into `regdata.bin` while preserving
-45 native empty rows; compiles nine canonical START2 cues after validating the
-unchanged PMF; renders the checked Ark12/Ark16 allocations in `datapack.bin`
-and the shared Ark12 plus card-specific Ark10 printable-ASCII rasters in
-`eve_files.bin`, including MAP2D's consolidated Ark12/Ark16 projections;
-transactionally
-rebuilds all five standard EVENT members from 2,830 canonical page bindings
-plus the expanded 319-name insertion table, then publishes all 16 canonical
-BOSSTALK boss-combat messages in member 22; builds the title VWF,
-29 CONFIG runtime rows, the retained-EVE command-help adapter, two guarded
-battle-console body-offset instructions, and the lossless subtitle overlay into
-BOOT/EBOOT. The battle-name runtime additionally publishes the live Codename,
-full demon names, and fixed result labels through the consolidated Ark12 bank.
-The stock-safe EVENT VWF runtime consumes those packed banks and
-shares the command-help EVE advance table for both ordinary and boss-combat
-dialogue. The engine also packs all 292 live Demon Compendium profiles into
-the original BOOT lore arena, installs full proportional names and English
-alphabetical sorting, and preserves every inactive row and flag. It additionally
-publishes the three PSP-only active items through checked inventory, detail, and
-EVENT consumers while leaving ITEMNAME member 4 unchanged. It also ports the
-five independent eight-character NAME fields, three English input grids,
-occupation selection, profile cache, and all proved downstream name readers.
-Savedata switches the PSP utility language to English and builds its SFO detail
-from the live English codename, level, difficulty, one of 24 dungeon locations,
-and playtime.
-The pipeline
-publishes a same-size ISO through 91 verified resource, executable, title, maze,
-and save-icon extents. The visual package uses four title images, 37 maze images, and the
-PSP save/game icon, encoding only 20 unique members/files before fanning them
-out to 86 visual target extents. Three title assets are cross-platform; the
-lower-resolution 114x25 overlay remains explicitly PSP-owned. Remaining text
-surfaces, engine patches, fonts, and platform-layout
-visual sheets still need to be ported; unlike layouts will remain separate
-assets rather than being forced into one encoding. The
-font catalogue intentionally does not infer a live reader from a
-Saturn-equivalent filename or bitmap.
+It uses the same shared translation in `assets/text` and the same replacement
+art in `assets/image` as the Saturn version, with PSP-specific code for the
+file formats, fonts, and runtime patches.
+
+## What's translated
+
+- Title screen help text
+- CONFIG menu and command-menu help
+- Battle messages (BTL_MES)
+- Event dialogue in the five standard EVENT banks, plus boss-battle dialogue
+  (BOSSTALK)
+- Name entry and the player profile
+- Battle party panel and results names, and the COMP party cards
+- The 2D city map
+- Demon Compendium names and descriptions, with English alphabetical sorting
+- The three PSP-only items
+- Save data: the PSP save menu shows an English title, codename, level,
+  difficulty, location and playtime
+- Dungeon location and floor display
+- Title screen, dungeon wall textures, and the save icon
+- Subtitles for the opening START2 movie
+
+## What isn't
+
+Pretty much everything else: shops and facilities, status and equipment
+screens, the remaining menus, many fonts, and any artwork whose PSP layout
+differs from the Saturn version (menu sheets, automap, loading screens and so
+on). Those images will need their own PSP-specific assets.
+
+## Building
+
+Put the original Japanese ISO in [`rom/original/`](rom/original/README.md),
+then from the repository root:
 
 ```powershell
 python -B psp/build.py default --plan
@@ -61,29 +44,32 @@ python -B psp/build.py default
 python -B psp/build.py default --check
 ```
 
-The current image is still an incomplete translation rather than a release, but
-all currently configured slices are complete from authored English through
-text, font, runtime, and ISO publication. The checked battle-console geometry, codec, and
-runtime acceptance target are documented in [`docs/btl_mes.md`](docs/btl_mes.md);
-the corresponding START2 contracts are in
-[`docs/fmv_subtitles.md`](docs/fmv_subtitles.md).
-Command-help storage, font, and retained-handle contracts are documented in
-[`docs/command_menu_help.md`](docs/command_menu_help.md).
-The reusable EVENT runtime boundary is documented in
-[`docs/event_window.md`](docs/event_window.md).
-The Compendium prose, name-table, and sorting contract is documented in
-[`docs/compendium.md`](docs/compendium.md).
-The consolidated battle party-panel and results-name runtime is documented in
-[`docs/battle_names.md`](docs/battle_names.md).
-The common six-card COMP name renderer and its Ark10 projection are documented
-in [`docs/comp_party_panel.md`](docs/comp_party_panel.md).
-The complete two-dimensional map runtime and its shared-text/font projections
-are documented in [`docs/map2d.md`](docs/map2d.md).
-The PSP-only item-name, description, and EVENT insertion paths are documented
-in [`docs/item_runtime.md`](docs/item_runtime.md).
-The English profile controller and durable name-cache contract are documented
-in [`docs/name_entry.md`](docs/name_entry.md).
-The utility-language and SFO-detail formatter is documented in
-[`docs/savedata.md`](docs/savedata.md).
-The consolidated codec families and their physical projections are documented
-in [`docs/text_encodings.md`](docs/text_encodings.md).
+The output ISO is the same size as the original; only the files that changed
+are rewritten.
+
+## Package layout
+
+- [`text/`](text/README.md): maps the shared translation onto PSP text files
+- [`font/`](font/README.md): catalogue of the PSP fonts and generated
+  replacements
+- [`engine/`](engine/README.md): executable patches (Allegrex assembly)
+- [`visual/`](visual/README.md): PSP encoding of the shared artwork
+- [`fmv/`](fmv/README.md): movie subtitles
+- [`rom/`](rom/README.md): ISO checks and rebuilding
+
+## Technical notes
+
+Notes on individual screens, mostly for whoever works on this next:
+
+- [Battle messages](docs/btl_mes.md)
+- [Battle party panel and results names](docs/battle_names.md)
+- [Command-menu help](docs/command_menu_help.md)
+- [COMP party cards](docs/comp_party_panel.md)
+- [Demon Compendium](docs/compendium.md)
+- [Event dialogue window](docs/event_window.md)
+- [Movie subtitles](docs/fmv_subtitles.md)
+- [PSP-only items](docs/item_runtime.md)
+- [2D city map](docs/map2d.md)
+- [Name entry](docs/name_entry.md)
+- [Save data](docs/savedata.md)
+- [Text encodings](docs/text_encodings.md)

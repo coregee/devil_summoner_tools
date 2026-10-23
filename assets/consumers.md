@@ -1,41 +1,41 @@
 # Devil Summoner: Saturn Text Consumer Specs
 
-This document enumerates the observed behaviour of player-facing text consumers
-and records the display contracts that the asset, text, font, engine, and visual
-packages share. It is the human-facing companion to the machine-readable Saturn
-surface catalogue.
+This document describes how each on-screen text area in the Saturn game behaves,
+and the size limits that the text, font, engine and graphics packages all have
+to agree on. It's the readable companion to the Saturn surface catalogue
+(`saturn/text/config/surfaces.json`).
 
-Implementation notes describe the current port where a consumer is built, and
-mark unknown geometry, image ownership, or unresolved physical evidence
-explicitly. A missing measurement is not the same as a missing runtime port.
+Where a screen has been translated, there's a note on how the current patch
+handles it. Things that haven't been measured or worked out yet are marked as
+such. An unmeasured limit doesn't mean the screen isn't translated.
 
-These text surfaces are externally-viewed only. The game may duplicate surfaces that appear similar/identical from the user's point of view for architectural/efficiency reasons.
+These are described from the player's point of view. The game may draw
+similar-looking screens through different code for its own reasons.
 
-Every player-visible string, label, fragment, and complete dynamic template must
-be represented by an editable authored asset under `assets/text`, including
-stock-English text and text rendered from code or images. Runtime code may
-select an asset, substitute typed values, format numbers, measure it, and render
-it; runtime code must not own player-visible wording or punctuation. References
-below to text not needing a hook mean only that no special renderer change is
-currently required.
+Every bit of text the player can see, including labels, fragments and
+templates with values filled in, should have an editable entry under
+`assets/text`. That includes text that's already in English and text drawn from
+code or images. Code may pick an entry, fill in values, format numbers, measure
+and draw it, but it shouldn't contain visible wording or punctuation itself.
+Where this document says something doesn't need a hook, it only means no
+special renderer change is needed right now.
 
 ### Title Screen
 
 The game has the logos for "真・女神転生" and "デビルサマナー" scale down onto the title screen.
 
-There is also the logo "悪魔召喚師" (literally Devil Summoner, in Japanese). The current English policy may leave this logo untranslated, but its text and visual binding must still be surfaced for potential editing.
+There is also the logo "悪魔召喚師" (literally Devil Summoner, in Japanese). The current English version may leave this logo untranslated, but its text and image should still be editable.
 
 The title screen itself is another image, displayed after a white flash transition. These three logos are pre-baked into it.
 
-The `PRESS START BUTTON` prompt and the selectable `START` / `OPTION` labels
-are separate from that baked screen. `TITLE.BIN` stores them as two contiguous
-runs of positional RGB555 glyph images: sixteen 16x12 records for the prompt,
-and eleven 16/8x9 records for the two menu labels. Their wording is authored in
-`assets/text/ui/title.json`, their physical spans are bound as title surfaces,
-and the browser Fonts workspace exposes both raster styles as read-only Saturn
-fonts. The source contains only the letters used by those three stock strings;
-alternate wording still requires a profile-specific glyph generator and
-publication path.
+The `PRESS START BUTTON` prompt and the `START` / `OPTION` menu labels are
+separate from that baked screen. `TITLE.BIN` stores them as two runs of
+positioned RGB555 glyph images: sixteen 16x12 images for the prompt, and eleven
+16/8x9 images for the two menu labels. The wording is in
+`assets/text/ui/title.json`, and the editor's Fonts tab shows both glyph styles
+as read-only Saturn fonts. The originals only contain the letters needed for
+those three strings, so changing the wording would need a glyph generator and a
+way to write the new images back, which doesn't exist yet.
 
 ### Options Menu
 
@@ -75,131 +75,150 @@ The user can then navigate up/down the list of texts, swap them with the A/B but
 
 These binding texts appear to use FONT12. Examples include ラージキャンセル, 決定, ヘルプ表示.
 
-All 38 live text records for these two pages are represented by
-`assets/text/ui/options.json` and bind explicitly to `CFG_SET.BIN`. The visible
-serif `CONFIG` heading is graphical. A stock table row also contains those
-codes, but its paired length is zero and every known draw path skips it, so it
-is preserved as dormant binary data rather than misrepresented as editable
-runtime text. The menu is split into five text surfaces: primary labels,
-setting values, the four-row ordering popup, controller actions, and the two
-footer states. Japanese labels retain their nine-cell limit, values four cells,
-popup rows five cells, controller actions eight cells, and footers nine cells.
-The mature English renderer proves 80-pixel popup rows, 128-pixel controller
-actions, and 144-pixel footers; translated primary-label and value limits remain
-unmeasured. Any packed or compound glyphs used to meet these limits are
-generated from the complete authored words and are not separately maintained
-text.
+All 38 text records used on these two pages are in `assets/text/ui/options.json`
+and map to `CFG_SET.BIN`. The serif `CONFIG` heading is an image. There's also
+a table row in the file containing those letters, but its length is zero and
+nothing draws it, so it's left alone as unused data rather than listed as
+editable text.
+
+The menu is split into five groups, with these Japanese limits:
+
+| Group | Japanese limit | English limit |
+| --- | --- | --- |
+| Main labels | 9 cells | not measured |
+| Setting values | 4 cells | not measured |
+| Ordering popup rows | 5 cells | 80px |
+| Controller actions | 8 cells | 128px |
+| Footer (two states) | 9 cells | 144px |
+
+The English limits come from the older finished English build. Any packed or
+combined glyphs used to make words fit are generated from the full words in the
+asset files, not maintained separately.
 
 ### Horoscope Vision
 
-The fortune-telling sequence in `HOSI.BIN` displays eight FONT16 story
-messages through the stock progressive-reveal renderer. Each message may use
-up to three rows of 20 fixed cells; wrapping occurs only at authored spaces,
-and the runtime reveal stream is limited to 64 words including line controls
-and its terminator. The translated messages describe the five locations and
-the magic circle, and are owned together by `assets/text/ui/horoscope.json`.
-The English runtime relocates them into a checked 1,024-byte pool and links the
-eight stock pointer literals to their generated rows. Line breaks, pool
-addresses, and reveal pacing are renderer output rather than separately
-authored prose.
+The fortune-telling sequence in `HOSI.BIN` shows eight FONT16 story messages
+using the game's normal reveal-as-you-go text drawing. Each message can be up to
+three rows of 20 fixed cells. Lines only wrap at spaces in the text, and each
+message is limited to 64 words including line breaks and the terminator. The
+messages describe the five locations and the magic circle, and live in
+`assets/text/ui/horoscope.json`. The English build moves them into a 1,024-byte
+pool and repoints the eight original pointers at the new rows. Line breaks,
+addresses and reveal speed come out of the renderer; they aren't written by
+hand.
 
 ### FMV Subtitles
 
-The 33.4-second `START2` news report presents nine timed English cues over a
-320x224 Cinepak movie. `assets/text/fmv/subtitles.json` owns the Japanese
-reference, English line breaks, and presentation-relative centisecond ranges.
-The Saturn engine converts those ranges to the movie's checked 12 fps timeline
-and centers one or two proportional FONT16 rows at y=196 or y=180/196. Font
-codes, pixel widths, centered x positions, packed runtime rows, movie index,
-framebuffer address, and the shadow are derived platform presentation—not
-independently authored wording. The CPK remains immutable.
+The 33.4-second `START2` news report shows nine timed English subtitles over a
+320x224 Cinepak movie. `assets/text/fmv/subtitles.json` holds the Japanese
+reference, the English line breaks, and start/end times in hundredths of a
+second from the start of the movie. The Saturn engine converts those times to
+the movie's 12 fps frame count and centres one or two proportional FONT16 rows
+at y=196 (one row) or y=180/196 (two rows). Font codes, pixel widths, x
+positions, packed rows, movie index, framebuffer address and the drop shadow
+are all worked out by the build, not written by hand. The CPK file itself is
+not modified.
 
 ### End Credits
 
-`END_ROLL.BIN` has two staff-name consumers. The main rolling credits contain
-28 FONT16 names in six-cell/96-pixel rows; two staff-test grids contain another
-12 names in seven-cell/112-pixel rows. All 40 people are independently authored
-under `assets/text/credits/names.json`. The translated renderer precomposes each
-complete proportional name into the fixed row and horizontally scales only an
-overflowing row, rather than truncating the person's name or maintaining a
-short runtime alias. Names may contain at most 18 generated FONT16 glyphs.
+`END_ROLL.BIN` shows staff names in two places. The main scrolling credits have
+28 FONT16 names in six-cell (96px) rows, and two staff test grids have another
+12 names in seven-cell (112px) rows. All 40 people have their own entry in
+`assets/text/credits/names.json`. The English renderer draws each full name in
+proportional type and squeezes it horizontally only if it's too wide, rather
+than cutting the name off or keeping a short version. Names can be at most 18
+generated FONT16 glyphs.
 
 ### Save/Load Screens
 
-SAVE and LOAD list three slots using FONT16. Their headings and top selectors are
-image lettering, not FONT text: LOAD, NEW GAME, and SAVE remain stock image
-glyphs, while the 104-by-24 INTERNAL/CARTRIDGE selector variants are owned by
-the visual package. `assets/text/save_load.json` still owns those semantic
-labels so another platform or a future regenerated raster does not need to
-invent them, but the Saturn text package must not catalogue their pixels as
-physical text records.
+SAVE and LOAD list three slots using FONT16. Their headings and top selectors
+are images, not font text: LOAD, NEW GAME and SAVE are the original image
+lettering, and the 104x24 INTERNAL/CARTRIDGE selector images come from the
+graphics package. `assets/text/save_load.json` still has entries for those
+labels so another platform or a future regenerated image has something to work
+from, but the Saturn text package doesn't treat their pixels as text records.
 
-An empty slot displays `未使用` / `EMPTY`. The stock source stores five visible
-cells and the English field has an 80-pixel bound. SAVE and LOAD contain
-identical physical copies; the source manifest validates both through one
-semantic record. Inter-character centring blanks and the slot's unused
-one-glyph left margin are geometry, not authored text.
+An empty slot shows `未使用` / `EMPTY`. The original stores five visible cells
+and the English version has an 80px limit. SAVE and LOAD each have an identical
+copy, and both are checked against the one entry. The blank cells used for
+centring, and the unused one-glyph left margin, are layout rather than text.
 
-A populated slot has two rows. The first row contains a player name followed
-by a location. The original name segment is three given-name cells, one
-separator cell, and three family-name cells. The translated renderer has an
-eight-cell/128-pixel strip. The complete editable template is
-`{first_name} {last_name}`: the renderer supplies the saved values and may omit
-the asset-owned separator when either value is empty. The current Saturn
-compiler still requires `{first_name}` before `{last_name}` because its trusted
-path reads the adjacent save fields in that order; honoring a reversed template
-requires a second renderer path and remains explicit debt. This
-`save_load.json` field controls visible slot layout only. The shared
-`NAME_FW_FULL` storage row is rebuilt independently from
-`player_profile.json#full_name_storage.text`; both Profile Entry and LOAD use
-that one authored order and separator, so editing the slot display cannot
-silently change runtime player-name storage. A special fixed location has seven Japanese cells or
-112 English pixels. A generated dungeon label has the same seven-cell stock
-field but a proved 144-pixel translated limit because it may append an editable
-floor form.
+A filled slot has two rows. The first row is the player's name followed by a
+location. In the original, the name is three given-name cells, one separator
+cell and three family-name cells. The English renderer has an eight-cell
+(128px) strip. The editable template is `{first_name} {last_name}`. The
+renderer fills in the saved values and may drop the separator if either name is
+empty. The Saturn compiler currently needs `{first_name}` before `{last_name}`,
+because it reads the two save fields in that order. Supporting the reverse
+order would need a second renderer path and hasn't been done.
 
-The second row has independently bounded fields:
+That `save_load.json` entry only controls how the slot looks. The stored name
+row `NAME_FW_FULL` is built separately from
+`player_profile.json#full_name_storage.text`. Profile Entry and LOAD both use
+that one order and separator, so changing the slot display can't change how the
+player's name is stored.
+
+A fixed special location has seven Japanese cells or 112 English pixels. A
+generated dungeon label uses the same seven-cell field in the original, but
+has a 144px English limit because it can have a floor added.
+
+The second row has separate fields, each with its own limit:
 
 - `Lv{level}`: four Japanese cells or 64 English pixels;
 - `{day}／{month}` / `{day}/{month}`: five cells or 80 pixels;
 - `{hour}：{minute}` / `{hour}:{minute}`: five cells or 80 pixels.
 
-Day, month, hour, minute, level, location identity, floor number, and player
-names are runtime values. They are not translatable literals. Alignment blanks
-and the non-zero-padded numeric field geometry also remain layout. The visible
-`Lv`, date slash, time colon, and `地下…階` floor scaffold are authored text:
-their identical SAVE/LOAD FONT16 copies are extracted and bound as literal
-scaffolds of the complete `save_load.json` slot templates and
-`field/location_formats.json` floor template. The same floor record supplies
-the final `階` glyph for positive floors; the complete above-ground form remains
-an independently editable template even though it has no separate stock
-literal record.
+Day, month, hour, minute, level, location, floor number and player names are
+filled in at runtime and aren't translatable. Alignment blanks and the
+unpadded number layout are also just layout. The visible `Lv`, date slash, time
+colon and `地下…階` floor wording are text: the identical FONT16 copies in SAVE
+and LOAD are extracted and tied to the slot templates in `save_load.json` and
+the floor template in `field/location_formats.json`. The same floor record
+supplies the final `階` for above-ground floors. The above-ground form is a
+separate editable template, even though the original has no separate record
+for it.
 
-On SAVE, selecting an occupied slot opens a one-row prompt (`記録の更新をしますか？`
+On SAVE, choosing an occupied slot shows a one-row prompt (`記録の更新をしますか？`
 or `ゲームを終了しますか？`) followed by the FONT16 choices `YES` and `NO`.
 Prompts are 11 Japanese cells or 176 English pixels; choices are three cells or
-48 pixels. The stock-English choice records are physical text and remain
-editable despite needing no translation.
+48 pixels. `YES` and `NO` are already English but are still editable.
 
-SAVE/LOAD system text has separate contracts rather than one generic message
-surface: small failures are three rows of 11 Japanese cells or 176 English
-pixels; capacity messages are two rows of 17 cells or 272 pixels; the start
-warning is four rows of 20 cells or 320 pixels; and the storage-management
-warning is six rows of 20 cells or 320 pixels. The standalone capacity display
-is three cells. `capacity_number.text` is the sole authored owner of `129`;
-typed `{capacity_blocks}` substitutions materialize that value into each
-complete prose template and the direct LOAD record at `LOAD.BIN` `0xB1AE`.
-Translated rows must satisfy both their pixel width and their encoded-glyph
-ceiling. Those ceilings are 16 for a special location, 24 for a dungeon
-location, 17 for the joined player name, 4 for level, 5 for date/time and the
-empty state, 11 for prompts, 3 for choices, 24 per small-message row, 25 per
-capacity-message row, 63 per warning row, and 3 for the capacity value.
+The SAVE/LOAD system messages each have their own limits rather than sharing
+one message box:
 
-PSP reuses the shared location identities and general save semantics without
-copying translations. Its game title, slot title, difficulty labels, cancel
-prompts, fallback location, and complete `psp_detail` template remain PSP-only
-fields because that savedata presentation is a different consumer layout from
-the Saturn two-row slot.
+| Message | Rows | Japanese | English |
+| --- | --- | --- | --- |
+| Small failures | 3 | 11 cells | 176px |
+| Capacity messages | 2 | 17 cells | 272px |
+| Start warning | 4 | 20 cells | 320px |
+| Storage-management warning | 6 | 20 cells | 320px |
+| Capacity number on its own | 1 | 3 cells | — |
+
+The number `129` is only written once, in `capacity_number.text`. The
+`{capacity_blocks}` placeholder copies that value into each message, and into
+the LOAD record at `LOAD.BIN` `0xB1AE`.
+
+English rows have to fit both a pixel width and a maximum number of encoded
+glyphs:
+
+| Field | Max glyphs |
+| --- | --- |
+| Special location | 16 |
+| Dungeon location | 24 |
+| Joined player name | 17 |
+| Level | 4 |
+| Date, time, empty slot | 5 |
+| Prompts | 11 |
+| Choices | 3 |
+| Small-message row | 24 |
+| Capacity-message row | 25 |
+| Warning row | 63 |
+| Capacity value | 3 |
+
+PSP reuses the same location entries and general save wording, without copying
+translations. Its game title, slot title, difficulty labels, cancel prompts,
+fallback location and `psp_detail` template are PSP-only entries, because the
+PSP save screen is laid out differently from the Saturn two-row slot.
 
 
 ### Event Window
@@ -208,10 +227,10 @@ Most of the game's dialogue displays through this window.
 There is space for 20 FONT16 characters per row, and 3 rows.
 The game rendered resolution can change. It's always the internal 352x224, but depending on the scene, black bars are used to reduce the effective resolution down to a width of 320px. At its minimum width, it renders with no margins, across this full 320px span.
 
-Patch policy: the English renderer intentionally wraps within 300px, using a
-10px margin on each side of that 320px surface. This shared geometry matches
-the PSP implementation for translation and preview parity; it is not intended
-to reproduce the stock edge-to-edge wrap.
+The English renderer wraps within 300px on purpose, leaving a 10px margin on
+each side of that 320px area. This matches the PSP version so translations and
+previews behave the same on both. It doesn't try to copy the original
+edge-to-edge wrapping.
 
 The font blits smoothly in event dialogues, at ~1 frame per glyph. Pressing A mid-typewriter accelerates this to ~1 frame per row instead.
 
@@ -235,38 +254,36 @@ The active option is highlighted yellow.
 
 #### Portrait-scene overlay (`MSGR.COF`)
 
-Portrait scenes are not a separate authored dialogue family. The overlay loads
+Portrait scenes aren't a separate set of dialogue. The overlay loads
 `MESFILE.EVE`, `EVFILE_0.EVE` through `EVFILE_2.EVE`, and `SHOPSMP.EVE`, so its
-ordinary prose and choices use the same `event.dialogue` and
-`event.choice_option` assets and wrapping as the Event Window above: three rows
-of 20 fixed cells in Japanese, or a 300-pixel row in the translated renderer.
-The text build therefore produces no MSGR-specific prose bank.
+dialogue and choices use the same `event.dialogue` and `event.choice_option`
+entries and wrapping as the Event Window above: three rows of 20 fixed cells in
+Japanese, or a 300px row in English. The text build doesn't produce a separate
+MSGR dialogue bank.
 
 Portrait dialogue can insert all 319 demon names, all 43 race names, and the
-three directly selectable character names Hajime, Rei, and Kyouji from their
-shared semantic assets. All six CHARNAME rows are sourced and packed to retain
-the shared table layout, but indices 3–5 are not accepted by the proved
-character-insert handler. First name, last name, codename, city, and ward are
-typed runtime values in the existing EVENT templates. The name adapters stage
-at most 20 glyphs into the normal dialogue stream. That is a runtime
-insertion-token/storage ceiling, not the visible width of a dialogue row;
-display measurement and wrapping still use the 300-pixel, three-row EVENT
-surface. MSGR's direct eight-byte race table is a compatibility mirror of the
-same 43 race fields; only the UMA row differs in the mature translated
-executable.
+three selectable character names Hajime, Rei and Kyouji, all from the shared
+entries. All six CHARNAME rows are built so the table keeps its layout, but the
+character-insert code doesn't accept indices 3–5. First name, last name,
+codename, city and ward are runtime values in the existing EVENT templates. The
+name inserts can put at most 20 glyphs into the dialogue stream. That's a limit
+on the insert itself, not the visible width of a dialogue row; measuring and
+wrapping still use the 300px, three-row event window. MSGR's own eight-byte
+race table mirrors the same 43 race entries; in the older finished English
+build only the UMA row differs.
 
-Three failure paths draw fixed ASCII tile glyphs directly into a one-row,
-64-cell VDP2 pattern-name buffer. `NAME TO ID ERR` and `LOAD ERR` begin at cell
-10; `ERROR: MENU COUNT OVER` begins at cell 0. Their padded executable records
-hold respectively 15, 9, and 23 visible ASCII bytes plus a NUL. These messages
-remain editable in `assets/text/system/debug.json`, with exact physical records
-bound to `portrait_scene.debug_message`. The glyph rasters are embedded in
-MSGR rather than FONT8 or FONT16, so replacing their wording is text work while
-changing their letterforms is a font/image task.
+Three error paths draw fixed ASCII tile glyphs directly into a one-row, 64-cell
+VDP2 pattern-name buffer. `NAME TO ID ERR` and `LOAD ERR` start at cell 10;
+`ERROR: MENU COUNT OVER` starts at cell 0. Their padded records in the
+executable hold 15, 9 and 23 visible ASCII bytes respectively, plus a NUL. The
+wording is editable in `assets/text/system/debug.json`, mapped to
+`portrait_scene.debug_message`. The glyph images are built into MSGR rather
+than coming from FONT8 or FONT16, so changing the wording is a text job, but
+changing the letter shapes is a font/image job.
 
-Other readable ASCII in MSGR consists of resource names, file names, lookup
-tables, and developer/runtime mechanics; no additional on-screen prose path was
-proved by the consumer trace.
+The rest of the readable ASCII in MSGR is resource names, file names, lookup
+tables and internal stuff. Tracing the code didn't turn up any other on-screen
+text.
 
 ### Profile Entry
 
@@ -274,17 +291,15 @@ The player fills out their profile by progressing through several inputs. For ea
 
 The game renders each input screen with a top prompt section, consisting of a FONT16 question (i.e., "コードネームは？") and an input area (a series of underline characters to indicate available length/spacing, with a white bounding box to indicate the active input character target).
 
-`ui/profile_entry.json` owns every prompt, choice, occupation, tab label,
-English replacement row, and default value. The shared complete-name storage
-template lives at `player_profile.json#full_name_storage.text`; Profile Entry
-and SAVE/LOAD both rebuild `NAME_FW_FULL` from its authored placeholder order
-and one literal separator. Either placeholder order is valid, with each field
-appearing exactly once. The visible SAVE/LOAD slot template remains a
-separate consumer layout. Confirmation draws the first and last fields at
-independent x positions, so its much wider visual gap is layout and does not
-override the shared storage format. Underline slots, cursor rectangles,
-highlight colours, and centering blanks are visual/layout state rather than
-additional text.
+`ui/profile_entry.json` has every prompt, choice, occupation, tab label,
+English grid row and default value. The stored full-name template is
+`player_profile.json#full_name_storage.text`; Profile Entry and SAVE/LOAD both
+build `NAME_FW_FULL` from its placeholder order and its one separator. Either
+order works, as long as each field appears exactly once. The visible SAVE/LOAD
+slot template is separate. The confirmation screen draws first and last names
+at their own x positions, so the much wider gap there is layout and doesn't
+affect the stored format. Underline slots, cursor boxes, highlight colours and
+centring blanks are layout, not text.
 
 The sequence is as follows:
 1. Full Name: ___ ___ - 3 glyphs for last/first names. This is not ideal in English. The patch currently splits this into two separate screens.
@@ -297,7 +312,7 @@ The sequence is as follows:
 The player can switch between three pages for the text input. 漢字, ひらがな, and カタカナ. The actively-highlighted page has yellow text instead of white. The position of the grid cursor is indicated by a yellow bounding box. This bounding box borders either the current glyph's cell, or the page's rectangle, depending on where it's positioned.
 
 Each page consists of a navigable input grid. Ordinary grid cells are drawn
-from `KANJI.FON`; the action cells are special, font-owned compound images.
+from `KANJI.FON`; the action cells are special combined images in the font.
 Cells have different colourations:
 
 - Blue characters: Used to indicate the start of a section on the kanji page (i.e., あ, い, う, え, お, か, き, etc.). If selected, is treated the same as a hiragana glyph input.
@@ -313,31 +328,30 @@ The kanji page consists of a full-window grid, 8 rows tall, 19 rows wide, with t
 The hiragana and katakana pages consist of three small grids distributed evenly and centered inside the window.
 Each grid is 6 rows, 5 columns. The first and second grids are the standard kana and small vowels/ya/yu/yo/tsu/katakana-vu. The third grid consists of dakuten/handakuten variants, and the dash and interpunct. It also has the left/right arrows and END command button.
 
-The mature English replacement retires those pages in favour of three tabs,
-`UPPER`, `lower`, and `SYMBOL`. It still draws eight navigable rows of 19 cells,
-with up to 13 authored content cells starting at column three. Its six row
-strings are editable assets. Every cleared navigable cell remains a selectable
-blank; the trailing space in the second SYMBOL row is the one blank that is
-part of authored row content. The grid text uses the named `KANJI.FON`
-`ark_latin` set, which replaces the required cells with origin-aligned 16px Ark
-glyphs. Generated ink bounds let NAME.BIN center every visible glyph inside its
-navigable cell at runtime. The typed eight-cell cursor row is centered by the
-same runtime layout principle using the existing FONT16 metrics.
+The English version replaces those pages with three tabs: `UPPER`, `lower` and
+`SYMBOL`. It still draws eight navigable rows of 19 cells, with up to 13
+characters per row starting at column three. The six row strings are editable.
+Every emptied cell can still be selected as a blank. The trailing space in the
+second SYMBOL row is the only blank that's actually part of the row text. The
+grid uses the `ark_latin` glyph set in `KANJI.FON`, which replaces the needed
+cells with 16px Ark glyphs. NAME.BIN uses the generated ink bounds to centre
+each glyph in its cell at runtime. The typed eight-cell input row is centred the
+same way, using the existing FONT16 metrics.
 
-Stock physically stores `漢字`, `ひらがな`, and `カタカナ` twice: once in the
-combined tab row and once in each selected-tab template. Each byte-identical
-pair has one semantic asset owner and two source locations. Katakana remains
-inventoried even though the English runtime leaves it dormant. The city `市`
-and ward `区` suffix glyphs are likewise physical editable records, although
-the split English screens retire that stock address scaffold.
+The original stores `漢字`, `ひらがな` and `カタカナ` twice: once in the row of
+tabs, and once in each selected-tab template. Each identical pair has one entry
+with two source locations. Katakana is still listed even though the English
+version doesn't use it. The city `市` and ward `区` suffix glyphs are also
+editable records, although the split English screens don't use that address
+layout.
 
-The left/right controls and `終了` are semantic text but their retail rasters are
-font/image-owned compounds, not ordinary grid strings. `grid_end.text` records
-the editable `END` meaning and the two original `FONT16` cells explicitly. The
-mature English code selects the stock action through display code `0x01F7`, so
-a different visible label requires coordinated engine/font output rather than
-an asset-only substitution. The English replacement does not currently draw
-the left/right actions.
+The left/right arrows and `終了` are text in meaning, but in the original
+they're combined font images, not ordinary grid strings. `grid_end.text`
+records the editable `END` meaning and the two original `FONT16` cells. The
+older finished English code draws the original action through display code
+`0x01F7`, so showing a different label needs engine and font changes, not just
+an asset edit. The English version doesn't currently draw the left/right
+arrows.
 
 #### Codename Input
 
@@ -363,66 +377,69 @@ The blocks are:
 
 これで　いいですか？　　YES　NO
 
-The mature English confirmation builder had one parity defect: it omitted the
-terminating `0x8000` word after its 19-cell template, allowing the stock drawer
-to continue into the following `漢字` data. The current `profile_entry.ui`
-builder terminates that span explicitly. This is a documented output
-correction, not wording preserved in an asset.
+The older finished English build had one bug here: it left out the `0x8000`
+terminator after its 19-cell template, so the game's drawing code ran on into
+the `漢字` data that follows. The current `profile_entry.ui` build adds the
+terminator. This is a fix to the output, not text kept in an asset.
 
 ### 2D Map
 
-Every proved player-facing `MAP2D.BIN` string is ordinary FONT16 data. No
-MAP2D label crosses into a baked image-glyph surface. The physical inventory
-keeps the runtime pieces visible instead of treating the mature renderer's
-omissions as deleted prose: `朝日` at `0x1E684` and `平崎` at `0x1E6C0` are
-initial values shared with Profile Entry, `区` is stored at both `0x1E688` and
-`0x1E6DE`, `市` at both `0x1E6C4` and `0x1E6E2`, and `全図` at `0x1E6CA`.
-Extraction verifies each pair of suffix copies byte-for-byte. The independently
-terminated `雲` at `0x1E6D4` remains an editable unresolved asset: no absolute
-reference or live destination selector for it has yet been proved.
+All the known on-screen text in `MAP2D.BIN` is ordinary FONT16 data; none of it
+is baked into images. The inventory keeps all the runtime pieces listed, even
+the ones the older English renderer doesn't draw, rather than treating them as
+deleted:
+
+| Text | Offset(s) | Notes |
+| --- | --- | --- |
+| `朝日` | `0x1E684` | Default value, shared with Profile Entry |
+| `平崎` | `0x1E6C0` | Default value, shared with Profile Entry |
+| `区` | `0x1E688`, `0x1E6DE` | |
+| `市` | `0x1E6C4`, `0x1E6E2` | |
+| `全図` | `0x1E6CA` | |
+| `雲` | `0x1E6D4` | Separately terminated; unresolved |
+
+Extraction checks that each pair of suffix copies is byte-for-byte identical.
+`雲` is still an editable but unresolved entry: nothing has been found that
+points to it or selects it.
 
 #### World Map
 
 The world map has two text consumers. All use FONT16.
 
-In the bottom-left is a grey rectangle with the complete source template
-`{city}市全図`. The city component is centered within its four-cell allocation;
-the complete human-facing rectangle is six Japanese cells or 96 translated
-pixels. `ui/map_2d.json#world_city_label.text` owns the template and translates
-it as `{city}`. The mature English adapter constructs the city inside a stricter
-64-pixel internal component and deliberately omits both suffixes. That internal
-policy does not shrink the 96-pixel surface contract or leave `市全図` as
-hand-maintained renderer text.
+In the bottom-left is a grey rectangle with the original template
+`{city}市全図`. The city name is centred in a four-cell space, and the whole
+rectangle is six Japanese cells or 96 English pixels.
+`ui/map_2d.json#world_city_label.text` holds the template, translated as
+`{city}`. The older English code builds the city name in a narrower 64px space
+and leaves out both suffixes. That doesn't shrink the 96px limit, and `市全図`
+isn't left as hard-coded renderer text.
 
-In the top-right are conditionally displayed destination rectangles. Each is
-four Japanese cells or 64 translated pixels and is horizontally centered. The
-dynamic source template is `{ward}区`, translated as `{ward}`. Five fixed
-records reuse the shared location catalogue: Rinkai Park, Mt. Kasagi, Yarai
-Ward, Chuo Ward, and Hibarigaoka. Only Mount Kasagi needs a MAP2D-specific
-compact variant: the canonical `Mount Kasagi` is 69 pixels, while `Mt. Kasagi`
-is 55 pixels and fits this strip. Identical fixed forms are not copied into a
-second map catalogue.
+In the top-right are destination boxes that appear depending on context. Each
+is four Japanese cells or 64 English pixels, centred horizontally. The dynamic
+template `{ward}区` is translated as `{ward}`. Five fixed names reuse the
+shared location list: Rinkai Park, Mt. Kasagi, Yarai Ward, Chuo Ward and
+Hibarigaoka. Only Mount Kasagi needs a short map-only version: `Mount Kasagi`
+is 69px, while `Mt. Kasagi` is 55px and fits. Names that are the same aren't
+copied into a second map list.
 
 #### Area Map
 
-Within each area, the bottom-left rectangle has eight Japanese cells or 128
-translated pixels. Stock draws two independently centered four-cell components:
-the complete `{city}市` city label followed by the current `{area}` label. These
-are separately authored templates. The mature English adapter explicitly
-suppresses the city component on this screen and renders the area alone; the
-asset does not silently discard a city placeholder, and the human surface
-remains the proved eight-cell rectangle.
+Inside each area, the bottom-left rectangle is eight Japanese cells or 128
+English pixels. The original draws two separately centred four-cell pieces:
+the `{city}市` city label, then the current `{area}` label. These are separate
+templates. The older English code hides the city on this screen and shows only
+the area. The asset still has the city placeholder, and the area is still the
+full eight-cell rectangle.
 
 While exploring the map, the player may traverse over a conversation point. This displays on the screen in a large pair of green boxes:
 "＞誰かいる。話しかけますか？"
 and vertically stacked, "YES", "NO".
 
-The prompt and choices reuse the shared field-message assets. The prompt is a
-14-cell/224-pixel FONT16 surface; its mature English text is 32 proportional
-glyphs advancing 171 pixels and is precomposed into those cells. Each choice
-uses the proved three-cell/48-pixel surface, with a three-glyph encoded-row
-ceiling. Their physical records remain at `0x1E756`, `0x1E774`, and `0x1E77C`
-respectively.
+The prompt and choices reuse the shared field-message entries. The prompt is a
+14-cell (224px) FONT16 area; the older English text is 32 proportional glyphs,
+171px wide, pre-drawn into those cells. Each choice is three cells (48px), with
+at most three encoded glyphs. Their records are at `0x1E756`, `0x1E774` and
+`0x1E77C` respectively.
 
 ### 3D Map
 
@@ -434,11 +451,11 @@ Below the location text is another 4 glyph strip for floor information. The form
 
 #### Elevator floors
 
-Elevator destinations reuse the four-cell FONT16 floor strip but are a distinct
-authored surface. The translated renderer is proportional within the same
-64-pixel buffer. `field/elevator.json` owns the conditional lower symbol, the
-floor symbol, and the complete definition; its current English expansion is
-`{lower_symbol}{floor_number}{floor_symbol}`, producing `4F` or `B1F`.
+Elevator destinations use the same four-cell FONT16 floor strip, but have their
+own entries. The English renderer draws them proportionally in the same 64px
+buffer. `field/elevator.json` has the optional basement symbol, the floor
+symbol and the full template; the current English template is
+`{lower_symbol}{floor_number}{floor_symbol}`, giving `4F` or `B1F`.
 
 In the top-left of the 3D map is the moon phase and currency information. The game uses FONT8 to render two rows of 4 letters for the moon phase. These can include English texts, "NEW", "FULL" and "MOON". The first two being on the top row, the latter being on the bottom.
 
@@ -448,28 +465,25 @@ All of the grid text is rendered in FONT8.
 
 Pressing R (default) in the 3D Map view opens the Demon Analyze table. The table includes columns for "RACE", "NAME', "LV", "HP", "MP', "ATK", "DEF". Highlighting a column header sorts the table by that metric. The player can scroll down the table to view the demons they've encountered thus far.
 
-On the 352-pixel raster, the header starts are x=28, 80, 156, 202, 236,
-264, and 300. Their corresponding one-row limits are 52, 76, 46, 34, 28,
-36, and 52 pixels. The stock header baseline is y=20. These fixed Latin
-headings use the original Japanese FONT8 English alphabet rather than the
-mixed-case replacement face. This choice is stored on each authored heading as
-`font8_alphabet: original`; omission means the replacement face.
+On the 352px-wide screen, the headers start at x=28, 80, 156, 202, 236, 264 and
+300, with one-row limits of 52, 76, 46, 34, 28, 36 and 52 pixels. The headers
+sit on y=20. These English headings use the original Japanese FONT8 English
+letters rather than the new mixed-case font. Each heading entry sets
+`font8_alphabet: original` for this; leaving it out means the new font.
 
-The table shows 16 rows at y=32 through y=212 in 12-pixel steps. Row fields
-start at x=28 for race, x=80 for name, then x=164, 208, 244, 280, and 316 for
-the five numeric values. Each demon's Japanese row consists of a five-kana
-race and an eight-glyph demon name. The translated race has 52 pixels and the
-translated name has 84 pixels before the first numeric value. Wider names are
-not clipped by the mature renderer, so over-limit authored values remain a
-surface-validation issue rather than being silently truncated.
-With the current FONT8 metrics, `Yamata-no-Orochi` advances 93 pixels and
-`Yomotsu-Shikome` 88 pixels, so those two active names exceed the actual
-84-pixel row gap. `Take-Mikazuchi` and `Jack-o'-Lantern` exceed the 76-pixel
-header-column span but still fit the row's later numeric start.
+The table shows 16 rows from y=32 to y=212, 12 pixels apart. Race starts at
+x=28, name at x=80, and the five numbers at x=164, 208, 244, 280 and 316. In
+Japanese each row is a five-kana race and an eight-glyph name. In English the
+race gets 52px and the name gets 84px before the first number. The older
+English renderer doesn't clip long names, so names that are too long are
+flagged by validation rather than cut off. With the current FONT8 metrics,
+`Yamata-no-Orochi` is 93px and `Yomotsu-Shikome` 88px, so both are wider than
+the 84px gap. `Take-Mikazuchi` and `Jack-o'-Lantern` are wider than the 76px
+header column but still fit before the first number.
 
-The 43 physical grid race spellings are katakana source variants of the same
-semantic race entries used by the FONT16 detail view. They do not create a
-second translation catalogue.
+The 43 race spellings in the grid are katakana versions of the same race
+entries used by the FONT16 detail view. They don't need a second translation
+list.
 
 Selecting a demon from the list opens its status screen.
 
@@ -487,10 +501,10 @@ Selecting a marker on the map displays a small window in the top-left. 3 rows, 6
 "   YES"
 "    NO"
 
-The translated popup retains those three rows with a 64px limit per row. Its
-separately stored `(No data)`, `Delete?`, `Yes`, and `No` fields are authored
-text, not renderer literals. The MAZE interaction choices use their original
-three-cell footprint, measured as a 48px translated row.
+The English popup keeps those three rows, with a 64px limit per row.
+`(No data)`, `Delete?`, `Yes` and `No` are separate editable entries, not
+hard-coded in the renderer. The MAZE interaction choices keep their original
+three-cell size, measured as 48px in English.
 
 #### Auto Recovery
 
@@ -506,11 +520,11 @@ Along with having the existing "Someone is here, will you talk?" message prompts
 {mag_symbol}{currency_amount}を手に入れた
 etc.
 
-The yen and magnetite paths use distinct leading symbol glyphs before the
-formatted amount. Both currency paths and the successful item-acquisition path
-reuse the same stored `を手に入れた` suffix, but they are separate
-human-facing templates. The runtime selects the authored use and supplies the
-typed item or amount; it must not own the symbol or surrounding wording.
+The yen and magnetite messages each start with their own symbol glyph before
+the amount. Both money messages and the "obtained item" message share the same
+stored `を手に入れた` suffix, but they're separate templates for editing. The
+code picks the message and fills in the item or amount; the symbol and
+surrounding words come from the asset.
 
 Some may also appear briefly before an encounter transition, warning of an ambush or advantage.
 
@@ -521,20 +535,19 @@ Some may also appear briefly before an encounter transition, warning of an ambus
 
 The party panels are a set of six rectangular panels located near the bottom of the screen.
 Each panel consists of two rows. The top is a FONT8 consumer, 8 glyphs (though space for ~12); it's the demon/player/unit's name (left-justified) or "EMPTY" (centered) when no unit is present.
-The bottom row uses FONT6 and consists of the HP/MP labels and dynamic values. It may not require a special renderer hook, but its visible labels/templates must still be asset-owned.
+The bottom row uses FONT6 and consists of the HP/MP labels and dynamic values. It may not require a special renderer hook, but its visible labels/templates should still have editable entries.
 
-COMBAT constructs the sentinel top rows directly in code. `EMPTY` is a
-five-cell row and the related stock-party list uses the eight-cell `IN PARTY`
-row. Both are now complete fields in `assets/text/battle/party_panel.json` and
-the fields explicitly select `font8_alphabet: original`, which resolves through
-the preserved FONT8 `stock_latin` set. Padding and centering remain renderer
-layout.
+COMBAT builds the placeholder top rows in code. `EMPTY` is a five-cell row, and
+the related stock-party list uses the eight-cell `IN PARTY` row. Both are
+entries in `assets/text/battle/party_panel.json`, set to
+`font8_alphabet: original`, which uses the original FONT8 `stock_latin` glyph
+set. Padding and centring are left to the renderer.
 
-The MAZE stock-party list is also migrated. Its compact FONT8 renderer shares
-the same asset-driven 319-demon/six-character name compiler as the COMP menu,
-but owns separate MAZE code caves and three call-site pointers. Long names use
-the bounded packed-name path; edits may relocate the drawer within its declared
-2,048-byte arena, and all three links are rebuilt from the resulting label.
+The MAZE stock-party list is also done. Its compact FONT8 renderer uses the same
+319-demon, six-character name compiler as the COMP menu, but has its own MAZE
+code caves and three call-site pointers. Long names use the packed-name path.
+Edits can move the drawing code anywhere in its 2,048-byte space, and all three
+calls are relinked to wherever it ends up.
 
 #### Analyze
 
@@ -550,7 +563,7 @@ Line 6 is "B.ST" for most demons. Not honestly sure what this means.
 Then there's a small gap
 Line 7 (FONT12) is the demon's affinity; 5 glyphs
 
-If the player hasn't obtained the demon's analyze data, instead of showing anyting beyond the top two lines, the game will show "NO DATA" centered in the area below them (around line 5).
+If the player hasn't obtained the demon's analyze data, instead of showing anything beyond the top two lines, the game will show "NO DATA" centered in the area below them (around line 5).
 
 Pressing R again pages the window. Lines 1 and 2 remain the same, but 3 onwards are replaced with a list of FONT8 strings for each of the demon's known skills (up to 7).
 
@@ -564,24 +577,21 @@ This can be the command (i.e., FIGHT - "悪魔との戦闘") or more specific, l
 
 These are displayed in English already, using the game's FONT8 text.
 
-These command labels intentionally use the stock Japanese FONT8 Latin face.
-The translated font must preserve that alphabet as a separately selectable
-glyph set; ordinary mixed-case FONT8 consumers use the replacement English
-face instead.
+These command labels use the original Japanese FONT8 English letters on
+purpose. The new font has to keep that alphabet as a separate glyph set;
+ordinary mixed-case FONT8 text uses the new English letters instead.
 
 Options include "FIGHT, TALK, ESCAPE, AUTO, SWORD, GUN, COMP, ITEM, MOVE, GUARD, GO, OFFENSE, DEFENSE, RETURN, PRESET, REPEAT".
 
-The retail battle action table is present as three byte-identical physical
-copies in COMBAT, MAZE, and NORMCOM. Its exact visible spellings are `OFFENCE`
-and `DEFENCE`; these are retained as consumer-specific variants of the shared
-`OFFENSE` and `DEFENSE` terminology. The four item/skill actions and the rest
-of that table are physically catalogued. An exhaustive COMBAT storage and
-call-site audit found no byte or word text records for the primary selectors
-`FIGHT`, `TALK`, `ESCAPE`, `AUTO`, `PRESET`, and `REPEAT`: their retail English
-lettering is preserved precomposed graphic/font content rather than this text
-table. Their semantic fields remain authored, but changing their visible
-lettering requires the corresponding graphic/font path, not an invented binary
-text binding.
+The battle action table exists as three identical copies, in COMBAT, MAZE and
+NORMCOM. The actual spellings there are `OFFENCE` and `DEFENCE`; these are kept
+as screen-specific variants of the shared `OFFENSE` and `DEFENSE` terms. The
+four item/skill actions and the rest of the table are listed. A full search of
+COMBAT's data and the code that calls into it found no text records for the
+main commands `FIGHT`, `TALK`, `ESCAPE`, `AUTO`, `PRESET` and `REPEAT`: their
+English lettering is pre-drawn graphics/font data, not part of this table.
+They still have entries for their meaning, but changing how they look means
+editing those graphics, not adding a made-up text binding.
 
 #### Item/Skill Windows
 
@@ -593,17 +603,16 @@ The skill window also includes non-skill options, like ATTACK, MAGIC, EXTRA, GUA
 
 Talking to demons uses a very similar window to the standard event window. However, some additional actions can occur here.
 
-The stock Japanese dialogue area is three rows of 20 FONT16 glyph cells. The
-translated renderer has three rows and a 300-pixel usable width. This is a
-separate `battle.negotiation_dialogue` consumer even though its measured
-geometry matches the event window.
+The Japanese dialogue area is three rows of 20 FONT16 cells. The English
+renderer has three rows, 300px wide. It's a separate
+`battle.negotiation_dialogue` entry even though its size matches the event
+window.
 
-Four-way replies use a two-column by two-row FONT16 grid. Each physical column
-is 150 pixels wide. The longest clean reference visible in the mature English
-screen, `Because it will be convenie`, measures exactly 142 pixels with the
-generated FONT16 advances. Translation tooling therefore treats 142 pixels as
-a non-blocking advisory maximum: wider options remain editable and saveable,
-but receive a layout warning.
+Four-way replies use a two-by-two FONT16 grid, with each column 150px wide.
+The longest clean line visible in the older English build,
+`Because it will be convenie`, is exactly 142px with the generated FONT16
+widths. The tools treat 142px as a soft limit: wider options can still be
+saved, but get a layout warning.
 
 Demons can request items, which are highlighted in blue text.
 
@@ -643,23 +652,29 @@ Row 4: "ITEM"
 Rows 5-7(?): Items obtained from the battle, if any; else empty
 Bottom row: "ませき" [number of lifestones obtained] "ほうぎょく" [number of beads obtained]
 
-The translated shared battle runtime now covers the party names, Analyze race
-heading/name/affinity fields, item and skill lists, the help strip, Demon Chat,
-result names and labels, and the complete fixed-width console bank. Its measured
-English limits are 80 pixels for item, skill, and party names; 112 pixels for
-Analyze names and affinities; 300 pixels by two rows for help; 176 pixels by two
-rows for Demon Chat; and 88 pixels for result names. The Analyze race heading is
-an eight-cell FONT8 record rather than a measured variable-width slot.
+The English battle code covers party names, the Analyze race heading, name and
+affinity, item and skill lists, the help strip, Demon Chat, result names and
+labels, and the whole fixed-width console bank. Measured English limits:
+
+| Text | Limit |
+| --- | --- |
+| Item, skill and party names | 80px |
+| Analyze names and affinities | 112px |
+| Help | 300px, two rows |
+| Demon Chat | 176px, two rows |
+| Result names | 88px |
+
+The Analyze race heading is a fixed eight-cell FONT8 record rather than a
+measured proportional slot.
 
 ### Ritual Console
 
-The NORMCOM ritual sequence uses its own `BUTU_SRF.MDT` FONT16 pointer bank. It
-is not a Demon Chat alias even though both are console-like overlays. All 144
-physical rows remain catalogued; 64 visible rows bind to independently editable
-`ritual/console.json` fields and the other 80 remain blank binary evidence. The
-translated renderer has a proved 176-pixel width. Its row count has not yet been
-measured and remains explicitly unknown rather than borrowing Demon Chat's
-two-row contract.
+The NORMCOM ritual sequence has its own `BUTU_SRF.MDT` FONT16 pointer table. It
+isn't the same thing as Demon Chat, even though both look like console
+overlays. All 144 rows are listed; 64 visible rows map to separate entries in
+`ritual/console.json`, and the other 80 are blank and kept as-is. The English
+renderer is 176px wide. The number of rows hasn't been measured yet and is left
+as unknown rather than assuming Demon Chat's two rows.
 
 
 ### COMP Menu
@@ -667,16 +682,15 @@ two-row contract.
 The COMP menu consists of a top 2-row FONT16 Help strip, a block of the 6 active party panels, and another block of the 12 stock demons.
 
 Its top-level FONT8 commands are `COMP`, `MAGIC`, `ITEM`, `EQUIP`, and `STATUS`.
-They use the preserved stock Latin face and are separately editable from equal
-words used by battle or facilities.
+They use the original FONT8 English letters, and can be edited separately from
+the same words in battle or facilities.
 
-The translated COMP core now owns the two-row, 300-pixel help surface; the
-80-pixel active and stock demon-name panels; and the 80-pixel item/magic name
-grid. The 319 demon names remain single authored fields: 210 fit the direct
-eight-byte retail records, while 109 use a runtime compact overflow pool. The
-NORMCOM ritual console composes beneath this target but remains a distinct
-consumer. The equipment and detailed-status layers compose as separate checked
-stages on top rather than being hidden parts of the COMP core.
+The English COMP code handles the two-row, 300px help strip, the 80px active
+and stock demon-name panels, and the 80px item/magic name grid. Each of the 319
+demon names is one entry: 210 fit the original eight-byte records, and 109 go
+into an overflow pool at runtime. The NORMCOM ritual console is built on top of
+this but is a separate thing. The equipment and detailed-status screens are
+built as separate stages on top, rather than being folded into the COMP code.
 
 There's also a window in the top-left with the submenus listed. This window serves as an effective margin for the Help window when it's visible.
 
@@ -711,21 +725,19 @@ This shows narrow FONT8x12 (I believe?) stat glyphs, and beside each one, the co
 We have 力　知　魔　耐　速　運 stacked vertically, with space beside them for 2 FONT8 digits.
 Then, another column of 剣攻撃 ＿命中 (the _ represents an empty space here for alignment, not a literal underscore)　銃攻撃　＿命中　防衛　回避　魔法威力　＿＿防衛.
 
-The implemented `equipment.ui` contract treats this and the shop equipment
-panel as two consumers of one editable surface. Auto/Unequip are 40-pixel
-FONT8 labels; base and derived headings have 23- and 48-pixel slots; item names
-use 80 pixels. The shop comparison consumer additionally has a 72-pixel
-character-name slot and the existing 16-pixel `Inv.` label. Cursor boxes and
-numeric substitution remain engine layout; every visible word is resolved from
-`assets/text`.
+`equipment.ui` treats this screen and the shop's equipment panel as two uses of
+the same text. Auto/Unequip are 40px FONT8 labels; base and derived stat
+headings get 23px and 48px; item names get 80px. The shop comparison also has a
+72px character-name slot and the existing 16px `Inv.` label. Cursor boxes and
+numbers are handled by the engine; every visible word comes from `assets/text`.
 
 #### Status Screen
 
 ##### Human Status
 
 The human status screen has the player/human's codename/name in the top-left in FONT16.
-It uses the same eight-cell, 128x16 name raster as the demon detail view: text
-starts at x=2, leaving a 126-pixel English contract.
+It uses the same eight-cell, 128x16 name image as the demon detail view. Text
+starts at x=2, leaving 126px for English.
 
 Below is a 5-line list in FONT8 of :
 LV ##
@@ -734,40 +746,43 @@ MP ####/####
 EXP #####
 NEXT #####
 
-The traced NORMCOM layout keeps these as separate one-row FONT8 compositions,
-not free-flowing strings. `LV` and `CP` place their dynamic value at x=40;
-`EXP` and `NEXT` place it at x=80. `HP` and `MP` place the current value at
-x=40, their shared one-cell separator at x=48, and the maximum value at x=80.
-The `LV`, `HP`, `MP`, `EXP`, and `CP` prefixes allow three glyphs, while `NEXT`
-allows seven. These starts do not establish the numbers' maximum digit counts
-or final right edges, so the complete numeric-row widths remain unmeasured.
+In NORMCOM these are drawn as separate one-row FONT8 pieces, not as free text.
+`LV` and `CP` put their value at x=40; `EXP` and `NEXT` at x=80. `HP` and `MP`
+put the current value at x=40, the shared one-cell separator at x=48, and the
+maximum at x=80. The `LV`, `HP`, `MP`, `EXP` and `CP` labels can be three
+glyphs; `NEXT` can be seven. These start positions don't tell us the maximum
+number of digits or where the numbers end, so the full row widths aren't
+measured.
 
 In the middle is a hexagon graph of the player's stat distribution. At the six points of the hexagon are the six in-game stats, 力　知　魔　耐　速　運.
 
 In the top-right  is the player's AUTO setting (i.e., AUTO SWORD), and the party alignment (i.e., "P.A. LAW"). FONT8
 
-Both the NORMCOM entry used by the field/COMP menu and the duplicated EVENT
-entry used by the Gouma-Den, healer, gym, and shops use this behavior. Both rows
-use FONT8 framing. The selected AUTO value starts at x=40 and safely
-extends through x=110. Generic AUTO commands retain the fixed-cell path, while
-item and magic selections resolve the active human or demon's full catalog name
-and draw complete glyphs with proportional FONT8 advances inside that 70-pixel
-span. This removes the stock eight-character limit. Names that fit stay on the
-shifted single-line baseline; wider names wrap at a usable space or glyph
-boundary over y=0 and y=8. The AUTO label/value and P.A. label/value blocks move
-down four pixels together, avoiding negative-y clipping. `AUTO`
-uses four of the five cells before the value; `P.A.` is exactly four cells,
-leaving the fifth cell as layout space. The separating space in each authored
-template declares that boundary; it is not another freely positioned glyph.
-The party-alignment value uses the original fixed-cell ASCII/FONT8 glyphs while
-resolving the authored `law.party_label`, `neutral.party_label`, and
-`chaos.party_label` fields from unrestricted runtime records. The 70-pixel slot
-accepts up to eight original cells; legacy fixed records remain dormant address
-sentinels for dispatch.
+This applies to both the NORMCOM version used by the field/COMP menu and the
+duplicate EVENT version used by the Gouma-Den, healer, gym and shops. Both rows
+use FONT8.
 
-The AUTO configuration item grid shares the item/magic full-name VWF used by
-the working magic grid. Its entry path also restores the stock icon atlas after
-the detailed-status atlas has occupied the shared cache.
+- The AUTO value starts at x=40 and can safely extend to x=110.
+- Generic AUTO commands still use fixed cells. Item and magic choices look up
+  the full item/spell name for the current human or demon and draw it
+  proportionally in that 70px space, which removes the original
+  eight-character limit.
+- Names that fit stay on one line (shifted down). Wider names wrap at a space
+  or between glyphs, across y=0 and y=8.
+- The AUTO and P.A. labels and values all move down four pixels together, so
+  nothing gets clipped off the top.
+- `AUTO` uses four of the five cells before the value; `P.A.` is exactly four
+  cells, with the fifth left as space. The space in each template marks that
+  split; it isn't a separately positioned glyph.
+- The party alignment value uses the original fixed-cell ASCII/FONT8 glyphs,
+  but reads the `law.party_label`, `neutral.party_label` and
+  `chaos.party_label` entries from new records with no length limit. The 70px
+  slot fits up to eight original cells. The old fixed records are kept unused,
+  as markers the code still checks against.
+
+The AUTO item selection grid uses the same full-name proportional drawing as
+the magic grid. When opened, it also puts the original icon set back after the
+detailed-status screen has replaced it in the shared cache.
 
 On the right are the player's derived stats. FONT 12 with the values as FONT8 beside, aligned to the bottom of the text.
 剣攻撃力
@@ -784,26 +799,23 @@ On the right are the player's derived stats. FONT 12 with the values as FONT8 be
 
 The demon status screen replaces the human name with two text consumers. The kanji representation of the demon's race, and the demon's name, both separate FONT16 strings.
 
-The selected demon name occupies a 128x16 raster and starts at x=2, leaving
-126 translated pixels; the race occupies a 48x16 raster and starts at x=2,
-leaving 46 pixels. The Japanese inputs are eight and three FONT16 glyphs
-respectively.
-The current `Avatar` and `Element` race translations advance 47 and 50 pixels
-in the mature FONT16 renderer, so both exceed the strict 46-pixel detail slot;
-that is retained as explicit review debt rather than hidden with truncation.
+The demon name is a 128x16 image starting at x=2, leaving 126px for English;
+the race is a 48x16 image starting at x=2, leaving 46px. In Japanese these are
+eight and three FONT16 glyphs. The current `Avatar` and `Element` translations
+are 47px and 50px in the older FONT16 renderer, so both are too wide for the
+46px slot. That's left as a known issue to review rather than being cut off.
 
-The top-left stat block is a 96x60 raster containing LV, HP, MP, and CP
-(summon cost). The four FONT8 rows begin at y=0, 12, 24, and 36; each dynamic
-value begins separately at x=40. These prefixes reuse the shared, editable
-status templates rather than introducing Analyze-only copies.
+The top-left stat block is a 96x60 image with LV, HP, MP and CP (summon cost).
+The four FONT8 rows start at y=0, 12, 24 and 36, and each value starts at x=40.
+These labels reuse the shared status templates rather than having separate
+Analyze copies.
 
 The bottom left now shows a skill table.
-This is a 96x80 FONT8 raster with six visible rows at y=8 through y=68 in
-12-pixel steps. Skill names start at x=0 and have an 80-pixel contract; the
-numeric cost is anchored at x=80 and its editable one-glyph unit at x=88.
-The complete typed templates are `{cost}M` for magic/MP costs and `{cost}H`
-for health/HP costs. The retail renderer selects M for ability IDs through 159
-and H for IDs above 159. There is no item relation in this Analyze consumer.
+It's a 96x80 FONT8 image with six visible rows from y=8 to y=68, 12 pixels
+apart. Skill names start at x=0 and get 80px; the cost number sits at x=80 and
+its one-letter unit at x=88. The templates are `{cost}M` for MP costs and
+`{cost}H` for HP costs. The original shows M for ability IDs up to 159 and H
+for anything above. Items don't appear here.
 
 The top right now shows just the AUTO command (i.e., "AUTO GO").
 Instead of derived stats, the right shows three new parameters:
@@ -811,17 +823,16 @@ Instead of derived stats, the right shows three new parameters:
 CTRL   1ST (or similar; both FONT8)
 TYPE (FONT8)  [personality string (FONT12 Kanji)]
 
-The translated Loyalty and personality rasters each have 38 usable pixels.
-Loyalty's FONT8 number begins separately at x=72; its maximum digits and final
-right edge are not yet proved. `TYPE` occupies its own four-cell FONT8 prefix,
-and the personality raster is a separate consumer, so the intervening layout
-space cannot be borrowed by either translation. `CTRL` is a ten-cell FONT8
-composition: its prefix begins at x=0 and may use five cells, while its
-three-cell rank begins at x=56. The cells between those slots are layout, not
-text. Each L/N/C/L/D alignment-axis label occupies one FONT8 cell. Law and
-Light remain separate authored fields even though both default to `L`; the
-runtime keeps the retail shared pointer when they agree and emits a dedicated
-Light pointer only when an edit makes them differ.
+The English Loyalty and personality images each have 38px. Loyalty's FONT8
+number starts at x=72; its maximum number of digits and where it ends aren't
+known yet. `TYPE` has its own four-cell FONT8 label and the personality is a
+separate image, so neither translation can use the space between them. `CTRL`
+is a ten-cell FONT8 row: the label starts at x=0 and can use five cells, and
+the three-cell rank starts at x=56. The cells in between are layout. Each
+L/N/C/L/D alignment axis label is one FONT8 cell. Law and Light are separate
+entries even though both are `L` by default; the code keeps the original shared
+pointer while they match, and only adds a separate Light pointer if they're
+edited to differ.
 
 The bottom right shows a 2D alignment axis, LNC and LND.
 
@@ -835,61 +846,61 @@ On this page we have the derived stats in the top-right:
 魔法防衛
 
 And below these, a 2 row, 8 glyph window for affinity text.
-The affinity raster is 128x32. Japanese uses two rows of eight FONT12 glyphs;
-the translated consumer uses FONT8 and may advance through 127 pixels while
-retaining the full 128-pixel surface.
+The affinity image is 128x32. Japanese uses two rows of eight FONT12 glyphs;
+English uses FONT8 and can go up to 127px while keeping the full 128px area.
 
 
 ### Level Up
 
 #### Main Panel
 
-The ordinary level-up panel is its own `LEVEL_UP.BIN` consumer. `LEVEL UP` is
-one fixed FONT8 row of eight cells. The character-name texture is 128x16: the
-Japanese path draws up to eight FONT16 cells, while the mature English path
-uses a 96px safe limit for the five asset-backed fixed names. The live player
-codename uses the same texture but is a separate dynamic consumer with the full
-128px physical row; the fixed-name limit must not be misapplied to player input.
+The level-up panel is its own thing in `LEVEL_UP.BIN`. `LEVEL UP` is one fixed
+FONT8 row of eight cells. The character name image is 128x16: Japanese draws up
+to eight FONT16 cells, while the older English version uses a 96px safe limit
+for the five fixed names. The player's codename uses the same image but is
+handled separately and gets the full 128px row; the fixed-name limit doesn't
+apply to what the player types.
 
-The parameter display reuses the six base-stat labels, eight derived-stat
-labels, and the generic Attack and Accuracy variants from the detailed status
-vocabulary. The Japanese base labels occupy one 16x16 cell; their compressed
-English forms occupy 12px. Derived labels occupy four FONT12 cells in Japanese
-and 46px in English. Generic Attack and Accuracy occupy three FONT12 cells in
-Japanese and 46px in English. These are separate LEVEL_UP bitmap consumers even
-though they share authored fields with the status screen.
+The stats reuse the six base-stat labels, eight derived-stat labels, and the
+generic Attack and Accuracy labels from the status screen:
 
-`LV`, `HP`, `MP`, `EXP`, and `NEXT` are fixed FONT8 labels composed with live
-numeric values. Their individual numeric extents are not all proved and must
-not be inferred from the generic nine-digit number drawer. The remaining-point
-display has a right-aligned value, a four-cell graphical ornament, and a
-four-cell `LEFT` suffix. Its complete renderer spans at most 17 FONT8 cells:
-nine numeric cells, four ornament cells, and four label cells. The four spaces
-stored before `LEFT` reserve the ornament and are not authored text.
+| Labels | Japanese | English |
+| --- | --- | --- |
+| Base stats | one 16x16 cell | 12px (compressed) |
+| Derived stats | four FONT12 cells | 46px |
+| Generic Attack/Accuracy | three FONT12 cells | 46px |
 
-Two exceptional numeric rows are still authored text even though retail builds
-them directly in code: maximum level replaces the seven-cell NEXT value with
-`-------`, and a character with no MP capacity displays the authored `---/---`
-form across the current/maximum MP layout. The renderer inserts one fixed
-alignment cell after the slash, producing eight displayed cells without making
-that gap translator-owned. Both fields use the preserved stock FONT8
-interpunct cell through its `-` alias, plus the preserved slash cell.
+These are drawn separately by LEVEL_UP, even though they share entries with the
+status screen.
 
-The confirmation layer draws an `OK` action label in a two-cell FONT8 slot
-beside a button glyph, plus vertical `YES` and `NO` choices in three-cell FONT8
-slots. The stored leading space before `NO` is centering, not part of the
-authored word.
+`LV`, `HP`, `MP`, `EXP` and `NEXT` are fixed FONT8 labels with live numbers
+beside them. Not all of their number widths are known, and they shouldn't be
+guessed from the general nine-digit number drawing code. The remaining-points
+display has a right-aligned number, a four-cell decoration and a four-cell
+`LEFT` label. The whole thing is at most 17 FONT8 cells: nine for the number,
+four for the decoration, four for the label. The four spaces stored before
+`LEFT` make room for the decoration and aren't part of the text.
+
+Two special number rows are still text, even though the original builds them in
+code. At max level, the seven-cell NEXT value becomes `-------`. A character
+with no MP shows `---/---` across the current/max MP layout. The renderer adds
+one fixed alignment cell after the slash, giving eight cells on screen, but
+that gap isn't part of the translation. Both use the original FONT8 interpunct
+cell (via its `-` alias) and the original slash cell.
+
+The confirmation step draws an `OK` label in a two-cell FONT8 slot next to a
+button glyph, plus `YES` and `NO` stacked in three-cell FONT8 slots. The space
+stored before `NO` is for centring, not part of the word.
 
 #### Learned Magic Window
 
-Learning an ability uses a separate conditional texture, not another row of
-the main panel. In normal play it is reached for Rei, rather than for a demon.
-Surface 19 is 144x32 and contains two FONT16 rows. The heading is drawn at
-x=2, y=0 and occupies five Japanese glyph cells; the English contract is a
-conservative 128px, with `Learned Magic` currently measuring 74px. The learned
-magic or skill name is drawn independently at x=2, y=16 and permits eight
-Japanese glyph cells or 128 English pixels. The heading, the selected ability,
-and their two-row presentation are distinct text consumers.
+Learning an ability uses a separate image that only appears when needed, not
+another row of the main panel. In normal play this happens for Rei, not for
+demons. Surface 19 is 144x32 with two FONT16 rows. The heading is drawn at
+x=2, y=0 and takes five Japanese glyph cells; the English limit is a cautious
+128px, and `Learned Magic` is currently 74px. The learned ability name is drawn
+at x=2, y=16 and allows eight Japanese glyph cells or 128 English pixels. The
+heading and the ability name are separate pieces of text.
 
 
 ### Fusion
@@ -900,21 +911,32 @@ Most fusion consumers are FONT12.
 The demon compendium doesn't exist in the original Saturn release. However, it was included in a non-gameplay form with a bonus pack-in disc "Akuma Zensho".
 This disc includes demon lore entries that would later appear in-game in the PSP version. For that reason, these should be translated and paired with their respective parent demons.
 
-The Saturn bonus-disc executable draws the selected profile from a fixed
-0x1dc-byte tail: origin is one 144px row, summary is four 224px rows, and the
-full detail is twelve 224px rows. Demon and ability names use one 128px row;
-race labels use one 48px row. English uses the narrow FONT8 raster embedded by
-the compendium renderer, while the stock fixed-cell path remains available for
-untranslated evidence and non-text graphics. The status view's six base-stat
-abbreviations use its proved single-glyph adapter; its six derived-stat rows use
-the same compact row codec as the catalogue text.
+> The translated *Akuma Zensho* build is currently broken in game. The details
+> below describe how it's meant to work.
 
-The same executable owns 48 race-description layouts: one 224px heading and
-four 224px prose rows each. Three layouts intentionally say `NO DATA` and leave
-their prose rows empty. Its eleven fusion-condition help records use two 320px
-rows. These fields, including Vengeful Spirit and Fiend, are authored and built
-by `compendium.text`; two raw supplemental race placeholders remain unresolved
-because their identities are not proved.
+The bonus disc's executable draws each demon profile from a fixed 0x1dc-byte
+block at the end of its record:
+
+| Field | Size |
+| --- | --- |
+| Origin | one 144px row |
+| Summary | four 224px rows |
+| Full detail | twelve 224px rows |
+| Demon and ability names | one 128px row |
+| Race labels | one 48px row |
+
+English uses the narrow FONT8 glyphs embedded in the compendium code; the
+original fixed-cell drawing is still used for untranslated data and non-text
+graphics. The status view's six two-letter base-stat labels use a dedicated
+single-glyph adapter; its six derived-stat rows use the same compact row codec
+as the rest of the compendium text.
+
+The same executable has 48 race description layouts, each a 224px heading plus
+four 224px rows of text. Three of them just say `NO DATA` with no text below.
+There are eleven fusion-condition help entries, each two 320px rows. All of
+these, including Vengeful Spirit and Fiend, are translated and built by
+`compendium.text`. Two raw placeholder race rows are still unresolved because
+nobody has worked out what they're for.
 
 #### Top Menus
 We have nested windows.
@@ -941,10 +963,10 @@ This strip is a FONT12 consumer at the top of the screen, one line tall. It disp
 
 #### Fusion Confirmation
 
-The prompt and status messages use one 300px FONT16 line inside a 320px
-surface, with 10px left and right margins. YES and NO retain their independent
-48px strips on the next two rows; each authored label is right-aligned within
-its strip, whose compositor placement supplies the shared screen-right edge.
+The prompt and status messages are one 300px FONT16 line inside a 320px area,
+with 10px margins on each side. YES and NO keep their own 48px strips on the
+next two rows. Each label is right-aligned in its strip, and the strips are
+placed so they line up on the right edge.
 
 #### Fusion Chart
 
@@ -968,10 +990,10 @@ Opens the status view on selection.
 
 Shops have four top-level options, BUY SELL EQUIP EXIT.
 
-These FONT8 labels, and the corresponding bar and healer labels below, use the
-preserved stock Latin face. `REVIVE` and `STATUS` are stored by the retail game
-as compound FONT8 cells, but are exposed here as normal editable words through
-explicit physical binding maps.
+These FONT8 labels, and the bar and healer labels below, use the original
+FONT8 English letters. The game stores `REVIVE` and `STATUS` as combined FONT8
+cells, but here they're editable as normal words, with a mapping to the
+original cells.
 
 #### BUY/SELL pages
 
@@ -1020,16 +1042,16 @@ There are similar info windows to the Shop screen, displaying current money, and
 ORDER shows a list of 2-row drink blocks, 7 in total.
 Each drink is represented as two rows.
 Top is 8 chars of FONT8 kana, bottom is yen symbol, with space for 7 digits (right-aligned).
-The translated drink-name row is one FONT8 line with a 64-pixel limit.
+In English, the drink name is one FONT8 line with a 64px limit.
 
 #### Patron List
 TALK shows a list of 1-row patron names, each FONT8 with space for 8 kana.
-The translated patron row likewise has a 64-pixel limit.
+In English, patron names also have a 64px limit.
 
 #### Status List
 Like the fusion status list window, but FONT8.
-The bar's party/info and status names share the mature runtime's 104-pixel
-FONT8 name pool.
+The bar's party/info names and status names share the older English build's
+104px FONT8 name pool.
 
 #### Help Window
 
@@ -1046,9 +1068,9 @@ Top row: An interpunct, followed by space for 8 glyphs.
 Bottom row: yen, followed by space for a cost of 6 glyphs.
 The list is prefaced with "メンバーすべて" as one of the targets.
 The list shows up to 8 targets, and can be scrolled.
-The translated all-members row has its own full-row drawer and a 144-pixel
-FONT8 contract. Ordinary character and demon rows instead use the shared
-104-pixel facility-name pool.
+In English, the all-members row has its own drawing code and a 144px FONT8
+limit. Ordinary character and demon rows use the shared 104px facility name
+pool instead.
 
 #### Heal One List
 Similar to the Heal All list, however the window has been widened.
@@ -1057,11 +1079,11 @@ Each unit shows, after the top row name, HP ####/####, and after the bottom row 
 #### Status List
 
 Like the fusion status list window, but FONT8.
-Character and demon names use the same 104-pixel facility-name contract.
+Character and demon names use the same 104px facility name limit.
 
 ### MAG Exchange
 
-Top-level options are displayed in an event text window and may not require a special renderer hook. They must still be represented by editable assets.
+Top-level options are displayed in an event text window and may not require a special renderer hook. They should still have editable entries.
 
 When converting mag, two additional FONT8 help windows appear.
 {yen symbol} {current yen}
@@ -1073,10 +1095,10 @@ RATE
 
 ## Developer Diagnostic Overlays
 
-SNDTEST displays a fixed-cell ASCII title, two request-number prefixes, and an
-exit message. TEST3D displays a title, five parameter labels, and its launch
-prompt through the same kind of embedded ASCII tile path. These eleven fields
-are developer-facing but on-screen, so they remain ordinary authored text in
-`assets/text/diagnostics/`. Their native records require ASCII, a terminating
-NUL, and exact per-field capacities; trailing spaces in parameter prefixes are
-meaningful separators or alignment, not normalization noise.
+SNDTEST shows a fixed-cell ASCII title, two request-number prefixes and an exit
+message. TEST3D shows a title, five parameter labels and a launch prompt, drawn
+the same way. These eleven entries are for developers, but they do appear on
+screen, so they're ordinary editable text in `assets/text/diagnostics/`. The
+original records must be ASCII, end in a NUL, and fit each field's exact size.
+Trailing spaces in the parameter prefixes are there for spacing or alignment,
+so don't strip them.

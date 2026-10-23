@@ -1,147 +1,128 @@
 # Devil Summoner Translation Tools
 
-> **This is not a finished translation or patch. It is not yet intended for release.**
+Tools for translating and modifying *Shin Megami Tensei: Devil Summoner*. The
+repository builds an English version of the Japanese Sega Saturn release
+(Rev. B) from a clean copy of the disc, and contains the beginnings of a PSP
+port of the same work.
 
-This repository contains translation and modification tools for *Shin Megami
-Tensei: Devil Summoner*. It can currently produce a functional English build of
-the Sega Saturn Rev. B game and its *Akuma Zensho* compendium disc, although the
-result has not yet received comprehensive translation review or runtime
-testing. PSP support has begun with complete English title-help, CONFIG menu,
-command-menu help, battle-console, five-bank EVENT dialogue, BOSSTALK boss
-combat dialogue, NAME/profile entry, English savedata plus maze-HUD and
-staircase-transition location display,
-Demon Compendium, battle party-panel/result names, and COMP party-card names,
-PSP-only active items, title/maze/save-icon visuals, and START2 subtitle slices, but it does not
-yet cover the rest of the game.
+This is not a release, and I'm not planning to keep working on it. It's here so
+anyone who wants to pick it up can.
 
-The project is intended to provide a strong, approachable foundation for
-translating the game into other languages or modifying and refining the
-included English translation.
+## Status
 
-## Project status
-
-| Target | Build status | Runtime status |
-| --- | --- | --- |
-| Sega Saturn Rev. B game | Complete configured build | Functional, but not comprehensively reviewed or playtested |
-| Sega Saturn *Akuma Zensho* | Complete configured build for every proved text and visual span | Structurally verified; runtime playtesting remains |
-| PSP | Complete configured English title-help, CONFIG, command-help, battle/COMP party names, battle-console, five-bank EVENT, BOSSTALK, NAME/profile entry, savedata plus maze-HUD/staircase-transition locations, Demon Compendium, active-item, title/maze/save-icon visual, and START2 subtitle build | Structurally verified; broader translation remains |
-
-"Complete configured build" means the repository can regenerate and verify all
-translation work currently represented here. It does not mean every English
-line or image has received final editorial review, nor that every path through
-either disc has been tested in game.
-
-## Package status
-
-| Package | Current responsibility |
+| Target | State |
 | --- | --- |
-| `assets/text` | Canonical shared text, typed templates, semantic identities, and consumer specifications |
-| `assets/image` | Canonical replacement pixels and explicit cross-platform portability boundaries |
-| `saturn/text` | Lossless catalogues for 16,141 game records and 1,617 compendium records, plus the file-backed EVENT, battle, facility, and COMP repackers |
-| `saturn/font` | Eight game-font definitions, one identity-preserving compendium definition, generated atlases, and runtime metrics |
-| `saturn/engine` | Twenty-four checked surface builds covering the translated executable consumers, lossless FMV subtitles, and the complete proved compendium text inventory |
-| `saturn/visual` | 2,365 game image views and 295 classified compendium image structures, with bindings to the sparse shared replacement catalog |
-| `saturn/rom` | Verified extraction and transactional rebuilding of both Saturn discs |
-| `psp` | Authored text and fonts, the complete original stock-safe engine patch inventory, title/maze/save-icon visual composition, and checked same-size ISO publication; remaining text surfaces and platform-layout visuals remain to be ported |
-| `tools` | Local browser-based translation editing, bound-consumer validation, and exact-font surface previews |
+| Saturn game disc (Rev. B) | Basically feature-complete. All of the game's text, fonts, menus, FMV subtitles and translated graphics are built. It still needs a proper editing pass and a full playthrough. |
+| Saturn *Akuma Zensho* disc | **Broken.** The build produces an image, but the translated compendium does not work correctly in game. Don't rely on it. |
+| PSP | **Very incomplete.** A number of individual screens are translated and build cleanly (see [`psp/README.md`](psp/README.md)), but most of the game is still in Japanese. |
 
-The remaining work is chiefly translation review and playtesting, semantic
-ownership for visible wording in artwork, a handful of deliberately unresolved
-physical records, unmeasured layout limits, and the broader PSP workflow. The
-package READMEs distinguish these boundaries from implemented
-features.
+The English script has not had a full editorial review. Expect typos,
+inconsistent terminology, and the occasional line that doesn't fit.
 
 ## AI Disclosure
 
 This repository was developed with the assistance of AI tools. While I believe that current AI products are inflicting tremendous social, economic, and environmental harms, I also believe that, when used and deployed responsibly, the underlying technology has genuine potential and value for humanity, particularly in the fields of open-source software development, preservation, and accessibility.
 
-If you're dissatisfied with this, I encourage you to fork this repo, or otherwise create your own tools, translation, and/or documentation. I claim no intellectual ownership of the code available here.
+If you're dissatisfied with this, I encourage you to fork this repo, or otherwise create your own tools, translation, and/or documentation.
 
-And if you believe that a technology like AI is fundamentally theft, no matter how it is deployed, [I would recommend giving this a read.](https://archive.org/details/in.ernet.dli.2015.124455)
+## Repository layout
 
-## Getting Started
+| Directory | What's in it |
+| --- | --- |
+| `assets/text` | The translation itself: shared, platform-neutral JSON. This is what you edit. |
+| `assets/image` | Replacement artwork (PNG). |
+| `assets/font` | Open-source typefaces used to generate the game fonts. |
+| `saturn/` | Saturn extraction, text/font/graphics repacking, engine patches, and the disc build. |
+| `psp/` | The partial PSP port, with the same general structure. |
+| `tools/` | A local, browser-based translation editor. |
+
+Each package has its own README with more detail.
+
+## Building the Saturn version
 
 ### Requirements
 
 - Python 3.10 or newer
-- [Pillow](https://pypi.org/project/pillow/)
-- Legally obtained copies of both supported Saturn discs:
+- [Pillow](https://pypi.org/project/pillow/) (`python -m pip install Pillow`)
+- Your own copies of both Saturn discs as BIN/CUE:
   - *Shin Megami Tensei: Devil Summoner* (Japan, Rev. B)
   - *Shin Megami Tensei: Devil Summoner - Akuma Zensho* (Japan)
 
-Install Pillow into the Python environment used for the build if it is not
-already available:
+The build currently expects both discs, even though the *Akuma Zensho* output
+isn't usable.
 
-```powershell
-python -m pip install Pillow
-```
+### 1. Add the original discs
 
-Pillow is used by the font and visual packages and by the integration checks
-that compose engine-owned SAVE/LOAD bytes with their final image overlays.
-
-### 1. Adding the original game images
-
-Place the untouched BIN/CUE track sets for both discs in
+Put the untouched BIN/CUE files in
 [`saturn/rom/original/`](saturn/rom/original/README.md). The expected filenames,
-track layouts, sizes, and SHA-256 hashes are recorded in
-[`saturn/rom/discs.json`](saturn/rom/discs.json). The build rejects media that
-does not match those definitions.
+sizes and SHA-256 hashes are listed in
+[`saturn/rom/discs.json`](saturn/rom/discs.json), and the build will refuse
+anything that doesn't match.
 
-Original and generated disc data is ignored by Git. Do not commit or
-redistribute it.
+Disc images (original or built) are ignored by Git. Don't commit or share them.
 
-You can extract and then verify both discs with:
+To extract and check the discs on their own:
 
 ```powershell
 python -B saturn/rom/extract.py
 python -B saturn/rom/extract.py --check
 ```
 
-Extraction creates editable mirrors under `saturn/rom/extracted/`. A normal
-top-level build restores those mirrors from the original media before applying
-the tracked translation, so do not keep authored changes there.
+This writes the disc contents to `saturn/rom/extracted/`. The full build
+re-extracts over that directory, so don't make edits there.
 
-### 2. Editing the translation
+### 2. Build
 
-#### Text Editing
+```powershell
+python -B saturn/build.py --plan    # show what will run
+python -B saturn/build.py           # build
+python -B saturn/build.py --check   # verify the outputs are up to date
+```
 
-Edit the `translation` values in the JSON files under
-[`assets/text/`](assets/text/README.md). These are the canonical,
-platform-neutral assets; files under `saturn/text/corpus/` are extracted binary
-evidence and are not the translation interface.
+The build regenerates fonts, text, engine patches and graphics, then rebuilds
+both discs into:
 
-Keep each field's `reference` text and structural tokens intact unless you are
-deliberately changing the source mapping. Tokens such as `{n}` represent game
-controls rather than literal text. Saturn bindings connect each authored field
-to its physical records, while surface definitions enforce the known encoding,
-width, row, and capacity limits. See the
-[text tooling documentation](saturn/text/README.md) and
-[consumer specifications](assets/consumers.md) before adding fields or changing
-layout-sensitive text.
+```text
+saturn/rom/build/game/
+saturn/rom/build/compendium/
+```
 
-The local translation editor provides a searchable view of these same canonical
-assets, checks every mapped Saturn consumer, previews supported surfaces with
-the generated game fonts, and provides language projects for importing a
-typeface, automatically assigning required characters to editable runtime
-slots, and comparing original and modified font atlases:
+Use the image in `build/game/` with an emulator or real hardware. The build
+makes full disc images for your own testing; it does not make a distributable
+patch.
+
+## Editing the translation
+
+### Text
+
+The translation lives in the `translation` fields of the JSON files under
+[`assets/text/`](assets/text/README.md). Leave the `reference` (Japanese) text
+and any tokens such as `{n}` alone; tokens stand in for things like button
+icons or names that the game fills in. The files under `saturn/text/corpus/` are
+raw extracted data, not something to edit.
+
+Many screens have tight width or line limits. The build checks these and will
+fail if a line doesn't fit. [`assets/consumers.md`](assets/consumers.md) and
+[`saturn/text/README.md`](saturn/text/README.md) describe the limits for each
+screen.
+
+The translation editor is easier to work with than the raw JSON. It lets you
+search the text, previews lines in the actual game font, and flags anything
+that won't fit:
 
 ```powershell
 python -B -m tools.editor
 ```
 
-It is also available as **Open Translation Editor** in the repository's VS Code
-launch configurations. See [`tools/README.md`](tools/README.md) for editor-specific
-details.
+It's also available as **Open Translation Editor** in the VS Code launch
+configurations. See [`tools/README.md`](tools/README.md).
 
-#### Image Editing
+### Images
 
-Editable replacement images live under `assets/image/`. Saturn keeps decoded
-baseline manifests and explicit view bindings under `saturn/visual/`; PSP can
-therefore reuse pixel-identical art while retaining its own binary formats,
-palettes, targets, and platform-specific sheet layouts. To work on another
-image, first run the visual extractor, copy the corresponding PNG from
-`saturn/visual/extracted/<disc>/` into a semantic `assets/image/` path, then add
-its catalog entry and Saturn binding:
+Replacement art is in `assets/image/`. To replace a new image, extract the
+originals, copy the one you want from `saturn/visual/extracted/<disc>/` into
+`assets/image/`, and add an entry for it in the catalog and the Saturn
+bindings:
 
 ```powershell
 python -B saturn/visual/extract.py all
@@ -149,16 +130,16 @@ python -B saturn/visual/repack.py all
 python -B saturn/visual/repack.py all --check
 ```
 
-Do not edit the generated `extracted/` baseline or the manifest hashes by hand.
-The [visual documentation](saturn/visual/README.md) describes supported formats,
-shared images, stitched textures, and palette-limited title assets.
+Don't hand-edit the files in `extracted/` or the hashes in the manifests.
+[`saturn/visual/README.md`](saturn/visual/README.md) covers the supported image
+formats and the awkward cases (stitched textures, palette-limited title art).
 
-#### Font Editing & Additional Language Notes
+### Fonts and other languages
 
-Open-source typefaces and their licenses are stored under
-[`assets/font/`](assets/font/README.md). Per-disc font definitions under
-`saturn/font/config/` control source typefaces, replacement glyphs, packed
-formats, metrics, and installation targets.
+The source typefaces and their licenses are in
+[`assets/font/`](assets/font/README.md). The per-disc font definitions in
+`saturn/font/config/` decide which typeface goes where and how glyphs are
+packed.
 
 ```powershell
 python -B saturn/font/extract.py all
@@ -166,49 +147,14 @@ python -B saturn/font/repack.py all
 python -B saturn/font/repack.py all --check
 ```
 
-Supporting another language may require coordinated changes to the font maps,
-text encodings, engine renderers, and individual consumer limits; changing only
-the typeface is not necessarily sufficient. Consult the
-[font documentation](saturn/font/README.md), text surface definitions, and
-consumer specifications for the relevant screen.
+Translating into another language is possible, but swapping the typeface is
+usually not enough on its own: you may also need to change character maps,
+text encodings, and the patched text renderers. The editor can set up a new
+language project and import a font for it; see
+[`saturn/font/README.md`](saturn/font/README.md) and
+[`assets/languages/README.md`](assets/languages/README.md).
 
-### 3. Building the patched images
-
-Inspect the complete build before running it:
-
-```powershell
-python -B saturn/build.py --plan
-```
-
-Then build both translated discs:
-
-```powershell
-python -B saturn/build.py
-```
-
-This restores the extracted mirrors, generates and installs fonts, text,
-engine patches, and visual replacements, then rebuilds and structurally verifies
-both disc sets. Existing populated build directories are replaced by this
-top-level workflow. Outputs are written to:
-
-```text
-saturn/rom/build/game/
-saturn/rom/build/compendium/
-```
-
-After a successful build, verify that every generated and installed artifact is
-current with:
-
-```powershell
-python -B saturn/build.py --check
-```
-
-Test rebuilt images with a compatible emulator or original hardware. The build
-produces complete disc images for local testing, not a redistributable patch.
-
-## Development and Validation
-
-The focused test suites use Python's standard `unittest` runner:
+## Tests
 
 ```powershell
 python -m unittest discover -s saturn/font/tests -v
@@ -218,40 +164,34 @@ python -m unittest discover -s saturn/visual/tests -v
 python -m unittest discover -s psp/visual/tests -v
 ```
 
-Some integration checks require the verified private disc inputs. The build
-configuration itself can be inspected without them using `--plan`,
-`--list-steps`, and `--list-profiles`.
+Some tests need the original discs in place. Without them you can still inspect
+the build with `--plan`, `--list-steps` and `--list-profiles`.
 
 ## Documentation
 
-- [Shared text asset model](assets/text/README.md)
-- [Shared image asset model](assets/image/README.md)
+- [Shared text assets](assets/text/README.md)
+- [Shared image assets](assets/image/README.md)
 - [Language projects](assets/languages/README.md)
-- [Text consumer specifications](assets/consumers.md)
-- [Saturn ROM extraction and rebuilding](saturn/rom/README.md)
-- [Saturn text extraction and repacking](saturn/text/README.md)
+- [Per-screen text limits](assets/consumers.md)
+- [Saturn disc extraction and rebuilding](saturn/rom/README.md)
+- [Saturn text](saturn/text/README.md)
 - [Saturn engine patches](saturn/engine/README.md)
-- [Saturn font generation](saturn/font/README.md)
-- [Saturn visual extraction and repacking](saturn/visual/README.md)
-- [PSP package status](psp/README.md)
-- [PSP visual composition](psp/visual/README.md)
-
-Generated directories are deliberately excluded from source control. In broad
-terms, `assets/` owns shared authored material, while `saturn/` owns the
-platform-specific bindings, formats, patches, and build workflow.
+- [Saturn fonts](saturn/font/README.md)
+- [Saturn graphics](saturn/visual/README.md)
+- [PSP status](psp/README.md)
+- [PSP graphics](psp/visual/README.md)
 
 ## License
 
-Project-authored source code and documentation use the BSD Zero Clause License.
-Game-derived text and images and the preview screenshots are excluded, and
-third-party fonts retain their own terms. See [LICENSE](LICENSE) for the
-complete scope.
+Code and documentation written for this project are under the BSD Zero Clause
+License. Text and images taken from the game, and the screenshots below, are
+not covered by it, and the bundled fonts keep their own licenses. See
+[LICENSE](LICENSE) for details.
 
-## Preview/Example Screenshots
+## Screenshots
 
-These screenshots come from the mature Saturn reference build that this
-tooling is intended to reproduce. The FMV subtitle presentation is now built
-losslessly by the Saturn engine surface rather than burned into the movie.
+From an earlier Saturn build that this tooling reproduces. FMV subtitles are
+now drawn by the game at runtime rather than burned into the video.
 
 | **Title** | **Fusion Table** |
 | :---: | :---: |
