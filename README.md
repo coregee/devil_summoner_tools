@@ -5,19 +5,55 @@ repository builds an English version of the Japanese Sega Saturn release
 (Rev. B) from a clean copy of the disc, and contains the beginnings of a PSP
 port of the same work.
 
-This is not a release, and I'm not planning to keep working on it. It's here so
-anyone who wants to pick it up can.
+**Just want to play it?** Download the patch from the
+[releases page](https://github.com/coregee/devil_summoner_tools/releases) and
+follow [PATCHING.md](PATCHING.md). It applies to the Rev. B Saturn disc.
+
+I'm not actively developing this any more, but everything needed to carry it on
+is here, and forks, fixes and new translations are very welcome.
 
 ## Status
 
 | Target | State |
 | --- | --- |
-| Saturn game disc (Rev. B) | Basically feature-complete. All of the game's text, fonts, menus, FMV subtitles and translated graphics are built. It still needs a proper editing pass and a full playthrough. |
+| Saturn game disc (Rev. B) | **v0.1 released.** Feature-complete: all of the game's text, fonts, menus, FMV subtitles and translated graphics. |
 | Saturn *Akuma Zensho* disc | **Broken.** The build produces an image, but the translated compendium does not work correctly in game. Don't rely on it. |
 | PSP | **Very incomplete.** A number of individual screens are translated and build cleanly (see [`psp/README.md`](psp/README.md)), but most of the game is still in Japanese. |
 
-The English script has not had a full editorial review. Expect typos,
-inconsistent terminology, and the occasional line that doesn't fit.
+The whole game is translated, but the script hasn't had a full editorial pass
+yet. If you spot typos, odd terminology or a line that doesn't fit, please
+[open an issue](https://github.com/coregee/devil_summoner_tools/issues).
+
+## The Saturn translation
+
+- Proportional (variable-width) text throughout: dialogue, menus, battle,
+  shops, status screens and more.
+- Names drawn in full in the space available, so location, item and skill
+  names aren't cut down to a fixed number of letters.
+- English name entry with separate upper-case, lower-case and symbol grids.
+- Names, items and numbers inserted into sentences are drawn in the same font
+  as the sentence around them.
+- Subtitles for the FMV sequences, drawn by the game at runtime.
+- Translated title screen, dungeon textures, save screens and other graphics.
+
+## What's in the repository
+
+The patch is the end product, but the point of the repository is to make the
+next translation (or a better English one) easier than this one was:
+
+- **Readable SH-2 assembly** for every change to the game's code, with a small
+  assembler that checks each patch against the original bytes before writing
+  it. See [`saturn/engine/`](saturn/engine/README.md).
+- **Documentation of how the game stores and draws text**: encodings, control
+  codes, container formats, and the size limits of every screen. See
+  [`saturn/text/`](saturn/text/README.md) and
+  [`assets/consumers.md`](assets/consumers.md).
+- **An extract/repack pipeline** that rebuilds the disc from the original plus
+  the files in this repo, and verifies the result.
+- **A browser-based translation editor** that previews lines in the game font
+  and catches lines that won't fit. See [`tools/`](tools/README.md).
+- **Language projects**: support for adding characters and importing fonts for
+  other languages.
 
 ## AI Disclosure
 
@@ -87,9 +123,17 @@ saturn/rom/build/game/
 saturn/rom/build/compendium/
 ```
 
-Use the image in `build/game/` with an emulator or real hardware. The build
-makes full disc images for your own testing; it does not make a distributable
-patch.
+Use the image in `build/game/` with an emulator or real hardware.
+
+To turn a build into a distributable BPS patch for Track 1 of the game disc:
+
+```powershell
+python -B saturn/rom/patch.py create --version 0.1
+```
+
+This writes `saturn/rom/patch/devil_summoner_en_v0.1.bps`, checks that it
+reproduces the build exactly, and prints the CRC32 and SHA-256 of the original
+and patched Track 1.
 
 ## Editing the translation
 

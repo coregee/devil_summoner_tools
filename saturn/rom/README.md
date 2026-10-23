@@ -73,3 +73,21 @@ The verification pass checks all of the following:
 An unchanged extraction must rebuild to a byte-identical BIN/CUE set. Emulator
 testing remains necessary after real game-data edits; structural verification is
 not a playtest.
+
+## Patch
+
+```powershell
+python saturn/rom/patch.py create --version 0.1
+python saturn/rom/patch.py apply PATCH.bps ORIGINAL_TRACK1.bin OUTPUT.bin
+```
+
+`create` makes a BPS patch from the original game disc's Track 1 to the one in
+`build/game/`, and writes it to `patch/` (ignored by Git). It refuses to run if
+the CUE or the audio track differ from the original, since the patch only
+covers Track 1. The patch is compared sector by sector, so changed sectors are
+stored whole. Before writing, it applies the patch to the original and checks
+the result matches the build exactly.
+
+`apply` applies a BPS patch, checking its source, target and patch CRCs. It's
+there for people who'd rather use Python than a separate patching tool; any
+BPS patcher works.

@@ -526,8 +526,9 @@ python saturn/build.py default
 ## Facilities and Fusion status
 
 `facilities.status_ui` adds the remaining facility and status screens on top of
-the equipment intermediate and writes `generated/game/EVENT.BIN`, which the
-FMV subtitle stage finishes. Its 74 recipes cover:
+the equipment intermediate and writes
+`generated/game/facilities_status_ui/EVENT.BIN`, which the FMV subtitle stage
+finishes into the final `generated/game/EVENT.BIN`. Its 74 recipes cover:
 
 - the detailed-status panel opened from Fusion and facilities (22);
 - shared EVENT term insertions (3);
