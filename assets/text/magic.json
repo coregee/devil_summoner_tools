@@ -555,7 +555,7 @@
       },
       "description": {
         "reference": "攻撃魔法 前列 威力200{n}敵1体に大ダメージ",
-        "translation": "Offensive magic / Front / Power 200{n}Deals heavy Almighty damage to one foe.",
+        "translation": "Offensive magic / Front / Power 200{n}Deals heavy damage to one foe.",
         "variants": {
           "psp": {
             "reference": "攻撃魔法 前列／後列 威力180{n}敵1体に大ダメージ",
@@ -576,7 +576,7 @@
       },
       "description": {
         "reference": "攻撃魔法 前列 威力150{n}敵1列全体に大ダメージ",
-        "translation": "Offensive magic / Front / Power 150{n}Deals heavy Almighty damage to one row.",
+        "translation": "Offensive magic / Front / Power 150{n}Deals heavy damage to one row.",
         "variants": {
           "psp": {
             "reference": "攻撃魔法 前列／後列 威力210{n}敵1列全体に大ダメージ",
@@ -597,7 +597,7 @@
       },
       "description": {
         "reference": "攻撃魔法 全体 威力160{n}すべての敵に大ダメージ",
-        "translation": "Offensive magic / All foes / Power 160{n}Deals heavy Almighty damage.",
+        "translation": "Offensive magic / All foes / Power 160{n}Deals heavy damage to all foes.",
         "variants": {
           "psp": {
             "reference": "攻撃魔法 全体 威力210{n}すべての敵に大ダメージ",
@@ -1017,7 +1017,7 @@
       },
       "description": {
         "reference": "回復魔法 単体{n}味方1体の麻痺を治療",
-        "translation": "Recovery magic / One ally{n}Cures Paralysis."
+        "translation": "Recovery magic / One ally{n}Cures Paralyze."
       },
       "console_text": {
         "reference": "PALYLAーDi",
@@ -1234,7 +1234,7 @@
       },
       "description": {
         "reference": "補助魔法 単体{n}死亡した味方1体を戦闘参加",
-        "translation": "Support magic / One ally{n}Lets one dead ally participate in battle."
+        "translation": "Support magic / One ally{n}Lets a dead ally fight on."
       },
       "console_text": {
         "reference": "NECROMA",
@@ -1248,7 +1248,7 @@
       },
       "description": {
         "reference": "特殊魔法 移動時・戦闘時{n}マグネタイトを消費しないで仲魔1体を召喚",
-        "translation": "Field/Battle magic{n}Summons one demon without consuming MAG."
+        "translation": "Field/Battle magic{n}Summons an ally without using MAG."
       },
       "console_text": {
         "reference": "SABBATH",

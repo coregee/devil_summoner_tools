@@ -5,7 +5,7 @@
     "dialogue_0000": {
       "text": {
         "reference": "オイ、ショウカンシ、{n}ナニカイッタカ？{demon_name}",
-        "translation": "HEY, SUMMONER...{n}YOU SAY SOMETHING?{demon_name}"
+        "translation": "HEY, SUMMONER...{n}DID YOU SAY SOMETHING?{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -68,7 +68,7 @@
     "dialogue_0007": {
       "text": {
         "reference": "おじさんさー、だれでも{n}殺っちゃうんだね。{demon_name}",
-        "translation": "You'll kill anyone,{n}won't you, pops?{demon_name}"
+        "translation": "Mister, you'll kill{n}just anyone, huh?{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -86,7 +86,7 @@
     "dialogue_0009": {
       "text": {
         "reference": "ねえ、口紅はげてないか{n}見てくれない？{demon_name}",
-        "translation": "Hey, has my lipstick{n}come off? Take a look.{demon_name}"
+        "translation": "Hey, could you check if{n}my lipstick's worn off?{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -104,7 +104,7 @@
     "dialogue_0011": {
       "text": {
         "reference": "そんなことよりなー、{n}若いの、はげんどるか？{demon_name}",
-        "translation": "More importantly, young man...{n}Keeping at it?{demon_name}"
+        "translation": "Never mind that, youngster.{n}Working hard?{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -122,7 +122,7 @@
     "dialogue_0013": {
       "text": {
         "reference": "そんなことゆ～ても、{n}やらへんで～。{demon_name}",
-        "translation": "Say what you like.{n}I still won't do it.{demon_name}"
+        "translation": "Say what ya like,{n}I ain't doin' it.{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -149,7 +149,7 @@
     "dialogue_0016": {
       "text": {
         "reference": "イイカラ、ワタシニ{n}マカセロ。{demon_name}",
-        "translation": "ENOUGH.{n}LEAVE TO ME.{demon_name}"
+        "translation": "ENOUGH.{n}LEAVE IT TO ME.{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -194,7 +194,7 @@
     "dialogue_0021": {
       "text": {
         "reference": "お前なー、命令すんのは{n}召喚だけにしとけよ。{demon_name}",
-        "translation": "The only order you get{n}to give is 'Summon.'{demon_name}"
+        "translation": "Stick to summoning.{n}Quit giving orders.{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -293,7 +293,7 @@
     "dialogue_0032": {
       "text": {
         "reference": "オマエノ命令、{n}ゼッタイ、聞カナイ！{demon_name}",
-        "translation": "YOUR ORDERS...{n}ME NEVER OBEY!{demon_name}"
+        "translation": "YOUR ORDERS...{n}I WILL NEVER OBEY!{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -311,7 +311,7 @@
     "dialogue_0034": {
       "text": {
         "reference": "そこまで突っ込んだ{n}命令は聞かん！！{demon_name}",
-        "translation": "I won't take orders{n}that detailed!{demon_name}"
+        "translation": "I will not heed orders{n}so detailed!{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -383,7 +383,7 @@
     "dialogue_0042": {
       "text": {
         "reference": "やい、召喚師・・・、{n}GOにしとけよ！！{demon_name}",
-        "translation": "Hey, Summoner...{n}Just set me to GO!{demon_name}"
+        "translation": "Hey, summoner...{n}Just set me to GO!{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -410,7 +410,7 @@
     "dialogue_0045": {
       "text": {
         "reference": "えらい、召喚師やな。{n}聞かへんで。{demon_name}",
-        "translation": "Some Summoner you are.{n}I'm not listening.{demon_name}"
+        "translation": "Some summoner you are.{n}I ain't listenin'.{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -437,7 +437,7 @@
     "dialogue_0048": {
       "text": {
         "reference": "ワカラヌ奴・・・{n}・・・キカヌ。{demon_name}",
-        "translation": "YOU NEVER LEARN...{n}ME NOT LISTEN.{demon_name}"
+        "translation": "YOU DO NOT LEARN...{n}I WILL NOT LISTEN.{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -455,7 +455,7 @@
     "dialogue_0050": {
       "text": {
         "reference": "いやじゃ！！{n}聞きとうない！！{demon_name}",
-        "translation": "No!{n}I don't want to hear it!{demon_name}"
+        "translation": "No!{n}I will not hear it!{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -473,7 +473,7 @@
     "dialogue_0052": {
       "text": {
         "reference": "残念でしたわね！{n}全部、あなたのせいよ！{demon_name}",
-        "translation": "Too bad!{n}It's all your fault!{demon_name}"
+        "translation": "Too bad!{n}It is all your fault!{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -536,7 +536,7 @@
     "dialogue_0059": {
       "text": {
         "reference": "召喚師がそれじゃの～、{n}命令なぞ、無視じゃ！！{demon_name}",
-        "translation": "With a Summoner like you,{n}I'll ignore every order!{demon_name}"
+        "translation": "With a summoner like you,{n}I'll ignore every order!{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -581,7 +581,7 @@
     "dialogue_0064": {
       "text": {
         "reference": "ナニカ変ナ、気分ダナ。{demon_name}",
-        "translation": "SOMETHING FEEL...{n}STRANGE.{demon_name}"
+        "translation": "I FEEL...{n}STRANGE.{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -869,7 +869,7 @@
     "dialogue_0096": {
       "text": {
         "reference": "オオ・・・、{n}ココチヨイゾ。{demon_name}",
-        "translation": "OOH...{n}THIS FEEL GOOD.{demon_name}"
+        "translation": "OOH...{n}THIS FEELS GOOD.{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -968,7 +968,7 @@
     "dialogue_0107": {
       "text": {
         "reference": "はァ～、カッポ～レ、{n}カッポ～レ！{demon_name}",
-        "translation": "HAAH, KAPPORE,{n}KAPPORE!{demon_name}"
+        "translation": "Haah, kappore,{n}kappore!{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -977,7 +977,7 @@
     "dialogue_0108": {
       "text": {
         "reference": "ムフッ、ムフフフッ。{demon_name}",
-        "translation": "MMM... HEH HEH HEH.{demon_name}"
+        "translation": "Mm-heh... Heh heh heh.{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -986,7 +986,7 @@
     "dialogue_0109": {
       "text": {
         "reference": "めっちゃ、ええ感じや。{n}いても～たるわ～。{demon_name}",
-        "translation": "This feels bloody great.{n}I'll knock you flat!{demon_name}"
+        "translation": "Feelin' real good.{n}I'll knock ya flat!{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1013,7 +1013,7 @@
     "dialogue_0112": {
       "text": {
         "reference": "ホウ、ニゲルノカ・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "OH? YOU RUN AWAY...{demon_name}{demon_name}{demon_name}"
+        "translation": "OH?{n}YOU FLEE...{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1022,7 +1022,7 @@
     "dialogue_0113": {
       "text": {
         "reference": "ニゲル、ナドトハ・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "YOU WOULD... RUN AWAY?{demon_name}{demon_name}{demon_name}"
+        "translation": "YOU{n}RUN AWAY...?{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1031,7 +1031,7 @@
     "dialogue_0114": {
       "text": {
         "reference": "逃げるも、また策・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "Flight is also a strategy...{demon_name}{demon_name}{demon_name}"
+        "translation": "Flight, too, is{n}a strategy...{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1040,7 +1040,7 @@
     "dialogue_0115": {
       "text": {
         "reference": "・・・もう二度と・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "...Never again...{demon_name}{demon_name}{demon_name}"
+        "translation": "...Never{n}again...{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1049,7 +1049,7 @@
     "dialogue_0116": {
       "text": {
         "reference": "お逃げになるの？・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "Are you leaving...?{demon_name}{demon_name}{demon_name}"
+        "translation": "Are you{n}leaving...?{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1058,7 +1058,7 @@
     "dialogue_0117": {
       "text": {
         "reference": "逃げるが勝ちかい・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "So running wins...{demon_name}{demon_name}{demon_name}"
+        "translation": "So running{n}wins, eh...{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1076,7 +1076,7 @@
     "dialogue_0119": {
       "text": {
         "reference": "逃さないもんね！・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "I won't let you escape!{demon_name}{demon_name}{demon_name}"
+        "translation": "I won't let{n}you escape!{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1085,7 +1085,7 @@
     "dialogue_0120": {
       "text": {
         "reference": "あー！負けイヌー・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "Ha! What a loser!{demon_name}{demon_name}{demon_name}"
+        "translation": "Ha! What{n}a loser!{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1094,7 +1094,7 @@
     "dialogue_0121": {
       "text": {
         "reference": "あら、どちらへ？・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "Oh? Where are you going?{demon_name}{demon_name}{demon_name}"
+        "translation": "Oh? Where are{n}you off to?{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1103,7 +1103,7 @@
     "dialogue_0122": {
       "text": {
         "reference": "ランナウェ～イ！・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "RUN AWAAAY!{demon_name}{demon_name}{demon_name}"
+        "translation": "RUN{n}AWAAAY!{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1130,7 +1130,7 @@
     "dialogue_0125": {
       "text": {
         "reference": "どこいくんやぁ！・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "Where d'you think you're going?!{demon_name}{demon_name}{demon_name}"
+        "translation": "Where ya{n}goin'?!{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1139,7 +1139,7 @@
     "dialogue_0126": {
       "text": {
         "reference": "ピチャ、ピチャッ・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "SPLISH, SPLASH...{demon_name}{demon_name}{demon_name}"
+        "translation": "SPLISH,{n}SPLASH...{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1181,7 +1181,7 @@
     "dialogue_0131": {
       "text": {
         "reference": "ニガサンゾオー・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "NOT LET YOU ESCAPE!{demon_name}{demon_name}{demon_name}"
+        "translation": "NOT LET{n}YOU ESCAPE!{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1190,7 +1190,7 @@
     "dialogue_0132": {
       "text": {
         "reference": "逃げるのか・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "You're running away?{demon_name}{demon_name}{demon_name}"
+        "translation": "You're{n}running away?{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1199,7 +1199,7 @@
     "dialogue_0133": {
       "text": {
         "reference": "逃げるのかい・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "You're running away?{demon_name}{demon_name}{demon_name}"
+        "translation": "You're{n}running away?{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1208,7 +1208,7 @@
     "dialogue_0134": {
       "text": {
         "reference": "逃亡するのか・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "You intend to flee?{demon_name}{demon_name}{demon_name}"
+        "translation": "You intend{n}to flee?{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1226,7 +1226,7 @@
     "dialogue_0136": {
       "text": {
         "reference": "マテ、逃ゲルノカ・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "WAIT. YOU RUN AWAY?{demon_name}{demon_name}{demon_name}"
+        "translation": "WAIT. YOU{n}RUN AWAY?{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1235,7 +1235,7 @@
     "dialogue_0137": {
       "text": {
         "reference": "逃げるのカ・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "You are fleeing?{demon_name}{demon_name}{demon_name}"
+        "translation": "You are{n}fleeing?{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1244,7 +1244,7 @@
     "dialogue_0138": {
       "text": {
         "reference": "君は逃げるのか・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "You would flee?{demon_name}{demon_name}{demon_name}"
+        "translation": "You would{n}flee?{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1253,7 +1253,7 @@
     "dialogue_0139": {
       "text": {
         "reference": "逃げちゃイヤーん・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "Don't run away!{demon_name}{demon_name}{demon_name}"
+        "translation": "Don't run{n}away!{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1280,7 +1280,7 @@
     "dialogue_0142": {
       "text": {
         "reference": "逃がすものか・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "I will not let you escape.{demon_name}{demon_name}{demon_name}"
+        "translation": "I will not let{n}you escape.{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1289,7 +1289,7 @@
     "dialogue_0143": {
       "text": {
         "reference": "極道に背を向ける・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "Turning your back on a yakuza...{demon_name}{demon_name}{demon_name}"
+        "translation": "Turning your back{n}on a yakuza...{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1298,7 +1298,7 @@
     "dialogue_0144": {
       "text": {
         "reference": "戦わぬというのか・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "You refuse to fight?{demon_name}{demon_name}{demon_name}"
+        "translation": "You refuse{n}to fight?{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1307,7 +1307,7 @@
     "dialogue_0145": {
       "text": {
         "reference": "逃げるのカ・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "You are fleeing?{demon_name}{demon_name}{demon_name}"
+        "translation": "You are{n}fleeing?{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1316,7 +1316,7 @@
     "dialogue_0146": {
       "text": {
         "reference": "逃げるのカ・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "You are fleeing?{demon_name}{demon_name}{demon_name}"
+        "translation": "You are{n}fleeing?{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1325,7 +1325,7 @@
     "dialogue_0147": {
       "text": {
         "reference": "逃げるのか・{demon_name}・{demon_name}・{demon_name}",
-        "translation": "You're running away?{demon_name}{demon_name}{demon_name}"
+        "translation": "You're{n}running away?{demon_name}{demon_name}{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1334,7 +1334,7 @@
     "dialogue_0148": {
       "text": {
         "reference": "ソレモヨカロウ。{demon_name}",
-        "translation": "THAT ALSO GOOD.{demon_name}"
+        "translation": "THAT IS ALSO FINE.{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1442,7 +1442,7 @@
     "dialogue_0160": {
       "text": {
         "reference": "やはり、下らん奴だ。{demon_name}",
-        "translation": "As I thought, you're worthless.{demon_name}"
+        "translation": "As I thought,{n}you're worthless.{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1451,7 +1451,7 @@
     "dialogue_0161": {
       "text": {
         "reference": "この辺にしといたろか。{demon_name}",
-        "translation": "I'll leave it at that.{demon_name}"
+        "translation": "I'll let ya off here.{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1475,7 +1475,7 @@
     "dialogue_0164": {
       "text": {
         "reference": "ノガサヌ。{demon_name}",
-        "translation": "NOT LET YOU ESCAPE.{demon_name}"
+        "translation": "YOU WILL NOT ESCAPE.{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1547,7 +1547,7 @@
     "dialogue_0172": {
       "text": {
         "reference": "このイヌっころめ～！！{demon_name}",
-        "translation": "You mangy mutt!{demon_name}"
+        "translation": "You dumb doggy!{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1661,7 +1661,7 @@
     "dialogue_0185": {
       "text": {
         "reference": "無駄なことは、おやめ。{demon_name}",
-        "translation": "Do stop wasting your effort.{demon_name}"
+        "translation": "Do stop wasting{n}your effort.{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1697,7 +1697,7 @@
     "dialogue_0189": {
       "text": {
         "reference": "今度は容赦しませんヨ。{demon_name}",
-        "translation": "Next time, I won't be lenient.{demon_name}"
+        "translation": "This time I shall{n}show no mercy.{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"

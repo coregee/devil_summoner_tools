@@ -37,13 +37,13 @@
     "nothing_notable": {
       "text": {
         "reference": "めぼしい物は無かった",
-        "translation": "There's nothing of note."
+        "translation": "There was nothing of note."
       }
     },
     "nothing_found": {
       "text": {
         "reference": "何も見つからなかった",
-        "translation": "There's nothing here."
+        "translation": "You found nothing."
       }
     },
     "inventory_full": {
@@ -115,25 +115,25 @@
     "enemy_surprise": {
       "text": {
         "reference": "悪魔に不意をつかれた",
-        "translation": "The enemy took you by surprise!"
+        "translation": "A demon caught you off guard!"
       }
     },
     "enemy_behind": {
       "text": {
         "reference": "悪魔に後ろをとられた",
-        "translation": "The enemy attacked from behind!"
+        "translation": "A demon got behind you!"
       }
     },
     "preemptive_chance": {
       "text": {
         "reference": "先制攻撃のチャンス",
-        "translation": "You caught the enemy off-guard!"
+        "translation": "A chance to strike first!"
       }
     },
     "auto_recover_on": {
       "text": {
         "reference": "オートリカバーON",
-        "translation": "Auto Recovering..."
+        "translation": "Auto Recover ON"
       }
     },
     "no_effect": {

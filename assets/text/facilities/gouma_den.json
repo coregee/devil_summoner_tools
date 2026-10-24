@@ -11,13 +11,13 @@
     "line_0002": {
       "text": {
         "reference": "ヴィクトル：どんな用かな？",
-        "translation": "Victor: What do you need?"
+        "translation": "Victor: What brings you here?"
       }
     },
     "line_0003": {
       "text": {
         "reference": "ヴィクトル：仲魔を集めてまた来るがよい",
-        "translation": "Victor: Gather more demons and return."
+        "translation": "Victor: Gather allies and come again."
       }
     },
     "line_0004": {
@@ -71,7 +71,7 @@
     "line_0066": {
       "text": {
         "reference": "剣・剣合体",
-        "translation": "Fuse Swords"
+        "translation": "Sword - Sword"
       }
     },
     "line_0067": {
@@ -197,13 +197,13 @@
     "line_0087": {
       "text": {
         "reference": "LAW属性順",
-        "translation": "LAW Aligned"
+        "translation": "By LAW"
       }
     },
     "line_0088": {
       "text": {
         "reference": "CHAOS属性順",
-        "translation": "CHAOS Aligned"
+        "translation": "By CHAOS"
       }
     },
     "line_0089": {
@@ -311,7 +311,7 @@
     "line_0107": {
       "text": {
         "reference": "ヴィクトル：1本目の剣はどれだ？",
-        "translation": "Victor: Choose the first sword."
+        "translation": "Victor: Which sword will be first?"
       }
     },
     "line_0108": {
@@ -371,7 +371,7 @@
     "line_0117": {
       "text": {
         "reference": "ヴィクトル：オマエのレベルでは合体できぬ",
-        "translation": "Victor: Your level is too low."
+        "translation": "Victor: Your level is too low for this fusion."
       }
     },
     "line_0118": {
@@ -383,7 +383,7 @@
     "line_0119": {
       "text": {
         "reference": "ヴィクトル：この合体に使える剣が足りぬ",
-        "translation": "Victor: You do not have enough swords for this fusion."
+        "translation": "Victor: You lack the swords needed for this fusion."
       }
     },
     "line_0120": {
@@ -719,7 +719,7 @@
     "line_0223": {
       "text": {
         "reference": "本物の葛葉から話はきいている。{n}やつの魂は、どこか結界の中にいるらしい。",
-        "translation": "I have heard from the real Kuzunoha.{n}It seems his soul is trapped somewhere inside a barrier."
+        "translation": "I have heard the story from the real Kuzunoha.{n}His soul seems to be somewhere inside a barrier."
       }
     },
     "line_0224": {
@@ -731,7 +731,7 @@
     "line_0225": {
       "text": {
         "reference": "これを使って、仲魔をたくさん連れて来い。{n}悪魔に会ったら、「TALK」で話せ。{n}あとは、おぬしの工夫しだいだ。",
-        "translation": "Use it to bring many demons with you.{n}When you meet a demon, choose \"TALK\" to speak.{n}The rest is up to your ingenuity."
+        "translation": "Use it to gather many allies and bring them here.{n}When you meet a demon, choose \"TALK\" to speak.{n}The rest is up to your ingenuity."
       }
     },
     "line_0226": {
@@ -761,7 +761,7 @@
     "line_0230": {
       "text": {
         "reference": "だが、本物の葛葉はいなくなった。{n}そして、葛葉の体をもった、おぬしが{n}現れた。",
-        "translation": "But the real Kuzunoha is gone.{n}And now you, bearing Kuzunoha's body,{n}have appeared."
+        "translation": "But the real Kuzunoha is gone.{n}And now you have appeared,{n}in Kuzunoha's body."
       }
     },
     "line_0231": {
@@ -785,7 +785,7 @@
     "line_0235": {
       "text": {
         "reference": "合体をする",
-        "translation": "Demon Fusion"
+        "translation": "Fusion"
       }
     },
     "line_0236": {
@@ -1121,7 +1121,7 @@
     "line_0291": {
       "text": {
         "reference": "これだけのタマが、新月のときは{n}ポンコツ同然、なんてことでは、まさか{n}終わらないだろう。",
-        "translation": "Something this promising cannot simply{n}become scrap under a new moon.{n}Surely that cannot be all."
+        "translation": "Something this promising, no better than{n}scrap under a new moon? Surely that is{n}not the end of it."
       }
     },
     "line_0292": {
@@ -1145,7 +1145,7 @@
     "line_0295": {
       "text": {
         "reference": "ヴィクトル：おぬしが連れている死神……、{n}確かに、レベルの割に強いと思うが、{n}いいことばかりでも、無いみたいだぞ。",
-        "translation": "Victor: That Reaper you have with you...{n}It is certainly strong for its level,{n}but that is not entirely good."
+        "translation": "Victor: That Reaper you have with you...{n}It is certainly strong for its level,{n}but it is not without drawbacks, it seems."
       }
     },
     "line_0296": {
@@ -1193,7 +1193,7 @@
     "line_0303": {
       "text": {
         "reference": "ヴィクトル：大学の、吾妻とかいう{n}教授には、私にも少し気になることが{n}あるのだ。",
-        "translation": "Victor: There is something about{n}a university professor named Azuma{n}that concerns even me."
+        "translation": "Victor: There is something about{n}a university professor named Azuma{n}that concerns me as well."
       }
     },
     "line_0304": {
@@ -1223,7 +1223,7 @@
     "line_0308": {
       "text": {
         "reference": "いずれにせよ、本物の葛葉をやったらしい{n}その神父、ただものではあるまい。{n}おぬしも、せいぜい気をつけられよ。",
-        "translation": "In any case, that priest apparently defeated{n}the real Kuzunoha. He is no ordinary man.{n}You would do well to beware."
+        "translation": "In any case, that priest apparently took down{n}the real Kuzunoha. He is no ordinary man.{n}You would do well to beware."
       }
     },
     "line_0309": {
@@ -1235,7 +1235,7 @@
     "line_0310": {
       "text": {
         "reference": "ヴィクトル：おぬしがどうかは知らぬが、{n}本物の葛葉は、いろんな所から情報を{n}集めていたようだ。",
-        "translation": "Victor: I know not how you do things,{n}but the real Kuzunoha gathered information{n}from many places."
+        "translation": "Victor: I do not know about you,{n}but the real Kuzunoha seems to have gathered{n}information from many places."
       }
     },
     "line_0311": {
@@ -1292,7 +1292,7 @@
     "line_0319": {
       "text": {
         "reference": "ヴィクトル：おぬしも随分と、サマナー{n}稼業が、板についてきたようだな。",
-        "translation": "Victor: You are finally looking{n}at home in the summoning trade."
+        "translation": "Victor: You have grown quite at home{n}in the summoner's trade."
       }
     },
     "line_0320": {
@@ -1325,7 +1325,7 @@
       },
       "text": {
         "reference": "ヴィクトル：どうやら「組織」の連中は、{n}この{city}の中枢にまで、食い込んで{n}いるらしいな。",
-        "translation": "Victor: It seems the \"Organization\"{n}has infiltrated {city} all the way{n}to its very heart."
+        "translation": "Victor: It seems the Organization{n}has infiltrated {city} all the way{n}to its very heart."
       }
     },
     "line_0325": {
@@ -1343,7 +1343,7 @@
     "line_0327": {
       "text": {
         "reference": "故無き悪魔も出るかも知れぬ。{n}おぬしの力を信じるのみであろう。",
-        "translation": "Demons may appear without rhyme or reason.{n}All you can do is trust your own strength."
+        "translation": "Demons of unknown origin may appear.{n}All you can do is trust your own strength."
       }
     },
     "line_0328": {
@@ -1355,7 +1355,7 @@
     "line_0329": {
       "text": {
         "reference": "ヴィクトル：どうやら、おぬしも本物の{n}デビル・サマナーらしくなってきた{n}ようだな。",
-        "translation": "Victor: It seems you are finally{n}becoming a true{n}Devil Summoner."
+        "translation": "Victor: It seems you have begun{n}to look like a true{n}Devil Summoner."
       }
     },
     "line_0330": {
@@ -1397,7 +1397,7 @@
     "line_0335": {
       "text": {
         "reference": "ヴィクトル：いかん、私ともあろう者が{n}事故を起こしてしまった。{n}すまぬ………。",
-        "translation": "Victor: Unthinkable. Even I have caused{n}a fusion accident.{n}Forgive me..."
+        "translation": "Victor: No... That I, of all people, should{n}cause a fusion accident.{n}Forgive me..."
       }
     },
     "line_0336": {
