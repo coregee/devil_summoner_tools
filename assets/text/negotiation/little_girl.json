@@ -212,7 +212,7 @@
     "dialogue_0029": {
       "text": {
         "reference": "えぇ～！？{n}それってば{BEAT}それってば{n}{WAIT}あたしのことぉ～？",
-        "translation": "What!? But that's...{BEAT} You mean...{WAIT} me?",
+        "translation": "What?! But that's...{BEAT} You mean...{WAIT} me?",
         "reviewed": true
       }
     },
@@ -641,7 +641,7 @@
     "dialogue_0089": {
       "text": {
         "reference": "{OP:8026}いちごタンメン～{OP:8020}！？{n}{WAIT}おいしそぉ～{happy_symbol}{n}たべにつれてってくれるのぉ～！？",
-        "translation": "{OP:8026}Strawberry noodles{OP:8020}!?{WAIT} Sounds delicious!\nWill you take me to eat some!?",
+        "translation": "{OP:8026}Strawberry noodles{OP:8020}?!{WAIT} Sounds delicious!\nWill you take me to eat some?!",
         "reviewed": true
       }
     },
@@ -691,7 +691,7 @@
     "dialogue_0096": {
       "text": {
         "reference": "えぇ～！！{n}じつはね{WAIT}あたしもまいごなのぉ～{happy_symbol}{n}{WAIT}気があうねぇ",
-        "translation": "What!?{WAIT} Actually, I'm lost too!{WAIT}\nWe have a lot in common.",
+        "translation": "What?!{WAIT} Actually, I'm lost too!{WAIT}\nWe have a lot in common.",
         "reviewed": true
       }
     },
@@ -845,7 +845,7 @@
     "dialogue_0119": {
       "text": {
         "reference": "{OP:8026}いちごタンメン～{OP:8020}！？{n}{WAIT}おいしそぉ～{happy_symbol}{n}そんなのがここにあるんだぁ",
-        "translation": "{OP:8026}Strawberry noodles{OP:8020}!?{WAIT} Sounds delicious!\nThey have that here?",
+        "translation": "{OP:8026}Strawberry noodles{OP:8020}?!{WAIT} Sounds delicious!\nThey have that here?",
         "reviewed": true
       }
     },
@@ -1002,7 +1002,7 @@
     "dialogue_0144": {
       "text": {
         "reference": "{OP:8026}いちごタンメン～{OP:8020}！？{n}{WAIT}うげろぉ～",
-        "translation": "{OP:8026}Strawberry noodles{OP:8020}!?{WAIT} Blech!"
+        "translation": "{OP:8026}Strawberry noodles{OP:8020}?!{WAIT} Blech!"
       }
     },
     "dialogue_0145": {
@@ -1152,7 +1152,7 @@
       },
       "text": {
         "reference": "{rei_name}：ちょ、ちょっと！{n}いつから、そうなったのよぉ！",
-        "translation": "{rei_name}: H-hey! How did you reach that conclusion!?"
+        "translation": "{rei_name}: H-hey! How did you reach that conclusion?!"
       }
     },
     "dialogue_0168": {
@@ -1445,7 +1445,7 @@
     "dialogue_0214": {
       "text": {
         "reference": "！！{n}{WAIT}・{BEAT}・{BEAT}・{BEAT}・・・{BEAT}！？",
-        "translation": "!!{WAIT}.{BEAT}.{BEAT}.{BEAT}...{BEAT}!?"
+        "translation": "!!{WAIT}.{BEAT}.{BEAT}.{BEAT}...{BEAT}?!"
       }
     },
     "dialogue_0215": {
@@ -1526,13 +1526,13 @@
     "dialogue_0227": {
       "text": {
         "reference": "なによぉ！{n}おじちゃんのカラダのコト{n}しんぱいしてあげたのにぃ～！",
-        "translation": "What!? I was worried about your health, mister!"
+        "translation": "What?! I was worried about your health, mister!"
       }
     },
     "dialogue_0228": {
       "text": {
         "reference": "えぇ～！？{WAIT}守ってないなんてぇ～！{n}{WAIT}ゲ～ムばっかしやってるとぉ{n}人生ふみ外しちゃうよぉ！",
-        "translation": "What!?{WAIT} You don't follow it!?{WAIT} Too many games can ruin your life!"
+        "translation": "What?!{WAIT} You don't follow it?!{WAIT} Too many games can ruin your life!"
       }
     },
     "dialogue_0229": {
@@ -1768,7 +1768,7 @@
     "dialogue_0266": {
       "text": {
         "reference": "えぇ～！？{n}なっとくいかないなぁ{n}{WAIT}あくまは殺すくせにぃ～！",
-        "translation": "What!? That makes no sense!{WAIT} You kill demons!"
+        "translation": "What?! That makes no sense!{WAIT} You kill demons!"
       }
     },
     "dialogue_0267": {
@@ -1914,7 +1914,7 @@
     "dialogue_0290": {
       "text": {
         "reference": "なによぉ{n}注意してあげただけじゃなぁ～い{n}{WAIT}むっかぁ～！！",
-        "translation": "What!? I was only warning you!{WAIT} Now I'm mad!"
+        "translation": "What?! I was only warning you!{WAIT} Now I'm mad!"
       }
     },
     "dialogue_0291": {
@@ -1941,7 +1941,7 @@
     "dialogue_0294": {
       "text": {
         "reference": "なによぉ！{n}かみのけさかだてたってこわくないもん",
-        "translation": "What!? Spiking your hair doesn't scare me!"
+        "translation": "What?! Spiking your hair doesn't scare me!"
       }
     },
     "dialogue_0295": {
@@ -2191,7 +2191,7 @@
     "dialogue_0335": {
       "text": {
         "reference": "うそつきぃ～{n}{WAIT}どぉしてたんていさんが{n}あくまつれてるのよぉ～！",
-        "translation": "Liar!{WAIT} Why would a detective have demons!?"
+        "translation": "Liar!{WAIT} Why would a detective have demons?!"
       }
     },
     "dialogue_0336": {
@@ -2284,13 +2284,13 @@
     "dialogue_0350": {
       "text": {
         "reference": "えぇ～！？{n}あんなのどこがたのしいのぉ？{n}{WAIT}あ、わかったぁ",
-        "translation": "What!? What's fun about that?{WAIT} Oh, I know!"
+        "translation": "What?! What's fun about that?{WAIT} Oh, I know!"
       }
     },
     "dialogue_0351": {
       "text": {
         "reference": "おじちゃん{OP:8026}ちかん{OP:8020}するんでしょぉ！{n}えっちそぉなカオしてるもん{n}{WAIT}あっち行けぇ！",
-        "translation": "Mister, you {OP:8026}grope women{OP:8020}, don't you!? You look lecherous!{WAIT} Get away!"
+        "translation": "Mister, you {OP:8026}grope women{OP:8020}, don't you?! You look lecherous!{WAIT} Get away!"
       }
     },
     "dialogue_0352": {
@@ -2462,7 +2462,7 @@
     "dialogue_0379": {
       "text": {
         "reference": "あぁ～！{n}あたしのこときらいなんでしょぉ！{n}{WAIT}おじちゃんなんか{BEAT}ゼッコウよぉ！！",
-        "translation": "Oh! You hate me, don't you!?{WAIT} Mister...{BEAT} we're through!!"
+        "translation": "Oh! You hate me, don't you?!{WAIT} Mister...{BEAT} we're through!!"
       }
     },
     "dialogue_0380": {
@@ -3007,7 +3007,7 @@
     "dialogue_0466": {
       "text": {
         "reference": "なによぉ{n}おじちゃんだってときどき{n}なんかくれって言うじゃなぁ～い！",
-        "translation": "What!? You ask me for things sometimes too, mister!"
+        "translation": "What?! You ask me for things sometimes too, mister!"
       }
     },
     "dialogue_0467": {
@@ -3124,7 +3124,7 @@
     "dialogue_0485": {
       "text": {
         "reference": "あたしのおさけが{n}飲めないってぇのぉ！？{n}{WAIT}うい{happy_symbol}",
-        "translation": "You won't drink my liquor!?{WAIT} Hic!"
+        "translation": "You won't drink my liquor?!{WAIT} Hic!"
       }
     },
     "dialogue_0486": {
@@ -3364,7 +3364,7 @@
     "dialogue_0524": {
       "text": {
         "reference": "・{BEAT}・{BEAT}・{BEAT}おじちゃん{n}死んだふりじょぉずぅ～{happy_symbol}{n}{WAIT}いっつもあくま殺してるからでしょぉ！？",
-        "translation": ".{BEAT}.{BEAT}.{BEAT} Mister, you're good at playing dead!{WAIT} Because you always kill demons, right!?"
+        "translation": ".{BEAT}.{BEAT}.{BEAT} Mister, you're good at playing dead!{WAIT} Because you always kill demons, right?!"
       }
     },
     "dialogue_0525": {
