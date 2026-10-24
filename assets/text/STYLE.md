@@ -61,7 +61,10 @@ in game.
 - **Speaker labels** are `Name: ` at the start of the first line, matching the
   label list in the glossary.
 - **Narration and system lines** start with `> ` where the Japanese has `＞`.
-  Write them in past tense (`> Rei Reiho headed out.`) and keep them flat.
+  Keep them flat, and follow the Japanese tense: past where it's past
+  (出かけていった → `> Rei Reiho headed out.`), present where it isn't
+  (開けられるようだ → `> It looks like the stone door can be opened.`,
+  誰もいない → `> There is no one here...`).
 
 ## Names
 

@@ -52,7 +52,7 @@
       },
       "text": {
         "reference": "＞博物館の所蔵品、{item_name}{n}が展示されている。",
-        "translation": "> {item_name}, from the museum collection,{n}was on display."
+        "translation": "> {item_name}, from the museum collection,{n}is on display."
       }
     },
     "city_museum_collection_007": {
@@ -97,19 +97,19 @@
     "city_museum_collection_013": {
       "text": {
         "reference": "＞博物館の所蔵品、珍しいツボが{n}展示されている。",
-        "translation": "> A Rare Vase from the museum collection{n}was on display."
+        "translation": "> A Rare Vase from the museum collection{n}is on display."
       }
     },
     "city_museum_collection_014": {
       "text": {
         "reference": "＞博物館の所蔵品、美しい絵が{n}展示されている。",
-        "translation": "> A Beautiful Painting from the museum{n}collection was on display."
+        "translation": "> A Beautiful Painting from the museum{n}collection is on display."
       }
     },
     "city_museum_collection_015": {
       "text": {
         "reference": "＞博物館の所蔵品、高価な像が{n}展示されている。",
-        "translation": "> A Valuable Statue from the museum collection{n}was on display."
+        "translation": "> A Valuable Statue from the museum collection{n}is on display."
       }
     },
     "city_museum_dantalian_000": {
@@ -151,7 +151,7 @@
     "city_museum_dantalian_006": {
       "text": {
         "reference": "＞博物館に取りついていた、{n}堕天使ダンタリアンがいた部屋。",
-        "translation": "> This was the room where Fallen Dantalian,{n}who had haunted the museum, once lurked."
+        "translation": "> This is the room where Fallen Dantalian,{n}who haunted the museum, once lurked."
       }
     },
     "city_museum_dantalian_007": {
@@ -268,7 +268,7 @@
     "city_museum_dantalian_025": {
       "text": {
         "reference": "＞レイのブロンズ像がある。{n}レイの思念が伝わってくる…………。",
-        "translation": "> Rei's bronze statue stood here.{n}You could sense her thoughts..."
+        "translation": "> Rei's bronze statue stands here.{n}You can sense her thoughts..."
       }
     },
     "city_museum_dantalian_026": {
@@ -286,7 +286,7 @@
     "city_museum_dantalian_028": {
       "text": {
         "reference": "＞展示室には、封印のために建てられた{n}はずの祠が、置かれている。",
-        "translation": "> In the gallery stood a shrine{n}that was supposed to have been built as a seal."
+        "translation": "> In the gallery stands a shrine{n}that was supposed to have been built as a seal."
       }
     },
     "city_museum_dantalian_029": {
@@ -334,7 +334,7 @@
     "city_museum_dantalian_036": {
       "text": {
         "reference": "＞展示室に祠が展示されている。",
-        "translation": "> A shrine was on display in the gallery."
+        "translation": "> A shrine is on display in the gallery."
       }
     },
     "city_museum_dantalian_037": {
