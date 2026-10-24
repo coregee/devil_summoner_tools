@@ -1,5 +1,32 @@
 # Changelog
 
+## v0.2 (Saturn)
+
+A full revision of the English script against the Japanese. Apply it to the
+original **Rev. B** Track 1, not on top of v0.1; see [PATCHING.md](PATCHING.md).
+
+- **Story dialogue:** about 500 lines revised for accuracy and natural English,
+  with consistent voices for Rei, Kyouji, Marie, Sid, Kumiko and the rest.
+  Several lines that had the wrong speaker, target or tense are fixed.
+- **Negotiation:** about 550 lines across the 15 demon personalities. Choices
+  now match their questions, reactions match the choice, and lost puns are
+  rebuilt in English.
+- **Reply choices:** 27 choices that were too wide for their column (and were
+  cut off mid-word in game) are reworded to fit.
+- **Item and equipment names:** 24 corrected, e.g. Rime Moonlight, Halo Helm,
+  Demonbane Ring, Sheragamo Boots.
+- **Demon profiles:** about 140 fields corrected for accuracy and tense.
+- **Facilities, battle and menus:** about 230 lines, including ritual console
+  lines that used to run off the edge of their window.
+- **Consistency:** a [style guide and glossary](assets/text/STYLE.md) now fixes
+  names and terms across the script (Tendou-gumi, Chuo Ward, Otherworld, House
+  of Fortune), and narration follows the tense of the Japanese.
+
+Known issues:
+
+- The script still hasn't had a full playthrough. Reports are welcome.
+- The *Akuma Zensho* bonus disc is still **not** included.
+
 ## v0.1 (Saturn)
 
 First public release of the English patch for *Shin Megami Tensei: Devil
