@@ -21,7 +21,7 @@ import engine.surfaces.field_messages as field_messages  # noqa: E402
 import engine.surfaces.maze_party_panel as maze_panel  # noqa: E402
 
 
-OUTPUT_HASH = "c45b897557852679a855b8c4e01c627fd2531d8b5be07072bb49de5a0ff2e5e1"
+OUTPUT_HASH = "c322060292ef2be77007a29d3481e0e5082215f8b14cd13cf66b3c0cd7124b40"
 
 
 class MazePartyPanelEngineTests(unittest.TestCase):
@@ -47,7 +47,7 @@ class MazePartyPanelEngineTests(unittest.TestCase):
             hashlib.sha256(
                 self.patches["renderer_cave"].replacement[:574]
             ).hexdigest(),
-            "067c866fa6e4db778b663a23d23b5dfdf10a75dce4ffe61f08fb5cd76f947767",
+            "1241370645c1c99acac376851fe29ea7072e02f43ad997f290ada6d87ec2079d",
         )
         self.assertEqual(
             hashlib.sha256(

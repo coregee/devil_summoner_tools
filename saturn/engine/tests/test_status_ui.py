@@ -83,12 +83,12 @@ from engine.surfaces.status_ui import (  # noqa: E402
 from text.util.event_repack import FontMetrics  # noqa: E402
 
 
-BASE_HASH = "55283ade924c5f4aa7c8ddd871bd2563e5c36d5f384b7240f2ed57dfbd4e7947"
-EXPECTED_HASH = "36c700eb470293e7a6141b265c5f5ddd16a0b616fad3aa0f08df595df88c9c41"
+BASE_HASH = "11b7e6c177c832fae8dd10b69c02153c3732fe0f51f9cc025cad843e8d741392"
+EXPECTED_HASH = "9b7fc35d49a2488900100327e72979c2aa90d6f4cd07c4fede42ed5ce0080c1d"
 EXPECTED_COMPONENT_HASHES = {
     "wrapper_cave": "b841af4246a3ef6bd28ddd765dda6416b16739abcb5fc4549178b6a5d193c824",
-    "font12_atlas": "0ae06b004b5c0114e2f4e0d49ad42c3c1985d891096d628828080393337329e0",
-    "english_status_runtime": "d4d527af4978daa7ddb49cc3521478c600c96872358224a2d8f9db3b5f55135e",
+    "font12_atlas": "60a8c8ad56a3723e663b8afc870f915e9111616771e640d3373beef1e6c81d46",
+    "english_status_runtime": "9cffa78caa83c2c5eb35692e24fbd4ae2150f33b8fbc842ade9c2a811e81ddb2",
 }
 EXPECTED_ASSEMBLY = {
     "status_ui/auto_action_vwf.s",

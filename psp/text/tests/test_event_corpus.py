@@ -19,11 +19,11 @@ from psp.text.util.event_packed import decode_ascii, encode_ascii
 
 
 EXPECTED_BANKS = {
-    "SHOPSMP": (816, 460, 572, 32320, "762eb5569435834585b94083108c856602a95521f5aa910a9737ef6690a8e1cc"),
-    "EVFILE_0": (472, 472, 774, 50024, "b596a4a01e7da68b478d16da453a1f258ef234b96cb39f88b97937e7c137a876"),
-    "EVFILE_1": (329, 327, 602, 43580, "64bdb9dc58ea8a64e0c8cdc6b5f4b878cb99464c831060ed264b738cd6892c21"),
-    "MESFILE": (240, 240, 514, 45794, "c8b37e260848217d38dcb9a4f0e73bbf947cc58c15a9ec0a0151f34665a1d493"),
-    "EVFILE_2": (90, 82, 170, 10222, "343b71fb0efe2ad7256070e7917e5e5abac8e8656816954cc890aad7c0099d39"),
+    "SHOPSMP": (816, 460, 572, 32182, "0391e765e1ec0214f449ef16794b65c270aad7d91ad61d0ba87275d31c425844"),
+    "EVFILE_0": (472, 472, 774, 49036, "ea399999d8ced8b06dc54e7d1b51515dbafba01fe73a6aa8de1dddbcff3c0043"),
+    "EVFILE_1": (329, 327, 602, 43304, "73d6c0bee302fa77f6d9479b97fd68419e563f832026c6b8923f62a059cc1a9e"),
+    "MESFILE": (240, 240, 514, 45696, "e69bf1120f7aeb45c82b707efcb0f1c0e7b6bd21037c68415fa7bc1916bcd318"),
+    "EVFILE_2": (90, 82, 170, 10172, "4ee50fae2be5a5e2139c5e9ad485f7ae10394e37f4de71f7a2c3fa32a2bef91f"),
 }
 
 
@@ -87,7 +87,7 @@ class EventCorpusPinnedSourceTests(unittest.TestCase):
         self.assertEqual(self.result.changed_member_indices, (0, 1, 2, 3, 4))
         self.assertEqual(
             hashlib.sha256(self.result.eve_files).hexdigest(),
-            "dcecdf12a20bff77277b22dbc46f9f6f0466b06c56d8acf7d0bb92408e4d5458",
+            "e559b30d19e7caea657143e9a18533547ec547c5d4fced5de7f9d25ed65719ae",
         )
         source_archive = PspPack.parse(self.font.data)
         output_archive = PspPack.parse(self.result.eve_files)

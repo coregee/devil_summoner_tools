@@ -30,18 +30,18 @@ EXPECTED_POINTERS = (
     23,
     50,
     67,
-    89,
-    106,
-    116,
-    139,
-    171,
-    200,
-    223,
-    242,
-    284,
-    304,
-    322,
-    327,
+    87,
+    104,
+    114,
+    137,
+    164,
+    196,
+    219,
+    238,
+    285,
+    305,
+    323,
+    328,
     0,
 )
 
@@ -112,14 +112,14 @@ class CombatDialoguePinnedSourceTests(unittest.TestCase):
     def test_member_and_composed_archive_are_exact(self) -> None:
         self.assertEqual(
             hashlib.sha256(self.result.bank.data).hexdigest(),
-            "89cbe171a4006ce00cfab902e7404f85759545f403fe0e54b97cb01b30270a15",
+            "eb87b6bf6849be7ed37ffbf80b6f8b7a4f5136252a315fa21e58875987bb2a28",
         )
         self.assertEqual(
             hashlib.sha256(self.result.eve_files).hexdigest(),
-            "71e43ab3ce3bad0d69e9b6ad68bdd49a16510df890e6999041df8ecd803fefe5",
+            "356e0a5634a7a8ebb0ef91699cd7b3d320cf0b81d5ffc9682b750e63f0b6ffc6",
         )
         self.assertEqual(self.result.changed_member_indices, (22,))
-        self.assertEqual(self.result.changed_byte_count, 700)
+        self.assertEqual(self.result.changed_byte_count, 701)
 
     def test_pointer_body_and_script_ownership_are_exact(self) -> None:
         bank = self.result.bank
@@ -127,7 +127,7 @@ class CombatDialoguePinnedSourceTests(unittest.TestCase):
             struct.unpack_from(">17H", bank.data, BOSSTALK_BINDING.table_offset),
             EXPECTED_POINTERS,
         )
-        self.assertEqual(bank.used_body_bytes, 0x029A)
+        self.assertEqual(bank.used_body_bytes, 0x029C)
         self.assertEqual(bank.body_capacity_bytes, 0xD000)
         self.assertEqual(bank.message_count, 16)
         self.assertEqual(len(bank.translated_record_ids), 16)

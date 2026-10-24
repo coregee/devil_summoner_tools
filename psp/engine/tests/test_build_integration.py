@@ -92,7 +92,7 @@ class PspEngineBuildIntegrationTests(unittest.TestCase):
         self.assertEqual(len(eboot) - len(stock), engine_build.EBOOT_TRAILING_SIZE)
         self.assertEqual(
             hashlib.sha256(result.data).hexdigest(),
-            "5ec426ef9f3aacffc53e5106678945c3b83e39ef95912fca3614a367f56a286a",
+            "287aef57899c146bbcae6b0213386906eee9d9840f8a754c863d7bbd2ce498f4",
         )
 
 

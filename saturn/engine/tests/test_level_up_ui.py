@@ -54,11 +54,11 @@ from text.util.assets import load_asset, load_bound_translations  # noqa: E402
 from text.util.event_repack import FontMetrics  # noqa: E402
 
 
-EXPECTED_HASH = "466c552e95bb5c7bd808f550e8f0832077715f20fd5427dedf412793fe5d1ed1"
+EXPECTED_HASH = "bee6f6b6404202f34ffdfdbb963ede17ed7090ed5437e206ced263c914c77a0b"
 EXPECTED_RUNTIME_HASH = "58ae006984ff1e6cdacb7845fb3881bdb0d2b71726def22dafb20df17863ed2a"
 EXPECTED_LAYOUT_HASHES = {
     "parameter_nodes": "a5b629f03d28c1cf718a71baf594c7f43e13d47041f9bfac2cc1032dfb924c01",
-    "parameter_rows": "9415f594b8e07a86b13078c8892bd6bb1a6d1911161baa5a0f2a17c55c267603",
+    "parameter_rows": "e9e76f3ac14aa5dd2e43c8bad92e2e227d66e5c5d793b1636294304b4e10bfe5",
     "generic_attack_label": "bbe62789dde710c108832796fca70cf61da2ccabe5b5d34cf7df57133b4abc01",
     "generic_accuracy_label": "5867ed69657fc35465eeea9f8250200d9bc68a45b8be2fc6eaaf38c91aa24bd1",
 }

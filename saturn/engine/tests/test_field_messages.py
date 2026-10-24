@@ -51,29 +51,29 @@ from text.util.event_repack import FontMetrics  # noqa: E402
 
 
 STOCK_OUTPUT_SHA256 = (
-    "9445d8e80974910101c0c6dc028f3c8cba75a434f1d3e073c81989d60968d4f4"
+    "f2a3ccde4bfa405fdbebce01a5934e439e4edca98bff0fe5ddd86c8079bde5c1"
 )
 LOCATION_BASE_SHA256 = (
     "7f85c7dd54c89d403b33aed18db627cb0ec1666f74283438e4fe6d8cc82a7a7d"
 )
 COMPOSED_OUTPUT_SHA256 = (
-    "f89e4df13f4ea92524338b106493ec504f63cc514f51682292c3563e57c34e75"
+    "246b3193f2df3097e04a3a37c76f562097cc46d4cace435a10e1ccc447cb0216"
 )
 DIRECT_HASHES = {
     "operation_disabled": (
         "05da2a0487c737d7e7287e3b5cf5049601fb4fb285175add8c9c5ca6f08dc053"
     ),
     "nothing_notable": (
-        "09850b8f81087312b59508f4a29dc516101fc887fb075e092baeabfa4470889e"
+        "eb5b60037536771d569a95e65b786d704e4f2ef981455a8a4548ceb7f9c49c9f"
     ),
     "nothing_found": (
-        "0d70a088c6808d5fa9098a79781a406ef5e516b232950e8dccbd288e9a149e25"
+        "6b2febc1080d36ab6ce27511f8195210c71cacc54e7e0bdd233b729411eb3df5"
     ),
     "inventory_full": (
         "dc9027dcc2138d8daefbee48c0b6bd5f20279cf7ebb8d4ff0a4d136ced077262"
     ),
     "auto_recover_on": (
-        "a9bb5b26920f68c7df298cbc92a4d491027de76e2d9fd0b27282b8e0c1a34374"
+        "ed2d0656612cb6892c0e45317463bf945892843d96ef59d78c3fb592bc74f4a9"
     ),
     "no_effect": (
         "46f4f450a0756f3ac29d449e20c34506d9a440d116048e427a3e38d558ee54ff"

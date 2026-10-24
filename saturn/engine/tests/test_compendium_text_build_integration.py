@@ -73,12 +73,12 @@ class CompendiumTextBuildIntegrationTests(unittest.TestCase):
         self.assertEqual(
             self.manifest["runtime"],
             {
-                "bytes": 2960,
+                "bytes": 2956,
                 "capacity": 30722,
                 "arenas": [
                     {
                         "address": "0x0603d200",
-                        "bytes": 2960,
+                        "bytes": 2956,
                         "capacity": 30722,
                     }
                 ],

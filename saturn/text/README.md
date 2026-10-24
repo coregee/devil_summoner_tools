@@ -16,6 +16,10 @@ handle pointers, terminators, capacity and round-trip checks.
 The translation itself lives in `assets/text` at the repository root. The
 extracted corpus here is reference data, not something to edit.
 
+> **Hashes and sizes in this document** describe the build before the 2026
+> translation review, which changed much of the wording. The test suites hold the
+> current values; treat the figures here as illustrations of what is checked.
+
 ## Layout
 
 - `config/encodings.json`: alphabets, control codes and source encodings.

@@ -119,7 +119,7 @@ class BattleAssetTests(unittest.TestCase):
         first = self.demon_chat.entries["dialogue_0000"]
         self.assertEqual(
             first.fields["text"].translation,
-            "HEY, SUMMONER...{n}YOU SAY SOMETHING?{demon_name}",
+            "HEY, SUMMONER...{n}DID YOU SAY SOMETHING?{demon_name}",
         )
         self.assertEqual(dict(first.placeholders), {"demon_name": "demon_name"})
 
@@ -191,7 +191,7 @@ class BattleAssetTests(unittest.TestCase):
         self.assertEqual(len(self.command_help_binding.records), 24)
         self.assertEqual(
             self.battle_help.entries["fight"].fields["text"].translation,
-            "Fight with a demon.",
+            "Fight the demon.",
         )
         self.assertEqual(
             self.command_help.entries["party_setup"].fields["text"].translation,

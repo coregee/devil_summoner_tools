@@ -21,7 +21,7 @@ from engine.build import (  # noqa: E402
 
 BUILD_CONFIG_PATH = SATURN_ROOT / "build_config.json"
 EXTRACTED_ROOT = (SATURN_ROOT / "rom" / "extracted").resolve()
-EXPECTED_HASH = "3d84b647018108d6a2f1f74a068336d6166766b1a3d25d826f7eb05c66f2efe7"
+EXPECTED_HASH = "dbe25a1daae047941e4c2512958bd3b69e8c8abcade84c191866546ae38822e0"
 
 
 def _sha256(value: bytes) -> str:

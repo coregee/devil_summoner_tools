@@ -52,7 +52,7 @@ class CompendiumTextSurfaceTests(unittest.TestCase):
     def test_default_hashes_and_runtime_capacity_are_deterministic(self) -> None:
         self.assertEqual(
             hashlib.sha256(self.build.outputs[surface.TARGET]).hexdigest(),
-            "e333bcee225c5f64bbee88ca907b72bc4201330018cee958c70bddc5ef526232",
+            "2bbd7e0c00573eb83273b15e790bef2d06bd3fcba489b5987c541de9e2550a02",
         )
         catalogue = hashlib.sha256()
         for path, data in sorted(self.build.outputs.items()):
@@ -61,9 +61,9 @@ class CompendiumTextSurfaceTests(unittest.TestCase):
             catalogue.update(hashlib.sha256(data).digest())
         self.assertEqual(
             catalogue.hexdigest(),
-            "ad7774e7e9bf68a87c4255eb350eac1c6f11ba1cd0d67bf15ef2dbe6ed3a6c3b",
+            "c2a9d6573735cd925d6d164cd40cd326f573f4dda7db444f9566c49442036a38",
         )
-        self.assertEqual(self.build.runtime_used_size, 2960)
+        self.assertEqual(self.build.runtime_used_size, 2956)
         self.assertEqual(self.build.runtime_capacity, 30722)
         runtime = self.build.outputs[surface.TARGET][
             surface.RUNTIME_ADDRESS
@@ -73,7 +73,7 @@ class CompendiumTextSurfaceTests(unittest.TestCase):
         ]
         self.assertEqual(
             hashlib.sha256(runtime).hexdigest(),
-            "0810e27ab3667e0a7184f8d547f4c1c73db22f9935ac22dd0759a08c59a2539e",
+            "681a9f4960b251c48ad3dfeea06a489c53c30b6b75360cb50427c002912e973d",
         )
         scratch = (
             surface.RUNTIME_ADDRESS

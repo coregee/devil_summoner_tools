@@ -16,7 +16,7 @@ if str(SATURN_ROOT) not in sys.path:
 import engine.surfaces.horoscope_ui as horoscope  # noqa: E402
 
 
-MATURE_HASH = "b51a5611e1095387c92baec2a5f8a8965eb47794cab0b774add3eb310f04b041"
+MATURE_HASH = "78caf077a45d9a0a5183a00516db7d85540bcbf0c9659297f0a3dd80d6313c0e"
 
 
 class HoroscopeUiEngineTests(unittest.TestCase):
@@ -46,11 +46,11 @@ class HoroscopeUiEngineTests(unittest.TestCase):
         self.assertEqual(self.patches["reveal_scale"].replacement.hex(), "4508")
 
     def test_default_pool_reproduces_every_mature_layout(self) -> None:
-        self.assertEqual(self.build.runtime_used_size, 668)
+        self.assertEqual(self.build.runtime_used_size, 634)
         self.assertEqual(self.build.runtime_capacity, 1024)
         self.assertEqual(
             [len(self.runtime.layouts[f"message_{index:02d}"]) for index in range(1, 9)],
-            [51, 35, 51, 49, 31, 31, 32, 54],
+            [51, 35, 51, 42, 31, 25, 32, 50],
         )
         self.assertEqual(
             list(self.runtime.links.values()),
@@ -59,18 +59,18 @@ class HoroscopeUiEngineTests(unittest.TestCase):
                 0x06020466,
                 0x060204AC,
                 0x06020512,
-                0x06020574,
-                0x060205B2,
-                0x060205F0,
-                0x06020630,
+                0x06020566,
+                0x060205A4,
+                0x060205D6,
+                0x06020616,
             ],
         )
         pool = self.patches["message_pool"].replacement
         self.assertEqual(len(pool), 1024)
-        self.assertFalse(any(pool[668:]))
+        self.assertFalse(any(pool[634:]))
         for index, expected_lines in enumerate(
-            ((18, 17, 13), (19, 14), (18, 18, 12), (19, 18, 9),
-             (19, 10), (19, 10), (18, 12), (15, 20, 16)),
+            ((18, 17, 13), (19, 14), (18, 18, 12), (19, 15, 5),
+             (19, 10), (16, 7), (18, 12), (14, 18, 15)),
             start=1,
         ):
             layout = self.runtime.layouts[f"message_{index:02d}"]
