@@ -77,6 +77,18 @@ STATIC_HINT_LIMIT = MEASURE_START_CODE
 STATIC_HINT_MAX = STATIC_HINT_LIMIT - STATIC_HINT_BASE - 1
 SPACE_CODE = 267
 DIALOGUE_WIDTH = 300
+# Three- and four-way replies share a two-by-two grid of 150px columns; the
+# longest Japanese option is nine cells. Two-way replies have Japanese options
+# up to fifteen cells, so they get the 240px the original is known to use.
+CHOICE_WIDTH = 150
+TWO_CHOICE_WIDTH = 240
+# Each personality EVE bank keeps its negotiation script below the message
+# table: a word table of statement starts at 0x20 (ended by 0xffff), with the
+# statements themselves at 0x800. A choice statement ends with one of these
+# opcodes, its message numbers, the paired branch opcode and branch targets.
+SCRIPT_TABLE_WORD = 0x10
+SCRIPT_BODY_WORD = 0x400
+CHOICE_OPCODES = {0x0010: (2, 0x0011), 0x0012: (3, 0x0013), 0x0014: (4, 0x0015)}
 _EVE_ID_RE = re.compile(r"game\.([a-z0-9_]+)\.m([0-9]{4})\.p([0-9]{2})\Z")
 _OFFSET_ID_RE = re.compile(r"game\.[a-z0-9_]+\.o([0-9a-f]{6})(?:\.[a-z0-9_]+)?\Z")
 _PUNCTUATION_SPACE_RE = re.compile(r"([.!?])([A-Za-z{])")
@@ -303,6 +315,59 @@ def load_negotiation_translations() -> dict[str, str]:
     return dict(load_bound_translations(prefixes, required_ids=required))
 
 
+def negotiation_choice_messages(stock: bytes, table_offset: int) -> dict[int, int]:
+    """Map each message a bank's script offers as a reply choice to its width.
+
+    A choice statement either starts with the choice opcode (a repeat of a
+    question already shown) or follows a ``0000 <message>`` display. A message
+    offered in both a two-way and a larger choice gets the narrower limit.
+    """
+    words = [
+        int.from_bytes(stock[offset : offset + 2], "big")
+        for offset in range(0, table_offset, 2)
+    ]
+    try:
+        end = words.index(0xFFFF, SCRIPT_TABLE_WORD)
+    except ValueError:
+        return {}
+    starts = words[SCRIPT_TABLE_WORD:end]
+    limits: dict[int, int] = {}
+    for start, stop in zip(starts, starts[1:]):
+        statement = words[SCRIPT_BODY_WORD + start : SCRIPT_BODY_WORD + stop]
+        for opcode, (count, branch) in CHOICE_OPCODES.items():
+            size = 2 + 2 * count
+            if (
+                len(statement) >= size
+                and statement[-size] == opcode
+                and statement[-size + count + 1] == branch
+            ):
+                prefix = statement[:-size]
+                if not prefix or (len(prefix) >= 2 and prefix[-2] == 0):
+                    limit = TWO_CHOICE_WIDTH if count == 2 else CHOICE_WIDTH
+                    for message in statement[-size + 1 : -size + 1 + count]:
+                        limits[message] = min(limit, limits.get(message, limit))
+    return limits
+
+
+def _choice_overflows(
+    source_name: str,
+    message: int,
+    pages: list[str],
+    limit: int,
+    metrics: FontMetrics,
+) -> list[str]:
+    text = _normalize(pages[0]) if len(pages) == 1 else ""
+    if len(pages) != 1 or "\n" in text:
+        return [f"{source_name}: message {message}: a reply choice must be one line"]
+    width = _width(text, metrics)
+    if width > limit:
+        return [
+            f"{source_name}: message {message}: reply choice is {width}px, "
+            f"limit is {limit}px: {pages[0]!r}"
+        ]
+    return []
+
+
 def compile_negotiation_banks(
     manifest: SourceManifest,
     stock_files: dict[PurePosixPath, bytes],
@@ -312,6 +377,7 @@ def compile_negotiation_banks(
 ) -> tuple[CompiledEventBank, ...]:
     sources = {source.name: source for source in manifest.sources}
     compiled: list[CompiledEventBank] = []
+    overflows: list[str] = []
     for source_name in NEGOTIATION_EVE_SOURCES:
         source = sources[source_name]
         container = dict(source.container)
@@ -324,6 +390,7 @@ def compile_negotiation_banks(
         bank = EveBank.parse(stock, table_offset, body_offset)
         if len(bank.messages) != container["expected_messages"]:
             raise ValueError(f"{file_spec.path}: message count changed")
+        choices = negotiation_choice_messages(stock, table_offset)
         by_message: dict[int, list[tuple[int, str]]] = {}
         for physical_id, translation in translations.items():
             match = _EVE_ID_RE.fullmatch(physical_id)
@@ -345,6 +412,10 @@ def compile_negotiation_banks(
                 words.append(message.words)
                 continue
             pages = [text for _page, text in rows]
+            if message.index in choices:
+                overflows += _choice_overflows(
+                    source_name, message.index, pages, choices[message.index], metrics
+                )
             try:
                 encoded = encode_negotiation_message(
                     message.words, pages, metrics, dictionary
@@ -368,6 +439,11 @@ def compile_negotiation_banks(
                 translated_pages,
                 rebuilt.body_size,
             )
+        )
+    if overflows:
+        raise ValueError(
+            f"{len(overflows)} negotiation reply choices don't fit:\n"
+            + "\n".join(overflows)
         )
     return tuple(compiled)
 

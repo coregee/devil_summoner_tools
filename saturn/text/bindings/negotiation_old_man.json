@@ -753,6 +753,380 @@
     "game.combat_condition_messages.o055500.text": "condition_ally_veto.text",
     "game.combat_condition_messages.o0557c0.text": "condition_full_moon.text"
   },
+  "record_surfaces": {
+    "game.jijy.m0008.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0009.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0016.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0017.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0024.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0025.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0036.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0037.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0051.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0052.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0053.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0054.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0065.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0066.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0067.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0068.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0069.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0082.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0083.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0084.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0085.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0096.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0097.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0098.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0099.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0100.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0113.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0114.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0115.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0116.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0127.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0128.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0129.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0130.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0131.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0144.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0145.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0154.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0155.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0164.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0165.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0166.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0174.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0175.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0182.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0183.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0184.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0193.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0194.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0195.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0204.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0205.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0212.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0213.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0214.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0215.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0226.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0227.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0235.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0236.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0244.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0245.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0253.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0254.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0262.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0263.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0264.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0265.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0266.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0279.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0280.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0281.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0282.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0293.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0294.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0303.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0304.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0311.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0312.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0313.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0322.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0323.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0331.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0332.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0333.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0342.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0343.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0344.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0353.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0354.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0363.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0364.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0372.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0373.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0374.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0384.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0385.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0394.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0395.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0403.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0404.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0405.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0406.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0417.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0418.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0426.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0427.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0435.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0436.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0444.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0445.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0446.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0472.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0473.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0480.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0481.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0482.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0497.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0498.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0509.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0510.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.jijy.m0521.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0522.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.jijy.m0523.p00": [
+      "battle.negotiation_choice"
+    ]
+  },
   "field_surfaces": {
     "text": [
       "battle.negotiation_dialogue"
