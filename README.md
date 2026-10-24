@@ -16,12 +16,13 @@ is here, and forks, fixes and new translations are very welcome.
 
 | Target | State |
 | --- | --- |
-| Saturn game disc (Rev. B) | **v0.1 released.** Feature-complete: all of the game's text, fonts, menus, FMV subtitles and translated graphics. |
+| Saturn game disc (Rev. B) | **v0.2.** Feature-complete: all of the game's text, fonts, menus, FMV subtitles and translated graphics. |
 | Saturn *Akuma Zensho* disc | **Broken.** The build produces an image, but the translated compendium does not work correctly in game. Don't rely on it. |
 | PSP | **Very incomplete.** A number of individual screens are translated and build cleanly (see [`psp/README.md`](psp/README.md)), but most of the game is still in Japanese. |
 
-The whole game is translated, but the script hasn't had a full editorial pass
-yet. If you spot typos, odd terminology or a line that doesn't fit, please
+The whole game is translated, and v0.2 revises the script against the Japanese
+(see [CHANGELOG.md](CHANGELOG.md)). It still hasn't had a full playthrough, so
+if you spot typos, odd terminology or a line that doesn't fit, please
 [open an issue](https://github.com/coregee/devil_summoner_tools/issues).
 
 ## The Saturn translation
@@ -128,10 +129,10 @@ Use the image in `build/game/` with an emulator or real hardware.
 To turn a build into a distributable BPS patch for Track 1 of the game disc:
 
 ```powershell
-python -B saturn/rom/patch.py create --version 0.1
+python -B saturn/rom/patch.py create --version 0.2
 ```
 
-This writes `saturn/rom/patch/devil_summoner_en_v0.1.bps`, checks that it
+This writes `saturn/rom/patch/devil_summoner_en_v0.2.bps`, checks that it
 reproduces the build exactly, and prints the CRC32 and SHA-256 of the original
 and patched Track 1.
 
@@ -214,6 +215,7 @@ the build with `--plan`, `--list-steps` and `--list-profiles`.
 ## Documentation
 
 - [Shared text assets](assets/text/README.md)
+- [Translation style guide and glossary](assets/text/STYLE.md)
 - [Shared image assets](assets/image/README.md)
 - [Language projects](assets/languages/README.md)
 - [Per-screen text limits](assets/consumers.md)

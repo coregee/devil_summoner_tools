@@ -55,12 +55,12 @@ from engine.surfaces.analyze_ui import (  # noqa: E402
 from text.util.event_repack import FontMetrics  # noqa: E402
 
 
-EXPECTED_HASH = "16f2a843e9512fc9e5a16f8f9d367f800462f716ed1d9ca07cb6170849145b4e"
+EXPECTED_HASH = "dbe25a1daae047941e4c2512958bd3b69e8c8abcade84c191866546ae38822e0"
 EXPECTED_RUNTIME_HASH = "f32d246645d3156f65fc6a2da34b4268f69b613c6c00eb4ee8215dabbdf51ccc"
 EXPECTED_TABLE_HASH = "862a24a0ae6aa3647458016eb17bfd65e26e0bfbd1cefc19566f0d0d382bf566"
 EXPECTED_LAYOUT_HASHES = {
     "parameter_nodes": "a5b629f03d28c1cf718a71baf594c7f43e13d47041f9bfac2cc1032dfb924c01",
-    "parameter_rows": "9415f594b8e07a86b13078c8892bd6bb1a6d1911161baa5a0f2a17c55c267603",
+    "parameter_rows": "e9e76f3ac14aa5dd2e43c8bad92e2e227d66e5c5d793b1636294304b4e10bfe5",
     "generic_attack_label": "bbe62789dde710c108832796fca70cf61da2ccabe5b5d34cf7df57133b4abc01",
     "generic_accuracy_label": "5867ed69657fc35465eeea9f8250200d9bc68a45b8be2fc6eaaf38c91aa24bd1",
     "loyalty_label": "8c61244312171095b245c9c10eb27a78f2762e3e012a25de6aec92a2e7e3f029",

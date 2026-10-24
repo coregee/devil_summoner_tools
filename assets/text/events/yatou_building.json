@@ -38,25 +38,25 @@
     "yatou_building_incident_005": {
       "text": {
         "reference": "謎の男：出たか。このザコどもめ。",
-        "translation": "Mysterious Man: So, there you are.{n}You worthless small fry."
+        "translation": "Mysterious Man: There you are, small fry."
       }
     },
     "yatou_building_incident_006": {
       "text": {
         "reference": "謎の男：きさま、なぜここにいる？{n}1人でいたら、死ぬぞ。わかってるのか？",
-        "translation": "Mysterious Man: What are you doing here?{n}You'll die if you stay alone, understand?"
+        "translation": "Mysterious Man: Why are you here?{n}On your own, you'll get killed. Got that?"
       }
     },
     "yatou_building_incident_007": {
       "text": {
         "reference": "このビルは、何者かが異界化させている。{n}そいつを倒さないと、外には出られん。",
-        "translation": "Someone has transformed this building into an Otherworld.{n}Until they're taken down, you can't leave."
+        "translation": "Someone has turned this building into{n}an Otherworld. Until they go down,{n}nobody gets out."
       }
     },
     "yatou_building_incident_008": {
       "text": {
         "reference": "外へ出たければ、おれについて来るんだな。{n}もっとも、きさまが生き残れるかどうかの{n}保証はできんがな。",
-        "translation": "If you want to escape, come with me.{n}Though I can't guarantee you'll survive."
+        "translation": "If you want out, stick with me.{n}Not that I can promise you'll survive."
       }
     },
     "yatou_building_incident_009": {
@@ -74,7 +74,7 @@
     "yatou_building_incident_011": {
       "text": {
         "reference": "謎の男：おい、そこのチンピラ。{n}バカさわぎも、いい加減にしな。{n}おまえは、これでおしまいだ。",
-        "translation": "Mysterious Man: Enough of this racket, punk.{n}Time for you to die."
+        "translation": "Mysterious Man: Hey, you. Punk.{n}Enough of this stupid racket.{n}You're finished."
       }
     },
     "yatou_building_incident_012": {
@@ -101,25 +101,25 @@
       },
       "text": {
         "reference": "タカシ：なにぃチキショウ！ナメやがって！{n}あとでほえづらかくなよっ！！{n}{demon_name}！！出てこい！！",
-        "translation": "Takashi: What!? Damn you, mocking me! You'll regret this!{n}{demon_name}! Come out!"
+        "translation": "Takashi: What?! Damn you, mocking me!{n}You'll be sorry!{n}{demon_name}! Get out here!"
       }
     },
     "yatou_building_incident_016": {
       "text": {
         "reference": "タカシ：うへへっ、うへへっ、うへへっ！！{n}死にやがれっ！！",
-        "translation": "Takashi: Uheheh...{n}Uheheh... Uheheh! Die!!"
+        "translation": "Takashi: Uheheh, uheheh, uheheh!!{n}Die!!"
       }
     },
     "yatou_building_incident_017": {
       "text": {
         "reference": "タカシ：な、なにぃ！ピシャーチャを{n}あっさり倒しちまうなんて、何者だ…？",
-        "translation": "Takashi: W-What!? You took down Pisaca that easily?{n}Who the hell are you...?"
+        "translation": "Takashi: W-What?! You took down Pisaca that easily?{n}Who the hell are you...?"
       }
     },
     "yatou_building_incident_018": {
       "text": {
         "reference": "くそっ！！おめぇなんか、シドの先生に{n}かかればイチコロだぜ！チクショウ！{n}おぼえてやがれっ！！",
-        "translation": "Damn it! Master Sid will make short work of you!{n}Remember this!"
+        "translation": "Damn it! Master Sid'll finish you off{n}in no time! Damn you!{n}You haven't seen the last of me!"
       }
     },
     "yatou_building_incident_019": {
@@ -131,7 +131,7 @@
     "yatou_building_incident_020": {
       "text": {
         "reference": "謎の男：ふん、よく生きていられたな。{n}だが、このことを誰かに話したら、{n}命はないぞ……いいな。",
-        "translation": "Mysterious Man: Hmm, so you managed to survive.{n}If you say a word about this to anyone,{n}you'll be finished... Understand?"
+        "translation": "Mysterious Man: Hmph, so you survived.{n}But tell anyone about this,{n}and you're dead... Got it?"
       }
     },
     "yatou_building_incident_021": {
@@ -143,37 +143,37 @@
     "yatou_building_incident_022": {
       "text": {
         "reference": "キョウジ：なんだ……レイ、お前か。",
-        "translation": "Kyouji: What?...Oh, Rei, it's just you."
+        "translation": "Kyouji: What... Oh, it's you, Rei."
       }
     },
     "yatou_building_incident_023": {
       "text": {
         "reference": "レイ：なんだはないでしょ。{n}わざわざ、迎えに来てあげたのに。",
-        "translation": "Rei: Don't 'what' me.{n}I came all this way to get you."
+        "translation": "Rei: Don't \"what\" me.{n}I came all the way out here to get you."
       }
     },
     "yatou_building_incident_024": {
       "text": {
         "reference": "まあ、あんたの力だったら{n}だいじょうぶだと思ったけどね。",
-        "translation": "Not that I was worried, with your power."
+        "translation": "Not that I was worried.{n}I figured you could handle it."
       }
     },
     "yatou_building_incident_025": {
       "text": {
         "reference": "きみ、早くお帰りよ。気をつけてね。",
-        "translation": "You should hurry home. Be careful."
+        "translation": "You'd better get home quick. Be careful."
       }
     },
     "yatou_building_incident_026": {
       "text": {
         "reference": "キョウジ：おい、レイ。{n}勝手にそいつを帰すな。",
-        "translation": "Kyouji: Wait, Rei.{n}You can't just let him go like that."
+        "translation": "Kyouji: Hey, Rei.{n}Don't go letting him leave."
       }
     },
     "yatou_building_incident_027": {
       "text": {
         "reference": "レイ：だいじょうぶよ。{n}彼がこのことを誰かに話したって{n}どうせ、信じてもらえないわよ。",
-        "translation": "Rei: Don't worry about it.{n}Besides, even if he told anyone, they'd never believe him."
+        "translation": "Rei: Relax.{n}Even if he tells anyone about this,{n}nobody's going to believe him."
       }
     },
     "yatou_building_incident_028": {
@@ -191,7 +191,7 @@
     "yatou_building_incident_030": {
       "text": {
         "reference": "……まあいい……勝手にしろ。{n}次に会った時には、命の保証はしない……。",
-        "translation": "...Fine ...have it your way. But if I see him again,{n}I can't guarantee he'll make it out alive."
+        "translation": "...Fine. Have it your way.{n}But next time we meet, I can't promise{n}you'll walk away alive."
       }
     },
     "yatou_building_incident_031": {
@@ -209,7 +209,7 @@
     "yatou_building_incident_033": {
       "text": {
         "reference": "君も気をつけて、帰ってね。{n}えっ、コンサートのチケット？",
-        "translation": "Like I said, you go home and be safe, okay?{n}Huh, a concert ticket?"
+        "translation": "You get home safe too, okay?{n}Huh? A concert ticket?"
       }
     },
     "yatou_building_incident_034": {
@@ -227,7 +227,7 @@
     "yatou_building_incident_036": {
       "text": {
         "reference": "レイ：まだ、いたの？うろうろしてると{n}面倒にまきこまれるわよ。",
-        "translation": "Rei: You're still here?{n}If you loiter around you'll find yourself in trouble."
+        "translation": "Rei: You're still here? Hang around{n}and you'll get dragged into trouble."
       }
     },
     "yatou_building_incident_037": {

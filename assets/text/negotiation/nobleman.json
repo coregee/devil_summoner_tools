@@ -14,7 +14,7 @@
       },
       "text": {
         "reference": "一族の者を、よしなに願いますよ。{n}{WAIT}これは、私からの気持ちです。{n}ほんの、{offered_item}ですけれど。",
-        "translation": "Please treat my kin well.{WAIT} This is a token of my regard. Only {offered_item}, I'm afraid."
+        "translation": "Please treat my kin well.{WAIT} This is a token of my regard. It is only {offered_item}, I fear."
       }
     },
     "dialogue_0002": {
@@ -152,7 +152,7 @@
     "dialogue_0024": {
       "text": {
         "reference": "じょ、{BEAT}冗談ですよ。",
-        "translation": "I-it was{BEAT} a joke."
+        "translation": "I-I was{BEAT} only joking."
       }
     },
     "dialogue_0025": {
@@ -215,13 +215,13 @@
     "dialogue_0034": {
       "text": {
         "reference": "その気はない",
-        "translation": "I have no intention."
+        "translation": "Not interested."
       }
     },
     "dialogue_0035": {
       "text": {
         "reference": "とは言え、一度は命を助けられた身。{n}{WAIT}もう頂くものはありません。",
-        "translation": "Even so, you once spared my life.{WAIT} I require nothing else."
+        "translation": "Even so, you once spared my life.{WAIT} I shall ask nothing more of you."
       }
     },
     "dialogue_0036": {
@@ -254,7 +254,7 @@
     "dialogue_0040": {
       "text": {
         "reference": "人が貴重な時間を割いているというのに。{n}私は、貴方達ほど暇ではないのですよ。",
-        "translation": "I have set aside precious time. I am not as idle as you."
+        "translation": "I am sparing you precious time. I am not as idle as you people."
       }
     },
     "dialogue_0041": {
@@ -284,7 +284,7 @@
     "dialogue_0045": {
       "text": {
         "reference": "誤解は、お互いを真に理解しようとすれば、{n}未然に防げるもの。{n}{WAIT}私達の場合とて、遅すぎはしますまい。",
-        "translation": "Misunderstandings can be prevented when both sides seek true understanding.{WAIT} It is not too late for us."
+        "translation": "Misunderstandings may be forestalled when both sides seek true understanding.{WAIT} Surely it is not too late for us."
       }
     },
     "dialogue_0046": {
@@ -360,7 +360,7 @@
     "dialogue_0057": {
       "text": {
         "reference": "あの世への手土産に、{n}そなたの首を所望いたす！！",
-        "translation": "I demand your head as a gift for the afterlife!!"
+        "translation": "I shall take your head with me to the afterlife!!"
       }
     },
     "dialogue_0058": {
@@ -375,7 +375,7 @@
     "dialogue_0059": {
       "text": {
         "reference": "おや。{n}私が差し上げるまでも、ないようですね。",
-        "translation": "Oh. It seems I need not give you mine."
+        "translation": "Oh. It seems you need nothing from me."
       }
     },
     "dialogue_0060": {
@@ -447,7 +447,7 @@
     "dialogue_0071": {
       "text": {
         "reference": "ほほう。{n}いきなり本題ですか。{n}わずらわしい世間話は、お嫌いと見える。",
-        "translation": "Ah. Straight to business? You dislike tiresome small talk."
+        "translation": "Ah. Straight to business? You dislike tiresome small talk, I see."
       }
     },
     "dialogue_0072": {
@@ -465,7 +465,7 @@
     "dialogue_0074": {
       "text": {
         "reference": "そうあせられても、{n}{BEAT}私にだって、都合というものがあるのです。",
-        "translation": "However much you rush me,{BEAT} I have my own circumstances."
+        "translation": "Rush me as you may,{BEAT} I have my own affairs to consider."
       }
     },
     "dialogue_0075": {
@@ -507,7 +507,7 @@
     "dialogue_0081": {
       "text": {
         "reference": "これは心外なお言葉。",
-        "translation": "What an outrageous remark."
+        "translation": "You wound me."
       }
     },
     "dialogue_0082": {
@@ -603,13 +603,13 @@
     "dialogue_0097": {
       "text": {
         "reference": "他人の家へ上がり込んで、{n}{WAIT}「鍛練だ」{BEAT}と言っては、家人に斬りつける。",
-        "translation": "You enter another's home,{WAIT} call it {BEAT}training, and slash at its residents."
+        "translation": "You barge into another's home,{WAIT} cry {BEAT}\"training,\" and cut down those who live there."
       }
     },
     "dialogue_0098": {
       "text": {
         "reference": "そんな人間が許せますか、貴方は。",
-        "translation": "Could you forgive such a human?"
+        "translation": "Could you forgive such a person?"
       }
     },
     "dialogue_0099": {
@@ -687,13 +687,13 @@
     "dialogue_0111": {
       "text": {
         "reference": "ほほう。{n}いきなり本題とは。{n}{WAIT}時には、会話を楽しむ余裕も必要ですよ。",
-        "translation": "Ah. Straight to business.{WAIT} One sometimes needs leisure for conversation."
+        "translation": "Ah. Straight to business.{WAIT} Now and then, one should take time to enjoy conversation."
       }
     },
     "dialogue_0112": {
       "text": {
         "reference": "は、{BEAT}これは失礼を。{n}{WAIT}貴方にこんな話をしても、{n}「馬の耳になんとやら」{BEAT}でしたね。",
-        "translation": "F-{BEAT}orgive me.{WAIT} Speaking to you is like casting pearls before swine.{BEAT}"
+        "translation": "Ah,{BEAT} forgive me.{WAIT} Talking like this to you is casting pearls before swine,{BEAT} is it not?"
       }
     },
     "dialogue_0113": {
@@ -717,13 +717,13 @@
     "dialogue_0116": {
       "text": {
         "reference": "は{BEAT}は{BEAT}は{BEAT}は。{n}{BEAT}これは愉快。{n}{WAIT}デビルサマナーとは、物乞いの事でしたか。",
-        "translation": "Ha{BEAT} ha{BEAT} ha{BEAT} ha!{BEAT} How amusing.{WAIT} A Devil Summoner is a beggar?"
+        "translation": "Ha{BEAT} ha{BEAT} ha{BEAT} ha!{BEAT} How amusing.{WAIT} So \"Devil Summoner\" means beggar?"
       }
     },
     "dialogue_0117": {
       "text": {
         "reference": "ほほう。{n}何をおっしゃるかと思えば。",
-        "translation": "Ah. And what will you say?"
+        "translation": "Ah. Of all the things to say."
       }
     },
     "dialogue_0118": {
@@ -735,7 +735,7 @@
     "dialogue_0119": {
       "text": {
         "reference": "いいでしょう。{n}二・三、こちらから質問させて頂きますよ。{n}{WAIT}よろしいですね。",
-        "translation": "Very well. I shall ask two or three questions.{WAIT} You agree."
+        "translation": "Very well. I shall ask two or three questions.{WAIT} I trust that is acceptable."
       }
     },
     "dialogue_0120": {
@@ -747,7 +747,7 @@
     "dialogue_0121": {
       "text": {
         "reference": "引き止めなくても、よろしいのですかな。{n}困るのは、貴方のほうではありませんか。",
-        "translation": "Need I not stop you? Are you not the one who will suffer?"
+        "translation": "Are you sure you will not stop me? Surely it is you who will regret it."
       }
     },
     "dialogue_0122": {
@@ -789,7 +789,7 @@
     "dialogue_0128": {
       "text": {
         "reference": "早々に、お立ち退き願いたい。",
-        "translation": "Leave at once."
+        "translation": "I must ask you to leave at once."
       }
     },
     "dialogue_0129": {
@@ -881,7 +881,7 @@
     "dialogue_0143": {
       "text": {
         "reference": "たわむれを。",
-        "translation": "A jest."
+        "translation": "You jest."
       }
     },
     "dialogue_0144": {
@@ -956,7 +956,7 @@
     "dialogue_0155": {
       "text": {
         "reference": "本来ならば貴方の様な、{n}ちっぽけな虫けらと話す口など、{n}持ち合わせていないのですが。",
-        "translation": "Normally I have no mouth for speaking to an insect like you."
+        "translation": "Ordinarily I would not deign to speak to a tiny insect like you."
       }
     },
     "dialogue_0156": {
@@ -1030,13 +1030,13 @@
     "dialogue_0167": {
       "text": {
         "reference": "倒すべきは、{BEAT}貴方がた人間の心に巣喰う{n}{WAIT}魔、{BEAT}なのですよ。",
-        "translation": "The enemy to defeat{BEAT} is the demon{WAIT} nesting in human hearts.{BEAT}"
+        "translation": "What you must defeat{BEAT} is what nests in your human hearts:{WAIT} the demon{BEAT} within."
       }
     },
     "dialogue_0168": {
       "text": {
         "reference": "倒すべきは、{BEAT}貴方がた虫けらの心に巣喰う{n}{WAIT}魔、{BEAT}なのですよ。",
-        "translation": "The enemy to defeat{BEAT} is the demon{WAIT} nesting in insects' hearts.{BEAT}"
+        "translation": "What you must defeat{BEAT} is what nests in your insect hearts:{WAIT} the demon{BEAT} within."
       }
     },
     "dialogue_0169": {
@@ -1112,7 +1112,7 @@
     "dialogue_0180": {
       "text": {
         "reference": "ほほう。{n}まあ、良しとしましょう。{n}{WAIT}だいたいの見当は、ついています。",
-        "translation": "Ah. Very well.{WAIT} I have largely guessed."
+        "translation": "Ah. Very well.{WAIT} I have a fair idea who you are in any case."
       }
     },
     "dialogue_0181": {
@@ -1124,7 +1124,7 @@
     "dialogue_0182": {
       "text": {
         "reference": "ご両親のお顔を、ぜひ拝見したいものです。",
-        "translation": "I would dearly like to meet your parents."
+        "translation": "I should like to see what sort of parents raised you."
       }
     },
     "dialogue_0183": {
@@ -1196,25 +1196,25 @@
     "dialogue_0194": {
       "text": {
         "reference": "共に助け合おう、{BEAT}と言うのですか。{n}{WAIT}美しいですね。",
-        "translation": "You propose mutual aid?{BEAT}{WAIT} Beautiful."
+        "translation": "\"Let us help each other,\"{BEAT} you say?{WAIT} How beautiful."
       }
     },
     "dialogue_0195": {
       "text": {
         "reference": "さすが、{BEAT}ぬるま湯に首までつかりきった、{n}人の子の言う事は違う。",
-        "translation": "Words befitting a human steeped to the neck in comfort.{BEAT}"
+        "translation": "How very like{BEAT} a human steeped to the neck in comfort."
       }
     },
     "dialogue_0196": {
       "text": {
         "reference": "結局最後に頼れるのは、己の力だけ。{n}違いますかな、{BEAT}ぬるま湯の君。",
-        "translation": "In the end, only one's own strength can be trusted. Is that not so,{BEAT} Prince Comfort?"
+        "translation": "In the end, only one's own strength can be trusted. Is that not so,{BEAT} my pampered friend?"
       }
     },
     "dialogue_0197": {
       "text": {
         "reference": "そうです。{n}尊きお方に仕える事こそ、我が喜び。{n}{WAIT}おっと。",
-        "translation": "Indeed. Serving the noble is my joy.{WAIT} Ah."
+        "translation": "Indeed. Serving the noble is my joy.{WAIT} Oh, dear."
       }
     },
     "dialogue_0198": {
@@ -1552,7 +1552,7 @@
     "dialogue_0253": {
       "text": {
         "reference": "それでは私を仲間にすることも、{n}あきらめるといいでしょう。",
-        "translation": "Then you should also abandon recruiting me."
+        "translation": "Then you may give up on recruiting me as well."
       }
     },
     "dialogue_0254": {
@@ -1634,7 +1634,7 @@
     "dialogue_0266": {
       "text": {
         "reference": "して、貴方は…{BEAT}…{BEAT}…{BEAT}…{BEAT}{n}なんと！{n}{WAIT}数々の無礼な振る舞い、お許し頂きたい。",
-        "translation": "And you are...{BEAT}.{BEAT}.{BEAT}.{BEAT} What!?{WAIT} Forgive my many discourtesies."
+        "translation": "And you are...{BEAT}.{BEAT}.{BEAT}.{BEAT} What?!{WAIT} Forgive my many discourtesies."
       }
     },
     "dialogue_0267": {
@@ -1676,13 +1676,13 @@
     "dialogue_0273": {
       "text": {
         "reference": "まったく。",
-        "translation": "Truly..."
+        "translation": "Honestly..."
       }
     },
     "dialogue_0274": {
       "text": {
         "reference": "「身の程知らず」{BEAT}とは、{n}{BEAT}貴方のためにある様な言葉ですね。",
-        "translation": "“Knows not his place”{BEAT}...{BEAT} a phrase coined for you."
+        "translation": "\"Presumptuous\"{BEAT}--{BEAT}a word that might have been made for you."
       }
     },
     "dialogue_0275": {
@@ -1706,7 +1706,7 @@
     "dialogue_0278": {
       "text": {
         "reference": "銃を外して頂けますね。",
-        "translation": "You will remove your gun."
+        "translation": "I trust you will remove your gun."
       }
     },
     "dialogue_0279": {
@@ -1718,7 +1718,7 @@
     "dialogue_0280": {
       "text": {
         "reference": "外さない",
-        "translation": "Do not remove it."
+        "translation": "Keep it."
       }
     },
     "dialogue_0281": {
@@ -1754,7 +1754,7 @@
     "dialogue_0286": {
       "text": {
         "reference": "そこをどいて頂けますね。",
-        "translation": "You will stand aside."
+        "translation": "I trust you will stand aside."
       }
     },
     "dialogue_0287": {
@@ -1766,7 +1766,7 @@
     "dialogue_0288": {
       "text": {
         "reference": "どかない",
-        "translation": "Do not move."
+        "translation": "Stay put."
       }
     },
     "dialogue_0289": {
@@ -1898,7 +1898,7 @@
     "dialogue_0309": {
       "text": {
         "reference": "油断させて攻撃",
-        "translation": "Attack when his guard is down."
+        "translation": "Lull him, then strike."
       }
     },
     "dialogue_0310": {
@@ -1937,7 +1937,7 @@
       },
       "text": {
         "reference": "ここに、{offered_item}だけあります。{n}これで私の気持ち、理解して頂けますね。",
-        "translation": "Here is {offered_item}. Now you understand my sincerity."
+        "translation": "Here is {offered_item}. Surely now you understand my sincerity."
       }
     },
     "dialogue_0316": {
@@ -2312,7 +2312,7 @@
       },
       "text": {
         "reference": "{rei_name}：ちょ、{BEAT}ちょっと！{n}{BEAT}いつから、そうなったのよ！{n}{WAIT}勘違いしないで！！",
-        "translation": "{rei_name}: H-{BEAT}ey!{BEAT} Since when!?{WAIT} Do not misunderstand!"
+        "translation": "{rei_name}: H-{BEAT}ey!{BEAT} Since when?!{WAIT} Don't get the wrong idea!!"
       }
     },
     "dialogue_0375": {
@@ -2366,7 +2366,7 @@
       },
       "text": {
         "reference": "{rei_name}：言ったわね！",
-        "translation": "{rei_name}: You said it!"
+        "translation": "{rei_name}: Excuse me?!"
       }
     },
     "dialogue_0383": {
@@ -2375,7 +2375,7 @@
       },
       "text": {
         "reference": "{rei_name}：ちょっと待ちなさいよ。{n}{WAIT}あたしのこと、そういう目で見てたわけ？{n}{WAIT}いくらあんたでも、{BEAT}許さないわよ！",
-        "translation": "{rei_name}: Wait!{WAIT} So that is how you see me?{WAIT} Even from you,{BEAT} I won't forgive it!"
+        "translation": "{rei_name}: Wait!{WAIT} So that's how you see me?{WAIT} Even from you,{BEAT} I won't stand for it!"
       }
     },
     "dialogue_0384": {
@@ -2411,7 +2411,7 @@
     "dialogue_0389": {
       "text": {
         "reference": "そうでしょう、そうでしょう。",
-        "translation": "Naturally."
+        "translation": "Quite so, quite so."
       }
     },
     "dialogue_0390": {
@@ -2429,7 +2429,7 @@
     "dialogue_0392": {
       "text": {
         "reference": "ほほう。{n}{WAIT}それでは、{n}{OP:8023}ようおうはけん{OP:8020}をご存じですか。",
-        "translation": "Ah.{WAIT} Do you know the {OP:8023}Emperor Blade{OP:8020}?"
+        "translation": "Ah.{WAIT} Do you know the {OP:8023}Sun Emperor Blade{OP:8020}?"
       }
     },
     "dialogue_0393": {
@@ -2441,7 +2441,7 @@
     "dialogue_0394": {
       "text": {
         "reference": "やはり武人として生まれたからには、{n}一度は名剣を手にしてみたいものです。",
-        "translation": "A warrior should wield a famed sword at least once."
+        "translation": "One born a warrior longs to wield a famed sword at least once."
       }
     },
     "dialogue_0395": {
@@ -2462,7 +2462,7 @@
       },
       "text": {
         "reference": "ここに、{offered_item}だけあります。{n}新しい銃を買う時の、たしにして下さい。{n}{WAIT}それでは、{BEAT}ご武運を。",
-        "translation": "Here is {offered_item}. Put it toward a new gun.{WAIT} May fortune favor you.{BEAT}"
+        "translation": "Here is {offered_item}. Put it toward a new gun.{WAIT} And now,{BEAT} may fortune favor you."
       }
     },
     "dialogue_0398": {
@@ -2516,13 +2516,13 @@
     "dialogue_0406": {
       "text": {
         "reference": "その様な犬のえさ、{n}私は食べる口を持っていません。",
-        "translation": "I have no mouth for such dog food."
+        "translation": "I would never put such dog food in my mouth."
       }
     },
     "dialogue_0407": {
       "text": {
         "reference": "だいたい肉ばかり食べるから、{n}その様に血の気が多くなるのです。",
-        "translation": "Eating only meat makes you bloodthirsty."
+        "translation": "All that meat is what makes you so hot-blooded."
       }
     },
     "dialogue_0408": {
@@ -2534,13 +2534,13 @@
     "dialogue_0409": {
       "text": {
         "reference": "その様な犬のえさ、{n}私は食べる口を持っていません。",
-        "translation": "I have no mouth for such dog food."
+        "translation": "I would never put such dog food in my mouth."
       }
     },
     "dialogue_0410": {
       "text": {
         "reference": "まったく。{n}{WAIT}肉ばかり食べるから、凶暴になるのです。",
-        "translation": "Truly.{WAIT} Meat makes one savage."
+        "translation": "Honestly.{WAIT} All that meat is what makes you so savage."
       }
     },
     "dialogue_0411": {
@@ -2648,7 +2648,7 @@
     "dialogue_0428": {
       "text": {
         "reference": "しつこい人ですね。{n}{WAIT}分かりました。{n}貴方の熱意には、負けましたよ。",
-        "translation": "You are persistent.{WAIT} Very well. Your passion wins."
+        "translation": "You are persistent.{WAIT} Very well. Your passion has won me over."
       }
     },
     "dialogue_0429": {
@@ -2755,7 +2755,7 @@
     "dialogue_0445": {
       "text": {
         "reference": "人の子よ。{n}{WAIT}ここは異界。{n}貴方は、招かれざる訪問者なのですよ。",
-        "translation": "Human.{WAIT} This is another world. You are uninvited."
+        "translation": "Human.{WAIT} This is an Otherworld. You are an uninvited visitor."
       }
     },
     "dialogue_0446": {
@@ -2812,7 +2812,7 @@
     "dialogue_0454": {
       "text": {
         "reference": "道中、お役立て下さい。{n}{WAIT}それでは、{BEAT}ご武運を。",
-        "translation": "Use it on your journey.{WAIT} May fortune favor you.{BEAT}"
+        "translation": "Use it on your journey.{WAIT} And now,{BEAT} may fortune favor you."
       }
     },
     "dialogue_0455": {
@@ -2893,7 +2893,7 @@
     "dialogue_0467": {
       "text": {
         "reference": "この先はサマナーとしてではなく、{n}貴方個人の意見としてお聞きしたい。",
-        "translation": "I ask now not as a Summoner, but for your personal view."
+        "translation": "Next, I would hear your own view, not a summoner's."
       }
     },
     "dialogue_0468": {
@@ -2923,7 +2923,7 @@
     "dialogue_0472": {
       "text": {
         "reference": "勘違いも、いいところだ。",
-        "translation": "Your misconception is astonishing."
+        "translation": "You are sorely mistaken."
       }
     },
     "dialogue_0473": {
@@ -2935,13 +2935,13 @@
     "dialogue_0474": {
       "text": {
         "reference": "千年早い。",
-        "translation": "A thousand years too soon."
+        "translation": "A thousand years too soon for that."
       }
     },
     "dialogue_0475": {
       "text": {
         "reference": "剣をお抜きなさい。{n}己の未熟さ、その体で思い知るが良い。",
-        "translation": "Draw your sword. Learn your immaturity with your own body."
+        "translation": "Draw your sword. Learn your shortcomings in the flesh."
       }
     },
     "dialogue_0476": {
@@ -2983,7 +2983,7 @@
     "dialogue_0482": {
       "text": {
         "reference": "渡す",
-        "translation": "Hand it over."
+        "translation": "Give it."
       }
     },
     "dialogue_0483": {
@@ -3046,7 +3046,7 @@
     "dialogue_0492": {
       "text": {
         "reference": "貴方、何か臭いますね。{n}{WAIT}それに、{BEAT}そのみすぼらしい格好ときたら。{n}見るに耐えかねます。",
-        "translation": "You smell.{WAIT} And those shabby clothes are unbearable.{BEAT}"
+        "translation": "Something about you smells.{WAIT} And,{BEAT} those shabby clothes... I cannot bear the sight."
       }
     },
     "dialogue_0493": {
@@ -3079,7 +3079,7 @@
     "dialogue_0497": {
       "text": {
         "reference": "貴方の仲魔にだけは、{n}なりたくありませんね。",
-        "translation": "I would never join you."
+        "translation": "You are the last one I would ever serve."
       }
     },
     "dialogue_0498": {
@@ -3097,7 +3097,7 @@
     "dialogue_0500": {
       "text": {
         "reference": "あぁ、{BEAT}そこまで落ちぶれていようとは。{n}{WAIT}あの世で、{n}かせいだ金の使い道でも考えていれば良い！",
-        "translation": "Ah,{BEAT} you have sunk so low.{WAIT} Consider how to spend money in the afterlife!"
+        "translation": "Ah,{BEAT} you have sunk so low.{WAIT} Ponder how to spend your earnings in the afterlife!"
       }
     },
     "dialogue_0501": {
@@ -3205,7 +3205,7 @@
     "dialogue_0517": {
       "text": {
         "reference": "ぜひ、お手合わせを。",
-        "translation": "I insist on a match."
+        "translation": "I would very much like a match."
       }
     },
     "dialogue_0518": {
@@ -3217,7 +3217,7 @@
     "dialogue_0519": {
       "text": {
         "reference": "それでは！",
-        "translation": "Then!"
+        "translation": "Got to go!"
       }
     },
     "dialogue_0520": {
@@ -3295,7 +3295,7 @@
     "dialogue_0531": {
       "text": {
         "reference": "応じる",
-        "translation": "Respond."
+        "translation": "Draw."
       }
     },
     "dialogue_0532": {
@@ -3343,7 +3343,7 @@
     "dialogue_0539": {
       "text": {
         "reference": "なんと！{n}{WAIT}それは一大事。{n}今すぐやめて頂かなくては。",
-        "translation": "What!?{WAIT} A grave matter. You must stop at once."
+        "translation": "What?!{WAIT} A grave matter. You must stop at once."
       }
     },
     "dialogue_0540": {
@@ -3361,7 +3361,7 @@
     "dialogue_0542": {
       "text": {
         "reference": "弱音を吐いているようでは、{n}この先長くはありますまい。",
-        "translation": "If you speak weakness, your future is short."
+        "translation": "If you are already whining, you will not last long."
       }
     },
     "dialogue_0543": {
@@ -3458,7 +3458,7 @@
       },
       "text": {
         "reference": "私は{race}、{demon_name}。{n}{BEAT}いざ、我が命果つるまで。",
-        "translation": "I am {demon_name} of {race}.{BEAT} Until my life ends."
+        "translation": "I am {demon_name} of {race}.{BEAT} I am yours until my life ends."
       }
     },
     "dialogue_0558": {
@@ -3564,7 +3564,7 @@
       },
       "text": {
         "reference": "私も、{race}のはしくれ。{n}我が一族の名を汚す事はできません。",
-        "translation": "I too bear the name {race}. I cannot disgrace my clan."
+        "translation": "I am of the {race}, however humble. I cannot disgrace my clan."
       }
     },
     "dialogue_0574": {
@@ -3582,7 +3582,7 @@
       },
       "text": {
         "reference": "私も、{race}のはしくれ。{n}我が一族の名を汚す事はできません。{n}{WAIT}申し訳ありませんが、そういうことです。",
-        "translation": "I too bear the name {race}. I cannot disgrace my clan.{WAIT} Forgive me."
+        "translation": "I am of the {race}, however humble. I cannot disgrace my clan.{WAIT} Forgive me."
       }
     },
     "dialogue_0576": {
@@ -3687,13 +3687,13 @@
     "dialogue_0592": {
       "text": {
         "reference": "気のせいだ",
-        "translation": "It is imagination."
+        "translation": "It's your imagination."
       }
     },
     "dialogue_0593": {
       "text": {
         "reference": "やっかい事には、{n}巻き込まれたくないものです。{n}{WAIT}貴方も、早くお帰りなさい。",
-        "translation": "I want no entanglement in trouble.{WAIT} Go home quickly."
+        "translation": "I would rather not be drawn into trouble.{WAIT} You should hurry home as well."
       }
     },
     "dialogue_0594": {
@@ -3765,7 +3765,7 @@
     "dialogue_0605": {
       "text": {
         "reference": "じょうだんじゃない",
-        "translation": "Do not be absurd."
+        "translation": "You must be joking!"
       }
     },
     "dialogue_0606": {
@@ -3795,7 +3795,7 @@
     "dialogue_0610": {
       "text": {
         "reference": "ははは。{n}むきにならずとも、良いではありませんか。",
-        "translation": "Ha ha. Do not become so angry."
+        "translation": "Ha ha. There is no need to get so heated."
       }
     },
     "dialogue_0611": {
@@ -3816,7 +3816,7 @@
     "dialogue_0613": {
       "text": {
         "reference": "ははは。{n}むきにならずとも、良いではありませんか。",
-        "translation": "Ha ha. Do not become so angry."
+        "translation": "Ha ha. There is no need to get so heated."
       }
     },
     "dialogue_0614": {
@@ -3870,7 +3870,7 @@
     "dialogue_0622": {
       "text": {
         "reference": "まあ、仕方がないですかね。{n}{WAIT}相手が私だけに。",
-        "translation": "Understandable.{WAIT} Your opponent is me."
+        "translation": "Understandable.{WAIT} Your opponent is, after all, me."
       }
     },
     "dialogue_0623": {
@@ -3885,7 +3885,7 @@
     "dialogue_0624": {
       "text": {
         "reference": "まあ、仕方がないですね。{n}{WAIT}相手が私だけに。{n}{WAIT}は{BEAT}は{BEAT}は{BEAT}は{BEAT}。",
-        "translation": "Understandable.{WAIT} Your opponent is me.{WAIT} Ha{BEAT} ha{BEAT} ha{BEAT} ha!{BEAT}"
+        "translation": "Understandable.{WAIT} Your opponent is, after all, me.{WAIT} Ha{BEAT} ha{BEAT} ha{BEAT} ha!{BEAT}"
       }
     },
     "dialogue_0625": {
@@ -3909,7 +3909,7 @@
     "dialogue_0628": {
       "text": {
         "reference": "申し訳ありませんが、そういうことです。",
-        "translation": "Forgive me. That is the situation."
+        "translation": "My apologies, but there it is."
       }
     },
     "dialogue_0629": {

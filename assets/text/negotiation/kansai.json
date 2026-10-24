@@ -563,7 +563,7 @@
       },
       "text": {
         "reference": "{codename}やて～{WAIT}{n}こないだ病院でウワサになってた{n}やつとおんなじ名前や～",
-        "translation": "{codename}!?{WAIT} Same name as that guy folks at the hospital were talkin' about!"
+        "translation": "{codename}?!{WAIT} Same name as that guy folks at the hospital were talkin' about!"
       }
     },
     "dialogue_0090": {
@@ -587,7 +587,7 @@
     "dialogue_0093": {
       "text": {
         "reference": "なんやわれ！{n}ひとが聞いてんのに何だまってんねん！",
-        "translation": "Hey! Why're ya quiet when I'm askin' ya!?"
+        "translation": "Hey! Why're ya quiet when I'm askin' ya?!"
       }
     },
     "dialogue_0094": {
@@ -644,13 +644,13 @@
     "dialogue_0102": {
       "text": {
         "reference": "もっと元気ださなあかん{n}そんなんでどうするんや{WAIT}{n}よっしゃ！",
-        "translation": "Show some spirit! What'll ya do like that?{WAIT} All right!"
+        "translation": "Show some spirit! How ya gonna get anywhere like that?{WAIT} All right!"
       }
     },
     "dialogue_0103": {
       "text": {
         "reference": "なんやその気ィのない返事は{BEAT}{n}もっとシャキっとせえ！{n}シャキっと！",
-        "translation": "What a lifeless answer!{BEAT} Stand up straight! Straight!"
+        "translation": "What a limp answer!{BEAT} Perk up! C'mon, perk up!"
       }
     },
     "dialogue_0104": {
@@ -756,7 +756,7 @@
     "dialogue_0119": {
       "text": {
         "reference": "なんでや！{BEAT}{n}わいメチャええやつやんか！",
-        "translation": "Why!?{BEAT} I'm a great guy!"
+        "translation": "Why?!{BEAT} I'm a great guy!"
       }
     },
     "dialogue_0120": {
@@ -771,7 +771,7 @@
     "dialogue_0121": {
       "text": {
         "reference": "おまえこそなんや！",
-        "translation": "What are you!?"
+        "translation": "What are you?!"
       }
     },
     "dialogue_0122": {
@@ -789,7 +789,7 @@
     "dialogue_0124": {
       "text": {
         "reference": "景気の悪そ～な顔して…{BEAT}{n}もっとシャキっとせんかい{n}シャキっと！",
-        "translation": "What a gloomy face...{BEAT} Stand up straight! Straight!"
+        "translation": "What a gloomy face...{BEAT} Perk up! C'mon, perk up!"
       }
     },
     "dialogue_0125": {
@@ -888,7 +888,7 @@
     "dialogue_0140": {
       "text": {
         "reference": "誰に言うてんねん誰に！",
-        "translation": "Who're ya talking to!?"
+        "translation": "Who're ya talking to?!"
       }
     },
     "dialogue_0141": {
@@ -987,7 +987,7 @@
     "dialogue_0156": {
       "text": {
         "reference": "なんやわれ！{WAIT}{n}わいの酒飲まれへんのか！",
-        "translation": "Hey!{WAIT} Ya won't drink my booze!?"
+        "translation": "Hey!{WAIT} Ya won't drink my booze?!"
       }
     },
     "dialogue_0157": {
@@ -1044,7 +1044,7 @@
     "dialogue_0165": {
       "text": {
         "reference": "分かったやて～{WAIT}{n}そんなエラそうに言うんやったら{n}ネタなんかやらへんで～",
-        "translation": "You understand?{WAIT} If you're gonna act superior, I won't perform!"
+        "translation": "\"All right,\" ya say?!{WAIT} If you're gonna act all high and mighty, no show for you!"
       }
     },
     "dialogue_0166": {
@@ -1056,7 +1056,7 @@
     "dialogue_0167": {
       "text": {
         "reference": "そんな態度のやつに誰が見せるか！{WAIT}{n}もうちょっと見込みあると思たのにな…",
-        "translation": "Who'd show a guy with that attitude!?{WAIT} Thought ya had more promise..."
+        "translation": "Who'd show a guy with that attitude?!{WAIT} Thought ya had more promise..."
       }
     },
     "dialogue_0168": {
@@ -1152,7 +1152,7 @@
     "dialogue_0183": {
       "text": {
         "reference": "そうかあ？{BEAT}{n}あんなもんのどこがええんじゃ！",
-        "translation": "Really?{BEAT} What's good about that!?"
+        "translation": "Really?{BEAT} What's good about that?!"
       }
     },
     "dialogue_0184": {
@@ -1202,7 +1202,7 @@
     "dialogue_0191": {
       "text": {
         "reference": "ああそのとおりや！{BEAT}{n}なんやそれがどないしたんや！",
-        "translation": "Exactly!{BEAT} So what about it!?"
+        "translation": "Exactly!{BEAT} So what about it?!"
       }
     },
     "dialogue_0192": {
@@ -1214,13 +1214,13 @@
     "dialogue_0193": {
       "text": {
         "reference": "あ～{BEAT}はいはい{BEAT}{n}池のなかで泳いでて手ェたたくと{n}頭だしよる…",
-        "translation": "Oh,{BEAT} yeah, yeah.{BEAT} The thing swimming in a pond that raises its head when ya clap..."
+        "translation": "Oh,{BEAT} yeah, yeah.{BEAT} Cheep, cheep! What the little chicks say..."
       }
     },
     "dialogue_0194": {
       "text": {
         "reference": "あ～{BEAT}はいはい{BEAT}{n}木ィの格子に紙を貼るときに使うやつ…",
-        "translation": "Oh,{BEAT} yeah, yeah.{BEAT} The stuff used to paste paper on wooden lattices..."
+        "translation": "Oh,{BEAT} yeah, yeah.{BEAT} \"Shoo! Off!\" What ya tell a fly..."
       }
     },
     "dialogue_0195": {
@@ -1300,7 +1300,7 @@
     "dialogue_0207": {
       "text": {
         "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}なんやその目ェ{BEAT}{n}なんでそんな目ェで見るんや！",
-        "translation": ".{BEAT}.{BEAT}.{BEAT}.{BEAT}.{WAIT} What's that look?{BEAT} Why're ya looking at me like that!?"
+        "translation": ".{BEAT}.{BEAT}.{BEAT}.{BEAT}.{WAIT} What's that look?{BEAT} Why're ya looking at me like that?!"
       }
     },
     "dialogue_0208": {
@@ -1344,7 +1344,7 @@
     "dialogue_0214": {
       "text": {
         "reference": "そんなんでええんか？{BEAT}{n}ほんまええかげんなやっちゃな～{WAIT}{n}そういうやつはイヤなんや！",
-        "translation": "Is that enough?{BEAT} You're careless.{WAIT} I hate guys like that!"
+        "translation": "That's all?{BEAT} What a slacker.{WAIT} I hate guys like that!"
       }
     },
     "dialogue_0215": {
@@ -1362,13 +1362,13 @@
     "dialogue_0217": {
       "text": {
         "reference": "ほんまかあ～{WAIT}{n}な～{BEAT}んかおまえの言うこと{n}信用できへんなあ～",
-        "translation": "Really?{WAIT} Something ya say seems hard to trust.{BEAT}"
+        "translation": "Really?{WAIT} Some{BEAT}how I can't trust a word ya say."
       }
     },
     "dialogue_0218": {
       "text": {
         "reference": "そうかあ？{n}ほんまは迷とるだけちゃうんか！{n}ええカッコしいやなあ～",
-        "translation": "Really? You're only lost! Such a poser."
+        "translation": "Really? Bet you're just lost! Such a poser."
       }
     },
     "dialogue_0219": {
@@ -1394,13 +1394,13 @@
     "dialogue_0222": {
       "text": {
         "reference": "なんで分からへんねん{n}そ～{BEAT}と～{BEAT}ぼけ～{BEAT}っとしたやつやなあ",
-        "translation": "How don't ya understand? You're{BEAT} such{BEAT} an airhead.{BEAT}"
+        "translation": "How do ya not get it? You're{BEAT} a{BEAT} real{BEAT} airhead."
       }
     },
     "dialogue_0223": {
       "text": {
         "reference": "そんなもんおまえのせいに{n}決まってるやんけ！{WAIT}{n}分からんのかボケ！！",
-        "translation": "Obviously it's your fault!{WAIT} Don't ya get it, idiot!?"
+        "translation": "Obviously it's your fault!{WAIT} Don't ya get it, idiot?!"
       }
     },
     "dialogue_0224": {
@@ -1412,7 +1412,7 @@
     "dialogue_0225": {
       "text": {
         "reference": "おまえのことなんか誰も聞いてるか！",
-        "translation": "Who asked about you!?"
+        "translation": "Who asked about you?!"
       }
     },
     "dialogue_0226": {
@@ -1424,7 +1424,7 @@
     "dialogue_0227": {
       "text": {
         "reference": "そうや！{n}それもこれもおまえのせいや！{WAIT}{n}カクゴせえよいてもうたるからな！",
-        "translation": "Right! It's all your fault!{WAIT} Prepare yourself!"
+        "translation": "Right! It's all your fault!{WAIT} Brace yourself, I'm gonna let ya have it!"
       }
     },
     "dialogue_0228": {
@@ -1442,7 +1442,7 @@
     "dialogue_0230": {
       "text": {
         "reference": "そこまではっきり言うかあ～{BEAT}ふつう…",
-        "translation": "Ya really say it that plainly?{BEAT}"
+        "translation": "Who says it that flat out,{BEAT} normally..."
       }
     },
     "dialogue_0231": {
@@ -1460,7 +1460,7 @@
     "dialogue_0233": {
       "text": {
         "reference": "そう言うたかてなあ～{BEAT}{n}すぐには信用できへんなあ～",
-        "translation": "Even if ya say that,{BEAT} I can't trust ya immediately."
+        "translation": "Even if ya say that,{BEAT} I can't trust ya just like that."
       }
     },
     "dialogue_0234": {
@@ -1484,7 +1484,7 @@
     "dialogue_0237": {
       "text": {
         "reference": "なにィ～{BEAT}{n}おまえ芸人ナメんなよ～！！",
-        "translation": "What!?{BEAT} Don't mock comedians!!"
+        "translation": "What?!{BEAT} Don't mock comedians!!"
       }
     },
     "dialogue_0238": {
@@ -1526,7 +1526,7 @@
     "dialogue_0244": {
       "text": {
         "reference": "なんでや！{BEAT}{n}おもろいやろ？{BEAT}なっ！{WAIT}{n}おもろい言うてくれ～！！！",
-        "translation": "Why!?{BEAT} It's funny, right?{BEAT}{WAIT} Say it's funny!!"
+        "translation": "Why?!{BEAT} It's funny, right?{BEAT}{WAIT} Say it's funny!!"
       }
     },
     "dialogue_0245": {
@@ -1538,7 +1538,7 @@
     "dialogue_0246": {
       "text": {
         "reference": "惜しいかあ～{BEAT}{n}まあそんなもんかわいの実力は…",
-        "translation": "Close, huh?{BEAT} Guess that's my ability..."
+        "translation": "Close, huh?{BEAT} Guess that's all I got..."
       }
     },
     "dialogue_0247": {
@@ -1582,7 +1582,7 @@
     "dialogue_0253": {
       "text": {
         "reference": "そんなんでどうするんや！",
-        "translation": "What'll ya do like that!?"
+        "translation": "How ya gonna get anywhere like that?!"
       }
     },
     "dialogue_0254": {
@@ -1594,7 +1594,7 @@
     "dialogue_0255": {
       "text": {
         "reference": "これくらいで弱音はいてて{n}どないするんや！",
-        "translation": "Showing weakness already? What'll ya do?"
+        "translation": "Whinin' already? How ya gonna make it?"
       }
     },
     "dialogue_0256": {
@@ -1794,7 +1794,7 @@
     "dialogue_0288": {
       "text": {
         "reference": "ほんまに気分悪いなあ～{WAIT}{n}悪いと思てるんやったら",
-        "translation": "I feel awful.{WAIT} If you're sorry..."
+        "translation": "You've really soured my mood.{WAIT} If you're sorry..."
       }
     },
     "dialogue_0289": {
@@ -1812,19 +1812,19 @@
     "dialogue_0291": {
       "text": {
         "reference": "ほんまにええんか？{BEAT}{n}なんか悪いなあ…{WAIT}{n}金以外でもええけどどうしょうかな～",
-        "translation": "Really?{BEAT} I feel bad...{WAIT} Anything but money too..."
+        "translation": "Really?{BEAT} I feel bad...{WAIT} Don't gotta be cash, though. What'll it be..."
       }
     },
     "dialogue_0292": {
       "text": {
         "reference": "そっ{BEAT}そうかあ～貸してくれんのか{n}いつ返せるかわからんで～{WAIT}{n}金以外でもええけどどうしょうかな～",
-        "translation": "Y-you'll lend it?{BEAT} Dunno when I'll repay.{WAIT} Anything but money too..."
+        "translation": "Y-you'll lend it?{BEAT} Dunno when I'll repay.{WAIT} Don't gotta be cash, though. What'll it be..."
       }
     },
     "dialogue_0293": {
       "text": {
         "reference": "バァ～{BEAT}{BEAT}ンと出さんかいバァ～{BEAT}{BEAT}ンと！{BEAT}{n}ほんまビンボくさいやっちゃな～！{WAIT}{n}…もうええ他のヤツにたかるわ！",
-        "translation": "Put down a{BEAT}{BEAT} big{BEAT}{BEAT} amount!{BEAT} You're dirt poor!{WAIT} Forget it, I'll mooch elsewhere!"
+        "translation": "Go{BEAT}{BEAT} big! I said go{BEAT}{BEAT} big!{BEAT} What a cheapskate!{WAIT} Forget it, I'll mooch elsewhere!"
       }
     },
     "dialogue_0294": {
@@ -1836,7 +1836,7 @@
     "dialogue_0295": {
       "text": {
         "reference": "いややて？{BEAT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}誰にぬかしとるんじゃ～！！",
-        "translation": "No?{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT}{WAIT} Who're ya talking to!?"
+        "translation": "No?{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT}{WAIT} Who're ya talking to?!"
       }
     },
     "dialogue_0296": {
@@ -1878,7 +1878,7 @@
     "dialogue_0301": {
       "text": {
         "reference": "ほなわいは帰るで！{n}忘れんとちゃんと返してくれよ！",
-        "translation": "I'm going home. Repay me!"
+        "translation": "Well, I'm off! Don't forget to pay me back!"
       }
     },
     "dialogue_0302": {
@@ -1887,7 +1887,7 @@
       },
       "text": {
         "reference": "なに遠慮してるんや{BEAT}{n}ひとの好意は素直に受けるもんやろ？{WAIT}{n}そやなあ～{BEAT}{offered_item}でどうや！",
-        "translation": "Why hold back?{BEAT} Accept goodwill honestly.{WAIT} How's{BEAT} {offered_item}?"
+        "translation": "Why hold back?{BEAT} When folks are nice, ya take it!{WAIT} How's{BEAT} {offered_item}?"
       }
     },
     "dialogue_0303": {
@@ -1914,7 +1914,7 @@
     "dialogue_0306": {
       "text": {
         "reference": "なんでわいがおまえに{n}金まき上げられなあかんねん！{WAIT}{n}ええかげんにせえよ！",
-        "translation": "Why should I let you shake me down!?{WAIT} Enough!"
+        "translation": "Why should I let you shake me down?!{WAIT} Enough!"
       }
     },
     "dialogue_0307": {
@@ -1932,7 +1932,7 @@
     "dialogue_0309": {
       "text": {
         "reference": "そう言うてくれるんか！！{BEAT}{n}おまえほんまええヤツやな～{WAIT}{n}よっしゃついていくで～！！",
-        "translation": "You'll say that!?{BEAT} You're great!{WAIT} I'm coming!"
+        "translation": "Ya mean it?!{BEAT} You're great!{WAIT} I'm coming!"
       }
     },
     "dialogue_0310": {
@@ -1954,7 +1954,7 @@
     "dialogue_0312": {
       "text": {
         "reference": "なんやその言い方は！！{WAIT}{n}でもまあええ{BEAT}{n}わいが欲しいのはゼニやカネ出せ～！！",
-        "translation": "What's that tone!?{WAIT} Fine.{BEAT} I want cash. Pay up!"
+        "translation": "What's that tone?!{WAIT} Fine.{BEAT} I want cash. Pay up!"
       }
     },
     "dialogue_0313": {
@@ -2005,7 +2005,7 @@
       },
       "text": {
         "reference": "そうかあ～{BEAT}{n}めずらしいやっちゃなあ～！{n}{offered_item}やるわ～持っていき～",
-        "translation": "I see.{BEAT} You're unusual! Here, take {offered_item}."
+        "translation": "I see.{BEAT} You're a rare one! Here, take {offered_item}."
       }
     },
     "dialogue_0321": {
@@ -2051,14 +2051,14 @@
     "dialogue_0327": {
       "text": {
         "reference": "おまえが頭をさげるっちゅうんやったら{n}どうせ退屈してたとこやし",
-        "translation": "If you're bowing your head, and since I'm bored...",
+        "translation": "If you're askin' that nicely, well, I was bored anyway...",
         "note": "Message 362 is completed by message 363: \"If you're bowing your head, and since I'm bored... / I'll play with ya!\""
       }
     },
     "dialogue_0328": {
       "text": {
         "reference": "わい遊んだってもええで！！",
-        "translation": "I'll play with ya!",
+        "translation": "so I'll hang out with ya!",
         "note": "Message 363 completes message 362: \"If you're bowing your head, and since I'm bored... / I'll play with ya!\""
       }
     },
@@ -2083,7 +2083,7 @@
     "dialogue_0332": {
       "text": {
         "reference": "われそんな態度とるんかい！！{BEAT}{n}そういうときは「お願いします」やろ！！{n}わいを誰や思とるんじゃ！！",
-        "translation": "That attitude!?{BEAT} Say \"please\"! Who d'ya think I am!?"
+        "translation": "That attitude?!{BEAT} Say \"please\"! Who d'ya think I am?!"
       }
     },
     "dialogue_0333": {
@@ -2145,13 +2145,13 @@
     "dialogue_0342": {
       "text": {
         "reference": "ウソやろ？{WAIT}{n}なに！！{BEAT}本気で言うてんのか！{n}いてまうぞコラ！！",
-        "translation": "You're lying!{WAIT} What!?{BEAT} You're serious? I'll get ya!"
+        "translation": "You're lying!{WAIT} What?!{BEAT} You're serious? I'll get ya!"
       }
     },
     "dialogue_0343": {
       "text": {
         "reference": "えっほんまに？{BEAT}{n}ええんやなあ～！！",
-        "translation": "Really?{BEAT} Fine, then!"
+        "translation": "Really?{BEAT} You sure?!"
       }
     },
     "dialogue_0344": {
@@ -2187,19 +2187,19 @@
     "dialogue_0349": {
       "text": {
         "reference": "まあええやろ{WAIT}{n}ほんでなに出す？{BEAT}{n}何て案内料や！！",
-        "translation": "Fine.{WAIT} What'll ya pay?{BEAT} Guide fee!"
+        "translation": "Fine.{WAIT} What'll ya pay?{BEAT} For what? My guide fee!"
       }
     },
     "dialogue_0350": {
       "text": {
         "reference": "なんやて？{BEAT}{n}素直に「行きたい」言わんかい！！{n}ムリすんなよ～！！",
-        "translation": "What!?{BEAT} Just say ya wanna go! Don't force yourself!"
+        "translation": "What?!{BEAT} Just say ya wanna go! Don't fight it!"
       }
     },
     "dialogue_0351": {
       "text": {
         "reference": "なに言うてるんや{BEAT}{n}ムリせんでええんやって{n}安うしとくから…",
-        "translation": "What're ya saying?{BEAT} Don't force it. I'll make it cheap..."
+        "translation": "What're ya saying?{BEAT} No need to play hard to get. I'll make it cheap..."
       }
     },
     "dialogue_0352": {
@@ -2247,19 +2247,19 @@
     "dialogue_0359": {
       "text": {
         "reference": "おまえもしかしたら大物！？{WAIT}{n}なんも考えてへんねんなあ～{n}よっしゃ気に入ったで！",
-        "translation": "Maybe you're a big shot!?{WAIT} You think nothing! I like ya!"
+        "translation": "Maybe you're a big shot?!{WAIT} Not a thought in your head! I like ya!"
       }
     },
     "dialogue_0360": {
       "text": {
         "reference": "そんなことも分からんのかこのハゲ！！{BEAT}{n}ほんまあかんやっちゃなあ～",
-        "translation": "Ya don't know that, baldy!?{BEAT} Hopeless!"
+        "translation": "Ya don't know that, baldy?!{BEAT} Hopeless!"
       }
     },
     "dialogue_0361": {
       "text": {
         "reference": "そうかあ～{BEAT}{n}まあおまえのことやし…{n}それやったらええんやけどな",
-        "translation": "I see.{BEAT} Well, it's you... Fine."
+        "translation": "I see.{BEAT} Well, knowin' you... if ya say so, fine."
       }
     },
     "dialogue_0362": {
@@ -2311,7 +2311,7 @@
     "dialogue_0369": {
       "text": {
         "reference": "そんな態度のヤツに誰が教えるか！！{WAIT}{n}根性たたき直したる！！{BEAT}{n}いくで～！！",
-        "translation": "Who'd teach that attitude!?{WAIT} I'll beat some spirit into ya!{BEAT}"
+        "translation": "Who'd teach that attitude?!{WAIT} I'll beat some spirit into ya!{BEAT}"
       }
     },
     "dialogue_0370": {
@@ -2323,13 +2323,13 @@
     "dialogue_0371": {
       "text": {
         "reference": "なにがあかんのや？{WAIT}{n}ようはやる気や！{BEAT}！{n}この根性なしが！",
-        "translation": "What's wrong?{WAIT} It's motivation!{BEAT} Coward!"
+        "translation": "What's the problem?{WAIT} It's all about drive!{BEAT} Ya gutless wimp!"
       }
     },
     "dialogue_0372": {
       "text": {
         "reference": "いやなんかい！{BEAT}{n}なんでそんなこと言うんや？{BEAT}{n}ぜんぜん分からへんわ！！",
-        "translation": "You don't want to!?{BEAT} Why say that?{BEAT} I don't understand!"
+        "translation": "You don't want to?!{BEAT} Why say that?{BEAT} I don't understand!"
       }
     },
     "dialogue_0373": {
@@ -2433,7 +2433,7 @@
     "dialogue_0389": {
       "text": {
         "reference": "なんやて～！その言い方！{WAIT}{n}なんとかならへんのか～！！{BEAT}{n}さいごまでお～へ～なやっちゃ！",
-        "translation": "What a tone!{WAIT} Can't ya fix it!?{BEAT} Arrogant to the end!"
+        "translation": "What a tone!{WAIT} Can't ya fix it?!{BEAT} Arrogant to the end!"
       }
     },
     "dialogue_0390": {
@@ -2487,7 +2487,7 @@
     "dialogue_0398": {
       "text": {
         "reference": "わいを誰や思っとるんじゃ！！{BEAT}{n}そんなもんですむか！！",
-        "translation": "Who d'ya think I am!?{BEAT} That's not enough!"
+        "translation": "Who d'ya think I am?!{BEAT} That's not enough!"
       }
     },
     "dialogue_0399": {
@@ -2517,13 +2517,13 @@
     "dialogue_0403": {
       "text": {
         "reference": "まあムリにとは言わんけどな{WAIT}{n}ただ死んでもらうだけのことや！！{WAIT}{n}いくで遠慮はせ～へんで～！",
-        "translation": "I won't force ya.{WAIT} You'll merely die!{WAIT} No mercy!"
+        "translation": "I won't force ya.{WAIT} You'll just have to die, that's all!{WAIT} No mercy!"
       }
     },
     "dialogue_0404": {
       "text": {
         "reference": "いや？{BEAT}いややて？{WAIT}{n}な～{BEAT}んか勘違いしてんのとちゃうか？{BEAT}{n}しゃあないな～{BEAT}やってまうかあ～！",
-        "translation": "No?{BEAT} You said no?{WAIT} You're confused.{BEAT} Fine,{BEAT} I'll do it!{BEAT}"
+        "translation": "No?{BEAT} You said no?{WAIT} Ya got the wrong idea.{BEAT} Fine,{BEAT} I'll do it!{BEAT}"
       }
     },
     "dialogue_0405": {
@@ -2586,7 +2586,7 @@
     "dialogue_0414": {
       "text": {
         "reference": "よっしゃとにかくなんぼでもええで～",
-        "translation": "Anything's fine!"
+        "translation": "All right! Any amount's fine!"
       }
     },
     "dialogue_0415": {
@@ -2616,7 +2616,7 @@
     "dialogue_0419": {
       "text": {
         "reference": "アホかわれ！{n}何考えてんねん！{n}もう許さへんいてまうで～！！",
-        "translation": "Idiot! What're ya thinking!? I'll never forgive ya!"
+        "translation": "Idiot! What're ya thinking?! I'll never forgive ya!"
       }
     },
     "dialogue_0420": {
@@ -2659,7 +2659,7 @@
     "dialogue_0425": {
       "text": {
         "reference": "アホ！！{n}こうなるんや～！！{WAIT}{n}おりゃあ！",
-        "translation": "Idiot! This happens now!{WAIT} Hah!"
+        "translation": "Idiot! This is what ya get!{WAIT} Hah!"
       }
     },
     "dialogue_0426": {
@@ -2671,7 +2671,7 @@
     "dialogue_0427": {
       "text": {
         "reference": "かかってこいや～！{WAIT}{n}まあおまえに言うてもあかんやろけどな",
-        "translation": "Come at me!{WAIT} Though you're hopeless."
+        "translation": "Come at me!{WAIT} Not that tellin' you does any good."
       }
     },
     "dialogue_0428": {
@@ -2689,7 +2689,7 @@
     "dialogue_0430": {
       "text": {
         "reference": "渡す",
-        "translation": "Hand it over."
+        "translation": "Give it."
       }
     },
     "dialogue_0431": {
@@ -2806,7 +2806,7 @@
     "dialogue_0449": {
       "text": {
         "reference": "でもこわいなあ{BEAT}な～{BEAT}んか出そうや",
-        "translation": "But scary...{BEAT} Something{BEAT} might appear."
+        "translation": "But it's creepy...{BEAT} Some{BEAT}thin' might show up."
       }
     },
     "dialogue_0450": {
@@ -2910,7 +2910,7 @@
     "dialogue_0465": {
       "text": {
         "reference": "そらないやろ！！{BEAT}{n}そんなにわいの相方すんのイヤなんかい！{BEAT}{n}もうええ{BEAT}それやったら死ね！！",
-        "translation": "No way!{BEAT} Ya hate partnering with me!?{BEAT} Fine,{BEAT} die!"
+        "translation": "No way!{BEAT} Ya hate partnering with me?!{BEAT} Fine,{BEAT} die!"
       }
     },
     "dialogue_0466": {
@@ -2928,7 +2928,7 @@
     "dialogue_0468": {
       "text": {
         "reference": "いやあ～{BEAT}やっぱりええわ{BEAT}{n}せやけどおまえええやっちゃなあ～{WAIT}{n}よっしゃ{BEAT}気に入ったで！{BEAT}一緒に行こか！",
-        "translation": "Actually,{BEAT} fine.{BEAT} You're decent.{WAIT} I like ya!{BEAT} Let's go!{BEAT}"
+        "translation": "Actually,{BEAT} never mind.{BEAT} You're decent.{WAIT} I like ya!{BEAT} Let's go!{BEAT}"
       }
     },
     "dialogue_0469": {
@@ -2958,7 +2958,7 @@
     "dialogue_0473": {
       "text": {
         "reference": "よっしゃええ飲みっぷりや{WAIT}{n}おまえと一緒に行くで～！！",
-        "translation": "Great drinking!{WAIT} I'm coming with ya!"
+        "translation": "Now that's how ya drink!{WAIT} I'm coming with ya!"
       }
     },
     "dialogue_0474": {
@@ -2992,7 +2992,7 @@
     "dialogue_0478": {
       "text": {
         "reference": "アホやなあ～{BEAT}{n}ぜんぜん分かってへん！{WAIT}{n}わいが教えたるええからついて来い",
-        "translation": "Idiot!{BEAT} Ya understand nothing!{WAIT} I'll teach ya. Follow!"
+        "translation": "Idiot!{BEAT} Ya understand nothing!{WAIT} I'll teach ya. Follow me!"
       }
     },
     "dialogue_0479": {
@@ -3054,19 +3054,19 @@
       },
       "text": {
         "reference": "わいは{race}{demon_name}や！{n}まあそのうち{n}わいが偉大やてわかるって！",
-        "translation": "I'm {race} {demon_name}! You'll learn my greatness!"
+        "translation": "I'm {race} {demon_name}! You'll see how great I am!"
       }
     },
     "dialogue_0488": {
       "text": {
         "reference": "なんだその言い方！！{WAIT}{n}せっかくひとがええ気分でおんのに…{BEAT}{n}おまえあかんわ{BEAT}はよ死んでしまえ！！",
-        "translation": "What's that tone!?{WAIT} I was feeling good.{BEAT} You're hopeless.{BEAT} Die!"
+        "translation": "What's that tone?!{WAIT} I was feeling good.{BEAT} You're hopeless.{BEAT} Die!"
       }
     },
     "dialogue_0489": {
       "text": {
         "reference": "なんで分からんのや！！{BEAT}{n}おまえめっちゃラッキーやんけ！{n}分かったらついて来い！！",
-        "translation": "Why don't ya understand!?{BEAT} You're super lucky! Follow me!"
+        "translation": "Why don't ya understand?!{BEAT} You're super lucky! Follow me!"
       }
     },
     "dialogue_0490": {
@@ -3076,7 +3076,7 @@
       },
       "text": {
         "reference": "わいは{race}{demon_name}や！{n}まあそのうち{n}わいが偉大やてわかるって！",
-        "translation": "I'm {race} {demon_name}! You'll learn my greatness!"
+        "translation": "I'm {race} {demon_name}! You'll see how great I am!"
       }
     },
     "dialogue_0491": {
@@ -3098,7 +3098,7 @@
       },
       "text": {
         "reference": "わいは{race}{demon_name}や！{n}まあそのうち{n}わいの芸風最高やてわかるって！",
-        "translation": "I'm {race} {demon_name}! You'll learn my style is best!"
+        "translation": "I'm {race} {demon_name}! You'll see my style's the best!"
       }
     },
     "dialogue_0494": {
@@ -3154,7 +3154,7 @@
       },
       "text": {
         "reference": "わいは{race}{demon_name}や！{n}まあそのうち{n}わいの偉大さが分かるって！",
-        "translation": "I'm {race} {demon_name}! You'll learn my greatness!"
+        "translation": "I'm {race} {demon_name}! You'll see how great I am!"
       }
     },
     "dialogue_0502": {
@@ -3166,7 +3166,7 @@
     "dialogue_0503": {
       "text": {
         "reference": "おう{BEAT}おまえかあ～{BEAT}{n}誰かと思たで～{BEAT}{n}まあ元気でがんばってくれよ！",
-        "translation": "Oh,{BEAT} it's you!{BEAT} Thought it was someone else.{BEAT} Stay well!"
+        "translation": "Oh,{BEAT} it's you!{BEAT} Wondered who that was.{BEAT} Stay well!"
       }
     },
     "dialogue_0504": {
@@ -3196,13 +3196,13 @@
     "dialogue_0508": {
       "text": {
         "reference": "ほんま情けないやっちゃなあ～！！{BEAT}{n}もうええわ{BEAT}{n}かもてられへんわ！！",
-        "translation": "How pathetic!{BEAT} Enough!{BEAT} I can't watch!"
+        "translation": "How pathetic!{BEAT} Enough!{BEAT} I ain't got time for ya!"
       }
     },
     "dialogue_0509": {
       "text": {
         "reference": "あかん！！{BEAT}{n}誰が許すか！！{WAIT}{n}いくで～！！",
-        "translation": "No!{BEAT} Who'd forgive ya!?{WAIT} Here I come!"
+        "translation": "No!{BEAT} Who'd forgive ya?!{WAIT} Here I come!"
       }
     },
     "dialogue_0510": {
@@ -3214,7 +3214,7 @@
     "dialogue_0511": {
       "text": {
         "reference": "・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{WAIT}{n}そんなんでどないせえ言うんや！！{BEAT}{n}もうええはよ死ね！！",
-        "translation": ".{BEAT}.{BEAT}.{BEAT}.{BEAT}.{WAIT} What am I meant to do with that!?{BEAT} Just die!"
+        "translation": ".{BEAT}.{BEAT}.{BEAT}.{BEAT}.{WAIT} What am I meant to do with that?!{BEAT} Just die!"
       }
     },
     "dialogue_0512": {

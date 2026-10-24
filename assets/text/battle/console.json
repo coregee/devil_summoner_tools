@@ -440,7 +440,7 @@
     "result_shut_down": {
       "text": {
         "reference": "EXTERMINATE{OP:a0}",
-        "translation": "SHUT_DOWN{OP:a0}"
+        "translation": "EXTERMINATE{OP:a0}"
       }
     },
     "result_dynamic_status": {

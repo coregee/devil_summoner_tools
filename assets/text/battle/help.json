@@ -5,25 +5,25 @@
     "fight": {
       "text": {
         "reference": "悪魔との戦闘",
-        "translation": "Fight with a demon."
+        "translation": "Fight the demon."
       }
     },
     "talk": {
       "text": {
         "reference": "悪魔との会話",
-        "translation": "Converse with a demon."
+        "translation": "Talk to the demon."
       }
     },
     "escape": {
       "text": {
         "reference": "戦闘からの離脱を試行",
-        "translation": "Try to leave the battle."
+        "translation": "Try to escape the battle."
       }
     },
     "auto_settings": {
       "text": {
         "reference": "オート戦闘→で設定変更",
-        "translation": "Change auto settings."
+        "translation": "Auto battle. -> to change settings."
       }
     },
     "sword": {
@@ -71,19 +71,19 @@
     "go": {
       "text": {
         "reference": "行動を「VICE」で選択",
-        "translation": "Takes action according to personality."
+        "translation": "Act according to personality."
       }
     },
     "offense": {
       "text": {
         "reference": "攻撃系の行動を「VICE」で選択",
-        "translation": "Takes offensive actions."
+        "translation": "Take offensive actions."
       }
     },
     "defense": {
       "text": {
         "reference": "防御系の行動を「VICE」で選択",
-        "translation": "Takes defensive actions."
+        "translation": "Take defensive actions."
       }
     },
     "return": {
@@ -113,7 +113,7 @@
     "auto_repeat": {
       "text": {
         "reference": "前回ターンでの入力どおりにオート戦闘",
-        "translation": "Repeat the previous turn."
+        "translation": "Repeat last turn's commands."
       }
     }
   }

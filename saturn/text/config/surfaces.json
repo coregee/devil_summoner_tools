@@ -1520,6 +1520,24 @@
         }
       }
     },
+    "battle.negotiation_two_choice": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 15
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 240
+        }
+      }
+    },
     "battle.debug_text": {
       "ja": {
         "font": "font16",

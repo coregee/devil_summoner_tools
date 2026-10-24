@@ -16,6 +16,10 @@ handle pointers, terminators, capacity and round-trip checks.
 The translation itself lives in `assets/text` at the repository root. The
 extracted corpus here is reference data, not something to edit.
 
+> **Hashes and sizes in this document** describe the build before the 2026
+> translation review, which changed much of the wording. The test suites hold the
+> current values; treat the figures here as illustrations of what is checked.
+
 ## Layout
 
 - `config/encodings.json`: alphabets, control codes and source encodings.
@@ -486,11 +490,18 @@ value can't turn into a guess.
 | MSGR diagnostic writer | 64 cells × 1 row | 64 cells × 1 row |
 | Ritual console | | 176 px wide; rows `null` |
 | Negotiation choice | 10 cells × 1 row | 150 px × 1 row |
+| Negotiation two-way choice | 15 cells × 1 row | 240 px × 1 row |
 
 The MSGR diagnostic tiles aren't FONT8 or FONT16, and its three strings have
-their own 15-, 9- and 23-byte limits. The negotiation choices sit in a
-two-by-two grid with a suggested 142-pixel maximum, measured from
-`Because it will be convenie`. Going over that warns but doesn't fail.
+their own 15-, 9- and 23-byte limits.
+
+Negotiation choices are read from each personality bank's script (see
+`negotiation_choice_messages` in `util/battle_negotiation.py`) and tagged in
+the bindings' `record_surfaces`. Three- and four-way choices sit in a
+two-by-two grid of 150px columns; the game clips anything wider, and the
+build fails on it. The editor also warns past 142px. Two-way choices have
+Japanese options up to 15 cells, so they get a 240px limit: the widest the
+original is known to use, not a measured maximum.
 
 ### Locations and SAVE/LOAD
 

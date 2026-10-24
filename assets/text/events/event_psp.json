@@ -17,7 +17,7 @@
     "gouma_den_tutorial_01": {
       "text": {
         "reference": "どの悪魔を合体させるかを選ぶのは{n}おぬしだ。強い悪魔を作るがいい。{n}私はそれに従おう。",
-        "translation": "You shall choose which demons to fuse.{n}Create a powerful demon.{n}I shall honor your choice."
+        "translation": "The choice of which demons to fuse is yours.{n}Create a powerful demon.{n}I shall abide by your choice."
       }
     },
     "gouma_den_tutorial_02": {
@@ -29,7 +29,7 @@
     "gouma_den_tutorial_03": {
       "text": {
         "reference": "これは、仲魔にしたことのある悪魔を{n}MAGを対価に再度、仲魔にすると{n}いう術だ。",
-        "translation": "It lets you summon any demon{n}you have recruited before,{n}in exchange for MAG."
+        "translation": "It is an art by which any demon that{n}was once your ally may be made your ally{n}again, for a price in MAG."
       }
     },
     "gouma_den_tutorial_04": {
@@ -47,7 +47,7 @@
     "underground_teleport_00": {
       "text": {
         "reference": "警官：ほ、本官、{n}警官の命とも言うべき拳銃の身柄を{n}確保したいのでありますが……",
-        "translation": "Police Officer: I-I must secure my service pistol,{n}the very lifeblood of a police officer,{n}but..."
+        "translation": "Police Officer: Th-this officer wishes{n}to take into custody his pistol--the very{n}life of a policeman, sir--but..."
       }
     },
     "underground_teleport_01": {
@@ -100,6 +100,9 @@
       }
     },
     "extra_battle_item_reward": {
+      "placeholders": {
+        "item_name": "item_name"
+      },
       "text": {
         "reference": "＞「{item_name}」を手に入れた。",
         "translation": "> Obtained {item_name}."
@@ -108,13 +111,13 @@
     "extra_battle_empty": {
       "text": {
         "reference": "＞誰もいないが妖気を感じる……",
-        "translation": "> No one is here, but you sense demonic energy..."
+        "translation": "> No one is here, but you sense{n}demonic energy..."
       }
     },
     "extra_battle_energy_remains": {
       "text": {
         "reference": "＞悪魔を倒したが{n}まだ妖気が残っている……",
-        "translation": "> The demon has been defeated,{n}but demonic energy still lingers..."
+        "translation": "> The demon was defeated,{n}but demonic energy still lingers..."
       }
     },
     "extra_battle_challenge": {
@@ -181,6 +184,11 @@
       "note": "PSP EVENT menu display variant; the source dialogue remains bound to its shared canonical field."
     },
     "option_first_name": {
+      "status": "display_variant",
+      "placeholders": {
+        "last_name": "player_name",
+        "first_name": "player_name"
+      },
       "text": {
         "reference": "{last_name}{first_name}",
         "translation": "{first_name}"

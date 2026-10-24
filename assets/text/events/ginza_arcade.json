@@ -17,7 +17,7 @@
     "ginza_coin_lockers_002": {
       "text": {
         "reference": "葛葉キョウジの手は、鍵のかかったロッカー{n}をいとも簡単に開けてしまった。",
-        "translation": "Kyouji Kuzunoha's hands opened the locked locker{n}with effortless ease."
+        "translation": "Kyouji Kuzunoha's hands had the locked{n}locker open in no time."
       }
     },
     "ginza_coin_lockers_003": {
@@ -41,7 +41,7 @@
     "ginza_coin_lockers_006": {
       "text": {
         "reference": "中には、ジャックフロストのぬいぐるみ、{n}ヒーホーくん人形が入っていた。",
-        "translation": "Inside was a stuffed Jack Frost{n}known as a Hee-Ho Doll."
+        "translation": "Inside was a stuffed Jack Frost,{n}a Hee-Ho Doll."
       }
     },
     "ginza_coin_lockers_007": {
@@ -53,7 +53,7 @@
     "ginza_coin_lockers_008": {
       "text": {
         "reference": "中には、赤ん坊が入っていた……{n}と思ったら、キューピー人形だった。",
-        "translation": "There was a baby inside...{n}Or so it seemed. It was a Kewpie doll."
+        "translation": "There was a baby inside...{n}or so it seemed, but it was a Kewpie doll."
       }
     },
     "ginza_coin_lockers_009": {
@@ -158,13 +158,13 @@
     "yarai_ginza_landmarks_006": {
       "text": {
         "reference": "男：あのTV局には出るそうだよ。{n}え、何が出るかって？",
-        "translation": "Man: They say something appears{n}at that TV station. What, you ask?"
+        "translation": "Man: They say things come out at that{n}TV station. Huh? What kind of things?"
       }
     },
     "yarai_ginza_landmarks_007": {
       "text": {
         "reference": "そりゃ決まってるでしょ、{n}出ると言ったら、幽霊ですよ。",
-        "translation": "Isn't it obvious? When people say something{n}appears, they mean a ghost."
+        "translation": "Isn't it obvious? When people say things{n}come out, they mean ghosts."
       }
     },
     "yarai_ginza_landmarks_008": {
@@ -200,19 +200,19 @@
     "yarai_ginza_crowds_004": {
       "text": {
         "reference": "姉：いいでしょ、このニーパッド。{n}これサバイバルショップの{n}セルフ・ディフェンスで買ったのよ。",
-        "translation": "Older Sister: Nice knee pads, right?{n}I bought them at the survival shop{n}Self-Defense."
+        "translation": "Older Sister: Nice knee pads, right?{n}I got them at Self-Defense,{n}the survival shop."
       }
     },
     "yarai_ginza_crowds_005": {
       "text": {
         "reference": "妹：自分の体ぐらい自分で{n}守れなきゃ、スケーターにはなれないわ。{n}備えよ常にって、ことよね。",
-        "translation": "Younger Sister: You can't be a skater if you{n}can't protect yourself. Always be prepared,{n}right?"
+        "translation": "Younger Sister: You can't be a skater if you{n}can't protect your own body. It's all about{n}being prepared."
       }
     },
     "yarai_ginza_crowds_006": {
       "text": {
         "reference": "姉：それでもケガしちゃった時は{n}歯車堂で、きずぐすりを買えば問題なし。{n}矢来銀座って便利よね。",
-        "translation": "Older Sister: And if you still get hurt,{n}just buy some Medicine at Hagurumado.{n}Yarai Ginza is so convenient!"
+        "translation": "Older Sister: And if you still get hurt,{n}just buy some Medicine at Hagurumado.{n}Ginza Arcade is so convenient!"
       }
     },
     "yarai_ginza_crowds_007": {
@@ -230,7 +230,7 @@
     "yarai_ginza_crowds_009": {
       "text": {
         "reference": "妹：え、金王屋？{n}あ、玉じゃないんだ。そうなの、{n}ふーん。なんかがっかり。",
-        "translation": "Younger Sister: Huh, Konnou-Ya?{n}Oh, that's the character for 'king,' not 'ball.'{n}I see... That's kind of disappointing.",
+        "translation": "Younger Sister: Huh, Konnou-Ya?{n}Oh, that's the character for \"king,\" not \"ball.\"{n}I see... That's kind of disappointing.",
         "note": "金王 and 金玉 differ through the near-lookalike 王 (king) and 玉 (ball); the younger sister had hoped for the bawdy reading implied by 'golden balls.'"
       }
     },
@@ -285,7 +285,7 @@
     "yarai_ginza_crowds_018": {
       "text": {
         "reference": "姉：最近のセルフ・ディフェンスって{n}手ごろな値段の品がないわ。{n}お店のおじさん、高級指向だったのね。",
-        "translation": "Older Sister: Self-Defense doesn't carry{n}anything affordable lately. I guess the owner{n}was into high-end merchandise all along."
+        "translation": "Older Sister: Nothing at Self-Defense is{n}affordable lately. Guess the old guy{n}decided to go upscale."
       }
     },
     "yarai_ginza_crowds_019": {
@@ -414,7 +414,7 @@
       },
       "text": {
         "reference": "セールスマン：臨海公園の博物館から{n}公官庁街の新市庁舎まで、{city}市は{n}組長の屋敷以外、全部まわりました。",
-        "translation": "Salesman: From the Museum in Rinkai Park{n}to New City Hall in the Government District,{n}I've covered all of {city} but the boss's mansion."
+        "translation": "Salesman: From the Museum in Rinkai Park{n}to New City Hall in the Government District,{n}I've hit all of {city} but the boss's mansion."
       }
     },
     "yarai_ginza_crowds_040": {
@@ -426,7 +426,7 @@
     "yarai_ginza_crowds_041": {
       "text": {
         "reference": "セールスマン：おかげさまで{n}うちの消火器と寝袋、けっこう{n}さばけましたよ。",
-        "translation": "Salesman: Thanks to everyone,{n}we've sold quite a few of our fire extinguishers{n}and sleeping bags."
+        "translation": "Salesman: Thankfully, our fire extinguishers{n}and sleeping bags have been selling well."
       }
     },
     "yarai_ginza_crowds_042": {
@@ -570,7 +570,7 @@
     "yarai_ginza_crowds_065": {
       "text": {
         "reference": "女：エゼキエルはディスコだから、{n}ちょっと、うるさいけどね。",
-        "translation": "Woman: Club Ezekiel is a disco,{n}so it is a little noisy."
+        "translation": "Woman: Club Ezekiel's a disco, though,{n}so it's a bit loud."
       }
     },
     "yarai_ginza_crowds_066": {
@@ -612,7 +612,7 @@
     "yarai_ginza_crowds_072": {
       "text": {
         "reference": "男：ま、後は、あんたの腕しだいだな。",
-        "translation": "Man: Well, the rest depends on your skill."
+        "translation": "Man: Well, the rest is up to you."
       }
     },
     "yarai_ginza_crowds_073": {

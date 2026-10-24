@@ -30,7 +30,7 @@ from util.event_repack import (  # noqa: E402
 from util.sources import load_manifest, manifest_path  # noqa: E402
 
 
-OUTPUT_HASH = "e87f8d8dc04f964a898b3221076a657599fc5649bdf581b08d3b78933ab18ef7"
+OUTPUT_HASH = "172c04ad095609f81cf6b1d7e885026b5b32db9f1fc9142e53aff9da00db64f0"
 GOOFY_MESSAGE_HASH = "9f585bc2c60caabda79858496a9bd7e69636d589c057e47b1b5e2141ad13a2c7"
 
 
@@ -60,7 +60,7 @@ class ShopEventRepackTests(unittest.TestCase):
                 "sha256": OUTPUT_HASH,
                 "messages": 815,
                 "pages": 763,
-                "body_bytes": 27994,
+                "body_bytes": 27984,
             },
         )
 

@@ -58,15 +58,15 @@ class CompendiumTextTests(unittest.TestCase):
         self.assertEqual(self.build.translated_field_count, 876)
         self.assertEqual(self.build.reviewed_field_count, 0)
         self.assertEqual(self.build.unique_string_count, 635)
-        self.assertEqual(self.build.used_size, 116_577)
+        self.assertEqual(self.build.used_size, 116_290)
         self.assertEqual(len(self.build.text_arena), 0x1D028)
         self.assertEqual(
             hashlib.sha256(self.build.text_arena).hexdigest(),
-            "d9028b2de27b5040972c97b277cde5110333d3fd7e11b709b9db85504146150f",
+            "9b423d293ee712d12f284bd151e36e806bca0acf325dad552d3e7f9144be6896",
         )
         self.assertEqual(
             hashlib.sha256(self.build.pointer_table).hexdigest(),
-            "d1674c16e137bce21cc2d3e867e5638cfa05b0acc962c11fb6c4bf2b3e76dc5b",
+            "fd77ba595efb2b7bcc09090eedd41c154b17d1e87f81bffe2f5b244eb757df63",
         )
         self.assertEqual(
             struct.unpack_from("<IIII", self.build.pointer_table, 308 * 0x10)[3],

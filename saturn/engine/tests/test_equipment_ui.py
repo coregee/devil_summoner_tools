@@ -36,8 +36,8 @@ from text.util.event_repack import FontMetrics  # noqa: E402
 
 
 EXPECTED_HASHES = {
-    "EVENT.BIN": "0353914196dac6974b6e2909e9422b75a66c51632d1784915d1fb79ac71c515a",
-    "NORMCOM.BIN": "55283ade924c5f4aa7c8ddd871bd2563e5c36d5f384b7240f2ed57dfbd4e7947",
+    "EVENT.BIN": "f694f2a041f36b20c49d607a2c59107907f34dcdd1c4a984a31fc8a2f9823c4a",
+    "NORMCOM.BIN": "11b7e6c177c832fae8dd10b69c02153c3732fe0f51f9cc025cad843e8d741392",
 }
 
 
@@ -104,7 +104,7 @@ class EquipmentUiEngineTests(unittest.TestCase):
                 "Def",
                 "Eva",
                 "Mag Pwr",
-                "Mag Efc",
+                "Mag Def",
             ],
         )
         matches, names = _shop_character_data(self.metrics)

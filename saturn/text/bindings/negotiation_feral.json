@@ -825,6 +825,138 @@
     "game.combat_condition_messages.o055608.text": "condition_full_moon.text"
   },
   "record_surfaces": {
+    "game.kemo.m0008.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0009.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0016.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0017.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0024.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0025.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0036.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0037.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0050.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0051.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0052.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0053.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0066.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0067.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0068.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0069.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0070.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0083.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0084.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0085.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0086.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0098.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0099.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0100.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0101.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0102.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0115.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0116.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0117.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0118.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0130.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0131.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0132.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0133.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0134.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0147.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0148.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0155.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0156.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0164.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0165.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0166.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0176.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0177.p00": [
+      "battle.negotiation_two_choice"
+    ],
     "game.kemo.m0184.p00": [
       "battle.negotiation_choice"
     ],
@@ -835,6 +967,240 @@
       "battle.negotiation_choice"
     ],
     "game.kemo.m0187.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0198.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0199.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0200.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0209.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0210.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0216.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0217.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0218.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0219.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0220.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0233.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0234.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0243.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0244.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0253.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0254.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0261.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0262.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0263.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0272.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0273.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0274.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0275.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0276.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0289.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0290.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0291.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0302.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0303.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0304.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0313.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0314.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0322.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0323.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0332.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0333.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0334.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0345.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0346.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0347.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0356.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0357.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0364.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0365.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0366.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0377.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0378.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0386.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0387.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0396.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0397.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0406.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0407.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0408.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0409.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0410.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0425.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0426.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0431.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0432.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0437.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0438.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0447.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0448.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0459.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0460.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0461.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0490.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0491.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0498.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0499.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0507.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0508.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0516.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0517.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.kemo.m0526.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0527.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.kemo.m0528.p00": [
       "battle.negotiation_choice"
     ]
   },

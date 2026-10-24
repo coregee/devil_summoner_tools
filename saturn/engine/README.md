@@ -14,6 +14,10 @@ Layout:
 - `asm/` and `config/`: assembly sources and patch configs (both readable).
 - `build.py`: runs the surfaces, writes outputs, and provides the CLI.
 
+> **Hashes and sizes in this document** describe the build before the 2026
+> translation review, which changed much of the wording. The test suites hold the
+> current values; treat the figures here as illustrations of what is checked.
+
 ## Surfaces
 
 There are 24 surface commands. Some produce a final file; others produce an
@@ -77,7 +81,7 @@ restores the original cells. A separate single-glyph adapter pre-draws the six
 two-letter base-stat labels, while the shared row adapter handles the six
 derived-stat labels. Both keep their scratch data inside the zero-filled area of
 the executable rather than the live `0x00288000` render buffer. The code uses
-2,960 bytes of the 30,722-byte zero area in `A_DIC.BIN`. No compendium font cell
+2,956 bytes of the 30,722-byte zero area in `A_DIC.BIN`. No compendium font cell
 or font file is reused. Vengeful Spirit and Fiend are translated; two raw
 placeholder race rows are left identical to retail because nobody has worked
 out what they are.
@@ -182,7 +186,7 @@ three 20-cell rows and 64 reveal words, and the messages are written into the
 The eight message pointers are linked to wherever the messages end up, so
 changing a message's length moves the ones after it instead of breaking.
 One instruction edit scales the original reveal counter so text still appears
-progressively. The default messages use 668 bytes, and the output matches the
+progressively. The default messages use 634 bytes. Before the translation review, the output matched the
 earlier reference `HOSI.BIN` (SHA-256
 `b51a5611e1095387c92baec2a5f8a8965eb47794cab0b774add3eb310f04b041`).
 The normal build installs it once, after MAP2D and before the EVENT banks.

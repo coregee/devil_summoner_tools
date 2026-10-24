@@ -31,7 +31,7 @@ class EquipmentUiAssetTests(unittest.TestCase):
         )
         self.assertEqual(self.status.field("strength.text").translation, "St")
         self.assertEqual(
-            self.status.field("magic_defense.text").translation, "Mag Efc"
+            self.status.field("magic_defense.text").translation, "Mag Def"
         )
         self.assertEqual(
             self.shop.field("inventory_label.text").translation, "Inv."

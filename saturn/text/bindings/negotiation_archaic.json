@@ -583,6 +583,341 @@
     "game.combat_condition_messages.o055374.text": "condition_ally_veto.text",
     "game.combat_condition_messages.o055634.text": "condition_full_moon.text"
   },
+  "record_surfaces": {
+    "game.tlk_kofu.m0009.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0010.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0011.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0012.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0013.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0014.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0015.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0016.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0017.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_kofu.m0018.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_kofu.m0019.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0020.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0021.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0022.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0023.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0024.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0025.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0026.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0027.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0028.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0029.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0030.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0031.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0032.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0033.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0034.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0035.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0036.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0037.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0038.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0039.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0040.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_kofu.m0041.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_kofu.m0042.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0043.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0044.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0045.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0046.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0047.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0048.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0049.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0050.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0051.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0052.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0053.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0054.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0055.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0056.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0057.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0058.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0059.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0060.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0061.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0062.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0063.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_kofu.m0064.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0065.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0066.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0067.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0068.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0069.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0070.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0071.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0072.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0073.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0074.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0075.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0076.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_kofu.m0077.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0078.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0079.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0080.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0081.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0082.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0083.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0084.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0085.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0086.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0087.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0088.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0089.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0090.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0091.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0092.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_kofu.m0093.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_kofu.m0094.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0095.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0096.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_kofu.m0097.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_kofu.m0442.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_kofu.m0443.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_kofu.m0458.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_kofu.m0459.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_kofu.m0472.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0473.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0474.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0483.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0484.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0485.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0494.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0495.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0496.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0505.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0506.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0507.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_kofu.m0516.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_kofu.m0517.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_kofu.m0525.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_kofu.m0526.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_kofu.m0533.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_kofu.m0534.p00": [
+      "battle.negotiation_two_choice"
+    ]
+  },
   "field_surfaces": {
     "text": [
       "battle.negotiation_dialogue"

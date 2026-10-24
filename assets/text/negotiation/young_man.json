@@ -89,7 +89,7 @@
     "dialogue_0014": {
       "text": {
         "reference": "どこが",
-        "translation": "What part of me?"
+        "translation": "How so?"
       }
     },
     "dialogue_0015": {
@@ -383,7 +383,7 @@
     "dialogue_0063": {
       "text": {
         "reference": "2LDK",
-        "translation": "Two-bedroom apartment."
+        "translation": "Two-bedroom apartment"
       }
     },
     "dialogue_0064": {
@@ -407,13 +407,13 @@
     "dialogue_0067": {
       "text": {
         "reference": "関係ないだろ",
-        "translation": "That's none of your business."
+        "translation": "None of your business."
       }
     },
     "dialogue_0068": {
       "text": {
         "reference": "大事な仲魔だ",
-        "translation": "She's a valued partner."
+        "translation": "They're my allies."
       }
     },
     "dialogue_0069": {
@@ -521,7 +521,7 @@
     "dialogue_0086": {
       "text": {
         "reference": "おまえとか",
-        "translation": "Someone like you."
+        "translation": "With you?"
       }
     },
     "dialogue_0087": {
@@ -557,13 +557,13 @@
     "dialogue_0092": {
       "text": {
         "reference": "なぜそうなるんだ",
-        "translation": "How did you reach that conclusion?"
+        "translation": "How do you figure?"
       }
     },
     "dialogue_0093": {
       "text": {
         "reference": "いいのか",
-        "translation": "Is that okay?"
+        "translation": "You sure?"
       }
     },
     "dialogue_0094": {
@@ -980,7 +980,7 @@
     "dialogue_0162": {
       "text": {
         "reference": "聞いてんだからちゃんと答えろよ{n}オヤジのわりには何も考えてね−な",
-        "translation": "I'm asking, so answer properly. For an old guy, you don't think much."
+        "translation": "I'm asking, so answer properly. For an old man, you sure don't think much."
       }
     },
     "dialogue_0163": {
@@ -1286,7 +1286,7 @@
     "dialogue_0213": {
       "text": {
         "reference": "そりゃね−だろ{n}買ってくれなんてたのんでないんだから…{WAIT}{n}それよりどうせヒマなんだろ",
-        "translation": "Of course I didn't. I never asked you to buy me one...{WAIT} Anyway, you've got time, right?"
+        "translation": "Come on, I never asked you to buy me one...{WAIT} Anyway, you've got time, right?"
       }
     },
     "dialogue_0214": {
@@ -1340,7 +1340,7 @@
     "dialogue_0222": {
       "text": {
         "reference": "やっぱりななんかかたそうだもんな{n}それなら早く帰った方がいいよ{n}ここにいるのはギャンブルだからな",
-        "translation": "I knew it. You seem too uptight. You'd better go home—staying here is a gamble."
+        "translation": "I knew it. You seem too uptight. You'd better go home--staying here is a gamble."
       }
     },
     "dialogue_0223": {
@@ -1394,7 +1394,7 @@
     "dialogue_0231": {
       "text": {
         "reference": "ふん言ってろよ{n}そのうちそんなことも{n}できなくなるんだからな！",
-        "translation": "Keep talking. Soon enough, humans won't be able to play them either!"
+        "translation": "Keep talking. Soon enough, you won't be able to do that anymore!"
       }
     },
     "dialogue_0232": {
@@ -1442,7 +1442,7 @@
     "dialogue_0239": {
       "text": {
         "reference": "そうだな…{n}おまえいい歳してんだから",
-        "translation": "Yeah... You're old enough that you should know."
+        "translation": "Hmm... You're a grown man."
       }
     },
     "dialogue_0240": {
@@ -1579,7 +1579,7 @@
       },
       "text": {
         "reference": "おれ{race}{demon_name}つ−んだ{n}心配しなくても助けてやるよ！",
-        "translation": "I'm {race} {demon_name}. Don't worry—I'll help you!",
+        "translation": "I'm {race} {demon_name}. Don't worry--I'll help you!",
         "note": "Fragment context: this shared page 1 completes recruitment messages 282, 364, 366, and 394; their page-0 dialogue_0260, dialogue_0349, dialogue_0351, and 381."
       }
     },
@@ -1634,7 +1634,7 @@
     "dialogue_0270": {
       "text": {
         "reference": "そんなかったるいもん見せんなよ{n}このバ−{BEAT}カ",
-        "translation": "Don't show me something that dull, you idio—{BEAT}t!"
+        "translation": "Don't show me something that dull, you idio--{BEAT}t!"
       }
     },
     "dialogue_0271": {
@@ -1718,7 +1718,7 @@
     "dialogue_0283": {
       "text": {
         "reference": "そのおまえの持ってるヤツ{n}それってなんかの道具？",
-        "translation": "That thing you're carrying—is it some kind of tool?"
+        "translation": "That thing you're carrying--is it some kind of tool?"
       }
     },
     "dialogue_0284": {
@@ -1747,7 +1747,7 @@
       },
       "text": {
         "reference": "ちぇっあきらめたよ…{WAIT}{n}おれ{race}{demon_name}つ−んだ{n}心配しなくても助けてやるよ！",
-        "translation": "Damn, I give up...{WAIT} I'm {race} {demon_name}. Don't worry—I'll help you!",
+        "translation": "Damn, I give up...{WAIT} I'm {race} {demon_name}. Don't worry--I'll help you!",
         "note": "Fragment context: message 306 page 2 completes the sequence begun on page 0 (dialogue_0285)."
       }
     },
@@ -1772,7 +1772,7 @@
     "dialogue_0291": {
       "text": {
         "reference": "おれならもっと違ったことやりて−な{n}イイ女といっしょに",
-        "translation": "I'd rather do something else—with a hot girl."
+        "translation": "I'd rather do something else--with a hot girl."
       }
     },
     "dialogue_0292": {
@@ -1796,7 +1796,7 @@
     "dialogue_0295": {
       "text": {
         "reference": "かわいそ−なヤツ{n}あせった方がいいよもうオヤジなんだから",
-        "translation": "Poor guy. You'd better hurry—you're already an old man."
+        "translation": "Poor guy. You'd better hurry--you're already an old man."
       }
     },
     "dialogue_0296": {
@@ -1940,7 +1940,7 @@
       },
       "text": {
         "reference": "おれ{race}{demon_name}つ−んだ{n}心配しなくても助けてやるよ！",
-        "translation": "I'm {race} {demon_name}. Don't worry—I'll help you!",
+        "translation": "I'm {race} {demon_name}. Don't worry--I'll help you!",
         "note": "Fragment context: message 334 page 1 completes page 0 (dialogue_0316)."
       }
     },
@@ -2003,7 +2003,7 @@
       },
       "text": {
         "reference": "おれ{race}{demon_name}つ−んだ{n}心配しなくても役に立つって！",
-        "translation": "I'm {race} {demon_name}. Don't worry—I'll be useful!",
+        "translation": "I'm {race} {demon_name}. Don't worry--I'll be useful!",
         "note": "Fragment context: message 342 page 1 completes page 0 (dialogue_0325)."
       }
     },
@@ -2302,7 +2302,7 @@
     "dialogue_0371": {
       "text": {
         "reference": "そんなこと言ってもムダなんだな{WAIT}{n}それっおりゃっ！！{WAIT}{n}もうとっちゃったからなっ！",
-        "translation": "Talking won't help you now.{WAIT} Take that! Hyaaah!{WAIT} Too late—I've already taken it!"
+        "translation": "Talking won't help you now.{WAIT} Take that! Hyaaah!{WAIT} Too late--I've already taken it!"
       }
     },
     "dialogue_0372": {
@@ -2344,7 +2344,7 @@
     "dialogue_0378": {
       "text": {
         "reference": "そんなこと言わないで{n}連れてってくれよ！{n}なっ！{WAIT}…いいのかよ！やったあ！",
-        "translation": "Don't say that—take me with you! Come on!{WAIT} ...Really? Yes!",
+        "translation": "Don't say that--take me with you! Come on!{WAIT} ...Really? Yes!",
         "note": "Fragment context: message 392 page 0 continues on page 1 (dialogue_0379) with the demon's inserted race and name."
       }
     },
@@ -2740,7 +2740,7 @@
     "dialogue_0440": {
       "text": {
         "reference": "おっ{BEAT}おい！{BEAT}{n}悪い冗談はやめろよな{n}やだよそんなの！特に合体はな！！",
-        "translation": "H-hey!{BEAT}{BEAT} Cut the bad jokes. I don't want any of that—especially fusion!"
+        "translation": "H-{BEAT}hey!{BEAT} Cut the bad jokes. I don't want any of that--especially fusion!"
       }
     },
     "dialogue_0441": {
@@ -3066,7 +3066,7 @@
     "dialogue_0492": {
       "text": {
         "reference": "渡す",
-        "translation": "Hand it over."
+        "translation": "Give it."
       }
     },
     "dialogue_0493": {
@@ -3133,7 +3133,7 @@
     "dialogue_0503": {
       "text": {
         "reference": "バッカだな−{BEAT}{n}おまえほんとお人よしだな−{BEAT}{n}へへっこ−なるんだぜ！！",
-        "translation": "Idiot!{BEAT} You're way too softhearted.{BEAT} Heh-heh—take this!"
+        "translation": "Idiot!{BEAT} You're way too softhearted.{BEAT} Heh-heh--take this!"
       }
     },
     "dialogue_0504": {
@@ -3208,7 +3208,7 @@
     "dialogue_0515": {
       "text": {
         "reference": "おっ{BEAT}乗ってきたね−！！{BEAT}{n}えっ？{BEAT}一緒に行く？{BEAT}{n}分かったよい−よ！！",
-        "translation": "Oh, now you're into it!{BEAT}{BEAT} What?{BEAT} You want me along?{BEAT} Sure!",
+        "translation": "Oh,{BEAT} now you're into it!{BEAT} What?{BEAT} You want me along?{BEAT} Sure!",
         "note": "Fragment context: this shared page 0 begins recruitment messages 523, 525, and 527; page 1 (dialogue_0516) supplies the demon's inserted race and name."
       }
     },
@@ -3232,7 +3232,7 @@
     "dialogue_0518": {
       "text": {
         "reference": "さあどこだろ−ね…{BEAT}{n}もしかしてここかもよ！{n}おまえが死ぬのは！！",
-        "translation": "Where could it be...?{BEAT} Maybe right here—the place where you'll die!"
+        "translation": "Where could it be...?{BEAT} Maybe right here--the place where you'll die!"
       }
     },
     "dialogue_0519": {
@@ -3286,7 +3286,7 @@
     "dialogue_0526": {
       "text": {
         "reference": "ぜんぜん{BEAT}分かってね−な{BEAT}{n}たとえばそ−だな−{BEAT}{n}おまえ殺るってのどう？",
-        "translation": "You don't get it at all.{BEAT}{BEAT} For example...{BEAT} How about I kill you?"
+        "translation": "You{BEAT} don't get it at all.{BEAT} For example...{BEAT} How about I kill you?"
       }
     },
     "dialogue_0527": {
@@ -3299,7 +3299,7 @@
     "dialogue_0528": {
       "text": {
         "reference": "こんな夜に{BEAT}落ち着いてらんね−よ{WAIT}{n}それでも落ち着けって言うんなら{n}かわりにおまえ殺らしてもらお−か！！",
-        "translation": "I can't calm down on a night like this.{BEAT}{WAIT} If you insist, maybe I'll calm down by killing you!"
+        "translation": "On a night like this,{BEAT} I can't calm down.{WAIT} If you insist, maybe I'll calm down by killing you!"
       }
     },
     "dialogue_0529": {
@@ -3375,7 +3375,7 @@
     "dialogue_0538": {
       "text": {
         "reference": "ったくマジメだね−おっさん！{WAIT}{n}でもとにかくどっか行こ！{n}いいだろなっ！！",
-        "translation": "Man, you're serious, old-timer!{WAIT} Whatever, let's go somewhere! Come on!",
+        "translation": "Man, you're serious, old man!{WAIT} Whatever, let's go somewhere! Come on!",
         "note": "Fragment context: message 549 page 0 continues on page 1 (dialogue_0539) with the demon's inserted race and name."
       }
     },
@@ -3424,7 +3424,7 @@
     "dialogue_0545": {
       "text": {
         "reference": "とか言っといて直前に逃げる気だな？{BEAT}{n}おっ{BEAT}当たったみたいだな！{BEAT}{n}むかつくな−ふざけんなよ！！",
-        "translation": "You'll agree, then run at the last second, right?{BEAT} Oh!{BEAT} Nailed it!{BEAT} What a jerk—don't mess with me!"
+        "translation": "You'll agree, then run at the last second, right?{BEAT} Oh!{BEAT} Nailed it!{BEAT} What a jerk--don't mess with me!"
       }
     },
     "dialogue_0546": {
@@ -3534,7 +3534,7 @@
     "dialogue_0562": {
       "text": {
         "reference": "命乞いする",
-        "translation": "Beg for mercy"
+        "translation": "Beg for mercy."
       }
     },
     "dialogue_0563": {

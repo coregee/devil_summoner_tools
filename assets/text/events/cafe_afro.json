@@ -20,13 +20,13 @@
     "cafe_afro_date_002": {
       "text": {
         "reference": "秦野久美子さんから、もう少し遅くなる、{n}って電話があったんですよ。",
-        "translation": "Miss Hatano phoned ahead, and said she'd be a bit late."
+        "translation": "Ms. Hatano called to say she'll be{n}a little late."
       }
     },
     "cafe_afro_date_003": {
       "text": {
         "reference": "どうぞごゆっくり、TVでもごらんになって{n}お待ちになってください。",
-        "translation": "Feel free to have a seat.{n}You can watch some TV while you wait."
+        "translation": "Please make yourself comfortable.{n}Feel free to watch some TV while you wait."
       }
     },
     "cafe_afro_date_004": {
@@ -35,25 +35,25 @@
       },
       "text": {
         "reference": "TV：……続いて、スポーツです。{n}{city}ウェーブス対東京スパローズは、{n}5対0でウェーブスが勝ちました。",
-        "translation": "TV: ...And next is sports. In a match between the {city} Waves and the Tokyo Sparrows,{n}the Waves won 5-0."
+        "translation": "TV: ...And now, sports.{n}The {city} Waves beat the{n}Tokyo Sparrows 5-0."
       }
     },
     "cafe_afro_date_005": {
       "text": {
         "reference": "0対0で迎えた7回、ウェーブスは{n}ツーアウト2、3塁のチャンス。{n}バッター、ジェニングスの打球はレフトへ。",
-        "translation": "The game remained scoreless until the seventh,{n}when the Waves came to bat with two outs and runners{n}on second and third. Jennings sent the pitch deep to left..."
+        "translation": "Tied 0-0 in the seventh, the Waves had{n}runners on second and third with two out.{n}Jennings drives one to left..."
       }
     },
     "cafe_afro_date_006": {
       "text": {
         "reference": "スタンドに飛びこむ、スリーラン。{n}この一打が試合を決めました。これで、{n}対戦成績は、ウェーブスの3連勝です。",
-        "translation": "...and into the stands for a three-run homer.{n}That hit decided the game and gave the Waves their third straight win over the Sparrows."
+        "translation": "...and into the stands for a three-run homer.{n}That hit decided it, and the Waves have now{n}won three straight against the Sparrows."
       }
     },
     "cafe_afro_date_007": {
       "text": {
         "reference": "マスター：ご注文は？",
-        "translation": "Master: Would you like to order?"
+        "translation": "Master: What can I get you?"
       }
     },
     "cafe_afro_date_008": {
@@ -107,7 +107,7 @@
     "cafe_afro_date_016": {
       "text": {
         "reference": "すみませんが、もう一度お願いします。",
-        "translation": "I'm sorry sir, could you say that one more time?"
+        "translation": "Sorry, could you say that again?"
       }
     },
     "cafe_afro_date_017": {
@@ -131,7 +131,7 @@
     "cafe_afro_date_020": {
       "text": {
         "reference": "女の声：そう、モカのことよ。{n}だめじゃない、ふざけて店の人困らせちゃ。",
-        "translation": "Girl's Voice: Yes, he just wants a mocha.{n}Don't tease the staff like that."
+        "translation": "Girl's Voice: Yes, he means mocha.{n}Stop goofing around and confusing{n}the poor man."
       }
     },
     "cafe_afro_date_021": {
@@ -146,13 +146,13 @@
       },
       "text": {
         "reference": "久美子：{first_name}くん、待ったかしら？{n}遅くなってごめんなさい。",
-        "translation": "Kumiko: {first_name}, were you waiting long?{n}Sorry for being late."
+        "translation": "Kumiko: {first_name}, have you been{n}waiting long? Sorry I'm late."
       }
     },
     "cafe_afro_date_023": {
       "text": {
         "reference": "わたしにも、何か頼んでよ。",
-        "translation": "Order something for me, okay?"
+        "translation": "Order something for me too, okay?"
       }
     },
     "cafe_afro_date_024": {
@@ -170,7 +170,7 @@
     "cafe_afro_date_026": {
       "text": {
         "reference": "久美子：やっぱり、待たせたこと{n}怒ってるのかしら？",
-        "translation": "Kumiko: I knew it.{n}You're mad that I made you wait, aren't you?"
+        "translation": "Kumiko: So you're mad I kept you waiting,{n}aren't you?"
       }
     },
     "cafe_afro_date_027": {
@@ -185,13 +185,13 @@
     "cafe_afro_date_028": {
       "text": {
         "reference": "怒ってるよ",
-        "translation": "Yes I'm mad."
+        "translation": "I'm mad."
       }
     },
     "cafe_afro_date_029": {
       "text": {
         "reference": "タバスコ・コーラを飲んだら許す",
-        "translation": "If you drink a Tabasco Cola, I'll forgive you."
+        "translation": "Drink a Tabasco Cola and I'll forgive you."
       }
     },
     "cafe_afro_date_030": {
@@ -203,7 +203,7 @@
     "cafe_afro_date_031": {
       "text": {
         "reference": "久美子：ふふっ、すぐそうやって{n}ふざけるんだから……。",
-        "translation": "Kumiko: Heh heh. You're always joking around like this."
+        "translation": "Kumiko: Hee hee. Always joking around,{n}aren't you..."
       }
     },
     "cafe_afro_date_032": {
@@ -221,13 +221,13 @@
     "cafe_afro_date_034": {
       "text": {
         "reference": "じゃあ、コーヒーにする？",
-        "translation": "Do you want a coffee too?"
+        "translation": "Coffee, then?"
       }
     },
     "cafe_afro_date_035": {
       "text": {
         "reference": "別に意味はない",
-        "translation": "Not at all."
+        "translation": "No reason."
       }
     },
     "cafe_afro_date_036": {
@@ -245,7 +245,7 @@
     "cafe_afro_date_038": {
       "text": {
         "reference": "久美子：あ、あのニュース見て……。",
-        "translation": "Kumiko: H-Hey, look at the news..."
+        "translation": "Kumiko: Oh, look at the news..."
       }
     },
     "cafe_afro_date_039": {
@@ -263,13 +263,13 @@
       },
       "text": {
         "reference": "この計画を中心になって進めてきた、{n}山城議員は、これで{city}市の発展がより{n}いっそう進むだろう、と語っています。",
-        "translation": "Councillor Yamashiro issued a statement{n}saying he believed the project would advance{n}{city} City's growth and development."
+        "translation": "Councilman Yamashiro, who led the push{n}for the plan, said it would further advance{n}the development of {city} City."
       }
     },
     "cafe_afro_date_041": {
       "text": {
         "reference": "久美子：再開発計画って、わたし反対よ。{n}ただ、古いものをこわして、新しいものを{n}造ればいい、ってものでもないと思うの。",
-        "translation": "Kumiko: I'm against the redevelopment plan.{n}It shouldn't be as simple as tearing down{n}everything old and replacing it with something new."
+        "translation": "Kumiko: I'm against the redevelopment plan.{n}You can't just tear down everything old{n}and build something new in its place."
       }
     },
     "cafe_afro_date_042": {
@@ -281,7 +281,7 @@
     "cafe_afro_date_043": {
       "text": {
         "reference": "再開発計画について……",
-        "translation": "Regarding the redevelopment plan..."
+        "translation": "About the redevelopment plan..."
       }
     },
     "cafe_afro_date_044": {
@@ -311,13 +311,13 @@
     "cafe_afro_date_048": {
       "text": {
         "reference": "久美子：発展のために、再開発と称して{n}古くても価値のあるものまで、こわして{n}しまったら、どうするの？",
-        "translation": "Kumiko: What if they destroy something{n}old but valuable and call it progress?"
+        "translation": "Kumiko: But what if they tear down things{n}that are old but valuable, all in the name{n}of progress?"
       }
     },
     "cafe_afro_date_049": {
       "text": {
         "reference": "第一、発展することが必ず正しいとは{n}限らないわ。",
-        "translation": "Besides, progress isn't always good in itself."
+        "translation": "Besides, progress isn't always{n}the right thing."
       }
     },
     "cafe_afro_date_050": {
@@ -329,7 +329,7 @@
     "cafe_afro_date_051": {
       "text": {
         "reference": "久美子：古くてよいものを、{n}うまく残しながら、再開発計画なんて{n}できるのかしら？",
-        "translation": "Kumiko: Couldn't they still do their redevelopment{n}while leaving behind some of the nicer old buildings?"
+        "translation": "Kumiko: I wonder if they could redevelop{n}and still hold on to the good old things."
       }
     },
     "cafe_afro_date_052": {
@@ -341,7 +341,7 @@
     "cafe_afro_date_053": {
       "text": {
         "reference": "ところで、これから図書館へ行きたいの。{n}レポート書くのに、必要な本があるの。{n}それを借りていきたいのよ。",
-        "translation": "By the way, I'd like to go to the library after this.{n}There's a book I need for my paper,{n}and I want to check it out."
+        "translation": "By the way, I want to go to the library{n}after this. There's a book I need for{n}a paper, and I want to check it out."
       }
     },
     "cafe_afro_date_054": {
@@ -371,19 +371,19 @@
     "cafe_afro_date_058": {
       "text": {
         "reference": "久美子：ありがとう。さあ、行きましょ。",
-        "translation": "Kumiko: Thanks, let's get going then."
+        "translation": "Kumiko: Thanks. Okay, let's go."
       }
     },
     "cafe_afro_date_059": {
       "text": {
         "reference": "久美子：中央図書館よ。この店を出て{n}南の方の右手に見えるわ。すぐ近くよ。",
-        "translation": "Kumiko: The Central Library. You just go out of this cafe,{n}head south, and it'll be on your right. It's pretty close by."
+        "translation": "Kumiko: The Central Library. Just head out{n}of here and go south--it's on your right.{n}It's really close."
       }
     },
     "cafe_afro_date_060": {
       "text": {
         "reference": "久美子：ごめんなさい。{n}どうしても、今日中に借りておきたいの。",
-        "translation": "Kumiko: Sorry, but I really have to get this book today."
+        "translation": "Kumiko: Sorry, but I really need{n}to check it out today."
       }
     },
     "cafe_afro_date_061": {
@@ -395,13 +395,13 @@
     "cafe_afro_date_062": {
       "text": {
         "reference": "しょうがないな",
-        "translation": "If you must."
+        "translation": "Oh, fine."
       }
     },
     "cafe_afro_date_063": {
       "text": {
         "reference": "いやだ",
-        "translation": "Don't want to."
+        "translation": "No way."
       }
     },
     "cafe_afro_date_064": {
@@ -413,13 +413,13 @@
     "cafe_afro_date_065": {
       "text": {
         "reference": "久美子：どうしても、行きたいの。{n}さ、行きましょ。",
-        "translation": "Kumiko: I really want to go.{n}Come on, let's get moving."
+        "translation": "Kumiko: But I really want to go.{n}Come on, let's go."
       }
     },
     "cafe_afro_date_066": {
       "text": {
         "reference": "久美子：ねえ、図書館へ行きましょうよ。",
-        "translation": "Kumiko: Alright, let's go to the library."
+        "translation": "Kumiko: Come on, let's go to the library."
       }
     },
     "cafe_afro_date_067": {
@@ -449,25 +449,25 @@
     "cafe_afro_later_visits_003": {
       "text": {
         "reference": "死亡していたのは、自称、私立探偵の{n}葛葉キョウジさんです。",
-        "translation": "The deceased was confirmed to be a self-styled{n}private detective, Kyouji Kuzunoha."
+        "translation": "The victim has been identified as{n}self-proclaimed private detective{n}Kyouji Kuzunoha."
       }
     },
     "cafe_afro_later_visits_004": {
       "text": {
         "reference": "葛葉さんの遺体には、外傷はなく死因は{n}今のところ不明です。警察では遺体を{n}司法解剖して、死因を調べるとともに、",
-        "translation": "Kuzunoha's body showed no external injuries, and the cause of death remains unknown.{n}Police will conduct an autopsy,"
+        "translation": "Mr. Kuzunoha's body bore no external{n}injuries, and the cause of death is unknown.{n}Police are performing an autopsy,"
       }
     },
     "cafe_afro_later_visits_005": {
       "text": {
         "reference": "目撃者を探すなど、{n}手がかりを集めています……。",
-        "translation": "while also gathering evidence and searching for eyewitnesses..."
+        "translation": "and searching for witnesses{n}and other leads..."
       }
     },
     "cafe_afro_later_visits_006": {
       "text": {
         "reference": "マスター：……まったく、世の中ぶっそうに{n}なりましたねぇ。",
-        "translation": "Master: ...things sure have been pretty{n}dangerous as of late, haven't they?"
+        "translation": "Master: ...My, the world's gotten{n}so dangerous these days."
       }
     },
     "cafe_afro_later_visits_007": {
@@ -476,25 +476,25 @@
       },
       "text": {
         "reference": "ああ、そうだ……{last_name}さん。{n}秦野さんから、伝言をことづかって{n}ます。",
-        "translation": "Ah, that's right...{n}Mr. {last_name}, Miss Hatano left a message for you."
+        "translation": "Oh, that reminds me... Mr. {last_name},{n}Ms. Hatano left a message for you."
       }
     },
     "cafe_afro_later_visits_008": {
       "text": {
         "reference": "チケットを取って来たら、雲雀ヶ丘の私の家{n}まで持って来てほしい、とのことです。",
-        "translation": "She said she would like you to bring the tickets{n}to her house in Hibarigaoka once you've picked them up."
+        "translation": "She asked if you'd bring the tickets to{n}her house in Hibarigaoka once you have them."
       }
     },
     "cafe_afro_later_visits_009": {
       "text": {
         "reference": "……彼女、雲雀ヶ丘に住んでるんですか。{n}お嬢さまなんですねぇ。",
-        "translation": "...So she resides in Hibarigaoka?{n}Her family must be quite well-off."
+        "translation": "...So she lives in Hibarigaoka?{n}She must be from a wealthy family."
       }
     },
     "cafe_afro_later_visits_010": {
       "text": {
         "reference": "マスター：いらっしゃ…………、{n}……あ、あんた。確かTVで……{n}死んだはずじゃあ……人違いですか？",
-        "translation": "Master: Welco-... ...Y-You're the man from the TV...{n}They said you were dead... or was that someone else?"
+        "translation": "Master: Welco--......{n}...Y-You... I'm sure the TV said...{n}you were dead... Have I got the wrong man?"
       }
     },
     "cafe_afro_later_visits_011": {
@@ -520,7 +520,7 @@
     "cafe_afro_later_visits_013": {
       "text": {
         "reference": "TV：……逮捕されたのは、陸上自衛隊{n}五島公夫一等陸佐です。",
-        "translation": "TV: ...The man under arrest is JGSDF Colonel Kimio Gotou."
+        "translation": "TV: ...The man arrested is Ground{n}Self-Defense Force Colonel Kimio Gotou."
       }
     },
     "cafe_afro_later_visits_014": {
@@ -550,13 +550,13 @@
     "cafe_afro_later_visits_018": {
       "text": {
         "reference": "TV：……アメリカのトールマン駐日大使が{n}心不全で亡くなられました。{n}68歳でした。",
-        "translation": "TV: ...U.S. Ambassador to Japan,{n}Thorman, has died of heart failure.{n}He was 68."
+        "translation": "TV: ...Thorman, the U.S. Ambassador{n}to Japan, has died of heart failure.{n}He was 68."
       }
     },
     "cafe_afro_later_visits_019": {
       "text": {
         "reference": "トールマン大使は、就任前は対日強硬派とし{n}て知られていましたが、大使に就任後は日米{n}友好に力をつくされ……。",
-        "translation": "Though he was known to be a hard-liner with regards{n}to Japan, after his inauguration, Ambassador Thorman{n}was a key figure in promoting Japan-US relations..."
+        "translation": "Known as a hard-liner on Japan before{n}taking up his post, Ambassador Thorman{n}worked hard for Japan-U.S. friendship..."
       }
     },
     "cafe_afro_later_visits_020": {

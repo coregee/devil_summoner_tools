@@ -808,6 +808,395 @@
     "game.combat_condition_messages.o05552c.text": "condition_ally_veto.text",
     "game.combat_condition_messages.o0557ec.text": "condition_full_moon.text"
   },
+  "record_surfaces": {
+    "game.cyni.m0008.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0009.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0016.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0017.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0024.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0025.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0036.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0037.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0051.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0052.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0053.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0054.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0065.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0066.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0067.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0068.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0069.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0082.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0083.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0084.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0085.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0096.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0097.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0098.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0099.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0100.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0113.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0114.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0115.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0116.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0127.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0128.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0129.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0130.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0131.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0143.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0144.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0145.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0146.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0147.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0159.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0160.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0161.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0170.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0171.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0176.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0177.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0182.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0183.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0184.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0193.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0194.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0195.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0196.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0197.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0209.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0210.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0218.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0219.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0220.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0221.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0222.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0235.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0236.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0244.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0245.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0254.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0255.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0263.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0264.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0265.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0266.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0267.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0281.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0282.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0291.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0292.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0293.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0302.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0303.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0311.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0312.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0313.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0321.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0322.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0330.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0331.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0332.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0333.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0348.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0349.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0357.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0358.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0365.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0366.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0374.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0375.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0383.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0384.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0391.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0392.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0399.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0400.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0401.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0410.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0411.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0420.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0421.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0429.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0430.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0438.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0439.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0440.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0449.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0450.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0451.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0479.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0480.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0487.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0488.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0499.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0500.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0501.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0502.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0521.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0522.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0523.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.cyni.m0536.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.cyni.m0537.p00": [
+      "battle.negotiation_two_choice"
+    ]
+  },
   "field_surfaces": {
     "text": [
       "battle.negotiation_dialogue"

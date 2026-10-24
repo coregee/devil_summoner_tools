@@ -5,7 +5,7 @@
     "dialogue_0000": {
       "text": {
         "reference": "グゲグゲグゲゲェ{n}{WAIT}おでノながまダイジニ{BEAT}ジジジジ{BEAT}ジデグレェ",
-        "translation": "Guh-guh-guh-gehh...{WAIT} Take good care{BEAT} care of my fr-fr-fr{BEAT}friend..."
+        "translation": "Guh-guh-guh-gehh...{WAIT} Take good care{BEAT} care of my a-a-a{BEAT}ally..."
       }
     },
     "dialogue_0001": {
@@ -14,21 +14,21 @@
       },
       "text": {
         "reference": "グゲグゲグゲゲェ{n}{offered_item}ヤロウ{BEAT}ヤロウヤロウ",
-        "translation": "Guh-guh-guh-gehh... I give you {offered_item}{BEAT} give-give...",
+        "translation": "Guh-guh-guh-gehh... I'll g-give you {offered_item}{BEAT} give-give...",
         "note": "Opening fragment for messages 1-2; page 1 (dialogue_0002) completes the gift by asking the player to care for the demon's ally."
       }
     },
     "dialogue_0002": {
       "text": {
         "reference": "おでノながまダイジニ{BEAT}ジジジジ{BEAT}ジデグレェ",
-        "translation": "Take good care of my fr{BEAT} fr-fr-fr{BEAT}friend...",
+        "translation": "Take good care of my a{BEAT} a-a-a{BEAT}ally...",
         "note": "Closing fragment for messages 1-2; page 0 (dialogue_0001) gives the offered item before this request."
       }
     },
     "dialogue_0003": {
       "text": {
         "reference": "グゲグゲグゲゲェ{n}愛愛愛{BEAT}愛用ジデル傷薬ヲヤロウ{BEAT}ヤロウゥ",
-        "translation": "Love, love, love{BEAT} I'll give you my favorite medicine{BEAT} m-medicine..."
+        "translation": "F-f-fav{BEAT} my favorite s-salve... I'll give it to you{BEAT} give it..."
       }
     },
     "dialogue_0004": {
@@ -40,7 +40,7 @@
     "dialogue_0005": {
       "text": {
         "reference": "ゾゾゾゾ{BEAT}ゾノガワリィ{n}おでノながまダイジニジジジジ{BEAT}ジデグレェ",
-        "translation": "In-in-in{BEAT} in return, take good care of my fr-fr-fr{BEAT}friend..."
+        "translation": "In-in-in{BEAT} in return, take good care of my a-a-a{BEAT}ally..."
       }
     },
     "dialogue_0006": {
@@ -172,7 +172,7 @@
     "dialogue_0027": {
       "text": {
         "reference": "ジジジジ{BEAT}ジラバッグレルガァ！{n}{WAIT}許ザザ{BEAT}ザザザネェ！！",
-        "translation": "D-d-don't{BEAT} don't stand me up!{WAIT} I won't f-f{BEAT}forgive you!!"
+        "translation": "D-d-don't{BEAT} don't play dumb!{WAIT} I won't f-f{BEAT}forgive you!!"
       }
     },
     "dialogue_0028": {
@@ -305,7 +305,7 @@
     "dialogue_0048": {
       "text": {
         "reference": "オ礼ガ{BEAT}ガガガガジダイィ{n}{WAIT}おばえニアノ世世世{BEAT}世ヲォ{n}見ゼデヤロ{BEAT}ヤロヤロヤロウゥ！！",
-        "translation": "I w-w-w-want{BEAT} want to thank you...{WAIT} I'll sh-sh-sh{BEAT} show{BEAT} show-show-show you the other world!!"
+        "translation": "I w-w-w-want{BEAT} want to thank you...{WAIT} I'll sh-sh-sh{BEAT} show{BEAT} show-show-show you the afterlife!!"
       }
     },
     "dialogue_0049": {
@@ -401,7 +401,7 @@
     "dialogue_0064": {
       "text": {
         "reference": "ギョギョギョギョ{BEAT}今日バァ{n}ギゲギゲ{BEAT}機嫌ガイイ{BEAT}イイィ",
-        "translation": "Gyo-gyo-gyo-gyo{BEAT} I'm in a g-g{BEAT} good mood{BEAT} mood today..."
+        "translation": "T-t-t-today{BEAT} today I'm in a g-g{BEAT} good mood{BEAT} mood..."
       }
     },
     "dialogue_0065": {
@@ -521,13 +521,13 @@
     "dialogue_0083": {
       "text": {
         "reference": "グゲグゲゲェ{n}{WAIT}タダ{BEAT}タダタダジャ{BEAT}ダメダメダァ",
-        "translation": "Guh-guh-gehh...{WAIT} You c-can't{BEAT} can't pass for f-free{BEAT} free-free..."
+        "translation": "Guh-guh-gehh...{WAIT} N-nothing's{BEAT} nothing's f-free{BEAT} free-free..."
       }
     },
     "dialogue_0084": {
       "text": {
         "reference": "タダ{BEAT}タダタダジャ{BEAT}ダメダメダァ",
-        "translation": "You c-can't{BEAT} can't pass for f-free{BEAT} free-free..."
+        "translation": "N-nothing's{BEAT} nothing's f-free{BEAT} free-free..."
       }
     },
     "dialogue_0085": {
@@ -575,7 +575,7 @@
     "dialogue_0092": {
       "text": {
         "reference": "おでモながま{BEAT}ながまヲォ{n}ザザザザ{BEAT}探ジデルンガァ",
-        "translation": "I'm looking for a fr-friend{BEAT} friend too... S-s-s-searching{BEAT} searching..."
+        "translation": "I'm looking for a-allies{BEAT} allies too... S-s-s-searching{BEAT} searching..."
       }
     },
     "dialogue_0093": {
@@ -743,7 +743,7 @@
     "dialogue_0120": {
       "text": {
         "reference": "おおおお{BEAT}おばえモォ{n}同ジ痛痛痛痛{BEAT}痛ミィ{n}味ワウガイイ{BEAT}イイイィ",
-        "translation": "Y-y-you{BEAT} you can t-taste{BEAT} taste the s-same pain{BEAT} pain as me..."
+        "translation": "N-now y-you{BEAT} you t-taste{BEAT} taste the s-same pain{BEAT} pain as me!"
       }
     },
     "dialogue_0121": {
@@ -997,7 +997,7 @@
     "dialogue_0160": {
       "text": {
         "reference": "アアアアアァ{n}オオオオオォ{n}ナンナンナン{BEAT}ナンデェゴドダァ",
-        "translation": "Aaaaaagh! Ooooooh... Wh-wh-wh-what{BEAT} what does this mean...?"
+        "translation": "Aaaaaagh! Ooooooh... Th-th-th-this{BEAT} this can't be...!"
       }
     },
     "dialogue_0161": {
@@ -1138,7 +1138,7 @@
     "dialogue_0182": {
       "text": {
         "reference": "ゴガギノギャグガァ{n}{BEAT}ヨグガギ喰ウ{BEAT}ギャグガァ{n}アアアアアァ",
-        "translation": "Gogagi no gag gag gah...{BEAT} Yogu gagi gagger{BEAT} gag gag gah... Aaaaaagh!"
+        "translation": "Beder Biber bigged a beg{BEAT} of biggled beppers...{BEAT} A beg of... Aaaaaagh!"
       }
     },
     "dialogue_0183": {
@@ -1695,13 +1695,13 @@
     "dialogue_0271": {
       "text": {
         "reference": "美ジ{BEAT}美ジイネエヂャンドォ{n}ガガガガ{BEAT}合体合体{BEAT}ザゼデグレェ",
-        "translation": "I want to be a b-beau{BEAT}beautiful lady... L-l-let me f-fuse{BEAT} fuse{BEAT} fuse with one..."
+        "translation": "With a b-beau{BEAT}beautiful babe... L-l-let me f-fuse{BEAT} fuse{BEAT} fuse with her..."
       }
     },
     "dialogue_0272": {
       "text": {
         "reference": "ガガガガ{BEAT}合体合体{BEAT}ザゼデグレルガァ？",
-        "translation": "Will you l-l-let me f-fuse{BEAT} fuse{BEAT} fuse with one...?"
+        "translation": "Will you l-l-let me f-fuse{BEAT} fuse{BEAT} fuse with her...?"
       }
     },
     "dialogue_0273": {
@@ -1785,7 +1785,7 @@
     "dialogue_0286": {
       "text": {
         "reference": "←→→{BEAT}P+KェPPPィKェ{n}PPPィ{BEAT}→Kェェェ{n}{WAIT}↑↑↓↓←→←→{BEAT}イイイィ{BEAT}エエエエェ",
-        "translation": "Left, right, right{BEAT} P K... P-P-P... K... P-P-P{BEAT} Right, K...{WAIT} Up, up, down, down, left, right, left, right{BEAT} A-A-A{BEAT} B-B-B..."
+        "translation": "Left, right, right{BEAT} P-K... P-P-P... K... P-P-P{BEAT} Right, K...{WAIT} Up, up, down, down, left, right, left, right{BEAT} B-B-B{BEAT} A-A-A..."
       }
     },
     "dialogue_0287": {
@@ -1998,7 +1998,7 @@
     "dialogue_0319": {
       "text": {
         "reference": "グゲグゲグゲゲェ{n}{WAIT}オバエゲッゴウイ{BEAT}イイイイ奴ガァ{n}おでガ守ッデヤロウガ{BEAT}ヤロウガァ",
-        "translation": "Guh-guh-guh-gehh...{WAIT} You're a p-pretty good{BEAT} good-good one... I'll protect you{BEAT} protect you..."
+        "translation": "Guh-guh-guh-gehh...{WAIT} You're a c-cool{BEAT} cool-cool one... I'll protect you{BEAT} protect you..."
       }
     },
     "dialogue_0320": {
@@ -2016,7 +2016,7 @@
     "dialogue_0322": {
       "text": {
         "reference": "おばえニ分分{BEAT}分ガッデ{n}ダマルガガガ{BEAT}ガァ",
-        "translation": "Y-you understand{BEAT} understand... So I'll sh-shut up{BEAT} shut up..."
+        "translation": "As if y-you could{BEAT} could understand... N-no w-way{BEAT} way!"
       }
     },
     "dialogue_0323": {
@@ -2172,7 +2172,7 @@
     "dialogue_0346": {
       "text": {
         "reference": "渡す",
-        "translation": "Hand it over."
+        "translation": "Give it."
       }
     },
     "dialogue_0347": {
@@ -2489,7 +2489,7 @@
     "condition_happy": {
       "text": {
         "reference": "おでバァ 宇宙イヂィ 美美美美ジイィ",
-        "translation": "I'm m-most beautiful in all space!",
+        "translation": "M-most beautiful in the universe!",
         "reviewed": true
       }
     },

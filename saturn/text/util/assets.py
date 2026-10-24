@@ -60,7 +60,7 @@ _PLACEHOLDER_TYPES = frozenset(
     }
 )
 _KINDS = frozenset({"entity_catalog", "surface_catalog"})
-_STATUSES = frozenset({"reserve", "unresolved"})
+_STATUSES = frozenset({"display_variant", "reserve", "unresolved"})
 _FONT8_ALPHABETS = frozenset({"original", "replaced"})
 _GLYPH_CODE_RE = re.compile(r"(?:[0-9a-f]{2}|[0-9a-f]{4})\Z")
 _SOURCE_GLYPH_SIGNATURE: tuple[tuple[str, int, int], ...] | None = None
@@ -452,8 +452,12 @@ def validate_asset_document(value: Any, context: str = "asset") -> AssetCatalog:
             expected_tokens = frozenset(placeholders)
             for variant_name in (None, *text_field.variants):
                 reference, translation, _reviewed = text_field.resolve(variant_name)
-                if _functional_tokens(reference) != _functional_tokens(
-                    translation
+                reference_functional = _functional_tokens(reference)
+                translation_functional = _functional_tokens(translation)
+                # A display variant may drop placeholders to fit its screen,
+                # but must not add any the reference lacks.
+                if (status == "display_variant" and not set(translation_functional) <= set(reference_functional)) or (
+                    status != "display_variant" and reference_functional != translation_functional
                 ):
                     raise ValueError(
                         f"{context}.entries.{entry_name}.{field_name} reference and "

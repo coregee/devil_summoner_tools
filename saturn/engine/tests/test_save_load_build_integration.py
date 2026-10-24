@@ -31,12 +31,12 @@ VISUAL_REPLACEMENTS = {
     replacement.view: replacement.path for replacement in load_replacements("game")
 }
 ENGINE_HASHES = {
-    "SAVE.BIN": "3f97ac9b7f40af32c1314a00311a15079c1a402bc0b3822d2b1d90fbab2c5b57",
-    "LOAD.BIN": "a9a58b2fa5c4c0e96298c6ec2fcdf84999e695d084556f53c33db3c2afad959f",
+    "SAVE.BIN": "cd266b06c9cf9b8194c1a5fc7dce0fb22853c6b13dc39587eb1871b161cfae24",
+    "LOAD.BIN": "7548a195f70378b8e9e2401db047bb70661fc5e6356da6eaf85e8ac2e692f89b",
 }
 FINAL_HASHES = {
-    "SAVE.BIN": "ccbff9a2dedd4b65c073dd1e59b343602c52f80f2ad431309b23dba86e1c0d31",
-    "LOAD.BIN": "13ea4b16836906ae75e5d08d622bd10f513c31bdbf42d7a8930abd99475eb82a",
+    "SAVE.BIN": "544d275c934dd08a2f40b602d906a637101ae99c779bd204378629c29683e1a4",
+    "LOAD.BIN": "3814e1d087d0329ec654bbffebe465cc966e95691ed92e7989b93f81c884e918",
 }
 
 

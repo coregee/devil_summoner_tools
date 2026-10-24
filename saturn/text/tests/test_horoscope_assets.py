@@ -68,7 +68,7 @@ class HoroscopeAssetTests(unittest.TestCase):
         )
         self.assertEqual(
             values[PHYSICAL_IDS[-1]],
-            "It is where the Tendou Yakuza boss's mansion resides.",
+            "It's where the Tendou-gumi boss's mansion stands.",
         )
 
     def test_surface_records_the_stock_renderer_limits(self) -> None:

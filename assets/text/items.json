@@ -117,7 +117,7 @@
     "revival_bead": {
       "name": {
         "reference": "げほうかくせいふ",
-        "translation": "Revival Bead"
+        "translation": "Revival Charm"
       },
       "description": {
         "reference": "回復アイテム 単体{n}味方1体を復活",
@@ -125,7 +125,7 @@
       },
       "console_text": {
         "reference": "AーKakusei",
-        "translation": "Revival_Bead"
+        "translation": "Revival_Charm"
       }
     },
     "dis_stone": {
@@ -273,7 +273,7 @@
     "picture": {
       "name": {
         "reference": "うつくしいえ",
-        "translation": "Picture"
+        "translation": "Beautiful Painting"
       },
       "description": {
         "reference": "その大胆な色使いに 見た者は皆 息を飲む",
@@ -287,7 +287,7 @@
     "statue": {
       "name": {
         "reference": "こうかなぞう",
-        "translation": "Statue"
+        "translation": "Valuable Statue"
       },
       "description": {
         "reference": "作り手の愛が伝わる 美しいブロンズ像",
@@ -301,7 +301,7 @@
     "odd_pot": {
       "name": {
         "reference": "めずらしいつぼ",
-        "translation": "Odd Pot"
+        "translation": "Rare Vase"
       },
       "description": {
         "reference": "テーマは「くしゃみ」{n}質素な中にも 光るものがある",
@@ -309,7 +309,7 @@
       },
       "console_text": {
         "reference": "Pot",
-        "translation": "Odd_Pot"
+        "translation": "Rare_Vase"
       }
     },
     "bead": {
@@ -441,7 +441,7 @@
     "st_incense": {
       "name": {
         "reference": "ちからのこう",
-        "translation": "St Incense"
+        "translation": "Strength Incense"
       },
       "description": {
         "reference": "通常アイテム 単体{n}人間の「力」を1アップしHP完全回復",
@@ -455,7 +455,7 @@
     "in_incense": {
       "name": {
         "reference": "ちえのこう",
-        "translation": "In Incense"
+        "translation": "Intellect Incense"
       },
       "description": {
         "reference": "通常アイテム 単体{n}人間の「知恵」を1アップしHP完全回復",
@@ -469,7 +469,7 @@
     "ma_incense": {
       "name": {
         "reference": "まりょくのこう",
-        "translation": "Ma Incense"
+        "translation": "Magic Incense"
       },
       "description": {
         "reference": "通常アイテム 単体{n}人間の「魔力」を1アップしHP完全回復",
@@ -483,7 +483,7 @@
     "vi_incense": {
       "name": {
         "reference": "たいりょくのこう",
-        "translation": "Vi Incense"
+        "translation": "Vitality Incense"
       },
       "description": {
         "reference": "通常アイテム 単体{n}人間の「体力」を1アップしHP完全回復",
@@ -497,7 +497,7 @@
     "ag_incense": {
       "name": {
         "reference": "はやさのこう",
-        "translation": "Ag Incense"
+        "translation": "Agility Incense"
       },
       "description": {
         "reference": "通常アイテム 単体{n}人間の「速さ」を1アップしHP完全回復",
@@ -511,7 +511,7 @@
     "lu_incense": {
       "name": {
         "reference": "うんのこう",
-        "translation": "Lu Incense"
+        "translation": "Luck Incense"
       },
       "description": {
         "reference": "通常アイテム 単体{n}人間の「運」を1アップしHP完全回復",

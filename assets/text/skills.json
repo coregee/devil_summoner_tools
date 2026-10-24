@@ -176,7 +176,7 @@
       },
       "description": {
         "reference": "特殊魔法行動 全体 威力120{n}敵1体に大ダメージ",
-        "translation": "Special magic / Power 120{n}Deals heavy Almighty damage to one foe.",
+        "translation": "Special magic / Power 120{n}Deals heavy damage to one foe.",
         "variants": {
           "psp": {
             "reference": "特殊魔法行動 前列／後列 威力120{n}敵1体に大ダメージ",
@@ -755,7 +755,7 @@
       },
       "description": {
         "reference": "特殊魔法行動 敵・味方全体{n}術者と属性の異なる者すべてにダメージ",
-        "translation": "Special magic / Everyone{n}Damages targets of a different alignment."
+        "translation": "Special magic / Everyone{n}Damages all of other alignments."
       },
       "console_text": {
         "reference": "JUDGMENT",
@@ -774,7 +774,7 @@
       },
       "description": {
         "reference": "特殊魔法行動 敵・味方全体{n}術者と属性の異なる者すべてに大ダメージ",
-        "translation": "Special magic / Everyone{n}Heavy damage to targets of a different alignment."
+        "translation": "Special magic / Everyone{n}Heavily damages all of other alignments."
       },
       "console_text": {
         "reference": "JUSTICEーHEAVEN",
@@ -2884,7 +2884,7 @@
       },
       "console_text": {
         "reference": "MISSーCOLDーHEART",
-        "translation": "Cold_Mistress"
+        "translation": "Heartless_Dance"
       }
     },
     "rest": {

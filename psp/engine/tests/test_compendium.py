@@ -106,12 +106,12 @@ class CompendiumRuntimeTests(unittest.TestCase):
         stock, _eboot, _source = engine_build._source_entries()
         result = build_compendium(stock, name_ready_boot(), load_eve_widths())
         self.assertEqual(len(result.patches), 13)
-        self.assertEqual(result.text.used_size, 116_577)
-        self.assertEqual(result.runtime_used_size, 125_866)
+        self.assertEqual(result.text.used_size, 116_290)
+        self.assertEqual(result.runtime_used_size, 125_579)
         self.assertEqual(result.runtime_capacity, 128_269)
         self.assertEqual(
             hashlib.sha256(result.data).hexdigest(),
-            "a824ce8f682afa87a44049e1a2a7b3bf80ca6eb9672c0743df289edee387145d",
+            "faf2e913c6f107f3f17831e3fe1ae83f832b78b9424a39e47ad71d03b15598e3",
         )
         ordered = sorted(result.patches, key=lambda patch: patch.address)
         self.assertTrue(

@@ -209,7 +209,7 @@
     "dialogue_0034": {
       "text": {
         "reference": "関係ないだろう",
-        "translation": "That's none of your business."
+        "translation": "None of your business."
       }
     },
     "dialogue_0035": {
@@ -473,7 +473,7 @@
     "dialogue_0078": {
       "text": {
         "reference": "ステキな笑顔ね{n}戦っている人には見えないわ{WAIT}{n}突然でおどろくでしょうけど",
-        "translation": "What a lovely smile. You hardly look like someone in battle.{WAIT} This may come as a surprise, but...",
+        "translation": "What a lovely smile. You don't look like a fighter at all.{WAIT} This may come as a surprise, but...",
         "note": "The Japanese ends on けど ('but'), deliberately leaving the introduction open for the branch-dependent proposition that follows."
       }
     },
@@ -522,14 +522,14 @@
     "dialogue_0086": {
       "text": {
         "reference": "そんな冷たい態度とらないで…{n}イジワルな人ね…{WAIT}{n}でも",
-        "translation": "Don't be so cold... What a cruel man...{WAIT} But...",
+        "translation": "Don't be so cold... How mean of you...{WAIT} But...",
         "note": "The Japanese deliberately ends on でも ('but'), handing the unfinished thought to the next branch-dependent negotiation line."
       }
     },
     "dialogue_0087": {
       "text": {
         "reference": "どうして無視するのよ{n}あなたのこと気になっていたのに…",
-        "translation": "Why are you ignoring me? You had caught my eye..."
+        "translation": "Why are you ignoring me? And here I'd had my eye on you..."
       }
     },
     "dialogue_0088": {
@@ -662,7 +662,7 @@
     "dialogue_0109": {
       "text": {
         "reference": "今日はいいお天気だったけど{n}なんか気分はイマイチね…",
-        "translation": "The weather was lovely today, but my mood has been rather foul..."
+        "translation": "The weather was lovely today, but I'm feeling a little off..."
       }
     },
     "dialogue_0110": {
@@ -680,7 +680,7 @@
     "dialogue_0112": {
       "text": {
         "reference": "そうなの…{WAIT}{n}私はこんなふうなのに…",
-        "translation": "Is that so...?{WAIT} Even though I'm feeling like this..."
+        "translation": "Is that so...?{WAIT} And here I am, feeling like this..."
       }
     },
     "dialogue_0113": {
@@ -860,7 +860,7 @@
     "dialogue_0142": {
       "text": {
         "reference": "バカね{n}「最低だ」なんて言ってるだけじゃ{n}あなたの状況は変わらないわよ",
-        "translation": "Fool. Merely saying \"It's terrible\" won't change your circumstances."
+        "translation": "Silly man. Just saying \"It's terrible\" won't change anything for you."
       }
     },
     "dialogue_0143": {
@@ -903,7 +903,7 @@
     "dialogue_0149": {
       "text": {
         "reference": "フフフ{WAIT}{n}言ってみただけよ",
-        "translation": "Hee hee...{WAIT} I only said it to see your reaction."
+        "translation": "Hee hee...{WAIT} I was only teasing."
       }
     },
     "dialogue_0150": {
@@ -1073,7 +1073,7 @@
     "dialogue_0177": {
       "text": {
         "reference": "そう{BEAT}それならいいの…{WAIT}{n}ここでお別れね…{n}さようなら",
-        "translation": "I see...{BEAT} Then that's enough.{WAIT} This is goodbye... Farewell."
+        "translation": "I see...{BEAT} Then never mind.{WAIT} This is where we part... Goodbye."
       }
     },
     "dialogue_0178": {
@@ -1097,7 +1097,7 @@
     "dialogue_0181": {
       "text": {
         "reference": "ありがとうじゃあお願いね{WAIT}{n}・{BEAT}・{BEAT}・{BEAT}・{BEAT}・{BEAT}ないわ{BEAT}どこにも…{WAIT}{n}困っちゃうわね",
-        "translation": "Thank you. Please, then.{WAIT}.{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT} It's gone{BEAT} nowhere to be found...{WAIT} What a problem."
+        "translation": "Thank you. Please, then.{WAIT}.{BEAT}.{BEAT}.{BEAT}.{BEAT}.{BEAT} It's gone{BEAT} nowhere to be found...{WAIT} What am I going to do?"
       }
     },
     "dialogue_0182": {
@@ -1218,7 +1218,7 @@
     "dialogue_0201": {
       "text": {
         "reference": "フフフ{WAIT}おバカさんね{n}いつも素直なのが{n}いいって訳じゃないのよ",
-        "translation": "Hee hee...{WAIT} What a fool. Honesty isn't always the best policy."
+        "translation": "Hee hee...{WAIT} You silly thing. Honesty isn't always the best policy."
       }
     },
     "dialogue_0202": {
@@ -1236,7 +1236,7 @@
     "dialogue_0204": {
       "text": {
         "reference": "仕方ないわね{n}言うことをきかないいけない人…{WAIT}{n}でもまぁいいわ…",
-        "translation": "I suppose I have no choice. You truly can't follow directions...{WAIT} Still, very well..."
+        "translation": "I suppose I have no choice. You naughty man, not doing as you're told...{WAIT} Still, very well..."
       }
     },
     "dialogue_0205": {
@@ -1320,7 +1320,7 @@
     "dialogue_0217": {
       "text": {
         "reference": "いいからおとなしく言うとおりにして！{WAIT}{n}心配しなくてもいいのよ…{WAIT}{n}そう{BEAT}それでいいわ",
-        "translation": "Be quiet and do as I say!{WAIT} There's nothing to worry about...{WAIT} Yes...{BEAT} That's right."
+        "translation": "Be good and do as I say!{WAIT} There's nothing to worry about...{WAIT} Yes...{BEAT} That's right."
       }
     },
     "dialogue_0218": {
@@ -1454,7 +1454,7 @@
     "dialogue_0239": {
       "text": {
         "reference": "普段どおりのあなたが見てみたい…{WAIT}{n}ねぇいいでしょ",
-        "translation": "I want to see the man you are in private...{WAIT} Won't you?"
+        "translation": "I want to see what you're like off duty...{WAIT} Won't you?"
       }
     },
     "dialogue_0240": {
@@ -1496,7 +1496,7 @@
     "dialogue_0246": {
       "text": {
         "reference": "そうします！{WAIT}{n}もう話しかけないで！！",
-        "translation": "Fine!{WAIT} Never speak to me again!"
+        "translation": "Fine, I will!{WAIT} Never speak to me again!"
       }
     },
     "dialogue_0247": {
@@ -1634,7 +1634,7 @@
     "dialogue_0266": {
       "text": {
         "reference": "じゃあ試してみてもいいわね{WAIT}{n}私が相手をしてあげる！！",
-        "translation": "Then let's put it to the test.{WAIT} I'll be your opponent!"
+        "translation": "Then let's put it to the test.{WAIT} I'll take you on myself!"
       }
     },
     "dialogue_0267": {
@@ -1722,7 +1722,7 @@
     "dialogue_0280": {
       "text": {
         "reference": "そう言われると私弱いのよね…{WAIT}{n}でもすぐに従うって訳じゃないのよ",
-        "translation": "I'm weak to words like those...{WAIT} But that doesn't mean I'll obey you at once."
+        "translation": "I have a weakness for words like that...{WAIT} But that doesn't mean I'll obey you at once."
       }
     },
     "dialogue_0281": {
@@ -1903,14 +1903,14 @@
     "dialogue_0309": {
       "text": {
         "reference": "たまにはやられてみない？",
-        "translation": "Why not see how it feels to be on the receiving end?",
+        "translation": "How about being on the receiving end for once?",
         "note": "Completes message 345's conditional challenge: this is her proposed test of the player's claim that he is not cruel."
       }
     },
     "dialogue_0310": {
       "text": {
         "reference": "あら！？{BEAT}{n}そんなにひどい人じゃないみたいね{n}今の一言で分かったわ",
-        "translation": "Oh!?{BEAT} Perhaps you aren't so cruel after all. That answer told me everything."
+        "translation": "Oh?!{BEAT} Perhaps you aren't so cruel after all. That answer told me everything."
       }
     },
     "dialogue_0311": {
@@ -1922,7 +1922,7 @@
     "dialogue_0312": {
       "text": {
         "reference": "これでカンベンしてあげる！",
-        "translation": "We'll call that enough!"
+        "translation": "I'll let you off with that!"
       }
     },
     "dialogue_0313": {
@@ -1964,7 +1964,7 @@
     "dialogue_0319": {
       "text": {
         "reference": "いいかげんにしなさい！{WAIT}{n}そういうところがいけないのよ！！{WAIT}{n}私が直してあげるわ！！",
-        "translation": "Enough!{WAIT} This is precisely what's wrong with you!{WAIT} I'll fix it myself!"
+        "translation": "Enough!{WAIT} This is exactly what's wrong with you!{WAIT} I'll straighten you out myself!"
       }
     },
     "dialogue_0320": {
@@ -2000,7 +2000,7 @@
     "dialogue_0325": {
       "text": {
         "reference": "やめてよね！{n}そうやってごまかすのは{WAIT}{n}絶対にイヤよ！！",
-        "translation": "Stop that! I absolutely refuse to let you evade the question!{WAIT}"
+        "translation": "Stop that! Dodging the question like that...{WAIT} I won't have it!"
       }
     },
     "dialogue_0326": {
@@ -2176,7 +2176,7 @@
     "dialogue_0353": {
       "text": {
         "reference": "そう…{BEAT}{n}あなたの気持ちよ～{BEAT}く分かりました！{WAIT}{n}じゃあね！ほんとひとの気も知らないで",
-        "translation": "I see...{BEAT} I understand your feelings perfectly...{BEAT}{WAIT} Goodbye! Honestly, you never consider anyone else's feelings."
+        "translation": "I see...{BEAT} I understand your feelings perfectly...{BEAT}{WAIT} Goodbye! Honestly, you have no idea how I feel."
       }
     },
     "dialogue_0354": {
@@ -2202,7 +2202,7 @@
     "dialogue_0357": {
       "text": {
         "reference": "ウソでもいいから{n}もっとマシなこと言ってよ！{WAIT}{n}私のことちっとも分かってないっ！",
-        "translation": "I don't care if it's a lie—say something better!{WAIT} You don't understand me at all!"
+        "translation": "I don't care if it's a lie--say something better!{WAIT} You don't understand me at all!"
       }
     },
     "dialogue_0358": {
@@ -2226,7 +2226,7 @@
     "dialogue_0361": {
       "text": {
         "reference": "言ってもどうせくれないんでしょ{WAIT}{n}それじゃあねぇ…",
-        "translation": "Even if I tell you, you won't give it to me.{WAIT} So goodbye..."
+        "translation": "Even if I ask, you won't give it to me anyway.{WAIT} Well, then..."
       }
     },
     "dialogue_0362": {
@@ -2253,7 +2253,7 @@
     "dialogue_0365": {
       "text": {
         "reference": "仲魔にも注意するのよ！{WAIT}{n}いい？{BEAT}これは忠告よ！！",
-        "translation": "Watch your allies, too!{WAIT} Understand?{BEAT} This is a warning!"
+        "translation": "Watch your allies, too!{WAIT} Understand?{BEAT} That's my advice to you!"
       }
     },
     "dialogue_0366": {
@@ -2265,7 +2265,7 @@
     "dialogue_0367": {
       "text": {
         "reference": "なによその言い方！{n}ひとがせっかく忠告してるっていうのに",
-        "translation": "What a way to respond! I went to the trouble of warning you."
+        "translation": "What a way to respond! Here I am, trying to give you advice."
       }
     },
     "dialogue_0368": {
@@ -2349,7 +2349,7 @@
     "dialogue_0381": {
       "text": {
         "reference": "あなたってほんと調子いいんだから…",
-        "translation": "You truly do say whatever suits you..."
+        "translation": "You're such a smooth talker..."
       }
     },
     "dialogue_0382": {
@@ -2391,7 +2391,7 @@
     "dialogue_0388": {
       "text": {
         "reference": "なによそれ！{BEAT}{n}その言い方！！{WAIT}{n}開き直らないでよね{BEAT}まったく！！",
-        "translation": "What was that!?{BEAT} That tone!{WAIT} Don't get defiant with me...{BEAT} Honestly!"
+        "translation": "What was that?!{BEAT} That tone!{WAIT} Don't get defiant with me...{BEAT} Honestly!"
       }
     },
     "dialogue_0389": {
@@ -2612,7 +2612,7 @@
     "dialogue_0424": {
       "text": {
         "reference": "なんだ…持ってないじゃない{n}仕方ないわね…{n}じゃあねぇ…",
-        "translation": "Oh... You don't have it. Then it can't be helped... Goodbye..."
+        "translation": "Oh... You don't have it. I suppose it can't be helped... Well, then..."
       }
     },
     "dialogue_0425": {
@@ -2719,7 +2719,7 @@
     "dialogue_0440": {
       "text": {
         "reference": "フフフおバカさんね{n}こうなる運命だったのにね…",
-        "translation": "Hee hee... What a fool. This was always our fate..."
+        "translation": "Hee hee... You silly thing. It was always going to end this way..."
       }
     },
     "dialogue_0441": {
@@ -2749,7 +2749,7 @@
     "dialogue_0445": {
       "text": {
         "reference": "渡す",
-        "translation": "Hand it over."
+        "translation": "Give it."
       }
     },
     "dialogue_0446": {
@@ -2788,7 +2788,7 @@
     "dialogue_0451": {
       "text": {
         "reference": "仲魔にいれて{BEAT}ねっ{OP:8026}♡{OP:8020}",
-        "translation": "Let me join y{BEAT}ou. {OP:8026}{heart_symbol}{OP:8020}"
+        "translation": "Let me join you.{BEAT} Please? {OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0452": {
@@ -2872,7 +2872,7 @@
     "dialogue_0465": {
       "text": {
         "reference": "あなたってどんなときでも人がいいのね{WAIT}{n}でも知ってる？{BEAT}{n}それが不幸をまねくときもあるのよ！",
-        "translation": "You're kind at the strangest times.{WAIT} But did you know?{BEAT} Kindness can sometimes invite misfortune!"
+        "translation": "You're always so kind, no matter what.{WAIT} But did you know?{BEAT} Kindness can sometimes invite misfortune!"
       }
     },
     "dialogue_0466": {
@@ -2965,19 +2965,19 @@
     "dialogue_0479": {
       "text": {
         "reference": "フフフ…分からないの…{WAIT}{n}でも{BEAT}すぐに分かるわよ{n}だってあなたが死ぬのは今すぐだもの",
-        "translation": "Hee hee... I don't know...{WAIT} But...{BEAT} you'll know soon. Because you're going to die right now."
+        "translation": "Hee hee... Don't you know...?{WAIT} But...{BEAT} you'll know soon. Because you're going to die right now."
       }
     },
     "dialogue_0480": {
       "text": {
         "reference": "フフフ…分からないの…{WAIT}{n}あなたが死ぬのよここでね！",
-        "translation": "Hee hee... I don't know...{WAIT} You're the one who will die, right here!"
+        "translation": "Hee hee... Don't you know...?{WAIT} You're the one who'll die, right here!"
       }
     },
     "dialogue_0481": {
       "text": {
         "reference": "フフフ…分からないの…{WAIT}{n}それはね…{BEAT}{n}あなたの死よ！！",
-        "translation": "Hee hee... I don't know...{WAIT} It will be...{BEAT} your death!"
+        "translation": "Hee hee... Don't you know...?{WAIT} It will be...{BEAT} your death!"
       }
     },
     "dialogue_0482": {
@@ -2995,7 +2995,7 @@
     "dialogue_0484": {
       "text": {
         "reference": "どこがだ",
-        "translation": "What part of this is wonderful?"
+        "translation": "What's so wonderful?"
       }
     },
     "dialogue_0485": {
@@ -3076,13 +3076,13 @@
     "dialogue_0496": {
       "text": {
         "reference": "なによ！そんな言い方じゃイヤ！！{BEAT}{n}ゲンメツしたわ！！{n}死神とでもデートすれば！！",
-        "translation": "What!? Not if you ask like that!{BEAT} I'm thoroughly disillusioned! Go date the Grim Reaper!"
+        "translation": "What?! Not if you ask like that!{BEAT} I'm thoroughly disillusioned! Go date the Grim Reaper!"
       }
     },
     "dialogue_0497": {
       "text": {
         "reference": "なによ！その言い方！！{BEAT}{n}エラそうに…{n}地獄におちなさい！あなたなんかキライ！",
-        "translation": "What's with that tone!?{BEAT} So arrogant... Go to hell! I hate you!"
+        "translation": "What's with that tone?!{BEAT} So arrogant... Go to hell! I hate you!"
       }
     },
     "dialogue_0498": {
@@ -3106,7 +3106,7 @@
     "dialogue_0500": {
       "text": {
         "reference": "なによ！ヒドイ…{BEAT}{n}私が悪魔なのがいけないの？{WAIT}{n}信じられない{BEAT}殺してやる！！",
-        "translation": "What!? How cruel...{BEAT} Is being a demon such a crime?{WAIT} I can't believe this...{BEAT} I'll kill you!"
+        "translation": "What?! How cruel...{BEAT} Is being a demon such a crime?{WAIT} I can't believe this...{BEAT} I'll kill you!"
       }
     },
     "dialogue_0501": {
@@ -3118,7 +3118,7 @@
     "dialogue_0502": {
       "text": {
         "reference": "いつもと変わらない",
-        "translation": "You look the same as always."
+        "translation": "Same as always."
       }
     },
     "dialogue_0503": {

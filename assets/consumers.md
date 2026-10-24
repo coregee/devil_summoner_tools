@@ -608,11 +608,14 @@ renderer has three rows, 300px wide. It's a separate
 `battle.negotiation_dialogue` entry even though its size matches the event
 window.
 
-Four-way replies use a two-by-two FONT16 grid, with each column 150px wide.
-The longest clean line visible in the older English build,
-`Because it will be convenie`, is exactly 142px with the generated FONT16
-widths. The tools treat 142px as a soft limit: wider options can still be
-saved, but get a layout warning.
+Three- and four-way replies use a two-by-two FONT16 grid, with each column
+150px wide; text past 150px is clipped. The build reads which messages are
+choices from each bank's script and fails on any choice over 150px. The editor
+also warns past 142px, the longest clean line visible in the older English
+build (`Because it will be convenie`).
+
+Two-way replies can be longer: some Japanese options are 15 cells (240px), so
+the build allows 240px for them. Their real layout hasn't been measured.
 
 Demons can request items, which are highlighted in blue text.
 

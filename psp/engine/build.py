@@ -445,9 +445,9 @@ def _battle_console_body_offset() -> int:
         or battle_console.get("translated") != 313
         or battle_console.get("preserved_empty") != 45
         or battle_console.get("body_offset") != 0x400
-        or battle_console.get("body_size") != 3_136
+        or battle_console.get("body_size") != 3_143
         or battle_console.get("body_capacity") != 4_058
-        or battle_console.get("free_bytes") != 922
+        or battle_console.get("free_bytes") != 915
     ):
         raise ValueError("PSP text manifest has no valid battle-console contract")
     return 0x400

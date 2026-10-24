@@ -226,7 +226,8 @@ def build_dungeon_location_font16(
     source_member = source_pack.members[member_index].data
     input_member = input_pack.members[member_index].data
     asset_path = (CONFIG_PATH.parent / str(asset["path"])).resolve()
-    if _sha(asset_path.read_bytes()) != asset["sha256"]:
+    # Normalize line endings so the pin holds on any checkout.
+    if _sha(asset_path.read_bytes().replace(b"\r\n", b"\n")) != asset["sha256"]:
         raise ValueError("PSP dungeon-location authored asset changed")
     if (
         _sha(dependency.data) != output_plan["input_sha256"]

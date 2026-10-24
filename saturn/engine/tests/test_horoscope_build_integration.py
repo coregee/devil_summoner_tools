@@ -21,7 +21,7 @@ from engine.build import (  # noqa: E402
 
 BUILD_CONFIG_PATH = SATURN_ROOT / "build_config.json"
 EXTRACTED_ROOT = (SATURN_ROOT / "rom" / "extracted").resolve()
-OUTPUT_HASH = "b51a5611e1095387c92baec2a5f8a8965eb47794cab0b774add3eb310f04b041"
+OUTPUT_HASH = "78caf077a45d9a0a5183a00516db7d85540bcbf0c9659297f0a3dd80d6313c0e"
 STOCK_HASH = "676303bc0382e64429eea5bb5df3a274e83d61fe4ad39490fa4876265910ff72"
 
 
@@ -60,10 +60,10 @@ class HoroscopeBuildIntegrationTests(unittest.TestCase):
         self.assertEqual(
             self.manifest["runtime"],
             {
-                "bytes": 668,
+                "bytes": 634,
                 "capacity": 1024,
                 "arenas": [
-                    {"address": "0x06020400", "bytes": 668, "capacity": 1024}
+                    {"address": "0x06020400", "bytes": 634, "capacity": 1024}
                 ],
             },
         )

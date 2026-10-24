@@ -86,15 +86,15 @@ class BtlMesTextTests(unittest.TestCase):
         self.assertEqual(result.changed_member_indices, (18,))
         self.assertEqual(result.translated_record_count, 313)
         self.assertEqual(result.preserved_record_count, 45)
-        self.assertEqual(result.body_size, 3_136)
-        self.assertEqual(result.free_bytes, 922)
+        self.assertEqual(result.body_size, 3_143)
+        self.assertEqual(result.free_bytes, 915)
         self.assertEqual(
             result.output_member_sha256,
-            "6d9cf516bbf0971b96bbf4b9ed54562f6108e27edcac1deffdb09fbee499630e",
+            "49a6980444312629f03591ca8bfe4d03c42f790f6d4e415f566e685521432b1e",
         )
         self.assertEqual(
             result.output_sha256,
-            "fb4a7f6aacca3243625c54b22bd1b520c38589afb19598d2974a0f5e8db0022c",
+            "27b0a9a430f32fb6cd544b31a08dcdb51b5eb8431de56147d818eed870bbe005",
         )
 
 

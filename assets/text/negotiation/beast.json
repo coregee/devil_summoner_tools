@@ -65,7 +65,7 @@
     "dialogue_0010": {
       "text": {
         "reference": "そうかな",
-        "translation": "I guess so"
+        "translation": "You think so?"
       }
     },
     "dialogue_0011": {
@@ -95,7 +95,7 @@
     "dialogue_0015": {
       "text": {
         "reference": "関係ないだろう",
-        "translation": "It doesn't matter"
+        "translation": "None of your business"
       }
     },
     "dialogue_0016": {
@@ -377,7 +377,7 @@
     "dialogue_0062": {
       "text": {
         "reference": "こちらこそたのむ",
-        "translation": "Likewise. I'm counting on you"
+        "translation": "I'm counting on you, too."
       }
     },
     "dialogue_0063": {
@@ -876,7 +876,7 @@
     "dialogue_0145": {
       "text": {
         "reference": "ソウ思イタケレバ思ウガイイ！！",
-        "translation": "IF YOU WANT TO THINK THAT WAY, FEEL FREE TO DO SO!!"
+        "translation": "THINK SO IF YOU WISH!!"
       }
     },
     "dialogue_0146": {
@@ -1016,7 +1016,7 @@
     "dialogue_0168": {
       "text": {
         "reference": "イヤ…ソウカナ？{BEAT}{n}ワレラト深イツナガリガ{n}アルノデハナイカナ？",
-        "translation": "NO... OR IS THERE?{BEAT} PERHAPS SOME DEEP BOND CONNECTS US..."
+        "translation": "NO... IS THAT SO?{BEAT} ARE YOU NOT DEEPLY BOUND TO OUR KIND?"
       }
     },
     "dialogue_0169": {
@@ -1136,7 +1136,7 @@
     "dialogue_0188": {
       "text": {
         "reference": "強ガッテ死ンデユク…{BEAT}{n}ソンナニンゲンヲ何人見タカ…",
-        "translation": "HOW MANY HUMANS HAVE I SEEN ACT STRONG AND DIE...?{BEAT}"
+        "translation": "PUTTING ON A BRAVE FACE, THEN DYING...{BEAT} HOW MANY SUCH HUMANS HAVE I SEEN..."
       }
     },
     "dialogue_0189": {
@@ -1184,7 +1184,7 @@
     "dialogue_0196": {
       "text": {
         "reference": "ソウカ…{n}結局理解スルコトハデキナカッタナ…",
-        "translation": "I SEE... I COULDN'T UNDERSTAND IT AFTER ALL..."
+        "translation": "I SEE... IN THE END, YOU COULD NOT UNDERSTAND..."
       }
     },
     "dialogue_0197": {
@@ -1196,7 +1196,7 @@
     "dialogue_0198": {
       "text": {
         "reference": "「混乱」ヲ好ムノカ？",
-        "translation": "DO YOU LIKE \"CHAOS\"?"
+        "translation": "DO YOU ENJOY \"DISORDER\"?"
       }
     },
     "dialogue_0199": {
@@ -1419,20 +1419,20 @@
     "dialogue_0235": {
       "text": {
         "reference": "ワレニワビテモダメダ…{BEAT}{n}ソンナ言葉ナンニナル！",
-        "translation": "APOLOGIZING TO ME IS USELESS...{BEAT} WHAT GOOD ARE SUCH WORDS!?"
+        "translation": "APOLOGIZING TO ME IS USELESS...{BEAT} WHAT GOOD ARE SUCH WORDS?!"
       }
     },
     "dialogue_0236": {
       "text": {
         "reference": "必要ナイカ…{BEAT}{n}イサマシイナ…{WAIT}{n}ダガナ…",
-        "translation": "YOU NEED NO HELP?{BEAT} BRAVE WORDS...{WAIT} HOWEVER...",
+        "translation": "YOU NEED NO PERMISSION?{BEAT} BOLD WORDS...{WAIT} HOWEVER...",
         "note": "Fragment context: message 264 ends with \"However...\" and the following response branch supplies the consequence."
       }
     },
     "dialogue_0237": {
       "text": {
         "reference": "ニンゲンヨ…{n}確カニ必要ハナイ…{WAIT}{n}ダガ我ガモノ顔デ歩クノハ許サン！",
-        "translation": "HUMAN... YOU CERTAINLY NEED NO HELP.{WAIT} BUT I WILL NOT LET YOU STRUT ABOUT AS THOUGH YOU OWN THIS PLACE!"
+        "translation": "HUMAN... TRUE, YOU NEED NONE.{WAIT} BUT I WILL NOT LET YOU STRUT ABOUT AS IF YOU OWN THIS PLACE!"
       }
     },
     "dialogue_0238": {
@@ -1444,7 +1444,7 @@
     "dialogue_0239": {
       "text": {
         "reference": "友人ニ話シテイルノデハナインダゾ…{n}少シハ気ヲツケタラドウダ！",
-        "translation": "I AM NOT SPEAKING TO A FRIEND. MIND YOUR MANNERS!"
+        "translation": "YOU ARE NOT TALKING TO SOME FRIEND. MIND YOUR MANNERS!"
       }
     },
     "dialogue_0240": {
@@ -1627,13 +1627,13 @@
     "dialogue_0269": {
       "text": {
         "reference": "ニンゲンヨ…{n}オヌシノタメニ働イテイル",
-        "translation": "HUMAN... THEY LABOR FOR YOUR SAKE."
+        "translation": "HUMAN... THOSE WHO LABOR FOR YOUR SAKE..."
       }
     },
     "dialogue_0270": {
       "text": {
         "reference": "ナカマヲ大切ニシテイルカ？",
-        "translation": "DO YOU VALUE YOUR FRIENDS?"
+        "translation": "DO YOU CHERISH YOUR COMPANIONS?"
       }
     },
     "dialogue_0271": {
@@ -1694,7 +1694,7 @@
     "dialogue_0280": {
       "text": {
         "reference": "「気」ノナカニ生命ヲ感ジタコトガ",
-        "translation": "FELT LIFE WITHIN YOUR \"KI.\"",
+        "translation": "FELT LIFE WITHIN THE \"KI\"?",
         "note": "Fragment context: message 308 completes message 307 (dialogue_0279): \"Surely you too have felt life within ki.\""
       }
     },
@@ -1931,7 +1931,7 @@
     "dialogue_0319": {
       "text": {
         "reference": "ソンナコトデイイト{n}思ッテイルノカ！",
-        "translation": "YOU THINK THAT IS ACCEPTABLE!?"
+        "translation": "YOU THINK THAT IS ACCEPTABLE?!"
       }
     },
     "dialogue_0320": {
@@ -1973,7 +1973,7 @@
     "dialogue_0326": {
       "text": {
         "reference": "ハッ！{BEAT}コレガソウナノカ…{n}コレハ「敵意」ダ…",
-        "translation": "HAH!{BEAT} SO THIS IS WHAT YOU CALL IT... THIS IS \"HOSTILITY\"..."
+        "translation": "HAH!{BEAT} THIS IS YOUR SINCERITY...? THIS IS \"HOSTILITY\"..."
       }
     },
     "dialogue_0327": {
@@ -2063,7 +2063,7 @@
     "dialogue_0340": {
       "text": {
         "reference": "ナンデモ言ウガイイ！",
-        "translation": "SAY WHAT YOU WILL!"
+        "translation": "ASK FOR ANYTHING!"
       }
     },
     "dialogue_0341": {
@@ -2150,7 +2150,7 @@
     "dialogue_0353": {
       "text": {
         "reference": "ソンナ態度ヲトルノカ！？{WAIT}{n}ハハハハハ…{BEAT}{n}コレハ愉快…",
-        "translation": "YOU TAKE SUCH AN ATTITUDE!?{WAIT} HAHAHAHA...{BEAT} WHAT AN AMUSING SIGHT..."
+        "translation": "YOU TAKE SUCH AN ATTITUDE?!{WAIT} HAHAHAHA...{BEAT} WHAT AN AMUSING SIGHT..."
       }
     },
     "dialogue_0354": {
@@ -2198,7 +2198,7 @@
     "dialogue_0361": {
       "text": {
         "reference": "何カ言ッタラドウダ！{WAIT}{n}フッ…{BEAT}{n}ナニモ分カッテイナイノダ…{BEAT}ナ",
-        "translation": "WHY DO YOU NOT SPEAK!?{WAIT} HMPH...{BEAT} YOU UNDERSTAND NOTHING...{BEAT}"
+        "translation": "WHY DO YOU NOT SPEAK?!{WAIT} HMPH...{BEAT} YOU UNDERSTAND NOTHING...{BEAT}"
       }
     },
     "dialogue_0362": {
@@ -2249,7 +2249,7 @@
     "dialogue_0369": {
       "text": {
         "reference": "ナンダソレハ！{n}セッカクノ忠告ヲ…{BEAT}{n}フッバカモノガ！！",
-        "translation": "WHAT IS THAT!? AFTER I WENT TO THE TROUBLE OF ADVISING YOU...{BEAT} HMPH, FOOL!!"
+        "translation": "WHAT IS THAT?! AFTER I WENT TO THE TROUBLE OF ADVISING YOU...{BEAT} HMPH, FOOL!!"
       }
     },
     "dialogue_0370": {
@@ -2376,7 +2376,7 @@
     "dialogue_0390": {
       "text": {
         "reference": "ナンダソレハ！{BEAT}{n}相手ニナランワ！！",
-        "translation": "WHAT IS THAT!?{BEAT} YOU ARE NOT WORTHY TO FACE ME!!"
+        "translation": "WHAT IS THAT?!{BEAT} YOU ARE NOT WORTHY TO FACE ME!!"
       }
     },
     "dialogue_0391": {
@@ -2424,7 +2424,7 @@
     "dialogue_0398": {
       "text": {
         "reference": "クッ…{WAIT}{n}タシカニデキナイナ{BEAT}{BEAT}{n}サラバニンゲンヨ！！",
-        "translation": "HMPH...{WAIT} INDEED, YOU CANNOT.{BEAT}{BEAT} FAREWELL, HUMAN!!"
+        "translation": "NGH...{WAIT} TRUE, I CANNOT.{BEAT}{BEAT} FAREWELL, HUMAN!!"
       }
     },
     "dialogue_0399": {
@@ -2466,7 +2466,7 @@
     "dialogue_0405": {
       "text": {
         "reference": "ソレデイイノダ{BEAT}ソレデ！{n}今度会ウトキハモット考エテ話スノダ",
-        "translation": "VERY WELL.{BEAT} THAT IS ALL! NEXT TIME WE MEET, CHOOSE YOUR WORDS MORE CAREFULLY."
+        "translation": "GOOD.{BEAT} THAT IS HOW IT SHOULD BE! NEXT TIME WE MEET, CHOOSE YOUR WORDS MORE CAREFULLY."
       }
     },
     "dialogue_0406": {
@@ -2478,7 +2478,7 @@
     "dialogue_0407": {
       "text": {
         "reference": "ナニ！？{WAIT}{n}セッカク許シテヤロウト思ッタノダガ",
-        "translation": "WHAT!?{WAIT} I WAS JUST ABOUT TO SPARE YOU, BUT..."
+        "translation": "WHAT?!{WAIT} I WAS JUST ABOUT TO SPARE YOU, BUT..."
       }
     },
     "dialogue_0408": {
@@ -2502,7 +2502,7 @@
     "dialogue_0411": {
       "text": {
         "reference": "今ナント言ッタノダ！？{BEAT}{n}ヨクゾソウ言ッタ！！{WAIT}{n}見直シタゾ",
-        "translation": "WHAT DID YOU JUST SAY!?{BEAT} WELL SAID!!{WAIT} YOU HAVE EARNED MY RESPECT."
+        "translation": "WHAT DID YOU JUST SAY?!{BEAT} WELL SAID!!{WAIT} YOU HAVE EARNED MY RESPECT."
       }
     },
     "dialogue_0412": {
@@ -2721,7 +2721,7 @@
     "dialogue_0446": {
       "text": {
         "reference": "渡す",
-        "translation": "Hand it over."
+        "translation": "Give it."
       }
     },
     "dialogue_0447": {
@@ -2850,7 +2850,7 @@
     "dialogue_0467": {
       "text": {
         "reference": "ナッ{BEAT}ナニヲ言ウカ！！{WAIT}{n}待テ！{BEAT}考エ直シテクレ…{WAIT}{n}イイノカ…{BEAT}ソウカ…",
-        "translation": "WHA{BEAT} WHAT ARE YOU TALKING ABOUT!?{WAIT} WAIT!{BEAT} THINK AGAIN...{WAIT} ARE YOU SURE...?{BEAT} I SEE..."
+        "translation": "WHA{BEAT} WHAT ARE YOU TALKING ABOUT?!{WAIT} WAIT!{BEAT} THINK AGAIN...{WAIT} ARE YOU SURE...?{BEAT} I SEE..."
       }
     },
     "dialogue_0468": {
@@ -2932,14 +2932,14 @@
     "dialogue_0480": {
       "text": {
         "reference": "ナニ！？{BEAT}関心ガアルト言ウノカ…{WAIT}{n}ソレナラ一緒ニユコウ！！",
-        "translation": "WHAT!?{BEAT} YOU SAY YOU ARE INTERESTED...?{WAIT} THEN LET US GO TOGETHER!!",
+        "translation": "WHAT?!{BEAT} YOU SAY YOU ARE INTERESTED...?{WAIT} THEN LET US GO TOGETHER!!",
         "note": "Fragment context: message 506 page 0 joins page 1 (dialogue_0344)."
       }
     },
     "dialogue_0481": {
       "text": {
         "reference": "マダ分カラナイノカ！{WAIT}{n}ココデ起コルノダ…{n}オヌシノ死ハ！！",
-        "translation": "DO YOU STILL NOT UNDERSTAND!?{WAIT} IT WILL HAPPEN HERE... YOUR DEATH!!"
+        "translation": "DO YOU STILL NOT UNDERSTAND?!{WAIT} IT WILL HAPPEN HERE... YOUR DEATH!!"
       }
     },
     "dialogue_0482": {
@@ -2964,7 +2964,7 @@
     "dialogue_0485": {
       "text": {
         "reference": "がまんしろ",
-        "translation": "Be patient"
+        "translation": "Hold it in"
       }
     },
     "dialogue_0486": {
@@ -2976,7 +2976,7 @@
     "dialogue_0487": {
       "text": {
         "reference": "やってみろ",
-        "translation": "Try it"
+        "translation": "Go ahead"
       }
     },
     "dialogue_0488": {
@@ -3105,7 +3105,7 @@
     "dialogue_0506": {
       "text": {
         "reference": "「そうかな」カ…{WAIT}{n}フッ…{BEAT}イイダロウ{BEAT}{n}オヌシヲ我ガ手デ鍛エテヤル{BEAT}ユクゾ！",
-        "translation": "\"YOU SUPPOSE\"...?{WAIT} HMPH...{BEAT} VERY WELL.{BEAT} I WILL TRAIN YOU MYSELF.{BEAT} HERE I COME!",
+        "translation": "\"YOU THINK SO\"...?{WAIT} HMPH...{BEAT} VERY WELL.{BEAT} I WILL TRAIN YOU MYSELF.{BEAT} HERE I COME!",
         "note": "Fragment context: message 537 page 0 joins page 1 (dialogue_0507)."
       }
     },
@@ -3129,27 +3129,27 @@
     "dialogue_0509": {
       "text": {
         "reference": "ナンダ…{BEAT}分カラナイノカ！！{WAIT}{n}フッ…{BEAT}イイダロウ{BEAT}{n}オヌシヲ我ガ手デ鍛エテヤル{BEAT}ユクゾ！",
-        "translation": "WHAT...{BEAT} YOU DO NOT UNDERSTAND!?{WAIT} HMPH...{BEAT} VERY WELL.{BEAT} I WILL TRAIN YOU MYSELF.{BEAT} HERE I COME!",
+        "translation": "WHAT...{BEAT} YOU DO NOT UNDERSTAND?!{WAIT} HMPH...{BEAT} VERY WELL.{BEAT} I WILL TRAIN YOU MYSELF.{BEAT} HERE I COME!",
         "note": "Fragment context: message 539 page 0 joins page 1 (dialogue_0507)."
       }
     },
     "dialogue_0510": {
       "text": {
         "reference": "ナンダ…{BEAT}分カラナイノカ！！{WAIT}{n}情ケナイ奴ダナ…{BEAT}{n}分カラナイノナラココデ死ヌガイイ！！",
-        "translation": "WHAT...{BEAT} YOU DO NOT UNDERSTAND!?{WAIT} HOW PATHETIC...{BEAT} IF YOU CANNOT UNDERSTAND, DIE HERE!!"
+        "translation": "WHAT...{BEAT} YOU DO NOT UNDERSTAND?!{WAIT} HOW PATHETIC...{BEAT} IF YOU CANNOT UNDERSTAND, DIE HERE!!"
       }
     },
     "dialogue_0511": {
       "text": {
         "reference": "ナンダ…{BEAT}ソレハ！！{WAIT}{n}情ケナイ奴ダナ…{BEAT}{n}ヨカロウ教エテヤル{BEAT}ツイテ来イ！！",
-        "translation": "WHAT...{BEAT} IS THAT YOUR ANSWER!?{WAIT} HOW PATHETIC...{BEAT} VERY WELL, I WILL TEACH YOU.{BEAT} FOLLOW ME!!",
+        "translation": "WHAT...{BEAT} IS THAT YOUR ANSWER?!{WAIT} HOW PATHETIC...{BEAT} VERY WELL, I WILL TEACH YOU.{BEAT} FOLLOW ME!!",
         "note": "Fragment context: message 541 page 0 joins page 1 (dialogue_0507)."
       }
     },
     "dialogue_0512": {
       "text": {
         "reference": "ナンダ…{BEAT}ソレハ！！{WAIT}{n}情ケナイ奴ダナ…{BEAT}{n}オヌシニ何ヲイッテモ無駄ダ{BEAT}ココデ死ネ",
-        "translation": "WHAT...{BEAT} IS THAT YOUR ANSWER!?{WAIT} HOW PATHETIC...{BEAT} WORDS ARE WASTED ON YOU.{BEAT} DIE HERE!"
+        "translation": "WHAT...{BEAT} IS THAT YOUR ANSWER?!{WAIT} HOW PATHETIC...{BEAT} WORDS ARE WASTED ON YOU.{BEAT} DIE HERE!"
       }
     },
     "dialogue_0513": {
@@ -3161,7 +3161,7 @@
     "dialogue_0514": {
       "text": {
         "reference": "我ガ力ヲ望ンデイルノカ…",
-        "translation": "DO YOU WANT MY POWER..."
+        "translation": "DO YOU WANT MY POWER...?"
       }
     },
     "dialogue_0515": {
@@ -3240,7 +3240,7 @@
     "dialogue_0526": {
       "text": {
         "reference": "フッ…{BEAT}仕方ナイ…{WAIT}{n}早ク行ケ！！サアドウシタ！！",
-        "translation": "HMPH...{BEAT} IT CANNOT BE HELPED...{WAIT} HURRY AND GO!! WHAT ARE YOU WAITING FOR!?"
+        "translation": "HMPH...{BEAT} IT CANNOT BE HELPED...{WAIT} HURRY AND GO!! WHAT ARE YOU WAITING FOR?!"
       }
     },
     "dialogue_0527": {
@@ -3336,7 +3336,7 @@
     "dialogue_0541": {
       "text": {
         "reference": "何ヲシテイル！{BEAT}{n}気付イテイナイ…ノカ…",
-        "translation": "WHAT ARE YOU DOING!?{BEAT} YOU STILL HAVE NOT NOTICED ME..."
+        "translation": "WHAT ARE YOU DOING?!{BEAT} YOU STILL HAVE NOT NOTICED ME..."
       }
     },
     "dialogue_0542": {
@@ -3363,13 +3363,13 @@
       },
       "text": {
         "reference": "悪イガコレデ失礼スルトシヨウ…{WAIT}{n}{offered_item}ヲ持ッテイクガイイ…",
-        "translation": "SORRY, I WILL TAKE MY LEAVE...{WAIT} TAKE {offered_item} WITH YOU..."
+        "translation": "FORGIVE ME, BUT I MUST TAKE MY LEAVE...{WAIT} TAKE {offered_item} WITH YOU..."
       }
     },
     "dialogue_0546": {
       "text": {
         "reference": "悪イガコレデ失礼スルトシヨウ…{WAIT}{n}サラバ…ダ…",
-        "translation": "SORRY, I WILL TAKE MY LEAVE...{WAIT} FAREWELL..."
+        "translation": "FORGIVE ME, BUT I MUST TAKE MY LEAVE...{WAIT} FAREWELL..."
       }
     },
     "dialogue_0547": {
@@ -3429,7 +3429,7 @@
     "condition_full_moon": {
       "text": {
         "reference": "イイ 月夜ダ… ウオオオオオ…！！！",
-        "translation": "A FINE MOONLIT NIGHT... AWOOOO...!!!",
+        "translation": "A FINE MOONLIT NIGHT... AROOOO...!!!",
         "reviewed": true
       }
     }

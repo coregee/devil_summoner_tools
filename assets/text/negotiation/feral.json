@@ -149,7 +149,7 @@
     "dialogue_0023": {
       "text": {
         "reference": "人違いだ",
-        "translation": "You have wrong human."
+        "translation": "Wrong person."
       }
     },
     "dialogue_0024": {
@@ -167,7 +167,7 @@
     "dialogue_0026": {
       "text": {
         "reference": "グオォォォ！！",
-        "translation": "GOOOOOO!!"
+        "translation": "GROOOOH!!"
       }
     },
     "dialogue_0027": {
@@ -285,7 +285,7 @@
     "dialogue_0045": {
       "text": {
         "reference": "したくない",
-        "translation": "I do not."
+        "translation": "I don't."
       }
     },
     "dialogue_0046": {
@@ -309,7 +309,7 @@
     "dialogue_0049": {
       "text": {
         "reference": "マアソウ言ウナ",
-        "translation": "WELL, DON'T SAY THAT."
+        "translation": "WELL, DO NOT SAY THAT."
       }
     },
     "dialogue_0050": {
@@ -519,7 +519,7 @@
     "dialogue_0083": {
       "text": {
         "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエタヨリナイ",
-        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU LOOK UNRELIABLE."
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU LOOK HELPLESS."
       }
     },
     "dialogue_0084": {
@@ -603,7 +603,7 @@
     "dialogue_0097": {
       "text": {
         "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}ナンダト！？",
-        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} WHAT!?"
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} WHAT?!"
       }
     },
     "dialogue_0098": {
@@ -898,7 +898,7 @@
     "dialogue_0145": {
       "text": {
         "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}アクマ殺シテマルカジリカ？",
-        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU KILL DEMONS AND DEVOUR THEM WHOLE?"
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU KILL DEMONS AND EAT THEM WHOLE?"
       }
     },
     "dialogue_0146": {
@@ -940,7 +940,7 @@
     "dialogue_0152": {
       "text": {
         "reference": "気にするな",
-        "translation": "Do not worry about it."
+        "translation": "Don't worry about it."
       }
     },
     "dialogue_0153": {
@@ -1006,13 +1006,13 @@
     "dialogue_0163": {
       "text": {
         "reference": "こわい",
-        "translation": "I am scared."
+        "translation": "I'm scared."
       }
     },
     "dialogue_0164": {
       "text": {
         "reference": "こわくない",
-        "translation": "I'm not scared"
+        "translation": "I'm not scared."
       }
     },
     "dialogue_0165": {
@@ -1063,7 +1063,7 @@
     "dialogue_0172": {
       "text": {
         "reference": "オマエワカッテナイ！",
-        "translation": "YOU DON'T UNDERSTAND!"
+        "translation": "YOU NOT UNDERSTAND!"
       }
     },
     "dialogue_0173": {
@@ -1165,7 +1165,7 @@
     "dialogue_0188": {
       "text": {
         "reference": "オマエ悪イヤツ！",
-        "translation": "YOU BAD GUY!"
+        "translation": "YOU BAD ONE!"
       }
     },
     "dialogue_0189": {
@@ -1204,7 +1204,7 @@
     "dialogue_0194": {
       "text": {
         "reference": "オマエ悪イコトシテル思ワナイノカ？",
-        "translation": "DON'T YOU THINK YOU'RE DOING SOMETHING WRONG?"
+        "translation": "YOU NOT THINK YOU DO BAD THING?"
       }
     },
     "dialogue_0195": {
@@ -1285,19 +1285,19 @@
     "dialogue_0207": {
       "text": {
         "reference": "便利になるから",
-        "translation": "Because it will be convenient"
+        "translation": "For convenience"
       }
     },
     "dialogue_0208": {
       "text": {
         "reference": "わからない",
-        "translation": "I don't understand"
+        "translation": "I don't know"
       }
     },
     "dialogue_0209": {
       "text": {
         "reference": "ニンゲン何カンガエテル！？{n}{WAIT}壊ス自分ノクビシメル",
-        "translation": "WHAT HUMANS THINKING!?{WAIT} DESTROYING IT ONLY TIGHTENS NOOSE AROUND OWN NECK.",
+        "translation": "WHAT HUMANS THINKING?!{WAIT} DESTROY IT, CHOKE OWN NECK.",
         "note": "Fragment context: message 188 page 0 continues through pages 1-2 (dialogue_0210-dialogue_0211), ending with the demon's offer to lend its strength."
       }
     },
@@ -1318,7 +1318,7 @@
     "dialogue_0212": {
       "text": {
         "reference": "ニンゲンアタマ悪イ！{n}{WAIT}壊ス自分ノクビシメル{n}ソレワカッテナイ！",
-        "translation": "HUMANS STUPID!{WAIT} DESTROYING IT TIGHTENS THEIR OWN NOOSE. THEY NOT UNDERSTAND!"
+        "translation": "HUMANS STUPID!{WAIT} DESTROY IT, CHOKE OWN NECK. THEY NOT UNDERSTAND!"
       }
     },
     "dialogue_0213": {
@@ -1336,13 +1336,13 @@
     "dialogue_0215": {
       "text": {
         "reference": "ニンゲンナニサマノツモリダ！",
-        "translation": "WHO HUMANS THINK THEY ARE!?"
+        "translation": "WHO HUMANS THINK THEY ARE?!"
       }
     },
     "dialogue_0216": {
       "text": {
         "reference": "オレサマイキルタメ{n}オマエ殺ス！！",
-        "translation": "I WILL KILL YOU SO THAT I CAN LIVE!!"
+        "translation": "I KILL YOU TO LIVE!!"
       }
     },
     "dialogue_0217": {
@@ -1540,13 +1540,13 @@
     "dialogue_0249": {
       "text": {
         "reference": "オマエ自分ウマレタコト{n}ドンナイミアルノカ{n}{WAIT}ワカルノカ・・・？",
-        "translation": "YOUR BIRTH HAS MEANING.{WAIT} YOU KNOW WHAT IT IS...?"
+        "translation": "WHAT MEANING YOUR BIRTH HAS...{WAIT} YOU KNOW...?"
       }
     },
     "dialogue_0250": {
       "text": {
         "reference": "オマエ好キナタベモノナンダ？",
-        "translation": "WHAT'S YOUR FAVORITE FOOD?"
+        "translation": "WHAT FOOD YOU LIKE?"
       }
     },
     "dialogue_0251": {
@@ -1582,7 +1582,7 @@
     "dialogue_0256": {
       "text": {
         "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエアレ好キカ！？",
-        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU LIKE THAT!?"
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU LIKE THAT?!"
       }
     },
     "dialogue_0257": {
@@ -1600,7 +1600,7 @@
     "dialogue_0259": {
       "text": {
         "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}トモグイカ！",
-        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} CANNIBALISM!?"
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} CANNIBALISM?!"
       }
     },
     "dialogue_0260": {
@@ -1738,7 +1738,7 @@
     "dialogue_0281": {
       "text": {
         "reference": "外さない",
-        "translation": "I will not"
+        "translation": "I won't"
       }
     },
     "dialogue_0282": {
@@ -1798,7 +1798,7 @@
     "dialogue_0291": {
       "text": {
         "reference": "どかない",
-        "translation": "I will not move"
+        "translation": "I won't move"
       }
     },
     "dialogue_0292": {
@@ -2088,7 +2088,7 @@
     "dialogue_0337": {
       "text": {
         "reference": "・・ヌ・・・・ヌウ{n}{WAIT}オレサマヒトゴトジャナイ",
-        "translation": "...NGH... NGH.{WAIT} THIS IS NOT SOMEONE ELSE'S PROBLEM."
+        "translation": "...NGH... NGH.{WAIT} THAT COULD BE ME."
       }
     },
     "dialogue_0338": {
@@ -2184,7 +2184,7 @@
     "dialogue_0353": {
       "text": {
         "reference": "・・・！？{n}{WAIT}？？？？？",
-        "translation": "...!?{WAIT}?????"
+        "translation": "...?!{WAIT}?????"
       }
     },
     "dialogue_0354": {
@@ -2208,7 +2208,7 @@
     "dialogue_0357": {
       "text": {
         "reference": "オマエコノ街好キカ？",
-        "translation": "DO YOU LIKE THIS TOWN?"
+        "translation": "YOU LIKE THIS TOWN?"
       }
     },
     "dialogue_0358": {
@@ -2328,7 +2328,7 @@
     "dialogue_0377": {
       "text": {
         "reference": "オマエSWORD外セ！",
-        "translation": "REMOVE YOUR SWORD!"
+        "translation": "PUT AWAY YOUR SWORD!"
       }
     },
     "dialogue_0378": {
@@ -2340,7 +2340,7 @@
     "dialogue_0379": {
       "text": {
         "reference": "オマエばかナヤツ{n}{WAIT}オレサマオマエキニイッテタノニ・・・",
-        "translation": "YOU ARE FOOL.{WAIT} I HAD LIKED YOU..."
+        "translation": "YOU ARE FOOL.{WAIT} AND I LIKED YOU..."
       }
     },
     "dialogue_0380": {
@@ -2550,13 +2550,13 @@
     "dialogue_0413": {
       "text": {
         "reference": "グオォォォォ・・・！！",
-        "translation": "GROOOOO...!!"
+        "translation": "GROOOOH...!!"
       }
     },
     "dialogue_0414": {
       "text": {
         "reference": "オマエソノ{OP:8025}こんぴゅーた{OP:8020}ノナカ{n}アクマトジコメルノカ！",
-        "translation": "YOU TRAP DEMONS INSIDE THAT {OP:8025}COMPUTER{OP:8020}!?"
+        "translation": "YOU TRAP DEMONS INSIDE THAT {OP:8025}COMPUTER{OP:8020}?!"
       }
     },
     "dialogue_0415": {
@@ -2592,7 +2592,7 @@
     "dialogue_0420": {
       "text": {
         "reference": "ナラバナゼヤメヌ！",
-        "translation": "THEN WHY DON'T YOU STOP!"
+        "translation": "THEN WHY YOU NOT STOP?!"
       }
     },
     "dialogue_0421": {
@@ -2816,7 +2816,7 @@
     "dialogue_0455": {
       "text": {
         "reference": "近づかない",
-        "translation": "Do not move closer"
+        "translation": "Stay back"
       }
     },
     "dialogue_0456": {
@@ -2885,7 +2885,7 @@
     "dialogue_0466": {
       "text": {
         "reference": "オマエオレサマコワイカ？",
-        "translation": "ARE YOU SCARED OF ME?"
+        "translation": "YOU SCARED OF ME?"
       }
     },
     "dialogue_0467": {
@@ -2897,13 +2897,13 @@
     "dialogue_0468": {
       "text": {
         "reference": "オマエオレサマコワイカ？",
-        "translation": "ARE YOU SCARED OF ME?"
+        "translation": "YOU SCARED OF ME?"
       }
     },
     "dialogue_0469": {
       "text": {
         "reference": "オマエヨワムシ{n}{WAIT}オレサマヨワムシマルカジリ！！",
-        "translation": "YOU COWARD!{WAIT} I DEVOUR COWARDS WHOLE!!"
+        "translation": "YOU COWARD!{WAIT} I EAT COWARDS WHOLE!!"
       }
     },
     "dialogue_0470": {
@@ -3074,7 +3074,7 @@
     "dialogue_0496": {
       "text": {
         "reference": "・{BEAT}・{BEAT}・ヌッ！？マテニンゲン！{n}ナニカニオイスル{n}{WAIT}ココナニカウマッテル！",
-        "translation": ".{BEAT}.{BEAT}. NGH!? WAIT, HUMAN! I SMELL SOMETHING.{WAIT} SOMETHING BURIED HERE!"
+        "translation": ".{BEAT}.{BEAT}. NGH?! WAIT, HUMAN! I SMELL SOMETHING.{WAIT} SOMETHING BURIED HERE!"
       }
     },
     "dialogue_0497": {
@@ -3092,7 +3092,7 @@
     "dialogue_0499": {
       "text": {
         "reference": "探さない",
-        "translation": "Do not search"
+        "translation": "Don't search"
       }
     },
     "dialogue_0500": {
@@ -3302,7 +3302,7 @@
     "dialogue_0533": {
       "text": {
         "reference": "オマエオレサマコワイカ！",
-        "translation": "YOU AFRAID OF ME!?"
+        "translation": "YOU AFRAID OF ME?!"
       }
     },
     "dialogue_0534": {
@@ -3362,7 +3362,7 @@
     "dialogue_0543": {
       "text": {
         "reference": "モシヤオマエトテモスゴイヤツ？",
-        "translation": "ARE YOU REALLY THAT AMAZING?"
+        "translation": "MAYBE YOU ARE VERY GREAT ONE?"
       }
     },
     "dialogue_0544": {
@@ -3500,7 +3500,7 @@
     "dialogue_0565": {
       "text": {
         "reference": "グオォォォォ！！",
-        "translation": "GOOOOOO!!"
+        "translation": "GROOOOH!!"
       }
     },
     "dialogue_0566": {
@@ -3555,13 +3555,13 @@
     "dialogue_0573": {
       "text": {
         "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエマダ持ッテルナ！？",
-        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU STILL HAVE IT!?"
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU STILL HAVE IT?!"
       }
     },
     "dialogue_0574": {
       "text": {
         "reference": "オマエ倒スミンナオレサマノモノ{n}{WAIT}ヨコセ！！",
-        "translation": "ALL THINGS YOU DEFEAT BELONG TO ME.{WAIT} HAND THEM OVER!!"
+        "translation": "I BEAT YOU, ALL BECOMES MINE.{WAIT} HAND IT OVER!!"
       }
     },
     "dialogue_0575": {
@@ -3579,7 +3579,7 @@
     "dialogue_0577": {
       "text": {
         "reference": "グオォォォォ！！",
-        "translation": "GOOOOOOOO!!"
+        "translation": "GROOOOOH!!"
       }
     },
     "dialogue_0578": {
@@ -3597,7 +3597,7 @@
     "dialogue_0580": {
       "text": {
         "reference": "渡す",
-        "translation": "Hand it over."
+        "translation": "Give it."
       }
     },
     "dialogue_0581": {
@@ -3678,7 +3678,7 @@
     "dialogue_0593": {
       "text": {
         "reference": "アオォォォ！",
-        "translation": "AOOOOO!"
+        "translation": "AWOOOO!"
       }
     },
     "dialogue_0594": {
@@ -3759,7 +3759,7 @@
     "dialogue_0606": {
       "text": {
         "reference": "オマエナワバリアラシニ来タカ！？",
-        "translation": "YOU COME TO RAVAGE MY TERRITORY!?"
+        "translation": "YOU COME TO RAVAGE MY TERRITORY?!"
       }
     },
     "dialogue_0607": {
@@ -3822,7 +3822,7 @@
     "dialogue_0616": {
       "text": {
         "reference": "オマエワカッタカ！？",
-        "translation": "YOU GOT IT!?"
+        "translation": "YOU GOT IT?!"
       }
     },
     "dialogue_0617": {
@@ -3846,7 +3846,7 @@
     "dialogue_0620": {
       "text": {
         "reference": "ヌウ{BEAT}・{BEAT}・{BEAT}・{n}{BEAT}オマエニオウゾ！{n}{WAIT}オマエフロハイッテナイナ！？",
-        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU STINK!{WAIT} YOU HAVE NOT BATHED!?"
+        "translation": "NGH...{BEAT}.{BEAT}.{BEAT}.{BEAT} YOU STINK!{WAIT} YOU HAVE NOT BATHED?!"
       }
     },
     "dialogue_0621": {
@@ -3888,7 +3888,7 @@
     "dialogue_0627": {
       "text": {
         "reference": "オレサマ{BEAT}オマエ{BEAT}ドングリ{BEAT}セイクラベ！",
-        "translation": "ME{BEAT} AND YOU{BEAT} SAME-SIZED ACORNS{BEAT}!"
+        "translation": "YOU{BEAT} NO BETTER{BEAT} THAN ME{BEAT}!"
       }
     },
     "dialogue_0628": {
@@ -3918,7 +3918,7 @@
     "dialogue_0632": {
       "text": {
         "reference": "オマエガサイゴ！！",
-        "translation": "YOU'RE THE LAST ONE!!"
+        "translation": "YOU ARE LAST ONE!!"
       }
     },
     "dialogue_0633": {
@@ -4045,7 +4045,7 @@
     "condition_enraged": {
       "text": {
         "reference": "グオォォォォ！！",
-        "translation": "GOOOOOO!!",
+        "translation": "GROOOOH!!",
         "reviewed": true
       }
     },

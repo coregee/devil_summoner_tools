@@ -455,7 +455,7 @@
     "dialogue_0074": {
       "text": {
         "reference": "あれ？{BEAT}{n}ん？{BEAT}{n}うううん…",
-        "translation": "Huh?{BEAT} Hmm?{BEAT} No..."
+        "translation": "Huh?{BEAT} Hm?{BEAT} Hmmmm..."
       }
     },
     "dialogue_0075": {
@@ -524,7 +524,7 @@
     "dialogue_0085": {
       "text": {
         "reference": "いやあ？{BEAT}{n}うんん？{BEAT}{n}あれえええ！？",
-        "translation": "No...?{BEAT} Hmm?{BEAT} Huh!?"
+        "translation": "No...?{BEAT} Hmm?{BEAT} Huh?!"
       }
     },
     "dialogue_0086": {
@@ -560,7 +560,7 @@
     "dialogue_0091": {
       "text": {
         "reference": "ぎひっだまらないでおくれよう！{n}一人にしないでおくれよおおおう！！",
-        "translation": "Please, don't be silent! Don't leave me alone!"
+        "translation": "Gihh! Don't go quiet on me! Don't leave me all alone!"
       }
     },
     "dialogue_0092": {
@@ -656,7 +656,7 @@
     "dialogue_0105": {
       "text": {
         "reference": "うーんん！？{BEAT}{n}ぐうおわお！！{BEAT}{n}ん…{BEAT}んんんん…",
-        "translation": "Hmmm!?{BEAT} Gwaaaah!{BEAT} Hm...{BEAT} Hmmmm..."
+        "translation": "Hmmm?!{BEAT} Gwaaaah!{BEAT} Hm...{BEAT} Hmmmm..."
       }
     },
     "dialogue_0106": {
@@ -962,7 +962,7 @@
     "dialogue_0155": {
       "text": {
         "reference": "クッククッ{BEAT}クッ…{BEAT}ヒヒヒッ…{WAIT}{n}……{BEAT}そうですか{n}じゃあいいです{WAIT}気にしないで下さいね",
-        "translation": "Keh-heh-heh...{BEAT} Heh...{BEAT} Hee hee...{WAIT}.{BEAT} I see. Very well, then.{WAIT} Please don't mind me."
+        "translation": "Keh-heh-heh...{BEAT} Heh...{BEAT} Hee hee...{WAIT} ...{BEAT}I see. Very well, then.{WAIT} Please don't mind me."
       }
     },
     "dialogue_0156": {
@@ -992,7 +992,7 @@
     "dialogue_0160": {
       "text": {
         "reference": "クッククッ{BEAT}ヒヒヒッ…{WAIT}{n}なんだあ？{n}よ～{BEAT}く知ってるぞ～おまえのことを！！",
-        "translation": "Keh-heh-heh...{BEAT} Hee hee...{WAIT} What? I know y{BEAT}ou very well!"
+        "translation": "Keh-heh-heh...{BEAT} Hee hee...{WAIT} What? I know aaall{BEAT} about you!"
       }
     },
     "dialogue_0161": {
@@ -1577,7 +1577,7 @@
       },
       "text": {
         "reference": "まっ{BEAT}待ってくれよう{n}ちっ{BEAT}ちょっとからかっただけなんだよう{WAIT}{n}{offered_item}で許してくれよ{BEAT}ななっ",
-        "translation": "W-wait!{BEAT} I-I was only teasing!{BEAT}{WAIT} Take {offered_item} and forgive me, all r{BEAT}right?"
+        "translation": "W-{BEAT}wait! I-{BEAT}I was only teasing!{WAIT} Take {offered_item} and let me off, okay?{BEAT} Okay?"
       }
     },
     "dialogue_0258": {
@@ -1883,7 +1883,7 @@
     "dialogue_0308": {
       "text": {
         "reference": "クッククッ{BEAT}クッ…{BEAT}ヒヒヒッ…{n}決っ{BEAT}決めたずおおおお！！",
-        "translation": "Keh-heh-heh...{BEAT} Heh...{BEAT} Hee hee... I've d{BEAT}decided!"
+        "translation": "Keh-heh-heh...{BEAT} Heh...{BEAT} Hee hee... I've d-{BEAT}decided!"
       }
     },
     "dialogue_0309": {
@@ -2074,7 +2074,7 @@
     "dialogue_0338": {
       "text": {
         "reference": "オレ様にも何かめぐんでくれよう！！",
-        "translation": "Give mighty me something!"
+        "translation": "Spare a little something for the great me!"
       }
     },
     "dialogue_0339": {
@@ -2194,7 +2194,7 @@
     "dialogue_0358": {
       "text": {
         "reference": "オレはぞうじゃねええええ！！{n}狂ってるんだあアア！！",
-        "translation": "I'm not an elephant! I'm insane!"
+        "translation": "A sow?! I'm no sow! I'm insane!"
       }
     },
     "dialogue_0359": {
@@ -2374,7 +2374,7 @@
     "dialogue_0388": {
       "text": {
         "reference": "仕方？{BEAT}{n}「しかた」ってなんだ？{n}誰のことだ？あん？",
-        "translation": "\"Choice\"?{BEAT} What's a \"choice\"? Who are you talking about?"
+        "translation": "\"No choice\"?{BEAT} Who's this \"Choice\"? Some pal of yours? Huh?"
       }
     },
     "dialogue_0389": {
@@ -2523,7 +2523,7 @@
     "dialogue_0412": {
       "text": {
         "reference": "何か{BEAT}何くああぁぁくれええぇぇ！",
-        "translation": "Give me s{BEAT}something!"
+        "translation": "Some{BEAT}thing! Gimme somethiiing!"
       }
     },
     "dialogue_0413": {
@@ -2560,7 +2560,7 @@
     "dialogue_0418": {
       "text": {
         "reference": "ん？{BEAT}あん？{BEAT}{n}だれだおまえ…！？{WAIT}{n}んじゃそういうことで！",
-        "translation": "Hm?{BEAT} Huh?{BEAT} Who are you?!{WAIT} Well, it's settled!"
+        "translation": "Hm?{BEAT} Huh?{BEAT} Who are you?!{WAIT} Well, see ya!"
       }
     },
     "dialogue_0419": {
@@ -2611,7 +2611,7 @@
     "dialogue_0426": {
       "text": {
         "reference": "渡す",
-        "translation": "Hand it over."
+        "translation": "Give it."
       }
     },
     "dialogue_0427": {
@@ -2665,7 +2665,7 @@
     "dialogue_0435": {
       "text": {
         "reference": "へ？{BEAT}ほんと…{BEAT}ほっ{BEAT}本当にいいの？{BEAT}{n}このご恩は一生忘れません…{n}でもせっかくだから…",
-        "translation": "Huh?{BEAT} Really...?{BEAT} R{BEAT}really?{BEAT} I'll never forget this kindness... But while I have the chance...",
+        "translation": "Huh?{BEAT} Really...?{BEAT} R-{BEAT}really?{BEAT} I'll never forget this kindness... But while I have the chance...",
         "note": "The Japanese ends on でもせっかくだから ('but while I have the chance...'), setting up the branch-dependent favor he asks next."
       }
     },
@@ -2796,7 +2796,7 @@
     "dialogue_0455": {
       "text": {
         "reference": "グフフグヘヘヘヘギィヒーィヒヒ！！{BEAT}{n}もとにもどさなきゃ…{BEAT}{n}なっ{BEAT}たのむよ{BEAT}一緒に来てくれよう",
-        "translation": "Guh-huh-guhe-gihee!{BEAT} We must restore it...{BEAT} P{BEAT}please...{BEAT} Come with me.",
+        "translation": "Guh-huh-guhe-gihee!{BEAT} We must restore it...{BEAT} P-{BEAT}please...{BEAT} Come with me.",
         "note": "Fragment context: message 496 page 0 continues on page 1 (dialogue_0311) with the demon's inserted race and repeated title."
       }
     },
@@ -2833,7 +2833,7 @@
     "dialogue_0461": {
       "text": {
         "reference": "そっ{BEAT}そうだよう…{BEAT}{n}ウオオオオオオオオオオォォオォオォ！！{n}ふう…{BEAT}すっきりした…{BEAT}さっ行こうか…",
-        "translation": "R{BEAT}right...{BEAT} Woooooaaah! Whew...{BEAT} I feel better...{BEAT} Shall we go...?",
+        "translation": "R-{BEAT}right...{BEAT} Woooooaaah! Whew...{BEAT} I feel better...{BEAT} Shall we go...?",
         "note": "Fragment context: message 503 page 0 continues on page 1 (dialogue_0311) with the demon's inserted race and repeated title."
       }
     },
@@ -2859,7 +2859,7 @@
     "dialogue_0465": {
       "text": {
         "reference": "うっ…{BEAT}そんなふうに言うなよう{BEAT}{n}たっ{BEAT}たのむ…{BEAT}助けてくれようなっ！{BEAT}{n}一緒に連れってってくれよう！！",
-        "translation": "Ugh...{BEAT} Don't say that...{BEAT} P{BEAT}please...{BEAT} Help me!{BEAT} Take me with you!",
+        "translation": "Ugh...{BEAT} Don't say that...{BEAT} P-{BEAT}please...{BEAT} Help me!{BEAT} Take me with you!",
         "note": "Fragment context: message 507 page 0 continues on page 1 (dialogue_0311) with the demon's inserted race and repeated title."
       }
     },
@@ -2947,7 +2947,7 @@
     "dialogue_0479": {
       "text": {
         "reference": "あっ{BEAT}明るいぃぃっまぶしいよおおおう！！",
-        "translation": "B{BEAT}bright! It's dazzling!"
+        "translation": "B-{BEAT}bright! It's dazzling!"
       }
     },
     "dialogue_0480": {
@@ -2959,7 +2959,7 @@
     "dialogue_0481": {
       "text": {
         "reference": "満月だからかな",
-        "translation": "Maybe because it's a full moon."
+        "translation": "Maybe it's the full moon."
       }
     },
     "dialogue_0482": {
@@ -2978,7 +2978,7 @@
     "dialogue_0484": {
       "text": {
         "reference": "ぜんぜん違うだろうがあああっ！！{BEAT}{n}分かんねえのかよう…{BEAT}なあ…{BEAT}たのむよ…{BEAT}{n}オレを連れてってくれよ…いいな！！",
-        "translation": "It's completely different!{BEAT} Don't you understand...?{BEAT} P{BEAT}please...{BEAT} Take me with you. All right?!",
+        "translation": "It's completely different!{BEAT} Don't you understand...?{BEAT} P-{BEAT}please...{BEAT} Take me with you. All right?!",
         "note": "Fragment context: message 527 page 0 continues on page 1 (dialogue_0311) with the demon's inserted race and repeated title."
       }
     },
@@ -3084,7 +3084,7 @@
     "dialogue_0501": {
       "text": {
         "reference": "えっ？{BEAT}{n}ちょ{BEAT}ちょっと…{BEAT}そりゃないでしょ…{BEAT}{n}お～い！！どこ行くんだあああ～！！",
-        "translation": "Huh?{BEAT} W{BEAT}wait...{BEAT} That's not fair...{BEAT} Hey! Where are you going?!"
+        "translation": "Huh?{BEAT} W-{BEAT}wait...{BEAT} That's not fair...{BEAT} Hey! Where are you going?!"
       }
     },
     "dialogue_0502": {
@@ -3228,7 +3228,7 @@
     "dialogue_0524": {
       "text": {
         "reference": "ククククッ…{BEAT}{n}オレがいる…{n}おまえの仲魔にオレがいる…",
-        "translation": "Heh-heh-heh...{BEAT} I'm there... You've got me among your demons..."
+        "translation": "Heh-heh-heh...{BEAT} There's me... There's already a me among your allies..."
       }
     },
     "condition_charmed": {

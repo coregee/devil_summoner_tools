@@ -609,6 +609,386 @@
     "game.combat_condition_messages.o05531c.text": "condition_ally_veto.text",
     "game.combat_condition_messages.o0555dc.text": "condition_full_moon.text"
   },
+  "record_surfaces": {
+    "game.tlk_bst.m0009.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0010.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0011.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0012.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0013.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0014.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0015.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0016.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0017.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0018.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0019.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0020.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0021.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0022.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0023.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0024.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0025.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0026.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0027.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0028.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0029.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0030.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0031.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_bst.m0032.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_bst.m0033.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0034.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0035.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0036.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0037.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0038.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0039.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0040.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0041.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0042.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0043.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_bst.m0044.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_bst.m0045.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0046.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0047.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0048.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0049.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0050.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0051.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0052.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0053.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0054.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0055.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0056.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_bst.m0057.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_bst.m0058.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0059.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0060.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0061.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0062.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_bst.m0063.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_bst.m0064.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0065.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0066.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0067.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0068.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0069.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0070.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0071.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0072.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0073.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_bst.m0074.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_bst.m0075.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_bst.m0076.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_bst.m0077.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0078.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0079.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0080.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0081.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0082.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0083.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0084.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0085.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0086.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0087.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0088.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_bst.m0089.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_bst.m0090.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0091.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0092.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0093.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0094.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0095.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0096.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0097.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0098.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0099.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0100.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0101.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0102.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0103.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0104.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0105.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0106.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0107.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0108.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0109.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0110.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0111.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0112.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0471.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_bst.m0472.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_bst.m0487.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_bst.m0488.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_bst.m0501.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0502.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0503.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0512.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0513.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0514.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0523.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0524.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0525.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0534.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0535.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0536.p00": [
+      "battle.negotiation_choice"
+    ],
+    "game.tlk_bst.m0545.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_bst.m0546.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_bst.m0554.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_bst.m0555.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_bst.m0562.p00": [
+      "battle.negotiation_two_choice"
+    ],
+    "game.tlk_bst.m0563.p00": [
+      "battle.negotiation_two_choice"
+    ]
+  },
   "field_surfaces": {
     "text": [
       "battle.negotiation_dialogue"

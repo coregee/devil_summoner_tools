@@ -35,7 +35,7 @@ EXPECTED_TEXT = {
     "defense": ("防衛力", "Def"),
     "evasion": ("回避力", "Eva"),
     "magic_power": ("魔法威力", "Mag Pwr"),
-    "magic_defense": ("魔法防衛", "Mag Efc"),
+    "magic_defense": ("魔法防衛", "Mag Def"),
     "attack": ("攻撃力", "Attack"),
     "accuracy": ("命中力", "Accuracy"),
     "loyalty": ("忠誠度 {loyalty}", "Loyalty {loyalty}"),
