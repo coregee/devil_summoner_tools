@@ -19,6 +19,8 @@ a story scene), not by which game file it came from.
 - Optional keys are left out when they'd say nothing. `reviewed` defaults to
   `false`; notes, variants, placeholders and status only appear where needed.
 
+Before changing wording, read the [style guide and glossary](STYLE.md).
+
 The translation editor (`python -B -m tools.editor`) is the easiest way to work
 on these files. It previews lines in the game font and flags anything that won't
 fit.

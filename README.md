@@ -214,6 +214,7 @@ the build with `--plan`, `--list-steps` and `--list-profiles`.
 ## Documentation
 
 - [Shared text assets](assets/text/README.md)
+- [Translation style guide and glossary](assets/text/STYLE.md)
 - [Shared image assets](assets/image/README.md)
 - [Language projects](assets/languages/README.md)
 - [Per-screen text limits](assets/consumers.md)
