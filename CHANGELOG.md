@@ -5,7 +5,7 @@
 A full revision of the English script against the Japanese. Apply it to the
 original **Rev. B** Track 1, not on top of v0.1; see [PATCHING.md](PATCHING.md).
 
-- **Story dialogue:** about 500 lines revised for accuracy and natural English,
+- **Story dialogue:** about 550 lines revised for accuracy and natural English,
   with consistent voices for Rei, Kyouji, Marie, Sid, Kumiko and the rest.
   Several lines that had the wrong speaker, target or tense are fixed.
 - **Negotiation:** about 550 lines across the 15 demon personalities. Choices
