@@ -13,6 +13,8 @@ spoken and a little dry, not grand or fantasy-flavored.
 - **Meaning first, then natural English.** Keep what the line says and how the
   speaker feels about it. Reword freely to get there; don't follow Japanese
   word order or sentence breaks.
+- **Tense follows the Japanese.** Non-past Japanese (〜る, 〜ようだ, 〜いる,
+  〜ない) stays present; 〜た stays past. Don't shift tense for style.
 - **Short.** The windows are small. Prefer the shorter of two equally good
   wordings, and cut filler (`really`, `just`, `quite`) that the Japanese doesn't
   carry.
