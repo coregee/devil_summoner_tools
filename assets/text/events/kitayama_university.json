@@ -11,19 +11,19 @@
     "kitayama_university_errand_001": {
       "text": {
         "reference": "警官：ここは、立入禁止だ。",
-        "translation": "Police Officer: No entry is allowed past this point."
+        "translation": "Police Officer: This area is off-limits."
       }
     },
     "kitayama_university_errand_002": {
       "text": {
         "reference": "百地警部：またお前か！葛葉！{n}いつの間に、ブタ箱から出てきた！？",
-        "translation": "Inspector Momochi: Hey, Kuzunoha!{n}When the hell did you get out of your cell?"
+        "translation": "Inspector Momochi: You again, Kuzunoha?!{n}When the hell did you get out of lockup?!"
       }
     },
     "kitayama_university_errand_003": {
       "text": {
         "reference": "何か事件があると、ノコノコ顔出しやがって{n}とっとと失せろ！！このクズ野郎！！",
-        "translation": "Every time there's an incident, you come strolling in.{n}Get lost, you piece of trash!"
+        "translation": "Every time something happens, you come{n}sticking your nose in. Get lost,{n}you piece of trash!!"
       }
     },
     "kitayama_university_errand_004": {
@@ -35,13 +35,13 @@
     "kitayama_university_errand_005": {
       "text": {
         "reference": "＞大学正門。{n}門は閉まっている。",
-        "translation": "> University Main Gate{n}The gate is shut tight."
+        "translation": "> University Main Gate{n}The gate was shut."
       }
     },
     "kitayama_university_errand_006": {
       "text": {
         "reference": "久美子：あー、やっぱり閉まってる。{n}裏に回んなきゃ。",
-        "translation": "Kumiko: Ah, of course it'd be locked.{n}Let's try the back."
+        "translation": "Kumiko: Ugh, it's closed, just like I thought.{n}We'll have to go around the back."
       }
     },
     "kitayama_university_errand_007": {
@@ -59,37 +59,37 @@
     "kitayama_university_errand_009": {
       "text": {
         "reference": "レイ：こっちから入れるなんて……。{n}なんで、あなたがこんなこと知ってるの？",
-        "translation": "Rei: Going in through the back...{n}How'd you know we could get in this way?"
+        "translation": "Rei: I didn't know you could get in this way...{n}How do you know about this?"
       }
     },
     "kitayama_university_errand_010": {
       "text": {
         "reference": "＞大学裏門。",
-        "translation": "> It's the university's back gate."
+        "translation": "> University Back Gate"
       }
     },
     "kitayama_university_errand_011": {
       "text": {
         "reference": "久美子：実はここ、いつでも通れるって{n}知ってた？……知らなかったの？{n}ちゃんと、学校に出てないからでしょう。",
-        "translation": "Kumiko: Did you know you can always get through here?{n}...You didn't? That's what you get for skipping class."
+        "translation": "Kumiko: Did you know you can always{n}get in this way? ...You didn't?{n}That's what you get for skipping class."
       }
     },
     "kitayama_university_errand_012": {
       "text": {
         "reference": "久美子：大学の裏門は、{n}いつでも開いてるのよ。{n}便利なんだけど、不用心よね。",
-        "translation": "Kumiko: You see, the back gate's always open.{n}It's very convenient, but not exactly safe."
+        "translation": "Kumiko: The university's back gate{n}is always open. It's handy,{n}but not exactly secure."
       }
     },
     "kitayama_university_errand_013": {
       "text": {
         "reference": "久美子：ここから、いつでも通れるって{n}さすがに知ってるわね。",
-        "translation": "Kumiko: You can always come and go through here.{n}Of course you'd know though."
+        "translation": "Kumiko: Even you must know you can always{n}get in this way."
       }
     },
     "kitayama_university_errand_014": {
       "text": {
         "reference": "北大生の常識よね。",
-        "translation": "It's just common knowledge among Kitayama students."
+        "translation": "Every Kitayama student knows that."
       }
     },
     "kitayama_university_errand_015": {
@@ -101,7 +101,7 @@
     "kitayama_university_errand_016": {
       "text": {
         "reference": "あっ、忘れてたわ。{n}チケット取りに行くんだったわ。",
-        "translation": "Ah, I forgot something.{n}I was supposed to pick up the tickets."
+        "translation": "Oh, I almost forgot.{n}I was going to pick up the tickets."
       }
     },
     "kitayama_university_errand_017": {
@@ -116,7 +116,7 @@
       },
       "text": {
         "reference": "{first_name}くん、お願いしていい？",
-        "translation": "{first_name}, would you mind picking it up for me?"
+        "translation": "{first_name}, can I ask you a favor?"
       }
     },
     "kitayama_university_errand_019": {
@@ -128,19 +128,19 @@
     "kitayama_university_errand_020": {
       "text": {
         "reference": "ビルは、矢来区のアーケード入口の手前に{n}あるわよ。",
-        "translation": "The building is just before the entrance{n}to the shopping arcade in Yarai Ward."
+        "translation": "It's right before the arcade entrance{n}in Yarai Ward."
       }
     },
     "kitayama_university_errand_021": {
       "text": {
         "reference": "わたし、吾妻教授のところへ行って用事を{n}すませたら、臨海公園の喫茶店で{n}待ってるわ。",
-        "translation": "I need to see Professor Azuma.{n}When I'm finished, I'll wait at the cafe in Rinkai Park."
+        "translation": "Once I've taken care of some business{n}with Professor Azuma, I'll wait for you{n}at the cafe in Rinkai Park."
       }
     },
     "kitayama_university_errand_022": {
       "text": {
         "reference": "チケット取って来てね。おねがい。",
-        "translation": "Please pick up the tickets for me."
+        "translation": "Get the tickets for me, okay? Please?"
       }
     },
     "kitayama_university_errand_023": {
@@ -164,7 +164,7 @@
     "kitayama_university_errand_026": {
       "text": {
         "reference": "久美子：用事はけっこう時間がかかりそう{n}だから、先に行ってきて、おねがい。",
-        "translation": "Kumiko: My errand may take a while, so please go on ahead."
+        "translation": "Kumiko: This is going to take a while,{n}so go on ahead without me, okay?"
       }
     },
     "kitayama_university_errand_027": {
@@ -188,7 +188,7 @@
     "kitayama_university_errand_030": {
       "text": {
         "reference": "＞久美子はもどってきそうにない。",
-        "translation": "> It seems Kumiko isn't coming back..."
+        "translation": "> It didn't look like Kumiko was coming back."
       }
     },
     "kitayama_university_sid_confrontation_000": {
@@ -200,25 +200,25 @@
     "kitayama_university_sid_confrontation_001": {
       "text": {
         "reference": "シド：あなたハ、葛葉キョウジ……。{n}この私ガ、確かに殺したはずなのニ、{n}なぜ、生きているのですカ？",
-        "translation": "Sid: You are Kyouji Kuzunoha...{n}I know I killed you myself.{n}Why are you alive?"
+        "translation": "Sid: You... Kyouji Kuzunoha...{n}I most certainly killed you myself.{n}How is it that you are alive?"
       }
     },
     "kitayama_university_sid_confrontation_002": {
       "text": {
         "reference": "……信じられませン。何かの間違いでス。{n}葛葉キョウジ、あなたが生きているのハ、{n}間違いでス。",
-        "translation": "...I cannot believe it. This is some mistake.{n}Kyouji Kuzunoha, your being alive{n}is itself a mistake."
+        "translation": "...This is unbelievable. There must be{n}some mistake. Kyouji Kuzunoha, your being{n}alive is a mistake."
       }
     },
     "kitayama_university_sid_confrontation_003": {
       "text": {
         "reference": "間違いハ、正さなければなりませン。{n}間違いを正すためニ、{n}死んでもらいましょウ。",
-        "translation": "Mistakes must be corrected.{n}To correct this one,{n}you must die."
+        "translation": "Mistakes must be corrected.{n}And to correct this one,{n}I must ask you to die."
       }
     },
     "kitayama_university_sid_confrontation_004": {
       "text": {
         "reference": "シド：このまエ、戦ったときハ、もう少し{n}手ごたえがあったようでしたガ。{n}どうかしたのですカ？",
-        "translation": "Sid: When we fought before, you offered{n}somewhat more resistance.{n}Is something wrong?"
+        "translation": "Sid: When we fought before, you offered{n}somewhat more resistance.{n}Is something the matter?"
       }
     },
     "kitayama_university_sid_confrontation_005": {
@@ -260,7 +260,7 @@
     "kitayama_university_sid_confrontation_011": {
       "text": {
         "reference": "レイ：……あんた、誰？{n}ヤツは、確かに「葛葉キョウジ」の魂に{n}術をかけたのに、あんたには効かなかった。",
-        "translation": "Rei: ...Who are you?{n}He cast that spell on the soul of{n}\"Kyouji Kuzunoha,\" but it didn't affect you."
+        "translation": "Rei: ...Who are you?{n}He put that spell on the soul of \"Kyouji{n}Kuzunoha,\" but it didn't work on you."
       }
     },
     "kitayama_university_sid_confrontation_012": {
@@ -272,25 +272,25 @@
     "kitayama_university_sid_confrontation_013": {
       "text": {
         "reference": "気のせいじゃなかったようね。{n}誰だか、わからない者とは、いっしょに{n}いられないわ……",
-        "translation": "It seems I wasn't imagining it.{n}I can't stay with someone{n}whose identity I don't even know..."
+        "translation": "Guess I wasn't imagining it.{n}I can't stick with someone when I don't{n}even know who they are..."
       }
     },
     "kitayama_university_sid_confrontation_014": {
       "text": {
         "reference": "と言いたいところだけど、今は別行動を{n}とれるような状況じゃないわね。",
-        "translation": "Or that's what I'd like to say,{n}but this is no time for us to split up."
+        "translation": "That's what I'd like to say, but right now{n}splitting up isn't an option."
       }
     },
     "kitayama_university_sid_confrontation_015": {
       "text": {
         "reference": "ただし、いっしょに付いてきてるからって{n}今のあんたを、完全に認めたわけじゃない。{n}勘違いしないことね。",
-        "translation": "But just because I'm coming with you{n}doesn't mean I fully accept you as you are.{n}Don't misunderstand me."
+        "translation": "But just because I'm tagging along{n}doesn't mean I've accepted the new you.{n}Don't get the wrong idea."
       }
     },
     "kitayama_university_students_000": {
       "text": {
         "reference": "学生：やっと騒ぎもおさまったか。{n}まったく化物やら悪魔やらが、{n}出たとか出ないとか、あーアホらし。",
-        "translation": "Student: Things finally calmed down.{n}All this talk of monsters and demons{n}showing up... What a load of crap."
+        "translation": "Student: Looks like things finally calmed down.{n}All this talk about monsters and demons{n}showing up... What a joke."
       }
     },
     "kitayama_university_students_001": {
@@ -368,7 +368,7 @@
       },
       "text": {
         "reference": "久美子：なんて失礼な人！{n}………ごめんね、{first_name}君。{n}自分だけ、かばうようなこと言って……",
-        "translation": "Kumiko: What a rude person!{n}...I'm sorry, {first_name}.{n}I only said that to defend myself..."
+        "translation": "Kumiko: How rude!{n}...Sorry, {first_name}.{n}I only stuck up for myself back there..."
       }
     },
     "kitayama_university_students_013": {
@@ -398,7 +398,7 @@
     "kitayama_university_students_017": {
       "text": {
         "reference": "ねえねえ、いったい大学で何があったの？{n}教授は見つかったの？もーくやしいなぁ。{n}すぐに、友達から情報収集しなきゃ。",
-        "translation": "So what happened at the university?{n}Did they find the professor? Oh, this is maddening!{n}I need to pump my friends for information."
+        "translation": "Hey, what happened at the university, anyway?{n}Did they find the professor? Ugh, I hate{n}missing out! I have to ask my friends."
       }
     },
     "kitayama_university_students_018": {
@@ -476,7 +476,7 @@
     "kitayama_university_students_029": {
       "text": {
         "reference": "ごくろう様ねぇ。{n}チケットガイドは矢来区にあるわよ。",
-        "translation": "How diligent of you.{n}The ticket office is in Yarai Ward."
+        "translation": "That's sweet of you.{n}The ticket office is in Yarai Ward."
       }
     },
     "kitayama_university_students_030": {
@@ -509,7 +509,7 @@
       },
       "text": {
         "reference": "研究室には、まだデータが残っているし、{n}教授はここ{city}市にこだわっていたから、{n}そう遠くには行かないはず………",
-        "translation": "The lab still has his data, and Professor Azuma{n}was fixated on {city} City, so he can't have gone{n}too far away..."
+        "translation": "The lab still has his data, and the professor{n}was fixated on {city} City, so he can't{n}have gone far..."
       }
     },
     "kitayama_university_students_035": {
@@ -551,7 +551,7 @@
     "kitayama_university_students_040": {
       "text": {
         "reference": "それよりもゼミの発表会、来週でしょ。{n}頑張ってね、期待してるから。",
-        "translation": "More importantly, your seminar presentation{n}is next week. Do your best. I'm counting on you."
+        "translation": "More importantly, your seminar presentation{n}is next week. Good luck--I'm expecting{n}great things."
       }
     },
     "kitayama_university_students_041": {
@@ -569,7 +569,7 @@
     "kitayama_university_students_043": {
       "text": {
         "reference": "それよりも、{n}ゼミの発表会、来週でしょ。{n}頑張ってね、期待してるから。",
-        "translation": "More importantly,{n}your seminar presentation is next week.{n}Do your best. I'm counting on you."
+        "translation": "More importantly,{n}your seminar presentation is next week.{n}Good luck--I'm expecting great things."
       }
     },
     "kitayama_university_students_044": {
@@ -641,7 +641,7 @@
     "kitayama_university_incident_008": {
       "text": {
         "reference": "警察の世話にまでなって……{n}まあ済んだことだから、かまわんがね。",
-        "translation": "It even required police intervention...{n}Well, it's over now, so never mind."
+        "translation": "Even the police got involved...{n}Well, what's done is done, I suppose."
       }
     },
     "kitayama_university_incident_009": {

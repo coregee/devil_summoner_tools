@@ -5,13 +5,13 @@
     "central_library_date_000": {
       "text": {
         "reference": "久美子：私は図書館へ行きたいのよ。{n}図書館は、臨海公園でしょう。",
-        "translation": "Kumiko: I still have to go to the library.{n}The library is in Rinkai Park."
+        "translation": "Kumiko: I want to go to the library.{n}It's in Rinkai Park, remember?"
       }
     },
     "central_library_date_001": {
       "text": {
         "reference": "久美子：学校に用事があるって{n}言ったじゃない。",
-        "translation": "Kumiko: I said I had to go to the university, right?"
+        "translation": "Kumiko: I told you I had something{n}to do at the university."
       }
     },
     "central_library_date_002": {
@@ -23,7 +23,7 @@
     "central_library_date_003": {
       "text": {
         "reference": "久美子：貸し出しの手続きするわね。",
-        "translation": "Kumiko: So I'll be checking this one out."
+        "translation": "Kumiko: I'll go check this out."
       }
     },
     "central_library_date_004": {
@@ -44,7 +44,7 @@
       },
       "text": {
         "reference": "図書館司書：こちら{city}市立中央図書館に{n}何かご用ですか？",
-        "translation": "Librarian: Welcome to the {city} Central Library.{n}How may I help you?"
+        "translation": "Librarian: Welcome to {city} Central Library.{n}How may I help you?"
       }
     },
     "central_library_date_007": {
@@ -59,13 +59,13 @@
       },
       "text": {
         "reference": "利用者カードか身分証を出してください。{n}……はい、{last_name}さんですね。",
-        "translation": "Your library card or ID, please.{n}...{last_name}, correct?"
+        "translation": "Your library card or ID, please.{n}...Thank you. {last_name}, is it?"
       }
     },
     "central_library_date_009": {
       "text": {
         "reference": "身分証をお返しします。{n}貸出期間は、1週間です。{n}期間中に返却してください。",
-        "translation": "Here's your ID. The loan period is one week from now,{n}so please return the book before then."
+        "translation": "Here's your ID back.{n}The loan period is one week.{n}Please return the book by then."
       }
     },
     "central_library_date_010": {
@@ -74,25 +74,25 @@
       },
       "text": {
         "reference": "＞久美子は、{first_name}の名前で本を借りた。",
-        "translation": "> Kumiko borrowed the book under {first_name}'s name."
+        "translation": "> Kumiko checked out the book{n}under {first_name}'s name."
       }
     },
     "central_library_date_011": {
       "text": {
         "reference": "久美子：ありがとう、助かったわ。",
-        "translation": "Kumiko: Thanks for helping me out."
+        "translation": "Kumiko: Thanks, you saved me."
       }
     },
     "central_library_date_012": {
       "text": {
         "reference": "ところで、ちょっと学校へ行く用があるの。",
-        "translation": "By the way, there's still something{n}I have to do at the university."
+        "translation": "By the way, I need to stop by{n}the university for a bit."
       }
     },
     "central_library_date_013": {
       "text": {
         "reference": "つきあってくれる？",
-        "translation": "Won't you come with me?"
+        "translation": "Will you come with me?"
       }
     },
     "central_library_date_014": {
@@ -104,7 +104,7 @@
     "central_library_date_015": {
       "text": {
         "reference": "自分のを使うか聞く",
-        "translation": "Offer her your library card"
+        "translation": "Offer to lend yours"
       }
     },
     "central_library_date_016": {
@@ -122,13 +122,13 @@
     "central_library_date_018": {
       "text": {
         "reference": "久美子：えっ？あなたのを貸してくれる？{n}そんな悪いわ、どうしようかなぁ。",
-        "translation": "Kumiko: Eh? You'll let me use yours?{n}I mean, I know I shouldn't, but what else can I do?"
+        "translation": "Kumiko: Huh? You'll lend me yours?{n}Oh, I couldn't... What should I do?"
       }
     },
     "central_library_date_019": {
       "text": {
         "reference": "それじゃ、お言葉に甘えさせてもらうわ。",
-        "translation": "I suppose I'll take you up on that."
+        "translation": "Well then, I'll take you up on it."
       }
     },
     "central_library_date_020": {
@@ -140,7 +140,7 @@
     "central_library_date_021": {
       "text": {
         "reference": "あっ、そうだ。あなたの身分証を貸してよ。{n}それで本を借りるわ、いいでしょ。{n}人の失敗を笑ったバツよ。",
-        "translation": "Oh, I know. Lend me your ID,{n}and I'll check the book out with that.{n}You owe me for laughing at my mistake."
+        "translation": "Oh, I know. Lend me your ID,{n}and I'll check the book out with that.{n}That's what you get for laughing at me."
       }
     },
     "central_library_date_022": {
@@ -158,7 +158,7 @@
     "central_library_date_024": {
       "text": {
         "reference": "久美子：ありがとう。助かるわ。",
-        "translation": "Kumiko: Thanks, you've been really helpful today."
+        "translation": "Kumiko: Thanks. You're a lifesaver."
       }
     },
     "central_library_date_025": {
@@ -194,7 +194,7 @@
     "central_library_date_030": {
       "text": {
         "reference": "久美子：あっ、あったぁ。この本よ。{n}「日本古代文明論」{n}これで、レポート書けるわ。",
-        "translation": "Kumiko: And...here it is.{n}'Theories on Ancient Japanese Civilization'.{n}With this book, I'll be able to write my report."
+        "translation": "Kumiko: Oh, here it is. This is the one.{n}\"Theories on Ancient Japanese{n}Civilization.\" Now I can write my report."
       }
     },
     "central_library_date_031": {
@@ -230,13 +230,13 @@
     "central_library_date_036": {
       "text": {
         "reference": "久美子：じゃあ、どんなこと書いてあった？",
-        "translation": "Kumiko: Well, what's it about?"
+        "translation": "Kumiko: Really? Then what does it say?"
       }
     },
     "central_library_date_037": {
       "text": {
         "reference": "久美子：わたしのゼミの、吾妻教授が{n}書いた本よ。",
-        "translation": "Kumiko: One of my lecturers,{n}Professor Azuma, is the author."
+        "translation": "Kumiko: It was written by Professor Azuma.{n}He runs my seminar."
       }
     },
     "central_library_date_038": {
@@ -248,13 +248,13 @@
     "central_library_date_039": {
       "text": {
         "reference": "久美子：そうよね。{n}ふつうの人は、まず読まない本だから。",
-        "translation": "Kumiko: I thought not.{n}Most people would never pick up a book like this."
+        "translation": "Kumiko: Didn't think so.{n}Most people would never read a book like this."
       }
     },
     "central_library_date_040": {
       "text": {
         "reference": "久美子：ぜんぜん興味なさそうね。",
-        "translation": "Kumiko: You really aren't interested, are you?"
+        "translation": "Kumiko: You don't seem interested at all."
       }
     },
     "central_library_date_041": {
@@ -278,37 +278,37 @@
     "central_library_date_044": {
       "text": {
         "reference": "久美子：そんな、ふつうの本じゃないわよ。",
-        "translation": "Kumiko: No, nothing that ordinary."
+        "translation": "Kumiko: It's not that ordinary a book."
       }
     },
     "central_library_date_045": {
       "text": {
         "reference": "久美子：そうでしょう。ふつうの人が読む本{n}じゃないもの。",
-        "translation": "Kumiko: I thought so.{n}It isn't the sort of book an ordinary person would read."
+        "translation": "Kumiko: Thought so.{n}It's not the kind of book ordinary people read."
       }
     },
     "central_library_date_046": {
       "text": {
         "reference": "この本、タイトルはまともだけど、{n}内容はけっこうすごいのよ。",
-        "translation": "The title sounds professional enough,{n}but its contents are pretty out-there."
+        "translation": "The title sounds respectable enough,{n}but what's inside is pretty wild."
       }
     },
     "central_library_date_047": {
       "text": {
         "reference": "古代の日本に、魔法を使って国をおさめて{n}いた文明があったっていう内容なの。",
-        "translation": "It theorizes that in ancient Japan,{n}there was a civilization governed by the use of magic."
+        "translation": "It says that ancient Japan had{n}a civilization that ruled with magic."
       }
     },
     "central_library_date_048": {
       "text": {
         "reference": "この本を書いたせいで、吾妻教授は学会を{n}結構さわがせたらしいわ。{n}あまり、信じられてないらしいけどね。",
-        "translation": "Apparently this book was rather{n}controversial in academic circles.{n}Only a few scholars consider it credible."
+        "translation": "Apparently Professor Azuma caused quite{n}a stir in academic circles with this book.{n}Not that many people believe it, though."
       }
     },
     "central_library_date_049": {
       "text": {
         "reference": "図書館職員：図書館が、海ぞいにあるのは{n}苦労しますね。本が傷みやすいんですよ。",
-        "translation": "Librarian: Running a library by the sea is difficult.{n}The books get damaged easily."
+        "translation": "Librarian: Being by the sea makes things{n}hard for a library. The books get damaged{n}so easily."
       }
     },
     "central_library_fuguruma_incident_000": {
@@ -332,13 +332,13 @@
     "central_library_fuguruma_incident_003": {
       "text": {
         "reference": "フグルマ：おおお、何と言うことじゃ。{n}せっかく、この館を異界となしたのに……。",
-        "translation": "Fuguruma: Oh! How can this be?{n}After I went to all the trouble of making this hall an Otherworld..."
+        "translation": "Fuguruma: Oh! How can this be?{n}After all my trouble making this hall{n}an Otherworld..."
       }
     },
     "central_library_fuguruma_incident_004": {
       "text": {
         "reference": "レイ：ここは……異界！{n}だれかが、異界の一部を現世に出している、{n}ってことね。",
-        "translation": "Rei: This is... an Otherworld!{n}Someone is drawing part of an Otherworld{n}into the human world."
+        "translation": "Rei: This is... an Otherworld!{n}Someone's drawing part of an Otherworld{n}into our world."
       }
     },
     "central_library_fuguruma_incident_005": {
@@ -380,25 +380,25 @@
     "central_library_patrons_002": {
       "text": {
         "reference": "つまり図書館は、おばけ屋敷であり、{n}私はお化けに襲われる………{n}そんなバカなぁぁぁぁぁ！",
-        "translation": "Therefore, this library is a haunted house,{n}and the ghost is going to attack me...{n}That's absurd! Aaaagh!"
+        "translation": "Which means this library is a haunted house,{n}and I'm going to be attacked by a ghost...{n}Th-That's absurd! Aaaagh!"
       }
     },
     "central_library_patrons_003": {
       "text": {
         "reference": "図書館利用者：し、しまった！{n}「日本古代文明論」がない………",
-        "translation": "Library Patron: C-Curses!{n}\"Theories on Ancient Japanese Civilization\" is gone..."
+        "translation": "Library Patron: D-Drat!{n}\"Theories on Ancient Japanese Civilization\"{n}is gone..."
       }
     },
     "central_library_patrons_004": {
       "text": {
         "reference": "あのとき借りておけば、よかった。{n}後悔先に立たず、天地相反することなし。{n}まいったまいった。",
-        "translation": "I should have borrowed it then.{n}Regret comes too late. Heaven and earth never clash.{n}What a mess, what a mess."
+        "translation": "I should have borrowed it back then.{n}Regret comes too late. Heaven and earth never clash.{n}Oh dear, oh dear."
       }
     },
     "central_library_patrons_005": {
       "text": {
         "reference": "しかし、あんなカルトな本を{n}いったい誰が借りたのだろうか？{n}ふーむ………",
-        "translation": "But who on earth borrowed{n}such an occult book?{n}Hmm..."
+        "translation": "But who on earth would borrow{n}such a cultish book?{n}Hmm..."
       }
     },
     "central_library_patrons_006": {
@@ -470,7 +470,7 @@
     "central_library_patrons_017": {
       "text": {
         "reference": "図書館利用者：青白いブタさんが{n}ユラユラ浮かびながら眠ってる………{n}そんな夢を見たの。",
-        "translation": "Library Patron: A pale blue pig{n}was dozing as it drifted through the air...{n}I had a dream like that."
+        "translation": "Library Patron: A pale pig{n}was dozing as it drifted through the air...{n}I had a dream like that."
       }
     },
     "central_library_patrons_018": {
@@ -578,7 +578,7 @@
     "central_library_patrons_035": {
       "text": {
         "reference": "SFXがすごくて、精気を吸われた人が{n}しなびていくシーンが超リアル。{n}ゾクゾク度200％もんよ。",
-        "translation": "The SFX were amazing. When a victim's life force{n}was drained and they shriveled up, it looked so real.{n}A full 200 percent on the spine-chill scale!"
+        "translation": "The SFX were amazing. The scene where{n}a drained victim shrivels up is super real.{n}A full 200 percent on the spine-chill scale!"
       }
     },
     "central_library_patrons_036": {
@@ -590,7 +590,7 @@
     "central_library_patrons_037": {
       "text": {
         "reference": "最近、かならず夢に出てくるのよ。{n}だから骨董屋で、お守り買っちゃった。",
-        "translation": "Now it appears in my dreams every night.{n}So I bought an amulet from the antique shop."
+        "translation": "Now it shows up in my dreams every time.{n}So I bought an amulet at the antique shop."
       }
     },
     "central_library_patrons_038": {

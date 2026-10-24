@@ -57,31 +57,31 @@
     "hajime_home_opening_007": {
       "text": {
         "reference": "ところで、今日の臨海公園の待ち合わせ{n}だけど、どこにしましょうか？",
-        "translation": "We're supposed to meet at the park today, right?{n}But where exactly should I find you?"
+        "translation": "So, about meeting at Rinkai Park today...{n}where should we meet up?"
       }
     },
     "hajime_home_opening_008": {
       "text": {
         "reference": "「踊るボディコン娘の像」の前は、{n}ありきたりよね……。{n}喫茶店にしましょう。",
-        "translation": "In front of that scantily-clad dancer statue?{n}That's typical...{n}Let's meet at the cafe near the park instead."
+        "translation": "In front of the \"Dancing Bodycon Girl\"?{n}That's so typical...{n}Let's make it the cafe."
       }
     },
     "hajime_home_opening_009": {
       "text": {
         "reference": "喫茶「アフロ」がいいわね。{n}そう、公園の北側にある、オレンジ色の{n}屋根の小さな店よ。",
-        "translation": "There's a cafe called Afro.{n}It's north of the park. The little shop with the orange roof."
+        "translation": "Cafe Afro would be good.{n}You know, the little place with the orange{n}roof on the north side of the park."
       }
     },
     "hajime_home_opening_010": {
       "text": {
         "reference": "じゃあ、またあとでね。",
-        "translation": "Alright, I'll see you soon."
+        "translation": "Okay, see you later."
       }
     },
     "hajime_home_opening_011": {
       "text": {
         "reference": "父親：ほう、今日は彼女とデートか？",
-        "translation": "Dad: Oh, are you going on a date with your girlfriend?"
+        "translation": "Dad: Oh? Got a date with your girlfriend today?"
       }
     },
     "hajime_home_opening_012": {
@@ -102,7 +102,7 @@
       },
       "text": {
         "reference": "母親の声：{first_name}！何してるの？{n}早くおりて来なさい。",
-        "translation": "Mom's Voice: {first_name}!{n}What are you doing? Hurry up and get down here."
+        "translation": "Mom's Voice: {first_name}! What are you doing?{n}Hurry up and come down here."
       }
     },
     "hajime_home_opening_015": {
@@ -114,7 +114,7 @@
     "hajime_home_opening_016": {
       "text": {
         "reference": "DDS−NET：ただいまメンテナンス中に{n}つき、アクセスできません。",
-        "translation": "DDS-NET: Our systems are down for maintenance.{n}Access to the service is currently unavailable."
+        "translation": "DDS-NET: Access is currently unavailable{n}due to maintenance."
       }
     },
     "hajime_home_opening_017": {
@@ -126,7 +126,7 @@
     "hajime_home_opening_018": {
       "text": {
         "reference": "母親：約束してるんでしょ。{n}早く行かないと。",
-        "translation": "Mom: You promised her, didn't you?{n}Hurry up and go."
+        "translation": "Mom: You're meeting her, aren't you?{n}Don't keep her waiting."
       }
     },
     "hajime_home_opening_019": {
@@ -201,7 +201,7 @@
     "hajime_home_later_visits_004": {
       "text": {
         "reference": "父親：はっはっは、デートじゃなかったのか{n}それとも、彼女とケンカでもしたのか？",
-        "translation": "Dad: Hahaha, weren't you supposed to be on a date?{n}Unless...you got into a fight with her?"
+        "translation": "Dad: Ha ha ha! Wasn't it a date?{n}Or did you two have a fight?"
       }
     },
     "hajime_home_later_visits_005": {
@@ -210,7 +210,7 @@
       },
       "text": {
         "reference": "父親：{first_name}、学校には、{n}真面目に行ってるか？{n}単位は、きちんと取れそうか？",
-        "translation": "Dad: {first_name}, have you{n}been taking your studies seriously?{n}Are you managing with your courses?"
+        "translation": "Dad: {first_name}, are you going to class{n}like you should?{n}Think you'll get your credits?"
       }
     },
     "hajime_home_later_visits_006": {
@@ -228,7 +228,7 @@
       },
       "text": {
         "reference": "父親：{first_name}、フリーターだか、{n}なんだか知らんが、アルバイトじゃない、{n}きちんとした仕事についたらどうだ？",
-        "translation": "Dad: {first_name}, how would you feel about getting{n}into proper employment, instead of all this part-time work?"
+        "translation": "Dad: {first_name}, I don't care what you call{n}it, but isn't it time you got a real job{n}instead of working part-time?"
       }
     },
     "hajime_home_later_visits_008": {
@@ -246,19 +246,19 @@
       },
       "text": {
         "reference": "父親：何っ！{first_name}！？{n}ウチの息子は、病院だ！{n}タチの悪い、いたずらは止めろ！！",
-        "translation": "Dad: What? {first_name}?!{n}My son's in the hospital!{n}Stop with your sick joke and get out of here!"
+        "translation": "Dad: What? {first_name}?!{n}My son is in the hospital!{n}Enough of your sick jokes!!"
       }
     },
     "hajime_home_later_visits_010": {
       "text": {
         "reference": "父親：その声は、私立探偵の……。{n}なぜ、息子の名を名乗るんだ？",
-        "translation": "Dad: That voice, you're that detective...{n}Why exactly are you using my son's name?"
+        "translation": "Dad: That voice... You're that private{n}detective. Why are you using my son's name?"
       }
     },
     "hajime_home_later_visits_011": {
       "text": {
         "reference": "父親：私立探偵？そんな、いかがわしい男に{n}話すことは何も無い！帰ってくれ！！",
-        "translation": "Dad: That private detective?{n}I've got nothing to say to guys like you! Get out!"
+        "translation": "Dad: A private detective? I've got nothing{n}to say to someone as shady as you!{n}Now leave!!"
       }
     },
     "hajime_home_later_visits_012": {
@@ -298,13 +298,13 @@
     "hajime_home_later_visits_017": {
       "text": {
         "reference": "DDS−NET：ただいま、{n}システムメンテナンス中につき、{n}アクセスできません。",
-        "translation": "DDS-NET: Our systems are down for maintenance.{n}Access to the service is currently unavailable."
+        "translation": "DDS-NET: Access is currently unavailable{n}due to system maintenance."
       }
     },
     "hajime_home_later_visits_018": {
       "text": {
         "reference": "＞行動の記録は、現在不可。",
-        "translation": "> You cannot save your progress at this time."
+        "translation": "> You can't save right now."
       }
     }
   }

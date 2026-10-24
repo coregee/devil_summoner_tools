@@ -108,6 +108,25 @@ dialogue alone.
 | 中央公園 | Central Park | |
 | 東亜TV | Toa TV | |
 | 業魔殿 | Gouma-den | Victor's hotel. |
+| 占いの館 | House of Fortune | Marie's shop, when named (often in quotes). Plain 占い屋 is `the fortune-teller's`. |
+| 喫茶「アフロ」 | Cafe Afro | |
+| 天堂組 / 組員 | Tendou-gumi / Tendou-gumi Member | Not "Tendou Group" or "Tendou family". |
+| 天堂天山 | Tenzan Tendou | |
+| 山城議員 | Councilman Yamashiro | |
+| 「組織」 | the Organization | Capitalized when it means the villains' organization. |
+| 擬似アストラル界 | Pseudo-Astral Plane | Different from the location 擬似異界 (Astral Plane). |
+| 三途の川 | River Styx | Charon's river. |
+| 無間地獄 | Avici Hell | |
+| 関帝聖君 / 関帝廟 | Guan Yu / Guan Di Temple | |
+| 大破壊 | Great Cataclysm | |
+| 現世 / 現界 | the world of the living / the real world | |
+| 妖気 | demonic energy | |
+| 龍脈 | dragon veins | |
+| 祠 | small shrine | 神社 is `shrine`. |
+| 暴力団 | yakuza | |
+| ゼミ | seminar | |
+| パソコン通信 | BBS | 1995 dial-up networking. |
+| （笑） | (laugh) | Not "lol". |
 | クローバー・ジム | Clover Gym | |
 | 探偵事務所 | detective agency; office | `office` in casual speech. |
 | デビルサマナー / サマナー | Devil Summoner / summoner | Capitalized as a title, lowercase as a common noun. |

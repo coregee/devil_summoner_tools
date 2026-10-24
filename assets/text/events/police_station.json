@@ -23,7 +23,7 @@
     "police_station_takeover_003": {
       "text": {
         "reference": "ところが、署内は化け物がウロウロして、{n}警部の所在も分からず、手が出せないのだ。{n}……ば、化け物が怖いわけじゃないぞ。",
-        "translation": "But monsters are roaming the station,{n}and I can't even find where the Inspector is held.{n}...N-Not that I'm afraid of monsters."
+        "translation": "But the place is crawling with monsters, and{n}I can't find the Inspector, so I'm stuck.{n}...N-Not that I'm afraid of monsters."
       }
     },
     "police_station_takeover_004": {
@@ -41,7 +41,7 @@
     "police_station_takeover_006": {
       "text": {
         "reference": "金には、かえられん。{n}……かえられんが、ヘソクリがパーだ……。{n}せっかく、ダービー当てたのに……。",
-        "translation": "You can't put a price on that.{n}...You can't, but there goes my secret nest egg.{n}And I finally won at the Derby..."
+        "translation": "Money doesn't matter.{n}...It doesn't, but there goes my secret stash...{n}And after I finally won on the Derby, too..."
       }
     },
     "police_station_takeover_007": {
@@ -53,7 +53,7 @@
     "police_station_takeover_008": {
       "text": {
         "reference": "おまえも、よく無事でいられるな。{n}お、おれは今、警部救出の作戦を考えている{n}ところだ。",
-        "translation": "How are you staying so calm?{n}I-I'm presently devising a plan{n}to rescue the Inspector."
+        "translation": "Amazing that you're still in one piece.{n}I-I'm currently working out a plan{n}to rescue the Inspector."
       }
     },
     "police_station_takeover_009": {
@@ -101,7 +101,7 @@
     "police_station_takeover_016": {
       "text": {
         "reference": "さらに、捜査を進めようとしたら、{n}署長が止めるように言って来やがった。{n}当然おれは、断った。",
-        "translation": "When I tried to take the investigation further,{n}the chief ordered me to stop.{n}Naturally, I refused."
+        "translation": "When I tried to dig deeper,{n}the chief told me to drop it.{n}Naturally, I refused."
       }
     },
     "police_station_takeover_017": {
@@ -119,13 +119,13 @@
     "police_station_takeover_019": {
       "text": {
         "reference": "ひと思いに署長をヤっちまえば、{n}化け物どもも、いなくなるかもしれんがな。",
-        "translation": "Maybe if someone puts the chief down for good,{n}the monsters will disappear with him."
+        "translation": "If you just take out the chief,{n}the monsters might go away with him."
       }
     },
     "police_station_takeover_020": {
       "text": {
         "reference": "＞百地警部は、脱出したようだ。",
-        "translation": "> Inspector Momochi appears to have escaped."
+        "translation": "> It seemed Inspector Momochi had escaped."
       }
     },
     "police_station_takeover_021": {
@@ -143,7 +143,7 @@
     "police_station_takeover_023": {
       "text": {
         "reference": "ちょろちょろと動いて、少々目障りだった{n}ので、シド・デイビスに始末させたはずだが{n}しぶとく生きていたようだな。",
-        "translation": "You kept scurrying about and became an eyesore,{n}so I had Sid Davis dispose of you.{n}It seems you were stubborn enough to survive."
+        "translation": "You were scurrying about and becoming{n}a nuisance, so I had Sid Davis deal with you.{n}Or so I thought. You're a stubborn one."
       }
     },
     "police_station_takeover_024": {
@@ -167,7 +167,7 @@
     "police_station_takeover_027": {
       "text": {
         "reference": "クバンダ：組織の大幹部たる我が手にかかり{n}死ねることを、幸せに思うがよい。",
-        "translation": "Kumbhanda: Consider yourself fortunate to die{n}by the hand of one of the organization's senior leaders."
+        "translation": "Kumbhanda: Consider yourself fortunate{n}to die at the hands of one of{n}the Organization's top leaders."
       }
     },
     "police_station_takeover_028": {
@@ -197,13 +197,13 @@
     "police_station_bystanders_003": {
       "text": {
         "reference": "警官：ひえー、悪魔が出たあ！{n}悪魔だ、やつらは悪魔なんだ。{n}お、俺は警官だぞぉ！",
-        "translation": "Police Officer: Aah! Demons!{n}They're demons! Real demons!{n}I-I'm a police officer, damn it!"
+        "translation": "Police Officer: Eeek! Demons!{n}They're demons! Real demons!{n}I-I'm a police officer, you know!"
       }
     },
     "police_station_bystanders_004": {
       "text": {
         "reference": "そうだ、俺は知らん。{n}あいつらの相手は{n}自衛隊が、すればいいんだ！",
-        "translation": "That's right, I don't know anything!{n}Let the Self-Defense Forces{n}deal with those things!"
+        "translation": "That's right, it's not my problem!{n}Let the Self-Defense Forces{n}deal with those things!"
       }
     },
     "police_station_bystanders_005": {

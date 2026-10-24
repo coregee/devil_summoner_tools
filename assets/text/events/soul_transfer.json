@@ -9,13 +9,13 @@
       },
       "text": {
         "reference": "怪しい神父：あなたハ、{n}{last_name}{first_name}さン、ですネ？",
-        "translation": "Suspicious Priest: You... by any chance are you{n}{first_name} {last_name}?"
+        "translation": "Suspicious Priest: You are{n}{first_name} {last_name}, are you not?"
       }
     },
     "sid_death_trap_001": {
       "text": {
         "reference": "私ハ、あなたニ、用事がありまス。{n}ちょっト、こちらに来てくださイ。",
-        "translation": "I believe I have some business with you.{n}Please, come this way for just a moment."
+        "translation": "I have some business with you.{n}Please, step this way for a moment."
       }
     },
     "sid_death_trap_002": {
@@ -24,7 +24,7 @@
       },
       "text": {
         "reference": "怪しい神父：さテ、{last_name}さン。{n}あなたハ、図書館で本を借りましたネ？",
-        "translation": "Suspicious Priest: Well then, {last_name}.{n}You checked out a certain book from the library, correct?"
+        "translation": "Suspicious Priest: Now then, {last_name}.{n}You borrowed a book from the library,{n}did you not?"
       }
     },
     "sid_death_trap_003": {
@@ -34,49 +34,49 @@
       },
       "text": {
         "reference": "申し遅れましタ。私、シド・デイビスと{n}いいまス。{last_name}{first_name}さン。{n}私にその本ヲ、わたすのでス。フッフッフ。",
-        "translation": "Ah, please excuse my manners.{n}My name is Sid Davis. {first_name} {last_name}, please turn that book over to me. Heh heh heh..."
+        "translation": "Forgive me, I neglected to introduce myself.{n}My name is Sid Davis. {first_name} {last_name},{n}you will hand that book to me. Heh heh heh."
       }
     },
     "sid_death_trap_004": {
       "text": {
         "reference": "何？持っていないですカ？{n}それハ、困りましたですネ。{n}でハ、あなたに用はありませン。",
-        "translation": "Hmm? You don't have it?{n}That certainly is bothersome.{n}Then, I have no further business with you."
+        "translation": "What? You do not have it?{n}That is most troublesome.{n}Then I have no further business with you."
       }
     },
     "sid_death_trap_005": {
       "text": {
         "reference": "死んでもらいまス。と言いたいところですガ{n}あなたモ、死にたくはないでしょウ。",
-        "translation": "I should say you will die here...{n}but I assume you would rather not?"
+        "translation": "I would say that you must now die...{n}but I imagine you would rather not."
       }
     },
     "sid_death_trap_006": {
       "text": {
         "reference": "私から逃げのびテ、このビルから出られたラ{n}見逃してあげましょウ。フッフッフ。{n}さア、お逃げなさイ。",
-        "translation": "If you can escape me and make it out of this building,{n}I will spare you. Heh heh heh. Now, run."
+        "translation": "Escape me and get out of this building,{n}and I shall let you go. Heh heh heh.{n}Now then, run along."
       }
     },
     "sid_death_trap_007": {
       "text": {
         "reference": "シド：さア、逃げ回りなさイ。{n}むだな努力をするのでス。{n}フッフッフ。",
-        "translation": "Sid: Go on, keep running.{n}Struggle all you like.{n}Heh heh heh."
+        "translation": "Sid: Go on, run about.{n}Make your futile efforts.{n}Heh heh heh."
       }
     },
     "sid_death_trap_008": {
       "text": {
         "reference": "シド：もっト、逃げ回っテ{n}せいぜイ、私を楽しませてくださいヨ。{n}フッフッフ。",
-        "translation": "Sid: Keep running. Do your very best to entertain me.{n}Heh heh heh."
+        "translation": "Sid: Run some more,{n}and do try to amuse me.{n}Heh heh heh."
       }
     },
     "sid_death_trap_009": {
       "text": {
         "reference": "シド：どこへ行くのですカ？{n}こちらハ、行き止まりですヨ。{n}フッフッフ。",
-        "translation": "Sid: Where are you going?{n}This path is a dead end.{n}Heh heh heh..."
+        "translation": "Sid: Where are you going?{n}This way is a dead end.{n}Heh heh heh."
       }
     },
     "sid_death_trap_010": {
       "text": {
         "reference": "シド：フッフッフッフッフッフ。{n}さア、お遊びはここまでにしましょうカ。",
-        "translation": "Sid: Heh heh heh...{n}Well now, this game has gone on long enough."
+        "translation": "Sid: Heh heh heh heh heh heh.{n}Well now, shall we end our little game here?"
       }
     },
     "sid_death_trap_011": {
@@ -86,19 +86,19 @@
       },
       "text": {
         "reference": "私から逃げられなかっタ、{n}{last_name}{first_name}さんにハ、{n}死んでいただきましょウ。",
-        "translation": "Since you failed to escape me,{n}{first_name} {last_name}, you shall die."
+        "translation": "Since you could not escape me,{n}{first_name} {last_name},{n}I must ask you to die."
       }
     },
     "sid_death_trap_012": {
       "text": {
         "reference": "さすがニ、出口の無いビルからハ、{n}逃げ出せませんでしたネ。{n}フッフッフッフ…………。",
-        "translation": "Of course, you could never escape from a building{n}with no exit.{n}Heh heh heh..."
+        "translation": "Naturally, there was no escaping{n}a building with no exit.{n}Heh heh heh heh..."
       }
     },
     "sid_death_trap_013": {
       "text": {
         "reference": "おヤ、もうお倒れなのですカ。なぜですカ？",
-        "translation": "Oh, you've collapsed already. Why might that be?"
+        "translation": "Oh my, collapsed already? Whatever for?"
       }
     },
     "sanzu_river_and_revival_000": {
@@ -114,7 +114,7 @@
       },
       "text": {
         "reference": "私はカロン、三途の川の渡し守。{n}そなた、{last_name}{first_name}であった魂は、{n}これより、川を渡るものなり……",
-        "translation": "I am Charon, ferryman of the River Styx.{n}You, the soul of {first_name} {last_name},{n}are to cross the river..."
+        "translation": "I am Charon, ferryman of the River Styx.{n}You, the soul that was {first_name} {last_name},{n}shall now cross the river..."
       }
     },
     "sanzu_river_and_revival_002": {
@@ -126,7 +126,7 @@
     "sanzu_river_and_revival_003": {
       "text": {
         "reference": "では、立ち去るがよい……。",
-        "translation": "In that case, you should leave this place..."
+        "translation": "Then be on your way..."
       }
     },
     "sanzu_river_and_revival_004": {
@@ -148,7 +148,7 @@
       },
       "text": {
         "reference": "では、代わりの身体へ送り返すとしよう。{n}さらば、{last_name}{first_name}であった魂よ……。",
-        "translation": "Very well. I shall send you back in another body. Farewell,{n}soul once known as {first_name} {last_name}..."
+        "translation": "Then I shall send you back to another body.{n}Farewell, soul that was{n}{first_name} {last_name}..."
       }
     },
     "sanzu_river_and_revival_007": {
@@ -190,7 +190,7 @@
     "sanzu_river_and_revival_013": {
       "text": {
         "reference": "こうしちゃ、いられないわ。{n}病院の中は、大騒ぎよ。{n}さっさと、ずらかったほうが利口よ。",
-        "translation": "We can't stay here.{n}The whole hospital is in an uproar.{n}We'd better make ourselves scarce."
+        "translation": "We can't hang around here.{n}The whole hospital's in an uproar.{n}Smart thing is to clear out, fast."
       }
     },
     "sanzu_river_and_revival_014": {
@@ -331,25 +331,25 @@
     "pseudo_astral_identity_019": {
       "text": {
         "reference": "もウ、彼の仕事は終わリ、我々の「組織」{n}にハ、用のない存在になっていたのでス。",
-        "translation": "His work was finished,{n}and our organization had no further use for him."
+        "translation": "His work was finished,{n}and our Organization had no further use for him."
       }
     },
     "pseudo_astral_identity_020": {
       "text": {
         "reference": "用なし幹部を始末してくれテ、どうも{n}ありがとウ。",
-        "translation": "Thank you for disposing of a senior leader{n}we no longer needed."
+        "translation": "Thank you so much for disposing{n}of an executive we no longer needed."
       }
     },
     "pseudo_astral_identity_021": {
       "text": {
         "reference": "でハ、死に損ないの2人ヲ、まとめて始末{n}してあげましょウ。",
-        "translation": "Now I shall finish off both of you{n}who cheated death."
+        "translation": "Now I shall dispose of the two of you{n}who failed to die, both at once."
       }
     },
     "pseudo_astral_identity_022": {
       "text": {
         "reference": "シド：く、くそッ、覚えていなさイッ。{n}これ以上、あなたがたと遊んでいるヒマハ、{n}ありませン。",
-        "translation": "Sid: D-Damn you! Remember this!{n}I have no more time to play with you."
+        "translation": "Sid: D-damn you! You will regret this!{n}I have no more time to waste{n}playing with you."
       }
     },
     "pseudo_astral_identity_023": {
@@ -404,7 +404,7 @@
     "pseudo_astral_identity_030": {
       "text": {
         "reference": "キョウジ：……シドの仕業だ。ヤツが彼女の{n}魂を呼び戻したに違いない。{n}早く戻らねば……。",
-        "translation": "Kyouji: ...Sid's doing. He must have called{n}her soul back to her body.{n}We have to get back, now..."
+        "translation": "Kyouji: ...Sid's doing. He must have called{n}her soul back to her body.{n}I have to get back, fast..."
       }
     },
     "pseudo_astral_identity_031": {
@@ -414,7 +414,7 @@
       },
       "text": {
         "reference": "だが、{last_name}{first_name}。{n}おまえは、現世には戻れない。",
-        "translation": "But {first_name} {last_name}...{n}you won't be returning to the human world."
+        "translation": "But {first_name} {last_name}...{n}you can't go back to the world of the living."
       }
     },
     "pseudo_astral_identity_032": {
@@ -426,7 +426,7 @@
     "pseudo_astral_identity_033": {
       "text": {
         "reference": "おれの魂が、現世に戻れば、{n}デビルサマナー、葛葉キョウジが{n}真の姿に戻る。",
-        "translation": "Once my soul returns to the human world,{n}the Devil Summoner Kyouji Kuzunoha{n}will finally be whole again."
+        "translation": "Once my soul returns to the world of the{n}living, Kyouji Kuzunoha, Devil Summoner,{n}will be himself again."
       }
     },
     "pseudo_astral_identity_034": {
@@ -445,7 +445,7 @@
       },
       "text": {
         "reference": "さらばだ、{last_name}。{n}やすらかに、眠ってくれ……あばよ。",
-        "translation": "So long, {last_name}.{n}Rest in peace... Later."
+        "translation": "This is goodbye, {last_name}.{n}Rest in peace... So long."
       }
     },
     "pseudo_astral_identity_036": {
@@ -455,7 +455,7 @@
       },
       "text": {
         "reference": "カロン：{last_name}{first_name}であった魂よ。{n}今度こそ、三途の川を渡るときがきたな。",
-        "translation": "Charon: Soul once known as {first_name} {last_name}.{n}This time, the hour has truly come{n}for you to cross the River Styx."
+        "translation": "Charon: Soul that was{n}{first_name} {last_name}, this time the hour{n}has truly come to cross the River Styx."
       }
     },
     "pseudo_astral_identity_037": {
@@ -465,7 +465,7 @@
       },
       "text": {
         "reference": "死せる魂は、川を渡る定め。{n}汝、{last_name}{first_name}であった魂は、{n}これより、川を渡るものなり……。",
-        "translation": "The souls of the dead are fated to cross.{n}You, the soul once known as {first_name} {last_name},{n}shall now cross the river..."
+        "translation": "The souls of the dead are fated to cross.{n}You, the soul that was {first_name} {last_name},{n}shall now cross the river..."
       }
     },
     "pseudo_astral_identity_038": {
@@ -481,7 +481,7 @@
       },
       "text": {
         "reference": "そなたは、{last_name}{first_name}であった魂。{n}そなたに問う。",
-        "translation": "You are the soul once known as{n}{first_name} {last_name}. I have a question for you."
+        "translation": "You are the soul that was{n}{first_name} {last_name}.{n}I have a question for you."
       }
     },
     "pseudo_astral_identity_040": {
@@ -511,7 +511,7 @@
     "pseudo_astral_identity_044": {
       "text": {
         "reference": "そして、そなたの死を願ったのは、{n}葛葉キョウジ。",
-        "translation": "And it was Kyouji Kuzunoha{n}who asked for you to die."
+        "translation": "And the one who wished for your death{n}was Kyouji Kuzunoha."
       }
     },
     "pseudo_astral_identity_045": {
@@ -529,7 +529,7 @@
     "pseudo_astral_identity_047": {
       "text": {
         "reference": "そなたがシドに殺される直前、私にそなたの{n}魂をぬき出させ、自分の身体に入れさせた。{n}そなたの魂を自分の身代わりにしたのだ。",
-        "translation": "Just before Sid killed you, he had me extract{n}your soul and place it in his own body.{n}He made your soul his stand-in."
+        "translation": "Just before Sid could kill you, Kyouji had me{n}draw out your soul and put it in his body.{n}He made your soul his stand-in."
       }
     },
     "pseudo_astral_identity_048": {
@@ -539,7 +539,7 @@
       },
       "text": {
         "reference": "すべては、デビルサマナーの使命を果たす{n}ため……とはいえ、{last_name}{first_name}、{n}そなたが犠牲になったことには変わりない。",
-        "translation": "He did it all to fulfill his duty as a Devil Summoner...{n}Even so, {first_name} {last_name},{n}the fact remains that you were sacrificed."
+        "translation": "All of it to fulfill his duty as a Devil{n}Summoner... Even so, {first_name} {last_name},{n}it remains that you were sacrificed."
       }
     },
     "pseudo_astral_identity_049": {
@@ -572,7 +572,7 @@
       },
       "text": {
         "reference": "……なぜ、{last_name}がそこにいる！？{n}無間地獄を抜け出して来たのか？",
-        "translation": "...Why is {last_name} there?!{n}He escaped Avici Hell?"
+        "translation": "...Why is {last_name} there?!{n}Did he get out of Avici Hell?"
       }
     },
     "pseudo_astral_identity_054": {
@@ -590,7 +590,7 @@
     "pseudo_astral_identity_056": {
       "text": {
         "reference": "カロン：いい加減にあきらめるのだ。{n}残念ながら、おまえの魂は身体と離れすぎて{n}しまった。もう、戻れまい。",
-        "translation": "Charon: Enough. Give it up.{n}Regrettably, your soul has been separated{n}from your body for too long. It can no longer return."
+        "translation": "Charon: Enough. Give it up.{n}Regrettably, your soul has been apart{n}from your body too long. It cannot return."
       }
     },
     "pseudo_astral_identity_057": {
@@ -612,7 +612,7 @@
     "pseudo_astral_identity_059": {
       "text": {
         "reference": "おまえは、この若造に自分の代わりなど{n}つとまらないと言っていたが、{n}あながち、そうとも言えないのではないか？",
-        "translation": "You said this youngster could never serve{n}as your replacement, but perhaps{n}you judged him too quickly."
+        "translation": "You said this youngster could never take{n}your place, but perhaps that is not so{n}after all?"
       }
     },
     "pseudo_astral_identity_060": {
@@ -644,7 +644,7 @@
       },
       "text": {
         "reference": "では、{last_name}{first_name}よ、葛葉キョウジの身体{n}に向かい、現世へと戻るがよい。",
-        "translation": "Then go, {first_name} {last_name}.{n}Return to the human world{n}and enter Kyouji Kuzunoha's body."
+        "translation": "Then go, {first_name} {last_name}.{n}Enter Kyouji Kuzunoha's body{n}and return to the world of the living."
       }
     },
     "pseudo_astral_identity_064": {
@@ -704,7 +704,7 @@
     "avici_hell_000": {
       "text": {
         "reference": "ガキ：また、誰か落ちて来たか。",
-        "translation": "Gaki: Someone else has fallen down here."
+        "translation": "Gaki: Huh, somebody else fell in."
       }
     },
     "avici_hell_001": {

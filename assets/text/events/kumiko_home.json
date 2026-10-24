@@ -5,13 +5,13 @@
     "hibarigaoka_neighborhood_000": {
       "text": {
         "reference": "＞誰もいない……。",
-        "translation": "> No one is here..."
+        "translation": "> No one was there..."
       }
     },
     "hibarigaoka_neighborhood_001": {
       "text": {
         "reference": "マンションの住人：近くに大学があって{n}静かで住みやすいところだよ。{n}たまに、学生が騒がしい時はあるけどね。",
-        "translation": "Apartment Resident: There's a university nearby,{n}and it's quiet and easy to live here.{n}The students get noisy now and then, though."
+        "translation": "Apartment Resident: There's a university nearby,{n}and it's a quiet, pleasant place to live.{n}The students get rowdy sometimes, though."
       }
     },
     "kashiyama_apartment_ghost_000": {
@@ -41,13 +41,13 @@
     "kumiko_abduction_000": {
       "text": {
         "reference": "ストリゲス：この家にいる、久美子とかいう{n}女をさらってくれば、いいんだよねぇ。",
-        "translation": "Strix: We just need to abduct the woman called{n}Kumiko who lives here and bring her back, right?"
+        "translation": "Strix: All we have to do is snatch the woman{n}called Kumiko from this house, right?"
       }
     },
     "kumiko_abduction_001": {
       "text": {
         "reference": "シド様にしては、楽な仕事を{n}お言いつけだねぇ。",
-        "translation": "This is an awfully easy assignment{n}for Lord Sid to give us."
+        "translation": "Pretty easy orders,{n}coming from Lord Sid."
       }
     },
     "kumiko_abduction_002": {
@@ -59,7 +59,7 @@
     "kumiko_abduction_003": {
       "text": {
         "reference": "シド様は、邪魔するものは殺せと言われた。{n}おまえは、邪魔者だ。殺す。",
-        "translation": "Lord Sid told us to kill anyone who interferes.{n}You are an obstacle. I will kill you."
+        "translation": "Lord Sid said to kill anyone in the way.{n}You are in the way. I will kill you."
       }
     },
     "kumiko_abduction_004": {
@@ -113,19 +113,19 @@
     "kumiko_abduction_012": {
       "text": {
         "reference": "レイ：あれは……まさか……。",
-        "translation": "Rei: Was that... Could it be...?"
+        "translation": "Rei: That was... No, it can't be..."
       }
     },
     "kumiko_abduction_013": {
       "text": {
         "reference": "今のヤツ、何かの霊に取りつかれて動いてる{n}みたいだった……。{n}もしかすると、本物のキョウジの……。",
-        "translation": "It looked like some spirit was possessing{n}and controlling him...{n}Could it be the real Kyouji's...?"
+        "translation": "That guy moved like some spirit{n}had possessed him...{n}Could it be the real Kyouji's...?"
       }
     },
     "kumiko_abduction_014": {
       "text": {
         "reference": "ちょっと、気になるわ。ヤツを追ってみる。{n}あんたのオフィスで待ってて。{n}何か分かったら、行くから。",
-        "translation": "I need to know. I'll follow him.{n}Wait for me at your office.{n}I'll come by if I learn anything."
+        "translation": "Something's bugging me. I'll go after him.{n}Wait for me at your office.{n}I'll come by if I find anything."
       }
     },
     "kumiko_abduction_015": {
@@ -143,7 +143,7 @@
     "kumiko_abduction_017": {
       "text": {
         "reference": "だが、今度はきさまが犯人じゃないらしい。{n}ガイ者も無事に戻っているし、{n}おれの仕事じゃないな。",
-        "translation": "But it looks like you aren't the culprit this time.{n}The victim is back unharmed,{n}so this is no longer my problem."
+        "translation": "But looks like you're not the perp this time.{n}The victim's back safe,{n}so this isn't my job."
       }
     },
     "kumiko_abduction_018": {
@@ -189,7 +189,7 @@
     "kumiko_home_visits_004": {
       "text": {
         "reference": "意識不明のままで、臨海病院に{n}運びこまれている方ですね。",
-        "translation": "You're the one who was taken to Rinkai Hospital{n}and still hasn't regained consciousness."
+        "translation": "Isn't that the young man who was taken{n}to Rinkai Hospital and is still unconscious?"
       }
     },
     "kumiko_home_visits_005": {
@@ -204,7 +204,7 @@
     "kumiko_home_visits_006": {
       "text": {
         "reference": "存じ上げませんわ。お引き取りください。",
-        "translation": "I do not know you. Please leave."
+        "translation": "I'm afraid I don't know you. Please leave."
       }
     },
     "kumiko_home_visits_007": {

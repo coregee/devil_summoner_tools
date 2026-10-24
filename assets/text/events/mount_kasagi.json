@@ -17,7 +17,7 @@
     "mount_kasagi_truth_002": {
       "text": {
         "reference": "山歩き愛好家：山に入っちゃいけない。{n}これ以上奥に入ると、本当に迷って{n}出られなくなる。",
-        "translation": "Hiking Enthusiast: Don't go into the mountain.{n}Any farther in, and you'll truly get lost{n}and never find your way out."
+        "translation": "Hiking Enthusiast: Stay off the mountain.{n}Go any farther in, and you'll get lost{n}for real and never find your way out."
       }
     },
     "mount_kasagi_truth_003": {
@@ -50,7 +50,7 @@
     "mount_kasagi_truth_007": {
       "text": {
         "reference": "……た、頼む。命だけは、命だけは、{n}助けてくれ。私には、やり残した研究が{n}まだまだたくさんあるんだ。",
-        "translation": "...P-Please. Spare my life, just my life.{n}I still have so much research left{n}unfinished."
+        "translation": "...P-Please. Spare my life, I beg you.{n}I still have so much research{n}left to finish."
       }
     },
     "mount_kasagi_truth_008": {
@@ -122,7 +122,7 @@
     "mount_kasagi_truth_019": {
       "text": {
         "reference": "レイ：まあ、命までなくしたら研究どころ{n}じゃないんだから……。",
-        "translation": "Rei: Well, you couldn't exactly keep researching{n}if you'd lost your life, too..."
+        "translation": "Rei: Well, you can't do much research{n}if you're dead..."
       }
     },
     "mount_kasagi_truth_020": {
@@ -155,7 +155,7 @@
       },
       "text": {
         "reference": "この、{city}市一帯には、今まで知られて{n}いなかった、古代史上の事件があったのだ。",
-        "translation": "Across the area now known as {city},{n}an event occurred in ancient history that remains unknown."
+        "translation": "Long ago, in the region around {city},{n}there occurred an event unknown{n}to history."
       }
     },
     "mount_kasagi_truth_025": {
@@ -173,7 +173,7 @@
     "mount_kasagi_truth_027": {
       "text": {
         "reference": "あるいは、屈することをいさぎよしとせず、{n}最後の一人まで、戦いぬいて滅びるか。",
-        "translation": "Or refuse the disgrace of submission,{n}fight to the last person, and perish."
+        "translation": "Or refuse the disgrace of submission,{n}fight to the last man, and perish."
       }
     },
     "mount_kasagi_truth_028": {
@@ -290,7 +290,7 @@
     "mount_kasagi_truth_046": {
       "text": {
         "reference": "吾妻教授：確か、雲雀ヶ丘の高級住宅地に{n}住んでいたはず……。",
-        "translation": "Professor Azuma: If I recall, she lives{n}in Hibarigaoka's luxury residential district..."
+        "translation": "Professor Azuma: If I recall, she lives{n}in the upscale part of Hibarigaoka..."
       }
     },
     "mount_kasagi_truth_047": {
@@ -302,25 +302,25 @@
     "mount_kasagi_caretaker_000": {
       "text": {
         "reference": "おじさん：どうやら、{n}無断で山小屋を使っている{n}人がいるみたいなんだがね。",
-        "translation": "Mister: It seems{n}someone has been using the mountain cabin{n}without permission."
+        "translation": "Caretaker: Looks like someone's been{n}using the mountain cabin{n}without permission."
       }
     },
     "mount_kasagi_caretaker_001": {
       "text": {
         "reference": "そういうの困るんだよねぇ、{n}管理してる私が後から怒られるんだよ。{n}ま、君にグチをこぼしても仕方ないがね。",
-        "translation": "That puts me in a bind.{n}I'm the caretaker, so I'll get blamed later.{n}Well, there's no point complaining to you."
+        "translation": "That sort of thing is a real headache.{n}I'm the caretaker, so I'm the one who{n}gets chewed out. Not that griping helps."
       }
     },
     "mount_kasagi_caretaker_002": {
       "text": {
         "reference": "おじさん：この道は、{n}笠置山の登山道に、つながっている。{n}山道は険しいから十分注意しなさい。",
-        "translation": "Mister: This road leads{n}to the Mount Kasagi hiking trail.{n}The path is steep, so be very careful."
+        "translation": "Caretaker: This road leads{n}to the Mount Kasagi hiking trail.{n}The path is steep, so be very careful."
       }
     },
     "mount_kasagi_caretaker_003": {
       "text": {
         "reference": "おじさん：そこのかさぎ荘で、{n}一もんちゃく、あったそうだ。{n}いや、それともまだ続いているんかな。",
-        "translation": "Mister: There was some sort of trouble{n}at Kasagi Manor over there.{n}Or perhaps it's still going on."
+        "translation": "Caretaker: Sounds like there was some trouble{n}at Kasagi Manor over there.{n}Or maybe it's still going on."
       }
     },
     "mount_kasagi_caretaker_004": {

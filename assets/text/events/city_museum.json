@@ -23,7 +23,7 @@
     "city_museum_collection_002": {
       "text": {
         "reference": "セキュリティがかかっていて、{n}入り口は、開きそうにない。",
-        "translation": "The entrance is locked by the security system{n}and does not look as though it will open."
+        "translation": "The security system is on.{n}The entrance won't open."
       }
     },
     "city_museum_collection_003": {
@@ -36,14 +36,14 @@
     "city_museum_collection_004": {
       "text": {
         "reference": "久美子：わたし、学校へ行く用があるの。{n}笠置山に行きましょ。",
-        "translation": "Kumiko: I have business at school.{n}Let's go to Mount Kasagi.",
+        "translation": "Kumiko: I need to stop by the university.{n}Let's go to Mount Kasagi.",
         "note": "Stale, out-of-sequence navigation text. The source itself pairs school business with Mount Kasagi; the apparent contradiction is retained literally."
       }
     },
     "city_museum_collection_005": {
       "text": {
         "reference": "＞博物館の所蔵品が展示されていたが、{n}持ち去られた。",
-        "translation": "> A piece from the museum's collection was here,{n}but has been taken."
+        "translation": "> A piece from the museum's collection{n}had been on display here, but it was gone."
       }
     },
     "city_museum_collection_006": {
@@ -52,7 +52,7 @@
       },
       "text": {
         "reference": "＞博物館の所蔵品、{item_name}{n}が展示されている。",
-        "translation": "> {item_name}, from the museum collection,{n}is on display."
+        "translation": "> {item_name}, from the museum collection,{n}was on display."
       }
     },
     "city_museum_collection_007": {
@@ -97,19 +97,19 @@
     "city_museum_collection_013": {
       "text": {
         "reference": "＞博物館の所蔵品、珍しいツボが{n}展示されている。",
-        "translation": "> A Rare Vase from the museum collection{n}is on display."
+        "translation": "> A Rare Vase from the museum collection{n}was on display."
       }
     },
     "city_museum_collection_014": {
       "text": {
         "reference": "＞博物館の所蔵品、美しい絵が{n}展示されている。",
-        "translation": "> A Beautiful Painting from the museum collection{n}is on display."
+        "translation": "> A Beautiful Painting from the museum{n}collection was on display."
       }
     },
     "city_museum_collection_015": {
       "text": {
         "reference": "＞博物館の所蔵品、高価な像が{n}展示されている。",
-        "translation": "> A Valuable Statue from the museum collection{n}is on display."
+        "translation": "> A Valuable Statue from the museum collection{n}was on display."
       }
     },
     "city_museum_dantalian_000": {
@@ -127,13 +127,13 @@
     "city_museum_dantalian_002": {
       "text": {
         "reference": "＞レイが、ブロンズ像になってしまった。",
-        "translation": "> Rei has been turned into a bronze statue."
+        "translation": "> Rei was turned into a bronze statue."
       }
     },
     "city_museum_dantalian_003": {
       "text": {
         "reference": "悪魔：見事にワナにかかったな。{n}美しい像が出来たぞ。",
-        "translation": "Demon: You fell beautifully into my trap.{n}What a lovely statue I've made."
+        "translation": "Demon: You fell right into my trap.{n}What a lovely statue you make."
       }
     },
     "city_museum_dantalian_004": {
@@ -151,7 +151,7 @@
     "city_museum_dantalian_006": {
       "text": {
         "reference": "＞博物館に取りついていた、{n}堕天使ダンタリアンがいた部屋。",
-        "translation": "> The room where Fallen Dantalian,{n}who possessed the museum, was found."
+        "translation": "> This was the room where Fallen Dantalian,{n}who had haunted the museum, once lurked."
       }
     },
     "city_museum_dantalian_007": {
@@ -169,7 +169,7 @@
     "city_museum_dantalian_009": {
       "text": {
         "reference": "だが、私が求めているのは物自体ではない。{n}物に取りつかれた、愚かな人間の魂だ。",
-        "translation": "But I do not seek the objects themselves.{n}I seek the souls of fools possessed by possessions."
+        "translation": "But it is not the objects themselves I seek.{n}It is the souls of the fools obsessed{n}with them."
       }
     },
     "city_museum_dantalian_010": {
@@ -187,7 +187,7 @@
     "city_museum_dantalian_012": {
       "text": {
         "reference": "では、君もここに倒れ、無念の想いと化して{n}私のエナジーとなるがよい。",
-        "translation": "Now you, too, shall fall here, turn into regret,{n}and become my energy."
+        "translation": "Now you, too, shall fall here.{n}Your regret shall become my energy."
       }
     },
     "city_museum_dantalian_013": {
@@ -214,7 +214,7 @@
     "city_museum_dantalian_016": {
       "text": {
         "reference": "ここに来るのは、{n}あまりいい気分じゃないわね。",
-        "translation": "Coming back here{n}doesn't feel very good."
+        "translation": "I'm not thrilled about being back here."
       }
     },
     "city_museum_dantalian_017": {
@@ -232,31 +232,31 @@
     "city_museum_dantalian_019": {
       "text": {
         "reference": "レイ：……助けてくれたのね。{n}ありがとう……本当に……。",
-        "translation": "Rei: ...You saved me.{n}Thank you... Truly..."
+        "translation": "Rei: ...You saved me.{n}Thank you... Really..."
       }
     },
     "city_museum_dantalian_020": {
       "text": {
         "reference": "以前のキョウジだったら、こんな時は、{n}私を見捨てて、絶対に助けてはくれなかった{n}はずだわ。",
-        "translation": "The old Kyouji would have abandoned me{n}at a time like this. He never would{n}have come to save me."
+        "translation": "The old Kyouji would have left me behind{n}at a time like this. He'd never have{n}come to save me."
       }
     },
     "city_museum_dantalian_021": {
       "text": {
         "reference": "……今まで、あなたを疑ってたけど、{n}あなたが、本当にキョウジなのか誰なのか{n}もうどうでもいいわ。",
-        "translation": "...I've doubted you until now,{n}but I no longer care whether you're really Kyouji{n}or who you actually are."
+        "translation": "...I've had my doubts about you,{n}but I don't care anymore whether you're{n}really Kyouji or someone else."
       }
     },
     "city_museum_dantalian_022": {
       "text": {
         "reference": "私を助けてくれた、この借りを返したいし{n}……それに、あなたが以前のキョウジ以上{n}に信頼できる人物だって分かった。",
-        "translation": "I want to repay you for saving me...{n}And now I know I can trust you even more{n}than the old Kyouji."
+        "translation": "I want to pay you back for saving me...{n}And now I know you're someone I can trust{n}even more than the old Kyouji."
       }
     },
     "city_museum_dantalian_023": {
       "text": {
         "reference": "あらためて、これからもパートナーとして{n}協力させてもらうわ。",
-        "translation": "So let me begin again and keep working with you{n}as your partner."
+        "translation": "So let's make it official. From now on,{n}I'll keep working with you as your partner."
       }
     },
     "city_museum_dantalian_024": {
@@ -268,7 +268,7 @@
     "city_museum_dantalian_025": {
       "text": {
         "reference": "＞レイのブロンズ像がある。{n}レイの思念が伝わってくる…………。",
-        "translation": "> Rei's bronze statue is here.{n}Her thoughts reach you..."
+        "translation": "> Rei's bronze statue stood here.{n}You could sense her thoughts..."
       }
     },
     "city_museum_dantalian_026": {
@@ -286,13 +286,13 @@
     "city_museum_dantalian_028": {
       "text": {
         "reference": "＞展示室には、封印のために建てられた{n}はずの祠が、置かれている。",
-        "translation": "> A shrine that should have been erected{n}as a seal is displayed in the gallery."
+        "translation": "> In the gallery stood a shrine{n}that was supposed to have been built as a seal."
       }
     },
     "city_museum_dantalian_029": {
       "text": {
         "reference": "レイ：……なぜ、こんなところに{n}こんなものが……ねえ、見て。",
-        "translation": "Rei: ...Why is something like this{n}in a place like this? Hey, look."
+        "translation": "Rei: ...Why would something like this{n}be here, of all places...? Hey, look."
       }
     },
     "city_museum_dantalian_030": {
@@ -310,7 +310,7 @@
     "city_museum_dantalian_032": {
       "text": {
         "reference": "と、書かれている。",
-        "translation": "So reads the placard."
+        "translation": "So read the placard."
       }
     },
     "city_museum_dantalian_033": {
@@ -328,13 +328,13 @@
     "city_museum_dantalian_035": {
       "text": {
         "reference": "封印の力は、ますます弱まってしまう。{n}これは、どう考えても意図してやっていると{n}しか思えないわ。",
-        "translation": "weaken it even further.{n}However I look at this,{n}it must have been done deliberately."
+        "translation": "weaken it even more.{n}No matter how I look at it,{n}someone did this on purpose."
       }
     },
     "city_museum_dantalian_036": {
       "text": {
         "reference": "＞展示室に祠が展示されている。",
-        "translation": "> A shrine is displayed in the gallery."
+        "translation": "> A shrine was on display in the gallery."
       }
     },
     "city_museum_dantalian_037": {
@@ -370,7 +370,7 @@
     "rinkai_park_museum_visitors_004": {
       "text": {
         "reference": "女：え、違うの？{n}うっそー、信じられなーい。",
-        "translation": "Woman: What, you're not?{n}No way. I can't believe this."
+        "translation": "Woman: What, you're not?{n}No way. I can't believe it."
       }
     },
     "rinkai_park_museum_visitors_005": {
@@ -412,7 +412,7 @@
     "rinkai_park_museum_visitors_011": {
       "text": {
         "reference": "女：そんなこと知らないわよ。{n}チケットガイドで確かめなかったの？",
-        "translation": "Woman: I don't care what it said.{n}Didn't you check with the ticket office?"
+        "translation": "Woman: Don't ask me.{n}Didn't you check with the ticket agency?"
       }
     },
     "rinkai_park_museum_visitors_012": {
@@ -454,7 +454,7 @@
     "rinkai_park_museum_visitors_018": {
       "text": {
         "reference": "女：内装とか、ずいぶんひどく汚された{n}みたいよ。何も盗まれなかったのが、{n}救いといえば救いかしら。",
-        "translation": "Woman: The interior was badly vandalized.{n}I suppose the one saving grace is that{n}nothing was stolen."
+        "translation": "Woman: Looks like the inside got trashed pretty{n}badly. I suppose the one saving grace{n}is that nothing was stolen."
       }
     },
     "rinkai_park_museum_visitors_019": {
@@ -472,7 +472,7 @@
     "rinkai_park_museum_visitors_021": {
       "text": {
         "reference": "男：まったく、ヒドイことする奴が{n}いるもんだ。きっと、闇ルートで金に{n}換えて、高飛びするんだろうな。",
-        "translation": "Man: Some people are truly despicable.{n}They'll sell it all on the black market{n}and flee the country, no doubt."
+        "translation": "Man: Some people are just rotten.{n}I bet they'll sell it all on the black market{n}and skip the country."
       }
     },
     "rinkai_park_museum_visitors_022": {

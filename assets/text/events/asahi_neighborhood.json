@@ -8,7 +8,7 @@
       },
       "text": {
         "reference": "友人：{first_name}？………じゃねえよな。{n}わりぃ、他人すぎる人違いだった。",
-        "translation": "Friend: {first_name}...? Nah, couldn't be.{n}Sorry. I got you mixed up with a total stranger."
+        "translation": "Friend: {first_name}...? Nah, couldn't be.{n}Sorry. Wrong guy--totally wrong guy."
       }
     },
     "asahi_friends_001": {
@@ -29,7 +29,7 @@
       },
       "text": {
         "reference": "友人：あーあ、やりきれねえよな。{n}意識ねえんじゃ、さすがに{n}{first_name}もだめだろうな。",
-        "translation": "Friend: Damn, this is too much.{n}With {first_name} still unconscious,{n}I guess there may be no hope."
+        "translation": "Friend: Damn, I can't take this.{n}If he's still unconscious, even {first_name}{n}probably won't pull through."
       }
     },
     "asahi_friends_004": {
@@ -101,7 +101,7 @@
       },
       "text": {
         "reference": "友人：{first_name}くんが{n}あんなことになるなんて………{n}これじゃ秦野さんが、かわいそう。",
-        "translation": "Friend: I can't believe{n}this happened to {first_name}...{n}Poor Kumiko Hatano."
+        "translation": "Friend: I can't believe this happened{n}to {first_name}...{n}Poor Kumiko."
       }
     },
     "asahi_friends_013": {
@@ -119,7 +119,7 @@
       },
       "text": {
         "reference": "友人：{first_name}くん元気？{n}仕事がんばってね。",
-        "translation": "Friend: How are you, {first_name}?{n}Keep working hard."
+        "translation": "Friend: How are you, {first_name}?{n}Good luck with work."
       }
     },
     "asahi_friends_015": {
@@ -191,13 +191,13 @@
     "asahi_neighbors_005": {
       "text": {
         "reference": "なんでも工事現場で倒れていたらしくて、{n}原因がわからないんですって。",
-        "translation": "Apparently, he was found collapsed at a construction site,{n}and they don't know why."
+        "translation": "Apparently he was found collapsed{n}at a construction site, and nobody knows why."
       }
     },
     "asahi_neighbors_006": {
       "text": {
         "reference": "変なことする子には、{n}見えなかったんだけどねぇ………",
-        "translation": "He never seemed like the type{n}to do anything strange..."
+        "translation": "He never seemed like the type{n}to get mixed up in anything weird..."
       }
     },
     "asahi_neighbors_007": {
@@ -263,13 +263,13 @@
     "asahi_neighbors_017": {
       "text": {
         "reference": "近所の人：ふう………{n}働くって字を忘れちまったなぁ。{n}お兄さんも俺と同じか………",
-        "translation": "Neighbor: Sigh...{n}I've forgotten the very word \"work.\"{n}You're just like me, huh...?"
+        "translation": "Neighbor: Sigh...{n}I've forgotten how to spell \"work.\"{n}Guess you're the same as me, huh...?"
       }
     },
     "asahi_neighbors_018": {
       "text": {
         "reference": "高校の後輩：神社で心霊現象が{n}起きるんですって。{n}見たいけど、怖いから私は行かないの。",
-        "translation": "High School Underclassman: They say{n}paranormal phenomena are happening at the shrine.{n}I'd like to see, but I'm too scared to go."
+        "translation": "High School Underclassman: They say{n}weird supernatural stuff is happening{n}at the shrine. I'd love to see it, but I'm{n}too scared to go."
       }
     },
     "asahi_neighbors_019": {
@@ -317,7 +317,7 @@
     "asahi_neighbors_026": {
       "text": {
         "reference": "とっても、こわかった。{n}銃犯罪とかって、もう{n}他人事じゃすまないのね。",
-        "translation": "It was so scary.{n}Gun crime isn't something{n}we can treat as somebody else's problem anymore."
+        "translation": "It was so scary.{n}Gun crime isn't just somebody else's{n}problem anymore."
       }
     },
     "asahi_neighbors_027": {
@@ -383,7 +383,7 @@
     "asahi_neighbors_035": {
       "text": {
         "reference": "なんかヤバイぜ、なんかがよ！！",
-        "translation": "Something's bad here. I don't know what!!"
+        "translation": "Something's not right. Something!!"
       }
     },
     "asahi_neighbors_036": {
@@ -401,7 +401,7 @@
     "asahi_neighbors_038": {
       "text": {
         "reference": "近所の人：なんだかよぉ、{n}いきなりアパート値上げだぜ。{n}こいつも、なんたら議員のせいか？",
-        "translation": "Neighbor: Man,{n}they suddenly jacked up my rent.{n}Is this some whats-his-name councillor's fault too?"
+        "translation": "Neighbor: Man,{n}they suddenly jacked up my rent.{n}Is that councillor what's-his-name{n}behind this too?"
       }
     },
     "asahi_neighbors_039": {
