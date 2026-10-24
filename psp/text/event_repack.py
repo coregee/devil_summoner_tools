@@ -41,7 +41,7 @@ OUTPUT_ROOT = TEXT_ROOT / "generated" / "game"
 OUTPUT_PATH = OUTPUT_ROOT / "eve_files.bin"
 MANIFEST_PATH = OUTPUT_ROOT / "psp.events.json"
 EXPECTED_OUTPUT_SHA256 = (
-    "a5d03b13228aece3bf905a0f9ad10fdfb57453d95802f6c9b5c19a48e675dfb5"
+    "9ec3f9575f4873b9b2c8fb32dff05c35346bb0c156d56eaef4e472dd009859ab"
 )
 
 

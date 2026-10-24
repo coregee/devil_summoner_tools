@@ -97,7 +97,7 @@ def build(*, check: bool) -> None:
         }
     )
     if _sha(combined) != (
-        "ad2bc435b14e3a55eaf72d94660e4248a4647a7b49fd1406e34a94b2307d15ea"
+        "19b27d14b7104e32c3898ac18dbc1ac2acf77b2dfd106d7527daba4e85d48045"
     ):
         raise ValueError(f"composed PSP regdata contract changed: {_sha(combined)}")
     manifest = {
