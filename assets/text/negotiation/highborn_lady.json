@@ -95,13 +95,13 @@
     "dialogue_0015": {
       "text": {
         "reference": "おまえからか",
-        "translation": "You first?"
+        "translation": "Is it you?"
       }
     },
     "dialogue_0016": {
       "text": {
         "reference": "俺からかな",
-        "translation": "I guess I'll go first."
+        "translation": "Maybe it's me."
       }
     },
     "dialogue_0017": {
@@ -557,7 +557,7 @@
     "dialogue_0092": {
       "text": {
         "reference": "初めてお会いした方では{n}ございませんわね？{n}それにしても…",
-        "translation": "This isn't our first meeting, is it? Still..."
+        "translation": "We have met before, have we not? Still..."
       }
     },
     "dialogue_0093": {
@@ -587,7 +587,7 @@
     "dialogue_0097": {
       "text": {
         "reference": "ありがとうございます{n}でもお気づかいはいりませんわ",
-        "translation": "Thank you, but you needn't concern yourself."
+        "translation": "Thank you, but you need not concern yourself."
       }
     },
     "dialogue_0098": {
@@ -605,7 +605,7 @@
     "dialogue_0100": {
       "text": {
         "reference": "そんな言い方なさらないで！{n}貴方のこと気になるのです",
-        "translation": "Please don't say that! I cannot help but worry about you."
+        "translation": "Please do not say that! I cannot help but worry about you."
       }
     },
     "dialogue_0101": {
@@ -650,7 +650,7 @@
     "dialogue_0107": {
       "text": {
         "reference": "きっと貴方にも感じられるはずです…{n}もっとリラックスなさって下さい",
-        "translation": "I'm certain you can sense it too... Please, try to relax."
+        "translation": "I am certain you can sense it too... Please, try to relax."
       }
     },
     "dialogue_0108": {
@@ -699,7 +699,7 @@
     "dialogue_0115": {
       "text": {
         "reference": "貴方から？本当にそうかしら？{BEAT}{n}違う気がいたしますわ",
-        "translation": "From you? Can that really be true?{BEAT} Something about that seems wrong."
+        "translation": "From you? Can that really be true?{BEAT} I rather think not."
       }
     },
     "dialogue_0116": {
@@ -729,7 +729,7 @@
     "dialogue_0120": {
       "text": {
         "reference": "そうですの{n}能天気な方ってうらやましいですわ",
-        "translation": "I see. I almost envy such happy-go-lucky people."
+        "translation": "I see. How I envy such happy-go-lucky people."
       }
     },
     "dialogue_0121": {
@@ -759,7 +759,7 @@
     "dialogue_0125": {
       "text": {
         "reference": "どうした？ですって…{n}まあひどいおっしゃり方{WAIT}{n}でもいいわ許してさしあげる",
-        "translation": "\"What's wrong?\" My, what a dreadful way to put it.{WAIT} Still, I shall forgive you."
+        "translation": "\"So what?\" My, what a dreadful way to put it.{WAIT} Still, I shall forgive you."
       }
     },
     "dialogue_0126": {
@@ -904,7 +904,7 @@
     "dialogue_0149": {
       "text": {
         "reference": "まあひどい方…{BEAT}許せませんわ！{WAIT}{n}…でも貴方の態度次第で{n}許してさしあげるわ",
-        "translation": "What a dreadful person...{BEAT} I cannot forgive you!{WAIT} ...But your next move may persuade me."
+        "translation": "What a dreadful person...{BEAT} I cannot forgive you!{WAIT} ...But mind your manners, and perhaps I shall."
       }
     },
     "dialogue_0150": {
@@ -928,7 +928,7 @@
     "dialogue_0153": {
       "text": {
         "reference": "「そうだな」ですって{n}よくそうして平気でいられるわね！",
-        "translation": "\"That's right,\" you say? How can you stand there so calmly!"
+        "translation": "\"I suppose so,\" you say? How can you stand there so calmly!"
       }
     },
     "dialogue_0154": {
@@ -1398,7 +1398,7 @@
     "dialogue_0230": {
       "text": {
         "reference": "ホホホホホ！{n}見栄をはらなくてもよろしいのに{WAIT}{n}貴方が？まさかねぇ！",
-        "translation": "Ho-ho-ho-ho! You needn't put on airs.{WAIT} You, in such a home? Surely not!"
+        "translation": "Ho-ho-ho-ho! You need not put on airs.{WAIT} You, in such a home? Surely not!"
       }
     },
     "dialogue_0231": {
@@ -1702,7 +1702,7 @@
     "dialogue_0279": {
       "text": {
         "reference": "貴方のこと分からなく{n}なってきましたわ…{n}なんかいやな予感がいたしますわ",
-        "translation": "I'm beginning not to know what to make of you... I have a dreadful feeling."
+        "translation": "I no longer know what to make of you... I have a dreadful feeling."
       }
     },
     "dialogue_0280": {
@@ -1922,7 +1922,7 @@
     "dialogue_0315": {
       "text": {
         "reference": "ええそうですわ{BEAT}{n}貴方はゴミね！{WAIT}{n}でももういいわ",
-        "translation": "Indeed.{BEAT} You're garbage!{WAIT} But never mind that."
+        "translation": "Indeed.{BEAT} You are garbage!{WAIT} But never mind that."
       }
     },
     "dialogue_0316": {
@@ -2503,7 +2503,7 @@
     "dialogue_0403": {
       "text": {
         "reference": "わたくしの手で…！！",
-        "translation": "I shall kill with my own hands!"
+        "translation": "...shall perish by my own hand!"
       }
     },
     "dialogue_0404": {
@@ -2875,7 +2875,7 @@
     "dialogue_0460": {
       "text": {
         "reference": "渡す",
-        "translation": "Hand it over."
+        "translation": "Give it."
       }
     },
     "dialogue_0461": {
@@ -3007,19 +3007,19 @@
     "dialogue_0480": {
       "text": {
         "reference": "大丈夫だ",
-        "translation": "I'm fine."
+        "translation": "It's all right."
       }
     },
     "dialogue_0481": {
       "text": {
         "reference": "心配ない",
-        "translation": "Do not worry."
+        "translation": "Don't worry."
       }
     },
     "dialogue_0482": {
       "text": {
         "reference": "俺がついている",
-        "translation": "I am here with you."
+        "translation": "I'm with you."
       }
     },
     "dialogue_0483": {
@@ -3225,7 +3225,7 @@
     "dialogue_0512": {
       "text": {
         "reference": "「そうだな」ですって！！{WAIT}{n}もっと素直におっしゃったら！{BEAT}{n}…{BEAT}まあいいわご一緒しましょう",
-        "translation": "\"Indeed,\" is that all you can say?{WAIT} Try speaking honestly!{BEAT} ...{BEAT} Very well, I shall join you.",
+        "translation": "\"I suppose so,\" is that all you can say?{WAIT} Try speaking honestly!{BEAT} ...{BEAT} Very well, I shall join you.",
         "note": "Fragment context: message 535 page 0 continues on page 1 (dialogue_0484) with the demon's inserted race and name."
       }
     },
@@ -3312,7 +3312,7 @@
     "dialogue_0523": {
       "text": {
         "reference": "なにもそうおっしゃらなくても…{BEAT}{n}わたくしなら貴方のお役に立てるはず{WAIT}{n}わたくしを連れてゆきなさい！！",
-        "translation": "You needn't say such a thing...{BEAT} I know I can help you.{WAIT} Take me with you!",
+        "translation": "You need not say such a thing...{BEAT} I know I can help you.{WAIT} Take me with you!",
         "note": "Fragment context: message 547 page 0 continues on page 1 (dialogue_0484) with the demon's inserted race and name."
       }
     },
@@ -3404,7 +3404,7 @@
       },
       "text": {
         "reference": "それはできませんわね…{BEAT}{n}でも{offered_item}を差し上げますわ{BEAT}{n}気にしなくてもよろしいのよそれくらい！",
-        "translation": "I cannot allow that...{BEAT} I shall give you {offered_item}.{BEAT} Think nothing of so small a gift!"
+        "translation": "I cannot accept that...{BEAT} I shall give you {offered_item}.{BEAT} Think nothing of so small a gift!"
       }
     },
     "dialogue_0538": {
@@ -3414,7 +3414,7 @@
       },
       "text": {
         "reference": "それはできませんわね…{BEAT}{n}ホホホホホ！{BEAT}だってわたくしは{n}{race}{demon_name}ですもの！",
-        "translation": "I cannot allow that...{BEAT} Ho-ho-ho-ho!{BEAT} I am {race} {demon_name}, after all!"
+        "translation": "I cannot accept that...{BEAT} Ho-ho-ho-ho!{BEAT} I am {race} {demon_name}, after all!"
       }
     },
     "dialogue_0539": {
@@ -3432,7 +3432,7 @@
     "dialogue_0541": {
       "text": {
         "reference": "それはできませんわね…{BEAT}{n}ホホホホホ！！",
-        "translation": "I cannot allow that...{BEAT} Ho-ho-ho-ho!"
+        "translation": "I cannot accept that...{BEAT} Ho-ho-ho-ho!"
       }
     },
     "dialogue_0542": {
@@ -3520,7 +3520,7 @@
     "condition_happy": {
       "text": {
         "reference": "わたくし 幸せよ もう最高ですわ！",
-        "translation": "I'm so happy. This is simply divine!",
+        "translation": "I am happy. This is simply divine!",
         "reviewed": true
       }
     },
@@ -3534,7 +3534,7 @@
     "condition_enraged": {
       "text": {
         "reference": "あら 貴方 誰だったかしら？ ホホホホホ",
-        "translation": "My, who were you again? Hohohohoho.",
+        "translation": "My, who were you again? Ho-ho-ho!",
         "reviewed": true
       }
     },

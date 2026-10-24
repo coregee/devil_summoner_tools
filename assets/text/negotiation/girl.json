@@ -360,7 +360,7 @@
     "dialogue_0057": {
       "text": {
         "reference": "こんなトコで倒されちゃ、{n}タマんないわよ！！",
-        "translation": "I can't stand being defeated in a place like this!",
+        "translation": "I can't go down in a place like this!",
         "note": "Completes message 42/43 page 0: “I'm still young, with my whole life ahead of me. And yet... / I can't stand being defeated in a place like this!”"
       }
     },
@@ -406,7 +406,7 @@
     "dialogue_0064": {
       "text": {
         "reference": "めずらしートコで、{n}めずらしーヒトに会うじゃなーい。",
-        "translation": "Meeting a rare guy in a rare place, huh?"
+        "translation": "What a rare face in a rare place!"
       }
     },
     "dialogue_0065": {
@@ -508,7 +508,7 @@
     "dialogue_0079": {
       "text": {
         "reference": "まーた、{BEAT}つまんないコト聞くんでしょ。{n}{WAIT}キミの話ってー、{n}{BEAT}長いだけでー、つまん{BEAT}なー{BEAT}い{BEAT}のよー！",
-        "translation": "You're gonna ask something boring again, aren't you?{WAIT} Your stories are just long and{BEAT} bor{BEAT}ing{BEAT},{BEAT} boring!{BEAT}"
+        "translation": "You're gonna{BEAT} ask something boring again, huh?{WAIT} Your stories are{BEAT} long and{BEAT} bo{BEAT}o{BEAT}ring!"
       }
     },
     "dialogue_0080": {
@@ -571,7 +571,7 @@
     "dialogue_0089": {
       "text": {
         "reference": "仲魔探し",
-        "translation": "Looking for allies."
+        "translation": "Looking for allies"
       }
     },
     "dialogue_0090": {
@@ -583,13 +583,13 @@
     "dialogue_0091": {
       "text": {
         "reference": "悪魔退治",
-        "translation": "Hunting demons."
+        "translation": "Hunting demons"
       }
     },
     "dialogue_0092": {
       "text": {
         "reference": "ブラブラしてるだけ",
-        "translation": "Just wandering around."
+        "translation": "Just wandering around"
       }
     },
     "dialogue_0093": {
@@ -793,7 +793,7 @@
     "dialogue_0123": {
       "text": {
         "reference": "え。{n}ちょっと待ってよ！{n}{WAIT}なんで、ミツがなきゃなんないワケー？",
-        "translation": "What? Wait!{WAIT} Why do I have to be a tribute?"
+        "translation": "What? Wait!{WAIT} Why should I bankroll you?"
       }
     },
     "dialogue_0124": {
@@ -949,7 +949,7 @@
     "dialogue_0147": {
       "text": {
         "reference": "そんなモノ食べて、{n}{WAIT}クセになったらどーすんのよ！",
-        "translation": "What if they get hooked on that stuff?{WAIT}"
+        "translation": "What if they eat that{WAIT} and get hooked?!"
       }
     },
     "dialogue_0148": {
@@ -1246,7 +1246,7 @@
     "dialogue_0195": {
       "text": {
         "reference": "やっぱ、{BEAT}キラ{BEAT}…{BEAT}イ？",
-        "translation": "Do you{BEAT} ha{BEAT}.{BEAT}te us?"
+        "translation": "So you{BEAT} ha{BEAT}...{BEAT}ate us?"
       }
     },
     "dialogue_0196": {
@@ -1328,7 +1328,7 @@
     "dialogue_0208": {
       "text": {
         "reference": "悪魔召喚師",
-        "translation": "A Devil Summoner."
+        "translation": "I summon devils"
       }
     },
     "dialogue_0209": {
@@ -1352,7 +1352,7 @@
     "dialogue_0212": {
       "text": {
         "reference": "その{BEAT}まんまじゃーん！{n}{WAIT}だれが、和訳しろなんて言ったのよー！{n}ったく…",
-        "translation": "That's literally the same thing!{BEAT}{WAIT} Who asked for a translation? Seriously..."
+        "translation": "That's{BEAT} the same thing!{WAIT} Who asked you to spell it out? Seriously..."
       }
     },
     "dialogue_0213": {
@@ -1409,7 +1409,7 @@
     "dialogue_0221": {
       "text": {
         "reference": "ヤれるモンなら、ヤってみなさいよー！！",
-        "translation": "If you can do it, try!"
+        "translation": "Try it if you can!"
       }
     },
     "dialogue_0222": {
@@ -1445,7 +1445,7 @@
     "dialogue_0227": {
       "text": {
         "reference": "両親はカンケーないの！！{n}{WAIT}パパやママに聞かないと、{n}なーんにも決められないワケー？",
-        "translation": "Your parents have nothing to do with it!{WAIT} Can't you decide anything without asking Mommy and Daddy?"
+        "translation": "Guilty? What, scared of your parents?!{WAIT} Can't you decide anything without asking Mommy and Daddy?"
       }
     },
     "dialogue_0228": {
@@ -2041,7 +2041,7 @@
     "dialogue_0322": {
       "text": {
         "reference": "そーゆー時って、ウソでもいーから、{n}{WAIT}{OP:8026}スキ♡{OP:8020}{BEAT}って言っとくもんよ！",
-        "translation": "At times like this, you lie and say...{WAIT}{OP:8026}I love you{OP:8020}!{BEAT}"
+        "translation": "At times like this, even if it's a lie, you say...{WAIT}{OP:8026}I love you{OP:8020}!{BEAT}"
       }
     },
     "dialogue_0323": {
@@ -2131,7 +2131,7 @@
     "dialogue_0336": {
       "text": {
         "reference": "あ…{n}{WAIT}え…{OP:8026}♡{OP:8020}{n}{WAIT}あ、{BEAT}そんな{BEAT}…{BEAT}…{BEAT}{OP:8026}♡{OP:8020}",
-        "translation": "Ah...{WAIT} Um...{OP:8026}{heart_symbol}{OP:8020}{WAIT} Oh,{BEAT} you can't{BEAT}.{BEAT}.{BEAT}{OP:8026}{heart_symbol}{OP:8020}"
+        "translation": "Ah...{WAIT} Um...{OP:8026}{heart_symbol}{OP:8020}{WAIT} Oh,{BEAT} stop it{BEAT}.{BEAT}.{BEAT}{OP:8026}{heart_symbol}{OP:8020}"
       }
     },
     "dialogue_0337": {
@@ -2179,7 +2179,7 @@
     "dialogue_0343": {
       "text": {
         "reference": "へー！{n}{WAIT}{OP:8024}ケータイ固形食料{OP:8020}と{OP:8025}カレー{OP:8020}で、{n}{OP:8026}まずいナラヅケ{OP:8020}の味ー！？",
-        "translation": "Wow!{WAIT} {OP:8024}Portable rations{OP:8020} and {OP:8025}curry{OP:8020} taste like {OP:8026}awful pickles{OP:8020}?!"
+        "translation": "Wow!{WAIT} {OP:8024}Ration bars{OP:8020} with {OP:8025}curry{OP:8020} taste like {OP:8026}bad pickles{OP:8020}?!"
       }
     },
     "dialogue_0344": {
@@ -2353,13 +2353,13 @@
       },
       "text": {
         "reference": "いーい？{n}お客サマはカミサマなのよ！{n}でね、{WAIT}{demon_name}はお客サマなの。",
-        "translation": "Listen. The customer is always right! And{WAIT} {demon_name} is the customer."
+        "translation": "Listen. The customer is God! And{WAIT} {demon_name} is the customer."
       }
     },
     "dialogue_0370": {
       "text": {
         "reference": "つまり、アタシはカミサマなのよ！！{n}{WAIT}さー、カミサマにミツいでチョーダイ！！",
-        "translation": "Which means I'm always right!{WAIT} Now pay tribute to your goddess!"
+        "translation": "Which means I'm God!{WAIT} Now shower God with gifts!"
       }
     },
     "dialogue_0371": {
@@ -2671,7 +2671,7 @@
     "dialogue_0419": {
       "text": {
         "reference": "渡す",
-        "translation": "Hand it over."
+        "translation": "Give it"
       }
     },
     "dialogue_0420": {
@@ -2971,7 +2971,7 @@
     "dialogue_0467": {
       "text": {
         "reference": "ことわる",
-        "translation": "Refuse."
+        "translation": "Refuse"
       }
     },
     "dialogue_0468": {
@@ -3157,7 +3157,7 @@
     "dialogue_0495": {
       "text": {
         "reference": "そんなはずはない",
-        "translation": "That's impossible."
+        "translation": "That's impossible"
       }
     },
     "dialogue_0496": {
@@ -3382,7 +3382,7 @@
     "dialogue_0529": {
       "text": {
         "reference": "その手は喰わない",
-        "translation": "I'm not falling for that."
+        "translation": "I'm not falling for that"
       }
     },
     "dialogue_0530": {
@@ -3490,7 +3490,7 @@
     "dialogue_0546": {
       "text": {
         "reference": "そんなヘナヘナオトコ、{n}頼りなくってついて行けないってカンジー。{n}{WAIT}んじゃ、{BEAT}一生そーやってなさい。",
-        "translation": "I can't follow such a spineless man.{WAIT} Stay that way forever.{BEAT}"
+        "translation": "A spineless guy like you is useless.{WAIT} So{BEAT} stay whipped forever."
       }
     },
     "dialogue_0547": {
@@ -3574,7 +3574,7 @@
     "dialogue_0559": {
       "text": {
         "reference": "満たされない愛情",
-        "translation": "Unfulfilled love."
+        "translation": "Unfulfilled love"
       }
     },
     "dialogue_0560": {

@@ -11,7 +11,7 @@
     "dialogue_0001": {
       "text": {
         "reference": "この通りじゃけェ。",
-        "translation": "I'm counting on you."
+        "translation": "I'm begging you, now."
       }
     },
     "dialogue_0002": {
@@ -50,7 +50,7 @@
     "dialogue_0007": {
       "text": {
         "reference": "おまえさんと過ごした時間は、忘れんぞォ。{n}{WAIT}いい思い出を、{n}あの世に持ってく事ができそうじゃァ。",
-        "translation": "I'll never forget the time I spent with you.{WAIT} It seems I'll have some fond memories to take to the next world."
+        "translation": "I'll never forget the time I spent with you.{WAIT} I'll take fond memories with me to the next world."
       }
     },
     "dialogue_0008": {
@@ -94,7 +94,7 @@
     "dialogue_0014": {
       "text": {
         "reference": "そうかい。{n}{WAIT}年寄りはァ、邪魔かい{BEAT}…{BEAT}…{n}{BEAT}寂しいのゥ。",
-        "translation": "I see.{WAIT} An old man would only get in your way, eh?{BEAT}...{BEAT}...{BEAT} How lonely."
+        "translation": "I see.{WAIT} Old folks just get in the way, eh?{BEAT}...{BEAT}...{BEAT} How lonely."
       }
     },
     "dialogue_0015": {
@@ -109,7 +109,7 @@
     "dialogue_0016": {
       "text": {
         "reference": "くおらァ、ハナタレェェ！{n}また出おったかァァ！！",
-        "translation": "Why, you snot-nosed brat! You've shown your face again!"
+        "translation": "Why, you snot-nosed brat! Back again, are you?!"
       }
     },
     "dialogue_0017": {
@@ -190,7 +190,7 @@
       },
       "text": {
         "reference": "聞いて驚くなァ。{n}{offered_item}じゃァ！{n}ヒャッヒャッヒャ～。",
-        "translation": "Don't be too shocked. It's {offered_item}! Hya-hya-hya!"
+        "translation": "Brace yourself. It's {offered_item}! Hya-hya-hya!"
       }
     },
     "dialogue_0030": {
@@ -274,31 +274,31 @@
     "dialogue_0043": {
       "text": {
         "reference": "おぉ、{BEAT}おぉ。{n}{WAIT}さすがは、サマナーじゃァ。",
-        "translation": "Ohh,{BEAT} ohh.{WAIT} Just what I'd expect from a Summoner."
+        "translation": "Ohh,{BEAT} ohh.{WAIT} Just what I'd expect from a summoner."
       }
     },
     "dialogue_0044": {
       "text": {
         "reference": "よしッ。{n}{WAIT}この命、おまえさんに預けてみるかィ！",
-        "translation": "Very well.{WAIT} Perhaps I'll entrust my life to you!"
+        "translation": "Very well.{WAIT} Maybe I'll trust you with my life!"
       }
     },
     "dialogue_0045": {
       "text": {
         "reference": "甘い甘いィ！{n}{WAIT}ガムシロップの様に、甘いわァ！！",
-        "translation": "Too soft!{WAIT} You're as soft as syrup!"
+        "translation": "Too sweet!{WAIT} Sweet as syrup, you are!"
       }
     },
     "dialogue_0046": {
       "text": {
         "reference": "おぉ、{BEAT}おぉ。{n}{WAIT}さすがはサマナー。{n}自分の主張は、頑として曲げんらしい。",
-        "translation": "Ohh,{BEAT} ohh.{WAIT} Just what I'd expect from a Summoner. It seems you won't budge an inch."
+        "translation": "Ohh,{BEAT} ohh.{WAIT} Just what I'd expect from a summoner. You won't budge an inch."
       }
     },
     "dialogue_0047": {
       "text": {
         "reference": "男じゃのゥ。{n}{WAIT}よしッ、{BEAT}気にいった。{n}{WAIT}この命、おまえさんに預けてみるかィ！",
-        "translation": "You've got mettle.{WAIT} Very well,{BEAT} I like you.{WAIT} Perhaps I'll entrust my life to you!"
+        "translation": "You've got mettle.{WAIT} Very well,{BEAT} I like you.{WAIT} Maybe I'll trust you with my life!"
       }
     },
     "dialogue_0048": {
@@ -412,7 +412,7 @@
     "dialogue_0065": {
       "text": {
         "reference": "寂しいのゥ。{n}{WAIT}どうして年寄りはァ、{BEAT}{n}邪魔者扱いかァのゥ。",
-        "translation": "How lonely.{WAIT} Why{BEAT} must the elderly always be treated like a burden?"
+        "translation": "How lonely.{WAIT} Why{BEAT} are old folks always treated like a nuisance?"
       }
     },
     "dialogue_0066": {
@@ -442,7 +442,7 @@
     "dialogue_0070": {
       "text": {
         "reference": "仲魔探し",
-        "translation": "Looking for allies."
+        "translation": "Looking for allies"
       }
     },
     "dialogue_0071": {
@@ -454,7 +454,7 @@
     "dialogue_0072": {
       "text": {
         "reference": "悪魔退治",
-        "translation": "Hunting demons."
+        "translation": "Hunting demons"
       }
     },
     "dialogue_0073": {
@@ -472,7 +472,7 @@
     "dialogue_0075": {
       "text": {
         "reference": "おまえさんの出方次第によっちゃァ、{n}共に暴れてやらんでもないがの。",
-        "translation": "Depending on how you conduct yourself, I might even run wild alongside you."
+        "translation": "Play your cards right, and I might run wild with you."
       }
     },
     "dialogue_0076": {
@@ -490,7 +490,7 @@
     "dialogue_0078": {
       "text": {
         "reference": "わしにも何か、手伝えんかのゥ。{n}{WAIT}まァ、おまえさんの出方次第じゃが。",
-        "translation": "Perhaps I could lend a hand.{WAIT} Though that depends on how you conduct yourself."
+        "translation": "Perhaps I could lend a hand.{WAIT} Depends on you, though."
       }
     },
     "dialogue_0079": {
@@ -532,7 +532,7 @@
     "dialogue_0085": {
       "text": {
         "reference": "年寄りは、邪魔者扱いかい。{n}{WAIT}昔は良かったのゥ。{n}{WAIT}寂しいのゥ。",
-        "translation": "So the elderly are merely a burden?{WAIT} Things were better in the old days.{WAIT} How lonely."
+        "translation": "So old folks are just a nuisance?{WAIT} Things were better in the old days.{WAIT} How lonely."
       }
     },
     "dialogue_0086": {
@@ -556,7 +556,7 @@
     "dialogue_0089": {
       "text": {
         "reference": "おまえさんの出方次第によっちゃァ、{n}共に暴れてやらんでもないぞォ。",
-        "translation": "Depending on how you conduct yourself, I might even run wild alongside you."
+        "translation": "Play your cards right, and I might run wild with you."
       }
     },
     "dialogue_0090": {
@@ -601,13 +601,13 @@
     "dialogue_0096": {
       "text": {
         "reference": "悲しいのゥ。{n}年寄りは、邪魔者扱いかい。{n}{WAIT}歳は取りたくないもんじゃァ。",
-        "translation": "How sad. So the elderly are merely a burden?{WAIT} Growing old is a miserable thing."
+        "translation": "How sad. So old folks are just a nuisance?{WAIT} Growing old is a miserable thing."
       }
     },
     "dialogue_0097": {
       "text": {
         "reference": "おぉ、{BEAT}おぉ。{n}{WAIT}年寄りだと思うて、言ってくれるのゥ。",
-        "translation": "Ohh,{BEAT} ohh.{WAIT} You only say that because you think I'm old."
+        "translation": "Ohh,{BEAT} ohh.{WAIT} Taking liberties with an old man, eh?"
       }
     },
     "dialogue_0098": {
@@ -625,13 +625,13 @@
     "dialogue_0100": {
       "text": {
         "reference": "おまえさんの出方次第によっちゃァ、{n}共に暴れてやらんでもないぞォ。",
-        "translation": "Depending on how you conduct yourself, I might even run wild alongside you."
+        "translation": "Play your cards right, and I might run wild with you."
       }
     },
     "dialogue_0101": {
       "text": {
         "reference": "それはァ、それはァ。{n}{WAIT}ご苦労なこってェ。",
-        "translation": "Well, well.{WAIT} Thank you for your hard work."
+        "translation": "My, my.{WAIT} How industrious."
       }
     },
     "dialogue_0102": {
@@ -649,7 +649,7 @@
     "dialogue_0104": {
       "text": {
         "reference": "通り魔の真似事が、{BEAT}かァ。{n}{WAIT}ものは言い様じゃのゥ。",
-        "translation": "Playing at being a murderous thug,{BEAT} eh?{WAIT} You certainly know how to phrase things."
+        "translation": "Playing street slasher,{BEAT} eh?{WAIT} That's one way to put it."
       }
     },
     "dialogue_0105": {
@@ -679,19 +679,19 @@
     "dialogue_0109": {
       "text": {
         "reference": "何をぬかすと思えば。",
-        "translation": "And here I wondered what nonsense you'd spout."
+        "translation": "Of all the things to say."
       }
     },
     "dialogue_0110": {
       "text": {
         "reference": "はてさて。{n}何をぬかすと思えば。",
-        "translation": "Dear me. And here I wondered what nonsense you'd spout."
+        "translation": "Dear me. Of all the things to say."
       }
     },
     "dialogue_0111": {
       "text": {
         "reference": "はてさて。{n}何をぬかすと思えば。{n}{WAIT}それが、目上のもんに口をきく態度かァ！",
-        "translation": "Dear me. And here I wondered what nonsense you'd spout.{WAIT} Is that any way to address your elders?!"
+        "translation": "Dear me. Of all the things to say.{WAIT} Is that any way to address your elders?!"
       }
     },
     "dialogue_0112": {
@@ -763,7 +763,7 @@
     "dialogue_0123": {
       "text": {
         "reference": "通り魔の真似事が、{BEAT}かァ。{n}年寄りをだましちゃァ、いかん。",
-        "translation": "Playing at being a murderous thug,{BEAT} eh? Don't try to deceive your elders."
+        "translation": "Playing street slasher,{BEAT} eh? Don't try to fool your elders."
       }
     },
     "dialogue_0124": {
@@ -793,7 +793,7 @@
     "dialogue_0128": {
       "text": {
         "reference": "さっさと帰って、小便して寝るこった。",
-        "translation": "Run along home, use the toilet, and go to bed."
+        "translation": "Go home, have a pee, and get to bed."
       }
     },
     "dialogue_0129": {
@@ -874,7 +874,7 @@
     "dialogue_0141": {
       "text": {
         "reference": "気がとがめる",
-        "translation": "It troubles me."
+        "translation": "It troubles me"
       }
     },
     "dialogue_0142": {
@@ -886,7 +886,7 @@
     "dialogue_0143": {
       "text": {
         "reference": "おぉ、{BEAT}おぉ。{n}{BEAT}やはり、そう思うんかァ。{n}{WAIT}おまえさんなりに、悩んでおるんだのゥ。",
-        "translation": "Ohh,{BEAT} ohh. So you do feel that way.{BEAT}{WAIT} You must wrestle with it in your own fashion."
+        "translation": "Ohh,{BEAT} ohh. So you do feel that way.{BEAT}{WAIT} It weighs on you in your own way."
       }
     },
     "dialogue_0144": {
@@ -898,7 +898,7 @@
     "dialogue_0145": {
       "text": {
         "reference": "おまえさん、目がうそを言っちょる。{n}{WAIT}その目は、危険な目じゃけェ。",
-        "translation": "Your eyes betray your lie.{WAIT} Those are dangerous eyes."
+        "translation": "Your eyes are lying.{WAIT} Those are dangerous eyes."
       }
     },
     "dialogue_0146": {
@@ -979,7 +979,7 @@
     "dialogue_0158": {
       "text": {
         "reference": "適当に、こなしてるってェ事かい。{n}{WAIT}仲魔にとっちゃァ、かなわんのゥ。",
-        "translation": "So you merely muddle through it?{WAIT} Your allies must find that intolerable."
+        "translation": "So you just go through the motions?{WAIT} Hard luck for your allies."
       }
     },
     "dialogue_0159": {
@@ -1039,7 +1039,7 @@
       },
       "text": {
         "reference": "じゃあ、{offered_item}をくれてやろう。{n}{WAIT}奴を見かけたら、知らせてくれィ。{n}{WAIT}おきゅうをすえてやらにゃァ、いかん。",
-        "translation": "Then I'll give you {offered_item}.{WAIT} Let me know if you see that Summoner.{WAIT} I must teach them a lesson."
+        "translation": "Then I'll give you {offered_item}.{WAIT} Let me know if you see that summoner.{WAIT} I must teach them a lesson."
       }
     },
     "dialogue_0168": {
@@ -1183,7 +1183,7 @@
     "dialogue_0191": {
       "text": {
         "reference": "何を言うちょる。{n}{WAIT}はげむと言うたら、{BEAT}あれしかないじゃろう。",
-        "translation": "What are you saying?{WAIT} When a young man says he's keeping busy,{BEAT} there can only be one thing he means."
+        "translation": "What are you saying?{WAIT} \"Keeping busy\" can only mean{BEAT} one thing!"
       }
     },
     "dialogue_0192": {
@@ -1204,7 +1204,7 @@
     "dialogue_0194": {
       "text": {
         "reference": "それにしても、こんな所まで遠路はるばる。{n}{WAIT}働き者だのゥ。",
-        "translation": "Still, you've come a long way to reach this place.{WAIT} You're a diligent one."
+        "translation": "Still, all this way to get here.{WAIT} Hard worker, aren't you?"
       }
     },
     "dialogue_0195": {
@@ -1261,7 +1261,7 @@
     "dialogue_0203": {
       "text": {
         "reference": "はて。{n}{WAIT}はて{BEAT}さて{BEAT}はて。",
-        "translation": "Hmm.{WAIT} Hmm{BEAT}mm{BEAT}mm."
+        "translation": "Hmm.{WAIT} Hmm{BEAT}mm-{BEAT}mm."
       }
     },
     "dialogue_0204": {
@@ -1333,7 +1333,7 @@
     "dialogue_0215": {
       "text": {
         "reference": "なんじゃァ。{n}{WAIT}こんな年寄り相手でも、{n}銃を手放せないのかい。",
-        "translation": "What?{WAIT} You cannot even lower your gun when speaking to an old man?"
+        "translation": "What?{WAIT} Can't even lower your gun for an old man?"
       }
     },
     "dialogue_0216": {
@@ -1393,7 +1393,7 @@
     "dialogue_0225": {
       "text": {
         "reference": "若僧がァ、いきがりおってェ。{n}{WAIT}年寄りをあなどるなァ。",
-        "translation": "A youngster putting on airs.{WAIT} Do not underestimate your elders."
+        "translation": "A youngster putting on airs.{WAIT} Don't underestimate your elders."
       }
     },
     "dialogue_0226": {
@@ -1465,7 +1465,7 @@
     "dialogue_0236": {
       "text": {
         "reference": "渡す",
-        "translation": "Hand it over."
+        "translation": "Give it"
       }
     },
     "dialogue_0237": {
@@ -1540,13 +1540,13 @@
     "dialogue_0248": {
       "text": {
         "reference": "断る",
-        "translation": "Refuse."
+        "translation": "Refuse"
       }
     },
     "dialogue_0249": {
       "text": {
         "reference": "うれしい事を、言うてくれるのゥ。{n}{WAIT}どれ。{n}共に暴れてやるかのゥ。",
-        "translation": "What a lovely thing to say.{WAIT} Come, let us run wild together."
+        "translation": "What a lovely thing to say.{WAIT} Come, let's run wild together."
       }
     },
     "dialogue_0250": {
@@ -1570,7 +1570,7 @@
     "dialogue_0253": {
       "text": {
         "reference": "若い衆といると、{n}昔に戻った気分になるのゥ。{n}ぜひ、若い衆の話が聞きたいもんじゃァ。",
-        "translation": "Being among young people makes me feel young again. I would dearly love to hear your stories."
+        "translation": "Being among young people makes me feel young again. I'd dearly love to hear your stories."
       }
     },
     "dialogue_0254": {
@@ -1648,7 +1648,7 @@
     "dialogue_0266": {
       "text": {
         "reference": "わしも同じ様に、倒す気かァ。{n}{WAIT}そうはさせん。",
-        "translation": "You intend to dispose of me in the same way?{WAIT} I won't allow it."
+        "translation": "So you'd beat me the same way?{WAIT} I won't allow it."
       }
     },
     "dialogue_0267": {
@@ -1666,13 +1666,13 @@
     "dialogue_0269": {
       "text": {
         "reference": "おぉ！{BEAT}おおぉ！！{n}{WAIT}ついに、アレが発売かァ。{n}{WAIT}こうしては、おれんッ！",
-        "translation": "Oh!{BEAT} Ohhh!{WAIT} At last, that game has been released!{WAIT} I cannot stand around here!"
+        "translation": "Oh!{BEAT} Ohhh!{WAIT} At last, that game has been released!{WAIT} No time to lose!"
       }
     },
     "dialogue_0270": {
       "text": {
         "reference": "む、{BEAT}むむう。{n}{WAIT}重みのある言葉よのゥ。{n}おまえさん、ただ者ではないな。",
-        "translation": "Hm,{BEAT} hmmm.{WAIT} Those are weighty words. You are no ordinary person."
+        "translation": "Hm,{BEAT} hmmm.{WAIT} Those are weighty words. You're no ordinary fellow."
       }
     },
     "dialogue_0271": {
@@ -1768,7 +1768,7 @@
     "dialogue_0286": {
       "text": {
         "reference": "おぉ、{BEAT}おぉ。{n}{WAIT}あれは、何かと金がかかるけェ。",
-        "translation": "Ohh,{BEAT} ohh.{WAIT} That pursuit does cost a great deal of money."
+        "translation": "Ohh,{BEAT} ohh.{WAIT} That sort of thing costs money."
       }
     },
     "dialogue_0287": {
@@ -1843,13 +1843,13 @@
     "dialogue_0298": {
       "text": {
         "reference": "便利な世の中に、なったもんじゃのゥ。{n}{WAIT}おまえさん、それを使いこなすなんてェ、{n}すごいのゥ。",
-        "translation": "What a convenient age we live in.{WAIT} And you can actually operate it. How impressive."
+        "translation": "What a convenient age we live in.{WAIT} And you can work the thing! Impressive."
       }
     },
     "dialogue_0299": {
       "text": {
         "reference": "便利な世の中に、なったもんじゃのゥ。{n}{WAIT}まったく、だまされている様じゃァ。",
-        "translation": "What a convenient age we live in.{WAIT} It truly feels as though you're deceiving me."
+        "translation": "What a convenient age we live in.{WAIT} It's like some kind of trick."
       }
     },
     "dialogue_0300": {
@@ -1867,7 +1867,7 @@
     "dialogue_0302": {
       "text": {
         "reference": "ヒャッ{BEAT}！{BEAT}？{n}{WAIT}ヒャッヒャッヒャ{BEAT}…{BEAT}…{n}じょ、{BEAT}じょうだんじゃ、じょうだん。",
-        "translation": "Hya{BEAT}!{BEAT}?{WAIT} Hya-hya-hya{BEAT}...{BEAT}... I{BEAT}it was a joke, just a joke."
+        "translation": "Hya{BEAT}!{BEAT}?{WAIT} Hya-hya-hya{BEAT}...{BEAT}... J-{BEAT}just joshing, just joshing."
       }
     },
     "dialogue_0303": {
@@ -1885,7 +1885,7 @@
     "dialogue_0305": {
       "text": {
         "reference": "なッ{BEAT}なにを。{n}{WAIT}知らん物について尋ねちゃァ、悪いんか。{n}{WAIT}失敬なッ。",
-        "translation": "Wha{BEAT}what?{WAIT} Is it so wrong to ask about something I don't know?{WAIT} How rude."
+        "translation": "Wh-{BEAT}what?{WAIT} Is it so wrong to ask about something I don't know?{WAIT} How rude."
       }
     },
     "dialogue_0306": {
@@ -1909,7 +1909,7 @@
     "dialogue_0309": {
       "text": {
         "reference": "そうかァ。{n}そりゃァ、なによりじゃァ。",
-        "translation": "Is that so? What wonderful news."
+        "translation": "Is that so? Good, good."
       }
     },
     "dialogue_0310": {
@@ -1921,13 +1921,13 @@
     "dialogue_0311": {
       "text": {
         "reference": "はて{BEAT}さて。{n}{BEAT}そうだったかのゥ。",
-        "translation": "Hmm{BEAT}mm.{BEAT} Was that so?"
+        "translation": "Hmm{BEAT}mm.{BEAT} Did I, now?"
       }
     },
     "dialogue_0312": {
       "text": {
         "reference": "はて{BEAT}さて。{n}{BEAT}そうだったかのゥ。",
-        "translation": "Hmm{BEAT}mm.{BEAT} Was that so?"
+        "translation": "Hmm{BEAT}mm.{BEAT} Did I, now?"
       }
     },
     "dialogue_0313": {
@@ -1975,7 +1975,7 @@
     "dialogue_0320": {
       "text": {
         "reference": "おまえさんの出方次第によっちゃァ、{n}共に暴れてやらんでもない。",
-        "translation": "Depending on how you conduct yourself, I might even run wild alongside you."
+        "translation": "Play your cards right, and I might run wild with you."
       }
     },
     "dialogue_0321": {
@@ -2034,7 +2034,7 @@
     "dialogue_0329": {
       "text": {
         "reference": "危なっかしくて、見ておれん。",
-        "translation": "I cannot bear to watch. It's far too dangerous."
+        "translation": "Too dangerous. I can't bear to watch."
       }
     },
     "dialogue_0330": {
@@ -2058,7 +2058,7 @@
     "dialogue_0333": {
       "text": {
         "reference": "今は、持ち合わせがないんじゃァ。{n}この次会った時、何かやるから、{n}見逃してくれんかのゥ。",
-        "translation": "I have nothing on hand at present. I'll give you something next time we meet, so could you overlook this?"
+        "translation": "I've nothing on me right now. I'll give you something next time, so let me off, eh?"
       }
     },
     "dialogue_0334": {
@@ -2102,13 +2102,13 @@
     "dialogue_0340": {
       "text": {
         "reference": "ヘリクツを並べおって。",
-        "translation": "Enough of your sophistry."
+        "translation": "Don't you quibble with me."
       }
     },
     "dialogue_0341": {
       "text": {
         "reference": "ヘリクツを並べおって。{n}とっとと帰れェ！",
-        "translation": "Enough of your sophistry. Run along home!"
+        "translation": "Don't you quibble with me. Run along home!"
       }
     },
     "dialogue_0342": {
@@ -2140,7 +2140,7 @@
     "dialogue_0346": {
       "text": {
         "reference": "他人の様な気がしないのゥ。{n}{WAIT}おまえさんの出方次第によっちゃァ、{n}共に暴れてやらんでもないぞォ。",
-        "translation": "You feel like family to me.{WAIT} Depending on how you conduct yourself, I might even run wild alongside you."
+        "translation": "You feel like family to me.{WAIT} Play your cards right, and I might run wild with you."
       }
     },
     "dialogue_0347": {
@@ -2215,7 +2215,7 @@
     "dialogue_0358": {
       "text": {
         "reference": "むむ。{n}{WAIT}すまんのゥ。{n}今、持ち合わせがないんじゃァ。",
-        "translation": "Hmm.{WAIT} I'm sorry. I have nothing on hand at present."
+        "translation": "Hmm.{WAIT} I'm sorry. I've nothing on me right now."
       }
     },
     "dialogue_0359": {
@@ -2352,7 +2352,7 @@
     "dialogue_0379": {
       "text": {
         "reference": "天気はァ、不思議よのゥ。{n}晴れたり、くもったり、泣き出したり。{n}{WAIT}人の心に、よう似ちょる。",
-        "translation": "The weather is a strange thing. Clear one moment, cloudy the next, then it begins to weep.{WAIT} It resembles the human heart."
+        "translation": "The weather is a strange thing. Clear one moment, cloudy the next, then it begins to weep.{WAIT} Just like the human heart."
       }
     },
     "dialogue_0380": {
@@ -2370,13 +2370,13 @@
     "dialogue_0382": {
       "text": {
         "reference": "くもり",
-        "translation": "Cloudy."
+        "translation": "Cloudy"
       }
     },
     "dialogue_0383": {
       "text": {
         "reference": "雨",
-        "translation": "Rain."
+        "translation": "Rain"
       }
     },
     "dialogue_0384": {
@@ -2439,7 +2439,7 @@
     "dialogue_0393": {
       "text": {
         "reference": "どれ。{n}おまえさんの出方次第によっちゃァ、{n}共に暴れてやらんでもない。",
-        "translation": "Come. Depending on how you conduct yourself, I might even run wild alongside you."
+        "translation": "Come. Play your cards right, and I might run wild with you."
       }
     },
     "dialogue_0394": {
@@ -2507,13 +2507,13 @@
     "dialogue_0404": {
       "text": {
         "reference": "おぉ、{BEAT}おぉ。{n}反省しちょるわ。{n}{WAIT}よかろう。",
-        "translation": "Ohh,{BEAT} ohh. You are reflecting on your behavior.{WAIT} Very good."
+        "translation": "Ohh,{BEAT} ohh. You're sorry, I can tell.{WAIT} Very good."
       }
     },
     "dialogue_0405": {
       "text": {
         "reference": "なんじゃ。{n}{WAIT}意外と素直じゃのゥ。{n}反省しちょるわ。",
-        "translation": "What?{WAIT} You're surprisingly obedient. You are reflecting on your behavior."
+        "translation": "What?{WAIT} Obedient, aren't you? You're sorry, I can tell."
       }
     },
     "dialogue_0406": {
@@ -2576,13 +2576,13 @@
     "dialogue_0415": {
       "text": {
         "reference": "な、{BEAT}なんじゃァ、{BEAT}その態度はァ……{n}{WAIT}と、{BEAT}年寄りだと思うて、{n}{WAIT}あなどっ{BEAT}…{BEAT}…{BEAT}てはァ、{WAIT}いけません。",
-        "translation": "Wha{BEAT}what is the meaning{BEAT} of this...?{WAIT} Y{BEAT}you mustn't underestimate{WAIT}...{BEAT}...{BEAT}...{BEAT} an old man,{WAIT} you know."
+        "translation": "Wh-{BEAT}what is the meaning{BEAT} of this...?{WAIT} Y-{BEAT}you mustn't underestimate{WAIT}...{BEAT}...{BEAT}...{BEAT} an old man,{WAIT} sir."
       }
     },
     "dialogue_0416": {
       "text": {
         "reference": "…{BEAT}…{BEAT}仲魔になれとォ、{WAIT}おっしゃいますかァ。{n}{WAIT}よ、{BEAT}よろこんでェ。",
-        "translation": "...{BEAT}...{BEAT} You ask me{WAIT} to join you?{WAIT} G{BEAT}gladly."
+        "translation": "...{BEAT}...{BEAT} You ask me{WAIT} to join you, sir?{WAIT} G-{BEAT}gladly."
       }
     },
     "dialogue_0417": {
@@ -2594,13 +2594,13 @@
     "dialogue_0418": {
       "text": {
         "reference": "なんじゃ、なんじゃァ。{n}このジジィが恐いんかァ！",
-        "translation": "What is it? Is this old man frightening?"
+        "translation": "What's this? Scared of an old geezer?!"
       }
     },
     "dialogue_0419": {
       "text": {
         "reference": "なんじゃ、なんじゃァ。{n}このジジィが恐いんかァ！{n}{WAIT}行くぞ、ハナタレェ！！",
-        "translation": "What is it? Is this old man frightening?{WAIT} Here I come, you snot-nosed brat!"
+        "translation": "What's this? Scared of an old geezer?!{WAIT} Here I come, you snot-nosed brat!"
       }
     },
     "dialogue_0420": {
@@ -2675,7 +2675,7 @@
     "dialogue_0431": {
       "text": {
         "reference": "さすがは、ハナタレ。{n}人に物を頼む時の、常識を知らん。",
-        "translation": "Just what I'd expect from a snot-nosed brat. You don't know the first thing about asking a favor."
+        "translation": "Just what I'd expect from a snot-nosed brat. You don't know how to ask a favor."
       }
     },
     "dialogue_0432": {
@@ -2688,7 +2688,7 @@
     "dialogue_0433": {
       "text": {
         "reference": "クゥ～～～！{n}武者震いが止まらん。{n}{WAIT}昔を思い出すのゥ。",
-        "translation": "Ooh! I cannot stop trembling with excitement.{WAIT} This takes me back.",
+        "translation": "Ooh! I'm itching for a fight!{WAIT} Takes me back.",
         "note": "Fragment context: message 463 page 1 links the agreement on page 0 (dialogue_0432) to the introduction on page 2 (dialogue_0434)."
       }
     },
@@ -2718,7 +2718,7 @@
     "dialogue_0437": {
       "text": {
         "reference": "親切な若い衆も、おるもんだのゥ。{n}こんなにたくさん、頂いて。{n}{WAIT}わしも、もらってばかりじゃァ悪いで。",
-        "translation": "There are still kind young people in the world. Giving me so much...{WAIT} I cannot simply take without returning the favor."
+        "translation": "There are still kind young people in the world. Giving me so much...{WAIT} I can't just take and take."
       }
     },
     "dialogue_0438": {
@@ -2769,13 +2769,13 @@
     "dialogue_0445": {
       "text": {
         "reference": "ことわる",
-        "translation": "Refuse."
+        "translation": "Refuse"
       }
     },
     "dialogue_0446": {
       "text": {
         "reference": "クゥ～～～！{n}武者震いが止まらん。{n}昔を思い出すのゥ。",
-        "translation": "Ooh! I cannot stop trembling with excitement. This takes me back.",
+        "translation": "Ooh! I'm itching for a fight! Takes me back.",
         "note": "Fragment context: message 475 page 0 continues on page 1 (dialogue_0447) with the demon's inserted clan and name."
       }
     },
@@ -2793,7 +2793,7 @@
     "dialogue_0448": {
       "text": {
         "reference": "ヒャッヒャッヒャ～。{n}{WAIT}本気で仲魔になるとでも、思うたかァ！",
-        "translation": "Hya-hya-hya!{WAIT} Did you truly think I would join you?"
+        "translation": "Hya-hya-hya!{WAIT} Did you really think I'd join you?!"
       }
     },
     "dialogue_0449": {
@@ -2859,7 +2859,7 @@
     "dialogue_0458": {
       "text": {
         "reference": "そうじゃろ、そうじゃろ。{n}{WAIT}よく見ればおまえさんも、{n}つらそうな事をしておるのゥ。",
-        "translation": "Indeed, indeed.{WAIT} Looking closely, you seem to have a difficult task of your own."
+        "translation": "Indeed, indeed.{WAIT} And you look to have a hard job yourself."
       }
     },
     "dialogue_0459": {
@@ -2871,7 +2871,7 @@
     "dialogue_0460": {
       "text": {
         "reference": "おまえさん、会った事があるんかァ！？{n}{WAIT}たわけッ！",
-        "translation": "You've met them?!{WAIT} You fool!"
+        "translation": "Been up there, have you?!{WAIT} You fool!"
       }
     },
     "dialogue_0461": {
@@ -2943,7 +2943,7 @@
     "dialogue_0472": {
       "text": {
         "reference": "ついて行ってやるのも、一興かのゥ。",
-        "translation": "Accompanying you might be rather diverting."
+        "translation": "Tagging along with you might be fun."
       }
     },
     "dialogue_0473": {
@@ -3048,7 +3048,7 @@
     "dialogue_0489": {
       "text": {
         "reference": "年寄りをあなどるでない。{n}お見通しじゃァ！",
-        "translation": "Do not underestimate your elders. I see through you!"
+        "translation": "Don't underestimate your elders. I see through you!"
       }
     },
     "dialogue_0490": {
@@ -3084,7 +3084,7 @@
     "dialogue_0495": {
       "text": {
         "reference": "おぉ、{BEAT}おぉ。{n}{WAIT}ちと態度はでかいが、反省しちょるわ。{n}人間、素直がいちばんじゃァ。",
-        "translation": "Ohh,{BEAT} ohh.{WAIT} Your attitude is a little grand, but you are reflecting on your behavior. Honesty is the finest virtue."
+        "translation": "Ohh,{BEAT} ohh.{WAIT} A bit cocky, but you're sorry, I can tell. Honesty is best."
       }
     },
     "dialogue_0496": {
@@ -3108,20 +3108,20 @@
     "dialogue_0499": {
       "text": {
         "reference": "！{BEAT}！{n}{WAIT}ありません。",
-        "translation": "!{BEAT}!{WAIT} None!"
+        "translation": "!{BEAT}!{WAIT} No, sir!"
       }
     },
     "dialogue_0500": {
       "text": {
         "reference": "困ったのゥ。{n}{WAIT}仲魔になってやりたいのは、{n}やまやまなんじゃが。",
-        "translation": "This is difficult.{WAIT} I would dearly like to join you, but...",
+        "translation": "This is difficult.{WAIT} I'd dearly like to join you, but...",
         "note": "Opening fragment; dialogue_0501 completes message 536 and dialogue_0503 completes message 537."
       }
     },
     "dialogue_0501": {
       "text": {
         "reference": "仲魔の方々と、ソリが合わんようじゃァ。{n}{WAIT}かんにんしとくれェ。",
-        "translation": "It seems I would not get along with your allies.{WAIT} Please forgive me.",
+        "translation": "Seems I wouldn't get on with your allies.{WAIT} Please forgive me.",
         "note": "Closing fragment for message 536; with dialogue_0500, the full line is: I would dearly like to join you, but it seems I would not get along with your allies. Please forgive me."
       }
     },
@@ -3137,14 +3137,14 @@
     "dialogue_0503": {
       "text": {
         "reference": "仲魔の方々と、ソリが合わんようじゃァ。{n}かんにんしとくれェ。{n}{WAIT}達者でのゥ。",
-        "translation": "It seems I would not get along with your allies. Please forgive me.{WAIT} Farewell.",
+        "translation": "Seems I wouldn't get on with your allies. Please forgive me.{WAIT} Farewell.",
         "note": "Closing fragment for message 537; with dialogue_0500, the full line is: I would dearly like to join you, but it seems I would not get along with your allies. Please forgive me. Farewell."
       }
     },
     "dialogue_0504": {
       "text": {
         "reference": "むゥ、{BEAT}やはりやめておこうかのゥ。{n}{WAIT}ここでわしが力を貸したら、{n}おまえさんが、楽をしてしまう。",
-        "translation": "Hmm,{BEAT} perhaps I should reconsider.{WAIT} If I lent you my strength now, life would become too easy for you."
+        "translation": "Hmm,{BEAT} perhaps I should reconsider.{WAIT} If I helped you now, you'd have it too easy."
       }
     },
     "dialogue_0505": {
@@ -3177,7 +3177,7 @@
     "dialogue_0509": {
       "text": {
         "reference": "おぉ、{BEAT}おぉ。{n}{WAIT}こんなジジィをいじめて、楽しいかィ。{n}無駄な殺生はァ、するもんじゃねェぞ。",
-        "translation": "Oh,{BEAT} oh.{WAIT} Do you enjoy tormenting an old man like me? You shouldn't kill without cause."
+        "translation": "Ohh,{BEAT} ohh.{WAIT} Do you enjoy tormenting an old man like me? You shouldn't kill without cause."
       }
     },
     "dialogue_0510": {

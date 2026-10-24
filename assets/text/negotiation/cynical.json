@@ -32,13 +32,13 @@
     "dialogue_0004": {
       "text": {
         "reference": "倍返しって言葉、知ってるか？{n}{WAIT}ひじょーに、{BEAT}魅力的な響きだな。{n}{WAIT}期待してるぞ。",
-        "translation": "Ever heard the phrase “double your money back”?{WAIT} It has an{BEAT} extremely appealing ring to it.{WAIT} I'm counting on you."
+        "translation": "Ever heard of \"paying back double\"?{WAIT} It has an{BEAT} extremely appealing ring to it.{WAIT} I'm counting on you."
       }
     },
     "dialogue_0005": {
       "text": {
         "reference": "好ギ{BEAT}ダダダァ{n}ダダダダ大好ギダァ{n}{WAIT}いや、別に用はないんだが。",
-        "translation": "I lo{BEAT}lo-lo-love you!{WAIT} No, I don't actually need anything."
+        "translation": "I lo-{BEAT}lo-lo-love you!{WAIT} No, I don't actually need anything."
       }
     },
     "dialogue_0006": {
@@ -92,7 +92,7 @@
     "dialogue_0014": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}しょうがない。{n}仲魔になってやらないこともない。",
-        "translation": "Y{BEAT}you're joking.{WAIT} Oh, fine. I suppose I could join you."
+        "translation": "N-{BEAT}no way.{WAIT} Oh, fine. I suppose I could join you."
       }
     },
     "dialogue_0015": {
@@ -113,7 +113,7 @@
     "dialogue_0017": {
       "text": {
         "reference": "う{BEAT}うっそ。",
-        "translation": "Y{BEAT}you're joking."
+        "translation": "N-{BEAT}no way."
       }
     },
     "dialogue_0018": {
@@ -245,7 +245,7 @@
     "dialogue_0038": {
       "text": {
         "reference": "倍返しって言葉、知ってるかい？{n}{WAIT}ひじょーに、{BEAT}魅力的な響きだな。{n}{WAIT}期待してるよ、{BEAT}きみには。",
-        "translation": "Ever heard the phrase “double your money back”?{WAIT} It has an{BEAT} extremely appealing ring to it.{WAIT} I'm expecting great things from{BEAT} you."
+        "translation": "Ever heard of \"paying back double\"?{WAIT} It has an{BEAT} extremely appealing ring to it.{WAIT} I'm expecting great things from{BEAT} you."
       }
     },
     "dialogue_0039": {
@@ -283,13 +283,13 @@
     "dialogue_0044": {
       "text": {
         "reference": "そういう年頃なのか？{n}{WAIT}そんなに俺が気になるのなら、{n}話してやらないこともない。",
-        "translation": "Is it that kind of age?{WAIT} If you're that interested in me, I suppose I could talk to you."
+        "translation": "Going through a phase?{WAIT} If you're that interested in me, I suppose I could talk to you."
       }
     },
     "dialogue_0045": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}俺にもとどめを刺す気かい。",
-        "translation": "Y{BEAT}you're joking.{WAIT} You mean to finish me off, too?"
+        "translation": "N-{BEAT}no way.{WAIT} You mean to finish me off, too?"
       }
     },
     "dialogue_0046": {
@@ -307,13 +307,13 @@
     "dialogue_0048": {
       "text": {
         "reference": "ない",
-        "translation": "I don't."
+        "translation": "No."
       }
     },
     "dialogue_0049": {
       "text": {
         "reference": "さっ{BEAT}すが。{n}{WAIT}太っ腹だね、大将。",
-        "translation": "J{BEAT}just as expected.{WAIT} Very generous, chief."
+        "translation": "Kn-{BEAT}knew it.{WAIT} Generous of you, chief."
       }
     },
     "dialogue_0050": {
@@ -411,7 +411,7 @@
     "dialogue_0064": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}持ってない？",
-        "translation": "Y{BEAT}you're joking.{WAIT} You don't have any?"
+        "translation": "N-{BEAT}no way.{WAIT} You don't have any?"
       }
     },
     "dialogue_0065": {
@@ -468,7 +468,7 @@
       },
       "text": {
         "reference": "しょうがねえな。{n}ほら、{offered_item}だ。{n}{WAIT}倍返しって言葉、知ってるかい。",
-        "translation": "Oh, fine. Here, it's {offered_item}.{WAIT} Ever heard the phrase “double your money back”?"
+        "translation": "Oh, fine. Here, it's {offered_item}.{WAIT} Ever heard of \"paying back double\"?"
       }
     },
     "dialogue_0074": {
@@ -492,13 +492,13 @@
     "dialogue_0077": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}しょうがねえなあ。{n}つきあってやらないこともない。",
-        "translation": "Y{BEAT}you're joking.{WAIT} Oh, fine. I suppose I could humor you."
+        "translation": "N-{BEAT}no way.{WAIT} Oh, fine. I suppose I could humor you."
       }
     },
     "dialogue_0078": {
       "text": {
         "reference": "う{BEAT}うっそ。",
-        "translation": "Y{BEAT}you're joking."
+        "translation": "N-{BEAT}no way."
       }
     },
     "dialogue_0079": {
@@ -582,7 +582,7 @@
     "dialogue_0092": {
       "text": {
         "reference": "そういうこと、真顔で言われてもなあ。{n}いまどき、そんな言葉使う奴、いねえよ。{n}{WAIT}あたま、おかしいんじゃねえの？",
-        "translation": "You can't say that with a straight face. No one uses words like that anymore.{WAIT} Are you insane?"
+        "translation": "Saying that with a straight face? Nobody talks like that anymore.{WAIT} Are you insane?"
       }
     },
     "dialogue_0093": {
@@ -594,7 +594,7 @@
     "dialogue_0094": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}そりゃ、すごいねえ。{n}{WAIT}がんばれば。",
-        "translation": "Y{BEAT}you're joking.{WAIT} That's impressive.{WAIT} Keep it up."
+        "translation": "N-{BEAT}no way.{WAIT} That's impressive.{WAIT} Keep it up."
       }
     },
     "dialogue_0095": {
@@ -645,7 +645,7 @@
       },
       "text": {
         "reference": "ほら、手え出してみろ。{n}{offered_item}だ。{n}{WAIT}倍返しって言葉、知ってるかい。",
-        "translation": "Here, hold out your hand. It's {offered_item}.{WAIT} Ever heard the phrase “double your money back”?"
+        "translation": "Here, hold out your hand. It's {offered_item}.{WAIT} Ever heard of \"paying back double\"?"
       }
     },
     "dialogue_0103": {
@@ -711,13 +711,13 @@
     "dialogue_0113": {
       "text": {
         "reference": "古くせえな。{n}なんだそりゃ、鍛練って。{n}{WAIT}ひじょーに、{BEAT}魅力的。",
-        "translation": "How archaic. “Training”? What is that?{WAIT} Extremely{BEAT} appealing."
+        "translation": "How archaic. \"Training\"? What is that?{WAIT} Extremely{BEAT} appealing."
       }
     },
     "dialogue_0114": {
       "text": {
         "reference": "なんだそりゃ、鍛練って。{n}{WAIT}暑苦しい奴。{n}寄るな。",
-        "translation": "What's this “training” business?{WAIT} You're exhausting. Stay away."
+        "translation": "What's this \"training\" business?{WAIT} You're exhausting. Stay away."
       }
     },
     "dialogue_0115": {
@@ -765,7 +765,7 @@
     "dialogue_0122": {
       "text": {
         "reference": "いきなり、そう来るかい。{n}どこの勧誘だ？",
-        "translation": "That's your opening line? What sort of solicitation is this?"
+        "translation": "That's your opening line? Who are you recruiting for?"
       }
     },
     "dialogue_0123": {
@@ -789,7 +789,7 @@
     "dialogue_0126": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}もう終わりかい。{n}そっちから、話しかけといて？",
-        "translation": "Y{BEAT}you're joking. Finished already? And after you started this conversation?"
+        "translation": "N-{BEAT}no way. Finished already? And after you started this conversation?"
       }
     },
     "dialogue_0127": {
@@ -882,7 +882,7 @@
     "dialogue_0141": {
       "text": {
         "reference": "「当然」{BEAT}しか選べないらしいぞ。{n}{WAIT}いやいや、まじで。{n}{WAIT}なぜなら。",
-        "translation": "Apparently, you can only choose “Of course.”{BEAT}{WAIT} No, seriously.{WAIT} Because...",
+        "translation": "Apparently, you can only choose \"Of course.\"{BEAT}{WAIT} No, seriously.{WAIT} Because...",
         "note": "Opening fragment; with dialogue_0142, the full explanation is: Because it is the natural choice for any human being."
       }
     },
@@ -902,7 +902,7 @@
     "dialogue_0144": {
       "text": {
         "reference": "「死んでいいよ」{BEAT}しか選べないだと？{n}{WAIT}そうか。",
-        "translation": "You can only choose “You can die now”?{BEAT}{WAIT} I see."
+        "translation": "You can only choose \"You can die now\"?{BEAT}{WAIT} I see."
       }
     },
     "dialogue_0145": {
@@ -1099,7 +1099,7 @@
     "dialogue_0176": {
       "text": {
         "reference": "あたりマエダのローキック。",
-        "translation": "Well, that's a Maeda low kick."
+        "translation": "Okey-dokey, artichokey."
       }
     },
     "dialogue_0177": {
@@ -1147,7 +1147,7 @@
     "dialogue_0184": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}もっと、{n}言葉のキャッチボールを楽しもうぜ。",
-        "translation": "Y{BEAT}you're joking.{WAIT} Let's enjoy a little more verbal give-and-take."
+        "translation": "N-{BEAT}no way.{WAIT} Let's enjoy a little more verbal give-and-take."
       }
     },
     "dialogue_0185": {
@@ -1165,13 +1165,13 @@
     "dialogue_0187": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}もっともっと、{n}言葉のキャッチボールを楽しもうぜ。",
-        "translation": "Y{BEAT}you're joking.{WAIT} Let's enjoy even more verbal give-and-take."
+        "translation": "N-{BEAT}no way.{WAIT} Let's enjoy even more verbal give-and-take."
       }
     },
     "dialogue_0188": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}会話を楽しむ心の余裕がないらしい。{n}{WAIT}死んでいいよ、きみ。",
-        "translation": "Y{BEAT}you're joking.{WAIT} You lack the composure to enjoy a conversation.{WAIT} You can die now."
+        "translation": "N-{BEAT}no way.{WAIT} You lack the composure to enjoy a conversation.{WAIT} You can die now."
       }
     },
     "dialogue_0189": {
@@ -1278,7 +1278,7 @@
     "dialogue_0205": {
       "text": {
         "reference": "まじかよ、こいつ。{n}{WAIT}いっちゃってるよ。{n}{WAIT}人間、ひじょーに、{BEAT}おそるべし。",
-        "translation": "This one is serious.{WAIT} Completely gone.{WAIT} Humans are{BEAT} extremely frightening."
+        "translation": "Is this guy for real?{WAIT} Completely gone.{WAIT} Humans are{BEAT} extremely frightening."
       }
     },
     "dialogue_0206": {
@@ -1297,7 +1297,7 @@
     "dialogue_0208": {
       "text": {
         "reference": "誕生日には、自分で自分に、{n}「ご苦労様{OP:8026}♡{OP:8020}」とか言って、",
-        "translation": "on your birthday, you tell yourself “Good work{OP:8026}!{OP:8020}” and...",
+        "translation": "on your birthday, you tell yourself \"Good work{OP:8026}!{OP:8020}\" and...",
         "note": "Middle fragment; dialogue_0207 supplies Perhaps, and dialogue_0209 completes the question."
       }
     },
@@ -1441,7 +1441,7 @@
     "dialogue_0231": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}どう違うんだ。",
-        "translation": "Y{BEAT}you're joking.{WAIT} How are we different?"
+        "translation": "N-{BEAT}no way.{WAIT} How are we different?"
       }
     },
     "dialogue_0232": {
@@ -1459,7 +1459,7 @@
     "dialogue_0234": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}帰っていいよ、きみ。{n}{WAIT}いやいや、まじで。",
-        "translation": "Y{BEAT}you're joking.{WAIT} You can go home.{WAIT} No, seriously."
+        "translation": "N-{BEAT}no way.{WAIT} You can go home.{WAIT} No, seriously."
       }
     },
     "dialogue_0235": {
@@ -1613,7 +1613,7 @@
     "dialogue_0259": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}別になんにもいらねえよ。",
-        "translation": "Y{BEAT}you're joking.{WAIT} I don't need anything."
+        "translation": "N-{BEAT}no way.{WAIT} I don't need anything."
       }
     },
     "dialogue_0260": {
@@ -1643,7 +1643,7 @@
     "dialogue_0264": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}ひじょーに、{BEAT}悲しいよ。",
-        "translation": "Y{BEAT}you're joking.{WAIT} I'm{BEAT} extremely sad."
+        "translation": "N-{BEAT}no way.{WAIT} I'm{BEAT} extremely sad."
       }
     },
     "dialogue_0265": {
@@ -1715,7 +1715,7 @@
       },
       "text": {
         "reference": "{offered_item}を、やらないこともない。{n}{WAIT}倍返しという言葉を知っているかい。",
-        "translation": "I suppose I could give you {offered_item}.{WAIT} Ever heard the phrase “double your money back”?"
+        "translation": "I suppose I could give you {offered_item}.{WAIT} Ever heard of \"paying back double\"?"
       }
     },
     "dialogue_0276": {
@@ -1739,7 +1739,7 @@
     "dialogue_0279": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}そうだったとは。",
-        "translation": "Y{BEAT}you're joking.{WAIT} So that's how it was."
+        "translation": "N-{BEAT}no way.{WAIT} So that's how it was."
       }
     },
     "dialogue_0280": {
@@ -1751,7 +1751,7 @@
     "dialogue_0281": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}俺には、{n}きみの愛を正面から受け止める勇気がない。",
-        "translation": "Y{BEAT}you're joking.{WAIT} I lack the courage to face your love directly."
+        "translation": "N-{BEAT}no way.{WAIT} I lack the courage to face your love directly."
       }
     },
     "dialogue_0282": {
@@ -1781,7 +1781,7 @@
     "dialogue_0286": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}それは、どういう意味だ。{n}ひじょーに、{BEAT}気になる。",
-        "translation": "Y{BEAT}you're joking.{WAIT} What does that mean? I'm{BEAT} extremely curious."
+        "translation": "N-{BEAT}no way.{WAIT} What does that mean? I'm{BEAT} extremely curious."
       }
     },
     "dialogue_0287": {
@@ -1799,7 +1799,7 @@
     "dialogue_0289": {
       "text": {
         "reference": "うん{happy_symbol}おじちゃん、好き好きぃ～{happy_symbol}{n}{WAIT}妖虫ウブのマネ。{n}{WAIT}ちょっと、マイナーすぎたな。",
-        "translation": "“Mm! I love you, mister!”{WAIT} My impression of Vermin Ubu.{WAIT} That reference was a bit too obscure."
+        "translation": "\"Mm! I love you, mister!\"{WAIT} My impression of Vermin Ubu.{WAIT} That reference was a bit too obscure."
       }
     },
     "dialogue_0290": {
@@ -1960,7 +1960,7 @@
     "dialogue_0315": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}黙ってもらっときゃ、わかんねえのに。{n}{WAIT}ひじょーに、{BEAT}ばか正直な奴。",
-        "translation": "Y{BEAT}you're joking.{WAIT} If you'd quietly taken it, no one would have known.{WAIT} You're{BEAT} extremely honest to a fault."
+        "translation": "N-{BEAT}no way.{WAIT} If you'd quietly taken it, no one would have known.{WAIT} You're{BEAT} extremely honest to a fault."
       }
     },
     "dialogue_0316": {
@@ -2237,7 +2237,7 @@
     "dialogue_0361": {
       "text": {
         "reference": "10秒前の約束を破るなんて。{n}{WAIT}ニワトリかい、きみは。{n}{WAIT}しかも、不正解。",
-        "translation": "You broke a ten-second-old promise.{WAIT} Are you a chicken?{WAIT} And you're wrong."
+        "translation": "You broke a ten-second-old promise.{WAIT} Bird-brained, are you?{WAIT} And you're wrong."
       }
     },
     "dialogue_0362": {
@@ -2255,7 +2255,7 @@
     "dialogue_0364": {
       "text": {
         "reference": "なんとかに刃物{BEAT}って言葉、知ってるかい。{n}{WAIT}すなわち。",
-        "translation": "Ever heard the phrase “a blade in a fool's hand”?{BEAT}{WAIT} In other words...",
+        "translation": "Ever heard the phrase \"a blade in a fool's hand\"?{BEAT}{WAIT} In other words...",
         "note": "Opening fragment; with dialogue_0365, the conclusion is: In other words, I'd like you to unequip your SWORD."
       }
     },
@@ -2287,19 +2287,19 @@
     "dialogue_0369": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}ひじょーに、{BEAT}話す気がないらしい。",
-        "translation": "Y{BEAT}you're joking.{WAIT} You seem{BEAT} extremely unwilling to talk."
+        "translation": "N-{BEAT}no way.{WAIT} You seem{BEAT} extremely unwilling to talk."
       }
     },
     "dialogue_0370": {
       "text": {
         "reference": "悪魔は、殺されると平気じゃないらしい。{n}{WAIT}さて、そこで質問です。",
-        "translation": "Apparently, demons don't feel fine when killed.{WAIT} Now for the question."
+        "translation": "Apparently, demons mind being killed.{WAIT} Now for the question."
       }
     },
     "dialogue_0371": {
       "text": {
         "reference": "きみは、悪魔を殺して平気かい？",
-        "translation": "Does killing demons trouble you?"
+        "translation": "Do you mind killing demons?"
       }
     },
     "dialogue_0372": {
@@ -2323,13 +2323,13 @@
     "dialogue_0375": {
       "text": {
         "reference": "果して、{BEAT}どうかな。",
-        "translation": "But{BEAT} can I?"
+        "translation": "We'll{BEAT} see."
       }
     },
     "dialogue_0376": {
       "text": {
         "reference": "果して、{BEAT}どうかな。{n}{WAIT}気がとがめるなら、{n}防御しかしないに違いない。",
-        "translation": "But{BEAT} can I?{WAIT} If you feel guilty, you must surely do nothing but defend."
+        "translation": "We'll{BEAT} see.{WAIT} If you feel guilty, you'll surely do nothing but defend."
       }
     },
     "dialogue_0377": {
@@ -2353,7 +2353,7 @@
     "dialogue_0379": {
       "text": {
         "reference": "殺しちゃや～よぉ、おじちゃん{happy_symbol}{n}これ、あげるからぁ～{happy_symbol}{n}{WAIT}そんな感じだ。",
-        "translation": "“Don't kill me, mister! I'll give you this!”{WAIT} Something like that."
+        "translation": "\"Don't kill me, mister! I'll give you this!\"{WAIT} Something like that."
       }
     },
     "dialogue_0380": {
@@ -2365,7 +2365,7 @@
     "dialogue_0381": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}ひじょーに、{BEAT}恐い男だね。",
-        "translation": "Y{BEAT}you're joking.{WAIT} You're an{BEAT} extremely frightening man."
+        "translation": "N-{BEAT}no way.{WAIT} You're an{BEAT} extremely frightening man."
       }
     },
     "dialogue_0382": {
@@ -2465,7 +2465,7 @@
     "dialogue_0397": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}そうか。{n}じゃあ、これを俺だと思って受け取れ。",
-        "translation": "Y{BEAT}you're joking.{WAIT} I see. Then accept this as a substitute for me."
+        "translation": "N-{BEAT}no way.{WAIT} I see. Then accept this as a substitute for me."
       }
     },
     "dialogue_0398": {
@@ -2480,7 +2480,7 @@
     "dialogue_0399": {
       "text": {
         "reference": "じつは、{BEAT}きみに相談がある。{n}{WAIT}相談とは、他でもない。",
-        "translation": "Actually,{BEAT} I need your advice.{WAIT} Specifically...",
+        "translation": "Actually,{BEAT} I have a favor to ask.{WAIT} It's this:",
         "note": "Opening fragment; dialogue_0400 supplies the specific request to borrow {requested_item}."
       }
     },
@@ -2490,14 +2490,14 @@
       },
       "text": {
         "reference": "{requested_item}を貸して欲しい、まじで。",
-        "translation": "lend me {requested_item}. Seriously.",
+        "translation": "Lend me {requested_item}. Seriously.",
         "note": "Closing fragment; dialogue_0399 supplies Specifically."
       }
     },
     "dialogue_0401": {
       "text": {
         "reference": "渡す",
-        "translation": "Hand it over."
+        "translation": "Give it."
       }
     },
     "dialogue_0402": {
@@ -2600,7 +2600,7 @@
     "dialogue_0417": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}もしかして。{n}{WAIT}きみだったのか、あれ。",
-        "translation": "Y{BEAT}you're joking.{WAIT} Wait...{WAIT} Was that you?"
+        "translation": "N-{BEAT}no way.{WAIT} Wait...{WAIT} Was that you?"
       }
     },
     "dialogue_0418": {
@@ -2681,7 +2681,7 @@
     "dialogue_0430": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}大発見だと思ったのに。",
-        "translation": "Y{BEAT}you're joking.{WAIT} I thought it was a major discovery."
+        "translation": "N-{BEAT}no way.{WAIT} I thought it was a major discovery."
       }
     },
     "dialogue_0431": {
@@ -2908,7 +2908,7 @@
     "dialogue_0466": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}なんにも持ってないじゃん。",
-        "translation": "Y{BEAT}you're joking.{WAIT} You have nothing at all."
+        "translation": "N-{BEAT}no way.{WAIT} You have nothing at all."
       }
     },
     "dialogue_0467": {
@@ -2954,13 +2954,13 @@
       },
       "text": {
         "reference": "{race}、{demon_name}だ。{n}大船に乗ったつもりで、いてやるからよ。{n}せいぜい、がんばってくれたまえ。",
-        "translation": "I'm {demon_name} of the {race} clan. Rest easy--you're in safe hands. Do your best."
+        "translation": "I'm {race} {demon_name}. Rest easy--you're in safe hands. Do your best."
       }
     },
     "dialogue_0474": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}COMPがいっぱいらしいぞ。{n}そんくらい、ちゃんと覚えとけよ。",
-        "translation": "Y{BEAT}you're joking.{WAIT} Apparently your COMP is full. Remember something that basic."
+        "translation": "N-{BEAT}no way.{WAIT} Apparently your COMP is full. Remember something that basic."
       }
     },
     "dialogue_0475": {
@@ -3047,7 +3047,7 @@
       },
       "text": {
         "reference": "{race}、{demon_name}だ。{n}大船に乗ったつもりで、いてやるからよ。{n}せいぜい、がんばってくれたまえ。",
-        "translation": "I'm {demon_name} of the {race} clan. Rest easy--you're in safe hands. Do your best."
+        "translation": "I'm {race} {demon_name}. Rest easy--you're in safe hands. Do your best."
       }
     },
     "dialogue_0488": {
@@ -3140,13 +3140,13 @@
     "dialogue_0502": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}暑苦しいね、きみは。",
-        "translation": "Y{BEAT}you're joking.{WAIT} You're exhausting."
+        "translation": "N-{BEAT}no way.{WAIT} You're stifling."
       }
     },
     "dialogue_0503": {
       "text": {
         "reference": "「暑苦しい」の反対は、{WAIT}「寒楽しい」{BEAT}か。{n}{BEAT}どんな感じかな。",
-        "translation": "The opposite of “stifling” is{WAIT} “chillingly fun,”{BEAT} perhaps.{BEAT} What would that be like?"
+        "translation": "The opposite of \"stifling\" is{WAIT} \"chillingly fun,\"{BEAT} perhaps.{BEAT} What would that be like?"
       }
     },
     "dialogue_0504": {
@@ -3164,7 +3164,7 @@
     "dialogue_0506": {
       "text": {
         "reference": "「グゲグゲグゲゲェ」{BEAT}と、しゃべるのは{BEAT}…{BEAT}…",
-        "translation": "Who says “Guge-guge-gugegeh”{BEAT}? Is{BEAT} it{BEAT}...",
+        "translation": "Who says \"Guge-guge-gugegeh\"{BEAT}? Is{BEAT} it{BEAT}...",
         "note": "Quiz-stem fragment; each answer dialogue_0507 through dialogue_0510 completes the question with one demon name."
       }
     },
@@ -3225,7 +3225,7 @@
     "dialogue_0516": {
       "text": {
         "reference": "で{BEAT}す{BEAT}が{BEAT}。{n}{WAIT}では、{BEAT}「おぉおぉ、ひもじいのゥ」{BEAT}と{n}しゃべるのは、誰でしょう。",
-        "translation": "How{BEAT}ev{BEAT}er{BEAT}...{WAIT} Who{BEAT} says “Ohh, ohh, I'm so hungry”{BEAT}?"
+        "translation": "How{BEAT}ev{BEAT}er{BEAT}...{WAIT} Who{BEAT} says \"Ohh, ohh, I'm so hungry\"{BEAT}?"
       }
     },
     "dialogue_0517": {
@@ -3403,19 +3403,19 @@
     "dialogue_0544": {
       "text": {
         "reference": "さっ{BEAT}すが。{n}{WAIT}じゃあ、一生つきまとってやるから、{n}ありがたく思え。",
-        "translation": "J{BEAT}just as expected.{WAIT} Then I'll follow you for life, so be grateful."
+        "translation": "Kn-{BEAT}knew it.{WAIT} Then I'll follow you for life, so be grateful."
       }
     },
     "dialogue_0545": {
       "text": {
         "reference": "さっ{BEAT}すが。{n}{WAIT}では、ばかが治るように死なせてやろう。",
-        "translation": "J{BEAT}just as expected.{WAIT} Then I'll kill you and cure your stupidity."
+        "translation": "Kn-{BEAT}knew it.{WAIT} Then I'll kill you and cure your stupidity."
       }
     },
     "dialogue_0546": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}みずくさいぞ、{BEAT}友達だろ。",
-        "translation": "Y{BEAT}you're joking.{WAIT} Don't be so distant,{BEAT} we're friends."
+        "translation": "N-{BEAT}no way.{WAIT} Don't be so distant,{BEAT} we're friends."
       }
     },
     "dialogue_0547": {
@@ -3474,7 +3474,7 @@
     "dialogue_0555": {
       "text": {
         "reference": "う{BEAT}うっそ。{n}{WAIT}俺にもとどめを刺す気かい。{n}{WAIT}ひじょーに、{BEAT}やめて欲しい。",
-        "translation": "Y{BEAT}-you're kidding.{WAIT} You mean to finish me off too?{WAIT} I'd really{BEAT} rather you didn't."
+        "translation": "N-{BEAT}no way.{WAIT} You mean to finish me off, too?{WAIT} I'd really{BEAT} rather you didn't."
       }
     },
     "dialogue_0556": {
