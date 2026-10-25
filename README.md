@@ -1,46 +1,32 @@
 # Devil Summoner Translation Tools
 
-Tools for translating and modifying *Shin Megami Tensei: Devil Summoner*. The
-repository builds an English version of the Japanese Sega Saturn release
-(Rev. B) from a clean copy of the disc, and contains the beginnings of a PSP
-port of the same work.
+Various tools for translating *Shin Megami Tensei: Devil Summoner*.
+The repository includes a provisional AI English translation, along with a web toolkit for previewing wrap-widths and modifying lines.
+Given another English AI translation has already been published, I'm adding releases to this repo as an alternative or supplemental resource for any future work on this game.
 
-**Just want to play it?** Download the patch from the
-[releases page](https://github.com/coregee/devil_summoner_tools/releases) and
-follow [PATCHING.md](PATCHING.md). It applies to the Rev. B Saturn disc.
 
-I'm not actively developing this any more, but everything needed to carry it on
-is here, and forks, fixes and new translations are very welcome.
+**If you're just looking to play the game**, there's a patch for the Sega Saturn Rev B version. Follow the [patching instructions](PATCHING.md), using the [latest release](https://github.com/coregee/devil_summoner_tools/releases).
 
 ## Status
 
 | Target | State |
 | --- | --- |
-| Saturn game disc (Rev. B) | **v0.2.1.** Feature-complete: all of the game's text, fonts, menus, FMV subtitles and translated graphics. |
-| Saturn *Akuma Zensho* disc | **Broken.** The build produces an image, but the translated compendium does not work correctly in game. Don't rely on it. |
-| PSP | **Very incomplete.** A number of individual screens are translated and build cleanly (see [`psp/README.md`](psp/README.md)), but most of the game is still in Japanese. |
+| Saturn game disc (Rev. B) | Feature complete, not extensively tested. |
+| Saturn *Akuma Zensho* disc | Some early investigation, but non-functional and abandoned. |
+| PSP | Early work; some functional surfaces, otherwise also abandoned. |
 
-The whole game is translated, and v0.2 revises the script against the Japanese
-(see [CHANGELOG.md](CHANGELOG.md)). It still hasn't had a full playthrough, so
-if you spot typos, odd terminology or a line that doesn't fit, please
-[open an issue](https://github.com/coregee/devil_summoner_tools/issues).
+The tooling has been designed with the intention that changes made to one version will port cleanly to the other.
 
-## The Saturn translation
+## Features
 
-- Proportional (variable-width) text throughout: dialogue, menus, battle,
-  shops, status screens and more.
-- Names drawn in full in the space available, so location, item and skill
-  names aren't cut down to a fixed number of letters.
-- English name entry with separate upper-case, lower-case and symbol grids.
-- Names, items and numbers inserted into sentences are drawn in the same font
-  as the sentence around them.
-- Subtitles for the FMV sequences, drawn by the game at runtime.
-- Translated title screen, dungeon textures, save screens and other graphics.
+- Proportional (variable-width) text (intentionally excluding the battle terminal).
+- Full-length names using appropriately-sized fonts across different surfaces
+- Dictionary compression and split-paging support, to ensure the English script isn't space-compromised
+- Revised profile input, for 8-character mixed-case English names
+- Runtime-provided FMV subtitling
+- Translated textures and title-screen logo
 
-## What's in the repository
-
-The patch is the end product, but the point of the repository is to make the
-next translation (or a better English one) easier than this one was:
+## Repository Overview
 
 - **Readable SH-2 assembly** for every change to the game's code, with a small
   assembler that checks each patch against the original bytes before writing
@@ -58,16 +44,14 @@ next translation (or a better English one) easier than this one was:
 
 ## AI Disclosure
 
-This repository was developed with the assistance of AI tools. While I believe that current AI products are inflicting tremendous social, economic, and environmental harms, I also believe that, when used and deployed responsibly, the underlying technology has genuine potential and value for humanity, particularly in the fields of open-source software development, preservation, and accessibility.
-
-If you're dissatisfied with this, I encourage you to fork this repo, or otherwise create your own tools, translation, and/or documentation.
+This repository was developed with the assistance of AI tools. While I believe that current AI products are inflicting tremendous social, economic, and environmental harms, I also believe that, when used and deployed responsibly, the underlying technology has genuine potential and value for humanity, particularly in the fields of open-source software development, preservation, and accessibility. If you're dissatisfied with this, I encourage you to fork this repo, or otherwise create your own tools, translation, and/or documentation.
 
 ## Repository layout
 
 | Directory | What's in it |
 | --- | --- |
-| `assets/text` | The translation itself: shared, platform-neutral JSON. This is what you edit. |
-| `assets/image` | Replacement artwork (PNG). |
+| `assets/text` | Editable JSON translation source texts. |
+| `assets/image` | Replacement textures/artwork. |
 | `assets/font` | Open-source typefaces used to generate the game fonts. |
 | `saturn/` | Saturn extraction, text/font/graphics repacking, engine patches, and the disc build. |
 | `psp/` | The partial PSP port, with the same general structure. |
@@ -81,7 +65,7 @@ Each package has its own README with more detail.
 
 - Python 3.10 or newer
 - [Pillow](https://pypi.org/project/pillow/) (`python -m pip install Pillow`)
-- Your own copies of both Saturn discs as BIN/CUE:
+- Your own copies of the Saturn discs as BIN/CUE:
   - *Shin Megami Tensei: Devil Summoner* (Japan, Rev. B)
   - *Shin Megami Tensei: Devil Summoner - Akuma Zensho* (Japan)
 
@@ -129,10 +113,10 @@ Use the image in `build/game/` with an emulator or real hardware.
 To turn a build into a distributable BPS patch for Track 1 of the game disc:
 
 ```powershell
-python -B saturn/rom/patch.py create --version 0.2.1
+python -B saturn/rom/patch.py create --version 0.2.2
 ```
 
-This writes `saturn/rom/patch/devil_summoner_en_v0.2.1.bps`, checks that it
+This writes `saturn/rom/patch/devil_summoner_en_v0.2.2.bps`, checks that it
 reproduces the build exactly, and prints the CRC32 and SHA-256 of the original
 and patched Track 1.
 

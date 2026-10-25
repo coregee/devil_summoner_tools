@@ -77,7 +77,7 @@ not a playtest.
 ## Patch
 
 ```powershell
-python saturn/rom/patch.py create --version 0.2.1
+python saturn/rom/patch.py create --version 0.2.2
 python saturn/rom/patch.py apply PATCH.bps ORIGINAL_TRACK1.bin OUTPUT.bin
 ```
 

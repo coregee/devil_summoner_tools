@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.2.2 (Saturn)
+
+A bug-fix release. Apply it to the original **Rev. B** Track 1, not on top of an
+earlier patch; see [PATCHING.md](PATCHING.md).
+
+- **Escape lines:** when running from a fight, a demon's reply could wrap onto
+  a third row below the chat window and stay on screen. Every escape line now
+  fits on one row, and the build checks it. Four lines are reworded to fit.
+
 ## v0.2.1 (Saturn)
 
 A bug-fix release. Apply it to the original **Rev. B** Track 1, not on top of an

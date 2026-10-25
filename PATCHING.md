@@ -29,10 +29,8 @@ and refuses the wrong file, so you can't end up with a half-patched disc.
 
 ## Steps
 
-1. Make a copy of the whole disc folder. Patch the copy, not your only dump.
-   Each patch applies to the original Japanese Track 1, so to update from an
-   earlier version, start again from your unpatched copy.
-2. Apply `devil_summoner_en_v0.2.1.bps` to the **Track 1** BIN using one of:
+1. Make a copy of the whole disc folder. 
+2. Apply `devil_summoner_en_v0.2.2.bps` to the **Track 1** BIN using one of:
    - [Floating IPS (Flips)](https://github.com/Alcaro/Flips/releases): choose
      *Apply Patch*, pick the BPS, then the Track 1 BIN, then where to save.
    - [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/), in the
@@ -41,30 +39,17 @@ and refuses the wrong file, so you can't end up with a half-patched disc.
    - The script in this repository, if you have Python 3.10+:
 
      ```bash
-     python -B saturn/rom/patch.py apply devil_summoner_en_v0.2.1.bps "Track 1 original.bin" "Track 1 patched.bin"
+     python -B saturn/rom/patch.py apply devil_summoner_en_v0.2.2.bps "Track 1 original.bin" "Track 1 patched.bin"
      ```
 
 3. Save the patched file with the **original Track 1 filename**, replacing the
-   unpatched one in your copy. Leave Track 2 and the CUE file as they are.
+   unpatched one in your copy.
 4. Open the `.cue` file in your emulator, or burn the BIN/CUE to disc.
 
-To check the result, the patched Track 1 for v0.2.1 should be:
+To check the result, the patched Track 1 for v0.2.2 should be:
 
 | | |
 | --- | --- |
 | Size | 430,467,744 bytes |
-| CRC32 | `404deef2` |
-| SHA-256 | `25192986198f8dbd1463645de48058d73f9cf0984e2fc132d8281a832d486908` |
-
-Any Saturn emulator that loads BIN/CUE should work, such as Mednafen / Beetle
-Saturn or Yaba Sanshiro.
-
-## Problems
-
-- **"CRC mismatch" or "source file does not match"**: your Track 1 isn't the
-  Rev. B Redump dump. Check the size and CRC32 above.
-- **The game boots in Japanese**: the emulator is still pointed at the
-  unpatched Track 1. Check the filename in the CUE matches the patched file.
-
-Bugs and translation problems can be reported on the
-[issue tracker](https://github.com/coregee/devil_summoner_tools/issues).
+| CRC32 | `59bd82df` |
+| SHA-256 | `2b22ff1fb27d278dd31a9921b5c00ab7d7228d9fad47c1071d9d7455c952bc5d` |
