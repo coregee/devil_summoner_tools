@@ -8,6 +8,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from engine.core.patching import Patch, apply_patches
+from engine.shared.player_names import PLAYER_NAME_FIELD_BY_KEY
 from engine.core.patch_recipes import (
     PatchRecipe,
     PatchRecipeConfiguration,
@@ -414,7 +415,7 @@ def _runtime_payload() -> tuple[bytes, dict[str, int], tuple[Path, ...]]:
             "CHARACTER_STOCK": 0x0603C5C8,
             "CHAR_OFFSETS": addresses["character_offsets"],
             "CHAR_POOL": addresses["character_pool"],
-            "PLAYER_CODENAME": 0x0023FE14,
+            "PLAYER_CODENAME": PLAYER_NAME_FIELD_BY_KEY["codename"].runtime_address,
             "WORD_TERMINATOR": WORD_TERMINATOR,
             "FONT16_SPACE": FONT16_SPACE,
             "FONT8_CODE_MAP": addresses["font8_map"],

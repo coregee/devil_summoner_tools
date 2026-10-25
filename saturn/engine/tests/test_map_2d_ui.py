@@ -19,7 +19,7 @@ from text.util.event_repack import FontMetrics
 import engine.surfaces.map_2d_ui as map_2d
 from engine.shared.player_names import PLAYER_NAME_FIELD_BY_KEY
 
-MATURE_HASH = "dce250711d7a596bb6c675c76c8cc30542181f00570c5bd4a92d3b7eca6b1123"
+MATURE_HASH = "fef6f2ee46d9181e80a0fcbd6b48225ee83c807aec76aa26530f78c6776656e6"
 
 
 class Map2dUiEngineTests(unittest.TestCase):

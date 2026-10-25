@@ -26,7 +26,7 @@ BUILD_CONFIG_PATH = SATURN_ROOT / "build_config.json"
 VISUAL_MANIFEST_PATH = SATURN_ROOT / "visual" / "modified" / "game" / "manifest.json"
 EXTRACTED_ROOT = (SATURN_ROOT / "rom" / "extracted").resolve()
 EXPECTED_OUTPUT_SHA256 = (
-    "3cbbf6ec70887cdb49a46c006767550438da684a30b5a754d6ce7c811d337814"
+    "c84be2ef428fc201e54389c8b41486947a20ac3b68d08dc45a3197b2ba62fea8"
 )
 STOCK_MSGR_SHA256 = (
     "fc483f3483b14591bef0af1981d2d142c3621506981a596b31595283daa183fa"

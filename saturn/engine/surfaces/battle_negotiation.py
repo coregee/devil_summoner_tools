@@ -8,6 +8,7 @@ import struct
 from pathlib import Path, PurePosixPath
 
 from engine.core.patching import Patch, apply_patches
+from engine.shared.player_names import PLAYER_NAME_FIELD_BY_KEY
 from engine.core.patch_recipes import (
     PatchRecipe,
     PatchRecipeConfiguration,
@@ -489,7 +490,7 @@ def _bind_static_patches(
 
     pointer_contracts = {
         "dispatch_cave_pointer": DISPATCH_CAVE_ADDRESS,
-        "combat_codename_pointer": 0x0023FE14,
+        "combat_codename_pointer": PLAYER_NAME_FIELD_BY_KEY["codename"].runtime_address,
     }
     link_contracts = {
         "dialogue_dispatch": dispatch.labels["dialogue_dispatch"],

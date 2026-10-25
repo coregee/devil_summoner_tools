@@ -40,7 +40,7 @@ from engine.surfaces.save_load_ui import (  # noqa: E402
 
 ENGINE_HASHES = {
     SAVE_TARGET: "cd266b06c9cf9b8194c1a5fc7dce0fb22853c6b13dc39587eb1871b161cfae24",
-    LOAD_TARGET: "7548a195f70378b8e9e2401db047bb70661fc5e6356da6eaf85e8ac2e692f89b",
+    LOAD_TARGET: "56abf0bccf4483119b064e9c5577ce1fb4bf4623e9b87222b8e11f9c877b1f55",
 }
 VISUAL_SPANS = {
     SAVE_TARGET: (0x383F0, 0x37070, 0x3FD30, 0x34970),

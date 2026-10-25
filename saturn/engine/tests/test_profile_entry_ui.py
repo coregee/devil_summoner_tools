@@ -16,7 +16,7 @@ import engine.surfaces.profile_entry_ui as profile  # noqa: E402
 from engine.core.patching import PatchError  # noqa: E402
 
 
-EXPECTED_HASH = "9143d8961f1193aa23a8033f70c829214fa7a40e149e6467b335f23e7ad61f41"
+EXPECTED_HASH = "4b80357f86848a0da6fe15b484fbcaaff4e3d0db85b35a6eaee092b75bc8e527"
 
 
 class ProfileEntryUiEngineTests(unittest.TestCase):
@@ -51,7 +51,7 @@ class ProfileEntryUiEngineTests(unittest.TestCase):
         self.assertEqual(self.build.runtime_capacity, 6840)
         self.assertEqual(
             hashlib.sha256(arena.replacement).hexdigest(),
-            "419fc4026acf7d81560dd3d0dae8d22687ef5f9dd349203e428ec1348c6c4290",
+            "81e4f5fbcfb075a25d0fcaecae1d58d0a8a11f5e2de464e334767ee8896c230b",
         )
         self.assertEqual(
             hashlib.sha256(arena.replacement[:2636]).hexdigest(),
@@ -59,7 +59,7 @@ class ProfileEntryUiEngineTests(unittest.TestCase):
         )
         self.assertEqual(
             hashlib.sha256(arena.replacement[2636:5376]).hexdigest(),
-            "10d962de9b5474205b39cbc883feb30b7b0ebd07431c074cefb139374cb964dd",
+            "c17e101277f00d90e2a6fac5b4ebfbd88c3f33fa92536bf36c7938b3ab72e6ed",
         )
         self.assertFalse(any(arena.replacement[5376:]))
 

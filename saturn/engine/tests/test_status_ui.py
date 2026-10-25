@@ -84,11 +84,11 @@ from text.util.event_repack import FontMetrics  # noqa: E402
 
 
 BASE_HASH = "11b7e6c177c832fae8dd10b69c02153c3732fe0f51f9cc025cad843e8d741392"
-EXPECTED_HASH = "9b7fc35d49a2488900100327e72979c2aa90d6f4cd07c4fede42ed5ce0080c1d"
+EXPECTED_HASH = "8a2b1b80558594c015e173b42afcca7d5f47137f52d963b1a0ba1ab054c73a7a"
 EXPECTED_COMPONENT_HASHES = {
     "wrapper_cave": "b841af4246a3ef6bd28ddd765dda6416b16739abcb5fc4549178b6a5d193c824",
     "font12_atlas": "60a8c8ad56a3723e663b8afc870f915e9111616771e640d3373beef1e6c81d46",
-    "english_status_runtime": "9cffa78caa83c2c5eb35692e24fbd4ae2150f33b8fbc842ade9c2a811e81ddb2",
+    "english_status_runtime": "564c3cf8bed8c0d0a2a5b99b81595745a16abc884f5618497a5dcd8113b534a4",
 }
 EXPECTED_ASSEMBLY = {
     "status_ui/auto_action_vwf.s",

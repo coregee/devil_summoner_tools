@@ -18,6 +18,7 @@ from engine.core.patch_recipes import (
     resolve_recipe_expected,
 )
 from engine.core.patching import Patch, apply_patches
+from engine.shared.player_names import PLAYER_NAME_FIELD_BY_KEY
 from engine.core.sh2 import AssemblyError, assemble_file
 from engine.shared.font8 import font8_tables
 from engine.shared.status_layout import (
@@ -129,7 +130,7 @@ FONT16_DRAWER = 0x06029C8C
 NAME_PREPARE = 0x0602A05C
 NAME_SURFACE = 0x06059580
 CHARACTER_SELECTOR = 0x06059878
-PLAYER_NAME = 0x0023FE14
+PLAYER_NAME = PLAYER_NAME_FIELD_BY_KEY["codename"].runtime_address
 LEARNED_LIST_POINTER = 0x060598AC
 MAGNAME_BASE = 0x0022F7A0
 MAGNAME_POINTER_OFFSET = 0x5E
