@@ -47,6 +47,13 @@ BTL_HELP_WIDTH = 300
 BTL_HELP_LINES = 2
 BTL_SRF_WIDTH = 176
 BTL_SRF_LINES = 2
+# COMBAT's chat selector (0x0604DBDC) picks BTL_SRF record
+# (category - 1) * 36 + slot. Categories 8-10 fill the escape box: the demon's
+# reaction goes on the first row, and the selector forces the success (9) or
+# failure (10) reply onto the row below, so each of those records gets one row.
+BTL_SRF_CATEGORY_SLOTS = 36
+BTL_SRF_ESCAPE_CATEGORIES = (8, 9, 10)
+ESCAPE_CHAT_SURFACE = "battle.escape_chat"
 TERMINATOR_BYTE = 0x80
 TERMINATOR_WORD = 0x8000
 NEWLINE_WORD = 0x8001
@@ -105,6 +112,22 @@ def _bound_fields(prefix: str) -> dict[str, str]:
             )
             values[physical_id] = translation
     return values
+
+
+def _surface_records(prefix: str, surface: str) -> frozenset[str]:
+    """Return the bound records in a physical family tagged with a surface."""
+    physical = load_physical_records()
+    tagged: set[str] = set()
+    for path in sorted(BINDING_ROOT.glob("*.json")):
+        if prefix not in path.read_text(encoding="utf-8"):
+            continue
+        binding = load_binding(path, physical_records=physical)
+        tagged.update(
+            physical_id
+            for physical_id, surfaces in binding.record_surfaces.items()
+            if physical_id.startswith(prefix) and surface in surfaces
+        )
+    return frozenset(tagged)
 
 
 def _require_visible_coverage(prefix: str, values: dict[str, str]) -> None:
@@ -343,19 +366,39 @@ def compile_indexed_words(
     dictionary: EventDictionary,
     wrap_width: int | None,
     wrap_lines: int | None,
+    single_row_surface: str | None = None,
 ) -> PointerBuild:
     original = _read_word_records(stock, count, sentinel_offset)
     translations = _bound_fields(prefix)
     _require_visible_coverage(prefix, translations)
+    single_row = (
+        _surface_records(prefix, single_row_surface)
+        if single_row_surface is not None
+        else frozenset()
+    )
+    if single_row and wrap_width is None:
+        raise ValueError(f"{prefix} single-row records need a wrap width")
     records: list[tuple[int, ...]] = []
+    overflows: list[str] = []
     translated = 0
     for index, raw in enumerate(original):
         physical_id = f"{prefix}p{index:04d}"
         text = translations.get(physical_id)
+        if text and physical_id in single_row:
+            assert wrap_width is not None
+            width = _font16_width(_normalize(text).replace("\n", " "), metrics)
+            if width > wrap_width:
+                overflows.append(
+                    f"{physical_id}: {width}px, limit is {wrap_width}px "
+                    f"on one row: {text!r}"
+                )
+                records.append(raw)
+                continue
         if text:
             try:
-                if wrap_width is not None and wrap_lines is not None:
-                    text = _wrap(text, metrics, wrap_width, wrap_lines)
+                lines = 1 if physical_id in single_row else wrap_lines
+                if wrap_width is not None and lines is not None:
+                    text = _wrap(text, metrics, wrap_width, lines)
                 words = dictionary.encode_codes(_font16_codes(text, metrics))
             except ValueError as error:
                 raise ValueError(f"{physical_id}: {error}") from error
@@ -364,6 +407,11 @@ def compile_indexed_words(
             raw = tuple((*words, TERMINATOR_WORD))
             translated += 1
         records.append(raw)
+    if overflows:
+        raise ValueError(
+            f"{len(overflows)} {single_row_surface} lines don't fit on one row:\n"
+            + "\n".join(overflows)
+        )
     body_words = sum(map(len, records))
     capacity = (len(stock) - WORD_BODY_OFFSET) // 2
     if body_words > capacity:

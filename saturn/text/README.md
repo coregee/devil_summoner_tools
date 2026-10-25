@@ -482,6 +482,7 @@ value can't turn into a guess.
 | Event and negotiation windows | | 300 px × 3 rows (separate surfaces) |
 | Battle console | 16 cells × 3 rows | 16 cells × 3 rows |
 | Demon Chat | 11 cells × 2 rows | 176 px × 2 rows |
+| Escape chat | 11 cells × 1 row | 176 px × 1 row |
 | Battle help | 20 cells × 2 rows | 300 px × 2 rows |
 | Battle item, skill and party names | | 80 px |
 | Analyze names and short affinities | | 112 px |
@@ -502,6 +503,13 @@ two-by-two grid of 150px columns; the game clips anything wider, and the
 build fails on it. The editor also warns past 142px. Two-way choices have
 Japanese options up to 15 cells, so they get a 240px limit: the widest the
 original is known to use, not a measured maximum.
+
+Demon Chat records are re-wrapped to 176px, so their `{n}` is only a hint.
+The escape box is the exception: the demon's reaction (category 8) takes the
+first row and the success or failure reply (categories 9 and 10) is forced
+onto the row below, so neither can wrap. Those 88 records, pointers
+p0252-p0359, are tagged `battle.escape_chat`, and the build fails if one
+doesn't fit on a single 176px row.
 
 ### Locations and SAVE/LOAD
 

@@ -644,6 +644,12 @@ Example consumers include:
 "ア～、ダル～。
 チョット、マッテクレ。".
 
+When escaping, the window shows two separate one-row lines instead: the
+demon's reaction ("逃げるも、また策・・・") and then whether the escape worked
+("逃さぬも、また策なり。"). The game puts the second line on the row below the
+first, so a reaction that wraps is overwritten and a reply that wraps falls
+outside the window. Each escape line must fit on one row.
+
 #### Result Window
 
 On defeating the enemies, the game displays a result window, all using FONT8 consumers.
@@ -665,6 +671,7 @@ labels, and the whole fixed-width console bank. Measured English limits:
 | Analyze names and affinities | 112px |
 | Help | 300px, two rows |
 | Demon Chat | 176px, two rows |
+| Escape chat | 176px, one row |
 | Result names | 88px |
 
 The Analyze race heading is a fixed eight-cell FONT8 record rather than a

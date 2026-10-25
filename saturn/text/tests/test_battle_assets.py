@@ -11,6 +11,11 @@ if str(TEXT_ROOT) not in sys.path:
     sys.path.insert(0, str(TEXT_ROOT))
 
 from util.assets import BINDING_ROOT, load_asset, load_binding  # noqa: E402
+from util.battle_ui import (  # noqa: E402
+    BTL_SRF_CATEGORY_SLOTS,
+    BTL_SRF_ESCAPE_CATEGORIES,
+    ESCAPE_CHAT_SURFACE,
+)
 from util.surfaces import load_surfaces  # noqa: E402
 
 
@@ -122,6 +127,20 @@ class BattleAssetTests(unittest.TestCase):
             "HEY, SUMMONER...{n}DID YOU SAY SOMETHING?{demon_name}",
         )
         self.assertEqual(dict(first.placeholders), {"demon_name": "demon_name"})
+
+    def test_escape_box_records_are_tagged_single_row(self) -> None:
+        first = (BTL_SRF_ESCAPE_CATEGORIES[0] - 1) * BTL_SRF_CATEGORY_SLOTS
+        stop = BTL_SRF_ESCAPE_CATEGORIES[-1] * BTL_SRF_CATEGORY_SLOTS
+        escape = {
+            physical_id
+            for physical_id in self.demon_chat_binding.records
+            if first <= int(physical_id.rsplit(".p", 1)[1]) < stop
+        }
+        self.assertEqual(len(escape), 88)
+        self.assertEqual(
+            dict(self.demon_chat_binding.record_surfaces),
+            {physical_id: (ESCAPE_CHAT_SURFACE,) for physical_id in escape},
+        )
 
     def test_condition_messages_partition_between_personalities_and_fallbacks(
         self,
@@ -242,6 +261,10 @@ class BattleAssetTests(unittest.TestCase):
             "battle.demon_chat": (
                 ("font16", 2, "glyph_cells", 11),
                 ("font16", 2, "pixels", 176),
+            ),
+            "battle.escape_chat": (
+                ("font16", 1, "glyph_cells", 11),
+                ("font16", 1, "pixels", 176),
             ),
             "battle.help": (
                 ("font16", 2, "glyph_cells", 20),

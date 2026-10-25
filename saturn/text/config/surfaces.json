@@ -1574,6 +1574,24 @@
         }
       }
     },
+    "battle.escape_chat": {
+      "ja": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "glyph_cells",
+          "value": 11
+        }
+      },
+      "en": {
+        "font": "font16",
+        "rows": 1,
+        "width": {
+          "unit": "pixels",
+          "value": 176
+        }
+      }
+    },
     "battle.result_name": {
       "ja": {
         "font": "font8",

@@ -1361,7 +1361,7 @@
     "dialogue_0151": {
       "text": {
         "reference": "私の前に現れるな！！{demon_name}",
-        "translation": "Never show yourself{n}before me again!{demon_name}"
+        "translation": "Never show your face again!!{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1493,7 +1493,7 @@
     "dialogue_0166": {
       "text": {
         "reference": "逃さぬも、また策なり。{demon_name}",
-        "translation": "Preventing escape is{n}also a strategy.{demon_name}"
+        "translation": "Pursuit, too, is a strategy.{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1670,7 +1670,7 @@
     "dialogue_0186": {
       "text": {
         "reference": "敵前逃亡は銃殺だ！{demon_name}",
-        "translation": "Desertion is punishable{n}by firing squad!{demon_name}"
+        "translation": "Deserters face the firing squad!{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"
@@ -1769,7 +1769,7 @@
     "dialogue_0197": {
       "text": {
         "reference": "やはり中身はニセ者か。{demon_name}",
-        "translation": "So the man inside{n}is an impostor after all.{demon_name}"
+        "translation": "So the inside is a fake after all.{demon_name}"
       },
       "placeholders": {
         "demon_name": "demon_name"

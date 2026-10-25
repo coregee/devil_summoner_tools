@@ -26,6 +26,7 @@ from util.battle_negotiation import (  # noqa: E402
     load_negotiation_translations,
 )
 from util.battle_ui import (  # noqa: E402
+    ESCAPE_CHAT_SURFACE,
     compile_btl_help,
     compile_btl_mes,
     compile_catalog,
@@ -235,6 +236,7 @@ def build_battle_ui_outputs() -> dict[Path, bytes]:
         dictionary=dictionary,
         wrap_width=176,
         wrap_lines=2,
+        single_row_surface=ESCAPE_CHAT_SURFACE,
     )
     butu_srf = compile_indexed_words(
         stock[PurePosixPath("BUTU_SRF.MDT")],
