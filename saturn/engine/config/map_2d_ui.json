@@ -35,13 +35,13 @@
           "name": "city_name_pointer",
           "address": "0x0603db2c",
           "expected": "002029d0",
-          "pointer": "0x0023fe26"
+          "pointer": "0x0023ff86"
         },
         {
           "name": "ward_name_pointer",
           "address": "0x0603db30",
           "expected": "002029d8",
-          "pointer": "0x0023fe38"
+          "pointer": "0x0023ff98"
         },
         {
           "name": "city_copy_clamp_add",

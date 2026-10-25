@@ -57,7 +57,7 @@ class BattleUiEngineTests(unittest.TestCase):
     def test_complete_authored_runtime_is_reproduced(self) -> None:
         self.assertEqual(
             hashlib.sha256(self.combat).hexdigest(),
-            "aeb7813ba6092745733f9f6a363ab28bf7d714c7218a845e7b3a24fecf89ffb7",
+            "abfb3b67c43e46eaec076c6927f81ab0ea32fb0876e2eabcab042fa0bc1c5125",
         )
         self.assertEqual(
             hashlib.sha256(self.outputs[NORMCOM_OUTPUT_PATH]).hexdigest(),

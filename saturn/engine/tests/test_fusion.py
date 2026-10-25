@@ -40,7 +40,7 @@ class FusionEngineTests(unittest.TestCase):
         self.assertEqual(len(self.fusion.runtime), 5978)
         self.assertEqual(
             hashlib.sha256(self.fusion.runtime).hexdigest(),
-            "14585ce1d5311fc90a6125163f5955ad3f2fa15d8ce5d456a3101b68072362f5",
+            "22ee7764de06e22846b4f99877d3ead48a267c8ad9807fb22d585719caa32382",
         )
 
         self.assertEqual(
@@ -168,7 +168,7 @@ class FusionEngineTests(unittest.TestCase):
         self.assertEqual(len(output), 354072)
         self.assertEqual(
             hashlib.sha256(output).hexdigest(),
-            "a60d61a03ee768836c75601b733873009007d8bdd2fb2308fefcc1423b81d1fd",
+            "cf449826f8fd9bce929506a064457aba3e04ce2105accff69a17f81ce1f1e2ae",
         )
 
     def test_manifest_accounts_for_every_consumer_patch(self) -> None:

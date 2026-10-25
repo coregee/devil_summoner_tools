@@ -15,16 +15,16 @@
       "target": "EVENT.BIN",
       "load_address": 100794368,
       "patches": [
-        {"name": "first_insert_pointer", "address": "0x0602c554", "expected": "002029b8", "pointer": "0x0023fdf0"},
+        {"name": "first_insert_pointer", "address": "0x0602c554", "expected": "002029b8", "pointer": "0x0023ff50"},
         {"name": "first_terminator_stamp", "address": "0x0602c51c", "expected": "2121", "instruction": "nop"},
-        {"name": "last_insert_pointer", "address": "0x0602c5c8", "expected": "002029b0", "pointer": "0x0023fe02"},
+        {"name": "last_insert_pointer", "address": "0x0602c5c8", "expected": "002029b0", "pointer": "0x0023ff62"},
         {"name": "last_terminator_stamp", "address": "0x0602c592", "expected": "2121", "instruction": "nop"},
-        {"name": "city_insert_pointer", "address": "0x0602c63c", "expected": "002029d0", "pointer": "0x0023fe26"},
+        {"name": "city_insert_pointer", "address": "0x0602c63c", "expected": "002029d0", "pointer": "0x0023ff86"},
         {"name": "city_terminator_stamp", "address": "0x0602c606", "expected": "2121", "instruction": "nop"},
-        {"name": "ward_insert_pointer", "address": "0x0602c6b0", "expected": "002029d8", "pointer": "0x0023fe38"},
+        {"name": "ward_insert_pointer", "address": "0x0602c6b0", "expected": "002029d8", "pointer": "0x0023ff98"},
         {"name": "ward_terminator_stamp", "address": "0x0602c67a", "expected": "2121", "instruction": "nop"},
         {"name": "codename_skip_copy", "address": "0x0602c44c", "expected": "e300e507", "assembly": ["shared/player_name_inserts/codename_skip.s"]},
-        {"name": "codename_insert_pointer", "address": "0x0602c4d4", "expected": "06076a84", "pointer": "0x0023fe14"},
+        {"name": "codename_insert_pointer", "address": "0x0602c4d4", "expected": "06076a84", "pointer": "0x0023ff74"},
         {
           "name": "raw_menu_name_renderer",
           "address": "0x06030bb4",
@@ -32,8 +32,8 @@
           "expected_size": 96,
           "assembly": ["shared/player_name_inserts/raw_menu_inserts.s"]
         },
-        {"name": "raw_menu_first_insert_pointer", "address": "0x06030d14", "expected": "002029b8", "pointer": "0x0023fdf0"},
-        {"name": "raw_menu_last_insert_pointer", "address": "0x06030d1c", "expected": "002029b0", "pointer": "0x0023fe02"},
+        {"name": "raw_menu_first_insert_pointer", "address": "0x06030d14", "expected": "002029b8", "pointer": "0x0023ff50"},
+        {"name": "raw_menu_last_insert_pointer", "address": "0x06030d1c", "expected": "002029b0", "pointer": "0x0023ff62"},
         {"name": "raw_menu_name_result_06030c66", "address": "0x06030c66", "expected": "618371026111", "assembly": ["shared/player_name_inserts/raw_menu_result.s"]},
         {"name": "raw_menu_name_result_06030c98", "address": "0x06030c98", "expected": "618371026111", "assembly": ["shared/player_name_inserts/raw_menu_result.s"]}
       ]

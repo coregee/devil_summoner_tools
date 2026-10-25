@@ -26,7 +26,7 @@ from engine.core.patch_recipes import (
 from engine.core.patching import Patch, apply_patches
 from engine.core.sh2 import Assembly, AssemblyError, assemble_file
 from engine.shared.font8 import font8_tables
-from engine.shared.player_names import CODENAME_BYTES
+from engine.shared.player_names import CODENAME_BYTES, PLAYER_NAME_FIELD_BY_KEY
 from engine.shared.status_layout import (
     derived_rows,
     direct_color_node,
@@ -169,7 +169,7 @@ CURRENT_NAME_PTR = 0x06076BA0
 RACE_SOURCE = 0x06074828
 AFFINITY_SOURCE = 0x060744EA + 32 * 34
 AFFINITY_SELECTOR = 0x06076FF0
-PLAYER_STATUS_NAME = 0x0023FE14
+PLAYER_STATUS_NAME = PLAYER_NAME_FIELD_BY_KEY["codename"].runtime_address
 MAGNAME_BASE = 0x0022F7A0
 MAGNAME_FIRST = MAGNAME_BASE + 4
 MAGNAME_END = 0x00235740

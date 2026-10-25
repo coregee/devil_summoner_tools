@@ -24,7 +24,7 @@ from text.util.event_codec import load_event_dictionary  # noqa: E402
 from text.util.event_repack import FontMetrics  # noqa: E402
 
 
-MATURE_HASH = "3cbbf6ec70887cdb49a46c006767550438da684a30b5a754d6ce7c811d337814"
+MATURE_HASH = "c84be2ef428fc201e54389c8b41486947a20ac3b68d08dc45a3197b2ba62fea8"
 EXPECTED_ASSEMBLY = {
     "font16_subpixel_blitter.s",
     "shared/event_window/absolute_jump.s",

@@ -17,6 +17,7 @@ from engine.core.patch_recipes import (
     resolve_recipe_expected,
 )
 from engine.core.patching import Patch, apply_patches
+from engine.shared.player_names import PLAYER_NAME_FIELD_BY_KEY
 from engine.core.sh2 import AssemblyError, assemble_file
 from engine.shared.font8 import font8_tables
 from engine.shared.status_layout import (
@@ -143,7 +144,7 @@ CURRENT_PARTY_TYPE = 0x060812BC
 HUMAN_AUTO_STATE = 0x060812D4
 DEMON_AUTO_STATE = 0x0607B9CC
 CURRENT_NAME_PTR = 0x0607B980
-PLAYER_STATUS_NAME = 0x0023FE14
+PLAYER_STATUS_NAME = PLAYER_NAME_FIELD_BY_KEY["codename"].runtime_address
 RACE_SOURCE = 0x0603F974
 AFFINITY_SOURCE = 0x0603FA76
 AFFINITY_SELECTOR = 0x06081170

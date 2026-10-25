@@ -22,7 +22,7 @@ from engine.build import (  # noqa: E402
 
 
 EXPECTED_OUTPUT_SHA256 = (
-    "9143d8961f1193aa23a8033f70c829214fa7a40e149e6467b335f23e7ad61f41"
+    "4b80357f86848a0da6fe15b484fbcaaff4e3d0db85b35a6eaee092b75bc8e527"
 )
 STOCK_NAME_SHA256 = (
     "cafacc4bfdd8dd1d3255d48814829e564926f6425576b82de45b54310ebcb538"

@@ -24,8 +24,8 @@ from engine.shared.player_names import (  # noqa: E402
 
 class PlayerNameContractTests(unittest.TestCase):
     def test_wram_contract_matches_the_save_and_name_consumers(self) -> None:
-        self.assertEqual(NAME_FW, 0x0023FDF0)
-        self.assertEqual(NAME_FW_FULL, 0x0023FE50)
+        self.assertEqual(NAME_FW, 0x0023FF50)
+        self.assertEqual(NAME_FW_FULL, 0x0022F74C)
         self.assertEqual(CODENAME_BYTES, 0x0023FFD0)
         self.assertEqual(
             tuple((row.key, row.stage_address) for row in PLAYER_NAME_FIELDS),
@@ -41,6 +41,18 @@ class PlayerNameContractTests(unittest.TestCase):
             tuple(row.runtime_address for row in PLAYER_NAME_FIELDS),
             tuple(NAME_FW + index * FONT16_ROW_STRIDE for index in range(5)),
         )
+
+    def test_name_buffers_stay_clear_of_live_name_tables(self) -> None:
+        # DVLNAME.DAT is resident at 0x0023F5D0; rows 0-303 are real demons
+        # and rows 304-318 are unused "boss reserve" entries.
+        dvlname = 0x0023F5D0
+        rows_end = NAME_FW + len(PLAYER_NAME_FIELDS) * FONT16_ROW_STRIDE
+        self.assertGreaterEqual(NAME_FW, dvlname + 304 * 8)
+        self.assertLessEqual(rows_end, dvlname + 319 * 8)
+        # The combined row (17 glyphs plus a terminator) fits in the unused
+        # Event 0F item description, before MAGNAME starts at 0x0022F7A0.
+        self.assertGreaterEqual(NAME_FW_FULL, 0x0022F74C)
+        self.assertLessEqual(NAME_FW_FULL + 18 * 2, 0x0022F7A0)
 
     def test_complete_byte_tables_have_safe_fallbacks(self) -> None:
         font16 = {" ": 4, "?": 7, "A": 9}

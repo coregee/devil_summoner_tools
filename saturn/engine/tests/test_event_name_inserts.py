@@ -33,7 +33,7 @@ class EventNameInsertsEngineTests(unittest.TestCase):
         self.assertEqual(len(self.build.data), 354072)
         self.assertEqual(
             hashlib.sha256(self.build.data).hexdigest(),
-            "64dfdf3f6ca203f9640a9c13baa01016f1f48a043c66d17d7cdc10c6a6ab2639",
+            "5b36e1702c5dafb80620d0f1479eb666b325a5fe65d32aaed63f0f3831f3989e",
         )
         self.assertEqual(len(self.build.patches), 15)
         self.assertEqual(self.build.runtime_used_size, 86)
@@ -44,12 +44,12 @@ class EventNameInsertsEngineTests(unittest.TestCase):
         fusion = build_fusion_menu(stock_event(), dialogue).data
         self.assertEqual(
             hashlib.sha256(fusion).hexdigest(),
-            "a60d61a03ee768836c75601b733873009007d8bdd2fb2308fefcc1423b81d1fd",
+            "cf449826f8fd9bce929506a064457aba3e04ce2105accff69a17f81ce1f1e2ae",
         )
         composed = inserts.build_event_name_inserts(fusion)
         self.assertEqual(
             hashlib.sha256(composed.data).hexdigest(),
-            "5ab530a29f1656ef579971faa29d6a4c6e2173aad4e0c72bd99602018ac37867",
+            "92649d48e77505ed2f153f88e5a33944c977b81ea7a1f9c40ab5ce165df78ec6",
         )
 
     def test_exact_fifteen_recipe_inventory_is_readable(self) -> None:

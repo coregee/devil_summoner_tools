@@ -20,8 +20,13 @@ FONT16_TERMINATOR = 0x8000
 FONT16_ROW_WORDS = MAX_NAME_BYTES + 1
 FONT16_ROW_STRIDE = FONT16_ROW_WORDS * 2
 
-NAME_FW = 0x0023FDF0
-NAME_FW_FULL = 0x0023FE50
+# The game keeps DVLNAME.DAT resident at 0x0023F5D0-0x0023FFC8. Its last
+# fifteen rows (304-318) are unused "boss reserve" entries, so the five name
+# rows live there; anything earlier in the table belongs to real demons.
+NAME_FW = 0x0023FF50
+# Nothing reads the combined row; it sits in the description of the unused
+# "Event 0F" item, the last ITEMNAME record (0x00228C00-0x0022F7A0).
+NAME_FW_FULL = 0x0022F74C
 CODENAME_BYTES = 0x0023FFD0
 
 
