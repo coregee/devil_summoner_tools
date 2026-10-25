@@ -16,7 +16,7 @@ is here, and forks, fixes and new translations are very welcome.
 
 | Target | State |
 | --- | --- |
-| Saturn game disc (Rev. B) | **v0.2.** Feature-complete: all of the game's text, fonts, menus, FMV subtitles and translated graphics. |
+| Saturn game disc (Rev. B) | **v0.2.1.** Feature-complete: all of the game's text, fonts, menus, FMV subtitles and translated graphics. |
 | Saturn *Akuma Zensho* disc | **Broken.** The build produces an image, but the translated compendium does not work correctly in game. Don't rely on it. |
 | PSP | **Very incomplete.** A number of individual screens are translated and build cleanly (see [`psp/README.md`](psp/README.md)), but most of the game is still in Japanese. |
 
@@ -129,10 +129,10 @@ Use the image in `build/game/` with an emulator or real hardware.
 To turn a build into a distributable BPS patch for Track 1 of the game disc:
 
 ```powershell
-python -B saturn/rom/patch.py create --version 0.2
+python -B saturn/rom/patch.py create --version 0.2.1
 ```
 
-This writes `saturn/rom/patch/devil_summoner_en_v0.2.bps`, checks that it
+This writes `saturn/rom/patch/devil_summoner_en_v0.2.1.bps`, checks that it
 reproduces the build exactly, and prints the CRC32 and SHA-256 of the original
 and patched Track 1.
 

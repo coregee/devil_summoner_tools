@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.2.1 (Saturn)
+
+A bug-fix release. Apply it to the original **Rev. B** Track 1, not on top of an
+earlier patch; see [PATCHING.md](PATCHING.md). It includes everything in v0.2.
+
+- **Boss and special-character names:** in some fights, demons such as Yakou
+  and Tenaga were named "Mysterious Man" in the TALK and Analyze windows. The
+  patch kept the player's names in memory the game also uses for demon names,
+  and overwrote the last part of that table. The names now live in unused space.
+
 ## v0.2 (Saturn)
 
 A full revision of the English script against the Japanese. Apply it to the
