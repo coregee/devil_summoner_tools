@@ -221,9 +221,6 @@ not covered by it, and the bundled fonts keep their own licenses. See
 
 ## Screenshots
 
-From an earlier Saturn build that this tooling reproduces. FMV subtitles are
-now drawn by the game at runtime rather than burned into the video.
-
 | **Title** | **Fusion Table** |
 | :---: | :---: |
 | ![Translated title screen](saturn/docs/preview_screens/title.png) | ![Translated fusion table](saturn/docs/preview_screens/fusion.png) |
