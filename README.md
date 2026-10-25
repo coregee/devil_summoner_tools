@@ -114,10 +114,10 @@ Use the image in `build/game/` with an emulator or real hardware.
 To turn a build into a distributable BPS patch for Track 1 of the game disc:
 
 ```powershell
-python -B saturn/rom/patch.py create --version 0.2.2
+python -B saturn/rom/patch.py create --version 0.2.3
 ```
 
-This writes `saturn/rom/patch/devil_summoner_en_v0.2.2.bps`, checks that it
+This writes `saturn/rom/patch/devil_summoner_en_v0.2.3.bps`, checks that it
 reproduces the build exactly, and prints the CRC32 and SHA-256 of the original
 and patched Track 1.
 

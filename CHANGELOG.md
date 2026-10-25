@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.2.3 (Saturn)
+
+A bug-fix release. Apply it to the original **Rev. B** Track 1, not on top of an
+earlier patch; see [PATCHING.md](PATCHING.md).
+
+- **Ending credits:** the last two screens of the staff roll drew garbage in
+  place of their empty rows, and the Test Player list repeated a Special
+  Thanks name. Both screens now match the original layout.
+
 ## v0.2.2 (Saturn)
 
 A bug-fix release. Apply it to the original **Rev. B** Track 1, not on top of an

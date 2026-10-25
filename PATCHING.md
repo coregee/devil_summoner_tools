@@ -30,7 +30,7 @@ and refuses the wrong file, so you can't end up with a half-patched disc.
 ## Steps
 
 1. Make a copy of the whole disc folder. 
-2. Apply `devil_summoner_en_v0.2.2.bps` to the **Track 1** BIN using one of:
+2. Apply `devil_summoner_en_v0.2.3.bps` to the **Track 1** BIN using one of:
    - [Floating IPS (Flips)](https://github.com/Alcaro/Flips/releases): choose
      *Apply Patch*, pick the BPS, then the Track 1 BIN, then where to save.
    - [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/), in the
@@ -39,17 +39,17 @@ and refuses the wrong file, so you can't end up with a half-patched disc.
    - The script in this repository, if you have Python 3.10+:
 
      ```bash
-     python -B saturn/rom/patch.py apply devil_summoner_en_v0.2.2.bps "Track 1 original.bin" "Track 1 patched.bin"
+     python -B saturn/rom/patch.py apply devil_summoner_en_v0.2.3.bps "Track 1 original.bin" "Track 1 patched.bin"
      ```
 
 3. Save the patched file with the **original Track 1 filename**, replacing the
    unpatched one in your copy.
 4. Open the `.cue` file in your emulator, or burn the BIN/CUE to disc.
 
-To check the result, the patched Track 1 for v0.2.2 should be:
+To check the result, the patched Track 1 for v0.2.3 should be:
 
 | | |
 | --- | --- |
 | Size | 430,467,744 bytes |
-| CRC32 | `59bd82df` |
-| SHA-256 | `2b22ff1fb27d278dd31a9921b5c00ab7d7228d9fad47c1071d9d7455c952bc5d` |
+| CRC32 | `6cfbae60` |
+| SHA-256 | `44ae574f3dd068a6b122f90799fd92397c22996a97e0a35358a33dae07f04667` |
