@@ -66,6 +66,9 @@ RUNTIME_INPUT_FILES = (
 
 MAIN_COUNT = 28
 TEST_COUNT = 12
+# The main staff-test grid holds the first ten test names, the extra grid the
+# other two; each stock loop also draws trailing blank rows.
+TEST_MAIN_COUNT = 10
 FIELD_COUNT = MAIN_COUNT + TEST_COUNT
 MAIN_CELLS = 6
 TEST_CELLS = 7
@@ -419,6 +422,7 @@ def _build_runtime() -> _Runtime:
             TEST_MAIN_WRAPPER,
             {
                 "INDEX_BASE": MAIN_COUNT,
+                "NAME_COUNT": TEST_MAIN_COUNT,
                 "RENDERER": RENDERER,
                 "VDP_BITMAP": TEST_VDP_BITMAP,
             },
@@ -431,7 +435,8 @@ def _build_runtime() -> _Runtime:
             ASSEMBLY_FILES[1],
             TEST_EXTRA_WRAPPER,
             {
-                "INDEX_BASE": MAIN_COUNT + 10,
+                "INDEX_BASE": MAIN_COUNT + TEST_MAIN_COUNT,
+                "NAME_COUNT": TEST_COUNT - TEST_MAIN_COUNT,
                 "RENDERER": RENDERER,
                 "VDP_BITMAP": TEST_VDP_BITMAP,
             },

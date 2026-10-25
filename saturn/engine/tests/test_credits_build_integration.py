@@ -22,7 +22,7 @@ from engine.build import (  # noqa: E402
 BUILD_CONFIG_PATH = SATURN_ROOT / "build_config.json"
 VISUAL_MANIFEST_PATH = SATURN_ROOT / "visual" / "modified" / "game" / "manifest.json"
 EXTRACTED_ROOT = (SATURN_ROOT / "rom" / "extracted").resolve()
-OUTPUT_HASH = "cb9059287736d1c173c8fd2a3757409a8fd2f80cf23d5880c310df9a7f618a42"
+OUTPUT_HASH = "cc5afd6298679e23f4fc3bacac1e06348b78c50c24f7e0b53acee0d8d802f854"
 STOCK_HASH = "b72559e959c0e4392557b540f9bd09652cb06d9c061a160f9274e2f2fed63b5f"
 
 

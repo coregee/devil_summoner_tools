@@ -15,7 +15,7 @@ if str(SATURN_ROOT) not in sys.path:
 import engine.surfaces.credits_ui as credits  # noqa: E402
 
 
-MATURE_HASH = "cb9059287736d1c173c8fd2a3757409a8fd2f80cf23d5880c310df9a7f618a42"
+MATURE_HASH = "cc5afd6298679e23f4fc3bacac1e06348b78c50c24f7e0b53acee0d8d802f854"
 
 
 class CreditsUiEngineTests(unittest.TestCase):
@@ -55,8 +55,8 @@ class CreditsUiEngineTests(unittest.TestCase):
         self.assertEqual(self.build.runtime_capacity, 23888)
         expected = {
             "renderer": "67df67fb914be3b2660055134d30da2af59a72fb6d259b3cc68a6b5537c864db",
-            "test_main_wrapper": "bc0ce7e4c41cb033b41e6d484652442067ef87989e600c5081860ac306f2818d",
-            "test_extra_wrapper": "cb9417b7c27dd73b4a9d621a9240098bf130db7c5561aca13c6bbf01993dade6",
+            "test_main_wrapper": "7d3ba0c73c0ea2e2a51b20e07a59d007e58bbe464db3e59fdbab0f68fe025d32",
+            "test_extra_wrapper": "a1aa8e8809d511998eb44c95da8fa26b84317e54524fd5c718df228f67421338",
             "offset_table": "d6f3ee1517c5a732f69264a7c402b95adc79302dbbaccb802717be05f20db467",
             "bitmap_pool": "d84b895b642abf1e9699631717f6d027f96e5e07d646df8614c3c5bd9628531d",
             "main_name_hook": "820ccd1192dfe8211f1ac9f099f454f66bfb0e1a4aea7b1bbe9d570d3b75f1d2",
