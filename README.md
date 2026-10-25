@@ -1,6 +1,7 @@
 # Devil Summoner Translation Tools
 
 Various tools for translating *Shin Megami Tensei: Devil Summoner*.
+
 The repository includes a provisional AI English translation, along with a web toolkit for previewing wrap-widths and modifying lines.
 Given another English AI translation has already been published, I'm adding releases to this repo as an alternative or supplemental resource for any future work on this game.
 
