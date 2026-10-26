@@ -3,8 +3,10 @@
 Various tools for translating *Shin Megami Tensei: Devil Summoner*.
 
 The repository includes a provisional AI English translation, along with a web toolkit for previewing wrap-widths and modifying lines.
-Given another English AI translation has already been published, I'm adding releases to this repo as an alternative or supplemental resource for any future work on this game.
 
+I've previously held off releasing anything "packaged", both because I feel a game as anticipated as this deserves human authorship if at all possible, and out of respect for the PSP Spanish team. (And also because, even with my limited Japanese, I can tell there is a *lot* of wordplay in Devil Summoner)
+
+But, given another English AI translation has already been published, I've decided to release the existing work as a patch, alongside this repo.
 
 **If you're just looking to play the game**, there's a patch for the Sega Saturn Rev B version. Follow the [patching instructions](PATCHING.md), using the [latest release](https://github.com/coregee/devil_summoner_tools/releases).
 
